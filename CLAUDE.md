@@ -31,7 +31,8 @@ gruppo di amici (6-7 giocatori, max 10). Lingua UI: **italiano**. Hostata su
 
 ## Stack
 Next.js 16 (App Router, Server Actions) · React 19 · Tailwind CSS v4 ·
-Embla Carousel · Drizzle ORM · **libSQL/Turso** (locale = file SQLite, prod = Turso).
+Embla Carousel · Drizzle ORM · **libSQL/Turso** (un unico DB cloud su Turso:
+anche l'ambiente locale si collega a quello).
 
 ## Mappa dei file
 - `lib/sheet.ts` — tipo `Sheet` (modello scheda) + `emptySheet()` con scheletro
@@ -56,33 +57,39 @@ Embla Carousel · Drizzle ORM · **libSQL/Turso** (locale = file SQLite, prod = 
 - `drizzle.config.ts` — dialect `sqlite` se `file:`, altrimenti `turso`.
 
 ## Come girare in locale
-1. `.env` (già presente in locale, gitignored):
-   ```
-   DATABASE_URL="file:local.db"
-   SESSION_SECRET="<stringa lunga e casuale>"
-   ```
-2. Crea/aggiorna lo schema:  `npm run db:push`
-3. Semina Ephemer:           `npm run seed`   (PIN di Ephemer: **0000**)
-4. Avvia:                    `npm run dev`  → http://localhost:3000
-   (dal telefono, stessa Wi-Fi, usa l'URL "Network" stampato all'avvio)
+Il locale è collegato **direttamente al DB di produzione (Turso)** — non c'è più un
+DB SQLite locale. `.env` (gitignored) contiene:
+```
+DATABASE_URL="libsql://…turso.io"     # endpoint Turso
+DATABASE_AUTH_TOKEN="<token Turso>"   # segreto, mai committare
+SESSION_SECRET="<stringa casuale>"    # firma i cookie di sblocco (per-dominio)
+```
+Avvia: `npm run dev` → http://localhost:3000 (dal telefono, stessa Wi-Fi, usa l'URL
+"Network" stampato all'avvio).
 
-`local.db` è il DB SQLite locale (gitignored). I dati persistono lì.
+> ⚠️ **Attenzione:** lavorando in locale leggi/scrivi sui **dati reali** di produzione.
+> Anche `npm run db:push` agirebbe sullo schema Turso. PIN di Ephemer: **0000**.
 
 > Nota: gli script in `package.json` invocano `node node_modules/<pkg>/...` (path
 > relativi) invece di `next dev`/`drizzle-kit push`/`tsx`. Workaround storico per un
 > `&` nel vecchio nome cartella che rompeva `npm run` su Windows; oggi è innocuo.
 
-## Deploy (da fare)
-- Creare un DB su **Turso**, prendere URL + auth token.
-- Su Vercel impostare env: `DATABASE_URL` (libsql://…), `DATABASE_AUTH_TOKEN`, `SESSION_SECRET`.
-- Eseguire `db:push` verso Turso una volta, poi (facoltativo) `seed`.
+## Deploy (in produzione)
+- **Live:** https://dd-app-nine.vercel.app — host **Vercel**, repo GitHub
+  `Dimitree88/DDapp` (**pubblico**: solo codice; segreti e dati restano fuori).
+- **Auto-deploy:** ogni push su `main` ri-deploya in automatico.
+- **DB:** Turso (libSQL cloud). Schema spinto con `db:push` e Ephemer seminato.
+- **Env su Vercel** (valori NON qui — il repo è pubblico): `DATABASE_URL`,
+  `DATABASE_AUTH_TOKEN`, `SESSION_SECRET`. Vanno impostati prima del build (l'app
+  legge il DB all'avvio, altrimenti il build fallisce). Sono gli stessi valori del
+  `.env` locale (a parte `SESSION_SECRET`, che in locale è quello di sviluppo).
 
 ## Stato attuale / prossimi passi
 - ✅ Scheletro funzionante: landing, scheda con 10 pagine in swipe, PIN unlock/save,
   Ephemer seminato.
-- ✅ Tema pergamena applicato (font TT Jenevers + sfondo + palette). Type-check pulito;
-  pagine SSR verificate (HTTP 200, asset serviti).
-- ⏳ Da fare: **deploy** su Turso + Vercel; eventuale feedback UX sullo swipe/mobile.
+- ✅ Tema pergamena applicato (font TT Jenevers + sfondo + palette).
+- ✅ **Deployato** su Vercel + Turso; produzione verificata (landing legge Ephemer dal DB).
+- ⏳ Eventuale feedback UX sullo swipe/mobile; aggiungere gli altri personaggi.
 - Non verificato in modo headless: resa visiva reale, swipe col dito, modale PIN,
   salvataggio dal browser (l'utente li prova manualmente).
 
