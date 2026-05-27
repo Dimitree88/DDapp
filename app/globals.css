@@ -1,26 +1,47 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-jenevers);
+  --font-serif: var(--font-jenevers);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-parchment: #ece3d0;
+  --color-card: #fbf7ec;
+  --color-ink: #2b2014;
+  --color-ink-soft: #6f5b3e;
+  --color-ink-faint: #a08a66;
+  --color-line: #bfa67f;
+  --color-accent: #7a2618;
+  --color-accent-strong: #5c1b11;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jenevers), Georgia, "Times New Roman", serif;
+  overscroll-behavior: none;
+  background-color: var(--color-parchment);
+}
+
+/* Strato di pergamena fisso dietro al contenuto: copre sempre la viewport
+   e non si deforma con lo scroll (evita i bug di background-attachment su iOS). */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url(/background.webp) center / cover no-repeat;
+  background-color: var(--color-parchment);
+}
+
+/* Nasconde la scrollbar orizzontale del carosello mantenendo lo scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

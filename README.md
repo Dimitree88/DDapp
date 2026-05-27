@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Schede D&D
 
-## Getting Started
+App **mobile-first** privata per gestire le schede dei personaggi di D&D 5e (regole
+2024) della nostra compagnia (6-10 giocatori). Ogni scheda si sfoglia con lo **swipe
+orizzontale** ed è completamente **libera**: nessun calcolo automatico, tutti i campi
+sono testo modificabile.
 
-First, run the development server:
+## Stack
+- **Next.js 16** (App Router, Server Actions) + **React 19**
+- **Tailwind CSS v4**
+- **Embla Carousel** (navigazione a pagine in swipe)
+- **Drizzle ORM** + **libSQL / Turso** (in locale un file SQLite; in produzione Turso)
+- Hosting previsto: **Vercel** (free tier)
+
+## Avvio in locale
+Requisiti: Node 22+.
 
 ```bash
+# 1. Installa le dipendenze
+npm install
+
+# 2. Crea il file .env (vedi .env.example)
+#    DATABASE_URL="file:local.db"
+#    SESSION_SECRET="<stringa lunga e casuale>"
+
+# 3. Crea lo schema del DB locale
+npm run db:push
+
+# 4. (opzionale) Carica il personaggio di esempio "Ephemer"
+npm run seed        # PIN di Ephemer: 0000
+
+# 5. Avvia il server di sviluppo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Apri **http://localhost:3000**. Per provarla dal telefono (stessa rete Wi-Fi) usa
+l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Come si usa
+- La home elenca i personaggi della compagnia. Toccane uno per vederlo (sola lettura).
+- Per modificare: pulsante **Modifica** → inserisci il **PIN a 4 cifre** della scheda
+  → modifichi i campi → **Salva modifiche**.
+- Crea un nuovo personaggio dal form in fondo alla home (nome + PIN).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Script
+| Comando | Cosa fa |
+| --- | --- |
+| `npm run dev` | Server di sviluppo |
+| `npm run build` / `npm start` | Build e avvio di produzione |
+| `npm run db:push` | Applica lo schema Drizzle al DB |
+| `npm run seed` | Inserisce il personaggio "Ephemer" |
+| `npm run db:studio` | Apre Drizzle Studio sul DB |
 
-## Learn More
+## Variabili d'ambiente
+| Variabile | Locale | Produzione (Turso) |
+| --- | --- | --- |
+| `DATABASE_URL` | `file:local.db` | `libsql://<db>-<org>.turso.io` |
+| `DATABASE_AUTH_TOKEN` | (vuoto) | token Turso |
+| `SESSION_SECRET` | stringa casuale | stringa casuale (diversa) |
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy su Vercel (da fare)
+1. Crea un database su [Turso](https://turso.tech) e ottieni URL + auth token.
+2. Imposta su Vercel le 3 variabili d'ambiente (vedi tabella).
+3. Esegui una volta `npm run db:push` puntando al DB Turso (con le env di produzione).
+4. Collega il repo a Vercel e fai il deploy.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Modello dati
+Una sola tabella `characters`: `id`, `name`, `pin_hash`, e `data` (JSON con l'intera
+scheda — vedi il tipo `Sheet` in `lib/sheet.ts`). La scheda originale di riferimento è
+in `docs/EPHEMER.md`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Note
+- `local.db` (DB locale) e `.env` sono ignorati da git.
+- I dettagli per chi sviluppa con un agente AI sono in `AGENTS.md`.

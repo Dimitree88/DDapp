@@ -1,14 +1,20 @@
 {
-  "name": "ddapp-scaffold",
+  "name": "dnd-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "node node_modules/next/dist/bin/next dev",
+    "build": "node node_modules/next/dist/bin/next build",
+    "start": "node node_modules/next/dist/bin/next start",
+    "lint": "node node_modules/eslint/bin/eslint.js",
+    "db:push": "node node_modules/drizzle-kit/bin.cjs push",
+    "db:studio": "node node_modules/drizzle-kit/bin.cjs studio",
+    "seed": "node --import tsx scripts/seed.ts"
   },
   "dependencies": {
+    "@libsql/client": "^0.17.3",
+    "drizzle-orm": "^0.45.2",
+    "embla-carousel-react": "^8.6.0",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4"
@@ -18,9 +24,12 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.4.2",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
+    "tsx": "^4.22.3",
     "typescript": "^5"
   }
 }
