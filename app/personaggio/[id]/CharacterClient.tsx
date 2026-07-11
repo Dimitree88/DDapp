@@ -333,7 +333,7 @@ export default function CharacterClient({
 
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
-      title: "Stato",
+      title: "Stato & Identità",
       body: (
         <div className="flex flex-col gap-2">
           <div className={grid2}>
@@ -358,13 +358,6 @@ export default function CharacterClient({
             <TextField label="Punti Esperienza" value={sheet.puntiEsperienza} onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
           <TextField label="Ispirazione Eroica" value={sheet.ispirazioneEroica} onChange={(v) => patch({ ispirazioneEroica: v })} />
-        </div>
-      ),
-    },
-    {
-      title: "Identità",
-      body: (
-        <div className="flex flex-col gap-2">
           <TextField label="Specie" value={sheet.specie} onChange={(v) => patch({ specie: v })} multiline />
           <TextField label="Background" value={sheet.background} onChange={(v) => patch({ background: v })} multiline />
           <div className={grid2}>
@@ -372,17 +365,17 @@ export default function CharacterClient({
             <TextField label="Taglia" value={sheet.taglia} onChange={(v) => patch({ taglia: v })} />
           </div>
           <TextField label="Velocità" value={sheet.velocita} onChange={(v) => patch({ velocita: v })} />
-          <div>
-            <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">
-              Lingue
-            </span>
-            <StringListEditor
-              items={toList(sheet.lingue)}
-              onChange={(v) => patch({ lingue: v })}
-              addLabel="Aggiungi lingua"
-            />
-          </div>
         </div>
+      ),
+    },
+    {
+      title: "Lingue",
+      body: (
+        <StringListEditor
+          items={toList(sheet.lingue)}
+          onChange={(v) => patch({ lingue: v })}
+          addLabel="Aggiungi lingua"
+        />
       ),
     },
     {
@@ -636,8 +629,8 @@ export default function CharacterClient({
   ];
 
   const pageOrder = [
-    "Stato",
-    "Identità",
+    "Stato & Identità",
+    "Lingue",
     "Caratteristiche",
     "Abilità",
     "Incantesimi",
