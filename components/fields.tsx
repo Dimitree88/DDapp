@@ -1,9 +1,9 @@
 "use client";
 
 const inputBase =
-  "w-full rounded-lg border border-line bg-card/80 px-3 py-2 text-base text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none";
+  "w-full rounded-lg border border-line bg-card/80 px-3 py-1.5 text-[15px] text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none";
 const readonlyBase =
-  "w-full rounded-lg border border-transparent bg-card/40 px-3 py-2 text-base text-ink min-h-[2.6rem]";
+  "w-full rounded-lg border border-transparent bg-card/40 px-3 py-1 text-[15px] text-ink min-h-[2rem]";
 
 export function TextField({
   label,
@@ -22,7 +22,7 @@ export function TextField({
 }) {
   return (
     <label className="block">
-      <span className="mb-1 block text-xs font-medium uppercase tracking-wide text-ink-soft">
+      <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">
         {label}
       </span>
       {editable ? (
@@ -31,8 +31,8 @@ export function TextField({
             value={value}
             onChange={(e) => onChange(e.target.value)}
             placeholder={placeholder}
-            rows={3}
-            className={`${inputBase} resize-y leading-relaxed`}
+            rows={2}
+            className={`${inputBase} resize-y leading-snug`}
           />
         ) : (
           <input
@@ -70,7 +70,7 @@ export function InlineInput({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className={`rounded-md border border-line bg-card/80 px-2 py-1.5 text-base text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none ${className}`}
+        className={`rounded-md border border-line bg-card/80 px-2 py-1 text-[15px] text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none ${className}`}
       />
     );
   }
@@ -100,10 +100,10 @@ export function Toggle({
       type="button"
       disabled={!editable}
       onClick={() => editable && onChange(!checked)}
-      className={`flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm font-medium transition-colors disabled:cursor-default ${active}`}
+      className={`flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition-colors disabled:cursor-default ${active}`}
     >
       <span
-        className={`grid h-4 w-4 place-items-center rounded-full border text-[10px] ${
+        className={`grid h-3.5 w-3.5 place-items-center rounded-full border text-[9px] ${
           checked ? "border-accent bg-accent text-parchment" : "border-ink-faint"
         }`}
       >

@@ -12,10 +12,10 @@ import type {
   Abilita,
 } from "@/lib/sheet";
 
-const card = "rounded-xl border border-line bg-card/70 p-4 shadow-sm";
-const grid2 = "grid grid-cols-2 gap-3";
+const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
+const grid2 = "grid grid-cols-2 gap-2.5";
 const sectionTitle =
-  "mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft";
+  "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
 
 function ArrayEditor<T>({
   items,
@@ -33,7 +33,7 @@ function ArrayEditor<T>({
   renderItem: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
 }) {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-2.5">
       {items.length === 0 && !editable && (
         <p className="text-sm text-ink-faint">Niente da mostrare.</p>
       )}
@@ -171,7 +171,7 @@ export default function CharacterClient({
     {
       title: "Stato",
       body: (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
           <TextField label="Nome personaggio" value={name} onChange={updateName} editable={editable} />
           <div className={grid2}>
             <TextField label="Livello" value={sheet.livello} onChange={(v) => patch({ livello: v })} editable={editable} />
@@ -201,7 +201,7 @@ export default function CharacterClient({
     {
       title: "Identità",
       body: (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
           <TextField label="Specie" value={sheet.specie} onChange={(v) => patch({ specie: v })} editable={editable} multiline />
           <TextField label="Background" value={sheet.background} onChange={(v) => patch({ background: v })} editable={editable} multiline />
           <div className={grid2}>
@@ -216,13 +216,13 @@ export default function CharacterClient({
     {
       title: "Caratteristiche",
       body: (
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-1.5">
           {sheet.caratteristiche.map((c, i) => (
-            <div key={c.abbr} className={card}>
-              <div className="mb-3 flex items-center justify-between">
-                <span className="text-base font-bold text-accent">{c.nome}</span>
+            <div key={c.abbr} className="rounded-xl border border-line bg-card/70 px-3 py-1.5 shadow-sm">
+              <div className="mb-1 flex items-center justify-between">
+                <span className="text-sm font-bold text-accent">{c.nome}</span>
                 <Toggle
-                  label="Tiro salvezza"
+                  label="T. Salvezza"
                   checked={c.tsCompetente}
                   onChange={(v) => updateCar(i, { tsCompetente: v })}
                   editable={editable}
@@ -233,18 +233,16 @@ export default function CharacterClient({
                   [
                     ["Valore", "valore"],
                     ["Mod.", "modificatore"],
-                    ["T. Salvezza", "tsBonus"],
+                    ["Salv.", "tsBonus"],
                   ] as [string, keyof Caratteristica][]
                 ).map(([lab, key]) => (
-                  <div key={key}>
-                    <span className="mb-1 block text-center text-[10px] uppercase text-ink-faint">
-                      {lab}
-                    </span>
+                  <div key={key} className="flex items-center justify-between gap-1">
+                    <span className="text-[10px] uppercase text-ink-faint">{lab}</span>
                     <InlineInput
                       value={String(c[key])}
                       onChange={(v) => updateCar(i, { [key]: v } as Partial<Caratteristica>)}
                       editable={editable}
-                      className="w-full text-center"
+                      className="w-12 text-center"
                     />
                   </div>
                 ))}
@@ -257,20 +255,32 @@ export default function CharacterClient({
     {
       title: "Abilità",
       body: (
-        <div className="flex flex-col gap-2">
+        <div className="grid grid-cols-2 gap-1">
           {sheet.abilita.map((a, i) => (
-            <div key={a.nome} className="rounded-lg border border-line bg-card/70 p-3 shadow-sm">
-              <div className="flex items-center gap-3">
-                <Toggle label="" checked={a.competente} onChange={(v) => updateAbi(i, { competente: v })} editable={editable} />
-                <div className="flex-1 leading-tight">
-                  <div className="font-medium">{a.nome}</div>
-                  <div className="text-xs text-ink-faint">{a.caratteristica}</div>
+            <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
+              <div className="flex items-center gap-1.5">
+                <button
+                  type="button"
+                  disabled={!editable}
+                  onClick={() => editable && updateAbi(i, { competente: !a.competente })}
+                  aria-label="Competente"
+                  className={`grid h-4 w-4 shrink-0 place-items-center rounded-full border text-[9px] transition-colors disabled:cursor-default ${
+                    a.competente
+                      ? "border-accent bg-accent text-parchment"
+                      : "border-ink-faint text-transparent"
+                  }`}
+                >
+                  ✓
+                </button>
+                <div className="min-w-0 flex-1 leading-none">
+                  <div className="text-[11px] font-medium leading-tight [overflow-wrap:anywhere]">{a.nome}</div>
+                  <div className="text-[9px] uppercase text-ink-faint">{a.caratteristica}</div>
                 </div>
-                <InlineInput value={a.bonus} onChange={(v) => updateAbi(i, { bonus: v })} editable={editable} className="w-16 text-center" placeholder="±" />
+                <InlineInput value={a.bonus} onChange={(v) => updateAbi(i, { bonus: v })} editable={editable} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
               </div>
               {(editable || a.note) && (
-                <div className="mt-2">
-                  <InlineInput value={a.note} onChange={(v) => updateAbi(i, { note: v })} editable={editable} className="w-full text-sm text-ink-soft" placeholder="note (es. da Ranger)" />
+                <div className="mt-0.5">
+                  <InlineInput value={a.note} onChange={(v) => updateAbi(i, { note: v })} editable={editable} className="w-full text-[11px] text-ink-soft" placeholder="note" />
                 </div>
               )}
             </div>
@@ -281,7 +291,7 @@ export default function CharacterClient({
     {
       title: "Armi",
       body: (
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-4">
           <TextField label="Competenze armi" value={sheet.competenzeArmi} onChange={(v) => patch({ competenzeArmi: v })} editable={editable} placeholder="es. Semplici, Da guerra" />
           <div>
             <h3 className={sectionTitle}>Armi</h3>
@@ -312,7 +322,7 @@ export default function CharacterClient({
     {
       title: "Equipaggiamento",
       body: (
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-4">
           <div>
             <h3 className={sectionTitle}>Competenze armatura</h3>
             <div className="flex flex-wrap gap-2">
@@ -423,7 +433,7 @@ export default function CharacterClient({
     {
       title: "Monete & Note",
       body: (
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-4">
           <div>
             <h3 className={sectionTitle}>Monete</h3>
             <div className="flex flex-col gap-2">
@@ -451,7 +461,7 @@ export default function CharacterClient({
 
   return (
     <div className="flex h-dvh flex-col">
-      <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-3 pt-3 backdrop-blur">
+      <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-2 pt-2 backdrop-blur">
         <div className="flex items-center justify-between gap-2">
           <Link href="/" className="text-sm text-ink-soft">
             ‹ Compagnia
@@ -481,15 +491,15 @@ export default function CharacterClient({
             )}
           </div>
         </div>
-        <div className="mt-2 flex items-center justify-between">
-          <h1 className="truncate text-lg font-bold text-ink">
+        <div className="mt-1.5 flex items-center justify-between">
+          <h1 className="truncate text-base font-bold text-ink">
             {name || "Senza nome"}
           </h1>
           <span className="ml-2 shrink-0 text-xs text-ink-faint">
             {pages[selected]?.title}
           </span>
         </div>
-        <div className="mt-2 flex items-center justify-center gap-1.5">
+        <div className="mt-1.5 flex items-center justify-center gap-1.5">
           {pages.map((p, i) => (
             <button
               key={i}
@@ -509,7 +519,7 @@ export default function CharacterClient({
           {pages.map((p, i) => (
             <div
               key={i}
-              className="no-scrollbar h-full min-w-0 flex-[0_0_100%] overflow-y-auto px-5 pb-10 pt-4"
+              className="no-scrollbar h-full min-w-0 flex-[0_0_100%] overflow-y-auto px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3"
             >
               {p.body}
             </div>
@@ -518,12 +528,12 @@ export default function CharacterClient({
       </div>
 
       {editable && (
-        <div className="shrink-0 border-t border-line bg-parchment/90 px-4 py-3 backdrop-blur">
+        <div className="shrink-0 border-t border-line bg-parchment/90 px-4 pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] backdrop-blur">
           <button
             type="button"
             onClick={handleSave}
             disabled={saving || !dirty}
-            className="w-full rounded-lg bg-accent py-3 font-semibold text-parchment transition-opacity disabled:opacity-40"
+            className="w-full rounded-lg bg-accent py-2.5 font-semibold text-parchment transition-opacity disabled:opacity-40"
           >
             {saving ? "Salvataggio…" : dirty ? "Salva modifiche" : "Tutto salvato"}
           </button>
