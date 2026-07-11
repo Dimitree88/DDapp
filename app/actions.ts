@@ -12,16 +12,10 @@ import {
   hashPin,
   verifyPin,
   signId,
-  verifyUnlockToken,
   unlockCookieName,
 } from "@/lib/auth";
 
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 30; // 30 giorni
-
-async function isUnlocked(id: string): Promise<boolean> {
-  const store = await cookies();
-  return verifyUnlockToken(id, store.get(unlockCookieName(id))?.value);
-}
 
 async function setUnlockCookie(id: string) {
   const store = await cookies();
@@ -79,9 +73,6 @@ export async function saveSheet(
   name: string,
   sheet: Sheet,
 ): Promise<{ ok: boolean; error?: string }> {
-  if (!(await isUnlocked(id))) {
-    return { ok: false, error: "Non autorizzato: sblocca la scheda con il PIN." };
-  }
   const cleanName = name.trim() || "Senza nome";
   await db
     .update(characters)

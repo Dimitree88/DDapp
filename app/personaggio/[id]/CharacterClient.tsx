@@ -1,7 +1,6 @@
 "use client";
 
-import { useContext, useEffect, useState, type ReactNode } from "react";
-import { useRouter } from "next/navigation";
+import { useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import {
   TextField,
@@ -11,7 +10,7 @@ import {
   EditContext,
   useDoubleTap,
 } from "@/components/fields";
-import { saveSheet, unlock, lock } from "@/app/actions";
+import { saveSheet } from "@/app/actions";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
 
 const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
@@ -106,23 +105,19 @@ const COINS: [string, keyof Sheet["monete"]][] = [
   ["Platino", "platino"],
 ];
 
+type SaveState = "idle" | "saving" | "saved" | "error";
+
 export default function CharacterClient({
   id,
   name: initialName,
   sheet: initialSheet,
-  canEdit,
 }: {
   id: string;
   name: string;
   sheet: Sheet;
-  canEdit: boolean;
 }) {
-  const router = useRouter();
-  const unlocked = canEdit;
-
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
   const [name, setName] = useState(initialName);
-  const [dirty, setDirty] = useState(false);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start" });
   const [selected, setSelected] = useState(0);
@@ -130,13 +125,8 @@ export default function CharacterClient({
   // All'ingresso mostriamo la "home" del personaggio con l'indice delle sezioni.
   const [showHub, setShowHub] = useState(true);
 
-  const [saving, setSaving] = useState(false);
-  const [saveError, setSaveError] = useState<string | null>(null);
-
-  const [showPin, setShowPin] = useState(false);
-  const [pin, setPin] = useState("");
-  const [pinError, setPinError] = useState<string | null>(null);
-  const [unlocking, setUnlocking] = useState(false);
+  const [saveState, setSaveState] = useState<SaveState>("idle");
+  const firstRun = useRef(true);
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -148,57 +138,32 @@ export default function CharacterClient({
     };
   }, [emblaApi]);
 
-  const patch = (p: Partial<Sheet>) => {
-    setSheet((s) => ({ ...s, ...p }));
-    setDirty(true);
-  };
-  const updateName = (v: string) => {
-    setName(v);
-    setDirty(true);
-  };
-  const updateCar = (i: number, p: Partial<Caratteristica>) => {
+  // Salvataggio automatico: a ogni modifica, con debounce.
+  useEffect(() => {
+    if (firstRun.current) {
+      firstRun.current = false;
+      return;
+    }
+    setSaveState("saving");
+    const t = setTimeout(async () => {
+      const res = await saveSheet(id, name, sheet);
+      setSaveState(res.ok ? "saved" : "error");
+    }, 700);
+    return () => clearTimeout(t);
+  }, [id, name, sheet]);
+
+  const patch = (p: Partial<Sheet>) => setSheet((s) => ({ ...s, ...p }));
+  const updateName = (v: string) => setName(v);
+  const updateCar = (i: number, p: Partial<Caratteristica>) =>
     setSheet((s) => ({
       ...s,
       caratteristiche: s.caratteristiche.map((c, idx) => (idx === i ? { ...c, ...p } : c)),
     }));
-    setDirty(true);
-  };
-  const updateAbi = (i: number, p: Partial<Abilita>) => {
+  const updateAbi = (i: number, p: Partial<Abilita>) =>
     setSheet((s) => ({
       ...s,
       abilita: s.abilita.map((a, idx) => (idx === i ? { ...a, ...p } : a)),
     }));
-    setDirty(true);
-  };
-
-  async function handleSave() {
-    setSaving(true);
-    setSaveError(null);
-    const res = await saveSheet(id, name, sheet);
-    setSaving(false);
-    if (res.ok) setDirty(false);
-    else setSaveError(res.error ?? "Errore nel salvataggio.");
-  }
-
-  async function handleUnlock() {
-    setUnlocking(true);
-    setPinError(null);
-    const res = await unlock(id, pin);
-    setUnlocking(false);
-    if (res.ok) {
-      setShowPin(false);
-      setPin("");
-      router.refresh();
-    } else {
-      setPinError(res.error ?? "Errore.");
-    }
-  }
-
-  async function handleLock() {
-    if (dirty && !confirm("Ci sono modifiche non salvate. Bloccare comunque?")) return;
-    await lock(id);
-    router.refresh();
-  }
 
   function goToPage(i: number) {
     emblaApi?.scrollTo(i, true);
@@ -302,7 +267,7 @@ export default function CharacterClient({
                 </div>
                 <InlineInput value={a.bonus} onChange={(v) => updateAbi(i, { bonus: v })} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
               </div>
-              {(unlocked || a.note) && (
+              {a.note && (
                 <div className="mt-0.5">
                   <InlineInput value={a.note} onChange={(v) => updateAbi(i, { note: v })} className="w-full text-[11px] text-ink-soft" placeholder="note" />
                 </div>
@@ -477,7 +442,7 @@ export default function CharacterClient({
   ];
 
   return (
-    <EditProvider unlocked={unlocked} requireUnlock={() => setShowPin(true)}>
+    <EditProvider unlocked={true} requireUnlock={() => {}}>
       <div className="flex h-dvh flex-col">
         <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-2 pt-2 backdrop-blur">
           <div className="flex items-center justify-between gap-2">
@@ -494,9 +459,7 @@ export default function CharacterClient({
                 {name || "Senza nome"}
               </h1>
             </button>
-            <span className="ml-2 shrink-0 text-xs text-ink-faint">
-              {showHub ? "Home" : pages[selected]?.title}
-            </span>
+            <SaveIndicator state={saveState} />
           </div>
           {!showHub && (
             <div className="mt-1.5 flex items-center justify-center gap-1.5">
@@ -516,15 +479,17 @@ export default function CharacterClient({
         </header>
 
         <div className="relative flex-1 overflow-hidden">
-          <div className="flex h-full" ref={emblaRef}>
-            {pages.map((p, i) => (
-              <div
-                key={i}
-                className="no-scrollbar h-full min-w-0 flex-[0_0_100%] overflow-y-auto px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3"
-              >
-                {p.body}
-              </div>
-            ))}
+          <div className="h-full overflow-hidden" ref={emblaRef}>
+            <div className="flex h-full">
+              {pages.map((p, i) => (
+                <div
+                  key={i}
+                  className="no-scrollbar h-full min-w-0 flex-[0_0_100%] overflow-y-auto px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3"
+                >
+                  {p.body}
+                </div>
+              ))}
+            </div>
           </div>
 
           {showHub && (
@@ -541,83 +506,26 @@ export default function CharacterClient({
                   </button>
                 ))}
               </div>
-              <p className="mt-4 text-center text-xs leading-relaxed text-ink-faint">
-                Tocca il nome in alto per tornare a questa home.
-                <br />
-                Tocca due volte un campo per modificarlo.
-              </p>
             </div>
           )}
         </div>
-
-        {unlocked && (
-          <div className="shrink-0 border-t border-line bg-parchment/90 px-4 pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] backdrop-blur">
-            <div className="flex items-center gap-2">
-              <button
-                type="button"
-                onClick={handleLock}
-                className="shrink-0 rounded-lg border border-line px-3 py-2.5 text-sm text-ink-soft"
-              >
-                Blocca
-              </button>
-              <button
-                type="button"
-                onClick={handleSave}
-                disabled={saving || !dirty}
-                className="flex-1 rounded-lg bg-accent py-2.5 font-semibold text-parchment transition-opacity disabled:opacity-40"
-              >
-                {saving ? "Salvataggio…" : dirty ? "Salva modifiche" : "Tutto salvato"}
-              </button>
-            </div>
-            {saveError && (
-              <p className="mt-2 text-center text-sm text-red-800">{saveError}</p>
-            )}
-          </div>
-        )}
-
-        {showPin && (
-          <div
-            className="fixed inset-0 z-50 flex items-end justify-center bg-ink/40 p-4 backdrop-blur-sm"
-            onClick={() => setShowPin(false)}
-          >
-            <div
-              className="w-full max-w-md rounded-2xl border border-line bg-card p-5 shadow-xl"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <h2 className="text-lg font-semibold text-accent">Sblocca per modificare</h2>
-              <p className="mt-1 text-sm text-ink-soft">
-                Inserisci il PIN a 4 cifre di questo personaggio.
-              </p>
-              <input
-                value={pin}
-                onChange={(e) => setPin(e.target.value.replace(/\D/g, "").slice(0, 4))}
-                inputMode="numeric"
-                autoFocus
-                className="mt-4 w-full rounded-lg border border-line bg-card/80 px-4 py-3 text-center text-2xl tracking-[0.5em] text-ink focus:border-accent focus:outline-none"
-                placeholder="••••"
-              />
-              {pinError && <p className="mt-2 text-sm text-red-800">{pinError}</p>}
-              <div className="mt-4 flex gap-2">
-                <button
-                  type="button"
-                  onClick={() => setShowPin(false)}
-                  className="flex-1 rounded-lg border border-line py-3 text-ink-soft"
-                >
-                  Annulla
-                </button>
-                <button
-                  type="button"
-                  onClick={handleUnlock}
-                  disabled={unlocking || pin.length !== 4}
-                  className="flex-1 rounded-lg bg-accent py-3 font-semibold text-parchment disabled:opacity-40"
-                >
-                  {unlocking ? "…" : "Sblocca"}
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     </EditProvider>
+  );
+}
+
+function SaveIndicator({ state }: { state: SaveState }) {
+  if (state === "idle") return null;
+  const map = {
+    saving: { dot: "bg-ink-faint", text: "salvo…", color: "text-ink-faint" },
+    saved: { dot: "bg-green-700", text: "salvato", color: "text-ink-faint" },
+    error: { dot: "bg-red-700", text: "errore", color: "text-red-800" },
+  } as const;
+  const s = map[state];
+  return (
+    <span className={`ml-2 flex shrink-0 items-center gap-1 text-[10px] ${s.color}`}>
+      <span className={`h-1.5 w-1.5 rounded-full ${s.dot}`} />
+      {s.text}
+    </span>
   );
 }
