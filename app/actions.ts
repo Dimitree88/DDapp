@@ -22,6 +22,11 @@ export async function createCharacter(formData: FormData) {
   redirect(`/personaggio/${id}`);
 }
 
+export async function deleteCharacter(id: string) {
+  await db.delete(characters).where(eq(characters.id, id));
+  revalidatePath("/");
+}
+
 export async function saveSheet(
   id: string,
   name: string,
