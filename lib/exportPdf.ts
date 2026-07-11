@@ -116,6 +116,16 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     y += 10;
   };
 
+  // Ogni tab su una pagina PDF indipendente (la prima resta in pagina 1).
+  let firstTab = true;
+  const tab = (title: string) => {
+    if (!firstTab) newPage();
+    firstTab = false;
+    sectionHeading(title);
+  };
+  const emptyNote = () =>
+    paragraph("Niente da mostrare.", { size: 10, style: "italic", color: C.inkFaint });
+
   const card = (h: number, draw: (x: number, top: number, w: number) => void, w = W, x = M) => {
     ensure(h);
     setFill(C.card);
@@ -184,7 +194,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   y += 4;
 
   // ===== Stato & Identità =====
-  sectionHeading("Stato & Identità");
+  tab("Stato & Identità");
   fieldRows([
     [["Livello", sheet.livello], ["Classe", sheet.classe]],
     [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
@@ -199,9 +209,9 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   ]);
 
   // ===== Lingue =====
+  tab("Lingue");
   const lingue = toList(sheet.lingue);
   if (lingue.length) {
-    sectionHeading("Lingue");
     lingue.forEach((l) => {
       serif("normal");
       doc.setFontSize(11);
@@ -212,10 +222,12 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
       doc.text(clean(l), M + 16, y + 10);
       y += 16;
     });
+  } else {
+    emptyNote();
   }
 
   // ===== Caratteristiche ===== (card a piena larghezza, come nell'app)
-  sectionHeading("Caratteristiche");
+  tab("Caratteristiche");
   sheet.caratteristiche.forEach((c) => {
     card(66, (x, top, w) => {
       serif("bold");
@@ -269,7 +281,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   });
 
   // ===== Abilità ===== (griglia 2 colonne)
-  sectionHeading("Abilità");
+  tab("Abilità");
   {
     const gap = 10;
     const cw = (W - gap) / 2;
@@ -364,8 +376,8 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   };
 
   // ===== Incantesimi =====
+  tab("Incantesimi");
   if (sheet.incantesimi.length) {
-    sectionHeading("Incantesimi");
     sheet.incantesimi.forEach((inc) => {
       const meta = [
         inc.tempo && `Tempo: ${inc.tempo}`,
@@ -376,26 +388,32 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
       ].filter(Boolean).join("   ");
       titledCard(inc.nome || "—", inc.livello ? `Livello ${inc.livello}` : "", meta, inc.note);
     });
+  } else {
+    emptyNote();
   }
 
   // ===== Armi =====
-  sectionHeading("Armi");
+  tab("Armi");
   const compArmi = toList(sheet.competenzeArmi);
   if (compArmi.length) {
     paragraph("Competenze armi: " + compArmi.join(", "), { size: 10, color: C.inkSoft });
     y += 4;
   }
-  sheet.armi.forEach((a) => {
-    const meta = [
-      a.bonus && `Bonus: ${a.bonus}`,
-      a.danno && `Danno: ${a.danno}`,
-      a.gittata && `Gittata: ${a.gittata}`,
-    ].filter(Boolean).join("   ");
-    titledCard(a.nome || "—", a.quantita ? `×${a.quantita}` : "", meta, a.note);
-  });
+  if (sheet.armi.length) {
+    sheet.armi.forEach((a) => {
+      const meta = [
+        a.bonus && `Bonus: ${a.bonus}`,
+        a.danno && `Danno: ${a.danno}`,
+        a.gittata && `Gittata: ${a.gittata}`,
+      ].filter(Boolean).join("   ");
+      titledCard(a.nome || "—", a.quantita ? `×${a.quantita}` : "", meta, a.note);
+    });
+  } else {
+    emptyNote();
+  }
 
   // ===== Equipaggiamento =====
-  sectionHeading("Equipaggiamento");
+  tab("Equipaggiamento");
   const ca = sheet.competenzeArmatura;
   const caList = [
     ca.leggere && "Leggere",
@@ -407,37 +425,36 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     paragraph("Competenze armatura: " + caList, { size: 10, color: C.inkSoft });
     y += 4;
   }
-  sheet.equipaggiamento.forEach((e) => {
-    titledCard(e.nome || "—", "", "", e.dettaglio);
-  });
-
-  // ===== Monete =====
-  const coins = [
-    ["Rame", sheet.monete.rame],
-    ["Argento", sheet.monete.argento],
-    ["Electrum", sheet.monete.electrum],
-    ["Oro", sheet.monete.oro],
-    ["Platino", sheet.monete.platino],
-  ] as [string, string][];
-  if (coins.some(([, v]) => v)) {
-    sectionHeading("Monete");
-    fieldRows([
-      [coins[0], coins[1]],
-      [coins[2], coins[3]],
-      [coins[4], ["", ""]],
-    ].map((r) => r.filter(([l]) => l) as [string, string][]));
+  if (sheet.equipaggiamento.length) {
+    sheet.equipaggiamento.forEach((e) => {
+      titledCard(e.nome || "—", "", "", e.dettaglio);
+    });
+  } else {
+    emptyNote();
   }
 
+  // ===== Monete =====
+  tab("Monete");
+  fieldRows([
+    [["Rame", sheet.monete.rame], ["Argento", sheet.monete.argento]],
+    [["Electrum", sheet.monete.electrum], ["Oro", sheet.monete.oro]],
+    [["Platino", sheet.monete.platino]],
+  ]);
+
   // ===== Privilegi =====
+  tab("Privilegi");
   if (sheet.privilegi.length) {
-    sectionHeading("Privilegi");
     sheet.privilegi.forEach((p) => titledCard(p.titolo || "—", "", "", p.descrizione));
+  } else {
+    emptyNote();
   }
 
   // ===== Talenti =====
+  tab("Talenti");
   if (sheet.talenti.length) {
-    sectionHeading("Talenti");
     sheet.talenti.forEach((t) => titledCard(t.nome || "—", "", "", t.descrizione));
+  } else {
+    emptyNote();
   }
 
   const safeName = (name || "scheda").replace(/[^\w\-]+/g, "_");
