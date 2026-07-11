@@ -417,8 +417,10 @@ export default function CharacterClient({
             <TextField label="Allineamento" value={sheet.allineamento} onChange={(v) => patch({ allineamento: v })} />
             <TextField label="Taglia" value={sheet.taglia} onChange={(v) => patch({ taglia: v })} />
           </div>
-          <TextField label="Specie" value={sheet.specie} onChange={(v) => patch({ specie: v })} multiline />
-          <TextField label="Background" value={sheet.background} onChange={(v) => patch({ background: v })} multiline />
+          <div className={grid2}>
+            <TextField label="Specie" value={sheet.specie} onChange={(v) => patch({ specie: v })} multiline />
+            <TextField label="Background" value={sheet.background} onChange={(v) => patch({ background: v })} multiline />
+          </div>
         </div>
       ),
     },
