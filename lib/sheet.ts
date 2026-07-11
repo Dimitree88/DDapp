@@ -75,14 +75,14 @@ export type Sheet = {
   allineamento: string;
   velocita: string;
   taglia: string;
-  lingue: string;
+  lingue: string[];
 
   // Pagina: Caratteristiche & Abilità
   caratteristiche: Caratteristica[];
   abilita: Abilita[];
 
   // Pagina: Armi
-  competenzeArmi: string;
+  competenzeArmi: string[];
   armi: Arma[];
 
   // Pagina: Equipaggiamento
@@ -167,7 +167,7 @@ export function emptySheet(): Sheet {
     allineamento: "",
     velocita: "",
     taglia: "",
-    lingue: "",
+    lingue: [],
 
     caratteristiche: CARATTERISTICHE_BASE.map((c) => ({
       nome: c.nome,
@@ -185,7 +185,7 @@ export function emptySheet(): Sheet {
       note: "",
     })),
 
-    competenzeArmi: "",
+    competenzeArmi: [],
     armi: [],
 
     competenzeArmatura: {

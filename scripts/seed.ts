@@ -31,8 +31,7 @@ function ephemerSheet(): Sheet {
   s.allineamento = "CAOTICO NEUTRALE";
   s.velocita = "9 m";
   s.taglia = "M";
-  s.lingue =
-    "Comune; Draconico (da Eremita); Primordiale (da Liv. 2); Sottocomune mercanti (da Liv. 2)";
+  s.lingue = ["Comune", "Draconico", "Primordiale", "Sottocomune mercanti"];
 
   // Caratteristiche
   s.caratteristiche = [
@@ -67,7 +66,7 @@ function ephemerSheet(): Sheet {
   ];
 
   // Competenze
-  s.competenzeArmi = "Semplici, Da guerra";
+  s.competenzeArmi = ["Semplici", "Da guerra"];
   s.competenzeArmatura = { leggere: true, medie: true, pesanti: false, scudi: true };
 
   // Armi

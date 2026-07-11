@@ -18,6 +18,79 @@ const grid2 = "grid grid-cols-2 gap-2.5";
 const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
 
+// Nome completo delle caratteristiche a partire dall'abbreviazione.
+const CAR_FULL: Record<string, string> = {
+  FOR: "FORZA",
+  DES: "DESTREZZA",
+  COS: "COSTITUZIONE",
+  INT: "INTELLIGENZA",
+  SAG: "SAGGEZZA",
+  CAR: "CARISMA",
+};
+
+// Normalizza un campo lista che potrebbe essere ancora una vecchia stringa.
+function toList(v: unknown): string[] {
+  if (Array.isArray(v)) return v as string[];
+  if (typeof v === "string" && v.trim())
+    return v
+      .split(/[;,\n]/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+  return [];
+}
+
+// Lista puntata con voci modificabili (doppio tocco) e aggiungi/rimuovi.
+function StringListEditor({
+  items,
+  onChange,
+  addLabel,
+}: {
+  items: string[];
+  onChange: (v: string[]) => void;
+  addLabel: string;
+}) {
+  const { unlocked } = useContext(EditContext);
+  return (
+    <ul className="flex flex-col gap-1.5">
+      {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
+      {items.map((it, i) => (
+        <li key={i} className="flex items-center gap-2">
+          <span className="text-ink-faint" aria-hidden>
+            •
+          </span>
+          <InlineInput
+            value={it}
+            onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))}
+            className="flex-1"
+            placeholder="…"
+          />
+          {unlocked && (
+            <button
+              type="button"
+              onClick={() => onChange(items.filter((_, idx) => idx !== i))}
+              aria-label="Rimuovi"
+              className="shrink-0 px-1 text-sm font-medium text-red-800"
+            >
+              ×
+            </button>
+          )}
+        </li>
+      ))}
+      {unlocked && (
+        <li>
+          <button
+            type="button"
+            onClick={() => onChange([...items, ""])}
+            className="rounded-lg border border-dashed border-line px-3 py-1.5 text-sm font-medium text-ink-soft active:bg-card/60"
+          >
+            + {addLabel}
+          </button>
+        </li>
+      )}
+    </ul>
+  );
+}
+
 // Pallino di competenza per la pagina Abilità: doppio tocco per cambiarlo
 // (o per richiedere lo sblocco se la scheda è bloccata).
 function CompetenceDot({
@@ -206,7 +279,7 @@ export default function CharacterClient({
   sheet: Sheet;
 }) {
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
-  const [name, setName] = useState(initialName);
+  const [name] = useState(initialName);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start" });
   const [selected, setSelected] = useState(0);
@@ -242,7 +315,6 @@ export default function CharacterClient({
   }, [id, name, sheet]);
 
   const patch = (p: Partial<Sheet>) => setSheet((s) => ({ ...s, ...p }));
-  const updateName = (v: string) => setName(v);
   const updateCar = (i: number, p: Partial<Caratteristica>) =>
     setSheet((s) => ({
       ...s,
@@ -259,19 +331,18 @@ export default function CharacterClient({
     setShowHub(false);
   }
 
-  const pages: { title: string; body: ReactNode }[] = [
+  const pageDefs: { title: string; body: ReactNode }[] = [
     {
       title: "Stato",
       body: (
         <div className="flex flex-col gap-2">
-          <TextField label="Nome personaggio" value={name} onChange={updateName} />
           <div className={grid2}>
             <TextField label="Livello" value={sheet.livello} onChange={(v) => patch({ livello: v })} />
             <TextField label="Classe" value={sheet.classe} onChange={(v) => patch({ classe: v })} />
           </div>
           <div className={grid2}>
             <TextField label="Punti Ferita" value={sheet.puntiFerita} onChange={(v) => patch({ puntiFerita: v })} />
-            <TextField label="PF Massimi" value={sheet.puntiFeritaMax} onChange={(v) => patch({ puntiFeritaMax: v })} />
+            <TextField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} onChange={(v) => patch({ puntiFeritaMax: v })} />
           </div>
           <TextField label="Classe Armatura" value={sheet.classeArmatura} onChange={(v) => patch({ classeArmatura: v })} />
           <div className={grid2}>
@@ -301,7 +372,16 @@ export default function CharacterClient({
             <TextField label="Taglia" value={sheet.taglia} onChange={(v) => patch({ taglia: v })} />
           </div>
           <TextField label="Velocità" value={sheet.velocita} onChange={(v) => patch({ velocita: v })} />
-          <TextField label="Lingue" value={sheet.lingue} onChange={(v) => patch({ lingue: v })} multiline />
+          <div>
+            <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">
+              Lingue
+            </span>
+            <StringListEditor
+              items={toList(sheet.lingue)}
+              onChange={(v) => patch({ lingue: v })}
+              addLabel="Aggiungi lingua"
+            />
+          </div>
         </div>
       ),
     },
@@ -314,25 +394,27 @@ export default function CharacterClient({
               <div className="mb-1 flex items-center justify-between">
                 <span className="text-sm font-bold text-accent">{c.nome}</span>
                 <Toggle
-                  label="T. Salvezza"
+                  label="Tiro Salvezza"
                   checked={c.tsCompetente}
                   onChange={(v) => updateCar(i, { tsCompetente: v })}
                 />
               </div>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-3 gap-2 text-center">
                 {(
                   [
                     ["Valore", "valore"],
-                    ["Mod.", "modificatore"],
-                    ["Salv.", "tsBonus"],
+                    ["Modificatore", "modificatore"],
+                    ["Tiro Salvezza", "tsBonus"],
                   ] as [string, keyof Caratteristica][]
                 ).map(([lab, key]) => (
-                  <div key={key} className="flex items-center justify-between gap-1">
-                    <span className="text-[10px] uppercase text-ink-faint">{lab}</span>
+                  <div key={key}>
+                    <span className="block text-[9px] uppercase leading-tight text-ink-faint">
+                      {lab}
+                    </span>
                     <InlineInput
                       value={String(c[key])}
                       onChange={(v) => updateCar(i, { [key]: v } as Partial<Caratteristica>)}
-                      className="w-12 text-center"
+                      className="mt-0.5 w-full text-center"
                     />
                   </div>
                 ))}
@@ -352,7 +434,9 @@ export default function CharacterClient({
                 <CompetenceDot checked={a.competente} onChange={(v) => updateAbi(i, { competente: v })} />
                 <div className="min-w-0 flex-1 leading-none">
                   <div className="text-[11px] font-medium leading-tight [overflow-wrap:anywhere]">{a.nome}</div>
-                  <div className="text-[9px] uppercase text-ink-faint">{a.caratteristica}</div>
+                  <div className="text-[9px] uppercase leading-tight text-ink-faint">
+                    {CAR_FULL[a.caratteristica] ?? a.caratteristica}
+                  </div>
                 </div>
                 <InlineInput value={a.bonus} onChange={(v) => updateAbi(i, { bonus: v })} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
               </div>
@@ -370,7 +454,14 @@ export default function CharacterClient({
       title: "Armi",
       body: (
         <div className="flex flex-col gap-4">
-          <TextField label="Competenze armi" value={sheet.competenzeArmi} onChange={(v) => patch({ competenzeArmi: v })} placeholder="es. Semplici, Da guerra" />
+          <div>
+            <h3 className={sectionTitle}>Competenze armi</h3>
+            <StringListEditor
+              items={toList(sheet.competenzeArmi)}
+              onChange={(v) => patch({ competenzeArmi: v })}
+              addLabel="Aggiungi competenza"
+            />
+          </div>
           <div>
             <h3 className={sectionTitle}>Armi</h3>
             <ArrayEditor
@@ -398,7 +489,6 @@ export default function CharacterClient({
                   <TextField label="Bonus att./CD" value={a.bonus} onChange={(v) => p({ bonus: v })} />
                   <TextField label="Danno e tipo" value={a.danno} onChange={(v) => p({ danno: v })} />
                   <TextField label="Gittata" value={a.gittata} onChange={(v) => p({ gittata: v })} />
-                  <TextField label="Provenienza" value={a.provenienza} onChange={(v) => p({ provenienza: v })} />
                   <TextField label="Note" value={a.note} onChange={(v) => p({ note: v })} multiline />
                 </div>
               )}
@@ -445,7 +535,6 @@ export default function CharacterClient({
                 <div className="flex flex-col gap-2">
                   <TextField label="Oggetto" value={e.nome} onChange={(v) => p({ nome: v })} />
                   <TextField label="Dettaglio" value={e.dettaglio} onChange={(v) => p({ dettaglio: v })} multiline />
-                  <TextField label="Provenienza" value={e.provenienza} onChange={(v) => p({ provenienza: v })} />
                 </div>
               )}
             />
@@ -545,6 +634,20 @@ export default function CharacterClient({
       ),
     },
   ];
+
+  const pageOrder = [
+    "Stato",
+    "Identità",
+    "Caratteristiche",
+    "Abilità",
+    "Incantesimi",
+    "Armi",
+    "Equipaggiamento",
+    "Monete",
+    "Privilegi",
+    "Talenti",
+  ];
+  const pages = pageOrder.map((t) => pageDefs.find((p) => p.title === t)!);
 
   return (
     <EditProvider unlocked={true} requireUnlock={() => {}}>
