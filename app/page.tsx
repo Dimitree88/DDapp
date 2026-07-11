@@ -19,7 +19,7 @@ export default async function Home() {
           Schede della Compagnia
         </h1>
         <p className="mt-1 text-sm text-ink-soft">
-          Scegli un personaggio per vederlo. Per modificarlo serve il PIN.
+          Scegli un personaggio per vederlo o modificarlo.
         </p>
       </header>
 
@@ -59,15 +59,6 @@ export default async function Home() {
             name="name"
             required
             placeholder="Nome del personaggio"
-            className="w-full rounded-lg border border-line bg-card/70 px-4 py-3 text-base text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none"
-          />
-          <input
-            name="pin"
-            required
-            inputMode="numeric"
-            pattern="\d{4}"
-            maxLength={4}
-            placeholder="PIN a 4 cifre (per modificare)"
             className="w-full rounded-lg border border-line bg-card/70 px-4 py-3 text-base text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none"
           />
           <button
