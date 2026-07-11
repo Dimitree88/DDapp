@@ -18,6 +18,7 @@ import {
   useDoubleTap,
 } from "@/components/fields";
 import { saveSheet } from "@/app/actions";
+import { exportSheetPdf } from "@/lib/exportPdf";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
 
 const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
@@ -372,11 +373,21 @@ export default function CharacterClient({
     setShowHub(false);
   }
 
+  const [exporting, setExporting] = useState(false);
+  async function handleExport() {
+    setExporting(true);
+    try {
+      await exportSheetPdf(name, sheet);
+    } finally {
+      setExporting(false);
+    }
+  }
+
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
       title: "Stato & Identità",
       body: (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-1.5">
           <div className={grid2}>
             <TextField label="Livello" value={sheet.livello} onChange={(v) => patch({ livello: v })} />
             <TextField label="Classe" value={sheet.classe} onChange={(v) => patch({ classe: v })} />
@@ -398,14 +409,16 @@ export default function CharacterClient({
             <TextField label="Dadi Vita" value={sheet.dadiVita} onChange={(v) => patch({ dadiVita: v })} />
             <TextField label="Punti Esperienza" value={sheet.puntiEsperienza} onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
-          <TextField label="Ispirazione Eroica" value={sheet.ispirazioneEroica} onChange={(v) => patch({ ispirazioneEroica: v })} />
-          <TextField label="Specie" value={sheet.specie} onChange={(v) => patch({ specie: v })} multiline />
-          <TextField label="Background" value={sheet.background} onChange={(v) => patch({ background: v })} multiline />
+          <div className={grid2}>
+            <TextField label="Ispirazione Eroica" value={sheet.ispirazioneEroica} onChange={(v) => patch({ ispirazioneEroica: v })} />
+            <TextField label="Velocità" value={sheet.velocita} onChange={(v) => patch({ velocita: v })} />
+          </div>
           <div className={grid2}>
             <TextField label="Allineamento" value={sheet.allineamento} onChange={(v) => patch({ allineamento: v })} />
             <TextField label="Taglia" value={sheet.taglia} onChange={(v) => patch({ taglia: v })} />
           </div>
-          <TextField label="Velocità" value={sheet.velocita} onChange={(v) => patch({ velocita: v })} />
+          <TextField label="Specie" value={sheet.specie} onChange={(v) => patch({ specie: v })} multiline />
+          <TextField label="Background" value={sheet.background} onChange={(v) => patch({ background: v })} multiline />
         </div>
       ),
     },
@@ -761,6 +774,14 @@ export default function CharacterClient({
                   </button>
                 ))}
               </div>
+              <button
+                type="button"
+                onClick={handleExport}
+                disabled={exporting}
+                className="mt-4 w-full rounded-xl bg-accent py-3 text-sm font-semibold text-parchment shadow-sm transition-opacity active:opacity-90 disabled:opacity-50"
+              >
+                {exporting ? "Esportazione…" : "Esporta PDF"}
+              </button>
             </div>
           )}
         </div>
