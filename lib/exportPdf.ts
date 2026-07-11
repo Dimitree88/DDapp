@@ -116,10 +116,10 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     y += 10;
   };
 
-  // Ogni tab su una pagina PDF indipendente (la prima resta in pagina 1).
+  // Nuova pagina per ogni tab, salvo `samePage` (resta nella pagina corrente).
   let firstTab = true;
-  const tab = (title: string) => {
-    if (!firstTab) newPage();
+  const tab = (title: string, samePage = false) => {
+    if (!firstTab && !samePage) newPage();
     firstTab = false;
     sectionHeading(title);
   };
@@ -208,8 +208,8 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     [["Background", sheet.background]],
   ]);
 
-  // ===== Lingue =====
-  tab("Lingue");
+  // ===== Lingue ===== (stessa pagina di Stato & Identità)
+  tab("Lingue", true);
   const lingue = toList(sheet.lingue);
   if (lingue.length) {
     lingue.forEach((l) => {
@@ -392,8 +392,8 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     emptyNote();
   }
 
-  // ===== Armi =====
-  tab("Armi");
+  // ===== Armi ===== (stessa pagina di Incantesimi)
+  tab("Armi", true);
   const compArmi = toList(sheet.competenzeArmi);
   if (compArmi.length) {
     paragraph("Competenze armi: " + compArmi.join(", "), { size: 10, color: C.inkSoft });
@@ -441,16 +441,16 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     [["Platino", sheet.monete.platino]],
   ]);
 
-  // ===== Privilegi =====
-  tab("Privilegi");
+  // ===== Privilegi ===== (stessa pagina di Monete)
+  tab("Privilegi", true);
   if (sheet.privilegi.length) {
     sheet.privilegi.forEach((p) => titledCard(p.titolo || "—", "", "", p.descrizione));
   } else {
     emptyNote();
   }
 
-  // ===== Talenti =====
-  tab("Talenti");
+  // ===== Talenti ===== (stessa pagina di Monete)
+  tab("Talenti", true);
   if (sheet.talenti.length) {
     sheet.talenti.forEach((t) => titledCard(t.nome || "—", "", "", t.descrizione));
   } else {
