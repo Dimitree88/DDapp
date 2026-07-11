@@ -438,6 +438,9 @@ export default function CharacterClient({
               onChange={(items) => patch({ equipaggiamento: items })}
               makeNew={() => ({ nome: "", dettaglio: "", provenienza: "" })}
               addLabel="Aggiungi oggetto"
+              collapsible
+              titleOf={(e) => e.nome || "Nuovo oggetto"}
+              subtitleOf={(e) => e.dettaglio}
               renderItem={(e, p) => (
                 <div className="flex flex-col gap-2">
                   <TextField label="Oggetto" value={e.nome} onChange={(v) => p({ nome: v })} />
@@ -492,6 +495,9 @@ export default function CharacterClient({
           onChange={(items) => patch({ incantesimi: items })}
           makeNew={() => ({ livello: "", nome: "", tempo: "", gittata: "", componenti: "", durata: "", crm: "", note: "" })}
           addLabel="Aggiungi incantesimo"
+          collapsible
+          titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
+          subtitleOf={(inc) => (inc.livello ? `Livello ${inc.livello}` : "")}
           renderItem={(inc, p) => (
             <div className="flex flex-col gap-2">
               <div className={grid2}>
@@ -514,7 +520,7 @@ export default function CharacterClient({
       ),
     },
     {
-      title: "Monete & Note",
+      title: "Monete",
       body: (
         <div className="flex flex-col gap-4">
           <div>
@@ -535,7 +541,6 @@ export default function CharacterClient({
               ))}
             </div>
           </div>
-          <TextField label="Note libere" value={sheet.note} onChange={(v) => patch({ note: v })} multiline />
         </div>
       ),
     },
@@ -559,7 +564,12 @@ export default function CharacterClient({
                 {name || "Senza nome"}
               </h1>
             </button>
-            <SaveIndicator state={saveState} />
+            <div className="flex shrink-0 items-center gap-2">
+              {!showHub && (
+                <span className="text-xs text-ink-faint">{pages[selected]?.title}</span>
+              )}
+              <SaveIndicator state={saveState} />
+            </div>
           </div>
           {!showHub && (
             <div className="mt-1.5 flex items-center justify-center gap-1.5">
