@@ -56,6 +56,7 @@ function ArrayEditor<T>({
   collapsible = false,
   titleOf,
   subtitleOf,
+  headerAccessory,
 }: {
   items: T[];
   onChange: (items: T[]) => void;
@@ -65,6 +66,7 @@ function ArrayEditor<T>({
   collapsible?: boolean;
   titleOf?: (item: T, index: number) => string;
   subtitleOf?: (item: T, index: number) => string;
+  headerAccessory?: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
 }) {
   const { unlocked } = useContext(EditContext);
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
@@ -111,26 +113,33 @@ function ArrayEditor<T>({
           const sub = subtitleOf?.(item, i);
           return (
             <div key={i} className="overflow-hidden rounded-xl border border-line bg-card/70 shadow-sm">
-              <button
-                type="button"
-                onClick={() => toggle(i)}
-                className="flex w-full items-center gap-2 px-3 py-2 text-left"
-              >
-                <span className="min-w-0 flex-1">
-                  <span className="block truncate text-sm font-semibold text-ink">
-                    {titleOf?.(item, i) || `Elemento ${i + 1}`}
+              <div className="flex items-center gap-2 px-3 py-2">
+                <button
+                  type="button"
+                  onClick={() => toggle(i)}
+                  className="flex min-w-0 flex-1 items-center text-left"
+                >
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-sm font-semibold text-ink">
+                      {titleOf?.(item, i) || `Elemento ${i + 1}`}
+                    </span>
+                    {sub && <span className="block truncate text-xs text-ink-faint">{sub}</span>}
                   </span>
-                  {sub && <span className="block truncate text-xs text-ink-faint">{sub}</span>}
-                </span>
-                <span
+                </button>
+                {headerAccessory && (
+                  <div className="shrink-0">{headerAccessory(item, (p) => patchAt(i, p), i)}</div>
+                )}
+                <button
+                  type="button"
+                  onClick={() => toggle(i)}
+                  aria-label={open ? "Comprimi" : "Espandi"}
                   className={`shrink-0 text-lg leading-none text-ink-soft transition-transform ${
                     open ? "rotate-90" : ""
                   }`}
-                  aria-hidden
                 >
                   ›
-                </span>
-              </button>
+                </button>
+              </div>
               {open && (
                 <div className="border-t border-line/70 px-3 py-3">
                   {renderItem(item, (p) => patchAt(i, p), i)}
@@ -372,13 +381,21 @@ export default function CharacterClient({
               collapsible
               titleOf={(a) => a.nome || "Nuova arma"}
               subtitleOf={(a) => a.danno}
+              headerAccessory={(a, p) => (
+                <div className="flex items-center gap-1">
+                  <span className="text-xs text-ink-faint">×</span>
+                  <InlineInput
+                    value={a.quantita}
+                    onChange={(v) => p({ quantita: v })}
+                    className="w-10 text-center"
+                    placeholder="—"
+                  />
+                </div>
+              )}
               renderItem={(a, p) => (
                 <div className="flex flex-col gap-2">
                   <TextField label="Nome" value={a.nome} onChange={(v) => p({ nome: v })} />
-                  <div className={grid2}>
-                    <TextField label="Quantità" value={a.quantita} onChange={(v) => p({ quantita: v })} />
-                    <TextField label="Bonus att./CD" value={a.bonus} onChange={(v) => p({ bonus: v })} />
-                  </div>
+                  <TextField label="Bonus att./CD" value={a.bonus} onChange={(v) => p({ bonus: v })} />
                   <TextField label="Danno e tipo" value={a.danno} onChange={(v) => p({ danno: v })} />
                   <TextField label="Gittata" value={a.gittata} onChange={(v) => p({ gittata: v })} />
                   <TextField label="Provenienza" value={a.provenienza} onChange={(v) => p({ provenienza: v })} />
