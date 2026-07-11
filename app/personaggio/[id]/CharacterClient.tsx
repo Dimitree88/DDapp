@@ -53,14 +53,106 @@ function ArrayEditor<T>({
   makeNew,
   addLabel,
   renderItem,
+  collapsible = false,
+  titleOf,
+  subtitleOf,
 }: {
   items: T[];
   onChange: (items: T[]) => void;
   makeNew: () => T;
   addLabel: string;
   renderItem: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
+  collapsible?: boolean;
+  titleOf?: (item: T, index: number) => string;
+  subtitleOf?: (item: T, index: number) => string;
 }) {
   const { unlocked } = useContext(EditContext);
+  const [expanded, setExpanded] = useState<Set<number>>(new Set());
+
+  const patchAt = (i: number, p: Partial<T>) =>
+    onChange(items.map((it, idx) => (idx === i ? { ...it, ...p } : it)));
+  const removeAt = (i: number) => {
+    onChange(items.filter((_, idx) => idx !== i));
+    setExpanded((prev) =>
+      new Set([...prev].filter((x) => x !== i).map((x) => (x > i ? x - 1 : x))),
+    );
+  };
+  const add = () => {
+    const newIndex = items.length;
+    onChange([...items, makeNew()]);
+    setExpanded((prev) => new Set(prev).add(newIndex));
+  };
+  const toggle = (i: number) =>
+    setExpanded((prev) => {
+      const n = new Set(prev);
+      if (n.has(i)) n.delete(i);
+      else n.add(i);
+      return n;
+    });
+
+  const addButton = unlocked && (
+    <button
+      type="button"
+      onClick={add}
+      className="rounded-lg border border-dashed border-line px-4 py-3 text-sm font-medium text-ink-soft active:bg-card/60"
+    >
+      + {addLabel}
+    </button>
+  );
+
+  if (collapsible) {
+    return (
+      <div className="flex flex-col gap-2">
+        {items.length === 0 && !unlocked && (
+          <p className="text-sm text-ink-faint">Niente da mostrare.</p>
+        )}
+        {items.map((item, i) => {
+          const open = expanded.has(i);
+          const sub = subtitleOf?.(item, i);
+          return (
+            <div key={i} className="overflow-hidden rounded-xl border border-line bg-card/70 shadow-sm">
+              <button
+                type="button"
+                onClick={() => toggle(i)}
+                className="flex w-full items-center gap-2 px-3 py-2 text-left"
+              >
+                <span className="min-w-0 flex-1">
+                  <span className="block truncate text-sm font-semibold text-ink">
+                    {titleOf?.(item, i) || `Elemento ${i + 1}`}
+                  </span>
+                  {sub && <span className="block truncate text-xs text-ink-faint">{sub}</span>}
+                </span>
+                <span
+                  className={`shrink-0 text-lg leading-none text-ink-soft transition-transform ${
+                    open ? "rotate-90" : ""
+                  }`}
+                  aria-hidden
+                >
+                  ›
+                </span>
+              </button>
+              {open && (
+                <div className="border-t border-line/70 px-3 py-3">
+                  {renderItem(item, (p) => patchAt(i, p), i)}
+                  {unlocked && (
+                    <button
+                      type="button"
+                      onClick={() => removeAt(i)}
+                      className="mt-3 text-xs font-medium text-red-800"
+                    >
+                      Rimuovi
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+          );
+        })}
+        {addButton}
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col gap-2.5">
       {items.length === 0 && !unlocked && (
@@ -68,15 +160,11 @@ function ArrayEditor<T>({
       )}
       {items.map((item, i) => (
         <div key={i} className={card}>
-          {renderItem(
-            item,
-            (p) => onChange(items.map((it, idx) => (idx === i ? { ...it, ...p } : it))),
-            i,
-          )}
+          {renderItem(item, (p) => patchAt(i, p), i)}
           {unlocked && (
             <button
               type="button"
-              onClick={() => onChange(items.filter((_, idx) => idx !== i))}
+              onClick={() => removeAt(i)}
               className="mt-3 text-xs font-medium text-red-800"
             >
               Rimuovi
@@ -84,15 +172,7 @@ function ArrayEditor<T>({
           )}
         </div>
       ))}
-      {unlocked && (
-        <button
-          type="button"
-          onClick={() => onChange([...items, makeNew()])}
-          className="rounded-lg border border-dashed border-line px-4 py-3 text-sm font-medium text-ink-soft active:bg-card/60"
-        >
-          + {addLabel}
-        </button>
-      )}
+      {addButton}
     </div>
   );
 }
@@ -289,6 +369,9 @@ export default function CharacterClient({
               onChange={(items) => patch({ armi: items })}
               makeNew={() => ({ nome: "", quantita: "", bonus: "", danno: "", gittata: "", provenienza: "", note: "" })}
               addLabel="Aggiungi arma"
+              collapsible
+              titleOf={(a) => a.nome || "Nuova arma"}
+              subtitleOf={(a) => a.danno}
               renderItem={(a, p) => (
                 <div className="flex flex-col gap-2">
                   <TextField label="Nome" value={a.nome} onChange={(v) => p({ nome: v })} />
