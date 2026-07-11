@@ -1,4 +1,5 @@
-// Esporta una scheda in PDF (testo, generato dai dati — indipendente dal layout).
+// Esporta una scheda in PDF cercando di somigliare alla visualizzazione dell'app
+// (tema "pergamena": font serif, palette, sezioni a card).
 import type { Sheet } from "./sheet";
 
 const CAR_FULL: Record<string, string> = {
@@ -10,6 +11,17 @@ const CAR_FULL: Record<string, string> = {
   CAR: "CARISMA",
 };
 
+type RGB = [number, number, number];
+const C = {
+  parchment: [236, 227, 208] as RGB,
+  card: [251, 247, 236] as RGB,
+  ink: [43, 32, 20] as RGB,
+  inkSoft: [111, 91, 62] as RGB,
+  inkFaint: [160, 138, 102] as RGB,
+  line: [191, 166, 127] as RGB,
+  accent: [122, 38, 24] as RGB,
+};
+
 function toList(v: unknown): string[] {
   if (Array.isArray(v)) return v as string[];
   if (typeof v === "string" && v.trim())
@@ -17,7 +29,6 @@ function toList(v: unknown): string[] {
   return [];
 }
 
-// I font standard del PDF sono Latin-1: sostituisco i caratteri "tipografici".
 function clean(s: string): string {
   return (s || "")
     .replace(/[–—]/g, "-")
@@ -35,123 +46,327 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   const { jsPDF } = await import("jspdf");
   const doc = new jsPDF({ unit: "pt", format: "a4" });
 
-  const margin = 44;
+  const M = 40;
   const pageW = doc.internal.pageSize.getWidth();
   const pageH = doc.internal.pageSize.getHeight();
-  const maxW = pageW - margin * 2;
-  let y = margin;
+  const W = pageW - M * 2;
+  let y = M;
 
+  const setFill = (c: RGB) => doc.setFillColor(c[0], c[1], c[2]);
+  const setDraw = (c: RGB) => doc.setDrawColor(c[0], c[1], c[2]);
+  const setText = (c: RGB) => doc.setTextColor(c[0], c[1], c[2]);
+  const serif = (style: "normal" | "bold" | "italic" = "normal") =>
+    doc.setFont("times", style);
+  // Spunta disegnata (i font PDF standard non hanno il carattere ✓).
+  const checkAt = (cx: number, cy: number) => {
+    setDraw(C.parchment);
+    doc.setLineWidth(1);
+    doc.line(cx - 2.2, cy + 0.2, cx - 0.6, cy + 2);
+    doc.line(cx - 0.6, cy + 2, cx + 2.4, cy - 2.2);
+  };
+
+  const paintBg = () => {
+    setFill(C.parchment);
+    doc.rect(0, 0, pageW, pageH, "F");
+  };
+  paintBg();
+
+  const newPage = () => {
+    doc.addPage();
+    paintBg();
+    y = M;
+  };
   const ensure = (h: number) => {
-    if (y + h > pageH - margin) {
-      doc.addPage();
-      y = margin;
-    }
+    if (y + h > pageH - M) newPage();
   };
 
-  const write = (
-    text: string,
-    opts: { size?: number; bold?: boolean; color?: number; gap?: number; indent?: number } = {},
-  ) => {
-    const { size = 10, bold = false, color = 40, gap = 3, indent = 0 } = opts;
-    doc.setFont("helvetica", bold ? "bold" : "normal");
+  const lines = (text: string, w: number, size: number): string[] => {
     doc.setFontSize(size);
-    doc.setTextColor(color);
-    const lines = doc.splitTextToSize(clean(text), maxW - indent) as string[];
-    for (const ln of lines) {
-      ensure(size + gap);
-      doc.text(ln, margin + indent, y);
-      y += size + gap;
+    return doc.splitTextToSize(clean(text) || "—", w) as string[];
+  };
+
+  // Testo a capo, avanza y. Ritorna l'altezza usata.
+  const paragraph = (
+    text: string,
+    opts: { size?: number; style?: "normal" | "bold" | "italic"; color?: RGB; lh?: number; x?: number; w?: number } = {},
+  ) => {
+    const { size = 10, style = "normal", color = C.ink, lh = size * 1.4, x = M, w = W } = opts;
+    serif(style);
+    setText(color);
+    doc.setFontSize(size);
+    const ls = doc.splitTextToSize(clean(text) || "—", w) as string[];
+    for (const ln of ls) {
+      ensure(lh);
+      doc.text(ln, x, y + size);
+      y += lh;
     }
   };
 
-  const heading = (text: string) => {
-    y += 8;
-    ensure(20);
-    doc.setDrawColor(190, 166, 127);
-    doc.setLineWidth(0.6);
-    write(text.toUpperCase(), { size: 12, bold: true, color: 122 });
-    doc.line(margin, y - 2, pageW - margin, y - 2);
-    y += 4;
+  const sectionHeading = (title: string) => {
+    y += 12;
+    ensure(24);
+    serif("bold");
+    doc.setFontSize(12);
+    setText(C.accent);
+    doc.text(clean(title).toUpperCase(), M, y + 10);
+    y += 16;
+    setDraw(C.line);
+    doc.setLineWidth(0.8);
+    doc.line(M, y, M + W, y);
+    y += 10;
   };
 
-  const field = (label: string, value: string) => {
-    if (!value) return;
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(10);
-    const labW = doc.getTextWidth(clean(label) + ": ");
-    doc.setTextColor(90);
-    ensure(13);
-    doc.text(clean(label) + ": ", margin, y);
-    doc.setFont("helvetica", "normal");
-    doc.setTextColor(30);
-    const lines = doc.splitTextToSize(clean(value), maxW - labW) as string[];
-    doc.text(lines[0] ?? "", margin + labW, y);
-    y += 13;
-    for (let i = 1; i < lines.length; i++) {
-      ensure(13);
-      doc.text(lines[i], margin + labW, y);
-      y += 13;
+  const card = (h: number, draw: (x: number, top: number, w: number) => void, w = W, x = M) => {
+    ensure(h);
+    setFill(C.card);
+    setDraw(C.line);
+    doc.setLineWidth(0.5);
+    doc.roundedRect(x, y, w, h, 6, 6, "FD");
+    draw(x, y, w);
+    y += h + 6;
+  };
+
+  // ---- Campo etichetta+valore (box in stile app) ----
+  const valueBox = (label: string, value: string, x: number, w: number, top: number): number => {
+    serif("bold");
+    doc.setFontSize(8);
+    setText(C.inkSoft);
+    doc.text(clean(label).toUpperCase(), x, top + 8);
+    const boxTop = top + 13;
+    const vLines = lines(value, w - 12, 11);
+    const boxH = 10 + vLines.length * 13;
+    setFill(C.card);
+    setDraw(C.line);
+    doc.setLineWidth(0.4);
+    doc.roundedRect(x, boxTop, w, boxH, 4, 4, "FD");
+    serif("normal");
+    doc.setFontSize(11);
+    setText(value ? C.ink : C.inkFaint);
+    vLines.forEach((ln, i) => doc.text(ln, x + 6, boxTop + 15 + i * 13));
+    return 13 + boxH;
+  };
+
+  const fieldRows = (rows: [string, string][][]) => {
+    for (const row of rows) {
+      const gap = 14;
+      const colW = row.length === 2 ? (W - gap) / 2 : W;
+      // Altezza della riga = max delle celle
+      let rowH = 0;
+      row.forEach(([, value]) => {
+        const vLines = lines(value, colW - 12, 11);
+        rowH = Math.max(rowH, 13 + 10 + vLines.length * 13);
+      });
+      ensure(rowH + 6);
+      row.forEach(([label, value], i) => {
+        valueBox(label, value, M + i * (colW + gap), colW, y);
+      });
+      y += rowH + 6;
     }
   };
 
   const stamp = dateStamp();
 
-  // Intestazione
-  write(clean(name) || "Senza nome", { size: 20, bold: true, color: 92, gap: 6 });
-  write(`Scheda D&D — esportata il ${stamp}`, { size: 9, color: 130, gap: 4 });
+  // ===== Intestazione =====
+  serif("bold");
+  doc.setFontSize(24);
+  setText(C.accent);
+  ensure(30);
+  doc.text(clean(name) || "Senza nome", M, y + 22);
+  y += 32;
+  serif("italic");
+  doc.setFontSize(9);
+  setText(C.inkFaint);
+  doc.text(`Scheda D&D — esportata il ${stamp}`, M, y);
+  y += 6;
+  setDraw(C.line);
+  doc.setLineWidth(1);
+  doc.line(M, y, M + W, y);
+  y += 4;
 
-  // Stato & Identità
-  heading("Stato & Identità");
-  field("Livello", sheet.livello);
-  field("Classe", sheet.classe);
-  field("Punti Ferita", sheet.puntiFerita);
-  field("Punti Ferita Massimi", sheet.puntiFeritaMax);
-  field("Classe Armatura", sheet.classeArmatura);
-  field("Scudo", sheet.scudo);
-  field("Iniziativa", sheet.iniziativa);
-  field("Bonus Competenza", sheet.bonusCompetenza);
-  field("Percezione Passiva", sheet.percezionePassiva);
-  field("Dadi Vita", sheet.dadiVita);
-  field("Punti Esperienza", sheet.puntiEsperienza);
-  field("Ispirazione Eroica", sheet.ispirazioneEroica);
-  field("Velocità", sheet.velocita);
-  field("Allineamento", sheet.allineamento);
-  field("Taglia", sheet.taglia);
-  field("Specie", sheet.specie);
-  field("Background", sheet.background);
+  // ===== Stato & Identità =====
+  sectionHeading("Stato & Identità");
+  fieldRows([
+    [["Livello", sheet.livello], ["Classe", sheet.classe]],
+    [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
+    [["Classe Armatura", sheet.classeArmatura]],
+    [["Scudo", sheet.scudo], ["Iniziativa", sheet.iniziativa]],
+    [["Bonus Competenza", sheet.bonusCompetenza], ["Percezione Passiva", sheet.percezionePassiva]],
+    [["Dadi Vita", sheet.dadiVita], ["Punti Esperienza", sheet.puntiEsperienza]],
+    [["Ispirazione Eroica", sheet.ispirazioneEroica], ["Velocità", sheet.velocita]],
+    [["Allineamento", sheet.allineamento], ["Taglia", sheet.taglia]],
+    [["Specie", sheet.specie]],
+    [["Background", sheet.background]],
+  ]);
 
-  // Lingue
+  // ===== Lingue =====
   const lingue = toList(sheet.lingue);
   if (lingue.length) {
-    heading("Lingue");
-    lingue.forEach((l) => write("• " + l, { indent: 6 }));
+    sectionHeading("Lingue");
+    lingue.forEach((l) => {
+      serif("normal");
+      doc.setFontSize(11);
+      ensure(16);
+      setText(C.accent);
+      doc.text("•", M + 2, y + 10);
+      setText(C.ink);
+      doc.text(clean(l), M + 16, y + 10);
+      y += 16;
+    });
   }
 
-  // Caratteristiche
-  heading("Caratteristiche");
+  // ===== Caratteristiche ===== (card a piena larghezza, come nell'app)
+  sectionHeading("Caratteristiche");
   sheet.caratteristiche.forEach((c) => {
-    write(c.nome, { bold: true, gap: 2 });
-    write(
-      `Valore ${c.valore || "—"}   Modificatore ${c.modificatore || "—"}   Tiro Salvezza ${c.tsBonus || "—"}${c.tsCompetente ? " (competente)" : ""}`,
-      { indent: 6, color: 70 },
-    );
+    card(66, (x, top, w) => {
+      serif("bold");
+      doc.setFontSize(13);
+      setText(C.accent);
+      doc.text(c.nome, x + 12, top + 22);
+      // pill "Tiro Salvezza"
+      const pw = 118;
+      const px = x + w - pw - 12;
+      const active = c.tsCompetente;
+      setDraw(C.accent);
+      if (active) setFill([242, 232, 230]);
+      else setFill(C.card);
+      doc.setLineWidth(active ? 1 : 0.5);
+      setDraw(active ? C.accent : C.line);
+      doc.roundedRect(px, top + 9, pw, 20, 10, 10, "FD");
+      if (active) {
+        setFill(C.accent);
+        doc.circle(px + 14, top + 19, 5, "F");
+        checkAt(px + 14, top + 19);
+      } else {
+        setDraw(C.inkFaint);
+        doc.setLineWidth(0.6);
+        doc.circle(px + 14, top + 19, 5, "S");
+      }
+      serif("normal");
+      doc.setFontSize(9);
+      setText(active ? C.accent : C.inkSoft);
+      doc.text("Tiro Salvezza", px + 24, top + 22);
+      // 3 colonne
+      const cols: [string, string][] = [
+        ["Valore", c.valore],
+        ["Modificatore", c.modificatore],
+        ["Tiro Salvezza", c.tsBonus],
+      ];
+      const innerX = x + 12;
+      const innerW = w - 24;
+      const cw = innerW / 3;
+      cols.forEach(([lab, val], i) => {
+        const cx = innerX + cw * i + cw / 2;
+        serif("normal");
+        doc.setFontSize(7.5);
+        setText(C.inkFaint);
+        doc.text(lab.toUpperCase(), cx, top + 44, { align: "center" });
+        serif("bold");
+        doc.setFontSize(13);
+        setText(C.ink);
+        doc.text(val || "—", cx, top + 60, { align: "center" });
+      });
+    });
   });
 
-  // Abilità
-  heading("Abilità");
-  sheet.abilita.forEach((a) => {
-    const cat = CAR_FULL[a.caratteristica] ?? a.caratteristica;
-    const parts = [`${a.nome} (${cat})`, a.bonus || "—"];
-    if (a.competente) parts.push("competente");
-    if (a.note) parts.push(a.note);
-    write("• " + parts.join(" — "), { indent: 6 });
-  });
+  // ===== Abilità ===== (griglia 2 colonne)
+  sectionHeading("Abilità");
+  {
+    const gap = 10;
+    const cw = (W - gap) / 2;
+    for (let i = 0; i < sheet.abilita.length; i += 2) {
+      const pair = sheet.abilita.slice(i, i + 2);
+      const cellH = (a: Sheet["abilita"][number]) => (a.note ? 46 : 32);
+      const rowH = Math.max(...pair.map(cellH));
+      ensure(rowH + 6);
+      const top = y;
+      pair.forEach((a, k) => {
+        const x = M + k * (cw + gap);
+        setFill(C.card);
+        setDraw(C.line);
+        doc.setLineWidth(0.5);
+        doc.roundedRect(x, top, cw, rowH, 5, 5, "FD");
+        // dot
+        if (a.competente) {
+          setFill(C.accent);
+          doc.circle(x + 12, top + 15, 4.5, "F");
+          checkAt(x + 12, top + 15);
+        } else {
+          setDraw(C.inkFaint);
+          doc.setLineWidth(0.7);
+          doc.circle(x + 12, top + 15, 4.5, "S");
+        }
+        serif("bold");
+        doc.setFontSize(9.5);
+        setText(C.ink);
+        doc.text(clean(a.nome), x + 22, top + 14, { maxWidth: cw - 60 });
+        serif("normal");
+        doc.setFontSize(7);
+        setText(C.inkFaint);
+        doc.text(CAR_FULL[a.caratteristica] ?? a.caratteristica, x + 22, top + 24);
+        serif("bold");
+        doc.setFontSize(11);
+        setText(C.ink);
+        doc.text(a.bonus || "—", x + cw - 10, top + 18, { align: "right" });
+        if (a.note) {
+          serif("italic");
+          doc.setFontSize(8);
+          setText(C.inkSoft);
+          doc.text(clean(a.note), x + 10, top + 40, { maxWidth: cw - 20 });
+        }
+      });
+      y += rowH + 6;
+    }
+  }
 
-  // Incantesimi
+  // ===== helper per card titolo+righe (Incantesimi/Armi/Privilegi/Talenti) =====
+  const titledCard = (title: string, sub: string, meta: string, body: string) => {
+    serif("bold");
+    const titleLines = lines(title, W - 24, 12).length;
+    let h = 8 + titleLines * 15;
+    if (meta) h += lines(meta, W - 24, 9).length * 12;
+    if (body) h += 2 + lines(body, W - 24, 9.5).length * 13;
+    h += 6;
+    card(h, (x, top, w) => {
+      let ty = top + 8;
+      serif("bold");
+      doc.setFontSize(12);
+      setText(C.accent);
+      (doc.splitTextToSize(clean(title) || "—", w - 24) as string[]).forEach((ln) => {
+        doc.text(ln, x + 12, ty + 8);
+        ty += 15;
+      });
+      if (sub) {
+        serif("italic");
+        doc.setFontSize(9);
+        setText(C.inkFaint);
+        doc.text(clean(sub), x + w - 12, top + 18, { align: "right" });
+      }
+      if (meta) {
+        serif("normal");
+        doc.setFontSize(9);
+        setText(C.inkSoft);
+        (doc.splitTextToSize(clean(meta), w - 24) as string[]).forEach((ln) => {
+          doc.text(ln, x + 12, ty + 6);
+          ty += 12;
+        });
+      }
+      if (body) {
+        ty += 2;
+        serif("normal");
+        doc.setFontSize(9.5);
+        setText(C.ink);
+        (doc.splitTextToSize(clean(body), w - 24) as string[]).forEach((ln) => {
+          doc.text(ln, x + 12, ty + 8);
+          ty += 13;
+        });
+      }
+    });
+  };
+
+  // ===== Incantesimi =====
   if (sheet.incantesimi.length) {
-    heading("Incantesimi");
+    sectionHeading("Incantesimi");
     sheet.incantesimi.forEach((inc) => {
-      write(`${inc.nome || "—"}${inc.livello ? ` (Livello ${inc.livello})` : ""}`, { bold: true, gap: 2 });
       const meta = [
         inc.tempo && `Tempo: ${inc.tempo}`,
         inc.gittata && `Gittata: ${inc.gittata}`,
@@ -159,28 +374,28 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
         inc.durata && `Durata: ${inc.durata}`,
         inc.crm && `C/R/M: ${inc.crm}`,
       ].filter(Boolean).join("   ");
-      if (meta) write(meta, { indent: 6, size: 9, color: 90 });
-      if (inc.note) write(inc.note, { indent: 6, color: 60 });
+      titledCard(inc.nome || "—", inc.livello ? `Livello ${inc.livello}` : "", meta, inc.note);
     });
   }
 
-  // Armi
-  heading("Armi");
+  // ===== Armi =====
+  sectionHeading("Armi");
   const compArmi = toList(sheet.competenzeArmi);
-  if (compArmi.length) field("Competenze armi", compArmi.join(", "));
+  if (compArmi.length) {
+    paragraph("Competenze armi: " + compArmi.join(", "), { size: 10, color: C.inkSoft });
+    y += 4;
+  }
   sheet.armi.forEach((a) => {
-    write(`${a.nome || "—"}${a.quantita ? ` ×${a.quantita}` : ""}`, { bold: true, gap: 2 });
     const meta = [
       a.bonus && `Bonus: ${a.bonus}`,
       a.danno && `Danno: ${a.danno}`,
       a.gittata && `Gittata: ${a.gittata}`,
     ].filter(Boolean).join("   ");
-    if (meta) write(meta, { indent: 6, size: 9, color: 90 });
-    if (a.note) write(a.note, { indent: 6, color: 60 });
+    titledCard(a.nome || "—", a.quantita ? `×${a.quantita}` : "", meta, a.note);
   });
 
-  // Equipaggiamento
-  heading("Equipaggiamento");
+  // ===== Equipaggiamento =====
+  sectionHeading("Equipaggiamento");
   const ca = sheet.competenzeArmatura;
   const caList = [
     ca.leggere && "Leggere",
@@ -188,40 +403,41 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     ca.pesanti && "Pesanti",
     ca.scudi && "Scudi",
   ].filter(Boolean).join(", ");
-  if (caList) field("Competenze armatura", caList);
+  if (caList) {
+    paragraph("Competenze armatura: " + caList, { size: 10, color: C.inkSoft });
+    y += 4;
+  }
   sheet.equipaggiamento.forEach((e) => {
-    write(`• ${e.nome || "—"}${e.dettaglio ? ` — ${e.dettaglio}` : ""}`, { indent: 6 });
+    titledCard(e.nome || "—", "", "", e.dettaglio);
   });
 
-  // Monete
+  // ===== Monete =====
   const coins = [
     ["Rame", sheet.monete.rame],
     ["Argento", sheet.monete.argento],
     ["Electrum", sheet.monete.electrum],
     ["Oro", sheet.monete.oro],
     ["Platino", sheet.monete.platino],
-  ].filter(([, v]) => v) as [string, string][];
-  if (coins.length) {
-    heading("Monete");
-    write(coins.map(([k, v]) => `${k}: ${v}`).join("   "), { indent: 6 });
+  ] as [string, string][];
+  if (coins.some(([, v]) => v)) {
+    sectionHeading("Monete");
+    fieldRows([
+      [coins[0], coins[1]],
+      [coins[2], coins[3]],
+      [coins[4], ["", ""]],
+    ].map((r) => r.filter(([l]) => l) as [string, string][]));
   }
 
-  // Privilegi
+  // ===== Privilegi =====
   if (sheet.privilegi.length) {
-    heading("Privilegi");
-    sheet.privilegi.forEach((p) => {
-      write(p.titolo || "—", { bold: true, gap: 2 });
-      if (p.descrizione) write(p.descrizione, { indent: 6, color: 60 });
-    });
+    sectionHeading("Privilegi");
+    sheet.privilegi.forEach((p) => titledCard(p.titolo || "—", "", "", p.descrizione));
   }
 
-  // Talenti
+  // ===== Talenti =====
   if (sheet.talenti.length) {
-    heading("Talenti");
-    sheet.talenti.forEach((t) => {
-      write(t.nome || "—", { bold: true, gap: 2 });
-      if (t.descrizione) write(t.descrizione, { indent: 6, color: 60 });
-    });
+    sectionHeading("Talenti");
+    sheet.talenti.forEach((t) => titledCard(t.nome || "—", "", "", t.descrizione));
   }
 
   const safeName = (name || "scheda").replace(/[^\w\-]+/g, "_");
