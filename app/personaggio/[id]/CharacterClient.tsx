@@ -289,7 +289,7 @@ export default function CharacterClient({
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
   const [name] = useState(initialName);
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start" });
+  const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
   const [selected, setSelected] = useState(0);
 
   // All'ingresso mostriamo la "home" del personaggio con l'indice delle sezioni.
