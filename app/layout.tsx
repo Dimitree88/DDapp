@@ -38,6 +38,9 @@ export const viewport: Viewport = {
   themeColor: "#ece3d0",
   width: "device-width",
   initialScale: 1,
+  // Blocca lo zoom su mobile (incluso l'auto-zoom di iOS entrando nei campi).
+  maximumScale: 1,
+  userScalable: false,
   viewportFit: "cover",
 };
 
