@@ -1,6 +1,13 @@
 "use client";
 
-import { useContext, useEffect, useRef, useState, type ReactNode } from "react";
+import {
+  useCallback,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import {
   TextField,
@@ -290,6 +297,33 @@ export default function CharacterClient({
   const [saveState, setSaveState] = useState<SaveState>("idle");
   const firstRun = useRef(true);
 
+  // Storia per l'undo. Snapshot coalescenti (max 1 ogni 500 ms) per non dover
+  // annullare carattere per carattere.
+  const historyRef = useRef<Sheet[]>([]);
+  const [histLen, setHistLen] = useState(0);
+  const sheetRef = useRef(sheet);
+  const lastSnapRef = useRef(0);
+  useEffect(() => {
+    sheetRef.current = sheet;
+  }, [sheet]);
+  const snapshot = useCallback(() => {
+    const now = Date.now();
+    if (now - lastSnapRef.current > 500) {
+      historyRef.current = [...historyRef.current, sheetRef.current].slice(-100);
+      setHistLen(historyRef.current.length);
+    }
+    lastSnapRef.current = now;
+  }, []);
+  const undo = useCallback(() => {
+    const h = historyRef.current;
+    if (h.length === 0) return;
+    const prev = h[h.length - 1];
+    historyRef.current = h.slice(0, -1);
+    setHistLen(historyRef.current.length);
+    lastSnapRef.current = 0;
+    setSheet(prev);
+  }, []);
+
   useEffect(() => {
     if (!emblaApi) return;
     const onSelect = () => setSelected(emblaApi.selectedScrollSnap());
@@ -314,17 +348,24 @@ export default function CharacterClient({
     return () => clearTimeout(t);
   }, [id, name, sheet]);
 
-  const patch = (p: Partial<Sheet>) => setSheet((s) => ({ ...s, ...p }));
-  const updateCar = (i: number, p: Partial<Caratteristica>) =>
+  const patch = (p: Partial<Sheet>) => {
+    snapshot();
+    setSheet((s) => ({ ...s, ...p }));
+  };
+  const updateCar = (i: number, p: Partial<Caratteristica>) => {
+    snapshot();
     setSheet((s) => ({
       ...s,
       caratteristiche: s.caratteristiche.map((c, idx) => (idx === i ? { ...c, ...p } : c)),
     }));
-  const updateAbi = (i: number, p: Partial<Abilita>) =>
+  };
+  const updateAbi = (i: number, p: Partial<Abilita>) => {
+    snapshot();
     setSheet((s) => ({
       ...s,
       abilita: s.abilita.map((a, idx) => (idx === i ? { ...a, ...p } : a)),
     }));
+  };
 
   function goToPage(i: number) {
     emblaApi?.scrollTo(i, true);
@@ -646,11 +687,11 @@ export default function CharacterClient({
     <EditProvider unlocked={true} requireUnlock={() => {}}>
       <div className="flex h-dvh flex-col">
         <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-2 pt-2 backdrop-blur">
-          <div className="flex items-center justify-between gap-2">
+          <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
             <button
               type="button"
               onClick={() => setShowHub(true)}
-              className="flex min-w-0 items-center gap-1.5 text-left"
+              className="flex min-w-0 items-center gap-1.5 justify-self-start text-left"
               aria-label="Torna alla home del personaggio"
             >
               <span className="text-lg leading-none text-ink-soft" aria-hidden>
@@ -660,7 +701,15 @@ export default function CharacterClient({
                 {name || "Senza nome"}
               </h1>
             </button>
-            <div className="flex shrink-0 items-center gap-2">
+            <button
+              type="button"
+              onClick={undo}
+              disabled={histLen === 0}
+              className="justify-self-center touch-manipulation rounded-full border border-line px-3 py-1 text-xs font-medium text-ink-soft transition-opacity disabled:opacity-30"
+            >
+              ↶ Annulla
+            </button>
+            <div className="flex shrink-0 items-center gap-2 justify-self-end">
               {!showHub && (
                 <span className="text-xs text-ink-faint">{pages[selected]?.title}</span>
               )}
