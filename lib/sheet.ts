@@ -14,46 +14,32 @@ export type Abilita = {
   caratteristica: string; // abbr es. "FOR"
   competente: boolean;
   bonus: string; // es. "-1"
-  note: string; // es. "da Ranger"
 };
 
 export type Arma = {
   nome: string;
   quantita: string;
   bonus: string; // bonus att. / CD
-  danno: string; // danno & tipo
-  gittata: string;
-  provenienza: string;
   note: string;
 };
 
 export type Equip = {
   nome: string;
   dettaglio: string;
-  provenienza: string;
 };
 
 export type Privilegio = {
   titolo: string;
-  descrizione: string;
+  scelte: string;
 };
 
 export type Talento = {
   nome: string;
-  descrizione: string;
+  scelte: string;
 };
 
 export type Incantesimo = {
-  livello: string;
   nome: string;
-  tempo: string; // tempo di lancio
-  gittata: string;
-  componenti: string;
-  durata: string;
-  concentrazione: boolean;
-  rituale: boolean;
-  materiali: boolean;
-  note: string;
 };
 
 export type Sheet = {
@@ -190,7 +176,6 @@ export function emptySheet(): Sheet {
       caratteristica: a.caratteristica,
       competente: false,
       bonus: "",
-      note: "",
     })),
 
     competenzeArmi: [],
