@@ -50,7 +50,9 @@ export type Incantesimo = {
   gittata: string;
   componenti: string;
   durata: string;
-  crm: string; // concentrazione / rituale / materiali
+  concentrazione: boolean;
+  rituale: boolean;
+  materiali: boolean;
   note: string;
 };
 
@@ -60,13 +62,14 @@ export type Sheet = {
   classe: string;
   puntiFerita: string;
   puntiFeritaMax: string;
-  classeArmatura: string;
-  scudo: string;
+  classeArmatura: number | null;
+  noteClasseArmatura: string;
+  scudo: boolean;
   iniziativa: string;
   bonusCompetenza: string;
   percezionePassiva: string;
   dadiVita: string;
-  ispirazioneEroica: string;
+  ispirazioneEroica: boolean;
   puntiEsperienza: string;
 
   // Pagina: Identità
@@ -153,13 +156,14 @@ export function emptySheet(): Sheet {
     classe: "",
     puntiFerita: "",
     puntiFeritaMax: "",
-    classeArmatura: "",
-    scudo: "",
+    classeArmatura: null,
+    noteClasseArmatura: "",
+    scudo: false,
     iniziativa: "",
     bonusCompetenza: "+2",
     percezionePassiva: "",
     dadiVita: "",
-    ispirazioneEroica: "",
+    ispirazioneEroica: false,
     puntiEsperienza: "0",
 
     specie: "",
@@ -202,5 +206,44 @@ export function emptySheet(): Sheet {
 
     monete: { rame: "", argento: "", electrum: "", oro: "", platino: "" },
     note: "",
+  };
+}
+
+// Le schede vecchie sono JSON: la conversione avviene alla lettura e non
+// modifica il database finché il personaggio non viene salvato normalmente.
+export function normalizeSheet(value: Sheet): Sheet {
+  const old = value as unknown as {
+    classeArmatura: number | string | null;
+    scudo: boolean | string;
+    ispirazioneEroica: boolean | string;
+    noteClasseArmatura?: string;
+    incantesimi: (Incantesimo & { crm?: string })[];
+  };
+  const rawArmor = old.classeArmatura;
+  const armorMatch = typeof rawArmor === "string" ? rawArmor.trim().match(/^(\d+)(?:\s*\(([\s\S]*)\))?$/) : null;
+  const classeArmatura = typeof rawArmor === "number" && Number.isFinite(rawArmor)
+    ? rawArmor
+    : armorMatch ? Number(armorMatch[1]) : null;
+  const noteClasseArmatura = old.noteClasseArmatura?.trim() || (
+    typeof rawArmor === "string" ? (armorMatch ? armorMatch[2] ?? "" : rawArmor) : ""
+  );
+  const toBoolean = (input: boolean | string) =>
+    typeof input === "boolean" ? input : /^s(?:i|ì)(?:\s|$)/i.test(input.trim());
+  return {
+    ...value,
+    classeArmatura,
+    noteClasseArmatura,
+    scudo: toBoolean(old.scudo),
+    ispirazioneEroica: toBoolean(old.ispirazioneEroica),
+    incantesimi: old.incantesimi.map((inc) => {
+      const legacy = inc.crm ?? "";
+      const symbols = new Set(legacy.toUpperCase().match(/\b[CRM]\b/g) ?? []);
+      return {
+        ...inc,
+        concentrazione: inc.concentrazione ?? (symbols.has("C") || /concentrazione/i.test(legacy)),
+        rituale: inc.rituale ?? (symbols.has("R") || /rituale/i.test(legacy)),
+        materiali: inc.materiali ?? (symbols.has("M") || /material/i.test(legacy) || /(?:^|[,\s])M(?:\s|,|\(|$)/i.test(inc.componenti)),
+      };
+    }),
   };
 }

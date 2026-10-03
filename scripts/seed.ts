@@ -16,13 +16,14 @@ function ephemerSheet(): Sheet {
   s.classe = "RANGER";
   s.puntiFerita = "16";
   s.puntiFeritaMax = "16";
-  s.classeArmatura = "14 (12 cuoio borchiato + 2 Destrezza)";
-  s.scudo = "no";
+  s.classeArmatura = 14;
+  s.noteClasseArmatura = "12 cuoio borchiato + 2 Destrezza";
+  s.scudo = false;
   s.iniziativa = "+2";
   s.bonusCompetenza = "+2";
   s.percezionePassiva = "15";
   s.dadiVita = "2d10";
-  s.ispirazioneEroica = "sì (da Umano)";
+  s.ispirazioneEroica = true;
   s.puntiEsperienza = "0";
 
   // Identità
@@ -139,7 +140,9 @@ function ephemerSheet(): Sheet {
       gittata: "Contatto",
       componenti: "V, S",
       durata: "Istantanea",
-      crm: "",
+      concentrazione: false,
+      rituale: false,
+      materiali: false,
       note: "Una creatura toccata recupera 2d8 + il modificatore da incantatore. +2d8 per ogni slot di livello superiore al 1°.",
     },
     {
@@ -149,7 +152,9 @@ function ephemerSheet(): Sheet {
       gittata: "Contatto",
       componenti: "V, S, M (pizzico di terriccio)",
       durata: "1 ora",
-      crm: "",
+      concentrazione: false,
+      rituale: false,
+      materiali: true,
       note: "La creatura toccata aumenta la velocità di 3 m. Una creatura aggiuntiva per ogni slot di livello superiore al 1°.",
     },
     {
@@ -159,7 +164,9 @@ function ephemerSheet(): Sheet {
       gittata: "27 m",
       componenti: "V",
       durata: "Concentrazione, fino a 1 ora",
-      crm: "C",
+      concentrazione: true,
+      rituale: false,
+      materiali: false,
       note: "Marchi una creatura visibile: +1d6 danni da forza ogni volta che la colpisci; vantaggio alle prove di Percezione/Sopravvivenza per trovarla. Se va a 0 PF, sposti il marchio con un'azione bonus. Concentrazione più lunga con slot superiori.",
     },
   ];

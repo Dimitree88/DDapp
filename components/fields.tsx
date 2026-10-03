@@ -63,12 +63,14 @@ export function TextField({
   onChange,
   multiline = false,
   placeholder = "",
+  inputMode,
 }: {
   label: string;
   value: string;
   onChange: (v: string) => void;
   multiline?: boolean;
   placeholder?: string;
+  inputMode?: React.HTMLAttributes<HTMLInputElement>["inputMode"];
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const [editing, setEditing] = useState(false);
@@ -85,6 +87,7 @@ export function TextField({
             value={value}
             onChange={(e) => onChange(e.target.value)}
             placeholder={placeholder}
+            inputMode={inputMode}
             rows={2}
             autoFocus
             onBlur={() => setEditing(false)}
@@ -95,6 +98,7 @@ export function TextField({
             value={value}
             onChange={(e) => onChange(e.target.value)}
             placeholder={placeholder}
+            inputMode={inputMode}
             autoFocus
             onBlur={() => setEditing(false)}
             onKeyDown={enterBlurs}

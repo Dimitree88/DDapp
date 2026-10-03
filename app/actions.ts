@@ -6,7 +6,7 @@ import { randomUUID } from "crypto";
 import { eq } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characters } from "@/lib/db/schema";
-import { emptySheet, type Sheet } from "@/lib/sheet";
+import { emptySheet, normalizeSheet, type Sheet } from "@/lib/sheet";
 
 export async function createCharacter(formData: FormData) {
   const name = String(formData.get("name") ?? "").trim();
@@ -35,7 +35,7 @@ export async function saveSheet(
   const cleanName = name.trim() || "Senza nome";
   await db
     .update(characters)
-    .set({ name: cleanName, data: sheet, updatedAt: new Date() })
+    .set({ name: cleanName, data: normalizeSheet(sheet), updatedAt: new Date() })
     .where(eq(characters.id, id));
   revalidatePath(`/personaggio/${id}`);
   revalidatePath("/");

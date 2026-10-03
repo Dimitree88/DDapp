@@ -198,11 +198,12 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   fieldRows([
     [["Livello", sheet.livello], ["Classe", sheet.classe]],
     [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
-    [["Classe Armatura", sheet.classeArmatura]],
-    [["Scudo", sheet.scudo], ["Iniziativa", sheet.iniziativa]],
+    [["Classe Armatura", sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)]],
+    [["Note Classe Armatura", sheet.noteClasseArmatura]],
+    [["Scudo", sheet.scudo ? "Sì" : "No"], ["Iniziativa", sheet.iniziativa]],
     [["Bonus Competenza", sheet.bonusCompetenza], ["Percezione Passiva", sheet.percezionePassiva]],
     [["Dadi Vita", sheet.dadiVita], ["Punti Esperienza", sheet.puntiEsperienza]],
-    [["Ispirazione Eroica", sheet.ispirazioneEroica], ["Velocità", sheet.velocita]],
+    [["Ispirazione Eroica", sheet.ispirazioneEroica ? "Sì" : "No"], ["Velocità", sheet.velocita]],
     [["Allineamento", sheet.allineamento], ["Taglia", sheet.taglia]],
     [["Specie", sheet.specie]],
     [["Background", sheet.background]],
@@ -384,7 +385,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
         inc.gittata && `Gittata: ${inc.gittata}`,
         inc.componenti && `Componenti: ${inc.componenti}`,
         inc.durata && `Durata: ${inc.durata}`,
-        inc.crm && `C/R/M: ${inc.crm}`,
+        (inc.concentrazione || inc.rituale || inc.materiali) && `C/R/M: ${[inc.concentrazione && "C", inc.rituale && "R", inc.materiali && "M"].filter(Boolean).join(" ")}`,
       ].filter(Boolean).join("   ");
       titledCard(inc.nome || "—", inc.livello ? `Livello ${inc.livello}` : "", meta, inc.note);
     });

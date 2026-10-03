@@ -138,6 +138,7 @@ function ArrayEditor<T>({
   titleOf,
   subtitleOf,
   headerAccessory,
+  maxItems,
 }: {
   items: T[];
   onChange: (items: T[]) => void;
@@ -148,6 +149,7 @@ function ArrayEditor<T>({
   titleOf?: (item: T, index: number) => string;
   subtitleOf?: (item: T, index: number) => string;
   headerAccessory?: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
+  maxItems?: number;
 }) {
   const { unlocked } = useContext(EditContext);
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
@@ -173,7 +175,7 @@ function ArrayEditor<T>({
       return n;
     });
 
-  const addButton = unlocked && (
+  const addButton = unlocked && (maxItems === undefined || items.length < maxItems) && (
     <button
       type="button"
       onClick={add}
@@ -239,6 +241,9 @@ function ArrayEditor<T>({
           );
         })}
         {addButton}
+        {unlocked && maxItems !== undefined && items.length >= maxItems && (
+          <p className="text-xs text-ink-faint">Massimo {maxItems} elementi.</p>
+        )}
       </div>
     );
   }
@@ -263,6 +268,9 @@ function ArrayEditor<T>({
         </div>
       ))}
       {addButton}
+      {unlocked && maxItems !== undefined && items.length >= maxItems && (
+        <p className="text-xs text-ink-faint">Massimo {maxItems} elementi.</p>
+      )}
     </div>
   );
 }
@@ -373,13 +381,20 @@ export default function CharacterClient({
     setShowHub(false);
   }
 
-  const [exporting, setExporting] = useState(false);
-  async function handleExport() {
-    setExporting(true);
+  const [exporting, setExporting] = useState<"current" | "template" | null>(null);
+  async function handleExport(kind: "current" | "template") {
+    setExporting(kind);
     try {
-      await exportSheetPdf(name, sheet);
+      if (kind === "current") await exportSheetPdf(name, sheet);
+      else {
+        const { exportTemplatePdf } = await import("@/lib/exportTemplatePdf");
+        await exportTemplatePdf(name, sheet);
+      }
+    } catch (error) {
+      console.error(error);
+      window.alert("Esportazione PDF non riuscita. Riprova.");
     } finally {
-      setExporting(false);
+      setExporting(null);
     }
   }
 
@@ -396,9 +411,12 @@ export default function CharacterClient({
             <TextField label="Punti Ferita" value={sheet.puntiFerita} onChange={(v) => patch({ puntiFerita: v })} />
             <TextField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} onChange={(v) => patch({ puntiFeritaMax: v })} />
           </div>
-          <TextField label="Classe Armatura" value={sheet.classeArmatura} onChange={(v) => patch({ classeArmatura: v })} />
           <div className={grid2}>
-            <TextField label="Scudo" value={sheet.scudo} onChange={(v) => patch({ scudo: v })} />
+          <TextField label="Classe Armatura" inputMode="numeric" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} onChange={(v) => { if (/^\d*$/.test(v)) patch({ classeArmatura: v ? Number(v) : null }); }} />
+            <Toggle label="Scudo" checked={sheet.scudo} onChange={(v) => patch({ scudo: v })} />
+          </div>
+          <TextField label="Note Classe Armatura" value={sheet.noteClasseArmatura} onChange={(v) => patch({ noteClasseArmatura: v })} multiline />
+          <div className={grid2}>
             <TextField label="Iniziativa" value={sheet.iniziativa} onChange={(v) => patch({ iniziativa: v })} />
           </div>
           <div className={grid2}>
@@ -410,7 +428,7 @@ export default function CharacterClient({
             <TextField label="Punti Esperienza" value={sheet.puntiEsperienza} onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Ispirazione Eroica" value={sheet.ispirazioneEroica} onChange={(v) => patch({ ispirazioneEroica: v })} />
+            <Toggle label="Ispirazione Eroica" checked={sheet.ispirazioneEroica} onChange={(v) => patch({ ispirazioneEroica: v })} />
             <TextField label="Velocità" value={sheet.velocita} onChange={(v) => patch({ velocita: v })} />
           </div>
           <div className={grid2}>
@@ -518,6 +536,7 @@ export default function CharacterClient({
               onChange={(items) => patch({ armi: items })}
               makeNew={() => ({ nome: "", quantita: "", bonus: "", danno: "", gittata: "", provenienza: "", note: "" })}
               addLabel="Aggiungi arma"
+              maxItems={6}
               collapsible
               titleOf={(a) => a.nome || "Nuova arma"}
               subtitleOf={(a) => a.danno}
@@ -631,8 +650,9 @@ export default function CharacterClient({
         <ArrayEditor
           items={sheet.incantesimi}
           onChange={(items) => patch({ incantesimi: items })}
-          makeNew={() => ({ livello: "", nome: "", tempo: "", gittata: "", componenti: "", durata: "", crm: "", note: "" })}
+          makeNew={() => ({ livello: "", nome: "", tempo: "", gittata: "", componenti: "", durata: "", concentrazione: false, rituale: false, materiali: false, note: "" })}
           addLabel="Aggiungi incantesimo"
+          maxItems={30}
           collapsible
           titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
           subtitleOf={(inc) => (inc.livello ? `Livello ${inc.livello}` : "")}
@@ -640,7 +660,11 @@ export default function CharacterClient({
             <div className="flex flex-col gap-2">
               <div className={grid2}>
                 <TextField label="Livello" value={inc.livello} onChange={(v) => p({ livello: v })} />
-                <TextField label="C / R / M" value={inc.crm} onChange={(v) => p({ crm: v })} />
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <Toggle label="Concentrazione" checked={inc.concentrazione} onChange={(v) => p({ concentrazione: v })} />
+                <Toggle label="Rituale" checked={inc.rituale} onChange={(v) => p({ rituale: v })} />
+                <Toggle label="Materiali" checked={inc.materiali} onChange={(v) => p({ materiali: v })} />
               </div>
               <TextField label="Nome" value={inc.nome} onChange={(v) => p({ nome: v })} />
               <div className={grid2}>
@@ -778,11 +802,19 @@ export default function CharacterClient({
               </div>
               <button
                 type="button"
-                onClick={handleExport}
-                disabled={exporting}
+                onClick={() => handleExport("template")}
+                disabled={exporting !== null}
                 className="mt-4 w-full rounded-xl bg-accent py-3 text-sm font-semibold text-parchment shadow-sm transition-opacity active:opacity-90 disabled:opacity-50"
               >
-                {exporting ? "Esportazione…" : "Esporta PDF"}
+                {exporting === "template" ? "Esportazione…" : "Esporta PDF scheda"}
+              </button>
+              <button
+                type="button"
+                onClick={() => handleExport("current")}
+                disabled={exporting !== null}
+                className="mt-2 w-full rounded-xl border border-accent py-3 text-sm font-semibold text-accent transition-opacity active:opacity-90 disabled:opacity-50"
+              >
+                {exporting === "current" ? "Esportazione…" : "Esporta PDF app"}
               </button>
             </div>
           )}

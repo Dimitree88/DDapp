@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { eq } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characters } from "@/lib/db/schema";
+import { normalizeSheet } from "@/lib/sheet";
 import CharacterClient from "./CharacterClient";
 
 export const dynamic = "force-dynamic";
@@ -16,5 +17,5 @@ export default async function Page({
   const row = rows[0];
   if (!row) notFound();
 
-  return <CharacterClient id={row.id} name={row.name} sheet={row.data} />;
+  return <CharacterClient id={row.id} name={row.name} sheet={normalizeSheet(row.data)} />;
 }
