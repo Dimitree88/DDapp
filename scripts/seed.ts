@@ -17,7 +17,6 @@ function ephemerSheet(): Sheet {
   s.puntiFerita = "16";
   s.puntiFeritaMax = "16";
   s.classeArmatura = 14;
-  s.noteClasseArmatura = "12 cuoio borchiato + 2 Destrezza";
   s.scudo = false;
   s.iniziativa = "+2";
   s.bonusCompetenza = "+2";

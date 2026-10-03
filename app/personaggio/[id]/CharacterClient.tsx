@@ -462,7 +462,6 @@ export default function CharacterClient({
           <TextField label="Classe Armatura" inputMode="numeric" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} onChange={(v) => { if (/^\d*$/.test(v)) patch({ classeArmatura: v ? Number(v) : null }); }} />
             <Toggle label="Scudo" checked={sheet.scudo} onChange={(v) => patch({ scudo: v })} />
           </div>
-          <TextField label="Note Classe Armatura" value={sheet.noteClasseArmatura} onChange={(v) => patch({ noteClasseArmatura: v })} multiline />
           <div className={grid2}>
             <TextField label="Iniziativa" value={sheet.iniziativa} onChange={(v) => patch({ iniziativa: v })} />
           </div>

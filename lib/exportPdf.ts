@@ -200,7 +200,6 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     [["Sottoclasse", sheet.sottoclasse]],
     [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
     [["Classe Armatura", sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)]],
-    [["Note Classe Armatura", sheet.noteClasseArmatura]],
     [["Scudo", sheet.scudo ? "Sì" : "No"], ["Iniziativa", sheet.iniziativa]],
     [["Bonus Competenza", sheet.bonusCompetenza], ["Percezione Passiva", sheet.percezionePassiva]],
     [["Dadi Vita", sheet.dadiVita], ["Punti Esperienza", sheet.puntiEsperienza]],

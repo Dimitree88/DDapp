@@ -44,7 +44,7 @@ export function groupHistoryByDay<T extends TimedHistoryEntry>(entries: T[]): Hi
 const labels: Record<string, string> = {
   livello: "Livello", classe: "Classe", sottoclasse: "Sottoclasse",
   puntiFerita: "Punti ferita", puntiFeritaMax: "Punti ferita massimi",
-  classeArmatura: "Classe armatura", noteClasseArmatura: "Note classe armatura",
+  classeArmatura: "Classe armatura",
   scudo: "Scudo", iniziativa: "Iniziativa", bonusCompetenza: "Bonus competenza",
   percezionePassiva: "Percezione passiva", dadiVita: "Dadi vita",
   ispirazioneEroica: "Ispirazione eroica", puntiEsperienza: "Punti esperienza",
