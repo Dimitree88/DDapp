@@ -2,6 +2,8 @@
 
 La tabella modificabile è [mappatura-scheda-pdf.csv](mappatura-scheda-pdf.csv). Contiene tutte le 410 caselle del PDF (120 a pagina 1, 290 a pagina 2), una riga per casella. Si può aprire in Excel o LibreOffice e filtrare per `sezione` o `stato`.
 
+L'esportatore usa `lib/pdfTemplateFields.json`, generato dalla tabella al momento dell'implementazione. Modificare il CSV da solo non cambia il PDF esportato: occorre aggiornare anche la mappa usata dal codice.
+
 | Colonna | Significato |
 | --- | --- |
 | `etichetta_pdf` | Nome leggibile della casella; nelle righe ripetute include il numero della riga. |

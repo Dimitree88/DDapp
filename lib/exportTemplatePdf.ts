@@ -91,9 +91,9 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
         page.drawText(line, { x: mapping.x + 2, y: page.getHeight() - mapping.y - 2 - size - index * size * 1.2, size, font, color: rgb(0, 0, 0) });
       });
     } else {
-      let size = Math.min(11, Math.max(5, mapping.height * 0.65));
-      while (size > 5 && measure(value, size) > width) size -= 0.5;
       let text = value.replace(/\s+/g, " ").trim();
+      let size = Math.min(11, Math.max(5, mapping.height * 0.65));
+      while (size > 5 && measure(text, size) > width) size -= 0.5;
       while (text && measure(text, size) > width) text = text.slice(0, -1);
       page.drawText(text, { x: mapping.x + 2, y: page.getHeight() - mapping.y - 1 - size, size, font, color: rgb(0, 0, 0) });
     }
@@ -145,6 +145,8 @@ export async function exportTemplatePdf(name: string, sheet: Sheet): Promise<voi
   const link = document.createElement("a");
   link.href = url;
   link.download = `${(name || "scheda").replace(/[^\w-]+/g, "_")}_scheda.pdf`;
+  document.body.appendChild(link);
   link.click();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 60_000);
 }

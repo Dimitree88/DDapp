@@ -36,7 +36,11 @@ anche l'ambiente locale si collega a quello).
 
 ## Mappa dei file
 - `lib/sheet.ts` — tipo `Sheet` (modello scheda) + `emptySheet()` con scheletro
-  standard di caratteristiche/abilità D&D.
+  standard di caratteristiche/abilità D&D e conversione dei vecchi JSON con
+  `normalizeSheet()`.
+- `lib/exportPdf.ts` — esportazione PDF nel formato dell'app.
+- `lib/exportTemplatePdf.ts` e `lib/pdfTemplateFields.json` — esportazione
+  statica sul modello originale in `public/scheda-template.pdf`.
 - `lib/db/schema.ts` — tabella Drizzle `characters` (`id`, `name`, `pin_hash`,
   `data` JSON = `Sheet`, timestamps).
 - `lib/db/index.ts` — client Drizzle su libSQL (legge `DATABASE_URL`/`DATABASE_AUTH_TOKEN`).
@@ -89,6 +93,10 @@ Avvia: `npm run dev` → http://localhost:3000 (dal telefono, stessa Wi-Fi, usa 
   Ephemer seminato.
 - ✅ Tema pergamena applicato (font TT Jenevers + sfondo + palette).
 - ✅ **Deployato** su Vercel + Turso; produzione verificata (landing legge Ephemer dal DB).
+- ✅ Due esportazioni PDF nell'app: formato app e scheda originale compilata.
+- ✅ Scudo, ispirazione e C/R/M come spunte; classe armatura numerica con note
+  separate. I vecchi JSON vengono convertiti alla lettura senza modificare
+  subito il database. Massimo 6 armi e 30 incantesimi aggiungibili dall'interfaccia.
 - ⏳ Eventuale feedback UX sullo swipe/mobile; aggiungere gli altri personaggi.
 - Non verificato in modo headless: resa visiva reale, swipe col dito, modale PIN,
   salvataggio dal browser (l'utente li prova manualmente).

@@ -2,8 +2,9 @@
 
 App **mobile-first** privata per gestire le schede dei personaggi di D&D 5e (regole
 2024) della nostra compagnia (6-10 giocatori). Ogni scheda si sfoglia con lo **swipe
-orizzontale** ed è completamente **libera**: nessun calcolo automatico, tutti i campi
-sono testo modificabile.
+orizzontale** e non calcola automaticamente le regole. La maggior parte dei campi
+è testo libero; scudo, ispirazione eroica e C/R/M sono spunte, mentre la classe
+armatura è un numero con note separate.
 
 ## Stack
 - **Next.js 16** (App Router, Server Actions) + **React 19**
@@ -41,6 +42,9 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 - Per modificare: pulsante **Modifica** → inserisci il **PIN a 4 cifre** della scheda
   → modifichi i campi → **Salva modifiche**.
 - Crea un nuovo personaggio dal form in fondo alla home (nome + PIN).
+- Dalla pagina del personaggio puoi esportare il PDF nel formato dell'app o
+  compilare il modello D&D originale. Il secondo PDF è statico e contiene fino a
+  6 armi e 30 incantesimi; i testi troppo lunghi vengono tagliati solo nel PDF.
 
 ## Script
 | Comando | Cosa fa |
