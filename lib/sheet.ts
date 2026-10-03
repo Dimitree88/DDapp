@@ -78,7 +78,6 @@ export type Sheet = {
   background: string;
   allineamento: string;
   velocita: string; // solo cifre, senza unità
-  noteVelocita: string;
   taglia: string;
   lingue: string[];
   noteLingue: string;
@@ -174,7 +173,6 @@ export function emptySheet(): Sheet {
     background: "",
     allineamento: "",
     velocita: "",
-    noteVelocita: "",
     taglia: "",
     lingue: [],
     noteLingue: "",
@@ -223,11 +221,9 @@ export function normalizeSheet(value: Sheet): Sheet {
     lignaggio?: string;
     noteLingue?: string;
     velocita: number | string | null;
-    noteVelocita?: string;
     classeArmatura: number | string | null;
     scudo: boolean | string;
     ispirazioneEroica: boolean | string;
-    noteClasseArmatura?: string;
     lingue: unknown;
     competenzeArmi: unknown;
     incantesimi: (Incantesimo & { crm?: string })[];
@@ -241,9 +237,6 @@ export function normalizeSheet(value: Sheet): Sheet {
   const speedMatch = typeof rawSpeed === "string" ? rawSpeed.trim().match(/^(\d+(?:[.,]\d+)?)\s*(?:m|metri)?$/i) : null;
   const velocita = typeof rawSpeed === "number" && Number.isFinite(rawSpeed)
     ? String(rawSpeed) : speedMatch ? String(Number(speedMatch[1].replace(",", "."))) : "";
-  const noteVelocita = old.noteVelocita?.trim() || (
-    typeof rawSpeed === "string" && rawSpeed.trim() && !speedMatch ? rawSpeed : ""
-  );
   const toBoolean = (input: boolean | string) =>
     typeof input === "boolean" ? input : /^s(?:i|ì)(?:\s|$)/i.test(input.trim());
   const toList = (input: unknown): string[] =>
@@ -256,7 +249,6 @@ export function normalizeSheet(value: Sheet): Sheet {
     noteLingue: typeof old.noteLingue === "string" ? old.noteLingue : "",
     classeArmatura,
     velocita,
-    noteVelocita,
     scudo: toBoolean(old.scudo),
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
     lingue: toList(old.lingue),
@@ -273,5 +265,6 @@ export function normalizeSheet(value: Sheet): Sheet {
     }),
   };
   delete (normalized as Sheet & { noteClasseArmatura?: string }).noteClasseArmatura;
+  delete (normalized as Sheet & { noteVelocita?: string }).noteVelocita;
   return normalized;
 }

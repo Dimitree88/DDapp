@@ -49,7 +49,7 @@ const labels: Record<string, string> = {
   percezionePassiva: "Percezione passiva", dadiVita: "Dadi vita",
   ispirazioneEroica: "Ispirazione eroica", puntiEsperienza: "Punti esperienza",
   specie: "Specie", lignaggio: "Lignaggio", background: "Background",
-  allineamento: "Allineamento", velocita: "Velocità", noteVelocita: "Note velocità",
+  allineamento: "Allineamento", velocita: "Velocità",
   taglia: "Taglia", lingue: "Lingue", noteLingue: "Note lingue",
   caratteristiche: "Caratteristiche", abilita: "Abilità",
   competenzeArmi: "Competenze armi", armi: "Armi",

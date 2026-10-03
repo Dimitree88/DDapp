@@ -450,34 +450,33 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
-            <TextField label="Livello" value={sheet.livello} onChange={(v) => patch({ livello: v })} />
+            <TextField label="Livello" value={sheet.livello} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
             <TextField label="Classe" value={sheet.classe} options={classi} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
           </div>
           <TextField label="Sottoclasse" value={sheet.sottoclasse} options={sottoclassi[sheet.classe] ?? []} onChange={(v) => patch({ sottoclasse: v })} />
           <div className={grid2}>
-            <TextField label="Punti Ferita" value={sheet.puntiFerita} onChange={(v) => patch({ puntiFerita: v })} />
-            <TextField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} onChange={(v) => patch({ puntiFeritaMax: v })} />
+            <TextField label="Punti Ferita" value={sheet.puntiFerita} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
+            <TextField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
           </div>
           <div className={grid2}>
-          <TextField label="Classe Armatura" inputMode="numeric" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} onChange={(v) => { if (/^\d*$/.test(v)) patch({ classeArmatura: v ? Number(v) : null }); }} />
-            <Toggle label="Scudo" checked={sheet.scudo} onChange={(v) => patch({ scudo: v })} />
+          <TextField label="Classe Armatura" numeric="unsigned" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} onChange={(v) => patch({ classeArmatura: v ? Number(v) : null })} />
+            <TextField label="Scudo" value={sheet.scudo ? "Sì" : "No"} options={["Sì", "No"]} onChange={(v) => patch({ scudo: v === "Sì" })} />
           </div>
           <div className={grid2}>
-            <TextField label="Iniziativa" value={sheet.iniziativa} onChange={(v) => patch({ iniziativa: v })} />
+            <TextField label="Iniziativa" value={sheet.iniziativa} numeric="signed" onChange={(v) => patch({ iniziativa: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Bonus Competenza" value={sheet.bonusCompetenza} onChange={(v) => patch({ bonusCompetenza: v })} />
-            <TextField label="Percezione Passiva" value={sheet.percezionePassiva} onChange={(v) => patch({ percezionePassiva: v })} />
+            <TextField label="Bonus Competenza" value={sheet.bonusCompetenza} numeric="signed" onChange={(v) => patch({ bonusCompetenza: v })} />
+            <TextField label="Percezione Passiva" value={sheet.percezionePassiva} numeric="unsigned" onChange={(v) => patch({ percezionePassiva: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Dadi Vita" value={sheet.dadiVita} onChange={(v) => patch({ dadiVita: v })} />
-            <TextField label="Punti Esperienza" value={sheet.puntiEsperienza} onChange={(v) => patch({ puntiEsperienza: v })} />
+            <TextField label="Dadi Vita" value={sheet.dadiVita} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
+            <TextField label="Punti Esperienza" value={sheet.puntiEsperienza} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
           <div className={grid2}>
-            <Toggle label="Ispirazione Eroica" checked={sheet.ispirazioneEroica} onChange={(v) => patch({ ispirazioneEroica: v })} />
+            <TextField label="Ispirazione Eroica" value={sheet.ispirazioneEroica ? "Sì" : "No"} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
             <NumberUnitField label="Velocità" value={sheet.velocita} unit="m" onChange={(v) => patch({ velocita: v })} />
           </div>
-          <TextField label="Note velocità" value={sheet.noteVelocita} onChange={(v) => patch({ noteVelocita: v })} multiline />
           <div className={grid2}>
             <TextField label="Allineamento" value={sheet.allineamento} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
             <TextField label="Taglia" value={sheet.taglia} options={regole.taglie} onChange={(v) => patch({ taglia: v })} />
@@ -533,6 +532,7 @@ export default function CharacterClient({
                     <InlineInput
                       value={String(c[key])}
                       onChange={(v) => updateCar(i, { [key]: v } as Partial<Caratteristica>)}
+                      numeric={key === "valore" ? "unsigned" : "signed"}
                       className="mt-0.5 w-full text-center"
                     />
                   </div>
@@ -557,7 +557,7 @@ export default function CharacterClient({
                     {CAR_FULL[a.caratteristica] ?? a.caratteristica}
                   </div>
                 </div>
-                <InlineInput value={a.bonus} onChange={(v) => updateAbi(i, { bonus: v })} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
+                <InlineInput value={a.bonus} numeric="signed" onChange={(v) => updateAbi(i, { bonus: v })} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
               </div>
               {a.note && (
                 <div className="mt-0.5">
@@ -599,6 +599,7 @@ export default function CharacterClient({
                   <InlineInput
                     value={a.quantita}
                     onChange={(v) => p({ quantita: v })}
+                    numeric="unsigned"
                     className="w-10 text-center"
                     placeholder="—"
                   />
@@ -607,7 +608,7 @@ export default function CharacterClient({
               renderItem={(a, p) => (
                 <div className="flex flex-col gap-2">
                   <TextField label="Nome" value={a.nome} options={nomiArmi} onChange={(v) => p({ nome: v })} />
-                  <TextField label="Bonus att./CD" value={a.bonus} onChange={(v) => p({ bonus: v })} />
+                  <TextField label="Bonus att./CD" value={a.bonus} numeric="signed" onChange={(v) => p({ bonus: v })} />
                   <TextField label="Danno e tipo" value={a.danno} onChange={(v) => p({ danno: v })} />
                   <TextField label="Gittata" value={a.gittata} onChange={(v) => p({ gittata: v })} />
                   <TextField label="Note" value={a.note} onChange={(v) => p({ note: v })} multiline />
@@ -750,6 +751,7 @@ export default function CharacterClient({
                   <InlineInput
                     value={sheet.monete[key]}
                     onChange={(v) => patch({ monete: { ...sheet.monete, [key]: v } })}
+                    numeric="unsigned"
                     className="w-24 text-right"
                   />
                 </div>

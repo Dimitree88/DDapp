@@ -7,6 +7,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import { numericDraftValid, numericValueValid, type NumericMode } from "@/lib/numeric";
 
 // Contesto di modifica condiviso: i campi non ricevono più `editable` per prop,
 // ma leggono qui se la scheda è sbloccata e come richiedere lo sblocco (PIN).
@@ -65,6 +66,8 @@ export function TextField({
   placeholder = "",
   inputMode,
   options,
+  numeric,
+  allowEmpty = true,
 }: {
   label: string;
   value: string;
@@ -73,13 +76,21 @@ export function TextField({
   placeholder?: string;
   inputMode?: React.HTMLAttributes<HTMLInputElement>["inputMode"];
   options?: readonly string[];
+  numeric?: NumericMode;
+  allowEmpty?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState(value);
   const onTap = useDoubleTap(() => {
     if (!unlocked) return requireUnlock();
+    setDraft(value);
     setEditing(true);
   });
+  const close = () => {
+    if (numeric && !numericValueValid(draft, numeric)) onChange("");
+    setEditing(false);
+  };
 
   return (
     <label className="block">
@@ -94,7 +105,7 @@ export function TextField({
             className={inputBase}
             aria-label={label || "Scegli un'opzione"}
           >
-            <option value="">—</option>
+            {allowEmpty && <option value="">—</option>}
             {options.map((option) => <option key={option} value={option}>{option}</option>)}
           </select>
         ) : multiline ? (
@@ -110,12 +121,18 @@ export function TextField({
           />
         ) : (
           <input
-            value={value}
-            onChange={(e) => onChange(e.target.value)}
+            value={numeric ? draft : value}
+            onChange={(e) => {
+              const next = e.target.value;
+              if (!numeric) return onChange(next);
+              if (!numericDraftValid(next, numeric)) return;
+              setDraft(next);
+              if (numericValueValid(next, numeric)) onChange(next);
+            }}
             placeholder={placeholder}
-            inputMode={inputMode}
+            inputMode={inputMode ?? (numeric === "unsigned" ? "numeric" : undefined)}
             autoFocus
-            onBlur={() => setEditing(false)}
+            onBlur={close}
             onKeyDown={enterBlurs}
             className={inputBase}
           />
@@ -188,24 +205,42 @@ export function InlineInput({
   onChange,
   placeholder = "",
   className = "",
+  numeric,
 }: {
   value: string;
   onChange: (v: string) => void;
   placeholder?: string;
   className?: string;
+  numeric?: NumericMode;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const [editing, setEditing] = useState(false);
-  const onTap = useDoubleTap(() => (unlocked ? setEditing(true) : requireUnlock()));
+  const [draft, setDraft] = useState(value);
+  const onTap = useDoubleTap(() => {
+    if (!unlocked) return requireUnlock();
+    setDraft(value);
+    setEditing(true);
+  });
+  const close = () => {
+    if (numeric && !numericValueValid(draft, numeric)) onChange("");
+    setEditing(false);
+  };
 
   if (editing) {
     return (
       <input
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
+        value={numeric ? draft : value}
+        onChange={(e) => {
+          const next = e.target.value;
+          if (!numeric) return onChange(next);
+          if (!numericDraftValid(next, numeric)) return;
+          setDraft(next);
+          if (numericValueValid(next, numeric)) onChange(next);
+        }}
         placeholder={placeholder}
+        inputMode={numeric === "unsigned" ? "numeric" : undefined}
         autoFocus
-        onBlur={() => setEditing(false)}
+        onBlur={close}
         onKeyDown={enterBlurs}
         className={`rounded-md border border-line bg-card/80 px-2 py-1 text-[15px] text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none ${className}`}
       />

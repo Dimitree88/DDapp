@@ -52,8 +52,6 @@ function convert(raw, name) {
   else if (speedMatch) sheet.velocita = String(Number(speedMatch[1].replace(",", ".")));
   else if (!oldSpeed) sheet.velocita = "";
   else errors.push(`${name} velocità: ${JSON.stringify(oldSpeed)}`);
-  sheet.noteVelocita ??= "";
-  if (typeof oldSpeed === "string" && /m\/s/i.test(oldSpeed) && !sheet.noteVelocita) sheet.noteVelocita = `Valore precedente: ${oldSpeed}`;
 
   sheet.noteLingue ??= "";
   sheet.lingue = list(sheet.lingue).map((rawLanguage) => {
