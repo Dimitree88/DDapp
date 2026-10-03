@@ -217,6 +217,8 @@ export function normalizeSheet(value: Sheet): Sheet {
     scudo: boolean | string;
     ispirazioneEroica: boolean | string;
     noteClasseArmatura?: string;
+    lingue: unknown;
+    competenzeArmi: unknown;
     incantesimi: (Incantesimo & { crm?: string })[];
   };
   const rawArmor = old.classeArmatura;
@@ -229,12 +231,17 @@ export function normalizeSheet(value: Sheet): Sheet {
   );
   const toBoolean = (input: boolean | string) =>
     typeof input === "boolean" ? input : /^s(?:i|ì)(?:\s|$)/i.test(input.trim());
+  const toList = (input: unknown): string[] =>
+    Array.isArray(input) ? input : typeof input === "string"
+      ? input.split(/[;,\n]/).map((item) => item.trim()).filter(Boolean) : [];
   return {
     ...value,
     classeArmatura,
     noteClasseArmatura,
     scudo: toBoolean(old.scudo),
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
+    lingue: toList(old.lingue),
+    competenzeArmi: toList(old.competenzeArmi),
     incantesimi: old.incantesimi.map((inc) => {
       const legacy = inc.crm ?? "";
       const symbols = new Set(legacy.toUpperCase().match(/\b[CRM]\b/g) ?? []);
