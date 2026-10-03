@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { emptySheet, normalizeSheet } from "../lib/sheet.ts";
 
-test("converts legacy armor, checkboxes and spell flags without changing other data", () => {
+test("moves legacy rules out of character data while preserving personal choices", () => {
   const old = {
     ...emptySheet(),
     classeArmatura: "14 (12 cuoio borchiato + 2 Destrezza)",
@@ -10,10 +10,13 @@ test("converts legacy armor, checkboxes and spell flags without changing other d
     ispirazioneEroica: "sì (da Umano)",
     lingue: "Comune, Draconico",
     competenzeArmi: "Semplici; Da guerra",
-    incantesimi: [{
-      livello: "1", nome: "Passo veloce", tempo: "Azione", gittata: "Contatto",
-      componenti: "V, S, M (pizzico di terriccio)", durata: "1 ora", crm: "C", note: "testo completo",
-    }],
+    noteLingue: "Draconico (da Eremita)\nSottocomune mercanti (da Liv. 2)",
+    abilita: [{ nome: "MEDICINA", caratteristica: "SAG", competente: true, bonus: "+5", note: "da Eremita" }],
+    armi: [{ nome: "Arco corto", quantita: "", bonus: "+4", danno: "1d6 perforante (+2 da talento Tiro)", gittata: "24 m", provenienza: "da Ranger", note: "" }],
+    equipaggiamento: [{ nome: "Borsa da erborista", dettaglio: "CD 10 per identificare una pianta; creazione: antitossina", provenienza: "da Eremita" }],
+    privilegi: [{ titolo: "Livello 2 (competenza +2)", descrizione: "Esploratore esperto (scelto +2 a un'abilità); stile di combattimento (scelto Tiro)." }],
+    talenti: [{ nome: "Lavoro manuale", descrizione: "Provenienza: da Umano\nCompetenza in 3 strumenti da artigiano scelti: falegname, fabbro, inventore. Fabbricazione rapida." }],
+    incantesimi: [{ nome: "Marchio del Cacciatore", livello: "1", tempo: "Azione bonus (2 volte senza spendere slot)", gittata: "27 m", note: "regola" }],
   };
   const sheet = normalizeSheet(old);
   assert.equal(sheet.classeArmatura, 14);
@@ -22,12 +25,17 @@ test("converts legacy armor, checkboxes and spell flags without changing other d
   assert.equal(sheet.ispirazioneEroica, true);
   assert.deepEqual(sheet.lingue, ["Comune", "Draconico"]);
   assert.deepEqual(sheet.competenzeArmi, ["Semplici", "Da guerra"]);
-  assert.deepEqual(
-    [sheet.incantesimi[0].concentrazione, sheet.incantesimi[0].rituale, sheet.incantesimi[0].materiali],
-    [true, false, true],
-  );
-  assert.equal(sheet.incantesimi[0].componenti, old.incantesimi[0].componenti);
-  assert.equal(sheet.incantesimi[0].note, old.incantesimi[0].note);
+  assert.equal(sheet.noteLingue, "Mercanti");
+  assert.deepEqual(sheet.abilita[0], { nome: "MEDICINA", caratteristica: "SAG", competente: true, bonus: "+5" });
+  assert.deepEqual(sheet.armi[0], { nome: "Arco corto", quantita: "", bonus: "+4", note: "Bonus al tiro per colpire: +2 da talento Tiro" });
+  assert.deepEqual(sheet.equipaggiamento[0], { nome: "Borsa da erborista", dettaglio: "" });
+  assert.deepEqual(sheet.privilegi, [
+    { titolo: "Esploratore esperto", scelte: "Abilità scelta non indicata" },
+    { titolo: "Stile di combattimento", scelte: "Tiro" },
+    { titolo: "Nemico prescelto", scelte: "Marchio del Cacciatore: 2 volte senza spendere slot" },
+  ]);
+  assert.deepEqual(sheet.talenti[0], { nome: "Lavoro manuale", scelte: "falegname, fabbro, inventore" });
+  assert.deepEqual(sheet.incantesimi[0], { nome: "Marchio del Cacciatore" });
   assert.deepEqual(normalizeSheet(sheet), sheet);
 });
 

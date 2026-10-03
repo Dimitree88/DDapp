@@ -47,7 +47,6 @@ export function domainErrors(sheet: Sheet): string[] {
     checkNumber(`Arma ${index + 1} bonus`, weapon.bonus, "signed");
   });
   sheet.talenti.forEach((feat, index) => check(`Talento ${index + 1}`, feat.nome, feats));
-  sheet.incantesimi.forEach((spell, index) => check(`Livello incantesimo ${index + 1}`, spell.livello, rules.livelliIncantesimo));
   Object.entries(sheet.monete).forEach(([coin, value]) => checkNumber(`Monete ${coin}`, value, "unsigned"));
   return errors;
 }

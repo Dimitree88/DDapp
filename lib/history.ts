@@ -60,7 +60,7 @@ const labels: Record<string, string> = {
   tsBonus: "Bonus tiro salvezza", tsCompetente: "Tiro salvezza competente",
   caratteristica: "Caratteristica", competente: "Competente", bonus: "Bonus",
   quantita: "Quantità", danno: "Danno", gittata: "Gittata", provenienza: "Provenienza",
-  dettaglio: "Dettaglio", titolo: "Titolo", descrizione: "Descrizione",
+  dettaglio: "Dettaglio personale", titolo: "Titolo", descrizione: "Descrizione", scelte: "Scelte personali",
   tempo: "Tempo di lancio", componenti: "Componenti", durata: "Durata",
   concentrazione: "Concentrazione", rituale: "Rituale", materiali: "Materiali",
   leggere: "Leggere", medie: "Medie", pesanti: "Pesanti", scudi: "Scudi",

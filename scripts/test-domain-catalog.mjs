@@ -16,8 +16,8 @@ test("the catalog accepts migrated 2024 options and rejects names outside it", (
     taglia: "Media",
     lingue: ["Comune", "Sottocomune"],
     competenzeArmi: ["Armi semplici"],
-    armi: [{ nome: "Arco corto", quantita: "1", bonus: "", danno: "", gittata: "", provenienza: "", note: "" }],
-    talenti: [{ nome: "Guaritore", descrizione: "" }],
+    armi: [{ nome: "Arco corto", quantita: "1", bonus: "", note: "" }],
+    talenti: [{ nome: "Guaritore", scelte: "" }],
   };
   assert.deepEqual(domainErrors(sheet), []);
   assert.match(domainErrors({ ...sheet, specie: "Elfo Alto" }).join(" "), /Specie/);

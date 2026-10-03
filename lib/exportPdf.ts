@@ -288,8 +288,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     const cw = (W - gap) / 2;
     for (let i = 0; i < sheet.abilita.length; i += 2) {
       const pair = sheet.abilita.slice(i, i + 2);
-      const cellH = (a: Sheet["abilita"][number]) => (a.note ? 46 : 32);
-      const rowH = Math.max(...pair.map(cellH));
+      const rowH = 32;
       ensure(rowH + 6);
       const top = y;
       pair.forEach((a, k) => {
@@ -320,12 +319,6 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
         doc.setFontSize(11);
         setText(C.ink);
         doc.text(a.bonus || "—", x + cw - 10, top + 18, { align: "right" });
-        if (a.note) {
-          serif("italic");
-          doc.setFontSize(8);
-          setText(C.inkSoft);
-          doc.text(clean(a.note), x + 10, top + 40, { maxWidth: cw - 20 });
-        }
       });
       y += rowH + 6;
     }
@@ -379,16 +372,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   // ===== Incantesimi =====
   tab("Incantesimi");
   if (sheet.incantesimi.length) {
-    sheet.incantesimi.forEach((inc) => {
-      const meta = [
-        inc.tempo && `Tempo: ${inc.tempo}`,
-        inc.gittata && `Gittata: ${inc.gittata}`,
-        inc.componenti && `Componenti: ${inc.componenti}`,
-        inc.durata && `Durata: ${inc.durata}`,
-        (inc.concentrazione || inc.rituale || inc.materiali) && `C/R/M: ${[inc.concentrazione && "C", inc.rituale && "R", inc.materiali && "M"].filter(Boolean).join(" ")}`,
-      ].filter(Boolean).join("   ");
-      titledCard(inc.nome || "—", inc.livello ? `Livello ${inc.livello}` : "", meta, inc.note);
-    });
+    sheet.incantesimi.forEach((inc) => titledCard(inc.nome || "—", "", "", ""));
   } else {
     emptyNote();
   }
@@ -404,8 +388,6 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     sheet.armi.forEach((a) => {
       const meta = [
         a.bonus && `Bonus: ${a.bonus}`,
-        a.danno && `Danno: ${a.danno}`,
-        a.gittata && `Gittata: ${a.gittata}`,
       ].filter(Boolean).join("   ");
       titledCard(a.nome || "—", a.quantita ? `×${a.quantita}` : "", meta, a.note);
     });
@@ -445,7 +427,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   // ===== Privilegi ===== (stessa pagina di Monete)
   tab("Privilegi", true);
   if (sheet.privilegi.length) {
-    sheet.privilegi.forEach((p) => titledCard(p.titolo || "—", "", "", p.descrizione));
+    sheet.privilegi.forEach((p) => titledCard(p.titolo || "—", "", "", p.scelte));
   } else {
     emptyNote();
   }
@@ -453,7 +435,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   // ===== Talenti ===== (stessa pagina di Monete)
   tab("Talenti", true);
   if (sheet.talenti.length) {
-    sheet.talenti.forEach((t) => titledCard(t.nome || "—", "", "", t.descrizione));
+    sheet.talenti.forEach((t) => titledCard(t.nome || "—", "", "", t.scelte));
   } else {
     emptyNote();
   }

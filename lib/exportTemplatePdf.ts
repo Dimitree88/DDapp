@@ -121,7 +121,7 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   }
 
   // Privilegi occupy two columns: flow the wrapped lines into the second.
-  const privileges = sheet.privilegi.map((item) => `${item.titolo}: ${item.descrizione}`);
+  const privileges = sheet.privilegi.map((item) => item.scelte ? `${item.titolo}: ${item.scelte}` : item.titolo);
   if (privileges.length) {
     const first = byField.get("textarea_140vxzv")!;
     const second = byField.get("textarea_141pxvh")!;
@@ -130,7 +130,7 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
     draw(first, lines.slice(0, perColumn).join("\n"));
     draw(second, lines.slice(perColumn, perColumn * 2).join("\n"));
   }
-  if (sheet.talenti.length) draw(byField.get("textarea_143mcko")!, sheet.talenti.map((item) => `${item.nome}: ${item.descrizione}`).join("\n"));
+  if (sheet.talenti.length) draw(byField.get("textarea_143mcko")!, sheet.talenti.map((item) => item.scelte ? `${item.nome}: ${item.scelte}` : item.nome).join("\n"));
   if (sheet.equipaggiamento.length) draw(byField.get("textarea_165hxzs")!, sheet.equipaggiamento.map((item) => item.nome).join("\n"));
 
   return pdf.save();

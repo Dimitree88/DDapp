@@ -211,7 +211,12 @@ export function normalizeSheet(value: Sheet): Sheet {
     ispirazioneEroica: boolean | string;
     lingue: unknown;
     competenzeArmi: unknown;
-    incantesimi: (Incantesimo & { crm?: string })[];
+    abilita: (Abilita & { note?: string })[];
+    armi: (Arma & { danno?: string; gittata?: string; provenienza?: string })[];
+    equipaggiamento: (Equip & { provenienza?: string })[];
+    privilegi: (Privilegio & { descrizione?: string })[];
+    talenti: (Talento & { descrizione?: string })[];
+    incantesimi: (Incantesimo & { tempo?: string })[];
   };
   const rawArmor = old.classeArmatura;
   const armorMatch = typeof rawArmor === "string" ? rawArmor.trim().match(/^(\d+)(?:\s*\(([\s\S]*)\))?$/) : null;
@@ -227,27 +232,63 @@ export function normalizeSheet(value: Sheet): Sheet {
   const toList = (input: unknown): string[] =>
     Array.isArray(input) ? input : typeof input === "string"
       ? input.split(/[;,\n]/).map((item) => item.trim()).filter(Boolean) : [];
+  const languages = toList(old.lingue);
+  const noteLingue = (old.noteLingue ?? "").split(/\r?\n/).flatMap((line) => {
+    const trimmed = line.trim();
+    if (!trimmed) return [];
+    if (/^Sottocomune mercanti(?:\s+\(da [^)]+\))?$/i.test(trimmed)) return ["Mercanti"];
+    const provenance = /^(.+?)\s+\(da [^)]+\)$/i.exec(trimmed);
+    if (provenance && languages.some((language) => language.toLocaleLowerCase("it") === provenance[1].toLocaleLowerCase("it"))) return [];
+    return [line];
+  }).join("\n");
+  const privileges = old.privilegi.flatMap((item) => {
+    if (typeof item.scelte === "string") return [{ titolo: item.titolo, scelte: item.scelte }];
+    const description = item.descrizione ?? "";
+    if (!/^Livello [12]\b/i.test(item.titolo)) return [{ titolo: item.titolo, scelte: description }];
+    const choices: Privilegio[] = [];
+    const mastery = /padronanza d'armi \(([^)]+)\)/i.exec(description);
+    if (mastery) choices.push({ titolo: "Padronanza d'armi", scelte: mastery[1] });
+    if (/Esploratore esperto/i.test(description)) choices.push({ titolo: "Esploratore esperto", scelte: "Abilità scelta non indicata" });
+    const fightingStyle = /stile di combattimento \(scelto ([^)]+)\)/i.exec(description);
+    if (fightingStyle) choices.push({ titolo: "Stile di combattimento", scelte: fightingStyle[1] });
+    return choices;
+  });
+  const hunterMark = old.incantesimi.find((spell) => /marchio del cacciatore/i.test(spell.nome));
+  const freeCasts = /\((\d+ volte senza spendere slot)\)/i.exec(hunterMark?.tempo ?? "");
+  if (freeCasts && !privileges.some((item) => item.titolo === "Nemico prescelto")) {
+    privileges.push({ titolo: "Nemico prescelto", scelte: `Marchio del Cacciatore: ${freeCasts[1]}` });
+  }
   const normalized = {
     ...value,
     sottoclasse: typeof old.sottoclasse === "string" ? old.sottoclasse : "",
     lignaggio: typeof old.lignaggio === "string" ? old.lignaggio : "",
-    noteLingue: typeof old.noteLingue === "string" ? old.noteLingue : "",
+    noteLingue,
     classeArmatura,
     velocita,
     scudo: toBoolean(old.scudo),
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
-    lingue: toList(old.lingue),
+    lingue: languages,
     competenzeArmi: toList(old.competenzeArmi),
-    incantesimi: old.incantesimi.map((inc) => {
-      const legacy = inc.crm ?? "";
-      const symbols = new Set(legacy.toUpperCase().match(/\b[CRM]\b/g) ?? []);
-      return {
-        ...inc,
-        concentrazione: inc.concentrazione ?? (symbols.has("C") || /concentrazione/i.test(legacy)),
-        rituale: inc.rituale ?? (symbols.has("R") || /rituale/i.test(legacy)),
-        materiali: inc.materiali ?? (symbols.has("M") || /material/i.test(legacy) || /(?:^|[,\s])M(?:\s|,|\(|$)/i.test(inc.componenti)),
-      };
+    abilita: old.abilita.map(({ nome, caratteristica, competente, bonus }) => ({ nome, caratteristica, competente, bonus })),
+    armi: old.armi.map((weapon) => {
+      const personalBonus = /\((\+\d+ da talento [^)]+)\)/i.exec(weapon.danno ?? "");
+      const note = personalBonus && !(weapon.note ?? "").includes(personalBonus[1])
+        ? [weapon.note, `Bonus al tiro per colpire: ${personalBonus[1]}`].filter(Boolean).join("\n")
+        : weapon.note ?? "";
+      return { nome: weapon.nome, quantita: weapon.quantita, bonus: weapon.bonus, note };
     }),
+    equipaggiamento: old.equipaggiamento
+      .filter((item) => item.nome !== "Sconto 20% su oggetti non magici")
+      .map((item) => ({ nome: item.nome, dettaglio:
+        (item.nome === "Armatura di cuoio borchiato" && item.dettaglio === "Classe armatura 12") ||
+        (item.nome === "Borsa da erborista" && /^CD 10 per identificare una pianta; creazione:/.test(item.dettaglio))
+          ? "" : item.dettaglio })),
+    privilegi: privileges,
+    talenti: old.talenti.map((feat) => {
+      const tools = /strumenti da artigiano scelti:\s*([^\n.]+)/i.exec(feat.descrizione ?? "");
+      return { nome: feat.nome, scelte: typeof feat.scelte === "string" ? feat.scelte : tools?.[1].trim() ?? "" };
+    }),
+    incantesimi: old.incantesimi.map((spell) => ({ nome: spell.nome })),
   };
   delete (normalized as Sheet & { noteClasseArmatura?: string }).noteClasseArmatura;
   delete (normalized as Sheet & { noteVelocita?: string }).noteVelocita;

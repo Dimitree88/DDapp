@@ -559,11 +559,6 @@ export default function CharacterClient({
                 </div>
                 <InlineInput value={a.bonus} numeric="signed" onChange={(v) => updateAbi(i, { bonus: v })} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
               </div>
-              {a.note && (
-                <div className="mt-0.5">
-                  <InlineInput value={a.note} onChange={(v) => updateAbi(i, { note: v })} className="w-full text-[11px] text-ink-soft" placeholder="note" />
-                </div>
-              )}
             </div>
           ))}
         </div>
@@ -587,12 +582,12 @@ export default function CharacterClient({
             <ArrayEditor
               items={sheet.armi}
               onChange={(items) => patch({ armi: items })}
-              makeNew={() => ({ nome: "", quantita: "", bonus: "", danno: "", gittata: "", provenienza: "", note: "" })}
+              makeNew={() => ({ nome: "", quantita: "", bonus: "", note: "" })}
               addLabel="Aggiungi arma"
               maxItems={6}
               collapsible
               titleOf={(a) => a.nome || "Nuova arma"}
-              subtitleOf={(a) => a.danno}
+              subtitleOf={(a) => a.bonus}
               headerAccessory={(a, p) => (
                 <div className="flex items-center gap-1">
                   <span className="text-xs text-ink-faint">×</span>
@@ -609,9 +604,7 @@ export default function CharacterClient({
                 <div className="flex flex-col gap-2">
                   <TextField label="Nome" value={a.nome} options={nomiArmi} onChange={(v) => p({ nome: v })} />
                   <TextField label="Bonus att./CD" value={a.bonus} numeric="signed" onChange={(v) => p({ bonus: v })} />
-                  <TextField label="Danno e tipo" value={a.danno} onChange={(v) => p({ danno: v })} />
-                  <TextField label="Gittata" value={a.gittata} onChange={(v) => p({ gittata: v })} />
-                  <TextField label="Note" value={a.note} onChange={(v) => p({ note: v })} multiline />
+                  <TextField label="Dettaglio personale" value={a.note} onChange={(v) => p({ note: v })} multiline />
                 </div>
               )}
             />
@@ -648,7 +641,7 @@ export default function CharacterClient({
             <ArrayEditor
               items={sheet.equipaggiamento}
               onChange={(items) => patch({ equipaggiamento: items })}
-              makeNew={() => ({ nome: "", dettaglio: "", provenienza: "" })}
+              makeNew={() => ({ nome: "", dettaglio: "" })}
               addLabel="Aggiungi oggetto"
               collapsible
               titleOf={(e) => e.nome || "Nuovo oggetto"}
@@ -656,7 +649,7 @@ export default function CharacterClient({
               renderItem={(e, p) => (
                 <div className="flex flex-col gap-2">
                   <TextField label="Oggetto" value={e.nome} onChange={(v) => p({ nome: v })} />
-                  <TextField label="Dettaglio" value={e.dettaglio} onChange={(v) => p({ dettaglio: v })} multiline />
+                  <TextField label="Dettaglio personale" value={e.dettaglio} onChange={(v) => p({ dettaglio: v })} multiline />
                 </div>
               )}
             />
@@ -670,12 +663,12 @@ export default function CharacterClient({
         <ArrayEditor
           items={sheet.privilegi}
           onChange={(items) => patch({ privilegi: items })}
-          makeNew={() => ({ titolo: "", descrizione: "" })}
+          makeNew={() => ({ titolo: "", scelte: "" })}
           addLabel="Aggiungi privilegio"
           renderItem={(pr, p) => (
             <div className="flex flex-col gap-2">
               <TextField label="Titolo" value={pr.titolo} onChange={(v) => p({ titolo: v })} />
-              <TextField label="Descrizione" value={pr.descrizione} onChange={(v) => p({ descrizione: v })} multiline />
+              <TextField label="Scelte personali" value={pr.scelte} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}
         />
@@ -687,12 +680,12 @@ export default function CharacterClient({
         <ArrayEditor
           items={sheet.talenti}
           onChange={(items) => patch({ talenti: items })}
-          makeNew={() => ({ nome: "", descrizione: "" })}
+          makeNew={() => ({ nome: "", scelte: "" })}
           addLabel="Aggiungi talento"
           renderItem={(t, p) => (
             <div className="flex flex-col gap-2">
               <TextField label="Nome" value={t.nome} options={nomiTalenti} onChange={(v) => p({ nome: v })} />
-              <TextField label="Descrizione" value={t.descrizione} onChange={(v) => p({ descrizione: v })} multiline />
+              <TextField label="Scelte personali" value={t.scelte} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}
         />
@@ -704,32 +697,14 @@ export default function CharacterClient({
         <ArrayEditor
           items={sheet.incantesimi}
           onChange={(items) => patch({ incantesimi: items })}
-          makeNew={() => ({ livello: "", nome: "", tempo: "", gittata: "", componenti: "", durata: "", concentrazione: false, rituale: false, materiali: false, note: "" })}
+          makeNew={() => ({ nome: "" })}
           addLabel="Aggiungi incantesimo"
           maxItems={30}
           collapsible
           titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
-          subtitleOf={(inc) => (inc.livello ? `Livello ${inc.livello}` : "")}
           renderItem={(inc, p) => (
             <div className="flex flex-col gap-2">
-              <div className={grid2}>
-                <TextField label="Livello" value={inc.livello} options={regole.livelliIncantesimo} onChange={(v) => p({ livello: v })} />
-              </div>
-              <div className="flex flex-wrap gap-2">
-                <Toggle label="Concentrazione" checked={inc.concentrazione} onChange={(v) => p({ concentrazione: v })} />
-                <Toggle label="Rituale" checked={inc.rituale} onChange={(v) => p({ rituale: v })} />
-                <Toggle label="Materiali" checked={inc.materiali} onChange={(v) => p({ materiali: v })} />
-              </div>
               <TextField label="Nome" value={inc.nome} onChange={(v) => p({ nome: v })} />
-              <div className={grid2}>
-                <TextField label="Tempo di lancio" value={inc.tempo} onChange={(v) => p({ tempo: v })} />
-                <TextField label="Gittata" value={inc.gittata} onChange={(v) => p({ gittata: v })} />
-              </div>
-              <div className={grid2}>
-                <TextField label="Componenti" value={inc.componenti} onChange={(v) => p({ componenti: v })} />
-                <TextField label="Durata" value={inc.durata} onChange={(v) => p({ durata: v })} />
-              </div>
-              <TextField label="Note" value={inc.note} onChange={(v) => p({ note: v })} multiline />
             </div>
           )}
         />
