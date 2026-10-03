@@ -3,8 +3,10 @@
 App **mobile-first** privata per gestire le schede dei personaggi di D&D 5e (regole
 2024) della nostra compagnia (6-10 giocatori). Ogni scheda si sfoglia con lo **swipe
 orizzontale** e non calcola automaticamente le regole. La maggior parte dei campi
-è testo libero; scudo, ispirazione eroica e C/R/M sono spunte, mentre la classe
-armatura è un numero con note separate.
+è testo libero; scudo, ispirazione eroica e C/R/M sono spunte, mentre classe
+armatura e velocità sono numeri con note separate. Classi, sottoclassi, specie,
+lignaggi, background, lingue, allineamenti, taglie, armi, talenti e livelli degli
+incantesimi usano i domini del catalogo JSON.
 
 ## Stack
 - **Next.js 16** (App Router, Server Actions) + **React 19**
@@ -45,6 +47,10 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 - Dalla pagina del personaggio puoi esportare il PDF nel formato dell'app o
   compilare il modello D&D originale. Il secondo PDF è statico e contiene fino a
   6 armi e 30 incantesimi; i testi troppo lunghi vengono tagliati solo nel PDF.
+- Il pulsante **Storico modifiche** in fondo alla pagina del personaggio mostra i
+  salvataggi in ordine dal più recente, con data, ora e valori prima/dopo. I
+  salvataggi identici non creano voci. Lo storico inizia dall'attivazione della
+  funzione; le modifiche precedenti non sono ricostruibili dal database.
 
 ## Script
 | Comando | Cosa fa |
@@ -54,6 +60,7 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 | `npm run db:push` | Applica lo schema Drizzle al DB |
 | `npm run seed` | Inserisce il personaggio "Ephemer" |
 | `npm run db:studio` | Apre Drizzle Studio sul DB |
+| `node scripts/setup-history.mjs` | Crea la tabella dello storico senza cambiare le schede |
 
 ## Variabili d'ambiente
 | Variabile | Locale | Produzione (Turso) |
@@ -69,9 +76,24 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 4. Collega il repo a Vercel e fai il deploy.
 
 ## Modello dati
-Una sola tabella `characters`: `id`, `name`, `pin_hash`, e `data` (JSON con l'intera
-scheda — vedi il tipo `Sheet` in `lib/sheet.ts`). La scheda originale di riferimento è
+La tabella `characters` contiene `id`, `name`, `pin_hash` e `data` (JSON con l'intera
+scheda — vedi il tipo `Sheet` in `lib/sheet.ts`). `character_history` registra
+data, ora e differenze di ogni salvataggio effettivo. La scheda originale di riferimento è
 in `docs/EPHEMER.md`.
+
+## Catalogo delle regole
+
+Le opzioni dei menu sono in [`lib/regole-srd-2024.json`](lib/regole-srd-2024.json).
+Puoi aggiungere o modificare le voci direttamente nel file; la modifica richiede
+un nuovo deploy in produzione. I campi con dominio accettano solo valori presenti
+nel JSON. I dati esistenti devono quindi essere allineati al catalogo prima di
+rimuovere o rinominare una voce. `node scripts/audit-domain-values.mjs` legge i
+valori attuali; `node scripts/normalize-domain-values.mjs` simula la bonifica e
+`node scripts/normalize-domain-values.mjs --apply` la applica, creando prima un
+backup locale ignorato da Git in `.db-backups/`. Gli script leggono `.env.local`.
+
+La base è l'SRD 5.2.1 in italiano. Eremita, Guida, Guaritore e Lavoro manuale
+sono integrazioni del Manuale del Giocatore 2024 già presenti nei personaggi.
 
 ## Note
 - `local.db` (DB locale) e `.env` sono ignorati da git.

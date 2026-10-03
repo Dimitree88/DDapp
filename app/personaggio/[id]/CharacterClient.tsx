@@ -11,15 +11,24 @@ import {
 import useEmblaCarousel from "embla-carousel-react";
 import {
   TextField,
+  NumberUnitField,
   InlineInput,
   Toggle,
   EditProvider,
   EditContext,
   useDoubleTap,
 } from "@/components/fields";
-import { saveSheet } from "@/app/actions";
+import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
 import { exportSheetPdf } from "@/lib/exportPdf";
+import regole from "@/lib/regole-srd-2024.json";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
+
+const classi = Object.keys(regole.classi);
+const sottoclassi = regole.classi as Record<string, string[]>;
+const lignaggi = regole.lignaggi as Record<string, string[]>;
+const lingue = [...regole.lingue.standard, ...regole.lingue.rare];
+const nomiArmi = [...regole.armi.semplici, ...regole.armi.daGuerra];
+const nomiTalenti = Object.values(regole.talenti).flat();
 
 const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
 const grid2 = "grid grid-cols-2 gap-2.5";
@@ -52,10 +61,12 @@ function StringListEditor({
   items,
   onChange,
   addLabel,
+  options,
 }: {
   items: string[];
   onChange: (v: string[]) => void;
   addLabel: string;
+  options?: readonly string[];
 }) {
   const { unlocked } = useContext(EditContext);
   return (
@@ -66,12 +77,10 @@ function StringListEditor({
           <span className="text-ink-faint" aria-hidden>
             •
           </span>
-          <InlineInput
-            value={it}
-            onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))}
-            className="flex-1"
-            placeholder="…"
-          />
+          <div className="min-w-0 flex-1">
+            {options ? <TextField label="" value={it} options={options} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
+              <InlineInput value={it} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} className="flex-1" placeholder="…" />}
+          </div>
           {unlocked && (
             <button
               type="button"
@@ -305,6 +314,11 @@ export default function CharacterClient({
 
   const [saveState, setSaveState] = useState<SaveState>("idle");
   const firstRun = useRef(true);
+  const saveChainRef = useRef<Promise<void>>(Promise.resolve());
+  const [showHistory, setShowHistory] = useState(false);
+  const [historyEntries, setHistoryEntries] = useState<HistoryEntry[]>([]);
+  const [historyLoading, setHistoryLoading] = useState(false);
+  const [historyError, setHistoryError] = useState("");
 
   // Storia per l'undo. Snapshot coalescenti (max 1 ogni 500 ms) per non dover
   // annullare carattere per carattere.
@@ -343,7 +357,13 @@ export default function CharacterClient({
     };
   }, [emblaApi]);
 
-  // Salvataggio automatico: a ogni modifica, con debounce.
+  const queueSave = useCallback((nextSheet: Sheet) => {
+    const task = saveChainRef.current.then(() => saveSheet(id, name, nextSheet));
+    saveChainRef.current = task.then(() => undefined, () => undefined);
+    return task;
+  }, [id, name]);
+
+  // Salvataggio automatico: a ogni modifica, con debounce. Le richieste restano in ordine.
   useEffect(() => {
     if (firstRun.current) {
       firstRun.current = false;
@@ -351,11 +371,30 @@ export default function CharacterClient({
     }
     setSaveState("saving");
     const t = setTimeout(async () => {
-      const res = await saveSheet(id, name, sheet);
-      setSaveState(res.ok ? "saved" : "error");
+      try {
+        const res = await queueSave(sheet);
+        setSaveState(res.ok ? "saved" : "error");
+      } catch {
+        setSaveState("error");
+      }
     }, 700);
     return () => clearTimeout(t);
-  }, [id, name, sheet]);
+  }, [queueSave, sheet]);
+
+  async function openHistory() {
+    setShowHistory(true);
+    setHistoryLoading(true);
+    setHistoryError("");
+    try {
+      const saved = await queueSave(sheet);
+      if (!saved.ok) throw new Error(saved.error || "Salvataggio non riuscito");
+      setHistoryEntries(await getCharacterHistory(id));
+    } catch (error) {
+      setHistoryError(error instanceof Error ? error.message : "Impossibile caricare lo storico");
+    } finally {
+      setHistoryLoading(false);
+    }
+  }
 
   const patch = (p: Partial<Sheet>) => {
     snapshot();
@@ -405,8 +444,9 @@ export default function CharacterClient({
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
             <TextField label="Livello" value={sheet.livello} onChange={(v) => patch({ livello: v })} />
-            <TextField label="Classe" value={sheet.classe} onChange={(v) => patch({ classe: v })} />
+            <TextField label="Classe" value={sheet.classe} options={classi} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
           </div>
+          <TextField label="Sottoclasse" value={sheet.sottoclasse} options={sottoclassi[sheet.classe] ?? []} onChange={(v) => patch({ sottoclasse: v })} />
           <div className={grid2}>
             <TextField label="Punti Ferita" value={sheet.puntiFerita} onChange={(v) => patch({ puntiFerita: v })} />
             <TextField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} onChange={(v) => patch({ puntiFeritaMax: v })} />
@@ -429,27 +469,33 @@ export default function CharacterClient({
           </div>
           <div className={grid2}>
             <Toggle label="Ispirazione Eroica" checked={sheet.ispirazioneEroica} onChange={(v) => patch({ ispirazioneEroica: v })} />
-            <TextField label="Velocità" value={sheet.velocita} onChange={(v) => patch({ velocita: v })} />
+            <NumberUnitField label="Velocità" value={sheet.velocita} unit="m" onChange={(v) => patch({ velocita: v })} />
+          </div>
+          <TextField label="Note velocità" value={sheet.noteVelocita} onChange={(v) => patch({ noteVelocita: v })} multiline />
+          <div className={grid2}>
+            <TextField label="Allineamento" value={sheet.allineamento} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
+            <TextField label="Taglia" value={sheet.taglia} options={regole.taglie} onChange={(v) => patch({ taglia: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Allineamento" value={sheet.allineamento} onChange={(v) => patch({ allineamento: v })} />
-            <TextField label="Taglia" value={sheet.taglia} onChange={(v) => patch({ taglia: v })} />
+            <TextField label="Specie" value={sheet.specie} options={regole.specie} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "" })} />
+            <TextField label="Background" value={sheet.background} options={regole.background} onChange={(v) => patch({ background: v })} multiline />
           </div>
-          <div className={grid2}>
-            <TextField label="Specie" value={sheet.specie} onChange={(v) => patch({ specie: v })} multiline />
-            <TextField label="Background" value={sheet.background} onChange={(v) => patch({ background: v })} multiline />
-          </div>
+          {lignaggi[sheet.specie] && <TextField label="Lignaggio" value={sheet.lignaggio} options={lignaggi[sheet.specie]} onChange={(v) => patch({ lignaggio: v })} />}
         </div>
       ),
     },
     {
       title: "Lingue",
       body: (
+        <div className="flex flex-col gap-2">
         <StringListEditor
           items={toList(sheet.lingue)}
           onChange={(v) => patch({ lingue: v })}
           addLabel="Aggiungi lingua"
+          options={lingue}
         />
+        <TextField label="Note lingue" value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
+        </div>
       ),
     },
     {
@@ -527,6 +573,7 @@ export default function CharacterClient({
               items={toList(sheet.competenzeArmi)}
               onChange={(v) => patch({ competenzeArmi: v })}
               addLabel="Aggiungi competenza"
+              options={[...regole.competenzeArmi, ...nomiArmi]}
             />
           </div>
           <div>
@@ -553,7 +600,7 @@ export default function CharacterClient({
               )}
               renderItem={(a, p) => (
                 <div className="flex flex-col gap-2">
-                  <TextField label="Nome" value={a.nome} onChange={(v) => p({ nome: v })} />
+                  <TextField label="Nome" value={a.nome} options={nomiArmi} onChange={(v) => p({ nome: v })} />
                   <TextField label="Bonus att./CD" value={a.bonus} onChange={(v) => p({ bonus: v })} />
                   <TextField label="Danno e tipo" value={a.danno} onChange={(v) => p({ danno: v })} />
                   <TextField label="Gittata" value={a.gittata} onChange={(v) => p({ gittata: v })} />
@@ -637,7 +684,7 @@ export default function CharacterClient({
           addLabel="Aggiungi talento"
           renderItem={(t, p) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" value={t.nome} onChange={(v) => p({ nome: v })} />
+              <TextField label="Nome" value={t.nome} options={nomiTalenti} onChange={(v) => p({ nome: v })} />
               <TextField label="Descrizione" value={t.descrizione} onChange={(v) => p({ descrizione: v })} multiline />
             </div>
           )}
@@ -659,7 +706,7 @@ export default function CharacterClient({
           renderItem={(inc, p) => (
             <div className="flex flex-col gap-2">
               <div className={grid2}>
-                <TextField label="Livello" value={inc.livello} onChange={(v) => p({ livello: v })} />
+                <TextField label="Livello" value={inc.livello} options={regole.livelliIncantesimo} onChange={(v) => p({ livello: v })} />
               </div>
               <div className="flex flex-wrap gap-2">
                 <Toggle label="Concentrazione" checked={inc.concentrazione} onChange={(v) => p({ concentrazione: v })} />
@@ -816,6 +863,48 @@ export default function CharacterClient({
               >
                 {exporting === "current" ? "Esportazione…" : "Esporta PDF app"}
               </button>
+              <button
+                type="button"
+                onClick={openHistory}
+                className="mt-2 w-full rounded-xl border border-line bg-card/70 py-3 text-sm font-semibold text-ink shadow-sm active:bg-card"
+              >
+                Storico modifiche
+              </button>
+            </div>
+          )}
+
+          {showHistory && (
+            <div className="absolute inset-0 z-30 flex flex-col bg-parchment">
+              <div className="flex shrink-0 items-center justify-between border-b border-line px-4 py-3">
+                <button type="button" onClick={() => setShowHistory(false)} className="text-sm font-medium text-accent">
+                  ← Scheda
+                </button>
+                <h2 className="text-base font-bold text-ink">Storico modifiche</h2>
+                <span className="w-14" />
+              </div>
+              <div className="flex-1 overflow-y-auto px-4 py-4">
+                {historyLoading ? <p className="text-sm text-ink-soft">Caricamento…</p> :
+                  historyError ? <p className="text-sm text-red-800">{historyError}</p> :
+                  historyEntries.length === 0 ? <p className="text-sm text-ink-soft">Nessuna modifica registrata. Lo storico parte da oggi; le modifiche precedenti non erano tracciate.</p> :
+                  <ol className="flex flex-col gap-3">
+                    {historyEntries.map((entry) => (
+                      <li key={entry.id} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
+                        <time className="text-xs font-semibold text-accent" dateTime={entry.occurredAt}>
+                          {new Intl.DateTimeFormat("it-IT", { dateStyle: "medium", timeStyle: "short", timeZone: "Europe/Rome" }).format(new Date(entry.occurredAt))}
+                        </time>
+                        <ul className="mt-2 flex flex-col gap-2">
+                          {entry.changes.map((change, index) => (
+                            <li key={index} className="border-t border-line/60 pt-2 first:border-0 first:pt-0">
+                              <div className="text-sm font-semibold text-ink">{change.field}</div>
+                              {change.before !== "—" && <pre className="mt-1 max-h-40 overflow-auto whitespace-pre-wrap break-words font-sans text-xs text-ink-soft">Prima: {change.before}</pre>}
+                              <pre className="mt-1 max-h-40 overflow-auto whitespace-pre-wrap break-words font-sans text-xs text-ink">Dopo: {change.after}</pre>
+                            </li>
+                          ))}
+                        </ul>
+                      </li>
+                    ))}
+                  </ol>}
+              </div>
             </div>
           )}
         </div>

@@ -197,15 +197,16 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   tab("Stato & Identità");
   fieldRows([
     [["Livello", sheet.livello], ["Classe", sheet.classe]],
+    [["Sottoclasse", sheet.sottoclasse]],
     [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
     [["Classe Armatura", sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)]],
     [["Note Classe Armatura", sheet.noteClasseArmatura]],
     [["Scudo", sheet.scudo ? "Sì" : "No"], ["Iniziativa", sheet.iniziativa]],
     [["Bonus Competenza", sheet.bonusCompetenza], ["Percezione Passiva", sheet.percezionePassiva]],
     [["Dadi Vita", sheet.dadiVita], ["Punti Esperienza", sheet.puntiEsperienza]],
-    [["Ispirazione Eroica", sheet.ispirazioneEroica ? "Sì" : "No"], ["Velocità", sheet.velocita]],
+    [["Ispirazione Eroica", sheet.ispirazioneEroica ? "Sì" : "No"], ["Velocità", sheet.velocita ? `${sheet.velocita} m` : ""]],
     [["Allineamento", sheet.allineamento], ["Taglia", sheet.taglia]],
-    [["Specie", sheet.specie]],
+    [["Specie", sheet.lignaggio || sheet.specie]],
     [["Background", sheet.background]],
   ]);
 

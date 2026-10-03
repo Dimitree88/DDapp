@@ -30,7 +30,7 @@ function ephemerSheet(): Sheet {
   s.specie = "UMANO — ispirazione eroica, un'abilità, un talento";
   s.background = "EREMITA — talento Guaritore, abilità Medicina e Religione";
   s.allineamento = "CAOTICO NEUTRALE";
-  s.velocita = "9 m";
+  s.velocita = "9";
   s.taglia = "M";
   s.lingue = ["Comune", "Draconico", "Primordiale", "Sottocomune mercanti"];
 

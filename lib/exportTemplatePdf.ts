@@ -10,6 +10,9 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boo
   if (source === "name") return name;
   if (source === "sheet.privilegi" || source === "sheet.talenti" || source === "sheet.equipaggiamento") return undefined;
   if (source === "sheet.specie" && mapping.field === "textarea_142hif") return undefined;
+  if (source === "sheet.specie") return sheet.lignaggio || sheet.specie;
+  if (source === "sheet.classe") return sheet.sottoclasse ? `${sheet.classe} - ${sheet.sottoclasse}` : sheet.classe;
+  if (source === "sheet.velocita") return sheet.velocita ? `${sheet.velocita} m` : "";
   if (source === "sheet.competenzeArmi") return sheet.competenzeArmi.join(", ");
   if (source === "sheet.lingue") return sheet.lingue.join(", ");
   const car = source.match(/^sheet\.caratteristiche\[abbr=(.+?)\]\.(.+)$/);

@@ -64,6 +64,7 @@ export function TextField({
   multiline = false,
   placeholder = "",
   inputMode,
+  options,
 }: {
   label: string;
   value: string;
@@ -71,18 +72,32 @@ export function TextField({
   multiline?: boolean;
   placeholder?: string;
   inputMode?: React.HTMLAttributes<HTMLInputElement>["inputMode"];
+  options?: readonly string[];
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const [editing, setEditing] = useState(false);
-  const onTap = useDoubleTap(() => (unlocked ? setEditing(true) : requireUnlock()));
+  const onTap = useDoubleTap(() => {
+    if (!unlocked) return requireUnlock();
+    setEditing(true);
+  });
 
   return (
     <label className="block">
-      <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">
-        {label}
-      </span>
+      {label && <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>}
       {editing ? (
-        multiline ? (
+        options ? (
+          <select
+            value={options.includes(value) ? value : ""}
+            onChange={(e) => { onChange(e.target.value); setEditing(false); }}
+            onBlur={() => setEditing(false)}
+            autoFocus
+            className={inputBase}
+            aria-label={label || "Scegli un'opzione"}
+          >
+            <option value="">—</option>
+            {options.map((option) => <option key={option} value={option}>{option}</option>)}
+          </select>
+        ) : multiline ? (
           <textarea
             value={value}
             onChange={(e) => onChange(e.target.value)}
@@ -113,6 +128,55 @@ export function TextField({
           }`}
         >
           {value || <span className="text-ink-faint">—</span>}
+        </div>
+      )}
+    </label>
+  );
+}
+
+export function NumberUnitField({
+  label,
+  value,
+  unit,
+  onChange,
+}: {
+  label: string;
+  value: string;
+  unit: string;
+  onChange: (value: string) => void;
+}) {
+  const { unlocked, requireUnlock } = useContext(EditContext);
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState("");
+  const onTap = useDoubleTap(() => {
+    if (!unlocked) return requireUnlock();
+    setDraft(value);
+    setEditing(true);
+  });
+  const commit = () => {
+    const parsed = Number(draft.replace(",", "."));
+    onChange(draft.trim() && Number.isFinite(parsed) ? String(parsed) : "");
+    setEditing(false);
+  };
+  return (
+    <label className="block">
+      <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>
+      {editing ? (
+        <div className="flex items-center gap-1">
+          <input
+            value={draft}
+            onChange={(e) => { if (/^\d*(?:[.,]\d*)?$/.test(e.target.value)) setDraft(e.target.value); }}
+            onBlur={commit}
+            onKeyDown={enterBlurs}
+            inputMode="decimal"
+            autoFocus
+            className={inputBase}
+          />
+          <span className="text-sm text-ink-soft">{unit}</span>
+        </div>
+      ) : (
+        <div onClick={onTap} className={`${readonlyBase} ${unlocked ? editableHint : ""}`}>
+          {value ? `${value} ${unit}` : <span className="text-ink-faint">—</span>}
         </div>
       )}
     </label>

@@ -40,6 +40,7 @@ local.db-*
 
 # vercel
 .vercel
+.db-backups/
 
 # typescript
 *.tsbuildinfo

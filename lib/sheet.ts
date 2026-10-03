@@ -60,6 +60,7 @@ export type Sheet = {
   // Pagina: Stato
   livello: string;
   classe: string;
+  sottoclasse: string;
   puntiFerita: string;
   puntiFeritaMax: string;
   classeArmatura: number | null;
@@ -74,11 +75,14 @@ export type Sheet = {
 
   // Pagina: Identità
   specie: string;
+  lignaggio: string;
   background: string;
   allineamento: string;
-  velocita: string;
+  velocita: string; // solo cifre, senza unità
+  noteVelocita: string;
   taglia: string;
   lingue: string[];
+  noteLingue: string;
 
   // Pagina: Caratteristiche & Abilità
   caratteristiche: Caratteristica[];
@@ -154,6 +158,7 @@ export function emptySheet(): Sheet {
   return {
     livello: "1",
     classe: "",
+    sottoclasse: "",
     puntiFerita: "",
     puntiFeritaMax: "",
     classeArmatura: null,
@@ -167,11 +172,14 @@ export function emptySheet(): Sheet {
     puntiEsperienza: "0",
 
     specie: "",
+    lignaggio: "",
     background: "",
     allineamento: "",
     velocita: "",
+    noteVelocita: "",
     taglia: "",
     lingue: [],
+    noteLingue: "",
 
     caratteristiche: CARATTERISTICHE_BASE.map((c) => ({
       nome: c.nome,
@@ -213,6 +221,11 @@ export function emptySheet(): Sheet {
 // modifica il database finché il personaggio non viene salvato normalmente.
 export function normalizeSheet(value: Sheet): Sheet {
   const old = value as unknown as {
+    sottoclasse?: string;
+    lignaggio?: string;
+    noteLingue?: string;
+    velocita: number | string | null;
+    noteVelocita?: string;
     classeArmatura: number | string | null;
     scudo: boolean | string;
     ispirazioneEroica: boolean | string;
@@ -229,6 +242,13 @@ export function normalizeSheet(value: Sheet): Sheet {
   const noteClasseArmatura = old.noteClasseArmatura?.trim() || (
     typeof rawArmor === "string" ? (armorMatch ? armorMatch[2] ?? "" : rawArmor) : ""
   );
+  const rawSpeed = old.velocita;
+  const speedMatch = typeof rawSpeed === "string" ? rawSpeed.trim().match(/^(\d+(?:[.,]\d+)?)\s*(?:m|metri)?$/i) : null;
+  const velocita = typeof rawSpeed === "number" && Number.isFinite(rawSpeed)
+    ? String(rawSpeed) : speedMatch ? String(Number(speedMatch[1].replace(",", "."))) : "";
+  const noteVelocita = old.noteVelocita?.trim() || (
+    typeof rawSpeed === "string" && rawSpeed.trim() && !speedMatch ? rawSpeed : ""
+  );
   const toBoolean = (input: boolean | string) =>
     typeof input === "boolean" ? input : /^s(?:i|ì)(?:\s|$)/i.test(input.trim());
   const toList = (input: unknown): string[] =>
@@ -236,8 +256,13 @@ export function normalizeSheet(value: Sheet): Sheet {
       ? input.split(/[;,\n]/).map((item) => item.trim()).filter(Boolean) : [];
   return {
     ...value,
+    sottoclasse: typeof old.sottoclasse === "string" ? old.sottoclasse : "",
+    lignaggio: typeof old.lignaggio === "string" ? old.lignaggio : "",
+    noteLingue: typeof old.noteLingue === "string" ? old.noteLingue : "",
     classeArmatura,
     noteClasseArmatura,
+    velocita,
+    noteVelocita,
     scudo: toBoolean(old.scudo),
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
     lingue: toList(old.lingue),

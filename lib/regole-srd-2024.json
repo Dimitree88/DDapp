@@ -1,0 +1,51 @@
+{
+  "versione": "SRD 5.2.1 (2024)",
+  "lingua": "it",
+  "fonte": "https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf",
+  "fonteIntegrazioni": "https://www.dndbeyond.com/posts/1785-the-backgrounds-and-origin-feats-in-the-2024",
+  "integrazioniNonSrd": {
+    "background": ["Eremita", "Guida"],
+    "talenti": ["Guaritore", "Lavoro manuale"]
+  },
+  "licenza": "CC-BY-4.0",
+  "attribuzione": "Quest'opera include materiale tratto dal System Reference Document 5.2.1 (\"SRD 5.2.1\") di Wizards of the Coast LLC, disponibile all'indirizzo https://www.dndbeyond.com/srd. Il SRD 5.2.1 è concesso in licenza ai sensi della licenza di attribuzione 4.0 Internazionale di Creative Commons, disponibile all'indirizzo https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "classi": {
+    "Barbaro": ["Cammino del berserker"],
+    "Bardo": ["Collegio della Sapienza"],
+    "Chierico": ["Dominio della Vita"],
+    "Druido": ["Circolo della Terra"],
+    "Guerriero": ["Campione"],
+    "Ladro": ["Furfante"],
+    "Mago": ["Invocatore"],
+    "Monaco": ["Guerriero della Mano Aperta"],
+    "Paladino": ["Giuramento di devozione"],
+    "Ranger": ["Cacciatore"],
+    "Stregone": ["Stregoneria draconica"],
+    "Warlock": ["Patrono immondo"]
+  },
+  "specie": ["Dragonide", "Elfo", "Gnomo", "Goliath", "Halfling", "Nano", "Orco", "Tiefling", "Umano"],
+  "lignaggi": {
+    "Elfo": ["Drow", "Elfo alto", "Elfo dei boschi"],
+    "Gnomo": ["Gnomo delle foreste", "Gnomo delle rocce"],
+    "Tiefling": ["Abissale", "Ctonio", "Infernale"]
+  },
+  "background": ["Accolito", "Criminale", "Sapiente", "Soldato", "Eremita", "Guida"],
+  "lingue": {
+    "standard": ["Comune", "Lingua dei segni comune", "Draconico", "Nanico", "Elfico", "Gigante", "Gnomesco", "Goblin", "Halfling", "Orchesco"],
+    "rare": ["Abissale", "Celestiale", "Druidico", "Gergo delle profondità", "Gergo ladresco", "Infernale", "Primordiale", "Silvano", "Sottocomune"]
+  },
+  "allineamenti": ["Legale buono", "Neutrale buono", "Caotico buono", "Legale neutrale", "Neutrale", "Caotico neutrale", "Legale malvagio", "Neutrale malvagio", "Caotico malvagio", "Senza allineamento"],
+  "taglie": ["Piccola", "Media", "Minuscola", "Grande", "Enorme", "Mastodontica"],
+  "competenzeArmi": ["Armi semplici", "Armi da guerra"],
+  "armi": {
+    "semplici": ["Ascia", "Bastone ferrato", "Falcetto", "Giavellotto", "Lancia", "Martello leggero", "Mazza", "Pugnale", "Randello pesante", "Randello", "Arco corto", "Balestra leggera", "Dardo", "Fionda"],
+    "daGuerra": ["Alabarda", "Ascia bipenne", "Ascia da battaglia", "Falcione", "Frusta", "Lancia da cavaliere", "Maglio", "Martello da guerra", "Mazza chiodata", "Mazzafrusto", "Picca", "Piccone da guerra", "Scimitarra", "Spada corta", "Spada lunga", "Spadone", "Stocco", "Tridente", "Arco lungo", "Balestra a mano", "Balestra pesante", "Cerbottana", "Moschetto", "Pistola"]
+  },
+  "talenti": {
+    "origini": ["Abile", "Aggressore selvaggio", "Allerta", "Iniziato alla magia", "Guaritore", "Lavoro manuale"],
+    "generali": ["Aumento dei punteggi di caratteristica", "Lottatore"],
+    "stileDiCombattimento": ["Combattere con armi possenti", "Combattere con due armi", "Difesa", "Tiro"],
+    "donoEpico": ["Dono del fato", "Dono della vista pura", "Dono delle abilità di combattimento", "Dono dell'offensiva irresistibile", "Dono dello spirito notturno", "Dono del richiamo degli incantesimi", "Dono del viaggio dimensionale"]
+  },
+  "livelliIncantesimo": ["Trucchetto", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+}
