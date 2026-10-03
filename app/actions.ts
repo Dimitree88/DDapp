@@ -3,12 +3,12 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { randomUUID } from "crypto";
-import { desc, eq } from "drizzle-orm";
+import { eq, sql } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
 import { emptySheet, normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
-import { diffSheet, type HistoryChange } from "@/lib/history";
+import { diffSheet, historyTimestampMs, type HistoryChange } from "@/lib/history";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 
@@ -36,10 +36,17 @@ export async function deleteCharacter(id: string) {
 }
 
 export async function getCharacterHistory(id: string): Promise<HistoryEntry[]> {
-  const rows = await db.select().from(characterHistory)
-    .where(eq(characterHistory.characterId, id))
-    .orderBy(desc(characterHistory.occurredAt), desc(characterHistory.id));
-  return rows.map((row) => ({ id: row.id, occurredAt: row.occurredAt.toISOString(), changes: row.changes }));
+  const rows = await db.select({
+    id: characterHistory.id,
+    occurredAt: sql<number>`${characterHistory.occurredAt}`,
+    changes: characterHistory.changes,
+  }).from(characterHistory)
+    .where(eq(characterHistory.characterId, id));
+  return rows.map((row) => ({
+    id: row.id,
+    occurredAt: new Date(historyTimestampMs(Number(row.occurredAt))).toISOString(),
+    changes: row.changes,
+  })).sort((a, b) => b.occurredAt.localeCompare(a.occurredAt) || b.id.localeCompare(a.id));
 }
 
 export async function saveSheet(

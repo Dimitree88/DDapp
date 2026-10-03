@@ -19,6 +19,7 @@ import {
   useDoubleTap,
 } from "@/components/fields";
 import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
+import { groupHistoryByDay } from "@/lib/history";
 import { exportSheetPdf } from "@/lib/exportPdf";
 import regole from "@/lib/regole-srd-2024.json";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
@@ -29,6 +30,12 @@ const lignaggi = regole.lignaggi as Record<string, string[]>;
 const lingue = [...regole.lingue.standard, ...regole.lingue.rare];
 const nomiArmi = [...regole.armi.semplici, ...regole.armi.daGuerra];
 const nomiTalenti = Object.values(regole.talenti).flat();
+const historyDayFormatter = new Intl.DateTimeFormat("it-IT", {
+  dateStyle: "full", timeZone: "Europe/Rome",
+});
+const historyTimeFormatter = new Intl.DateTimeFormat("it-IT", {
+  hour: "2-digit", minute: "2-digit", timeZone: "Europe/Rome",
+});
 
 const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
 const grid2 = "grid grid-cols-2 gap-2.5";
@@ -887,20 +894,29 @@ export default function CharacterClient({
                   historyError ? <p className="text-sm text-red-800">{historyError}</p> :
                   historyEntries.length === 0 ? <p className="text-sm text-ink-soft">Nessuna modifica registrata. Lo storico parte da oggi; le modifiche precedenti non erano tracciate.</p> :
                   <ol className="flex flex-col gap-3">
-                    {historyEntries.map((entry) => (
-                      <li key={entry.id} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
-                        <time className="text-xs font-semibold text-accent" dateTime={entry.occurredAt}>
-                          {new Intl.DateTimeFormat("it-IT", { dateStyle: "medium", timeStyle: "short", timeZone: "Europe/Rome" }).format(new Date(entry.occurredAt))}
-                        </time>
-                        <ul className="mt-2 flex flex-col gap-2">
-                          {entry.changes.map((change, index) => (
-                            <li key={index} className="border-t border-line/60 pt-2 first:border-0 first:pt-0">
-                              <div className="text-sm font-semibold text-ink">{change.field}</div>
-                              {change.before !== "—" && <pre className="mt-1 max-h-40 overflow-auto whitespace-pre-wrap break-words font-sans text-xs text-ink-soft">Prima: {change.before}</pre>}
-                              <pre className="mt-1 max-h-40 overflow-auto whitespace-pre-wrap break-words font-sans text-xs text-ink">Dopo: {change.after}</pre>
+                    {groupHistoryByDay(historyEntries).map((day) => (
+                      <li key={day.day} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
+                        <h3 className="text-sm font-semibold capitalize text-accent">
+                          {historyDayFormatter.format(new Date(day.timeGroups[0].newest))}
+                        </h3>
+                        <ol className="mt-2 flex flex-col gap-3">
+                          {day.timeGroups.map((group) => (
+                            <li key={group.newest} className="border-t border-line/60 pt-2 first:border-0 first:pt-0">
+                              <time className="text-xs font-semibold text-ink-soft" dateTime={group.newest}>
+                                {historyTimeFormatter.format(new Date(group.oldest))}
+                                {historyTimeFormatter.format(new Date(group.oldest)) !== historyTimeFormatter.format(new Date(group.newest)) && `–${historyTimeFormatter.format(new Date(group.newest))}`}
+                              </time>
+                              <ul className="mt-1 list-disc space-y-1 pl-5 marker:text-accent">
+                                {group.entries.flatMap((entry) => entry.changes.map((change, index) => (
+                                  <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
+                                    <span className="font-semibold">{change.field}</span>{"  "}
+                                    <span>{change.before} → {change.after}</span>
+                                  </li>
+                                )))}
+                              </ul>
                             </li>
                           ))}
-                        </ul>
+                        </ol>
                       </li>
                     ))}
                   </ol>}

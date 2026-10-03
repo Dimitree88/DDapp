@@ -6,6 +6,41 @@ export type HistoryChange = {
   after: string;
 };
 
+type TimedHistoryEntry = { occurredAt: string };
+export type HistoryTimeGroup<T> = { entries: T[]; newest: string; oldest: string };
+export type HistoryDayGroup<T> = { day: string; timeGroups: HistoryTimeGroup<T>[] };
+
+export function historyTimestampMs(value: number): number {
+  return value < 100_000_000_000 ? value * 1000 : value;
+}
+
+const romeDayFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: "Europe/Rome", year: "numeric", month: "2-digit", day: "2-digit",
+});
+
+export function groupHistoryByDay<T extends TimedHistoryEntry>(entries: T[]): HistoryDayGroup<T>[] {
+  const days: HistoryDayGroup<T>[] = [];
+  const sorted = [...entries].sort((a, b) => Date.parse(b.occurredAt) - Date.parse(a.occurredAt));
+  for (const entry of sorted) {
+    const date = new Date(entry.occurredAt);
+    const parts = Object.fromEntries(romeDayFormatter.formatToParts(date).map(({ type, value }) => [type, value]));
+    const dayKey = `${parts.year}-${parts.month}-${parts.day}`;
+    let day = days[days.length - 1];
+    if (!day || day.day !== dayKey) {
+      day = { day: dayKey, timeGroups: [] };
+      days.push(day);
+    }
+    let group = day.timeGroups[day.timeGroups.length - 1];
+    if (!group || Date.parse(group.oldest) - date.getTime() > 10 * 60 * 1000) {
+      group = { entries: [], newest: entry.occurredAt, oldest: entry.occurredAt };
+      day.timeGroups.push(group);
+    }
+    group.entries.push(entry);
+    group.oldest = entry.occurredAt;
+  }
+  return days;
+}
+
 const labels: Record<string, string> = {
   livello: "Livello", classe: "Classe", sottoclasse: "Sottoclasse",
   puntiFerita: "Punti ferita", puntiFeritaMax: "Punti ferita massimi",
