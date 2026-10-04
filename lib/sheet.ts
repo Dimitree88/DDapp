@@ -6,8 +6,6 @@ export type Caratteristica = {
   nome: string; // es. "FORZA"
   abbr: string; // es. "FOR"
   valore: string; // es. "9"
-  modificatore: string; // es. "-1"
-  tsBonus: string; // tiro salvezza, es. "+1"
   tsCompetente: boolean;
 };
 
@@ -54,8 +52,6 @@ export type Sheet = {
   classeArmatura: number | null;
   scudo: boolean;
   iniziativa: string;
-  bonusCompetenza: string;
-  percezionePassiva: string;
   dadiVita: string;
   ispirazioneEroica: boolean;
   puntiEsperienza: string;
@@ -150,8 +146,6 @@ export function emptySheet(): Sheet {
     classeArmatura: null,
     scudo: false,
     iniziativa: "",
-    bonusCompetenza: "+2",
-    percezionePassiva: "",
     dadiVita: "",
     ispirazioneEroica: false,
     puntiEsperienza: "0",
@@ -169,8 +163,6 @@ export function emptySheet(): Sheet {
       nome: c.nome,
       abbr: c.abbr,
       valore: "",
-      modificatore: "",
-      tsBonus: "",
       tsCompetente: false,
     })),
     abilita: ABILITA_BASE.map((a) => ({
@@ -213,6 +205,7 @@ export function normalizeSheet(value: Sheet): Sheet {
     ispirazioneEroica: boolean | string;
     lingue: unknown;
     competenzeArmi: unknown;
+    caratteristiche: (Caratteristica & { modificatore?: string; tsBonus?: string })[];
     abilita: (Abilita & { bonus?: string; note?: string })[];
     armi: (Arma & { danno?: string; gittata?: string; provenienza?: string })[];
     equipaggiamento: (Equip & { provenienza?: string })[];
@@ -271,6 +264,9 @@ export function normalizeSheet(value: Sheet): Sheet {
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
     lingue: languages,
     competenzeArmi: toList(old.competenzeArmi),
+    caratteristiche: old.caratteristiche.map(({ nome, abbr, valore, tsCompetente }) => ({
+      nome, abbr, valore, tsCompetente,
+    })),
     abilita: old.abilita.map(({ nome, caratteristica, competente, maestria }) => ({
       nome, caratteristica, competente, maestria: competente && maestria === true,
     })),
@@ -296,5 +292,7 @@ export function normalizeSheet(value: Sheet): Sheet {
   };
   delete (normalized as Sheet & { noteClasseArmatura?: string }).noteClasseArmatura;
   delete (normalized as Sheet & { noteVelocita?: string }).noteVelocita;
+  delete (normalized as Sheet & { bonusCompetenza?: string }).bonusCompetenza;
+  delete (normalized as Sheet & { percezionePassiva?: string }).percezionePassiva;
   return normalized;
 }

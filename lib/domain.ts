@@ -29,15 +29,14 @@ export function domainErrors(sheet: Sheet): string[] {
   checkNumber("Punti ferita massimi", sheet.puntiFeritaMax, "unsigned");
   if (sheet.classeArmatura !== null && (!Number.isSafeInteger(sheet.classeArmatura) || sheet.classeArmatura < 0)) errors.push(`Classe armatura: ${sheet.classeArmatura}`);
   checkNumber("Iniziativa", sheet.iniziativa, "signed");
-  checkNumber("Bonus competenza", sheet.bonusCompetenza, "signed");
-  checkNumber("Percezione passiva", sheet.percezionePassiva, "unsigned");
   checkNumber("Dadi vita", sheet.dadiVita, "dice");
   checkNumber("Punti esperienza", sheet.puntiEsperienza, "unsigned");
   if (sheet.velocita && !/^\d+(?:\.\d+)?$/.test(sheet.velocita)) errors.push(`Velocità: ${sheet.velocita}`);
   sheet.caratteristiche.forEach((characteristic) => {
     checkNumber(`${characteristic.abbr} valore`, characteristic.valore, "unsigned");
-    checkNumber(`${characteristic.abbr} modificatore`, characteristic.modificatore, "signed");
-    checkNumber(`${characteristic.abbr} tiro salvezza`, characteristic.tsBonus, "signed");
+    if (characteristic.valore && (Number(characteristic.valore) < 1 || Number(characteristic.valore) > 30)) {
+      errors.push(`${characteristic.abbr} valore: ${characteristic.valore}`);
+    }
   });
   sheet.abilita.forEach((ability) => {
     if (ability.maestria && !ability.competente) errors.push(`${ability.nome}: Maestria richiede competenza`);

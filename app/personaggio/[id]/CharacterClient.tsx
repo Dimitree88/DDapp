@@ -24,7 +24,7 @@ import { exportSheetPdf } from "@/lib/exportPdf";
 import regole from "@/lib/regole-srd-2024.json";
 import { spellNames } from "@/lib/spells";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
-import { abilityBonus } from "@/lib/abilityBonus";
+import { abilityBonus, abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -43,6 +43,13 @@ const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
 const grid2 = "grid grid-cols-2 gap-2.5";
 const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
+
+function ComputedField({ label, value }: { label: string; value: string }) {
+  return <div>
+    <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>
+    <div className="min-h-[2rem] rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">{value || "—"}</div>
+  </div>;
+}
 
 // Nome completo delle caratteristiche a partire dall'abbreviazione.
 const CAR_FULL: Record<string, string> = {
@@ -468,8 +475,8 @@ export default function CharacterClient({
             <TextField label="Iniziativa" value={sheet.iniziativa} numeric="signed" onChange={(v) => patch({ iniziativa: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Bonus Competenza" value={sheet.bonusCompetenza} numeric="signed" onChange={(v) => patch({ bonusCompetenza: v })} />
-            <TextField label="Percezione Passiva" value={sheet.percezionePassiva} numeric="unsigned" onChange={(v) => patch({ percezionePassiva: v })} />
+            <ComputedField label="Bonus Competenza" value={proficiencyBonus(sheet.livello)} />
+            <ComputedField label="Percezione Passiva" value={passivePerception(sheet)} />
           </div>
           <div className={grid2}>
             <TextField label="Dadi Vita" value={sheet.dadiVita} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
@@ -520,25 +527,13 @@ export default function CharacterClient({
                 />
               </div>
               <div className="grid grid-cols-3 gap-2 text-center">
-                {(
-                  [
-                    ["Valore", "valore"],
-                    ["Modificatore", "modificatore"],
-                    ["Tiro Salvezza", "tsBonus"],
-                  ] as [string, keyof Caratteristica][]
-                ).map(([lab, key]) => (
-                  <div key={key}>
-                    <span className="block text-[9px] uppercase leading-tight text-ink-faint">
-                      {lab}
-                    </span>
-                    <InlineInput
-                      value={String(c[key])}
-                      onChange={(v) => updateCar(i, { [key]: v } as Partial<Caratteristica>)}
-                      numeric={key === "valore" ? "unsigned" : "signed"}
-                      className="mt-0.5 w-full text-center"
-                    />
-                  </div>
-                ))}
+                <div>
+                  <span className="block text-[9px] uppercase leading-tight text-ink-faint">Valore</span>
+                  <InlineInput value={c.valore} onChange={(v) => updateCar(i, { valore: v })}
+                    numeric="unsigned" className="mt-0.5 w-full text-center" />
+                </div>
+                <ComputedField label="Modificatore" value={abilityModifier(c.valore)} />
+                <ComputedField label="Tiro Salvezza" value={savingThrowBonus(sheet, c)} />
               </div>
             </div>
           ))}

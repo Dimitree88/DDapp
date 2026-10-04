@@ -63,7 +63,7 @@ test("numeric fields reject letters and symbols while signed fields accept a sig
   sheet.caratteristiche[0].valore = "1d8";
   sheet.abilita[0].maestria = true;
   sheet.monete.oro = "3.5";
-  assert.equal(domainErrors(sheet).filter((error) => /Punti ferita|Iniziativa|FOR valore|ATLETICA|Monete oro/.test(error)).length, 5);
+  assert.equal(domainErrors(sheet).filter((error) => /Punti ferita|Iniziativa|FOR valore|Monete oro/.test(error)).length, 4);
   assert.equal(numericDraftValid("+", "signed"), true);
   assert.equal(numericValueValid("+", "signed"), false);
   assert.equal(numericValueValid("-1", "signed"), true);

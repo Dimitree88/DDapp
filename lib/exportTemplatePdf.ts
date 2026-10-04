@@ -2,7 +2,7 @@ import fontkit from "@pdf-lib/fontkit";
 import { PDFDocument, rgb } from "pdf-lib";
 import fields from "./pdfTemplateFields.json";
 import type { Sheet } from "./sheet";
-import { abilityBonus } from "./abilityBonus";
+import { abilityBonus, abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
 
 type Mapping = (typeof fields)[number];
 
@@ -16,9 +16,13 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boo
   if (source === "sheet.velocita") return sheet.velocita ? `${sheet.velocita} m` : "";
   if (source === "sheet.competenzeArmi") return sheet.competenzeArmi.join(", ");
   if (source === "sheet.lingue") return sheet.lingue.join(", ");
+  if (source === "sheet.bonusCompetenza") return proficiencyBonus(sheet.livello);
+  if (source === "sheet.percezionePassiva") return passivePerception(sheet);
   const car = source.match(/^sheet\.caratteristiche\[abbr=(.+?)\]\.(.+)$/);
   if (car) {
     const item = sheet.caratteristiche.find((c) => c.abbr === car[1]);
+    if (item && car[2] === "modificatore") return abilityModifier(item.valore);
+    if (item && car[2] === "tsBonus") return savingThrowBonus(sheet, item);
     return item?.[car[2] as keyof typeof item];
   }
   const abilita = source.match(/^sheet\.abilita\[nome=(.+?)\]\.(.+)$/);

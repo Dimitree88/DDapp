@@ -12,21 +12,20 @@ function ephemerSheet(): Sheet {
   const sheet = emptySheet();
   Object.assign(sheet, {
     livello: "2", classe: "Ranger", puntiFerita: "16", puntiFeritaMax: "16",
-    classeArmatura: 14, iniziativa: "+2", bonusCompetenza: "+2",
-    percezionePassiva: "15", dadiVita: "2d10", ispirazioneEroica: true,
+    classeArmatura: 14, iniziativa: "+2",
+    dadiVita: "2d10", ispirazioneEroica: true,
     puntiEsperienza: "0", specie: "Umano", background: "Eremita",
     allineamento: "Caotico neutrale", velocita: "9", taglia: "Media",
     lingue: ["Comune", "Draconico", "Primordiale", "Sottocomune"],
     noteLingue: "Mercanti",
   });
   const scores = [
-    ["9", "-1", "+1", true], ["15", "+2", "+4", true],
-    ["11", "0", "0", false], ["14", "+2", "+2", false],
-    ["16", "+3", "+3", false], ["13", "+1", "+1", false],
+    ["9", true], ["15", true],
+    ["11", false], ["14", false],
+    ["16", false], ["13", false],
   ] as const;
   sheet.caratteristiche = sheet.caratteristiche.map((item, index) => ({
-    ...item, valore: scores[index][0], modificatore: scores[index][1],
-    tsBonus: scores[index][2], tsCompetente: scores[index][3],
+    ...item, valore: scores[index][0], tsCompetente: scores[index][1],
   }));
   const proficient = new Set(["FURTIVITÀ", "NATURA", "RELIGIONE", "INTUIZIONE", "MEDICINA", "PERCEZIONE", "PERSUASIONE"]);
   sheet.abilita = sheet.abilita.map((item) => ({

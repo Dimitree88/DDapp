@@ -2,8 +2,9 @@
 
 App **mobile-first** privata per gestire le schede dei personaggi di D&D 5e (regole
 2024) della nostra compagnia (6-10 giocatori). Ogni scheda si sfoglia con lo **swipe
-orizzontale** e non calcola automaticamente le regole. La maggior parte dei campi
-è testo libero; scudo, ispirazione eroica e C/R/M sono spunte, mentre classe
+orizzontale** e calcola modificatori, bonus competenza, tiri salvezza, abilità e
+Percezione passiva. La maggior parte degli altri campi è testo libero; scudo,
+ispirazione eroica e C/R/M sono spunte, mentre classe
 armatura e velocità sono numeri con note separate. Classi, sottoclassi, specie,
 lignaggi, background, lingue, allineamenti, taglie, armi, talenti e livelli degli
 incantesimi usano i domini del catalogo JSON.
