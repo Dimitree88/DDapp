@@ -2,8 +2,10 @@ import type { Sheet } from "./sheet";
 import { abilityBonus, abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
 
 export type CalculationTarget =
-  | { kind: "proficiency" | "passive" }
-  | { kind: "modifier" | "save"; abbr: string }
+  | { kind: "proficiency" }
+  | { kind: "passive" }
+  | { kind: "modifier"; abbr: string }
+  | { kind: "save"; abbr: string }
   | { kind: "ability"; name: string };
 
 export type CalculationExplanation = {
@@ -58,7 +60,8 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
         : `${modifier} = ${result}` : "Inserisci il punteggio e il livello necessari.",
     };
   }
-  const ability = sheet.abilita.find((item) => item.nome === (target.kind === "passive" ? "PERCEZIONE" : target.name));
+  const abilityName = target.kind === "ability" ? target.name : "PERCEZIONE";
+  const ability = sheet.abilita.find((item) => item.nome === abilityName);
   if (!ability) return null;
   const characteristic = sheet.caratteristiche.find((item) => item.abbr === ability.caratteristica);
   const name = scoreName(ability.caratteristica);
