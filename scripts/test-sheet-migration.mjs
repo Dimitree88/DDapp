@@ -26,7 +26,7 @@ test("moves legacy rules out of character data while preserving personal choices
   assert.deepEqual(sheet.lingue, ["Comune", "Draconico"]);
   assert.deepEqual(sheet.competenzeArmi, ["Semplici", "Da guerra"]);
   assert.equal(sheet.noteLingue, "Mercanti");
-  assert.deepEqual(sheet.abilita[0], { nome: "MEDICINA", caratteristica: "SAG", competente: true, bonus: "+5" });
+  assert.deepEqual(sheet.abilita[0], { nome: "MEDICINA", caratteristica: "SAG", competente: true, maestria: false });
   assert.deepEqual(sheet.armi[0], { nome: "Arco corto", quantita: "", bonus: "+4", note: "Bonus al tiro per colpire: +2 da talento Tiro" });
   assert.deepEqual(sheet.equipaggiamento[0], { nome: "Borsa da erborista", dettaglio: "" });
   assert.deepEqual(sheet.privilegi, [

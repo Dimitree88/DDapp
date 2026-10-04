@@ -39,7 +39,9 @@ export function domainErrors(sheet: Sheet): string[] {
     checkNumber(`${characteristic.abbr} modificatore`, characteristic.modificatore, "signed");
     checkNumber(`${characteristic.abbr} tiro salvezza`, characteristic.tsBonus, "signed");
   });
-  sheet.abilita.forEach((ability) => checkNumber(`${ability.nome} bonus`, ability.bonus, "signed"));
+  sheet.abilita.forEach((ability) => {
+    if (ability.maestria && !ability.competente) errors.push(`${ability.nome}: Maestria richiede competenza`);
+  });
   sheet.lingue.forEach((value, index) => check(`Lingua ${index + 1}`, value, languages));
   sheet.competenzeArmi.forEach((value, index) => check(`Competenza armi ${index + 1}`, value, [...rules.competenzeArmi, ...weapons]));
   sheet.armi.forEach((weapon, index) => {

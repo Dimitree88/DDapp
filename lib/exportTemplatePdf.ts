@@ -2,6 +2,7 @@ import fontkit from "@pdf-lib/fontkit";
 import { PDFDocument, rgb } from "pdf-lib";
 import fields from "./pdfTemplateFields.json";
 import type { Sheet } from "./sheet";
+import { abilityBonus } from "./abilityBonus";
 
 type Mapping = (typeof fields)[number];
 
@@ -23,6 +24,7 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boo
   const abilita = source.match(/^sheet\.abilita\[nome=(.+?)\]\.(.+)$/);
   if (abilita) {
     const item = sheet.abilita.find((a) => a.nome.toLocaleLowerCase("it") === abilita[1].toLocaleLowerCase("it"));
+    if (item && abilita[2] === "bonus") return abilityBonus(sheet, item);
     return item?.[abilita[2] as keyof typeof item];
   }
   const array = source.match(/^sheet\.(armi|incantesimi)\[(\d+)\]\.(\w+)$/);

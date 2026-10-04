@@ -1,6 +1,6 @@
 import { canonicalSpellName } from "./spells";
 
-// Modello dati della scheda. Tutto testo libero: nessun calcolo, nessuna regola.
+// Modello dati della scheda. I bonus delle abilità sono derivati.
 
 export type Caratteristica = {
   nome: string; // es. "FORZA"
@@ -15,7 +15,7 @@ export type Abilita = {
   nome: string; // es. "ATLETICA"
   caratteristica: string; // abbr es. "FOR"
   competente: boolean;
-  bonus: string; // es. "-1"
+  maestria: boolean;
 };
 
 export type Arma = {
@@ -177,7 +177,7 @@ export function emptySheet(): Sheet {
       nome: a.nome,
       caratteristica: a.caratteristica,
       competente: false,
-      bonus: "",
+      maestria: false,
     })),
 
     competenzeArmi: [],
@@ -213,7 +213,7 @@ export function normalizeSheet(value: Sheet): Sheet {
     ispirazioneEroica: boolean | string;
     lingue: unknown;
     competenzeArmi: unknown;
-    abilita: (Abilita & { note?: string })[];
+    abilita: (Abilita & { bonus?: string; note?: string })[];
     armi: (Arma & { danno?: string; gittata?: string; provenienza?: string })[];
     equipaggiamento: (Equip & { provenienza?: string })[];
     privilegi: (Privilegio & { descrizione?: string })[];
@@ -271,7 +271,9 @@ export function normalizeSheet(value: Sheet): Sheet {
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
     lingue: languages,
     competenzeArmi: toList(old.competenzeArmi),
-    abilita: old.abilita.map(({ nome, caratteristica, competente, bonus }) => ({ nome, caratteristica, competente, bonus })),
+    abilita: old.abilita.map(({ nome, caratteristica, competente, maestria }) => ({
+      nome, caratteristica, competente, maestria: competente && maestria === true,
+    })),
     armi: old.armi.map((weapon) => {
       const personalBonus = /\((\+\d+ da talento [^)]+)\)/i.exec(weapon.danno ?? "");
       const note = personalBonus && !(weapon.note ?? "").includes(personalBonus[1])

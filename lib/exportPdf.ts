@@ -1,6 +1,7 @@
 // Esporta una scheda in PDF cercando di somigliare alla visualizzazione dell'app
 // (tema "pergamena": font serif, palette, sezioni a card).
 import type { Sheet } from "./sheet";
+import { abilityBonus } from "./abilityBonus";
 
 const CAR_FULL: Record<string, string> = {
   FOR: "FORZA",
@@ -318,7 +319,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
         serif("bold");
         doc.setFontSize(11);
         setText(C.ink);
-        doc.text(a.bonus || "—", x + cw - 10, top + 18, { align: "right" });
+        doc.text(abilityBonus(sheet, a) || "—", x + cw - 10, top + 18, { align: "right" });
       });
       y += rowH + 6;
     }

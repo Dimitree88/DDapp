@@ -24,6 +24,7 @@ import { exportSheetPdf } from "@/lib/exportPdf";
 import regole from "@/lib/regole-srd-2024.json";
 import { spellNames } from "@/lib/spells";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
+import { abilityBonus } from "@/lib/abilityBonus";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -557,10 +558,13 @@ export default function CharacterClient({
                 {sheet.abilita.map((a, i) => a.caratteristica === caratteristica && (
                   <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
                     <div className="flex items-center gap-1.5">
-                      <CompetenceDot checked={a.competente} onChange={(v) => updateAbi(i, { competente: v })} />
+                      <CompetenceDot checked={a.competente} onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
                       <div className="min-w-0 flex-1 text-[11px] font-medium leading-tight [overflow-wrap:anywhere]">{a.nome}</div>
-                      <InlineInput value={a.bonus} numeric="signed" onChange={(v) => updateAbi(i, { bonus: v })} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
+                      <span className="ml-1 w-9 shrink-0 text-center text-sm font-bold" aria-label={`Bonus ${a.nome}`}>
+                        {abilityBonus(sheet, a) || "—"}
+                      </span>
                     </div>
+                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
                   </div>
                 ))}
               </div>

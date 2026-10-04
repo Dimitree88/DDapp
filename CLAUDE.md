@@ -16,9 +16,9 @@ gruppo di amici (6-7 giocatori, max 10). Lingua UI: **italiano**. Hostata su
 **Vercel (free tier)**. NON è un'app pubblica.
 
 ## Decisioni di design (il "perché" — rispettarle)
-- **Nessuna automazione né calcoli di regole.** Ogni campo è **testo libero**
-  modificabile. Scelta esplicita dell'utente: niente validazioni, niente calcoli di
-  modificatori/bonus secondo le regole D&D, salvo richiesta esplicita.
+- **Calcolo automatico solo per i bonus delle abilità.** Derivano dal modificatore
+  della caratteristica, più il bonus competenza se selezionata (raddoppiato con
+  Maestria). Gli altri valori restano manuali, salvo richiesta esplicita.
 - **Scala piccola e privata** → niente auth pesante.
 - **Accesso a PIN per personaggio:** tutti vedono tutte le schede in sola lettura;
   per modificare una scheda si inserisce il **PIN a 4 cifre** di quel personaggio.
@@ -38,6 +38,8 @@ anche l'ambiente locale si collega a quello).
 - `lib/sheet.ts` — tipo `Sheet` (modello scheda) + `emptySheet()` con scheletro
   standard di caratteristiche/abilità D&D e conversione dei vecchi JSON con
   `normalizeSheet()`.
+- `lib/abilityBonus.ts` — calcolo dei bonus abilità senza salvarli nel DB.
+- `docs/regole/` — SRD ufficiali italiani 5.1 (2014) e 5.2.1 (2024).
 - `lib/exportPdf.ts` — esportazione PDF nel formato dell'app.
 - `lib/exportTemplatePdf.ts` e `lib/pdfTemplateFields.json` — esportazione
   statica sul modello originale in `public/scheda-template.pdf`.
@@ -103,5 +105,6 @@ Avvia: `npm run dev` → http://localhost:3000 (dal telefono, stessa Wi-Fi, usa 
 
 ## Convenzioni
 - UI e testo in **italiano**.
-- Campi sempre liberi (testo); non introdurre logica di regole.
+- Campi manuali, tranne i bonus abilità calcolati; non introdurre altri calcoli
+  di regole senza richiesta esplicita.
 - Mantenere la semplicità adatta a pochissimi utenti e al free tier.

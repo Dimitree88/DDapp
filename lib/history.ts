@@ -58,7 +58,7 @@ const labels: Record<string, string> = {
   monete: "Monete", note: "Note",
   nome: "Nome", abbr: "Abbreviazione", valore: "Valore", modificatore: "Modificatore",
   tsBonus: "Bonus tiro salvezza", tsCompetente: "Tiro salvezza competente",
-  caratteristica: "Caratteristica", competente: "Competente", bonus: "Bonus",
+  caratteristica: "Caratteristica", competente: "Competente", maestria: "Maestria", bonus: "Bonus",
   quantita: "Quantità", danno: "Danno", gittata: "Gittata", provenienza: "Provenienza",
   dettaglio: "Dettaglio personale", titolo: "Titolo", descrizione: "Descrizione", scelte: "Scelte personali",
   tempo: "Tempo di lancio", componenti: "Componenti", durata: "Durata",

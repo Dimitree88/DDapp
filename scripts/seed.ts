@@ -28,10 +28,9 @@ function ephemerSheet(): Sheet {
     ...item, valore: scores[index][0], modificatore: scores[index][1],
     tsBonus: scores[index][2], tsCompetente: scores[index][3],
   }));
-  const skillBonuses = ["-1", "+2", "+4", "+2", "+2", "+2", "+4", "+4", "+2", "+3", "+5", "+5", "+5", "+3", "+1", "+1", "+1", "+3"];
   const proficient = new Set(["FURTIVITÀ", "NATURA", "RELIGIONE", "INTUIZIONE", "MEDICINA", "PERCEZIONE", "PERSUASIONE"]);
-  sheet.abilita = sheet.abilita.map((item, index) => ({
-    ...item, bonus: skillBonuses[index], competente: proficient.has(item.nome),
+  sheet.abilita = sheet.abilita.map((item) => ({
+    ...item, competente: proficient.has(item.nome), maestria: item.nome === "INTUIZIONE",
   }));
   sheet.competenzeArmi = ["Armi semplici", "Armi da guerra"];
   sheet.competenzeArmatura = { leggere: true, medie: true, pesanti: false, scudi: true };
@@ -60,7 +59,7 @@ function ephemerSheet(): Sheet {
   ];
   sheet.privilegi = [
     { titolo: "Padronanza d'armi", scelte: "arco e spada" },
-    { titolo: "Esploratore esperto", scelte: "Abilità scelta non indicata" },
+    { titolo: "Esploratore esperto", scelte: "Maestria: Intuizione" },
     { titolo: "Stile di combattimento", scelte: "Tiro" },
     { titolo: "Nemico prescelto", scelte: "Marchio del Cacciatore: 2 volte senza spendere slot" },
   ];
