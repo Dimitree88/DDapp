@@ -17,8 +17,8 @@ gruppo di amici (6-7 giocatori, max 10). Lingua UI: **italiano**. Hostata su
 
 ## Decisioni di design (il "perché" — rispettarle)
 - **Calcolo automatico dei valori derivati:** modificatori delle caratteristiche,
-  bonus competenza dal livello, tiri salvezza, bonus abilità (con Maestria) e
-  Percezione passiva. Gli altri valori restano manuali, salvo richiesta esplicita.
+  bonus competenza dal livello, tiri salvezza, bonus abilità (con Maestria),
+  Iniziativa (con Allerta) e Percezione passiva. Gli altri valori restano manuali, salvo richiesta esplicita.
 - **Scala piccola e privata** → niente auth pesante.
 - **Accesso a PIN per personaggio:** tutti vedono tutte le schede in sola lettura;
   per modificare una scheda si inserisce il **PIN a 4 cifre** di quel personaggio.

@@ -12,7 +12,7 @@ function ephemerSheet(): Sheet {
   const sheet = emptySheet();
   Object.assign(sheet, {
     livello: "2", classe: "Ranger", puntiFerita: "16", puntiFeritaMax: "16",
-    classeArmatura: 14, iniziativa: "+2",
+    classeArmatura: 14,
     dadiVita: "2d10", ispirazioneEroica: true,
     puntiEsperienza: "0", specie: "Umano", background: "Eremita",
     allineamento: "Caotico neutrale", velocita: "9", taglia: "Media",

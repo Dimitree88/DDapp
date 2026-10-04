@@ -1,8 +1,9 @@
 import type { Sheet } from "./sheet";
-import { abilityBonus, abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
+import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
 
 export type CalculationTarget =
   | { kind: "proficiency" }
+  | { kind: "initiative" }
   | { kind: "passive" }
   | { kind: "modifier"; abbr: string }
   | { kind: "save"; abbr: string }
@@ -32,6 +33,25 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
       rule: "Nelle regole 2024 il bonus competenza dipende dal livello totale del personaggio e cresce ogni quattro livelli.",
       details: [{ label: "Livello", value: shown(sheet.livello) }],
       formula: proficiency ? `Livelli ${first}–${Math.min(first + 3, 20)} → ${proficiency}` : "Inserisci un livello da 1 a 20.",
+    };
+  }
+  if (target.kind === "initiative") {
+    const dexterity = sheet.caratteristiche.find((item) => item.abbr === "DES");
+    const modifier = abilityModifier(dexterity?.valore ?? "");
+    const hasAlert = sheet.talenti.some((item) => item.nome === "Allerta");
+    const result = initiativeBonus(sheet);
+    return {
+      title: "Iniziativa", result,
+      rule: "L'iniziativa usa il modificatore di Destrezza. Il talento Allerta aggiunge il bonus competenza al tiro. Effetti temporanei non registrati nella scheda possono modificarlo.",
+      details: [
+        { label: "Punteggio di Destrezza", value: shown(dexterity?.valore ?? "") },
+        { label: "Modificatore di Destrezza", value: shown(modifier) },
+        { label: "Talento Allerta", value: hasAlert ? "Sì" : "No" },
+        ...(hasAlert ? [{ label: "Bonus competenza", value: shown(proficiency) }] : []),
+      ],
+      formula: result ? hasAlert
+        ? `${modifier} + ${Number(proficiency)} = ${result}`
+        : `${modifier} = ${result}` : "Inserisci il punteggio di Destrezza e, per Allerta, il livello.",
     };
   }
   if (target.kind === "modifier" || target.kind === "save") {

@@ -12,6 +12,15 @@ export function proficiencyBonus(level: string): string {
   return `+${2 + Math.floor((Number(level) - 1) / 4)}`;
 }
 
+export function initiativeBonus(sheet: Sheet): string {
+  const dexterity = sheet.caratteristiche.find((item) => item.abbr === "DES");
+  const modifier = abilityModifier(dexterity?.valore ?? "");
+  const hasAlert = sheet.talenti.some((item) => item.nome === "Allerta");
+  const proficiency = proficiencyBonus(sheet.livello);
+  if (!modifier || (hasAlert && !proficiency)) return "";
+  return signed(Number(modifier) + (hasAlert ? Number(proficiency) : 0));
+}
+
 export function savingThrowBonus(sheet: Sheet, characteristic: Caratteristica): string {
   const modifier = abilityModifier(characteristic.valore);
   const proficiency = proficiencyBonus(sheet.livello);

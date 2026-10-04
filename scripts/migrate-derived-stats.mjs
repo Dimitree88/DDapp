@@ -4,7 +4,7 @@ import { randomUUID } from "node:crypto";
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { normalizeSheet } from "../lib/sheet.ts";
-import { abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "../lib/abilityBonus.ts";
+import { abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "../lib/abilityBonus.ts";
 
 config({ path: ".env.local", quiet: true });
 const client = createClient({ url: process.env.DATABASE_URL, authToken: process.env.DATABASE_AUTH_TOKEN });
@@ -21,6 +21,7 @@ for (const row of rows) {
     }
   };
   assertSame("Bonus competenza", before.bonusCompetenza, proficiencyBonus(after.livello));
+  if (before.iniziativa) assertSame("Iniziativa", before.iniziativa, initiativeBonus(after));
   for (let i = 0; i < before.caratteristiche.length; i++) {
     const old = before.caratteristiche[i];
     const current = after.caratteristiche[i];
@@ -36,6 +37,7 @@ for (const row of rows) {
   plans.push({ id: String(row.id), name: String(row.name), oldData: String(row.data),
     newData: JSON.stringify(after), updatedAt: row.updated_at, changes,
     removedFields: (before.bonusCompetenza !== undefined ? 1 : 0)
+      + (before.iniziativa !== undefined ? 1 : 0)
       + (oldPassive !== undefined ? 1 : 0)
       + before.caratteristiche.reduce((count, item) => count + Number(item.modificatore !== undefined) + Number(item.tsBonus !== undefined), 0),
   });

@@ -28,7 +28,6 @@ export function domainErrors(sheet: Sheet): string[] {
   checkNumber("Punti ferita", sheet.puntiFerita, "unsigned");
   checkNumber("Punti ferita massimi", sheet.puntiFeritaMax, "unsigned");
   if (sheet.classeArmatura !== null && (!Number.isSafeInteger(sheet.classeArmatura) || sheet.classeArmatura < 0)) errors.push(`Classe armatura: ${sheet.classeArmatura}`);
-  checkNumber("Iniziativa", sheet.iniziativa, "signed");
   checkNumber("Dadi vita", sheet.dadiVita, "dice");
   checkNumber("Punti esperienza", sheet.puntiEsperienza, "unsigned");
   if (sheet.velocita && !/^\d+(?:\.\d+)?$/.test(sheet.velocita)) errors.push(`Velocità: ${sheet.velocita}`);

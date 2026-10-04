@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { emptySheet, normalizeSheet } from "../lib/sheet.ts";
-import { abilityBonus, abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "../lib/abilityBonus.ts";
+import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "../lib/abilityBonus.ts";
 
 test("ability bonus follows modifier, proficiency and mastery", () => {
   const sheet = emptySheet();
@@ -37,17 +37,32 @@ test("derived scores, saving throws, and passive perception", () => {
   assert.equal(passivePerception(sheet), "15");
 });
 
+test("initiative follows Dexterity and the Alert feat", () => {
+  const sheet = emptySheet();
+  const dexterity = sheet.caratteristiche.find((item) => item.abbr === "DES");
+  dexterity.valore = "15";
+  assert.equal(initiativeBonus(sheet), "+2");
+  sheet.talenti.push({ nome: "Allerta", scelte: "" });
+  assert.equal(initiativeBonus(sheet), "+4");
+  sheet.livello = "5";
+  assert.equal(initiativeBonus(sheet), "+5");
+  dexterity.valore = "";
+  assert.equal(initiativeBonus(sheet), "");
+});
+
 test("normalization discards saved bonuses from older sheets", () => {
   const old = emptySheet();
   old.abilita[0].bonus = "+99";
   old.bonusCompetenza = "+2";
   old.percezionePassiva = "13";
+  old.iniziativa = "+2";
   old.caratteristiche[0].modificatore = "-1";
   old.caratteristiche[0].tsBonus = "+1";
   const normalized = normalizeSheet(old);
   assert.equal(Object.hasOwn(normalized.abilita[0], "bonus"), false);
   assert.equal(Object.hasOwn(normalized, "bonusCompetenza"), false);
   assert.equal(Object.hasOwn(normalized, "percezionePassiva"), false);
+  assert.equal(Object.hasOwn(normalized, "iniziativa"), false);
   assert.equal(Object.hasOwn(normalized.caratteristiche[0], "modificatore"), false);
   assert.equal(Object.hasOwn(normalized.caratteristiche[0], "tsBonus"), false);
   assert.equal(normalized.abilita[0].maestria, false);

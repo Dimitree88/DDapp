@@ -1,7 +1,7 @@
 // Esporta una scheda in PDF cercando di somigliare alla visualizzazione dell'app
 // (tema "pergamena": font serif, palette, sezioni a card).
 import type { Sheet } from "./sheet";
-import { abilityBonus, abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
+import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
 
 const CAR_FULL: Record<string, string> = {
   FOR: "FORZA",
@@ -201,7 +201,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     [["Sottoclasse", sheet.sottoclasse]],
     [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
     [["Classe Armatura", sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)]],
-    [["Scudo", sheet.scudo ? "Sì" : "No"], ["Iniziativa", sheet.iniziativa]],
+    [["Scudo", sheet.scudo ? "Sì" : "No"], ["Iniziativa", initiativeBonus(sheet)]],
     [["Bonus Competenza", proficiencyBonus(sheet.livello)], ["Percezione Passiva", passivePerception(sheet)]],
     [["Dadi Vita", sheet.dadiVita], ["Punti Esperienza", sheet.puntiEsperienza]],
     [["Ispirazione Eroica", sheet.ispirazioneEroica ? "Sì" : "No"], ["Velocità", sheet.velocita ? `${sheet.velocita} m` : ""]],

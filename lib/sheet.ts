@@ -51,7 +51,6 @@ export type Sheet = {
   puntiFeritaMax: string;
   classeArmatura: number | null;
   scudo: boolean;
-  iniziativa: string;
   dadiVita: string;
   ispirazioneEroica: boolean;
   puntiEsperienza: string;
@@ -145,7 +144,6 @@ export function emptySheet(): Sheet {
     puntiFeritaMax: "",
     classeArmatura: null,
     scudo: false,
-    iniziativa: "",
     dadiVita: "",
     ispirazioneEroica: false,
     puntiEsperienza: "0",
@@ -294,5 +292,6 @@ export function normalizeSheet(value: Sheet): Sheet {
   delete (normalized as Sheet & { noteVelocita?: string }).noteVelocita;
   delete (normalized as Sheet & { bonusCompetenza?: string }).bonusCompetenza;
   delete (normalized as Sheet & { percezionePassiva?: string }).percezionePassiva;
+  delete (normalized as Sheet & { iniziativa?: string }).iniziativa;
   return normalized;
 }

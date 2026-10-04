@@ -24,7 +24,7 @@ import { exportSheetPdf } from "@/lib/exportPdf";
 import regole from "@/lib/regole-srd-2024.json";
 import { spellNames } from "@/lib/spells";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
-import { abilityBonus, abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
+import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
 
 const classi = Object.keys(regole.classi);
@@ -509,7 +509,7 @@ export default function CharacterClient({
             <TextField label="Scudo" value={sheet.scudo ? "Sì" : "No"} options={["Sì", "No"]} onChange={(v) => patch({ scudo: v === "Sì" })} />
           </div>
           <div className={grid2}>
-            <TextField label="Iniziativa" value={sheet.iniziativa} numeric="signed" onChange={(v) => patch({ iniziativa: v })} />
+            <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
           </div>
           <div className={grid2}>
             <ComputedField label="Bonus Competenza" value={proficiencyBonus(sheet.livello)}
