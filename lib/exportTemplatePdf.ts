@@ -3,6 +3,12 @@ import { PDFDocument, rgb } from "pdf-lib";
 import fields from "./pdfTemplateFields.json";
 import type { Sheet } from "./sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
+import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
+import { displayedArmorClass } from "./armorClass";
+import { spellDetails } from "./spells";
+import { displayedMaxHp } from "./classProgression";
+import { displayedSpeed } from "./speed";
+import { carryingCapacity, inventoryWeight } from "./inventoryWeight";
 
 type Mapping = (typeof fields)[number];
 
@@ -12,9 +18,11 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boo
   if (source === "sheet.privilegi" || source === "sheet.talenti" || source === "sheet.equipaggiamento") return undefined;
   if (source === "sheet.specie" && mapping.field === "textarea_142hif") return undefined;
   if (source === "sheet.specie") return sheet.lignaggio || sheet.specie;
+  if (source === "sheet.classeArmatura") return displayedArmorClass(sheet);
+  if (source === "sheet.puntiFeritaMax") return displayedMaxHp(sheet);
   if (source === "sheet.classe") return sheet.sottoclasse ? `${sheet.classe} - ${sheet.sottoclasse}` : sheet.classe;
-  if (source === "sheet.velocita") return sheet.velocita ? `${sheet.velocita} m` : "";
-  if (source === "sheet.competenzeArmi") return sheet.competenzeArmi.join(", ");
+  if (source === "sheet.velocita") return displayedSpeed(sheet) ? `${displayedSpeed(sheet)} m` : "";
+  if (source === "sheet.competenzeArmi") return [sheet.competenzeArmi.join(", "), sheet.padronanzeArmi?.length ? `Padronanze: ${sheet.padronanzeArmi.join(", ")}` : ""].filter(Boolean).join("; ");
   if (source === "sheet.lingue") return sheet.lingue.join(", ");
   if (source === "sheet.bonusCompetenza") return proficiencyBonus(sheet.livello);
   if (source === "sheet.iniziativa") return initiativeBonus(sheet);
@@ -42,10 +50,21 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boo
         const quantity = Number(item.quantita);
         return Number.isInteger(quantity) && quantity > 1 ? `${item.nome} x${quantity}` : item.nome;
       }
-      return item[array[3] as keyof typeof item];
+      if (array[3] === "bonus") return displayedWeaponAttack(sheet, item);
+      if (array[3] === "danno") return weaponAttack(sheet, item)?.damage;
+      const value = item[array[3] as keyof typeof item];
+      return typeof value === "number" ? String(value) : value;
     }
     const item = sheet.incantesimi[index];
     if (!item) return undefined;
+    const detail = spellDetails(item.nome);
+    if (array[3] === "livello") return detail?.livello === 0 ? "T" : String(detail?.livello ?? "");
+    if (array[3] === "tempo") return detail?.tempo;
+    if (array[3] === "gittata") return detail?.gittata;
+    if (array[3] === "note") return [item.stato, item.fonte].filter(Boolean).join(" · ");
+    if (array[3] === "concentrazione") return Boolean(detail?.durata.startsWith("concentrazione"));
+    if (array[3] === "rituale") return Boolean(detail?.tempo.includes("rituale"));
+    if (array[3] === "materiali") return Boolean(detail?.componenti.includes("M"));
     return item[array[3] as keyof typeof item];
   }
   const key = source.slice(6);
@@ -138,7 +157,46 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
     draw(second, lines.slice(perColumn, perColumn * 2).join("\n"));
   }
   if (sheet.talenti.length) draw(byField.get("textarea_143mcko")!, sheet.talenti.map((item) => item.scelte ? `${item.nome}: ${item.scelte}` : item.nome).join("\n"));
-  if (sheet.equipaggiamento.length) draw(byField.get("textarea_165hxzs")!, sheet.equipaggiamento.map((item) => item.nome).join("\n"));
+  if (sheet.equipaggiamento.length) draw(byField.get("textarea_165hxzs")!, sheet.equipaggiamento.map((item) => `${item.nome}${item.quantita ? ` ×${item.quantita}${item.unita ? ` ${item.unita}` : ""}` : ""}${item.indossato ? " (indossata)" : item.impugnato ? " (impugnato)" : ""}`).join("\n"));
+
+  // Il modello originale ha campi corti: un'appendice conserva le informazioni
+  // strutturate che altrimenti verrebbero tagliate senza alcun segnale.
+  const appendix: string[] = [];
+  const addSection = (title: string, lines: string[]) => {
+    if (lines.length) appendix.push(title.toUpperCase(), ...lines, "");
+  };
+  addSection("Stato e risorse", [
+    sheet.puntiFeritaTemporanei ? `PF temporanei: ${sheet.puntiFeritaTemporanei}` : "",
+    sheet.dadiVitaSpesi ? `Dadi Vita spesi: ${sheet.dadiVitaSpesi}` : "",
+    sheet.tiriMorte ? `Tiri morte: ${sheet.tiriMorte.successi} successi, ${sheet.tiriMorte.fallimenti} fallimenti` : "",
+    sheet.condizioni?.length ? `Condizioni: ${sheet.condizioni.join(", ")}` : "",
+    ...Object.entries(sheet.slotSpesi ?? {}).filter(([, spent]) => spent > 0).map(([level, spent]) => `Slot livello ${level} spesi: ${spent}`),
+  ].filter(Boolean));
+  addSection("Armi oltre le sei righe del modello", sheet.armi.slice(6).map((item) => `${item.nome} ×${item.quantita || 1}; attacco ${displayedWeaponAttack(sheet, item)}; danno ${weaponAttack(sheet, item)?.damage ?? "—"}`));
+  addSection("Incantesimi oltre le trenta righe del modello", sheet.incantesimi.slice(30).map((item) => [item.nome, item.fonte, item.stato].filter(Boolean).join(" · ")));
+  addSection("Inventario completo", sheet.equipaggiamento.map((item) => [item.nome, item.quantita ? `×${item.quantita}` : "", item.unita, item.contenitore ? `in ${item.contenitore}` : "", item.dettaglio].filter(Boolean).join(" · ")));
+  addSection("Competenze negli strumenti", sheet.competenzeStrumenti ?? []);
+  addSection("Privilegi completi", privileges);
+  addSection("Risorse dei privilegi", (sheet.risorse ?? []).map((resource) => `${resource.nome}: ${resource.massimo - resource.spesi}/${resource.massimo}; fonte ${resource.fonte}; ricarica ${resource.ricarica}`));
+  addSection("Fonti delle competenze", (sheet.fontiCompetenze ?? []).map((record) => `${record.valore} (${record.tipo}): ${record.fonte}`));
+  addSection("Talenti completi", sheet.talenti.map((item) => item.scelte ? `${item.nome}: ${item.scelte}` : item.nome));
+  const weight = inventoryWeight(sheet);
+  if (weight.knownKg || weight.unknownItems.length) appendix.push(`Peso catalogato: ${weight.knownKg} kg${carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}${weight.unknownItems.length ? `; peso sconosciuto: ${weight.unknownItems.join(", ")}` : ""}`);
+  if (appendix.length) {
+    const pageSize: [number, number] = [595.28, 841.89];
+    let page = pdf.addPage(pageSize);
+    let y = pageSize[1] - 45;
+    const lineHeight = 11;
+    page.drawText("Appendice alla scheda", { x: 40, y, font, size: 14, color: rgb(0, 0, 0) });
+    y -= 26;
+    for (const line of appendix) {
+      for (const wrapped of wrappedLines(line, pageSize[0] - 80, 8, measure)) {
+        if (y < 40) { page = pdf.addPage(pageSize); y = pageSize[1] - 45; }
+        if (wrapped) page.drawText(wrapped, { x: 40, y, font, size: 8, color: rgb(0, 0, 0) });
+        y -= lineHeight;
+      }
+    }
+  }
 
   return pdf.save();
 }

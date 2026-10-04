@@ -7,6 +7,7 @@ import { numericDraftValid, numericValueValid } from "../lib/numeric.ts";
 test("the catalog accepts migrated 2024 options and rejects names outside it", () => {
   const sheet = {
     ...emptySheet(),
+    livello: "3",
     classe: "Ranger",
     sottoclasse: "Cacciatore",
     specie: "Elfo",

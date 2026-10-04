@@ -2,6 +2,13 @@
 // (tema "pergamena": font serif, palette, sezioni a card).
 import type { Sheet } from "./sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
+import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
+import { displayedArmorClass } from "./armorClass";
+import { spellSlots, spellcastingStats } from "./spellcasting";
+import { coinTotalGold } from "./coins";
+import { carryingCapacity, inventoryWeight } from "./inventoryWeight";
+import { displayedMaxHp } from "./classProgression";
+import { displayedSpeed } from "./speed";
 
 const CAR_FULL: Record<string, string> = {
   FOR: "FORZA",
@@ -199,16 +206,20 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   fieldRows([
     [["Livello", sheet.livello], ["Classe", sheet.classe]],
     [["Sottoclasse", sheet.sottoclasse]],
-    [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
-    [["Classe Armatura", sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)]],
+    [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", displayedMaxHp(sheet)]],
+    [["PF temporanei", sheet.puntiFeritaTemporanei ?? ""]],
+    [["Classe Armatura", displayedArmorClass(sheet)]],
     [["Scudo", sheet.scudo ? "Sì" : "No"], ["Iniziativa", initiativeBonus(sheet)]],
     [["Bonus Competenza", proficiencyBonus(sheet.livello)], ["Percezione Passiva", passivePerception(sheet)]],
-    [["Dadi Vita", sheet.dadiVita], ["Punti Esperienza", sheet.puntiEsperienza]],
-    [["Ispirazione Eroica", sheet.ispirazioneEroica ? "Sì" : "No"], ["Velocità", sheet.velocita ? `${sheet.velocita} m` : ""]],
+    [["Dadi Vita", sheet.dadiVita], ["Dadi Vita spesi", sheet.dadiVitaSpesi ?? ""]],
+    [["TS morte superati", String(sheet.tiriMorte?.successi ?? 0)], ["TS morte falliti", String(sheet.tiriMorte?.fallimenti ?? 0)]],
+    [["Punti Esperienza", sheet.puntiEsperienza]],
+    [["Ispirazione Eroica", sheet.ispirazioneEroica ? "Sì" : "No"], ["Velocità", displayedSpeed(sheet) ? `${displayedSpeed(sheet)} m` : ""]],
     [["Allineamento", sheet.allineamento], ["Taglia", sheet.taglia]],
     [["Specie", sheet.lignaggio || sheet.specie]],
     [["Background", sheet.background]],
   ]);
+  if (sheet.condizioni?.length) paragraph(`Condizioni: ${sheet.condizioni.join(", ")}`, { size: 10, color: C.inkSoft });
 
   // ===== Lingue ===== (stessa pagina di Stato & Identità)
   tab("Lingue", true);
@@ -372,8 +383,12 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
 
   // ===== Incantesimi =====
   tab("Incantesimi");
+  const casting = spellcastingStats(sheet);
+  if (casting) paragraph(`CD ${casting.dc} · Attacco magico ${casting.attack} (${casting.ability})`, { size: 10, color: C.inkSoft });
+  const slots = spellSlots(sheet).filter((slot) => slot.maximum > 0);
+  if (slots.length) paragraph(`Slot spesi: ${slots.map((slot) => `${slot.level}º ${slot.spent}/${slot.maximum}`).join(" · ")}`, { size: 10, color: C.inkSoft });
   if (sheet.incantesimi.length) {
-    sheet.incantesimi.forEach((inc) => titledCard(inc.nome || "—", "", "", ""));
+    sheet.incantesimi.forEach((inc) => titledCard(inc.nome || "—", "", [inc.fonte, inc.stato].filter(Boolean).join(" · "), inc.caratteristica ? `Caratteristica: ${inc.caratteristica}` : ""));
   } else {
     emptyNote();
   }
@@ -385,10 +400,14 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     paragraph("Competenze armi: " + compArmi.join(", "), { size: 10, color: C.inkSoft });
     y += 4;
   }
+  if (sheet.padronanzeArmi?.length) paragraph("Padronanze: " + sheet.padronanzeArmi.join(", "), { size: 10, color: C.inkSoft });
   if (sheet.armi.length) {
     sheet.armi.forEach((a) => {
+      const attack = displayedWeaponAttack(sheet, a);
+      const damage = weaponAttack(sheet, a)?.damage;
       const meta = [
-        a.bonus && `Bonus: ${a.bonus}`,
+        attack && `Attacco: ${attack}`,
+        damage && `Danno: ${damage}`,
       ].filter(Boolean).join("   ");
       titledCard(a.nome || "—", a.quantita ? `×${a.quantita}` : "", meta, a.note);
     });
@@ -411,11 +430,14 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   }
   if (sheet.equipaggiamento.length) {
     sheet.equipaggiamento.forEach((e) => {
-      titledCard(e.nome || "—", "", "", e.dettaglio);
+      titledCard(e.nome || "—", e.quantita ? `×${e.quantita}${e.unita ? ` ${e.unita}` : ""}` : "", [e.indossato && "Indossata", e.impugnato && "Impugnato", e.contenitore && `In: ${e.contenitore}`].filter(Boolean).join(" · "), e.dettaglio);
     });
   } else {
     emptyNote();
   }
+  if (sheet.competenzeStrumenti?.length) paragraph("Competenze strumenti: " + sheet.competenzeStrumenti.join(", "), { size: 10, color: C.inkSoft });
+  const carriedWeight = inventoryWeight(sheet);
+  paragraph(`Peso catalogato: ${carriedWeight.knownKg} kg${carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}${carriedWeight.unknownItems.length ? `; peso non noto per ${carriedWeight.unknownItems.join(", ")}` : ""}`, { size: 10, color: C.inkSoft });
 
   // ===== Monete =====
   tab("Monete");
@@ -424,6 +446,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     [["Electrum", sheet.monete.electrum], ["Oro", sheet.monete.oro]],
     [["Platino", sheet.monete.platino]],
   ]);
+  paragraph(`Valore equivalente: ${coinTotalGold(sheet.monete) ?? "—"} mo`, { size: 10, color: C.inkSoft });
 
   // ===== Privilegi ===== (stessa pagina di Monete)
   tab("Privilegi", true);
@@ -432,6 +455,8 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   } else {
     emptyNote();
   }
+  if (sheet.risorse?.length) sheet.risorse.forEach((resource) => titledCard(resource.nome, `${resource.massimo - resource.spesi}/${resource.massimo}`, resource.fonte, `Ricarica: ${resource.ricarica}`));
+  if (sheet.fontiCompetenze?.length) sheet.fontiCompetenze.forEach((record) => paragraph(`${record.valore} (${record.tipo}): ${record.fonte}`, { size: 10, color: C.inkSoft }));
 
   // ===== Talenti ===== (stessa pagina di Monete)
   tab("Talenti", true);

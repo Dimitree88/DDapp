@@ -19,19 +19,32 @@ export type Abilita = {
 export type Arma = {
   nome: string;
   quantita: string;
-  bonus: string; // bonus att. / CD
+  bonus: string; // valore manuale prevalente per il tiro per colpire
+  modo?: "base" | "lancio" | "dueMani";
+  caratteristica?: "FOR" | "DES";
+  bonusMagico?: 1 | 2 | 3;
   note: string;
 };
 
 export type Equip = {
   nome: string;
   dettaglio: string;
+  catalogId?: string;
+  quantita?: string;
+  unita?: string;
+  contenitore?: string;
+  indossato?: boolean;
+  impugnato?: boolean;
+  bonusMagico?: 1 | 2 | 3;
 };
 
 export type Privilegio = {
   titolo: string;
   scelte: string;
 };
+
+export type Risorsa = { nome: string; fonte: string; massimo: number; spesi: number; ricarica: "breve" | "lungo" | "manuale" };
+export type FonteCompetenza = { tipo: "abilita" | "tiroSalvezza" | "arma" | "armatura" | "strumento" | "lingua"; valore: string; fonte: string };
 
 export type Talento = {
   nome: string;
@@ -40,6 +53,9 @@ export type Talento = {
 
 export type Incantesimo = {
   nome: string;
+  fonte?: "classe" | "talento" | "privilegio" | "altro";
+  stato?: "conosciuto" | "libro" | "preparato" | "semprePreparato" | "concesso";
+  caratteristica?: "INT" | "SAG" | "CAR";
 };
 
 export type Sheet = {
@@ -50,9 +66,16 @@ export type Sheet = {
   sottoclasse: string;
   puntiFerita: string;
   puntiFeritaMax: string;
+  puntiFeritaMaxModo?: "manuale" | "classe";
+  incrementiPf?: { value: number; method: "tiro" | "fisso" }[];
+  puntiFeritaTemporanei?: string;
   classeArmatura: number | null;
+  classeArmaturaModo?: "manuale" | "equipaggiamento";
   scudo: boolean;
   dadiVita: string;
+  dadiVitaSpesi?: string;
+  tiriMorte?: { successi: number; fallimenti: number };
+  condizioni?: string[];
   ispirazioneEroica: boolean;
   puntiEsperienza: string;
 
@@ -62,6 +85,8 @@ export type Sheet = {
   background: string;
   allineamento: string;
   velocita: string; // solo cifre, senza unità
+  velocitaModo?: "manuale" | "specie";
+  modificatoriVelocita?: { value: number; fonte: string; temporaneo: boolean }[];
   taglia: string;
   lingue: string[];
   noteLingue: string;
@@ -72,6 +97,7 @@ export type Sheet = {
 
   // Pagina: Armi
   competenzeArmi: string[];
+  padronanzeArmi?: string[];
   armi: Arma[];
 
   // Pagina: Equipaggiamento
@@ -81,16 +107,20 @@ export type Sheet = {
     pesanti: boolean;
     scudi: boolean;
   };
+  competenzeStrumenti?: string[];
   equipaggiamento: Equip[];
 
   // Pagina: Privilegi
   privilegi: Privilegio[];
+  risorse?: Risorsa[];
+  fontiCompetenze?: FonteCompetenza[];
 
   // Pagina: Talenti
   talenti: Talento[];
 
   // Pagina: Incantesimi
   incantesimi: Incantesimo[];
+  slotSpesi?: Record<string, number>;
 
   // Pagina: Monete & Note
   monete: {
@@ -144,9 +174,16 @@ export function emptySheet(): Sheet {
     sottoclasse: "",
     puntiFerita: "",
     puntiFeritaMax: "",
+    puntiFeritaMaxModo: "manuale",
+    incrementiPf: [],
+    puntiFeritaTemporanei: "",
     classeArmatura: null,
+    classeArmaturaModo: "manuale",
     scudo: false,
     dadiVita: "",
+    dadiVitaSpesi: "0",
+    tiriMorte: { successi: 0, fallimenti: 0 },
+    condizioni: [],
     ispirazioneEroica: false,
     puntiEsperienza: "0",
 
@@ -155,6 +192,8 @@ export function emptySheet(): Sheet {
     background: "",
     allineamento: "",
     velocita: "",
+    velocitaModo: "manuale",
+    modificatoriVelocita: [],
     taglia: "",
     lingue: [],
     noteLingue: "",
@@ -173,6 +212,7 @@ export function emptySheet(): Sheet {
     })),
 
     competenzeArmi: [],
+    padronanzeArmi: [],
     armi: [],
 
     competenzeArmatura: {
@@ -181,11 +221,15 @@ export function emptySheet(): Sheet {
       pesanti: false,
       scudi: false,
     },
+    competenzeStrumenti: [],
     equipaggiamento: [],
 
     privilegi: [],
+    risorse: [],
+    fontiCompetenze: [],
     talenti: [],
     incantesimi: [],
+    slotSpesi: {},
 
     monete: { rame: "", argento: "", electrum: "", oro: "", platino: "" },
     note: "",
@@ -265,6 +309,8 @@ export function normalizeSheet(value: Sheet): Sheet {
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
     lingue: languages,
     competenzeArmi: toList(old.competenzeArmi),
+    ...(Array.isArray(value.competenzeStrumenti) ? { competenzeStrumenti: value.competenzeStrumenti } : {}),
+    ...(Array.isArray(value.padronanzeArmi) ? { padronanzeArmi: value.padronanzeArmi } : {}),
     caratteristiche: old.caratteristiche.map(({ nome, abbr, valore, tsCompetente }) => ({
       nome, abbr, valore, tsCompetente,
     })),
@@ -276,11 +322,11 @@ export function normalizeSheet(value: Sheet): Sheet {
       const note = personalBonus && !(weapon.note ?? "").includes(personalBonus[1])
         ? [weapon.note, `Bonus al tiro per colpire: ${personalBonus[1]}`].filter(Boolean).join("\n")
         : weapon.note ?? "";
-      return { nome: weapon.nome, quantita: weapon.quantita, bonus: weapon.bonus, note };
+      return { nome: weapon.nome, quantita: weapon.quantita, bonus: weapon.bonus, ...(weapon.modo ? { modo: weapon.modo } : {}), ...(weapon.caratteristica ? { caratteristica: weapon.caratteristica } : {}), ...(weapon.bonusMagico ? { bonusMagico: weapon.bonusMagico } : {}), note };
     }),
     equipaggiamento: old.equipaggiamento
       .filter((item) => item.nome !== "Sconto 20% su oggetti non magici")
-      .map((item) => ({ nome: item.nome, dettaglio:
+      .map((item) => ({ nome: item.nome, ...(item.catalogId ? { catalogId: item.catalogId } : {}), ...(item.quantita ? { quantita: item.quantita } : {}), ...(item.unita ? { unita: item.unita } : {}), ...(item.contenitore ? { contenitore: item.contenitore } : {}), ...(item.indossato ? { indossato: true } : {}), ...(item.impugnato ? { impugnato: true } : {}), ...(item.bonusMagico ? { bonusMagico: item.bonusMagico } : {}), dettaglio:
         (item.nome === "Armatura di cuoio borchiato" && item.dettaglio === "Classe armatura 12") ||
         (item.nome === "Borsa da erborista" && /^CD 10 per identificare una pianta; creazione:/.test(item.dettaglio))
           ? "" : item.dettaglio })),
@@ -289,7 +335,7 @@ export function normalizeSheet(value: Sheet): Sheet {
       const tools = /strumenti da artigiano scelti:\s*([^\n.]+)/i.exec(feat.descrizione ?? "");
       return { nome: feat.nome, scelte: typeof feat.scelte === "string" ? feat.scelte : tools?.[1].trim() ?? "" };
     }),
-    incantesimi: old.incantesimi.map((spell) => ({ nome: canonicalSpellName(spell.nome) })),
+    incantesimi: old.incantesimi.map((spell) => ({ nome: canonicalSpellName(spell.nome), ...(spell.fonte ? { fonte: spell.fonte } : {}), ...(spell.stato ? { stato: spell.stato } : {}), ...(spell.caratteristica ? { caratteristica: spell.caratteristica } : {}) })),
   };
   delete (normalized as Sheet & { noteClasseArmatura?: string }).noteClasseArmatura;
   delete (normalized as Sheet & { noteVelocita?: string }).noteVelocita;

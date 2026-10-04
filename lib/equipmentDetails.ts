@@ -1,10 +1,9 @@
+import { armorCatalog } from "./armorCatalog";
+import { gearByName } from "./gearCatalog";
+
 // Descrizioni brevi per gli oggetti già presenti nelle schede; le note personali
 // restano separate e sono mostrate anche per gli oggetti senza voce di catalogo.
 const equipment: Record<string, { meaning: string; page?: number }> = {
-  "Armatura di cuoio borchiato": { meaning: "Armatura leggera: CA 12 + modificatore di Destrezza.", page: 104 },
-  "Armatura di cuoio": { meaning: "Armatura leggera: CA 11 + modificatore di Destrezza.", page: 104 },
-  "Cotta di maglia": { meaning: "Armatura pesante: CA 16. Richiede Forza 13 per evitare una riduzione della velocità.", page: 104 },
-  "Scudo": { meaning: "Se impugnato da un personaggio competente negli scudi, aumenta la Classe Armatura di 2.", page: 104 },
   "Focus druidico (rametto di vischio)": { meaning: "Focus druidico usabile come componente materiale per gli incantesimi che lo consentono." },
   "Borsa da erborista": { meaning: "Strumento usato per identificare piante e preparare rimedi; richiede una competenza separata per aggiungere il bonus alle prove." },
   "Pozione di guarigione": { meaning: "Se bevuta, fa recuperare 2d4 + 2 punti ferita.", page: 276 },
@@ -23,7 +22,10 @@ const equipment: Record<string, { meaning: string; page?: number }> = {
 
 export function equipmentDetails(name: string, personal = ""): { meaning: string; page?: number; rule?: boolean } | null {
   const base = name.trim().replace(/\s+x\d+$/i, "");
-  const known = equipment[base];
+  const armor = armorCatalog.find((item) => item.name === base);
+  const armorMeaning = armor ? armor.category === "scudi" ? "Se impugnato con competenza, lo scudo aumenta la CA di 2." : `${armor.category === "leggere" ? "Armatura leggera" : armor.category === "medie" ? "Armatura media" : "Armatura pesante"}: CA ${armor.baseAc}${armor.dexterity === "full" ? " + modificatore di Destrezza" : armor.dexterity === "max2" ? " + modificatore di Destrezza (massimo +2)" : ""}.${armor.strength ? ` Richiede Forza ${armor.strength} per non ridurre la velocità di 3 m.` : ""}${armor.stealthDisadvantage ? " Svantaggio a Furtività." : ""} Peso ${armor.weightKg} kg; costo ${armor.costGp} mo.` : "";
+  const gear = gearByName(base);
+  const known = armor ? { meaning: armorMeaning, page: 103 } : gear ? { meaning: [equipment[base]?.meaning, `Peso ${gear.weightKg === undefined ? "non indicato" : `${gear.weightKg} kg${gear.priceQuantity ? " per unità" : ""}`}; costo ${gear.costGp} mo${gear.priceQuantity ? ` per ${gear.priceQuantity}` : ""}.`].filter(Boolean).join(" "), page: gear.sourcePage ?? (gear.priceQuantity ? 110 : 107) } : equipment[base];
   const notes = personal.trim();
   if (!known && !notes) return null;
   return {

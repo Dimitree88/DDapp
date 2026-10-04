@@ -1,6 +1,6 @@
 # Piano dei domini e degli automatismi della scheda
 
-Stato: proposta da valutare. Alcune descrizioni dei valori, delle armi e degli oggetti sono già consultabili, ma i calcoli e le strutture dati proposti qui richiedono ancora una decisione. Riferimento: D&D 2024 / SRD 5.2.1 in italiano, con le integrazioni non SRD già dichiarate nel catalogo del progetto. Il piano riguarda le dieci pagine della scheda, il salvataggio, lo storico e i due PDF. La creazione dei personaggi avviene attualmente fuori dall'interfaccia.
+Stato: implementazione avanzata, non ancora completa. Sono operativi i cataloghi armi, armature, strumenti, munizioni ed equipaggiamento d'avventura; attacchi e varianti magiche dichiarate, padronanze, livelli minimi dei talenti, CA, PF massimi e velocità opzionali, slot e CD magiche, stati e risorse correnti, riposi, monete, peso e capacità di trasporto, appendice PDF. Restano progressioni complete di privilegi, origini e opzioni dei talenti, derivazione automatica delle competenze dalle loro fonti, transazioni e gestione avanzata degli oggetti magici o personalizzati. Le fonti delle competenze possono ora essere annotate sulle scelte esistenti. Le risorse per riposo hanno uno schema generico con massimo esplicito, non ancora le formule di ogni privilegio. Le schede esistenti non sono state convertite automaticamente. Audit delle voci: docs/audit-oggetti-schede.md.
 
 ## Principio di progetto
 
@@ -13,7 +13,7 @@ Separare sempre quattro cose:
 
 L'automatismo deve scattare solo se gli input necessari sono registrati e la regola è univoca. Se servono una scelta del giocatore, una decisione del DM o un effetto temporaneo, chiedere o mostrare il valore base con un'aggiunta esplicita. Non dedurre che un oggetto sia indossato, impugnato, preparato o attivo solo perché è posseduto. Conservare un campo per oggetti e regole personalizzati, distinguendoli dai dati SRD.
 
-## Stato attuale verificato nel repository
+## Stato iniziale verificato nel repository
 
 | Area | Già strutturato o automatico | Lacuna principale |
 | --- | --- | --- |

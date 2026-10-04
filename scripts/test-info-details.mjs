@@ -4,7 +4,7 @@ import catalog from "../lib/incantesimi-srd-2024.json" with { type: "json" };
 import rules from "../lib/regole-srd-2024.json" with { type: "json" };
 import { spellDetails } from "../lib/spells.ts";
 import { languageDetails } from "../lib/languageDetails.ts";
-import { weaponDetails } from "../lib/weaponDetails.ts";
+import { weaponCatalog, weaponDetails, weaponNames } from "../lib/weaponDetails.ts";
 import { valueDetails } from "../lib/valueDetails.ts";
 import { equipmentDetails } from "../lib/equipmentDetails.ts";
 import { recordedValueDetails } from "../lib/recordedValueDetails.ts";
@@ -42,6 +42,27 @@ test("weapon proficiency help identifies the actual weapons and their type", () 
   }
   assert.match(weaponDetails("Pugnale"), /Arma semplice da mischia\. Danni: 1d4 perforanti/);
   assert.match(weaponDetails("Arco lungo"), /Arma da guerra a distanza\. Danni: 1d8 perforanti/);
+});
+
+test("weapon catalog covers each selectable weapon with stable metadata", () => {
+  const catalogNames = [...rules.armi.semplici, ...rules.armi.daGuerra];
+  assert.deepEqual(new Set(weaponNames), new Set(catalogNames));
+  assert.equal(weaponCatalog.length, catalogNames.length);
+  assert.equal(new Set(weaponCatalog.map((weapon) => weapon.id)).size, weaponCatalog.length);
+  for (const weapon of weaponCatalog) {
+    assert.ok(weapon.id && weapon.damage && weapon.properties && weapon.mastery, weapon.name);
+    assert.ok(rules.armi[weapon.category].includes(weapon.name), weapon.name);
+    assert.equal(weapon.source, "SRD 5.2.1");
+    assert.equal(weapon.pages, "103-104");
+    assert.ok(weapon.costGp > 0, weapon.name);
+    assert.ok(weapon.weightKg === undefined || weapon.weightKg > 0, weapon.name);
+    assert.equal(Boolean(weapon.finesse), /Accurata/i.test(weapon.properties), weapon.name);
+    assert.equal(Boolean(weapon.thrown), /Lancio \(/i.test(weapon.properties), weapon.name);
+    assert.equal(weapon.versatileDie, /Versatile \(([^)]+)\)/i.exec(weapon.properties)?.[1], weapon.name);
+  }
+  assert.equal(weaponCatalog.find((weapon) => weapon.name === "Pugnale")?.kind, "mischia");
+  assert.deepEqual(weaponCatalog.find((weapon) => weapon.name === "Pugnale")?.rangeMeters, [6, 18]);
+  assert.equal(weaponCatalog.find((weapon) => weapon.name === "Arco lungo")?.kind, "distanza");
 });
 
 test("every catalog value opens a specific explanation", () => {

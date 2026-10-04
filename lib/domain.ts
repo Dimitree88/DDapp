@@ -3,11 +3,20 @@ import type { Sheet } from "./sheet";
 import { numericValueValid, type NumericMode } from "./numeric";
 import { spellNames } from "./spells";
 import { speciesSizes } from "./creationRules";
+import { weaponByName, weaponNames } from "./weaponDetails";
+import { armorById } from "./armorCatalog";
+import { gearById } from "./gearCatalog";
+import { gearCatalog } from "./gearCatalog";
+import { availableClassSpells, spellSlots, spellcastingAbility } from "./spellcasting";
+import { conditions } from "./conditions";
+import { calculatedMaxHp, classHitDice, fixedHitPointGain, subclassLevel } from "./classProgression";
+import { calculatedSpeed } from "./speed";
+import { featByName } from "./featCatalog";
 
 const classes = rules.classi as Record<string, string[]>;
 const lineages = rules.lignaggi as Record<string, string[]>;
 const languages = [...rules.lingue.standard, ...rules.lingue.rare];
-const weapons = [...rules.armi.semplici, ...rules.armi.daGuerra];
+const weapons = weaponNames;
 const feats = Object.values(rules.talenti).flat();
 
 export function domainErrors(sheet: Sheet): string[] {
@@ -21,6 +30,7 @@ export function domainErrors(sheet: Sheet): string[] {
   if (!rules.livelliPersonaggio.includes(sheet.livello)) errors.push(`Livello: ${sheet.livello}`);
   check("Classe", sheet.classe, Object.keys(classes));
   check("Sottoclasse", sheet.sottoclasse, classes[sheet.classe] ?? []);
+  if (sheet.sottoclasse && Number(sheet.livello) < subclassLevel) errors.push(`Sottoclasse disponibile dal livello ${subclassLevel}`);
   check("Specie", sheet.specie, rules.specie);
   check("Lignaggio", sheet.lignaggio, lineages[sheet.specie] ?? []);
   check("Background", sheet.background, rules.background);
@@ -31,10 +41,31 @@ export function domainErrors(sheet: Sheet): string[] {
   }
   checkNumber("Punti ferita", sheet.puntiFerita, "unsigned");
   checkNumber("Punti ferita massimi", sheet.puntiFeritaMax, "unsigned");
+  if (sheet.puntiFeritaMaxModo && !["manuale", "classe"].includes(sheet.puntiFeritaMaxModo)) errors.push(`Fonte PF massimi: ${sheet.puntiFeritaMaxModo}`);
+  const die = classHitDice[sheet.classe];
+  (sheet.incrementiPf ?? []).forEach((gain, index) => {
+    if (!die || !Number.isInteger(gain.value) || gain.value < 1 || gain.value > die || !["tiro", "fisso"].includes(gain.method) || gain.method === "fisso" && gain.value !== fixedHitPointGain(die)) errors.push(`Incremento PF livello ${index + 2}: ${gain.value}`);
+  });
+  if (sheet.puntiFeritaMaxModo === "classe" && !calculatedMaxHp(sheet)) errors.push("PF massimi: registra Costituzione e un incremento per ogni livello dopo il primo");
+  if (sheet.puntiFeritaTemporanei !== undefined) checkNumber("Punti ferita temporanei", sheet.puntiFeritaTemporanei, "unsigned");
   if (sheet.classeArmatura !== null && (!Number.isSafeInteger(sheet.classeArmatura) || sheet.classeArmatura < 0)) errors.push(`Classe armatura: ${sheet.classeArmatura}`);
+  if (sheet.classeArmaturaModo && !["manuale", "equipaggiamento"].includes(sheet.classeArmaturaModo)) errors.push(`Modalità CA: ${sheet.classeArmaturaModo}`);
   checkNumber("Dadi vita", sheet.dadiVita, "dice");
+  if (sheet.dadiVitaSpesi !== undefined) {
+    checkNumber("Dadi vita spesi", sheet.dadiVitaSpesi, "unsigned");
+    const maximum = /^(\d+)d\d+$/i.exec(sheet.dadiVita)?.[1];
+    if (maximum && Number(sheet.dadiVitaSpesi) > Number(maximum)) errors.push("Dadi vita spesi oltre il massimo");
+  }
+  if (sheet.tiriMorte && (!Number.isInteger(sheet.tiriMorte.successi) || sheet.tiriMorte.successi < 0 || sheet.tiriMorte.successi > 3 || !Number.isInteger(sheet.tiriMorte.fallimenti) || sheet.tiriMorte.fallimenti < 0 || sheet.tiriMorte.fallimenti > 3)) errors.push("Tiri salvezza contro morte: usa valori da 0 a 3");
+  (sheet.condizioni ?? []).forEach((condition, index) => check(`Condizione ${index + 1}`, condition, conditions));
+  if (new Set(sheet.condizioni ?? []).size !== (sheet.condizioni ?? []).length) errors.push("Condizioni duplicate");
   checkNumber("Punti esperienza", sheet.puntiEsperienza, "unsigned");
   if (sheet.velocita && !/^\d+(?:\.\d+)?$/.test(sheet.velocita)) errors.push(`Velocità: ${sheet.velocita}`);
+  if (sheet.velocitaModo && !["manuale", "specie"].includes(sheet.velocitaModo)) errors.push(`Fonte velocità: ${sheet.velocitaModo}`);
+  (sheet.modificatoriVelocita ?? []).forEach((change, index) => {
+    if (!Number.isFinite(change.value) || !change.fonte.trim() || typeof change.temporaneo !== "boolean") errors.push(`Modificatore velocità ${index + 1}`);
+  });
+  if (sheet.velocitaModo === "specie" && !calculatedSpeed(sheet)) errors.push("Velocità: completa specie e gli eventuali requisiti dell'armatura");
   sheet.caratteristiche.forEach((characteristic) => {
     checkNumber(`${characteristic.abbr} valore`, characteristic.valore, "unsigned");
     if (characteristic.valore && (Number(characteristic.valore) < 1 || Number(characteristic.valore) > 30)) {
@@ -46,13 +77,63 @@ export function domainErrors(sheet: Sheet): string[] {
   });
   sheet.lingue.forEach((value, index) => check(`Lingua ${index + 1}`, value, languages));
   sheet.competenzeArmi.forEach((value, index) => check(`Competenza armi ${index + 1}`, value, [...rules.competenzeArmi, ...weapons]));
+  const toolNames = gearCatalog.filter((item) => item.tool).map((item) => item.name);
+  (sheet.competenzeStrumenti ?? []).forEach((value, index) => check(`Competenza strumenti ${index + 1}`, value, toolNames));
+  if (new Set(sheet.competenzeStrumenti ?? []).size !== (sheet.competenzeStrumenti ?? []).length) errors.push("Competenze strumenti duplicate");
+  (sheet.fontiCompetenze ?? []).forEach((record, index) => {
+    const values: Record<string, string[]> = {
+      abilita: sheet.abilita.filter((item) => item.competente).map((item) => item.nome),
+      tiroSalvezza: sheet.caratteristiche.filter((item) => item.tsCompetente).map((item) => item.abbr),
+      arma: sheet.competenzeArmi, armatura: Object.entries(sheet.competenzeArmatura).filter(([, trained]) => trained).map(([kind]) => kind),
+      strumento: sheet.competenzeStrumenti ?? [], lingua: sheet.lingue,
+    };
+    if (!record.fonte.trim() || !values[record.tipo]?.includes(record.valore)) errors.push(`Fonte competenza ${index + 1}: competenza non registrata o fonte assente`);
+  });
+  if (new Set(sheet.padronanzeArmi ?? []).size !== (sheet.padronanzeArmi ?? []).length) errors.push("Padronanze armi duplicate");
+  (sheet.padronanzeArmi ?? []).forEach((name, index) => {
+    check(`Padronanza armi ${index + 1}`, name, weapons);
+    const entry = weaponByName(name);
+    if (entry && !sheet.competenzeArmi.includes(name) && !sheet.competenzeArmi.includes(entry.category === "semplici" ? "Armi semplici" : "Armi da guerra")) errors.push(`Padronanza ${name}: manca competenza`);
+  });
   sheet.armi.forEach((weapon, index) => {
     check(`Arma ${index + 1}`, weapon.nome, weapons);
     checkNumber(`Arma ${index + 1} quantità`, weapon.quantita, "unsigned");
     checkNumber(`Arma ${index + 1} bonus`, weapon.bonus, "signed");
+    const entry = weaponByName(weapon.nome);
+    if (weapon.modo && weapon.modo !== "base" && !(weapon.modo === "lancio" && entry?.kind === "mischia" && entry.thrown) && !(weapon.modo === "dueMani" && entry?.kind === "mischia" && entry.versatileDie)) errors.push(`Arma ${index + 1} modo: ${weapon.modo}`);
+    if (weapon.caratteristica && (weapon.caratteristica !== "FOR" && weapon.caratteristica !== "DES" || !entry?.finesse)) errors.push(`Arma ${index + 1} caratteristica: ${weapon.caratteristica}`);
+    if (weapon.bonusMagico !== undefined && ![1, 2, 3].includes(weapon.bonusMagico)) errors.push(`Arma ${index + 1} bonus magico: ${weapon.bonusMagico}`);
   });
-  sheet.talenti.forEach((feat, index) => check(`Talento ${index + 1}`, feat.nome, feats));
-  sheet.incantesimi.forEach((spell, index) => check(`Incantesimo ${index + 1}`, spell.nome, spellNames));
+  sheet.talenti.forEach((feat, index) => {
+    check(`Talento ${index + 1}`, feat.nome, feats);
+    const entry = featByName(feat.nome);
+    if (entry && Number(sheet.livello) < entry.minLevel) errors.push(`Talento ${feat.nome}: richiede almeno livello ${entry.minLevel}`);
+  });
+  (sheet.risorse ?? []).forEach((resource, index) => {
+    if (!resource.nome.trim() || !resource.fonte.trim() || !Number.isSafeInteger(resource.massimo) || resource.massimo < 0 || !Number.isSafeInteger(resource.spesi) || resource.spesi < 0 || resource.spesi > resource.massimo || !["breve", "lungo", "manuale"].includes(resource.ricarica)) errors.push(`Risorsa ${index + 1}: dati non validi`);
+  });
+  sheet.incantesimi.forEach((spell, index) => {
+    check(`Incantesimo ${index + 1}`, spell.nome, spellNames);
+    if (spell.fonte && !["classe", "talento", "privilegio", "altro"].includes(spell.fonte)) errors.push(`Incantesimo ${index + 1} fonte: ${spell.fonte}`);
+    if (spell.stato && !["conosciuto", "libro", "preparato", "semprePreparato", "concesso"].includes(spell.stato)) errors.push(`Incantesimo ${index + 1} stato: ${spell.stato}`);
+    if (spell.caratteristica && !["INT", "SAG", "CAR"].includes(spell.caratteristica)) errors.push(`Incantesimo ${index + 1} caratteristica: ${spell.caratteristica}`);
+    if (spell.fonte === "classe" && !availableClassSpells(sheet).includes(spell.nome)) errors.push(`Incantesimo ${index + 1} non disponibile per ${sheet.classe} al livello ${sheet.livello}: ${spell.nome}`);
+    if (spell.fonte === "classe" && !spellcastingAbility[sheet.classe]) errors.push(`Incantesimo ${index + 1}: la classe non lancia incantesimi`);
+  });
+  const slotMax = new Map(spellSlots(sheet).map((slot) => [String(slot.level), slot.maximum]));
+  for (const [level, spent] of Object.entries(sheet.slotSpesi ?? {})) {
+    if (!Number.isInteger(spent) || spent < 0 || spent > (slotMax.get(level) ?? 0)) errors.push(`Slot di livello ${level} spesi: ${spent}`);
+  }
+  if (sheet.equipaggiamento.filter((item) => item.indossato).length > 1) errors.push("Puoi indossare una sola armatura");
+  if (sheet.equipaggiamento.filter((item) => item.impugnato).length > 1) errors.push("Puoi impugnare un solo scudo");
+  sheet.equipaggiamento.forEach((item, index) => {
+    if (item.quantita !== undefined) checkNumber(`Oggetto ${index + 1} quantità`, item.quantita, "unsigned");
+    if (item.catalogId && !armorById(item.catalogId) && !gearById(item.catalogId)) errors.push(`Oggetto ${index + 1} ID catalogo: ${item.catalogId}`);
+    if (item.indossato && armorById(item.catalogId ?? "")?.category === "scudi") errors.push(`Oggetto ${index + 1}: uno scudo non si indossa come armatura`);
+    if (item.impugnato && armorById(item.catalogId ?? "")?.category !== "scudi") errors.push(`Oggetto ${index + 1}: seleziona uno scudo di catalogo`);
+    if (item.indossato && !armorById(item.catalogId ?? "")) errors.push(`Oggetto ${index + 1}: seleziona un'armatura di catalogo`);
+    if (item.bonusMagico !== undefined && (![1, 2, 3].includes(item.bonusMagico) || !armorById(item.catalogId ?? ""))) errors.push(`Oggetto ${index + 1} bonus magico: ${item.bonusMagico}`);
+  });
   Object.entries(sheet.monete).forEach(([coin, value]) => checkNumber(`Monete ${coin}`, value, "unsigned"));
   return errors;
 }
