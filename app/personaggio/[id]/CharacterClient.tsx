@@ -546,20 +546,24 @@ export default function CharacterClient({
     {
       title: "Abilità",
       body: (
-        <div className="grid grid-cols-2 gap-1">
-          {sheet.abilita.map((a, i) => (
-            <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
-              <div className="flex items-center gap-1.5">
-                <CompetenceDot checked={a.competente} onChange={(v) => updateAbi(i, { competente: v })} />
-                <div className="min-w-0 flex-1 leading-none">
-                  <div className="text-[11px] font-medium leading-tight [overflow-wrap:anywhere]">{a.nome}</div>
-                  <div className="text-[9px] uppercase leading-tight text-ink-faint">
-                    {CAR_FULL[a.caratteristica] ?? a.caratteristica}
+        <div className="flex flex-col gap-4">
+          {Object.entries(CAR_FULL).filter(([caratteristica]) =>
+            sheet.abilita.some((a) => a.caratteristica === caratteristica),
+          ).map(([caratteristica, titolo]) => (
+            <section key={caratteristica}>
+              <h3 className={sectionTitle}>{titolo}</h3>
+              <div className="grid grid-cols-2 gap-1">
+                {sheet.abilita.map((a, i) => a.caratteristica === caratteristica && (
+                  <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
+                    <div className="flex items-center gap-1.5">
+                      <CompetenceDot checked={a.competente} onChange={(v) => updateAbi(i, { competente: v })} />
+                      <div className="min-w-0 flex-1 text-[11px] font-medium leading-tight [overflow-wrap:anywhere]">{a.nome}</div>
+                      <InlineInput value={a.bonus} numeric="signed" onChange={(v) => updateAbi(i, { bonus: v })} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
+                    </div>
                   </div>
-                </div>
-                <InlineInput value={a.bonus} numeric="signed" onChange={(v) => updateAbi(i, { bonus: v })} className="ml-1 w-9 shrink-0 px-1 text-center" placeholder="±" />
+                ))}
               </div>
-            </div>
+            </section>
           ))}
         </div>
       ),
