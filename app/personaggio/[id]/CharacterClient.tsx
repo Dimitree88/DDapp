@@ -25,6 +25,7 @@ import regole from "@/lib/regole-srd-2024.json";
 import { spellNames } from "@/lib/spells";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
+import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -44,10 +45,20 @@ const grid2 = "grid grid-cols-2 gap-2.5";
 const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
 
-function ComputedField({ label, value }: { label: string; value: string }) {
+function ComputedField({ label, value, explainLabel, onExplain }: {
+  label: string;
+  value: string;
+  explainLabel?: string;
+  onExplain: (button: HTMLButtonElement) => void;
+}) {
   return <div>
     <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>
-    <div className="min-h-[2rem] rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">{value || "—"}</div>
+    <button type="button" onClick={(event) => onExplain(event.currentTarget)}
+      aria-label={`Spiega il calcolo: ${explainLabel ?? label}`}
+      aria-haspopup="dialog"
+      className="flex min-h-[2rem] w-full touch-manipulation items-center justify-between rounded-lg bg-card/40 px-3 py-1 text-left text-[15px] text-ink active:bg-card">
+      <span>{value || "—"}</span><span className="ml-1 text-xs text-ink-faint" aria-hidden="true">ⓘ</span>
+    </button>
   </div>;
 }
 
@@ -332,9 +343,35 @@ export default function CharacterClient({
   const firstRun = useRef(true);
   const saveChainRef = useRef<Promise<void>>(Promise.resolve());
   const [showHistory, setShowHistory] = useState(false);
+  const [calculationTarget, setCalculationTarget] = useState<CalculationTarget | null>(null);
+  const calculationTrigger = useRef<HTMLButtonElement | null>(null);
+  const calculationClose = useRef<HTMLButtonElement | null>(null);
   const [historyEntries, setHistoryEntries] = useState<HistoryEntry[]>([]);
   const [historyLoading, setHistoryLoading] = useState(false);
   const [historyError, setHistoryError] = useState("");
+
+  useEffect(() => {
+    if (!calculationTarget) return;
+    calculationClose.current?.focus();
+    const onEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setCalculationTarget(null);
+        calculationTrigger.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onEscape);
+    return () => document.removeEventListener("keydown", onEscape);
+  }, [calculationTarget]);
+
+  const openCalculation = (target: CalculationTarget, button: HTMLButtonElement) => {
+    calculationTrigger.current = button;
+    setCalculationTarget(target);
+  };
+  const closeCalculation = () => {
+    setCalculationTarget(null);
+    calculationTrigger.current?.focus();
+  };
+  const calculation = calculationTarget ? calculationExplanation(sheet, calculationTarget) : null;
 
   // Storia per l'undo. Snapshot coalescenti (max 1 ogni 500 ms) per non dover
   // annullare carattere per carattere.
@@ -475,8 +512,10 @@ export default function CharacterClient({
             <TextField label="Iniziativa" value={sheet.iniziativa} numeric="signed" onChange={(v) => patch({ iniziativa: v })} />
           </div>
           <div className={grid2}>
-            <ComputedField label="Bonus Competenza" value={proficiencyBonus(sheet.livello)} />
-            <ComputedField label="Percezione Passiva" value={passivePerception(sheet)} />
+            <ComputedField label="Bonus Competenza" value={proficiencyBonus(sheet.livello)}
+              onExplain={(button) => openCalculation({ kind: "proficiency" }, button)} />
+            <ComputedField label="Percezione Passiva" value={passivePerception(sheet)}
+              onExplain={(button) => openCalculation({ kind: "passive" }, button)} />
           </div>
           <div className={grid2}>
             <TextField label="Dadi Vita" value={sheet.dadiVita} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
@@ -532,8 +571,12 @@ export default function CharacterClient({
                   <InlineInput value={c.valore} onChange={(v) => updateCar(i, { valore: v })}
                     numeric="unsigned" className="mt-0.5 w-full text-center" />
                 </div>
-                <ComputedField label="Modificatore" value={abilityModifier(c.valore)} />
-                <ComputedField label="Tiro Salvezza" value={savingThrowBonus(sheet, c)} />
+                <ComputedField label="Modificatore" value={abilityModifier(c.valore)}
+                  explainLabel={`modificatore di ${c.nome}`}
+                  onExplain={(button) => openCalculation({ kind: "modifier", abbr: c.abbr }, button)} />
+                <ComputedField label="Tiro Salvezza" value={savingThrowBonus(sheet, c)}
+                  explainLabel={`tiro salvezza di ${c.nome}`}
+                  onExplain={(button) => openCalculation({ kind: "save", abbr: c.abbr }, button)} />
               </div>
             </div>
           ))}
@@ -555,9 +598,12 @@ export default function CharacterClient({
                     <div className="flex items-center gap-1.5">
                       <CompetenceDot checked={a.competente} onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
                       <div className="min-w-0 flex-1 text-[11px] font-medium leading-tight [overflow-wrap:anywhere]">{a.nome}</div>
-                      <span className="ml-1 w-9 shrink-0 text-center text-sm font-bold" aria-label={`Bonus ${a.nome}`}>
-                        {abilityBonus(sheet, a) || "—"}
-                      </span>
+                      <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
+                        aria-haspopup="dialog"
+                        onClick={(event) => openCalculation({ kind: "ability", name: a.nome }, event.currentTarget)}
+                        className="ml-1 flex w-10 shrink-0 touch-manipulation items-center justify-end gap-0.5 text-sm font-bold text-ink active:text-accent">
+                        {abilityBonus(sheet, a) || "—"}<span className="text-[9px] font-normal text-ink-faint" aria-hidden="true">ⓘ</span>
+                      </button>
                     </div>
                     {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
                   </div>
@@ -900,6 +946,40 @@ export default function CharacterClient({
                       </li>
                     ))}
                   </ol>}
+              </div>
+            </div>
+          )}
+
+          {calculation && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4"
+              onClick={closeCalculation}>
+              <div role="dialog" aria-modal="true" aria-labelledby="calculation-title"
+                onClick={(event) => event.stopPropagation()}
+                className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-parchment p-5 text-ink shadow-xl">
+                <div className="flex items-start justify-between gap-3">
+                  <h2 id="calculation-title" className="text-lg font-bold text-accent">{calculation.title}</h2>
+                  <button ref={calculationClose} type="button" onClick={closeCalculation}
+                    aria-label="Chiudi spiegazione"
+                    className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
+                </div>
+                <p className="mt-3 text-sm leading-relaxed">{calculation.rule}</p>
+                <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Valori della scheda</h3>
+                <dl className="mt-2 space-y-1 text-sm">
+                  {calculation.details.map((detail) => (
+                    <div key={detail.label} className="flex justify-between gap-4 border-b border-line/50 py-1">
+                      <dt>{detail.label}</dt><dd className="text-right font-semibold">{detail.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+                <div className="mt-4 rounded-lg bg-card/70 p-3">
+                  <div className="text-xs font-semibold uppercase tracking-wide text-ink-soft">Calcolo</div>
+                  <div className="mt-1 text-sm">{calculation.formula}</div>
+                  <div className="mt-2 text-lg font-bold text-accent">Risultato: {calculation.result || "—"}</div>
+                </div>
+                <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
+                  target="_blank" rel="noreferrer" className="mt-4 inline-block text-xs font-medium text-accent underline">
+                  Fonte: SRD 5.2.1 (regole 2024)
+                </a>
               </div>
             </div>
           )}
