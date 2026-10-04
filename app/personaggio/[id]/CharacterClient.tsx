@@ -16,6 +16,8 @@ import {
   Toggle,
   EditProvider,
   EditContext,
+  FieldInfoContext,
+  InfoButton,
   useDoubleTap,
 } from "@/components/fields";
 import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
@@ -27,6 +29,7 @@ import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
 import { speciesSizes, type ChangeReason } from "@/lib/creationRules";
+import { helpFor } from "@/lib/fieldHelp";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -45,6 +48,15 @@ const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
 const grid2 = "grid grid-cols-2 gap-2.5";
 const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
+
+function calculationEditGuide(target: CalculationTarget): string {
+  if (target.kind === "initiative") return "Si aggiorna cambiando Destrezza, Livello o il talento Allerta; questo valore non si modifica direttamente.";
+  if (target.kind === "proficiency") return "Si aggiorna cambiando il Livello; il bonus non si modifica direttamente.";
+  if (target.kind === "passive") return "Si aggiorna con Saggezza e con Competenza o Maestria in Percezione; il valore non si modifica direttamente.";
+  if (target.kind === "modifier") return "Si aggiorna cambiando il punteggio della caratteristica; il modificatore non si modifica direttamente.";
+  if (target.kind === "save") return "Si aggiorna cambiando il punteggio della caratteristica o il Livello. Doppio tocco sulla spunta per aggiungere competenza; per rimuoverne una acquisita serve Correzione concordata con il DM.";
+  return "Si aggiorna cambiando il punteggio della caratteristica o il Livello. Doppio tocco sul pallino per aggiungere Competenza e sulla spunta Maestria per aggiungerla; per rimuovere scelte acquisite serve Correzione concordata con il DM.";
+}
 
 function ComputedField({ label, value, explainLabel, onExplain }: {
   label: string;
@@ -95,12 +107,14 @@ function StringListEditor({
   addLabel,
   options,
   lockExisting = false,
+  helpId,
 }: {
   items: string[];
   onChange: (v: string[]) => void;
   addLabel: string;
   options?: readonly string[];
   lockExisting?: boolean;
+  helpId?: string;
 }) {
   const { unlocked } = useContext(EditContext);
   return (
@@ -112,9 +126,10 @@ function StringListEditor({
             •
           </span>
           <div className="min-w-0 flex-1">
-            {options ? <TextField label="" value={it} options={options} locked={lockExisting && Boolean(it)} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
+            {options ? <TextField label="" helpId={helpId} value={it} options={options} locked={lockExisting && Boolean(it)} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
               <InlineInput value={it} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} className="flex-1" placeholder="…" />}
           </div>
+          {helpId && <InfoButton id={helpId} title={`${helpId} ${i + 1}`} locked={lockExisting && Boolean(it)} />}
           {unlocked && !(lockExisting && it) && (
             <button
               type="button"
@@ -148,10 +163,12 @@ function CompetenceDot({
   checked,
   onChange,
   locked = false,
+  onExplain,
 }: {
   checked: boolean;
   onChange: (v: boolean) => void;
   locked?: boolean;
+  onExplain?: (button: HTMLButtonElement) => void;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const onTap = useDoubleTap(() =>
@@ -160,7 +177,7 @@ function CompetenceDot({
   return (
     <button
       type="button"
-      onClick={onTap}
+      onClick={(event) => locked ? onExplain?.(event.currentTarget) : onTap()}
       aria-label="Competente"
       aria-disabled={locked}
       className={`grid h-4 w-4 shrink-0 touch-manipulation place-items-center rounded-full border text-[9px] transition-colors ${
@@ -357,8 +374,11 @@ export default function CharacterClient({
   const saveChainRef = useRef<Promise<void>>(Promise.resolve());
   const [showHistory, setShowHistory] = useState(false);
   const [calculationTarget, setCalculationTarget] = useState<CalculationTarget | null>(null);
+  const [fieldInfo, setFieldInfo] = useState<{ id: string; title: string; locked: boolean } | null>(null);
   const calculationTrigger = useRef<HTMLButtonElement | null>(null);
   const calculationClose = useRef<HTMLButtonElement | null>(null);
+  const fieldInfoTrigger = useRef<HTMLButtonElement | null>(null);
+  const fieldInfoClose = useRef<HTMLButtonElement | null>(null);
   const [historyEntries, setHistoryEntries] = useState<HistoryEntry[]>([]);
   const [historyLoading, setHistoryLoading] = useState(false);
   const [historyError, setHistoryError] = useState("");
@@ -385,6 +405,28 @@ export default function CharacterClient({
     calculationTrigger.current?.focus();
   };
   const calculation = calculationTarget ? calculationExplanation(sheet, calculationTarget) : null;
+  const fieldHelp = fieldInfo ? helpFor(fieldInfo.id) : null;
+
+  useEffect(() => {
+    if (!fieldInfo) return;
+    fieldInfoClose.current?.focus();
+    const onEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setFieldInfo(null);
+        fieldInfoTrigger.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onEscape);
+    return () => document.removeEventListener("keydown", onEscape);
+  }, [fieldInfo]);
+  const openFieldInfo = (id: string, title: string, locked: boolean, trigger: HTMLButtonElement) => {
+    fieldInfoTrigger.current = trigger;
+    setFieldInfo({ id, title, locked });
+  };
+  const closeFieldInfo = () => {
+    setFieldInfo(null);
+    fieldInfoTrigger.current?.focus();
+  };
 
   // Storia per l'undo. Snapshot coalescenti (max 1 ogni 500 ms) per non dover
   // annullare carattere per carattere.
@@ -575,12 +617,14 @@ export default function CharacterClient({
       title: "Lingue",
       body: (
         <div className="flex flex-col gap-2">
+        <h3 className={sectionTitle}>Lingue<InfoButton id="Lingue" title="Lingue" /></h3>
         <StringListEditor
           items={toList(sheet.lingue)}
           onChange={(v) => patch({ lingue: v })}
           addLabel="Aggiungi lingua"
           options={lingue}
           lockExisting={creationLocked}
+          helpId="Lingue"
         />
         <TextField label="Note lingue" value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
         </div>
@@ -603,7 +647,7 @@ export default function CharacterClient({
               </div>
               <div className="grid grid-cols-3 gap-2 text-center">
                 <div>
-                  <span className="block text-[9px] uppercase leading-tight text-ink-faint">Valore</span>
+                  <span className="flex items-center justify-center text-[9px] uppercase leading-tight text-ink-faint">Valore<InfoButton id={`Valore.${c.abbr}`} title={`punteggio di ${c.nome}`} /></span>
                   <InlineInput value={c.valore} onChange={(v) => updateCar(i, { valore: v })}
                     numeric="unsigned" className="mt-0.5 w-full text-center" />
                 </div>
@@ -632,7 +676,9 @@ export default function CharacterClient({
                 {sheet.abilita.map((a, i) => a.caratteristica === caratteristica && (
                   <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
                     <div className="flex items-center gap-1.5">
-                      <CompetenceDot checked={a.competente} locked={creationLocked && a.competente} onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
+                      <CompetenceDot checked={a.competente} locked={creationLocked && a.competente}
+                        onExplain={(button) => openCalculation({ kind: "ability", name: a.nome }, button)}
+                        onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
                       <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
                         aria-haspopup="dialog"
                         onClick={(event) => openCalculation({ kind: "ability", name: a.nome }, event.currentTarget)}
@@ -660,17 +706,18 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}>Competenze armi</h3>
+            <h3 className={sectionTitle}>Competenze armi<InfoButton id="Competenze armi" title="Competenze armi" /></h3>
             <StringListEditor
               items={toList(sheet.competenzeArmi)}
               onChange={(v) => patch({ competenzeArmi: v })}
               addLabel="Aggiungi competenza"
               options={[...regole.competenzeArmi, ...nomiArmi]}
               lockExisting={creationLocked}
+              helpId="Competenze armi"
             />
           </div>
           <div>
-            <h3 className={sectionTitle}>Armi</h3>
+            <h3 className={sectionTitle}>Armi<InfoButton id="Armi" title="Armi" /></h3>
             <ArrayEditor
               items={sheet.armi}
               onChange={(items) => patch({ armi: items })}
@@ -682,7 +729,7 @@ export default function CharacterClient({
               subtitleOf={(a) => a.bonus}
               headerAccessory={(a, p) => (
                 <div className="flex items-center gap-1">
-                  <span className="text-xs text-ink-faint">×</span>
+                  <span className="text-xs text-ink-faint">×</span><InfoButton id="Quantità arma" title="Quantità arma" />
                   <InlineInput
                     value={a.quantita}
                     onChange={(v) => p({ quantita: v })}
@@ -694,9 +741,9 @@ export default function CharacterClient({
               )}
               renderItem={(a, p) => (
                 <div className="flex flex-col gap-2">
-                  <TextField label="Nome" value={a.nome} options={nomiArmi} onChange={(v) => p({ nome: v })} />
+                  <TextField label="Nome" helpId="Nome arma" value={a.nome} options={nomiArmi} onChange={(v) => p({ nome: v })} />
                   <TextField label="Bonus att./CD" value={a.bonus} numeric="signed" onChange={(v) => p({ bonus: v })} />
-                  <TextField label="Dettaglio personale" value={a.note} onChange={(v) => p({ note: v })} multiline />
+                  <TextField label="Dettaglio personale" helpId="Dettaglio arma" value={a.note} onChange={(v) => p({ note: v })} multiline />
                 </div>
               )}
             />
@@ -709,7 +756,7 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}>Competenze armatura</h3>
+            <h3 className={sectionTitle}>Competenze armatura<InfoButton id="Competenze armatura" title="Competenze armatura" /></h3>
             <div className="flex flex-wrap gap-2">
               {(
                 [
@@ -722,6 +769,7 @@ export default function CharacterClient({
                 <Toggle
                   key={key}
                   label={lab}
+                  helpId="Competenze armatura"
                   checked={sheet.competenzeArmatura[key]}
                   locked={creationLocked && sheet.competenzeArmatura[key]}
                   onChange={(v) => patch({ competenzeArmatura: { ...sheet.competenzeArmatura, [key]: v } })}
@@ -730,7 +778,7 @@ export default function CharacterClient({
             </div>
           </div>
           <div>
-            <h3 className={sectionTitle}>Oggetti</h3>
+            <h3 className={sectionTitle}>Oggetti<InfoButton id="Oggetti" title="Oggetti" /></h3>
             <ArrayEditor
               items={sheet.equipaggiamento}
               onChange={(items) => patch({ equipaggiamento: items })}
@@ -742,7 +790,7 @@ export default function CharacterClient({
               renderItem={(e, p) => (
                 <div className="flex flex-col gap-2">
                   <TextField label="Oggetto" value={e.nome} onChange={(v) => p({ nome: v })} />
-                  <TextField label="Dettaglio personale" value={e.dettaglio} onChange={(v) => p({ dettaglio: v })} multiline />
+                  <TextField label="Dettaglio personale" helpId="Dettaglio oggetto" value={e.dettaglio} onChange={(v) => p({ dettaglio: v })} multiline />
                 </div>
               )}
             />
@@ -753,6 +801,8 @@ export default function CharacterClient({
     {
       title: "Privilegi",
       body: (
+        <div>
+        <h3 className={sectionTitle}>Privilegi<InfoButton id="Privilegi" title="Privilegi" /></h3>
         <ArrayEditor
           items={sheet.privilegi}
           onChange={(items) => patch({ privilegi: items })}
@@ -761,15 +811,18 @@ export default function CharacterClient({
           renderItem={(pr, p) => (
             <div className="flex flex-col gap-2">
               <TextField label="Titolo" value={pr.titolo} onChange={(v) => p({ titolo: v })} />
-              <TextField label="Scelte personali" value={pr.scelte} onChange={(v) => p({ scelte: v })} multiline />
+              <TextField label="Scelte personali" helpId="Scelte privilegio" value={pr.scelte} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}
         />
+        </div>
       ),
     },
     {
       title: "Talenti",
       body: (
+        <div>
+        <h3 className={sectionTitle}>Talenti<InfoButton id="Talenti" title="Talenti" /></h3>
         <ArrayEditor
           items={sheet.talenti}
           onChange={(items) => patch({ talenti: items })}
@@ -778,16 +831,19 @@ export default function CharacterClient({
           lockItem={(t) => creationLocked && Boolean(t.nome)}
           renderItem={(t, p, _index, locked) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" value={t.nome} options={nomiTalenti} locked={locked} onChange={(v) => p({ nome: v })} />
-              <TextField label="Scelte personali" value={t.scelte} onChange={(v) => p({ scelte: v })} multiline />
+              <TextField label="Nome" helpId="Nome talento" value={t.nome} options={nomiTalenti} locked={locked} onChange={(v) => p({ nome: v })} />
+              <TextField label="Scelte personali" helpId="Scelte talento" value={t.scelte} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}
         />
+        </div>
       ),
     },
     {
       title: "Incantesimi",
       body: (
+        <div>
+        <h3 className={sectionTitle}>Incantesimi<InfoButton id="Incantesimi" title="Incantesimi" /></h3>
         <ArrayEditor
           items={sheet.incantesimi}
           onChange={(items) => patch({ incantesimi: items })}
@@ -798,10 +854,11 @@ export default function CharacterClient({
           titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
           renderItem={(inc, p) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" value={inc.nome} options={spellNames} onChange={(v) => p({ nome: v })} />
+              <TextField label="Nome" helpId="Nome incantesimo" value={inc.nome} options={spellNames} onChange={(v) => p({ nome: v })} />
             </div>
           )}
         />
+        </div>
       ),
     },
     {
@@ -809,14 +866,14 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}>Monete</h3>
+            <h3 className={sectionTitle}>Monete<InfoButton id="Monete" title="Monete" /></h3>
             <div className="flex flex-col gap-2">
               {COINS.map(([lab, key]) => (
                 <div
                   key={key}
                   className="flex items-center justify-between rounded-lg border border-line bg-card/70 px-3 py-2 shadow-sm"
                 >
-                  <span className="text-sm text-ink-soft">{lab}</span>
+                  <span className="flex items-center text-sm text-ink-soft">{lab}<InfoButton id="Monete" title={`monete di ${lab}`} /></span>
                   <InlineInput
                     value={sheet.monete[key]}
                     onChange={(v) => patch({ monete: { ...sheet.monete, [key]: v } })}
@@ -848,9 +905,11 @@ export default function CharacterClient({
 
   return (
     <EditProvider unlocked={true} requireUnlock={() => {}}>
+      <FieldInfoContext.Provider value={openFieldInfo}>
       <div className="flex h-dvh flex-col">
         <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-2 pt-2 backdrop-blur">
           <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
+            <div className="flex min-w-0 items-center justify-self-start">
             <button
               type="button"
               onClick={() => setShowHub(true)}
@@ -864,6 +923,8 @@ export default function CharacterClient({
                 {name || "Senza nome"}
               </h1>
             </button>
+            <InfoButton id="Nome personaggio" title="Nome personaggio" />
+            </div>
             <button
               type="button"
               onClick={undo}
@@ -1020,6 +1081,7 @@ export default function CharacterClient({
                   <div className="mt-1 text-sm">{calculation.formula}</div>
                   <div className="mt-2 text-lg font-bold text-accent">Risultato: {calculation.result || "—"}</div>
                 </div>
+                {calculationTarget && <div className="mt-4 text-sm"><h3 className="font-semibold text-accent">Come cambia</h3><p className="mt-1">{calculationEditGuide(calculationTarget)}</p></div>}
                 <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
                   target="_blank" rel="noreferrer" className="mt-4 inline-block text-xs font-medium text-accent underline">
                   Fonte: SRD 5.2.1 (regole 2024)
@@ -1027,8 +1089,32 @@ export default function CharacterClient({
               </div>
             </div>
           )}
+          {fieldInfo && fieldHelp && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4" onClick={closeFieldInfo}>
+              <div role="dialog" aria-modal="true" aria-labelledby="field-info-title"
+                onClick={(event) => event.stopPropagation()}
+                className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-parchment p-5 text-ink shadow-xl">
+                <div className="flex items-start justify-between gap-3">
+                  <h2 id="field-info-title" className="text-lg font-bold text-accent">{fieldInfo.title}</h2>
+                  <button ref={fieldInfoClose} type="button" onClick={closeFieldInfo} aria-label="Chiudi spiegazione"
+                    className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
+                </div>
+                <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Che cos&apos;è</h3>
+                <p className="mt-1 text-sm leading-relaxed">{fieldHelp.meaning}</p>
+                <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3>
+                <p className="mt-1 text-sm leading-relaxed">{fieldHelp.effect}</p>
+                <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Come si modifica</h3>
+                <p className="mt-1 text-sm leading-relaxed">{fieldInfo.locked && fieldHelp.lockedEdit ? fieldHelp.lockedEdit : fieldHelp.edit}</p>
+                {fieldHelp.rule && <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
+                  target="_blank" rel="noreferrer" className="mt-4 inline-block text-xs font-medium text-accent underline">
+                  Fonte: SRD 5.2.1 (regole 2024)
+                </a>}
+              </div>
+            </div>
+          )}
         </div>
       </div>
+      </FieldInfoContext.Provider>
     </EditProvider>
   );
 }

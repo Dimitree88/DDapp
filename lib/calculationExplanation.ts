@@ -23,6 +23,27 @@ const scoreName = (abbr: string) => ({
   INT: "Intelligenza", SAG: "Saggezza", CAR: "Carisma",
 })[abbr as "FOR" | "DES" | "COS" | "INT" | "SAG" | "CAR"] ?? abbr;
 
+const skillMeaning: Record<string, string> = {
+  ATLETICA: "Serve per sforzi fisici come saltare, nuotare o sfondare un ostacolo.",
+  ACROBAZIA: "Serve per restare in equilibrio e compiere acrobazie.",
+  FURTIVITÀ: "Serve per muoversi o nascondersi senza farsi notare.",
+  "RAPIDITÀ DI MANO": "Serve per compiere gesti manuali rapidi e discreti.",
+  ARCANO: "Serve per ricordare conoscenze su magia, incantesimi e piani.",
+  INDAGARE: "Serve per cercare informazioni e dedurre come funziona qualcosa.",
+  NATURA: "Serve per ricordare conoscenze su terreno, piante, animali e clima.",
+  RELIGIONE: "Serve per ricordare conoscenze su divinità, riti e tradizioni religiose.",
+  STORIA: "Serve per ricordare eventi, popoli e culture del passato.",
+  "ADDESTRARE ANIMALI": "Serve per calmare, addestrare o guidare animali.",
+  INTUIZIONE: "Serve per capire emozioni e intenzioni di una creatura.",
+  MEDICINA: "Serve per riconoscere malattie e cause di morte.",
+  PERCEZIONE: "Serve per notare creature, oggetti e dettagli difficili da vedere.",
+  SOPRAVVIVENZA: "Serve per seguire tracce, orientarsi e trovare cibo.",
+  INGANNO: "Serve per mentire o sostenere una falsa identità.",
+  INTIMIDIRE: "Serve per ottenere una reazione con minacce o presenza intimidatoria.",
+  INTRATTENERE: "Serve per recitare, suonare, ballare o raccontare storie.",
+  PERSUASIONE: "Serve per convincere qualcuno con argomenti e tatto.",
+};
+
 export function calculationExplanation(sheet: Sheet, target: CalculationTarget): CalculationExplanation | null {
   const proficiency = proficiencyBonus(sheet.livello);
   if (target.kind === "proficiency") {
@@ -105,7 +126,7 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
   };
   return {
     title: `Abilità: ${ability.nome}`, result: bonus,
-    rule: "Un'abilità usa il modificatore della caratteristica associata. La competenza aggiunge il bonus competenza; la Maestria lo raddoppia.",
+    rule: `${skillMeaning[ability.nome] ?? "Abilità usata nelle prove di caratteristica."} Il bonus usa il modificatore della caratteristica associata. La competenza aggiunge il bonus competenza; la Maestria lo raddoppia.`,
     details,
     formula: abilityFormula,
   };

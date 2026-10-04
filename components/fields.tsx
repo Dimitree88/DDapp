@@ -21,6 +21,18 @@ export const EditContext = createContext<EditCtx>({
   requireUnlock: () => {},
 });
 
+type FieldInfoOpen = (id: string, title: string, locked: boolean, trigger: HTMLButtonElement) => void;
+export const FieldInfoContext = createContext<FieldInfoOpen>(() => {});
+
+export function InfoButton({ id, title, locked = false }: { id: string; title: string; locked?: boolean }) {
+  const open = useContext(FieldInfoContext);
+  return <button type="button" aria-label={`Informazioni su ${title}`} aria-haspopup="dialog"
+    onClick={(event) => { event.stopPropagation(); open(id, title, locked, event.currentTarget); }}
+    className="ml-0.5 inline-flex min-h-6 min-w-6 shrink-0 touch-manipulation items-center justify-center rounded-full text-xs font-normal text-ink-faint active:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent">
+    <span aria-hidden="true">ⓘ</span>
+  </button>;
+}
+
 export function EditProvider({
   unlocked,
   requireUnlock,
@@ -69,6 +81,7 @@ export function TextField({
   numeric,
   allowEmpty = true,
   locked = false,
+  helpId,
 }: {
   label: string;
   value: string;
@@ -80,8 +93,10 @@ export function TextField({
   numeric?: NumericMode;
   allowEmpty?: boolean;
   locked?: boolean;
+  helpId?: string;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
+  const openInfo = useContext(FieldInfoContext);
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(value);
   const onTap = useDoubleTap(() => {
@@ -96,8 +111,8 @@ export function TextField({
   };
 
   return (
-    <label className="block">
-      {label && <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}{locked && <span className="ml-1" aria-label="Scelta bloccata">🔒</span>}</span>}
+    <div className="block">
+      {label && <span className="mb-0.5 flex items-center text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}<InfoButton id={helpId ?? label} title={label} locked={locked} />{locked && <span className="ml-1" aria-label="Scelta bloccata">🔒</span>}</span>}
       {editing && !locked ? (
         options ? (
           <select
@@ -140,6 +155,12 @@ export function TextField({
             className={inputBase}
           />
         )
+      ) : locked ? (
+        <button type="button" aria-label={`Informazioni su ${label || helpId || "campo"}`} aria-haspopup="dialog"
+          onClick={(event) => openInfo(helpId ?? label, label || helpId || "Campo", true, event.currentTarget)}
+          className={`${readonlyBase} text-left ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""}`}>
+          {value || <span className="text-ink-faint">—</span>}
+        </button>
       ) : (
         <div
           onClick={onTap}
@@ -150,7 +171,7 @@ export function TextField({
           {value || <span className="text-ink-faint">—</span>}
         </div>
       )}
-    </label>
+    </div>
   );
 }
 
@@ -179,8 +200,8 @@ export function NumberUnitField({
     setEditing(false);
   };
   return (
-    <label className="block">
-      <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>
+    <div className="block">
+      <span className="mb-0.5 flex items-center text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}<InfoButton id={label} title={label} /></span>
       {editing ? (
         <div className="flex items-center gap-1">
           <input
@@ -199,7 +220,7 @@ export function NumberUnitField({
           {value ? `${value} ${unit}` : <span className="text-ink-faint">—</span>}
         </div>
       )}
-    </label>
+    </div>
   );
 }
 
@@ -268,13 +289,16 @@ export function Toggle({
   checked,
   onChange,
   locked = false,
+  helpId,
 }: {
   label: string;
   checked: boolean;
   onChange: (v: boolean) => void;
   locked?: boolean;
+  helpId?: string;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
+  const openInfo = useContext(FieldInfoContext);
   const onTap = useDoubleTap(() =>
     locked ? undefined : unlocked ? onChange(!checked) : requireUnlock(),
   );
@@ -282,9 +306,12 @@ export function Toggle({
     ? "border-accent bg-accent/12 text-accent"
     : "border-line bg-card/60 text-ink-soft";
   return (
+    <span className="inline-flex items-center">
     <button
       type="button"
-      onClick={onTap}
+      onClick={(event) => locked
+        ? openInfo(helpId ?? label, label, true, event.currentTarget)
+        : onTap()}
       aria-disabled={locked}
       className={`flex touch-manipulation items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${active}`}
     >
@@ -297,5 +324,7 @@ export function Toggle({
       </span>
       {label}
     </button>
+    <InfoButton id={helpId ?? label} title={label} locked={locked} />
+    </span>
   );
 }

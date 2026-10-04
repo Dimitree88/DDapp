@@ -15,6 +15,8 @@ talenti, lingue e competenze già acquisiti non possono essere rimossi o sostitu
 Una correzione concordata con il DM o una Reincarnazione richiedono l'azione
 esplicita nella pagina Stato & Identità. Le schede esistenti sono state marcate come formate
 con `node --import tsx scripts/migrate-creation-lock.mjs --apply`.
+Le icone ⓘ accanto alle etichette aprono spiegazioni su significato, effetti
+e modalità di modifica dei campi; i valori derivati mostrano anche la formula.
 
 ## Stack
 - **Next.js 16** (App Router, Server Actions) + **React 19**
