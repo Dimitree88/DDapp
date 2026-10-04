@@ -1,3 +1,5 @@
+import { canonicalSpellName } from "./spells";
+
 // Modello dati della scheda. Tutto testo libero: nessun calcolo, nessuna regola.
 
 export type Caratteristica = {
@@ -288,7 +290,7 @@ export function normalizeSheet(value: Sheet): Sheet {
       const tools = /strumenti da artigiano scelti:\s*([^\n.]+)/i.exec(feat.descrizione ?? "");
       return { nome: feat.nome, scelte: typeof feat.scelte === "string" ? feat.scelte : tools?.[1].trim() ?? "" };
     }),
-    incantesimi: old.incantesimi.map((spell) => ({ nome: spell.nome })),
+    incantesimi: old.incantesimi.map((spell) => ({ nome: canonicalSpellName(spell.nome) })),
   };
   delete (normalized as Sheet & { noteClasseArmatura?: string }).noteClasseArmatura;
   delete (normalized as Sheet & { noteVelocita?: string }).noteVelocita;

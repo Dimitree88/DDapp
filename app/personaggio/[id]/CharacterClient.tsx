@@ -22,6 +22,7 @@ import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions
 import { groupHistoryByDay } from "@/lib/history";
 import { exportSheetPdf } from "@/lib/exportPdf";
 import regole from "@/lib/regole-srd-2024.json";
+import { spellNames } from "@/lib/spells";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
 
 const classi = Object.keys(regole.classi);
@@ -708,7 +709,7 @@ export default function CharacterClient({
           titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
           renderItem={(inc, p) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" value={inc.nome} onChange={(v) => p({ nome: v })} />
+              <TextField label="Nome" value={inc.nome} options={spellNames} onChange={(v) => p({ nome: v })} />
             </div>
           )}
         />

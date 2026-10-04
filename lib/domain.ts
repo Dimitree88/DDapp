@@ -1,6 +1,7 @@
 import rules from "./regole-srd-2024.json";
 import type { Sheet } from "./sheet";
 import { numericValueValid, type NumericMode } from "./numeric";
+import { spellNames } from "./spells";
 
 const classes = rules.classi as Record<string, string[]>;
 const lineages = rules.lignaggi as Record<string, string[]>;
@@ -47,6 +48,7 @@ export function domainErrors(sheet: Sheet): string[] {
     checkNumber(`Arma ${index + 1} bonus`, weapon.bonus, "signed");
   });
   sheet.talenti.forEach((feat, index) => check(`Talento ${index + 1}`, feat.nome, feats));
+  sheet.incantesimi.forEach((spell, index) => check(`Incantesimo ${index + 1}`, spell.nome, spellNames));
   Object.entries(sheet.monete).forEach(([coin, value]) => checkNumber(`Monete ${coin}`, value, "unsigned"));
   return errors;
 }

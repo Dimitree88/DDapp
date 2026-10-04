@@ -35,7 +35,7 @@ test("moves legacy rules out of character data while preserving personal choices
     { titolo: "Nemico prescelto", scelte: "Marchio del Cacciatore: 2 volte senza spendere slot" },
   ]);
   assert.deepEqual(sheet.talenti[0], { nome: "Lavoro manuale", scelte: "falegname, fabbro, inventore" });
-  assert.deepEqual(sheet.incantesimi[0], { nome: "Marchio del Cacciatore" });
+  assert.deepEqual(sheet.incantesimi[0], { nome: "Marchio del cacciatore" });
   assert.deepEqual(normalizeSheet(sheet), sheet);
 });
 

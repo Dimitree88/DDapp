@@ -18,10 +18,27 @@ test("the catalog accepts migrated 2024 options and rejects names outside it", (
     competenzeArmi: ["Armi semplici"],
     armi: [{ nome: "Arco corto", quantita: "1", bonus: "", note: "" }],
     talenti: [{ nome: "Guaritore", scelte: "" }],
+    incantesimi: [{ nome: "Cura ferite" }],
   };
   assert.deepEqual(domainErrors(sheet), []);
   assert.match(domainErrors({ ...sheet, specie: "Elfo Alto" }).join(" "), /Specie/);
   assert.match(domainErrors({ ...sheet, lingue: ["Sottocomune mercanti"] }).join(" "), /Lingua/);
+  assert.match(domainErrors({ ...sheet, incantesimi: [{ nome: "Incantesimo inventato" }] }).join(" "), /Incantesimo/);
+});
+
+test("known spell variants become the Italian SRD names", () => {
+  const sheet = { ...emptySheet(), incantesimi: [
+    { nome: "CURA FERITE" },
+    { nome: "Parlare con animale" },
+    { nome: "Individuazione malattie e veleni" },
+  ] };
+  const normalized = normalizeSheet(sheet);
+  assert.deepEqual(normalized.incantesimi.map((spell) => spell.nome), [
+    "Cura ferite",
+    "Parlare con gli animali",
+    "Individuazione delle malattie e dei veleni",
+  ]);
+  assert.deepEqual(domainErrors(normalized), []);
 });
 
 test("legacy metric speed becomes numeric text without a unit", () => {
