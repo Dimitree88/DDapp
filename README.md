@@ -14,9 +14,10 @@ Lignaggio, Background e Taglia di base sono bloccati; Sottoclasse,
 talenti, lingue e competenze già acquisiti non possono essere rimossi o sostituiti.
 Le correzioni alle scelte fisse si eseguono direttamente nel database. Le schede esistenti sono state marcate come formate
 con `node --import tsx scripts/migrate-creation-lock.mjs --apply`.
-Le etichette aprono spiegazioni su significato ed eventuali effetti dei campi;
-i valori derivati mostrano anche la formula. I nomi delle lingue e degli incantesimi
-aprono dettagli specifici tratti dall'SRD 5.2.1.
+Etichetta e valore aprono la stessa spiegazione specifica per le voci di catalogo
+presenti nella scheda; i valori derivati mostrano anche la formula. Le armi mostrano
+danni, proprietà e padronanza. Gli oggetti riconosciuti mostrano le regole disponibili
+e gli eventuali dettagli personali. Il doppio tocco sul valore continua a modificarlo.
 
 ## Stack
 - **Next.js 16** (App Router, Server Actions) + **React 19**

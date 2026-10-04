@@ -30,9 +30,12 @@ import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
 import { speciesSizes } from "@/lib/creationRules";
-import { helpFor } from "@/lib/fieldHelp";
+import { helpFor, type FieldHelp } from "@/lib/fieldHelp";
 import { languageDetails } from "@/lib/languageDetails";
 import { weaponDetails } from "@/lib/weaponDetails";
+import { valueDetails } from "@/lib/valueDetails";
+import { equipmentDetails } from "@/lib/equipmentDetails";
+import { recordedValueDetails } from "@/lib/recordedValueDetails";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -416,8 +419,35 @@ export default function CharacterClient({
   const spell = spellName ? spellDetails(spellName) : null;
   const language = fieldInfo?.id.startsWith("lingua:") ? languageDetails(fieldInfo.id.slice("lingua:".length)) : null;
   const weapon = fieldInfo?.id.startsWith("arma:") ? weaponDetails(fieldInfo.id.slice("arma:".length)) : null;
-  const fieldHelp = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weapon ? { meaning: weapon, rule: true } : helpFor(fieldInfo.id) : null;
-  const sourcePage = spell?.pagina ?? language?.page;
+  const ownedWeaponIndex = fieldInfo?.id.startsWith("armaPosseduta:") ? Number(fieldInfo.id.slice("armaPosseduta:".length)) : -1;
+  const ownedWeapon = ownedWeaponIndex >= 0 ? sheet.armi[ownedWeaponIndex] : null;
+  const ownedWeaponBase = ownedWeapon ? weaponDetails(ownedWeapon.nome) : null;
+  const ownedWeaponInfo = ownedWeaponBase || ownedWeapon?.note ? {
+    meaning: [ownedWeaponBase, ownedWeapon?.bonus && `Bonus att./CD registrato: ${ownedWeapon.bonus}.`, ownedWeapon?.note && `Dettaglio personale: ${ownedWeapon.note}`].filter(Boolean).join("\n\n"),
+    rule: Boolean(ownedWeaponBase),
+  } : null;
+  const valueId = fieldInfo?.id.startsWith("valore:") ? fieldInfo.id.slice("valore:".length) : null;
+  const valueKind = valueId?.slice(0, valueId.indexOf(":")) ?? "";
+  const value = valueId?.slice(valueKind.length + 1) ?? "";
+  const selectedValueBase = valueId ? valueDetails(valueKind, value) : null;
+  const talentChoices = valueKind === "talento" ? sheet.talenti.find((item) => item.nome === value)?.scelte : "";
+  const selectedValue = selectedValueBase && talentChoices ? {
+    ...selectedValueBase,
+    meaning: `${selectedValueBase.meaning}\n\nScelte personali: ${talentChoices}`,
+  } : selectedValueBase;
+  const recorded = fieldInfo?.id.startsWith("stato:") ? recordedValueDetails(sheet, fieldInfo.id.slice("stato:".length)) : null;
+  const objectIndex = fieldInfo?.id.startsWith("oggetto:") ? Number(fieldInfo.id.slice("oggetto:".length)) : -1;
+  const object = objectIndex >= 0 ? sheet.equipaggiamento[objectIndex] : null;
+  const objectInfo = object ? equipmentDetails(object.nome, object.dettaglio) : null;
+  const privilegeIndex = fieldInfo?.id.startsWith("privilegio:") ? Number(fieldInfo.id.slice("privilegio:".length)) : -1;
+  const privilege = privilegeIndex >= 0 ? sheet.privilegi[privilegeIndex] : null;
+  const privilegeBase = privilege ? valueDetails("privilegio", privilege.titolo) : null;
+  const privilegeInfo = privilegeBase || privilege?.scelte ? {
+    meaning: [privilegeBase?.meaning, privilege?.scelte && `Scelte personali: ${privilege.scelte}`].filter(Boolean).join("\n\n"),
+    rule: privilegeBase?.rule,
+  } : null;
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weapon ? { meaning: weapon, rule: true } : ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
+  const sourcePage = spell?.pagina ?? language?.page ?? selectedValue?.page ?? objectInfo?.page ?? (weapon || ownedWeaponBase ? 103 : undefined);
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -563,17 +593,17 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
-            <TextField label="Livello" value={sheet.livello} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
-            <TextField label="Classe" value={sheet.classe} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
+            <TextField label="Livello" showInfo={false} value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
+            <TextField label="Classe" showInfo={false} value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
           </div>
-          <TextField label="Sottoclasse" value={sheet.sottoclasse} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />
+          <TextField label="Sottoclasse" showInfo={false} value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />
           <div className={grid2}>
-            <TextField label="Punti Ferita" value={sheet.puntiFerita} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
-            <TextField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
+            <TextField label="Punti Ferita" showInfo={false} value={sheet.puntiFerita} valueInfoId="stato:pf" valueInfoTitle={`Punti Ferita: ${sheet.puntiFerita}`} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
+            <TextField label="Punti Ferita Massimi" showInfo={false} value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
           </div>
           <div className={grid2}>
-          <TextField label="Classe Armatura" numeric="unsigned" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} onChange={(v) => patch({ classeArmatura: v ? Number(v) : null })} />
-            <TextField label="Scudo" value={sheet.scudo ? "Sì" : "No"} options={["Sì", "No"]} onChange={(v) => patch({ scudo: v === "Sì" })} />
+          <TextField label="Classe Armatura" showInfo={false} numeric="unsigned" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} valueInfoId="stato:ca" valueInfoTitle={`Classe Armatura: ${sheet.classeArmatura ?? "—"}`} onChange={(v) => patch({ classeArmatura: v ? Number(v) : null })} />
+            <TextField label="Scudo" showInfo={false} value={sheet.scudo ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${sheet.scudo ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ scudo: v === "Sì" })} />
           </div>
           <div className={grid2}>
             <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
@@ -585,22 +615,22 @@ export default function CharacterClient({
               onExplain={(button) => openCalculation({ kind: "passive" }, button)} />
           </div>
           <div className={grid2}>
-            <TextField label="Dadi Vita" value={sheet.dadiVita} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
-            <TextField label="Punti Esperienza" value={sheet.puntiEsperienza} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
+            <TextField label="Dadi Vita" showInfo={false} value={sheet.dadiVita} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
+            <TextField label="Punti Esperienza" showInfo={false} value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Ispirazione Eroica" value={sheet.ispirazioneEroica ? "Sì" : "No"} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
-            <NumberUnitField label="Velocità" value={sheet.velocita} unit="m" onChange={(v) => patch({ velocita: v })} />
+            <TextField label="Ispirazione Eroica" showInfo={false} value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
+            <NumberUnitField label="Velocità" value={sheet.velocita} valueInfoId="stato:velocita" unit="m" onChange={(v) => patch({ velocita: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Allineamento" value={sheet.allineamento} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
-            <TextField label="Taglia base" value={sheet.taglia} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
+            <TextField label="Allineamento" showInfo={false} value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
+            <TextField label="Taglia base" showInfo={false} value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Specie" value={sheet.specie} options={regole.specie} locked={Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
-            <TextField label="Background" value={sheet.background} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
+            <TextField label="Specie" showInfo={false} value={sheet.specie} valueInfoId={`valore:specie:${sheet.specie}`} options={regole.specie} locked={Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
+            <TextField label="Background" showInfo={false} value={sheet.background} valueInfoId={`valore:background:${sheet.background}`} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
           </div>
-          {lignaggi[sheet.specie] && <TextField label="Lignaggio" value={sheet.lignaggio} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
+          {lignaggi[sheet.specie] && <TextField label="Lignaggio" showInfo={false} value={sheet.lignaggio} valueInfoId={`valore:lignaggio:${sheet.lignaggio}`} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
         </div>
       ),
     },
@@ -633,13 +663,15 @@ export default function CharacterClient({
                   label="Tiro Salvezza"
                   checked={c.tsCompetente}
                   locked={c.tsCompetente}
+                  onExplain={(button) => openCalculation({ kind: "save", abbr: c.abbr }, button)}
                   onChange={(v) => updateCar(i, { tsCompetente: v })}
                 />
               </div>
               <div className="grid grid-cols-3 gap-2 text-center">
                 <div>
-                  <InfoLabel id={`Valore.${c.abbr}`} title="Valore" className="text-[9px] uppercase leading-tight text-ink-faint" />
+                  <button type="button" onClick={(event) => openCalculation({ kind: "modifier", abbr: c.abbr }, event.currentTarget)} className="text-[9px] uppercase leading-tight text-ink-faint">Valore</button>
                   <InlineInput value={c.valore} onChange={(v) => updateCar(i, { valore: v })}
+                    onExplain={(button) => openCalculation({ kind: "modifier", abbr: c.abbr }, button)}
                     numeric="unsigned" className="mt-0.5 w-full text-center" />
                 </div>
                 <ComputedField label="Modificatore" value={abilityModifier(c.valore)}
@@ -683,7 +715,7 @@ export default function CharacterClient({
                         {abilityBonus(sheet, a) || "—"}
                       </button>
                     </div>
-                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} locked={a.maestria} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
+                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} locked={a.maestria} onExplain={(button) => openCalculation({ kind: "ability", name: a.nome }, button)} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
                   </div>
                 ))}
               </div>
@@ -717,6 +749,7 @@ export default function CharacterClient({
               maxItems={6}
               collapsible
               titleOf={(a) => a.nome || "Nuova arma"}
+              onTitleClick={(a, index, button) => { if (!a.nome) return false; openFieldInfo(`armaPosseduta:${index}`, a.nome, button); return true; }}
               subtitleOf={(a) => a.bonus}
               headerAccessory={(a, p) => (
                 <div className="flex items-center gap-1">
@@ -730,11 +763,11 @@ export default function CharacterClient({
                   />
                 </div>
               )}
-              renderItem={(a, p) => (
+              renderItem={(a, p, index) => (
                 <div className="flex flex-col gap-2">
-                  <TextField label="Nome" showInfo={false} value={a.nome} options={nomiArmi} onChange={(v) => p({ nome: v })} />
-                  <TextField label="Bonus att./CD" value={a.bonus} numeric="signed" onChange={(v) => p({ bonus: v })} />
-                  <TextField label="Dettaglio personale" showInfo={false} value={a.note} onChange={(v) => p({ note: v })} multiline />
+                  <TextField label="Nome" showInfo={false} value={a.nome} valueInfoId={a.nome ? `armaPosseduta:${index}` : undefined} options={nomiArmi} onChange={(v) => p({ nome: v })} />
+                  <TextField label="Bonus att./CD" showInfo={false} value={a.bonus} valueInfoId={a.nome ? `armaPosseduta:${index}` : undefined} valueInfoTitle={a.nome} numeric="signed" onChange={(v) => p({ bonus: v })} />
+                  <TextField label="Dettaglio personale" showInfo={false} value={a.note} valueInfoId={a.nome ? `armaPosseduta:${index}` : undefined} valueInfoTitle={a.nome} onChange={(v) => p({ note: v })} multiline />
                 </div>
               )}
             />
@@ -747,7 +780,7 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}><InfoLabel id="Competenze armatura" title="Competenze armatura" /></h3>
+            <h3 className={sectionTitle}>Competenze armatura</h3>
             <div className="flex flex-wrap gap-2">
               {(
                 [
@@ -760,7 +793,7 @@ export default function CharacterClient({
                 <Toggle
                   key={key}
                   label={lab}
-                  helpId="Competenze armatura"
+                  helpId={`valore:armatura:${lab}`}
                   checked={sheet.competenzeArmatura[key]}
                   locked={sheet.competenzeArmatura[key]}
                   onChange={(v) => patch({ competenzeArmatura: { ...sheet.competenzeArmatura, [key]: v } })}
@@ -777,11 +810,12 @@ export default function CharacterClient({
               addLabel="Aggiungi oggetto"
               collapsible
               titleOf={(e) => e.nome || "Nuovo oggetto"}
+              onTitleClick={(e, index, button) => { if (!equipmentDetails(e.nome, e.dettaglio)) return false; openFieldInfo(`oggetto:${index}`, e.nome, button); return true; }}
               subtitleOf={(e) => e.dettaglio}
-              renderItem={(e, p) => (
+              renderItem={(e, p, index) => (
                 <div className="flex flex-col gap-2">
-                  <TextField label="Oggetto" showInfo={false} value={e.nome} onChange={(v) => p({ nome: v })} />
-                  <TextField label="Dettaglio personale" showInfo={false} value={e.dettaglio} onChange={(v) => p({ dettaglio: v })} multiline />
+                  <TextField label="Oggetto" showInfo={false} value={e.nome} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${index}` : undefined} onChange={(v) => p({ nome: v })} />
+                  <TextField label="Dettaglio personale" showInfo={false} value={e.dettaglio} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${index}` : undefined} valueInfoTitle={e.nome} onChange={(v) => p({ dettaglio: v })} multiline />
                 </div>
               )}
             />
@@ -799,10 +833,10 @@ export default function CharacterClient({
           onChange={(items) => patch({ privilegi: items })}
           makeNew={() => ({ titolo: "", scelte: "" })}
           addLabel="Aggiungi privilegio"
-          renderItem={(pr, p) => (
+          renderItem={(pr, p, index) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Titolo" showInfo={false} value={pr.titolo} onChange={(v) => p({ titolo: v })} />
-              <TextField label="Scelte personali" showInfo={false} value={pr.scelte} onChange={(v) => p({ scelte: v })} multiline />
+              <TextField label="Titolo" showInfo={false} value={pr.titolo} valueInfoId={pr.titolo && (valueDetails("privilegio", pr.titolo) || pr.scelte) ? `privilegio:${index}` : undefined} onChange={(v) => p({ titolo: v })} />
+              <TextField label="Scelte personali" showInfo={false} value={pr.scelte} valueInfoId={pr.titolo ? `privilegio:${index}` : undefined} valueInfoTitle={pr.titolo} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}
         />
@@ -813,7 +847,7 @@ export default function CharacterClient({
       title: "Talenti",
       body: (
         <div>
-        <h3 className={sectionTitle}><InfoLabel id="Talenti" title="Talenti" /></h3>
+        <h3 className={sectionTitle}>Talenti</h3>
         <ArrayEditor
           items={sheet.talenti}
           onChange={(items) => patch({ talenti: items })}
@@ -822,8 +856,8 @@ export default function CharacterClient({
           lockItem={(t) => Boolean(t.nome)}
           renderItem={(t, p, _index, locked) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" showInfo={false} value={t.nome} options={nomiTalenti} locked={locked} onChange={(v) => p({ nome: v })} />
-              <TextField label="Scelte personali" showInfo={false} value={t.scelte} onChange={(v) => p({ scelte: v })} multiline />
+              <TextField label="Nome" showInfo={false} value={t.nome} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} options={nomiTalenti} locked={locked} onChange={(v) => p({ nome: v })} />
+              <TextField label="Scelte personali" showInfo={false} value={t.scelte} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} valueInfoTitle={t.nome} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}
         />
@@ -846,7 +880,7 @@ export default function CharacterClient({
           onTitleClick={(inc, _index, button) => { if (!inc.nome) return false; openFieldInfo(`incantesimo:${inc.nome}`, inc.nome, button); return true; }}
           renderItem={(inc, p) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" showInfo={false} value={inc.nome} options={spellNames} onChange={(v) => p({ nome: v })} />
+              <TextField label="Nome" showInfo={false} value={inc.nome} valueInfoId={inc.nome ? `incantesimo:${inc.nome}` : undefined} options={spellNames} onChange={(v) => p({ nome: v })} />
             </div>
           )}
         />
@@ -1090,7 +1124,7 @@ export default function CharacterClient({
                   <button ref={fieldInfoClose} type="button" onClick={closeFieldInfo} aria-label="Chiudi spiegazione"
                     className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
                 </div>
-                {fieldHelp && <p className="mt-3 text-sm leading-relaxed">{fieldHelp.meaning}</p>}
+                {fieldHelp && <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{fieldHelp.meaning}</p>}
                 {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed">{fieldHelp.effect}</p></>}
                 {spell && <>
                   <dl className="mt-4 space-y-2 text-sm">

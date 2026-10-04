@@ -3,6 +3,7 @@
 import {
   createContext,
   useContext,
+  useEffect,
   useRef,
   useState,
   type ReactNode,
@@ -24,10 +25,10 @@ export const EditContext = createContext<EditCtx>({
 type FieldInfoOpen = (id: string, title: string, trigger: HTMLButtonElement) => void;
 export const FieldInfoContext = createContext<FieldInfoOpen>(() => {});
 
-export function InfoLabel({ id, title, className = "" }: { id: string; title: string; className?: string }) {
+export function InfoLabel({ id, title, dialogTitle, className = "" }: { id: string; title: string; dialogTitle?: string; className?: string }) {
   const open = useContext(FieldInfoContext);
-  return <button type="button" aria-label={`Informazioni su ${title}`} aria-haspopup="dialog"
-    onClick={(event) => { event.stopPropagation(); open(id, title, event.currentTarget); }}
+  return <button type="button" aria-label={`Informazioni su ${dialogTitle ?? title}`} aria-haspopup="dialog"
+    onClick={(event) => { event.stopPropagation(); open(id, dialogTitle ?? title, event.currentTarget); }}
     className={`touch-manipulation text-left active:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent ${className}`}>
     {title}
   </button>;
@@ -83,6 +84,8 @@ export function TextField({
   locked = false,
   helpId,
   showInfo = true,
+  valueInfoId,
+  valueInfoTitle,
 }: {
   label: string;
   value: string;
@@ -96,11 +99,16 @@ export function TextField({
   locked?: boolean;
   helpId?: string;
   showInfo?: boolean;
+  valueInfoId?: string;
+  valueInfoTitle?: string;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const openInfo = useContext(FieldInfoContext);
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(value);
+  const infoTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const lastInfoTap = useRef(0);
+  useEffect(() => () => { if (infoTimer.current) clearTimeout(infoTimer.current); }, []);
   const onTap = useDoubleTap(() => {
     if (locked) return;
     if (!unlocked) return requireUnlock();
@@ -111,10 +119,25 @@ export function TextField({
     if (numeric && !numericValueValid(draft, numeric)) onChange("");
     setEditing(false);
   };
+  const onValueTap = (event: React.MouseEvent<HTMLButtonElement>) => {
+    if (!valueInfoId) return;
+    const trigger = event.currentTarget;
+    if (locked) return openInfo(valueInfoId, valueInfoTitle ?? value, trigger);
+    const now = Date.now();
+    if (now - lastInfoTap.current < 320) {
+      if (infoTimer.current) clearTimeout(infoTimer.current);
+      infoTimer.current = null;
+      lastInfoTap.current = 0;
+      if (unlocked) { setDraft(value); setEditing(true); }
+      return;
+    }
+    lastInfoTap.current = now;
+    infoTimer.current = setTimeout(() => { openInfo(valueInfoId, valueInfoTitle ?? value, trigger); infoTimer.current = null; }, 330);
+  };
 
   return (
     <div className="block">
-      {label && (showInfo ? <InfoLabel id={helpId ?? label} title={label} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" /> : <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>)}
+      {label && (Boolean(valueInfoId && value) || showInfo ? <InfoLabel id={valueInfoId && value ? valueInfoId : helpId ?? label} title={label} dialogTitle={valueInfoId && value ? valueInfoTitle ?? value : undefined} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" /> : <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>)}
       {editing && !locked ? (
         options ? (
           <select
@@ -157,6 +180,12 @@ export function TextField({
             className={inputBase}
           />
         )
+      ) : valueInfoId && value ? (
+        <button type="button" aria-label={`Informazioni su ${valueInfoTitle ?? value}`} aria-haspopup="dialog"
+          onClick={onValueTap}
+          className={`${readonlyBase} text-left ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""} ${unlocked && !locked ? editableHint : ""}`}>
+          {value}
+        </button>
       ) : locked && showInfo ? (
         <button type="button" aria-label={`Informazioni su ${label || helpId || "campo"}`} aria-haspopup="dialog"
           onClick={(event) => openInfo(helpId ?? label, label || helpId || "Campo", event.currentTarget)}
@@ -182,15 +211,21 @@ export function NumberUnitField({
   value,
   unit,
   onChange,
+  valueInfoId,
 }: {
   label: string;
   value: string;
   unit: string;
   onChange: (value: string) => void;
+  valueInfoId?: string;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
+  const openInfo = useContext(FieldInfoContext);
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState("");
+  const infoTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const lastInfoTap = useRef(0);
+  useEffect(() => () => { if (infoTimer.current) clearTimeout(infoTimer.current); }, []);
   const onTap = useDoubleTap(() => {
     if (!unlocked) return requireUnlock();
     setDraft(value);
@@ -203,7 +238,7 @@ export function NumberUnitField({
   };
   return (
     <div className="block">
-      <InfoLabel id={label} title={label} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" />
+      {valueInfoId && value ? <InfoLabel id={valueInfoId} title={label} dialogTitle={`${label}: ${value} ${unit}`} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" /> : <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>}
       {editing ? (
         <div className="flex items-center gap-1">
           <input
@@ -217,6 +252,24 @@ export function NumberUnitField({
           />
           <span className="text-sm text-ink-soft">{unit}</span>
         </div>
+      ) : valueInfoId && value ? (
+        <button type="button" aria-label={`Informazioni su ${label}: ${value} ${unit}`} aria-haspopup="dialog"
+          onClick={(event) => {
+            const trigger = event.currentTarget;
+            const now = Date.now();
+            if (now - lastInfoTap.current < 320) {
+              if (infoTimer.current) clearTimeout(infoTimer.current);
+              infoTimer.current = null;
+              lastInfoTap.current = 0;
+              if (unlocked) { setDraft(value); setEditing(true); }
+              return;
+            }
+            lastInfoTap.current = now;
+            infoTimer.current = setTimeout(() => { openInfo(valueInfoId, `${label}: ${value} ${unit}`, trigger); infoTimer.current = null; }, 330);
+          }}
+          className={`${readonlyBase} text-left ${unlocked ? editableHint : ""}`}>
+          {value} {unit}
+        </button>
       ) : (
         <div onClick={onTap} className={`${readonlyBase} ${unlocked ? editableHint : ""}`}>
           {value ? `${value} ${unit}` : <span className="text-ink-faint">—</span>}
@@ -232,16 +285,21 @@ export function InlineInput({
   placeholder = "",
   className = "",
   numeric,
+  onExplain,
 }: {
   value: string;
   onChange: (v: string) => void;
   placeholder?: string;
   className?: string;
   numeric?: NumericMode;
+  onExplain?: (button: HTMLButtonElement) => void;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(value);
+  const infoTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const lastInfoTap = useRef(0);
+  useEffect(() => () => { if (infoTimer.current) clearTimeout(infoTimer.current); }, []);
   const onTap = useDoubleTap(() => {
     if (!unlocked) return requireUnlock();
     setDraft(value);
@@ -272,6 +330,25 @@ export function InlineInput({
       />
     );
   }
+  if (onExplain && value) return (
+    <button type="button" aria-label={`Spiega ${value}`} aria-haspopup="dialog"
+      onClick={(event) => {
+        const trigger = event.currentTarget;
+        const now = Date.now();
+        if (now - lastInfoTap.current < 320) {
+          if (infoTimer.current) clearTimeout(infoTimer.current);
+          infoTimer.current = null;
+          lastInfoTap.current = 0;
+          if (unlocked) { setDraft(value); setEditing(true); }
+          return;
+        }
+        lastInfoTap.current = now;
+        infoTimer.current = setTimeout(() => { onExplain(trigger); infoTimer.current = null; }, 330);
+      }}
+      className={`touch-manipulation text-ink ${unlocked ? "cursor-pointer underline decoration-line/60 decoration-dotted underline-offset-4" : ""} ${className}`}>
+      {value}
+    </button>
+  );
   return (
     <span
       onClick={onTap}
@@ -292,17 +369,34 @@ export function Toggle({
   onChange,
   locked = false,
   helpId,
+  onExplain,
 }: {
   label: string;
   checked: boolean;
   onChange: (v: boolean) => void;
   locked?: boolean;
   helpId?: string;
+  onExplain?: (button: HTMLButtonElement) => void;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
-  const onTap = useDoubleTap(() =>
-    locked ? undefined : unlocked ? onChange(!checked) : requireUnlock(),
-  );
+  const openInfo = useContext(FieldInfoContext);
+  const infoTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const lastInfoTap = useRef(0);
+  useEffect(() => () => { if (infoTimer.current) clearTimeout(infoTimer.current); }, []);
+  const explain = (button: HTMLButtonElement) => onExplain ? onExplain(button) : openInfo(helpId ?? label, label, button);
+  const onTap = (event: React.MouseEvent<HTMLButtonElement>) => {
+    const trigger = event.currentTarget;
+    const now = Date.now();
+    if (now - lastInfoTap.current < 320) {
+      if (infoTimer.current) clearTimeout(infoTimer.current);
+      infoTimer.current = null;
+      lastInfoTap.current = 0;
+      if (!locked) unlocked ? onChange(!checked) : requireUnlock();
+      return;
+    }
+    lastInfoTap.current = now;
+    infoTimer.current = setTimeout(() => { explain(trigger); infoTimer.current = null; }, 330);
+  };
   const active = checked
     ? "border-accent bg-accent/12 text-accent"
     : "border-line bg-card/60 text-ink-soft";
@@ -311,7 +405,7 @@ export function Toggle({
     <button
       type="button"
       onClick={onTap}
-      aria-label={`${checked ? "Rimuovi" : "Aggiungi"} ${label}`}
+      aria-label={`Informazioni su ${label}; doppio tocco per ${checked ? "rimuovere" : "aggiungere"}`}
       aria-disabled={locked}
       className={`flex touch-manipulation items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${active}`}
     >
@@ -323,7 +417,7 @@ export function Toggle({
         {checked ? "✓" : ""}
       </span>
     </button>
-    <InfoLabel id={helpId ?? label} title={label} className="ml-1.5 text-xs font-medium text-ink-soft" />
+    {onExplain ? <button type="button" onClick={(event) => onExplain(event.currentTarget)} className="ml-1.5 text-xs font-medium text-ink-soft">{label}</button> : <InfoLabel id={helpId ?? label} title={label} className="ml-1.5 text-xs font-medium text-ink-soft" />}
     </span>
   );
 }
