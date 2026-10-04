@@ -82,6 +82,7 @@ export function TextField({
   allowEmpty = true,
   locked = false,
   helpId,
+  showInfo = true,
 }: {
   label: string;
   value: string;
@@ -94,6 +95,7 @@ export function TextField({
   allowEmpty?: boolean;
   locked?: boolean;
   helpId?: string;
+  showInfo?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const openInfo = useContext(FieldInfoContext);
@@ -112,7 +114,7 @@ export function TextField({
 
   return (
     <div className="block">
-      {label && <InfoLabel id={helpId ?? label} title={label} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" />}
+      {label && (showInfo ? <InfoLabel id={helpId ?? label} title={label} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" /> : <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>)}
       {editing && !locked ? (
         options ? (
           <select
@@ -155,7 +157,7 @@ export function TextField({
             className={inputBase}
           />
         )
-      ) : locked ? (
+      ) : locked && showInfo ? (
         <button type="button" aria-label={`Informazioni su ${label || helpId || "campo"}`} aria-haspopup="dialog"
           onClick={(event) => openInfo(helpId ?? label, label || helpId || "Campo", event.currentTarget)}
           className={`${readonlyBase} text-left ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""}`}>

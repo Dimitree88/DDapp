@@ -32,6 +32,7 @@ import { calculationExplanation, type CalculationTarget } from "@/lib/calculatio
 import { speciesSizes } from "@/lib/creationRules";
 import { helpFor } from "@/lib/fieldHelp";
 import { languageDetails } from "@/lib/languageDetails";
+import { weaponDetails } from "@/lib/weaponDetails";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -129,7 +130,9 @@ function StringListEditor({
           </span>
           <div className="min-w-0 flex-1">
             {options && lockExisting && it ?
-              <InfoLabel id={helpId === "Lingue" ? `lingua:${it}` : helpId ?? it} title={it} className="w-full rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" /> : options ?
+              (helpId === "Lingue" && !languageDetails(it)) ?
+                <span className="block w-full rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">{it}</span> :
+                <InfoLabel id={helpId === "Lingue" ? `lingua:${it}` : helpId === "Competenze armi" ? `arma:${it}` : helpId ?? it} title={it} className="w-full rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" /> : options ?
               <TextField label="" helpId={helpId} value={it} options={options} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
               <InlineInput value={it} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} className="flex-1" placeholder="…" />}
           </div>
@@ -412,7 +415,8 @@ export default function CharacterClient({
   const spellName = fieldInfo?.id.startsWith("incantesimo:") ? canonicalSpellName(fieldInfo.id.slice("incantesimo:".length)) : null;
   const spell = spellName ? spellDetails(spellName) : null;
   const language = fieldInfo?.id.startsWith("lingua:") ? languageDetails(fieldInfo.id.slice("lingua:".length)) : null;
-  const fieldHelp = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : helpFor(fieldInfo.id) : null;
+  const weapon = fieldInfo?.id.startsWith("arma:") ? weaponDetails(fieldInfo.id.slice("arma:".length)) : null;
+  const fieldHelp = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weapon ? { meaning: weapon, rule: true } : helpFor(fieldInfo.id) : null;
   const sourcePage = spell?.pagina ?? language?.page;
 
   useEffect(() => {
@@ -597,9 +601,6 @@ export default function CharacterClient({
             <TextField label="Background" value={sheet.background} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
           </div>
           {lignaggi[sheet.specie] && <TextField label="Lignaggio" value={sheet.lignaggio} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
-          <div className="rounded-xl border border-line bg-card/70 p-3 text-xs text-ink-soft">
-            <p>Le scelte iniziali sono bloccate; puoi aggiungere nuove capacità con l’avanzamento. Gli effetti temporanei non cambiano la Taglia base.</p>
-          </div>
         </div>
       ),
     },
@@ -607,7 +608,7 @@ export default function CharacterClient({
       title: "Lingue",
       body: (
         <div className="flex flex-col gap-2">
-        <h3 className={sectionTitle}><InfoLabel id="Lingue" title="Lingue" /></h3>
+        <h3 className={sectionTitle}>Lingue</h3>
         <StringListEditor
           items={toList(sheet.lingue)}
           onChange={(v) => patch({ lingue: v })}
@@ -616,7 +617,7 @@ export default function CharacterClient({
           lockExisting
           helpId="Lingue"
         />
-        <TextField label="Note lingue" value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
+        <TextField label="Note lingue" showInfo={false} value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
         </div>
       ),
     },
@@ -696,7 +697,7 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}><InfoLabel id="Competenze armi" title="Competenze armi" /></h3>
+            <h3 className={sectionTitle}>Competenze armi</h3>
             <StringListEditor
               items={toList(sheet.competenzeArmi)}
               onChange={(v) => patch({ competenzeArmi: v })}
@@ -707,7 +708,7 @@ export default function CharacterClient({
             />
           </div>
           <div>
-            <h3 className={sectionTitle}><InfoLabel id="Armi" title="Armi" /></h3>
+            <h3 className={sectionTitle}>Armi</h3>
             <ArrayEditor
               items={sheet.armi}
               onChange={(items) => patch({ armi: items })}
@@ -719,7 +720,7 @@ export default function CharacterClient({
               subtitleOf={(a) => a.bonus}
               headerAccessory={(a, p) => (
                 <div className="flex items-center gap-1">
-                  <InfoLabel id="Quantità arma" title="Quantità" className="text-xs text-ink-faint" />
+                  <span className="text-xs text-ink-faint">Quantità</span>
                   <InlineInput
                     value={a.quantita}
                     onChange={(v) => p({ quantita: v })}
@@ -731,9 +732,9 @@ export default function CharacterClient({
               )}
               renderItem={(a, p) => (
                 <div className="flex flex-col gap-2">
-                  <TextField label="Nome" helpId="Nome arma" value={a.nome} options={nomiArmi} onChange={(v) => p({ nome: v })} />
+                  <TextField label="Nome" showInfo={false} value={a.nome} options={nomiArmi} onChange={(v) => p({ nome: v })} />
                   <TextField label="Bonus att./CD" value={a.bonus} numeric="signed" onChange={(v) => p({ bonus: v })} />
-                  <TextField label="Dettaglio personale" helpId="Dettaglio arma" value={a.note} onChange={(v) => p({ note: v })} multiline />
+                  <TextField label="Dettaglio personale" showInfo={false} value={a.note} onChange={(v) => p({ note: v })} multiline />
                 </div>
               )}
             />
@@ -768,7 +769,7 @@ export default function CharacterClient({
             </div>
           </div>
           <div>
-            <h3 className={sectionTitle}><InfoLabel id="Oggetti" title="Oggetti" /></h3>
+            <h3 className={sectionTitle}>Oggetti</h3>
             <ArrayEditor
               items={sheet.equipaggiamento}
               onChange={(items) => patch({ equipaggiamento: items })}
@@ -779,8 +780,8 @@ export default function CharacterClient({
               subtitleOf={(e) => e.dettaglio}
               renderItem={(e, p) => (
                 <div className="flex flex-col gap-2">
-                  <TextField label="Oggetto" value={e.nome} onChange={(v) => p({ nome: v })} />
-                  <TextField label="Dettaglio personale" helpId="Dettaglio oggetto" value={e.dettaglio} onChange={(v) => p({ dettaglio: v })} multiline />
+                  <TextField label="Oggetto" showInfo={false} value={e.nome} onChange={(v) => p({ nome: v })} />
+                  <TextField label="Dettaglio personale" showInfo={false} value={e.dettaglio} onChange={(v) => p({ dettaglio: v })} multiline />
                 </div>
               )}
             />
@@ -792,7 +793,7 @@ export default function CharacterClient({
       title: "Privilegi",
       body: (
         <div>
-        <h3 className={sectionTitle}><InfoLabel id="Privilegi" title="Privilegi" /></h3>
+        <h3 className={sectionTitle}>Privilegi</h3>
         <ArrayEditor
           items={sheet.privilegi}
           onChange={(items) => patch({ privilegi: items })}
@@ -800,8 +801,8 @@ export default function CharacterClient({
           addLabel="Aggiungi privilegio"
           renderItem={(pr, p) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Titolo" value={pr.titolo} onChange={(v) => p({ titolo: v })} />
-              <TextField label="Scelte personali" helpId="Scelte privilegio" value={pr.scelte} onChange={(v) => p({ scelte: v })} multiline />
+              <TextField label="Titolo" showInfo={false} value={pr.titolo} onChange={(v) => p({ titolo: v })} />
+              <TextField label="Scelte personali" showInfo={false} value={pr.scelte} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}
         />
@@ -821,8 +822,8 @@ export default function CharacterClient({
           lockItem={(t) => Boolean(t.nome)}
           renderItem={(t, p, _index, locked) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" helpId="Nome talento" value={t.nome} options={nomiTalenti} locked={locked} onChange={(v) => p({ nome: v })} />
-              <TextField label="Scelte personali" helpId="Scelte talento" value={t.scelte} onChange={(v) => p({ scelte: v })} multiline />
+              <TextField label="Nome" showInfo={false} value={t.nome} options={nomiTalenti} locked={locked} onChange={(v) => p({ nome: v })} />
+              <TextField label="Scelte personali" showInfo={false} value={t.scelte} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}
         />
@@ -833,7 +834,7 @@ export default function CharacterClient({
       title: "Incantesimi",
       body: (
         <div>
-        <h3 className={sectionTitle}><InfoLabel id="Incantesimi" title="Incantesimi" /></h3>
+        <h3 className={sectionTitle}>Incantesimi</h3>
         <ArrayEditor
           items={sheet.incantesimi}
           onChange={(items) => patch({ incantesimi: items })}
@@ -845,7 +846,7 @@ export default function CharacterClient({
           onTitleClick={(inc, _index, button) => { if (!inc.nome) return false; openFieldInfo(`incantesimo:${inc.nome}`, inc.nome, button); return true; }}
           renderItem={(inc, p) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" helpId="Nome incantesimo" value={inc.nome} options={spellNames} onChange={(v) => p({ nome: v })} />
+              <TextField label="Nome" showInfo={false} value={inc.nome} options={spellNames} onChange={(v) => p({ nome: v })} />
             </div>
           )}
         />
@@ -857,14 +858,14 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}><InfoLabel id="Monete" title="Monete" /></h3>
+            <h3 className={sectionTitle}>Monete</h3>
             <div className="flex flex-col gap-2">
               {COINS.map(([lab, key]) => (
                 <div
                   key={key}
                   className="flex items-center justify-between rounded-lg border border-line bg-card/70 px-3 py-2 shadow-sm"
                 >
-                  <InfoLabel id="Monete" title={lab} className="text-sm text-ink-soft" />
+                  <span className="text-sm text-ink-soft">{lab}</span>
                   <InlineInput
                     value={sheet.monete[key]}
                     onChange={(v) => patch({ monete: { ...sheet.monete, [key]: v } })}
@@ -914,7 +915,6 @@ export default function CharacterClient({
                 {name || "Senza nome"}
               </h1>
             </button>
-            <InfoLabel id="Nome personaggio" title="Nome" className="ml-1 text-xs text-ink-soft" />
             </div>
             <button
               type="button"
