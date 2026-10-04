@@ -12,11 +12,11 @@ incantesimi usano i domini del catalogo JSON.
 I personaggi vengono creati manualmente, fuori dall'interfaccia. Classe, Specie,
 Lignaggio, Background e Taglia di base sono bloccati; Sottoclasse,
 talenti, lingue e competenze già acquisiti non possono essere rimossi o sostituiti.
-Una correzione concordata con il DM o una Reincarnazione richiedono l'azione
-esplicita nella pagina Stato & Identità. Le schede esistenti sono state marcate come formate
+Le correzioni alle scelte fisse si eseguono direttamente nel database. Le schede esistenti sono state marcate come formate
 con `node --import tsx scripts/migrate-creation-lock.mjs --apply`.
-Le icone ⓘ accanto alle etichette aprono spiegazioni su significato, effetti
-e modalità di modifica dei campi; i valori derivati mostrano anche la formula.
+Le etichette aprono spiegazioni su significato ed eventuali effetti dei campi;
+i valori derivati mostrano anche la formula. I nomi delle lingue e degli incantesimi
+aprono dettagli specifici tratti dall'SRD 5.2.1.
 
 ## Stack
 - **Next.js 16** (App Router, Server Actions) + **React 19**

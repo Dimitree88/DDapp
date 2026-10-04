@@ -22,7 +22,7 @@ gruppo di amici (6-7 giocatori, max 10). Lingua UI: **italiano**. Hostata su
 - **Scelte acquisite:** i personaggi si creano manualmente, fuori dall'interfaccia.
   Classe, origine e Taglia di base sono protette. Sottoclasse, talenti, lingue e
   competenze acquisite restano, mentre si possono aggiungere nuove scelte con
-  l'avanzamento. Reincarnazione e correzione concordata con il DM sono eccezioni esplicite.
+  l'avanzamento. Eventuali correzioni alle scelte fisse si eseguono direttamente nel database.
 - **Scala piccola e privata** → niente auth pesante.
 - **Accesso a PIN per personaggio:** tutti vedono tutte le schede in sola lettura;
   per modificare una scheda si inserisce il **PIN a 4 cifre** di quel personaggio.

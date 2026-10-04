@@ -17,19 +17,21 @@ import {
   EditProvider,
   EditContext,
   FieldInfoContext,
-  InfoButton,
+  InfoLabel,
   useDoubleTap,
 } from "@/components/fields";
 import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
 import { groupHistoryByDay } from "@/lib/history";
 import { exportSheetPdf } from "@/lib/exportPdf";
 import regole from "@/lib/regole-srd-2024.json";
-import { spellNames } from "@/lib/spells";
+import { spellNames, spellDetails, canonicalSpellName } from "@/lib/spells";
+import { spellEffects } from "@/lib/spellEffects";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
-import { speciesSizes, type ChangeReason } from "@/lib/creationRules";
+import { speciesSizes } from "@/lib/creationRules";
 import { helpFor } from "@/lib/fieldHelp";
+import { languageDetails } from "@/lib/languageDetails";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -54,8 +56,8 @@ function calculationEditGuide(target: CalculationTarget): string {
   if (target.kind === "proficiency") return "Si aggiorna cambiando il Livello; il bonus non si modifica direttamente.";
   if (target.kind === "passive") return "Si aggiorna con Saggezza e con Competenza o Maestria in Percezione; il valore non si modifica direttamente.";
   if (target.kind === "modifier") return "Si aggiorna cambiando il punteggio della caratteristica; il modificatore non si modifica direttamente.";
-  if (target.kind === "save") return "Si aggiorna cambiando il punteggio della caratteristica o il Livello. Doppio tocco sulla spunta per aggiungere competenza; per rimuoverne una acquisita serve Correzione concordata con il DM.";
-  return "Si aggiorna cambiando il punteggio della caratteristica o il Livello. Doppio tocco sul pallino per aggiungere Competenza e sulla spunta Maestria per aggiungerla; per rimuovere scelte acquisite serve Correzione concordata con il DM.";
+  if (target.kind === "save") return "Si aggiorna cambiando il punteggio della caratteristica o il Livello. La competenza si può acquisire dalla spunta e resta fissa.";
+  return "Si aggiorna cambiando il punteggio della caratteristica o il Livello. Competenza e Maestria si possono acquisire dalle rispettive spunte e restano fisse.";
 }
 
 function ComputedField({ label, value, explainLabel, onExplain }: {
@@ -70,7 +72,7 @@ function ComputedField({ label, value, explainLabel, onExplain }: {
       aria-haspopup="dialog"
       className="w-full touch-manipulation text-left active:text-accent">
       <span className="mb-0.5 flex items-center gap-1 text-[10px] font-medium uppercase tracking-wide text-ink-soft">
-        {label}<span className="text-xs normal-case" aria-hidden="true">ⓘ</span>
+        {label}
       </span>
       <span className="flex min-h-[2rem] items-center rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">
         {value || "—"}
@@ -126,10 +128,11 @@ function StringListEditor({
             •
           </span>
           <div className="min-w-0 flex-1">
-            {options ? <TextField label="" helpId={helpId} value={it} options={options} locked={lockExisting && Boolean(it)} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
+            {options && lockExisting && it ?
+              <InfoLabel id={helpId === "Lingue" ? `lingua:${it}` : helpId ?? it} title={it} className="w-full rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" /> : options ?
+              <TextField label="" helpId={helpId} value={it} options={options} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
               <InlineInput value={it} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} className="flex-1" placeholder="…" />}
           </div>
-          {helpId && <InfoButton id={helpId} title={`${helpId} ${i + 1}`} locked={lockExisting && Boolean(it)} />}
           {unlocked && !(lockExisting && it) && (
             <button
               type="button"
@@ -199,6 +202,7 @@ function ArrayEditor<T>({
   renderItem,
   collapsible = false,
   titleOf,
+  onTitleClick,
   subtitleOf,
   headerAccessory,
   maxItems,
@@ -211,6 +215,7 @@ function ArrayEditor<T>({
   renderItem: (item: T, patch: (p: Partial<T>) => void, index: number, locked: boolean) => ReactNode;
   collapsible?: boolean;
   titleOf?: (item: T, index: number) => string;
+  onTitleClick?: (item: T, index: number, button: HTMLButtonElement) => boolean;
   subtitleOf?: (item: T, index: number) => string;
   headerAccessory?: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
   maxItems?: number;
@@ -264,7 +269,7 @@ function ArrayEditor<T>({
               <div className="flex items-center gap-2 px-3 py-2">
                 <button
                   type="button"
-                  onClick={() => toggle(i)}
+                  onClick={(event) => { if (!onTitleClick?.(item, i, event.currentTarget)) toggle(i); }}
                   className="flex min-w-0 flex-1 items-center text-left"
                 >
                   <span className="min-w-0 flex-1">
@@ -361,7 +366,6 @@ export default function CharacterClient({
 }) {
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
   const [name] = useState(initialName);
-  const [changeReason, setChangeReason] = useState<ChangeReason | null>(null);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
   const [selected, setSelected] = useState(0);
@@ -374,7 +378,7 @@ export default function CharacterClient({
   const saveChainRef = useRef<Promise<void>>(Promise.resolve());
   const [showHistory, setShowHistory] = useState(false);
   const [calculationTarget, setCalculationTarget] = useState<CalculationTarget | null>(null);
-  const [fieldInfo, setFieldInfo] = useState<{ id: string; title: string; locked: boolean } | null>(null);
+  const [fieldInfo, setFieldInfo] = useState<{ id: string; title: string } | null>(null);
   const calculationTrigger = useRef<HTMLButtonElement | null>(null);
   const calculationClose = useRef<HTMLButtonElement | null>(null);
   const fieldInfoTrigger = useRef<HTMLButtonElement | null>(null);
@@ -405,7 +409,11 @@ export default function CharacterClient({
     calculationTrigger.current?.focus();
   };
   const calculation = calculationTarget ? calculationExplanation(sheet, calculationTarget) : null;
-  const fieldHelp = fieldInfo ? helpFor(fieldInfo.id) : null;
+  const spellName = fieldInfo?.id.startsWith("incantesimo:") ? canonicalSpellName(fieldInfo.id.slice("incantesimo:".length)) : null;
+  const spell = spellName ? spellDetails(spellName) : null;
+  const language = fieldInfo?.id.startsWith("lingua:") ? languageDetails(fieldInfo.id.slice("lingua:".length)) : null;
+  const fieldHelp = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : helpFor(fieldInfo.id) : null;
+  const sourcePage = spell?.pagina ?? language?.page;
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -419,9 +427,9 @@ export default function CharacterClient({
     document.addEventListener("keydown", onEscape);
     return () => document.removeEventListener("keydown", onEscape);
   }, [fieldInfo]);
-  const openFieldInfo = (id: string, title: string, locked: boolean, trigger: HTMLButtonElement) => {
+  const openFieldInfo = (id: string, title: string, trigger: HTMLButtonElement) => {
     fieldInfoTrigger.current = trigger;
-    setFieldInfo({ id, title, locked });
+    setFieldInfo({ id, title });
   };
   const closeFieldInfo = () => {
     setFieldInfo(null);
@@ -465,11 +473,11 @@ export default function CharacterClient({
     };
   }, [emblaApi]);
 
-  const queueSave = useCallback((nextSheet: Sheet, reason: ChangeReason | null = changeReason) => {
-    const task = saveChainRef.current.then(() => saveSheet(id, name, nextSheet, reason ?? undefined));
+  const queueSave = useCallback((nextSheet: Sheet) => {
+    const task = saveChainRef.current.then(() => saveSheet(id, name, nextSheet));
     saveChainRef.current = task.then(() => undefined, () => undefined);
     return task;
-  }, [id, name, changeReason]);
+  }, [id, name]);
 
   // Salvataggio automatico: a ogni modifica, con debounce. Le richieste restano in ordine.
   useEffect(() => {
@@ -508,14 +516,6 @@ export default function CharacterClient({
     snapshot();
     setSheet((s) => ({ ...s, ...p }));
   };
-  const finishException = async () => {
-    const saved = await queueSave(sheet, changeReason);
-    if (!saved.ok) { setSaveState("error"); return; }
-    setChangeReason(null);
-    historyRef.current = [];
-    setHistLen(0);
-    setSaveState("saved");
-  };
   const updateCar = (i: number, p: Partial<Caratteristica>) => {
     snapshot();
     setSheet((s) => ({
@@ -537,8 +537,6 @@ export default function CharacterClient({
   }
 
   const [exporting, setExporting] = useState<"current" | "template" | null>(null);
-  const creationLocked = changeReason !== "correzione_dm";
-  const originLocked = creationLocked && changeReason !== "reincarnazione";
   async function handleExport(kind: "current" | "template") {
     setExporting(kind);
     try {
@@ -562,9 +560,9 @@ export default function CharacterClient({
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
             <TextField label="Livello" value={sheet.livello} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
-            <TextField label="Classe" value={sheet.classe} options={classi} locked={creationLocked && Boolean(sheet.classe)} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
+            <TextField label="Classe" value={sheet.classe} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
           </div>
-          <TextField label="Sottoclasse" value={sheet.sottoclasse} options={sottoclassi[sheet.classe] ?? []} locked={creationLocked && Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />
+          <TextField label="Sottoclasse" value={sheet.sottoclasse} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />
           <div className={grid2}>
             <TextField label="Punti Ferita" value={sheet.puntiFerita} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
             <TextField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
@@ -592,23 +590,15 @@ export default function CharacterClient({
           </div>
           <div className={grid2}>
             <TextField label="Allineamento" value={sheet.allineamento} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
-            <TextField label="Taglia base" value={sheet.taglia} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={originLocked && Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
+            <TextField label="Taglia base" value={sheet.taglia} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Specie" value={sheet.specie} options={regole.specie} locked={originLocked && Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
-            <TextField label="Background" value={sheet.background} options={regole.background} locked={creationLocked && Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
+            <TextField label="Specie" value={sheet.specie} options={regole.specie} locked={Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
+            <TextField label="Background" value={sheet.background} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
           </div>
-          {lignaggi[sheet.specie] && <TextField label="Lignaggio" value={sheet.lignaggio} options={lignaggi[sheet.specie]} locked={originLocked && Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
+          {lignaggi[sheet.specie] && <TextField label="Lignaggio" value={sheet.lignaggio} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
           <div className="rounded-xl border border-line bg-card/70 p-3 text-xs text-ink-soft">
             <p>Le scelte iniziali sono bloccate; puoi aggiungere nuove capacità con l’avanzamento. Gli effetti temporanei non cambiano la Taglia base.</p>
-            {changeReason ? (
-              <button type="button" onClick={finishException} className="mt-2 rounded-lg border border-accent px-3 py-1.5 font-semibold text-accent">Termina modifica eccezionale</button>
-            ) : (
-              <div className="mt-2 flex flex-wrap gap-2">
-                <button type="button" onClick={() => setChangeReason("reincarnazione")} className="rounded-lg border border-line px-2 py-1">Reincarnazione</button>
-                <button type="button" onClick={() => setChangeReason("correzione_dm")} className="rounded-lg border border-line px-2 py-1">Correzione concordata con il DM</button>
-              </div>
-            )}
           </div>
         </div>
       ),
@@ -617,13 +607,13 @@ export default function CharacterClient({
       title: "Lingue",
       body: (
         <div className="flex flex-col gap-2">
-        <h3 className={sectionTitle}>Lingue<InfoButton id="Lingue" title="Lingue" /></h3>
+        <h3 className={sectionTitle}><InfoLabel id="Lingue" title="Lingue" /></h3>
         <StringListEditor
           items={toList(sheet.lingue)}
           onChange={(v) => patch({ lingue: v })}
           addLabel="Aggiungi lingua"
           options={lingue}
-          lockExisting={creationLocked}
+          lockExisting
           helpId="Lingue"
         />
         <TextField label="Note lingue" value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
@@ -641,13 +631,13 @@ export default function CharacterClient({
                 <Toggle
                   label="Tiro Salvezza"
                   checked={c.tsCompetente}
-                  locked={creationLocked && c.tsCompetente}
+                  locked={c.tsCompetente}
                   onChange={(v) => updateCar(i, { tsCompetente: v })}
                 />
               </div>
               <div className="grid grid-cols-3 gap-2 text-center">
                 <div>
-                  <span className="flex items-center justify-center text-[9px] uppercase leading-tight text-ink-faint">Valore<InfoButton id={`Valore.${c.abbr}`} title={`punteggio di ${c.nome}`} /></span>
+                  <InfoLabel id={`Valore.${c.abbr}`} title="Valore" className="text-[9px] uppercase leading-tight text-ink-faint" />
                   <InlineInput value={c.valore} onChange={(v) => updateCar(i, { valore: v })}
                     numeric="unsigned" className="mt-0.5 w-full text-center" />
                 </div>
@@ -676,14 +666,14 @@ export default function CharacterClient({
                 {sheet.abilita.map((a, i) => a.caratteristica === caratteristica && (
                   <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
                     <div className="flex items-center gap-1.5">
-                      <CompetenceDot checked={a.competente} locked={creationLocked && a.competente}
+                      <CompetenceDot checked={a.competente} locked={a.competente}
                         onExplain={(button) => openCalculation({ kind: "ability", name: a.nome }, button)}
                         onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
                       <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
                         aria-haspopup="dialog"
                         onClick={(event) => openCalculation({ kind: "ability", name: a.nome }, event.currentTarget)}
                         className="min-w-0 flex-1 touch-manipulation text-left text-[11px] font-medium leading-tight [overflow-wrap:anywhere] active:text-accent">
-                        {a.nome}<span className="ml-1 text-[9px] font-normal text-ink-faint" aria-hidden="true">ⓘ</span>
+                        {a.nome}
                       </button>
                       <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
                         aria-haspopup="dialog"
@@ -692,7 +682,7 @@ export default function CharacterClient({
                         {abilityBonus(sheet, a) || "—"}
                       </button>
                     </div>
-                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} locked={creationLocked && a.maestria} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
+                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} locked={a.maestria} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
                   </div>
                 ))}
               </div>
@@ -706,18 +696,18 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}>Competenze armi<InfoButton id="Competenze armi" title="Competenze armi" /></h3>
+            <h3 className={sectionTitle}><InfoLabel id="Competenze armi" title="Competenze armi" /></h3>
             <StringListEditor
               items={toList(sheet.competenzeArmi)}
               onChange={(v) => patch({ competenzeArmi: v })}
               addLabel="Aggiungi competenza"
               options={[...regole.competenzeArmi, ...nomiArmi]}
-              lockExisting={creationLocked}
+              lockExisting
               helpId="Competenze armi"
             />
           </div>
           <div>
-            <h3 className={sectionTitle}>Armi<InfoButton id="Armi" title="Armi" /></h3>
+            <h3 className={sectionTitle}><InfoLabel id="Armi" title="Armi" /></h3>
             <ArrayEditor
               items={sheet.armi}
               onChange={(items) => patch({ armi: items })}
@@ -729,7 +719,7 @@ export default function CharacterClient({
               subtitleOf={(a) => a.bonus}
               headerAccessory={(a, p) => (
                 <div className="flex items-center gap-1">
-                  <span className="text-xs text-ink-faint">×</span><InfoButton id="Quantità arma" title="Quantità arma" />
+                  <InfoLabel id="Quantità arma" title="Quantità" className="text-xs text-ink-faint" />
                   <InlineInput
                     value={a.quantita}
                     onChange={(v) => p({ quantita: v })}
@@ -756,7 +746,7 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}>Competenze armatura<InfoButton id="Competenze armatura" title="Competenze armatura" /></h3>
+            <h3 className={sectionTitle}><InfoLabel id="Competenze armatura" title="Competenze armatura" /></h3>
             <div className="flex flex-wrap gap-2">
               {(
                 [
@@ -771,14 +761,14 @@ export default function CharacterClient({
                   label={lab}
                   helpId="Competenze armatura"
                   checked={sheet.competenzeArmatura[key]}
-                  locked={creationLocked && sheet.competenzeArmatura[key]}
+                  locked={sheet.competenzeArmatura[key]}
                   onChange={(v) => patch({ competenzeArmatura: { ...sheet.competenzeArmatura, [key]: v } })}
                 />
               ))}
             </div>
           </div>
           <div>
-            <h3 className={sectionTitle}>Oggetti<InfoButton id="Oggetti" title="Oggetti" /></h3>
+            <h3 className={sectionTitle}><InfoLabel id="Oggetti" title="Oggetti" /></h3>
             <ArrayEditor
               items={sheet.equipaggiamento}
               onChange={(items) => patch({ equipaggiamento: items })}
@@ -802,7 +792,7 @@ export default function CharacterClient({
       title: "Privilegi",
       body: (
         <div>
-        <h3 className={sectionTitle}>Privilegi<InfoButton id="Privilegi" title="Privilegi" /></h3>
+        <h3 className={sectionTitle}><InfoLabel id="Privilegi" title="Privilegi" /></h3>
         <ArrayEditor
           items={sheet.privilegi}
           onChange={(items) => patch({ privilegi: items })}
@@ -822,13 +812,13 @@ export default function CharacterClient({
       title: "Talenti",
       body: (
         <div>
-        <h3 className={sectionTitle}>Talenti<InfoButton id="Talenti" title="Talenti" /></h3>
+        <h3 className={sectionTitle}><InfoLabel id="Talenti" title="Talenti" /></h3>
         <ArrayEditor
           items={sheet.talenti}
           onChange={(items) => patch({ talenti: items })}
           makeNew={() => ({ nome: "", scelte: "" })}
           addLabel="Aggiungi talento"
-          lockItem={(t) => creationLocked && Boolean(t.nome)}
+          lockItem={(t) => Boolean(t.nome)}
           renderItem={(t, p, _index, locked) => (
             <div className="flex flex-col gap-2">
               <TextField label="Nome" helpId="Nome talento" value={t.nome} options={nomiTalenti} locked={locked} onChange={(v) => p({ nome: v })} />
@@ -843,7 +833,7 @@ export default function CharacterClient({
       title: "Incantesimi",
       body: (
         <div>
-        <h3 className={sectionTitle}>Incantesimi<InfoButton id="Incantesimi" title="Incantesimi" /></h3>
+        <h3 className={sectionTitle}><InfoLabel id="Incantesimi" title="Incantesimi" /></h3>
         <ArrayEditor
           items={sheet.incantesimi}
           onChange={(items) => patch({ incantesimi: items })}
@@ -852,6 +842,7 @@ export default function CharacterClient({
           maxItems={30}
           collapsible
           titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
+          onTitleClick={(inc, _index, button) => { if (!inc.nome) return false; openFieldInfo(`incantesimo:${inc.nome}`, inc.nome, button); return true; }}
           renderItem={(inc, p) => (
             <div className="flex flex-col gap-2">
               <TextField label="Nome" helpId="Nome incantesimo" value={inc.nome} options={spellNames} onChange={(v) => p({ nome: v })} />
@@ -866,14 +857,14 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}>Monete<InfoButton id="Monete" title="Monete" /></h3>
+            <h3 className={sectionTitle}><InfoLabel id="Monete" title="Monete" /></h3>
             <div className="flex flex-col gap-2">
               {COINS.map(([lab, key]) => (
                 <div
                   key={key}
                   className="flex items-center justify-between rounded-lg border border-line bg-card/70 px-3 py-2 shadow-sm"
                 >
-                  <span className="flex items-center text-sm text-ink-soft">{lab}<InfoButton id="Monete" title={`monete di ${lab}`} /></span>
+                  <InfoLabel id="Monete" title={lab} className="text-sm text-ink-soft" />
                   <InlineInput
                     value={sheet.monete[key]}
                     onChange={(v) => patch({ monete: { ...sheet.monete, [key]: v } })}
@@ -923,7 +914,7 @@ export default function CharacterClient({
                 {name || "Senza nome"}
               </h1>
             </button>
-            <InfoButton id="Nome personaggio" title="Nome personaggio" />
+            <InfoLabel id="Nome personaggio" title="Nome" className="ml-1 text-xs text-ink-soft" />
             </div>
             <button
               type="button"
@@ -1081,7 +1072,7 @@ export default function CharacterClient({
                   <div className="mt-1 text-sm">{calculation.formula}</div>
                   <div className="mt-2 text-lg font-bold text-accent">Risultato: {calculation.result || "—"}</div>
                 </div>
-                {calculationTarget && <div className="mt-4 text-sm"><h3 className="font-semibold text-accent">Come cambia</h3><p className="mt-1">{calculationEditGuide(calculationTarget)}</p></div>}
+                {calculationTarget && <div className="mt-4 text-sm"><h3 className="font-semibold text-accent">Come si modifica</h3><p className="mt-1">{calculationEditGuide(calculationTarget)}</p></div>}
                 <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
                   target="_blank" rel="noreferrer" className="mt-4 inline-block text-xs font-medium text-accent underline">
                   Fonte: SRD 5.2.1 (regole 2024)
@@ -1089,7 +1080,7 @@ export default function CharacterClient({
               </div>
             </div>
           )}
-          {fieldInfo && fieldHelp && (
+          {fieldInfo && (fieldHelp || spell) && (
             <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4" onClick={closeFieldInfo}>
               <div role="dialog" aria-modal="true" aria-labelledby="field-info-title"
                 onClick={(event) => event.stopPropagation()}
@@ -1099,13 +1090,26 @@ export default function CharacterClient({
                   <button ref={fieldInfoClose} type="button" onClick={closeFieldInfo} aria-label="Chiudi spiegazione"
                     className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
                 </div>
-                <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Che cos&apos;è</h3>
-                <p className="mt-1 text-sm leading-relaxed">{fieldHelp.meaning}</p>
-                <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3>
-                <p className="mt-1 text-sm leading-relaxed">{fieldHelp.effect}</p>
-                <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Come si modifica</h3>
-                <p className="mt-1 text-sm leading-relaxed">{fieldInfo.locked && fieldHelp.lockedEdit ? fieldHelp.lockedEdit : fieldHelp.edit}</p>
-                {fieldHelp.rule && <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
+                {fieldHelp && <p className="mt-3 text-sm leading-relaxed">{fieldHelp.meaning}</p>}
+                {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed">{fieldHelp.effect}</p></>}
+                {spell && <>
+                  <dl className="mt-4 space-y-2 text-sm">
+                    {([
+                      ["Livello", spell.livello === 0 ? "Trucchetto" : String(spell.livello)],
+                      ["Scuola", spell.scuola],
+                      ["Classi", spell.classi.join(", ")],
+                      ["Tempo di lancio", spell.tempo],
+                      ["Gittata", spell.gittata],
+                      ["Componenti", spell.componenti],
+                      ["Materiale", "materiale" in spell ? spell.materiale : ""],
+                      ["Durata", spell.durata],
+                    ] as [string, string][]).filter(([, value]) => value).map(([label, value]) =>
+                      <div key={label} className="flex justify-between gap-4 border-b border-line/50 py-1"><dt>{label}</dt><dd className="text-right font-semibold">{value}</dd></div>,
+                    )}
+                  </dl>
+                  {spellName && spellEffects[spellName] && <p className="mt-4 text-sm leading-relaxed">{spellEffects[spellName]}</p>}
+                </>}
+                {(fieldHelp?.rule || spell) && <a href={`https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf${sourcePage ? `#page=${sourcePage}` : ""}`}
                   target="_blank" rel="noreferrer" className="mt-4 inline-block text-xs font-medium text-accent underline">
                   Fonte: SRD 5.2.1 (regole 2024)
                 </a>}

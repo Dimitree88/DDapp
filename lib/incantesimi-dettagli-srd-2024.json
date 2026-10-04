@@ -1,0 +1,4799 @@
+{
+  "Aculeo mentale": {
+    "livello": 2,
+    "scuola": "Divinazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "S",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 121
+  },
+  "Aiuto": {
+    "livello": 2,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "una striscia di tessuto bianco",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 121
+  },
+  "Allarme": {
+    "livello": 1,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago",
+      "ranger"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "9 metri",
+    "materiale": "una campanella e un filo d'argento",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 122
+  },
+  "Alleato planare": {
+    "livello": 6,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 122
+  },
+  "Allucinazione di forza": {
+    "livello": 2,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un ciuffo di lana",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 122
+  },
+  "Allucinazione mortale": {
+    "livello": 4,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 123
+  },
+  "Alterare se stesso": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 123
+  },
+  "Amicizia con gli animali": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "un boccone di cibo",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 123
+  },
+  "Anatema": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "chierico",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "una goccia di sangue",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 123
+  },
+  "Animale messaggero": {
+    "livello": 2,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "9 metri",
+    "materiale": "un boccone di cibo",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 123
+  },
+  "Animare morti": {
+    "livello": 3,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico",
+      "mago"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "3 metri",
+    "materiale": "una goccia di sangue, un pezzo di carne e un pizzico di polvere d'osso",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 124
+  },
+  "Animare oggetti": {
+    "livello": 5,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 124
+  },
+  "Anti-individuazione": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un pizzico di polvere di diamante del valore di 25 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 125
+  },
+  "Antipatia/simpatia": {
+    "livello": 8,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago"
+    ],
+    "tempo": "1 ora",
+    "gittata": "18 metri",
+    "materiale": "una miscela di aceto e miele",
+    "componenti": "V, S, M",
+    "durata": "10 giorni",
+    "pagina": 125
+  },
+  "Arma magica": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "paladino",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "1 ora",
+    "pagina": 125
+  },
+  "Arma spirituale": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 125
+  },
+  "Armatura magica": {
+    "livello": 1,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un pezzo di cuoio trattato",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 126
+  },
+  "Artificio druidico": {
+    "livello": 0,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 126
+  },
+  "Aura di vita": {
+    "livello": 4,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 126
+  },
+  "Aura magica dell'arcanista": {
+    "livello": 2,
+    "scuola": "Illusione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un piccolo pezzo quadrato di seta",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 126
+  },
+  "Aura sacra": {
+    "livello": 8,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un reliquiario del valore di 1.000 mo o più",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 126
+  },
+  "Bacche benefiche": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un rametto di vischio",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 127
+  },
+  "Bagliore lunare": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "una foglia di un vitigno legnoso",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 127
+  },
+  "Bagliore solare": {
+    "livello": 6,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "una lente d'ingrandimento",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 127
+  },
+  "Banchetto degli eroi": {
+    "livello": 6,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "incantatore",
+    "materiale": "una ciotola tempestata di gemme del valore di 1.000 mo o più, che l'incantesimo con suma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 127
+  },
+  "Barriera di lame": {
+    "livello": 6,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 127
+  },
+  "Beffa crudele": {
+    "livello": 0,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 128
+  },
+  "Benedizione": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "un simbolo sacro del valore di 5 mo o più",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 128
+  },
+  "Blocca mostri": {
+    "livello": 5,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "materiale": "una sbarra di ferro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 128
+  },
+  "Blocca persone": {
+    "livello": 2,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "una sbarra di ferro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 128
+  },
+  "Bocca magica": {
+    "livello": 2,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "9 metri",
+    "materiale": "polvere di giada del valore di 10 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 128
+  },
+  "Caduta morbida": {
+    "livello": 1,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "reazione, che l'incantatore può effet tuare quando egli stesso o una creatura entro 18 metri da lui che egli è in grado di vedere cade",
+    "gittata": "18 metri",
+    "materiale": "una piccola piuma",
+    "componenti": "V, M",
+    "durata": "1 minuto",
+    "pagina": 129
+  },
+  "Calmare emozioni": {
+    "livello": 2,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 129
+  },
+  "Camminare nel vento": {
+    "livello": 6,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "9 metri",
+    "materiale": "una candela",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 129
+  },
+  "Camminare sull'acqua": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "9 metri",
+    "materiale": "un pezzo di sughero",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 129
+  },
+  "Campo anti-magia": {
+    "livello": 8,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "limatura di ferro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 129
+  },
+  "Camuffare se stesso": {
+    "livello": 1,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "1 ora",
+    "pagina": 130
+  },
+  "Capanna": {
+    "livello": 3,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "incantatore",
+    "materiale": "una perla di cristallo",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 130
+  },
+  "Caratteristica potenziata": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un ciuffo di peli o una piuma",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 130
+  },
+  "Carne in pietra": {
+    "livello": 6,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "una piuma di coccatrice",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 130
+  },
+  "Catena di fulmini": {
+    "livello": 6,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "tre spilli d'argento",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 131
+  },
+  "Cecità/sordità": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V",
+    "durata": "1 minuto",
+    "pagina": 131
+  },
+  "Celare": {
+    "livello": 7,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "polvere di gemme del valore di 5.000 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 131
+  },
+  "Cerchio di morte": {
+    "livello": 6,
+    "scuola": "Necromanzia",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "polvere ricavata da una perla nera frantumata, del valore di 500 mo o più",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 131
+  },
+  "Cerchio di teletrasporto": {
+    "livello": 5,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "3 metri",
+    "materiale": "inchiostri rari dal valore di 50 mo o più, che l'incantesimo consuma",
+    "componenti": "V, M",
+    "durata": "1 round",
+    "pagina": 131
+  },
+  "Cerchio magico": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "mago",
+      "paladino",
+      "warlock"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "3 metri",
+    "materiale": "sale e polvere d'argento del valore di 100 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 132
+  },
+  "Charme su persone": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "1 ora",
+    "pagina": 132
+  },
+  "Charme sui mostri": {
+    "livello": 4,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "1 ora",
+    "pagina": 132
+  },
+  "Chiaroveggenza": {
+    "livello": 3,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "1,5 chilometri",
+    "materiale": "un focus del valore di 100 mo o più, a scelta tra un cornetto acustico incastonato di gemme o un occhio di vetro per la vista",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 132
+  },
+  "Clone": {
+    "livello": 8,
+    "scuola": "Necromanzia",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "1 ora",
+    "gittata": "contatto",
+    "materiale": "un diamante del valore di 1.000 mo o più, che l'incantesimo consuma, e un con tenitore sigillabile del valore di 2.000 mo o più, abba stanza grande da contenere la creatura da clonare",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 133
+  },
+  "Colpo accurato": {
+    "livello": 0,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un'arma nel cui uso l'incantatore ha competenza e ha un valore di 1 mr o più",
+    "componenti": "S, M",
+    "durata": "istantanea",
+    "pagina": 133
+  },
+  "Colpo infuocato": {
+    "livello": 5,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un pizzico di zolfo",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 133
+  },
+  "Colpo intrappolante": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "ranger"
+    ],
+    "tempo": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 133
+  },
+  "Coltello di ghiaccio": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "una goccia d'acqua o un frammento di ghiaccio",
+    "componenti": "S, M",
+    "durata": "istantanea",
+    "pagina": 133
+  },
+  "Comando": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 134
+  },
+  "Comprensione dei linguaggi": {
+    "livello": 1,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "incantatore",
+    "materiale": "un pizzico di fuliggine e di sale",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 134
+  },
+  "Compulsione": {
+    "livello": 4,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 134
+  },
+  "Comunione": {
+    "livello": 5,
+    "scuola": "Divinazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "incantatore",
+    "materiale": "incenso",
+    "componenti": "V, S, M",
+    "durata": "1 minuto",
+    "pagina": 134
+  },
+  "Comunione con la natura": {
+    "livello": 5,
+    "scuola": "Divinazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 134
+  },
+  "Confusione": {
+    "livello": 4,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "materiale": "tre gusci di noce",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 135
+  },
+  "Cono di freddo": {
+    "livello": 5,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un piccolo cono di cristallo o vetro",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 135
+  },
+  "Conoscenza delle leggende": {
+    "livello": 5,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "incantatore",
+    "materiale": "incenso del valore di 250 mo o più, che l'incantesimo consuma, e quattro bastoncini d'avorio del valore di 50 mo o più ciascuno",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 135
+  },
+  "Contagio": {
+    "livello": 5,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "7 giorni",
+    "pagina": 135
+  },
+  "Contattare altri piani": {
+    "livello": 5,
+    "scuola": "Divinazione",
+    "classi": [
+      "mago",
+      "warlock"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "1 minuto",
+    "pagina": 136
+  },
+  "Contingenza": {
+    "livello": 6,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "incantatore",
+    "materiale": "una statuetta dell'incantatore tempestata di gemme, del valore di 1.500 mo o più",
+    "componenti": "V, S, M",
+    "durata": "10 giorni",
+    "pagina": 136
+  },
+  "Controincantesimo": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "reazione, che l'incantatore può effettuare quando vede una creatura entro 18 metri da lui lanciare un incantesimo con componenti verbali, somatiche o materiali",
+    "gittata": "18 metri",
+    "componenti": "S",
+    "durata": "istantanea",
+    "pagina": 136
+  },
+  "Controllare acqua": {
+    "livello": 4,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "90 metri",
+    "materiale": "una miscela di acqua e polvere",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 136
+  },
+  "Controllare tempo atmosferico": {
+    "livello": 8,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "incantatore",
+    "materiale": "incenso bruciato",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 8 ore",
+    "pagina": 137
+  },
+  "Costrizione": {
+    "livello": 5,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "30 giorni",
+    "pagina": 137
+  },
+  "Creare cibo e acqua": {
+    "livello": 3,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 138
+  },
+  "Creare non morti": {
+    "livello": 6,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "3 metri",
+    "materiale": "una pietra onice nera del valore di 150 mo o più per ogni cadavere",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 138
+  },
+  "Creare o distruggere acqua": {
+    "livello": 1,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "una miscela di acqua e sabbia",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 138
+  },
+  "Creazione": {
+    "livello": 5,
+    "scuola": "Illusione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "9 metri",
+    "materiale": "un pennello",
+    "componenti": "V, S, M",
+    "durata": "speciale",
+    "pagina": 138
+  },
+  "Crescita di spine": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "sette spine",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 139
+  },
+  "Crescita vegetale": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione (Groviglio) o 8 ore (Fertilità)",
+    "gittata": "45 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 139
+  },
+  "Cura ferite": {
+    "livello": 1,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 139
+  },
+  "Cura ferite di massa": {
+    "livello": 5,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 139
+  },
+  "Danza irresistibile": {
+    "livello": 6,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 139
+  },
+  "Dardo di fuoco": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 140
+  },
+  "Dardo incantato": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 140
+  },
+  "Dardo tracciante": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "1 round",
+    "pagina": 140
+  },
+  "Deflagrazione occulta": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 140
+  },
+  "Desiderio": {
+    "livello": 9,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 140
+  },
+  "Destriero fantomatico": {
+    "livello": 3,
+    "scuola": "Illusione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "1 ora",
+    "pagina": 141
+  },
+  "Disco fluttuante": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "9 metri",
+    "materiale": "una goccia di mercurio",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 141
+  },
+  "Disintegrazione": {
+    "livello": 6,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "una calamita e della polvere",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 142
+  },
+  "Disorientare": {
+    "livello": 8,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "un portachiavi senza chiavi",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 142
+  },
+  "Dissolvi il bene e il male": {
+    "livello": 5,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "polvere d'argento e ferro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 142
+  },
+  "Dissolvi magie": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "ranger",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "Istantanea",
+    "pagina": 142
+  },
+  "Dito della morte": {
+    "livello": 7,
+    "scuola": "Necromanzia",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 143
+  },
+  "Divinazione": {
+    "livello": 4,
+    "scuola": "Divinazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "incantatore",
+    "materiale": "incenso del valore di 25 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 143
+  },
+  "Dominare bestie": {
+    "livello": 4,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "druido",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 143
+  },
+  "Dominare mostri": {
+    "livello": 8,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 143
+  },
+  "Dominare persone": {
+    "livello": 5,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 143
+  },
+  "Elementalismo": {
+    "livello": 0,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 144
+  },
+  "Eroismo": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 144
+  },
+  "Esilio": {
+    "livello": 4,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "mago",
+      "paladino",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "un pentacolo",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 144
+  },
+  "Esplosione solare": {
+    "livello": 8,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "un frammento di pietra di sole",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 145
+  },
+  "Estasiare": {
+    "livello": 2,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 145
+  },
+  "Evoca animali": {
+    "livello": 3,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 145
+  },
+  "Evoca celestiale": {
+    "livello": 7,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 145
+  },
+  "Evoca creature boschive": {
+    "livello": 4,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 145
+  },
+  "Evoca elementale": {
+    "livello": 5,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 146
+  },
+  "Evoca elementali minori": {
+    "livello": 4,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 146
+  },
+  "Evoca folletto": {
+    "livello": 6,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 146
+  },
+  "Evocazioni istantanee": {
+    "livello": 6,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "contatto",
+    "materiale": "uno zaffiro del valore di 1.000 mo o più",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 146
+  },
+  "Fabbricare": {
+    "livello": 4,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 147
+  },
+  "Faro di speranza": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 147
+  },
+  "Fatale": {
+    "livello": 9,
+    "scuola": "Illusione",
+    "classi": [
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 147
+  },
+  "Favore divino": {
+    "livello": 1,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "paladino"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "1 minuto",
+    "pagina": 147
+  },
+  "Ferire": {
+    "livello": 6,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 147
+  },
+  "Fermare il tempo": {
+    "livello": 9,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 147
+  },
+  "Fiamma perenne": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "polvere di rubino del valore di 50 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 148
+  },
+  "Fiamma sacra": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 148
+  },
+  "Fiotto acido": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 148
+  },
+  "Folata di vento": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido",
+      "ranger",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un seme di legume",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 148
+  },
+  "Fondersi nella pietra": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "8 ore",
+    "pagina": 148
+  },
+  "Forma eterea": {
+    "livello": 7,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "Fino a 8 ore",
+    "pagina": 149
+  },
+  "Forma gassosa": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un pezzo di garza",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 149
+  },
+  "Forme animali": {
+    "livello": 8,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "24 ore",
+    "pagina": 149
+  },
+  "Frantumare": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un frammento di mica",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 150
+  },
+  "Freccia acida": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "materiale": "foglia di rabarbaro in polvere",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 150
+  },
+  "Fulmine": {
+    "livello": 3,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un ciuffo di pelo e una verga di cristallo",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 150
+  },
+  "Fuorviare": {
+    "livello": 5,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "S",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 150
+  },
+  "Gabbia di forza": {
+    "livello": 7,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "30 metri",
+    "materiale": "polvere di rubino del valore di 1.500 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 150
+  },
+  "Giara magica": {
+    "livello": 6,
+    "scuola": "Necromanzia",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "incantatore",
+    "materiale": "una gemma, un cristallo o un reli quiario del valore di 500 mo o più",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 151
+  },
+  "Glifo di interdizione": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
+    "tempo": "1 ora",
+    "gittata": "contatto",
+    "materiale": "polvere di diamante del valore di 200 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto o innescato",
+    "pagina": 151
+  },
+  "Globo cromatico": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "materiale": "un diamante del valore di 50 mo o più",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 152
+  },
+  "Globo di invulnerabilità": {
+    "livello": 6,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "una perla di vetro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 152
+  },
+  "Guardiani spirituali": {
+    "livello": 3,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "una pergamena con una preghiera",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 152
+  },
+  "Guardiano della fede": {
+    "livello": 4,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V",
+    "durata": "8 ore",
+    "pagina": 153
+  },
+  "Guarigione": {
+    "livello": 6,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 153
+  },
+  "Guarigione di massa": {
+    "livello": 9,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 153
+  },
+  "Guida": {
+    "livello": 0,
+    "scuola": "Divinazione",
+    "classi": [
+      "chierico",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 153
+  },
+  "Guscio anti-vita": {
+    "livello": 5,
+    "scuola": "Abiurazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 153
+  },
+  "Identificare": {
+    "livello": 1,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "contatto",
+    "materiale": "una perla del valore di 100 mo o più",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 153
+  },
+  "Illusione minore": {
+    "livello": 0,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "un ciuffo di lana",
+    "componenti": "S, M",
+    "durata": "1 minuto",
+    "pagina": 153
+  },
+  "Illusione programmata": {
+    "livello": 6,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "polvere di giada del valore di 25 mo o più",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 154
+  },
+  "Immagine maggiore": {
+    "livello": 3,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "un ciuffo di lana",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 154
+  },
+  "Immagine proiettata": {
+    "livello": 7,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "800 chilometri",
+    "materiale": "una statuetta dell'incantatore del valore di 5 mo o più",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 giorno",
+    "pagina": 154
+  },
+  "Immagine silenziosa": {
+    "livello": 1,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un ciuffo di lana",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 155
+  },
+  "Immagine speculare": {
+    "livello": 2,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "1 minuto",
+    "pagina": 155
+  },
+  "Imprigionare": {
+    "livello": 9,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago",
+      "warlock"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "9 metri",
+    "materiale": "una statuetta del bersaglio del valore di 5.000 mo o più",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 155
+  },
+  "Inaridire": {
+    "livello": 4,
+    "scuola": "Necromanzia",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 156
+  },
+  "Individuazione dei pensieri": {
+    "livello": 2,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "1 pezzo di rame",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 156
+  },
+  "Individuazione del bene e del male": {
+    "livello": 1,
+    "scuola": "Divinazione",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 156
+  },
+  "Individuazione del magico": {
+    "livello": 1,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "ranger",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 157
+  },
+  "Individuazione delle malattie e dei veleni": {
+    "livello": 1,
+    "scuola": "Divinazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "incantatore",
+    "materiale": "una foglia di tasso",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 156
+  },
+  "Infliggi ferite": {
+    "livello": 1,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 157
+  },
+  "Ingrandire/ridurre": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "un pizzico di polvere di ferro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 157
+  },
+  "Insetto gigante": {
+    "livello": 4,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 157
+  },
+  "Interdizione alla morte": {
+    "livello": 4,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "8 ore",
+    "pagina": 158
+  },
+  "Intermittenza": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "1 minuto",
+    "pagina": 158
+  },
+  "Intimorire infernale": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "warlock"
+    ],
+    "tempo": "reazione, che l'incantatore effettua quando subisce danni da una creatura che egli è in grado di vedere entro 18 metri da sé",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 158
+  },
+  "Intralciare": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 158
+  },
+  "Inversione della gravità": {
+    "livello": 7,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "30 metri",
+    "materiale": "una calamita e limatura di ferro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 159
+  },
+  "Inviare": {
+    "livello": 3,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "Illimitata",
+    "materiale": "un filo di rame",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 159
+  },
+  "Invisibilità": {
+    "livello": 2,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un ciglio in uno strato di resina",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 159
+  },
+  "Invisibilità superiore": {
+    "livello": 4,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 159
+  },
+  "Invocare il fulmine": {
+    "livello": 3,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 159
+  },
+  "Labirinto": {
+    "livello": 8,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 160
+  },
+  "Lama infuocata": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido",
+      "stregone"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "incantatore",
+    "materiale": "una foglia di sommacco",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 160
+  },
+  "Legame planare": {
+    "livello": 5,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "1 ora",
+    "gittata": "18 metri",
+    "materiale": "un gioiello del valore di 1.000 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 160
+  },
+  "Legame telepatico": {
+    "livello": 5,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "9 metri",
+    "materiale": "due uova",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 160
+  },
+  "Lentezza": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "una goccia di melassa",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 161
+  },
+  "Levitazione": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "una molla in metallo",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 161
+  },
+  "Libertà di movimento": {
+    "livello": 4,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "una cinghia di cuoio",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 161
+  },
+  "Linguaggi": {
+    "livello": 3,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "una ziggurat in miniatura",
+    "componenti": "V, M",
+    "durata": "1 ora",
+    "pagina": 161
+  },
+  "Localizza animali o vegetali": {
+    "livello": 2,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "incantatore",
+    "materiale": "un ciuffo di peli di un segugio",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 161
+  },
+  "Localizza creatura": {
+    "livello": 4,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un ciuffo di peli di un segugio",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 162
+  },
+  "Localizza oggetto": {
+    "livello": 2,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un ramoscello biforcuto",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 162
+  },
+  "Loquacità": {
+    "livello": 8,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "1 ora",
+    "pagina": 162
+  },
+  "Luce": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "una lucciola o del muschio fosfore scente",
+    "componenti": "V, M",
+    "durata": "1 ora",
+    "pagina": 162
+  },
+  "Luce diurna": {
+    "livello": 3,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "1 ora",
+    "pagina": 162
+  },
+  "Luce splendente": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 162
+  },
+  "Luci danzanti": {
+    "livello": 0,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "(un frammento di fosforo",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 163
+  },
+  "Luminescenza": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 163
+  },
+  "Mani brucianti": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 163
+  },
+  "Mano arcana": {
+    "livello": 5,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "un guscio d'uovo e un guanto",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 163
+  },
+  "Mano magica": {
+    "livello": 0,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "1 minuto",
+    "pagina": 164
+  },
+  "Marchio del cacciatore": {
+    "livello": 1,
+    "scuola": "Divinazione",
+    "classi": [
+      "ranger"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "27 metri",
+    "componenti": "V",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 164
+  },
+  "Messaggio": {
+    "livello": 0,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "un filo di rame",
+    "componenti": "S, M",
+    "durata": "1 round",
+    "pagina": 164
+  },
+  "Metamorfosi": {
+    "livello": 4,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "il bozzolo di un bruco",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 164
+  },
+  "Metamorfosi pura": {
+    "livello": 9,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "una goccia di mercurio, una pic cola quantità di resina e uno sbuffo di fumo",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 165
+  },
+  "Miraggio arcano": {
+    "livello": 7,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "vista",
+    "componenti": "V, S",
+    "durata": "10 giorni",
+    "pagina": 165
+  },
+  "Modificare memoria": {
+    "livello": 5,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 165
+  },
+  "Movimenti del ragno": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "una goccia di bitume e un ragno",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 166
+  },
+  "Muovere il terreno": {
+    "livello": 6,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "una pala in miniatura",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 2 ore",
+    "pagina": 166
+  },
+  "Muro di forza": {
+    "livello": 5,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "un frammento di vetro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 166
+  },
+  "Muro di fuoco": {
+    "livello": 4,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "un pezzo di carbone",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 167
+  },
+  "Muro di ghiaccio": {
+    "livello": 6,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "un pezzo di quarzo",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 167
+  },
+  "Muro di pietra": {
+    "livello": 5,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "un cubo di granito",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 167
+  },
+  "Muro di spine": {
+    "livello": 6,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "una manciata di spine",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 168
+  },
+  "Muro di vento": {
+    "livello": 3,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "un ventaglio e una piuma",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 168
+  },
+  "Muro prismatico": {
+    "livello": 9,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "10 minuti",
+    "pagina": 168
+  },
+  "Nube di nebbia": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 169
+  },
+  "Nube incendiaria": {
+    "livello": 8,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 169
+  },
+  "Nube maleodorante": {
+    "livello": 3,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "materiale": "un uovo marcio",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 170
+  },
+  "Nube mortale": {
+    "livello": 5,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 170
+  },
+  "Occhio arcano": {
+    "livello": 4,
+    "scuola": "Divinazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "un ciuffo di peli di pipistrello",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 170
+  },
+  "Onda tonante": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 170
+  },
+  "Oscurità": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "pelo di pipistrello e un pezzo di carbone",
+    "componenti": "V, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 170
+  },
+  "Palla di fuoco": {
+    "livello": 3,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "una pallina di guano di pipistrello e zolfo",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 171
+  },
+  "Palla di fuoco ritardata": {
+    "livello": 7,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "una pallina di guano di pipistrello e zolfo",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 171
+  },
+  "Parlare con gli animali": {
+    "livello": 1,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "ranger",
+      "warlock"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "10 minuti",
+    "pagina": 171
+  },
+  "Parlare con i morti": {
+    "livello": 3,
+    "scuola": "Necromanzia",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "3 metri",
+    "materiale": "incenso bruciato",
+    "componenti": "V, S, M",
+    "durata": "10 minuti",
+    "pagina": 171
+  },
+  "Parlare con i vegetali": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "10 minuti",
+    "pagina": 171
+  },
+  "Parola del potere guarire": {
+    "livello": 9,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 172
+  },
+  "Parola del potere stordire": {
+    "livello": 8,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 172
+  },
+  "Parola del potere uccidere": {
+    "livello": 9,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 172
+  },
+  "Parola del ritiro": {
+    "livello": 6,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "1,5 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 172
+  },
+  "Parola divina": {
+    "livello": 7,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "9 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 172
+  },
+  "Parola guaritrice": {
+    "livello": 1,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 173
+  },
+  "Parola guaritrice di massa": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 173
+  },
+  "Passapareti": {
+    "livello": 5,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "un pizzico di semi di sesamo",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 173
+  },
+  "Passare senza tracce": {
+    "livello": 2,
+    "scuola": "Abiurazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "ceneri di vischio bruciato",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 173
+  },
+  "Passo velato": {
+    "livello": 2,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 173
+  },
+  "Passo veloce": {
+    "livello": 1,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un pizzico di terriccio",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 173
+  },
+  "Paura": {
+    "livello": 3,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "una piuma bianca",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 173
+  },
+  "Pelle coriacea": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "contatto",
+    "materiale": "un pezzo di corteccia",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 173
+  },
+  "Pelle di pietra": {
+    "livello": 4,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "polvere di diamante del valore di 100 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 174
+  },
+  "Piaga degli insetti": {
+    "livello": 5,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "90 metri",
+    "materiale": "una locusta",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 174
+  },
+  "Porta dimensionale": {
+    "livello": 4,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "150 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 174
+  },
+  "Portale": {
+    "livello": 9,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un diamante del valore di 5.000 mo o più",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 174
+  },
+  "Preghiera di guarigione": {
+    "livello": 2,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "9 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 174
+  },
+  "Presagio": {
+    "livello": 2,
+    "scuola": "Divinazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "incantatore",
+    "materiale": "bastoncini, ossa, carte o altri oggetti da divinazione dotati di contrassegni speciali, del valore di 25 mo o più",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 175
+  },
+  "Prestidigitazione": {
+    "livello": 0,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "3 metri",
+    "componenti": "V, S",
+    "durata": "fino a 1 ora",
+    "pagina": 175
+  },
+  "Previsione": {
+    "livello": 9,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "contatto",
+    "materiale": "una piuma di colibrì",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 175
+  },
+  "Produrre fiamma": {
+    "livello": 0,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "10 minuti",
+    "pagina": 175
+  },
+  "Proibizione": {
+    "livello": 6,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "10 minuti o rituale",
+    "gittata": "contatto",
+    "materiale": "polvere di rubino del valore di 1.000 mo o più",
+    "componenti": "V, S, M",
+    "durata": "1 giorno",
+    "pagina": 176
+  },
+  "Proiezione astrale": {
+    "livello": 9,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "1 ora",
+    "gittata": "3 metri",
+    "materiale": "per ogni bersaglio dell'incan tesimo, l'incantatore deve possedere un giacinto del valore di 1.000 mo o più e un lingotto d'argento del valore di 100 mo o più; l'incantesimo consuma entrambi",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 176
+  },
+  "Protezione dai veleni": {
+    "livello": 2,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "1 ora",
+    "pagina": 176
+  },
+  "Protezione dal bene e dal male": {
+    "livello": 1,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un'ampolla di acqua santa del valore di 25 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 176
+  },
+  "Protezione dall'energia": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 177
+  },
+  "Punizione divina": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "paladino"
+    ],
+    "tempo": "azione bonus che l'incantatore effettua subito dopo aver colpito un bersaglio con un'arma da mischia o con un colpo senz'armi",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 177
+  },
+  "Punizione incandescente": {
+    "livello": 1,
+    "scuola": "Invocazione",
+    "classi": [
+      "paladino"
+    ],
+    "tempo": "azione bonus che l'incantatore effettua subito dopo aver colpito un bersaglio con un'arma da mischia o con un colpo senz'armi",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "1 minuto",
+    "pagina": 177
+  },
+  "Punizione splendente": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "paladino"
+    ],
+    "tempo": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma da mischia o con un colpo senz'armi",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 177
+  },
+  "Purificare cibo e bevande": {
+    "livello": 1,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "paladino"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "3 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 177
+  },
+  "Raggio di affaticamento": {
+    "livello": 2,
+    "scuola": "Necromanzia",
+    "classi": [
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 177
+  },
+  "Raggio di gelo": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "Istantanea",
+    "pagina": 177
+  },
+  "Raggio di infermità": {
+    "livello": 1,
+    "scuola": "Necromanzia",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 178
+  },
+  "Raggio rovente": {
+    "livello": 2,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 178
+  },
+  "Ragnatela": {
+    "livello": 2,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un frammento di ragnatela comune",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 178
+  },
+  "Randello incantato": {
+    "livello": 0,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "incantatore",
+    "materiale": "vischio",
+    "componenti": "V, S, M",
+    "durata": "1 minuto",
+    "pagina": 178
+  },
+  "Reggia meravigliosa": {
+    "livello": 7,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "90 metri",
+    "materiale": "una miniatura di una porta del valore di 15 mo o più",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 178
+  },
+  "Reincarnazione": {
+    "livello": 5,
+    "scuola": "Necromanzia",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "1 ora",
+    "gittata": "contatto",
+    "materiale": "oli rari del valore di 1.000 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 179
+  },
+  "Resistenza": {
+    "livello": 0,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 179
+  },
+  "Respirare sott'acqua": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "9 metri",
+    "materiale": "un piccolo giunco",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 179
+  },
+  "Resurrezione": {
+    "livello": 7,
+    "scuola": "Necromanzia",
+    "classi": [
+      "bardo",
+      "chierico"
+    ],
+    "tempo": "1 ora",
+    "gittata": "contatto",
+    "materiale": "un diamante del valore di 1.000 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 179
+  },
+  "Resurrezione pura": {
+    "livello": 9,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico",
+      "druido"
+    ],
+    "tempo": "1 ora",
+    "gittata": "contatto",
+    "materiale": "diamanti del valore di 25.000 mo o più, che vengono consumati dall'incantesimo",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 180
+  },
+  "Rianimare morti": {
+    "livello": 5,
+    "scuola": "Necromanzia",
+    "classi": [
+      "bardo",
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "1 ora",
+    "gittata": "contatto",
+    "materiale": "un diamante del valore di 500 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 180
+  },
+  "Richiama drago": {
+    "livello": 5,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un oggetto su cui è incisa l'imma gine di un drago, del valore di 500 mo o più",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 180
+  },
+  "Rigenerazione": {
+    "livello": 7,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "contatto",
+    "materiale": "un ruota della preghiera",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 181
+  },
+  "Rimuovi maledizione": {
+    "livello": 3,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "mago",
+      "paladino",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "Istantanea",
+    "pagina": 181
+  },
+  "Rinascita": {
+    "livello": 3,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un diamante del valore di 300 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 181
+  },
+  "Riparare": {
+    "livello": 0,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "contatto",
+    "materiale": "due calamite",
+    "componenti": "V, S, M",
+    "durata": "Istantanea",
+    "pagina": 181
+  },
+  "Riposo inviolato": {
+    "livello": 2,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico",
+      "mago",
+      "paladino"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "contatto",
+    "materiale": "2 monete di rame, che l'incante simo consuma",
+    "componenti": "V, S, M",
+    "durata": "10 giorni",
+    "pagina": 181
+  },
+  "Risata incontenibile": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "una crostata e una piuma",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 181
+  },
+  "Riscaldare il metallo": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un pezzo di ferro e una fiamma",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 181
+  },
+  "Ristorare inferiore": {
+    "livello": 2,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 182
+  },
+  "Ristorare superiore": {
+    "livello": 5,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "polvere di diamante del valore di 100 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 182
+  },
+  "Risveglio": {
+    "livello": 5,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "druido"
+    ],
+    "tempo": "8 ore",
+    "gittata": "contatto",
+    "materiale": "un'agata del valore di 1.000 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 182
+  },
+  "Ritirata rapida": {
+    "livello": 1,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 182
+  },
+  "Salto": {
+    "livello": 1,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "contatto",
+    "materiale": "la zampa posteriore di una caval letta",
+    "componenti": "V, S, M",
+    "durata": "1 minuto",
+    "pagina": 182
+  },
+  "Salvare i morenti": {
+    "livello": 0,
+    "scuola": "Necromanzia",
+    "classi": [
+      "chierico",
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "4,5 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 182
+  },
+  "Santificare": {
+    "livello": 5,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "24 ore",
+    "gittata": "contatto",
+    "materiale": "incenso del valore di 1.000 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 183
+  },
+  "Santuario": {
+    "livello": 1,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "9 metri",
+    "materiale": "un frammento di vetro di uno specchio",
+    "componenti": "V, S, M",
+    "durata": "1 minuto",
+    "pagina": 183
+  },
+  "Santuario privato": {
+    "livello": 4,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "36 metri",
+    "materiale": "una sottile lamina di piombo",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 183
+  },
+  "Scagliare maledizione": {
+    "livello": 3,
+    "scuola": "Necromanzia",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 184
+  },
+  "Scassinare": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "Istantanea",
+    "pagina": 184
+  },
+  "Sciame di meteore": {
+    "livello": 9,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "1,5 chilometri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 184
+  },
+  "Scolpire pietra": {
+    "livello": 4,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "argilla morbida",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 184
+  },
+  "Scopri il percorso": {
+    "livello": 6,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "incantatore",
+    "materiale": "un set di strumenti di divinazione, come carte o rune, del valore di 100 mo o più",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 giorno",
+    "pagina": 184
+  },
+  "Scopri trappole": {
+    "livello": 2,
+    "scuola": "Divinazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 185
+  },
+  "Scrigno segreto": {
+    "livello": 4,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "uno scrigno che misura 90 x 60 x 60 centimetri, realizzato con materiali rari del valore di 5.000 mo o più e una riproduzione minuscola dello scrigno fatta degli stessi materiali del valore di 50 mo o più",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 185
+  },
+  "Scritto illusorio": {
+    "livello": 1,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "1 minuto o rituale",
+    "gittata": "contatto",
+    "materiale": "inchiostro del valore di 10 mo o più, che l'incantesimo consuma",
+    "componenti": "S, M",
+    "durata": "10 giorni",
+    "pagina": 185
+  },
+  "Scrutare": {
+    "livello": 5,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "incantatore",
+    "materiale": "un focus del valore di 1.000 mo o più, come una sfera di cristallo, uno specchio o una fonte d'acqua",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 185
+  },
+  "Scudo": {
+    "livello": 1,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "reazione, che l'incantatore effettua quando è colpito da un tiro per colpire o bersagliato dall'incantesimo dardo incantato",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "1 round",
+    "pagina": 186
+  },
+  "Scudo della fede": {
+    "livello": 1,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "18 metri",
+    "materiale": "una pergamena con una preghiera",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 186
+  },
+  "Scudo di fuoco": {
+    "livello": 4,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un frammento di fosforo o una lucciola",
+    "componenti": "V, S, M",
+    "durata": "10 minuti",
+    "pagina": 186
+  },
+  "Scurovisione": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "una carota essiccata",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 186
+  },
+  "Segugio fedele": {
+    "livello": 4,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "un fischietto d'argento",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 186
+  },
+  "Sembrare": {
+    "livello": 5,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "8 ore",
+    "pagina": 187
+  },
+  "Semipiano": {
+    "livello": 8,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "S",
+    "durata": "1 ora",
+    "pagina": 187
+  },
+  "Serratura arcana": {
+    "livello": 2,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "polvere d'oro del valore di 25 mo o più, che viene consumata dall'incantesimo",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 187
+  },
+  "Servitore inosservato": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "18 metri",
+    "materiale": "un pezzo di spago e di legno",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 187
+  },
+  "Sfera al vetriolo": {
+    "livello": 4,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "una goccia di bile",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 188
+  },
+  "Sfera congelante": {
+    "livello": 6,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "90 metri",
+    "materiale": "una sfera di cristallo in miniatura",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 188
+  },
+  "Sfera elastica": {
+    "livello": 4,
+    "scuola": "Abiurazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "una sfera di vetro",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 188
+  },
+  "Sfera infuocata": {
+    "livello": 2,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "una pallina di cera",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 188
+  },
+  "Sfocatura": {
+    "livello": 2,
+    "scuola": "Illusione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 189
+  },
+  "Sguardo penetrante": {
+    "livello": 6,
+    "scuola": "Necromanzia",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 189
+  },
+  "Silenzio": {
+    "livello": 2,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "ranger"
+    ],
+    "tempo": "azione o rituale",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 189
+  },
+  "Simbolo": {
+    "livello": 7,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "contatto",
+    "materiale": "polvere di diamante del valore di 1.000 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto o innescato",
+    "pagina": 189
+  },
+  "Simulacro": {
+    "livello": 7,
+    "scuola": "Illusione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "12 ore",
+    "gittata": "contatto",
+    "materiale": "polvere di rubino del valore di 1.500 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "finché non viene dissolto",
+    "pagina": 190
+  },
+  "Soffio del drago": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "contatto",
+    "materiale": "un peperoncino",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 190
+  },
+  "Sogno": {
+    "livello": 5,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "speciale",
+    "materiale": "una manciata di sabbia",
+    "componenti": "V, S, M",
+    "durata": "8 ore",
+    "pagina": 190
+  },
+  "Sonno": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un pizzico di sabbia o dei petali di rosa",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 191
+  },
+  "Sortilegio": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "warlock"
+    ],
+    "tempo": "azione bonus",
+    "gittata": "27 metri",
+    "materiale": "l'occhio pietrificato di un tritone",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 191
+  },
+  "Spada arcana": {
+    "livello": 7,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "materiale": "una spada in miniatura del valore di 250 mo o più",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 191
+  },
+  "Spostamento planare": {
+    "livello": 7,
+    "scuola": "Evocazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "una verga di metallo biforcuta del valore di 250 mo o più e in sintonia con un piano di esistenza",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 191
+  },
+  "Spruzzo colorato": {
+    "livello": 1,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un pizzico di sabbia colorata",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 191
+  },
+  "Spruzzo prismatico": {
+    "livello": 7,
+    "scuola": "Invocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 192
+  },
+  "Spruzzo velenoso": {
+    "livello": 0,
+    "scuola": "Necromanzia",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 192
+  },
+  "Stregoneria esplosiva": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 192
+  },
+  "Stretta folgorante": {
+    "livello": 0,
+    "scuola": "Invocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 192
+  },
+  "Suggestione": {
+    "livello": 2,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "una goccia di miele",
+    "componenti": "V, M",
+    "durata": "concentrazione, fino a 8 ore",
+    "pagina": 192
+  },
+  "Suggestione di massa": {
+    "livello": 6,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "una lingua di serpente",
+    "componenti": "V, M",
+    "durata": "24 ore",
+    "pagina": 193
+  },
+  "Sussurri dissonanti": {
+    "livello": 1,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 193
+  },
+  "Taumaturgia": {
+    "livello": 0,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V",
+    "durata": "Fino a 1 minuto",
+    "pagina": 193
+  },
+  "Telecinesi": {
+    "livello": 5,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 193
+  },
+  "Teletrasporto": {
+    "livello": 7,
+    "scuola": "Evocazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "3 metri",
+    "componenti": "V",
+    "durata": "istantanea",
+    "pagina": 194
+  },
+  "Tempesta di fuoco": {
+    "livello": 7,
+    "scuola": "Invocazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 195
+  },
+  "Tempesta di ghiaccio": {
+    "livello": 4,
+    "scuola": "Invocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "90 metri",
+    "materiale": "una muffola",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 195
+  },
+  "Tempesta di nevischio": {
+    "livello": 3,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "45 metri",
+    "materiale": "un ombrello in miniatura",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 195
+  },
+  "Tempesta di vendetta": {
+    "livello": 9,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "1,5 chilometri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 195
+  },
+  "Tentacoli neri": {
+    "livello": 4,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "27 metri",
+    "materiale": "un tentacolo",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 195
+  },
+  "Terremoto": {
+    "livello": 8,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "chierico",
+      "druido",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "150 metri",
+    "materiale": "una roccia fratturata",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 196
+  },
+  "Terreno illusorio": {
+    "livello": 4,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "druido",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "10 minuti",
+    "gittata": "90 metri",
+    "materiale": "un fungo",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 196
+  },
+  "Tocco del vampiro": {
+    "livello": 3,
+    "scuola": "Necromanzia",
+    "classi": [
+      "stregone",
+      "mago",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 196
+  },
+  "Tocco gelido": {
+    "livello": 0,
+    "scuola": "Necromanzia",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 197
+  },
+  "Trama ipnotica": {
+    "livello": 3,
+    "scuola": "Illusione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "36 metri",
+    "materiale": "una manciata di coriandoli",
+    "componenti": "S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 197
+  },
+  "Trasformazione": {
+    "livello": 9,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "druido",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un diadema di giada del valore di 1.500 mo o più",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 ora",
+    "pagina": 197
+  },
+  "Traslazione arborea": {
+    "livello": 5,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido",
+      "ranger"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 197
+  },
+  "Trasporto vegetale": {
+    "livello": 6,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "azione",
+    "gittata": "3 metri",
+    "componenti": "V, S",
+    "durata": "1 minuto",
+    "pagina": 197
+  },
+  "Trova cavalcatura": {
+    "livello": 2,
+    "scuola": "Evocazione",
+    "classi": [
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "componenti": "V, S",
+    "durata": "istantanea",
+    "pagina": 198
+  },
+  "Trova famiglio": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "1 ora o rituale",
+    "gittata": "3 metri",
+    "materiale": "incenso bruciato del valore di 10 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 198
+  },
+  "Trucco della corda": {
+    "livello": 2,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un pezzo di corda",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 199
+  },
+  "Tsunami": {
+    "livello": 8,
+    "scuola": "Evocazione",
+    "classi": [
+      "druido"
+    ],
+    "tempo": "1 minuto",
+    "gittata": "1,5 chilometri",
+    "componenti": "V, S",
+    "durata": "concentrazione, fino a 6 round",
+    "pagina": 199
+  },
+  "Unto": {
+    "livello": 1,
+    "scuola": "Evocazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "materiale": "un pezzo di cotenna di maiale o burro",
+    "componenti": "V, S, M",
+    "durata": "1 minuto",
+    "pagina": 199
+  },
+  "Vedere invisibilità": {
+    "livello": 2,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "un pizzico di talco",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 200
+  },
+  "Velocità": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "9 metri",
+    "materiale": "una scaglia di radice di liquirizia",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 1 minuto",
+    "pagina": 200
+  },
+  "Vigilanza e interdizione": {
+    "livello": 6,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "1 ora",
+    "gittata": "contatto",
+    "materiale": "una verga d'argento del valore di 10 mo o più",
+    "componenti": "V, S, M",
+    "durata": "24 ore",
+    "pagina": 200
+  },
+  "Vincolo di interdizione": {
+    "livello": 2,
+    "scuola": "Abiurazione",
+    "classi": [
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "un paio di anelli di platino del valore di 50 mo o più, che l'incantatore e il bersaglio devono indossare per la durata dell'incantesimo",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 200
+  },
+  "Visione del vero": {
+    "livello": 6,
+    "scuola": "Divinazione",
+    "classi": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "polvere di funghi del valore di 25 mo o più, che l'incantesimo consuma",
+    "componenti": "V, S, M",
+    "durata": "1 ora",
+    "pagina": 201
+  },
+  "Vita falsata": {
+    "livello": 1,
+    "scuola": "Necromanzia",
+    "classi": [
+      "mago",
+      "stregone"
+    ],
+    "tempo": "azione",
+    "gittata": "incantatore",
+    "materiale": "una goccia di alcol",
+    "componenti": "V, S, M",
+    "durata": "istantanea",
+    "pagina": 201
+  },
+  "Volare": {
+    "livello": 3,
+    "scuola": "Trasmutazione",
+    "classi": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "materiale": "una piuma",
+    "componenti": "V, S, M",
+    "durata": "concentrazione, fino a 10 minuti",
+    "pagina": 201
+  },
+  "Vuoto mentale": {
+    "livello": 8,
+    "scuola": "Abiurazione",
+    "classi": [
+      "bardo",
+      "mago"
+    ],
+    "tempo": "azione",
+    "gittata": "contatto",
+    "componenti": "V, S",
+    "durata": "24 ore",
+    "pagina": 201
+  },
+  "Zona di verità": {
+    "livello": 2,
+    "scuola": "Ammaliamento",
+    "classi": [
+      "bardo",
+      "chierico",
+      "paladino"
+    ],
+    "tempo": "azione",
+    "gittata": "18 metri",
+    "componenti": "V, S",
+    "durata": "10 minuti",
+    "pagina": 201
+  }
+}

@@ -16,8 +16,6 @@ test("a formed character keeps its class and origin", () => {
   changed.background = "Soldato";
   changed.specie = "Elfo";
   assert.deepEqual(creationErrors(sheet, changed), ["specie", "background"]);
-  assert.deepEqual(creationErrors(sheet, changed, "correzione_dm"), []);
-  assert.deepEqual(creationErrors(sheet, changed, "reincarnazione"), ["background"]);
 });
 
 test("level gains remain possible while acquired choices stay protected", () => {

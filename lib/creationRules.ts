@@ -1,7 +1,5 @@
 import type { Sheet } from "./sheet";
 
-export type ChangeReason = "reincarnazione" | "correzione_dm";
-
 // Taglia di base della specie (SRD 5.2.1). Effetti temporanei non la cambiano.
 export const speciesSizes: Record<string, readonly string[]> = {
   Dragonide: ["Media"],
@@ -16,7 +14,6 @@ export const speciesSizes: Record<string, readonly string[]> = {
 };
 
 const fixedFields = ["classe", "specie", "lignaggio", "background", "taglia"] as const;
-const reincarnationFields: readonly string[] = ["specie", "lignaggio", "taglia"];
 const missing = (before: string[], after: string[]) => {
   const remaining = [...after];
   return before.filter((value) => {
@@ -29,17 +26,15 @@ const missing = (before: string[], after: string[]) => {
 };
 
 // I valori acquisiti possono crescere con l'avanzamento, ma non essere rimossi
-// o sostituiti senza un'eccezione esplicita.
-export function creationErrors(before: Sheet, after: Sheet, reason?: ChangeReason): string[] {
+// o sostituiti dall'interfaccia.
+export function creationErrors(before: Sheet, after: Sheet): string[] {
   if (!after.creazioneCompletata) return ["La creazione completata non può essere annullata."];
-  const correction = reason === "correzione_dm";
   const errors: string[] = [];
   for (const field of fixedFields) {
     if (!before[field] || before[field] === after[field]) continue;
-    if (!correction && !(reason === "reincarnazione" && reincarnationFields.includes(field))) errors.push(field);
+    errors.push(field);
   }
-  if (before.sottoclasse && before.sottoclasse !== after.sottoclasse && !correction) errors.push("sottoclasse");
-  if (correction) return errors;
+  if (before.sottoclasse && before.sottoclasse !== after.sottoclasse) errors.push("sottoclasse");
   for (const language of missing(before.lingue, after.lingue)) errors.push(`lingua ${language}`);
   for (const proficiency of missing(before.competenzeArmi, after.competenzeArmi)) errors.push(`competenza ${proficiency}`);
   for (const [key, known] of Object.entries(before.competenzeArmatura)) {

@@ -21,15 +21,15 @@ export const EditContext = createContext<EditCtx>({
   requireUnlock: () => {},
 });
 
-type FieldInfoOpen = (id: string, title: string, locked: boolean, trigger: HTMLButtonElement) => void;
+type FieldInfoOpen = (id: string, title: string, trigger: HTMLButtonElement) => void;
 export const FieldInfoContext = createContext<FieldInfoOpen>(() => {});
 
-export function InfoButton({ id, title, locked = false }: { id: string; title: string; locked?: boolean }) {
+export function InfoLabel({ id, title, className = "" }: { id: string; title: string; className?: string }) {
   const open = useContext(FieldInfoContext);
   return <button type="button" aria-label={`Informazioni su ${title}`} aria-haspopup="dialog"
-    onClick={(event) => { event.stopPropagation(); open(id, title, locked, event.currentTarget); }}
-    className="ml-0.5 inline-flex min-h-6 min-w-6 shrink-0 touch-manipulation items-center justify-center rounded-full text-xs font-normal text-ink-faint active:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent">
-    <span aria-hidden="true">ⓘ</span>
+    onClick={(event) => { event.stopPropagation(); open(id, title, event.currentTarget); }}
+    className={`touch-manipulation text-left active:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent ${className}`}>
+    {title}
   </button>;
 }
 
@@ -112,7 +112,7 @@ export function TextField({
 
   return (
     <div className="block">
-      {label && <span className="mb-0.5 flex items-center text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}<InfoButton id={helpId ?? label} title={label} locked={locked} />{locked && <span className="ml-1" aria-label="Scelta bloccata">🔒</span>}</span>}
+      {label && <InfoLabel id={helpId ?? label} title={label} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" />}
       {editing && !locked ? (
         options ? (
           <select
@@ -157,7 +157,7 @@ export function TextField({
         )
       ) : locked ? (
         <button type="button" aria-label={`Informazioni su ${label || helpId || "campo"}`} aria-haspopup="dialog"
-          onClick={(event) => openInfo(helpId ?? label, label || helpId || "Campo", true, event.currentTarget)}
+          onClick={(event) => openInfo(helpId ?? label, label || helpId || "Campo", event.currentTarget)}
           className={`${readonlyBase} text-left ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""}`}>
           {value || <span className="text-ink-faint">—</span>}
         </button>
@@ -201,7 +201,7 @@ export function NumberUnitField({
   };
   return (
     <div className="block">
-      <span className="mb-0.5 flex items-center text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}<InfoButton id={label} title={label} /></span>
+      <InfoLabel id={label} title={label} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" />
       {editing ? (
         <div className="flex items-center gap-1">
           <input
@@ -298,7 +298,6 @@ export function Toggle({
   helpId?: string;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
-  const openInfo = useContext(FieldInfoContext);
   const onTap = useDoubleTap(() =>
     locked ? undefined : unlocked ? onChange(!checked) : requireUnlock(),
   );
@@ -309,9 +308,8 @@ export function Toggle({
     <span className="inline-flex items-center">
     <button
       type="button"
-      onClick={(event) => locked
-        ? openInfo(helpId ?? label, label, true, event.currentTarget)
-        : onTap()}
+      onClick={onTap}
+      aria-label={`${checked ? "Rimuovi" : "Aggiungi"} ${label}`}
       aria-disabled={locked}
       className={`flex touch-manipulation items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${active}`}
     >
@@ -322,9 +320,8 @@ export function Toggle({
       >
         {checked ? "✓" : ""}
       </span>
-      {label}
     </button>
-    <InfoButton id={helpId ?? label} title={label} locked={locked} />
+    <InfoLabel id={helpId ?? label} title={label} className="ml-1.5 text-xs font-medium text-ink-soft" />
     </span>
   );
 }
