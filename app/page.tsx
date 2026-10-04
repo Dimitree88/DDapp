@@ -2,7 +2,6 @@ import { asc } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characters } from "@/lib/db/schema";
 import { CharacterCard } from "@/components/CharacterCard";
-import { NewCharacter } from "@/components/NewCharacter";
 
 export const dynamic = "force-dynamic";
 
@@ -30,10 +29,6 @@ export default async function Home() {
             classe={c.data.classe}
           />
         ))}
-      </section>
-
-      <section className="mt-8">
-        <NewCharacter />
       </section>
     </div>
   );

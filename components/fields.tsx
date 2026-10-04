@@ -68,6 +68,7 @@ export function TextField({
   options,
   numeric,
   allowEmpty = true,
+  locked = false,
 }: {
   label: string;
   value: string;
@@ -78,11 +79,13 @@ export function TextField({
   options?: readonly string[];
   numeric?: NumericMode;
   allowEmpty?: boolean;
+  locked?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(value);
   const onTap = useDoubleTap(() => {
+    if (locked) return;
     if (!unlocked) return requireUnlock();
     setDraft(value);
     setEditing(true);
@@ -94,8 +97,8 @@ export function TextField({
 
   return (
     <label className="block">
-      {label && <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>}
-      {editing ? (
+      {label && <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}{locked && <span className="ml-1" aria-label="Scelta bloccata">🔒</span>}</span>}
+      {editing && !locked ? (
         options ? (
           <select
             value={options.includes(value) ? value : ""}
@@ -140,7 +143,7 @@ export function TextField({
       ) : (
         <div
           onClick={onTap}
-          className={`${readonlyBase} ${unlocked ? editableHint : ""} ${
+          className={`${readonlyBase} ${unlocked && !locked ? editableHint : ""} ${
             multiline ? "whitespace-pre-wrap leading-relaxed" : ""
           }`}
         >
@@ -264,14 +267,16 @@ export function Toggle({
   label,
   checked,
   onChange,
+  locked = false,
 }: {
   label: string;
   checked: boolean;
   onChange: (v: boolean) => void;
+  locked?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const onTap = useDoubleTap(() =>
-    unlocked ? onChange(!checked) : requireUnlock(),
+    locked ? undefined : unlocked ? onChange(!checked) : requireUnlock(),
   );
   const active = checked
     ? "border-accent bg-accent/12 text-accent"
@@ -280,6 +285,7 @@ export function Toggle({
     <button
       type="button"
       onClick={onTap}
+      aria-disabled={locked}
       className={`flex touch-manipulation items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${active}`}
     >
       <span

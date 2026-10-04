@@ -19,6 +19,10 @@ gruppo di amici (6-7 giocatori, max 10). Lingua UI: **italiano**. Hostata su
 - **Calcolo automatico dei valori derivati:** modificatori delle caratteristiche,
   bonus competenza dal livello, tiri salvezza, bonus abilità (con Maestria),
   Iniziativa (con Allerta) e Percezione passiva. Gli altri valori restano manuali, salvo richiesta esplicita.
+- **Scelte acquisite:** i personaggi si creano manualmente, fuori dall'interfaccia.
+  Classe, origine e Taglia di base sono protette. Sottoclasse, talenti, lingue e
+  competenze acquisite restano, mentre si possono aggiungere nuove scelte con
+  l'avanzamento. Reincarnazione e correzione concordata con il DM sono eccezioni esplicite.
 - **Scala piccola e privata** → niente auth pesante.
 - **Accesso a PIN per personaggio:** tutti vedono tutte le schede in sola lettura;
   per modificare una scheda si inserisce il **PIN a 4 cifre** di quel personaggio.
@@ -47,7 +51,7 @@ anche l'ambiente locale si collega a quello).
   `data` JSON = `Sheet`, timestamps).
 - `lib/db/index.ts` — client Drizzle su libSQL (legge `DATABASE_URL`/`DATABASE_AUTH_TOKEN`).
 - `lib/auth.ts` — hashing PIN (scrypt) + firma/verifica cookie di sblocco (HMAC, `SESSION_SECRET`).
-- `app/actions.ts` — server actions: `createCharacter`, `unlock`, `lock`, `saveSheet`.
+- `app/actions.ts` — server actions per salvataggio, storico e cancellazione.
 - `app/layout.tsx` — root layout: carica i font TT Jenevers via `next/font/local`.
 - `app/globals.css` — palette pergamena (token Tailwind) + sfondo fisso (`body::before`).
 - `app/page.tsx` — landing: elenco personaggi + form nuovo personaggio.

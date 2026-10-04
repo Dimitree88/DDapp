@@ -2,6 +2,7 @@ import rules from "./regole-srd-2024.json";
 import type { Sheet } from "./sheet";
 import { numericValueValid, type NumericMode } from "./numeric";
 import { spellNames } from "./spells";
+import { speciesSizes } from "./creationRules";
 
 const classes = rules.classi as Record<string, string[]>;
 const lineages = rules.lignaggi as Record<string, string[]>;
@@ -25,6 +26,9 @@ export function domainErrors(sheet: Sheet): string[] {
   check("Background", sheet.background, rules.background);
   check("Allineamento", sheet.allineamento, rules.allineamenti);
   check("Taglia", sheet.taglia, rules.taglie);
+  if (sheet.specie && sheet.taglia && !speciesSizes[sheet.specie]?.includes(sheet.taglia)) {
+    errors.push(`Taglia ${sheet.taglia} non prevista per ${sheet.specie}`);
+  }
   checkNumber("Punti ferita", sheet.puntiFerita, "unsigned");
   checkNumber("Punti ferita massimi", sheet.puntiFeritaMax, "unsigned");
   if (sheet.classeArmatura !== null && (!Number.isSafeInteger(sheet.classeArmatura) || sheet.classeArmatura < 0)) errors.push(`Classe armatura: ${sheet.classeArmatura}`);

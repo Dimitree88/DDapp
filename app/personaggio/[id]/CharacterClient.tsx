@@ -26,6 +26,7 @@ import { spellNames } from "@/lib/spells";
 import type { Sheet, Caratteristica, Abilita } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
+import { speciesSizes, type ChangeReason } from "@/lib/creationRules";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -52,12 +53,16 @@ function ComputedField({ label, value, explainLabel, onExplain }: {
   onExplain: (button: HTMLButtonElement) => void;
 }) {
   return <div>
-    <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>
     <button type="button" onClick={(event) => onExplain(event.currentTarget)}
       aria-label={`Spiega il calcolo: ${explainLabel ?? label}`}
       aria-haspopup="dialog"
-      className="flex min-h-[2rem] w-full touch-manipulation items-center justify-between rounded-lg bg-card/40 px-3 py-1 text-left text-[15px] text-ink active:bg-card">
-      <span>{value || "—"}</span><span className="ml-1 text-xs text-ink-faint" aria-hidden="true">ⓘ</span>
+      className="w-full touch-manipulation text-left active:text-accent">
+      <span className="mb-0.5 flex items-center gap-1 text-[10px] font-medium uppercase tracking-wide text-ink-soft">
+        {label}<span className="text-xs normal-case" aria-hidden="true">ⓘ</span>
+      </span>
+      <span className="flex min-h-[2rem] items-center rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">
+        {value || "—"}
+      </span>
     </button>
   </div>;
 }
@@ -89,11 +94,13 @@ function StringListEditor({
   onChange,
   addLabel,
   options,
+  lockExisting = false,
 }: {
   items: string[];
   onChange: (v: string[]) => void;
   addLabel: string;
   options?: readonly string[];
+  lockExisting?: boolean;
 }) {
   const { unlocked } = useContext(EditContext);
   return (
@@ -105,10 +112,10 @@ function StringListEditor({
             •
           </span>
           <div className="min-w-0 flex-1">
-            {options ? <TextField label="" value={it} options={options} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
+            {options ? <TextField label="" value={it} options={options} locked={lockExisting && Boolean(it)} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
               <InlineInput value={it} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} className="flex-1" placeholder="…" />}
           </div>
-          {unlocked && (
+          {unlocked && !(lockExisting && it) && (
             <button
               type="button"
               onClick={() => onChange(items.filter((_, idx) => idx !== i))}
@@ -140,19 +147,22 @@ function StringListEditor({
 function CompetenceDot({
   checked,
   onChange,
+  locked = false,
 }: {
   checked: boolean;
   onChange: (v: boolean) => void;
+  locked?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const onTap = useDoubleTap(() =>
-    unlocked ? onChange(!checked) : requireUnlock(),
+    locked ? undefined : unlocked ? onChange(!checked) : requireUnlock(),
   );
   return (
     <button
       type="button"
       onClick={onTap}
       aria-label="Competente"
+      aria-disabled={locked}
       className={`grid h-4 w-4 shrink-0 touch-manipulation place-items-center rounded-full border text-[9px] transition-colors ${
         checked
           ? "border-accent bg-accent text-parchment"
@@ -175,17 +185,19 @@ function ArrayEditor<T>({
   subtitleOf,
   headerAccessory,
   maxItems,
+  lockItem,
 }: {
   items: T[];
   onChange: (items: T[]) => void;
   makeNew: () => T;
   addLabel: string;
-  renderItem: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
+  renderItem: (item: T, patch: (p: Partial<T>) => void, index: number, locked: boolean) => ReactNode;
   collapsible?: boolean;
   titleOf?: (item: T, index: number) => string;
   subtitleOf?: (item: T, index: number) => string;
   headerAccessory?: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
   maxItems?: number;
+  lockItem?: (item: T) => boolean;
 }) {
   const { unlocked } = useContext(EditContext);
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
@@ -261,8 +273,8 @@ function ArrayEditor<T>({
               </div>
               {open && (
                 <div className="border-t border-line/70 px-3 py-3">
-                  {renderItem(item, (p) => patchAt(i, p), i)}
-                  {unlocked && (
+                  {renderItem(item, (p) => patchAt(i, p), i, lockItem?.(item) ?? false)}
+                  {unlocked && !lockItem?.(item) && (
                     <button
                       type="button"
                       onClick={() => removeAt(i)}
@@ -291,8 +303,8 @@ function ArrayEditor<T>({
       )}
       {items.map((item, i) => (
         <div key={i} className={card}>
-          {renderItem(item, (p) => patchAt(i, p), i)}
-          {unlocked && (
+          {renderItem(item, (p) => patchAt(i, p), i, lockItem?.(item) ?? false)}
+          {unlocked && !lockItem?.(item) && (
             <button
               type="button"
               onClick={() => removeAt(i)}
@@ -332,6 +344,7 @@ export default function CharacterClient({
 }) {
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
   const [name] = useState(initialName);
+  const [changeReason, setChangeReason] = useState<ChangeReason | null>(null);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
   const [selected, setSelected] = useState(0);
@@ -410,11 +423,11 @@ export default function CharacterClient({
     };
   }, [emblaApi]);
 
-  const queueSave = useCallback((nextSheet: Sheet) => {
-    const task = saveChainRef.current.then(() => saveSheet(id, name, nextSheet));
+  const queueSave = useCallback((nextSheet: Sheet, reason: ChangeReason | null = changeReason) => {
+    const task = saveChainRef.current.then(() => saveSheet(id, name, nextSheet, reason ?? undefined));
     saveChainRef.current = task.then(() => undefined, () => undefined);
     return task;
-  }, [id, name]);
+  }, [id, name, changeReason]);
 
   // Salvataggio automatico: a ogni modifica, con debounce. Le richieste restano in ordine.
   useEffect(() => {
@@ -453,6 +466,14 @@ export default function CharacterClient({
     snapshot();
     setSheet((s) => ({ ...s, ...p }));
   };
+  const finishException = async () => {
+    const saved = await queueSave(sheet, changeReason);
+    if (!saved.ok) { setSaveState("error"); return; }
+    setChangeReason(null);
+    historyRef.current = [];
+    setHistLen(0);
+    setSaveState("saved");
+  };
   const updateCar = (i: number, p: Partial<Caratteristica>) => {
     snapshot();
     setSheet((s) => ({
@@ -474,6 +495,8 @@ export default function CharacterClient({
   }
 
   const [exporting, setExporting] = useState<"current" | "template" | null>(null);
+  const creationLocked = changeReason !== "correzione_dm";
+  const originLocked = creationLocked && changeReason !== "reincarnazione";
   async function handleExport(kind: "current" | "template") {
     setExporting(kind);
     try {
@@ -497,9 +520,9 @@ export default function CharacterClient({
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
             <TextField label="Livello" value={sheet.livello} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
-            <TextField label="Classe" value={sheet.classe} options={classi} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
+            <TextField label="Classe" value={sheet.classe} options={classi} locked={creationLocked && Boolean(sheet.classe)} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
           </div>
-          <TextField label="Sottoclasse" value={sheet.sottoclasse} options={sottoclassi[sheet.classe] ?? []} onChange={(v) => patch({ sottoclasse: v })} />
+          <TextField label="Sottoclasse" value={sheet.sottoclasse} options={sottoclassi[sheet.classe] ?? []} locked={creationLocked && Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />
           <div className={grid2}>
             <TextField label="Punti Ferita" value={sheet.puntiFerita} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
             <TextField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
@@ -527,13 +550,24 @@ export default function CharacterClient({
           </div>
           <div className={grid2}>
             <TextField label="Allineamento" value={sheet.allineamento} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
-            <TextField label="Taglia" value={sheet.taglia} options={regole.taglie} onChange={(v) => patch({ taglia: v })} />
+            <TextField label="Taglia base" value={sheet.taglia} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={originLocked && Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Specie" value={sheet.specie} options={regole.specie} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "" })} />
-            <TextField label="Background" value={sheet.background} options={regole.background} onChange={(v) => patch({ background: v })} multiline />
+            <TextField label="Specie" value={sheet.specie} options={regole.specie} locked={originLocked && Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
+            <TextField label="Background" value={sheet.background} options={regole.background} locked={creationLocked && Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
           </div>
-          {lignaggi[sheet.specie] && <TextField label="Lignaggio" value={sheet.lignaggio} options={lignaggi[sheet.specie]} onChange={(v) => patch({ lignaggio: v })} />}
+          {lignaggi[sheet.specie] && <TextField label="Lignaggio" value={sheet.lignaggio} options={lignaggi[sheet.specie]} locked={originLocked && Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
+          <div className="rounded-xl border border-line bg-card/70 p-3 text-xs text-ink-soft">
+            <p>Le scelte iniziali sono bloccate; puoi aggiungere nuove capacità con l’avanzamento. Gli effetti temporanei non cambiano la Taglia base.</p>
+            {changeReason ? (
+              <button type="button" onClick={finishException} className="mt-2 rounded-lg border border-accent px-3 py-1.5 font-semibold text-accent">Termina modifica eccezionale</button>
+            ) : (
+              <div className="mt-2 flex flex-wrap gap-2">
+                <button type="button" onClick={() => setChangeReason("reincarnazione")} className="rounded-lg border border-line px-2 py-1">Reincarnazione</button>
+                <button type="button" onClick={() => setChangeReason("correzione_dm")} className="rounded-lg border border-line px-2 py-1">Correzione concordata con il DM</button>
+              </div>
+            )}
+          </div>
         </div>
       ),
     },
@@ -546,6 +580,7 @@ export default function CharacterClient({
           onChange={(v) => patch({ lingue: v })}
           addLabel="Aggiungi lingua"
           options={lingue}
+          lockExisting={creationLocked}
         />
         <TextField label="Note lingue" value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
         </div>
@@ -562,6 +597,7 @@ export default function CharacterClient({
                 <Toggle
                   label="Tiro Salvezza"
                   checked={c.tsCompetente}
+                  locked={creationLocked && c.tsCompetente}
                   onChange={(v) => updateCar(i, { tsCompetente: v })}
                 />
               </div>
@@ -596,16 +632,21 @@ export default function CharacterClient({
                 {sheet.abilita.map((a, i) => a.caratteristica === caratteristica && (
                   <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
                     <div className="flex items-center gap-1.5">
-                      <CompetenceDot checked={a.competente} onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
-                      <div className="min-w-0 flex-1 text-[11px] font-medium leading-tight [overflow-wrap:anywhere]">{a.nome}</div>
+                      <CompetenceDot checked={a.competente} locked={creationLocked && a.competente} onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
                       <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
                         aria-haspopup="dialog"
                         onClick={(event) => openCalculation({ kind: "ability", name: a.nome }, event.currentTarget)}
-                        className="ml-1 flex w-10 shrink-0 touch-manipulation items-center justify-end gap-0.5 text-sm font-bold text-ink active:text-accent">
-                        {abilityBonus(sheet, a) || "—"}<span className="text-[9px] font-normal text-ink-faint" aria-hidden="true">ⓘ</span>
+                        className="min-w-0 flex-1 touch-manipulation text-left text-[11px] font-medium leading-tight [overflow-wrap:anywhere] active:text-accent">
+                        {a.nome}<span className="ml-1 text-[9px] font-normal text-ink-faint" aria-hidden="true">ⓘ</span>
+                      </button>
+                      <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
+                        aria-haspopup="dialog"
+                        onClick={(event) => openCalculation({ kind: "ability", name: a.nome }, event.currentTarget)}
+                        className="ml-1 flex w-10 shrink-0 touch-manipulation items-center justify-end text-sm font-bold text-ink active:text-accent">
+                        {abilityBonus(sheet, a) || "—"}
                       </button>
                     </div>
-                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
+                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} locked={creationLocked && a.maestria} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
                   </div>
                 ))}
               </div>
@@ -625,6 +666,7 @@ export default function CharacterClient({
               onChange={(v) => patch({ competenzeArmi: v })}
               addLabel="Aggiungi competenza"
               options={[...regole.competenzeArmi, ...nomiArmi]}
+              lockExisting={creationLocked}
             />
           </div>
           <div>
@@ -681,6 +723,7 @@ export default function CharacterClient({
                   key={key}
                   label={lab}
                   checked={sheet.competenzeArmatura[key]}
+                  locked={creationLocked && sheet.competenzeArmatura[key]}
                   onChange={(v) => patch({ competenzeArmatura: { ...sheet.competenzeArmatura, [key]: v } })}
                 />
               ))}
@@ -732,9 +775,10 @@ export default function CharacterClient({
           onChange={(items) => patch({ talenti: items })}
           makeNew={() => ({ nome: "", scelte: "" })}
           addLabel="Aggiungi talento"
-          renderItem={(t, p) => (
+          lockItem={(t) => creationLocked && Boolean(t.nome)}
+          renderItem={(t, p, _index, locked) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" value={t.nome} options={nomiTalenti} onChange={(v) => p({ nome: v })} />
+              <TextField label="Nome" value={t.nome} options={nomiTalenti} locked={locked} onChange={(v) => p({ nome: v })} />
               <TextField label="Scelte personali" value={t.scelte} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}

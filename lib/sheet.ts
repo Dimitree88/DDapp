@@ -43,6 +43,7 @@ export type Incantesimo = {
 };
 
 export type Sheet = {
+  creazioneCompletata: boolean;
   // Pagina: Stato
   livello: string;
   classe: string;
@@ -137,6 +138,7 @@ const ABILITA_BASE: { nome: string; caratteristica: string }[] = [
 // Scheda vuota pre-popolata con lo scheletro standard (caratteristiche e abilità).
 export function emptySheet(): Sheet {
   return {
+    creazioneCompletata: true,
     livello: "1",
     classe: "",
     sottoclasse: "",
@@ -253,6 +255,7 @@ export function normalizeSheet(value: Sheet): Sheet {
   }
   const normalized = {
     ...value,
+    creazioneCompletata: value.creazioneCompletata !== false,
     sottoclasse: typeof old.sottoclasse === "string" ? old.sottoclasse : "",
     lignaggio: typeof old.lignaggio === "string" ? old.lignaggio : "",
     noteLingue,

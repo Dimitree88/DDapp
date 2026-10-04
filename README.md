@@ -9,6 +9,13 @@ armatura e velocità sono numeri con note separate. Classi, sottoclassi, specie,
 lignaggi, background, lingue, allineamenti, taglie, armi, talenti e livelli degli
 incantesimi usano i domini del catalogo JSON.
 
+I personaggi vengono creati manualmente, fuori dall'interfaccia. Classe, Specie,
+Lignaggio, Background e Taglia di base sono bloccati; Sottoclasse,
+talenti, lingue e competenze già acquisiti non possono essere rimossi o sostituiti.
+Una correzione concordata con il DM o una Reincarnazione richiedono l'azione
+esplicita nella pagina Stato & Identità. Le schede esistenti sono state marcate come formate
+con `node --import tsx scripts/migrate-creation-lock.mjs --apply`.
+
 ## Stack
 - **Next.js 16** (App Router, Server Actions) + **React 19**
 - **Tailwind CSS v4**

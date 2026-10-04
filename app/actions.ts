@@ -1,31 +1,16 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { redirect } from "next/navigation";
 import { randomUUID } from "crypto";
 import { eq, sql } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
-import { emptySheet, normalizeSheet, type Sheet } from "@/lib/sheet";
+import { normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
 import { diffSheet, historyTimestampMs, type HistoryChange } from "@/lib/history";
+import { creationErrors, type ChangeReason } from "@/lib/creationRules";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
-
-export async function createCharacter(formData: FormData) {
-  const name = String(formData.get("name") ?? "").trim();
-  if (!name) return;
-
-  const id = randomUUID();
-  await db.transaction(async (tx) => {
-    await tx.insert(characters).values({ id, name, pinHash: "", data: emptySheet() });
-    await tx.insert(characterHistory).values({
-      id: randomUUID(), characterId: id, occurredAt: new Date(),
-      changes: [{ field: "Personaggio creato", before: "—", after: name }],
-    });
-  });
-  redirect(`/personaggio/${id}`);
-}
 
 export async function deleteCharacter(id: string) {
   await db.transaction(async (tx) => {
@@ -53,6 +38,7 @@ export async function saveSheet(
   id: string,
   name: string,
   sheet: Sheet,
+  changeReason?: ChangeReason,
 ): Promise<{ ok: boolean; error?: string }> {
   const cleanName = name.trim() || "Senza nome";
   const normalized = normalizeSheet(sheet);
@@ -61,9 +47,13 @@ export async function saveSheet(
   const result = await db.transaction(async (tx) => {
     const [current] = await tx.select().from(characters).where(eq(characters.id, id));
     if (!current) return { ok: false, error: "Personaggio non trovato" };
-    const changes = diffSheet(normalizeSheet(current.data), normalized);
+    const previous = normalizeSheet(current.data);
+    const locked = creationErrors(previous, normalized, changeReason);
+    if (locked.length) return { ok: false, error: `Scelte bloccate: ${locked.join(", ")}` };
+    const changes = diffSheet(previous, normalized);
     if (current.name !== cleanName) changes.unshift({ field: "Nome del personaggio", before: current.name, after: cleanName });
     if (changes.length === 0) return { ok: true };
+    if (changeReason) changes.push({ field: "Eccezione", before: "—", after: changeReason === "reincarnazione" ? "Reincarnazione" : "Correzione concordata con il DM" });
     const now = new Date();
     await tx.update(characters).set({ name: cleanName, data: normalized, updatedAt: now }).where(eq(characters.id, id));
     await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
