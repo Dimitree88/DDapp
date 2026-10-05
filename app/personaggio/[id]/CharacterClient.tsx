@@ -57,6 +57,7 @@ import { recordedValueDetails } from "@/lib/recordedValueDetails";
 import { displayedArmorClass } from "@/lib/armorClass";
 import { armorForEquipment, isArmorEquipment, replaceOtherEquipment, selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
 import { compareOptionLabels } from "@/lib/sortOptions";
+import { DiceText } from "@/components/DiceText";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -760,21 +761,32 @@ export default function CharacterClient({
   const otherEquipmentIndices = sheet.equipaggiamento.flatMap((item, index) => isArmorEquipment(item) ? [] : [index]);
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
-      title: "Stato & Identità",
+      title: "Stato",
       body: (
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
-            <TextField label="Livello" showInfo={false} showEditIcon value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
-            <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
-          </div>
-          {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
-          <div className={grid2}>
             <TextField label="Punti Ferita" showInfo={false} showEditIcon value={sheet.puntiFerita} valueInfoId="stato:pf" valueInfoTitle={`Punti Ferita: ${sheet.puntiFerita}`} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
-            <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
+            <TextField label="Ispirazione Eroica" showInfo={false} showEditIcon value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
           </div>
           <div className={grid2}>
             <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
             <TextField label="Scudo" showInfo={false} showEditIcon value={shieldInUse ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${shieldInUse ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch(selectHeldShield(sheet, v === "Sì"))} />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Identità",
+      body: (
+        <div className="flex flex-col gap-1.5">
+          <div className={grid2}>
+            <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
+            <TextField label="Livello" showInfo={false} showEditIcon value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
+          </div>
+          {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
+          <div className={grid2}>
+            <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
+            <TextField label="Punti Esperienza" showInfo={false} showEditIcon value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
           <div className={grid2}>
             <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
@@ -786,11 +798,7 @@ export default function CharacterClient({
               onExplain={(button) => openCalculation({ kind: "passive" }, button)} />
           </div>
           <div className={grid2}>
-            <TextField label="Dadi Vita" showInfo={false} showEditIcon value={sheet.dadiVita} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
-            <TextField label="Punti Esperienza" showInfo={false} showEditIcon value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
-          </div>
-          <div className={grid2}>
-            <TextField label="Ispirazione Eroica" showInfo={false} showEditIcon value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
+            <TextField label="Dadi Vita" showInfo={false} showEditIcon value={sheet.dadiVita} displayValue={<DiceText text={sheet.dadiVita} />} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
             <NumberUnitField label="Velocità" value={sheet.velocita} valueInfoId="stato:velocita" unit="m" showEditIcon onChange={(v) => patch({ velocita: v })} />
           </div>
           <div className={grid2}>
@@ -1103,7 +1111,8 @@ export default function CharacterClient({
   ];
 
   const pageOrder = [
-    "Stato & Identità",
+    "Stato",
+    "Identità",
     "Lingue",
     "Caratteristiche",
     "Abilità",
@@ -1307,8 +1316,8 @@ export default function CharacterClient({
                   <button ref={fieldInfoClose} type="button" onClick={closeFieldInfo} aria-label="Chiudi spiegazione"
                     className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
                 </div>
-                {fieldHelp && <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{fieldHelp.meaning}</p>}
-                {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed">{fieldHelp.effect}</p></>}
+                {fieldHelp && <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed"><DiceText text={fieldHelp.meaning} /></p>}
+                {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed"><DiceText text={fieldHelp.effect} /></p></>}
                 {object && <div className="mt-4 flex flex-col gap-2 border-t border-line pt-3">
                   <TextField label="Oggetto" showInfo={false} showEditIcon value={object.nome} onChange={(name) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: name, catalogId: gearById(item.catalogId ?? "")?.name === name ? item.catalogId : undefined } : item) })} />
                   <TextField label="Dettaglio personale" showInfo={false} showEditIcon value={object.dettaglio} onChange={(dettaglio) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, dettaglio } : item) })} multiline />
@@ -1328,7 +1337,7 @@ export default function CharacterClient({
                       <div key={label} className="flex justify-between gap-4 border-b border-line/50 py-1"><dt>{label}</dt><dd className="text-right font-semibold">{value}</dd></div>,
                     )}
                   </dl>
-                  {spellName && spellEffects[spellName] && <p className="mt-4 text-sm leading-relaxed">{spellEffects[spellName]}</p>}
+                  {spellName && spellEffects[spellName] && <p className="mt-4 text-sm leading-relaxed"><DiceText text={spellEffects[spellName]} /></p>}
                 </>}
               </div>
             </div>

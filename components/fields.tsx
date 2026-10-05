@@ -95,6 +95,7 @@ export function TextField({
   valueInfoId,
   valueInfoTitle,
   showEditIcon = false,
+  displayValue,
 }: {
   label: string;
   value: string;
@@ -111,6 +112,7 @@ export function TextField({
   valueInfoId?: string;
   valueInfoTitle?: string;
   showEditIcon?: boolean;
+  displayValue?: ReactNode;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const openInfo = useContext(FieldInfoContext);
@@ -202,7 +204,7 @@ export function TextField({
           <button type="button" aria-label={`Informazioni su ${valueInfoTitle ?? value}`} aria-haspopup="dialog"
             onClick={onValueTap}
             className={`min-w-0 text-left ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""}`}>
-            {value}
+            {displayValue ?? value}
           </button>
           {editButton}
         </div>
@@ -210,7 +212,7 @@ export function TextField({
         <button type="button" aria-label={`Informazioni su ${label || helpId || "campo"}`} aria-haspopup="dialog"
           onClick={(event) => openInfo(helpId ?? label, label || helpId || "Campo", event.currentTarget)}
           className={`${readonlyBase} text-left ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""}`}>
-          {value || <span className="text-ink-faint">—</span>}
+          {value ? displayValue ?? value : <span className="text-ink-faint">—</span>}
         </button>
       ) : (
         <div className={`${readonlyBase} flex items-center gap-0.5 ${unlocked && !locked ? editableHint : ""}`}>
@@ -220,7 +222,7 @@ export function TextField({
               multiline ? "whitespace-pre-wrap leading-relaxed" : ""
             }`}
           >
-            {value || <span className="text-ink-faint">—</span>}
+            {value ? displayValue ?? value : <span className="text-ink-faint">—</span>}
           </div>
           {editButton}
         </div>
