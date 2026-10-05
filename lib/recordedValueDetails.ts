@@ -1,5 +1,7 @@
 import type { Sheet } from "./sheet";
 import type { FieldHelp } from "./fieldHelp";
+import { calculatedArmorClass, displayedArmorClass } from "./armorClass";
+import { armorById } from "./armorCatalog";
 
 export function recordedValueDetails(sheet: Sheet, kind: string): FieldHelp | null {
   switch (kind) {
@@ -9,11 +11,15 @@ export function recordedValueDetails(sheet: Sheet, kind: string): FieldHelp | nu
     case "pfMassimi": return sheet.puntiFeritaMax ? {
       meaning: `${sheet.puntiFeritaMax} è il massimo ordinario di punti ferita registrato. Il valore può cambiare con l'avanzamento o con effetti specifici; qui resta manuale.`, rule: true,
     } : null;
-    case "ca": return sheet.classeArmatura !== null ? {
-      meaning: `La Classe Armatura registrata è ${sheet.classeArmatura}. Un tiro per colpire deve raggiungere almeno ${sheet.classeArmatura} per colpire. La scheda non registra quale armatura sia indossata, quindi questo valore resta manuale.`, rule: true,
-    } : null;
+    case "ca": {
+      const value = displayedArmorClass(sheet);
+      const calculated = calculatedArmorClass(sheet);
+      return value ? {
+        meaning: `Classe Armatura: ${value}. ${sheet.classeArmaturaOverride != null ? `Valore manuale; il calcolo ordinario sarebbe ${calculated?.value ?? "non disponibile"}.` : calculated ? `Calcolo automatico: ${calculated.formula}.` : "Valore registrato; inserisci Destrezza per il calcolo automatico."}${calculated?.warnings.length ? ` ${calculated.warnings.join(" ")}` : ""}${sheet.classeArmaturaOverride != null ? " Per tornare al calcolo automatico, svuota il valore manuale." : ""}`, rule: true,
+      } : null;
+    }
     case "scudo": return {
-      meaning: sheet.scudo ? `Scudo impugnato: sì. ${sheet.competenzeArmatura.scudi ? "Il personaggio è competente negli scudi, quindi ottiene +2 alla CA; verifica che il valore manuale della CA lo includa." : "La competenza negli scudi non è registrata, quindi lo scudo non concede il suo +2 alla CA."}` : "Scudo impugnato: no. La CA manuale non dovrebbe includere un bonus da scudo.", rule: true,
+      meaning: sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi") ? `Scudo impugnato: sì. ${sheet.competenzeArmatura.scudi ? "Il bonus dello scudo entra nel calcolo automatico della CA." : "Senza competenza lo scudo non aggiunge CA."}` : "Scudo impugnato: no. Per usare uno scudo puoi selezionare Sì qui o segnarlo come impugnato negli Oggetti.", rule: true,
     };
     case "dadiVita": return sheet.dadiVita ? {
       meaning: `Dadi Vita massimi registrati: ${sheet.dadiVita}. Durante un riposo breve se ne possono spendere per recuperare punti ferita. La scheda non registra quanti ne siano già stati spesi.`, rule: true,

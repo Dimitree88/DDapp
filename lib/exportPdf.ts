@@ -6,6 +6,7 @@ import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
 import { spellSlots, spellcastingStats } from "./spellcasting";
 import { coinTotalGold } from "./coins";
 import { carryingCapacity, inventoryWeight } from "./inventoryWeight";
+import { displayedArmorClass } from "./armorClass";
 
 const CAR_FULL: Record<string, string> = {
   FOR: "FORZA",
@@ -204,7 +205,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
     [["Livello", sheet.livello], ["Classe", sheet.classe]],
     [["Sottoclasse", sheet.sottoclasse]],
     [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
-    [["Classe Armatura", sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)]],
+    [["Classe Armatura", displayedArmorClass(sheet)]],
     [["Scudo", sheet.scudo ? "Sì" : "No"], ["Iniziativa", initiativeBonus(sheet)]],
     [["Bonus Competenza", proficiencyBonus(sheet.livello)], ["Percezione Passiva", passivePerception(sheet)]],
     [["Dadi Vita", sheet.dadiVita]],

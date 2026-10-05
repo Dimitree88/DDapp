@@ -74,6 +74,7 @@ export type Sheet = {
   incrementiPf?: { value: number; method: "tiro" | "fisso" }[];
   puntiFeritaTemporanei?: string;
   classeArmatura: number | null;
+  classeArmaturaOverride?: number | null;
   classeArmaturaModo?: "manuale" | "equipaggiamento";
   scudo: boolean;
   dadiVita: string;

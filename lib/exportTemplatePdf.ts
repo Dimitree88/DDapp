@@ -6,6 +6,7 @@ import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, prof
 import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
 import { spellDetails } from "./spells";
 import { carryingCapacity, inventoryWeight } from "./inventoryWeight";
+import { displayedArmorClass } from "./armorClass";
 
 type Mapping = (typeof fields)[number];
 
@@ -15,7 +16,7 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boo
   if (source === "sheet.privilegi" || source === "sheet.talenti" || source === "sheet.equipaggiamento") return undefined;
   if (source === "sheet.specie" && mapping.field === "textarea_142hif") return undefined;
   if (source === "sheet.specie") return sheet.lignaggio || sheet.specie;
-  if (source === "sheet.classeArmatura") return sheet.classeArmatura == null ? "" : String(sheet.classeArmatura);
+  if (source === "sheet.classeArmatura") return displayedArmorClass(sheet);
   if (source === "sheet.puntiFeritaMax") return sheet.puntiFeritaMax;
   if (source === "sheet.classe") return sheet.sottoclasse ? `${sheet.classe} - ${sheet.sottoclasse}` : sheet.classe;
   if (source === "sheet.velocita") return sheet.velocita ? `${sheet.velocita} m` : "";

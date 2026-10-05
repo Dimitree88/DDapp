@@ -100,8 +100,9 @@ Avvia: `npm run dev` → http://localhost:3000 (dal telefono, stessa Wi-Fi, usa 
 - ✅ Tema pergamena applicato (font TT Jenevers + sfondo + palette).
 - ✅ **Deployato** su Vercel + Turso; produzione verificata (landing legge Ephemer dal DB).
 - ✅ Due esportazioni PDF nell'app: formato app e scheda originale compilata.
-- ✅ Scudo, ispirazione e C/R/M come spunte; classe armatura numerica con note
-  separate. I vecchi JSON vengono convertiti alla lettura senza modificare
+- ✅ Scudo, ispirazione e C/R/M come spunte; classe armatura calcolata da Destrezza,
+  armatura indossata e scudo impugnato, con correzione manuale opzionale.
+  I vecchi JSON vengono convertiti alla lettura senza modificare
   subito il database. Massimo 6 armi e 30 incantesimi aggiungibili dall'interfaccia.
 - ⏳ Eventuale feedback UX sullo swipe/mobile; aggiungere gli altri personaggi.
 - Non verificato in modo headless: resa visiva reale, swipe col dito, modale PIN,

@@ -47,6 +47,7 @@ import { subclassLevel } from "@/lib/classProgression";
 import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
 import { recordedValueDetails } from "@/lib/recordedValueDetails";
+import { calculatedArmorClass, displayedArmorClass } from "@/lib/armorClass";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -594,6 +595,9 @@ export default function CharacterClient({
     }
   }
 
+  const armorCalculation = calculatedArmorClass(sheet);
+  const armorValue = displayedArmorClass(sheet);
+  const shieldInUse = sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi");
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
       title: "Stato & Identità",
@@ -609,8 +613,11 @@ export default function CharacterClient({
             <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Classe Armatura" showInfo={false} showEditIcon numeric="unsigned" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} valueInfoId="stato:ca" valueInfoTitle={`Classe Armatura: ${sheet.classeArmatura ?? "—"}`} onChange={(v) => patch({ classeArmatura: v ? Number(v) : null })} />
-            <TextField label="Scudo" showInfo={false} showEditIcon value={sheet.scudo ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${sheet.scudo ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ scudo: v === "Sì" })} />
+            <div>
+              <TextField label="Classe Armatura" showInfo={false} showEditIcon numeric="unsigned" value={armorValue} valueInfoId="stato:ca" valueInfoTitle={`Classe Armatura: ${armorValue || "—"}`} onChange={(v) => patch({ classeArmaturaOverride: v ? Number(v) : null })} />
+              <p className="mt-0.5 text-[10px] text-ink-soft">{sheet.classeArmaturaOverride != null ? `Valore manuale · calcolo ${armorCalculation?.value ?? "non disponibile"}` : armorCalculation ? `Calcolata: ${armorCalculation.formula}` : "Inserisci Destrezza per il calcolo automatico"}</p>
+            </div>
+            <TextField label="Scudo" showInfo={false} showEditIcon value={shieldInUse ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${shieldInUse ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch(v === "Sì" ? { scudo: true } : { scudo: false, equipaggiamento: sheet.equipaggiamento.map((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi" ? { ...item, impugnato: false } : item) })} />
           </div>
           <div className={grid2}>
             <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
