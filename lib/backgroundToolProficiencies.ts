@@ -1,12 +1,13 @@
 import type { Sheet } from "./sheet";
+import phb from "./integrazioni-phb-2024.json";
 
 // Player's Handbook 2024: competenze fisse dei background presenti nell'app.
 const backgroundTools: Record<string, string> = {
   Accolito: "Scorte da calligrafo",
   Criminale: "Arnesi da scasso",
   Sapiente: "Scorte da calligrafo",
-  Eremita: "Borsa da erborista",
-  Guida: "Strumenti da cartografo",
+  Eremita: phb.background.Eremita.strumento,
+  Guida: phb.background.Guida.strumento,
 };
 
 export function backgroundToolProficiency(background: string): string | null {

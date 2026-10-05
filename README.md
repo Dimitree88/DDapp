@@ -103,8 +103,14 @@ valori attuali; `node scripts/normalize-domain-values.mjs` simula la bonifica e
 `node scripts/normalize-domain-values.mjs --apply` la applica, creando prima un
 backup locale ignorato da Git in `.db-backups/`. Gli script leggono `.env.local`.
 
-La base è l'SRD 5.2.1 in italiano. Eremita, Guida, Guaritore e Lavoro manuale
-sono integrazioni del Manuale del Giocatore 2024 già presenti nei personaggi.
+**Regole adottate dalla campagna:** D&D quinta edizione revisionata 2024
+(talvolta chiamata «5.5»). La base è l'SRD 5.2.1 in italiano, integrata con
+le voci del Manuale del Giocatore 2024 documentate in
+[`docs/integrazioni-phb-2024.md`](docs/integrazioni-phb-2024.md).
+Lo SRD 5.1 non è la fonte per nuove opzioni, controlli o bonifiche delle schede.
+Se una voce sembra provenire dalle regole 2014 o da un'eccezione del tavolo,
+verificarne la fonte
+con i giocatori prima di modificarla.
 
 ## Note
 - `local.db` (DB locale) e `.env` sono ignorati da git.
