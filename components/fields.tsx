@@ -9,6 +9,7 @@ import {
   type ReactNode,
 } from "react";
 import { numericDraftValid, numericValueValid, type NumericMode } from "@/lib/numeric";
+import { compareOptionLabels } from "@/lib/sortOptions";
 
 // Contesto di modifica condiviso: i campi non ricevono più `editable` per prop,
 // ma leggono qui se la scheda è sbloccata e come richiedere lo sblocco (PIN).
@@ -165,7 +166,7 @@ export function TextField({
             aria-label={label || "Scegli un'opzione"}
           >
             {allowEmpty && <option value="">—</option>}
-            {options.map((option) => <option key={option} value={option}>{option}</option>)}
+            {[...options].sort(compareOptionLabels).map((option) => <option key={option} value={option}>{option}</option>)}
           </select>
         ) : multiline ? (
           <textarea

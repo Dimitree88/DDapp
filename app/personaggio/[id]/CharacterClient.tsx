@@ -56,6 +56,7 @@ import { equipmentDetails } from "@/lib/equipmentDetails";
 import { recordedValueDetails } from "@/lib/recordedValueDetails";
 import { displayedArmorClass } from "@/lib/armorClass";
 import { armorForEquipment, isArmorEquipment, replaceOtherEquipment, selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
+import { compareOptionLabels } from "@/lib/sortOptions";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -202,7 +203,7 @@ function WeaponCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (
       <select aria-label="Aggiungi competenza armi" value="" onChange={(event) => onChange(addWeaponCompetency(sheet, event.target.value))}
         className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
         <option value="" disabled>+ Aggiungi competenza</option>
-        {choices.map((name) => <option key={name} value={name}>{name}</option>)}
+        {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
       </select>
     </li>}
   </ul>;
@@ -223,7 +224,7 @@ function ToolCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (up
       <select aria-label="Aggiungi competenza strumenti" value="" onChange={(event) => onChange(addToolCompetency(sheet, event.target.value))}
         className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
         <option value="" disabled>+ Aggiungi competenza</option>
-        {choices.map((name) => <option key={name} value={name}>{name}</option>)}
+        {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
       </select>
     </li>}
   </ul>;
@@ -246,7 +247,7 @@ function WeaponMasteryEditor({ sheet, onChange }: { sheet: Sheet; onChange: (ite
       <select aria-label="Aggiungi padronanza" value="" onChange={(event) => onChange([...selected, event.target.value])}
         className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
         <option value="" disabled>+ Aggiungi padronanza</option>
-        {choices.map((name) => <option key={name} value={name}>{name}</option>)}
+        {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
       </select>
     </li>}
   </ul>;
@@ -258,7 +259,7 @@ function AddWeaponSelect({ sheet, onAdd }: { sheet: Sheet; onAdd: (name: string)
   return unlocked && choices.length > 0 ? <select aria-label="Aggiungi arma" value="" onChange={(event) => onAdd(event.target.value)}
     className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
     <option value="" disabled>+ Aggiungi arma</option>
-    {choices.map((name) => <option key={name} value={name}>{name}</option>)}
+    {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
   </select> : null;
 }
 
@@ -305,8 +306,9 @@ function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indice
       onChange([...items, { nome: gear?.name ?? "", catalogId: gear?.id, dettaglio: "", quantita: "1" }]);
     }} className="max-w-full self-start rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
       <option value="" disabled>+ Aggiungi oggetto</option>
-      {gearCatalog.map((gear) => <option key={gear.id} value={gear.id}>{gear.name}</option>)}
-      <option value="personalizzato">Oggetto personalizzato</option>
+      {[...gearCatalog.map((gear) => ({ id: gear.id, name: gear.name })), { id: "personalizzato", name: "Oggetto personalizzato" }]
+        .sort((a, b) => compareOptionLabels(a.name, b.name))
+        .map((gear) => <option key={gear.id} value={gear.id}>{gear.name}</option>)}
     </select>}
   </div>;
 }
@@ -893,8 +895,9 @@ export default function CharacterClient({
           <div>
             <h3 className={sectionTitle}><InfoLabel id="armaturaSelezionata" title="Armatura indossata" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
             <select aria-label="Armatura indossata" value={wornArmorName} onChange={(event) => patch({ equipaggiamento: selectWornArmor(sheet, armorChoices.find((armor) => armor.label === event.target.value)?.id ?? null) })} className="max-w-full bg-transparent py-1 text-[15px] text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent">
-              <option value="Nessuna">Nessuna</option>
-              {armorChoices.map((armor) => <option key={armor.id} value={armor.label}>{armor.label}</option>)}
+              {[...armorChoices, { id: "", label: "Nessuna" }]
+                .sort((a, b) => compareOptionLabels(a.label, b.label))
+                .map((armor) => <option key={armor.id} value={armor.label}>{armor.label}</option>)}
             </select>
             <div className="mt-2"><Toggle label="Scudo impugnato" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} /></div>
           </div>
