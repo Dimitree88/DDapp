@@ -344,7 +344,7 @@ export function normalizeSheet(value: Sheet): Sheet {
       const note = personalBonus && !(weapon.note ?? "").includes(personalBonus[1])
         ? [weapon.note, `Bonus al tiro per colpire: ${personalBonus[1]}`].filter(Boolean).join("\n")
         : weapon.note ?? "";
-      return { nome: weapon.nome, quantita: weapon.quantita, bonus: weapon.bonus, ...(weapon.modo ? { modo: weapon.modo } : {}), ...(weapon.caratteristica ? { caratteristica: weapon.caratteristica } : {}), ...(weapon.bonusMagico ? { bonusMagico: weapon.bonusMagico } : {}), note };
+      return { nome: weapon.nome, quantita: weapon.quantita?.trim() ? weapon.quantita : "1", bonus: weapon.bonus, ...(weapon.modo ? { modo: weapon.modo } : {}), ...(weapon.caratteristica ? { caratteristica: weapon.caratteristica } : {}), ...(weapon.bonusMagico ? { bonusMagico: weapon.bonusMagico } : {}), note };
     }),
     equipaggiamento: old.equipaggiamento
       .filter((item) => item.nome !== "Sconto 20% su oggetti non magici")

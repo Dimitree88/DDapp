@@ -34,7 +34,7 @@ import { helpFor, type FieldHelp } from "@/lib/fieldHelp";
 import { languageDetails } from "@/lib/languageDetails";
 import { weaponByName, weaponDetails, weaponNames } from "@/lib/weaponDetails";
 import { availableWeaponMasteries, proficientWeaponNames, weaponMasteryLimit } from "@/lib/weaponChoices";
-import { displayedWeaponAttack, weaponAttack } from "@/lib/weaponAttack";
+import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
@@ -261,6 +261,21 @@ function AddWeaponSelect({ sheet, onAdd }: { sheet: Sheet; onAdd: (name: string)
   </select> : null;
 }
 
+function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: Arma[]) => void }) {
+  const { unlocked } = useContext(EditContext);
+  return <div className="flex flex-col gap-2">
+    {sheet.armi.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
+    {sheet.armi.map((weapon, index) => <div key={index} className={`${card} flex items-center gap-2`}>
+      <InfoLabel id={`armaPosseduta:${index}`} title={weapon.nome || "Arma"} className="min-w-0 flex-1 text-left text-sm font-semibold text-ink" />
+      <span className="text-xs text-ink-faint">Quantità</span>
+      <InlineInput value={weapon.quantita || "1"} onChange={(value) => onChange(sheet.armi.map((item, itemIndex) => itemIndex === index ? { ...item, quantita: value || "1" } : item))} numeric="unsigned" className="w-8 text-center" />
+      {unlocked && <button type="button" aria-label={`Rimuovi ${weapon.nome}`} onClick={() => {
+        if (window.confirm(`Eliminare ${weapon.nome}?`)) onChange(sheet.armi.filter((_, itemIndex) => itemIndex !== index));
+      }} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+    </div>)}
+  </div>;
+}
+
 // Pallino di competenza per la pagina Abilità: doppio tocco per cambiarlo
 // (o per richiedere lo sblocco se la scheda è bloccata).
 function CompetenceDot({
@@ -303,7 +318,6 @@ function ArrayEditor<T>({
   headerAccessory,
   maxItems,
   lockItem,
-  allowAdd = true,
 }: {
   items: T[];
   onChange: (items: T[]) => void;
@@ -317,7 +331,6 @@ function ArrayEditor<T>({
   headerAccessory?: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
   maxItems?: number;
   lockItem?: (item: T) => boolean;
-  allowAdd?: boolean;
 }) {
   const { unlocked } = useContext(EditContext);
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
@@ -343,7 +356,7 @@ function ArrayEditor<T>({
       return n;
     });
 
-  const addButton = unlocked && allowAdd && (maxItems === undefined || items.length < maxItems) && (
+  const addButton = unlocked && (maxItems === undefined || items.length < maxItems) && (
     <button
       type="button"
       onClick={add}
@@ -532,7 +545,7 @@ export default function CharacterClient({
   const ownedWeaponCalculation = ownedWeapon ? weaponAttack(sheet, ownedWeapon) : null;
   const ownedMastery = ownedWeapon && (sheet.padronanzeArmi ?? []).includes(ownedWeapon.nome) ? weaponByName(ownedWeapon.nome)?.mastery : null;
   const ownedWeaponInfo = ownedWeaponBase || ownedWeapon?.note ? {
-    meaning: [ownedWeaponBase, ownedWeaponCalculation && `Attacco: ${ownedWeaponCalculation.formula}. Danno: ${ownedWeaponCalculation.damage || "punteggio da inserire"}.`, ownedMastery && `Padronanza scelta: ${ownedMastery}. ${masteryEffects[ownedMastery] ?? ""}`, ownedWeapon?.bonus && `Bonus al tiro per colpire manuale: ${ownedWeapon.bonus} (prevale sul calcolo).`, ownedWeapon?.note && `Dettaglio personale: ${ownedWeapon.note}`].filter(Boolean).join("\n\n"),
+    meaning: [ownedWeaponBase, `Quantità: ${ownedWeapon?.quantita || "1"}.`, ownedWeapon?.modo && ownedWeapon.modo !== "base" && `Uso: ${ownedWeapon.modo === "lancio" ? "Lancio" : "Due mani"}.`, ownedWeapon?.caratteristica && `Caratteristica scelta: ${ownedWeapon.caratteristica}.`, ownedWeaponCalculation && `Attacco calcolato: ${ownedWeaponCalculation.formula}. Danno: ${ownedWeaponCalculation.damage || "punteggio da inserire"}.`, ownedMastery && `Padronanza scelta: ${ownedMastery}. ${masteryEffects[ownedMastery] ?? ""}`, ownedWeapon?.bonusMagico && `Bonus magico: +${ownedWeapon.bonusMagico}.`, ownedWeapon?.bonus && `Bonus al tiro per colpire manuale: ${ownedWeapon.bonus} (prevale sul calcolo).`, ownedWeapon?.note && `Dettaglio personale: ${ownedWeapon.note}`].filter(Boolean).join("\n\n"),
     rule: Boolean(ownedWeaponBase),
   } : null;
   const valueId = fieldInfo?.id.startsWith("valore:") ? fieldInfo.id.slice("valore:".length) : null;
@@ -852,44 +865,7 @@ export default function CharacterClient({
           </div>
           <div>
             <h3 className={sectionTitle}>Armi</h3>
-            <ArrayEditor
-              items={sheet.armi}
-              onChange={(items) => patch({ armi: items })}
-              makeNew={(): Arma => ({ nome: "", quantita: "", bonus: "", note: "" })}
-              addLabel="Aggiungi arma"
-              allowAdd={false}
-              collapsible
-              titleOf={(a) => a.nome || "Nuova arma"}
-              onTitleClick={(a, index, button) => { if (!a.nome) return false; openFieldInfo(`armaPosseduta:${index}`, a.nome, button); return true; }}
-              subtitleOf={(a) => displayedWeaponAttack(sheet, a)}
-              headerAccessory={(a, p) => (
-                <div className="flex items-center gap-1">
-                  <span className="text-xs text-ink-faint">Quantità</span>
-                  <InlineInput
-                    value={a.quantita}
-                    onChange={(v) => p({ quantita: v })}
-                    numeric="unsigned"
-                    className="w-10 text-center"
-                    placeholder="—"
-                  />
-                </div>
-              )}
-              renderItem={(a, p, index) => (
-                <div className="flex flex-col gap-2">
-                  <TextField label="Nome" showInfo={false} value={a.nome} valueInfoId={a.nome ? `armaPosseduta:${index}` : undefined} options={[...new Set([a.nome, ...proficientWeaponNames(sheet)])]} onChange={(v) => p({ nome: v, modo: "base", caratteristica: undefined })} />
-                  {weaponByName(a.nome)?.kind === "mischia" && (weaponByName(a.nome)?.thrown || weaponByName(a.nome)?.versatileDie) && (
-                    <TextField label="Uso" showInfo={false} value={a.modo === "lancio" ? "Lancio" : a.modo === "dueMani" ? "Due mani" : "Mischia"} options={["Mischia", ...(weaponByName(a.nome)?.thrown ? ["Lancio"] : []), ...(weaponByName(a.nome)?.versatileDie ? ["Due mani"] : [])]} onChange={(v) => p({ modo: v === "Lancio" ? "lancio" : v === "Due mani" ? "dueMani" : "base" })} />
-                  )}
-                  {weaponByName(a.nome)?.finesse && (
-                    <TextField label="Caratteristica" showInfo={false} value={a.caratteristica ?? (weaponByName(a.nome)?.kind === "distanza" ? "DES" : "FOR")} options={["FOR", "DES"]} onChange={(v) => p({ caratteristica: v as "FOR" | "DES" })} />
-                  )}
-                  {weaponAttack(sheet, a) && <p className="text-sm text-ink-soft">Attacco calcolato: {weaponAttack(sheet, a)?.attack || "—"} · Danno: {weaponAttack(sheet, a)?.damage || "—"}</p>}
-                  <TextField label="Arma magica SRD" showInfo={false} value={a.bonusMagico ? `+${a.bonusMagico}` : "Nessuna"} options={["Nessuna", "+1", "+2", "+3"]} onChange={(v) => p({ bonusMagico: v === "Nessuna" ? undefined : Number(v.slice(1)) as 1 | 2 | 3 })} />
-                  <TextField label="Bonus attacco manuale" showInfo={false} value={a.bonus} valueInfoId={a.nome ? `armaPosseduta:${index}` : undefined} valueInfoTitle={a.nome} numeric="signed" onChange={(v) => p({ bonus: v })} />
-                  <TextField label="Dettaglio personale" showInfo={false} value={a.note} valueInfoId={a.nome ? `armaPosseduta:${index}` : undefined} valueInfoTitle={a.nome} onChange={(v) => p({ note: v })} multiline />
-                </div>
-              )}
-            />
+            <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} />
             <AddWeaponSelect sheet={sheet} onAdd={(weaponName) => patch({ armi: [...sheet.armi, { nome: weaponName, quantita: "1", bonus: "", note: "" }] })} />
           </div>
         </div>
