@@ -32,8 +32,13 @@ export function featPrerequisitesMet(sheet: Sheet, name: string): boolean {
   const abilities = abilityRequirements[name];
   if (abilities && !sheet.caratteristiche.some((ability) =>
     abilities.includes(ability.abbr) && Number(ability.valore) >= 13)) return false;
-  if (spellcastingRequired.has(name) && !["Bardo", "Chierico", "Druido", "Mago", "Paladino", "Ranger", "Stregone", "Warlock"].includes(sheet.classe)) return false;
-  if (name === "Dono del richiamo degli incantesimi" && !["Bardo", "Chierico", "Druido", "Mago", "Paladino", "Ranger", "Stregone"].includes(sheet.classe)) return false;
+  const hasSpellcasting = ["Bardo", "Chierico", "Druido", "Mago", "Paladino", "Ranger", "Stregone"].includes(sheet.classe)
+    || ["Cavaliere Mistico", "Mistificatore Arcano"].includes(sheet.sottoclasse) && Number(sheet.livello) >= 3;
+  const hasPactMagic = sheet.classe === "Warlock";
+  // Manuale, pp. 202, 203, 205 e 211: il Dono richiede Incantesimi;
+  // gli altri tre talenti accettano anche Magia del patto.
+  if (spellcastingRequired.has(name) && !(hasSpellcasting || hasPactMagic)) return false;
+  if (name === "Dono del richiamo degli incantesimi" && !hasSpellcasting) return false;
   const armor = armorRequirements[name];
   if (armor && !sheet.competenzeArmatura[armor]) return false;
   return true;

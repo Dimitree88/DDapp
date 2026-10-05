@@ -1,6 +1,8 @@
 // Equipaggiamento d'avventura, Manuale del Giocatore 2024, tabella a p. 223.
 // I pesi non indicati dalla fonte restano assenti.
-export type Gear = { id: string; name: string; weightKg?: number; costGp?: number; priceQuantity?: number; sourcePage?: number; tool?: boolean };
+// Gli ID storici srd52 restano stabili per leggere le schede già salvate;
+// nomi, pesi e costi visualizzati sono confrontati con il Manuale locale.
+export type Gear = { id: string; name: string; weightKg?: number; costGp?: number; priceQuantity?: number; sourcePage?: number; tool?: boolean; toolKind?: "artigiano" | "gioco" | "musicale" | "altro" };
 
 const rows: [string, string, number | null, number][] = [
   ["abiti-viaggiatore", "Abiti da viaggiatore", 2, 2],
@@ -134,23 +136,23 @@ const tools: [string, string, number | null, number][] = [
   ["strumenti-navigatore", "Strumenti da navigatore", 1, 25],
   ["trucchi-camuffamento", "Trucchi per il camuffamento", 1.5, 25],
 ];
-gearCatalog.push(...tools.map(([id, name, weightKg, costGp], index) => ({ id: `srd52:tool:${id}`, name, ...(weightKg === null ? {} : { weightKg }), costGp, sourcePage: index < 11 ? 220 : 221, tool: true })));
+gearCatalog.push(...tools.map(([id, name, weightKg, costGp], index): Gear => ({ id: `srd52:tool:${id}`, name, ...(weightKg === null ? {} : { weightKg }), costGp, sourcePage: index < 11 ? 220 : 221, tool: true, toolKind: index < 17 ? "artigiano" : "altro" })));
 // Le varianti di gioco e strumento musicale richiedono competenze distinte (p. 221).
 gearCatalog.push(
-  { id: "phb24:tool:gioco-dadi", name: "Dadi", costGp: 0.1, sourcePage: 221, tool: true },
-  { id: "phb24:tool:gioco-scacchi-dei-draghi", name: "Scacchi dei draghi", costGp: 1, sourcePage: 221, tool: true },
-  { id: "phb24:tool:gioco-carte-da-gioco", name: "Carte da gioco", costGp: 0.5, sourcePage: 221, tool: true },
-  { id: "phb24:tool:gioco-tre-draghi-al-buio", name: "Tre Draghi al Buio", costGp: 1, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-cornamusa", name: "Cornamusa", weightKg: 3, costGp: 30, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-tamburo", name: "Tamburo", weightKg: 1.5, costGp: 6, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-dulcimer", name: "Dulcimer", weightKg: 5, costGp: 25, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-flauto", name: "Flauto", weightKg: 0.5, costGp: 2, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-flauto-di-pan", name: "Flauto di pan", weightKg: 1, costGp: 12, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-ciaramella", name: "Ciaramella", weightKg: 0.5, costGp: 2, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-corno", name: "Corno", weightKg: 1, costGp: 3, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-liuto", name: "Liuto", weightKg: 1, costGp: 35, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-lira", name: "Lira", weightKg: 1, costGp: 30, sourcePage: 221, tool: true },
-  { id: "phb24:tool:musicale-viola", name: "Viola", weightKg: 0.5, costGp: 30, sourcePage: 221, tool: true },
+  { id: "phb24:tool:gioco-dadi", name: "Dadi", costGp: 0.1, sourcePage: 221, tool: true, toolKind: "gioco" },
+  { id: "phb24:tool:gioco-scacchi-dei-draghi", name: "Scacchi dei draghi", costGp: 1, sourcePage: 221, tool: true, toolKind: "gioco" },
+  { id: "phb24:tool:gioco-carte-da-gioco", name: "Carte da gioco", costGp: 0.5, sourcePage: 221, tool: true, toolKind: "gioco" },
+  { id: "phb24:tool:gioco-tre-draghi-al-buio", name: "Tre Draghi al Buio", costGp: 1, sourcePage: 221, tool: true, toolKind: "gioco" },
+  { id: "phb24:tool:musicale-cornamusa", name: "Cornamusa", weightKg: 3, costGp: 30, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-tamburo", name: "Tamburo", weightKg: 1.5, costGp: 6, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-dulcimer", name: "Dulcimer", weightKg: 5, costGp: 25, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-flauto", name: "Flauto", weightKg: 0.5, costGp: 2, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-flauto-di-pan", name: "Flauto di pan", weightKg: 1, costGp: 12, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-ciaramella", name: "Ciaramella", weightKg: 0.5, costGp: 2, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-corno", name: "Corno", weightKg: 1, costGp: 3, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-liuto", name: "Liuto", weightKg: 1, costGp: 35, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-lira", name: "Lira", weightKg: 1, costGp: 30, sourcePage: 221, tool: true, toolKind: "musicale" },
+  { id: "phb24:tool:musicale-viola", name: "Viola", weightKg: 0.5, costGp: 30, sourcePage: 221, tool: true, toolKind: "musicale" },
 );
 export const gearById = (id: string): Gear | undefined => gearCatalog.find((item) => item.id === id);
 export const gearByName = (name: string): Gear | undefined => gearCatalog.find((item) => item.name === name);

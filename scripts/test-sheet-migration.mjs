@@ -1,6 +1,16 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { emptySheet, normalizeSheet } from "../lib/sheet.ts";
+import { domainErrors } from "../lib/domain.ts";
+
+test("legacy resource recharge labels become editable text without a closed domain", () => {
+  const resource = { nome: "Riserva", fonte: "Privilegio", massimo: 2, spesi: 0, ricarica: "breve" };
+  const sheet = normalizeSheet({ ...emptySheet(), risorse: [resource] });
+  assert.equal(sheet.risorse[0].ricarica, "Riposo breve");
+  sheet.risorse[0].ricarica = "Quando termina una scena";
+  assert.deepEqual(domainErrors(sheet), []);
+  assert.deepEqual(normalizeSheet(sheet), sheet);
+});
 
 test("moves legacy rules out of character data while preserving personal choices", () => {
   const old = {

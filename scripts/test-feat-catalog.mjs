@@ -32,3 +32,31 @@ test("level nineteen permits another qualified feat and fighting styles require 
   sheet.classe = "Mago";
   assert.ok(!availableFeatChoices(sheet).includes("Tiro"));
 });
+
+test("earlier feat grants cannot consume a level nineteen epic boon", () => {
+  const sheet = emptySheet();
+  sheet.classe = "Mago";
+  sheet.livello = "19";
+  sheet.talenti = [{ nome: "Dono del fato", scelte: "" }];
+  assert.equal(availableFeatChoices(sheet).includes("Dono del fato"), false);
+  assert.equal(availableFeatChoices(sheet).includes("Adepto elementale"), true);
+  sheet.talenti.push({ nome: "Adepto elementale", scelte: "fuoco" });
+  assert.equal(availableFeatChoices(sheet).includes("Adepto elementale"), true);
+});
+
+test("subclass spellcasting qualifies for spellcasting feats", () => {
+  const sheet = emptySheet();
+  sheet.classe = "Guerriero";
+  sheet.sottoclasse = "Cavaliere Mistico";
+  sheet.livello = "4";
+  assert.equal(featPrerequisitesMet(sheet, "Adepto elementale"), true);
+  sheet.classe = "Ladro";
+  sheet.sottoclasse = "Mistificatore Arcano";
+  assert.equal(featPrerequisitesMet(sheet, "Cecchino magico"), true);
+  sheet.livello = "19";
+  assert.equal(featPrerequisitesMet(sheet, "Dono del richiamo degli incantesimi"), true);
+  sheet.classe = "Warlock";
+  sheet.sottoclasse = "Patrono Immondo";
+  assert.equal(featPrerequisitesMet(sheet, "Dono del richiamo degli incantesimi"), false);
+  assert.equal(featPrerequisitesMet(sheet, "Incantatore da guerra"), true);
+});

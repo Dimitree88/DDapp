@@ -12,17 +12,18 @@ const backgroundFeats: Record<string, string> = Object.fromEntries(
   Object.entries(backgrounds).map(([name, details]) => [name, details.feat]),
 );
 
-const speciesTraits: Record<string, string[]> = {
-  Aasimar: ["Mani curative", "Portatore di luce", "Resistenza celestiale", "Scurovisione", "Rivelazione celestiale"],
-  Dragonide: ["Retaggio draconico", "Soffio", "Resistenza ai danni"],
-  Elfo: ["Scurovisione", "Discendenza fatata", "Sensi acuti", "Trance"],
-  Gnomo: ["Scurovisione", "Astuzia gnomesca"],
-  Goliath: ["Statura possente", "Discendenza gigantica"],
-  Halfling: ["Coraggioso", "Agilità halfling", "Fortunato", "Furtività naturale"],
-  Nano: ["Scurovisione", "Resistenza nanica", "Esperto minatore", "Robustezza nanica"],
-  Orco: ["Scurovisione", "Scarica di adrenalina", "Tenacia implacabile"],
-  Tiefling: ["Scurovisione", "Retaggio immondo", "Presenza ultraterrena"],
-  Umano: ["Intraprendente", "Pluriabilità", "Versatile"],
+const traits = (names: string[]): { name: string; level?: number }[] => names.map((name) => ({ name }));
+const speciesTraits: Record<string, { name: string; level?: number }[]> = {
+  Aasimar: [...traits(["Mani curative", "Portatore di luce", "Resistenza celestiale", "Scurovisione"]), { name: "Rivelazione celestiale", level: 3 }],
+  Dragonide: [...traits(["Discendenza draconica", "Resistenza ai danni", "Scurovisione", "Soffio"]), { name: "Volo draconico", level: 5 }],
+  Elfo: traits(["Lignaggio elfico", "Retaggio fatato", "Scurovisione", "Sensi acuti", "Trance"]),
+  Gnomo: traits(["Astuzia gnomesca", "Lignaggio gnomesco", "Scurovisione"]),
+  Goliath: [...traits(["Costituzione robusta", "Discendenza gigantica"]), { name: "Forma Grande", level: 5 }],
+  Halfling: traits(["Agilità halfling", "Coraggioso", "Fortuna", "Furtività innata"]),
+  Nano: traits(["Esperto minatore", "Resilienza nanica", "Robustezza nanica", "Scurovisione"]),
+  Orco: traits(["Resistenza implacabile", "Scarica di adrenalina", "Scurovisione"]),
+  Tiefling: traits(["Presenza ultraterrena", "Retaggio immondo", "Scurovisione"]),
+  Umano: traits(["Intraprendente", "Pluriabilità", "Versatile"]),
 };
 
 const lineageTraits: Record<string, string[]> = {
@@ -48,7 +49,8 @@ export function grantedPrivileges(sheet: Sheet): Grant[] {
     ...(sheet.sottoclasse && level >= 3 ? [{ name: sheet.sottoclasse, source: `Sottoclasse: ${sheet.classe}`, level: 3, page: (pages2024.subclasses as Record<string, number>)[sheet.sottoclasse] }] : []),
     ...((subclassFeatures as Record<string, { level: number; name: string }[]>)[sheet.sottoclasse] ?? [])
       .filter((feature) => feature.level <= level).map((feature) => ({ ...feature, source: `Sottoclasse: ${sheet.sottoclasse}` })),
-    ...(speciesTraits[sheet.specie] ?? []).map((name) => ({ name, source: `Specie: ${sheet.specie}`, page: (pages2024.species as Record<string, number>)[sheet.specie] })),
+    ...(speciesTraits[sheet.specie] ?? []).filter((trait) => !trait.level || trait.level <= level)
+      .map((trait) => ({ ...trait, source: `Specie: ${sheet.specie}`, page: (pages2024.species as Record<string, number>)[sheet.specie] })),
     ...(lineageTraits[sheet.lignaggio] ?? []).map((name) => ({ name, source: `Lignaggio: ${sheet.lignaggio}`, page: lineagePages[sheet.lignaggio] })),
   ];
 }
@@ -59,12 +61,12 @@ export function featGrants(sheet: Sheet): Grant[] {
   const backgroundFeat = backgroundFeats[sheet.background];
   if (backgroundFeat) {
     const background = (backgrounds as Record<string, { spellList?: string }>)[sheet.background];
-    grants.push({ name: backgroundFeat, source: `Background: ${sheet.background}`,
+    grants.push({ name: backgroundFeat, source: `Background: ${sheet.background}`, page: (pages2024.feats as Record<string, number>)[backgroundFeat],
       detail: background?.spellList ? `Lista: ${background.spellList}` : undefined });
   }
-  if (sheet.specie === "Umano") grants.push({ name: "Talento Origini a scelta", source: "Specie: Umano" });
+  if (sheet.specie === "Umano") grants.push({ name: "Talento Origini a scelta", source: "Specie: Umano", page: (pages2024.species as Record<string, number>).Umano });
   if (["Guerriero", "Ranger", "Paladino"].includes(sheet.classe) && level >= (sheet.classe === "Guerriero" ? 1 : 2)) {
-    grants.push({ name: "Talento Stile di combattimento a scelta", source: `Classe: ${sheet.classe}` });
+    grants.push({ name: "Talento Stile di combattimento a scelta", source: `Classe: ${sheet.classe}`, page: 209 });
   }
   for (const threshold of [4, 8, 12, 16]) {
     if (level >= threshold) grants.push({ name: "Talento a scelta", source: `Classe: ${sheet.classe}`, level: threshold });
@@ -73,7 +75,7 @@ export function featGrants(sheet: Sheet): Grant[] {
     if (level >= threshold) grants.push({ name: "Talento a scelta", source: "Classe: Guerriero", level: threshold });
   }
   if (sheet.classe === "Ladro" && level >= 10) grants.push({ name: "Talento a scelta", source: "Classe: Ladro", level: 10 });
-  if (sheet.sottoclasse === "Campione" && level >= 7) grants.push({ name: "Talento Stile di combattimento a scelta", source: "Sottoclasse: Campione", level: 7 });
+  if (sheet.sottoclasse === "Campione" && level >= 7) grants.push({ name: "Talento Stile di combattimento a scelta", source: "Sottoclasse: Campione", level: 7, page: 209 });
   if (level >= 19) grants.push({ name: "Dono epico a scelta", source: `Classe: ${sheet.classe}`, level: 19 });
   return grants;
 }
@@ -97,11 +99,11 @@ export function availableFeatChoices(sheet: Sheet): string[] {
     // I privilegi di aumento e Dono epico permettono anche un altro talento
     // di cui si possiedono i prerequisiti (Manuale, pp. 53 e 199).
     const choices = featCatalog.filter((feat) => category === "donoEpico" || category === "generali" || feat.category === category)
-      .filter((feat) => Number(sheet.livello) >= feat.minLevel)
+      .filter((feat) => (grant.level ?? Number(sheet.livello)) >= feat.minLevel)
       .filter((feat) => featPrerequisitesMet(sheet, feat.name));
     const index = acquired.findIndex((item) => choices.some((feat) => feat.name === item.nome));
     if (index >= 0) acquired.splice(index, 1);
-    else choices.forEach((feat) => { if (["Abile", "Iniziato alla magia", "Aumento dei punteggi di caratteristica"].includes(feat.name) || !sheet.talenti.some((item) => item.nome === feat.name)) available.add(feat.name); });
+    else choices.forEach((feat) => { if (["Abile", "Adepto elementale", "Iniziato alla magia", "Aumento dei punteggi di caratteristica"].includes(feat.name) || !sheet.talenti.some((item) => item.nome === feat.name)) available.add(feat.name); });
   }
   return [...available];
 }

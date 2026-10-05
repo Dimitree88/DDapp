@@ -94,7 +94,7 @@ in `docs/EPHEMER.md`.
 
 ## Catalogo delle regole
 
-Le opzioni dei menu sono in [`lib/regole-srd-2024.json`](lib/regole-srd-2024.json).
+Le opzioni dei menu sono in [`lib/manuale-2024-domains.json`](lib/manuale-2024-domains.json), ricavate dal PDF locale del Manuale del Giocatore 2024.
 Puoi aggiungere o modificare le voci direttamente nel file; la modifica richiede
 un nuovo deploy in produzione. I campi con dominio accettano solo valori presenti
 nel JSON. I dati esistenti devono quindi essere allineati al catalogo prima di

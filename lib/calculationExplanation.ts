@@ -16,6 +16,7 @@ export type CalculationExplanation = {
   title: string;
   result: string;
   rule: string;
+  page?: number;
   details: { label: string; value: string }[];
   formula: string;
 };
@@ -55,6 +56,7 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
     const shield = sheet.equipaggiamento.find((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi");
     return {
       title: "Classe Armatura", result: displayedArmorClass(sheet),
+      page: 219,
       rule: "La CA ordinaria dipende da Destrezza, armatura indossata e scudo impugnato. Alcuni privilegi o effetti possono usare formule diverse non ancora rappresentate nella scheda.",
       details: [
         { label: "Destrezza", value: shown(sheet.caratteristiche.find((item) => item.abbr === "DES")?.valore ?? "") },
@@ -70,6 +72,7 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
     const first = Math.floor((level - 1) / 4) * 4 + 1;
     return {
       title: "Bonus competenza", result: proficiency,
+      page: 11,
       rule: "Nelle regole 2024 il bonus competenza dipende dal livello totale del personaggio e cresce ogni quattro livelli.",
       details: [{ label: "Livello", value: shown(sheet.livello) }],
       formula: proficiency ? `Livelli ${first}–${Math.min(first + 3, 20)} → ${proficiency}` : "Inserisci un livello da 1 a 20.",
@@ -82,6 +85,7 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
     const result = initiativeBonus(sheet);
     return {
       title: "Iniziativa", result,
+      page: 23,
       rule: "L'iniziativa usa il modificatore di Destrezza. Il talento Allerta aggiunge il bonus competenza al tiro. Effetti temporanei non registrati nella scheda possono modificarlo.",
       details: [
         { label: "Punteggio di Destrezza", value: shown(dexterity?.valore ?? "") },
@@ -101,6 +105,7 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
     const modifier = abilityModifier(characteristic.valore);
     if (target.kind === "modifier") return {
       title: `Modificatore di ${name}`, result: modifier,
+      page: 10,
       rule: "Il modificatore deriva dal punteggio di caratteristica: si sottrae 10, si divide per 2 e si arrotonda per difetto.",
       details: [{ label: `Punteggio di ${name}`, value: shown(characteristic.valore) }],
       formula: modifier ? `⌊(${characteristic.valore} − 10) ÷ 2⌋ = ${modifier}` : "Inserisci un punteggio da 1 a 30.",
@@ -108,6 +113,7 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
     const result = savingThrowBonus(sheet, characteristic);
     return {
       title: `Tiro salvezza di ${name}`, result,
+      page: 12,
       rule: "Il tiro salvezza usa il modificatore della caratteristica. Se il personaggio è competente, aggiunge il bonus competenza.",
       details: [
         { label: `Punteggio di ${name}`, value: shown(characteristic.valore) },
@@ -139,12 +145,14 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
     : `${modifier} = ${bonus}` : "Inserisci il punteggio e il livello necessari.";
   if (target.kind === "passive") return {
     title: "Percezione passiva", result: passivePerception(sheet),
+    page: 369,
     rule: "La Percezione passiva è 10 più il bonus della prova di Saggezza (Percezione). Qui sono inclusi i valori registrati nella scheda; effetti temporanei non registrati possono cambiarla.",
     details: [...details, { label: "Bonus Percezione", value: shown(bonus) }],
     formula: bonus ? `${abilityFormula}; 10 + (${bonus}) = ${passivePerception(sheet)}` : abilityFormula,
   };
   return {
     title: `Abilità: ${ability.nome}`, result: bonus,
+    page: 13,
     rule: `${skillMeaning[ability.nome] ?? "Abilità usata nelle prove di caratteristica."} Il bonus usa il modificatore della caratteristica associata. La competenza aggiunge il bonus competenza; la Maestria lo raddoppia.`,
     details,
     formula: abilityFormula,

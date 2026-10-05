@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import catalog from "../lib/incantesimi-srd-2024.json" with { type: "json" };
-import rules from "../lib/regole-srd-2024.json" with { type: "json" };
+import rules from "../lib/manuale-2024-domains.json" with { type: "json" };
 import { canonicalSpellName, spellDetails, spellNames } from "../lib/spells.ts";
 import { languageDetails } from "../lib/languageDetails.ts";
 import { weaponCatalog, weaponDetails, weaponNames } from "../lib/weaponDetails.ts";

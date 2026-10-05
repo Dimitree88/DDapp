@@ -24,7 +24,7 @@ import {
 import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
 import { groupHistoryByDay } from "@/lib/history";
 import { exportSheetPdf } from "@/lib/exportPdf";
-import regole from "@/lib/regole-srd-2024.json";
+import regole from "@/lib/manuale-2024-domains.json";
 import { spellNames, spellDetails, canonicalSpellName } from "@/lib/spells";
 import { spellEffects } from "@/lib/spellEffects";
 import type { Sheet, Caratteristica, Abilita, Arma, Equip, Incantesimo } from "@/lib/sheet";
@@ -46,7 +46,8 @@ import { coinTotalGold } from "@/lib/coins";
 import { hasGrantedCompetency, setCheckboxCompetency } from "@/lib/competencySources";
 import { classToolProficiencies, classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
 import { addWeaponCompetency, removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
-import { addToolCompetency, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
+import { addToolCompetency, pendingToolChoiceSources, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
+import { addClassSkillChoice, availableClassSkillChoices, classSkillChoices, remainingClassSkillChoices } from "@/lib/classSkillChoices";
 import { backgroundToolProficiency } from "@/lib/backgroundToolProficiencies";
 import { featToolProficiencies } from "@/lib/featToolProficiencies";
 import { WEAPON_PROFICIENCIES } from "@/lib/weaponProficiencyRules";
@@ -213,7 +214,9 @@ function ToolCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (up
   const { unlocked } = useContext(EditContext);
   const items = sheet.competenzeStrumenti ?? [];
   const choices = gearCatalog.filter((item) => item.tool && !items.includes(item.name)).map((item) => item.name);
+  const pending = pendingToolChoiceSources(sheet);
   return <ul className="flex flex-col gap-1.5">
+    {pending.length > 0 && <li className="text-xs text-ink-soft">Scelte strumenti da completare: {pending.map((item) => `${item.source} (${item.remaining})`).join("; ")}.</li>}
     {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
     {items.map((name) => <li key={name} className="flex items-center gap-2">
       <span className="text-ink-faint" aria-hidden>•</span>
@@ -854,6 +857,14 @@ export default function CharacterClient({
       title: "Abilità",
       body: (
         <div className="flex flex-col gap-4">
+          {remainingClassSkillChoices(sheet) > 0 && <div className="rounded-lg border border-line bg-card/70 px-3 py-2 text-xs text-ink-soft">
+            <p>Abilità di classe da registrare: {remainingClassSkillChoices(sheet)} · Manuale del Giocatore 2024, p. {classSkillChoices[sheet.classe]?.page}. Se una è già spuntata, selezionala qui per registrarne la fonte.</p>
+            <select aria-label="Scegli un'abilità di classe" value="" onChange={(event) => patch(addClassSkillChoice(sheet, event.target.value))}
+              className="mt-1 max-w-full rounded-lg border border-line bg-card px-2 py-1 text-sm text-ink focus:border-accent focus:outline-none">
+              <option value="" disabled>+ Scegli abilità di classe</option>
+              {availableClassSkillChoices(sheet).map((name) => <option key={name} value={name}>{name}</option>)}
+            </select>
+          </div>}
           {Object.entries(CAR_FULL).filter(([caratteristica]) =>
             sheet.abilita.some((a) => a.caratteristica === caratteristica),
           ).map(([caratteristica, titolo]) => (
@@ -976,7 +987,7 @@ export default function CharacterClient({
           <ArrayEditor
             items={sheet.risorse ?? []}
             onChange={(items) => patch({ risorse: items })}
-            makeNew={(): NonNullable<Sheet["risorse"]>[number] => ({ nome: "", fonte: "", massimo: 1, spesi: 0, ricarica: "manuale" })}
+            makeNew={(): NonNullable<Sheet["risorse"]>[number] => ({ nome: "", fonte: "", massimo: 1, spesi: 0, ricarica: "" })}
             addLabel="Aggiungi risorsa"
             titleOf={(resource) => resource.nome || "Nuova risorsa"}
             subtitleOf={(resource) => `${resource.massimo - resource.spesi}/${resource.massimo} disponibili`}
@@ -987,7 +998,7 @@ export default function CharacterClient({
                 <TextField label="Usi massimi" showInfo={false} numeric="unsigned" value={String(resource.massimo)} onChange={(v) => p({ massimo: Number(v || 0) })} />
                 <TextField label="Usi spesi" showInfo={false} numeric="unsigned" value={String(resource.spesi)} onChange={(v) => p({ spesi: Number(v || 0) })} />
               </div>
-              <p className="text-xs text-ink-soft">Ricarica registrata: {resource.ricarica === "breve" ? "Riposo breve" : resource.ricarica === "lungo" ? "Riposo lungo" : "Manuale"}</p>
+              <TextField label="Ricarica" showInfo={false} value={resource.ricarica} onChange={(v) => p({ ricarica: v })} />
             </div>}
           />
           <h3 className={`${sectionTitle} mt-4`}>Fonti delle competenze</h3>
@@ -1007,7 +1018,7 @@ export default function CharacterClient({
           <div className="mb-3 flex flex-col gap-2">
             {featGrants(sheet).map((grant, index) => <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
               <p className="text-sm font-semibold text-ink">{grant.name}</p>
-              <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}</p>
+              <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale del Giocatore 2024, p. ${grant.page}` : ""}</p>
               {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
             </div>)}
           </div>
@@ -1261,6 +1272,7 @@ export default function CharacterClient({
                       className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
                   </div>
                   <p className="mt-3 text-sm leading-relaxed">{calculation.rule}</p>
+                  {calculation.page && <p className="mt-2 text-xs text-ink-soft">Manuale del Giocatore 2024, p. {calculation.page}</p>}
                   <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Valori della scheda</h3>
                   <dl className="mt-2 space-y-1 text-sm">
                     {calculation.details.map((detail) => (

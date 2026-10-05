@@ -1,4 +1,4 @@
-import regole from "./regole-srd-2024.json";
+import regole from "./manuale-2024-domains.json";
 
 const languages = new Set([...regole.lingue.standard, ...regole.lingue.rare]);
 

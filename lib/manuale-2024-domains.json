@@ -1,7 +1,6 @@
 {
-  "versione": "Manuale del Giocatore 2024 (domini dei nomi)",
+  "versione": "Manuale del Giocatore 2024",
   "lingua": "it",
-  "licenza": "SRD 5.2.1: CC-BY-4.0; opzioni aggiunte: Manuale del Giocatore 2024",
   "livelliPersonaggio": [
     "1",
     "2",
@@ -24,7 +23,6 @@
     "19",
     "20"
   ],
-  "attribuzione": "Quest'opera include materiale tratto dal System Reference Document 5.2.1 (\"SRD 5.2.1\") di Wizards of the Coast LLC, disponibile all'indirizzo https://www.dndbeyond.com/srd. Il SRD 5.2.1 è concesso in licenza ai sensi della licenza di attribuzione 4.0 Internazionale di Creative Commons, disponibile all'indirizzo https://creativecommons.org/licenses/by/4.0/legalcode.",
   "classi": {
     "Barbaro": [
       "Cammino dell'Albero del Mondo",
@@ -334,6 +332,5 @@
     "8",
     "9"
   ],
-  "fontePrincipale": "docs/regole/Manuale Del Giocatore - 2024.pdf",
-  "fonteSrd": "https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
+  "fontePrincipale": "docs/regole/Manuale Del Giocatore - 2024.pdf"
 }

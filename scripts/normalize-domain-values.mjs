@@ -2,7 +2,7 @@ import { createClient } from "@libsql/client";
 import { config } from "dotenv";
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import regole from "../lib/regole-srd-2024.json" with { type: "json" };
+import regole from "../lib/manuale-2024-domains.json" with { type: "json" };
 
 config({ path: ".env.local", quiet: true });
 

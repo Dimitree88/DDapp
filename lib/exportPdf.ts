@@ -450,7 +450,7 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   } else {
     emptyNote();
   }
-  if (sheet.risorse?.length) sheet.risorse.forEach((resource) => titledCard(resource.nome, `${resource.massimo - resource.spesi}/${resource.massimo}`, resource.fonte, `Ricarica: ${resource.ricarica}`));
+  if (sheet.risorse?.length) sheet.risorse.forEach((resource) => titledCard(resource.nome, `${resource.massimo - resource.spesi}/${resource.massimo}`, resource.fonte, resource.ricarica ? `Ricarica: ${resource.ricarica}` : ""));
   if (sheet.fontiCompetenze?.length) sheet.fontiCompetenze.forEach((record) => paragraph(`${record.valore} (${record.tipo}): ${record.fonte}`, { size: 10, color: C.inkSoft }));
 
   // ===== Talenti ===== (stessa pagina di Monete)

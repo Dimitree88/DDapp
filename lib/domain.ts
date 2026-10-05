@@ -1,4 +1,4 @@
-import rules from "./regole-srd-2024.json";
+import rules from "./manuale-2024-domains.json";
 import type { Sheet } from "./sheet";
 import { numericValueValid, type NumericMode } from "./numeric";
 import { spellNames } from "./spells";
@@ -90,7 +90,7 @@ export function domainErrors(sheet: Sheet): string[] {
     if (entry && !featPrerequisitesMet(sheet, feat.nome)) errors.push(`Talento ${feat.nome}: prerequisiti non soddisfatti`);
   });
   (sheet.risorse ?? []).forEach((resource, index) => {
-    if (!resource.nome.trim() || !resource.fonte.trim() || !Number.isSafeInteger(resource.massimo) || resource.massimo < 0 || !Number.isSafeInteger(resource.spesi) || resource.spesi < 0 || resource.spesi > resource.massimo || !["breve", "lungo", "manuale"].includes(resource.ricarica)) errors.push(`Risorsa ${index + 1}: dati non validi`);
+    if (!resource.nome.trim() || !resource.fonte.trim() || !Number.isSafeInteger(resource.massimo) || resource.massimo < 0 || !Number.isSafeInteger(resource.spesi) || resource.spesi < 0 || resource.spesi > resource.massimo || typeof resource.ricarica !== "string") errors.push(`Risorsa ${index + 1}: dati non validi`);
   });
   sheet.incantesimi.forEach((spell, index) => {
     check(`Incantesimo ${index + 1}`, spell.nome, spellNames);

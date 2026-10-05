@@ -5,7 +5,7 @@ import { domainErrors } from "../lib/domain.ts";
 import { emptySheet } from "../lib/sheet.ts";
 import { availableClassSpells } from "../lib/spellcasting.ts";
 import { backgroundToolProficiency } from "../lib/backgroundToolProficiencies.ts";
-import rules from "../lib/regole-srd-2024.json" with { type: "json" };
+import rules from "../lib/manuale-2024-domains.json" with { type: "json" };
 import { gearCatalog } from "../lib/gearCatalog.ts";
 import { weaponCatalog } from "../lib/weaponDetails.ts";
 import { masteryEffects } from "../lib/weaponMastery.ts";
@@ -44,6 +44,25 @@ test("every Manuale 2024 class and subclass grants its page-linked features", ()
       }
     }
   }
+});
+
+test("species traits use Manual names and their unlock levels", () => {
+  const sheet = emptySheet();
+  sheet.specie = "Aasimar";
+  assert.ok(!grantedPrivileges(sheet).some((grant) => grant.name === "Rivelazione celestiale"));
+  sheet.livello = "3";
+  assert.ok(grantedPrivileges(sheet).some((grant) => grant.name === "Rivelazione celestiale" && grant.level === 3 && grant.page === 186));
+  sheet.specie = "Dragonide";
+  assert.ok(grantedPrivileges(sheet).some((grant) => grant.name === "Scurovisione"));
+  assert.ok(!grantedPrivileges(sheet).some((grant) => grant.name === "Volo draconico"));
+  sheet.livello = "5";
+  assert.ok(grantedPrivileges(sheet).some((grant) => grant.name === "Volo draconico" && grant.level === 5));
+  sheet.specie = "Goliath";
+  assert.ok(grantedPrivileges(sheet).some((grant) => grant.name === "Costituzione robusta"));
+  assert.ok(grantedPrivileges(sheet).some((grant) => grant.name === "Forma Grande" && grant.level === 5));
+  sheet.specie = "Halfling";
+  assert.ok(grantedPrivileges(sheet).some((grant) => grant.name === "Fortuna"));
+  assert.ok(!grantedPrivileges(sheet).some((grant) => grant.name === "Fortunato"));
 });
 
 test("new Manuale 2024 identity choices pass domain validation", () => {

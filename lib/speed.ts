@@ -3,7 +3,7 @@ import type { Sheet } from "./sheet";
 
 // Velocità di base delle specie, Manuale del Giocatore 2024, pp. 186-197.
 export const speciesSpeed: Record<string, number> = {
-  Dragonide: 9, Elfo: 9, Gnomo: 9, Goliath: 10.5, Halfling: 9,
+  Aasimar: 9, Dragonide: 9, Elfo: 9, Gnomo: 9, Goliath: 10.5, Halfling: 9,
   Nano: 9, Orco: 9, Tiefling: 9, Umano: 9,
 };
 

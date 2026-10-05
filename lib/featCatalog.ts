@@ -1,4 +1,4 @@
-import rules from "./regole-srd-2024.json";
+import rules from "./manuale-2024-domains.json";
 
 export type FeatEntry = { name: string; id: string; category: "origini" | "generali" | "stileDiCombattimento" | "donoEpico"; minLevel: number; source: "Manuale del Giocatore 2024" };
 

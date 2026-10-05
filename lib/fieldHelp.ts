@@ -44,7 +44,7 @@ export const fieldHelp: Record<string, FieldHelp> = {
   Privilegi: { meaning: "Privilegi e capacità ottenuti da classe, specie o altre fonti.", rule: true },
   Titolo: { meaning: "Nome del privilegio o della capacità." },
   "Scelte privilegio": { meaning: "Scelte e dettagli personali legati a un privilegio." },
-  Talenti: { meaning: "Talenti acquisiti dal personaggio.", effect: "Allerta aggiorna l'Iniziativa e Lavoro manuale registra le competenze negli strumenti scelte. Gli altri effetti vanno registrati dove pertinenti.", rule: true, page: 199 },
+  Talenti: { meaning: "Talenti acquisiti dal personaggio.", effect: "Allerta aggiorna l'Iniziativa; Lavoro manuale e Musicista registrano le competenze negli strumenti scelte. Gli altri effetti vanno registrati dove pertinenti.", rule: true, page: 199 },
   "Nome talento": { meaning: "Talento selezionato per il personaggio.", effect: "L'app applica automaticamente solo gli effetti dei talenti che ha modellato esplicitamente.", rule: true, page: 199 },
   "Scelte talento": { meaning: "Scelte personali richieste o concesse dal talento.", rule: true },
   Incantesimi: { meaning: "Incantesimi registrati nella scheda.", rule: true },

@@ -26,3 +26,10 @@ test("worn heavy armor applies the strength speed penalty", () => {
   sheet.caratteristiche.find((item) => item.abbr === "FOR").valore = "13";
   assert.equal(calculatedSpeed(sheet).value, 9);
 });
+
+test("Aasimar has its Manual page 186 base speed", () => {
+  const sheet = emptySheet();
+  sheet.specie = "Aasimar";
+  sheet.velocitaModo = "specie";
+  assert.equal(calculatedSpeed(sheet).value, 9);
+});

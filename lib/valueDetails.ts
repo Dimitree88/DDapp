@@ -1,4 +1,4 @@
-import regole from "./regole-srd-2024.json";
+import regole from "./manuale-2024-domains.json";
 import manual from "./manuale-2024-entities.json";
 import backgrounds2024 from "./manuale-2024-backgrounds.json";
 import pages2024 from "./manuale-2024-pages.json";
@@ -53,9 +53,9 @@ const species: Record<string, string> = {
   Elfo: "Possiede tratti fatati, sensi acuti e un lignaggio che ne determina ulteriori capacità.",
   Gnomo: "Piccolo, dotato di astuzia magica e di un lignaggio delle foreste o delle rocce.",
   Goliath: "Discende dai giganti e sceglie un retaggio che concede una capacità specifica.",
-  Halfling: "Piccolo e agile, con il tratto Fortunato che permette di ritirare un 1 su un d20.",
-  Nano: "Possiede scurovisione, resistenza nanica e una particolare robustezza.",
-  Orco: "Possiede scurovisione, resistenza e capacità di scattare verso il combattimento.",
+  Halfling: "Piccolo e agile, con il tratto Fortuna che permette di ritirare un 1 su un d20.",
+  Nano: "Possiede scurovisione, resilienza nanica e una particolare robustezza.",
+  Orco: "Possiede scurovisione, resistenza implacabile e la capacità di Scattare come azione bonus.",
   Tiefling: "Possiede un retaggio planare che determina resistenza e magie innate.",
   Umano: "Versatile: ottiene una competenza in un'abilità e un talento di origine aggiuntivo.",
 };
@@ -87,6 +87,8 @@ const feats: Record<string, string> = {
   "Iniziato alla magia": "Concede due trucchetti e un incantesimo di 1° livello da una lista scelta.",
   Guaritore: "Permette di usare una borsa da guaritore per curare e di migliorare i dadi di guarigione.",
   "Lavoro manuale": "Concede competenza negli strumenti da artigiano scelti e agevola la creazione di oggetti.",
+  Musicista: "Concede competenza in tre strumenti musicali a scelta. Dopo un riposo breve o lungo, una canzone può dare Ispirazione Eroica a un numero di alleati pari al bonus di competenza.",
+  "Adepto elementale": "Richiede Incantesimi o Magia del patto. Consente di scegliere un tipo di danno elementale i cui incantesimi ignorano la resistenza; è ripetibile scegliendo ogni volta un tipo diverso.",
   "Aumento dei punteggi di caratteristica": "Aumenta i punteggi di caratteristica scelti, entro il limite previsto dal talento.",
   Lottatore: "Migliora i colpi senz'armi e la capacità di afferrare una creatura.",
   "Combattere con armi possenti": "Aumenta i danni minimi ottenuti con armi da mischia impugnate a due mani.",

@@ -6,20 +6,20 @@ import { armorById } from "./armorCatalog";
 export function recordedValueDetails(sheet: Sheet, kind: string): FieldHelp | null {
   switch (kind) {
     case "pf": return sheet.puntiFerita ? {
-      meaning: `${sheet.puntiFerita} punti ferita attuali${sheet.puntiFeritaMax ? ` su ${sheet.puntiFeritaMax} massimi` : ""}. I danni riducono questo valore; le cure lo aumentano senza superare normalmente il massimo.`, rule: true,
+      meaning: `${sheet.puntiFerita} punti ferita attuali${sheet.puntiFeritaMax ? ` su ${sheet.puntiFeritaMax} massimi` : ""}. I danni riducono questo valore; le cure lo aumentano senza superare normalmente il massimo.`, rule: true, page: 27,
     } : null;
     case "pfMassimi": return sheet.puntiFeritaMax ? {
-      meaning: `${sheet.puntiFeritaMax} è il massimo ordinario di punti ferita registrato. Il valore può cambiare con l'avanzamento o con effetti specifici; qui resta manuale.`, rule: true,
+      meaning: `${sheet.puntiFeritaMax} è il massimo ordinario di punti ferita registrato. Il valore può cambiare con l'avanzamento o con effetti specifici; qui resta manuale.`, rule: true, page: 27,
     } : null;
     case "ca": {
       const value = displayedArmorClass(sheet);
       const calculated = calculatedArmorClass(sheet);
       return value ? {
-        meaning: `Classe Armatura: ${value}. ${calculated ? `Calcolo automatico: ${calculated.formula}.` : "Valore storico; inserisci Destrezza per il calcolo automatico."}${calculated?.warnings.length ? ` ${calculated.warnings.join(" ")}` : ""}`, rule: true,
+        meaning: `Classe Armatura: ${value}. ${calculated ? `Calcolo automatico: ${calculated.formula}.` : "Valore storico; inserisci Destrezza per il calcolo automatico."}${calculated?.warnings.length ? ` ${calculated.warnings.join(" ")}` : ""}`, rule: true, page: 219,
       } : null;
     }
     case "scudo": return {
-      meaning: sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi") ? `Scudo: sì. ${sheet.competenzeArmatura.scudi ? "Il bonus dello scudo entra nel calcolo automatico della CA." : "Senza competenza lo scudo non aggiunge CA."}` : "Scudo: no. Puoi selezionarlo nella sezione Equipaggiamento.", rule: true,
+      meaning: sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi") ? `Scudo: sì. ${sheet.competenzeArmatura.scudi ? "Il bonus dello scudo entra nel calcolo automatico della CA." : "Senza competenza lo scudo non aggiunge CA."}` : "Scudo: no. Puoi selezionarlo nella sezione Equipaggiamento.", rule: true, page: 219,
     };
     case "dadiVita": return sheet.dadiVita ? {
       meaning: `Dadi Vita massimi registrati: ${sheet.dadiVita}. Durante un riposo breve se ne possono spendere per recuperare punti ferita. La scheda non registra quanti ne siano già stati spesi.`, rule: true,
@@ -28,7 +28,7 @@ export function recordedValueDetails(sheet: Sheet, kind: string): FieldHelp | nu
       meaning: `${sheet.puntiEsperienza} punti esperienza registrati. Il livello indicato nella scheda è ${sheet.livello}; l'avanzamento del livello viene deciso e inserito separatamente.`, rule: true,
     } : null;
     case "ispirazione": return {
-      meaning: sheet.ispirazioneEroica ? "Il personaggio possiede Ispirazione Eroica e può spenderla per ritirare un dado appena tirato, usando il nuovo risultato." : "Il personaggio non possiede attualmente Ispirazione Eroica.", rule: true,
+      meaning: sheet.ispirazioneEroica ? "Il personaggio possiede Ispirazione Eroica e può spenderla per ritirare un dado appena tirato, usando il nuovo risultato." : "Il personaggio non possiede attualmente Ispirazione Eroica.", rule: true, page: 13,
     };
     case "velocita": return sheet.velocita ? {
       meaning: `Velocità registrata: ${sheet.velocita} metri per un movimento. Effetti temporanei o condizioni possono modificarla; non sono rappresentati in questo campo.`, rule: true,

@@ -31,6 +31,20 @@ const classTools: Record<string, string[]> = {
 };
 export const classToolProficiencies = (className: string): readonly string[] => classTools[className] ?? [];
 
+// Druidico p. 80 e Gergo Ladresco p. 101 sono privilegi di 1° livello.
+export function grantClassLanguages(sheet: Sheet): Sheet {
+  const language = sheet.classe === "Druido" ? "Druidico" : sheet.classe === "Ladro" ? "Gergo ladresco" : null;
+  if (!language) return sheet;
+  const source = `Classe: ${sheet.classe}`;
+  const existing = sheet.fontiCompetenze ?? [];
+  return {
+    ...sheet,
+    lingue: [...new Set([...sheet.lingue, language])],
+    fontiCompetenze: existing.some((record) => record.tipo === "lingua" && record.valore === language && record.fonte === source)
+      ? existing : [...existing, { tipo: "lingua", valore: language, fonte: source }],
+  };
+}
+
 export function grantClassProficiencies(sheet: Sheet): Sheet {
   const saves = classSavingThrows[sheet.classe];
   if (!saves) return sheet;

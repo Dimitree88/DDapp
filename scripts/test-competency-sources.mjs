@@ -44,7 +44,7 @@ test("a declared source grants its competence once and preserves manual choices"
   assert.deepEqual(granted.competenzeArmi, ["Armi semplici"]);
   assert.equal(granted.competenzeArmatura.leggere, true);
   assert.deepEqual(granted.competenzeStrumenti, ["Borsa da erborista"]);
-  assert.deepEqual(granted.lingue, ["Elfico"]);
+  assert.deepEqual(granted.lingue, ["Comune", "Elfico"]);
   assert.deepEqual(domainErrors(granted), []);
   assert.deepEqual({ ...granted, ...grantCompetencies(granted, sources) }, granted);
   assert.deepEqual(grantCompetencies(granted, []), { fontiCompetenze: [] });

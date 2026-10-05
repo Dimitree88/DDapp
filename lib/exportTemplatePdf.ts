@@ -171,7 +171,7 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   addSection("Inventario completo", sheet.equipaggiamento.map((item) => [item.nome, item.quantita ? `×${item.quantita}` : "", item.unita, item.contenitore ? `in ${item.contenitore}` : "", item.dettaglio].filter(Boolean).join(" · ")));
   addSection("Competenze negli strumenti", sheet.competenzeStrumenti ?? []);
   addSection("Privilegi completi", privileges);
-  addSection("Risorse dei privilegi", (sheet.risorse ?? []).map((resource) => `${resource.nome}: ${resource.massimo - resource.spesi}/${resource.massimo}; fonte ${resource.fonte}; ricarica ${resource.ricarica}`));
+  addSection("Risorse dei privilegi", (sheet.risorse ?? []).map((resource) => `${resource.nome}: ${resource.massimo - resource.spesi}/${resource.massimo}; fonte ${resource.fonte}${resource.ricarica ? `; ricarica ${resource.ricarica}` : ""}`));
   addSection("Fonti delle competenze", (sheet.fontiCompetenze ?? []).map((record) => `${record.valore} (${record.tipo}): ${record.fonte}`));
   addSection("Talenti completi", sheet.talenti.map((item) => item.scelte ? `${item.nome}: ${item.scelte}` : item.nome));
   const weight = inventoryWeight(sheet);

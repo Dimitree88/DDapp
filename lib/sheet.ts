@@ -2,8 +2,8 @@ import { canonicalSpellName } from "./spells";
 import { calculatedMaxHp } from "./classProgression";
 import { calculatedArmorClass } from "./armorClass";
 import { calculatedSpeed } from "./speed";
-import { grantClassProficiencies } from "./classSavingThrows";
-import { grantBackgroundToolProficiency } from "./backgroundToolProficiencies";
+import { grantClassLanguages, grantClassProficiencies } from "./classSavingThrows";
+import { grantBackgroundSkills, grantBackgroundToolProficiency } from "./backgroundToolProficiencies";
 import { grantFeatToolProficiencies } from "./featToolProficiencies";
 import { gearByName } from "./gearCatalog";
 import { mergeDuplicateCatalogEquipment } from "./equipmentSelection";
@@ -52,7 +52,7 @@ export type Privilegio = {
   scelte: string;
 };
 
-export type Risorsa = { nome: string; fonte: string; massimo: number; spesi: number; ricarica: "breve" | "lungo" | "manuale" };
+export type Risorsa = { nome: string; fonte: string; massimo: number; spesi: number; ricarica: string };
 export type FonteCompetenza = { tipo: "abilita" | "tiroSalvezza" | "arma" | "armatura" | "strumento" | "lingua"; valore: string; fonte: string };
 
 export type Talento = {
@@ -124,6 +124,7 @@ export type Sheet = {
   risorse?: Risorsa[];
   fontiCompetenze?: FonteCompetenza[];
   classProficienciesApplied?: boolean;
+  backgroundSkillsApplied?: boolean;
 
   // Pagina: Talenti
   talenti: Talento[];
@@ -220,7 +221,7 @@ export function emptySheet(): Sheet {
     allineamento: "",
     velocita: "",
     taglia: "",
-    lingue: [],
+    lingue: ["Comune"],
     noteLingue: "",
 
     caratteristiche: CARATTERISTICHE_BASE.map((c) => ({
@@ -332,7 +333,7 @@ export function normalizeSheet(value: Sheet): Sheet {
     velocita,
     scudo: toBoolean(old.scudo),
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
-    lingue: languages,
+    lingue: [...new Set(["Comune", ...languages])],
     competenzeArmi: toList(old.competenzeArmi),
     ...(Array.isArray(value.competenzeStrumenti) ? { competenzeStrumenti: value.competenzeStrumenti } : {}),
     ...(Array.isArray(value.padronanzeArmi) ? { padronanzeArmi: value.padronanzeArmi } : {}),
@@ -360,6 +361,10 @@ export function normalizeSheet(value: Sheet): Sheet {
           ? "" : item.dettaglio };
       }),
     privilegi: privileges,
+    risorse: (value.risorse ?? []).map((resource) => ({
+      ...resource,
+      ricarica: resource.ricarica === "breve" ? "Riposo breve" : resource.ricarica === "lungo" ? "Riposo lungo" : resource.ricarica === "manuale" ? "" : resource.ricarica,
+    })),
     talenti: old.talenti.map((feat) => {
       const tools = /strumenti da artigiano scelti:\s*([^\n.]+)/i.exec(feat.descrizione ?? "");
       return { nome: feat.nome, scelte: typeof feat.scelte === "string" ? feat.scelte : tools?.[1].trim() ?? "" };
@@ -373,5 +378,6 @@ export function normalizeSheet(value: Sheet): Sheet {
   delete (normalized as Sheet & { iniziativa?: string }).iniziativa;
   const cleaned = removeRetiredFields(normalized);
   cleaned.equipaggiamento = mergeDuplicateCatalogEquipment(cleaned.equipaggiamento);
-  return grantFeatToolProficiencies(grantBackgroundToolProficiency(cleaned.classProficienciesApplied ? cleaned : grantClassProficiencies(cleaned)));
+  const withClass = cleaned.classProficienciesApplied ? cleaned : grantClassProficiencies(cleaned);
+  return grantFeatToolProficiencies(grantBackgroundToolProficiency(grantBackgroundSkills(grantClassLanguages(withClass))));
 }

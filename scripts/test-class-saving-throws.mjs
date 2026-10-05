@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import rules from "../lib/regole-srd-2024.json" with { type: "json" };
+import rules from "../lib/manuale-2024-domains.json" with { type: "json" };
 import { classSavingThrows, grantClassProficiencies } from "../lib/classSavingThrows.ts";
 import { emptySheet, normalizeSheet } from "../lib/sheet.ts";
 import { domainErrors } from "../lib/domain.ts";
@@ -17,7 +17,16 @@ test("every catalog class grants its two saving throw proficiencies", () => {
     assert.equal(granted.fontiCompetenze.filter((record) => record.tipo === "tiroSalvezza").length, 2, name);
     assert.deepEqual(domainErrors(granted), [], name);
     assert.deepEqual(grantClassProficiencies(granted), granted, name);
-    assert.deepEqual(normalizeSheet(granted), granted, name);
+    assert.deepEqual(normalizeSheet(normalizeSheet(granted)), normalizeSheet(granted), name);
+  }
+});
+
+test("Druidic and Thieves' Cant are granted by their class feature", () => {
+  for (const [className, language] of [["Druido", "Druidico"], ["Ladro", "Gergo ladresco"]]) {
+    const sheet = normalizeSheet({ ...emptySheet(), classe: className });
+    assert.ok(sheet.lingue.includes(language));
+    assert.ok(sheet.fontiCompetenze.some((record) => record.tipo === "lingua" && record.valore === language && record.fonte === `Classe: ${className}`));
+    assert.deepEqual(normalizeSheet(sheet), sheet);
   }
 });
 
