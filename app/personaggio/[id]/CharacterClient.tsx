@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  Fragment,
   useCallback,
   useContext,
   useEffect,
@@ -279,14 +280,23 @@ function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: 
 function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void }) {
   const { unlocked } = useContext(EditContext);
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
+  const entries = items.map((item, index) => ({ item, index }));
+  const standard = entries.filter(({ item }) => gearById(item.catalogId ?? "") || gearCatalog.some((gear) => gear.name === item.nome));
+  const custom = entries.filter(({ item }) => !gearById(item.catalogId ?? "") && !gearCatalog.some((gear) => gear.name === item.nome));
   return <div className="flex flex-col gap-2">
     {items.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
-    {items.map((item, index) => <div key={index} className={`${card} flex items-center gap-2`}>
-      <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="min-w-0 flex-1 text-sm font-semibold text-ink" />
-      <span className="text-xs text-ink-faint">Quantità</span>
-      <InlineInput value={item.quantita || "1"} onChange={(value) => patchAt(index, { quantita: value || "1" })} numeric="unsigned" large className="w-10 text-center font-semibold" />
-      {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
-    </div>)}
+    {[...standard, ...custom].map(({ item, index }, position) => <Fragment key={index}>
+      {position === standard.length && custom.length > 0 && <h4 className={`${sectionTitle} mt-2`}>Oggetti personalizzati</h4>}
+      <div className={`${card} flex items-center gap-2`}>
+        <div className="min-w-0 flex-1">
+          <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-sm font-semibold text-ink" />
+          {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
+        </div>
+        <span className="text-xs text-ink-faint">Quantità</span>
+        <InlineInput value={item.quantita || "1"} onChange={(value) => patchAt(index, { quantita: value || "1" })} numeric="unsigned" large className="w-10 text-center font-semibold" />
+        {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+      </div>
+    </Fragment>)}
     {unlocked && <select aria-label="Aggiungi oggetto" value="" onChange={(event) => {
       const gear = gearCatalog.find((entry) => entry.id === event.target.value);
       onChange([...items, { nome: gear?.name ?? "", catalogId: gear?.id, dettaglio: "", quantita: "1" }]);
@@ -878,19 +888,6 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}>Competenze armi</h3>
-            <WeaponCompetencyEditor sheet={sheet} onChange={patch} />
-          </div>
-          <div>
-            <h3 className={sectionTitle}>Padronanze scelte</h3>
-            <WeaponMasteryEditor sheet={sheet} onChange={(items) => patch({ padronanzeArmi: items })} />
-          </div>
-          <div>
-            <h3 className={sectionTitle}>Armi</h3>
-            <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} />
-            <AddWeaponSelect sheet={sheet} onAdd={(weaponName) => patch({ armi: [...sheet.armi, { nome: weaponName, quantita: "1", bonus: "", note: "" }] })} />
-          </div>
-          <div>
             <h3 className={sectionTitle}><InfoLabel id="armaturaSelezionata" title="Armatura indossata" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
             <select aria-label="Armatura indossata" value={wornArmorName} onChange={(event) => patch({ equipaggiamento: selectWornArmor(sheet, armorChoices.find((armor) => armor.label === event.target.value)?.id ?? null) })} className="max-w-full bg-transparent py-1 text-[15px] text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent">
               <option value="Nessuna">Nessuna</option>
@@ -908,6 +905,19 @@ export default function CharacterClient({
               )}
               {!Object.values(sheet.competenzeArmatura).some(Boolean) && <span className="text-sm text-ink-faint">Nessuna</span>}
             </div>
+          </div>
+          <div>
+            <h3 className={sectionTitle}>Competenze armi</h3>
+            <WeaponCompetencyEditor sheet={sheet} onChange={patch} />
+          </div>
+          <div>
+            <h3 className={sectionTitle}>Padronanze scelte</h3>
+            <WeaponMasteryEditor sheet={sheet} onChange={(items) => patch({ padronanzeArmi: items })} />
+          </div>
+          <div>
+            <h3 className={sectionTitle}>Armi</h3>
+            <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} />
+            <div className="mt-3"><AddWeaponSelect sheet={sheet} onAdd={(weaponName) => patch({ armi: [...sheet.armi, { nome: weaponName, quantita: "1", bonus: "", note: "" }] })} /></div>
           </div>
         </div>
       ),
@@ -1271,11 +1281,6 @@ export default function CharacterClient({
                 {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed">{fieldHelp.effect}</p></>}
                 {object && <div className="mt-4 flex flex-col gap-2 border-t border-line pt-3">
                   <TextField label="Oggetto" showInfo={false} showEditIcon value={object.nome} onChange={(name) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: name, catalogId: gearById(item.catalogId ?? "")?.name === name ? item.catalogId : undefined } : item) })} />
-                  <TextField label="Equipaggiamento SRD" showInfo={false} showEditIcon value={gearById(object.catalogId ?? "")?.name ?? ""} options={gearCatalog.map((item) => item.name)} onChange={(name) => { const gear = gearCatalog.find((item) => item.name === name); patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: gear?.name ?? item.nome, catalogId: gear?.id } : item) }); }} />
-                  <div className={grid2}>
-                    <TextField label="Unità" showInfo={false} showEditIcon value={object.unita ?? ""} onChange={(unita) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, unita } : item) })} />
-                    <TextField label="Contenitore" showInfo={false} showEditIcon value={object.contenitore ?? ""} onChange={(contenitore) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, contenitore } : item) })} />
-                  </div>
                   <TextField label="Dettaglio personale" showInfo={false} showEditIcon value={object.dettaglio} onChange={(dettaglio) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, dettaglio } : item) })} multiline />
                 </div>}
                 {spell && <>
