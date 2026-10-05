@@ -44,3 +44,23 @@ test("drops the removed armor note field from older sheets", () => {
   assert.equal(sheet.classeArmatura, null);
   assert.equal(Object.hasOwn(sheet, "noteClasseArmatura"), false);
 });
+
+test("removes retired combat fields from saved sheets", () => {
+  const old = {
+    ...emptySheet(),
+    puntiFeritaTemporanei: "5",
+    dadiVitaSpesi: "2",
+    tiriMorte: { successi: 1, fallimenti: 2 },
+    condizioni: ["Prono"],
+    puntiFeritaMaxModo: "manuale",
+    incrementiPf: [],
+    classeArmaturaModo: "manuale",
+    velocitaModo: "manuale",
+    modificatoriVelocita: [],
+  };
+  const sheet = normalizeSheet(old);
+  for (const key of ["puntiFeritaTemporanei", "dadiVitaSpesi", "tiriMorte", "condizioni", "puntiFeritaMaxModo", "incrementiPf", "classeArmaturaModo", "velocitaModo", "modificatoriVelocita"]) {
+    assert.equal(Object.hasOwn(sheet, key), false, key);
+  }
+  assert.deepEqual(normalizeSheet(sheet), sheet);
+});

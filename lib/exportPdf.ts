@@ -3,12 +3,9 @@
 import type { Sheet } from "./sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
 import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
-import { displayedArmorClass } from "./armorClass";
 import { spellSlots, spellcastingStats } from "./spellcasting";
 import { coinTotalGold } from "./coins";
 import { carryingCapacity, inventoryWeight } from "./inventoryWeight";
-import { displayedMaxHp } from "./classProgression";
-import { displayedSpeed } from "./speed";
 
 const CAR_FULL: Record<string, string> = {
   FOR: "FORZA",
@@ -206,20 +203,17 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   fieldRows([
     [["Livello", sheet.livello], ["Classe", sheet.classe]],
     [["Sottoclasse", sheet.sottoclasse]],
-    [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", displayedMaxHp(sheet)]],
-    [["PF temporanei", sheet.puntiFeritaTemporanei ?? ""]],
-    [["Classe Armatura", displayedArmorClass(sheet)]],
+    [["Punti Ferita", sheet.puntiFerita], ["Punti Ferita Massimi", sheet.puntiFeritaMax]],
+    [["Classe Armatura", sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)]],
     [["Scudo", sheet.scudo ? "Sì" : "No"], ["Iniziativa", initiativeBonus(sheet)]],
     [["Bonus Competenza", proficiencyBonus(sheet.livello)], ["Percezione Passiva", passivePerception(sheet)]],
-    [["Dadi Vita", sheet.dadiVita], ["Dadi Vita spesi", sheet.dadiVitaSpesi ?? ""]],
-    [["TS morte superati", String(sheet.tiriMorte?.successi ?? 0)], ["TS morte falliti", String(sheet.tiriMorte?.fallimenti ?? 0)]],
+    [["Dadi Vita", sheet.dadiVita]],
     [["Punti Esperienza", sheet.puntiEsperienza]],
-    [["Ispirazione Eroica", sheet.ispirazioneEroica ? "Sì" : "No"], ["Velocità", displayedSpeed(sheet) ? `${displayedSpeed(sheet)} m` : ""]],
+    [["Ispirazione Eroica", sheet.ispirazioneEroica ? "Sì" : "No"], ["Velocità", sheet.velocita ? `${sheet.velocita} m` : ""]],
     [["Allineamento", sheet.allineamento], ["Taglia", sheet.taglia]],
     [["Specie", sheet.lignaggio || sheet.specie]],
     [["Background", sheet.background]],
   ]);
-  if (sheet.condizioni?.length) paragraph(`Condizioni: ${sheet.condizioni.join(", ")}`, { size: 10, color: C.inkSoft });
 
   // ===== Lingue ===== (stessa pagina di Stato & Identità)
   tab("Lingue", true);

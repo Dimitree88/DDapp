@@ -1,6 +1,18 @@
 # Piano dei domini e degli automatismi della scheda
 
-Stato: implementazione avanzata, non ancora completa. Sono operativi i cataloghi armi, armature, strumenti, munizioni ed equipaggiamento d'avventura; attacchi e varianti magiche dichiarate, padronanze, livelli minimi dei talenti, CA, PF massimi e velocità opzionali, slot e CD magiche, stati e risorse correnti, riposi, monete, peso e capacità di trasporto, appendice PDF. Restano progressioni complete di privilegi, origini e opzioni dei talenti, derivazione automatica delle competenze dalle loro fonti, transazioni e gestione avanzata degli oggetti magici o personalizzati. Le fonti delle competenze possono ora essere annotate sulle scelte esistenti. Le risorse per riposo hanno uno schema generico con massimo esplicito, non ancora le formule di ogni privilegio. Le schede esistenti non sono state convertite automaticamente. Audit delle voci: docs/audit-oggetti-schede.md.
+Stato: implementazione avanzata, non ancora completa. Sono operativi i cataloghi armi, armature, strumenti, munizioni ed equipaggiamento d'avventura; attacchi e varianti magiche dichiarate, padronanze, livelli minimi dei talenti, slot e CD magiche, risorse correnti, monete, peso e capacità di trasporto, appendice PDF. La classe attribuisce ora automaticamente le competenze fisse in TS, armi, armature e strumenti, con fonte registrata. Restano progressioni complete di privilegi, origini e opzioni dei talenti, concessioni che richiedono scelte del giocatore, transazioni e gestione avanzata degli oggetti magici o personalizzati. Le risorse per riposo hanno uno schema generico con massimo esplicito, non ancora le formule di ogni privilegio. Le schede esistenti non sono state convertite automaticamente dove le scelte sono ambigue. Audit delle voci: docs/audit-oggetti-schede.md.
+
+Decisione UI del 5 ottobre 2026: non esporre più il box danni/cure, le fonti selezionabili di PF massimi, CA e velocità, i PF temporanei, i Dadi Vita spesi, le azioni di riposo, i TS morte e le condizioni. I campi sono eliminati anche dai nuovi dati della scheda; la pulizia del database configurato ha verificato 2 schede e 111 voci di storico, senza trovare valori da eliminare. Eventuali vecchie schede importate perdono quei campi durante la normalizzazione; i valori calcolati di PF massimi, CA e velocità vengono trasferiti nei rispettivi campi manuali quando il calcolo è disponibile. Le prossime parti del piano non devono reintrodurre questi controlli senza una nuova richiesta.
+
+Avanzamento sulle competenze: inserire una fonte completa registra anche la competenza corrispondente (abilità, TS, arma, armatura, strumento o lingua). La classe attribuisce le competenze fisse verificate nelle Basic Rules 2024. Le competenze già registrate restano valide; cancellare una fonte non revoca automaticamente una competenza che potrebbe avere altre origini. Le abilità di classe a scelta e le concessioni di specie/background richiedono ancora cataloghi delle alternative e una scelta del giocatore.
+
+### Lavoro ancora aperto
+
+1. Cataloghi di concessioni e progressioni per classe, sottoclasse, specie e background, con scelta guidata delle alternative. Le competenze fisse di classe sono coperte; privilegi e abilità a scelta no.
+2. Talenti con prerequisiti completi, opzioni strutturate ed effetti verificati. Oggi sono strutturati solo categoria, livello minimo e alcuni effetti.
+3. Incantesimi da fonti diverse dalla classe, lanci gratuiti, recuperi speciali e formule di effetti variabili; gli slot e le formule base sono già coperti.
+4. Inventario con transazioni, oggetti magici o personalizzati avanzati e risorse dei privilegi con massimi derivati. Prezzi, peso, quantità e bonus magici semplici sono già disponibili.
+5. Eventi di stato nello storico, verifica di parità UI/PDF e migrazione assistita delle voci ambigue delle schede esistenti. L'export attuale conserva i dati strutturati in appendice.
 
 ## Principio di progetto
 

@@ -39,14 +39,12 @@ import { gearCatalog, gearById } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
 import { advancementHint } from "@/lib/advancement";
 import { availableFeats } from "@/lib/featCatalog";
-import { applyDamage, applyHealing, finishLongRest, finishShortRest } from "@/lib/characterActions";
-import { calculatedArmorClass, displayedArmorClass } from "@/lib/armorClass";
 import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotalGold } from "@/lib/coins";
-import { conditions } from "@/lib/conditions";
-import { calculatedMaxHp, classHitDice, displayedMaxHp, fixedHitPointGain, subclassLevel } from "@/lib/classProgression";
-import { calculatedSpeed, displayedSpeed } from "@/lib/speed";
+import { grantCompetencies } from "@/lib/competencySources";
+import { grantClassProficiencies } from "@/lib/classSavingThrows";
+import { subclassLevel } from "@/lib/classProgression";
 import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
 import { recordedValueDetails } from "@/lib/recordedValueDetails";
@@ -450,12 +448,6 @@ export default function CharacterClient({
     ...selectedValueBase,
     meaning: `${selectedValueBase.meaning}\n\nScelte personali: ${talentChoices}`,
   } : selectedValueBase;
-  const calculatedCa = fieldInfo?.id === "stato:caCalcolata" ? calculatedArmorClass(sheet) : null;
-  const armorInfo = calculatedCa ? { meaning: `${calculatedCa.formula}${calculatedCa.warnings.length ? `\n\n${calculatedCa.warnings.join(" ")}` : ""}`, rule: true } : null;
-  const calculatedHp = fieldInfo?.id === "stato:pfCalcolati" ? calculatedMaxHp(sheet) : null;
-  const hpInfo = calculatedHp ? { meaning: calculatedHp.formula, rule: true } : null;
-  const calculatedMovement = fieldInfo?.id === "stato:velocitaCalcolata" ? calculatedSpeed(sheet) : null;
-  const speedInfo = calculatedMovement ? { meaning: calculatedMovement.formula, rule: true } : null;
   const recorded = fieldInfo?.id.startsWith("stato:") ? recordedValueDetails(sheet, fieldInfo.id.slice("stato:".length)) : null;
   const objectIndex = fieldInfo?.id.startsWith("oggetto:") ? Number(fieldInfo.id.slice("oggetto:".length)) : -1;
   const object = objectIndex >= 0 ? sheet.equipaggiamento[objectIndex] : null;
@@ -467,8 +459,8 @@ export default function CharacterClient({
     meaning: [privilegeBase?.meaning, privilege?.scelte && `Scelte personali: ${privilege.scelte}`].filter(Boolean).join("\n\n"),
     rule: privilegeBase?.rule,
   } : null;
-  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weapon ? { meaning: weapon, rule: true } : ownedWeaponInfo ?? selectedValue ?? armorInfo ?? hpInfo ?? speedInfo ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
-  const sourcePage = spell?.pagina ?? language?.page ?? selectedValue?.page ?? objectInfo?.page ?? (weapon || ownedWeaponBase || armorInfo ? 103 : undefined);
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weapon ? { meaning: weapon, rule: true } : ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
+  const sourcePage = spell?.pagina ?? language?.page ?? selectedValue?.page ?? objectInfo?.page ?? (weapon || ownedWeaponBase ? 103 : undefined);
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -592,7 +584,6 @@ export default function CharacterClient({
   }
 
   const [exporting, setExporting] = useState<"current" | "template" | null>(null);
-  const [hitPointChange, setHitPointChange] = useState("");
   async function handleExport(kind: "current" | "template") {
     setExporting(kind);
     try {
@@ -616,30 +607,17 @@ export default function CharacterClient({
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
             <TextField label="Livello" showInfo={false} value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
-            <TextField label="Classe" showInfo={false} value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch({ classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" })} />
+            <TextField label="Classe" showInfo={false} value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
           </div>
           {Number(sheet.livello) >= subclassLevel ? <TextField label="Sottoclasse" showInfo={false} value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} /> : <p className="text-sm text-ink-soft">La sottoclasse si sceglie dal livello {subclassLevel}.</p>}
           <div className={grid2}>
             <TextField label="Punti Ferita" showInfo={false} value={sheet.puntiFerita} valueInfoId="stato:pf" valueInfoTitle={`Punti Ferita: ${sheet.puntiFerita}`} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
-            {sheet.puntiFeritaMaxModo === "classe" ? <ComputedField label="Punti Ferita Massimi" value={displayedMaxHp(sheet)} onExplain={(button) => openFieldInfo("stato:pfCalcolati", "PF massimi", button)} /> : <TextField label="Punti Ferita Massimi" showInfo={false} value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />}
-          </div>
-          <TextField label="Fonte PF massimi" showInfo={false} value={sheet.puntiFeritaMaxModo === "classe" ? "Classe" : "Manuale"} options={["Manuale", "Classe"]} onChange={(v) => patch({ puntiFeritaMaxModo: v === "Classe" ? "classe" : "manuale" })} />
-          {sheet.puntiFeritaMaxModo === "classe" && <div className={card}><p className="text-sm text-ink-soft">Dado Vita: d{classHitDice[sheet.classe] ?? "—"}. {calculatedMaxHp(sheet)?.formula ?? "Registra un incremento per ciascun livello dopo il primo."}</p><ArrayEditor items={sheet.incrementiPf ?? []} onChange={(items) => patch({ incrementiPf: items })} makeNew={(): NonNullable<Sheet["incrementiPf"]>[number] => ({ value: fixedHitPointGain(classHitDice[sheet.classe] ?? 8), method: "fisso" })} addLabel="Aggiungi incremento PF" maxItems={Math.max(0, Number(sheet.livello) - 1)} titleOf={(_gain, index) => `Livello ${index + 2}`} renderItem={(gain, p) => <div className="flex flex-col gap-2"><TextField label="Metodo" showInfo={false} value={gain.method === "fisso" ? "Valore fisso" : "Tiro"} options={["Valore fisso", "Tiro"]} onChange={(v) => p({ method: v === "Tiro" ? "tiro" : "fisso", value: v === "Tiro" ? gain.value : fixedHitPointGain(classHitDice[sheet.classe] ?? 8) })} /><TextField label="Valore del dado" showInfo={false} numeric="unsigned" value={String(gain.value)} onChange={(v) => p({ value: Number(v || 0), method: "tiro" })} /></div>} /></div>}
-          <TextField label="Punti Ferita Temporanei" showInfo={false} value={sheet.puntiFeritaTemporanei ?? ""} numeric="unsigned" onChange={(v) => patch({ puntiFeritaTemporanei: v })} />
-          <div className={card}>
-            <TextField label="Danni o cure (PF)" showInfo={false} value={hitPointChange} numeric="unsigned" onChange={setHitPointChange} />
-            <div className="mt-2 flex gap-2">
-              <button type="button" className="rounded-lg border border-line px-3 py-1 text-sm" onClick={() => { const next = applyDamage(sheet, Number(hitPointChange)); if (next) { patch(next); setHitPointChange(""); } }}>Applica danni</button>
-              <button type="button" className="rounded-lg border border-line px-3 py-1 text-sm" onClick={() => { const next = applyHealing(sheet, Number(hitPointChange)); if (next) { patch(next); setHitPointChange(""); } }}>Applica cura</button>
-            </div>
-            <p className="mt-2 text-xs text-ink-soft">A 0 PF, registra manualmente i tiri salvezza contro morte e gli eventuali danni considerevoli.</p>
+            <TextField label="Punti Ferita Massimi" showInfo={false} value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
           </div>
           <div className={grid2}>
-          {sheet.classeArmaturaModo === "equipaggiamento" ? <ComputedField label="Classe Armatura" value={displayedArmorClass(sheet)} onExplain={(button) => openFieldInfo("stato:caCalcolata", "Classe Armatura", button)} /> : <TextField label="Classe Armatura" showInfo={false} numeric="unsigned" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} valueInfoId="stato:ca" valueInfoTitle={`Classe Armatura: ${sheet.classeArmatura ?? "—"}`} onChange={(v) => patch({ classeArmatura: v ? Number(v) : null })} />}
+            <TextField label="Classe Armatura" showInfo={false} numeric="unsigned" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} valueInfoId="stato:ca" valueInfoTitle={`Classe Armatura: ${sheet.classeArmatura ?? "—"}`} onChange={(v) => patch({ classeArmatura: v ? Number(v) : null })} />
             <TextField label="Scudo" showInfo={false} value={sheet.scudo ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${sheet.scudo ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ scudo: v === "Sì" })} />
           </div>
-          <TextField label="Fonte CA" showInfo={false} value={sheet.classeArmaturaModo === "equipaggiamento" ? "Equipaggiamento" : "Manuale"} options={["Manuale", "Equipaggiamento"]} onChange={(v) => patch({ classeArmaturaModo: v === "Equipaggiamento" ? "equipaggiamento" : "manuale" })} />
-          {sheet.classeArmaturaModo === "equipaggiamento" && <p className="text-sm text-ink-soft">{calculatedArmorClass(sheet)?.formula ?? "Seleziona l'armatura indossata e inserisci Destrezza."} {calculatedArmorClass(sheet)?.warnings.join(" ")}</p>}
           <div className={grid2}>
             <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
           </div>
@@ -653,23 +631,11 @@ export default function CharacterClient({
             <TextField label="Dadi Vita" showInfo={false} value={sheet.dadiVita} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
             <TextField label="Punti Esperienza" showInfo={false} value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
-          <TextField label="Dadi Vita spesi" showInfo={false} value={sheet.dadiVitaSpesi ?? ""} numeric="unsigned" onChange={(v) => patch({ dadiVitaSpesi: v })} />
-          <div className="flex gap-2">
-            <button type="button" className="rounded-lg border border-line px-3 py-1 text-sm" onClick={() => { const next = finishLongRest(sheet); if (next) patch(next); }}>Completa riposo lungo</button>
-            <button type="button" className="rounded-lg border border-line px-3 py-1 text-sm" onClick={() => patch(finishShortRest(sheet))}>Completa riposo breve</button>
-          </div>
           <p className="text-sm text-ink-soft">{advancementHint(sheet.livello, sheet.puntiEsperienza)}</p>
           <div className={grid2}>
-            <TextField label="TS morte superati" showInfo={false} value={String(sheet.tiriMorte?.successi ?? 0)} options={["0", "1", "2", "3"]} onChange={(v) => patch({ tiriMorte: { successi: Number(v), fallimenti: sheet.tiriMorte?.fallimenti ?? 0 } })} />
-            <TextField label="TS morte falliti" showInfo={false} value={String(sheet.tiriMorte?.fallimenti ?? 0)} options={["0", "1", "2", "3"]} onChange={(v) => patch({ tiriMorte: { successi: sheet.tiriMorte?.successi ?? 0, fallimenti: Number(v) } })} />
-          </div>
-          <div><h3 className={sectionTitle}>Condizioni</h3><StringListEditor items={sheet.condizioni ?? []} onChange={(items) => patch({ condizioni: items })} addLabel="Aggiungi condizione" options={[...conditions]} /></div>
-          <div className={grid2}>
             <TextField label="Ispirazione Eroica" showInfo={false} value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
-            {sheet.velocitaModo === "specie" ? <ComputedField label="Velocità (m)" value={displayedSpeed(sheet)} onExplain={(button) => openFieldInfo("stato:velocitaCalcolata", "Velocità", button)} /> : <NumberUnitField label="Velocità" value={sheet.velocita} valueInfoId="stato:velocita" unit="m" onChange={(v) => patch({ velocita: v })} />}
+            <NumberUnitField label="Velocità" value={sheet.velocita} valueInfoId="stato:velocita" unit="m" onChange={(v) => patch({ velocita: v })} />
           </div>
-          <TextField label="Fonte velocità" showInfo={false} value={sheet.velocitaModo === "specie" ? "Specie" : "Manuale"} options={["Manuale", "Specie"]} onChange={(v) => patch({ velocitaModo: v === "Specie" ? "specie" : "manuale" })} />
-          {sheet.velocitaModo === "specie" && <div className={card}><p className="text-sm text-ink-soft">{calculatedSpeed(sheet)?.formula ?? "Completa specie e requisiti dell'armatura."}</p><ArrayEditor items={sheet.modificatoriVelocita ?? []} onChange={(items) => patch({ modificatoriVelocita: items })} makeNew={(): NonNullable<Sheet["modificatoriVelocita"]>[number] => ({ value: 0, fonte: "", temporaneo: false })} addLabel="Aggiungi modifica velocità" titleOf={(change) => change.fonte || "Modifica"} renderItem={(change, p) => <div className="flex flex-col gap-2"><TextField label="Fonte" showInfo={false} value={change.fonte} onChange={(v) => p({ fonte: v })} /><TextField label="Metri (+/-)" showInfo={false} numeric="signed" value={String(change.value)} onChange={(v) => p({ value: Number(v || 0) })} /><Toggle label="Temporanea" checked={change.temporaneo} onChange={(v) => p({ temporaneo: v })} /></div>} /></div>}
           <div className={grid2}>
             <TextField label="Allineamento" showInfo={false} value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
             <TextField label="Taglia base" showInfo={false} value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
@@ -934,14 +900,14 @@ export default function CharacterClient({
         <h3 className={`${sectionTitle} mt-4`}>Fonti delle competenze</h3>
         <ArrayEditor
           items={sheet.fontiCompetenze ?? []}
-          onChange={(items) => patch({ fontiCompetenze: items })}
+          onChange={(items) => patch(grantCompetencies(sheet, items))}
           makeNew={(): NonNullable<Sheet["fontiCompetenze"]>[number] => ({ tipo: "abilita", valore: "", fonte: "" })}
           addLabel="Aggiungi fonte"
           titleOf={(record) => record.valore || "Nuova fonte"}
           subtitleOf={(record) => record.fonte}
           renderItem={(record, p) => <div className="flex flex-col gap-2">
             <TextField label="Tipo" showInfo={false} value={record.tipo} options={["abilita", "tiroSalvezza", "arma", "armatura", "strumento", "lingua"]} onChange={(v) => p({ tipo: v as typeof record.tipo, valore: "" })} />
-            <TextField label="Competenza registrata" showInfo={false} value={record.valore} options={record.tipo === "abilita" ? sheet.abilita.filter((item) => item.competente).map((item) => item.nome) : record.tipo === "tiroSalvezza" ? sheet.caratteristiche.filter((item) => item.tsCompetente).map((item) => item.abbr) : record.tipo === "arma" ? sheet.competenzeArmi : record.tipo === "armatura" ? Object.entries(sheet.competenzeArmatura).filter(([, trained]) => trained).map(([kind]) => kind) : record.tipo === "strumento" ? sheet.competenzeStrumenti ?? [] : sheet.lingue} onChange={(v) => p({ valore: v })} />
+            <TextField label="Competenza" showInfo={false} value={record.valore} options={record.tipo === "abilita" ? sheet.abilita.map((item) => item.nome) : record.tipo === "tiroSalvezza" ? sheet.caratteristiche.map((item) => item.abbr) : record.tipo === "arma" ? [...regole.competenzeArmi, ...nomiArmi] : record.tipo === "armatura" ? Object.keys(sheet.competenzeArmatura) : record.tipo === "strumento" ? gearCatalog.filter((item) => item.tool).map((item) => item.name) : lingue} onChange={(v) => p({ valore: v })} />
             <TextField label="Fonte" showInfo={false} value={record.fonte} onChange={(v) => p({ fonte: v })} />
           </div>}
         />

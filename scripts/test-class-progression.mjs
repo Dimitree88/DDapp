@@ -14,7 +14,7 @@ test("all classes have a hit die and subclass begins at level three", () => {
   assert.deepEqual(domainErrors(sheet), []);
 });
 
-test("maximum HP needs every chosen gain and keeps legacy manual values", () => {
+test("legacy calculated HP is materialized and its controls are removed", () => {
   const sheet = emptySheet();
   sheet.classe = "Ranger";
   sheet.livello = "3";
@@ -25,7 +25,10 @@ test("maximum HP needs every chosen gain and keeps legacy manual values", () => 
   assert.equal(calculatedMaxHp(sheet), null);
   sheet.incrementiPf = [{ value: 6, method: "fisso" }, { value: 8, method: "tiro" }];
   assert.equal(calculatedMaxHp(sheet).value, 33);
-  assert.deepEqual(domainErrors(sheet), []);
+  const normalized = normalizeSheet(sheet);
+  assert.equal(normalized.puntiFeritaMax, "33");
+  assert.equal(Object.hasOwn(normalized, "puntiFeritaMaxModo"), false);
+  assert.equal(Object.hasOwn(normalized, "incrementiPf"), false);
   sheet.incrementiPf[0].value = 7;
-  assert.match(domainErrors(sheet).join(" "), /Incremento PF/);
+  assert.equal(calculatedMaxHp(sheet), null);
 });

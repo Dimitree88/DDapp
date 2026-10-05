@@ -8,9 +8,7 @@ import { armorById } from "./armorCatalog";
 import { gearById } from "./gearCatalog";
 import { gearCatalog } from "./gearCatalog";
 import { availableClassSpells, spellSlots, spellcastingAbility } from "./spellcasting";
-import { conditions } from "./conditions";
-import { calculatedMaxHp, classHitDice, fixedHitPointGain, subclassLevel } from "./classProgression";
-import { calculatedSpeed } from "./speed";
+import { subclassLevel } from "./classProgression";
 import { featByName } from "./featCatalog";
 
 const classes = rules.classi as Record<string, string[]>;
@@ -41,31 +39,10 @@ export function domainErrors(sheet: Sheet): string[] {
   }
   checkNumber("Punti ferita", sheet.puntiFerita, "unsigned");
   checkNumber("Punti ferita massimi", sheet.puntiFeritaMax, "unsigned");
-  if (sheet.puntiFeritaMaxModo && !["manuale", "classe"].includes(sheet.puntiFeritaMaxModo)) errors.push(`Fonte PF massimi: ${sheet.puntiFeritaMaxModo}`);
-  const die = classHitDice[sheet.classe];
-  (sheet.incrementiPf ?? []).forEach((gain, index) => {
-    if (!die || !Number.isInteger(gain.value) || gain.value < 1 || gain.value > die || !["tiro", "fisso"].includes(gain.method) || gain.method === "fisso" && gain.value !== fixedHitPointGain(die)) errors.push(`Incremento PF livello ${index + 2}: ${gain.value}`);
-  });
-  if (sheet.puntiFeritaMaxModo === "classe" && !calculatedMaxHp(sheet)) errors.push("PF massimi: registra Costituzione e un incremento per ogni livello dopo il primo");
-  if (sheet.puntiFeritaTemporanei !== undefined) checkNumber("Punti ferita temporanei", sheet.puntiFeritaTemporanei, "unsigned");
   if (sheet.classeArmatura !== null && (!Number.isSafeInteger(sheet.classeArmatura) || sheet.classeArmatura < 0)) errors.push(`Classe armatura: ${sheet.classeArmatura}`);
-  if (sheet.classeArmaturaModo && !["manuale", "equipaggiamento"].includes(sheet.classeArmaturaModo)) errors.push(`Modalità CA: ${sheet.classeArmaturaModo}`);
   checkNumber("Dadi vita", sheet.dadiVita, "dice");
-  if (sheet.dadiVitaSpesi !== undefined) {
-    checkNumber("Dadi vita spesi", sheet.dadiVitaSpesi, "unsigned");
-    const maximum = /^(\d+)d\d+$/i.exec(sheet.dadiVita)?.[1];
-    if (maximum && Number(sheet.dadiVitaSpesi) > Number(maximum)) errors.push("Dadi vita spesi oltre il massimo");
-  }
-  if (sheet.tiriMorte && (!Number.isInteger(sheet.tiriMorte.successi) || sheet.tiriMorte.successi < 0 || sheet.tiriMorte.successi > 3 || !Number.isInteger(sheet.tiriMorte.fallimenti) || sheet.tiriMorte.fallimenti < 0 || sheet.tiriMorte.fallimenti > 3)) errors.push("Tiri salvezza contro morte: usa valori da 0 a 3");
-  (sheet.condizioni ?? []).forEach((condition, index) => check(`Condizione ${index + 1}`, condition, conditions));
-  if (new Set(sheet.condizioni ?? []).size !== (sheet.condizioni ?? []).length) errors.push("Condizioni duplicate");
   checkNumber("Punti esperienza", sheet.puntiEsperienza, "unsigned");
   if (sheet.velocita && !/^\d+(?:\.\d+)?$/.test(sheet.velocita)) errors.push(`Velocità: ${sheet.velocita}`);
-  if (sheet.velocitaModo && !["manuale", "specie"].includes(sheet.velocitaModo)) errors.push(`Fonte velocità: ${sheet.velocitaModo}`);
-  (sheet.modificatoriVelocita ?? []).forEach((change, index) => {
-    if (!Number.isFinite(change.value) || !change.fonte.trim() || typeof change.temporaneo !== "boolean") errors.push(`Modificatore velocità ${index + 1}`);
-  });
-  if (sheet.velocitaModo === "specie" && !calculatedSpeed(sheet)) errors.push("Velocità: completa specie e gli eventuali requisiti dell'armatura");
   sheet.caratteristiche.forEach((characteristic) => {
     checkNumber(`${characteristic.abbr} valore`, characteristic.valore, "unsigned");
     if (characteristic.valore && (Number(characteristic.valore) < 1 || Number(characteristic.valore) > 30)) {

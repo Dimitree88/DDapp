@@ -4,10 +4,7 @@ import fields from "./pdfTemplateFields.json";
 import type { Sheet } from "./sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
 import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
-import { displayedArmorClass } from "./armorClass";
 import { spellDetails } from "./spells";
-import { displayedMaxHp } from "./classProgression";
-import { displayedSpeed } from "./speed";
 import { carryingCapacity, inventoryWeight } from "./inventoryWeight";
 
 type Mapping = (typeof fields)[number];
@@ -18,10 +15,10 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boo
   if (source === "sheet.privilegi" || source === "sheet.talenti" || source === "sheet.equipaggiamento") return undefined;
   if (source === "sheet.specie" && mapping.field === "textarea_142hif") return undefined;
   if (source === "sheet.specie") return sheet.lignaggio || sheet.specie;
-  if (source === "sheet.classeArmatura") return displayedArmorClass(sheet);
-  if (source === "sheet.puntiFeritaMax") return displayedMaxHp(sheet);
+  if (source === "sheet.classeArmatura") return sheet.classeArmatura == null ? "" : String(sheet.classeArmatura);
+  if (source === "sheet.puntiFeritaMax") return sheet.puntiFeritaMax;
   if (source === "sheet.classe") return sheet.sottoclasse ? `${sheet.classe} - ${sheet.sottoclasse}` : sheet.classe;
-  if (source === "sheet.velocita") return displayedSpeed(sheet) ? `${displayedSpeed(sheet)} m` : "";
+  if (source === "sheet.velocita") return sheet.velocita ? `${sheet.velocita} m` : "";
   if (source === "sheet.competenzeArmi") return [sheet.competenzeArmi.join(", "), sheet.padronanzeArmi?.length ? `Padronanze: ${sheet.padronanzeArmi.join(", ")}` : ""].filter(Boolean).join("; ");
   if (source === "sheet.lingue") return sheet.lingue.join(", ");
   if (source === "sheet.bonusCompetenza") return proficiencyBonus(sheet.livello);
@@ -166,10 +163,6 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
     if (lines.length) appendix.push(title.toUpperCase(), ...lines, "");
   };
   addSection("Stato e risorse", [
-    sheet.puntiFeritaTemporanei ? `PF temporanei: ${sheet.puntiFeritaTemporanei}` : "",
-    sheet.dadiVitaSpesi ? `Dadi Vita spesi: ${sheet.dadiVitaSpesi}` : "",
-    sheet.tiriMorte ? `Tiri morte: ${sheet.tiriMorte.successi} successi, ${sheet.tiriMorte.fallimenti} fallimenti` : "",
-    sheet.condizioni?.length ? `Condizioni: ${sheet.condizioni.join(", ")}` : "",
     ...Object.entries(sheet.slotSpesi ?? {}).filter(([, spent]) => spent > 0).map(([level, spent]) => `Slot livello ${level} spesi: ${spent}`),
   ].filter(Boolean));
   addSection("Armi oltre le sei righe del modello", sheet.armi.slice(6).map((item) => `${item.nome} ×${item.quantita || 1}; attacco ${displayedWeaponAttack(sheet, item)}; danno ${weaponAttack(sheet, item)?.damage ?? "—"}`));

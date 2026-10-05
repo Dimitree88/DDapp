@@ -1,4 +1,8 @@
 import { canonicalSpellName } from "./spells";
+import { calculatedMaxHp } from "./classProgression";
+import { calculatedArmorClass } from "./armorClass";
+import { calculatedSpeed } from "./speed";
+import { grantClassProficiencies } from "./classSavingThrows";
 
 // Modello dati della scheda. I bonus delle abilità sono derivati.
 
@@ -133,6 +137,30 @@ export type Sheet = {
   note: string;
 };
 
+export const retiredCharacterFields = [
+  "puntiFeritaMaxModo", "incrementiPf", "puntiFeritaTemporanei",
+  "classeArmaturaModo", "dadiVitaSpesi", "tiriMorte", "condizioni",
+  "velocitaModo", "modificatoriVelocita",
+] as const;
+
+export function removeRetiredFields(sheet: Sheet): Sheet {
+  const cleaned = { ...sheet };
+  if (sheet.puntiFeritaMaxModo === "classe") {
+    const value = calculatedMaxHp(sheet)?.value;
+    if (value !== undefined) cleaned.puntiFeritaMax = String(value);
+  }
+  if (sheet.classeArmaturaModo === "equipaggiamento") {
+    const value = calculatedArmorClass(sheet)?.value;
+    if (value !== undefined) cleaned.classeArmatura = value;
+  }
+  if (sheet.velocitaModo === "specie") {
+    const value = calculatedSpeed(sheet)?.value;
+    if (value !== undefined) cleaned.velocita = String(value);
+  }
+  for (const field of retiredCharacterFields) delete cleaned[field];
+  return cleaned;
+}
+
 // Le 6 caratteristiche standard, in ordine di scheda.
 const CARATTERISTICHE_BASE: { nome: string; abbr: string }[] = [
   { nome: "FORZA", abbr: "FOR" },
@@ -174,16 +202,9 @@ export function emptySheet(): Sheet {
     sottoclasse: "",
     puntiFerita: "",
     puntiFeritaMax: "",
-    puntiFeritaMaxModo: "manuale",
-    incrementiPf: [],
-    puntiFeritaTemporanei: "",
     classeArmatura: null,
-    classeArmaturaModo: "manuale",
     scudo: false,
     dadiVita: "",
-    dadiVitaSpesi: "0",
-    tiriMorte: { successi: 0, fallimenti: 0 },
-    condizioni: [],
     ispirazioneEroica: false,
     puntiEsperienza: "0",
 
@@ -192,8 +213,6 @@ export function emptySheet(): Sheet {
     background: "",
     allineamento: "",
     velocita: "",
-    velocitaModo: "manuale",
-    modificatoriVelocita: [],
     taglia: "",
     lingue: [],
     noteLingue: "",
@@ -342,5 +361,5 @@ export function normalizeSheet(value: Sheet): Sheet {
   delete (normalized as Sheet & { bonusCompetenza?: string }).bonusCompetenza;
   delete (normalized as Sheet & { percezionePassiva?: string }).percezionePassiva;
   delete (normalized as Sheet & { iniziativa?: string }).iniziativa;
-  return normalized;
+  return grantClassProficiencies(removeRetiredFields(normalized));
 }
