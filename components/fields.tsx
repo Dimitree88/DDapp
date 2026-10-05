@@ -130,7 +130,7 @@ export function TextField({
     setDraft(value);
     setEditing(true);
   };
-  const editButton = showEditIcon && !locked ? <button type="button" aria-label={`Modifica ${label}`} onClick={startEditing} className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded p-1 text-ink-soft hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"><EditIcon /></button> : null;
+  const editButton = showEditIcon && !locked ? <button type="button" aria-label={`Modifica ${label}`} onClick={startEditing} className="shrink-0 rounded p-1 text-ink-faint hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"><EditIcon /></button> : null;
   const close = () => {
     if (numeric && !numericValueValid(draft, numeric)) onChange("");
     setEditing(false);
@@ -197,10 +197,10 @@ export function TextField({
           />
         )
       ) : valueInfoId && value ? (
-        <div className="relative">
+        <div className={`${readonlyBase} flex items-center gap-0.5 ${unlocked && !locked ? editableHint : ""}`}>
           <button type="button" aria-label={`Informazioni su ${valueInfoTitle ?? value}`} aria-haspopup="dialog"
             onClick={onValueTap}
-            className={`${readonlyBase} text-left ${editButton ? "pr-10" : ""} ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""} ${unlocked && !locked ? editableHint : ""}`}>
+            className={`min-w-0 text-left ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""}`}>
             {value}
           </button>
           {editButton}
@@ -212,10 +212,10 @@ export function TextField({
           {value || <span className="text-ink-faint">—</span>}
         </button>
       ) : (
-        <div className="relative">
+        <div className={`${readonlyBase} flex items-center gap-0.5 ${unlocked && !locked ? editableHint : ""}`}>
           <div
             onClick={onTap}
-            className={`${readonlyBase} ${editButton ? "pr-10" : ""} ${unlocked && !locked ? editableHint : ""} ${
+            className={`min-w-0 ${
               multiline ? "whitespace-pre-wrap leading-relaxed" : ""
             }`}
           >
@@ -260,7 +260,7 @@ export function NumberUnitField({
     setDraft(value);
     setEditing(true);
   };
-  const editButton = showEditIcon ? <button type="button" aria-label={`Modifica ${label}`} onClick={startEditing} className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded p-1 text-ink-soft hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"><EditIcon /></button> : null;
+  const editButton = showEditIcon ? <button type="button" aria-label={`Modifica ${label}`} onClick={startEditing} className="shrink-0 rounded p-1 text-ink-faint hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"><EditIcon /></button> : null;
   const commit = () => {
     const parsed = Number(draft.replace(",", "."));
     onChange(draft.trim() && Number.isFinite(parsed) ? String(parsed) : "");
@@ -283,7 +283,7 @@ export function NumberUnitField({
           <span className="text-sm text-ink-soft">{unit}</span>
         </div>
       ) : valueInfoId && value ? (
-        <div className="relative">
+        <div className={`${readonlyBase} flex items-center gap-0.5 ${unlocked ? editableHint : ""}`}>
           <button type="button" aria-label={`Informazioni su ${label}: ${value} ${unit}`} aria-haspopup="dialog"
             onClick={(event) => {
               const trigger = event.currentTarget;
@@ -298,14 +298,14 @@ export function NumberUnitField({
               lastInfoTap.current = now;
               infoTimer.current = setTimeout(() => { openInfo(valueInfoId, `${label}: ${value} ${unit}`, trigger); infoTimer.current = null; }, 330);
             }}
-            className={`${readonlyBase} text-left ${editButton ? "pr-10" : ""} ${unlocked ? editableHint : ""}`}>
+            className="min-w-0 text-left">
             {value} {unit}
           </button>
           {editButton}
         </div>
       ) : (
-        <div className="relative">
-          <div onClick={onTap} className={`${readonlyBase} ${editButton ? "pr-10" : ""} ${unlocked ? editableHint : ""}`}>
+        <div className={`${readonlyBase} flex items-center gap-0.5 ${unlocked ? editableHint : ""}`}>
+          <div onClick={onTap} className="min-w-0">
             {value ? `${value} ${unit}` : <span className="text-ink-faint">—</span>}
           </div>
           {editButton}
