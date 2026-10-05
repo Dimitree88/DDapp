@@ -276,6 +276,28 @@ function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: 
   </div>;
 }
 
+function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void }) {
+  const { unlocked } = useContext(EditContext);
+  const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
+  return <div className="flex flex-col gap-2">
+    {items.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
+    {items.map((item, index) => <div key={index} className={`${card} flex items-center gap-2`}>
+      <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="min-w-0 flex-1 text-sm font-semibold text-ink" />
+      <span className="text-xs text-ink-faint">Quantità</span>
+      <InlineInput value={item.quantita || "1"} onChange={(value) => patchAt(index, { quantita: value || "1" })} numeric="unsigned" large className="w-10 text-center font-semibold" />
+      {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+    </div>)}
+    {unlocked && <select aria-label="Aggiungi oggetto" value="" onChange={(event) => {
+      const gear = gearCatalog.find((entry) => entry.id === event.target.value);
+      onChange([...items, { nome: gear?.name ?? "", catalogId: gear?.id, dettaglio: "", quantita: "1" }]);
+    }} className="max-w-full self-start rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
+      <option value="" disabled>+ Aggiungi oggetto</option>
+      {gearCatalog.map((gear) => <option key={gear.id} value={gear.id}>{gear.name}</option>)}
+      <option value="personalizzato">Oggetto personalizzato</option>
+    </select>}
+  </div>;
+}
+
 // Pallino di competenza per la pagina Abilità: doppio tocco per cambiarlo
 // (o per richiedere lo sblocco se la scheda è bloccata).
 function CompetenceDot({
@@ -560,7 +582,7 @@ export default function CharacterClient({
   const recorded = fieldInfo?.id.startsWith("stato:") ? recordedValueDetails(sheet, fieldInfo.id.slice("stato:".length)) : null;
   const objectIndex = fieldInfo?.id.startsWith("oggetto:") ? Number(fieldInfo.id.slice("oggetto:".length)) : -1;
   const object = objectIndex >= 0 ? sheet.equipaggiamento[objectIndex] : null;
-  const objectInfo = object ? equipmentDetails(object.nome, object.dettaglio) : null;
+  const objectInfo = object ? equipmentDetails(object.nome, object.dettaglio) ?? { meaning: "Oggetto personalizzato.", rule: false } : null;
   const privilegeIndex = fieldInfo?.id.startsWith("privilegio:") ? Number(fieldInfo.id.slice("privilegio:".length)) : -1;
   const privilege = privilegeIndex >= 0 ? sheet.privilegi[privilegeIndex] : null;
   const privilegeBase = privilege ? valueDetails("privilegio", privilege.titolo) : null;
@@ -868,6 +890,25 @@ export default function CharacterClient({
             <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} />
             <AddWeaponSelect sheet={sheet} onAdd={(weaponName) => patch({ armi: [...sheet.armi, { nome: weaponName, quantita: "1", bonus: "", note: "" }] })} />
           </div>
+          <div>
+            <h3 className={sectionTitle}><InfoLabel id="armaturaSelezionata" title="Armatura indossata" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
+            <select aria-label="Armatura indossata" value={wornArmorName} onChange={(event) => patch({ equipaggiamento: selectWornArmor(sheet, armorChoices.find((armor) => armor.label === event.target.value)?.id ?? null) })} className="max-w-full bg-transparent py-1 text-[15px] text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent">
+              <option value="Nessuna">Nessuna</option>
+              {armorChoices.map((armor) => <option key={armor.id} value={armor.label}>{armor.label}</option>)}
+            </select>
+            <div className="mt-2"><Toggle label="Scudo impugnato" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} /></div>
+          </div>
+          <div>
+            <h3 className={sectionTitle}>Competenze armatura</h3>
+            <div className="flex flex-wrap gap-2">
+              {([
+                ["Leggere", "leggere"], ["Medie", "medie"], ["Pesanti", "pesanti"], ["Scudi", "scudi"],
+              ] as [string, keyof Sheet["competenzeArmatura"]][]).filter(([, key]) => sheet.competenzeArmatura[key]).map(([label]) =>
+                <span key={label} className="rounded-full border border-accent bg-accent/12 px-2.5 py-1 text-xs font-medium text-accent"><InfoLabel id={`valore:armatura:${label}`} title={label} /></span>
+              )}
+              {!Object.values(sheet.competenzeArmatura).some(Boolean) && <span className="text-sm text-ink-faint">Nessuna</span>}
+            </div>
+          </div>
         </div>
       ),
     },
@@ -875,59 +916,14 @@ export default function CharacterClient({
       title: "Equipaggiamento",
       body: (
         <div className="flex flex-col gap-4">
-          <div className={card}>
-            <div className={grid2}>
-              <TextField label="Armatura indossata" showInfo helpId="armaturaSelezionata" showEditIcon value={wornArmorName} options={["Nessuna", ...armorChoices.map((armor) => armor.label)]} allowEmpty={false} onChange={(name) => patch({ equipaggiamento: selectWornArmor(sheet, armorChoices.find((armor) => armor.label === name)?.id ?? null) })} />
-              <Toggle label="Scudo impugnato" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} />
-            </div>
-          </div>
           <div>
-            <h3 className={sectionTitle}>Competenze armatura</h3>
-            <div className="flex flex-wrap gap-2">
-              {(
-                [
-                  ["Leggere", "leggere"],
-                  ["Medie", "medie"],
-                  ["Pesanti", "pesanti"],
-                  ["Scudi", "scudi"],
-                ] as [string, keyof Sheet["competenzeArmatura"]][]
-              ).filter(([, key]) => sheet.competenzeArmatura[key]).map(([lab]) => (
-                <span key={lab} className="rounded-full border border-accent bg-accent/12 px-2.5 py-1 text-xs font-medium text-accent">
-                  <InfoLabel id={`valore:armatura:${lab}`} title={lab} />
-                </span>
-              ))}
-              {!Object.values(sheet.competenzeArmatura).some(Boolean) && <span className="text-sm text-ink-faint">Nessuna</span>}
-            </div>
-          </div>
-          <div>
-            <h3 className={sectionTitle}><InfoLabel id="Competenze negli strumenti" title="Competenze negli strumenti" /></h3>
+            <h3 className={sectionTitle}><InfoLabel id="Competenze negli strumenti" title="Competenze negli strumenti" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
             <ToolCompetencyEditor sheet={sheet} onChange={patch} />
           </div>
           <div>
             <h3 className={sectionTitle}>Oggetti</h3>
-            <p className="mb-2 text-sm text-ink-soft">Peso catalogato: {inventoryWeight(sheet).knownKg} kg{carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}{inventoryWeight(sheet).unknownItems.length ? `; peso non noto per ${inventoryWeight(sheet).unknownItems.length} voci` : ""}. Le monete e il contenuto dei contenitori non sono inclusi.</p>
-            <ArrayEditor
-              items={otherEquipment}
-              onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })}
-              makeNew={(): Equip => ({ nome: "", dettaglio: "" })}
-              addLabel="Aggiungi oggetto"
-              collapsible
-              titleOf={(e) => e.nome || "Nuovo oggetto"}
-              onTitleClick={(e, index, button) => { if (!equipmentDetails(e.nome, e.dettaglio)) return false; openFieldInfo(`oggetto:${otherEquipmentIndices[index]}`, e.nome, button); return true; }}
-              subtitleOf={(e) => [e.catalogId ? "SRD" : "Personalizzato/non collegato", e.quantita && `×${e.quantita}`, e.indossato && "Indossata", e.impugnato && "Impugnato", e.dettaglio].filter(Boolean).join(" · ")}
-              renderItem={(e, p, index) => (
-                <div className="flex flex-col gap-2">
-                  <TextField label="Oggetto" showInfo={false} value={e.nome} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${otherEquipmentIndices[index]}` : undefined} onChange={(v) => p({ nome: v })} />
-                  <TextField label="Equipaggiamento SRD" showInfo={false} value={gearById(e.catalogId ?? "")?.name ?? ""} options={gearCatalog.map((item) => item.name)} onChange={(v) => { const gear = gearCatalog.find((item) => item.name === v); p({ catalogId: gear?.id, nome: gear?.name ?? e.nome, indossato: false, impugnato: false, bonusMagico: undefined }); }} />
-                  <div className={grid2}>
-                    <TextField label="Quantità" showInfo={false} value={e.quantita ?? ""} numeric="unsigned" onChange={(v) => p({ quantita: v })} />
-                    <TextField label="Unità" showInfo={false} value={e.unita ?? ""} onChange={(v) => p({ unita: v })} />
-                  </div>
-                  <TextField label="Contenitore" showInfo={false} value={e.contenitore ?? ""} onChange={(v) => p({ contenitore: v })} />
-                  <TextField label="Dettaglio personale" showInfo={false} value={e.dettaglio} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${otherEquipmentIndices[index]}` : undefined} valueInfoTitle={e.nome} onChange={(v) => p({ dettaglio: v })} multiline />
-                </div>
-              )}
-            />
+            <p className="mb-2 text-sm text-ink-soft">Peso catalogato: {inventoryWeight(sheet).knownKg} kg{carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}{inventoryWeight(sheet).unknownItems.length ? `; peso non noto per ${inventoryWeight(sheet).unknownItems.length} voci` : ""}.</p>
+            <ObjectListEditor items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })} />
           </div>
         </div>
       ),
@@ -1273,6 +1269,15 @@ export default function CharacterClient({
                 </div>
                 {fieldHelp && <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{fieldHelp.meaning}</p>}
                 {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed">{fieldHelp.effect}</p></>}
+                {object && <div className="mt-4 flex flex-col gap-2 border-t border-line pt-3">
+                  <TextField label="Oggetto" showInfo={false} showEditIcon value={object.nome} onChange={(name) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: name, catalogId: gearById(item.catalogId ?? "")?.name === name ? item.catalogId : undefined } : item) })} />
+                  <TextField label="Equipaggiamento SRD" showInfo={false} showEditIcon value={gearById(object.catalogId ?? "")?.name ?? ""} options={gearCatalog.map((item) => item.name)} onChange={(name) => { const gear = gearCatalog.find((item) => item.name === name); patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: gear?.name ?? item.nome, catalogId: gear?.id } : item) }); }} />
+                  <div className={grid2}>
+                    <TextField label="Unità" showInfo={false} showEditIcon value={object.unita ?? ""} onChange={(unita) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, unita } : item) })} />
+                    <TextField label="Contenitore" showInfo={false} showEditIcon value={object.contenitore ?? ""} onChange={(contenitore) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, contenitore } : item) })} />
+                  </div>
+                  <TextField label="Dettaglio personale" showInfo={false} showEditIcon value={object.dettaglio} onChange={(dettaglio) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, dettaglio } : item) })} multiline />
+                </div>}
                 {spell && <>
                   <dl className="mt-4 space-y-2 text-sm">
                     {([
