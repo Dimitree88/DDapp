@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import catalog from "../lib/incantesimi-srd-2024.json" with { type: "json" };
 import rules from "../lib/regole-srd-2024.json" with { type: "json" };
-import { spellDetails } from "../lib/spells.ts";
+import { canonicalSpellName, spellDetails, spellNames } from "../lib/spells.ts";
 import { languageDetails } from "../lib/languageDetails.ts";
 import { weaponCatalog, weaponDetails, weaponNames } from "../lib/weaponDetails.ts";
 import { valueDetails } from "../lib/valueDetails.ts";
@@ -10,12 +10,32 @@ import { equipmentDetails } from "../lib/equipmentDetails.ts";
 import { recordedValueDetails } from "../lib/recordedValueDetails.ts";
 import { emptySheet } from "../lib/sheet.ts";
 
-test("every selectable spell has SRD casting details and an exact source page", () => {
+test("selectable spell names use the manual and retain known details", () => {
   for (const name of catalog.incantesimi) {
+    if (canonicalSpellName(name) !== name) continue;
     const spell = spellDetails(name);
     assert.ok(spell, name);
     assert.ok(spell.scuola && spell.tempo && spell.gittata && spell.componenti && spell.durata, name);
     assert.ok(spell.pagina >= 121 && spell.pagina <= 202, name);
+  }
+  for (const [oldName, manualName] of [
+    ["Aura magica dell'arcanista", "Aura magica di Nystul"],
+    ["Capanna", "Capanna di Leomund"],
+    ["Freccia acida", "Freccia acida di Melf"],
+    ["Mano arcana", "Mano magica"],
+    ["Salto", "Saltare"],
+    ["Sfera congelante", "Sfera congelante di Otiluke"],
+    ["Sfera elastica", "Sfera elastica di Otiluke"],
+    ["Spada arcana", "Spada di Mordenkainen"],
+  ]) {
+    assert.ok(!spellNames.includes(oldName), oldName);
+    assert.ok(spellNames.includes(manualName), manualName);
+    assert.equal(canonicalSpellName(oldName), manualName);
+    assert.ok(spellDetails(manualName), manualName);
+  }
+  for (const name of ["Aura di vitalità", "Fonte di luce lunare", "Freccia folgorante", "Frusta di spine", "Rombo di tuono", "Tempesta radiosa di Jallarzi"]) {
+    assert.ok(spellNames.includes(name), name);
+    assert.ok(spellDetails(name), name);
   }
   assert.equal(spellDetails("CURA FERITE")?.livello, 1);
   assert.equal(spellDetails("Marchio del cacciatore")?.durata, "concentrazione, fino a 1 ora");
@@ -52,8 +72,8 @@ test("weapon catalog covers each selectable weapon with stable metadata", () => 
   for (const weapon of weaponCatalog) {
     assert.ok(weapon.id && weapon.damage && weapon.properties && weapon.mastery, weapon.name);
     assert.ok(rules.armi[weapon.category].includes(weapon.name), weapon.name);
-    assert.equal(weapon.source, "SRD 5.2.1");
-    assert.equal(weapon.pages, "103-104");
+    assert.equal(weapon.source, "Manuale del Giocatore 2024");
+    assert.equal(weapon.pages, "215-216");
     assert.ok(weapon.costGp > 0, weapon.name);
     assert.ok(weapon.weightKg === undefined || weapon.weightKg > 0, weapon.name);
     assert.equal(Boolean(weapon.finesse), /Accurata/i.test(weapon.properties), weapon.name);

@@ -15,7 +15,6 @@ const alignments: Record<string, string> = {
   "Legale malvagio": "Persegue i propri interessi con metodo, restando entro un codice di tradizione, lealtà o ordine.",
   "Neutrale malvagio": "Persegue i propri desideri senza preoccuparsi dei danni che causa agli altri.",
   "Caotico malvagio": "Agisce con violenza arbitraria, spesso spinto dall'odio o dalla sete di distruzione.",
-  "Senza allineamento": "Non segue un orientamento morale: è la condizione tipica di creature prive di pensiero razionale.",
 };
 
 const classes: Record<string, string> = {

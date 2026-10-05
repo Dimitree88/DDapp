@@ -5,6 +5,22 @@ import { domainErrors } from "../lib/domain.ts";
 import { emptySheet } from "../lib/sheet.ts";
 import { availableClassSpells } from "../lib/spellcasting.ts";
 import { backgroundToolProficiency } from "../lib/backgroundToolProficiencies.ts";
+import rules from "../lib/regole-srd-2024.json" with { type: "json" };
+import { gearCatalog } from "../lib/gearCatalog.ts";
+import { weaponCatalog } from "../lib/weaponDetails.ts";
+import { masteryEffects } from "../lib/weaponMastery.ts";
+
+test("manual alignment and equipment domains replace outdated options", () => {
+  assert.equal(rules.allineamenti.length, 9);
+  assert.ok(!rules.allineamenti.includes("Senza allineamento"));
+  assert.ok(gearCatalog.some((item) => item.name === "Focus arcano (cristallo)"));
+  assert.ok(gearCatalog.some((item) => item.name === "Simbolo sacro (reliquiario)"));
+  assert.ok(gearCatalog.some((item) => item.name === "Dadi" && item.tool));
+  assert.ok(gearCatalog.some((item) => item.name === "Liuto" && item.tool));
+  assert.ok(!weaponCatalog.some((weapon) => weapon.mastery === "Fiaccare"));
+  assert.equal(weaponCatalog.find((weapon) => weapon.name === "Lancia")?.mastery, "Prosciugamento");
+  assert.ok(masteryEffects.Prosciugamento);
+});
 
 test("new Manuale 2024 identity choices pass domain validation", () => {
   const sheet = emptySheet();

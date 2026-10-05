@@ -43,7 +43,7 @@ import { availableFeatChoices, availablePrivilegeChoices, featGrants, grantedPri
 import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotalGold } from "@/lib/coins";
-import { grantCompetencies, hasGrantedCompetency, setCheckboxCompetency } from "@/lib/competencySources";
+import { hasGrantedCompetency, setCheckboxCompetency } from "@/lib/competencySources";
 import { classToolProficiencies, classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
 import { addWeaponCompetency, removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
 import { addToolCompetency, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
@@ -985,28 +985,15 @@ export default function CharacterClient({
                 <TextField label="Usi massimi" showInfo={false} numeric="unsigned" value={String(resource.massimo)} onChange={(v) => p({ massimo: Number(v || 0) })} />
                 <TextField label="Usi spesi" showInfo={false} numeric="unsigned" value={String(resource.spesi)} onChange={(v) => p({ spesi: Number(v || 0) })} />
               </div>
-              <TextField label="Ricarica" showInfo={false} value={resource.ricarica === "breve" ? "Riposo breve" : resource.ricarica === "lungo" ? "Riposo lungo" : "Manuale"} options={["Manuale", "Riposo breve", "Riposo lungo"]} onChange={(v) => p({ ricarica: v === "Riposo breve" ? "breve" : v === "Riposo lungo" ? "lungo" : "manuale" })} />
+              <p className="text-xs text-ink-soft">Ricarica registrata: {resource.ricarica === "breve" ? "Riposo breve" : resource.ricarica === "lungo" ? "Riposo lungo" : "Manuale"}</p>
             </div>}
           />
           <h3 className={`${sectionTitle} mt-4`}>Fonti delle competenze</h3>
-          <ArrayEditor
-            items={sheet.fontiCompetenze ?? []}
-            onChange={(items) => patch(grantCompetencies(sheet, items))}
-            makeNew={(): NonNullable<Sheet["fontiCompetenze"]>[number] => ({ tipo: "abilita", valore: "", fonte: "" })}
-            addLabel="Aggiungi fonte"
-            titleOf={(record) => record.valore || "Nuova fonte"}
-            subtitleOf={(record) => record.fonte}
-            lockItem={(record) => record.tipo === "strumento"
-              ? (record.fonte === `Classe: ${sheet.classe}` && classToolProficiencies(sheet.classe).includes(record.valore))
-              || (record.fonte === `Background: ${sheet.background}` && backgroundToolProficiency(sheet.background) === record.valore)
-              || (record.fonte === "Talento: Lavoro manuale" && featToolProficiencies(sheet).includes(record.valore))
-              : record.tipo === "arma" && record.fonte === `Classe: ${sheet.classe}` && classWeaponProficiencies(sheet.classe).includes(record.valore)}
-            renderItem={(record, p, _index, locked) => locked ? <p className="text-sm text-ink-soft">{record.valore} · {record.fonte}</p> : <div className="flex flex-col gap-2">
-              <TextField label="Tipo" showInfo={false} value={record.tipo} options={["abilita", "tiroSalvezza", "arma", "armatura", "strumento", "lingua"]} onChange={(v) => p({ tipo: v as typeof record.tipo, valore: "" })} />
-              <TextField label="Competenza" showInfo={false} value={record.valore} options={record.tipo === "abilita" ? sheet.abilita.map((item) => item.nome) : record.tipo === "tiroSalvezza" ? sheet.caratteristiche.map((item) => item.abbr) : record.tipo === "arma" ? WEAPON_PROFICIENCIES : record.tipo === "armatura" ? Object.keys(sheet.competenzeArmatura) : record.tipo === "strumento" ? gearCatalog.filter((item) => item.tool).map((item) => item.name) : lingue} onChange={(v) => p({ valore: v })} />
-              <TextField label="Fonte" showInfo={false} value={record.fonte} onChange={(v) => p({ fonte: v })} />
-            </div>}
-          />
+          <div className="flex flex-col gap-1.5">
+            {(sheet.fontiCompetenze ?? []).map((record, index) => (
+              <p key={index} className="text-sm text-ink-soft">{record.valore} · {record.fonte}</p>
+            ))}
+          </div>
         </div>
       ),
     },
@@ -1057,9 +1044,8 @@ export default function CharacterClient({
             onTitleClick={(inc, _index, button) => { if (!inc.nome) return false; openFieldInfo(`incantesimo:${inc.nome}`, inc.nome, button); return true; }}
             renderItem={(inc, p) => (
               <div className="flex flex-col gap-2">
-                <TextField label="Fonte" showInfo={false} value={inc.fonte === "classe" ? "Classe" : inc.fonte === "talento" ? "Talento" : inc.fonte === "privilegio" ? "Privilegio" : inc.fonte === "altro" ? "Altro" : "Non specificata"} options={["Non specificata", "Classe", "Talento", "Privilegio", "Altro"]} onChange={(v) => p({ fonte: v === "Classe" ? "classe" : v === "Talento" ? "talento" : v === "Privilegio" ? "privilegio" : v === "Altro" ? "altro" : undefined })} />
                 <TextField label="Nome" showInfo={false} value={inc.nome} valueInfoId={inc.nome ? `incantesimo:${inc.nome}` : undefined} options={inc.fonte === "classe" ? availableClassSpells(sheet) : spellNames} onChange={(v) => p({ nome: v })} />
-                <TextField label="Stato" showInfo={false} value={inc.stato === "semprePreparato" ? "Sempre preparato" : inc.stato === "conosciuto" ? "Conosciuto" : inc.stato === "libro" ? "Nel libro" : inc.stato === "preparato" ? "Preparato" : inc.stato === "concesso" ? "Concesso" : "Non specificato"} options={["Non specificato", "Conosciuto", "Nel libro", "Preparato", "Sempre preparato", "Concesso"]} onChange={(v) => p({ stato: v === "Conosciuto" ? "conosciuto" : v === "Nel libro" ? "libro" : v === "Preparato" ? "preparato" : v === "Sempre preparato" ? "semprePreparato" : v === "Concesso" ? "concesso" : undefined })} />
+                {(inc.fonte || inc.stato) && <p className="text-xs text-ink-soft">{inc.fonte ? `Fonte registrata: ${{ classe: "Classe", talento: "Talento", privilegio: "Privilegio", altro: "Altro" }[inc.fonte]}` : ""}{inc.fonte && inc.stato ? " · " : ""}{inc.stato ? `Stato registrato: ${{ conosciuto: "Conosciuto", libro: "Nel libro", preparato: "Preparato", semprePreparato: "Sempre preparato", concesso: "Concesso" }[inc.stato]}` : ""}</p>}
                 {inc.fonte && inc.fonte !== "classe" && <TextField label="Caratteristica di lancio" showInfo={false} value={inc.caratteristica ?? ""} options={["INT", "SAG", "CAR"]} onChange={(v) => p({ caratteristica: v as "INT" | "SAG" | "CAR" })} />}
               </div>
             )}

@@ -625,5 +625,54 @@
     ],
     "page": 343,
     "school": "Abiurazione"
+  },
+  {
+    "name": "Aura di vitalità",
+    "level": 3,
+    "classes": ["chierico", "druido", "paladino"],
+    "page": 245,
+    "school": "Abiurazione"
+  },
+  {
+    "name": "Fonte di luce lunare",
+    "level": 4,
+    "classes": ["bardo", "druido"],
+    "page": 274,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Freccia acida di Melf",
+    "level": 2,
+    "classes": ["mago"],
+    "page": 276,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Freccia folgorante",
+    "level": 3,
+    "classes": ["ranger"],
+    "page": 276,
+    "school": "Trasmutazione"
+  },
+  {
+    "name": "Frusta di spine",
+    "level": 0,
+    "classes": ["druido"],
+    "page": 276,
+    "school": "Trasmutazione"
+  },
+  {
+    "name": "Rombo di tuono",
+    "level": 0,
+    "classes": ["bardo", "druido", "mago", "stregone", "warlock"],
+    "page": 322,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Tempesta radiosa di Jallarzi",
+    "level": 5,
+    "classes": ["mago", "warlock"],
+    "page": 336,
+    "school": "Invocazione"
   }
 ]

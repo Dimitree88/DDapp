@@ -1,4 +1,4 @@
-// Equipaggiamento d'avventura, SRD 5.2.1 italiano, tabella a p. 107.
+// Equipaggiamento d'avventura, Manuale del Giocatore 2024, tabella a p. 223.
 // I pesi non indicati dalla fonte restano assenti.
 export type Gear = { id: string; name: string; weightKg?: number; costGp?: number; priceQuantity?: number; sourcePage?: number; tool?: boolean };
 
@@ -86,12 +86,22 @@ const rows: [string, string, number | null, number][] = [
 export const gearCatalog: Gear[] = rows.map(([id, name, weightKg, costGp]) => ({ id: `srd52:gear:${id}`, name, ...(weightKg === null ? {} : { weightKg }), costGp }));
 // Manuale del Giocatore 2024, tabella Focus druidici: la voce generale ha costo variabile.
 gearCatalog.push(
+  { id: "phb24:gear:focus-arcano", name: "Focus arcano", sourcePage: 225 },
+  { id: "phb24:gear:focus-arcano-bacchetta", name: "Focus arcano (bacchetta)", weightKg: 0.5, costGp: 10, sourcePage: 225 },
+  { id: "phb24:gear:focus-arcano-bastone", name: "Focus arcano (bastone)", weightKg: 2, costGp: 5, sourcePage: 225 },
+  { id: "phb24:gear:focus-arcano-cristallo", name: "Focus arcano (cristallo)", weightKg: 0.5, costGp: 10, sourcePage: 225 },
+  { id: "phb24:gear:focus-arcano-globo", name: "Focus arcano (globo)", weightKg: 1.5, costGp: 20, sourcePage: 225 },
+  { id: "phb24:gear:focus-arcano-verga", name: "Focus arcano (verga)", weightKg: 1, costGp: 10, sourcePage: 225 },
   { id: "phb24:gear:focus-druidico", name: "Focus druidico", sourcePage: 225 },
   { id: "phb24:gear:focus-druidico-bacchetta-tasso", name: "Focus druidico (bacchetta in legno di tasso)", weightKg: 0.5, costGp: 10, sourcePage: 225 },
   { id: "phb24:gear:focus-druidico-bastone-legno", name: "Focus druidico (bastone di legno)", weightKg: 2, costGp: 5, sourcePage: 225 },
   { id: "phb24:gear:focus-druidico-rametto-vischio", name: "Focus druidico (rametto di vischio)", costGp: 1, sourcePage: 225 },
+  { id: "phb24:gear:simbolo-sacro", name: "Simbolo sacro", sourcePage: 228 },
+  { id: "phb24:gear:simbolo-sacro-amuleto", name: "Simbolo sacro (amuleto)", weightKg: 0.5, costGp: 5, sourcePage: 228 },
+  { id: "phb24:gear:simbolo-sacro-emblema", name: "Simbolo sacro (emblema)", costGp: 5, sourcePage: 228 },
+  { id: "phb24:gear:simbolo-sacro-reliquiario", name: "Simbolo sacro (reliquiario)", weightKg: 1, costGp: 5, sourcePage: 228 },
 );
-// La tabella Munizioni (p. 110) dà peso e prezzo per confezione.
+// La tabella Munizioni (p. 226) dà peso e prezzo per confezione.
 gearCatalog.push(
   { id: "srd52:ammo:aghi", name: "Aghi", weightKg: 0.5 / 50, costGp: 1, priceQuantity: 50 },
   { id: "srd52:ammo:frecce", name: "Frecce", weightKg: 0.5 / 20, costGp: 1, priceQuantity: 20 },
@@ -124,6 +134,23 @@ const tools: [string, string, number | null, number][] = [
   ["strumenti-navigatore", "Strumenti da navigatore", 1, 25],
   ["trucchi-camuffamento", "Trucchi per il camuffamento", 1.5, 25],
 ];
-gearCatalog.push(...tools.map(([id, name, weightKg, costGp]) => ({ id: `srd52:tool:${id}`, name, ...(weightKg === null ? {} : { weightKg }), costGp, sourcePage: 105, tool: true })));
+gearCatalog.push(...tools.map(([id, name, weightKg, costGp], index) => ({ id: `srd52:tool:${id}`, name, ...(weightKg === null ? {} : { weightKg }), costGp, sourcePage: index < 11 ? 220 : 221, tool: true })));
+// Le varianti di gioco e strumento musicale richiedono competenze distinte (p. 221).
+gearCatalog.push(
+  { id: "phb24:tool:gioco-dadi", name: "Dadi", costGp: 0.1, sourcePage: 221, tool: true },
+  { id: "phb24:tool:gioco-scacchi-dei-draghi", name: "Scacchi dei draghi", costGp: 1, sourcePage: 221, tool: true },
+  { id: "phb24:tool:gioco-carte-da-gioco", name: "Carte da gioco", costGp: 0.5, sourcePage: 221, tool: true },
+  { id: "phb24:tool:gioco-tre-draghi-al-buio", name: "Tre Draghi al Buio", costGp: 1, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-cornamusa", name: "Cornamusa", weightKg: 3, costGp: 30, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-tamburo", name: "Tamburo", weightKg: 1.5, costGp: 6, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-dulcimer", name: "Dulcimer", weightKg: 5, costGp: 25, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-flauto", name: "Flauto", weightKg: 0.5, costGp: 2, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-flauto-di-pan", name: "Flauto di pan", weightKg: 1, costGp: 12, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-ciaramella", name: "Ciaramella", weightKg: 0.5, costGp: 2, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-corno", name: "Corno", weightKg: 1, costGp: 3, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-liuto", name: "Liuto", weightKg: 1, costGp: 35, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-lira", name: "Lira", weightKg: 1, costGp: 30, sourcePage: 221, tool: true },
+  { id: "phb24:tool:musicale-viola", name: "Viola", weightKg: 0.5, costGp: 30, sourcePage: 221, tool: true },
+);
 export const gearById = (id: string): Gear | undefined => gearCatalog.find((item) => item.id === id);
 export const gearByName = (name: string): Gear | undefined => gearCatalog.find((item) => item.name === name);

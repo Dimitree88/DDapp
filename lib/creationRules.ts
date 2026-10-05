@@ -1,6 +1,6 @@
 import type { Sheet } from "./sheet";
 
-// Taglia di base della specie (SRD 5.2.1). Effetti temporanei non la cambiano.
+// Taglia di base della specie (Manuale del Giocatore 2024, cap. 4).
 export const speciesSizes: Record<string, readonly string[]> = {
   Aasimar: ["Media", "Piccola"],
   Dragonide: ["Media"],
