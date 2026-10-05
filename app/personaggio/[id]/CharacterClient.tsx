@@ -267,7 +267,10 @@ function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: 
   return <div className="flex flex-col gap-2">
     {sheet.armi.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
     {sheet.armi.map((weapon, index) => <div key={index} className={`${card} flex items-center gap-2`}>
-      <InfoLabel id={`armaPosseduta:${index}`} title={weapon.nome || "Arma"} className="min-w-0 flex-1 text-left text-sm font-semibold text-ink" />
+      <div className="min-w-0 flex-1">
+        <InfoLabel id={`armaPosseduta:${index}`} title={weapon.nome || "Arma"} className="text-left text-sm font-semibold text-ink" />
+        {weapon.note && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{weapon.note}</p>}
+      </div>
       <span className="text-xs text-ink-faint">Quantità</span>
       <InlineInput value={weapon.quantita || "1"} onChange={(value) => onChange(sheet.armi.map((item, itemIndex) => itemIndex === index ? { ...item, quantita: value || "1" } : item))} numeric="unsigned" className="w-8 text-center" />
       {unlocked && <button type="button" aria-label={`Rimuovi ${weapon.nome}`} onClick={() => {
@@ -577,7 +580,7 @@ export default function CharacterClient({
   const ownedWeaponCalculation = ownedWeapon ? weaponAttack(sheet, ownedWeapon) : null;
   const ownedMastery = ownedWeapon && (sheet.padronanzeArmi ?? []).includes(ownedWeapon.nome) ? weaponByName(ownedWeapon.nome)?.mastery : null;
   const ownedWeaponInfo = ownedWeaponBase || ownedWeapon?.note ? {
-    meaning: [ownedWeaponBase, `Quantità: ${ownedWeapon?.quantita || "1"}.`, ownedWeapon?.modo && ownedWeapon.modo !== "base" && `Uso: ${ownedWeapon.modo === "lancio" ? "Lancio" : "Due mani"}.`, ownedWeapon?.caratteristica && `Caratteristica scelta: ${ownedWeapon.caratteristica}.`, ownedWeaponCalculation && `Attacco calcolato: ${ownedWeaponCalculation.formula}. Danno: ${ownedWeaponCalculation.damage || "punteggio da inserire"}.`, ownedMastery && `Padronanza scelta: ${ownedMastery}. ${masteryEffects[ownedMastery] ?? ""}`, ownedWeapon?.bonusMagico && `Bonus magico: +${ownedWeapon.bonusMagico}.`, ownedWeapon?.bonus && `Bonus al tiro per colpire manuale: ${ownedWeapon.bonus} (prevale sul calcolo).`, ownedWeapon?.note && `Dettaglio personale: ${ownedWeapon.note}`].filter(Boolean).join("\n\n"),
+    meaning: [ownedWeaponBase, ownedWeapon?.modo && ownedWeapon.modo !== "base" && `Uso: ${ownedWeapon.modo === "lancio" ? "Lancio" : "Due mani"}.`, ownedWeapon?.caratteristica && `Caratteristica scelta: ${ownedWeapon.caratteristica}.`, ownedWeaponCalculation && `Attacco calcolato: ${ownedWeaponCalculation.formula}. Danno: ${ownedWeaponCalculation.damage || "punteggio da inserire"}.`, ownedMastery && `Padronanza scelta: ${ownedMastery}. ${masteryEffects[ownedMastery] ?? ""}`, ownedWeapon?.bonusMagico && `Bonus magico: +${ownedWeapon.bonusMagico}.`, ownedWeapon?.bonus && `Bonus al tiro per colpire manuale: ${ownedWeapon.bonus} (prevale sul calcolo).`, ownedWeapon?.note && `Dettaglio personale: ${ownedWeapon.note}`].filter(Boolean).join("\n\n"),
     rule: Boolean(ownedWeaponBase),
   } : null;
   const valueId = fieldInfo?.id.startsWith("valore:") ? fieldInfo.id.slice("valore:".length) : null;
