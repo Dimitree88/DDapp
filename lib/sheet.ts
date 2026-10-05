@@ -5,6 +5,8 @@ import { calculatedSpeed } from "./speed";
 import { grantClassProficiencies } from "./classSavingThrows";
 import { grantBackgroundToolProficiency } from "./backgroundToolProficiencies";
 import { grantFeatToolProficiencies } from "./featToolProficiencies";
+import { gearByName } from "./gearCatalog";
+import { mergeDuplicateCatalogEquipment } from "./equipmentSelection";
 
 // Modello dati della scheda. I bonus delle abilità sono derivati.
 
@@ -349,10 +351,14 @@ export function normalizeSheet(value: Sheet): Sheet {
     }),
     equipaggiamento: old.equipaggiamento
       .filter((item) => item.nome !== "Sconto 20% su oggetti non magici")
-      .map((item) => ({ nome: item.nome, ...(item.catalogId ? { catalogId: item.catalogId } : {}), ...(item.quantita ? { quantita: item.quantita } : {}), ...(item.unita ? { unita: item.unita } : {}), ...(item.contenitore ? { contenitore: item.contenitore } : {}), ...(item.indossato ? { indossato: true } : {}), ...(item.impugnato ? { impugnato: true } : {}), ...(item.bonusMagico ? { bonusMagico: item.bonusMagico } : {}), dettaglio:
+      .map((item) => {
+        const legacyArrows = !item.catalogId && !item.quantita ? /^Frecce x([1-9]\d*)$/.exec(item.nome) : null;
+        const nome = legacyArrows ? "Frecce" : item.nome;
+        return { nome, ...(legacyArrows ? { catalogId: gearByName("Frecce")?.id, quantita: legacyArrows[1] } : item.catalogId ? { catalogId: item.catalogId } : {}), ...(!legacyArrows && item.quantita ? { quantita: item.quantita } : {}), ...(item.unita ? { unita: item.unita } : {}), ...(item.contenitore ? { contenitore: item.contenitore } : {}), ...(item.indossato ? { indossato: true } : {}), ...(item.impugnato ? { impugnato: true } : {}), ...(item.bonusMagico ? { bonusMagico: item.bonusMagico } : {}), ...(item.magico ? { magico: true } : {}), dettaglio:
         (item.nome === "Armatura di cuoio borchiato" && item.dettaglio === "Classe armatura 12") ||
         (item.nome === "Borsa da erborista" && /^CD 10 per identificare una pianta; creazione:/.test(item.dettaglio))
-          ? "" : item.dettaglio })),
+          ? "" : item.dettaglio };
+      }),
     privilegi: privileges,
     talenti: old.talenti.map((feat) => {
       const tools = /strumenti da artigiano scelti:\s*([^\n.]+)/i.exec(feat.descrizione ?? "");
@@ -366,5 +372,6 @@ export function normalizeSheet(value: Sheet): Sheet {
   delete (normalized as Sheet & { percezionePassiva?: string }).percezionePassiva;
   delete (normalized as Sheet & { iniziativa?: string }).iniziativa;
   const cleaned = removeRetiredFields(normalized);
+  cleaned.equipaggiamento = mergeDuplicateCatalogEquipment(cleaned.equipaggiamento);
   return grantFeatToolProficiencies(grantBackgroundToolProficiency(cleaned.classProficienciesApplied ? cleaned : grantClassProficiencies(cleaned)));
 }

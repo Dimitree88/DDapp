@@ -1,6 +1,6 @@
 // Equipaggiamento d'avventura, SRD 5.2.1 italiano, tabella a p. 107.
 // I pesi non indicati dalla fonte restano assenti.
-export type Gear = { id: string; name: string; weightKg?: number; costGp: number; priceQuantity?: number; sourcePage?: number; tool?: boolean };
+export type Gear = { id: string; name: string; weightKg?: number; costGp?: number; priceQuantity?: number; sourcePage?: number; tool?: boolean };
 
 const rows: [string, string, number | null, number][] = [
   ["abiti-viaggiatore", "Abiti da viaggiatore", 2, 2],
@@ -84,6 +84,13 @@ const rows: [string, string, number | null, number][] = [
 ];
 
 export const gearCatalog: Gear[] = rows.map(([id, name, weightKg, costGp]) => ({ id: `srd52:gear:${id}`, name, ...(weightKg === null ? {} : { weightKg }), costGp }));
+// Manuale del Giocatore 2024, tabella Focus druidici: la voce generale ha costo variabile.
+gearCatalog.push(
+  { id: "phb24:gear:focus-druidico", name: "Focus druidico", sourcePage: 225 },
+  { id: "phb24:gear:focus-druidico-bacchetta-tasso", name: "Focus druidico (bacchetta in legno di tasso)", weightKg: 0.5, costGp: 10, sourcePage: 225 },
+  { id: "phb24:gear:focus-druidico-bastone-legno", name: "Focus druidico (bastone di legno)", weightKg: 2, costGp: 5, sourcePage: 225 },
+  { id: "phb24:gear:focus-druidico-rametto-vischio", name: "Focus druidico (rametto di vischio)", costGp: 1, sourcePage: 225 },
+);
 // La tabella Munizioni (p. 110) dà peso e prezzo per confezione.
 gearCatalog.push(
   { id: "srd52:ammo:aghi", name: "Aghi", weightKg: 0.5 / 50, costGp: 1, priceQuantity: 50 },

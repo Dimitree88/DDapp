@@ -1,9 +1,10 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { calculatedArmorClass } from "../lib/armorClass.ts";
-import { isArmorEquipment, replaceOtherEquipment, selectHeldShield, selectWornArmor } from "../lib/equipmentSelection.ts";
+import { addCatalogEquipment, isArmorEquipment, replaceOtherEquipment, selectHeldShield, selectWornArmor } from "../lib/equipmentSelection.ts";
+import { gearByName } from "../lib/gearCatalog.ts";
 import { inventoryWeight } from "../lib/inventoryWeight.ts";
-import { emptySheet } from "../lib/sheet.ts";
+import { emptySheet, normalizeSheet } from "../lib/sheet.ts";
 
 test("choosing leather armor and a shield gives Erin's possible AC 14", () => {
   const sheet = emptySheet();
@@ -37,4 +38,35 @@ test("legacy armor stays out of other objects but contributes its catalog weight
   sheet.equipaggiamento = selectWornArmor(sheet, "armatura-di-cuoio");
   assert.deepEqual(sheet.equipaggiamento.filter(isArmorEquipment).map((item) => item.nome), ["Armatura di cuoio borchiato", "Armatura di cuoio"]);
   assert.equal(inventoryWeight(sheet).knownKg, 11.5);
+});
+
+test("adding a catalog object increases its existing quantity", () => {
+  const arrows = gearByName("Frecce");
+  const existing = [{ nome: "Frecce", catalogId: arrows.id, quantita: "16", dettaglio: "" }];
+  assert.deepEqual(addCatalogEquipment(existing, arrows.id), [{ ...existing[0], quantita: "17" }]);
+  assert.equal(existing[0].quantita, "16");
+});
+
+test("an object with personal details stays separate from a newly added copy", () => {
+  const book = gearByName("Libro");
+  const existing = [{ nome: "Libro", catalogId: book.id, quantita: "1", dettaglio: "Di filosofia" }];
+  assert.deepEqual(addCatalogEquipment(existing, book.id), [existing[0], { nome: "Libro", catalogId: book.id, dettaglio: "", quantita: "1" }]);
+  const sheet = emptySheet();
+  sheet.equipaggiamento = addCatalogEquipment(existing, book.id);
+  assert.equal(normalizeSheet(sheet).equipaggiamento.length, 2);
+});
+
+test("the druidic focus and its listed forms are available in the object catalog", () => {
+  assert.equal(gearByName("Focus druidico")?.costGp, undefined);
+  assert.equal(gearByName("Focus druidico (rametto di vischio)")?.costGp, 1);
+  assert.equal(gearByName("Focus druidico (bastone di legno)")?.weightKg, 2);
+  assert.equal(gearByName("Focus druidico (bacchetta in legno di tasso)")?.costGp, 10);
+});
+
+test("legacy arrows show as catalog objects with a separate quantity", () => {
+  const sheet = emptySheet();
+  sheet.equipaggiamento = [{ nome: "Frecce x16", dettaglio: "" }, { nome: "Frecce", catalogId: gearByName("Frecce").id, quantita: "1", dettaglio: "" }];
+  const normalized = normalizeSheet(sheet);
+  assert.deepEqual(normalized.equipaggiamento, [{ nome: "Frecce", catalogId: gearByName("Frecce").id, quantita: "17", dettaglio: "" }]);
+  assert.deepEqual(normalizeSheet(normalized).equipaggiamento, normalized.equipaggiamento);
 });
