@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { emptySheet, normalizeSheet } from "../lib/sheet.ts";
 import { domainErrors } from "../lib/domain.ts";
-import { grantCompetencies } from "../lib/competencySources.ts";
+import { grantCompetencies, setCheckboxCompetency } from "../lib/competencySources.ts";
 
 test("normalizing a sheet preserves existing competence sources without changing choices", () => {
   const sheet = emptySheet();
@@ -11,6 +11,21 @@ test("normalizing a sheet preserves existing competence sources without changing
   assert.deepEqual(domainErrors(sheet), []);
   assert.deepEqual(normalizeSheet(sheet).fontiCompetenze, sheet.fontiCompetenze);
   assert.match(domainErrors({ ...sheet, competenzeArmi: [] }).join(" "), /competenza non registrata/);
+});
+
+test("checked proficiencies can be unchecked and stay unchecked after saving", () => {
+  const ranger = normalizeSheet({ ...emptySheet(), classe: "Ranger" });
+  const withoutSave = normalizeSheet({ ...ranger, ...setCheckboxCompetency(ranger, "tiroSalvezza", "FOR", false) });
+  assert.equal(withoutSave.caratteristiche.find((item) => item.abbr === "FOR").tsCompetente, false);
+  assert.ok(!withoutSave.fontiCompetenze.some((record) => record.tipo === "tiroSalvezza" && record.valore === "FOR"));
+  const withoutArmor = normalizeSheet({ ...withoutSave, ...setCheckboxCompetency(withoutSave, "armatura", "medie", false) });
+  assert.equal(withoutArmor.competenzeArmatura.medie, false);
+  assert.deepEqual(domainErrors(withoutArmor), []);
+  const trained = { ...withoutArmor, ...grantCompetencies(withoutArmor, [{ tipo: "abilita", valore: "ATLETICA", fonte: "Scelta" }]) };
+  const withoutSkill = normalizeSheet({ ...trained, ...setCheckboxCompetency(trained, "abilita", "ATLETICA", false) });
+  assert.equal(withoutSkill.abilita.find((item) => item.nome === "ATLETICA").competente, false);
+  assert.ok(!withoutSkill.fontiCompetenze.some((record) => record.tipo === "abilita" && record.valore === "ATLETICA"));
+  assert.deepEqual(domainErrors(withoutSkill), []);
 });
 
 test("a declared source grants its competence once and preserves manual choices", () => {

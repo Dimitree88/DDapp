@@ -49,6 +49,7 @@ export function grantClassProficiencies(sheet: Sheet): Sheet {
   ));
   return {
     ...sheet,
+    classProficienciesApplied: true,
     caratteristiche: sheet.caratteristiche.map((item) => saves.includes(item.abbr) ? { ...item, tsCompetente: true } : item),
     competenzeArmi: [...new Set([...sheet.competenzeArmi, ...(classWeapons[sheet.classe] ?? [])])],
     competenzeArmatura: Object.fromEntries(Object.entries(sheet.competenzeArmatura).map(([kind, known]) => [kind, Boolean(known || classArmor[sheet.classe]?.includes(kind as keyof Sheet["competenzeArmatura"]))])) as Sheet["competenzeArmatura"],

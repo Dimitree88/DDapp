@@ -286,6 +286,7 @@ export function InlineInput({
   className = "",
   numeric,
   onExplain,
+  large = false,
 }: {
   value: string;
   onChange: (v: string) => void;
@@ -293,6 +294,7 @@ export function InlineInput({
   className?: string;
   numeric?: NumericMode;
   onExplain?: (button: HTMLButtonElement) => void;
+  large?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const [editing, setEditing] = useState(false);
@@ -326,7 +328,7 @@ export function InlineInput({
         autoFocus
         onBlur={close}
         onKeyDown={enterBlurs}
-        className={`rounded-md border border-line bg-card/80 px-2 py-1 text-[15px] text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none ${className}`}
+        className={`rounded-md border border-line bg-card/80 px-2 py-1 ${large ? "text-xl" : "text-[15px]"} text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none ${className}`}
       />
     );
   }
@@ -345,14 +347,14 @@ export function InlineInput({
         lastInfoTap.current = now;
         infoTimer.current = setTimeout(() => { onExplain(trigger); infoTimer.current = null; }, 330);
       }}
-      className={`touch-manipulation text-ink ${unlocked ? "cursor-pointer underline decoration-line/60 decoration-dotted underline-offset-4" : ""} ${className}`}>
+      className={`touch-manipulation ${large ? "text-xl" : ""} text-ink ${unlocked ? "cursor-pointer underline decoration-line/60 decoration-dotted underline-offset-4" : ""} ${className}`}>
       {value}
     </button>
   );
   return (
     <span
       onClick={onTap}
-      className={`inline-block touch-manipulation text-ink ${
+      className={`inline-block touch-manipulation ${large ? "text-xl" : ""} text-ink ${
         unlocked
           ? "cursor-pointer underline decoration-line/60 decoration-dotted underline-offset-4"
           : ""

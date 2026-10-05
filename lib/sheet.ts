@@ -118,6 +118,7 @@ export type Sheet = {
   privilegi: Privilegio[];
   risorse?: Risorsa[];
   fontiCompetenze?: FonteCompetenza[];
+  classProficienciesApplied?: boolean;
 
   // Pagina: Talenti
   talenti: Talento[];
@@ -361,5 +362,6 @@ export function normalizeSheet(value: Sheet): Sheet {
   delete (normalized as Sheet & { bonusCompetenza?: string }).bonusCompetenza;
   delete (normalized as Sheet & { percezionePassiva?: string }).percezionePassiva;
   delete (normalized as Sheet & { iniziativa?: string }).iniziativa;
-  return grantClassProficiencies(removeRetiredFields(normalized));
+  const cleaned = removeRetiredFields(normalized);
+  return cleaned.classProficienciesApplied ? cleaned : grantClassProficiencies(cleaned);
 }

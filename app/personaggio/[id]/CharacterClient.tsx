@@ -37,12 +37,11 @@ import { displayedWeaponAttack, weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
-import { advancementHint } from "@/lib/advancement";
 import { availableFeats } from "@/lib/featCatalog";
 import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotalGold } from "@/lib/coins";
-import { grantCompetencies } from "@/lib/competencySources";
+import { grantCompetencies, setCheckboxCompetency } from "@/lib/competencySources";
 import { grantClassProficiencies } from "@/lib/classSavingThrows";
 import { subclassLevel } from "@/lib/classProgression";
 import { valueDetails } from "@/lib/valueDetails";
@@ -182,22 +181,19 @@ function StringListEditor({
 function CompetenceDot({
   checked,
   onChange,
-  locked = false,
 }: {
   checked: boolean;
   onChange: (v: boolean) => void;
-  locked?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const onTap = useDoubleTap(() =>
-    locked ? undefined : unlocked ? onChange(!checked) : requireUnlock(),
+    unlocked ? onChange(!checked) : requireUnlock(),
   );
   return (
     <button
       type="button"
-      onClick={() => { if (!locked) onTap(); }}
+      onClick={onTap}
       aria-label="Competente"
-      aria-disabled={locked}
       className={`grid h-4 w-4 shrink-0 touch-manipulation place-items-center rounded-full border text-[9px] transition-colors ${
         checked
           ? "border-accent bg-accent text-parchment"
@@ -607,7 +603,7 @@ export default function CharacterClient({
             <TextField label="Livello" showInfo={false} value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
             <TextField label="Classe" showInfo={false} value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
           </div>
-          {Number(sheet.livello) >= subclassLevel ? <TextField label="Sottoclasse" showInfo={false} value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} /> : <p className="text-sm text-ink-soft">La sottoclasse si sceglie dal livello {subclassLevel}.</p>}
+          {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
           <div className={grid2}>
             <TextField label="Punti Ferita" showInfo={false} value={sheet.puntiFerita} valueInfoId="stato:pf" valueInfoTitle={`Punti Ferita: ${sheet.puntiFerita}`} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
             <TextField label="Punti Ferita Massimi" showInfo={false} value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
@@ -629,7 +625,6 @@ export default function CharacterClient({
             <TextField label="Dadi Vita" showInfo={false} value={sheet.dadiVita} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
             <TextField label="Punti Esperienza" showInfo={false} value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
-          <p className="text-sm text-ink-soft">{advancementHint(sheet.livello, sheet.puntiEsperienza)}</p>
           <div className={grid2}>
             <TextField label="Ispirazione Eroica" showInfo={false} value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
             <NumberUnitField label="Velocità" value={sheet.velocita} valueInfoId="stato:velocita" unit="m" onChange={(v) => patch({ velocita: v })} />
@@ -674,17 +669,14 @@ export default function CharacterClient({
                 <Toggle
                   label="Tiro Salvezza"
                   checked={c.tsCompetente}
-                  locked={c.tsCompetente}
                   onExplain={(button) => openCalculation({ kind: "save", abbr: c.abbr }, button)}
-                  onChange={(v) => updateCar(i, { tsCompetente: v })}
+                  onChange={(v) => patch(setCheckboxCompetency(sheet, "tiroSalvezza", c.abbr, v))}
                 />
               </div>
               <div className="grid grid-cols-3 gap-2 text-center">
                 <div>
-                  <button type="button" onClick={(event) => openCalculation({ kind: "modifier", abbr: c.abbr }, event.currentTarget)} className="text-[9px] uppercase leading-tight text-ink-faint">Valore</button>
                   <InlineInput value={c.valore} onChange={(v) => updateCar(i, { valore: v })}
-                    onExplain={(button) => openCalculation({ kind: "modifier", abbr: c.abbr }, button)}
-                    numeric="unsigned" className="mt-0.5 w-full text-center" />
+                    numeric="unsigned" large className="w-full text-center font-bold" />
                 </div>
                 <ComputedField label="Modificatore" value={abilityModifier(c.valore)}
                   explainLabel={`modificatore di ${c.nome}`}
@@ -711,8 +703,8 @@ export default function CharacterClient({
                 {sheet.abilita.map((a, i) => a.caratteristica === caratteristica && (
                   <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
                     <div className="flex items-center gap-1.5">
-                      <CompetenceDot checked={a.competente} locked={a.competente}
-                        onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
+                      <CompetenceDot checked={a.competente}
+                        onChange={(v) => patch(setCheckboxCompetency(sheet, "abilita", a.nome, v))} />
                       <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
                         aria-haspopup="dialog"
                         onClick={(event) => openCalculation({ kind: "ability", name: a.nome }, event.currentTarget)}
@@ -726,7 +718,7 @@ export default function CharacterClient({
                         {abilityBonus(sheet, a) || "—"}
                       </button>
                     </div>
-                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} locked={a.maestria} onExplain={(button) => openCalculation({ kind: "ability", name: a.nome }, button)} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
+                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} onExplain={(button) => openCalculation({ kind: "ability", name: a.nome }, button)} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
                   </div>
                 ))}
               </div>
@@ -817,8 +809,7 @@ export default function CharacterClient({
                   label={lab}
                   helpId={`valore:armatura:${lab}`}
                   checked={sheet.competenzeArmatura[key]}
-                  locked={sheet.competenzeArmatura[key]}
-                  onChange={(v) => patch({ competenzeArmatura: { ...sheet.competenzeArmatura, [key]: v } })}
+                  onChange={(v) => patch(setCheckboxCompetency(sheet, "armatura", key, v))}
                 />
               ))}
             </div>

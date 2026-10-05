@@ -22,3 +22,14 @@ export function grantCompetencies(sheet: Sheet, sources: FonteCompetenza[]): Par
   }
   return patch;
 }
+
+export function setCheckboxCompetency(sheet: Sheet, type: "abilita" | "tiroSalvezza" | "armatura", value: string, checked: boolean): Partial<Sheet> {
+  const patch: Partial<Sheet> = {
+    classProficienciesApplied: true,
+    fontiCompetenze: checked ? sheet.fontiCompetenze : (sheet.fontiCompetenze ?? []).filter((record) => record.tipo !== type || record.valore !== value),
+  };
+  if (type === "abilita") patch.abilita = sheet.abilita.map((item) => item.nome === value ? { ...item, competente: checked, maestria: checked && item.maestria } : item);
+  if (type === "tiroSalvezza") patch.caratteristiche = sheet.caratteristiche.map((item) => item.abbr === value ? { ...item, tsCompetente: checked } : item);
+  if (type === "armatura") patch.competenzeArmatura = { ...sheet.competenzeArmatura, [value]: checked };
+  return patch;
+}

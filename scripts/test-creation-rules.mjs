@@ -32,7 +32,7 @@ test("level gains remain possible while acquired choices stay protected", () => 
   advanced.lingue.shift();
   advanced.abilita[0].competente = false;
   advanced.talenti.shift();
-  assert.deepEqual(creationErrors(sheet, advanced), ["lingua Comune", "competenza ATLETICA", "talento Allerta"]);
+  assert.deepEqual(creationErrors(sheet, advanced), ["lingua Comune", "talento Allerta"]);
 });
 
 test("subclass can be chosen later and is fixed once selected", () => {
