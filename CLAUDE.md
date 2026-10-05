@@ -6,7 +6,7 @@ differire dai dati di training. Leggi la guida pertinente in
 
 # Schede D&D — contesto per l'agente
 
-> Questo file è la **fonte di verità** del progetto. La memoria automatica di Claude
+> Per le regole di gioco prevale `AGENTS.md`: l'unica fonte è il PDF locale del Manuale del Giocatore 2024. Questo file documenta il progetto. La memoria automatica di Claude
 > è legata al percorso della cartella: se la cartella viene rinominata riparte vuota,
 > quindi tutto il contesto necessario deve stare qui.
 
@@ -43,7 +43,7 @@ anche l'ambiente locale si collega a quello).
   standard di caratteristiche/abilità D&D e conversione dei vecchi JSON con
   `normalizeSheet()`.
 - `lib/abilityBonus.ts` — calcolo dei valori derivati senza salvarli nel DB.
-- `docs/regole/Manuale Del Giocatore - 2024.pdf` — riferimento principale per le regole 2024; nella stessa cartella si trova lo SRD 5.2.1 usato dai cataloghi precedenti.
+- `docs/regole/Manuale Del Giocatore - 2024.pdf` — unica fonte per regole, logiche, domini e descrizioni di gioco; non usare fonti esterne senza richiesta esplicita dell'utente.
 - `lib/exportPdf.ts` — esportazione PDF nel formato dell'app.
 - `lib/exportTemplatePdf.ts` e `lib/pdfTemplateFields.json` — esportazione
   statica sul modello originale in `public/scheda-template.pdf`.
