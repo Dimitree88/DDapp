@@ -1,0 +1,1219 @@
+{
+ "pagina_pdf": 244,
+ "pagina_stampata": 241,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 241",
+ "immagini": [
+  [
+   303,
+   671,
+   381,
+   746
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.3,
+    51.3,
+    201.7,
+    62.7
+   ],
+   "size": 11.2,
+   "testo": "AMICIZIA CON GLI ANIMALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    62.9,
+    236.4,
+    73.3
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi1°livello (bardo, druido, ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    78.4,
+    145.7,
+    88.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    89.3,
+    113.7,
+    99.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    100.4,
+    213.7,
+    110.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un boccone di cibo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    110.4,
+    109.6,
+    121.1
+   ],
+   "size": 8.8,
+   "testo": "Durata: 24 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    127.7,
+    262.6,
+    138.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie come bersaglio una bestia entro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    138.6,
+    280.4,
+    149.2
+   ],
+   "size": 8.8,
+   "testo": "gittata che è in grado di vedere. Il bersaglio deve superare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    149.7,
+    268.5,
+    160.3
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Saggezza, altrimenti rimane affasci­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    160.8,
+    282.4,
+    171.3
+   ],
+   "size": 8.8,
+   "testo": "nato per la durata dell'incantesimo. Se l'incantatore o uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    171.7,
+    271.1,
+    182.2
+   ],
+   "size": 8.8,
+   "testo": "dei suoi alleati infligge danni al bersaglio, l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    182.7,
+    89.1,
+    193.3
+   ],
+   "size": 8.8,
+   "testo": "termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    195.4,
+    257.6,
+    204.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di unoslot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    204.8,
+    264.1,
+    215.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può scegliere come bersaglio una bestia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    213.6,
+    242.1,
+    226.3
+   ],
+   "size": 8.8,
+   "testo": "aggiuntiva per ogni slot di livello superiore al 1°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    250.3,
+    108.3,
+    261.6
+   ],
+   "size": 11.2,
+   "testo": "ANATEMA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    261.9,
+    245.4,
+    272.4
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi1° livello (bardo, chierico, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    277.6,
+    145.4,
+    287.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    288.4,
+    113.4,
+    298.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    299.6,
+    220.7,
+    309.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una goccia di sangue)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    310.6,
+    206.8,
+    320.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    326.7,
+    261.2,
+    337.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie fino a tre creature situate entro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    337.8,
+    283.4,
+    348.3
+   ],
+   "size": 8.8,
+   "testo": "gittata e che è in grado di vedere, ciascuna delle quali deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    348.7,
+    268.2,
+    359.3
+   ],
+   "size": 8.8,
+   "testo": "effettuare un tiro salvezza su Carisma. Se un bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.1,
+    359.7,
+    272.0,
+    370.2
+   ],
+   "size": 8.8,
+   "testo": "fallisce il tiro, ogni volta che effettua un tiro per colpire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    370.6,
+    263.4,
+    381.2
+   ],
+   "size": 8.8,
+   "testo": "o un tiro salvezza prima del termine dell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    381.6,
+    156.3,
+    392.1
+   ],
+   "size": 8.8,
+   "testo": "deve sottrarre 1d4 da essi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    394.4,
+    257.3,
+    403.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    403.7,
+    266.7,
+    414.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    412.6,
+    198.2,
+    425.3
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 1°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    449.3,
+    176.9,
+    460.6
+   ],
+   "size": 11.2,
+   "testo": "ANIMALE MESSAGGERO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    460.8,
+    237.5,
+    471.3
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamento di2°livello (bardo, druido, ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    476.3,
+    178.9,
+    486.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    487.3,
+    113.2,
+    496.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    498.5,
+    213.1,
+    508.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un boccone di cibo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    509.4,
+    109.1,
+    519.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: 24 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.1,
+    525.7,
+    274.8,
+    536.3
+   ],
+   "size": 8.8,
+   "testo": "Una bestia Minuscola a scelta entro gittata che l'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    536.7,
+    282.1,
+    547.3
+   ],
+   "size": 8.8,
+   "testo": "tore è in grado di vedere deve superare un tiro salvezza su",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    547.7,
+    280.9,
+    558.3
+   ],
+   "size": 8.8,
+   "testo": "Carisma, altrimenti deve cercare di consegnare un messag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    558.6,
+    273.7,
+    569.2
+   ],
+   "size": 8.8,
+   "testo": "gio da parte sua (se il grado di sfida del bersaglio non è O,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    569.7,
+    273.0,
+    580.3
+   ],
+   "size": 8.8,
+   "testo": "la prova viene superata automaticamente). L'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    580.6,
+    263.8,
+    591.2
+   ],
+   "size": 8.8,
+   "testo": "specifica il luogo di consegna, che ha già visitato, e un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    591.6,
+    276.0,
+    602.2
+   ],
+   "size": 8.8,
+   "testo": "destinatario che corrisponda a una descrizione generica,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    602.6,
+    273.4,
+    613.2
+   ],
+   "size": 8.8,
+   "testo": "come \"una persona che indossa l'uniforme della guardia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    613.8,
+    260.5,
+    624.3
+   ],
+   "size": 8.8,
+   "testo": "cittadina\" o \"un nano dai capelli rossi che indossa un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    624.8,
+    260.7,
+    635.3
+   ],
+   "size": 8.8,
+   "testo": "cappello a punta\". Inoltre, l'incantatore comunica un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    635.7,
+    282.8,
+    646.3
+   ],
+   "size": 8.8,
+   "testo": "messaggio composto da un massimo di venticinque parole.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    646.7,
+    277.0,
+    657.3
+   ],
+   "size": 8.8,
+   "testo": "La bestia bersaglio viaggia per la durata dell'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    657.7,
+    277.8,
+    668.3
+   ],
+   "size": 8.8,
+   "testo": "verso il luogo specificato, percorrendo circa 37,5 chilome­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    668.7,
+    255.3,
+    679.3
+   ],
+   "size": 8.8,
+   "testo": "tri in 24 ore o 75 chilometri se è una bestia volante.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    36.2,
+    516.3,
+    46.8
+   ],
+   "size": 8.8,
+   "testo": "Quando la bestia arriva a destinazione, trasmette il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    47.3,
+    518.3,
+    57.9
+   ],
+   "size": 8.8,
+   "testo": "messaggio alla creatura descritta, imitando il modo di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    58.3,
+    525.2,
+    68.8
+   ],
+   "size": 8.8,
+   "testo": "comunicare dell'incantatore. Se la bestia non raggiunge",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    69.3,
+    513.8,
+    79.9
+   ],
+   "size": 8.8,
+   "testo": "la sua destinazione prima della fine dell'incantesimo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    80.3,
+    525.0,
+    90.8
+   ],
+   "size": 8.8,
+   "testo": "il messaggio viene perso e la bestia torna nel luogo dove",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    91.2,
+    460.7,
+    101.8
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore ha lanciato l'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    103.9,
+    510.4,
+    112.5
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    113.2,
+    520.7,
+    123.8
+   ],
+   "size": 8.8,
+   "testo": "La durata dell'incantesimo aumenta di 48 ore per ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    122.1,
+    418.7,
+    134.8
+   ],
+   "size": 8.8,
+   "testo": "slot di livello superiore al 2°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    158.9,
+    397.2,
+    170.3
+   ],
+   "size": 11.2,
+   "testo": "ANIMARE MORTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    170.5,
+    457.8,
+    180.9
+   ],
+   "size": 8.6,
+   "testo": "Necromanziadi3°livello (chierico, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    186.0,
+    407.2,
+    195.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    197.1,
+    366.4,
+    206.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 3 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    208.1,
+    511.3,
+    217.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una goccia di sangue, un pezzo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    219.1,
+    463.1,
+    228.7
+   ],
+   "size": 8.4,
+   "testo": "di carne e un pizzico di polvere d'osso)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    230.1,
+    378.9,
+    239.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    246.3,
+    526.7,
+    256.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie una pila di ossa o un cadavere uma­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    257.3,
+    529.9,
+    267.9
+   ],
+   "size": 8.8,
+   "testo": "noide di taglia Media o Piccola entro gittata, animandolo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    268.4,
+    532.1,
+    278.9
+   ],
+   "size": 8.8,
+   "testo": "come creatura non morta. Il bersaglio si trasforma in uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    279.4,
+    527.6,
+    290.0
+   ],
+   "size": 8.8,
+   "testo": "scheletro se l'incantatore sceglie la pila di ossa, o in uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    290.5,
+    525.4,
+    301.1
+   ],
+   "size": 8.8,
+   "testo": "zombi se l'incantatore sceglie un cadavere (vedi l'appen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    301.4,
+    451.8,
+    312.0
+   ],
+   "size": 8.8,
+   "testo": "dice B per le schede delle statistiche).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.0,
+    312.3,
+    534.1,
+    322.9
+   ],
+   "size": 8.8,
+   "testo": "A ogni suo turno, l'incantatore può effettuare un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    323.3,
+    518.0,
+    333.9
+   ],
+   "size": 8.8,
+   "testo": "bonus per comandare mentalmente qualsiasi creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    334.2,
+    527.2,
+    344.8
+   ],
+   "size": 8.8,
+   "testo": "creata con questo incantesimo, a patto che si trovi entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    345.2,
+    526.9,
+    355.7
+   ],
+   "size": 8.8,
+   "testo": "18 metri da lui (se controlla varie creature, l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    356.2,
+    498.5,
+    366.8
+   ],
+   "size": 8.8,
+   "testo": "può comandarne più di una allo stesso momento,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    367.2,
+    502.1,
+    377.7
+   ],
+   "size": 8.8,
+   "testo": "impartendo lo stesso comando a ciascuna di loro).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    378.2,
+    523.6,
+    388.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore decide quale azione effettuerà la creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    389.2,
+    524.0,
+    399.8
+   ],
+   "size": 8.8,
+   "testo": "e dove si muoverà nel suo turno successivo, oppure può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    400.3,
+    527.6,
+    410.9
+   ],
+   "size": 8.8,
+   "testo": "impartirle un comando generale, come restare a guardia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    411.3,
+    529.2,
+    421.8
+   ],
+   "size": 8.8,
+   "testo": "di una stanza o un di corridoio. Se invece non impartisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    422.3,
+    530.0,
+    432.9
+   ],
+   "size": 8.8,
+   "testo": "alcun comando, la creatura effettua l'azione Schivata e si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    433.2,
+    533.4,
+    443.8
+   ],
+   "size": 8.8,
+   "testo": "sposta solo per evitare di subire danni. Una volta ricevuto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    444.2,
+    525.1,
+    454.7
+   ],
+   "size": 8.8,
+   "testo": "un ordine, la creatura continua a seguirlo finché non ha",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    455.2,
+    420.3,
+    465.7
+   ],
+   "size": 8.8,
+   "testo": "portato a termine il compito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    466.2,
+    523.3,
+    476.8
+   ],
+   "size": 8.8,
+   "testo": "La creatura rimane sotto il controllo dell'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    477.1,
+    528.7,
+    487.7
+   ],
+   "size": 8.8,
+   "testo": "per 24 ore, passate le quali smette di obbedire a qualsiasi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    488.1,
+    508.1,
+    498.7
+   ],
+   "size": 8.8,
+   "testo": "comando ulteriore. Per mantenere il controllo sulla",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    499.3,
+    522.8,
+    509.8
+   ],
+   "size": 8.8,
+   "testo": "creatura per altre 24 ore, l'incantatore deve lanciare di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    510.2,
+    524.1,
+    520.8
+   ],
+   "size": 8.8,
+   "testo": "nuovo questo incantesimo su di essa prima che l'attuale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    521.2,
+    521.7,
+    531.8
+   ],
+   "size": 8.8,
+   "testo": "periodo di 24 ore termini. Questo uso dell'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    532.3,
+    520.3,
+    542.9
+   ],
+   "size": 8.8,
+   "testo": "gli permette di ristabilire il controllo su un massimo di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    543.2,
+    522.0,
+    553.8
+   ],
+   "size": 8.8,
+   "testo": "quattro creature da lui animate tramite questo incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    554.1,
+    446.3,
+    564.7
+   ],
+   "size": 8.8,
+   "testo": "simo, anziché animarne una nuova.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    566.9,
+    509.8,
+    575.5
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    576.2,
+    524.7,
+    586.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore anima due creature non morte aggiuntive",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    587.2,
+    523.9,
+    597.7
+   ],
+   "size": 8.8,
+   "testo": "o ristabilisce il controllo su di esse per ogni slot incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    596.0,
+    532.4,
+    608.8
+   ],
+   "size": 8.8,
+   "testo": "simo di livello superiore al 3°. Ognuna delle creature deve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    609.3,
+    509.1,
+    619.9
+   ],
+   "size": 8.8,
+   "testo": "provenire da un diverso cadavere o mucchio d'ossa.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

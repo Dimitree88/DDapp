@@ -1,0 +1,5160 @@
+{
+ "pagina_pdf": 383,
+ "pagina_stampata": 380,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "INDICE",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    46.6,
+    37.3,
+    124.2,
+    44.1
+   ],
+   "size": 5.2,
+   "testo": "Dado di energia della Lama",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    37.2,
+    209.7,
+    44.0
+   ],
+   "size": 5.2,
+   "testo": "Doni della Selva Fatata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.8,
+    37.1,
+    280.3,
+    43.9
+   ],
+   "size": 5.2,
+   "testo": "Elysium, 344",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    37.0,
+    413.5,
+    43.9
+   ],
+   "size": 6.8,
+   "testo": "fatale (incantesimo), 273",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    37.4,
+    480.7,
+    44.1
+   ],
+   "size": 5.2,
+   "testo": "Gehenna, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    45.4,
+    120.4,
+    52.1
+   ],
+   "size": 5.2,
+   "testo": "Spirituale (tabella), 106",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.3,
+    45.2,
+    190.6,
+    52.0
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 148",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    45.1,
+    325.4,
+    51.9
+   ],
+   "size": 5.2,
+   "testo": "emanazione (area di effetto),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    45.0,
+    420.6,
+    51.9
+   ],
+   "size": 6.8,
+   "testo": "favore divino (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    45.3,
+    495.8,
+    52.1
+   ],
+   "size": 5.2,
+   "testo": "generare i punteggi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    53.4,
+    125.7,
+    60.2
+   ],
+   "size": 5.2,
+   "testo": "dado di Ispirazione Bardica,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    53.3,
+    227.6,
+    60.0
+   ],
+   "size": 5.2,
+   "testo": "Dono degli Abissi (supplica},",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    53.1,
+    263.1,
+    59.9
+   ],
+   "size": 5.2,
+   "testo": "365",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.2,
+    53.1,
+    361.7,
+    59.9
+   ],
+   "size": 5.2,
+   "testo": "273",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.6,
+    53.4,
+    503.4,
+    60.2
+   ],
+   "size": 5.2,
+   "testo": "di caratteristica, 38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    61.5,
+    62.1,
+    68.3
+   ],
+   "size": 5.2,
+   "testo": "60",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.0,
+    61.4,
+    163.9,
+    68.1
+   ],
+   "size": 5.2,
+   "testo": "167",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.8,
+    61.2,
+    277.3,
+    68.0
+   ],
+   "size": 5.2,
+   "testo": "Enorme, 25",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    61.1,
+    411.8,
+    68.0
+   ],
+   "size": 6.8,
+   "testo": "ferire (incantesimo), 273",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    61.5,
+    500.5,
+    68.3
+   ],
+   "size": 5.2,
+   "testo": "generazione casuale,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    69.5,
+    94.0,
+    76.2
+   ],
+   "size": 5.2,
+   "testo": "danni, 9, 27, 365",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    69.3,
+    224.1,
+    76.1
+   ],
+   "size": 5.2,
+   "testo": "Dono del fato (talento), 210",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    69.2,
+    306.9,
+    76.0
+   ],
+   "size": 5.2,
+   "testo": "equipaggiamento, 213",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.8,
+    69.0,
+    388.1,
+    75.9
+   ],
+   "size": 6.8,
+   "testo": "fermare il tempo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    69.4,
+    524.5,
+    76.2
+   ],
+   "size": 5.2,
+   "testo": "punteggio di caratteristica,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    77.4,
+    102.6,
+    84.2
+   ],
+   "size": 5.2,
+   "testo": "considerevoli, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.4,
+    77.3,
+    232.3,
+    84.1
+   ],
+   "size": 5.2,
+   "testo": "Dono dell'abilità (talento), 210",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    77.2,
+    298.1,
+    84.0
+   ],
+   "size": 5.2,
+   "testo": "competenza, 14",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.7,
+    77.2,
+    404.6,
+    83.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 273",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    77.5,
+    456.8,
+    84.2
+   ],
+   "size": 5.2,
+   "testo": "38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    85.4,
+    130.8,
+    92.2
+   ],
+   "size": 5.2,
+   "testo": "contro bersagli multipli, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.3,
+    85.3,
+    206.8,
+    92.1
+   ],
+   "size": 5.2,
+   "testo": "Dono della resistenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    85.2,
+    315.1,
+    92.0
+   ],
+   "size": 5.2,
+   "testo": "fabbricare oggetti, 233",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    85.1,
+    415.7,
+    91.9
+   ],
+   "size": 5.2,
+   "testo": "feroce, lupo (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    85.5,
+    505.1,
+    92.2
+   ],
+   "size": 5.2,
+   "testo": "Gergo delle Profondità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    93.4,
+    92.9,
+    100.2
+   ],
+   "size": 5.2,
+   "testo": "dimezzati, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.8,
+    93.3,
+    220.8,
+    100.1
+   ],
+   "size": 5.2,
+   "testo": "all'energia (talento) , 211",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    93.2,
+    329.7,
+    100.0
+   ],
+   "size": 5.2,
+   "testo": "equipaggiamento d'avventura,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.2,
+    93.1,
+    396.2,
+    99.9
+   ],
+   "size": 5.2,
+   "testo": "statistiche) , 352",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    93.4,
+    482.4,
+    100.2
+   ],
+   "size": 5.2,
+   "testo": "(lingua), 37",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    101.4,
+    95.7,
+    108.2
+   ],
+   "size": 5.2,
+   "testo": "guarigione, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    101.4,
+    225.8,
+    108.1
+   ],
+   "size": 5.2,
+   "testo": "Dono della tempra (talento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    101.2,
+    263.0,
+    108.0
+   ],
+   "size": 5.2,
+   "testo": "222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    101.2,
+    405.7,
+    107.9
+   ],
+   "size": 5.2,
+   "testo": "ferro, spuntoni di, 228",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    101.5,
+    520.6,
+    108.3
+   ],
+   "size": 5.2,
+   "testo": "Gergo Ladresco (lingua), 37",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    109.4,
+    96.6,
+    116.2
+   ],
+   "size": 5.2,
+   "testo": "immunità, 366",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.8,
+    109.3,
+    163.0,
+    116.1
+   ],
+   "size": 5.2,
+   "testo": "211",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.8,
+    109.2,
+    328.1,
+    116.0
+   ],
+   "size": 5.2,
+   "testo": "Equipaggiamento d'avventura",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    109.1,
+    368.6,
+    115.8
+   ],
+   "size": 5.2,
+   "testo": "fiala, 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    109.4,
+    516.1,
+    116.2
+   ],
+   "size": 5.2,
+   "testo": "Gergo Ladresco (privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    117.4,
+    127.6,
+    124.2
+   ],
+   "size": 5.2,
+   "testo": "ordine di applicazione, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.3,
+    117.3,
+    227.0,
+    124.0
+   ],
+   "size": 5.2,
+   "testo": "Dono della velocità (talento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.9,
+    117.1,
+    289.7,
+    123.9
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 223",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.5,
+    117.0,
+    387.7,
+    123.9
+   ],
+   "size": 6.8,
+   "testo": "fiamma perenne",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    117.4,
+    489.6,
+    124.2
+   ],
+   "size": 5.2,
+   "testo": "di classe), 101",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    125.4,
+    96.8,
+    132.1
+   ],
+   "size": 5.2,
+   "testo": "resistenza, 371",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.8,
+    125.3,
+    162.8,
+    132.0
+   ],
+   "size": 5.2,
+   "testo": "211",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.8,
+    125.1,
+    327.5,
+    131.9
+   ],
+   "size": 5.2,
+   "testo": "Equipaggiamento di partenza",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.7,
+    125.0,
+    404.3,
+    131.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 273",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    125.4,
+    500.0,
+    132.2
+   ],
+   "size": 5.2,
+   "testo": "Ghiaccio, Piano Para-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    133.4,
+    88.0,
+    140.2
+   ],
+   "size": 5.2,
+   "testo": "tipi, 28, 376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    133.3,
+    205.4,
+    140.1
+   ],
+   "size": 5.2,
+   "testo": "Dono della vista pura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.4,
+    133.2,
+    325.8,
+    140.0
+   ],
+   "size": 5.2,
+   "testo": "a livelli superiori (tabella),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    133.0,
+    423.3,
+    139.9
+   ],
+   "size": 6.8,
+   "testo": "fiamma sacra (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    133.4,
+    504.6,
+    140.2
+   ],
+   "size": 5.2,
+   "testo": "Elementale del, 344",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    141.4,
+    103.2,
+    148.2
+   ],
+   "size": 5.2,
+   "testo": "tiri salvezza e, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    141.3,
+    190.7,
+    148.0
+   ],
+   "size": 5.2,
+   "testo": "(talento) , 211",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.2,
+    141.1,
+    259.4,
+    148.0
+   ],
+   "size": 5.2,
+   "testo": "43",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.2,
+    141.0,
+    361.7,
+    147.8
+   ],
+   "size": 5.2,
+   "testo": "273",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    141.4,
+    479.3,
+    148.2
+   ],
+   "size": 5.2,
+   "testo": "giaciglio, 226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    149.4,
+    103.8,
+    156.1
+   ],
+   "size": 5.2,
+   "testo": "vulnerabilità, 377",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    149.2,
+    202.5,
+    156.0
+   ],
+   "size": 5.2,
+   "testo": "Dono delle abilità di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    149.1,
+    289.4,
+    155.9
+   ],
+   "size": 5.2,
+   "testo": "equipaggio, 230",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.4,
+    149.1,
+    413.8,
+    155.9
+   ],
+   "size": 5.2,
+   "testo": "Fido Destriero (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    149.4,
+    499.8,
+    156.1
+   ],
+   "size": 5.2,
+   "testo": "Giaco di maglia, 219",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.7,
+    157.4,
+    112.2,
+    164.2
+   ],
+   "size": 5.2,
+   "testo": "danni considerevoli, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    157.3,
+    224.6,
+    164.0
+   ],
+   "size": 5.2,
+   "testo": "combattimento (talento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    157.2,
+    319.5,
+    163.9
+   ],
+   "size": 5.2,
+   "testo": "Eremita (background), 180",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.5,
+    157.1,
+    391.1,
+    163.8
+   ],
+   "size": 5.2,
+   "testo": "di classe), 133",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    157.3,
+    519.7,
+    164.2
+   ],
+   "size": 6.8,
+   "testo": "giara magica (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.1,
+    165.4,
+    103.0,
+    172.2
+   ],
+   "size": 5.2,
+   "testo": "danni dimezzati, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.0,
+    165.3,
+    164.2,
+    172.1
+   ],
+   "size": 5.2,
+   "testo": "210",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    165.1,
+    321.2,
+    172.0
+   ],
+   "size": 6.8,
+   "testo": "eroismo (incantesimo), 269",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.4,
+    165.1,
+    414.3,
+    171.9
+   ],
+   "size": 5.2,
+   "testo": "Finimenti e veicoli da tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.8,
+    165.4,
+    460.5,
+    172.2
+   ],
+   "size": 5.2,
+   "testo": "277",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    173.4,
+    114.4,
+    180.3
+   ],
+   "size": 6.8,
+   "testo": "danza irresistibile di Otto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    173.3,
+    232.9,
+    180.1
+   ],
+   "size": 5.2,
+   "testo": "Dono dell'offensiva irresistibile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    173.2,
+    297.3,
+    180.0
+   ],
+   "size": 5.2,
+   "testo": "Esempi di prove di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.7,
+    173.1,
+    388.5,
+    179.9
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 229",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    173.5,
+    485.5,
+    180.2
+   ],
+   "size": 5.2,
+   "testo": "Giavellotto, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    181.5,
+    108.6,
+    188.3
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 262",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    181.3,
+    192.5,
+    188.1
+   ],
+   "size": 5.2,
+   "testo": "(talento), 210",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    181.2,
+    324.4,
+    188.0
+   ],
+   "size": 5.2,
+   "testo": "caratteristica (tabella), 11",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.4,
+    181.1,
+    375.8,
+    187.9
+   ],
+   "size": 5.2,
+   "testo": "Fionda, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    181.5,
+    520.2,
+    188.3
+   ],
+   "size": 5.2,
+   "testo": "gigante, capra (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.2,
+    189.4,
+    78.0,
+    196.2
+   ],
+   "size": 5.2,
+   "testo": "Dardo, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    189.3,
+    223.4,
+    196.1
+   ],
+   "size": 5.2,
+   "testo": "Dono dello spirito notturno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    189.2,
+    307.0,
+    195.9
+   ],
+   "size": 5.2,
+   "testo": "Esempi di tiri salvezza",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.6,
+    189.0,
+    428.5,
+    195.9
+   ],
+   "size": 6.8,
+   "testo": "fiotto acido (incantesimo), 273",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.8,
+    189.5,
+    495.0,
+    196.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 346",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    197.4,
+    128.6,
+    204.3
+   ],
+   "size": 6.8,
+   "testo": "dardo difuoco (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    197.3,
+    190.7,
+    204.1
+   ],
+   "size": 5.2,
+   "testo": "(talento), 211",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.9,
+    197.2,
+    287.5,
+    204.0
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 12",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    197.1,
+    417.9,
+    203.9
+   ],
+   "size": 5.2,
+   "testo": "fischietto d a richiamo, 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    197.5,
+    518.3,
+    204.2
+   ],
+   "size": 5.2,
+   "testo": "gigante, cavalluccio marino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    205.6,
+    65.6,
+    212.3
+   ],
+   "size": 5.2,
+   "testo": "263",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    205.4,
+    201.6,
+    212.2
+   ],
+   "size": 5.2,
+   "testo": "Dono del Protettore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    205.3,
+    312.5,
+    212.2
+   ],
+   "size": 6.8,
+   "testo": "esilio (incantesimo), 269",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    205.2,
+    372.3,
+    212.0
+   ],
+   "size": 5.2,
+   "testo": "flauto, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    205.6,
+    520.8,
+    212.4
+   ],
+   "size": 5.2,
+   "testo": "(scheda delle statistiche),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.2,
+    213.5,
+    133.0,
+    220.4
+   ],
+   "size": 6.8,
+   "testo": "dardo incantato (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    213.4,
+    195.6,
+    220.2
+   ],
+   "size": 5.2,
+   "testo": "(supplica), 167",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    213.3,
+    324.3,
+    220.1
+   ],
+   "size": 5.2,
+   "testo": "Esperto di balestre (talento),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    213.2,
+    391.8,
+    219.9
+   ],
+   "size": 5.2,
+   "testo": "flauto di pan, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    213.6,
+    460.4,
+    220.4
+   ],
+   "size": 5.2,
+   "testo": "347",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    221.6,
+    65.7,
+    228.3
+   ],
+   "size": 5.2,
+   "testo": "263",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    221.4,
+    225.6,
+    228.2
+   ],
+   "size": 5.2,
+   "testo": "Dono del recupero (talento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.4,
+    221.3,
+    262.7,
+    228.0
+   ],
+   "size": 5.2,
+   "testo": "205",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    221.3,
+    380.3,
+    228.0
+   ],
+   "size": 5.2,
+   "testo": "fluttuare, 365",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    221.6,
+    518.5,
+    228.4
+   ],
+   "size": 5.2,
+   "testo": "gigante, faina (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.2,
+    229.4,
+    128.8,
+    236.3
+   ],
+   "size": 6.8,
+   "testo": "dardo stregato (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.0,
+    229.4,
+    164.2,
+    236.1
+   ],
+   "size": 5.2,
+   "testo": "210",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    229.3,
+    315.1,
+    236.0
+   ],
+   "size": 5.2,
+   "testo": "Esperto di Sopravvivenza",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.4,
+    229.2,
+    417.2,
+    235.9
+   ],
+   "size": 5.2,
+   "testo": "Focus arcani (tabella), 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.8,
+    229.5,
+    494.5,
+    236.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 349",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    237.5,
+    65.4,
+    244.3
+   ],
+   "size": 5.2,
+   "testo": "263",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    237.3,
+    213.5,
+    244.1
+   ],
+   "size": 5.2,
+   "testo": "Dono del richiamo degli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.8,
+    237.2,
+    316.8,
+    244.0
+   ],
+   "size": 5.2,
+   "testo": "Disciplinato (privilegio",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    237.1,
+    394.6,
+    243.9
+   ],
+   "size": 5.2,
+   "testo": "arcano, focus, 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    237.5,
+    514.5,
+    244.3
+   ],
+   "size": 5.2,
+   "testo": "gigante, granchio (scheda",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.2,
+    245.4,
+    133.7,
+    252.3
+   ],
+   "size": 6.8,
+   "testo": "dardo tracciante (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.8,
+    245.3,
+    225.1,
+    252.1
+   ],
+   "size": 5.2,
+   "testo": "incantesimi (talento) , 211",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    245.2,
+    292.2,
+    252.0
+   ],
+   "size": 5.2,
+   "testo": "di classe), 125",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.9,
+    245.1,
+    393.0,
+    251.9
+   ],
+   "size": 5.2,
+   "testo": "focus arcano, 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.6,
+    245.5,
+    509.1,
+    252.3
+   ],
+   "size": 5.2,
+   "testo": "delle statistiche) , 350",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    253.5,
+    65.6,
+    260.3
+   ],
+   "size": 5.2,
+   "testo": "263",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    253.4,
+    193.7,
+    260.2
+   ],
+   "size": 5.2,
+   "testo": "Dono del viaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    253.3,
+    330.0,
+    260.0
+   ],
+   "size": 5.2,
+   "testo": "Esploratore Esperto (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.9,
+    253.2,
+    414.1,
+    259.9
+   ],
+   "size": 5.2,
+   "testo": "focus da incantatore, 365",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    253.5,
+    497.8,
+    260.3
+   ],
+   "size": 5.2,
+   "testo": "Gigante (lingua), 37",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    261.5,
+    122.4,
+    268.2
+   ],
+   "size": 5.2,
+   "testo": "Deflagrazione Agonizzante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    261.3,
+    230.3,
+    268.1
+   ],
+   "size": 5.2,
+   "testo": "dimensionale (talento), 211",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    261.2,
+    292.4,
+    268.0
+   ],
+   "size": 5.2,
+   "testo": "di classe), 142",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.3,
+    261.2,
+    416.1,
+    268.0
+   ],
+   "size": 5.2,
+   "testo": "incantatore, focus da, 365",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    261.5,
+    521.0,
+    268.3
+   ],
+   "size": 5.2,
+   "testo": "gigante, ragno (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    269.5,
+    97.1,
+    276.3
+   ],
+   "size": 5.2,
+   "testo": "(supplica), 167",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    269.4,
+    216.1,
+    276.1
+   ],
+   "size": 5.2,
+   "testo": "Dono Epico (privilegio di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    269.3,
+    322.7,
+    276.0
+   ],
+   "size": 5.2,
+   "testo": "Esploratore Nato (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.4,
+    269.2,
+    421.8,
+    276.0
+   ],
+   "size": 5.2,
+   "testo": "Focus druidici (tabella), 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.8,
+    269.6,
+    494.4,
+    276.4
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 355",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    277.5,
+    103.8,
+    284.4
+   ],
+   "size": 6.8,
+   "testo": "deflagrazione occulta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    277.3,
+    225.2,
+    284.1
+   ],
+   "size": 5.2,
+   "testo": "classe), 53, 61, 71, 82, 92,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    277.2,
+    328.3,
+    284.1
+   ],
+   "size": 6.8,
+   "testo": "di classe). Vedi Esploratore",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.9,
+    277.2,
+    398.8,
+    284.0
+   ],
+   "size": 5.2,
+   "testo": "druidico, focus, 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    277.6,
+    519.8,
+    284.4
+   ],
+   "size": 5.2,
+   "testo": "gigante, tasso (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    285.6,
+    108.4,
+    292.4
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 263",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.9,
+    285.4,
+    219.6,
+    292.2
+   ],
+   "size": 5.2,
+   "testo": "103, 113, 125, 133, 143,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    285.4,
+    287.5,
+    292.1
+   ],
+   "size": 5.2,
+   "testo": "Esperto, 142",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.9,
+    285.2,
+    397.2,
+    292.0
+   ],
+   "size": 5.2,
+   "testo": "focus druidico, 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.8,
+    285.6,
+    494.8,
+    292.4
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 359",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    293.6,
+    122.7,
+    300.4
+   ],
+   "size": 5.2,
+   "testo": "Deflagrazione Respingente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.9,
+    293.5,
+    177.3,
+    300.3
+   ],
+   "size": 5.2,
+   "testo": "153, 167",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    293.4,
+    291.6,
+    300.2
+   ],
+   "size": 5.2,
+   "testo": "esplorazione, 19",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    293.2,
+    424.9,
+    300.1
+   ],
+   "size": 6.8,
+   "testo": "folata di vento (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    293.6,
+    525.3,
+    300.4
+   ],
+   "size": 5.2,
+   "testo": "gigante (tipo di creatura) , 376",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    301.6,
+    97.0,
+    308.3
+   ],
+   "size": 5.2,
+   "testo": "(supplica), 167",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.5,
+    301.4,
+    232.4,
+    308.2
+   ],
+   "size": 5.2,
+   "testo": "dotazione da avventuriero, 225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    301.3,
+    288.6,
+    308.2
+   ],
+   "size": 6.8,
+   "testo": "esplosione solare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.2,
+    301.2,
+    361.5,
+    308.0
+   ],
+   "size": 5.2,
+   "testo": "274",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    301.5,
+    503.3,
+    308.3
+   ],
+   "size": 5.2,
+   "testo": "Giocare su una griglia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    309.6,
+    94.2,
+    316.4
+   ],
+   "size": 5.2,
+   "testo": "Descrizioni delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.5,
+    309.4,
+    231.2,
+    316.2
+   ],
+   "size": 5.2,
+   "testo": "dotazione da diplomatico, 225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.8,
+    309.3,
+    306.1,
+    316.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 269",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.9,
+    309.3,
+    426.3,
+    316.1
+   ],
+   "size": 5.2,
+   "testo": "folletto (tipo di creatura) , 376",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.3,
+    309.6,
+    489.0,
+    316.4
+   ],
+   "size": 5.2,
+   "testo": "(riquadro) , 25",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    317.6,
+    130.2,
+    324.3
+   ],
+   "size": 5.2,
+   "testo": "caratteristiche (tabella), 10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.5,
+    317.4,
+    229.4,
+    324.2
+   ],
+   "size": 5.2,
+   "testo": "dotazione da esploratore, 225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    317.3,
+    322.6,
+    324.1
+   ],
+   "size": 5.2,
+   "testo": "essere il Dungeon Master, 7",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    317.2,
+    395.8,
+    324.1
+   ],
+   "size": 6.8,
+   "testo": "fondersi nella pietra",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    317.6,
+    504.6,
+    324.4
+   ],
+   "size": 5.2,
+   "testo": "giocatore, essere un, 7",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.2,
+    325.5,
+    125.4,
+    332.4
+   ],
+   "size": 6.8,
+   "testo": "desiderio (incantesimo), 263",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.5,
+    325.4,
+    222.4,
+    332.2
+   ],
+   "size": 5.2,
+   "testo": "dotazione da intrattenitore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    325.3,
+    305.8,
+    332.1
+   ],
+   "size": 5.2,
+   "testo": "essere un giocatore, 7",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.5,
+    325.2,
+    404.6,
+    332.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 274",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    325.5,
+    470.1,
+    332.3
+   ],
+   "size": 5.2,
+   "testo": "gioco, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    333.6,
+    85.5,
+    340.4
+   ],
+   "size": 5.2,
+   "testo": "Destrezza, 10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    333.5,
+    164.1,
+    340.3
+   ],
+   "size": 5.2,
+   "testo": "225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    333.3,
+    322.8,
+    340.2
+   ],
+   "size": 6.8,
+   "testo": "estasiare (incantesimo), 269",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.9,
+    333.3,
+    429.3,
+    340.0
+   ],
+   "size": 5.2,
+   "testo": "Fonte di Ispirazione (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    333.6,
+    489.4,
+    340.4
+   ],
+   "size": 5.2,
+   "testo": "gioco, ritmo di, 8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.1,
+    341.4,
+    104.3,
+    348.3
+   ],
+   "size": 6.8,
+   "testo": "destrierofantomatico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.4,
+    341.4,
+    224.8,
+    348.2
+   ],
+   "size": 5.2,
+   "testo": "dotazione da sacerdote, 225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    341.2,
+    295.8,
+    348.0
+   ],
+   "size": 5.2,
+   "testo": "Etereo, Piano, 344",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.0,
+    341.2,
+    387.6,
+    348.0
+   ],
+   "size": 5.2,
+   "testo": "di classe), 61",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    341.5,
+    496.1,
+    348.3
+   ],
+   "size": 5.2,
+   "testo": "gioco, carte da, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    349.5,
+    108.4,
+    356.3
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 265",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.4,
+    349.4,
+    220.5,
+    356.1
+   ],
+   "size": 5.2,
+   "testo": "dotazione da scassinatore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    349.2,
+    300.7,
+    356.0
+   ],
+   "size": 5.2,
+   "testo": "evitare un attacco di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    349.1,
+    394.5,
+    356.0
+   ],
+   "size": 6.8,
+   "testo": "fonte di luce lunare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    349.5,
+    526.7,
+    356.3
+   ],
+   "size": 5.2,
+   "testo": "Girovago (privilegio di classe) ,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    357.4,
+    117.4,
+    364.2
+   ],
+   "size": 5.2,
+   "testo": "Devia Attacchi (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.8,
+    357.4,
+    163.8,
+    364.2
+   ],
+   "size": 5.2,
+   "testo": "225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.2,
+    357.2,
+    296.2,
+    364.0
+   ],
+   "size": 5.2,
+   "testo": "opportunità, 26",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.5,
+    357.2,
+    404.5,
+    363.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 274",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    357.5,
+    459.8,
+    364.3
+   ],
+   "size": 5.2,
+   "testo": "142",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    365.5,
+    94.9,
+    372.3
+   ],
+   "size": 5.2,
+   "testo": "di classe), 124",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.4,
+    365.4,
+    222.0,
+    372.2
+   ],
+   "size": 5.2,
+   "testo": "dotazione da studioso, 225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    365.2,
+    324.3,
+    372.1
+   ],
+   "size": 6.8,
+   "testo": "evoca animali (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.4,
+    365.2,
+    415.5,
+    371.9
+   ],
+   "size": 5.2,
+   "testo": "Fonte di Magia (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.2,
+    365.5,
+    470.0,
+    372.3
+   ],
+   "size": 5.2,
+   "testo": "gittata, 26",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    373.5,
+    121.5,
+    380.3
+   ],
+   "size": 5.2,
+   "testo": "Deviare Energia (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    373.3,
+    217.4,
+    380.1
+   ],
+   "size": 5.2,
+   "testo": "Dote Affidabile (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    373.2,
+    262.9,
+    380.0
+   ],
+   "size": 5.2,
+   "testo": "270",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.0,
+    373.2,
+    391.2,
+    379.9
+   ],
+   "size": 5.2,
+   "testo": "di classe), 152",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.8,
+    373.5,
+    498.2,
+    380.3
+   ],
+   "size": 5.2,
+   "testo": "incantesimo, 236",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    381.5,
+    94.9,
+    388.2
+   ],
+   "size": 5.2,
+   "testo": "di classe), 125",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.9,
+    381.4,
+    193.6,
+    388.1
+   ],
+   "size": 5.2,
+   "testo": "di classe), 102",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    381.1,
+    327.6,
+    388.0
+   ],
+   "size": 6.8,
+   "testo": "evoca celestiale (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.6,
+    381.1,
+    420.6,
+    388.0
+   ],
+   "size": 6.8,
+   "testo": "forma eterea (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    381.5,
+    527.1,
+    388.3
+   ],
+   "size": 5.2,
+   "testo": "Giuramenti infranti (riquadro),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    389.5,
+    126.5,
+    396.4
+   ],
+   "size": 6.8,
+   "testo": "Deviare Proiettili. Vedi Devia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    389.4,
+    208.6,
+    396.1
+   ],
+   "size": 5.2,
+   "testo": "Draconico (lingua), 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    389.3,
+    262.9,
+    396.0
+   ],
+   "size": 5.2,
+   "testo": "270",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.1,
+    389.2,
+    361.5,
+    396.0
+   ],
+   "size": 5.2,
+   "testo": "274",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    389.5,
+    459.6,
+    396.3
+   ],
+   "size": 5.2,
+   "testo": "133",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    397.5,
+    91.2,
+    404.3
+   ],
+   "size": 5.2,
+   "testo": "Attacchi, 124",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    397.4,
+    189.5,
+    404.2
+   ],
+   "size": 5.2,
+   "testo": "Dragonide, 187",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    397.2,
+    307.0,
+    404.1
+   ],
+   "size": 6.8,
+   "testo": "evoca creature boschive",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.6,
+    397.2,
+    424.1,
+    404.1
+   ],
+   "size": 6.8,
+   "testo": "forma gassosa (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    397.6,
+    512.0,
+    404.4
+   ],
+   "size": 5.2,
+   "testo": "Giuramento degli Antichi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    405.6,
+    111.7,
+    412.4
+   ],
+   "size": 5.2,
+   "testo": "Difesa Senza Armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.5,
+    405.6,
+    224.9,
+    412.3
+   ],
+   "size": 5.2,
+   "testo": "drago (tipo di creatura), 376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.8,
+    405.4,
+    305.8,
+    412.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 270",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.4,
+    405.3,
+    361.1,
+    412.1
+   ],
+   "size": 5.2,
+   "testo": "275",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    405.7,
+    499.4,
+    412.5
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse}, 135",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    413.7,
+    123.8,
+    420.5
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 51,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    413.6,
+    173.7,
+    420.4
+   ],
+   "size": 5.2,
+   "testo": "Drow, 188",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    413.3,
+    290.7,
+    420.2
+   ],
+   "size": 6.8,
+   "testo": "evoca elemento/e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.7,
+    413.4,
+    417.9,
+    420.2
+   ],
+   "size": 5.2,
+   "testo": "Forma Selvatica (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    413.7,
+    514.5,
+    420.5
+   ],
+   "size": 5.2,
+   "testo": "Giuramento di Devozione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    421.6,
+    65.0,
+    428.4
+   ],
+   "size": 5.2,
+   "testo": "123",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    421.5,
+    204.8,
+    428.3
+   ],
+   "size": 5.2,
+   "testo": "Druidico (lingua), 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.8,
+    421.4,
+    305.8,
+    428.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 270",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.0,
+    421.4,
+    388.3,
+    428.1
+   ],
+   "size": 5.2,
+   "testo": "di classe), 80",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    421.7,
+    499.5,
+    428.5
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 136",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    429.6,
+    123.9,
+    436.4
+   ],
+   "size": 5.2,
+   "testo": "Difesa Superiore (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    429.5,
+    229.5,
+    436.3
+   ],
+   "size": 5.2,
+   "testo": "Druidico (privilegio di classe),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    429.3,
+    308.9,
+    436.2
+   ],
+   "size": 6.8,
+   "testo": "evoca elemento/i minori",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.6,
+    429.3,
+    424.3,
+    436.2
+   ],
+   "size": 6.8,
+   "testo": "forme animali (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    429.7,
+    501.9,
+    436.4
+   ],
+   "size": 5.2,
+   "testo": "Giuramento di Gloria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    437.7,
+    94.8,
+    444.5
+   ],
+   "size": 5.2,
+   "testo": "di classe), 125",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    437.6,
+    160.4,
+    444.3
+   ],
+   "size": 5.2,
+   "testo": "80",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.8,
+    437.4,
+    305.2,
+    444.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 270",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.0,
+    437.7,
+    361.5,
+    444.5
+   ],
+   "size": 5.2,
+   "testo": "275",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    437.7,
+    499.5,
+    444.5
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 137",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    445.7,
+    104.1,
+    452.4
+   ],
+   "size": 5.2,
+   "testo": "Difesa (talento), 209",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.4,
+    445.6,
+    207.8,
+    452.3
+   ],
+   "size": 5.2,
+   "testo": "druido (classe), 49, 79",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    445.3,
+    322.3,
+    452.2
+   ],
+   "size": 6.8,
+   "testo": "evocafolletto (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    445.7,
+    417.8,
+    452.5
+   ],
+   "size": 5.2,
+   "testo": "Forme bestiali (tabella) , 81",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    445.8,
+    508.6,
+    452.5
+   ],
+   "size": 5.2,
+   "testo": "Giuramento di Vendetta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    453.6,
+    86.1,
+    460.4
+   ],
+   "size": 5.2,
+   "testo": "Dirigibile, 230",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    453.5,
+    225.4,
+    460.3
+   ],
+   "size": 5.2,
+   "testo": "lista degli incantesimi, 82",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.5,
+    453.4,
+    261.8,
+    460.2
+   ],
+   "size": 5.2,
+   "testo": "271",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.2,
+    453.7,
+    409.7,
+    460.5
+   ],
+   "size": 5.2,
+   "testo": "Fortunato (talento), 201",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    453.7,
+    499.4,
+    460.4
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 138",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.1,
+    461.4,
+    114.0,
+    468.3
+   ],
+   "size": 6.8,
+   "testo": "discofluttuante di Tenser",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.9,
+    461.5,
+    206.8,
+    468.3
+   ],
+   "size": 5.2,
+   "testo": "Privilegi del druido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    461.2,
+    301.8,
+    468.1
+   ],
+   "size": 6.8,
+   "testo": "evoca pioggia di armi",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.5,
+    461.6,
+    369.6,
+    468.4
+   ],
+   "size": 5.2,
+   "testo": "Forza, 10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    461.6,
+    523.0,
+    468.4
+   ],
+   "size": 5.2,
+   "testo": "Giuramento Sacro (privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    469.5,
+    108.4,
+    476.3
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 265",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    161.1,
+    469.4,
+    195.9,
+    476.2
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 80",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.8,
+    469.3,
+    304.8,
+    476.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 271",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.7,
+    469.7,
+    395.4,
+    476.4
+   ],
+   "size": 5.2,
+   "testo": "forza (danno), 376",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.6,
+    469.6,
+    525.3,
+    476.5
+   ],
+   "size": 6.8,
+   "testo": "di classe). Vedi Sottoclasse",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.0,
+    477.5,
+    129.9,
+    484.3
+   ],
+   "size": 5.2,
+   "testo": "disidratazione (pericolo), 365",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    477.4,
+    194.4,
+    484.2
+   ],
+   "size": 5.2,
+   "testo": "sottoclassi, 84",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    477.2,
+    320.4,
+    484.1
+   ],
+   "size": 6.8,
+   "testo": "evoca raffica (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.7,
+    477.6,
+    378.0,
+    484.4
+   ],
+   "size": 5.2,
+   "testo": "forziere, 225",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.6,
+    477.6,
+    497.3,
+    484.4
+   ],
+   "size": 5.2,
+   "testo": "del paladino, 133",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    485.6,
+    118.1,
+    492.3
+   ],
+   "size": 5.2,
+   "testo": "Disimpegno (azione), 15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.2,
+    485.5,
+    225.5,
+    492.2
+   ],
+   "size": 5.2,
+   "testo": "Tratti del druido (tabella},",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    485.3,
+    262.0,
+    492.1
+   ],
+   "size": 5.2,
+   "testo": "271",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.5,
+    485.6,
+    428.7,
+    492.5
+   ],
+   "size": 6.8,
+   "testo": "frantumare (incantesimo), 276",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.3,
+    485.6,
+    492.5,
+    492.5
+   ],
+   "size": 6.8,
+   "testo": "glifo di interdizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.1,
+    493.4,
+    130.1,
+    500.3
+   ],
+   "size": 6.8,
+   "testo": "disintegrazione (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    493.4,
+    169.0,
+    500.1
+   ],
+   "size": 5.2,
+   "testo": "79",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    493.2,
+    308.2,
+    500.1
+   ],
+   "size": 6.8,
+   "testo": "evocazioni istantanee di",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.7,
+    493.6,
+    374.9,
+    500.4
+   ],
+   "size": 5.2,
+   "testo": "freccia, 226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    493.6,
+    502.6,
+    500.4
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 277",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    501.5,
+    65.5,
+    508.3
+   ],
+   "size": 5.2,
+   "testo": "265",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    501.3,
+    227.5,
+    508.1
+   ],
+   "size": 5.2,
+   "testo": "Due Attacchi Extra (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.4,
+    501.2,
+    329.9,
+    508.1
+   ],
+   "size": 6.8,
+   "testo": "Drawmij (incantesimo), 271",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.5,
+    501.6,
+    398.9,
+    508.5
+   ],
+   "size": 6.8,
+   "testo": "freccia acida di Melf",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.3,
+    501.5,
+    527.6,
+    508.4
+   ],
+   "size": 6.8,
+   "testo": "globo cromatico (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.1,
+    509.5,
+    133.6,
+    516.4
+   ],
+   "size": 6.8,
+   "testo": "disorientare (incantesimo), 266",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.4,
+    509.4,
+    190.8,
+    516.2
+   ],
+   "size": 5.2,
+   "testo": "di classe) , 92",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    509.3,
+    300.8,
+    516.1
+   ],
+   "size": 5.2,
+   "testo": "Fabbisogno d'acqua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    509.6,
+    404.8,
+    516.4
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 276",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.5,
+    509.6,
+    460.5,
+    516.4
+   ],
+   "size": 5.2,
+   "testo": "278",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.1,
+    517.5,
+    109.6,
+    524.4
+   ],
+   "size": 6.8,
+   "testo": "dissolvi il bene e il male",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    517.5,
+    227.3,
+    524.2
+   ],
+   "size": 5.2,
+   "testo": "Duellante difensivo (talento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.2,
+    517.4,
+    321.6,
+    524.2
+   ],
+   "size": 5.2,
+   "testo": "giornaliero (tabella), 365",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.5,
+    517.7,
+    388.8,
+    524.6
+   ],
+   "size": 6.8,
+   "testo": "frecciafolgorante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.3,
+    517.6,
+    502.9,
+    524.5
+   ],
+   "size": 6.8,
+   "testo": "globo di invulnerabilità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    525.6,
+    108.4,
+    532.4
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 266",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    525.5,
+    163.8,
+    532.3
+   ],
+   "size": 5.2,
+   "testo": "205",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    525.4,
+    329.6,
+    532.2
+   ],
+   "size": 5.2,
+   "testo": "Fabbisogno di cibo giornaliero",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.3,
+    525.7,
+    404.0,
+    532.5
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 276",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    525.7,
+    502.5,
+    532.5
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 279",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.0,
+    533.5,
+    127.1,
+    540.4
+   ],
+   "size": 6.8,
+   "testo": "dissolvi magie (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    533.4,
+    208.8,
+    540.2
+   ],
+   "size": 5.2,
+   "testo": "Duellare (talento), 209",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    533.4,
+    289.1,
+    540.1
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 368",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.7,
+    533.7,
+    399.7,
+    540.5
+   ],
+   "size": 5.2,
+   "testo": "freddo (danno), 376",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.9,
+    533.6,
+    514.6,
+    540.4
+   ],
+   "size": 5.2,
+   "testo": "glossario delle regole, 360",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    541.6,
+    65.6,
+    548.4
+   ],
+   "size": 5.2,
+   "testo": "266",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.4,
+    541.4,
+    231.7,
+    548.3
+   ],
+   "size": 6.8,
+   "testo": "duello obbligato (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    241.7,
+    541.3,
+    325.4,
+    548.2
+   ],
+   "size": 6.8,
+   "testo": "fabbricare (incantesimo), 271",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    541.7,
+    373.6,
+    548.5
+   ],
+   "size": 5.2,
+   "testo": "Frusta, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    541.6,
+    506.9,
+    548.4
+   ],
+   "size": 5.2,
+   "testo": "Gnomesco (lingua) , 37",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.4,
+    549.5,
+    111.3,
+    556.3
+   ],
+   "size": 5.2,
+   "testo": "Distruggere Non Morti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    549.4,
+    163.9,
+    556.2
+   ],
+   "size": 5.2,
+   "testo": "268",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    549.3,
+    330.0,
+    556.1
+   ],
+   "size": 5.2,
+   "testo": "Fabbricazione rapida (tabella),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.5,
+    549.6,
+    423.4,
+    556.5
+   ],
+   "size": 6.8,
+   "testo": "frusta dispine (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    549.6,
+    476.5,
+    556.4
+   ],
+   "size": 5.2,
+   "testo": "Gnomo, 190",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    557.5,
+    126.8,
+    564.4
+   ],
+   "size": 6.8,
+   "testo": "(privilegio di classe). Vedi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.4,
+    557.4,
+    182.8,
+    564.2
+   ],
+   "size": 5.2,
+   "testo": "dulcimer, 221",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.1,
+    557.3,
+    262.1,
+    564.1
+   ],
+   "size": 5.2,
+   "testo": "201",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.0,
+    557.7,
+    361.5,
+    564.4
+   ],
+   "size": 5.2,
+   "testo": "276",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    557.7,
+    512.3,
+    564.4
+   ],
+   "size": 5.2,
+   "testo": "Gnomo delle foreste, 190",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    565.5,
+    122.9,
+    572.3
+   ],
+   "size": 5.2,
+   "testo": "Bruciare i Non Morti, 71",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    565.4,
+    205.9,
+    572.2
+   ],
+   "size": 5.2,
+   "testo": "Dungeon Master, 4, 7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    565.3,
+    308.4,
+    572.1
+   ],
+   "size": 5.2,
+   "testo": "Factotum (privilegio di",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.7,
+    565.7,
+    403.0,
+    572.5
+   ],
+   "size": 5.2,
+   "testo": "fulmine (danno), 376",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    565.6,
+    508.0,
+    572.4
+   ],
+   "size": 5.2,
+   "testo": "Gnomo delle rocce, 190",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.0,
+    573.4,
+    132.7,
+    580.3
+   ],
+   "size": 6.8,
+   "testo": "dito della morte (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    573.4,
+    206.7,
+    580.2
+   ],
+   "size": 5.2,
+   "testo": "effetti simultanei, 365",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.1,
+    573.3,
+    281.8,
+    580.1
+   ],
+   "size": 5.2,
+   "testo": "classe), 60",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.4,
+    573.6,
+    418.8,
+    580.5
+   ],
+   "size": 6.8,
+   "testo": "fulmine (incantesimo), 276",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    573.6,
+    495.0,
+    580.3
+   ],
+   "size": 5.2,
+   "testo": "Goblin (lingua), 37",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    581.5,
+    65.5,
+    588.2
+   ],
+   "size": 5.2,
+   "testo": "267",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    581.4,
+    199.4,
+    588.2
+   ],
+   "size": 5.2,
+   "testo": "effetto magico, 365",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    581.3,
+    319.3,
+    588.1
+   ],
+   "size": 5.2,
+   "testo": "faina gigante (scheda delle",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.9,
+    581.6,
+    412.7,
+    588.4
+   ],
+   "size": 5.2,
+   "testo": "Fuoco, Piano Elementale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    581.5,
+    474.8,
+    588.3
+   ],
+   "size": 5.2,
+   "testo": "Goliath, 191",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.4,
+    589.4,
+    129.0,
+    596.2
+   ],
+   "size": 5.2,
+   "testo": "Divinatore (sottoclasse), 119",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    589.3,
+    213.8,
+    596.1
+   ],
+   "size": 5.2,
+   "testo": "effettuare u n attacco, 25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.2,
+    589.3,
+    297.7,
+    596.0
+   ],
+   "size": 5.2,
+   "testo": "statistiche) , 349",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.7,
+    589.5,
+    373.1,
+    596.3
+   ],
+   "size": 5.2,
+   "testo": "del, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    589.6,
+    498.2,
+    596.4
+   ],
+   "size": 5.2,
+   "testo": "gorilla (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.0,
+    597.4,
+    132.4,
+    604.3
+   ],
+   "size": 6.8,
+   "testo": "divinazione (incantesimo), 267",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    597.3,
+    210.5,
+    604.1
+   ],
+   "size": 5.2,
+   "testo": "effettuare un attacco di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    597.3,
+    297.2,
+    604.0
+   ],
+   "size": 5.2,
+   "testo": "faina (scheda delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.7,
+    597.6,
+    397.2,
+    604.4
+   ],
+   "size": 5.2,
+   "testo": "fuoco (danno), 376",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.7,
+    597.6,
+    495.0,
+    604.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 349",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.0,
+    605.4,
+    132.7,
+    612.3
+   ],
+   "size": 6.8,
+   "testo": "dominare bestie (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.3,
+    605.3,
+    197.4,
+    612.1
+   ],
+   "size": 5.2,
+   "testo": "opportunità, 26",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.2,
+    605.2,
+    297.2,
+    612.0
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 348",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.1,
+    605.5,
+    414.9,
+    612.3
+   ],
+   "size": 5.2,
+   "testo": "fuoco dell'alchimista, 226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    605.5,
+    508.7,
+    612.3
+   ],
+   "size": 5.2,
+   "testo": "grado di sfida (GS), 365",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    613.5,
+    65.8,
+    620.3
+   ],
+   "size": 5.2,
+   "testo": "267",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    613.4,
+    206.8,
+    620.2
+   ],
+   "size": 5.2,
+   "testo": "elefante (scheda delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    613.3,
+    279.5,
+    620.1
+   ],
+   "size": 5.2,
+   "testo": "Falcetto, 215",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.4,
+    613.6,
+    421.8,
+    620.5
+   ],
+   "size": 6.8,
+   "testo": "fuorviare (incantesimo), 276",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    613.6,
+    527.5,
+    620.4
+   ],
+   "size": 5.2,
+   "testo": "granchio gigante (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.0,
+    621.4,
+    91.7,
+    628.3
+   ],
+   "size": 6.8,
+   "testo": "dominare mostri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.4,
+    621.4,
+    197.9,
+    628.2
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 348",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    621.3,
+    280.7,
+    628.1
+   ],
+   "size": 5.2,
+   "testo": "Falcione, 215",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    621.7,
+    418.5,
+    628.5
+   ],
+   "size": 5.2,
+   "testo": "Furfante (sottoclasse) , 105",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.6,
+    621.6,
+    494.1,
+    628.4
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 350",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    629.6,
+    108.5,
+    636.3
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 267",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    629.5,
+    197.0,
+    636.3
+   ],
+   "size": 5.2,
+   "testo": "eleganti, abiti, 222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    629.4,
+    330.3,
+    636.2
+   ],
+   "size": 5.2,
+   "testo": "falco (scheda delle statistiche),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    629.7,
+    420.3,
+    636.5
+   ],
+   "size": 5.2,
+   "testo": "Furia Elementale M igliorata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    629.7,
+    505.3,
+    636.5
+   ],
+   "size": 5.2,
+   "testo": "granchio (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.0,
+    637.5,
+    94.8,
+    644.4
+   ],
+   "size": 6.8,
+   "testo": "dominare persone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    637.6,
+    207.3,
+    644.3
+   ],
+   "size": 5.2,
+   "testo": "Elementale, Caos, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.5,
+    637.4,
+    262.2,
+    644.2
+   ],
+   "size": 5.2,
+   "testo": "349",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.3,
+    637.8,
+    417.4,
+    644.6
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 81",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.6,
+    637.8,
+    494.5,
+    644.5
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 350",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    645.6,
+    108.2,
+    652.4
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 267",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    645.5,
+    226.8,
+    652.2
+   ],
+   "size": 5.2,
+   "testo": "elementale (tipo di creatura),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    241.7,
+    645.4,
+    326.3,
+    652.3
+   ],
+   "size": 6.8,
+   "testo": "fame di Hadar (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    645.7,
+    420.1,
+    652.4
+   ],
+   "size": 5.2,
+   "testo": "Furia Elementale (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    645.7,
+    473.0,
+    652.5
+   ],
+   "size": 5.2,
+   "testo": "Grande, 25",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.4,
+    653.6,
+    107.7,
+    660.4
+   ],
+   "size": 5.2,
+   "testo": "Dominio della Guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    653.5,
+    164.0,
+    660.2
+   ],
+   "size": 5.2,
+   "testo": "376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.2,
+    653.3,
+    262.7,
+    660.1
+   ],
+   "size": 5.2,
+   "testo": "272",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.7,
+    653.6,
+    387.4,
+    660.4
+   ],
+   "size": 5.2,
+   "testo": "di classe), 81",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    653.7,
+    477.8,
+    660.5
+   ],
+   "size": 5.2,
+   "testo": "gregario, 231",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    661.5,
+    101.8,
+    668.3
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 73",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    661.4,
+    227.2,
+    668.3
+   ],
+   "size": 6.8,
+   "testo": "elementalismo (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    661.3,
+    322.8,
+    668.2
+   ],
+   "size": 6.8,
+   "testo": "famiglia. Vedi trovafamiglia,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    661.7,
+    400.5,
+    668.5
+   ],
+   "size": 5.2,
+   "testo": "Furtività (abilità), 14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    661.7,
+    500.6,
+    668.5
+   ],
+   "size": 5.2,
+   "testo": "Gregari (tabella), 231",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    669.5,
+    101.8,
+    676.3
+   ],
+   "size": 5.2,
+   "testo": "Dominio della Luce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.4,
+    669.4,
+    163.8,
+    676.2
+   ],
+   "size": 5.2,
+   "testo": "269",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    669.3,
+    262.5,
+    676.1
+   ],
+   "size": 5.2,
+   "testo": "340",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.3,
+    669.7,
+    426.1,
+    676.6
+   ],
+   "size": 6.8,
+   "testo": "gabbia diforza (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.0,
+    669.6,
+    502.1,
+    676.4
+   ],
+   "size": 5.2,
+   "testo": "gruppo bilanciato, un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    677.6,
+    101.8,
+    684.4
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 75",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    677.5,
+    195.4,
+    684.3
+   ],
+   "size": 5.2,
+   "testo": "Elfico (lingua) , 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    677.4,
+    276.6,
+    684.2
+   ],
+   "size": 5.2,
+   "testo": "faretra, 225",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.8,
+    677.7,
+    361.7,
+    684.5
+   ],
+   "size": 5.2,
+   "testo": "277",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    677.7,
+    488.9,
+    684.5
+   ],
+   "size": 5.2,
+   "testo": "(riquadro), 36",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    685.5,
+    99.4,
+    692.3
+   ],
+   "size": 5.2,
+   "testo": "Dominio della Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    685.4,
+    169.5,
+    692.2
+   ],
+   "size": 5.2,
+   "testo": "Elfo, 188",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    241.7,
+    685.3,
+    324.1,
+    692.2
+   ],
+   "size": 6.8,
+   "testo": "faretra rapida (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.7,
+    685.6,
+    373.1,
+    692.4
+   ],
+   "size": 5.2,
+   "testo": "Galea, 230",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    685.6,
+    517.1,
+    692.4
+   ],
+   "size": 5.2,
+   "testo": "Guardia (background), 181",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    693.5,
+    102.0,
+    700.3
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 77",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    693.4,
+    181.7,
+    700.2
+   ],
+   "size": 5.2,
+   "testo": "Elfo alto, 188",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.2,
+    693.3,
+    262.7,
+    700.0
+   ],
+   "size": 5.2,
+   "testo": "272",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.7,
+    693.7,
+    421.0,
+    700.4
+   ],
+   "size": 5.2,
+   "testo": "galoppo, cavallo da (scheda",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.3,
+    693.5,
+    492.1,
+    700.4
+   ],
+   "size": 6.8,
+   "testo": "guardiani spirituali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    701.4,
+    108.8,
+    708.2
+   ],
+   "size": 5.2,
+   "testo": "Dominio dell'Inganno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    701.3,
+    200.0,
+    708.1
+   ],
+   "size": 5.2,
+   "testo": "Elfo dei boschi, 188",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    241.7,
+    701.2,
+    330.1,
+    708.1
+   ],
+   "size": 6.8,
+   "testo": "faro di speranza (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.7,
+    701.6,
+    411.0,
+    708.4
+   ],
+   "size": 5.2,
+   "testo": "delle statistiche), 347",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    701.6,
+    503.0,
+    708.4
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 279",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    709.5,
+    101.9,
+    716.3
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 74",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    709.4,
+    229.0,
+    716.2
+   ],
+   "size": 5.2,
+   "testo": "Elusione (privilegio di classe),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.2,
+    709.3,
+    262.5,
+    716.0
+   ],
+   "size": 5.2,
+   "testo": "273",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.7,
+    709.6,
+    396.6,
+    716.4
+   ],
+   "size": 5.2,
+   "testo": "gatto (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.2,
+    709.5,
+    495.5,
+    716.4
+   ],
+   "size": 6.8,
+   "testo": "guardiano dellafede",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    717.4,
+    176.8,
+    724.2
+   ],
+   "size": 5.2,
+   "testo": "102, 125",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    717.3,
+    293.0,
+    724.1
+   ],
+   "size": 5.2,
+   "testo": "fasce di gioco, 43",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.8,
+    717.6,
+    396.2,
+    724.4
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 349",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    717.6,
+    503.1,
+    724.4
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 279",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

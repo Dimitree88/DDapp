@@ -1,0 +1,1008 @@
+{
+ "pagina_pdf": 234,
+ "pagina_stampata": 231,
+ "dimensioni": [
+  588.8,
+  782.6
+ ],
+ "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / F31",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    22.3,
+    394.9,
+    26.4,
+    399.0
+   ],
+   "size": 2.8,
+   "testo": "•",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    380.5,
+    176.9,
+    393.6
+   ],
+   "size": 9.7,
+   "testo": "VITTO E ALLOGGIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    397.0,
+    271.4,
+    407.6
+   ],
+   "size": 8.8,
+   "testo": "La tabella Vitto e alloggio indica i prezzi delle pietanze",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    408.1,
+    265.4,
+    418.6
+   ],
+   "size": 8.8,
+   "testo": "e del pernottamento per una singola notte. I prezzi di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    419.1,
+    272.6,
+    429.7
+   ],
+   "size": 8.8,
+   "testo": "soggiorno quotidiani e dei pasti sono inclusi nelle spese",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    430.1,
+    187.5,
+    440.6
+   ],
+   "size": 8.8,
+   "testo": "dello stile di vita del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    452.7,
+    151.5,
+    463.4
+   ],
+   "size": 10.6,
+   "testo": "VITTO E ALLOGGIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    468.5,
+    92.9,
+    477.7
+   ],
+   "size": 8.2,
+   "testo": "Oggetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.3,
+    468.7,
+    164.4,
+    477.9
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.9,
+    468.7,
+    210.0,
+    477.9
+   ],
+   "size": 8.2,
+   "testo": "Oggetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.5,
+    468.8,
+    281.8,
+    478.0
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    482.4,
+    116.3,
+    492.1
+   ],
+   "size": 8.4,
+   "testo": "Birra (boccale)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.6,
+    482.4,
+    166.2,
+    492.0
+   ],
+   "size": 8.4,
+   "testo": "4 mr",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    483.0,
+    199.4,
+    492.2
+   ],
+   "size": 9.2,
+   "testo": "Pasto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    497.1,
+    132.0,
+    506.7
+   ],
+   "size": 8.4,
+   "testo": "Fetta di formaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    497.2,
+    165.2,
+    506.8
+   ],
+   "size": 8.4,
+   "testo": "1 ma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.8,
+    497.2,
+    222.7,
+    506.9
+   ],
+   "size": 8.4,
+   "testo": "Squallido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    263.5,
+    497.2,
+    283.6,
+    506.9
+   ],
+   "size": 8.4,
+   "testo": "1 mr",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    512.2,
+    132.4,
+    521.4
+   ],
+   "size": 9.2,
+   "testo": "Locanda (al giorno)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.2,
+    511.8,
+    213.0,
+    521.4
+   ],
+   "size": 8.4,
+   "testo": "Povero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    263.3,
+    511.8,
+    283.6,
+    521.5
+   ],
+   "size": 8.4,
+   "testo": "2 mr",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.9,
+    526.3,
+    105.4,
+    535.9
+   ],
+   "size": 8.4,
+   "testo": "Squallido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    146.1,
+    526.3,
+    166.2,
+    535.9
+   ],
+   "size": 8.4,
+   "testo": "7 mr",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.2,
+    526.4,
+    220.3,
+    536.1
+   ],
+   "size": 8.4,
+   "testo": "Modesto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    262.2,
+    526.5,
+    282.9,
+    536.2
+   ],
+   "size": 8.4,
+   "testo": "1 ma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.3,
+    540.8,
+    95.8,
+    550.5
+   ],
+   "size": 8.4,
+   "testo": "Povero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    540.9,
+    165.8,
+    550.6
+   ],
+   "size": 8.4,
+   "testo": "1 ma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.4,
+    541.0,
+    211.1,
+    550.6
+   ],
+   "size": 8.4,
+   "testo": "Agiato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    261.9,
+    541.1,
+    283.0,
+    550.7
+   ],
+   "size": 8.4,
+   "testo": "2 ma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.3,
+    555.3,
+    103.8,
+    565.0
+   ],
+   "size": 8.4,
+   "testo": "Modesto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    555.4,
+    165.8,
+    565.1
+   ],
+   "size": 8.4,
+   "testo": "5 ma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.2,
+    555.5,
+    207.1,
+    565.1
+   ],
+   "size": 8.4,
+   "testo": "Ricco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    262.0,
+    555.6,
+    282.9,
+    565.3
+   ],
+   "size": 8.4,
+   "testo": "3 ma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.5,
+    569.9,
+    94.1,
+    579.5
+   ],
+   "size": 8.4,
+   "testo": "Agiato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.5,
+    570.0,
+    165.8,
+    579.6
+   ],
+   "size": 8.4,
+   "testo": "8 ma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.4,
+    570.1,
+    235.3,
+    579.7
+   ],
+   "size": 8.4,
+   "testo": "Aristocratico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    261.8,
+    570.2,
+    282.3,
+    579.9
+   ],
+   "size": 8.4,
+   "testo": "6 ma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.3,
+    584.5,
+    89.9,
+    594.1
+   ],
+   "size": 8.4,
+   "testo": "Ricco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.0,
+    584.6,
+    165.6,
+    594.3
+   ],
+   "size": 8.4,
+   "testo": "2 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.9,
+    585.2,
+    233.7,
+    594.4
+   ],
+   "size": 9.2,
+   "testo": "Vino (bottiglia)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.5,
+    599.1,
+    118.0,
+    608.7
+   ],
+   "size": 8.4,
+   "testo": "Aristocratico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    599.1,
+    165.1,
+    608.7
+   ],
+   "size": 8.4,
+   "testo": "4 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.6,
+    599.2,
+    219.6,
+    608.8
+   ],
+   "size": 8.4,
+   "testo": "Comune",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    261.9,
+    599.3,
+    283.0,
+    608.9
+   ],
+   "size": 8.4,
+   "testo": "2 ma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.3,
+    613.8,
+    95.7,
+    623.4
+   ],
+   "size": 8.4,
+   "testo": "Pagnotta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    146.0,
+    613.8,
+    166.4,
+    623.5
+   ],
+   "size": 8.4,
+   "testo": "2 mr",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.2,
+    614.0,
+    217.9,
+    623.6
+   ],
+   "size": 8.4,
+   "testo": "Pregiato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    257.1,
+    614.0,
+    283.0,
+    623.6
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    637.1,
+    126.7,
+    650.2
+   ],
+   "size": 9.7,
+   "testo": "VIAGGIARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    653.8,
+    268.6,
+    664.3
+   ],
+   "size": 8.8,
+   "testo": "I conducenti o gli equipaggi assunti per condurre i pas­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    664.7,
+    279.6,
+    675.3
+   ],
+   "size": 8.8,
+   "testo": "seggeri a destinazione addebitano le tariffe elencate nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    675.7,
+    262.2,
+    686.3
+   ],
+   "size": 8.8,
+   "testo": "tabella Viaggiare, più eventuali pedaggi o altre spese",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    686.7,
+    101.0,
+    697.3
+   ],
+   "size": 8.8,
+   "testo": "aggiuntive.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    378.2,
+    364.9,
+    388.9
+   ],
+   "size": 10.6,
+   "testo": "VIAGGIARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    394.0,
+    344.6,
+    403.3
+   ],
+   "size": 8.2,
+   "testo": "Servizio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    408.1,
+    381.8,
+    417.7
+   ],
+   "size": 8.4,
+   "testo": "Passaggio in nave",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    422.7,
+    433.1,
+    432.4
+   ],
+   "size": 8.4,
+   "testo": "Pedaggio stradale o di ingresso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    437.2,
+    449.6,
+    446.9
+   ],
+   "size": 8.4,
+   "testo": "Viaggio in carrozza dentro una città",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    451.8,
+    435.6,
+    461.4
+   ],
+   "size": 8.4,
+   "testo": "Viaggio in carrozza tra cittadine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    478.7,
+    367.4,
+    491.8
+   ],
+   "size": 9.7,
+   "testo": "GREGARI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    462.2,
+    394.2,
+    485.9,
+    403.4
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    462.4,
+    408.1,
+    525.1,
+    417.8
+   ],
+   "size": 8.4,
+   "testo": "1 ma per 1,5 km",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    462.4,
+    422.7,
+    481.9,
+    432.3
+   ],
+   "size": 8.4,
+   "testo": "1 mr",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    462.3,
+    437.2,
+    523.8,
+    446.9
+   ],
+   "size": 8.4,
+   "testo": "1 mr per 1,5 km",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    462.2,
+    451.8,
+    523.8,
+    461.4
+   ],
+   "size": 8.4,
+   "testo": "3 mr per 1,5 km",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    495.2,
+    510.7,
+    505.8
+   ],
+   "size": 8.8,
+   "testo": "I gregari abili includono chiunque venga ingaggiato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    506.4,
+    519.7,
+    517.0
+   ],
+   "size": 8.8,
+   "testo": "per sbrigare un servizio che richieda una competenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    517.3,
+    518.7,
+    527.9
+   ],
+   "size": 8.8,
+   "testo": "(in un'arma, in uno strumento o in un'abilità): un mer­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    528.3,
+    509.8,
+    538.9
+   ],
+   "size": 8.8,
+   "testo": "cenario, un artigiano, uno scriba e così via. La paga",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    539.4,
+    522.2,
+    549.9
+   ],
+   "size": 8.8,
+   "testo": "indicata nella tabella Gregari è quella minima, ma i più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    550.3,
+    533.5,
+    560.9
+   ],
+   "size": 8.8,
+   "testo": "esperti potrebbero esigere una tariffa superiore. I gregari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    561.3,
+    527.6,
+    571.9
+   ],
+   "size": 8.8,
+   "testo": "inesperti vengono assunti per lavori che non richiedono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    572.3,
+    520.7,
+    582.9
+   ],
+   "size": 8.8,
+   "testo": "particolare maestria, come ad esempio il manovale e il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    583.2,
+    346.2,
+    593.8
+   ],
+   "size": 8.8,
+   "testo": "facchino.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    606.0,
+    354.7,
+    616.7
+   ],
+   "size": 10.6,
+   "testo": "GREGARI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    622.0,
+    344.4,
+    631.2
+   ],
+   "size": 8.2,
+   "testo": "Servizio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    635.9,
+    367.9,
+    645.5
+   ],
+   "size": 8.4,
+   "testo": "Gregario abile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    650.5,
+    385.6,
+    660.2
+   ],
+   "size": 8.4,
+   "testo": "Gregario inesperto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    665.0,
+    360.2,
+    674.7
+   ],
+   "size": 8.4,
+   "testo": "Messaggero",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.7,
+    622.1,
+    486.0,
+    631.3
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.8,
+    636.0,
+    519.2,
+    645.6
+   ],
+   "size": 8.4,
+   "testo": "2 mo al giorno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    461.8,
+    650.6,
+    518.6,
+    660.2
+   ],
+   "size": 8.4,
+   "testo": "2 ma al giorno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    461.8,
+    665.1,
+    523.8,
+    674.7
+   ],
+   "size": 8.4,
+   "testo": "2 mr per 1,5 km",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

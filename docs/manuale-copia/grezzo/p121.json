@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 121,
+ "pagina_stampata": 118,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   -1,
+   287,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    302.7,
+    38.4,
+    502.2,
+    55.0
+   ],
+   "size": 12.9,
+   "testo": "SOTTOCLASSI DEL MAGO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    56.7,
+    518.8,
+    67.3
+   ],
+   "size": 8.8,
+   "testo": "Le sottoclassi del mago sono specializzazioni che confe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    67.7,
+    519.7,
+    78.2
+   ],
+   "size": 8.8,
+   "testo": "riscono dei privilegi a determinati livelli da mago, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    78.7,
+    526.0,
+    89.2
+   ],
+   "size": 8.8,
+   "testo": "specificato in ciascuna di esse. In questa sezione vengono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    89.6,
+    521.0,
+    100.2
+   ],
+   "size": 8.8,
+   "testo": "descritte le seguenti sottoclassi: Abiuratore, Divinatore,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    100.7,
+    400.7,
+    111.3
+   ],
+   "size": 8.8,
+   "testo": "Invocatore e Illusionista.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    120.8,
+    383.9,
+    133.9
+   ],
+   "size": 9.7,
+   "testo": "ABIURATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    138.3,
+    433.5,
+    147.7
+   ],
+   "size": 8.6,
+   "testo": "Difendiglialleatie sgomina inemici",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    151.8,
+    524.3,
+    162.4
+   ],
+   "size": 8.8,
+   "testo": "Il mago studia la magia concentrandosi sugli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    162.9,
+    531.8,
+    173.5
+   ],
+   "size": 8.8,
+   "testo": "che bloccano, esiliano o proteggono, interrompendo effetti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    174.0,
+    519.3,
+    184.6
+   ],
+   "size": 8.8,
+   "testo": "nocivi, sgominando entità malvagie e proteggendo i più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    184.9,
+    527.2,
+    195.5
+   ],
+   "size": 8.8,
+   "testo": "deboli. L'abiuratore viene chiamato quando ci sono spiriti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    196.0,
+    514.5,
+    206.6
+   ],
+   "size": 8.8,
+   "testo": "malevoli da esorcizzare, luoghi da proteggere da intru­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    207.1,
+    515.3,
+    217.7
+   ],
+   "size": 8.8,
+   "testo": "sioni magiche e portali verso altri piani di esistenza da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    218.0,
+    526.1,
+    228.6
+   ],
+   "size": 8.8,
+   "testo": "chiudere. Gli abiuratori sono preziosi nei gruppi di avven­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    229.0,
+    514.2,
+    239.5
+   ],
+   "size": 8.8,
+   "testo": "turieri, poiché forniscono protezione contro un'ampia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.6,
+    240.0,
+    450.0,
+    250.6
+   ],
+   "size": 8.8,
+   "testo": "gamma di magie ostili e altri attacchi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.0,
+    260.5,
+    487.3,
+    271.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: ABIURATORE SAPIENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.0,
+    271.9,
+    531.2,
+    282.5
+   ],
+   "size": 8.8,
+   "testo": "Scegli due incantesimi da mago della scuola di abiurazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    280.7,
+    527.6,
+    293.5
+   ],
+   "size": 8.8,
+   "testo": "che non siano di livello superiore al 2°, e aggiungili gratui­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    294.0,
+    473.0,
+    304.5
+   ],
+   "size": 8.8,
+   "testo": "tamente al libro degli incantesimi del mago.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    305.0,
+    516.3,
+    315.5
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ogni volta che il personaggio ottiene accesso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    315.9,
+    513.3,
+    326.5
+   ],
+   "size": 8.8,
+   "testo": "a un nuovo livello di slot incantesimo in questa classe,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    326.9,
+    527.5,
+    337.5
+   ],
+   "size": 8.8,
+   "testo": "puoi aggiungere gratuitamente al libro un ulteriore incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    337.8,
+    528.9,
+    348.4
+   ],
+   "size": 8.8,
+   "testo": "tesimo da mago della scuola di abiurazione. L'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    348.8,
+    516.9,
+    359.4
+   ],
+   "size": 8.8,
+   "testo": "scelto deve essere di un livello di cui possiede degli slot",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    359.8,
+    353.6,
+    370.3
+   ],
+   "size": 8.8,
+   "testo": "incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.0,
+    380.2,
+    486.9,
+    391.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INTERDIZIONE ARCANA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    391.6,
+    532.3,
+    402.2
+   ],
+   "size": 8.8,
+   "testo": "Il mago è in grado di plasmare la magia intorno a sé a scopi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    402.8,
+    522.9,
+    413.3
+   ],
+   "size": 8.8,
+   "testo": "protettivi. Quando lancia un incantesimo di abiurazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    413.7,
+    512.1,
+    424.3
+   ],
+   "size": 8.8,
+   "testo": "con uno slot incantesimo, può allo stesso tempo utiliz­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    424.7,
+    522.9,
+    435.3
+   ],
+   "size": 8.8,
+   "testo": "zarne un filamento per creare un'interdizione magica su",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    435.8,
+    521.6,
+    446.3
+   ],
+   "size": 8.8,
+   "testo": "di sé che dura fino al completamento di un riposo lungo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    446.7,
+    513.9,
+    457.2
+   ],
+   "size": 8.8,
+   "testo": "I punti ferita massimi dell'interdizione corrispondono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    457.7,
+    515.0,
+    468.3
+   ],
+   "size": 8.8,
+   "testo": "al doppio del livello da mago del personaggio più il suo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    468.7,
+    508.3,
+    479.2
+   ],
+   "size": 8.8,
+   "testo": "modificatore di Intelligenza. Ogni volta che vengono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    479.7,
+    527.3,
+    490.2
+   ],
+   "size": 8.8,
+   "testo": "inflitti danni al mago, sarà l'interdizione a subirli al posto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    490.7,
+    514.8,
+    501.3
+   ],
+   "size": 8.8,
+   "testo": "suo. Inoltre, se il personaggio possiede delle resistenze",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    501.7,
+    520.8,
+    512.3
+   ],
+   "size": 8.8,
+   "testo": "o vulnerabilità, devono essere applicate prima di ridurre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    512.7,
+    513.1,
+    523.3
+   ],
+   "size": 8.8,
+   "testo": "i punti ferita dell'interdizione. Se questa viene ridotta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    523.8,
+    518.9,
+    534.4
+   ],
+   "size": 8.8,
+   "testo": "a 0 punti ferita, sarà il mago a subire i danni rimanenti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    534.8,
+    525.4,
+    545.3
+   ],
+   "size": 8.8,
+   "testo": "L'interdizione non può assorbire danni finché è a 0 punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    545.7,
+    430.2,
+    556.3
+   ],
+   "size": 8.8,
+   "testo": "ferita, ma la sua magia permane.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    556.8,
+    523.8,
+    567.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il mago lancia un incantesimo di abiura­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    567.7,
+    530.9,
+    578.3
+   ],
+   "size": 8.8,
+   "testo": "zione con uno slot incantesimo, l'interdizione recupera un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    578.6,
+    525.2,
+    589.2
+   ],
+   "size": 8.8,
+   "testo": "numero di punti ferita pari al doppio del livello dello slot.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    589.7,
+    520.6,
+    600.2
+   ],
+   "size": 8.8,
+   "testo": "In alternativa, come azione bonus il mago può spendere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    600.7,
+    520.9,
+    611.3
+   ],
+   "size": 8.8,
+   "testo": "uno slot incantesimo per far recuperare all'interdizione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    611.7,
+    519.6,
+    622.3
+   ],
+   "size": 8.8,
+   "testo": "un numero di punti ferita pari al doppio del livello dello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    622.8,
+    359.5,
+    633.4
+   ],
+   "size": 8.8,
+   "testo": "slot utilizzato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    633.9,
+    517.7,
+    644.4
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver creato un'interdizione, il personaggio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    644.8,
+    514.9,
+    655.4
+   ],
+   "size": 8.8,
+   "testo": "può ripetere quest'azione prima di aver completato un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    655.8,
+    354.9,
+    666.4
+   ],
+   "size": 8.8,
+   "testo": "riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    676.2,
+    507.4,
+    687.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: INTERDIZIONE PROIETTATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    687.6,
+    521.9,
+    698.2
+   ],
+   "size": 8.8,
+   "testo": "Se una creatura entro 9 metri dal mago e che sia nel suo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    698.5,
+    529.2,
+    709.1
+   ],
+   "size": 8.8,
+   "testo": "campo visivo subisce dei danni, il mago può usare una rea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    709.6,
+    527.4,
+    720.1
+   ],
+   "size": 8.8,
+   "testo": "zione per farli assorbire alla propria Interdizione Arcana.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,1320 @@
+{
+ "pagina_pdf": 332,
+ "pagina_stampata": 329,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 329",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    57.0,
+    37.7,
+    272.8,
+    48.3
+   ],
+   "size": 8.8,
+   "testo": "a terra senza romperla. Dopo 1 minuto, se non è ancora",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    48.7,
+    177.5,
+    59.2
+   ],
+   "size": 8.8,
+   "testo": "stata infranta, la sfera esplode.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    59.6,
+    285.9,
+    70.2
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    68.5,
+    274.4,
+    81.2
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d6 per ogni slot di livello superiore al 6°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    105.3,
+    209.5,
+    116.6
+   ],
+   "size": 11.2,
+   "testo": "SFERA ELASTICA DI 0TILUKE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    116.7,
+    171.8,
+    127.2
+   ],
+   "size": 8.6,
+   "testo": "Abiurazione di4° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    132.3,
+    148.4,
+    142.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    143.3,
+    116.4,
+    152.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    154.4,
+    210.1,
+    164.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una sfera di vetro)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    165.4,
+    209.8,
+    175.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    181.6,
+    267.0,
+    192.2
+   ],
+   "size": 8.8,
+   "testo": "Una sfera di forza scintillante racchiude una creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    192.6,
+    267.1,
+    203.2
+   ],
+   "size": 8.8,
+   "testo": "o un oggetto di taglia Grande o inferiore entro gittata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    203.6,
+    266.9,
+    214.2
+   ],
+   "size": 8.8,
+   "testo": "Una creatura non consenziente deve superare un tiro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    214.6,
+    270.2,
+    225.2
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Destrezza, altrimenti viene rinchiusa nella",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    225.6,
+    198.0,
+    236.2
+   ],
+   "size": 8.8,
+   "testo": "sfera per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    236.6,
+    280.2,
+    247.2
+   ],
+   "size": 8.8,
+   "testo": "Nulla può attraversare la barriera in entrata e in uscita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    247.6,
+    285.6,
+    258.1
+   ],
+   "size": 8.8,
+   "testo": "(oggetti fisici, energia o altri effetti magici), ma una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    258.6,
+    279.1,
+    269.2
+   ],
+   "size": 8.8,
+   "testo": "all'interno può respirare liberamente. La sfera è immune",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    269.6,
+    282.7,
+    280.2
+   ],
+   "size": 8.8,
+   "testo": "a tutti i danni e una creatura o un oggetto all'interno non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    280.6,
+    274.4,
+    291.2
+   ],
+   "size": 8.8,
+   "testo": "può essere danneggiato dagli attacchi o dagli effetti che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    291.6,
+    271.4,
+    302.2
+   ],
+   "size": 8.8,
+   "testo": "provengono dall'esterno; analogamente, non può inflig­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    302.6,
+    236.6,
+    313.2
+   ],
+   "size": 8.8,
+   "testo": "gere danni a qualsiasi cosa si trovi all'esterno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    313.6,
+    274.3,
+    324.2
+   ],
+   "size": 8.8,
+   "testo": "La sfera non ha peso ed è grande quanto basta da con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    324.5,
+    283.1,
+    335.0
+   ],
+   "size": 8.8,
+   "testo": "tenere la creatura o l'oggetto al suo interno. Una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    335.5,
+    277.4,
+    346.1
+   ],
+   "size": 8.8,
+   "testo": "rinchiusa può effettuare un'azione per spingere le pareti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    346.5,
+    268.9,
+    357.1
+   ],
+   "size": 8.8,
+   "testo": "della sfera e farla rotolare a una velocità massima pari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    357.5,
+    282.6,
+    368.1
+   ],
+   "size": 8.8,
+   "testo": "alla metà della propria. Analogamente, la sfera può essere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    368.4,
+    195.6,
+    379.0
+   ],
+   "size": 8.8,
+   "testo": "sollevata e mossa da altre creature.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    379.5,
+    279.2,
+    390.1
+   ],
+   "size": 8.8,
+   "testo": "Un incantesimo disintegrazione distrugge la sfera senza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    390.5,
+    174.5,
+    401.1
+   ],
+   "size": 8.8,
+   "testo": "danneggiare ciò che contiene.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    425.4,
+    153.4,
+    436.8
+   ],
+   "size": 11.2,
+   "testo": "SFERA INFUOCATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    436.8,
+    231.0,
+    447.3
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di2° livello (druido, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    452.4,
+    148.4,
+    462.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    463.3,
+    120.7,
+    472.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    474.4,
+    213.8,
+    484.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una pallina di cera)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    485.3,
+    209.9,
+    494.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    501.6,
+    263.3,
+    512.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea una sfera di fuoco del diametro di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    512.6,
+    268.7,
+    523.2
+   ],
+   "size": 8.8,
+   "testo": "1,5 metri in uno spazio libero del terreno entro gittata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    523.6,
+    286.3,
+    534.2
+   ],
+   "size": 8.8,
+   "testo": "che permane per la durata dell'incantesimo. Ogni creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    534.6,
+    274.5,
+    545.2
+   ],
+   "size": 8.8,
+   "testo": "che termina il suo turno entro 1,5 metri dalla sfera effet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    545.6,
+    271.5,
+    556.2
+   ],
+   "size": 8.8,
+   "testo": "tua un tiro salvezza su Destrezza; se lo fallisce, subisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    556.6,
+    278.7,
+    567.1
+   ],
+   "size": 8.8,
+   "testo": "2d6 danni da fuoco, mentre se lo supera subisce soltanto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    567.6,
+    142.1,
+    578.1
+   ],
+   "size": 8.8,
+   "testo": "la metà di quei danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    578.5,
+    280.5,
+    589.1
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, l'incantatore può muovere la sfera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    589.5,
+    283.4,
+    600.1
+   ],
+   "size": 8.8,
+   "testo": "per un massimo di 9 metri, facendola rotolare sul terreno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    600.5,
+    272.8,
+    611.0
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore muove la sfera nello spazio di una crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    611.6,
+    273.3,
+    622.2
+   ],
+   "size": 8.8,
+   "testo": "tura, quella creatura effettua un tiro salvezza contro la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    622.7,
+    231.9,
+    633.2
+   ],
+   "size": 8.8,
+   "testo": "sfera, che smette di muoversi per quel turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    633.6,
+    263.5,
+    644.2
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore muove la sfera, può dirigerla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    644.7,
+    272.6,
+    655.2
+   ],
+   "size": 8.8,
+   "testo": "oltre le barriere alte fino a 1,5 metri e farla saltare oltre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    655.6,
+    286.4,
+    666.2
+   ],
+   "size": 8.8,
+   "testo": "le fosse larghe fino a 3 metri. Se tocca oggetti infiammabili",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    666.6,
+    273.5,
+    677.2
+   ],
+   "size": 8.8,
+   "testo": "che non sono indossati o trasportati, la sfera li incendia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    677.5,
+    281.2,
+    688.1
+   ],
+   "size": 8.8,
+   "testo": "proiettando luce intensa entro un raggio di 6 metri e luce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    688.5,
+    144.1,
+    699.1
+   ],
+   "size": 8.8,
+   "testo": "fioca per altri 6 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    699.6,
+    286.0,
+    710.1
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    708.4,
+    274.5,
+    721.1
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d6 per ogni slot di livello superiore al 2°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.4,
+    53.1,
+    373.6,
+    64.4
+   ],
+   "size": 11.2,
+   "testo": "SFOCATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    64.5,
+    445.6,
+    74.9
+   ],
+   "size": 8.6,
+   "testo": "Illusionedi2°livello (mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    80.0,
+    400.9,
+    89.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    91.0,
+    384.4,
+    100.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    102.0,
+    367.2,
+    111.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    113.0,
+    462.2,
+    122.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    129.2,
+    521.4,
+    139.8
+   ],
+   "size": 8.8,
+   "testo": "Il corpo dell'incantatore diventa sfocato. Per la durata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    140.2,
+    528.6,
+    150.7
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, tutte le creature subiscono svantaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    151.3,
+    515.9,
+    161.8
+   ],
+   "size": 8.8,
+   "testo": "ai tiri per colpire contro l'incantatore. Un attaccante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    162.3,
+    517.5,
+    172.9
+   ],
+   "size": 8.8,
+   "testo": "è immune a questo effetto se percepisce l'incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    173.2,
+    418.5,
+    183.8
+   ],
+   "size": 8.8,
+   "testo": "con vista cieca o vista pura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    208.0,
+    432.9,
+    219.4
+   ],
+   "size": 11.2,
+   "testo": "SGUARDO PENETRANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    219.4,
+    520.5,
+    229.9
+   ],
+   "size": 8.6,
+   "testo": "Necromanzia di6° livello (bardo, mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    235.1,
+    400.9,
+    244.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    246.1,
+    384.4,
+    255.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    257.0,
+    375.9,
+    266.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    268.0,
+    462.2,
+    277.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    284.2,
+    528.3,
+    294.8
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, gli occhi dell'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    295.2,
+    525.1,
+    305.8
+   ],
+   "size": 8.8,
+   "testo": "diventano neri e vacui. Una creatura a scelta dell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    306.2,
+    531.0,
+    316.8
+   ],
+   "size": 8.8,
+   "testo": "tatore entro 18 metri da lui e che l'incantatore è in grado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    317.2,
+    516.7,
+    327.8
+   ],
+   "size": 8.8,
+   "testo": "di vedere deve superare un tiro salvezza su Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    328.1,
+    534.7,
+    338.7
+   ],
+   "size": 8.8,
+   "testo": "o essere influenzata da uno dei seguenti effetti a sua scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    339.1,
+    429.2,
+    349.7
+   ],
+   "size": 8.8,
+   "testo": "per la durata dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    350.1,
+    515.0,
+    360.7
+   ],
+   "size": 8.8,
+   "testo": "In ogni suo turno fino al termine dell'incantesimo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    361.0,
+    538.1,
+    371.6
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore può usare un'azione di Magia per bersagliare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    372.0,
+    519.0,
+    382.6
+   ],
+   "size": 8.8,
+   "testo": "un'altra creatura, non potendo tuttavia bersagliare di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    383.1,
+    527.1,
+    393.6
+   ],
+   "size": 8.8,
+   "testo": "nuovo una creatura che abbia superato un tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.6,
+    394.1,
+    459.5,
+    404.7
+   ],
+   "size": 8.8,
+   "testo": "contro questo lancio dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    405.2,
+    532.3,
+    415.7
+   ],
+   "size": 8.8,
+   "testo": "Addormentato. Il bersaglio cade privo di sensi e si risve­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    416.2,
+    529.9,
+    426.8
+   ],
+   "size": 8.8,
+   "testo": "glia se subisce danni o se un'altra creatura usa un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    427.2,
+    414.8,
+    437.8
+   ],
+   "size": 8.8,
+   "testo": "per svegliarla scuotendola.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.2,
+    438.2,
+    533.1,
+    448.8
+   ],
+   "size": 8.8,
+   "testo": "Inpreda alpanico. Il bersaglio è spaventato. In ogni suo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    449.1,
+    518.1,
+    459.7
+   ],
+   "size": 8.8,
+   "testo": "turno, il bersaglio spaventato deve effettuare l'azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    460.0,
+    533.2,
+    470.5
+   ],
+   "size": 8.8,
+   "testo": "Scatto e muoversi per allontanarsi dall'incantatore lungo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    471.1,
+    529.3,
+    481.7
+   ],
+   "size": 8.8,
+   "testo": "il percorso più sicuro e rapido possibile. Se il bersaglio si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    482.1,
+    533.9,
+    492.7
+   ],
+   "size": 8.8,
+   "testo": "muove in un punto a più di 18 metri dall'incantatore dove",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    493.1,
+    491.7,
+    503.7
+   ],
+   "size": 8.8,
+   "testo": "non è più in grado di vederlo, l'effetto termina.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    504.2,
+    472.0,
+    514.8
+   ],
+   "size": 8.8,
+   "testo": "Nauseato. Il bersaglio viene avvelenato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    539.0,
+    360.2,
+    550.4
+   ],
+   "size": 11.2,
+   "testo": "SILENZIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    550.4,
+    473.3,
+    560.8
+   ],
+   "size": 8.6,
+   "testo": "Illusionedi2° livello (bardo, chierico, ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    565.9,
+    434.4,
+    575.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione o rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    577.0,
+    373.5,
+    586.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    588.0,
+    375.9,
+    597.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    598.9,
+    464.0,
+    608.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    615.2,
+    526.7,
+    625.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore genera una sfera del raggio di 6 metri cen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.6,
+    626.3,
+    529.3,
+    636.8
+   ],
+   "size": 8.8,
+   "testo": "trata su un punto a sua scelta situato entro gittata e, per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    637.3,
+    538.9,
+    647.8
+   ],
+   "size": 8.8,
+   "testo": "la durata dell'incantesimo, nessun suono può essere creato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    648.3,
+    527.4,
+    658.8
+   ],
+   "size": 8.8,
+   "testo": "all'interno di quella sfera o attraversarla. Ogni creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    659.2,
+    529.3,
+    669.7
+   ],
+   "size": 8.8,
+   "testo": "o oggetto interamente all'interno della sfera è immune ai",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    670.1,
+    524.7,
+    680.7
+   ],
+   "size": 8.8,
+   "testo": "danni da tuono e ogni creatura interamente all'interno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    681.2,
+    531.3,
+    691.7
+   ],
+   "size": 8.8,
+   "testo": "della sfera è assordata. All'interno dell'area è impossibile",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    692.2,
+    518.4,
+    702.8
+   ],
+   "size": 8.8,
+   "testo": "lanciare un incantesimo che includa una componente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    703.1,
+    341.9,
+    713.7
+   ],
+   "size": 8.8,
+   "testo": "verbale.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1339 @@
+{
+ "pagina_pdf": 208,
+ "pagina_stampata": 205,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 5 I TALENTI / 205",
+ "immagini": [
+  [
+   -1,
+   -1,
+   59,
+   81
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    64.3,
+    36.3,
+    274.1,
+    46.9
+   ],
+   "size": 8.8,
+   "testo": "Pasto rifocillante. Come parte di un riposo breve, può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    47.3,
+    283.2,
+    57.9
+   ],
+   "size": 8.8,
+   "testo": "cucinare cibo speciale, a patto che abbia a disposizione gli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    58.3,
+    279.6,
+    68.9
+   ],
+   "size": 8.8,
+   "testo": "ingredienti e gli utensili da cuoco. Può prepararne a suffi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    69.3,
+    283.8,
+    79.9
+   ],
+   "size": 8.8,
+   "testo": "cienza per un numero di creature pari a 4 più il suo bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    80.3,
+    274.7,
+    90.9
+   ],
+   "size": 8.8,
+   "testo": "di competenza. Alla fine del riposo breve, ogni creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    91.3,
+    277.8,
+    101.9
+   ],
+   "size": 8.8,
+   "testo": "che ha mangiato il cibo e spende uno o più Dadi Vita per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    102.3,
+    272.4,
+    112.8
+   ],
+   "size": 8.8,
+   "testo": "recuperare punti ferita recupera 1d8 punti ferita extra.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    113.3,
+    270.9,
+    123.9
+   ],
+   "size": 8.8,
+   "testo": "Delizie corroboranti. Con 1 ora di lavoro o alla fine di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    124.3,
+    275.8,
+    134.8
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo, può cucinare un numero di delizie pari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    135.3,
+    282.3,
+    145.9
+   ],
+   "size": 8.8,
+   "testo": "al suo bonus di competenza se ha ingredienti e utensili da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    146.4,
+    274.9,
+    156.9
+   ],
+   "size": 8.8,
+   "testo": "cuoco a portata di mano. Queste speciali delizie durano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    157.4,
+    277.3,
+    168.0
+   ],
+   "size": 8.8,
+   "testo": "8 ore dopo essere state preparate Qualsiasi creatura che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    168.4,
+    286.9,
+    179.0
+   ],
+   "size": 8.8,
+   "testo": "usi un'azione bonus per mangiarne una ottiene un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    179.4,
+    284.7,
+    190.0
+   ],
+   "size": 8.8,
+   "testo": "di punti ferita temporanei pari al bonus di competenza del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    190.5,
+    184.1,
+    201.0
+   ],
+   "size": 8.8,
+   "testo": "personaggio che le ha preparate.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    225.2,
+    181.6,
+    236.6
+   ],
+   "size": 11.2,
+   "testo": "DUELLANTE DIFENSIVO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    236.7,
+    248.1,
+    247.2
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    248.7,
+    148.1,
+    258.2
+   ],
+   "size": 8.6,
+   "testo": "Destrezza 13 o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    262.3,
+    217.9,
+    272.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    273.3,
+    285.0,
+    283.9
+   ],
+   "size": 8.8,
+   "testo": "Incrementodeipunteggidicaratteristica. Il suo punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    284.4,
+    257.8,
+    294.9
+   ],
+   "size": 8.8,
+   "testo": "di Destrezza aumenta di 1, fino a un massimo di 20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    295.3,
+    256.0,
+    305.9
+   ],
+   "size": 8.8,
+   "testo": "Parata. Quando il personaggio impugna un'arma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    306.3,
+    264.5,
+    316.9
+   ],
+   "size": 8.8,
+   "testo": "accurata e viene colpito con un attacco in mischia da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.9,
+    317.3,
+    280.5,
+    327.9
+   ],
+   "size": 8.8,
+   "testo": "un'altra creatura, può usare una reazione per aggiungere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    328.3,
+    281.8,
+    338.9
+   ],
+   "size": 8.8,
+   "testo": "il proprio bonus di competenza alla sua Classe Armatura,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    339.3,
+    278.5,
+    349.9
+   ],
+   "size": 8.8,
+   "testo": "aumentando le probabilità che il colpo non vada a segno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    350.2,
+    282.5,
+    360.8
+   ],
+   "size": 8.8,
+   "testo": "Dopodiché, il bonus alla CA contro gli attacchi in mischia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    361.3,
+    223.4,
+    371.8
+   ],
+   "size": 8.8,
+   "testo": "rimane fino all'inizio del turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    395.9,
+    173.0,
+    407.3
+   ],
+   "size": 11.2,
+   "testo": "ESPERTO DI BALESTRE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    407.6,
+    248.0,
+    418.0
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    419.5,
+    147.8,
+    429.0
+   ],
+   "size": 8.6,
+   "testo": "Destrezza 13 o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    433.1,
+    217.7,
+    443.6
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    444.0,
+    284.9,
+    454.6
+   ],
+   "size": 8.8,
+   "testo": "Incrementodeipunteggidicaratteristica. Il suo punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    455.0,
+    257.6,
+    465.6
+   ],
+   "size": 8.8,
+   "testo": "di Destrezza aumenta di 1, fino a un massimo di 20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    466.0,
+    268.9,
+    476.6
+   ],
+   "size": 8.8,
+   "testo": "Ignora ricarica. Il personaggio ignora la proprietà di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    477.0,
+    266.8,
+    487.5
+   ],
+   "size": 8.8,
+   "testo": "ricarica delle balestre a mano, pesanti e leggere (d'ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    488.0,
+    276.4,
+    498.5
+   ],
+   "size": 8.8,
+   "testo": "in avanti chiamate \"balestre\" nella descrizione di questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    499.1,
+    268.5,
+    509.6
+   ],
+   "size": 8.8,
+   "testo": "talento). Se ne impugna una, può effettuare la ricarica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    510.1,
+    187.7,
+    520.7
+   ],
+   "size": 8.8,
+   "testo": "anche se non ha una mano libera.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    521.1,
+    258.0,
+    531.7
+   ],
+   "size": 8.8,
+   "testo": "Sparo in mischia. Anche se il personaggio si trova",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    532.1,
+    270.7,
+    542.6
+   ],
+   "size": 8.8,
+   "testo": "a 1,5 metri da un nemico, non ottiene svantaggio ai tiri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    543.2,
+    161.0,
+    553.7
+   ],
+   "size": 8.8,
+   "testo": "per colpire con le balestre.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    554.1,
+    279.4,
+    564.7
+   ],
+   "size": 8.8,
+   "testo": "Combattere a due armi. Quando il personaggio effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    565.0,
+    279.7,
+    575.6
+   ],
+   "size": 8.8,
+   "testo": "l'attacco extra sfruttando la proprietà leggera, puoi aggiun­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    576.1,
+    285.8,
+    586.6
+   ],
+   "size": 8.8,
+   "testo": "gere il suo modificatore di caratteristica ai danni se l'attacco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    587.0,
+    279.8,
+    597.6
+   ],
+   "size": 8.8,
+   "testo": "è eseguito con una balestra dotata di tale proprietà e se il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    598.0,
+    239.4,
+    608.6
+   ],
+   "size": 8.8,
+   "testo": "modificatore non è già stato aggiunto ai danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    632.9,
+    195.8,
+    644.2
+   ],
+   "size": 11.2,
+   "testo": "INCANTATORE DA GUERRA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    644.4,
+    285.0,
+    654.9
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore, privilegio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    656.4,
+    166.9,
+    665.7
+   ],
+   "size": 8.6,
+   "testo": "Incantesimi oMagia delpatto)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    669.8,
+    217.5,
+    680.4
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    680.9,
+    277.4,
+    691.5
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il tuo punteg­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    691.9,
+    281.1,
+    702.5
+   ],
+   "size": 8.8,
+   "testo": "gio di Intelligenza, Saggezza o Carisma aumenta di 1, fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    702.9,
+    135.6,
+    713.5
+   ],
+   "size": 8.8,
+   "testo": "a un massimo di 20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.4,
+    36.5,
+    523.0,
+    47.1
+   ],
+   "size": 8.8,
+   "testo": "Concentrazione. Il personaggio dispone di vantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    47.5,
+    499.0,
+    58.0
+   ],
+   "size": 8.8,
+   "testo": "ai tiri salvezza su Costituzione per mantenere la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    58.4,
+    374.1,
+    69.0
+   ],
+   "size": 8.8,
+   "testo": "concentrazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    69.5,
+    521.1,
+    80.0
+   ],
+   "size": 8.8,
+   "testo": "Incantesimo reattivo. Quando una creatura provoca",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    80.5,
+    531.7,
+    91.1
+   ],
+   "size": 8.8,
+   "testo": "un attacco di opportunità dal personaggio uscendo dalla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    91.5,
+    528.4,
+    102.0
+   ],
+   "size": 8.8,
+   "testo": "sua portata, questo può usare una reazione per lanciare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    102.5,
+    513.5,
+    113.0
+   ],
+   "size": 8.8,
+   "testo": "un incantesimo piuttosto che eseguire un attacco di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    113.5,
+    516.7,
+    124.0
+   ],
+   "size": 8.8,
+   "testo": "opportunità. Tale incantesimo deve avere il tempo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    124.5,
+    524.6,
+    135.1
+   ],
+   "size": 8.8,
+   "testo": "lancio di un'azione e avere come unico bersaglio quella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    135.5,
+    346.8,
+    146.0
+   ],
+   "size": 8.8,
+   "testo": "creatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.3,
+    146.5,
+    527.8,
+    157.0
+   ],
+   "size": 8.8,
+   "testo": "Componenti somatiche. Il personaggio può eseguire le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    157.6,
+    530.9,
+    168.2
+   ],
+   "size": 8.8,
+   "testo": "componenti somatiche degli incantesimi persino quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    168.5,
+    534.3,
+    179.1
+   ],
+   "size": 8.8,
+   "testo": "ha una o entrambe le mani occupate con delle armi o uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    179.6,
+    336.0,
+    190.1
+   ],
+   "size": 8.8,
+   "testo": "scudo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    214.3,
+    434.1,
+    225.7
+   ],
+   "size": 11.2,
+   "testo": "INCANTATORE RITUALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    225.9,
+    501.1,
+    236.3
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    237.8,
+    483.3,
+    247.3
+   ],
+   "size": 8.6,
+   "testo": "Intelligenza, Saggezza o Carisma 13 o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    251.3,
+    470.9,
+    261.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    262.4,
+    530.6,
+    273.0
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il tuo punteg­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    273.5,
+    534.2,
+    284.1
+   ],
+   "size": 8.8,
+   "testo": "gio di Intelligenza, Saggezza o Carisma aumenta di 1, fino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    284.4,
+    388.9,
+    295.0
+   ],
+   "size": 8.8,
+   "testo": "a un massimo di 20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    295.5,
+    520.4,
+    306.1
+   ],
+   "size": 8.8,
+   "testo": "Incantesimi rituali. Scegli un numero di incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    304.4,
+    513.2,
+    317.0
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello con il descrittore rituale pari al bonus di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    317.5,
+    539.1,
+    328.0
+   ],
+   "size": 8.8,
+   "testo": "competenza del personaggio. Tali incantesimi sono sempre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    328.4,
+    519.8,
+    339.0
+   ],
+   "size": 8.8,
+   "testo": "considerati come preparati ed è possibile lanciarli con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    339.3,
+    528.0,
+    349.9
+   ],
+   "size": 8.8,
+   "testo": "qualunque slot a sua disposizione. La loro caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    350.3,
+    522.9,
+    360.9
+   ],
+   "size": 8.8,
+   "testo": "da incantatore è quella aumentata dal talento. D'ora in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    361.3,
+    524.2,
+    371.9
+   ],
+   "size": 8.8,
+   "testo": "avanti, ogni volta che il bonus di competenza del perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    372.3,
+    539.4,
+    382.9
+   ],
+   "size": 8.8,
+   "testo": "naggio aumenta, puoi aggiungere un ulteriore incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    381.3,
+    511.6,
+    394.0
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello con il descrittore rituale a quelli sempre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    394.4,
+    488.8,
+    405.0
+   ],
+   "size": 8.8,
+   "testo": "considerati come preparati forniti dal talento.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    405.4,
+    535.4,
+    416.0
+   ],
+   "size": 8.8,
+   "testo": "Rituale rapido. Con questo beneficio, il personaggio può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    416.5,
+    529.1,
+    427.1
+   ],
+   "size": 8.8,
+   "testo": "lanciare un incantesimo rituale preparato con un tempo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    427.5,
+    525.6,
+    438.1
+   ],
+   "size": 8.8,
+   "testo": "di lancio normale, anziché con quello esteso necessario",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    438.4,
+    539.4,
+    449.0
+   ],
+   "size": 8.8,
+   "testo": "per un rituale. A tal proposito non è necessario consumare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    449.4,
+    534.6,
+    460.0
+   ],
+   "size": 8.8,
+   "testo": "uno slot incantesimo. Dopo aver lanciato l'incantesimo in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    460.4,
+    538.3,
+    471.0
+   ],
+   "size": 8.8,
+   "testo": "questo modo, non può utilizzare questo beneficio di nuovo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    471.4,
+    474.4,
+    481.9
+   ],
+   "size": 8.8,
+   "testo": "prima di aver completato un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    506.2,
+    373.2,
+    517.6
+   ],
+   "size": 11.2,
+   "testo": "LOTTATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    517.7,
+    500.7,
+    528.1
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4°livello o superiore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    529.7,
+    429.7,
+    539.2
+   ],
+   "size": 8.6,
+   "testo": "Forza o Destrezza 13 o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    543.3,
+    470.5,
+    553.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    554.1,
+    530.5,
+    564.7
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il suo punteg­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    565.2,
+    531.5,
+    575.7
+   ],
+   "size": 8.8,
+   "testo": "gio di Forza o Destrezza aumenta di 1, fino a un massimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    576.2,
+    333.1,
+    586.7
+   ],
+   "size": 8.8,
+   "testo": "di 20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    587.1,
+    527.3,
+    597.7
+   ],
+   "size": 8.8,
+   "testo": "Colpisci e afferra. Quando il personaggio colpisce una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    598.1,
+    531.7,
+    608.6
+   ],
+   "size": 8.8,
+   "testo": "creatura con un colpo senz'armi come parte di un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    609.2,
+    528.2,
+    619.8
+   ],
+   "size": 8.8,
+   "testo": "di Attacco nel proprio turno, può scegliere se infliggerle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    620.3,
+    535.7,
+    630.9
+   ],
+   "size": 8.8,
+   "testo": "danni o afferrarla. Questo beneficio è utilizzabile una sola",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    631.3,
+    372.0,
+    641.9
+   ],
+   "size": 8.8,
+   "testo": "volta per turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    642.3,
+    514.4,
+    652.9
+   ],
+   "size": 8.8,
+   "testo": "Attacco con vantaggio. Dispone di vantaggio ai tiri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    653.3,
+    491.7,
+    663.9
+   ],
+   "size": 8.8,
+   "testo": "per colpire contro le creature che ha afferrato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.2,
+    664.3,
+    513.6,
+    674.9
+   ],
+   "size": 8.8,
+   "testo": "Lottatore rapido. Il personaggio non ha bisogno di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    675.3,
+    521.1,
+    685.8
+   ],
+   "size": 8.8,
+   "testo": "spendere movimento extra se sposta una creatura che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    686.3,
+    518.5,
+    696.9
+   ],
+   "size": 8.8,
+   "testo": "ha afferrato che sia della sua stessa categoria di taglia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    697.3,
+    354.3,
+    707.9
+   ],
+   "size": 8.8,
+   "testo": "o inferiore.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,379 @@
+{
+ "pagina_pdf": 183,
+ "pagina_stampata": 180,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "180 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   609
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.7,
+    230.5,
+    250.4,
+    240.1
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Destrezza, Costituzione,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    242.6,
+    110.3,
+    252.2
+   ],
+   "size": 8.4,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    254.6,
+    178.9,
+    264.2
+   ],
+   "size": 8.4,
+   "testo": "Talento: Allerta (vedi capitolo 5)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    266.5,
+    261.1,
+    276.1
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Rapidità di Mano e Furtività",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    278.6,
+    232.0,
+    288.2
+   ],
+   "size": 8.4,
+   "testo": "Competenza negli strumenti: arnesi da scasso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    290.6,
+    272.1,
+    300.3
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e B: (A) 2 pugnali, arnesi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    302.5,
+    273.8,
+    312.1
+   ],
+   "size": 8.4,
+   "testo": "da scasso, piede di porco, 2 borse, abiti da viaggiatore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.3,
+    314.5,
+    139.7,
+    324.1
+   ],
+   "size": 8.4,
+   "testo": "16 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    593.8,
+    282.0,
+    603.4
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Costituzione, Saggezza, Carisma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    605.9,
+    190.4,
+    615.5
+   ],
+   "size": 8.4,
+   "testo": "Talento: Guaritore (vedi capitolo 5)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    617.9,
+    235.4,
+    627.5
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Medicina e Religione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    630.0,
+    239.4,
+    639.7
+   ],
+   "size": 8.4,
+   "testo": "Competenza negli strumenti: borsa da erborista",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    642.0,
+    269.6,
+    651.7
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e B: (A) bastone ferrato,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.3,
+    653.9,
+    269.8,
+    663.6
+   ],
+   "size": 8.4,
+   "testo": "borsa da erborista, giaciglio, libro (filosofia) lampada,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.6,
+    666.0,
+    279.0,
+    675.6
+   ],
+   "size": 8.4,
+   "testo": "olio (3 ampolle), abiti da viaggiatore, 16 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    229.3,
+    502.4,
+    239.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio è riuscito a sopravvivere nei vicoli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    240.2,
+    514.7,
+    250.7
+   ],
+   "size": 8.8,
+   "testo": "più bui borseggiando i passanti e rapinando i negozi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    251.2,
+    525.1,
+    261.8
+   ],
+   "size": 8.8,
+   "testo": "Magari faceva parte di una piccola banda di malviventi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    262.2,
+    532.1,
+    272.8
+   ],
+   "size": 8.8,
+   "testo": "dalla mentalità affine, pervasa da un certo senso di fratel­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    273.2,
+    537.0,
+    283.8
+   ],
+   "size": 8.8,
+   "testo": "lanza. Oppure era un lupo solitario impegnato a guardarsi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    284.3,
+    511.8,
+    294.9
+   ],
+   "size": 8.8,
+   "testo": "le spalle dalla gilda dei ladri locale e da altri temibili",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    295.3,
+    352.2,
+    305.9
+   ],
+   "size": 8.8,
+   "testo": "manigoldi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    592.6,
+    532.6,
+    603.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ha trascorso i suoi primi anni rinchiuso in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    603.6,
+    530.6,
+    614.2
+   ],
+   "size": 8.8,
+   "testo": "una capanna o un monastero molto distante da qualsiasi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    614.7,
+    521.2,
+    625.3
+   ],
+   "size": 8.8,
+   "testo": "insediamento abitato. All'epoca, i suoi unici compagni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    625.8,
+    520.4,
+    636.4
+   ],
+   "size": 8.8,
+   "testo": "erano le creature della foresta e coloro che di tanto in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    636.8,
+    529.4,
+    647.4
+   ],
+   "size": 8.8,
+   "testo": "tanto gli facevano visita per portargli notizie dal mondo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    647.7,
+    518.3,
+    658.3
+   ],
+   "size": 8.8,
+   "testo": "esterno e provviste. La solitudine gli ha consentito di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    658.8,
+    511.9,
+    669.4
+   ],
+   "size": 8.8,
+   "testo": "trascorrere svariate ore a riflettere sui misteri della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    669.8,
+    351.6,
+    680.4
+   ],
+   "size": 8.8,
+   "testo": "creazione.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

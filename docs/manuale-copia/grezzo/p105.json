@@ -1,0 +1,1692 @@
+{
+ "pagina_pdf": 105,
+ "pagina_stampata": 102,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "102 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    49.4,
+    38.4,
+    157.6,
+    49.1
+   ],
+   "size": 10.6,
+   "testo": "PRIVILEGI DEL LADRO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.8,
+    53.4,
+    129.2,
+    64.1
+   ],
+   "size": 10.6,
+   "testo": "Bonus di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    64.3,
+    209.1,
+    75.1
+   ],
+   "size": 10.6,
+   "testo": "Livello competenza Privilegi di classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.8,
+    64.7,
+    495.7,
+    75.3
+   ],
+   "size": 10.6,
+   "testo": "Attacco furtivo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    79.4,
+    114.9,
+    89.0
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.7,
+    79.5,
+    376.1,
+    89.1
+   ],
+   "size": 8.4,
+   "testo": "Attacco furtivo, Gergo ladresco, Maestria, Padronanza d'armi",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    461.3,
+    79.7,
+    476.2,
+    89.3
+   ],
+   "size": 8.4,
+   "testo": "1d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    93.9,
+    68.5,
+    103.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.5,
+    94.0,
+    115.0,
+    103.6
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.7,
+    94.1,
+    196.6,
+    103.7
+   ],
+   "size": 8.4,
+   "testo": "Azione scaltra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    108.5,
+    68.2,
+    118.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    108.5,
+    114.9,
+    118.2
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.5,
+    108.6,
+    268.4,
+    118.2
+   ],
+   "size": 8.4,
+   "testo": "Mira ferma, Sottoclasse del ladro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    123.0,
+    68.4,
+    132.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    123.1,
+    114.9,
+    132.7
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.7,
+    123.2,
+    289.3,
+    132.8
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    137.7,
+    68.3,
+    147.3
+   ],
+   "size": 8.4,
+   "testo": "s",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.2,
+    137.7,
+    115.6,
+    147.4
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.9,
+    137.7,
+    270.9,
+    147.4
+   ],
+   "size": 8.4,
+   "testo": "Colpo astuto, Schivata prodigiosa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    152.3,
+    68.5,
+    161.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.2,
+    152.3,
+    115.3,
+    161.9
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.4,
+    152.3,
+    176.4,
+    161.9
+   ],
+   "size": 8.4,
+   "testo": "Maestria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    166.8,
+    68.5,
+    176.4
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.2,
+    166.9,
+    115.3,
+    176.6
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.4,
+    167.0,
+    235.9,
+    176.6
+   ],
+   "size": 8.4,
+   "testo": "Dote affidabile, Elusione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    181.5,
+    68.4,
+    191.1
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.2,
+    181.6,
+    115.3,
+    191.2
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.6,
+    181.6,
+    289.2,
+    191.2
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    196.1,
+    68.4,
+    205.8
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.8,
+    196.0,
+    115.9,
+    205.9
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.4,
+    196.3,
+    244.0,
+    205.9
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    210.7,
+    72.1,
+    220.4
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.8,
+    210.8,
+    115.9,
+    220.4
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.6,
+    210.9,
+    289.3,
+    220.5
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    225.3,
+    70.6,
+    234.9
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.8,
+    225.3,
+    115.9,
+    234.9
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.8,
+    225.3,
+    232.8,
+    235.0
+   ],
+   "size": 8.4,
+   "testo": "Colpo astuto migliorato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    239.8,
+    71.8,
+    249.5
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.8,
+    239.9,
+    115.9,
+    249.5
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.6,
+    240.0,
+    289.2,
+    249.6
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    254.5,
+    71.8,
+    264.1
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.1,
+    254.5,
+    115.5,
+    264.1
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.3,
+    254.5,
+    243.8,
+    264.2
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    269.0,
+    71.7,
+    278.6
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.1,
+    269.1,
+    115.5,
+    278.7
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.7,
+    269.1,
+    184.1,
+    278.7
+   ],
+   "size": 8.4,
+   "testo": "Colpi infidi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    283.7,
+    71.9,
+    293.3
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.9,
+    283.7,
+    115.6,
+    293.4
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.3,
+    283.8,
+    207.4,
+    293.4
+   ],
+   "size": 8.4,
+   "testo": "Mente sfuggente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    298.3,
+    72.0,
+    308.0
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.9,
+    298.3,
+    115.3,
+    308.0
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.4,
+    298.3,
+    289.1,
+    307.9
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    312.8,
+    71.7,
+    322.4
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    312.9,
+    116.0,
+    322.6
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.2,
+    312.9,
+    243.9,
+    322.6
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    327.4,
+    71.7,
+    337.1
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    327.5,
+    116.0,
+    337.1
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.2,
+    327.5,
+    189.1,
+    337.1
+   ],
+   "size": 8.4,
+   "testo": "Inafferrabile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.7,
+    342.0,
+    71.0,
+    351.6
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.6,
+    342.0,
+    116.2,
+    351.6
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.2,
+    342.0,
+    186.7,
+    351.6
+   ],
+   "size": 8.4,
+   "testo": "Dono Epico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.1,
+    356.5,
+    70.4,
+    366.1
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    356.5,
+    115.7,
+    366.1
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.7,
+    356.5,
+    207.2,
+    366.1
+   ],
+   "size": 8.4,
+   "testo": "Colpo di Fortuna",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.4,
+    377.7,
+    244.9,
+    389.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SOTTOCLASSE DEL LADRO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.6,
+    389.2,
+    266.8,
+    399.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene una sottoclasse del ladro a scelta.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.3,
+    400.2,
+    269.0,
+    410.8
+   ],
+   "size": 8.8,
+   "testo": "Dopo la descrizione di questa classe, troverai una spiega­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.4,
+    411.2,
+    276.4,
+    421.8
+   ],
+   "size": 8.8,
+   "testo": "zione per ciascuna delle seguenti sottoclassi: Mistificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    422.2,
+    265.9,
+    432.8
+   ],
+   "size": 8.8,
+   "testo": "Arcano, Assassino, Lama Spirituale e Furfante. Una sot­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.0,
+    433.2,
+    277.2,
+    443.7
+   ],
+   "size": 8.8,
+   "testo": "toclasse è una specializzazione che conferisce dei privilegi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    444.2,
+    278.6,
+    454.8
+   ],
+   "size": 8.8,
+   "testo": "a determinati livelli da ladro. Per il resto della sua carriera,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.0,
+    455.1,
+    277.8,
+    465.7
+   ],
+   "size": 8.8,
+   "testo": "il personaggio ottiene tutti i privilegi della sottoclasse pari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.0,
+    466.1,
+    236.6,
+    476.7
+   ],
+   "size": 8.8,
+   "testo": "al suo livello da ladro attuale o a quelli inferiori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    486.5,
+    243.6,
+    497.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 4: AUMENTO DEI PUNTEGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    497.2,
+    154.5,
+    508.6
+   ],
+   "size": 11.2,
+   "testo": "DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    508.8,
+    266.4,
+    519.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene l'aumento dei punteggi di caratte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    519.8,
+    264.4,
+    530.4
+   ],
+   "size": 8.8,
+   "testo": "ristica (vedi capitolo 5) o un altro talento a scelta di cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    530.7,
+    272.2,
+    541.3
+   ],
+   "size": 8.8,
+   "testo": "possiede i prerequisiti. Questo privilegio si ottiene nuova­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    539.6,
+    239.5,
+    552.3
+   ],
+   "size": 8.8,
+   "testo": "mente all'8°, al 10°, al 12° e al 16° livello da ladro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.0,
+    562.2,
+    193.7,
+    573.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: COLPO ASTUTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.0,
+    573.6,
+    265.1,
+    584.1
+   ],
+   "size": 8.8,
+   "testo": "Il ladro ha ideato modi più astuti di utilizzare il proprio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.6,
+    584.5,
+    248.6,
+    595.1
+   ],
+   "size": 8.8,
+   "testo": "Attacco Furtivo. Quando infligge danni da Attacco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.8,
+    595.5,
+    261.4,
+    606.1
+   ],
+   "size": 8.8,
+   "testo": "Furtivo, è possibile aggiungere uno dei seguenti effetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.9,
+    606.6,
+    264.5,
+    617.2
+   ],
+   "size": 8.8,
+   "testo": "del Colpo Astuto. Ogni effetto prevede un costo in dadi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    617.6,
+    267.6,
+    628.2
+   ],
+   "size": 8.8,
+   "testo": "di danno dell'Attacco Furtivo. Il dado da spendere viene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    628.7,
+    261.8,
+    639.3
+   ],
+   "size": 8.8,
+   "testo": "rimosso prima del tiro e l'effetto entra in vigore subito",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.8,
+    639.7,
+    265.6,
+    650.3
+   ],
+   "size": 8.8,
+   "testo": "dopo aver inflitto i danni dell'attacco. Per esempio, se si",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    650.7,
+    268.5,
+    661.3
+   ],
+   "size": 8.8,
+   "testo": "aggiunge il veleno, è necessario rimuovere 1d6 dai danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    661.6,
+    189.7,
+    672.2
+   ],
+   "size": 8.8,
+   "testo": "dell'Attacco Furtivo prima di tirare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    672.7,
+    269.0,
+    683.2
+   ],
+   "size": 8.8,
+   "testo": "Se uno degli effetti di Colpo astuto richiede un tiro sal­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.4,
+    683.6,
+    270.8,
+    694.2
+   ],
+   "size": 8.8,
+   "testo": "vezza, la CD equivale a 8 più il modificatore di Destrezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    694.6,
+    148.1,
+    705.1
+   ],
+   "size": 8.8,
+   "testo": "e il bonus di competenza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.3,
+    94.3,
+    477.5,
+    103.9
+   ],
+   "size": 8.4,
+   "testo": "1d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.7,
+    108.8,
+    477.0,
+    118.5
+   ],
+   "size": 8.4,
+   "testo": "2d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.7,
+    123.4,
+    477.0,
+    133.0
+   ],
+   "size": 8.4,
+   "testo": "2d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.0,
+    138.0,
+    476.8,
+    147.6
+   ],
+   "size": 8.4,
+   "testo": "3d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.8,
+    152.6,
+    477.0,
+    162.2
+   ],
+   "size": 8.4,
+   "testo": "3d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.2,
+    167.2,
+    477.1,
+    176.8
+   ],
+   "size": 8.4,
+   "testo": "4d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.2,
+    181.8,
+    476.9,
+    191.4
+   ],
+   "size": 8.4,
+   "testo": "4d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.8,
+    196.5,
+    477.2,
+    206.1
+   ],
+   "size": 8.4,
+   "testo": "Sd6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.8,
+    211.1,
+    477.2,
+    220.7
+   ],
+   "size": 8.4,
+   "testo": "Sd6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.4,
+    225.6,
+    477.1,
+    235.2
+   ],
+   "size": 8.4,
+   "testo": "6d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.4,
+    240.2,
+    477.1,
+    249.9
+   ],
+   "size": 8.4,
+   "testo": "6d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.2,
+    254.8,
+    476.2,
+    264.4
+   ],
+   "size": 8.4,
+   "testo": "7d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.2,
+    269.4,
+    476.2,
+    279.0
+   ],
+   "size": 8.4,
+   "testo": "7d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.4,
+    284.1,
+    477.1,
+    293.7
+   ],
+   "size": 8.4,
+   "testo": "8d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.4,
+    298.6,
+    477.0,
+    308.2
+   ],
+   "size": 8.4,
+   "testo": "8d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.4,
+    313.2,
+    477.0,
+    322.9
+   ],
+   "size": 8.4,
+   "testo": "9d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.4,
+    327.7,
+    477.0,
+    337.4
+   ],
+   "size": 8.4,
+   "testo": "9d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    342.3,
+    477.2,
+    351.9
+   ],
+   "size": 8.4,
+   "testo": "10d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    356.7,
+    477.2,
+    366.4
+   ],
+   "size": 8.4,
+   "testo": "10d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    376.1,
+    519.8,
+    386.7
+   ],
+   "size": 8.8,
+   "testo": "Inciampo (costo: 1d6). Se il bersaglio è una creatura di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.6,
+    387.1,
+    525.7,
+    397.7
+   ],
+   "size": 8.8,
+   "testo": "taglia Grande o di dimensioni inferiori, deve superare un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.6,
+    398.2,
+    524.5,
+    408.7
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Destrezza, altrimenti cade a terra prona.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.4,
+    409.3,
+    521.5,
+    419.9
+   ],
+   "size": 8.8,
+   "testo": "Ritirata (costo: 1d6). Subito dopo l'attacco, il ladro può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    420.2,
+    520.2,
+    430.8
+   ],
+   "size": 8.8,
+   "testo": "muoversi fino a metà della sua velocità senza provocare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.6,
+    431.2,
+    396.9,
+    441.8
+   ],
+   "size": 8.8,
+   "testo": "attacchi di opportunità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    442.2,
+    507.9,
+    452.8
+   ],
+   "size": 8.8,
+   "testo": "Veleno (costo: 1d6). Il ladro aggiunge una tossina al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    453.1,
+    524.9,
+    463.7
+   ],
+   "size": 8.8,
+   "testo": "proprio attacco, costringendo il bersaglio a effettuare un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    464.2,
+    522.4,
+    474.7
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Costituzione. Se lo fallisce, è avvelenato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    475.2,
+    505.8,
+    485.8
+   ],
+   "size": 8.8,
+   "testo": "per 1 minuto. Alla fine di ogni suo turno, il bersaglio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.6,
+    486.1,
+    520.7,
+    496.7
+   ],
+   "size": 8.8,
+   "testo": "avvelenato ripete il tiro salvezza e, se lo supera, l'effetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    497.1,
+    339.2,
+    507.7
+   ],
+   "size": 8.8,
+   "testo": "svanisce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    508.2,
+    512.3,
+    518.8
+   ],
+   "size": 8.8,
+   "testo": "Per utilizzare questo effetto, è necessario avere con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    519.3,
+    423.1,
+    529.8
+   ],
+   "size": 8.8,
+   "testo": "sé le sostanze da avvelenatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    539.7,
+    483.6,
+    551.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: SCHIVATA PRODIGIOSA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.6,
+    551.0,
+    505.7,
+    561.6
+   ],
+   "size": 8.8,
+   "testo": "Quando subisce un attacco da un attaccante nel suo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    562.0,
+    528.6,
+    572.6
+   ],
+   "size": 8.8,
+   "testo": "campo visivo, il ladro può usare la sua reazione per dimez­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    573.0,
+    513.8,
+    583.6
+   ],
+   "size": 8.8,
+   "testo": "zare i danni che subirebbe (arrotondando per difetto).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    593.4,
+    459.5,
+    604.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: DOTE AFFIDABILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    604.9,
+    528.8,
+    615.5
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il ladro effettua una prova di caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.4,
+    615.9,
+    521.1,
+    626.5
+   ],
+   "size": 8.8,
+   "testo": "in un'abilità o uno strumento in cui ha competenza, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.4,
+    627.0,
+    487.8,
+    637.5
+   ],
+   "size": 8.8,
+   "testo": "considerare un tiro di d20 dal 9 in giù come 10.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    647.4,
+    416.7,
+    658.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: ELUSIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    658.8,
+    523.2,
+    669.4
+   ],
+   "size": 8.8,
+   "testo": "Ora il ladro può schivare agilmente determinati pericoli.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.4,
+    669.8,
+    517.3,
+    680.4
+   ],
+   "size": 8.8,
+   "testo": "Quando è soggetto a un effetto che gli consente di effet­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    680.8,
+    530.3,
+    691.4
+   ],
+   "size": 8.8,
+   "testo": "tuare un tiro salvezza su Destrezza per dimezzare i danni,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    691.7,
+    520.6,
+    702.3
+   ],
+   "size": 8.8,
+   "testo": "non subisce alcun danno se lo supera, e soltanto la metà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.4,
+    701.9,
+    522.7,
+    713.3
+   ],
+   "size": 8.8,
+   "testo": "dei danni se lo fallisce. Il personaggio non può utilizzare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    713.8,
+    437.8,
+    724.3
+   ],
+   "size": 8.8,
+   "testo": "questo privilegio se è incapacitato.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

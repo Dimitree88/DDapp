@@ -1,0 +1,804 @@
+{
+ "pagina_pdf": 99,
+ "pagina_stampata": 96,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    306.3,
+    38.4,
+    469.9,
+    49.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: MAGIA DA GUERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    49.9,
+    531.1,
+    60.5
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua l'azione di Attacco nel suo turno, il guer­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    61.0,
+    532.2,
+    71.5
+   ],
+   "size": 8.8,
+   "testo": "riero può sostituire uno degli attacchi con il lancio di uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    71.9,
+    522.3,
+    82.5
+   ],
+   "size": 8.8,
+   "testo": "dei suoi trucchetti da mago che abbia il tempo di lancio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    82.8,
+    357.5,
+    93.4
+   ],
+   "size": 8.8,
+   "testo": "di un'azione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    103.4,
+    460.6,
+    114.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: COLPO MISTICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    114.8,
+    521.6,
+    125.3
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero apprende a infliggere i colpi della sua arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    125.7,
+    510.6,
+    136.3
+   ],
+   "size": 8.8,
+   "testo": "affinché compromettano la capacità di una creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    136.8,
+    512.4,
+    147.3
+   ],
+   "size": 8.8,
+   "testo": "di resistere ai suoi incantesimi. Quando colpisce una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    147.7,
+    529.9,
+    158.3
+   ],
+   "size": 8.8,
+   "testo": "creatura con un attacco usando un'arma, quella creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    158.7,
+    528.7,
+    169.3
+   ],
+   "size": 8.8,
+   "testo": "subisce svantaggio al prossimo tiro salvezza che effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    169.8,
+    529.9,
+    180.4
+   ],
+   "size": 8.8,
+   "testo": "contro un incantesimo lanciato dal guerriero prima della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    180.8,
+    422.1,
+    191.3
+   ],
+   "size": 8.8,
+   "testo": "fine del suo turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    201.3,
+    461.7,
+    212.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: CARICA ARCANA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    212.7,
+    533.4,
+    223.3
+   ],
+   "size": 8.8,
+   "testo": "Quando utilizza l'Azione Impetuosa, il guerriero si teletra­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    223.7,
+    527.1,
+    234.2
+   ],
+   "size": 8.8,
+   "testo": "sporta di un massimo di 9 metri in uno spazio libero che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    234.7,
+    521.9,
+    245.3
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere. Può teletrasportarsi prima o dopo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    245.6,
+    384.0,
+    256.2
+   ],
+   "size": 8.8,
+   "testo": "l'azione aggiuntiva.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    266.1,
+    474.9,
+    277.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: MAGIA DA GUERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    276.9,
+    374.3,
+    288.2
+   ],
+   "size": 11.2,
+   "testo": "MIGLIORATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    288.3,
+    531.1,
+    298.9
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua l'azione di Attacco nel suo turno, il guer­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    299.3,
+    531.0,
+    309.8
+   ],
+   "size": 8.8,
+   "testo": "riero può sostituire due degli attacchi con il lancio di uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    308.1,
+    521.6,
+    320.9
+   ],
+   "size": 8.8,
+   "testo": "dei suoi incantesimi da mago di 1° e 2° livello che abbia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    321.2,
+    426.9,
+    331.8
+   ],
+   "size": 8.8,
+   "testo": "il tempo di lancio di un'azione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    341.2,
+    444.2,
+    354.3
+   ],
+   "size": 9.7,
+   "testo": "GUERRIERO PSIONICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    358.8,
+    468.0,
+    368.2
+   ],
+   "size": 8.6,
+   "testo": "Potenzia laforza.fisica con ilpoterepsionico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    372.4,
+    523.1,
+    383.0
+   ],
+   "size": 8.8,
+   "testo": "I guerrieri psionici risvegliano il potere della mente per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    383.4,
+    531.6,
+    393.9
+   ],
+   "size": 8.8,
+   "testo": "potenziare la forza fisica. Sfruttano il potere psionico per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    394.4,
+    528.0,
+    405.0
+   ],
+   "size": 8.8,
+   "testo": "infondere di energia i colpi delle loro armi, sferrare colpi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    405.5,
+    529.0,
+    416.1
+   ],
+   "size": 8.8,
+   "testo": "di energia telecinetica e creare barriere di forza mentale.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    425.9,
+    464.6,
+    437.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: POTERE PSIONICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    437.3,
+    531.1,
+    447.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio attinge a una fonte di energia psionica den­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    441.2,
+    536.2,
+    459.4
+   ],
+   "size": 8.8,
+   "testo": "tro di sé. È rappresentata dal suo dado di Energia Psionica,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    459.1,
+    501.8,
+    469.6
+   ],
+   "size": 8.8,
+   "testo": "che alimenta i poteri forniti da questa sottoclasse.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    470.2,
+    527.3,
+    480.8
+   ],
+   "size": 8.8,
+   "testo": "La tabella Dadi di energia del Guerriero Psionico mostra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    481.3,
+    534.1,
+    491.8
+   ],
+   "size": 8.8,
+   "testo": "la tipologia e il numero di dadi che il personaggio possiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    492.2,
+    503.6,
+    502.7
+   ],
+   "size": 8.8,
+   "testo": "quando raggiunge determinati livelli da guerriero.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    515.1,
+    527.4,
+    525.7
+   ],
+   "size": 10.6,
+   "testo": "DADI DI ENERGIA DEL GUERRIERO PSIONICO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    326.8,
+    529.7,
+    365.2,
+    540.3
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.0,
+    540.7,
+    364.9,
+    551.4
+   ],
+   "size": 10.6,
+   "testo": "Guerriero",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    396.5,
+    540.8,
+    446.8,
+    551.5
+   ],
+   "size": 10.6,
+   "testo": "Tipo di dado",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.2,
+    540.8,
+    514.3,
+    551.5
+   ],
+   "size": 10.6,
+   "testo": "Numero",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.4,
+    556.5,
+    347.9,
+    566.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.5,
+    556.5,
+    428.5,
+    566.1
+   ],
+   "size": 8.4,
+   "testo": "D6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    494.1,
+    556.5,
+    500.3,
+    566.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.4,
+    571.6,
+    347.9,
+    581.3
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.5,
+    571.7,
+    428.2,
+    581.3
+   ],
+   "size": 8.4,
+   "testo": "D8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    494.2,
+    571.8,
+    500.2,
+    581.4
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    586.8,
+    348.1,
+    596.5
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.5,
+    586.9,
+    428.0,
+    596.6
+   ],
+   "size": 8.4,
+   "testo": "D8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    494.2,
+    587.0,
+    500.2,
+    596.6
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.6,
+    602.1,
+    350.3,
+    611.7
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    413.5,
+    602.2,
+    429.5,
+    611.8
+   ],
+   "size": 8.4,
+   "testo": "DlO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    494.2,
+    602.2,
+    500.2,
+    611.9
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.5,
+    617.5,
+    351.5,
+    627.1
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    413.4,
+    617.5,
+    429.5,
+    627.2
+   ],
+   "size": 8.4,
+   "testo": "DlO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    492.3,
+    617.6,
+    503.9,
+    627.2
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.5,
+    632.7,
+    351.8,
+    642.4
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    413.7,
+    632.8,
+    429.4,
+    642.4
+   ],
+   "size": 8.4,
+   "testo": "Dl2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    492.5,
+    632.9,
+    503.5,
+    642.5
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    650.7,
+    521.0,
+    661.3
+   ],
+   "size": 8.8,
+   "testo": "Qualunque privilegio di questa sottoclasse che utilizza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    661.7,
+    535.5,
+    672.3
+   ],
+   "size": 8.8,
+   "testo": "un dado di Energia Psionica può usare solo i dadi di questa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    672.7,
+    527.9,
+    683.2
+   ],
+   "size": 8.8,
+   "testo": "sottoclasse. Per alcuni poteri bisogna spendere il dado di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    683.7,
+    519.6,
+    694.2
+   ],
+   "size": 8.8,
+   "testo": "Energia Psionica, come specificato nella descrizione di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    694.7,
+    525.6,
+    705.2
+   ],
+   "size": 8.8,
+   "testo": "quel potere e il personaggio non può usare uno di questi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    705.6,
+    457.1,
+    716.2
+   ],
+   "size": 8.8,
+   "testo": "poteri se ha già consumato tutti i dadi.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

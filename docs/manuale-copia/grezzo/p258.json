@@ -1,0 +1,1260 @@
+{
+ "pagina_pdf": 258,
+ "pagina_stampata": 255,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 255",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.9,
+    37.3,
+    260.1,
+    47.9
+   ],
+   "size": 8.8,
+   "testo": "Avvicinati. Il bersaglio si muove verso l'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    48.3,
+    270.5,
+    58.9
+   ],
+   "size": 8.8,
+   "testo": "seguendo il percorso più breve e diretto, terminando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    59.4,
+    234.5,
+    69.9
+   ],
+   "size": 8.8,
+   "testo": "il suo turno se giunge entro 1,5 metri da lui.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    70.3,
+    265.6,
+    80.9
+   ],
+   "size": 8.8,
+   "testo": "Fermo. Nel suo turno, il bersaglio non si muove e non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    81.3,
+    214.3,
+    91.9
+   ],
+   "size": 8.8,
+   "testo": "effettua alcuna azione o azione bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    92.3,
+    255.4,
+    102.8
+   ],
+   "size": 8.8,
+   "testo": "Fuggi. Il bersaglio usa il suo turno per allontanarsi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    103.2,
+    245.3,
+    113.8
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore nel modo più rapido possibile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    114.2,
+    257.7,
+    124.8
+   ],
+   "size": 8.8,
+   "testo": "Lascia. Il bersaglio lascia cadere ciò che stava impu­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    125.2,
+    193.5,
+    135.8
+   ],
+   "size": 8.8,
+   "testo": "gnando, poi termina il suo turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    136.2,
+    274.7,
+    146.8
+   ],
+   "size": 8.8,
+   "testo": "Prostati. Il bersaglio cade a terra prono e termina il suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    147.2,
+    89.7,
+    157.8
+   ],
+   "size": 8.8,
+   "testo": "turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    165.4,
+    258.9,
+    174.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    174.6,
+    269.5,
+    185.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può influenzare una creatura aggiuntiva",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    183.5,
+    199.8,
+    196.2
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 1°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    220.5,
+    221.9,
+    231.8
+   ],
+   "size": 11.2,
+   "testo": "COMPRENSIONE DEI LINGUAGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    231.9,
+    260.8,
+    242.3
+   ],
+   "size": 8.6,
+   "testo": "Divinazione di1° livello (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    247.4,
+    180.4,
+    257.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    258.5,
+    130.6,
+    268.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    269.5,
+    259.2,
+    279.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pizzico di fuliggine e di sale)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    280.6,
+    107.0,
+    290.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    296.7,
+    273.9,
+    307.3
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, l'incantatore comprende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    307.7,
+    285.4,
+    318.3
+   ],
+   "size": 8.8,
+   "testo": "il significato letterale di qualsiasi linguaggio che è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    318.7,
+    280.8,
+    329.2
+   ],
+   "size": 8.8,
+   "testo": "di sentire o vedere tramite segni. Comprende inoltre ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    329.7,
+    278.4,
+    340.2
+   ],
+   "size": 8.8,
+   "testo": "linguaggio scritto che sei in grado di vedere, ma deve toc­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    333.5,
+    284.8,
+    351.7
+   ],
+   "size": 8.8,
+   "testo": "care la superficie su cui sono scritte le parole. È necessario",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    351.6,
+    266.5,
+    362.2
+   ],
+   "size": 8.8,
+   "testo": "circa 1 minuto per leggere una pagina di testo. Questo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    362.5,
+    270.0,
+    373.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimo non decodifica simboli o messaggi segreti.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    397.4,
+    133.2,
+    408.7
+   ],
+   "size": 11.2,
+   "testo": "COMPULSIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    408.9,
+    182.5,
+    419.4
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi4° livello (bardo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    424.5,
+    146.8,
+    434.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    435.5,
+    114.9,
+    445.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    446.4,
+    121.7,
+    456.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    457.4,
+    208.5,
+    467.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    473.6,
+    282.9,
+    484.2
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura a scelta dell'incantatore, entro gittata e che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    484.7,
+    274.3,
+    495.2
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore è in grado di vedere, deve superare un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    495.7,
+    276.2,
+    506.3
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Saggezza, altrimenti diventa affascinata fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    506.8,
+    165.3,
+    517.4
+   ],
+   "size": 8.8,
+   "testo": "al termine dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    517.8,
+    253.0,
+    528.3
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, l'incantatore può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    528.8,
+    268.8,
+    539.4
+   ],
+   "size": 8.8,
+   "testo": "effettuare un'azione bonus per scegliere una direzione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    539.8,
+    279.8,
+    550.3
+   ],
+   "size": 8.8,
+   "testo": "orizzontale rispetto a lui. Ogni bersaglio affascinato deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    550.8,
+    272.3,
+    561.3
+   ],
+   "size": 8.8,
+   "testo": "usare la maggior parte possibile del suo movimento per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    561.7,
+    282.7,
+    572.3
+   ],
+   "size": 8.8,
+   "testo": "muoversi in quella direzione nel suo turno successivo, per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    572.7,
+    275.0,
+    583.3
+   ],
+   "size": 8.8,
+   "testo": "correndo la via più sicura. Dopo essersi mosso in questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    583.7,
+    273.6,
+    594.3
+   ],
+   "size": 8.8,
+   "testo": "modo, un bersaglio ripete il tiro salvezza e, se lo supera,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    594.8,
+    175.2,
+    605.3
+   ],
+   "size": 8.8,
+   "testo": "termina l'incantesimo su di sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    629.7,
+    124.3,
+    641.0
+   ],
+   "size": 11.2,
+   "testo": "COMUNIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    641.1,
+    178.4,
+    651.6
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi5° livello (chierico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    656.7,
+    189.8,
+    666.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    667.7,
+    130.7,
+    677.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    678.6,
+    172.4,
+    688.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (incenso)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    689.6,
+    122.1,
+    699.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    37.3,
+    516.1,
+    47.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore entra in contatto con una divinità o un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    48.3,
+    514.7,
+    58.8
+   ],
+   "size": 8.8,
+   "testo": "emissario divino e, prima della fine dell'incantesimo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    59.3,
+    528.2,
+    69.8
+   ],
+   "size": 8.8,
+   "testo": "pone fino a tre domande a cui è possibile rispondere con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    70.3,
+    536.7,
+    80.9
+   ],
+   "size": 8.8,
+   "testo": "sì o no. L'incantatore riceve una risposta corretta per ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    81.3,
+    348.2,
+    91.8
+   ],
+   "size": 8.8,
+   "testo": "domanda.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    92.2,
+    531.7,
+    102.8
+   ],
+   "size": 8.8,
+   "testo": "Gli esseri divini non sono necessariamente onniscienti,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    103.2,
+    516.1,
+    113.8
+   ],
+   "size": 8.8,
+   "testo": "quindi l'incantatore potrebbe ricevere \"ignoto\" come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    114.2,
+    538.3,
+    124.7
+   ],
+   "size": 8.8,
+   "testo": "risposta se una domanda riguarda informazioni che vanno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    125.2,
+    524.0,
+    135.8
+   ],
+   "size": 8.8,
+   "testo": "oltre le loro conoscenze. Nel caso in cui una risposta di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    136.1,
+    533.2,
+    146.7
+   ],
+   "size": 8.8,
+   "testo": "una parola sola possa rivelarsi fuorviante o contraria agli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    147.2,
+    525.9,
+    157.8
+   ],
+   "size": 8.8,
+   "testo": "interessi della divinità, il DM può fornire come risposta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    158.3,
+    372.6,
+    168.9
+   ],
+   "size": 8.8,
+   "testo": "una breve frase.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    169.2,
+    521.5,
+    179.8
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore lancia l'incantesimo più volte prima",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    180.2,
+    515.0,
+    190.8
+   ],
+   "size": 8.8,
+   "testo": "di completare un riposo lungo, esiste una probabilità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    191.2,
+    517.1,
+    201.7
+   ],
+   "size": 8.8,
+   "testo": "cumulativa del 25% di non ottenere risposta per ogni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    202.3,
+    390.2,
+    212.9
+   ],
+   "size": 8.8,
+   "testo": "lancio dopo il primo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    237.0,
+    464.3,
+    248.3
+   ],
+   "size": 11.2,
+   "testo": "COMUNIONE CON LA NATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    248.5,
+    454.7,
+    258.8
+   ],
+   "size": 8.6,
+   "testo": "Divinazione di5° livello (druido, ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    264.0,
+    442.6,
+    273.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    275.2,
+    383.2,
+    284.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    286.1,
+    374.6,
+    295.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    297.1,
+    380.2,
+    306.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    313.2,
+    514.6,
+    323.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore entra in comunione con gli spiriti della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    324.2,
+    515.1,
+    334.8
+   ],
+   "size": 8.8,
+   "testo": "natura e acquisisce conoscenza dell'area circostante.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    335.2,
+    508.3,
+    345.7
+   ],
+   "size": 8.8,
+   "testo": "All'aperto, l'incantesimo fornisce all'incantatore la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    346.1,
+    522.6,
+    356.7
+   ],
+   "size": 8.8,
+   "testo": "conoscenza dell'area entro un raggio di 4,5 chilometri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    357.1,
+    522.6,
+    367.7
+   ],
+   "size": 8.8,
+   "testo": "Nelle caverne e in altri ambienti naturali sotterranei, il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    368.1,
+    530.4,
+    378.6
+   ],
+   "size": 8.8,
+   "testo": "raggio è limitato a 90 metri. L'incantesimo non funziona",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    379.1,
+    536.5,
+    389.7
+   ],
+   "size": 8.8,
+   "testo": "nei luoghi in cui la natura è stata sostituita da costruzioni,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    390.1,
+    421.3,
+    400.7
+   ],
+   "size": 8.8,
+   "testo": "come castelli e insediamenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    401.2,
+    538.5,
+    411.7
+   ],
+   "size": 8.8,
+   "testo": "Scegli tre dei seguenti fatti; l'incantatore apprende i fatti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    412.3,
+    461.9,
+    422.8
+   ],
+   "size": 8.8,
+   "testo": "che riguardano l'area dell'incantesimo:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    428.7,
+    410.0,
+    439.3
+   ],
+   "size": 8.8,
+   "testo": "Luoghi di insediamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    439.6,
+    529.4,
+    450.2
+   ],
+   "size": 8.8,
+   "testo": "Ubicazione dei portali che conducono verso altri piani",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.8,
+    450.6,
+    363.5,
+    461.2
+   ],
+   "size": 8.8,
+   "testo": "di esistenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    461.6,
+    513.2,
+    472.2
+   ],
+   "size": 8.8,
+   "testo": "Ubicazione di una creatura con grado di sfida pari",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    472.6,
+    528.3,
+    483.1
+   ],
+   "size": 8.8,
+   "testo": "o superiore a 10 (a scelta del DM) che sia un celestiale,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.6,
+    483.5,
+    534.8,
+    494.1
+   ],
+   "size": 8.8,
+   "testo": "un elementale, un folletto, un immondo o un non morto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.9,
+    494.7,
+    532.5,
+    505.2
+   ],
+   "size": 8.8,
+   "testo": "Il tipo di pianta, minerale o bestia più diffuso (l'incanta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.6,
+    505.7,
+    434.2,
+    516.2
+   ],
+   "size": 8.8,
+   "testo": "tore sceglie quale apprendere)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    516.7,
+    432.5,
+    527.3
+   ],
+   "size": 8.8,
+   "testo": "Ubicazione di distese d'acqua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    533.1,
+    525.8,
+    543.7
+   ],
+   "size": 8.8,
+   "testo": "Ad esempio, l'incantatore può determinare l'ubicazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    544.1,
+    522.3,
+    554.6
+   ],
+   "size": 8.8,
+   "testo": "di un potente mostro situato in quell'area, l'ubicazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    555.1,
+    531.2,
+    565.6
+   ],
+   "size": 8.8,
+   "testo": "delle distese d'acqua e l'ubicazione di eventuali cittadine.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    589.9,
+    379.0,
+    601.2
+   ],
+   "size": 11.2,
+   "testo": "CONFUSIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    601.2,
+    521.9,
+    611.7
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi4° livello (bardo, druido, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    617.0,
+    399.7,
+    626.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    628.1,
+    372.2,
+    637.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    639.0,
+    458.1,
+    648.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (tre gusci di noce)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    650.0,
+    461.3,
+    659.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    666.2,
+    536.5,
+    676.7
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura all'interno di una sfera del raggio di 3 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    677.2,
+    537.5,
+    687.7
+   ],
+   "size": 8.8,
+   "testo": "centrata su un punto entro gittata a scelta dell'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    688.1,
+    521.2,
+    698.7
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Saggezza, altrimenti",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

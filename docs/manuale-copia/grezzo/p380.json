@@ -1,0 +1,1176 @@
+{
+ "pagina_pdf": 380,
+ "pagina_stampata": 377,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 377",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    62.6,
+    51.8,
+    164.2,
+    63.2
+   ],
+   "size": 11.2,
+   "testo": "UTILIZZO [AZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    63.2,
+    288.7,
+    73.8
+   ],
+   "size": 8.8,
+   "testo": "Di norma un personaggio interagisce con un oggetto men­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    74.2,
+    291.1,
+    84.8
+   ],
+   "size": 8.8,
+   "testo": "tre fa qualcos'altro, come per esempio quando sfodera una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    85.2,
+    291.2,
+    95.8
+   ],
+   "size": 8.8,
+   "testo": "spada come parte dell'azione di Attacco. Quando l'utilizzo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    96.2,
+    281.8,
+    106.8
+   ],
+   "size": 8.8,
+   "testo": "di un oggetto richiede un'azione, il personaggio effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    107.2,
+    139.3,
+    117.8
+   ],
+   "size": 8.8,
+   "testo": "l'azione di Utilizzo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    141.9,
+    125.4,
+    153.2
+   ],
+   "size": 11.2,
+   "testo": "VANTAGGIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    153.3,
+    277.8,
+    163.9
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio dispone di vantaggio a una prova",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    164.3,
+    285.9,
+    174.9
+   ],
+   "size": 8.8,
+   "testo": "con d20, tira due d20 e scegli il risultato più alto. Un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    175.3,
+    290.8,
+    185.9
+   ],
+   "size": 8.8,
+   "testo": "non può essere influenzato da più di un vantaggio; inoltre,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    186.4,
+    267.7,
+    196.9
+   ],
+   "size": 8.8,
+   "testo": "vantaggio e svantaggio sullo stesso tiro si annullano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    197.4,
+    258.5,
+    208.0
+   ],
+   "size": 8.8,
+   "testo": "a vicenda. Vedianche capitolo 1 (\"Prove con d20\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    232.1,
+    116.4,
+    243.5
+   ],
+   "size": 11.2,
+   "testo": "VELOCITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    243.5,
+    272.7,
+    254.1
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura ha la propria velocità, che è la distanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    254.5,
+    284.7,
+    265.0
+   ],
+   "size": 8.8,
+   "testo": "in metri che la creatura può percorrere quando si muove",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.9,
+    265.6,
+    280.8,
+    276.1
+   ],
+   "size": 8.8,
+   "testo": "nel suo turno. Vedianche \"Nuotare\", \"Saltare\", \"Scalare\",",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    276.6,
+    269.3,
+    287.2
+   ],
+   "size": 8.8,
+   "testo": "\"Strisciare\", \"Volare\" e capitolo 1 (\"Combattimento\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    71.2,
+    287.5,
+    262.2,
+    298.1
+   ],
+   "size": 8.8,
+   "testo": "Velocità speciali. Alcune creature hanno velocità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    298.6,
+    279.4,
+    309.1
+   ],
+   "size": 8.8,
+   "testo": "speciali, come la velocità di nuoto, la velocità di scalata,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    309.6,
+    276.8,
+    320.1
+   ],
+   "size": 8.8,
+   "testo": "la velocità di scavo o la velocità di volo (ognuna di esse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    320.5,
+    281.0,
+    331.1
+   ],
+   "size": 8.8,
+   "testo": "è descritta nel glossario). Se il tuo personaggio ha più di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    331.5,
+    292.0,
+    342.0
+   ],
+   "size": 8.8,
+   "testo": "una velocità, sceglie quale utilizzare per muoversi; quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    342.5,
+    267.4,
+    353.0
+   ],
+   "size": 8.8,
+   "testo": "si muove, può passare da un tipo di velocità all'altra.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    353.5,
+    271.2,
+    364.1
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il personaggio cambia velocità, sottrai",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    364.4,
+    267.3,
+    375.0
+   ],
+   "size": 8.8,
+   "testo": "la distanza di cui si è già mosso dalla nuova velocità:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    375.5,
+    281.1,
+    386.0
+   ],
+   "size": 8.8,
+   "testo": "il risultato determina la distanza di cui può ancora muo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    386.5,
+    280.4,
+    397.1
+   ],
+   "size": 8.8,
+   "testo": "versi. Se il risultato è pari o inferiore a 0, il personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    397.4,
+    284.9,
+    408.0
+   ],
+   "size": 8.8,
+   "testo": "non può usare la nuova velocità durante il movimento in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    408.6,
+    291.1,
+    419.2
+   ],
+   "size": 8.8,
+   "testo": "corso. Per esempio, se il personaggio possiede una velocità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    419.6,
+    291.9,
+    430.2
+   ],
+   "size": 8.8,
+   "testo": "di 9 metri e una velocità in volo di 18 metri, può volare per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    430.6,
+    285.0,
+    441.2
+   ],
+   "size": 8.8,
+   "testo": "6 metri, poi camminare per 3 metri e poi volare di nuovo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    441.6,
+    128.6,
+    452.2
+   ],
+   "size": 8.8,
+   "testo": "per altri 9 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.0,
+    452.6,
+    275.1,
+    463.1
+   ],
+   "size": 8.8,
+   "testo": "Modifiche alle velocità. Se un effetto aumenta o dimi­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    463.6,
+    286.8,
+    474.1
+   ],
+   "size": 8.8,
+   "testo": "nuisce la velocità del personaggio per un certo periodo di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    474.6,
+    282.9,
+    485.1
+   ],
+   "size": 8.8,
+   "testo": "tempo, anche le sue velocità speciali (se presenti) aumen­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    485.5,
+    281.3,
+    496.1
+   ],
+   "size": 8.8,
+   "testo": "tano o diminuiscono della stessa quantità e per la stessa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    496.7,
+    287.3,
+    507.2
+   ],
+   "size": 8.8,
+   "testo": "durata. Per esempio, se la velocità del personaggio scende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    507.7,
+    292.7,
+    518.2
+   ],
+   "size": 8.8,
+   "testo": "a 0 e il personaggio ha anche una velocità di scalata, anche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    518.6,
+    282.8,
+    529.2
+   ],
+   "size": 8.8,
+   "testo": "la sua velocità di scalata scende a 0. Allo stesso modo, se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    529.7,
+    284.9,
+    540.3
+   ],
+   "size": 8.8,
+   "testo": "la sua velocità è dimezzata e il personaggio ha anche una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.1,
+    540.6,
+    286.6,
+    551.2
+   ],
+   "size": 8.8,
+   "testo": "velocità di volo, anche la sua velocità di volo è dimezzata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.6,
+    575.4,
+    171.4,
+    586.7
+   ],
+   "size": 11.2,
+   "testo": "VELOCITÀ DI NUOTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    586.7,
+    280.2,
+    597.2
+   ],
+   "size": 8.8,
+   "testo": "La velocità di nuoto può essere usata per nuotare senza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    597.6,
+    270.8,
+    608.2
+   ],
+   "size": 8.8,
+   "testo": "spendere movimento extra normalmente associato al",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    608.8,
+    221.2,
+    619.4
+   ],
+   "size": 8.8,
+   "testo": "nuoto. Vedianche \"Nuotare\" e \"Velocità\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    643.6,
+    179.5,
+    654.9
+   ],
+   "size": 11.2,
+   "testo": "VELOCITÀ DI SCALATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    654.9,
+    265.2,
+    665.5
+   ],
+   "size": 8.8,
+   "testo": "La velocità di scalata può essere usata al posto della",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    665.9,
+    268.4,
+    676.5
+   ],
+   "size": 8.8,
+   "testo": "velocità per arrampicarsi su una superficie verticale,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    676.9,
+    285.8,
+    687.4
+   ],
+   "size": 8.8,
+   "testo": "senza spendere movimento extra normalmente associato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    688.0,
+    238.1,
+    698.5
+   ],
+   "size": 8.8,
+   "testo": "alla scalata. Vedianche \"Scalare\" e \"Velocità\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    52.0,
+    419.6,
+    63.4
+   ],
+   "size": 11.2,
+   "testo": "VELOCITÀ DI SCAVO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    63.4,
+    528.5,
+    73.9
+   ],
+   "size": 8.8,
+   "testo": "Una creatura dotata di velocità di scavo può usare tale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    74.4,
+    545.0,
+    84.9
+   ],
+   "size": 8.8,
+   "testo": "velocità per muoversi attraverso la sabbia, la terra, il fango",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    85.4,
+    534.8,
+    95.9
+   ],
+   "size": 8.8,
+   "testo": "o il ghiaccio. Non può scavare nella roccia solida, a meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    96.2,
+    543.7,
+    106.8
+   ],
+   "size": 8.8,
+   "testo": "che non abbia un tratto che le consenta di farlo. Vedianche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    107.3,
+    357.6,
+    117.9
+   ],
+   "size": 8.8,
+   "testo": "\"Velocità\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    142.0,
+    414.8,
+    153.4
+   ],
+   "size": 11.2,
+   "testo": "VELOCITÀ DI VOLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    153.5,
+    535.7,
+    164.0
+   ],
+   "size": 8.8,
+   "testo": "La velocità di volo può essere usata per spostarsi in aria.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    164.5,
+    540.0,
+    175.0
+   ],
+   "size": 8.8,
+   "testo": "Fin quando il personaggio ha la velocità di volo, può rima­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.8,
+    175.4,
+    538.7,
+    186.0
+   ],
+   "size": 8.8,
+   "testo": "nere sospeso in aria fino a che non atterra, cade o muore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    186.5,
+    440.7,
+    197.0
+   ],
+   "size": 8.8,
+   "testo": "Vedianche \"Volare\" e \"Velocità\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    221.2,
+    384.4,
+    232.6
+   ],
+   "size": 11.2,
+   "testo": "VISTA CIECA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    232.6,
+    539.7,
+    243.1
+   ],
+   "size": 8.8,
+   "testo": "Un personaggio con vista cieca è in grado di vedere entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    243.6,
+    520.2,
+    254.1
+   ],
+   "size": 8.8,
+   "testo": "un raggio specifico, senza fare affidamento sul senso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    254.5,
+    529.2,
+    265.1
+   ],
+   "size": 8.8,
+   "testo": "della vista. Entro quel raggio, il personaggio è in grado",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    265.6,
+    537.7,
+    276.2
+   ],
+   "size": 8.8,
+   "testo": "di vedere qualsiasi cosa che non si trovi dietro copertura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    276.6,
+    536.5,
+    287.2
+   ],
+   "size": 8.8,
+   "testo": "totale, anche se è accecato o circondato da oscurità. Inol­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    287.6,
+    540.0,
+    298.1
+   ],
+   "size": 8.8,
+   "testo": "tre, entro quel raggio, il personaggio riesce a vedere tutto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.8,
+    298.6,
+    390.3,
+    309.1
+   ],
+   "size": 8.8,
+   "testo": "ciò che è invisibile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.0,
+    333.3,
+    378.8,
+    344.6
+   ],
+   "size": 11.2,
+   "testo": "VISTA PURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.1,
+    344.6,
+    525.3,
+    355.2
+   ],
+   "size": 8.8,
+   "testo": "Se un personaggio ha vista pura, la sua vista entro un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    355.6,
+    527.5,
+    366.2
+   ],
+   "size": 8.8,
+   "testo": "raggio specifico è migliorata. Entro quel raggio, grazie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    366.6,
+    530.4,
+    377.1
+   ],
+   "size": 8.8,
+   "testo": "alla sua vista, il personaggio riesce a vedere attraverso:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    383.0,
+    542.3,
+    393.6
+   ],
+   "size": 8.8,
+   "testo": "Oscurità. Il personaggio è in grado di vedere nell'oscurità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.7,
+    394.0,
+    378.3,
+    404.6
+   ],
+   "size": 8.8,
+   "testo": "magica e non.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    405.1,
+    536.1,
+    415.7
+   ],
+   "size": 8.8,
+   "testo": "Invisibilità. Il personaggio è in grado di vedere creature",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.7,
+    416.1,
+    396.9,
+    426.7
+   ],
+   "size": 8.8,
+   "testo": "e oggetti invisibili.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    427.2,
+    533.3,
+    437.8
+   ],
+   "size": 8.8,
+   "testo": "Illusioni visive. Le illusioni visive appaiono trasparenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.7,
+    438.1,
+    531.3,
+    448.7
+   ],
+   "size": 8.8,
+   "testo": "al personaggio, il quale supera automaticamente i tiri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.7,
+    449.2,
+    415.8,
+    459.7
+   ],
+   "size": 8.8,
+   "testo": "salvezza contro di esse.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    460.2,
+    529.7,
+    470.7
+   ],
+   "size": 8.8,
+   "testo": "Trasformazioni. Il personaggio discerne la vera forma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.7,
+    471.1,
+    533.2,
+    481.7
+   ],
+   "size": 8.8,
+   "testo": "di tutte le creature e degli oggetti che vede e che sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.7,
+    482.1,
+    421.1,
+    492.7
+   ],
+   "size": 8.8,
+   "testo": "stati alterati dalla magia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    493.2,
+    544.9,
+    503.7
+   ],
+   "size": 8.8,
+   "testo": "Piano Etereo. Il personaggio è in grado di vedere nel Piano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.8,
+    504.1,
+    535.2,
+    514.7
+   ],
+   "size": 8.8,
+   "testo": "Etereo. Vedianche appendice A (\"Piani di transizione\").",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    539.0,
+    358.4,
+    550.4
+   ],
+   "size": 11.2,
+   "testo": "VOLARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    550.3,
+    526.0,
+    560.8
+   ],
+   "size": 8.8,
+   "testo": "Esistono vari effetti che consentono a una creatura di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    561.3,
+    530.1,
+    571.8
+   ],
+   "size": 8.8,
+   "testo": "volare. Mentre il tuo personaggio vola, cade al suolo se",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    572.3,
+    536.3,
+    582.8
+   ],
+   "size": 8.8,
+   "testo": "è incapacitato o prono, o se la sua velocità di volo scende",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    583.2,
+    530.3,
+    593.8
+   ],
+   "size": 8.8,
+   "testo": "a 0. In queste circostanze, il personaggio può rimanere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    594.2,
+    515.2,
+    604.8
+   ],
+   "size": 8.8,
+   "testo": "sospeso in aria se è in grado di fluttuare. Vedianche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    605.3,
+    428.2,
+    615.8
+   ],
+   "size": 8.8,
+   "testo": "\"Caduta\" e \"Velocità di volo\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    640.2,
+    400.3,
+    651.6
+   ],
+   "size": 11.2,
+   "testo": "VULNERABILITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    651.5,
+    516.5,
+    662.1
+   ],
+   "size": 8.8,
+   "testo": "Se un personaggio è vulnerabile a un tipo di danno,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    662.4,
+    542.3,
+    673.0
+   ],
+   "size": 8.8,
+   "testo": "i danni di quel tipo che subisce sono raddoppiati. La vulne­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    673.4,
+    540.2,
+    684.0
+   ],
+   "size": 8.8,
+   "testo": "rabilità si applica una sola volta per ogni istanza di danno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    684.5,
+    523.6,
+    695.0
+   ],
+   "size": 8.8,
+   "testo": "ricevuta. Vedianche capitolo 1 (\"Danni e guarigione\").",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

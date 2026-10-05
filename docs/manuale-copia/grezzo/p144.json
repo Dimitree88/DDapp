@@ -1,0 +1,1423 @@
+{
+ "pagina_pdf": 144,
+ "pagina_stampata": 141,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 141",
+ "immagini": [
+  [
+   0,
+   9,
+   556,
+   399
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.0,
+    50.4,
+    156.7,
+    61.1
+   ],
+   "size": 10.6,
+   "testo": "TRATTI DEL RANGER",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    64.8,
+    117.7,
+    75.5
+   ],
+   "size": 10.6,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    75.8,
+    94.3,
+    86.4
+   ],
+   "size": 10.6,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    90.3,
+    99.6,
+    101.0
+   ],
+   "size": 10.6,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    104.9,
+    109.5,
+    115.6
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    115.9,
+    119.7,
+    126.6
+   ],
+   "size": 10.6,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    130.5,
+    109.3,
+    141.2
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    141.5,
+    105.1,
+    152.2
+   ],
+   "size": 10.6,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    169.1,
+    109.4,
+    179.8
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    180.1,
+    99.1,
+    190.8
+   ],
+   "size": 10.6,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    194.7,
+    109.5,
+    205.4
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    205.8,
+    116.4,
+    216.5
+   ],
+   "size": 10.6,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    220.3,
+    128.0,
+    231.0
+   ],
+   "size": 10.6,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    231.4,
+    88.7,
+    242.1
+   ],
+   "size": 10.6,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.1,
+    65.6,
+    221.6,
+    75.3
+   ],
+   "size": 8.4,
+   "testo": "Destrezza e Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.1,
+    91.1,
+    250.6,
+    100.8
+   ],
+   "size": 8.4,
+   "testo": "DlO per ogni livello da ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.0,
+    105.8,
+    207.2,
+    115.4
+   ],
+   "size": 8.4,
+   "testo": "Forza e Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    131.3,
+    272.5,
+    141.0
+   ],
+   "size": 9.2,
+   "testo": "Tre a scelta tra: Addestrare Animali,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.2,
+    143.3,
+    281.4,
+    153.0
+   ],
+   "size": 8.4,
+   "testo": "Atletica, Furtività, Indagare, Intuizione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.1,
+    155.4,
+    275.7,
+    165.0
+   ],
+   "size": 8.4,
+   "testo": "Natura, Percezione o Sopravvivenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.2,
+    169.9,
+    236.2,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici e da guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    195.6,
+    261.8,
+    205.2
+   ],
+   "size": 8.4,
+   "testo": "Armature leggere e medie; scudi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    221.2,
+    264.2,
+    230.9
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e B: (A) armatura di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    233.0,
+    268.3,
+    242.7
+   ],
+   "size": 8.4,
+   "testo": "cuoio borchiato, scimitarra, spada",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    245.2,
+    272.8,
+    254.8
+   ],
+   "size": 8.4,
+   "testo": "corta, arco lungo, 20 frecce, faretra,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.2,
+    257.1,
+    272.4,
+    266.7
+   ],
+   "size": 8.4,
+   "testo": "focus druidico (rametto di vischio),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.4,
+    269.2,
+    263.7,
+    278.9
+   ],
+   "size": 8.4,
+   "testo": "dotazione da esploratore e 7 mo;",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.4,
+    281.3,
+    188.5,
+    290.9
+   ],
+   "size": 8.4,
+   "testo": "o (B) 150 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    319.0,
+    76.1,
+    369.7
+   ],
+   "size": 29.9,
+   "testo": "L",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    78.5,
+    297.8,
+    259.8,
+    327.0
+   ],
+   "size": 6.6,
+   "testo": "ONTANO DAL CAOS CITTADINO, IN MEZZO AL",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    78.1,
+    327.9,
+    285.2,
+    338.5
+   ],
+   "size": 8.8,
+   "testo": "verde delle foreste incontaminate e in vaste praterie,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    78.4,
+    338.9,
+    284.5,
+    349.5
+   ],
+   "size": 8.8,
+   "testo": "i ranger proteggono senza sosta la natura. Imparano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    350.0,
+    285.3,
+    360.5
+   ],
+   "size": 8.8,
+   "testo": "a braccare il proprio bersaglio come farebbe un predatore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    360.8,
+    278.1,
+    371.4
+   ],
+   "size": 8.8,
+   "testo": "muovendosi agilmente nelle terre selvagge e mimetizzan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    371.8,
+    180.8,
+    382.4
+   ],
+   "size": 8.8,
+   "testo": "dosi con l'ambiente circostante.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    382.9,
+    264.1,
+    393.5
+   ],
+   "size": 8.8,
+   "testo": "Grazie al loro legame con la natura, possono anche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    393.9,
+    285.7,
+    404.4
+   ],
+   "size": 8.8,
+   "testo": "lanciare incantesimi che ne incarnano i poteri primordiali.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    404.9,
+    275.5,
+    415.5
+   ],
+   "size": 8.8,
+   "testo": "I ranger affinano le proprie capacità e magie in modo da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    416.0,
+    281.9,
+    426.6
+   ],
+   "size": 8.8,
+   "testo": "proteggere il mondo dalle nefandezze compiute da mostri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    426.9,
+    93.5,
+    437.5
+   ],
+   "size": 8.8,
+   "testo": "e tiranni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    447.0,
+    220.3,
+    460.1
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UN RANGER...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    467.6,
+    241.1,
+    478.9
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    478.9,
+    259.5,
+    489.5
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutti i tratti nella tabella Tratti del ranger.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    487.8,
+    275.4,
+    500.6
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi del ranger di 1° livello elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    501.1,
+    170.6,
+    511.6
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del ranger.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    521.5,
+    240.2,
+    532.8
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    532.9,
+    275.9,
+    543.5
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i seguenti tratti dalla tabella Tratti del ranger:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.3,
+    543.8,
+    270.7,
+    554.4
+   ],
+   "size": 8.8,
+   "testo": "Dado Vita, competenza nelle armi da guerra, compe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    554.8,
+    267.2,
+    565.4
+   ],
+   "size": 8.8,
+   "testo": "tenza in un'abilità a scelta dalla lista delle abilità del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    565.9,
+    260.9,
+    576.4
+   ],
+   "size": 8.8,
+   "testo": "ranger, oltre che competenza in armature leggere,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    576.9,
+    120.6,
+    587.4
+   ],
+   "size": 8.8,
+   "testo": "medie e scudi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    585.6,
+    275.4,
+    598.4
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi del ranger di 1° livello elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    598.8,
+    277.3,
+    609.4
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del ranger. Per determinare il numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    609.9,
+    284.3,
+    620.5
+   ],
+   "size": 8.8,
+   "testo": "di slot incantesimo disponibili, vedi le regole multiclasse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    621.0,
+    120.2,
+    631.6
+   ],
+   "size": 8.8,
+   "testo": "nel capitolo 2.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    641.1,
+    268.6,
+    654.2
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE DEL RANGER",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    657.6,
+    277.3,
+    668.2
+   ],
+   "size": 8.8,
+   "testo": "Il ranger ottiene i seguenti privilegi di classe quando rag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    668.5,
+    282.0,
+    679.1
+   ],
+   "size": 8.8,
+   "testo": "giunge i livelli specificati. Tali privilegi sono elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    679.5,
+    162.9,
+    690.1
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del ranger.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    50.5,
+    441.0,
+    61.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    61.9,
+    529.4,
+    72.5
+   ],
+   "size": 8.8,
+   "testo": "Il ranger ha imparato a incanalare l'essenza della natura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    73.0,
+    518.8,
+    83.5
+   ],
+   "size": 8.8,
+   "testo": "per usare la magia. Consulta il capitolo 7 per le regole",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    84.0,
+    533.6,
+    94.5
+   ],
+   "size": 8.8,
+   "testo": "relative al lancio degli incantesimi. Le informazioni sotto­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    94.9,
+    535.2,
+    105.4
+   ],
+   "size": 8.8,
+   "testo": "stanti spiegano come applicare tali regole agli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    105.9,
+    536.7,
+    116.5
+   ],
+   "size": 8.8,
+   "testo": "da ranger, elencati nella relativa lista degli incantesimi più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    117.0,
+    450.9,
+    127.5
+   ],
+   "size": 8.8,
+   "testo": "avanti nella descrizione della classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    127.9,
+    531.8,
+    138.5
+   ],
+   "size": 8.8,
+   "testo": "Slotincantesimo. La tabella Privilegi del ranger mostra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    138.9,
+    533.3,
+    149.5
+   ],
+   "size": 8.8,
+   "testo": "gli slot incantesimo disponibili per i propri incantesimi di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    147.8,
+    534.6,
+    160.6
+   ],
+   "size": 8.8,
+   "testo": "1° livello o superiore. Tutti gli slot incantesimo consumati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    161.0,
+    538.8,
+    171.6
+   ],
+   "size": 8.8,
+   "testo": "vengono ripristinati una volta completato un riposo lungo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.4,
+    171.9,
+    537.5,
+    182.5
+   ],
+   "size": 8.8,
+   "testo": "Incantesimipreparati di 1° livello o superiore. Con questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    183.0,
+    532.7,
+    193.6
+   ],
+   "size": 8.8,
+   "testo": "privilegio, il personaggio prepara una lista di incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    191.8,
+    532.5,
+    204.5
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello o superiore che può lanciare. Per iniziare, sce­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    202.9,
+    539.1,
+    215.6
+   ],
+   "size": 8.8,
+   "testo": "glie due incantesimi da ranger di 1° livello. Sono consigliati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.6,
+    216.0,
+    429.4,
+    226.6
+   ],
+   "size": 8.8,
+   "testo": "curaferite e colpo intrappolante.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.1,
+    227.1,
+    533.2,
+    237.6
+   ],
+   "size": 8.8,
+   "testo": "Il numero di incantesimi nella lista aumenta man mano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    238.0,
+    536.3,
+    248.6
+   ],
+   "size": 8.8,
+   "testo": "che il personaggio ottiene livelli da ranger, come mostrato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    248.9,
+    533.5,
+    259.5
+   ],
+   "size": 8.8,
+   "testo": "nella colonna Incantesimi preparati della tabella Privilegi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    260.0,
+    535.1,
+    270.6
+   ],
+   "size": 8.8,
+   "testo": "del ranger. Ogni volta che il numero cresce, il ranger deve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    271.1,
+    533.3,
+    281.7
+   ],
+   "size": 8.8,
+   "testo": "scegliere altri incantesimi finché il numero sulla lista non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    282.1,
+    525.7,
+    292.6
+   ],
+   "size": 8.8,
+   "testo": "combacia con quello mostrato nella tabella Privilegi del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    293.0,
+    526.6,
+    303.6
+   ],
+   "size": 8.8,
+   "testo": "ranger. Gli incantesimi scelti devono essere di un livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    304.1,
+    521.2,
+    314.7
+   ],
+   "size": 8.8,
+   "testo": "di cui possiede degli slot incantesimo. Per esempio, nel",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    312.9,
+    526.7,
+    325.6
+   ],
+   "size": 8.8,
+   "testo": "caso di un ranger di 5° livello, la sua lista di incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    323.8,
+    520.5,
+    336.5
+   ],
+   "size": 8.8,
+   "testo": "preparati può includere sei incantesimi da ranger di 1°",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    334.8,
+    456.7,
+    347.5
+   ],
+   "size": 8.8,
+   "testo": "e 2° livello in qualsiasi combinazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    347.9,
+    531.1,
+    358.5
+   ],
+   "size": 8.8,
+   "testo": "Se un altro privilegio gli fornisce incantesimi che sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    358.9,
+    527.4,
+    369.4
+   ],
+   "size": 8.8,
+   "testo": "sempre preparati, questi non contano ai fini del numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    369.8,
+    533.9,
+    380.4
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi preparabili con questo privilegio. Tuttavia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    381.0,
+    496.4,
+    391.6
+   ],
+   "size": 8.8,
+   "testo": "valgono comunque come incantesimi da ranger.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    391.9,
+    524.9,
+    402.5
+   ],
+   "size": 8.8,
+   "testo": "Cambiaregliincantesimipreparati. Quando completa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    403.0,
+    528.1,
+    413.5
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo, il ranger può sostituire un incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    414.1,
+    537.3,
+    424.6
+   ],
+   "size": 8.8,
+   "testo": "sulla propria lista con un altro incantesimo di cui possiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    425.0,
+    347.7,
+    435.6
+   ],
+   "size": 8.8,
+   "testo": "degli slot.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    436.0,
+    522.8,
+    446.6
+   ],
+   "size": 8.8,
+   "testo": "Caratteristica da Incantatore. Saggezza è la caratteri­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    446.9,
+    525.8,
+    457.5
+   ],
+   "size": 8.8,
+   "testo": "stica da incantatore usata per gli incantesimi da ranger.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.8,
+    458.0,
+    532.0,
+    468.5
+   ],
+   "size": 8.8,
+   "testo": "Focus da incantatore. Il ranger può usare un focus drui­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    468.9,
+    453.2,
+    479.5
+   ],
+   "size": 8.8,
+   "testo": "dico per i suoi incantesimi da ranger.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    489.3,
+    474.8,
+    500.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: NEMICO PRESCELTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    500.8,
+    526.8,
+    511.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo marchio del cacciatore del ranger è sempre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    504.8,
+    518.0,
+    523.0
+   ],
+   "size": 8.8,
+   "testo": "considerato come preparato. È possibile lanciarlo due",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    522.8,
+    524.2,
+    533.4
+   ],
+   "size": 8.8,
+   "testo": "volte senza spendere alcuno slot incantesimo. I suoi uti­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    533.9,
+    532.9,
+    544.5
+   ],
+   "size": 8.8,
+   "testo": "lizzi vengono ripristinati dopo aver completato un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    544.9,
+    334.6,
+    555.5
+   ],
+   "size": 8.8,
+   "testo": "lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    555.8,
+    528.5,
+    566.4
+   ],
+   "size": 8.8,
+   "testo": "Il numero di volte in cui è possibile lanciare tale incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    566.8,
+    527.8,
+    577.3
+   ],
+   "size": 8.8,
+   "testo": "tesimo aumenta al raggiungimento di determinati livelli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    577.8,
+    535.2,
+    588.3
+   ],
+   "size": 8.8,
+   "testo": "da ranger, come mostrato nella colonna Nemico Prescelto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    588.8,
+    436.0,
+    599.3
+   ],
+   "size": 8.8,
+   "testo": "della tabella Privilegi del ranger.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    609.3,
+    480.8,
+    620.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: PADRONANZA D'ARMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    620.8,
+    519.4,
+    631.3
+   ],
+   "size": 8.8,
+   "testo": "Il ranger è addestrato nell'uso delle armi, e per questo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    631.8,
+    527.2,
+    642.3
+   ],
+   "size": 8.8,
+   "testo": "può avvalersi delle proprietà di padronanza per due tipi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    642.8,
+    529.1,
+    653.3
+   ],
+   "size": 8.8,
+   "testo": "di armi a sua scelta in cui ha competenza, come gli archi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    653.8,
+    399.7,
+    664.4
+   ],
+   "size": 8.8,
+   "testo": "lunghi e le spade corte.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    664.7,
+    534.0,
+    675.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che completa un riposo lungo, può cambiare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    675.7,
+    531.9,
+    686.3
+   ],
+   "size": 8.8,
+   "testo": "il tipo di arma utilizzato. Per esempio, è possibile passare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    686.7,
+    510.1,
+    697.3
+   ],
+   "size": 8.8,
+   "testo": "alle proprietà di padronanza per scimitarre e spade",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    697.7,
+    339.7,
+    708.3
+   ],
+   "size": 8.8,
+   "testo": "lunghe.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

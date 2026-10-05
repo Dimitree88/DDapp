@@ -1,0 +1,708 @@
+{
+ "pagina_pdf": 90,
+ "pagina_stampata": 87,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.7,
+    40.4,
+    216.1,
+    51.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: DONO OCEANICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    51.8,
+    282.8,
+    62.3
+   ],
+   "size": 8.8,
+   "testo": "Invece di generare l'emanazione di Furia dei Mari intorno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    62.8,
+    272.8,
+    73.4
+   ],
+   "size": 8.8,
+   "testo": "a sé, il druido può generarla intorno a una creatura con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    73.8,
+    272.6,
+    84.4
+   ],
+   "size": 8.8,
+   "testo": "senziente entro 18 metri da sé. La creatura ottiene tutti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    84.8,
+    256.6,
+    95.4
+   ],
+   "size": 8.8,
+   "testo": "i benefici dell'emanazione e, per essa, utilizza la CD",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    95.8,
+    252.1,
+    106.3
+   ],
+   "size": 8.8,
+   "testo": "del tiro salvezza sull'incantesimo e il modificatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    106.8,
+    146.6,
+    117.3
+   ],
+   "size": 8.8,
+   "testo": "di Saggezza del druido.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    117.8,
+    268.9,
+    128.4
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, il druido può generare l'emanazione intorno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    128.8,
+    282.6,
+    139.4
+   ],
+   "size": 8.8,
+   "testo": "a se stesso e alla creatura spendendo due utilizzi di Forma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    139.7,
+    198.5,
+    150.3
+   ],
+   "size": 8.8,
+   "testo": "Selvatica anziché uno per generarla.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    160.0,
+    203.1,
+    173.1
+   ],
+   "size": 9.7,
+   "testo": "CIRCOLO DELLE STELLE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    177.5,
+    217.3,
+    186.9
+   ],
+   "size": 8.6,
+   "testo": "Imbriglia isegretinascosti nelle costellazioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    191.1,
+    265.2,
+    201.7
+   ],
+   "size": 8.8,
+   "testo": "Il Circolo delle Stelle traccia le costellazioni da tempo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    202.3,
+    277.6,
+    212.8
+   ],
+   "size": 8.8,
+   "testo": "immemorabile, rivelandone i segreti nascosti. Grazie alla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    213.2,
+    275.9,
+    223.8
+   ],
+   "size": 8.8,
+   "testo": "comprensione di questi segreti, i druidi di questo circolo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    224.2,
+    208.1,
+    234.8
+   ],
+   "size": 8.8,
+   "testo": "cercano di sfruttare i poteri del cosmo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    244.6,
+    203.5,
+    256.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: CARTA CELESTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    256.0,
+    270.4,
+    266.6
+   ],
+   "size": 8.8,
+   "testo": "Il druido, nell'ambito dei suoi studisulla volta del cielo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    260.1,
+    282.9,
+    278.3
+   ],
+   "size": 8.8,
+   "testo": "ha creato una carta celeste. È un oggetto Minuscolo e può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    278.1,
+    282.0,
+    288.7
+   ],
+   "size": 8.8,
+   "testo": "assolvere la funzione di focus da incantatore per gli incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    289.1,
+    267.5,
+    299.6
+   ],
+   "size": 8.8,
+   "testo": "tesimi da druido; il giocatore determina l'aspetto della",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    300.1,
+    272.5,
+    310.7
+   ],
+   "size": 8.8,
+   "testo": "carta celeste tirando i dadi sulla tabella \"Carta Celeste\",",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    311.1,
+    162.5,
+    321.6
+   ],
+   "size": 8.8,
+   "testo": "oppure può sceglierne uno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    322.0,
+    264.7,
+    332.6
+   ],
+   "size": 8.8,
+   "testo": "Mentre il druido impugna la mappa, gli incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.3,
+    333.0,
+    275.3,
+    343.5
+   ],
+   "size": 8.8,
+   "testo": "dardo tracciante e guida si considerano preparati; inoltre,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    343.9,
+    262.8,
+    354.5
+   ],
+   "size": 8.8,
+   "testo": "può lanciare dardo tracciante senza spendere uno slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    354.9,
+    279.8,
+    365.5
+   ],
+   "size": 8.8,
+   "testo": "incantesimo. Il personaggio può lanciarlo in questo modo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    365.9,
+    276.1,
+    376.5
+   ],
+   "size": 8.8,
+   "testo": "un numero di volte pari al valore del suo modificatore di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    369.9,
+    275.0,
+    388.1
+   ],
+   "size": 8.8,
+   "testo": "Saggezza (minimo una volta) e recupera tutti gli utilizzi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    387.9,
+    232.7,
+    398.5
+   ],
+   "size": 8.8,
+   "testo": "consumati quando completa un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    398.9,
+    264.2,
+    409.5
+   ],
+   "size": 8.8,
+   "testo": "Se il druido perde la carta celeste, può compiere un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    410.0,
+    282.0,
+    420.6
+   ],
+   "size": 8.8,
+   "testo": "rituale di 1 ora per crearne un'altra con la magia. Il rituale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    421.1,
+    276.0,
+    431.6
+   ],
+   "size": 8.8,
+   "testo": "può essere eseguito durante un riposo breve o lungo e la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    432.0,
+    185.1,
+    442.6
+   ],
+   "size": 8.8,
+   "testo": "carta precedente viene distrutta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    454.6,
+    133.2,
+    465.3
+   ],
+   "size": 10.6,
+   "testo": "CARTA CELESTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    469.4,
+    159.7,
+    480.1
+   ],
+   "size": 10.6,
+   "testo": "1d6 Aspetto della Carta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.2,
+    484.5,
+    236.9,
+    494.1
+   ],
+   "size": 8.4,
+   "testo": "Una pergamena con le descrizioni delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    84.7,
+    496.5,
+    134.3,
+    506.1
+   ],
+   "size": 8.4,
+   "testo": "costellazioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.1,
+    511.0,
+    72.1,
+    520.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.2,
+    511.1,
+    265.8,
+    520.7
+   ],
+   "size": 8.4,
+   "testo": "Una tavoletta di pietra con dei piccoli fori incisi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.3,
+    525.7,
+    71.8,
+    535.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.2,
+    525.7,
+    274.4,
+    535.3
+   ],
+   "size": 8.4,
+   "testo": "Una pelle di orsogufo lavorata con simboli stellari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.8,
+    540.2,
+    72.0,
+    549.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.2,
+    540.3,
+    257.6,
+    549.9
+   ],
+   "size": 8.4,
+   "testo": "Una raccolta di carte celesti rilegate in ebano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.4,
+    554.8,
+    71.9,
+    564.4
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.2,
+    554.8,
+    255.4,
+    564.4
+   ],
+   "size": 8.4,
+   "testo": "Un cristallo inciso con forme di costellazioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.0,
+    569.3,
+    72.1,
+    579.0
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.2,
+    569.3,
+    241.8,
+    579.0
+   ],
+   "size": 8.4,
+   "testo": "Un disco di vetro inciso con costellazioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    593.0,
+    209.4,
+    604.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: FORMA SIDERALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    604.5,
+    269.4,
+    615.0
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il druido può spendere un utilizzo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    615.6,
+    262.1,
+    626.1
+   ],
+   "size": 8.8,
+   "testo": "del privilegio Forma Selvatica per assumere la forma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    626.6,
+    229.0,
+    637.1
+   ],
+   "size": 8.8,
+   "testo": "di un corpo siderale invece di mutare forma.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    637.5,
+    277.5,
+    648.1
+   ],
+   "size": 8.8,
+   "testo": "Una volta assunta la forma siderale, il druido mantiene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    648.6,
+    268.8,
+    659.1
+   ],
+   "size": 8.8,
+   "testo": "le sue statistiche di gioco, ma il suo corpo diventa lumi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    659.5,
+    277.0,
+    670.1
+   ],
+   "size": 8.8,
+   "testo": "noso e le sue articolazioni brillano come stelle congiunte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    670.5,
+    278.3,
+    681.1
+   ],
+   "size": 8.8,
+   "testo": "da linee luminose in una carta celeste. La forma ottenuta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    681.5,
+    265.6,
+    692.1
+   ],
+   "size": 8.8,
+   "testo": "emana luce intensa ih un raggio di 3 metri e luce fioca",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    692.5,
+    268.0,
+    703.0
+   ],
+   "size": 8.8,
+   "testo": "per ulteriori 3 metri. La forma permane per 10 minuti.",
+   "col": "S",
+   "corta": false
+  }
+ ]
+}

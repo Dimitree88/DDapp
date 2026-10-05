@@ -1,0 +1,895 @@
+{
+ "pagina_pdf": 116,
+ "pagina_stampata": 113,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / II3",
+ "immagini": [
+  [
+   28,
+   -1,
+   589,
+   540
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    66.1,
+    59.6,
+    128.3,
+    69.6
+   ],
+   "size": 8.2,
+   "testo": "INCANTESIMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    72.8,
+    266.5,
+    82.5
+   ],
+   "size": 8.4,
+   "testo": "Gli incantesimi che il mago aggiunge a l proprio libro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    83.8,
+    250.4,
+    93.5
+   ],
+   "size": 8.4,
+   "testo": "sono un riflesso degli studi magici che conduce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    94.7,
+    266.6,
+    104.4
+   ],
+   "size": 8.4,
+   "testo": "Tuttavia, durante le sue avventure potrebbe trovarne",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    105.8,
+    264.3,
+    115.4
+   ],
+   "size": 8.4,
+   "testo": "degli altri da aggiungere al suo repertorio. Per esem­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    116.8,
+    257.9,
+    126.4
+   ],
+   "size": 8.4,
+   "testo": "pio, il personaggio potrebbe scoprirne uno su una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    127.7,
+    243.2,
+    137.5
+   ],
+   "size": 9.2,
+   "testo": "pergamena magica e copiarlo nel proprio libro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.6,
+    138.7,
+    254.6,
+    148.3
+   ],
+   "size": 8.4,
+   "testo": "Copiare un incantesimo nel libro. Quando il per­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    149.8,
+    264.4,
+    159.5
+   ],
+   "size": 8.4,
+   "testo": "sonaggio trova un incantesimo da mago di 1° livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    160.8,
+    272.1,
+    170.5
+   ],
+   "size": 8.4,
+   "testo": "o superiore, può aggiungerlo al proprio libro degli incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.2,
+    171.8,
+    271.5,
+    181.4
+   ],
+   "size": 8.4,
+   "testo": "tesimi se è di un livello che ne consente la preparazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.4,
+    182.8,
+    276.0,
+    192.4
+   ],
+   "size": 8.4,
+   "testo": "e se c'è abbastanza tempo per copiarlo. Per ogni livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.3,
+    193.8,
+    270.9,
+    203.5
+   ],
+   "size": 8.4,
+   "testo": "dell'incantesimo, la trascrizione richiede 2 ore e costa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.8,
+    204.9,
+    261.7,
+    214.5
+   ],
+   "size": 8.4,
+   "testo": "50 mo. Dopodiché, il mago può preparare l'incante­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.0,
+    215.9,
+    268.9,
+    225.5
+   ],
+   "size": 8.4,
+   "testo": "simo come tutti gli altri già presenti nel proprio libro.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    72.5,
+    226.8,
+    272.2,
+    236.5
+   ],
+   "size": 8.4,
+   "testo": "Copiare il libro. Il mago può copiare un incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.3,
+    237.9,
+    258.2,
+    247.6
+   ],
+   "size": 8.4,
+   "testo": "dal proprio libro in un altro. Questo procedimento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.3,
+    248.9,
+    261.5,
+    258.5
+   ],
+   "size": 8.4,
+   "testo": "è simile alla copia di un nuovo incantesimo nel suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    260.0,
+    268.0,
+    269.6
+   ],
+   "size": 8.4,
+   "testo": "libro, ma è più rapido, dal momento che sa già come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.7,
+    271.0,
+    260.5,
+    280.6
+   ],
+   "size": 8.4,
+   "testo": "lanciarlo. Infatti, dovrà impiegare solo l ora e spen­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.3,
+    282.0,
+    265.8,
+    291.6
+   ],
+   "size": 8.4,
+   "testo": "dere 10 mo per ogni livello dell'incantesimo copiato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.7,
+    293.0,
+    267.5,
+    302.6
+   ],
+   "size": 8.4,
+   "testo": "Se il mago perde il suo libro degli incantesimi, può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.7,
+    303.8,
+    262.3,
+    313.5
+   ],
+   "size": 8.4,
+   "testo": "usare la stessa procedura per trascrivere gli incante­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    315.0,
+    267.8,
+    324.6
+   ],
+   "size": 8.4,
+   "testo": "simi che ha preparato in un nuovo libro degli incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    325.9,
+    276.5,
+    335.5
+   ],
+   "size": 8.4,
+   "testo": "simi. Tuttavia, per completarlo dovrà trovarne di nuovi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.9,
+    336.9,
+    273.2,
+    346.5
+   ],
+   "size": 8.4,
+   "testo": "Ecco perché molti maghi conservano sempre una copia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.3,
+    347.8,
+    245.8,
+    357.5
+   ],
+   "size": 8.4,
+   "testo": "di sicurezza del proprio libro degli incantesimi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    373.3,
+    250.7,
+    384.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SOTTOCLASSE DEL MAGO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    384.8,
+    275.6,
+    395.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene una sottoclasse del mago a scelta.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    395.7,
+    277.2,
+    406.2
+   ],
+   "size": 8.8,
+   "testo": "Dopo la descrizione di questa classe, troverai una spiega­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.5,
+    406.7,
+    278.8,
+    417.3
+   ],
+   "size": 8.8,
+   "testo": "zione per ciascuna delle seguenti sottoclassi: Abiuratore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    417.8,
+    264.7,
+    428.4
+   ],
+   "size": 8.8,
+   "testo": "Divinatore, Invocatore e Illusionista. Una sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    428.8,
+    281.9,
+    439.4
+   ],
+   "size": 8.8,
+   "testo": "è una specializzazione che conferisce dei privilegi a deter­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    439.7,
+    283.3,
+    450.2
+   ],
+   "size": 8.8,
+   "testo": "minati livelli da mago. Per il resto della sua carriera, il per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    450.7,
+    275.0,
+    461.3
+   ],
+   "size": 8.8,
+   "testo": "sonaggio ottiene tutti i privilegi della sottoclasse pari al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    461.6,
+    236.4,
+    472.2
+   ],
+   "size": 8.8,
+   "testo": "suo livello da mago attuale o a quelli inferiori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    482.1,
+    250.9,
+    493.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 4: AUMENTO DEI PUNTEGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    492.9,
+    162.8,
+    504.2
+   ],
+   "size": 11.2,
+   "testo": "DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    504.3,
+    266.4,
+    514.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene l'aumento dei punteggi di carat­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    515.4,
+    265.6,
+    525.9
+   ],
+   "size": 8.8,
+   "testo": "teristica (vedi capitolo 5) o un altro talento a scelta di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.5,
+    526.3,
+    267.7,
+    536.9
+   ],
+   "size": 8.8,
+   "testo": "cui possiede i prerequisiti. Questo privilegio si ottiene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    535.1,
+    247.5,
+    547.9
+   ],
+   "size": 8.8,
+   "testo": "nuovamente all'8°, al 12° e al 16° livello da mago.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    557.7,
+    269.1,
+    569.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: MEMORIZZARE INCANTESIMI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    569.1,
+    275.0,
+    579.7
+   ],
+   "size": 8.8,
+   "testo": "Quando il mago completa un riposo breve, può studiare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    580.1,
+    267.9,
+    590.7
+   ],
+   "size": 8.8,
+   "testo": "il proprio libro degli incantesimi e sostituire uno degli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    589.0,
+    268.1,
+    601.6
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da mago preparati di 1° livello o superiore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    599.8,
+    233.7,
+    612.6
+   ],
+   "size": 8.8,
+   "testo": "con un altro di 1° livello o superiore dal libro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    622.7,
+    286.6,
+    634.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: MAESTRIA NEGLI INCANTESIMI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    634.1,
+    273.5,
+    644.6
+   ],
+   "size": 8.8,
+   "testo": "Il mago raggiunge una tale padronanza nell'uso di certi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    645.1,
+    268.9,
+    655.7
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da poterli lanciare a volontà. Dal suo libro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    653.8,
+    281.5,
+    666.5
+   ],
+   "size": 8.8,
+   "testo": "degli incantesimi, scegli un incantesimo di 1° livello e uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    664.9,
+    280.7,
+    677.6
+   ],
+   "size": 8.8,
+   "testo": "di 2° livello con il tempo di lancio di un'azione. Tali incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    678.0,
+    273.1,
+    688.6
+   ],
+   "size": 8.8,
+   "testo": "tesimi sono sempre considerati come preparati. Inoltre,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    689.1,
+    273.6,
+    699.7
+   ],
+   "size": 8.8,
+   "testo": "il mago può lanciarli al loro livello più basso senza spen­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    700.0,
+    279.1,
+    710.6
+   ],
+   "size": 8.8,
+   "testo": "dere slot incantesimo. Per lanciarli a un livello superiore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    711.0,
+    225.7,
+    721.5
+   ],
+   "size": 8.8,
+   "testo": "deve invece spendere uno slot incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    515.4,
+    526.8,
+    525.9
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il mago completa un riposo lungo, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    526.4,
+    533.1,
+    537.0
+   ],
+   "size": 8.8,
+   "testo": "studiare il proprio libro e sostituire uno di quegli incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    537.4,
+    534.3,
+    548.0
+   ],
+   "size": 8.8,
+   "testo": "simi con un altro pertinente dello stesso livello (preso dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    548.4,
+    333.9,
+    558.9
+   ],
+   "size": 8.8,
+   "testo": "libro).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    568.7,
+    445.0,
+    580.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    580.1,
+    519.8,
+    590.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    591.1,
+    520.6,
+    601.6
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    595.0,
+    513.4,
+    613.2
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono del richiamo degli incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    622.7,
+    510.2,
+    634.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: INCANTESIMI PERSONALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    631.9,
+    518.1,
+    644.7
+   ],
+   "size": 8.8,
+   "testo": "Il mago sceglie due incantesimi di 3° livello contenuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    645.2,
+    516.1,
+    655.8
+   ],
+   "size": 8.8,
+   "testo": "nel suo libro degli incantesimi come suoi incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    656.1,
+    533.2,
+    666.7
+   ],
+   "size": 8.8,
+   "testo": "personali. Tali incantesimi sono sempre considerati come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    667.1,
+    537.3,
+    677.6
+   ],
+   "size": 8.8,
+   "testo": "preparati. Inoltre, il mago può lanciarli una volta ciascuno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    675.9,
+    527.0,
+    688.6
+   ],
+   "size": 8.8,
+   "testo": "al 3° livello senza spendere slot incantesimo. Quando lo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    689.0,
+    530.4,
+    699.6
+   ],
+   "size": 8.8,
+   "testo": "fa, non può lanciarli di nuovo in questo modo finché non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    700.0,
+    537.7,
+    710.6
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo breve o lungo. Per lanciarli a un livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    711.0,
+    520.2,
+    721.6
+   ],
+   "size": 8.8,
+   "testo": "superiore, deve invece spendere uno slot incantesimo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1249 @@
+{
+ "pagina_pdf": 40,
+ "pagina_stampata": 37,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 37",
+ "immagini": [
+  [
+   297,
+   24,
+   589,
+   484
+  ],
+  [
+   55,
+   562,
+   536,
+   647
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.8,
+    39.9,
+    177.4,
+    51.3
+   ],
+   "size": 11.2,
+   "testo": "SCEGLIERE UNA SPECIE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    51.3,
+    275.9,
+    61.9
+   ],
+   "size": 8.8,
+   "testo": "Scegli una specie per il personaggio. Le seguenti opzioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    62.3,
+    282.8,
+    72.9
+   ],
+   "size": 8.8,
+   "testo": "di specie sono descritte nel capitolo 4: aasimar, dragonide,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    73.3,
+    283.3,
+    83.9
+   ],
+   "size": 8.8,
+   "testo": "nano, elfo, gnomo, goliath, halfling, umano, orco e tiefling.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    84.3,
+    264.0,
+    94.8
+   ],
+   "size": 8.8,
+   "testo": "Dopo che hai scelto la specie, scrivila sulla scheda del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    95.2,
+    192.8,
+    105.8
+   ],
+   "size": 8.8,
+   "testo": "personaggio, poi registrane i tratti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    106.2,
+    281.2,
+    116.8
+   ],
+   "size": 8.8,
+   "testo": "La taglia e la velocità del personaggio sono determinate",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    117.3,
+    281.3,
+    127.9
+   ],
+   "size": 8.8,
+   "testo": "dalla sua specie; annotale negli appositi spazi della scheda",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    128.3,
+    266.0,
+    138.9
+   ],
+   "size": 8.8,
+   "testo": "del personaggio (è sufficiente scrivere la prima lettera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    139.2,
+    104.4,
+    149.8
+   ],
+   "size": 8.8,
+   "testo": "della taglia).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    159.7,
+    264.1,
+    171.1
+   ],
+   "size": 11.2,
+   "testo": "IMMAGINARE IL PASSATO E IL PRESENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    171.1,
+    274.5,
+    181.7
+   ],
+   "size": 8.8,
+   "testo": "Lasciati ispirare dal background e dalla specie del perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    182.2,
+    278.8,
+    192.8
+   ],
+   "size": 8.8,
+   "testo": "naggio per immaginare il suo passato, che ora alimenta il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    193.2,
+    285.2,
+    203.8
+   ],
+   "size": 8.8,
+   "testo": "presente. Tienilo a mente e rispondi alle seguenti domande",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    204.2,
+    182.4,
+    214.8
+   ],
+   "size": 8.8,
+   "testo": "come se fossi il tuo personaggio:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    220.6,
+    147.3,
+    231.2
+   ],
+   "size": 8.8,
+   "testo": "Chi è la tua famiglia?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    231.7,
+    221.5,
+    242.2
+   ],
+   "size": 8.8,
+   "testo": "Chi era il tuo più caro amico d'infanzia?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    242.6,
+    265.6,
+    253.2
+   ],
+   "size": 8.8,
+   "testo": "Hai trascorso l'infanzia con un animale domestico?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    253.6,
+    237.4,
+    264.2
+   ],
+   "size": 8.8,
+   "testo": "Hai una relazione romantica? Se sì, con chi?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    264.7,
+    271.2,
+    275.3
+   ],
+   "size": 8.8,
+   "testo": "Fai parte di un'organizzazione, come una gilda o una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    275.8,
+    217.2,
+    286.3
+   ],
+   "size": 8.8,
+   "testo": "religione? Se sì, ne sei ancora membro?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    286.6,
+    282.8,
+    297.2
+   ],
+   "size": 8.8,
+   "testo": "Quali elementi del tuo passato ti hanno ispirato a vivere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    297.7,
+    196.3,
+    308.3
+   ],
+   "size": 8.8,
+   "testo": "un presente votato all'avventura?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    318.1,
+    172.8,
+    329.5
+   ],
+   "size": 11.2,
+   "testo": "SCEGLIERE LE LINGUE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    329.5,
+    261.6,
+    340.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio conosce almeno tre lingue: il Comune",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    340.5,
+    270.0,
+    351.0
+   ],
+   "size": 8.8,
+   "testo": "più altre due lingue a tua scelta o assegnate in maniera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    351.4,
+    280.8,
+    362.0
+   ],
+   "size": 8.8,
+   "testo": "casuale effettuando un tiro sulla tabella Lingue standard.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    362.4,
+    269.8,
+    373.0
+   ],
+   "size": 8.8,
+   "testo": "Conoscere una lingua significa poterla usare per comu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    373.4,
+    277.6,
+    383.9
+   ],
+   "size": 8.8,
+   "testo": "nicare, leggere e scrivere. Anche la classe e altri privilegi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    384.5,
+    218.3,
+    395.0
+   ],
+   "size": 8.8,
+   "testo": "potrebbero fornire accesso a delle lingue.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    395.4,
+    275.9,
+    406.0
+   ],
+   "size": 8.8,
+   "testo": "La tabella Lingue standard elenca le lingue più diffuse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    406.6,
+    269.3,
+    417.1
+   ],
+   "size": 8.8,
+   "testo": "nei mondi di D&D. Ogni personaggio giocante conosce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    417.5,
+    278.2,
+    428.1
+   ],
+   "size": 8.8,
+   "testo": "il Comune, le cui origini risalgono alla metropoli planare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    428.5,
+    275.6,
+    439.1
+   ],
+   "size": 8.8,
+   "testo": "di Sigil, il fulcro del multiverso. Le altre lingue standard",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.3,
+    439.4,
+    276.2,
+    450.0
+   ],
+   "size": 8.8,
+   "testo": "nacquero con i primi membri delle specie più importanti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    450.4,
+    279.4,
+    461.0
+   ],
+   "size": 8.8,
+   "testo": "dei mondi di D&D e da allora si sono ampiamente diffuse.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    461.5,
+    285.5,
+    472.0
+   ],
+   "size": 8.8,
+   "testo": "La tabella Lingue rare elenca le lingue segrete o derivate",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    472.4,
+    282.0,
+    483.0
+   ],
+   "size": 8.8,
+   "testo": "da altri piani di esistenza e quindi meno diffuse nei mondi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    483.4,
+    280.8,
+    494.0
+   ],
+   "size": 8.8,
+   "testo": "del Piano Materiale. Alcuni privilegi permettono al perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    494.5,
+    195.6,
+    505.1
+   ],
+   "size": 8.8,
+   "testo": "naggio di imparare una lingua rara.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    517.3,
+    150.8,
+    527.9
+   ],
+   "size": 10.6,
+   "testo": "LINGUE STANDARD",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    533.2,
+    82.9,
+    542.4
+   ],
+   "size": 8.2,
+   "testo": "1d12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    576.3,
+    80.2,
+    585.9
+   ],
+   "size": 8.4,
+   "testo": "2-3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.3,
+    590.8,
+    75.5,
+    600.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.7,
+    605.5,
+    75.3,
+    615.1
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.5,
+    620.3,
+    75.5,
+    629.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    634.8,
+    80.6,
+    644.4
+   ],
+   "size": 8.4,
+   "testo": "7-8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.5,
+    649.4,
+    75.5,
+    659.0
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    663.9,
+    83.1,
+    673.5
+   ],
+   "size": 8.4,
+   "testo": "10-11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.9,
+    678.4,
+    79.0,
+    688.0
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.8,
+    533.2,
+    119.0,
+    542.4
+   ],
+   "size": 8.2,
+   "testo": "Lingua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.1,
+    547.2,
+    125.8,
+    556.8
+   ],
+   "size": 8.4,
+   "testo": "Comune",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.7,
+    561.7,
+    131.5,
+    571.3
+   ],
+   "size": 8.4,
+   "testo": "Draconico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.7,
+    576.3,
+    113.4,
+    585.9
+   ],
+   "size": 8.4,
+   "testo": "Elfico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.2,
+    590.9,
+    122.9,
+    600.5
+   ],
+   "size": 8.4,
+   "testo": "Gigante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.2,
+    605.6,
+    134.4,
+    615.2
+   ],
+   "size": 8.4,
+   "testo": "Gnomesco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.2,
+    620.2,
+    118.9,
+    629.9
+   ],
+   "size": 8.4,
+   "testo": "Gobiin",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.7,
+    634.8,
+    124.0,
+    644.4
+   ],
+   "size": 8.4,
+   "testo": "Halfling",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.3,
+    649.4,
+    191.1,
+    659.0
+   ],
+   "size": 8.4,
+   "testo": "Lingua dei Segni Comune",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.7,
+    663.9,
+    119.8,
+    673.6
+   ],
+   "size": 8.4,
+   "testo": "Nanico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.2,
+    678.5,
+    129.0,
+    688.1
+   ],
+   "size": 8.4,
+   "testo": "Orchesco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.6,
+    533.2,
+    238.4,
+    542.4
+   ],
+   "size": 8.2,
+   "testo": "Origine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.5,
+    547.1,
+    225.6,
+    556.7
+   ],
+   "size": 8.4,
+   "testo": "Sigil",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.9,
+    561.6,
+    235.2,
+    571.3
+   ],
+   "size": 8.4,
+   "testo": "Draghi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.9,
+    576.2,
+    221.2,
+    585.9
+   ],
+   "size": 8.4,
+   "testo": "Elfi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.4,
+    590.8,
+    237.0,
+    600.4
+   ],
+   "size": 8.4,
+   "testo": "Giganti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.4,
+    605.4,
+    236.0,
+    615.1
+   ],
+   "size": 8.4,
+   "testo": "Gnomi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.4,
+    620.1,
+    249.6,
+    629.8
+   ],
+   "size": 8.4,
+   "testo": "Goblinoidi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    208.1,
+    634.7,
+    240.1,
+    644.3
+   ],
+   "size": 8.4,
+   "testo": "Halfling",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.3,
+    649.3,
+    225.9,
+    658.9
+   ],
+   "size": 8.4,
+   "testo": "Sigil",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.9,
+    663.9,
+    228.2,
+    673.5
+   ],
+   "size": 8.4,
+   "testo": "Nani",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.4,
+    678.4,
+    231.0,
+    688.0
+   ],
+   "size": 8.4,
+   "testo": "Orchi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    517.2,
+    376.2,
+    527.9
+   ],
+   "size": 10.6,
+   "testo": "LINGUE RARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    533.1,
+    339.5,
+    542.3
+   ],
+   "size": 8.2,
+   "testo": "Lingua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    547.1,
+    345.5,
+    556.7
+   ],
+   "size": 8.4,
+   "testo": "Abissale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    561.6,
+    350.8,
+    571.2
+   ],
+   "size": 8.4,
+   "testo": "Celestiale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    576.1,
+    346.0,
+    585.8
+   ],
+   "size": 8.4,
+   "testo": "Druidico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    590.7,
+    399.6,
+    600.3
+   ],
+   "size": 8.4,
+   "testo": "Gergo delle Profondità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    605.4,
+    373.7,
+    615.0
+   ],
+   "size": 8.4,
+   "testo": "Gergo Ladresco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    620.1,
+    347.8,
+    629.7
+   ],
+   "size": 8.4,
+   "testo": "Infernale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    634.7,
+    362.0,
+    644.3
+   ],
+   "size": 8.4,
+   "testo": "Primordiale*",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    649.3,
+    341.6,
+    658.9
+   ],
+   "size": 8.4,
+   "testo": "Silvano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    663.8,
+    365.7,
+    673.5
+   ],
+   "size": 8.4,
+   "testo": "Sottocomune",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.7,
+    533.0,
+    450.4,
+    542.2
+   ],
+   "size": 8.2,
+   "testo": "Origine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    471.4,
+    385.4,
+    535.0,
+    394.4
+   ],
+   "size": 6.9,
+   "testo": "RIFLETTI SU COME",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    471.2,
+    396.7,
+    546.0,
+    403.3
+   ],
+   "size": 5.4,
+   "testo": "SI COM B I NANO LE TUE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    471.2,
+    406.8,
+    540.4,
+    413.4
+   ],
+   "size": 5.4,
+   "testo": "SCELTE PER AVVIARE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    471.6,
+    416.8,
+    528.2,
+    423.5
+   ],
+   "size": 5.4,
+   "testo": "IL PERSONAGGIO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    471.2,
+    426.7,
+    534.4,
+    433.4
+   ],
+   "size": 5.4,
+   "testo": "SULLA STRADA PER",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    471.3,
+    435.5,
+    516.8,
+    444.5
+   ],
+   "size": 6.9,
+   "testo": "LAVVENTURA.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.9,
+    546.9,
+    495.8,
+    556.6
+   ],
+   "size": 8.4,
+   "testo": "Demoni dell'Abisso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    561.4,
+    456.1,
+    571.1
+   ],
+   "size": 8.4,
+   "testo": "Celestiali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    576.1,
+    476.5,
+    585.7
+   ],
+   "size": 8.4,
+   "testo": "Circoli druidici",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    590.6,
+    465.5,
+    600.2
+   ],
+   "size": 8.4,
+   "testo": "Aberrazioni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.8,
+    605.2,
+    497.5,
+    614.8
+   ],
+   "size": 8.4,
+   "testo": "Gilde criminali varie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.9,
+    620.1,
+    506.3,
+    629.7
+   ],
+   "size": 8.4,
+   "testo": "Diavoli dei Nove Inferi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.9,
+    634.5,
+    461.8,
+    644.1
+   ],
+   "size": 8.4,
+   "testo": "Elementali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.9,
+    649.3,
+    478.3,
+    658.9
+   ],
+   "size": 8.4,
+   "testo": "La Selva Fatata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    420.5,
+    663.8,
+    470.5,
+    673.4
+   ],
+   "size": 8.4,
+   "testo": "Il Sottosuolo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    682.6,
+    520.5,
+    691.0
+   ],
+   "size": 8.4,
+   "testo": "*Il Primordiale include i dialetti Aquan, Auran, Ignan e Terran.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    691.6,
+    527.8,
+    700.0
+   ],
+   "size": 8.4,
+   "testo": "Le creature che parlano dialetti diversi di una stessa lingua sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    700.6,
+    417.1,
+    709.0
+   ],
+   "size": 8.4,
+   "testo": "in grado di comunicare tra loro.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

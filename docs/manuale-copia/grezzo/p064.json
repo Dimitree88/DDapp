@@ -1,0 +1,835 @@
+{
+ "pagina_pdf": 64,
+ "pagina_stampata": 61,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 61",
+ "immagini": [
+  [
+   53,
+   -1,
+   589,
+   582
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    64.9,
+    40.0,
+    198.9,
+    50.6
+   ],
+   "size": 10.6,
+   "testo": "IL REPERTORIO DI UN BARDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.9,
+    53.6,
+    266.9,
+    63.3
+   ],
+   "size": 8.4,
+   "testo": "Il tuo bardo suona un tamburo mentre canta le gesta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    64.6,
+    265.9,
+    74.3
+   ],
+   "size": 8.4,
+   "testo": "di antichi eroi? Strimpella un liuto cantando melodie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    75.7,
+    271.3,
+    85.3
+   ],
+   "size": 8.4,
+   "testo": "romantiche? Intona arie così potenti da commuovere?",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.9,
+    86.6,
+    274.8,
+    96.3
+   ],
+   "size": 8.4,
+   "testo": "Recita monologhi drammatici tratti da tragedie classiche?",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.7,
+    97.4,
+    273.2,
+    107.0
+   ],
+   "size": 8.4,
+   "testo": "Usa il ritmo di una danza popolare per coordinare il movi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.7,
+    108.6,
+    274.3,
+    118.2
+   ],
+   "size": 8.4,
+   "testo": "mento degli alleati in battaglia? Compone versi maliziosi?",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    71.5,
+    119.6,
+    263.7,
+    129.2
+   ],
+   "size": 8.4,
+   "testo": "Quando interpreti un bardo, rifletti sullo stile di per­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    130.6,
+    274.2,
+    140.2
+   ],
+   "size": 8.4,
+   "testo": "formance artistica che preferisci, sugli stati d'animo che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.7,
+    141.6,
+    272.4,
+    151.2
+   ],
+   "size": 8.4,
+   "testo": "potresti evocare e sui temi che ispirano le tue creazioni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.5,
+    152.7,
+    263.6,
+    162.3
+   ],
+   "size": 8.4,
+   "testo": "Le poesie del bardo si ispirano a momenti di bellezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    163.7,
+    272.4,
+    173.3
+   ],
+   "size": 8.4,
+   "testo": "naturale o sono riflessioni cupe sulla perdita? Preferisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.5,
+    174.7,
+    247.9,
+    184.3
+   ],
+   "size": 8.4,
+   "testo": "gli inni solenni o le chiassose canzoni da osteria?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    177.6,
+    262.5,
+    195.8
+   ],
+   "size": 8.6,
+   "testo": "t attratto dai lamenti per i caduti o dalle celebrazioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    196.8,
+    275.0,
+    206.4
+   ],
+   "size": 8.4,
+   "testo": "della gioia? Esegue danze allegre o elaborate coreografie",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.7,
+    207.7,
+    271.8,
+    217.4
+   ],
+   "size": 8.4,
+   "testo": "interpretative? Si concentra su uno stile di performance",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.3,
+    218.7,
+    191.3,
+    228.4
+   ],
+   "size": 8.4,
+   "testo": "o si sforza di padroneggiarli tutti?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    242.4,
+    266.7,
+    253.0
+   ],
+   "size": 8.8,
+   "testo": "da bardo. Per il resto della sua carriera, il personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    253.4,
+    278.2,
+    263.9
+   ],
+   "size": 8.8,
+   "testo": "ottiene tutti i privilegi della sottoclasse pari al suo livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    264.3,
+    195.2,
+    274.9
+   ],
+   "size": 8.8,
+   "testo": "da bardo attuale o a quelli inferiori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    284.9,
+    249.8,
+    296.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 4: AUMENTO DEI PUNTEGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    295.6,
+    161.6,
+    307.0
+   ],
+   "size": 11.2,
+   "testo": "DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    307.1,
+    265.4,
+    317.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene l'aumento dei punteggi di carat­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    318.0,
+    264.7,
+    328.6
+   ],
+   "size": 8.8,
+   "testo": "teristica (vedi capitolo 5) o un altro talento a scelta di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    329.0,
+    266.6,
+    339.5
+   ],
+   "size": 8.8,
+   "testo": "cui possiede i prerequisiti. Questo privilegio si ottiene",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    337.8,
+    248.2,
+    350.5
+   ],
+   "size": 8.8,
+   "testo": "nuovamente all'8°, al 12° e al 16° livello da bardo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    360.3,
+    236.5,
+    371.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: FONTE DI ISPIRAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    371.7,
+    273.1,
+    382.3
+   ],
+   "size": 8.8,
+   "testo": "Il bardo recupera tutti i suoi utilizzi spesi di Ispirazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    382.8,
+    253.1,
+    393.4
+   ],
+   "size": 8.8,
+   "testo": "Bardica quando completa un riposo breve o lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    393.8,
+    268.7,
+    404.4
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, può spendere uno slot incantesimo (nessuna",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    404.9,
+    260.1,
+    415.5
+   ],
+   "size": 8.8,
+   "testo": "azione richiesta) per recuperare un utilizzo speso di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    415.9,
+    135.1,
+    426.5
+   ],
+   "size": 8.8,
+   "testo": "Ispirazione Bardica.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    436.2,
+    205.6,
+    447.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: CONTROFASCINO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    447.6,
+    282.1,
+    458.2
+   ],
+   "size": 8.8,
+   "testo": "Il bardo ottiene la capacità di usare note musicali o parole",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    458.6,
+    284.4,
+    469.2
+   ],
+   "size": 8.8,
+   "testo": "del potere per interferire negli effetti di influenza mentale.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    469.6,
+    276.7,
+    480.2
+   ],
+   "size": 8.8,
+   "testo": "Se il bardo o una creatura entro 9 metri da sé fallisce un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    480.6,
+    275.1,
+    491.1
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza contro un effetto che applica la condizione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    491.6,
+    279.4,
+    502.2
+   ],
+   "size": 8.8,
+   "testo": "affascinato o spaventato, il bardo può usare una reazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    502.7,
+    281.2,
+    513.3
+   ],
+   "size": 8.8,
+   "testo": "per far sì che il tiro salvezza venga ripetuto e che il nuovo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    513.7,
+    161.5,
+    524.3
+   ],
+   "size": 8.8,
+   "testo": "tiro disponga di vantaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    534.1,
+    210.5,
+    545.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: SEGRETI MAGICI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    545.5,
+    264.7,
+    556.1
+   ],
+   "size": 8.8,
+   "testo": "Il bardo ha attinto ai segreti provenienti da una vasta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    556.4,
+    262.9,
+    567.0
+   ],
+   "size": 8.8,
+   "testo": "gamma di tradizioni magiche. Ogni volta che il perso­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    567.5,
+    265.9,
+    578.1
+   ],
+   "size": 8.8,
+   "testo": "naggio raggiunge un livello da bardo (incluso il livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    578.5,
+    278.7,
+    589.0
+   ],
+   "size": 8.8,
+   "testo": "attuale) e il numero di incantesimi preparati nella tabella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    589.5,
+    275.6,
+    600.0
+   ],
+   "size": 8.8,
+   "testo": "Privilegi da bardo aumenta, il personaggio può scegliere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    600.4,
+    280.7,
+    611.0
+   ],
+   "size": 8.8,
+   "testo": "un nuovo incantesimo preparato qualsiasi dalle liste degli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    611.6,
+    275.2,
+    622.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da bardo, chierico, druido e mago. Per il per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    622.6,
+    280.2,
+    633.2
+   ],
+   "size": 8.8,
+   "testo": "sonaggio, gli incantesimi scelti contano come incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    633.6,
+    282.0,
+    644.2
+   ],
+   "size": 8.8,
+   "testo": "da bardo (vedi la sezione di ciascuna classe per i rispettivi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    644.7,
+    275.6,
+    655.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimi). Inoltre, ogni volta che sostituisce un incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    655.6,
+    273.2,
+    666.2
+   ],
+   "size": 8.8,
+   "testo": "tesimo preparato per la propria classe, può farlo con un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    666.6,
+    162.1,
+    677.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimo di queste liste.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    686.9,
+    249.4,
+    698.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: ISPIRAZIONE SUPERIORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    698.4,
+    269.4,
+    709.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il bardo tira per l'iniziativa, se ha meno di due",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    709.4,
+    262.0,
+    720.0
+   ],
+   "size": 8.8,
+   "testo": "utilizzi di Ispirazione Bardica, li recupera finché non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    720.4,
+    96.6,
+    731.0
+   ],
+   "size": 8.8,
+   "testo": "ne ha due.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    600.0,
+    443.8,
+    611.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    611.5,
+    519.5,
+    622.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    622.6,
+    522.1,
+    633.1
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    626.5,
+    512.9,
+    644.7
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono dell'incantesimo memorizzato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    653.9,
+    517.5,
+    665.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: PAROLE DELLA CREAZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    665.4,
+    534.9,
+    675.9
+   ],
+   "size": 8.8,
+   "testo": "Il bardo padroneggia due Parole della Creazione: le parole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    676.3,
+    535.9,
+    686.9
+   ],
+   "size": 8.8,
+   "testo": "della vita e della morte. Pertanto, gli incantesimi parola del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    687.4,
+    530.8,
+    697.9
+   ],
+   "size": 8.8,
+   "testo": "potere guarire e parola del potere uccidere sono sempre con­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    698.3,
+    535.2,
+    708.9
+   ],
+   "size": 8.8,
+   "testo": "siderati preparati. Quando lancia uno dei due incantesimi,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    709.3,
+    526.7,
+    719.9
+   ],
+   "size": 8.8,
+   "testo": "il bardo può bersagliare una seconda creatura se questa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    720.4,
+    472.7,
+    731.0
+   ],
+   "size": 8.8,
+   "testo": "si trova entro 3 metri dal primo bersaglio.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

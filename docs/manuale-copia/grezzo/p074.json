@@ -1,0 +1,1716 @@
+{
+ "pagina_pdf": 74,
+ "pagina_stampata": 71,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 71",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    56.6,
+    39.8,
+    270.7,
+    51.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SOTTOCLASSE DEL CHIERICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    51.3,
+    285.8,
+    61.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene una sottoclasse del chierico a scelta.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    62.2,
+    268.3,
+    72.8
+   ],
+   "size": 8.8,
+   "testo": "Dopo la descrizione di questa classe, troverai una spie­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    73.2,
+    276.7,
+    83.8
+   ],
+   "size": 8.8,
+   "testo": "gazione per ciascuna delle seguenti sottoclassi: Dominio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    84.3,
+    265.6,
+    94.9
+   ],
+   "size": 8.8,
+   "testo": "della Vita, Dominio della Luce, Dominio dell'Inganno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    95.2,
+    274.3,
+    105.8
+   ],
+   "size": 8.8,
+   "testo": "e Dominio della Guerra. Una sottoclasse è una specializ­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    106.2,
+    273.4,
+    116.8
+   ],
+   "size": 8.8,
+   "testo": "zazione che conferisce dei privilegi a determinati livelli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    117.2,
+    276.4,
+    127.8
+   ],
+   "size": 8.8,
+   "testo": "da chierico. Per il resto della sua carriera, il personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    128.2,
+    279.1,
+    138.8
+   ],
+   "size": 8.8,
+   "testo": "ottiene tutti i privilegi della sottoclasse pari al suo livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    139.1,
+    205.1,
+    149.7
+   ],
+   "size": 8.8,
+   "testo": "da chierico attuale o a quelli inferiori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    159.7,
+    250.9,
+    171.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 4: AUMENTO DEI PUNTEGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    170.4,
+    162.7,
+    181.7
+   ],
+   "size": 11.2,
+   "testo": "DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    181.9,
+    274.5,
+    192.5
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene l'aumento dei punteggi di caratte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    192.9,
+    272.7,
+    203.4
+   ],
+   "size": 8.8,
+   "testo": "ristica (vedi capitolo 5) o un altro talento a scelta di cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    204.0,
+    280.0,
+    214.5
+   ],
+   "size": 8.8,
+   "testo": "possiede i prerequisiti. Questo privilegio si ottiene nuova­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    212.7,
+    233.6,
+    225.5
+   ],
+   "size": 8.8,
+   "testo": "mente all'8°, al 12° e al 16° livello da chierico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    235.4,
+    245.2,
+    246.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: BRUCIARE I NON MORTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    246.7,
+    269.6,
+    257.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il chierico usa scacciare non morti, può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    257.7,
+    274.6,
+    268.3
+   ],
+   "size": 8.8,
+   "testo": "tirare un numero di d8 pari al modificatore di Saggezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    268.8,
+    277.6,
+    279.4
+   ],
+   "size": 8.8,
+   "testo": "(minimo di 1d8) e sommarli. Ogni non morto che fallisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    279.8,
+    285.9,
+    290.4
+   ],
+   "size": 8.8,
+   "testo": "il tiro salvezza contro quell'utilizzo di scacciare non morti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    290.8,
+    281.4,
+    301.4
+   ],
+   "size": 8.8,
+   "testo": "subisce danni radiosi pari alla somma dei tiri. I danni non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    301.8,
+    236.6,
+    312.4
+   ],
+   "size": 8.8,
+   "testo": "interrompono l'effetto di scacciare non morti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    322.2,
+    213.3,
+    333.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: COLPI BENEDETTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    333.6,
+    284.5,
+    344.2
+   ],
+   "size": 8.8,
+   "testo": "In battaglia, il chierico è permeato di potere divino e ottiene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    344.5,
+    281.6,
+    355.1
+   ],
+   "size": 8.8,
+   "testo": "una delle seguenti opzioni a scelta (se ottiene entrambe le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    355.5,
+    280.3,
+    366.1
+   ],
+   "size": 8.8,
+   "testo": "opzioni da una sottoclasse del chierico di un manuale più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    366.5,
+    272.3,
+    377.0
+   ],
+   "size": 8.8,
+   "testo": "vecchio, usa solo l'opzione scelta per questo privilegio).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    377.5,
+    271.5,
+    388.0
+   ],
+   "size": 8.8,
+   "testo": "Colpo divino. Una volta per ogni suo turno, quando il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    388.5,
+    265.5,
+    399.1
+   ],
+   "size": 8.8,
+   "testo": "chierico colpisce una creatura con un tiro per colpire",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    399.6,
+    267.8,
+    410.1
+   ],
+   "size": 8.8,
+   "testo": "usando un'arma, può far sì che il bersaglio subisca 1d8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    410.6,
+    214.2,
+    421.2
+   ],
+   "size": 8.8,
+   "testo": "danni necrotici o radiosi extra (a scelta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    421.6,
+    282.8,
+    432.2
+   ],
+   "size": 8.8,
+   "testo": "Incantesimi potenti. Il personaggio aggiunge il suo modi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    432.6,
+    271.1,
+    443.2
+   ],
+   "size": 8.8,
+   "testo": "ficatore di Saggezza al danno che infligge con qualsiasi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    443.5,
+    147.0,
+    454.0
+   ],
+   "size": 8.8,
+   "testo": "trucchetto da chierico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    464.0,
+    235.1,
+    475.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: INTERVENTO DIVINO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    475.3,
+    274.9,
+    485.9
+   ],
+   "size": 8.8,
+   "testo": "Il chierico può invocare una divinità o un pantheon affin­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    486.3,
+    281.8,
+    496.9
+   ],
+   "size": 8.8,
+   "testo": "ché intervenga a suo favore. Come azione di Magia, sceglie",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    495.2,
+    284.5,
+    508.0
+   ],
+   "size": 8.8,
+   "testo": "un incantesimo da chierico qualsiasi di 5° livello o inferiore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    508.4,
+    277.1,
+    519.0
+   ],
+   "size": 8.8,
+   "testo": "che non richieda una reazione per essere lanciato. Come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    519.4,
+    274.0,
+    530.0
+   ],
+   "size": 8.8,
+   "testo": "parte della stessa azione, il chierico lancia quell'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    530.4,
+    275.6,
+    541.0
+   ],
+   "size": 8.8,
+   "testo": "simo senza spendere uno slot incantesimo o senza avere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    541.3,
+    268.0,
+    551.9
+   ],
+   "size": 8.8,
+   "testo": "bisogno di componenti materiali. Non può riutilizzare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    552.4,
+    284.5,
+    562.9
+   ],
+   "size": 8.8,
+   "testo": "questo privilegio prima di aver completato un riposo lungo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    572.7,
+    285.8,
+    584.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: COLPI BENEDETTI MIGLIORATI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    584.1,
+    280.0,
+    594.7
+   ],
+   "size": 8.8,
+   "testo": "L'opzione scelta per i Colpi benedetti diventa più potente.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.5,
+    595.1,
+    281.4,
+    605.7
+   ],
+   "size": 8.8,
+   "testo": "Colpo divino. I danni extra del Colpo divino aumentano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    606.1,
+    81.8,
+    616.7
+   ],
+   "size": 8.8,
+   "testo": "a 2d8.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    617.3,
+    269.4,
+    627.9
+   ],
+   "size": 8.8,
+   "testo": "Incantesimipotenti. Quando lancia un trucchetto da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    628.3,
+    279.6,
+    638.9
+   ],
+   "size": 8.8,
+   "testo": "chierico infliggendo danni a una creatura, il chierico può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    639.3,
+    280.0,
+    649.9
+   ],
+   "size": 8.8,
+   "testo": "infondere vitalità in se stesso o in un'altra creatura entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    650.2,
+    281.1,
+    660.8
+   ],
+   "size": 8.8,
+   "testo": "18 metri da sé, concedendo un numero di punti ferita tem­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    661.3,
+    275.2,
+    671.8
+   ],
+   "size": 8.8,
+   "testo": "poranei pari al doppio del suo modificatore di Saggezza.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    681.6,
+    191.9,
+    693.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    693.1,
+    267.6,
+    703.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    704.0,
+    267.7,
+    714.6
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    707.9,
+    171.8,
+    726.1
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono del fato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    39.9,
+    489.4,
+    51.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: INTERVENTO DIVINO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    50.6,
+    368.4,
+    62.0
+   ],
+   "size": 11.2,
+   "testo": "SUPERIORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    61.9,
+    529.6,
+    72.5
+   ],
+   "size": 8.8,
+   "testo": "Il chierico può invocare un intervento divino ancora più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    73.0,
+    529.8,
+    83.5
+   ],
+   "size": 8.8,
+   "testo": "potente. Quando usa il privilegio Intervento Divino, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    84.0,
+    521.5,
+    94.5
+   ],
+   "size": 8.8,
+   "testo": "scegliere desiderio tra gli incantesimi. Se lo fa, non può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    94.9,
+    522.1,
+    105.5
+   ],
+   "size": 8.8,
+   "testo": "usare di nuovo Intervento Divino finché non completa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    105.9,
+    379.4,
+    116.5
+   ],
+   "size": 8.8,
+   "testo": "2d4 riposi lunghi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    126.1,
+    472.4,
+    139.2
+   ],
+   "size": 9.7,
+   "testo": "LISTA DEGLI INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    141.1,
+    392.2,
+    154.2
+   ],
+   "size": 9.7,
+   "testo": "DA CHIERICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    157.6,
+    537.0,
+    168.2
+   ],
+   "size": 8.8,
+   "testo": "Questa sezione presenta la lista di incantesimi da chierico.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    168.6,
+    516.9,
+    179.2
+   ],
+   "size": 8.8,
+   "testo": "Gli incantesimi sono ordinati prima per livello dell'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    179.6,
+    526.6,
+    190.2
+   ],
+   "size": 8.8,
+   "testo": "cantesimo e poi in ordine alfabetico, insieme alla scuola",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    190.7,
+    516.1,
+    201.2
+   ],
+   "size": 8.8,
+   "testo": "di magia per ciascuna voce dell'elenco. Nella colonna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    201.7,
+    521.7,
+    212.3
+   ],
+   "size": 8.8,
+   "testo": "Speciale, C significa che l'incantesimo richiede concen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    212.7,
+    524.0,
+    223.3
+   ],
+   "size": 8.8,
+   "testo": "trazione, R indica che è un rituale, mentre M segnala la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    223.7,
+    499.2,
+    234.3
+   ],
+   "size": 8.8,
+   "testo": "necessità di una specifica componente materiale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    246.4,
+    509.3,
+    257.1
+   ],
+   "size": 10.6,
+   "testo": "TRUCCHETTI (INCANTESIMI DA CHIERICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    260.1,
+    377.0,
+    270.7
+   ],
+   "size": 10.6,
+   "testo": "DI LIVELLO O)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    276.0,
+    361.6,
+    285.2
+   ],
+   "size": 8.2,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.9,
+    275.9,
+    463.0,
+    285.1
+   ],
+   "size": 8.2,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.8,
+    275.8,
+    535.1,
+    285.0
+   ],
+   "size": 8.2,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    290.4,
+    366.1,
+    299.6
+   ],
+   "size": 9.2,
+   "testo": "Fiamma sacra",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    289.8,
+    483.7,
+    299.4
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    305.0,
+    336.6,
+    314.2
+   ],
+   "size": 9.2,
+   "testo": "Guida",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    304.4,
+    483.1,
+    314.0
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    514.7,
+    304.8,
+    521.4,
+    313.8
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    319.5,
+    331.7,
+    328.7
+   ],
+   "size": 9.2,
+   "testo": "Luce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    319.0,
+    483.8,
+    328.6
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    334.0,
+    366.6,
+    343.2
+   ],
+   "size": 9.2,
+   "testo": "Parola radiosa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    333.5,
+    483.8,
+    343.1
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    348.6,
+    352.2,
+    357.8
+   ],
+   "size": 9.2,
+   "testo": "Resistenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.3,
+    348.0,
+    483.5,
+    357.6
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    514.6,
+    348.4,
+    521.3,
+    357.5
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    363.1,
+    382.3,
+    372.3
+   ],
+   "size": 9.2,
+   "testo": "Rintocco dei morti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    362.5,
+    488.6,
+    372.1
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    377.7,
+    345.2,
+    386.9
+   ],
+   "size": 9.2,
+   "testo": "Riparare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.3,
+    377.1,
+    494.5,
+    386.8
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    392.3,
+    377.2,
+    401.5
+   ],
+   "size": 9.2,
+   "testo": "Salvare i morenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    391.7,
+    488.7,
+    401.4
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    406.9,
+    361.7,
+    416.1
+   ],
+   "size": 9.2,
+   "testo": "Taumaturgia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.3,
+    406.4,
+    494.5,
+    416.0
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    430.5,
+    513.6,
+    441.2
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA CHIERICO DI 1 °LIVELLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    446.4,
+    361.7,
+    455.6
+   ],
+   "size": 8.2,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.8,
+    446.3,
+    463.0,
+    455.6
+   ],
+   "size": 8.2,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    461.0,
+    348.6,
+    470.2
+   ],
+   "size": 9.2,
+   "testo": "Anatema",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.3,
+    460.1,
+    496.2,
+    469.7
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    475.4,
+    358.6,
+    484.6
+   ],
+   "size": 9.2,
+   "testo": "Benedizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.3,
+    474.8,
+    496.2,
+    484.4
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    489.9,
+    349.6,
+    499.1
+   ],
+   "size": 9.2,
+   "testo": "Comando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.3,
+    489.4,
+    496.2,
+    499.0
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    504.5,
+    412.0,
+    513.7
+   ],
+   "size": 9.2,
+   "testo": "Creare o distruggere acqua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.2,
+    504.0,
+    494.4,
+    513.6
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    519.1,
+    352.9,
+    528.3
+   ],
+   "size": 9.2,
+   "testo": "Curaferite",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.3,
+    518.6,
+    483.5,
+    528.3
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    533.8,
+    376.5,
+    543.0
+   ],
+   "size": 9.2,
+   "testo": "Dardo tracciante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    533.2,
+    483.8,
+    542.9
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    548.4,
+    400.2,
+    557.6
+   ],
+   "size": 9.2,
+   "testo": "Individuazione del bene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    547.7,
+    483.1,
+    557.3
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    560.2,
+    351.2,
+    569.4
+   ],
+   "size": 9.2,
+   "testo": "e del male",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    574.9,
+    409.3,
+    584.1
+   ],
+   "size": 9.2,
+   "testo": "Individuazione del magico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    574.2,
+    483.1,
+    583.9
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    589.4,
+    419.9,
+    598.6
+   ],
+   "size": 9.2,
+   "testo": "Individuazione delle malattie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    588.9,
+    483.1,
+    598.5
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    601.3,
+    354.7,
+    610.5
+   ],
+   "size": 9.2,
+   "testo": "e dei veleni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    616.1,
+    360.3,
+    625.3
+   ],
+   "size": 9.2,
+   "testo": "Infliggiferite",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    615.7,
+    488.7,
+    625.3
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    630.6,
+    375.0,
+    639.8
+   ],
+   "size": 9.2,
+   "testo": "Parola guaritrice",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.4,
+    630.2,
+    483.7,
+    639.8
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    645.3,
+    425.6,
+    654.5
+   ],
+   "size": 9.2,
+   "testo": "Protezione dalbene e dal male",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.4,
+    644.8,
+    483.5,
+    654.4
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    659.9,
+    404.7,
+    669.1
+   ],
+   "size": 9.2,
+   "testo": "Purificare cibo e bevande",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.2,
+    659.2,
+    494.5,
+    668.9
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    674.4,
+    350.2,
+    683.6
+   ],
+   "size": 9.2,
+   "testo": "Santuario",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    689.0,
+    373.4,
+    698.2
+   ],
+   "size": 9.2,
+   "testo": "Scudo dellafede",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.3,
+    673.8,
+    483.5,
+    683.4
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.4,
+    688.4,
+    483.6,
+    698.0
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.6,
+    446.3,
+    535.2,
+    455.5
+   ],
+   "size": 8.2,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    514.7,
+    460.6,
+    521.4,
+    469.7
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    508.8,
+    474.8,
+    527.5,
+    484.4
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    514.7,
+    548.2,
+    521.4,
+    557.2
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    510.2,
+    574.3,
+    526.7,
+    583.9
+   ],
+   "size": 8.4,
+   "testo": "C, R",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    509.5,
+    588.8,
+    526.7,
+    598.5
+   ],
+   "size": 8.4,
+   "testo": "C, R",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    508.8,
+    644.7,
+    527.5,
+    654.3
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    515.3,
+    659.2,
+    521.5,
+    668.8
+   ],
+   "size": 8.4,
+   "testo": "R",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    514.7,
+    688.8,
+    521.4,
+    697.9
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

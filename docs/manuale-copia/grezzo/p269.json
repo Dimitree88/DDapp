@@ -1,0 +1,667 @@
+{
+ "pagina_pdf": 269,
+ "pagina_stampata": 266,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "266 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   578
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.4,
+    392.2,
+    131.8,
+    402.5
+   ],
+   "size": 8.0,
+   "testo": "DISORIENTARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    403.9,
+    265.2,
+    415.6
+   ],
+   "size": 8.0,
+   "testo": "Ammaliamento di 8° livello (bardo, druido, mago, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    418.5,
+    144.3,
+    428.8
+   ],
+   "size": 8.0,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    429.6,
+    116.6,
+    439.9
+   ],
+   "size": 8.0,
+   "testo": "Gittata: 45 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    440.5,
+    243.4,
+    450.8
+   ],
+   "size": 8.0,
+   "testo": "Componenti: V, S, M (un portachiavi senza chiavi)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    451.6,
+    125.1,
+    461.9
+   ],
+   "size": 8.0,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    470.2,
+    280.5,
+    478.8
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore assale la mente di una creatura entro gittata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    481.2,
+    255.8,
+    490.0
+   ],
+   "size": 6.7,
+   "testo": "che è in grado di vedere. Il bersaglio effettua un tiro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    492.1,
+    148.2,
+    500.8
+   ],
+   "size": 6.7,
+   "testo": "salvezza su Intelligenza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    503.1,
+    269.4,
+    511.7
+   ],
+   "size": 6.7,
+   "testo": "Se lo fallisce, il bersaglio subisce 10d12 danni psichici",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    514.2,
+    258.1,
+    522.8
+   ],
+   "size": 6.7,
+   "testo": "e non può lanciare incantesimi o eseguire l'azione di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    525.2,
+    263.0,
+    533.9
+   ],
+   "size": 6.7,
+   "testo": "Magia. Alla fine di ogni 30 giorni, il bersaglio ripete il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    536.1,
+    265.7,
+    544.8
+   ],
+   "size": 6.7,
+   "testo": "tiro salvezza e, se lo supera, l'effetto svanisce. L'effetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    545.7,
+    278.1,
+    556.0
+   ],
+   "size": 8.0,
+   "testo": "può essere dissolto anche tramite gli incantesimi ristorare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    556.8,
+    177.0,
+    568.4
+   ],
+   "size": 8.0,
+   "testo": "superiore, guarigione o desiderio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    569.1,
+    278.3,
+    577.7
+   ],
+   "size": 6.7,
+   "testo": "Se invece lo supera, il bersaglio subisce soltanto la metà",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    580.0,
+    107.2,
+    588.7
+   ],
+   "size": 6.7,
+   "testo": "di quei danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    613.4,
+    205.0,
+    623.7
+   ],
+   "size": 8.0,
+   "testo": "DISSOLVI IL BENE E IL MALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    624.9,
+    212.9,
+    635.2
+   ],
+   "size": 8.0,
+   "testo": "Abiurazione di 5° livello (chierico, paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    639.5,
+    144.3,
+    649.8
+   ],
+   "size": 8.0,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    650.5,
+    128.7,
+    660.8
+   ],
+   "size": 8.0,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    661.3,
+    233.7,
+    672.7
+   ],
+   "size": 8.0,
+   "testo": "Componenti: V, S, M (polvere d'argento e ferro)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    672.4,
+    206.3,
+    682.7
+   ],
+   "size": 8.0,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    691.0,
+    256.3,
+    699.7
+   ],
+   "size": 6.7,
+   "testo": "Per la durata dell'incantesimo, celestiali, elementali,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    702.1,
+    253.3,
+    710.7
+   ],
+   "size": 6.7,
+   "testo": "folletti, immondi e non morti subiscono svantaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    713.1,
+    241.1,
+    721.7
+   ],
+   "size": 6.7,
+   "testo": "ai tiri per colpire effettuati contro l'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    378.2,
+    522.7,
+    386.8
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore può terminare prematuramente l'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    389.2,
+    496.8,
+    397.8
+   ],
+   "size": 6.7,
+   "testo": "simo usando una delle funzioni speciali seguenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.7,
+    400.3,
+    493.6,
+    409.1
+   ],
+   "size": 6.7,
+   "testo": "Congedo. Come azione di Magia, l'incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    411.4,
+    517.5,
+    420.2
+   ],
+   "size": 6.7,
+   "testo": "bersaglia una creatura che è in grado di vedere situata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    422.3,
+    515.3,
+    431.0
+   ],
+   "size": 6.7,
+   "testo": "entro 1,5 metri da sé dei tipi sopraindicati. Il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    433.4,
+    514.6,
+    442.0
+   ],
+   "size": 6.7,
+   "testo": "deve superare un tiro salvezza su Carisma, altrimenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    444.4,
+    523.0,
+    453.0
+   ],
+   "size": 6.7,
+   "testo": "viene cacciata sul suo piano d'origine (se non vi si trova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    455.3,
+    523.7,
+    463.9
+   ],
+   "size": 6.7,
+   "testo": "già). Se non si trovano già sul loro piano d'origine, i non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    466.3,
+    514.0,
+    474.9
+   ],
+   "size": 6.7,
+   "testo": "morti vengono respinti nella Coltre Oscura e i folletti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    477.3,
+    377.6,
+    486.0
+   ],
+   "size": 6.7,
+   "testo": "nella Selva Fatata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    488.3,
+    501.0,
+    497.1
+   ],
+   "size": 6.7,
+   "testo": "Spezzare ammaliamento. Come azione di Magia,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    499.3,
+    524.0,
+    508.0
+   ],
+   "size": 6.7,
+   "testo": "l'incantatore tocca una creatura affascinata, spaventata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    510.3,
+    522.5,
+    519.0
+   ],
+   "size": 6.7,
+   "testo": "o posseduta da una o più creature dei tipi sopraindicati.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    521.4,
+    528.3,
+    530.3
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio non è più posseduto, affascinato o spaventato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    532.3,
+    379.3,
+    541.0
+   ],
+   "size": 6.7,
+   "testo": "da quelle creature.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    565.4,
+    393.3,
+    575.7
+   ],
+   "size": 8.0,
+   "testo": "DISSOLVI MAGIE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    576.9,
+    505.8,
+    588.6
+   ],
+   "size": 8.0,
+   "testo": "Abiurazione di 3° livello (bardo, chierico, druido, mago,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    587.9,
+    436.6,
+    599.6
+   ],
+   "size": 8.0,
+   "testo": "paladino, ranger, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    602.4,
+    396.9,
+    612.7
+   ],
+   "size": 8.0,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    613.6,
+    370.0,
+    623.9
+   ],
+   "size": 8.0,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    626.1,
+    372.8,
+    634.9
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    635.6,
+    377.7,
+    645.9
+   ],
+   "size": 8.0,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    654.3,
+    505.6,
+    663.0
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore sceglie una creatura, un oggetto o un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    665.3,
+    516.7,
+    673.9
+   ],
+   "size": 6.7,
+   "testo": "effetto magico situato entro gittata. Ogni incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    673.2,
+    516.6,
+    685.0
+   ],
+   "size": 6.7,
+   "testo": "di 3° livello o inferiore presente sul bersaglio termina.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    687.3,
+    517.6,
+    695.9
+   ],
+   "size": 6.7,
+   "testo": "Per ogni incantesimo di 4° livello o superiore presente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    698.2,
+    517.3,
+    706.8
+   ],
+   "size": 6.7,
+   "testo": "sul bersaglio, l'incantatore effettua una prova di carat­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    709.2,
+    522.9,
+    717.9
+   ],
+   "size": 6.7,
+   "testo": "teristica usando la propria caratteristica da incantatore",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

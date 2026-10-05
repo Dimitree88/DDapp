@@ -1,0 +1,715 @@
+{
+ "pagina_pdf": 27,
+ "pagina_stampata": 24,
+ "dimensioni": [
+  588.8,
+  782.6
+ ],
+ "piede": "F4 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   632
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.6,
+    392.4,
+    264.8,
+    403.0
+   ],
+   "size": 8.8,
+   "testo": "La sezione \"Movimento e posizione\", che compare più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    403.5,
+    281.5,
+    414.1
+   ],
+   "size": 8.8,
+   "testo": "avanti in questo capitolo, descrive invece le regole relative",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    414.5,
+    111.4,
+    425.1
+   ],
+   "size": 8.8,
+   "testo": "al movimento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    425.5,
+    270.8,
+    436.1
+   ],
+   "size": 8.8,
+   "testo": "Comunicazione. Nel corso del tuo turno, puoi comuni­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    436.5,
+    280.1,
+    447.0
+   ],
+   "size": 8.8,
+   "testo": "care in qualsiasi modo ti sia consentito tramite brevi frasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    447.5,
+    266.0,
+    458.0
+   ],
+   "size": 8.8,
+   "testo": "e gesti. Così facendo, non usi né la tua azione né la tua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    458.4,
+    82.5,
+    469.0
+   ],
+   "size": 8.8,
+   "testo": "mossa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    469.4,
+    279.2,
+    480.0
+   ],
+   "size": 8.8,
+   "testo": "Una comunicazione estesa, come una spiegazione detta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    480.5,
+    281.2,
+    491.0
+   ],
+   "size": 8.8,
+   "testo": "gliata o un tentativo di persuasione di un nemico, richiede",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    491.4,
+    281.2,
+    502.0
+   ],
+   "size": 8.8,
+   "testo": "un'azione. L'azione di Influenza è il modo principale in cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    502.4,
+    186.1,
+    513.0
+   ],
+   "size": 8.8,
+   "testo": "cercare di influenzare un mostro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    513.5,
+    271.3,
+    524.0
+   ],
+   "size": 8.8,
+   "testo": "Interazioni con le cose. Durante il proprio movimento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    524.5,
+    274.6,
+    535.1
+   ],
+   "size": 8.8,
+   "testo": "o la propria azione, il personaggio può interagire con un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    535.5,
+    281.6,
+    546.0
+   ],
+   "size": 8.8,
+   "testo": "oggetto o un elemento dell'ambiente senza costi. Per esem­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    546.5,
+    276.0,
+    557.1
+   ],
+   "size": 8.8,
+   "testo": "pio, potrebbe aprire una porta durante il suo movimento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    557.5,
+    195.2,
+    568.1
+   ],
+   "size": 8.8,
+   "testo": "mentre avanza verso un avversario.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    568.5,
+    261.5,
+    579.0
+   ],
+   "size": 8.8,
+   "testo": "Per interagire con un secondo oggetto è necessaria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    579.4,
+    271.2,
+    590.0
+   ],
+   "size": 8.8,
+   "testo": "l'azione di Utilizzo. Alcuni oggetti magici e altri oggetti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    590.4,
+    279.6,
+    601.0
+   ],
+   "size": 8.8,
+   "testo": "speciali richiedono sempre un'azione per essere utilizzati,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    601.4,
+    207.9,
+    612.0
+   ],
+   "size": 8.8,
+   "testo": "come specificato nella loro descrizione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    612.6,
+    257.7,
+    623.2
+   ],
+   "size": 8.8,
+   "testo": "Il DM potrebbe richiedere al personaggio di usare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    623.6,
+    277.6,
+    634.2
+   ],
+   "size": 8.8,
+   "testo": "un'azione per ognuna di queste attività quando è necessa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    634.7,
+    277.7,
+    645.2
+   ],
+   "size": 8.8,
+   "testo": "ria una certa precisione o quando si presenta un ostacolo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    645.6,
+    275.1,
+    656.2
+   ],
+   "size": 8.8,
+   "testo": "inconsueto. Per esempio, potrebbe chiedere di effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    656.7,
+    281.3,
+    667.2
+   ],
+   "size": 8.8,
+   "testo": "un'azione di Utilizzo per aprire una porta incastrata o per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    667.6,
+    277.1,
+    678.2
+   ],
+   "size": 8.8,
+   "testo": "girare la manovella che consentirà di abbassare un ponte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    678.6,
+    88.9,
+    689.2
+   ],
+   "size": 8.8,
+   "testo": "levatoio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    689.5,
+    269.3,
+    700.0
+   ],
+   "size": 8.8,
+   "testo": "Nonfare nulla nelproprio turno. Un personaggio può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    700.5,
+    269.9,
+    711.1
+   ],
+   "size": 8.8,
+   "testo": "rinunciare a muoversi o a effettuare un'azione, o anche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    711.6,
+    262.9,
+    722.1
+   ],
+   "size": 8.8,
+   "testo": "decidere di non fare nulla nel suo turno. Se non riesci",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    392.7,
+    514.3,
+    403.3
+   ],
+   "size": 8.8,
+   "testo": "a decidere cosa fare, puoi prendere in considerazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    403.8,
+    513.6,
+    414.3
+   ],
+   "size": 8.8,
+   "testo": "l'azione difensiva di Schivata o l'azione di Prepararsi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    414.7,
+    393.3,
+    425.3
+   ],
+   "size": 8.8,
+   "testo": "per ritardare l'azione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    435.1,
+    478.3,
+    446.5
+   ],
+   "size": 11.2,
+   "testo": "TERMINARE IL COMBATTIMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    446.6,
+    515.2,
+    457.1
+   ],
+   "size": 8.8,
+   "testo": "Il combattimento termina quando una delle due parti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    457.6,
+    535.0,
+    468.2
+   ],
+   "size": 8.8,
+   "testo": "viene sconfitta, ovvero quando le creature vengono uccise",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    468.5,
+    518.0,
+    479.1
+   ],
+   "size": 8.8,
+   "testo": "o messe fuori combattimento, o quando si sono arrese",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    479.5,
+    518.8,
+    490.1
+   ],
+   "size": 8.8,
+   "testo": "o sono fuggite. Il combattimento può anche terminare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    490.5,
+    523.8,
+    501.1
+   ],
+   "size": 8.8,
+   "testo": "quando entrambe le parti sono d'accordo nel porvi fine.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    510.6,
+    467.0,
+    523.7
+   ],
+   "size": 9.7,
+   "testo": "MOVIMENTO E POSIZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    527.2,
+    518.1,
+    537.8
+   ],
+   "size": 8.8,
+   "testo": "Durante il proprio turno, il personaggio può muoversi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    538.2,
+    518.4,
+    548.8
+   ],
+   "size": 8.8,
+   "testo": "di una distanza massima pari alla sua velocità, ma può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    549.1,
+    433.3,
+    559.7
+   ],
+   "size": 8.8,
+   "testo": "anche decidere di non muoversi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    560.2,
+    511.5,
+    570.7
+   ],
+   "size": 8.8,
+   "testo": "Il movimento può comprendere scalare, strisciare,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    571.2,
+    520.7,
+    581.7
+   ],
+   "size": 8.8,
+   "testo": "saltare e nuotare (ciascuno spiegato nel Glossario delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    582.2,
+    523.4,
+    592.7
+   ],
+   "size": 8.8,
+   "testo": "regole). Queste diverse modalità di movimento possono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    593.2,
+    530.3,
+    603.7
+   ],
+   "size": 8.8,
+   "testo": "essere combinate al modo di muoversi abituale o possono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    604.2,
+    488.7,
+    614.7
+   ],
+   "size": 8.8,
+   "testo": "costituire l'intero movimento del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.0,
+    615.3,
+    516.9,
+    625.8
+   ],
+   "size": 8.8,
+   "testo": "Comunque si muova, il personaggio deve dedurre la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    626.3,
+    524.0,
+    636.9
+   ],
+   "size": 8.8,
+   "testo": "distanza di ogni parte del suo movimento dalla sua velo­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    637.4,
+    526.0,
+    648.0
+   ],
+   "size": 8.8,
+   "testo": "cità finché non l'avrà usata tutta o non deciderà di avere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    648.3,
+    526.4,
+    658.9
+   ],
+   "size": 8.8,
+   "testo": "concluso il suo movimento, a seconda dell'opzione che si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    659.3,
+    379.8,
+    669.9
+   ],
+   "size": 8.8,
+   "testo": "verifica per prima.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.0,
+    670.4,
+    534.0,
+    680.9
+   ],
+   "size": 8.8,
+   "testo": "La velocità di un personaggio viene determinata durante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    681.4,
+    529.4,
+    692.0
+   ],
+   "size": 8.8,
+   "testo": "la sua creazione. La velocità di un mostro è indicata nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    692.3,
+    534.2,
+    702.8
+   ],
+   "size": 8.8,
+   "testo": "relativa scheda delle statistiche. Per ulteriori informazioni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    703.3,
+    525.3,
+    713.9
+   ],
+   "size": 8.8,
+   "testo": "sulla velocità e sulle velocità speciali, come la velocità di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    714.3,
+    503.0,
+    724.9
+   ],
+   "size": 8.8,
+   "testo": "scalata, volo o nuoto, vedi il Glossario delle regole.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1296 @@
+{
+ "pagina_pdf": 47,
+ "pagina_stampata": 44,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "44 / CAPITOLO 2 I CREARE UN PERSONAGGIO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    49.9,
+    37.3,
+    161.7,
+    54.0
+   ],
+   "size": 12.9,
+   "testo": "MULTICLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    55.6,
+    262.7,
+    66.2
+   ],
+   "size": 8.8,
+   "testo": "L'avanzamento multiclasse consente a un personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    66.6,
+    261.3,
+    77.2
+   ],
+   "size": 8.8,
+   "testo": "di acquisire livelli in più classi. Grazie a questa regola,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    77.6,
+    258.3,
+    88.1
+   ],
+   "size": 8.8,
+   "testo": "un personaggio può acquisire un livello in una nuova",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    88.6,
+    280.0,
+    99.1
+   ],
+   "size": 8.8,
+   "testo": "classe ogni volta che avanza di livello, anziché guadagnare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    99.6,
+    274.2,
+    110.2
+   ],
+   "size": 8.8,
+   "testo": "un livello nella sua classe attuale. In questo modo, è possi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    110.5,
+    272.8,
+    121.1
+   ],
+   "size": 8.8,
+   "testo": "bile combinare le abilità di quelle classi per realizzare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    121.5,
+    280.5,
+    132.1
+   ],
+   "size": 8.8,
+   "testo": "tipo di personaggio che potrebbe non essere rappresentato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    132.6,
+    170.4,
+    143.1
+   ],
+   "size": 8.8,
+   "testo": "a dovere da una singola classe.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    152.7,
+    138.4,
+    165.8
+   ],
+   "size": 9.7,
+   "testo": "PREREQUISITI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    169.2,
+    259.1,
+    179.8
+   ],
+   "size": 8.8,
+   "testo": "Per essere idoneo a una nuova classe, un personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    180.2,
+    249.5,
+    190.8
+   ],
+   "size": 8.8,
+   "testo": "deve avere un punteggio pari o superiore a 13 nella",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.7,
+    191.2,
+    263.0,
+    201.8
+   ],
+   "size": 8.8,
+   "testo": "caratteristica primaria della nuova classe e nelle classi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    202.4,
+    267.0,
+    212.9
+   ],
+   "size": 8.8,
+   "testo": "attuali. Ad esempio, un barbaro che decide di diventare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    213.4,
+    279.0,
+    224.0
+   ],
+   "size": 8.8,
+   "testo": "multiclasse acquisendo la classe del druido deve possedere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    224.3,
+    268.2,
+    234.9
+   ],
+   "size": 8.8,
+   "testo": "sia un punteggio di Forza che un punteggio di Saggezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.7,
+    235.2,
+    262.6,
+    245.8
+   ],
+   "size": 8.8,
+   "testo": "pari o superiori a 13, poiché la Forza è la caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    246.3,
+    253.0,
+    256.8
+   ],
+   "size": 8.8,
+   "testo": "primaria dei barbari e la saggezza è la caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    257.3,
+    127.9,
+    267.9
+   ],
+   "size": 8.8,
+   "testo": "primaria dei druidi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    277.4,
+    170.5,
+    290.5
+   ],
+   "size": 9.7,
+   "testo": "PUNTI ESPERIENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.8,
+    294.0,
+    248.4,
+    304.5
+   ],
+   "size": 8.8,
+   "testo": "Il costo in punti esperienza per acquisire un livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    304.9,
+    269.8,
+    315.5
+   ],
+   "size": 8.8,
+   "testo": "è basato sul livello totale del personaggio, come indicato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    315.9,
+    252.1,
+    326.5
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Avanzamento dei personaggi in questo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    327.0,
+    263.1,
+    337.5
+   ],
+   "size": 8.8,
+   "testo": "capitolo, e non sul suo livello in una particolare classe.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    337.9,
+    253.0,
+    348.5
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, un personaggio multiclasse chierico 6/",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.7,
+    348.9,
+    271.7,
+    359.5
+   ],
+   "size": 8.8,
+   "testo": "guerriero 1 deve accumulare abbastanza PE per arrivare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    357.7,
+    277.1,
+    370.4
+   ],
+   "size": 8.8,
+   "testo": "all'8° livello prima di poter acquisire il suo secondo livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    370.9,
+    258.1,
+    381.5
+   ],
+   "size": 8.8,
+   "testo": "come guerriero o il suo settimo livello come chierico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    391.0,
+    219.0,
+    404.1
+   ],
+   "size": 9.7,
+   "testo": "PUNTI FERITA E DADI VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    407.7,
+    275.3,
+    418.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i punti ferita della sua nuova classe",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    416.5,
+    265.7,
+    429.2
+   ],
+   "size": 8.8,
+   "testo": "come descritto per i livelli successivi al 1°. Si ottengono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.8,
+    427.5,
+    280.3,
+    440.2
+   ],
+   "size": 8.8,
+   "testo": "punti ferita di 1° livello per una classe solo quando il livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.7,
+    438.4,
+    206.5,
+    451.2
+   ],
+   "size": 8.8,
+   "testo": "totale del personaggio corrisponde al 1°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.3,
+    451.6,
+    267.8,
+    462.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio somma i Dadi Vita conferitigli da tutte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.7,
+    462.6,
+    250.8,
+    473.1
+   ],
+   "size": 8.8,
+   "testo": "le sue classi per formare la sua riserva di Dadi Vita.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    473.6,
+    268.7,
+    484.2
+   ],
+   "size": 8.8,
+   "testo": "Se i dadi appartengono allo stesso tipo di dado, può sem­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.7,
+    484.6,
+    277.8,
+    495.1
+   ],
+   "size": 8.8,
+   "testo": "plicemente raggrupparli in un unico insieme. Per esempio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.7,
+    495.6,
+    266.8,
+    506.1
+   ],
+   "size": 8.8,
+   "testo": "sia il guerriero che il paladino hanno un Dado Vita d10,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.7,
+    506.6,
+    268.3,
+    517.2
+   ],
+   "size": 8.8,
+   "testo": "quindi un personaggio multiclasse guerriero 5/paladino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.7,
+    517.6,
+    268.7,
+    528.1
+   ],
+   "size": 8.8,
+   "testo": "5 avrà dieci Dadi Vita d10. Se le sue classi gli forniscono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    528.6,
+    269.4,
+    539.2
+   ],
+   "size": 8.8,
+   "testo": "Dadi Vita di tipi diversi, dovrà annotarli separatamente.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    539.7,
+    269.1,
+    550.2
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, un personaggio multiclasse chierico 5/pala­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.7,
+    550.7,
+    267.4,
+    561.2
+   ],
+   "size": 8.8,
+   "testo": "dino 5 avrà cinque Dadi Vita d8 e cinque Dadi Vita d10.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    570.7,
+    199.4,
+    583.8
+   ],
+   "size": 9.7,
+   "testo": "BONUS DI COMPETENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    587.2,
+    253.5,
+    597.8
+   ],
+   "size": 8.8,
+   "testo": "Il bonus di competenza è basato sul livello totale del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    598.3,
+    277.8,
+    608.9
+   ],
+   "size": 8.8,
+   "testo": "personaggio, come indicato nella tabella Avanzamento dei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.6,
+    609.3,
+    274.7,
+    619.9
+   ],
+   "size": 8.8,
+   "testo": "personaggi, e non sul suo livello in una particolare classe.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.4,
+    620.4,
+    256.2,
+    631.0
+   ],
+   "size": 8.8,
+   "testo": "Ad esempio, un personaggio multiclasseguerriero 3/",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    631.5,
+    262.7,
+    642.1
+   ],
+   "size": 8.8,
+   "testo": "ladro 2 avrà il bonus di competenza di un personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    640.3,
+    182.3,
+    653.1
+   ],
+   "size": 8.8,
+   "testo": "di 5° livello, che corrisponde a +3.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    37.5,
+    388.0,
+    50.6
+   ],
+   "size": 9.7,
+   "testo": "COMPETENZE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    54.2,
+    512.9,
+    64.8
+   ],
+   "size": 8.8,
+   "testo": "Quando un personaggio ottiene il suo primo livello in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    65.2,
+    528.8,
+    75.7
+   ],
+   "size": 8.8,
+   "testo": "una classe diversa dalla sua classe iniziale, riceve soltanto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    76.2,
+    519.2,
+    86.8
+   ],
+   "size": 8.8,
+   "testo": "alcune delle nuove competenze di partenza della nuova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    87.2,
+    521.6,
+    97.8
+   ],
+   "size": 8.8,
+   "testo": "classe, come indicato nella descrizione di ogni classe nel",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    98.2,
+    344.5,
+    108.8
+   ],
+   "size": 8.8,
+   "testo": "capitolo 3.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    118.3,
+    435.4,
+    131.4
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    134.8,
+    520.1,
+    145.4
+   ],
+   "size": 8.8,
+   "testo": "Quando un personaggio ottiene un nuovo livello in una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    145.8,
+    514.6,
+    156.4
+   ],
+   "size": 8.8,
+   "testo": "classe, ottiene i privilegi di quella classe relativi a quel",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    156.9,
+    521.6,
+    167.5
+   ],
+   "size": 8.8,
+   "testo": "livello. Alcuni privilegi hanno regole aggiuntive quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    167.9,
+    515.5,
+    178.5
+   ],
+   "size": 8.8,
+   "testo": "il personaggio è multiclasse. Controlla le informazioni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    178.9,
+    511.8,
+    189.5
+   ],
+   "size": 8.8,
+   "testo": "sui personaggi multiclasse incluse nelle descrizioni di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    189.9,
+    365.6,
+    200.5
+   ],
+   "size": 8.8,
+   "testo": "ciascuna classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    201.0,
+    514.5,
+    211.6
+   ],
+   "size": 8.8,
+   "testo": "Le regole speciali si applicano all'Attacco Extra, agli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    212.0,
+    527.9,
+    222.6
+   ],
+   "size": 8.8,
+   "testo": "Incantesimi e ai privilegi (come la Difesa senza armatura)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    223.0,
+    503.4,
+    233.6
+   ],
+   "size": 8.8,
+   "testo": "che offrono modi alternativi per calcolare la Classe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.0,
+    233.9,
+    346.1,
+    244.5
+   ],
+   "size": 8.8,
+   "testo": "Armatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    254.3,
+    405.8,
+    265.7
+   ],
+   "size": 11.2,
+   "testo": "CLASSE ARMATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    265.8,
+    516.0,
+    276.4
+   ],
+   "size": 8.8,
+   "testo": "Se un personaggio dispone di modi diversi di calcolare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    276.8,
+    526.6,
+    287.4
+   ],
+   "size": 8.8,
+   "testo": "la Classe Armatura, può usarne solamente uno alla volta.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    287.9,
+    508.9,
+    298.5
+   ],
+   "size": 8.8,
+   "testo": "Ad esempio, un monaco/stregone con il privilegio da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    298.9,
+    525.9,
+    309.4
+   ],
+   "size": 8.8,
+   "testo": "monaco Difesa senza armatura e il privilegio da stregone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    309.9,
+    512.9,
+    320.4
+   ],
+   "size": 8.8,
+   "testo": "Resilienza draconica deve sceglierne soltanto uno per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    320.9,
+    419.2,
+    331.4
+   ],
+   "size": 8.8,
+   "testo": "calcolare la Classe Armatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    341.2,
+    392.1,
+    352.6
+   ],
+   "size": 11.2,
+   "testo": "ATTACCO EXTRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    352.7,
+    516.6,
+    363.2
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio ottiene il privilegio Attacco Extra da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    363.6,
+    529.6,
+    374.2
+   ],
+   "size": 8.8,
+   "testo": "più di una classe, i privilegi non sono cumulativi. Non può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    374.6,
+    531.0,
+    385.2
+   ],
+   "size": 8.8,
+   "testo": "effettuare più di due attacchi con questo privilegio, a meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    385.7,
+    512.3,
+    396.2
+   ],
+   "size": 8.8,
+   "testo": "che non abbia un privilegio che lo preveda (come Due",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    396.6,
+    420.0,
+    407.2
+   ],
+   "size": 8.8,
+   "testo": "Attacchi Extra del guerriero).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    407.8,
+    515.1,
+    418.4
+   ],
+   "size": 8.8,
+   "testo": "Analogamente, l'invocazione Lama assetata del war­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    418.8,
+    519.9,
+    429.4
+   ],
+   "size": 8.8,
+   "testo": "lock, che concede il privilegio Attacco Extra con l'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    429.7,
+    506.0,
+    440.3
+   ],
+   "size": 8.8,
+   "testo": "del patto, non conferisce attacchi aggiuntivi se si ha",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    440.8,
+    386.9,
+    451.3
+   ],
+   "size": 8.8,
+   "testo": "anche Attacco Extra.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    461.1,
+    374.5,
+    472.4
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    472.5,
+    514.7,
+    483.1
+   ],
+   "size": 8.8,
+   "testo": "Le capacità da incantatore del personaggio dipendono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    483.5,
+    521.8,
+    494.1
+   ],
+   "size": 8.8,
+   "testo": "in parte dai suoi livelli combinati in tutte le sue classi da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    494.5,
+    524.2,
+    505.1
+   ],
+   "size": 8.8,
+   "testo": "incantatore e in parte dai suoi livelli individuali in quelle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    505.6,
+    524.0,
+    516.1
+   ],
+   "size": 8.8,
+   "testo": "classi. Una volta ottenuto il privilegio Incantesimi da più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    516.7,
+    510.0,
+    527.3
+   ],
+   "size": 8.8,
+   "testo": "di una classe, il personaggio usa le regole sottostanti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    527.6,
+    528.7,
+    538.2
+   ],
+   "size": 8.8,
+   "testo": "Se un personaggio multiclasse possiede il privilegio Incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    538.6,
+    523.5,
+    549.2
+   ],
+   "size": 8.8,
+   "testo": "tesimi soltanto da una classe, segue le regole descritte in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    549.7,
+    355.0,
+    560.2
+   ],
+   "size": 8.8,
+   "testo": "quella classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    560.7,
+    509.5,
+    571.2
+   ],
+   "size": 8.8,
+   "testo": "Incantesimi preparati. Il personaggio determina gli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    571.6,
+    518.2,
+    582.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimi che può preparare per ogni classe separata­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    582.6,
+    531.3,
+    593.2
+   ],
+   "size": 8.8,
+   "testo": "mente, come se fosse un membro monoclasse appartenente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    593.6,
+    520.8,
+    604.2
+   ],
+   "size": 8.8,
+   "testo": "a quella classe. Per esempio, un personaggio multiclasse",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    604.7,
+    514.7,
+    615.3
+   ],
+   "size": 8.8,
+   "testo": "ranger 4/stregone 3 può preparare cinque incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    613.6,
+    518.9,
+    626.4
+   ],
+   "size": 8.8,
+   "testo": "da ranger di 1° livello e sei incantesimi da stregone di 1°",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    624.7,
+    501.8,
+    637.4
+   ],
+   "size": 8.8,
+   "testo": "o 2° livello (oltre a quattro trucchetti da stregone).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    637.9,
+    529.0,
+    648.4
+   ],
+   "size": 8.8,
+   "testo": "Ogni incantesimo che il personaggio prepara è associato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    648.9,
+    527.8,
+    659.4
+   ],
+   "size": 8.8,
+   "testo": "a una delle sue classi; il personaggio userà la caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    659.9,
+    532.2,
+    670.4
+   ],
+   "size": 8.8,
+   "testo": "da incantatore di quella classe quando lancia l'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    670.9,
+    531.7,
+    681.4
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti. Se un trucchetto aumenta di potenza a livelli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    681.9,
+    523.2,
+    692.4
+   ],
+   "size": 8.8,
+   "testo": "superiori, l'incremento si basa sul livello totale del perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    692.8,
+    518.5,
+    703.4
+   ],
+   "size": 8.8,
+   "testo": "naggio, non sul livello in una classe particolare, a meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    703.9,
+    475.8,
+    714.4
+   ],
+   "size": 8.8,
+   "testo": "che l'incantesimo non indichi diversamente.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

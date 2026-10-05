@@ -1,0 +1,696 @@
+{
+ "pagina_pdf": 89,
+ "pagina_stampata": 86,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "• / • / •",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    304.0,
+    39.4,
+    428.6,
+    52.5
+   ],
+   "size": 9.7,
+   "testo": "CIRCOLO DEL MARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    57.1,
+    471.2,
+    66.4
+   ],
+   "size": 8.6,
+   "testo": "Diventauntutt'uno conlemaree eletempeste",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    70.6,
+    519.3,
+    81.2
+   ],
+   "size": 8.8,
+   "testo": "I druidi del Circolo del Mare attingono alle forze burra­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    81.6,
+    530.7,
+    92.2
+   ],
+   "size": 8.8,
+   "testo": "scose degli oceani e delle tempeste. Alcuni si vedono come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    92.6,
+    522.0,
+    103.2
+   ],
+   "size": 8.8,
+   "testo": "incarnazioni della furia della natura e cercano vendetta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    103.6,
+    524.6,
+    114.2
+   ],
+   "size": 8.8,
+   "testo": "contro coloro che la deturpano. Altri perseguono l'unità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    114.6,
+    516.9,
+    125.2
+   ],
+   "size": 8.8,
+   "testo": "mistica con la natura entrando in sintonia con il flusso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    125.6,
+    517.7,
+    136.1
+   ],
+   "size": 8.8,
+   "testo": "e riflusso delle maree, seguendo l'impeto delle correnti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    136.6,
+    511.7,
+    147.2
+   ],
+   "size": 8.8,
+   "testo": "e delle onde, e ascoltando gli imperscrutabili sussurri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    147.6,
+    376.3,
+    158.2
+   ],
+   "size": 8.8,
+   "testo": "e ruggiti dei venti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    168.0,
+    453.4,
+    179.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: FURIA DEI MARI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    179.5,
+    525.7,
+    190.0
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il druido può spendere un utilizzo di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    190.5,
+    524.6,
+    201.0
+   ],
+   "size": 8.8,
+   "testo": "Forma Selvatica per generare un'emanazione di 1,5 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    201.6,
+    501.0,
+    212.2
+   ],
+   "size": 8.8,
+   "testo": "che assume la forma di una brezza oceanica che lo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    212.6,
+    518.6,
+    223.2
+   ],
+   "size": 8.8,
+   "testo": "circonda per 10 minuti. L'emanazione termina anticipa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    223.6,
+    514.9,
+    234.1
+   ],
+   "size": 8.8,
+   "testo": "tamente se viene interrotta (nessuna azione richiesta)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    234.6,
+    495.5,
+    245.2
+   ],
+   "size": 8.8,
+   "testo": "o generata di nuovo, o se il druido è incapacitato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    245.5,
+    515.2,
+    256.1
+   ],
+   "size": 8.8,
+   "testo": "Quando il druido genera l'emanazione, come azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    256.5,
+    510.1,
+    267.1
+   ],
+   "size": 8.8,
+   "testo": "bonus nei suoi turni successivi può scegliere un'altra",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    267.5,
+    532.6,
+    278.1
+   ],
+   "size": 8.8,
+   "testo": "creatura nel suo campo visivo all'interno dell'emanazione.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    278.5,
+    530.1,
+    289.1
+   ],
+   "size": 8.8,
+   "testo": "Il bersagliodeve superare un tiro salvezza su Costituzione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    289.6,
+    526.5,
+    300.2
+   ],
+   "size": 8.8,
+   "testo": "contro la CD del tiro salvezza sull'incantesimo del druido",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    300.6,
+    532.3,
+    311.1
+   ],
+   "size": 8.8,
+   "testo": "o subire danni da freddo e, se la creatura è di taglia Grande",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    311.6,
+    522.8,
+    322.2
+   ],
+   "size": 8.8,
+   "testo": "o inferiore, venire spinta fino a 4,5 metri di distanza dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    322.5,
+    528.4,
+    333.1
+   ],
+   "size": 8.8,
+   "testo": "druido. Per determinare i danni, il druido tira un numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    333.5,
+    525.4,
+    344.1
+   ],
+   "size": 8.8,
+   "testo": "di d6 pari al suo modificatore di Saggezza (minimo di un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    344.5,
+    329.1,
+    355.1
+   ],
+   "size": 8.8,
+   "testo": "dado).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    364.9,
+    509.7,
+    376.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL CIRCOLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    375.6,
+    359.3,
+    387.0
+   ],
+   "size": 11.2,
+   "testo": "DEL MARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    387.0,
+    517.1,
+    397.6
+   ],
+   "size": 8.8,
+   "testo": "Quando il druido raggiunge un livello specificato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    398.0,
+    522.8,
+    408.6
+   ],
+   "size": 8.8,
+   "testo": "tabella Incantesimi del Circolo del Mare, gli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    409.2,
+    472.8,
+    419.7
+   ],
+   "size": 8.8,
+   "testo": "lì elencati sono considerati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    431.8,
+    493.3,
+    442.5
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL CIRCOLO DEL MARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    446.6,
+    351.4,
+    457.3
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    457.5,
+    346.2,
+    468.2
+   ],
+   "size": 10.6,
+   "testo": "druido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.7,
+    472.6,
+    334.2,
+    482.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.7,
+    499.1,
+    334.2,
+    508.7
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.8,
+    513.7,
+    334.5,
+    523.3
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.5,
+    528.3,
+    334.5,
+    538.0
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    362.3,
+    457.5,
+    444.7,
+    468.2
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi preparati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    362.0,
+    473.1,
+    503.5,
+    482.3
+   ],
+   "size": 9.2,
+   "testo": "Nube di nebbia,folata di vento, raggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    361.5,
+    485.1,
+    491.5,
+    494.3
+   ],
+   "size": 9.2,
+   "testo": "di gelo.frantumare e onda tonante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    362.0,
+    499.6,
+    473.9,
+    508.8
+   ],
+   "size": 9.2,
+   "testo": "Fulmine e respirare sott'acqua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    361.7,
+    514.3,
+    512.7,
+    523.5
+   ],
+   "size": 9.2,
+   "testo": "Controllare acqua e tempesta di ghiaccio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    362.0,
+    528.8,
+    485.4,
+    538.0
+   ],
+   "size": 9.2,
+   "testo": "Evoca elementale e blocca mostri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    552.0,
+    481.8,
+    563.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: AFFINITÀ ACQUATICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    563.4,
+    523.0,
+    574.0
+   ],
+   "size": 8.8,
+   "testo": "Le dimensioni dell'emanazione creata da Furia dei Mari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.1,
+    574.3,
+    381.8,
+    584.9
+   ],
+   "size": 8.8,
+   "testo": "aumenta di 3 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    585.4,
+    526.5,
+    595.9
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, il druido ottiene una velocità di nuoto pari alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    596.4,
+    353.6,
+    607.0
+   ],
+   "size": 8.8,
+   "testo": "sua velocità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    616.8,
+    494.8,
+    628.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: NATO DALLA TEMPESTA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    628.4,
+    518.5,
+    638.9
+   ],
+   "size": 8.8,
+   "testo": "Mentre è in atto, la Furia dei Mari conferisce al druido",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    639.4,
+    474.9,
+    650.0
+   ],
+   "size": 8.8,
+   "testo": "due o più benefici, come indicato di seguito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    650.4,
+    510.0,
+    660.9
+   ],
+   "size": 8.8,
+   "testo": "Resistenza. Il druido dispone di resistenza ai danni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    661.3,
+    411.7,
+    671.9
+   ],
+   "size": 8.8,
+   "testo": "da freddo, fulmine e tuono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    672.4,
+    511.3,
+    682.9
+   ],
+   "size": 8.8,
+   "testo": "Volo. Il druido ottiene una velocità di volo pari alla",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    683.3,
+    373.0,
+    693.8
+   ],
+   "size": 8.8,
+   "testo": "sua velocità base.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

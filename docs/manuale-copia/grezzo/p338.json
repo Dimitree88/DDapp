@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 338,
+ "pagina_stampata": 335,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 335",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   373
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    66.1,
+    376.1,
+    278.0,
+    386.7
+   ],
+   "size": 8.8,
+   "testo": "\"Visto occasionalmente\" indica un luogo che l'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.9,
+    387.1,
+    275.9,
+    397.7
+   ],
+   "size": 8.8,
+   "testo": "tore ha visto più di una volta, ma che non gli è troppo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.0,
+    398.1,
+    105.6,
+    408.7
+   ],
+   "size": 8.8,
+   "testo": "familiare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    409.2,
+    285.4,
+    419.8
+   ],
+   "size": 8.8,
+   "testo": "\"Visto una volta o descritto\" indica un luogo che l'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.6,
+    420.3,
+    282.1,
+    430.8
+   ],
+   "size": 8.8,
+   "testo": "tatore ha visto una volta, magari usando la magia, o un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.9,
+    431.2,
+    283.6,
+    441.8
+   ],
+   "size": 8.8,
+   "testo": "luogo noto attraverso la descrizione di un'altra persona",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.0,
+    442.2,
+    119.8,
+    452.7
+   ],
+   "size": 8.8,
+   "testo": "o una mappa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.1,
+    453.2,
+    286.5,
+    463.7
+   ],
+   "size": 8.8,
+   "testo": "\"Falsa destinazione\" è un luogo inesistente. Per esempio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.9,
+    464.2,
+    282.8,
+    474.7
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore ha cercato di scrutare il rifugio segreto di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.9,
+    475.2,
+    285.3,
+    485.8
+   ],
+   "size": 8.8,
+   "testo": "un nemico ma ha visto invece un'illusione, oppure tenta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.0,
+    486.2,
+    257.9,
+    496.7
+   ],
+   "size": 8.8,
+   "testo": "di teletrasportarsi in un luogo che non esiste più.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    502.7,
+    279.4,
+    513.2
+   ],
+   "size": 8.8,
+   "testo": "Errore. La magia imprevedibile dell'incantesimo rende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    513.6,
+    262.9,
+    524.2
+   ],
+   "size": 8.8,
+   "testo": "difficile il viaggio. Ogni creatura che si teletrasporta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    524.6,
+    285.3,
+    535.1
+   ],
+   "size": 8.8,
+   "testo": "(o l'oggetto bersaglio) subisce 3d10 danni da forza e il DM",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.0,
+    535.7,
+    287.6,
+    546.2
+   ],
+   "size": 8.8,
+   "testo": "lancia di nuovo il dado facendo riferimento alla tabella per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.7,
+    546.6,
+    272.5,
+    557.2
+   ],
+   "size": 8.8,
+   "testo": "determinare dove arriverà (potrebbero verificarsi vari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    557.5,
+    278.4,
+    568.1
+   ],
+   "size": 8.8,
+   "testo": "errori, nel qual caso i danni verranno inflitti ogni volta).",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.0,
+    568.6,
+    273.2,
+    579.1
+   ],
+   "size": 8.8,
+   "testo": "Areasimile. L'incantatore e il suo gruppo (o l'oggetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    579.6,
+    277.6,
+    590.2
+   ],
+   "size": 8.8,
+   "testo": "bersaglio) arrivano in un'area diversa che è visivamente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    590.5,
+    274.4,
+    601.1
+   ],
+   "size": 8.8,
+   "testo": "o tematicamente simile all'area bersaglio, oltre a essere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    601.5,
+    277.2,
+    612.1
+   ],
+   "size": 8.8,
+   "testo": "nelle sue immediate vicinanze. Per esempio, se l'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    612.7,
+    285.1,
+    623.3
+   ],
+   "size": 8.8,
+   "testo": "tore vuole dirigersi al suo laboratorio personale, potrebbe",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    623.8,
+    279.5,
+    634.3
+   ],
+   "size": 8.8,
+   "testo": "comparire in quello di un'altra persona nella stessa città.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.9,
+    634.7,
+    288.2,
+    645.3
+   ],
+   "size": 8.8,
+   "testo": "Fuori bersaglio. L'incantatore e il suo gruppo (o l'oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    645.7,
+    276.0,
+    656.3
+   ],
+   "size": 8.8,
+   "testo": "bersaglio) compaiono a una distanza di 2d12 chilometri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    656.7,
+    278.9,
+    667.2
+   ],
+   "size": 8.8,
+   "testo": "dalla destinazione in una direzione casuale. Tira 1d8 per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    667.7,
+    284.0,
+    678.3
+   ],
+   "size": 8.8,
+   "testo": "la direzione: 1, est; 2, sud-est; 3, sud; 4, sud-ovest; 5, ovest;",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    678.7,
+    221.3,
+    689.2
+   ],
+   "size": 8.8,
+   "testo": "6, nord-ovest; 7, nord; oppure 8, nord-est.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.6,
+    689.6,
+    279.3,
+    700.2
+   ],
+   "size": 8.8,
+   "testo": "Sul bersaglio. L'incantatore e il suo gruppo (o l'oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    700.7,
+    223.1,
+    711.2
+   ],
+   "size": 8.8,
+   "testo": "bersaglio) compaiono nel luogo designato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    391.5,
+    420.0,
+    402.8
+   ],
+   "size": 11.2,
+   "testo": "TEMPESTA DI Fuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    402.9,
+    496.9,
+    413.4
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 7° livello (chierico, druido, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    418.7,
+    402.4,
+    428.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    429.6,
+    374.8,
+    439.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 45 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    440.6,
+    377.3,
+    450.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.8,
+    451.6,
+    383.0,
+    461.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    467.7,
+    536.1,
+    478.3
+   ],
+   "size": 8.8,
+   "testo": "Una tempesta di fuoco compare in un luogo entro gittata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    478.7,
+    537.2,
+    489.3
+   ],
+   "size": 8.8,
+   "testo": "L'area della tempesta è composta da dieci cubi con spigolo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    489.7,
+    532.4,
+    500.3
+   ],
+   "size": 8.8,
+   "testo": "di 3 metri, che l'incantatore può disporre come desidera.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    500.7,
+    535.3,
+    511.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni cubo deve essere contiguo ad almeno un altro cubo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    511.8,
+    510.9,
+    522.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura nell'area effettua un tiro salvezza su",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    522.8,
+    518.3,
+    533.4
+   ],
+   "size": 8.8,
+   "testo": "Destrezza; se lo fallisce, subisce 7d10 danni da fuoco,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    533.8,
+    489.6,
+    544.4
+   ],
+   "size": 8.8,
+   "testo": "mentre se lo supera subisce la metà dei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.5,
+    544.8,
+    539.4,
+    555.3
+   ],
+   "size": 8.8,
+   "testo": "Gli oggetti infiammabili nell'area che non sono indossati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    555.8,
+    440.0,
+    566.3
+   ],
+   "size": 8.8,
+   "testo": "o trasportati iniziano a bruciare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    590.4,
+    433.7,
+    601.8
+   ],
+   "size": 11.2,
+   "testo": "TEMPESTA DI GHIACCIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    601.9,
+    487.8,
+    612.4
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di4° livello (druido, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    617.7,
+    402.5,
+    627.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    628.7,
+    375.4,
+    638.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 90 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    639.7,
+    443.8,
+    649.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una muffola)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.8,
+    650.8,
+    382.9,
+    660.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    666.8,
+    526.1,
+    677.4
+   ],
+   "size": 8.8,
+   "testo": "Chicchi di grandine cadono in un cilindro del raggio di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.6,
+    677.8,
+    538.3,
+    688.3
+   ],
+   "size": 8.8,
+   "testo": "6 metri e alto 12 metri, centrato su un punto entro gittata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    688.8,
+    512.0,
+    699.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura presente nel cilindro effettua un tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    699.8,
+    530.3,
+    710.4
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Destrezza, subendo 2d10 danni contundenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    710.7,
+    532.7,
+    721.3
+   ],
+   "size": 8.8,
+   "testo": "e 4d6 danni da freddo in caso di fallimento, o la metà dei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.0,
+    721.8,
+    412.2,
+    732.4
+   ],
+   "size": 8.8,
+   "testo": "danni in caso di successo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

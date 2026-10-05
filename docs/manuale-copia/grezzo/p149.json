@@ -1,0 +1,727 @@
+{
+ "pagina_pdf": 149,
+ "pagina_stampata": 146,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": ".",
+ "immagini": [
+  [
+   -1,
+   4,
+   320,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    303.6,
+    38.1,
+    507.9,
+    49.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: RAFFICA DEL CACCIATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    49.5,
+    523.4,
+    60.1
+   ],
+   "size": 8.8,
+   "testo": "I danni psichici inflitti dal Colpo terribile salgono a 2d8.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    60.6,
+    521.9,
+    71.1
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, quando il ranger usa l'effetto Colpo terribile del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    71.6,
+    523.8,
+    82.1
+   ],
+   "size": 8.8,
+   "testo": "privilegio Imboscata Terrificante, può scatenare uno dei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    82.5,
+    408.2,
+    93.1
+   ],
+   "size": 8.8,
+   "testo": "seguenti effetti aggiuntivi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    93.5,
+    510.0,
+    104.1
+   ],
+   "size": 8.8,
+   "testo": "Colpo improvviso. Il ranger può effettuare un altro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    104.5,
+    518.7,
+    115.1
+   ],
+   "size": 8.8,
+   "testo": "attacco con la stessa arma contro una creatura diversa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    115.5,
+    524.6,
+    126.0
+   ],
+   "size": 8.8,
+   "testo": "che sia entro 1,5 metri dal bersaglio originale e a portata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    126.5,
+    344.3,
+    137.1
+   ],
+   "size": 8.8,
+   "testo": "dell'arma.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    137.5,
+    530.7,
+    148.1
+   ],
+   "size": 8.8,
+   "testo": "Paura di massa. Il bersaglio e ogni creatura nel raggio di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    148.5,
+    527.9,
+    159.1
+   ],
+   "size": 8.8,
+   "testo": "3 metri dal bersaglio devono superare un tiro salvezza su",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    159.5,
+    525.3,
+    170.1
+   ],
+   "size": 8.8,
+   "testo": "Saggezza contro la CD del tiro salvezza sull'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    170.6,
+    524.1,
+    181.2
+   ],
+   "size": 8.8,
+   "testo": "del ranger. In caso di fallimento, le creature colpite sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    181.6,
+    484.7,
+    192.1
+   ],
+   "size": 8.8,
+   "testo": "spaventate fino all'inizio del turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    202.2,
+    493.1,
+    213.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: SCHIVATA DELL'OMBRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    213.5,
+    524.4,
+    224.0
+   ],
+   "size": 8.8,
+   "testo": "Quando una creatura effettua un tiro per colpire contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    224.5,
+    529.3,
+    235.0
+   ],
+   "size": 8.8,
+   "testo": "il ranger, questi può utilizzare una reazione per conferire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    235.5,
+    510.9,
+    246.0
+   ],
+   "size": 8.8,
+   "testo": "svantaggio all'avversario. Che l'attacco vada a segno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    246.5,
+    505.5,
+    257.0
+   ],
+   "size": 8.8,
+   "testo": "o meno, il personaggio può poi teletrasportarsi fino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    257.4,
+    516.5,
+    268.0
+   ],
+   "size": 8.8,
+   "testo": "a 9 metri in uno spazio libero che è in grado di vedere.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    277.7,
+    447.8,
+    290.8
+   ],
+   "size": 9.7,
+   "testo": "SIGNORE DELLE BESTIE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    295.2,
+    475.8,
+    304.6
+   ],
+   "size": 8.6,
+   "testo": "Entra in comunione conuna bestiaprimordiale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    308.8,
+    523.8,
+    319.3
+   ],
+   "size": 8.8,
+   "testo": "Un Signore delle Bestie forma un legame mistico con un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    319.8,
+    526.7,
+    330.4
+   ],
+   "size": 8.8,
+   "testo": "animale speciale, attingendo alla magia primordiale e svi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    330.8,
+    520.9,
+    341.3
+   ],
+   "size": 8.8,
+   "testo": "luppando una profonda sintonia con il mondo naturale.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    351.2,
+    502.9,
+    362.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: COMPAGNO PRIMORDIALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    362.6,
+    509.1,
+    373.2
+   ],
+   "size": 8.8,
+   "testo": "Il ranger evoca magicamente una bestia primordiale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    373.6,
+    524.5,
+    384.1
+   ],
+   "size": 8.8,
+   "testo": "che trae forza dal suo legame con la natura. Scegli la sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    384.5,
+    516.4,
+    395.1
+   ],
+   "size": 8.8,
+   "testo": "scheda delle statistiche: Bestia della Terra, Bestia del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    395.6,
+    527.8,
+    406.2
+   ],
+   "size": 8.8,
+   "testo": "Mare o Bestia del Cielo. Il personaggio determina di che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    406.7,
+    519.9,
+    417.3
+   ],
+   "size": 8.8,
+   "testo": "tipo di animale si tratta, scegliendone uno consono alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    417.7,
+    526.5,
+    428.2
+   ],
+   "size": 8.8,
+   "testo": "scheda delle statistiche. A prescindere dalla bestia scelta,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    428.6,
+    534.0,
+    439.2
+   ],
+   "size": 8.8,
+   "testo": "questa avrà su di sé dei segni primordiali che testimoniano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    439.7,
+    418.8,
+    450.2
+   ],
+   "size": 8.8,
+   "testo": "le sue origini soprannaturali.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    450.6,
+    511.0,
+    461.2
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, è amichevole nei confronti del ranger e dei",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    461.6,
+    521.1,
+    472.1
+   ],
+   "size": 8.8,
+   "testo": "suoi compagni e obbedisce ai suoi comandi. Svanisce se",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    472.6,
+    390.0,
+    483.2
+   ],
+   "size": 8.8,
+   "testo": "il personaggio muore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    483.6,
+    528.2,
+    494.2
+   ],
+   "size": 8.8,
+   "testo": "La bestia in combattimento. In combattimento, la bestia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    494.6,
+    532.4,
+    505.1
+   ],
+   "size": 8.8,
+   "testo": "agisce durante il turno del ranger. Può muoversi e usare le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    505.6,
+    531.0,
+    516.2
+   ],
+   "size": 8.8,
+   "testo": "sue reazioni indipendentemente dal personaggio, e l'unica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    516.7,
+    524.9,
+    527.3
+   ],
+   "size": 8.8,
+   "testo": "azione che può compiere è la Schivata, a meno che il ran­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    527.7,
+    526.9,
+    538.2
+   ],
+   "size": 8.8,
+   "testo": "ger non usi un'azione bonus per ordinargli di effettuarne",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    538.7,
+    527.0,
+    549.2
+   ],
+   "size": 8.8,
+   "testo": "una descritta nella scheda delle statistiche o di altro tipo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    549.7,
+    524.1,
+    560.2
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua l'azione di Attacco, il ranger può anche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    560.6,
+    525.6,
+    571.2
+   ],
+   "size": 8.8,
+   "testo": "decidere di sacrificare uno dei suoi attacchi per ordinare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    571.6,
+    532.9,
+    582.2
+   ],
+   "size": 8.8,
+   "testo": "alla bestia di effettuare l'azione di Colpo. Se il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    582.5,
+    510.2,
+    593.1
+   ],
+   "size": 8.8,
+   "testo": "è incapacitato, la bestia agisce di sua volontà e non si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    593.6,
+    416.1,
+    604.2
+   ],
+   "size": 8.8,
+   "testo": "limita all'azione di Schivata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    604.6,
+    519.6,
+    615.2
+   ],
+   "size": 8.8,
+   "testo": "Ripristinare o sostituire la bestia. Se la bestia è morta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    615.7,
+    519.0,
+    626.3
+   ],
+   "size": 8.8,
+   "testo": "nell'ultima ora, come azione di Magia il ranger può toc­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    626.8,
+    533.0,
+    637.4
+   ],
+   "size": 8.8,
+   "testo": "carla e consumare uno slot incantesimo. La bestia torna in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    637.8,
+    530.5,
+    648.3
+   ],
+   "size": 8.8,
+   "testo": "vita dopo 1 minuto con tutti i suoi punti ferita ripristinati.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    648.7,
+    526.3,
+    659.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il ranger completa un riposo lungo, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    659.8,
+    525.9,
+    670.4
+   ],
+   "size": 8.8,
+   "testo": "evocare una bestia primordiale differente che comparirà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    670.8,
+    522.8,
+    681.3
+   ],
+   "size": 8.8,
+   "testo": "in uno spazio libero entro 1,5 metri da sé, e sceglierne la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    681.7,
+    523.4,
+    692.3
+   ],
+   "size": 8.8,
+   "testo": "scheda delle statistiche e l'aspetto. Se il personaggio pos­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    692.7,
+    530.2,
+    703.3
+   ],
+   "size": 8.8,
+   "testo": "siede già una bestia garantita da questo privilegio, sparirà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    703.7,
+    428.4,
+    714.2
+   ],
+   "size": 8.8,
+   "testo": "una volta apparsa quella nuova.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    405.5,
+    725.8,
+    408.3,
+    729.9
+   ],
+   "size": 2.8,
+   "testo": ".",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

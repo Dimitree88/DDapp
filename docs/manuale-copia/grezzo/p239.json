@@ -1,0 +1,1428 @@
+{
+ "pagina_pdf": 239,
+ "pagina_stampata": 236,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "236 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.2,
+    36.4,
+    261.0,
+    45.4
+   ],
+   "size": 6.7,
+   "testo": "Capacità speciali. Alcuni personaggi e mostri hanno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    47.7,
+    275.6,
+    56.3
+   ],
+   "size": 6.7,
+   "testo": "capacità speciali che consentono loro di lanciare incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    58.8,
+    270.5,
+    67.4
+   ],
+   "size": 6.7,
+   "testo": "tesimi specifici senza uno slot incantesimo. Di norma,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    69.8,
+    271.5,
+    78.4
+   ],
+   "size": 6.7,
+   "testo": "questo lancio subisce restrizioni di altra natura, come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.7,
+    80.8,
+    269.5,
+    89.3
+   ],
+   "size": 6.7,
+   "testo": "la possibilità di lanciare l'incantesimo per un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.7,
+    91.8,
+    163.2,
+    100.3
+   ],
+   "size": 6.7,
+   "testo": "limitato di volte al giorno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    101.1,
+    254.6,
+    111.5
+   ],
+   "size": 8.5,
+   "testo": "Oggetti magici. Le pergamene magiche e alcuni altri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    113.8,
+    263.5,
+    122.4
+   ],
+   "size": 6.7,
+   "testo": "oggetti magici contengono incantesimi che possono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    124.7,
+    265.9,
+    133.3
+   ],
+   "size": 6.7,
+   "testo": "essere lanciati senza uno slot incantesimo. La descri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    135.8,
+    251.1,
+    144.3
+   ],
+   "size": 6.7,
+   "testo": "zione di questi oggetti specifica quante volte essi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    146.7,
+    192.0,
+    155.3
+   ],
+   "size": 6.7,
+   "testo": "possono lanciare un incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    165.3,
+    251.5,
+    175.6
+   ],
+   "size": 8.5,
+   "testo": "UTILIZZO DI UNO SLOT INCANTESIMO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    176.2,
+    175.0,
+    186.5
+   ],
+   "size": 8.5,
+   "testo": "DI LIVELLO SUPERIORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    189.4,
+    281.1,
+    198.0
+   ],
+   "size": 6.7,
+   "testo": "Quando un incantatore lancia un incantesimo usando uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    200.5,
+    276.5,
+    209.0
+   ],
+   "size": 6.7,
+   "testo": "slot di livello superiore rispetto a quello dell'incantesimo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    211.5,
+    271.1,
+    220.1
+   ],
+   "size": 6.7,
+   "testo": "l'incantesimo assume il livello superiore per quel lancio.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    220.7,
+    263.1,
+    231.1
+   ],
+   "size": 8.5,
+   "testo": "Ad esempio, se un mago lancia dardo incantato usando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    230.1,
+    263.2,
+    242.2
+   ],
+   "size": 8.5,
+   "testo": "uno slot incantesimo di 2° livello, quel dardo incantato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    241.1,
+    263.5,
+    253.2
+   ],
+   "size": 6.7,
+   "testo": "è di 2° livello. In altre parole, l'incantesimo si espande",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    255.4,
+    212.0,
+    264.0
+   ],
+   "size": 6.7,
+   "testo": "per occupare lo slot in cui viene inserito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    264.8,
+    268.5,
+    275.1
+   ],
+   "size": 8.5,
+   "testo": "Alcuni incantesimi, quali dardo incantato e curaferite,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    277.5,
+    266.5,
+    286.0
+   ],
+   "size": 6.7,
+   "testo": "hanno effetti più potenti quando vengono lanciati a un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    288.6,
+    264.0,
+    297.1
+   ],
+   "size": 6.7,
+   "testo": "livello superiore, come indicato nella loro descrizione.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    306.7,
+    166.5,
+    316.6
+   ],
+   "size": 9.6,
+   "testo": "SCUOLA DI MAGIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    325.2,
+    254.7,
+    333.7
+   ],
+   "size": 6.7,
+   "testo": "Ogni incantesimo appartiene a una scuola di magia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    336.1,
+    260.0,
+    344.6
+   ],
+   "size": 6.7,
+   "testo": "Le scuole sono elencate nella tabella Scuole di magia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    347.1,
+    273.1,
+    355.6
+   ],
+   "size": 6.7,
+   "testo": "Le scuole di magia contribuiscono a descrivere gli incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    358.1,
+    272.1,
+    366.6
+   ],
+   "size": 6.7,
+   "testo": "tesimi ma non prevedono regole proprie, malgrado altre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    369.0,
+    182.5,
+    377.6
+   ],
+   "size": 6.7,
+   "testo": "regole possano farvi riferimento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    389.7,
+    142.5,
+    400.1
+   ],
+   "size": 8.5,
+   "testo": "SCUOLE DI MAGIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    406.1,
+    83.1,
+    415.1
+   ],
+   "size": 6.7,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    420.5,
+    103.3,
+    429.5
+   ],
+   "size": 6.7,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    125.1,
+    406.2,
+    169.6,
+    415.2
+   ],
+   "size": 6.7,
+   "testo": "Effetti tipici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    124.8,
+    420.5,
+    262.4,
+    429.5
+   ],
+   "size": 6.7,
+   "testo": "Previene o inverte gli effetti dannosi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    435.1,
+    116.6,
+    444.1
+   ],
+   "size": 6.7,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    124.9,
+    435.0,
+    218.3,
+    444.1
+   ],
+   "size": 6.7,
+   "testo": "Influenza la mente altrui",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    449.7,
+    102.8,
+    458.7
+   ],
+   "size": 6.7,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    124.8,
+    449.5,
+    198.8,
+    458.6
+   ],
+   "size": 6.7,
+   "testo": "Rivela informazioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    464.1,
+    100.7,
+    473.2
+   ],
+   "size": 6.7,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.9,
+    464.1,
+    236.7,
+    473.2
+   ],
+   "size": 6.7,
+   "testo": "Trasporta creature od oggetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    478.8,
+    90.1,
+    487.9
+   ],
+   "size": 6.7,
+   "testo": "Illusione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    124.8,
+    478.7,
+    225.2,
+    487.7
+   ],
+   "size": 6.7,
+   "testo": "Inganna la mente o i sensi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    493.2,
+    103.5,
+    502.3
+   ],
+   "size": 6.7,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    124.2,
+    493.3,
+    261.6,
+    502.3
+   ],
+   "size": 6.7,
+   "testo": "Canalizza l'energia per creare effetti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    123.9,
+    505.2,
+    191.0,
+    514.3
+   ],
+   "size": 6.7,
+   "testo": "spesso distruttivi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    520.0,
+    108.7,
+    529.0
+   ],
+   "size": 6.7,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    124.7,
+    520.0,
+    227.2,
+    529.0
+   ],
+   "size": 6.7,
+   "testo": "Manipola la vita e la morte",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    534.5,
+    114.4,
+    543.6
+   ],
+   "size": 6.7,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.9,
+    534.5,
+    238.9,
+    543.5
+   ],
+   "size": 6.7,
+   "testo": "Trasforma creature od oggetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    557.1,
+    267.5,
+    567.0
+   ],
+   "size": 9.6,
+   "testo": "LISTE DI INCANTESIMI PER CLASSE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    575.2,
+    281.9,
+    584.2
+   ],
+   "size": 6.7,
+   "testo": "Se un incantesimo è nella lista di incantesimi di una classe,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    586.5,
+    261.1,
+    595.1
+   ],
+   "size": 6.7,
+   "testo": "il nome della classe compare tra parentesi dopo l'indi­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    597.5,
+    263.3,
+    606.1
+   ],
+   "size": 6.7,
+   "testo": "cazione della scuola di magia dell'incantesimo. Alcuni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    608.6,
+    271.1,
+    617.2
+   ],
+   "size": 6.7,
+   "testo": "privilegi consentono a un personaggio di aggiungere un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    619.6,
+    276.1,
+    628.2
+   ],
+   "size": 6.7,
+   "testo": "incantesimo alla sua lista di incantesimi anche se il perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    630.7,
+    277.1,
+    639.2
+   ],
+   "size": 6.7,
+   "testo": "naggio non appartiene a una classe indicata tra parentesi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    648.9,
+    165.1,
+    658.7
+   ],
+   "size": 9.6,
+   "testo": "TEMPO DI LANCIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    667.3,
+    270.1,
+    675.8
+   ],
+   "size": 6.7,
+   "testo": "La maggior parte degli incantesimi richiede una singola",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    678.3,
+    273.5,
+    686.9
+   ],
+   "size": 6.7,
+   "testo": "azione di Magia. Tuttavia, alcuni incantesimi richiedono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    688.9,
+    262.0,
+    697.9
+   ],
+   "size": 6.7,
+   "testo": "un'azione bonus, una reazione, 1 minuto o un periodo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    700.3,
+    260.2,
+    708.8
+   ],
+   "size": 6.7,
+   "testo": "di tempo più lungo, come specificato alla voce Tempo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    711.2,
+    88.7,
+    719.8
+   ],
+   "size": 6.7,
+   "testo": "di lancio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    35.5,
+    534.1,
+    45.4
+   ],
+   "size": 9.6,
+   "testo": "UN INCANTESIMO E UNO SLOT INCANTESIMO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    46.4,
+    364.9,
+    56.3
+   ],
+   "size": 9.6,
+   "testo": "PER TURNO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    60.9,
+    511.8,
+    69.5
+   ],
+   "size": 6.7,
+   "testo": "In un turno, si può spendere un solo slot per lanciare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    71.9,
+    515.5,
+    80.5
+   ],
+   "size": 6.7,
+   "testo": "un incantesimo. Questa regola implica che non si può,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    82.9,
+    530.1,
+    91.5
+   ],
+   "size": 6.7,
+   "testo": "ad esempio, lanciare un incantesimo con uno slot incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    93.9,
+    534.2,
+    102.5
+   ],
+   "size": 6.7,
+   "testo": "simo usando l'azione di Magia e un altro usando un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    104.9,
+    403.9,
+    113.5
+   ],
+   "size": 6.7,
+   "testo": "bonus nello stesso turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    122.1,
+    508.9,
+    132.0
+   ],
+   "size": 9.6,
+   "testo": "INNESCHI, REAZIONE E AZIONE BONUS",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    136.6,
+    534.1,
+    145.2
+   ],
+   "size": 6.7,
+   "testo": "Un incantesimo con il tempo di lancio di una Reazione viene",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    147.7,
+    531.2,
+    156.3
+   ],
+   "size": 6.7,
+   "testo": "lanciato in risposta a un innesco indicato alla voce Tempo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    158.7,
+    527.1,
+    167.3
+   ],
+   "size": 6.7,
+   "testo": "di lancio dell'incantesimo. Alcuni incantesimi che hanno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    169.8,
+    523.4,
+    178.4
+   ],
+   "size": 6.7,
+   "testo": "un tempo di lancio di un'Azione Bonus vengono lanciati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    180.7,
+    525.3,
+    189.3
+   ],
+   "size": 6.7,
+   "testo": "anche in risposta a un innesco definito nell'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    197.9,
+    456.8,
+    207.8
+   ],
+   "size": 9.6,
+   "testo": "TEMPI DI LANCIO SUPERIORI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    212.7,
+    533.8,
+    221.3
+   ],
+   "size": 6.7,
+   "testo": "Per lanciare certi incantesimi, inclusi gli incantesimi lanciati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    223.3,
+    524.5,
+    232.3
+   ],
+   "size": 6.7,
+   "testo": "come rituale, è necessario più tempo: minuti o addirittura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    234.5,
+    530.8,
+    243.1
+   ],
+   "size": 6.7,
+   "testo": "ore. Mentre il personaggio lancia un incantesimo che ha un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    245.3,
+    529.6,
+    254.3
+   ],
+   "size": 6.7,
+   "testo": "tempo di lancio di 1 minuto o più, deve effettuare un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    256.7,
+    531.4,
+    265.2
+   ],
+   "size": 6.7,
+   "testo": "di Magia in ogni turno e, allo stesso tempo, deve mantenere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    267.6,
+    523.7,
+    276.2
+   ],
+   "size": 6.7,
+   "testo": "la concentrazione (vedi il Glossario delle regole). Se la sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    278.7,
+    527.2,
+    287.3
+   ],
+   "size": 6.7,
+   "testo": "concentrazione viene interrotta, l'incantesimo fallisce, ma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    289.8,
+    525.4,
+    298.4
+   ],
+   "size": 6.7,
+   "testo": "il personaggio non consuma uno slot incantesimo. Per lan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    300.7,
+    532.8,
+    309.3
+   ],
+   "size": 6.7,
+   "testo": "ciare nuovamente l'incantesimo, deve ricominciare da capo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    318.8,
+    361.4,
+    328.7
+   ],
+   "size": 9.6,
+   "testo": "GITTATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    337.3,
+    532.5,
+    345.9
+   ],
+   "size": 6.7,
+   "testo": "La gittata di un incantesimo indica quanto lontano dall'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    348.3,
+    527.7,
+    356.8
+   ],
+   "size": 6.7,
+   "testo": "cantatore può avere origine il suo effetto e la descrizione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    359.2,
+    520.0,
+    367.8
+   ],
+   "size": 6.7,
+   "testo": "dell'incantesimo specifica quale parte dell'effetto viene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    370.2,
+    388.1,
+    378.8
+   ],
+   "size": 6.7,
+   "testo": "limitata dalla gittata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    381.2,
+    521.1,
+    389.8
+   ],
+   "size": 6.7,
+   "testo": "La gittata, di solito, prende una tra le seguenti forme:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    397.3,
+    462.4,
+    406.3
+   ],
+   "size": 6.7,
+   "testo": "Distanza. La gittata è espressa in metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    408.5,
+    535.1,
+    417.5
+   ],
+   "size": 6.7,
+   "testo": "Contatto. L'effetto dell'incantesimo ha origine su qualcosa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.2,
+    419.7,
+    531.5,
+    428.2
+   ],
+   "size": 6.7,
+   "testo": "che l'incantatore deve toccare, come definito nell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.3,
+    430.6,
+    368.0,
+    439.2
+   ],
+   "size": 6.7,
+   "testo": "tesimo stesso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    441.4,
+    534.5,
+    450.4
+   ],
+   "size": 6.7,
+   "testo": "Incantatore. L'incantesimo viene lanciato sull'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.2,
+    452.7,
+    526.4,
+    461.2
+   ],
+   "size": 6.7,
+   "testo": "o si irradia dall'incantatore stesso, come indicato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.2,
+    463.6,
+    427.8,
+    472.2
+   ],
+   "size": 6.7,
+   "testo": "descrizione dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    480.0,
+    526.4,
+    488.6
+   ],
+   "size": 6.7,
+   "testo": "Se un incantesimo ha effetti mobili, questi non sono limi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    491.0,
+    529.4,
+    499.6
+   ],
+   "size": 6.7,
+   "testo": "tati dalla gittata, a meno che la descrizione non specifichi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    502.0,
+    347.8,
+    510.6
+   ],
+   "size": 6.7,
+   "testo": "altrimenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    520.3,
+    392.0,
+    530.2
+   ],
+   "size": 9.6,
+   "testo": "COMPONENTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    538.7,
+    530.4,
+    547.2
+   ],
+   "size": 6.7,
+   "testo": "Le componenti di un incantesimo sono i requisiti fisici che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    549.7,
+    531.3,
+    558.3
+   ],
+   "size": 6.7,
+   "testo": "un incantatore deve soddisfare al fine di lanciare l'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    560.7,
+    534.5,
+    569.3
+   ],
+   "size": 6.7,
+   "testo": "simo. La descrizione di ogni incantesimo indica se richiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    569.9,
+    517.5,
+    580.2
+   ],
+   "size": 8.5,
+   "testo": "componenti verbali (V), somatiche (S) o materiali (M).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    582.7,
+    519.4,
+    591.2
+   ],
+   "size": 6.7,
+   "testo": "Se l'incantatore non può fornire una o più componenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    593.7,
+    501.8,
+    602.2
+   ],
+   "size": 6.7,
+   "testo": "di un incantesimo, questo non può essere lanciato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.3,
+    610.9,
+    373.8,
+    620.8
+   ],
+   "size": 9.6,
+   "testo": "VERBALE (V)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    625.4,
+    533.3,
+    634.3
+   ],
+   "size": 6.7,
+   "testo": "Una componente verbale è la cantilena di parole esoteriche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    636.7,
+    525.7,
+    645.3
+   ],
+   "size": 6.7,
+   "testo": "che, alle orecchie dei profani, non hanno senso. La canti­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    647.7,
+    531.2,
+    656.2
+   ],
+   "size": 6.7,
+   "testo": "lena deve essere pronunciata con voce normale. Le parole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    658.6,
+    520.1,
+    667.2
+   ],
+   "size": 6.7,
+   "testo": "vere e proprie non sono la fonte del potere dell'incante­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    669.4,
+    523.4,
+    678.4
+   ],
+   "size": 6.7,
+   "testo": "simo: è invece quella particolare combinazione di suoni,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    680.7,
+    506.9,
+    689.3
+   ],
+   "size": 6.7,
+   "testo": "tonalità e riverbero ad attivare il flusso della magia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    691.6,
+    511.3,
+    700.2
+   ],
+   "size": 6.7,
+   "testo": "Pertanto, una creatura imbavagliata o sita in un'area",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    702.6,
+    506.4,
+    711.1
+   ],
+   "size": 6.7,
+   "testo": "di silenzio magico non può lanciare un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    713.6,
+    420.7,
+    722.1
+   ],
+   "size": 6.7,
+   "testo": "con una componente verbale.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

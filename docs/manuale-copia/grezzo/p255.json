@@ -1,0 +1,1296 @@
+{
+ "pagina_pdf": 255,
+ "pagina_stampata": 252,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "252 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.4,
+    51.4,
+    144.5,
+    61.8
+   ],
+   "size": 8.4,
+   "testo": "CECITÀ/SORDITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    63.0,
+    271.2,
+    73.5
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione di 2° livello (bardo, chierico, mago, stregone)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    77.5,
+    144.9,
+    88.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    88.5,
+    118.1,
+    99.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    101.2,
+    111.4,
+    109.9
+   ],
+   "size": 6.4,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    110.5,
+    120.3,
+    120.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    129.4,
+    266.8,
+    138.1
+   ],
+   "size": 6.6,
+   "testo": "Una creatura entro gittata che l'incantatore è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    140.4,
+    277.1,
+    148.9
+   ],
+   "size": 6.6,
+   "testo": "di vedere deve superare un tiro salvezza su Costituzione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    151.4,
+    274.9,
+    159.9
+   ],
+   "size": 6.6,
+   "testo": "altrimenti viene accecata o assordata (a scelta dell'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    162.3,
+    281.5,
+    170.9
+   ],
+   "size": 6.6,
+   "testo": "tatore) per la durata dell'incantesimo. Alla fine di ogni suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    173.4,
+    266.8,
+    182.0
+   ],
+   "size": 6.6,
+   "testo": "turno, il bersaglio ripete il tiro salvezza e, se lo supera,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    184.4,
+    173.2,
+    192.9
+   ],
+   "size": 6.6,
+   "testo": "termina l'incantesimo su di sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    195.3,
+    256.5,
+    204.1
+   ],
+   "size": 6.4,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    206.5,
+    265.7,
+    215.0
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    217.5,
+    199.9,
+    226.0
+   ],
+   "size": 6.6,
+   "testo": "per ogni slot di livello superiore al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.1,
+    250.4,
+    97.0,
+    260.9
+   ],
+   "size": 8.4,
+   "testo": "CELARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    262.0,
+    178.0,
+    272.5
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione di 7° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    276.6,
+    145.0,
+    287.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    287.8,
+    118.0,
+    298.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    298.6,
+    246.4,
+    309.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (polvere di gemme del valore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    309.6,
+    241.1,
+    320.1
+   ],
+   "size": 8.4,
+   "testo": "di 5.000 mo o più, che l'incantesimo consuma)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    320.7,
+    180.5,
+    331.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: finché non viene dissolto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    339.5,
+    277.0,
+    348.1
+   ],
+   "size": 6.6,
+   "testo": "Con un tocco, l'incantatore cela magicamente un oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    350.4,
+    269.1,
+    359.0
+   ],
+   "size": 6.6,
+   "testo": "o una creatura consenziente. Per la durata dell'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    361.4,
+    275.6,
+    370.2
+   ],
+   "size": 6.6,
+   "testo": "simo, il bersaglio è invisibile e non può essere bersagliato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    372.4,
+    265.3,
+    381.0
+   ],
+   "size": 6.6,
+   "testo": "da incantesimi di divinazione, individuato dalla magia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    383.4,
+    194.7,
+    392.0
+   ],
+   "size": 6.6,
+   "testo": "o osservato a distanza con la magia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    394.5,
+    259.5,
+    403.3
+   ],
+   "size": 6.6,
+   "testo": "Se il bersaglio è una creatura, entra in uno stato di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.9,
+    405.6,
+    276.3,
+    414.4
+   ],
+   "size": 6.6,
+   "testo": "animazione sospesa, è priva di sensi, non invecchia e non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    416.6,
+    172.0,
+    425.1
+   ],
+   "size": 6.6,
+   "testo": "necessita di cibo, acqua o aria.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    427.5,
+    279.5,
+    436.0
+   ],
+   "size": 6.6,
+   "testo": "Per terminare prematuramente l'incantesimo, l'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    438.5,
+    280.9,
+    447.0
+   ],
+   "size": 6.6,
+   "testo": "tore può stabilire una condizione, che può essere qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    449.5,
+    271.2,
+    458.0
+   ],
+   "size": 6.6,
+   "testo": "cosa a sua scelta che, tuttavia, debba verificarsi o essere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    460.5,
+    266.6,
+    469.0
+   ],
+   "size": 6.6,
+   "testo": "visibile entro 1,5 chilometri dal bersaglio. Per esempio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    471.4,
+    269.6,
+    479.9
+   ],
+   "size": 6.6,
+   "testo": "\"dopo 1.000 anni\" o \"al risveglio del tarrasque\". Questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    482.4,
+    276.0,
+    491.0
+   ],
+   "size": 6.6,
+   "testo": "incantesimo termina inoltre se il bersaglio subisce danni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    515.5,
+    157.0,
+    526.0
+   ],
+   "size": 8.4,
+   "testo": "CERCHIO DI MORTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    527.0,
+    239.4,
+    537.5
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia di 6° livello (mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    541.6,
+    144.6,
+    552.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    552.6,
+    117.7,
+    563.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 45 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    563.5,
+    267.2,
+    574.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (polvere ricavata da una perla nera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.4,
+    574.5,
+    211.0,
+    585.0
+   ],
+   "size": 8.4,
+   "testo": "frantumata, del valore di 500 mo o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    585.5,
+    125.1,
+    596.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    604.4,
+    270.6,
+    612.9
+   ],
+   "size": 6.6,
+   "testo": "Un flusso di energia negativa si espande in una sfera del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    615.5,
+    267.4,
+    624.1
+   ],
+   "size": 6.6,
+   "testo": "raggio di 18 metri da un punto a scelta dell'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    626.6,
+    273.3,
+    635.1
+   ],
+   "size": 6.6,
+   "testo": "situato entro gittata. Ogni creatura nell'area effettua un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    637.6,
+    272.2,
+    646.1
+   ],
+   "size": 6.6,
+   "testo": "tiro salvezza su Costituzione, subendo 8d8 danni necro­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    648.5,
+    265.2,
+    657.1
+   ],
+   "size": 6.6,
+   "testo": "tici in caso di fallimento, o la metà dei danni in caso di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    659.6,
+    90.6,
+    668.1
+   ],
+   "size": 6.6,
+   "testo": "successo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    670.5,
+    256.3,
+    679.3
+   ],
+   "size": 6.4,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    681.5,
+    262.7,
+    690.3
+   ],
+   "size": 6.6,
+   "testo": "I danni aumentano di 2d8 per ogni slot di livello supe­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    692.5,
+    95.6,
+    701.1
+   ],
+   "size": 6.6,
+   "testo": "riore al 6°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    51.3,
+    413.1,
+    61.8
+   ],
+   "size": 8.4,
+   "testo": "CERCHIO DI POTERE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    61.4,
+    489.2,
+    73.4
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione di 5° livello (chierico, mago, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    77.5,
+    397.5,
+    88.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    88.5,
+    381.9,
+    99.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    101.1,
+    364.0,
+    109.9
+   ],
+   "size": 6.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    110.5,
+    461.5,
+    121.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    129.3,
+    530.7,
+    138.1
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore irradia un'aura in un'emanazione di 9 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    140.4,
+    530.5,
+    148.9
+   ],
+   "size": 6.6,
+   "testo": "da sé che permane per la durata dell'incantesimo. Mentre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    151.4,
+    528.8,
+    159.9
+   ],
+   "size": 6.6,
+   "testo": "sono nell'aura,l'incantatore e i suoi alleati dispongono di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    162.4,
+    522.9,
+    170.9
+   ],
+   "size": 6.6,
+   "testo": "vantaggio sui tiri salvezza e altri effetti magici. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    173.5,
+    528.8,
+    182.0
+   ],
+   "size": 6.6,
+   "testo": "una creatura influenzata effettua un tiro salvezza contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    184.5,
+    527.6,
+    193.0
+   ],
+   "size": 6.6,
+   "testo": "un incantesimo o un effetto magico che consente di effet­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    195.4,
+    529.2,
+    203.9
+   ],
+   "size": 6.6,
+   "testo": "tuare un tiro salvezza per dimezzare i danni, non subisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    206.5,
+    405.7,
+    215.0
+   ],
+   "size": 6.6,
+   "testo": "alcun danno se lo supera.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    239.4,
+    458.2,
+    249.9
+   ],
+   "size": 8.4,
+   "testo": "CERCHIO DI TELETRASPORTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    249.4,
+    510.3,
+    261.4
+   ],
+   "size": 8.4,
+   "testo": "Evocazionedi 5°livello (bardo, mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    265.5,
+    406.7,
+    276.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    276.6,
+    365.9,
+    287.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 3 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    287.7,
+    530.6,
+    298.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, M (inchiostri rari dal valore di 50 mo o più,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.9,
+    298.6,
+    421.9,
+    309.1
+   ],
+   "size": 8.4,
+   "testo": "che l'incantesimo consuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    309.6,
+    368.0,
+    320.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 round",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    328.6,
+    514.7,
+    337.1
+   ],
+   "size": 6.6,
+   "testo": "Quando lancia l'incantesimo, l'incantatore traccia un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    339.5,
+    515.9,
+    348.1
+   ],
+   "size": 6.6,
+   "testo": "cerchio del diametro di 1,5 metri sul terreno dotato di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    350.5,
+    520.0,
+    359.0
+   ],
+   "size": 6.6,
+   "testo": "sigilli che collegano il luogo in cui si trova a un cerchio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    361.6,
+    522.3,
+    370.1
+   ],
+   "size": 6.6,
+   "testo": "di teletrasporto permanente a sua scelta, di cui conosce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    372.6,
+    517.5,
+    381.1
+   ],
+   "size": 6.6,
+   "testo": "la sequenza di sigilli e che si trova sul suo stesso piano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    383.5,
+    521.9,
+    392.0
+   ],
+   "size": 6.6,
+   "testo": "di esistenza. All'interno del cerchio tracciato si apre un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    394.5,
+    514.2,
+    403.0
+   ],
+   "size": 6.6,
+   "testo": "portale scintillante che rimane aperto fino al termine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    405.7,
+    516.7,
+    414.2
+   ],
+   "size": 6.6,
+   "testo": "del suo turno successivo. Qualsiasi creatura che entra",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    416.7,
+    519.6,
+    425.2
+   ],
+   "size": 6.6,
+   "testo": "nel portale appare immediatamente entro 1,5 metri dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    427.6,
+    518.3,
+    436.2
+   ],
+   "size": 6.6,
+   "testo": "cerchio di destinazione o nello spazio libero più vicino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    438.6,
+    405.2,
+    447.4
+   ],
+   "size": 6.6,
+   "testo": "se tale spazio è occupato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    449.6,
+    529.7,
+    458.1
+   ],
+   "size": 6.6,
+   "testo": "Nella maggior parte dei casi, templi e palazzi delle gilde",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    460.5,
+    528.8,
+    469.1
+   ],
+   "size": 6.6,
+   "testo": "più grandi, oltre ad altri luoghi importanti, sono dotati di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    471.5,
+    534.1,
+    480.1
+   ],
+   "size": 6.6,
+   "testo": "cerchi di teletrasporto permanenti. Ognuno di essi include",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    482.6,
+    521.1,
+    491.1
+   ],
+   "size": 6.6,
+   "testo": "una sequenza di sigilli unica: una serie di rune disposte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    493.5,
+    435.6,
+    502.0
+   ],
+   "size": 6.6,
+   "testo": "secondo uno schema particolare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.0,
+    504.5,
+    508.8,
+    513.1
+   ],
+   "size": 6.6,
+   "testo": "Quando l'incantatore ottiene per la prima volta la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    515.5,
+    509.7,
+    524.1
+   ],
+   "size": 6.6,
+   "testo": "capacità di lanciare questo incantesimo, apprende la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    526.6,
+    513.2,
+    535.1
+   ],
+   "size": 6.6,
+   "testo": "sequenza di sigilli abbinata a due destinazioni situate",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    537.6,
+    527.4,
+    546.1
+   ],
+   "size": 6.6,
+   "testo": "sul Piano Materiale, determinate dal DM. Nel corso delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    548.5,
+    533.7,
+    557.1
+   ],
+   "size": 6.6,
+   "testo": "sue avventure può apprendere ulteriori sequenze di sigilli,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    559.6,
+    514.3,
+    568.1
+   ],
+   "size": 6.6,
+   "testo": "imparando a memoria ciascuna di esse dopo 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    570.5,
+    343.3,
+    579.0
+   ],
+   "size": 6.6,
+   "testo": "di studio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    581.5,
+    517.9,
+    590.0
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore può creare un cerchio di teletrasporto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    592.5,
+    519.0,
+    601.1
+   ],
+   "size": 6.6,
+   "testo": "permanente lanciando questo incantesimo nello stesso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    603.5,
+    436.5,
+    612.0
+   ],
+   "size": 6.6,
+   "testo": "luogo ogni giorno per 365 giorni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    622.3,
+    324.7,
+    631.1
+   ],
+   "size": 6.4,
+   "testo": "p-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.7,
+    636.6,
+    403.4,
+    647.1
+   ],
+   "size": 8.4,
+   "testo": "CERCHIO MAGICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    648.2,
+    521.6,
+    658.7
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione di 3°livello (chierico, mago, paladino, warlock)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    662.7,
+    406.3,
+    673.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    673.7,
+    365.5,
+    684.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 3 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    684.7,
+    519.9,
+    695.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (sale e polvere d'argento del valore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.5,
+    695.7,
+    485.9,
+    706.2
+   ],
+   "size": 8.4,
+   "testo": "di 100 mo o più, che l'incantesimo consuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    706.6,
+    357.4,
+    717.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

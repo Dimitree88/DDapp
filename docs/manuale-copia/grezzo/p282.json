@@ -1,0 +1,1248 @@
+{
+ "pagina_pdf": 282,
+ "pagina_stampata": 279,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / W79",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    62.6,
+    37.9,
+    282.6,
+    46.7
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    47.2,
+    268.9,
+    57.5
+   ],
+   "size": 6.7,
+   "testo": "aumentano di 1d8 per ogni slot di livello superiore al 1°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    60.0,
+    280.7,
+    68.5
+   ],
+   "size": 6.7,
+   "testo": "Il globo può schizzare verso un altro bersaglio un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    70.9,
+    277.4,
+    79.5
+   ],
+   "size": 6.7,
+   "testo": "massimo di volte pari al livello dello slot incantesimo con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    82.0,
+    271.6,
+    90.7
+   ],
+   "size": 6.7,
+   "testo": "sumato, ed è possibile bersagliare una creatura soltanto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    92.9,
+    240.6,
+    101.5
+   ],
+   "size": 6.7,
+   "testo": "una volta per ogni lancio di questo incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    125.9,
+    204.7,
+    136.3
+   ],
+   "size": 8.2,
+   "testo": "GLOBO DI INVULNERABILITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    137.3,
+    203.3,
+    147.8
+   ],
+   "size": 8.2,
+   "testo": "Abiurazione di 6°livello (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    152.1,
+    144.5,
+    162.5
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    163.1,
+    129.1,
+    173.6
+   ],
+   "size": 8.2,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    174.0,
+    207.1,
+    184.5
+   ],
+   "size": 8.2,
+   "testo": "Componenti: V, S, M (una perla di vetro)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    185.0,
+    206.6,
+    195.5
+   ],
+   "size": 8.2,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    204.0,
+    264.9,
+    212.5
+   ],
+   "size": 6.7,
+   "testo": "Una barriera scintillante e immobile si materializza in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    215.0,
+    267.7,
+    223.5
+   ],
+   "size": 6.7,
+   "testo": "un'emanazione di 3 metri attorno all'incantatore e per­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    226.0,
+    196.1,
+    234.5
+   ],
+   "size": 6.7,
+   "testo": "mane per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    235.1,
+    272.2,
+    245.5
+   ],
+   "size": 6.7,
+   "testo": "Qualsiasi incantesimo di 5° livello o inferiore lanciato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    247.9,
+    278.8,
+    256.5
+   ],
+   "size": 6.7,
+   "testo": "dall'esterno della barriera non può influenzare niente che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    258.9,
+    264.2,
+    267.4
+   ],
+   "size": 6.7,
+   "testo": "si trovi al suo interno. Questo tipo di incantesimo può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    270.0,
+    271.1,
+    278.6
+   ],
+   "size": 6.7,
+   "testo": "essere rivolto contro le creature e gli oggetti all'interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    281.0,
+    256.1,
+    289.5
+   ],
+   "size": 6.7,
+   "testo": "della barriera, senza tuttavia avere effetti su di loro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    292.0,
+    281.4,
+    300.7
+   ],
+   "size": 6.7,
+   "testo": "Allo stesso modo, l'area all'interno della barriera è esclusa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    303.0,
+    272.5,
+    311.6
+   ],
+   "size": 6.7,
+   "testo": "dalle aree di effetto create da questo tipo di incantesimi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    314.0,
+    256.5,
+    322.7
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    324.9,
+    267.5,
+    333.4
+   ],
+   "size": 6.7,
+   "testo": "La barriera blocca incantesimi superiori di 1 livello per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.1,
+    334.0,
+    184.4,
+    344.4
+   ],
+   "size": 6.7,
+   "testo": "ogni slot di livello superiore al 6°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    368.6,
+    177.9,
+    379.1
+   ],
+   "size": 8.2,
+   "testo": "GUARDIANI SPIRITUALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    380.4,
+    174.1,
+    390.8
+   ],
+   "size": 8.2,
+   "testo": "Evocazione di 3° livello (chierico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    394.9,
+    144.5,
+    405.4
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    406.1,
+    128.9,
+    416.6
+   ],
+   "size": 8.2,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    417.1,
+    270.7,
+    427.6
+   ],
+   "size": 8.2,
+   "testo": "Componenti: V, S, M (una pergamena con una preghiera)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    428.1,
+    208.2,
+    438.5
+   ],
+   "size": 8.2,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    446.8,
+    281.2,
+    455.4
+   ],
+   "size": 6.7,
+   "testo": "Degli spiriti protettori fluttuano attorno al personaggio in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    457.9,
+    281.0,
+    466.4
+   ],
+   "size": 6.7,
+   "testo": "un'emanazione di 4,5 metri per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    468.9,
+    265.2,
+    477.6
+   ],
+   "size": 6.7,
+   "testo": "Se l'incantatore è buono o neutrale, la loro forma spet­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    479.8,
+    270.2,
+    488.4
+   ],
+   "size": 6.7,
+   "testo": "trale appare angelica o fatata (a scelta dell'incantatore).",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    490.8,
+    258.9,
+    499.6
+   ],
+   "size": 6.7,
+   "testo": "Se è malvagio, appaiono con sembianze demoniache.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    501.9,
+    268.5,
+    510.4
+   ],
+   "size": 6.7,
+   "testo": "Quando l'incantatore lancia questo incantesimo, può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    512.9,
+    257.3,
+    521.5
+   ],
+   "size": 6.7,
+   "testo": "indicare le creature che non ne saranno influenzate.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    523.9,
+    256.9,
+    532.5
+   ],
+   "size": 6.7,
+   "testo": "All'interno dell'emanazione, la velocità di ogni altra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    535.0,
+    275.8,
+    543.7
+   ],
+   "size": 6.7,
+   "testo": "creatura è dimezzata e, ogni volta che una creatura entra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    546.0,
+    275.1,
+    554.5
+   ],
+   "size": 6.7,
+   "testo": "nel suo spazio e viceversa, o ogni volta che vi termina lì il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.1,
+    556.9,
+    279.3,
+    565.4
+   ],
+   "size": 6.7,
+   "testo": "turno, dovrà effettuare un tiro salvezza su Saggezza. Se lo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    567.9,
+    281.6,
+    576.6
+   ],
+   "size": 6.7,
+   "testo": "fallisce, subisce 3d8 danni radiosi (se l'incantatore è buono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    578.9,
+    283.2,
+    587.6
+   ],
+   "size": 6.7,
+   "testo": "o neutrale) o 3d8 danni necrotici (se è malvagio), mentre se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    589.8,
+    275.6,
+    598.4
+   ],
+   "size": 6.7,
+   "testo": "lo supera subisce soltanto la metà di quei danni. Una crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    600.8,
+    279.3,
+    609.3
+   ],
+   "size": 6.7,
+   "testo": "tura effettua questo tiro salvezza solo una volta per turno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    611.9,
+    282.4,
+    620.7
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    621.2,
+    270.4,
+    631.6
+   ],
+   "size": 6.7,
+   "testo": "aumentano di 1d8 per ogni slot di livello superiore al 3°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    655.8,
+    188.2,
+    666.2
+   ],
+   "size": 8.2,
+   "testo": "GUARDIANO DELLA FEDE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    667.5,
+    174.2,
+    677.9
+   ],
+   "size": 8.2,
+   "testo": "Evocazione di 4°livello (chierico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    682.0,
+    144.6,
+    692.5
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.5,
+    693.0,
+    113.5,
+    703.5
+   ],
+   "size": 8.2,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    705.7,
+    111.1,
+    714.4
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    715.0,
+    104.9,
+    725.5
+   ],
+   "size": 8.2,
+   "testo": "Durata: 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    38.0,
+    527.1,
+    46.5
+   ],
+   "size": 6.7,
+   "testo": "Per la durata dell'incantesimo, un guardiano spettrale di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    49.0,
+    533.5,
+    57.5
+   ],
+   "size": 6.7,
+   "testo": "taglia Grande compare e fluttua in uno spazio libero entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    60.0,
+    532.4,
+    68.7
+   ],
+   "size": 6.7,
+   "testo": "gittata che l'incantatore è in grado di vedere. Il guardiano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    71.0,
+    521.5,
+    79.7
+   ],
+   "size": 6.7,
+   "testo": "occupa quello spazio ed è invulnerabile: assume inoltre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    82.0,
+    500.4,
+    90.6
+   ],
+   "size": 6.7,
+   "testo": "una forma appropriata alla divinità o al pantheon",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.1,
+    92.9,
+    371.0,
+    101.5
+   ],
+   "size": 6.7,
+   "testo": "dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.0,
+    103.9,
+    526.9,
+    112.4
+   ],
+   "size": 6.7,
+   "testo": "Qualsiasi nemico si muova in uno spazio entro 3 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.1,
+    115.0,
+    522.0,
+    123.5
+   ],
+   "size": 6.7,
+   "testo": "dal guardiano per la prima volta in un turno o che inizi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    125.9,
+    528.4,
+    134.5
+   ],
+   "size": 6.7,
+   "testo": "il proprio turno lì, effettua un tiro salvezza su Destrezza.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    136.9,
+    523.1,
+    145.4
+   ],
+   "size": 6.7,
+   "testo": "In caso di fallimento, subisce 20 danni radiosi o la metà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.1,
+    147.9,
+    506.1,
+    156.5
+   ],
+   "size": 6.7,
+   "testo": "dei danni in caso di successo. Il guardiano svanisce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    158.9,
+    463.8,
+    167.4
+   ],
+   "size": 6.7,
+   "testo": "quando ha inflitto un totale di 60 danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.1,
+    191.8,
+    374.0,
+    202.3
+   ],
+   "size": 8.2,
+   "testo": "GUARIGIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    203.6,
+    458.7,
+    214.1
+   ],
+   "size": 8.2,
+   "testo": "Abiurazione di 6°livello (chierico, druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    218.2,
+    397.3,
+    228.6
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    229.2,
+    370.1,
+    239.7
+   ],
+   "size": 8.2,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    241.7,
+    372.7,
+    250.5
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    251.1,
+    377.7,
+    261.6
+   ],
+   "size": 8.2,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    270.0,
+    523.6,
+    278.8
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore sceglie una creatura entro gittata che è in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    281.1,
+    519.0,
+    289.7
+   ],
+   "size": 6.7,
+   "testo": "grado di vedere. Un flusso di energia positiva investe il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    292.0,
+    523.9,
+    300.5
+   ],
+   "size": 6.7,
+   "testo": "bersaglio, facendogli recuperare 70 punti ferita. Inoltre,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    303.0,
+    529.6,
+    311.6
+   ],
+   "size": 6.7,
+   "testo": "questo incantesimo termina le condizioni accecato, assor­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    313.9,
+    478.6,
+    322.5
+   ],
+   "size": 6.7,
+   "testo": "dato e avvelenato che affiiggono il bersaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    325.0,
+    508.6,
+    333.7
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    335.9,
+    525.2,
+    344.4
+   ],
+   "size": 6.7,
+   "testo": "La guarigione aumenta di 10 per ogni slot di livello supe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    345.0,
+    347.9,
+    355.4
+   ],
+   "size": 6.7,
+   "testo": "riore al 6°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    379.7,
+    429.2,
+    390.2
+   ],
+   "size": 8.2,
+   "testo": "GUARIGIONE DI MASSA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    391.4,
+    430.0,
+    401.8
+   ],
+   "size": 8.2,
+   "testo": "Abiurazione di 9°livello (chierico)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    406.1,
+    396.9,
+    416.6
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    417.1,
+    370.0,
+    427.6
+   ],
+   "size": 8.2,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    429.7,
+    372.6,
+    438.4
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    439.1,
+    377.8,
+    449.6
+   ],
+   "size": 8.2,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    457.9,
+    510.9,
+    466.4
+   ],
+   "size": 6.7,
+   "testo": "Un'ondata di energia curativa si sprigiona dall'incan­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    468.9,
+    512.9,
+    477.4
+   ],
+   "size": 6.7,
+   "testo": "tatore, investendo le creature intorno a lui. In questo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    479.9,
+    532.4,
+    488.4
+   ],
+   "size": 6.7,
+   "testo": "modo, ripristina fino a 700 punti ferita, ripartendoli come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    490.9,
+    530.9,
+    499.4
+   ],
+   "size": 6.7,
+   "testo": "desidera tra un qualsiasi numero di creature entro gittata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    501.9,
+    525.3,
+    510.7
+   ],
+   "size": 6.7,
+   "testo": "e che è in grado di vedere. Le creature guarite da questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    512.9,
+    510.5,
+    521.5
+   ],
+   "size": 6.7,
+   "testo": "incantesimo vengono inoltre curate dalle condizioni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    523.9,
+    435.4,
+    532.5
+   ],
+   "size": 6.7,
+   "testo": "accecato, assordato e avvelenato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    556.8,
+    343.2,
+    567.3
+   ],
+   "size": 8.2,
+   "testo": "GUIDA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    568.4,
+    465.2,
+    578.9
+   ],
+   "size": 8.2,
+   "testo": "TrucchettodiDivinazione (chierico, druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    583.0,
+    396.8,
+    593.5
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    594.1,
+    370.1,
+    604.5
+   ],
+   "size": 8.2,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    606.8,
+    374.7,
+    615.5
+   ],
+   "size": 6.6,
+   "testo": "Componente: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    616.1,
+    458.7,
+    626.6
+   ],
+   "size": 8.2,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    635.0,
+    522.9,
+    643.6
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore tocca una creatura consenziente e sceglie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    646.0,
+    520.5,
+    654.6
+   ],
+   "size": 6.7,
+   "testo": "un'abilità. Fino al termine dell'incantesimo, la creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    657.0,
+    529.3,
+    665.6
+   ],
+   "size": 6.7,
+   "testo": "aggiunge 1d4 a qualsiasi prova di caratteristica effettuata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    668.0,
+    408.4,
+    676.5
+   ],
+   "size": 6.7,
+   "testo": "utilizzando l'abilità scelta.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

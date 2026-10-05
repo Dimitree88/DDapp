@@ -1,0 +1,679 @@
+{
+ "pagina_pdf": 281,
+ "pagina_stampata": 278,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "278 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   415
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.6,
+    391.3,
+    266.8,
+    401.8
+   ],
+   "size": 8.8,
+   "testo": "all'interno di un oggetto, gli inneschi più comuni inclu­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    402.3,
+    257.9,
+    412.9
+   ],
+   "size": 8.8,
+   "testo": "dono aprire quell'oggetto o vedere il glifo. Una volta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    413.4,
+    256.3,
+    424.0
+   ],
+   "size": 8.8,
+   "testo": "che un glifo viene innescato, l'incantesimo termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    424.4,
+    271.6,
+    434.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può perfezionare l'innesco in modo che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    435.3,
+    275.2,
+    445.9
+   ],
+   "size": 8.8,
+   "testo": "venga attivato solo da un certo tipo di creature (ad esem­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    446.2,
+    278.1,
+    456.8
+   ],
+   "size": 8.8,
+   "testo": "pio, il glifo potrebbe essere programmato per influenzare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    457.3,
+    275.9,
+    467.8
+   ],
+   "size": 8.8,
+   "testo": "le aberrazioni). L'incantatore può inoltre impostare delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    468.2,
+    274.6,
+    478.8
+   ],
+   "size": 8.8,
+   "testo": "condizioni per evitare di innescare il glifo, come pronun­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    479.2,
+    191.1,
+    489.8
+   ],
+   "size": 8.8,
+   "testo": "ciare una specifica parola d'ordine.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.7,
+    490.2,
+    276.0,
+    500.8
+   ],
+   "size": 8.8,
+   "testo": "Runa esplosiva. Quando attivato, il glifo esplode in una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    501.2,
+    274.2,
+    511.8
+   ],
+   "size": 8.8,
+   "testo": "sfera di energia magica con raggio di 6 metri centrata su",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    512.2,
+    273.5,
+    522.8
+   ],
+   "size": 8.8,
+   "testo": "di esso. Ogni creatura presente nell'area effettua un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    523.3,
+    273.5,
+    533.8
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Destrezza. In caso di fallimento, subisce Sd8",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    534.2,
+    270.0,
+    544.8
+   ],
+   "size": 8.8,
+   "testo": "danni da acido, freddo, fulmine, fuoco o tuono (a scelta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    545.2,
+    264.2,
+    555.8
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore al momento della creazione del glifo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    556.2,
+    205.7,
+    566.7
+   ],
+   "size": 8.8,
+   "testo": "o la metà dei danni in caso di successo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    567.2,
+    268.0,
+    577.7
+   ],
+   "size": 8.8,
+   "testo": "Glifo magico. L'incantatore può custodire un incante­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    576.0,
+    281.0,
+    588.7
+   ],
+   "size": 8.8,
+   "testo": "simo preparato di 3° livello o inferiore all'interno del glifo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    589.1,
+    264.5,
+    599.7
+   ],
+   "size": 8.8,
+   "testo": "lanciandolo come parte del suo processo di creazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    600.1,
+    283.7,
+    610.7
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo deve avere come bersaglio una sola creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    611.2,
+    280.4,
+    621.8
+   ],
+   "size": 8.8,
+   "testo": "o un'area. In questo modo, l'incantesimo custodito non ha",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    622.2,
+    273.7,
+    632.8
+   ],
+   "size": 8.8,
+   "testo": "effetto immediato, ma ha effetto quando il glifo si attiva.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.4,
+    633.3,
+    276.5,
+    643.9
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantesimo ha un bersaglio, risulterà essere la cre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    644.2,
+    277.2,
+    654.8
+   ],
+   "size": 8.8,
+   "testo": "atura che ha attivato il glifo, mentre se influenza un'area,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    655.2,
+    282.6,
+    665.7
+   ],
+   "size": 8.8,
+   "testo": "tale area sarà centrata su quella creatura. Se l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    666.2,
+    272.5,
+    676.8
+   ],
+   "size": 8.8,
+   "testo": "evoca creature ostili oppure crea oggetti o trappole dan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    677.2,
+    276.9,
+    687.7
+   ],
+   "size": 8.8,
+   "testo": "nose, ciò che viene evocato o creato appare nel punto più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    688.1,
+    272.8,
+    698.7
+   ],
+   "size": 8.8,
+   "testo": "vicino possibile all'intruso e lo attacca. Se l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    699.1,
+    279.4,
+    709.7
+   ],
+   "size": 8.8,
+   "testo": "richiede concentrazione, permane per tutta la sua durata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    393.2,
+    509.2,
+    401.8
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    402.6,
+    526.1,
+    413.1
+   ],
+   "size": 8.8,
+   "testo": "I danni di una runa esplosiva aumentano di 1d8 per ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    411.4,
+    532.8,
+    424.2
+   ],
+   "size": 8.8,
+   "testo": "slot di livello superiore al 3°. Se l'incantatore crea un glifo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    424.5,
+    518.6,
+    435.1
+   ],
+   "size": 8.8,
+   "testo": "magico, può custodirvi qualsiasi incantesimo di livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    435.6,
+    525.1,
+    446.1
+   ],
+   "size": 8.8,
+   "testo": "pari o inferiore a quello dello slot incantesimo usato per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    446.5,
+    386.6,
+    457.0
+   ],
+   "size": 8.8,
+   "testo": "il glifo di interdizione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    481.2,
+    411.6,
+    492.5
+   ],
+   "size": 11.2,
+   "testo": "GLOBO CROMATICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    492.6,
+    453.2,
+    503.0
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi1° livello (mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    508.1,
+    397.6,
+    517.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    519.2,
+    370.0,
+    528.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    530.2,
+    533.1,
+    539.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un diamante del valore di 50 mo o più)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    541.3,
+    378.0,
+    550.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    557.4,
+    521.5,
+    568.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore scaglia un globo di energia contro un ber­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    568.4,
+    531.3,
+    579.0
+   ],
+   "size": 8.8,
+   "testo": "saglio entro gittata. Può scegliere che tipo di globo creare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    579.3,
+    518.3,
+    589.9
+   ],
+   "size": 8.8,
+   "testo": "tra acido, freddo, fulmine, fuoco, tuono o veleno, e poi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    590.3,
+    526.0,
+    600.9
+   ],
+   "size": 8.8,
+   "testo": "effettuare un attacco a distanza con incantesimo contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    601.3,
+    530.7,
+    611.9
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio. Se il colpo va a segno, il bersaglio subisce 3d8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    612.4,
+    387.8,
+    623.0
+   ],
+   "size": 8.8,
+   "testo": "danni del tipo scelto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    623.4,
+    504.7,
+    634.0
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore ottiene lo stesso risultato su due",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    634.5,
+    528.3,
+    645.1
+   ],
+   "size": 8.8,
+   "testo": "o più d8, il globo schizza verso un altro bersaglio a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    645.4,
+    509.0,
+    656.0
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore che si trovi entro 9 metri dal primo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    656.5,
+    522.1,
+    667.0
+   ],
+   "size": 8.8,
+   "testo": "bersaglio. L'incantatore effettua un tiro per colpire con­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    667.4,
+    526.6,
+    678.0
+   ],
+   "size": 8.8,
+   "testo": "tro il secondo bersaglio e anche un altro tiro per i danni.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    678.4,
+    520.9,
+    689.0
+   ],
+   "size": 8.8,
+   "testo": "Il globo non può più schizzare verso un altro bersaglio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    689.5,
+    526.5,
+    700.0
+   ],
+   "size": 8.8,
+   "testo": "a meno che l'incantatore non lanci l'incantesimo usando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    698.2,
+    483.8,
+    710.9
+   ],
+   "size": 8.8,
+   "testo": "uno slot incantesimo di 2° livello o superiore.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

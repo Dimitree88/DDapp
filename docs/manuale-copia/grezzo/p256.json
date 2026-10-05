@@ -1,0 +1,1344 @@
+{
+ "pagina_pdf": 256,
+ "pagina_stampata": 253,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 253",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.5,
+    36.9,
+    283.9,
+    47.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea un cilindro di energia magica di 3 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    48.0,
+    266.9,
+    58.6
+   ],
+   "size": 8.8,
+   "testo": "di raggio e 6 metri di altezza, centrato su un punto del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    58.9,
+    276.4,
+    69.5
+   ],
+   "size": 8.8,
+   "testo": "terreno entro gittata che è in grado di vedere. Rune lumi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    70.0,
+    275.7,
+    80.6
+   ],
+   "size": 8.8,
+   "testo": "nose appaiono nei punti in cui il cilindro si interseca con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    81.0,
+    170.3,
+    91.6
+   ],
+   "size": 8.8,
+   "testo": "il pavimento o altre superfici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    91.9,
+    262.1,
+    102.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie uno o più tra i tipi di creature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.1,
+    102.9,
+    266.5,
+    113.4
+   ],
+   "size": 8.8,
+   "testo": "seguenti: celestiali, elementali, folletti, immondi o non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    113.9,
+    266.8,
+    124.4
+   ],
+   "size": 8.8,
+   "testo": "morti. Il cerchio influenza una creatura del tipo scelto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    124.9,
+    127.0,
+    135.4
+   ],
+   "size": 8.8,
+   "testo": "nei seguenti modi:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    141.3,
+    256.1,
+    151.8
+   ],
+   "size": 8.8,
+   "testo": "La creatura non può entrare volontariamente nel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    152.3,
+    281.6,
+    162.9
+   ],
+   "size": 8.8,
+   "testo": "cilindro tramite mezzi non magici. Se prova a utilizzare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    163.3,
+    266.2,
+    173.9
+   ],
+   "size": 8.8,
+   "testo": "il teletrasporto o il viaggio interplanare, deve prima",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    174.3,
+    210.5,
+    184.9
+   ],
+   "size": 8.8,
+   "testo": "superare un tiro salvezza su Carisma.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    185.4,
+    281.4,
+    195.9
+   ],
+   "size": 8.8,
+   "testo": "La creatura subisce svantaggio ai tiri per colpire contro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    196.4,
+    191.3,
+    206.9
+   ],
+   "size": 8.8,
+   "testo": "i bersagli all'interno del cilindro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    207.4,
+    267.9,
+    218.0
+   ],
+   "size": 8.8,
+   "testo": "I bersagli all'interno del cilindro non possono essere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    218.4,
+    255.0,
+    229.0
+   ],
+   "size": 8.8,
+   "testo": "posseduti, affascinati o spaventati dalla creatura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    234.8,
+    278.6,
+    245.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che lancia questo incantesimo, l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    245.7,
+    272.7,
+    256.3
+   ],
+   "size": 8.8,
+   "testo": "può far funzionare la sua magia nella direzione inversa,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    256.8,
+    262.3,
+    267.3
+   ],
+   "size": 8.8,
+   "testo": "impedendo cioè a una creatura di un tipo specifico di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    267.8,
+    267.4,
+    278.4
+   ],
+   "size": 8.8,
+   "testo": "uscire dal cilindro e proteggendo i bersagli all'esterno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    280.6,
+    257.8,
+    289.2
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    289.8,
+    267.2,
+    300.4
+   ],
+   "size": 8.8,
+   "testo": "La durata aumenta di 1 ora per ogni slot di livello supe­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    298.6,
+    96.5,
+    311.4
+   ],
+   "size": 8.8,
+   "testo": "riore al 3°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    335.4,
+    166.7,
+    346.7
+   ],
+   "size": 11.2,
+   "testo": "CHARME SUI MOSTRI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    346.9,
+    267.5,
+    357.3
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi4° livello (bardo, druido, mago, stregone,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    358.7,
+    87.2,
+    368.1
+   ],
+   "size": 8.6,
+   "testo": "warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    373.4,
+    145.8,
+    383.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    384.5,
+    113.9,
+    394.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    395.5,
+    120.9,
+    405.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    406.5,
+    106.0,
+    416.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    422.7,
+    278.3,
+    433.3
+   ],
+   "size": 8.8,
+   "testo": "Una creatura entro gittata che l'incantatore è in grado di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    433.8,
+    277.9,
+    444.4
+   ],
+   "size": 8.8,
+   "testo": "vedere effettua un tiro salvezza su Saggezza, disponendo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    444.7,
+    270.8,
+    455.3
+   ],
+   "size": 8.8,
+   "testo": "di vantaggio se l'incantatore o i suoi alleati stanno com­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    455.7,
+    278.1,
+    466.3
+   ],
+   "size": 8.8,
+   "testo": "battendo contro di essa. In caso di fallimento, il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    466.7,
+    282.1,
+    477.3
+   ],
+   "size": 8.8,
+   "testo": "è affascinato fino al termine dell'incantesimo o finché non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    477.7,
+    275.5,
+    488.3
+   ],
+   "size": 8.8,
+   "testo": "gli vengono inflitti danni dall'incantatore o i suoi alleati.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    488.7,
+    279.5,
+    499.3
+   ],
+   "size": 8.8,
+   "testo": "La creatura affascinata è amichevole nei confronti dell'in­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    499.8,
+    280.0,
+    510.4
+   ],
+   "size": 8.8,
+   "testo": "cantatore. Al termine dell'incantesimo, il bersaglio capirà",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    510.8,
+    223.2,
+    521.4
+   ],
+   "size": 8.8,
+   "testo": "di essere stato affascinato dall'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    523.5,
+    257.8,
+    532.1
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    532.8,
+    267.0,
+    543.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    541.6,
+    200.4,
+    554.4
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 4°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    578.4,
+    168.6,
+    589.7
+   ],
+   "size": 11.2,
+   "testo": "CHARME SU PERSONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    589.9,
+    265.9,
+    600.4
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi1° livello (bardo, druido, mago, stregone,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    601.8,
+    87.2,
+    611.2
+   ],
+   "size": 8.6,
+   "testo": "warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    616.7,
+    145.9,
+    626.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    627.7,
+    114.0,
+    637.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    638.6,
+    121.0,
+    648.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    649.7,
+    106.1,
+    659.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    665.8,
+    278.9,
+    676.4
+   ],
+   "size": 8.8,
+   "testo": "Un umanoide entro gittata che l'incantatore è in grado di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    676.8,
+    277.9,
+    687.3
+   ],
+   "size": 8.8,
+   "testo": "vedere effettua un tiro salvezza su Saggezza, disponendo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    687.8,
+    270.8,
+    698.4
+   ],
+   "size": 8.8,
+   "testo": "di vantaggio se l'incantatore o i suoi alleati stanno com­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    698.8,
+    278.1,
+    709.4
+   ],
+   "size": 8.8,
+   "testo": "battendo contro di essa. In caso di fallimento, il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    709.8,
+    264.6,
+    720.4
+   ],
+   "size": 8.8,
+   "testo": "è affascinato fino al termine dell'incantesimo o finché",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    36.9,
+    517.2,
+    47.4
+   ],
+   "size": 8.8,
+   "testo": "non gli vengono inflitti danni dall'incantatore o i suoi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    47.9,
+    533.4,
+    58.5
+   ],
+   "size": 8.8,
+   "testo": "alleati. La creatura affascinata è amichevole nei confronti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    58.9,
+    530.2,
+    69.5
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore. Al termine dell'incantesimo, il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    70.0,
+    502.3,
+    80.5
+   ],
+   "size": 8.8,
+   "testo": "capirà di essere stato affascinato dall'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    82.7,
+    510.5,
+    91.3
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    91.8,
+    519.7,
+    102.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    100.7,
+    451.7,
+    113.4
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 1°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    137.5,
+    406.6,
+    148.8
+   ],
+   "size": 11.2,
+   "testo": "CHIAROVEGGENZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    149.0,
+    513.9,
+    159.5
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi3° livello (bardo, chierico, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    164.7,
+    409.2,
+    174.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    175.7,
+    391.9,
+    185.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 1,5 chilometri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    186.7,
+    528.5,
+    196.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un focus del valore di 100 mo o più,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.8,
+    197.7,
+    526.4,
+    207.4
+   ],
+   "size": 8.4,
+   "testo": "a scelta tra un cornetto acustico incastonato di gemme",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.8,
+    208.7,
+    438.2,
+    218.3
+   ],
+   "size": 8.4,
+   "testo": "o un occhio di vetro per la vista)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    219.7,
+    461.9,
+    229.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    235.9,
+    523.2,
+    246.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea un sensore invisibile entro gittata in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    246.9,
+    525.7,
+    257.4
+   ],
+   "size": 8.8,
+   "testo": "un luogo a lui familiare (cioè che ha già visitato o visto),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    257.9,
+    515.3,
+    268.5
+   ],
+   "size": 8.8,
+   "testo": "oppure in un luogo comune a lui non familiare (come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    269.0,
+    520.8,
+    279.5
+   ],
+   "size": 8.8,
+   "testo": "per esempio dietro una porta, dietro un angolo o in un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    279.9,
+    518.8,
+    290.5
+   ],
+   "size": 8.8,
+   "testo": "boschetto). Questo sensore intangibile e invulnerabile",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    290.9,
+    531.6,
+    301.5
+   ],
+   "size": 8.8,
+   "testo": "rimane in quella posizione per la durata dell'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.8,
+    301.9,
+    524.6,
+    312.5
+   ],
+   "size": 8.8,
+   "testo": "Quando lancia l'incantesimo, l'incantatore sceglie tra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    312.9,
+    530.9,
+    323.5
+   ],
+   "size": 8.8,
+   "testo": "vista e udito, potendo utilizzare il senso scelto attraverso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    323.9,
+    532.9,
+    334.4
+   ],
+   "size": 8.8,
+   "testo": "il sensore come se si trovasse nel suo spazio. Come azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    334.8,
+    511.8,
+    345.4
+   ],
+   "size": 8.8,
+   "testo": "bonus, l'incantatore può passare dalla vista all'udito",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    345.9,
+    354.1,
+    356.4
+   ],
+   "size": 8.8,
+   "testo": "e viceversa.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    356.8,
+    512.9,
+    367.3
+   ],
+   "size": 8.8,
+   "testo": "Una creatura che vede il sensore (per esempio una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    367.7,
+    521.4,
+    378.3
+   ],
+   "size": 8.8,
+   "testo": "creatura che beneficia di vedere invisibilità o vista pura)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    378.8,
+    505.0,
+    389.3
+   ],
+   "size": 8.8,
+   "testo": "scorge una sfera luminosa grande quando il pugno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    389.8,
+    372.9,
+    400.4
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    424.6,
+    345.9,
+    436.0
+   ],
+   "size": 11.2,
+   "testo": "CLONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    436.2,
+    425.8,
+    446.6
+   ],
+   "size": 8.6,
+   "testo": "Necromanziadi8° livello (mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    451.7,
+    392.3,
+    461.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    462.7,
+    371.3,
+    472.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    473.6,
+    526.1,
+    483.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un diamante del valore di 1 .000 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    484.6,
+    528.6,
+    494.2
+   ],
+   "size": 8.4,
+   "testo": "o più, che l'incantesimo consuma, e un contenitore sigil­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    495.6,
+    522.4,
+    505.3
+   ],
+   "size": 8.4,
+   "testo": "labile del valore di 2.000 mo o più, abbastanza grande",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    506.7,
+    452.3,
+    516.3
+   ],
+   "size": 8.4,
+   "testo": "da contenere la creatura da clonare)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    517.7,
+    379.1,
+    527.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    533.9,
+    513.5,
+    544.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca una creatura o un cubo della sua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    544.9,
+    515.3,
+    555.5
+   ],
+   "size": 8.8,
+   "testo": "carne di almeno 2,5 cm per lato. Un duplicato inerme",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    555.8,
+    525.3,
+    566.4
+   ],
+   "size": 8.8,
+   "testo": "di quella creatura si sviluppa all'interno del contenitore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    566.8,
+    527.9,
+    577.4
+   ],
+   "size": 8.8,
+   "testo": "utilizzato per lanciare l'incantesimo e finisce di crescere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    577.9,
+    536.2,
+    588.5
+   ],
+   "size": 8.8,
+   "testo": "dopo 120 giorni; l'incantatore sceglie se il clone sviluppato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    588.8,
+    515.8,
+    599.4
+   ],
+   "size": 8.8,
+   "testo": "ha la stessa età della creatura o è più giovane. Il clone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    599.8,
+    519.6,
+    610.3
+   ],
+   "size": 8.8,
+   "testo": "rimane inerte e permane per un tempo indeterminato,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    611.0,
+    498.9,
+    621.5
+   ],
+   "size": 8.8,
+   "testo": "fintantoché il suo involucro rimane indisturbato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    622.0,
+    517.9,
+    632.6
+   ],
+   "size": 8.8,
+   "testo": "Dopo che il clone ha raggiunto la maturazione, se la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    632.9,
+    521.6,
+    643.5
+   ],
+   "size": 8.8,
+   "testo": "creatura originale muore, la sua anima viene trasferita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    644.0,
+    507.1,
+    654.5
+   ],
+   "size": 8.8,
+   "testo": "al clone, purché essa sia libera e disposta a tornare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    655.0,
+    513.9,
+    665.6
+   ],
+   "size": 8.8,
+   "testo": "Il clone è fisicamente identico all'originale e possiede",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    665.9,
+    520.8,
+    676.5
+   ],
+   "size": 8.8,
+   "testo": "la sua personalità, i suoi ricordi e le sue abilità, ma non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    676.9,
+    521.4,
+    687.5
+   ],
+   "size": 8.8,
+   "testo": "il suo equipaggiamento. I resti della creatura originale,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    687.9,
+    519.9,
+    698.5
+   ],
+   "size": 8.8,
+   "testo": "se ancora esistono, diventano inerti e non possono più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    698.9,
+    524.6,
+    709.5
+   ],
+   "size": 8.8,
+   "testo": "essere riportati in vita, in quanto l'anima della creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    709.9,
+    344.5,
+    720.5
+   ],
+   "size": 8.8,
+   "testo": "è altrove.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

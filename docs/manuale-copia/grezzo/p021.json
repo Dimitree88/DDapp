@@ -1,0 +1,655 @@
+{
+ "pagina_pdf": 21,
+ "pagina_stampata": 18,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "18 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   385
+  ],
+  [
+   37,
+   449,
+   281,
+   526
+  ],
+  [
+   300,
+   533,
+   532,
+   695
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    52.5,
+    350.9,
+    256.0,
+    359.3
+   ],
+   "size": 8.4,
+   "testo": "Denise: \"Così Strahd ha scritto questa lettera fingendo di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    361.8,
+    270.3,
+    370.2
+   ],
+   "size": 8.4,
+   "testo": "essere il borgomastro, implorandoci di venire nella Barovia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    372.8,
+    271.8,
+    381.2
+   ],
+   "size": 8.4,
+   "testo": "e salvare Ireena Kolyana da un tormento mortale... che è lui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.3,
+    383.8,
+    174.4,
+    392.2
+   ],
+   "size": 8.4,
+   "testo": "stesso? Perché l'avrebbe fatto?\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    394.8,
+    224.1,
+    403.2
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: \"Perché ha voluto che venissimo qui?\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    405.4,
+    240.7,
+    414.4
+   ],
+   "size": 8.4,
+   "testo": "Marta: \"È chiaro che non ci considera una minaccia.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    416.9,
+    233.7,
+    425.3
+   ],
+   "size": 8.4,
+   "testo": "Denise: \"Beh, perché non ci ha ancora conosciuti!\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    427.9,
+    272.0,
+    436.3
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"Sta giocando con voi. Si diverte a distruggere tutte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    438.8,
+    205.8,
+    447.2
+   ],
+   "size": 8.4,
+   "testo": "le cose buone, come la mia cara sorella.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    449.8,
+    263.1,
+    458.2
+   ],
+   "size": 8.4,
+   "testo": "Filippo: Gareth si avvicina e chiede in toni compassionevoli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    460.8,
+    238.4,
+    469.2
+   ],
+   "size": 8.4,
+   "testo": "a Ismark se sua sorella è stata morsa dal vampiro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    471.7,
+    260.4,
+    480.1
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Effettua una prova di Carisma (Persuasione) per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    482.8,
+    259.3,
+    491.2
+   ],
+   "size": 8.4,
+   "testo": "vedere come risponde ai tuoi modi pastorali. Disponi di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    493.8,
+    199.5,
+    502.2
+   ],
+   "size": 8.4,
+   "testo": "vantaggio perché Ismark è amichevole.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    504.3,
+    258.4,
+    513.3
+   ],
+   "size": 8.4,
+   "testo": "Filippo: Oh, che bello. Il mio primo tiro era un 7, ma con il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    515.9,
+    252.5,
+    524.3
+   ],
+   "size": 8.4,
+   "testo": "vantaggio... uff, non molto meglio. Beh, 10 più 5 fa 15.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    526.8,
+    270.4,
+    535.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Ismark si china verso di te, Gareth, lanciando un'oc­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    537.9,
+    268.3,
+    546.3
+   ],
+   "size": 8.4,
+   "testo": "chiata sospettosa alle altre persone nella taverna, come se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    548.8,
+    276.4,
+    557.2
+   ],
+   "size": 8.4,
+   "testo": "temesse che stessero origliando. Sussurra: \"Il diavolo Strahd",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    559.9,
+    263.4,
+    568.3
+   ],
+   "size": 8.4,
+   "testo": "desidera fare di Ireena il suo ultimo giocattolo. Due volte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    570.8,
+    273.8,
+    579.2
+   ],
+   "size": 8.4,
+   "testo": "è andato a trovarla di notte, usando la sua magia oscura per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    581.8,
+    273.7,
+    590.2
+   ],
+   "size": 8.4,
+   "testo": "ottenere un invito in casa, poiché non può entrare dove non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    592.8,
+    274.7,
+    601.2
+   ],
+   "size": 8.4,
+   "testo": "è invitato. E due volte l'ha morsa, eppure lei si aggrappa alla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    603.8,
+    250.0,
+    612.2
+   ],
+   "size": 8.4,
+   "testo": "vita. Ma temo che non sopravviverà a un'altra visita!\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    614.9,
+    264.5,
+    623.3
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: \"OK, Ismark. Ci hai offerto da bere e ci hai parlato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    625.9,
+    276.1,
+    634.3
+   ],
+   "size": 8.4,
+   "testo": "del diavolo Strahd e di tua sorella. Come possiamo aiutarti?\"",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    636.9,
+    265.7,
+    645.3
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"Siete troppo gentili! Innanzitutto, ho bisogno del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    647.9,
+    264.4,
+    656.3
+   ],
+   "size": 8.4,
+   "testo": "vostro aiuto per scortare Ireena nella cittadina di Vallaki\".",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    350.8,
+    414.3,
+    359.2
+   ],
+   "size": 8.4,
+   "testo": "Marta: \"Dove si trova Vallaki?\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    361.8,
+    517.5,
+    370.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"A nord-ovest, nel cuore della valle. In linea d'aria",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    372.8,
+    528.8,
+    381.2
+   ],
+   "size": 8.4,
+   "testo": "sono meno di 15 chilometri, ma la strada si snoda tra colline",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    383.8,
+    506.1,
+    392.2
+   ],
+   "size": 8.4,
+   "testo": "e boschi, e a velocità sostenuta il viaggio dura almeno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    394.8,
+    356.7,
+    403.2
+   ],
+   "size": 8.4,
+   "testo": "cinque ore.\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    405.9,
+    417.9,
+    414.3
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: \"E perché proprio lì?\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    416.9,
+    510.6,
+    425.3
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"La cittadina si trova ben nascosta dalla vista di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    427.9,
+    518.2,
+    436.3
+   ],
+   "size": 8.4,
+   "testo": "Castel Ravenloft, quindi spero che le spie di Strahd non si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    438.9,
+    517.6,
+    447.3
+   ],
+   "size": 8.4,
+   "testo": "aggirino lì. Inoltre ho sentito dire che Vallaki è ben difesa,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.3,
+    449.9,
+    474.6,
+    458.3
+   ],
+   "size": 8.4,
+   "testo": "con una palizzata di legno e cancelli di ferro.\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    460.8,
+    525.1,
+    469.2
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: \"Come se tali difese potessero fermare un vampiro.\"",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    471.8,
+    510.1,
+    480.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"Lo so. Ma se portarla lì può tenerlo lontano da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    482.9,
+    513.5,
+    491.3
+   ],
+   "size": 8.4,
+   "testo": "lei anche solo per qualche giorno, abbiamo tempo per la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    493.8,
+    429.8,
+    502.2
+   ],
+   "size": 8.4,
+   "testo": "seconda parte del nostro piano.\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    504.8,
+    442.9,
+    513.2
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: \"La parte in cui tu aiuti noi?\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    515.9,
+    523.9,
+    524.3
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"Sì, la parte in cui vi aiuto ad affrontare il vampiro!\"",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    555.4,
+    483.8,
+    563.8
+   ],
+   "size": 8.4,
+   "testo": "Influenzare i PNG. Gareth effettua l'azione di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.6,
+    566.4,
+    501.6,
+    574.8
+   ],
+   "size": 8.4,
+   "testo": "Influenza (vedi Glossario delle regole), che i perso­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.5,
+    577.3,
+    498.2,
+    585.7
+   ],
+   "size": 8.4,
+   "testo": "naggi possono utilizzare per influenzare un PNG.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.7,
+    588.3,
+    506.5,
+    596.7
+   ],
+   "size": 8.4,
+   "testo": "Se un PNG è già disposto ad aiutarvi, come Ismark,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.2,
+    599.4,
+    510.5,
+    607.8
+   ],
+   "size": 8.4,
+   "testo": "è più facile influenzarlo. L'atteggiamento amichevole",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.2,
+    610.4,
+    508.5,
+    618.8
+   ],
+   "size": 8.4,
+   "testo": "di Ismark conferisce a Filippo vantaggio sul tiro, che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.4,
+    621.4,
+    502.5,
+    629.8
+   ],
+   "size": 8.4,
+   "testo": "in questo caso ha fatto la differenza tra il successo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.0,
+    632.6,
+    375.8,
+    641.0
+   ],
+   "size": 8.4,
+   "testo": "e il fallimento.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

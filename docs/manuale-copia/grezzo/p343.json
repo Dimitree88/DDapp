@@ -1,0 +1,1459 @@
+{
+ "pagina_pdf": 343,
+ "pagina_stampata": 340,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "340 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   29,
+   38,
+   538,
+   330
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    48.0,
+    45.5,
+    224.9,
+    59.2
+   ],
+   "size": 10.4,
+   "testo": "CAVALCATURA ULTRATERRENA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    63.7,
+    319.0,
+    72.9
+   ],
+   "size": 9.2,
+   "testo": "Celestiale Grande.folletto o immondo (a scelta dell'incantatore), neutrale",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    78.1,
+    191.1,
+    87.8
+   ],
+   "size": 8.4,
+   "testo": "CA 10 + l per livello dell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    89.1,
+    270.6,
+    98.7
+   ],
+   "size": 8.4,
+   "testo": "PF 5 + 10 per livello dell'incantesimo (la cavalcatura ha un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    100.1,
+    271.6,
+    109.8
+   ],
+   "size": 8.4,
+   "testo": "numero di Dadi Vita [d10) pari al livello dell'incantesimo)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    111.0,
+    272.3,
+    120.7
+   ],
+   "size": 8.4,
+   "testo": "Velocità 18 m, volo 18 m (richiede incantesimo di 4° livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    122.0,
+    102.7,
+    131.6
+   ],
+   "size": 8.4,
+   "testo": "o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    87.5,
+    135.7,
+    120.8,
+    143.1
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    164.9,
+    135.6,
+    198.4,
+    143.0
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    145.4,
+    117.3,
+    155.0
+   ],
+   "size": 8.4,
+   "testo": "FoR 18 +4 +4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    128.7,
+    145.4,
+    174.2,
+    155.0
+   ],
+   "size": 8.4,
+   "testo": "DEs 12 +1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    183.0,
+    145.4,
+    192.7,
+    155.0
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    159.9,
+    66.1,
+    169.1
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.0,
+    159.9,
+    79.0,
+    169.1
+   ],
+   "size": 8.2,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.6,
+    159.5,
+    98.0,
+    169.2
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    105.0,
+    159.5,
+    116.3,
+    169.2
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    128.2,
+    159.5,
+    174.0,
+    169.2
+   ],
+   "size": 8.4,
+   "testo": "SAG 12 +1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    182.9,
+    159.5,
+    192.7,
+    169.2
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    178.7,
+    154.9,
+    188.3
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.8,
+    135.5,
+    276.2,
+    142.9
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    206.1,
+    145.3,
+    253.5,
+    154.9
+   ],
+   "size": 8.4,
+   "testo": "Cos 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.7,
+    145.3,
+    272.0,
+    154.9
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    205.8,
+    159.5,
+    234.3,
+    169.1
+   ],
+   "size": 8.4,
+   "testo": "CAR 8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    159.9,
+    251.3,
+    169.0
+   ],
+   "size": 6.9,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.3,
+    159.9,
+    269.9,
+    169.0
+   ],
+   "size": 6.9,
+   "testo": "-1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.4,
+    189.6,
+    263.1,
+    199.2
+   ],
+   "size": 8.4,
+   "testo": "Lingue telepatia 1 , 5 km (funziona solo con l'incantatore)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    200.6,
+    257.8,
+    210.3
+   ],
+   "size": 8.4,
+   "testo": "GS nessuno (PE 0; BC pari al bonus di competenza del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    211.7,
+    106.1,
+    221.4
+   ],
+   "size": 8.4,
+   "testo": "personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.8,
+    222.8,
+    82.4,
+    241.0
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    245.3,
+    268.2,
+    254.9
+   ],
+   "size": 8.4,
+   "testo": "Legame vitale. Quando l'incantatore recupera punti ferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    256.8,
+    271.2,
+    266.4
+   ],
+   "size": 8.4,
+   "testo": "grazie a un incantesimo di 1° livello o superiore, la cavalca­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    268.3,
+    268.6,
+    277.9
+   ],
+   "size": 8.4,
+   "testo": "tura recupera la stessa quantità di punti ferita se l'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.5,
+    279.9,
+    186.1,
+    289.5
+   ],
+   "size": 8.4,
+   "testo": "tore si trova entro 1 , 5 metri da essa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    335.3,
+    251.9,
+    345.9
+   ],
+   "size": 8.8,
+   "testo": "La cavalcatura ha l'aspetto di un animale di taglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.0,
+    346.3,
+    269.7,
+    356.9
+   ],
+   "size": 8.8,
+   "testo": "Grande a scelta dell'incantatore, per esempio un cavallo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.0,
+    357.3,
+    274.1,
+    367.9
+   ],
+   "size": 8.8,
+   "testo": "un cammello, un lupo feroce o un alce. Ogni volta che l'in­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.0,
+    368.3,
+    268.2,
+    378.9
+   ],
+   "size": 8.8,
+   "testo": "cantatore lancia l'incantesimo, sceglie il tipo di creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.0,
+    379.3,
+    274.0,
+    389.9
+   ],
+   "size": 8.8,
+   "testo": "della cavalcatura (celestiale, folletto o immondo) e questa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    390.3,
+    269.7,
+    400.9
+   ],
+   "size": 8.8,
+   "testo": "scelta determina i tratti e la scheda delle statistiche della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    401.5,
+    86.0,
+    412.0
+   ],
+   "size": 8.8,
+   "testo": "creatura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    412.5,
+    252.0,
+    423.1
+   ],
+   "size": 8.8,
+   "testo": "Combattimento. La cavalcaturadiventa un alleato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.9,
+    423.4,
+    258.6,
+    434.0
+   ],
+   "size": 8.8,
+   "testo": "per l'incantatore e i suoi alleati. In combattimento, ha",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.9,
+    434.5,
+    269.7,
+    445.0
+   ],
+   "size": 8.8,
+   "testo": "lo stesso punteggio di iniziativa dell'incantatore, il quale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    445.5,
+    264.3,
+    456.1
+   ],
+   "size": 8.8,
+   "testo": "può salirci in sella e guidarla come se fosse una cavalca­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    456.4,
+    269.2,
+    467.0
+   ],
+   "size": 8.8,
+   "testo": "tura controllata (come descritto nelle regole riguardanti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    467.4,
+    273.5,
+    478.0
+   ],
+   "size": 8.8,
+   "testo": "il combattimento in sella). Se l'incantatore è incapacitato,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    478.4,
+    250.2,
+    489.0
+   ],
+   "size": 8.8,
+   "testo": "la cavalcatura inizia il suo turno subito dopo quello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.9,
+    489.4,
+    274.3,
+    500.0
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore: la creatura è indipendente e si concentra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    500.4,
+    160.3,
+    510.9
+   ],
+   "size": 8.8,
+   "testo": "sul proteggere l'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    511.5,
+    269.1,
+    522.1
+   ],
+   "size": 8.8,
+   "testo": "Scomparsa della cavalcatura. La cavalcatura scompare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    522.5,
+    267.9,
+    533.0
+   ],
+   "size": 8.8,
+   "testo": "quando scende a 0 punti ferita o se l'incantatore muore.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    533.4,
+    260.5,
+    544.0
+   ],
+   "size": 8.8,
+   "testo": "Quando scompare, nello spazio che occupava in prece­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.9,
+    544.4,
+    275.0,
+    555.0
+   ],
+   "size": 8.8,
+   "testo": "denza lascia qualsiasi oggetto stesse indossando o traspor­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    555.4,
+    278.0,
+    566.0
+   ],
+   "size": 8.8,
+   "testo": "tando. Lanciando nuovamente l'incantesimo, l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.8,
+    566.5,
+    268.4,
+    577.0
+   ],
+   "size": 8.8,
+   "testo": "può scegliere se evocare la cavalcatura scomparsa o una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.9,
+    577.4,
+    80.4,
+    587.9
+   ],
+   "size": 8.8,
+   "testo": "diversa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    590.1,
+    251.5,
+    598.7
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    599.3,
+    251.7,
+    609.9
+   ],
+   "size": 8.8,
+   "testo": "Usa il livello dello slot incantesimo relativo al livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.8,
+    610.4,
+    228.6,
+    621.0
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo nella scheda delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.6,
+    645.4,
+    138.0,
+    656.7
+   ],
+   "size": 11.2,
+   "testo": "TROVA FAMIGLIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.6,
+    656.9,
+    157.8,
+    667.3
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi1°livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.4,
+    672.5,
+    167.3,
+    682.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: l ora o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.7,
+    683.4,
+    107.6,
+    693.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 3 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.7,
+    694.3,
+    271.3,
+    704.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (incenso bruciato del valore di 10 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    705.4,
+    188.0,
+    715.1
+   ],
+   "size": 8.4,
+   "testo": "o più, che l'incantesimo consuma)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    716.4,
+    119.8,
+    726.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    71.8,
+    339.3,
+    90.0
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    94.3,
+    518.1,
+    104.0
+   ],
+   "size": 9.2,
+   "testo": "Schianto ultraterreno. Tiro per colpire in mischia: i l bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    105.8,
+    511.8,
+    115.5
+   ],
+   "size": 8.4,
+   "testo": "equivale al modificatore di attacco dell'incantesimo del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.0,
+    117.3,
+    517.6,
+    127.0
+   ],
+   "size": 9.2,
+   "testo": "ranger, portata di 1,5 metri Colpo: 1d8 più il livello dell'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    128.8,
+    528.9,
+    138.4
+   ],
+   "size": 8.4,
+   "testo": "cantesimo danni radiosi (celestiale), danni psichici (folletto)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    140.3,
+    415.1,
+    149.9
+   ],
+   "size": 8.4,
+   "testo": "o danni necrotici (immondo).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    150.8,
+    377.3,
+    169.0
+   ],
+   "size": 8.6,
+   "testo": "AZIONI BONUS",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.8,
+    174.0,
+    518.7,
+    182.8
+   ],
+   "size": 8.2,
+   "testo": "Passofatato (solofolletto; ricarica dopo un riposo lungo).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.4,
+    184.8,
+    513.7,
+    194.4
+   ],
+   "size": 8.4,
+   "testo": "La cavalcatura si teletrasporta, insieme al suo cavaliere,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    196.4,
+    512.4,
+    206.0
+   ],
+   "size": 8.4,
+   "testo": "in un uno spazio libero a scelta del personaggio situato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.6,
+    208.0,
+    365.4,
+    217.6
+   ],
+   "size": 8.4,
+   "testo": "a 18 metri da sé.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    224.5,
+    527.0,
+    233.4
+   ],
+   "size": 8.2,
+   "testo": "Sguardo letale (solo immondo; ricarica dopo un riposo lungo).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    235.3,
+    505.7,
+    245.0
+   ],
+   "size": 9.2,
+   "testo": "Tiro salvezza su Saggezza: La CD è pari alla CD del tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.8,
+    246.9,
+    523.4,
+    256.5
+   ],
+   "size": 8.4,
+   "testo": "salvezza sull'incantesimo, una creatura entro 18 metri che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    258.3,
+    522.0,
+    268.0
+   ],
+   "size": 9.2,
+   "testo": "la cavalcatura è in grado di vedere. Fallimento: Il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    270.0,
+    506.3,
+    279.6
+   ],
+   "size": 8.4,
+   "testo": "è spaventato fino al termine del suo turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    286.7,
+    528.9,
+    295.6
+   ],
+   "size": 8.2,
+   "testo": "Tocco guaritore (solo celestiale; ricarica dopo un riposo lungo).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    297.5,
+    524.0,
+    307.1
+   ],
+   "size": 8.4,
+   "testo": "Una creatura entro 1,5 metri dalla cavalcatura recupera un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    309.0,
+    530.0,
+    318.6
+   ],
+   "size": 8.4,
+   "testo": "numero di punti ferita pari a 2d8 più il livello dell'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    335.2,
+    494.6,
+    345.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore ottiene i servigi di un famiglie, uno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    346.2,
+    513.2,
+    356.8
+   ],
+   "size": 8.8,
+   "testo": "spirito che assume la forma di un animale a sua scelta:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    359.0,
+    515.4,
+    367.5
+   ],
+   "size": 8.4,
+   "testo": "pipistrello, gatto, rana, falco, lucertola, piovra, gufo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    368.3,
+    520.2,
+    378.9
+   ],
+   "size": 8.8,
+   "testo": "ratto, corvo, ragno, faina o un'altra bestia che abbia un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    379.3,
+    514.5,
+    389.8
+   ],
+   "size": 8.8,
+   "testo": "grado di sfida pari a 0. Il famiglie appare in uno spazio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    390.3,
+    512.9,
+    400.9
+   ],
+   "size": 8.8,
+   "testo": "libero entro gittata, ha le statistiche della forma scelta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.8,
+    401.5,
+    506.8,
+    412.0
+   ],
+   "size": 8.8,
+   "testo": "(vedi appendice B), anche se si tratta di un celestiale,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    412.4,
+    530.9,
+    423.0
+   ],
+   "size": 8.8,
+   "testo": "un folletto o un immondo (a scelta dell'incantatore) invece",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    423.4,
+    522.8,
+    434.0
+   ],
+   "size": 8.8,
+   "testo": "di una bestia. Il famiglie è indipendente dall'incantatore,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    434.4,
+    420.7,
+    445.0
+   ],
+   "size": 8.8,
+   "testo": "ma obbedisce ai suoi comandi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    445.4,
+    502.8,
+    456.0
+   ],
+   "size": 8.8,
+   "testo": "Connessione telepatica. Finché il famiglie si trova",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    456.4,
+    526.6,
+    466.9
+   ],
+   "size": 8.8,
+   "testo": "a 30 metri dall'incantatore, quest'ultimo può comunicare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    467.4,
+    505.2,
+    477.9
+   ],
+   "size": 8.8,
+   "testo": "con lui telepaticamente. Inoltre, come azione bonus,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    478.4,
+    523.2,
+    489.0
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore è in grado di vedere attraverso gli occhi del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    489.4,
+    530.5,
+    499.9
+   ],
+   "size": 8.8,
+   "testo": "famiglie e sentire ciò che sente fino all'inizio del suo turno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    500.3,
+    525.6,
+    510.9
+   ],
+   "size": 8.8,
+   "testo": "successivo, ottenendo i benefici di eventuali sensi speciali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    511.4,
+    390.4,
+    522.0
+   ],
+   "size": 8.8,
+   "testo": "posseduti dal famiglie.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    522.5,
+    524.3,
+    533.0
+   ],
+   "size": 8.8,
+   "testo": "Infine, quando l'incantatore lancia un incantesimo con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    533.4,
+    527.3,
+    544.0
+   ],
+   "size": 8.8,
+   "testo": "gittata a contatto, il suo famiglie può trasmettere il tocco.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    544.5,
+    520.7,
+    555.1
+   ],
+   "size": 8.8,
+   "testo": "Il famiglie deve trovarsi entro 30 metri dall'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    555.5,
+    516.2,
+    566.0
+   ],
+   "size": 8.8,
+   "testo": "e usare la sua reazione per trasmettere il tocco quando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    566.4,
+    414.0,
+    577.0
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo viene lanciato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    577.4,
+    502.2,
+    587.9
+   ],
+   "size": 8.8,
+   "testo": "Combattimento. Il famiglie diventa un alleato per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    588.3,
+    523.2,
+    598.9
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore e i suoi alleati. Tira per la propria iniziativa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    599.4,
+    528.4,
+    609.9
+   ],
+   "size": 8.8,
+   "testo": "e agisce nel proprio turno. Un famiglie non può attaccare,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    610.4,
+    476.3,
+    621.0
+   ],
+   "size": 8.8,
+   "testo": "ma può effettuare altre azioni normalmente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    621.5,
+    510.2,
+    632.0
+   ],
+   "size": 8.8,
+   "testo": "Scomparsa delfamiglio. Quando un famiglie scende",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    632.6,
+    529.0,
+    643.1
+   ],
+   "size": 8.8,
+   "testo": "a 0 punti ferita, scompare e riappare quando l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.7,
+    643.5,
+    518.8,
+    654.1
+   ],
+   "size": 8.8,
+   "testo": "lancia nuovamente questo incantesimo. Come azione di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    654.5,
+    515.1,
+    665.1
+   ],
+   "size": 8.8,
+   "testo": "Magia, l'incantatore può temporaneamente congedare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    665.6,
+    505.6,
+    676.1
+   ],
+   "size": 8.8,
+   "testo": "il famiglie, che scompare in una sacca dimensionale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    676.6,
+    525.8,
+    687.1
+   ],
+   "size": 8.8,
+   "testo": "In alternativa, l'incantatore può farlo sparire per sempre.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    687.5,
+    508.5,
+    698.0
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, finché il famiglie è congedato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    698.4,
+    515.1,
+    709.0
+   ],
+   "size": 8.8,
+   "testo": "temporaneamente, l'incantatore può farlo ricomparire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    709.5,
+    516.4,
+    720.1
+   ],
+   "size": 8.8,
+   "testo": "in uno spazio libero entro 9 metri da sé. Ogni volta che",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

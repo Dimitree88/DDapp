@@ -1,0 +1,1008 @@
+{
+ "pagina_pdf": 320,
+ "pagina_stampata": 317,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 317",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.9,
+    291.2,
+    167.0,
+    302.6
+   ],
+   "size": 11.2,
+   "testo": "RICHIAMA FOLLETTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    302.7,
+    253.4,
+    313.2
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di3° livello (druido, mago, ranger, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    318.3,
+    145.3,
+    328.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    329.3,
+    117.8,
+    338.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    340.2,
+    275.4,
+    349.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un fiore dorato del valore di 300 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.8,
+    351.2,
+    82.6,
+    360.8
+   ],
+   "size": 8.4,
+   "testo": "o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    362.2,
+    191.9,
+    371.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    378.5,
+    273.0,
+    389.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore invoca uno spirito fatato, che si manifesta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    389.4,
+    272.9,
+    400.0
+   ],
+   "size": 8.8,
+   "testo": "in uno spazio libero entrogittata che egli sia in grado di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    400.5,
+    269.4,
+    411.1
+   ],
+   "size": 8.8,
+   "testo": "vedere e utilizza la scheda delle statistiche dello Spirito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    411.6,
+    254.3,
+    422.2
+   ],
+   "size": 8.8,
+   "testo": "Fatato. Quando questo incantesimo viene lanciato,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    422.6,
+    283.3,
+    433.2
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore può scegliere uno stato d'animo tra rabbioso,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    433.6,
+    261.6,
+    444.1
+   ],
+   "size": 8.8,
+   "testo": "gioioso o malandrino. La creatura ha le sembianze di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    444.5,
+    268.2,
+    455.0
+   ],
+   "size": 8.8,
+   "testo": "uno spirito fatato a scelta dell'incantatore che è in uno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    455.5,
+    254.0,
+    466.1
+   ],
+   "size": 8.8,
+   "testo": "di questi tre stati d'animo e, in base a questa scelta,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    466.5,
+    281.2,
+    477.1
+   ],
+   "size": 8.8,
+   "testo": "vengono determinati alcuni dettagli nella sua scheda delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    477.5,
+    283.2,
+    488.0
+   ],
+   "size": 8.8,
+   "testo": "statistiche. La creatura scompare quando scende a 0 punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    488.5,
+    284.5,
+    499.1
+   ],
+   "size": 8.8,
+   "testo": "ferita o quando l'incantesimo termina ed è un alleato per il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    499.5,
+    160.6,
+    510.1
+   ],
+   "size": 8.8,
+   "testo": "personaggio e i suoi alleati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    510.6,
+    268.4,
+    521.2
+   ],
+   "size": 8.8,
+   "testo": "In combattimento, la creatura ha lo stesso punteggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    521.6,
+    274.4,
+    532.1
+   ],
+   "size": 8.8,
+   "testo": "di iniziativa dell'incantatore, ma inizia il turno immedia­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    532.6,
+    271.4,
+    543.2
+   ],
+   "size": 8.8,
+   "testo": "tamente dopo il suo, obbedendo ai suoi comandi verbali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    543.6,
+    257.4,
+    554.2
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta da parte dell'incantatore).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    554.6,
+    272.2,
+    565.1
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore non pronuncia comandi verbali, la crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    565.5,
+    272.1,
+    576.1
+   ],
+   "size": 8.8,
+   "testo": "tura compie l'azione di Schivata e usa il suo movimento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    576.6,
+    148.9,
+    587.1
+   ],
+   "size": 8.8,
+   "testo": "per sottrarsi al pericolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    589.3,
+    257.3,
+    597.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    598.5,
+    257.5,
+    609.1
+   ],
+   "size": 8.8,
+   "testo": "Usa il livello dello slot incantesimo relativo al livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    609.7,
+    234.3,
+    620.2
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo nella scheda delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    644.5,
+    166.2,
+    655.8
+   ],
+   "size": 11.2,
+   "testo": "RICHIAMA IMMONDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    656.0,
+    198.1,
+    666.4
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi6°livello (mago, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    671.5,
+    145.3,
+    681.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    682.4,
+    117.9,
+    692.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    687.6,
+    248.5,
+    703.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una fiala di s'angue del valore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    704.5,
+    126.5,
+    714.1
+   ],
+   "size": 8.4,
+   "testo": "di 600 mo o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    715.4,
+    191.1,
+    725.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    272.9,
+    398.9,
+    282.1
+   ],
+   "size": 9.2,
+   "testo": "Folletto Piccolo, neutrale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    287.7,
+    433.6,
+    297.3
+   ],
+   "size": 8.4,
+   "testo": "CA 12 + il livello dell'incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    298.9,
+    505.5,
+    308.5
+   ],
+   "size": 8.4,
+   "testo": "PF 30 + 10 per ogni livello di incantesimo sopra il 3°",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    309.9,
+    391.1,
+    319.6
+   ],
+   "size": 8.4,
+   "testo": "Velocità 9 m, volo 9 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    345.0,
+    324.6,
+    377.6,
+    330.3
+   ],
+   "size": 4.3,
+   "testo": "MOD SALV",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    422.8,
+    324.6,
+    455.4,
+    330.3
+   ],
+   "size": 4.3,
+   "testo": "MOD SALV",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.9,
+    324.6,
+    514.9,
+    330.3
+   ],
+   "size": 4.3,
+   "testo": "MOD",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    518.7,
+    324.6,
+    532.9,
+    330.3
+   ],
+   "size": 4.3,
+   "testo": "SALV",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    333.1,
+    354.1,
+    342.7
+   ],
+   "size": 8.4,
+   "testo": "FoR 13 +1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.1,
+    333.1,
+    372.6,
+    342.7
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.5,
+    333.1,
+    433.4,
+    342.7
+   ],
+   "size": 8.4,
+   "testo": "DEs 16 +3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.8,
+    333.1,
+    451.9,
+    342.7
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    463.6,
+    333.1,
+    511.2,
+    342.7
+   ],
+   "size": 8.4,
+   "testo": "Cos 14 +2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    495.8,
+    340.5,
+    535.7,
+    349.6
+   ],
+   "size": 6.9,
+   "testo": "-==;;:;",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    347.2,
+    355.6,
+    356.9
+   ],
+   "size": 8.4,
+   "testo": "INT 14 +2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.1,
+    347.2,
+    374.4,
+    356.9
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.4,
+    347.2,
+    452.7,
+    356.9
+   ],
+   "size": 8.4,
+   "testo": "SAC 11 +0 +0",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    463.6,
+    347.2,
+    511.2,
+    356.9
+   ],
+   "size": 8.4,
+   "testo": "CAR 16 +3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    496.1,
+    354.1,
+    532.2,
+    358.2
+   ],
+   "size": 2.8,
+   "testo": "---",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    366.2,
+    388.2,
+    375.9
+   ],
+   "size": 8.4,
+   "testo": "Immunità affascinato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    377.3,
+    486.0,
+    386.9
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 10, scurovisione 18 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    388.2,
+    534.6,
+    397.8
+   ],
+   "size": 8.4,
+   "testo": "Lingue Silvano, comprende le lingue parlate dal personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    399.3,
+    515.0,
+    408.9
+   ],
+   "size": 8.4,
+   "testo": "GS nessuno (PE 0; BC pari al bonus di competenza del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    410.3,
+    364.0,
+    420.0
+   ],
+   "size": 8.4,
+   "testo": "personaggio)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    421.6,
+    342.5,
+    439.8
+   ],
+   "size": 8.6,
+   "testo": "AZION I",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    443.9,
+    515.5,
+    453.6
+   ],
+   "size": 8.4,
+   "testo": "Multiattacco. Lo spirito effettua un numero di attacchi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    455.4,
+    527.4,
+    465.1
+   ],
+   "size": 8.4,
+   "testo": "Lama fatata pari alla metà del livello di quest'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    467.0,
+    409.5,
+    476.6
+   ],
+   "size": 8.4,
+   "testo": "(arrotondando per difetto).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    482.9,
+    522.3,
+    492.6
+   ],
+   "size": 9.2,
+   "testo": "Lamafatata. Tiro per colpire in mischia: il bonus equivale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    494.5,
+    534.5,
+    504.1
+   ],
+   "size": 8.4,
+   "testo": "al modificatore di attacco dell'incantesimo del personaggio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    506.0,
+    524.3,
+    515.7
+   ],
+   "size": 9.2,
+   "testo": "portata di 1,5 metri. Colpo: 2d6 + 3 + il livello dell'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    517.5,
+    385.8,
+    527.1
+   ],
+   "size": 8.4,
+   "testo": "simo danni da forza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    528.1,
+    383.3,
+    546.3
+   ],
+   "size": 8.6,
+   "testo": "AZIONI BONUS",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    550.5,
+    530.8,
+    560.1
+   ],
+   "size": 8.4,
+   "testo": "Passofatato. Lo spirito s i teletrasporta magicamente d i un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    561.9,
+    528.6,
+    571.6
+   ],
+   "size": 8.4,
+   "testo": "massimo di 9 metri fino a uno spazio libero che è in grado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    573.4,
+    522.1,
+    583.1
+   ],
+   "size": 8.4,
+   "testo": "di vedere. Dopodiché, si verifica uno dei seguenti effetti,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    585.0,
+    454.9,
+    594.6
+   ],
+   "size": 8.4,
+   "testo": "in base allo stato d'animo dello spirito:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    600.9,
+    526.4,
+    610.6
+   ],
+   "size": 9.2,
+   "testo": "Gioioso. Tiro salvezza su Saggezza: CD pari alla CD del tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    612.6,
+    530.4,
+    622.3
+   ],
+   "size": 8.4,
+   "testo": "salvezza sull'incantesimo, una creatura che lo spirito è in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    624.1,
+    533.8,
+    633.8
+   ],
+   "size": 9.2,
+   "testo": "grado di vedere entro 3 metri da sé. Fallimento: Il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    635.6,
+    528.1,
+    645.2
+   ],
+   "size": 8.4,
+   "testo": "resta affascinato dal personaggio e dallo spirito per 1 mi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    647.2,
+    438.8,
+    656.8
+   ],
+   "size": 8.4,
+   "testo": "nuto o finché non subisce danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    658.6,
+    526.0,
+    668.2
+   ],
+   "size": 8.4,
+   "testo": "Malandrino. Lo spirito può colmare di oscurità magica un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    670.1,
+    533.1,
+    679.7
+   ],
+   "size": 8.4,
+   "testo": "cubo con spigolo di 3 metri entro 1,5 metri da sé; l'effetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    681.6,
+    473.9,
+    691.2
+   ],
+   "size": 8.4,
+   "testo": "termina alla fine del suo turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    693.1,
+    525.9,
+    702.7
+   ],
+   "size": 8.4,
+   "testo": "Rabbioso. Lo spirito dispone di vantaggio al prossimo tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    704.6,
+    526.7,
+    714.2
+   ],
+   "size": 8.4,
+   "testo": "per colpire che effettua prima della fine di questo turno.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

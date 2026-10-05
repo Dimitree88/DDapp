@@ -1,0 +1,1332 @@
+{
+ "pagina_pdf": 297,
+ "pagina_stampata": 294,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "294 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    60.8,
+    36.4,
+    268.0,
+    47.0
+   ],
+   "size": 8.8,
+   "testo": "Al termine di ogni 10 minuti trascorsi a concentrarsi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    47.4,
+    269.7,
+    58.0
+   ],
+   "size": 8.8,
+   "testo": "sull'incantesimo, l'incantatore può scegliere una nuova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    58.5,
+    225.1,
+    69.1
+   ],
+   "size": 8.8,
+   "testo": "area di terreno entro gittata da influenzare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    69.5,
+    255.8,
+    80.0
+   ],
+   "size": 8.8,
+   "testo": "Questo incantesimo non può manipolare la pietra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    80.5,
+    260.0,
+    91.0
+   ],
+   "size": 8.8,
+   "testo": "naturale e le costruzioni realizzate in pietra: le rocce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    91.5,
+    272.6,
+    102.1
+   ],
+   "size": 8.8,
+   "testo": "e le strutture si spostano per adattarsi al nuovo terreno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    102.5,
+    267.9,
+    113.1
+   ],
+   "size": 8.8,
+   "testo": "Se il modo in cui l'incantatore modella il terreno rende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    113.4,
+    235.9,
+    124.0
+   ],
+   "size": 8.8,
+   "testo": "una struttura instabile, essa potrebbe crollare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    124.4,
+    274.8,
+    135.0
+   ],
+   "size": 8.8,
+   "testo": "Allo stesso modo, questo incantesimo non influenza in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    135.4,
+    271.4,
+    146.0
+   ],
+   "size": 8.8,
+   "testo": "modo diretto la crescita vegetale: la terra in movimento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    146.4,
+    191.1,
+    157.0
+   ],
+   "size": 8.8,
+   "testo": "trasporta con sé i vegetali presenti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    181.2,
+    138.4,
+    192.6
+   ],
+   "size": 11.2,
+   "testo": "MURO DI FORZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    192.7,
+    166.8,
+    203.2
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi5°livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    208.5,
+    144.5,
+    218.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    219.5,
+    117.2,
+    229.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    230.3,
+    226.0,
+    240.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un frammento di vetro)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    241.3,
+    207.7,
+    250.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    257.5,
+    265.9,
+    268.1
+   ],
+   "size": 8.8,
+   "testo": "Un muro di forza invisibile si materializza in un punto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    268.6,
+    279.5,
+    279.2
+   ],
+   "size": 8.8,
+   "testo": "a scelta dell'incantatore situato entro gittata. Esso appare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    279.7,
+    252.1,
+    290.2
+   ],
+   "size": 8.8,
+   "testo": "nell'orientamento che l'incantatore desidera, come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    290.6,
+    272.3,
+    301.2
+   ],
+   "size": 8.8,
+   "testo": "barriera orizzontale, verticale o inclinata. Può fluttuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    301.7,
+    279.2,
+    312.2
+   ],
+   "size": 8.8,
+   "testo": "nell'aria o poggiare su una superficie solida. L'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    312.7,
+    271.9,
+    323.2
+   ],
+   "size": 8.8,
+   "testo": "può modellare la barriera in una cupola semisferica o in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    323.7,
+    280.1,
+    334.3
+   ],
+   "size": 8.8,
+   "testo": "una sfera del raggio massimo di 3 metri, oppure come una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    334.6,
+    275.2,
+    345.2
+   ],
+   "size": 8.8,
+   "testo": "superficie piatta composta da dieci pannelli quadrati con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    345.6,
+    267.2,
+    356.2
+   ],
+   "size": 8.8,
+   "testo": "lato di 3 metri. Ogni pannello dev'essere contiguo a un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    356.7,
+    281.0,
+    367.3
+   ],
+   "size": 8.8,
+   "testo": "altro pannello. In qualsiasi forma, il muro ha uno spessore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    367.7,
+    283.2,
+    378.2
+   ],
+   "size": 8.8,
+   "testo": "di 0,6 centimetri e permane per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    378.7,
+    280.0,
+    389.2
+   ],
+   "size": 8.8,
+   "testo": "Se, nel momento in cui appare, il muro passa attraverso lo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    389.7,
+    273.6,
+    400.2
+   ],
+   "size": 8.8,
+   "testo": "spazio di una creatura, questa viene spinta verso un lato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    400.7,
+    186.7,
+    411.3
+   ],
+   "size": 8.8,
+   "testo": "del muro a scelta dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    411.8,
+    245.8,
+    422.4
+   ],
+   "size": 8.8,
+   "testo": "Nulla può fisicamente attraversare il muro, che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    422.8,
+    264.5,
+    433.4
+   ],
+   "size": 8.8,
+   "testo": "è immune a tutti i danni e non può essere dissolto con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    433.7,
+    264.6,
+    444.3
+   ],
+   "size": 8.8,
+   "testo": "dissolvimagie. Tuttavia, un incantesimo disintegrazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    444.8,
+    254.1,
+    455.4
+   ],
+   "size": 8.8,
+   "testo": "lo distrugge all'istante. Il muro si estende anche sul",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    455.7,
+    272.9,
+    466.3
+   ],
+   "size": 8.8,
+   "testo": "Piano Etereo e blocca i viaggi eterei che lo attraversano.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    490.4,
+    141.4,
+    501.8
+   ],
+   "size": 11.2,
+   "testo": "MuRo DI Fuoco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    501.8,
+    229.3,
+    512.3
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di4°livello (druido, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    517.5,
+    144.5,
+    527.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    528.6,
+    117.1,
+    538.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    539.5,
+    217.4,
+    549.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pezzo di carbone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    550.5,
+    205.9,
+    560.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    566.7,
+    263.9,
+    577.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea un muro di fuoco su una superficie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    577.7,
+    247.5,
+    588.2
+   ],
+   "size": 8.8,
+   "testo": "solida entro gittata. Il muro può essere lungo fino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    588.6,
+    262.0,
+    599.1
+   ],
+   "size": 8.8,
+   "testo": "a 18 metri, alto 6 metri e spesso 30 cm, oppure essere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    599.7,
+    273.4,
+    610.3
+   ],
+   "size": 8.8,
+   "testo": "un muro circolare del diametro massimo di 6 metri, alto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    610.8,
+    267.1,
+    621.3
+   ],
+   "size": 8.8,
+   "testo": "6 metri e spesso 30 cm. Il muro è opaco e permane per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    621.8,
+    157.8,
+    632.4
+   ],
+   "size": 8.8,
+   "testo": "la durata dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    632.9,
+    276.5,
+    643.5
+   ],
+   "size": 8.8,
+   "testo": "Quando compare, ogni creatura al suo interno effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    643.8,
+    259.3,
+    654.4
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Destrezza, subendo Sd8 danni da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    654.8,
+    265.6,
+    665.4
+   ],
+   "size": 8.8,
+   "testo": "fuoco in caso di fallimento, o la metà dei danni in caso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    665.9,
+    100.2,
+    676.4
+   ],
+   "size": 8.8,
+   "testo": "di successo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    676.8,
+    267.7,
+    687.4
+   ],
+   "size": 8.8,
+   "testo": "Un lato del muro, scelto dall'incantatore al momento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    687.8,
+    269.6,
+    698.4
+   ],
+   "size": 8.8,
+   "testo": "del lancio dell'incantesimo, infligge Sd8 danni da fuoco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    698.8,
+    281.3,
+    709.3
+   ],
+   "size": 8.8,
+   "testo": "a ogni creatura che termina il proprio turno entro 3 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    36.4,
+    525.2,
+    46.9
+   ],
+   "size": 8.8,
+   "testo": "da quel lato o all'interno del muro. Una creatura subisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    47.4,
+    528.2,
+    57.9
+   ],
+   "size": 8.8,
+   "testo": "gli stessi danni quando lo attraversa per la prima volta in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    58.4,
+    522.8,
+    69.0
+   ],
+   "size": 8.8,
+   "testo": "un turno o vi termina il suo turno. L'altro lato del muro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    69.4,
+    380.6,
+    79.9
+   ],
+   "size": 8.8,
+   "testo": "non infligge danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    82.1,
+    508.8,
+    90.7
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    91.4,
+    531.6,
+    102.0
+   ],
+   "size": 8.8,
+   "testo": "I danni aumentano di 1d8 per ogni slot di livello superiore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    100.3,
+    326.1,
+    112.9
+   ],
+   "size": 8.8,
+   "testo": "al 4°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    137.0,
+    409.9,
+    148.4
+   ],
+   "size": 11.2,
+   "testo": "MURO DI GHIACCIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    148.5,
+    419.9,
+    159.0
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 6° livello (mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    164.2,
+    397.2,
+    173.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    175.3,
+    369.8,
+    184.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    186.2,
+    465.9,
+    195.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pezzo di quarzo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    197.3,
+    460.6,
+    206.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    213.6,
+    510.8,
+    224.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea un muro di ghiaccio su una super-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    224.5,
+    512.4,
+    235.1
+   ],
+   "size": 8.8,
+   "testo": "ficie solida entro gittata, modellandolo in una cupola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    235.5,
+    525.5,
+    246.0
+   ],
+   "size": 8.8,
+   "testo": "semisferica o in una sfera del raggio massimo di 3 metri,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    246.5,
+    532.5,
+    257.1
+   ],
+   "size": 8.8,
+   "testo": "oppure in una superficie piatta composta da dieci pannelli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    257.5,
+    515.7,
+    268.1
+   ],
+   "size": 8.8,
+   "testo": "quadrati con lato di 3 metri. Ogni pannello dev'essere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    268.5,
+    525.0,
+    279.1
+   ],
+   "size": 8.8,
+   "testo": "contiguo a un altro pannello. In qualsiasi forma, il muro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    279.6,
+    530.2,
+    290.1
+   ],
+   "size": 8.8,
+   "testo": "ha uno spessore di 30 centimetri e permane per la durata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    290.7,
+    373.7,
+    301.2
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    301.6,
+    513.4,
+    312.2
+   ],
+   "size": 8.8,
+   "testo": "Se il muro invade lo spazio di una creatura alla sua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    312.6,
+    521.7,
+    323.2
+   ],
+   "size": 8.8,
+   "testo": "apparizione, quest'ultima viene spinta verso un lato del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    323.7,
+    515.7,
+    334.2
+   ],
+   "size": 8.8,
+   "testo": "muro (a scelta dell'incantatore) ed effettua un tiro sal­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    334.6,
+    532.9,
+    345.2
+   ],
+   "size": 8.8,
+   "testo": "vezza su Destrezza, subendo 10d6 danni da freddo in caso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    345.6,
+    511.8,
+    356.2
+   ],
+   "size": 8.8,
+   "testo": "di fallimento, o la metà dei danni in caso di successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    356.6,
+    504.4,
+    367.2
+   ],
+   "size": 8.8,
+   "testo": "Il muro è un oggetto che può essere danneggiato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    367.6,
+    518.5,
+    378.2
+   ],
+   "size": 8.8,
+   "testo": "e quindi sfondato, con CA 12 e 30 punti ferita per ogni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    378.5,
+    525.6,
+    389.1
+   ],
+   "size": 8.8,
+   "testo": "sezione di 3 metri. Inoltre, è immune ai danni da freddo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    389.6,
+    507.1,
+    400.2
+   ],
+   "size": 8.8,
+   "testo": "da veleno e psichici e vulnerabile ai danni da fuoco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    400.7,
+    530.7,
+    411.3
+   ],
+   "size": 8.8,
+   "testo": "Una sezione di 3 metri viene distrutta se scende a 0 punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    411.7,
+    535.7,
+    422.3
+   ],
+   "size": 8.8,
+   "testo": "ferita e, nello spazio che occupava in precedenza, permane",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    422.7,
+    404.9,
+    433.3
+   ],
+   "size": 8.8,
+   "testo": "una cortina d'aria gelida.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    433.6,
+    521.9,
+    444.2
+   ],
+   "size": 8.8,
+   "testo": "Una creatura che attraversa tale cortina d'aria gelida",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    444.7,
+    509.5,
+    455.3
+   ],
+   "size": 8.8,
+   "testo": "per la per la prima volta in un turno effettua un tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    455.6,
+    521.6,
+    466.2
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Costituzione, subendo Sd6 danni da freddo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    466.6,
+    503.3,
+    477.2
+   ],
+   "size": 8.8,
+   "testo": "in caso di fallimento, o la metà dei danni in caso di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    477.6,
+    342.9,
+    488.2
+   ],
+   "size": 8.8,
+   "testo": "successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.7,
+    490.4,
+    509.0,
+    499.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    499.6,
+    513.4,
+    510.1
+   ],
+   "size": 8.8,
+   "testo": "I danni inflitti dal muro quando compare aumentano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    510.6,
+    517.3,
+    521.2
+   ],
+   "size": 8.8,
+   "testo": "di 2d6 e quelli subiti da chi passa attraverso la cortina",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    521.7,
+    526.8,
+    532.3
+   ],
+   "size": 8.8,
+   "testo": "d'aria gelida aumentano di 1d6 per ogni slot incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    530.5,
+    401.3,
+    543.2
+   ],
+   "size": 8.8,
+   "testo": "di livello superiore al 6°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    567.3,
+    395.5,
+    578.6
+   ],
+   "size": 11.2,
+   "testo": "MURO DI PIETRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    578.8,
+    482.5,
+    589.3
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi5° livello (druido, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    594.4,
+    397.2,
+    604.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    605.5,
+    369.8,
+    615.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    616.5,
+    462.5,
+    626.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un cubo di granito)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    627.6,
+    460.7,
+    637.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    643.8,
+    518.5,
+    654.4
+   ],
+   "size": 8.8,
+   "testo": "Un muro non magico di solida pietra si materializza in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    654.8,
+    520.6,
+    665.4
+   ],
+   "size": 8.8,
+   "testo": "un punto a scelta dell'incantatore situato entro gittata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    665.8,
+    530.7,
+    676.4
+   ],
+   "size": 8.8,
+   "testo": "Il muro è spesso 15 cm ed è composto da pannelli con lato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    676.9,
+    523.8,
+    687.4
+   ],
+   "size": 8.8,
+   "testo": "di 3 metri, Ogni pannello dev'essere contiguo a un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    687.8,
+    531.0,
+    698.3
+   ],
+   "size": 8.8,
+   "testo": "pannello. In alternativa, l'incantatore può creare pannelli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    698.8,
+    486.6,
+    709.3
+   ],
+   "size": 8.8,
+   "testo": "di 3 metri per 6 metri spessi solo 8 centimetri.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,799 @@
+{
+ "pagina_pdf": 130,
+ "pagina_stampata": 127,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   289,
+   132,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.8,
+    36.4,
+    278.0,
+    47.0
+   ],
+   "size": 8.8,
+   "testo": "Arti Marziali. Il danno extra è dello stesso tipo dei danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    47.4,
+    121.4,
+    57.9
+   ],
+   "size": 8.8,
+   "testo": "inflitti dal colpo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    58.3,
+    275.5,
+    68.9
+   ],
+   "size": 8.8,
+   "testo": "Passo distruttivo. Quando il monaco utilizza Passo del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    69.4,
+    274.1,
+    79.9
+   ],
+   "size": 8.8,
+   "testo": "vento, la sua velocità aumenta di 6 metri fino al termine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    80.3,
+    268.6,
+    90.9
+   ],
+   "size": 8.8,
+   "testo": "del turno. Per tutta la durata, una creatura a scelta del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    91.3,
+    265.3,
+    101.9
+   ],
+   "size": 8.8,
+   "testo": "monaco subisce un numero di danni pari a un tiro del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    102.2,
+    277.2,
+    112.8
+   ],
+   "size": 8.8,
+   "testo": "dado di Arti Marziali quando il monaco entra in uno spa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    113.4,
+    273.3,
+    123.9
+   ],
+   "size": 8.8,
+   "testo": "zio entro 1,5 metri da essa. Il tipo di danno è a scelta tra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    124.3,
+    274.6,
+    134.9
+   ],
+   "size": 8.8,
+   "testo": "acido, freddo, fulmine, fuoco o tuono. Una creatura può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    135.2,
+    230.0,
+    145.8
+   ],
+   "size": 8.8,
+   "testo": "subire questi danni solo una volta per turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    146.3,
+    270.5,
+    156.9
+   ],
+   "size": 8.8,
+   "testo": "Resistenza ai danni. Il personaggio ottiene resistenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    157.4,
+    282.2,
+    168.0
+   ],
+   "size": 8.8,
+   "testo": "a uno dei seguenti tipi di danno a tua scelta: acido, freddo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    168.3,
+    254.7,
+    178.9
+   ],
+   "size": 8.8,
+   "testo": "fulmine, fuoco o tuono. All'inizio di ogni turno del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    179.3,
+    206.1,
+    189.9
+   ],
+   "size": 8.8,
+   "testo": "monaco, la scelta può essere cambiata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    199.4,
+    265.3,
+    212.5
+   ],
+   "size": 9.7,
+   "testo": "GUERRIERO DELLA MANO APERTA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    217.0,
+    244.4,
+    226.4
+   ],
+   "size": 8.6,
+   "testo": "Padroneggia le tecniche di combattimento senz'armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    230.7,
+    275.7,
+    241.2
+   ],
+   "size": 8.8,
+   "testo": "I Guerrieri della Mano Aperta sono i maestri del combat­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    241.6,
+    281.4,
+    252.2
+   ],
+   "size": 8.8,
+   "testo": "timento senz'armi. Apprendono tecniche speciali per spin­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    252.6,
+    282.1,
+    263.2
+   ],
+   "size": 8.8,
+   "testo": "gere e sbilanciare i loro avversari e manipolano la propria",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    263.7,
+    188.4,
+    274.2
+   ],
+   "size": 8.8,
+   "testo": "energia per proteggersi dai danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    284.1,
+    279.8,
+    295.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: TECNICA DELLA MANO APERTA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    295.5,
+    268.8,
+    306.1
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il monaco colpisce una creatura con un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    306.5,
+    283.7,
+    317.0
+   ],
+   "size": 8.8,
+   "testo": "attacco concessogli dalla sua Raffica di Colpi, può imporre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    317.5,
+    218.5,
+    328.1
+   ],
+   "size": 8.8,
+   "testo": "a quel bersaglio uno degli effetti seguenti:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    328.5,
+    285.7,
+    339.1
+   ],
+   "size": 8.8,
+   "testo": "Disorientamento. Il bersaglio non può effettuare attacchi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    339.4,
+    267.2,
+    350.0
+   ],
+   "size": 8.8,
+   "testo": "di opportunità fino all'inizio del suo turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    350.4,
+    268.9,
+    361.0
+   ],
+   "size": 8.8,
+   "testo": "Rovesciamento. Il bersaglio deve superare un tiro sal­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    361.3,
+    250.4,
+    371.9
+   ],
+   "size": 8.8,
+   "testo": "vezza su Destrezza, altrimenti cade a terra prono.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    372.3,
+    274.5,
+    382.9
+   ],
+   "size": 8.8,
+   "testo": "Spinta. Il bersaglio deve effettuare un tiro salvezza su",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    383.4,
+    272.2,
+    394.0
+   ],
+   "size": 8.8,
+   "testo": "Forza. Se lo fallisce, il monaco spinge il bersaglio via da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    394.4,
+    187.2,
+    405.0
+   ],
+   "size": 8.8,
+   "testo": "sé fino a un massimo di 4,5 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    414.9,
+    238.0,
+    426.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: INTEGRITÀ DEL CORPO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    426.4,
+    262.9,
+    436.9
+   ],
+   "size": 8.8,
+   "testo": "Il monaco ottiene la capacità di curarsi. Come azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    437.2,
+    256.9,
+    447.8
+   ],
+   "size": 8.8,
+   "testo": "bonus, può tirare il dado di Arti Marziali. In questo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    448.2,
+    282.1,
+    458.8
+   ],
+   "size": 8.8,
+   "testo": "modo, recupera un numero di punti ferita pari al risultato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    459.2,
+    273.6,
+    469.8
+   ],
+   "size": 8.8,
+   "testo": "ottenuto più il suo modificatore di Saggezza (minimo di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    470.3,
+    158.5,
+    480.9
+   ],
+   "size": 8.8,
+   "testo": "1 punto ferita recuperato).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    481.2,
+    257.6,
+    491.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può utilizzare questo privilegio un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    492.3,
+    263.7,
+    502.9
+   ],
+   "size": 8.8,
+   "testo": "numero di volte pari al valore del suo modificatore di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    503.3,
+    275.0,
+    513.9
+   ],
+   "size": 8.8,
+   "testo": "Saggezza (minimo una volta) e recupera tutti gli utilizzi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    514.3,
+    232.8,
+    524.9
+   ],
+   "size": 8.8,
+   "testo": "consumati quando completa un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    534.8,
+    190.0,
+    546.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: PASSO LESTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    546.2,
+    268.8,
+    556.7
+   ],
+   "size": 8.8,
+   "testo": "Quando il monaco effettua un'azione bonus diversa da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    557.2,
+    275.5,
+    567.7
+   ],
+   "size": 8.8,
+   "testo": "Passo del Vento, può usare anche Passo del Vento subito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    568.1,
+    136.6,
+    578.7
+   ],
+   "size": 8.8,
+   "testo": "dopo l'azione bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    588.6,
+    218.7,
+    599.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: PALMO TREMANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    599.9,
+    260.4,
+    610.5
+   ],
+   "size": 8.8,
+   "testo": "Il monaco ottiene la capacità di scatenare vibrazioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    611.1,
+    267.7,
+    621.7
+   ],
+   "size": 8.8,
+   "testo": "letali nel corpo di un altro. Quando il monaco colpisce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    622.1,
+    256.0,
+    632.7
+   ],
+   "size": 8.8,
+   "testo": "una creatura con un colpo senz'armi, può spendere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    633.1,
+    280.2,
+    643.7
+   ],
+   "size": 8.8,
+   "testo": "4 punti concentrazione per dare il via a queste vibrazioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    644.1,
+    282.0,
+    654.7
+   ],
+   "size": 8.8,
+   "testo": "impercettibili, che durano un numero di giorni pari al suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    655.2,
+    268.3,
+    665.7
+   ],
+   "size": 8.8,
+   "testo": "livello da monaco. Le vibrazioni sono innocue, a meno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    666.1,
+    272.4,
+    676.7
+   ],
+   "size": 8.8,
+   "testo": "che il monaco non effettui un'azione per interromperle.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    677.1,
+    265.5,
+    687.7
+   ],
+   "size": 8.8,
+   "testo": "In alternativa, quando effettua l'azione di Attacco nel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    688.1,
+    252.4,
+    698.6
+   ],
+   "size": 8.8,
+   "testo": "proprio turno, può rinunciare a uno degli attacchi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    699.0,
+    262.8,
+    709.6
+   ],
+   "size": 8.8,
+   "testo": "per porre fine alle vibrazioni. Per farlo, il monaco e il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    710.0,
+    277.4,
+    720.6
+   ],
+   "size": 8.8,
+   "testo": "bersaglio devono trovarsi sullo stesso piano di esistenza.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    36.3,
+    524.8,
+    46.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il monaco pone fine alle vibrazioni, il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    47.4,
+    528.8,
+    58.0
+   ],
+   "size": 8.8,
+   "testo": "deve effettuare un tiro salvezza su Costituzione; subisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    58.3,
+    525.8,
+    68.9
+   ],
+   "size": 8.8,
+   "testo": "10d12 danni da forza in caso di fallimento, o la metà dei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    69.4,
+    409.2,
+    79.9
+   ],
+   "size": 8.8,
+   "testo": "danni in caso di successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    80.3,
+    525.1,
+    90.9
+   ],
+   "size": 8.8,
+   "testo": "Il monaco può tenere soltanto una creatura alla volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    91.3,
+    530.3,
+    101.8
+   ],
+   "size": 8.8,
+   "testo": "sotto l'effetto di questo privilegio. Le vibrazioni possono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    102.2,
+    530.5,
+    112.8
+   ],
+   "size": 8.8,
+   "testo": "essere interrotte senza provocare danni (nessuna azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    113.3,
+    348.7,
+    123.8
+   ],
+   "size": 8.8,
+   "testo": "richiesta).",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1140 @@
+{
+ "pagina_pdf": 136,
+ "pagina_stampata": 133,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 133",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.2,
+    36.5,
+    270.1,
+    47.0
+   ],
+   "size": 8.8,
+   "testo": "immondi e non morti. Per i prossimi 10 minuti o finché",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    47.4,
+    277.1,
+    58.0
+   ],
+   "size": 8.8,
+   "testo": "non è incapacitato, conosce la posizione di ogni creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    58.4,
+    281.9,
+    69.0
+   ],
+   "size": 8.8,
+   "testo": "summenzionata in un raggio di 18 metri da sé e può distin­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    69.5,
+    264.0,
+    80.0
+   ],
+   "size": 8.8,
+   "testo": "guerne la tipologia. Entro lo stesso raggio, il paladino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    80.4,
+    273.7,
+    91.0
+   ],
+   "size": 8.8,
+   "testo": "individua anche la presenza di qualsiasi luogo o oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    91.4,
+    267.5,
+    101.9
+   ],
+   "size": 8.8,
+   "testo": "sacro o sacrilego, con gli stessi effetti dell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    103.5,
+    96.8,
+    112.8
+   ],
+   "size": 8.6,
+   "testo": "santificare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    122.8,
+    270.0,
+    134.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SOTTOCLASSE DEL PALADINO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    134.2,
+    254.2,
+    144.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene una sottoclasse del paladino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    145.2,
+    282.6,
+    155.8
+   ],
+   "size": 8.8,
+   "testo": "a scelta. Dopo la descrizione di questa classe, troverai una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    156.3,
+    279.3,
+    166.9
+   ],
+   "size": 8.8,
+   "testo": "spiegazione per ciascuna delle seguenti sottoclassi: Giura­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    167.3,
+    273.9,
+    177.9
+   ],
+   "size": 8.8,
+   "testo": "mento di Devozione, Giuramento di Gloria, Giuramento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    178.3,
+    275.5,
+    188.9
+   ],
+   "size": 8.8,
+   "testo": "degli Antichi e Giuramento di Vendetta. Una sottoclasse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    189.3,
+    280.7,
+    199.8
+   ],
+   "size": 8.8,
+   "testo": "è una specializzazione che conferisce dei privilegi a deter­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    200.3,
+    272.0,
+    210.9
+   ],
+   "size": 8.8,
+   "testo": "minati livelli da paladino. Per il resto della sua carriera,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    211.3,
+    266.9,
+    221.9
+   ],
+   "size": 8.8,
+   "testo": "il personaggio ottiene tutti i privilegi della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    222.3,
+    274.8,
+    232.9
+   ],
+   "size": 8.8,
+   "testo": "pari al suo livello da paladino attuale o a quelli inferiori.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    242.8,
+    249.9,
+    254.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 4: AUMENTO DEI PUNTEGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    253.6,
+    161.7,
+    264.9
+   ],
+   "size": 11.2,
+   "testo": "DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    264.9,
+    273.6,
+    275.5
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene l'aumento dei punteggi di caratte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    276.0,
+    271.7,
+    286.5
+   ],
+   "size": 8.8,
+   "testo": "ristica (vedi capitolo 5) o un altro talento a scelta di cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    286.9,
+    279.2,
+    297.5
+   ],
+   "size": 8.8,
+   "testo": "possiede i prerequisiti. Questo privilegio si ottiene nuova­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    295.7,
+    234.9,
+    308.5
+   ],
+   "size": 8.8,
+   "testo": "mente all'8°, al 12° e al 16° livello da paladino.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    318.4,
+    205.3,
+    329.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: ATTACCO EXTRA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    329.7,
+    266.7,
+    340.2
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua l'azione di attacco nel proprio turno,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    340.7,
+    243.0,
+    351.3
+   ],
+   "size": 8.8,
+   "testo": "il paladino può attaccare due volte anziché una.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    361.1,
+    206.5,
+    372.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: Frno DESTRIERO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    372.4,
+    258.9,
+    383.0
+   ],
+   "size": 8.8,
+   "testo": "Il paladino può richiedere l'aiuto di una cavalcatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    383.5,
+    269.4,
+    394.1
+   ],
+   "size": 8.8,
+   "testo": "ultraterrena e l'incantesimo trova cavalcatura è sempre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    394.5,
+    145.4,
+    405.1
+   ],
+   "size": 8.8,
+   "testo": "considerato preparato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    405.5,
+    259.5,
+    416.1
+   ],
+   "size": 8.8,
+   "testo": "Può lanciarlo una volta senza consumare uno slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    416.6,
+    282.9,
+    427.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimo e ne recupera l'utilizzo dopo aver completato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    427.6,
+    120.8,
+    438.2
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    448.0,
+    232.5,
+    459.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: AURA DI PROTEZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    459.4,
+    275.4,
+    469.9
+   ],
+   "size": 8.8,
+   "testo": "Il paladino sprigiona un'aura protettiva invisibile in una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    470.4,
+    283.3,
+    480.9
+   ],
+   "size": 8.8,
+   "testo": "emanazione di 3 metri che ha origine da sé. L'aura diventa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    481.3,
+    177.8,
+    491.9
+   ],
+   "size": 8.8,
+   "testo": "inattiva quando è incapacitato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    492.3,
+    263.1,
+    502.9
+   ],
+   "size": 8.8,
+   "testo": "L'aura conferisce al personaggio e ai suoi alleati un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    503.4,
+    278.8,
+    514.0
+   ],
+   "size": 8.8,
+   "testo": "bonus ai tiri salvezza pari al suo modificatore di Carisma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    514.4,
+    177.1,
+    525.0
+   ],
+   "size": 8.8,
+   "testo": "(fino a un bonus minimo di +1).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    525.5,
+    267.3,
+    536.0
+   ],
+   "size": 8.8,
+   "testo": "Se è presente un altro paladino, le creature possono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    536.5,
+    280.2,
+    547.0
+   ],
+   "size": 8.8,
+   "testo": "usufruire di una sola Aura di Protezione per volta: spetta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    547.5,
+    213.6,
+    558.0
+   ],
+   "size": 8.8,
+   "testo": "alla creatura interessata scegliere quale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    567.9,
+    216.4,
+    579.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 9: ABIURARE NEMICI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    579.2,
+    269.7,
+    589.8
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, il paladino può consumare uno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    590.2,
+    271.6,
+    600.8
+   ],
+   "size": 8.8,
+   "testo": "degli usi di Incanalare Divinità per sopraffare gli avver­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    601.2,
+    281.5,
+    611.7
+   ],
+   "size": 8.8,
+   "testo": "sari. Dopo aver estratto il suo simbolo sacro o l'arma, può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    612.4,
+    275.3,
+    623.0
+   ],
+   "size": 8.8,
+   "testo": "prendere di mira un numero di creature corrispondente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    623.4,
+    283.7,
+    634.0
+   ],
+   "size": 8.8,
+   "testo": "al proprio modificatore di Carisma (minimo una creatura)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    634.4,
+    277.8,
+    645.0
+   ],
+   "size": 8.8,
+   "testo": "che può vedere in un raggio di 18 metri da sé. Ogni bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    645.4,
+    285.7,
+    656.0
+   ],
+   "size": 8.8,
+   "testo": "glio deve superare un tiro salvezza su Saggezza, altrimenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    656.4,
+    284.4,
+    666.9
+   ],
+   "size": 8.8,
+   "testo": "sarà spaventato per 1 minuto o finché non subirà dei danni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    667.4,
+    283.4,
+    678.0
+   ],
+   "size": 8.8,
+   "testo": "Mentre è in questa condizione, nel proprio turno può svol­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    678.3,
+    274.5,
+    688.9
+   ],
+   "size": 8.8,
+   "testo": "gere solo una delle seguenti azioni: muoversi, effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    689.4,
+    169.7,
+    699.9
+   ],
+   "size": 8.8,
+   "testo": "un'azione o un'azione bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    39.3,
+    423.9,
+    49.3
+   ],
+   "size": 8.2,
+   "testo": "GIURAMENTI IN FRANTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    52.4,
+    515.5,
+    62.0
+   ],
+   "size": 8.4,
+   "testo": "Un paladino si sforza sempre di mantenere una con­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    63.3,
+    525.8,
+    72.9
+   ],
+   "size": 8.4,
+   "testo": "dotta impeccabile, ma anche il più virtuoso può fallire,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.6,
+    74.4,
+    436.9,
+    84.0
+   ],
+   "size": 8.4,
+   "testo": "violando il proprio giuramento.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.9,
+    85.4,
+    500.3,
+    95.0
+   ],
+   "size": 8.4,
+   "testo": "Un paladino che ha infranto il suo giuramento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    96.3,
+    514.0,
+    105.9
+   ],
+   "size": 8.4,
+   "testo": "solitamente va in cerca di redenzione, trascorrendo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    107.3,
+    507.8,
+    116.9
+   ],
+   "size": 8.4,
+   "testo": "un'intera notte in preghiera o facendo un digiuno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.4,
+    118.3,
+    518.2,
+    127.9
+   ],
+   "size": 8.4,
+   "testo": "Dopo un rito di perdono, viene di nuovo considerato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    129.4,
+    377.4,
+    139.0
+   ],
+   "size": 8.4,
+   "testo": "senza macchia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.3,
+    140.2,
+    515.0,
+    149.9
+   ],
+   "size": 8.4,
+   "testo": "Se invece il personaggio viola il giuramento senza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    151.3,
+    525.2,
+    161.0
+   ],
+   "size": 8.4,
+   "testo": "pentirsene, parlane con il DM. Forse dovresti scegliere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    162.3,
+    517.9,
+    171.9
+   ],
+   "size": 8.4,
+   "testo": "una sottoclasse più adatta o persino abbandonare la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.4,
+    173.3,
+    468.4,
+    183.0
+   ],
+   "size": 8.4,
+   "testo": "classe del paladino in favore di un'altra.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    198.9,
+    479.7,
+    210.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: AURA DI CORAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    210.2,
+    526.3,
+    220.8
+   ],
+   "size": 8.8,
+   "testo": "Il paladino e i suoi alleati sono immuni alla paura finché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    221.2,
+    526.5,
+    231.8
+   ],
+   "size": 8.8,
+   "testo": "si trovano all'interno dell'Aura di Protezione. Se un alle­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    232.2,
+    537.6,
+    242.7
+   ],
+   "size": 8.8,
+   "testo": "ato spaventato entra nel suo raggio d'influenza, non subirà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    243.1,
+    501.8,
+    253.7
+   ],
+   "size": 8.8,
+   "testo": "più l'effetto della paura finché sarà al suo interno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    263.7,
+    454.4,
+    275.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: COLPI RADIOSI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    275.0,
+    532.4,
+    285.6
+   ],
+   "size": 8.8,
+   "testo": "I colpi del paladino ora possiedono poteri soprannaturali.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    286.1,
+    527.9,
+    296.7
+   ],
+   "size": 8.8,
+   "testo": "Quando colpisce un bersaglio con un tiro per colpire uti­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    297.1,
+    534.2,
+    307.7
+   ],
+   "size": 8.8,
+   "testo": "lizzando un'arma da mischia o un colpo senz'armi, questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    308.1,
+    450.7,
+    318.6
+   ],
+   "size": 8.8,
+   "testo": "subisce 1d8 danni radiosi aggiuntivi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    328.6,
+    490.5,
+    340.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: Tocco RIGENERANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    339.8,
+    520.9,
+    350.4
+   ],
+   "size": 8.8,
+   "testo": "Quando il paladino usa Imposizione delle Mani su una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    350.8,
+    506.5,
+    361.3
+   ],
+   "size": 8.8,
+   "testo": "creatura, può anche liberarla da una delle seguenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    361.7,
+    528.4,
+    372.3
+   ],
+   "size": 8.8,
+   "testo": "condizioni: accecato, affascinato, assordato, paralizzato,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    372.7,
+    519.7,
+    383.3
+   ],
+   "size": 8.8,
+   "testo": "spaventato o stordito. Per farlo, è necessario attingere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    383.8,
+    532.5,
+    394.4
+   ],
+   "size": 8.8,
+   "testo": "a 5 punti ferita della riserva curativa di Imposizione delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    394.8,
+    513.2,
+    405.3
+   ],
+   "size": 8.8,
+   "testo": "Mani per ognuna delle condizioni rimosse. Tuttavia,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    405.9,
+    516.1,
+    416.5
+   ],
+   "size": 8.8,
+   "testo": "i punti consumati non ripristinano i punti ferita della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    416.8,
+    345.7,
+    427.4
+   ],
+   "size": 8.8,
+   "testo": "creatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    437.2,
+    514.0,
+    448.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: AMPLIAMENTO DELL'AURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    448.6,
+    521.8,
+    459.2
+   ],
+   "size": 8.8,
+   "testo": "L'Aura di Protezione del paladino è ora un'emanazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    459.6,
+    350.4,
+    470.2
+   ],
+   "size": 8.8,
+   "testo": "di 9 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    480.1,
+    444.0,
+    491.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    491.5,
+    518.6,
+    502.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    502.5,
+    522.2,
+    513.1
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    506.5,
+    455.2,
+    524.7
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono della vista pura.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

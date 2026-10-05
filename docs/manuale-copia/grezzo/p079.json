@@ -1,0 +1,684 @@
+{
+ "pagina_pdf": 79,
+ "pagina_stampata": 76,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    313.0,
+    38.1,
+    532.1,
+    48.6
+   ],
+   "size": 8.8,
+   "testo": "Può utilizzare questo privilegio un numero di volte pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    49.1,
+    517.6,
+    59.7
+   ],
+   "size": 8.8,
+   "testo": "al suo modificatore di Saggezza (minimo di una volta).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    60.1,
+    529.3,
+    70.7
+   ],
+   "size": 8.8,
+   "testo": "Tutti gli utilizzi spesi vengono recuperati quando il perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    71.1,
+    437.0,
+    81.7
+   ],
+   "size": 8.8,
+   "testo": "naggio completa un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    91.5,
+    476.1,
+    102.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: FULGORE DELL'ALBA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    102.9,
+    532.3,
+    113.5
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, il chierico brandisce il suo simbolo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    113.9,
+    511.2,
+    124.4
+   ],
+   "size": 8.8,
+   "testo": "sacro e spende un utilizzo di Incanalare Divinità per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    124.9,
+    519.5,
+    135.4
+   ],
+   "size": 8.8,
+   "testo": "emettere un lampo di luce in un'emanazione di 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    135.9,
+    523.3,
+    146.5
+   ],
+   "size": 8.8,
+   "testo": "di cui egli stesso è il punto di origine. Qualsiasi oscurità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    146.9,
+    512.4,
+    157.6
+   ],
+   "size": 9.2,
+   "testo": "magica, come quella creata dall'incantesimo oscurità,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    157.9,
+    533.6,
+    168.5
+   ],
+   "size": 8.8,
+   "testo": "viene dissipata in quell'area. Inoltre, ogni creatura a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    169.0,
+    527.7,
+    179.5
+   ],
+   "size": 8.8,
+   "testo": "del chierico in quell'area deve effettuare un tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    179.9,
+    525.3,
+    190.5
+   ],
+   "size": 8.8,
+   "testo": "su Costituzione, subendo danni radiosi pari a 2d10 più il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    190.9,
+    525.8,
+    201.5
+   ],
+   "size": 8.8,
+   "testo": "livello da chierico in caso di fallimento, o la metà in caso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    202.0,
+    352.3,
+    212.6
+   ],
+   "size": 8.8,
+   "testo": "di successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    222.4,
+    512.2,
+    233.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL DOMINIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    233.3,
+    371.0,
+    244.6
+   ],
+   "size": 11.2,
+   "testo": "DELLA LUCE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    244.5,
+    511.0,
+    255.1
+   ],
+   "size": 8.8,
+   "testo": "La connessione con questo dominio divino permette",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    255.5,
+    513.4,
+    266.1
+   ],
+   "size": 8.8,
+   "testo": "al chierico di avere sempre pronti alcuni incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    266.6,
+    523.6,
+    277.1
+   ],
+   "size": 8.8,
+   "testo": "Quando il chierico raggiunge un livello specificato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    277.6,
+    534.1,
+    288.2
+   ],
+   "size": 8.8,
+   "testo": "tabella Incantesimi del Dominio della Luce, gli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    288.7,
+    474.0,
+    299.3
+   ],
+   "size": 8.8,
+   "testo": "lì elencati sono considerati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    311.3,
+    506.7,
+    322.0
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL DOMINIO DELLA LUCE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    326.1,
+    348.2,
+    336.8
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    337.0,
+    344.5,
+    347.7
+   ],
+   "size": 10.6,
+   "testo": "chierico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.5,
+    337.0,
+    436.9,
+    347.7
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi preparati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.5,
+    352.1,
+    331.0,
+    361.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.2,
+    352.6,
+    520.8,
+    361.8
+   ],
+   "size": 9.2,
+   "testo": "Mani brucianti, luminescenza, raggio rovente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    353.8,
+    364.5,
+    425.0,
+    373.7
+   ],
+   "size": 9.2,
+   "testo": "e vedere invisibilità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.5,
+    378.6,
+    331.0,
+    388.2
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.2,
+    377.5,
+    457.3,
+    388.3
+   ],
+   "size": 9.2,
+   "testo": "Luce diurna e palla difuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.5,
+    393.2,
+    331.2,
+    402.8
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.9,
+    393.7,
+    468.7,
+    402.9
+   ],
+   "size": 9.2,
+   "testo": "Occhio arcano e muro difuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.1,
+    407.9,
+    331.2,
+    417.5
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.3,
+    408.4,
+    451.6,
+    417.6
+   ],
+   "size": 9.2,
+   "testo": "Colpo infuocato e scrutare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    431.5,
+    513.4,
+    442.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: BAGLIORE DI INTERDIZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    442.3,
+    374.1,
+    453.6
+   ],
+   "size": 11.2,
+   "testo": "MIGLIORATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    453.6,
+    513.4,
+    464.2
+   ],
+   "size": 8.8,
+   "testo": "Quando completa un riposo breve o lungo, il chierico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    464.6,
+    529.8,
+    475.1
+   ],
+   "size": 8.8,
+   "testo": "recupera tutti gli utilizzi spesi di Bagliore di Interdizione.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    475.7,
+    529.7,
+    486.2
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ogni volta che usa Bagliore di Interdizione, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    486.6,
+    526.8,
+    497.2
+   ],
+   "size": 8.8,
+   "testo": "conferire al bersaglio dell'attacco innescante un numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    497.6,
+    522.6,
+    508.2
+   ],
+   "size": 8.8,
+   "testo": "di punti ferita temporanei pari a 2d6 più il suo modifica­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    508.7,
+    373.0,
+    519.3
+   ],
+   "size": 8.8,
+   "testo": "tore di Saggezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    529.1,
+    462.0,
+    540.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: CORONA DI LUCE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    540.5,
+    531.6,
+    551.1
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, il chierico può emettere un'aura di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    551.5,
+    535.0,
+    562.1
+   ],
+   "size": 8.8,
+   "testo": "luce solare che dura 1 minuto o finché non viene interrotta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    562.5,
+    533.5,
+    573.1
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta). Il chierico proietta luce intensa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    573.5,
+    509.4,
+    584.1
+   ],
+   "size": 8.8,
+   "testo": "in un raggio di 18 metri e luce fioca per altri 9 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    584.4,
+    512.4,
+    595.0
+   ],
+   "size": 8.8,
+   "testo": "I nemici che si trovano nella luce intensa dispongono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    595.5,
+    521.3,
+    606.1
+   ],
+   "size": 8.8,
+   "testo": "di svantaggio ai tiri salvezza contro il Fulgore dell'Alba",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    606.5,
+    532.9,
+    617.1
+   ],
+   "size": 8.8,
+   "testo": "e contro qualsiasi incantesimo che infligga danni da fuoco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    617.5,
+    342.5,
+    628.1
+   ],
+   "size": 8.8,
+   "testo": "o radiosi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    628.7,
+    507.5,
+    639.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può utilizzare questo privilegio un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    639.7,
+    513.1,
+    650.3
+   ],
+   "size": 8.8,
+   "testo": "numero di volte pari al valore del suo modificatore di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    650.7,
+    524.5,
+    661.2
+   ],
+   "size": 8.8,
+   "testo": "Saggezza (minimo una volta) e recupera tutti gli utilizzi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    661.7,
+    482.4,
+    672.2
+   ],
+   "size": 8.8,
+   "testo": "consumati quando completa un riposo lungo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

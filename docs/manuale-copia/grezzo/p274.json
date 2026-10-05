@@ -1,0 +1,1272 @@
+{
+ "pagina_pdf": 274,
+ "pagina_stampata": 271,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 271",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.1,
+    37.7,
+    276.6,
+    48.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore evoca degli spiriti dai Piani Elementali che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    48.7,
+    279.9,
+    59.3
+   ],
+   "size": 8.8,
+   "testo": "gli fluttuano attorno in un'emanazione di 4,5 metri per la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    59.7,
+    282.0,
+    70.3
+   ],
+   "size": 8.8,
+   "testo": "durata dell'incantesimo. Fino al termine dell'incantesimo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    70.7,
+    284.0,
+    81.3
+   ],
+   "size": 8.8,
+   "testo": "ogni attacco effettuato dall'incantatore infligge 2d8 danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    81.7,
+    262.8,
+    92.3
+   ],
+   "size": 8.8,
+   "testo": "extra quando colpisce una creatura nell'emanazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    92.7,
+    263.6,
+    103.3
+   ],
+   "size": 8.8,
+   "testo": "I danni inflitti sono da acido, freddo, fuoco o fulmine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    103.6,
+    257.1,
+    114.2
+   ],
+   "size": 8.8,
+   "testo": "(a scelta dell'incantatore quando effettua l'attacco).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    114.6,
+    272.9,
+    125.2
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, il terreno all'interno dell'emanazione diventa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    125.6,
+    167.4,
+    136.2
+   ],
+   "size": 8.8,
+   "testo": "terreno difficile per i nemici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    136.5,
+    284.7,
+    147.1
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    145.5,
+    274.6,
+    158.2
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 2d8 per ogni slot di livello superiore al 4°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    182.3,
+    148.8,
+    193.7
+   ],
+   "size": 11.2,
+   "testo": "EVOCA FOLLETTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    193.9,
+    171.3,
+    204.3
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di 6° livello (druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    209.5,
+    146.6,
+    219.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    220.5,
+    118.9,
+    230.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    231.5,
+    121.7,
+    241.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    242.5,
+    210.0,
+    252.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    258.7,
+    260.3,
+    269.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore evoca una spirito di taglia Media dalla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    269.8,
+    267.8,
+    280.4
+   ],
+   "size": 8.8,
+   "testo": "Selva Fatata in uno spazio libero entrogittata che è in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    280.8,
+    275.5,
+    291.4
+   ],
+   "size": 8.8,
+   "testo": "grado di vedere. Lo spirito permane per la durata dell'in­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    291.8,
+    285.3,
+    302.4
+   ],
+   "size": 8.8,
+   "testo": "cantesimo e ha le sembianze di una creatura fatata a scelta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    302.8,
+    275.2,
+    313.4
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore. Quando lo spirito appare, l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    313.8,
+    264.7,
+    324.4
+   ],
+   "size": 8.8,
+   "testo": "può effettuare un attacco in mischia con incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    324.7,
+    265.5,
+    335.3
+   ],
+   "size": 8.8,
+   "testo": "contro una creatura entro 1,5 metri dallo spirito. Se il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    335.7,
+    272.7,
+    346.2
+   ],
+   "size": 8.8,
+   "testo": "colpo va a segno, il bersaglio subisce danni psichici pari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    346.8,
+    278.9,
+    357.3
+   ],
+   "size": 8.8,
+   "testo": "a 3d12 più il modificatore di caratteristica da incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    357.7,
+    265.8,
+    368.2
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore. Inoltre, il bersaglio è spaventato fino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    368.6,
+    259.3,
+    379.2
+   ],
+   "size": 8.8,
+   "testo": "all'inizio del turno successivo, con l'incantatore e lo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    379.7,
+    188.8,
+    390.2
+   ],
+   "size": 8.8,
+   "testo": "spirito come fonti della sua paura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    390.7,
+    275.6,
+    401.2
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus nei suoi turni successivi, l'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    401.7,
+    283.2,
+    412.3
+   ],
+   "size": 8.8,
+   "testo": "tore può teletrasportare lo spirito in uno spazio libero che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    412.8,
+    271.0,
+    423.3
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere, a una distanza massima di 9 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    423.8,
+    274.2,
+    434.4
+   ],
+   "size": 8.8,
+   "testo": "dal punto in cui si trovava prima, ed effettuare l'attacco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    434.8,
+    246.6,
+    445.3
+   ],
+   "size": 8.8,
+   "testo": "contro una creatura entro 1,5 metri dallo spirito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    445.7,
+    284.5,
+    456.2
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    454.6,
+    278.2,
+    467.3
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 2d12 per ogni slot di livello superiore al 6°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    491.4,
+    186.0,
+    502.7
+   ],
+   "size": 11.2,
+   "testo": "EVOCA PIOGGIA DI ARMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    502.9,
+    170.6,
+    513.4
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi5°livello (ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    518.5,
+    146.5,
+    528.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    529.6,
+    118.9,
+    539.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 45 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    540.6,
+    263.1,
+    550.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un'arma da mischia o a distanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    551.5,
+    163.5,
+    561.1
+   ],
+   "size": 8.4,
+   "testo": "del valore di almeno 1 mr)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    562.5,
+    127.1,
+    572.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    578.8,
+    247.9,
+    589.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore brandisce l'arma usata per lanciare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    589.8,
+    275.8,
+    600.3
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo e sceglie un punto entro gittata. Centinaia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    600.7,
+    259.0,
+    611.3
+   ],
+   "size": 8.8,
+   "testo": "di armi spettrali simili (o munizioni adatte all'arma)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    612.0,
+    278.4,
+    622.5
+   ],
+   "size": 8.8,
+   "testo": "ricadono a raffica e poi scompaiono. Ogni creatura scelta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    623.0,
+    275.1,
+    633.5
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore, e che l'incantatore è in grado di vedere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    634.0,
+    256.6,
+    644.5
+   ],
+   "size": 8.8,
+   "testo": "in un cilindro del raggio di 12 metri e dell'altezza di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    644.9,
+    270.6,
+    655.5
+   ],
+   "size": 8.8,
+   "testo": "6 metri, centrato su un punto, effettua un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    655.9,
+    273.4,
+    666.5
+   ],
+   "size": 8.8,
+   "testo": "su Destrezza. La creaturasubisce 8d8 danni da forza in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    666.9,
+    280.9,
+    677.5
+   ],
+   "size": 8.8,
+   "testo": "caso di fallimento, o la metà dei danni in caso di successo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    53.1,
+    394.7,
+    64.5
+   ],
+   "size": 11.2,
+   "testo": "EVOCA RAFFICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    64.7,
+    424.0,
+    75.1
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi3° livello (ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    80.2,
+    399.7,
+    89.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    91.2,
+    383.2,
+    100.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    101.1,
+    516.2,
+    111.8
+   ],
+   "size": 8.8,
+   "testo": "Componenti: V, S, M (un'arma da mischia o a distanza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    113.1,
+    416.7,
+    122.8
+   ],
+   "size": 8.4,
+   "testo": "del valore di almeno 1 mr)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    124.2,
+    380.3,
+    133.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    140.4,
+    517.2,
+    150.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore brandisce l'arma utilizzata per lanciare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    151.4,
+    529.9,
+    162.0
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo ed evoca armi spettrali simili (o munizioni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    162.4,
+    532.3,
+    173.0
+   ],
+   "size": 8.8,
+   "testo": "adatte all'arma) che schizzano in avanti e poi spariscono.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    173.4,
+    530.5,
+    184.0
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura scelta dall'incantatore, e che l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    184.5,
+    534.7,
+    195.0
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere entro un cono di 18 metri, effettua un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    195.4,
+    534.3,
+    206.0
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Destrezza, subendo 5d8 danni da forza in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    206.5,
+    533.8,
+    217.0
+   ],
+   "size": 8.8,
+   "testo": "caso di fallimento, o la metà dei danni in caso di successo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.2,
+    217.5,
+    537.2,
+    228.0
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    226.3,
+    525.5,
+    239.0
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d8 per ogni slot di livello superiore al 3°.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    263.2,
+    507.0,
+    274.5
+   ],
+   "size": 11.2,
+   "testo": "EVOCAZIONI ISTANTANEE DI DRAWMIJ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    274.7,
+    419.8,
+    285.1
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di 6° livello (mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    290.2,
+    442.6,
+    299.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    301.3,
+    372.4,
+    310.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    312.2,
+    536.1,
+    321.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (uno zaffiro del valore di 1.000 mo o più)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    323.2,
+    435.1,
+    332.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: finché non viene dissolto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    339.4,
+    510.9,
+    350.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca lo zaffiro utilizzato per lanciare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    350.4,
+    533.8,
+    360.9
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo e un oggetto del peso pari o inferiore a 5 kg",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    361.3,
+    536.6,
+    371.9
+   ],
+   "size": 8.8,
+   "testo": "e la cui dimensione più lunga sia pari o inferiore a 1,8 metri.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    372.3,
+    527.8,
+    382.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo imprime un marchio invisibile su quell'og­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    383.4,
+    515.7,
+    394.0
+   ],
+   "size": 8.8,
+   "testo": "getto e traccia in modo invisibile il nome dell'oggetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    394.4,
+    523.1,
+    405.0
+   ],
+   "size": 8.8,
+   "testo": "sullo zaffiro. Ogni volta che l'incantatore lancia questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    405.5,
+    497.5,
+    416.0
+   ],
+   "size": 8.8,
+   "testo": "incantesimo, deve utilizzare uno zaffiro diverso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    416.5,
+    536.1,
+    427.1
+   ],
+   "size": 8.8,
+   "testo": "Successivamente, l'incantatore può effettuare un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    427.5,
+    525.4,
+    438.1
+   ],
+   "size": 8.8,
+   "testo": "di Magia per pronunciare il nome dell'oggetto e distrug­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    438.4,
+    521.6,
+    449.0
+   ],
+   "size": 8.8,
+   "testo": "gere lo zaffiro. L'oggetto appare immediatamente nella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    449.4,
+    535.6,
+    460.0
+   ],
+   "size": 8.8,
+   "testo": "mano dell'incantatore, a prescindere dalle distanze fisiche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    460.4,
+    438.7,
+    471.0
+   ],
+   "size": 8.8,
+   "testo": "o planari e l'incantesimo termina.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    471.4,
+    513.0,
+    482.0
+   ],
+   "size": 8.8,
+   "testo": "Se un'altra creatura impugna o trasporta l'oggetto,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    482.3,
+    522.8,
+    492.9
+   ],
+   "size": 8.8,
+   "testo": "la distruzione dello zaffiro non comporta l'apparizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    493.4,
+    518.9,
+    504.0
+   ],
+   "size": 8.8,
+   "testo": "dell'oggetto, ma l'incantatore apprende invece chi è la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    504.5,
+    491.9,
+    515.0
+   ],
+   "size": 8.8,
+   "testo": "creatura in suo possesso e l'ubicazione attuale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    539.3,
+    373.4,
+    550.6
+   ],
+   "size": 11.2,
+   "testo": "FABBRICARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    550.8,
+    432.3,
+    561.2
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi4° livello (mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    566.3,
+    410.0,
+    575.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    577.3,
+    372.1,
+    586.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    588.2,
+    374.4,
+    597.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    599.3,
+    379.9,
+    608.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    615.6,
+    521.3,
+    626.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore converte materie prime in prodotti dello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    626.7,
+    531.5,
+    637.2
+   ],
+   "size": 8.8,
+   "testo": "stesso materiale. Per esempio, può fabbricare un ponte di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    637.6,
+    535.0,
+    648.2
+   ],
+   "size": 8.8,
+   "testo": "legno da una catasta di tronchi, una corda da un groviglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    648.7,
+    430.1,
+    659.2
+   ],
+   "size": 8.8,
+   "testo": "di canapa o abiti da lino o lana.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    659.7,
+    522.7,
+    670.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie materie prime entro gittata che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    670.6,
+    527.7,
+    681.2
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere e, qualora ne possegga una quantità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    681.6,
+    520.3,
+    692.2
+   ],
+   "size": 8.8,
+   "testo": "sufficiente, può fabbricare un oggetto di taglia Grande",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    692.6,
+    523.2,
+    703.2
+   ],
+   "size": 8.8,
+   "testo": "o inferiore (contenuto in un cubo con spigolo di 3 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    703.6,
+    522.3,
+    714.1
+   ],
+   "size": 8.8,
+   "testo": "o in otto cubi con spigolo di 1,5 metri collegati tra loro).",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

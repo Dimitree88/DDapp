@@ -1,0 +1,727 @@
+{
+ "pagina_pdf": 161,
+ "pagina_stampata": 158,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   -1,
+   291,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    304.7,
+    36.7,
+    466.1,
+    48.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: DIFESE PSICHICHE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    48.1,
+    529.0,
+    58.6
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone ottiene resistenza ai danni psichici e dispone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    59.2,
+    505.3,
+    69.8
+   ],
+   "size": 8.8,
+   "testo": "di vantaggio sui tiri salvezza eseguiti per evitare di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    70.2,
+    521.0,
+    80.7
+   ],
+   "size": 8.8,
+   "testo": "essere affascinato o spaventato, o per terminare queste",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    81.1,
+    350.3,
+    91.7
+   ],
+   "size": 8.8,
+   "testo": "condizioni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    101.6,
+    495.2,
+    113.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: STREGONERIA PSIONICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    110.9,
+    527.9,
+    123.5
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio lancia un incantesimo di 1° livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    123.9,
+    508.1,
+    134.5
+   ],
+   "size": 8.8,
+   "testo": "o superiore dalla lista del suo privilegio Incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    135.0,
+    524.3,
+    145.6
+   ],
+   "size": 8.8,
+   "testo": "psionici, può farlo sia normalmente, spendendo uno slot",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    146.0,
+    527.4,
+    156.5
+   ],
+   "size": 8.8,
+   "testo": "incantesimo, sia spendendo un numero di punti stregone­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    157.0,
+    530.3,
+    167.6
+   ],
+   "size": 8.8,
+   "testo": "ria pari al livello dell'incantesimo. Se lancia l'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    168.0,
+    534.5,
+    178.6
+   ],
+   "size": 8.8,
+   "testo": "usando punti stregoneria, questo non richiede componenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    179.0,
+    527.8,
+    189.6
+   ],
+   "size": 8.8,
+   "testo": "verbali, somatiche o materiali, fatta eccezione per le com­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    190.0,
+    514.0,
+    200.6
+   ],
+   "size": 8.8,
+   "testo": "ponenti materiali consumate dall'incantesimo o il cui",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    201.1,
+    463.1,
+    211.6
+   ],
+   "size": 8.8,
+   "testo": "costo è specificato nella sua descrizione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    221.5,
+    520.4,
+    232.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: RIVELAZIONE DELLA CARNE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    232.9,
+    527.3,
+    243.5
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone può scatenare l'orrida verità che cela dentro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    243.9,
+    511.0,
+    254.5
+   ],
+   "size": 8.8,
+   "testo": "di sé. Come azione bonus, può spendere 1 o più punti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    254.9,
+    534.0,
+    265.5
+   ],
+   "size": 8.8,
+   "testo": "stregoneria per trasformare magicamente il proprio corpo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    265.9,
+    524.9,
+    276.5
+   ],
+   "size": 8.8,
+   "testo": "per 10 minuti. Ogni punto stregoneria speso consente di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    277.0,
+    521.4,
+    287.6
+   ],
+   "size": 8.8,
+   "testo": "ottenere uno dei seguenti benefici (a scelta), i cui effetti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    288.0,
+    479.9,
+    298.6
+   ],
+   "size": 8.8,
+   "testo": "durano fino al termine della trasformazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    299.0,
+    534.8,
+    309.6
+   ],
+   "size": 8.8,
+   "testo": "Adattamento acquatico. Lo stregone ottiene una velocità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    310.0,
+    528.2,
+    320.6
+   ],
+   "size": 8.8,
+   "testo": "di nuoto pari al doppio della sua velocità base sul terreno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    321.0,
+    531.2,
+    331.6
+   ],
+   "size": 8.8,
+   "testo": "e può respirare sott'acqua. Inoltre, gli crescono delle bran­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    332.1,
+    519.3,
+    342.6
+   ],
+   "size": 8.8,
+   "testo": "chie sul collo o dietro le orecchie, le sue dita diventano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    342.9,
+    516.8,
+    353.5
+   ],
+   "size": 8.8,
+   "testo": "palmate o sviluppano delle protuberanze mobili simili",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    353.9,
+    336.1,
+    364.5
+   ],
+   "size": 8.8,
+   "testo": "a ciglia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    365.0,
+    534.2,
+    375.6
+   ],
+   "size": 8.8,
+   "testo": "Movimento invertebrato. Il corpo dello stregone, assieme",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    376.0,
+    513.2,
+    386.5
+   ],
+   "size": 8.8,
+   "testo": "a tutto l'equipaggiamento che indossa o porta con sé,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    387.0,
+    530.2,
+    397.5
+   ],
+   "size": 8.8,
+   "testo": "diventa viscido e flessibile. Può muoversi attraverso spazi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    398.0,
+    523.9,
+    408.6
+   ],
+   "size": 8.8,
+   "testo": "stretti fino a 2,5 centimetri e spendere 1,5 metri di movi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    409.1,
+    521.1,
+    419.7
+   ],
+   "size": 8.8,
+   "testo": "mento per liberarsi da qualsiasi costrizione non magica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    420.0,
+    392.9,
+    430.6
+   ],
+   "size": 8.8,
+   "testo": "o dall'essere afferrato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    431.0,
+    527.1,
+    441.6
+   ],
+   "size": 8.8,
+   "testo": "Vedere l'invisibile. Lo stregone può vedere tutte le crea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    442.0,
+    524.2,
+    452.6
+   ],
+   "size": 8.8,
+   "testo": "ture invisibili entro 18 metri da sé, purché non siano die­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    453.0,
+    531.8,
+    463.5
+   ],
+   "size": 8.8,
+   "testo": "tro copertura totale. I suoi occhi diventano neri o mutano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    463.9,
+    383.1,
+    474.5
+   ],
+   "size": 8.8,
+   "testo": "in tentacoli sensori.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    475.0,
+    516.9,
+    485.5
+   ],
+   "size": 8.8,
+   "testo": "Volo scintillante. Lo stregone ottiene una velocità di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    486.0,
+    531.9,
+    496.6
+   ],
+   "size": 8.8,
+   "testo": "volo pari alla sua velocità base sul terreno e può fluttuare.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    496.9,
+    508.5,
+    507.5
+   ],
+   "size": 8.8,
+   "testo": "Mentre vola, la sua pelle si ricopre di muco brillante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    508.0,
+    415.8,
+    518.5
+   ],
+   "size": 8.8,
+   "testo": "o splende di luce innaturale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    528.5,
+    512.5,
+    539.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: IMPLOSIONE DISTORCENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    539.8,
+    509.3,
+    550.4
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone può scatenare un'anomalia che altera lo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    550.9,
+    514.1,
+    561.5
+   ],
+   "size": 8.8,
+   "testo": "spazio. Come azione di Magia, può teletrasportarsi in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    561.9,
+    510.1,
+    572.4
+   ],
+   "size": 8.8,
+   "testo": "qualsiasi spazio libero che è in grado di vedere entro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    572.9,
+    515.3,
+    583.4
+   ],
+   "size": 8.8,
+   "testo": "36 metri da sé. Non appena svanisce, tutte le creature",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    583.8,
+    518.4,
+    594.4
+   ],
+   "size": 8.8,
+   "testo": "entro 9 metri dallo spazio che ha abbandonato devono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    594.8,
+    525.7,
+    605.4
+   ],
+   "size": 8.8,
+   "testo": "effettuare un tiro salvezza su Forza contro la sua CD del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    605.9,
+    526.7,
+    616.5
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza sull'incantesimo. Ogni creatura che fallisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    616.9,
+    517.3,
+    627.5
+   ],
+   "size": 8.8,
+   "testo": "il tiro subisce 3d10 danni da forza e viene spinta verso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    628.0,
+    511.2,
+    638.5
+   ],
+   "size": 8.8,
+   "testo": "lo spazio abbandonato dallo stregone, terminando in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    639.0,
+    527.3,
+    649.6
+   ],
+   "size": 8.8,
+   "testo": "uno spazio libero quanto più adiacente possibile a quello.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    650.0,
+    511.8,
+    660.6
+   ],
+   "size": 8.8,
+   "testo": "In caso di successo, le creature interessate subiscono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    661.0,
+    423.9,
+    671.5
+   ],
+   "size": 8.8,
+   "testo": "soltanto la metà di quei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    671.9,
+    522.6,
+    682.5
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    683.0,
+    509.5,
+    693.6
+   ],
+   "size": 8.8,
+   "testo": "può riutilizzarlo prima di aver completato un riposo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    694.0,
+    510.1,
+    704.5
+   ],
+   "size": 8.8,
+   "testo": "lungo; può ignorare questo limite spendendo 5 punti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    705.0,
+    456.7,
+    715.5
+   ],
+   "size": 8.8,
+   "testo": "stregoneria (nessuna azione richiesta).",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

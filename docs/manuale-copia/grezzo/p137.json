@@ -1,0 +1,1963 @@
+{
+ "pagina_pdf": 137,
+ "pagina_stampata": 134,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "134 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [
+  [
+   293,
+   -1,
+   589,
+   331
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    52.5,
+    38.6,
+    215.9,
+    51.7
+   ],
+   "size": 9.7,
+   "testo": "LISTA DEGLI INCANTESIMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    53.8,
+    137.4,
+    66.9
+   ],
+   "size": 9.7,
+   "testo": "DA PALADINO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    70.1,
+    273.3,
+    80.7
+   ],
+   "size": 8.8,
+   "testo": "In questa sezione si trova la lista degli incantesimi del pala­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    81.1,
+    274.8,
+    91.7
+   ],
+   "size": 8.8,
+   "testo": "dino. Gli incantesimi sono ordinati prima per livello dell'in­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    92.1,
+    272.3,
+    102.7
+   ],
+   "size": 8.8,
+   "testo": "cantesimo e poi in ordine alfabetico, insieme alla scuola di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    103.1,
+    279.1,
+    113.7
+   ],
+   "size": 8.8,
+   "testo": "magia per ciascuna voce dell'elenco. Nella colonna Speciale,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    114.1,
+    263.3,
+    124.7
+   ],
+   "size": 8.8,
+   "testo": "C significa che l'incantesimo richiede concentrazione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    125.1,
+    268.1,
+    135.7
+   ],
+   "size": 8.8,
+   "testo": "R indica che è un rituale, mentre M segnala la necessità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    136.1,
+    205.4,
+    146.7
+   ],
+   "size": 8.8,
+   "testo": "di una specifica componente materiale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    158.8,
+    260.1,
+    169.5
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA PALADINO DI 1 °LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    173.7,
+    105.5,
+    184.4
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    189.9,
+    101.9,
+    199.1
+   ],
+   "size": 9.2,
+   "testo": "Benedizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    204.7,
+    93.1,
+    213.9
+   ],
+   "size": 9.2,
+   "testo": "Comando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    219.2,
+    96.1,
+    228.4
+   ],
+   "size": 9.2,
+   "testo": "Curaferite",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    233.7,
+    118.3,
+    242.9
+   ],
+   "size": 9.2,
+   "testo": "Duello obbligato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    248.3,
+    87.4,
+    257.5
+   ],
+   "size": 9.2,
+   "testo": "Eroismo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    262.9,
+    106.2,
+    272.1
+   ],
+   "size": 9.2,
+   "testo": "Favore divino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.6,
+    173.7,
+    213.6,
+    184.4
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.4,
+    173.7,
+    282.0,
+    184.4
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    185.1,
+    189.5,
+    245.4,
+    199.1
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.2,
+    189.5,
+    273.5,
+    199.1
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    185.1,
+    204.2,
+    245.4,
+    213.8
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.1,
+    218.8,
+    233.4,
+    228.4
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.1,
+    233.3,
+    245.3,
+    242.9
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.1,
+    247.9,
+    245.3,
+    257.5
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.0,
+    262.4,
+    244.3,
+    272.1
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.5,
+    233.7,
+    267.3,
+    242.8
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    260.5,
+    248.4,
+    267.3,
+    257.4
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    277.1,
+    232.9,
+    286.7
+   ],
+   "size": 9.2,
+   "testo": "Individuazione del bene e del male Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.5,
+    277.0,
+    267.6,
+    286.6
+   ],
+   "size": 8.4,
+   "testo": "C",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    292.3,
+    152.5,
+    301.5
+   ],
+   "size": 9.2,
+   "testo": "Individuazione del magico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.8,
+    291.7,
+    232.9,
+    301.3
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    291.6,
+    272.7,
+    301.2
+   ],
+   "size": 8.4,
+   "testo": "C, R",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    306.7,
+    163.1,
+    315.9
+   ],
+   "size": 9.2,
+   "testo": "Individuazione delle malattie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.8,
+    306.2,
+    232.9,
+    315.9
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    306.2,
+    272.7,
+    315.9
+   ],
+   "size": 8.4,
+   "testo": "C, R",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    318.6,
+    98.2,
+    327.8
+   ],
+   "size": 9.2,
+   "testo": "e dei veleni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    333.2,
+    168.8,
+    342.4
+   ],
+   "size": 9.2,
+   "testo": "Protezione dal bene e dal male",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    347.8,
+    125.5,
+    357.0
+   ],
+   "size": 9.2,
+   "testo": "Punizione collerica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    362.4,
+    117.6,
+    371.6
+   ],
+   "size": 9.2,
+   "testo": "Punizione divina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    377.0,
+    146.9,
+    386.2
+   ],
+   "size": 9.2,
+   "testo": "Punizione incandescente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    391.5,
+    124.4,
+    400.7
+   ],
+   "size": 9.2,
+   "testo": "Punizione tonante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    406.3,
+    147.8,
+    415.5
+   ],
+   "size": 9.2,
+   "testo": "Purificare cibo e bevande",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    420.8,
+    116.5,
+    430.0
+   ],
+   "size": 9.2,
+   "testo": "Scudo dellafede",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.0,
+    332.7,
+    233.3,
+    342.4
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.7,
+    347.3,
+    238.5,
+    356.9
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.7,
+    361.9,
+    233.5,
+    371.5
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.7,
+    376.4,
+    233.5,
+    386.1
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.7,
+    391.0,
+    233.4,
+    400.7
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.8,
+    405.8,
+    244.1,
+    415.4
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.8,
+    420.3,
+    233.3,
+    429.9
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.1,
+    332.8,
+    273.3,
+    342.4
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    261.2,
+    405.7,
+    267.4,
+    415.3
+   ],
+   "size": 8.4,
+   "testo": "R",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    260.4,
+    420.8,
+    267.2,
+    429.8
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    444.5,
+    259.9,
+    455.1
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA PALADINO DI 2° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    459.1,
+    105.2,
+    469.8
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    474.7,
+    77.7,
+    483.9
+   ],
+   "size": 9.2,
+   "testo": "Aiuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    489.2,
+    106.8,
+    498.4
+   ],
+   "size": 9.2,
+   "testo": "Arma magica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    503.7,
+    121.6,
+    512.9
+   ],
+   "size": 9.2,
+   "testo": "Localizza oggetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    518.4,
+    141.7,
+    527.6
+   ],
+   "size": 9.2,
+   "testo": "Preghiera di guarigione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    533.0,
+    133.1,
+    542.2
+   ],
+   "size": 9.2,
+   "testo": "Protezione dai veleni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    547.6,
+    134.5,
+    556.8
+   ],
+   "size": 9.2,
+   "testo": "Punizione splendente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    562.2,
+    115.5,
+    571.4
+   ],
+   "size": 9.2,
+   "testo": "Riposo inviolato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    576.6,
+    121.8,
+    585.8
+   ],
+   "size": 9.2,
+   "testo": "Ristorare inferiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    591.2,
+    122.0,
+    600.4
+   ],
+   "size": 9.2,
+   "testo": "Trova cavalcatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    605.8,
+    138.6,
+    615.0
+   ],
+   "size": 9.2,
+   "testo": "Vincolo di interdizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    620.4,
+    108.1,
+    629.6
+   ],
+   "size": 9.2,
+   "testo": "Zona di verità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.3,
+    459.2,
+    213.2,
+    469.8
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.8,
+    474.2,
+    233.2,
+    483.8
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.6,
+    488.8,
+    243.9,
+    498.4
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.6,
+    503.3,
+    232.7,
+    513.0
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.7,
+    518.0,
+    233.1,
+    527.6
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.7,
+    532.5,
+    233.2,
+    542.1
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.6,
+    547.1,
+    244.0,
+    556.7
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.6,
+    561.7,
+    238.3,
+    571.3
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.7,
+    576.2,
+    233.0,
+    585.8
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.4,
+    590.7,
+    230.5,
+    600.4
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.7,
+    605.3,
+    233.0,
+    614.9
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.6,
+    620.0,
+    244.5,
+    629.6
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.4,
+    459.2,
+    281.6,
+    469.9
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    260.3,
+    503.8,
+    267.0,
+    512.9
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    260.3,
+    547.6,
+    267.0,
+    556.6
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    254.5,
+    561.6,
+    273.0,
+    571.3
+   ],
+   "size": 8.4,
+   "testo": "R, M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.6,
+    605.3,
+    267.9,
+    614.9
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    644.2,
+    259.0,
+    654.9
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA PALADINO DI 3° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    658.9,
+    104.8,
+    669.6
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.1,
+    659.0,
+    213.0,
+    669.6
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    674.5,
+    119.7,
+    683.7
+   ],
+   "size": 9.2,
+   "testo": "Arma elementale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.4,
+    674.0,
+    243.6,
+    683.7
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    689.0,
+    111.7,
+    698.2
+   ],
+   "size": 9.2,
+   "testo": "Aura di vitalità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.5,
+    688.5,
+    232.9,
+    698.1
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    703.5,
+    113.2,
+    712.7
+   ],
+   "size": 9.2,
+   "testo": "Cerchio magico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.6,
+    703.1,
+    232.9,
+    712.7
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    718.1,
+    128.6,
+    727.3
+   ],
+   "size": 9.2,
+   "testo": "Creare cibo e acqua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.3,
+    717.6,
+    230.3,
+    727.3
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.1,
+    659.0,
+    281.3,
+    669.6
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    260.2,
+    674.5,
+    266.9,
+    683.5
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    260.1,
+    689.0,
+    266.8,
+    698.0
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.5,
+    703.1,
+    267.8,
+    712.7
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    346.8,
+    357.7,
+    357.5
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    362.4,
+    362.1,
+    371.6
+   ],
+   "size": 9.2,
+   "testo": "Dissolvi magie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    377.0,
+    353.1,
+    386.2
+   ],
+   "size": 9.2,
+   "testo": "Luce diurna",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    391.6,
+    379.4,
+    400.8
+   ],
+   "size": 9.2,
+   "testo": "Manto del crociato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    406.3,
+    384.6,
+    415.5
+   ],
+   "size": 9.2,
+   "testo": "Punizione accecante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    420.8,
+    386.8,
+    430.0
+   ],
+   "size": 9.2,
+   "testo": "Rimuovi maledizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    435.4,
+    343.4,
+    444.6
+   ],
+   "size": 9.2,
+   "testo": "Rinascita",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.4,
+    346.9,
+    465.6,
+    357.6
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.5,
+    362.0,
+    485.9,
+    371.6
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.4,
+    376.6,
+    485.9,
+    386.2
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.4,
+    391.2,
+    496.7,
+    400.8
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.4,
+    405.9,
+    486.0,
+    415.6
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.5,
+    420.4,
+    485.7,
+    430.1
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.3,
+    435.0,
+    490.9,
+    444.6
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.0,
+    347.0,
+    533.9,
+    357.6
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    512.9,
+    391.7,
+    519.6,
+    400.7
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    512.1,
+    435.0,
+    520.4,
+    444.6
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    459.1,
+    513.6,
+    469.7
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA PALADINO DI 4° LIVELLO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    473.8,
+    357.6,
+    484.4
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.0,
+    473.9,
+    465.8,
+    484.6
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.7,
+    473.9,
+    533.8,
+    484.6
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    489.3,
+    367.2,
+    498.5
+   ],
+   "size": 9.2,
+   "testo": "Aura di purezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.4,
+    488.9,
+    485.7,
+    498.5
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.8,
+    489.4,
+    519.5,
+    498.5
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    503.9,
+    352.3,
+    513.1
+   ],
+   "size": 9.2,
+   "testo": "Aura di vita",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.4,
+    503.5,
+    485.7,
+    513.1
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.8,
+    504.0,
+    519.5,
+    513.0
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    518.5,
+    328.7,
+    527.7
+   ],
+   "size": 9.2,
+   "testo": "Esilio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.4,
+    518.1,
+    485.7,
+    527.8
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.7,
+    518.7,
+    519.4,
+    527.8
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    533.1,
+    393.6,
+    542.3
+   ],
+   "size": 9.2,
+   "testo": "Interdizione alla morte",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.4,
+    532.7,
+    485.6,
+    542.3
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    547.7,
+    376.3,
+    556.9
+   ],
+   "size": 9.2,
+   "testo": "Localizza creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.2,
+    547.3,
+    485.2,
+    556.9
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.8,
+    547.8,
+    519.5,
+    556.8
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    562.2,
+    404.7,
+    571.4
+   ],
+   "size": 9.2,
+   "testo": "Punizione demoralizzante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.4,
+    561.8,
+    497.6,
+    571.4
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    585.9,
+    512.3,
+    596.5
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA PALADINO DI 5° LIVELLO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    600.6,
+    357.5,
+    611.3
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.8,
+    600.7,
+    465.7,
+    611.3
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.5,
+    600.8,
+    533.8,
+    611.4
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    616.2,
+    370.9,
+    625.4
+   ],
+   "size": 9.2,
+   "testo": "Cerchio di potere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.3,
+    615.8,
+    485.6,
+    625.5
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.6,
+    616.4,
+    519.3,
+    625.4
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    630.9,
+    350.5,
+    640.1
+   ],
+   "size": 9.2,
+   "testo": "Costrizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.3,
+    630.5,
+    497.5,
+    640.1
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    645.4,
+    396.2,
+    654.6
+   ],
+   "size": 9.2,
+   "testo": "Dissolvi il bene e il male",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.3,
+    645.0,
+    485.6,
+    654.6
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.6,
+    645.6,
+    519.3,
+    654.6
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    660.0,
+    370.6,
+    669.2
+   ],
+   "size": 9.2,
+   "testo": "Onda distruttiva",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.2,
+    659.6,
+    485.7,
+    669.2
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    674.6,
+    378.0,
+    683.8
+   ],
+   "size": 9.2,
+   "testo": "Punizione esiliante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.0,
+    674.2,
+    482.9,
+    683.8
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.6,
+    674.7,
+    519.3,
+    683.8
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    689.1,
+    370.8,
+    698.3
+   ],
+   "size": 9.2,
+   "testo": "Rianimare morti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.0,
+    688.7,
+    490.6,
+    698.3
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    511.8,
+    688.8,
+    520.1,
+    698.4
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    703.7,
+    379.8,
+    712.9
+   ],
+   "size": 9.2,
+   "testo": "Richiama celestiale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.0,
+    703.3,
+    482.8,
+    712.9
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    506.2,
+    703.3,
+    525.3,
+    712.9
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    718.2,
+    377.2,
+    727.4
+   ],
+   "size": 9.2,
+   "testo": "Ristorare superiore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.2,
+    717.8,
+    485.7,
+    727.5
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    511.8,
+    717.9,
+    520.1,
+    727.5
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

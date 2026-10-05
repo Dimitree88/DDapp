@@ -1,0 +1,1200 @@
+{
+ "pagina_pdf": 231,
+ "pagina_stampata": 228,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "228 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.1,
+    36.2,
+    267.9,
+    46.8
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Destrezza (CD 8 più il modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    47.2,
+    270.0,
+    57.8
+   ],
+   "size": 8.8,
+   "testo": "di Destrezza e il bonus di competenza del personaggio),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    58.3,
+    274.2,
+    68.9
+   ],
+   "size": 8.8,
+   "testo": "altrimenti sarà trattenuto finché non riuscirà a liberarsi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    69.3,
+    259.3,
+    79.8
+   ],
+   "size": 8.8,
+   "testo": "Se il bersaglio è di taglia Enorme o superiore, supera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    80.3,
+    159.0,
+    90.9
+   ],
+   "size": 8.8,
+   "testo": "automaticamente la prova.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    91.3,
+    273.3,
+    101.8
+   ],
+   "size": 8.8,
+   "testo": "Per fuggire, il bersaglio o una creatura entro 1,5 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    102.2,
+    269.7,
+    112.8
+   ],
+   "size": 8.8,
+   "testo": "da lui deve effettuare un'azione per eseguire una prova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    113.2,
+    279.1,
+    123.8
+   ],
+   "size": 8.8,
+   "testo": "di Forza (Atletica) con CD 10, liberando la creatura tratte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    117.1,
+    277.3,
+    135.3
+   ],
+   "size": 8.8,
+   "testo": "nuta in caso di successo. È possibile ottenere il medesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    135.2,
+    262.0,
+    145.8
+   ],
+   "size": 8.8,
+   "testo": "risultato distruggendo la rete (CA 10; 5 PF; immunità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    146.2,
+    218.4,
+    156.8
+   ],
+   "size": 8.8,
+   "testo": "a danni contundenti, da veleno e psichici).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    181.0,
+    123.9,
+    192.4
+   ],
+   "size": 11.2,
+   "testo": "SACCO (1 MR)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    192.4,
+    278.0,
+    202.9
+   ],
+   "size": 8.8,
+   "testo": "Un sacco può contenere fino a 15 chilogrammi all'interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    203.5,
+    202.6,
+    214.1
+   ],
+   "size": 8.8,
+   "testo": "di 1 cubo con spigolo di 30 centimetri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    238.2,
+    165.8,
+    249.5
+   ],
+   "size": 11.2,
+   "testo": "SCALA A PIOLI (1 MA)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    249.6,
+    268.7,
+    260.1
+   ],
+   "size": 8.8,
+   "testo": "Una scala a pioli è alta 3 metri. Per scendere dalla scala",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    260.6,
+    187.4,
+    271.1
+   ],
+   "size": 8.8,
+   "testo": "o salirci è necessario arrampicarsi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    295.4,
+    136.6,
+    306.8
+   ],
+   "size": 11.2,
+   "testo": "SECCHIO (5 MR)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    306.8,
+    243.1,
+    317.3
+   ],
+   "size": 8.8,
+   "testo": "Un secchio ha una capacità di 1 cubo con spigolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    317.7,
+    117.8,
+    328.2
+   ],
+   "size": 8.8,
+   "testo": "di 15 centimetri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    352.4,
+    157.0,
+    363.7
+   ],
+   "size": 11.2,
+   "testo": "SERRATURA (10 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    363.8,
+    254.3,
+    374.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni serratura è dotata della sua chiave. Senza tale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    374.7,
+    281.2,
+    385.2
+   ],
+   "size": 8.8,
+   "testo": "chiave, una creatura può scassinarla utilizzando gli arnesi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    385.7,
+    271.6,
+    396.3
+   ],
+   "size": 8.8,
+   "testo": "da scasso e superando una prova di Destrezza (Rapidità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    396.7,
+    132.9,
+    407.3
+   ],
+   "size": 8.8,
+   "testo": "di mano) con CD 15.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    431.6,
+    191.6,
+    442.9
+   ],
+   "size": 11.2,
+   "testo": "SFERE METALLICHE (1 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    442.9,
+    271.2,
+    453.5
+   ],
+   "size": 8.8,
+   "testo": "Con un'azione di Utilizzo, il personaggio può far cadere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    453.9,
+    272.3,
+    464.4
+   ],
+   "size": 8.8,
+   "testo": "delle sfere metalliche dalla sua borsa. Queste si diffonde­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    464.8,
+    280.5,
+    475.3
+   ],
+   "size": 8.8,
+   "testo": "ranno per coprire una superficie piana di 3 metri quadrati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    475.8,
+    268.0,
+    486.4
+   ],
+   "size": 8.8,
+   "testo": "entro 3 metri da sé. Chiunque entri in quest'area per la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    486.7,
+    278.5,
+    497.3
+   ],
+   "size": 8.8,
+   "testo": "prima volta in un turno deve superare un tiro salvezza su",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    497.7,
+    275.7,
+    508.3
+   ],
+   "size": 8.8,
+   "testo": "Destrezza con CD 10, altrimenti cadrà prono. Per recupe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    508.8,
+    244.3,
+    519.4
+   ],
+   "size": 8.8,
+   "testo": "rare le sfere metalliche sono necessari 10 minuti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    543.5,
+    206.1,
+    554.9
+   ],
+   "size": 11.2,
+   "testo": "SIMBOLO SACRO (VARIABILE)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    555.0,
+    275.4,
+    565.5
+   ],
+   "size": 8.8,
+   "testo": "Un simbolo sacro può assumere una delle forme elencate",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    565.9,
+    279.0,
+    576.5
+   ],
+   "size": 8.8,
+   "testo": "nellatabella Simbolo sacro ed è adornato o dipinto in modo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    576.9,
+    269.2,
+    587.5
+   ],
+   "size": 8.8,
+   "testo": "che incanali l'energia divina. Un chierico o un paladino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    587.9,
+    279.3,
+    598.5
+   ],
+   "size": 8.8,
+   "testo": "possono usare un simbolo sacro come focus da incantatore.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    598.9,
+    274.2,
+    609.5
+   ],
+   "size": 8.8,
+   "testo": "La tabella indica se il simbolo sacro deve essere tenuto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    610.0,
+    277.7,
+    620.6
+   ],
+   "size": 8.8,
+   "testo": "in mano, indossato o portato su un tessuto (tabarro o stri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    621.0,
+    144.2,
+    631.6
+   ],
+   "size": 8.8,
+   "testo": "scione) o su uno scudo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    643.7,
+    127.8,
+    654.4
+   ],
+   "size": 10.6,
+   "testo": "SIMBOLI SACRI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    659.3,
+    89.4,
+    668.6
+   ],
+   "size": 8.2,
+   "testo": "Simbolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    231.9,
+    659.3,
+    279.8,
+    668.6
+   ],
+   "size": 8.2,
+   "testo": "Peso Costo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    673.6,
+    203.0,
+    683.3
+   ],
+   "size": 8.4,
+   "testo": "Amuleto (indossato o tenuto in mano)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    226.6,
+    673.6,
+    280.3,
+    683.2
+   ],
+   "size": 8.4,
+   "testo": "0,5 kg 5 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    688.1,
+    181.6,
+    697.8
+   ],
+   "size": 8.4,
+   "testo": "Emblema (portato su un tessuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.6,
+    688.2,
+    279.6,
+    697.8
+   ],
+   "size": 8.4,
+   "testo": "5 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    700.1,
+    105.0,
+    709.7
+   ],
+   "size": 8.4,
+   "testo": "o uno scudo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    714.7,
+    164.6,
+    724.3
+   ],
+   "size": 8.4,
+   "testo": "Reliquiario (tenuto in mano)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    234.4,
+    714.7,
+    280.3,
+    724.3
+   ],
+   "size": 8.4,
+   "testo": "1 kg 5 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    51.8,
+    376.6,
+    63.1
+   ],
+   "size": 11.2,
+   "testo": "SPAGO (1 MA)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.1,
+    63.1,
+    506.8,
+    73.7
+   ],
+   "size": 8.8,
+   "testo": "Una matassa di spago è lunga 3 metri. Come azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    74.1,
+    519.9,
+    84.7
+   ],
+   "size": 8.8,
+   "testo": "di Utilizzo, il personaggio può utilizzarlo per stringere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    85.2,
+    342.1,
+    95.7
+   ],
+   "size": 8.8,
+   "testo": "un nodo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    119.8,
+    395.7,
+    131.2
+   ],
+   "size": 11.2,
+   "testo": "SPECCHIO (5 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.1,
+    131.2,
+    515.2,
+    141.8
+   ],
+   "size": 8.8,
+   "testo": "Uno specchio d'acciaio portatile è utile sia per la cura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    142.2,
+    534.4,
+    152.8
+   ],
+   "size": 8.8,
+   "testo": "della persona che per sbirciare dietro gli angoli o riflettere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    153.2,
+    475.3,
+    163.8
+   ],
+   "size": 8.8,
+   "testo": "la luce per mandare un segnale a qualcuno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    188.0,
+    447.5,
+    199.3
+   ],
+   "size": 11.2,
+   "testo": "SPUNTONI DI FERRO (1 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    199.4,
+    516.1,
+    210.0
+   ],
+   "size": 8.8,
+   "testo": "Gli spuntoni di ferro sono ottenibili in gruppi di dieci.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    210.5,
+    513.7,
+    221.0
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Utilizzo, il personaggio può usare un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    221.4,
+    532.1,
+    232.0
+   ],
+   "size": 8.8,
+   "testo": "oggetto contundente come un martello leggero per confic­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    232.4,
+    530.6,
+    243.0
+   ],
+   "size": 8.8,
+   "testo": "care gli spuntoni nel legno, nel terreno o in altri materiali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    243.5,
+    516.9,
+    254.1
+   ],
+   "size": 8.8,
+   "testo": "simili. Tale azione è utile per bloccare una porta o per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    254.4,
+    520.8,
+    265.0
+   ],
+   "size": 8.8,
+   "testo": "avere un supporto a cui legare una corda o una catena.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    289.3,
+    396.2,
+    300.6
+   ],
+   "size": 11.2,
+   "testo": "TAGLIOLA (5 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    300.5,
+    512.7,
+    311.1
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Utilizzo, il personaggio può piazzare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    311.6,
+    503.5,
+    322.2
+   ],
+   "size": 8.8,
+   "testo": "una tagliola, ovvero un anello metallico dentellato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    322.6,
+    519.1,
+    333.2
+   ],
+   "size": 8.8,
+   "testo": "che si chiude di scatto qualora una creatura calpesti la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    333.5,
+    527.1,
+    344.1
+   ],
+   "size": 8.8,
+   "testo": "piastra a pressione collocata al centro. La trappolaviene",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    344.5,
+    512.2,
+    355.1
+   ],
+   "size": 8.8,
+   "testo": "fissata a una pesante catena o a un oggetto immobile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    355.5,
+    522.1,
+    366.1
+   ],
+   "size": 8.8,
+   "testo": "come un albero o un palo piantato a terra. Quando una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    366.5,
+    522.0,
+    377.1
+   ],
+   "size": 8.8,
+   "testo": "creatura mette un piede sulla piastra, deve superare un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    377.4,
+    524.7,
+    388.0
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Destrezza con CD 13, altrimenti subisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    388.5,
+    511.6,
+    399.1
+   ],
+   "size": 8.8,
+   "testo": "1d4 danni perforanti e la sua velocità scende a 0 fino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    399.6,
+    523.0,
+    410.1
+   ],
+   "size": 8.8,
+   "testo": "all'inizio del turno successivo. A quel punto, finché non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    410.6,
+    526.1,
+    421.2
+   ],
+   "size": 8.8,
+   "testo": "si libera dalla trappola, il suo movimento è limitato dalla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    421.6,
+    507.6,
+    432.1
+   ],
+   "size": 8.8,
+   "testo": "lunghezza della catena (solitamente 90 centimetri).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    432.6,
+    524.9,
+    443.1
+   ],
+   "size": 8.8,
+   "testo": "Una creatura può usare la sua azione per effettuare una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    443.6,
+    519.4,
+    454.1
+   ],
+   "size": 8.8,
+   "testo": "prova di Forza (Atletica) con CD 13 e liberare se stessa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    454.5,
+    501.0,
+    465.1
+   ],
+   "size": 8.8,
+   "testo": "o qualcun altro a portata in caso di successo. Ogni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    465.5,
+    515.0,
+    476.0
+   ],
+   "size": 8.8,
+   "testo": "prova fallita infligge 1 danno perforante alla creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    476.5,
+    357.9,
+    487.0
+   ],
+   "size": 8.8,
+   "testo": "intrappolata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    511.2,
+    379.2,
+    522.6
+   ],
+   "size": 11.2,
+   "testo": "TENDA (2 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    522.7,
+    535.4,
+    533.2
+   ],
+   "size": 8.8,
+   "testo": "In una tenda possono dormire un massimo di due creature",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    533.7,
+    405.3,
+    544.3
+   ],
+   "size": 8.8,
+   "testo": "di taglia Piccola o Media.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    568.2,
+    380.9,
+    579.6
+   ],
+   "size": 11.2,
+   "testo": "TORCIA (1 MR)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    579.7,
+    502.6,
+    590.2
+   ],
+   "size": 8.8,
+   "testo": "Una torcia arde per 1 ora e proietta luce intensa in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    590.6,
+    513.1,
+    601.2
+   ],
+   "size": 8.8,
+   "testo": "un raggio di 6 metri e luce fioca per ulteriori 6 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    601.7,
+    522.4,
+    612.2
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio effettua l'azione di Attacco, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    612.8,
+    520.6,
+    623.3
+   ],
+   "size": 8.8,
+   "testo": "farlo con la torcia usandola come arma da mischia sem­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    623.8,
+    522.1,
+    634.4
+   ],
+   "size": 8.8,
+   "testo": "plice. Se il colpo va a segno, il bersaglio subisce 1 danno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    634.9,
+    343.4,
+    645.4
+   ],
+   "size": 8.8,
+   "testo": "da fuoco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    669.6,
+    385.0,
+    680.9
+   ],
+   "size": 11.2,
+   "testo": "TRIBOLI (1 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    680.9,
+    512.6,
+    691.5
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Utilizzo, il personaggio può spargere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    691.9,
+    504.3,
+    702.5
+   ],
+   "size": 8.8,
+   "testo": "triboli dalla sua borsa per coprire una superficie di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    702.9,
+    521.3,
+    713.4
+   ],
+   "size": 8.8,
+   "testo": "1,5 metri quadrati entro 1,5 metri da sé. Chiunque entri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    713.9,
+    531.6,
+    724.5
+   ],
+   "size": 8.8,
+   "testo": "in quest'area per la prima volta in un turno deve superare",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,1908 @@
+{
+ "pagina_pdf": 95,
+ "pagina_stampata": 92,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "92 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.7,
+    37.4,
+    185.0,
+    48.1
+   ],
+   "size": 10.6,
+   "testo": "PRIVILEGI DEL GUERRIERO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.3,
+    52.3,
+    128.9,
+    63.0
+   ],
+   "size": 10.6,
+   "testo": "Bonus di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    418.0,
+    52.2,
+    462.7,
+    62.9
+   ],
+   "size": 10.6,
+   "testo": "Recuperare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.6,
+    52.2,
+    526.7,
+    62.9
+   ],
+   "size": 10.6,
+   "testo": "Padronanza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    63.3,
+    210.7,
+    74.0
+   ],
+   "size": 10.6,
+   "testo": "Livello Competenza Privilegi di classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.8,
+    63.1,
+    455.5,
+    73.8
+   ],
+   "size": 10.6,
+   "testo": "energie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.1,
+    63.2,
+    516.6,
+    73.9
+   ],
+   "size": 10.6,
+   "testo": "d'armi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    104.7,
+    78.4,
+    116.3,
+    88.0
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.2,
+    78.2,
+    387.3,
+    87.9
+   ],
+   "size": 8.4,
+   "testo": "Padronanza d'armi, recuperare energie e stile di combattimento",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    436.8,
+    78.2,
+    442.8,
+    87.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.3,
+    78.3,
+    505.8,
+    87.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    92.9,
+    70.4,
+    102.6
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    105.1,
+    92.9,
+    115.6,
+    102.6
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.5,
+    92.9,
+    317.1,
+    102.5
+   ],
+   "size": 8.4,
+   "testo": "Azione impetuosa (un utilizzo). mente tattica",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.0,
+    92.7,
+    442.9,
+    102.4
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.3,
+    92.8,
+    505.8,
+    102.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    107.5,
+    70.1,
+    117.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    105.0,
+    107.5,
+    115.5,
+    117.1
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.8,
+    107.4,
+    238.9,
+    117.0
+   ],
+   "size": 8.4,
+   "testo": "Sottoclasse del guerriero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.0,
+    107.3,
+    442.9,
+    117.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.4,
+    107.4,
+    505.9,
+    117.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    122.0,
+    70.3,
+    131.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.9,
+    122.0,
+    115.4,
+    131.7
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.4,
+    121.9,
+    291.0,
+    131.6
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    437.1,
+    121.9,
+    442.6,
+    131.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.8,
+    121.9,
+    506.1,
+    131.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    136.6,
+    70.2,
+    146.3
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.8,
+    136.5,
+    115.9,
+    146.4
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.1,
+    136.6,
+    275.5,
+    146.2
+   ],
+   "size": 8.4,
+   "testo": "Attacco extra, spostamento tattico",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    437.1,
+    136.5,
+    442.6,
+    146.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.8,
+    136.5,
+    506.1,
+    146.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    151.3,
+    70.4,
+    160.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.8,
+    151.0,
+    115.9,
+    161.0
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.4,
+    151.1,
+    291.0,
+    160.7
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    437.1,
+    151.1,
+    442.6,
+    160.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.8,
+    151.1,
+    506.1,
+    160.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    165.8,
+    70.4,
+    175.5
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.8,
+    165.7,
+    115.9,
+    175.6
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.1,
+    165.8,
+    245.8,
+    175.4
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.1,
+    165.7,
+    442.6,
+    175.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.8,
+    165.7,
+    506.1,
+    175.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    180.5,
+    70.4,
+    190.1
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.8,
+    180.3,
+    115.9,
+    190.2
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.4,
+    180.4,
+    291.0,
+    190.0
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    437.1,
+    180.3,
+    442.6,
+    189.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.8,
+    180.3,
+    506.1,
+    189.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    195.0,
+    70.4,
+    204.7
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    194.9,
+    116.5,
+    204.7
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.2,
+    194.9,
+    320.6,
+    204.5
+   ],
+   "size": 8.4,
+   "testo": "Indomabile (un utilizzo), signore delle tattiche",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.1,
+    194.9,
+    442.6,
+    204.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.8,
+    194.8,
+    506.1,
+    204.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    209.7,
+    73.9,
+    219.3
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    209.6,
+    116.5,
+    219.4
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.2,
+    209.7,
+    245.7,
+    219.3
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    209.5,
+    442.8,
+    219.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.4,
+    209.6,
+    505.9,
+    219.2
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    224.2,
+    72.5,
+    233.9
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    224.2,
+    116.5,
+    233.9
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.5,
+    224.1,
+    213.6,
+    233.8
+   ],
+   "size": 8.4,
+   "testo": "Due attacchi extra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    224.1,
+    442.8,
+    233.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.4,
+    224.1,
+    505.9,
+    233.7
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    238.8,
+    73.9,
+    248.4
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    238.8,
+    116.5,
+    248.4
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.4,
+    238.6,
+    291.0,
+    248.3
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    436.6,
+    238.6,
+    442.8,
+    248.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.4,
+    238.6,
+    505.9,
+    248.3
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    253.4,
+    73.7,
+    263.0
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.7,
+    253.4,
+    116.3,
+    263.0
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.4,
+    253.3,
+    303.9,
+    263.0
+   ],
+   "size": 8.4,
+   "testo": "Attacchi studiati, indomabile (due utilizzi)",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    253.2,
+    442.8,
+    262.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.5,
+    253.3,
+    506.1,
+    262.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    268.0,
+    73.7,
+    277.6
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    268.0,
+    117.0,
+    277.6
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.2,
+    267.9,
+    291.0,
+    277.5
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    436.6,
+    267.7,
+    442.8,
+    277.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.5,
+    267.8,
+    506.1,
+    277.4
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    282.6,
+    73.9,
+    292.3
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.7,
+    282.6,
+    116.3,
+    292.3
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.2,
+    282.6,
+    245.6,
+    292.2
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    282.4,
+    442.8,
+    292.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.5,
+    282.5,
+    506.1,
+    292.1
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    297.3,
+    74.0,
+    306.9
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.7,
+    297.2,
+    116.3,
+    306.9
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.4,
+    297.1,
+    291.0,
+    306.7
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    436.6,
+    297.0,
+    442.8,
+    306.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.3,
+    297.2,
+    506.4,
+    306.8
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    311.7,
+    73.7,
+    321.3
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    311.8,
+    116.7,
+    321.4
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.4,
+    311.6,
+    357.2,
+    321.2
+   ],
+   "size": 8.4,
+   "testo": "Azione impetuosa (due utilizzi), indomabile (tre utilizzi)",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    311.5,
+    442.8,
+    321.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.2,
+    311.7,
+    506.2,
+    321.3
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    326.4,
+    73.8,
+    336.0
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.5,
+    326.4,
+    116.3,
+    336.0
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.1,
+    326.3,
+    245.7,
+    335.9
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    340.9,
+    74.0,
+    350.5
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.5,
+    340.9,
+    116.6,
+    350.5
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.1,
+    340.8,
+    188.1,
+    350.4
+   ],
+   "size": 8.4,
+   "testo": "Dono epico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    355.4,
+    72.5,
+    365.1
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.4,
+    355.4,
+    116.7,
+    365.1
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    142.1,
+    355.3,
+    209.4,
+    364.9
+   ],
+   "size": 8.4,
+   "testo": "Tre attacchi extra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    376.5,
+    274.8,
+    387.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SOTTOCLASSE DEL GUERRIERO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    387.9,
+    255.5,
+    398.5
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene una sottoclasse del guerriero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    399.0,
+    263.2,
+    409.6
+   ],
+   "size": 8.8,
+   "testo": "a scelta. Dopo la descrizione di questa classe, troverai",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    410.1,
+    269.4,
+    420.7
+   ],
+   "size": 8.8,
+   "testo": "una spiegazione per ciascuna delle seguenti sottoclassi:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    421.1,
+    252.0,
+    431.6
+   ],
+   "size": 8.8,
+   "testo": "Maestro di Battaglia, Campione, Cavaliere Mistico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    432.0,
+    269.0,
+    442.6
+   ],
+   "size": 8.8,
+   "testo": "e Guerriero Psionico. Una sottoclasse è una specializza­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    443.0,
+    272.4,
+    453.6
+   ],
+   "size": 8.8,
+   "testo": "zione che conferisce dei privilegi a determinati livelli da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    454.0,
+    267.4,
+    464.6
+   ],
+   "size": 8.8,
+   "testo": "guerriero. Per il resto della sua carriera, il personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    464.9,
+    276.1,
+    475.5
+   ],
+   "size": 8.8,
+   "testo": "ottiene tutti i privilegi della sottoclasse pari al suo livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    475.9,
+    207.5,
+    486.5
+   ],
+   "size": 8.8,
+   "testo": "da guerriero attuale o a quelli inferiori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    496.4,
+    247.5,
+    507.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 4: AUMENTO DEI PUNTEGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    507.2,
+    159.3,
+    518.6
+   ],
+   "size": 11.2,
+   "testo": "DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    518.6,
+    271.2,
+    529.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene l'aumento dei punteggi di caratte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    529.6,
+    269.3,
+    540.2
+   ],
+   "size": 8.8,
+   "testo": "ristica (vedi capitolo 5) o un altro talento a scelta di cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    540.6,
+    276.8,
+    551.1
+   ],
+   "size": 8.8,
+   "testo": "possiede i prerequisiti. Questo privilegio si ottiene nuova­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    549.4,
+    282.4,
+    562.1
+   ],
+   "size": 8.8,
+   "testo": "mente al 6°, all'8°, al 12°, al 14° e al 16° livello da guerriero.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    572.0,
+    204.2,
+    583.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: ATTACCO EXTRA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    583.4,
+    266.1,
+    593.9
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua l'azione di Attacco nelproprio turno,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    594.4,
+    244.1,
+    605.0
+   ],
+   "size": 8.8,
+   "testo": "il guerriero può attaccare due volte anziché una.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    615.0,
+    241.8,
+    626.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: SPOSTAMENTO TATTICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    626.4,
+    262.3,
+    637.0
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il guerriero attiva Recuperare Energie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    637.3,
+    272.7,
+    647.9
+   ],
+   "size": 8.8,
+   "testo": "con un'azione bonus, può muoversi fino a metà della sua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    648.4,
+    246.8,
+    659.0
+   ],
+   "size": 8.8,
+   "testo": "velocità senza provocare attacchi di opportunità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    668.9,
+    183.8,
+    680.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 9: INDOMABILE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    680.2,
+    267.5,
+    690.8
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio fallisce un tiro salvezza, può ripetere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    691.2,
+    252.6,
+    701.8
+   ],
+   "size": 8.8,
+   "testo": "il tiro con un bonus pari al suo livello da guerriero.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    326.2,
+    442.8,
+    335.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.2,
+    326.3,
+    506.2,
+    335.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    340.7,
+    442.8,
+    350.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.2,
+    340.8,
+    506.2,
+    350.4
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    355.2,
+    442.8,
+    364.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    500.2,
+    355.3,
+    506.2,
+    364.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    374.7,
+    534.5,
+    385.2
+   ],
+   "size": 8.8,
+   "testo": "Deve usare il nuovo risultato e non può riutilizzare questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    385.7,
+    510.6,
+    396.3
+   ],
+   "size": 8.8,
+   "testo": "privilegio prima di aver completato un riposo lungo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    396.7,
+    528.5,
+    407.3
+   ],
+   "size": 8.8,
+   "testo": "Prima di un riposo lungo, il personaggio può utilizzare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    405.6,
+    521.2,
+    418.4
+   ],
+   "size": 8.8,
+   "testo": "questo privilegio due volte a partire dal 13° livello e tre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    416.6,
+    418.7,
+    429.3
+   ],
+   "size": 8.8,
+   "testo": "volte a partire dal 17° livello.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    439.2,
+    505.9,
+    450.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 9: SIGNORE DELLE TATTICHE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    450.6,
+    507.4,
+    461.1
+   ],
+   "size": 8.8,
+   "testo": "Quando il guerriero attacca con un'arma di cui può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    461.6,
+    520.7,
+    472.1
+   ],
+   "size": 8.8,
+   "testo": "utilizzare la proprietà di padronanza, per quell'attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    472.5,
+    521.4,
+    483.1
+   ],
+   "size": 8.8,
+   "testo": "può sostituirla con le proprietà spinta, prosciugamento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    483.6,
+    369.0,
+    494.1
+   ],
+   "size": 8.8,
+   "testo": "o rallentamento.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    503.9,
+    490.3,
+    515.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: DUE ATTACCHI EXTRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    515.5,
+    516.7,
+    526.0
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua l'azione di attacco nel proprio turno,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    526.5,
+    493.9,
+    537.1
+   ],
+   "size": 8.8,
+   "testo": "il guerriero può attaccare tre volte anziché una.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    546.9,
+    480.2,
+    558.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 13: ATTACCHI STUDIATI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    558.4,
+    535.8,
+    569.0
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero studia gli avversari e apprende da ogni attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    569.2,
+    519.2,
+    579.8
+   ],
+   "size": 8.8,
+   "testo": "che effettua. Se effettua un tiro per colpire contro una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    580.2,
+    535.3,
+    590.8
+   ],
+   "size": 8.8,
+   "testo": "creatura e manca il bersaglio, dispone di vantaggio sul tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    591.2,
+    530.7,
+    601.8
+   ],
+   "size": 8.8,
+   "testo": "per colpire successivo che effettua contro quella creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    602.2,
+    467.3,
+    612.8
+   ],
+   "size": 8.8,
+   "testo": "prima della fine del suo turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    622.8,
+    441.5,
+    634.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    634.3,
+    516.1,
+    644.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    645.3,
+    517.0,
+    655.9
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    649.2,
+    509.0,
+    667.4
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono delle abilità di combattimento.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    676.7,
+    491.7,
+    688.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: TRE ATTACCHI EXTRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    688.0,
+    516.6,
+    698.6
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua l'azione di attacco nel proprio turno,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    699.0,
+    512.2,
+    709.6
+   ],
+   "size": 8.8,
+   "testo": "il guerriero può attaccare quattro volte anziché una.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,1231 @@
+{
+ "pagina_pdf": 316,
+ "pagina_stampata": 313,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 313",
+ "immagini": [
+  [
+   48,
+   489,
+   543,
+   728
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.4,
+    141.9,
+    152.6,
+    153.3
+   ],
+   "size": 11.2,
+   "testo": "RICHIAMA BESTIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    153.5,
+    199.2,
+    163.9
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi2° livello (druido, ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    169.0,
+    146.6,
+    178.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    180.1,
+    119.1,
+    189.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    191.1,
+    268.1,
+    200.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una piuma, un ciuffo di peli e una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    202.2,
+    281.1,
+    211.8
+   ],
+   "size": 8.4,
+   "testo": "coda di pesce all'interno di una ghianda dorata del valore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    213.1,
+    127.7,
+    222.8
+   ],
+   "size": 8.4,
+   "testo": "di 200 mo o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    224.1,
+    193.2,
+    233.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    240.4,
+    278.9,
+    250.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore invoca uno spirito bestiale che si manifesta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    251.3,
+    273.9,
+    261.9
+   ],
+   "size": 8.8,
+   "testo": "in uno spazio libero entro gittata che egli sia in grado di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    262.4,
+    272.9,
+    272.9
+   ],
+   "size": 8.8,
+   "testo": "vedere e utilizza la scheda delle statistiche dello Spirito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    273.4,
+    261.8,
+    284.0
+   ],
+   "size": 8.8,
+   "testo": "Bestiale. Quando questo incantesimo viene lanciato,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    284.4,
+    274.3,
+    295.0
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore può scegliere l'ambiente da cui proviene lo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    295.4,
+    272.2,
+    306.0
+   ],
+   "size": 8.8,
+   "testo": "spirito evocato tra aria, terra o acqua. La creatura ha le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    306.4,
+    273.4,
+    316.9
+   ],
+   "size": 8.8,
+   "testo": "sembianze di un animale a scelta dell'incantatore prove­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    317.4,
+    280.2,
+    328.0
+   ],
+   "size": 8.8,
+   "testo": "niente da uno di questi ambienti e, in base a questa scelta,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    328.4,
+    282.3,
+    339.0
+   ],
+   "size": 8.8,
+   "testo": "vengono determinati alcuni dettagli nella sua scheda delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    339.3,
+    284.1,
+    349.9
+   ],
+   "size": 8.8,
+   "testo": "statistiche. La creatura scompare quando scende a 0 punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    350.3,
+    278.5,
+    360.9
+   ],
+   "size": 8.8,
+   "testo": "ferita o quando l'incantesimo termina ed è un alleato per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    361.3,
+    168.9,
+    371.9
+   ],
+   "size": 8.8,
+   "testo": "il personaggio e i suoi alleati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    372.2,
+    269.4,
+    382.8
+   ],
+   "size": 8.8,
+   "testo": "In combattimento, la creatura ha lo stesso punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    383.2,
+    275.5,
+    393.8
+   ],
+   "size": 8.8,
+   "testo": "di iniziativa dell'incantatore, ma inizia il turno immedia­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    394.2,
+    272.4,
+    404.8
+   ],
+   "size": 8.8,
+   "testo": "tamente dopo il suo, obbedendo ai suoi comandi verbali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    405.3,
+    258.5,
+    415.9
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta da parte dell'incantatore).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    416.4,
+    273.3,
+    426.9
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore non pronuncia comandi verbali, la crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    427.3,
+    273.2,
+    437.9
+   ],
+   "size": 8.8,
+   "testo": "tura compie l'azione di Schivata e usa il suo movimento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    438.2,
+    150.2,
+    448.8
+   ],
+   "size": 8.8,
+   "testo": "per sottrarsi al pericolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    451.0,
+    258.4,
+    459.6
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    460.3,
+    258.6,
+    470.9
+   ],
+   "size": 8.8,
+   "testo": "Usa il livello dello slot incantesimo relativo al livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    471.3,
+    235.6,
+    481.9
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo nella scheda delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    496.3,
+    162.1,
+    509.9
+   ],
+   "size": 10.4,
+   "testo": "SPIRITO BESTIALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    514.6,
+    141.8,
+    523.8
+   ],
+   "size": 9.2,
+   "testo": "Bestia piccola, neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    528.8,
+    182.2,
+    538.4
+   ],
+   "size": 8.4,
+   "testo": "CA 11 + il livello dell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    539.9,
+    261.4,
+    549.5
+   ],
+   "size": 8.4,
+   "testo": "PF 20 (solo aria) o 30 (solo terra e acqua) + 5 per ogni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    550.9,
+    185.9,
+    560.5
+   ],
+   "size": 8.4,
+   "testo": "livello di incantesimo sopra il 2°",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    561.8,
+    280.3,
+    571.4
+   ],
+   "size": 8.4,
+   "testo": "Velocità 9 m; scalata 9 m (solo terra); volo 18 m (solo aria);",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    572.8,
+    151.8,
+    582.4
+   ],
+   "size": 8.4,
+   "testo": "nuoto 9 m (solo acqua)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    94.1,
+    586.3,
+    127.3,
+    593.7
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    596.3,
+    104.7,
+    605.9
+   ],
+   "size": 8.4,
+   "testo": "FOR 18 +4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.0,
+    596.3,
+    124.0,
+    605.9
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    610.8,
+    71.9,
+    620.0
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.6,
+    610.5,
+    85.9,
+    620.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.3,
+    610.9,
+    103.8,
+    619.9
+   ],
+   "size": 6.9,
+   "testo": "-3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.8,
+    610.9,
+    122.3,
+    619.9
+   ],
+   "size": 6.9,
+   "testo": "-3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    171.6,
+    586.4,
+    204.8,
+    593.8
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.3,
+    596.2,
+    201.6,
+    605.8
+   ],
+   "size": 8.4,
+   "testo": "DES 11 +0 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.6,
+    610.5,
+    182.2,
+    620.1
+   ],
+   "size": 8.4,
+   "testo": "SAG 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    189.4,
+    610.5,
+    201.2,
+    620.1
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.3,
+    586.4,
+    282.7,
+    593.8
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    212.4,
+    596.1,
+    259.8,
+    605.8
+   ],
+   "size": 8.4,
+   "testo": "Cos 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    596.1,
+    278.0,
+    605.8
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    212.8,
+    610.5,
+    240.7,
+    620.1
+   ],
+   "size": 8.4,
+   "testo": "CAR 5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    248.4,
+    610.9,
+    259.0,
+    620.0
+   ],
+   "size": 6.9,
+   "testo": "-3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.0,
+    610.9,
+    277.6,
+    620.0
+   ],
+   "size": 6.9,
+   "testo": "-3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    629.5,
+    234.6,
+    639.1
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 12, scurovisione 18 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    640.4,
+    254.0,
+    650.1
+   ],
+   "size": 8.4,
+   "testo": "Lingue comprende le lingue parlate dal personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    651.5,
+    250.5,
+    661.1
+   ],
+   "size": 8.4,
+   "testo": "GS nessuno (PE 0; BC pari al bonus di competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    662.4,
+    127.4,
+    672.0
+   ],
+   "size": 8.4,
+   "testo": "del personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    673.4,
+    89.0,
+    691.6
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    696.1,
+    275.4,
+    705.7
+   ],
+   "size": 8.4,
+   "testo": "Respirare sott'acqua (solo acqua). Lo spirito può respirare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    707.6,
+    98.9,
+    717.2
+   ],
+   "size": 8.4,
+   "testo": "sott'acqua.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    186.1,
+    431.0,
+    197.5
+   ],
+   "size": 11.2,
+   "testo": "RICHIAMA CELESTIALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    197.5,
+    463.5,
+    208.1
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi5° livello (chierico, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    213.2,
+    399.2,
+    222.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    224.2,
+    371.7,
+    233.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    235.2,
+    523.1,
+    244.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un reliquiario del valore di 500 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    246.2,
+    338.5,
+    255.9
+   ],
+   "size": 8.4,
+   "testo": "o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    257.1,
+    445.0,
+    266.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    273.4,
+    528.2,
+    284.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore invoca uno spirito celestiale, che si manife­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    284.4,
+    536.9,
+    295.0
+   ],
+   "size": 8.8,
+   "testo": "sta in forma angelica in uno spazio libero entro gittata che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    295.4,
+    533.0,
+    306.0
+   ],
+   "size": 8.8,
+   "testo": "egli sia in grado di vedere e utilizza la scheda delle statisti­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    306.4,
+    530.5,
+    316.9
+   ],
+   "size": 8.8,
+   "testo": "che dello Spirito Celestiale. Quando questo incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    317.4,
+    534.1,
+    328.0
+   ],
+   "size": 8.8,
+   "testo": "viene lanciato, l'incantatore può scegliere tra Vendicatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    328.3,
+    520.6,
+    338.9
+   ],
+   "size": 8.8,
+   "testo": "e Difensore. Tale scelta determina alcuni dettagli nella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    339.3,
+    535.1,
+    349.9
+   ],
+   "size": 8.8,
+   "testo": "sua scheda delle statistiche. La creatura scompare quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    350.2,
+    534.3,
+    360.8
+   ],
+   "size": 8.8,
+   "testo": "scende a 0 punti ferita o quando l'incantesimo termina ed",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    361.3,
+    483.6,
+    371.8
+   ],
+   "size": 8.8,
+   "testo": "è un alleato per il personaggio e i suoi alleati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    372.2,
+    521.8,
+    382.7
+   ],
+   "size": 8.8,
+   "testo": "In combattimento, la creatura ha lo stesso punteggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    383.2,
+    527.7,
+    393.8
+   ],
+   "size": 8.8,
+   "testo": "di iniziativa dell'incantatore, ma inizia il turno immedia­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    394.3,
+    524.8,
+    404.9
+   ],
+   "size": 8.8,
+   "testo": "tamente dopo il suo, obbedendo ai suoi comandi verbali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    405.3,
+    510.9,
+    415.9
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta da parte dell'incantatore).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    416.3,
+    525.6,
+    426.9
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore non pronuncia comandi verbali, la crea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    427.3,
+    525.3,
+    437.9
+   ],
+   "size": 8.8,
+   "testo": "tura compie l'azione di Schivata e usa il suo movimento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    438.3,
+    402.8,
+    448.9
+   ],
+   "size": 8.8,
+   "testo": "per sottrarsi al pericolo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    451.0,
+    510.7,
+    459.6
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    460.2,
+    511.0,
+    470.8
+   ],
+   "size": 8.8,
+   "testo": "Usa il livello dello slot incantesimo relativo al livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    471.3,
+    487.9,
+    481.9
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo nella scheda delle statistiche.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    528.9,
+    509.7,
+    538.5
+   ],
+   "size": 8.4,
+   "testo": "Sfuggente (solo aria). Lo spirito non provoca attacchi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    540.4,
+    523.2,
+    550.0
+   ],
+   "size": 8.4,
+   "testo": "d'opportunità quando vola oltre la portata di un nemico.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    556.4,
+    530.5,
+    566.0
+   ],
+   "size": 8.4,
+   "testo": "Tattiche del branco (solo terra e acqua). Lo spirito dispone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    567.8,
+    519.7,
+    577.4
+   ],
+   "size": 8.4,
+   "testo": "di vantaggio a un tiro per colpire contro una creatura se",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    579.3,
+    520.6,
+    589.0
+   ],
+   "size": 8.4,
+   "testo": "almeno uno dei suoi alleati si trova entro 1,5 metri dalla",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    590.8,
+    421.1,
+    600.4
+   ],
+   "size": 8.4,
+   "testo": "creatura e non è incapacitato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    601.3,
+    345.7,
+    619.5
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    623.9,
+    516.9,
+    633.5
+   ],
+   "size": 8.4,
+   "testo": "Multiattacco. Lo spirito effettua u n numero d i attacchi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    635.4,
+    516.9,
+    645.1
+   ],
+   "size": 8.4,
+   "testo": "Squarcio pari alla metà del livello di quest'incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    646.9,
+    410.9,
+    656.6
+   ],
+   "size": 8.4,
+   "testo": "(arrotondando per difetto).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    662.8,
+    517.8,
+    672.6
+   ],
+   "size": 9.2,
+   "testo": "Squarcio. Tiro per colpire in mischia: il bonus equivale al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    674.3,
+    527.0,
+    683.9
+   ],
+   "size": 8.4,
+   "testo": "modificatore di attacco dell'incantesimo del personaggio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    685.8,
+    525.2,
+    695.5
+   ],
+   "size": 9.2,
+   "testo": "portata di 1,5 metri. Colpo: 1d8 + 4 + il livello dell'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    697.3,
+    393.4,
+    707.0
+   ],
+   "size": 8.4,
+   "testo": "simo danni perforanti.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

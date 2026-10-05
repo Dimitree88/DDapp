@@ -1,0 +1,1320 @@
+{
+ "pagina_pdf": 294,
+ "pagina_stampata": 291,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / F91",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    56.1,
+    53.1,
+    140.7,
+    64.5
+   ],
+   "size": 11.2,
+   "testo": "MANO DI BIGBY",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    64.6,
+    204.6,
+    75.1
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di5°livello (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    80.2,
+    147.5,
+    89.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    91.2,
+    120.0,
+    100.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    101.1,
+    255.9,
+    111.8
+   ],
+   "size": 8.8,
+   "testo": "Componenti: V, S, M (un guscio d'uovo e un guanto)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    113.2,
+    209.1,
+    122.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    129.4,
+    271.9,
+    140.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea una mano Grande di energia magica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    140.4,
+    285.1,
+    151.0
+   ],
+   "size": 8.8,
+   "testo": "luccicante in uno spazio libero entro gittata che è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    151.5,
+    268.9,
+    162.0
+   ],
+   "size": 8.8,
+   "testo": "di vedere. La mano permane per la durata dell'incante­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    162.5,
+    270.2,
+    173.1
+   ],
+   "size": 8.8,
+   "testo": "simo e si muove al comando dell'incantatore, imitando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    173.5,
+    166.6,
+    184.0
+   ],
+   "size": 8.8,
+   "testo": "i movimenti della sua mano.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    184.6,
+    274.6,
+    195.1
+   ],
+   "size": 8.8,
+   "testo": "La mano è un oggetto che possiede CA 20 e una quan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    195.6,
+    275.7,
+    206.1
+   ],
+   "size": 8.8,
+   "testo": "tità di punti ferita pari ai punti ferita massimi dell'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    206.5,
+    275.5,
+    217.1
+   ],
+   "size": 8.8,
+   "testo": "tatore; se scende a 0 punti ferita, l'incantesimo termina.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    217.6,
+    167.9,
+    228.2
+   ],
+   "size": 8.8,
+   "testo": "La mano non occupa spazio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    228.6,
+    280.7,
+    239.1
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore lancia l'incantesimo come azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    239.6,
+    280.9,
+    250.1
+   ],
+   "size": 8.8,
+   "testo": "bonus nei suoi turni successivi, può muovere la mano per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    250.6,
+    280.8,
+    261.1
+   ],
+   "size": 8.8,
+   "testo": "un massimo di 18 metri e causare uno dei seguenti effetti:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    267.0,
+    267.8,
+    277.6
+   ],
+   "size": 8.8,
+   "testo": "Mano interposta. La mano conferisce all'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    278.0,
+    272.1,
+    288.6
+   ],
+   "size": 8.8,
+   "testo": "mezza copertura contro gli attacchi e altri effetti che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    289.0,
+    281.6,
+    299.6
+   ],
+   "size": 8.8,
+   "testo": "hanno origine dal suo spazio o che la attraversano. Inol­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    300.0,
+    284.3,
+    310.6
+   ],
+   "size": 8.8,
+   "testo": "tre, il suo spazio conta come terreno difficile per i nemici.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    311.0,
+    279.0,
+    321.6
+   ],
+   "size": 8.8,
+   "testo": "Mano possente. La mano tenta di spingere una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    322.0,
+    262.8,
+    332.6
+   ],
+   "size": 8.8,
+   "testo": "di taglia Enorme o inferiore situata entro 1,5 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    332.9,
+    261.9,
+    343.5
+   ],
+   "size": 8.8,
+   "testo": "da essa: Il bersaglio deve superare un tiro salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    344.0,
+    261.0,
+    354.5
+   ],
+   "size": 8.8,
+   "testo": "su Forza, altrimenti viene spinto dalla mano fino a",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    354.9,
+    271.8,
+    365.5
+   ],
+   "size": 8.8,
+   "testo": "una distanza pari a 1,5 metri, più un numero di metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    365.9,
+    272.8,
+    376.5
+   ],
+   "size": 8.8,
+   "testo": "pari a cinque volte il modificatore di caratteristica da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    376.9,
+    266.7,
+    387.5
+   ],
+   "size": 8.8,
+   "testo": "incantatore. La mano si muove insieme al bersaglio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    388.0,
+    200.6,
+    398.5
+   ],
+   "size": 8.8,
+   "testo": "rimanendo entro 1,5 metri da esso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    398.9,
+    277.8,
+    409.5
+   ],
+   "size": 8.8,
+   "testo": "Mano stritolatrice. La mano tenta di afferrare una crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    410.0,
+    282.1,
+    420.5
+   ],
+   "size": 8.8,
+   "testo": "tura di taglia Enorme o inferiore situata entro 1,5 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    421.0,
+    272.9,
+    431.5
+   ],
+   "size": 8.8,
+   "testo": "da essa. Il bersaglio deve superare un tiro salvezza su",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    432.0,
+    283.4,
+    442.6
+   ],
+   "size": 8.8,
+   "testo": "Destrezza, altrimenti viene afferrato; la CD per sfuggire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    443.0,
+    269.3,
+    453.5
+   ],
+   "size": 8.8,
+   "testo": "alla presa è pari alla CD del tiro salvezza sull'incante­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    454.0,
+    272.4,
+    464.6
+   ],
+   "size": 8.8,
+   "testo": "simo dell'incantatore. Mentre la mano afferra il bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    465.0,
+    273.2,
+    475.6
+   ],
+   "size": 8.8,
+   "testo": "glio, l'incantatore può effettuare un'azione bonus per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    476.0,
+    285.8,
+    486.5
+   ],
+   "size": 8.8,
+   "testo": "ordinarle di stritolarlo, infliggendogli danni contundenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    486.9,
+    278.6,
+    497.5
+   ],
+   "size": 8.8,
+   "testo": "pari a 4d6 più il modificatore di caratteristica da incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    498.0,
+    155.7,
+    508.6
+   ],
+   "size": 8.8,
+   "testo": "tatore dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    509.1,
+    285.4,
+    519.6
+   ],
+   "size": 8.8,
+   "testo": "Pugno serrato. La mano colpisce un bersaglio che si trova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    520.1,
+    285.8,
+    530.6
+   ],
+   "size": 8.8,
+   "testo": "entro 1,5 metri da essa. L'incantatore effettua un attacco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    531.1,
+    260.8,
+    541.6
+   ],
+   "size": 8.8,
+   "testo": "con incantesimo in mischia. Se il colpo va a segno,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    542.1,
+    216.5,
+    552.6
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio subisce Sd8 danni da forza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    558.3,
+    285.2,
+    568.9
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo di unoslotincantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    569.4,
+    274.5,
+    579.9
+   ],
+   "size": 8.8,
+   "testo": "del pugno serrato aumentano di 2d8 e quelli della mano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    578.3,
+    277.4,
+    591.0
+   ],
+   "size": 8.8,
+   "testo": "stritolatrice di 2d6 per ogni slot di livello superiore al 5°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    615.3,
+    135.5,
+    626.7
+   ],
+   "size": 11.2,
+   "testo": "MANO MAGICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    627.7,
+    268.4,
+    637.1
+   ],
+   "size": 8.6,
+   "testo": "Trucchetto diEvocazione (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    642.3,
+    147.5,
+    651.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    653.4,
+    115.6,
+    663.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    664.3,
+    122.4,
+    673.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    675.3,
+    122.4,
+    684.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    691.5,
+    259.8,
+    702.1
+   ],
+   "size": 8.8,
+   "testo": "Una mano spettrale fluttuante compare in un punto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    702.5,
+    269.8,
+    713.1
+   ],
+   "size": 8.8,
+   "testo": "a scelta dell'incantatore situato entro gittata. La mano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    713.5,
+    271.0,
+    724.0
+   ],
+   "size": 8.8,
+   "testo": "permane per la durata dell'incantesimo e svanisce se si",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    37.7,
+    525.6,
+    48.3
+   ],
+   "size": 8.8,
+   "testo": "trova a più di 9 metri dall'incantatore o se quest'ultimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    48.7,
+    441.1,
+    59.3
+   ],
+   "size": 8.8,
+   "testo": "lancia nuovamente l'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    59.7,
+    525.3,
+    70.3
+   ],
+   "size": 8.8,
+   "testo": "Quando lancia l'incantesimo, l'incantatore può usare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    70.8,
+    517.5,
+    81.3
+   ],
+   "size": 8.8,
+   "testo": "la mano per maneggiare un oggetto, aprire una porta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    81.7,
+    520.0,
+    92.3
+   ],
+   "size": 8.8,
+   "testo": "o un contenitore che non siano chiusi a chiave, riporre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    92.7,
+    528.3,
+    103.2
+   ],
+   "size": 8.8,
+   "testo": "o estrarre un oggetto da un contenitore aperto o versare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    103.7,
+    405.1,
+    114.3
+   ],
+   "size": 8.8,
+   "testo": "il contenuto di una fiala.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    114.7,
+    532.0,
+    125.3
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia nei suoi turni successivi, l'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    125.7,
+    530.6,
+    136.2
+   ],
+   "size": 8.8,
+   "testo": "tatore può controllare nuovamente la mano. Come parte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    136.7,
+    481.5,
+    147.2
+   ],
+   "size": 8.8,
+   "testo": "di quell'azione, può muoverla fino a 9 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    147.7,
+    518.2,
+    158.3
+   ],
+   "size": 8.8,
+   "testo": "La mano non può attaccare, attivare oggetti magici",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    158.7,
+    412.2,
+    169.3
+   ],
+   "size": 8.8,
+   "testo": "o trasportare più di S chili.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    193.6,
+    431.0,
+    204.9
+   ],
+   "size": 11.2,
+   "testo": "MANTO DEL CROCIATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    205.1,
+    435.2,
+    215.6
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi3° livello (paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    220.7,
+    400.3,
+    230.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    231.7,
+    383.8,
+    241.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    242.7,
+    366.6,
+    252.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    253.6,
+    461.8,
+    263.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    269.9,
+    533.6,
+    280.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sprigiona un'aura magica in un'emanazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    280.9,
+    522.7,
+    291.5
+   ],
+   "size": 8.8,
+   "testo": "di 9 metri. Mentre sono nell'aura, l'incantatore e i suoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    291.9,
+    533.4,
+    302.5
+   ],
+   "size": 8.8,
+   "testo": "alleati infiggono 1d4 danni radiosi extra ciascuno quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    302.9,
+    504.2,
+    313.5
+   ],
+   "size": 8.8,
+   "testo": "colpiscono con un'arma o con un colpo senz'armi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    337.6,
+    451.6,
+    349.0
+   ],
+   "size": 11.2,
+   "testo": "MARCHIO DEL CACCIATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    349.1,
+    425.5,
+    359.5
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi1° livello (ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    364.6,
+    426.2,
+    374.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    375.6,
+    372.8,
+    385.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    386.6,
+    366.6,
+    396.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    397.6,
+    446.9,
+    407.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    413.9,
+    513.9,
+    424.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore marchia magicamente come sua preda",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    425.0,
+    509.0,
+    435.5
+   ],
+   "size": 8.8,
+   "testo": "una creatura entro gittata che è in grado di vedere.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    435.9,
+    522.1,
+    446.4
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, l'incantatore infligge",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    446.8,
+    531.9,
+    457.4
+   ],
+   "size": 8.8,
+   "testo": "1d6 danni da forza extra al bersaglio ogni volta che lo col­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    457.9,
+    537.8,
+    468.4
+   ],
+   "size": 8.8,
+   "testo": "pisce con un tiro per colpire. Inoltre, l'incantatore dispone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    468.8,
+    522.2,
+    479.4
+   ],
+   "size": 8.8,
+   "testo": "di vantaggio a qualsiasi prova di Saggezza (Percezione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    479.8,
+    518.5,
+    490.4
+   ],
+   "size": 8.8,
+   "testo": "o Sopravvivenza) che effettua per trovare il bersaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    490.8,
+    531.3,
+    501.4
+   ],
+   "size": 8.8,
+   "testo": "Se il bersaglio scende a 0 punti ferita prima del termine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    501.9,
+    526.6,
+    512.5
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, l'incantatore può effettuare un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    512.9,
+    528.6,
+    523.5
+   ],
+   "size": 8.8,
+   "testo": "bonus per spostare il marchio su un'altra creatura entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    524.0,
+    433.1,
+    534.5
+   ],
+   "size": 8.8,
+   "testo": "gittata che è in grado di vedere.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    536.7,
+    511.9,
+    545.3
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    546.0,
+    516.7,
+    556.5
+   ],
+   "size": 8.8,
+   "testo": "La concentrazione dell'incantatore può durare di più",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    554.8,
+    523.3,
+    567.5
+   ],
+   "size": 8.8,
+   "testo": "utilizzando uno slot incantesimo di 3° o 4° livello (fino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    565.7,
+    499.0,
+    578.4
+   ],
+   "size": 8.8,
+   "testo": "a 8 ore) o di 5° livello o superiore (fino a 24 ore).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    602.7,
+    371.7,
+    614.1
+   ],
+   "size": 11.2,
+   "testo": "MESSAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    615.2,
+    529.5,
+    624.5
+   ],
+   "size": 8.6,
+   "testo": "Trucchetto di Trasmutazione (bardo, druido, mago, stregone)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    629.9,
+    400.3,
+    639.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    640.9,
+    372.9,
+    650.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    652.0,
+    441.5,
+    661.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: S, M (un filo di rame)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    662.9,
+    371.0,
+    672.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 round",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    679.0,
+    534.9,
+    689.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore indica una creatura entro gittata e sussurra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    690.0,
+    524.7,
+    700.6
+   ],
+   "size": 8.8,
+   "testo": "un messaggio. Solo il bersaglio sente il messaggio e può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.6,
+    701.0,
+    519.1,
+    711.6
+   ],
+   "size": 8.8,
+   "testo": "sussurrare una risposta che unicamente l'incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    712.0,
+    356.5,
+    722.6
+   ],
+   "size": 8.8,
+   "testo": "può sentire.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

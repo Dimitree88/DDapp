@@ -1,0 +1,1609 @@
+{
+ "pagina_pdf": 154,
+ "pagina_stampata": 151,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 151",
+ "immagini": [
+  [
+   42,
+   -1,
+   589,
+   406
+  ],
+  [
+   -1,
+   693,
+   166,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    365.0,
+    1.7,
+    369.9,
+    8.1
+   ],
+   "size": 4.9,
+   "testo": ".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    275.5,
+    -18.3,
+    320.0,
+    47.8
+   ],
+   "size": 29.9,
+   "testo": "V&'",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    109.7,
+    23.4,
+    119.4,
+    32.4
+   ],
+   "size": 6.9,
+   "testo": "/",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.1,
+    24.0,
+    268.1,
+    30.3
+   ],
+   "size": 4.9,
+   "testo": "__.,.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.0,
+    24.2,
+    337.0,
+    30.5
+   ],
+   "size": 4.9,
+   "testo": "-....",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    470.0,
+    22.6,
+    483.4,
+    31.7
+   ],
+   "size": 6.9,
+   "testo": "\"\"'\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    43.3,
+    28.6,
+    181.8,
+    79.3
+   ],
+   "size": 29.7,
+   "testo": "GRATTIDELLOSTREGONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    442.6,
+    28.2,
+    447.1,
+    37.2
+   ],
+   "size": 6.9,
+   "testo": "-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    64.4,
+    116.8,
+    73.6
+   ],
+   "size": 8.2,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    64.0,
+    169.7,
+    73.7
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    75.3,
+    93.1,
+    84.6
+   ],
+   "size": 8.2,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    89.9,
+    98.9,
+    99.1
+   ],
+   "size": 8.2,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    89.7,
+    255.1,
+    99.3
+   ],
+   "size": 8.4,
+   "testo": "DG per ogni livello da stregone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    104.5,
+    108.5,
+    113.7
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    104.2,
+    226.6,
+    113.8
+   ],
+   "size": 8.4,
+   "testo": "Costituzione e Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    115.5,
+    118.7,
+    124.7
+   ],
+   "size": 8.2,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    130.1,
+    108.2,
+    139.3
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    129.8,
+    265.7,
+    139.5
+   ],
+   "size": 9.2,
+   "testo": "Due a scelta tra: Arcano, Inganno,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    141.1,
+    104.0,
+    150.3
+   ],
+   "size": 8.2,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    141.7,
+    270.0,
+    151.4
+   ],
+   "size": 8.4,
+   "testo": "Intimidire, Intuizione, Persuasione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.1,
+    153.9,
+    181.1,
+    163.5
+   ],
+   "size": 8.4,
+   "testo": "o Religione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    168.7,
+    108.4,
+    177.9
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.9,
+    168.4,
+    190.9,
+    178.0
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    179.7,
+    98.9,
+    188.9
+   ],
+   "size": 8.2,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    194.3,
+    108.2,
+    203.5
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    194.0,
+    172.6,
+    203.6
+   ],
+   "size": 8.4,
+   "testo": "Nessuno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    205.4,
+    115.6,
+    214.6
+   ],
+   "size": 8.2,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    219.9,
+    127.1,
+    229.1
+   ],
+   "size": 8.2,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.8,
+    219.5,
+    280.4,
+    229.3
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e B: (A) lancia, 2 pugnali,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    230.9,
+    87.7,
+    240.1
+   ],
+   "size": 8.2,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.4,
+    231.6,
+    279.7,
+    241.2
+   ],
+   "size": 8.4,
+   "testo": "focus arcano (cristallo), dotazione da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.2,
+    243.6,
+    269.2,
+    253.2
+   ],
+   "size": 8.4,
+   "testo": "avventuriero e 28 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    281.9,
+    90.9,
+    332.6
+   ],
+   "size": 29.9,
+   "testo": "G",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.0,
+    260.3,
+    259.4,
+    289.5
+   ],
+   "size": 6.6,
+   "testo": "LI STREGONI PADRONEGGIANO UNA MAGIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.2,
+    290.4,
+    262.6,
+    301.0
+   ],
+   "size": 8.8,
+   "testo": "innata che pervade ogni fibra del loro essere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.8,
+    301.5,
+    275.2,
+    312.1
+   ],
+   "size": 8.8,
+   "testo": "Alcuni di loro non conoscono bene le origini dei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    312.5,
+    274.4,
+    323.0
+   ],
+   "size": 8.8,
+   "testo": "propri poteri, mentre altri le riconducono a determinati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    323.4,
+    280.1,
+    334.0
+   ],
+   "size": 8.8,
+   "testo": "eventi legati a trascorsi personali e familiari. Per ricevere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    334.4,
+    270.9,
+    345.0
+   ],
+   "size": 8.8,
+   "testo": "il dono che li contraddistingue, gli stregoni potrebbero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    345.4,
+    259.1,
+    356.0
+   ],
+   "size": 8.8,
+   "testo": "essere stati benedetti alla nascita da un drago o una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    356.3,
+    269.5,
+    366.9
+   ],
+   "size": 8.8,
+   "testo": "driade, oppure essere stati colpiti improvvisamente da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    367.2,
+    189.2,
+    377.9
+   ],
+   "size": 8.8,
+   "testo": "un fulmine. O ancora otrebbero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    193.1,
+    370.9,
+    199.3,
+    377.2
+   ],
+   "size": 4.9,
+   "testo": "V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.0,
+    367.3,
+    149.6,
+    377.9
+   ],
+   "size": 8.8,
+   "testo": ", p",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    189.2,
+    367.2,
+    280.1,
+    377.8
+   ],
+   "size": 8.8,
+   "testo": "a erlo ottenuto da una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    378.3,
+    274.7,
+    388.9
+   ],
+   "size": 8.8,
+   "testo": "divinità o attraverso l'esposizione alla magia di un altro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    389.3,
+    272.9,
+    399.9
+   ],
+   "size": 8.8,
+   "testo": "piano di esistenza, o dopo aver osservato per un attimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    400.4,
+    284.5,
+    411.0
+   ],
+   "size": 8.8,
+   "testo": "i meccanismi interni che muovono la realtà. A prescindere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    411.5,
+    271.4,
+    422.1
+   ],
+   "size": 8.8,
+   "testo": "dalle origini, il risultato è un segno indelebile sugli stre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    422.5,
+    270.3,
+    433.1
+   ],
+   "size": 8.8,
+   "testo": "goni: una turbolenta magia che può essere tramandata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    433.4,
+    176.4,
+    444.0
+   ],
+   "size": 8.8,
+   "testo": "di generazione in generazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    444.4,
+    256.9,
+    455.0
+   ],
+   "size": 8.8,
+   "testo": "Gli stregoni non studiano le arti arcane: il grezzo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    455.4,
+    268.8,
+    465.9
+   ],
+   "size": 8.8,
+   "testo": "e imprevedibile potere magico fa parte di loro. Ciò che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    466.4,
+    268.1,
+    477.0
+   ],
+   "size": 8.8,
+   "testo": "fanno è imparare a controllarlo e incanalarlo, così che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    477.4,
+    271.3,
+    488.0
+   ],
+   "size": 8.8,
+   "testo": "possano scoprire nuovi e strabilianti modi di scatenare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    488.4,
+    269.1,
+    499.0
+   ],
+   "size": 8.8,
+   "testo": "i loro poteri. Man mano che imparano a gestire questa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    499.5,
+    266.7,
+    510.1
+   ],
+   "size": 8.8,
+   "testo": "magia innata, entrano in maggiore sintonia con la sua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    510.6,
+    269.8,
+    521.1
+   ],
+   "size": 8.8,
+   "testo": "origine, sviluppando dei particolari poteri con cui essa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    521.6,
+    106.7,
+    532.2
+   ],
+   "size": 8.8,
+   "testo": "si manifesta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    532.6,
+    276.1,
+    543.1
+   ],
+   "size": 8.8,
+   "testo": "Gli stregoni sono rari. In alcune famiglie ne nasce uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    543.6,
+    277.0,
+    554.1
+   ],
+   "size": 8.8,
+   "testo": "solo per ogni generazione, ma per lo più è un talento che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    554.5,
+    265.6,
+    565.1
+   ],
+   "size": 8.8,
+   "testo": "si manifesta per puro caso. Chi è dotato di tale potere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    565.5,
+    280.6,
+    576.1
+   ],
+   "size": 8.8,
+   "testo": "magico scopre ben presto che non si può tenere nascosto.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    576.5,
+    248.5,
+    587.0
+   ],
+   "size": 8.8,
+   "testo": "Anzi, una magia simile desidera essere utilizzata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    596.5,
+    243.0,
+    609.6
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UNO STREGONE...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    617.2,
+    240.9,
+    628.6
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    628.7,
+    275.6,
+    639.3
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutti i tratti nellatabella Tratti dello stregone.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    637.4,
+    269.6,
+    650.2
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi dello stregone di 1° livello elencati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    650.7,
+    207.2,
+    661.2
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi dello stregone.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    291.8,
+    138.6,
+    295.2,
+    147.6
+   ],
+   "size": 6.9,
+   "testo": "1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    291.6,
+    145.5,
+    294.9,
+    151.8
+   ],
+   "size": 4.9,
+   "testo": "•",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    48.8,
+    492.5,
+    60.2
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.4,
+    60.3,
+    530.2,
+    70.9
+   ],
+   "size": 8.8,
+   "testo": "Ottiene il Dado Vita dalla tabella Tratti dello stregone.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.4,
+    69.2,
+    522.1,
+    81.9
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi dello stregone di 1° livello elencati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.2,
+    82.3,
+    526.2,
+    92.9
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi dello stregone. Per determinare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.2,
+    93.3,
+    530.5,
+    103.9
+   ],
+   "size": 8.8,
+   "testo": "il numero di slot incantesimo disponibili, vedi le regole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.2,
+    104.3,
+    418.1,
+    114.9
+   ],
+   "size": 8.8,
+   "testo": "multiclasse nel capitolo 2.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    124.4,
+    483.6,
+    137.5
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE DELLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    139.4,
+    375.8,
+    152.5
+   ],
+   "size": 9.7,
+   "testo": "STREGONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    156.0,
+    527.1,
+    166.5
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone ottiene i seguenti privilegi di classe quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    167.0,
+    526.0,
+    177.5
+   ],
+   "size": 8.8,
+   "testo": "raggiunge i livelli specificati. Tali privilegi sono elencati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    178.0,
+    452.3,
+    188.6
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi dello stregone.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    198.4,
+    440.5,
+    209.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    209.8,
+    519.8,
+    220.4
+   ],
+   "size": 8.8,
+   "testo": "Attingendo alla propria magia innata, lo stregone è in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    220.9,
+    525.6,
+    231.4
+   ],
+   "size": 8.8,
+   "testo": "grado di lanciare incantesimi. Consulta il capitolo 7 per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    231.8,
+    514.4,
+    242.4
+   ],
+   "size": 8.8,
+   "testo": "le regole relative al lancio degli incantesimi. Le infor-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    242.8,
+    524.8,
+    253.4
+   ],
+   "size": 8.8,
+   "testo": "mazioni sottostanti spiegano come applicare tali regole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    253.8,
+    525.5,
+    264.4
+   ],
+   "size": 8.8,
+   "testo": "agli incantesimi da stregone, elencati nella relativa lista",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    264.9,
+    533.0,
+    275.4
+   ],
+   "size": 8.8,
+   "testo": "degli incantesimi più avanti nella descrizione della classe.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.6,
+    275.9,
+    525.2,
+    286.5
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti. Il personaggio conosce quattro trucchetti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    286.9,
+    515.7,
+    297.4
+   ],
+   "size": 8.8,
+   "testo": "da stregone a scelta. Sono consigliati luce, prestidigita-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    297.9,
+    526.1,
+    308.5
+   ],
+   "size": 8.8,
+   "testo": "zione, strettafolgorante e stregoneriaesplosiva. Quando lo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    308.9,
+    527.0,
+    319.4
+   ],
+   "size": 8.8,
+   "testo": "stregone ottiene un livello, è possibile sostituire uno dei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    319.8,
+    520.7,
+    330.4
+   ],
+   "size": 8.8,
+   "testo": "trucchetti di questo privilegio con un altro trucchetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    330.9,
+    341.3,
+    341.4
+   ],
+   "size": 8.8,
+   "testo": "a scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    339.6,
+    521.3,
+    352.3
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver raggiunto il 4° e il 10° livello da stregone,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    352.8,
+    514.3,
+    363.4
+   ],
+   "size": 8.8,
+   "testo": "il personaggio apprende un altro trucchetto a scelta,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    363.6,
+    515.6,
+    374.2
+   ],
+   "size": 8.8,
+   "testo": "come mostrato nella colonna Trucchetti della tabella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    374.8,
+    403.0,
+    385.3
+   ],
+   "size": 8.8,
+   "testo": "Privilegi dello stregone.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.1,
+    385.7,
+    516.8,
+    396.3
+   ],
+   "size": 8.8,
+   "testo": "Slot incantesimo. La tabella Privilegi dello stregone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    396.7,
+    529.2,
+    407.3
+   ],
+   "size": 8.8,
+   "testo": "mostra gli slot incantesimo disponibili per i propri incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    405.7,
+    526.3,
+    418.4
+   ],
+   "size": 8.8,
+   "testo": "tesimi di 1° livello o superiore. Tutti gli slot incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    418.9,
+    528.4,
+    429.4
+   ],
+   "size": 8.8,
+   "testo": "consumati vengono ripristinati una volta completato un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    429.9,
+    361.3,
+    440.5
+   ],
+   "size": 8.8,
+   "testo": "riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    440.8,
+    537.1,
+    451.4
+   ],
+   "size": 8.8,
+   "testo": "Incantesimipreparati di 1° livello o superiore. Con questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    451.8,
+    529.9,
+    462.4
+   ],
+   "size": 8.8,
+   "testo": "privilegio, lo stregone prepara una lista di incantesimi di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    460.7,
+    535.6,
+    473.4
+   ],
+   "size": 8.8,
+   "testo": "1° livello o superiore che può lanciare. Per iniziare, sceglie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    471.7,
+    530.4,
+    484.4
+   ],
+   "size": 8.8,
+   "testo": "due incantesimi da stregone di 1° livello. Sono consigliati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    484.8,
+    468.2,
+    495.4
+   ],
+   "size": 8.8,
+   "testo": "mani brucianti e individuazione delmagico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.9,
+    495.8,
+    508.6,
+    506.4
+   ],
+   "size": 8.8,
+   "testo": "Il numero di incantesimi nella lista aumenta man",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    506.9,
+    508.3,
+    517.5
+   ],
+   "size": 8.8,
+   "testo": "mano che il personaggio ottiene livelli da stregone,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    517.9,
+    530.0,
+    528.5
+   ],
+   "size": 8.8,
+   "testo": "come mostrato nella colonna Incantesimi preparati della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    528.9,
+    529.8,
+    539.5
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi dello stregone. Ogni volta che il numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    539.9,
+    531.2,
+    550.5
+   ],
+   "size": 8.8,
+   "testo": "cresce, lo stregone deve scegliere altri incantesimi finché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    550.9,
+    523.5,
+    561.5
+   ],
+   "size": 8.8,
+   "testo": "il numero sulla lista non combacia con quello mostrato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    561.9,
+    535.6,
+    572.4
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi dello stregone. Gli incantesimi scelti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    572.9,
+    533.3,
+    583.5
+   ],
+   "size": 8.8,
+   "testo": "devono essere di un livello di cui possiede degli slot incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    581.7,
+    534.3,
+    594.4
+   ],
+   "size": 8.8,
+   "testo": "tesimo. Per esempio, nel caso di uno stregone di 3° livello,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    594.8,
+    514.9,
+    605.4
+   ],
+   "size": 8.8,
+   "testo": "la sua lista di incantesimi preparati può includere sei",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    603.7,
+    511.8,
+    616.5
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da stregone di 1° e 2° livello in qualsiasi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    617.0,
+    367.3,
+    627.5
+   ],
+   "size": 8.8,
+   "testo": "combinazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    628.0,
+    530.7,
+    638.6
+   ],
+   "size": 8.8,
+   "testo": "Se un altro privilegio gli fornisce incantesimi che sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    639.0,
+    527.0,
+    649.6
+   ],
+   "size": 8.8,
+   "testo": "sempre preparati, questi non contano ai fini del numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    650.0,
+    533.8,
+    660.5
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi preparabili con questo privilegio. Tuttavia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    661.0,
+    504.7,
+    671.6
+   ],
+   "size": 8.8,
+   "testo": "valgono comunque come incantesimi da stregone.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    671.9,
+    524.8,
+    682.5
+   ],
+   "size": 8.8,
+   "testo": "Cambiare gli incantesimipreparati. Quando completa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    682.9,
+    538.1,
+    693.5
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo, lo stregone può sostituire un incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    693.9,
+    525.8,
+    704.5
+   ],
+   "size": 8.8,
+   "testo": "sulla propria lista con un altro incantesimo da stregone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    705.0,
+    406.2,
+    715.6
+   ],
+   "size": 8.8,
+   "testo": "di cui possiede degli slot.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    544.1,
+    106.4,
+    546.4,
+    112.7
+   ],
+   "size": 4.9,
+   "testo": "1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    544.2,
+    103.7,
+    547.3,
+    121.9
+   ],
+   "size": 8.6,
+   "testo": "1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    544.2,
+    130.4,
+    546.4,
+    136.7
+   ],
+   "size": 4.9,
+   "testo": "1",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

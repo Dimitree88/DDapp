@@ -1,0 +1,1849 @@
+{
+ "pagina_pdf": 353,
+ "pagina_stampata": 350,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "350 / APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE",
+ "immagini": [
+  [
+   295,
+   38,
+   539,
+   300
+  ],
+  [
+   42,
+   196,
+   288,
+   446
+  ],
+  [
+   293,
+   307,
+   539,
+   725
+  ],
+  [
+   41,
+   452,
+   287,
+   726
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    50.6,
+    203.7,
+    119.3,
+    217.4
+   ],
+   "size": 10.4,
+   "testo": "GRANCHIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    221.8,
+    190.7,
+    231.0
+   ],
+   "size": 9.2,
+   "testo": "Bestia Minuscola, senza allineamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    236.9,
+    74.4,
+    246.6
+   ],
+   "size": 8.4,
+   "testo": "CA 11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    155.1,
+    236.6,
+    219.5,
+    246.3
+   ],
+   "size": 8.4,
+   "testo": "Iniziativa +0 (10)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    248.0,
+    104.3,
+    257.6
+   ],
+   "size": 8.4,
+   "testo": "PF 3 (1d4 + 1)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    258.9,
+    142.2,
+    268.5
+   ],
+   "size": 8.4,
+   "testo": "Velocità 6 m, nuoto 6 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.9,
+    272.4,
+    123.1,
+    279.8
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.6,
+    272.3,
+    200.8,
+    279.7
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    282.2,
+    81.5,
+    291.9
+   ],
+   "size": 8.4,
+   "testo": "FoR 6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.1,
+    282.5,
+    100.1,
+    291.7
+   ],
+   "size": 8.2,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    107.5,
+    282.4,
+    118.5,
+    291.7
+   ],
+   "size": 8.2,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.2,
+    282.0,
+    197.6,
+    291.6
+   ],
+   "size": 8.4,
+   "testo": "DES 11 +0 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    208.4,
+    282.2,
+    226.0,
+    291.4
+   ],
+   "size": 8.2,
+   "testo": "Cos",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    296.7,
+    68.6,
+    305.9
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    130.7,
+    296.2,
+    159.1,
+    305.9
+   ],
+   "size": 8.4,
+   "testo": "SAC 8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    166.9,
+    296.1,
+    176.1,
+    305.7
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.5,
+    296.1,
+    194.7,
+    305.7
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    208.4,
+    296.3,
+    225.5,
+    305.5
+   ],
+   "size": 8.2,
+   "testo": "CAR",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    315.3,
+    122.0,
+    324.9
+   ],
+   "size": 8.4,
+   "testo": "Abilità Furtività +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    326.2,
+    213.6,
+    335.9
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 9, vista cieca 9 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    337.1,
+    112.2,
+    346.8
+   ],
+   "size": 8.4,
+   "testo": "Lingue nessuna",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    348.0,
+    126.3,
+    357.6
+   ],
+   "size": 8.4,
+   "testo": "GS O (PE 10; BC +2)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    358.7,
+    84.1,
+    376.9
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    229.6,
+    281.9,
+    239.7,
+    291.5
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    231.0,
+    296.3,
+    237.0,
+    305.5
+   ],
+   "size": 8.2,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.4,
+    381.1,
+    245.6,
+    390.8
+   ],
+   "size": 8.4,
+   "testo": "Anfibio. Il granchio può respirare in aria e in acqua.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    391.6,
+    86.3,
+    409.8
+   ],
+   "size": 8.6,
+   "testo": "AZION I",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    245.3,
+    272.0,
+    278.8,
+    279.4
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    244.7,
+    281.8,
+    254.3,
+    291.4
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    263.3,
+    281.8,
+    272.9,
+    291.4
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    244.5,
+    295.8,
+    275.1,
+    305.6
+   ],
+   "size": 8.4,
+   "testo": "-4 -4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.2,
+    414.1,
+    250.9,
+    423.8
+   ],
+   "size": 9.2,
+   "testo": "Artiglio. Tiro per colpire in mischia: +2, portata 1,5 m.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    425.7,
+    165.7,
+    435.4
+   ],
+   "size": 9.2,
+   "testo": "Colpito: 1 danno contundente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.7,
+    459.1,
+    175.4,
+    472.8
+   ],
+   "size": 10.4,
+   "testo": "GRANCHIO GIGANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    477.4,
+    175.3,
+    486.6
+   ],
+   "size": 9.2,
+   "testo": "Bestia Media, senza allineamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.5,
+    492.4,
+    74.7,
+    502.1
+   ],
+   "size": 8.4,
+   "testo": "CA 15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    154.1,
+    492.4,
+    217.9,
+    502.0
+   ],
+   "size": 8.4,
+   "testo": "Iniziativa +1 (11)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    503.5,
+    93.7,
+    513.1
+   ],
+   "size": 8.4,
+   "testo": "PF 13 (3d8)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.2,
+    514.5,
+    141.0,
+    524.1
+   ],
+   "size": 8.4,
+   "testo": "Velocità 9 m, nuoto 9 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    88.6,
+    528.0,
+    122.1,
+    535.4
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    166.8,
+    528.0,
+    199.5,
+    535.4
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    537.8,
+    97.9,
+    547.4
+   ],
+   "size": 8.4,
+   "testo": "FOR 13 +1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.5,
+    537.8,
+    116.3,
+    547.4
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.9,
+    537.8,
+    175.5,
+    547.4
+   ],
+   "size": 8.4,
+   "testo": "DES 13 +1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.1,
+    537.8,
+    193.9,
+    547.4
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    207.2,
+    538.1,
+    224.6,
+    547.3
+   ],
+   "size": 8.2,
+   "testo": "Cos",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    552.2,
+    67.2,
+    561.5
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    87.5,
+    551.8,
+    118.2,
+    561.7
+   ],
+   "size": 8.4,
+   "testo": "-5 -5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.3,
+    552.2,
+    157.7,
+    561.5
+   ],
+   "size": 8.2,
+   "testo": "SAC 9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    165.5,
+    551.9,
+    174.7,
+    561.6
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.0,
+    551.9,
+    193.2,
+    561.6
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    206.9,
+    552.2,
+    224.1,
+    561.5
+   ],
+   "size": 8.2,
+   "testo": "CAR",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.9,
+    570.9,
+    120.2,
+    580.6
+   ],
+   "size": 8.4,
+   "testo": "Abilità Furtività +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    581.9,
+    212.0,
+    591.5
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 9, vista cieca 9 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.5,
+    593.0,
+    110.7,
+    602.6
+   ],
+   "size": 8.4,
+   "testo": "Lingue nessuna",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.7,
+    603.8,
+    132.8,
+    613.4
+   ],
+   "size": 8.4,
+   "testo": "GS 1/8 (25 PE; BC +2)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.8,
+    615.1,
+    83.3,
+    633.3
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    228.2,
+    537.8,
+    237.9,
+    547.4
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    229.7,
+    552.0,
+    235.2,
+    561.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.5,
+    637.7,
+    245.0,
+    647.4
+   ],
+   "size": 8.4,
+   "testo": "Anfibio. Il granchio può respirare in aria e in acqua.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.9,
+    648.1,
+    85.6,
+    666.3
+   ],
+   "size": 8.6,
+   "testo": "AZION I",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.1,
+    528.0,
+    277.4,
+    535.4
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    243.8,
+    538.1,
+    254.7,
+    547.4
+   ],
+   "size": 8.2,
+   "testo": "+0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    262.0,
+    538.1,
+    274.1,
+    547.4
+   ],
+   "size": 8.2,
+   "testo": "+0",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    243.2,
+    551.9,
+    273.9,
+    561.7
+   ],
+   "size": 8.4,
+   "testo": "-4 -4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.5,
+    670.7,
+    250.2,
+    680.4
+   ],
+   "size": 9.2,
+   "testo": "Artiglio. Tiro per colpire in mischia: +3, portata 1 ,5 m.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.2,
+    682.2,
+    275.9,
+    691.9
+   ],
+   "size": 9.2,
+   "testo": "Colpito: 4 (1d6 + 1) danni contundenti. Se il bersaglio è una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    693.6,
+    269.4,
+    703.2
+   ],
+   "size": 8.4,
+   "testo": "creatura di taglia Media o inferiore, viene afferrato (CD 11",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.4,
+    705.1,
+    189.0,
+    714.7
+   ],
+   "size": 8.4,
+   "testo": "per sfuggire) d a una delle due chele.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    45.8,
+    339.6,
+    59.5
+   ],
+   "size": 10.4,
+   "testo": "GUFO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    64.0,
+    443.4,
+    73.2
+   ],
+   "size": 9.2,
+   "testo": "Bestia Minuscola, senza allineamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    79.2,
+    326.8,
+    88.8
+   ],
+   "size": 8.4,
+   "testo": "CA 11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    407.9,
+    78.9,
+    471.6,
+    88.5
+   ],
+   "size": 8.4,
+   "testo": "Iniziativa +1 (11)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    90.1,
+    358.4,
+    99.7
+   ],
+   "size": 8.4,
+   "testo": "PF 1 (1d4 - 1)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    101.1,
+    399.6,
+    110.7
+   ],
+   "size": 8.4,
+   "testo": "Velocità 1 , 5 m, volo 18 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.5,
+    114.6,
+    375.8,
+    122.0
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    420.4,
+    114.5,
+    453.7,
+    121.9
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.9,
+    114.3,
+    531.0,
+    121.7
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    124.4,
+    333.9,
+    134.0
+   ],
+   "size": 8.4,
+   "testo": "FoR 3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    124.3,
+    353.1,
+    133.9
+   ],
+   "size": 8.4,
+   "testo": "-4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    360.3,
+    124.3,
+    372.6,
+    133.9
+   ],
+   "size": 8.4,
+   "testo": "-4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.0,
+    124.2,
+    429.4,
+    133.8
+   ],
+   "size": 8.4,
+   "testo": "DES 13 +1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.4,
+    124.2,
+    448.0,
+    133.8
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.2,
+    124.4,
+    478.7,
+    133.6
+   ],
+   "size": 8.2,
+   "testo": "Cos",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    138.8,
+    320.1,
+    148.1
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.2,
+    138.8,
+    334.2,
+    148.0
+   ],
+   "size": 8.2,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    138.5,
+    353.2,
+    148.2
+   ],
+   "size": 8.4,
+   "testo": "-4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    360.3,
+    138.4,
+    372.6,
+    148.2
+   ],
+   "size": 8.4,
+   "testo": "-4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.5,
+    138.4,
+    429.6,
+    148.0
+   ],
+   "size": 8.4,
+   "testo": "SAC 12 +1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.4,
+    138.4,
+    448.0,
+    148.0
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.2,
+    138.6,
+    478.4,
+    147.8
+   ],
+   "size": 8.2,
+   "testo": "CAR",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    157.5,
+    432.8,
+    167.1
+   ],
+   "size": 8.4,
+   "testo": "Abilità Furtività +5, Percezione +5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    168.5,
+    483.6,
+    178.2
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 15, scurovisione 36 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    179.5,
+    365.0,
+    189.2
+   ],
+   "size": 8.4,
+   "testo": "Lingue nessuna",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    190.5,
+    379.7,
+    200.2
+   ],
+   "size": 8.4,
+   "testo": "GS O (PE 10; BC +2)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    201.9,
+    337.5,
+    220.1
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    483.5,
+    124.1,
+    489.6,
+    133.7
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.4,
+    124.0,
+    506.5,
+    133.6
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    483.9,
+    138.2,
+    489.6,
+    147.9
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.1,
+    138.6,
+    508.3,
+    147.8
+   ],
+   "size": 8.2,
+   "testo": "-2",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    224.2,
+    511.7,
+    233.8
+   ],
+   "size": 8.4,
+   "testo": "Sfuggente. Il gufo non provoca attacchi di opportunità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    235.7,
+    464.9,
+    245.3
+   ],
+   "size": 8.4,
+   "testo": "quando vola oltre la portata di un nemico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    246.4,
+    342.0,
+    264.6
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    268.7,
+    505.3,
+    278.4
+   ],
+   "size": 9.2,
+   "testo": "Speroni. Tiro per colpire in mischia: +3, portata 1 , 5 m.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    280.3,
+    404.4,
+    290.0
+   ],
+   "size": 9.2,
+   "testo": "Colpito: 1 danno tagliente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    314.0,
+    324.6,
+    327.7
+   ],
+   "size": 10.4,
+   "testo": "IMP",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    332.2,
+    479.2,
+    341.4
+   ],
+   "size": 9.2,
+   "testo": "Immondo Minuscolo (Diavolo), legale malvagio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    347.0,
+    327.6,
+    356.6
+   ],
+   "size": 8.4,
+   "testo": "CA 13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    407.7,
+    347.1,
+    470.8,
+    356.8
+   ],
+   "size": 8.4,
+   "testo": "Iniziativa +3 (13)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    358.0,
+    362.6,
+    367.7
+   ],
+   "size": 8.4,
+   "testo": "PF 21 (6d4 + 6)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    368.9,
+    392.1,
+    378.5
+   ],
+   "size": 8.4,
+   "testo": "Velocità 6 m, volo 12 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    515.7,
+    124.0,
+    524.9,
+    133.7
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    515.6,
+    138.5,
+    526.6,
+    147.7
+   ],
+   "size": 8.2,
+   "testo": "-2",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    382.4,
+    375.2,
+    389.8
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.9,
+    382.4,
+    453.1,
+    389.8
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.4,
+    382.5,
+    530.7,
+    389.9
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    392.3,
+    333.6,
+    401.9
+   ],
+   "size": 8.4,
+   "testo": "FOR 6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.2,
+    392.6,
+    352.2,
+    401.8
+   ],
+   "size": 8.2,
+   "testo": "-2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    359.7,
+    392.6,
+    370.7,
+    401.8
+   ],
+   "size": 8.2,
+   "testo": "-2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.3,
+    392.3,
+    430.3,
+    401.9
+   ],
+   "size": 8.4,
+   "testo": "DES 17 +3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.8,
+    392.3,
+    448.9,
+    401.9
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.8,
+    392.3,
+    506.5,
+    401.9
+   ],
+   "size": 8.4,
+   "testo": "Cos 13 +1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    515.4,
+    392.3,
+    525.0,
+    401.9
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    406.5,
+    372.0,
+    416.1
+   ],
+   "size": 8.4,
+   "testo": "INT 11 +0 +0",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    382.9,
+    406.5,
+    428.8,
+    416.1
+   ],
+   "size": 8.4,
+   "testo": "SAC 12 +1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.7,
+    406.5,
+    447.3,
+    416.1
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.8,
+    406.5,
+    507.8,
+    416.1
+   ],
+   "size": 8.4,
+   "testo": "CAR 14 +2",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    515.3,
+    406.8,
+    526.3,
+    416.0
+   ],
+   "size": 8.2,
+   "testo": "+2",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    425.5,
+    476.0,
+    435.1
+   ],
+   "size": 8.4,
+   "testo": "Abilità Inganno +4, Intuizione +3, Furtività +5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    436.5,
+    372.6,
+    446.1
+   ],
+   "size": 8.4,
+   "testo": "Resistenze freddo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    447.5,
+    440.4,
+    457.1
+   ],
+   "size": 8.4,
+   "testo": "Immunità avvelenato, fuoco, veleno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    458.4,
+    482.3,
+    468.0
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 11 , scurovisione 36 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    469.4,
+    451.0,
+    479.1
+   ],
+   "size": 8.4,
+   "testo": "(non ostacolata dall'oscurità magica)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    480.4,
+    403.3,
+    490.1
+   ],
+   "size": 8.4,
+   "testo": "Lingue Comune, I nfernale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    491.4,
+    384.0,
+    501.0
+   ],
+   "size": 8.4,
+   "testo": "GS 1 (PE 200; BC +2)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    502.6,
+    336.4,
+    520.8
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    525.2,
+    515.4,
+    534.8
+   ],
+   "size": 8.4,
+   "testo": "Resistenza alla magia. L'imp dispone di vantaggio ai tiri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    536.7,
+    488.0,
+    546.3
+   ],
+   "size": 8.4,
+   "testo": "salvezza contro incantesimi e altri effetti magici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.6,
+    547.1,
+    340.4,
+    565.3
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.0,
+    569.6,
+    519.6,
+    579.3
+   ],
+   "size": 9.2,
+   "testo": "Pungiglione. Tiro per colpire in mischia: +5, portata 1 , 5 m.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    581.1,
+    508.1,
+    590.8
+   ],
+   "size": 9.2,
+   "testo": "Colpito: 6 (1d6 + 3) danni perforanti più 7 (2d6) danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    592.5,
+    342.6,
+    602.1
+   ],
+   "size": 8.4,
+   "testo": "da veleno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.0,
+    608.6,
+    513.0,
+    618.3
+   ],
+   "size": 9.2,
+   "testo": "Invisibilità. L'imp può lanciare invisibilità su di sé senza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    620.1,
+    510.7,
+    629.8
+   ],
+   "size": 8.4,
+   "testo": "bisogno di componenti per incantesimi e utilizzando il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    631.7,
+    469.6,
+    641.4
+   ],
+   "size": 8.4,
+   "testo": "Carisma come caratteristica da incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.0,
+    647.7,
+    516.7,
+    657.3
+   ],
+   "size": 8.4,
+   "testo": "Mutaforma. L'imp può assumere la forma bestiale di un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    659.2,
+    522.5,
+    668.8
+   ],
+   "size": 8.4,
+   "testo": "topo (velocità 6 m), un corvo (6 m, volo 18 m) o un ragno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    670.7,
+    517.4,
+    680.4
+   ],
+   "size": 8.4,
+   "testo": "(6 m, scalata 6 m), o tornare alla sua vera forma. Mentre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    682.1,
+    515.0,
+    691.7
+   ],
+   "size": 8.4,
+   "testo": "le statistiche di gioco restano le stesse in ogni forma, la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    693.7,
+    509.4,
+    703.3
+   ],
+   "size": 8.4,
+   "testo": "velocità varia. Qualsiasi equipaggiamento che indossa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    705.2,
+    462.4,
+    714.8
+   ],
+   "size": 8.4,
+   "testo": "o trasporta non subisce la trasformazione.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

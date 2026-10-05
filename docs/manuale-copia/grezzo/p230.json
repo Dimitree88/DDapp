@@ -1,0 +1,931 @@
+{
+ "pagina_pdf": 230,
+ "pagina_stampata": 227,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 227",
+ "immagini": [
+  [
+   301,
+   7,
+   557,
+   291
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.4,
+    41.5,
+    264.7,
+    50.2
+   ],
+   "size": 6.7,
+   "testo": "superficie piana per coprire una zona di 1,5 metri qua­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    52.5,
+    263.5,
+    61.2
+   ],
+   "size": 6.7,
+   "testo": "drati entro 1,5 metri da sé. Se incendiato, l'olio brucia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    63.5,
+    255.3,
+    72.2
+   ],
+   "size": 6.7,
+   "testo": "per 2 round fino al termine del turno (o 12 secondi)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    74.6,
+    258.6,
+    83.2
+   ],
+   "size": 6.7,
+   "testo": "e infligge 5 danni da fuoco a qualsiasi creatura entri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    85.5,
+    265.7,
+    94.2
+   ],
+   "size": 6.7,
+   "testo": "in quell'area o finisca lì il suo turno. Una creatura può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    96.4,
+    228.3,
+    105.1
+   ],
+   "size": 6.7,
+   "testo": "subire questi danni solo una volta per turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    107.5,
+    266.2,
+    116.1
+   ],
+   "size": 6.7,
+   "testo": "Combustibile. L'olio è utilizzabile come combustibile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    118.4,
+    262.5,
+    127.1
+   ],
+   "size": 6.7,
+   "testo": "per lampade e lanterne. Una volta versata un'ampolla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    129.5,
+    263.8,
+    138.1
+   ],
+   "size": 6.7,
+   "testo": "di olio in una lampada o una lanterna, questo brucerà",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    140.5,
+    270.5,
+    149.2
+   ],
+   "size": 6.7,
+   "testo": "per 6 ore. Tale durata non deve necessariamente essere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    151.5,
+    269.5,
+    160.2
+   ],
+   "size": 6.7,
+   "testo": "consecutiva: è possibile spegnere il fuoco (come azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    162.5,
+    265.3,
+    171.2
+   ],
+   "size": 6.7,
+   "testo": "di Utilizzo) e riaccenderlo finché la durata totale della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    173.5,
+    197.3,
+    182.2
+   ],
+   "size": 6.7,
+   "testo": "combustione non raggiunge le 6 ore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    204.7,
+    122.2,
+    215.0
+   ],
+   "size": 10.3,
+   "testo": "OTRE (2 MA)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    219.7,
+    270.5,
+    228.3
+   ],
+   "size": 6.7,
+   "testo": "Un otre ha una capacità di 2 litri. Se il personaggio non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    230.6,
+    274.4,
+    239.3
+   ],
+   "size": 6.7,
+   "testo": "beve abbastanza acqua, corre il rischio di disidratazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    241.6,
+    172.4,
+    250.3
+   ],
+   "size": 6.7,
+   "testo": "(vedi il Glossario delle regole).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    272.9,
+    118.6,
+    283.2
+   ],
+   "size": 10.3,
+   "testo": "PALA (2 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    287.8,
+    254.8,
+    296.5
+   ],
+   "size": 6.7,
+   "testo": "Se il personaggio impiega 1 ora di lavoro, può usare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    298.9,
+    256.9,
+    307.5
+   ],
+   "size": 6.7,
+   "testo": "la pala per scavare una buca nel terreno di 1,5 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    309.9,
+    87.3,
+    318.5
+   ],
+   "size": 6.7,
+   "testo": "per lato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    340.9,
+    140.3,
+    351.2
+   ],
+   "size": 10.3,
+   "testo": "PENNINO (2 MR)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    355.8,
+    244.7,
+    364.5
+   ],
+   "size": 6.7,
+   "testo": "Usando pennino e inchiostro è possibile scrivere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    366.9,
+    103.0,
+    375.5
+   ],
+   "size": 6.7,
+   "testo": "o disegnare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    398.1,
+    191.8,
+    408.4
+   ],
+   "size": 10.3,
+   "testo": "PENTOLA DI FERRO (2 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    413.0,
+    233.0,
+    421.7
+   ],
+   "size": 6.7,
+   "testo": "Una pentola di ferro ha una capacità di 4 litri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    446.1,
+    154.3,
+    454.4
+   ],
+   "size": 8.2,
+   "testo": "PERGAMENA (1 MA)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    459.1,
+    271.2,
+    467.8
+   ],
+   "size": 6.7,
+   "testo": "Un foglio di pergamena può contenere circa 250 parole",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    470.1,
+    113.2,
+    478.7
+   ],
+   "size": 6.7,
+   "testo": "scritte a mano.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    501.3,
+    283.3,
+    511.6
+   ],
+   "size": 10.3,
+   "testo": "PERGAMENA MAGICA (TRUCCHETTO, 30 MO;",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    512.1,
+    150.0,
+    522.4
+   ],
+   "size": 10.3,
+   "testo": "LIVELLO 1, 50 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    527.0,
+    257.8,
+    535.7
+   ],
+   "size": 6.7,
+   "testo": "Una pergamena magica (trucchetto) o una pergamena",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    538.1,
+    267.0,
+    546.7
+   ],
+   "size": 6.7,
+   "testo": "magica (livello 1) sono oggetti magici contenenti rispet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.1,
+    549.0,
+    266.0,
+    557.7
+   ],
+   "size": 6.7,
+   "testo": "tivamente le parole di un trucchetto o un incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    560.0,
+    278.1,
+    568.7
+   ],
+   "size": 6.7,
+   "testo": "di livello 1, che variano in base al volere del loro creatore.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    571.0,
+    279.8,
+    579.6
+   ],
+   "size": 6.7,
+   "testo": "Se l'incantesimo è nella lista degli incantesimi della classe",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    582.0,
+    272.0,
+    590.6
+   ],
+   "size": 6.7,
+   "testo": "del personaggio, quest'ultimo può leggere la pergamena",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    592.9,
+    284.2,
+    601.6
+   ],
+   "size": 6.7,
+   "testo": "e lanciare l'incantesimo con il suo normale tempo di lancio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    603.9,
+    201.9,
+    612.6
+   ],
+   "size": 6.7,
+   "testo": "e senza fornire componenti materiali.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    615.1,
+    276.6,
+    623.7
+   ],
+   "size": 6.7,
+   "testo": "Se l'incantesimo richiede di effettuare un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    626.2,
+    266.6,
+    634.9
+   ],
+   "size": 6.7,
+   "testo": "o un tiro per colpire, la CD del tiro salvezza sull'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    637.2,
+    263.8,
+    645.8
+   ],
+   "size": 6.7,
+   "testo": "tesimo è 13, mentre il bonus di attacco è +5. Una volta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    648.2,
+    235.6,
+    656.8
+   ],
+   "size": 6.7,
+   "testo": "terminato il lancio, la pergamena si disintegra.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    679.3,
+    175.4,
+    689.6
+   ],
+   "size": 10.3,
+   "testo": "PIEDE DI PORCO (2 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    694.2,
+    260.1,
+    702.8
+   ],
+   "size": 6.7,
+   "testo": "Utilizzando un piede di porco, il personaggio ottiene",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    705.2,
+    273.4,
+    713.9
+   ],
+   "size": 6.7,
+   "testo": "vantaggio alle prove di Forza in cui è possibile applicare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    716.1,
+    97.9,
+    724.8
+   ],
+   "size": 6.7,
+   "testo": "la sua leva.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    318.8,
+    481.2,
+    329.1
+   ],
+   "size": 10.3,
+   "testo": "POZIONE DI GUARIGIONE (50 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    333.7,
+    533.1,
+    342.4
+   ],
+   "size": 6.7,
+   "testo": "Questa pozione è un oggetto magico. Come azione bonus,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.7,
+    344.7,
+    529.8,
+    353.3
+   ],
+   "size": 6.7,
+   "testo": "il personaggio può berne una o somministrarla a un'altra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    355.7,
+    523.5,
+    364.3
+   ],
+   "size": 6.7,
+   "testo": "creatura entro 1,5 metri da sé. Chi beve il fluido magico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    366.6,
+    536.2,
+    375.2
+   ],
+   "size": 6.7,
+   "testo": "rosso contenuto in questa fiala recupera 2d4 + 2 punti ferita.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    398.0,
+    395.6,
+    408.3
+   ],
+   "size": 10.3,
+   "testo": "PROFUMO (5 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    412.9,
+    503.5,
+    421.6
+   ],
+   "size": 6.7,
+   "testo": "I profumi sono disponibili in ampolle con capacità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    423.8,
+    514.9,
+    432.5
+   ],
+   "size": 6.7,
+   "testo": "di 120 millilitri. Dopo che il personaggio ha applicato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.7,
+    434.9,
+    519.0,
+    443.5
+   ],
+   "size": 6.7,
+   "testo": "su di sé il profumo, per 1 ora avrà vantaggio alle prove",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    445.7,
+    520.5,
+    454.4
+   ],
+   "size": 6.7,
+   "testo": "di Carisma (Persuasione) effettuate per influenzare un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    456.8,
+    478.4,
+    465.4
+   ],
+   "size": 6.7,
+   "testo": "umanoide indifferente entro 1,5 metri da sé.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    475.7,
+    457.6,
+    484.0
+   ],
+   "size": 18.3,
+   "testo": "p---\u0016\u0001\u0002\u0003\u0004-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    488.0,
+    394.6,
+    498.3
+   ],
+   "size": 10.3,
+   "testo": "RAMPINO (2 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    502.9,
+    518.5,
+    511.5
+   ],
+   "size": 6.7,
+   "testo": "Come azione di Utilizzo, il personaggio può lanciare il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    513.9,
+    522.1,
+    522.6
+   ],
+   "size": 6.7,
+   "testo": "rampino verso una ringhiera, una sporgenza o un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    524.9,
+    533.2,
+    533.6
+   ],
+   "size": 6.7,
+   "testo": "appiglio entro 15 metri da sé. Per far sì che il gancio faccia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    535.9,
+    508.3,
+    544.6
+   ],
+   "size": 6.7,
+   "testo": "presa è necessario superare una prova di Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    547.0,
+    512.2,
+    555.6
+   ],
+   "size": 6.7,
+   "testo": "(Acrobazia) con CD 13. Se al gancio viene legata una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    557.9,
+    429.4,
+    566.6
+   ],
+   "size": 6.7,
+   "testo": "corda, è possibile arrampicarsi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    589.1,
+    390.0,
+    599.4
+   ],
+   "size": 10.3,
+   "testo": "RAZIONI (5 MA)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    604.0,
+    529.8,
+    612.7
+   ],
+   "size": 6.7,
+   "testo": "L e razioni sono composte da cibo da viaggio, come carne",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.7,
+    615.1,
+    532.9,
+    623.8
+   ],
+   "size": 6.7,
+   "testo": "secca, frutta secca, gallette e noci. Per scoprire i rischi del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    626.2,
+    527.6,
+    634.8
+   ],
+   "size": 6.7,
+   "testo": "digiuno, consulta la sezione Malnutrizione nel Glossario",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    637.2,
+    354.8,
+    645.8
+   ],
+   "size": 6.7,
+   "testo": "delle regole.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    670.4,
+    370.6,
+    678.7
+   ],
+   "size": 8.2,
+   "testo": "RETE (1 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    683.2,
+    513.9,
+    691.9
+   ],
+   "size": 6.7,
+   "testo": "Quando il personaggio effettua un'azione di Attacco,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    694.2,
+    523.9,
+    702.9
+   ],
+   "size": 6.7,
+   "testo": "puoi sostituire uno dei suoi attacchi con il lancio di una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    705.2,
+    517.8,
+    713.9
+   ],
+   "size": 6.7,
+   "testo": "rete verso una creatura che è in grado di vedere entro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    716.2,
+    518.8,
+    724.9
+   ],
+   "size": 6.7,
+   "testo": "un raggio di 4,5 metri da sé. Il bersaglio deve superare",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

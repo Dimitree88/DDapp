@@ -1,0 +1,3247 @@
+{
+ "pagina_pdf": 83,
+ "pagina_stampata": 80,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "80 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   79,
+   68
+  ],
+  [
+   52,
+   323,
+   532,
+   448
+  ],
+  [
+   297,
+   711,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.6,
+    35.6,
+    166.9,
+    46.3
+   ],
+   "size": 10.6,
+   "testo": "PRIVILEGI DEL DRUIDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.0,
+    65.1,
+    126.5,
+    75.8
+   ],
+   "size": 10.6,
+   "testo": "Bonus di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    257.7,
+    65.0,
+    284.3,
+    75.6
+   ],
+   "size": 10.6,
+   "testo": "Forma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    76.1,
+    206.3,
+    86.8
+   ],
+   "size": 10.6,
+   "testo": "Livello competenza Privilegi di classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    253.1,
+    76.0,
+    288.4,
+    86.7
+   ],
+   "size": 10.6,
+   "testo": "selvatica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    102.4,
+    91.1,
+    113.8,
+    100.8
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.6,
+    91.1,
+    222.1,
+    100.7
+   ],
+   "size": 8.4,
+   "testo": "Druidico, incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.0,
+    102.0,
+    218.1,
+    112.7
+   ],
+   "size": 8.8,
+   "testo": "e ordine primordiale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    117.6,
+    70.3,
+    127.3
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.6,
+    117.7,
+    113.1,
+    127.3
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.0,
+    117.6,
+    219.5,
+    127.2
+   ],
+   "size": 8.4,
+   "testo": "Compagno selvatico,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    117.5,
+    273.4,
+    127.2
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.9,
+    129.6,
+    197.9,
+    139.3
+   ],
+   "size": 8.4,
+   "testo": "forma selvatica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    144.3,
+    70.0,
+    153.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.6,
+    144.2,
+    113.1,
+    153.8
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.2,
+    144.2,
+    225.5,
+    153.8
+   ],
+   "size": 8.4,
+   "testo": "Sottoclasse del druido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    144.1,
+    273.2,
+    153.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    158.8,
+    70.2,
+    168.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.6,
+    158.8,
+    113.1,
+    168.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.8,
+    158.8,
+    225.0,
+    168.4
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    158.7,
+    273.2,
+    168.3
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    138.0,
+    170.9,
+    199.2,
+    180.5
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    185.4,
+    70.0,
+    195.0
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.4,
+    185.4,
+    113.5,
+    195.0
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.5,
+    185.4,
+    209.8,
+    195.1
+   ],
+   "size": 8.4,
+   "testo": "Rinascita selvatica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    185.3,
+    273.2,
+    195.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    200.1,
+    70.3,
+    209.7
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.4,
+    199.8,
+    113.5,
+    209.8
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.5,
+    200.1,
+    241.3,
+    209.7
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    200.0,
+    272.9,
+    209.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.5,
+    214.6,
+    70.1,
+    224.2
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.4,
+    214.7,
+    113.5,
+    224.4
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.5,
+    214.6,
+    203.9,
+    224.3
+   ],
+   "size": 8.4,
+   "testo": "Furia elementale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    214.7,
+    272.9,
+    224.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    229.3,
+    70.1,
+    238.9
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.4,
+    229.1,
+    113.5,
+    238.9
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.8,
+    229.2,
+    225.0,
+    238.8
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    229.1,
+    272.9,
+    238.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.9,
+    241.2,
+    199.1,
+    250.8
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    255.8,
+    70.1,
+    265.5
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.1,
+    255.8,
+    114.3,
+    265.4
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    255.7,
+    272.9,
+    265.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    270.3,
+    73.9,
+    280.0
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.0,
+    270.4,
+    114.4,
+    280.0
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.5,
+    270.4,
+    241.3,
+    280.0
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    270.3,
+    272.9,
+    279.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    285.0,
+    72.4,
+    294.6
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.0,
+    284.9,
+    114.1,
+    294.7
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    285.0,
+    272.9,
+    294.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    299.6,
+    73.6,
+    309.2
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.0,
+    299.4,
+    114.1,
+    309.3
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.7,
+    299.5,
+    224.8,
+    309.1
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    299.5,
+    272.9,
+    309.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.9,
+    311.5,
+    198.9,
+    321.1
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    326.1,
+    73.3,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.3,
+    326.1,
+    113.7,
+    335.8
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    326.1,
+    272.8,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    340.6,
+    73.5,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.3,
+    340.7,
+    113.7,
+    350.3
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.5,
+    340.6,
+    241.1,
+    350.3
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    340.6,
+    272.8,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    355.1,
+    73.7,
+    364.8
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.3,
+    355.2,
+    113.9,
+    364.8
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.5,
+    355.1,
+    244.4,
+    364.7
+   ],
+   "size": 8.4,
+   "testo": "Furia elementale migliorata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    355.1,
+    272.8,
+    364.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    369.8,
+    73.9,
+    379.4
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.3,
+    369.8,
+    113.7,
+    379.4
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.7,
+    369.7,
+    224.8,
+    379.4
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    369.7,
+    272.8,
+    379.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.9,
+    381.7,
+    198.9,
+    391.3
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    396.3,
+    73.6,
+    405.9
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.0,
+    396.3,
+    114.3,
+    406.0
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.8,
+    396.3,
+    273.0,
+    405.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    411.0,
+    73.6,
+    420.6
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.0,
+    411.0,
+    114.3,
+    420.6
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.5,
+    411.0,
+    214.5,
+    420.6
+   ],
+   "size": 8.4,
+   "testo": "Incantesimi bestiali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.8,
+    410.9,
+    273.0,
+    420.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    425.5,
+    73.6,
+    435.1
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.1,
+    425.6,
+    113.9,
+    435.2
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.9,
+    425.5,
+    183.4,
+    435.2
+   ],
+   "size": 8.4,
+   "testo": "Dono epico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.8,
+    425.5,
+    273.0,
+    435.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.0,
+    440.1,
+    72.3,
+    449.7
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    102.0,
+    440.1,
+    114.1,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.7,
+    440.1,
+    180.4,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "Arcidruido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.8,
+    440.1,
+    273.0,
+    449.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    461.3,
+    167.9,
+    472.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: DRUIDICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    472.7,
+    268.7,
+    483.2
+   ],
+   "size": 8.8,
+   "testo": "Un druido conosce il druidico, la lingua segreta del suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    483.6,
+    261.2,
+    494.2
+   ],
+   "size": 8.8,
+   "testo": "ordine. Imparando questa lingua antica, ha sbloccato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    494.6,
+    256.7,
+    505.1
+   ],
+   "size": 8.8,
+   "testo": "anche la magia della comunicazione con gli animali;",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    505.6,
+    274.8,
+    516.2
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo parlare conglianimali è sempre considerato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    516.7,
+    95.0,
+    527.3
+   ],
+   "size": 8.8,
+   "testo": "preparato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    527.7,
+    264.6,
+    538.3
+   ],
+   "size": 8.8,
+   "testo": "Il druido può usare il druidico per lasciare messaggi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    538.7,
+    281.8,
+    549.2
+   ],
+   "size": 8.8,
+   "testo": "nascosti. Il druido e coloro che conoscono il druidico sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    549.6,
+    268.9,
+    560.2
+   ],
+   "size": 8.8,
+   "testo": "in grado di individuare tali messaggi automaticamente.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    560.7,
+    266.9,
+    571.2
+   ],
+   "size": 8.8,
+   "testo": "Altri possono notare la presenza di un messaggio supe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    571.6,
+    264.0,
+    582.2
+   ],
+   "size": 8.8,
+   "testo": "rando una prova di Intelligenza (Indagare) con CD 15,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    582.6,
+    258.0,
+    593.2
+   ],
+   "size": 8.8,
+   "testo": "ma non possono decifrarlo senza l'aiuto della magia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    603.0,
+    232.2,
+    614.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: ORDINE PRIMORDIALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    614.5,
+    277.0,
+    625.1
+   ],
+   "size": 8.8,
+   "testo": "Il chierico si dedica a uno dei seguenti ruoli sacri a scelta.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    625.5,
+    281.7,
+    636.1
+   ],
+   "size": 8.8,
+   "testo": "Custode. Addestrato a combattere, il druido ha acquisito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    636.6,
+    257.9,
+    647.1
+   ],
+   "size": 8.8,
+   "testo": "competenza con le armi da guerra e con le armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    647.6,
+    85.1,
+    658.1
+   ],
+   "size": 8.8,
+   "testo": "pesanti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    658.6,
+    256.4,
+    669.1
+   ],
+   "size": 8.8,
+   "testo": "Mago. Il druido conosce un trucchetto extra dalla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    669.5,
+    271.7,
+    680.1
+   ],
+   "size": 8.8,
+   "testo": "lista degli incantesimi da druido. Inoltre, la connessione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    680.5,
+    260.3,
+    691.1
+   ],
+   "size": 8.8,
+   "testo": "mistica con natura gli conferisce un bonus alle prove",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    691.5,
+    269.3,
+    702.1
+   ],
+   "size": 8.8,
+   "testo": "di Intelligenza (Arcano o Natura). Il bonus è pari al suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    702.5,
+    237.8,
+    713.0
+   ],
+   "size": 8.8,
+   "testo": "modificatore di Saggezza (bonus minimo di +1).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.8,
+    50.5,
+    516.0,
+    61.2
+   ],
+   "size": 10.6,
+   "testo": "-Slot incantesimo per livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    336.5,
+    65.0,
+    383.0,
+    75.7
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    425.2,
+    61.6,
+    490.0,
+    72.2
+   ],
+   "size": 10.6,
+   "testo": "di incantesimo-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    293.3,
+    76.0,
+    377.5,
+    86.7
+   ],
+   "size": 10.6,
+   "testo": "Trucchetti preparati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    387.4,
+    77.3,
+    391.9,
+    86.3
+   ],
+   "size": 6.9,
+   "testo": "1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.2,
+    77.2,
+    410.4,
+    86.4
+   ],
+   "size": 8.2,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.5,
+    77.2,
+    427.3,
+    86.5
+   ],
+   "size": 8.2,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.2,
+    77.2,
+    444.7,
+    86.4
+   ],
+   "size": 8.2,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.5,
+    77.2,
+    461.3,
+    86.5
+   ],
+   "size": 8.2,
+   "testo": "s",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    472.5,
+    77.3,
+    478.8,
+    86.5
+   ],
+   "size": 8.2,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    489.6,
+    77.2,
+    495.5,
+    86.4
+   ],
+   "size": 8.2,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    506.3,
+    77.3,
+    512.6,
+    86.6
+   ],
+   "size": 8.2,
+   "testo": "8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    523.4,
+    77.3,
+    529.7,
+    86.6
+   ],
+   "size": 8.2,
+   "testo": "9",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.6,
+    91.1,
+    316.6,
+    100.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.7,
+    91.0,
+    361.9,
+    100.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    387.4,
+    91.1,
+    393.4,
+    100.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    117.5,
+    316.6,
+    127.2
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.2,
+    117.6,
+    361.7,
+    127.2
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    387.5,
+    117.6,
+    393.0,
+    127.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.5,
+    119.0,
+    410.7,
+    123.1
+   ],
+   "size": 2.8,
+   "testo": "-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    418.7,
+    119.0,
+    427.9,
+    123.1
+   ],
+   "size": 2.8,
+   "testo": "-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.8,
+    119.2,
+    445.1,
+    123.3
+   ],
+   "size": 2.8,
+   "testo": "-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    452.8,
+    119.2,
+    462.0,
+    123.3
+   ],
+   "size": 2.8,
+   "testo": "-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    469.8,
+    119.2,
+    479.0,
+    123.3
+   ],
+   "size": 2.8,
+   "testo": "-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    486.9,
+    119.2,
+    496.1,
+    123.3
+   ],
+   "size": 2.8,
+   "testo": "-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    503.9,
+    119.2,
+    513.1,
+    123.3
+   ],
+   "size": 2.8,
+   "testo": "-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    520.8,
+    119.2,
+    530.0,
+    123.3
+   ],
+   "size": 2.8,
+   "testo": "-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    144.1,
+    316.5,
+    153.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.0,
+    144.2,
+    362.0,
+    153.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    387.0,
+    144.2,
+    393.3,
+    153.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    144.2,
+    410.4,
+    153.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    158.8,
+    316.1,
+    168.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.2,
+    158.7,
+    361.9,
+    168.3
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    158.7,
+    393.1,
+    168.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    158.8,
+    410.1,
+    168.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.7,
+    185.4,
+    316.2,
+    195.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.8,
+    185.4,
+    361.9,
+    195.0
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    185.3,
+    393.1,
+    194.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    185.4,
+    410.1,
+    195.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.5,
+    185.4,
+    427.5,
+    195.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    200.0,
+    316.1,
+    209.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.0,
+    199.9,
+    365.7,
+    209.6
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    200.0,
+    393.1,
+    209.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    200.0,
+    410.1,
+    209.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    200.1,
+    427.1,
+    209.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    214.6,
+    316.1,
+    224.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.3,
+    214.6,
+    364.3,
+    224.2
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    214.6,
+    393.1,
+    224.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    214.7,
+    410.1,
+    224.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    214.7,
+    427.1,
+    224.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    229.2,
+    316.1,
+    238.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.3,
+    229.1,
+    365.5,
+    238.8
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    229.1,
+    393.1,
+    238.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    229.2,
+    410.1,
+    238.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    229.2,
+    427.1,
+    238.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.5,
+    229.2,
+    444.5,
+    238.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    255.7,
+    316.1,
+    265.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.2,
+    255.6,
+    365.2,
+    265.3
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    255.7,
+    393.1,
+    265.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    255.7,
+    410.1,
+    265.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    255.9,
+    427.1,
+    265.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    255.9,
+    444.1,
+    265.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    270.3,
+    316.3,
+    279.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.3,
+    270.3,
+    365.3,
+    279.9
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    270.3,
+    393.1,
+    279.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    270.4,
+    410.1,
+    280.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    270.4,
+    427.1,
+    280.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.8,
+    270.4,
+    444.3,
+    280.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    270.4,
+    461.7,
+    280.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    284.9,
+    316.3,
+    294.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.0,
+    285.0,
+    365.7,
+    294.6
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    284.9,
+    393.1,
+    294.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    285.0,
+    410.1,
+    294.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    285.0,
+    427.1,
+    294.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    285.1,
+    444.1,
+    294.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    285.0,
+    461.7,
+    294.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    299.5,
+    316.3,
+    309.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.0,
+    299.5,
+    365.7,
+    309.1
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    299.5,
+    393.1,
+    309.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.5,
+    299.5,
+    410.1,
+    309.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    299.5,
+    427.1,
+    309.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.8,
+    299.6,
+    444.3,
+    309.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    299.6,
+    461.7,
+    309.2
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    326.1,
+    316.3,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.3,
+    326.1,
+    365.3,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    326.1,
+    393.1,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    326.1,
+    409.9,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    326.1,
+    427.1,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    326.2,
+    444.1,
+    335.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.5,
+    326.1,
+    461.5,
+    335.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    340.5,
+    316.3,
+    350.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.3,
+    340.6,
+    365.3,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    340.6,
+    393.1,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    340.6,
+    409.9,
+    350.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    340.7,
+    427.1,
+    350.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    340.6,
+    444.1,
+    350.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.5,
+    340.6,
+    461.5,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    355.0,
+    316.3,
+    364.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.0,
+    355.1,
+    365.5,
+    364.8
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    355.1,
+    393.1,
+    364.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    355.2,
+    409.9,
+    364.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.5,
+    355.2,
+    427.0,
+    364.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    355.2,
+    444.1,
+    364.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.5,
+    355.1,
+    461.5,
+    364.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    369.7,
+    316.2,
+    379.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.0,
+    369.7,
+    365.5,
+    379.3
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    369.7,
+    393.1,
+    379.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    369.7,
+    409.9,
+    379.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.5,
+    369.7,
+    427.0,
+    379.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    369.7,
+    444.1,
+    379.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.5,
+    369.8,
+    461.5,
+    379.4
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    396.2,
+    316.3,
+    405.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.0,
+    396.3,
+    365.2,
+    405.9
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.9,
+    396.3,
+    393.1,
+    405.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    396.3,
+    409.9,
+    405.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.6,
+    396.3,
+    427.1,
+    405.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    396.4,
+    444.1,
+    406.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.5,
+    396.3,
+    461.5,
+    406.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    411.0,
+    316.2,
+    420.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.7,
+    411.0,
+    364.0,
+    420.6
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.8,
+    411.0,
+    393.0,
+    420.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    411.0,
+    409.9,
+    420.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.5,
+    411.0,
+    427.0,
+    420.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    411.1,
+    444.1,
+    420.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    411.1,
+    461.2,
+    420.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    425.5,
+    316.2,
+    435.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.7,
+    425.5,
+    363.3,
+    435.2
+   ],
+   "size": 8.4,
+   "testo": "21",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.8,
+    425.5,
+    393.0,
+    435.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    425.5,
+    409.9,
+    435.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.5,
+    425.5,
+    427.0,
+    435.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    425.7,
+    444.1,
+    435.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    425.7,
+    461.2,
+    435.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    472.6,
+    425.6,
+    478.6,
+    435.2
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    440.1,
+    316.2,
+    449.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.5,
+    440.1,
+    364.9,
+    449.7
+   ],
+   "size": 8.4,
+   "testo": "22",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.8,
+    440.1,
+    393.0,
+    449.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    404.4,
+    440.2,
+    409.9,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    421.5,
+    440.2,
+    427.0,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.6,
+    440.2,
+    444.1,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    440.2,
+    461.2,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    472.6,
+    440.1,
+    478.6,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    489.6,
+    440.2,
+    495.6,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    461.3,
+    487.9,
+    472.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: COMPAGNO SELVATICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    472.7,
+    519.4,
+    483.2
+   ],
+   "size": 8.8,
+   "testo": "Il druido può evocare in suo soccorso uno spirito della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    483.8,
+    520.9,
+    494.4
+   ],
+   "size": 8.8,
+   "testo": "natura che assume una forma animale. Come azione di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    494.7,
+    527.6,
+    505.3
+   ],
+   "size": 8.8,
+   "testo": "Magia, il druido può spendere uno slot incantesimo o un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    505.7,
+    516.0,
+    516.3
+   ],
+   "size": 8.8,
+   "testo": "utilizzo di Forma Selvatica per lanciare l'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    516.8,
+    512.6,
+    527.4
+   ],
+   "size": 8.8,
+   "testo": "trovafamiglio senza l'ausilio di componenti materiali.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.5,
+    527.7,
+    505.5,
+    538.3
+   ],
+   "size": 8.8,
+   "testo": "Una volta lanciato l'incantesimo in questo modo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    538.8,
+    510.7,
+    549.3
+   ],
+   "size": 8.8,
+   "testo": "il famiglia evocato sarà un folletto e svanirà quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    549.7,
+    472.3,
+    560.3
+   ],
+   "size": 8.8,
+   "testo": "il druido avrà completato un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    570.1,
+    464.8,
+    581.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: FORMA SELVATICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    581.5,
+    513.2,
+    592.1
+   ],
+   "size": 8.8,
+   "testo": "La forza della natura permette al druido di assumere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    592.5,
+    513.8,
+    603.1
+   ],
+   "size": 8.8,
+   "testo": "la forma di un animale. Come azione bonus, il druido",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    603.5,
+    517.6,
+    614.0
+   ],
+   "size": 8.8,
+   "testo": "assume le sembianze di una bestia di cui ha appreso la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    614.6,
+    513.8,
+    625.2
+   ],
+   "size": 8.8,
+   "testo": "forma per questo privilegio (vedi \"Forme conosciute\"",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    625.6,
+    528.7,
+    636.2
+   ],
+   "size": 8.8,
+   "testo": "di seguito). Rimane in quella forma per un numero di ore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    636.7,
+    522.4,
+    647.2
+   ],
+   "size": 8.8,
+   "testo": "pari alla metà del livello da druido o finché non utilizza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    647.7,
+    525.1,
+    658.3
+   ],
+   "size": 8.8,
+   "testo": "di nuovo Forma Selvatica, o non è incapacitato o morto.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    658.6,
+    516.8,
+    669.2
+   ],
+   "size": 8.8,
+   "testo": "Il druido può anche abbandonare la forma da animale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    669.7,
+    449.5,
+    680.3
+   ],
+   "size": 8.8,
+   "testo": "anticipatamente come azione bonus.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

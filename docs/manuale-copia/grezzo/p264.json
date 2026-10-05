@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 264,
+ "pagina_stampata": 261,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 261",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   398
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.7,
+    396.5,
+    108.4,
+    406.8
+   ],
+   "size": 8.1,
+   "testo": "MATERIALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    413.0,
+    95.8,
+    421.8
+   ],
+   "size": 6.7,
+   "testo": "Materiale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.8,
+    413.0,
+    195.0,
+    421.7
+   ],
+   "size": 6.7,
+   "testo": "Durata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    427.3,
+    122.8,
+    436.3
+   ],
+   "size": 6.7,
+   "testo": "Materia vegetale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.2,
+    427.3,
+    192.1,
+    436.2
+   ],
+   "size": 6.7,
+   "testo": "24 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    441.8,
+    121.2,
+    450.8
+   ],
+   "size": 6.7,
+   "testo": "Pietra o cristallo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    441.7,
+    191.8,
+    450.7
+   ],
+   "size": 6.7,
+   "testo": "12 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    456.4,
+    118.3,
+    465.3
+   ],
+   "size": 6.7,
+   "testo": "Metalli preziosi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.4,
+    456.3,
+    187.6,
+    465.3
+   ],
+   "size": 6.7,
+   "testo": "l ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    471.0,
+    90.5,
+    480.0
+   ],
+   "size": 6.7,
+   "testo": "Gemme",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.6,
+    470.9,
+    204.8,
+    479.9
+   ],
+   "size": 6.7,
+   "testo": "10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    485.5,
+    138.1,
+    494.5
+   ],
+   "size": 6.7,
+   "testo": "Adamantio o mithral",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.6,
+    485.5,
+    202.9,
+    494.5
+   ],
+   "size": 6.7,
+   "testo": "l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    504.5,
+    257.9,
+    513.3
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    515.6,
+    260.5,
+    524.2
+   ],
+   "size": 6.7,
+   "testo": "Il cubo aumenta di 1,5 metri per spigolo per ogni slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    523.0,
+    149.9,
+    535.1
+   ],
+   "size": 6.7,
+   "testo": "di livello superiore al 5°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    559.3,
+    154.7,
+    569.6
+   ],
+   "size": 8.1,
+   "testo": "CRESCITA DI SPINE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    571.0,
+    212.0,
+    581.3
+   ],
+   "size": 8.1,
+   "testo": "Trasmutazione di 2° livello (druido, ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    587.2,
+    145.7,
+    596.2
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    598.2,
+    118.6,
+    607.2
+   ],
+   "size": 6.7,
+   "testo": "Gittata: 45 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    609.3,
+    183.2,
+    618.3
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S, M (sette spine)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    620.4,
+    209.5,
+    629.4
+   ],
+   "size": 6.7,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    637.7,
+    282.3,
+    646.3
+   ],
+   "size": 6.7,
+   "testo": "Spinee spuntoninascono dal terreno in una sfera del raggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    648.7,
+    278.7,
+    657.3
+   ],
+   "size": 6.7,
+   "testo": "di 6 metri, centrata su un punto entro gittata. Per la durata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    659.7,
+    275.9,
+    668.3
+   ],
+   "size": 6.7,
+   "testo": "dell'incantesimo, l'area diventa terreno difficile. Quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    670.7,
+    266.6,
+    679.3
+   ],
+   "size": 6.7,
+   "testo": "una creatura entra nell'area o si muove al suo interno,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    681.6,
+    282.1,
+    690.2
+   ],
+   "size": 6.7,
+   "testo": "subisce 2d4 danni perforanti ogni 1,5 metri di movimento.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.3,
+    692.6,
+    272.7,
+    701.3
+   ],
+   "size": 6.7,
+   "testo": "La trasformazione del terreno è mimetizzata in modo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    703.7,
+    273.1,
+    712.2
+   ],
+   "size": 6.7,
+   "testo": "da sembrare naturale. Qualsiasi creatura che non stesse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    714.6,
+    278.7,
+    723.1
+   ],
+   "size": 6.7,
+   "testo": "osservando l'area al momento del lancio dell'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    396.7,
+    506.2,
+    405.3
+   ],
+   "size": 6.7,
+   "testo": "deve effettuare un'azione di Ricerca e una prova di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    407.7,
+    515.2,
+    416.5
+   ],
+   "size": 6.7,
+   "testo": "Saggezza (Percezione o Sopravvivenza) contro la CD",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    418.8,
+    528.3,
+    427.4
+   ],
+   "size": 6.7,
+   "testo": "del tiro salvezza sull'incantesimo per riconoscere la peri­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    429.8,
+    455.4,
+    438.3
+   ],
+   "size": 6.7,
+   "testo": "colosità del terreno prima di entrarvi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    462.7,
+    416.8,
+    472.9
+   ],
+   "size": 8.1,
+   "testo": "CRESCITA VEGETALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    474.3,
+    489.7,
+    484.6
+   ],
+   "size": 8.1,
+   "testo": "Trasmutazione di 3° livello (bardo, druido, ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    490.4,
+    506.5,
+    499.4
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: azione (Groviglio) o 8 ore (Fertilità)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    501.4,
+    371.1,
+    510.4
+   ],
+   "size": 6.7,
+   "testo": "Gittata: 45 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.7,
+    512.6,
+    374.1,
+    521.3
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    523.5,
+    378.9,
+    532.5
+   ],
+   "size": 6.7,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    540.8,
+    534.6,
+    549.4
+   ],
+   "size": 6.7,
+   "testo": "Questo incantesimo incanala vitalità nei vegetali. Il tempo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    551.8,
+    535.9,
+    560.3
+   ],
+   "size": 6.7,
+   "testo": "di lancio utilizzato dall'incantatore determina l'effetto che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    562.7,
+    523.1,
+    571.3
+   ],
+   "size": 6.7,
+   "testo": "ha l'incantesimo tra i due descritti di seguito: Groviglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    573.8,
+    349.4,
+    582.4
+   ],
+   "size": 6.7,
+   "testo": "o Fertilità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    584.7,
+    526.3,
+    593.5
+   ],
+   "size": 6.7,
+   "testo": "Groviglio. L'incantatore sceglie un punto entro gittata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    595.8,
+    514.7,
+    604.4
+   ],
+   "size": 6.7,
+   "testo": "e tutti i vegetali normali entro una sfera del raggio di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    606.8,
+    534.4,
+    615.4
+   ],
+   "size": 6.7,
+   "testo": "30 metri centrata su quel punto crescono rigogliosamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    618.0,
+    522.0,
+    626.6
+   ],
+   "size": 6.7,
+   "testo": "fino a formare un groviglio. Una creatura che si muove",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    628.9,
+    525.7,
+    637.4
+   ],
+   "size": 6.7,
+   "testo": "attraverso quell'area deve usare 1,2 metri di movimento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    639.9,
+    529.9,
+    648.5
+   ],
+   "size": 6.7,
+   "testo": "per ogni 30 centimetri di cui si muove. L'incantatore può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    651.0,
+    524.7,
+    659.5
+   ],
+   "size": 6.7,
+   "testo": "escludere dall'influenza dell'incantesimo una o più aree",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    662.0,
+    503.5,
+    670.5
+   ],
+   "size": 6.7,
+   "testo": "di qualsiasi dimensione all'interno dell'area scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    672.8,
+    522.1,
+    681.6
+   ],
+   "size": 6.7,
+   "testo": "Fertilità. Tutti i vegetali entro un raggio di 750 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    683.9,
+    510.2,
+    692.5
+   ],
+   "size": 6.7,
+   "testo": "centrato in un punto entro gittata cresceranno rigo­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    694.9,
+    515.4,
+    703.5
+   ],
+   "size": 6.7,
+   "testo": "gliosamente per 365 giorni e al momento del raccolto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    705.9,
+    537.0,
+    714.4
+   ],
+   "size": 6.7,
+   "testo": "produrranno il doppio del cibo normale. I vegetali possono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    715.2,
+    514.0,
+    725.4
+   ],
+   "size": 8.1,
+   "testo": "beneficiare dicrescitavegetalesolo una volta all'anno.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

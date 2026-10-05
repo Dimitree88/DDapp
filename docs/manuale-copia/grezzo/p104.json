@@ -1,0 +1,1471 @@
+{
+ "pagina_pdf": 104,
+ "pagina_stampata": 101,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 101",
+ "immagini": [
+  [
+   38,
+   12,
+   587,
+   464
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    278.8,
+    7.1,
+    288.4,
+    25.3
+   ],
+   "size": 8.6,
+   "testo": "V.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    7.1,
+    316.1,
+    25.3
+   ],
+   "size": 8.6,
+   "testo": ".'\\",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    40.1,
+    118.0,
+    49.2
+   ],
+   "size": 6.9,
+   "testo": "Ŀŀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    108.6,
+    40.1,
+    271.3,
+    49.2
+   ],
+   "size": 6.9,
+   "testo": ",'-----=__..-",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    258.6,
+    40.1,
+    279.8,
+    49.2
+   ],
+   "size": 6.9,
+   "testo": "'--1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    273.8,
+    18.7,
+    336.4,
+    69.4
+   ],
+   "size": 29.9,
+   "testo": "/ jt=",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.0,
+    30.2,
+    541.1,
+    51.7
+   ],
+   "size": 10.8,
+   "testo": "\" ---5========'67",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    520.2,
+    30.2,
+    548.8,
+    51.7
+   ],
+   "size": 10.8,
+   "testo": "8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.2,
+    41.1,
+    151.4,
+    67.0
+   ],
+   "size": 22.2,
+   "testo": "rf'TRATTI DEL LADRO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    67.6,
+    119.0,
+    78.2
+   ],
+   "size": 10.6,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    78.5,
+    95.6,
+    89.2
+   ],
+   "size": 10.6,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    93.1,
+    101.5,
+    103.8
+   ],
+   "size": 10.6,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    107.7,
+    110.8,
+    118.4
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    118.6,
+    121.2,
+    129.3
+   ],
+   "size": 10.6,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    133.2,
+    110.8,
+    143.9
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    144.2,
+    106.5,
+    154.9
+   ],
+   "size": 10.6,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    183.9,
+    110.8,
+    194.6
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    194.8,
+    101.0,
+    205.5
+   ],
+   "size": 10.6,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    210.6,
+    110.4,
+    221.3
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    221.5,
+    120.9,
+    232.2
+   ],
+   "size": 10.6,
+   "testo": "negli strumenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    236.2,
+    110.8,
+    246.8
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    247.1,
+    117.7,
+    257.8
+   ],
+   "size": 10.6,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    261.8,
+    129.1,
+    272.5
+   ],
+   "size": 10.6,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    272.8,
+    90.0,
+    283.5
+   ],
+   "size": 10.6,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.5,
+    68.4,
+    178.3,
+    78.1
+   ],
+   "size": 8.4,
+   "testo": "Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.4,
+    93.9,
+    241.9,
+    103.5
+   ],
+   "size": 8.4,
+   "testo": "D8 per ogni livello da ladro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.4,
+    108.5,
+    231.4,
+    118.2
+   ],
+   "size": 8.4,
+   "testo": "Destrezza e Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.0,
+    134.1,
+    256.9,
+    143.8
+   ],
+   "size": 9.2,
+   "testo": "Quattro a scelta tra: Acrobazia,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.6,
+    146.2,
+    281.6,
+    155.8
+   ],
+   "size": 8.4,
+   "testo": "Atletica, Furtività, Indagare, Inganno,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    138.4,
+    158.2,
+    268.8,
+    167.9
+   ],
+   "size": 8.4,
+   "testo": "Intimidire, Intuizione, Percezione,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.4,
+    170.2,
+    261.5,
+    179.9
+   ],
+   "size": 8.4,
+   "testo": "Persuasione o Rapidità di Mano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.4,
+    184.9,
+    273.4,
+    194.5
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici e armi da guerra con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    138.2,
+    197.0,
+    255.5,
+    206.6
+   ],
+   "size": 8.4,
+   "testo": "la proprietà accurata o leggera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.0,
+    211.5,
+    203.3,
+    221.1
+   ],
+   "size": 8.4,
+   "testo": "Arnesi da scasso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.6,
+    237.1,
+    205.6,
+    246.7
+   ],
+   "size": 8.4,
+   "testo": "Armature leggere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.4,
+    262.7,
+    256.0,
+    272.4
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e B: (A) armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.0,
+    274.8,
+    260.8,
+    284.4
+   ],
+   "size": 8.4,
+   "testo": "di cuoio, 2 pugnali, spada corta,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.8,
+    286.7,
+    274.5,
+    296.4
+   ],
+   "size": 8.4,
+   "testo": "arco corto, 20 frecce, faretra, arnesi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.7,
+    298.7,
+    280.1,
+    308.4
+   ],
+   "size": 8.4,
+   "testo": "da scasso, dotazione da scassinatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.7,
+    310.7,
+    220.7,
+    320.3
+   ],
+   "size": 8.4,
+   "testo": "e 8 mo; o (B) 100 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    348.5,
+    77.1,
+    399.2
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.2,
+    327.3,
+    279.5,
+    356.4
+   ],
+   "size": 6.6,
+   "testo": "LADRI SI AFFIDANO ALL'ASTUZIA, ALLA FURTIVITÀ",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    75.0,
+    357.4,
+    285.6,
+    368.0
+   ],
+   "size": 8.8,
+   "testo": "e alla vulnerabilità dei loro nemici per avere la meglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    74.9,
+    368.4,
+    279.8,
+    379.0
+   ],
+   "size": 8.8,
+   "testo": "in ogni situazione. Sono in grado di risolvere presso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    379.4,
+    276.6,
+    390.0
+   ],
+   "size": 8.8,
+   "testo": "ché ogni problema e alcuni di loro imparano persino dei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    390.4,
+    282.9,
+    401.0
+   ],
+   "size": 8.8,
+   "testo": "trucchi magici in supporto alle proprie abilità. Molti ladri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    401.5,
+    269.9,
+    412.0
+   ],
+   "size": 8.8,
+   "testo": "si concentrano sulla furtività e l'inganno, mentre altri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    412.5,
+    283.0,
+    423.1
+   ],
+   "size": 8.8,
+   "testo": "affinano abilità adatte all'esplorazione dei dungeon, come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    423.5,
+    277.6,
+    434.1
+   ],
+   "size": 8.8,
+   "testo": "scalare, scoprire e disattivare le trappole, e scassinare le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.5,
+    434.5,
+    97.7,
+    445.1
+   ],
+   "size": 8.8,
+   "testo": "serrature.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    445.4,
+    276.4,
+    456.0
+   ],
+   "size": 8.8,
+   "testo": "In combattimento, danno priorità all'uso dell'ingegno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    456.4,
+    280.6,
+    467.0
+   ],
+   "size": 8.8,
+   "testo": "piuttosto che alla forza bruta. Infatti, invece di crivellare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    467.5,
+    281.0,
+    478.1
+   ],
+   "size": 8.8,
+   "testo": "il nemico con raffiche di colpi, preferiscono effettuare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    478.4,
+    166.1,
+    488.9
+   ],
+   "size": 8.8,
+   "testo": "unico attacco di precisione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.9,
+    489.5,
+    286.5,
+    500.0
+   ],
+   "size": 8.8,
+   "testo": "Alcuni di loro cominciano la propria carriera nel mondo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    500.5,
+    280.8,
+    511.1
+   ],
+   "size": 8.8,
+   "testo": "del crimine, mentre altri lo combattono sfruttando l'astu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    511.5,
+    272.0,
+    522.1
+   ],
+   "size": 8.8,
+   "testo": "zia. A prescindere dal rapporto che hanno con la legge,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.6,
+    522.5,
+    281.5,
+    533.1
+   ],
+   "size": 8.8,
+   "testo": "non esiste criminale o guardia comune in grado di tenere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    533.5,
+    205.1,
+    544.1
+   ],
+   "size": 8.8,
+   "testo": "testa alla scaltrezza dei ladri più abili.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    553.5,
+    212.9,
+    566.6
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UN LADRO...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    574.1,
+    242.5,
+    585.4
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1o LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.3,
+    585.6,
+    255.9,
+    596.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutti i tratti nella tabella Tratti del ladro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.3,
+    594.3,
+    271.1,
+    607.0
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi del ladro di 1° livello elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.1,
+    607.6,
+    167.1,
+    618.2
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del ladro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    628.1,
+    241.3,
+    639.5
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.3,
+    639.6,
+    271.4,
+    650.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i seguenti tratti dalla tabella Tratti del ladro:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.4,
+    650.6,
+    276.9,
+    661.2
+   ],
+   "size": 8.8,
+   "testo": "Dado Vita, competenza in un'abilità a scelta dalla lista",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.2,
+    661.6,
+    285.0,
+    672.2
+   ],
+   "size": 8.8,
+   "testo": "delle abilità del ladro, competenza negli arnesi da scasso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.3,
+    672.5,
+    163.5,
+    683.0
+   ],
+   "size": 8.8,
+   "testo": "e nelle armature leggere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.0,
+    681.4,
+    271.0,
+    694.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi del ladro di 1° livello elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.1,
+    694.5,
+    167.0,
+    705.1
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del ladro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    293.7,
+    167.5,
+    297.1,
+    173.8
+   ],
+   "size": 4.9,
+   "testo": "1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    53.5,
+    514.0,
+    66.6
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE DEL LADRO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    70.0,
+    525.8,
+    80.6
+   ],
+   "size": 8.8,
+   "testo": "Il ladro ottiene i seguenti privilegi di classe quando rag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    81.1,
+    536.0,
+    91.6
+   ],
+   "size": 8.8,
+   "testo": "giunge i livelli specificati. Tali privilegi sono elencati nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.0,
+    92.0,
+    412.3,
+    102.6
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del ladro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    112.4,
+    469.8,
+    123.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: ATTACCO FURTIVO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    123.8,
+    514.6,
+    134.4
+   ],
+   "size": 8.8,
+   "testo": "Il ladro sa come colpire con precisione sfruttando la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    134.9,
+    522.4,
+    145.4
+   ],
+   "size": 8.8,
+   "testo": "distrazione di un avversario. Una volta per turno, può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    145.9,
+    520.3,
+    156.5
+   ],
+   "size": 8.8,
+   "testo": "infliggere 1d6 danni extra a una creatura che colpisce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    156.8,
+    521.2,
+    167.4
+   ],
+   "size": 8.8,
+   "testo": "con un tiro per colpire, se dispone di vantaggio al tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    167.9,
+    530.6,
+    178.5
+   ],
+   "size": 8.8,
+   "testo": "e l'attacco è eseguito con un'arma accurata o a distanza.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.1,
+    178.9,
+    535.7,
+    189.5
+   ],
+   "size": 8.8,
+   "testo": "Il danno aggiuntivo è dello stesso tipo di quello dell'arma.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.2,
+    189.9,
+    530.9,
+    200.5
+   ],
+   "size": 8.8,
+   "testo": "Non è necessario avere vantaggio al tiro per colpire se",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.0,
+    201.0,
+    533.7,
+    211.6
+   ],
+   "size": 8.8,
+   "testo": "almeno uno degli alleati si trova entro 1,5 metri dal bersa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    212.0,
+    530.4,
+    222.6
+   ],
+   "size": 8.8,
+   "testo": "glio, l'alleato non è incapacitato e il ladro non dispone di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    223.0,
+    426.9,
+    233.6
+   ],
+   "size": 8.8,
+   "testo": "svantaggio al tiro per colpire.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.2,
+    234.0,
+    527.2,
+    244.5
+   ],
+   "size": 8.8,
+   "testo": "Il danno extra aumenta man mano che il ladro sale di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    245.0,
+    537.9,
+    255.6
+   ],
+   "size": 8.8,
+   "testo": "livello, come mostrato nella colonna Attacco Furtivo della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    256.0,
+    412.0,
+    266.6
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del ladro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    276.5,
+    468.0,
+    287.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: GERGO LADRESCO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    287.8,
+    517.7,
+    298.4
+   ],
+   "size": 8.8,
+   "testo": "Il ladro ha appreso varie lingue nelle comunità in cui",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    299.0,
+    519.8,
+    309.6
+   ],
+   "size": 8.8,
+   "testo": "ha affinato le proprie competenze furtive. Per questo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    309.9,
+    530.1,
+    320.5
+   ],
+   "size": 8.8,
+   "testo": "conosce il Gergo Ladresco e un'altra lingua a scelta, sele­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.2,
+    320.9,
+    493.1,
+    331.5
+   ],
+   "size": 8.8,
+   "testo": "zionabili dalle tabelle delle lingue al capitolo 2.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    341.2,
+    427.4,
+    352.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: MAESTRIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    352.7,
+    528.7,
+    363.2
+   ],
+   "size": 8.8,
+   "testo": "Il ladro ottiene maestria in due competenze nelle abilità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    363.6,
+    526.8,
+    374.2
+   ],
+   "size": 8.8,
+   "testo": "a scelta. Se il personaggio ha competenza in Rapidità di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    374.6,
+    520.3,
+    385.2
+   ],
+   "size": 8.8,
+   "testo": "Mano e Furtività, è consigliabile scegliere queste due.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    385.7,
+    534.7,
+    396.2
+   ],
+   "size": 8.8,
+   "testo": "Al livello 6, il ladro ottiene maestria in altre due compe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    396.7,
+    428.6,
+    407.3
+   ],
+   "size": 8.8,
+   "testo": "tenze nelle abilità a tua scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    417.2,
+    482.1,
+    428.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: PADRONANZA D'ARMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    428.7,
+    532.1,
+    439.2
+   ],
+   "size": 8.8,
+   "testo": "Il ladro è addestrato nell'uso delle armi, e per questo può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    439.5,
+    521.5,
+    450.1
+   ],
+   "size": 8.8,
+   "testo": "avvalersi delle proprietà di padronanza per due tipi di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    450.5,
+    522.7,
+    461.1
+   ],
+   "size": 8.8,
+   "testo": "armi a sua scelta in cui ha competenza, come i pugnali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    461.5,
+    373.5,
+    472.1
+   ],
+   "size": 8.8,
+   "testo": "e gli archi corti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.8,
+    472.5,
+    535.3,
+    483.1
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che completa un riposo lungo, può cambiare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    483.5,
+    533.2,
+    494.0
+   ],
+   "size": 8.8,
+   "testo": "il tipo di arma utilizzato. Per esempio, è possibile passare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    494.6,
+    535.8,
+    505.2
+   ],
+   "size": 8.8,
+   "testo": "alle proprietà di padronanza per scimitarre e spade corte.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    515.0,
+    464.3,
+    526.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: AZIONE SCALTRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    526.5,
+    533.2,
+    537.0
+   ],
+   "size": 8.8,
+   "testo": "La prontezza di spirito e l'agilità del ladro gli consentono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    537.5,
+    533.1,
+    548.1
+   ],
+   "size": 8.8,
+   "testo": "di muoversi e di agire in fretta. Per questo, durante il suo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    548.4,
+    535.3,
+    559.0
+   ],
+   "size": 8.8,
+   "testo": "turno può eseguire una delle seguenti azioni come azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    559.4,
+    474.9,
+    569.9
+   ],
+   "size": 8.8,
+   "testo": "bonus: Scatto, Disimpegno o Nascondersi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    579.8,
+    443.1,
+    591.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: MIRA FERMA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    591.2,
+    531.9,
+    601.8
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il ladro ottiene un vantaggio al pros­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    602.2,
+    522.6,
+    612.8
+   ],
+   "size": 8.8,
+   "testo": "simo tiro per colpire durante il turno in corso. Può uti­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    613.4,
+    525.7,
+    624.0
+   ],
+   "size": 8.8,
+   "testo": "lizzare questo privilegio solo se non si è mosso durante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    624.4,
+    536.7,
+    635.0
+   ],
+   "size": 8.8,
+   "testo": "questo turno e, dopo averlo usato, la sua velocità è ridotta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    635.4,
+    424.0,
+    646.0
+   ],
+   "size": 8.8,
+   "testo": "a 0 fino al termine del turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    546.0,
+    96.7,
+    556.1,
+    118.6
+   ],
+   "size": 8.6,
+   "testo": "I J",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

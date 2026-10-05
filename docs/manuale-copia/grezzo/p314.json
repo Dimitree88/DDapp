@@ -1,0 +1,679 @@
+{
+ "pagina_pdf": 314,
+ "pagina_stampata": 311,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 311",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   406
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    57.0,
+    377.2,
+    268.5,
+    387.8
+   ],
+   "size": 8.8,
+   "testo": "richiude tutte le ferite mortali e ripristina le eventuali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    388.2,
+    157.5,
+    398.7
+   ],
+   "size": 8.8,
+   "testo": "parti del corpo mancanti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    399.2,
+    265.7,
+    409.8
+   ],
+   "size": 8.8,
+   "testo": "Il ritorno dalla morte è un vero e proprio travaglio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    410.3,
+    280.7,
+    420.9
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio subisce una penalità di -4 alle prove con d20.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    421.2,
+    280.8,
+    431.7
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che completa un riposo lungo, questa penalità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    432.3,
+    209.7,
+    442.8
+   ],
+   "size": 8.8,
+   "testo": "viene ridotta di 1 finché non arriva a 0.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    443.3,
+    276.9,
+    453.8
+   ],
+   "size": 8.8,
+   "testo": "Lanciare questo incantesimo per riportare in vita una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    454.3,
+    276.5,
+    464.8
+   ],
+   "size": 8.8,
+   "testo": "creatura morta da 365 giorni o più risulta logorante per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    465.3,
+    277.8,
+    475.8
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore. Finché non completa un riposo lungo, non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    476.3,
+    272.2,
+    486.9
+   ],
+   "size": 8.8,
+   "testo": "può lanciare di nuovo incantesimi e subisce svantaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    487.2,
+    133.1,
+    497.8
+   ],
+   "size": 8.8,
+   "testo": "alle prove con d20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    522.1,
+    169.2,
+    533.4
+   ],
+   "size": 11.2,
+   "testo": "RESURREZIONE PURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.1,
+    533.5,
+    213.0,
+    544.0
+   ],
+   "size": 8.6,
+   "testo": "Necromanzia di 9° livello (chierico, druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    549.1,
+    141.5,
+    558.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: l ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    560.1,
+    121.3,
+    569.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    571.1,
+    287.0,
+    580.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (diamanti del valore di 25.000 mo o più,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.1,
+    582.1,
+    223.9,
+    591.7
+   ],
+   "size": 8.4,
+   "testo": "che vengono consumati dall'incantesimo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    593.1,
+    129.0,
+    602.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    609.4,
+    255.7,
+    620.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca una creatura morta da non più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    620.5,
+    264.7,
+    631.1
+   ],
+   "size": 8.8,
+   "testo": "di 200 anni a causa di un qualsiasi motivo fuorché la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    631.5,
+    274.4,
+    642.0
+   ],
+   "size": 8.8,
+   "testo": "vecchiaia. Il bersaglio viene rianimato con tutti i propri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    642.4,
+    105.1,
+    653.0
+   ],
+   "size": 8.8,
+   "testo": "punti ferita.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    653.5,
+    275.0,
+    664.0
+   ],
+   "size": 8.8,
+   "testo": "Questo incantesimo chiude tutte le ferite, neutralizza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    664.5,
+    266.5,
+    675.1
+   ],
+   "size": 8.8,
+   "testo": "ogni veleno, cura tutti i contagi magici e annulla ogni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    675.4,
+    272.5,
+    686.0
+   ],
+   "size": 8.8,
+   "testo": "maledizione che affiggeva la creatura al momento della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    686.4,
+    255.4,
+    697.0
+   ],
+   "size": 8.8,
+   "testo": "morte. Inoltre, ripristina gli eventuali organi e arti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    697.5,
+    281.5,
+    708.0
+   ],
+   "size": 8.8,
+   "testo": "danneggiati o mancanti. Se la creatura era un non morto,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    708.4,
+    269.7,
+    719.0
+   ],
+   "size": 8.8,
+   "testo": "viene riportata alla forma originaria che aveva in vita.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.3,
+    377.3,
+    506.0,
+    387.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo può fornire al bersaglio un nuovo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    388.3,
+    532.1,
+    398.9
+   ],
+   "size": 8.8,
+   "testo": "corpo se l'originale non esiste più, nel qual caso l'incanta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    399.3,
+    529.5,
+    409.9
+   ],
+   "size": 8.8,
+   "testo": "tore deve pronunciare il nome della creatura, che appare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    410.5,
+    534.3,
+    421.0
+   ],
+   "size": 8.8,
+   "testo": "in uno spazio libero a scelta dell'incantatore entro 3 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    421.4,
+    334.3,
+    432.0
+   ],
+   "size": 8.8,
+   "testo": "da lui.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    456.1,
+    409.1,
+    467.4
+   ],
+   "size": 11.2,
+   "testo": "RIANIMARE MORTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    467.5,
+    497.8,
+    478.0
+   ],
+   "size": 8.6,
+   "testo": "Necromanzia di5° livello (bardo, chierico, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    483.1,
+    394.7,
+    492.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: l ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    494.2,
+    373.9,
+    503.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    505.3,
+    536.9,
+    514.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un diamante del valore di 500 mo o più,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    516.3,
+    425.5,
+    525.9
+   ],
+   "size": 8.4,
+   "testo": "che l'incantesimo consuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    527.2,
+    381.5,
+    536.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    543.4,
+    527.2,
+    554.0
+   ],
+   "size": 8.8,
+   "testo": "Con un tocco, l'incantatore riporta in vita una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    554.4,
+    529.7,
+    565.0
+   ],
+   "size": 8.8,
+   "testo": "morta, purché non sia deceduta da più di 10 giorni e non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    565.4,
+    483.0,
+    576.0
+   ],
+   "size": 8.8,
+   "testo": "fosse un non morto al momento della morte.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    576.5,
+    519.4,
+    587.0
+   ],
+   "size": 8.8,
+   "testo": "La creatura torna in vita con 1 punto ferita. Inoltre,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    587.5,
+    512.3,
+    598.0
+   ],
+   "size": 8.8,
+   "testo": "questo incantesimo neutralizza qualsiasi veleno che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    598.4,
+    497.6,
+    609.0
+   ],
+   "size": 8.8,
+   "testo": "influenzava la creatura al momento della morte.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    609.5,
+    525.7,
+    620.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo richiude tutte le ferite mortali, ma non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    620.7,
+    521.7,
+    631.2
+   ],
+   "size": 8.8,
+   "testo": "ripristina le parti del corpo mancanti. Se una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    631.6,
+    521.4,
+    642.2
+   ],
+   "size": 8.8,
+   "testo": "è priva di organi o parti del corpo essenziali per la sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    642.6,
+    529.0,
+    653.2
+   ],
+   "size": 8.8,
+   "testo": "sopravvivenza, come per esempio la testa, l'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    653.7,
+    410.8,
+    664.2
+   ],
+   "size": 8.8,
+   "testo": "fallisce automaticamente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    664.6,
+    517.9,
+    675.1
+   ],
+   "size": 8.8,
+   "testo": "Il ritorno dalla morte è un vero e proprio travaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    675.6,
+    532.8,
+    686.2
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio subisce una penalità di -4 alle prove con d20.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    686.6,
+    532.8,
+    697.2
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che completa un riposo lungo, questa penalità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    697.6,
+    462.1,
+    708.2
+   ],
+   "size": 8.8,
+   "testo": "viene ridotta di 1 finché non arriva a 0.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

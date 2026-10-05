@@ -1,0 +1,619 @@
+{
+ "pagina_pdf": 292,
+ "pagina_stampata": 289,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 289",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   398
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.6,
+    409.6,
+    84.9,
+    421.0
+   ],
+   "size": 11.2,
+   "testo": "LUCE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    422.1,
+    269.5,
+    431.4
+   ],
+   "size": 8.6,
+   "testo": "TrucchettodiInvocazione (bardo, chierico, mago, stregone)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    436.6,
+    146.0,
+    446.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    447.6,
+    119.0,
+    457.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    458.7,
+    283.0,
+    468.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, M (una lucciola o del muschio fosforescente)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    469.7,
+    106.1,
+    479.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    485.8,
+    284.4,
+    496.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca un oggetto di taglia Grande o inferiore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    496.9,
+    276.2,
+    507.5
+   ],
+   "size": 8.8,
+   "testo": "che non sia stato indossato o trasportato da altri. Fino al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    507.9,
+    274.1,
+    518.5
+   ],
+   "size": 8.8,
+   "testo": "termine dell'incantesimo, l'oggetto proietta luce intensa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    518.9,
+    269.6,
+    529.5
+   ],
+   "size": 8.8,
+   "testo": "entro un raggio di 6 metri e luce fioca per altri 6 metri.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    530.0,
+    275.4,
+    540.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può scegliere il colore di luce che desidera.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    541.0,
+    275.0,
+    551.5
+   ],
+   "size": 8.8,
+   "testo": "Coprire l'oggetto con qualcosa di opaco blocca la luce.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    551.9,
+    279.3,
+    562.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo termina se l'incantatore lo lancia di nuovo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    586.6,
+    129.0,
+    597.9
+   ],
+   "size": 11.2,
+   "testo": "LUCE DIURNA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    598.1,
+    268.2,
+    608.5
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di3° livello (chierico, druido, paladino, ranger,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    610.2,
+    89.4,
+    619.5
+   ],
+   "size": 8.6,
+   "testo": "stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    624.8,
+    145.9,
+    634.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    635.8,
+    118.4,
+    645.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    646.9,
+    121.0,
+    656.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    657.8,
+    106.0,
+    667.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    674.0,
+    265.7,
+    684.6
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, un fascio di luce solare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    685.1,
+    277.8,
+    695.6
+   ],
+   "size": 8.8,
+   "testo": "si sprigiona da un punto entro gittata e riempie una sfera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    696.1,
+    277.3,
+    706.7
+   ],
+   "size": 8.8,
+   "testo": "del raggio di 18 metri. L'area della luce solare emette luce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    707.0,
+    229.9,
+    717.6
+   ],
+   "size": 8.8,
+   "testo": "intensa e poi luce fioca per ulteriori 18 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    394.2,
+    516.3,
+    404.8
+   ],
+   "size": 8.8,
+   "testo": "In alternativa, l'incantatore lancia l'incantesimo su",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    405.3,
+    525.5,
+    415.9
+   ],
+   "size": 8.8,
+   "testo": "un oggetto che non sia indossato o trasportato, facendo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    416.3,
+    520.2,
+    426.9
+   ],
+   "size": 8.8,
+   "testo": "sì che la luce solare riempia un'emanazione di 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    427.3,
+    532.4,
+    437.9
+   ],
+   "size": 8.8,
+   "testo": "di cui l'oggetto è il punto di origine. Coprire l'oggetto con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    438.3,
+    527.3,
+    448.8
+   ],
+   "size": 8.8,
+   "testo": "qualcosa di opaco, come una ciotola o un elmo, blocca la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    449.3,
+    352.9,
+    459.8
+   ],
+   "size": 8.8,
+   "testo": "luce solare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    460.3,
+    526.5,
+    470.9
+   ],
+   "size": 8.8,
+   "testo": "Se una parte dell'area di questo incantesimo si sovrap­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    471.2,
+    520.0,
+    481.8
+   ],
+   "size": 8.8,
+   "testo": "pone a un'area di oscurità creata da un incantesimo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    480.1,
+    525.9,
+    492.8
+   ],
+   "size": 8.8,
+   "testo": "3° livello o inferiore, l'incantesimo che ha creato la luce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    493.3,
+    364.5,
+    503.9
+   ],
+   "size": 8.8,
+   "testo": "viene dissolto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    528.1,
+    406.4,
+    539.4
+   ],
+   "size": 11.2,
+   "testo": "LUCE SPLENDENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    540.5,
+    459.6,
+    549.9
+   ],
+   "size": 8.6,
+   "testo": "TrucchettodiInvocazione (bardo, druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    555.1,
+    398.9,
+    564.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    566.1,
+    371.3,
+    575.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    577.1,
+    373.7,
+    586.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    588.1,
+    379.4,
+    597.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    604.4,
+    531.3,
+    615.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore lancia un globo di luce contro una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    615.5,
+    503.3,
+    626.1
+   ],
+   "size": 8.8,
+   "testo": "o un oggetto entro gittata, effettuando un attacco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    626.5,
+    532.1,
+    637.1
+   ],
+   "size": 8.8,
+   "testo": "a distanza con incantesimo contro il bersaglio. Se il colpo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    637.5,
+    521.6,
+    648.0
+   ],
+   "size": 8.8,
+   "testo": "va a segno, il bersaglio subisce 1d8 danni radiosi e, fino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    648.6,
+    525.9,
+    659.1
+   ],
+   "size": 8.8,
+   "testo": "al termine del turno successivo dell'incantatore, emette",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    659.5,
+    533.2,
+    670.0
+   ],
+   "size": 8.8,
+   "testo": "luce fioca nel raggio di 3 metri e non può beneficiare della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    670.5,
+    407.3,
+    681.0
+   ],
+   "size": 8.8,
+   "testo": "condizione di invisibilità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    681.4,
+    536.2,
+    692.0
+   ],
+   "size": 8.8,
+   "testo": "Trucchettopotenziato. I danni aumentano di 1d8 quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    690.3,
+    535.9,
+    703.0
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore raggiunge il 5° livello (2d8), 1'11° livello (3d8)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    701.3,
+    385.1,
+    714.0
+   ],
+   "size": 8.8,
+   "testo": "e il 17° livello (4d8).",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

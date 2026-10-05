@@ -1,0 +1,1560 @@
+{
+ "pagina_pdf": 36,
+ "pagina_stampata": 33,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 33",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    246.0,
+    20.0,
+    347.0,
+    41.6
+   ],
+   "size": 13.9,
+   "testo": "CAPITOLO 2",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.7,
+    48.2,
+    513.2,
+    75.0
+   ],
+   "size": 26.4,
+   "testo": "CREARE UN PERSONAGGIO",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    79.3,
+    99.7,
+    260.7,
+    128.9
+   ],
+   "size": 6.6,
+   "testo": "UOI CREARE UN PERSONAGGIO DI DUNGEONS",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.6,
+    110.8,
+    260.9,
+    140.5
+   ],
+   "size": 8.8,
+   "testo": "& DRAGONS utilizzando gli elementi di questo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.5,
+    140.9,
+    255.7,
+    151.5
+   ],
+   "size": 8.8,
+   "testo": "libro. Un personaggio è una combinazione di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    151.9,
+    279.8,
+    162.5
+   ],
+   "size": 8.8,
+   "testo": "statistiche di gioco, spunti di interpretazione e contributi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    163.0,
+    275.0,
+    173.6
+   ],
+   "size": 8.8,
+   "testo": "della tua immaginazione. Scegli una classe (per esempio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    174.0,
+    268.8,
+    184.5
+   ],
+   "size": 8.8,
+   "testo": "un guerriero o un mago), un background (per esempio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    184.9,
+    275.0,
+    195.5
+   ],
+   "size": 8.8,
+   "testo": "un marinaio o un accolito) e una specie (per esempio un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    196.0,
+    269.8,
+    206.6
+   ],
+   "size": 8.8,
+   "testo": "umano o un elfo), e inventa la personalità e l'aspetto di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    207.1,
+    281.4,
+    217.6
+   ],
+   "size": 8.8,
+   "testo": "quel personaggio. Una volta completato, quel personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.3,
+    218.0,
+    226.9,
+    228.5
+   ],
+   "size": 8.8,
+   "testo": "diventa il tuo avatar nel multiverso di D&D.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    238.8,
+    153.9,
+    255.5
+   ],
+   "size": 12.9,
+   "testo": "PREPARARSI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    257.1,
+    260.6,
+    267.6
+   ],
+   "size": 8.8,
+   "testo": "Prima di cimentarti nella creazione del personaggio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    268.1,
+    268.4,
+    278.6
+   ],
+   "size": 8.8,
+   "testo": "ci sono alcuni preparativi da effettuare, come spiegato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    279.2,
+    96.5,
+    289.8
+   ],
+   "size": 8.8,
+   "testo": "di seguito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    299.3,
+    184.8,
+    312.4
+   ],
+   "size": 9.7,
+   "testo": "PARLARE CON IL DM",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    315.7,
+    278.2,
+    326.3
+   ],
+   "size": 8.8,
+   "testo": "Inizia parlando con il Dungeon Master del tipo di partita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    326.7,
+    257.6,
+    337.2
+   ],
+   "size": 8.8,
+   "testo": "di D&D che intende condurre. Se il DM si ispira alla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    337.7,
+    279.3,
+    348.2
+   ],
+   "size": 8.8,
+   "testo": "mitologia greca, ad esempio, potresti scegliere un orienta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    348.6,
+    281.4,
+    359.2
+   ],
+   "size": 8.8,
+   "testo": "mento diverso per il tuo personaggio rispetto a quello che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    359.6,
+    279.7,
+    370.1
+   ],
+   "size": 8.8,
+   "testo": "sceglieresti se il DM avesse in mente un'avventura rocam­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    370.6,
+    278.0,
+    381.1
+   ],
+   "size": 8.8,
+   "testo": "bolesca in mare aperto. Pensa al tipo di avventuriero che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    381.6,
+    285.4,
+    392.2
+   ],
+   "size": 8.8,
+   "testo": "vuoi interpretare nel gioco. Se non sai da dove cominciare,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    392.6,
+    274.3,
+    403.2
+   ],
+   "size": 8.8,
+   "testo": "puoi trarre ispirazione dalle illustrazioni dei personaggi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    403.7,
+    114.9,
+    414.2
+   ],
+   "size": 8.8,
+   "testo": "di questo libro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    423.8,
+    205.7,
+    436.9
+   ],
+   "size": 9.7,
+   "testo": "SCEGLIERE UNA SCHEDA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    438.9,
+    169.8,
+    452.0
+   ],
+   "size": 9.7,
+   "testo": "DEL PERSONAGGIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    455.3,
+    272.8,
+    465.8
+   ],
+   "size": 8.8,
+   "testo": "Registra i dettagli principali del tuo personaggio su una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    466.2,
+    263.2,
+    476.8
+   ],
+   "size": 8.8,
+   "testo": "scheda del personaggio. In questo capitolo, il termine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    477.2,
+    284.2,
+    487.8
+   ],
+   "size": 8.8,
+   "testo": "\"scheda del personaggio\" indicherà qualunque cosa usi per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    488.2,
+    273.6,
+    498.8
+   ],
+   "size": 8.8,
+   "testo": "annotare informazioni sul tuo personaggio, che si tratti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    499.3,
+    280.9,
+    509.9
+   ],
+   "size": 8.8,
+   "testo": "di una scheda ufficiale (come quella mostrata nelle pagine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    510.3,
+    277.9,
+    520.9
+   ],
+   "size": 8.8,
+   "testo": "seguenti), di un supporto digitale (come su D&D Beyond)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    521.3,
+    283.1,
+    531.9
+   ],
+   "size": 8.8,
+   "testo": "o di un semplice pezzo di carta. Scegli il tipo di scheda che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    532.3,
+    262.2,
+    542.8
+   ],
+   "size": 8.8,
+   "testo": "fa per te e lanciati nella creazione di un personaggio!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    557.8,
+    138.5,
+    567.9
+   ],
+   "size": 8.2,
+   "testo": "SESSIONE ZERO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    571.1,
+    255.3,
+    580.7
+   ],
+   "size": 8.4,
+   "testo": "Alcuni Dungeon Master iniziano la campagna con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    582.0,
+    259.3,
+    591.7
+   ],
+   "size": 8.4,
+   "testo": "una \"sessione zero\", un incontro iniziale incentrato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    592.9,
+    272.4,
+    602.5
+   ],
+   "size": 8.4,
+   "testo": "sulla creazione dei personaggi e sulla definizione delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    604.0,
+    269.1,
+    613.7
+   ],
+   "size": 8.4,
+   "testo": "aspettative, compresi gli argomenti da evitare e quelli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    615.1,
+    266.7,
+    624.8
+   ],
+   "size": 8.4,
+   "testo": "da includere. La sessione zero è un'ottima occasione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    626.2,
+    261.3,
+    635.9
+   ],
+   "size": 8.4,
+   "testo": "per giocatori e DM per parlare e decidere se i perso­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    637.1,
+    272.5,
+    646.7
+   ],
+   "size": 8.4,
+   "testo": "naggi si conoscono, come si sono incontrati e che tipo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    648.2,
+    269.4,
+    657.9
+   ],
+   "size": 8.4,
+   "testo": "di missioni il gruppo potrebbe intraprendere insieme.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    120.6,
+    513.3,
+    137.3
+   ],
+   "size": 12.9,
+   "testo": "CREARE IL PERSONAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    138.6,
+    523.8,
+    149.2
+   ],
+   "size": 8.8,
+   "testo": "Le fasi di creazione di un personaggio sono le seguenti,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    149.7,
+    470.0,
+    160.3
+   ],
+   "size": 8.8,
+   "testo": "ciascuna approfondita in questo capitolo:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    166.1,
+    521.5,
+    176.7
+   ],
+   "size": 8.8,
+   "testo": "1: Scegliere una classe. Ogni avventuriero è membro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.4,
+    177.1,
+    528.6,
+    187.7
+   ],
+   "size": 8.8,
+   "testo": "di una classe. La classe descrive a grandi linee la voca­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.4,
+    188.1,
+    527.4,
+    198.7
+   ],
+   "size": 8.8,
+   "testo": "zione di un personaggio, i suoi talenti speciali e le sue",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.2,
+    199.2,
+    389.0,
+    209.7
+   ],
+   "size": 8.8,
+   "testo": "tattiche preferite.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    210.1,
+    527.9,
+    220.7
+   ],
+   "size": 8.8,
+   "testo": "2: Determinare le origini. Le origini di un personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.4,
+    221.2,
+    528.3,
+    231.7
+   ],
+   "size": 8.8,
+   "testo": "comprendono due elementi: il background e la specie.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.4,
+    232.2,
+    514.9,
+    242.8
+   ],
+   "size": 8.8,
+   "testo": "Come ha trascorso gli anni che lo hanno condotto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.3,
+    243.2,
+    518.6,
+    253.8
+   ],
+   "size": 8.8,
+   "testo": "a un'esistenza votata all'avventura? Chi sono i suoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.4,
+    247.1,
+    514.5,
+    265.3
+   ],
+   "size": 8.8,
+   "testo": "antenati? È inoltre possibile scegliere le lingue del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.2,
+    265.3,
+    370.0,
+    275.8
+   ],
+   "size": 8.8,
+   "testo": "personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    276.3,
+    533.0,
+    287.0
+   ],
+   "size": 8.8,
+   "testo": "3: Determinare i punteggi di caratteristica. Gran parte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.3,
+    287.2,
+    534.5,
+    297.8
+   ],
+   "size": 8.8,
+   "testo": "delle azioni del personaggio nel gioco dipende dalle sue",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.3,
+    298.3,
+    392.0,
+    308.9
+   ],
+   "size": 8.8,
+   "testo": "sei caratteristiche.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    309.3,
+    537.3,
+    319.9
+   ],
+   "size": 8.8,
+   "testo": "4: Scegliere un allineamento. L'allineamento corrisponde",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.3,
+    320.2,
+    460.2,
+    330.8
+   ],
+   "size": 8.8,
+   "testo": "alla bussola morale del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    331.2,
+    531.2,
+    341.8
+   ],
+   "size": 8.8,
+   "testo": "5: Inserire i dettagli. Utilizzando le scelte fatte, compila",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.2,
+    342.2,
+    510.3,
+    352.7
+   ],
+   "size": 8.8,
+   "testo": "i dettagli rimanenti sulla scheda del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    358.5,
+    529.9,
+    369.1
+   ],
+   "size": 8.8,
+   "testo": "Sulla scheda del personaggio nelle pagine seguenti, molti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    369.5,
+    519.5,
+    380.0
+   ],
+   "size": 8.8,
+   "testo": "spazi sono etichettati con un numero che corrisponde",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    380.6,
+    413.6,
+    391.2
+   ],
+   "size": 8.8,
+   "testo": "a una delle fasi sottostanti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    393.4,
+    502.9,
+    414.9
+   ],
+   "size": 10.8,
+   "testo": "FASE l :SCEGLIERE UNA CLASSE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    417.2,
+    526.5,
+    427.8
+   ],
+   "size": 8.8,
+   "testo": "Scegli una classe e scrivila sulla scheda del personaggio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    428.2,
+    529.1,
+    438.8
+   ],
+   "size": 8.8,
+   "testo": "Le classi sono sintetizzate nella tabella Panoramica delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    439.2,
+    517.1,
+    449.8
+   ],
+   "size": 8.8,
+   "testo": "Classi. Per i dettagli sulle classi, consulta il capitolo 3.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    461.9,
+    445.8,
+    472.6
+   ],
+   "size": 10.6,
+   "testo": "PANORAMICA DELLE CLASSI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.8,
+    477.7,
+    482.4,
+    486.9
+   ],
+   "size": 8.2,
+   "testo": "Caratteristiche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.9,
+    477.7,
+    521.9,
+    486.9
+   ],
+   "size": 8.2,
+   "testo": "Com-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.2,
+    488.8,
+    338.0,
+    498.0
+   ],
+   "size": 8.2,
+   "testo": "Classe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.3,
+    488.8,
+    399.0,
+    498.0
+   ],
+   "size": 8.2,
+   "testo": "Predilige...",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    425.1,
+    488.7,
+    458.9,
+    497.9
+   ],
+   "size": 8.2,
+   "testo": "primarie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.2,
+    488.7,
+    533.0,
+    497.9
+   ],
+   "size": 8.2,
+   "testo": "plessità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    502.8,
+    342.6,
+    512.4
+   ],
+   "size": 8.4,
+   "testo": "Barbaro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.0,
+    502.8,
+    392.4,
+    512.4
+   ],
+   "size": 8.4,
+   "testo": "Battaglia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    425.2,
+    502.7,
+    448.1,
+    512.4
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.2,
+    502.8,
+    527.9,
+    512.4
+   ],
+   "size": 8.4,
+   "testo": "Media",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    517.4,
+    336.0,
+    527.1
+   ],
+   "size": 8.4,
+   "testo": "Bardo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.0,
+    517.4,
+    397.8,
+    527.0
+   ],
+   "size": 8.4,
+   "testo": "Esibizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.6,
+    517.3,
+    458.1,
+    527.0
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.4,
+    517.3,
+    518.8,
+    526.9
+   ],
+   "size": 8.4,
+   "testo": "Alta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.1,
+    532.0,
+    344.6,
+    541.6
+   ],
+   "size": 8.4,
+   "testo": "Chierico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.2,
+    532.0,
+    371.3,
+    541.6
+   ],
+   "size": 8.4,
+   "testo": "Dèi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.7,
+    532.0,
+    462.4,
+    541.6
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.2,
+    531.9,
+    527.9,
+    541.5
+   ],
+   "size": 8.4,
+   "testo": "Media",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.3,
+    546.6,
+    340.6,
+    556.2
+   ],
+   "size": 8.4,
+   "testo": "Druido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.0,
+    546.6,
+    384.3,
+    556.2
+   ],
+   "size": 8.4,
+   "testo": "Natura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.7,
+    546.5,
+    462.4,
+    556.2
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.7,
+    546.5,
+    518.5,
+    556.1
+   ],
+   "size": 8.4,
+   "testo": "Alta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.1,
+    561.1,
+    349.3,
+    570.7
+   ],
+   "size": 8.4,
+   "testo": "Guerriero",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.2,
+    561.0,
+    377.2,
+    570.7
+   ],
+   "size": 8.4,
+   "testo": "Armi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    425.2,
+    561.0,
+    525.8,
+    570.6
+   ],
+   "size": 8.4,
+   "testo": "Forza o Destrezza Bassa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    575.6,
+    334.4,
+    585.3
+   ],
+   "size": 8.4,
+   "testo": "Ladro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.0,
+    575.6,
+    390.2,
+    585.3
+   ],
+   "size": 8.4,
+   "testo": "Furtività",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    425.1,
+    575.6,
+    465.0,
+    585.2
+   ],
+   "size": 8.4,
+   "testo": "Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.2,
+    575.6,
+    525.8,
+    585.2
+   ],
+   "size": 8.4,
+   "testo": "Bassa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    590.2,
+    334.6,
+    599.9
+   ],
+   "size": 8.4,
+   "testo": "Mago",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.0,
+    590.3,
+    385.4,
+    599.9
+   ],
+   "size": 8.4,
+   "testo": "Libri di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    425.1,
+    590.2,
+    470.7,
+    599.8
+   ],
+   "size": 8.4,
+   "testo": "Intelligenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.1,
+    590.1,
+    527.9,
+    599.8
+   ],
+   "size": 8.4,
+   "testo": "Media",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    356.7,
+    602.2,
+    402.8,
+    611.9
+   ],
+   "size": 8.4,
+   "testo": "incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    617.0,
+    344.1,
+    626.6
+   ],
+   "size": 8.4,
+   "testo": "Monaco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.4,
+    616.9,
+    465.0,
+    626.6
+   ],
+   "size": 8.4,
+   "testo": "Combattimento Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.5,
+    616.9,
+    518.6,
+    626.5
+   ],
+   "size": 8.4,
+   "testo": "Alta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    356.5,
+    629.0,
+    395.6,
+    638.6
+   ],
+   "size": 8.4,
+   "testo": "senz'armi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.5,
+    628.9,
+    468.9,
+    638.5
+   ],
+   "size": 8.4,
+   "testo": "e Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    643.6,
+    346.4,
+    653.2
+   ],
+   "size": 8.4,
+   "testo": "Paladino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.9,
+    643.6,
+    382.8,
+    653.2
+   ],
+   "size": 8.4,
+   "testo": "Difesa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    425.1,
+    643.5,
+    488.4,
+    653.1
+   ],
+   "size": 8.4,
+   "testo": "Forza e Carisma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.2,
+    643.5,
+    527.9,
+    653.1
+   ],
+   "size": 8.4,
+   "testo": "Media",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    658.2,
+    340.4,
+    667.8
+   ],
+   "size": 8.4,
+   "testo": "Ranger",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.5,
+    658.1,
+    413.5,
+    667.7
+   ],
+   "size": 8.4,
+   "testo": "Sopravvivenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    425.1,
+    658.1,
+    464.9,
+    667.7
+   ],
+   "size": 8.4,
+   "testo": "Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.2,
+    658.1,
+    527.9,
+    667.7
+   ],
+   "size": 8.4,
+   "testo": "Media",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    424.5,
+    670.0,
+    468.9,
+    679.7
+   ],
+   "size": 8.4,
+   "testo": "e Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    684.6,
+    347.5,
+    694.2
+   ],
+   "size": 8.4,
+   "testo": "Stregone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.9,
+    684.7,
+    383.0,
+    694.3
+   ],
+   "size": 8.4,
+   "testo": "Potere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.6,
+    684.6,
+    458.1,
+    694.2
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.4,
+    684.5,
+    518.7,
+    694.2
+   ],
+   "size": 8.4,
+   "testo": "Alta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.7,
+    699.2,
+    343.9,
+    708.9
+   ],
+   "size": 8.4,
+   "testo": "Warlock",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.5,
+    699.2,
+    417.3,
+    708.9
+   ],
+   "size": 8.4,
+   "testo": "Scienze occulte",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.6,
+    699.2,
+    458.1,
+    708.8
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.4,
+    699.1,
+    518.8,
+    708.8
+   ],
+   "size": 8.4,
+   "testo": "Alta",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

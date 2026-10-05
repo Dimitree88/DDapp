@@ -1,0 +1,552 @@
+{
+ "pagina_pdf": 225,
+ "pagina_stampata": 222,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "222 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.9,
+    389.8,
+    213.8,
+    406.5
+   ],
+   "size": 12.9,
+   "testo": "EQUIPAGGIAMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.9,
+    408.9,
+    168.5,
+    425.6
+   ],
+   "size": 12.9,
+   "testo": "D'AVVENTURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    426.9,
+    282.8,
+    437.5
+   ],
+   "size": 8.8,
+   "testo": "La tabella Equipaggiamento d'avventura in questa sezione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    437.8,
+    263.1,
+    448.4
+   ],
+   "size": 8.8,
+   "testo": "include attrezzatura che spesso può tornare utile agli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    448.8,
+    279.5,
+    459.4
+   ],
+   "size": 8.8,
+   "testo": "avventurieri. Tali oggetti sono presentati in ordine alfabe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    459.8,
+    263.8,
+    470.3
+   ],
+   "size": 8.8,
+   "testo": "tico, con il relativo prezzo indicato dopo il loro nome.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    494.7,
+    182.3,
+    506.0
+   ],
+   "size": 11.2,
+   "testo": "ABITI ELEGANTI (15 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    505.9,
+    253.3,
+    516.5
+   ],
+   "size": 8.8,
+   "testo": "Gli abiti eleganti sono realizzati con stoffe pregiate",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    517.0,
+    266.1,
+    527.6
+   ],
+   "size": 8.8,
+   "testo": "e decorati con dettagli raffinati. Alcuni eventi e luoghi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    528.0,
+    216.4,
+    538.5
+   ],
+   "size": 8.8,
+   "testo": "consentono l'accesso solo a chi li indossa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    562.9,
+    213.0,
+    574.2
+   ],
+   "size": 11.2,
+   "testo": "ABITI DA VIAGGIATORE (2 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    574.1,
+    266.7,
+    584.6
+   ],
+   "size": 8.8,
+   "testo": "Gli abiti da viaggiatore sono resistenti e progettati per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    585.0,
+    169.3,
+    595.6
+   ],
+   "size": 8.8,
+   "testo": "sopportare svariati ambienti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    620.0,
+    260.3,
+    631.4
+   ],
+   "size": 11.2,
+   "testo": "ACCIARINO CON PIETRA FOCAIA (5 MA)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    631.4,
+    267.8,
+    642.0
+   ],
+   "size": 8.8,
+   "testo": "Si tratta di un piccolo contenitore usato per accendere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    642.4,
+    275.6,
+    652.9
+   ],
+   "size": 8.8,
+   "testo": "il fuoco, che contiene acciarino, pietra focaia e materiale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    653.4,
+    257.7,
+    664.0
+   ],
+   "size": 8.8,
+   "testo": "combustibile (solitamente stracci essiccati e bagnati",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    664.4,
+    267.9,
+    674.9
+   ],
+   "size": 8.8,
+   "testo": "d'olio). Utilizzarlo per accendere una candela, una lam­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    675.4,
+    280.0,
+    686.0
+   ],
+   "size": 8.8,
+   "testo": "pada, una lanterna, una torcia o qualunque altra cosa con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    686.3,
+    271.1,
+    696.9
+   ],
+   "size": 8.8,
+   "testo": "sopra materiale infiammabile richiede un'azione bonus.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    697.3,
+    275.2,
+    707.9
+   ],
+   "size": 8.8,
+   "testo": "Per accendere un fuoco di qualsiasi altro tipo è richiesto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    708.3,
+    91.7,
+    718.9
+   ],
+   "size": 8.8,
+   "testo": "1 minuto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    403.3,
+    385.2,
+    414.7
+   ],
+   "size": 11.2,
+   "testo": "ACIDO (25 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    414.5,
+    532.8,
+    425.1
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio effettua un'azione di Attacco, puoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    425.5,
+    522.9,
+    436.1
+   ],
+   "size": 8.8,
+   "testo": "sostituire uno dei suoi attacchi con il lancio di una fiala",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    436.5,
+    529.8,
+    447.1
+   ],
+   "size": 8.8,
+   "testo": "di acido. Può prendere di mira una creatura o un oggetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    447.5,
+    524.2,
+    458.0
+   ],
+   "size": 8.8,
+   "testo": "che è in grado di vedere entro 6 metri da sé. Il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    458.4,
+    525.6,
+    469.0
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Destrezza (CD 8 più il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    469.4,
+    520.9,
+    479.9
+   ],
+   "size": 8.8,
+   "testo": "modificatore di Destrezza e il bonus di competenza del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    480.4,
+    506.6,
+    491.0
+   ],
+   "size": 8.8,
+   "testo": "personaggio), altrimenti subirà 2d6 danni da acido.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    515.4,
+    424.8,
+    526.7
+   ],
+   "size": 11.2,
+   "testo": "ACQUA SANTA (25 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    526.6,
+    513.9,
+    537.2
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio effettua un'azione di Attacco,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    537.6,
+    524.0,
+    548.2
+   ],
+   "size": 8.8,
+   "testo": "puoi sostituire uno dei suoi attacchi con il lancio di una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    548.6,
+    529.8,
+    559.2
+   ],
+   "size": 8.8,
+   "testo": "ampolla di acqua santa verso una creatura che è in grado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    559.7,
+    516.5,
+    570.2
+   ],
+   "size": 8.8,
+   "testo": "di vedere entro un raggio di 6 metri da sé. Il bersaglio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    570.6,
+    525.7,
+    581.2
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Destrezza (CD 8 più il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    581.6,
+    521.1,
+    592.2
+   ],
+   "size": 8.8,
+   "testo": "modificatore di Destrezza e il bonus di competenza del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    592.6,
+    528.6,
+    603.2
+   ],
+   "size": 8.8,
+   "testo": "personaggio), altrimenti subirà 2d8 danni radiosi se è un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    603.6,
+    411.1,
+    614.2
+   ],
+   "size": 8.8,
+   "testo": "immondo o un non morto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    638.8,
+    395.1,
+    650.1
+   ],
+   "size": 11.2,
+   "testo": "AMPOLLA (2 MR)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    650.0,
+    459.1,
+    660.5
+   ],
+   "size": 8.8,
+   "testo": "Un'ampolla ha una capacità di 0,5 litri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    684.8,
+    422.3,
+    696.2
+   ],
+   "size": 11.2,
+   "testo": "ANTITOSSINA (50 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    696.0,
+    533.7,
+    706.6
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, per evitare di essere avvelenato o inter­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    707.0,
+    528.0,
+    717.6
+   ],
+   "size": 8.8,
+   "testo": "rompere tale condizione, il personaggio può bere una fiala",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    718.0,
+    535.7,
+    728.5
+   ],
+   "size": 8.8,
+   "testo": "di antitossina per ottenere vantaggio ai relativi tiri salvezza.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

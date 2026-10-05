@@ -1,0 +1,1284 @@
+{
+ "pagina_pdf": 251,
+ "pagina_stampata": 248,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "248 / CAPITOLO 7 i INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.9,
+    51.6,
+    142.2,
+    61.7
+   ],
+   "size": 8.0,
+   "testo": "BLOCCA MOSTRI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    61.6,
+    272.0,
+    73.4
+   ],
+   "size": 8.0,
+   "testo": "Ammaliamento di 5° livello (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    79.2,
+    144.6,
+    88.2
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    90.2,
+    117.6,
+    99.2
+   ],
+   "size": 6.7,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    101.2,
+    210.8,
+    110.2
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S, M (una sbarra di ferro)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    112.2,
+    206.8,
+    121.1
+   ],
+   "size": 6.7,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    129.4,
+    271.6,
+    138.2
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore sceglie una creatura entro gittata che è in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    140.4,
+    283.4,
+    149.1
+   ],
+   "size": 6.6,
+   "testo": "grado di vedere. Il bersaglio deve superare un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    151.4,
+    273.9,
+    160.1
+   ],
+   "size": 6.6,
+   "testo": "su Saggezza, altrimenti rimane paralizzato per la durata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    162.4,
+    272.4,
+    171.1
+   ],
+   "size": 6.6,
+   "testo": "dell'incantesimo. Alla fine di ogni suo turno, il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    173.5,
+    282.8,
+    182.2
+   ],
+   "size": 6.6,
+   "testo": "ripete il tiro salvezza e, se lo supera, termina l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    184.4,
+    85.3,
+    193.1
+   ],
+   "size": 6.6,
+   "testo": "su di sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    195.5,
+    256.7,
+    204.2
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    206.5,
+    265.7,
+    215.2
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    217.6,
+    199.1,
+    226.2
+   ],
+   "size": 6.6,
+   "testo": "per ogni slot di livello superiore al 5°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    250.5,
+    148.6,
+    260.6
+   ],
+   "size": 8.0,
+   "testo": "BLOCCA PERSONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    260.7,
+    264.6,
+    272.5
+   ],
+   "size": 8.0,
+   "testo": "Ammaliamento di 2° livello (bardo, chierico, druido, mago,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    273.2,
+    121.3,
+    283.3
+   ],
+   "size": 8.0,
+   "testo": "stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    289.4,
+    144.5,
+    298.4
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    300.3,
+    117.3,
+    309.3
+   ],
+   "size": 6.7,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    311.3,
+    210.6,
+    320.3
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S, M (una sbarra di ferro)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    322.3,
+    206.5,
+    331.3
+   ],
+   "size": 6.7,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    339.6,
+    255.7,
+    348.3
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore sceglie un umanoide entro gittata che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    350.6,
+    264.7,
+    359.4
+   ],
+   "size": 6.6,
+   "testo": "è in grado di vedere. Il bersaglio deve superare un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    361.5,
+    271.8,
+    370.2
+   ],
+   "size": 6.6,
+   "testo": "salvezza su Saggezza, altrimenti rimane paralizzato per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    372.5,
+    264.0,
+    381.2
+   ],
+   "size": 6.6,
+   "testo": "la durata dell'incantesimo. Alla fine di ogni suo turno,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    383.5,
+    273.0,
+    392.2
+   ],
+   "size": 6.6,
+   "testo": "il bersaglio ripete il tiro salvezza e, se lo supera, termina",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    394.5,
+    139.7,
+    403.2
+   ],
+   "size": 6.6,
+   "testo": "l'incantesimo su di sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    405.7,
+    256.4,
+    414.5
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    416.6,
+    266.4,
+    425.3
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore può bersagliare un umanoide aggiuntivo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    427.6,
+    199.5,
+    436.3
+   ],
+   "size": 6.6,
+   "testo": "per ogni slot di livello superiore al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    460.5,
+    137.5,
+    470.6
+   ],
+   "size": 8.0,
+   "testo": "BOCCA MAGICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    470.6,
+    180.4,
+    482.5
+   ],
+   "size": 8.0,
+   "testo": "Illusione di 2° livello (bardo, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    488.3,
+    187.0,
+    497.2
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    499.2,
+    112.8,
+    508.1
+   ],
+   "size": 6.7,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    510.3,
+    273.0,
+    519.2
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S, M (polvere di giada del valore di 10 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.5,
+    521.2,
+    192.5,
+    530.2
+   ],
+   "size": 6.7,
+   "testo": "o più, che l'incantesimo consuma)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    532.4,
+    180.2,
+    541.3
+   ],
+   "size": 6.7,
+   "testo": "Durata: finché non viene dissolto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    549.5,
+    262.1,
+    558.2
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore imprime un messaggio all'interno di un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    560.5,
+    266.8,
+    569.2
+   ],
+   "size": 6.6,
+   "testo": "oggetto entro gittata, che viene pronunciato quando si",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    571.5,
+    272.0,
+    580.2
+   ],
+   "size": 6.6,
+   "testo": "verifica una condizione di innesco. L'incantatore sceglie",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    582.5,
+    276.3,
+    591.3
+   ],
+   "size": 6.6,
+   "testo": "un oggetto che è in grado di vedere e che non è indossato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    593.5,
+    267.0,
+    602.2
+   ],
+   "size": 6.6,
+   "testo": "o trasportato da un'altra creatura. Quindi pronuncia il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    604.4,
+    265.1,
+    613.1
+   ],
+   "size": 6.6,
+   "testo": "messaggio, che non deve essere più lungo di 25 parole,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    615.6,
+    264.8,
+    624.3
+   ],
+   "size": 6.6,
+   "testo": "ma può essere enunciato nell'arco di 10 minuti. Infine,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    626.6,
+    253.8,
+    635.3
+   ],
+   "size": 6.6,
+   "testo": "determina la circostanza che innesca l'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    637.7,
+    161.6,
+    646.3
+   ],
+   "size": 6.6,
+   "testo": "e l'emissione del messaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    648.6,
+    266.3,
+    657.3
+   ],
+   "size": 6.6,
+   "testo": "Quando quell'innesco si verifica, sull'oggetto appare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    659.6,
+    257.4,
+    668.3
+   ],
+   "size": 6.6,
+   "testo": "una bocca magica che recita il messaggio con il tono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    670.6,
+    265.0,
+    679.3
+   ],
+   "size": 6.6,
+   "testo": "e il volume di voce dell'incantatore. Se l'oggetto scelto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    681.6,
+    263.4,
+    690.3
+   ],
+   "size": 6.6,
+   "testo": "presenta già una bocca o qualcosa di simile (per esem­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    692.6,
+    252.5,
+    701.3
+   ],
+   "size": 6.6,
+   "testo": "pio, la bocca di una statua), la bocca magica appare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    703.5,
+    247.3,
+    712.2
+   ],
+   "size": 6.6,
+   "testo": "in modo che le parole sembrino pronunciate dalla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    37.7,
+    518.4,
+    46.4
+   ],
+   "size": 6.6,
+   "testo": "bocca dell'oggetto. Quando lancia questo incantesimo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    48.8,
+    530.7,
+    57.5
+   ],
+   "size": 6.6,
+   "testo": "l'incantatore può fare in modo che esso termini una volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    59.9,
+    523.6,
+    68.5
+   ],
+   "size": 6.6,
+   "testo": "consegnato il messaggio o che rimanga attivo ripetendo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    70.8,
+    516.2,
+    79.5
+   ],
+   "size": 6.6,
+   "testo": "il messaggio ogniqualvolta si verifica la circostanza di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    81.9,
+    339.3,
+    90.6
+   ],
+   "size": 6.6,
+   "testo": "innesco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    92.8,
+    505.0,
+    101.5
+   ],
+   "size": 6.6,
+   "testo": "L'innesco può essere sia generale che dettagliato,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    103.8,
+    509.5,
+    112.5
+   ],
+   "size": 6.6,
+   "testo": "ma deve essere basato su condizioni visibili o udibili",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    114.8,
+    525.9,
+    123.6
+   ],
+   "size": 6.6,
+   "testo": "che si verificano entro 9 metri dall'oggetto. Per esempio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    125.8,
+    511.9,
+    134.5
+   ],
+   "size": 6.6,
+   "testo": "l'incantatore potrebbe ordinare alla bocca di parlare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    136.8,
+    531.4,
+    145.7
+   ],
+   "size": 6.6,
+   "testo": "quando, entro 9 metri dall'oggetto, una qualsiasi creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    147.8,
+    489.9,
+    156.4
+   ],
+   "size": 6.6,
+   "testo": "si muove, oppure un campana d'argento suona.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    166.5,
+    335.3,
+    175.2
+   ],
+   "size": 6.6,
+   "testo": ".--",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    180.8,
+    409.0,
+    190.9
+   ],
+   "size": 8.0,
+   "testo": "BRACCIA DI RADAR",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    190.9,
+    425.4,
+    202.7
+   ],
+   "size": 8.0,
+   "testo": "Evocazione di 1° livello (warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    208.7,
+    397.1,
+    217.6
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    219.6,
+    381.3,
+    228.5
+   ],
+   "size": 6.7,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    230.6,
+    373.3,
+    239.3
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    241.6,
+    377.6,
+    250.5
+   ],
+   "size": 6.7,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    258.9,
+    522.1,
+    267.6
+   ],
+   "size": 6.6,
+   "testo": "Invocando Hadar, dal corpo dell'incantatore erompono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    269.9,
+    525.3,
+    278.7
+   ],
+   "size": 6.6,
+   "testo": "dei tentacoli. Ogni creatura in un'emanazione di 3 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    280.9,
+    520.7,
+    289.8
+   ],
+   "size": 6.6,
+   "testo": "di cui l'incantatore è il punto di origine effettua un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    292.0,
+    505.3,
+    300.7
+   ],
+   "size": 6.6,
+   "testo": "salvezza su Forza. Se lo fallisce, il bersaglio subisce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    302.9,
+    516.8,
+    311.6
+   ],
+   "size": 6.6,
+   "testo": "2d6 danni necrotici e non può effettuare reazioni fino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    314.0,
+    534.3,
+    322.7
+   ],
+   "size": 6.6,
+   "testo": "all'inizio del proprio turno successivo. Se invece lo supera,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    325.0,
+    454.5,
+    333.7
+   ],
+   "size": 6.6,
+   "testo": "subisce soltanto la metà di quei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    336.0,
+    508.9,
+    344.7
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    346.9,
+    513.4,
+    355.6
+   ],
+   "size": 6.6,
+   "testo": "I danni aumentano di 1d6 per ogni slot di livello supe­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    357.9,
+    346.1,
+    366.6
+   ],
+   "size": 6.6,
+   "testo": "riore al 1°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    390.8,
+    403.5,
+    400.9
+   ],
+   "size": 8.0,
+   "testo": "CADUTA MORBIDA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    401.1,
+    488.9,
+    413.0
+   ],
+   "size": 8.0,
+   "testo": "Trasmutazione di 1° livello (bardo, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    418.8,
+    529.9,
+    427.7
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: Reazione, che l'incantatore può effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.0,
+    429.7,
+    522.6,
+    438.7
+   ],
+   "size": 6.7,
+   "testo": "quando egli stesso o una creatura entro 18 metri da lui",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.7,
+    440.7,
+    425.9,
+    449.7
+   ],
+   "size": 6.7,
+   "testo": "che è in grado di vedere cade",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    451.6,
+    369.7,
+    460.5
+   ],
+   "size": 6.7,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    462.6,
+    453.0,
+    471.5
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, M (una piccola piuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    473.6,
+    372.6,
+    482.5
+   ],
+   "size": 6.7,
+   "testo": "Durata: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    490.9,
+    513.3,
+    499.5
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore sceglie fino a cinque creature in caduta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    501.9,
+    515.1,
+    510.5
+   ],
+   "size": 6.6,
+   "testo": "entro gittata. L a velocità di discesa di una creatura in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    513.0,
+    528.0,
+    521.6
+   ],
+   "size": 6.6,
+   "testo": "caduta rallenta fino a 18 metri per round finché l'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    524.0,
+    533.9,
+    532.6
+   ],
+   "size": 6.6,
+   "testo": "simo non termina. Se una creatura cade prima del termine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    534.9,
+    511.2,
+    543.6
+   ],
+   "size": 6.6,
+   "testo": "dell'incantesimo, non subisce alcun danno da caduta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    545.9,
+    458.1,
+    554.6
+   ],
+   "size": 6.6,
+   "testo": "e interrompe l'effetto dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    578.8,
+    491.6,
+    588.9
+   ],
+   "size": 8.0,
+   "testo": "CALDERONE RIBOLLENTE DI TASHA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    589.0,
+    450.3,
+    600.8
+   ],
+   "size": 8.0,
+   "testo": "Evocazione di 6°livello (mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    606.6,
+    396.7,
+    615.5
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    617.7,
+    372.0,
+    626.6
+   ],
+   "size": 6.7,
+   "testo": "Gittata: 1, 5 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    628.8,
+    502.3,
+    637.7
+   ],
+   "size": 6.7,
+   "testo": "Componente: V, S, M (un mestolo dorato del valore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    639.7,
+    377.4,
+    648.7
+   ],
+   "size": 6.7,
+   "testo": "di 500 mo o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    650.7,
+    374.3,
+    659.7
+   ],
+   "size": 6.7,
+   "testo": "Durata: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    668.1,
+    527.9,
+    676.7
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore evoca un calderone dotato di piedini curvi,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    679.0,
+    513.2,
+    687.7
+   ],
+   "size": 6.6,
+   "testo": "pieno di liquido ribollente. Il calderone appare in uno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    690.0,
+    525.4,
+    698.7
+   ],
+   "size": 6.6,
+   "testo": "spazio libero sul terreno entro 1,5 metri dall'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    701.0,
+    533.1,
+    709.7
+   ],
+   "size": 6.6,
+   "testo": "e permane per la durata dell'incantesimo. Il calderone non",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

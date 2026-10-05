@@ -1,0 +1,583 @@
+{
+ "pagina_pdf": 312,
+ "pagina_stampata": 309,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 309",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   412
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.6,
+    413.3,
+    177.6,
+    424.6
+   ],
+   "size": 11.2,
+   "testo": "RANDELLO INCANTATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    425.7,
+    193.4,
+    435.0
+   ],
+   "size": 8.6,
+   "testo": "Trucchetto di Trasmutazione (druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    440.3,
+    173.6,
+    449.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    451.3,
+    131.3,
+    460.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    462.3,
+    169.8,
+    471.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (vischio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    473.3,
+    123.0,
+    482.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    489.5,
+    271.2,
+    500.1
+   ],
+   "size": 8.8,
+   "testo": "Un randello o un bastone ferrato impugnato dall'incan­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    500.6,
+    266.9,
+    511.2
+   ],
+   "size": 8.8,
+   "testo": "tatore è pervaso dal potere della natura. Per la durata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    511.6,
+    284.6,
+    522.2
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, l'incantatore usa la propria caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    522.6,
+    269.5,
+    533.2
+   ],
+   "size": 8.8,
+   "testo": "da incantatore anziché la Forza per i tiri per i danni e i",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    533.6,
+    280.2,
+    544.2
+   ],
+   "size": 8.8,
+   "testo": "tiri per colpire effettuati negli attacchi in mischia usando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    544.6,
+    271.9,
+    555.2
+   ],
+   "size": 8.8,
+   "testo": "quell'arma: inoltre, i danni dell'arma sono calcolati con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    555.5,
+    272.8,
+    566.1
+   ],
+   "size": 8.8,
+   "testo": "un d8. Se l'attacco infligge danni, possono essere danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    566.5,
+    254.8,
+    577.1
+   ],
+   "size": 8.8,
+   "testo": "da forza o danni normali inflitti dall'arma (a scelta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    577.5,
+    124.6,
+    588.1
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    588.5,
+    284.6,
+    599.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo termina se l'incantatore lo lancia di nuovo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    599.4,
+    155.2,
+    610.0
+   ],
+   "size": 8.8,
+   "testo": "o se lascia andare l'arma.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    610.6,
+    284.1,
+    621.2
+   ],
+   "size": 8.8,
+   "testo": "Trucchetto potenziato. I danni sono calcolati con un dado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    619.5,
+    279.4,
+    632.2
+   ],
+   "size": 8.8,
+   "testo": "diverso quando l'incantatore raggiunge il 5° livello (d10),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    630.5,
+    199.2,
+    643.2
+   ],
+   "size": 8.8,
+   "testo": "1'11° livello {d12) e il 17° livello (2d6).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    413.4,
+    534.5,
+    424.8
+   ],
+   "size": 11.2,
+   "testo": "REGGIA MERAVIGLIOSA DI MORDENKAINEN",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    424.9,
+    445.6,
+    435.4
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di 7° livello (bardo, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    440.4,
+    409.3,
+    450.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    451.4,
+    373.4,
+    461.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 90 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    462.4,
+    534.2,
+    472.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una miniatura di una porta del valore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.6,
+    473.4,
+    374.9,
+    483.0
+   ],
+   "size": 8.4,
+   "testo": "di 15 mo o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    483.3,
+    364.4,
+    494.0
+   ],
+   "size": 8.8,
+   "testo": "Durata: 24 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    500.7,
+    525.3,
+    511.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore evoca una porta scintillante entro gittata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    511.7,
+    518.9,
+    522.3
+   ],
+   "size": 8.8,
+   "testo": "che permane per la durata dell'incantesimo. La porta,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    522.7,
+    533.4,
+    533.3
+   ],
+   "size": 8.8,
+   "testo": "larga 1,5 metri e alta 3 metri, conduce a una dimora extra­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    533.8,
+    537.2,
+    544.3
+   ],
+   "size": 8.8,
+   "testo": "dimensionale. L'incantatore e una qualsiasi creatura da lui",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    544.7,
+    536.8,
+    555.3
+   ],
+   "size": 8.8,
+   "testo": "scelta al momento del lancio possono entrare nella dimora",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    555.6,
+    522.3,
+    566.2
+   ],
+   "size": 8.8,
+   "testo": "extradimensionale fintantoché la porta rimane aperta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    566.7,
+    518.4,
+    577.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può aprire o chiudere la porta (nessuna",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    577.7,
+    534.6,
+    588.2
+   ],
+   "size": 8.8,
+   "testo": "azione richiesta) se si trova entro 9 metri da essa; quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    588.6,
+    442.2,
+    599.1
+   ],
+   "size": 8.8,
+   "testo": "è chiusa, la porta è impercettibile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    599.6,
+    534.9,
+    610.1
+   ],
+   "size": 8.8,
+   "testo": "Oltre la porta si trova un atrio sfarzoso su cui si aprono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    610.8,
+    536.5,
+    621.4
+   ],
+   "size": 8.8,
+   "testo": "numerose stanze. L'atmosfera della dimora è pulita, fresca",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    621.7,
+    363.0,
+    632.3
+   ],
+   "size": 8.8,
+   "testo": "e accogliente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    632.8,
+    527.3,
+    643.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può definire la planimetria della dimora",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    643.7,
+    525.8,
+    654.3
+   ],
+   "size": 8.8,
+   "testo": "come preferisce, ma le sue dimensioni non devono supe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    654.7,
+    534.2,
+    665.3
+   ],
+   "size": 8.8,
+   "testo": "rare quelle di 50 cubi contigui con spigolo di 3 metri. Inol­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    665.7,
+    538.1,
+    676.3
+   ],
+   "size": 8.8,
+   "testo": "tre, la dimora è ammobiliata e decorata come l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    676.7,
+    517.7,
+    687.2
+   ],
+   "size": 8.8,
+   "testo": "preferisce e contiene cibo a sufficienza per servire un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    687.7,
+    536.9,
+    698.3
+   ],
+   "size": 8.8,
+   "testo": "banchetto di nove portate per un massimo di 100 persone.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    698.7,
+    527.0,
+    709.3
+   ],
+   "size": 8.8,
+   "testo": "Arredi e altri oggetti creati da questo incantesimo si dis­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    709.7,
+    524.9,
+    720.3
+   ],
+   "size": 8.8,
+   "testo": "solvono in fumo quando vengono rimossi dalla dimora.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

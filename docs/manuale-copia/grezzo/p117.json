@@ -1,0 +1,2604 @@
+{
+ "pagina_pdf": 117,
+ "pagina_stampata": 114,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "114 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    49.8,
+    36.0,
+    270.7,
+    45.4
+   ],
+   "size": 9.0,
+   "testo": "LISTA DEGLI INCANTESIMI DA MAGO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    40.0,
+    353.9,
+    48.8
+   ],
+   "size": 6.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.2,
+    39.9,
+    455.8,
+    48.7
+   ],
+   "size": 6.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    494.9,
+    40.0,
+    527.8,
+    48.8
+   ],
+   "size": 6.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.6,
+    54.1,
+    259.2,
+    62.7
+   ],
+   "size": 6.6,
+   "testo": "In questa sezione si trova la lista degli incantesimi del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    54.1,
+    361.9,
+    63.3
+   ],
+   "size": 9.0,
+   "testo": "Mani brucianti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.3,
+    54.3,
+    476.3,
+    63.1
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.9,
+    65.1,
+    255.7,
+    73.7
+   ],
+   "size": 6.6,
+   "testo": "mago. Gli incantesimi sono ordinati prima per livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    68.7,
+    363.4,
+    77.8
+   ],
+   "size": 9.0,
+   "testo": "Nube di nebbia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.5,
+    68.8,
+    473.3,
+    77.6
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.0,
+    68.9,
+    514.6,
+    77.7
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.4,
+    76.1,
+    264.1,
+    84.7
+   ],
+   "size": 6.6,
+   "testo": "dell'incantesimo e poi in ordine alfabetico, insieme alla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    83.3,
+    359.1,
+    92.4
+   ],
+   "size": 9.0,
+   "testo": "Onda tonante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.5,
+    83.4,
+    476.2,
+    92.2
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.9,
+    87.1,
+    276.1,
+    95.6
+   ],
+   "size": 6.6,
+   "testo": "scuola di magia per ciascuna voce dell'elenco. Nella colonna",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.5,
+    98.1,
+    263.0,
+    106.9
+   ],
+   "size": 6.6,
+   "testo": "Speciale, C significa che l'incantesimo richiede concen-",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    97.9,
+    352.3,
+    107.0
+   ],
+   "size": 9.0,
+   "testo": "Passo veloce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.5,
+    98.0,
+    486.5,
+    106.8
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.4,
+    109.0,
+    264.2,
+    117.8
+   ],
+   "size": 6.6,
+   "testo": "trazione, R indica che è un rituale, mentre M segnala la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    112.4,
+    419.0,
+    121.6
+   ],
+   "size": 9.0,
+   "testo": "Protezione dal bene e dal male",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.7,
+    112.5,
+    476.0,
+    121.3
+   ],
+   "size": 6.6,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.6,
+    112.5,
+    520.4,
+    121.3
+   ],
+   "size": 6.6,
+   "testo": "C,M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    120.1,
+    239.5,
+    128.6
+   ],
+   "size": 6.6,
+   "testo": "necessità di una specifica componente materiale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    127.0,
+    377.4,
+    136.1
+   ],
+   "size": 9.0,
+   "testo": "Raggio di infermità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.5,
+    127.1,
+    481.1,
+    135.9
+   ],
+   "size": 6.6,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.2,
+    140.0,
+    232.8,
+    149.4
+   ],
+   "size": 9.0,
+   "testo": "TRUCCHETTI {INCANTESIMI DA MAGO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    141.6,
+    412.4,
+    150.7
+   ],
+   "size": 9.0,
+   "testo": "Risata incontenibile di Tasha",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    141.6,
+    489.1,
+    150.4
+   ],
+   "size": 6.6,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.0,
+    141.8,
+    514.6,
+    150.6
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    153.7,
+    117.6,
+    163.1
+   ],
+   "size": 9.0,
+   "testo": "DI LIVELLO O)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    156.2,
+    361.1,
+    165.3
+   ],
+   "size": 9.0,
+   "testo": "Ritirata rapida",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.5,
+    156.3,
+    486.9,
+    165.0
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.1,
+    156.3,
+    514.7,
+    165.1
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    170.9,
+    101.6,
+    179.7
+   ],
+   "size": 6.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.8,
+    170.8,
+    203.5,
+    179.5
+   ],
+   "size": 6.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    170.7,
+    275.7,
+    179.4
+   ],
+   "size": 6.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    170.8,
+    333.8,
+    180.0
+   ],
+   "size": 9.0,
+   "testo": "Saltare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.7,
+    170.9,
+    486.9,
+    179.7
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    185.0,
+    86.8,
+    194.2
+   ],
+   "size": 9.0,
+   "testo": "Amicizia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.1,
+    184.9,
+    237.0,
+    193.7
+   ],
+   "size": 6.6,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.0,
+    184.9,
+    262.6,
+    193.7
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    185.4,
+    362.6,
+    194.5
+   ],
+   "size": 9.0,
+   "testo": "Scritto illusorio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    185.5,
+    462.9,
+    194.2
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.5,
+    185.4,
+    520.3,
+    194.2
+   ],
+   "size": 6.6,
+   "testo": "R, M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    199.7,
+    110.5,
+    208.8
+   ],
+   "size": 9.0,
+   "testo": "Colpo accurato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    199.6,
+    223.1,
+    208.4
+   ],
+   "size": 6.6,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    200.0,
+    327.7,
+    209.1
+   ],
+   "size": 9.0,
+   "testo": "Scudi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.6,
+    200.1,
+    476.3,
+    208.9
+   ],
+   "size": 6.6,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    214.4,
+    109.4,
+    223.5
+   ],
+   "size": 9.0,
+   "testo": "Dardo di fuoco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.9,
+    214.2,
+    224.0,
+    223.0
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    214.7,
+    383.4,
+    223.8
+   ],
+   "size": 9.0,
+   "testo": "Servitore inosservato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.3,
+    214.7,
+    473.7,
+    223.5
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.7,
+    214.7,
+    515.0,
+    223.4
+   ],
+   "size": 6.6,
+   "testo": "R",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    228.9,
+    109.3,
+    238.0
+   ],
+   "size": 9.0,
+   "testo": "Elementalismo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    228.7,
+    234.5,
+    237.5
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    229.2,
+    330.8,
+    238.3
+   ],
+   "size": 9.0,
+   "testo": "Sonno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    229.3,
+    489.1,
+    238.1
+   ],
+   "size": 6.6,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.1,
+    229.4,
+    514.7,
+    238.1
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    243.4,
+    98.8,
+    252.6
+   ],
+   "size": 9.0,
+   "testo": "Fiotto acido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    243.3,
+    223.7,
+    252.1
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    243.8,
+    369.2,
+    252.9
+   ],
+   "size": 9.0,
+   "testo": "Spruzzo colorato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    243.9,
+    462.9,
+    252.7
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    258.0,
+    113.4,
+    267.1
+   ],
+   "size": 9.0,
+   "testo": "Illusione minore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    257.9,
+    210.4,
+    266.7
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    258.3,
+    359.7,
+    267.5
+   ],
+   "size": 9.0,
+   "testo": "Trova famiglio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    258.4,
+    473.4,
+    267.2
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.5,
+    258.3,
+    520.4,
+    267.1
+   ],
+   "size": 6.6,
+   "testo": "R, M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    272.6,
+    134.0,
+    281.7
+   ],
+   "size": 9.0,
+   "testo": "Interdizione alle lame",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.5,
+    272.5,
+    223.6,
+    281.3
+   ],
+   "size": 6.6,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.9,
+    272.4,
+    262.5,
+    281.2
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    273.0,
+    326.2,
+    282.1
+   ],
+   "size": 9.0,
+   "testo": "Unto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    273.0,
+    473.6,
+    281.8
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    287.3,
+    72.4,
+    296.4
+   ],
+   "size": 9.0,
+   "testo": "Luce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    287.2,
+    223.9,
+    296.0
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    287.6,
+    349.8,
+    296.7
+   ],
+   "size": 9.0,
+   "testo": "Vita falsata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.4,
+    287.7,
+    481.6,
+    296.5
+   ],
+   "size": 6.6,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    301.8,
+    105.0,
+    310.9
+   ],
+   "size": 9.0,
+   "testo": "Luci danzanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    301.7,
+    210.4,
+    310.5
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.0,
+    301.7,
+    262.6,
+    310.5
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    316.3,
+    106.0,
+    325.5
+   ],
+   "size": 9.0,
+   "testo": "Mano magica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    316.2,
+    221.1,
+    325.0
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    310.1,
+    489.8,
+    321.4
+   ],
+   "size": 9.0,
+   "testo": "INCANTESIMI DA MAGO DI 2° LIVELLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    331.0,
+    93.4,
+    340.1
+   ],
+   "size": 9.0,
+   "testo": "Messaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    330.9,
+    234.5,
+    339.7
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    327.4,
+    354.0,
+    336.2
+   ],
+   "size": 6.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.4,
+    327.4,
+    456.1,
+    336.2
+   ],
+   "size": 6.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    495.3,
+    327.4,
+    528.0,
+    336.2
+   ],
+   "size": 6.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    345.4,
+    115.8,
+    354.6
+   ],
+   "size": 9.0,
+   "testo": "Prestidigitazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    345.4,
+    234.5,
+    354.2
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    341.5,
+    364.6,
+    350.6
+   ],
+   "size": 9.0,
+   "testo": "Aculeo mentale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    341.6,
+    475.6,
+    350.4
+   ],
+   "size": 6.6,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.2,
+    341.7,
+    514.8,
+    350.5
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    360.0,
+    106.3,
+    369.1
+   ],
+   "size": 9.0,
+   "testo": "Raggio di gelo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    360.0,
+    223.8,
+    368.8
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    356.0,
+    386.1,
+    365.1
+   ],
+   "size": 9.0,
+   "testo": "Allucinazione di forza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    356.2,
+    462.9,
+    365.0
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.2,
+    356.2,
+    514.8,
+    365.0
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    374.6,
+    122.4,
+    383.7
+   ],
+   "size": 9.0,
+   "testo": "Rintocco dei morti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    374.5,
+    229.1,
+    383.3
+   ],
+   "size": 6.6,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    370.6,
+    369.6,
+    379.8
+   ],
+   "size": 9.0,
+   "testo": "Alterare se stesso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.5,
+    370.7,
+    487.2,
+    379.5
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.2,
+    370.8,
+    514.8,
+    379.6
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    389.2,
+    86.4,
+    398.3
+   ],
+   "size": 9.0,
+   "testo": "Riparare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    389.1,
+    234.5,
+    397.9
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    385.2,
+    357.3,
+    394.3
+   ],
+   "size": 9.0,
+   "testo": "Arma magica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    385.3,
+    487.0,
+    394.1
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    403.9,
+    114.1,
+    413.0
+   ],
+   "size": 9.0,
+   "testo": "Rombo di tuono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    403.8,
+    224.0,
+    412.6
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    399.8,
+    389.8,
+    409.0
+   ],
+   "size": 9.0,
+   "testo": "Aura magica di Nystul",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    400.0,
+    463.0,
+    408.7
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    418.4,
+    133.2,
+    427.5
+   ],
+   "size": 9.0,
+   "testo": "Scheggia della mente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    418.3,
+    237.0,
+    427.1
+   ],
+   "size": 6.6,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    414.5,
+    362.0,
+    423.6
+   ],
+   "size": 9.0,
+   "testo": "Blocca persone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.6,
+    414.6,
+    489.4,
+    423.4
+   ],
+   "size": 6.6,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    414.6,
+    515.0,
+    423.4
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    433.0,
+    117.6,
+    442.1
+   ],
+   "size": 9.0,
+   "testo": "Spruzzo velenoso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.9,
+    432.9,
+    229.1,
+    441.7
+   ],
+   "size": 6.6,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    429.1,
+    358.7,
+    438.2
+   ],
+   "size": 9.0,
+   "testo": "Bocca magica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    429.1,
+    463.0,
+    437.9
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.6,
+    429.0,
+    520.6,
+    437.8
+   ],
+   "size": 6.6,
+   "testo": "R, M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    447.5,
+    120.2,
+    456.7
+   ],
+   "size": 9.0,
+   "testo": "Stretta folgorante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    447.5,
+    224.0,
+    456.3
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    443.6,
+    398.9,
+    452.7
+   ],
+   "size": 9.0,
+   "testo": "Caratteristica potenziata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    443.7,
+    487.0,
+    452.5
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    443.7,
+    515.0,
+    452.5
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    462.1,
+    99.8,
+    471.2
+   ],
+   "size": 9.0,
+   "testo": "Tocco gelido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    462.0,
+    228.9,
+    470.8
+   ],
+   "size": 6.6,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    458.1,
+    360.7,
+    467.3
+   ],
+   "size": 9.0,
+   "testo": "Cecità/Sordità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    458.2,
+    487.0,
+    467.0
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    472.7,
+    363.3,
+    481.8
+   ],
+   "size": 9.0,
+   "testo": "Corona di follia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.9,
+    472.8,
+    489.2,
+    481.6
+   ],
+   "size": 6.6,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    472.8,
+    515.0,
+    481.6
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    484.5,
+    236.2,
+    495.8
+   ],
+   "size": 9.0,
+   "testo": "INCANTESIMI DA MAGO DI 1° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    487.2,
+    369.8,
+    496.4
+   ],
+   "size": 9.0,
+   "testo": "Fiamma perenne",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    487.4,
+    476.4,
+    496.2
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    507.6,
+    487.2,
+    515.5,
+    496.0
+   ],
+   "size": 6.6,
+   "testo": "M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    501.9,
+    101.6,
+    510.6
+   ],
+   "size": 6.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.8,
+    501.7,
+    203.5,
+    510.5
+   ],
+   "size": 6.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    501.6,
+    275.7,
+    510.4
+   ],
+   "size": 6.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    501.9,
+    362.5,
+    511.0
+   ],
+   "size": 9.0,
+   "testo": "Folata di vento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    502.0,
+    476.6,
+    510.8
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    502.0,
+    515.0,
+    510.8
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    516.1,
+    84.2,
+    525.2
+   ],
+   "size": 9.0,
+   "testo": "Allarme",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.5,
+    516.0,
+    223.6,
+    524.8
+   ],
+   "size": 6.6,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.6,
+    515.9,
+    262.4,
+    524.7
+   ],
+   "size": 6.6,
+   "testo": "R",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    516.5,
+    351.3,
+    525.6
+   ],
+   "size": 9.0,
+   "testo": "Frantumare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    516.6,
+    476.5,
+    525.4
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    530.6,
+    120.3,
+    539.8
+   ],
+   "size": 9.0,
+   "testo": "Armatura magica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.5,
+    530.6,
+    223.5,
+    539.4
+   ],
+   "size": 6.6,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    531.1,
+    385.0,
+    540.2
+   ],
+   "size": 9.0,
+   "testo": "Freccia acida di Melf",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    531.2,
+    476.4,
+    540.0
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    545.3,
+    115.5,
+    554.4
+   ],
+   "size": 9.0,
+   "testo": "Caduta morbida",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    545.2,
+    234.7,
+    554.0
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    545.7,
+    381.3,
+    554.8
+   ],
+   "size": 9.0,
+   "testo": "Immagine speculare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    545.8,
+    463.0,
+    554.6
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    559.8,
+    126.6,
+    569.0
+   ],
+   "size": 9.0,
+   "testo": "Camuffare se stesso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    559.8,
+    210.6,
+    568.6
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    560.3,
+    404.1,
+    569.4
+   ],
+   "size": 9.0,
+   "testo": "Individuazione dei pensieri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    560.4,
+    475.7,
+    569.2
+   ],
+   "size": 6.6,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    560.4,
+    515.0,
+    569.2
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    574.3,
+    124.9,
+    583.5
+   ],
+   "size": 9.0,
+   "testo": "Charme su persone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.3,
+    574.3,
+    236.9,
+    583.1
+   ],
+   "size": 6.6,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    574.8,
+    375.6,
+    583.9
+   ],
+   "size": 9.0,
+   "testo": "Ingrandire/Ridurre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.6,
+    574.9,
+    487.3,
+    583.7
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    575.0,
+    515.0,
+    583.8
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    588.9,
+    124.1,
+    598.0
+   ],
+   "size": 9.0,
+   "testo": "Coltello di ghiaccio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    588.9,
+    221.1,
+    597.7
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.1,
+    589.4,
+    345.1,
+    598.5
+   ],
+   "size": 9.0,
+   "testo": "Invisibilità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    589.5,
+    463.0,
+    598.3
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.5,
+    589.5,
+    515.1,
+    598.3
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    603.5,
+    155.9,
+    612.6
+   ],
+   "size": 9.0,
+   "testo": "Comprensione dei linguaggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    603.5,
+    223.3,
+    612.3
+   ],
+   "size": 6.6,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.6,
+    603.3,
+    262.4,
+    612.1
+   ],
+   "size": 6.6,
+   "testo": "R",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    603.9,
+    349.1,
+    613.1
+   ],
+   "size": 9.0,
+   "testo": "Levitazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.9,
+    604.0,
+    487.1,
+    612.8
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    604.1,
+    515.0,
+    612.9
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    618.2,
+    115.9,
+    627.3
+   ],
+   "size": 9.0,
+   "testo": "Dardo incantato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    618.2,
+    223.8,
+    627.0
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    618.7,
+    371.8,
+    627.8
+   ],
+   "size": 9.0,
+   "testo": "Localizza oggetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    618.7,
+    475.9,
+    627.5
+   ],
+   "size": 6.6,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    618.8,
+    515.0,
+    627.5
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    632.9,
+    110.2,
+    642.0
+   ],
+   "size": 9.0,
+   "testo": "Dardo stregato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    632.9,
+    224.0,
+    641.7
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.0,
+    632.8,
+    262.6,
+    641.6
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    633.3,
+    383.8,
+    642.4
+   ],
+   "size": 9.0,
+   "testo": "Movimenti del ragno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.9,
+    633.4,
+    487.1,
+    642.2
+   ],
+   "size": 6.6,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.5,
+    633.5,
+    515.1,
+    642.3
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    647.3,
+    148.5,
+    656.5
+   ],
+   "size": 9.0,
+   "testo": "Discofluttuante di Tenser",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    647.4,
+    221.1,
+    656.2
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.6,
+    647.2,
+    262.9,
+    656.0
+   ],
+   "size": 6.6,
+   "testo": "R",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    647.9,
+    366.3,
+    657.0
+   ],
+   "size": 9.0,
+   "testo": "Nube di pugnali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    648.0,
+    473.7,
+    656.8
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.5,
+    648.0,
+    515.1,
+    656.8
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    662.0,
+    116.1,
+    671.1
+   ],
+   "size": 9.0,
+   "testo": "Globo cromatico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    661.9,
+    224.0,
+    670.7
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.3,
+    661.8,
+    263.1,
+    670.6
+   ],
+   "size": 6.6,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    662.5,
+    339.2,
+    671.6
+   ],
+   "size": 9.0,
+   "testo": "Oscurità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    662.6,
+    476.6,
+    671.3
+   ],
+   "size": 6.6,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.5,
+    662.6,
+    515.1,
+    671.3
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    676.6,
+    96.4,
+    685.7
+   ],
+   "size": 9.0,
+   "testo": "Identificare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.3,
+    676.6,
+    223.1,
+    685.4
+   ],
+   "size": 6.6,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.2,
+    676.4,
+    268.3,
+    685.2
+   ],
+   "size": 6.6,
+   "testo": "R, M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    677.0,
+    352.5,
+    686.1
+   ],
+   "size": 9.0,
+   "testo": "Passo velato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    677.2,
+    473.7,
+    685.9
+   ],
+   "size": 6.6,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    691.1,
+    129.1,
+    700.2
+   ],
+   "size": 9.0,
+   "testo": "Immagine silenziosa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    691.1,
+    210.5,
+    699.9
+   ],
+   "size": 6.6,
+   "testo": "Illusione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.0,
+    691.0,
+    262.6,
+    699.8
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    691.6,
+    338.3,
+    700.7
+   ],
+   "size": 9.0,
+   "testo": "Presagio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    691.7,
+    475.9,
+    700.5
+   ],
+   "size": 6.6,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.7,
+    691.6,
+    520.7,
+    700.4
+   ],
+   "size": 6.6,
+   "testo": "R, M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    705.7,
+    150.4,
+    714.8
+   ],
+   "size": 9.0,
+   "testo": "Individuazione del magico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    705.6,
+    223.3,
+    714.4
+   ],
+   "size": 6.6,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.0,
+    705.6,
+    268.2,
+    714.4
+   ],
+   "size": 6.6,
+   "testo": "C, R",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    706.2,
+    395.6,
+    715.3
+   ],
+   "size": 9.0,
+   "testo": "Raggio di affaticamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    706.2,
+    481.5,
+    715.0
+   ],
+   "size": 6.6,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.5,
+    706.2,
+    515.1,
+    715.0
+   ],
+   "size": 6.6,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

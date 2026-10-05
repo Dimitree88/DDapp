@@ -1,0 +1,1405 @@
+{
+ "pagina_pdf": 54,
+ "pagina_stampata": 51,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 51",
+ "immagini": [
+  [
+   43,
+   14,
+   553,
+   368
+  ],
+  [
+   0,
+   675,
+   590,
+   784
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    43.8,
+    267.5,
+    48.5,
+    285.2
+   ],
+   "size": 13.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    55.1,
+    162.1,
+    65.8
+   ],
+   "size": 10.6,
+   "testo": "TRATTI DEL BARBARO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    70.7,
+    117.7,
+    79.9
+   ],
+   "size": 8.2,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    81.7,
+    94.2,
+    90.9
+   ],
+   "size": 8.2,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    96.2,
+    99.7,
+    105.4
+   ],
+   "size": 8.2,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    110.8,
+    109.6,
+    120.0
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    121.8,
+    119.8,
+    131.0
+   ],
+   "size": 8.2,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    136.3,
+    109.5,
+    145.6
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    147.4,
+    105.2,
+    156.6
+   ],
+   "size": 8.2,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    175.0,
+    109.5,
+    184.2
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    186.0,
+    99.8,
+    195.2
+   ],
+   "size": 8.2,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    200.6,
+    109.6,
+    209.8
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.3,
+    211.6,
+    116.8,
+    220.8
+   ],
+   "size": 8.2,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    226.2,
+    128.2,
+    235.4
+   ],
+   "size": 8.2,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    237.2,
+    89.0,
+    246.5
+   ],
+   "size": 8.2,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.7,
+    70.3,
+    160.5,
+    79.9
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.7,
+    95.7,
+    254.6,
+    105.3
+   ],
+   "size": 8.4,
+   "testo": "012 per ogni livello da barbaro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.7,
+    110.3,
+    217.9,
+    119.9
+   ],
+   "size": 8.4,
+   "testo": "Forza e Costituzione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.6,
+    135.7,
+    277.2,
+    145.4
+   ],
+   "size": 9.2,
+   "testo": "Due a scelta tra: Addestrare Animali,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.0,
+    147.9,
+    241.0,
+    157.5
+   ],
+   "size": 8.4,
+   "testo": "Atletica, Intimidire, Natura,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.8,
+    159.9,
+    244.4,
+    169.6
+   ],
+   "size": 8.4,
+   "testo": "Percezione o Sopravvivenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.1,
+    174.6,
+    237.1,
+    184.2
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici e da guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.2,
+    200.2,
+    262.6,
+    209.8
+   ],
+   "size": 8.4,
+   "testo": "Armature leggere e medie; scudi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.1,
+    225.7,
+    253.4,
+    235.4
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e B: (A) Un'ascia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.1,
+    237.7,
+    269.1,
+    247.4
+   ],
+   "size": 8.4,
+   "testo": "bipenne, 4 asce, una dotazione da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.3,
+    249.7,
+    264.8,
+    259.3
+   ],
+   "size": 8.4,
+   "testo": "esploratore e 15 mo; o (B) 75 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    287.8,
+    77.1,
+    338.5
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.2,
+    266.4,
+    271.8,
+    295.6
+   ],
+   "size": 6.6,
+   "testo": "BARBARI SONO POTENTI GUERRIERI ALIMENTATI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    74.9,
+    296.7,
+    276.3,
+    307.2
+   ],
+   "size": 8.8,
+   "testo": "dalle forze primordiali del multiverso che si manife­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    74.9,
+    307.6,
+    275.2,
+    318.1
+   ],
+   "size": 8.8,
+   "testo": "stano come ira. Si tratta di un'emozione che va ben",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    318.7,
+    270.1,
+    329.2
+   ],
+   "size": 8.8,
+   "testo": "oltre la rabbia: l'ira è l'incarnazione della ferocia di un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    329.6,
+    273.6,
+    340.2
+   ],
+   "size": 8.8,
+   "testo": "predatore della furia di una tempesta e del tumulto del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.1,
+    340.7,
+    81.8,
+    351.3
+   ],
+   "size": 8.8,
+   "testo": "mare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.9,
+    351.6,
+    261.4,
+    362.2
+   ],
+   "size": 8.8,
+   "testo": "Alcuni barbari incarnano la loro ira in uno spirito",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    362.6,
+    271.5,
+    373.1
+   ],
+   "size": 8.8,
+   "testo": "feroce o in un antenato venerato. Altri la percepiscono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    373.5,
+    264.3,
+    384.1
+   ],
+   "size": 8.8,
+   "testo": "come un legame con il dolore e l'angoscia del mondo,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    384.6,
+    283.2,
+    395.2
+   ],
+   "size": 8.8,
+   "testo": "come un groviglio impersonale di magia selvaggia o come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    395.6,
+    276.2,
+    406.2
+   ],
+   "size": 8.8,
+   "testo": "un'espressione del proprio io più profondo. Per ogni bar­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    406.6,
+    271.1,
+    417.2
+   ],
+   "size": 8.8,
+   "testo": "baro, l'ira è un potere che alimenta non solo l'abilità in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    417.7,
+    267.9,
+    428.3
+   ],
+   "size": 8.8,
+   "testo": "battaglia, ma anche dei riflessi straordinari e dei sensi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    428.7,
+    102.8,
+    439.3
+   ],
+   "size": 8.8,
+   "testo": "amplificati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    439.6,
+    261.0,
+    450.2
+   ],
+   "size": 8.8,
+   "testo": "I barbari sono spesso protettori e leader delle loro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.7,
+    450.6,
+    286.3,
+    461.2
+   ],
+   "size": 8.8,
+   "testo": "comunità. Si gettano a capofitto nel pericolo per difendere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    461.6,
+    271.0,
+    472.2
+   ],
+   "size": 8.8,
+   "testo": "chi è sotto la loro protezione. Il loro coraggio di fronte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    472.7,
+    260.6,
+    483.2
+   ],
+   "size": 8.8,
+   "testo": "a una minaccia rende i barbari perfettamente adatti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    483.6,
+    113.2,
+    494.2
+   ],
+   "size": 8.8,
+   "testo": "all'avventura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    503.9,
+    228.2,
+    517.0
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UN BARBARO...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    524.3,
+    242.4,
+    535.7
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    535.8,
+    273.9,
+    546.4
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutte le caratteristiche della tabella Tratti del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.4,
+    546.7,
+    100.6,
+    557.3
+   ],
+   "size": 8.8,
+   "testo": "barbaro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    555.5,
+    281.4,
+    568.2
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi da barbaro di 1° livello, elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    568.7,
+    177.9,
+    579.3
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del barbaro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    589.2,
+    241.5,
+    600.5
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    600.5,
+    281.9,
+    611.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i seguenti tratti della tabella Tratti del barbaro:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.8,
+    611.7,
+    267.1,
+    622.3
+   ],
+   "size": 8.8,
+   "testo": "Dado Vita, competenza nelle armi da guerra e negli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.7,
+    622.8,
+    90.3,
+    633.3
+   ],
+   "size": 8.8,
+   "testo": "scudi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.8,
+    631.6,
+    281.8,
+    644.3
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi da barbaro di 1° livello, elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.7,
+    644.8,
+    178.0,
+    655.3
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del barbaro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    54.8,
+    528.4,
+    67.9
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE DEL BARBARO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.7,
+    71.3,
+    520.5,
+    81.9
+   ],
+   "size": 8.8,
+   "testo": "II barbaro ottiene i seguenti privilegi di classe quando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    82.3,
+    527.1,
+    92.9
+   ],
+   "size": 8.8,
+   "testo": "raggiunge i livelli specificati. Tali privilegi sono elencati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    93.2,
+    443.0,
+    103.8
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi del barbaro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    106.3,
+    508.3,
+    125.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: DIFESA SENZA ARMATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    125.1,
+    523.6,
+    135.7
+   ],
+   "size": 8.8,
+   "testo": "Se il barbaro non indossa un'armatura, la Classe Arma­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    136.0,
+    534.6,
+    146.6
+   ],
+   "size": 8.8,
+   "testo": "tura base corrisponde a 10 più i modificatori di Destrezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    147.1,
+    524.7,
+    157.7
+   ],
+   "size": 8.8,
+   "testo": "e Costituzione. Un barbaro può usare uno scudo e otte­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    158.2,
+    439.4,
+    168.7
+   ],
+   "size": 8.8,
+   "testo": "nere comunque questo beneficio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    171.3,
+    390.2,
+    190.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l:IRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    190.0,
+    519.8,
+    200.6
+   ],
+   "size": 8.8,
+   "testo": "Può infondere in se stesso un potere primordiale chia­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    201.1,
+    523.9,
+    211.7
+   ],
+   "size": 8.8,
+   "testo": "mato \"ira\", una forza che conferisce una potenza e una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    212.0,
+    529.3,
+    222.6
+   ],
+   "size": 8.8,
+   "testo": "resistenza straordinarie. Può entrare in ira come azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    223.0,
+    507.6,
+    233.6
+   ],
+   "size": 8.8,
+   "testo": "bonus se non sta indossando un'armatura pesante.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    234.0,
+    533.9,
+    244.6
+   ],
+   "size": 8.8,
+   "testo": "II barbaro può entrare in ira il numero di volte indicato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    245.0,
+    522.2,
+    255.6
+   ],
+   "size": 8.8,
+   "testo": "per il proprio livello da barbaro nella colonna Ire della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    256.0,
+    515.1,
+    266.6
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del barbaro. Per quanto riguarda gli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    267.1,
+    536.3,
+    277.7
+   ],
+   "size": 8.8,
+   "testo": "utilizzi consumati, ne recupera uno dopo aver completato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.4,
+    278.1,
+    509.1,
+    288.7
+   ],
+   "size": 8.8,
+   "testo": "un riposo breve ed entrambi dopo un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    289.1,
+    539.3,
+    299.6
+   ],
+   "size": 8.8,
+   "testo": "Quando è in atto, l'ira segue le regole indicate di seguito.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    300.1,
+    526.3,
+    310.7
+   ],
+   "size": 8.8,
+   "testo": "Resistenza ai danni. Un barbaro dispone di resistenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.4,
+    311.1,
+    480.6,
+    321.7
+   ],
+   "size": 8.8,
+   "testo": "ai danni contundenti, perforanti e taglienti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    322.1,
+    533.9,
+    332.6
+   ],
+   "size": 8.8,
+   "testo": "Danni dell'ira. Quando effettua un attacco con un'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    333.0,
+    528.2,
+    343.6
+   ],
+   "size": 8.8,
+   "testo": "o con un colpo senz'armi usando Forza e infligge danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    344.0,
+    516.4,
+    354.6
+   ],
+   "size": 8.8,
+   "testo": "al bersaglio, il barbaro ottiene un bonus ai danni che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.1,
+    355.0,
+    537.0,
+    365.6
+   ],
+   "size": 8.8,
+   "testo": "aumenta man mano che sale di livello, come indicato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    366.0,
+    531.8,
+    376.5
+   ],
+   "size": 8.8,
+   "testo": "colonna Danni dell'ira della tabella Privilegi del barbaro.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.9,
+    377.0,
+    529.3,
+    387.6
+   ],
+   "size": 8.8,
+   "testo": "Vantaggio nellaForza. Il barbaro dispone di vantaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    388.0,
+    486.3,
+    398.6
+   ],
+   "size": 8.8,
+   "testo": "alle prove di Forza e ai tiri salvezza su Forza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.3,
+    399.0,
+    519.2,
+    409.6
+   ],
+   "size": 8.8,
+   "testo": "Niente concentrazione o incantesimi. Il barbaro non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    410.2,
+    516.1,
+    420.8
+   ],
+   "size": 8.8,
+   "testo": "può mantenere la concentrazione e non può lanciare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    421.1,
+    359.3,
+    431.7
+   ],
+   "size": 8.8,
+   "testo": "incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.3,
+    432.2,
+    529.9,
+    442.7
+   ],
+   "size": 8.8,
+   "testo": "Durata. L'ira dura fino al termine del turno successivo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    443.1,
+    512.1,
+    453.7
+   ],
+   "size": 8.8,
+   "testo": "del barbaro e termina anticipatamente se il barbaro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    454.1,
+    519.0,
+    464.7
+   ],
+   "size": 8.8,
+   "testo": "indossa un'armatura pesante o è incapacitato. Se l'ira",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    465.0,
+    530.4,
+    475.6
+   ],
+   "size": 8.8,
+   "testo": "è ancora in atto nel suo turno successivo, è possibile pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    476.1,
+    533.5,
+    486.6
+   ],
+   "size": 8.8,
+   "testo": "lungarla per un altro turno eseguendo una delle seguenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    487.1,
+    338.0,
+    497.6
+   ],
+   "size": 8.8,
+   "testo": "azioni:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.8,
+    503.6,
+    514.1,
+    514.1
+   ],
+   "size": 8.8,
+   "testo": "Effettuando un tiro per colpire contro un nemico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    514.5,
+    530.4,
+    525.1
+   ],
+   "size": 8.8,
+   "testo": "· Costringendo un nemico a effettuare un tiro salvezza.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    525.6,
+    513.1,
+    536.1
+   ],
+   "size": 8.8,
+   "testo": "· Effettuando un'azione bonus per prolungare l'ira.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    542.0,
+    527.3,
+    552.6
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che l'ira viene prolungata, dura fino alla fine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    552.9,
+    535.3,
+    563.5
+   ],
+   "size": 8.8,
+   "testo": "del turno successivo del barbaro. Si può mantenere un'ira",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    563.9,
+    424.8,
+    574.5
+   ],
+   "size": 8.8,
+   "testo": "per un massimo di 10 minuti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    577.1,
+    481.0,
+    595.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: PADRONANZA D'ARMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    595.8,
+    524.7,
+    606.3
+   ],
+   "size": 8.8,
+   "testo": "La competenza nell'uso delle armi permette al barbaro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    606.9,
+    521.5,
+    617.4
+   ],
+   "size": 8.8,
+   "testo": "di avvalersi della proprietà di padronanza per due tipi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    618.0,
+    520.4,
+    628.5
+   ],
+   "size": 8.8,
+   "testo": "di armi da mischia semplici o da guerra a scelta, come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    629.0,
+    527.9,
+    639.5
+   ],
+   "size": 8.8,
+   "testo": "le grandasce e le asce. Ogni volta che termina un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    640.0,
+    523.5,
+    650.5
+   ],
+   "size": 8.8,
+   "testo": "lungo, può esercitarsi con le armi e cambiare una delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    651.0,
+    356.5,
+    661.6
+   ],
+   "size": 8.8,
+   "testo": "armi scelte.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    661.9,
+    530.1,
+    672.4
+   ],
+   "size": 8.8,
+   "testo": "Quando si raggiungono determinati livelli da barbaro,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    672.9,
+    523.3,
+    683.5
+   ],
+   "size": 8.8,
+   "testo": "si ottiene la capacità di utilizzare le proprietà di padro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    683.9,
+    518.5,
+    694.5
+   ],
+   "size": 8.8,
+   "testo": "nanza di più tipi di armi, come indicato nella colonna",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    694.9,
+    520.5,
+    705.5
+   ],
+   "size": 8.8,
+   "testo": "Padronanza d'armi della tabella Privilegi del barbaro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    545.2,
+    237.9,
+    548.0,
+    247.0
+   ],
+   "size": 6.9,
+   "testo": "1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    545.2,
+    248.9,
+    547.5,
+    255.3
+   ],
+   "size": 4.9,
+   "testo": "1",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,961 @@
+{
+ "pagina_pdf": 22,
+ "pagina_stampata": 19,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 1 I COME SI GIOCA / 19.",
+ "immagini": [
+  [
+   310,
+   -1,
+   589,
+   463
+  ],
+  [
+   774,
+   169,
+   1261,
+   656
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    57.5,
+    42.6,
+    179.8,
+    59.3
+   ],
+   "size": 12.9,
+   "testo": "ESPLORAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    60.8,
+    277.9,
+    71.3
+   ],
+   "size": 8.8,
+   "testo": "Per definizione, un'esplorazione prevede l'addentrarsi in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    71.8,
+    285.3,
+    82.4
+   ],
+   "size": 8.8,
+   "testo": "luoghi oscuri, pericolosi e ammantati di mistero. Le regole",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    82.8,
+    276.0,
+    93.3
+   ],
+   "size": 8.8,
+   "testo": "presentate in questa sezione descrivono alcuni dei modi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    93.7,
+    274.6,
+    104.2
+   ],
+   "size": 8.8,
+   "testo": "più importanti in cui gli avventurieri interagiscono con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    104.7,
+    223.7,
+    115.3
+   ],
+   "size": 8.8,
+   "testo": "l'ambiente quando esplorano simili luoghi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    124.9,
+    206.0,
+    138.0
+   ],
+   "size": 9.7,
+   "testo": "EQUIPAGGIAMENTO PER",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    139.2,
+    143.4,
+    152.9
+   ],
+   "size": 9.7,
+   "testo": "L'AVVENTURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    156.4,
+    275.0,
+    167.0
+   ],
+   "size": 8.8,
+   "testo": "Durante le esplorazioni, l'equipaggiamento può tornare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    167.4,
+    283.7,
+    178.0
+   ],
+   "size": 8.8,
+   "testo": "utile agli avventurieri in molti modi. Ad esempio, possono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    178.4,
+    276.9,
+    189.0
+   ],
+   "size": 8.8,
+   "testo": "raggiungere luoghi fuori mano con una scala a pioli, per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    189.4,
+    285.3,
+    200.0
+   ],
+   "size": 8.8,
+   "testo": "cepire cose che altrimenti non noterebbero con una torcia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    200.5,
+    281.5,
+    211.1
+   ],
+   "size": 8.8,
+   "testo": "o un'altra fonte di luce, aggirare porte e contenitori chiusi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    211.4,
+    275.9,
+    222.0
+   ],
+   "size": 8.8,
+   "testo": "a chiave con gli arnesi da scasso e creare ostacoli per gli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    222.5,
+    151.2,
+    233.0
+   ],
+   "size": 8.8,
+   "testo": "inseguitori con i triboli.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    233.5,
+    286.2,
+    244.0
+   ],
+   "size": 8.8,
+   "testo": "Consulta il capitolo 6 per le regole riguardanti numerosi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    244.4,
+    284.4,
+    255.0
+   ],
+   "size": 8.8,
+   "testo": "oggetti utili nelle avventure. Di particolare utilità sono gli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    255.4,
+    281.6,
+    266.0
+   ],
+   "size": 8.8,
+   "testo": "oggetti descritti nelle sezioni \"Strumenti\" ed \"Equipaggia­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    266.5,
+    285.0,
+    277.0
+   ],
+   "size": 8.8,
+   "testo": "mento d'avventura\". Le armi del capitolo 6 possono essere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    277.5,
+    277.6,
+    288.1
+   ],
+   "size": 8.8,
+   "testo": "usate anche per scopi diversi dalla battaglia; ad esempio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    288.5,
+    277.7,
+    299.1
+   ],
+   "size": 8.8,
+   "testo": "si può usare un bastone ferrato per premere un pulsante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    299.5,
+    252.1,
+    310.1
+   ],
+   "size": 8.8,
+   "testo": "dall'aspetto sinistro che si preferisce non toccare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    319.6,
+    222.9,
+    332.7
+   ],
+   "size": 9.7,
+   "testo": "VISIONE E ILLUMINAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    336.1,
+    273.1,
+    346.6
+   ],
+   "size": 8.8,
+   "testo": "Alcune attività in un'avventura, come notare i pericoli,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    347.1,
+    266.9,
+    357.6
+   ],
+   "size": 8.8,
+   "testo": "colpire un nemico e lanciare determinati incantesimi,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    358.1,
+    272.2,
+    368.6
+   ],
+   "size": 8.8,
+   "testo": "fanno affidamento sulla vista, quindi gli effetti che limi­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    369.0,
+    280.5,
+    379.6
+   ],
+   "size": 8.8,
+   "testo": "tano la visione possono ostacolare gli avventurieri, come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    380.0,
+    133.1,
+    390.6
+   ],
+   "size": 8.8,
+   "testo": "spiegato di seguito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    400.5,
+    145.4,
+    411.9
+   ],
+   "size": 11.2,
+   "testo": "AREE OSCURATE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    412.0,
+    265.8,
+    422.6
+   ],
+   "size": 8.8,
+   "testo": "Un'area potrebbe essere leggermente o pesantemente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    423.0,
+    282.8,
+    433.5
+   ],
+   "size": 8.8,
+   "testo": "oscurata. In un'area leggermente oscurata, come per esem­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    434.0,
+    286.5,
+    444.5
+   ],
+   "size": 8.8,
+   "testo": "pio una zona di luce fioca, di nebbia rarefatta o di fogliame",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    444.9,
+    280.9,
+    455.4
+   ],
+   "size": 8.8,
+   "testo": "moderato, il personaggio subisce svantaggio alle prove di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    455.9,
+    217.0,
+    466.5
+   ],
+   "size": 8.8,
+   "testo": "Saggezza (Percezione) basate sulla vista.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    466.9,
+    285.7,
+    477.4
+   ],
+   "size": 8.8,
+   "testo": "Un'area pesantemente oscurata, come per esempio un'area",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    477.8,
+    283.4,
+    488.4
+   ],
+   "size": 8.8,
+   "testo": "con oscurità, nebbia fitta o fogliame denso, è opaca. Quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    488.9,
+    283.7,
+    499.4
+   ],
+   "size": 8.8,
+   "testo": "cerca di vedere qualcosa in quell'area, il personaggio subisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    499.9,
+    265.1,
+    510.5
+   ],
+   "size": 8.8,
+   "testo": "la condizione accecato (vedi il Glossario delle regole).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    520.4,
+    86.3,
+    531.7
+   ],
+   "size": 11.2,
+   "testo": "LUCE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    531.8,
+    267.3,
+    542.4
+   ],
+   "size": 8.8,
+   "testo": "La presenza o l'assenza di luce determina la categoria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    542.8,
+    262.1,
+    553.3
+   ],
+   "size": 8.8,
+   "testo": "di illuminazione di un'area, come definito di seguito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.4,
+    553.7,
+    265.9,
+    564.3
+   ],
+   "size": 8.8,
+   "testo": "Luce intensa. La luce intensa consente alla maggior",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    564.6,
+    285.6,
+    575.2
+   ],
+   "size": 8.8,
+   "testo": "parte delle creature di vedere le cose normalmente. Anche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    575.7,
+    279.8,
+    586.2
+   ],
+   "size": 8.8,
+   "testo": "le giornate più smorte forniscono luce intensa, così come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    586.7,
+    268.6,
+    597.3
+   ],
+   "size": 8.8,
+   "testo": "le torce, le lanterne, i fuochi e le altre fonti di illumina­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    597.6,
+    181.0,
+    608.2
+   ],
+   "size": 8.8,
+   "testo": "zione entro un raggio specifico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    608.8,
+    269.8,
+    619.4
+   ],
+   "size": 8.8,
+   "testo": "Lucefioca. La luce fioca, equivalente alla condizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    619.9,
+    276.2,
+    630.4
+   ],
+   "size": 8.8,
+   "testo": "di ombra, crea un'area leggermente oscurata. Un'area di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    630.9,
+    283.7,
+    641.4
+   ],
+   "size": 8.8,
+   "testo": "luce fioca si trova solitamente a metà tra una fonte di luce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    641.8,
+    272.5,
+    652.4
+   ],
+   "size": 8.8,
+   "testo": "intensa e l'oscurità circostante. Anche la luce tenue del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    652.8,
+    279.2,
+    663.4
+   ],
+   "size": 8.8,
+   "testo": "crepuscolo e dell'alba conta come luce fioca. Ad esempio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    663.9,
+    263.4,
+    674.4
+   ],
+   "size": 8.8,
+   "testo": "la luna piena potrebbe proiettare luce fioca nell'area.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.3,
+    674.7,
+    258.6,
+    685.3
+   ],
+   "size": 8.8,
+   "testo": "Oscurità. L'oscurità genera un'area pesantemente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    685.8,
+    277.9,
+    696.3
+   ],
+   "size": 8.8,
+   "testo": "oscurata. I personaggi si ritrovano immersi nell'oscurità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    696.8,
+    270.9,
+    707.3
+   ],
+   "size": 8.8,
+   "testo": "di notte (anche nella maggior parte delle notti di luna),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    707.7,
+    287.0,
+    718.3
+   ],
+   "size": 8.8,
+   "testo": "all'interno di un dungeon privo di fonti di luce o in un'area",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    718.8,
+    132.9,
+    729.3
+   ],
+   "size": 8.8,
+   "testo": "di oscurità magica.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    483.6,
+    391.3,
+    495.0
+   ],
+   "size": 11.2,
+   "testo": "SENSI SPECIALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    495.0,
+    510.9,
+    505.6
+   ],
+   "size": 8.8,
+   "testo": "Alcune creature hanno sensi speciali che le aiutano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    506.1,
+    531.7,
+    516.6
+   ],
+   "size": 8.8,
+   "testo": "a percepire le cose in determinate situazioni. Il Glossario",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    517.0,
+    486.7,
+    527.6
+   ],
+   "size": 8.8,
+   "testo": "delle regole definisce i seguenti sensi speciali:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    535.7,
+    351.9,
+    545.3
+   ],
+   "size": 8.4,
+   "testo": "Vista cieca",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    547.5,
+    360.3,
+    557.2
+   ],
+   "size": 8.4,
+   "testo": "Scurovisione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    566.6,
+    397.8,
+    579.7
+   ],
+   "size": 9.7,
+   "testo": "NASCONDERSI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    426.9,
+    535.6,
+    502.7,
+    545.2
+   ],
+   "size": 8.4,
+   "testo": "Percezione tellurica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    426.2,
+    547.6,
+    466.5,
+    557.2
+   ],
+   "size": 8.4,
+   "testo": "Vista pura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    583.0,
+    523.5,
+    593.6
+   ],
+   "size": 8.8,
+   "testo": "Avventurieri e mostri spesso si nascondono per spiarsi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    594.0,
+    529.8,
+    604.6
+   ],
+   "size": 8.8,
+   "testo": "l'un l'altro, per sgattaiolare oltre un guardiano o per ten­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    605.1,
+    531.4,
+    615.7
+   ],
+   "size": 8.8,
+   "testo": "dere imboscate. Il Dungeon Master decide le circostanze",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    616.1,
+    522.0,
+    626.7
+   ],
+   "size": 8.8,
+   "testo": "in cui è possibile nascondersi. Quando un personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    627.2,
+    491.1,
+    637.7
+   ],
+   "size": 8.8,
+   "testo": "cerca di farlo, effettua l'azione di Nascondersi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    647.4,
+    507.2,
+    660.5
+   ],
+   "size": 9.7,
+   "testo": "INTERAZIONI CON GLI OGGETTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    663.8,
+    528.6,
+    674.4
+   ],
+   "size": 8.8,
+   "testo": "L'interazione congli oggetti in genere si risolve in modo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    674.7,
+    534.6,
+    685.3
+   ],
+   "size": 8.8,
+   "testo": "semplice. Il giocatore annuncia al DM che il suo personag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    685.7,
+    524.3,
+    696.3
+   ],
+   "size": 8.8,
+   "testo": "gio sta facendo qualcosa, ad esempio azionare una leva",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    696.8,
+    528.6,
+    707.4
+   ],
+   "size": 8.8,
+   "testo": "o aprire una porta, e il DM descrive cosa accade. A volte,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    707.7,
+    532.4,
+    718.3
+   ],
+   "size": 8.8,
+   "testo": "tuttavia, le regole governano ciò che un personaggio può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    718.7,
+    536.7,
+    729.3
+   ],
+   "size": 8.8,
+   "testo": "fare con un oggetto, come descritto nelle seguenti sezioni.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

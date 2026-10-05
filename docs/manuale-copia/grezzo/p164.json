@@ -1,0 +1,631 @@
+{
+ "pagina_pdf": 164,
+ "pagina_stampata": 161,
+ "dimensioni": [
+  588.8,
+  782.6
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   116,
+   590,
+   784
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    61.7,
+    42.2,
+    85.9,
+    51.4
+   ],
+   "size": 8.2,
+   "testo": "1d100",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.8,
+    42.2,
+    120.0,
+    51.4
+   ],
+   "size": 8.2,
+   "testo": "Effetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    56.2,
+    272.5,
+    65.8
+   ],
+   "size": 8.4,
+   "testo": "29-32 Se nel minuto successivo lo stregone lancia un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    93.3,
+    68.2,
+    280.1,
+    77.9
+   ],
+   "size": 8.4,
+   "testo": "incantesimo che infligge danni, non è necessario",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    92.7,
+    80.2,
+    254.8,
+    89.8
+   ],
+   "size": 8.4,
+   "testo": "tirare i dadi di danno, poiché sarà preso in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.9,
+    92.1,
+    266.8,
+    101.8
+   ],
+   "size": 8.4,
+   "testo": "considerazione il massimo risultato possibile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.3,
+    104.1,
+    161.9,
+    113.7
+   ],
+   "size": 8.4,
+   "testo": "per ciascun dado.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    118.7,
+    86.5,
+    128.3
+   ],
+   "size": 8.4,
+   "testo": "33-36",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.5,
+    118.7,
+    261.6,
+    128.4
+   ],
+   "size": 8.4,
+   "testo": "Per il minuto successivo, lo stregone ha resi­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    130.6,
+    175.6,
+    140.3
+   ],
+   "size": 8.4,
+   "testo": "stenza a tutti i danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    145.3,
+    86.4,
+    154.9
+   ],
+   "size": 8.4,
+   "testo": "37-40",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.5,
+    145.3,
+    259.2,
+    154.9
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone diventa una pianta in vaso fino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    157.4,
+    280.2,
+    167.0
+   ],
+   "size": 8.4,
+   "testo": "all'inizio del turno successivo. Mentre è in forma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    92.9,
+    169.4,
+    280.8,
+    179.0
+   ],
+   "size": 8.4,
+   "testo": "di pianta, è incapacitato e vulnerabile a tutti i tipi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    92.9,
+    181.4,
+    279.5,
+    191.0
+   ],
+   "size": 8.4,
+   "testo": "di danno. Per riacquistare la sua forma originale,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    92.9,
+    193.3,
+    268.7,
+    202.9
+   ],
+   "size": 8.4,
+   "testo": "deve scendere a 0 punti ferita, così da far rom­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    93.3,
+    205.4,
+    140.2,
+    215.1
+   ],
+   "size": 8.4,
+   "testo": "pere il vaso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    219.9,
+    86.5,
+    229.6
+   ],
+   "size": 8.4,
+   "testo": "41-44",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.5,
+    220.0,
+    267.4,
+    229.6
+   ],
+   "size": 8.4,
+   "testo": "Per il minuto successivo, lo stregone può tele­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.8,
+    232.0,
+    269.5,
+    241.6
+   ],
+   "size": 8.4,
+   "testo": "trasportarsi fino a 6 metri come azione bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    93.3,
+    244.0,
+    162.6,
+    253.6
+   ],
+   "size": 8.4,
+   "testo": "in ogni suo turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    258.5,
+    86.8,
+    268.1
+   ],
+   "size": 8.4,
+   "testo": "45-48",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.6,
+    258.5,
+    264.3,
+    268.1
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone e altre tre creature a scelta entro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    270.6,
+    252.3,
+    280.2
+   ],
+   "size": 8.4,
+   "testo": "9 metri da sé sono invisibili per l minuto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.5,
+    282.6,
+    278.7,
+    292.2
+   ],
+   "size": 8.4,
+   "testo": "L'invisibilità termina sulla singola creatura imme­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    93.0,
+    294.6,
+    280.0,
+    304.2
+   ],
+   "size": 8.4,
+   "testo": "diatamente dopo che effettua un tiro per colpire,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    93.4,
+    306.6,
+    241.7,
+    316.2
+   ],
+   "size": 8.4,
+   "testo": "infligge danni o lancia un incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    42.9,
+    338.5,
+    52.1
+   ],
+   "size": 8.2,
+   "testo": "1d100",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    346.6,
+    42.9,
+    372.8,
+    52.1
+   ],
+   "size": 8.2,
+   "testo": "Effetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    56.8,
+    527.1,
+    66.4
+   ],
+   "size": 8.4,
+   "testo": "49-52 Appare uno scudo spettrale che fluttua accanto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.9,
+    68.8,
+    528.9,
+    78.4
+   ],
+   "size": 8.4,
+   "testo": "allo stregone per il minuto successivo, conferen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.8,
+    80.8,
+    530.0,
+    90.5
+   ],
+   "size": 9.2,
+   "testo": "dogli un bonus di +2 alla CA e immunità a dardo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.8,
+    93.2,
+    385.4,
+    102.4
+   ],
+   "size": 9.2,
+   "testo": "incantato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    107.3,
+    509.0,
+    116.9
+   ],
+   "size": 8.4,
+   "testo": "53-56 Lo stregone può effettuare un'azione extra",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    345.8,
+    119.4,
+    430.7,
+    129.0
+   ],
+   "size": 8.4,
+   "testo": "durante questo turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    133.9,
+    339.4,
+    143.5
+   ],
+   "size": 8.4,
+   "testo": "57-60",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    346.2,
+    133.8,
+    503.3,
+    143.5
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone può lanciare un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    345.3,
+    145.8,
+    529.4,
+    155.5
+   ],
+   "size": 8.4,
+   "testo": "casuale. Se l'incantesimo dovesse normalmente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    346.1,
+    157.9,
+    523.3,
+    167.6
+   ],
+   "size": 8.4,
+   "testo": "richiedere concentrazione, in questo caso non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.8,
+    169.9,
+    517.2,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "conta. Inoltre, l'incantesimo ha la sua durata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    346.1,
+    181.9,
+    517.2,
+    191.6
+   ],
+   "size": 8.4,
+   "testo": "normale. Tira 1d10 per determinare l'incante­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    345.9,
+    193.9,
+    527.0,
+    203.6
+   ],
+   "size": 9.2,
+   "testo": "simo: con 1 lancia confusione; con 2 lancia palla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.6,
+    205.9,
+    532.2,
+    215.7
+   ],
+   "size": 9.2,
+   "testo": "difuoco; con 3 lancia nube di nebbia; con 4 lancia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.9,
+    217.9,
+    520.6,
+    227.6
+   ],
+   "size": 9.2,
+   "testo": "volare (su una creatura casuale entro 18 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.8,
+    230.0,
+    523.4,
+    239.7
+   ],
+   "size": 9.2,
+   "testo": "dallo stregone); con 5 lancia unto; con 6 lancia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.8,
+    241.9,
+    535.0,
+    251.6
+   ],
+   "size": 9.2,
+   "testo": "levitazione (su di sé); con 7 lancia dardo incantato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    346.6,
+    253.9,
+    517.7,
+    263.5
+   ],
+   "size": 8.4,
+   "testo": "(come incantesimo di 5° livello); con 8 lancia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    345.9,
+    266.0,
+    519.7,
+    275.7
+   ],
+   "size": 9.2,
+   "testo": "immagine speculare; con 9 lancia metamorfosi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    346.5,
+    278.0,
+    532.5,
+    287.6
+   ],
+   "size": 8.4,
+   "testo": "(su di sé) e, in caso di fallimento del tiro salvezza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    346.1,
+    289.9,
+    531.5,
+    299.6
+   ],
+   "size": 8.4,
+   "testo": "lo stregone diventa una capra (vedi appendice B);",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    345.5,
+    302.0,
+    464.4,
+    311.7
+   ],
+   "size": 9.2,
+   "testo": "con 10 lancia vedere invisibilità.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

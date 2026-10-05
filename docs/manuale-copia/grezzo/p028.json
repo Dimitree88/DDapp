@@ -1,0 +1,1548 @@
+{
+ "pagina_pdf": 28,
+ "pagina_stampata": 25,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 1 I COME SI GIOCA / 25",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    68.9,
+    40.5,
+    190.6,
+    50.6
+   ],
+   "size": 8.2,
+   "testo": "GIOCARE SU UNA CRICLIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.1,
+    53.7,
+    276.4,
+    63.3
+   ],
+   "size": 8.4,
+   "testo": "Se si gioca su una griglia a quadretti usando miniature",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.9,
+    64.7,
+    249.8,
+    74.4
+   ],
+   "size": 8.4,
+   "testo": "e altri segnaiini, si applicano le regole seguenti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.1,
+    75.7,
+    265.0,
+    85.3
+   ],
+   "size": 8.4,
+   "testo": "Quadretti. Ogni quadretto rappresenta 1,5 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.5,
+    86.8,
+    264.7,
+    96.4
+   ],
+   "size": 8.4,
+   "testo": "Velocità. Anziché muoversi con distanze in metri,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.2,
+    97.6,
+    275.4,
+    107.2
+   ],
+   "size": 8.4,
+   "testo": "ci si muove di quadretto in quadretto sulla griglia, misu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.8,
+    100.5,
+    273.4,
+    118.7
+   ],
+   "size": 8.6,
+   "testo": "rando la velocità in segmenti da 1,5 metri. È possibile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.7,
+    119.7,
+    278.6,
+    129.3
+   ],
+   "size": 8.4,
+   "testo": "trasformare la propria velocità in quadretti dividendola",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.0,
+    130.6,
+    278.0,
+    140.2
+   ],
+   "size": 8.4,
+   "testo": "per 1,5. Per esempio, una velocità di 9 metri si trasforma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.4,
+    141.8,
+    276.4,
+    151.4
+   ],
+   "size": 8.4,
+   "testo": "in una velocità di 6 quadretti. Chi fa spesso uso di una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.0,
+    152.7,
+    266.3,
+    162.4
+   ],
+   "size": 8.4,
+   "testo": "griglia può annotare la propria velocità sulla scheda",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.9,
+    163.7,
+    231.6,
+    173.4
+   ],
+   "size": 8.4,
+   "testo": "del personaggio direttamente in quadretti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.2,
+    174.6,
+    277.1,
+    184.3
+   ],
+   "size": 8.4,
+   "testo": "Entrare in un quadretto. Per entrare in un quadretto,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.8,
+    185.7,
+    258.4,
+    195.3
+   ],
+   "size": 8.4,
+   "testo": "è necessario disporre di movimento a sufficienza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.4,
+    196.8,
+    275.1,
+    206.4
+   ],
+   "size": 8.4,
+   "testo": "Entrare in un quadretto non occupato adiacente ortogo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.1,
+    207.7,
+    279.4,
+    217.4
+   ],
+   "size": 8.4,
+   "testo": "nalmente o diagonalmente al proprio costa 1 quadretto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.1,
+    218.8,
+    276.7,
+    228.4
+   ],
+   "size": 8.4,
+   "testo": "di movimento. Un quadretto di terreno difficile ne costa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.1,
+    229.8,
+    276.1,
+    239.4
+   ],
+   "size": 8.4,
+   "testo": "invece 2. Altri effetti possono aumentare il costo di un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.8,
+    240.7,
+    109.4,
+    250.4
+   ],
+   "size": 8.4,
+   "testo": "quadretto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.5,
+    251.7,
+    275.5,
+    261.3
+   ],
+   "size": 8.4,
+   "testo": "Angoli. Un movimento in diagonale non può oltrepas­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.0,
+    262.8,
+    276.9,
+    272.4
+   ],
+   "size": 8.4,
+   "testo": "sare l'angolo di una parete, un albero grande o altri ele­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.1,
+    273.8,
+    269.2,
+    283.5
+   ],
+   "size": 8.4,
+   "testo": "menti del terreno che occupano uno spazio analogo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    76.1,
+    284.7,
+    271.0,
+    294.4
+   ],
+   "size": 8.4,
+   "testo": "Gittate. Per determinare la gittata tra due elementi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.9,
+    295.7,
+    266.5,
+    305.3
+   ],
+   "size": 8.4,
+   "testo": "su una griglia (che si tratti di oggetti o creature) si ini­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.7,
+    306.8,
+    279.7,
+    316.4
+   ],
+   "size": 8.4,
+   "testo": "ziano a contare i quadretti da un quadretto adiacente al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.7,
+    317.8,
+    277.5,
+    327.4
+   ],
+   "size": 8.4,
+   "testo": "primo elemento e si termina il conteggio sul quadretto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.7,
+    328.7,
+    264.9,
+    338.3
+   ],
+   "size": 8.4,
+   "testo": "dell'altro elemento, seguendo il percorso più breve.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    354.0,
+    165.9,
+    365.4
+   ],
+   "size": 11.2,
+   "testo": "TERRENO DIFFICILE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    365.5,
+    273.5,
+    376.0
+   ],
+   "size": 8.8,
+   "testo": "I combattenti sono spessi rallentati da terreno difficile.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    376.5,
+    286.5,
+    387.1
+   ],
+   "size": 8.8,
+   "testo": "Mobili bassi, detriti, arbusti, scalinate ripide, neve e acqua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    387.5,
+    226.1,
+    398.1
+   ],
+   "size": 8.8,
+   "testo": "bassa sono tutti esempi di terreno difficile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    398.5,
+    274.2,
+    409.1
+   ],
+   "size": 8.8,
+   "testo": "Ogni 30 centimetri di movimento su terreno difficile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    409.6,
+    268.9,
+    420.1
+   ],
+   "size": 8.8,
+   "testo": "costano 30 centimetri extra, anche se più cose in uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    420.6,
+    233.4,
+    431.2
+   ],
+   "size": 8.8,
+   "testo": "stesso spazio contano come terreno difficile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    440.9,
+    241.9,
+    452.3
+   ],
+   "size": 11.2,
+   "testo": "SPEZZARE IL PROPRIO MOVIMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    445.2,
+    269.6,
+    463.4
+   ],
+   "size": 8.8,
+   "testo": "È possibile spezzare un movimento, utilizzando parte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    463.3,
+    259.9,
+    473.8
+   ],
+   "size": 8.8,
+   "testo": "di esso prima e dopo qualsiasi azione, azione bonus",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    474.3,
+    264.2,
+    484.8
+   ],
+   "size": 8.8,
+   "testo": "o reazione effettuata nello stesso turno. Per esempio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    485.3,
+    282.4,
+    495.9
+   ],
+   "size": 8.8,
+   "testo": "se il personaggio ha una velocità di 9 metri può muoversi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    496.3,
+    260.8,
+    506.9
+   ],
+   "size": 8.8,
+   "testo": "per 3 metri, effettuare un'azione e poi muoversi per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    507.4,
+    126.5,
+    517.9
+   ],
+   "size": 8.8,
+   "testo": "ulteriori 6 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    527.7,
+    195.9,
+    539.1
+   ],
+   "size": 11.2,
+   "testo": "BUTTARSI A TERRA PRONI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    539.2,
+    271.9,
+    549.7
+   ],
+   "size": 8.8,
+   "testo": "Nel proprio turno, il personaggio può utilizzare la con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    550.2,
+    280.2,
+    560.8
+   ],
+   "size": 8.8,
+   "testo": "dizione prono (vedi il Glossario delle regole) senza usare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    561.1,
+    283.7,
+    571.7
+   ],
+   "size": 8.8,
+   "testo": "un'azione o la propria velocità, ma non può farlo se la sua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.2,
+    572.1,
+    132.0,
+    582.7
+   ],
+   "size": 8.8,
+   "testo": "velocità è pari a 0.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    592.4,
+    193.8,
+    603.8
+   ],
+   "size": 11.2,
+   "testo": "TAGLIA DELLE CREATURE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    604.0,
+    273.1,
+    614.6
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura appartiene a una categoria di taglia, che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    615.1,
+    275.2,
+    625.7
+   ],
+   "size": 8.8,
+   "testo": "determina la larghezza dello spazio quadrato che la cre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    626.1,
+    279.6,
+    636.7
+   ],
+   "size": 8.8,
+   "testo": "atura occupa su una mappa, come mostrato nella tabella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    637.2,
+    272.2,
+    647.8
+   ],
+   "size": 8.8,
+   "testo": "Taglie e spazio delle creature, che elenca le dimensioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    648.2,
+    278.5,
+    658.7
+   ],
+   "size": 8.8,
+   "testo": "dalla più piccola (Minuscola) alla più grande (Mastodon­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    659.1,
+    283.7,
+    669.6
+   ],
+   "size": 8.8,
+   "testo": "tica). Lo spazio di una creatura è l'area che essa controlla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    670.0,
+    273.8,
+    680.6
+   ],
+   "size": 8.8,
+   "testo": "a tutti gli effetti in combattimento, nonché l'area di cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    681.1,
+    217.2,
+    691.6
+   ],
+   "size": 8.8,
+   "testo": "ha bisogno per combattere con efficacia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    692.0,
+    267.7,
+    702.6
+   ],
+   "size": 8.8,
+   "testo": "La taglia di un personaggio è determinata dalla sua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    703.0,
+    272.8,
+    713.6
+   ],
+   "size": 8.8,
+   "testo": "specie, mentre la taglia di un mostro è specificata nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    714.0,
+    167.6,
+    724.6
+   ],
+   "size": 8.8,
+   "testo": "sua scheda delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    40.9,
+    476.5,
+    50.9
+   ],
+   "size": 8.2,
+   "testo": "TAC LI E E SPAZIO DELLE CREATURE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    56.2,
+    339.9,
+    65.4
+   ],
+   "size": 8.2,
+   "testo": "Taglia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.4,
+    56.3,
+    438.1,
+    65.5
+   ],
+   "size": 8.2,
+   "testo": "Spazio (metri)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.6,
+    56.3,
+    520.2,
+    65.5
+   ],
+   "size": 8.2,
+   "testo": "Spazio (quadretti)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    70.2,
+    357.0,
+    79.9
+   ],
+   "size": 8.4,
+   "testo": "Minuscola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.7,
+    70.3,
+    425.3,
+    79.9
+   ],
+   "size": 8.4,
+   "testo": "75 x 75 cm",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.1,
+    70.3,
+    511.8,
+    79.9
+   ],
+   "size": 8.4,
+   "testo": "4 per quadretto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    84.8,
+    344.5,
+    94.4
+   ],
+   "size": 8.4,
+   "testo": "Piccola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.8,
+    84.8,
+    435.1,
+    94.4
+   ],
+   "size": 8.4,
+   "testo": "l ,5 m x l ,5 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.7,
+    84.8,
+    497.1,
+    94.4
+   ],
+   "size": 8.4,
+   "testo": "1 quadretto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    99.3,
+    341.6,
+    108.9
+   ],
+   "size": 8.4,
+   "testo": "Media",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.8,
+    99.3,
+    435.1,
+    108.9
+   ],
+   "size": 8.4,
+   "testo": "l ,5 m x l ,5 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.7,
+    99.3,
+    497.1,
+    109.0
+   ],
+   "size": 8.4,
+   "testo": "1 quadretto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    113.9,
+    345.9,
+    123.5
+   ],
+   "size": 8.4,
+   "testo": "Grande",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.5,
+    113.8,
+    421.6,
+    123.4
+   ],
+   "size": 8.4,
+   "testo": "3 m x 3 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.1,
+    113.8,
+    528.5,
+    123.5
+   ],
+   "size": 8.4,
+   "testo": "4 quadretti (2 per 2)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.9,
+    128.4,
+    347.6,
+    138.1
+   ],
+   "size": 8.4,
+   "testo": "Enorme",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.3,
+    128.5,
+    435.7,
+    138.1
+   ],
+   "size": 8.4,
+   "testo": "4,5 m x 4,5 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.2,
+    128.4,
+    528.7,
+    138.1
+   ],
+   "size": 8.4,
+   "testo": "9 quadretti (3 per 3)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.9,
+    143.0,
+    370.1,
+    152.7
+   ],
+   "size": 8.4,
+   "testo": "Mastodontica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.3,
+    143.1,
+    421.5,
+    152.7
+   ],
+   "size": 8.4,
+   "testo": "6 m x 6 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.7,
+    143.1,
+    532.4,
+    152.7
+   ],
+   "size": 8.4,
+   "testo": "16 quadretti (4 per 4)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    166.8,
+    533.8,
+    178.1
+   ],
+   "size": 11.2,
+   "testo": "MUOVERSI ATTORNO AD ALTRE CREATURE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    178.2,
+    537.3,
+    188.8
+   ],
+   "size": 8.8,
+   "testo": "Durante il proprio movimento, il personaggio può attraver­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    189.2,
+    529.8,
+    199.8
+   ],
+   "size": 8.8,
+   "testo": "sare lo spazio di un alleato, di una creatura incapacitata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    200.3,
+    526.1,
+    210.8
+   ],
+   "size": 8.8,
+   "testo": "(vedi il Glossario delle regole), di una creatura di taglia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    211.2,
+    535.9,
+    221.8
+   ],
+   "size": 8.8,
+   "testo": "Minuscola o di una creatura di due categorie di taglia più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.9,
+    222.3,
+    521.8,
+    232.9
+   ],
+   "size": 8.8,
+   "testo": "grande o più piccola rispetto a quella del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    319.6,
+    233.2,
+    522.2,
+    243.8
+   ],
+   "size": 8.8,
+   "testo": "Lo spazio di un'altra creatura è considerato terreno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    244.2,
+    523.7,
+    254.8
+   ],
+   "size": 8.8,
+   "testo": "difficile per il personaggio, a meno che quella creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    255.2,
+    467.7,
+    265.8
+   ],
+   "size": 8.8,
+   "testo": "non sia di taglia Minuscola o un alleato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    319.7,
+    266.3,
+    527.7,
+    276.9
+   ],
+   "size": 8.8,
+   "testo": "Non è possibile terminare volontariamente il proprio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.0,
+    277.3,
+    531.6,
+    287.9
+   ],
+   "size": 8.8,
+   "testo": "movimento in uno spazio occupato da un'altra creatura.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    288.3,
+    538.4,
+    298.9
+   ],
+   "size": 8.8,
+   "testo": "Se in qualche modo il personaggio termina il turno in uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    299.4,
+    534.5,
+    309.9
+   ],
+   "size": 8.8,
+   "testo": "spazio con un'altra creatura, subisce la condizione prono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    310.4,
+    537.4,
+    321.0
+   ],
+   "size": 8.8,
+   "testo": "(vedi il Glossario delle regole) a meno che non sia di taglia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    321.3,
+    541.3,
+    331.8
+   ],
+   "size": 8.8,
+   "testo": "Minuscola o di taglia più grande rispetto all'altra creatura.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    341.3,
+    475.2,
+    354.4
+   ],
+   "size": 9.7,
+   "testo": "EFFETTUARE UN ATTACCO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    357.8,
+    535.7,
+    368.4
+   ],
+   "size": 8.8,
+   "testo": "Per attaccare, si esegue l'azione di Attacco. Anche alcune",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.3,
+    368.8,
+    526.7,
+    379.4
+   ],
+   "size": 8.8,
+   "testo": "altre azioni, azioni bonus e reazioni consentono di effet­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.3,
+    379.9,
+    523.4,
+    390.4
+   ],
+   "size": 8.8,
+   "testo": "tuare un attacco. Che si tratti di sferrare un colpo con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    390.8,
+    538.9,
+    401.4
+   ],
+   "size": 8.8,
+   "testo": "un'arma da mischia, usare un'arma a distanza o effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.3,
+    401.8,
+    516.7,
+    412.4
+   ],
+   "size": 8.8,
+   "testo": "un tiro per colpire come parte di un incantesimo, un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    412.9,
+    434.3,
+    423.5
+   ],
+   "size": 8.8,
+   "testo": "attacco segue questa struttura:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    429.2,
+    515.5,
+    439.8
+   ],
+   "size": 8.8,
+   "testo": "1: Scegliere un bersaglio. Il personaggio sceglie un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.1,
+    440.2,
+    536.9,
+    450.8
+   ],
+   "size": 8.8,
+   "testo": "bersaglio entro la gittata del suo attacco: una creatura,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.1,
+    451.2,
+    411.6,
+    461.7
+   ],
+   "size": 8.8,
+   "testo": "un oggetto o un luogo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.2,
+    462.1,
+    537.0,
+    472.7
+   ],
+   "size": 8.8,
+   "testo": "2: Determinare i modificatori. Il DM determina se il ber­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.1,
+    473.2,
+    535.1,
+    483.8
+   ],
+   "size": 8.8,
+   "testo": "saglio beneficia di copertura (vedi la sezione seguente)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.1,
+    484.1,
+    520.7,
+    494.7
+   ],
+   "size": 8.8,
+   "testo": "e se l'attaccante dispone di vantaggio o svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.1,
+    495.2,
+    530.8,
+    505.8
+   ],
+   "size": 8.8,
+   "testo": "contro il bersaglio. Determina inoltre gli incantesimi,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.0,
+    506.2,
+    529.9,
+    516.8
+   ],
+   "size": 8.8,
+   "testo": "le capacità speciali e gli altri effetti che possono appli­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.1,
+    517.2,
+    495.3,
+    527.7
+   ],
+   "size": 8.8,
+   "testo": "care bonus o penalità al suo tiro per colpire.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    528.2,
+    517.6,
+    538.9
+   ],
+   "size": 8.8,
+   "testo": "3: Sferrare l'attacco. Il personaggio effettua un tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.0,
+    539.2,
+    522.6,
+    549.8
+   ],
+   "size": 8.8,
+   "testo": "per colpire, come descritto in precedenza in questo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.1,
+    550.2,
+    541.1,
+    560.8
+   ],
+   "size": 8.8,
+   "testo": "capitolo. Se colpisce il bersaglio, tira per i danni, a meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.1,
+    561.2,
+    524.8,
+    571.8
+   ],
+   "size": 8.8,
+   "testo": "che quel particolare attacco non preveda regole che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.0,
+    572.1,
+    528.5,
+    582.7
+   ],
+   "size": 8.8,
+   "testo": "specifichino diversamente. Alcuni attacchi generano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.1,
+    583.2,
+    505.0,
+    593.7
+   ],
+   "size": 8.8,
+   "testo": "effetti speciali in aggiunta o al posto dei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    603.3,
+    387.5,
+    616.4
+   ],
+   "size": 9.7,
+   "testo": "COPERTURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    619.9,
+    524.9,
+    630.5
+   ],
+   "size": 8.8,
+   "testo": "Le pareti, gli alberi, le creature e altri ostacoli possono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.2,
+    630.9,
+    530.4,
+    641.4
+   ],
+   "size": 8.8,
+   "testo": "fornire copertura durante un combattimento, rendendo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.1,
+    642.0,
+    538.6,
+    652.5
+   ],
+   "size": 8.8,
+   "testo": "un bersaglio più difficile da colpire. Come specificato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.0,
+    652.9,
+    539.9,
+    663.5
+   ],
+   "size": 8.8,
+   "testo": "tabella Copertura, esistono tre gradi di copertura, ognuno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.1,
+    663.9,
+    510.3,
+    674.4
+   ],
+   "size": 8.8,
+   "testo": "dei quali offre un vantaggio diverso a un bersaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    319.2,
+    674.8,
+    517.1,
+    685.4
+   ],
+   "size": 8.8,
+   "testo": "Un bersaglio può beneficiare di copertura soltanto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    685.8,
+    526.2,
+    696.4
+   ],
+   "size": 8.8,
+   "testo": "quando un attacco o un altro effetto ha origine sul lato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.1,
+    696.9,
+    527.3,
+    707.4
+   ],
+   "size": 8.8,
+   "testo": "opposto della copertura. Se un bersaglio si trova dietro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.0,
+    707.8,
+    525.5,
+    718.4
+   ],
+   "size": 8.8,
+   "testo": "più fonti di copertura, viene applicato soltanto il grado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.0,
+    718.8,
+    531.2,
+    729.3
+   ],
+   "size": 8.8,
+   "testo": "più protettivo di copertura; i gradi non sono cumulativi.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

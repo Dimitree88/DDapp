@@ -1,0 +1,1111 @@
+{
+ "pagina_pdf": 322,
+ "pagina_stampata": 319,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 319",
+ "immagini": [
+  [
+   54,
+   26,
+   548,
+   373
+  ],
+  [
+   48,
+   402,
+   544,
+   734
+  ],
+  [
+   848,
+   102,
+   1335,
+   589
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.6,
+    76.4,
+    181.2,
+    87.8
+   ],
+   "size": 11.2,
+   "testo": "RICHIAMA NON MORTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    87.9,
+    206.6,
+    98.3
+   ],
+   "size": 8.6,
+   "testo": "Necromanziadi3° livello (mago, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    103.4,
+    147.0,
+    113.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    114.4,
+    119.4,
+    124.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    125.4,
+    283.6,
+    135.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un teschio dorato del valore di 300 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.4,
+    136.5,
+    84.4,
+    146.1
+   ],
+   "size": 8.4,
+   "testo": "o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    147.4,
+    192.9,
+    157.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    163.7,
+    282.0,
+    174.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore invoca uno spirito non morto, che si manife­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    174.7,
+    278.3,
+    185.3
+   ],
+   "size": 8.8,
+   "testo": "sta in uno spazio libero entrogittata che egli sia in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    185.7,
+    280.8,
+    196.3
+   ],
+   "size": 8.8,
+   "testo": "di vedere e utilizza la scheda delle statistiche dello Spirito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    196.7,
+    275.4,
+    207.3
+   ],
+   "size": 8.8,
+   "testo": "Non Morto. Quando questo incantesimo viene lanciato,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    207.8,
+    281.3,
+    218.4
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore può scegliere la forma della creatura tra spet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    218.8,
+    283.8,
+    229.3
+   ],
+   "size": 8.8,
+   "testo": "trale, putrida o scheletrica. La creatura ha le sembianze di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    229.8,
+    281.3,
+    240.3
+   ],
+   "size": 8.8,
+   "testo": "una creatura non morta della forma selezionata e, in base",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    240.7,
+    279.5,
+    251.3
+   ],
+   "size": 8.8,
+   "testo": "a questa scelta, vengono determinati alcuni dettagli nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    251.7,
+    283.4,
+    262.3
+   ],
+   "size": 8.8,
+   "testo": "sua scheda delle statistiche. La creatura scompare quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    262.8,
+    282.9,
+    273.3
+   ],
+   "size": 8.8,
+   "testo": "scende a 0 punti ferita o quando l'incantesimo termina ed",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    273.9,
+    231.8,
+    284.5
+   ],
+   "size": 8.8,
+   "testo": "è un alleato per il personaggio e i suoi alleati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    284.8,
+    270.2,
+    295.4
+   ],
+   "size": 8.8,
+   "testo": "In combattimento, la creatura ha lo stesso punteggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    295.8,
+    276.2,
+    306.4
+   ],
+   "size": 8.8,
+   "testo": "di iniziativa dell'incantatore, ma inizia il turno immedia­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    306.8,
+    273.2,
+    317.4
+   ],
+   "size": 8.8,
+   "testo": "tamente dopo il suo, obbedendo ai suoi comandi verbali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    317.8,
+    259.2,
+    328.3
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta da parte dell'incantatore).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    328.8,
+    273.9,
+    339.3
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore non pronuncia comandi verbali, la crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    339.8,
+    273.5,
+    350.3
+   ],
+   "size": 8.8,
+   "testo": "tura compie l'azione di Schivata e usa il suo movimento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    350.7,
+    150.8,
+    361.2
+   ],
+   "size": 8.8,
+   "testo": "per sottrarsi al pericolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    363.4,
+    259.0,
+    372.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    372.6,
+    259.1,
+    383.2
+   ],
+   "size": 8.8,
+   "testo": "Usa il livello dello slot incantesimo relativo al livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    383.7,
+    236.2,
+    394.3
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo nella scheda delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    408.7,
+    187.2,
+    422.4
+   ],
+   "size": 10.4,
+   "testo": "SPIRITO NON MORTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    427.1,
+    158.4,
+    436.3
+   ],
+   "size": 9.2,
+   "testo": "Non morto Medio, neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    441.4,
+    182.7,
+    451.0
+   ],
+   "size": 8.4,
+   "testo": "CA 11 + il livello dell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    452.4,
+    262.2,
+    462.1
+   ],
+   "size": 8.4,
+   "testo": "PF 30 (solo spettrale o putrido) o 20 (solo scheletrico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    463.3,
+    237.5,
+    472.9
+   ],
+   "size": 8.4,
+   "testo": "+ 10 per ogni livello di incantesimo sopra il 3°",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    474.3,
+    241.3,
+    483.9
+   ],
+   "size": 8.4,
+   "testo": "Velocità 9 m; volo 12 m (fluttuare; solo spettrale)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    94.5,
+    489.0,
+    126.9,
+    494.7
+   ],
+   "size": 4.3,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    497.7,
+    103.5,
+    507.3
+   ],
+   "size": 8.4,
+   "testo": "FoR 12 +1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.6,
+    497.7,
+    121.5,
+    507.3
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    512.2,
+    72.2,
+    521.4
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    80.0,
+    511.9,
+    86.2,
+    521.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.7,
+    511.9,
+    104.4,
+    521.5
+   ],
+   "size": 8.4,
+   "testo": "-3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.3,
+    511.9,
+    122.9,
+    521.5
+   ],
+   "size": 8.4,
+   "testo": "-3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    172.1,
+    489.1,
+    204.7,
+    494.8
+   ],
+   "size": 4.3,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.9,
+    489.1,
+    282.5,
+    494.8
+   ],
+   "size": 4.3,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.8,
+    497.7,
+    181.9,
+    507.3
+   ],
+   "size": 8.4,
+   "testo": "DEs 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.3,
+    497.7,
+    200.4,
+    507.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    213.4,
+    497.7,
+    260.7,
+    507.3
+   ],
+   "size": 8.4,
+   "testo": "Cos 15 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    268.1,
+    497.7,
+    278.6,
+    507.3
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.5,
+    511.9,
+    182.7,
+    521.6
+   ],
+   "size": 8.4,
+   "testo": "SAC 10 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.3,
+    511.9,
+    201.3,
+    521.6
+   ],
+   "size": 8.4,
+   "testo": "+0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    213.0,
+    511.9,
+    241.5,
+    521.6
+   ],
+   "size": 8.4,
+   "testo": "CAR 9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.1,
+    511.9,
+    259.2,
+    521.6
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.8,
+    511.9,
+    277.0,
+    521.6
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    530.9,
+    285.5,
+    540.5
+   ],
+   "size": 8.4,
+   "testo": "Immunità avvelenato, indebolimento, necrotico, paralizzato,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    541.8,
+    135.7,
+    551.5
+   ],
+   "size": 8.4,
+   "testo": "spaventato, veleno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    552.8,
+    235.4,
+    562.4
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 10, scurovisione 18 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    563.8,
+    254.4,
+    573.4
+   ],
+   "size": 8.4,
+   "testo": "Lingue comprende le lingue parlate dal personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    574.9,
+    264.9,
+    584.5
+   ],
+   "size": 8.4,
+   "testo": "GS nessuno (PE 0; BC pari al bonus di competenza del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    585.8,
+    113.3,
+    595.4
+   ],
+   "size": 8.4,
+   "testo": "personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    596.9,
+    89.3,
+    615.1
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    620.1,
+    268.2,
+    629.3
+   ],
+   "size": 9.2,
+   "testo": "Aura marcescente (solo putrido). Tiro salvezza su Costitu­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    631.1,
+    269.4,
+    640.8
+   ],
+   "size": 9.2,
+   "testo": "zione: CD pari alla CD del tiro salvezza sull'incantesimo,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    642.7,
+    268.8,
+    652.3
+   ],
+   "size": 8.4,
+   "testo": "qualsiasi a creatura (eccetto l'incantatore) che comincia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    654.2,
+    272.1,
+    663.8
+   ],
+   "size": 8.4,
+   "testo": "il turno entro un'emanazione di 1,5 metri di cui lo spirito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    665.6,
+    268.5,
+    675.3
+   ],
+   "size": 9.2,
+   "testo": "è il punto di origine. Fallimento: la creatura è avvelenata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    677.1,
+    217.7,
+    686.8
+   ],
+   "size": 8.4,
+   "testo": "fino all'inizio del proprio turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    693.1,
+    259.7,
+    702.7
+   ],
+   "size": 8.4,
+   "testo": "Movimento incorporeo (solo spettrale). Lo spirito può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    704.6,
+    284.4,
+    714.2
+   ],
+   "size": 8.4,
+   "testo": "muoversi attraverso altre creature e oggetti come se fossero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    386.6,
+    428.2,
+    393.2
+   ],
+   "size": 5.4,
+   "testo": "SPIRITO NON MORTO (SPETTRALE)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    441.4,
+    521.3,
+    451.0
+   ],
+   "size": 8.4,
+   "testo": "terreno difficile. Se termina il suo turno all'interno di un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    452.9,
+    538.1,
+    462.5
+   ],
+   "size": 8.4,
+   "testo": "oggetto, viene spinto nello spazio libero più vicino e subisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    464.4,
+    519.8,
+    474.0
+   ],
+   "size": 8.4,
+   "testo": "1d10 danni da forza per ogni 1,5 metri che ha percorso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    474.7,
+    346.4,
+    493.0
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    497.3,
+    534.6,
+    507.0
+   ],
+   "size": 8.4,
+   "testo": "Multiattacco. Lo spirito effettua u n numero d i attacchi pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    508.9,
+    523.0,
+    518.6
+   ],
+   "size": 8.4,
+   "testo": "alla metà del livello di quest'incantesimo (arrotondando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    520.4,
+    354.2,
+    530.0
+   ],
+   "size": 8.4,
+   "testo": "per difetto).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    536.9,
+    533.2,
+    546.1
+   ],
+   "size": 9.2,
+   "testo": "Artiglio putrefatto (solo putrido). Tiro per colpire in mischia:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    547.9,
+    537.8,
+    557.5
+   ],
+   "size": 8.4,
+   "testo": "il bonus equivale al modificatore di attacco dell'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    559.3,
+    514.0,
+    569.0
+   ],
+   "size": 9.2,
+   "testo": "del personaggio, portata di 1,5 metri. Colpo: 1d6 + 3 +",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    570.8,
+    518.4,
+    580.4
+   ],
+   "size": 8.4,
+   "testo": "il livello dell'incantesimo danni taglienti. Se il bersaglio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    582.3,
+    535.7,
+    592.0
+   ],
+   "size": 8.4,
+   "testo": "è avvelenato, diventa paralizzato fino al termine del proprio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    593.7,
+    375.5,
+    603.4
+   ],
+   "size": 8.4,
+   "testo": "turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    610.5,
+    533.4,
+    619.7
+   ],
+   "size": 9.2,
+   "testo": "Dardo tombale (solo scheletrico). Tiro per colpire a distanza:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    621.5,
+    537.8,
+    631.1
+   ],
+   "size": 8.4,
+   "testo": "il bonus equivale al modificatore di attacco dell'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    633.0,
+    534.7,
+    642.7
+   ],
+   "size": 9.2,
+   "testo": "del personaggio, gittata di 45 metri. Colpo: 2d4 + 3 + il livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    644.5,
+    433.9,
+    654.1
+   ],
+   "size": 8.4,
+   "testo": "dell'incantesimo danni necrotici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    660.9,
+    522.7,
+    670.1
+   ],
+   "size": 9.2,
+   "testo": "Tocco mortale (solo spettrale). Tiro percolpire in mischia:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    671.9,
+    537.8,
+    681.5
+   ],
+   "size": 8.4,
+   "testo": "il bonus equivale al modificatore di attacco dell'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    683.4,
+    521.4,
+    693.1
+   ],
+   "size": 9.2,
+   "testo": "del personaggio, portata di 1, 5 metri. Colpo: 1d8 + 3 + il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    694.9,
+    531.8,
+    704.6
+   ],
+   "size": 8.4,
+   "testo": "livello dell'incantesimo danni necrotici. Inoltre, il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    706.4,
+    528.0,
+    716.0
+   ],
+   "size": 8.4,
+   "testo": "è spaventato fino al termine del proprio turno successivo.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

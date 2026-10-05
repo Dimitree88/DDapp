@@ -1,0 +1,996 @@
+{
+ "pagina_pdf": 38,
+ "pagina_stampata": 35,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 35",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    73.2,
+    62.2,
+    128.4,
+    80.4
+   ],
+   "size": 8.6,
+   "testo": "MODIFICATORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.7,
+    69.4,
+    135.7,
+    87.6
+   ],
+   "size": 8.6,
+   "testo": "DA INCANTATORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.7,
+    87.0,
+    139.2,
+    105.2
+   ],
+   "size": 8.6,
+   "testo": "CD TIRO SALVEZZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.1,
+    94.2,
+    143.2,
+    112.4
+   ],
+   "size": 8.6,
+   "testo": "DELL'INCANTESIMO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.1,
+    112.0,
+    142.6,
+    130.2
+   ],
+   "size": 8.6,
+   "testo": "BONUS DI ATTACCO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.7,
+    119.2,
+    143.0,
+    137.4
+   ],
+   "size": 8.6,
+   "testo": "CON INCANTESIMO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    222.4,
+    71.1,
+    309.7,
+    90.3
+   ],
+   "size": 13.9,
+   "testo": "e SLOTINCANTESIMO",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    186.3,
+    95.7,
+    216.5,
+    101.4
+   ],
+   "size": 4.3,
+   "testo": "Totali Spesi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.3,
+    95.8,
+    296.5,
+    101.5
+   ],
+   "size": 4.3,
+   "testo": "Totali Spesi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    337.6,
+    95.8,
+    367.9,
+    101.5
+   ],
+   "size": 4.3,
+   "testo": "Totali Spesi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    162.2,
+    104.1,
+    237.8,
+    111.5
+   ],
+   "size": 7.4,
+   "testo": "LIVELLO l - <><><><>",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.2,
+    104.1,
+    309.1,
+    111.5
+   ],
+   "size": 7.4,
+   "testo": "LIVELL04 - <><><>",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.7,
+    104.1,
+    371.8,
+    111.5
+   ],
+   "size": 7.4,
+   "testo": "LIVELLO]-<><>",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    162.2,
+    116.7,
+    229.1,
+    124.1
+   ],
+   "size": 7.4,
+   "testo": "LIVELLO 2 _ <><><>",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    162.2,
+    129.3,
+    229.1,
+    136.7
+   ],
+   "size": 7.4,
+   "testo": "LIVELLO 3 _ <><><>",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.2,
+    116.7,
+    309.0,
+    124.1
+   ],
+   "size": 7.4,
+   "testo": "LIVELLO 5 _ <><><>",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.6,
+    116.7,
+    362.6,
+    124.1
+   ],
+   "size": 7.4,
+   "testo": "LIVELL08 _ <>",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.2,
+    129.4,
+    300.3,
+    136.8
+   ],
+   "size": 7.4,
+   "testo": "LIVELLO 6 _ <><>",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.6,
+    129.4,
+    362.6,
+    136.8
+   ],
+   "size": 7.4,
+   "testo": "LIVELLO 9 _ <>",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    116.7,
+    146.5,
+    268.3,
+    165.7
+   ],
+   "size": 13.9,
+   "testo": "e TRUCCHETTI EINCANTESIMI PREPARATI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    39.3,
+    178.9,
+    56.8,
+    184.6
+   ],
+   "size": 4.3,
+   "testo": "Livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    178.9,
+    76.8,
+    184.6
+   ],
+   "size": 4.3,
+   "testo": "Nome",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    161.8,
+    173.2,
+    179.4,
+    178.9
+   ],
+   "size": 4.3,
+   "testo": "Tempo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    162.2,
+    179.0,
+    185.4,
+    184.7
+   ],
+   "size": 4.3,
+   "testo": "di Lancio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    192.9,
+    179.0,
+    210.6,
+    184.7
+   ],
+   "size": 4.3,
+   "testo": "Gittata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.7,
+    493.3,
+    157.7,
+    497.4
+   ],
+   "size": 2.8,
+   "testo": "--",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    161.6,
+    493.3,
+    188.4,
+    497.4
+   ],
+   "size": 2.8,
+   "testo": "--",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    192.5,
+    493.3,
+    230.0,
+    497.4
+   ],
+   "size": 2.8,
+   "testo": "---",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    234.4,
+    173.4,
+    292.4,
+    179.1
+   ],
+   "size": 4.3,
+   "testo": "Concentrazione, rituale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    234.3,
+    179.1,
+    282.1,
+    184.8
+   ],
+   "size": 4.3,
+   "testo": "e materiali richiesti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.7,
+    179.0,
+    311.7,
+    184.7
+   ],
+   "size": 4.3,
+   "testo": "Note",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    238.1,
+    189.1,
+    293.8,
+    196.7
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.1,
+    206.6,
+    293.8,
+    214.3
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.1,
+    224.1,
+    293.8,
+    231.5
+   ],
+   "size": 7.4,
+   "testo": "Ò C -Q R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.1,
+    241.6,
+    293.8,
+    249.2
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    259.1,
+    293.8,
+    266.7
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R -ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    276.7,
+    293.8,
+    284.4
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    294.1,
+    293.8,
+    301.8
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    311.6,
+    293.8,
+    319.3
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R -ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    329.1,
+    293.8,
+    336.8
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    346.6,
+    293.8,
+    354.2
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    364.1,
+    293.8,
+    371.7
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    381.5,
+    293.8,
+    389.0
+   ],
+   "size": 7.4,
+   "testo": "Ò C -Q R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    399.1,
+    293.8,
+    406.7
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    416.7,
+    293.8,
+    424.3
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    434.1,
+    293.8,
+    441.8
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    235.6,
+    451.5,
+    293.9,
+    459.2
+   ],
+   "size": 7.4,
+   "testo": "-<> e Ò R -Q M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    469.0,
+    293.8,
+    476.4
+   ],
+   "size": 7.4,
+   "testo": "Ò C -ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    486.5,
+    293.8,
+    494.2
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    504.0,
+    293.8,
+    511.7
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    521.6,
+    293.7,
+    529.0
+   ],
+   "size": 7.4,
+   "testo": "Ò C -ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    539.1,
+    293.8,
+    546.8
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    556.5,
+    293.8,
+    564.1
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    574.0,
+    293.7,
+    581.7
+   ],
+   "size": 7.4,
+   "testo": "<> e -Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    591.5,
+    293.8,
+    599.2
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    609.1,
+    293.8,
+    616.8
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    626.7,
+    293.7,
+    634.4
+   ],
+   "size": 7.4,
+   "testo": "<> e Ò R -Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    644.1,
+    293.7,
+    651.6
+   ],
+   "size": 7.4,
+   "testo": "Ò C -Q R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    661.6,
+    293.8,
+    669.1
+   ],
+   "size": 7.4,
+   "testo": "Ò C -Q R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    679.1,
+    293.9,
+    686.5
+   ],
+   "size": 7.4,
+   "testo": "Ò C -Ò R -Q M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    238.0,
+    696.6,
+    293.7,
+    704.0
+   ],
+   "size": 7.4,
+   "testo": "Ò C -Q R Ò M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    443.3,
+    32.7,
+    491.5,
+    51.9
+   ],
+   "size": 13.9,
+   "testo": "e ASPETTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    407.3,
+    127.5,
+    528.2,
+    146.7
+   ],
+   "size": 13.9,
+   "testo": "e STORIAETRATTI CARATTERIALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    396.0,
+    278.4,
+    434.2,
+    285.1
+   ],
+   "size": 5.2,
+   "testo": "Allineamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    389.8,
+    314.2,
+    412.1,
+    412.5
+   ],
+   "size": 52.8,
+   "testo": "[",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    444.8,
+    311.1,
+    490.0,
+    330.3
+   ],
+   "size": 13.9,
+   "testo": "e LINGUE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    423.8,
+    372.2,
+    510.5,
+    391.4
+   ],
+   "size": 13.9,
+   "testo": "e EQUIPAGGIAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    396.3,
+    555.7,
+    485.4,
+    562.5
+   ],
+   "size": 5.2,
+   "testo": "Sintonia con un oggetto magico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.4,
+    565.7,
+    411.2,
+    574.6
+   ],
+   "size": 7.4,
+   "testo": "-<>",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.4,
+    583.7,
+    411.2,
+    591.1
+   ],
+   "size": 7.4,
+   "testo": "<>",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.4,
+    601.7,
+    411.2,
+    609.1
+   ],
+   "size": 7.4,
+   "testo": "<>",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    445.6,
+    623.4,
+    489.5,
+    643.8
+   ],
+   "size": 13.9,
+   "testo": "e DENARI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    406.1,
+    648.8,
+    417.2,
+    656.2
+   ],
+   "size": 7.4,
+   "testo": "MR",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.5,
+    648.3,
+    449.7,
+    655.7
+   ],
+   "size": 7.4,
+   "testo": "MA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.8,
+    653.0,
+    468.5,
+    703.7
+   ],
+   "size": 29.9,
+   "testo": "00",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    470.8,
+    648.6,
+    481.9,
+    656.0
+   ],
+   "size": 7.4,
+   "testo": "ME",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.8,
+    648.5,
+    514.6,
+    655.9
+   ],
+   "size": 7.4,
+   "testo": "MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    534.4,
+    648.6,
+    545.6,
+    656.0
+   ],
+   "size": 7.4,
+   "testo": "MP",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    492.3,
+    652.9,
+    563.3,
+    703.6
+   ],
+   "size": 29.9,
+   "testo": "00",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    389.8,
+    702.7,
+    538.8,
+    709.1
+   ],
+   "size": 4.9,
+   "testo": "TM & Cl 2025 Wizards orthe Coast LLC. E: permesso fotocopiare questa scheda",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    390.0,
+    709.0,
+    524.9,
+    715.3
+   ],
+   "size": 4.9,
+   "testo": "per uso personale. Illustrazioni di Richard Whitters. 67003709103001 tT",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    555.2,
+    314.2,
+    573.5,
+    412.5
+   ],
+   "size": 52.8,
+   "testo": "Il",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

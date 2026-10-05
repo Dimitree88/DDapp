@@ -1,0 +1,1404 @@
+{
+ "pagina_pdf": 298,
+ "pagina_stampata": 295,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 295",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    64.6,
+    36.5,
+    282.2,
+    47.1
+   ],
+   "size": 8.8,
+   "testo": "Se, nel momento in cui appare, il muro passa attraverso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    47.5,
+    269.7,
+    58.1
+   ],
+   "size": 8.8,
+   "testo": "lo spazio di una creatura, questa viene spinta verso un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    58.5,
+    271.5,
+    69.1
+   ],
+   "size": 8.8,
+   "testo": "lato del muro a scelta dell'incantatore. Se una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    69.5,
+    283.4,
+    80.1
+   ],
+   "size": 8.8,
+   "testo": "rischia di trovarsi circondata su tutti i lati dal muro (o dal",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    80.5,
+    273.7,
+    91.1
+   ],
+   "size": 8.8,
+   "testo": "muro e un'altra superficie solida) può effettuare un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    91.5,
+    272.6,
+    102.1
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Destrezza. In caso di successo, può usare la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    102.5,
+    278.3,
+    113.1
+   ],
+   "size": 8.8,
+   "testo": "sua reazione per muoversi fino alla sua velocità massima",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    113.5,
+    262.5,
+    124.1
+   ],
+   "size": 8.8,
+   "testo": "nel tentativo di non rimanere intrappolata dal muro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    124.5,
+    279.4,
+    135.1
+   ],
+   "size": 8.8,
+   "testo": "Il muro può avere la forma desiderata dall'incantatore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    135.5,
+    266.9,
+    146.0
+   ],
+   "size": 8.8,
+   "testo": "ma non può occupare lo stesso spazio di una creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    146.5,
+    272.9,
+    157.0
+   ],
+   "size": 8.8,
+   "testo": "o un oggetto. Non è necessario che sia verticale o poggi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    157.6,
+    268.2,
+    168.2
+   ],
+   "size": 8.8,
+   "testo": "su fondamenta solide, deve tuttavia fondersi ed essere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    168.6,
+    281.3,
+    179.2
+   ],
+   "size": 8.8,
+   "testo": "saldamente appoggiato a un blocco di pietra già esistente.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    172.5,
+    270.9,
+    190.7
+   ],
+   "size": 8.8,
+   "testo": "È quindi possibile usare questo incantesimo per creare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    190.5,
+    254.1,
+    201.1
+   ],
+   "size": 8.8,
+   "testo": "una rampa o realizzare un ponte che attraversi un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    201.7,
+    89.8,
+    212.3
+   ],
+   "size": 8.8,
+   "testo": "baratro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    212.6,
+    271.3,
+    223.2
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore crea una campata di lunghezza supe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    223.6,
+    280.0,
+    234.2
+   ],
+   "size": 8.8,
+   "testo": "riore a 6 metri, deve dimezzare le dimensioni di ogni pan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    234.6,
+    277.1,
+    245.2
+   ],
+   "size": 8.8,
+   "testo": "nel1o per creare dei sostegni. Può modellare rozzamente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    245.6,
+    253.4,
+    256.2
+   ],
+   "size": 8.8,
+   "testo": "il muro per creare parapetti e altri elementi simili.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    256.5,
+    271.1,
+    267.1
+   ],
+   "size": 8.8,
+   "testo": "Il muro è un oggetto in pietra che può essere danneg­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    267.7,
+    286.2,
+    278.3
+   ],
+   "size": 8.8,
+   "testo": "giato e quindi sfondato. Ogni pannello ha CA 15 e 30 punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    278.7,
+    277.7,
+    289.2
+   ],
+   "size": 8.8,
+   "testo": "ferita per ogni 2,5 centimetri di spessore ed è immune ai",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    289.7,
+    271.2,
+    300.3
+   ],
+   "size": 8.8,
+   "testo": "danni da veleno e psichici. Quando un pannello scende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    300.7,
+    263.0,
+    311.3
+   ],
+   "size": 8.8,
+   "testo": "a 0 punti ferita, viene distrutto e potrebbe causare il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    311.7,
+    252.2,
+    322.2
+   ],
+   "size": 8.8,
+   "testo": "crollo dei pannelli collegati, a discrezione del DM.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    322.7,
+    277.2,
+    333.2
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore mantiene la concentrazione su questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    333.6,
+    270.8,
+    344.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimo per l'intera durata, il muro diventa perma­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    344.6,
+    283.9,
+    355.2
+   ],
+   "size": 8.8,
+   "testo": "nente e non può essere rimosso. In caso contrario, il muro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    355.6,
+    206.4,
+    366.2
+   ],
+   "size": 8.8,
+   "testo": "scompare al termine dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    390.3,
+    138.8,
+    401.6
+   ],
+   "size": 11.2,
+   "testo": "MURO DI SPINE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    401.8,
+    172.9,
+    412.3
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di 6° livello (druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    417.5,
+    147.9,
+    427.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    428.5,
+    120.6,
+    438.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    439.5,
+    227.3,
+    449.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una manciata di spine)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    450.4,
+    211.3,
+    460.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    466.7,
+    273.6,
+    477.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea un muro di rovi irto di spine affilate.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    477.7,
+    282.7,
+    488.3
+   ],
+   "size": 8.8,
+   "testo": "Il muro appare entrogittata su una superficie solida e per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    488.7,
+    276.0,
+    499.2
+   ],
+   "size": 8.8,
+   "testo": "mane per tutta la durata dell'incantesimo. L'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    499.7,
+    284.1,
+    510.3
+   ],
+   "size": 8.8,
+   "testo": "può scegliere se creare un muro lungo fino a 18 metri, alto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    510.8,
+    275.5,
+    521.4
+   ],
+   "size": 8.8,
+   "testo": "3 metri e spesso 1,5 metri, oppure un muro circolare del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    521.7,
+    278.7,
+    532.3
+   ],
+   "size": 8.8,
+   "testo": "diametro massimo di 6 metri, alto fino a 6 metri e spesso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    532.8,
+    193.6,
+    543.4
+   ],
+   "size": 8.8,
+   "testo": "1,5 metri. Il muro blocca la visuale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    543.8,
+    280.3,
+    554.3
+   ],
+   "size": 8.8,
+   "testo": "Quando compare, ogni creatura al suo interno effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    554.7,
+    274.2,
+    565.3
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Destrezza, subendo 7d8 danni perfo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    565.7,
+    275.6,
+    576.3
+   ],
+   "size": 8.8,
+   "testo": "ranti in caso di fallimento, o la metà dei danni in caso di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    576.7,
+    94.3,
+    587.3
+   ],
+   "size": 8.8,
+   "testo": "successo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    587.7,
+    277.2,
+    598.3
+   ],
+   "size": 8.8,
+   "testo": "Una creatura può muoversi attraverso il muro, seppur",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    598.7,
+    271.3,
+    609.2
+   ],
+   "size": 8.8,
+   "testo": "con fatica e dolore: per ogni 30 centimetri di muro che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    609.9,
+    269.9,
+    620.5
+   ],
+   "size": 8.8,
+   "testo": "attraversa, deve usare 1,2 metri di movimento. Inoltre,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    620.9,
+    271.6,
+    631.5
+   ],
+   "size": 8.8,
+   "testo": "la prima volta che una creatura entra in uno spazio nel",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    631.9,
+    275.1,
+    642.5
+   ],
+   "size": 8.8,
+   "testo": "muro in un turno o vi termina il proprio turno, effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    642.9,
+    282.9,
+    653.5
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Destrezza subendo 7d8 danni taglienti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    654.0,
+    269.7,
+    664.5
+   ],
+   "size": 8.8,
+   "testo": "in caso di fallimento, o la metà dei danni in caso di suc­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    664.9,
+    282.6,
+    675.5
+   ],
+   "size": 8.8,
+   "testo": "cesso. Una creatura effettua questo tiro salvezza solo una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    675.9,
+    120.1,
+    686.4
+   ],
+   "size": 8.8,
+   "testo": "volta per turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.3,
+    688.6,
+    259.9,
+    697.2
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    697.9,
+    273.8,
+    708.5
+   ],
+   "size": 8.8,
+   "testo": "Entrambi i tipi di danno aumentano di 1d8 per ogni slot",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    706.7,
+    202.0,
+    719.5
+   ],
+   "size": 8.8,
+   "testo": "incantesimo di livello superiore al 6°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    52.0,
+    396.5,
+    63.3
+   ],
+   "size": 11.2,
+   "testo": "MURO DI VENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    63.4,
+    455.6,
+    73.9
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di3° livello (druido, ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    79.1,
+    400.7,
+    88.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    90.0,
+    373.3,
+    99.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    100.9,
+    493.0,
+    110.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un ventaglio e una piuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    111.9,
+    461.9,
+    121.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    128.2,
+    531.0,
+    138.7
+   ],
+   "size": 8.8,
+   "testo": "Un muro di vento forte si solleva dal terreno in un punto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    139.1,
+    534.2,
+    149.7
+   ],
+   "size": 8.8,
+   "testo": "a scelta dell'incantatore situato entro gittata. Il muro può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    150.3,
+    536.1,
+    160.8
+   ],
+   "size": 8.8,
+   "testo": "essere lungo fino a 15 metri, alto 4,5 metri e spesso 30 cm.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    161.3,
+    520.7,
+    171.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può modellarlo nel modo che preferisce,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    172.3,
+    513.9,
+    182.9
+   ],
+   "size": 8.8,
+   "testo": "purché formi un percorso continuo lungo il terreno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    183.3,
+    518.4,
+    193.9
+   ],
+   "size": 8.8,
+   "testo": "Il muro permane per tutta la durata dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    194.2,
+    533.8,
+    204.8
+   ],
+   "size": 8.8,
+   "testo": "Quando appare, ogni creatura nell'area effettua un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    205.3,
+    537.2,
+    215.9
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Forza, subendo 4d8 danni contundenti in caso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    216.3,
+    513.2,
+    226.8
+   ],
+   "size": 8.8,
+   "testo": "di fallimento o la metà dei danni in caso di successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    227.3,
+    516.2,
+    237.9
+   ],
+   "size": 8.8,
+   "testo": "Il vento forte tiene lontani fumo, nebbia e altri gas.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    238.3,
+    522.1,
+    248.9
+   ],
+   "size": 8.8,
+   "testo": "Le creature o gli oggetti volanti di taglia Piccola o infe­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    249.3,
+    534.3,
+    259.8
+   ],
+   "size": 8.8,
+   "testo": "riore non possono passare attraverso il muro e i materiali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    260.3,
+    523.3,
+    270.9
+   ],
+   "size": 8.8,
+   "testo": "leggeri, non fissati in qualche modo, volano verso l'alto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    271.3,
+    526.9,
+    281.9
+   ],
+   "size": 8.8,
+   "testo": "una volta portati al suo interno. Frecce, quadrelli e altri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    282.4,
+    528.6,
+    292.9
+   ],
+   "size": 8.8,
+   "testo": "proiettili ordinari lanciati contro bersagli dietro il muro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    293.3,
+    532.5,
+    303.9
+   ],
+   "size": 8.8,
+   "testo": "vengono deviati verso l'alto e mancano automaticamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    304.4,
+    538.8,
+    314.9
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio (i macigni scagliati dai giganti o dalle macchine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    315.3,
+    527.7,
+    325.9
+   ],
+   "size": 8.8,
+   "testo": "d'assedio e altri proiettili simili non sono influenzati dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    326.3,
+    530.9,
+    336.9
+   ],
+   "size": 8.8,
+   "testo": "muro). Inoltre, le creature in forma gassosa non possono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    337.3,
+    363.8,
+    347.9
+   ],
+   "size": 8.8,
+   "testo": "attraversarlo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    371.8,
+    408.7,
+    383.2
+   ],
+   "size": 11.2,
+   "testo": "MURO PRISMATICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    383.4,
+    449.5,
+    393.9
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi9° livello (bardo, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    399.1,
+    400.7,
+    408.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    410.2,
+    373.0,
+    419.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    421.2,
+    375.6,
+    430.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    432.2,
+    377.5,
+    441.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    448.4,
+    528.5,
+    458.9
+   ],
+   "size": 8.8,
+   "testo": "Un piano scintillante di luce multicolore forma un muro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    459.3,
+    511.9,
+    469.9
+   ],
+   "size": 8.8,
+   "testo": "opaco verticale (che può misurare fino a 27 metri di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    470.4,
+    515.2,
+    480.9
+   ],
+   "size": 8.8,
+   "testo": "lunghezza, 9 metri di altezza e 2,5 centimetri di spes­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    481.3,
+    527.1,
+    491.8
+   ],
+   "size": 8.8,
+   "testo": "sore), centrato su un punto entro gittata. In alternativa,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    492.4,
+    521.9,
+    502.9
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore modella il muro in un globo del diametro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    503.4,
+    522.8,
+    514.0
+   ],
+   "size": 8.8,
+   "testo": "massimo di 9 metri centrato su un punto entro gittata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    514.4,
+    518.3,
+    525.0
+   ],
+   "size": 8.8,
+   "testo": "Il muro permane per tutta la durata dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    525.4,
+    535.0,
+    536.0
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore posiziona il muro in uno spazio occupato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    536.4,
+    532.8,
+    547.0
+   ],
+   "size": 8.8,
+   "testo": "da una creatura, l'incantesimo termina immediatamente,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    547.4,
+    386.5,
+    558.0
+   ],
+   "size": 8.8,
+   "testo": "senza alcun effetto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    558.4,
+    529.4,
+    569.0
+   ],
+   "size": 8.8,
+   "testo": "Il muro emana luce intensa entro 30 metri e luce fioca",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    569.4,
+    525.7,
+    580.0
+   ],
+   "size": 8.8,
+   "testo": "per ulteriori 30 metri. L'incantatore e le creature da lui",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    580.4,
+    536.5,
+    591.0
+   ],
+   "size": 8.8,
+   "testo": "scelte al momento del lancio dell'incantesimo possono pas­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    591.4,
+    532.0,
+    602.0
+   ],
+   "size": 8.8,
+   "testo": "sare attraverso il muro o rimanervi accanto senza subire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.1,
+    602.4,
+    518.1,
+    612.9
+   ],
+   "size": 8.8,
+   "testo": "danni. Se un'altra creatura in grado di vedere il muro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    613.6,
+    538.9,
+    624.2
+   ],
+   "size": 8.8,
+   "testo": "giunge entro 6 metri da esso o comincia lì il proprio turno,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    624.6,
+    536.4,
+    635.2
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Costituzione, altrimenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    635.6,
+    403.8,
+    646.2
+   ],
+   "size": 8.8,
+   "testo": "è accecata per 1 minuto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    646.6,
+    532.8,
+    657.1
+   ],
+   "size": 8.8,
+   "testo": "Il muro è composto da sette strati, ognuno di un colore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    657.6,
+    524.7,
+    668.2
+   ],
+   "size": 8.8,
+   "testo": "diverso. Quando una creatura si protende oltre il muro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    668.6,
+    526.9,
+    679.1
+   ],
+   "size": 8.8,
+   "testo": "o ci passa attraverso, lo fa attraversando uno strato alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    679.5,
+    539.2,
+    690.1
+   ],
+   "size": 8.8,
+   "testo": "volta. Ogni strato costringe la creatura a effettuare un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    690.5,
+    529.4,
+    701.1
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Destrezza, altrimenti viene influenzata dalle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    701.6,
+    519.8,
+    712.1
+   ],
+   "size": 8.8,
+   "testo": "proprietà di quello strato, come descritto nella tabella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    712.5,
+    396.1,
+    723.1
+   ],
+   "size": 8.8,
+   "testo": "degli strati prismatici.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1488 @@
+{
+ "pagina_pdf": 62,
+ "pagina_stampata": 59,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 59",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    17.9,
+    469.0,
+    22.4,
+    475.4
+   ],
+   "size": 4.9,
+   "testo": "•",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.1,
+    18.2,
+    346.2,
+    56.8
+   ],
+   "size": 38.6,
+   "testo": "\b..r::===#'=========:::'.=_,/=-\u001b,,\u0006",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    472.8,
+    7.2,
+    494.2,
+    45.8
+   ],
+   "size": 38.6,
+   "testo": "'.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    52.2,
+    150.1,
+    62.9
+   ],
+   "size": 10.6,
+   "testo": "TRATTI DEL BARDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    67.7,
+    116.8,
+    76.9
+   ],
+   "size": 8.2,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    78.7,
+    93.2,
+    87.9
+   ],
+   "size": 8.2,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    93.3,
+    99.0,
+    102.5
+   ],
+   "size": 8.2,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    107.8,
+    108.5,
+    117.0
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    118.8,
+    118.9,
+    128.1
+   ],
+   "size": 8.2,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    133.4,
+    108.5,
+    142.6
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    144.4,
+    104.2,
+    153.6
+   ],
+   "size": 8.2,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    159.1,
+    108.6,
+    168.3
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    170.1,
+    98.3,
+    179.3
+   ],
+   "size": 8.2,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    184.7,
+    108.5,
+    193.9
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    195.7,
+    118.6,
+    204.9
+   ],
+   "size": 8.2,
+   "testo": "negli strumenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    211.4,
+    108.6,
+    220.6
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    222.3,
+    115.6,
+    231.5
+   ],
+   "size": 8.2,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    236.9,
+    127.0,
+    246.1
+   ],
+   "size": 8.2,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    248.0,
+    87.8,
+    257.2
+   ],
+   "size": 8.2,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    67.4,
+    169.9,
+    77.0
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    92.9,
+    243.9,
+    102.6
+   ],
+   "size": 8.4,
+   "testo": "D8 per ogni livello da bardo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    106.4,
+    217.3,
+    117.2
+   ],
+   "size": 8.8,
+   "testo": "Destrezza e Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    133.1,
+    268.2,
+    142.8
+   ],
+   "size": 9.2,
+   "testo": "Tre abilità a scelta (vedi capitolo 1)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.9,
+    158.7,
+    190.9,
+    168.4
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    184.8,
+    249.7,
+    194.0
+   ],
+   "size": 9.2,
+   "testo": "Tre strumenti musicali a scelta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.0,
+    196.4,
+    199.5,
+    206.0
+   ],
+   "size": 8.4,
+   "testo": "(vedi capitolo 6)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.0,
+    211.0,
+    203.6,
+    220.6
+   ],
+   "size": 8.4,
+   "testo": "Armature leggere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.8,
+    236.6,
+    267.6,
+    246.3
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e B: (A) Un'armatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.4,
+    248.5,
+    269.9,
+    258.2
+   ],
+   "size": 8.4,
+   "testo": "di cuoio, 2 pugnali, uno strumento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.5,
+    260.7,
+    279.0,
+    270.3
+   ],
+   "size": 8.4,
+   "testo": "musicale (a scelta), una dotazione da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    136.5,
+    271.6,
+    270.7,
+    282.3
+   ],
+   "size": 8.8,
+   "testo": "intrattenitore e 19 mo; o (B) 90 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    310.5,
+    75.8,
+    361.2
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.3,
+    289.3,
+    268.9,
+    318.5
+   ],
+   "size": 6.6,
+   "testo": "NVOCANDO LA MAGIA ATTRAVERSO LA MUSICA,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    73.6,
+    319.5,
+    270.5,
+    330.0
+   ],
+   "size": 8.8,
+   "testo": "la danza, e i versi, i bardi sono esperti nell'ispirare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    73.3,
+    330.4,
+    278.8,
+    341.0
+   ],
+   "size": 8.8,
+   "testo": "gli altri, lenire le ferite, scoraggiare i nemici e creare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    341.4,
+    271.4,
+    352.0
+   ],
+   "size": 8.8,
+   "testo": "illusioni. I bardi credono che l'universo sia stato creato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    352.4,
+    286.1,
+    363.0
+   ],
+   "size": 8.8,
+   "testo": "tramite la parola e che gli echi di queste primordiali Parole",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    363.4,
+    263.9,
+    373.9
+   ],
+   "size": 8.8,
+   "testo": "della Creazione riverberano e brillino ancora su ogni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    374.3,
+    276.9,
+    384.9
+   ],
+   "size": 8.8,
+   "testo": "piano di esistenza. La magia bardica cerca di imbrigliare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    385.3,
+    243.4,
+    395.9
+   ],
+   "size": 8.8,
+   "testo": "queste parole, che trascendono qualsiasi lingua.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    396.4,
+    268.1,
+    406.9
+   ],
+   "size": 8.8,
+   "testo": "Qualsiasi cosa può ispirare una nuova canzone o un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    407.4,
+    270.9,
+    418.0
+   ],
+   "size": 8.8,
+   "testo": "nuovo racconto, motivo per cui i bardi sono affascinati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    418.5,
+    269.8,
+    429.1
+   ],
+   "size": 8.8,
+   "testo": "praticamente da tutto. Diventano maestri in molte atti­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    429.4,
+    217.4,
+    440.0
+   ],
+   "size": 8.8,
+   "testo": "vità, tra cui la musica, la magia e le burle.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    440.4,
+    266.4,
+    451.0
+   ],
+   "size": 8.8,
+   "testo": "Il bardo trascorre la sua vita sulla strada in cerca di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    451.4,
+    286.6,
+    461.9
+   ],
+   "size": 8.8,
+   "testo": "leggende e storie da raccontare, e vive della gratitudine del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    462.3,
+    282.0,
+    472.9
+   ],
+   "size": 8.8,
+   "testo": "pubblico proprio come ogni altro intrattenitore. Tuttavia,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    473.4,
+    276.4,
+    484.0
+   ],
+   "size": 8.8,
+   "testo": "la profondità delle sue conoscenze e la padronanza della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    484.3,
+    232.2,
+    494.9
+   ],
+   "size": 8.8,
+   "testo": "magia lo elevano al di sopra dei suoi colleghi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    504.5,
+    212.0,
+    517.6
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UN BARDO...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    525.0,
+    241.0,
+    536.4
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    536.5,
+    258.8,
+    547.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutte le caratteristiche della tabella Tratti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    547.4,
+    104.2,
+    558.0
+   ],
+   "size": 8.8,
+   "testo": "del bardo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    556.3,
+    271.8,
+    569.0
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi di 1° livello da bardo, elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    569.4,
+    168.1,
+    580.0
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del bardo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    589.8,
+    239.7,
+    601.2
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    601.2,
+    272.0,
+    611.8
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i seguenti tratti della tabella Tratti del bardo:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    612.5,
+    266.3,
+    623.0
+   ],
+   "size": 8.8,
+   "testo": "Dado Vita, competenza in un'abilità a scelta, compe­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    623.4,
+    280.5,
+    634.0
+   ],
+   "size": 8.8,
+   "testo": "tenza in uno strumento musicale a scelta e competenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    634.4,
+    155.7,
+    644.9
+   ],
+   "size": 8.8,
+   "testo": "nelle armature leggere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    643.3,
+    271.8,
+    656.0
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi di 1° livello da bardo, elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    656.4,
+    274.3,
+    666.9
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del bardo. Per determinare il numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    667.3,
+    283.9,
+    677.9
+   ],
+   "size": 8.8,
+   "testo": "di slot incantesimo disponibili, vedi le regole multiclasse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    678.4,
+    119.8,
+    688.9
+   ],
+   "size": 8.8,
+   "testo": "nel capitolo 2.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    291.8,
+    144.9,
+    297.4,
+    162.5
+   ],
+   "size": 13.9,
+   "testo": "1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    52.3,
+    514.2,
+    65.4
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE DEL BARDO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    68.8,
+    526.5,
+    79.4
+   ],
+   "size": 8.8,
+   "testo": "Il bardo ottiene i seguenti privilegi di classe quando rag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    79.8,
+    534.3,
+    90.3
+   ],
+   "size": 8.8,
+   "testo": "giunge i livelli specificati. Tali privilegi sono elencati nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    90.8,
+    413.0,
+    101.3
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del bardo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    103.9,
+    440.7,
+    122.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    122.6,
+    526.2,
+    133.2
+   ],
+   "size": 8.8,
+   "testo": "Il bardo impara a lanciare incantesimi attraverso le arti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    133.5,
+    522.1,
+    144.1
+   ],
+   "size": 8.8,
+   "testo": "bardiche. Consulta il capitolo 7 per le regole relative al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    144.6,
+    532.4,
+    155.2
+   ],
+   "size": 8.8,
+   "testo": "lancio degli incantesimi. Le informazioni sottostanti spie­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    155.7,
+    534.0,
+    166.2
+   ],
+   "size": 8.8,
+   "testo": "gano come applicare tali regole agli incantesimi da bardo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    166.7,
+    521.6,
+    177.2
+   ],
+   "size": 8.8,
+   "testo": "elencati nella relativa lista degli incantesimi più avanti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    177.7,
+    424.0,
+    188.3
+   ],
+   "size": 8.8,
+   "testo": "nella descrizione della classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    188.7,
+    522.0,
+    199.3
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti. Un bardo conosce due trucchetti a scelta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    199.7,
+    522.8,
+    210.3
+   ],
+   "size": 8.8,
+   "testo": "tratti dalla lista degli incantesimi da bardo. Sono consi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    210.7,
+    436.2,
+    221.3
+   ],
+   "size": 8.8,
+   "testo": "gliati beffa crudele e lucidanzanti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    221.8,
+    538.8,
+    232.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il personaggio ottiene un livello da bardo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    232.7,
+    524.6,
+    243.3
+   ],
+   "size": 8.8,
+   "testo": "può sostituire uno dei suoi trucchetti con un altro truc-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    243.7,
+    512.9,
+    254.3
+   ],
+   "size": 8.8,
+   "testo": "chetto a scelta dalla lista degli incantesimi da bardo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    544.4,
+    244.7,
+    549.6,
+    261.7
+   ],
+   "size": 16.8,
+   "testo": "j",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.4,
+    252.6,
+    521.2,
+    265.3
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio raggiunge il 4° e il 10° livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    265.8,
+    524.5,
+    276.4
+   ],
+   "size": 8.8,
+   "testo": "da bardo, impara un altro trucchetto a scelta dalla lista",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    276.9,
+    526.3,
+    287.4
+   ],
+   "size": 8.8,
+   "testo": "degli incantesimi da bardo, come indicato nella colonna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    287.8,
+    477.0,
+    298.4
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti della tabella Privilegi del bardo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    298.8,
+    528.5,
+    309.4
+   ],
+   "size": 8.8,
+   "testo": "Slotincantesimo. La tabella Privilegi del bardo mostra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    309.8,
+    523.4,
+    320.4
+   ],
+   "size": 8.8,
+   "testo": "gli slot incantesimo disponibili per i propri incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    318.7,
+    526.2,
+    331.4
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello o superiore. Tutti gli slot incantesimo consu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    331.7,
+    532.2,
+    342.3
+   ],
+   "size": 8.8,
+   "testo": "mati vengono ripristinati una volta completato un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    342.8,
+    334.7,
+    353.3
+   ],
+   "size": 8.8,
+   "testo": "lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    353.7,
+    537.5,
+    364.3
+   ],
+   "size": 8.8,
+   "testo": "Incantesimipreparati di 1° livello o superiore. Con questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    364.6,
+    532.5,
+    375.2
+   ],
+   "size": 8.8,
+   "testo": "privilegio, il personaggio prepara una lista di incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    373.5,
+    517.6,
+    386.3
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello o superiore che può lanciare. Per iniziare,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    384.6,
+    521.3,
+    397.3
+   ],
+   "size": 8.8,
+   "testo": "sceglie quattro incantesimi di 1° livello dalla lista degli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    397.7,
+    529.9,
+    408.3
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da bardo. Sono consigliati charmesupersone,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    409.9,
+    511.1,
+    419.2
+   ],
+   "size": 8.6,
+   "testo": "parola guaritrice, spruzzo colorato, sussurri dissonanti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    419.8,
+    532.9,
+    430.4
+   ],
+   "size": 8.8,
+   "testo": "Il numero di incantesimi nella lista aumenta man mano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    430.8,
+    518.3,
+    441.3
+   ],
+   "size": 8.8,
+   "testo": "che si ottengono livelli da bardo, come mostrato nella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    441.7,
+    526.4,
+    452.3
+   ],
+   "size": 8.8,
+   "testo": "colonna Incantesimi preparati della tabella Privilegi del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    452.7,
+    515.1,
+    463.3
+   ],
+   "size": 8.8,
+   "testo": "bardo. Ogni volta che il numero cresce, il bardo deve",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    463.7,
+    528.0,
+    474.3
+   ],
+   "size": 8.8,
+   "testo": "scegliere altri incantesimi dalla lista degli incantesimi da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    474.7,
+    525.8,
+    485.3
+   ],
+   "size": 8.8,
+   "testo": "bardo finché il numero di incantesimi sulla sua lista non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    485.7,
+    537.3,
+    496.3
+   ],
+   "size": 8.8,
+   "testo": "combacia con quello mostrato nella tabella. Gli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    496.7,
+    515.8,
+    507.3
+   ],
+   "size": 8.8,
+   "testo": "scelti devono essere di un livello di cui possiede degli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    507.8,
+    508.0,
+    518.4
+   ],
+   "size": 8.8,
+   "testo": "slot incantesimo. Per esempio, nel caso di un bardo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    516.7,
+    512.1,
+    529.4
+   ],
+   "size": 8.8,
+   "testo": "di 3° livello, la sua lista di incantesimi preparati può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    527.6,
+    515.3,
+    540.4
+   ],
+   "size": 8.8,
+   "testo": "includere sei incantesimi di 1° e 2° livello in qualsiasi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    540.8,
+    367.3,
+    551.4
+   ],
+   "size": 8.8,
+   "testo": "combinazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.4,
+    551.8,
+    530.7,
+    562.4
+   ],
+   "size": 8.8,
+   "testo": "Se un altro privilegio gli fornisce incantesimi che sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    562.7,
+    527.0,
+    573.3
+   ],
+   "size": 8.8,
+   "testo": "sempre preparati, questi non contano ai fini del numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    573.7,
+    533.9,
+    584.3
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi preparabili con questo privilegio. Tuttavia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    584.8,
+    493.6,
+    595.3
+   ],
+   "size": 8.8,
+   "testo": "valgono comunque come incantesimi da bardo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.4,
+    595.7,
+    516.8,
+    606.3
+   ],
+   "size": 8.8,
+   "testo": "Cambiare gli incantesimipreparati. Quando ottiene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    606.8,
+    511.4,
+    617.4
+   ],
+   "size": 8.8,
+   "testo": "un livello da bardo, il personaggio può sostituire un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    617.9,
+    528.4,
+    628.4
+   ],
+   "size": 8.8,
+   "testo": "incantesimo sulla propria lista con un altro incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    628.9,
+    443.0,
+    639.4
+   ],
+   "size": 8.8,
+   "testo": "da bardo di cui possiede degli slot.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.4,
+    639.9,
+    537.0,
+    650.5
+   ],
+   "size": 8.8,
+   "testo": "Caratteristica da incantatore. Carisma è la caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    650.9,
+    480.0,
+    661.4
+   ],
+   "size": 8.8,
+   "testo": "da incantatore per gli incantesimi da bardo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    661.9,
+    515.8,
+    672.4
+   ],
+   "size": 8.8,
+   "testo": "Focus da incantatore. Un bardo può usare uno stru­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    672.8,
+    514.2,
+    683.4
+   ],
+   "size": 8.8,
+   "testo": "mento musicale come focus da incantatore per i suoi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    683.8,
+    394.1,
+    694.4
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da bardo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

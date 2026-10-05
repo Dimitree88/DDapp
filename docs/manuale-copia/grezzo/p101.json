@@ -1,0 +1,672 @@
+{
+ "pagina_pdf": 101,
+ "pagina_stampata": 98,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    304.4,
+    38.0,
+    498.7,
+    49.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: CONOSCI IL TUO NEMICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    49.5,
+    524.5,
+    60.1
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il guerriero può discernere determi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    60.5,
+    519.3,
+    71.1
+   ],
+   "size": 8.8,
+   "testo": "nati punti di forza e di debolezza di una creatura entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    71.5,
+    517.3,
+    82.1
+   ],
+   "size": 8.8,
+   "testo": "9 metri da sé e nel suo campo visivo, e sapere se quella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    82.5,
+    524.8,
+    93.1
+   ],
+   "size": 8.8,
+   "testo": "creatura ha immunità, resistenze e vulnerabilità, e quali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    93.5,
+    326.7,
+    104.1
+   ],
+   "size": 8.8,
+   "testo": "sono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    104.5,
+    504.9,
+    115.0
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    115.5,
+    526.5,
+    126.0
+   ],
+   "size": 8.8,
+   "testo": "non può riutilizzarlo prima di aver completato un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    126.5,
+    516.9,
+    137.0
+   ],
+   "size": 8.8,
+   "testo": "lungo. Può anche recuperare un utilizzo del privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    137.5,
+    501.6,
+    148.1
+   ],
+   "size": 8.8,
+   "testo": "spendendo un dado di superiorità (nessuna azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.3,
+    148.4,
+    344.9,
+    159.0
+   ],
+   "size": 8.8,
+   "testo": "richiesta}.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    169.0,
+    457.1,
+    180.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: SUPERIORITÀ IN",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    179.7,
+    468.5,
+    191.1
+   ],
+   "size": 11.2,
+   "testo": "COMBATTIMENTO MIGLIORATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    191.1,
+    450.0,
+    201.7
+   ],
+   "size": 8.8,
+   "testo": "Il dado di superiorità diventa un d10.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    211.7,
+    442.8,
+    223.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: IMPLACABILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    223.0,
+    516.7,
+    233.6
+   ],
+   "size": 8.8,
+   "testo": "Una volta per turno, quando usauna manovra, il guer­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    234.0,
+    529.3,
+    244.6
+   ],
+   "size": 8.8,
+   "testo": "riero può tirare 1d8 e usare il risultato invece di spendere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    245.0,
+    395.1,
+    255.6
+   ],
+   "size": 8.8,
+   "testo": "un dado di superiorità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    265.5,
+    457.1,
+    276.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: SUPERIORITÀ IN",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    276.3,
+    452.2,
+    287.6
+   ],
+   "size": 11.2,
+   "testo": "COMBATTIMENTO SUPREMA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    287.7,
+    450.1,
+    298.3
+   ],
+   "size": 8.8,
+   "testo": "Il dado di superiorità diventa un d12.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    308.1,
+    423.6,
+    319.5
+   ],
+   "size": 11.2,
+   "testo": "OPZIONI DI MANOVRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    319.5,
+    497.9,
+    330.1
+   ],
+   "size": 8.8,
+   "testo": "Le manovre sono presentate in ordine alfabetico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    330.5,
+    517.1,
+    341.1
+   ],
+   "size": 8.8,
+   "testo": "Attacco adescante. Quando il guerriero colpisce una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    341.4,
+    520.3,
+    352.0
+   ],
+   "size": 8.8,
+   "testo": "creatura con un tiro per colpire, può spendere un dado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    352.5,
+    524.7,
+    363.0
+   ],
+   "size": 8.8,
+   "testo": "di superiorità per tentare di indurre il bersaglio ad attac­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    363.4,
+    521.5,
+    374.0
+   ],
+   "size": 8.8,
+   "testo": "carlo. Aggiunge il dado di superiorità al tiro per i danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    374.4,
+    519.6,
+    384.9
+   ],
+   "size": 8.8,
+   "testo": "dell'attacco. Il bersagliodeve superare un tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    385.4,
+    527.6,
+    395.9
+   ],
+   "size": 8.8,
+   "testo": "su Saggezza o subire svantaggio ai tiri per colpire contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    396.5,
+    518.1,
+    407.1
+   ],
+   "size": 8.8,
+   "testo": "bersagli diversi dal personaggio fino alla fine del turno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    407.5,
+    349.0,
+    418.1
+   ],
+   "size": 8.8,
+   "testo": "successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    418.5,
+    520.4,
+    429.1
+   ],
+   "size": 8.8,
+   "testo": "Attacco con affondo. Come azione bonus, il guerriero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    429.5,
+    531.6,
+    440.1
+   ],
+   "size": 8.8,
+   "testo": "può spendere un dado di superiorità ed effettuare l'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    440.5,
+    499.8,
+    451.0
+   ],
+   "size": 8.8,
+   "testo": "di Scatto. Durante questo turno, se il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    451.5,
+    521.0,
+    462.0
+   ],
+   "size": 8.8,
+   "testo": "percorre almeno 1,5 metri in linea retta subito prima di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    462.5,
+    525.2,
+    473.0
+   ],
+   "size": 8.8,
+   "testo": "colpire con un attacco in mischia come parte dell'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    473.5,
+    520.5,
+    484.0
+   ],
+   "size": 8.8,
+   "testo": "di Attacco, può aggiungere il dado di superiorità al tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    484.5,
+    397.5,
+    495.0
+   ],
+   "size": 8.8,
+   "testo": "per i danni dell'attacco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    495.5,
+    526.4,
+    506.0
+   ],
+   "size": 8.8,
+   "testo": "Attacco con.finta. Come azione bonus, il guerriero può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    506.5,
+    519.7,
+    517.1
+   ],
+   "size": 8.8,
+   "testo": "spendere un dado di superiorità per eseguire una finta,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    517.6,
+    519.7,
+    528.2
+   ],
+   "size": 8.8,
+   "testo": "scegliendo una creatura entro 1,5 metri da sé come ber­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    528.6,
+    524.2,
+    539.1
+   ],
+   "size": 8.8,
+   "testo": "saglio. Il guerriero dispone di vantaggio al suo prossimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    539.6,
+    519.6,
+    550.1
+   ],
+   "size": 8.8,
+   "testo": "tiro per colpire contro quella creatura in questo turno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    550.6,
+    517.8,
+    561.1
+   ],
+   "size": 8.8,
+   "testo": "Se l'attacco va a segno, il guerriero aggiunge il dado di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    561.6,
+    468.8,
+    572.2
+   ],
+   "size": 8.8,
+   "testo": "superiorità al tiro per i danni dell'attacco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    572.5,
+    528.8,
+    583.1
+   ],
+   "size": 8.8,
+   "testo": "Attacco con manovra. Quando il guerriero colpisce una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    583.6,
+    520.2,
+    594.1
+   ],
+   "size": 8.8,
+   "testo": "creatura con un tiro per colpire, può spendere un dado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    594.6,
+    526.0,
+    605.2
+   ],
+   "size": 8.8,
+   "testo": "di superiorità per spostare uno dei suoi compagni in una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    605.6,
+    522.6,
+    616.2
+   ],
+   "size": 8.8,
+   "testo": "posizione più vantaggiosa. Il guerriero aggiunge il dado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    616.7,
+    527.9,
+    627.2
+   ],
+   "size": 8.8,
+   "testo": "di superiorità al tiro per i danni dell'attacco e sceglie una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    627.8,
+    513.8,
+    638.4
+   ],
+   "size": 8.8,
+   "testo": "creatura consenziente che sia in grado di vederlo o di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    638.7,
+    517.8,
+    649.3
+   ],
+   "size": 8.8,
+   "testo": "sentirlo. Quella creatura può usare la sua reazione per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    649.8,
+    532.3,
+    660.3
+   ],
+   "size": 8.8,
+   "testo": "muoversi fino alla metà della sua velocità senza provocare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    660.8,
+    530.0,
+    671.4
+   ],
+   "size": 8.8,
+   "testo": "attacchi di opportunità da parte del bersaglio dell'attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    671.8,
+    359.1,
+    682.4
+   ],
+   "size": 8.8,
+   "testo": "del guerriero.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

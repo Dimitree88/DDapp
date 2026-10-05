@@ -1,0 +1,1255 @@
+{
+ "pagina_pdf": 346,
+ "pagina_stampata": 343,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 343",
+ "immagini": [
+  [
+   778,
+   128,
+   1265,
+   615
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    58.8,
+    51.4,
+    148.3,
+    62.7
+   ],
+   "size": 11.2,
+   "testo": "VIGORE ARCANO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.8,
+    62.8,
+    209.4,
+    73.3
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi2° livello (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    78.4,
+    176.9,
+    88.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    89.4,
+    134.6,
+    99.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    100.4,
+    128.2,
+    110.0
+   ],
+   "size": 8.4,
+   "testo": "Componente: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    111.4,
+    131.7,
+    121.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    127.5,
+    284.5,
+    138.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore attinge alla propria forza vitale per curarsi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    138.5,
+    275.8,
+    149.1
+   ],
+   "size": 8.8,
+   "testo": "Lancia uno o due dei Dadi Vita non spesi e recupera un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.1,
+    149.6,
+    280.8,
+    160.2
+   ],
+   "size": 8.8,
+   "testo": "numero di punti ferita pari al risultato totale del tiro più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    160.6,
+    288.7,
+    171.2
+   ],
+   "size": 8.8,
+   "testo": "il modificatore di caratteristica da incantatore. I Dadi Vita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    171.5,
+    167.8,
+    182.1
+   ],
+   "size": 8.8,
+   "testo": "utilizzati sono quindi spesi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.1,
+    184.3,
+    263.2,
+    192.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    193.6,
+    272.1,
+    204.1
+   ],
+   "size": 8.8,
+   "testo": "Il numero di Dadi Vita non spesi che l'incantatore può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    204.6,
+    281.3,
+    215.2
+   ],
+   "size": 8.8,
+   "testo": "lanciare aumenta di uno per ogni slot di livello superiore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    213.4,
+    80.5,
+    226.2
+   ],
+   "size": 8.8,
+   "testo": "al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    250.3,
+    201.2,
+    261.6
+   ],
+   "size": 11.2,
+   "testo": "VINCOLO DI INTERDIZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    261.8,
+    219.6,
+    272.3
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi2° livello (chierico, paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    277.5,
+    151.2,
+    287.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    288.5,
+    124.1,
+    298.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    299.4,
+    282.1,
+    309.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un paio di anelli di platino del valore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.7,
+    310.4,
+    273.5,
+    320.1
+   ],
+   "size": 8.4,
+   "testo": "di 50 mo o più, che l'incantatore e il bersaglio devono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.1,
+    321.4,
+    223.5,
+    331.0
+   ],
+   "size": 8.4,
+   "testo": "indossare per la durata dell'incantesimo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    332.4,
+    111.4,
+    342.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    348.6,
+    258.3,
+    359.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca un'altra creatura consenziente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    359.6,
+    274.6,
+    370.1
+   ],
+   "size": 8.8,
+   "testo": "e crea un collegamento mistico tra sé e il bersaglio fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    370.6,
+    275.0,
+    381.1
+   ],
+   "size": 8.8,
+   "testo": "al termine dell'incantesimo. Finché il bersaglio si trova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    381.6,
+    287.1,
+    392.2
+   ],
+   "size": 8.8,
+   "testo": "entro 18 metri dall'incantatore, ottiene un bonus di +1 alla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    392.7,
+    286.7,
+    403.3
+   ],
+   "size": 8.8,
+   "testo": "CA e ai tiri salvezza e dispone di resistenza a tutti i danni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    403.8,
+    268.7,
+    414.3
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ogni volta che subisce danni, l'incantatore ne",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    414.8,
+    161.2,
+    425.4
+   ],
+   "size": 8.8,
+   "testo": "subisce la stessa quantità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.9,
+    425.8,
+    286.4,
+    436.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo termina se l'incantatore scende a 0 punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    436.8,
+    284.1,
+    447.3
+   ],
+   "size": 8.8,
+   "testo": "ferita, se lui e il bersaglio si allontanano di più di 18 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    447.7,
+    269.6,
+    458.3
+   ],
+   "size": 8.8,
+   "testo": "o se l'incantesimo viene lanciato di nuovo su una delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    458.8,
+    150.5,
+    469.3
+   ],
+   "size": 8.8,
+   "testo": "due creature collegate.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    493.5,
+    157.0,
+    504.9
+   ],
+   "size": 11.2,
+   "testo": "VISIONE DEL VERO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    505.0,
+    266.3,
+    515.5
+   ],
+   "size": 8.6,
+   "testo": "Divinazione di 6° livello (bardo, chierico, mago, stregone,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    517.0,
+    92.7,
+    526.3
+   ],
+   "size": 8.6,
+   "testo": "warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    531.7,
+    151.6,
+    541.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    542.7,
+    124.3,
+    552.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    553.6,
+    284.7,
+    563.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (polvere di funghi del valore di 25 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.1,
+    564.7,
+    197.2,
+    574.3
+   ],
+   "size": 8.4,
+   "testo": "o più, che l'incantesimo consuma)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    575.6,
+    111.8,
+    585.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    591.8,
+    286.4,
+    602.3
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, una creatura consenziente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    602.7,
+    257.3,
+    613.3
+   ],
+   "size": 8.8,
+   "testo": "toccata dall'incantatore è dotata di vista pura fino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    614.0,
+    104.2,
+    624.6
+   ],
+   "size": 8.8,
+   "testo": "a 36 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    648.7,
+    133.9,
+    660.1
+   ],
+   "size": 11.2,
+   "testo": "VITAFALSATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    660.2,
+    211.3,
+    670.7
+   ],
+   "size": 8.6,
+   "testo": "Necromanzia di 1° livello (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    675.7,
+    151.8,
+    685.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    686.8,
+    135.3,
+    696.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    697.7,
+    218.5,
+    707.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una goccia di alcol)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    708.7,
+    132.4,
+    718.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    35.7,
+    522.1,
+    46.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore ottiene 2d4 + 4 punti ferita temporanei.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.8,
+    48.4,
+    515.8,
+    57.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    57.7,
+    538.1,
+    68.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore ottiene 5 punti ferita temporanei aggiuntivi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.0,
+    66.6,
+    457.1,
+    79.3
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 1°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    103.4,
+    356.4,
+    114.8
+   ],
+   "size": 11.2,
+   "testo": "VOLARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    114.9,
+    504.2,
+    125.3
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi3°livello (mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    130.4,
+    404.2,
+    140.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    141.5,
+    377.0,
+    151.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    152.5,
+    440.3,
+    162.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una piuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    163.5,
+    467.5,
+    173.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    179.6,
+    522.0,
+    190.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca una creatura consenziente. Per la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    190.6,
+    532.8,
+    201.2
+   ],
+   "size": 8.8,
+   "testo": "durata dell'incantesimo, il bersaglio ottiene una velocità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.3,
+    201.7,
+    538.9,
+    212.3
+   ],
+   "size": 8.8,
+   "testo": "di volo di 18 metri e può fluttuare. Al termine dell'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    212.7,
+    535.9,
+    223.3
+   ],
+   "size": 8.8,
+   "testo": "simo, il bersaglio ancora sospeso in aria cade, sempre che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    223.7,
+    462.9,
+    234.3
+   ],
+   "size": 8.8,
+   "testo": "non abbia modo di impedire la caduta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.9,
+    236.4,
+    515.9,
+    245.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo diuno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    245.6,
+    525.0,
+    256.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    254.5,
+    458.8,
+    267.2
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 3°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    291.5,
+    403.6,
+    302.8
+   ],
+   "size": 11.2,
+   "testo": "VUOTO MENTALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    303.0,
+    453.2,
+    313.5
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi8° livello (bardo, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    318.5,
+    404.3,
+    328.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    329.6,
+    377.0,
+    339.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    340.5,
+    379.2,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    351.6,
+    368.2,
+    361.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: 24 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    367.7,
+    518.6,
+    378.2
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, l'incantatore tocca",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    378.7,
+    532.5,
+    389.3
+   ],
+   "size": 8.8,
+   "testo": "una creatura consenziente rendendola immune ai danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    389.7,
+    534.6,
+    400.3
+   ],
+   "size": 8.8,
+   "testo": "psichici e alla condizione affascinato. Inoltre, il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    400.8,
+    527.4,
+    411.3
+   ],
+   "size": 8.8,
+   "testo": "non è influenzato da nulla che sia in grado di percepire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    411.9,
+    522.4,
+    422.5
+   ],
+   "size": 8.8,
+   "testo": "le sue emozioni o allineamento, leggere i suoi pensieri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    422.9,
+    514.8,
+    433.4
+   ],
+   "size": 8.8,
+   "testo": "o individuare magicamente la sua posizione. Nessun",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    433.8,
+    528.7,
+    444.4
+   ],
+   "size": 8.8,
+   "testo": "incantesimo, nemmeno l'incantesimo desiderio, può rac­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    444.8,
+    538.9,
+    455.4
+   ],
+   "size": 8.8,
+   "testo": "cogliere informazioni sul bersaglio, osservarlo a distanza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    455.8,
+    405.3,
+    466.3
+   ],
+   "size": 8.8,
+   "testo": "o controllarne la mente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    490.6,
+    399.2,
+    502.0
+   ],
+   "size": 11.2,
+   "testo": "ZONA DI VERITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    502.1,
+    508.7,
+    512.6
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamento di2° livello (bardo, chierico, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    517.7,
+    404.5,
+    527.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    528.8,
+    376.9,
+    538.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    539.8,
+    379.5,
+    549.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    550.8,
+    381.3,
+    560.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    566.8,
+    526.8,
+    577.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea una zona magica che protegge dagli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    577.9,
+    525.6,
+    588.4
+   ],
+   "size": 8.8,
+   "testo": "inganni all'interno di una sfera del raggio di 4,5 metri,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    588.8,
+    511.9,
+    599.4
+   ],
+   "size": 8.8,
+   "testo": "centrata su un punto entro gittata. Fino al termine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    599.8,
+    534.3,
+    610.4
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, una creatura che entra nell'area dell'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    611.0,
+    534.0,
+    621.6
+   ],
+   "size": 8.8,
+   "testo": "cantesimo per la prima volta in un turno o che inizia qui",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    622.0,
+    525.7,
+    632.6
+   ],
+   "size": 8.8,
+   "testo": "il suo turno effettua un tiro salvezza su Carisma. Se lo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    633.0,
+    538.2,
+    643.6
+   ],
+   "size": 8.8,
+   "testo": "fallisce, non può mentire deliberatamente mentre si trova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    644.0,
+    528.4,
+    654.6
+   ],
+   "size": 8.8,
+   "testo": "nell'area. L'incantatore sa se il bersaglio supera o meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    655.1,
+    373.8,
+    665.7
+   ],
+   "size": 8.8,
+   "testo": "il tiro salvezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.8,
+    666.0,
+    543.1,
+    676.6
+   ],
+   "size": 8.8,
+   "testo": "Una creatura influenzata è consapevole dell'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    676.9,
+    525.1,
+    687.5
+   ],
+   "size": 8.8,
+   "testo": "e può evitare di rispondere alle domande a cui normal­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    688.0,
+    530.7,
+    698.5
+   ],
+   "size": 8.8,
+   "testo": "mente risponderebbe mentendo. In tal caso, deve essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    699.0,
+    392.1,
+    709.5
+   ],
+   "size": 8.8,
+   "testo": "evasiva, ma sincera.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

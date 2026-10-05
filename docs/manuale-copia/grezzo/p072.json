@@ -1,0 +1,1531 @@
+{
+ "pagina_pdf": 72,
+ "pagina_stampata": 69,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 69",
+ "immagini": [
+  [
+   13,
+   12,
+   589,
+   652
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    43.0,
+    39.0,
+    60.1,
+    55.9
+   ],
+   "size": 16.8,
+   "testo": "r(",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    43.7,
+    240.7,
+    58.1,
+    291.4
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    107.1,
+    16.4,
+    269.9,
+    67.1
+   ],
+   "size": 29.9,
+   "testo": ",,----",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    261.0,
+    16.5,
+    318.6,
+    67.2
+   ],
+   "size": 29.7,
+   "testo": "ª//..",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    31.0,
+    547.2,
+    48.6
+   ],
+   "size": 13.9,
+   "testo": "MNO=PQ================'R,:::::====S",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    288.4,
+    32.3,
+    307.6,
+    53.8
+   ],
+   "size": 10.8,
+   "testo": "9:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    536.3,
+    31.2,
+    546.1,
+    49.4
+   ],
+   "size": 8.5,
+   "testo": "©",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    53.0,
+    162.6,
+    63.7
+   ],
+   "size": 10.6,
+   "testo": "TRATTI DEL CHIERICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    68.6,
+    116.9,
+    77.8
+   ],
+   "size": 8.2,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    68.3,
+    174.0,
+    77.9
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    79.5,
+    93.3,
+    88.7
+   ],
+   "size": 8.2,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    94.0,
+    99.1,
+    103.3
+   ],
+   "size": 8.2,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    93.8,
+    250.8,
+    103.4
+   ],
+   "size": 8.4,
+   "testo": "08 per ogni livello da chierico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    108.6,
+    108.6,
+    117.9
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    108.3,
+    214.6,
+    118.0
+   ],
+   "size": 8.4,
+   "testo": "Saggezza e Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    119.6,
+    118.8,
+    128.9
+   ],
+   "size": 8.2,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    134.2,
+    108.6,
+    143.4
+   ],
+   "size": 8.2,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.0,
+    133.9,
+    281.4,
+    143.6
+   ],
+   "size": 9.2,
+   "testo": "Due a scelta tra: Intuizione, Medicina,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    145.3,
+    104.2,
+    154.5
+   ],
+   "size": 8.2,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    146.0,
+    256.4,
+    155.6
+   ],
+   "size": 8.4,
+   "testo": "Persuasione, Religione o Storia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    160.8,
+    108.7,
+    170.1
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.0,
+    160.5,
+    191.0,
+    170.2
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.5,
+    171.8,
+    99.2,
+    181.0
+   ],
+   "size": 8.2,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    186.4,
+    108.7,
+    195.6
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    186.2,
+    261.5,
+    195.8
+   ],
+   "size": 8.4,
+   "testo": "Armature leggere e medie; scudi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    197.5,
+    115.7,
+    206.7
+   ],
+   "size": 8.2,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    212.1,
+    127.3,
+    221.3
+   ],
+   "size": 8.2,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.0,
+    211.7,
+    253.6,
+    221.4
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e B: (A) Un giaco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    223.1,
+    87.9,
+    232.3
+   ],
+   "size": 8.2,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.6,
+    223.8,
+    266.5,
+    233.4
+   ],
+   "size": 8.4,
+   "testo": "di maglia, uno scudo, una mazza,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    235.8,
+    263.4,
+    245.4
+   ],
+   "size": 8.4,
+   "testo": "un simbolo sacro, una dotazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    247.7,
+    268.9,
+    257.4
+   ],
+   "size": 8.4,
+   "testo": "da sacerdote e 7 mo; o (B) 110 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    288.2,
+    68.4,
+    338.9
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.7,
+    267.2,
+    268.8,
+    296.4
+   ],
+   "size": 6.6,
+   "testo": "CHIERICI TRAGGONO IL LORO POTERE DAI REGNI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.0,
+    297.4,
+    283.3,
+    308.0
+   ],
+   "size": 8.8,
+   "testo": "degli dèi e lo imbrigliano per compiere miracoli. Bene­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    73.4,
+    308.4,
+    273.8,
+    319.0
+   ],
+   "size": 8.8,
+   "testo": "detto da una divinità, da un pantheon o da un'altra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    319.4,
+    273.2,
+    329.9
+   ],
+   "size": 8.8,
+   "testo": "entità immortale, un chierico può raggiungere la magia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    330.4,
+    274.9,
+    340.9
+   ],
+   "size": 8.8,
+   "testo": "divina dei Piani Esterni, dove dimorano gli dèi, e incana­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    341.3,
+    269.6,
+    351.9
+   ],
+   "size": 8.8,
+   "testo": "larla per dare forza alle persone e combattere i nemici.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    352.3,
+    258.7,
+    362.9
+   ],
+   "size": 8.8,
+   "testo": "Poiché il loro potere è un dono divino, i chierici si",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    363.2,
+    266.0,
+    373.8
+   ],
+   "size": 8.8,
+   "testo": "associano tipicamente a templi dedicati alla divinità o",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    374.3,
+    276.1,
+    384.8
+   ],
+   "size": 8.8,
+   "testo": "ad altre forze immortali da cui hanno ricevuto la magia.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    385.3,
+    269.9,
+    395.9
+   ],
+   "size": 8.8,
+   "testo": "La capacità di imbrigliare la magia divina non richiede",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    396.3,
+    270.7,
+    406.9
+   ],
+   "size": 8.8,
+   "testo": "un addestramento specifico, tuttavia i chierici possono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    407.4,
+    275.9,
+    418.0
+   ],
+   "size": 8.8,
+   "testo": "apprendere preghiere e riti che li aiutano ad attingere ai",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    418.4,
+    150.3,
+    429.0
+   ],
+   "size": 8.8,
+   "testo": "poteri dei Piani Esterni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    429.4,
+    279.9,
+    440.0
+   ],
+   "size": 8.8,
+   "testo": "Non tutti i membri di un tempio o di un santuario sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    440.3,
+    277.8,
+    450.9
+   ],
+   "size": 8.8,
+   "testo": "chierici. Alcuni sacerdoti sono votati a una vita semplice",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    451.4,
+    281.1,
+    461.9
+   ],
+   "size": 8.8,
+   "testo": "al servizio del tempio, manifestando la propria devozione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    462.4,
+    263.5,
+    472.9
+   ],
+   "size": 8.8,
+   "testo": "attraverso preghiere e sacrifici, anziché attraverso la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    473.3,
+    272.1,
+    483.8
+   ],
+   "size": 8.8,
+   "testo": "magia. Molti mortali affermano di parlare a nome degli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    484.3,
+    273.8,
+    494.9
+   ],
+   "size": 8.8,
+   "testo": "dèi, ma pochi possono esercitare il potere di queste divi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    495.4,
+    144.3,
+    505.9
+   ],
+   "size": 8.8,
+   "testo": "nità come un chierico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    515.5,
+    226.6,
+    528.6
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UN CHIERICO...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    536.0,
+    241.0,
+    547.4
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    547.5,
+    272.9,
+    558.0
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutte le caratteristiche dellatabella Tratti del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    558.4,
+    99.5,
+    568.9
+   ],
+   "size": 8.8,
+   "testo": "chierico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    567.2,
+    280.7,
+    580.0
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi di 1° livello da chierico, elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    580.4,
+    177.0,
+    591.0
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del chierico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    600.8,
+    240.1,
+    612.2
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    612.4,
+    280.9,
+    623.0
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i seguenti tratti della tabella Tratti del chierico:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    623.4,
+    274.5,
+    634.0
+   ],
+   "size": 8.8,
+   "testo": "Dado Vita, competenza nelle armature leggere, medie",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    634.4,
+    116.0,
+    645.0
+   ],
+   "size": 8.8,
+   "testo": "e negli scudi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    643.3,
+    280.9,
+    656.0
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi di 1° livello da chierico, elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    656.4,
+    283.3,
+    667.0
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del chierico. Per determinare il numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    667.3,
+    284.4,
+    677.9
+   ],
+   "size": 8.8,
+   "testo": "di slot incantesimo disponibili, vedi le regole multiclasse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    678.3,
+    120.5,
+    688.9
+   ],
+   "size": 8.8,
+   "testo": "nel capitolo 2.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    291.9,
+    134.8,
+    295.8,
+    153.0
+   ],
+   "size": 8.6,
+   "testo": "1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    53.2,
+    533.3,
+    66.3
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE DEL CHIERICO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    69.7,
+    520.1,
+    80.3
+   ],
+   "size": 8.8,
+   "testo": "Il chierico ottiene i seguenti privilegi di classe quando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    80.7,
+    526.3,
+    91.3
+   ],
+   "size": 8.8,
+   "testo": "raggiunge i livelli specificati. Tali privilegi sono elencati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    91.7,
+    442.4,
+    102.2
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi del chierico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    104.7,
+    440.7,
+    123.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    123.5,
+    518.6,
+    134.1
+   ],
+   "size": 8.8,
+   "testo": "Il chierico impara a lanciare incantesimi attraverso la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    134.4,
+    524.0,
+    145.0
+   ],
+   "size": 8.8,
+   "testo": "preghiera e la meditazione. Consulta il capitolo 7 per le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    145.5,
+    536.9,
+    156.0
+   ],
+   "size": 8.8,
+   "testo": "regole relative al lancio degli incantesimi. Le informazioni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    156.5,
+    529.8,
+    167.1
+   ],
+   "size": 8.8,
+   "testo": "sottostanti spiegano come applicarle agli incantesimi del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.6,
+    167.5,
+    530.7,
+    178.1
+   ],
+   "size": 8.8,
+   "testo": "chierico, elencati nella relativa lista degli incantesimi più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    178.5,
+    450.7,
+    189.1
+   ],
+   "size": 8.8,
+   "testo": "avanti nella descrizione della classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    189.5,
+    522.1,
+    200.1
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti. Il chierico conosce tre trucchetti a scelta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    200.6,
+    531.5,
+    211.2
+   ],
+   "size": 8.8,
+   "testo": "tratti dalla lista degli incantesimi da chierico. Sono consi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    211.6,
+    461.2,
+    222.1
+   ],
+   "size": 8.8,
+   "testo": "gliati guida,fiamma sacra e taumaturgia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    222.5,
+    530.5,
+    233.1
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il personaggio ottiene un livello da chie­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    233.6,
+    525.0,
+    244.1
+   ],
+   "size": 8.8,
+   "testo": "rico, può sostituire uno dei suoi trucchetti con un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    244.6,
+    537.9,
+    255.1
+   ],
+   "size": 8.8,
+   "testo": "trucchetto a scelta dalla lista degli incantesimi da chierico.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.5,
+    253.4,
+    532.5,
+    266.1
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio raggiunge il 4° e il 10° livello da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.6,
+    266.7,
+    521.5,
+    277.2
+   ],
+   "size": 8.8,
+   "testo": "chierico, impara un altro trucchetto a scelta dalla lista",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    277.7,
+    534.7,
+    288.3
+   ],
+   "size": 8.8,
+   "testo": "degli incantesimi da chierico, come indicato nella colonna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    288.6,
+    485.6,
+    299.2
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti della tabella Privilegi del chierico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    299.7,
+    537.0,
+    310.2
+   ],
+   "size": 8.8,
+   "testo": "Slotincantesimo. La tabella Privilegi del chierico mostra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    310.7,
+    532.9,
+    321.2
+   ],
+   "size": 8.8,
+   "testo": "gli slot incantesimo disponibili per i propri incantesimi di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    319.5,
+    534.0,
+    332.2
+   ],
+   "size": 8.8,
+   "testo": "1° livello o superiore. Tutti gli slot incantesimo consumati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    332.6,
+    538.6,
+    343.2
+   ],
+   "size": 8.8,
+   "testo": "vengono ripristinati una volta completato un riposo lungo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.0,
+    343.6,
+    537.4,
+    354.2
+   ],
+   "size": 8.8,
+   "testo": "Incantesimipreparati di 1° livello o superiore. Con questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    354.6,
+    532.4,
+    365.2
+   ],
+   "size": 8.8,
+   "testo": "privilegio, il personaggio prepara una lista di incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    363.3,
+    517.7,
+    376.1
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello o superiore che può lanciare. Per iniziare,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    374.4,
+    521.1,
+    387.1
+   ],
+   "size": 8.8,
+   "testo": "sceglie quattro incantesimi di 1° livello dalla lista degli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    387.6,
+    533.2,
+    398.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da chierico. Sono consigliati benedizione, cura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    398.6,
+    460.8,
+    409.1
+   ],
+   "size": 8.8,
+   "testo": "ferite, dardo tracciante e scudo dellafede.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    409.7,
+    509.0,
+    420.2
+   ],
+   "size": 8.8,
+   "testo": "Il numero di incantesimi nella lista aumenta man",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    420.7,
+    529.0,
+    431.2
+   ],
+   "size": 8.8,
+   "testo": "mano che il personaggio ottiene livelli da chierico, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    431.7,
+    535.5,
+    442.2
+   ],
+   "size": 8.8,
+   "testo": "mostrato nella colonna Incantesimi preparati della tabella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    442.6,
+    521.0,
+    453.2
+   ],
+   "size": 8.8,
+   "testo": "Privilegi del chierico. Ogni volta che il numero cresce,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    453.6,
+    532.0,
+    464.2
+   ],
+   "size": 8.8,
+   "testo": "il chierico deve scegliere altri incantesimi dalla lista degli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    464.6,
+    524.4,
+    475.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da chierico finché il numero di incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    475.5,
+    519.8,
+    486.1
+   ],
+   "size": 8.8,
+   "testo": "sulla sua lista non combacia con quello mostrato nella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    486.5,
+    527.3,
+    497.1
+   ],
+   "size": 8.8,
+   "testo": "tabella. Gli incantesimi scelti devono essere di un livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    497.6,
+    521.1,
+    508.2
+   ],
+   "size": 8.8,
+   "testo": "di cui possiede degli slot incantesimo. Per esempio, nel",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    506.5,
+    532.2,
+    519.2
+   ],
+   "size": 8.8,
+   "testo": "caso di un chierico di 3° livello, la sua lista di incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    517.5,
+    524.7,
+    530.2
+   ],
+   "size": 8.8,
+   "testo": "preparati può includere sei incantesimi di 1° e 2° livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    530.7,
+    413.2,
+    541.3
+   ],
+   "size": 8.8,
+   "testo": "in qualsiasi combinazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    541.6,
+    530.7,
+    552.2
+   ],
+   "size": 8.8,
+   "testo": "Se un altro privilegio gli fornisce incantesimi che sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    552.6,
+    527.0,
+    563.2
+   ],
+   "size": 8.8,
+   "testo": "sempre preparati, questi non contano ai fini del numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    563.6,
+    533.8,
+    574.2
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi preparabili con questo privilegio. Tuttavia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    574.6,
+    502.2,
+    585.2
+   ],
+   "size": 8.8,
+   "testo": "valgono comunque come incantesimi da chierico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    585.6,
+    527.8,
+    596.2
+   ],
+   "size": 8.8,
+   "testo": "Cambiare gli incantesimipreparati. Quando il chierico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    596.5,
+    525.7,
+    607.1
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo lungo, può modificare la sua lista di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    607.7,
+    524.5,
+    618.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimi preparati, sostituendo quelli che preferisce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    618.8,
+    532.5,
+    629.3
+   ],
+   "size": 8.8,
+   "testo": "con altri incantesimi da chierico di cui possiede degli slot",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    629.7,
+    360.1,
+    640.3
+   ],
+   "size": 8.8,
+   "testo": "incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    640.8,
+    522.9,
+    651.3
+   ],
+   "size": 8.8,
+   "testo": "Caratteristica da Incantatore. Saggezza è la caratteri­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    651.8,
+    531.7,
+    662.3
+   ],
+   "size": 8.8,
+   "testo": "stica da incantatore usata per gli incantesimi da chierico.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.0,
+    662.8,
+    527.9,
+    673.4
+   ],
+   "size": 8.8,
+   "testo": "Focus da incantatore. Il chierico può usare un simbolo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    673.7,
+    522.0,
+    684.2
+   ],
+   "size": 8.8,
+   "testo": "sacro come focus da incantatore per i suoi incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    684.7,
+    355.7,
+    695.3
+   ],
+   "size": 8.8,
+   "testo": "da chierico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    548.3,
+    147.9,
+    560.7,
+    165.5
+   ],
+   "size": 13.7,
+   "testo": "I\\",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

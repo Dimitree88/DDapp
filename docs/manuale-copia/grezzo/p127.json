@@ -1,0 +1,2124 @@
+{
+ "pagina_pdf": 127,
+ "pagina_stampata": 124,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "124 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.0,
+    38.7,
+    174.0,
+    49.4
+   ],
+   "size": 10.6,
+   "testo": "PRIVILEGI DEL MONACO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.9,
+    53.5,
+    127.9,
+    64.2
+   ],
+   "size": 10.6,
+   "testo": "Bonus di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    376.0,
+    53.5,
+    392.5,
+    64.2
+   ],
+   "size": 10.6,
+   "testo": "Arti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    53.6,
+    450.1,
+    64.3
+   ],
+   "size": 10.6,
+   "testo": "Punti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    482.2,
+    53.6,
+    527.1,
+    64.3
+   ],
+   "size": 10.6,
+   "testo": "Movimento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    64.5,
+    207.5,
+    75.2
+   ],
+   "size": 10.6,
+   "testo": "Livello Competenza Privilegi di classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    368.4,
+    64.6,
+    534.4,
+    75.3
+   ],
+   "size": 10.6,
+   "testo": "marziali concentrazione senza armatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    103.9,
+    79.5,
+    115.1,
+    89.2
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.7,
+    79.6,
+    276.7,
+    89.2
+   ],
+   "size": 8.4,
+   "testo": "Arti marziali, difesa senza armatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    376.8,
+    79.6,
+    393.0,
+    89.2
+   ],
+   "size": 8.4,
+   "testo": "1d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.8,
+    94.2,
+    71.8,
+    103.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.1,
+    94.1,
+    114.6,
+    103.8
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.5,
+    94.2,
+    354.6,
+    103.8
+   ],
+   "size": 8.4,
+   "testo": "Concentrazione da monaco, metabolismo straordinario,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    376.8,
+    94.2,
+    393.0,
+    103.8
+   ],
+   "size": 8.4,
+   "testo": "1d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.6,
+    94.2,
+    441.6,
+    103.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.7,
+    94.3,
+    514.0,
+    103.9
+   ],
+   "size": 8.4,
+   "testo": "+3 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.8,
+    106.1,
+    246.4,
+    115.7
+   ],
+   "size": 8.4,
+   "testo": "movimento senza armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    120.7,
+    71.4,
+    130.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.0,
+    120.7,
+    114.6,
+    130.3
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.0,
+    120.7,
+    289.7,
+    130.3
+   ],
+   "size": 8.4,
+   "testo": "Devia attacchi, sottoclasse del monaco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    376.8,
+    120.7,
+    393.0,
+    130.4
+   ],
+   "size": 8.4,
+   "testo": "1d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.8,
+    120.7,
+    441.3,
+    130.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.9,
+    120.8,
+    514.0,
+    130.4
+   ],
+   "size": 8.4,
+   "testo": "+3 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    135.3,
+    71.7,
+    144.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.1,
+    135.2,
+    114.6,
+    144.9
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.2,
+    135.3,
+    339.5,
+    145.0
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica, caduta lenta",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    376.7,
+    135.3,
+    393.1,
+    145.0
+   ],
+   "size": 8.4,
+   "testo": "1d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.4,
+    135.3,
+    441.6,
+    144.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.7,
+    135.4,
+    514.2,
+    145.0
+   ],
+   "size": 8.4,
+   "testo": "+3 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    149.8,
+    71.4,
+    159.5
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.8,
+    149.8,
+    115.0,
+    159.6
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.8,
+    149.8,
+    255.8,
+    159.5
+   ],
+   "size": 8.4,
+   "testo": "Attacco extra, colpo stordente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    376.8,
+    149.9,
+    392.8,
+    159.5
+   ],
+   "size": 8.4,
+   "testo": "1d8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.9,
+    149.8,
+    441.4,
+    159.5
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.9,
+    149.9,
+    514.0,
+    159.6
+   ],
+   "size": 8.4,
+   "testo": "+3 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    164.5,
+    71.7,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    164.5,
+    115.1,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.5,
+    164.5,
+    307.0,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "Colpi potenziati, privilegio della sottoclasse",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    376.8,
+    164.5,
+    392.8,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "1d8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.5,
+    164.5,
+    441.6,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    489.8,
+    164.5,
+    517.9,
+    174.2
+   ],
+   "size": 8.4,
+   "testo": "+4,5 m",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.9,
+    179.1,
+    71.6,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    179.1,
+    115.1,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    140.0,
+    179.1,
+    174.3,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "Elusione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    376.8,
+    179.1,
+    392.8,
+    188.8
+   ],
+   "size": 8.4,
+   "testo": "1d8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.9,
+    179.1,
+    441.6,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    489.8,
+    179.1,
+    517.9,
+    188.8
+   ],
+   "size": 8.4,
+   "testo": "+4,5 m",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    193.7,
+    71.6,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    193.6,
+    115.1,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.1,
+    193.6,
+    287.8,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    376.8,
+    193.7,
+    392.8,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "1d8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.5,
+    193.8,
+    441.6,
+    203.4
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    489.8,
+    193.7,
+    517.9,
+    203.4
+   ],
+   "size": 8.4,
+   "testo": "+4,5 m",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    208.4,
+    71.6,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.5,
+    208.3,
+    115.6,
+    217.9
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.8,
+    208.4,
+    228.4,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "Movimento Acrobatico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    376.7,
+    208.4,
+    391.6,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "1d8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.5,
+    208.4,
+    441.6,
+    218.1
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    489.9,
+    208.4,
+    517.9,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "+4,5 m",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    222.9,
+    75.1,
+    232.5
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.5,
+    222.9,
+    115.6,
+    232.5
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.1,
+    222.9,
+    312.5,
+    232.5
+   ],
+   "size": 8.4,
+   "testo": "Autorigenerazione, concentrazione superiore",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    376.7,
+    222.9,
+    391.6,
+    232.6
+   ],
+   "size": 8.4,
+   "testo": "1d8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    433.7,
+    222.9,
+    445.3,
+    232.5
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.0,
+    223.0,
+    514.3,
+    232.6
+   ],
+   "size": 8.4,
+   "testo": "+6 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    237.4,
+    73.9,
+    247.0
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.5,
+    237.4,
+    115.6,
+    247.0
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.8,
+    237.5,
+    242.5,
+    247.1
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    252.0,
+    75.0,
+    261.6
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.5,
+    252.0,
+    115.6,
+    261.7
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.0,
+    252.0,
+    287.6,
+    261.7
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    266.6,
+    74.9,
+    276.2
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    266.6,
+    115.1,
+    276.2
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.8,
+    266.6,
+    201.2,
+    276.2
+   ],
+   "size": 8.4,
+   "testo": "Deviare Energia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    281.2,
+    74.2,
+    290.8
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    281.2,
+    115.1,
+    290.9
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.8,
+    281.2,
+    285.3,
+    290.9
+   ],
+   "size": 8.4,
+   "testo": "Esperto di Sopravvivenza Disciplinato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    295.9,
+    75.1,
+    305.5
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.6,
+    295.7,
+    115.2,
+    305.6
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.2,
+    295.9,
+    233.6,
+    305.6
+   ],
+   "size": 8.4,
+   "testo": "Concentrazione Perfetta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    310.4,
+    75.2,
+    320.1
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.6,
+    310.2,
+    115.2,
+    320.1
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.0,
+    310.4,
+    287.6,
+    320.0
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    325.0,
+    74.9,
+    334.6
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.3,
+    325.1,
+    115.6,
+    334.7
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.7,
+    325.1,
+    242.3,
+    334.7
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    339.6,
+    74.9,
+    349.2
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.5,
+    339.6,
+    115.5,
+    349.2
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.8,
+    339.6,
+    204.2,
+    349.2
+   ],
+   "size": 8.4,
+   "testo": "Difesa Superiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    354.1,
+    74.9,
+    363.7
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.5,
+    354.1,
+    115.5,
+    363.8
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.7,
+    354.1,
+    184.8,
+    363.7
+   ],
+   "size": 8.4,
+   "testo": "Dono epico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    368.7,
+    73.7,
+    378.3
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.5,
+    368.7,
+    115.5,
+    378.4
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    139.2,
+    368.7,
+    198.0,
+    378.3
+   ],
+   "size": 8.4,
+   "testo": "Corpo e Mente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    393.1,
+    254.1,
+    403.7
+   ],
+   "size": 8.8,
+   "testo": "Questi punti possono essere spesi per potenziare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    404.3,
+    264.2,
+    414.8
+   ],
+   "size": 8.8,
+   "testo": "o alimentare alcuni privilegi del monaco. Inizialmente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    415.2,
+    277.6,
+    425.8
+   ],
+   "size": 8.8,
+   "testo": "il monaco conosce tre di questi privilegi: Difesa paziente,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    426.1,
+    261.4,
+    436.7
+   ],
+   "size": 8.8,
+   "testo": "Passo del vento e Raffica di colpi, descritti di seguito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    437.2,
+    273.2,
+    447.7
+   ],
+   "size": 8.8,
+   "testo": "Quando un monaco spende un punto concentrazione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    448.2,
+    274.7,
+    458.7
+   ],
+   "size": 8.8,
+   "testo": "quel punto non è più disponibile finché non completa un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    459.1,
+    268.3,
+    469.7
+   ],
+   "size": 8.8,
+   "testo": "riposo breve o lungo, alla fine del quale il monaco recu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    470.1,
+    143.8,
+    480.7
+   ],
+   "size": 8.8,
+   "testo": "pera tutti i punti spesi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    481.1,
+    284.1,
+    491.7
+   ],
+   "size": 8.8,
+   "testo": "Alcune caratteristiche che utilizzano i punti concentra- •",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    492.0,
+    279.4,
+    502.6
+   ],
+   "size": 8.8,
+   "testo": "zione richiedono che il bersaglio effettui un tiro salvezza.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    503.1,
+    267.4,
+    513.7
+   ],
+   "size": 8.8,
+   "testo": "La CD del tiro salvezza è pari a 8 più il modificatore di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    514.1,
+    238.9,
+    524.7
+   ],
+   "size": 8.8,
+   "testo": "Saggezza e il bonus di competenza del monaco.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    525.2,
+    255.5,
+    535.7
+   ],
+   "size": 8.8,
+   "testo": "Difesa paziente. Il monaco può effettuare l'azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    536.1,
+    265.4,
+    546.7
+   ],
+   "size": 8.8,
+   "testo": "di Disimpegno come azione bonus. In alternativa, può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    547.1,
+    275.7,
+    557.7
+   ],
+   "size": 8.8,
+   "testo": "spendere 1 punto concentrazione per effettuare le azioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    558.1,
+    233.3,
+    568.7
+   ],
+   "size": 8.8,
+   "testo": "di Disimpegno e Schivata come azione bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    569.2,
+    263.1,
+    579.7
+   ],
+   "size": 8.8,
+   "testo": "Passo delvento. Il monaco può utilizzare l'azione di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    580.1,
+    271.5,
+    590.6
+   ],
+   "size": 8.8,
+   "testo": "Scatto come azione bonus. In alternativa, può spendere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    591.1,
+    248.3,
+    601.7
+   ],
+   "size": 8.8,
+   "testo": "1 punto concentrazione per effettuare le azioni di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    602.1,
+    254.2,
+    612.7
+   ],
+   "size": 8.8,
+   "testo": "Disimpegno e Schivata come azione bonus; inoltre,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    613.1,
+    245.6,
+    623.7
+   ],
+   "size": 8.8,
+   "testo": "la sua distanza di salto raddoppia per quel turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    624.2,
+    264.9,
+    634.8
+   ],
+   "size": 8.8,
+   "testo": "Raffica di colpi. Il monaco può spendere 1 punto con­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    635.3,
+    278.2,
+    645.9
+   ],
+   "size": 8.8,
+   "testo": "centrazione per sferrare due colpi senz'armi come azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    646.2,
+    81.5,
+    656.8
+   ],
+   "size": 8.8,
+   "testo": "bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    374.7,
+    237.4,
+    395.2,
+    247.1
+   ],
+   "size": 8.4,
+   "testo": "1d10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    434.1,
+    237.4,
+    443.5,
+    247.0
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.1,
+    237.5,
+    514.4,
+    247.1
+   ],
+   "size": 8.4,
+   "testo": "+6 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    374.7,
+    252.1,
+    395.2,
+    261.7
+   ],
+   "size": 8.4,
+   "testo": "1d10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    434.0,
+    252.1,
+    445.0,
+    261.7
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.1,
+    252.1,
+    514.4,
+    261.7
+   ],
+   "size": 8.4,
+   "testo": "+6 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    374.7,
+    266.6,
+    395.2,
+    276.3
+   ],
+   "size": 8.4,
+   "testo": "1d10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    433.8,
+    266.7,
+    444.9,
+    276.3
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.0,
+    266.7,
+    514.3,
+    276.4
+   ],
+   "size": 8.4,
+   "testo": "+ 6 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    374.7,
+    281.3,
+    395.0,
+    290.9
+   ],
+   "size": 8.4,
+   "testo": "1d10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    433.8,
+    281.3,
+    444.9,
+    290.9
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.6,
+    281.3,
+    517.2,
+    291.0
+   ],
+   "size": 8.4,
+   "testo": "+7,5 m",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    374.7,
+    295.9,
+    395.0,
+    305.5
+   ],
+   "size": 8.4,
+   "testo": "1d10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    434.0,
+    295.9,
+    444.5,
+    305.6
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.6,
+    296.0,
+    517.2,
+    305.6
+   ],
+   "size": 8.4,
+   "testo": "+7,5 m",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    374.7,
+    310.5,
+    395.0,
+    320.1
+   ],
+   "size": 8.4,
+   "testo": "1d10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    433.9,
+    310.5,
+    444.9,
+    320.1
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.6,
+    310.5,
+    517.2,
+    320.2
+   ],
+   "size": 8.4,
+   "testo": "+7,5 m",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    374.9,
+    325.1,
+    394.9,
+    334.7
+   ],
+   "size": 8.4,
+   "testo": "1d12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    434.0,
+    325.0,
+    445.0,
+    334.6
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.6,
+    325.1,
+    517.2,
+    334.7
+   ],
+   "size": 8.4,
+   "testo": "+7,5 m",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    374.9,
+    339.5,
+    394.9,
+    349.2
+   ],
+   "size": 8.4,
+   "testo": "1d12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    433.7,
+    339.6,
+    445.2,
+    349.2
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.6,
+    339.7,
+    514.3,
+    349.3
+   ],
+   "size": 8.4,
+   "testo": "+9 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    374.8,
+    354.1,
+    394.9,
+    363.7
+   ],
+   "size": 8.4,
+   "testo": "1d12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    433.7,
+    354.2,
+    445.2,
+    363.8
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.5,
+    354.2,
+    514.3,
+    363.8
+   ],
+   "size": 8.4,
+   "testo": "+9 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    374.8,
+    368.7,
+    394.9,
+    378.3
+   ],
+   "size": 8.4,
+   "testo": "1d12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    433.2,
+    368.7,
+    444.2,
+    378.4
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.5,
+    368.8,
+    514.3,
+    378.4
+   ],
+   "size": 8.4,
+   "testo": "+9 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    395.0,
+    534.6,
+    406.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: METABOLISMO STRAORDINARIO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    406.5,
+    520.4,
+    417.1
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua un tiro per l'iniziativa, il monaco può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    417.4,
+    518.7,
+    428.0
+   ],
+   "size": 8.8,
+   "testo": "recuperare tutti i punti concentrazione spesi. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    428.5,
+    529.8,
+    439.1
+   ],
+   "size": 8.8,
+   "testo": "lo fa, tira un dado di Arti Marziali e recupera un numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    439.4,
+    532.6,
+    450.0
+   ],
+   "size": 8.8,
+   "testo": "di punti ferita pari al suo livello da monaco più il risultato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    450.4,
+    344.4,
+    461.0
+   ],
+   "size": 8.8,
+   "testo": "ottenuto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    461.4,
+    523.2,
+    471.9
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver utilizzato questo privilegio, il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    472.3,
+    528.8,
+    482.9
+   ],
+   "size": 8.8,
+   "testo": "non può riutilizzarlo prima di aver completato un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    483.4,
+    333.0,
+    493.9
+   ],
+   "size": 8.8,
+   "testo": "lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    503.8,
+    534.9,
+    515.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: MOVIMENTO SENZA ARMATURA",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    515.3,
+    523.0,
+    525.8
+   ],
+   "size": 8.8,
+   "testo": "La velocità del monaco aumenta di 3 metri, purché non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    526.3,
+    535.0,
+    536.9
+   ],
+   "size": 8.8,
+   "testo": "indossi un'armatura pesante o impugni uno scudo. Questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    537.2,
+    525.9,
+    547.8
+   ],
+   "size": 8.8,
+   "testo": "bonus aumenta man mano che il personaggio acquisisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    548.2,
+    536.8,
+    558.8
+   ],
+   "size": 8.8,
+   "testo": "altri livelli da monaco, come indicato nella tabella Privilegi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    559.3,
+    354.7,
+    569.8
+   ],
+   "size": 8.8,
+   "testo": "del monaco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    579.5,
+    461.5,
+    590.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: DEVIA ATTACCHI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    591.0,
+    523.3,
+    601.6
+   ],
+   "size": 8.8,
+   "testo": "Quando viene colpito da un tiro per colpire che include",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    602.0,
+    526.1,
+    612.6
+   ],
+   "size": 8.8,
+   "testo": "danni contundenti, perforanti o taglienti, il monaco può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    613.2,
+    527.9,
+    623.8
+   ],
+   "size": 8.8,
+   "testo": "usare una reazione per ridurre i danni totali dell'attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    624.2,
+    528.3,
+    634.8
+   ],
+   "size": 8.8,
+   "testo": "che ha subito. La riduzione è pari a 1d10 più il suo modifi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    635.3,
+    485.9,
+    645.8
+   ],
+   "size": 8.8,
+   "testo": "catore di Destrezza e il suo livello da monaco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    646.2,
+    528.6,
+    656.8
+   ],
+   "size": 8.8,
+   "testo": "Se i danni vengono ridotti a 0, il monaco può spendere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    657.2,
+    512.7,
+    667.8
+   ],
+   "size": 8.8,
+   "testo": "1 punto concentrazione per deviare parte della forza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    668.2,
+    511.1,
+    678.8
+   ],
+   "size": 8.8,
+   "testo": "dell'attacco. Se lo fa, deve scegliere una creatura nel",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    679.2,
+    517.0,
+    689.7
+   ],
+   "size": 8.8,
+   "testo": "suo campo visivo entro 1,5 metri da sé se l'attacco era",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    690.2,
+    511.0,
+    700.7
+   ],
+   "size": 8.8,
+   "testo": "in mischia; se l'attacco era a distanza, deve scegliere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    701.1,
+    511.2,
+    711.7
+   ],
+   "size": 8.8,
+   "testo": "una creatura nel suo campo visivo entro 18 metri da",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

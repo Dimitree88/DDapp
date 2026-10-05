@@ -1,0 +1,715 @@
+{
+ "pagina_pdf": 45,
+ "pagina_stampata": 42,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "42 / CAPITOLO 2 I CREARE UN PERSONAGGIO",
+ "immagini": [
+  [
+   38,
+   43,
+   554,
+   382
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    50.0,
+    343.8,
+    198.4,
+    351.5
+   ],
+   "size": 4.3,
+   "testo": "L'EQ.UIPAGGIAMENTO o'AvvENTURA MIGLIORA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.4,
+    356.5,
+    187.1,
+    361.6
+   ],
+   "size": 4.3,
+   "testo": "MAN MANO CHE IL PERSONAGGIO l\\Vl\\N\"ll\\",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.5,
+    366.4,
+    127.1,
+    371.5
+   ],
+   "size": 4.3,
+   "testo": "NELLE FASCE 01 GIOCO.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    418.2,
+    269.7,
+    426.8
+   ],
+   "size": 6.7,
+   "testo": "Quando il personaggio acquisisce un livello, segui questi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.3,
+    429.1,
+    85.8,
+    437.7
+   ],
+   "size": 6.7,
+   "testo": "passaggi:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    445.5,
+    274.8,
+    454.5
+   ],
+   "size": 6.8,
+   "testo": "1: Scegliere una classe. La maggior parte dei personaggi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    456.5,
+    268.7,
+    465.1
+   ],
+   "size": 6.7,
+   "testo": "avanza nella propria classe iniziale. Tuttavia, il perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.1,
+    467.4,
+    267.7,
+    476.0
+   ],
+   "size": 6.7,
+   "testo": "naggio può decidere di acquisire un livello in un'altra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    478.5,
+    271.1,
+    487.1
+   ],
+   "size": 6.7,
+   "testo": "classe utilizzando le regole della sezione \"Multiclasse\"",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    489.5,
+    173.3,
+    498.1
+   ],
+   "size": 6.7,
+   "testo": "più avanti in questo capitolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    500.3,
+    275.7,
+    509.3
+   ],
+   "size": 6.8,
+   "testo": "2: Modificare i punti ferita e i Dadi Vita. Ogni volta che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    511.5,
+    267.7,
+    520.1
+   ],
+   "size": 6.7,
+   "testo": "il personaggio acquisisce un nuovo livello, ottiene un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    522.6,
+    262.2,
+    531.2
+   ],
+   "size": 6.7,
+   "testo": "Dado Vita aggiuntivo. Il personaggio tira quel dado,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.1,
+    533.5,
+    269.1,
+    542.1
+   ],
+   "size": 6.7,
+   "testo": "somma il modificatore di Costituzione al risultato del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.1,
+    544.5,
+    267.0,
+    553.1
+   ],
+   "size": 6.7,
+   "testo": "tiro e aggiunge il totale (minimo di 1) al suo massimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    555.6,
+    272.5,
+    564.2
+   ],
+   "size": 6.7,
+   "testo": "dei punti ferita. Invece di tirare, può anche decidere di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    566.5,
+    266.9,
+    575.1
+   ],
+   "size": 6.7,
+   "testo": "usare il valore fisso indicato nella tabella Punti ferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    577.5,
+    118.5,
+    586.1
+   ],
+   "size": 6.7,
+   "testo": "fissi per classe.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    599.0,
+    204.8,
+    608.0
+   ],
+   "size": 8.0,
+   "testo": "PUNTI FERITA FISSI PER CLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    614.7,
+    79.3,
+    623.7
+   ],
+   "size": 6.8,
+   "testo": "Classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    629.1,
+    84.4,
+    638.1
+   ],
+   "size": 6.8,
+   "testo": "Barbaro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    643.6,
+    162.2,
+    652.6
+   ],
+   "size": 6.8,
+   "testo": "Guerriero, paladino o ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    658.2,
+    142.8,
+    667.2
+   ],
+   "size": 6.8,
+   "testo": "Bardo, chierico, druido,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    670.2,
+    147.2,
+    679.2
+   ],
+   "size": 6.8,
+   "testo": "monaco, ladro o warlock",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    684.8,
+    119.2,
+    693.8
+   ],
+   "size": 6.8,
+   "testo": "Stregone o mago",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    193.1,
+    614.6,
+    275.0,
+    623.6
+   ],
+   "size": 6.8,
+   "testo": "Punti ferita per livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    183.6,
+    629.0,
+    274.9,
+    638.0
+   ],
+   "size": 6.8,
+   "testo": "7 + modificatore di Cos.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    183.4,
+    643.5,
+    274.9,
+    652.5
+   ],
+   "size": 6.8,
+   "testo": "6 + modificatore di Cos.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    183.5,
+    658.1,
+    275.0,
+    667.1
+   ],
+   "size": 6.8,
+   "testo": "5 + modificatore di Cos.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    183.0,
+    684.7,
+    274.9,
+    693.7
+   ],
+   "size": 6.8,
+   "testo": "4 + modificatore di Cos.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    399.6,
+    522.3,
+    408.6
+   ],
+   "size": 6.8,
+   "testo": "3: Registrare nuovi privilegi di classe. Dai un'occhiata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    410.7,
+    529.6,
+    419.7
+   ],
+   "size": 6.8,
+   "testo": "alla tabella dei privilegi di classe nel capitolo 3 e annota",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    421.8,
+    520.3,
+    430.4
+   ],
+   "size": 6.7,
+   "testo": "i privilegi che il personaggio acquisisce avanzando di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    432.8,
+    512.8,
+    441.4
+   ],
+   "size": 6.7,
+   "testo": "livello in quella classe. Il personaggio può compiere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    443.8,
+    483.0,
+    452.4
+   ],
+   "size": 6.7,
+   "testo": "qualsiasi scelta offerta dal nuovo privilegio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.6,
+    454.6,
+    521.7,
+    463.6
+   ],
+   "size": 6.8,
+   "testo": "4: Modificare il bonus di competenza. Il bonus di com­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    465.6,
+    528.2,
+    474.2
+   ],
+   "size": 6.7,
+   "testo": "petenza di un personaggio aumenta a certi livelli, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.3,
+    476.7,
+    510.4,
+    485.3
+   ],
+   "size": 6.7,
+   "testo": "indicato nella tabella Avanzamento dei personaggi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    487.6,
+    506.4,
+    496.6
+   ],
+   "size": 6.8,
+   "testo": "e nella tabella dei privilegi di classe del capitolo 3.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    498.7,
+    521.8,
+    507.3
+   ],
+   "size": 6.7,
+   "testo": "Quando il bonus di competenza aumenta, aumentano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    509.8,
+    517.7,
+    518.4
+   ],
+   "size": 6.7,
+   "testo": "tutti i numeri della scheda del personaggio che inclu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    520.8,
+    427.8,
+    529.4
+   ],
+   "size": 6.7,
+   "testo": "dono il bonus di competenza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    531.6,
+    530.7,
+    540.6
+   ],
+   "size": 6.8,
+   "testo": "5: Modificare i modificatori di caratteristica. Scegliendo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    542.7,
+    508.7,
+    551.7
+   ],
+   "size": 6.8,
+   "testo": "un talento che fa aumentare uno o più punteggi di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    553.7,
+    523.3,
+    562.7
+   ],
+   "size": 6.8,
+   "testo": "caratteristica, se il nuovo punteggio è un numero pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    564.8,
+    526.0,
+    573.4
+   ],
+   "size": 6.7,
+   "testo": "cambia anche il modificatore di caratteristica. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    575.7,
+    510.0,
+    584.3
+   ],
+   "size": 6.7,
+   "testo": "ciò accade, modifica tutti i numeri della scheda del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    586.7,
+    522.5,
+    595.3
+   ],
+   "size": 6.7,
+   "testo": "personaggio che utilizzano quel modificatore di carat­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    597.7,
+    516.8,
+    606.3
+   ],
+   "size": 6.7,
+   "testo": "teristica. Quando il modificatore di Costituzione del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    608.7,
+    529.6,
+    617.3
+   ],
+   "size": 6.7,
+   "testo": "personaggio aumenta di 1, i punti ferita massimi aumen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    619.8,
+    518.8,
+    628.4
+   ],
+   "size": 6.7,
+   "testo": "tano di 1 per ogni livello acquisito. Ad esempio, se un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    627.3,
+    515.6,
+    639.5
+   ],
+   "size": 6.7,
+   "testo": "personaggio raggiunge 1'8° livello e il suo punteggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    641.9,
+    519.0,
+    650.5
+   ],
+   "size": 6.7,
+   "testo": "di Costituzione aumenta da 17 a 18, il modificatore di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    652.8,
+    519.7,
+    661.8
+   ],
+   "size": 6.8,
+   "testo": "Costituzione aumenta a +4. I punti ferita massimi del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.1,
+    663.9,
+    528.5,
+    672.5
+   ],
+   "size": 6.7,
+   "testo": "personaggio aumentano di 8, in aggiunta ai punti ferita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    671.4,
+    476.0,
+    683.5
+   ],
+   "size": 6.7,
+   "testo": "guadagnati per aver raggiunto 1'8° livello.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    397.5,
+    189.9,
+    414.1
+   ],
+   "size": 15.0,
+   "testo": "Acquisire un Livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    397.6,
+    189.7,
+    414.2
+   ],
+   "size": 15.0,
+   "testo": "Acquisire un Livello",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

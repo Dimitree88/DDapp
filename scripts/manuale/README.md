@@ -2,9 +2,10 @@
 
 Strumenti per ricavare dal PDF locale `docs/regole/Manuale Del Giocatore - 2024.pdf`
 una copia testuale organizzata e consultabile. La copia contiene il testo del
-manuale: si trova in `docs/manuale-copia/`, che resta solo in locale ed è
-ignorata da Git (il repository è pubblico). In Git ci sono solo questi script
-e lo stato delle verifiche (`stato-verifica.json`, con hash e nessun testo).
+manuale: si trova in `docs/manuale-copia/` ed è versionata insieme agli script
+e allo stato delle verifiche. Il PDF originale resta l'unica fonte normativa;
+le pagine marcate NON VERIFICATA sono una copia OCR da controllare sul PDF
+prima di usarle per cambiare regole, cataloghi o descrizioni.
 
 Requisiti: Python 3 con PyMuPDF (`pip install pymupdf`).
 

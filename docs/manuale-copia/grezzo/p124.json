@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 124,
+ "pagina_stampata": 121,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   210,
+   -1,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    57.0,
+    40.7,
+    138.0,
+    53.8
+   ],
+   "size": 9.7,
+   "testo": "INVOCATORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    58.3,
+    170.7,
+    67.6
+   ],
+   "size": 8.6,
+   "testo": "Crea effettielementali esplosivi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    71.9,
+    261.3,
+    82.5
+   ],
+   "size": 8.8,
+   "testo": "Un invocatore concentra i suoi studi sulle magie che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    82.8,
+    257.0,
+    93.4
+   ],
+   "size": 8.8,
+   "testo": "generano potenti effetti elementali come un freddo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    93.8,
+    282.8,
+    104.3
+   ],
+   "size": 8.8,
+   "testo": "pungente, una fiamma incandescente, un rombo di tuono,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    104.8,
+    281.1,
+    115.3
+   ],
+   "size": 8.8,
+   "testo": "un fulmine crepitante o un acido sfrigolante. Alcuni invo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    115.8,
+    281.7,
+    126.4
+   ],
+   "size": 8.8,
+   "testo": "catori prestano servizio nelle forze militari come unità di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    126.8,
+    287.1,
+    137.4
+   ],
+   "size": 8.8,
+   "testo": "artiglieria in grado di colpire gli eserciti nemici da lontano.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    137.8,
+    257.9,
+    148.3
+   ],
+   "size": 8.8,
+   "testo": "Altri usano i loro poteri per proteggere il prossimo,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    148.8,
+    280.8,
+    159.4
+   ],
+   "size": 8.8,
+   "testo": "mentre altri ancora li sfruttano per il proprio tornaconto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    159.9,
+    98.3,
+    170.4
+   ],
+   "size": 8.8,
+   "testo": "personale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    180.2,
+    241.6,
+    191.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INVOCATORE SAPIENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    191.7,
+    266.6,
+    202.3
+   ],
+   "size": 8.8,
+   "testo": "Scegli due incantesimi da mago della scuola di Invoca­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    200.6,
+    279.4,
+    213.4
+   ],
+   "size": 8.8,
+   "testo": "zione che non siano di livello superiore al 2°, e aggiungili",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    213.7,
+    251.7,
+    224.3
+   ],
+   "size": 8.8,
+   "testo": "gratuitamente al libro degli incantesimi del mago.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    224.8,
+    270.8,
+    235.4
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ogni volta che il personaggio ottiene accesso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    235.9,
+    268.3,
+    246.4
+   ],
+   "size": 8.8,
+   "testo": "a un nuovo livello di slot incantesimo in questa classe,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    246.7,
+    282.3,
+    257.3
+   ],
+   "size": 8.8,
+   "testo": "puoi aggiungere gratuitamente al libro un ulteriore incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    257.7,
+    285.4,
+    268.3
+   ],
+   "size": 8.8,
+   "testo": "tesimo da mago della scuola di Invocazione. L'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    268.8,
+    271.8,
+    279.3
+   ],
+   "size": 8.8,
+   "testo": "scelto deve essere di un livello di cui possiede degli slot",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.5,
+    279.8,
+    108.3,
+    290.4
+   ],
+   "size": 8.8,
+   "testo": "incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    300.2,
+    241.6,
+    311.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: TRUCCHETTO POTENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    311.6,
+    256.8,
+    322.1
+   ],
+   "size": 8.8,
+   "testo": "I trucchetti del mago che infliggono danni possono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    322.6,
+    270.1,
+    333.1
+   ],
+   "size": 8.8,
+   "testo": "influenzare perfino le creature che altrimenti evitereb­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    333.6,
+    273.8,
+    344.2
+   ],
+   "size": 8.8,
+   "testo": "bero il grosso dell'effetto. Quando il personaggio lancia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    344.5,
+    277.5,
+    355.1
+   ],
+   "size": 8.8,
+   "testo": "un trucchetto contro una creatura e la manca con il tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    355.5,
+    277.2,
+    366.1
+   ],
+   "size": 8.8,
+   "testo": "per colpire o questa supera il tiro salvezza contro il truc­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    366.4,
+    282.1,
+    377.0
+   ],
+   "size": 8.8,
+   "testo": "chetto, il bersaglio subisce metà dei danni (se applicabile),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    377.5,
+    269.8,
+    388.1
+   ],
+   "size": 8.8,
+   "testo": "ma non gli vengono inflitti eventuali effetti aggiuntivi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    398.0,
+    249.0,
+    409.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: PLASMARE INCANTESIMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    409.5,
+    255.4,
+    420.0
+   ],
+   "size": 8.8,
+   "testo": "Il mago è in grado di creare delle sacche di relativa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    420.5,
+    270.5,
+    431.0
+   ],
+   "size": 8.8,
+   "testo": "sicurezza all'interno degli effetti delle sue invocazioni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    431.4,
+    267.8,
+    442.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il mago lancia un incantesimo di Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    442.4,
+    260.5,
+    452.9
+   ],
+   "size": 8.8,
+   "testo": "che influenza le altre creature nel suo campo visivo,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    453.4,
+    269.9,
+    464.0
+   ],
+   "size": 8.8,
+   "testo": "può scegliere un numero di quelle creature pari a 1 più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    464.5,
+    267.9,
+    475.1
+   ],
+   "size": 8.8,
+   "testo": "il livello dell'incantesimo. Le creature scelte superano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    475.4,
+    281.7,
+    485.9
+   ],
+   "size": 8.8,
+   "testo": "automaticamente i loro tiri salvezza contro l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    486.4,
+    285.5,
+    497.0
+   ],
+   "size": 8.8,
+   "testo": "e non subiscono alcun danno se normalmente subirebbero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    497.4,
+    253.9,
+    508.0
+   ],
+   "size": 8.8,
+   "testo": "la metà dei danni in caso di tiro salvezza superato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    517.8,
+    249.0,
+    529.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: INVOCAZIONE POTENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    529.3,
+    256.6,
+    539.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il mago lancio un incantesimo della scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    540.3,
+    260.6,
+    550.9
+   ],
+   "size": 8.8,
+   "testo": "di Invocazione, può aggiungere a un tiro per i danni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    551.3,
+    191.5,
+    561.8
+   ],
+   "size": 8.8,
+   "testo": "il suo modificatore di Intelligenza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    571.7,
+    244.5,
+    583.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: SATURAZIONE MAGICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    583.1,
+    265.1,
+    593.7
+   ],
+   "size": 8.8,
+   "testo": "Il mago può aumentare il potere dei suoi incantesimi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    594.1,
+    263.3,
+    604.6
+   ],
+   "size": 8.8,
+   "testo": "Quando lancia un incantesimo con uno slot di livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    598.0,
+    265.4,
+    616.3
+   ],
+   "size": 8.8,
+   "testo": "da 1 a S che infligge danni, con quell'incantesimo può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    616.2,
+    277.1,
+    626.8
+   ],
+   "size": 8.8,
+   "testo": "infliggere il massimo dei danni nel turno in cui lo lancia.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.9,
+    627.3,
+    262.6,
+    637.9
+   ],
+   "size": 8.8,
+   "testo": "La prima volta che lo fa, il mago non subisce alcun",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    638.2,
+    260.0,
+    648.8
+   ],
+   "size": 8.8,
+   "testo": "effetto avverso. Se però utilizza questo privilegio di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    649.3,
+    271.5,
+    659.9
+   ],
+   "size": 8.8,
+   "testo": "nuovo prima di avere completato un riposo lungo, subi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    660.3,
+    280.2,
+    670.9
+   ],
+   "size": 8.8,
+   "testo": "sce 2d12 danni necrotici per ogni livello dell'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    671.2,
+    270.5,
+    681.7
+   ],
+   "size": 8.8,
+   "testo": "in questione, subito dopo averlo lanciato. Questi danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    682.2,
+    250.7,
+    692.8
+   ],
+   "size": 8.8,
+   "testo": "ignorano le varie forme di resistenza e immunità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    693.2,
+    284.4,
+    703.8
+   ],
+   "size": 8.8,
+   "testo": "Ognivolta che utilizza di nuovo questo privilegio prima",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    704.2,
+    278.4,
+    714.8
+   ],
+   "size": 8.8,
+   "testo": "di aver completato un riposo lungo, i danni necrotici per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    715.2,
+    225.8,
+    725.8
+   ],
+   "size": 8.8,
+   "testo": "livello dell'incantesimo aumentano di 1d12.",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

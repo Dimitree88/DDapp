@@ -1,0 +1,1392 @@
+{
+ "pagina_pdf": 15,
+ "pagina_stampata": 12,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "12 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    52.5,
+    38.8,
+    240.9,
+    50.1
+   ],
+   "size": 11.2,
+   "testo": "MODIFICATORE DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    50.3,
+    273.5,
+    60.8
+   ],
+   "size": 8.8,
+   "testo": "I tiri salvezza prendono il nome dai modificatori di carat­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    61.3,
+    275.0,
+    71.9
+   ],
+   "size": 8.8,
+   "testo": "teristica che utilizzano: un tiro salvezza su Costituzione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    72.3,
+    277.8,
+    82.9
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Saggezza e così via. Per resistere a tipi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    83.3,
+    270.4,
+    93.9
+   ],
+   "size": 8.8,
+   "testo": "di effetti diversi, si utilizzano tiri salvezza diversi, come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    94.3,
+    226.5,
+    104.9
+   ],
+   "size": 8.8,
+   "testo": "indicato nella tabella Esempi di tiri salvezza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    117.0,
+    178.0,
+    127.7
+   ],
+   "size": 10.6,
+   "testo": "ESEMPI DI TIRI SALVEZZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    132.9,
+    108.5,
+    142.1
+   ],
+   "size": 8.2,
+   "testo": "Caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.4,
+    132.8,
+    232.9,
+    142.1
+   ],
+   "size": 8.2,
+   "testo": "Effettua un tiro salvezza per...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    146.7,
+    79.4,
+    156.3
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.3,
+    146.8,
+    265.4,
+    156.5
+   ],
+   "size": 8.4,
+   "testo": "Resistere fisicamente alla forza diretta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    161.4,
+    95.9,
+    171.1
+   ],
+   "size": 8.4,
+   "testo": "Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.8,
+    161.4,
+    197.1,
+    171.0
+   ],
+   "size": 8.4,
+   "testo": "Schivare dei pericoli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    176.0,
+    105.9,
+    185.6
+   ],
+   "size": 8.4,
+   "testo": "Costituzione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.8,
+    176.1,
+    249.7,
+    185.7
+   ],
+   "size": 8.4,
+   "testo": "Sopravvivere a un pericolo tossico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    190.6,
+    101.8,
+    200.2
+   ],
+   "size": 8.4,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.2,
+    190.6,
+    255.8,
+    200.2
+   ],
+   "size": 8.4,
+   "testo": "Riconoscere un'illusione come falsa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    205.3,
+    93.4,
+    214.9
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    219.8,
+    89.2,
+    229.4
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.2,
+    205.3,
+    236.9,
+    214.9
+   ],
+   "size": 8.4,
+   "testo": "Resistere a un attacco psichico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.3,
+    219.8,
+    228.0,
+    229.4
+   ],
+   "size": 8.4,
+   "testo": "Affermare la propria identità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    243.5,
+    178.6,
+    254.8
+   ],
+   "size": 11.2,
+   "testo": "BONUS DI COMPETENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    254.9,
+    281.0,
+    265.4
+   ],
+   "size": 8.8,
+   "testo": "Si aggiunge il proprio bonus di competenza al tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    265.8,
+    264.5,
+    276.4
+   ],
+   "size": 8.8,
+   "testo": "se si dispone di competenza in quel tipo di tiro. Vedi la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    276.9,
+    254.7,
+    287.5
+   ],
+   "size": 8.8,
+   "testo": "sezione \"Competenza\" più avanti in questo capitolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    297.3,
+    157.3,
+    308.7
+   ],
+   "size": 11.2,
+   "testo": "CLASSE DIFFICOLTÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    308.7,
+    259.2,
+    319.3
+   ],
+   "size": 8.8,
+   "testo": "La Classe Difficoltà di un tiro salvezza è determinata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    319.7,
+    257.0,
+    330.3
+   ],
+   "size": 8.8,
+   "testo": "dall'effetto che lo causa o dal DM. Ad esempio, se un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    330.7,
+    277.7,
+    341.3
+   ],
+   "size": 8.8,
+   "testo": "incantesimo costringe a effettuare un tiro salvezza, la CD",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    341.7,
+    263.1,
+    352.2
+   ],
+   "size": 8.8,
+   "testo": "è determinata dalla caratteristica da incantatore e dal",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    352.6,
+    268.4,
+    363.2
+   ],
+   "size": 8.8,
+   "testo": "bonus di competenza di chi lo ha lanciato. Le abilità dei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    363.7,
+    260.0,
+    374.2
+   ],
+   "size": 8.8,
+   "testo": "mostri che richiedono tiri salvezza specificano la CD.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    383.7,
+    163.9,
+    396.8
+   ],
+   "size": 9.7,
+   "testo": "TIRI PER COLPIRE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    400.3,
+    268.6,
+    410.9
+   ],
+   "size": 8.8,
+   "testo": "Un tiro per colpire determina se un attacco colpisce un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    411.4,
+    262.7,
+    421.9
+   ],
+   "size": 8.8,
+   "testo": "bersaglio. Il tiro va a segno se il risultato è pari o supe­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    422.4,
+    264.2,
+    432.9
+   ],
+   "size": 8.8,
+   "testo": "riore alla Classe Armatura del bersaglio. Di solito i tiri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    433.3,
+    278.1,
+    443.9
+   ],
+   "size": 8.8,
+   "testo": "per colpire vengono effettuati in battaglia, come descritto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    444.3,
+    276.8,
+    454.9
+   ],
+   "size": 8.8,
+   "testo": "in \"Combattimento\" più avanti in questo capitolo, ma DM",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    455.2,
+    275.0,
+    465.8
+   ],
+   "size": 8.8,
+   "testo": "potrebbe chiedere un tiro per colpire anche in altre situa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    466.2,
+    212.9,
+    476.8
+   ],
+   "size": 8.8,
+   "testo": "zioni, come in una gara di tiro con l'arco.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    486.6,
+    240.2,
+    498.0
+   ],
+   "size": 11.2,
+   "testo": "MODIFICATORE DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    498.1,
+    278.0,
+    508.6
+   ],
+   "size": 8.8,
+   "testo": "La tabella Caratteristiche deitiriper colpire mostra quale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    509.1,
+    270.4,
+    519.7
+   ],
+   "size": 8.8,
+   "testo": "modificatore di caratteristica utilizzare per i diversi tipi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    520.1,
+    121.7,
+    530.7
+   ],
+   "size": 8.8,
+   "testo": "di tiri per colpire.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    542.8,
+    249.7,
+    553.5
+   ],
+   "size": 10.6,
+   "testo": "CARATTERISTICHE DEI TIRI PER COLPIRE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    558.7,
+    107.9,
+    567.9
+   ],
+   "size": 8.2,
+   "testo": "Caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.1,
+    558.7,
+    175.9,
+    567.9
+   ],
+   "size": 8.2,
+   "testo": "Tipo di attacco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    572.7,
+    78.6,
+    582.3
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    117.9,
+    572.6,
+    269.5,
+    582.3
+   ],
+   "size": 8.4,
+   "testo": "Attacco in mischia con un'arma o colpo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    118.2,
+    584.5,
+    271.9,
+    594.2
+   ],
+   "size": 8.4,
+   "testo": "senz'armi (vedi il Glossario delle regole)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    599.2,
+    95.3,
+    608.8
+   ],
+   "size": 8.4,
+   "testo": "Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    117.4,
+    599.2,
+    227.7,
+    608.8
+   ],
+   "size": 8.4,
+   "testo": "Attacco con arma a distanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    613.9,
+    90.2,
+    623.5
+   ],
+   "size": 8.4,
+   "testo": "Variabile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    117.7,
+    613.9,
+    277.8,
+    623.5
+   ],
+   "size": 8.4,
+   "testo": "Attacco con incantesimo (la caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    118.3,
+    625.9,
+    261.2,
+    635.6
+   ],
+   "size": 8.4,
+   "testo": "utilizzata è determinata dal privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.6,
+    638.0,
+    269.4,
+    647.6
+   ],
+   "size": 8.4,
+   "testo": "Incantesimi dell'incantatore, come spie­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    118.0,
+    650.0,
+    193.0,
+    659.6
+   ],
+   "size": 8.4,
+   "testo": "gato nel capitolo 7)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    667.8,
+    270.8,
+    678.4
+   ],
+   "size": 8.8,
+   "testo": "Alcuni privilegi consentono l'uso di diversi modificatori",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    678.7,
+    281.6,
+    689.3
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica tra quelli elencati. Ad esempio, la proprietà",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    689.7,
+    263.3,
+    700.3
+   ],
+   "size": 8.8,
+   "testo": "accurata (vedi capitolo 6) consente di utilizzare Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    700.6,
+    255.8,
+    711.2
+   ],
+   "size": 8.8,
+   "testo": "o Destrezza con un'arma che possiede tale proprietà.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    39.0,
+    431.3,
+    50.3
+   ],
+   "size": 11.2,
+   "testo": "BONUS DI COMPETENZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    50.6,
+    519.3,
+    61.1
+   ],
+   "size": 8.8,
+   "testo": "Aggiungi il tuo bonus di competenza al tiroper colpire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    61.6,
+    510.4,
+    72.1
+   ],
+   "size": 8.8,
+   "testo": "quando attacchi usando un'arma in cui possiedi com­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    72.5,
+    515.4,
+    83.1
+   ],
+   "size": 8.8,
+   "testo": "petenza, nonché quando attacchi con un incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    83.6,
+    520.2,
+    94.1
+   ],
+   "size": 8.8,
+   "testo": "Per ulteriori informazioni sulle competenze nelle armi,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    94.6,
+    534.1,
+    105.2
+   ],
+   "size": 8.8,
+   "testo": "vedi la sezione \"Competenza\" più avanti in questo capitolo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    114.8,
+    408.4,
+    126.2
+   ],
+   "size": 11.2,
+   "testo": "CLASSE ARMATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    126.4,
+    519.4,
+    136.9
+   ],
+   "size": 8.8,
+   "testo": "La Classe Armatura di una creatura rappresenta la sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    137.3,
+    510.7,
+    147.9
+   ],
+   "size": 8.8,
+   "testo": "capacità di evitare di essere ferita in combattimento.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    148.3,
+    524.1,
+    158.9
+   ],
+   "size": 8.8,
+   "testo": "La CA di un personaggio viene determinata al momento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    159.4,
+    522.7,
+    170.0
+   ],
+   "size": 8.8,
+   "testo": "della sua creazione (vedi capitolo 2), mentre la CA di un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    170.5,
+    500.0,
+    181.0
+   ],
+   "size": 8.8,
+   "testo": "mostro compare nella sua scheda delle statistiche.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    181.3,
+    527.8,
+    191.8
+   ],
+   "size": 8.8,
+   "testo": "Calcolare la CA. Tutte le creature iniziano con lo stesso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    192.4,
+    390.8,
+    203.0
+   ],
+   "size": 8.8,
+   "testo": "calcolo base della CA:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    211.0,
+    528.1,
+    220.6
+   ],
+   "size": 8.4,
+   "testo": "CA base = 10 + il modificatore di Destrezza della creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    225.4,
+    532.1,
+    235.9
+   ],
+   "size": 8.8,
+   "testo": "La CA di una creatura può essere modificata da armature,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    236.3,
+    440.7,
+    246.9
+   ],
+   "size": 8.8,
+   "testo": "oggetti magici, incantesimi e altro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    247.3,
+    515.7,
+    257.9
+   ],
+   "size": 8.8,
+   "testo": "La CAbase è solouna. Alcuni incantesimi e privilegi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    258.3,
+    529.9,
+    268.9
+   ],
+   "size": 8.8,
+   "testo": "di classe offrono ai personaggi un modo diverso per calco­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    269.3,
+    529.8,
+    279.9
+   ],
+   "size": 8.8,
+   "testo": "lare la loro CA. Se un personaggio dispone di più privilegi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    280.4,
+    530.8,
+    291.0
+   ],
+   "size": 8.8,
+   "testo": "che offrono modi diversi di calcolare la CA, deve scegliere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    291.4,
+    513.4,
+    302.0
+   ],
+   "size": 8.8,
+   "testo": "quale usare, poiché alla creatura può essere applicato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    302.4,
+    411.5,
+    313.0
+   ],
+   "size": 8.8,
+   "testo": "soltanto un calcolo di base.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    322.8,
+    433.7,
+    334.1
+   ],
+   "size": 11.2,
+   "testo": "OTTENERE UN 20 O UN 1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    334.1,
+    501.0,
+    344.7
+   ],
+   "size": 8.8,
+   "testo": "Se un tiro per colpire ottiene un 20 sul d20 (detto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    345.2,
+    526.8,
+    355.7
+   ],
+   "size": 8.8,
+   "testo": "\"20 naturale\"), l'attacco va a segno a prescindere da qual­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    356.1,
+    523.9,
+    366.6
+   ],
+   "size": 8.8,
+   "testo": "siasi modificatore o dalla CA del bersaglio. Questo viene",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    367.1,
+    532.5,
+    377.7
+   ],
+   "size": 8.8,
+   "testo": "definito un colpo critico (vedi \"Combattimento\" più avanti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    378.1,
+    379.8,
+    388.6
+   ],
+   "size": 8.8,
+   "testo": "in questo capitolo).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    389.0,
+    520.7,
+    399.6
+   ],
+   "size": 8.8,
+   "testo": "Se un tiro per colpire ottiene un 1 sul d20 (un \"1 natu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.3,
+    400.2,
+    525.8,
+    410.7
+   ],
+   "size": 8.8,
+   "testo": "rale\"), l'attacco non va a segno a prescindere da qualsiasi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    411.2,
+    452.1,
+    421.8
+   ],
+   "size": 8.8,
+   "testo": "modificatore o dalla CA del bersaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    431.3,
+    461.1,
+    444.4
+   ],
+   "size": 9.7,
+   "testo": "VANTAGGIO/SVANTAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    447.8,
+    511.9,
+    458.3
+   ],
+   "size": 8.8,
+   "testo": "A volte una prova con d20 è modificata da vantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    458.7,
+    522.6,
+    469.3
+   ],
+   "size": 8.8,
+   "testo": "o svantaggio. Il vantaggio rispecchia le circostanze posi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    469.7,
+    525.5,
+    480.3
+   ],
+   "size": 8.8,
+   "testo": "tive che circondano un tiro di d20, mentre lo svantaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    480.7,
+    439.0,
+    491.3
+   ],
+   "size": 8.8,
+   "testo": "rispecchia le circostanze negative.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    491.7,
+    529.3,
+    502.3
+   ],
+   "size": 8.8,
+   "testo": "Di solito un personaggio dispone di vantaggio o subisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    502.7,
+    526.0,
+    513.3
+   ],
+   "size": 8.8,
+   "testo": "svantaggio tramite l'utilizzo di azioni e capacità speciali.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    513.8,
+    522.3,
+    524.4
+   ],
+   "size": 8.8,
+   "testo": "Il DM può anche decidere che le circostanze concedano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    524.8,
+    474.3,
+    535.3
+   ],
+   "size": 8.8,
+   "testo": "un vantaggio o impongano uno svantaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    545.1,
+    396.6,
+    556.5
+   ],
+   "size": 11.2,
+   "testo": "TIRARE DUE D20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    556.6,
+    511.3,
+    567.2
+   ],
+   "size": 8.8,
+   "testo": "Quando un tiro dispone di vantaggio o svantaggio, il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    567.6,
+    523.9,
+    578.2
+   ],
+   "size": 8.8,
+   "testo": "personaggio tira un secondo d20 quando effettua il tiro.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    578.6,
+    517.2,
+    589.1
+   ],
+   "size": 8.8,
+   "testo": "Se dispone di vantaggio usa il più alto dei due risultati,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    589.6,
+    532.4,
+    600.1
+   ],
+   "size": 8.8,
+   "testo": "mentre se subisce svantaggio usa il più basso. Per esempio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    600.5,
+    515.3,
+    611.1
+   ],
+   "size": 8.8,
+   "testo": "se subisce svantaggio e ottiene un 18 e un 3, userà il 3.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    611.6,
+    515.2,
+    622.2
+   ],
+   "size": 8.8,
+   "testo": "Se invece dispone di vantaggio e ottiene quei risultati,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    622.7,
+    346.7,
+    633.3
+   ],
+   "size": 8.8,
+   "testo": "userà il 18.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    643.1,
+    421.7,
+    654.4
+   ],
+   "size": 11.2,
+   "testo": "NON SI ACCUMULANO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    654.6,
+    530.4,
+    665.2
+   ],
+   "size": 8.8,
+   "testo": "Se più situazioni influenzano un tiro e ognuna di esse con­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    665.6,
+    521.6,
+    676.2
+   ],
+   "size": 8.8,
+   "testo": "ferisce vantaggio, si tirano comunque soltanto due d20.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    676.6,
+    529.8,
+    687.1
+   ],
+   "size": 8.8,
+   "testo": "Allo stesso modo, se più situazioni impongono svantaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    687.5,
+    445.9,
+    698.0
+   ],
+   "size": 8.8,
+   "testo": "a un tiro, si tirano soltanto due d20.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

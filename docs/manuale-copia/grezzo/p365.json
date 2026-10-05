@@ -1,0 +1,1123 @@
+{
+ "pagina_pdf": 365,
+ "pagina_stampata": 362,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "362 / APPENDICE CI GLOSSARIO DELLE REGOLE",
+ "immagini": [
+  [
+   40,
+   -1,
+   589,
+   120
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.2,
+    126.0,
+    266.6,
+    136.6
+   ],
+   "size": 8.8,
+   "testo": "Gittata. Un'arma improvvisata ha una gittata normale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.1,
+    137.0,
+    206.9,
+    147.6
+   ],
+   "size": 8.8,
+   "testo": "di 6 metri e una gittata lunga di 18 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    148.0,
+    270.9,
+    158.6
+   ],
+   "size": 8.8,
+   "testo": "Equivalenti delle armi. Se un'arma improvvisata assomi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.9,
+    159.1,
+    273.2,
+    169.7
+   ],
+   "size": 8.8,
+   "testo": "glia a un'arma semplice o da guerra, il DM può decretarne",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.0,
+    170.1,
+    253.2,
+    180.7
+   ],
+   "size": 8.8,
+   "testo": "un funzionamento analogo e usare le stesse regole di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.0,
+    181.1,
+    268.8,
+    191.6
+   ],
+   "size": 8.8,
+   "testo": "quell'arma. Per esempio, il DM può considerare la gamba",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.0,
+    192.1,
+    166.0,
+    202.7
+   ],
+   "size": 8.8,
+   "testo": "di un tavolo come un randello.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.2,
+    226.9,
+    194.4,
+    238.2
+   ],
+   "size": 11.2,
+   "testo": "ARROTONDARE PER DIFETTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.7,
+    238.2,
+    257.3,
+    248.8
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che è necessario dividere o moltiplicare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.5,
+    249.2,
+    256.8,
+    259.8
+   ],
+   "size": 8.8,
+   "testo": "numero nel gioco, si deve arrotondare per difetto se il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.9,
+    260.2,
+    267.7,
+    270.8
+   ],
+   "size": 8.8,
+   "testo": "risultato è una frazione, anche nel caso in cui la frazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.9,
+    271.3,
+    274.5,
+    281.9
+   ],
+   "size": 8.8,
+   "testo": "raggiunga o superi la metà. Alcune regole fanno eccezione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.0,
+    282.3,
+    206.1,
+    292.9
+   ],
+   "size": 8.8,
+   "testo": "e specificano di arrotondare per eccesso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.2,
+    317.1,
+    185.1,
+    328.4
+   ],
+   "size": 11.2,
+   "testo": "ASSORDATO [CONDIZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.9,
+    328.4,
+    265.2,
+    339.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"assordato\",",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.9,
+    339.4,
+    149.3,
+    350.0
+   ],
+   "size": 8.8,
+   "testo": "subisce il seguente effetto:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    350.4,
+    267.2,
+    360.9
+   ],
+   "size": 8.8,
+   "testo": "Non è ingrado di sentire. Il personaggio non è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.9,
+    361.4,
+    260.9,
+    371.9
+   ],
+   "size": 8.8,
+   "testo": "di sentire e fallisce automaticamente qualsiasi prova di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    372.4,
+    210.9,
+    383.0
+   ],
+   "size": 8.8,
+   "testo": "caratteristica che richieda l'uso dell'udito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    407.3,
+    192.6,
+    418.7
+   ],
+   "size": 11.2,
+   "testo": "ATTACCHI DI OPPORTUNITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.3,
+    418.6,
+    263.7,
+    429.2
+   ],
+   "size": 8.8,
+   "testo": "Il tuo personaggio può effettuare un attacco di opportu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    429.7,
+    259.9,
+    440.2
+   ],
+   "size": 8.8,
+   "testo": "nità quando una creatura che è in grado di vedere esce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    43.5,
+    440.7,
+    262.5,
+    451.2
+   ],
+   "size": 8.8,
+   "testo": ".dalla sua portata; la creatura può farlo utilizzando un'a­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    451.7,
+    269.1,
+    462.2
+   ],
+   "size": 8.8,
+   "testo": "zione, un'azione bonus, una reazione o una delle sue velo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    462.5,
+    266.4,
+    473.1
+   ],
+   "size": 8.8,
+   "testo": "cità. Per sferrare l'attacco di opportunità, il personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.6,
+    473.5,
+    266.8,
+    484.1
+   ],
+   "size": 8.8,
+   "testo": "effettua una reazione per eseguire un attacco in mischia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    484.6,
+    268.2,
+    495.2
+   ],
+   "size": 8.8,
+   "testo": "con un'arma o con un colpo senz'armi contro la creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.6,
+    495.6,
+    248.8,
+    506.1
+   ],
+   "size": 8.8,
+   "testo": "che l'ha provocato. L'attacco viene effettuato subito",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.5,
+    506.6,
+    267.7,
+    517.2
+   ],
+   "size": 8.8,
+   "testo": "prima che la creatura esca dalla portata del personaggio.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.1,
+    517.7,
+    204.1,
+    528.2
+   ],
+   "size": 8.8,
+   "testo": "Vedianche capitolo 1 (\"Combattimento\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.9,
+    552.3,
+    146.1,
+    563.7
+   ],
+   "size": 11.2,
+   "testo": "ATTACCO [AZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.6,
+    563.7,
+    260.8,
+    574.3
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio effettua l'azione di Attacco,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.5,
+    574.7,
+    263.3,
+    585.2
+   ],
+   "size": 8.8,
+   "testo": "può effettuare un tiro per colpire con un'arma o con un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.2,
+    585.6,
+    111.1,
+    596.1
+   ],
+   "size": 8.8,
+   "testo": "colpo senz'armi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    596.6,
+    267.6,
+    607.2
+   ],
+   "size": 8.8,
+   "testo": "Equipaggiarsi con le armi e riporle. Quando il personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.7,
+    607.7,
+    265.3,
+    618.3
+   ],
+   "size": 8.8,
+   "testo": "gio effettua l'azione di Attacco, può anche equipaggiarsi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.4,
+    618.7,
+    260.5,
+    629.3
+   ],
+   "size": 8.8,
+   "testo": "con un'arma o riporla, decidendo se farlo prima o dopo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.3,
+    629.8,
+    246.1,
+    640.3
+   ],
+   "size": 8.8,
+   "testo": "l'attacco. Anche se il personaggio si equipaggia con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.9,
+    640.8,
+    264.2,
+    651.4
+   ],
+   "size": 8.8,
+   "testo": "un'arma prima di un attacco, non deve necessariamente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.4,
+    651.7,
+    268.0,
+    662.3
+   ],
+   "size": 8.8,
+   "testo": "usarla per quell'attacco. Equipaggiarsi con un'arma signi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.3,
+    662.7,
+    269.2,
+    673.3
+   ],
+   "size": 8.8,
+   "testo": "fica estrarla da un fodero o raccoglierla. Riporre un'arma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.3,
+    673.8,
+    273.0,
+    684.4
+   ],
+   "size": 8.8,
+   "testo": "significa rinfoderarla, metterla da parte o lasciarla cadere.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    684.7,
+    252.5,
+    695.3
+   ],
+   "size": 8.8,
+   "testo": "Muoversi tra un attacco e l'altro. Se nel suo turno il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.2,
+    695.6,
+    260.4,
+    706.2
+   ],
+   "size": 8.8,
+   "testo": "personaggio si muove e ha un privilegio come, ad esem­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.2,
+    706.6,
+    245.2,
+    717.2
+   ],
+   "size": 8.8,
+   "testo": "pio, Attacco Extra, questo gli fornisce la possibilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.1,
+    126.1,
+    505.4,
+    136.7
+   ],
+   "size": 8.8,
+   "testo": "di effettuare più di un attacco come parte dell'azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.1,
+    137.2,
+    518.9,
+    147.8
+   ],
+   "size": 8.8,
+   "testo": "di Attacco: il personaggio può quindi utilizzare (in parte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.1,
+    148.2,
+    508.1,
+    158.7
+   ],
+   "size": 8.8,
+   "testo": "o interamente) il movimento che ha a disposizione per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.1,
+    159.2,
+    427.0,
+    169.8
+   ],
+   "size": 8.8,
+   "testo": "muoversi tra un attacco e l'altro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.3,
+    193.9,
+    408.9,
+    205.2
+   ],
+   "size": 11.2,
+   "testo": "ATTACCO CON ARMA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.1,
+    205.4,
+    518.0,
+    216.0
+   ],
+   "size": 8.8,
+   "testo": "Un attacco con arma è un tiro per colpire effettuato con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.0,
+    216.4,
+    407.7,
+    226.9
+   ],
+   "size": 8.8,
+   "testo": "un'arma. Vedianche \"Arma\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.3,
+    251.1,
+    449.5,
+    262.5
+   ],
+   "size": 11.2,
+   "testo": "ATTACCO CON INCANTESIMO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.8,
+    262.4,
+    507.8,
+    273.0
+   ],
+   "size": 8.8,
+   "testo": "Un attacco con incantesimo è un tiro per colpire effet­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.9,
+    273.5,
+    516.4,
+    284.1
+   ],
+   "size": 8.8,
+   "testo": "tuato come parte di un incantesimo o di un altro effetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.9,
+    284.6,
+    522.8,
+    295.1
+   ],
+   "size": 8.8,
+   "testo": "magico. Vedianche capitolo 7 (\"Lanciare gli incantesimi\").",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.2,
+    319.2,
+    391.0,
+    330.6
+   ],
+   "size": 11.2,
+   "testo": "ATTEGGIAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.6,
+    330.7,
+    493.3,
+    341.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni mostro ha un atteggiamento iniziale verso il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.9,
+    341.6,
+    514.0,
+    352.2
+   ],
+   "size": 8.8,
+   "testo": "personaggio giocante: amichevole, ostile o indifferente.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.4,
+    352.6,
+    483.9,
+    363.2
+   ],
+   "size": 8.8,
+   "testo": "Vedianche \"Amichevole\", \"Ostile\", \"Indifferente\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.9,
+    363.6,
+    351.2,
+    374.2
+   ],
+   "size": 8.8,
+   "testo": "e \"Influenza\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.0,
+    398.5,
+    444.8,
+    409.8
+   ],
+   "size": 11.2,
+   "testo": "AVVELENATO [CONDIZIONE]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.9,
+    409.9,
+    521.7,
+    420.5
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"avvelenato'',",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.2,
+    420.8,
+    401.7,
+    431.4
+   ],
+   "size": 8.8,
+   "testo": "subisce il seguente effetto:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    433.6,
+    510.9,
+    442.2
+   ],
+   "size": 8.6,
+   "testo": "Influenza sulle prove di caratteristica e sugli attacchi.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.2,
+    442.9,
+    520.2,
+    453.5
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio subisce svantaggio ai tiri per colpire e alle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.6,
+    453.9,
+    388.8,
+    464.4
+   ],
+   "size": 8.8,
+   "testo": "prove di caratteristica.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.9,
+    488.5,
+    363.6,
+    499.9
+   ],
+   "size": 11.2,
+   "testo": "AVVENTURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.6,
+    499.9,
+    525.9,
+    510.5
+   ],
+   "size": 8.8,
+   "testo": "Un'avventura consiste in una serie di incontri: giocandoci,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.6,
+    511.0,
+    474.0,
+    521.5
+   ],
+   "size": 8.8,
+   "testo": "prende vita una storia. Vedianche \"Incontro\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.9,
+    545.6,
+    340.6,
+    557.0
+   ],
+   "size": 11.2,
+   "testo": "AZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.8,
+    557.1,
+    527.1,
+    567.7
+   ],
+   "size": 8.8,
+   "testo": "Nel suo turno, il tuo personaggio può effettuare un'azione,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.3,
+    568.0,
+    520.4,
+    578.6
+   ],
+   "size": 8.8,
+   "testo": "scegliendo tra quelle disponibili di seguito, o tra le azioni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.5,
+    579.0,
+    525.2,
+    589.6
+   ],
+   "size": 8.8,
+   "testo": "speciali fornite dai privilegi di cui dispone. Vedianche capi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.4,
+    590.0,
+    516.9,
+    600.6
+   ],
+   "size": 8.8,
+   "testo": "tolo 1 (''Azioni\"). Queste azioni sono descritte più avanti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.5,
+    601.0,
+    350.4,
+    611.6
+   ],
+   "size": 8.8,
+   "testo": "nel glossario:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.4,
+    619.5,
+    320.0,
+    629.2
+   ],
+   "size": 8.4,
+   "testo": "Aiuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.2,
+    631.6,
+    328.7,
+    641.3
+   ],
+   "size": 8.4,
+   "testo": "Attacco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.1,
+    643.6,
+    346.5,
+    653.2
+   ],
+   "size": 8.4,
+   "testo": "Disimpegno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.8,
+    619.6,
+    393.8,
+    629.2
+   ],
+   "size": 8.4,
+   "testo": "Influenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.8,
+    631.6,
+    381.9,
+    641.3
+   ],
+   "size": 8.4,
+   "testo": "Magia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.7,
+    643.6,
+    406.3,
+    653.3
+   ],
+   "size": 8.4,
+   "testo": "Nascondersi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.7,
+    677.3,
+    379.2,
+    688.6
+   ],
+   "size": 11.2,
+   "testo": "AZIONE BONUS",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.4,
+    619.6,
+    455.4,
+    629.2
+   ],
+   "size": 8.4,
+   "testo": "Prepararsi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.4,
+    631.7,
+    444.3,
+    641.3
+   ],
+   "size": 8.4,
+   "testo": "Ricerca",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    414.9,
+    643.7,
+    441.0,
+    653.3
+   ],
+   "size": 8.4,
+   "testo": "Scatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    473.4,
+    619.7,
+    506.9,
+    629.3
+   ],
+   "size": 8.4,
+   "testo": "Schivata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    473.4,
+    631.8,
+    500.4,
+    641.4
+   ],
+   "size": 8.4,
+   "testo": "Studio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    473.7,
+    643.7,
+    504.4,
+    653.3
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.2,
+    688.6,
+    505.2,
+    699.2
+   ],
+   "size": 8.8,
+   "testo": "Un'azione bonus è un'azione speciale che il tuo perso­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.4,
+    699.6,
+    512.1,
+    710.1
+   ],
+   "size": 8.8,
+   "testo": "naggio può effettuare nello stesso turno in cui effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.4,
+    710.6,
+    496.1,
+    721.1
+   ],
+   "size": 8.8,
+   "testo": "un'azione. Il personaggio non può effettuare più di",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

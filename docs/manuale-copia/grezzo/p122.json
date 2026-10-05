@@ -1,0 +1,913 @@
+{
+ "pagina_pdf": 122,
+ "pagina_stampata": 119,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   202,
+   211,
+   589,
+   783
+  ],
+  [
+   822,
+   153,
+   1309,
+   640
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.6,
+    38.6,
+    269.5,
+    49.2
+   ],
+   "size": 8.8,
+   "testo": "Nel caso in cui questi danni facciano scendere l'interdi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    49.7,
+    270.0,
+    60.2
+   ],
+   "size": 8.8,
+   "testo": "zione a 0 punti ferita, la creatura protetta subirà quelli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    60.6,
+    269.6,
+    71.2
+   ],
+   "size": 8.8,
+   "testo": "rimanenti. Se quella creatura possiede resistenze o vul­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    71.7,
+    279.7,
+    82.2
+   ],
+   "size": 8.8,
+   "testo": "nerabilità, è necessario applicarle prima di ridurre i punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    82.7,
+    146.6,
+    93.2
+   ],
+   "size": 8.8,
+   "testo": "ferita dell'interdizione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    103.0,
+    195.8,
+    114.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: SPEZZAMAGIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    114.5,
+    265.2,
+    125.1
+   ],
+   "size": 8.8,
+   "testo": "Gli incantesimi controincantesimo e dissolvimagie sono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    125.5,
+    272.7,
+    136.1
+   ],
+   "size": 8.8,
+   "testo": "sempre considerati come preparati. Inoltre, il mago può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    136.4,
+    269.1,
+    147.0
+   ],
+   "size": 8.8,
+   "testo": "lanciare dissolvi magie come azione bonus e aggiungere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    147.6,
+    269.6,
+    158.2
+   ],
+   "size": 8.8,
+   "testo": "il suo bonus di competenza alla prova di caratteristica.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    158.5,
+    281.1,
+    169.1
+   ],
+   "size": 8.8,
+   "testo": "Quando il mago lancia uno dei due incantesimi con uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    169.5,
+    274.7,
+    180.1
+   ],
+   "size": 8.8,
+   "testo": "slot, lo slot non viene speso nel caso in cui l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    180.5,
+    177.7,
+    191.1
+   ],
+   "size": 8.8,
+   "testo": "non riesca a fermarne un altro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    201.1,
+    286.1,
+    212.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: RESISTENZA AGLI INCANTESIMI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    212.4,
+    267.5,
+    223.0
+   ],
+   "size": 8.8,
+   "testo": "II mago dispone di vantaggio ai tiri salvezza contro gli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    223.5,
+    267.5,
+    234.0
+   ],
+   "size": 8.8,
+   "testo": "incantesimi e possiede resistenza ai danni inferti dagli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    234.4,
+    104.4,
+    245.0
+   ],
+   "size": 8.8,
+   "testo": "incantesimi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    254.6,
+    134.8,
+    267.7
+   ],
+   "size": 9.7,
+   "testo": "DIVINATORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    272.2,
+    173.6,
+    281.5
+   ],
+   "size": 8.6,
+   "testo": "Apprendi isegreti del multiverso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    285.7,
+    284.0,
+    296.3
+   ],
+   "size": 8.8,
+   "testo": "Chiunque intenda comprendere meglio la trama di passato,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    296.7,
+    269.6,
+    307.3
+   ],
+   "size": 8.8,
+   "testo": "presente e futuro si affida al consiglio di un divinatore.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    307.7,
+    266.2,
+    318.3
+   ],
+   "size": 8.8,
+   "testo": "Lo scopo di un divinatore è squarciare i veli di spazio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    318.7,
+    266.4,
+    329.3
+   ],
+   "size": 8.8,
+   "testo": "tempo e coscienza, per questo è specializzato in incan­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    329.6,
+    272.6,
+    340.2
+   ],
+   "size": 8.8,
+   "testo": "tesimi di discernimento, visione a distanza, conoscenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    340.7,
+    168.3,
+    351.2
+   ],
+   "size": 8.8,
+   "testo": "soprannaturale e previsione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    361.0,
+    238.6,
+    372.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: DIVINATORE SAPIENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    372.4,
+    264.7,
+    383.0
+   ],
+   "size": 8.8,
+   "testo": "Scegli due incantesimi da mago della scuola di Divina­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    381.3,
+    277.6,
+    394.0
+   ],
+   "size": 8.8,
+   "testo": "zione che non siano di livello superiore al 2°, e aggiungili",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    394.4,
+    249.7,
+    405.0
+   ],
+   "size": 8.8,
+   "testo": "gratuitamente al libro degli incantesimi del mago.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    405.6,
+    269.3,
+    416.1
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ogni volta che il personaggio ottiene accesso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    416.6,
+    266.5,
+    427.1
+   ],
+   "size": 8.8,
+   "testo": "a un nuovo livello di slot incantesimo in questa classe,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    427.5,
+    280.5,
+    438.1
+   ],
+   "size": 8.8,
+   "testo": "puoi aggiungere gratuitamente al libro un ulteriore incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    438.5,
+    283.5,
+    449.0
+   ],
+   "size": 8.8,
+   "testo": "tesimo da mago della scuola di Divinazione. L'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    449.4,
+    270.0,
+    460.0
+   ],
+   "size": 8.8,
+   "testo": "scelto deve essere di un livello di cui possiede degli slot",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    460.5,
+    106.3,
+    471.0
+   ],
+   "size": 8.8,
+   "testo": "incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    480.8,
+    174.8,
+    492.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: PORTENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    492.3,
+    258.0,
+    502.9
+   ],
+   "size": 8.8,
+   "testo": "I sensi del mago vengono acuiti da sprazzi di visioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    503.4,
+    277.2,
+    513.9
+   ],
+   "size": 8.8,
+   "testo": "future. Ogni volta che il personaggio completa un riposo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    514.3,
+    269.3,
+    524.9
+   ],
+   "size": 8.8,
+   "testo": "lungo, tira due d20 e annota i risultati ottenuti. Questi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    525.4,
+    270.8,
+    536.0
+   ],
+   "size": 8.8,
+   "testo": "sono tiri divinatori il cui risultato può essere utilizzato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    536.4,
+    276.7,
+    547.0
+   ],
+   "size": 8.8,
+   "testo": "per qualunque prova con d20 effettuata dal personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    547.3,
+    281.3,
+    557.9
+   ],
+   "size": 8.8,
+   "testo": "o da una creatura che egli è in grado di vedere. Per poterne",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    558.3,
+    268.3,
+    568.9
+   ],
+   "size": 8.8,
+   "testo": "fare uso, è necessario deciderlo prima che il tiro venga",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    569.3,
+    274.6,
+    579.9
+   ],
+   "size": 8.8,
+   "testo": "effettuato. Inoltre, la sostituzione del risultato può avve­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    580.3,
+    170.5,
+    590.9
+   ],
+   "size": 8.8,
+   "testo": "nire una sola volta per turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    591.3,
+    268.4,
+    601.9
+   ],
+   "size": 8.8,
+   "testo": "Ogni tiro divinatorio può essere utilizzato una volta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    602.3,
+    274.5,
+    612.9
+   ],
+   "size": 8.8,
+   "testo": "sola. Dopo aver completato un riposo lungo, i tiri divina­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    613.4,
+    189.7,
+    624.0
+   ],
+   "size": 8.8,
+   "testo": "tori inutilizzati andranno perduti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    633.8,
+    236.9,
+    645.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: DIVINAZIONE ESPERTA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    645.3,
+    267.8,
+    655.8
+   ],
+   "size": 8.8,
+   "testo": "Per il personaggio lanciare incantesimi di Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    656.2,
+    265.9,
+    666.8
+   ],
+   "size": 8.8,
+   "testo": "è così semplice che gli richiede solo una frazione della",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    667.2,
+    285.4,
+    677.8
+   ],
+   "size": 8.8,
+   "testo": "sua energia magica. Quando il mago lancia un incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    676.0,
+    274.6,
+    688.8
+   ],
+   "size": 8.8,
+   "testo": "di Divinazione usando uno slot incantesimo di 2° livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    689.3,
+    270.6,
+    699.8
+   ],
+   "size": 8.8,
+   "testo": "o superiore, recupera uno slot speso. Lo slot recuperato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    700.2,
+    274.8,
+    710.8
+   ],
+   "size": 8.8,
+   "testo": "deve essere di livello inferiore a quello consumato e non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    709.1,
+    193.6,
+    721.7
+   ],
+   "size": 8.8,
+   "testo": "può essere di livello superiore al 5°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    40.5,
+    457.0,
+    51.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: TERZO OCCHIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    51.8,
+    530.0,
+    62.4
+   ],
+   "size": 8.8,
+   "testo": "I poteri di percezione del mago aumentano. Come azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    62.8,
+    529.6,
+    73.3
+   ],
+   "size": 8.8,
+   "testo": "bonus, è possibile scegliere uno dei seguenti benefici, che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    73.8,
+    528.6,
+    84.4
+   ],
+   "size": 8.8,
+   "testo": "dureranno finché il personaggio non completa un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    84.7,
+    530.4,
+    95.3
+   ],
+   "size": 8.8,
+   "testo": "breve o lungo. II personaggio non può riutilizzare questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    95.7,
+    509.9,
+    106.3
+   ],
+   "size": 8.8,
+   "testo": "privilegio prima di aver completato un riposo breve",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    106.9,
+    337.8,
+    117.4
+   ],
+   "size": 8.8,
+   "testo": "o lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    117.8,
+    522.2,
+    128.4
+   ],
+   "size": 8.8,
+   "testo": "Comprensione superiore. Il mago è in grado di leggere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    128.7,
+    404.9,
+    139.3
+   ],
+   "size": 8.8,
+   "testo": "e capire qualsiasi lingua.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    139.8,
+    524.6,
+    150.4
+   ],
+   "size": 8.8,
+   "testo": "Scurovisione. Il personaggio ottiene scurovisione con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    150.9,
+    393.8,
+    161.5
+   ],
+   "size": 8.8,
+   "testo": "un raggio di 36 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    161.9,
+    535.9,
+    172.5
+   ],
+   "size": 8.8,
+   "testo": "Vedere invisibilità. Il mago può lanciare vedere invisibilità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    172.8,
+    462.2,
+    183.4
+   ],
+   "size": 8.8,
+   "testo": "senza consumare uno slot incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    193.3,
+    492.0,
+    204.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: PORTENTO SUPERIORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    204.8,
+    517.0,
+    215.4
+   ],
+   "size": 8.8,
+   "testo": "Le visioni che appaiono in sonno al mago si fanno più",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    215.7,
+    530.9,
+    226.3
+   ],
+   "size": 8.8,
+   "testo": "intense e dipingono nella sua mente un'immagine più pre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    226.7,
+    525.3,
+    237.3
+   ],
+   "size": 8.8,
+   "testo": "cisa del futuro. Per il privilegio Portento ora puoi tirare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    237.8,
+    389.5,
+    248.3
+   ],
+   "size": 8.8,
+   "testo": "tre d20 anziché due.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

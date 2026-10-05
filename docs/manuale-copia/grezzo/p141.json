@@ -1,0 +1,679 @@
+{
+ "pagina_pdf": 141,
+ "pagina_stampata": 138,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   -1,
+   442,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    305.2,
+    36.8,
+    467.8,
+    48.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: DIFESA GLORIOSA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    48.2,
+    517.0,
+    58.8
+   ],
+   "size": 8.8,
+   "testo": "Il paladino può trasformare una mossa difensiva in un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    59.3,
+    520.6,
+    69.9
+   ],
+   "size": 8.8,
+   "testo": "colpo repentino. Quando il paladino o una creatura nel",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    70.4,
+    524.4,
+    80.9
+   ],
+   "size": 8.8,
+   "testo": "suo campo visivo entro 3 metri da sé subisce un tiro per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    81.3,
+    528.3,
+    91.8
+   ],
+   "size": 8.8,
+   "testo": "colpire, può usare la sua reazione per conferire un bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    92.3,
+    514.6,
+    102.9
+   ],
+   "size": 8.8,
+   "testo": "alla CA del bersaglio contro quell'attacco, in modo da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    103.3,
+    516.7,
+    113.9
+   ],
+   "size": 8.8,
+   "testo": "aumentare le possibilità che il colpo non vada a segno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    114.2,
+    517.1,
+    124.8
+   ],
+   "size": 8.8,
+   "testo": "Il bonus è pari al modificatore di Carisma del paladino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    125.3,
+    521.2,
+    135.8
+   ],
+   "size": 8.8,
+   "testo": "(minimo di +1). Se il tiro per colpire fallisce, come parte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    136.3,
+    514.6,
+    146.9
+   ],
+   "size": 8.8,
+   "testo": "di questa reazione il paladino può sferrare un attacco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    147.2,
+    508.4,
+    157.8
+   ],
+   "size": 8.8,
+   "testo": "con l'arma contro l'aggressore, a patto che questo si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    158.3,
+    366.6,
+    168.9
+   ],
+   "size": 8.8,
+   "testo": "trovi a portata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.2,
+    169.3,
+    507.6,
+    179.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può utilizzare questo privilegio un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    180.3,
+    513.3,
+    190.9
+   ],
+   "size": 8.8,
+   "testo": "numero di volte pari al valore del suo modificatore di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    191.3,
+    509.7,
+    201.9
+   ],
+   "size": 8.8,
+   "testo": "Carisma (minimo di una volta) e recuperare tutti gli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    202.4,
+    512.1,
+    213.0
+   ],
+   "size": 8.8,
+   "testo": "utilizzi consumati quando completa un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    222.8,
+    481.5,
+    234.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: LEGGENDA VIVENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    234.3,
+    528.5,
+    244.9
+   ],
+   "size": 8.8,
+   "testo": "Il paladino trae forza dalle leggende, vere o esagerate che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    245.2,
+    527.4,
+    255.7
+   ],
+   "size": 8.8,
+   "testo": "siano, che avvolgono le sue imprese. Come azione bonus,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    256.2,
+    524.0,
+    266.8
+   ],
+   "size": 8.8,
+   "testo": "ottiene i benefici elencati di seguito per 10 minuti. Dopo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    267.3,
+    524.1,
+    277.8
+   ],
+   "size": 8.8,
+   "testo": "aver utilizzato questo privilegio, il personaggio non può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    278.3,
+    519.1,
+    288.9
+   ],
+   "size": 8.8,
+   "testo": "riutilizzarlo prima di aver completato un riposo lungo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    289.3,
+    526.7,
+    299.9
+   ],
+   "size": 8.8,
+   "testo": "Tuttavia, è possibile ripristinarne l'uso consumando uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    298.1,
+    522.7,
+    310.9
+   ],
+   "size": 8.8,
+   "testo": "slot incantesimo di 5° livello (nessuna azione richiesta).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.1,
+    311.3,
+    516.8,
+    321.9
+   ],
+   "size": 8.8,
+   "testo": "Carismatico. Il paladino è benedetto da una bellezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    322.3,
+    529.9,
+    332.8
+   ],
+   "size": 8.8,
+   "testo": "ultraterrena che gli conferisce vantaggio in tutte le prove",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    333.3,
+    351.6,
+    343.9
+   ],
+   "size": 8.8,
+   "testo": "di Carisma.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    344.1,
+    523.0,
+    354.7
+   ],
+   "size": 8.8,
+   "testo": "Colpo infallibile. Una volta per turno, quando effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    355.2,
+    523.1,
+    365.8
+   ],
+   "size": 8.8,
+   "testo": "un attacco con un'arma e manca il bersaglio, il paladino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    366.3,
+    505.3,
+    376.8
+   ],
+   "size": 8.8,
+   "testo": "può fare in modo che quell'attacco vada comunque",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    377.2,
+    338.2,
+    387.7
+   ],
+   "size": 8.8,
+   "testo": "a segno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    388.2,
+    505.6,
+    398.8
+   ],
+   "size": 8.8,
+   "testo": "Ripete il tiro salvezza. Se fallisce un tiro salvezza,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    399.3,
+    521.0,
+    409.9
+   ],
+   "size": 8.8,
+   "testo": "il paladino può usare la sua reazione per ripetere il tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    410.3,
+    478.5,
+    420.9
+   ],
+   "size": 8.8,
+   "testo": "e deve utilizzare il nuovo risultato ottenuto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    430.4,
+    477.7,
+    443.5
+   ],
+   "size": 9.7,
+   "testo": "GIURAMENTO DI VENDETTA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    447.9,
+    412.8,
+    457.3
+   ],
+   "size": 8.6,
+   "testo": "Punisci i malvagia ogni costo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    461.5,
+    529.2,
+    472.1
+   ],
+   "size": 8.8,
+   "testo": "Chi presta il Giuramento di Vendetta si impegna a punire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    472.4,
+    530.5,
+    483.0
+   ],
+   "size": 8.8,
+   "testo": "chiunque abbia commesso gravi azioni malvagie. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    483.5,
+    510.0,
+    494.0
+   ],
+   "size": 8.8,
+   "testo": "le armate delle tenebre massacrano gli innocenti, un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    494.4,
+    514.3,
+    505.0
+   ],
+   "size": 8.8,
+   "testo": "tiranno va contro il volere degli dèi, una gilda di ladri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    505.4,
+    527.2,
+    516.0
+   ],
+   "size": 8.8,
+   "testo": "diventa troppo violenta o un drago commette una strage",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    516.6,
+    509.9,
+    527.1
+   ],
+   "size": 8.8,
+   "testo": "nelle campagne, i paladini prestano il Giuramento di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    527.5,
+    465.4,
+    538.1
+   ],
+   "size": 8.8,
+   "testo": "Vendetta affinché possano fare giustizia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    538.5,
+    440.3,
+    549.0
+   ],
+   "size": 8.8,
+   "testo": "Condividono i seguenti dettami:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    554.8,
+    482.2,
+    565.4
+   ],
+   "size": 8.8,
+   "testo": "Non mostrare alcuna pietà verso i malvagi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    565.8,
+    462.9,
+    576.4
+   ],
+   "size": 8.8,
+   "testo": "Combatti le ingiustizie e le loro cause.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    576.8,
+    469.7,
+    587.4
+   ],
+   "size": 8.8,
+   "testo": "Aiuta chiunque abbia subito ingiustizie.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    597.3,
+    535.6,
+    608.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL GIURAMENTO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    608.0,
+    376.3,
+    619.4
+   ],
+   "size": 11.2,
+   "testo": "DI VENDETTA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    619.5,
+    511.1,
+    630.0
+   ],
+   "size": 8.8,
+   "testo": "La magia del giuramento del paladino gli consente di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    630.5,
+    522.1,
+    641.1
+   ],
+   "size": 8.8,
+   "testo": "avere sempre pronti determinati incantesimi. Una volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    641.5,
+    524.5,
+    652.1
+   ],
+   "size": 8.8,
+   "testo": "raggiunto un livello specificato nella tabella Incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    652.5,
+    516.1,
+    663.1
+   ],
+   "size": 8.8,
+   "testo": "del Giuramento di Vendetta, gli incantesimi lì elencati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    663.5,
+    478.0,
+    674.0
+   ],
+   "size": 8.8,
+   "testo": "saranno sempre considerati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    396.3,
+    710.8,
+    401.3,
+    717.1
+   ],
+   "size": 4.9,
+   "testo": "•",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

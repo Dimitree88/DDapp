@@ -1,0 +1,384 @@
+{
+ "pagina_pdf": 200,
+ "pagina_stampata": 197,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 197",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.1,
+    431.6,
+    104.8,
+    444.7
+   ],
+   "size": 9.7,
+   "testo": "UMANO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    448.0,
+    281.8,
+    458.6
+   ],
+   "size": 8.8,
+   "testo": "Sparsi in ogni angolo del multiverso, gli umani sono tanto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    459.0,
+    268.7,
+    469.5
+   ],
+   "size": 8.8,
+   "testo": "sfaccettati quanto numerosi e tentano di vivere la loro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    470.0,
+    266.8,
+    480.6
+   ],
+   "size": 8.8,
+   "testo": "vita al massimo delle proprie possibilità. Il loro spirito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    480.9,
+    276.5,
+    491.5
+   ],
+   "size": 8.8,
+   "testo": "ambizioso e intraprendente è lodato, rispettato e temuto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    492.1,
+    116.2,
+    502.7
+   ],
+   "size": 8.8,
+   "testo": "in molti mondi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    503.1,
+    268.4,
+    513.7
+   ],
+   "size": 8.8,
+   "testo": "Gli umani presentano aspetti tanto variegati quanto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    514.1,
+    271.9,
+    524.7
+   ],
+   "size": 8.8,
+   "testo": "la popolazione della Terra, e venerano molti dèi diversi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    525.1,
+    268.2,
+    535.7
+   ],
+   "size": 8.8,
+   "testo": "La loro origine è ancora oggetto di dibattito tra gli stu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    536.1,
+    273.0,
+    546.7
+   ],
+   "size": 8.8,
+   "testo": "diosi, ma pare che uno dei primi raduni di questa specie",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    547.1,
+    276.1,
+    557.7
+   ],
+   "size": 8.8,
+   "testo": "abbia avutoluogo a Sigil; la città dalla forma geometrica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    558.0,
+    275.8,
+    568.6
+   ],
+   "size": 8.8,
+   "testo": "di toro al centro del multiverso e il luogo di nascita della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    569.1,
+    260.0,
+    579.7
+   ],
+   "size": 8.8,
+   "testo": "lingua comune. Da qui, gli umani potrebbero essersi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    580.1,
+    264.9,
+    590.6
+   ],
+   "size": 8.8,
+   "testo": "diffusi in ogni angolo del multiverso, portando con sé",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    591.1,
+    230.2,
+    601.6
+   ],
+   "size": 8.8,
+   "testo": "lo spirito cosmopolita della Città delle Porte.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    444.8,
+    421.5,
+    456.2
+   ],
+   "size": 11.2,
+   "testo": "TRATTI DEGLI UMANI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    458.4,
+    414.0,
+    468.0
+   ],
+   "size": 8.4,
+   "testo": "Tipo di creatura: Umanoide",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    470.3,
+    534.4,
+    479.9
+   ],
+   "size": 8.4,
+   "testo": "Taglia: Media (altezza di circa 120-210 centimetri) o Piccola",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.5,
+    482.2,
+    528.1,
+    491.9
+   ],
+   "size": 8.4,
+   "testo": "(altezza di circa 60-120 centimetri), a tua scelta quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.9,
+    494.4,
+    374.9,
+    504.1
+   ],
+   "size": 8.4,
+   "testo": "scegli la specie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    506.5,
+    371.7,
+    516.1
+   ],
+   "size": 8.4,
+   "testo": "Velocità: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    521.7,
+    510.1,
+    532.3
+   ],
+   "size": 8.8,
+   "testo": "In quanto umano, il personaggio ha i seguenti tratti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    532.7,
+    341.2,
+    543.3
+   ],
+   "size": 8.8,
+   "testo": "speciali.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    543.7,
+    523.1,
+    554.3
+   ],
+   "size": 8.8,
+   "testo": "Intraprendente. Ottiene Ispirazione eroica ogni volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    554.6,
+    426.5,
+    565.2
+   ],
+   "size": 8.8,
+   "testo": "che completa un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    565.6,
+    526.2,
+    576.2
+   ],
+   "size": 8.8,
+   "testo": "Pluriabilità. Acquisisce competenza in un'abilità a tua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    576.7,
+    334.1,
+    587.3
+   ],
+   "size": 8.8,
+   "testo": "scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.1,
+    587.6,
+    523.3,
+    598.2
+   ],
+   "size": 8.8,
+   "testo": "Versatile. Ottiene un talento delle origini a tua scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    591.5,
+    488.6,
+    609.7
+   ],
+   "size": 8.8,
+   "testo": "(vedi capitolo 5). È consigliato il talento Abile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    479.7,
+    693.4,
+    484.3,
+    699.7
+   ],
+   "size": 4.9,
+   "testo": "•",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    522.4,
+    642.1,
+    527.3,
+    648.4
+   ],
+   "size": 4.9,
+   "testo": "•",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

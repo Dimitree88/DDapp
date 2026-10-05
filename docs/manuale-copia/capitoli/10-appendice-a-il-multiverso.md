@@ -1,0 +1,82 @@
+<!-- Appendice A - Il Multiverso · pagine PDF 347-348 -->
+
+<a id="p347"></a>
+> **NON VERIFICATO** — testo OCR grezzo di p. 344 (PDF 347).
+
+<!-- pagina PDF 347 · pagina stampata 344 -->
+
+## --.J APPEND ,CE A
+
+## IL MULTIVERSO
+
+Quest'appendice fornisce una panoramica del multiverso, ovvero l'intera realtà che comprende gli innumerevoli mondi e avventure di D&D. Questi regni vengono approfonditi nel dettaglio all'interno della GuidadelDungeon Master, insieme agli altri piani come il Reame Remoto, il Piano Negativo e il Piano Positivo.
+
+## I REGNI MATERIALI
+
+Le forze filosofiche ed elementali della realtà convergono per creare i seguenti piani di esistenza:
+
+Piano Materiale. La maggior parte delle avventure di D&D si svolge sul Piano Materiale, in cui si trovano i mondi di ambientazioni come Dragonlance, Eberron, Forgotten Realms e Greyhawk, ma anche quelle che tu e il tuo gruppo potreste creare. I mondi di questo piano sono governati da determinate leggi della fisica e della magia.
+
+Selva Fatata. Questo vivace e idilliaco regno è ricco di vita ed emozioni, che raggiungono il picco di intensità nei Domini del Piacere.
+
+Coltre Oscura. Questo tetro regno ospita oscure lande desolate, rovine infestate e i temibili Domini del Terrore.
+
+## PIANI DI TRANSIZIONE
+
+I piani di transizione fungono da collegamento tra altri piani:
+
+Piano Astrale. Questa sconfinata distesa argentea collega il Piano Materiale ai Piani Esterni. In questo vasto spazio vuoto hanno avuto origine intere civilizzazioni, mentre altri individui navigano al suo interno a bordo delle navi spelljammer.
+
+Piano Etereo. Questo regno spettrale funge da collegamento tra il Piano Materiale e i Piani Interni. La regione in cui il Piano Etereo si sovrappone con altri piani è chiamata Confine Etereo, un luogo in cui le creature possono vedere brevi sprazzi di altri mondi.
+
+## I PIANI INTERNI
+
+Le forze elementali e i blocchi costitutivi della realtà provengono proprio dai Piani Interni:
+
+Piano Elementale dell'Acqua. Quest'oceano senza fondo brulica di misteriose forme di vita marine.
+
+Piano Elementale dell'Aria. In questo luogo, il vento sferza le nuvole e fa volteggiare le isole galleggianti in un cielo sconfinato.
+
+Piano Elementale del Fuoco. Questo regno è un inferno perenne che arde di vita sulle sue isole vulcaniche.
+
+Piano Elementale della Terra. Questo labirinto di caverne si snoda attraverso la pietra e dei minerali preziosi mai visti prima.
+
+Caos Elementale. Ai confini dei Piani Interni, le forze elementali si scontrano in maniera imprevedibile.
+
+Piani Para-Elementali. In queste zone di confine tra i Piani Elementali, le forze elementali si uniscono per dare origine a regni di cenere, ghiaccio, magma e melma.
+
+## I PIANI ESTERNI
+
+I Piani Esterni sono la dimora degli immortali; qui le idee prendono forma e gli spiriti trascorrono la propria esistenza. I Piani Esterni sono composti dai seguenti luoghi:
+
+Sigil. Sigil, la Città delle Porte, si trova al centro dei Piani Esterni ed è più una metropoli che un piano. Qui ci sono portali che conducono in tutto il multiverso, con la Signora del Dolore a dettare legge.
+
+Terre Esterne. Le influenze di altri Piani Esterni convergono nelle Terre Esterne, i cui portali conducono verso altri piani. Al centro di questo luogo si erge la Guglia, un pilastro su cui fluttua Sigil.
+
+Altri Piani Esterni. Questi piani sono elencati nella tabella Piani Esterni. Alcuni sono luoghi paradisiaci, altri da incubo, e altri ancora sono regni assai bizzarri. Ciascuno di loro è governato da forze che incarnano uno o più degli allineamenti descritti nel capitolo 2.
+
+### PIANI ESTERNI
+
+| Piano Esterno | Allineamento |
+| Abisso | Caotico malvagio |
+| Acheronte | Legale malvagio, legale neutrale |
+| Ade | Neutrale malvagio |
+| Arborea | Caotico buono |
+| Arcadia | Legale buono, legale neutrale |
+| Bytopia | Legale buono, neutrale buono |
+| Carceri | Caotico malvagio, neutrale malvagio |
+| Elysium | Neutrale Buono |
+| Gehenna | Legale malvagio, neutrale malvagio |
+| Limbo | Caotico neutrale |
+| Mechanus | Legale neutrale |
+| Monte Celestia | Legale Buono |
+| Nove Inferi | Legale malvagio |
+| Pandemonium | Caotico malvagio, caotico neutrale |
+| Terre Bestiali | Caotico buono, neutrale buono |
+| Terre Esterne | Neutrale |
+| Ysgard | Caotico buono, caotico neutrale |
+
+<a id="p348"></a>
+> **NON VERIFICATO** — testo OCR grezzo di p. 345 (PDF 348).
+
+<!-- pagina PDF 348 · pagina stampata 345 -->

@@ -1,0 +1,859 @@
+{
+ "pagina_pdf": 85,
+ "pagina_stampata": 82,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "82 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   520
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    256.1,
+    379.5,
+    264.3,
+    385.8
+   ],
+   "size": 4.9,
+   "testo": ". .",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    391.6,
+    240.9,
+    402.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: INCANTESIMI BESTIALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    403.1,
+    268.1,
+    413.6
+   ],
+   "size": 8.8,
+   "testo": "Mentre utilizza Forma Selvatica, il druido può lanciare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    414.1,
+    256.7,
+    424.6
+   ],
+   "size": 8.8,
+   "testo": "incantesimi in forma bestiale, fatta eccezione per gli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    425.0,
+    276.4,
+    435.6
+   ],
+   "size": 8.8,
+   "testo": "incantesimi che abbiano bisogno di componenti materiali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    436.0,
+    256.2,
+    446.6
+   ],
+   "size": 8.8,
+   "testo": "con un costo specificato o che consumino la propria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.1,
+    447.0,
+    142.8,
+    457.5
+   ],
+   "size": 8.8,
+   "testo": "componente materiale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    467.5,
+    187.3,
+    478.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    478.7,
+    263.2,
+    489.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    489.7,
+    263.1,
+    500.3
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    493.7,
+    234.9,
+    511.9
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono del viaggio dimensionale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    521.3,
+    188.8,
+    532.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: ARCIDRUIDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    532.6,
+    276.2,
+    543.2
+   ],
+   "size": 8.8,
+   "testo": "La vitalità della natura fiorisce costantemente all'interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    543.6,
+    228.0,
+    554.2
+   ],
+   "size": 8.8,
+   "testo": "del druido, concedendogli i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    554.6,
+    268.9,
+    565.2
+   ],
+   "size": 8.8,
+   "testo": "Forma selvatica sempreverde. Ogni volta che il druido",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    565.6,
+    272.0,
+    576.2
+   ],
+   "size": 8.8,
+   "testo": "tira per l'iniziativa e non ha utilizzi disponibili di Forma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    576.6,
+    158.3,
+    587.2
+   ],
+   "size": 8.8,
+   "testo": "Selvatica, ne recupera uno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    587.6,
+    271.5,
+    598.2
+   ],
+   "size": 8.8,
+   "testo": "Mago della natura. Il druido può convertire gli utilizzi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    598.7,
+    266.8,
+    609.2
+   ],
+   "size": 8.8,
+   "testo": "di Forma Selvatica in slot incantesimo (nessuna azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    609.7,
+    281.2,
+    620.3
+   ],
+   "size": 8.8,
+   "testo": "richiesta). Sceglie un numero di utilizzi di Forma Selvatica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    620.8,
+    260.1,
+    631.3
+   ],
+   "size": 8.8,
+   "testo": "non spesi e li converte in un singolo slot incantesimo;",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    631.8,
+    252.0,
+    642.4
+   ],
+   "size": 8.8,
+   "testo": "ogni utilizzo contribuisce a 2 livelli di incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    642.8,
+    272.1,
+    653.4
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, se converte due utilizzi di Forma Selvatica,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    651.7,
+    278.5,
+    664.4
+   ],
+   "size": 8.8,
+   "testo": "ottiene uno slot incantesimo di 4° livello. Dopo aver usato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    664.8,
+    261.1,
+    675.4
+   ],
+   "size": 8.8,
+   "testo": "questo privilegio, il personaggio non può riutilizzarlo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    675.8,
+    216.7,
+    686.4
+   ],
+   "size": 8.8,
+   "testo": "prima di aver completato un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    686.8,
+    265.1,
+    697.3
+   ],
+   "size": 8.8,
+   "testo": "Corpo senza tempo. La magia primordiale che fluisce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    697.7,
+    280.8,
+    708.3
+   ],
+   "size": 8.8,
+   "testo": "nel druido rallenta il suo invecchiamento. Per ogni 10 anni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    708.7,
+    276.6,
+    719.3
+   ],
+   "size": 8.8,
+   "testo": "trascorsi, il corpo del druido invecchia soltanto di 1 anno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    389.7,
+    533.9,
+    402.8
+   ],
+   "size": 9.7,
+   "testo": "LISTA DEGLI INCANTESIMI DA DRUIDO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    406.3,
+    527.0,
+    416.8
+   ],
+   "size": 8.8,
+   "testo": "Questa sezione presenta la lista degli incantesimi del dru­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    417.2,
+    528.8,
+    427.8
+   ],
+   "size": 8.8,
+   "testo": "ido. Gli incantesimi sono ordinati prima per livello dell'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    428.2,
+    522.3,
+    438.8
+   ],
+   "size": 8.8,
+   "testo": "cantesimo e poi in ordine alfabetico, insieme alla scuola",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    439.2,
+    512.0,
+    449.8
+   ],
+   "size": 8.8,
+   "testo": "di magia per ciascuna voce dell'elenco. Nella colonna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    450.2,
+    517.6,
+    460.7
+   ],
+   "size": 8.8,
+   "testo": "Speciale, C significa che l'incantesimo richiede concen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.3,
+    461.1,
+    519.5,
+    471.7
+   ],
+   "size": 8.8,
+   "testo": "trazione, R indica che è un rituale, mentre M segnala la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    472.1,
+    495.3,
+    482.7
+   ],
+   "size": 8.8,
+   "testo": "necessità di una specifica componente materiale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    494.8,
+    497.3,
+    505.5
+   ],
+   "size": 10.6,
+   "testo": "TRUCCHETTI {INCANTESIMI DA DRUIDO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    508.4,
+    372.6,
+    519.1
+   ],
+   "size": 10.6,
+   "testo": "DI LIVELLO O)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    523.1,
+    357.6,
+    533.8
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    431.5,
+    523.2,
+    459.4,
+    533.9
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    538.7,
+    370.7,
+    547.9
+   ],
+   "size": 9.2,
+   "testo": "Artificio druidico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    431.0,
+    538.3,
+    490.1,
+    547.9
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    553.2,
+    364.4,
+    562.4
+   ],
+   "size": 9.2,
+   "testo": "Elementalismo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.8,
+    552.9,
+    490.3,
+    562.6
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    567.8,
+    363.0,
+    577.0
+   ],
+   "size": 9.2,
+   "testo": "Frusta di spine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.8,
+    567.5,
+    490.2,
+    577.1
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    582.4,
+    332.1,
+    591.6
+   ],
+   "size": 9.2,
+   "testo": "Guida",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    431.8,
+    582.0,
+    478.8,
+    591.6
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    597.0,
+    368.4,
+    606.2
+   ],
+   "size": 9.2,
+   "testo": "Luce splendente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    431.8,
+    596.7,
+    479.5,
+    606.3
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    611.6,
+    347.6,
+    620.8
+   ],
+   "size": 9.2,
+   "testo": "Messaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.8,
+    611.3,
+    490.0,
+    620.9
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    626.3,
+    372.6,
+    635.5
+   ],
+   "size": 9.2,
+   "testo": "Produrrefiamma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    431.7,
+    626.0,
+    476.5,
+    635.6
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    640.9,
+    379.6,
+    650.1
+   ],
+   "size": 9.2,
+   "testo": "Randello incantato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.8,
+    640.6,
+    490.0,
+    650.2
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    655.5,
+    347.6,
+    664.7
+   ],
+   "size": 9.2,
+   "testo": "Resistenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.8,
+    655.1,
+    479.2,
+    664.8
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    670.1,
+    340.4,
+    679.3
+   ],
+   "size": 9.2,
+   "testo": "Riparare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.7,
+    669.7,
+    490.0,
+    679.3
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    684.6,
+    368.7,
+    693.8
+   ],
+   "size": 9.2,
+   "testo": "Rombo di tuono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    431.7,
+    684.3,
+    479.4,
+    693.9
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    699.1,
+    372.5,
+    708.3
+   ],
+   "size": 9.2,
+   "testo": "Salvare i morenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    431.7,
+    698.8,
+    484.3,
+    708.5
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    713.8,
+    372.0,
+    723.0
+   ],
+   "size": 9.2,
+   "testo": "Spruzzo velenoso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    431.5,
+    713.4,
+    484.3,
+    723.1
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.4,
+    523.3,
+    531.5,
+    534.0
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    510.4,
+    582.6,
+    517.1,
+    591.6
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    510.3,
+    655.6,
+    517.0,
+    664.7
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

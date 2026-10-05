@@ -1,0 +1,708 @@
+{
+ "pagina_pdf": 123,
+ "pagina_stampata": 120,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    303.8,
+    40.0,
+    389.3,
+    53.1
+   ],
+   "size": 9.7,
+   "testo": "ILLUSIONISTA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    57.6,
+    483.5,
+    67.0
+   ],
+   "size": 8.6,
+   "testo": "Plasma i tuoi incantesimiper architettare inganni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    71.2,
+    530.4,
+    81.8
+   ],
+   "size": 8.8,
+   "testo": "Il mago si specializza in una magia in grado di confondere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    82.2,
+    528.6,
+    92.7
+   ],
+   "size": 8.8,
+   "testo": "i sensi e la mente, creando illusioni capaci di far sembrare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    93.2,
+    403.2,
+    103.8
+   ],
+   "size": 8.8,
+   "testo": "reale anche l'impossibile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    113.6,
+    489.4,
+    124.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: ILLUSIONI MIGLIORATE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    125.0,
+    502.3,
+    135.6
+   ],
+   "size": 8.8,
+   "testo": "Il mago può lanciare incantesimi di Illusione senza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.1,
+    136.0,
+    513.9,
+    146.6
+   ],
+   "size": 8.8,
+   "testo": "bisogno di componenti verbali e, se un incantesimo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    147.0,
+    517.5,
+    157.5
+   ],
+   "size": 8.8,
+   "testo": "Illusione lanciato ha una gittata di 3 metri o superiore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    158.0,
+    413.1,
+    168.6
+   ],
+   "size": 8.8,
+   "testo": "questa aumenta di 18 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    169.1,
+    519.0,
+    179.7
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, il mago conosce il trucchetto illusione minore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    180.0,
+    524.2,
+    190.6
+   ],
+   "size": 8.8,
+   "testo": "Se è già nel suo repertorio, imparerà un altro trucchetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    191.0,
+    531.3,
+    201.6
+   ],
+   "size": 8.8,
+   "testo": "da mago a scelta. Il trucchetto non conta rispetto al numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    202.1,
+    519.7,
+    212.7
+   ],
+   "size": 8.8,
+   "testo": "di trucchetti conosciuti dal personaggio. Attraverso un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    213.1,
+    528.2,
+    223.7
+   ],
+   "size": 8.8,
+   "testo": "singolo lancio di illusioneminore, effettuabile come azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    224.1,
+    517.6,
+    234.7
+   ],
+   "size": 8.8,
+   "testo": "bonus, è possibile riprodurre un suono e un'immagine.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    244.5,
+    492.4,
+    255.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: ILLUSIONISTA SAPIENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    255.9,
+    520.3,
+    266.5
+   ],
+   "size": 8.8,
+   "testo": "Scegli due incantesimi da mago della scuola di Illusione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    264.8,
+    529.2,
+    277.5
+   ],
+   "size": 8.8,
+   "testo": "che non siano di livello superiore al 2°, e aggiungili gratui­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    278.0,
+    474.7,
+    288.5
+   ],
+   "size": 8.8,
+   "testo": "tamente al libro degli incantesimi del mago.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    289.1,
+    518.0,
+    299.6
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ogni volta che il personaggio ottiene accesso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    300.1,
+    531.7,
+    310.7
+   ],
+   "size": 8.8,
+   "testo": "a un nuovo livello di slot incantesimo in questa classe, puoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    311.0,
+    533.1,
+    321.6
+   ],
+   "size": 8.8,
+   "testo": "aggiungere gratuitamente al libro un ulteriore incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    322.0,
+    532.0,
+    332.6
+   ],
+   "size": 8.8,
+   "testo": "da mago della scuola di Illusione. L'incantesimo scelto deve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    333.0,
+    522.8,
+    343.6
+   ],
+   "size": 8.8,
+   "testo": "essere di un livello di cui possiede degli slot incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    353.3,
+    483.2,
+    364.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: CREATURE SPETTRALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    364.8,
+    529.0,
+    375.3
+   ],
+   "size": 8.8,
+   "testo": "Gli incantesimi richiama bestia e richiamafollettosono sem­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    375.7,
+    529.8,
+    386.3
+   ],
+   "size": 8.8,
+   "testo": "pre considerati come preparati. Quando vengono lanciati,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    386.8,
+    532.4,
+    397.3
+   ],
+   "size": 8.8,
+   "testo": "il mago può cambiarne la scuola a Illusione, facendo sì che le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    397.8,
+    530.2,
+    408.4
+   ],
+   "size": 8.8,
+   "testo": "creature appaiano in forma spettrale. La versione illusoria",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    408.9,
+    529.0,
+    419.4
+   ],
+   "size": 8.8,
+   "testo": "ne consente il lancio senza spendere uno slot incantesimo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    419.9,
+    520.4,
+    430.5
+   ],
+   "size": 8.8,
+   "testo": "ma in questo modo i punti ferita delle creature saranno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    430.9,
+    529.4,
+    441.5
+   ],
+   "size": 8.8,
+   "testo": "dimezzati. Dopo aver lanciato questi incantesimi senza uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.5,
+    441.8,
+    528.6,
+    452.4
+   ],
+   "size": 8.8,
+   "testo": "slot, il personaggio deve completare un riposo lungo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    332.7,
+    452.8,
+    514.7,
+    463.3
+   ],
+   "size": 8.8,
+   "testo": "prima di poterli riutilizzare nello stesso modo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.9,
+    473.2,
+    495.2,
+    484.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: SOSIA ILLUSORIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.8,
+    484.5,
+    530.5,
+    495.1
+   ],
+   "size": 8.8,
+   "testo": "Quando una creatura colpisce il mago con un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    336.6,
+    495.6,
+    517.3,
+    506.2
+   ],
+   "size": 8.8,
+   "testo": "per colpire, questi può usare una reazione per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.7,
+    506.6,
+    517.5,
+    517.2
+   ],
+   "size": 8.8,
+   "testo": "frapporre il sosia illusorio tra sé e l'attaccante.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.6,
+    517.6,
+    522.9,
+    528.2
+   ],
+   "size": 8.8,
+   "testo": "Così facendo, l'attacco manca il bersaglio in auto­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    326.5,
+    528.7,
+    439.5,
+    539.3
+   ],
+   "size": 8.8,
+   "testo": "matico e l'illusione svanisce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.8,
+    539.6,
+    520.1,
+    550.2
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    550.7,
+    532.7,
+    561.2
+   ],
+   "size": 8.8,
+   "testo": "non può riutilizzarlo prima di aver completato un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    561.6,
+    523.2,
+    572.2
+   ],
+   "size": 8.8,
+   "testo": "breve o lungo. Tuttavia, è possibile ripristinarne l'uso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.5,
+    570.5,
+    527.4,
+    583.2
+   ],
+   "size": 8.8,
+   "testo": "consumando uno slot incantesimo di 2° livello o supe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    319.5,
+    583.6,
+    446.9,
+    594.2
+   ],
+   "size": 8.8,
+   "testo": "riore (nessuna azione richiesta).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.7,
+    604.0,
+    491.7,
+    615.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: REALTÀ ILLUSORIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.7,
+    615.6,
+    504.0,
+    626.2
+   ],
+   "size": 8.8,
+   "testo": "Il mago ha imparato a padroneggiare la magia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.5,
+    626.6,
+    517.6,
+    637.2
+   ],
+   "size": 8.8,
+   "testo": "dell'ombra per conferire alle proprie illusioni una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.4,
+    637.7,
+    520.0,
+    648.2
+   ],
+   "size": 8.8,
+   "testo": "parvenza di realtà. Quando lancia un incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    321.5,
+    648.6,
+    531.3,
+    659.2
+   ],
+   "size": 8.8,
+   "testo": "di Illusione con uno slot, può scegliere un oggetto non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    320.4,
+    659.6,
+    529.5,
+    670.2
+   ],
+   "size": 8.8,
+   "testo": "magico inanimato che è parte dell'illusione e renderlo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.8,
+    670.6,
+    531.8,
+    681.2
+   ],
+   "size": 8.8,
+   "testo": "reale. Può farlo come azione bonus nel proprio turno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    330.5,
+    681.6,
+    525.8,
+    692.2
+   ],
+   "size": 8.8,
+   "testo": "finché l'incantesimo è attivo. L'oggetto è reale per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.6,
+    692.6,
+    533.0,
+    703.2
+   ],
+   "size": 8.8,
+   "testo": "1 minuto, durante il quale non può infliggere danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    334.6,
+    703.6,
+    513.3,
+    714.2
+   ],
+   "size": 8.8,
+   "testo": "o condizioni. Per esempio, il mago può creare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    335.4,
+    714.6,
+    529.7,
+    725.2
+   ],
+   "size": 8.8,
+   "testo": "l'illusione di un ponte sopra un fossato e renderlo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    336.5,
+    725.6,
+    495.2,
+    736.2
+   ],
+   "size": 8.8,
+   "testo": "reale per consentirne l'attraversamento.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

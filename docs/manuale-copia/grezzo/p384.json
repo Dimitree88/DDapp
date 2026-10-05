@@ -1,0 +1,5160 @@
+{
+ "pagina_pdf": 384,
+ "pagina_stampata": 381,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "INDICE / 381",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    62.0,
+    41.2,
+    116.7,
+    48.0
+   ],
+   "size": 5.2,
+   "testo": "guarigione, 28, 365",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    41.3,
+    235.8,
+    48.0
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi del Cacciatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.5,
+    41.3,
+    314.6,
+    48.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimo Celato",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    41.1,
+    440.7,
+    48.0
+   ],
+   "size": 6.8,
+   "testo": "intralciare (incantesimo), 285",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    41.5,
+    537.4,
+    48.4
+   ],
+   "size": 6.8,
+   "testo": "Librodelle Ombre. Vedi Patto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.9,
+    49.2,
+    101.8,
+    56.0
+   ],
+   "size": 5.2,
+   "testo": "danni e, 27",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    49.3,
+    244.8,
+    56.1
+   ],
+   "size": 5.2,
+   "testo": "delle Tenebre (tabella), 145",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.6,
+    49.3,
+    318.3,
+    56.0
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 153",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    49.2,
+    427.0,
+    56.0
+   ],
+   "size": 5.2,
+   "testo": "I ntrattenere (abilità), 14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.5,
+    49.5,
+    505.0,
+    56.3
+   ],
+   "size": 5.2,
+   "testo": "del Tomo, 168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.1,
+    57.2,
+    112.1,
+    64.0
+   ],
+   "size": 5.2,
+   "testo": "stabilizzare un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    57.2,
+    231.7,
+    64.0
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi del Cavaliere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    57.2,
+    321.0,
+    64.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimo Distante",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    57.2,
+    438.0,
+    64.0
+   ],
+   "size": 5.2,
+   "testo": "Intrattenitore (background),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    57.5,
+    534.6,
+    64.3
+   ],
+   "size": 5.2,
+   "testo": "Lignaggi elfici (tabella), 189",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    78.1,
+    65.3,
+    123.5,
+    72.0
+   ],
+   "size": 5.2,
+   "testo": "personaggio, 29",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    65.3,
+    226.3,
+    72.0
+   ],
+   "size": 5.2,
+   "testo": "Mistico (tabella), 95",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.6,
+    65.2,
+    318.3,
+    72.0
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 153",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.3,
+    65.2,
+    377.1,
+    72.0
+   ],
+   "size": 5.2,
+   "testo": "182",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    65.6,
+    489.2,
+    72.3
+   ],
+   "size": 5.2,
+   "testo": "Limbo, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    73.2,
+    116.5,
+    80.1
+   ],
+   "size": 6.8,
+   "testo": "guarigione di massa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    73.2,
+    241.6,
+    80.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Circolo della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.5,
+    73.3,
+    315.7,
+    80.0
+   ],
+   "size": 5.2,
+   "testo": "Incantesimo Esteso",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    73.2,
+    422.2,
+    79.9
+   ],
+   "size": 5.2,
+   "testo": "I ntuizione (abilità) , 14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    73.6,
+    530.2,
+    80.3
+   ],
+   "size": 5.2,
+   "testo": "linea (area di effetto) , 367",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.6,
+    81.3,
+    124.4,
+    88.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 279",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    81.3,
+    219.0,
+    88.0
+   ],
+   "size": 5.2,
+   "testo": "Luna (tabella), 85",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.6,
+    81.2,
+    318.2,
+    88.0
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia) , 153",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    81.1,
+    420.2,
+    88.0
+   ],
+   "size": 6.8,
+   "testo": "inversione della gravità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    81.5,
+    485.8,
+    88.3
+   ],
+   "size": 5.2,
+   "testo": "lingua, 37",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    89.2,
+    145.8,
+    96.1
+   ],
+   "size": 6.8,
+   "testo": "guarigione (incantesimo), 279",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    89.2,
+    241.6,
+    96.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Circolo della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.4,
+    89.2,
+    332.0,
+    96.0
+   ],
+   "size": 5.2,
+   "testo": "Incantesimo I ntensificato",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.4,
+    89.2,
+    420.0,
+    96.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 285",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    89.5,
+    539.7,
+    96.3
+   ],
+   "size": 5.2,
+   "testo": "Lingua dei Segni Comune, 37",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.1,
+    97.1,
+    135.3,
+    104.0
+   ],
+   "size": 6.8,
+   "testo": "guarigione, pozione di, 227",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    97.2,
+    235.0,
+    104.0
+   ],
+   "size": 5.2,
+   "testo": "Terra arida (tabella), 88",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.6,
+    97.1,
+    318.3,
+    103.9
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 153",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    97.1,
+    437.7,
+    103.8
+   ],
+   "size": 5.2,
+   "testo": "I nvestitura del Signore delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    97.4,
+    536.9,
+    104.3
+   ],
+   "size": 6.8,
+   "testo": "linguaggi (incantesimo), 288",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    105.1,
+    128.4,
+    111.9
+   ],
+   "size": 5.2,
+   "testo": "Guaritore (talento) , 201",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    105.2,
+    241.6,
+    111.9
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Circolo della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.4,
+    105.1,
+    315.9,
+    111.9
+   ],
+   "size": 5.2,
+   "testo": "Incantesimo Mirato",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.9,
+    105.0,
+    430.1,
+    111.8
+   ],
+   "size": 5.2,
+   "testo": "Catene (supplica), 167",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    105.4,
+    525.3,
+    112.2
+   ],
+   "size": 5.2,
+   "testo": "Lingue rare (tabella) , 37",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    113.2,
+    131.9,
+    120.0
+   ],
+   "size": 5.2,
+   "testo": "guerriero (classe), 49, 91",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    113.2,
+    238.8,
+    120.0
+   ],
+   "size": 5.2,
+   "testo": "Terra polare (tabella), 88",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.6,
+    113.2,
+    318.2,
+    119.9
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 153",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    113.1,
+    432.0,
+    120.0
+   ],
+   "size": 6.8,
+   "testo": "inviare (incantesimo), 286",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    457.3,
+    113.5,
+    538.3,
+    120.3
+   ],
+   "size": 5.2,
+   "testo": "Lingue standard (tabella), 37",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.5,
+    121.2,
+    130.3,
+    127.9
+   ],
+   "size": 5.2,
+   "testo": "Privilegi del guerriero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    121.1,
+    241.4,
+    127.9
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Circolo della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.4,
+    121.2,
+    326.9,
+    127.9
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimo Potenziato",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    121.1,
+    435.3,
+    127.8
+   ],
+   "size": 5.2,
+   "testo": "invisibile (condizione), 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    121.5,
+    479.5,
+    128.2
+   ],
+   "size": 5.2,
+   "testo": "lira, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    78.5,
+    129.2,
+    112.6,
+    136.0
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 92",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    129.2,
+    241.0,
+    135.9
+   ],
+   "size": 5.2,
+   "testo": "Terra temperata (tabella),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.5,
+    129.1,
+    318.3,
+    135.9
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 154",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    129.1,
+    441.1,
+    136.0
+   ],
+   "size": 6.8,
+   "testo": "invisibilità (incantesimo), 286",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    129.4,
+    538.7,
+    136.2
+   ],
+   "size": 5.2,
+   "testo": "bardo, lista degli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.2,
+    137.1,
+    111.1,
+    143.9
+   ],
+   "size": 5.2,
+   "testo": "sottoclassi, 93",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.1,
+    137.2,
+    176.7,
+    144.0
+   ],
+   "size": 5.2,
+   "testo": "88",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    137.1,
+    317.8,
+    143.9
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimo Preciso",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    136.9,
+    411.8,
+    143.8
+   ],
+   "size": 6.8,
+   "testo": "invisibilità superiore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.4,
+    137.4,
+    482.4,
+    144.2
+   ],
+   "size": 5.2,
+   "testo": "da, 62",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.9,
+    145.1,
+    148.8,
+    151.9
+   ],
+   "size": 5.2,
+   "testo": "Tratti del guerriero (tabella),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    145.1,
+    241.5,
+    151.9
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi del Circolo della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.5,
+    145.1,
+    318.3,
+    151.9
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 154",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.4,
+    145.0,
+    420.4,
+    151.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 286",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    145.4,
+    544.1,
+    152.2
+   ],
+   "size": 5.2,
+   "testo": "chierico, lista degli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    78.0,
+    153.2,
+    85.6,
+    159.9
+   ],
+   "size": 5.2,
+   "testo": "91",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    153.2,
+    245.5,
+    160.0
+   ],
+   "size": 5.2,
+   "testo": "Terra tropicale (tabella) , 89",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.4,
+    153.2,
+    332.9,
+    160.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimo Raddoppiato",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.9,
+    153.1,
+    408.4,
+    160.0
+   ],
+   "size": 6.8,
+   "testo": "invocare ilfulmine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    153.4,
+    481.6,
+    160.2
+   ],
+   "size": 5.2,
+   "testo": "da, 71",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    161.2,
+    131.4,
+    168.0
+   ],
+   "size": 5.2,
+   "testo": "Guerriero degli Elementi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    161.2,
+    236.1,
+    168.0
+   ],
+   "size": 5.2,
+   "testo": "incantesimi del Circolo del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.5,
+    161.2,
+    318.3,
+    168.0
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 154",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.4,
+    161.1,
+    420.3,
+    167.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 286",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    161.4,
+    540.7,
+    168.2
+   ],
+   "size": 5.2,
+   "testo": "druido, lista degli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.7,
+    169.2,
+    120.5,
+    176.0
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 126",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    169.1,
+    193.8,
+    175.9
+   ],
+   "size": 5.2,
+   "testo": "Mare, 86",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    169.2,
+    317.0,
+    175.9
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimo Rapido",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    169.1,
+    439.2,
+    175.9
+   ],
+   "size": 5.2,
+   "testo": "I nvocatore (sottoclasse) , 121",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.4,
+    169.5,
+    482.2,
+    176.2
+   ],
+   "size": 5.2,
+   "testo": "da, 82",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    177.2,
+    142.8,
+    184.0
+   ],
+   "size": 5.2,
+   "testo": "Guerriero della Mano Aperta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    177.2,
+    246.4,
+    184.0
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi del Dominio della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.5,
+    177.1,
+    318.1,
+    183.9
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 154",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    177.0,
+    438.1,
+    183.8
+   ],
+   "size": 5.2,
+   "testo": "I ra I mplacabile (privilegio di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    177.4,
+    538.4,
+    184.2
+   ],
+   "size": 5.2,
+   "testo": "mago, lista degli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.6,
+    185.2,
+    120.5,
+    192.0
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 127",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.2,
+    185.2,
+    224.6,
+    192.0
+   ],
+   "size": 5.2,
+   "testo": "Guerra (tabella), 73",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    185.2,
+    328.8,
+    192.0
+   ],
+   "size": 5.2,
+   "testo": "Incantesimo Trasmutato",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.7,
+    185.1,
+    396.3,
+    191.9
+   ],
+   "size": 5.2,
+   "testo": "classe), 53",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.7,
+    185.5,
+    487.1,
+    192.2
+   ],
+   "size": 5.2,
+   "testo": "da, 114",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    193.2,
+    141.7,
+    200.0
+   ],
+   "size": 5.2,
+   "testo": "Guerriero della M isericordia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    193.2,
+    246.4,
+    199.9
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Dominio della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.5,
+    193.2,
+    318.3,
+    199.9
+   ],
+   "size": 5.2,
+   "testo": "(Metamagia), 154",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    193.1,
+    436.6,
+    199.9
+   ],
+   "size": 5.2,
+   "testo": "I ra Persistente (privilegio di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    193.4,
+    512.2,
+    200.2
+   ],
+   "size": 5.2,
+   "testo": "paladino, lista degli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.6,
+    201.3,
+    120.4,
+    208.0
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 128",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    201.3,
+    217.6,
+    208.0
+   ],
+   "size": 5.2,
+   "testo": "Luce (tabella) , 76",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.1,
+    201.2,
+    345.8,
+    208.0
+   ],
+   "size": 5.2,
+   "testo": "incapacitato (condizione), 366",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.7,
+    201.1,
+    397.0,
+    207.9
+   ],
+   "size": 5.2,
+   "testo": "classe), 53",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.7,
+    201.5,
+    520.1,
+    208.3
+   ],
+   "size": 5.2,
+   "testo": "incantesimi da, 134",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    209.2,
+    122.5,
+    216.0
+   ],
+   "size": 5.2,
+   "testo": "Guerriero dell'Ombra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    209.2,
+    246.4,
+    216.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Dominio della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.1,
+    209.2,
+    302.6,
+    216.0
+   ],
+   "size": 5.2,
+   "testo": "inchiostro, 226",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    209.2,
+    434.6,
+    216.0
+   ],
+   "size": 5.2,
+   "testo": "I ra (privilegio di classe), 51",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    209.5,
+    539.8,
+    216.3
+   ],
+   "size": 5.2,
+   "testo": "ranger, lista degli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.7,
+    217.2,
+    120.4,
+    224.0
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 129",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    217.2,
+    216.3,
+    224.0
+   ],
+   "size": 5.2,
+   "testo": "Vita (tabella), 77",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.1,
+    217.2,
+    298.1,
+    224.0
+   ],
+   "size": 5.2,
+   "testo": "incontro, 366",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.9,
+    217.1,
+    438.2,
+    224.0
+   ],
+   "size": 6.8,
+   "testo": "ispirazione. Vedi Ispirazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.4,
+    217.4,
+    486.4,
+    224.2
+   ],
+   "size": 5.2,
+   "testo": "da, 143",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    225.2,
+    115.2,
+    232.0
+   ],
+   "size": 5.2,
+   "testo": "Guerriero Psionico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    225.2,
+    231.6,
+    232.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Dominio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.2,
+    225.2,
+    319.7,
+    232.0
+   ],
+   "size": 5.2,
+   "testo": "I ndagare (abilità), 14",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.7,
+    225.1,
+    397.8,
+    231.9
+   ],
+   "size": 5.2,
+   "testo": "eroica, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    225.5,
+    512.5,
+    232.2
+   ],
+   "size": 5.2,
+   "testo": "stregone, lista degli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.6,
+    233.3,
+    117.6,
+    240.0
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 96",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.2,
+    233.3,
+    239.9,
+    240.0
+   ],
+   "size": 5.2,
+   "testo": "dell'Inganno (tabella), 74",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.1,
+    233.2,
+    339.9,
+    240.0
+   ],
+   "size": 5.2,
+   "testo": "indebolimento (condizione),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.1,
+    233.1,
+    443.2,
+    239.9
+   ],
+   "size": 5.2,
+   "testo": "Ispirazione Bardica (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.5,
+    233.5,
+    519.9,
+    240.3
+   ],
+   "size": 5.2,
+   "testo": "incantesimi da, 154",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    241.2,
+    148.2,
+    248.0
+   ],
+   "size": 5.2,
+   "testo": "gufo (scheda delle statistiche),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    241.2,
+    240.4,
+    248.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Giuramento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.3,
+    241.2,
+    278.2,
+    247.9
+   ],
+   "size": 5.2,
+   "testo": "366",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.7,
+    241.1,
+    403.9,
+    247.9
+   ],
+   "size": 5.2,
+   "testo": "di classe), 60",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    241.5,
+    543.6,
+    248.3
+   ],
+   "size": 5.2,
+   "testo": "warlock, lista degli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.3,
+    249.2,
+    81.6,
+    256.0
+   ],
+   "size": 5.2,
+   "testo": "350",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.2,
+    249.2,
+    242.7,
+    256.0
+   ],
+   "size": 5.2,
+   "testo": "degli Antichi (tabella), 135",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.1,
+    249.2,
+    340.9,
+    256.0
+   ],
+   "size": 5.2,
+   "testo": "indifferente (atteggiamento) ,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.1,
+    249.1,
+    432.9,
+    255.9
+   ],
+   "size": 5.2,
+   "testo": "Ispirazione eroica, 13, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.3,
+    249.4,
+    485.7,
+    256.2
+   ],
+   "size": 5.2,
+   "testo": "da, 169",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    257.2,
+    132.9,
+    263.9
+   ],
+   "size": 5.2,
+   "testo": "Guida (background), 181",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    257.2,
+    240.4,
+    264.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi d e l Giuramento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.3,
+    257.1,
+    278.2,
+    263.9
+   ],
+   "size": 5.2,
+   "testo": "366",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.1,
+    257.1,
+    440.5,
+    263.9
+   ],
+   "size": 5.2,
+   "testo": "Ispirazione eroica (riquadro),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    257.4,
+    538.5,
+    264.2
+   ],
+   "size": 5.2,
+   "testo": "Lista dei talenti (tabella), 199",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.1,
+    265.2,
+    132.7,
+    272.1
+   ],
+   "size": 6.8,
+   "testo": "guida (incantesimo), 279",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    265.2,
+    244.8,
+    272.0
+   ],
+   "size": 5.2,
+   "testo": "di Devozione (tabella), 136",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.0,
+    265.1,
+    330.5,
+    272.0
+   ],
+   "size": 6.8,
+   "testo": "individuazione dei pensieri",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.0,
+    265.1,
+    374.6,
+    271.9
+   ],
+   "size": 5.2,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    265.5,
+    531.0,
+    272.2
+   ],
+   "size": 5.2,
+   "testo": "classe, liste d i incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.1,
+    273.3,
+    146.4,
+    280.2
+   ],
+   "size": 6.8,
+   "testo": "guscio anti·vita (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    273.3,
+    240.4,
+    280.1
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Giuramento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.4,
+    273.3,
+    321.3,
+    280.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 283",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    273.2,
+    418.8,
+    280.0
+   ],
+   "size": 5.2,
+   "testo": "Ispirazione Superiore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.5,
+    273.5,
+    488.0,
+    280.3
+   ],
+   "size": 5.2,
+   "testo": "per, 236",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.2,
+    281.3,
+    81.1,
+    288.0
+   ],
+   "size": 5.2,
+   "testo": "280",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    281.3,
+    232.0,
+    288.0
+   ],
+   "size": 5.2,
+   "testo": "di Gloria (tabella), 137",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.0,
+    281.2,
+    337.0,
+    288.1
+   ],
+   "size": 6.8,
+   "testo": "individuazione del bene e del",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.3,
+    281.2,
+    433.2,
+    288.0
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 61",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    281.6,
+    541.5,
+    288.3
+   ],
+   "size": 5.2,
+   "testo": "liste di incantesimi per classe,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    289.2,
+    98.5,
+    296.0
+   ],
+   "size": 5.2,
+   "testo": "Halfling, 192",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    289.3,
+    240.4,
+    296.1
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Giuramento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    266.9,
+    289.2,
+    336.6,
+    296.1
+   ],
+   "size": 6.8,
+   "testo": "male (incantesimo), 283",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.1,
+    289.1,
+    426.9,
+    295.9
+   ],
+   "size": 5.2,
+   "testo": "Istinto Ferino (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.4,
+    289.5,
+    476.0,
+    296.2
+   ],
+   "size": 5.2,
+   "testo": "236",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    297.2,
+    119.5,
+    304.0
+   ],
+   "size": 5.2,
+   "testo": "Halfling (lingua), 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    297.2,
+    239.3,
+    304.0
+   ],
+   "size": 5.2,
+   "testo": "di Vendetta (tabella), 139",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    258.9,
+    297.2,
+    337.3,
+    304.1
+   ],
+   "size": 6.8,
+   "testo": "individuazione delle malattie",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.9,
+    297.2,
+    403.9,
+    304.0
+   ],
+   "size": 5.2,
+   "testo": "di classe), 53",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    297.5,
+    483.1,
+    304.3
+   ],
+   "size": 5.2,
+   "testo": "liuto, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    305.2,
+    147.0,
+    312.1
+   ],
+   "size": 6.8,
+   "testo": "identificare (incantesimo), 280",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    305.3,
+    246.9,
+    312.1
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi del Grande Antico",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    266.8,
+    305.1,
+    340.6,
+    312.0
+   ],
+   "size": 6.8,
+   "testo": "e dei veleni (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.0,
+    305.2,
+    423.9,
+    312.0
+   ],
+   "size": 5.2,
+   "testo": "Ki (privilegio di classe).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    305.5,
+    531.6,
+    312.3
+   ],
+   "size": 5.2,
+   "testo": "livello, avanzamento di, 41",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    313.3,
+    146.9,
+    320.1
+   ],
+   "size": 5.2,
+   "testo": "Identificare un incantesimo in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    313.2,
+    206.1,
+    320.0
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 172",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.0,
+    313.3,
+    278.2,
+    320.0
+   ],
+   "size": 5.2,
+   "testo": "283",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.0,
+    313.1,
+    424.7,
+    320.0
+   ],
+   "size": 6.8,
+   "testo": "Vedi Concentrazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    313.4,
+    529.8,
+    320.3
+   ],
+   "size": 6.8,
+   "testo": "localizza animali o vegetali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.4,
+    321.2,
+    130.5,
+    328.0
+   ],
+   "size": 5.2,
+   "testo": "corso (riquadro) , 238",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    321.2,
+    241.6,
+    328.0
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi del M istificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    258.9,
+    321.1,
+    329.5,
+    328.0
+   ],
+   "size": 6.8,
+   "testo": "individuazione del magico",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.7,
+    321.1,
+    411.7,
+    327.9
+   ],
+   "size": 5.2,
+   "testo": "da Monaco, 123",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    321.5,
+    518.4,
+    328.3
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 288",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    329.2,
+    125.9,
+    336.0
+   ],
+   "size": 5.2,
+   "testo": "identificare un oggetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    329.2,
+    228.4,
+    336.0
+   ],
+   "size": 5.2,
+   "testo": "Arcano (tabella) , 109",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    329.2,
+    321.3,
+    336.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 284",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.8,
+    329.0,
+    436.5,
+    335.9
+   ],
+   "size": 6.8,
+   "testo": "labirinto (incantesimo), 286",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    329.3,
+    504.4,
+    336.2
+   ],
+   "size": 6.8,
+   "testo": "localizza creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.2,
+    337.2,
+    105.3,
+    344.0
+   ],
+   "size": 5.2,
+   "testo": "magico, 232",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    337.2,
+    244.9,
+    343.9
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi del signore fatato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.2,
+    337.2,
+    329.6,
+    343.9
+   ],
+   "size": 5.2,
+   "testo": "Indomabile (privilegio di",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.8,
+    337.0,
+    420.4,
+    343.8
+   ],
+   "size": 5.2,
+   "testo": "ladro (classe), 49, 101",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    337.4,
+    518.4,
+    344.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 288",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    345.2,
+    117.3,
+    352.0
+   ],
+   "size": 5.2,
+   "testo": "Ignan (dialetto), 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    345.2,
+    205.9,
+    351.9
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 175",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.9,
+    345.2,
+    298.1,
+    351.9
+   ],
+   "size": 5.2,
+   "testo": "classe), 92",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.8,
+    345.1,
+    442.6,
+    351.9
+   ],
+   "size": 5.2,
+   "testo": "Privilegi del ladro (tabella),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    345.3,
+    502.1,
+    352.2
+   ],
+   "size": 6.8,
+   "testo": "localizza oggetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    353.2,
+    100.2,
+    360.0
+   ],
+   "size": 5.2,
+   "testo": "illusione, 365",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.5,
+    353.2,
+    234.4,
+    360.0
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi del Viandante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.0,
+    353.1,
+    331.2,
+    359.9
+   ],
+   "size": 5.2,
+   "testo": "indossare gli oggetti, 232",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    374.1,
+    353.0,
+    385.7,
+    359.8
+   ],
+   "size": 5.2,
+   "testo": "102",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    353.4,
+    518.4,
+    360.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 288",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    361.2,
+    148.5,
+    368.1
+   ],
+   "size": 6.8,
+   "testo": "illusione minore (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    361.2,
+    225.3,
+    368.0
+   ],
+   "size": 5.2,
+   "testo": "Fatato (tabella), 148",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.0,
+    361.1,
+    335.0,
+    368.0
+   ],
+   "size": 6.8,
+   "testo": "inedia. Vedi malnutrizione,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.8,
+    361.1,
+    410.2,
+    367.8
+   ],
+   "size": 5.2,
+   "testo": "sottoclassi, 104",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    361.4,
+    536.4,
+    368.3
+   ],
+   "size": 6.8,
+   "testo": "loquacità (incantesimo), 288",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.1,
+    369.1,
+    80.7,
+    375.9
+   ],
+   "size": 5.2,
+   "testo": "280",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    369.1,
+    228.4,
+    375.9
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi di Dominio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.2,
+    369.1,
+    278.3,
+    375.9
+   ],
+   "size": 5.2,
+   "testo": "368",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.4,
+    369.0,
+    434.5,
+    375.8
+   ],
+   "size": 5.2,
+   "testo": "Tratti del ladro (tabella),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.5,
+    369.4,
+    541.0,
+    376.1
+   ],
+   "size": 5.2,
+   "testo": "Lottatore da taverna (talento),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.1,
+    377.1,
+    123.5,
+    384.0
+   ],
+   "size": 6.8,
+   "testo": "illusione programmata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    377.2,
+    237.2,
+    383.9
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 73,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.1,
+    377.1,
+    319.6,
+    383.9
+   ],
+   "size": 5.2,
+   "testo": "Infernale (lingua), 37",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    374.1,
+    377.0,
+    384.7,
+    383.8
+   ],
+   "size": 5.2,
+   "testo": "101",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.3,
+    377.4,
+    475.6,
+    384.1
+   ],
+   "size": 5.2,
+   "testo": "202",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.3,
+    385.3,
+    123.2,
+    392.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 281",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.1,
+    385.2,
+    196.9,
+    392.0
+   ],
+   "size": 5.2,
+   "testo": "74, 76, 77",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.0,
+    385.2,
+    332.1,
+    392.0
+   ],
+   "size": 5.2,
+   "testo": "in fiamme (pericolo), 366",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.6,
+    385.2,
+    443.3,
+    392.0
+   ],
+   "size": 5.2,
+   "testo": "Lama Assetata (supplica), 168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.5,
+    385.4,
+    522.4,
+    392.2
+   ],
+   "size": 5.2,
+   "testo": "Lottatore (talento), 205",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    393.3,
+    144.9,
+    400.1
+   ],
+   "size": 5.2,
+   "testo": "Illusionista (sottoclasse), 120",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    393.3,
+    223.1,
+    400.0
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi Draconici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.9,
+    393.2,
+    335.5,
+    400.1
+   ],
+   "size": 6.8,
+   "testo": "infliggiferite (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.9,
+    393.1,
+    438.3,
+    399.9
+   ],
+   "size": 5.2,
+   "testo": "Lama Divoratrice (supplica),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    393.5,
+    468.8,
+    400.3
+   ],
+   "size": 5.2,
+   "testo": "luce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    401.3,
+    130.0,
+    408.0
+   ],
+   "size": 5.2,
+   "testo": "Il repertorio di un bardo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    401.3,
+    206.0,
+    408.0
+   ],
+   "size": 5.2,
+   "testo": "(tabella) , 159",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    401.2,
+    277.7,
+    408.0
+   ],
+   "size": 5.2,
+   "testo": "284",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.9,
+    401.1,
+    376.7,
+    407.9
+   ],
+   "size": 5.2,
+   "testo": "168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.1,
+    401.4,
+    492.6,
+    408.2
+   ],
+   "size": 5.2,
+   "testo": "fioca, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.2,
+    409.4,
+    109.2,
+    416.2
+   ],
+   "size": 5.2,
+   "testo": "(riquadro), 61",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    409.4,
+    235.8,
+    416.3
+   ],
+   "size": 6.8,
+   "testo": "Incantesimi Flessibili. Vedi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.1,
+    409.3,
+    328.1,
+    416.1
+   ],
+   "size": 5.2,
+   "testo": "I nfluenzare (azione), 15",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.8,
+    409.2,
+    442.7,
+    416.1
+   ],
+   "size": 6.8,
+   "testo": "lama infuocata (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.4,
+    409.6,
+    499.8,
+    416.4
+   ],
+   "size": 5.2,
+   "testo": "intensa, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    417.3,
+    116.4,
+    424.2
+   ],
+   "size": 6.8,
+   "testo": "immagine maggiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    417.4,
+    224.8,
+    424.2
+   ],
+   "size": 5.2,
+   "testo": "Fonte di Magia, 152",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.1,
+    417.4,
+    318.1,
+    424.2
+   ],
+   "size": 5.2,
+   "testo": "I nganno (abilità), 14",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.8,
+    417.3,
+    377.3,
+    424.0
+   ],
+   "size": 5.2,
+   "testo": "287",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.5,
+    417.5,
+    481.8,
+    424.3
+   ],
+   "size": 5.2,
+   "testo": "Luce, 19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.2,
+    425.4,
+    123.0,
+    432.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 281",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    425.4,
+    221.9,
+    432.2
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi immondi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.0,
+    425.3,
+    327.7,
+    432.2
+   ],
+   "size": 6.8,
+   "testo": "ingombro. Vedi capacità",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    425.3,
+    442.0,
+    432.1
+   ],
+   "size": 5.2,
+   "testo": "Lama Spirituale (sottoclasse),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.1,
+    425.6,
+    490.0,
+    432.4
+   ],
+   "size": 5.2,
+   "testo": "fioca, 19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    433.3,
+    117.9,
+    440.2
+   ],
+   "size": 6.8,
+   "testo": "immagine proiettata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    433.4,
+    205.9,
+    440.2
+   ],
+   "size": 5.2,
+   "testo": "(tabella) , 174",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.2,
+    433.3,
+    314.8,
+    440.1
+   ],
+   "size": 5.2,
+   "testo": "di trasporto, 363",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.9,
+    433.3,
+    376.7,
+    440.1
+   ],
+   "size": 5.2,
+   "testo": "106",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.3,
+    433.6,
+    497.2,
+    440.4
+   ],
+   "size": 5.2,
+   "testo": "intensa, 19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.1,
+    441.3,
+    123.0,
+    448.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 281",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    441.3,
+    224.6,
+    448.1
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi Meccanici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.9,
+    441.2,
+    307.5,
+    448.1
+   ],
+   "size": 6.8,
+   "testo": "ingrandire/ridurre",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.6,
+    441.2,
+    396.9,
+    448.0
+   ],
+   "size": 5.2,
+   "testo": "lampada, 226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    441.5,
+    541.9,
+    448.4
+   ],
+   "size": 6.8,
+   "testo": "luce diurna (incantesimo), 289",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.8,
+    449.3,
+    116.6,
+    456.2
+   ],
+   "size": 6.8,
+   "testo": "immagine silenziosa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    449.3,
+    206.0,
+    456.0
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 162",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    449.3,
+    321.2,
+    456.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 284",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    449.2,
+    390.0,
+    456.0
+   ],
+   "size": 5.2,
+   "testo": "Lancia, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    449.5,
+    495.0,
+    456.3
+   ],
+   "size": 5.2,
+   "testo": "luce fioca, 19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.1,
+    457.4,
+    123.9,
+    464.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 282",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    457.3,
+    222.1,
+    464.1
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi Personali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.9,
+    457.3,
+    338.6,
+    464.1
+   ],
+   "size": 5.2,
+   "testo": "iniziare a livelli superiori, 43",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.6,
+    457.2,
+    424.7,
+    464.0
+   ],
+   "size": 5.2,
+   "testo": "Lancia da cavaliere, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    457.6,
+    501.1,
+    464.4
+   ],
+   "size": 5.2,
+   "testo": "Luce Fioca, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    465.3,
+    116.2,
+    472.2
+   ],
+   "size": 6.8,
+   "testo": "immagine speculare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    465.4,
+    240.5,
+    472.2
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 113",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.1,
+    465.4,
+    309.5,
+    472.2
+   ],
+   "size": 5.2,
+   "testo": "I niziativa, 23, 367",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.6,
+    465.3,
+    443.8,
+    472.0
+   ],
+   "size": 5.2,
+   "testo": "Lancia Occulta (supplica) , 168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    465.5,
+    522.8,
+    472.4
+   ],
+   "size": 6.8,
+   "testo": "luce (incantesimo), 289",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.1,
+    473.3,
+    123.9,
+    480.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 282",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.2,
+    473.3,
+    231.0,
+    480.1
+   ],
+   "size": 5.2,
+   "testo": "I ncantesimi (privilegio di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.1,
+    473.3,
+    338.9,
+    480.1
+   ],
+   "size": 5.2,
+   "testo": "Iniziato alla magia (talento) ,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.6,
+    473.3,
+    437.3,
+    480.0
+   ],
+   "size": 5.2,
+   "testo": "lanciare gli incantesimi, 235",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    473.6,
+    502.0,
+    480.3
+   ],
+   "size": 5.2,
+   "testo": "luce intensa, 19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    481.3,
+    140.9,
+    488.1
+   ],
+   "size": 5.2,
+   "testo": "immondo (tipo di creatura) ,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    481.4,
+    234.0,
+    488.2
+   ],
+   "size": 5.2,
+   "testo": "classe), 59, 69, 79, 111 ,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    266.9,
+    481.2,
+    277.3,
+    488.0
+   ],
+   "size": 5.2,
+   "testo": "201",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.8,
+    481.2,
+    423.4,
+    488.0
+   ],
+   "size": 5.2,
+   "testo": "Lanciare incantesimi in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    481.6,
+    504.4,
+    488.3
+   ],
+   "size": 5.2,
+   "testo": "luce intensa, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.0,
+    489.3,
+    80.8,
+    496.1
+   ],
+   "size": 5.2,
+   "testo": "376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    489.3,
+    205.3,
+    496.1
+   ],
+   "size": 5.2,
+   "testo": "131 , 141 , 151",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.2,
+    489.2,
+    341.7,
+    496.1
+   ],
+   "size": 6.8,
+   "testo": "insetto gigante (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.5,
+    489.2,
+    436.9,
+    496.0
+   ],
+   "size": 5.2,
+   "testo": "armatura (riquadro), 235",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    489.5,
+    520.9,
+    496.3
+   ],
+   "size": 5.2,
+   "testo": "lucertola (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    497.3,
+    104.4,
+    504.1
+   ],
+   "size": 5.2,
+   "testo": "immunità, 366",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    497.4,
+    245.2,
+    504.2
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi Psionici (tabella),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    266.9,
+    497.3,
+    278.0,
+    504.1
+   ],
+   "size": 5.2,
+   "testo": "284",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.9,
+    497.2,
+    428.1,
+    504.0
+   ],
+   "size": 5.2,
+   "testo": "Lanciare un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.2,
+    497.6,
+    509.3,
+    504.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 351",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    505.4,
+    101.2,
+    512.2
+   ],
+   "size": 5.2,
+   "testo": "Immunità, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    505.4,
+    179.0,
+    512.1
+   ],
+   "size": 5.2,
+   "testo": "157",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.9,
+    505.4,
+    340.9,
+    512.2
+   ],
+   "size": 5.2,
+   "testo": "insetto gigante (scheda delle",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.0,
+    505.2,
+    435.9,
+    512.1
+   ],
+   "size": 6.8,
+   "testo": "(azione). Vedi Magia, 15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    505.6,
+    540.9,
+    512.5
+   ],
+   "size": 6.8,
+   "testo": "luce splendente (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.0,
+    513.4,
+    128.6,
+    520.2
+   ],
+   "size": 5.2,
+   "testo": "Imposizione delle Mani",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.1,
+    513.4,
+    245.4,
+    520.2
+   ],
+   "size": 5.2,
+   "testo": "incantesimi sempre preparati,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    266.8,
+    513.4,
+    313.0,
+    520.2
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 284",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.6,
+    513.3,
+    443.9,
+    520.1
+   ],
+   "size": 5.2,
+   "testo": "lanciare un incantesimo senza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.2,
+    513.6,
+    475.6,
+    520.4
+   ],
+   "size": 5.2,
+   "testo": "289",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.1,
+    521.5,
+    139.5,
+    528.3
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 131",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    521.4,
+    179.6,
+    528.2
+   ],
+   "size": 5.2,
+   "testo": "235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.1,
+    521.4,
+    324.0,
+    528.2
+   ],
+   "size": 5.2,
+   "testo": "Instancabile (privilegio",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.5,
+    521.2,
+    390.9,
+    528.0
+   ],
+   "size": 5.2,
+   "testo": "slot, 235",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    521.6,
+    534.9,
+    528.5
+   ],
+   "size": 6.8,
+   "testo": "luci danzanti (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.7,
+    529.4,
+    139.7,
+    536.3
+   ],
+   "size": 6.8,
+   "testo": "imprigionare (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.0,
+    529.4,
+    209.9,
+    536.2
+   ],
+   "size": 5.2,
+   "testo": "incantesimo, 366",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.7,
+    529.4,
+    307.9,
+    536.2
+   ],
+   "size": 5.2,
+   "testo": "di classe), 142",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.5,
+    529.3,
+    433.4,
+    536.1
+   ],
+   "size": 5.2,
+   "testo": "lanterna a lente sporgente,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.2,
+    529.6,
+    475.4,
+    536.4
+   ],
+   "size": 5.2,
+   "testo": "290",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.7,
+    537.4,
+    81.0,
+    544.1
+   ],
+   "size": 5.2,
+   "testo": "282",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    537.5,
+    202.9,
+    544.2
+   ],
+   "size": 5.2,
+   "testo": "attacco, 362",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.1,
+    537.4,
+    303.6,
+    544.2
+   ],
+   "size": 5.2,
+   "testo": "I ntelligenza, 10",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.7,
+    537.4,
+    377.1,
+    544.2
+   ],
+   "size": 5.2,
+   "testo": "226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    537.6,
+    535.8,
+    544.5
+   ],
+   "size": 6.8,
+   "testo": "luminescenza (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.8,
+    545.4,
+    146.5,
+    552.2
+   ],
+   "size": 5.2,
+   "testo": "imp (scheda delle statistiche),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    545.5,
+    238.6,
+    552.3
+   ],
+   "size": 5.2,
+   "testo": "CD del tiro salvezza, 238",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    258.9,
+    545.4,
+    323.4,
+    552.2
+   ],
+   "size": 5.2,
+   "testo": "interazione sociale, 16",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.5,
+    545.3,
+    431.2,
+    552.1
+   ],
+   "size": 5.2,
+   "testo": "lanterna schermabile, 226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.0,
+    545.6,
+    475.8,
+    552.4
+   ],
+   "size": 5.2,
+   "testo": "290",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.9,
+    553.4,
+    80.7,
+    560.2
+   ],
+   "size": 5.2,
+   "testo": "350",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.8,
+    553.4,
+    217.1,
+    560.2
+   ],
+   "size": 5.2,
+   "testo": "componenti, 236",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.9,
+    553.4,
+    342.8,
+    560.2
+   ],
+   "size": 5.2,
+   "testo": "interazioni con gli oggetti, 19",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.5,
+    553.3,
+    395.4,
+    560.1
+   ],
+   "size": 5.2,
+   "testo": "lanterne, 226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    553.6,
+    527.6,
+    560.4
+   ],
+   "size": 5.2,
+   "testo": "lupo feroce (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.7,
+    561.4,
+    136.6,
+    568.2
+   ],
+   "size": 5.2,
+   "testo": "impugnare gli oggetti, 232",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.0,
+    561.3,
+    229.9,
+    568.1
+   ],
+   "size": 5.2,
+   "testo": "materiale (M), 237",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.8,
+    561.3,
+    327.4,
+    568.1
+   ],
+   "size": 5.2,
+   "testo": "interazioni con oggetti a",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.8,
+    561.3,
+    442.8,
+    568.0
+   ],
+   "size": 5.2,
+   "testo": "Lavoro manuale (talento), 201",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.1,
+    561.6,
+    509.7,
+    568.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 352",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    569.4,
+    138.3,
+    576.2
+   ],
+   "size": 5.2,
+   "testo": "Impulsi di Magia Selvaggia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.8,
+    569.4,
+    226.9,
+    576.1
+   ],
+   "size": 5.2,
+   "testo": "somatica (S), 237",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.5,
+    569.3,
+    319.6,
+    576.1
+   ],
+   "size": 5.2,
+   "testo": "tempo limitato, 20",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.8,
+    569.3,
+    439.3,
+    576.0
+   ],
+   "size": 5.2,
+   "testo": "Le eccezioni sostituiscono le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.2,
+    569.6,
+    542.4,
+    576.4
+   ],
+   "size": 5.2,
+   "testo": "lupo (scheda delle statistiche),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.1,
+    577.4,
+    107.2,
+    584.2
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 160",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.6,
+    577.4,
+    221.6,
+    584.2
+   ],
+   "size": 5.2,
+   "testo": "verbale (V), 236",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.0,
+    577.3,
+    342.4,
+    584.1
+   ],
+   "size": 5.2,
+   "testo": "I ntercettazione (talento), 210",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.7,
+    577.3,
+    444.9,
+    584.1
+   ],
+   "size": 5.2,
+   "testo": "regole generali (riquadro), 8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.3,
+    577.6,
+    475.0,
+    584.4
+   ],
+   "size": 5.2,
+   "testo": "351",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    585.4,
+    133.5,
+    592.2
+   ],
+   "size": 5.2,
+   "testo": "Inafferrabile (privilegio di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.8,
+    585.4,
+    214.0,
+    592.2
+   ],
+   "size": 5.2,
+   "testo": "descrizioni, 239",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.8,
+    585.3,
+    320.6,
+    592.2
+   ],
+   "size": 6.8,
+   "testo": "interdizione alla morte",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.8,
+    585.3,
+    420.3,
+    592.0
+   ],
+   "size": 5.2,
+   "testo": "Legale buono (LB), 39",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.4,
+    585.6,
+    495.6,
+    592.3
+   ],
+   "size": 5.2,
+   "testo": "Maestria, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.5,
+    593.4,
+    103.5,
+    600.2
+   ],
+   "size": 5.2,
+   "testo": "classe), 103",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    593.4,
+    201.0,
+    600.1
+   ],
+   "size": 5.2,
+   "testo": "durata, 237",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    593.4,
+    321.1,
+    600.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 285",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.6,
+    593.7,
+    430.2,
+    600.4
+   ],
+   "size": 5.2,
+   "testo": "Legale malvagio (LM), 39",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    593.5,
+    537.2,
+    600.3
+   ],
+   "size": 5.2,
+   "testo": "Maestria dei veleni (talento),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.7,
+    601.3,
+    139.5,
+    608.2
+   ],
+   "size": 6.8,
+   "testo": "inaridire (incantesimo), 283",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.8,
+    601.3,
+    199.2,
+    608.1
+   ],
+   "size": 5.2,
+   "testo": "effetti, 237",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.6,
+    601.2,
+    317.6,
+    608.1
+   ],
+   "size": 6.8,
+   "testo": "interdizione alle lame",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.6,
+    601.6,
+    426.2,
+    608.4
+   ],
+   "size": 5.2,
+   "testo": "Legale neutrale (LN), 39",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.2,
+    601.5,
+    475.3,
+    608.3
+   ],
+   "size": 5.2,
+   "testo": "206",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    609.5,
+    145.3,
+    616.3
+   ],
+   "size": 5.2,
+   "testo": "Incanalare Divinità (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.8,
+    609.5,
+    200.5,
+    616.3
+   ],
+   "size": 5.2,
+   "testo": "gittata, 236",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    609.5,
+    321.1,
+    616.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 285",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.4,
+    609.7,
+    443.0,
+    616.6
+   ],
+   "size": 6.8,
+   "testo": "legame planare (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    609.6,
+    531.9,
+    616.4
+   ],
+   "size": 5.2,
+   "testo": "Maestria negli Incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.5,
+    617.5,
+    120.5,
+    624.3
+   ],
+   "size": 5.2,
+   "testo": "di classe), 70, 132",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    617.5,
+    204.8,
+    624.3
+   ],
+   "size": 5.2,
+   "testo": "lanciare, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.0,
+    617.5,
+    329.6,
+    624.3
+   ],
+   "size": 5.2,
+   "testo": "Interdizione della Natura",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.4,
+    617.8,
+    376.9,
+    624.6
+   ],
+   "size": 5.2,
+   "testo": "287",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.5,
+    617.8,
+    536.2,
+    624.5
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 113",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.0,
+    625.6,
+    122.8,
+    632.4
+   ],
+   "size": 5.2,
+   "testo": "Incantatore d a guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    625.6,
+    236.8,
+    632.4
+   ],
+   "size": 5.2,
+   "testo": "lanciare un incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.2,
+    625.5,
+    301.6,
+    632.3
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 89",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.4,
+    625.8,
+    426.4,
+    632.7
+   ],
+   "size": 6.8,
+   "testo": "legame telepatico di Rary",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    625.8,
+    541.0,
+    632.6
+   ],
+   "size": 5.2,
+   "testo": "Maestria (privilegio di classe),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.1,
+    633.6,
+    108.4,
+    640.4
+   ],
+   "size": 5.2,
+   "testo": "(talento), 205",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.3,
+    633.5,
+    219.3,
+    640.3
+   ],
+   "size": 5.2,
+   "testo": "senza slot, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.6,
+    633.5,
+    339.4,
+    640.4
+   ],
+   "size": 6.8,
+   "testo": "intermittenza (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    365.8,
+    633.9,
+    420.2,
+    640.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 287",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.1,
+    633.7,
+    498.8,
+    640.5
+   ],
+   "size": 5.2,
+   "testo": "60, 101, 142",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    641.6,
+    142.4,
+    648.4
+   ],
+   "size": 5.2,
+   "testo": "I ncantatore multiclasse: Slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    641.5,
+    199.3,
+    648.3
+   ],
+   "size": 5.2,
+   "testo": "livello, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.6,
+    641.5,
+    278.6,
+    648.2
+   ],
+   "size": 5.2,
+   "testo": "285",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.6,
+    641.8,
+    420.4,
+    648.6
+   ],
+   "size": 5.2,
+   "testo": "Leggera Oscurità, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    641.7,
+    525.8,
+    648.5
+   ],
+   "size": 5.2,
+   "testo": "Maestro d'armi possenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.7,
+    649.6,
+    141.1,
+    656.4
+   ],
+   "size": 5.2,
+   "testo": "incantesimo per livello di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    649.6,
+    247.8,
+    656.4
+   ],
+   "size": 5.2,
+   "testo": "modificatore di attacco, 238",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    258.9,
+    649.5,
+    345.2,
+    656.3
+   ],
+   "size": 5.2,
+   "testo": "Interpretare i tiri dei dadi nella",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.4,
+    649.9,
+    430.6,
+    656.7
+   ],
+   "size": 5.2,
+   "testo": "leggermente oscurata, 19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.5,
+    649.8,
+    503.2,
+    656.5
+   ],
+   "size": 5.2,
+   "testo": "(talento), 206",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.7,
+    657.5,
+    140.0,
+    664.3
+   ],
+   "size": 5.2,
+   "testo": "incantesimo (tabella), 45",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.8,
+    657.6,
+    206.3,
+    664.3
+   ],
+   "size": 5.2,
+   "testo": "ottenere, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.7,
+    657.5,
+    320.8,
+    664.3
+   ],
+   "size": 5.2,
+   "testo": "storia (riquadro), 9",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.3,
+    657.8,
+    434.7,
+    664.6
+   ],
+   "size": 5.2,
+   "testo": "lente d'ingrandimento, 226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    657.7,
+    540.2,
+    664.5
+   ],
+   "size": 5.2,
+   "testo": "Maestro d'armi (talento), 206",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.0,
+    665.5,
+    141.2,
+    672.3
+   ],
+   "size": 5.2,
+   "testo": "Incantatore rituale (talento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    665.5,
+    210.0,
+    672.3
+   ],
+   "size": 5.2,
+   "testo": "preparare, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.6,
+    665.5,
+    340.4,
+    672.3
+   ],
+   "size": 5.2,
+   "testo": "interpretazione del ruolo, 16",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.3,
+    665.8,
+    435.7,
+    672.7
+   ],
+   "size": 6.8,
+   "testo": "lentezza (incantesimo), 287",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    665.7,
+    539.6,
+    672.5
+   ],
+   "size": 5.2,
+   "testo": "Maestro degli scudi (talento),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.6,
+    673.5,
+    80.7,
+    680.3
+   ],
+   "size": 5.2,
+   "testo": "205",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    673.5,
+    231.1,
+    680.3
+   ],
+   "size": 5.2,
+   "testo": "sempre preparati, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.9,
+    673.4,
+    339.1,
+    680.2
+   ],
+   "size": 5.2,
+   "testo": "I ntervento Divino (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.4,
+    673.8,
+    412.6,
+    680.6
+   ],
+   "size": 5.2,
+   "testo": "leone (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    463.8,
+    673.7,
+    475.8,
+    680.5
+   ],
+   "size": 5.2,
+   "testo": "206",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    681.5,
+    108.6,
+    688.3
+   ],
+   "size": 5.2,
+   "testo": "incantesimi, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.9,
+    681.5,
+    192.9,
+    688.3
+   ],
+   "size": 5.2,
+   "testo": "slot, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.5,
+    681.4,
+    303.8,
+    688.2
+   ],
+   "size": 5.2,
+   "testo": "di classe), 71",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.3,
+    681.8,
+    410.8,
+    688.5
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 351",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    681.7,
+    542.1,
+    688.5
+   ],
+   "size": 5.2,
+   "testo": "Maestro delle armature medie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.0,
+    689.5,
+    148.0,
+    696.3
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi Bestiali (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.7,
+    689.5,
+    227.0,
+    696.3
+   ],
+   "size": 5.2,
+   "testo": "tempo di lancio, 236",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.9,
+    689.5,
+    337.5,
+    696.2
+   ],
+   "size": 5.2,
+   "testo": "I ntervento Divino Superiore",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.3,
+    689.7,
+    442.2,
+    696.6
+   ],
+   "size": 6.8,
+   "testo": "/evitazione (incantesimo), 287",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.5,
+    689.7,
+    503.5,
+    696.5
+   ],
+   "size": 5.2,
+   "testo": "(talento), 207",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.5,
+    697.5,
+    107.5,
+    704.3
+   ],
+   "size": 5.2,
+   "testo": "di classe), 82",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.7,
+    697.5,
+    217.8,
+    704.3
+   ],
+   "size": 5.2,
+   "testo": "tiro salvezza, 238",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.2,
+    697.5,
+    334.1,
+    704.3
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe) , 71",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.4,
+    697.8,
+    409.3,
+    704.6
+   ],
+   "size": 5.2,
+   "testo": "libero, spazio, 374",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    697.7,
+    522.6,
+    704.5
+   ],
+   "size": 5.2,
+   "testo": "Maestro delle armature",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    705.6,
+    148.4,
+    712.3
+   ],
+   "size": 5.2,
+   "testo": "Incantesimi celestiali (tabella),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.0,
+    705.5,
+    221.2,
+    712.3
+   ],
+   "size": 5.2,
+   "testo": "utilizzo di uno slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.9,
+    705.4,
+    322.0,
+    712.2
+   ],
+   "size": 5.2,
+   "testo": "I ntimidire (abilità), 14",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.3,
+    705.7,
+    414.6,
+    712.6
+   ],
+   "size": 6.8,
+   "testo": "libertà di movimento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.2,
+    705.7,
+    525.3,
+    712.5
+   ],
+   "size": 5.2,
+   "testo": "pesanti (talento), 207",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.9,
+    713.5,
+    79.7,
+    720.2
+   ],
+   "size": 5.2,
+   "testo": "171",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.1,
+    713.5,
+    237.0,
+    720.3
+   ],
+   "size": 5.2,
+   "testo": "incantesimo di livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    258.6,
+    713.4,
+    311.2,
+    720.3
+   ],
+   "size": 6.8,
+   "testo": "intimorire infernale",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.8,
+    713.8,
+    419.6,
+    720.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 288",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    713.7,
+    531.3,
+    720.5
+   ],
+   "size": 5.2,
+   "testo": "Maestro delle armi su asta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    176.0,
+    721.5,
+    217.6,
+    728.2
+   ],
+   "size": 5.2,
+   "testo": "superiore, 236",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.0,
+    721.5,
+    321.0,
+    728.3
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 285",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.3,
+    721.8,
+    385.0,
+    728.6
+   ],
+   "size": 5.2,
+   "testo": "libro, 226",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.4,
+    721.7,
+    503.2,
+    728.4
+   ],
+   "size": 5.2,
+   "testo": "(talento), 207",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,619 @@
+{
+ "pagina_pdf": 323,
+ "pagina_stampata": 320,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   371,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.0,
+    51.0,
+    141.4,
+    62.4
+   ],
+   "size": 11.2,
+   "testo": "RIGENERAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    62.7,
+    241.2,
+    73.1
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazione di 7° livello (bardo, chierico, druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    78.2,
+    154.5,
+    87.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    89.2,
+    118.4,
+    98.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    100.2,
+    232.7,
+    109.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un ruota della preghiera)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    111.1,
+    104.9,
+    120.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: l ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    127.1,
+    262.0,
+    137.7
+   ],
+   "size": 8.8,
+   "testo": "Una creatura toccata dall'incantatore recupera 4d8 +",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    138.3,
+    278.2,
+    148.9
+   ],
+   "size": 8.8,
+   "testo": "15 punti ferita. Per la durata dell'incantesimo, il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    149.3,
+    251.1,
+    159.9
+   ],
+   "size": 8.8,
+   "testo": "recupera 1 punto ferita all'inizio di ogni suo turno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    160.4,
+    252.1,
+    171.0
+   ],
+   "size": 8.8,
+   "testo": "e qualsiasi parte del corpo sia stata recisa, ricresce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    171.4,
+    112.8,
+    182.0
+   ],
+   "size": 8.8,
+   "testo": "dopo 2 minuti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    206.2,
+    178.0,
+    217.5
+   ],
+   "size": 11.2,
+   "testo": "RIMUOVI MALEDIZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    217.7,
+    269.8,
+    228.2
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi3° livello (chierico, mago, paladino, warlock)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    233.2,
+    145.4,
+    242.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    244.2,
+    118.2,
+    253.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    255.2,
+    120.4,
+    264.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    266.2,
+    126.0,
+    275.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    282.5,
+    248.5,
+    293.0
+   ],
+   "size": 8.8,
+   "testo": "Al tocco dell'incantatore, tutte le maledizioni che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    293.5,
+    244.4,
+    304.1
+   ],
+   "size": 8.8,
+   "testo": "affliggono una creatura o un oggetto terminano.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    304.5,
+    261.8,
+    315.1
+   ],
+   "size": 8.8,
+   "testo": "Nel caso di un oggetto magico maledetto, la sua male­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    315.5,
+    263.0,
+    326.0
+   ],
+   "size": 8.8,
+   "testo": "dizione permane, ma l'incantesimo spezza la sintonia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    326.5,
+    251.8,
+    337.1
+   ],
+   "size": 8.8,
+   "testo": "del suo proprietario, consentendogli di rimuoverlo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    337.4,
+    117.8,
+    348.0
+   ],
+   "size": 8.8,
+   "testo": "o di liberarsene.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    51.0,
+    365.2,
+    62.4
+   ],
+   "size": 11.2,
+   "testo": "RINASCITA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    62.6,
+    525.9,
+    73.1
+   ],
+   "size": 8.6,
+   "testo": "Necromanzia di3° livello (chierico, druido, paladino, ranger)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    78.2,
+    398.5,
+    87.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    89.1,
+    371.3,
+    98.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    100.2,
+    519.1,
+    109.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un diamante del valore di 300 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    111.2,
+    446.3,
+    120.8
+   ],
+   "size": 8.4,
+   "testo": "o più, che l'incantesimo consuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    122.1,
+    379.0,
+    131.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    138.4,
+    532.4,
+    148.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca una creatura morta nell'ultimo minuto,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    149.4,
+    530.2,
+    159.9
+   ],
+   "size": 8.8,
+   "testo": "la quale ritorna in vita con 1 punto ferita. Questo incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    160.4,
+    530.4,
+    171.0
+   ],
+   "size": 8.8,
+   "testo": "simo non può riportare in vita una creatura morta di vec­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    171.4,
+    535.1,
+    182.0
+   ],
+   "size": 8.8,
+   "testo": "chiaia e non ripristina le eventuali partidelcorpo mancanti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    206.3,
+    423.6,
+    217.6
+   ],
+   "size": 11.2,
+   "testo": "RINTOCCO DEI MORTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    218.6,
+    498.5,
+    227.9
+   ],
+   "size": 8.6,
+   "testo": "TrucchettodiNecromanzia (chierico, mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    233.2,
+    398.5,
+    242.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    244.2,
+    370.7,
+    253.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    255.2,
+    373.3,
+    264.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    266.2,
+    379.0,
+    275.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    282.5,
+    524.2,
+    293.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore prende di mira una creatura entro gittata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    293.5,
+    513.7,
+    304.1
+   ],
+   "size": 8.8,
+   "testo": "che è in grado di vedere, dopodiché si sente il singolo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    304.5,
+    523.7,
+    315.1
+   ],
+   "size": 8.8,
+   "testo": "lugubre rintocco di una campana entro 3 metri da essa.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    315.5,
+    523.9,
+    326.0
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio deve superare un tiro salvezza su Saggezza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    326.5,
+    529.8,
+    337.1
+   ],
+   "size": 8.8,
+   "testo": "altrimenti subisce 1d8 danni necrotici. Invece, se al bersa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    337.5,
+    522.7,
+    348.0
+   ],
+   "size": 8.8,
+   "testo": "glio mancano punti ferita, subisce 1d12 danni necrotici.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    348.5,
+    499.6,
+    359.0
+   ],
+   "size": 8.8,
+   "testo": "Trucchetto potenziato. I danni dell'incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    359.5,
+    521.0,
+    370.0
+   ],
+   "size": 8.8,
+   "testo": "aumentano di un dado quando l'incantatore raggiunge",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    368.5,
+    510.6,
+    381.1
+   ],
+   "size": 8.8,
+   "testo": "il 5° livello (2d8 o 2d12), 1'11° livello (3d8 o 3d12) e il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    379.6,
+    399.3,
+    392.0
+   ],
+   "size": 8.8,
+   "testo": "17° livello (4d8 o 4d12).",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

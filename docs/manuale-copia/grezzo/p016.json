@@ -1,0 +1,1327 @@
+{
+ "pagina_pdf": 16,
+ "pagina_stampata": 13,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 1 I COME SI GIOCA / 13",
+ "immagini": [
+  [
+   61,
+   -1,
+   265,
+   231
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.8,
+    239.9,
+    181.2,
+    249.0
+   ],
+   "size": 6.9,
+   "testo": "SE DISPONI DI VANTAGGIO, USA IL 18.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    249.9,
+    178.6,
+    258.9
+   ],
+   "size": 6.9,
+   "testo": "SE DISPONI DI SVANTAGGIO, USA IL 3.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    278.4,
+    268.2,
+    289.0
+   ],
+   "size": 8.8,
+   "testo": "Nel caso in cui un tiro disponga sia di vantaggio che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    289.4,
+    270.4,
+    300.0
+   ],
+   "size": 8.8,
+   "testo": "di svantaggio, questi si annullano a vicenda e si tira un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    300.4,
+    285.8,
+    311.0
+   ],
+   "size": 8.8,
+   "testo": "solo d20. Questo vale anche se più circostanze impongono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    311.4,
+    277.4,
+    322.0
+   ],
+   "size": 8.8,
+   "testo": "svantaggio e soltanto una circostanza conferisce vantag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    322.4,
+    281.8,
+    332.9
+   ],
+   "size": 8.8,
+   "testo": "gio e viceversa. In una situazione del genere, un personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    333.3,
+    249.3,
+    343.9
+   ],
+   "size": 8.8,
+   "testo": "gio non dispone né di vantaggio né di svantaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    353.7,
+    199.7,
+    365.0
+   ],
+   "size": 11.2,
+   "testo": "INTERAZIONI CON RILANCI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    365.0,
+    284.5,
+    375.6
+   ],
+   "size": 8.8,
+   "testo": "Quando un personaggio dispone di vantaggio o svantaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    376.1,
+    279.1,
+    386.6
+   ],
+   "size": 8.8,
+   "testo": "e un altro fattore del gioco gli permette di ripetere o sosti­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    387.1,
+    280.5,
+    397.7
+   ],
+   "size": 8.8,
+   "testo": "tuire il tiro del d20, quel personaggio può ripetere o sosti­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    398.1,
+    273.3,
+    408.7
+   ],
+   "size": 8.8,
+   "testo": "tuire il tiro di uno solo dei dadi, ma può scegliere quale.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.3,
+    409.3,
+    265.9,
+    419.8
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, se il personaggio ha Ispirazione eroica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    420.2,
+    270.5,
+    430.7
+   ],
+   "size": 8.8,
+   "testo": "(vedi il riquadro) e ottiene un 3 e un 18 in una prova di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    431.2,
+    271.1,
+    441.8
+   ],
+   "size": 8.8,
+   "testo": "caratteristica in cui dispone di vantaggio o svantaggio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    442.1,
+    266.4,
+    452.7
+   ],
+   "size": 8.8,
+   "testo": "può utilizzare Ispirazione eroica per ripetere il tiro di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    453.1,
+    165.0,
+    463.7
+   ],
+   "size": 8.8,
+   "testo": "uno dei dadi, non entrambi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    477.1,
+    163.6,
+    487.8
+   ],
+   "size": 10.6,
+   "testo": "ISPIRAZIONE EROICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    490.8,
+    262.0,
+    500.4
+   ],
+   "size": 8.4,
+   "testo": "A volte il DM o una regola conferiscono Ispirazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    501.9,
+    266.9,
+    511.6
+   ],
+   "size": 8.4,
+   "testo": "eroica. Se un personaggio ha Ispirazione eroica, può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.1,
+    512.9,
+    264.6,
+    522.5
+   ],
+   "size": 8.4,
+   "testo": "spenderla per ripetere il tiro di un dado subito dopo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    523.9,
+    249.6,
+    533.5
+   ],
+   "size": 8.4,
+   "testo": "averlo tirato, usando obbligatoriamente il nuovo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.8,
+    534.9,
+    135.7,
+    544.5
+   ],
+   "size": 8.4,
+   "testo": "risultato ottenuto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.6,
+    545.8,
+    275.3,
+    555.4
+   ],
+   "size": 8.4,
+   "testo": "Solo una alla volta. Non si può avere più di un'istanza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    556.8,
+    260.1,
+    566.4
+   ],
+   "size": 8.4,
+   "testo": "di Ispirazione eroica. Se qualcosa concede al perso­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    567.8,
+    273.9,
+    577.4
+   ],
+   "size": 8.4,
+   "testo": "naggio Ispirazione eroica quando ne è già in possesso,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.9,
+    578.8,
+    266.4,
+    588.5
+   ],
+   "size": 8.4,
+   "testo": "può darla a un personaggio giocante del suo gruppo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    589.8,
+    142.3,
+    599.5
+   ],
+   "size": 8.4,
+   "testo": "che ne è sprovvisto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.7,
+    600.7,
+    261.7,
+    610.4
+   ],
+   "size": 8.4,
+   "testo": "Ottenere Ispirazione eroica. Il DM può concedere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.1,
+    611.9,
+    262.5,
+    621.5
+   ],
+   "size": 8.4,
+   "testo": "Ispirazione eroica a un personaggio per vari motivi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.1,
+    623.0,
+    248.7,
+    632.6
+   ],
+   "size": 8.4,
+   "testo": "In genere, i DM la assegnano quando si compie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    633.9,
+    272.4,
+    643.5
+   ],
+   "size": 8.4,
+   "testo": "un'azione particolarmente eroica, divertente o in linea",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    636.8,
+    261.6,
+    655.0
+   ],
+   "size": 8.6,
+   "testo": "con il personaggio. È una ricompensa per aver reso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.2,
+    655.9,
+    222.4,
+    665.5
+   ],
+   "size": 8.4,
+   "testo": "il gioco più piacevole per tutti i giocatori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.5,
+    666.9,
+    263.4,
+    676.5
+   ],
+   "size": 8.4,
+   "testo": "Altre regole potrebbero consentire al personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    677.8,
+    255.2,
+    687.5
+   ],
+   "size": 8.4,
+   "testo": "di ottenere Ispirazione eroica indipendentemente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    688.9,
+    255.4,
+    698.5
+   ],
+   "size": 8.4,
+   "testo": "dalla decisione del DM. Ad esempio, i personaggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    699.9,
+    257.8,
+    709.5
+   ],
+   "size": 8.4,
+   "testo": "umani iniziano ogni giorno con Ispirazione eroica.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    40.3,
+    421.8,
+    56.9
+   ],
+   "size": 12.9,
+   "testo": "COMPETENZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    58.5,
+    530.1,
+    69.0
+   ],
+   "size": 8.8,
+   "testo": "I personaggi e i mostri se la cavano bene con una varietà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    69.5,
+    530.7,
+    80.1
+   ],
+   "size": 8.8,
+   "testo": "di cose. Alcuni sono abili con molte armi, mentre altri ne",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    80.4,
+    524.4,
+    91.0
+   ],
+   "size": 8.8,
+   "testo": "sanno usare solo alcune. Alcuni sono più bravi a capire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    91.4,
+    516.5,
+    102.0
+   ],
+   "size": 8.8,
+   "testo": "le intenzioni delle persone, altri a svelare i segreti del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    102.4,
+    525.1,
+    112.9
+   ],
+   "size": 8.8,
+   "testo": "multiverso. Tutte le creature hanno un bonus di compe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    113.4,
+    524.4,
+    124.0
+   ],
+   "size": 8.8,
+   "testo": "tenza che rispecchia l'impatto dell'addestramento sulle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    124.4,
+    527.3,
+    135.0
+   ],
+   "size": 8.8,
+   "testo": "loro capacità. Il bonus di competenza di un personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    135.3,
+    516.0,
+    145.9
+   ],
+   "size": 8.8,
+   "testo": "aumenta con l'aumentare dei suoi livelli (descritti nel",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    146.4,
+    526.1,
+    157.0
+   ],
+   "size": 8.8,
+   "testo": "capitolo 2). Il bonus di competenza di un mostro si basa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    157.4,
+    510.9,
+    168.0
+   ],
+   "size": 8.8,
+   "testo": "sul suo grado di sfida (vedi il Glossario delle regole).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    168.5,
+    509.5,
+    179.1
+   ],
+   "size": 8.8,
+   "testo": "La tabella Bonus di competenza mostra come viene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    179.5,
+    393.7,
+    190.1
+   ],
+   "size": 8.8,
+   "testo": "determinato il bonus.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    190.5,
+    525.1,
+    201.1
+   ],
+   "size": 8.8,
+   "testo": "Il bonus viene applicato a una prova con d20 quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    201.5,
+    518.3,
+    212.1
+   ],
+   "size": 8.8,
+   "testo": "la creatura è dotata di competenza in un'abilità, in un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    212.5,
+    519.7,
+    223.1
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza o con un oggetto che la creatura utilizza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    223.5,
+    530.1,
+    234.1
+   ],
+   "size": 8.8,
+   "testo": "per effettuare la prova con d20. Il bonus viene utilizzato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.6,
+    234.5,
+    519.1,
+    245.1
+   ],
+   "size": 8.8,
+   "testo": "anche per gli attacchi con incantesimo e per calcolare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    245.5,
+    471.0,
+    256.1
+   ],
+   "size": 8.8,
+   "testo": "la CD dei tiri salvezza per gli incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    268.3,
+    429.1,
+    279.0
+   ],
+   "size": 10.6,
+   "testo": "BONUS DI COM PETENZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    284.3,
+    359.6,
+    293.5
+   ],
+   "size": 8.2,
+   "testo": "Livello o GS",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.6,
+    284.2,
+    416.2,
+    293.4
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.1,
+    284.1,
+    476.5,
+    293.4
+   ],
+   "size": 8.2,
+   "testo": "Livello o GS",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    483.8,
+    284.1,
+    533.0,
+    293.3
+   ],
+   "size": 8.2,
+   "testo": "Competenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    320.4,
+    298.9,
+    351.5,
+    308.6
+   ],
+   "size": 8.4,
+   "testo": "Fino a 4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.8,
+    298.8,
+    396.4,
+    308.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.4,
+    298.8,
+    465.1,
+    308.4
+   ],
+   "size": 8.4,
+   "testo": "17-20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.6,
+    298.8,
+    514.0,
+    308.4
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.0,
+    314.1,
+    344.3,
+    323.8
+   ],
+   "size": 8.4,
+   "testo": "5-8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.7,
+    314.1,
+    396.8,
+    323.8
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.0,
+    314.0,
+    465.1,
+    323.7
+   ],
+   "size": 8.4,
+   "testo": "21-24",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.8,
+    314.0,
+    513.7,
+    323.6
+   ],
+   "size": 8.4,
+   "testo": "+7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.8,
+    329.3,
+    345.5,
+    338.9
+   ],
+   "size": 8.4,
+   "testo": "9-12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.4,
+    329.2,
+    397.6,
+    338.8
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.5,
+    329.2,
+    465.7,
+    338.8
+   ],
+   "size": 8.4,
+   "testo": "25-28",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.5,
+    329.3,
+    514.5,
+    338.9
+   ],
+   "size": 8.4,
+   "testo": "+8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.3,
+    344.5,
+    349.3,
+    354.1
+   ],
+   "size": 8.4,
+   "testo": "13-16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.7,
+    344.5,
+    397.0,
+    354.1
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.4,
+    344.5,
+    466.1,
+    354.1
+   ],
+   "size": 8.4,
+   "testo": "29-30",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.5,
+    344.4,
+    514.5,
+    354.1
+   ],
+   "size": 8.4,
+   "testo": "+9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    368.5,
+    491.2,
+    381.6
+   ],
+   "size": 9.7,
+   "testo": "IL BONUS NON SI ACCUMULA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    385.0,
+    533.3,
+    395.5
+   ],
+   "size": 8.8,
+   "testo": "Il bonus di competenza non può essere aggiunto a un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    395.9,
+    536.7,
+    406.5
+   ],
+   "size": 8.8,
+   "testo": "del dado o a un altro numero più di una volta. Ad esempio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    407.0,
+    535.0,
+    417.6
+   ],
+   "size": 8.8,
+   "testo": "se una regola consente di effettuare una prova di Carisma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    418.1,
+    508.7,
+    428.7
+   ],
+   "size": 8.8,
+   "testo": "(Inganno o Persuasione), il personaggio aggiunge il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    429.1,
+    520.4,
+    439.6
+   ],
+   "size": 8.8,
+   "testo": "bonus di competenza se è competente in una delle due",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    440.0,
+    516.8,
+    450.6
+   ],
+   "size": 8.8,
+   "testo": "abilità, ma non lo aggiunge due volte se è competente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    451.1,
+    360.2,
+    461.6
+   ],
+   "size": 8.8,
+   "testo": "in entrambe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    461.9,
+    522.5,
+    472.5
+   ],
+   "size": 8.8,
+   "testo": "In alcune occasioni il bonus di competenza potrebbe",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    473.0,
+    520.4,
+    483.5
+   ],
+   "size": 8.8,
+   "testo": "essere moltiplicato o diviso (raddoppiato o dimezzato,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    483.9,
+    529.8,
+    494.5
+   ],
+   "size": 8.8,
+   "testo": "per esempio) prima di essere aggiunto. Ad esempio, il pri­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    495.0,
+    532.4,
+    505.5
+   ],
+   "size": 8.8,
+   "testo": "vilegio Maestria (vedi il Glossario delle regole) raddoppia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    506.0,
+    533.7,
+    516.6
+   ],
+   "size": 8.8,
+   "testo": "il bonus di competenza per alcune prove di caratteristica.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    517.0,
+    531.4,
+    527.6
+   ],
+   "size": 8.8,
+   "testo": "Quando il bonus viene utilizzato, può essere moltiplicato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    528.0,
+    398.8,
+    538.6
+   ],
+   "size": 8.8,
+   "testo": "e diviso una sola volta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    548.0,
+    489.0,
+    561.1
+   ],
+   "size": 9.7,
+   "testo": "COMPETENZE NELLE ABILITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    564.5,
+    526.9,
+    575.1
+   ],
+   "size": 8.8,
+   "testo": "La maggior parte delle prove di caratteristica comporta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    575.6,
+    534.2,
+    586.1
+   ],
+   "size": 8.8,
+   "testo": "l'uso di un'abilità, che rappresenta una categoria di azioni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    586.5,
+    516.6,
+    597.1
+   ],
+   "size": 8.8,
+   "testo": "che le creature tentano di compiere con una prova di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    597.5,
+    521.3,
+    608.0
+   ],
+   "size": 8.8,
+   "testo": "caratteristica. Le descrizioni delle azioni compiute dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    608.7,
+    528.8,
+    619.3
+   ],
+   "size": 8.8,
+   "testo": "personaggio (vedi \"Azioni\" più avanti in questo capitolo)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    619.7,
+    534.5,
+    630.2
+   ],
+   "size": 8.8,
+   "testo": "specificano quale abilità si applica se si effettua una prova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    630.7,
+    514.1,
+    641.3
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica per quell'azione. Inoltre, molte altre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    641.7,
+    532.2,
+    652.2
+   ],
+   "size": 8.8,
+   "testo": "regole indicano quando un'abilità è rilevante, ma l'ultima",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    652.6,
+    519.6,
+    663.2
+   ],
+   "size": 8.8,
+   "testo": "parola sulla rilevanza di un'abilità in una determinata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    663.6,
+    420.0,
+    674.2
+   ],
+   "size": 8.8,
+   "testo": "situazione è sempre del DM.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    674.6,
+    515.0,
+    685.2
+   ],
+   "size": 8.8,
+   "testo": "Se una creatura è competente in un'abilità, applica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    685.6,
+    520.3,
+    696.2
+   ],
+   "size": 8.8,
+   "testo": "il suo bonus di competenza alle prove di caratteristica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    696.6,
+    505.2,
+    707.2
+   ],
+   "size": 8.8,
+   "testo": "che riguardano quell'abilità. Senza competenza in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    707.6,
+    526.4,
+    718.2
+   ],
+   "size": 8.8,
+   "testo": "un'abilità, una creatura può comunque effettuare prove",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

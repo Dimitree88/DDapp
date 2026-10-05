@@ -1,0 +1,877 @@
+{
+ "pagina_pdf": 241,
+ "pagina_stampata": 238,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "238 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   24,
+   -1,
+   549,
+   298
+  ],
+  [
+   302,
+   660,
+   533,
+   724
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    59.4,
+    305.8,
+    268.3,
+    316.4
+   ],
+   "size": 8.8,
+   "testo": "Bersagliare se stessi. Se un incantesimo bersaglia una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    316.8,
+    273.7,
+    327.4
+   ],
+   "size": 8.8,
+   "testo": "creatura a scelta dell'incantatore, questi può scegliere se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    327.8,
+    278.8,
+    338.4
+   ],
+   "size": 8.8,
+   "testo": "stesso, a meno che la creatura non debba essere ostile o non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    338.8,
+    273.6,
+    349.3
+   ],
+   "size": 8.8,
+   "testo": "sia specificato che deve trattarsi di una creatura diversa.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.2,
+    349.8,
+    271.0,
+    360.3
+   ],
+   "size": 8.8,
+   "testo": "Aree di effetto. Alcuni incantesimi, come onda tonante,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    360.7,
+    260.4,
+    371.3
+   ],
+   "size": 8.8,
+   "testo": "coprono un'area chiamata area di effetto, definita nel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    371.6,
+    275.5,
+    382.2
+   ],
+   "size": 8.8,
+   "testo": "Glossario delle regole. L'area determina quali sono i bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    382.7,
+    281.3,
+    393.3
+   ],
+   "size": 8.8,
+   "testo": "gli colpiti dall'incantesimo. Nella sua descrizione è indicato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    393.7,
+    271.6,
+    404.3
+   ],
+   "size": 8.8,
+   "testo": "se l'incantesimo ha un'area di effetto che, in genere, può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    404.9,
+    266.4,
+    415.5
+   ],
+   "size": 8.8,
+   "testo": "avere una di queste forme: cono, cubo, cilindro, emana­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    415.8,
+    128.4,
+    426.4
+   ],
+   "size": 8.8,
+   "testo": "zione, linea o sfera.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    426.8,
+    272.5,
+    437.4
+   ],
+   "size": 8.8,
+   "testo": "Accorgersi di essere un bersaglio. A meno che un incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    437.8,
+    262.2,
+    448.4
+   ],
+   "size": 8.8,
+   "testo": "tesimo non abbia un effetto percettibile, una creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    448.8,
+    281.9,
+    459.4
+   ],
+   "size": 8.8,
+   "testo": "potrebbe persino non accorgersi di essere stata bersagliata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    459.7,
+    280.7,
+    470.3
+   ],
+   "size": 8.8,
+   "testo": "da esso. Effetti come i fulmini sono evidenti, ma un effetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    470.7,
+    278.3,
+    481.2
+   ],
+   "size": 8.8,
+   "testo": "più subdolo, come un tentativo di leggere i pensieri di una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    481.7,
+    262.6,
+    492.3
+   ],
+   "size": 8.8,
+   "testo": "creatura, passa inosservato a meno che la descrizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    492.6,
+    217.8,
+    503.2
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo non specifichi altrimenti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    503.7,
+    265.6,
+    514.3
+   ],
+   "size": 8.8,
+   "testo": "Bersagli non validi. Se il personaggio lancia un incan­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    514.8,
+    266.0,
+    525.4
+   ],
+   "size": 8.8,
+   "testo": "tesimo su qualcuno o qualcosa che non può subirne gli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    525.8,
+    268.6,
+    536.4
+   ],
+   "size": 8.8,
+   "testo": "effetti, non accadrà nulla a quel bersaglio; tuttavia, se il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    536.8,
+    268.7,
+    547.4
+   ],
+   "size": 8.8,
+   "testo": "personaggio ha usato uno slot incantesimo per lanciare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    547.8,
+    204.2,
+    558.4
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo, lo slot viene consumato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    558.8,
+    281.0,
+    569.4
+   ],
+   "size": 8.8,
+   "testo": "Di norma, un incantesimo non ha effetto su un bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    569.7,
+    257.9,
+    580.3
+   ],
+   "size": 8.8,
+   "testo": "che supera un tiro salvezza. Per i bersagli non validi,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    580.8,
+    269.1,
+    591.3
+   ],
+   "size": 8.8,
+   "testo": "sembrerà che il bersaglio abbia superato il tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    591.7,
+    274.9,
+    602.3
+   ],
+   "size": 8.8,
+   "testo": "anche se, in realtà, non l'ha effettuato (non dando quindi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    602.8,
+    279.6,
+    613.3
+   ],
+   "size": 8.8,
+   "testo": "alcun indizio sul fatto che la creatura sia un bersaglio non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    613.9,
+    278.0,
+    624.5
+   ],
+   "size": 8.8,
+   "testo": "valido). Altrimenti, il personaggio capirebbe che l'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    624.9,
+    206.6,
+    635.5
+   ],
+   "size": 8.8,
+   "testo": "simo non ha avuto effetto sul bersaglio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    645.4,
+    130.4,
+    656.8
+   ],
+   "size": 11.2,
+   "testo": "TIRI SALVEZZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    656.8,
+    280.3,
+    667.4
+   ],
+   "size": 8.8,
+   "testo": "Molti incantesimi specificano che un bersaglio effettua un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    667.8,
+    271.8,
+    678.4
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza per evitare tutti gli effetti dell'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    678.8,
+    256.3,
+    689.4
+   ],
+   "size": 8.8,
+   "testo": "o parte di essi. L'incantesimo specifica l'abilità che il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    689.7,
+    271.1,
+    700.2
+   ],
+   "size": 8.8,
+   "testo": "bersaglio usa per il salvataggio e cosa succede in caso di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    700.6,
+    265.2,
+    711.2
+   ],
+   "size": 8.8,
+   "testo": "successo o fallimento. Ecco come calcolare la CD degli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    711.7,
+    101.4,
+    722.3
+   ],
+   "size": 8.8,
+   "testo": "incantesimi:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    306.7,
+    528.9,
+    316.3
+   ],
+   "size": 8.4,
+   "testo": "CD del tiro salvezza sull'incantesimo = 8 + il modificatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    318.7,
+    529.6,
+    328.3
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica da incantatore dell'incantatore + il bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    390.6,
+    330.6,
+    449.1,
+    340.3
+   ],
+   "size": 8.4,
+   "testo": "di competenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.3,
+    349.1,
+    400.0,
+    360.4
+   ],
+   "size": 11.2,
+   "testo": "TIRI PER COLPIRE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    360.5,
+    524.1,
+    371.0
+   ],
+   "size": 8.8,
+   "testo": "Alcuni incantesimi richiedono che l'incantatore effettui",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    371.4,
+    526.8,
+    382.0
+   ],
+   "size": 8.8,
+   "testo": "un tiro per colpire per determinare se l'effetto dell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    382.4,
+    532.9,
+    393.0
+   ],
+   "size": 8.8,
+   "testo": "tesimo colpirà il bersaglio desiderato. Ecco come calcolare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    393.4,
+    474.9,
+    404.0
+   ],
+   "size": 8.8,
+   "testo": "il modificatore di attacco degli incantesimi:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    412.0,
+    528.3,
+    421.7
+   ],
+   "size": 8.4,
+   "testo": "Modificatore di attacco dell'incantesimo = il modificatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.6,
+    424.1,
+    529.6,
+    433.7
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica da incantatore dell'incantatore + il bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    390.6,
+    435.9,
+    449.1,
+    445.6
+   ],
+   "size": 8.4,
+   "testo": "di competenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    454.4,
+    470.6,
+    465.7
+   ],
+   "size": 11.2,
+   "testo": "COMBINARE GLI EFFETTI DEGLI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    465.1,
+    376.7,
+    476.4
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    476.5,
+    524.8,
+    487.1
+   ],
+   "size": 8.8,
+   "testo": "Gli effetti di diversi incantesimi si sommano fintantoché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    487.4,
+    517.0,
+    498.0
+   ],
+   "size": 8.8,
+   "testo": "le rispettive durate si sovrappongono. Di contro, però,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    498.5,
+    524.7,
+    509.0
+   ],
+   "size": 8.8,
+   "testo": "gli effetti dello stesso incantesimo lanciato più volte non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    509.5,
+    518.9,
+    520.1
+   ],
+   "size": 8.8,
+   "testo": "si combinano: viene infatti applicato solo il loro effetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    520.6,
+    517.6,
+    531.2
+   ],
+   "size": 8.8,
+   "testo": "più potente, come ad esempio il bonus più alto, mentre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    531.6,
+    521.8,
+    542.1
+   ],
+   "size": 8.8,
+   "testo": "le durate degli incantesimi si sovrappongono. Si applica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    542.5,
+    520.8,
+    553.1
+   ],
+   "size": 8.8,
+   "testo": "l'effetto più recente se gli incantesimi sono ugualmente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    553.6,
+    518.0,
+    564.2
+   ],
+   "size": 8.8,
+   "testo": "potenti e le loro durate si sovrappongono. Ad esempio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    564.6,
+    529.1,
+    575.2
+   ],
+   "size": 8.8,
+   "testo": "se due chierici lanciano benedizione sullo stesso bersaglio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    575.5,
+    519.4,
+    586.1
+   ],
+   "size": 8.8,
+   "testo": "quel bersaglio ottiene il beneficio dell'incantesimo solo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    586.5,
+    528.2,
+    597.1
+   ],
+   "size": 8.8,
+   "testo": "una volta, senza ricevere due dadi bonus. Ma se le durate",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    597.6,
+    515.3,
+    608.2
+   ],
+   "size": 8.8,
+   "testo": "degli incantesimi si sovrappongono, l'effetto continua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    608.6,
+    529.0,
+    619.1
+   ],
+   "size": 8.8,
+   "testo": "fino a che non termina la durata del secondo incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    620.7,
+    351.5,
+    630.0
+   ],
+   "size": 8.6,
+   "testo": "benedizione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    715.6,
+    314.5,
+    721.9
+   ],
+   "size": 4.9,
+   "testo": "...",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    645.2,
+    511.1,
+    655.2
+   ],
+   "size": 8.2,
+   "testo": "IDENTIFICARE UN INCANTESIMO IN CORSO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    658.3,
+    508.2,
+    667.9
+   ],
+   "size": 8.4,
+   "testo": "L'incantatore può cercare di identificare un incante­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    669.3,
+    520.7,
+    678.9
+   ],
+   "size": 8.4,
+   "testo": "simo non istantaneo la cui durata è in corso in base ai",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    680.3,
+    524.5,
+    690.0
+   ],
+   "size": 8.4,
+   "testo": "suoi effetti osservabili. Per identificarlo, deve effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.0,
+    691.3,
+    519.1,
+    700.9
+   ],
+   "size": 8.4,
+   "testo": "l'azione di Studio e superare una prova di Intelligenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    702.2,
+    391.9,
+    711.9
+   ],
+   "size": 8.4,
+   "testo": "(Arcano) con CD 15.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

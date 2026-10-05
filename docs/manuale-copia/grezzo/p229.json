@@ -1,0 +1,1440 @@
+{
+ "pagina_pdf": 229,
+ "pagina_stampata": 226,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "226 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.4,
+    52.1,
+    229.3,
+    63.4
+   ],
+   "size": 11.2,
+   "testo": "Fuoco DELL'ALCHIMISTA (50 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    63.4,
+    261.0,
+    73.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio effettua un'azione di Attacco,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    74.4,
+    271.2,
+    85.0
+   ],
+   "size": 8.8,
+   "testo": "puoi sostituire uno dei suoi attacchi con il lancio di una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    85.3,
+    266.7,
+    95.9
+   ],
+   "size": 8.8,
+   "testo": "ampolla di fuoco dell'alchimista. Può prendere di mira",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    96.4,
+    275.5,
+    106.9
+   ],
+   "size": 8.8,
+   "testo": "una creatura o un oggetto che è in grado di vedere entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    107.3,
+    274.4,
+    117.9
+   ],
+   "size": 8.8,
+   "testo": "6 metri da sé. Il bersaglio deve superare un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    118.3,
+    268.8,
+    128.9
+   ],
+   "size": 8.8,
+   "testo": "su Destrezza (CD 8 più il modificatore di Destrezza e il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    129.3,
+    274.4,
+    139.9
+   ],
+   "size": 8.8,
+   "testo": "bonus di competenza del personaggio), altrimenti subirà",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    140.3,
+    280.1,
+    150.9
+   ],
+   "size": 8.8,
+   "testo": "1d4 danni da fuoco e sarà in fiamme (consulta il Glossario",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    151.3,
+    104.5,
+    161.8
+   ],
+   "size": 8.8,
+   "testo": "delle regole).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    186.1,
+    146.2,
+    197.5
+   ],
+   "size": 11.2,
+   "testo": "GIACIGLIO (1 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    197.4,
+    280.7,
+    208.0
+   ],
+   "size": 8.8,
+   "testo": "Su un giaciglio può dormire una creatura di taglia Piccola",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    208.6,
+    263.3,
+    219.1
+   ],
+   "size": 8.8,
+   "testo": "o Media. Finché il personaggio si trova in un giaciglio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.9,
+    219.5,
+    269.3,
+    230.1
+   ],
+   "size": 8.8,
+   "testo": "supera automaticamente i tiri salvezza contro il freddo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    230.5,
+    221.2,
+    241.0
+   ],
+   "size": 8.8,
+   "testo": "estremo (vedi la GuidadelDungeon Master).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    265.3,
+    160.9,
+    276.7
+   ],
+   "size": 11.2,
+   "testo": "INCHIOSTRO (10 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    276.6,
+    251.5,
+    287.2
+   ],
+   "size": 8.8,
+   "testo": "L'inchiostro è reperibile in boccette da 30 grammi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    287.7,
+    264.0,
+    298.3
+   ],
+   "size": 8.8,
+   "testo": "ciascuna, con abbastanza materiale per scrivere circa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    298.6,
+    102.1,
+    309.2
+   ],
+   "size": 8.8,
+   "testo": "500 pagine.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    333.5,
+    142.0,
+    344.8
+   ],
+   "size": 11.2,
+   "testo": "LAMPADA (5 MA)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    344.7,
+    266.0,
+    355.3
+   ],
+   "size": 8.8,
+   "testo": "Una lampada brucia olio per proiettare luce intensa in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    355.7,
+    268.3,
+    366.2
+   ],
+   "size": 8.8,
+   "testo": "un raggio di 4,5 metri e luce fioca per ulteriori 9 metri.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    390.5,
+    267.8,
+    401.9
+   ],
+   "size": 11.2,
+   "testo": "LANTERNA, A LENTE SPORGENTE (10 MO)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    401.9,
+    277.1,
+    412.4
+   ],
+   "size": 8.8,
+   "testo": "Una lanterna a lente sporgente sfrutta l'olio come combu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    412.9,
+    271.5,
+    423.4
+   ],
+   "size": 8.8,
+   "testo": "stibile per proiettare luce intensa in un cono di 18 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    423.9,
+    184.3,
+    434.5
+   ],
+   "size": 8.8,
+   "testo": "e luce fioca per ulteriori 18 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    458.6,
+    228.6,
+    469.9
+   ],
+   "size": 11.2,
+   "testo": "LANTERNA, SCHERMABILE (5 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    469.9,
+    274.5,
+    480.4
+   ],
+   "size": 8.8,
+   "testo": "Una lanterna schermabile brucia olio per proiettare luce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    480.9,
+    268.7,
+    491.5
+   ],
+   "size": 8.8,
+   "testo": "intensa in un raggio di 9 metri e luce fioca per ulteriori",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    491.9,
+    269.7,
+    502.4
+   ],
+   "size": 8.8,
+   "testo": "9 metri. Come azione bonus, un personaggio può scher­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    502.9,
+    277.0,
+    513.5
+   ],
+   "size": 8.8,
+   "testo": "mare la lanterna, riducendo la luce proiettata a luce fioca",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    513.9,
+    192.4,
+    524.5
+   ],
+   "size": 8.8,
+   "testo": "in un raggio di 1,5 metri o riaprirla.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    548.8,
+    240.4,
+    560.1
+   ],
+   "size": 11.2,
+   "testo": "LENTE D'INGRANDIMENTO (100 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    560.1,
+    270.1,
+    570.7
+   ],
+   "size": 8.8,
+   "testo": "Una lente d'ingrandimento conferisce vantaggio a ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    571.1,
+    269.5,
+    581.7
+   ],
+   "size": 8.8,
+   "testo": "prova di caratteristica effettuata per valutare o ispezio­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    582.1,
+    278.7,
+    592.6
+   ],
+   "size": 8.8,
+   "testo": "nare un oggetto estremamente dettagliato. Per accendere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    593.1,
+    271.1,
+    603.6
+   ],
+   "size": 8.8,
+   "testo": "un fuoco con la lente d'ingrandimento è necessaria una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    604.0,
+    265.0,
+    614.6
+   ],
+   "size": 8.8,
+   "testo": "luce da concentrare intensa quanto quella del sole, dei",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    615.2,
+    265.7,
+    625.7
+   ],
+   "size": 8.8,
+   "testo": "rametti da accendere e circa 5 minuti affinché il fuoco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    626.2,
+    101.3,
+    636.7
+   ],
+   "size": 8.8,
+   "testo": "attecchisca.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    661.1,
+    130.1,
+    672.4
+   ],
+   "size": 11.2,
+   "testo": "LIBRO (25 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    672.3,
+    258.1,
+    682.9
+   ],
+   "size": 8.8,
+   "testo": "I libri possono contenere sia opere di finzione che di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    683.3,
+    273.1,
+    693.8
+   ],
+   "size": 8.8,
+   "testo": "carattere divulgativo. Se il personaggio ne consulta uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    694.3,
+    280.9,
+    704.8
+   ],
+   "size": 8.8,
+   "testo": "che tratta di un determinato argomento, ottiene un bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    705.3,
+    266.8,
+    715.9
+   ],
+   "size": 8.8,
+   "testo": "di +5 alle prove di Intelligenza (Arcano, Storia, Natura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    716.3,
+    207.3,
+    726.8
+   ],
+   "size": 8.8,
+   "testo": "o Religione) eseguite su tale argomento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    51.9,
+    396.9,
+    63.3
+   ],
+   "size": 11.2,
+   "testo": "MANETTE (2 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    63.3,
+    535.0,
+    73.8
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Utilizzo, se supera una prova di Destrezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    74.3,
+    531.2,
+    84.8
+   ],
+   "size": 8.8,
+   "testo": "(Rapidità di mano) con CD 13, il personaggio può usare le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    85.3,
+    524.4,
+    95.9
+   ],
+   "size": 8.8,
+   "testo": "manette per bloccare una creatura non consenziente di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    96.4,
+    525.1,
+    106.9
+   ],
+   "size": 8.8,
+   "testo": "taglia Piccola o Media entro 1,5 metri da sé che sia affer­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    107.3,
+    522.2,
+    117.9
+   ],
+   "size": 8.8,
+   "testo": "rata, incapacitata o trattenuta. Mentre è ammanettata,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    118.2,
+    535.2,
+    128.8
+   ],
+   "size": 8.8,
+   "testo": "la creatura ha svantaggio ai tiri per colpire ed è trattenuta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    129.3,
+    534.0,
+    139.8
+   ],
+   "size": 8.8,
+   "testo": "se le manette sono attaccate a una catena o un gancio fissi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    140.3,
+    535.5,
+    150.8
+   ],
+   "size": 8.8,
+   "testo": "in posizione. Per liberarsi è necessario superare una prova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    151.2,
+    534.3,
+    161.8
+   ],
+   "size": 8.8,
+   "testo": "di Destrezza (Rapidità di mano) con CD 20 con un'azione.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    162.3,
+    531.6,
+    172.9
+   ],
+   "size": 8.8,
+   "testo": "Per romperle bisogna invece superare una prova di Forza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    173.3,
+    447.2,
+    183.9
+   ],
+   "size": 8.8,
+   "testo": "(Atletica) con CD 25 con un'azione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    184.3,
+    529.1,
+    194.9
+   ],
+   "size": 8.8,
+   "testo": "Ogni coppia di manette ha la sua chiave. Senza di essa,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    195.3,
+    518.2,
+    205.9
+   ],
+   "size": 8.8,
+   "testo": "una creatura può scassinarne la serratura utilizzando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    206.4,
+    525.3,
+    217.0
+   ],
+   "size": 8.8,
+   "testo": "gli arnesi da scasso e superando una prova di Destrezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    217.4,
+    424.9,
+    227.9
+   ],
+   "size": 8.8,
+   "testo": "(Rapidità di mano) con CD 15.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    252.1,
+    379.6,
+    263.5
+   ],
+   "size": 11.2,
+   "testo": "MAPPA (1 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    263.4,
+    536.5,
+    274.0
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio consulta una mappa accurata, ottiene un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    274.5,
+    527.7,
+    285.1
+   ],
+   "size": 8.8,
+   "testo": "bonus di +5 alle prove di Saggezza (Sopravvivenza) effet­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    285.6,
+    522.7,
+    296.2
+   ],
+   "size": 8.8,
+   "testo": "tuate per tracciare un percorso nel luogo che raffigura.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    320.2,
+    433.9,
+    331.5
+   ],
+   "size": 11.2,
+   "testo": "MUNIZIONI (VARIABILI)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    331.6,
+    521.8,
+    342.2
+   ],
+   "size": 8.8,
+   "testo": "Se un'arma possiede la proprietà munizioni, richiederà",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    342.5,
+    526.3,
+    353.1
+   ],
+   "size": 8.8,
+   "testo": "l'uso di munizioni. La tipologia è specificata nella descri­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    353.5,
+    529.4,
+    364.1
+   ],
+   "size": 8.8,
+   "testo": "zione dell'arma. La tabella Munizioni elenca i diversi tipi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    364.6,
+    517.4,
+    375.2
+   ],
+   "size": 8.8,
+   "testo": "di munizioni e la quantità ottenuta con ogni acquisto,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    375.5,
+    531.0,
+    386.0
+   ],
+   "size": 8.8,
+   "testo": "oltre all'oggetto utilizzato per conservarle (da acquistare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    386.5,
+    370.8,
+    397.1
+   ],
+   "size": 8.8,
+   "testo": "separatamente).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    409.4,
+    367.6,
+    420.1
+   ],
+   "size": 10.6,
+   "testo": "MUNIZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    424.9,
+    329.1,
+    434.1
+   ],
+   "size": 8.2,
+   "testo": "Tipo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    376.1,
+    424.9,
+    472.5,
+    434.1
+   ],
+   "size": 8.2,
+   "testo": "Quantità Conservazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.1,
+    424.9,
+    533.3,
+    434.1
+   ],
+   "size": 8.2,
+   "testo": "Peso Costo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.7,
+    439.1,
+    336.7,
+    448.8
+   ],
+   "size": 8.4,
+   "testo": "Frecce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    388.5,
+    439.1,
+    399.7,
+    448.8
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.4,
+    439.2,
+    443.5,
+    448.8
+   ],
+   "size": 8.4,
+   "testo": "Faretra",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    479.8,
+    439.2,
+    505.3,
+    448.8
+   ],
+   "size": 8.4,
+   "testo": "0,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.6,
+    439.2,
+    533.8,
+    448.8
+   ],
+   "size": 8.4,
+   "testo": "1 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.2,
+    453.7,
+    347.9,
+    463.3
+   ],
+   "size": 8.4,
+   "testo": "Quadrelli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    388.5,
+    453.7,
+    399.7,
+    463.3
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    414.9,
+    453.7,
+    451.1,
+    463.3
+   ],
+   "size": 8.4,
+   "testo": "Custodia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    475.7,
+    453.6,
+    505.7,
+    463.3
+   ],
+   "size": 8.4,
+   "testo": "0,75 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.7,
+    453.7,
+    533.8,
+    463.3
+   ],
+   "size": 8.4,
+   "testo": "1 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.7,
+    468.2,
+    347.2,
+    477.8
+   ],
+   "size": 8.4,
+   "testo": "Proiettili,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    388.8,
+    468.2,
+    400.7,
+    477.8
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.4,
+    468.2,
+    438.9,
+    477.9
+   ],
+   "size": 8.4,
+   "testo": "Borsa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    487.6,
+    468.2,
+    505.0,
+    477.8
+   ],
+   "size": 8.4,
+   "testo": "1 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.4,
+    468.3,
+    533.7,
+    477.9
+   ],
+   "size": 8.4,
+   "testo": "3 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.2,
+    480.3,
+    367.3,
+    489.9
+   ],
+   "size": 8.4,
+   "testo": "arma da fuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.7,
+    494.7,
+    373.5,
+    504.4
+   ],
+   "size": 8.4,
+   "testo": "Proiettili, fionda",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    388.2,
+    494.7,
+    400.4,
+    504.4
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.4,
+    494.7,
+    439.0,
+    504.4
+   ],
+   "size": 8.4,
+   "testo": "Borsa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    475.7,
+    494.8,
+    505.0,
+    504.4
+   ],
+   "size": 8.4,
+   "testo": "0,75 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.8,
+    494.7,
+    534.4,
+    504.4
+   ],
+   "size": 8.4,
+   "testo": "4 mr",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    509.4,
+    329.6,
+    519.0
+   ],
+   "size": 8.4,
+   "testo": "Aghi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    388.6,
+    509.9,
+    399.7,
+    519.0
+   ],
+   "size": 6.9,
+   "testo": "so",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.2,
+    509.5,
+    439.2,
+    519.1
+   ],
+   "size": 8.4,
+   "testo": "Borsa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.1,
+    509.5,
+    505.3,
+    519.1
+   ],
+   "size": 8.4,
+   "testo": "0,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    512.6,
+    509.5,
+    533.7,
+    519.1
+   ],
+   "size": 8.4,
+   "testo": "1 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    547.4,
+    371.7,
+    558.8
+   ],
+   "size": 11.2,
+   "testo": "Ouo (1 MA)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    558.9,
+    535.6,
+    569.4
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può gettare olio su una creatura, un oggetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    569.8,
+    522.3,
+    580.4
+   ],
+   "size": 8.8,
+   "testo": "o un'area. In alternativa, può usarlo come combustibile,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    580.8,
+    390.8,
+    591.4
+   ],
+   "size": 8.8,
+   "testo": "come descritto sotto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    591.8,
+    531.7,
+    602.4
+   ],
+   "size": 8.8,
+   "testo": "Gettare oliosu una creatura o un oggetto. Quando il per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    602.7,
+    536.5,
+    613.3
+   ],
+   "size": 8.8,
+   "testo": "sonaggio effettua un'azione di Attacco, puoi sostituire uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    613.9,
+    526.0,
+    624.5
+   ],
+   "size": 8.8,
+   "testo": "dei suoi attacchi con il lancio di un'ampolla di olio verso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    625.0,
+    533.8,
+    635.5
+   ],
+   "size": 8.8,
+   "testo": "una creatura o un oggetto entro 6 metri da sé. Il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    636.0,
+    526.2,
+    646.6
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Destrezza (CD 8 più il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    647.0,
+    521.8,
+    657.6
+   ],
+   "size": 8.8,
+   "testo": "modificatore di Destrezza e il bonus di competenza del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    658.0,
+    524.1,
+    668.5
+   ],
+   "size": 8.8,
+   "testo": "personaggio), altrimenti sarà coperto di olio. Se il bersa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    669.0,
+    519.1,
+    679.5
+   ],
+   "size": 8.8,
+   "testo": "glio subisce danni da fuoco prima che l'olio si asciughi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    680.0,
+    523.3,
+    690.5
+   ],
+   "size": 8.8,
+   "testo": "(dopo 1 minuto), subisce 5 danni da fuoco extra a causa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    690.9,
+    384.8,
+    701.5
+   ],
+   "size": 8.8,
+   "testo": "dell'olio incendiato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    701.9,
+    528.3,
+    712.5
+   ],
+   "size": 8.8,
+   "testo": "Gettare oliosu una superficie. Come azione di Utilizzo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    712.9,
+    511.3,
+    723.5
+   ],
+   "size": 8.8,
+   "testo": "il personaggio può versare un'ampolla di olio su una",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

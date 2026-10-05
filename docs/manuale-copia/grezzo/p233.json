@@ -1,0 +1,1860 @@
+{
+ "pagina_pdf": 233,
+ "pagina_stampata": 230,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "230 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    50.8,
+    36.2,
+    158.2,
+    49.3
+   ],
+   "size": 9.7,
+   "testo": "VEICOLI GRANDI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    52.8,
+    266.9,
+    63.3
+   ],
+   "size": 8.8,
+   "testo": "Nella tabella Veicoli aerei e imbarcazioni sono elencate",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    63.7,
+    257.0,
+    74.3
+   ],
+   "size": 8.8,
+   "testo": "le statistiche per vari tipi di veicoli grandi. Si applica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    74.7,
+    107.5,
+    85.3
+   ],
+   "size": 8.8,
+   "testo": "quanto segue.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    95.2,
+    105.5,
+    106.6
+   ],
+   "size": 11.2,
+   "testo": "VELOCITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    106.5,
+    247.4,
+    117.1
+   ],
+   "size": 8.8,
+   "testo": "Una nave che naviga contro forti raffiche di vento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    117.5,
+    257.4,
+    128.1
+   ],
+   "size": 8.8,
+   "testo": "si muove alla metà della velocità. In caso di bonaccia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    128.5,
+    269.4,
+    139.1
+   ],
+   "size": 8.8,
+   "testo": "(assenza di vento), per muovere le imbarcazioni è neces­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    139.6,
+    258.3,
+    150.1
+   ],
+   "size": 8.8,
+   "testo": "sario remare, dato che non possono sfruttare le vele.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    150.6,
+    262.5,
+    161.1
+   ],
+   "size": 8.8,
+   "testo": "I barconi e le barche a remi sono solitamente usati sui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    161.6,
+    267.4,
+    172.2
+   ],
+   "size": 8.8,
+   "testo": "laghi e sui fiumi. Se un'imbarcazione segue la corrente,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    172.6,
+    275.2,
+    183.2
+   ],
+   "size": 8.8,
+   "testo": "si aggiunge la velocità della corrente (solitamente 4,5 km",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    183.6,
+    267.6,
+    194.1
+   ],
+   "size": 8.8,
+   "testo": "all'ora) alla sua velocità. Non è possibile remare contro­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    194.5,
+    261.4,
+    205.1
+   ],
+   "size": 8.8,
+   "testo": "corrente se la corrente ha un'intensità rilevante, ma è",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    205.7,
+    277.6,
+    216.3
+   ],
+   "size": 8.8,
+   "testo": "possibile risalire un corso d'acqua portando queste imbar­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    216.6,
+    268.4,
+    227.2
+   ],
+   "size": 8.8,
+   "testo": "cazioni a riva e facendole trainare da uno o più animali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    227.6,
+    266.4,
+    238.2
+   ],
+   "size": 8.8,
+   "testo": "da tiro. Una barca a remi può essere trasportata e pesa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    238.5,
+    118.0,
+    249.1
+   ],
+   "size": 8.8,
+   "testo": "45 chilogrammi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    259.2,
+    118.9,
+    270.5
+   ],
+   "size": 11.2,
+   "testo": "EQUIPAGGIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    270.5,
+    264.8,
+    281.1
+   ],
+   "size": 8.8,
+   "testo": "Una nave più grande di un barcone o una barca a remi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    281.5,
+    274.0,
+    292.1
+   ],
+   "size": 8.8,
+   "testo": "necessita di un equipaggio di gregari abili (vedi \"Servizi\"",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    292.6,
+    274.8,
+    303.1
+   ],
+   "size": 8.8,
+   "testo": "più avanti in questo capitolo) per poter essere governata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    303.6,
+    274.4,
+    314.1
+   ],
+   "size": 8.8,
+   "testo": "Il numero minimo di gregari abili necessari per l'equipag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    314.5,
+    265.9,
+    325.1
+   ],
+   "size": 8.8,
+   "testo": "gio di una nave dipende dalla tipologia, come mostrato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    325.5,
+    102.8,
+    336.1
+   ],
+   "size": 8.8,
+   "testo": "nella tabella.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    345.9,
+    115.7,
+    357.3
+   ],
+   "size": 11.2,
+   "testo": "PASSEGGERI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    357.2,
+    272.2,
+    367.8
+   ],
+   "size": 8.8,
+   "testo": "Nella tabella è mostrato il numero di passeggeri di taglia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    368.2,
+    256.9,
+    378.8
+   ],
+   "size": 8.8,
+   "testo": "Piccola e Media che una nave può accogliere in delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    379.2,
+    269.2,
+    389.7
+   ],
+   "size": 8.8,
+   "testo": "apposite amache. Una nave dotata di alloggi privati può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    390.2,
+    263.1,
+    400.7
+   ],
+   "size": 8.8,
+   "testo": "trasportare un quinto di questa quota. Solitamente, le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    401.3,
+    264.3,
+    411.9
+   ],
+   "size": 8.8,
+   "testo": "amache costano 5 ma per ogni passeggero, ma i prezzi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.1,
+    412.3,
+    260.5,
+    422.9
+   ],
+   "size": 8.8,
+   "testo": "variano in base alla singola imbarcazione. Un piccolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    423.3,
+    236.9,
+    433.9
+   ],
+   "size": 8.8,
+   "testo": "alloggio privato costa in genere 2 mo al giorno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    443.7,
+    149.1,
+    455.0
+   ],
+   "size": 11.2,
+   "testo": "SOGLIA DI DANNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    455.0,
+    263.0,
+    465.6
+   ],
+   "size": 8.8,
+   "testo": "Se un veicolo ha una soglia di danno (vedi il Glossario",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    466.0,
+    232.1,
+    476.6
+   ],
+   "size": 8.8,
+   "testo": "delle regole), questa sarà segnata sulla tabella.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    486.5,
+    161.9,
+    497.8
+   ],
+   "size": 11.2,
+   "testo": "RIPARARE UNA NAVE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    490.7,
+    276.5,
+    509.0
+   ],
+   "size": 8.8,
+   "testo": "È possibile effettuare delle riparazioni a una nave mentre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    508.8,
+    258.4,
+    519.4
+   ],
+   "size": 8.8,
+   "testo": "questa è ormeggiata. Per ripristinare un punto ferita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    519.9,
+    261.7,
+    530.5
+   ],
+   "size": 8.8,
+   "testo": "di danno sono necessari 1 giorno e 20 mo di materiali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    530.9,
+    278.4,
+    541.4
+   ],
+   "size": 8.8,
+   "testo": "e manodopera. Se le riparazioni sono eseguite in un luogo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    541.9,
+    279.9,
+    552.5
+   ],
+   "size": 8.8,
+   "testo": "dove materiali e manodopera qualificata sono abbondanti,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    552.9,
+    273.5,
+    563.5
+   ],
+   "size": 8.8,
+   "testo": "come un cantiere navale, il tempo di riparazione e i costi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    563.9,
+    129.7,
+    574.4
+   ],
+   "size": 8.8,
+   "testo": "vengono dimezzati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    586.6,
+    210.9,
+    597.3
+   ],
+   "size": 10.6,
+   "testo": "VEICOLI AEREI E IMBARCAZIONI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    613.7,
+    77.0,
+    622.9
+   ],
+   "size": 8.2,
+   "testo": "Nave",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    613.6,
+    176.7,
+    622.8
+   ],
+   "size": 8.2,
+   "testo": "Velocità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    185.4,
+    613.6,
+    229.1,
+    622.8
+   ],
+   "size": 8.2,
+   "testo": "Equipaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    240.5,
+    613.5,
+    282.7,
+    622.7
+   ],
+   "size": 8.2,
+   "testo": "Passeggeri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    627.6,
+    105.4,
+    637.3
+   ],
+   "size": 8.4,
+   "testo": "Barca a remi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.6,
+    627.5,
+    177.3,
+    637.1
+   ],
+   "size": 8.4,
+   "testo": "2,25 km/h",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.3,
+    627.5,
+    208.6,
+    637.1
+   ],
+   "size": 8.4,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.6,
+    627.4,
+    264.1,
+    637.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    642.2,
+    89.0,
+    651.8
+   ],
+   "size": 8.4,
+   "testo": "Barcone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.9,
+    642.2,
+    177.3,
+    651.8
+   ],
+   "size": 8.4,
+   "testo": "l , S km/h",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.3,
+    642.1,
+    208.6,
+    651.8
+   ],
+   "size": 8.4,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.4,
+    642.2,
+    264.4,
+    651.8
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    656.8,
+    92.7,
+    666.4
+   ],
+   "size": 8.4,
+   "testo": "Dirigibile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    656.7,
+    177.5,
+    666.4
+   ],
+   "size": 8.4,
+   "testo": "12 km/h",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.0,
+    656.7,
+    213.6,
+    666.3
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    256.1,
+    656.7,
+    267.1,
+    666.3
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    671.4,
+    79.3,
+    681.0
+   ],
+   "size": 8.4,
+   "testo": "Galea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    148.4,
+    671.3,
+    177.3,
+    681.0
+   ],
+   "size": 8.4,
+   "testo": "6 km/h",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.4,
+    671.4,
+    213.0,
+    681.0
+   ],
+   "size": 8.4,
+   "testo": "80",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    685.9,
+    115.4,
+    695.6
+   ],
+   "size": 8.4,
+   "testo": "Nave da guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.3,
+    685.8,
+    177.3,
+    695.5
+   ],
+   "size": 8.4,
+   "testo": "3,75 km/h",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.3,
+    685.8,
+    213.2,
+    695.5
+   ],
+   "size": 8.4,
+   "testo": "60",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.9,
+    685.8,
+    267.5,
+    695.4
+   ],
+   "size": 8.4,
+   "testo": "60",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    700.5,
+    100.4,
+    710.1
+   ],
+   "size": 8.4,
+   "testo": "Nave lunga",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    141.4,
+    700.3,
+    177.3,
+    710.0
+   ],
+   "size": 8.4,
+   "testo": "4,S km/h",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.3,
+    700.4,
+    213.0,
+    710.0
+   ],
+   "size": 8.4,
+   "testo": "40",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.4,
+    700.3,
+    268.8,
+    709.9
+   ],
+   "size": 8.4,
+   "testo": "l SO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    715.1,
+    101.1,
+    724.7
+   ],
+   "size": 8.4,
+   "testo": "Nave a vela",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    148.6,
+    714.9,
+    177.6,
+    724.5
+   ],
+   "size": 8.4,
+   "testo": "3 km/h",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.4,
+    714.9,
+    213.6,
+    724.5
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.9,
+    714.9,
+    268.0,
+    724.5
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    35.7,
+    369.5,
+    52.4
+   ],
+   "size": 12.9,
+   "testo": "SERVIZI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    53.9,
+    509.1,
+    64.5
+   ],
+   "size": 8.8,
+   "testo": "Questa sezione delinea servizi e altre spese in cui gli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    64.9,
+    508.1,
+    75.5
+   ],
+   "size": 8.8,
+   "testo": "avventurieri potrebbero investire il proprio denaro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    85.0,
+    473.4,
+    98.1
+   ],
+   "size": 9.7,
+   "testo": "SPESE DELLO STILE DI VITA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    101.6,
+    508.7,
+    112.1
+   ],
+   "size": 8.8,
+   "testo": "Le spese dello stile di vita riguardano il costo di vita",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    112.5,
+    524.3,
+    123.1
+   ],
+   "size": 8.8,
+   "testo": "medio in un mondo fantastico. Includono vitto, alloggio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    123.5,
+    487.3,
+    134.1
+   ],
+   "size": 8.8,
+   "testo": "manutenzione dell'attrezzatura e altri bisogni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    134.6,
+    534.3,
+    145.1
+   ],
+   "size": 8.8,
+   "testo": "All'inizio di ognisettimana o mese (a discrezione del DM),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    145.5,
+    527.7,
+    156.0
+   ],
+   "size": 8.8,
+   "testo": "puoi scegliere uno stile di vita tra quelli sottostanti (mise­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    156.5,
+    519.1,
+    167.1
+   ],
+   "size": 8.8,
+   "testo": "rabile, squallido, modesto, agiato, ricco o aristocratico)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    167.7,
+    463.7,
+    178.2
+   ],
+   "size": 8.8,
+   "testo": "e pagare la relativa quota per sostenerlo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    178.6,
+    525.0,
+    189.2
+   ],
+   "size": 8.8,
+   "testo": "Gli stili di vita non hanno vere e proprie conseguenze,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    189.6,
+    529.2,
+    200.2
+   ],
+   "size": 8.8,
+   "testo": "ma il DM potrebbe prenderli in considerazione per determi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    200.7,
+    532.1,
+    211.3
+   ],
+   "size": 8.8,
+   "testo": "nare eventuali rischi e il modo in cui gli altri percepiscono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    211.7,
+    378.8,
+    222.3
+   ],
+   "size": 8.8,
+   "testo": "il tuo personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    232.1,
+    419.0,
+    243.4
+   ],
+   "size": 11.2,
+   "testo": "MISERABILE (GRATIS)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    243.5,
+    528.0,
+    254.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio sopravvive affidandosi al caso e alla carità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    254.5,
+    511.8,
+    265.1
+   ],
+   "size": 8.8,
+   "testo": "del prossimo. Poiché dorme fuori, spesso è esposto ai",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    265.5,
+    371.8,
+    276.1
+   ],
+   "size": 8.8,
+   "testo": "pericoli naturali.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    286.1,
+    462.2,
+    297.4
+   ],
+   "size": 11.2,
+   "testo": "SQUALLIDO (1 MA AL GIORNO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    297.4,
+    526.8,
+    308.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio spende il minimo indispensabile per le sue",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    308.3,
+    528.9,
+    318.9
+   ],
+   "size": 8.8,
+   "testo": "necessità. Per questo, potrebbe cadere vittima di malattie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    319.3,
+    409.8,
+    329.9
+   ],
+   "size": 8.8,
+   "testo": "o criminali opportunistici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    339.7,
+    445.5,
+    351.0
+   ],
+   "size": 11.2,
+   "testo": "POVERO (2 MA AL GIORNO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    351.1,
+    498.3,
+    361.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio spende una cifra parsimoniosa per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    362.2,
+    383.6,
+    372.7
+   ],
+   "size": 8.8,
+   "testo": "le proprie necessità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    382.5,
+    453.4,
+    393.9
+   ],
+   "size": 11.2,
+   "testo": "MODESTO (1 MO AL GIORNO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    393.9,
+    508.2,
+    404.5
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio spende una quantità media di denaro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    405.0,
+    366.1,
+    415.6
+   ],
+   "size": 8.8,
+   "testo": "per sostentarsi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    425.5,
+    444.8,
+    436.8
+   ],
+   "size": 11.2,
+   "testo": "AGIATO (2 MO AL GIORNO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    436.8,
+    517.5,
+    447.4
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio spende una modesta quantità di denaro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    447.7,
+    510.3,
+    458.3
+   ],
+   "size": 8.8,
+   "testo": "per le proprie necessità, concedendosi qualche lusso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    468.1,
+    435.9,
+    479.5
+   ],
+   "size": 11.2,
+   "testo": "RICCO (4 MO AL GIORNO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    479.6,
+    515.3,
+    490.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio è abituato a vivere nel lusso e potrebbe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    490.5,
+    410.6,
+    501.1
+   ],
+   "size": 8.8,
+   "testo": "persino avere dei servitori.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    511.1,
+    490.8,
+    522.4
+   ],
+   "size": 11.2,
+   "testo": "ARISTOCRATICO (10 MO AL GIORNO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    522.5,
+    524.3,
+    533.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio vuole solo il meglio del meglio e potrebbe",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    533.4,
+    515.5,
+    544.0
+   ],
+   "size": 8.8,
+   "testo": "persino avere delle persone alle sue dipendenze che lo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    544.4,
+    526.0,
+    555.0
+   ],
+   "size": 8.8,
+   "testo": "aiutano a condurre questo stile di vita. Questa ricchezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    555.4,
+    531.3,
+    566.0
+   ],
+   "size": 8.8,
+   "testo": "non passa inosservata, e altri potrebbero incitarlo a condi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    566.4,
+    455.5,
+    577.0
+   ],
+   "size": 8.8,
+   "testo": "viderla in vari modi, sia legali che non.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    602.4,
+    328.7,
+    611.7
+   ],
+   "size": 8.2,
+   "testo": "Carico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    293.9,
+    613.5,
+    337.9,
+    622.7
+   ],
+   "size": 8.2,
+   "testo": "(tonnellate)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.7,
+    613.4,
+    365.4,
+    622.7
+   ],
+   "size": 8.2,
+   "testo": "CA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.8,
+    613.4,
+    396.5,
+    622.7
+   ],
+   "size": 8.2,
+   "testo": "PF",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    413.1,
+    613.5,
+    473.6,
+    622.7
+   ],
+   "size": 8.2,
+   "testo": "Soglia di danno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    506.4,
+    613.5,
+    530.3,
+    622.7
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    354.5,
+    627.5,
+    364.3,
+    637.1
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.7,
+    628.0,
+    396.8,
+    637.0
+   ],
+   "size": 6.9,
+   "testo": "so",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    505.1,
+    627.4,
+    531.2,
+    637.1
+   ],
+   "size": 8.4,
+   "testo": "50 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    642.1,
+    323.7,
+    651.7
+   ],
+   "size": 8.4,
+   "testo": "1/2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.4,
+    642.1,
+    365.7,
+    651.7
+   ],
+   "size": 8.4,
+   "testo": "l S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.5,
+    642.1,
+    398.5,
+    651.7
+   ],
+   "size": 8.4,
+   "testo": "100",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.3,
+    642.0,
+    449.9,
+    651.7
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    493.0,
+    642.0,
+    531.2,
+    651.6
+   ],
+   "size": 8.4,
+   "testo": "3.000 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    354.4,
+    656.5,
+    365.4,
+    666.6
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.2,
+    656.7,
+    399.7,
+    666.3
+   ],
+   "size": 8.4,
+   "testo": "300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    487.3,
+    656.6,
+    531.2,
+    666.3
+   ],
+   "size": 8.4,
+   "testo": "40.000 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    671.3,
+    323.3,
+    680.9
+   ],
+   "size": 8.4,
+   "testo": "l SO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.4,
+    671.3,
+    365.7,
+    680.9
+   ],
+   "size": 8.4,
+   "testo": "l S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.3,
+    671.7,
+    399.1,
+    680.8
+   ],
+   "size": 6.9,
+   "testo": "soo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.8,
+    671.2,
+    449.0,
+    680.8
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    488.3,
+    671.2,
+    530.7,
+    680.8
+   ],
+   "size": 8.4,
+   "testo": "30.000 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    685.8,
+    324.3,
+    695.4
+   ],
+   "size": 8.4,
+   "testo": "200",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.4,
+    685.8,
+    365.7,
+    695.4
+   ],
+   "size": 8.4,
+   "testo": "l S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.3,
+    686.3,
+    399.1,
+    695.3
+   ],
+   "size": 6.9,
+   "testo": "soo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.8,
+    685.7,
+    449.0,
+    695.4
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    488.2,
+    685.7,
+    530.7,
+    695.4
+   ],
+   "size": 8.4,
+   "testo": "25.OOO mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.1,
+    700.3,
+    322.7,
+    709.9
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.4,
+    700.3,
+    365.7,
+    709.9
+   ],
+   "size": 8.4,
+   "testo": "l S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.2,
+    700.3,
+    399.7,
+    709.9
+   ],
+   "size": 8.4,
+   "testo": "300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.5,
+    700.3,
+    449.8,
+    709.9
+   ],
+   "size": 8.4,
+   "testo": "l S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    488.7,
+    700.3,
+    531.2,
+    709.9
+   ],
+   "size": 8.4,
+   "testo": "10.000 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    714.9,
+    323.5,
+    724.5
+   ],
+   "size": 8.4,
+   "testo": "100",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.4,
+    714.9,
+    365.7,
+    724.5
+   ],
+   "size": 8.4,
+   "testo": "l S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    383.2,
+    714.9,
+    399.5,
+    724.5
+   ],
+   "size": 8.4,
+   "testo": "300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.4,
+    714.9,
+    449.7,
+    724.5
+   ],
+   "size": 8.4,
+   "testo": "l S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    488.7,
+    714.9,
+    531.3,
+    724.5
+   ],
+   "size": 8.4,
+   "testo": "10.000 mo",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

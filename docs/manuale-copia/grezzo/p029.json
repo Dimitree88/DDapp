@@ -1,0 +1,1524 @@
+{
+ "pagina_pdf": 29,
+ "pagina_stampata": 26,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "26 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    58.1,
+    41.2,
+    231.5,
+    51.2
+   ],
+   "size": 8.2,
+   "testo": "ATTACCANTI E BERSAGLI NON VISIBILI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    54.4,
+    259.0,
+    64.0
+   ],
+   "size": 8.4,
+   "testo": "Quando il personaggio attacca un bersaglio che non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    65.4,
+    251.0,
+    75.0
+   ],
+   "size": 8.4,
+   "testo": "è in grado di vedere, subisce svantaggio al tiro per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    76.3,
+    267.5,
+    86.0
+   ],
+   "size": 8.4,
+   "testo": "colpire. Questo vale sia che stia tirando a indovinare la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.7,
+    87.3,
+    266.4,
+    97.0
+   ],
+   "size": 8.4,
+   "testo": "posizione del bersaglio, sia che stia prendendo di mira",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.7,
+    98.4,
+    265.0,
+    108.0
+   ],
+   "size": 8.4,
+   "testo": "una creatura che è in grado di udire ma non di vedere.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.6,
+    109.3,
+    258.6,
+    118.9
+   ],
+   "size": 8.4,
+   "testo": "Se il bersaglio non si trova nel punto che il personag­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    120.3,
+    263.1,
+    129.9
+   ],
+   "size": 8.4,
+   "testo": "gio ha bersagliato, l'attacco manca automaticamente.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    131.2,
+    263.4,
+    140.9
+   ],
+   "size": 8.4,
+   "testo": "Quando una creatura non è in grado di vedere il per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.6,
+    142.2,
+    267.8,
+    151.8
+   ],
+   "size": 8.4,
+   "testo": "sonaggio, questi dispone di vantaggio ai tiri per colpire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    153.2,
+    136.2,
+    162.8
+   ],
+   "size": 8.4,
+   "testo": "contro tale creatura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.8,
+    164.2,
+    261.4,
+    173.8
+   ],
+   "size": 8.4,
+   "testo": "Se il personaggio è nascosto ed effettua un tiro per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    175.3,
+    259.9,
+    184.9
+   ],
+   "size": 8.4,
+   "testo": "colpire, rivela la sua posizione quando l'attacco colpi­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    186.2,
+    153.3,
+    195.8
+   ],
+   "size": 8.4,
+   "testo": "sce o manca il bersaglio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.9,
+    209.9,
+    270.3,
+    220.5
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, se un bersaglio si trova dietro una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.2,
+    220.9,
+    263.2,
+    231.5
+   ],
+   "size": 8.8,
+   "testo": "che fornisce mezza copertura e un tronco d'albero che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.4,
+    231.8,
+    267.0,
+    242.4
+   ],
+   "size": 8.8,
+   "testo": "fornisce tre quarti di copertura, il bersaglio beneficia di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    242.8,
+    141.7,
+    253.4
+   ],
+   "size": 8.8,
+   "testo": "tre quarti di copertura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.1,
+    265.7,
+    110.3,
+    276.4
+   ],
+   "size": 10.6,
+   "testo": "COPERTURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.7,
+    281.6,
+    123.5,
+    290.8
+   ],
+   "size": 8.2,
+   "testo": "Beneficio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    292.5,
+    78.6,
+    301.8
+   ],
+   "size": 8.2,
+   "testo": "Grado",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.6,
+    292.5,
+    144.2,
+    301.8
+   ],
+   "size": 8.2,
+   "testo": "per il bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    306.5,
+    154.5,
+    316.1
+   ],
+   "size": 8.4,
+   "testo": "Mezza Bonus di +2 ai tiri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.2,
+    318.5,
+    145.0,
+    328.1
+   ],
+   "size": 8.4,
+   "testo": "salvezza su CA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.9,
+    330.5,
+    132.6,
+    340.1
+   ],
+   "size": 8.4,
+   "testo": "e Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    344.9,
+    66.2,
+    354.5
+   ],
+   "size": 8.4,
+   "testo": "Tre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.5,
+    345.0,
+    154.6,
+    354.6
+   ],
+   "size": 8.4,
+   "testo": "Bonus di +5 ai tiri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    356.9,
+    77.2,
+    366.5
+   ],
+   "size": 8.4,
+   "testo": "quarti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.2,
+    356.9,
+    145.0,
+    366.5
+   ],
+   "size": 8.4,
+   "testo": "salvezza su CA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.9,
+    368.9,
+    132.8,
+    378.5
+   ],
+   "size": 8.4,
+   "testo": "e Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    383.5,
+    78.3,
+    393.1
+   ],
+   "size": 8.4,
+   "testo": "Totale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.5,
+    383.4,
+    170.0,
+    393.1
+   ],
+   "size": 8.4,
+   "testo": "Non può essere preso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.9,
+    395.5,
+    166.2,
+    405.1
+   ],
+   "size": 8.4,
+   "testo": "di mira direttamente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.1,
+    292.4,
+    223.8,
+    301.7
+   ],
+   "size": 8.2,
+   "testo": "Offerta da...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    306.3,
+    260.9,
+    316.0
+   ],
+   "size": 8.4,
+   "testo": "Un'altra creatura o un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.7,
+    318.3,
+    275.3,
+    327.9
+   ],
+   "size": 8.4,
+   "testo": "oggetto che copre almeno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    176.1,
+    330.3,
+    257.3,
+    339.9
+   ],
+   "size": 8.4,
+   "testo": "la metà del bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    344.8,
+    259.4,
+    354.4
+   ],
+   "size": 8.4,
+   "testo": "Un oggetto che copre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.8,
+    356.8,
+    261.9,
+    366.4
+   ],
+   "size": 8.4,
+   "testo": "almeno i tre quarti del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    176.1,
+    368.7,
+    213.0,
+    378.4
+   ],
+   "size": 8.4,
+   "testo": "bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.2,
+    383.3,
+    259.4,
+    392.9
+   ],
+   "size": 8.4,
+   "testo": "Un oggetto che copre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.1,
+    395.3,
+    241.9,
+    404.9
+   ],
+   "size": 8.4,
+   "testo": "l'intero bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    419.0,
+    191.8,
+    432.1
+   ],
+   "size": 9.7,
+   "testo": "ATTACCHI A DISTANZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.8,
+    435.3,
+    261.8,
+    445.8
+   ],
+   "size": 8.8,
+   "testo": "Un personaggio effettua un attacco a distanza quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.1,
+    446.3,
+    273.7,
+    456.9
+   ],
+   "size": 8.8,
+   "testo": "tira con un arco, lancia un'ascia o scaglia in altri modi dei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.1,
+    457.2,
+    271.7,
+    467.8
+   ],
+   "size": 8.8,
+   "testo": "proiettili allo scopo di colpire un nemico distante. Anche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.2,
+    468.2,
+    249.9,
+    478.8
+   ],
+   "size": 8.8,
+   "testo": "molti incantesimi prevedono un attacco a distanza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.7,
+    488.8,
+    97.0,
+    500.1
+   ],
+   "size": 11.2,
+   "testo": "GITTATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.4,
+    500.0,
+    270.0,
+    510.5
+   ],
+   "size": 8.8,
+   "testo": "Puoi effettuare un attacco a distanza soltanto contro un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.1,
+    511.0,
+    262.4,
+    521.6
+   ],
+   "size": 8.8,
+   "testo": "bersaglio che si trovi entro una gittata specifica. Se un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.7,
+    522.0,
+    260.9,
+    532.6
+   ],
+   "size": 8.8,
+   "testo": "attacco a distanza (come per esempio un incantesimo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.3,
+    533.0,
+    269.0,
+    543.6
+   ],
+   "size": 8.8,
+   "testo": "prevede una singola gittata, non è possibile attaccare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    544.0,
+    152.7,
+    554.6
+   ],
+   "size": 8.8,
+   "testo": "bersaglio oltre tale raggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.1,
+    555.0,
+    277.1,
+    565.6
+   ],
+   "size": 8.8,
+   "testo": "Alcuni attacchi a distanza, come quelli effettuati con un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.1,
+    565.9,
+    269.4,
+    576.5
+   ],
+   "size": 8.8,
+   "testo": "arco lungo, prevedono due gittate. Il numero più piccolo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    576.9,
+    274.5,
+    587.5
+   ],
+   "size": 8.8,
+   "testo": "indica la gittata normale, mentre quello più grande indica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    587.9,
+    266.5,
+    598.5
+   ],
+   "size": 8.8,
+   "testo": "la gittata lunga. Se bersaglio si trova oltre la gittata nor­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.1,
+    598.9,
+    279.0,
+    609.5
+   ],
+   "size": 8.8,
+   "testo": "male, il tiro per colpire subisce svantaggio; se si trova oltre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    610.0,
+    246.3,
+    620.6
+   ],
+   "size": 8.8,
+   "testo": "la gittata lunga, il personaggio non può attaccarlo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.4,
+    630.6,
+    279.7,
+    641.9
+   ],
+   "size": 11.2,
+   "testo": "ATTACCHI A DISTANZA IN COMBATTIMENTO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.2,
+    641.3,
+    122.6,
+    652.7
+   ],
+   "size": 11.2,
+   "testo": "RAVVICINATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.1,
+    652.6,
+    252.2,
+    663.2
+   ],
+   "size": 8.8,
+   "testo": "Colpire un bersaglio con un attacco a distanza è più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.1,
+    663.6,
+    254.6,
+    674.1
+   ],
+   "size": 8.8,
+   "testo": "difficile quando il nemico è molto vicino. Quando un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    674.6,
+    262.8,
+    685.2
+   ],
+   "size": 8.8,
+   "testo": "personaggio effettua un tiro per colpire a distanza con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.5,
+    685.5,
+    275.3,
+    696.1
+   ],
+   "size": 8.8,
+   "testo": "un'arma, un incantesimo o altri mezzi, subisce svantaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.1,
+    696.6,
+    270.1,
+    707.1
+   ],
+   "size": 8.8,
+   "testo": "al tiro se si trova entro 1,5 metri da una creatura nemica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    707.5,
+    254.4,
+    718.1
+   ],
+   "size": 8.8,
+   "testo": "non incapacitata e che sia in grado di vederlo (vedi il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.1,
+    718.5,
+    138.6,
+    729.0
+   ],
+   "size": 8.8,
+   "testo": "Glossario delle regole).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.2,
+    40.6,
+    442.1,
+    53.7
+   ],
+   "size": 9.7,
+   "testo": "ATTACCHI IN MISCHIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.2,
+    57.0,
+    515.6,
+    67.6
+   ],
+   "size": 8.8,
+   "testo": "Un attacco in mischia consente di attaccare un nemico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    68.0,
+    522.7,
+    78.6
+   ],
+   "size": 8.8,
+   "testo": "entro la portata del personaggio, e di solito prevede l'uso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    79.0,
+    524.8,
+    89.6
+   ],
+   "size": 8.8,
+   "testo": "di un'arma impugnata o un colpo senz'armi. Molti mostri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    89.9,
+    517.0,
+    100.4
+   ],
+   "size": 8.8,
+   "testo": "effettuano attacchi in mischia con artigli, zanne o altre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.3,
+    100.9,
+    507.7,
+    111.4
+   ],
+   "size": 8.8,
+   "testo": "parti del corpo. Anche alcuni incantesimi prevedono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    111.9,
+    379.1,
+    122.5
+   ],
+   "size": 8.8,
+   "testo": "attacchi in mischia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.2,
+    132.5,
+    349.5,
+    143.8
+   ],
+   "size": 11.2,
+   "testo": "PORTATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.2,
+    143.7,
+    510.7,
+    154.3
+   ],
+   "size": 8.8,
+   "testo": "Una creatura ha una portata di 1,5 metri e può quindi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    154.7,
+    522.1,
+    165.3
+   ],
+   "size": 8.8,
+   "testo": "attaccare i bersagli entro 1,5 metri da sé quando effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    165.8,
+    529.2,
+    176.4
+   ],
+   "size": 8.8,
+   "testo": "un attacco in mischia. Alcune creature possono effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    176.8,
+    524.9,
+    187.4
+   ],
+   "size": 8.8,
+   "testo": "attacchi in mischia con una portata superiore a 1,5 metri,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    187.7,
+    445.8,
+    198.3
+   ],
+   "size": 8.8,
+   "testo": "come indicato nella loro descrizione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    208.4,
+    448.3,
+    219.8
+   ],
+   "size": 11.2,
+   "testo": "ATTACCHI DI OPPORTUNITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.2,
+    219.6,
+    529.5,
+    230.2
+   ],
+   "size": 8.8,
+   "testo": "I combattenti attendono che i nemici abbassino la guardia.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    230.6,
+    519.8,
+    241.1
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio cerca di muoversi evitando un nemico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    241.5,
+    494.0,
+    252.1
+   ],
+   "size": 8.8,
+   "testo": "si espone, provocando un attacco di opportunità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    245.5,
+    524.1,
+    263.7
+   ],
+   "size": 8.8,
+   "testo": "Evitare un attacco di opportunità. È possibile evitare di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    263.6,
+    525.4,
+    274.2
+   ],
+   "size": 8.8,
+   "testo": "provocare un attacco di opportunità effettuando l'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    274.7,
+    518.5,
+    285.2
+   ],
+   "size": 8.8,
+   "testo": "di Disimpegno. Inoltre, un personaggio non provoca un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.7,
+    285.7,
+    522.0,
+    296.2
+   ],
+   "size": 8.8,
+   "testo": "attacco di opportunitàquando si teletrasporta o quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.8,
+    296.6,
+    521.3,
+    307.2
+   ],
+   "size": 8.8,
+   "testo": "viene mosso senza che usi il proprio movimento, azione,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    307.6,
+    512.1,
+    318.2
+   ],
+   "size": 8.8,
+   "testo": "azione bonus o reazione. Ad esempio, non provoca un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    318.5,
+    530.5,
+    329.1
+   ],
+   "size": 8.8,
+   "testo": "attacco di opportunità se un'esplosione lo scaraventa fuori",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.4,
+    329.6,
+    508.7,
+    340.2
+   ],
+   "size": 8.8,
+   "testo": "dalla portata di un nemico o se cade oltre un nemico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    333.4,
+    515.7,
+    351.6
+   ],
+   "size": 8.8,
+   "testo": "Effettuare un attacco di opportunità. È possibile effet­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.0,
+    351.4,
+    525.8,
+    362.0
+   ],
+   "size": 8.8,
+   "testo": "tuare un attacco di opportunità quando una creatura che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    362.5,
+    524.9,
+    373.0
+   ],
+   "size": 8.8,
+   "testo": "il personaggio è in grado di vedere esce dalla sua portata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    373.4,
+    514.9,
+    384.0
+   ],
+   "size": 8.8,
+   "testo": "Per attaccare, il personaggio effettua una reazione per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.8,
+    384.4,
+    528.8,
+    395.0
+   ],
+   "size": 8.8,
+   "testo": "eseguire un attacco in mischia con un'arma o con un colpo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    395.4,
+    529.5,
+    406.0
+   ],
+   "size": 8.8,
+   "testo": "senz'armi contro la creatura. I.:attacco avviene poco prima",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    406.5,
+    438.5,
+    417.1
+   ],
+   "size": 8.8,
+   "testo": "che la creatura lasci la sua portata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    426.6,
+    446.9,
+    439.7
+   ],
+   "size": 9.7,
+   "testo": "COMBATTERE IN SELLA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    443.0,
+    521.1,
+    453.6
+   ],
+   "size": 8.8,
+   "testo": "Una creatura consenziente di taglia superiore di almeno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    454.0,
+    519.3,
+    464.6
+   ],
+   "size": 8.8,
+   "testo": "una categoria a quella di un cavaliere e dotata di un'ana­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    464.2,
+    514.4,
+    475.6
+   ],
+   "size": 8.8,
+   "testo": "tomia appropriata può fungere da cavalcatura per tale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.0,
+    476.0,
+    517.0,
+    486.6
+   ],
+   "size": 8.8,
+   "testo": "personaggio, purché siano rispettate le regole seguenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    496.4,
+    480.9,
+    507.8
+   ],
+   "size": 11.2,
+   "testo": "SALIRE E SMONTARE DALLA SELLA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.2,
+    507.8,
+    518.5,
+    518.4
+   ],
+   "size": 8.8,
+   "testo": "Durante il movimento, il personaggio può salire in sella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    518.9,
+    522.7,
+    529.4
+   ],
+   "size": 8.8,
+   "testo": "a una cavalcatura situata a 1,5 metri da sé o smontare da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    529.8,
+    530.7,
+    540.4
+   ],
+   "size": 8.8,
+   "testo": "essa. Per farlo deve spendere un ammontare di movimento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    540.8,
+    516.0,
+    551.4
+   ],
+   "size": 8.8,
+   "testo": "pari a metà della sua velocità (arrotondato per difetto).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.2,
+    551.8,
+    518.3,
+    562.4
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, se possiede una velocità di 9 metri, spende",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    562.9,
+    483.9,
+    573.4
+   ],
+   "size": 8.8,
+   "testo": "4,5 metri di movimento per montare a cavallo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.6,
+    583.2,
+    484.2,
+    594.6
+   ],
+   "size": 11.2,
+   "testo": "CONTROLLARE UNA CAVALCATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    594.6,
+    527.3,
+    605.2
+   ],
+   "size": 8.8,
+   "testo": "Un personaggio può controllare una cavalcatura solo se que­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    605.6,
+    531.1,
+    616.2
+   ],
+   "size": 8.8,
+   "testo": "sta è stata addestrata a tale scopo. I cavalli domestici, gli asini",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    616.7,
+    518.6,
+    627.2
+   ],
+   "size": 8.8,
+   "testo": "e le creature simili hanno ricevuto questo addestramento.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    627.7,
+    519.2,
+    638.3
+   ],
+   "size": 8.8,
+   "testo": "L'iniziativa di una cavalcatura controllata cambia per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    638.7,
+    526.3,
+    649.3
+   ],
+   "size": 8.8,
+   "testo": "coincidere con quella del personaggio nel momento in cui",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    649.7,
+    521.2,
+    660.3
+   ],
+   "size": 8.8,
+   "testo": "sale in sella. La cavalcatura si muove secondo le sue indi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    660.7,
+    529.5,
+    671.3
+   ],
+   "size": 8.8,
+   "testo": "cazioni e ha solo tre opzioni di azione: Disimpegno, Scatto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    671.7,
+    512.0,
+    682.2
+   ],
+   "size": 8.8,
+   "testo": "e Schivata. Una cavalcatura controllata può muoversi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.0,
+    682.7,
+    510.8,
+    693.3
+   ],
+   "size": 8.8,
+   "testo": "e agire già nel turno in cui il personaggio sale in sella.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    693.6,
+    529.8,
+    704.2
+   ],
+   "size": 8.8,
+   "testo": "Al contrario, una cavalcatura indipendente (che si lascia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.7,
+    704.6,
+    526.2,
+    715.2
+   ],
+   "size": 8.8,
+   "testo": "cavalcare ma ignora i comandi) mantiene il proprio posto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    715.6,
+    519.6,
+    726.1
+   ],
+   "size": 8.8,
+   "testo": "nell'ordine di iniziativa, muovendosi e agendo a proprio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.9,
+    726.6,
+    348.3,
+    737.2
+   ],
+   "size": 8.8,
+   "testo": "piacimento.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

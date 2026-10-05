@@ -1,0 +1,1332 @@
+{
+ "pagina_pdf": 334,
+ "pagina_stampata": 331,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 331",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.6,
+    52.7,
+    94.1,
+    64.1
+   ],
+   "size": 11.2,
+   "testo": "SOGNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    64.1,
+    214.3,
+    74.6
+   ],
+   "size": 8.6,
+   "testo": "Illusionedi5° livello (bardo, mago, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    79.7,
+    155.2,
+    89.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    90.7,
+    118.6,
+    100.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: speciale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    101.6,
+    229.9,
+    111.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una manciata di sabbia)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    112.7,
+    106.7,
+    122.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    128.9,
+    269.1,
+    139.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore bersaglia una creatura che conosce sullo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    139.8,
+    282.6,
+    150.4
+   ],
+   "size": 8.8,
+   "testo": "stesso piano di esistenza. L'incantatore o una creatura con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    150.9,
+    276.2,
+    161.5
+   ],
+   "size": 8.8,
+   "testo": "senziente da lui toccata entra in uno stato di trance, assu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    161.9,
+    274.7,
+    172.5
+   ],
+   "size": 8.8,
+   "testo": "mendo il ruolo di messaggero onirico. Durante la trance,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    172.9,
+    267.6,
+    183.5
+   ],
+   "size": 8.8,
+   "testo": "il messaggero è incapacitato e la sua velocità è pari a 0.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    183.9,
+    279.7,
+    194.4
+   ],
+   "size": 8.8,
+   "testo": "Se il bersaglio dorme, il messaggero gli appare in sogno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    194.9,
+    265.6,
+    205.5
+   ],
+   "size": 8.8,
+   "testo": "e può conversare con lui finché rimane addormentato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    205.9,
+    266.4,
+    216.5
+   ],
+   "size": 8.8,
+   "testo": "e l'incantesimo non termina. Il messaggero può anche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    216.9,
+    280.8,
+    227.5
+   ],
+   "size": 8.8,
+   "testo": "modellare l'ambiente del sogno, creando paesaggi, oggetti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    227.9,
+    280.1,
+    238.5
+   ],
+   "size": 8.8,
+   "testo": "e altre immagini. Il messaggero può uscire dalla trance in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    238.9,
+    285.0,
+    249.5
+   ],
+   "size": 8.8,
+   "testo": "ogni momento, terminando l'incantesimo. Al suo risveglio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    250.0,
+    222.9,
+    260.5
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio ricorda il sogno perfettamente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    260.9,
+    264.3,
+    271.5
+   ],
+   "size": 8.8,
+   "testo": "Se il bersaglio è sveglio quando l'incantatore lancia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    271.9,
+    281.4,
+    282.5
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo, il messaggero ne è consapevole e può termi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    283.0,
+    284.3,
+    293.5
+   ],
+   "size": 8.8,
+   "testo": "nare la trance (e l'incantesimo) o aspettare che il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    294.0,
+    226.9,
+    304.6
+   ],
+   "size": 8.8,
+   "testo": "si addormenti e così apparire nei suoi sogni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    304.9,
+    284.4,
+    315.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può fare in modo che il messaggero appaia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    315.9,
+    281.9,
+    326.5
+   ],
+   "size": 8.8,
+   "testo": "terrificante al bersaglio. In questo caso, il messaggero può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    326.8,
+    278.9,
+    337.4
+   ],
+   "size": 8.8,
+   "testo": "trasmettere un messaggio di massimo dieci parole e poi il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    337.8,
+    280.6,
+    348.4
+   ],
+   "size": 8.8,
+   "testo": "bersaglio effettua un tiro salvezza su Saggezza. In caso di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    348.9,
+    282.0,
+    359.4
+   ],
+   "size": 8.8,
+   "testo": "fallimento, il bersaglio non ottiene alcun beneficio dal suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    359.8,
+    239.0,
+    370.4
+   ],
+   "size": 8.8,
+   "testo": "riposo e subisce 3d6 danni psichici al risveglio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    394.7,
+    94.8,
+    406.0
+   ],
+   "size": 11.2,
+   "testo": "SONNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    406.1,
+    239.1,
+    416.6
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi1° livello (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    421.8,
+    146.7,
+    431.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    432.8,
+    119.2,
+    442.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    443.7,
+    283.5,
+    453.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pizzico di sabbia o dei petali di rosa)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    454.7,
+    208.1,
+    464.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    470.9,
+    276.8,
+    481.5
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura a scelta dell'incantatore in una sfera dal rag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    481.9,
+    281.7,
+    492.5
+   ],
+   "size": 8.8,
+   "testo": "gio di 1,5 metri in una posizione entro gittata deve superare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    493.0,
+    273.1,
+    503.6
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Saggezza, altrimenti sarà incapacitata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    504.1,
+    283.7,
+    514.6
+   ],
+   "size": 8.8,
+   "testo": "fino al termine del proprio turno successivo. A questo punto,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    515.0,
+    282.8,
+    525.6
+   ],
+   "size": 8.8,
+   "testo": "dovrà ripetere la prova e, in caso di fallimento, cadrà priva",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    526.0,
+    283.5,
+    536.6
+   ],
+   "size": 8.8,
+   "testo": "di sensi per la durata dell'incantesimo. L'effetto svanisce se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    537.1,
+    279.4,
+    547.6
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio subisce danni o se qualcuno entro 1,5 metri da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    548.0,
+    278.0,
+    558.5
+   ],
+   "size": 8.8,
+   "testo": "esso effettua un'azione per scuoterlo e farlo tornare in sé.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    558.9,
+    277.8,
+    569.5
+   ],
+   "size": 8.8,
+   "testo": "Le creature che non dormono, come gli elfi, o che sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    570.0,
+    266.7,
+    580.5
+   ],
+   "size": 8.8,
+   "testo": "immuni all'indebolimento superano automaticamente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    581.0,
+    193.8,
+    591.6
+   ],
+   "size": 8.8,
+   "testo": "i tiri salvezza contro l'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    615.8,
+    120.1,
+    627.1
+   ],
+   "size": 11.2,
+   "testo": "SORTILEGIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    627.3,
+    188.5,
+    637.8
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi1° livello (warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    643.0,
+    172.6,
+    652.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    653.9,
+    119.4,
+    663.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    664.9,
+    264.6,
+    674.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (l'occhio pietrificato di un tritone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    675.8,
+    192.7,
+    685.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    692.0,
+    268.1,
+    702.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore scaglia una maledizione su una creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    703.0,
+    271.7,
+    713.6
+   ],
+   "size": 8.8,
+   "testo": "entro gittata e che è in grado di vedere. Fino al termine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    714.0,
+    284.3,
+    724.5
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, l'incantatore infligge 1d6 danni necrotici",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    37.1,
+    537.0,
+    47.7
+   ],
+   "size": 8.8,
+   "testo": "extra al bersaglio ogni volta che lo colpisce con un tiro per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    48.2,
+    535.5,
+    58.7
+   ],
+   "size": 8.8,
+   "testo": "colpire. Inoltre, quando l'incantatore lancia l'incantesimo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    59.1,
+    529.5,
+    69.7
+   ],
+   "size": 8.8,
+   "testo": "sceglie una caratteristica. Il bersaglio subisce svantaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    70.1,
+    531.8,
+    80.7
+   ],
+   "size": 8.8,
+   "testo": "alle prove di caratteristica effettuate con la caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    81.2,
+    333.6,
+    91.7
+   ],
+   "size": 8.8,
+   "testo": "scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    92.1,
+    532.9,
+    102.7
+   ],
+   "size": 8.8,
+   "testo": "Se il bersaglio scende a 0 punti ferita prima del termine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    103.0,
+    525.5,
+    113.6
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, l'incantatore può effettuare un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    114.0,
+    523.1,
+    124.6
+   ],
+   "size": 8.8,
+   "testo": "bonus in un suo turno successivo per maledire un'altra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    125.1,
+    345.2,
+    135.7
+   ],
+   "size": 8.8,
+   "testo": "creatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    137.7,
+    511.0,
+    146.3
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    147.0,
+    515.1,
+    157.6
+   ],
+   "size": 8.8,
+   "testo": "La concentrazione dell'incantatore può durare di più",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    155.8,
+    537.5,
+    168.6
+   ],
+   "size": 8.8,
+   "testo": "utilizzando uno slot incantesimo di 2° livello (fino a 4 ore),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    166.9,
+    523.7,
+    179.6
+   ],
+   "size": 8.8,
+   "testo": "di 3° o 4° livello (fino a 8 ore) o di 5° livello o superiore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    180.1,
+    342.5,
+    190.7
+   ],
+   "size": 8.8,
+   "testo": "(24 ore).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    214.8,
+    446.9,
+    226.2
+   ],
+   "size": 11.2,
+   "testo": "SPADA DI MORDENKAINEN",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    226.3,
+    446.9,
+    236.8
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 7° livello (bardo, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    241.9,
+    399.4,
+    251.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    252.8,
+    371.8,
+    262.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    263.9,
+    518.6,
+    273.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una spada in miniatura del valore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    273.8,
+    379.1,
+    284.5
+   ],
+   "size": 8.8,
+   "testo": "di 250 mo o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    285.9,
+    460.6,
+    295.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    302.1,
+    526.3,
+    312.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea una spada spettrale che fluttua entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    313.0,
+    520.2,
+    323.6
+   ],
+   "size": 8.8,
+   "testo": "gittata e permane per tutta la durata dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    324.0,
+    523.4,
+    334.6
+   ],
+   "size": 8.8,
+   "testo": "Quando la spada appare, l'incantatore può effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    334.9,
+    515.5,
+    345.5
+   ],
+   "size": 8.8,
+   "testo": "un attacco in mischia con questo incantesimo contro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    345.9,
+    511.9,
+    356.5
+   ],
+   "size": 8.8,
+   "testo": "un bersaglio che si trova entro 1,5 metri dalla spada.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    356.9,
+    526.0,
+    367.5
+   ],
+   "size": 8.8,
+   "testo": "Se il colpo va a segno, il bersaglio subisce 4d12 danni da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    367.9,
+    526.3,
+    378.5
+   ],
+   "size": 8.8,
+   "testo": "forza più il modificatore di caratteristica da incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    379.0,
+    373.6,
+    389.5
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    390.0,
+    524.6,
+    400.6
+   ],
+   "size": 8.8,
+   "testo": "Nei suoi turni successivi, l'incantatore può effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    401.0,
+    533.2,
+    411.6
+   ],
+   "size": 8.8,
+   "testo": "un'azione bonus per spostare la spada fino a 9 metri in un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    412.1,
+    530.1,
+    422.7
+   ],
+   "size": 8.8,
+   "testo": "punto che è in grado di vedere e ripetere l'attacco contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    423.2,
+    437.2,
+    433.8
+   ],
+   "size": 8.8,
+   "testo": "lo stesso bersaglio o uno diverso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    457.8,
+    435.4,
+    469.2
+   ],
+   "size": 11.2,
+   "testo": "SPOSTAMENTO PLANARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    469.3,
+    513.7,
+    479.7
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi 7°livello (chierico, druido, mago, stregone,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    481.1,
+    340.8,
+    490.5
+   ],
+   "size": 8.6,
+   "testo": "warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    495.9,
+    399.4,
+    505.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    507.0,
+    372.2,
+    516.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    517.9,
+    506.5,
+    527.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una verga di metallo biforcuta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    528.9,
+    517.0,
+    538.6
+   ],
+   "size": 8.4,
+   "testo": "del valore di 250 mo o più e in sintonia con un piano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    539.9,
+    364.3,
+    549.5
+   ],
+   "size": 8.4,
+   "testo": "di esistenza)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    551.0,
+    379.9,
+    560.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    567.1,
+    534.4,
+    577.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore e un massimo di otto creature consenzienti,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    578.1,
+    526.5,
+    588.6
+   ],
+   "size": 8.8,
+   "testo": "che si tengono per mano formando un cerchio, vengono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    589.1,
+    533.8,
+    599.7
+   ],
+   "size": 8.8,
+   "testo": "trasportati su un piano di esistenza diverso. L'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    600.0,
+    528.4,
+    610.6
+   ],
+   "size": 8.8,
+   "testo": "può specificare la destinazione in termini generici, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    611.2,
+    515.4,
+    621.8
+   ],
+   "size": 8.8,
+   "testo": "la Città di Ottone sul Piano Elementale del Fuoco o il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    622.2,
+    520.2,
+    632.8
+   ],
+   "size": 8.8,
+   "testo": "palazzo di Dispater sul secondo livello dei Nove Inferi,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    633.2,
+    524.2,
+    643.8
+   ],
+   "size": 8.8,
+   "testo": "apparendo in quella destinazione o nelle sue immediate",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    644.3,
+    452.3,
+    654.9
+   ],
+   "size": 8.8,
+   "testo": "vicinanze, in base alla scelta del DM.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    655.2,
+    516.3,
+    665.8
+   ],
+   "size": 8.8,
+   "testo": "In alternativa, se l'incantatore conosce la sequenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    666.2,
+    524.9,
+    676.8
+   ],
+   "size": 8.8,
+   "testo": "di sigilli di un cerchio di teletrasporto su un altro piano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    677.1,
+    529.2,
+    687.7
+   ],
+   "size": 8.8,
+   "testo": "di esistenza, questo incantesimo può portarlo fino a quel",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    688.1,
+    533.9,
+    698.7
+   ],
+   "size": 8.8,
+   "testo": "cerchio. Se il cerchio di teletrasporto è troppo piccolo per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    699.1,
+    527.3,
+    709.7
+   ],
+   "size": 8.8,
+   "testo": "contenere tutte le creature trasportate dall'incantatore,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    710.1,
+    482.9,
+    720.7
+   ],
+   "size": 8.8,
+   "testo": "esse appariranno negli spazi liberi più vicini.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

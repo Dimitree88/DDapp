@@ -1,0 +1,1296 @@
+{
+ "pagina_pdf": 223,
+ "pagina_stampata": 220,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "220 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.7,
+    39.2,
+    148.2,
+    55.9
+   ],
+   "size": 12.9,
+   "testo": "STRUMENTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    57.5,
+    264.9,
+    68.1
+   ],
+   "size": 8.8,
+   "testo": "Uno strumento aiuta il personaggio a effettuare prove",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    68.5,
+    260.3,
+    79.1
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica specifiche, creare oggetti particolari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    79.5,
+    267.9,
+    90.1
+   ],
+   "size": 8.8,
+   "testo": "o fare entrambe le cose. Nella descrizione di un oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    90.4,
+    261.2,
+    101.0
+   ],
+   "size": 8.8,
+   "testo": "sono indicati costo e peso, così come le seguenti voci:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    106.9,
+    266.1,
+    117.4
+   ],
+   "size": 8.8,
+   "testo": "Caratteristica. Questa voce indica la caratteristica da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    117.8,
+    258.9,
+    128.4
+   ],
+   "size": 8.8,
+   "testo": "utilizzare quando si esegue una relativa prova con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    128.8,
+    98.7,
+    139.4
+   ],
+   "size": 8.8,
+   "testo": "l'oggetto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    139.9,
+    280.5,
+    150.4
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo. Questa voce indica cosa si può fare con l'oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    150.8,
+    263.8,
+    161.4
+   ],
+   "size": 8.8,
+   "testo": "attraverso l'azione di Utilizzo. Puoi selezionare una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    161.9,
+    271.1,
+    172.5
+   ],
+   "size": 8.8,
+   "testo": "delle due opzioni ogni volta che il personaggio esegue",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    173.0,
+    268.5,
+    183.5
+   ],
+   "size": 8.8,
+   "testo": "tale azione. In questa voce è menzionata anche la CD",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    183.9,
+    106.7,
+    194.4
+   ],
+   "size": 8.8,
+   "testo": "dell'azione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    194.9,
+    276.3,
+    205.5
+   ],
+   "size": 8.8,
+   "testo": "Creazioni. Questa voce indica cosa è possibile realizzare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    206.0,
+    269.6,
+    216.6
+   ],
+   "size": 8.8,
+   "testo": "con lo strumento. Per le regole di creazione, consulta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    217.0,
+    256.6,
+    227.5
+   ],
+   "size": 8.8,
+   "testo": "la sezione \"Creare equipaggiamento\" più avanti in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    227.9,
+    123.7,
+    238.5
+   ],
+   "size": 8.8,
+   "testo": "questo capitolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    238.9,
+    282.0,
+    249.5
+   ],
+   "size": 8.8,
+   "testo": "Varianti. Questa voce indica le eventuali varianti possibili",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    249.9,
+    271.6,
+    260.5
+   ],
+   "size": 8.8,
+   "testo": "dello strumento. Ciascuna di esse richiede una compe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    260.9,
+    115.7,
+    271.5
+   ],
+   "size": 8.8,
+   "testo": "tenza a parte.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    281.1,
+    254.4,
+    294.2
+   ],
+   "size": 9.7,
+   "testo": "COMPETENZA NEGLI STRUMENTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    297.7,
+    273.6,
+    308.2
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio ha competenza in uno strumento, puoi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    308.6,
+    273.1,
+    319.2
+   ],
+   "size": 8.8,
+   "testo": "aggiungere il suo bonus di competenza a qualsiasi prova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    319.7,
+    266.1,
+    330.2
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica che effettua utilizzandolo. Se è dotato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    330.7,
+    261.0,
+    341.2
+   ],
+   "size": 8.8,
+   "testo": "di competenza nell'abilità utilizzata per quella prova,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    341.5,
+    185.9,
+    352.1
+   ],
+   "size": 8.8,
+   "testo": "effettuerà la prova con vantaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    352.5,
+    267.0,
+    363.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio potrebbe ottenere competenza in uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    363.6,
+    268.0,
+    374.1
+   ],
+   "size": 8.8,
+   "testo": "strumento attraverso i privilegi. I mostri hanno compe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    374.5,
+    273.1,
+    385.1
+   ],
+   "size": 8.8,
+   "testo": "tenza con qualsiasi strumento indicato nella loro scheda",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    385.5,
+    117.1,
+    396.1
+   ],
+   "size": 8.8,
+   "testo": "delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    405.7,
+    219.8,
+    418.8
+   ],
+   "size": 9.7,
+   "testo": "STRUMENTI DA ARTIGIANO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    422.3,
+    276.1,
+    432.9
+   ],
+   "size": 8.8,
+   "testo": "Lo scopo principale degli strumenti da artigiano è creare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    433.2,
+    249.0,
+    443.8
+   ],
+   "size": 8.8,
+   "testo": "oggetti, anche ai fini di uno scambio commerciale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    444.2,
+    265.5,
+    454.8
+   ],
+   "size": 8.8,
+   "testo": "Ciascuno strumento richiede una competenza a parte.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    478.8,
+    221.7,
+    490.1
+   ],
+   "size": 11.2,
+   "testo": "SCORTE DA ALCHIMISTA (50 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    491.3,
+    153.2,
+    500.9
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    197.7,
+    491.4,
+    238.2,
+    501.0
+   ],
+   "size": 8.4,
+   "testo": "Peso: 4 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    502.4,
+    259.0,
+    512.0
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: identificare una sostanza (CD 15) o appiccare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    513.4,
+    120.9,
+    523.0
+   ],
+   "size": 8.4,
+   "testo": "il fuoco (CD 15)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    524.5,
+    269.6,
+    534.1
+   ],
+   "size": 8.4,
+   "testo": "Creazione: acido, fuoco dell'alchimista, borsa per compo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    535.4,
+    162.4,
+    545.0
+   ],
+   "size": 8.4,
+   "testo": "nenti, olio, carta, profumo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    569.7,
+    201.3,
+    581.1
+   ],
+   "size": 11.2,
+   "testo": "SCORTE DA BIRRAIO (20 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    582.3,
+    153.2,
+    591.9
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    197.4,
+    582.5,
+    245.0,
+    592.1
+   ],
+   "size": 8.4,
+   "testo": "Peso: 4,5 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    593.4,
+    252.9,
+    603.1
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: individuare una bevanda avvelenata (CD 15)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    604.4,
+    168.7,
+    614.0
+   ],
+   "size": 8.4,
+   "testo": "o identificare alcolici (CD 10)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    615.5,
+    137.7,
+    625.1
+   ],
+   "size": 8.4,
+   "testo": "Creazione: antitossina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    650.1,
+    222.1,
+    661.4
+   ],
+   "size": 11.2,
+   "testo": "SCORTE DA CALLIGRAFO (10 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    662.5,
+    147.2,
+    672.1
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    197.3,
+    662.7,
+    245.0,
+    672.3
+   ],
+   "size": 8.4,
+   "testo": "Peso: 2,5 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    673.6,
+    258.3,
+    683.2
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: scrivere testi usando una calligrafia articolata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    684.6,
+    206.0,
+    694.2
+   ],
+   "size": 8.4,
+   "testo": "per impedirne la riproduzione (CD 15)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    695.4,
+    208.7,
+    705.1
+   ],
+   "size": 9.2,
+   "testo": "Creazione: inchiostro, pergamena magica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    53.3,
+    484.6,
+    64.7
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA CALZOLAIO (5 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    65.8,
+    400.9,
+    75.5
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.0,
+    65.9,
+    498.6,
+    75.5
+   ],
+   "size": 8.4,
+   "testo": "Peso: 2,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    76.9,
+    522.9,
+    86.6
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: modificare calzature per conferire vantaggio alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    87.9,
+    533.4,
+    97.6
+   ],
+   "size": 8.4,
+   "testo": "prossima prova di Destrezza (Acrobazia) di chi le indossa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.2,
+    98.9,
+    344.1,
+    108.5
+   ],
+   "size": 8.4,
+   "testo": "(CD 10)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    109.8,
+    425.9,
+    119.4
+   ],
+   "size": 8.4,
+   "testo": "Creazione: attrezzi da scalatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    144.4,
+    499.6,
+    155.7
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA CARTOGRAFO (15 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    156.9,
+    398.2,
+    166.5
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    451.0,
+    156.8,
+    491.1,
+    166.5
+   ],
+   "size": 8.4,
+   "testo": "Peso: 3 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    168.0,
+    525.5,
+    177.6
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: disegnare una mappa di una piccola area (CD 15)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    179.0,
+    374.9,
+    188.6
+   ],
+   "size": 8.4,
+   "testo": "Creazione: mappa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    213.5,
+    492.1,
+    224.9
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA CONCIATORE (5 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    225.9,
+    400.8,
+    235.6
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    450.9,
+    226.0,
+    498.5,
+    235.6
+   ],
+   "size": 8.4,
+   "testo": "Peso: 2,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    237.0,
+    531.6,
+    246.6
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: aggiungere un motivo a un oggetto di cuoio (CD 10)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    248.0,
+    518.1,
+    257.6
+   ],
+   "size": 8.4,
+   "testo": "Creazione: fionda, frusta, armatura di pelle, armatura di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    259.0,
+    523.9,
+    268.6
+   ],
+   "size": 8.4,
+   "testo": "cuoio, armatura di cuoio borchiato, zaino, custodia per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.1,
+    270.0,
+    527.4,
+    279.6
+   ],
+   "size": 8.4,
+   "testo": "quadrelli da balestra, custodia per mappe o pergamene,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.5,
+    281.1,
+    433.6,
+    290.7
+   ],
+   "size": 8.4,
+   "testo": "pergamena, borsa, faretra, otre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    315.6,
+    470.2,
+    326.9
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA FABBRO (20 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    328.0,
+    383.7,
+    337.6
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Forza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    450.8,
+    328.2,
+    491.1,
+    337.8
+   ],
+   "size": 8.4,
+   "testo": "Peso: 4 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    339.1,
+    519.0,
+    348.7
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: forzare l'apertura di una porta o un contenitore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    349.9,
+    344.5,
+    359.5
+   ],
+   "size": 8.4,
+   "testo": "(CD 20)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    361.0,
+    515.4,
+    370.6
+   ],
+   "size": 8.4,
+   "testo": "Creazione: Arma da mischia (eccetto randello, randello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    372.0,
+    528.8,
+    381.6
+   ],
+   "size": 8.4,
+   "testo": "pesante, bastone ferrato e frusta), armatura media (eccetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.3,
+    383.0,
+    532.9,
+    392.6
+   ],
+   "size": 8.4,
+   "testo": "di pelle), armatura pesante, sfere metalliche, secchio, triboli,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    394.0,
+    533.3,
+    403.7
+   ],
+   "size": 8.4,
+   "testo": "catena, piede di porco, proiettili per armi da fuoco, rampino,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.2,
+    405.1,
+    516.5,
+    414.8
+   ],
+   "size": 8.4,
+   "testo": "pentola di ferro, spuntoni di ferro, proiettili da fionda",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    439.6,
+    486.6,
+    450.9
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA FALEGNAME (8 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    452.0,
+    383.4,
+    461.6
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Forza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    450.5,
+    452.1,
+    490.8,
+    461.7
+   ],
+   "size": 8.4,
+   "testo": "Peso: 3 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    463.0,
+    512.4,
+    472.6
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: sigillare o forzare l'apertura di una porta o un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    473.9,
+    390.0,
+    483.6
+   ],
+   "size": 8.4,
+   "testo": "contenitore (CD 20)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    485.0,
+    512.2,
+    494.7
+   ],
+   "size": 8.4,
+   "testo": "Creazione: randello, randello pesante, bastone ferrato,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    496.0,
+    526.1,
+    505.6
+   ],
+   "size": 8.4,
+   "testo": "barile, forziere, scala a pioli, asta, ariete portatile, torcia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    530.5,
+    496.9,
+    541.9
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA GIOIELLIERE (25 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    543.0,
+    406.0,
+    552.7
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Intelligenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    450.4,
+    543.2,
+    490.6,
+    552.8
+   ],
+   "size": 8.4,
+   "testo": "Peso: l kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    554.1,
+    505.1,
+    563.7
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: determinare il valore di una gemma (CD 15)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    565.1,
+    454.9,
+    574.7
+   ],
+   "size": 8.4,
+   "testo": "Creazione: focus arcano, simbolo sacro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    599.6,
+    497.8,
+    610.9
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA INTAGLIATORE (1 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    612.2,
+    400.1,
+    621.8
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    450.3,
+    612.1,
+    497.8,
+    621.8
+   ],
+   "size": 8.4,
+   "testo": "Peso: 2,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    623.3,
+    483.9,
+    632.9
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: intagliare un motivo nel legno (CD 10)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    634.3,
+    531.9,
+    643.9
+   ],
+   "size": 8.4,
+   "testo": "Creazione: randello, randello pesante, bastone ferrato, armi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    645.3,
+    521.1,
+    654.9
+   ],
+   "size": 8.4,
+   "testo": "a distanza (eccetto pistola, moschetto e fionda), focus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    656.3,
+    520.5,
+    665.9
+   ],
+   "size": 8.4,
+   "testo": "arcano, frecce, quadrelli, focus druidico, pennino, aghi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    690.7,
+    490.3,
+    702.1
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA INVENTORE (50 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    703.3,
+    399.9,
+    712.9
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    450.0,
+    703.2,
+    490.5,
+    712.8
+   ],
+   "size": 8.4,
+   "testo": "Peso: 5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    714.3,
+    525.6,
+    723.9
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: realizzare un oggetto minuscolo sfruttando mate­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    725.3,
+    521.9,
+    734.9
+   ],
+   "size": 8.4,
+   "testo": "riali di scarto che cadrà a pezzi dopo l minuto (CD 20)",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

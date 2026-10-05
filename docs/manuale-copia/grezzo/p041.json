@@ -1,0 +1,2604 @@
+{
+ "pagina_pdf": 41,
+ "pagina_stampata": 38,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "38 / CAPITOLO 2 I CREARE UN PERSONAGGIO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    51.4,
+    30.9,
+    267.7,
+    52.4
+   ],
+   "size": 10.8,
+   "testo": "FASE 3 :DETERMINARE I PUNTEGGI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    53.3,
+    176.9,
+    66.4
+   ],
+   "size": 9.7,
+   "testo": "DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    69.9,
+    260.0,
+    80.4
+   ],
+   "size": 8.8,
+   "testo": "Per determinare i punteggi di caratteristica del perso­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    80.8,
+    262.3,
+    91.4
+   ],
+   "size": 8.8,
+   "testo": "naggio, occorre innanzitutto generare una serie di sei",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    91.9,
+    275.5,
+    102.4
+   ],
+   "size": 8.8,
+   "testo": "numeri utilizzando le istruzioni riportate di seguito e poi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    102.8,
+    262.7,
+    113.4
+   ],
+   "size": 8.8,
+   "testo": "assegnarli alle sei caratteristiche. Il capitolo 1 spiega il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    113.8,
+    196.5,
+    124.3
+   ],
+   "size": 8.8,
+   "testo": "significato di ciascuna caratteristica.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    134.3,
+    174.0,
+    145.6
+   ],
+   "size": 11.2,
+   "testo": "GENERARE I PUNTEGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    145.6,
+    264.2,
+    156.2
+   ],
+   "size": 8.8,
+   "testo": "Determina i punteggi di caratteristica utilizzando uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    156.7,
+    271.0,
+    167.2
+   ],
+   "size": 8.8,
+   "testo": "dei tre metodi seguenti. Il DM potrebbe preferire che ne",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    167.7,
+    174.2,
+    178.3
+   ],
+   "size": 8.8,
+   "testo": "venga usato uno in particolare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    178.7,
+    279.5,
+    189.3
+   ],
+   "size": 8.8,
+   "testo": "Serie standard. Utilizza i seguenti sei punteggi per le tue",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    189.7,
+    185.0,
+    200.3
+   ],
+   "size": 8.8,
+   "testo": "caratteristiche: 15, 14, 13, 12, 10, 8.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    200.8,
+    275.6,
+    211.4
+   ],
+   "size": 8.8,
+   "testo": "Generazione casuale. Tira quattro d6 e registra il totale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    211.8,
+    265.2,
+    222.4
+   ],
+   "size": 8.8,
+   "testo": "dei tre dadi più alti. Poi ripeti l'operazione altre cinque",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.5,
+    222.8,
+    186.3,
+    233.3
+   ],
+   "size": 8.8,
+   "testo": "volte in modo da avere sei numeri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    233.7,
+    274.1,
+    244.3
+   ],
+   "size": 8.8,
+   "testo": "Costo in punti. Hai a disposizione 27 punti da spendere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    244.7,
+    274.9,
+    255.3
+   ],
+   "size": 8.8,
+   "testo": "per i punteggi di caratteristica. Il costo di ciascun punteg­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    255.8,
+    274.9,
+    266.4
+   ],
+   "size": 8.8,
+   "testo": "gio è indicato nella tabella Costi in punti del punteggio di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    266.7,
+    273.8,
+    277.3
+   ],
+   "size": 8.8,
+   "testo": "caratteristica. Ad esempio, un punteggio di 14 costa 7 dei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    277.8,
+    105.5,
+    288.4
+   ],
+   "size": 8.8,
+   "testo": "tuoi 27 punti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    300.6,
+    229.0,
+    311.2
+   ],
+   "size": 10.6,
+   "testo": "COSTI IN PUNTI DEL PUNTEGGIO DI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    314.1,
+    134.0,
+    324.7
+   ],
+   "size": 10.6,
+   "testo": "CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    329.9,
+    99.9,
+    339.1
+   ],
+   "size": 8.2,
+   "testo": "Punteggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.3,
+    329.9,
+    147.1,
+    339.2
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.2,
+    329.9,
+    217.0,
+    339.1
+   ],
+   "size": 8.2,
+   "testo": "Punteggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    240.4,
+    329.9,
+    264.4,
+    339.1
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    76.6,
+    343.9,
+    82.6,
+    353.5
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.8,
+    344.3,
+    137.8,
+    353.3
+   ],
+   "size": 6.9,
+   "testo": "o",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    192.0,
+    343.7,
+    203.3,
+    353.4
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.0,
+    343.7,
+    255.3,
+    353.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.6,
+    358.4,
+    82.6,
+    368.0
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    192.0,
+    358.3,
+    203.1,
+    368.0
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.6,
+    358.3,
+    255.1,
+    367.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.8,
+    372.9,
+    86.4,
+    382.5
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    132.3,
+    372.9,
+    138.3,
+    382.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    192.0,
+    372.9,
+    203.1,
+    382.5
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.6,
+    372.8,
+    255.3,
+    382.4
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.1,
+    387.4,
+    84.9,
+    397.0
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    132.4,
+    387.5,
+    137.9,
+    397.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    192.0,
+    387.4,
+    203.3,
+    397.0
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.3,
+    387.5,
+    255.3,
+    397.1
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    411.3,
+    282.6,
+    422.7
+   ],
+   "size": 11.2,
+   "testo": "ASSEGNARE I PUNTEGGI DI CARATTERISTICA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    422.6,
+    267.3,
+    433.2
+   ],
+   "size": 8.8,
+   "testo": "Dopoche hai generato i sei punteggi, assegnali a Forza,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    433.6,
+    281.0,
+    444.2
+   ],
+   "size": 8.8,
+   "testo": "Destrezza, Costituzione, Intelligenza, Saggezza e Carisma,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    444.6,
+    256.0,
+    455.2
+   ],
+   "size": 8.8,
+   "testo": "tenendo presente la caratteristica primaria della tua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    455.5,
+    251.9,
+    466.1
+   ],
+   "size": 8.8,
+   "testo": "classe. Poi, aggiungi i modificatori di caratteristica.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    466.6,
+    270.1,
+    477.2
+   ],
+   "size": 8.8,
+   "testo": "Se utilizzi l'opzione serie standard, consulta la tabella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    477.5,
+    252.2,
+    488.1
+   ],
+   "size": 8.8,
+   "testo": "Serie standard per classe per suggerimenti su come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    488.5,
+    262.9,
+    499.1
+   ],
+   "size": 8.8,
+   "testo": "assegnare i punteggi per la classe del tuo personaggio.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    499.5,
+    271.6,
+    510.0
+   ],
+   "size": 8.8,
+   "testo": "La tabella riporta i punteggi più alti nelle caratteristiche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    510.5,
+    253.8,
+    521.1
+   ],
+   "size": 8.8,
+   "testo": "principali di una classe. Se hai utilizzato un metodo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    521.6,
+    278.9,
+    532.2
+   ],
+   "size": 8.8,
+   "testo": "diverso per generare i punteggi, puoi comunque utilizzare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    532.5,
+    265.6,
+    543.1
+   ],
+   "size": 8.8,
+   "testo": "questa tabella per orientarti nella collocazione dei pun­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    543.6,
+    145.6,
+    554.1
+   ],
+   "size": 8.8,
+   "testo": "teggi più alti e più bassi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    568.5,
+    267.8,
+    578.6
+   ],
+   "size": 8.2,
+   "testo": "BACKGROUND E SPECIE DEI VECCHI MANUALI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    581.6,
+    254.1,
+    591.2
+   ],
+   "size": 8.4,
+   "testo": "I background dei vecchi manuali di D&D non inclu­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    592.7,
+    262.7,
+    602.3
+   ],
+   "size": 8.4,
+   "testo": "dono modifiche al punteggio di caratteristica. Se stai",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    603.6,
+    268.0,
+    613.2
+   ],
+   "size": 8.4,
+   "testo": "utilizzando un background di un manuale più vecchio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    614.8,
+    259.8,
+    624.4
+   ],
+   "size": 8.4,
+   "testo": "modifica i punteggi di caratteristica aumentando un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    625.7,
+    265.6,
+    635.4
+   ],
+   "size": 8.4,
+   "testo": "punteggio di 2 e un altro di l, oppure aumentando tre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    636.8,
+    259.2,
+    646.5
+   ],
+   "size": 8.4,
+   "testo": "punteggi di l . Nessuno di questi incrementi può far",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    647.7,
+    194.8,
+    657.4
+   ],
+   "size": 8.4,
+   "testo": "salire il punteggio al di sopra di 20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.1,
+    658.8,
+    254.5,
+    668.4
+   ],
+   "size": 8.4,
+   "testo": "D'altro canto, le specie dei manuali più vecchi inclu­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    669.8,
+    255.9,
+    679.4
+   ],
+   "size": 8.4,
+   "testo": "dono incrementi dei punteggi di caratteristica. Se stai",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    680.8,
+    267.2,
+    690.4
+   ],
+   "size": 8.4,
+   "testo": "utilizzando una specie di un manuale più vecchio, ignora",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    691.7,
+    261.8,
+    701.3
+   ],
+   "size": 8.4,
+   "testo": "gli incrementi e utilizza solo quelli dati dal background.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.1,
+    702.7,
+    268.4,
+    712.3
+   ],
+   "size": 8.4,
+   "testo": "Inoltre, se il background scelto non fornisce un talento,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    713.7,
+    258.0,
+    723.4
+   ],
+   "size": 8.4,
+   "testo": "il personaggio guadagna un talento di origine a scelta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    38.1,
+    447.3,
+    48.7
+   ],
+   "size": 10.6,
+   "testo": "SERIE STANDARD PER CLASSE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    54.0,
+    334.0,
+    63.3
+   ],
+   "size": 8.2,
+   "testo": "Classe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    368.1,
+    53.9,
+    383.6,
+    63.2
+   ],
+   "size": 8.2,
+   "testo": "For.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.1,
+    54.0,
+    413.8,
+    63.2
+   ],
+   "size": 8.2,
+   "testo": "Des.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    423.5,
+    54.0,
+    442.0,
+    63.3
+   ],
+   "size": 8.2,
+   "testo": "Cos.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    67.9,
+    338.7,
+    77.5
+   ],
+   "size": 8.4,
+   "testo": "Barbaro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.0,
+    67.9,
+    382.5,
+    77.5
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.5,
+    67.9,
+    410.8,
+    77.6
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    427.8,
+    67.9,
+    439.8,
+    77.5
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    82.6,
+    332.1,
+    92.2
+   ],
+   "size": 8.4,
+   "testo": "Bardo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    372.5,
+    82.5,
+    378.6,
+    92.1
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.5,
+    82.5,
+    410.5,
+    92.1
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    82.5,
+    439.2,
+    92.1
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    97.0,
+    340.2,
+    106.7
+   ],
+   "size": 8.4,
+   "testo": "Chierico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.0,
+    97.0,
+    382.2,
+    106.6
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.2,
+    97.2,
+    407.2,
+    106.8
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.1,
+    97.1,
+    439.1,
+    106.7
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    111.6,
+    336.5,
+    121.3
+   ],
+   "size": 8.4,
+   "testo": "Druido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    372.6,
+    111.7,
+    378.7,
+    121.3
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.6,
+    111.6,
+    410.9,
+    121.2
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.1,
+    111.5,
+    439.1,
+    121.2
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    126.2,
+    345.4,
+    135.8
+   ],
+   "size": 8.4,
+   "testo": "Guerriero",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.1,
+    126.2,
+    382.3,
+    135.8
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.3,
+    126.1,
+    411.3,
+    135.7
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    126.1,
+    439.0,
+    135.8
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    140.8,
+    331.0,
+    150.4
+   ],
+   "size": 8.4,
+   "testo": "Ladro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.1,
+    140.8,
+    382.3,
+    150.4
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.6,
+    140.8,
+    410.9,
+    150.4
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    140.8,
+    439.0,
+    150.4
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    155.4,
+    330.9,
+    165.0
+   ],
+   "size": 8.4,
+   "testo": "Mago",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    372.6,
+    155.4,
+    378.7,
+    165.0
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.6,
+    155.3,
+    410.9,
+    165.0
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    155.4,
+    439.2,
+    165.0
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    170.0,
+    340.1,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "Monaco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.1,
+    170.0,
+    382.3,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.6,
+    170.0,
+    410.9,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    170.0,
+    439.2,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    184.6,
+    342.8,
+    194.2
+   ],
+   "size": 8.4,
+   "testo": "Paladino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.1,
+    184.5,
+    382.3,
+    194.1
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.4,
+    184.5,
+    411.0,
+    194.1
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    184.6,
+    439.2,
+    194.2
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    199.2,
+    336.7,
+    208.9
+   ],
+   "size": 8.4,
+   "testo": "Ranger",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.1,
+    199.2,
+    382.3,
+    208.9
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.6,
+    199.2,
+    410.9,
+    208.8
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    199.2,
+    439.2,
+    208.8
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    213.8,
+    343.8,
+    223.5
+   ],
+   "size": 8.4,
+   "testo": "Stregone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.1,
+    213.8,
+    381.7,
+    223.4
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.6,
+    213.8,
+    410.7,
+    223.5
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.0,
+    213.8,
+    439.8,
+    223.4
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    228.4,
+    340.2,
+    238.0
+   ],
+   "size": 8.4,
+   "testo": "Warlock",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    372.6,
+    228.4,
+    378.7,
+    238.1
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.5,
+    228.3,
+    410.8,
+    237.9
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.2,
+    228.3,
+    439.2,
+    238.0
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    250.3,
+    451.1,
+    261.7
+   ],
+   "size": 11.2,
+   "testo": "MODIFICARE I PUNTEGGI DI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    261.0,
+    396.1,
+    272.3
+   ],
+   "size": 11.2,
+   "testo": "CARATTERISTICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.4,
+    54.1,
+    468.7,
+    63.3
+   ],
+   "size": 8.2,
+   "testo": "Int.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.6,
+    54.1,
+    498.9,
+    63.3
+   ],
+   "size": 8.2,
+   "testo": "Sag.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.7,
+    54.0,
+    526.0,
+    63.2
+   ],
+   "size": 8.2,
+   "testo": "Car.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    456.4,
+    67.9,
+    468.0,
+    77.5
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.1,
+    67.9,
+    496.3,
+    77.5
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    514.9,
+    68.0,
+    521.0,
+    77.6
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    456.6,
+    82.5,
+    467.7,
+    92.1
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    484.8,
+    82.5,
+    496.4,
+    92.1
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.4,
+    82.5,
+    524.7,
+    92.1
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    456.4,
+    97.1,
+    468.0,
+    106.7
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.1,
+    97.0,
+    496.3,
+    106.7
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.3,
+    97.1,
+    525.1,
+    106.7
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    456.6,
+    111.6,
+    467.7,
+    121.2
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.2,
+    111.6,
+    496.2,
+    121.3
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.3,
+    111.6,
+    524.9,
+    121.3
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    458.2,
+    126.2,
+    464.2,
+    135.8
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.0,
+    126.2,
+    496.3,
+    135.8
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.5,
+    126.2,
+    524.5,
+    135.8
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    456.5,
+    140.7,
+    467.5,
+    150.3
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.0,
+    140.7,
+    496.3,
+    150.4
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    515.1,
+    140.8,
+    521.1,
+    150.5
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    456.6,
+    155.3,
+    467.9,
+    165.0
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    484.8,
+    155.3,
+    496.8,
+    164.9
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.3,
+    155.3,
+    524.9,
+    165.0
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    456.5,
+    170.0,
+    467.9,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.1,
+    170.0,
+    496.1,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    515.1,
+    170.1,
+    521.1,
+    179.7
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    458.3,
+    184.6,
+    464.4,
+    194.3
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.2,
+    184.5,
+    496.2,
+    194.1
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.4,
+    184.5,
+    524.4,
+    194.1
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    458.3,
+    199.3,
+    464.4,
+    208.9
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.1,
+    199.2,
+    496.1,
+    208.8
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.3,
+    199.2,
+    524.9,
+    208.8
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    458.3,
+    213.9,
+    464.4,
+    223.6
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.2,
+    213.8,
+    496.2,
+    223.5
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.7,
+    213.8,
+    524.2,
+    223.5
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    456.8,
+    228.3,
+    467.8,
+    238.0
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.0,
+    228.3,
+    496.6,
+    237.9
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.5,
+    228.3,
+    524.8,
+    238.0
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    272.4,
+    516.0,
+    283.0
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver assegnato i punteggi di caratteristica, modi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    283.5,
+    511.4,
+    294.1
+   ],
+   "size": 8.8,
+   "testo": "ficali in base al background. Il background elenca tre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    294.5,
+    528.4,
+    305.0
+   ],
+   "size": 8.8,
+   "testo": "caratteristiche; aumenta un punteggio di 2 e un altro di 1,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    305.5,
+    529.2,
+    316.1
+   ],
+   "size": 8.8,
+   "testo": "oppure aumenta tutti e tre i punteggi di 1. Nessuno di que­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    316.4,
+    528.3,
+    327.0
+   ],
+   "size": 8.8,
+   "testo": "sti incrementi può far salire il punteggio al di sopra di 20.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.2,
+    327.5,
+    518.2,
+    338.1
+   ],
+   "size": 8.8,
+   "testo": "Ad alcuni giocatori piace aumentare la caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    338.4,
+    519.5,
+    349.0
+   ],
+   "size": 8.8,
+   "testo": "primaria della propria classe, mentre altri preferiscono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    349.3,
+    427.3,
+    359.9
+   ],
+   "size": 8.8,
+   "testo": "aumentare un punteggio basso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    369.8,
+    469.0,
+    381.2
+   ],
+   "size": 11.2,
+   "testo": "DETERMINARE I MODIFICATORI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    380.6,
+    410.2,
+    392.0
+   ],
+   "size": 11.2,
+   "testo": "DI CARATTERISTICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    391.9,
+    508.4,
+    402.5
+   ],
+   "size": 8.8,
+   "testo": "Infine, calcola i modificatori di caratteristica del per­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    403.0,
+    509.5,
+    413.6
+   ],
+   "size": 8.8,
+   "testo": "sonaggio usando la tabella Punteggi di caratteristica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    414.0,
+    517.2,
+    424.6
+   ],
+   "size": 8.8,
+   "testo": "e modificatori. Ogni modificatore va annotato accanto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    425.0,
+    471.8,
+    435.6
+   ],
+   "size": 8.8,
+   "testo": "alla relativa caratteristica del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    447.7,
+    534.4,
+    458.4
+   ],
+   "size": 10.6,
+   "testo": "PUNTEGGI DI CARATTERISTICA E MODIFICATORI",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    463.5,
+    349.6,
+    472.7
+   ],
+   "size": 8.2,
+   "testo": "Punteggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    359.4,
+    463.5,
+    409.0,
+    472.7
+   ],
+   "size": 8.2,
+   "testo": "Modificatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.2,
+    463.5,
+    468.9,
+    472.7
+   ],
+   "size": 8.2,
+   "testo": "Punteggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    478.6,
+    463.5,
+    527.9,
+    472.7
+   ],
+   "size": 8.2,
+   "testo": "Modificatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    326.4,
+    478.2,
+    331.9,
+    487.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    377.8,
+    478.0,
+    389.9,
+    487.9
+   ],
+   "size": 8.4,
+   "testo": "-4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.5,
+    478.2,
+    459.9,
+    487.8
+   ],
+   "size": 8.4,
+   "testo": "12-13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.7,
+    478.2,
+    506.6,
+    487.8
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.2,
+    493.4,
+    337.6,
+    503.0
+   ],
+   "size": 8.4,
+   "testo": "4-5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    378.0,
+    493.4,
+    389.4,
+    503.0
+   ],
+   "size": 8.4,
+   "testo": "-3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.2,
+    493.4,
+    460.2,
+    503.0
+   ],
+   "size": 8.4,
+   "testo": "14-15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.5,
+    493.4,
+    508.1,
+    503.0
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.5,
+    508.7,
+    337.8,
+    518.3
+   ],
+   "size": 8.4,
+   "testo": "6-7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    377.9,
+    508.7,
+    389.9,
+    518.3
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.2,
+    508.7,
+    460.5,
+    518.3
+   ],
+   "size": 8.4,
+   "testo": "16-17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.4,
+    508.7,
+    508.6,
+    518.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.3,
+    524.0,
+    337.2,
+    533.6
+   ],
+   "size": 8.4,
+   "testo": "8-9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    378.3,
+    524.0,
+    387.5,
+    533.6
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    437.1,
+    524.0,
+    460.5,
+    533.6
+   ],
+   "size": 8.4,
+   "testo": "18-19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.1,
+    523.9,
+    509.2,
+    533.7
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.8,
+    539.2,
+    340.0,
+    548.8
+   ],
+   "size": 8.4,
+   "testo": "10-11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    377.9,
+    539.2,
+    390.1,
+    548.8
+   ],
+   "size": 8.4,
+   "testo": "+0",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    443.2,
+    539.2,
+    454.7,
+    548.8
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    497.3,
+    539.2,
+    508.9,
+    548.8
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    561.8,
+    525.7,
+    573.1
+   ],
+   "size": 11.2,
+   "testo": "DESCRIVERE L'ASPETTO E LA PERSONALITÀ",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    573.1,
+    531.7,
+    583.6
+   ],
+   "size": 8.8,
+   "testo": "I punteggi di caratteristica sono una parte essenziale delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    584.0,
+    524.2,
+    594.6
+   ],
+   "size": 8.8,
+   "testo": "regole, ma la loro importanza non finisce qui. Dopo aver",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    595.1,
+    526.4,
+    605.6
+   ],
+   "size": 8.8,
+   "testo": "assegnato i punteggi di caratteristica, dovrai riflettere su",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    606.1,
+    532.7,
+    616.7
+   ],
+   "size": 8.8,
+   "testo": "ciò che questi punteggi potrebbero dire sull'aspetto e sulla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    617.2,
+    525.1,
+    627.8
+   ],
+   "size": 8.8,
+   "testo": "personalità del personaggio. Un personaggio molto forte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    628.2,
+    531.2,
+    638.8
+   ],
+   "size": 8.8,
+   "testo": "con poco Carisma potrebbe avere un aspetto e un compor­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    639.3,
+    527.9,
+    649.8
+   ],
+   "size": 8.8,
+   "testo": "tamento diverso da un personaggio carismatico con poca",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    650.2,
+    529.8,
+    660.8
+   ],
+   "size": 8.8,
+   "testo": "Forza. Le seguenti tabelle di parole descrittive forniscono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    661.2,
+    525.1,
+    671.7
+   ],
+   "size": 8.8,
+   "testo": "suggerimenti su come potresti raffigurare il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    672.2,
+    517.8,
+    682.8
+   ],
+   "size": 8.8,
+   "testo": "in base a un punteggio alto o basso in una determinata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    683.1,
+    360.1,
+    693.7
+   ],
+   "size": 8.8,
+   "testo": "caratteristica.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.2,
+    694.1,
+    502.8,
+    704.7
+   ],
+   "size": 8.8,
+   "testo": "Annota l'aspetto e la personalità sulla scheda del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    705.1,
+    355.5,
+    715.7
+   ],
+   "size": 8.8,
+   "testo": "personaggio.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

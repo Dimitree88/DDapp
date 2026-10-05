@@ -1,0 +1,1356 @@
+{
+ "pagina_pdf": 277,
+ "pagina_stampata": 274,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "274 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.7,
+    33.1,
+    269.6,
+    41.7
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore crea una bolla di acido in un punto entro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.3,
+    44.1,
+    265.1,
+    52.7
+   ],
+   "size": 6.7,
+   "testo": "gittata, dove la bolla esplode in una sfera del raggio di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    55.2,
+    276.4,
+    63.8
+   ],
+   "size": 6.7,
+   "testo": "1,5 metri. Ogni creatura all'interno della sfera deve supe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    66.2,
+    279.0,
+    74.8
+   ],
+   "size": 6.7,
+   "testo": "rare un tiro salvezza su Destrezza, altrimenti subisce 1d6",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    77.2,
+    115.4,
+    85.8
+   ],
+   "size": 6.7,
+   "testo": "danni da acido.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    88.2,
+    283.8,
+    96.9
+   ],
+   "size": 6.7,
+   "testo": "Trucchetto potenziato. I danni aumentano di 1d6 quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    96.2,
+    283.8,
+    107.9
+   ],
+   "size": 6.7,
+   "testo": "l'incantatore raggiunge il 5° livello (2d6), 1'11° livello (3d6)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    107.2,
+    133.0,
+    118.8
+   ],
+   "size": 6.7,
+   "testo": "e il 17° livello (4d6).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    142.9,
+    152.7,
+    153.3
+   ],
+   "size": 8.5,
+   "testo": "FOLATA DI VENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    154.6,
+    260.3,
+    165.0
+   ],
+   "size": 8.5,
+   "testo": "Invocazionedi 2°livello (druido, ranger, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    169.2,
+    146.9,
+    179.7
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    180.2,
+    131.0,
+    190.7
+   ],
+   "size": 8.5,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    191.2,
+    215.2,
+    201.7
+   ],
+   "size": 8.5,
+   "testo": "Componenti: V, S, M (un seme di legume)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    202.3,
+    208.6,
+    212.7
+   ],
+   "size": 8.5,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    221.2,
+    269.3,
+    229.9
+   ],
+   "size": 6.7,
+   "testo": "Una linea di vento forte lunga 18 metri e ampia 3 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    232.2,
+    274.4,
+    240.7
+   ],
+   "size": 6.7,
+   "testo": "viene indirizzata dall'incantatore in una direzione a sua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    243.2,
+    276.6,
+    251.7
+   ],
+   "size": 6.7,
+   "testo": "scelta per la durata dell'incantesimo. Ogni creatura sulla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    254.2,
+    275.1,
+    262.8
+   ],
+   "size": 6.7,
+   "testo": "linea deve superare un tiro salvezza su Forza, altrimenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    265.1,
+    274.1,
+    273.7
+   ],
+   "size": 6.7,
+   "testo": "viene spinta per 4,5 metri lontano dall'incantatore nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    276.2,
+    262.7,
+    284.8
+   ],
+   "size": 6.7,
+   "testo": "direzione della linea. Una creatura che termina il suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    287.3,
+    270.4,
+    295.9
+   ],
+   "size": 6.7,
+   "testo": "turno sulla linea deve effettuare lo stesso tiro salvezza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    298.3,
+    277.5,
+    306.8
+   ],
+   "size": 6.7,
+   "testo": "Qualsiasi creatura sulla linea deve usare 60 centimetri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    309.2,
+    277.3,
+    317.8
+   ],
+   "size": 6.7,
+   "testo": "di movimento per ogni 30 centimetri percorsi per avvici­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    320.3,
+    137.5,
+    328.8
+   ],
+   "size": 6.7,
+   "testo": "narsi all'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    331.3,
+    277.7,
+    339.8
+   ],
+   "size": 6.7,
+   "testo": "La folata può disperdere gas o vapore e spegne candele",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    342.2,
+    284.0,
+    350.8
+   ],
+   "size": 6.7,
+   "testo": "e simili fiamme non protette nell'area. Le fiamme protette,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    353.2,
+    273.2,
+    361.8
+   ],
+   "size": 6.7,
+   "testo": "come quelle delle lanterne,tremolano e hanno il 50% di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    364.2,
+    146.9,
+    372.8
+   ],
+   "size": 6.7,
+   "testo": "possibilità di spegnersi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    375.0,
+    275.8,
+    383.6
+   ],
+   "size": 6.7,
+   "testo": "Come azione bonus nei suoi turni successivi, l'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    386.2,
+    282.9,
+    394.7
+   ],
+   "size": 6.7,
+   "testo": "tore può modificare la direzione in cui indirizzare la linea.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    419.0,
+    186.3,
+    429.5
+   ],
+   "size": 8.5,
+   "testo": "FONDERSI NELLA PIETRA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    430.8,
+    245.2,
+    441.2
+   ],
+   "size": 8.5,
+   "testo": "Trasmutazione di 3°livello (chierico, druido, ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    445.4,
+    179.9,
+    455.8
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio:azione o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    456.3,
+    119.7,
+    466.8
+   ],
+   "size": 8.5,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    468.9,
+    122.0,
+    477.6
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    478.3,
+    106.7,
+    488.7
+   ],
+   "size": 8.5,
+   "testo": "Durata: 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    497.2,
+    269.0,
+    505.7
+   ],
+   "size": 6.7,
+   "testo": "L:incantatore entra in un oggetto o in una superficie di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    508.2,
+    278.0,
+    516.8
+   ],
+   "size": 6.7,
+   "testo": "pietra sufficientemente grande da contenere il suo corpo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    519.3,
+    280.0,
+    527.8
+   ],
+   "size": 6.7,
+   "testo": "fondendosi con esso insieme al suo l'equipaggiamento per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    530.2,
+    270.0,
+    538.8
+   ],
+   "size": 6.7,
+   "testo": "la durata dell'incantesimo. Per farlo, l'incantatore deve",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    541.2,
+    282.8,
+    549.8
+   ],
+   "size": 6.7,
+   "testo": "toccare la pietra, e nulla della sua presenza rimane visibile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    552.2,
+    234.9,
+    560.8
+   ],
+   "size": 6.7,
+   "testo": "o individuabile da qualsiasi senso non magico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    563.3,
+    282.0,
+    571.9
+   ],
+   "size": 6.7,
+   "testo": "Mentre è fuso nella pietra, l'incantatore non può vedere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    574.2,
+    279.5,
+    582.7
+   ],
+   "size": 6.7,
+   "testo": "ciò che accade al di fuori e subisce svantaggio in qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    585.1,
+    284.3,
+    593.7
+   ],
+   "size": 6.7,
+   "testo": "prova di Saggezza (Percezione) effettuata per udire i suoni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    596.2,
+    262.0,
+    604.8
+   ],
+   "size": 6.7,
+   "testo": "all'esterno. Rimane tuttavia cosciente del passare del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    607.2,
+    272.2,
+    615.8
+   ],
+   "size": 6.7,
+   "testo": "tempo e può lanciare incantesimi su di sé. L:incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    618.3,
+    268.9,
+    626.8
+   ],
+   "size": 6.7,
+   "testo": "può usare 1,5 metri del suo movimento per uscire dalla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    629.3,
+    278.8,
+    638.0
+   ],
+   "size": 6.7,
+   "testo": "pietra nel punto in cui è entrato, ponendo fine all'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    640.3,
+    194.4,
+    648.9
+   ],
+   "size": 6.7,
+   "testo": "simo; altrimenti, non può muoversi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    651.3,
+    260.5,
+    659.8
+   ],
+   "size": 6.7,
+   "testo": "Eventuali danni fisici minori inflitti alla pietra non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    662.3,
+    272.8,
+    670.8
+   ],
+   "size": 6.7,
+   "testo": "danneggiano l'incantatore, ma una distruzione parziale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    673.3,
+    277.9,
+    681.9
+   ],
+   "size": 6.7,
+   "testo": "o un'alterazione nella forma (al punto da non contenerne",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    684.2,
+    274.5,
+    692.8
+   ],
+   "size": 6.7,
+   "testo": "più il corpo) provoca l'espulsione dell'incantatore, inflig­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    695.2,
+    282.5,
+    703.8
+   ],
+   "size": 6.7,
+   "testo": "gendogli 6d6 danni da forza. La completa distruzione della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    706.2,
+    275.7,
+    714.8
+   ],
+   "size": 6.7,
+   "testo": "pietra (o la sua trasmutazione in una sostanza differente)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    33.2,
+    536.5,
+    41.7
+   ],
+   "size": 6.7,
+   "testo": "provoca l'espulsione dell'incantatore e gli infligge 50 danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    44.2,
+    534.7,
+    52.8
+   ],
+   "size": 6.7,
+   "testo": "da forza. Se l'incantatore viene espulso, cade a terra prono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    55.3,
+    524.1,
+    63.9
+   ],
+   "size": 6.7,
+   "testo": "nello spazio libero più vicino al punto in cui era entrato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    88.0,
+    437.2,
+    98.4
+   ],
+   "size": 8.5,
+   "testo": "FONTE DI LUCE LUNARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    99.7,
+    452.8,
+    110.1
+   ],
+   "size": 8.5,
+   "testo": "Invocazione di 4°livello (bardo, druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    114.2,
+    399.6,
+    124.6
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    125.1,
+    383.9,
+    135.6
+   ],
+   "size": 8.5,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    137.9,
+    375.0,
+    146.5
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    147.1,
+    463.2,
+    157.6
+   ],
+   "size": 8.5,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    166.2,
+    524.0,
+    174.8
+   ],
+   "size": 6.7,
+   "testo": "Per la durata dell'incantesimo, il corpo dell'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    177.3,
+    516.8,
+    185.9
+   ],
+   "size": 6.7,
+   "testo": "è avvolto da una luce fredda che proietta luce intensa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    188.2,
+    524.4,
+    196.8
+   ],
+   "size": 6.7,
+   "testo": "in un raggio di 6 metri e luce fioca per ulteriori 6 metri.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.1,
+    199.3,
+    521.9,
+    208.0
+   ],
+   "size": 6.7,
+   "testo": "Fino al termine dell'incantesimo, l'incantatore è resi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    210.3,
+    523.5,
+    218.9
+   ],
+   "size": 6.7,
+   "testo": "stente ai danni radiosi e i suoi attacchi in mischia inflig­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    221.3,
+    506.8,
+    229.8
+   ],
+   "size": 6.7,
+   "testo": "gono 2d6 danni radiosi extra se il colpo va a segno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.1,
+    232.3,
+    527.7,
+    240.8
+   ],
+   "size": 6.7,
+   "testo": "Inoltre, subito dopo aver subito danni da una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    243.3,
+    518.8,
+    251.9
+   ],
+   "size": 6.7,
+   "testo": "entro 18 metri da sé e che è in grado di vedere, l'incan­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    254.3,
+    514.4,
+    262.8
+   ],
+   "size": 6.7,
+   "testo": "tatore può effettuare una reazione per costringere la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    265.3,
+    519.6,
+    273.8
+   ],
+   "size": 6.7,
+   "testo": "creatura a effettuare un tiro salvezza su Costituzione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    276.3,
+    534.5,
+    285.0
+   ],
+   "size": 6.7,
+   "testo": "Se fallisce, la creatura è accecata fino al termine del turno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    287.3,
+    416.1,
+    295.9
+   ],
+   "size": 6.7,
+   "testo": "successivo dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    320.1,
+    389.6,
+    330.6
+   ],
+   "size": 8.5,
+   "testo": "FORMA ETEREA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    331.8,
+    536.9,
+    342.2
+   ],
+   "size": 8.5,
+   "testo": "Evocazionedi 7°livello (bardo, chierico, mago,stregone, warlock)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    346.2,
+    399.3,
+    356.7
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    357.3,
+    383.8,
+    367.7
+   ],
+   "size": 8.5,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    370.0,
+    374.8,
+    378.6
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    379.3,
+    383.0,
+    389.7
+   ],
+   "size": 8.5,
+   "testo": "Durata: fino a 8 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    398.3,
+    531.1,
+    406.9
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore mette piede nelle regioni di confine in cui il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    409.5,
+    528.2,
+    418.1
+   ],
+   "size": 6.7,
+   "testo": "Piano Etereo si sovrappone al suo piano attuale. Rimane",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    420.4,
+    536.8,
+    429.0
+   ],
+   "size": 6.7,
+   "testo": "nel Confine Etereo per la durata dell'incantesimo. Durante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    431.4,
+    525.0,
+    439.9
+   ],
+   "size": 6.7,
+   "testo": "questo periodo, l'incantatore può muoversi in ogni dire­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    442.4,
+    530.8,
+    451.0
+   ],
+   "size": 6.7,
+   "testo": "zione. Muovendosi su o giù, ogni 30 cm di movimento gli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    453.3,
+    532.5,
+    462.0
+   ],
+   "size": 6.7,
+   "testo": "costano 30 cm extra. I.:incantatore può percepire il piano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    464.3,
+    524.6,
+    473.0
+   ],
+   "size": 6.7,
+   "testo": "da cui proviene, che appare in scala di grigi ed è visibile",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    475.3,
+    446.8,
+    484.0
+   ],
+   "size": 6.7,
+   "testo": "solo fino a una distanza di 18 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    486.3,
+    515.2,
+    494.9
+   ],
+   "size": 6.7,
+   "testo": "Mentre si trova sul Piano Etereo, l'incantatore può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    497.3,
+    525.8,
+    505.9
+   ],
+   "size": 6.7,
+   "testo": "influenzare ed essere influenzato solo dalle creature, gli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    508.3,
+    524.8,
+    516.9
+   ],
+   "size": 6.7,
+   "testo": "oggetti e gli effetti che si trovano su quel piano. Le crea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    519.4,
+    530.3,
+    527.9
+   ],
+   "size": 6.7,
+   "testo": "ture che non sono presenti sul Piano Etereo non possono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    530.4,
+    522.8,
+    538.9
+   ],
+   "size": 6.7,
+   "testo": "percepire o interagire con l'incantatore, a meno che un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    541.4,
+    476.4,
+    549.9
+   ],
+   "size": 6.7,
+   "testo": "privilegio non dia loro la capacità per farlo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    552.3,
+    516.5,
+    561.0
+   ],
+   "size": 6.7,
+   "testo": "Al termine dell'incantesimo, l'incantatore torna sul",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    563.4,
+    523.1,
+    571.9
+   ],
+   "size": 6.7,
+   "testo": "piano da cui proviene, sul punto che corrisponde al suo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    574.3,
+    530.0,
+    582.9
+   ],
+   "size": 6.7,
+   "testo": "spazio nel Confine Etereo. Se l'incantatore appare in uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    585.3,
+    518.5,
+    593.8
+   ],
+   "size": 6.7,
+   "testo": "spazio occupato, viene sbalzato nello spazio libero più",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    596.3,
+    517.0,
+    604.9
+   ],
+   "size": 6.7,
+   "testo": "vicino e subisce una quantità di danni da forza pari al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    607.3,
+    482.0,
+    616.0
+   ],
+   "size": 6.7,
+   "testo": "doppio del numero di metri di cui si è mosso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    618.4,
+    531.1,
+    626.9
+   ],
+   "size": 6.7,
+   "testo": "Questo incantesimo termina all'istante se l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    629.5,
+    523.5,
+    638.0
+   ],
+   "size": 6.7,
+   "testo": "Io lancia mentre si trova sul Piano Etereo o su un piano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    640.4,
+    479.2,
+    649.0
+   ],
+   "size": 6.7,
+   "testo": "non confinante, come uno dei Piani Esterni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    651.4,
+    510.5,
+    660.1
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    662.4,
+    519.2,
+    671.0
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore può bersagliare fino a un massimo di tre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    673.5,
+    526.1,
+    682.0
+   ],
+   "size": 6.7,
+   "testo": "creature consenzienti (incluso se stesso) per ogni slot di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    681.5,
+    524.3,
+    693.1
+   ],
+   "size": 6.7,
+   "testo": "livello superiore al 7°. AI momento del lancio dell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    695.3,
+    523.3,
+    703.9
+   ],
+   "size": 6.7,
+   "testo": "tesimo, le creature non devono trovarsi a più di 3 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    706.3,
+    373.1,
+    714.9
+   ],
+   "size": 6.7,
+   "testo": "dall'incantatore.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

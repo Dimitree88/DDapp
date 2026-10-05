@@ -1,0 +1,528 @@
+{
+ "pagina_pdf": 271,
+ "pagina_stampata": 268,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "F68 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.3,
+    410.6,
+    276.5,
+    421.2
+   ],
+   "size": 8.8,
+   "testo": "Un umanoide entro gittata e che l'incantatore è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.3,
+    421.6,
+    265.2,
+    432.2
+   ],
+   "size": 8.8,
+   "testo": "di vedere deve superare un tiro salvezza su Saggezza,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    432.6,
+    273.2,
+    443.2
+   ],
+   "size": 8.8,
+   "testo": "altrimenti diventa affascinato per la durata dell'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    443.6,
+    277.1,
+    454.2
+   ],
+   "size": 8.8,
+   "testo": "simo. Il bersaglio dispone di vantaggio al tiro salvezza se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    454.5,
+    274.3,
+    465.1
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore o i suoi alleati stanno combattendo contro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.3,
+    465.4,
+    271.2,
+    476.0
+   ],
+   "size": 8.8,
+   "testo": "di essa. Ogni volta che il bersaglio subisce danni, ripete",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    476.5,
+    235.6,
+    487.1
+   ],
+   "size": 8.8,
+   "testo": "il tiro salvezza; se lo supera, l'effetto svanisce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.2,
+    487.5,
+    272.6,
+    498.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore ha un legame telepatico con il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    498.4,
+    273.2,
+    509.0
+   ],
+   "size": 8.8,
+   "testo": "affascinato mentre i due si trovano sullo stesso piano di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    509.5,
+    278.0,
+    520.1
+   ],
+   "size": 8.8,
+   "testo": "esistenza. Nel proprio turno, l'incantatore può utilizzare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    520.6,
+    268.6,
+    531.2
+   ],
+   "size": 8.8,
+   "testo": "questo legame per impartire comandi al bersaglio (nes­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    531.5,
+    271.9,
+    542.1
+   ],
+   "size": 8.8,
+   "testo": "suna azione richiesta), come ad esempio \"attacca quella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    542.5,
+    279.9,
+    553.1
+   ],
+   "size": 8.8,
+   "testo": "creatura\", \"spostati lì\", o \"recupera quell'oggetto\". Il bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    553.5,
+    282.0,
+    564.1
+   ],
+   "size": 8.8,
+   "testo": "glio fa del suo meglio per obbedire nel suo turno. Se porta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    564.5,
+    259.5,
+    575.1
+   ],
+   "size": 8.8,
+   "testo": "a termine un ordine e non riceve ulteriori istruzioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    575.4,
+    260.2,
+    586.0
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore, agisce e si muove a suo piacimento,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    586.4,
+    215.6,
+    597.0
+   ],
+   "size": 8.8,
+   "testo": "concentrandosi sulla propria incolumità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.2,
+    597.4,
+    277.7,
+    608.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può comandare al bersaglio di effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    607.6,
+    264.9,
+    619.0
+   ],
+   "size": 8.8,
+   "testo": "una reazione, ma per farlo dovrà utilizzare la propria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    619.5,
+    93.0,
+    630.1
+   ],
+   "size": 8.8,
+   "testo": "reazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    632.3,
+    258.8,
+    640.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di unoslotincantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    641.6,
+    253.8,
+    652.2
+   ],
+   "size": 8.8,
+   "testo": "La concentrazione dell'incantatore può durare più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    650.4,
+    262.6,
+    663.2
+   ],
+   "size": 8.8,
+   "testo": "a lungo utilizzando uno slot incantesimo di 6° livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    661.4,
+    277.0,
+    674.1
+   ],
+   "size": 8.8,
+   "testo": "(fino a 10 minuti), di 7° livello (fino a 1 ora) o di 8° livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    674.6,
+    155.2,
+    685.2
+   ],
+   "size": 8.8,
+   "testo": "o superiore (fino a 8 ore).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    426.0,
+    415.9,
+    437.4
+   ],
+   "size": 11.3,
+   "testo": "DUELLO OBBLIGATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    437.5,
+    444.7,
+    447.9
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamento di1° livello (paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.3,
+    453.1,
+    425.4,
+    462.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    463.9,
+    367.6,
+    473.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    475.0,
+    365.8,
+    484.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    486.0,
+    461.2,
+    495.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    502.3,
+    536.4,
+    512.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tenta di obbligare una creatura a partecipare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    513.3,
+    527.8,
+    523.9
+   ],
+   "size": 8.8,
+   "testo": "a un duello. Una creatura entro gittata che l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    524.4,
+    534.4,
+    535.0
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere effettua un tiro salvezza su Saggezza.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    535.3,
+    520.5,
+    545.9
+   ],
+   "size": 8.8,
+   "testo": "In caso di fallimento, il bersaglio subisce svantaggio ai",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    546.3,
+    533.6,
+    556.9
+   ],
+   "size": 8.8,
+   "testo": "tiri per colpire contro le creature diverse dall'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    557.3,
+    527.9,
+    567.9
+   ],
+   "size": 8.8,
+   "testo": "e non può volontariamente muoversi in uno spazio a più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    568.2,
+    414.7,
+    578.8
+   ],
+   "size": 8.8,
+   "testo": "di 9 metri dall'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    579.2,
+    529.9,
+    589.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo termina se l'incantatore effettua un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    590.2,
+    527.0,
+    600.8
+   ],
+   "size": 8.8,
+   "testo": "per colpire contro una creatura diversa dal bersaglio, se",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    601.3,
+    533.7,
+    611.8
+   ],
+   "size": 8.8,
+   "testo": "lancia un incantesimo su un nemico diverso dal bersaglio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    612.3,
+    532.4,
+    622.9
+   ],
+   "size": 8.8,
+   "testo": "se un suo alleato infligge danni al bersaglio, o se l'incanta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    623.4,
+    537.5,
+    634.0
+   ],
+   "size": 8.8,
+   "testo": "tore termina il proprio turno a più di 9 metri dal bersaglio.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

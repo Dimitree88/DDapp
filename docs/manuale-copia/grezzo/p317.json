@@ -1,0 +1,937 @@
+{
+ "pagina_pdf": 317,
+ "pagina_stampata": 314,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "314 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   10,
+   -1,
+   534,
+   722
+  ],
+  [
+   355,
+   69,
+   530,
+   335
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    46.7,
+    274.9,
+    116.2,
+    281.5
+   ],
+   "size": 5.4,
+   "testo": "SPIRITO CELESTIALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.8,
+    285.0,
+    98.9,
+    291.6
+   ],
+   "size": 5.4,
+   "testo": "(VENDICATORE)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    306.2,
+    173.9,
+    319.9
+   ],
+   "size": 10.4,
+   "testo": "SPIRITO CELESTIALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    324.6,
+    154.8,
+    333.8
+   ],
+   "size": 9.2,
+   "testo": "Celestiale Grande, neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    339.6,
+    255.9,
+    349.2
+   ],
+   "size": 8.4,
+   "testo": "CA 11 + il livello dell'incantesimo + 2 (solo difensore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    350.5,
+    252.4,
+    360.1
+   ],
+   "size": 8.4,
+   "testo": "PF 40 + 10 per ogni livello di incantesimo sopra il 5°",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    361.5,
+    142.9,
+    371.1
+   ],
+   "size": 8.4,
+   "testo": "Velocità 9 m, volo 12 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.9,
+    376.3,
+    125.4,
+    382.0
+   ],
+   "size": 4.3,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    384.8,
+    103.3,
+    394.4
+   ],
+   "size": 8.4,
+   "testo": "FoR 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.1,
+    384.8,
+    121.2,
+    394.4
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    399.1,
+    103.6,
+    408.7
+   ],
+   "size": 8.4,
+   "testo": "INT 10 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.1,
+    399.1,
+    122.1,
+    408.7
+   ],
+   "size": 8.4,
+   "testo": "+0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    418.1,
+    124.0,
+    427.7
+   ],
+   "size": 8.4,
+   "testo": "Resistenze radiosi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    170.6,
+    376.3,
+    203.2,
+    382.0
+   ],
+   "size": 4.3,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.2,
+    384.8,
+    181.0,
+    394.5
+   ],
+   "size": 8.4,
+   "testo": "DES 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.5,
+    384.8,
+    199.7,
+    394.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    133.7,
+    399.1,
+    181.0,
+    408.7
+   ],
+   "size": 8.4,
+   "testo": "SAC 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.4,
+    399.1,
+    199.5,
+    408.7
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    429.1,
+    182.2,
+    438.8
+   ],
+   "size": 8.4,
+   "testo": "Immunità affascinato, spaventato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    248.2,
+    376.3,
+    280.8,
+    382.0
+   ],
+   "size": 4.3,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    211.4,
+    384.8,
+    258.8,
+    394.4
+   ],
+   "size": 8.4,
+   "testo": "Cos 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.2,
+    384.8,
+    276.7,
+    394.4
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    211.7,
+    399.0,
+    258.7,
+    408.7
+   ],
+   "size": 8.4,
+   "testo": "CAR 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.2,
+    399.0,
+    277.1,
+    408.7
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    440.1,
+    233.5,
+    449.7
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 12, scurovisione 18 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    451.0,
+    244.4,
+    460.6
+   ],
+   "size": 8.4,
+   "testo": "Lingue Celestiale, comprende le lingue parlate dal",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    461.9,
+    110.1,
+    471.6
+   ],
+   "size": 8.4,
+   "testo": "personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    473.0,
+    249.3,
+    482.6
+   ],
+   "size": 8.4,
+   "testo": "GS nessuno (PE 0; BC pari al bonus di competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    484.0,
+    126.2,
+    493.6
+   ],
+   "size": 8.4,
+   "testo": "del personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    495.1,
+    90.2,
+    513.3
+   ],
+   "size": 8.6,
+   "testo": "AZION I",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    517.7,
+    280.1,
+    527.4
+   ],
+   "size": 8.4,
+   "testo": "Multiattacco. Lo spirito effettua un numero di attacchi pari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.1,
+    529.2,
+    268.4,
+    538.8
+   ],
+   "size": 8.4,
+   "testo": "alla metà del livello di quest'incantesimo (arrotondando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    540.8,
+    99.8,
+    550.4
+   ],
+   "size": 8.4,
+   "testo": "per difetto).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    557.2,
+    272.8,
+    566.4
+   ],
+   "size": 9.2,
+   "testo": "Arco radioso (solo vendicatore). Tiro per colpire a distanza:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    568.2,
+    283.4,
+    577.8
+   ],
+   "size": 8.4,
+   "testo": "il bonus equivale al modificatore di attacco dell'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    579.6,
+    266.2,
+    589.3
+   ],
+   "size": 9.2,
+   "testo": "del personaggio, gittata di 180 metri. Colpo: 2d6 + 2 + il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    591.2,
+    196.5,
+    600.8
+   ],
+   "size": 8.4,
+   "testo": "livello dell'incantesimo danni radiosi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    607.6,
+    271.2,
+    616.9
+   ],
+   "size": 9.2,
+   "testo": "Mazza radiosa (solo difensore). Tiro percolpire in mischia:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.1,
+    618.9,
+    283.2,
+    628.6
+   ],
+   "size": 8.4,
+   "testo": "il bonus equivale al modificatore di attacco dell'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    630.3,
+    269.8,
+    640.0
+   ],
+   "size": 9.2,
+   "testo": "del personaggio, portata di 1,5 metri. Colpo: 1d10 + 3 + il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    641.8,
+    277.1,
+    651.5
+   ],
+   "size": 8.4,
+   "testo": "livello dell'incantesimo danni radiosi. Inoltre lo spirito può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    653.3,
+    270.8,
+    663.0
+   ],
+   "size": 8.4,
+   "testo": "scegliere se stesso o un'altra creatura che riesce a vedere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    664.9,
+    253.9,
+    674.5
+   ],
+   "size": 8.4,
+   "testo": "entro 3 metri dal bersaglio; la creatura scelta ottiene",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    676.3,
+    166.2,
+    686.0
+   ],
+   "size": 8.4,
+   "testo": "1d10 punti ferita temporanei.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    692.3,
+    282.8,
+    701.9
+   ],
+   "size": 8.4,
+   "testo": "Tocco guaritore (1/giorno). Lo spirito tocca un'altra creatura,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    703.7,
+    282.1,
+    713.4
+   ],
+   "size": 8.4,
+   "testo": "che recupera punti ferita pari a 2d8 + il livello dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    343.7,
+    333.4,
+    429.4,
+    340.1
+   ],
+   "size": 5.4,
+   "testo": "S P I RITO DEL COSTRUTTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.8,
+    343.3,
+    374.7,
+    350.0
+   ],
+   "size": 5.4,
+   "testo": "(PIETRA)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    406.1,
+    429.1,
+    417.5
+   ],
+   "size": 11.2,
+   "testo": "RICHIAMA COSTRUTTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    417.6,
+    417.9,
+    428.0
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di4°livello (mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    433.1,
+    397.9,
+    442.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    444.1,
+    370.4,
+    453.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    455.1,
+    526.8,
+    464.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una cassaforte del valore di 400 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.0,
+    466.0,
+    338.0,
+    475.7
+   ],
+   "size": 8.4,
+   "testo": "o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    477.0,
+    443.7,
+    486.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    493.3,
+    511.2,
+    503.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore invoca lo spirito di un costrutto, che si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    504.3,
+    521.4,
+    514.9
+   ],
+   "size": 8.8,
+   "testo": "manifesta in uno spazio libero entro gittata che egli sia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    515.4,
+    516.3,
+    525.9
+   ],
+   "size": 8.8,
+   "testo": "in grado di vedere e utilizza la scheda delle statistiche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    526.3,
+    528.2,
+    536.9
+   ],
+   "size": 8.8,
+   "testo": "dello Spirito del Costrutto. Quando questo incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    537.4,
+    521.1,
+    547.9
+   ],
+   "size": 8.8,
+   "testo": "viene lanciato, l'incantatore può scegliere un materiale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    548.3,
+    528.8,
+    558.9
+   ],
+   "size": 8.8,
+   "testo": "tra argilla, metallo o pietra. La creatura assomiglia a una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    559.3,
+    531.1,
+    569.9
+   ],
+   "size": 8.8,
+   "testo": "statua animata (l'aspetto è a discrezione dell'incantatore)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    570.3,
+    522.1,
+    580.9
+   ],
+   "size": 8.8,
+   "testo": "fatta del materiale scelto, che determina alcuni dettagli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    581.3,
+    507.5,
+    591.9
+   ],
+   "size": 8.8,
+   "testo": "nella scheda delle statistiche. La creatura scompare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    592.3,
+    519.7,
+    602.9
+   ],
+   "size": 8.8,
+   "testo": "quando scende a 0 punti ferita o quando l'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    603.3,
+    526.5,
+    613.8
+   ],
+   "size": 8.8,
+   "testo": "termina ed è un alleato per il personaggio e i suoi alleati.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.0,
+    614.4,
+    520.4,
+    625.0
+   ],
+   "size": 8.8,
+   "testo": "In combattimento, la creatura ha lo stesso punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    625.4,
+    526.4,
+    636.0
+   ],
+   "size": 8.8,
+   "testo": "di iniziativa dell'incantatore, ma inizia il turno immedia­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    636.5,
+    523.5,
+    647.0
+   ],
+   "size": 8.8,
+   "testo": "tamente dopo il suo, obbedendo ai suoi comandi verbali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    647.4,
+    509.6,
+    658.0
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta da parte dell'incantatore).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    658.5,
+    524.2,
+    669.0
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore non pronuncia comandi verbali, la crea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    669.5,
+    523.8,
+    680.0
+   ],
+   "size": 8.8,
+   "testo": "tura compie l'azione di Schivata e usa il suo movimento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    680.4,
+    401.5,
+    691.0
+   ],
+   "size": 8.8,
+   "testo": "per sottrarsi al pericolo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    693.1,
+    509.4,
+    701.7
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    702.4,
+    509.5,
+    712.9
+   ],
+   "size": 8.8,
+   "testo": "Usa il livello dello slot incantesimo relativo al livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    713.4,
+    486.6,
+    724.0
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo nella scheda delle statistiche.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

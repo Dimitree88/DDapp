@@ -1,0 +1,1512 @@
+{
+ "pagina_pdf": 235,
+ "pagina_stampata": 232,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "232 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    51.9,
+    35.7,
+    136.3,
+    48.8
+   ],
+   "size": 9.7,
+   "testo": "INCANTESIMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    52.3,
+    271.4,
+    62.9
+   ],
+   "size": 8.8,
+   "testo": "Nella maggior parte degli insediamenti si trovano indivi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    63.4,
+    267.9,
+    73.9
+   ],
+   "size": 8.8,
+   "testo": "dui disposti a lanciare incantesimi in cambio di denaro.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    74.3,
+    253.3,
+    84.8
+   ],
+   "size": 8.8,
+   "testo": "Se un incantesimo prevede l'utilizzo di componenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    85.3,
+    253.4,
+    95.9
+   ],
+   "size": 8.8,
+   "testo": "costose, è necessario aggiungerne il costo al prezzo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    96.3,
+    266.3,
+    106.9
+   ],
+   "size": 8.8,
+   "testo": "indicato nella tabella Servizi magici. Più è alto il livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    107.3,
+    258.1,
+    117.8
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo desiderato, più sarà difficile trovare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    118.2,
+    172.7,
+    128.8
+   ],
+   "size": 8.8,
+   "testo": "qualcuno in grado di lanciarlo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    141.0,
+    132.7,
+    151.7
+   ],
+   "size": 10.6,
+   "testo": "SERVIZI MAGICI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.3,
+    156.9,
+    99.7,
+    166.1
+   ],
+   "size": 8.2,
+   "testo": "Livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    167.9,
+    172.7,
+    177.2
+   ],
+   "size": 8.2,
+   "testo": "dell'incantesimo Disponibilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.1,
+    167.9,
+    278.1,
+    177.1
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.5,
+    182.0,
+    107.5,
+    191.7
+   ],
+   "size": 8.4,
+   "testo": "Trucchetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.1,
+    181.9,
+    221.0,
+    191.5
+   ],
+   "size": 8.4,
+   "testo": "Villaggio, cittadina o città",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    252.6,
+    181.8,
+    278.4,
+    191.4
+   ],
+   "size": 8.4,
+   "testo": "30 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    122.1,
+    196.5,
+    220.9,
+    206.2
+   ],
+   "size": 8.4,
+   "testo": "Villaggio, cittadina o città",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    252.8,
+    196.5,
+    279.1,
+    206.1
+   ],
+   "size": 8.4,
+   "testo": "50 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    83.1,
+    211.2,
+    89.0,
+    220.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.1,
+    211.2,
+    220.9,
+    220.9
+   ],
+   "size": 8.4,
+   "testo": "Villaggio, cittadina o città",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.6,
+    211.1,
+    278.3,
+    220.7
+   ],
+   "size": 8.4,
+   "testo": "200 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    83.2,
+    225.7,
+    88.7,
+    235.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.4,
+    224.7,
+    202.7,
+    235.4
+   ],
+   "size": 8.8,
+   "testo": "Solo cittadina o città",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.9,
+    225.6,
+    279.2,
+    235.2
+   ],
+   "size": 8.4,
+   "testo": "300 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    77.8,
+    240.3,
+    94.4,
+    249.9
+   ],
+   "size": 8.4,
+   "testo": "4-5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.3,
+    239.1,
+    202.7,
+    249.9
+   ],
+   "size": 8.8,
+   "testo": "Solo cittadina o città",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    240.6,
+    240.2,
+    278.3,
+    249.8
+   ],
+   "size": 8.4,
+   "testo": "2.000 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    78.0,
+    254.9,
+    94.4,
+    264.6
+   ],
+   "size": 8.4,
+   "testo": "6-8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.8,
+    253.8,
+    160.1,
+    264.5
+   ],
+   "size": 8.8,
+   "testo": "Solo città",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    235.9,
+    254.8,
+    278.3,
+    264.4
+   ],
+   "size": 8.4,
+   "testo": "20.000 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    82.8,
+    269.5,
+    88.9,
+    279.1
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.4,
+    268.4,
+    160.1,
+    279.1
+   ],
+   "size": 8.8,
+   "testo": "Solo città",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    231.2,
+    269.4,
+    278.3,
+    279.0
+   ],
+   "size": 8.4,
+   "testo": "100.000 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    293.5,
+    193.7,
+    310.2
+   ],
+   "size": 12.9,
+   "testo": "OGGETTI MAGICI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    311.8,
+    255.1,
+    322.3
+   ],
+   "size": 8.8,
+   "testo": "Trovare uno o più oggetti magici è il risultato ideale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    322.8,
+    269.1,
+    333.3
+   ],
+   "size": 8.8,
+   "testo": "di ogni avventura, ma non si tratta di un esito scontato.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    333.7,
+    262.4,
+    344.3
+   ],
+   "size": 8.8,
+   "testo": "Nella GuidadelDungeonMaster si trovano centinaia di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    344.7,
+    264.9,
+    355.3
+   ],
+   "size": 8.8,
+   "testo": "oggetti magici, dato che spetta al DM decidere quando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    355.7,
+    256.5,
+    366.3
+   ],
+   "size": 8.8,
+   "testo": "gli avventurieri ne troveranno uno. Ecco cosa c'è da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    366.7,
+    144.1,
+    377.3
+   ],
+   "size": 8.8,
+   "testo": "sapere sul loro utilizzo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    386.7,
+    282.1,
+    399.8
+   ],
+   "size": 9.7,
+   "testo": "IDENTIFICARE UN OGGETTO MAGICO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    403.4,
+    264.2,
+    414.0
+   ],
+   "size": 8.8,
+   "testo": "Alcuni oggetti magici sono pressoché identici alle loro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    414.4,
+    270.0,
+    425.0
+   ],
+   "size": 8.8,
+   "testo": "controparti non magiche, mentre in altri questa caratte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    425.4,
+    272.4,
+    435.9
+   ],
+   "size": 8.8,
+   "testo": "ristica è piuttosto evidente. Basta impugnare un oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    436.3,
+    267.0,
+    446.9
+   ],
+   "size": 8.8,
+   "testo": "magico per capire che ha qualcosa di straordinario, ma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    447.3,
+    232.4,
+    457.9
+   ],
+   "size": 8.8,
+   "testo": "conoscerne le proprietà non è così immediato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    458.3,
+    253.3,
+    468.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo identificare è il modo più veloce per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    469.3,
+    257.1,
+    479.9
+   ],
+   "size": 8.8,
+   "testo": "farlo. In alternativa, il personaggio può concentrarsi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    480.2,
+    263.5,
+    490.8
+   ],
+   "size": 8.8,
+   "testo": "su un oggetto magico durante un riposo breve mentre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    491.3,
+    278.6,
+    501.8
+   ],
+   "size": 8.8,
+   "testo": "mantiene il contatto fisico con esso. Al termine del riposo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    502.2,
+    270.4,
+    512.8
+   ],
+   "size": 8.8,
+   "testo": "conoscerà le sue caratteristiche e saprà come utilizzarle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    513.3,
+    263.8,
+    523.9
+   ],
+   "size": 8.8,
+   "testo": "(ciò non si applica a qualsiasi maledizione racchiusa al",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    524.3,
+    102.7,
+    534.9
+   ],
+   "size": 8.8,
+   "testo": "suo interno).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    535.3,
+    266.9,
+    545.9
+   ],
+   "size": 8.8,
+   "testo": "A volte, un oggetto magico presenta degli indizi sulle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    546.3,
+    277.5,
+    556.9
+   ],
+   "size": 8.8,
+   "testo": "sue proprietà. Per esempio, la parola d'ordine per attivare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    557.4,
+    259.1,
+    568.0
+   ],
+   "size": 8.8,
+   "testo": "un anello potrebbe essere incisa su di esso, così come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    568.3,
+    264.3,
+    578.9
+   ],
+   "size": 8.8,
+   "testo": "il simbolo di una piuma potrebbe indicare che si tratta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    579.3,
+    177.2,
+    589.8
+   ],
+   "size": 8.8,
+   "testo": "di un anello della caduta morbida.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    590.3,
+    249.0,
+    600.9
+   ],
+   "size": 8.8,
+   "testo": "Indossare l'oggetto o utilizzarlo per esperimenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    601.3,
+    253.9,
+    611.9
+   ],
+   "size": 8.8,
+   "testo": "potrebbe fornire ulteriori indizi sulle sue proprietà.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    612.4,
+    253.3,
+    623.0
+   ],
+   "size": 8.8,
+   "testo": "Le pozioni fanno eccezione: è sufficiente un piccolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    623.4,
+    267.4,
+    634.0
+   ],
+   "size": 8.8,
+   "testo": "assaggio per scoprirne l'effetto. Per altri oggetti potreb­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    634.4,
+    251.8,
+    645.0
+   ],
+   "size": 8.8,
+   "testo": "bero essere necessari più esperimenti. Per esempio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    645.4,
+    253.5,
+    656.0
+   ],
+   "size": 8.8,
+   "testo": "se il tuo personaggio indossa un anellodelnuotatore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    656.4,
+    263.7,
+    667.0
+   ],
+   "size": 8.8,
+   "testo": "il DM potrebbe dire \"Percepisci una strana fluidità nei",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    667.4,
+    267.5,
+    678.0
+   ],
+   "size": 8.8,
+   "testo": "tuoi movimenti\". A quel punto, il personaggio potrebbe",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    678.4,
+    271.1,
+    689.0
+   ],
+   "size": 8.8,
+   "testo": "decidere di tuffarsi in un fiume per vedere cosa succede,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    689.4,
+    256.5,
+    700.0
+   ],
+   "size": 8.8,
+   "testo": "con il DM che esclama \"Contro ogni tua aspettativa,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    700.3,
+    168.1,
+    710.9
+   ],
+   "size": 8.8,
+   "testo": "nuoti senza alcuna difficoltà\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    35.6,
+    368.4,
+    48.7
+   ],
+   "size": 9.7,
+   "testo": "SINTONIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    52.3,
+    525.4,
+    62.9
+   ],
+   "size": 8.8,
+   "testo": "Alcuni oggetti magici richiedono che la creatura entri in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    63.2,
+    529.2,
+    73.8
+   ],
+   "size": 8.8,
+   "testo": "sintonia con loro prima che possa utilizzarne le proprietà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    74.3,
+    525.4,
+    84.9
+   ],
+   "size": 8.8,
+   "testo": "magiche. Chi non entra in sintonia con un oggetto che la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    85.3,
+    527.2,
+    95.9
+   ],
+   "size": 8.8,
+   "testo": "richiede ne ottiene soltanto i benefici non magici, a meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    96.3,
+    503.8,
+    106.8
+   ],
+   "size": 8.8,
+   "testo": "che la sua descrizione non specifichi diversamente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    107.2,
+    511.0,
+    117.8
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, uno scudo magico che richiede sintonia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    118.2,
+    520.6,
+    128.8
+   ],
+   "size": 8.8,
+   "testo": "fornisce i benefici di uno scudo normale a una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    129.2,
+    531.7,
+    139.8
+   ],
+   "size": 8.8,
+   "testo": "che non sia in sintonia con esso, ma non le fornisce alcuna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    140.2,
+    415.0,
+    150.8
+   ],
+   "size": 8.8,
+   "testo": "delle sue proprietà magiche.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    160.6,
+    509.8,
+    172.0
+   ],
+   "size": 11.2,
+   "testo": "SINTONIA DURANTE UN RIPOSO BREVE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    172.2,
+    513.3,
+    182.8
+   ],
+   "size": 8.8,
+   "testo": "Per entrare in sintonia con un oggetto, il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    183.1,
+    521.2,
+    193.7
+   ],
+   "size": 8.8,
+   "testo": "deve spendere un riposo breve concentrandosi soltanto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    194.1,
+    515.2,
+    204.7
+   ],
+   "size": 8.8,
+   "testo": "su quell'oggetto e mantenendosi in contatto fisico con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    205.2,
+    515.5,
+    215.8
+   ],
+   "size": 8.8,
+   "testo": "esso (non può trattarsi dello stesso riposo breve usato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    216.2,
+    515.6,
+    226.8
+   ],
+   "size": 8.8,
+   "testo": "per apprenderne le proprietà). Questa concentrazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    227.2,
+    513.8,
+    237.8
+   ],
+   "size": 8.8,
+   "testo": "può esprimersi in una seduta di addestramento con le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    238.2,
+    523.0,
+    248.7
+   ],
+   "size": 8.8,
+   "testo": "armi (nel caso di un'arma), meditazione (nel caso di una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    249.2,
+    513.5,
+    259.8
+   ],
+   "size": 8.8,
+   "testo": "bacchetta) o un'altra attività appropriata. Se il riposo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    260.2,
+    514.1,
+    270.8
+   ],
+   "size": 8.8,
+   "testo": "breve viene interrotto, il tentativo di sintonia fallisce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    271.2,
+    513.0,
+    281.8
+   ],
+   "size": 8.8,
+   "testo": "Altrimenti, al termine del riposo breve il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.3,
+    282.3,
+    508.0,
+    292.9
+   ],
+   "size": 8.8,
+   "testo": "entra in sintonia con l'oggetto magico e acquisisce il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    293.3,
+    442.5,
+    303.9
+   ],
+   "size": 8.8,
+   "testo": "pieno controllo delle sue proprietà.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    313.6,
+    433.4,
+    325.0
+   ],
+   "size": 11.2,
+   "testo": "LIMITE DI TRE OGGETTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    325.1,
+    506.0,
+    335.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può essere in sintonia con non più di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    336.0,
+    514.6,
+    346.6
+   ],
+   "size": 8.8,
+   "testo": "tre oggetti magici alla volta. Ogni tentativo di entrare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    347.0,
+    520.4,
+    357.6
+   ],
+   "size": 8.8,
+   "testo": "in sintonia con un quarto oggetto fallisce: per riuscirci,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    358.0,
+    513.5,
+    368.6
+   ],
+   "size": 8.8,
+   "testo": "il personaggio deve prima porre fine alla sintonia con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    369.0,
+    532.3,
+    379.6
+   ],
+   "size": 8.8,
+   "testo": "uno degli altri oggetti. Inoltre, non può entrare in sintonia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    380.0,
+    527.9,
+    390.6
+   ],
+   "size": 8.8,
+   "testo": "con più di una copia di un determinato oggetto. Per esem­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    391.0,
+    515.3,
+    401.6
+   ],
+   "size": 8.8,
+   "testo": "pio, non può entrare in sintonia con più di un anello di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    402.1,
+    384.5,
+    412.7
+   ],
+   "size": 8.8,
+   "testo": "protezione alla volta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    422.5,
+    474.2,
+    433.8
+   ],
+   "size": 11.2,
+   "testo": "INTERRUZIONE DELLA SINTONIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    433.9,
+    516.0,
+    444.5
+   ],
+   "size": 8.8,
+   "testo": "La sintonia con un oggetto termina se il suo portatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    444.9,
+    513.7,
+    455.5
+   ],
+   "size": 8.8,
+   "testo": "non soddisfa più i prerequisiti di sintonia, se l'oggetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    455.9,
+    522.6,
+    466.4
+   ],
+   "size": 8.8,
+   "testo": "si trova a più di 30 metri di distanza per almeno 24 ore,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    466.8,
+    516.5,
+    477.4
+   ],
+   "size": 8.8,
+   "testo": "se il personaggio muore o se un'altra creatura entra in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    477.9,
+    515.7,
+    488.5
+   ],
+   "size": 8.8,
+   "testo": "sintonia con l'oggetto. Il personaggio può anche porre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    488.8,
+    525.8,
+    499.4
+   ],
+   "size": 8.8,
+   "testo": "fine volontariamente alla sintonia, completando un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    499.8,
+    512.7,
+    510.4
+   ],
+   "size": 8.8,
+   "testo": "riposo breve concentrandosi sull'oggetto, a meno che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    510.9,
+    428.1,
+    521.5
+   ],
+   "size": 8.8,
+   "testo": "quest'ultimo non sia maledetto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    530.9,
+    486.4,
+    544.0
+   ],
+   "size": 9.7,
+   "testo": "INDOSSARE E IMPUGNARE GLI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    545.9,
+    363.3,
+    559.0
+   ],
+   "size": 9.7,
+   "testo": "OGGETTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    562.6,
+    511.9,
+    573.1
+   ],
+   "size": 8.8,
+   "testo": "Per usare le proprietà di un oggetto magico potrebbe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    573.4,
+    517.8,
+    584.0
+   ],
+   "size": 8.8,
+   "testo": "essere necessario impugnarlo o indossarlo. Un oggetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    584.5,
+    508.5,
+    595.0
+   ],
+   "size": 8.8,
+   "testo": "magico deve essere indossato nel modo appropriato:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    595.6,
+    509.5,
+    606.1
+   ],
+   "size": 8.8,
+   "testo": "gli stivali vanno ai piedi, i guanti alle mani, i cappelli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    606.5,
+    512.7,
+    617.1
+   ],
+   "size": 8.8,
+   "testo": "e gli elmi sulla testa, e gli anelli alle dita. Le armature",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    617.6,
+    520.8,
+    628.2
+   ],
+   "size": 8.8,
+   "testo": "magiche devono essere indossate, uno scudo dev'essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    628.7,
+    527.9,
+    639.3
+   ],
+   "size": 8.8,
+   "testo": "legato al braccio, un mantello deve venire agganciato alle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    639.7,
+    454.0,
+    650.2
+   ],
+   "size": 8.8,
+   "testo": "spalle. Un'arma dev'essere impugnata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    650.7,
+    524.2,
+    661.3
+   ],
+   "size": 8.8,
+   "testo": "Nella maggior parte dei casi, un oggetto magico conce­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    661.6,
+    530.4,
+    672.2
+   ],
+   "size": 8.8,
+   "testo": "pito per essere indossato può \"calzare\" una creatura a pre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    672.7,
+    523.9,
+    683.3
+   ],
+   "size": 8.8,
+   "testo": "scindere dalla taglia o dalla corporatura di quest'ultima.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    683.7,
+    509.4,
+    694.3
+   ],
+   "size": 8.8,
+   "testo": "Gli abiti magici vengono creati per essere facilmente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    694.6,
+    512.2,
+    705.2
+   ],
+   "size": 8.8,
+   "testo": "modificabili o si adattano magicamente alla taglia del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    705.6,
+    345.3,
+    716.2
+   ],
+   "size": 8.8,
+   "testo": "portatore.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

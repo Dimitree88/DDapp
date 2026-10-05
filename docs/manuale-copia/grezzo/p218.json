@@ -1,0 +1,2844 @@
+{
+ "pagina_pdf": 218,
+ "pagina_stampata": 215,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 215",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    41.1,
+    22.1,
+    70.0,
+    32.7
+   ],
+   "size": 10.6,
+   "testo": "ARMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.8,
+    38.1,
+    70.9,
+    47.3
+   ],
+   "size": 8.2,
+   "testo": "Nome",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.3,
+    38.0,
+    155.7,
+    47.3
+   ],
+   "size": 8.2,
+   "testo": "Danni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.9,
+    38.0,
+    240.1,
+    47.2
+   ],
+   "size": 8.2,
+   "testo": "Proprietà",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.7,
+    37.9,
+    441.7,
+    47.1
+   ],
+   "size": 8.2,
+   "testo": "Padronanza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    478.1,
+    37.8,
+    497.8,
+    47.0
+   ],
+   "size": 8.2,
+   "testo": "Peso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    510.2,
+    37.8,
+    533.9,
+    47.0
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.6,
+    52.5,
+    140.5,
+    61.7
+   ],
+   "size": 9.2,
+   "testo": "Armi da Mischia Semplici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    66.6,
+    75.0,
+    76.2
+   ],
+   "size": 8.4,
+   "testo": "Ascia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    66.6,
+    179.6,
+    76.2
+   ],
+   "size": 8.4,
+   "testo": "1d6 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    66.6,
+    315.1,
+    76.2
+   ],
+   "size": 8.4,
+   "testo": "Lancio (gittata 6/18), leggera",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.6,
+    66.5,
+    439.8,
+    76.1
+   ],
+   "size": 8.4,
+   "testo": "Vessazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    66.3,
+    498.1,
+    76.0
+   ],
+   "size": 8.4,
+   "testo": "l kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.6,
+    66.3,
+    534.9,
+    76.0
+   ],
+   "size": 8.4,
+   "testo": "5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    81.2,
+    113.1,
+    90.8
+   ],
+   "size": 8.4,
+   "testo": "Bastone ferrato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    81.1,
+    194.8,
+    90.7
+   ],
+   "size": 8.4,
+   "testo": "1d6 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.0,
+    81.1,
+    260.1,
+    90.7
+   ],
+   "size": 8.4,
+   "testo": "Versatile (1d8)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.4,
+    81.0,
+    454.8,
+    90.6
+   ],
+   "size": 8.4,
+   "testo": "Rovesciamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.9,
+    80.9,
+    498.8,
+    90.6
+   ],
+   "size": 8.4,
+   "testo": "2 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.9,
+    80.9,
+    534.7,
+    90.5
+   ],
+   "size": 8.4,
+   "testo": "2 ma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    95.8,
+    84.8,
+    105.4
+   ],
+   "size": 8.4,
+   "testo": "Falcetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    95.6,
+    179.4,
+    105.2
+   ],
+   "size": 8.4,
+   "testo": "1d4 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    95.6,
+    235.2,
+    105.3
+   ],
+   "size": 8.4,
+   "testo": "Leggera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.8,
+    95.6,
+    423.2,
+    105.2
+   ],
+   "size": 8.4,
+   "testo": "Graffio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    95.4,
+    498.8,
+    105.1
+   ],
+   "size": 8.4,
+   "testo": "1 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.6,
+    95.4,
+    534.8,
+    105.1
+   ],
+   "size": 8.4,
+   "testo": "1 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    110.3,
+    95.8,
+    120.0
+   ],
+   "size": 8.4,
+   "testo": "Giavellotto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    110.2,
+    186.6,
+    119.8
+   ],
+   "size": 8.4,
+   "testo": "1 d6 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.0,
+    110.3,
+    282.9,
+    119.9
+   ],
+   "size": 8.4,
+   "testo": "Lancio (gittata 9/36)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.4,
+    110.2,
+    431.0,
+    119.8
+   ],
+   "size": 8.4,
+   "testo": "Lentezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    110.0,
+    498.8,
+    119.6
+   ],
+   "size": 8.4,
+   "testo": "1 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    514.1,
+    110.0,
+    534.7,
+    119.7
+   ],
+   "size": 8.4,
+   "testo": "5 ma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    124.9,
+    79.5,
+    134.5
+   ],
+   "size": 8.4,
+   "testo": "Lancia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    124.8,
+    186.6,
+    134.5
+   ],
+   "size": 8.4,
+   "testo": "1d6 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.9,
+    124.9,
+    341.2,
+    134.5
+   ],
+   "size": 8.4,
+   "testo": "Lancio (gittata 6/18), versatile (1d8)",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.4,
+    124.8,
+    458.7,
+    134.4
+   ],
+   "size": 8.4,
+   "testo": "Prosciugamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    474.4,
+    124.7,
+    498.2,
+    134.3
+   ],
+   "size": 8.4,
+   "testo": "l,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.6,
+    124.7,
+    534.8,
+    134.3
+   ],
+   "size": 8.4,
+   "testo": "1 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    139.4,
+    116.8,
+    149.1
+   ],
+   "size": 8.4,
+   "testo": "Martello leggero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    139.4,
+    194.7,
+    149.0
+   ],
+   "size": 8.4,
+   "testo": "1d4 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    139.5,
+    315.1,
+    149.1
+   ],
+   "size": 8.4,
+   "testo": "Lancio (gittata 6/18), leggera",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.8,
+    139.3,
+    423.2,
+    149.0
+   ],
+   "size": 8.4,
+   "testo": "Graffio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    139.1,
+    498.8,
+    148.8
+   ],
+   "size": 8.4,
+   "testo": "1 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.3,
+    139.2,
+    534.0,
+    148.8
+   ],
+   "size": 8.4,
+   "testo": "2 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    154.1,
+    80.0,
+    163.8
+   ],
+   "size": 8.4,
+   "testo": "Mazza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    154.0,
+    194.5,
+    163.7
+   ],
+   "size": 8.4,
+   "testo": "1d6 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.4,
+    154.0,
+    458.9,
+    163.6
+   ],
+   "size": 8.4,
+   "testo": "Prosciugamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.9,
+    153.9,
+    498.8,
+    163.5
+   ],
+   "size": 8.4,
+   "testo": "2 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.5,
+    153.8,
+    534.8,
+    163.4
+   ],
+   "size": 8.4,
+   "testo": "5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    168.7,
+    85.6,
+    178.3
+   ],
+   "size": 8.4,
+   "testo": "Pugnale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    168.6,
+    186.4,
+    178.3
+   ],
+   "size": 8.4,
+   "testo": "1d4 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.0,
+    168.7,
+    350.5,
+    178.3
+   ],
+   "size": 8.4,
+   "testo": "Accurata, lancio (gittata 6/18), leggera",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.8,
+    168.6,
+    423.2,
+    178.2
+   ],
+   "size": 8.4,
+   "testo": "Graffio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    473.7,
+    168.4,
+    498.8,
+    178.0
+   ],
+   "size": 8.4,
+   "testo": "O,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.3,
+    168.4,
+    534.0,
+    178.1
+   ],
+   "size": 8.4,
+   "testo": "2 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    183.4,
+    119.9,
+    193.0
+   ],
+   "size": 8.4,
+   "testo": "Randello pesante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    183.3,
+    194.5,
+    192.9
+   ],
+   "size": 8.4,
+   "testo": "1d8 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.1,
+    183.3,
+    242.7,
+    192.9
+   ],
+   "size": 8.4,
+   "testo": "Due mani",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.0,
+    183.2,
+    421.2,
+    192.8
+   ],
+   "size": 8.4,
+   "testo": "Spinta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.0,
+    183.1,
+    498.8,
+    192.8
+   ],
+   "size": 8.4,
+   "testo": "s kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.9,
+    183.0,
+    534.7,
+    192.6
+   ],
+   "size": 8.4,
+   "testo": "2 ma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    197.9,
+    88.2,
+    207.6
+   ],
+   "size": 8.4,
+   "testo": "Randello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    197.9,
+    194.9,
+    207.5
+   ],
+   "size": 8.4,
+   "testo": "1d4 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    197.9,
+    235.2,
+    207.5
+   ],
+   "size": 8.4,
+   "testo": "Leggera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.5,
+    197.8,
+    430.7,
+    207.4
+   ],
+   "size": 8.4,
+   "testo": "Lentezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.0,
+    197.6,
+    498.8,
+    207.3
+   ],
+   "size": 8.4,
+   "testo": "1 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    514.1,
+    197.7,
+    534.4,
+    207.3
+   ],
+   "size": 8.4,
+   "testo": "1 ma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.6,
+    213.0,
+    140.3,
+    222.2
+   ],
+   "size": 9.2,
+   "testo": "Armi a Distanza Semplici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    227.2,
+    94.2,
+    236.8
+   ],
+   "size": 8.4,
+   "testo": "Arco corto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    227.1,
+    186.5,
+    236.7
+   ],
+   "size": 8.4,
+   "testo": "1 d6 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.0,
+    227.1,
+    371.5,
+    236.7
+   ],
+   "size": 8.4,
+   "testo": "Due mani, munizioni (gittata 24/96; freccia)",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.6,
+    227.0,
+    439.6,
+    236.6
+   ],
+   "size": 8.4,
+   "testo": "Vessazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    226.9,
+    498.6,
+    236.5
+   ],
+   "size": 8.4,
+   "testo": "l kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.7,
+    226.8,
+    534.8,
+    236.4
+   ],
+   "size": 8.4,
+   "testo": "25 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    241.7,
+    115.2,
+    251.3
+   ],
+   "size": 8.4,
+   "testo": "Balestra leggera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    241.6,
+    186.5,
+    251.2
+   ],
+   "size": 8.4,
+   "testo": "1d8 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.9,
+    241.7,
+    385.3,
+    251.3
+   ],
+   "size": 8.4,
+   "testo": "Due mani, munizioni (gittata 24/96; quadrello),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.3,
+    241.5,
+    430.9,
+    251.1
+   ],
+   "size": 8.4,
+   "testo": "Lentezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    473.5,
+    241.4,
+    498.6,
+    251.0
+   ],
+   "size": 8.4,
+   "testo": "2,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.7,
+    241.4,
+    534.8,
+    251.1
+   ],
+   "size": 8.4,
+   "testo": "25 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    203.4,
+    253.6,
+    233.2,
+    263.3
+   ],
+   "size": 8.4,
+   "testo": "ricarica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    268.4,
+    78.7,
+    278.0
+   ],
+   "size": 8.4,
+   "testo": "Dardo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    268.3,
+    186.6,
+    277.9
+   ],
+   "size": 8.4,
+   "testo": "1d4 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.8,
+    268.4,
+    317.2,
+    278.0
+   ],
+   "size": 8.4,
+   "testo": "Accurata, lancio (gittata 6/18)",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.6,
+    268.2,
+    439.6,
+    277.8
+   ],
+   "size": 8.4,
+   "testo": "Vessazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.3,
+    268.0,
+    498.8,
+    277.7
+   ],
+   "size": 8.4,
+   "testo": "0,125 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    515.3,
+    268.0,
+    534.7,
+    277.6
+   ],
+   "size": 8.4,
+   "testo": "5 mr",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    283.0,
+    81.0,
+    292.6
+   ],
+   "size": 8.4,
+   "testo": "Fionda",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    282.9,
+    194.5,
+    292.5
+   ],
+   "size": 8.4,
+   "testo": "1d4 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    282.9,
+    334.3,
+    292.5
+   ],
+   "size": 8.4,
+   "testo": "Munizioni (gittata 9/36; proiettile)",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.3,
+    282.8,
+    431.0,
+    292.4
+   ],
+   "size": 8.4,
+   "testo": "Lentezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    514.1,
+    282.6,
+    534.3,
+    292.3
+   ],
+   "size": 8.4,
+   "testo": "1 ma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.6,
+    298.1,
+    142.8,
+    307.3
+   ],
+   "size": 9.2,
+   "testo": "Armi da mischia da guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    312.1,
+    88.3,
+    321.7
+   ],
+   "size": 8.4,
+   "testo": "Alabarda",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    312.1,
+    183.5,
+    321.7
+   ],
+   "size": 8.4,
+   "testo": "1d10 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    312.0,
+    309.5,
+    321.7
+   ],
+   "size": 8.4,
+   "testo": "Due mani, pesante, portata",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.4,
+    311.9,
+    461.2,
+    321.6
+   ],
+   "size": 8.4,
+   "testo": "Doppio fendente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.9,
+    311.9,
+    498.6,
+    321.5
+   ],
+   "size": 8.4,
+   "testo": "3 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.6,
+    311.8,
+    534.8,
+    321.4
+   ],
+   "size": 8.4,
+   "testo": "20 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    326.6,
+    108.3,
+    336.3
+   ],
+   "size": 8.4,
+   "testo": "Ascia bipenne",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    326.6,
+    183.2,
+    336.2
+   ],
+   "size": 8.4,
+   "testo": "1d12 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    326.6,
+    277.1,
+    336.2
+   ],
+   "size": 8.4,
+   "testo": "Due mani, pesante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.4,
+    326.4,
+    461.2,
+    336.1
+   ],
+   "size": 8.4,
+   "testo": "Doppio fendente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    473.9,
+    326.4,
+    498.8,
+    336.0
+   ],
+   "size": 8.4,
+   "testo": "3,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.7,
+    326.3,
+    534.8,
+    335.9
+   ],
+   "size": 8.4,
+   "testo": "30 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    341.2,
+    121.7,
+    350.8
+   ],
+   "size": 8.4,
+   "testo": "Ascia da battaglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.3,
+    341.1,
+    179.3,
+    350.7
+   ],
+   "size": 8.4,
+   "testo": "1d8 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.8,
+    341.1,
+    263.4,
+    350.8
+   ],
+   "size": 8.4,
+   "testo": "Versatile (1d10)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.4,
+    341.0,
+    454.8,
+    350.6
+   ],
+   "size": 8.4,
+   "testo": "Rovesciamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.8,
+    340.9,
+    498.6,
+    350.5
+   ],
+   "size": 8.4,
+   "testo": "2 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.6,
+    340.9,
+    534.8,
+    350.5
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    355.8,
+    86.8,
+    365.4
+   ],
+   "size": 8.4,
+   "testo": "Falcione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    355.7,
+    183.8,
+    365.3
+   ],
+   "size": 8.4,
+   "testo": "1d10 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    355.7,
+    309.5,
+    365.3
+   ],
+   "size": 8.4,
+   "testo": "Due mani, pesante, portata",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.8,
+    355.5,
+    459.4,
+    365.2
+   ],
+   "size": 8.4,
+   "testo": "Colpo di Striscio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.9,
+    355.5,
+    498.8,
+    365.1
+   ],
+   "size": 8.4,
+   "testo": "3 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.6,
+    355.4,
+    534.8,
+    365.0
+   ],
+   "size": 8.4,
+   "testo": "20 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    370.3,
+    78.5,
+    379.9
+   ],
+   "size": 8.4,
+   "testo": "Frusta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    370.1,
+    179.3,
+    379.8
+   ],
+   "size": 8.4,
+   "testo": "1d4 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.8,
+    370.2,
+    271.1,
+    379.9
+   ],
+   "size": 8.4,
+   "testo": "Accurata, portata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.3,
+    370.1,
+    431.0,
+    379.7
+   ],
+   "size": 8.4,
+   "testo": "Lentezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    474.3,
+    369.9,
+    498.8,
+    379.6
+   ],
+   "size": 8.4,
+   "testo": "l ,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.3,
+    370.0,
+    534.8,
+    379.6
+   ],
+   "size": 8.4,
+   "testo": "2 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    384.9,
+    123.8,
+    394.6
+   ],
+   "size": 8.4,
+   "testo": "Lancia da cavaliere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    384.8,
+    190.6,
+    394.5
+   ],
+   "size": 8.4,
+   "testo": "1d10 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.9,
+    384.9,
+    374.3,
+    394.5
+   ],
+   "size": 8.4,
+   "testo": "Due mani (eccetto in sella), pesante, portata",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.3,
+    384.7,
+    454.7,
+    394.4
+   ],
+   "size": 8.4,
+   "testo": "Rovesciamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.9,
+    384.6,
+    498.1,
+    394.2
+   ],
+   "size": 8.4,
+   "testo": "3 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.2,
+    384.6,
+    534.8,
+    394.2
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    399.5,
+    81.2,
+    409.1
+   ],
+   "size": 8.4,
+   "testo": "Maglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    130.7,
+    399.5,
+    194.9,
+    409.1
+   ],
+   "size": 8.4,
+   "testo": "2d6 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.1,
+    399.5,
+    277.1,
+    409.1
+   ],
+   "size": 8.4,
+   "testo": "Due mani, pesante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.3,
+    399.3,
+    454.3,
+    408.9
+   ],
+   "size": 8.4,
+   "testo": "Rovesciamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.0,
+    399.3,
+    498.8,
+    408.9
+   ],
+   "size": 8.4,
+   "testo": "s kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.5,
+    399.1,
+    534.8,
+    408.7
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    414.1,
+    194.7,
+    423.8
+   ],
+   "size": 8.4,
+   "testo": "Martello da guerra 1d8 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.8,
+    414.1,
+    263.4,
+    423.7
+   ],
+   "size": 8.4,
+   "testo": "Versatile (1d10)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.0,
+    414.0,
+    421.2,
+    423.6
+   ],
+   "size": 8.4,
+   "testo": "Spinta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    474.1,
+    413.9,
+    498.8,
+    423.5
+   ],
+   "size": 8.4,
+   "testo": "2,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.5,
+    413.8,
+    534.8,
+    423.5
+   ],
+   "size": 8.4,
+   "testo": "l 5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    428.7,
+    114.7,
+    438.4
+   ],
+   "size": 8.4,
+   "testo": "Mazza chiodata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    428.7,
+    186.5,
+    438.3
+   ],
+   "size": 8.4,
+   "testo": "1d8 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.4,
+    428.5,
+    458.8,
+    438.2
+   ],
+   "size": 8.4,
+   "testo": "Prosciugamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.8,
+    428.4,
+    498.3,
+    438.1
+   ],
+   "size": 8.4,
+   "testo": "2 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.5,
+    428.4,
+    534.2,
+    438.0
+   ],
+   "size": 8.4,
+   "testo": "l 5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    443.2,
+    102.3,
+    452.9
+   ],
+   "size": 8.4,
+   "testo": "Mazzafrusto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    443.2,
+    194.6,
+    452.9
+   ],
+   "size": 8.4,
+   "testo": "1d8 contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.3,
+    443.0,
+    458.8,
+    452.7
+   ],
+   "size": 8.4,
+   "testo": "Prosciugamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.0,
+    443.0,
+    498.6,
+    452.6
+   ],
+   "size": 8.4,
+   "testo": "1 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.6,
+    442.9,
+    534.8,
+    452.5
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    457.8,
+    74.5,
+    467.5
+   ],
+   "size": 8.4,
+   "testo": "Picca",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    457.7,
+    190.5,
+    467.4
+   ],
+   "size": 8.4,
+   "testo": "1 d1 O perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.9,
+    457.8,
+    309.5,
+    467.5
+   ],
+   "size": 8.4,
+   "testo": "Due mani, pesante, portata",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.0,
+    457.7,
+    421.2,
+    467.3
+   ],
+   "size": 8.4,
+   "testo": "Spinta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.6,
+    457.6,
+    498.6,
+    467.2
+   ],
+   "size": 8.4,
+   "testo": "9 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.5,
+    457.5,
+    534.8,
+    467.1
+   ],
+   "size": 8.4,
+   "testo": "5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    472.4,
+    93.0,
+    482.0
+   ],
+   "size": 8.4,
+   "testo": "Scimitarra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    472.3,
+    179.4,
+    481.9
+   ],
+   "size": 8.4,
+   "testo": "1 d6 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.8,
+    472.3,
+    271.0,
+    482.0
+   ],
+   "size": 8.4,
+   "testo": "Accurata, leggera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    394.8,
+    472.2,
+    423.2,
+    481.9
+   ],
+   "size": 8.4,
+   "testo": "Graffio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    474.3,
+    472.1,
+    498.6,
+    481.7
+   ],
+   "size": 8.4,
+   "testo": "l , 5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.7,
+    472.0,
+    534.8,
+    481.6
+   ],
+   "size": 8.4,
+   "testo": "25 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    486.9,
+    99.7,
+    496.6
+   ],
+   "size": 8.4,
+   "testo": "Spada corta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    486.9,
+    186.5,
+    496.5
+   ],
+   "size": 8.4,
+   "testo": "1d6 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.8,
+    486.9,
+    270.9,
+    496.6
+   ],
+   "size": 8.4,
+   "testo": "Accurata, leggera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    394.6,
+    486.7,
+    439.6,
+    496.4
+   ],
+   "size": 8.4,
+   "testo": "Vessazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.0,
+    486.6,
+    498.8,
+    496.2
+   ],
+   "size": 8.4,
+   "testo": "1 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.5,
+    486.6,
+    534.8,
+    496.2
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    501.6,
+    101.4,
+    511.2
+   ],
+   "size": 8.4,
+   "testo": "Spada lunga",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    501.5,
+    179.3,
+    511.1
+   ],
+   "size": 8.4,
+   "testo": "1d8 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.8,
+    501.6,
+    263.5,
+    511.2
+   ],
+   "size": 8.4,
+   "testo": "Versatile (1d10)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.4,
+    501.4,
+    458.7,
+    511.0
+   ],
+   "size": 8.4,
+   "testo": "Prosciugamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    474.4,
+    501.3,
+    498.2,
+    510.9
+   ],
+   "size": 8.4,
+   "testo": "l ,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.5,
+    501.2,
+    534.8,
+    510.8
+   ],
+   "size": 8.4,
+   "testo": "l 5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    516.2,
+    88.4,
+    525.9
+   ],
+   "size": 8.4,
+   "testo": "Spadone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    130.7,
+    516.1,
+    179.7,
+    525.8
+   ],
+   "size": 8.4,
+   "testo": "2d6 taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.0,
+    516.1,
+    277.1,
+    525.8
+   ],
+   "size": 8.4,
+   "testo": "Due mani, pesante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.3,
+    516.0,
+    458.9,
+    525.6
+   ],
+   "size": 8.4,
+   "testo": "Colpo di striscio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.0,
+    515.9,
+    498.8,
+    525.5
+   ],
+   "size": 8.4,
+   "testo": "3 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.7,
+    515.8,
+    534.8,
+    525.5
+   ],
+   "size": 8.4,
+   "testo": "50 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    530.8,
+    80.0,
+    540.5
+   ],
+   "size": 8.4,
+   "testo": "Stocco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    530.6,
+    186.5,
+    540.3
+   ],
+   "size": 8.4,
+   "testo": "1d8 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    202.8,
+    530.8,
+    238.6,
+    540.4
+   ],
+   "size": 8.4,
+   "testo": "Accurata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.6,
+    530.6,
+    439.8,
+    540.2
+   ],
+   "size": 8.4,
+   "testo": "Vessazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    530.4,
+    498.8,
+    540.1
+   ],
+   "size": 8.4,
+   "testo": "1 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.7,
+    530.4,
+    534.8,
+    540.1
+   ],
+   "size": 8.4,
+   "testo": "25 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    545.4,
+    86.1,
+    555.0
+   ],
+   "size": 8.4,
+   "testo": "Tridente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    545.3,
+    186.5,
+    554.9
+   ],
+   "size": 8.4,
+   "testo": "1d8 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.0,
+    545.3,
+    344.7,
+    554.9
+   ],
+   "size": 8.4,
+   "testo": "Lancio (gittata 6/18), versatile (1d10)",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    395.4,
+    545.2,
+    454.6,
+    554.8
+   ],
+   "size": 8.4,
+   "testo": "Rovesciamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.9,
+    545.0,
+    498.2,
+    554.7
+   ],
+   "size": 8.4,
+   "testo": "2 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.5,
+    545.0,
+    534.8,
+    554.6
+   ],
+   "size": 8.4,
+   "testo": "5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    559.9,
+    122.5,
+    569.6
+   ],
+   "size": 8.4,
+   "testo": "Piccone da guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.1,
+    559.8,
+    186.6,
+    569.4
+   ],
+   "size": 8.4,
+   "testo": "1d8 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.0,
+    559.8,
+    263.4,
+    569.4
+   ],
+   "size": 8.4,
+   "testo": "Versatile (1d10)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.4,
+    559.7,
+    458.9,
+    569.3
+   ],
+   "size": 8.4,
+   "testo": "Prosciugamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    559.5,
+    498.8,
+    569.1
+   ],
+   "size": 8.4,
+   "testo": "l kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    513.5,
+    559.5,
+    534.8,
+    569.1
+   ],
+   "size": 8.4,
+   "testo": "5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.6,
+    575.0,
+    141.1,
+    584.2
+   ],
+   "size": 9.2,
+   "testo": "Armi a distanza da guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    589.0,
+    95.4,
+    598.7
+   ],
+   "size": 8.4,
+   "testo": "Arco lungo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    589.0,
+    186.5,
+    598.6
+   ],
+   "size": 8.4,
+   "testo": "1 d8 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.0,
+    589.0,
+    378.9,
+    598.6
+   ],
+   "size": 8.4,
+   "testo": "Due mani, munizioni (gittata 45/180; freccia),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.4,
+    588.8,
+    431.0,
+    598.4
+   ],
+   "size": 8.4,
+   "testo": "Lentezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    588.7,
+    498.8,
+    598.3
+   ],
+   "size": 8.4,
+   "testo": "l kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.8,
+    588.7,
+    534.9,
+    598.3
+   ],
+   "size": 8.4,
+   "testo": "50 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    203.4,
+    601.0,
+    235.3,
+    610.6
+   ],
+   "size": 8.4,
+   "testo": "pesante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    615.8,
+    116.6,
+    625.4
+   ],
+   "size": 8.4,
+   "testo": "Balestra a mano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.4,
+    615.7,
+    186.6,
+    625.3
+   ],
+   "size": 8.4,
+   "testo": "1d6 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    615.7,
+    373.7,
+    625.3
+   ],
+   "size": 8.4,
+   "testo": "Leggera, munizioni (gittata 9/36; quadrello),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    394.6,
+    615.6,
+    439.7,
+    625.2
+   ],
+   "size": 8.4,
+   "testo": "Vessazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    474.4,
+    615.5,
+    498.7,
+    625.1
+   ],
+   "size": 8.4,
+   "testo": "l , 5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.2,
+    615.4,
+    534.9,
+    625.0
+   ],
+   "size": 8.4,
+   "testo": "75 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    203.6,
+    627.7,
+    233.1,
+    637.3
+   ],
+   "size": 8.4,
+   "testo": "ricarica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    642.4,
+    117.6,
+    652.0
+   ],
+   "size": 8.4,
+   "testo": "Balestra pesante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.1,
+    642.3,
+    190.6,
+    651.9
+   ],
+   "size": 8.4,
+   "testo": "1d10 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.0,
+    642.1,
+    421.4,
+    651.9
+   ],
+   "size": 8.4,
+   "testo": "Due mani, munizioni (gittata 30/120; quadrello), Spinta",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    480.8,
+    642.1,
+    498.7,
+    651.7
+   ],
+   "size": 8.4,
+   "testo": "9 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.8,
+    642.0,
+    534.9,
+    651.6
+   ],
+   "size": 8.4,
+   "testo": "50 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    203.4,
+    654.3,
+    267.7,
+    663.9
+   ],
+   "size": 8.4,
+   "testo": "pesante, ricarica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    668.9,
+    97.4,
+    678.5
+   ],
+   "size": 8.4,
+   "testo": "Cerbottana",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.1,
+    668.8,
+    179.6,
+    678.5
+   ],
+   "size": 8.4,
+   "testo": "1 perforante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.7,
+    668.8,
+    347.1,
+    678.4
+   ],
+   "size": 8.4,
+   "testo": "Munizioni (gittata 7/30; ago), ricarica",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.6,
+    668.6,
+    439.7,
+    678.3
+   ],
+   "size": 8.4,
+   "testo": "Vessazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    473.7,
+    668.5,
+    498.7,
+    678.1
+   ],
+   "size": 8.4,
+   "testo": "O,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.7,
+    668.5,
+    534.9,
+    678.1
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    683.5,
+    95.7,
+    693.1
+   ],
+   "size": 8.4,
+   "testo": "Moschetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.1,
+    683.4,
+    190.2,
+    693.0
+   ],
+   "size": 8.4,
+   "testo": "1d12 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    204.1,
+    683.4,
+    383.9,
+    693.0
+   ],
+   "size": 8.4,
+   "testo": "Due mani, munizioni (gittata 12/36; proiettile),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    395.4,
+    683.2,
+    431.1,
+    692.9
+   ],
+   "size": 8.4,
+   "testo": "Lentezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    481.1,
+    683.1,
+    534.9,
+    692.8
+   ],
+   "size": 8.4,
+   "testo": "s kg SOO mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    203.6,
+    695.4,
+    233.3,
+    705.0
+   ],
+   "size": 8.4,
+   "testo": "ricarica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    710.0,
+    80.8,
+    719.7
+   ],
+   "size": 8.4,
+   "testo": "Pistola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.1,
+    709.9,
+    190.7,
+    719.6
+   ],
+   "size": 8.4,
+   "testo": "1d10 perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    203.8,
+    709.9,
+    367.3,
+    719.6
+   ],
+   "size": 8.4,
+   "testo": "Munizioni (gittata 9/27; proiettile), ricarica",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.7,
+    709.8,
+    439.7,
+    719.4
+   ],
+   "size": 8.4,
+   "testo": "Vessazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    474.5,
+    709.6,
+    534.9,
+    719.3
+   ],
+   "size": 8.4,
+   "testo": "l,5 kg 2SO mo",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

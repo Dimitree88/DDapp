@@ -1,0 +1,1453 @@
+{
+ "pagina_pdf": 236,
+ "pagina_stampata": 233,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 233",
+ "immagini": [
+  [
+   307,
+   570,
+   537,
+   630
+  ],
+  [
+   297,
+   635,
+   414,
+   734
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.7,
+    38.8,
+    234.8,
+    50.2
+   ],
+   "size": 11.2,
+   "testo": "PIÙ OGGETTI DELLO STESSO TIPO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    50.4,
+    265.9,
+    60.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio non può indossare più di un esemplare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    61.3,
+    275.9,
+    71.9
+   ],
+   "size": 8.8,
+   "testo": "di certi oggetti magici. Normalmente non può indossare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    72.3,
+    267.0,
+    82.8
+   ],
+   "size": 8.8,
+   "testo": "più di un paio di calzature, un paio di guanti (normali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    83.2,
+    282.5,
+    93.8
+   ],
+   "size": 8.8,
+   "testo": "o d'arme), un paio di bracciali, un'armatura, un copricapo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    94.2,
+    266.4,
+    104.8
+   ],
+   "size": 8.8,
+   "testo": "o un mantello. Eventuali eccezioni sono a discrezione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    105.2,
+    88.8,
+    115.8
+   ],
+   "size": 8.8,
+   "testo": "del DM.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    125.5,
+    164.5,
+    136.8
+   ],
+   "size": 11.2,
+   "testo": "OGGETTI IN COPPIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    137.0,
+    284.9,
+    147.6
+   ],
+   "size": 8.8,
+   "testo": "Gli oggetti fabbricati in coppia (come gli stivali, i bracciali,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    148.1,
+    259.4,
+    158.6
+   ],
+   "size": 8.8,
+   "testo": "i guanti d'arme e i guanti) permettono di sfruttarne",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    159.2,
+    270.9,
+    169.7
+   ],
+   "size": 8.8,
+   "testo": "i benefici soltanto se entrambi gli elementi della coppia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    170.1,
+    260.5,
+    180.7
+   ],
+   "size": 8.8,
+   "testo": "vengono indossati. Per esempio, un personaggio che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    181.2,
+    264.9,
+    191.8
+   ],
+   "size": 8.8,
+   "testo": "indossa uno stivale molleggiato a un piede e uno stivale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    192.2,
+    260.0,
+    202.7
+   ],
+   "size": 8.8,
+   "testo": "elfico all'altro non trae beneficio da nessuno dei due.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    213.0,
+    286.1,
+    229.7
+   ],
+   "size": 12.9,
+   "testo": "CREARE EQUIPAGGIAMENTO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    231.2,
+    278.0,
+    241.7
+   ],
+   "size": 8.8,
+   "testo": "Usando le regole sottostanti, i personaggi possono realiz­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    242.2,
+    279.4,
+    252.7
+   ],
+   "size": 8.8,
+   "testo": "zare oggetti non magici, pozionidiguarigione e pergamene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    254.1,
+    89.5,
+    263.5
+   ],
+   "size": 8.6,
+   "testo": "magiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    273.3,
+    252.0,
+    286.4
+   ],
+   "size": 9.7,
+   "testo": "CREARE OGGETTI NON MAGICI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    289.8,
+    268.0,
+    300.4
+   ],
+   "size": 8.8,
+   "testo": "Per creare un oggetto non magico sono necessari stru­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    300.9,
+    269.5,
+    311.4
+   ],
+   "size": 8.8,
+   "testo": "menti, materie prime e tempo, di cui troverai maggiori",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    311.8,
+    273.6,
+    322.4
+   ],
+   "size": 8.8,
+   "testo": "dettagli di seguito. Se il personaggio soddisfa i prerequi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    322.8,
+    283.7,
+    333.4
+   ],
+   "size": 8.8,
+   "testo": "siti, può creare l'oggetto, utilizzarlo o venderlo al normale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    333.8,
+    120.3,
+    344.4
+   ],
+   "size": 8.8,
+   "testo": "prezzo indicato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    354.0,
+    118.7,
+    365.4
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    365.5,
+    282.0,
+    376.1
+   ],
+   "size": 8.8,
+   "testo": "Nella sezione \"Strumenti\" di questo capitolo sono indicati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    376.5,
+    280.8,
+    387.1
+   ],
+   "size": 8.8,
+   "testo": "quelli con cui realizzare determinati oggetti. Se non sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    387.6,
+    265.2,
+    398.1
+   ],
+   "size": 8.8,
+   "testo": "presenti nell'elenco, sarà il DM a determinare gli stru­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    398.6,
+    195.2,
+    409.1
+   ],
+   "size": 8.8,
+   "testo": "menti necessari alla loro creazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    409.7,
+    272.4,
+    420.2
+   ],
+   "size": 8.8,
+   "testo": "Per creare un oggetto, il personaggio deve avere com­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    420.7,
+    278.4,
+    431.2
+   ],
+   "size": 8.8,
+   "testo": "petenza nello strumento richiesto, oltre ad averlo con sé.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    431.7,
+    264.0,
+    442.2
+   ],
+   "size": 8.8,
+   "testo": "Chiunque lo aiuti deve avere competenza a sua volta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    451.8,
+    142.6,
+    463.1
+   ],
+   "size": 11.2,
+   "testo": "MATERIE PRIME",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    463.4,
+    273.7,
+    473.9
+   ],
+   "size": 8.8,
+   "testo": "Per creare un oggetto servono materie prime del valore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    474.4,
+    258.2,
+    485.0
+   ],
+   "size": 8.8,
+   "testo": "pari alla metà del suo costo d'acquisto (arrotondato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    485.4,
+    261.7,
+    495.9
+   ],
+   "size": 8.8,
+   "testo": "per difetto). Per esempio, servono 750 mo di materie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    496.5,
+    270.4,
+    507.0
+   ],
+   "size": 8.8,
+   "testo": "prime per realizzare un'armatura a piastre, il cui costo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    507.5,
+    264.2,
+    518.1
+   ],
+   "size": 8.8,
+   "testo": "è di 1.500 mo. Sarà il DM a determinare se le materie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    518.5,
+    225.2,
+    529.0
+   ],
+   "size": 8.8,
+   "testo": "prime appropriate sono disponibili o meno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    538.7,
+    94.5,
+    550.0
+   ],
+   "size": 11.2,
+   "testo": "TEMPO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    550.3,
+    271.9,
+    560.8
+   ],
+   "size": 8.8,
+   "testo": "Per determinare quanti giorni sono richiesti per creare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    561.2,
+    258.3,
+    571.8
+   ],
+   "size": 8.8,
+   "testo": "un oggetto (lavorando 8 ore al giorno), è necessario",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.3,
+    572.3,
+    272.1,
+    582.8
+   ],
+   "size": 8.8,
+   "testo": "dividere il costo d'acquisto in mo per 10 (arrotondando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    583.3,
+    259.9,
+    593.9
+   ],
+   "size": 8.8,
+   "testo": "le frazioni fino a un giorno). Per esempio, la balestra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    594.2,
+    253.8,
+    604.8
+   ],
+   "size": 8.8,
+   "testo": "pesante vale 50 mo, quindi sono necessari 5 giorni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    605.2,
+    102.1,
+    615.8
+   ],
+   "size": 8.8,
+   "testo": "per crearla.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    616.5,
+    277.5,
+    627.0
+   ],
+   "size": 8.8,
+   "testo": "Se per realizzare un oggetto sono necessari più giorni,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    627.4,
+    242.3,
+    638.0
+   ],
+   "size": 8.8,
+   "testo": "questi non devono per forza essere consecutivi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    638.4,
+    263.9,
+    649.0
+   ],
+   "size": 8.8,
+   "testo": "Se i personaggi uniscono le forze, il tempo di realiz­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    649.4,
+    266.1,
+    660.0
+   ],
+   "size": 8.8,
+   "testo": "zazione si riduce. A tal fine, dividi il tempo necessario",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    660.4,
+    267.3,
+    671.0
+   ],
+   "size": 8.8,
+   "testo": "per creare un oggetto per il numero di personaggi che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    671.4,
+    280.4,
+    681.9
+   ],
+   "size": 8.8,
+   "testo": "ci stanno lavorando. In genere, è possibile ricevere l'aiuto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    682.4,
+    259.5,
+    693.0
+   ],
+   "size": 8.8,
+   "testo": "di un solo personaggio per volta, ma il DM potrebbe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    693.3,
+    211.7,
+    703.9
+   ],
+   "size": 8.8,
+   "testo": "consentire l'intervento di più assistenti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    39.1,
+    443.2,
+    52.2
+   ],
+   "size": 9.7,
+   "testo": "REALIZZARE POZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    54.2,
+    407.3,
+    67.3
+   ],
+   "size": 9.7,
+   "testo": "DI GUARIGIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    70.7,
+    520.2,
+    81.3
+   ],
+   "size": 8.8,
+   "testo": "Se un personaggio ha competenza nella borsa da erbo­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    81.7,
+    514.2,
+    92.3
+   ],
+   "size": 8.8,
+   "testo": "rista, può creare una pozione diguarigione. A tal fine,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    92.6,
+    530.2,
+    103.2
+   ],
+   "size": 8.8,
+   "testo": "è necessario utilizzare la borsa e 25 mo di materie prime",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    103.7,
+    455.9,
+    114.2
+   ],
+   "size": 8.8,
+   "testo": "nel corso di 1 giorno (8 ore di lavoro).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    123.7,
+    535.8,
+    136.8
+   ],
+   "size": 9.7,
+   "testo": "TRASCRIVERE PERGAMENE MAGICHE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    140.2,
+    522.1,
+    150.8
+   ],
+   "size": 8.8,
+   "testo": "Un incantatore può trascrivere un incantesimo su una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    151.3,
+    517.7,
+    161.9
+   ],
+   "size": 8.8,
+   "testo": "pergamena per creare una pergamena magica secondo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    162.3,
+    380.7,
+    172.9
+   ],
+   "size": 8.8,
+   "testo": "le regole seguenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    182.7,
+    395.9,
+    194.0
+   ],
+   "size": 11.2,
+   "testo": "TEMPO E COSTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    194.1,
+    517.4,
+    204.7
+   ],
+   "size": 8.8,
+   "testo": "Il tempo e il denaro necessari per trascrivere una per­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    205.3,
+    528.8,
+    215.8
+   ],
+   "size": 8.8,
+   "testo": "gamena variano in base al livello dell'incantesimo, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    216.2,
+    520.3,
+    226.8
+   ],
+   "size": 8.8,
+   "testo": "mostrato nella tabella Costi delle pergamene magiche.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    227.2,
+    529.9,
+    237.8
+   ],
+   "size": 8.8,
+   "testo": "Per ogni giorno di trascrizione è necessario lavorare per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    238.2,
+    523.3,
+    248.7
+   ],
+   "size": 8.8,
+   "testo": "8 ore. Se per una pergamena sono necessari più giorni,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    249.1,
+    495.3,
+    259.7
+   ],
+   "size": 8.8,
+   "testo": "questi non devono per forza essere consecutivi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    269.6,
+    460.1,
+    280.9
+   ],
+   "size": 11.2,
+   "testo": "PREREQUISITI DELLO SCRIBA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    281.1,
+    510.4,
+    291.6
+   ],
+   "size": 8.8,
+   "testo": "Per trascrivere una pergamena, il personaggio deve",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    292.0,
+    521.0,
+    302.6
+   ],
+   "size": 8.8,
+   "testo": "avere competenza nell'abilità Arcano o nelle scorte da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    303.1,
+    533.6,
+    313.7
+   ],
+   "size": 8.8,
+   "testo": "calligrafo, oltre ad avere l'incantesimo preparato durante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    314.0,
+    533.8,
+    324.6
+   ],
+   "size": 8.8,
+   "testo": "ogni giorno di trascrizione. Per lo più, deve disporre delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    325.0,
+    535.4,
+    335.5
+   ],
+   "size": 8.8,
+   "testo": "componenti materiali richieste. Se l'incantesimo consuma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    335.9,
+    534.5,
+    346.5
+   ],
+   "size": 8.8,
+   "testo": "componenti materiali, lo farà solo una volta completata la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    346.9,
+    535.0,
+    357.5
+   ],
+   "size": 8.8,
+   "testo": "pergamena. L'incantesimo trascritto sfrutta la CD del tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    358.0,
+    529.8,
+    368.5
+   ],
+   "size": 8.8,
+   "testo": "salvezza sull'incantesimo e il bonus di attacco dell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    368.9,
+    401.9,
+    379.5
+   ],
+   "size": 8.8,
+   "testo": "tesimo del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    389.3,
+    377.0,
+    400.6
+   ],
+   "size": 11.2,
+   "testo": "TRUCCHETTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    400.8,
+    529.6,
+    411.4
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantesimo sulla pergamena è un trucchetto, chiun­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    411.8,
+    528.1,
+    422.4
+   ],
+   "size": 8.8,
+   "testo": "que lo lanci può farlo al livello dell'incantatore che lo ha",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    422.8,
+    349.7,
+    433.4
+   ],
+   "size": 8.8,
+   "testo": "trascritto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    445.4,
+    487.8,
+    456.1
+   ],
+   "size": 10.6,
+   "testo": "COSTI DELLE PERGAMENE MAGICHE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    333.5,
+    461.3,
+    359.8,
+    470.5
+   ],
+   "size": 8.2,
+   "testo": "Livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    472.3,
+    378.7,
+    481.6
+   ],
+   "size": 8.2,
+   "testo": "dell'incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    415.1,
+    472.4,
+    443.7,
+    481.6
+   ],
+   "size": 8.2,
+   "testo": "Tempo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    496.4,
+    472.4,
+    520.2,
+    481.6
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    486.3,
+    367.7,
+    495.9
+   ],
+   "size": 8.4,
+   "testo": "Trucchetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.1,
+    515.5,
+    349.1,
+    525.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.2,
+    530.1,
+    348.7,
+    539.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.8,
+    544.6,
+    349.0,
+    554.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.2,
+    559.2,
+    348.7,
+    568.8
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.0,
+    573.8,
+    349.0,
+    583.5
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.2,
+    588.3,
+    348.9,
+    597.9
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.9,
+    603.0,
+    348.9,
+    612.6
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.9,
+    617.7,
+    348.9,
+    627.3
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    410.2,
+    486.2,
+    443.7,
+    495.9
+   ],
+   "size": 8.4,
+   "testo": "l giorno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    495.9,
+    486.3,
+    520.6,
+    496.0
+   ],
+   "size": 8.4,
+   "testo": "15 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    410.2,
+    500.9,
+    443.7,
+    510.5
+   ],
+   "size": 8.4,
+   "testo": "l giorno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    494.5,
+    500.9,
+    520.6,
+    510.6
+   ],
+   "size": 8.4,
+   "testo": "25 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    412.7,
+    515.5,
+    443.4,
+    525.2
+   ],
+   "size": 8.4,
+   "testo": "3 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.0,
+    515.6,
+    520.8,
+    525.2
+   ],
+   "size": 8.4,
+   "testo": "100 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    412.7,
+    530.1,
+    443.4,
+    539.7
+   ],
+   "size": 8.4,
+   "testo": "5 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.5,
+    530.2,
+    520.8,
+    539.9
+   ],
+   "size": 8.4,
+   "testo": "150 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    408.5,
+    544.7,
+    443.4,
+    554.3
+   ],
+   "size": 8.4,
+   "testo": "10 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    482.8,
+    544.8,
+    520.8,
+    554.4
+   ],
+   "size": 8.4,
+   "testo": "1 .000 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    407.8,
+    559.2,
+    443.3,
+    568.8
+   ],
+   "size": 8.4,
+   "testo": "25 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    482.9,
+    559.3,
+    520.8,
+    568.9
+   ],
+   "size": 8.4,
+   "testo": "1 .500 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    407.3,
+    573.7,
+    443.3,
+    583.4
+   ],
+   "size": 8.4,
+   "testo": "40 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    478.0,
+    574.0,
+    520.5,
+    583.6
+   ],
+   "size": 8.4,
+   "testo": "10.000 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    407.8,
+    588.4,
+    443.3,
+    598.0
+   ],
+   "size": 8.4,
+   "testo": "50 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    478.4,
+    588.5,
+    520.5,
+    598.1
+   ],
+   "size": 8.4,
+   "testo": "12.500 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    407.4,
+    602.9,
+    443.3,
+    612.5
+   ],
+   "size": 8.4,
+   "testo": "60 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    478.2,
+    603.0,
+    520.5,
+    612.7
+   ],
+   "size": 8.4,
+   "testo": "15.000 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    403.8,
+    617.7,
+    443.3,
+    627.4
+   ],
+   "size": 8.4,
+   "testo": "120 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    477.1,
+    617.8,
+    520.6,
+    627.4
+   ],
+   "size": 8.4,
+   "testo": "50.000 mo",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

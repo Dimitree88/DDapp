@@ -1,0 +1,1375 @@
+{
+ "pagina_pdf": 139,
+ "pagina_stampata": 136,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "136 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [
+  [
+   270,
+   709,
+   409,
+   777
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    52.1,
+    35.6,
+    210.2,
+    46.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: AURA GUARDIANA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    47.0,
+    267.3,
+    57.6
+   ],
+   "size": 8.8,
+   "testo": "La magia antica scorre così potente nel paladino da for­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    58.1,
+    271.7,
+    68.7
+   ],
+   "size": 8.8,
+   "testo": "mare uno scudo occulto che, da oltre il Piano Materiale,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    69.0,
+    276.9,
+    79.6
+   ],
+   "size": 8.8,
+   "testo": "indebolisce certi tipi di energia. Il paladino e i suoi alleati,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    80.1,
+    259.7,
+    90.6
+   ],
+   "size": 8.8,
+   "testo": "finché rimangono nell'Aura di Protezione, ottengono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    91.1,
+    235.1,
+    101.7
+   ],
+   "size": 8.8,
+   "testo": "resistenza ai danni necrotici, psichici e radiosi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    111.5,
+    253.2,
+    122.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: SENTINELLA IMPERITURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    122.8,
+    264.2,
+    133.4
+   ],
+   "size": 8.8,
+   "testo": "Quando il paladino scende a 0 punti ferita e non viene",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    133.8,
+    272.6,
+    144.4
+   ],
+   "size": 8.8,
+   "testo": "ucciso subito, può invece scendere a 1 punto ferita e otte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    144.8,
+    278.8,
+    155.4
+   ],
+   "size": 8.8,
+   "testo": "nerne un numero pari a tre volte il suo livello da paladino.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    155.9,
+    278.2,
+    166.4
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    166.9,
+    265.8,
+    177.4
+   ],
+   "size": 8.8,
+   "testo": "riutilizzarlo prima di aver completato un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    177.9,
+    272.5,
+    188.5
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, non può invecchiare magicamente e non dimo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    188.9,
+    142.7,
+    199.5
+   ],
+   "size": 8.8,
+   "testo": "stra più i segni dell'età.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    209.5,
+    262.0,
+    220.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: CAMPIONE DEGLI ANTICHI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    220.8,
+    256.3,
+    231.4
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il paladino può infondere la sua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    231.8,
+    276.9,
+    242.3
+   ],
+   "size": 8.8,
+   "testo": "Aura di protezione con del potere primordiale, ottenendo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    242.8,
+    270.0,
+    253.4
+   ],
+   "size": 8.8,
+   "testo": "i benefici sottostanti per 1 minuto o finché non vengono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    253.8,
+    277.9,
+    264.4
+   ],
+   "size": 8.8,
+   "testo": "interrotti (nessuna azione richiesta). Dopo aver utilizzato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    264.8,
+    261.4,
+    275.3
+   ],
+   "size": 8.8,
+   "testo": "questo privilegio, il personaggio non può riutilizzarlo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    275.9,
+    276.6,
+    286.5
+   ],
+   "size": 8.8,
+   "testo": "prima di aver completato un riposo lungo. Tuttavia, è pos­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    287.0,
+    282.0,
+    297.6
+   ],
+   "size": 8.8,
+   "testo": "sibile ripristinarne l'uso consumando uno slot incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    295.8,
+    203.5,
+    308.5
+   ],
+   "size": 8.8,
+   "testo": "di 5° livello (nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    308.9,
+    272.2,
+    319.5
+   ],
+   "size": 8.8,
+   "testo": "Incantesimi rapidi. Quando il paladino lancia un incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    319.9,
+    276.9,
+    330.5
+   ],
+   "size": 8.8,
+   "testo": "tesimo che ha un tempo di lancio di un'azione, può invece",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    330.9,
+    166.4,
+    341.5
+   ],
+   "size": 8.8,
+   "testo": "lanciarlo come azione bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    341.9,
+    275.6,
+    352.4
+   ],
+   "size": 8.8,
+   "testo": "Rigenerazione. All'inizio di ogni turno, il paladino recu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    352.8,
+    130.5,
+    363.4
+   ],
+   "size": 8.8,
+   "testo": "pera 10 punti ferita.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    363.9,
+    265.2,
+    374.4
+   ],
+   "size": 8.8,
+   "testo": "Volontà compromessa. I nemici nell'aura hanno svan­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    374.8,
+    270.4,
+    385.4
+   ],
+   "size": 8.8,
+   "testo": "taggio ai tiri salvezza contro gli incantesimi e le opzioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    385.8,
+    190.8,
+    396.4
+   ],
+   "size": 8.8,
+   "testo": "di Incanalare Divinità del paladino.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    406.1,
+    232.1,
+    419.2
+   ],
+   "size": 9.7,
+   "testo": "GIURAMENTO DI DEVOZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    423.6,
+    198.1,
+    432.9
+   ],
+   "size": 8.6,
+   "testo": "Tienifede agli ideali di giustizia e ordine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    437.1,
+    269.6,
+    447.7
+   ],
+   "size": 8.8,
+   "testo": "Il Giuramento di Devozione vincola i paladini agli ideali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    448.1,
+    276.3,
+    458.7
+   ],
+   "size": 8.8,
+   "testo": "di giustizia e ordine, avvicinandoli all'archetipo del \"cava­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    459.1,
+    280.0,
+    469.6
+   ],
+   "size": 8.8,
+   "testo": "liere senza macchia e senza paura\". Si considerano modelli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    470.0,
+    277.8,
+    480.6
+   ],
+   "size": 8.8,
+   "testo": "esemplari di condotta e alcuni di loro, nel bene e nel male,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    481.1,
+    243.2,
+    491.7
+   ],
+   "size": 8.8,
+   "testo": "applicano gli stessi parametri al resto del mondo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    492.0,
+    268.4,
+    502.6
+   ],
+   "size": 8.8,
+   "testo": "Molti di coloro che prestano questo giuramento sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    503.0,
+    270.5,
+    513.6
+   ],
+   "size": 8.8,
+   "testo": "devoti agli dèi della legalità e del bene, e usano i dettami",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    514.2,
+    270.5,
+    524.7
+   ],
+   "size": 8.8,
+   "testo": "delle loro divinità come misura della propria devozione.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    525.1,
+    273.4,
+    535.7
+   ],
+   "size": 8.8,
+   "testo": "Altri, invece, prendono gli angeli come esempi dei propri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    536.1,
+    261.9,
+    546.7
+   ],
+   "size": 8.8,
+   "testo": "ideali e integrano immagini di ali angeliche nei propri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    547.1,
+    110.2,
+    557.7
+   ],
+   "size": 8.8,
+   "testo": "elmi o stemmi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    558.1,
+    186.3,
+    568.6
+   ],
+   "size": 8.8,
+   "testo": "Condividono i seguenti dettami:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    574.4,
+    265.1,
+    585.0
+   ],
+   "size": 8.8,
+   "testo": "Che la tua parola sia vincolante come una promessa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    585.4,
+    242.9,
+    596.0
+   ],
+   "size": 8.8,
+   "testo": "Proteggi i deboli e non aver mai paura di agire.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    596.5,
+    278.2,
+    607.0
+   ],
+   "size": 8.8,
+   "testo": "Che le tue onorevoli gesta siano da esempio per gli altri.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    616.9,
+    218.7,
+    628.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: ARMA CONSACRATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    628.4,
+    254.1,
+    639.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il paladino effettua l'azione di Attacco, può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    639.4,
+    274.4,
+    650.0
+   ],
+   "size": 8.8,
+   "testo": "consumare uno degli usi di Incanalare Divinità per infon­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    650.4,
+    271.2,
+    660.9
+   ],
+   "size": 8.8,
+   "testo": "dere energia positiva nell'arma da mischia che impugna.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    661.4,
+    264.5,
+    672.0
+   ],
+   "size": 8.8,
+   "testo": "Per 10 minuti o fino al prossimo utilizzo del privilegio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    672.4,
+    260.2,
+    683.0
+   ],
+   "size": 8.8,
+   "testo": "il paladino aggiunge il suo modificatore di Carisma ai",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    683.4,
+    267.6,
+    694.0
+   ],
+   "size": 8.8,
+   "testo": "tiri per colpire eseguiti con quell'arma (fino a un bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    694.3,
+    262.3,
+    704.9
+   ],
+   "size": 8.8,
+   "testo": "minimo di +1) e, ogni volta che colpisce, può infliggere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    705.3,
+    146.7,
+    715.9
+   ],
+   "size": 8.8,
+   "testo": "danni normali o radiosi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    33.6,
+    533.9,
+    44.2
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, l'arma emette luce intensa in un raggio di 6 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    44.6,
+    432.0,
+    55.2
+   ],
+   "size": 8.8,
+   "testo": "e luce fioca per ulteriori 6 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    55.7,
+    532.6,
+    66.3
+   ],
+   "size": 8.8,
+   "testo": "Questo effetto può essere interrotto in anticipo (nessuna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    66.7,
+    521.4,
+    77.2
+   ],
+   "size": 8.8,
+   "testo": "azione richiesta). L'effetto termina se il paladino non ha",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    77.7,
+    418.8,
+    88.2
+   ],
+   "size": 8.8,
+   "testo": "più con sé l'arma interessata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    98.2,
+    534.5,
+    109.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL GIURAMENTO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    108.9,
+    381.7,
+    120.3
+   ],
+   "size": 11.2,
+   "testo": "DI DEVOZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    120.3,
+    511.2,
+    130.9
+   ],
+   "size": 8.8,
+   "testo": "La magia del giuramento del paladino gli consente di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    131.2,
+    521.3,
+    141.8
+   ],
+   "size": 8.8,
+   "testo": "avere sempre pronti determinati incantesimi. Una volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    142.2,
+    523.6,
+    152.8
+   ],
+   "size": 8.8,
+   "testo": "raggiunto un livello specificato nella tabella Incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    153.2,
+    520.8,
+    163.8
+   ],
+   "size": 8.8,
+   "testo": "del Giuramento di Devozione, gli incantesimi lì elencati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    164.2,
+    476.9,
+    174.8
+   ],
+   "size": 8.8,
+   "testo": "saranno sempre considerati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    187.0,
+    463.5,
+    197.6
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL GIURAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    200.6,
+    380.7,
+    211.3
+   ],
+   "size": 10.6,
+   "testo": "DI DEVOZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    215.3,
+    349.5,
+    226.0
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    226.3,
+    347.9,
+    236.9
+   ],
+   "size": 10.6,
+   "testo": "paladino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    226.3,
+    404.7,
+    236.9
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.9,
+    241.4,
+    332.4,
+    251.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    241.9,
+    515.8,
+    251.1
+   ],
+   "size": 9.2,
+   "testo": "Protezione dal bene e dal male, scudo della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.6,
+    253.8,
+    374.6,
+    263.0
+   ],
+   "size": 9.2,
+   "testo": "fede",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.0,
+    267.9,
+    332.5,
+    277.5
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.2,
+    268.4,
+    433.5,
+    277.6
+   ],
+   "size": 9.2,
+   "testo": "Aiuto, zona di verità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.7,
+    282.6,
+    332.7,
+    292.2
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    283.1,
+    474.2,
+    292.3
+   ],
+   "size": 9.2,
+   "testo": "Faro di speranza, dissolvi magie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.1,
+    297.2,
+    336.1,
+    306.8
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    297.7,
+    516.7,
+    306.9
+   ],
+   "size": 9.2,
+   "testo": "Libertà di movimento, guardiano dellafede",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.1,
+    311.8,
+    336.2,
+    321.4
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.6,
+    312.3,
+    462.6,
+    321.5
+   ],
+   "size": 9.2,
+   "testo": "Comunione, colpo infuocato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    335.5,
+    474.5,
+    346.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: AURA DI DEVOZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    346.9,
+    523.0,
+    357.4
+   ],
+   "size": 8.8,
+   "testo": "Il paladino e i suoi alleati non possono essere affascinati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    357.8,
+    508.9,
+    368.4
+   ],
+   "size": 8.8,
+   "testo": "finché si trovano all'interno dell'Aura di Protezione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    368.8,
+    528.7,
+    379.4
+   ],
+   "size": 8.8,
+   "testo": "Se un alleato affascinato entra nel suo raggio d'influenza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    379.8,
+    513.3,
+    390.4
+   ],
+   "size": 8.8,
+   "testo": "non subirà più quell'effetto finché sarà al suo interno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    400.4,
+    497.8,
+    411.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: PUNIZIONE PROTETTIVA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    411.9,
+    526.8,
+    422.4
+   ],
+   "size": 8.8,
+   "testo": "La punizione magica del paladino ora emana energia pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    422.8,
+    531.8,
+    433.3
+   ],
+   "size": 8.8,
+   "testo": "tettiva. Ogni volta che utilizza punizione divina, il paladino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    433.7,
+    516.1,
+    444.3
+   ],
+   "size": 8.8,
+   "testo": "e i suoi alleati ottengono mezza copertura finché sono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    444.8,
+    520.3,
+    455.3
+   ],
+   "size": 8.8,
+   "testo": "nell'Aura di Protezione. Questo beneficio rimane attivo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    455.7,
+    456.5,
+    466.3
+   ],
+   "size": 8.8,
+   "testo": "fino all'inizio del suo turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    476.1,
+    441.1,
+    487.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: NUBE SACRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    487.5,
+    508.7,
+    498.0
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il paladino può infondere la sua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    498.5,
+    509.1,
+    509.1
+   ],
+   "size": 8.8,
+   "testo": "Aura di Protezione con del potere sacro, conferendo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    509.5,
+    525.3,
+    520.1
+   ],
+   "size": 8.8,
+   "testo": "i benefici sottostanti per 10 minuti o finché non vengono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    520.6,
+    529.8,
+    531.1
+   ],
+   "size": 8.8,
+   "testo": "interrotti (nessuna azione richiesta). Dopo aver utilizzato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    531.5,
+    513.3,
+    542.1
+   ],
+   "size": 8.8,
+   "testo": "questo privilegio, il personaggio non può riutilizzarlo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    542.6,
+    528.4,
+    553.1
+   ],
+   "size": 8.8,
+   "testo": "prima di aver completato un riposo lungo. Tuttavia, è pos­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    553.6,
+    533.8,
+    564.1
+   ],
+   "size": 8.8,
+   "testo": "sibile ripristinarne l'uso consumando uno slot incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    562.4,
+    455.6,
+    575.1
+   ],
+   "size": 8.8,
+   "testo": "di 5° livello (nessuna azione richiesta).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    575.6,
+    507.6,
+    586.2
+   ],
+   "size": 8.8,
+   "testo": "Danni radiosi. Se un nemico comincia il suo turno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    586.5,
+    523.0,
+    597.0
+   ],
+   "size": 8.8,
+   "testo": "all'interno dell'aura, subisce danni radiosi pari al modifi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    597.5,
+    532.3,
+    608.0
+   ],
+   "size": 8.8,
+   "testo": "catore di Carisma più il bonus di competenza del paladino.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.8,
+    608.5,
+    517.6,
+    619.1
+   ],
+   "size": 8.8,
+   "testo": "Luce delsole. L'aura rifulge di luce intensa, ovvero la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    619.6,
+    349.4,
+    630.2
+   ],
+   "size": 8.8,
+   "testo": "luce solare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    630.6,
+    515.0,
+    641.2
+   ],
+   "size": 8.8,
+   "testo": "Sentinella sacra. Se costretto a effettuare dei tiri sal­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    641.7,
+    531.8,
+    652.2
+   ],
+   "size": 8.8,
+   "testo": "vezza da un immondo o un non morto, il paladino dispone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    652.6,
+    355.9,
+    663.2
+   ],
+   "size": 8.8,
+   "testo": "di vantaggio.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

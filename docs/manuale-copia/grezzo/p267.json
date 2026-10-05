@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 267,
+ "pagina_stampata": 264,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "264 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   393
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.3,
+    398.0,
+    255.7,
+    408.6
+   ],
+   "size": 8.8,
+   "testo": "Salute istantanea. L'incantatore consente a sé e un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    409.2,
+    258.4,
+    419.7
+   ],
+   "size": 8.8,
+   "testo": "massimo di venti creature che è in grado di vedere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    420.1,
+    256.5,
+    430.7
+   ],
+   "size": 8.8,
+   "testo": "di recuperare tutti i punti ferita e pone fine a tutti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    431.1,
+    263.1,
+    441.7
+   ],
+   "size": 8.8,
+   "testo": "gli effetti su di loro come descritto nell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    443.1,
+    132.5,
+    452.5
+   ],
+   "size": 8.6,
+   "testo": "ristorare superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    453.0,
+    253.5,
+    463.6
+   ],
+   "size": 8.8,
+   "testo": "Resistenza. L:incantatore conferisce a un massimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    464.0,
+    262.6,
+    474.6
+   ],
+   "size": 8.8,
+   "testo": "di dieci creature che è in grado di vedere resistenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    475.0,
+    273.8,
+    485.6
+   ],
+   "size": 8.8,
+   "testo": "a un tipo di danno a sua scelta. La resistenza conferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    486.0,
+    118.3,
+    496.6
+   ],
+   "size": 8.8,
+   "testo": "è permanente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    497.0,
+    267.3,
+    507.6
+   ],
+   "size": 8.8,
+   "testo": "Immunità a un incantesimo. L'incantatore conferisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    508.0,
+    276.0,
+    518.6
+   ],
+   "size": 8.8,
+   "testo": "a un massimo di dieci creature che è in grado di vedere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    519.1,
+    268.5,
+    529.7
+   ],
+   "size": 8.8,
+   "testo": "immunità a un singolo incantesimo o un altro effetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    530.1,
+    130.5,
+    540.7
+   ],
+   "size": 8.8,
+   "testo": "magico per 8 ore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    541.1,
+    269.2,
+    551.7
+   ],
+   "size": 8.8,
+   "testo": "Apprendimento improvviso. L'incantatore sostituisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    552.1,
+    245.4,
+    562.6
+   ],
+   "size": 8.8,
+   "testo": "uno dei suoi talenti <ion un altro di cui soddisfa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    563.1,
+    278.4,
+    573.7
+   ],
+   "size": 8.8,
+   "testo": "i requisiti, perdendo tutti i benefici di quello precedente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    574.0,
+    265.4,
+    584.6
+   ],
+   "size": 8.8,
+   "testo": "e ottenendo quelli del nuovo talento. Non è possibile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    585.0,
+    268.3,
+    595.5
+   ],
+   "size": 8.8,
+   "testo": "sostituirne uno che è un prerequisito per altri talenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    596.0,
+    189.7,
+    606.5
+   ],
+   "size": 8.8,
+   "testo": "o caratteristiche del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    607.1,
+    265.0,
+    617.6
+   ],
+   "size": 8.8,
+   "testo": "Ripetizione del tiro. L'incantatore annulla un singolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    618.1,
+    277.9,
+    628.7
+   ],
+   "size": 8.8,
+   "testo": "evento recente imponendo la ripetizione di un qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    622.1,
+    256.2,
+    640.3
+   ],
+   "size": 8.8,
+   "testo": "tiro effettuato entro l'ultimo round (incluso il suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    640.2,
+    275.7,
+    650.8
+   ],
+   "size": 8.8,
+   "testo": "ultimo turno). La realtà viene rimodellata e si adatta al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    651.1,
+    273.5,
+    661.7
+   ],
+   "size": 8.8,
+   "testo": "nuovo risultato. Per esempio, un incantesimo desiderio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    662.1,
+    279.6,
+    672.7
+   ],
+   "size": 8.8,
+   "testo": "potrebbe annullare un tiro salvezza fallito da un alleato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    673.2,
+    276.3,
+    683.7
+   ],
+   "size": 8.8,
+   "testo": "o il colpo critico inferto da un avversario. L'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    684.2,
+    271.7,
+    694.7
+   ],
+   "size": 8.8,
+   "testo": "può imporre che il tiro ripetuto sia effettuato con van­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    695.1,
+    270.0,
+    705.6
+   ],
+   "size": 8.8,
+   "testo": "taggio o svantaggio e poi può scegliere se usare il tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    706.1,
+    164.8,
+    716.6
+   ],
+   "size": 8.8,
+   "testo": "ripetuto o il tiro originale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    398.1,
+    509.8,
+    408.7
+   ],
+   "size": 8.8,
+   "testo": "Riplasmazione della realtà. L'incantatore potrebbe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    409.2,
+    526.7,
+    419.8
+   ],
+   "size": 8.8,
+   "testo": "desiderare qualcosa che non è incluso negli altri effetti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.1,
+    420.2,
+    518.0,
+    430.8
+   ],
+   "size": 8.8,
+   "testo": "elencati. Per farlo, deve dichiarare il suo desiderio al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    431.2,
+    532.1,
+    441.8
+   ],
+   "size": 8.8,
+   "testo": "DM nel modo più preciso possibile. li DM ha la massima",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    442.2,
+    534.0,
+    452.8
+   ],
+   "size": 8.8,
+   "testo": "libertà di decidere cosa accade in questi casi: più potente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    453.2,
+    529.0,
+    463.8
+   ],
+   "size": 8.8,
+   "testo": "è il desiderio, maggiori sono le probabilità che qualcosa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    464.1,
+    514.9,
+    474.7
+   ],
+   "size": 8.8,
+   "testo": "vada storto. L'incantesimo potrebbe semplicemente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    475.2,
+    519.0,
+    485.7
+   ],
+   "size": 8.8,
+   "testo": "fallire, l'effetto desiderato potrebbe avverarsi solo in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.2,
+    486.1,
+    511.4,
+    496.7
+   ],
+   "size": 8.8,
+   "testo": "parte o l'incantatore potrebbe subire conseguenze",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    497.1,
+    506.1,
+    507.7
+   ],
+   "size": 8.8,
+   "testo": "inaspettate come risultato della formulazione del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    508.2,
+    522.6,
+    518.8
+   ],
+   "size": 8.8,
+   "testo": "desiderio. Per esempio, se desidera che un suo nemico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    519.2,
+    527.3,
+    529.8
+   ],
+   "size": 8.8,
+   "testo": "sia morto, potrebbe essere trascinato nel futuro fino al",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    530.2,
+    527.5,
+    540.7
+   ],
+   "size": 8.8,
+   "testo": "momento in cui quel nemico non è più in vita, venendo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    541.2,
+    509.9,
+    551.8
+   ],
+   "size": 8.8,
+   "testo": "a tutti gli effetti rimosso dal gioco. Analogamente,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    552.2,
+    522.6,
+    562.7
+   ],
+   "size": 8.8,
+   "testo": "se desidera un manufatto o un oggetto magico leggen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.4,
+    563.1,
+    525.1,
+    573.7
+   ],
+   "size": 8.8,
+   "testo": "dario, potrebbe essere trasportato istantaneamente in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    574.2,
+    517.4,
+    584.7
+   ],
+   "size": 8.8,
+   "testo": "presenza del suo attuale proprietario. Se il desiderio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    585.2,
+    520.4,
+    595.8
+   ],
+   "size": 8.8,
+   "testo": "viene esaudito e i suoi effetti hanno conseguenze per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    596.2,
+    506.1,
+    606.8
+   ],
+   "size": 8.8,
+   "testo": "un'intera comunità, regione o per tutto il mondo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    607.2,
+    522.6,
+    617.7
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore potrebbe attirare l'attenzione di potenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    618.2,
+    530.6,
+    628.8
+   ],
+   "size": 8.8,
+   "testo": "nemici. Se invece potrebbe avere effetti su una divinità,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    629.4,
+    515.0,
+    639.9
+   ],
+   "size": 8.8,
+   "testo": "i suoi servi divini potrebbero intervenire all'istante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    640.3,
+    529.4,
+    650.9
+   ],
+   "size": 8.8,
+   "testo": "per impedirlo o incoraggiare l'incantatore a formularlo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    651.3,
+    516.0,
+    661.8
+   ],
+   "size": 8.8,
+   "testo": "in un modo preciso. Se dovesse disfare il multiverso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    662.3,
+    531.6,
+    672.9
+   ],
+   "size": 8.8,
+   "testo": "stesso, minacciare la Città di Sigil o avere un qualunque",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    673.3,
+    522.7,
+    683.9
+   ],
+   "size": 8.8,
+   "testo": "impatto sulla Signora del Dolore, vedrà per un attimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    684.3,
+    521.9,
+    694.8
+   ],
+   "size": 8.8,
+   "testo": "una sua immagine nella propria mente mentre scuote",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    695.1,
+    481.7,
+    705.7
+   ],
+   "size": 8.8,
+   "testo": "la testa. In questo caso, il desiderio fallisce.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

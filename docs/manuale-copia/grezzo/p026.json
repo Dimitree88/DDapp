@@ -1,0 +1,811 @@
+{
+ "pagina_pdf": 26,
+ "pagina_stampata": 23,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "CAPITOLO 1 I COME SI GIOCA / 23",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   444
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.9,
+    328.2,
+    201.9,
+    344.8
+   ],
+   "size": 12.9,
+   "testo": "COMBATTIMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    344.2,
+    256.0,
+    356.8
+   ],
+   "size": 8.8,
+   "testo": "Gli avventurieri iƒcontrano molti mostri pericolosi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    357.2,
+    281.5,
+    367.8
+   ],
+   "size": 8.8,
+   "testo": "e perversi manipolatori. In simili casi, spesso si è costretti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    368.0,
+    110.7,
+    378.6
+   ],
+   "size": 8.8,
+   "testo": "a combattere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    388.0,
+    248.4,
+    401.6
+   ],
+   "size": 9.7,
+   "testo": "L'ORDINE DI COMBATTIMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    404.9,
+    270.2,
+    415.4
+   ],
+   "size": 8.8,
+   "testo": "Un tipico incontro di combattimento è uno scontro tra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    416.0,
+    279.3,
+    426.5
+   ],
+   "size": 8.8,
+   "testo": "due fazioni: una fulminea sequenza di colpi d'arma, finte,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    426.9,
+    283.1,
+    437.5
+   ],
+   "size": 8.8,
+   "testo": "parate, scarti e incantesimi. Il gioco organizza il caos di un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    437.8,
+    275.7,
+    448.4
+   ],
+   "size": 8.8,
+   "testo": "combattimento in un ciclo di round e di turni. Un round",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    448.8,
+    278.9,
+    459.4
+   ],
+   "size": 8.8,
+   "testo": "rappresenta circa 6 secondi di tempo nel mondo di gioco.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    459.8,
+    262.1,
+    470.4
+   ],
+   "size": 8.8,
+   "testo": "Nel corso di un round, ogni partecipante al combatti­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    470.8,
+    274.4,
+    481.4
+   ],
+   "size": 8.8,
+   "testo": "mento svolge un turno. L'ordine dei turni viene determi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    481.8,
+    274.5,
+    492.3
+   ],
+   "size": 8.8,
+   "testo": "nato all'inizio di un incontro di combattimento, quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    492.8,
+    278.3,
+    503.3
+   ],
+   "size": 8.8,
+   "testo": "tutti effettuano i tiri per l'iniziativa. Quando tutti hanno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    503.8,
+    281.4,
+    514.4
+   ],
+   "size": 8.8,
+   "testo": "svolto un turno, se nessuna delle parti ha sconfitto l'altra,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    514.9,
+    255.4,
+    525.5
+   ],
+   "size": 8.8,
+   "testo": "il combattimento continua con il round successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    535.4,
+    215.5,
+    546.7
+   ],
+   "size": 11.2,
+   "testo": "LE FASI DEL COMBATTIMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    546.7,
+    244.1,
+    557.3
+   ],
+   "size": 8.8,
+   "testo": "Il combattimento si svolge seguendo queste fasi:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    562.9,
+    269.7,
+    573.5
+   ],
+   "size": 8.8,
+   "testo": "1: Stabilire le posizioni. Il Dungeon Master stabilisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.7,
+    573.9,
+    280.0,
+    584.5
+   ],
+   "size": 8.8,
+   "testo": "dove sono situati tutti i personaggi e i mostri. Tenendo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.7,
+    584.9,
+    260.3,
+    595.5
+   ],
+   "size": 8.8,
+   "testo": "presente l'ordine di marcia degli avventurieri o le",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.1,
+    595.9,
+    274.4,
+    606.5
+   ],
+   "size": 8.8,
+   "testo": "posizioni che essi hanno dichiarato di raggiungere in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.7,
+    607.0,
+    273.3,
+    617.6
+   ],
+   "size": 8.8,
+   "testo": "una stanza o altra area, il DM decide dove si trovano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.6,
+    618.1,
+    257.1,
+    628.7
+   ],
+   "size": 8.8,
+   "testo": "gli avversari: a che distanza e in quale direzione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    629.1,
+    274.5,
+    639.7
+   ],
+   "size": 8.8,
+   "testo": "2: Tirare per l'iniziativa. Tutti i partecipanti al combat­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.7,
+    640.0,
+    276.1,
+    650.6
+   ],
+   "size": 8.8,
+   "testo": "timento tirano per l'iniziativa, determinando l'ordine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.9,
+    651.1,
+    165.9,
+    661.7
+   ],
+   "size": 8.8,
+   "testo": "di turno dei combattenti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.9,
+    662.1,
+    260.7,
+    672.8
+   ],
+   "size": 8.8,
+   "testo": "3: Svolgere i turni. Ogni partecipante alla battaglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.9,
+    672.9,
+    280.6,
+    683.5
+   ],
+   "size": 8.8,
+   "testo": "svolge un turno secondo l'ordine di iniziativa. Quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.9,
+    684.0,
+    276.9,
+    694.6
+   ],
+   "size": 8.8,
+   "testo": "tutti i partecipanti al combattimento hanno svolto un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.7,
+    695.0,
+    266.0,
+    705.5
+   ],
+   "size": 8.8,
+   "testo": "turno, il round termina. Questa fase viene ripetuta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.9,
+    706.0,
+    225.9,
+    716.5
+   ],
+   "size": 8.8,
+   "testo": "finché il combattimento non si conclude.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    328.4,
+    367.1,
+    339.7
+   ],
+   "size": 11.2,
+   "testo": "INIZIATIVA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    339.6,
+    522.9,
+    350.2
+   ],
+   "size": 8.8,
+   "testo": "L'iniziativa determina l'ordine dei turni durante il com­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    350.5,
+    518.8,
+    361.1
+   ],
+   "size": 8.8,
+   "testo": "battimento. Quando il combattimento inizia, ogni par­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    361.5,
+    527.1,
+    372.1
+   ],
+   "size": 8.8,
+   "testo": "tecipante tira per l'iniziativa, ovvero effettua una prova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    372.4,
+    531.6,
+    383.0
+   ],
+   "size": 8.8,
+   "testo": "di Destrezza per determinare la sua posizione nell'ordine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    383.6,
+    536.3,
+    394.1
+   ],
+   "size": 8.8,
+   "testo": "di iniziativa. Il DM tira per i mostri. Il DM effettua un solo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    394.5,
+    521.0,
+    405.1
+   ],
+   "size": 8.8,
+   "testo": "tiro per un intero gruppo di creature identiche, quindi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    405.6,
+    524.9,
+    416.1
+   ],
+   "size": 8.8,
+   "testo": "tutti i membri di quel gruppo hanno la stessa iniziativa.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.6,
+    416.6,
+    530.1,
+    427.2
+   ],
+   "size": 8.8,
+   "testo": "Sorpresa. Se un combattente viene sorpreso dall'inizio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    427.6,
+    522.2,
+    438.1
+   ],
+   "size": 8.8,
+   "testo": "del combattimento, ha svantaggio sul tiro di iniziativa.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    438.5,
+    531.2,
+    449.1
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, se un personaggio sbuca fuori di colpo dalla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    449.5,
+    526.7,
+    460.1
+   ],
+   "size": 8.8,
+   "testo": "boscaglia per dare inizio a un combattimento contro un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    460.5,
+    534.8,
+    471.0
+   ],
+   "size": 8.8,
+   "testo": "nemico ignaro della sua presenza, quel nemico è sorpreso.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.9,
+    471.5,
+    524.7,
+    482.1
+   ],
+   "size": 8.8,
+   "testo": "Ordine di iniziativa. Il totale della prova di un combat­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    482.4,
+    537.7,
+    493.0
+   ],
+   "size": 8.8,
+   "testo": "tente è il punteggio di iniziativa, anche detto semplicemente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    493.5,
+    523.4,
+    504.1
+   ],
+   "size": 8.8,
+   "testo": "\"iniziativa\". Il DM elenca i combattenti, da quello con il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    504.5,
+    526.0,
+    515.1
+   ],
+   "size": 8.8,
+   "testo": "punteggio di iniziativa più alto a quello con il punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    515.5,
+    524.6,
+    526.1
+   ],
+   "size": 8.8,
+   "testo": "più basso. Questo è l'ordine in cui agiranno nel corso di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    526.5,
+    537.4,
+    537.1
+   ],
+   "size": 8.8,
+   "testo": "ogni round. L'ordine di iniziativa rimane lo stesso per tutti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    537.6,
+    340.2,
+    548.2
+   ],
+   "size": 8.8,
+   "testo": "i round.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    548.5,
+    527.6,
+    559.1
+   ],
+   "size": 8.8,
+   "testo": "Parità. In caso di parità, il DM stabilisce l'ordine tra le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    559.4,
+    528.0,
+    570.0
+   ],
+   "size": 8.8,
+   "testo": "creature in parità sotto il suo controllo e i giocatori deci­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    570.4,
+    533.9,
+    581.0
+   ],
+   "size": 8.8,
+   "testo": "dono l'ordine tra i personaggi. Se si verifica una parità tra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    581.4,
+    528.7,
+    592.0
+   ],
+   "size": 8.8,
+   "testo": "un mostro e un personaggio giocante, è il DM a decidere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    592.3,
+    342.0,
+    602.9
+   ],
+   "size": 8.8,
+   "testo": "l'ordine.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    613.1,
+    468.7,
+    624.4
+   ],
+   "size": 11.2,
+   "testo": "IL T'uRNO DI UN PERSONAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    624.4,
+    525.6,
+    634.9
+   ],
+   "size": 8.8,
+   "testo": "Nel proprio turno, un personaggio può muoversi di una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    635.3,
+    531.6,
+    645.9
+   ],
+   "size": 8.8,
+   "testo": "distanzamassima pari alla sua velocità ed effettuare un'a­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    646.3,
+    527.8,
+    656.9
+   ],
+   "size": 8.8,
+   "testo": "zione. Può decidere liberamente se per prima cosa vuole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    657.3,
+    486.9,
+    667.9
+   ],
+   "size": 8.8,
+   "testo": "muoversi oppure effettuare la propria azione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    668.3,
+    513.4,
+    678.9
+   ],
+   "size": 8.8,
+   "testo": "Le azioni principali che si possono effettuare sono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    679.3,
+    515.8,
+    689.8
+   ],
+   "size": 8.8,
+   "testo": "elencate in \"Azioni\" in precedenza in questo capitolo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    690.2,
+    534.2,
+    700.8
+   ],
+   "size": 8.8,
+   "testo": "Le opzioni di azione sono fornite anche dai privilegi di un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    701.2,
+    530.5,
+    711.8
+   ],
+   "size": 8.8,
+   "testo": "personaggio e dalla scheda delle statistiche di un mostro.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

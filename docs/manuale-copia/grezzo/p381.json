@@ -1,0 +1,4560 @@
+{
+ "pagina_pdf": 381,
+ "pagina_stampata": 378,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "378 / INDICE",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    231.8,
+    49.5,
+    345.0,
+    74.7
+   ],
+   "size": 24.7,
+   "testo": "INDICE",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.0,
+    117.3,
+    125.4,
+    124.1
+   ],
+   "size": 5.0,
+   "testo": "O punti ferita, scendere a, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.8,
+    117.1,
+    208.5,
+    124.0
+   ],
+   "size": 6.2,
+   "testo": "amicizia con gli animali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    117.1,
+    304.4,
+    123.9
+   ],
+   "size": 5.0,
+   "testo": "arma da monaco, 123",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.7,
+    116.9,
+    408.0,
+    123.7
+   ],
+   "size": 5.0,
+   "testo": "Attacco extra (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.0,
+    116.9,
+    499.3,
+    123.7
+   ],
+   "size": 5.0,
+   "testo": "Balestra a mano, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.5,
+    125.3,
+    84.5,
+    132.1
+   ],
+   "size": 5.0,
+   "testo": "l naturale, 12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.2,
+    125.1,
+    206.1,
+    131.9
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 241",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    241.9,
+    125.0,
+    289.0,
+    131.9
+   ],
+   "size": 6.2,
+   "testo": "arma elemento/e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.8,
+    124.9,
+    403.6,
+    131.7
+   ],
+   "size": 5.0,
+   "testo": "di classe), 133, 142",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    124.8,
+    498.5,
+    131.6
+   ],
+   "size": 5.0,
+   "testo": "Balestra leggera, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    133.3,
+    87.7,
+    140.1
+   ],
+   "size": 5.0,
+   "testo": "20 naturale, 12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.3,
+    133.2,
+    222.1,
+    140.0
+   ],
+   "size": 6.2,
+   "testo": "amicizia (incantesimo), 240",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.8,
+    133.1,
+    304.4,
+    139.9
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 243",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.7,
+    133.0,
+    408.5,
+    139.8
+   ],
+   "size": 5.0,
+   "testo": "Attacco Extra (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    132.9,
+    500.2,
+    139.7
+   ],
+   "size": 5.0,
+   "testo": "Balestra pesante, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    141.4,
+    82.2,
+    148.2
+   ],
+   "size": 5.0,
+   "testo": "Aasimar, 186",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    141.2,
+    209.0,
+    148.0
+   ],
+   "size": 5.0,
+   "testo": "Ampliamento dell'Aura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    141.1,
+    309.4,
+    147.9
+   ],
+   "size": 5.0,
+   "testo": "arma improvvisata, 361",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    141.0,
+    410.5,
+    147.8
+   ],
+   "size": 5.0,
+   "testo": "di classe), 52, 92, 125",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    140.9,
+    476.1,
+    147.7
+   ],
+   "size": 5.0,
+   "testo": "balestre, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    149.3,
+    97.1,
+    156.1
+   ],
+   "size": 5.0,
+   "testo": "abbreviazioni, 360",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.2,
+    149.1,
+    222.8,
+    155.9
+   ],
+   "size": 5.0,
+   "testo": "(privilegio di classe), 133",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.2,
+    149.0,
+    321.8,
+    155.9
+   ],
+   "size": 6.2,
+   "testo": "arma magica (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    148.9,
+    414.2,
+    155.7
+   ],
+   "size": 5.0,
+   "testo": "Attacco Furtivo (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.0,
+    148.9,
+    510.5,
+    155.7
+   ],
+   "size": 5.0,
+   "testo": "Balzo Istintivo (privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    157.3,
+    129.7,
+    164.1
+   ],
+   "size": 5.0,
+   "testo": "aberrazione (tipo di creatura),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    157.2,
+    212.2,
+    164.0
+   ],
+   "size": 5.0,
+   "testo": "Ampliare e sostituire un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.0,
+    157.4,
+    261.7,
+    162.3
+   ],
+   "size": 4.8,
+   "testo": "244",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    156.9,
+    390.1,
+    163.7
+   ],
+   "size": 5.0,
+   "testo": "di classe), 101",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.4,
+    156.8,
+    485.1,
+    163.6
+   ],
+   "size": 5.0,
+   "testo": "di classe), 52",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    165.7,
+    64.3,
+    170.6
+   ],
+   "size": 4.8,
+   "testo": "376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    165.2,
+    214.9,
+    172.0
+   ],
+   "size": 5.0,
+   "testo": "libro degli incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.2,
+    165.0,
+    326.3,
+    171.9
+   ],
+   "size": 6.2,
+   "testo": "arma spirituale (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    165.0,
+    403.0,
+    171.8
+   ],
+   "size": 5.0,
+   "testo": "attacco in mischia, 26",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.0,
+    164.9,
+    489.7,
+    171.7
+   ],
+   "size": 5.0,
+   "testo": "Balzo silente, 145",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    173.4,
+    99.7,
+    180.2
+   ],
+   "size": 5.0,
+   "testo": "Abile (talento), 200",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.1,
+    173.3,
+    195.0,
+    180.1
+   ],
+   "size": 5.0,
+   "testo": "(riquadro), 113",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.0,
+    173.5,
+    261.5,
+    178.4
+   ],
+   "size": 4.8,
+   "testo": "244",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.7,
+    173.1,
+    417.8,
+    179.9
+   ],
+   "size": 5.0,
+   "testo": "Attacco Irruento (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    172.9,
+    523.2,
+    179.7
+   ],
+   "size": 5.0,
+   "testo": "Balzo Ultraterreno (supplica),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    181.4,
+    76.5,
+    188.2
+   ],
+   "size": 5.0,
+   "testo": "abilità, 360",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    181.3,
+    180.9,
+    188.1
+   ],
+   "size": 5.0,
+   "testo": "ampolla, 222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    181.2,
+    309.0,
+    188.0
+   ],
+   "size": 5.0,
+   "testo": "Armatura a piastre, 219",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    181.0,
+    386.6,
+    187.8
+   ],
+   "size": 5.0,
+   "testo": "di classe), 52",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    181.2,
+    458.6,
+    186.1
+   ],
+   "size": 4.8,
+   "testo": "167",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    189.3,
+    98.7,
+    196.1
+   ],
+   "size": 5.0,
+   "testo": "competenza, 13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    189.1,
+    223.8,
+    196.0
+   ],
+   "size": 6.2,
+   "testo": "anatema (incantesimo), 241",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    189.1,
+    306.4,
+    195.9
+   ],
+   "size": 5.0,
+   "testo": "Armatura delle Ombre",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.8,
+    189.0,
+    396.3,
+    195.8
+   ],
+   "size": 5.0,
+   "testo": "atteggiamento, 362",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.6,
+    188.9,
+    493.2,
+    195.8
+   ],
+   "size": 6.2,
+   "testo": "banchetto degli eroi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    197.3,
+    117.2,
+    204.1
+   ],
+   "size": 5.0,
+   "testo": "Abilità con caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.5,
+    197.2,
+    206.7,
+    204.0
+   ],
+   "size": 5.0,
+   "testo": "anelli, corazza ad, 219",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.8,
+    197.1,
+    293.3,
+    203.9
+   ],
+   "size": 5.0,
+   "testo": "(supplica), 167",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.8,
+    197.0,
+    395.4,
+    203.8
+   ],
+   "size": 5.0,
+   "testo": "amichevole, 361",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.1,
+    196.9,
+    501.3,
+    203.7
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 247",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    205.5,
+    114.7,
+    212.3
+   ],
+   "size": 5.0,
+   "testo": "diverse (riquadro), 14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    205.3,
+    198.9,
+    212.2
+   ],
+   "size": 6.2,
+   "testo": "animale messaggero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.3,
+    205.2,
+    298.4,
+    212.0
+   ],
+   "size": 6.2,
+   "testo": "armatura di Agathys",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.7,
+    205.1,
+    395.6,
+    211.9
+   ],
+   "size": 5.0,
+   "testo": "indifferente, 366",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.0,
+    205.0,
+    489.1,
+    211.8
+   ],
+   "size": 5.0,
+   "testo": "Barca a remi, 230",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    213.5,
+    126.3,
+    220.3
+   ],
+   "size": 5.0,
+   "testo": "Abilità impeccabile (talento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    213.4,
+    205.7,
+    220.2
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 241",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.8,
+    213.2,
+    304.4,
+    220.0
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 244",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    213.1,
+    378.6,
+    219.9
+   ],
+   "size": 5.0,
+   "testo": "ostile, 369",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    213.1,
+    472.9,
+    219.9
+   ],
+   "size": 5.0,
+   "testo": "barche, 230",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    221.8,
+    64.3,
+    226.7
+   ],
+   "size": 4.8,
+   "testo": "202",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    221.3,
+    226.2,
+    228.2
+   ],
+   "size": 6.2,
+   "testo": "animare morti (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    221.2,
+    307.6,
+    228.0
+   ],
+   "size": 5.0,
+   "testo": "Armatura di cuoio, 219",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.7,
+    221.1,
+    398.9,
+    227.9
+   ],
+   "size": 5.0,
+   "testo": "Attore (talento), 202",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.0,
+    221.0,
+    477.0,
+    227.8
+   ],
+   "size": 5.0,
+   "testo": "Barcone, 230",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    229.4,
+    99.1,
+    236.2
+   ],
+   "size": 5.0,
+   "testo": "Abilità (tabella), 14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    229.5,
+    162.8,
+    234.4
+   ],
+   "size": 4.8,
+   "testo": "241",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    229.1,
+    323.9,
+    235.9
+   ],
+   "size": 5.0,
+   "testo": "Armatura di cuoio borchiato,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    229.0,
+    411.9,
+    235.8
+   ],
+   "size": 5.0,
+   "testo": "attrezzi da scalatore, 224",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    229.0,
+    481.2,
+    235.8
+   ],
+   "size": 5.0,
+   "testo": "bardatura, 229",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    237.4,
+    103.5,
+    244.2
+   ],
+   "size": 5.0,
+   "testo": "Abissale (lingua), 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    237.2,
+    229.9,
+    244.1
+   ],
+   "size": 6.2,
+   "testo": "animare oggetti (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    237.4,
+    261.3,
+    242.3
+   ],
+   "size": 4.8,
+   "testo": "219",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.7,
+    237.1,
+    411.7,
+    243.9
+   ],
+   "size": 5.0,
+   "testo": "Aumento dei Punteggi di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    236.9,
+    469.3,
+    243.7
+   ],
+   "size": 5.0,
+   "testo": "barile, 224",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.4,
+    245.5,
+    78.6,
+    252.3
+   ],
+   "size": 5.0,
+   "testo": "Abisso, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    245.6,
+    162.9,
+    250.5
+   ],
+   "size": 4.8,
+   "testo": "242",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    245.1,
+    305.3,
+    251.9
+   ],
+   "size": 5.0,
+   "testo": "Armatura di pelle, 219",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.0,
+    245.0,
+    417.1,
+    251.8
+   ],
+   "size": 5.0,
+   "testo": "Caratteristica (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    245.3,
+    525.3,
+    252.2
+   ],
+   "size": 6.2,
+   "testo": "barriera di lame (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    253.4,
+    112.8,
+    260.2
+   ],
+   "size": 5.0,
+   "testo": "abiti da viaggiatore, 222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    253.3,
+    222.3,
+    260.1
+   ],
+   "size": 5.0,
+   "testo": "Antenati draconici (tabella),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    253.1,
+    310.8,
+    259.9
+   ],
+   "size": 5.0,
+   "testo": "Armatura imbottita, 219",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    253.0,
+    418.5,
+    259.8
+   ],
+   "size": 5.0,
+   "testo": "di classe), 52, 61, 71, 81,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    253.7,
+    458.7,
+    258.6
+   ],
+   "size": 4.8,
+   "testo": "247",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    261.4,
+    95.6,
+    268.2
+   ],
+   "size": 5.0,
+   "testo": "abiti eleganti, 222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    261.6,
+    162.9,
+    266.5
+   ],
+   "size": 4.8,
+   "testo": "187",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.3,
+    261.1,
+    290.6,
+    268.0
+   ],
+   "size": 6.2,
+   "testo": "armatura magica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.8,
+    261.3,
+    425.8,
+    266.2
+   ],
+   "size": 4.8,
+   "testo": "92, 102, 113, 125, 133, 142,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    261.4,
+    496.8,
+    268.2
+   ],
+   "size": 5.0,
+   "testo": "Bastone ferrato, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    269.4,
+    121.8,
+    276.2
+   ],
+   "size": 5.0,
+   "testo": "Abiurare Nemici (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    269.3,
+    196.0,
+    276.1
+   ],
+   "size": 6.2,
+   "testo": "anti-individuazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.8,
+    269.2,
+    304.4,
+    276.0
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 244",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    269.4,
+    373.6,
+    274.3
+   ],
+   "size": 4.8,
+   "testo": "153, 166",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    269.3,
+    516.7,
+    276.2
+   ],
+   "size": 6.2,
+   "testo": "beffa crudele (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    277.4,
+    94.2,
+    284.2
+   ],
+   "size": 5.0,
+   "testo": "di classe), 133",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.2,
+    277.3,
+    205.7,
+    284.1
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 242",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    277.2,
+    282.3,
+    284.0
+   ],
+   "size": 5.0,
+   "testo": "armature, 219",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    277.1,
+    411.6,
+    283.9
+   ],
+   "size": 5.0,
+   "testo": "Aumento dei punteggi di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.5,
+    277.7,
+    458.4,
+    282.6
+   ],
+   "size": 4.8,
+   "testo": "247",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    285.6,
+    126.9,
+    292.4
+   ],
+   "size": 5.0,
+   "testo": "Abiuratore (sottoclasse), 118",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    285.4,
+    195.4,
+    292.2
+   ],
+   "size": 6.2,
+   "testo": "antipatia/simpatia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    285.3,
+    304.5,
+    292.1
+   ],
+   "size": 5.0,
+   "testo": "armature leggere, 219",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    285.2,
+    425.8,
+    292.0
+   ],
+   "size": 5.0,
+   "testo": "caratteristica (talento), 203",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    285.5,
+    526.4,
+    292.3
+   ],
+   "size": 6.2,
+   "testo": "benedizione (incantesimo), 247",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    293.6,
+    121.3,
+    300.4
+   ],
+   "size": 5.0,
+   "testo": "accecato (condizione), 360",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.2,
+    293.4,
+    205.8,
+    300.2
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 243",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    293.3,
+    301.6,
+    300.1
+   ],
+   "size": 5.0,
+   "testo": "armature medie, 219",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    293.2,
+    419.2,
+    300.0
+   ],
+   "size": 5.0,
+   "testo": "Aura di Coraggio (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    293.5,
+    479.4,
+    300.3
+   ],
+   "size": 5.0,
+   "testo": "bersaglio, 363",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    301.5,
+    120.9,
+    308.3
+   ],
+   "size": 5.0,
+   "testo": "acciarino con pietra focaia,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.5,
+    301.4,
+    189.2,
+    308.2
+   ],
+   "size": 5.0,
+   "testo": "antitossina, 222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    301.2,
+    304.7,
+    308.0
+   ],
+   "size": 5.0,
+   "testo": "armature pesanti, 219",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    301.1,
+    390.1,
+    307.9
+   ],
+   "size": 5.0,
+   "testo": "di classe), 133",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    301.5,
+    522.2,
+    308.3
+   ],
+   "size": 5.0,
+   "testo": "Bestia del Cielo (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    309.8,
+    64.3,
+    314.7
+   ],
+   "size": 4.8,
+   "testo": "222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    309.3,
+    220.3,
+    316.1
+   ],
+   "size": 5.0,
+   "testo": "Apoteosi Arcana (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    309.3,
+    308.5,
+    316.1
+   ],
+   "size": 5.0,
+   "testo": "Armature (tabella), 219",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.7,
+    309.1,
+    424.1,
+    315.9
+   ],
+   "size": 5.0,
+   "testo": "Aura di Protezione (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    309.4,
+    492.9,
+    316.2
+   ],
+   "size": 5.0,
+   "testo": "statistiche), 147",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    317.4,
+    121.8,
+    324.2
+   ],
+   "size": 5.0,
+   "testo": "Accolito (background), 178",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    317.3,
+    192.7,
+    324.1
+   ],
+   "size": 5.0,
+   "testo": "di classe), 153",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    317.2,
+    326.6,
+    324.0
+   ],
+   "size": 5.0,
+   "testo": "Armi improvvisate (riquadro),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.8,
+    317.1,
+    390.1,
+    323.9
+   ],
+   "size": 5.0,
+   "testo": "di classe), 133",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    317.4,
+    526.7,
+    324.2
+   ],
+   "size": 5.0,
+   "testo": "Bestia della Terra (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.0,
+    325.5,
+    88.3,
+    332.3
+   ],
+   "size": 5.0,
+   "testo": "Acheronte, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    325.4,
+    213.3,
+    332.2
+   ],
+   "size": 5.0,
+   "testo": "Appostato (talento), 202",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.0,
+    325.6,
+    261.5,
+    330.5
+   ],
+   "size": 4.8,
+   "testo": "214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.9,
+    325.1,
+    426.2,
+    332.0
+   ],
+   "size": 6.2,
+   "testo": "aura di purezza (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    325.5,
+    492.9,
+    332.3
+   ],
+   "size": 5.0,
+   "testo": "statistiche), 148",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    333.5,
+    74.8,
+    340.3
+   ],
+   "size": 5.0,
+   "testo": "acido, 222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    333.5,
+    200.7,
+    340.3
+   ],
+   "size": 5.0,
+   "testo": "Aquan (dialetto), 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    333.3,
+    322.3,
+    340.1
+   ],
+   "size": 5.0,
+   "testo": "armi ostacolate, combattere",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.8,
+    333.5,
+    360.2,
+    338.4
+   ],
+   "size": 4.8,
+   "testo": "245",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    333.4,
+    522.7,
+    340.2
+   ],
+   "size": 5.0,
+   "testo": "Bestia del Mare (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    341.4,
+    99.2,
+    348.2
+   ],
+   "size": 5.0,
+   "testo": "acido (danno), 376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    341.4,
+    180.4,
+    348.2
+   ],
+   "size": 5.0,
+   "testo": "Arborea, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    341.2,
+    290.5,
+    348.0
+   ],
+   "size": 5.0,
+   "testo": "sott'acqua, 27",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.9,
+    341.1,
+    427.3,
+    347.9
+   ],
+   "size": 6.2,
+   "testo": "aura di vita (incantesimo), 245",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.7,
+    341.4,
+    493.1,
+    348.2
+   ],
+   "size": 5.0,
+   "testo": "statistiche), 147",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    349.5,
+    95.0,
+    356.3
+   ],
+   "size": 5.0,
+   "testo": "santa, acqua, 222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    349.4,
+    179.3,
+    356.2
+   ],
+   "size": 5.0,
+   "testo": "Arcadia, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    349.2,
+    295.6,
+    356.0
+   ],
+   "size": 5.0,
+   "testo": "Armi (tabella), 215",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.9,
+    349.1,
+    423.9,
+    355.9
+   ],
+   "size": 6.2,
+   "testo": "aura di vitalità (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    349.4,
+    519.7,
+    356.2
+   ],
+   "size": 5.0,
+   "testo": "bestia (tipo di creatura), 376",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.0,
+    357.4,
+    115.8,
+    364.2
+   ],
+   "size": 5.0,
+   "testo": "Acqua, Piano Elementale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    357.2,
+    198.2,
+    364.0
+   ],
+   "size": 5.0,
+   "testo": "Arcano (abilità), 14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    357.2,
+    304.7,
+    364.0
+   ],
+   "size": 5.0,
+   "testo": "arnesi da falsario, 221",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.7,
+    357.4,
+    360.2,
+    362.3
+   ],
+   "size": 4.8,
+   "testo": "245",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    357.4,
+    477.4,
+    364.2
+   ],
+   "size": 5.0,
+   "testo": "bevande, 231",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    365.4,
+    78.8,
+    372.2
+   ],
+   "size": 5.0,
+   "testo": "dell', 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    365.3,
+    222.9,
+    372.1
+   ],
+   "size": 5.0,
+   "testo": "Arcanum Mistico (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    365.2,
+    303.1,
+    372.0
+   ],
+   "size": 5.0,
+   "testo": "arnesi da scasso, 221",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.9,
+    365.1,
+    401.7,
+    372.0
+   ],
+   "size": 6.2,
+   "testo": "aura magica di Nystul",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    365.4,
+    466.2,
+    372.2
+   ],
+   "size": 5.0,
+   "testo": "Biga, 229",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    373.4,
+    93.2,
+    380.2
+   ],
+   "size": 5.0,
+   "testo": "acqua santa, 222",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    373.4,
+    192.8,
+    380.2
+   ],
+   "size": 5.0,
+   "testo": "di classe), 167",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    241.8,
+    373.3,
+    320.7,
+    380.1
+   ],
+   "size": 5.0,
+   "testo": "arrotondare per difetto, 362",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.5,
+    373.1,
+    403.0,
+    379.9
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 245",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    373.4,
+    520.2,
+    380.2
+   ],
+   "size": 5.0,
+   "testo": "Bisturi da battaglia (talento),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    381.4,
+    108.5,
+    388.2
+   ],
+   "size": 5.0,
+   "testo": "acquisire un livello, 42",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    381.3,
+    228.0,
+    388.1
+   ],
+   "size": 5.0,
+   "testo": "Archetipo Marziale (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    381.2,
+    308.1,
+    388.0
+   ],
+   "size": 5.0,
+   "testo": "Arrotondare per difetto",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.7,
+    381.2,
+    396.8,
+    388.0
+   ],
+   "size": 5.0,
+   "testo": "Auran (dialetto), 37",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    381.7,
+    458.6,
+    386.6
+   ],
+   "size": 4.8,
+   "testo": "203",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    389.5,
+    107.7,
+    396.3
+   ],
+   "size": 5.0,
+   "testo": "Acrobazia (abilità), 14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    389.3,
+    227.6,
+    396.2
+   ],
+   "size": 6.2,
+   "testo": "di classe). Vedi sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.8,
+    389.2,
+    286.7,
+    396.0
+   ],
+   "size": 5.0,
+   "testo": "(riquadro), 8",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.9,
+    389.1,
+    424.6,
+    396.0
+   ],
+   "size": 6.2,
+   "testo": "aura sacra (incantesimo), 246",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    389.4,
+    518.5,
+    396.3
+   ],
+   "size": 6.2,
+   "testo": "blocca mostri (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.3,
+    397.5,
+    129.6,
+    404.4
+   ],
+   "size": 6.2,
+   "testo": "aculeo mentale (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    397.4,
+    200.0,
+    404.2
+   ],
+   "size": 5.0,
+   "testo": "del Guerriero, 92",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.3,
+    397.2,
+    329.4,
+    404.1
+   ],
+   "size": 6.2,
+   "testo": "artificio druidico (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.4,
+    397.2,
+    423.8,
+    404.0
+   ],
+   "size": 5.0,
+   "testo": "Autorigenerazione (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    397.8,
+    458.5,
+    402.7
+   ],
+   "size": 4.8,
+   "testo": "248",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    405.9,
+    64.3,
+    410.8
+   ],
+   "size": 4.8,
+   "testo": "239",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.5,
+    405.5,
+    171.9,
+    412.3
+   ],
+   "size": 5.0,
+   "testo": "archi, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.0,
+    405.7,
+    261.5,
+    410.6
+   ],
+   "size": 4.8,
+   "testo": "244",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    405.3,
+    390.1,
+    412.1
+   ],
+   "size": 5.0,
+   "testo": "di classe), 125",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    405.6,
+    521.9,
+    412.5
+   ],
+   "size": 6.2,
+   "testo": "blocca persone (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    413.6,
+    105.2,
+    420.4
+   ],
+   "size": 5.0,
+   "testo": "adattare un'armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    413.5,
+    204.1,
+    420.3
+   ],
+   "size": 5.0,
+   "testo": "Arcidruido (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    413.5,
+    322.2,
+    420.3
+   ],
+   "size": 5.0,
+   "testo": "Artigiano (background), 178",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    413.3,
+    423.6,
+    420.1
+   ],
+   "size": 5.0,
+   "testo": "Avanzamento dei personaggi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    414.0,
+    458.5,
+    418.9
+   ],
+   "size": 4.8,
+   "testo": "248",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    421.6,
+    110.3,
+    428.5
+   ],
+   "size": 6.2,
+   "testo": "a piastre. Vedi taglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    421.5,
+    189.6,
+    428.3
+   ],
+   "size": 5.0,
+   "testo": "di classe), 82",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    421.4,
+    300.7,
+    428.2
+   ],
+   "size": 5.0,
+   "testo": "Artigiano della gilda.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.5,
+    421.3,
+    383.8,
+    428.1
+   ],
+   "size": 5.0,
+   "testo": "(tabella), 41",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    421.5,
+    519.6,
+    428.4
+   ],
+   "size": 6.2,
+   "testo": "bocca magica (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    429.6,
+    128.0,
+    436.4
+   ],
+   "size": 5.0,
+   "testo": "dell'equipaggiamento, 219",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    429.5,
+    187.4,
+    436.3
+   ],
+   "size": 5.0,
+   "testo": "Arco corto, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.7,
+    429.4,
+    303.2,
+    436.2
+   ],
+   "size": 6.2,
+   "testo": "Vedi artigiano, 178",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.8,
+    429.3,
+    415.0,
+    436.1
+   ],
+   "size": 5.0,
+   "testo": "avanzamento di livello, 41",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    429.9,
+    458.5,
+    434.8
+   ],
+   "size": 4.8,
+   "testo": "248",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    437.6,
+    124.6,
+    444.4
+   ],
+   "size": 5.0,
+   "testo": "Addestrare Animali (abilità),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    437.5,
+    188.8,
+    444.3
+   ],
+   "size": 5.0,
+   "testo": "Arco lungo, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    437.4,
+    307.9,
+    444.2
+   ],
+   "size": 5.0,
+   "testo": "Arti Marziali (privilegio",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.8,
+    437.3,
+    422.9,
+    444.1
+   ],
+   "size": 5.0,
+   "testo": "avvelenato (condizione), 362",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    437.6,
+    515.9,
+    444.4
+   ],
+   "size": 5.0,
+   "testo": "bonus, competenza, 11, 13",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    445.9,
+    61.0,
+    450.8
+   ],
+   "size": 4.8,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.5,
+    445.5,
+    196.6,
+    452.3
+   ],
+   "size": 5.0,
+   "testo": "area di effetto, 361",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    445.3,
+    291.5,
+    452.1
+   ],
+   "size": 5.0,
+   "testo": "di classe), 123",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    445.3,
+    389.7,
+    452.1
+   ],
+   "size": 5.0,
+   "testo": "avventura, 8, 362",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    445.6,
+    519.3,
+    452.4
+   ],
+   "size": 5.0,
+   "testo": "bonus all'attacco a distanza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.0,
+    453.6,
+    70.5,
+    460.4
+   ],
+   "size": 5.0,
+   "testo": "Ade, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    453.5,
+    187.4,
+    460.3
+   ],
+   "size": 5.0,
+   "testo": "cilindro, 363",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    453.3,
+    269.2,
+    460.1
+   ],
+   "size": 5.0,
+   "testo": "asce, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.8,
+    453.3,
+    421.9,
+    460.1
+   ],
+   "size": 5.0,
+   "testo": "avventura, equipaggiamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    453.9,
+    455.2,
+    458.8
+   ],
+   "size": 4.8,
+   "testo": "41",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    461.5,
+    125.8,
+    468.3
+   ],
+   "size": 5.0,
+   "testo": "Adepto dei Rituali (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    461.5,
+    180.1,
+    468.3
+   ],
+   "size": 5.0,
+   "testo": "cono, 364",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    461.3,
+    271.8,
+    468.1
+   ],
+   "size": 5.0,
+   "testo": "Ascia, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.8,
+    461.2,
+    370.4,
+    468.0
+   ],
+   "size": 5.0,
+   "testo": "da, 222",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    461.5,
+    519.8,
+    468.3
+   ],
+   "size": 5.0,
+   "testo": "bonus all'attacco in mischia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    469.5,
+    94.3,
+    476.3
+   ],
+   "size": 5.0,
+   "testo": "di classe), 112",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    469.4,
+    180.1,
+    476.2
+   ],
+   "size": 5.0,
+   "testo": "cubo, 364",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    469.3,
+    296.1,
+    476.1
+   ],
+   "size": 5.0,
+   "testo": "Ascia bipenne, 215",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    469.2,
+    384.1,
+    476.0
+   ],
+   "size": 5.0,
+   "testo": "azione, 15, 362",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    469.8,
+    455.3,
+    474.7
+   ],
+   "size": 4.8,
+   "testo": "41",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    477.5,
+    126.1,
+    484.3
+   ],
+   "size": 5.0,
+   "testo": "Adepto elementale (talento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    477.4,
+    200.6,
+    484.2
+   ],
+   "size": 5.0,
+   "testo": "emanazione, 365",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    477.3,
+    306.2,
+    484.1
+   ],
+   "size": 5.0,
+   "testo": "Ascia da battaglia, 215",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.7,
+    477.2,
+    378.6,
+    484.0
+   ],
+   "size": 5.0,
+   "testo": "Aiuto, 361",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    477.5,
+    503.4,
+    484.3
+   ],
+   "size": 5.0,
+   "testo": "bonus, azione, 15, 362",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    485.9,
+    64.3,
+    490.8
+   ],
+   "size": 4.8,
+   "testo": "202",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    485.4,
+    179.5,
+    492.2
+   ],
+   "size": 5.0,
+   "testo": "linea, 367",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    485.3,
+    323.3,
+    492.1
+   ],
+   "size": 5.0,
+   "testo": "Assassino (sottoclasse), 104",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.7,
+    485.2,
+    384.7,
+    492.0
+   ],
+   "size": 5.0,
+   "testo": "Attacco, 362",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    485.5,
+    501.6,
+    492.3
+   ],
+   "size": 5.0,
+   "testo": "Bonus di competenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    493.5,
+    127.5,
+    500.3
+   ],
+   "size": 5.0,
+   "testo": "affascinato (condizione), 360",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    493.4,
+    179.9,
+    500.2
+   ],
+   "size": 5.0,
+   "testo": "sfera, 374",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    493.2,
+    308.5,
+    500.0
+   ],
+   "size": 5.0,
+   "testo": "assegnare i punteggi di",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.4,
+    493.2,
+    381.7,
+    500.0
+   ],
+   "size": 5.0,
+   "testo": "Bonus, 362",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.0,
+    493.5,
+    482.0,
+    500.3
+   ],
+   "size": 5.0,
+   "testo": "(tabella), 13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    501.5,
+    83.0,
+    508.3
+   ],
+   "size": 5.0,
+   "testo": "afferrare, 360",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.5,
+    501.4,
+    192.6,
+    508.2
+   ],
+   "size": 5.0,
+   "testo": "area oscurata, 19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.7,
+    501.3,
+    297.5,
+    508.1
+   ],
+   "size": 5.0,
+   "testo": "caratteristica, 38",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.4,
+    501.2,
+    398.1,
+    508.0
+   ],
+   "size": 5.0,
+   "testo": "Disimpegno, 365",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    501.5,
+    469.6,
+    508.3
+   ],
+   "size": 5.0,
+   "testo": "borsa, 224",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    509.6,
+    120.7,
+    516.4
+   ],
+   "size": 5.0,
+   "testo": "afferrato (condizione), 361",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    509.4,
+    225.5,
+    516.2
+   ],
+   "size": 5.0,
+   "testo": "Aree di conoscenza (tabella),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    509.3,
+    322.1,
+    516.1
+   ],
+   "size": 5.0,
+   "testo": "assordato (condizione), 362",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.4,
+    509.2,
+    389.6,
+    516.0
+   ],
+   "size": 5.0,
+   "testo": "Influenza, 366",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    509.5,
+    504.6,
+    516.3
+   ],
+   "size": 5.0,
+   "testo": "borsa da erborista, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    517.6,
+    105.5,
+    524.4
+   ],
+   "size": 5.0,
+   "testo": "Aggressore selvaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.4,
+    517.8,
+    162.8,
+    522.7
+   ],
+   "size": 4.8,
+   "testo": "375",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    517.4,
+    268.5,
+    524.2
+   ],
+   "size": 5.0,
+   "testo": "asta, 224",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.4,
+    517.4,
+    381.0,
+    524.2
+   ],
+   "size": 5.0,
+   "testo": "Magia, 367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    517.6,
+    506.7,
+    524.4
+   ],
+   "size": 5.0,
+   "testo": "borsa del guaritore, 224",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    525.6,
+    92.0,
+    532.4
+   ],
+   "size": 5.0,
+   "testo": "(talento), 200",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    525.6,
+    222.3,
+    532.4
+   ],
+   "size": 5.0,
+   "testo": "Aria, Piano Elementale dell',",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    525.4,
+    295.7,
+    532.2
+   ],
+   "size": 5.0,
+   "testo": "Astrale, Piano, 344",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.4,
+    525.3,
+    399.0,
+    532.1
+   ],
+   "size": 5.0,
+   "testo": "Nascondersi, 368",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    525.6,
+    516.0,
+    532.4
+   ],
+   "size": 5.0,
+   "testo": "borsa per componenti, 224",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    533.6,
+    69.9,
+    540.4
+   ],
+   "size": 5.0,
+   "testo": "ago, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.4,
+    533.8,
+    162.8,
+    538.7
+   ],
+   "size": 4.8,
+   "testo": "344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    533.3,
+    299.3,
+    540.1
+   ],
+   "size": 5.0,
+   "testo": "Atleta (talento), 202",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.0,
+    533.3,
+    392.2,
+    540.1
+   ],
+   "size": 5.0,
+   "testo": "Prepararsi, 369",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    533.6,
+    499.8,
+    540.4
+   ],
+   "size": 5.0,
+   "testo": "bottiglia di vetro, 224",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    541.6,
+    125.0,
+    548.5
+   ],
+   "size": 6.2,
+   "testo": "ago da cerbottana. Vedi ago,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.5,
+    541.4,
+    198.8,
+    548.2
+   ],
+   "size": 5.0,
+   "testo": "ariete portatile, 224",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    541.3,
+    297.9,
+    548.1
+   ],
+   "size": 5.0,
+   "testo": "Atletica (abilità), 14",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.4,
+    541.2,
+    383.8,
+    548.0
+   ],
+   "size": 5.0,
+   "testo": "Ricerca, 371",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    541.6,
+    485.7,
+    548.4
+   ],
+   "size": 6.2,
+   "testo": "braccia di Hadar",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    549.9,
+    64.2,
+    554.8
+   ],
+   "size": 4.8,
+   "testo": "226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.5,
+    549.4,
+    186.1,
+    556.2
+   ],
+   "size": 5.0,
+   "testo": "arma, 213, 361",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    549.3,
+    312.8,
+    556.1
+   ],
+   "size": 5.0,
+   "testo": "Attaccanti e bersagli non",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.0,
+    549.3,
+    381.2,
+    556.1
+   ],
+   "size": 5.0,
+   "testo": "Scatto, 373",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.0,
+    549.6,
+    501.3,
+    556.4
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 248",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    557.5,
+    96.2,
+    564.3
+   ],
+   "size": 5.0,
+   "testo": "Aiuto (azione), 15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.4,
+    557.4,
+    194.7,
+    564.2
+   ],
+   "size": 5.0,
+   "testo": "a distanza, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    557.4,
+    309.8,
+    564.2
+   ],
+   "size": 5.0,
+   "testo": "visibili (riquadro), 26",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.1,
+    557.3,
+    386.9,
+    564.1
+   ],
+   "size": 5.0,
+   "testo": "Schivata, 373",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    557.6,
+    472.6,
+    564.4
+   ],
+   "size": 5.0,
+   "testo": "brocca, 224",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.3,
+    565.5,
+    114.7,
+    572.4
+   ],
+   "size": 6.2,
+   "testo": "aiuto (incantesimo), 239",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.4,
+    565.4,
+    186.4,
+    572.2
+   ],
+   "size": 5.0,
+   "testo": "attacco, 362",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    565.3,
+    319.4,
+    572.1
+   ],
+   "size": 5.0,
+   "testo": "Attacchi Studiati (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.1,
+    565.3,
+    381.8,
+    572.1
+   ],
+   "size": 5.0,
+   "testo": "Studio, 375",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    565.6,
+    498.5,
+    572.4
+   ],
+   "size": 5.0,
+   "testo": "Bruciare i Non Morti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    573.5,
+    84.4,
+    580.3
+   ],
+   "size": 5.0,
+   "testo": "Alabarda, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    573.4,
+    200.6,
+    580.2
+   ],
+   "size": 5.0,
+   "testo": "competenza, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    573.3,
+    288.1,
+    580.1
+   ],
+   "size": 5.0,
+   "testo": "di classe), 92",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.2,
+    573.2,
+    385.1,
+    580.0
+   ],
+   "size": 5.0,
+   "testo": "Utilizzo, 377",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.0,
+    573.6,
+    514.9,
+    580.4
+   ],
+   "size": 5.0,
+   "testo": "(privilegio di classe), 71",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    581.5,
+    130.1,
+    588.3
+   ],
+   "size": 5.0,
+   "testo": "alce (scheda delle statistiche),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    581.4,
+    192.8,
+    588.2
+   ],
+   "size": 5.0,
+   "testo": "da guerra, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.1,
+    581.3,
+    287.2,
+    588.1
+   ],
+   "size": 5.0,
+   "testo": "attacco, 15, 362",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    581.2,
+    401.9,
+    588.0
+   ],
+   "size": 5.0,
+   "testo": "azione di Lanciare un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    581.6,
+    511.9,
+    588.4
+   ],
+   "size": 5.0,
+   "testo": "bruno, orso (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    589.8,
+    64.3,
+    594.7
+   ],
+   "size": 4.8,
+   "testo": "346",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    589.4,
+    202.4,
+    596.2
+   ],
+   "size": 5.0,
+   "testo": "improvvisata, 361",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.2,
+    589.3,
+    290.0,
+    596.1
+   ],
+   "size": 5.0,
+   "testo": "a distanza, 26",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.4,
+    589.2,
+    420.7,
+    596.1
+   ],
+   "size": 6.2,
+   "testo": "Incantesimo. Vedi Magia,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.4,
+    589.5,
+    493.1,
+    596.3
+   ],
+   "size": 5.0,
+   "testo": "statistiche), 352",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    597.5,
+    84.3,
+    604.3
+   ],
+   "size": 5.0,
+   "testo": "al giorno, 361",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.4,
+    597.4,
+    188.2,
+    604.2
+   ],
+   "size": 5.0,
+   "testo": "mischia, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.2,
+    597.2,
+    288.9,
+    604.0
+   ],
+   "size": 5.0,
+   "testo": "a distanza, in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.6,
+    597.5,
+    360.3,
+    602.4
+   ],
+   "size": 4.8,
+   "testo": "367",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.8,
+    597.5,
+    508.3,
+    604.3
+   ],
+   "size": 5.0,
+   "testo": "buttarsi a terra proni, 25",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.3,
+    605.4,
+    121.4,
+    612.3
+   ],
+   "size": 6.2,
+   "testo": "allarme (incantesimo), 239",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.4,
+    605.4,
+    189.1,
+    612.2
+   ],
+   "size": 5.0,
+   "testo": "monaco, 123",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.2,
+    605.3,
+    302.7,
+    612.1
+   ],
+   "size": 5.0,
+   "testo": "combattimento",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.7,
+    605.2,
+    423.2,
+    612.0
+   ],
+   "size": 5.0,
+   "testo": "Azione Impetuosa (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.8,
+    605.5,
+    475.0,
+    612.3
+   ],
+   "size": 5.0,
+   "testo": "Bytopia, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.8,
+    613.6,
+    78.1,
+    620.4
+   ],
+   "size": 5.0,
+   "testo": "alleato, 361",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    613.5,
+    191.8,
+    620.3
+   ],
+   "size": 5.0,
+   "testo": "proprietà, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.1,
+    613.4,
+    299.8,
+    620.2
+   ],
+   "size": 5.0,
+   "testo": "ravvicinato, 26",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.8,
+    613.4,
+    386.6,
+    620.2
+   ],
+   "size": 5.0,
+   "testo": "di classe), 91",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.5,
+    613.6,
+    473.5,
+    620.4
+   ],
+   "size": 5.0,
+   "testo": "CA base, 12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.1,
+    621.5,
+    128.8,
+    628.4
+   ],
+   "size": 6.2,
+   "testo": "alleato planare (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    621.5,
+    221.9,
+    628.3
+   ],
+   "size": 5.0,
+   "testo": "proprietà di padronanza,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.0,
+    621.4,
+    279.3,
+    628.2
+   ],
+   "size": 5.0,
+   "testo": "arma, 362",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    621.3,
+    412.1,
+    628.1
+   ],
+   "size": 5.0,
+   "testo": "Azione Scaltra (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.5,
+    621.6,
+    508.2,
+    628.4
+   ],
+   "size": 5.0,
+   "testo": "Cacciatore delle Tenebre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    629.9,
+    64.4,
+    634.8
+   ],
+   "size": 4.8,
+   "testo": "239",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    159.4,
+    629.8,
+    170.9,
+    634.7
+   ],
+   "size": 4.8,
+   "testo": "214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.2,
+    629.4,
+    293.6,
+    636.2
+   ],
+   "size": 5.0,
+   "testo": "azione, 15, 362",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.8,
+    629.3,
+    390.1,
+    636.1
+   ],
+   "size": 5.0,
+   "testo": "di classe), 101",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.0,
+    629.7,
+    498.4,
+    636.5
+   ],
+   "size": 5.0,
+   "testo": "(sottoclasse), 145",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    637.7,
+    103.6,
+    644.5
+   ],
+   "size": 5.0,
+   "testo": "Allerta (talento), 200",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.5,
+    637.5,
+    191.3,
+    644.3
+   ],
+   "size": 5.0,
+   "testo": "semplice, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    637.5,
+    297.1,
+    644.3
+   ],
+   "size": 5.0,
+   "testo": "effettuare un, 25",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    637.4,
+    394.9,
+    644.2
+   ],
+   "size": 5.0,
+   "testo": "Azioni (tabella), 15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.7,
+    637.7,
+    503.7,
+    644.5
+   ],
+   "size": 5.0,
+   "testo": "Cacciatore Implacabile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    645.6,
+    106.2,
+    652.4
+   ],
+   "size": 5.0,
+   "testo": "allineamento, 39, 361",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    645.5,
+    202.9,
+    652.3
+   ],
+   "size": 5.0,
+   "testo": "arma a distanza, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.8,
+    645.5,
+    299.4,
+    652.3
+   ],
+   "size": 5.0,
+   "testo": "incantesimo, 238",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    645.3,
+    387.5,
+    652.2
+   ],
+   "size": 6.2,
+   "testo": "bacche benefiche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.1,
+    645.7,
+    518.4,
+    652.5
+   ],
+   "size": 5.0,
+   "testo": "(privilegio di classe), 143",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.0,
+    653.6,
+    81.7,
+    660.4
+   ],
+   "size": 5.0,
+   "testo": "alloggio, 231",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    653.5,
+    231.1,
+    660.3
+   ],
+   "size": 5.0,
+   "testo": "arma a distanza da guerra, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    653.4,
+    283.5,
+    660.2
+   ],
+   "size": 5.0,
+   "testo": "mischia, 26",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    349.5,
+    653.4,
+    403.0,
+    660.2
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 246",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.5,
+    653.7,
+    521.3,
+    660.5
+   ],
+   "size": 5.0,
+   "testo": "Cacciatore (sottoclasse), 144",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.9,
+    661.6,
+    103.0,
+    668.5
+   ],
+   "size": 6.2,
+   "testo": "allucinazione diforza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    661.5,
+    229.6,
+    668.3
+   ],
+   "size": 5.0,
+   "testo": "arma a distanza semplice, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    661.4,
+    308.3,
+    668.2
+   ],
+   "size": 5.0,
+   "testo": "opportunità, 26, 362",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.3,
+    661.4,
+    410.0,
+    668.2
+   ],
+   "size": 5.0,
+   "testo": "Background e specie dei",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    661.6,
+    523.4,
+    668.4
+   ],
+   "size": 5.0,
+   "testo": "caduta da una cavalcatura, 27",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    669.6,
+    107.0,
+    676.4
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 240",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.3,
+    669.5,
+    223.0,
+    676.3
+   ],
+   "size": 5.0,
+   "testo": "Arma Consacrata (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    669.4,
+    303.7,
+    676.2
+   ],
+   "size": 5.0,
+   "testo": "attacco a distanza, 26",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.1,
+    669.4,
+    424.0,
+    676.2
+   ],
+   "size": 5.0,
+   "testo": "vecchi manuali (riquadro),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.5,
+    669.7,
+    507.5,
+    676.5
+   ],
+   "size": 5.0,
+   "testo": "Caduta Lenta (privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    677.6,
+    104.1,
+    684.5
+   ],
+   "size": 6.2,
+   "testo": "allucinazione mortale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.4,
+    677.5,
+    192.7,
+    684.3
+   ],
+   "size": 5.0,
+   "testo": "di classe), 136",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    677.4,
+    301.8,
+    684.2
+   ],
+   "size": 5.0,
+   "testo": "in combattimento",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.6,
+    677.7,
+    356.7,
+    682.6
+   ],
+   "size": 4.8,
+   "testo": "38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.4,
+    677.7,
+    488.6,
+    684.5
+   ],
+   "size": 5.0,
+   "testo": "di classe), 125",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    685.6,
+    107.0,
+    692.4
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 240",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    685.5,
+    204.9,
+    692.3
+   ],
+   "size": 5.0,
+   "testo": "arma da mischia, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    258.1,
+    685.4,
+    300.0,
+    692.2
+   ],
+   "size": 5.0,
+   "testo": "ravvicinato, 26",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.7,
+    685.3,
+    426.9,
+    692.1
+   ],
+   "size": 5.0,
+   "testo": "background, personaggio, 177",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.4,
+    685.6,
+    525.7,
+    692.5
+   ],
+   "size": 6.2,
+   "testo": "caduta morbida (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.1,
+    693.5,
+    90.4,
+    700.4
+   ],
+   "size": 6.2,
+   "testo": "alterare se stesso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    693.5,
+    221.0,
+    700.3
+   ],
+   "size": 5.0,
+   "testo": "arma da mischia da guerra,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.0,
+    693.4,
+    329.2,
+    700.2
+   ],
+   "size": 5.0,
+   "testo": "attacco di opportunità, 26, 362",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    693.2,
+    424.5,
+    700.1
+   ],
+   "size": 6.2,
+   "testo": "bagliore lunare (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    447.3,
+    693.9,
+    458.5,
+    698.8
+   ],
+   "size": 4.8,
+   "testo": "248",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    701.5,
+    107.0,
+    708.3
+   ],
+   "size": 5.0,
+   "testo": "(incantesimo), 240",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.4,
+    701.7,
+    162.8,
+    706.6
+   ],
+   "size": 4.8,
+   "testo": "215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    701.3,
+    297.0,
+    708.1
+   ],
+   "size": 5.0,
+   "testo": "effettuare un, 26",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    348.8,
+    701.6,
+    360.1,
+    706.5
+   ],
+   "size": 4.8,
+   "testo": "246",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    701.6,
+    501.9,
+    708.4
+   ],
+   "size": 5.0,
+   "testo": "caduta (pericolo), 363",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.0,
+    709.6,
+    126.4,
+    716.4
+   ],
+   "size": 5.0,
+   "testo": "amichevole (atteggiamento),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.4,
+    709.4,
+    219.5,
+    716.2
+   ],
+   "size": 5.0,
+   "testo": "arma da mischia semplice,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    250.1,
+    709.3,
+    289.1,
+    716.1
+   ],
+   "size": 5.0,
+   "testo": "evitare un, 26",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    340.8,
+    709.3,
+    422.8,
+    716.2
+   ],
+   "size": 6.2,
+   "testo": "bagliore solare (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.2,
+    709.6,
+    491.7,
+    716.4
+   ],
+   "size": 5.0,
+   "testo": "calcolare la CA, 12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    717.9,
+    64.3,
+    722.8
+   ],
+   "size": 4.8,
+   "testo": "361",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.3,
+    717.8,
+    162.9,
+    722.7
+   ],
+   "size": 4.8,
+   "testo": "215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    348.7,
+    717.6,
+    360.0,
+    722.5
+   ],
+   "size": 4.8,
+   "testo": "247",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1272 @@
+{
+ "pagina_pdf": 206,
+ "pagina_stampata": 203,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 5 I TALENTI / 203",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    64.3,
+    37.1,
+    261.5,
+    47.6
+   ],
+   "size": 8.8,
+   "testo": "Impersonificazione. Quando il personaggio si finge",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    48.1,
+    272.7,
+    58.7
+   ],
+   "size": 8.8,
+   "testo": "qualcun altro (che sia reale o fittizio), ha vantaggio alle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    59.1,
+    284.2,
+    69.6
+   ],
+   "size": 8.8,
+   "testo": "prove di Carisma (Inganno o Intrattenere) per convincere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    70.2,
+    156.9,
+    80.7
+   ],
+   "size": 8.8,
+   "testo": "gli altri della sua identità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    81.1,
+    285.1,
+    91.7
+   ],
+   "size": 8.8,
+   "testo": "Imitare. Il personaggio può imitare i suoni emessi da altre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    92.0,
+    281.6,
+    102.6
+   ],
+   "size": 8.8,
+   "testo": "creature, inclusa la parlata. Una creatura che ascolti l'imi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    103.0,
+    281.9,
+    113.6
+   ],
+   "size": 8.8,
+   "testo": "tazione deve superare una prova di Saggezza (Intuizione)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    114.1,
+    286.4,
+    124.7
+   ],
+   "size": 8.8,
+   "testo": "per capirne la natura ingannevole (CD 8 più il modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    125.1,
+    204.0,
+    135.6
+   ],
+   "size": 8.8,
+   "testo": "di Carisma e il bonus di competenza).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    159.9,
+    286.8,
+    171.2
+   ],
+   "size": 11.2,
+   "testo": "AUMENTO DEI PUNTEGGI DI CARATTERISTICA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    171.4,
+    249.0,
+    181.8
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    185.9,
+    277.6,
+    196.5
+   ],
+   "size": 8.8,
+   "testo": "Aumenta un punteggio di caratteristica a tua scelta di 2,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    197.0,
+    286.9,
+    207.6
+   ],
+   "size": 8.8,
+   "testo": "oppure aumenta due punteggi di caratteristica di 1. Questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    208.0,
+    275.2,
+    218.6
+   ],
+   "size": 8.8,
+   "testo": "talento non può incrementare un punteggio di caratteri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    218.9,
+    118.8,
+    229.5
+   ],
+   "size": 8.8,
+   "testo": "stica oltre il 20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    230.0,
+    276.4,
+    240.6
+   ],
+   "size": 8.8,
+   "testo": "Ripetibile. Questo talento è ottenibile più di una volta.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    264.8,
+    179.2,
+    276.1
+   ],
+   "size": 11.2,
+   "testo": "BISTURI DA BATTAGLIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    276.2,
+    248.9,
+    286.8
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    290.7,
+    217.8,
+    301.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    301.8,
+    285.1,
+    312.3
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggidi caratteristica. Il suo punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    312.8,
+    284.6,
+    323.4
+   ],
+   "size": 8.8,
+   "testo": "di Forza o Destrezza aumenta di 1, fino a un massimo di 20.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.6,
+    323.7,
+    280.1,
+    334.3
+   ],
+   "size": 8.8,
+   "testo": "Colpo debilitante. Una volta per turno, quando colpisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    334.7,
+    277.3,
+    345.2
+   ],
+   "size": 8.8,
+   "testo": "una creatura con un attacco che infligge danni taglienti,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    345.7,
+    279.2,
+    356.2
+   ],
+   "size": 8.8,
+   "testo": "può ridurre la velocità del bersaglio di 3 metri fino all'ini­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    356.6,
+    217.1,
+    367.2
+   ],
+   "size": 8.8,
+   "testo": "zio del turno successivo del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    367.7,
+    281.9,
+    378.3
+   ],
+   "size": 8.8,
+   "testo": "Critico migliorato. Quando il personaggio mette a segno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    378.7,
+    285.0,
+    389.3
+   ],
+   "size": 8.8,
+   "testo": "un colpo critico che infligge danni taglienti a una creatura,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    389.7,
+    283.8,
+    400.2
+   ],
+   "size": 8.8,
+   "testo": "questa avrà svantaggio ai tiri per colpire fino all'inizio del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    400.8,
+    125.7,
+    411.4
+   ],
+   "size": 8.8,
+   "testo": "turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    435.5,
+    99.9,
+    446.8
+   ],
+   "size": 11.2,
+   "testo": "CARICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    446.9,
+    248.1,
+    457.4
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    458.9,
+    176.7,
+    468.4
+   ],
+   "size": 8.6,
+   "testo": "Forza oDestrezza 13 o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    472.5,
+    217.7,
+    483.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    483.3,
+    285.0,
+    493.9
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il suo punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    494.5,
+    284.4,
+    505.0
+   ],
+   "size": 8.8,
+   "testo": "di Forza o Destrezza aumenta di 1, fino a un massimo di 20.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    505.5,
+    283.3,
+    516.0
+   ],
+   "size": 8.8,
+   "testo": "Scatto migliorato. Quando il personaggio effettua l'azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    516.4,
+    286.8,
+    527.0
+   ],
+   "size": 8.8,
+   "testo": "di Scatto, la sua velocità aumenta di 3 metri per quell'azione.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    527.5,
+    269.2,
+    538.0
+   ],
+   "size": 8.8,
+   "testo": "Attacco in carica. Se il personaggio percorre almeno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    538.5,
+    263.9,
+    549.1
+   ],
+   "size": 8.8,
+   "testo": "3 metri in linea retta verso un bersaglio subito prima",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    549.5,
+    275.9,
+    560.1
+   ],
+   "size": 8.8,
+   "testo": "di colpirlo con un tiro per colpire in mischia come parte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    560.4,
+    262.3,
+    571.0
+   ],
+   "size": 8.8,
+   "testo": "dell'azione di Attacco, scegli uno dei seguenti effetti:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    571.4,
+    276.5,
+    582.0
+   ],
+   "size": 8.8,
+   "testo": "ottieni 1d8 danni bonus al tiro per i danni oppure spingi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    582.5,
+    284.4,
+    593.0
+   ],
+   "size": 8.8,
+   "testo": "via il bersaglio di 3 metri se la sua taglia è superiore di mas­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    593.4,
+    278.1,
+    604.0
+   ],
+   "size": 8.8,
+   "testo": "simo una categoria rispetto a quella del tuo personaggio.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    604.4,
+    273.6,
+    615.0
+   ],
+   "size": 8.8,
+   "testo": "Questo beneficio è utilizzabile una sola volta per turno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    639.4,
+    161.0,
+    650.7
+   ],
+   "size": 11.2,
+   "testo": "CECCHINO MAGICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    650.9,
+    285.2,
+    661.3
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore, privilegio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    662.7,
+    167.1,
+    672.1
+   ],
+   "size": 8.6,
+   "testo": "Incantesimio Magia delpatto)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    676.3,
+    217.7,
+    686.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    687.2,
+    277.6,
+    697.8
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il tuo punteg­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    698.3,
+    281.3,
+    708.9
+   ],
+   "size": 8.8,
+   "testo": "gio di Intelligenza, Saggezza o Carisma aumenta di 1, fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    709.2,
+    135.9,
+    719.8
+   ],
+   "size": 8.8,
+   "testo": "a un massimo di 20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    37.0,
+    539.4,
+    47.6
+   ],
+   "size": 8.8,
+   "testo": "Ignora copertura. I tuoi tiri per colpire per gli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    48.1,
+    527.7,
+    58.7
+   ],
+   "size": 8.8,
+   "testo": "ignorano la mezza copertura e i tre quarti di copertura.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.8,
+    59.1,
+    514.5,
+    69.6
+   ],
+   "size": 8.8,
+   "testo": "Lancio in mischia. Anche se il personaggio si trova",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    70.1,
+    523.8,
+    80.7
+   ],
+   "size": 8.8,
+   "testo": "a 1,5 metri da un nemico, non ottiene svantaggio ai tiri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    81.1,
+    431.2,
+    91.7
+   ],
+   "size": 8.8,
+   "testo": "per colpire con gli incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    92.0,
+    530.6,
+    102.6
+   ],
+   "size": 8.8,
+   "testo": "Gittata aumentata. Quando lancia un incantesimo con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    103.1,
+    531.5,
+    113.6
+   ],
+   "size": 8.8,
+   "testo": "una gittata di almeno 3 metri e che richiede di effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    114.1,
+    519.8,
+    124.6
+   ],
+   "size": 8.8,
+   "testo": "un tiro per colpire, il personaggio può aumentare tale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    125.1,
+    382.9,
+    135.6
+   ],
+   "size": 8.8,
+   "testo": "gittata di 18 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    159.9,
+    457.5,
+    171.3
+   ],
+   "size": 11.2,
+   "testo": "COMBATTENTE A DUE ARMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    171.4,
+    500.9,
+    181.8
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    183.4,
+    429.6,
+    192.9
+   ],
+   "size": 8.6,
+   "testo": "Forza o Destrezza 13 o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    197.0,
+    470.6,
+    207.5
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    207.9,
+    537.7,
+    218.5
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggidi caratteristica. Il suo punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    218.9,
+    537.1,
+    229.5
+   ],
+   "size": 8.8,
+   "testo": "di Forza o Destrezza aumenta di 1, fino a un massimo di 20.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.1,
+    230.0,
+    524.0,
+    240.6
+   ],
+   "size": 8.8,
+   "testo": "Combattere condue armi migliorato. Quando il perso­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    241.0,
+    520.6,
+    251.5
+   ],
+   "size": 8.8,
+   "testo": "naggio utilizza un'azione di Attacco nel suo turno per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    251.9,
+    523.8,
+    262.5
+   ],
+   "size": 8.8,
+   "testo": "attaccare con un'arma leggera, durante lo stesso turno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    263.0,
+    525.3,
+    273.5
+   ],
+   "size": 8.8,
+   "testo": "può usare un'azione bonus per sferrarne uno extra con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    274.0,
+    535.9,
+    284.6
+   ],
+   "size": 8.8,
+   "testo": "un'arma diversa, a patto che sia un'arma da mischia senza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    285.0,
+    522.0,
+    295.6
+   ],
+   "size": 8.8,
+   "testo": "la proprietà a due mani. Non puoi aggiungere il modifi­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    296.0,
+    531.0,
+    306.6
+   ],
+   "size": 8.8,
+   "testo": "catore di caratteristica del personaggio all'attacco extra,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    307.0,
+    458.7,
+    317.6
+   ],
+   "size": 8.8,
+   "testo": "a meno che non sia di valore negativo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    318.0,
+    519.1,
+    328.6
+   ],
+   "size": 8.8,
+   "testo": "Estrazione rapida. Il personaggio può estrarre o rin­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    329.0,
+    529.4,
+    339.5
+   ],
+   "size": 8.8,
+   "testo": "foderare due armi senza la proprietà a due mani quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    339.9,
+    530.3,
+    350.5
+   ],
+   "size": 8.8,
+   "testo": "normalmente potrebbe eseguire tali azioni solo con una.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.4,
+    374.7,
+    440.3,
+    386.0
+   ],
+   "size": 11.2,
+   "testo": "COMBATTENTE IN SELLA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    386.1,
+    501.2,
+    396.6
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    400.7,
+    470.7,
+    411.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    411.8,
+    537.4,
+    422.3
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggidicaratteristica. Il suo punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    422.7,
+    521.0,
+    433.3
+   ],
+   "size": 8.8,
+   "testo": "di Forza, Destrezza o Saggezza aumenta di 1, fino a un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    433.7,
+    369.8,
+    444.3
+   ],
+   "size": 8.8,
+   "testo": "massimo di 20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    444.6,
+    530.3,
+    455.2
+   ],
+   "size": 8.8,
+   "testo": "Colpo in sella. Finché è in sella, ha vantaggio ai tiri per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    455.6,
+    538.5,
+    466.2
+   ],
+   "size": 8.8,
+   "testo": "colpire contro le creature non in sella entro 1,5 metri dalla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    466.6,
+    528.4,
+    477.2
+   ],
+   "size": 8.8,
+   "testo": "sua cavalcatura, se queste sono almeno di una categoria",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    477.7,
+    485.3,
+    488.3
+   ],
+   "size": 8.8,
+   "testo": "di taglia inferiore rispetto a tale cavalcatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    488.6,
+    529.9,
+    499.2
+   ],
+   "size": 8.8,
+   "testo": "Balzo laterale. Se la cavalcatura è soggetta a un effetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    499.7,
+    537.3,
+    510.2
+   ],
+   "size": 8.8,
+   "testo": "che le consente di effettuare un tiro salvezza su Destrezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    510.7,
+    534.6,
+    521.3
+   ],
+   "size": 8.8,
+   "testo": "per dimezzare i danni, non subisce alcun danno se supera",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    521.7,
+    530.2,
+    532.3
+   ],
+   "size": 8.8,
+   "testo": "il tiro salvezza, e soltanto la metà dei danni se lo fallisce.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    532.7,
+    515.6,
+    543.3
+   ],
+   "size": 8.8,
+   "testo": "Affinché la cavalcatura disponga di questo beneficio,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    543.8,
+    529.8,
+    554.3
+   ],
+   "size": 8.8,
+   "testo": "il personaggio deve starle in sella e nessuno dei due deve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    554.8,
+    387.2,
+    565.3
+   ],
+   "size": 8.8,
+   "testo": "essere incapacitato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    565.7,
+    538.2,
+    576.2
+   ],
+   "size": 8.8,
+   "testo": "Deviazione. Mentre è in sella, il personaggio può deviare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    576.6,
+    527.3,
+    587.2
+   ],
+   "size": 8.8,
+   "testo": "contro di sé un attacco diretto alla propria cavalcatura,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    587.7,
+    444.8,
+    598.2
+   ],
+   "size": 8.8,
+   "testo": "ammesso che non sia incapacitato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    622.6,
+    512.8,
+    633.9
+   ],
+   "size": 11.2,
+   "testo": "COMPETENZA NELLE ARMI DA GUERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    634.1,
+    501.0,
+    644.5
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    648.6,
+    470.5,
+    659.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    659.6,
+    537.4,
+    670.2
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggidicaratteristica. Il suo punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    670.5,
+    537.1,
+    681.1
+   ],
+   "size": 8.8,
+   "testo": "di Forza o Destrezza aumenta di 1, fino a un massimo di 20.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.0,
+    681.5,
+    524.4,
+    692.1
+   ],
+   "size": 8.8,
+   "testo": "Competenza nelle armi. Il personaggio ottiene compe­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    692.5,
+    415.7,
+    703.1
+   ],
+   "size": 8.8,
+   "testo": "tenza nelle armi da guerra.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

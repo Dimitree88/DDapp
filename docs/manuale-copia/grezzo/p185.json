@@ -1,0 +1,409 @@
+{
+ "pagina_pdf": 185,
+ "pagina_stampata": 182,
+ "dimensioni": [
+  588.8,
+  782.6
+ ],
+ "piede": "182 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   301
+  ],
+  [
+   -1,
+   343,
+   590,
+   590
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.0,
+    226.0,
+    254.0,
+    235.7
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Forza, Destrezza, Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    238.0,
+    187.1,
+    247.7
+   ],
+   "size": 8.4,
+   "testo": "Talento: Musicista (vedi capitolo S)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    250.0,
+    242.5,
+    259.6
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Acrobazia e Intrattenere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    262.3,
+    264.5,
+    271.7
+   ],
+   "size": 9.2,
+   "testo": "Competenza negli strumenti: Scegli un tipo di strumento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    274.0,
+    157.7,
+    283.7
+   ],
+   "size": 9.2,
+   "testo": "musicale (vedi capitolo 6)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    286.1,
+    281.7,
+    295.9
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e B: (A) strumento musicale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.2,
+    298.0,
+    270.7,
+    307.6
+   ],
+   "size": 8.4,
+   "testo": "(lo stesso scelto sopra). 2 costumi, specchio, profumo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.1,
+    310.1,
+    212.5,
+    319.7
+   ],
+   "size": 8.4,
+   "testo": "abiti da viaggiatore, 11 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    589.4,
+    257.6,
+    599.0
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Forza, Destrezza, Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    601.4,
+    227.8,
+    611.1
+   ],
+   "size": 8.4,
+   "testo": "Talento: Lottatore da Taverna (vedi capitolo S)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    613.5,
+    239.2,
+    623.1
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Acrobazia e Percezione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    625.5,
+    256.0,
+    635.1
+   ],
+   "size": 8.4,
+   "testo": "Competenza negli strumenti: strumenti da navigatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    637.5,
+    277.2,
+    647.2
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e B: (A) pugnale, strumenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    649.5,
+    246.6,
+    659.1
+   ],
+   "size": 8.4,
+   "testo": "da navigatore, corda, abiti da viaggiatore, 20 mo;",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    661.4,
+    107.5,
+    671.0
+   ],
+   "size": 8.4,
+   "testo": "o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    225.5,
+    515.1,
+    236.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ha trascorso la maggior parte della sua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.3,
+    236.4,
+    532.1,
+    246.9
+   ],
+   "size": 8.8,
+   "testo": "gioventù tra fiere e carnevali, svolgendo strambi incarichi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    247.4,
+    515.2,
+    258.0
+   ],
+   "size": 8.8,
+   "testo": "per musicisti e acrobati in cambio di lezioni. Potrebbe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    258.4,
+    521.2,
+    269.0
+   ],
+   "size": 8.8,
+   "testo": "aver imparato come fare il funambolo, suonare il flauto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    269.4,
+    525.2,
+    280.0
+   ],
+   "size": 8.8,
+   "testo": "con uno stile tutto suo o recitare poesie con una dizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    280.5,
+    502.2,
+    291.0
+   ],
+   "size": 8.8,
+   "testo": "impeccabile. Ancora oggi si crogiola negli applausi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    291.5,
+    405.7,
+    302.1
+   ],
+   "size": 8.8,
+   "testo": "e reclama il palcoscenico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    588.8,
+    522.1,
+    599.4
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ha vissuto la sua vita per mare, col vento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    599.8,
+    510.8,
+    610.4
+   ],
+   "size": 8.8,
+   "testo": "in poppa e il pavimento che gli oscillava sotto i piedi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    610.8,
+    516.8,
+    621.4
+   ],
+   "size": 8.8,
+   "testo": "Nei suoi viaggi ha frequentato le taverne di ogni luogo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    621.9,
+    519.8,
+    632.5
+   ],
+   "size": 8.8,
+   "testo": "immaginabile, affrontato terribili tempeste, raccontato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    632.9,
+    493.7,
+    643.5
+   ],
+   "size": 8.8,
+   "testo": "le sue imprese e ascoltato quelle di altri marinai.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    559.1,
+    305.2,
+    564.1,
+    311.5
+   ],
+   "size": 4.9,
+   "testo": "o",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    559.2,
+    308.2,
+    564.0,
+    314.5
+   ],
+   "size": 4.9,
+   "testo": ">",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    559.2,
+    312.2,
+    563.9,
+    318.5
+   ],
+   "size": 4.9,
+   "testo": ">",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    559.2,
+    315.9,
+    564.0,
+    322.2
+   ],
+   "size": 4.9,
+   "testo": "z",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    559.1,
+    314.8,
+    565.0,
+    333.0
+   ],
+   "size": 8.6,
+   "testo": "§",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,612 @@
+{
+ "pagina_pdf": 253,
+ "pagina_stampata": 250,
+ "dimensioni": [
+  588.8,
+  782.6
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.0,
+    34.3,
+    276.0,
+    44.9
+   ],
+   "size": 8.8,
+   "testo": "di nuvola usando un'azione di Magia seguita da 1 minuto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    45.4,
+    127.8,
+    55.9
+   ],
+   "size": 8.8,
+   "testo": "di trasformazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    56.5,
+    252.7,
+    67.0
+   ],
+   "size": 8.8,
+   "testo": "Se una creatura è in forma gassosa e sta volando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    67.4,
+    266.1,
+    78.0
+   ],
+   "size": 8.8,
+   "testo": "quando l'effetto termina, scende di 18 metri per round",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    78.4,
+    256.9,
+    89.0
+   ],
+   "size": 8.8,
+   "testo": "per 1 minuto finché non atterra, senza subire danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    89.4,
+    257.7,
+    100.0
+   ],
+   "size": 8.8,
+   "testo": "Se tuttavia non riesce ad atterrare in 1 minuto, cade",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    100.4,
+    157.5,
+    111.0
+   ],
+   "size": 8.8,
+   "testo": "per la distanza rimanente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    135.0,
+    186.8,
+    146.4
+   ],
+   "size": 11.2,
+   "testo": "CAMMINARE SULL'ACQUA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    146.6,
+    277.3,
+    157.0
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazione di3° livello (chierico, druido, ranger, stregone)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    161.1,
+    179.0,
+    171.8
+   ],
+   "size": 8.8,
+   "testo": "Tempo di lancio: azione o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    173.1,
+    113.4,
+    182.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    184.1,
+    218.5,
+    193.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pezzo di sughero)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    195.2,
+    105.4,
+    204.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    211.5,
+    266.7,
+    222.1
+   ],
+   "size": 8.8,
+   "testo": "Questo incantesimo conferisce la capacità di muoversi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    222.5,
+    271.9,
+    233.1
+   ],
+   "size": 8.8,
+   "testo": "su una qualsiasi superficie liquida, come l'acqua, l'acido,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    233.5,
+    257.5,
+    244.0
+   ],
+   "size": 8.8,
+   "testo": "il fango, la neve, le sabbie mobili o la lava, come se si",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    244.5,
+    264.6,
+    255.0
+   ],
+   "size": 8.8,
+   "testo": "trattasse di un innocuo terreno solido (ma le creature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    255.5,
+    282.2,
+    266.1
+   ],
+   "size": 8.8,
+   "testo": "che attraversano un tratto di lava fusa possono comunque",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    266.5,
+    283.8,
+    277.1
+   ],
+   "size": 8.8,
+   "testo": "subire danni dal calore). Fino a dieci creature consenzienti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    277.5,
+    269.8,
+    288.1
+   ],
+   "size": 8.8,
+   "testo": "entro gittata a scelta dell'incantatore ottengono questa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    288.5,
+    207.8,
+    299.1
+   ],
+   "size": 8.8,
+   "testo": "capacità per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    299.5,
+    266.1,
+    310.1
+   ],
+   "size": 8.8,
+   "testo": "Un bersaglio colpito deve usare un'azione bonus per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    310.5,
+    274.8,
+    321.1
+   ],
+   "size": 8.8,
+   "testo": "passare dalla superficie del liquido all'interno del liquido",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    321.6,
+    271.5,
+    332.1
+   ],
+   "size": 8.8,
+   "testo": "stesso e viceversa, ma se il bersaglio cade dentro di esso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    332.5,
+    259.3,
+    343.1
+   ],
+   "size": 8.8,
+   "testo": "passa attraverso la superficie nel liquido sottostante.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    50.1,
+    417.1,
+    61.5
+   ],
+   "size": 11.2,
+   "testo": "CAMPO ANTI-MAGIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    61.7,
+    454.3,
+    72.2
+   ],
+   "size": 8.6,
+   "testo": "Abiurazione di8° livello (chierico, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    77.2,
+    398.0,
+    86.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    88.2,
+    382.1,
+    97.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    99.3,
+    455.4,
+    108.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (limatura di ferro)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    110.2,
+    444.4,
+    119.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    126.5,
+    520.9,
+    137.1
+   ],
+   "size": 8.8,
+   "testo": "Un'aura di anti-magia circonda l'incantatore in un'ema­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    137.5,
+    516.7,
+    148.1
+   ],
+   "size": 8.8,
+   "testo": "nazione di 3 metri. Nessuno può lanciare incantesimi,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    148.5,
+    512.9,
+    159.1
+   ],
+   "size": 8.8,
+   "testo": "compiere azioni di Magia o creare altri effetti magici",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    159.6,
+    514.8,
+    170.1
+   ],
+   "size": 8.8,
+   "testo": "all'interno dell'aura, e tali azioni non possono colpire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    170.6,
+    525.1,
+    181.2
+   ],
+   "size": 8.8,
+   "testo": "o influenzare in alcun modo nulla al suo interno. Le pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    181.6,
+    517.1,
+    192.1
+   ],
+   "size": 8.8,
+   "testo": "prietà degli oggetti magici non funzionano all'interno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    192.6,
+    472.7,
+    203.1
+   ],
+   "size": 8.8,
+   "testo": "dell'aura o su qualsiasi cosa al suo interno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    203.7,
+    531.9,
+    214.2
+   ],
+   "size": 8.8,
+   "testo": "Le aree di effetto create da incantesimi o da altre magie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    214.7,
+    535.3,
+    225.2
+   ],
+   "size": 8.8,
+   "testo": "non possono estendersi all'interno dell'aura e nessuno può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    225.7,
+    535.4,
+    236.2
+   ],
+   "size": 8.8,
+   "testo": "teletrasportarsi all'interno o all'esterno di essa o utilizzare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    236.6,
+    531.0,
+    247.2
+   ],
+   "size": 8.8,
+   "testo": "il viaggio planare. I portali si chiudono temporaneamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    247.6,
+    460.3,
+    258.2
+   ],
+   "size": 8.8,
+   "testo": "quando si trovano all'interno dell'aura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    258.6,
+    518.6,
+    269.2
+   ],
+   "size": 8.8,
+   "testo": "Gli incantesimi già in corso, tranne quelli lanciati da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    269.6,
+    528.1,
+    280.2
+   ],
+   "size": 8.8,
+   "testo": "manufatti o divinità, sono soppressi all'interno dell'area.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    280.7,
+    529.1,
+    291.2
+   ],
+   "size": 8.8,
+   "testo": "Mentre un effetto è soppresso non funziona, ma il tempo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    291.7,
+    533.2,
+    302.3
+   ],
+   "size": 8.8,
+   "testo": "che trascorre in questo stato conta ai fini della sua durata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.5,
+    302.7,
+    522.7,
+    313.3
+   ],
+   "size": 8.8,
+   "testo": "Dissolvimagienon ha alcun effetto sull'aura e le auree",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    313.7,
+    522.8,
+    324.2
+   ],
+   "size": 8.8,
+   "testo": "create da più incantesimi campo anti-magia non si annul­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    324.7,
+    365.7,
+    335.3
+   ],
+   "size": 8.8,
+   "testo": "lano a vicenda.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

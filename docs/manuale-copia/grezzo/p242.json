@@ -1,0 +1,1296 @@
+{
+ "pagina_pdf": 242,
+ "pagina_stampata": 239,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 239",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    56.5,
+    38.0,
+    214.3,
+    50.5
+   ],
+   "size": 12.0,
+   "testo": "DESCRIZIONI DEGLI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    57.0,
+    165.0,
+    69.6
+   ],
+   "size": 12.0,
+   "testo": "INCANTESIMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    76.4,
+    258.0,
+    84.9
+   ],
+   "size": 6.6,
+   "testo": "Gli incantesimi sono presentati in ordine alfabetico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    109.2,
+    153.1,
+    119.6
+   ],
+   "size": 8.2,
+   "testo": "ACULEO MENTALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    119.4,
+    237.4,
+    131.3
+   ],
+   "size": 8.2,
+   "testo": "Divinazione di 2°livello (mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    135.5,
+    146.8,
+    145.9
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    146.4,
+    119.7,
+    156.9
+   ],
+   "size": 8.2,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    159.1,
+    112.7,
+    167.8
+   ],
+   "size": 6.6,
+   "testo": "Componenti: S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    168.5,
+    193.4,
+    178.9
+   ],
+   "size": 8.2,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    187.5,
+    266.4,
+    196.0
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore guida un flusso di energia psionica nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    198.5,
+    261.3,
+    207.2
+   ],
+   "size": 6.6,
+   "testo": "mente di una creatura entro gittata che è in grado di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    209.5,
+    278.9,
+    218.0
+   ],
+   "size": 6.6,
+   "testo": "vedere. Il bersaglio effettua un tiro salvezza su Saggezza,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    220.5,
+    262.4,
+    229.0
+   ],
+   "size": 6.6,
+   "testo": "subendo 3d8 danni psichici in caso di fallimento, o la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    231.5,
+    258.8,
+    240.0
+   ],
+   "size": 6.6,
+   "testo": "metà dei danni in caso di successo. Se fallisce il tiro,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    242.5,
+    271.3,
+    251.1
+   ],
+   "size": 6.6,
+   "testo": "l'incantatore sa sempre dove si trova il bersaglio fino al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    253.5,
+    277.6,
+    262.0
+   ],
+   "size": 6.6,
+   "testo": "termine dell'incantesimo, ma solo se entrambi si trovano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    264.5,
+    272.2,
+    273.2
+   ],
+   "size": 6.6,
+   "testo": "sullo stesso piano di esistenza. Finché l'incantatore è in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    275.6,
+    256.1,
+    284.1
+   ],
+   "size": 6.6,
+   "testo": "possesso di queste conoscenze, il bersaglio non può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    286.6,
+    262.4,
+    295.3
+   ],
+   "size": 6.6,
+   "testo": "nascondersi da lui e, se è invisibile, non ottiene alcun",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    297.6,
+    228.3,
+    306.1
+   ],
+   "size": 6.6,
+   "testo": "beneficio da questa condizione contro di lui.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    308.5,
+    258.6,
+    317.2
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    319.5,
+    281.4,
+    328.0
+   ],
+   "size": 6.6,
+   "testo": "I danni aumentano di 1d8 per ogni slot di livello superiore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    327.4,
+    75.8,
+    339.1
+   ],
+   "size": 6.6,
+   "testo": "al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    363.2,
+    91.4,
+    373.7
+   ],
+   "size": 8.2,
+   "testo": "AIUTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    373.5,
+    268.4,
+    385.4
+   ],
+   "size": 8.2,
+   "testo": "Abiurazione di 2°livello (bardo, chierico, druido, paladino,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    386.0,
+    83.4,
+    396.4
+   ],
+   "size": 8.2,
+   "testo": "ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    400.6,
+    146.5,
+    411.0
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    411.6,
+    114.9,
+    422.0
+   ],
+   "size": 8.2,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    422.7,
+    253.3,
+    433.1
+   ],
+   "size": 8.2,
+   "testo": "Componenti: V, S, M (una striscia di tessuto bianco)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    433.6,
+    106.7,
+    444.1
+   ],
+   "size": 8.2,
+   "testo": "Durata: 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    452.4,
+    263.6,
+    460.9
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore sceglie fino a tre creature entro gittata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    463.5,
+    279.0,
+    472.0
+   ],
+   "size": 6.6,
+   "testo": "I punti ferita massimi e i punti ferita attuali di ogni bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    474.4,
+    253.8,
+    483.0
+   ],
+   "size": 6.6,
+   "testo": "glio aumentano di 5 per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    485.4,
+    258.5,
+    494.1
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    496.5,
+    263.3,
+    505.0
+   ],
+   "size": 6.6,
+   "testo": "I punti ferita di ciascun bersaglio aumentano di 5 per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    504.5,
+    236.1,
+    516.2
+   ],
+   "size": 6.6,
+   "testo": "ogni slot incantesimo di livello superiore al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    540.3,
+    106.4,
+    550.7
+   ],
+   "size": 8.2,
+   "testo": "ALLARME",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    550.6,
+    196.7,
+    562.5
+   ],
+   "size": 8.2,
+   "testo": "Abiurazione di 1°livello (mago, ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    566.7,
+    189.3,
+    577.1
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    577.6,
+    114.9,
+    588.1
+   ],
+   "size": 8.2,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    588.6,
+    273.7,
+    599.0
+   ],
+   "size": 8.2,
+   "testo": "Componenti: V, S, M (una campanella e un filo d'argento)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    599.7,
+    106.8,
+    610.1
+   ],
+   "size": 8.2,
+   "testo": "Durata: 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    618.7,
+    269.2,
+    627.2
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore predispone un allarme che segnala un'in­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    629.7,
+    274.3,
+    638.3
+   ],
+   "size": 6.6,
+   "testo": "trusione. Sceglie una porta, una finestra o un'area entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    640.7,
+    257.5,
+    649.2
+   ],
+   "size": 6.6,
+   "testo": "gittata che non sia più ampia di un cubo con spigolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    651.7,
+    271.7,
+    660.4
+   ],
+   "size": 6.6,
+   "testo": "di 6 metri. Fino al termine dell'incantesimo, un allarme",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    662.7,
+    258.6,
+    671.2
+   ],
+   "size": 6.6,
+   "testo": "avverte l'incantatore tutte le volte che una creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    673.6,
+    269.0,
+    682.1
+   ],
+   "size": 6.6,
+   "testo": "tocca o entra nell'area protetta. Al momento del lancio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    684.7,
+    281.5,
+    693.2
+   ],
+   "size": 6.6,
+   "testo": "dell'incantesimo, l'incantatore designa quali creature non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    695.7,
+    265.6,
+    704.2
+   ],
+   "size": 6.6,
+   "testo": "faranno scattare l'allarme. Inoltre, sceglie se l'allarme",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    706.6,
+    137.0,
+    715.3
+   ],
+   "size": 6.6,
+   "testo": "è acustico o mentale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    37.9,
+    514.1,
+    46.6
+   ],
+   "size": 6.6,
+   "testo": "Allarme acustico. L'allarme produce il suono di una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.3,
+    48.9,
+    514.0,
+    57.6
+   ],
+   "size": 6.6,
+   "testo": "campanella per 10 secondi entro 18 metri dall'area",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.3,
+    59.9,
+    352.0,
+    68.4
+   ],
+   "size": 6.6,
+   "testo": "protetta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    71.0,
+    529.4,
+    79.7
+   ],
+   "size": 6.6,
+   "testo": "Allarme mentale. Un suono nella mente avverte l'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.2,
+    81.9,
+    524.3,
+    90.5
+   ],
+   "size": 6.6,
+   "testo": "tatore se questi si trova entro 1,5 chilometri dall'area",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.6,
+    92.8,
+    534.3,
+    101.4
+   ],
+   "size": 6.6,
+   "testo": "protetta. Il suono sveglia l'incantatore se sta dormendo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    125.5,
+    408.1,
+    135.9
+   ],
+   "size": 8.2,
+   "testo": "ALLEATO PLANARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    135.9,
+    429.7,
+    147.8
+   ],
+   "size": 8.2,
+   "testo": "Evocazione di 6°livello (chierico)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    152.0,
+    411.2,
+    162.4
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    163.0,
+    372.6,
+    173.4
+   ],
+   "size": 8.2,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    175.6,
+    375.3,
+    184.3
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    185.0,
+    380.5,
+    195.4
+   ],
+   "size": 8.2,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    204.0,
+    520.5,
+    212.5
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore chiede aiuto a un'entità ultraterrena che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    214.9,
+    529.1,
+    223.5
+   ],
+   "size": 6.6,
+   "testo": "deve essergli nota: un dio, un principe dei demoni o qual­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    226.0,
+    515.2,
+    234.5
+   ],
+   "size": 6.6,
+   "testo": "che altro essere dotato di poteri cosmici. Quell'entità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    237.0,
+    529.4,
+    245.5
+   ],
+   "size": 6.6,
+   "testo": "invia in aiuto un celestiale, un elementale o un immondo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    248.0,
+    529.5,
+    256.5
+   ],
+   "size": 6.6,
+   "testo": "a lei fedele, che appare in uno spazio libero entro gittata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.3,
+    258.9,
+    536.3,
+    267.5
+   ],
+   "size": 6.6,
+   "testo": "Se l'incantatore conosce il nome di una creatura specifica,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    270.0,
+    530.3,
+    278.5
+   ],
+   "size": 6.6,
+   "testo": "può pronunciarlo quando lancial'incantesimo per richie­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    281.1,
+    524.6,
+    289.6
+   ],
+   "size": 6.6,
+   "testo": "dere il suo intervento, ma potrebbe apparire comunque",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    292.0,
+    459.8,
+    300.6
+   ],
+   "size": 6.6,
+   "testo": "una creatura diversa (a scelta del DM).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.2,
+    303.0,
+    526.6,
+    311.7
+   ],
+   "size": 6.6,
+   "testo": "Quando la creatura appare, non è obbligata a compor­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    314.0,
+    530.5,
+    322.5
+   ],
+   "size": 6.6,
+   "testo": "tarsi in un modo particolare. L'incantatore può chiederle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    325.0,
+    522.4,
+    333.5
+   ],
+   "size": 6.6,
+   "testo": "di svolgere per lui un servizio in cambio di pagamento,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    335.9,
+    530.9,
+    344.6
+   ],
+   "size": 6.6,
+   "testo": "ma essa non è costretta ad accettare. Il compito richiesto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    346.9,
+    518.0,
+    355.4
+   ],
+   "size": 6.6,
+   "testo": "potrebbe essere qualcosa di semplice (\"portaci in volo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    357.9,
+    521.5,
+    366.4
+   ],
+   "size": 6.6,
+   "testo": "oltre il baratro\" o \"aiutaci a combattere una battaglia\")",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    368.8,
+    537.5,
+    377.3
+   ],
+   "size": 6.6,
+   "testo": "o di complesso (\"spia i nostri nemici\" o \"proteggici durante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    379.9,
+    519.9,
+    388.4
+   ],
+   "size": 6.6,
+   "testo": "la nostra incursione nel dungeon\"). L'incantatore deve",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    390.9,
+    534.1,
+    399.4
+   ],
+   "size": 6.6,
+   "testo": "essere in grado di comunicare con la creatura per contrat­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    402.0,
+    394.0,
+    410.5
+   ],
+   "size": 6.6,
+   "testo": "tare per i suoi servigi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.2,
+    413.0,
+    510.2,
+    421.5
+   ],
+   "size": 6.6,
+   "testo": "Il pagamento può avere varie forme: Un celestiale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    424.0,
+    534.7,
+    432.5
+   ],
+   "size": 6.6,
+   "testo": "potrebbe richiedere un'ingente donazione in oro o oggetti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    435.0,
+    512.1,
+    443.5
+   ],
+   "size": 6.6,
+   "testo": "magici a un tempio alleato, un immondo esigere una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    445.9,
+    531.5,
+    454.4
+   ],
+   "size": 6.6,
+   "testo": "creatura vivente in sacrificio o un tesoro in dono. Alcune",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    456.9,
+    524.7,
+    465.4
+   ],
+   "size": 6.6,
+   "testo": "creature potrebbero scambiare i propri servigi con una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    467.9,
+    468.6,
+    476.4
+   ],
+   "size": 6.6,
+   "testo": "missione che l'incantatore deve svolgere.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.1,
+    478.8,
+    531.0,
+    487.4
+   ],
+   "size": 6.6,
+   "testo": "Un compito che può essere misurato in minuti richiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    489.9,
+    534.3,
+    498.6
+   ],
+   "size": 6.6,
+   "testo": "un pagamento del valore di 100 mo al minuto, un compito",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    500.9,
+    522.0,
+    509.6
+   ],
+   "size": 6.6,
+   "testo": "misurato in ore richiede 1.000 mo all'ora e un compito",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    511.9,
+    531.1,
+    520.6
+   ],
+   "size": 6.6,
+   "testo": "misurato in giorni (per un massimo di 10 giorni) richiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    523.0,
+    524.3,
+    531.7
+   ],
+   "size": 6.6,
+   "testo": "10.000 mo al giorno. Il DM può modificare questi paga­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    534.0,
+    531.9,
+    542.5
+   ],
+   "size": 6.6,
+   "testo": "menti in base alle circostanze del lancio dell'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    545.0,
+    509.8,
+    553.7
+   ],
+   "size": 6.6,
+   "testo": "Se il compito è in sintonia con l'etica della creatura,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    556.0,
+    518.2,
+    564.5
+   ],
+   "size": 6.6,
+   "testo": "il pagamento potrebbe essere dimezzato o addirittura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    566.9,
+    532.4,
+    575.5
+   ],
+   "size": 6.6,
+   "testo": "revocato. I compiti non pericolosi richiedono tipicamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    577.9,
+    509.5,
+    586.4
+   ],
+   "size": 6.6,
+   "testo": "solo la metà del pagamento suggerito, mentre quelli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    589.0,
+    513.0,
+    597.5
+   ],
+   "size": 6.6,
+   "testo": "particolarmente rischiosi potrebbero richiedere una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    598.4,
+    520.1,
+    608.8
+   ],
+   "size": 8.2,
+   "testo": "ricompensa superiore. È raro che una creatura accetti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    611.1,
+    448.1,
+    619.6
+   ],
+   "size": 6.6,
+   "testo": "un compito potenzialmente suicida.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.1,
+    622.2,
+    508.3,
+    630.7
+   ],
+   "size": 6.6,
+   "testo": "Dopo aver portato a termine il compito o quando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    633.1,
+    522.3,
+    641.6
+   ],
+   "size": 6.6,
+   "testo": "la durata pattuita termina, la creatura fa ritorno al suo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    644.1,
+    528.8,
+    652.6
+   ],
+   "size": 6.6,
+   "testo": "piano d'origine dopo aver fatto rapporto all'incantatore,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    655.1,
+    522.7,
+    663.6
+   ],
+   "size": 6.6,
+   "testo": "se possibile. Se l'incantatore e la creatura non riescono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    666.1,
+    519.4,
+    674.6
+   ],
+   "size": 6.6,
+   "testo": "ad accordarsi sul prezzo del suo servizio, quest'ultima",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    677.0,
+    497.2,
+    685.6
+   ],
+   "size": 6.6,
+   "testo": "ritorna immediatamente sul suo piano d'origine.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1147 @@
+{
+ "pagina_pdf": 374,
+ "pagina_stampata": 371,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "APPENDICE C i GLOSSARIO DELLE REGOLE / 371",
+ "immagini": [
+  [
+   -1,
+   8,
+   589,
+   123
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    62.6,
+    148.1,
+    118.2,
+    159.4
+   ],
+   "size": 11.2,
+   "testo": "REAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    159.6,
+    279.2,
+    170.2
+   ],
+   "size": 8.8,
+   "testo": "Una reazione è un'azione speciale effettuata in risposta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    170.6,
+    290.3,
+    181.2
+   ],
+   "size": 8.8,
+   "testo": "a una circostanza di innesco indicata nella descrizione della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    181.5,
+    284.4,
+    192.1
+   ],
+   "size": 8.8,
+   "testo": "reazione. Il tuo personaggio può effettuare una reazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    192.6,
+    283.8,
+    203.2
+   ],
+   "size": 8.8,
+   "testo": "nel turno di un'altra creatura. Se effettua la reazione nel",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.1,
+    203.7,
+    288.9,
+    214.3
+   ],
+   "size": 8.8,
+   "testo": "proprio turno, può comunque effettuare anche un'azione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    214.6,
+    273.9,
+    225.2
+   ],
+   "size": 8.8,
+   "testo": "un'azione bonus o entrambe. Una volta effettuata una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    225.6,
+    287.8,
+    236.2
+   ],
+   "size": 8.8,
+   "testo": "reazione, il personaggio non può effettuarne un'altra fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    236.6,
+    279.6,
+    247.2
+   ],
+   "size": 8.8,
+   "testo": "all'inizio del suo turno successivo. L'attacco di opportu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    247.6,
+    285.8,
+    258.2
+   ],
+   "size": 8.8,
+   "testo": "nità è una reazione disponibile per tutte le creature. Vedi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    258.6,
+    275.7,
+    269.1
+   ],
+   "size": 8.8,
+   "testo": "anche \"Attacchi di opportunità\" e capitolo 1 (''Azioni\").",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    293.3,
+    128.0,
+    304.7
+   ],
+   "size": 11.2,
+   "testo": "RESISTENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    304.8,
+    268.5,
+    315.3
+   ],
+   "size": 8.8,
+   "testo": "Se un personaggio è dotato di resistenza a un tipo di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    315.8,
+    273.7,
+    326.4
+   ],
+   "size": 8.8,
+   "testo": "danno, i danni di quel tipo che subisce sono dimezzati",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    326.7,
+    279.3,
+    337.3
+   ],
+   "size": 8.8,
+   "testo": "(arrotondando per difetto). La resistenza si applica una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    337.7,
+    281.6,
+    348.3
+   ],
+   "size": 8.8,
+   "testo": "sola volta per ogni istanza di danno ricevuta. Vedianche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    348.7,
+    192.9,
+    359.3
+   ],
+   "size": 8.8,
+   "testo": "capitolo 1 (\"Danni e guarigione\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    383.4,
+    159.7,
+    394.7
+   ],
+   "size": 11.2,
+   "testo": "RICERCA [AZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    394.8,
+    276.6,
+    405.4
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio effettua l'azione di Ricerca,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    405.9,
+    279.8,
+    416.5
+   ],
+   "size": 8.8,
+   "testo": "effettua una prova di Saggezza per discernere qualcosa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    417.0,
+    288.0,
+    427.5
+   ],
+   "size": 8.8,
+   "testo": "che non sia ovvio. La tabella \"Ricerca\" indica quali abilità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    428.0,
+    287.3,
+    438.6
+   ],
+   "size": 8.8,
+   "testo": "sono applicabili quando si usa questa azione, in base a ciò",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    438.9,
+    245.9,
+    449.5
+   ],
+   "size": 8.8,
+   "testo": "che il personaggio sta cercando di individuare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    461.6,
+    106.8,
+    472.3
+   ],
+   "size": 10.6,
+   "testo": "RICERCA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.3,
+    477.6,
+    92.1,
+    486.8
+   ],
+   "size": 8.2,
+   "testo": "Abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    130.1,
+    477.5,
+    223.3,
+    486.7
+   ],
+   "size": 8.2,
+   "testo": "Elemento da individuare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.6,
+    491.5,
+    106.7,
+    501.1
+   ],
+   "size": 8.4,
+   "testo": "Intuizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.5,
+    491.4,
+    243.1,
+    501.0
+   ],
+   "size": 8.4,
+   "testo": "Stato mentale di una creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.6,
+    506.1,
+    103.5,
+    515.7
+   ],
+   "size": 8.4,
+   "testo": "Medicina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    130.0,
+    506.2,
+    287.6,
+    515.8
+   ],
+   "size": 8.4,
+   "testo": "Malattia o causa di morte di una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.6,
+    520.7,
+    109.9,
+    530.3
+   ],
+   "size": 8.4,
+   "testo": "Percezione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.4,
+    520.7,
+    233.8,
+    530.3
+   ],
+   "size": 8.4,
+   "testo": "Creature o oggetti nascosti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.3,
+    535.3,
+    183.5,
+    544.9
+   ],
+   "size": 8.4,
+   "testo": "Sopravvivenza Tracce di cibo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    573.2,
+    140.9,
+    584.6
+   ],
+   "size": 11.2,
+   "testo": "RIPOSO BREVE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    584.6,
+    275.0,
+    595.1
+   ],
+   "size": 8.8,
+   "testo": "Un riposo breve è un periodo di inattività della durata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    595.5,
+    283.0,
+    606.1
+   ],
+   "size": 8.8,
+   "testo": "di 1 ora, durante il quale una creatura non svolge alcuna",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    606.6,
+    282.1,
+    617.2
+   ],
+   "size": 8.8,
+   "testo": "attività che sia più faticosa di leggere, parlare, mangiare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    617.7,
+    284.0,
+    628.3
+   ],
+   "size": 8.8,
+   "testo": "o montare la guardia. Per iniziare un riposo breve, il per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    628.8,
+    230.0,
+    639.3
+   ],
+   "size": 8.8,
+   "testo": "sonaggio deve avere almeno 1 punto ferita.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.1,
+    639.7,
+    284.1,
+    650.3
+   ],
+   "size": 8.8,
+   "testo": "Benefici del riposo. Una volta terminato il riposo, il per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    650.8,
+    203.0,
+    661.3
+   ],
+   "size": 8.8,
+   "testo": "sonaggio ottiene i seguenti benefici:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    667.1,
+    267.3,
+    677.7
+   ],
+   "size": 8.8,
+   "testo": "Dadi Vita da spendere. Puoi spendere uno o più dei",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.6,
+    678.0,
+    272.1,
+    688.6
+   ],
+   "size": 8.8,
+   "testo": "Dadi Vita del tuo personaggio per fargli recuperare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.3,
+    689.1,
+    283.0,
+    699.7
+   ],
+   "size": 8.8,
+   "testo": "punti ferita. Per ogni Dado Vita speso in questo modo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.3,
+    700.1,
+    279.9,
+    710.7
+   ],
+   "size": 8.8,
+   "testo": "lancia il dado e aggiungi al risultato il modificatore di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.5,
+    711.1,
+    283.1,
+    721.6
+   ],
+   "size": 8.8,
+   "testo": "Costituzione del personaggio. Il personaggio recupera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.1,
+    132.8,
+    522.4,
+    143.3
+   ],
+   "size": 8.8,
+   "testo": "un numero di punti ferita pari al totale ottenuto (il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.2,
+    143.7,
+    535.7,
+    154.3
+   ],
+   "size": 8.8,
+   "testo": "minimo è 1). Dopo ogni tiro, puoi decidere se spendere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.1,
+    154.8,
+    423.0,
+    165.4
+   ],
+   "size": 8.8,
+   "testo": "un Dado Vita aggiuntivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    165.9,
+    532.8,
+    176.4
+   ],
+   "size": 8.8,
+   "testo": "Capacità speciali. Alcune capacità si ricaricano con un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.1,
+    176.8,
+    544.8,
+    187.4
+   ],
+   "size": 8.8,
+   "testo": "riposo breve. Se il personaggio possiede una capacità del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.3,
+    187.8,
+    539.7,
+    198.4
+   ],
+   "size": 8.8,
+   "testo": "genere, essa si ricarica nella modalità indicata nella sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.1,
+    198.9,
+    372.2,
+    209.4
+   ],
+   "size": 8.8,
+   "testo": "descrizione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.8,
+    215.2,
+    543.9,
+    225.8
+   ],
+   "size": 8.8,
+   "testo": "Interruzione del riposo. Un riposo breve viene interrotto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    226.3,
+    392.7,
+    236.9
+   ],
+   "size": 8.8,
+   "testo": "dai seguenti eventi:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    242.7,
+    409.1,
+    253.3
+   ],
+   "size": 8.8,
+   "testo": "Tirare per l'iniziativa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.6,
+    253.6,
+    521.1,
+    264.2
+   ],
+   "size": 8.8,
+   "testo": "Lanciare un incantesimo diverso da un trucchetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.2,
+    264.7,
+    375.9,
+    275.2
+   ],
+   "size": 8.8,
+   "testo": "Subire danni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    281.1,
+    543.6,
+    291.7
+   ],
+   "size": 8.8,
+   "testo": "Un riposo breve interrotto non conferisce alcun beneficio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.2,
+    315.9,
+    397.8,
+    327.3
+   ],
+   "size": 11.2,
+   "testo": "RIPOSO LUNGO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    327.1,
+    539.3,
+    337.7
+   ],
+   "size": 8.8,
+   "testo": "Un riposo lungo è un periodo di inattività esteso (almeno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    338.1,
+    542.4,
+    348.7
+   ],
+   "size": 8.8,
+   "testo": "8 ore) disponibile per tutte le creature. Durante un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    349.2,
+    544.2,
+    359.8
+   ],
+   "size": 8.8,
+   "testo": "lungo, il personaggio dorme per almeno 6 ore e svolge non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    360.1,
+    528.4,
+    370.7
+   ],
+   "size": 8.8,
+   "testo": "più di 2 ore di attività poco impegnative come leggere,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    371.0,
+    472.7,
+    381.6
+   ],
+   "size": 8.8,
+   "testo": "parlare, mangiare o montare la guardia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.2,
+    382.1,
+    541.4,
+    392.7
+   ],
+   "size": 8.8,
+   "testo": "Durante il sonno, il personaggio ha la condizione \"privo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    393.2,
+    531.9,
+    403.7
+   ],
+   "size": 8.8,
+   "testo": "di sensi\". Dopo aver terminato un riposo lungo, il perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    404.2,
+    526.7,
+    414.8
+   ],
+   "size": 8.8,
+   "testo": "naggio deve aspettare almeno 16 ore prima di poterne",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    415.3,
+    382.7,
+    425.9
+   ],
+   "size": 8.8,
+   "testo": "iniziare un altro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.7,
+    426.3,
+    517.4,
+    436.9
+   ],
+   "size": 8.8,
+   "testo": "Benefici del riposo. Per iniziare un riposo lungo, il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    437.3,
+    535.4,
+    447.8
+   ],
+   "size": 8.8,
+   "testo": "personaggio deve avere almeno 1 punto ferita. Una volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.8,
+    448.2,
+    496.2,
+    458.8
+   ],
+   "size": 8.8,
+   "testo": "terminato il riposo, ottiene i seguenti benefici:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    464.7,
+    521.9,
+    475.3
+   ],
+   "size": 8.8,
+   "testo": "Recupero di tutti i PF. Il personaggio recupera tutti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    475.7,
+    532.0,
+    486.2
+   ],
+   "size": 8.8,
+   "testo": "i punti ferita perduti e tutti i Dadi Vita spesi. Se i suoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.0,
+    486.6,
+    513.9,
+    497.2
+   ],
+   "size": 8.8,
+   "testo": "punti ferita massimi erano ridotti, ritornano alla",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    497.8,
+    366.0,
+    508.3
+   ],
+   "size": 8.8,
+   "testo": "normalità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    508.7,
+    533.8,
+    519.3
+   ],
+   "size": 8.8,
+   "testo": "Ripristino dei punteggi di caratteristica. Se uno o più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.0,
+    519.7,
+    541.5,
+    530.3
+   ],
+   "size": 8.8,
+   "testo": "punteggi di caratteristica del personaggio erano ridotti,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.0,
+    530.8,
+    422.3,
+    541.4
+   ],
+   "size": 8.8,
+   "testo": "ritornano alla normalità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    541.8,
+    529.0,
+    552.3
+   ],
+   "size": 8.8,
+   "testo": "Riduzione dell'indebolimento. Se il personaggio ha la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    552.7,
+    543.5,
+    563.3
+   ],
+   "size": 8.8,
+   "testo": "condizione \"indebolimento\", questa diminuisce di 1 livello.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    563.7,
+    533.0,
+    574.2
+   ],
+   "size": 8.8,
+   "testo": "Capacità speciali. Alcune capacità si ricaricano con un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.0,
+    574.7,
+    531.4,
+    585.3
+   ],
+   "size": 8.8,
+   "testo": "riposo lungo. Se il personaggio possiede una capacità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    585.7,
+    537.8,
+    596.3
+   ],
+   "size": 8.8,
+   "testo": "del genere, essa si ricarica nella modalità indicata nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.0,
+    596.6,
+    387.5,
+    607.2
+   ],
+   "size": 8.8,
+   "testo": "sua descrizione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.6,
+    613.2,
+    544.1,
+    623.8
+   ],
+   "size": 8.8,
+   "testo": "Interruzione del riposo. Un riposo lungo viene interrotto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    624.3,
+    392.4,
+    634.8
+   ],
+   "size": 8.8,
+   "testo": "dai seguenti eventi:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.8,
+    640.7,
+    408.8,
+    651.2
+   ],
+   "size": 8.8,
+   "testo": "Tirare per l'iniziativa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.1,
+    651.7,
+    521.0,
+    662.2
+   ],
+   "size": 8.8,
+   "testo": "Lanciare un incantesimo diverso da un trucchetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    662.7,
+    375.3,
+    673.3
+   ],
+   "size": 8.8,
+   "testo": "Subire danni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    673.5,
+    526.3,
+    684.1
+   ],
+   "size": 8.8,
+   "testo": "1 ora di camminata o di un altro tipo di sforzo fisico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    690.0,
+    524.7,
+    700.6
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio si è riposato per almeno 1 ora prima",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    701.0,
+    523.1,
+    711.5
+   ],
+   "size": 8.8,
+   "testo": "dell'interruzione, riceve i benefici di un riposo breve.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    712.0,
+    417.7,
+    722.6
+   ],
+   "size": 8.8,
+   "testo": "Vedianche \"Riposo breve\".",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

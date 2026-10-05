@@ -1,0 +1,948 @@
+{
+ "pagina_pdf": 150,
+ "pagina_stampata": 147,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.5,
+    33.0,
+    161.9,
+    46.7
+   ],
+   "size": 10.4,
+   "testo": "BESTIA DEL CIELO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    51.4,
+    141.4,
+    60.6
+   ],
+   "size": 9.2,
+   "testo": "Bestia piccola, neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    66.4,
+    238.9,
+    76.1
+   ],
+   "size": 8.4,
+   "testo": "CA 13 più il modificatore di Saggezza del ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    77.3,
+    264.3,
+    87.0
+   ],
+   "size": 8.4,
+   "testo": "PF 4 + quattro volte il livello da ranger del personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    88.3,
+    268.7,
+    98.0
+   ],
+   "size": 8.4,
+   "testo": "(la bestia ha un numero di Dadi Vita [d6] pari al livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.6,
+    99.3,
+    164.7,
+    108.9
+   ],
+   "size": 8.4,
+   "testo": "da ranger del personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    109.6,
+    170.4,
+    120.3
+   ],
+   "size": 10.6,
+   "testo": "Velocità 6 metri, volo 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.7,
+    123.9,
+    127.1,
+    131.3
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    171.4,
+    123.9,
+    204.7,
+    131.3
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    133.6,
+    85.5,
+    143.3
+   ],
+   "size": 8.4,
+   "testo": "FoR 6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    133.6,
+    104.2,
+    143.3
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.4,
+    133.6,
+    122.8,
+    143.3
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.0,
+    132.8,
+    181.2,
+    143.5
+   ],
+   "size": 10.6,
+   "testo": "DEs 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    189.7,
+    133.6,
+    199.8,
+    143.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.8,
+    133.6,
+    257.9,
+    143.3
+   ],
+   "size": 8.4,
+   "testo": "Cos 13 +1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.6,
+    142.5,
+    282.0,
+    148.8
+   ],
+   "size": 4.9,
+   "testo": "==",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.6,
+    148.2,
+    72.6,
+    157.4
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.4,
+    147.9,
+    85.4,
+    157.5
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    147.9,
+    102.9,
+    157.5
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.5,
+    147.9,
+    121.4,
+    157.5
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.9,
+    147.1,
+    182.2,
+    157.7
+   ],
+   "size": 10.6,
+   "testo": "SAC 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    189.4,
+    147.9,
+    200.8,
+    157.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.4,
+    147.9,
+    243.4,
+    157.5
+   ],
+   "size": 8.4,
+   "testo": "CAR 11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    166.1,
+    234.6,
+    176.8
+   ],
+   "size": 10.6,
+   "testo": "Sensi Percezione passiva 12, scurovisione 18 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    177.0,
+    254.0,
+    187.7
+   ],
+   "size": 10.6,
+   "testo": "Lingue comprende le lingue parlate dal personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    188.1,
+    252.4,
+    198.8
+   ],
+   "size": 10.6,
+   "testo": "GS Nessuno (PE 0; BC pari al bonus di competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    199.9,
+    126.4,
+    209.5
+   ],
+   "size": 8.4,
+   "testo": "del personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    211.0,
+    88.6,
+    229.3
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    233.6,
+    258.8,
+    243.2
+   ],
+   "size": 8.4,
+   "testo": "Sfuggente. La bestia non provoca attacchi di opportu­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    245.0,
+    258.5,
+    254.7
+   ],
+   "size": 8.4,
+   "testo": "nità quando esce volando dalla portata di un nemico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    261.1,
+    245.9,
+    270.7
+   ],
+   "size": 8.4,
+   "testo": "Legame primordiale. Il personaggio somma il suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    272.7,
+    265.6,
+    282.3
+   ],
+   "size": 8.4,
+   "testo": "bonus di competenza a qualsiasi prova di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    284.2,
+    198.2,
+    293.8
+   ],
+   "size": 8.4,
+   "testo": "o tiro salvezza effettuato dalla bestia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    294.7,
+    91.1,
+    312.9
+   ],
+   "size": 8.6,
+   "testo": "AZION I",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    317.0,
+    257.6,
+    326.7
+   ],
+   "size": 9.2,
+   "testo": "Colpo della bestia. Tiro per colpire in mischia: il bonus",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    328.5,
+    265.6,
+    338.2
+   ],
+   "size": 8.4,
+   "testo": "equivale al modificatore di attacco dell'incantesimo del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    340.0,
+    271.5,
+    349.7
+   ],
+   "size": 9.2,
+   "testo": "ranger, portata di 1,5 metri Colpo: 1d4 + 3 più il modifica­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    351.5,
+    221.0,
+    361.1
+   ],
+   "size": 8.4,
+   "testo": "tore di Saggezza del ranger, danni taglienti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    385.4,
+    162.4,
+    399.1
+   ],
+   "size": 10.4,
+   "testo": "BESTIA DEL MARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    403.7,
+    139.0,
+    412.9
+   ],
+   "size": 9.2,
+   "testo": "Bestia media, neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    418.8,
+    238.9,
+    428.5
+   ],
+   "size": 8.4,
+   "testo": "CA 13 più il modificatore di Saggezza del ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    429.8,
+    261.8,
+    439.4
+   ],
+   "size": 8.4,
+   "testo": "PF 5 + cinque volte il livello da ranger del personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    440.8,
+    268.7,
+    450.4
+   ],
+   "size": 8.4,
+   "testo": "(la bestia ha un numero di Dadi Vita [d8] pari al livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.6,
+    451.8,
+    164.7,
+    461.4
+   ],
+   "size": 8.4,
+   "testo": "da ranger del personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    461.9,
+    183.6,
+    472.6
+   ],
+   "size": 10.6,
+   "testo": "Velocità 1,5 metri, nuoto 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.9,
+    476.3,
+    127.0,
+    483.7
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    486.1,
+    104.7,
+    495.7
+   ],
+   "size": 8.4,
+   "testo": "FOR 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.0,
+    486.1,
+    122.5,
+    495.7
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    500.6,
+    72.7,
+    509.9
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.5,
+    500.3,
+    85.5,
+    510.0
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    500.3,
+    103.2,
+    510.0
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.7,
+    500.3,
+    121.0,
+    510.0
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    171.4,
+    476.3,
+    204.7,
+    483.7
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.3,
+    476.3,
+    282.8,
+    483.7
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.2,
+    485.2,
+    182.3,
+    495.8
+   ],
+   "size": 10.6,
+   "testo": "DEs 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    189.5,
+    486.0,
+    200.9,
+    495.6
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.5,
+    486.0,
+    260.1,
+    495.6
+   ],
+   "size": 8.4,
+   "testo": "Cos 15 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    486.0,
+    278.7,
+    495.6
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    134.7,
+    499.5,
+    182.4,
+    510.2
+   ],
+   "size": 10.6,
+   "testo": "SAC 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    189.5,
+    500.3,
+    200.8,
+    509.9
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.3,
+    500.3,
+    279.4,
+    509.9
+   ],
+   "size": 8.4,
+   "testo": "CAR 11 +0 +0",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    518.5,
+    234.0,
+    529.2
+   ],
+   "size": 10.6,
+   "testo": "Sensi Percezione passiva 12, scurovisione 27 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    529.6,
+    254.0,
+    540.2
+   ],
+   "size": 10.6,
+   "testo": "Lingue comprende le lingue parlate dal personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    540.5,
+    265.9,
+    551.2
+   ],
+   "size": 10.6,
+   "testo": "GS Nessuno (PE 0; BC pari al bonus di competenza del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    552.4,
+    113.5,
+    562.0
+   ],
+   "size": 8.4,
+   "testo": "personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    563.4,
+    88.8,
+    581.6
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    585.9,
+    244.4,
+    595.6
+   ],
+   "size": 8.4,
+   "testo": "Anfibio. La bestia può respirare in aria e in acqua.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    601.9,
+    271.8,
+    611.6
+   ],
+   "size": 8.4,
+   "testo": "Legame primordiale. Il personaggio somma il suo bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    613.6,
+    261.4,
+    623.2
+   ],
+   "size": 8.4,
+   "testo": "di competenza a qualsiasi prova di caratteristica o tiro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    625.2,
+    175.8,
+    634.8
+   ],
+   "size": 8.4,
+   "testo": "salvezza effettuato dalla bestia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    635.7,
+    91.2,
+    653.9
+   ],
+   "size": 8.6,
+   "testo": "AZION I",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    658.1,
+    276.2,
+    667.8
+   ],
+   "size": 9.2,
+   "testo": "Colpo della bestia. Tiro per colpire in mischia: il bonus equi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    669.5,
+    277.1,
+    679.2
+   ],
+   "size": 8.4,
+   "testo": "vale al modificatore di attacco dell'incantesimo del ranger,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    681.1,
+    257.8,
+    690.8
+   ],
+   "size": 9.2,
+   "testo": "portata di 1,5 metri Colpo: 1d6 + 2 più il modificatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    692.6,
+    264.1,
+    702.2
+   ],
+   "size": 8.4,
+   "testo": "di Saggezza del ranger, danni contundenti o perforanti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    704.1,
+    278.0,
+    713.7
+   ],
+   "size": 8.4,
+   "testo": "(a scelta al momento dell'evocazione della bestia); il bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    715.6,
+    275.1,
+    725.2
+   ],
+   "size": 8.4,
+   "testo": "glio viene afferrato (la CD per fuggire corrisponde alla CD",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    727.1,
+    228.8,
+    736.7
+   ],
+   "size": 8.4,
+   "testo": "del tiro salvezza sull'incantesimo del ranger).",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

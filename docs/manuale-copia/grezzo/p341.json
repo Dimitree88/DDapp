@@ -1,0 +1,655 @@
+{
+ "pagina_pdf": 341,
+ "pagina_stampata": 338,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "338 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   390
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    50.6,
+    380.1,
+    268.1,
+    390.7
+   ],
+   "size": 8.8,
+   "testo": "Il tocco della mano dell'incantatore, avviluppata in una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    391.2,
+    280.8,
+    401.8
+   ],
+   "size": 8.8,
+   "testo": "cortina d'ombra, può risucchiare l'energia vitale delle altre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    402.3,
+    271.8,
+    412.8
+   ],
+   "size": 8.8,
+   "testo": "creature per curare le proprie ferite. Effettua un attacco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    413.3,
+    279.3,
+    423.9
+   ],
+   "size": 8.8,
+   "testo": "con incantesimo in mischia contro una creatura a portata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    424.3,
+    254.0,
+    434.9
+   ],
+   "size": 8.8,
+   "testo": "Se il colpo va a segno, il bersaglio subisce 3d6 danni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.5,
+    435.4,
+    267.7,
+    446.0
+   ],
+   "size": 8.8,
+   "testo": "necrotici e l'incantatore recupera una quantità di punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    446.3,
+    233.5,
+    456.8
+   ],
+   "size": 8.8,
+   "testo": "ferita pari alla metà dei danni necrotici inflitti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    457.2,
+    278.3,
+    467.8
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, come azione di Magia,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    468.2,
+    273.8,
+    478.8
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore può effettuare di nuovo l'attacco a ogni suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    479.3,
+    262.3,
+    489.9
+   ],
+   "size": 8.8,
+   "testo": "turno, prendendo di mira la stessa creatura o un'altra.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    492.0,
+    253.9,
+    500.6
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    501.2,
+    258.1,
+    511.7
+   ],
+   "size": 8.8,
+   "testo": "I danni aumentano di 1d6 per ogni slot di livello supe­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    510.1,
+    92.4,
+    522.9
+   ],
+   "size": 8.8,
+   "testo": "riore al 3°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.8,
+    547.0,
+    133.1,
+    558.3
+   ],
+   "size": 11.2,
+   "testo": "Tocco GELIDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    559.5,
+    244.5,
+    568.8
+   ],
+   "size": 8.6,
+   "testo": "Trucchetto diNecromanzia (mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.8,
+    574.0,
+    141.8,
+    583.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    585.0,
+    114.7,
+    594.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    596.0,
+    116.8,
+    605.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    607.0,
+    122.3,
+    616.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    623.3,
+    262.2,
+    633.9
+   ],
+   "size": 8.8,
+   "testo": "Incanalando un flusso di gelo sepolcrale, l'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    634.4,
+    263.0,
+    644.9
+   ],
+   "size": 8.8,
+   "testo": "effettua un attacco con incantesimo in mischia contro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    645.3,
+    271.7,
+    655.8
+   ],
+   "size": 8.8,
+   "testo": "un bersaglio a portata. Se il colpo va a segno, il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    656.3,
+    270.3,
+    666.8
+   ],
+   "size": 8.8,
+   "testo": "subisce 1d10 danni necrotici e non può recuperare punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    667.3,
+    280.8,
+    677.9
+   ],
+   "size": 8.8,
+   "testo": "ferita fino al termine del turno successivo dell'incantatore.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    678.3,
+    252.0,
+    688.9
+   ],
+   "size": 8.8,
+   "testo": "Trucchetto potenziato. I danni aumentano di 1d10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    687.1,
+    248.3,
+    699.8
+   ],
+   "size": 8.8,
+   "testo": "quando l'incantatore raggiunge il 5° livello (2d10),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    698.0,
+    203.0,
+    710.7
+   ],
+   "size": 8.8,
+   "testo": "I'11° livello (3d10) e il 17° livello (4d10).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    395.5,
+    396.1,
+    406.8
+   ],
+   "size": 11.2,
+   "testo": "TRAMA IPNOTICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    407.1,
+    497.7,
+    417.6
+   ],
+   "size": 8.6,
+   "testo": "Illusionedi3°livello (bardo, mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    422.7,
+    395.1,
+    432.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    433.7,
+    367.6,
+    443.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    444.7,
+    483.5,
+    454.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: S, M (una manciata di coriandoli)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    455.7,
+    456.5,
+    465.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    471.9,
+    532.1,
+    482.5
+   ],
+   "size": 8.8,
+   "testo": "All'interno di un cubo con spigolo di 9 metri entro gittata,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    482.9,
+    524.7,
+    493.5
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore crea un intreccio di colori serpeggianti che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    493.8,
+    518.4,
+    504.4
+   ],
+   "size": 8.8,
+   "testo": "appare per qualche secondo prima di svanire. Ogni cre­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    504.9,
+    519.3,
+    515.5
+   ],
+   "size": 8.8,
+   "testo": "atura all'interno dell'area in grado di vedere l'intreccio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    515.9,
+    516.8,
+    526.5
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Saggezza, altrimenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    526.9,
+    498.5,
+    537.5
+   ],
+   "size": 8.8,
+   "testo": "rimane affascinata per la durata dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    538.0,
+    516.8,
+    548.5
+   ],
+   "size": 8.8,
+   "testo": "Finché è affascinata, la creatura è incapacitata e la sua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    549.0,
+    376.2,
+    559.6
+   ],
+   "size": 8.8,
+   "testo": "velocità è pari a 0.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    559.9,
+    511.1,
+    570.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo su una creatura influenzata termina",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    570.9,
+    506.8,
+    581.5
+   ],
+   "size": 8.8,
+   "testo": "se questa subisce danni o se qualcuno usa un'azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    581.8,
+    508.8,
+    592.4
+   ],
+   "size": 8.8,
+   "testo": "per scuoterla, destandola dal suo stato confusionale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    616.6,
+    400.0,
+    628.0
+   ],
+   "size": 11.2,
+   "testo": "TRASFORMAZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    628.2,
+    456.5,
+    638.6
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi9° livello (druido, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    643.8,
+    395.1,
+    653.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    654.7,
+    378.5,
+    664.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    665.7,
+    504.4,
+    675.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un diadema di giada del valore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.0,
+    676.8,
+    381.7,
+    686.4
+   ],
+   "size": 8.4,
+   "testo": "di 1 . 500 mo o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    687.7,
+    441.7,
+    697.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    576.3,
+    692.6,
+    581.0,
+    698.9
+   ],
+   "size": 4.9,
+   "testo": "D",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    576.3,
+    696.8,
+    581.0,
+    703.1
+   ],
+   "size": 4.9,
+   "testo": "\"",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

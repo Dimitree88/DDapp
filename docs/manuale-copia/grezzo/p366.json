@@ -1,0 +1,1177 @@
+{
+ "pagina_pdf": 366,
+ "pagina_stampata": 363,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 363",
+ "immagini": [
+  [
+   -1,
+   6,
+   564,
+   120
+  ],
+  [
+   -1,
+   717,
+   372,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    60.8,
+    129.4,
+    288.9,
+    140.0
+   ],
+   "size": 8.8,
+   "testo": "un'azione bonus per turno, e ne ha una a disposizione solo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    140.3,
+    289.9,
+    150.9
+   ],
+   "size": 8.8,
+   "testo": "se una regola lo indica esplicitamente. Vedianche capitolo 1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    151.4,
+    103.5,
+    161.9
+   ],
+   "size": 8.8,
+   "testo": "(''Azioni\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    186.1,
+    120.3,
+    197.4
+   ],
+   "size": 11.2,
+   "testo": "BERSAGLIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    197.6,
+    275.6,
+    208.1
+   ],
+   "size": 8.8,
+   "testo": "Un bersaglio è la creatura o l'oggetto bersagliato da un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    208.6,
+    274.6,
+    219.1
+   ],
+   "size": 8.8,
+   "testo": "tiro per colpire (costretto da un effetto a effettuare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    219.5,
+    277.1,
+    230.1
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza) o selezionato per ricevere gli effetti di un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    230.5,
+    203.4,
+    241.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimo o di un altro fenomeno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    265.3,
+    169.1,
+    276.6
+   ],
+   "size": 11.2,
+   "testo": "CADUTA [PERICOLO]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    276.7,
+    270.3,
+    287.3
+   ],
+   "size": 8.8,
+   "testo": "Una creatura che cade subisce 1d6 danni contundenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    287.7,
+    284.0,
+    298.3
+   ],
+   "size": 8.8,
+   "testo": "alla fine della caduta per ogni 3 metri di caduta, fino a un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    298.6,
+    288.4,
+    309.2
+   ],
+   "size": 8.8,
+   "testo": "massimo di 20d6. Quando la creatura atterra, cade prona,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    309.7,
+    266.6,
+    320.2
+   ],
+   "size": 8.8,
+   "testo": "a meno che non riesca a evitare di subire danni dalla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    320.6,
+    91.4,
+    331.2
+   ],
+   "size": 8.8,
+   "testo": "caduta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.9,
+    331.5,
+    279.1,
+    342.1
+   ],
+   "size": 8.8,
+   "testo": "Una creatura che cade nell'acqua o in un altro liquido",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    342.6,
+    268.9,
+    353.2
+   ],
+   "size": 8.8,
+   "testo": "può usare la sua reazione per effettuare una prova di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    353.6,
+    272.1,
+    364.1
+   ],
+   "size": 8.8,
+   "testo": "Forza (Atletica) o di Destrezza (Acrobazia) con CD 15",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    364.5,
+    271.5,
+    375.1
+   ],
+   "size": 8.8,
+   "testo": "per raggiungere la superficie con la testa o con i piedi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    375.6,
+    270.7,
+    386.1
+   ],
+   "size": 8.8,
+   "testo": "Se supera la prova, i danni eventualmente subiti dalla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.7,
+    386.6,
+    166.9,
+    397.2
+   ],
+   "size": 8.8,
+   "testo": "cadutavengono dimezzati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    421.4,
+    121.5,
+    432.8
+   ],
+   "size": 11.2,
+   "testo": "CAMPAGNA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    432.8,
+    255.9,
+    443.4
+   ],
+   "size": 8.8,
+   "testo": "Una campagna consiste in una serie di avventure.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    443.7,
+    153.2,
+    454.3
+   ],
+   "size": 8.8,
+   "testo": "Vedianche \"Avventura\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    478.4,
+    192.7,
+    489.8
+   ],
+   "size": 11.2,
+   "testo": "CAPACITÀ DI TRASPORTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    489.8,
+    264.3,
+    500.4
+   ],
+   "size": 8.8,
+   "testo": "La taglia e il punteggio di Forza del tuo personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    500.9,
+    269.5,
+    511.5
+   ],
+   "size": 8.8,
+   "testo": "determinano il peso massimo, misurato in chili, che il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    512.0,
+    282.8,
+    522.5
+   ],
+   "size": 8.8,
+   "testo": "personaggio può trasportare, come indicato nella tabella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    522.9,
+    272.3,
+    533.5
+   ],
+   "size": 8.8,
+   "testo": "\"Capacità di trasporto\". La tabella indica anche il peso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    534.0,
+    268.2,
+    544.5
+   ],
+   "size": 8.8,
+   "testo": "massimo che il personaggio può trascinare, sollevare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    544.9,
+    102.4,
+    555.5
+   ],
+   "size": 8.8,
+   "testo": "o spingere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.1,
+    555.9,
+    286.1,
+    566.4
+   ],
+   "size": 8.8,
+   "testo": "Mentre il personaggio trascina, solleva o spinge un peso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    566.9,
+    278.3,
+    577.5
+   ],
+   "size": 8.8,
+   "testo": "superiore a quello massimo che è capace di trasportare,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    577.8,
+    226.4,
+    588.4
+   ],
+   "size": 8.8,
+   "testo": "la sua velocità non può superare 1,5 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    600.6,
+    184.8,
+    611.3
+   ],
+   "size": 10.6,
+   "testo": "CAPACITÀ DI TRASPORTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    616.6,
+    121.5,
+    625.9
+   ],
+   "size": 8.2,
+   "testo": "Taglia creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.7,
+    616.6,
+    163.7,
+    625.9
+   ],
+   "size": 8.2,
+   "testo": "max.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.4,
+    616.6,
+    232.8,
+    625.8
+   ],
+   "size": 8.2,
+   "testo": "max.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.3,
+    630.6,
+    105.9,
+    640.2
+   ],
+   "size": 8.4,
+   "testo": "Minuscola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.6,
+    630.6,
+    196.5,
+    640.2
+   ],
+   "size": 8.4,
+   "testo": "For. x 3,75 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.4,
+    630.6,
+    260.5,
+    640.3
+   ],
+   "size": 8.4,
+   "testo": "For. X 7,5 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    645.2,
+    120.8,
+    654.8
+   ],
+   "size": 8.4,
+   "testo": "Piccola/Media",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.6,
+    645.2,
+    191.5,
+    654.8
+   ],
+   "size": 8.4,
+   "testo": "For. x 7,5 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.4,
+    645.2,
+    258.1,
+    654.8
+   ],
+   "size": 8.4,
+   "testo": "For. x 15 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    659.7,
+    95.1,
+    669.4
+   ],
+   "size": 8.4,
+   "testo": "Grande",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.6,
+    659.7,
+    189.2,
+    669.4
+   ],
+   "size": 8.4,
+   "testo": "For. x 15 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.4,
+    659.7,
+    258.8,
+    669.4
+   ],
+   "size": 8.4,
+   "testo": "For. x 30 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    674.3,
+    96.8,
+    683.9
+   ],
+   "size": 8.4,
+   "testo": "Enorme",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.6,
+    674.3,
+    189.7,
+    683.9
+   ],
+   "size": 8.4,
+   "testo": "For. x 30 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.4,
+    674.3,
+    258.9,
+    683.9
+   ],
+   "size": 8.4,
+   "testo": "for. X 60 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    688.9,
+    119.3,
+    698.5
+   ],
+   "size": 8.4,
+   "testo": "Mastodontica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    143.6,
+    688.8,
+    189.9,
+    698.5
+   ],
+   "size": 8.4,
+   "testo": "For. x 60 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.4,
+    688.9,
+    262.9,
+    698.5
+   ],
+   "size": 8.4,
+   "testo": "for. X 120 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    144.7,
+    470.0,
+    156.0
+   ],
+   "size": 11.2,
+   "testo": "CILINDRO [AREA DI EFFETTO]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    156.1,
+    539.2,
+    166.7
+   ],
+   "size": 8.8,
+   "testo": "Un cilindro è un'area di effetto che si estende in linee rette",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    167.2,
+    531.3,
+    177.8
+   ],
+   "size": 8.8,
+   "testo": "da un punto di origine situato al centro della parte circo­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    178.2,
+    540.4,
+    188.8
+   ],
+   "size": 8.8,
+   "testo": "lare superiore o inferiore del cilindro. L'effetto che crea un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    189.2,
+    542.1,
+    199.7
+   ],
+   "size": 8.8,
+   "testo": "cilindro specifica il raggio della base e l'altezza del cilindro.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    321.3,
+    200.3,
+    521.1,
+    210.8
+   ],
+   "size": 8.8,
+   "testo": "Il punto di origine di un cilindro è incluso nell'area",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    211.2,
+    352.4,
+    221.8
+   ],
+   "size": 8.8,
+   "testo": "di effetto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    245.9,
+    417.0,
+    257.2
+   ],
+   "size": 11.2,
+   "testo": "CLASSE ARMATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    257.2,
+    542.0,
+    267.8
+   ],
+   "size": 8.8,
+   "testo": "La Classe Armatura (CA) è il numero bersaglio per un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    268.3,
+    543.1,
+    278.9
+   ],
+   "size": 8.8,
+   "testo": "per colpire: rappresenta il grado di difficoltà per colpire un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    279.4,
+    352.6,
+    289.9
+   ],
+   "size": 8.8,
+   "testo": "bersaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.2,
+    290.3,
+    539.6,
+    300.9
+   ],
+   "size": 8.8,
+   "testo": "La CA base del tuo personaggio si calcola sommando 10",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    301.3,
+    530.6,
+    311.9
+   ],
+   "size": 8.8,
+   "testo": "al modificatore di Destrezza. Se una regolaprevede che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    312.3,
+    533.1,
+    322.8
+   ],
+   "size": 8.8,
+   "testo": "tu debba calcolare la CA base diversamente, scegli quale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    323.2,
+    540.6,
+    333.8
+   ],
+   "size": 8.8,
+   "testo": "metodo adottare per definirla: non puoi usarne più di uno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.5,
+    334.2,
+    426.3,
+    344.8
+   ],
+   "size": 8.8,
+   "testo": "Vedianche \"Tiro per colpire\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    368.9,
+    419.0,
+    380.2
+   ],
+   "size": 11.2,
+   "testo": "CLASSE DIFFICOLTÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    380.3,
+    526.9,
+    390.9
+   ],
+   "size": 8.8,
+   "testo": "La Classe Difficoltà (CD) è il numero bersaglio per una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    391.3,
+    531.9,
+    401.9
+   ],
+   "size": 8.8,
+   "testo": "prova di caratteristica o per un tiro salvezza. Vedianche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    402.4,
+    426.5,
+    413.0
+   ],
+   "size": 8.8,
+   "testo": "capitolo 1 (\"Prove con d20\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    437.1,
+    400.2,
+    448.5
+   ],
+   "size": 11.2,
+   "testo": "COLPO CRITICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    448.4,
+    509.3,
+    459.0
+   ],
+   "size": 8.8,
+   "testo": "Se un tiro per colpire ottiene un 20 sul d20, metti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    459.6,
+    531.6,
+    470.1
+   ],
+   "size": 8.8,
+   "testo": "a segno un colpo critico, e l'attacco va a segno a prescin­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    470.5,
+    527.3,
+    481.1
+   ],
+   "size": 8.8,
+   "testo": "dere da qualsiasi modificatore o dalla CA del bersaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    481.5,
+    513.5,
+    492.0
+   ],
+   "size": 8.8,
+   "testo": "Un colpo critico ti consente di tirare dadi extra per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    492.6,
+    526.0,
+    503.2
+   ],
+   "size": 8.8,
+   "testo": "i danni dell'attacco contro il bersaglio. Tira tutti i dadi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    503.5,
+    527.9,
+    514.1
+   ],
+   "size": 8.8,
+   "testo": "di danno dell'attacco due volte e sommali, poi aggiungi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    514.6,
+    530.8,
+    525.2
+   ],
+   "size": 8.8,
+   "testo": "gli eventuali modificatori rilevanti. Vedianche capitolo 1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.2,
+    525.6,
+    404.8,
+    536.1
+   ],
+   "size": 8.8,
+   "testo": "(\"Danni e guarigione\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    560.3,
+    409.7,
+    571.6
+   ],
+   "size": 11.2,
+   "testo": "COLPO SENZ'ARMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    571.6,
+    518.0,
+    582.2
+   ],
+   "size": 8.8,
+   "testo": "Invece di usare un'arma per effettuare un attacco in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    582.6,
+    535.4,
+    593.2
+   ],
+   "size": 8.8,
+   "testo": "mischia, il personaggio può sferrare un pugno, un calcio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    593.6,
+    521.7,
+    604.1
+   ],
+   "size": 8.8,
+   "testo": "una testata o un altro colpo violento di natura simile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    604.6,
+    540.3,
+    615.2
+   ],
+   "size": 8.8,
+   "testo": "In termini di gioco, questo si definisce un colpo senz'armi:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    615.8,
+    538.4,
+    626.4
+   ],
+   "size": 8.8,
+   "testo": "un attacco in mischia che prevede l'uso del corpo per dan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    626.8,
+    540.3,
+    637.4
+   ],
+   "size": 8.8,
+   "testo": "neggiare, afferrare o spingere un bersaglio entro 1,5 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    637.8,
+    378.7,
+    648.3
+   ],
+   "size": 8.8,
+   "testo": "dal personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.3,
+    648.8,
+    530.0,
+    659.4
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il personaggio usa un colpo senz'armi,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    659.7,
+    542.8,
+    670.3
+   ],
+   "size": 8.8,
+   "testo": "scegli una delle seguenti opzioni per determinarne l'effetto:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    320.7,
+    670.7,
+    529.5,
+    681.3
+   ],
+   "size": 8.8,
+   "testo": "Danni. Effettui un tiro per colpire contro il bersaglio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.1,
+    681.7,
+    520.8,
+    692.3
+   ],
+   "size": 8.8,
+   "testo": "Il tuo bonus al tiro è pari al modificatore di Forza del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    692.7,
+    524.6,
+    703.3
+   ],
+   "size": 8.8,
+   "testo": "personaggio più il bonus di competenza. Se il colpo va",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    703.7,
+    539.9,
+    714.3
+   ],
+   "size": 8.8,
+   "testo": "a segno, il bersaglio subisce danni contundenti pari a 1 più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    714.7,
+    471.8,
+    725.3
+   ],
+   "size": 8.8,
+   "testo": "il modificatore di Forza del personaggio.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

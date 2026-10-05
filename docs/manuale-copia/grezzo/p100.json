@@ -1,0 +1,1404 @@
+{
+ "pagina_pdf": 100,
+ "pagina_stampata": 97,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 97",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    62.2,
+    36.8,
+    280.4,
+    47.4
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero recupera un dado di Energia Psionica speso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    47.8,
+    280.3,
+    58.3
+   ],
+   "size": 8.8,
+   "testo": "dopo aver completato un riposo breve, mentre li recupera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    58.8,
+    225.6,
+    69.4
+   ],
+   "size": 8.8,
+   "testo": "tutti dopo aver completato un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    69.9,
+    277.9,
+    80.4
+   ],
+   "size": 8.8,
+   "testo": "Campo protettivo. Ogni volta che il guerriero o un'altra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    80.9,
+    284.2,
+    91.4
+   ],
+   "size": 8.8,
+   "testo": "creatura nel raggio di 9 metri nel suo campo visivo subisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    91.8,
+    284.0,
+    102.4
+   ],
+   "size": 8.8,
+   "testo": "dei danni, il guerriero può usare la sua reazione per creare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    102.8,
+    268.5,
+    113.4
+   ],
+   "size": 8.8,
+   "testo": "uno scudo temporaneo di forza telecinetica spendendo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    113.8,
+    266.1,
+    124.4
+   ],
+   "size": 8.8,
+   "testo": "un dado di Energia Psionica e riducendo la quantità di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    124.8,
+    274.0,
+    135.4
+   ],
+   "size": 8.8,
+   "testo": "danni subiti del numero ottenuto più il suo modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    135.8,
+    206.1,
+    146.3
+   ],
+   "size": 8.8,
+   "testo": "di Intelligenza (riduzione minima di 1).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    146.8,
+    259.4,
+    157.4
+   ],
+   "size": 8.8,
+   "testo": "Colpo psionico. Il personaggio può infondere forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    157.9,
+    258.5,
+    168.5
+   ],
+   "size": 8.8,
+   "testo": "psionica alle sue armi. Una volta per ogni suo turno,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    168.9,
+    281.0,
+    179.4
+   ],
+   "size": 8.8,
+   "testo": "subito dopo aver colpito un bersaglio entro 9 metri con un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    179.9,
+    284.3,
+    190.5
+   ],
+   "size": 8.8,
+   "testo": "attacco e avergli inflitto dei danni con un'arma, il guerriero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    190.9,
+    273.0,
+    201.5
+   ],
+   "size": 8.8,
+   "testo": "può spendere un dado di Energia Psionica per infliggere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    202.1,
+    272.4,
+    212.7
+   ],
+   "size": 8.8,
+   "testo": "danni da forza a quel bersaglio aggiungendo al risultato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    213.0,
+    224.8,
+    223.5
+   ],
+   "size": 8.8,
+   "testo": "ottenuto il suo modificatore di Intelligenza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    224.0,
+    269.4,
+    234.6
+   ],
+   "size": 8.8,
+   "testo": "Movimento telecinetico. Il personaggio ora è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    235.0,
+    281.3,
+    245.6
+   ],
+   "size": 8.8,
+   "testo": "di spostare un oggetto o una creatura con la mente. Come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    246.0,
+    274.4,
+    256.5
+   ],
+   "size": 8.8,
+   "testo": "azione di Magia, sceglie un bersaglio entro 9 metri da sé",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    257.1,
+    280.8,
+    267.6
+   ],
+   "size": 8.8,
+   "testo": "e nel suo campo visivo; il bersaglio deve essere un oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    268.1,
+    255.3,
+    278.6
+   ],
+   "size": 8.8,
+   "testo": "non equipaggiato di taglia Grande o inferiore o una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    279.1,
+    269.6,
+    289.7
+   ],
+   "size": 8.8,
+   "testo": "creatura consenziente diversa da se stesso. Il guerriero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    290.1,
+    277.8,
+    300.7
+   ],
+   "size": 8.8,
+   "testo": "teletrasporta il bersaglio di un massimo di 9 metri in uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    301.2,
+    265.9,
+    311.7
+   ],
+   "size": 8.8,
+   "testo": "spazio libero nel suo campo visivo. In alternativa, se il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    312.1,
+    269.0,
+    322.7
+   ],
+   "size": 8.8,
+   "testo": "bersaglio è un oggetto Minuscolo, può teletrasportarlo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    323.1,
+    145.5,
+    333.6
+   ],
+   "size": 8.8,
+   "testo": "da o verso la sua mano.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    334.0,
+    283.3,
+    344.5
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver effettuato questa azione, il guerriero non può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    345.0,
+    271.5,
+    355.6
+   ],
+   "size": 8.8,
+   "testo": "utilizzarla di nuovo prima di aver completato un riposo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    356.0,
+    273.2,
+    366.6
+   ],
+   "size": 8.8,
+   "testo": "breve o lungo; può ignorare questo limite spendendo un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    367.0,
+    257.4,
+    377.5
+   ],
+   "size": 8.8,
+   "testo": "dado di Energia Psionica (nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    387.4,
+    238.4,
+    398.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: ADEPTO TELECINETICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    398.9,
+    265.2,
+    409.4
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero ha appreso nuovi modi di utilizzare le sue",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    410.0,
+    242.0,
+    420.6
+   ],
+   "size": 8.8,
+   "testo": "capacità telecinetiche come descritto di seguito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    420.9,
+    277.6,
+    431.5
+   ],
+   "size": 8.8,
+   "testo": "Balzo psionico. Come azione bonus, il guerriero ottiene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    432.0,
+    275.6,
+    442.6
+   ],
+   "size": 8.8,
+   "testo": "una velocità di volo pari al doppio della sua velocità base",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    442.9,
+    266.5,
+    453.5
+   ],
+   "size": 8.8,
+   "testo": "fino al termine del turno attuale. Dopo aver effettuato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    453.9,
+    274.8,
+    464.5
+   ],
+   "size": 8.8,
+   "testo": "questa azione bonus, non può utilizzarla di nuovo prima",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    464.9,
+    277.6,
+    475.5
+   ],
+   "size": 8.8,
+   "testo": "di aver completato un riposo breve o lungo; può ignorare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    475.8,
+    261.4,
+    486.4
+   ],
+   "size": 8.8,
+   "testo": "questo limite spendendo un dado di Energia Psionica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    486.8,
+    159.2,
+    497.4
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    497.9,
+    248.8,
+    508.5
+   ],
+   "size": 8.8,
+   "testo": "Spinta telecinetica. Quando il guerriero infligge",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    509.0,
+    257.9,
+    519.6
+   ],
+   "size": 8.8,
+   "testo": "dei danni a un bersaglio utilizzando Colpo Psionico,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    520.0,
+    260.4,
+    530.6
+   ],
+   "size": 8.8,
+   "testo": "può costringere questo bersaglio a effettuare un tiro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    531.0,
+    276.1,
+    541.6
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Forza con CD pari a 8 più il suo modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    542.0,
+    280.7,
+    552.6
+   ],
+   "size": 8.8,
+   "testo": "di Intelligenza e il suo bonus di competenza. Se lo fallisce,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    552.0,
+    281.4,
+    563.5
+   ],
+   "size": 8.8,
+   "testo": "il guerriero può far cadere a terra prono il bersaglio o tele­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    563.9,
+    227.3,
+    574.5
+   ],
+   "size": 8.8,
+   "testo": "trasportarlo fino a 3 metri orizzontalmente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    584.3,
+    212.9,
+    595.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: SCUDO MENTALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    595.7,
+    276.8,
+    606.3
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero possiede resistenza ai danni psichici. Inoltre,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    606.9,
+    271.5,
+    617.5
+   ],
+   "size": 8.8,
+   "testo": "se inizia il suo turno affascinato o spaventato, può spen­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    617.9,
+    273.6,
+    628.5
+   ],
+   "size": 8.8,
+   "testo": "dere un dado di Energia Psionica (nessuna azione richie­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    629.0,
+    267.0,
+    639.5
+   ],
+   "size": 8.8,
+   "testo": "sta) per porre fine a tutti gli effetti che causano queste",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    639.9,
+    99.2,
+    650.5
+   ],
+   "size": 8.8,
+   "testo": "condizioni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    660.3,
+    252.0,
+    671.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: BALUARDO DELLA FORZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    671.7,
+    276.6,
+    682.3
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero può proteggere se stesso e gli altri con la pro­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    682.7,
+    276.8,
+    693.3
+   ],
+   "size": 8.8,
+   "testo": "pria forza telecinetica. Come azione bonus, può scegliere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    693.7,
+    268.1,
+    704.3
+   ],
+   "size": 8.8,
+   "testo": "un numero di creature nel raggio di 9 metri pari al suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    704.7,
+    271.1,
+    715.3
+   ],
+   "size": 8.8,
+   "testo": "modificatore di Intelligenza (incluso se stesso, fino a un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    36.7,
+    519.8,
+    47.3
+   ],
+   "size": 8.8,
+   "testo": "minimo di una creatura). Ognuna delle creature scelte",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    47.7,
+    512.6,
+    58.3
+   ],
+   "size": 8.8,
+   "testo": "beneficia di mezza copertura per 1 minuto o finché il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    58.7,
+    421.7,
+    69.3
+   ],
+   "size": 8.8,
+   "testo": "guerriero non è incapacitato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    69.9,
+    524.8,
+    80.5
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    80.8,
+    511.9,
+    91.4
+   ],
+   "size": 8.8,
+   "testo": "può riutilizzarlo prima di avercompletato un riposo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    91.7,
+    516.4,
+    102.3
+   ],
+   "size": 8.8,
+   "testo": "lungo; può ignorare questo limite spendendo un dado",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    102.7,
+    489.4,
+    113.3
+   ],
+   "size": 8.8,
+   "testo": "di Energia Psionica (nessuna azione richiesta).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    123.1,
+    525.4,
+    134.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: MAESTRO DELLA TELECINESI",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    134.6,
+    525.6,
+    145.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo telecinesi è sempre considerato preparato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    145.6,
+    529.6,
+    156.2
+   ],
+   "size": 8.8,
+   "testo": "Con questo privilegio, il personaggio può lanciarlo senza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    156.6,
+    522.7,
+    167.2
+   ],
+   "size": 8.8,
+   "testo": "spendere uno slot incantesimo o componenti, e la carat­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    167.7,
+    517.0,
+    178.2
+   ],
+   "size": 8.8,
+   "testo": "teristica da incantatore è Intelligenza. In ciascuno dei",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    178.7,
+    531.5,
+    189.3
+   ],
+   "size": 8.8,
+   "testo": "turni in cui mantiene la concentrazione sull'incantesimo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    189.7,
+    534.0,
+    200.3
+   ],
+   "size": 8.8,
+   "testo": "incluso il turno in cui lo lancia, il guerriero può effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    200.8,
+    479.3,
+    211.3
+   ],
+   "size": 8.8,
+   "testo": "un attacco con un'arma come azione bonus.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    211.9,
+    526.0,
+    222.4
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio per lanciare l'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    222.8,
+    530.8,
+    233.3
+   ],
+   "size": 8.8,
+   "testo": "tesimo, il personaggio non può riutilizzarlo prima di aver",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    233.7,
+    523.7,
+    244.3
+   ],
+   "size": 8.8,
+   "testo": "completato un riposo lungo; può ignorare questo limite",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    244.7,
+    525.8,
+    255.3
+   ],
+   "size": 8.8,
+   "testo": "spendendo un dado di Energia Psionica (nessuna azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    255.7,
+    347.2,
+    266.3
+   ],
+   "size": 8.8,
+   "testo": "richiesta).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    275.9,
+    458.4,
+    289.0
+   ],
+   "size": 9.7,
+   "testo": "MAESTRO DI BATTAGLIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    293.5,
+    469.3,
+    302.9
+   ],
+   "size": 8.6,
+   "testo": "Padroneggia sofisticate manovre dibattaglia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    307.1,
+    523.9,
+    317.6
+   ],
+   "size": 8.8,
+   "testo": "I Maestri di Battaglia sono studenti dell'arte della batta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    318.0,
+    529.7,
+    328.6
+   ],
+   "size": 8.8,
+   "testo": "glia, e si dedicano all'apprendimento di tecniche marziali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    329.0,
+    521.9,
+    339.6
+   ],
+   "size": 8.8,
+   "testo": "tramandate nell'arco di molte generazioni. I Maestri di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    340.0,
+    511.4,
+    350.6
+   ],
+   "size": 8.8,
+   "testo": "Battaglia più abili sono figure a tutto tondo che com­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    351.0,
+    520.9,
+    361.5
+   ],
+   "size": 8.8,
+   "testo": "binano le loro abilità di combattimento accuratamente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    361.9,
+    525.0,
+    372.5
+   ],
+   "size": 8.8,
+   "testo": "affinate con lo studio accademico nei campi della storia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    372.9,
+    398.0,
+    383.5
+   ],
+   "size": 8.8,
+   "testo": "della teoria e delle arti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    393.5,
+    485.4,
+    404.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: STUDIOSO DI GUERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    404.9,
+    535.6,
+    415.5
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero ottiene competenza in un tipo di strumenti da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    415.9,
+    535.7,
+    426.5
+   ],
+   "size": 8.8,
+   "testo": "artigiano a scelta; inoltre, ottiene competenza in un'abilità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    424.8,
+    523.3,
+    437.4
+   ],
+   "size": 8.8,
+   "testo": "a scelta tra quelle disponibili per i guerrieri di 1° livello.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    447.2,
+    455.0,
+    458.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SUPERIORITÀ IN",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    458.0,
+    402.3,
+    469.4
+   ],
+   "size": 11.2,
+   "testo": "COMBATTIMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    469.4,
+    537.1,
+    480.0
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero ha affinato le tecniche di combattimento grazie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    480.4,
+    529.8,
+    491.0
+   ],
+   "size": 8.8,
+   "testo": "all'esperienza sul campo di battaglia. Apprende manovre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    491.5,
+    524.3,
+    502.0
+   ],
+   "size": 8.8,
+   "testo": "alimentate da dadi speciali chiamati dadi di superiorità.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.2,
+    502.5,
+    523.0,
+    513.1
+   ],
+   "size": 8.8,
+   "testo": "Manovre. Il guerriero apprende tre manovre a scelta,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    513.5,
+    523.1,
+    524.1
+   ],
+   "size": 8.8,
+   "testo": "descritte nella sezione \"Opzioni di manovra\" più avanti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    524.5,
+    521.5,
+    535.1
+   ],
+   "size": 8.8,
+   "testo": "nella descrizione di questa sottoclasse. Molte manovre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    535.5,
+    528.9,
+    546.1
+   ],
+   "size": 8.8,
+   "testo": "potenziano un attacco in qualche modo. Il guerriero può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.7,
+    546.5,
+    466.2,
+    557.1
+   ],
+   "size": 8.8,
+   "testo": "usare soltanto una manovra per attacco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    557.5,
+    528.1,
+    568.0
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero apprende due manovre aggiuntive a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    566.3,
+    514.7,
+    579.0
+   ],
+   "size": 8.8,
+   "testo": "al 7°, 10° e 15° livello. Ogni volta che apprende nuove",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    579.4,
+    531.1,
+    590.0
+   ],
+   "size": 8.8,
+   "testo": "manovre, può anche sostituire una manovra che conosce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    590.5,
+    409.9,
+    601.0
+   ],
+   "size": 8.8,
+   "testo": "con una manovra diversa.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    601.4,
+    524.9,
+    612.0
+   ],
+   "size": 8.8,
+   "testo": "Dadi di superiorità. Il guerriero possiede quattro dadi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    612.6,
+    536.4,
+    623.2
+   ],
+   "size": 8.8,
+   "testo": "di superiorità, rappresentati da d8. Quando usa un dado di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    623.6,
+    531.9,
+    634.2
+   ],
+   "size": 8.8,
+   "testo": "superiorità, lo spende. Recupera tutti i dadi di superiorità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    634.6,
+    472.7,
+    645.2
+   ],
+   "size": 8.8,
+   "testo": "quando completa un riposo breve o lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    643.4,
+    533.2,
+    656.2
+   ],
+   "size": 8.8,
+   "testo": "Ottiene un altro dado di superiorità al 7° livello (cinque",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    654.5,
+    525.8,
+    667.2
+   ],
+   "size": 8.8,
+   "testo": "dadi in totale) e un altro ancora al 15° livello (sei dadi in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    667.5,
+    335.9,
+    678.1
+   ],
+   "size": 8.8,
+   "testo": "totale).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    678.6,
+    532.9,
+    689.1
+   ],
+   "size": 8.8,
+   "testo": "Tiri salvezza. Se una manovra richiede un tiro salvezza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    689.6,
+    524.7,
+    700.2
+   ],
+   "size": 8.8,
+   "testo": "la CD è pari a 8 più il modificatore di Forza o Destrezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    700.6,
+    496.9,
+    711.1
+   ],
+   "size": 8.8,
+   "testo": "(a scelta) e il bonus di competenza del guerriero.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

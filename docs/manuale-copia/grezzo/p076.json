@@ -1,0 +1,1435 @@
+{
+ "pagina_pdf": 76,
+ "pagina_stampata": 73,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 73",
+ "immagini": [
+  [
+   -1,
+   5,
+   287,
+   312
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.2,
+    318.3,
+    259.9,
+    329.0
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA CHIERICO DI 7° LIVELLO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.1,
+    332.9,
+    107.8,
+    343.6
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.6,
+    333.1,
+    209.5,
+    343.8
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.6,
+    333.2,
+    281.8,
+    343.9
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.3,
+    348.4,
+    116.6,
+    357.6
+   ],
+   "size": 9.2,
+   "testo": "Evoca celestiale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.8,
+    348.2,
+    226.9,
+    357.8
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.7,
+    348.7,
+    267.4,
+    357.7
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.6,
+    363.0,
+    109.0,
+    372.2
+   ],
+   "size": 9.2,
+   "testo": "Forma eterea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.7,
+    362.7,
+    226.8,
+    372.3
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    377.7,
+    158.9,
+    386.9
+   ],
+   "size": 9.2,
+   "testo": "Parola del poterefortificare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.9,
+    377.3,
+    241.9,
+    387.0
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    392.2,
+    108.2,
+    401.4
+   ],
+   "size": 9.2,
+   "testo": "Parola divina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.7,
+    391.9,
+    229.5,
+    401.5
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    406.9,
+    106.5,
+    416.1
+   ],
+   "size": 9.2,
+   "testo": "Resurrezione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.7,
+    406.6,
+    234.4,
+    416.2
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.8,
+    406.6,
+    268.1,
+    416.2
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.5,
+    421.5,
+    111.4,
+    430.7
+   ],
+   "size": 9.2,
+   "testo": "Rigenerazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.8,
+    421.2,
+    240.2,
+    430.8
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    436.0,
+    89.8,
+    445.2
+   ],
+   "size": 9.2,
+   "testo": "Simbolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.9,
+    435.7,
+    229.3,
+    445.3
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    435.8,
+    268.0,
+    445.4
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    450.6,
+    137.9,
+    459.8
+   ],
+   "size": 9.2,
+   "testo": "Spostamento planare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.6,
+    450.2,
+    226.6,
+    459.9
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    450.3,
+    268.0,
+    459.9
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.5,
+    465.1,
+    126.5,
+    474.3
+   ],
+   "size": 9.2,
+   "testo": "Tempesta difuoco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.6,
+    464.8,
+    229.5,
+    474.5
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    488.9,
+    260.9,
+    499.6
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA CHIERICO DI 8° LIVELLO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.8,
+    503.6,
+    107.5,
+    514.2
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.2,
+    503.8,
+    209.3,
+    514.4
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.2,
+    503.9,
+    281.8,
+    514.6
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.8,
+    519.1,
+    98.5,
+    528.3
+   ],
+   "size": 9.2,
+   "testo": "Aura sacra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.8,
+    518.8,
+    229.2,
+    528.4
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.0,
+    518.9,
+    273.2,
+    528.6
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    533.7,
+    128.5,
+    542.9
+   ],
+   "size": 9.2,
+   "testo": "Campo anti-magia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.6,
+    533.4,
+    229.2,
+    543.1
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.3,
+    534.0,
+    267.0,
+    543.0
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    548.3,
+    171.0,
+    557.5
+   ],
+   "size": 9.2,
+   "testo": "Controllare tempo atmosferico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.6,
+    548.0,
+    240.1,
+    557.6
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.3,
+    548.6,
+    267.0,
+    557.6
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.5,
+    562.8,
+    120.7,
+    572.0
+   ],
+   "size": 9.2,
+   "testo": "Esplosione solare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.5,
+    562.5,
+    229.3,
+    572.1
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    577.4,
+    97.9,
+    586.6
+   ],
+   "size": 9.2,
+   "testo": "Terremoto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.5,
+    577.1,
+    240.1,
+    586.7
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.3,
+    577.6,
+    267.0,
+    586.7
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    601.2,
+    261.2,
+    611.8
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA CHIERICO DI 9° LIVELLO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.7,
+    616.0,
+    107.5,
+    626.7
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.1,
+    616.2,
+    209.0,
+    626.9
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    247.1,
+    616.3,
+    281.3,
+    627.0
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    631.6,
+    134.2,
+    640.8
+   ],
+   "size": 9.2,
+   "testo": "Guarigione di massa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.5,
+    631.3,
+    228.9,
+    640.9
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    646.2,
+    149.0,
+    655.4
+   ],
+   "size": 9.2,
+   "testo": "Parola delpotere guarire",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.5,
+    645.8,
+    241.1,
+    655.5
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    660.7,
+    86.4,
+    669.9
+   ],
+   "size": 9.2,
+   "testo": "Portale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.4,
+    660.4,
+    226.3,
+    670.0
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    253.7,
+    660.5,
+    273.0,
+    670.1
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    675.3,
+    124.0,
+    684.5
+   ],
+   "size": 9.2,
+   "testo": "Proiezione astrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.4,
+    675.0,
+    234.1,
+    684.6
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    675.0,
+    267.7,
+    684.6
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    689.8,
+    124.5,
+    699.0
+   ],
+   "size": 9.2,
+   "testo": "Resurrezione pura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    181.2,
+    689.5,
+    233.9,
+    699.2
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    689.6,
+    267.7,
+    699.2
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    40.4,
+    538.3,
+    57.0
+   ],
+   "size": 12.9,
+   "testo": "SOTTOCLASSI DEL CHIERICO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    58.6,
+    510.1,
+    69.2
+   ],
+   "size": 8.8,
+   "testo": "Le sottoclassi del chierico sono specializzazioni che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    69.6,
+    534.1,
+    80.2
+   ],
+   "size": 8.8,
+   "testo": "conferiscono dei privilegi a determinati livelli da chierico,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    80.6,
+    525.3,
+    91.2
+   ],
+   "size": 8.8,
+   "testo": "come specificato in ognuna di esse. Ogni sottoclasse del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    91.5,
+    513.7,
+    102.1
+   ],
+   "size": 8.8,
+   "testo": "chierico prende il nome da un dominio dell'esistenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    102.6,
+    518.1,
+    113.1
+   ],
+   "size": 8.8,
+   "testo": "favorito da un dio, un pantheon o un ordine religioso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    113.6,
+    534.0,
+    124.1
+   ],
+   "size": 8.8,
+   "testo": "Questa sezione presenta le sottoclassi Dominio della Vita,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    124.6,
+    517.5,
+    135.1
+   ],
+   "size": 8.8,
+   "testo": "Dominio della Luce, Dominio dell'Inganno e Dominio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    135.5,
+    359.8,
+    146.1
+   ],
+   "size": 8.8,
+   "testo": "della Guerra.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    155.7,
+    466.1,
+    168.8
+   ],
+   "size": 9.7,
+   "testo": "DOMINIO DELLA GUERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    173.2,
+    424.5,
+    182.5
+   ],
+   "size": 8.6,
+   "testo": "Ispira valore e annienta inemici",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    186.9,
+    518.7,
+    197.4
+   ],
+   "size": 8.8,
+   "testo": "La guerra può manifestarsi in molti modi. Può trasfor­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    197.8,
+    509.8,
+    208.4
+   ],
+   "size": 8.8,
+   "testo": "mare un individuo comune in un eroe, può rivelarsi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    208.9,
+    511.4,
+    219.5
+   ],
+   "size": 8.8,
+   "testo": "un'esperienza disperata e terrificante, e può indurre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    219.9,
+    534.1,
+    230.5
+   ],
+   "size": 8.8,
+   "testo": "a compiere atti di crudeltà e codardia in grado di eclissare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    230.9,
+    516.9,
+    241.5
+   ],
+   "size": 8.8,
+   "testo": "ogni manifestazione di virtù e coraggio. I chierici che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    241.9,
+    528.3,
+    252.5
+   ],
+   "size": 8.8,
+   "testo": "attingono alla magia del Dominio della Guerra eccellono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    252.9,
+    536.9,
+    263.5
+   ],
+   "size": 8.8,
+   "testo": "in battaglia e ispirano gli altri a combattere valorosamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    263.9,
+    492.9,
+    274.5
+   ],
+   "size": 8.8,
+   "testo": "o a offrire i loro atti di violenza come preghiere.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    275.0,
+    528.2,
+    285.6
+   ],
+   "size": 8.8,
+   "testo": "Gli dèi del Dominio della Guerra vegliano sui guerrieri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    285.9,
+    525.4,
+    296.5
+   ],
+   "size": 8.8,
+   "testo": "e li ricompensano per le loro grandi imprese. Tra loro ci",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    296.9,
+    527.0,
+    307.5
+   ],
+   "size": 8.8,
+   "testo": "sono campioni dell'onore e del cavalierato, ma anche dèi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    307.9,
+    517.1,
+    318.5
+   ],
+   "size": 8.8,
+   "testo": "della distruzione e del saccheggio. Altre divinità della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    319.0,
+    527.6,
+    329.5
+   ],
+   "size": 8.8,
+   "testo": "guerra mantengono una posizione più neutrale: promuo­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    329.9,
+    533.6,
+    340.5
+   ],
+   "size": 8.8,
+   "testo": "vono la guerra in tutte le sue manifestazioni e sostengono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    340.9,
+    456.5,
+    351.4
+   ],
+   "size": 8.8,
+   "testo": "i combattenti in qualsiasi circostanza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    361.3,
+    459.9,
+    372.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: COLPO GUIDATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    372.7,
+    517.2,
+    383.2
+   ],
+   "size": 8.8,
+   "testo": "Quando il chierico o una creatura entro 9 metri da sé",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    383.7,
+    529.1,
+    394.3
+   ],
+   "size": 8.8,
+   "testo": "manca il bersaglio con un tiro per colpire, il chierico può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    394.7,
+    521.1,
+    405.3
+   ],
+   "size": 8.8,
+   "testo": "spendere un utilizzo di Incanalare Divinità e conferire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    405.8,
+    530.4,
+    416.4
+   ],
+   "size": 8.8,
+   "testo": "a quel tiro un bonus di +10, aumentando le possibilità che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    416.9,
+    522.9,
+    427.5
+   ],
+   "size": 8.8,
+   "testo": "il colpo vada a segno. Quando usa questo privilegio per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    427.8,
+    531.6,
+    438.3
+   ],
+   "size": 8.8,
+   "testo": "favorire il tiro per colpire di un'altra creatura, deve usare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    438.7,
+    361.7,
+    449.2
+   ],
+   "size": 8.8,
+   "testo": "una reazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    459.1,
+    515.1,
+    470.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL DOMINIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    469.9,
+    388.4,
+    481.3
+   ],
+   "size": 11.2,
+   "testo": "DELLA GUERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    481.2,
+    512.7,
+    491.8
+   ],
+   "size": 8.8,
+   "testo": "La connessione con questo dominio divino permette",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    492.3,
+    515.2,
+    502.9
+   ],
+   "size": 8.8,
+   "testo": "al chierico di avere sempre pronti alcuni incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    503.3,
+    525.3,
+    513.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il chierico raggiunge un livello specificato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    514.3,
+    528.8,
+    524.9
+   ],
+   "size": 8.8,
+   "testo": "tabella Incantesimi del Dominio della Guerra, gli incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    525.4,
+    494.0,
+    535.9
+   ],
+   "size": 8.8,
+   "testo": "simi lì elencati sono considerati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    548.1,
+    522.4,
+    558.8
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL DOMINIO DELLA GUERRA",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    562.8,
+    350.0,
+    573.5
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    573.7,
+    346.3,
+    584.4
+   ],
+   "size": 10.6,
+   "testo": "chierico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.3,
+    573.7,
+    438.6,
+    584.4
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi preparati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.2,
+    588.7,
+    332.7,
+    598.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.8,
+    589.4,
+    517.4,
+    598.6
+   ],
+   "size": 9.2,
+   "testo": "Dardo tracciante, arma magica, scudo della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.5,
+    599.7,
+    437.0,
+    610.5
+   ],
+   "size": 9.2,
+   "testo": "fede e arma spirituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.2,
+    615.5,
+    332.7,
+    625.1
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.8,
+    614.4,
+    504.7,
+    625.2
+   ],
+   "size": 9.2,
+   "testo": "Manto del crociato e guardiani spirituali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.2,
+    630.0,
+    332.8,
+    639.7
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.6,
+    629.0,
+    496.7,
+    639.8
+   ],
+   "size": 9.2,
+   "testo": "Scudo difuoco e libertà di movimento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.8,
+    644.7,
+    332.8,
+    654.4
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.8,
+    643.6,
+    486.8,
+    654.4
+   ],
+   "size": 9.2,
+   "testo": "Blocca mostri e turbine implacabile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    668.3,
+    492.6,
+    679.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SACERDOTE DI GUERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    679.7,
+    528.8,
+    690.3
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il chierico può effettuare un attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    690.7,
+    500.1,
+    701.3
+   ],
+   "size": 8.8,
+   "testo": "con un'arma o un colpo senz'armi. Il chierico può",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

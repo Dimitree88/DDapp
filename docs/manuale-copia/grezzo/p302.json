@@ -1,0 +1,943 @@
+{
+ "pagina_pdf": 302,
+ "pagina_stampata": 299,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 299",
+ "immagini": [
+  [
+   233,
+   424,
+   589,
+   782
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.0,
+    53.8,
+    197.2,
+    65.1
+   ],
+   "size": 11.2,
+   "testo": "PARLARE CON GLI ANIMALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    65.4,
+    255.8,
+    75.8
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi1°livello (bardo, druido, ranger, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    79.8,
+    178.0,
+    90.5
+   ],
+   "size": 8.8,
+   "testo": "Tempo di lancio: azione o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    91.8,
+    127.8,
+    101.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    102.8,
+    119.3,
+    112.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    113.7,
+    121.2,
+    123.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    130.1,
+    271.2,
+    140.7
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, l'incantatore comprende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    141.1,
+    273.7,
+    151.7
+   ],
+   "size": 8.8,
+   "testo": "le bestie e può comunicare verbalmente con loro usando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    152.2,
+    234.3,
+    162.8
+   ],
+   "size": 8.8,
+   "testo": "una qualunque abilità dell'azione di Influenza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    163.2,
+    264.8,
+    173.8
+   ],
+   "size": 8.8,
+   "testo": "Nella maggior parte dei casi hanno ben poco da dire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    174.2,
+    267.6,
+    184.7
+   ],
+   "size": 8.8,
+   "testo": "su temi che esulano dalla sopravvivenza o dallo spirito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    185.2,
+    260.1,
+    195.8
+   ],
+   "size": 8.8,
+   "testo": "di squadra, ma almeno possono fornire informazioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    196.2,
+    266.0,
+    206.8
+   ],
+   "size": 8.8,
+   "testo": "su luoghi e mostri nelle vicinanze, oltre a tutto ciò che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    207.2,
+    226.1,
+    217.8
+   ],
+   "size": 8.8,
+   "testo": "hanno notato nel corso dell'ultima giornata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    241.8,
+    171.4,
+    253.2
+   ],
+   "size": 11.2,
+   "testo": "PARLARE CON I MORTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    253.3,
+    229.1,
+    263.8
+   ],
+   "size": 8.6,
+   "testo": "Necromanziadi3° livello (bardo, chierico, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    268.9,
+    144.0,
+    278.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    279.9,
+    112.1,
+    289.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 3 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    291.0,
+    203.2,
+    300.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (incenso bruciato)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    302.0,
+    121.1,
+    311.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    318.3,
+    250.6,
+    328.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore conferisce una parvenza di vita a un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    329.2,
+    280.5,
+    339.8
+   ],
+   "size": 8.8,
+   "testo": "cadavere a sua scelta situato entro gittata, permettendogli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    340.2,
+    276.6,
+    350.8
+   ],
+   "size": 8.8,
+   "testo": "di rispondere alle domande che gli vengono poste. Il cada­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    351.2,
+    276.4,
+    361.8
+   ],
+   "size": 8.8,
+   "testo": "vere deve avere la bocca e, se la creatura deceduta era un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    362.1,
+    281.4,
+    372.7
+   ],
+   "size": 8.8,
+   "testo": "non morto al momento del trapasso, l'incantesimo fallisce.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    373.1,
+    276.5,
+    383.7
+   ],
+   "size": 8.8,
+   "testo": "Fallisce allo stesso modo se il cadavere è già stato il bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    384.2,
+    241.8,
+    394.8
+   ],
+   "size": 8.8,
+   "testo": "glio di questo incantesimo negli ultimi 10 giorni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    395.2,
+    260.0,
+    405.8
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, l'incantatore può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    406.3,
+    249.1,
+    416.9
+   ],
+   "size": 8.8,
+   "testo": "porre al cadavere un massimo di cinque domande.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    417.3,
+    277.5,
+    427.9
+   ],
+   "size": 8.8,
+   "testo": "Il cadavere conosce solo quello che sapeva in vita, incluse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    428.4,
+    273.3,
+    439.0
+   ],
+   "size": 8.8,
+   "testo": "le lingue. Generalmente, le risposte sono brevi, criptiche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    439.3,
+    266.4,
+    449.8
+   ],
+   "size": 8.8,
+   "testo": "o ripetitive e il cadavere non è obbligato a offrirne una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    450.3,
+    256.6,
+    460.9
+   ],
+   "size": 8.8,
+   "testo": "sincera se l'incantatore gli è ostile o se il cadavere lo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    461.3,
+    274.6,
+    471.9
+   ],
+   "size": 8.8,
+   "testo": "riconosce come nemico. Questo incantesimo non riporta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    472.3,
+    274.7,
+    482.9
+   ],
+   "size": 8.8,
+   "testo": "l'anima della creatura nel suo corpo, solamente Io spirito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    483.3,
+    270.9,
+    493.8
+   ],
+   "size": 8.8,
+   "testo": "animante. Perciò il cadavere non può apprendere nuove",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    494.3,
+    262.6,
+    504.9
+   ],
+   "size": 8.8,
+   "testo": "informazioni, non conosce nulla di ciò che è accaduto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    505.4,
+    278.1,
+    516.0
+   ],
+   "size": 8.8,
+   "testo": "dopo la sua morte e non può speculare sugli eventi futuri.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    540.0,
+    186.7,
+    551.4
+   ],
+   "size": 11.2,
+   "testo": "PARLARE CON I VEGETALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    551.6,
+    234.5,
+    562.0
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi3° livello (bardo, druido, ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    567.0,
+    143.6,
+    576.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    578.0,
+    127.4,
+    587.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    589.0,
+    118.6,
+    598.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    600.0,
+    120.5,
+    609.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    150.8,
+    689.6,
+    229.8,
+    696.2
+   ],
+   "size": 5.4,
+   "testo": "UN DRUIDO UMANO USA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    150.8,
+    698.2,
+    241.2,
+    707.3
+   ],
+   "size": 6.9,
+   "testo": "PARLARE CON GLI ANIMALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    150.5,
+    709.5,
+    244.7,
+    716.2
+   ],
+   "size": 5.4,
+   "testo": "PER C:HI AC:C:H IERARE C:ON IL",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    150.4,
+    719.4,
+    244.0,
+    726.0
+   ],
+   "size": 5.4,
+   "testo": "SUO MIGLIORE AMICO ORSO.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    38.8,
+    509.3,
+    49.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore infonde nei vegetali in un'emanazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    49.8,
+    518.1,
+    60.4
+   ],
+   "size": 8.8,
+   "testo": "fissa di 9 metri una parvenza di animazione e volontà,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    60.8,
+    524.1,
+    71.4
+   ],
+   "size": 8.8,
+   "testo": "donando loro l'abilità di comunicare con lui e di seguire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    71.9,
+    513.4,
+    82.4
+   ],
+   "size": 8.8,
+   "testo": "dei comandi semplici. Può interrogare i vegetali sugli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    82.8,
+    525.8,
+    93.4
+   ],
+   "size": 8.8,
+   "testo": "eventi avvenuti nell'area dell'incantesimo nella giornata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    93.7,
+    515.2,
+    104.3
+   ],
+   "size": 8.8,
+   "testo": "passata, ottenere informazioni riguardo alle creature",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    104.8,
+    523.6,
+    115.3
+   ],
+   "size": 8.8,
+   "testo": "transitate al suo interno, al clima e ad altre circostanze.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.4,
+    115.7,
+    528.8,
+    126.3
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, l'incantatore può anche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    126.8,
+    513.7,
+    137.3
+   ],
+   "size": 8.8,
+   "testo": "trasformare un terreno difficile a causa della crescita",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    137.7,
+    508.4,
+    148.3
+   ],
+   "size": 8.8,
+   "testo": "vegetale (come per esempio arbusti e sottobosco) in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    148.8,
+    507.8,
+    159.4
+   ],
+   "size": 8.8,
+   "testo": "un terreno normale. In alternativa può trasformare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    159.8,
+    508.1,
+    170.4
+   ],
+   "size": 8.8,
+   "testo": "un terreno normale dove siano presenti dei vegetali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    170.7,
+    392.4,
+    181.3
+   ],
+   "size": 8.8,
+   "testo": "in un terreno difficile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.2,
+    181.8,
+    515.9,
+    192.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo non consente alle piante di sradicarsi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    192.8,
+    500.1,
+    203.3
+   ],
+   "size": 8.8,
+   "testo": "e deambulare, ma permette loro di muovere rami,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    203.9,
+    452.1,
+    214.5
+   ],
+   "size": 8.8,
+   "testo": "rampicanti e viticci per l'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    214.8,
+    526.0,
+    225.4
+   ],
+   "size": 8.8,
+   "testo": "Se una creatura vegetale si trova nell'area, il personag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    225.8,
+    518.7,
+    236.4
+   ],
+   "size": 8.8,
+   "testo": "gio può comunicarci come se entrambi condividessero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    236.9,
+    383.9,
+    247.5
+   ],
+   "size": 8.8,
+   "testo": "una lingua comune.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    271.6,
+    482.2,
+    283.0
+   ],
+   "size": 11.2,
+   "testo": "PAROLA DEL POTEREFORTIFICARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    283.1,
+    465.4,
+    293.5
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi 7° livello (bardo, chierico)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    298.6,
+    396.8,
+    308.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    309.6,
+    369.2,
+    319.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    320.6,
+    365.2,
+    330.2
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    331.6,
+    377.4,
+    341.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    347.8,
+    532.0,
+    358.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore fortifica fino a sei creature entro gittata che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    358.8,
+    524.0,
+    369.3
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere. L'incantesimo conferisce 120 punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    369.7,
+    522.4,
+    380.3
+   ],
+   "size": 8.8,
+   "testo": "ferita temporanei, che l'incantatore divide tra i bersagli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    380.8,
+    373.2,
+    391.4
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1368 @@
+{
+ "pagina_pdf": 367,
+ "pagina_stampata": 364,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "364 / APPENDICE CI GLOSSARIO DELLE REGOLE",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.8,
+    36.2,
+    256.8,
+    46.7
+   ],
+   "size": 8.8,
+   "testo": "Presa. Il bersaglio deve superare un tiro salvezza su",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.2,
+    47.2,
+    269.7,
+    57.8
+   ],
+   "size": 8.8,
+   "testo": "Forza o su Destrezza (a sua scelta), altrimenti viene affer­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    58.3,
+    262.2,
+    68.8
+   ],
+   "size": 8.8,
+   "testo": "rato. La CD per il tiro salvezza e per qualsiasi tentativo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.1,
+    69.2,
+    250.6,
+    79.8
+   ],
+   "size": 8.8,
+   "testo": "di sfuggire alla presa è pari a 8 più il modificatore di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.1,
+    80.2,
+    270.4,
+    90.8
+   ],
+   "size": 8.8,
+   "testo": "Forza e il bonus di competenza del personaggio. La presa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    91.2,
+    264.3,
+    101.8
+   ],
+   "size": 8.8,
+   "testo": "è possibile solo se il bersaglio è al massimo di una taglia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    102.2,
+    274.2,
+    112.8
+   ],
+   "size": 8.8,
+   "testo": "più grande del personaggio e se quest'ultimo ha una mano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    113.2,
+    216.0,
+    123.8
+   ],
+   "size": 8.8,
+   "testo": "libera per afferrarlo. Vedianche \"Afferrare\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    124.1,
+    250.8,
+    134.7
+   ],
+   "size": 8.8,
+   "testo": "Spinta. Il bersaglio deve superare un tiro salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.0,
+    135.1,
+    243.8,
+    145.7
+   ],
+   "size": 8.8,
+   "testo": "su Forza o su Destrezza (a sua scelta), altrimenti il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.0,
+    146.2,
+    260.3,
+    156.7
+   ],
+   "size": 8.8,
+   "testo": "personaggio lo spinge a 1,5 metri di distanza oppure lo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    157.1,
+    265.0,
+    167.7
+   ],
+   "size": 8.8,
+   "testo": "fa cadere a terra prono. La CD per il tiro salvezza è pari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    168.2,
+    266.4,
+    178.8
+   ],
+   "size": 8.8,
+   "testo": "a 8 più il modificatore di Forza e il bonus di competenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    179.2,
+    265.1,
+    189.7
+   ],
+   "size": 8.8,
+   "testo": "del personaggio. La spinta è possibile solo se il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    190.1,
+    258.0,
+    200.7
+   ],
+   "size": 8.8,
+   "testo": "è al massimo di una taglia più grande del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.4,
+    225.1,
+    120.5,
+    236.4
+   ],
+   "size": 11.2,
+   "testo": "COMPETENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.0,
+    236.3,
+    256.8,
+    246.9
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio ha una competenza in qualcosa,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.8,
+    247.4,
+    268.0,
+    257.9
+   ],
+   "size": 8.8,
+   "testo": "può aggiungere il bonus di competenza a qualsiasi prova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    258.3,
+    269.9,
+    268.9
+   ],
+   "size": 8.8,
+   "testo": "con d20 effettuata per utilizzare ciò in cui è competente.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    269.3,
+    272.4,
+    279.9
+   ],
+   "size": 8.8,
+   "testo": "Una creatura può avere competenza nell'uso di un'abilità,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    280.4,
+    255.8,
+    290.9
+   ],
+   "size": 8.8,
+   "testo": "in un tiro salvezza o nell'uso di un'arma o strumento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.3,
+    291.4,
+    192.7,
+    302.0
+   ],
+   "size": 8.8,
+   "testo": "Vedianche capitolo 1 (\"Competenza\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.3,
+    326.2,
+    216.3,
+    337.5
+   ],
+   "size": 11.2,
+   "testo": "COMPETENZA NELLE ARMATURE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.8,
+    337.4,
+    267.2,
+    348.0
+   ],
+   "size": 8.8,
+   "testo": "La competenza nelle armature consente al tuo personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    348.4,
+    272.6,
+    358.9
+   ],
+   "size": 8.8,
+   "testo": "gio di utilizzare un'armatura di una certa categoria senza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    359.4,
+    276.3,
+    370.0
+   ],
+   "size": 8.8,
+   "testo": "gli svantaggi illustrati di seguito. Se il personaggio indossa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    370.4,
+    251.2,
+    381.0
+   ],
+   "size": 8.8,
+   "testo": "un'armatura leggera, media o pesante senza avere la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.7,
+    381.3,
+    269.5,
+    391.9
+   ],
+   "size": 8.8,
+   "testo": "competenza per farlo, subisce svantaggio a tutte le prove",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    392.4,
+    267.9,
+    402.9
+   ],
+   "size": 8.8,
+   "testo": "con d20 relative a Forza o Destrezza, e non può lanciare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    403.5,
+    269.9,
+    414.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimi. Se il personaggio usa uno scudo senza avere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    414.5,
+    251.3,
+    425.1
+   ],
+   "size": 8.8,
+   "testo": "la competenza per farlo, non riceve il bonus alla CA.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.2,
+    425.4,
+    243.0,
+    436.0
+   ],
+   "size": 8.8,
+   "testo": "Vedianche \"Svantaggio\" e capitolo 6 (\"Armatura\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.2,
+    460.2,
+    145.4,
+    471.6
+   ],
+   "size": 11.2,
+   "testo": "CONCENTRAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.4,
+    471.4,
+    249.8,
+    482.0
+   ],
+   "size": 8.8,
+   "testo": "Per rimanere attivi, alcuni incantesimi e altri effetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.3,
+    482.5,
+    267.4,
+    493.1
+   ],
+   "size": 8.8,
+   "testo": "richiedono concentrazione, come specificato nelle rispet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.0,
+    493.4,
+    271.6,
+    504.0
+   ],
+   "size": 8.8,
+   "testo": "tive descrizioni. Se il creatore dell'effetto perde la concen­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    504.5,
+    269.4,
+    515.0
+   ],
+   "size": 8.8,
+   "testo": "trazione, l'effetto termina. Se l'effetto ha una durata mas­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    515.5,
+    265.0,
+    526.1
+   ],
+   "size": 8.8,
+   "testo": "sima, la descrizione dell'effetto specifica quanto a lungo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    526.4,
+    259.8,
+    537.0
+   ],
+   "size": 8.8,
+   "testo": "il creatore può concentrarsi su di esso: fino a 1 minuto,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    537.4,
+    246.7,
+    547.9
+   ],
+   "size": 8.8,
+   "testo": "1 ora o un'altra durata. Il creatore può terminare la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    548.4,
+    258.3,
+    559.0
+   ],
+   "size": 8.8,
+   "testo": "concentrazione in qualsiasi momento (nessuna azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    559.4,
+    267.5,
+    570.0
+   ],
+   "size": 8.8,
+   "testo": "richiesta). La concentrazione viene interrotta dai fattori",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    570.3,
+    123.1,
+    580.9
+   ],
+   "size": 8.8,
+   "testo": "descritti di seguito:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    581.3,
+    244.4,
+    591.9
+   ],
+   "size": 8.8,
+   "testo": "Unaltro effetto di concentrazione. Il personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.8,
+    592.3,
+    246.0,
+    602.8
+   ],
+   "size": 8.8,
+   "testo": "perde la concentrazione su un effetto nel momento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    603.3,
+    246.0,
+    613.8
+   ],
+   "size": 8.8,
+   "testo": "in cui inizia a lanciare un incantesimo che richiede",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    614.4,
+    263.9,
+    624.9
+   ],
+   "size": 8.8,
+   "testo": "concentrazione, o se attiva un altro effetto che richiede",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    625.4,
+    111.0,
+    636.0
+   ],
+   "size": 8.8,
+   "testo": "concentrazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    636.5,
+    268.9,
+    647.0
+   ],
+   "size": 8.8,
+   "testo": "Danni. Se il personaggio subisce danni, deve effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    647.4,
+    258.3,
+    658.0
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Costituzione per mantenere la con­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.4,
+    658.4,
+    272.2,
+    669.0
+   ],
+   "size": 8.8,
+   "testo": "centrazione. La CD è pari a 10 o alla metà dei danni subiti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    669.4,
+    268.1,
+    680.0
+   ],
+   "size": 8.8,
+   "testo": "(arrotondata per difetto): si sceglie il numero più alto tra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.4,
+    680.5,
+    209.9,
+    691.0
+   ],
+   "size": 8.8,
+   "testo": "i due valori, fino a una CD di massimo 30.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    691.3,
+    263.3,
+    701.9
+   ],
+   "size": 8.8,
+   "testo": "Incapacitato o morto. Se il personaggio è incapacitato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.4,
+    702.2,
+    202.3,
+    712.8
+   ],
+   "size": 8.8,
+   "testo": "o muore, la sua concentrazione termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.7,
+    51.8,
+    368.7,
+    63.1
+   ],
+   "size": 11.2,
+   "testo": "CONDIZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.8,
+    63.1,
+    491.6,
+    73.7
+   ],
+   "size": 8.8,
+   "testo": "Una condizione è uno stato di gioco temporaneo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.3,
+    74.2,
+    509.1,
+    84.7
+   ],
+   "size": 8.8,
+   "testo": "Nella descrizione di una condizione, vengono indicati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.0,
+    85.2,
+    510.7,
+    95.7
+   ],
+   "size": 8.8,
+   "testo": "gli effetti su chi ne è affetto, e varie regole definiscono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.1,
+    96.2,
+    510.2,
+    106.8
+   ],
+   "size": 8.8,
+   "testo": "le modalità per terminarla. Nel glossario sono definite",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.1,
+    107.1,
+    388.6,
+    117.7
+   ],
+   "size": 8.8,
+   "testo": "le seguenti condizioni:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.0,
+    125.5,
+    335.5,
+    135.1
+   ],
+   "size": 8.4,
+   "testo": "Accecato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    377.9,
+    125.6,
+    426.2,
+    135.2
+   ],
+   "size": 8.4,
+   "testo": "Incapacitato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.3,
+    125.6,
+    507.8,
+    135.2
+   ],
+   "size": 8.4,
+   "testo": "Privo di sensi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.0,
+    137.5,
+    343.7,
+    147.1
+   ],
+   "size": 8.4,
+   "testo": "Affascinato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    377.9,
+    137.6,
+    434.9,
+    147.2
+   ],
+   "size": 8.4,
+   "testo": "Indebolimento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.9,
+    137.6,
+    480.5,
+    147.2
+   ],
+   "size": 8.4,
+   "testo": "Prono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.0,
+    149.5,
+    334.6,
+    159.1
+   ],
+   "size": 8.4,
+   "testo": "Afferrato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    377.9,
+    149.5,
+    413.6,
+    159.2
+   ],
+   "size": 8.4,
+   "testo": "Invisibile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.4,
+    149.6,
+    499.3,
+    159.3
+   ],
+   "size": 8.4,
+   "testo": "Spaventato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.0,
+    161.5,
+    339.7,
+    171.2
+   ],
+   "size": 8.4,
+   "testo": "Assordato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    377.9,
+    161.5,
+    421.0,
+    171.2
+   ],
+   "size": 8.4,
+   "testo": "ParaIizzato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.5,
+    161.6,
+    487.7,
+    171.3
+   ],
+   "size": 8.4,
+   "testo": "Stordito",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.0,
+    173.6,
+    343.0,
+    183.2
+   ],
+   "size": 8.4,
+   "testo": "Avvelenato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    377.9,
+    173.6,
+    420.3,
+    183.3
+   ],
+   "size": 8.4,
+   "testo": "Pietrificato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.0,
+    173.7,
+    496.7,
+    183.3
+   ],
+   "size": 8.4,
+   "testo": "Trattenuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.2,
+    188.9,
+    525.6,
+    199.5
+   ],
+   "size": 8.8,
+   "testo": "Non è possibile accumulare più istanze di una condizione:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.1,
+    200.0,
+    503.6,
+    210.6
+   ],
+   "size": 8.8,
+   "testo": "chi ne è affetto o ce l'ha o non ce l'ha. La condizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.3,
+    211.0,
+    497.6,
+    221.6
+   ],
+   "size": 8.8,
+   "testo": "\"indebolimento\" costituisce l'eccezione alla regola.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.5,
+    221.9,
+    440.2,
+    232.5
+   ],
+   "size": 8.8,
+   "testo": "Vedianche capitolo 1 (\"Condizioni\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.5,
+    256.7,
+    435.8,
+    268.0
+   ],
+   "size": 11.2,
+   "testo": "CONO [AREA DI EFFETTO]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.1,
+    268.1,
+    527.0,
+    278.7
+   ],
+   "size": 8.8,
+   "testo": "Un cono è un'area di effetto che si estende in linee rette da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.8,
+    279.1,
+    527.1,
+    289.7
+   ],
+   "size": 8.8,
+   "testo": "un punto di origine nella direzione scelta dal suo creatore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.1,
+    290.2,
+    508.2,
+    300.7
+   ],
+   "size": 8.8,
+   "testo": "La larghezza del cono, misurata in un qualsiasi punto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.0,
+    301.1,
+    522.1,
+    311.7
+   ],
+   "size": 8.8,
+   "testo": "della sua lunghezza, è pari alla distanza di quel punto dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.8,
+    312.1,
+    517.2,
+    322.7
+   ],
+   "size": 8.8,
+   "testo": "punto di origine. Per esempio, un cono è largo 4,5 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.8,
+    323.1,
+    519.7,
+    333.6
+   ],
+   "size": 8.8,
+   "testo": "in un determinato punto della sua lunghezza che misura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.9,
+    334.1,
+    520.2,
+    344.6
+   ],
+   "size": 8.8,
+   "testo": "4,5 metri dal punto di origine. L'effetto che crea un cono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.8,
+    345.0,
+    435.2,
+    355.6
+   ],
+   "size": 8.8,
+   "testo": "ne specifica la lunghezza massima.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    356.1,
+    521.7,
+    366.6
+   ],
+   "size": 8.8,
+   "testo": "Il punto di origine di un cono non è incluso nell'area di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.0,
+    367.0,
+    520.1,
+    377.6
+   ],
+   "size": 8.8,
+   "testo": "effetto, a meno che il suo creatore non decida altrimenti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.3,
+    401.9,
+    364.8,
+    413.3
+   ],
+   "size": 11.2,
+   "testo": "COPERTURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.0,
+    413.3,
+    499.6,
+    423.9
+   ],
+   "size": 8.8,
+   "testo": "La copertura fornisce un certo grado di protezione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.8,
+    424.3,
+    507.7,
+    434.8
+   ],
+   "size": 8.8,
+   "testo": "a un bersaglio che si trova dietro di essa. Esistono tre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.6,
+    435.3,
+    512.1,
+    445.8
+   ],
+   "size": 8.8,
+   "testo": "gradi di copertura, ognuno dei quali offre un beneficio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.8,
+    446.2,
+    522.9,
+    456.8
+   ],
+   "size": 8.8,
+   "testo": "diverso a un bersaglio: Mezza copertura (bonus di +2 alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.8,
+    457.1,
+    525.4,
+    467.7
+   ],
+   "size": 8.8,
+   "testo": "CA e ai tiri salvezza su Destrezza), tre quarti di copertura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.1,
+    468.1,
+    498.2,
+    478.7
+   ],
+   "size": 8.8,
+   "testo": "(bonus di +5 alla CA e ai tiri salvezza su Destrezza)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.8,
+    479.1,
+    524.0,
+    489.7
+   ],
+   "size": 8.8,
+   "testo": "e copertura totale (il bersaglio non può essere bersagliato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.7,
+    490.1,
+    513.1,
+    500.6
+   ],
+   "size": 8.8,
+   "testo": "direttamente). Se il bersaglio si trova dietro a più di un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.6,
+    501.1,
+    527.3,
+    511.7
+   ],
+   "size": 8.8,
+   "testo": "grado di copertura, beneficia solo del grado più protettivo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.2,
+    512.1,
+    457.6,
+    522.7
+   ],
+   "size": 8.8,
+   "testo": "Vedianchecapitolo 1 (\"Combattimento\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.2,
+    546.8,
+    358.4,
+    558.2
+   ],
+   "size": 11.2,
+   "testo": "CREATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.7,
+    558.2,
+    520.3,
+    568.8
+   ],
+   "size": 8.8,
+   "testo": "Qualsiasi essere all'interno del gioco,incluso il personag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.7,
+    569.1,
+    511.3,
+    579.7
+   ],
+   "size": 8.8,
+   "testo": "gio di un giocatore, è una creatura. Vedianche \"Tipo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.6,
+    580.1,
+    338.8,
+    590.6
+   ],
+   "size": 8.8,
+   "testo": "creatura\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.1,
+    614.9,
+    434.7,
+    626.3
+   ],
+   "size": 11.2,
+   "testo": "CUBO [AREA DI EFFETTO]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.7,
+    626.4,
+    515.8,
+    636.9
+   ],
+   "size": 8.8,
+   "testo": "Un cubo è un'area di effetto che si estende in linee rette",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.6,
+    637.4,
+    514.4,
+    647.9
+   ],
+   "size": 8.8,
+   "testo": "da un punto di origine situato in qualsiasi punto di una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.6,
+    648.3,
+    519.0,
+    658.8
+   ],
+   "size": 8.8,
+   "testo": "faccia del cubo. L'effetto che crea un cubo ne specifica la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.4,
+    659.3,
+    524.2,
+    669.9
+   ],
+   "size": 8.8,
+   "testo": "grandezza, che è definita dalla lunghezza di ogni suo lato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    670.3,
+    521.6,
+    680.9
+   ],
+   "size": 8.8,
+   "testo": "Il punto di origine di un cubo non è incluso nell'area di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.5,
+    681.2,
+    519.8,
+    691.8
+   ],
+   "size": 8.8,
+   "testo": "effetto, a meno che il suo creatore non decida altrimenti.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

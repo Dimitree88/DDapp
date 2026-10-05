@@ -1,0 +1,835 @@
+{
+ "pagina_pdf": 56,
+ "pagina_stampata": 53,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 53",
+ "immagini": [
+  [
+   179,
+   -1,
+   400,
+   281
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.7,
+    300.0,
+    203.7,
+    311.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: ISTINTO FERINO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    311.3,
+    274.8,
+    321.8
+   ],
+   "size": 8.8,
+   "testo": "Gli istinti del barbaro sono talmente affinati da fornirgli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    322.2,
+    180.6,
+    332.8
+   ],
+   "size": 8.8,
+   "testo": "vantaggio ai tiri per l'iniziativa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    342.7,
+    206.5,
+    354.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 9: COLPO BRUTALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    354.0,
+    284.7,
+    364.6
+   ],
+   "size": 8.8,
+   "testo": "Usando Attacco Irruento, nel proprio turno il personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    365.0,
+    283.4,
+    375.6
+   ],
+   "size": 8.8,
+   "testo": "può rinunciare a qualsiasi vantaggio su un tiro per colpire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    376.0,
+    283.6,
+    386.6
+   ],
+   "size": 8.8,
+   "testo": "a scelta basato sulla Forza. Il tiro per colpirescelto non deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    387.1,
+    271.0,
+    397.7
+   ],
+   "size": 8.8,
+   "testo": "disporre di svantaggio. Se il tiro per colpire va a segno,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    398.1,
+    271.4,
+    408.7
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio subisce 1d10 di danni extra dello stesso tipo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    409.2,
+    279.8,
+    419.8
+   ],
+   "size": 8.8,
+   "testo": "di danni inflitti dall'arma o dal colpo senz'armi, e il perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    420.2,
+    276.6,
+    430.8
+   ],
+   "size": 8.8,
+   "testo": "naggio può causare uno degli effetti di Colpo Brutale tra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    431.2,
+    153.6,
+    441.8
+   ],
+   "size": 8.8,
+   "testo": "quelli elencati di seguito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    442.1,
+    282.7,
+    452.7
+   ],
+   "size": 8.8,
+   "testo": "Colpo spaccaossa. La velocità del bersaglio viene ridotta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    453.1,
+    284.5,
+    463.7
+   ],
+   "size": 8.8,
+   "testo": "di 4,5 metri fino all'inizio del turno successivo del barbaro.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    464.1,
+    263.4,
+    474.7
+   ],
+   "size": 8.8,
+   "testo": "Un bersaglio può essere influenzato da un solo Colpo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    475.1,
+    213.3,
+    485.6
+   ],
+   "size": 8.8,
+   "testo": "spaccaossa alla volta, quello più recente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    486.1,
+    271.5,
+    496.7
+   ],
+   "size": 8.8,
+   "testo": "Colpo violento. Il bersaglio viene spinto a 4,5 metri di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    497.2,
+    273.6,
+    507.7
+   ],
+   "size": 8.8,
+   "testo": "distanza dal person·aggio. In seguito, il personaggio può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    508.2,
+    269.5,
+    518.8
+   ],
+   "size": 8.8,
+   "testo": "muoversi fino alla metà della sua velocità in linea retta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    519.2,
+    284.9,
+    529.7
+   ],
+   "size": 8.8,
+   "testo": "verso il bersaglio senza provocare attacchi di opportunità.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    539.7,
+    213.2,
+    551.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: IRA IMPLACABILE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    551.0,
+    285.3,
+    561.6
+   ],
+   "size": 8.8,
+   "testo": "Grazie alla sua ira, il barbaro può continuare a combattere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    562.0,
+    273.2,
+    572.6
+   ],
+   "size": 8.8,
+   "testo": "nonostante le ferite più gravi. Se scende a 0 punti ferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    573.0,
+    263.7,
+    583.6
+   ],
+   "size": 8.8,
+   "testo": "mentre è in preda all'ira e non è ucciso sul colpo, può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    584.0,
+    267.6,
+    594.6
+   ],
+   "size": 8.8,
+   "testo": "effettuare un tiro salvezza su Costituzione con CD 10.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    595.0,
+    280.2,
+    605.6
+   ],
+   "size": 8.8,
+   "testo": "Se lo supera, i punti ferita cambiano invece in un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    606.0,
+    197.3,
+    616.6
+   ],
+   "size": 8.8,
+   "testo": "pari al doppio del livello da barbaro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    617.2,
+    279.9,
+    627.7
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che utilizza questo privilegio dopo la prima,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    628.2,
+    268.1,
+    638.8
+   ],
+   "size": 8.8,
+   "testo": "la CD aumenta di 5. Quando completa un riposo breve",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    639.2,
+    184.8,
+    649.8
+   ],
+   "size": 8.8,
+   "testo": "o lungo, la CD è ripristinata a 10.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    659.6,
+    280.5,
+    671.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 13: COLPO BRUTALE MIGLIORATO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    670.9,
+    270.6,
+    681.5
+   ],
+   "size": 8.8,
+   "testo": "Il barbaro ha affinato nuovi metodi per attaccare furio­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    682.0,
+    271.2,
+    692.6
+   ],
+   "size": 8.8,
+   "testo": "samente. I seguenti effetti si aggiungono alle opzioni di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    693.0,
+    113.5,
+    703.5
+   ],
+   "size": 8.8,
+   "testo": "Colpo brutale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    297.9,
+    521.7,
+    308.4
+   ],
+   "size": 8.8,
+   "testo": "Colpo sbalorditivo. Il bersaglio dispone di svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    308.8,
+    521.7,
+    319.4
+   ],
+   "size": 8.8,
+   "testo": "al prossimo tiro salvezza e non può effettuare attacchi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    319.8,
+    504.1,
+    330.4
+   ],
+   "size": 8.8,
+   "testo": "di opportunità fino all'inizio del turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    330.8,
+    535.7,
+    341.3
+   ],
+   "size": 8.8,
+   "testo": "Colpo di scissione. Prima dell'inizio del turno successivo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    341.7,
+    514.6,
+    352.3
+   ],
+   "size": 8.8,
+   "testo": "del barbaro, il prossimo tiro per colpire effettuato da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    352.8,
+    526.0,
+    363.3
+   ],
+   "size": 8.8,
+   "testo": "un'altra creatura contro il bersaglio ottiene un bonus di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    363.7,
+    529.5,
+    374.3
+   ],
+   "size": 8.8,
+   "testo": "+5 al tiro. Un tiro per colpire può ottenere un solo bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    374.7,
+    381.6,
+    385.3
+   ],
+   "size": 8.8,
+   "testo": "Colpo di scissione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    395.3,
+    466.5,
+    406.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: IRA PERSISTENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    406.7,
+    521.9,
+    417.3
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua un tiro per l'iniziativa, il barbaro può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    417.7,
+    522.0,
+    428.3
+   ],
+   "size": 8.8,
+   "testo": "recuperare tutti gli utilizzi di ira spesi. Dopo aver recu­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    428.7,
+    530.2,
+    439.3
+   ],
+   "size": 8.8,
+   "testo": "perato gli utilizzi di ira in questo modo, non può ripetere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    439.7,
+    505.5,
+    450.2
+   ],
+   "size": 8.8,
+   "testo": "l'azione prima di aver completato un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    450.6,
+    524.8,
+    461.2
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, la sua ira è così feroce che ora dura 10 minuti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    461.6,
+    529.8,
+    472.2
+   ],
+   "size": 8.8,
+   "testo": "senza che debba fare nulla per prolungarla a ogni round.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    472.6,
+    522.4,
+    483.2
+   ],
+   "size": 8.8,
+   "testo": "L'ira termina anticipatamente se il personaggio è privo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    483.6,
+    516.9,
+    494.2
+   ],
+   "size": 8.8,
+   "testo": "di sensi (e non semplicemente incapacitato) o indossa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    494.7,
+    393.2,
+    505.3
+   ],
+   "size": 8.8,
+   "testo": "un'armatura pesante.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    515.1,
+    531.6,
+    526.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: COLPO BRUTALE MIGLIORATO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    526.6,
+    506.0,
+    537.2
+   ],
+   "size": 8.8,
+   "testo": "I danni extra del Colpo brutale aumentano a 2d10.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    537.6,
+    520.6,
+    548.2
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, il barbaro può utilizzare due diversi effetti del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    548.6,
+    480.4,
+    559.2
+   ],
+   "size": 8.8,
+   "testo": "Colpo brutale quando usa questo privilegio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    569.0,
+    494.7,
+    580.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: POTENZA INDOMABILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    580.4,
+    517.8,
+    591.0
+   ],
+   "size": 8.8,
+   "testo": "Se il totale di una prova di Forza o di un tiro salvezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    591.3,
+    535.5,
+    601.9
+   ],
+   "size": 8.8,
+   "testo": "su Forza del barbaro è inferiore al suo punteggio di Forza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    602.4,
+    522.1,
+    613.0
+   ],
+   "size": 8.8,
+   "testo": "il barbaro può usare quel punteggio al posto del totale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    623.1,
+    444.1,
+    634.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    634.4,
+    519.7,
+    645.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    645.4,
+    522.5,
+    656.0
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    649.4,
+    492.0,
+    667.6
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono dell'attacco inarrestabile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    676.8,
+    510.7,
+    688.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: CAMPIONE PRIMORDIALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    688.2,
+    537.5,
+    698.8
+   ],
+   "size": 8.8,
+   "testo": "Il barbaro diventa un'incarnazione del potere primordiale.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    699.2,
+    538.0,
+    709.8
+   ],
+   "size": 8.8,
+   "testo": "Il suo punteggio di Forza e Costituzione aumenta di 4, fino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    710.1,
+    386.8,
+    720.7
+   ],
+   "size": 8.8,
+   "testo": "a un massimo di 25.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

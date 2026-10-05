@@ -1,0 +1,1308 @@
+{
+ "pagina_pdf": 243,
+ "pagina_stampata": 240,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "240 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    51.3,
+    51.1,
+    191.8,
+    61.4
+   ],
+   "size": 8.1,
+   "testo": "ALLUCINAZIONE DI FORZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    62.7,
+    214.1,
+    73.0
+   ],
+   "size": 8.1,
+   "testo": "Illusione di 2°livello (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    77.3,
+    143.7,
+    87.6
+   ],
+   "size": 8.1,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    88.3,
+    116.5,
+    98.7
+   ],
+   "size": 8.1,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    99.3,
+    200.9,
+    109.6
+   ],
+   "size": 8.1,
+   "testo": "Componenti: V, S, M (un ciuffo di lana)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    110.3,
+    205.9,
+    120.6
+   ],
+   "size": 8.1,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    129.1,
+    259.5,
+    137.7
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore tenta di creare un'illusione nella mente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    140.1,
+    261.8,
+    148.7
+   ],
+   "size": 6.7,
+   "testo": "di una creatura entro gittata che è in grado di vedere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    151.2,
+    255.1,
+    159.7
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio effettua un tiro salvezza su Intelligenza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    162.1,
+    271.6,
+    170.7
+   ],
+   "size": 6.7,
+   "testo": "Se lo fallisce, l'incantatore crea l'illusione di un oggetto,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    173.2,
+    271.2,
+    181.7
+   ],
+   "size": 6.7,
+   "testo": "una creatura o un fenomeno di altra natura, che non sia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    184.2,
+    260.0,
+    192.8
+   ],
+   "size": 6.7,
+   "testo": "più grande di un cubo con spigolo di 3 metri e che sia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    195.2,
+    276.2,
+    203.7
+   ],
+   "size": 6.7,
+   "testo": "percepibile soltanto dal bersaglio per la durata dell'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    206.3,
+    274.9,
+    214.8
+   ],
+   "size": 6.7,
+   "testo": "tesimo. L'allucinazione include suoni, temperature e altri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    217.3,
+    118.2,
+    225.9
+   ],
+   "size": 6.7,
+   "testo": "stimoli analoghi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    228.3,
+    255.2,
+    236.8
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio può effettuare un'azione di Studio per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    239.2,
+    269.4,
+    247.8
+   ],
+   "size": 6.7,
+   "testo": "esaminare l'allucinazione con una prova di Intelligenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    250.2,
+    280.0,
+    258.9
+   ],
+   "size": 6.7,
+   "testo": "(Indagare) contro la CD del tiro salvezza sull'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    261.3,
+    277.2,
+    269.8
+   ],
+   "size": 6.7,
+   "testo": "Se supera la prova, il bersaglio capisce che l'allucinazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    272.3,
+    201.5,
+    280.9
+   ],
+   "size": 6.7,
+   "testo": "è un'illusione e l'incantesimo termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    283.3,
+    272.5,
+    292.0
+   ],
+   "size": 6.7,
+   "testo": "Finché il bersaglio è influenzato dall'incantesimo, con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    294.4,
+    268.7,
+    302.9
+   ],
+   "size": 6.7,
+   "testo": "sidera l'allucinazione come se fosse reale e razionalizza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    305.3,
+    273.4,
+    313.9
+   ],
+   "size": 6.7,
+   "testo": "qualsiasi esito illogico prodotto dalle sue interazioni con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    316.2,
+    256.7,
+    324.8
+   ],
+   "size": 6.7,
+   "testo": "essa. Ad esempio, se il bersaglio cammina attraverso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    327.4,
+    253.3,
+    335.9
+   ],
+   "size": 6.7,
+   "testo": "un ponte illusorio e sopravvive alla caduta, crederà",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    338.2,
+    274.4,
+    346.8
+   ],
+   "size": 6.7,
+   "testo": "comunque che il ponte esista e che sia stato qualcos'altro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    349.2,
+    129.2,
+    357.8
+   ],
+   "size": 6.7,
+   "testo": "a causare la caduta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    360.2,
+    256.3,
+    368.8
+   ],
+   "size": 6.7,
+   "testo": "Un bersaglio influenzato può perfino subire danni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    371.2,
+    274.2,
+    379.8
+   ],
+   "size": 6.7,
+   "testo": "dall'illusione se l'allucinazione rappresenta una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    382.2,
+    269.8,
+    390.7
+   ],
+   "size": 6.7,
+   "testo": "pericolosa o un pericolo. In ogni turno dell'incantatore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    393.2,
+    273.7,
+    401.7
+   ],
+   "size": 6.7,
+   "testo": "l'allucinazione può infliggere 2d8 danni psichici al bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    404.3,
+    274.3,
+    412.8
+   ],
+   "size": 6.7,
+   "testo": "glio se questo si trova nell'area dell'allucinazione o entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    415.2,
+    270.2,
+    423.9
+   ],
+   "size": 6.7,
+   "testo": "1,5 metri da essa. Il bersaglio percepisce i danni come se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    426.3,
+    218.8,
+    434.8
+   ],
+   "size": 6.7,
+   "testo": "fossero del tipo appropriato per l'illusione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    459.0,
+    192.5,
+    469.4
+   ],
+   "size": 8.1,
+   "testo": "ALLUCINAZIONE MORTALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    470.7,
+    179.0,
+    481.0
+   ],
+   "size": 8.1,
+   "testo": "Illusione di 4°livello (bardo, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    485.3,
+    143.4,
+    495.6
+   ],
+   "size": 8.1,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    496.3,
+    116.5,
+    506.6
+   ],
+   "size": 8.1,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    508.9,
+    119.3,
+    517.6
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    518.3,
+    205.4,
+    528.7
+   ],
+   "size": 8.1,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    537.2,
+    263.8,
+    545.7
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore attinge agli incubi di una creatura entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    548.2,
+    267.4,
+    556.9
+   ],
+   "size": 6.7,
+   "testo": "gittata che è in grado di vedere e crea un'illusione delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    559.2,
+    278.7,
+    567.7
+   ],
+   "size": 6.7,
+   "testo": "sue paure più profonde, visibile solo a lei. Il bersaglio effet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    570.1,
+    265.6,
+    578.7
+   ],
+   "size": 6.7,
+   "testo": "tua un tiro salvezza su Saggezza. In caso di fallimento,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    581.1,
+    257.0,
+    589.7
+   ],
+   "size": 6.7,
+   "testo": "subisce 4d10 danni psichici e subisce svantaggio alle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    592.1,
+    266.3,
+    600.6
+   ],
+   "size": 6.7,
+   "testo": "prove di caratteristica e ai tiri per colpire per la durata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    603.1,
+    261.6,
+    611.7
+   ],
+   "size": 6.7,
+   "testo": "dell'incantesimo. In caso di successo, subisce soltanto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    614.2,
+    230.9,
+    622.8
+   ],
+   "size": 6.7,
+   "testo": "la metà di quei danni e l'incantesimo termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    625.2,
+    257.8,
+    633.8
+   ],
+   "size": 6.7,
+   "testo": "Per la durata dell'incantesimo, il bersaglio effettua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    636.3,
+    269.1,
+    644.9
+   ],
+   "size": 6.7,
+   "testo": "un tiro salvezza su Saggezza alla fine di ogni suo turno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.7,
+    647.3,
+    279.1,
+    655.8
+   ],
+   "size": 6.7,
+   "testo": "In caso di fallimento, subisce nuovamente i danni psichici.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    658.2,
+    218.7,
+    666.8
+   ],
+   "size": 6.7,
+   "testo": "In caso di successo, l'incantesimo termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    669.3,
+    255.3,
+    677.9
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    680.3,
+    264.1,
+    688.9
+   ],
+   "size": 6.7,
+   "testo": "I danni aumentano di 1d10 per ogni slot di livello supe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.7,
+    691.2,
+    93.7,
+    699.7
+   ],
+   "size": 6.7,
+   "testo": "riore al 4°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    51.0,
+    416.8,
+    61.4
+   ],
+   "size": 8.1,
+   "testo": "ALTERARE SE STESSO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    62.6,
+    464.9,
+    72.9
+   ],
+   "size": 8.1,
+   "testo": "Trasmutazione di 2°livello (mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    77.2,
+    396.8,
+    87.5
+   ],
+   "size": 8.1,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    88.3,
+    381.2,
+    98.6
+   ],
+   "size": 8.1,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    100.8,
+    372.5,
+    109.5
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    110.2,
+    443.6,
+    120.5
+   ],
+   "size": 8.1,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    129.1,
+    514.7,
+    137.6
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore altera la propria forma fisica scegliendo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    140.1,
+    510.5,
+    148.6
+   ],
+   "size": 6.7,
+   "testo": "tra le opzioni seguenti. Gli effetti permangono per la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    150.9,
+    525.5,
+    159.5
+   ],
+   "size": 6.7,
+   "testo": "sua durata, durante la quale l'incantatore può effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    162.1,
+    513.3,
+    170.7
+   ],
+   "size": 6.7,
+   "testo": "un'azione di Magia per sostituire l'opzione scelta con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    173.2,
+    353.6,
+    181.7
+   ],
+   "size": 6.7,
+   "testo": "una diversa.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    184.1,
+    526.3,
+    192.8
+   ],
+   "size": 6.7,
+   "testo": "Adattamento acquatico. L'incantatore sviluppa le bran­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    195.1,
+    517.7,
+    203.7
+   ],
+   "size": 6.7,
+   "testo": "chie e una membrana tra le dita. Inoltre, può respirare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    206.2,
+    522.1,
+    214.8
+   ],
+   "size": 6.7,
+   "testo": "sott'acqua e ottenere una velocità di nuoto pari alla sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    217.3,
+    339.1,
+    225.8
+   ],
+   "size": 6.7,
+   "testo": "velocità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    228.2,
+    526.9,
+    236.9
+   ],
+   "size": 6.7,
+   "testo": "Armi naturali. L'incantatore sviluppa artigli (taglienti),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    239.1,
+    525.3,
+    247.7
+   ],
+   "size": 6.7,
+   "testo": "zanne (perforanti), corna (perforanti) o zoccoli (contun­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    250.2,
+    521.0,
+    258.8
+   ],
+   "size": 6.7,
+   "testo": "denti). Quando usa il suo colpo senz'armi per infliggere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    261.2,
+    508.2,
+    269.8
+   ],
+   "size": 6.7,
+   "testo": "danni con l'arma naturale creata, infligge 1d6 danni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    272.2,
+    533.2,
+    280.8
+   ],
+   "size": 6.7,
+   "testo": "(del tipo indicato tra parentesi) invece di infliggere i danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    283.3,
+    516.0,
+    291.9
+   ],
+   "size": 6.7,
+   "testo": "normali del colpo senz'armi, usando il modificatore di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    294.3,
+    517.9,
+    302.8
+   ],
+   "size": 6.7,
+   "testo": "caratteristica da incantatore per i tiri per colpire e per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    305.3,
+    462.4,
+    313.9
+   ],
+   "size": 6.7,
+   "testo": "i tiri per i danni anziché quello di Forza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.2,
+    316.3,
+    518.1,
+    325.0
+   ],
+   "size": 6.7,
+   "testo": "Cambiare aspetto. L'incantatore altera il suo aspetto:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    327.3,
+    530.5,
+    335.9
+   ],
+   "size": 6.7,
+   "testo": "decide come apparire e definisce altezza, peso, lineamenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    338.2,
+    531.1,
+    346.8
+   ],
+   "size": 6.7,
+   "testo": "facciali, tono della voce, lunghezza dei capelli, carnagione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    349.2,
+    506.8,
+    357.7
+   ],
+   "size": 6.7,
+   "testo": "e altri tratti distintivi. Può scegliere di assomigliare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    360.2,
+    525.5,
+    368.7
+   ],
+   "size": 6.7,
+   "testo": "a un membro di un'altra specie, ma le sue statistiche non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    371.2,
+    534.9,
+    379.8
+   ],
+   "size": 6.7,
+   "testo": "subiscono modifiche. Non può apparire come una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    382.1,
+    525.6,
+    390.7
+   ],
+   "size": 6.7,
+   "testo": "di taglia diversa e la sua forma base rimane la stessa; per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    393.2,
+    514.3,
+    401.8
+   ],
+   "size": 6.7,
+   "testo": "esempio, se è bipede, non può usare l'incantesimo per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    404.3,
+    515.4,
+    412.8
+   ],
+   "size": 6.7,
+   "testo": "diventare quadrupede. Per la durata dell'incantesimo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    415.3,
+    527.7,
+    423.9
+   ],
+   "size": 6.7,
+   "testo": "può effettuare un'azione di Magia per cambiare di nuovo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    426.2,
+    359.9,
+    434.8
+   ],
+   "size": 6.7,
+   "testo": "il suo aspetto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    459.0,
+    356.9,
+    469.3
+   ],
+   "size": 8.1,
+   "testo": "AMICIZIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    470.7,
+    531.8,
+    481.0
+   ],
+   "size": 8.1,
+   "testo": "Trucchetto diAmmaliamento (bardo, mago, stregone, warlock)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    485.2,
+    396.5,
+    495.5
+   ],
+   "size": 8.1,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    496.2,
+    365.0,
+    506.5
+   ],
+   "size": 8.1,
+   "testo": "Gittata: 3 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    507.3,
+    443.2,
+    517.6
+   ],
+   "size": 8.1,
+   "testo": "Componenti: S, M (un po' di trucco)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    518.3,
+    458.8,
+    528.7
+   ],
+   "size": 8.1,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    537.2,
+    509.3,
+    545.7
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore emana magicamente un sentimento di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.3,
+    548.2,
+    509.7,
+    556.9
+   ],
+   "size": 6.7,
+   "testo": "amicizia verso una creatura che è in grado di vedere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    559.2,
+    524.4,
+    567.7
+   ],
+   "size": 6.7,
+   "testo": "entro gittata. Il bersaglio deve superare un tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    570.2,
+    524.3,
+    578.8
+   ],
+   "size": 6.7,
+   "testo": "su Saggezza, altrimenti rimane affascinato per la durata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    581.1,
+    516.2,
+    589.7
+   ],
+   "size": 6.7,
+   "testo": "dell'incantesimo. Il bersaglio supera automaticamente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    592.2,
+    525.1,
+    600.8
+   ],
+   "size": 6.7,
+   "testo": "il tiro se non è un umanoide, se l'incantatore sta combat­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    603.1,
+    527.9,
+    611.7
+   ],
+   "size": 6.7,
+   "testo": "tendo contro di esso o se l'incantatore ha lanciato questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    614.3,
+    482.7,
+    622.8
+   ],
+   "size": 6.7,
+   "testo": "incantesimo sul bersaglio nelle ultime 24 ore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    625.3,
+    531.2,
+    633.8
+   ],
+   "size": 6.7,
+   "testo": "L'incantesimo termina in anticipo se il bersaglio subisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    636.3,
+    506.7,
+    644.9
+   ],
+   "size": 6.7,
+   "testo": "danni o se l'incantatore effettua un tiro per colpire,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    647.3,
+    521.6,
+    655.9
+   ],
+   "size": 6.7,
+   "testo": "infligge danni o costringe qualcuno a effettuare un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.3,
+    658.3,
+    525.5,
+    666.9
+   ],
+   "size": 6.7,
+   "testo": "salvezza. Al termine dell'incantesimo, il bersaglio capirà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    669.3,
+    473.4,
+    677.9
+   ],
+   "size": 6.7,
+   "testo": "di essere stato affascinato dall'incantatore.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

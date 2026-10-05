@@ -1,0 +1,1075 @@
+{
+ "pagina_pdf": 257,
+ "pagina_stampata": 254,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "254 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   69,
+   48,
+   256,
+   254
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    52.4,
+    283.8,
+    149.0,
+    294.4
+   ],
+   "size": 8.4,
+   "testo": "COLPO ACCURATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    295.3,
+    266.9,
+    305.9
+   ],
+   "size": 8.4,
+   "testo": "Trucchetto di Divinazione (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    309.9,
+    143.0,
+    320.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    320.9,
+    127.4,
+    331.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    331.8,
+    252.2,
+    342.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: S, M (un'arma nel cui uso l'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    342.8,
+    227.8,
+    353.4
+   ],
+   "size": 8.4,
+   "testo": "ha competenza e ha un valore di l mr o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    353.7,
+    123.6,
+    364.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    372.6,
+    270.7,
+    381.3
+   ],
+   "size": 6.7,
+   "testo": "Guidato da un lampo di intuizione magica, l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    383.6,
+    258.1,
+    392.3
+   ],
+   "size": 6.7,
+   "testo": "effettua un attacco con l'arma utilizzata per lanciare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    394.7,
+    272.1,
+    403.3
+   ],
+   "size": 6.7,
+   "testo": "l'incantesimo. Per determinare il tiro per colpire e il tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.7,
+    405.9,
+    271.7,
+    414.5
+   ],
+   "size": 6.7,
+   "testo": "per i danni, l'incantatore utilizza la sua caratteristica da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    416.8,
+    280.9,
+    425.4
+   ],
+   "size": 6.7,
+   "testo": "incantatore invece che la Forza o la Destrezza. Se l'attacco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    427.7,
+    271.9,
+    436.4
+   ],
+   "size": 6.7,
+   "testo": "infligge danni, possono essere danni radiosi o danni nor­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    438.8,
+    238.3,
+    447.4
+   ],
+   "size": 6.7,
+   "testo": "mali inflitti dall'arma (a scelta dell'incantatore).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    449.7,
+    270.2,
+    458.5
+   ],
+   "size": 6.7,
+   "testo": "Trucchetto potenziato. A prescindere dal tipo di danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.7,
+    460.6,
+    268.3,
+    469.3
+   ],
+   "size": 6.7,
+   "testo": "che l'incantatore sceglie (danni radiosi o danni normali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    471.6,
+    268.6,
+    480.3
+   ],
+   "size": 6.7,
+   "testo": "dell'arma), l'attacco infligge danni radiosi extra quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    478.9,
+    278.6,
+    491.3
+   ],
+   "size": 6.7,
+   "testo": "l'incantatore raggiunge il 5° livello (1d6), 1'11° livello (2d6)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    489.9,
+    129.2,
+    502.2
+   ],
+   "size": 6.7,
+   "testo": "e il 17° livello (3d6).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    526.7,
+    153.2,
+    537.3
+   ],
+   "size": 8.4,
+   "testo": "COLPO INFUOCATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    538.3,
+    174.8,
+    548.9
+   ],
+   "size": 8.4,
+   "testo": "Invocazione di 5°livello (chierico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    552.9,
+    143.0,
+    563.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    563.9,
+    115.8,
+    574.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    574.7,
+    208.5,
+    585.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pizzico di zolfo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    585.8,
+    123.8,
+    596.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    604.6,
+    256.0,
+    613.3
+   ],
+   "size": 6.7,
+   "testo": "Una colonna verticale di fuoco splendente si abbatte",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    615.7,
+    255.7,
+    624.4
+   ],
+   "size": 6.7,
+   "testo": "dall'alto. Ogni creatura all'interno di un cilindro del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    626.8,
+    271.7,
+    635.4
+   ],
+   "size": 6.7,
+   "testo": "raggio di 3 metri e dell'altezza di 12 metri centrato in un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    637.8,
+    278.7,
+    646.4
+   ],
+   "size": 6.7,
+   "testo": "punto entro gittata effettua un tiro salvezza su Destrezza;",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    648.7,
+    258.6,
+    657.4
+   ],
+   "size": 6.7,
+   "testo": "se lo fallisce, subisce 5d6 danni da fuoco e 5d6 danni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    659.8,
+    254.3,
+    668.4
+   ],
+   "size": 6.7,
+   "testo": "radiosi, mentre se lo supera subisce soltanto la metà",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    670.9,
+    105.8,
+    679.5
+   ],
+   "size": 6.7,
+   "testo": "di quei danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    681.8,
+    254.8,
+    690.5
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    692.7,
+    252.6,
+    701.4
+   ],
+   "size": 6.7,
+   "testo": "I danni da fuoco e i danni radiosi aumentano di 1d6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    700.0,
+    197.5,
+    712.3
+   ],
+   "size": 6.7,
+   "testo": "per ogni slot di livello superiore al 5°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    51.4,
+    431.5,
+    62.0
+   ],
+   "size": 8.4,
+   "testo": "COLPO INTRAPPOLANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    61.6,
+    419.0,
+    73.6
+   ],
+   "size": 8.4,
+   "testo": "Evocazione di 1° livello (ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    77.7,
+    519.4,
+    88.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: Azione bonus che l'incantatore effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.3,
+    88.6,
+    505.5,
+    99.2
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito una creatura con un'arma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    99.6,
+    380.1,
+    110.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    112.1,
+    362.1,
+    120.9
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    121.5,
+    457.7,
+    132.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino al minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    140.4,
+    508.7,
+    149.1
+   ],
+   "size": 6.7,
+   "testo": "Quando l'incantatore colpisce il bersaglio, su di esso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    151.4,
+    529.3,
+    160.0
+   ],
+   "size": 6.7,
+   "testo": "appare un groviglio di rampicanti. Il bersaglio effettua un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    162.4,
+    525.0,
+    171.1
+   ],
+   "size": 6.7,
+   "testo": "tiro salvezza su Forza, disponendo di vantaggio a questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    173.4,
+    501.9,
+    182.2
+   ],
+   "size": 6.7,
+   "testo": "tiro se è una creatura di taglia Grande o superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    184.5,
+    509.6,
+    193.2
+   ],
+   "size": 6.7,
+   "testo": "Se lo fallisce, il bersaglio è trattenuto fino al termine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    195.4,
+    524.3,
+    204.1
+   ],
+   "size": 6.7,
+   "testo": "dell'incantesimo. Se lo supera, i rampicanti si ritraggono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    206.5,
+    481.7,
+    215.2
+   ],
+   "size": 6.7,
+   "testo": "e avvizziscono, ponendo fine all'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    217.6,
+    506.5,
+    226.3
+   ],
+   "size": 6.7,
+   "testo": "Finché è trattenuto, il bersaglio subisce 1d6 danni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    228.5,
+    522.9,
+    237.1
+   ],
+   "size": 6.7,
+   "testo": "perforanti all'inizio di ogni suo turno. Il bersaglio o una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    239.5,
+    517.1,
+    248.1
+   ],
+   "size": 6.7,
+   "testo": "creatura alla sua portata può usare un'azione per effet­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    250.5,
+    524.0,
+    259.1
+   ],
+   "size": 6.7,
+   "testo": "tuare una prova di Forza (Atletica) contro la CD del tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    261.5,
+    521.2,
+    270.1
+   ],
+   "size": 6.7,
+   "testo": "salvezza sull'incantesimo. In caso di successo, l'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    272.5,
+    359.2,
+    281.1
+   ],
+   "size": 6.7,
+   "testo": "simo termina.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    283.6,
+    507.1,
+    292.4
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    294.6,
+    512.1,
+    303.3
+   ],
+   "size": 6.7,
+   "testo": "I danni aumentano di 1d6 per ogni slot di livello supe­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    301.8,
+    344.4,
+    314.2
+   ],
+   "size": 6.7,
+   "testo": "riore al 1°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    338.6,
+    433.6,
+    349.2
+   ],
+   "size": 8.4,
+   "testo": "COLTELLO DI GHIACCIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    348.6,
+    475.5,
+    360.7
+   ],
+   "size": 8.4,
+   "testo": "Evocazione di 1° livello (druido, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    364.7,
+    395.7,
+    375.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    375.6,
+    368.6,
+    386.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    386.6,
+    517.0,
+    397.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: S, M (una goccia d'acqua o un frammento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    397.8,
+    357.1,
+    408.4
+   ],
+   "size": 8.4,
+   "testo": "di ghiaccio)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    408.9,
+    376.5,
+    419.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    427.6,
+    524.0,
+    436.3
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore crea un frammento di ghiaccio e lo scaglia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    438.6,
+    529.2,
+    447.3
+   ],
+   "size": 6.7,
+   "testo": "contro una creatura entro gittata, effettuando un attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    449.5,
+    528.5,
+    458.2
+   ],
+   "size": 6.7,
+   "testo": "a distanza con incantesimo contro il bersaglio. Se il colpo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    460.6,
+    511.4,
+    469.2
+   ],
+   "size": 6.7,
+   "testo": "va a segno, il bersaglio subisce 1d10 danni perforanti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    471.5,
+    507.1,
+    480.1
+   ],
+   "size": 6.7,
+   "testo": "Che colpisca o manchi il bersaglio, il frammento poi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    482.6,
+    517.7,
+    491.2
+   ],
+   "size": 6.7,
+   "testo": "esplode. Il bersaglio e ogni creatura entro 1,5 metri dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    493.5,
+    528.1,
+    502.3
+   ],
+   "size": 6.7,
+   "testo": "punto in cui il ghiaccio è esploso devono superare un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    504.6,
+    517.0,
+    513.2
+   ],
+   "size": 6.7,
+   "testo": "salvezza su Destrezza, altrimenti subiscono 2d6 danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    515.6,
+    344.8,
+    524.3
+   ],
+   "size": 6.7,
+   "testo": "da freddo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    526.7,
+    507.4,
+    535.4
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    537.6,
+    530.1,
+    546.2
+   ],
+   "size": 6.7,
+   "testo": "I danni da freddo aumentano di 1d6 per ogni slot di livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    544.8,
+    362.3,
+    557.2
+   ],
+   "size": 6.7,
+   "testo": "superiore al 1°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    581.6,
+    361.3,
+    592.1
+   ],
+   "size": 8.4,
+   "testo": "COMANDO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    591.7,
+    498.9,
+    603.7
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento di 1° livello (bardo, chierico, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    607.7,
+    395.7,
+    618.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    618.8,
+    368.6,
+    629.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    631.5,
+    362.2,
+    640.2
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    640.8,
+    376.5,
+    651.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    659.7,
+    502.4,
+    668.3
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore rivolge una parola di comando a una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    670.7,
+    532.7,
+    679.5
+   ],
+   "size": 6.7,
+   "testo": "creatura entro gittata che è in grado di vedere. Il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    681.7,
+    516.9,
+    690.3
+   ],
+   "size": 6.7,
+   "testo": "deve superare un tiro salvezza su Saggezza, altrimenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    692.7,
+    511.2,
+    701.3
+   ],
+   "size": 6.7,
+   "testo": "dovrà obbedire al comando nel suo turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    703.6,
+    464.7,
+    712.3
+   ],
+   "size": 6.7,
+   "testo": "Scegli il comando tra le seguenti opzioni:",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

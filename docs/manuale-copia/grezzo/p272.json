@@ -1,0 +1,1284 @@
+{
+ "pagina_pdf": 272,
+ "pagina_stampata": 269,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 269",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.2,
+    53.1,
+    143.4,
+    64.4
+   ],
+   "size": 11.2,
+   "testo": "ELEMENTALISMO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    65.6,
+    248.7,
+    74.9
+   ],
+   "size": 8.6,
+   "testo": "TrucchettodiTrasmutazione (druido, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    80.2,
+    144.7,
+    89.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    91.1,
+    112.8,
+    100.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    102.1,
+    119.6,
+    111.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    113.2,
+    125.2,
+    122.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    129.4,
+    259.1,
+    140.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore esercita il suo controllo sugli elementi,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    140.4,
+    232.3,
+    151.0
+   ],
+   "size": 8.8,
+   "testo": "creando uno dei seguenti effetti entro gittata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    151.5,
+    264.4,
+    162.1
+   ],
+   "size": 8.8,
+   "testo": "Richiamo delfuoco. Nell'area di un cubo con spigolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    162.5,
+    271.4,
+    173.1
+   ],
+   "size": 8.8,
+   "testo": "di 1,5 metri, l'incantatore crea una piccola nube di braci",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    173.5,
+    265.5,
+    184.1
+   ],
+   "size": 8.8,
+   "testo": "non incandescenti, colorate e che emettono fumo e un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    184.5,
+    277.2,
+    195.1
+   ],
+   "size": 8.8,
+   "testo": "odore particolare. L'incantatore sceglie il colore e l'odore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    195.6,
+    269.5,
+    206.2
+   ],
+   "size": 8.8,
+   "testo": "delle braci, che si possono usare per accendere candele,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    206.5,
+    274.0,
+    217.1
+   ],
+   "size": 8.8,
+   "testo": "torce o lampade in quell'area. L'odore del fumo permane",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    217.5,
+    105.7,
+    228.1
+   ],
+   "size": 8.8,
+   "testo": "per 1 minuto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    228.6,
+    265.5,
+    239.1
+   ],
+   "size": 8.8,
+   "testo": "Richiamo dell'acqua. L'incantatore crea uno spruzzo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    239.5,
+    269.0,
+    250.1
+   ],
+   "size": 8.8,
+   "testo": "d'acqua fresca nebulizzata che inumidisce leggermente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    250.5,
+    277.7,
+    261.1
+   ],
+   "size": 8.8,
+   "testo": "le creature e gli oggetti all'interno di un cubo con spigolo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    261.6,
+    267.5,
+    272.2
+   ],
+   "size": 8.8,
+   "testo": "di 1,5 metri. In alternativa, crea 1 coppa di acqua pulita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    272.6,
+    277.2,
+    283.2
+   ],
+   "size": 8.8,
+   "testo": "da riversare all'interno di un contenitore aperto o su una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    283.6,
+    217.5,
+    294.2
+   ],
+   "size": 8.8,
+   "testo": "superficie; l'acqua evapora dopo 1 minuto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    294.6,
+    260.6,
+    305.2
+   ],
+   "size": 8.8,
+   "testo": "Richiamo dell'aria. Nell'area di un cubo con spigolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    305.6,
+    274.8,
+    316.2
+   ],
+   "size": 8.8,
+   "testo": "di 1,5 metri, l'incantatore crea una brezza in grado di far",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    316.6,
+    268.0,
+    327.1
+   ],
+   "size": 8.8,
+   "testo": "svolazzare i tessuti, sollevare la polvere, far oscillare le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    327.5,
+    271.5,
+    338.1
+   ],
+   "size": 8.8,
+   "testo": "foglie e chiudere porte e persiane aperte. Se le porte e le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    338.4,
+    269.5,
+    349.0
+   ],
+   "size": 8.8,
+   "testo": "persiane sono tenute aperte da qualcuno, l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    349.5,
+    149.7,
+    360.0
+   ],
+   "size": 8.8,
+   "testo": "non ha effetto su di esse.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    360.5,
+    273.2,
+    371.0
+   ],
+   "size": 8.8,
+   "testo": "Richiamo della terra. L'incantatore crea un sottile velo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    371.4,
+    268.3,
+    382.0
+   ],
+   "size": 8.8,
+   "testo": "di polvere o sabbia che ricopre le superfici di un'area di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    382.5,
+    279.0,
+    393.0
+   ],
+   "size": 8.8,
+   "testo": "1,5 metri per lato, oppure fa comparire una singola parola",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    393.5,
+    278.0,
+    404.1
+   ],
+   "size": 8.8,
+   "testo": "scritta nella sua calligrafia su un lembo di terra o un letto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    404.6,
+    91.1,
+    415.1
+   ],
+   "size": 8.8,
+   "testo": "di sabbia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    415.6,
+    257.3,
+    426.2
+   ],
+   "size": 8.8,
+   "testo": "Scolpire elementi. L'incantatore fa in modo che un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    426.6,
+    282.3,
+    437.2
+   ],
+   "size": 8.8,
+   "testo": "elemento a sua scelta tra terra, sabbia, fuoco, fumo, nebbia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    437.6,
+    276.3,
+    448.2
+   ],
+   "size": 8.8,
+   "testo": "o acqua (in una quantità tale da poter essere contenuto in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    448.5,
+    275.6,
+    459.1
+   ],
+   "size": 8.8,
+   "testo": "un cubo con spigolo di 30 centimetri) assuma una forma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    459.6,
+    231.5,
+    470.2
+   ],
+   "size": 8.8,
+   "testo": "rozza (come quella di una creatura) per 1 ora.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    494.2,
+    102.1,
+    505.5
+   ],
+   "size": 11.2,
+   "testo": "EROISMO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    505.8,
+    214.4,
+    516.3
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi1°livello (bardo, paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    521.3,
+    144.3,
+    531.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    532.4,
+    117.1,
+    542.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    543.4,
+    119.3,
+    553.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    554.3,
+    205.8,
+    564.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    570.5,
+    255.1,
+    581.1
+   ],
+   "size": 8.8,
+   "testo": "Una creatura consenziente toccata dall'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    581.6,
+    274.8,
+    592.2
+   ],
+   "size": 8.8,
+   "testo": "è animata da grande coraggio. Fino al termine dell'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    592.5,
+    273.7,
+    603.0
+   ],
+   "size": 8.8,
+   "testo": "tesimo, la creatura è immune alla condizione spaventato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    603.5,
+    279.3,
+    614.1
+   ],
+   "size": 8.8,
+   "testo": "e all'inizio di ogni suo turno ottiene una quantità di punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    614.7,
+    277.6,
+    625.3
+   ],
+   "size": 8.8,
+   "testo": "ferita temporanei pari al modificatore di caratteristica da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    625.7,
+    166.0,
+    636.3
+   ],
+   "size": 8.8,
+   "testo": "incantatore dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    638.4,
+    256.2,
+    647.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    647.7,
+    265.6,
+    658.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    656.5,
+    197.1,
+    669.3
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 1°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    53.3,
+    343.3,
+    64.7
+   ],
+   "size": 11.2,
+   "testo": "ESILIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    64.9,
+    523.1,
+    75.4
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi4° livello (chierico, mago, paladino, stregone,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    76.8,
+    338.7,
+    86.2
+   ],
+   "size": 8.6,
+   "testo": "warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    91.4,
+    397.6,
+    101.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    102.4,
+    365.6,
+    112.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    113.5,
+    443.0,
+    123.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pentacolo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    124.5,
+    459.1,
+    134.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    140.6,
+    529.6,
+    151.2
+   ],
+   "size": 8.8,
+   "testo": "Una creatura entro gittata che l'incantatore è in grado di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    151.7,
+    532.9,
+    162.3
+   ],
+   "size": 8.8,
+   "testo": "vedere deve superare un tiro salvezza su Carisma o essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    162.7,
+    521.7,
+    173.3
+   ],
+   "size": 8.8,
+   "testo": "trasportata in un semipiano sicuro per la durata dell'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    173.7,
+    524.9,
+    184.3
+   ],
+   "size": 8.8,
+   "testo": "cantesimo. Mentre si trova lì, il bersaglio è incapacitato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    184.7,
+    519.5,
+    195.2
+   ],
+   "size": 8.8,
+   "testo": "Al termine dell'incantesimo, il bersaglio riappare nello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    195.8,
+    527.2,
+    206.3
+   ],
+   "size": 8.8,
+   "testo": "spazio in cui si trovava prima del lancio o, se è occupato,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    206.7,
+    421.6,
+    217.3
+   ],
+   "size": 8.8,
+   "testo": "nello spazio libero più vicino.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    217.7,
+    533.9,
+    228.3
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantesimo sul bersaglio dura 1 minuto, il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    228.7,
+    529.9,
+    239.3
+   ],
+   "size": 8.8,
+   "testo": "non fa ritorno se è un'aberrazione, un celestiale, un elemen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    239.7,
+    524.9,
+    250.3
+   ],
+   "size": 8.8,
+   "testo": "tale, un folletto o un immondo. In questo caso, viene tra­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    250.7,
+    531.1,
+    261.2
+   ],
+   "size": 8.8,
+   "testo": "sportato in un luogo casuale di un piano (a scelta del DM)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    261.8,
+    473.8,
+    272.4
+   ],
+   "size": 8.8,
+   "testo": "associato al tipo di creatura di cui fa parte.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.0,
+    274.5,
+    509.2,
+    283.1
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    283.8,
+    518.4,
+    294.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    292.6,
+    451.9,
+    305.3
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 4°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    329.3,
+    414.3,
+    340.7
+   ],
+   "size": 11.2,
+   "testo": "ESPLOSIONE SOLARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    340.9,
+    515.1,
+    351.3
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di8° livello (chierico, druido, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    356.4,
+    397.2,
+    366.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    367.3,
+    369.7,
+    376.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 45 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    378.4,
+    508.4,
+    388.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un frammento di pietra di sole)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    389.4,
+    377.8,
+    399.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    405.7,
+    517.4,
+    416.2
+   ],
+   "size": 8.8,
+   "testo": "Una radiosa luce solare splende in una sfera del raggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    416.9,
+    517.1,
+    427.4
+   ],
+   "size": 8.8,
+   "testo": "di 18 metri, centrata su un punto entro gittata a scelta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    427.8,
+    504.5,
+    438.3
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore. Ogni creatura al suo interno deve",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    438.7,
+    528.4,
+    449.3
+   ],
+   "size": 8.8,
+   "testo": "effettuare un tiro salvezza su Costituzione. Se lo fallisce,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    449.7,
+    534.5,
+    460.3
+   ],
+   "size": 8.8,
+   "testo": "subisce 12d6 danni radiosi e rimane accecata per 1 minuto,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    460.7,
+    502.3,
+    471.2
+   ],
+   "size": 8.8,
+   "testo": "mentre se lo supera subisce solo la metà dei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    471.6,
+    524.6,
+    482.2
+   ],
+   "size": 8.8,
+   "testo": "Una creatura accecata da questo incantesimo effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    482.7,
+    525.0,
+    493.2
+   ],
+   "size": 8.8,
+   "testo": "un altro tiro salvezza su Costituzione al termine di ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    493.7,
+    530.1,
+    504.3
+   ],
+   "size": 8.8,
+   "testo": "suo turno, facendone svanire l'effetto in caso di successo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.2,
+    504.8,
+    532.6,
+    515.4
+   ],
+   "size": 8.8,
+   "testo": "Questo incantesimo dissolve qualsiasi oscurità nell'area",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    515.8,
+    407.5,
+    526.4
+   ],
+   "size": 8.8,
+   "testo": "creata da un incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    550.4,
+    363.6,
+    561.7
+   ],
+   "size": 11.2,
+   "testo": "ESTASIARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    561.9,
+    465.7,
+    572.4
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi2°livello (bardo, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    577.5,
+    397.1,
+    587.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    588.5,
+    369.4,
+    598.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    599.5,
+    372.0,
+    609.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    610.6,
+    458.7,
+    620.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    626.9,
+    527.7,
+    637.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore pronuncia una sequenza di parole disorien­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    637.9,
+    527.3,
+    648.4
+   ],
+   "size": 8.8,
+   "testo": "tante, costringendo le creature da lui scelte entro gittata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    648.9,
+    517.8,
+    659.4
+   ],
+   "size": 8.8,
+   "testo": "e che è in grado di vedere a effettuare un tiro salvezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    659.8,
+    519.4,
+    670.4
+   ],
+   "size": 8.8,
+   "testo": "su Saggezza. Se l'incantatore o i suoi compagni stanno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    670.8,
+    532.9,
+    681.3
+   ],
+   "size": 8.8,
+   "testo": "combattendo contro una creatura, quella supera automati­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    681.8,
+    528.7,
+    692.4
+   ],
+   "size": 8.8,
+   "testo": "camente questo tiro salvezza. In caso di fallimento, il ber­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    692.8,
+    522.9,
+    703.4
+   ],
+   "size": 8.8,
+   "testo": "saglio subisce una penalità di -10 alle prove di Saggezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    703.8,
+    513.9,
+    714.4
+   ],
+   "size": 8.8,
+   "testo": "(Percezione) e alla Percezione passiva fino al termine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    714.8,
+    373.4,
+    725.3
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

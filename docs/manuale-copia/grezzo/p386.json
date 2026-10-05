@@ -1,0 +1,5124 @@
+{
+ "pagina_pdf": 386,
+ "pagina_stampata": 383,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "INDICE / 383",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    62.4,
+    39.0,
+    146.8,
+    45.7
+   ],
+   "size": 5.2,
+   "testo": "preparare gli incantesimi, 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    38.8,
+    188.1,
+    45.7
+   ],
+   "size": 6.8,
+   "testo": "punizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.6,
+    38.8,
+    320.5,
+    45.7
+   ],
+   "size": 6.8,
+   "testo": "razza. Vedi specie dei",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.4,
+    38.7,
+    407.1,
+    45.6
+   ],
+   "size": 6.8,
+   "testo": "ristorare superiore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    38.9,
+    543.3,
+    45.8
+   ],
+   "size": 6.8,
+   "testo": "scudo dellafede (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    47.0,
+    128.2,
+    53.7
+   ],
+   "size": 5.2,
+   "testo": "Prepararsi (azione), 15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    46.9,
+    243.8,
+    53.8
+   ],
+   "size": 6.8,
+   "testo": "marchiante (incantesimo).",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.6,
+    46.8,
+    313.3,
+    53.6
+   ],
+   "size": 5.2,
+   "testo": "personaggi, 177",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.8,
+    46.7,
+    420.2,
+    53.5
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 321",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.1,
+    47.0,
+    476.9,
+    53.8
+   ],
+   "size": 5.2,
+   "testo": "326",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    55.0,
+    149.8,
+    61.8
+   ],
+   "size": 5.2,
+   "testo": "Preparazione degli incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.9,
+    54.8,
+    241.1,
+    61.7
+   ],
+   "size": 6.8,
+   "testo": "Vedi punizione splendente,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.6,
+    54.8,
+    347.0,
+    61.7
+   ],
+   "size": 6.8,
+   "testo": "realizzare pozioni di guarigione,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.4,
+    54.6,
+    435.7,
+    61.5
+   ],
+   "size": 6.8,
+   "testo": "risveglio (incantesimo), 322",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    54.9,
+    539.1,
+    61.8
+   ],
+   "size": 6.8,
+   "testo": "scudo difuoco (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.0,
+    62.9,
+    137.9,
+    69.7
+   ],
+   "size": 5.2,
+   "testo": "per classe (tabella), 235",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    62.9,
+    180.5,
+    69.7
+   ],
+   "size": 5.2,
+   "testo": "307",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.6,
+    62.8,
+    279.0,
+    69.6
+   ],
+   "size": 5.2,
+   "testo": "233",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.4,
+    62.7,
+    440.0,
+    69.6
+   ],
+   "size": 6.8,
+   "testo": "ritirata rapida (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.1,
+    63.0,
+    476.9,
+    69.7
+   ],
+   "size": 5.2,
+   "testo": "326",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    70.9,
+    140.3,
+    77.8
+   ],
+   "size": 6.8,
+   "testo": "presagio (incantesimo), 303",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    70.9,
+    245.4,
+    77.7
+   ],
+   "size": 5.2,
+   "testo": "Punizione Occulta (supplica),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.6,
+    70.8,
+    317.6,
+    77.6
+   ],
+   "size": 5.2,
+   "testo": "realizzare pozioni di",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.3,
+    70.7,
+    378.5,
+    77.5
+   ],
+   "size": 5.2,
+   "testo": "322",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    70.9,
+    528.5,
+    77.8
+   ],
+   "size": 6.8,
+   "testo": "scudo (incantesimo), 326",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    78.9,
+    133.3,
+    85.8
+   ],
+   "size": 6.8,
+   "testo": "presenza regale di Yolande",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.9,
+    78.9,
+    179.6,
+    85.7
+   ],
+   "size": 5.2,
+   "testo": "168",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.5,
+    78.9,
+    312.3,
+    85.6
+   ],
+   "size": 5.2,
+   "testo": "guarigione, 233",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    78.7,
+    405.5,
+    85.5
+   ],
+   "size": 5.2,
+   "testo": "ritmo di gioco, 8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    457.0,
+    78.9,
+    541.8,
+    85.7
+   ],
+   "size": 5.2,
+   "testo": "Scuole di magia (tabella), 236",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.7,
+    86.9,
+    124.1,
+    93.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 304",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    159.8,
+    86.8,
+    218.1,
+    93.7
+   ],
+   "size": 6.8,
+   "testo": "punizione splendente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.6,
+    86.8,
+    295.9,
+    93.6
+   ],
+   "size": 5.2,
+   "testo": "reazione, 15",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.5,
+    86.7,
+    412.6,
+    93.5
+   ],
+   "size": 5.2,
+   "testo": "ritorno alla vita, 57",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    457.0,
+    86.9,
+    506.9,
+    93.7
+   ],
+   "size": 5.2,
+   "testo": "scurovisione, 374",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    94.8,
+    149.1,
+    101.7
+   ],
+   "size": 6.8,
+   "testo": "prestidigitazione (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.0,
+    94.8,
+    223.2,
+    101.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 307",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    94.7,
+    299.3,
+    101.5
+   ],
+   "size": 5.2,
+   "testo": "Reazione, 371",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.6,
+    94.6,
+    393.0,
+    101.4
+   ],
+   "size": 5.2,
+   "testo": "Rituale, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    94.8,
+    545.3,
+    101.7
+   ],
+   "size": 6.8,
+   "testo": "scurovisione (incantesimo), 326",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.3,
+    102.9,
+    81.3,
+    109.6
+   ],
+   "size": 5.2,
+   "testo": "304",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.2,
+    102.7,
+    210.4,
+    109.6
+   ],
+   "size": 6.8,
+   "testo": "punizione tonante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    102.7,
+    345.2,
+    109.5
+   ],
+   "size": 5.2,
+   "testo": "Recuperare Energie (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.6,
+    102.6,
+    423.1,
+    109.4
+   ],
+   "size": 5.2,
+   "testo": "Robusto (talento) , 202",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    457.0,
+    102.9,
+    492.8,
+    109.7
+   ],
+   "size": 5.2,
+   "testo": "secchio, 228",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    110.9,
+    144.1,
+    117.8
+   ],
+   "size": 6.8,
+   "testo": "previsione (incantesimo), 304",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.0,
+    110.8,
+    223.3,
+    117.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 307",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    110.7,
+    304.7,
+    117.5
+   ],
+   "size": 5.2,
+   "testo": "di classe), 91",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.4,
+    110.5,
+    443.7,
+    117.4
+   ],
+   "size": 6.8,
+   "testo": "rombo di tuono (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    457.0,
+    110.9,
+    535.3,
+    117.7
+   ],
+   "size": 5.2,
+   "testo": "Segreti Magici (privilegio di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    118.9,
+    130.3,
+    125.7
+   ],
+   "size": 5.2,
+   "testo": "Primordiale (lingua), 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    118.8,
+    231.6,
+    125.6
+   ],
+   "size": 5.2,
+   "testo": "Punteggi di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    118.7,
+    338.9,
+    125.5
+   ],
+   "size": 5.2,
+   "testo": "Recupero Arcano (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.5,
+    118.7,
+    378.1,
+    125.5
+   ],
+   "size": 5.2,
+   "testo": "322",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.9,
+    118.9,
+    495.2,
+    125.7
+   ],
+   "size": 5.2,
+   "testo": "classe), 61",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    126.9,
+    131.5,
+    133.7
+   ],
+   "size": 5.2,
+   "testo": "conoscenza, perdere, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.0,
+    126.9,
+    203.5,
+    133.6
+   ],
+   "size": 5.2,
+   "testo": "(tabella) , 10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    126.7,
+    310.2,
+    133.5
+   ],
+   "size": 5.2,
+   "testo": "di classe), 112",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.4,
+    126.7,
+    437.2,
+    133.5
+   ],
+   "size": 5.2,
+   "testo": "rompere gli oggetti, 20, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    126.8,
+    541.8,
+    133.7
+   ],
+   "size": 6.8,
+   "testo": "segugiofedele di Mordenkainen",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.9,
+    134.9,
+    139.3,
+    141.7
+   ],
+   "size": 5.2,
+   "testo": "privo di sensi (condizione) ,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    134.8,
+    231.6,
+    141.6
+   ],
+   "size": 5.2,
+   "testo": "Punteggi di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    134.7,
+    330.9,
+    141.6
+   ],
+   "size": 6.8,
+   "testo": "recupero munizioni. Vedi",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    134.6,
+    388.9,
+    141.4
+   ],
+   "size": 5.2,
+   "testo": "sacco, 228",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.5,
+    134.9,
+    519.5,
+    141.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 327",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.5,
+    142.8,
+    81.3,
+    149.6
+   ],
+   "size": 5.2,
+   "testo": "370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    142.8,
+    243.6,
+    149.6
+   ],
+   "size": 5.2,
+   "testo": "e background (tabella) , 36",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.6,
+    142.7,
+    311.6,
+    149.5
+   ],
+   "size": 5.2,
+   "testo": "munizioni, 214",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    142.6,
+    396.9,
+    149.4
+   ],
+   "size": 5.2,
+   "testo": "Saggezza, 10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    142.9,
+    497.8,
+    149.6
+   ],
+   "size": 5.2,
+   "testo": "selle, 229-230",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    150.8,
+    108.9,
+    157.7
+   ],
+   "size": 6.8,
+   "testo": "produrrefiamma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    150.9,
+    231.6,
+    157.6
+   ],
+   "size": 5.2,
+   "testo": "Punteggi di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    150.7,
+    312.0,
+    157.6
+   ],
+   "size": 6.8,
+   "testo": "reggia meravigliosa",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    150.7,
+    392.1,
+    157.5
+   ],
+   "size": 5.2,
+   "testo": "saltare, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.5,
+    150.9,
+    505.2,
+    157.7
+   ],
+   "size": 5.2,
+   "testo": "Selva Fatata, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.8,
+    159.0,
+    124.3,
+    165.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 304",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    158.9,
+    244.3,
+    165.7
+   ],
+   "size": 5.2,
+   "testo": "e modificatori (tabella), 38",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.3,
+    158.7,
+    314.2,
+    165.6
+   ],
+   "size": 6.8,
+   "testo": "di Mordenkainen",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    158.6,
+    432.6,
+    165.5
+   ],
+   "size": 6.8,
+   "testo": "saltare (incantesimo), 322",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    158.9,
+    537.8,
+    165.8
+   ],
+   "size": 6.8,
+   "testo": "sembrare (incantesimo), 327",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    167.0,
+    101.4,
+    173.7
+   ],
+   "size": 5.2,
+   "testo": "profumo, 227",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    166.9,
+    236.7,
+    173.7
+   ],
+   "size": 5.2,
+   "testo": "punteggio di caratteristica,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.9,
+    166.8,
+    322.1,
+    173.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 309",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    166.7,
+    407.7,
+    173.5
+   ],
+   "size": 5.2,
+   "testo": "alto, salto in, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    166.9,
+    540.3,
+    173.8
+   ],
+   "size": 6.8,
+   "testo": "semipiano (incantesimo), 327",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    174.9,
+    147.7,
+    181.8
+   ],
+   "size": 6.8,
+   "testo": "proibizione (incantesimo), 304",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.9,
+    174.9,
+    189.9,
+    181.7
+   ],
+   "size": 5.2,
+   "testo": "10, 370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    174.8,
+    335.5,
+    181.6
+   ],
+   "size": 5.2,
+   "testo": "regole, glossario delle, 360",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.4,
+    174.6,
+    413.5,
+    181.4
+   ],
+   "size": 5.2,
+   "testo": "lungo, salto in, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    174.9,
+    508.3,
+    181.6
+   ],
+   "size": 5.2,
+   "testo": "speciali, sensi, 19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    183.0,
+    129.7,
+    189.7
+   ],
+   "size": 5.2,
+   "testo": "proiettile d a fionda, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    182.9,
+    218.4,
+    189.6
+   ],
+   "size": 5.2,
+   "testo": "assegnazione, 38",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    182.7,
+    289.7,
+    189.6
+   ],
+   "size": 6.8,
+   "testo": "regressione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    182.7,
+    407.6,
+    189.5
+   ],
+   "size": 5.2,
+   "testo": "Salto in Alto, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.7,
+    182.9,
+    528.1,
+    189.7
+   ],
+   "size": 5.2,
+   "testo": "Sensi Ferini (privilegio di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    190.9,
+    100.3,
+    197.7
+   ],
+   "size": 5.2,
+   "testo": "proiettili, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    190.9,
+    223.6,
+    197.7
+   ],
+   "size": 5.2,
+   "testo": "e modificatore, 370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.4,
+    190.7,
+    347.3,
+    197.6
+   ],
+   "size": 6.8,
+   "testo": "mentale (incantesimo). Vedi",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    190.7,
+    414.2,
+    197.5
+   ],
+   "size": 5.2,
+   "testo": "Salto in Lungo, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    190.9,
+    499.2,
+    197.7
+   ],
+   "size": 5.2,
+   "testo": "classe), 143",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    199.0,
+    139.5,
+    205.8
+   ],
+   "size": 5.2,
+   "testo": "proiettili per armi da fuoco,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    198.9,
+    214.0,
+    205.7
+   ],
+   "size": 5.2,
+   "testo": "generazione, 38",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    198.8,
+    313.2,
+    205.7
+   ],
+   "size": 6.8,
+   "testo": "disorientare, 266",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    198.6,
+    404.4,
+    205.5
+   ],
+   "size": 6.8,
+   "testo": "salvare i morenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    198.9,
+    506.4,
+    205.7
+   ],
+   "size": 5.2,
+   "testo": "sensi speciali, 19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.5,
+    207.0,
+    81.7,
+    213.8
+   ],
+   "size": 5.2,
+   "testo": "226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.8,
+    206.9,
+    204.6,
+    213.7
+   ],
+   "size": 5.2,
+   "testo": "modifica, 38",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    206.8,
+    342.4,
+    213.7
+   ],
+   "size": 6.8,
+   "testo": "reincarnazione (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.8,
+    206.7,
+    421.1,
+    213.5
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 322",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    457.0,
+    207.0,
+    525.1,
+    213.8
+   ],
+   "size": 5.2,
+   "testo": "Sentinella (talento), 208",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.0,
+    214.9,
+    110.3,
+    221.8
+   ],
+   "size": 6.8,
+   "testo": "proiezione astrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    214.9,
+    235.9,
+    221.6
+   ],
+   "size": 5.2,
+   "testo": "punti esperienza (PE), 370",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.6,
+    214.8,
+    279.6,
+    221.6
+   ],
+   "size": 5.2,
+   "testo": "310",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    214.7,
+    397.1,
+    221.5
+   ],
+   "size": 5.2,
+   "testo": "salvezza, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    214.9,
+    535.6,
+    221.7
+   ],
+   "size": 5.2,
+   "testo": "serie standard, generazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.8,
+    223.0,
+    124.2,
+    229.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 305",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    222.9,
+    205.9,
+    229.7
+   ],
+   "size": 5.2,
+   "testo": "punti ferita, 370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    222.8,
+    321.4,
+    229.6
+   ],
+   "size": 5.2,
+   "testo": "Religione (abilità), 14",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    222.7,
+    408.7,
+    229.5
+   ],
+   "size": 5.2,
+   "testo": "Sanguinante, 372",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    222.9,
+    512.0,
+    229.7
+   ],
+   "size": 5.2,
+   "testo": "del punteggio di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    231.0,
+    133.2,
+    237.8
+   ],
+   "size": 5.2,
+   "testo": "proni, buttarsi a terra, 25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    230.9,
+    215.5,
+    237.7
+   ],
+   "size": 5.2,
+   "testo": "temporanei, 370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.6,
+    230.8,
+    330.3,
+    237.6
+   ],
+   "size": 5.2,
+   "testo": "repertorio di un bardo, I l",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    230.7,
+    442.2,
+    237.6
+   ],
+   "size": 6.8,
+   "testo": "santificare (incantesimo), 322",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    231.0,
+    512.4,
+    237.7
+   ],
+   "size": 5.2,
+   "testo": "caratteristica, 38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    239.0,
+    130.8,
+    245.8
+   ],
+   "size": 5.2,
+   "testo": "prono (condizione), 370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    161.0,
+    238.9,
+    204.6,
+    245.7
+   ],
+   "size": 5.2,
+   "testo": "Punti Ferita, 27",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    238.9,
+    307.0,
+    245.6
+   ],
+   "size": 5.2,
+   "testo": "(riquadro) , 61",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    238.6,
+    439.7,
+    245.5
+   ],
+   "size": 6.8,
+   "testo": "santuario (incantesimo), 323",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    238.9,
+    528.6,
+    245.7
+   ],
+   "size": 5.2,
+   "testo": "Serie standard per classe",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    246.9,
+    127.3,
+    253.7
+   ],
+   "size": 5.2,
+   "testo": "proprietà accurata, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    246.9,
+    214.9,
+    253.7
+   ],
+   "size": 5.2,
+   "testo": "scendere a 0, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    246.8,
+    327.5,
+    253.6
+   ],
+   "size": 5.2,
+   "testo": "Resiliente (talento), 208",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    246.6,
+    412.2,
+    253.5
+   ],
+   "size": 6.8,
+   "testo": "santuario privato di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.4,
+    246.9,
+    499.7,
+    253.7
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    254.9,
+    135.2,
+    261.7
+   ],
+   "size": 5.2,
+   "testo": "proprietà a due mani, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    254.9,
+    211.9,
+    261.6
+   ],
+   "size": 5.2,
+   "testo": "temporanei, 29",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.6,
+    254.7,
+    312.5,
+    261.5
+   ],
+   "size": 5.2,
+   "testo": "resistenza, 28, 371",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.5,
+    254.6,
+    406.4,
+    261.5
+   ],
+   "size": 6.8,
+   "testo": "Mordenkainen",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    254.9,
+    538.6,
+    261.7
+   ],
+   "size": 5.2,
+   "testo": "serpente stritolatore (scheda",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    263.0,
+    129.6,
+    269.7
+   ],
+   "size": 5.2,
+   "testo": "proprietà dell'arma, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    161.0,
+    262.9,
+    229.0,
+    269.6
+   ],
+   "size": 5.2,
+   "testo": "Punti ferita degli oggetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    262.8,
+    342.2,
+    269.7
+   ],
+   "size": 6.8,
+   "testo": "resistenza (incantesimo), 310",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.8,
+    262.7,
+    420.7,
+    269.5
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 323",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    262.9,
+    526.1,
+    269.7
+   ],
+   "size": 5.2,
+   "testo": "delle statistiche), 356",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    271.0,
+    144.5,
+    277.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.1,
+    270.9,
+    207.3,
+    277.7
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 372",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    270.9,
+    307.9,
+    277.8
+   ],
+   "size": 6.8,
+   "testo": "respira sott'acqua",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    270.8,
+    436.8,
+    277.5
+   ],
+   "size": 5.2,
+   "testo": "Sapiente (background), 184",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    271.0,
+    532.9,
+    277.7
+   ],
+   "size": 5.2,
+   "testo": "serpente velenoso (scheda",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    279.0,
+    148.3,
+    285.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza colpo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    279.0,
+    235.3,
+    285.8
+   ],
+   "size": 5.2,
+   "testo": "Punti ferita fissi per classe",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    268.0,
+    278.9,
+    322.6,
+    285.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) . 310",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    278.8,
+    422.7,
+    285.5
+   ],
+   "size": 5.2,
+   "testo": "scacchi dei draghi, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    279.0,
+    525.7,
+    285.8
+   ],
+   "size": 5.2,
+   "testo": "delle statistiche), 357",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.2,
+    287.0,
+    112.6,
+    293.8
+   ],
+   "size": 5.2,
+   "testo": "di striscio, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.1,
+    286.9,
+    204.2,
+    293.7
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 42",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    286.8,
+    335.2,
+    293.7
+   ],
+   "size": 6.8,
+   "testo": "resurrezione (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    286.7,
+    432.4,
+    293.6
+   ],
+   "size": 6.8,
+   "testo": "Scacciare Non Morti. Vedi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    287.0,
+    496.8,
+    293.7
+   ],
+   "size": 5.2,
+   "testo": "serratura, 228",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    295.0,
+    130.9,
+    301.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    294.9,
+    231.0,
+    301.7
+   ],
+   "size": 5.2,
+   "testo": "punti ferita massimi pari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.6,
+    294.8,
+    279.5,
+    301.6
+   ],
+   "size": 5.2,
+   "testo": "310",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.6,
+    294.7,
+    430.3,
+    301.5
+   ],
+   "size": 5.2,
+   "testo": "I ncanalare Divinità, 70",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    294.9,
+    502.2,
+    301.8
+   ],
+   "size": 6.8,
+   "testo": "serratura arcana",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.2,
+    303.0,
+    131.3,
+    309.8
+   ],
+   "size": 5.2,
+   "testo": "doppio fendente, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    302.9,
+    188.2,
+    309.7
+   ],
+   "size": 5.2,
+   "testo": "a 0, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    302.8,
+    307.1,
+    309.7
+   ],
+   "size": 6.8,
+   "testo": "resurrezione pura",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    302.7,
+    416.6,
+    309.6
+   ],
+   "size": 6.8,
+   "testo": "scagliare maledizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.3,
+    302.9,
+    519.4,
+    309.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo). 327",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    311.0,
+    130.9,
+    317.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    310.9,
+    229.0,
+    317.7
+   ],
+   "size": 5.2,
+   "testo": "Punti ferita per classe al",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    268.0,
+    310.8,
+    321.9,
+    317.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 311",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.8,
+    310.7,
+    420.7,
+    317.5
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 323",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    310.9,
+    511.5,
+    317.8
+   ],
+   "size": 6.8,
+   "testo": "servitore inosservato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.2,
+    319.0,
+    103.2,
+    325.8
+   ],
+   "size": 5.2,
+   "testo": "graffio, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.9,
+    318.9,
+    229.1,
+    325.7
+   ],
+   "size": 5.2,
+   "testo": "1 ° livello (tabella), 40",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    260.1,
+    318.8,
+    336.1,
+    325.6
+   ],
+   "size": 5.2,
+   "testo": "Retaggi immondi (tabella),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    318.7,
+    422.2,
+    325.5
+   ],
+   "size": 5.2,
+   "testo": "scaglie, corazza a, 219",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.4,
+    318.9,
+    519.5,
+    325.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 327",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    327.0,
+    130.9,
+    333.7
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    326.8,
+    230.8,
+    333.6
+   ],
+   "size": 5.2,
+   "testo": "Punti Ferita Temporanei,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.8,
+    326.8,
+    278.6,
+    333.6
+   ],
+   "size": 5.2,
+   "testo": "196",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    326.6,
+    405.9,
+    333.4
+   ],
+   "size": 5.2,
+   "testo": "scala a pioli, 228",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    326.9,
+    489.7,
+    333.6
+   ],
+   "size": 5.2,
+   "testo": "servizi, 230",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.3,
+    334.9,
+    108.4,
+    341.7
+   ],
+   "size": 5.2,
+   "testo": "lentezza, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    334.8,
+    189.9,
+    341.6
+   ],
+   "size": 5.2,
+   "testo": "29, 370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.9,
+    334.8,
+    285.0,
+    341.5
+   ],
+   "size": 5.2,
+   "testo": "rete, 227",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    334.6,
+    392.3,
+    341.4
+   ],
+   "size": 5.2,
+   "testo": "scalare, 373",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    334.9,
+    536.0,
+    341.6
+   ],
+   "size": 5.2,
+   "testo": "Servizi magici (tabella), 232",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    343.0,
+    130.9,
+    349.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    342.8,
+    245.1,
+    349.7
+   ],
+   "size": 6.8,
+   "testo": "Punti Ki. Vedi Concentrazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.5,
+    342.7,
+    345.7,
+    349.6
+   ],
+   "size": 6.8,
+   "testo": "rianimare morti (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    342.7,
+    440.3,
+    349.5
+   ],
+   "size": 5.2,
+   "testo": "Scaltrezza Magica (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    342.9,
+    537.8,
+    349.7
+   ],
+   "size": 5.2,
+   "testo": "Sessione zero (riquadro), 33",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.5,
+    350.9,
+    130.8,
+    357.7
+   ],
+   "size": 5.2,
+   "testo": "prosciugamento, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    350.8,
+    214.6,
+    357.6
+   ],
+   "size": 5.2,
+   "testo": "da Monaco, 123",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.6,
+    350.8,
+    277.6,
+    357.6
+   ],
+   "size": 5.2,
+   "testo": "311",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.5,
+    350.6,
+    407.4,
+    357.4
+   ],
+   "size": 5.2,
+   "testo": "di classe), 166",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    350.8,
+    541.4,
+    357.7
+   ],
+   "size": 6.8,
+   "testo": "sfera al vetriolo (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    358.9,
+    130.9,
+    365.7
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    358.8,
+    223.3,
+    365.6
+   ],
+   "size": 5.2,
+   "testo": "punti stregoneria, 152",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    358.7,
+    317.4,
+    365.5
+   ],
+   "size": 5.2,
+   "testo": "Ricerca (azione), 15",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    358.6,
+    440.8,
+    365.5
+   ],
+   "size": 6.8,
+   "testo": "scassinare (incantesimo), 324",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.0,
+    358.9,
+    476.4,
+    365.7
+   ],
+   "size": 5.2,
+   "testo": "328",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.5,
+    366.9,
+    126.7,
+    373.7
+   ],
+   "size": 5.2,
+   "testo": "rovesciamento, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    366.7,
+    228.0,
+    373.6
+   ],
+   "size": 6.8,
+   "testo": "purificare cibo e bevande",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    366.7,
+    319.2,
+    373.5
+   ],
+   "size": 5.2,
+   "testo": "Ricerca (tabella). 371",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    366.5,
+    430.9,
+    373.4
+   ],
+   "size": 6.8,
+   "testo": "scassinare serrature. Vedi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    366.9,
+    530.0,
+    373.6
+   ],
+   "size": 5.2,
+   "testo": "sfera (area di effetto), 374",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    374.9,
+    130.9,
+    381.7
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.0,
+    374.8,
+    223.2,
+    381.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 307",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    374.6,
+    317.5,
+    381.5
+   ],
+   "size": 6.8,
+   "testo": "richiama aberrazione",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.3,
+    374.6,
+    426.7,
+    381.4
+   ],
+   "size": 5.2,
+   "testo": "arnesi da scasso, 221",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    374.7,
+    529.1,
+    381.6
+   ],
+   "size": 6.8,
+   "testo": "sfera congelante di Otiluke",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.3,
+    382.9,
+    102.6,
+    389.7
+   ],
+   "size": 5.2,
+   "testo": "spinta, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    382.8,
+    246.3,
+    389.6
+   ],
+   "size": 5.2,
+   "testo": "quadrelli da balestra, custodia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    268.0,
+    382.8,
+    322.8,
+    389.5
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 312",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.2,
+    382.7,
+    412.9,
+    389.4
+   ],
+   "size": 5.2,
+   "testo": "Scatto (azione) , 15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.4,
+    382.9,
+    518.9,
+    389.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 328",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    391.0,
+    130.9,
+    397.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà di padronanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    390.9,
+    192.1,
+    397.6
+   ],
+   "size": 5.2,
+   "testo": "per, 225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    390.7,
+    344.9,
+    397.6
+   ],
+   "size": 6.8,
+   "testo": "richiama bestia (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    390.7,
+    425.4,
+    397.5
+   ],
+   "size": 5.2,
+   "testo": "scegliere una classe, 33",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    390.8,
+    520.1,
+    397.7
+   ],
+   "size": 6.8,
+   "testo": "sfera elastica di Otiluke",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.1,
+    399.0,
+    116.0,
+    405.7
+   ],
+   "size": 5.2,
+   "testo": "vessazione, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    398.9,
+    201.8,
+    405.7
+   ],
+   "size": 5.2,
+   "testo": "quadrello, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.6,
+    398.8,
+    278.4,
+    405.6
+   ],
+   "size": 5.2,
+   "testo": "313",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.2,
+    398.7,
+    441.7,
+    405.5
+   ],
+   "size": 5.2,
+   "testo": "scegliere un allineamento, 39",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.4,
+    398.9,
+    519.5,
+    405.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) . 329",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    407.1,
+    121.5,
+    413.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà gittata, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    407.0,
+    235.9,
+    413.9
+   ],
+   "size": 6.8,
+   "testo": "quadrello da balestra. Vedi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.5,
+    406.8,
+    310.1,
+    413.7
+   ],
+   "size": 6.8,
+   "testo": "richiama celestiale",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    407.1,
+    437.1,
+    413.9
+   ],
+   "size": 5.2,
+   "testo": "scendere a 0 punti ferita, 28",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    406.9,
+    540.3,
+    413.8
+   ],
+   "size": 6.8,
+   "testo": "sfera infuocata (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    415.1,
+    120.4,
+    421.9
+   ],
+   "size": 5.2,
+   "testo": "proprietà lancio, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    415.0,
+    210.0,
+    421.8
+   ],
+   "size": 5.2,
+   "testo": "quadrello, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    414.9,
+    321.4,
+    421.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 313",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    415.2,
+    438.1,
+    421.9
+   ],
+   "size": 5.2,
+   "testo": "scheda delle statistiche, 373",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.9,
+    415.0,
+    476.8,
+    421.8
+   ],
+   "size": 5.2,
+   "testo": "329",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    423.1,
+    124.4,
+    429.9
+   ],
+   "size": 5.2,
+   "testo": "proprietà leggera, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.4,
+    423.0,
+    218.2,
+    429.8
+   ],
+   "size": 5.2,
+   "testo": "quasit (scheda delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    422.9,
+    309.9,
+    429.8
+   ],
+   "size": 6.8,
+   "testo": "richiama costrutto",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    423.2,
+    440.0,
+    430.0
+   ],
+   "size": 5.2,
+   "testo": "Scheda delle statistiche della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    423.1,
+    516.2,
+    429.9
+   ],
+   "size": 5.2,
+   "testo": "sfere metalliche, 228",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    431.1,
+    133.1,
+    437.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà munizioni, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    431.0,
+    214.8,
+    437.8
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 354",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    430.9,
+    322.5,
+    437.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) . 314",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.0,
+    431.2,
+    435.2,
+    438.0
+   ],
+   "size": 5.2,
+   "testo": "cavalcatura ultraterrena,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    431.0,
+    544.3,
+    437.8
+   ],
+   "size": 5.2,
+   "testo": "sfinge della meraviglia (scheda",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    439.1,
+    126.7,
+    445.9
+   ],
+   "size": 5.2,
+   "testo": "proprietà pesante, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    439.0,
+    220.9,
+    445.8
+   ],
+   "size": 5.2,
+   "testo": "radioso (danno), 376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    438.9,
+    344.5,
+    445.8
+   ],
+   "size": 6.8,
+   "testo": "richiama drago (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.3,
+    439.2,
+    377.4,
+    445.9
+   ],
+   "size": 5.2,
+   "testo": "340",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.8,
+    438.9,
+    526.2,
+    445.7
+   ],
+   "size": 5.2,
+   "testo": "delle statistiche), 357",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    447.0,
+    124.7,
+    453.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà portata, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    446.9,
+    243.0,
+    453.8
+   ],
+   "size": 6.8,
+   "testo": "raffica di spine (incantesimo),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.6,
+    446.8,
+    278.4,
+    453.6
+   ],
+   "size": 5.2,
+   "testo": "315",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.0,
+    447.1,
+    427.3,
+    453.9
+   ],
+   "size": 5.2,
+   "testo": "scheda del personaggio,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    446.9,
+    537.5,
+    453.8
+   ],
+   "size": 6.8,
+   "testo": "sfocatura (incantesimo), 329",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    455.1,
+    125.0,
+    461.9
+   ],
+   "size": 5.2,
+   "testo": "proprietà ricarica, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.8,
+    454.9,
+    180.1,
+    461.7
+   ],
+   "size": 5.2,
+   "testo": "307",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    454.8,
+    315.6,
+    461.7
+   ],
+   "size": 6.8,
+   "testo": "richiama elementale",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.3,
+    455.1,
+    398.0,
+    461.9
+   ],
+   "size": 5.2,
+   "testo": "33-35, 373",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    455.0,
+    528.0,
+    461.7
+   ],
+   "size": 5.2,
+   "testo": "Sguardo delle Due Menti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    463.0,
+    127.8,
+    469.8
+   ],
+   "size": 5.2,
+   "testo": "proprietà versatile, 214",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    462.9,
+    224.1,
+    469.8
+   ],
+   "size": 6.8,
+   "testo": "raggio di affaticamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    462.9,
+    322.6,
+    469.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 316",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    463.1,
+    439.6,
+    469.9
+   ],
+   "size": 5.2,
+   "testo": "schede delle statistiche delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.4,
+    463.0,
+    507.8,
+    469.8
+   ],
+   "size": 5.2,
+   "testo": "(supplica), 168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    471.0,
+    118.2,
+    477.9
+   ],
+   "size": 6.8,
+   "testo": "protezione dai veleni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.1,
+    471.0,
+    223.1,
+    477.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 307",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    470.8,
+    304.9,
+    477.7
+   ],
+   "size": 6.8,
+   "testo": "richiamafolletto",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.0,
+    471.2,
+    404.0,
+    478.0
+   ],
+   "size": 5.2,
+   "testo": "creature, 346",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    470.9,
+    509.6,
+    477.8
+   ],
+   "size": 6.8,
+   "testo": "sguardo penetrante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.8,
+    479.0,
+    124.4,
+    485.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 305",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    478.9,
+    240.0,
+    485.8
+   ],
+   "size": 6.8,
+   "testo": "raggio digelo (incantesimo),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.9,
+    478.9,
+    321.5,
+    485.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 317",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    479.0,
+    415.2,
+    485.9
+   ],
+   "size": 6.8,
+   "testo": "scheggia della mente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.4,
+    478.9,
+    518.9,
+    485.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 329",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    486.9,
+    144.9,
+    493.8
+   ],
+   "size": 6.8,
+   "testo": "protezione dal bene e dal male",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.0,
+    486.9,
+    179.3,
+    493.7
+   ],
+   "size": 5.2,
+   "testo": "308",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.8,
+    486.7,
+    312.4,
+    493.6
+   ],
+   "size": 6.8,
+   "testo": "richiama immondo",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.6,
+    487.1,
+    420.6,
+    493.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 324",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    457.3,
+    486.9,
+    483.6,
+    493.7
+   ],
+   "size": 5.2,
+   "testo": "Sigil, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.8,
+    495.1,
+    124.2,
+    501.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 305",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    494.9,
+    211.1,
+    501.8
+   ],
+   "size": 6.8,
+   "testo": "raggio di infermità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    494.9,
+    321.5,
+    501.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 317",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    495.2,
+    424.1,
+    501.9
+   ],
+   "size": 5.2,
+   "testo": "scheletro (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    495.0,
+    513.4,
+    501.8
+   ],
+   "size": 5.2,
+   "testo": "Signore delle Bestie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    503.0,
+    123.2,
+    509.9
+   ],
+   "size": 6.8,
+   "testo": "protezione dall'energia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.1,
+    503.0,
+    222.9,
+    509.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 308",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    502.9,
+    314.6,
+    509.8
+   ],
+   "size": 6.8,
+   "testo": "richiama non morto",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.2,
+    503.2,
+    412.6,
+    510.0
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 356",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.4,
+    503.0,
+    515.8,
+    509.8
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 146",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.8,
+    511.1,
+    124.4,
+    517.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 305",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    511.0,
+    242.1,
+    517.9
+   ],
+   "size": 6.8,
+   "testo": "raggio rovente (incantesimo),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.9,
+    511.0,
+    322.6,
+    517.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 319",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    511.2,
+    418.5,
+    517.9
+   ],
+   "size": 5.2,
+   "testo": "Schivata (azione), 15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    511.1,
+    518.0,
+    517.8
+   ],
+   "size": 5.2,
+   "testo": "Signore delle Tattiche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    519.1,
+    133.5,
+    525.9
+   ],
+   "size": 5.2,
+   "testo": "Protezione (talento), 210",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.8,
+    519.0,
+    179.9,
+    525.8
+   ],
+   "size": 5.2,
+   "testo": "308",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    518.9,
+    337.1,
+    525.7
+   ],
+   "size": 5.2,
+   "testo": "richiamo, fischietto da, 225",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.1,
+    519.2,
+    444.6,
+    526.0
+   ],
+   "size": 5.2,
+   "testo": "Schivata Prodigiosa (privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.4,
+    519.0,
+    532.8,
+    525.8
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 92",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    527.1,
+    134.5,
+    533.9
+   ],
+   "size": 5.2,
+   "testo": "Prova con D20, 9, 10, 370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.9,
+    527.0,
+    241.6,
+    533.9
+   ],
+   "size": 6.8,
+   "testo": "ragnatela (incantesimo). 308",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.4,
+    526.9,
+    340.0,
+    533.8
+   ],
+   "size": 6.8,
+   "testo": "rigenerazione (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.0,
+    527.2,
+    407.9,
+    534.0
+   ],
+   "size": 5.2,
+   "testo": "di classe) , 102",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    527.0,
+    533.0,
+    533.9
+   ],
+   "size": 6.8,
+   "testo": "silenzio (incantesimo). 329",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    535.1,
+    140.5,
+    541.9
+   ],
+   "size": 5.2,
+   "testo": "Prove di influenza (tabella),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    535.1,
+    239.6,
+    541.8
+   ],
+   "size": 5.2,
+   "testo": "ragno gigante (scheda delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.5,
+    535.0,
+    278.5,
+    541.7
+   ],
+   "size": 5.2,
+   "testo": "320",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.3,
+    535.1,
+    408.0,
+    542.0
+   ],
+   "size": 6.8,
+   "testo": "sciame di meteore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    535.0,
+    512.9,
+    541.8
+   ],
+   "size": 5.2,
+   "testo": "Silvano (lingua), 37",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.5,
+    543.1,
+    81.6,
+    549.9
+   ],
+   "size": 5.2,
+   "testo": "367",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    543.0,
+    214.9,
+    549.8
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 355",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    542.9,
+    315.3,
+    549.8
+   ],
+   "size": 6.8,
+   "testo": "rimuovi maledizione",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.5,
+    543.2,
+    420.6,
+    550.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 324",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    543.0,
+    532.9,
+    549.8
+   ],
+   "size": 5.2,
+   "testo": "Simboli sacri (tabella), 228",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    551.1,
+    139.3,
+    557.9
+   ],
+   "size": 5.2,
+   "testo": "pseudodrago (scheda delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.3,
+    551.1,
+    217.0,
+    557.8
+   ],
+   "size": 5.2,
+   "testo": "ragno (scheda delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    551.0,
+    321.6,
+    557.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 320",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    551.2,
+    401.2,
+    557.9
+   ],
+   "size": 5.2,
+   "testo": "Scimitarra, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    551.0,
+    534.0,
+    557.9
+   ],
+   "size": 6.8,
+   "testo": "simbolo (incantesimo), 330",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.2,
+    559.0,
+    116.2,
+    565.8
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 354",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    559.0,
+    214.5,
+    565.7
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 355",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    558.8,
+    338.0,
+    565.7
+   ],
+   "size": 6.8,
+   "testo": "rinascita (incantesimo), 320",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.0,
+    559.0,
+    438.7,
+    565.9
+   ],
+   "size": 6.8,
+   "testo": "scolpire pietra (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    559.0,
+    511.2,
+    565.8
+   ],
+   "size": 5.2,
+   "testo": "simbolo sacro, 228",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    567.0,
+    124.3,
+    573.8
+   ],
+   "size": 5.2,
+   "testo": "psichico (danno), 376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    566.9,
+    220.0,
+    573.8
+   ],
+   "size": 6.8,
+   "testo": "rampicante afferrante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    566.9,
+    342.7,
+    573.6
+   ],
+   "size": 5.2,
+   "testo": "Rinascita Selvatica (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.3,
+    567.1,
+    377.4,
+    573.9
+   ],
+   "size": 5.2,
+   "testo": "324",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    566.9,
+    539.1,
+    573.8
+   ],
+   "size": 6.8,
+   "testo": "simulacro (incantesimo), 330",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    575.0,
+    98.8,
+    581.8
+   ],
+   "size": 5.2,
+   "testo": "Pugnale, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.0,
+    575.0,
+    222.9,
+    581.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 308",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.3,
+    574.9,
+    304.3,
+    581.6
+   ],
+   "size": 5.2,
+   "testo": "di classe), 81",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    575.1,
+    446.0,
+    582.0
+   ],
+   "size": 6.8,
+   "testo": "scopri il percorso (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    575.0,
+    508.1,
+    581.7
+   ],
+   "size": 5.2,
+   "testo": "Sintonia, 232, 374",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    583.0,
+    117.2,
+    589.9
+   ],
+   "size": 6.8,
+   "testo": "punizione accecante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    583.0,
+    199.4,
+    589.8
+   ],
+   "size": 5.2,
+   "testo": "rampino, 227",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    582.8,
+    308.2,
+    589.7
+   ],
+   "size": 6.8,
+   "testo": "rintocco dei morti",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.5,
+    583.1,
+    377.0,
+    589.9
+   ],
+   "size": 5.2,
+   "testo": "324",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    582.9,
+    529.8,
+    589.7
+   ],
+   "size": 5.2,
+   "testo": "slaad girino (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.7,
+    591.0,
+    124.3,
+    597.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 305",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    591.0,
+    247.0,
+    597.8
+   ],
+   "size": 5.2,
+   "testo": "rana (scheda delle statistiche),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.9,
+    590.9,
+    321.9,
+    597.6
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 320",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    591.1,
+    440.9,
+    598.0
+   ],
+   "size": 6.8,
+   "testo": "scopri trappole (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    464.9,
+    590.9,
+    511.3,
+    597.7
+   ],
+   "size": 5.2,
+   "testo": "statistiche) , 357",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    598.9,
+    112.5,
+    605.8
+   ],
+   "size": 6.8,
+   "testo": "punizione collerica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.8,
+    599.0,
+    180.3,
+    605.7
+   ],
+   "size": 5.2,
+   "testo": "356",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    598.8,
+    335.9,
+    605.7
+   ],
+   "size": 6.8,
+   "testo": "riparare (incantesimo). 321",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.1,
+    599.1,
+    378.0,
+    605.9
+   ],
+   "size": 5.2,
+   "testo": "324",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    598.9,
+    485.9,
+    605.7
+   ],
+   "size": 5.2,
+   "testo": "Slitta, 229",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.7,
+    607.0,
+    124.2,
+    613.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 306",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    606.9,
+    199.5,
+    613.7
+   ],
+   "size": 5.2,
+   "testo": "Randello, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    606.9,
+    326.4,
+    613.7
+   ],
+   "size": 5.2,
+   "testo": "Riposare (riquadro), 27",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    607.2,
+    426.2,
+    613.9
+   ],
+   "size": 5.2,
+   "testo": "scorpione (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    607.0,
+    495.5,
+    613.7
+   ],
+   "size": 5.2,
+   "testo": "smontare, 26",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    615.2,
+    127.7,
+    622.0
+   ],
+   "size": 5.2,
+   "testo": "Punizione del Paladino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    615.1,
+    210.8,
+    622.0
+   ],
+   "size": 6.8,
+   "testo": "randello incantato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    615.0,
+    310.3,
+    621.8
+   ],
+   "size": 5.2,
+   "testo": "breve, riposo, 371",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.2,
+    615.3,
+    412.5,
+    622.1
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 356",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    615.1,
+    523.3,
+    621.9
+   ],
+   "size": 5.2,
+   "testo": "sociale, interazione, 16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.7,
+    623.2,
+    141.0,
+    630.0
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe) , 132",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.0,
+    623.1,
+    223.0,
+    629.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 309",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.5,
+    623.0,
+    310.9,
+    629.8
+   ],
+   "size": 5.2,
+   "testo": "lungo, riposo, 371",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    623.3,
+    429.2,
+    630.0
+   ],
+   "size": 5.2,
+   "testo": "scorte da alchimista, 220",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.6,
+    623.0,
+    541.2,
+    629.9
+   ],
+   "size": 6.8,
+   "testo": "soffio deldrago (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    631.1,
+    132.1,
+    638.0
+   ],
+   "size": 6.8,
+   "testo": "punizione demoralizzante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    631.1,
+    223.2,
+    637.9
+   ],
+   "size": 5.2,
+   "testo": "Randello pesante, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    631.1,
+    310.5,
+    637.9
+   ],
+   "size": 5.2,
+   "testo": "Riposo Breve, 371",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    631.3,
+    418.6,
+    638.1
+   ],
+   "size": 5.2,
+   "testo": "scorte da birraio, 220",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    465.3,
+    631.1,
+    475.9,
+    637.9
+   ],
+   "size": 5.2,
+   "testo": "330",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.7,
+    639.2,
+    124.3,
+    646.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 306",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.6,
+    639.1,
+    227.1,
+    645.9
+   ],
+   "size": 5.2,
+   "testo": "ranger (classe), 49, 141",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    638.9,
+    344.4,
+    645.8
+   ],
+   "size": 6.8,
+   "testo": "riposo inviolato (incantesimo).",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.0,
+    639.2,
+    426.0,
+    646.0
+   ],
+   "size": 5.2,
+   "testo": "scorte da calligrafo, 220",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    639.1,
+    538.9,
+    645.9
+   ],
+   "size": 5.2,
+   "testo": "soffocamento (pericolo), 374",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    647.1,
+    106.8,
+    654.0
+   ],
+   "size": 6.8,
+   "testo": "punizione divina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    647.1,
+    244.2,
+    653.9
+   ],
+   "size": 5.2,
+   "testo": "lista degli incantesimi, 143",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.6,
+    647.0,
+    278.2,
+    653.8
+   ],
+   "size": 5.2,
+   "testo": "321",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    358.0,
+    647.2,
+    444.2,
+    654.1
+   ],
+   "size": 6.8,
+   "testo": "scossa sinaptica (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    647.1,
+    515.2,
+    653.8
+   ],
+   "size": 5.2,
+   "testo": "soglia di danno, 374",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.8,
+    655.2,
+    124.3,
+    662.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 306",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.9,
+    655.1,
+    222.6,
+    661.9
+   ],
+   "size": 5.2,
+   "testo": "Privilegi del ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    655.0,
+    312.3,
+    661.8
+   ],
+   "size": 5.2,
+   "testo": "Riposo Lungo, 371",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.3,
+    655.3,
+    377.7,
+    662.0
+   ],
+   "size": 5.2,
+   "testo": "325",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    655.0,
+    527.7,
+    661.9
+   ],
+   "size": 6.8,
+   "testo": "sogno (incantesimo). 331",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    663.2,
+    142.9,
+    669.9
+   ],
+   "size": 5.2,
+   "testo": "Punizione Divina M igliorata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.0,
+    663.1,
+    214.6,
+    669.9
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 142",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.6,
+    663.0,
+    324.5,
+    669.8
+   ],
+   "size": 5.2,
+   "testo": "Ripristino Stregonesco",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.4,
+    663.2,
+    429.6,
+    670.0
+   ],
+   "size": 5.2,
+   "testo": "Scriba (background), 184",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    663.1,
+    532.2,
+    669.8
+   ],
+   "size": 5.2,
+   "testo": "Soldato (background) , 185",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.3,
+    671.0,
+    134.8,
+    677.9
+   ],
+   "size": 6.8,
+   "testo": "Vedi Colpi Radiosi, 133",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    671.0,
+    213.0,
+    677.8
+   ],
+   "size": 5.2,
+   "testo": "sottoclassi, 144",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    671.0,
+    338.4,
+    677.8
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe) , 153",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    357.9,
+    671.1,
+    432.5,
+    678.0
+   ],
+   "size": 6.8,
+   "testo": "scrigno segreto di Leomund",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    671.0,
+    528.3,
+    677.9
+   ],
+   "size": 6.8,
+   "testo": "sonno (incantesimo), 331",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    679.0,
+    112.7,
+    685.9
+   ],
+   "size": 6.8,
+   "testo": "punizione esiliante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    679.0,
+    241.1,
+    685.8
+   ],
+   "size": 5.2,
+   "testo": "Tratti del ranger (tabella),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.4,
+    678.8,
+    335.0,
+    685.7
+   ],
+   "size": 6.8,
+   "testo": "risata incontenibile di Tasha",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.6,
+    679.2,
+    420.7,
+    686.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 325",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    679.0,
+    532.3,
+    685.8
+   ],
+   "size": 5.2,
+   "testo": "Soprawivenza (abilità), 14",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.8,
+    687.1,
+    124.8,
+    693.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 307",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.9,
+    687.0,
+    187.6,
+    693.8
+   ],
+   "size": 5.2,
+   "testo": "141",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    687.0,
+    321.7,
+    693.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 321",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    357.9,
+    687.2,
+    440.5,
+    694.1
+   ],
+   "size": 6.8,
+   "testo": "scritto illusorio (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    687.1,
+    505.9,
+    693.9
+   ],
+   "size": 5.2,
+   "testo": "sorpresa, 23, 374",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    695.1,
+    128.1,
+    702.0
+   ],
+   "size": 6.8,
+   "testo": "punizione incandescente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    695.0,
+    244.7,
+    701.8
+   ],
+   "size": 5.2,
+   "testo": "Rapidità di Mano (abilità), 14",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    259.4,
+    694.9,
+    313.0,
+    701.8
+   ],
+   "size": 6.8,
+   "testo": "riscaldare il metallo",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.3,
+    695.2,
+    377.7,
+    702.0
+   ],
+   "size": 5.2,
+   "testo": "325",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.8,
+    694.9,
+    536.0,
+    701.8
+   ],
+   "size": 6.8,
+   "testo": "sortilegio (incantesimo), 331",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.8,
+    703.2,
+    124.8,
+    709.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo). 307",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    703.1,
+    224.7,
+    709.9
+   ],
+   "size": 5.2,
+   "testo": "Rapidità (talento), 207",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.9,
+    703.0,
+    321.4,
+    709.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 321",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.0,
+    703.1,
+    436.0,
+    710.0
+   ],
+   "size": 6.8,
+   "testo": "scrutare (incantesimo), 326",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    703.0,
+    541.7,
+    709.8
+   ],
+   "size": 5.2,
+   "testo": "sostanze da avvelenatore, 221",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    160.7,
+    711.0,
+    195.1,
+    717.8
+   ],
+   "size": 5.2,
+   "testo": "razioni, 227",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    710.9,
+    305.8,
+    717.8
+   ],
+   "size": 6.8,
+   "testo": "ristorare inferiore",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.1,
+    711.2,
+    390.0,
+    718.0
+   ],
+   "size": 5.2,
+   "testo": "Scudo, 219",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    711.0,
+    530.4,
+    717.7
+   ],
+   "size": 5.2,
+   "testo": "Sottocomune (lingua), 37",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    267.9,
+    719.0,
+    321.3,
+    725.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 321",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.9,
+    719.0,
+    504.5,
+    725.8
+   ],
+   "size": 5.2,
+   "testo": "Spada corta, 215",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

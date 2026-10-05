@@ -1,0 +1,739 @@
+{
+ "pagina_pdf": 177,
+ "pagina_stampata": 174,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   -1,
+   289,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    304.1,
+    38.7,
+    511.8,
+    50.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: BENEDIZIONE DELL'OSCURO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    50.2,
+    521.1,
+    60.8
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio fa scendere un nemico a 0 punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    61.2,
+    531.8,
+    71.8
+   ],
+   "size": 8.8,
+   "testo": "ferita, ottiene una quantità di punti ferita temporanei pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    72.2,
+    534.0,
+    82.7
+   ],
+   "size": 8.8,
+   "testo": "al modificatore di Carisma più il proprio livello da warlock",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    83.1,
+    515.4,
+    93.7
+   ],
+   "size": 8.8,
+   "testo": "(minimo 1 punto ferita temporaneo). Questo beneficio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    94.2,
+    512.4,
+    104.7
+   ],
+   "size": 8.8,
+   "testo": "viene ottenuto anche nel caso in cui un nemico entro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    105.2,
+    530.3,
+    115.7
+   ],
+   "size": 8.8,
+   "testo": "3 metri dal warlock sia ridotto a 0 punti ferita da qualcun",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    116.1,
+    326.9,
+    126.7
+   ],
+   "size": 8.8,
+   "testo": "altro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    136.5,
+    489.4,
+    147.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI IMMONDI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    147.9,
+    531.4,
+    158.5
+   ],
+   "size": 8.8,
+   "testo": "La magia del patrono consente al warlock di avere sempre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    159.0,
+    520.9,
+    169.5
+   ],
+   "size": 8.8,
+   "testo": "pronti determinati incantesimi. Una volta raggiunto un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    170.0,
+    521.2,
+    180.5
+   ],
+   "size": 8.8,
+   "testo": "livello specificato nella tabella Incantesimi immondi, gli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    181.0,
+    523.6,
+    191.5
+   ],
+   "size": 8.8,
+   "testo": "incantesimi lì elencati saranno sempre considerati come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    191.9,
+    344.2,
+    202.5
+   ],
+   "size": 8.8,
+   "testo": "preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    214.8,
+    422.7,
+    225.5
+   ],
+   "size": 10.6,
+   "testo": "I NCANTESIMI IMMONDI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    230.6,
+    346.8,
+    239.8
+   ],
+   "size": 8.2,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    241.6,
+    343.3,
+    250.8
+   ],
+   "size": 8.2,
+   "testo": "warlock",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.8,
+    241.6,
+    399.7,
+    250.8
+   ],
+   "size": 8.2,
+   "testo": "Incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.8,
+    255.6,
+    330.3,
+    265.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.4,
+    256.1,
+    506.5,
+    265.3
+   ],
+   "size": 9.2,
+   "testo": "Mani brucianti, comando, raggio rovente,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.7,
+    268.1,
+    397.7,
+    277.3
+   ],
+   "size": 9.2,
+   "testo": "suggestione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.8,
+    282.2,
+    330.3,
+    291.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.4,
+    282.7,
+    480.8,
+    291.9
+   ],
+   "size": 9.2,
+   "testo": "Palla difuoco, nube maleodorante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.8,
+    296.8,
+    330.4,
+    306.4
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.1,
+    297.3,
+    463.9,
+    306.5
+   ],
+   "size": 9.2,
+   "testo": "Scudo difuoco, muro difuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.4,
+    311.4,
+    330.4,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.2,
+    311.9,
+    464.7,
+    321.1
+   ],
+   "size": 9.2,
+   "testo": "Costrizione, piaga degli insetti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    335.0,
+    490.8,
+    346.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: FORTUNA DELL'OSCURO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    346.4,
+    531.0,
+    357.0
+   ],
+   "size": 8.8,
+   "testo": "Il warlock può appellarsi al proprio patrono immondo per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    357.4,
+    524.2,
+    368.0
+   ],
+   "size": 8.8,
+   "testo": "alterare il fato in suo favore. Quando effettua una prova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    368.4,
+    526.2,
+    379.0
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica o un tiro salvezza, può utilizzare questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    379.4,
+    527.2,
+    390.0
+   ],
+   "size": 8.8,
+   "testo": "privilegio per aggiungere 1d10 al suo tiro. Può farlo dopo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    390.4,
+    523.6,
+    401.0
+   ],
+   "size": 8.8,
+   "testo": "avere visto il tiro, ma prima che qualsiasi effetto del tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    401.6,
+    356.0,
+    412.2
+   ],
+   "size": 8.8,
+   "testo": "sia applicato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    412.5,
+    528.0,
+    423.1
+   ],
+   "size": 8.8,
+   "testo": "Questo privilegio è utilizzabile un numero di volte pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    423.5,
+    525.5,
+    434.1
+   ],
+   "size": 8.8,
+   "testo": "al modificatore di Carisma del personaggio (minimo una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    434.5,
+    510.7,
+    445.1
+   ],
+   "size": 8.8,
+   "testo": "volta), ma non più di una volta per ogni tiro. Tutti gli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    445.5,
+    521.1,
+    456.1
+   ],
+   "size": 8.8,
+   "testo": "utilizzi spesi vengono recuperati quando il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    456.4,
+    407.3,
+    467.0
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    476.8,
+    488.3,
+    488.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: RESILIENZA IMMONDA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    488.3,
+    527.3,
+    498.8
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il personaggio completa un riposo breve o",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    499.2,
+    533.8,
+    509.8
+   ],
+   "size": 8.8,
+   "testo": "lungo, è possibile scegliere un tipo di danno (tranne forza).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    510.3,
+    521.6,
+    520.8
+   ],
+   "size": 8.8,
+   "testo": "Così facendo, ottiene resistenza a quel tipo di danno fin­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    521.3,
+    525.6,
+    531.9
+   ],
+   "size": 8.8,
+   "testo": "ché non ne sceglie uno diverso tramite questo privilegio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    541.7,
+    501.6,
+    553.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: SCAGLIARE ALL'INFERNO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    553.2,
+    507.9,
+    563.7
+   ],
+   "size": 8.8,
+   "testo": "Una volta per turno, quando il warlock colpisce una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    564.1,
+    527.7,
+    574.7
+   ],
+   "size": 8.8,
+   "testo": "creatura con un tiro per colpire, può tentare di trasferire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    575.0,
+    525.0,
+    585.6
+   ],
+   "size": 8.8,
+   "testo": "istantaneamente il bersaglio nei Piani Inferiori. Quest'ul­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    586.0,
+    519.2,
+    596.6
+   ],
+   "size": 8.8,
+   "testo": "timo deve superare un tiro salvezza su Carisma contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    597.1,
+    524.4,
+    607.7
+   ],
+   "size": 8.8,
+   "testo": "la CD del tiro salvezza sull'incantesimo del personaggio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    608.1,
+    522.1,
+    618.7
+   ],
+   "size": 8.8,
+   "testo": "altrimenti scomparirà e piomberà in un luogo raccapric­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    619.2,
+    517.2,
+    629.8
+   ],
+   "size": 8.8,
+   "testo": "ciante. Se il bersaglio non è un immondo, subisce 8d10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    630.2,
+    525.9,
+    640.8
+   ],
+   "size": 8.8,
+   "testo": "danni psichici ed è incapacitato fino al termine del turno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    641.2,
+    529.4,
+    651.8
+   ],
+   "size": 8.8,
+   "testo": "successivo, quando tornerà nello spazio precedentemente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    652.2,
+    452.5,
+    662.7
+   ],
+   "size": 8.8,
+   "testo": "occupato o in quello libero più vicino.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    663.2,
+    521.7,
+    673.7
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    674.2,
+    508.9,
+    684.8
+   ],
+   "size": 8.8,
+   "testo": "può riutilizzarlo prima di aver completato un riposo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    685.2,
+    513.0,
+    695.8
+   ],
+   "size": 8.8,
+   "testo": "lungo; può ignorare questo limite spendendo uno slot",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    696.1,
+    501.9,
+    706.7
+   ],
+   "size": 8.8,
+   "testo": "incantesimo della Magia del patto (nessuna azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    707.1,
+    344.5,
+    717.7
+   ],
+   "size": 8.8,
+   "testo": "richiesta).",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

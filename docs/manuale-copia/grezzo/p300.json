@@ -1,0 +1,1272 @@
+{
+ "pagina_pdf": 300,
+ "pagina_stampata": 297,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 297",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.4,
+    52.6,
+    174.9,
+    64.0
+   ],
+   "size": 11.2,
+   "testo": "NUBE MALEODORANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    64.0,
+    224.8,
+    74.5
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi3°livello (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    79.6,
+    144.7,
+    89.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    90.7,
+    117.3,
+    100.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    101.6,
+    199.6,
+    111.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un uovo marcio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    112.6,
+    206.1,
+    122.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    128.9,
+    279.2,
+    139.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore genera una sfera di gas nauseante giallastro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    139.8,
+    270.9,
+    150.4
+   ],
+   "size": 8.8,
+   "testo": "del raggio di 6 metri centrata su un punto entro gittata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    150.9,
+    270.5,
+    161.5
+   ],
+   "size": 8.8,
+   "testo": "La nube è pesantemente oscurata e rimane attiva per la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    161.9,
+    264.1,
+    172.5
+   ],
+   "size": 8.8,
+   "testo": "durata dell'incantesimo o finché un vento forte (come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    172.9,
+    238.1,
+    183.5
+   ],
+   "size": 8.8,
+   "testo": "quello creato dafolata divento) non la disperde.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    183.9,
+    260.0,
+    194.5
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura che inizi il proprio turno all'interno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    195.0,
+    280.8,
+    205.6
+   ],
+   "size": 8.8,
+   "testo": "della sfera deve superare un tiro salvezza su Costituzione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    206.0,
+    264.9,
+    216.6
+   ],
+   "size": 8.8,
+   "testo": "altrimenti sarà avvelenata fino al termine del turno in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    217.0,
+    280.1,
+    227.5
+   ],
+   "size": 8.8,
+   "testo": "corso. Finché è avvelenato, il bersaglio non può effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    228.0,
+    155.9,
+    238.6
+   ],
+   "size": 8.8,
+   "testo": "né azioni né azioni bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    262.7,
+    137.6,
+    274.1
+   ],
+   "size": 11.2,
+   "testo": "NUBE MORTALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    274.2,
+    199.3,
+    284.7
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi5° livello (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    289.8,
+    144.7,
+    299.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    300.8,
+    117.4,
+    310.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    311.8,
+    119.8,
+    321.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    322.7,
+    208.2,
+    332.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    338.9,
+    275.2,
+    349.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore genera una sfera di nebbia giallo-verdastra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    349.9,
+    270.7,
+    360.5
+   ],
+   "size": 8.8,
+   "testo": "del raggio di 6 metri centrata su un punto entro gittata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    360.8,
+    266.0,
+    371.4
+   ],
+   "size": 8.8,
+   "testo": "La nebbia permane la durata dell'incantesimo o finché",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    371.8,
+    275.4,
+    382.4
+   ],
+   "size": 8.8,
+   "testo": "un vento forte (come quello creato dafolata divento) non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    382.9,
+    262.5,
+    393.5
+   ],
+   "size": 8.8,
+   "testo": "la disperde, ponendo fine all'incantesimo. L'area della",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    394.0,
+    174.8,
+    404.5
+   ],
+   "size": 8.8,
+   "testo": "sfera è pesantemente oscurata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    405.0,
+    267.8,
+    415.6
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura nella sfera effettua un tiro salvezza su",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    416.1,
+    274.4,
+    426.6
+   ],
+   "size": 8.8,
+   "testo": "Costituzione, subendo Sd8 danni da veleno in caso di fal­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    427.1,
+    272.6,
+    437.7
+   ],
+   "size": 8.8,
+   "testo": "limento, o la metà dei danni in caso di successo. Una cre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    438.0,
+    273.8,
+    448.6
+   ],
+   "size": 8.8,
+   "testo": "atura deve effettuare questo tiro salvezza anche quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    449.0,
+    281.3,
+    459.5
+   ],
+   "size": 8.8,
+   "testo": "la sfera si muove nel suo spazio e quando la creatura entra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    460.0,
+    280.8,
+    470.6
+   ],
+   "size": 8.8,
+   "testo": "nella sfera o vi termina il suo turno. Una creatura effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    471.0,
+    230.9,
+    481.6
+   ],
+   "size": 8.8,
+   "testo": "questo tiro salvezza solo una volta per turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    481.9,
+    282.6,
+    492.5
+   ],
+   "size": 8.8,
+   "testo": "La sfera si allontana di 3 metri dall'incantatore all'inizio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    493.1,
+    124.7,
+    503.7
+   ],
+   "size": 8.8,
+   "testo": "di ogni suo turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    504.1,
+    282.8,
+    514.6
+   ],
+   "size": 8.8,
+   "testo": "Utilizzodiunoslot incantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    512.9,
+    270.6,
+    525.6
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d8 per ogni slot di livello superiore al 5°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    549.8,
+    145.6,
+    561.2
+   ],
+   "size": 11.2,
+   "testo": "OCCHIO ARCANO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    561.2,
+    167.2,
+    571.7
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi4° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    576.8,
+    144.7,
+    586.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    587.8,
+    112.8,
+    597.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    598.8,
+    249.1,
+    608.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un ciuffo di peli di pipistrello)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    609.9,
+    190.4,
+    619.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    626.2,
+    280.4,
+    636.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea un occhio invisibile e invulnerabile che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    637.2,
+    277.7,
+    647.8
+   ],
+   "size": 8.8,
+   "testo": "fluttua per la durata dell'incantesimo entro la sua gittata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    648.2,
+    257.8,
+    658.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore riceve informazioni visive dall'occhio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    659.2,
+    266.3,
+    669.8
+   ],
+   "size": 8.8,
+   "testo": "che può vedere in ogni direzione e che è inoltre dotato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    670.1,
+    171.0,
+    680.7
+   ],
+   "size": 8.8,
+   "testo": "di scurovisione fino a 9 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    681.1,
+    279.5,
+    691.7
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, l'incantatore può muovere l'occhio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    692.1,
+    279.8,
+    702.7
+   ],
+   "size": 8.8,
+   "testo": "per un massimo di 9 metri in ogni direzione. Una barriera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    703.1,
+    271.0,
+    713.7
+   ],
+   "size": 8.8,
+   "testo": "solida blocca il movimento dell'occhio, che tuttavia può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    714.1,
+    259.9,
+    724.6
+   ],
+   "size": 8.8,
+   "testo": "passare attraverso un'apertura dal diametro minimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    725.1,
+    122.0,
+    735.7
+   ],
+   "size": 8.8,
+   "testo": "di 2,5 centimetri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    52.6,
+    411.5,
+    64.0
+   ],
+   "size": 11.2,
+   "testo": "ONDA DISTRUTTIVA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    64.0,
+    432.4,
+    74.5
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di5° livello (paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    79.6,
+    397.4,
+    89.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    90.6,
+    381.3,
+    100.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    101.6,
+    363.7,
+    111.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    112.6,
+    378.0,
+    122.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    128.8,
+    523.3,
+    139.4
+   ],
+   "size": 8.8,
+   "testo": "Un'ondata di energia distruttiva si propaga dall'incanta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    139.8,
+    518.5,
+    150.3
+   ],
+   "size": 8.8,
+   "testo": "tore in un'emanazione di 9 metri. Ogni creatura scelta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    150.9,
+    523.7,
+    161.4
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore all'interno dell'emanazione effettua un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    161.9,
+    519.9,
+    172.4
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Costituzione. Se lo fallisce, il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    172.8,
+    534.9,
+    183.4
+   ],
+   "size": 8.8,
+   "testo": "subisce Sd6 danni da tuono e Sd6 danni radiosi o necrotici",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    183.8,
+    526.8,
+    194.4
+   ],
+   "size": 8.8,
+   "testo": "(a scelta dell'incantatore) e cade a terra prono. Se invece",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    195.0,
+    494.6,
+    205.6
+   ],
+   "size": 8.8,
+   "testo": "lo supera, subisce soltanto la metà di quei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    229.7,
+    392.6,
+    241.0
+   ],
+   "size": 11.2,
+   "testo": "ONDA TONANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    241.1,
+    506.5,
+    251.6
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi1° livello (bardo, druido, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    256.7,
+    397.5,
+    266.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    267.8,
+    380.9,
+    277.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    278.9,
+    372.3,
+    288.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    289.7,
+    377.9,
+    299.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    306.0,
+    514.3,
+    316.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sprigiona un'ondata di energia tonante.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    316.9,
+    513.4,
+    327.5
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura entro un cubo con spigolo di 4,5 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    327.8,
+    516.1,
+    338.4
+   ],
+   "size": 8.8,
+   "testo": "originato dall'incantatore effettua un tiro salvezza su",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    338.8,
+    521.6,
+    349.4
+   ],
+   "size": 8.8,
+   "testo": "Costituzione. Se lo fallisce, subisce 2d8 danni da tuono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    349.7,
+    526.3,
+    360.3
+   ],
+   "size": 8.8,
+   "testo": "e viene spinta a una distanza di 3 metri dall'incantatore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    360.7,
+    532.6,
+    371.3
+   ],
+   "size": 8.8,
+   "testo": "In caso di successo, subisce soltanto la metà di quei danni.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.6,
+    371.7,
+    524.9,
+    382.3
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, gli oggetti non fissati e situati interamente nel",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    382.8,
+    519.0,
+    393.4
+   ],
+   "size": 8.8,
+   "testo": "cubo vengono spinti a 3 metri dall'incantatore, con un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    393.8,
+    424.6,
+    404.4
+   ],
+   "size": 8.8,
+   "testo": "boato tonante entro 90 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    404.9,
+    535.2,
+    415.4
+   ],
+   "size": 8.8,
+   "testo": "Utilizzodiunoslot incantesimo di livello superiore. I danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    413.8,
+    521.4,
+    426.5
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d8 per ogni slot di livello superiore al 1°.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    450.7,
+    361.3,
+    462.1
+   ],
+   "size": 11.2,
+   "testo": "OSCURITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    462.2,
+    487.2,
+    472.6
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di2° livello (mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    477.7,
+    397.3,
+    487.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    488.7,
+    369.7,
+    498.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    499.8,
+    531.4,
+    509.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, M (pelo di pipistrello e un pezzo di carbone)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    510.8,
+    460.6,
+    520.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    527.0,
+    510.2,
+    537.6
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, un'oscurità magica si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    538.0,
+    527.4,
+    548.6
+   ],
+   "size": 8.8,
+   "testo": "estende da un punto entro gittata e riempie una sfera del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    549.0,
+    524.2,
+    559.5
+   ],
+   "size": 8.8,
+   "testo": "raggio di 4,5 metri. Una creatura dotata di scurovisione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    559.9,
+    522.1,
+    570.5
+   ],
+   "size": 8.8,
+   "testo": "non è in grado di vedere attraverso di essa e la luce non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    571.0,
+    417.0,
+    581.6
+   ],
+   "size": 8.8,
+   "testo": "magica non può illuminarla.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    581.9,
+    526.9,
+    592.5
+   ],
+   "size": 8.8,
+   "testo": "In alternativa, l'incantatore lancia l'incantesimo su un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    592.9,
+    534.9,
+    603.5
+   ],
+   "size": 8.8,
+   "testo": "oggetto che non sia indossato o trasportato, facendo sì che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    603.9,
+    523.5,
+    614.5
+   ],
+   "size": 8.8,
+   "testo": "l'oscurità riempia un'emanazione di 4,5 metri di cui l'og­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    615.1,
+    529.8,
+    625.6
+   ],
+   "size": 8.8,
+   "testo": "getto è il punto di origine. Coprire l'oggetto con qualcosa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    626.1,
+    521.3,
+    636.7
+   ],
+   "size": 8.8,
+   "testo": "di opaco, come una ciotola o un elmo, blocca l'oscurità.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.5,
+    637.0,
+    524.8,
+    647.6
+   ],
+   "size": 8.8,
+   "testo": "Se una parte dell'area di questo incantesimo si sovrap­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    648.1,
+    518.6,
+    658.7
+   ],
+   "size": 8.8,
+   "testo": "pone a un'area di luce intensa o luce fioca creata da un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    657.0,
+    517.7,
+    669.7
+   ],
+   "size": 8.8,
+   "testo": "incantesimo di 2° livello o inferiore, l'incantesimo che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    670.1,
+    428.5,
+    680.7
+   ],
+   "size": 8.8,
+   "testo": "ha creato la luce viene dissolto.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

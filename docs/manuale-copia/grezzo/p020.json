@@ -1,0 +1,1147 @@
+{
+ "pagina_pdf": 20,
+ "pagina_stampata": 17,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 1 I COME SI GIOCA / 17",
+ "immagini": [
+  [
+   301,
+   195,
+   543,
+   721
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    64.3,
+    38.8,
+    279.7,
+    49.3
+   ],
+   "size": 8.8,
+   "testo": "I giocatori dovrebbero prestare attenzione alle proprie",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    49.8,
+    273.8,
+    60.4
+   ],
+   "size": 8.8,
+   "testo": "competenze nelle abilità quando pensano a come intera­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    60.8,
+    285.9,
+    71.4
+   ],
+   "size": 8.8,
+   "testo": "gire con un PNG, e utilizzare un approccio che si basi sulle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    71.8,
+    283.1,
+    82.4
+   ],
+   "size": 8.8,
+   "testo": "competenze dei personaggi. Ad esempio, se il gruppo deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    82.8,
+    276.9,
+    93.4
+   ],
+   "size": 8.8,
+   "testo": "ingannare una guardia per ottenere l'accesso al castello,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    93.7,
+    263.3,
+    104.2
+   ],
+   "size": 8.8,
+   "testo": "un ladro competente in Inganno dovrebbe avviare la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    104.7,
+    105.0,
+    115.3
+   ],
+   "size": 8.8,
+   "testo": "discussione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    125.5,
+    265.0,
+    142.1
+   ],
+   "size": 12.9,
+   "testo": "ESEMPIO DI INTERAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    144.5,
+    128.5,
+    161.1
+   ],
+   "size": 12.9,
+   "testo": "SOCIALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    162.8,
+    272.0,
+    173.4
+   ],
+   "size": 8.8,
+   "testo": "In questa scena, i giocatori si cimentano in un incontro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    173.8,
+    286.6,
+    184.3
+   ],
+   "size": 8.8,
+   "testo": "con interazione sociale. Sarà il personaggio e il suo gruppo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    184.8,
+    277.0,
+    195.4
+   ],
+   "size": 8.8,
+   "testo": "a stabilire come si svolgono scene simili nelle avventure.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    203.9,
+    256.2,
+    212.9
+   ],
+   "size": 7.4,
+   "testo": "I quattro avventurieri Shreeve, Mirabella, Auro e Gareth si",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    216.4,
+    263.9,
+    224.7
+   ],
+   "size": 7.4,
+   "testo": "sono recati alla taverna Sangue della vigna nel cupo villaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    228.5,
+    93.8,
+    236.8
+   ],
+   "size": 7.4,
+   "testo": "di Barovia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    252.8,
+    274.0,
+    261.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo (DM): Questa taverna un tempo finemente arredata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    263.9,
+    267.0,
+    272.3
+   ],
+   "size": 8.4,
+   "testo": "è diventata scadente nel corso degli anni. Il fuoco acceso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.6,
+    275.0,
+    252.7,
+    283.4
+   ],
+   "size": 8.4,
+   "testo": "nel camino tenta con scarso successo di riscaldare la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    285.9,
+    275.3,
+    294.3
+   ],
+   "size": 8.4,
+   "testo": "stanza. Un uomo dietro al bancone pulisce metodicamente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    297.0,
+    259.8,
+    305.4
+   ],
+   "size": 8.4,
+   "testo": "i bicchieri. Tre donne anziane si stringono attorno a un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    307.9,
+    268.7,
+    316.3
+   ],
+   "size": 8.4,
+   "testo": "tavolo. Un bel giovane siede da solo a un tavolo d'angolo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    318.9,
+    271.5,
+    327.3
+   ],
+   "size": 8.4,
+   "testo": "sorseggiando un bicchiere di vino. Quando vi vede entrare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    329.8,
+    261.8,
+    338.2
+   ],
+   "size": 8.4,
+   "testo": "gira lo sguardo verso di voi, mentre gli altri vi ignorano.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    340.8,
+    259.9,
+    349.2
+   ],
+   "size": 8.4,
+   "testo": "\"Benvenuti in Barovia\", dice. Con una moneta in mano,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.4,
+    351.7,
+    249.5,
+    360.1
+   ],
+   "size": 8.4,
+   "testo": "si rivolge al locandiere: \"Una caraffa per i visitatori.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    362.7,
+    252.6,
+    371.1
+   ],
+   "size": 8.4,
+   "testo": "li luccichio dell'argento attira l'attenzione dell'uomo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    373.7,
+    265.8,
+    382.1
+   ],
+   "size": 8.4,
+   "testo": "Marta (che interpreta Mirabella): \"Grazie, amico. Possiamo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    384.7,
+    168.8,
+    393.1
+   ],
+   "size": 8.4,
+   "testo": "sapere a chi siamo debitori?\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    395.8,
+    276.7,
+    404.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"Sono Ismark Kolyanovich, anche se da queste parti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    406.7,
+    203.9,
+    415.1
+   ],
+   "size": 8.4,
+   "testo": "mi chiamano spesso Ismark il Piccolo.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    417.9,
+    261.2,
+    426.3
+   ],
+   "size": 8.4,
+   "testo": "Riccardo (che interpreta Shreeve): \"Meriteresti di meglio.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    428.8,
+    272.8,
+    437.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \" Lo so. Spero un giorno di essere all'altezza di mio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    439.7,
+    264.4,
+    448.1
+   ],
+   "size": 8.4,
+   "testo": "padre e di liberarmi di questo titolo. Dunque, miei nuovi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    450.7,
+    125.8,
+    459.1
+   ],
+   "size": 8.4,
+   "testo": "amici, chi siete?\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    461.7,
+    215.7,
+    470.1
+   ],
+   "size": 8.4,
+   "testo": "Denise (che interpreta Auro): \"lo sono Auro.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    472.7,
+    128.9,
+    481.1
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: \"Shreeve.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    483.6,
+    252.1,
+    492.0
+   ],
+   "size": 8.4,
+   "testo": "Filippo (che interpreta Gareth): \"Il mio nome è Gareth.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    494.7,
+    253.4,
+    503.1
+   ],
+   "size": 8.4,
+   "testo": "Marta (che interpreta Mirabella): \"Mi chiamo Mirabella.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.8,
+    505.7,
+    277.8,
+    514.1
+   ],
+   "size": 8.4,
+   "testo": "Hai detto di chiamarti Kolyanovich. Sei un parente di Kolyan",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    516.8,
+    233.2,
+    525.2
+   ],
+   "size": 8.4,
+   "testo": "Indirovich, il borgomastro di questa cittadina?\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    527.8,
+    278.8,
+    536.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Ismark sembra un po' sorpreso. Dice: \"Kolyan Indiro­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    538.8,
+    174.6,
+    547.2
+   ],
+   "size": 8.4,
+   "testo": "vich è il mio stimato padre, sì.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    549.7,
+    272.3,
+    558.1
+   ],
+   "size": 8.4,
+   "testo": "Marta: \"Allora è lui che ci ha convocati!\" Gli mostro la lettera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    560.6,
+    143.9,
+    569.0
+   ],
+   "size": 8.4,
+   "testo": "che ci ha condotti qui.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    571.6,
+    229.2,
+    580.0
+   ],
+   "size": 8.4,
+   "testo": "Filippo: Osservo la sua reazione mentre la legge.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    41.0,
+    544.6,
+    260.3,
+    591.0
+   ],
+   "size": 45.0,
+   "testo": "+Giacomo:Avvicinalamanoallalettera,masiritraeprima",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    593.5,
+    259.4,
+    601.9
+   ],
+   "size": 8.4,
+   "testo": "di toccarla. \"Quel sigillo... non è di mio padre.\" Gareth,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    604.5,
+    220.4,
+    612.9
+   ],
+   "size": 8.4,
+   "testo": "effettua una prova di Saggezza (Intuizione).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    615.6,
+    148.6,
+    624.1
+   ],
+   "size": 8.4,
+   "testo": "Filippo: Gareth ottiene 18.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    626.8,
+    270.6,
+    635.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Noti che Ismark sta cercando di nascondere il suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.3,
+    637.7,
+    263.5,
+    646.1
+   ],
+   "size": 8.4,
+   "testo": "terrore. Non ha nemmeno il coraggio di toccare il sigillo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    648.8,
+    109.3,
+    657.2
+   ],
+   "size": 8.4,
+   "testo": "della lettera.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    659.7,
+    184.3,
+    668.1
+   ],
+   "size": 8.4,
+   "testo": "Filippo: Gli chiedo cosa lo spaventa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    670.0,
+    187.9,
+    679.1
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: \"E di chi sarebbe il sigillo?\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    681.6,
+    159.4,
+    690.0
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"Il diavolo Strahd.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    692.6,
+    185.8,
+    701.0
+   ],
+   "size": 8.4,
+   "testo": "Denise: \"Sembra un tipo simpatico.\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    703.1,
+    250.3,
+    712.1
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: \"Per niente! È il signore dei vampiri di Castel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    714.6,
+    236.7,
+    723.0
+   ],
+   "size": 8.4,
+   "testo": "Ravenloft e affligge mia sorella. Dovete aiutarla!\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.8,
+    219.3,
+    490.5,
+    227.7
+   ],
+   "size": 8.4,
+   "testo": "Interpretazione attiva. Nell'esempio, Riccardo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.4,
+    230.3,
+    505.2,
+    238.7
+   ],
+   "size": 8.4,
+   "testo": "e Denise si cimentano in un'interpretazione attiva",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.6,
+    241.3,
+    507.5,
+    249.7
+   ],
+   "size": 8.4,
+   "testo": "del comportamento dei loro personaggi. In questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.5,
+    252.2,
+    509.4,
+    260.6
+   ],
+   "size": 8.4,
+   "testo": "approccio attivo, parlano con la voce dei loro perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.7,
+    263.3,
+    509.5,
+    271.7
+   ],
+   "size": 8.4,
+   "testo": "naggi, come un attore che interpreta un ruolo. I gio­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.0,
+    274.3,
+    515.9,
+    282.7
+   ],
+   "size": 8.4,
+   "testo": "catori potrebbero persino rappresentare il linguaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.5,
+    285.3,
+    516.3,
+    293.7
+   ],
+   "size": 8.4,
+   "testo": "del corpo dei loro personaggi, ma devono comunque",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.2,
+    296.3,
+    505.0,
+    304.7
+   ],
+   "size": 8.4,
+   "testo": "descrivere tutto ciò che ragionevolmente non può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.2,
+    307.3,
+    383.1,
+    315.7
+   ],
+   "size": 8.4,
+   "testo": "essere recitato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.6,
+    358.0,
+    491.6,
+    366.4
+   ],
+   "size": 8.4,
+   "testo": "Interpretazione descrittiva. Nota come Filippo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.2,
+    368.9,
+    503.8,
+    377.3
+   ],
+   "size": 8.4,
+   "testo": "descrive le parole e le azioni del suo personaggio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.7,
+    380.0,
+    509.5,
+    388.4
+   ],
+   "size": 8.4,
+   "testo": "Ispirandosi all'immagine mentale del suo personag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.2,
+    391.0,
+    517.8,
+    399.4
+   ],
+   "size": 8.4,
+   "testo": "gio, dice cosa fa e come lo fa. Se vuoi adottare questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.2,
+    402.0,
+    496.2,
+    410.4
+   ],
+   "size": 8.4,
+   "testo": "approccio, dovrai tenere a mente quanto segue:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.2,
+    417.6,
+    484.7,
+    426.0
+   ],
+   "size": 8.4,
+   "testo": "• Descrivi le emozioni e l'atteggiamento del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    335.7,
+    428.5,
+    383.1,
+    436.9
+   ],
+   "size": 8.4,
+   "testo": "personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    335.4,
+    439.5,
+    492.0,
+    447.9
+   ],
+   "size": 8.4,
+   "testo": "Concentrati sulle intenzioni del personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    335.3,
+    450.4,
+    509.9,
+    458.8
+   ],
+   "size": 8.4,
+   "testo": "e su come potrebbero essere percepite dagli altri.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    335.9,
+    461.5,
+    510.5,
+    469.9
+   ],
+   "size": 8.4,
+   "testo": "Fornisci i dettagli di colore che ritieni appropriati.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    327.9,
+    476.9,
+    482.7,
+    485.3
+   ],
+   "size": 8.4,
+   "testo": "Non è importante fare tutto alla perfezione:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.0,
+    487.9,
+    515.4,
+    496.3
+   ],
+   "size": 8.4,
+   "testo": "è sufficiente pensare a ciò che farebbe il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.0,
+    498.9,
+    457.7,
+    507.3
+   ],
+   "size": 8.4,
+   "testo": "e descrivere cosa stai immaginando.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.4,
+    549.6,
+    496.8,
+    558.0
+   ],
+   "size": 8.4,
+   "testo": "Prove di caratteristica. Il personaggio di Filippo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.0,
+    560.5,
+    508.2,
+    568.9
+   ],
+   "size": 8.4,
+   "testo": "Gareth, effettua una prova di Saggezza (Intuizione)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.2,
+    571.5,
+    501.2,
+    579.9
+   ],
+   "size": 8.4,
+   "testo": "per determinare se è in grado di captare gli indizi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.0,
+    582.4,
+    509.8,
+    590.8
+   ],
+   "size": 8.4,
+   "testo": "taciuti da Ismark. La Saggezza è l'abilità che misura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.7,
+    593.5,
+    510.1,
+    601.9
+   ],
+   "size": 8.4,
+   "testo": "la percezione e l'intuizione. L'Intuizione riflette l'abi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.1,
+    604.5,
+    515.7,
+    612.9
+   ],
+   "size": 8.4,
+   "testo": "lità di un personaggio di leggere gli stati d'animo e le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.1,
+    615.7,
+    507.0,
+    624.2
+   ],
+   "size": 8.4,
+   "testo": "intenzioni altrui. Il DM fissa la CD a 15, e Gareth la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.0,
+    626.7,
+    515.1,
+    635.1
+   ],
+   "size": 8.4,
+   "testo": "supera. Superando la prova di Saggezza (Intuizione),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    327.9,
+    637.6,
+    498.0,
+    646.0
+   ],
+   "size": 8.4,
+   "testo": "Gareth coglie informazioni che non erano palesi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.8,
+    648.7,
+    501.2,
+    657.1
+   ],
+   "size": 8.4,
+   "testo": "e che quindi non facevano parte della precedente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.1,
+    659.6,
+    505.9,
+    668.0
+   ],
+   "size": 8.4,
+   "testo": "narrazione del DM. Per ulteriori informazioni, vedi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    328.2,
+    670.6,
+    503.6,
+    679.0
+   ],
+   "size": 8.4,
+   "testo": "\"Punteggi di caratteristica\" e \"Competenza\" tra le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.9,
+    681.5,
+    503.0,
+    689.9
+   ],
+   "size": 8.4,
+   "testo": "sezioni precedenti di questo capitolo e l'azione di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.2,
+    692.5,
+    448.3,
+    700.9
+   ],
+   "size": 8.4,
+   "testo": "Ricerca nel Glossario delle regole.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

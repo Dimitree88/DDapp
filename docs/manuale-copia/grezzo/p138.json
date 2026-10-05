@@ -1,0 +1,727 @@
+{
+ "pagina_pdf": 138,
+ "pagina_stampata": 135,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   212,
+   -1,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.7,
+    35.2,
+    288.0,
+    51.8
+   ],
+   "size": 12.9,
+   "testo": "SOTTOCLASSI DEL PALADINO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    53.4,
+    260.8,
+    63.9
+   ],
+   "size": 8.8,
+   "testo": "Le sottoclassi del paladino sono specializzazioni che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    64.3,
+    284.3,
+    74.9
+   ],
+   "size": 8.8,
+   "testo": "conferiscono dei privilegi a determinati livelli da paladino,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    75.4,
+    262.3,
+    86.0
+   ],
+   "size": 8.8,
+   "testo": "come specificato in ognuna di esse. In questa sezione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    86.4,
+    265.7,
+    96.9
+   ],
+   "size": 8.8,
+   "testo": "vengono descritte le seguenti sottoclassi: Giuramento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    97.3,
+    267.9,
+    107.9
+   ],
+   "size": 8.8,
+   "testo": "di Devozione, Giuramento di Gloria, Giuramento degli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    108.4,
+    191.8,
+    119.0
+   ],
+   "size": 8.8,
+   "testo": "Antichi e Giuramento di Vendetta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    119.4,
+    259.3,
+    129.9
+   ],
+   "size": 8.8,
+   "testo": "Ognuna comporta un insieme di giuramenti che il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    130.4,
+    280.7,
+    141.0
+   ],
+   "size": 8.8,
+   "testo": "personaggio presta al momento dell'adesione. Dopodiché,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    141.4,
+    280.9,
+    152.0
+   ],
+   "size": 8.8,
+   "testo": "presterà quello finale al livello 3, considerato come l'apice",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    152.4,
+    278.5,
+    163.0
+   ],
+   "size": 8.8,
+   "testo": "dell'addestramento di un paladino. Per alcuni personaggi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    163.5,
+    274.9,
+    174.0
+   ],
+   "size": 8.8,
+   "testo": "con questa classe, la vera vita da paladino comincia solo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    174.4,
+    281.9,
+    185.0
+   ],
+   "size": 8.8,
+   "testo": "dopo il livello 3 e il suddetto giuramento. Per altri, invece,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.3,
+    185.5,
+    282.9,
+    196.0
+   ],
+   "size": 8.8,
+   "testo": "non è che una formalità:viene sancito in maniera ufficiale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    196.5,
+    214.3,
+    207.1
+   ],
+   "size": 8.8,
+   "testo": "ciò che già percepivano nei propri cuori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    216.6,
+    242.0,
+    229.7
+   ],
+   "size": 9.7,
+   "testo": "GIURAMENTO DEGLI ANTICHI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    234.1,
+    182.1,
+    243.5
+   ],
+   "size": 8.6,
+   "testo": "Proteggi la vita e la luce del mondo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    247.7,
+    277.1,
+    258.2
+   ],
+   "size": 8.8,
+   "testo": "Il Giuramento degli Antichi è vecchio quanto i primi elfi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    258.7,
+    269.3,
+    269.3
+   ],
+   "size": 8.8,
+   "testo": "I paladini che prestano questo giuramento sono devoti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.9,
+    269.8,
+    276.8,
+    280.4
+   ],
+   "size": 8.8,
+   "testo": "alla luce. Il loro amore per la bellezza e la vita del mondo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    280.7,
+    257.8,
+    291.3
+   ],
+   "size": 8.8,
+   "testo": "supera di gran lunga quello per valori come l'onore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    291.8,
+    260.3,
+    302.3
+   ],
+   "size": 8.8,
+   "testo": "il coraggio e la giustizia. Spesso adornano la propria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    302.8,
+    281.0,
+    313.3
+   ],
+   "size": 8.8,
+   "testo": "armatura e il proprio vestiario con immagini di oggetti in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    305.3,
+    275.9,
+    326.8
+   ],
+   "size": 10.5,
+   "testo": "crescita come foglie, corna odori, poiché rappresentano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    324.7,
+    254.5,
+    335.3
+   ],
+   "size": 8.8,
+   "testo": "il loro impegno nei confronti della vita e della luce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    335.6,
+    190.3,
+    346.2
+   ],
+   "size": 8.8,
+   "testo": "Condividono i seguenti dettami:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    352.0,
+    190.7,
+    362.5
+   ],
+   "size": 8.8,
+   "testo": "Riaccendi la luce della speranza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    362.9,
+    128.5,
+    373.5
+   ],
+   "size": 8.8,
+   "testo": "Preserva la vita.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    373.9,
+    163.8,
+    384.5
+   ],
+   "size": 8.8,
+   "testo": "Valorizza l'arte e la gioia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    394.4,
+    234.5,
+    405.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: FURIA DELLA NATURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    405.9,
+    280.2,
+    416.5
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, il paladino può consumare un uso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    417.0,
+    284.8,
+    427.6
+   ],
+   "size": 8.8,
+   "testo": "di Incanalare Divinità per evocare dei rampicanti spettrali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    428.0,
+    283.6,
+    438.6
+   ],
+   "size": 8.8,
+   "testo": "intorno alle creature vicine. Ogni creatura a scelta nel suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    438.9,
+    279.3,
+    449.5
+   ],
+   "size": 8.8,
+   "testo": "campo visivo entro 4,5 metri da lui deve superare un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    449.8,
+    282.3,
+    460.4
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Forza, altrimenti sarà trattenuta per 1 minuto.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    460.9,
+    269.6,
+    471.5
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio trattenuto ripete il tiro salvezza alla fine di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    471.9,
+    243.0,
+    482.5
+   ],
+   "size": 8.8,
+   "testo": "ogni suo turno e, se lo supera, l'effetto svanisce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    492.4,
+    286.2,
+    503.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL GIURAMENTO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    503.1,
+    137.6,
+    514.5
+   ],
+   "size": 11.2,
+   "testo": "DEGLI ANTICHI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.3,
+    514.6,
+    261.8,
+    525.1
+   ],
+   "size": 8.8,
+   "testo": "La magia del giuramento del paladino gli consente di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    525.6,
+    272.8,
+    536.2
+   ],
+   "size": 8.8,
+   "testo": "avere sempre pronti determinati incantesimi. Una volta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    536.6,
+    275.1,
+    547.1
+   ],
+   "size": 8.8,
+   "testo": "raggiunto un livello specificato nella tabella Incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    547.5,
+    271.4,
+    558.1
+   ],
+   "size": 8.8,
+   "testo": "del Giuramento degli Antichi, gli incantesimi lì elencati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    558.5,
+    228.4,
+    569.1
+   ],
+   "size": 8.8,
+   "testo": "saranno sempre considerati come preparati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    581.2,
+    247.0,
+    591.9
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL GIURAMENTO DEGLI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    594.7,
+    100.0,
+    605.4
+   ],
+   "size": 10.6,
+   "testo": "ANTICHI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    609.5,
+    100.7,
+    620.2
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    620.6,
+    99.2,
+    631.3
+   ],
+   "size": 10.6,
+   "testo": "paladino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.5,
+    620.6,
+    155.7,
+    631.3
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    78.4,
+    635.7,
+    83.9,
+    645.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.2,
+    636.2,
+    269.9,
+    645.4
+   ],
+   "size": 9.2,
+   "testo": "Colpo intrappolante, parlare con gli animali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    78.4,
+    650.2,
+    83.9,
+    659.8
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.1,
+    650.7,
+    213.8,
+    659.9
+   ],
+   "size": 9.2,
+   "testo": "Passo velato, bagliore lunare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    78.0,
+    664.8,
+    84.1,
+    674.5
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    108.9,
+    665.3,
+    258.9,
+    674.5
+   ],
+   "size": 9.2,
+   "testo": "Crescita vegetale, protezione dall'energia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.5,
+    679.3,
+    87.3,
+    688.9
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.0,
+    679.8,
+    240.4,
+    689.0
+   ],
+   "size": 9.2,
+   "testo": "Tempesta di ghiaccio, pelle di pietra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.6,
+    693.9,
+    87.7,
+    703.5
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    108.9,
+    694.4,
+    278.1,
+    703.6
+   ],
+   "size": 9.2,
+   "testo": "Comunione con la natura, traslazione arborea",
+   "col": "S",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,1308 @@
+{
+ "pagina_pdf": 165,
+ "pagina_stampata": 162,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "162 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    3.6,
+    28.1,
+    9.7,
+    32.2
+   ],
+   "size": 2.8,
+   "testo": "..",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    43.2,
+    82.2,
+    52.2
+   ],
+   "size": 6.9,
+   "testo": "1d100",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.6,
+    43.1,
+    116.9,
+    52.3
+   ],
+   "size": 8.2,
+   "testo": "Effetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    57.1,
+    83.3,
+    66.7
+   ],
+   "size": 8.4,
+   "testo": "61-64",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.3,
+    57.0,
+    264.3,
+    66.7
+   ],
+   "size": 8.4,
+   "testo": "Per il minuto successivo, se lo stregone tocca",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.7,
+    68.8,
+    271.1,
+    78.5
+   ],
+   "size": 8.4,
+   "testo": "qualsiasi oggetto non magico infiammabile che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    90.4,
+    80.9,
+    265.4,
+    90.6
+   ],
+   "size": 8.4,
+   "testo": "non è indossato o trasportato da un'altra crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.4,
+    92.9,
+    265.8,
+    102.6
+   ],
+   "size": 8.4,
+   "testo": "tura, questo prende fuoco subendo 1d4 danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.7,
+    104.9,
+    126.7,
+    114.5
+   ],
+   "size": 8.4,
+   "testo": "da fuoco.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    119.5,
+    258.3,
+    129.1
+   ],
+   "size": 8.4,
+   "testo": "65-68 Se lo stregone muore entro l'ora successiva,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.5,
+    131.4,
+    264.2,
+    141.1
+   ],
+   "size": 8.4,
+   "testo": "viene riportato subito in vita come per effetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.7,
+    143.4,
+    212.8,
+    153.1
+   ],
+   "size": 9.2,
+   "testo": "dell'incantesimo reincarnazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    158.0,
+    83.5,
+    167.6
+   ],
+   "size": 8.4,
+   "testo": "69-72",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.3,
+    158.0,
+    274.6,
+    167.6
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone è spaventato fino al termine del suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.8,
+    170.1,
+    273.3,
+    179.7
+   ],
+   "size": 8.4,
+   "testo": "turno successivo. La fonte della paura è a discre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    90.0,
+    182.1,
+    145.8,
+    191.7
+   ],
+   "size": 8.4,
+   "testo": "zione del DM.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    196.7,
+    82.8,
+    206.3
+   ],
+   "size": 8.4,
+   "testo": "73-76",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.3,
+    196.7,
+    255.5,
+    206.3
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone si teletrasporta di un massimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.7,
+    208.6,
+    266.0,
+    218.3
+   ],
+   "size": 8.4,
+   "testo": "di 18 metri in uno spazio libero che è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.7,
+    220.8,
+    128.7,
+    230.4
+   ],
+   "size": 8.4,
+   "testo": "di vedere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    235.2,
+    83.2,
+    244.8
+   ],
+   "size": 8.4,
+   "testo": "77-80",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.0,
+    235.2,
+    265.3,
+    244.9
+   ],
+   "size": 8.4,
+   "testo": "Una creatura casuale entro 18 metri dallo stre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.7,
+    247.3,
+    207.1,
+    256.9
+   ],
+   "size": 8.4,
+   "testo": "gone è avvelenata per 1d4 ore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    261.9,
+    83.2,
+    271.5
+   ],
+   "size": 8.4,
+   "testo": "81-84",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.3,
+    261.9,
+    259.1,
+    271.5
+   ],
+   "size": 8.4,
+   "testo": "Per il minuto successivo, lo stregone emana",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.0,
+    273.9,
+    264.3,
+    283.5
+   ],
+   "size": 8.4,
+   "testo": "luce intensa in un raggio di 9 metri. Qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.7,
+    285.9,
+    272.7,
+    295.6
+   ],
+   "size": 8.4,
+   "testo": "creatura che termini il suo turno entro 1 , 5 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.9,
+    297.9,
+    265.7,
+    307.6
+   ],
+   "size": 8.4,
+   "testo": "dal personaggio è accecata fino al termine del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    90.0,
+    310.0,
+    188.0,
+    319.6
+   ],
+   "size": 8.4,
+   "testo": "proprio turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    324.5,
+    264.3,
+    334.2
+   ],
+   "size": 8.4,
+   "testo": "85-88 Lo stregone infligge 1d10 danni necrotici a un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    90.5,
+    336.5,
+    268.7,
+    346.1
+   ],
+   "size": 8.4,
+   "testo": "massimo di tre creature a scelta che è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.5,
+    348.4,
+    262.1,
+    358.0
+   ],
+   "size": 8.4,
+   "testo": "di vedere. Dopodiché, ripristina una quantità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.5,
+    360.4,
+    254.9,
+    370.0
+   ],
+   "size": 8.4,
+   "testo": "di punti ferita pari ai danni necrotici inflitti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    375.0,
+    83.2,
+    384.6
+   ],
+   "size": 8.4,
+   "testo": "89-92",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.1,
+    375.0,
+    273.1,
+    384.6
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone infligge 4d10 danni da fulmine a un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    90.0,
+    387.0,
+    268.5,
+    396.6
+   ],
+   "size": 8.4,
+   "testo": "massimo di tre creature a scelta che è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.7,
+    399.0,
+    128.7,
+    408.6
+   ],
+   "size": 8.4,
+   "testo": "di vedere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    413.7,
+    83.4,
+    423.3
+   ],
+   "size": 8.4,
+   "testo": "93-96",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.1,
+    413.7,
+    269.0,
+    423.3
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone e tutte le creature entro 9 metri da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.8,
+    425.6,
+    269.8,
+    435.3
+   ],
+   "size": 8.4,
+   "testo": "sé diventano vulnerabili ai danni perforanti per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.9,
+    437.7,
+    170.8,
+    447.3
+   ],
+   "size": 8.4,
+   "testo": "il minuto successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    452.1,
+    278.0,
+    461.8
+   ],
+   "size": 8.4,
+   "testo": "97-00 Tira 1d6: con 1 il personaggio recupera 2d10 punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.8,
+    464.1,
+    263.9,
+    473.7
+   ],
+   "size": 8.4,
+   "testo": "ferita; con 2 un alleato a scelta entro 90 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.7,
+    476.2,
+    270.9,
+    485.8
+   ],
+   "size": 8.4,
+   "testo": "dallo stregone recupera 2d10 punti ferita; con 3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    90.5,
+    488.1,
+    269.6,
+    497.7
+   ],
+   "size": 8.4,
+   "testo": "lo stregone recupera lo slot incantesimo speso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.5,
+    500.0,
+    257.5,
+    509.7
+   ],
+   "size": 8.4,
+   "testo": "di livello più basso; con 4 un alleato a scelta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.0,
+    512.1,
+    272.7,
+    521.8
+   ],
+   "size": 8.4,
+   "testo": "recupera lo slot incantesimo speso di livello più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.9,
+    524.1,
+    264.5,
+    533.8
+   ],
+   "size": 8.4,
+   "testo": "basso; con 5 lo stregone recupera tutti i punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    89.8,
+    536.1,
+    267.9,
+    545.8
+   ],
+   "size": 8.4,
+   "testo": "stregoneria spesi; con 6 si attivano simultanea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    90.0,
+    548.1,
+    231.6,
+    557.8
+   ],
+   "size": 8.4,
+   "testo": "mente tutti gli effetti della riga 17-20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    38.9,
+    473.1,
+    52.0
+   ],
+   "size": 9.7,
+   "testo": "STREGONERIA MECCANICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    56.5,
+    441.9,
+    65.8
+   ],
+   "size": 8.6,
+   "testo": "Incanalaleforze cosmiche dell'ordine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    70.0,
+    520.5,
+    80.6
+   ],
+   "size": 8.8,
+   "testo": "Le forze cosmiche dell'ordine hanno infuso di magia lo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    81.0,
+    523.3,
+    91.5
+   ],
+   "size": 8.8,
+   "testo": "stregone: è un potere proveniente da Mechanus o da un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    92.0,
+    518.9,
+    102.6
+   ],
+   "size": 8.8,
+   "testo": "mondo simile, ovvero piani di esistenza fondati su una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    103.0,
+    514.8,
+    113.6
+   ],
+   "size": 8.8,
+   "testo": "perfetta efficienza meccanica. Lo stregone (o qualche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    113.9,
+    516.1,
+    124.5
+   ],
+   "size": 8.8,
+   "testo": "suo antenato) potrebbe essere rimasto coinvolto nelle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    125.0,
+    520.9,
+    135.5
+   ],
+   "size": 8.8,
+   "testo": "macchinazioni dei modron, le disciplinate creature che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    136.0,
+    513.5,
+    146.6
+   ],
+   "size": 8.8,
+   "testo": "popolano Mechanus, o magari un suo progenitore ha",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    146.9,
+    517.9,
+    157.5
+   ],
+   "size": 8.8,
+   "testo": "preso parte alla Grande Marcia dei modron. Quali che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    158.0,
+    532.6,
+    168.6
+   ],
+   "size": 8.8,
+   "testo": "ne siano le origini, lo stregone ritiene il potere dell'ordine,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    169.1,
+    521.2,
+    179.6
+   ],
+   "size": 8.8,
+   "testo": "così alieno per molti, un elemento fondante di un vasto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    180.0,
+    393.7,
+    190.6
+   ],
+   "size": 8.8,
+   "testo": "e impeccabile sistema.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    200.5,
+    502.9,
+    211.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI MECCANICI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    211.9,
+    528.7,
+    222.5
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone raggiunge un livello specificato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    222.9,
+    524.1,
+    233.5
+   ],
+   "size": 8.8,
+   "testo": "tabella Incantesimi meccanici, gli incantesimi lì elencati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    233.9,
+    435.2,
+    244.4
+   ],
+   "size": 8.8,
+   "testo": "sono considerati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    256.6,
+    432.6,
+    267.3
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI MECCANICI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    272.6,
+    348.2,
+    281.8
+   ],
+   "size": 8.2,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    283.6,
+    346.8,
+    292.8
+   ],
+   "size": 8.2,
+   "testo": "stregone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.2,
+    283.6,
+    401.1,
+    292.8
+   ],
+   "size": 8.2,
+   "testo": "Incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.1,
+    297.5,
+    331.6,
+    307.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.0,
+    298.0,
+    478.2,
+    307.2
+   ],
+   "size": 9.2,
+   "testo": "Aiuto, allarme, ristorare inferiore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.0,
+    310.0,
+    467.5,
+    319.2
+   ],
+   "size": 9.2,
+   "testo": "protezione dal bene e dal male",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.2,
+    324.1,
+    331.7,
+    333.8
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.9,
+    324.6,
+    495.9,
+    333.8
+   ],
+   "size": 9.2,
+   "testo": "Dissolvi magie, protezione da/l'energia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.2,
+    338.6,
+    331.9,
+    348.2
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.9,
+    339.1,
+    496.4,
+    348.3
+   ],
+   "size": 9.2,
+   "testo": "Libertà di movimento, evoca costrutto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.8,
+    353.2,
+    331.9,
+    362.8
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.9,
+    353.6,
+    478.0,
+    362.8
+   ],
+   "size": 9.2,
+   "testo": "Ristorare superiore, muro diforza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    371.0,
+    522.9,
+    381.6
+   ],
+   "size": 8.8,
+   "testo": "La tabella Manifestazioni dell'ordine fornisce una serie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    382.0,
+    531.8,
+    392.6
+   ],
+   "size": 8.8,
+   "testo": "di possibili modi, da scegliere o determinare casualmente,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    393.0,
+    522.1,
+    403.6
+   ],
+   "size": 8.8,
+   "testo": "in cui il legame con l'ordine si manifesta quando lo stre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    404.1,
+    424.1,
+    414.7
+   ],
+   "size": 8.8,
+   "testo": "gone lancia i suoi incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    426.8,
+    463.3,
+    437.5
+   ],
+   "size": 10.6,
+   "testo": "MANIFESTAZIONI DELL'ORDI NE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    442.8,
+    328.2,
+    451.9
+   ],
+   "size": 6.9,
+   "testo": "1d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    337.1,
+    442.7,
+    396.9,
+    451.9
+   ],
+   "size": 8.2,
+   "testo": "Manifestazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    471.0,
+    322.8,
+    480.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    497.7,
+    322.5,
+    507.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    512.3,
+    322.7,
+    521.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    538.9,
+    322.5,
+    548.5
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.8,
+    456.6,
+    507.7,
+    466.2
+   ],
+   "size": 8.4,
+   "testo": "Ingranaggi spettrali si librano alle sue spalle.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.8,
+    471.1,
+    496.2,
+    480.7
+   ],
+   "size": 8.4,
+   "testo": "Le lancette di un orologio si muovono nei",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.4,
+    483.0,
+    379.6,
+    492.7
+   ],
+   "size": 8.4,
+   "testo": "suoi occhi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.8,
+    497.7,
+    464.8,
+    507.4
+   ],
+   "size": 8.4,
+   "testo": "La sua pelle luccica come ottone.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    337.0,
+    512.3,
+    504.8,
+    522.0
+   ],
+   "size": 8.4,
+   "testo": "Il suo corpo si ricopre di figure geometriche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.2,
+    524.4,
+    429.4,
+    534.0
+   ],
+   "size": 8.4,
+   "testo": "e formule matematiche.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    337.1,
+    538.8,
+    519.1,
+    548.5
+   ],
+   "size": 8.4,
+   "testo": "Il suo focus da incantatore assume temporanea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    336.5,
+    550.9,
+    521.2,
+    560.6
+   ],
+   "size": 8.4,
+   "testo": "mente la forma di un meccanismo ad orologeria",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    336.5,
+    562.9,
+    380.4,
+    572.5
+   ],
+   "size": 8.4,
+   "testo": "minuscolo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    577.5,
+    322.8,
+    587.1
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.8,
+    577.4,
+    521.4,
+    587.0
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone e i bersagli della sua magia sentono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    336.5,
+    589.5,
+    513.0,
+    599.1
+   ],
+   "size": 8.4,
+   "testo": "il ronzio di ingranaggi e il ticchettio di orologi.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    613.2,
+    522.6,
+    624.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: RIPRISTINO DELL'EQUILIBRIO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    624.7,
+    521.3,
+    635.3
+   ],
+   "size": 8.8,
+   "testo": "La connessione dello stregone con un piano di assoluto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    635.7,
+    523.6,
+    646.3
+   ],
+   "size": 8.8,
+   "testo": "ordine gli permette di equilibrare i momenti più caotici.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    646.7,
+    533.6,
+    657.2
+   ],
+   "size": 8.8,
+   "testo": "Quando una creatura nel raggio di 9 metri che lo stregone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    657.7,
+    515.0,
+    668.2
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere sta per tirare un d20 disponendo",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

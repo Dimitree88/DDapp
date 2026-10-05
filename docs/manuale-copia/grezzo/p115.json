@@ -1,0 +1,2892 @@
+{
+ "pagina_pdf": 115,
+ "pagina_stampata": 112,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "112 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    51.9,
+    39.4,
+    157.2,
+    50.1
+   ],
+   "size": 10.6,
+   "testo": "PRIVILEGI DEL MAGO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.2,
+    68.9,
+    125.7,
+    79.6
+   ],
+   "size": 10.6,
+   "testo": "Bonus di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    79.9,
+    204.3,
+    90.6
+   ],
+   "size": 10.6,
+   "testo": "Livello competenza Privilegi di classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.8,
+    95.0,
+    112.0,
+    104.6
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.0,
+    95.0,
+    258.2,
+    104.6
+   ],
+   "size": 8.4,
+   "testo": "Incantesimi, Adepto dei Rituali,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.0,
+    106.9,
+    204.2,
+    116.5
+   ],
+   "size": 8.4,
+   "testo": "Recupero Arcano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    121.5,
+    68.6,
+    131.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.0,
+    121.5,
+    111.5,
+    131.1
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    121.5,
+    172.2,
+    131.1
+   ],
+   "size": 8.4,
+   "testo": "Studioso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    136.1,
+    68.3,
+    145.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.0,
+    136.1,
+    111.5,
+    145.7
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    136.1,
+    220.1,
+    145.8
+   ],
+   "size": 8.4,
+   "testo": "Sottoclasse del mago",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    150.6,
+    68.5,
+    160.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.6,
+    150.7,
+    112.2,
+    160.3
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    150.7,
+    284.9,
+    160.3
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    165.3,
+    68.3,
+    174.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    165.3,
+    111.9,
+    175.0
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    165.3,
+    235.8,
+    174.9
+   ],
+   "size": 8.4,
+   "testo": "Memorizzare incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    179.9,
+    68.5,
+    189.6
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    180.0,
+    111.9,
+    189.6
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    180.0,
+    239.6,
+    189.6
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    194.4,
+    68.3,
+    204.1
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.6,
+    194.5,
+    112.0,
+    204.1
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    209.2,
+    68.5,
+    218.9
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.6,
+    209.1,
+    112.0,
+    218.9
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.0,
+    209.2,
+    284.9,
+    218.9
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    223.7,
+    68.5,
+    233.4
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.3,
+    223.7,
+    112.5,
+    233.3
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    238.3,
+    72.0,
+    247.9
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.3,
+    238.0,
+    112.5,
+    248.0
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    238.3,
+    239.6,
+    248.0
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    252.9,
+    70.6,
+    262.5
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.3,
+    252.7,
+    112.5,
+    262.6
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    267.4,
+    72.0,
+    277.1
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.3,
+    267.2,
+    112.2,
+    277.2
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.0,
+    267.5,
+    284.9,
+    277.1
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    282.1,
+    71.8,
+    291.7
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.6,
+    281.9,
+    112.0,
+    291.9
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    296.7,
+    71.7,
+    306.3
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.2,
+    296.6,
+    112.8,
+    306.4
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    296.8,
+    239.5,
+    306.4
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    311.2,
+    71.8,
+    320.8
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.5,
+    311.0,
+    112.1,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    325.9,
+    72.1,
+    335.5
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.5,
+    325.7,
+    112.1,
+    335.6
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.0,
+    325.9,
+    284.8,
+    335.5
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.8,
+    340.4,
+    71.8,
+    350.0
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.3,
+    340.4,
+    112.4,
+    350.1
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    354.9,
+    71.8,
+    364.5
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.3,
+    355.0,
+    112.4,
+    364.6
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    354.9,
+    239.7,
+    364.6
+   ],
+   "size": 8.4,
+   "testo": "Maestria negli Incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    369.5,
+    71.3,
+    379.1
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.2,
+    369.6,
+    113.0,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.4,
+    369.6,
+    181.8,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "Dono epico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    384.0,
+    70.5,
+    393.7
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.3,
+    384.1,
+    112.4,
+    393.7
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    384.1,
+    220.6,
+    393.7
+   ],
+   "size": 8.4,
+   "testo": "Incantesimi personali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    408.6,
+    275.8,
+    419.2
+   ],
+   "size": 8.8,
+   "testo": "Il numero di incantesimi nella lista aumenta man mano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    419.6,
+    274.6,
+    430.2
+   ],
+   "size": 8.8,
+   "testo": "che il personaggio ottiene livelli da mago, come mostrato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    430.6,
+    276.3,
+    441.2
+   ],
+   "size": 8.8,
+   "testo": "nella colonna Incantesimi preparati della tabella Privilegi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    441.6,
+    268.2,
+    452.1
+   ],
+   "size": 8.8,
+   "testo": "del mago. Ogni volta che il numero cresce, il mago deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    452.5,
+    276.0,
+    463.1
+   ],
+   "size": 8.8,
+   "testo": "scegliere altri incantesimi finché il numero sulla lista non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.5,
+    463.5,
+    268.5,
+    474.1
+   ],
+   "size": 8.8,
+   "testo": "combacia con quello mostrato nella tabella Privilegi del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.5,
+    474.5,
+    274.5,
+    485.1
+   ],
+   "size": 8.8,
+   "testo": "mago. Gli incantesimi scelti devono essere di un livello di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    485.5,
+    273.8,
+    496.1
+   ],
+   "size": 8.8,
+   "testo": "cui possiede degli slot incantesimo. Per esempio, nel caso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    494.3,
+    269.6,
+    507.1
+   ],
+   "size": 8.8,
+   "testo": "di un mago di 3° livello, la sua lista di incantesimi prepa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    505.3,
+    274.2,
+    518.2
+   ],
+   "size": 8.8,
+   "testo": "rati può includere sei incantesimi di 1° e 2° livello in qual­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    518.6,
+    268.8,
+    529.2
+   ],
+   "size": 8.8,
+   "testo": "siasi combinazione presi dal suo libro degli incantesimi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.0,
+    529.5,
+    273.5,
+    540.1
+   ],
+   "size": 8.8,
+   "testo": "Se un altro privilegio gli fornisce incantesimi che sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    540.5,
+    269.6,
+    551.1
+   ],
+   "size": 8.8,
+   "testo": "sempre preparati, questi non contano ai fini del numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    551.6,
+    276.6,
+    562.1
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi preparabili con questo privilegio. Tuttavia,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    562.5,
+    234.8,
+    573.1
+   ],
+   "size": 8.8,
+   "testo": "valgono comunque come incantesimi da mago.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.8,
+    573.5,
+    260.4,
+    584.0
+   ],
+   "size": 8.8,
+   "testo": "Cambiare gli incantesimipreparati. Quando il mago",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    584.5,
+    268.1,
+    595.0
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo lungo, può modificare la sua lista di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    595.5,
+    267.1,
+    606.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimi preparati, sostituendo quelli che preferisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    606.5,
+    213.2,
+    617.1
+   ],
+   "size": 8.8,
+   "testo": "con altri incantesimi inclusi nel suo libro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.8,
+    617.6,
+    275.2,
+    628.2
+   ],
+   "size": 8.8,
+   "testo": "Caratteristica da incantatore. Intelligenza è la caratteri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    628.7,
+    241.2,
+    639.2
+   ],
+   "size": 8.8,
+   "testo": "stica da incantatore per gli incantesimi da mago.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    639.7,
+    279.9,
+    650.3
+   ],
+   "size": 8.8,
+   "testo": "Focus da incantatore. Il mago può usare un focus arcano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    650.7,
+    274.9,
+    661.2
+   ],
+   "size": 8.8,
+   "testo": "o il suo libro degli incantesimi come focus da incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    661.8,
+    181.6,
+    672.3
+   ],
+   "size": 8.8,
+   "testo": "per i propri incantesimi da mago.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.5,
+    54.4,
+    513.8,
+    65.1
+   ],
+   "size": 10.6,
+   "testo": "-Slot incantesimo per livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    332.0,
+    68.9,
+    378.6,
+    79.6
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    422.9,
+    65.4,
+    487.9,
+    76.1
+   ],
+   "size": 10.6,
+   "testo": "di incantesimo-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    288.6,
+    79.9,
+    373.0,
+    90.6
+   ],
+   "size": 10.6,
+   "testo": "Trucchetti preparati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.9,
+    81.1,
+    408.1,
+    90.3
+   ],
+   "size": 8.2,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.3,
+    81.1,
+    425.2,
+    90.3
+   ],
+   "size": 8.2,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.0,
+    81.1,
+    442.5,
+    90.3
+   ],
+   "size": 8.2,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.4,
+    81.2,
+    459.2,
+    90.4
+   ],
+   "size": 8.2,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    470.3,
+    81.2,
+    476.6,
+    90.5
+   ],
+   "size": 8.2,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    487.5,
+    81.1,
+    493.4,
+    90.3
+   ],
+   "size": 8.2,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    504.2,
+    81.2,
+    510.4,
+    90.5
+   ],
+   "size": 8.2,
+   "testo": "8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    95.0,
+    311.5,
+    104.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.2,
+    94.9,
+    357.4,
+    104.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.1,
+    95.0,
+    391.1,
+    104.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    121.6,
+    311.5,
+    131.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.8,
+    121.5,
+    357.3,
+    131.1
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.2,
+    121.6,
+    390.7,
+    131.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    136.2,
+    311.5,
+    145.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.5,
+    136.2,
+    357.6,
+    145.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    136.1,
+    391.0,
+    145.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    136.2,
+    408.2,
+    145.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    150.6,
+    311.8,
+    160.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.8,
+    150.6,
+    357.4,
+    160.3
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    150.7,
+    391.0,
+    160.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.4,
+    150.7,
+    407.9,
+    160.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    165.3,
+    311.7,
+    174.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.4,
+    165.3,
+    357.4,
+    175.0
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    165.3,
+    391.0,
+    174.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.4,
+    165.5,
+    407.9,
+    175.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.3,
+    165.3,
+    425.3,
+    175.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    180.0,
+    311.7,
+    189.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.6,
+    180.0,
+    361.0,
+    189.6
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    180.0,
+    391.0,
+    189.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.4,
+    180.0,
+    407.9,
+    189.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    180.0,
+    424.9,
+    189.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    194.4,
+    311.7,
+    204.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.8,
+    194.4,
+    359.6,
+    204.1
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    194.5,
+    391.0,
+    204.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    194.7,
+    407.8,
+    204.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    194.6,
+    424.9,
+    204.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    209.2,
+    311.8,
+    218.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.7,
+    209.2,
+    361.0,
+    218.8
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    209.2,
+    391.0,
+    218.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    209.3,
+    407.8,
+    218.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    209.3,
+    424.9,
+    218.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    209.3,
+    442.5,
+    219.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    223.7,
+    311.7,
+    233.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.7,
+    223.7,
+    360.7,
+    233.4
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    223.8,
+    391.0,
+    233.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    223.8,
+    407.8,
+    233.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    223.8,
+    424.9,
+    233.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.6,
+    223.8,
+    442.1,
+    233.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    238.3,
+    311.5,
+    247.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.7,
+    238.3,
+    361.0,
+    248.0
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    238.3,
+    391.0,
+    248.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    238.3,
+    407.8,
+    248.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    238.5,
+    424.9,
+    248.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    238.5,
+    442.0,
+    248.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.5,
+    238.4,
+    459.5,
+    248.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    252.9,
+    311.4,
+    262.5
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.6,
+    252.9,
+    361.0,
+    262.6
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    253.0,
+    391.0,
+    262.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    253.0,
+    407.8,
+    262.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    253.0,
+    424.9,
+    262.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    253.1,
+    442.0,
+    262.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.5,
+    253.0,
+    459.5,
+    262.6
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    267.5,
+    311.4,
+    277.1
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.6,
+    267.6,
+    361.0,
+    277.2
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    267.5,
+    391.0,
+    277.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    267.6,
+    407.8,
+    277.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    267.6,
+    424.9,
+    277.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    267.6,
+    442.0,
+    277.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.4,
+    267.6,
+    459.4,
+    277.2
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    282.1,
+    311.4,
+    291.8
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.7,
+    282.1,
+    360.8,
+    291.8
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    282.1,
+    390.9,
+    291.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    282.2,
+    407.8,
+    291.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    282.3,
+    424.9,
+    291.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    282.3,
+    442.0,
+    291.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.4,
+    282.2,
+    459.4,
+    291.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    296.8,
+    311.4,
+    306.4
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.5,
+    296.8,
+    360.9,
+    306.4
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    296.8,
+    390.9,
+    306.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    296.8,
+    407.8,
+    306.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    296.9,
+    424.9,
+    306.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    296.9,
+    442.0,
+    306.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.4,
+    296.8,
+    459.4,
+    306.4
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    311.4,
+    311.4,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.6,
+    311.3,
+    361.0,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    311.4,
+    390.9,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    311.4,
+    407.8,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    311.4,
+    424.9,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    311.4,
+    442.0,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.4,
+    311.4,
+    459.4,
+    321.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    325.9,
+    311.4,
+    335.5
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.2,
+    325.9,
+    358.8,
+    335.6
+   ],
+   "size": 8.4,
+   "testo": "21",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    325.9,
+    390.9,
+    335.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    325.9,
+    407.8,
+    335.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.3,
+    326.0,
+    424.8,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    326.1,
+    442.0,
+    335.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.4,
+    326.0,
+    459.4,
+    335.6
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    340.4,
+    311.4,
+    350.0
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.0,
+    340.4,
+    360.5,
+    350.1
+   ],
+   "size": 8.4,
+   "testo": "22",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    340.5,
+    390.9,
+    350.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    340.5,
+    407.8,
+    350.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.3,
+    340.5,
+    424.8,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    340.6,
+    442.0,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.4,
+    340.5,
+    459.4,
+    350.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    355.0,
+    311.4,
+    364.6
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.0,
+    355.0,
+    360.3,
+    364.6
+   ],
+   "size": 8.4,
+   "testo": "23",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    355.0,
+    390.9,
+    364.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    355.1,
+    407.8,
+    364.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.4,
+    355.1,
+    424.9,
+    364.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    355.1,
+    442.0,
+    364.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.6,
+    355.1,
+    459.1,
+    364.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    369.6,
+    311.4,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.1,
+    369.6,
+    359.7,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "24",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    369.6,
+    390.9,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    369.6,
+    407.8,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.3,
+    369.6,
+    424.8,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    369.7,
+    442.0,
+    379.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.5,
+    369.7,
+    459.0,
+    379.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    470.4,
+    369.6,
+    476.4,
+    379.3
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    384.1,
+    311.3,
+    393.7
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    349.0,
+    384.1,
+    360.3,
+    393.7
+   ],
+   "size": 8.4,
+   "testo": "25",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    384.1,
+    390.9,
+    393.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.3,
+    384.2,
+    407.8,
+    393.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.3,
+    384.3,
+    424.8,
+    393.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.5,
+    384.2,
+    442.0,
+    393.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.5,
+    384.3,
+    459.0,
+    393.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    470.4,
+    384.2,
+    476.4,
+    393.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    487.5,
+    384.2,
+    493.5,
+    393.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    410.5,
+    476.5,
+    421.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 1: ADEPTO DEI RITUALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    422.0,
+    522.6,
+    432.5
+   ],
+   "size": 8.8,
+   "testo": "Il mago può lanciare qualsiasi incantesimo come rituale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    432.9,
+    512.7,
+    443.5
+   ],
+   "size": 8.8,
+   "testo": "se quell'incantesimo possiede il descrittore rituale ed",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    521.2,
+    81.2,
+    527.5,
+    90.5
+   ],
+   "size": 8.2,
+   "testo": "9",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    444.0,
+    523.9,
+    454.5
+   ],
+   "size": 8.8,
+   "testo": "è presente nel suo libro degli incantesimi. Non è necessa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    454.9,
+    519.4,
+    465.5
+   ],
+   "size": 8.8,
+   "testo": "rio che sia preparato, ma per poterlo lanciare in questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    465.8,
+    437.9,
+    476.3
+   ],
+   "size": 8.8,
+   "testo": "modo è necessario leggere il libro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    478.9,
+    468.6,
+    497.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: RECUPERO ARCANO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    497.7,
+    517.2,
+    508.2
+   ],
+   "size": 8.8,
+   "testo": "Il mago può recuperare parte della sua energia magica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    508.7,
+    515.0,
+    519.3
+   ],
+   "size": 8.8,
+   "testo": "studiando il libro degli incantesimi. Quando completa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    519.8,
+    506.3,
+    530.3
+   ],
+   "size": 8.8,
+   "testo": "un riposo breve, sceglie quali slot incantesimo spesi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    530.7,
+    523.1,
+    541.3
+   ],
+   "size": 8.8,
+   "testo": "desidera recuperare. Gli slot incantesimo possono avere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    541.7,
+    517.0,
+    552.3
+   ],
+   "size": 8.8,
+   "testo": "un livello totale pari o inferiore alla metà del livello da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    552.8,
+    529.3,
+    563.3
+   ],
+   "size": 8.8,
+   "testo": "mago (arrotondato per eccesso) e nessuno slot può essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    561.6,
+    517.3,
+    574.3
+   ],
+   "size": 8.8,
+   "testo": "di livello pari o superiore al 6°. Per esempio, se il mago",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    572.5,
+    519.3,
+    585.2
+   ],
+   "size": 8.8,
+   "testo": "è di 4° livello, può recuperare un massimo di due livelli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    585.7,
+    525.8,
+    596.3
+   ],
+   "size": 8.8,
+   "testo": "di slot incantesimo, ripristinando o uno slot incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    594.6,
+    420.5,
+    607.3
+   ],
+   "size": 8.8,
+   "testo": "di 2° livello o due di 1° livello.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    607.7,
+    521.8,
+    618.3
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    618.8,
+    508.9,
+    629.4
+   ],
+   "size": 8.8,
+   "testo": "può riutilizzarlo prima di aver completato un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    629.9,
+    329.7,
+    640.4
+   ],
+   "size": 8.8,
+   "testo": "lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    650.3,
+    421.1,
+    661.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: STUDIOSO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    661.7,
+    534.3,
+    672.2
+   ],
+   "size": 8.8,
+   "testo": "Durante il suo studio della magia, il mago si è specializzato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    672.7,
+    524.8,
+    683.3
+   ],
+   "size": 8.8,
+   "testo": "anche in un'altra disciplina. Scegli una delle seguenti abi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    683.7,
+    530.8,
+    694.3
+   ],
+   "size": 8.8,
+   "testo": "lità in cui avere competenza: Arcano, Indagare, Medicina,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    694.6,
+    520.4,
+    705.2
+   ],
+   "size": 8.8,
+   "testo": "Natura, Religione o Storia. Il mago possiederà maestria",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    705.7,
+    394.4,
+    716.2
+   ],
+   "size": 8.8,
+   "testo": "nell'abilità selezionata.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,667 @@
+{
+ "pagina_pdf": 252,
+ "pagina_stampata": 249,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 249",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   388
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.5,
+    391.6,
+    269.6,
+    402.2
+   ],
+   "size": 8.8,
+   "testo": "può essere spostato e scompare al termine dell'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    402.7,
+    257.0,
+    413.2
+   ],
+   "size": 8.8,
+   "testo": "simo, insieme al liquido gorgogliante al suo interno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    413.7,
+    250.5,
+    424.3
+   ],
+   "size": 8.8,
+   "testo": "Il liquido nel calderone è in grado di replicare le",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    424.7,
+    274.8,
+    435.3
+   ],
+   "size": 8.8,
+   "testo": "proprietà di una pozione comune o non comune a scelta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    435.7,
+    275.3,
+    446.2
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore (per esempio, una pozione di guarigione).",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    446.6,
+    252.4,
+    457.2
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, l'incantatore o un alleato può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    457.7,
+    269.2,
+    468.2
+   ],
+   "size": 8.8,
+   "testo": "attingere al calderone e prelevare una pozione del tipo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    468.6,
+    275.5,
+    479.2
+   ],
+   "size": 8.8,
+   "testo": "scelto. La pozione è contenuta in una fiala che scompare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    479.6,
+    270.0,
+    490.2
+   ],
+   "size": 8.8,
+   "testo": "quando viene la pozione viene consumata. Il calderone",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    490.7,
+    274.8,
+    501.2
+   ],
+   "size": 8.8,
+   "testo": "può produrre un numero di pozioni pari al modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    501.6,
+    277.8,
+    512.2
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica da incantatore dell'incantatore (minimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    512.6,
+    275.3,
+    523.2
+   ],
+   "size": 8.8,
+   "testo": "1). Quando l'ultima di queste pozioni viene prelevata dal",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    523.7,
+    281.6,
+    534.3
+   ],
+   "size": 8.8,
+   "testo": "calderone, il calderone scompare e l'incantesimo termina.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.4,
+    534.7,
+    262.9,
+    545.3
+   ],
+   "size": 8.8,
+   "testo": "Le pozioni ricavate dal calderone che non vengono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    545.7,
+    275.2,
+    556.2
+   ],
+   "size": 8.8,
+   "testo": "consumate scompaiono quando l'incantatore lancia nuo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    556.6,
+    147.1,
+    567.2
+   ],
+   "size": 8.8,
+   "testo": "vamente l'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    591.4,
+    165.2,
+    602.8
+   ],
+   "size": 11.2,
+   "testo": "CALMARE EMOZIONI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    602.8,
+    215.4,
+    613.3
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi2° livello (bardo, chierico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    618.6,
+    146.7,
+    628.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    629.6,
+    119.2,
+    639.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    640.6,
+    121.8,
+    650.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    651.6,
+    208.1,
+    661.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    667.8,
+    248.4,
+    678.4
+   ],
+   "size": 8.8,
+   "testo": "Ogni umanoide all'interno di una sfera del raggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    678.7,
+    268.0,
+    689.3
+   ],
+   "size": 8.8,
+   "testo": "di 6 metri centrata su un punto scelto dall'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    689.7,
+    277.6,
+    700.3
+   ],
+   "size": 8.8,
+   "testo": "entro gittata deve effettuare un tiro salvezza su Carisma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    700.8,
+    269.1,
+    711.3
+   ],
+   "size": 8.8,
+   "testo": "o essere influenzato da uno dei seguenti effetti (a scelta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    711.7,
+    130.1,
+    722.3
+   ],
+   "size": 8.8,
+   "testo": "per ogni creatura):",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    391.5,
+    529.7,
+    402.0
+   ],
+   "size": 8.8,
+   "testo": "La creatura è immune alle condizioni affascinato e spa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    402.4,
+    530.9,
+    413.0
+   ],
+   "size": 8.8,
+   "testo": "ventato fino al termine dell'incantesimo. Se la creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    413.5,
+    524.9,
+    424.0
+   ],
+   "size": 8.8,
+   "testo": "è già affascinata o spaventata, queste condizioni sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    424.5,
+    475.8,
+    435.0
+   ],
+   "size": 8.8,
+   "testo": "soppresse per la durata dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    435.5,
+    527.5,
+    446.1
+   ],
+   "size": 8.8,
+   "testo": "La creatura diventa indifferente alle creature (a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    446.4,
+    531.0,
+    457.0
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore) verso cui è ostile. Questa indifferenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    457.5,
+    526.5,
+    468.1
+   ],
+   "size": 8.8,
+   "testo": "termina se il bersaglio subisce danni o se vede uno dei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    468.4,
+    524.9,
+    479.0
+   ],
+   "size": 8.8,
+   "testo": "suoi alleati subire danni. Al termine dell'incantesimo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    479.4,
+    516.9,
+    490.0
+   ],
+   "size": 8.8,
+   "testo": "l'atteggiamento della creatura torna alla normalità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    514.3,
+    437.4,
+    525.6
+   ],
+   "size": 11.2,
+   "testo": "CAMMINARE NEL VENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    525.7,
+    436.9,
+    536.3
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi 6° livello (druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    541.4,
+    407.8,
+    551.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    552.3,
+    367.2,
+    562.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    563.3,
+    440.5,
+    573.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una candela)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    574.3,
+    358.6,
+    583.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: 8 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    590.5,
+    534.2,
+    601.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore e un massimo di dieci creature consenzienti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    601.5,
+    520.5,
+    612.1
+   ],
+   "size": 8.8,
+   "testo": "a sua scelta entro gittata assumono una forma gassosa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    612.7,
+    517.7,
+    623.2
+   ],
+   "size": 8.8,
+   "testo": "per la durata dell'incantesimo, apparendo come sbuffi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    623.7,
+    517.0,
+    634.2
+   ],
+   "size": 8.8,
+   "testo": "di nuvole. Finché il bersaglio ha queste sembianze, ha",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    634.6,
+    525.1,
+    645.2
+   ],
+   "size": 8.8,
+   "testo": "una velocità di volo di 90 metri e può fluttuare. Inoltre,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    645.7,
+    515.2,
+    656.3
+   ],
+   "size": 8.8,
+   "testo": "è immune alla condizione prono e resistente ai danni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    656.6,
+    511.5,
+    667.2
+   ],
+   "size": 8.8,
+   "testo": "contundenti, perforanti e taglienti. Le uniche azioni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    667.6,
+    526.4,
+    678.1
+   ],
+   "size": 8.8,
+   "testo": "che può effettuare in questa forma sono l'azione Scatto,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    678.6,
+    518.2,
+    689.1
+   ],
+   "size": 8.8,
+   "testo": "un'azione di Magia o riassumere la propria forma nor­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    689.6,
+    520.3,
+    700.1
+   ],
+   "size": 8.8,
+   "testo": "male. Quest'ultima opzione richiede 1 minuto, durante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    700.6,
+    526.6,
+    711.1
+   ],
+   "size": 8.8,
+   "testo": "il quale il bersaglio è stordito. Fino al termine dell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    711.5,
+    523.4,
+    722.1
+   ],
+   "size": 8.8,
+   "testo": "tesimo, il bersaglio può assumere nuovamente la forma",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

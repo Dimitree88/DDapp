@@ -1,0 +1,943 @@
+{
+ "pagina_pdf": 109,
+ "pagina_stampata": 106,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   375,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    50.4,
+    39.8,
+    164.6,
+    52.9
+   ],
+   "size": 9.7,
+   "testo": "LAMA SPIRITUALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.6,
+    57.4,
+    200.7,
+    66.8
+   ],
+   "size": 8.6,
+   "testo": "Abbatti i nemici conletue lamepsioniche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.5,
+    71.0,
+    276.9,
+    81.5
+   ],
+   "size": 8.8,
+   "testo": "Una Lama Spirituale colpisce con la mente, attraversando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    82.0,
+    262.7,
+    92.5
+   ],
+   "size": 8.8,
+   "testo": "sia le barriere fisiche che quelle psichiche. Questi ladri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    87.3,
+    273.3,
+    103.6
+   ],
+   "size": 8.8,
+   "testo": "hanno scoperto il potere-psionico dentro di loro e lo inca­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    103.9,
+    261.2,
+    114.5
+   ],
+   "size": 8.8,
+   "testo": "nalano per raggiungere i propri obiettivi. Come Lama",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    115.0,
+    277.0,
+    125.5
+   ],
+   "size": 8.8,
+   "testo": "Spirituale, le abilità psioniche del personaggio potrebbero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    125.9,
+    277.9,
+    136.5
+   ],
+   "size": 8.8,
+   "testo": "averlo tormentato sin dall'infanzia, rivelando il loro pieno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    137.0,
+    268.3,
+    147.5
+   ],
+   "size": 8.8,
+   "testo": "potenziale solo quando ha dovuto affrontare le tensioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    148.0,
+    279.5,
+    158.6
+   ],
+   "size": 8.8,
+   "testo": "della vita da avventuriero. Oppure potrebbe essere andato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    159.0,
+    269.1,
+    169.5
+   ],
+   "size": 8.8,
+   "testo": "alla ricerca di un ordine di adepti psichici con cui ha tra­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    170.1,
+    257.9,
+    180.6
+   ],
+   "size": 8.8,
+   "testo": "scorso anni per imparare a manifestare il suo potere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    190.5,
+    204.1,
+    201.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: LAME PSICHICHE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    202.0,
+    256.8,
+    212.6
+   ],
+   "size": 8.8,
+   "testo": "Il ladro può richiamare delle lame splendenti fatte di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    213.0,
+    258.1,
+    223.6
+   ],
+   "size": 8.8,
+   "testo": "energia psichica. Quando effettua l'azione di Attacco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    223.9,
+    261.1,
+    234.5
+   ],
+   "size": 8.8,
+   "testo": "o un attacco di opportunità, può manifestare la Lama",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.9,
+    234.9,
+    250.7,
+    245.5
+   ],
+   "size": 8.8,
+   "testo": "Psichica nella sua mano libera e attaccare con essa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    245.9,
+    199.6,
+    256.4
+   ],
+   "size": 8.8,
+   "testo": "La lama ha le seguenti caratteristiche:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    263.6,
+    191.4,
+    274.3
+   ],
+   "size": 10.6,
+   "testo": "Categoria arma: da mischia semplice",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.7,
+    275.7,
+    248.4,
+    286.4
+   ],
+   "size": 10.6,
+   "testo": "Tipo di danno: 1d6 danni psichici più il modificatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    288.5,
+    235.2,
+    298.1
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica utilizzato per il tiro per colpire",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    299.7,
+    230.3,
+    310.4
+   ],
+   "size": 10.6,
+   "testo": "Proprietà: accurata, lancio (gittata 18/36 metri)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    311.6,
+    255.6,
+    322.3
+   ],
+   "size": 10.6,
+   "testo": "Padronanza: vessazione (il personaggio può utilizzare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    324.5,
+    250.0,
+    334.1
+   ],
+   "size": 8.4,
+   "testo": "questa proprietà, che non conta ai fini del numero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    336.4,
+    247.7,
+    346.0
+   ],
+   "size": 8.4,
+   "testo": "di proprietà utilizzabili con la Padronanza d'armi)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.9,
+    351.6,
+    264.9,
+    362.2
+   ],
+   "size": 8.8,
+   "testo": "La lama svanisce dopo l'attacco, sia in caso di successo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    362.7,
+    278.9,
+    373.2
+   ],
+   "size": 8.8,
+   "testo": "che di fallimento, e non lascia segni quando infligge danni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    373.7,
+    257.3,
+    384.2
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver attaccato con la lama nel proprio turno,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    384.7,
+    272.0,
+    395.2
+   ],
+   "size": 8.8,
+   "testo": "il ladro può effettuare un attacco in mischia o a distanza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    395.6,
+    269.3,
+    406.2
+   ],
+   "size": 8.8,
+   "testo": "con una seconda lama psichica come azione bonus nello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    406.8,
+    253.1,
+    417.4
+   ],
+   "size": 8.8,
+   "testo": "stesso turno, a patto che la sua altra mano sia libera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    417.8,
+    256.0,
+    428.3
+   ],
+   "size": 8.8,
+   "testo": "di crearne una. I danni di questo attacco bonus sono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    428.7,
+    195.3,
+    439.3
+   ],
+   "size": 8.8,
+   "testo": "calcolati con 1d4, invece che con 1d6.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    39.8,
+    459.8,
+    51.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: POTERE PSIONICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    51.2,
+    531.6,
+    61.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio attinge a una fonte di energia psionica dentro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    55.1,
+    518.5,
+    73.3
+   ],
+   "size": 8.8,
+   "testo": "di sé. È rappresentata dal suo dado di Energia Psionica,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    73.2,
+    517.4,
+    83.8
+   ],
+   "size": 8.8,
+   "testo": "che alimenta determinati poteri forniti da questa sotto­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    84.2,
+    521.2,
+    94.8
+   ],
+   "size": 8.8,
+   "testo": "classe. Il dado di energia della Lama Spirituale mostra il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    95.2,
+    526.6,
+    105.8
+   ],
+   "size": 8.8,
+   "testo": "numero di dadi a disposizione quando raggiunge determi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    106.3,
+    527.4,
+    116.8
+   ],
+   "size": 8.8,
+   "testo": "nati livelli da ladro. La tabella mostra la tipologia di dado.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    128.9,
+    518.0,
+    139.6
+   ],
+   "size": 10.6,
+   "testo": "DADO DI ENERGIA DELLA LAMA SPIRITUALE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    143.7,
+    371.5,
+    154.4
+   ],
+   "size": 10.6,
+   "testo": "Livello da ladro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    393.0,
+    143.7,
+    443.1,
+    154.4
+   ],
+   "size": 10.6,
+   "testo": "Tipo di dado",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    477.6,
+    143.7,
+    510.7,
+    154.4
+   ],
+   "size": 10.6,
+   "testo": "Numero",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    338.8,
+    158.8,
+    344.3,
+    168.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    411.9,
+    158.7,
+    424.9,
+    168.4
+   ],
+   "size": 8.4,
+   "testo": "D6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.5,
+    158.7,
+    496.7,
+    168.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    338.8,
+    173.4,
+    344.3,
+    183.1
+   ],
+   "size": 8.4,
+   "testo": "s",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.0,
+    173.4,
+    424.5,
+    183.1
+   ],
+   "size": 8.4,
+   "testo": "D8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.7,
+    173.5,
+    496.8,
+    183.1
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    338.4,
+    188.0,
+    344.5,
+    197.6
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    411.9,
+    188.0,
+    424.6,
+    197.6
+   ],
+   "size": 8.4,
+   "testo": "D8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.6,
+    188.0,
+    496.6,
+    197.6
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    337.0,
+    202.6,
+    346.7,
+    212.2
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    410.0,
+    202.6,
+    425.9,
+    212.3
+   ],
+   "size": 8.4,
+   "testo": "DlO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    490.6,
+    202.8,
+    496.6,
+    212.4
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.9,
+    217.2,
+    347.9,
+    226.8
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    410.0,
+    217.2,
+    425.9,
+    226.9
+   ],
+   "size": 8.4,
+   "testo": "DlO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    488.9,
+    217.2,
+    500.3,
+    226.9
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    337.0,
+    231.7,
+    347.8,
+    241.4
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    410.2,
+    231.8,
+    425.8,
+    241.4
+   ],
+   "size": 8.4,
+   "testo": "Dl2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    489.0,
+    231.8,
+    500.3,
+    241.4
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    249.6,
+    517.6,
+    260.2
+   ],
+   "size": 8.8,
+   "testo": "Qualunque privilegio di questa sottoclasse che utilizza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    260.6,
+    532.3,
+    271.2
+   ],
+   "size": 8.8,
+   "testo": "un dado di Energia Psionica può usare solo i dadi di questa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    271.7,
+    520.2,
+    282.2
+   ],
+   "size": 8.8,
+   "testo": "sottoclasse. Per alcuni poteri bisogna spendere un dado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    282.8,
+    525.4,
+    293.3
+   ],
+   "size": 8.8,
+   "testo": "di Energia Psionica, come specificato nella descrizione di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    293.8,
+    522.5,
+    304.4
+   ],
+   "size": 8.8,
+   "testo": "quel potere e il personaggio non può usare uno di questi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    304.7,
+    454.3,
+    315.3
+   ],
+   "size": 8.8,
+   "testo": "poteri se ha già consumato tutti i dadi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    315.7,
+    512.1,
+    326.2
+   ],
+   "size": 8.8,
+   "testo": "Il ladro recupera un dado di Energia Psionica speso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    326.7,
+    529.1,
+    337.3
+   ],
+   "size": 8.8,
+   "testo": "dopo aver completato un riposo breve, mentre li recupera",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    337.6,
+    474.9,
+    348.2
+   ],
+   "size": 8.8,
+   "testo": "tutti dopo aver completato un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    348.6,
+    514.7,
+    359.2
+   ],
+   "size": 8.8,
+   "testo": "Abilità psicorinforzata. Se il ladro fallisce una prova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    359.6,
+    526.5,
+    370.2
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica usando un'abilità o uno strumento in cui",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    370.5,
+    517.8,
+    381.1
+   ],
+   "size": 8.8,
+   "testo": "ha competenza, può tirare un dado di Energia Psionica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    381.5,
+    517.2,
+    392.1
+   ],
+   "size": 8.8,
+   "testo": "e aggiungere il risultato alla prova, con la possibilità di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    392.6,
+    525.1,
+    403.2
+   ],
+   "size": 8.8,
+   "testo": "trasformare un fallimento in un successo. Il dado è consi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    403.7,
+    493.4,
+    414.3
+   ],
+   "size": 8.8,
+   "testo": "derato come consumato se il tiro viene superato.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

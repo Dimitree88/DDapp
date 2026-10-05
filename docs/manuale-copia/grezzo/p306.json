@@ -1,0 +1,1296 @@
+{
+ "pagina_pdf": 306,
+ "pagina_stampata": 303,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 303",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    60.3,
+    36.3,
+    270.8,
+    46.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può anche teletrasportare una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    47.4,
+    275.4,
+    57.9
+   ],
+   "size": 8.8,
+   "testo": "consenziente. Prima che si teletrasporti, la creatura deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    58.3,
+    269.5,
+    68.9
+   ],
+   "size": 8.8,
+   "testo": "trovarsi entro 1,5 metri dall'incantatore, per poi teletra­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    69.3,
+    276.4,
+    79.9
+   ],
+   "size": 8.8,
+   "testo": "sportarsi in uno spazio entro 1,5 metri dalla destinazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    80.3,
+    118.0,
+    90.9
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    91.2,
+    268.0,
+    101.8
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore, l'altra creatura o entrambi arrivano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    102.2,
+    269.9,
+    112.8
+   ],
+   "size": 8.8,
+   "testo": "in uno spazio occupato da una creatura o riempito com­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    113.3,
+    274.4,
+    123.9
+   ],
+   "size": 8.8,
+   "testo": "pletamente da uno o più oggetti, l'incantatore e qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    124.3,
+    279.3,
+    134.9
+   ],
+   "size": 8.8,
+   "testo": "creatura che viaggia con lui subiscono 4d6 danni da forza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    135.3,
+    150.6,
+    145.9
+   ],
+   "size": 8.8,
+   "testo": "e il teletrasporto fallisce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    169.9,
+    100.9,
+    181.3
+   ],
+   "size": 11.2,
+   "testo": "PORTALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    181.5,
+    264.2,
+    192.0
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi 9° livello (chierico, mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    197.2,
+    143.8,
+    206.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    208.1,
+    116.1,
+    217.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    219.2,
+    272.5,
+    228.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un diamante del valore di 5.000 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    229.1,
+    81.0,
+    239.8
+   ],
+   "size": 8.8,
+   "testo": "o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    241.1,
+    205.3,
+    250.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    257.4,
+    263.6,
+    267.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore evoca un portale che collega uno spazio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    268.5,
+    265.6,
+    279.1
+   ],
+   "size": 8.8,
+   "testo": "libero che è in grado di vedere entro gittata a un luogo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    279.5,
+    258.0,
+    290.0
+   ],
+   "size": 8.8,
+   "testo": "preciso su un piano di esistenza differente. Il portale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    290.4,
+    260.4,
+    301.0
+   ],
+   "size": 8.8,
+   "testo": "è un'apertura circolare, del diametro variabile tra 1,5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    301.5,
+    272.1,
+    312.1
+   ],
+   "size": 8.8,
+   "testo": "e 6 metri a scelta dell'incantatore e può essere orientato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    312.4,
+    265.7,
+    323.0
+   ],
+   "size": 8.8,
+   "testo": "in qualsiasi direzione. Il portale permane per la durata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    323.4,
+    279.7,
+    333.9
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo e la sua destinazione è visibile attraverso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    334.3,
+    82.2,
+    344.9
+   ],
+   "size": 8.8,
+   "testo": "di esso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    345.3,
+    256.2,
+    355.9
+   ],
+   "size": 8.8,
+   "testo": "Il portale ha un lato anteriore e un lato posteriore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    356.4,
+    265.4,
+    366.9
+   ],
+   "size": 8.8,
+   "testo": "su ogni piano dove appare e i viaggi sono possibili solo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    367.3,
+    263.2,
+    377.8
+   ],
+   "size": 8.8,
+   "testo": "attraversandolo dalla parte anteriore. Tutto ciò che lo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    378.3,
+    278.4,
+    388.9
+   ],
+   "size": 8.8,
+   "testo": "attraversa è trasportato immediatamente sull'altro piano,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    389.4,
+    251.3,
+    399.9
+   ],
+   "size": 8.8,
+   "testo": "apparendo nello spazio libero più vicino al portale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    400.5,
+    268.3,
+    411.0
+   ],
+   "size": 8.8,
+   "testo": "Divinità e altri sovrani planari possono impedire che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    411.5,
+    267.0,
+    422.0
+   ],
+   "size": 8.8,
+   "testo": "i portali creati tramite questo incantesimo si aprano in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    422.5,
+    178.0,
+    433.1
+   ],
+   "size": 8.8,
+   "testo": "loro presenza o nei loro domini.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    433.5,
+    268.5,
+    444.1
+   ],
+   "size": 8.8,
+   "testo": "Quando lancia questo incantesimo, l'incantatore può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    444.4,
+    265.3,
+    455.0
+   ],
+   "size": 8.8,
+   "testo": "pronunciare il nome di una creatura specifica (pseudo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    455.5,
+    277.0,
+    466.0
+   ],
+   "size": 8.8,
+   "testo": "nimi, titoli o soprannomi non funzionano). Se la creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    466.6,
+    262.8,
+    477.1
+   ],
+   "size": 8.8,
+   "testo": "nominata si trova su un piano diverso da quello in cui",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    477.5,
+    267.0,
+    488.0
+   ],
+   "size": 8.8,
+   "testo": "si trova l'incantatore, il portale si apre nelle immediate",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    488.4,
+    272.4,
+    499.0
+   ],
+   "size": 8.8,
+   "testo": "vicinanze della creatura, trasportandola fino allo spazio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.7,
+    499.6,
+    262.8,
+    510.1
+   ],
+   "size": 8.8,
+   "testo": "libero più vicino sul lato del portale in cui si trova l'in­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    510.5,
+    279.2,
+    521.1
+   ],
+   "size": 8.8,
+   "testo": "cantatore. L'incantatore non ottiene alcun potere speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    521.5,
+    277.5,
+    532.1
+   ],
+   "size": 8.8,
+   "testo": "sulla creatura, che è libera di agire come il DM ritiene più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    532.6,
+    267.5,
+    543.2
+   ],
+   "size": 8.8,
+   "testo": "appropriato: potrebbe andarsene, attaccarlo o aiutarlo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    567.2,
+    147.7,
+    578.5
+   ],
+   "size": 11.2,
+   "testo": "PORTALE ARCANO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    578.7,
+    231.3,
+    589.2
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi 6°livello (mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    594.2,
+    143.6,
+    603.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    605.3,
+    120.6,
+    614.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 150 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    616.4,
+    118.7,
+    626.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    627.4,
+    206.9,
+    637.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    643.7,
+    265.6,
+    654.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea dei portali di teletrasporto collegati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    654.7,
+    258.5,
+    665.3
+   ],
+   "size": 8.8,
+   "testo": "e sceglie due spazi liberi del terreno che è in grado di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    665.6,
+    260.9,
+    676.2
+   ],
+   "size": 8.8,
+   "testo": "vedere, uno entro gittata e l'altro entro 3 metri da sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    676.6,
+    259.0,
+    687.2
+   ],
+   "size": 8.8,
+   "testo": "In ogni spazio scelto, si apre un portale circolare che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    687.7,
+    208.7,
+    698.2
+   ],
+   "size": 8.8,
+   "testo": "permane per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    36.4,
+    510.3,
+    47.0
+   ],
+   "size": 8.8,
+   "testo": "I portali sono anelli luminosi bidimensionali al cui",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    47.4,
+    526.0,
+    58.0
+   ],
+   "size": 8.8,
+   "testo": "interno è visibile una coltre di nebbia. Fluttuano a pochi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    58.4,
+    527.6,
+    69.0
+   ],
+   "size": 8.8,
+   "testo": "centimetri dal suolo, perpendicolarmente al punto scelto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    69.5,
+    371.6,
+    80.0
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    80.4,
+    526.4,
+    91.0
+   ],
+   "size": 8.8,
+   "testo": "I portali sono aperti solo da un lato (a scelta dell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.3,
+    91.3,
+    522.6,
+    101.9
+   ],
+   "size": 8.8,
+   "testo": "tatore). Tutto ciò che entra nel lato aperto di un portale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    102.3,
+    534.2,
+    112.9
+   ],
+   "size": 8.8,
+   "testo": "esce dal lato aperto dell'altro portale come se i due fossero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    113.4,
+    529.9,
+    124.0
+   ],
+   "size": 8.8,
+   "testo": "adiacenti. Come azione bonus, è possibile cambiare il lato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    124.3,
+    348.0,
+    134.9
+   ],
+   "size": 8.8,
+   "testo": "di accesso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    159.2,
+    449.0,
+    170.5
+   ],
+   "size": 11.2,
+   "testo": "PREGHIERA DI GUARIGIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    170.6,
+    465.2,
+    181.1
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi2° livello (chierico, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    186.2,
+    407.5,
+    195.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    197.3,
+    364.7,
+    206.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    208.3,
+    363.0,
+    217.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    219.3,
+    377.3,
+    228.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.3,
+    235.4,
+    520.7,
+    246.0
+   ],
+   "size": 8.8,
+   "testo": "Fino a cinque creature a scelta dell'incantatore, situate",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    246.5,
+    517.4,
+    257.0
+   ],
+   "size": 8.8,
+   "testo": "entro gittata per l'intera durata del lancio dell'incante­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    257.5,
+    533.7,
+    268.0
+   ],
+   "size": 8.8,
+   "testo": "simo, ottengono i benefici di un riposo breve e recuperano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    268.5,
+    535.2,
+    279.1
+   ],
+   "size": 8.8,
+   "testo": "2d8 punti ferita. Una creatura non può essere nuovamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    279.6,
+    534.7,
+    290.1
+   ],
+   "size": 8.8,
+   "testo": "influenzata da questo incantesimo fino a che non completa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    290.6,
+    370.3,
+    301.1
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.2,
+    303.3,
+    508.6,
+    311.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    312.4,
+    508.6,
+    323.0
+   ],
+   "size": 8.8,
+   "testo": "La guarigione aumenta di 1d8 per ogni slot di livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    321.3,
+    365.1,
+    334.0
+   ],
+   "size": 8.8,
+   "testo": "superiore al 2°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    358.1,
+    357.7,
+    369.5
+   ],
+   "size": 11.2,
+   "testo": "PRESAGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    369.6,
+    480.2,
+    380.0
+   ],
+   "size": 8.6,
+   "testo": "Divinazione di 2° livello (chierico, druido, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    385.2,
+    439.6,
+    394.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    396.2,
+    380.1,
+    405.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    407.4,
+    528.6,
+    417.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (bastoncini, ossa, carte o altri oggetti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    418.4,
+    526.2,
+    428.0
+   ],
+   "size": 8.4,
+   "testo": "da divinazione dotati di contrassegni speciali, del valore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    429.4,
+    372.5,
+    439.0
+   ],
+   "size": 8.4,
+   "testo": "di 25 mo o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    440.3,
+    377.2,
+    450.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    456.6,
+    531.2,
+    467.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore riceve un presagio da un'entità ultraterrena",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    467.6,
+    533.8,
+    478.1
+   ],
+   "size": 8.8,
+   "testo": "sui risultati di un corso d'azione che intende effettuare nei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    478.5,
+    528.3,
+    489.1
+   ],
+   "size": 8.8,
+   "testo": "prossimi 30 minuti. Il DM sceglie il presagio dalla tabella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    489.6,
+    337.9,
+    500.1
+   ],
+   "size": 8.8,
+   "testo": "Presagi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    512.4,
+    347.3,
+    523.0
+   ],
+   "size": 10.6,
+   "testo": "PRESAGI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    528.3,
+    343.1,
+    537.5
+   ],
+   "size": 8.2,
+   "testo": "Presagio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    542.2,
+    339.3,
+    551.8
+   ],
+   "size": 8.4,
+   "testo": "Ventura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    556.7,
+    343.0,
+    566.3
+   ],
+   "size": 8.4,
+   "testo": "Sventura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    571.3,
+    380.9,
+    580.9
+   ],
+   "size": 8.4,
+   "testo": "Ventura e sventura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    585.9,
+    355.9,
+    595.5
+   ],
+   "size": 8.4,
+   "testo": "Indifferenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    417.2,
+    528.2,
+    473.1,
+    537.5
+   ],
+   "size": 8.2,
+   "testo": "Con risultati...",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    417.9,
+    542.1,
+    446.9,
+    551.7
+   ],
+   "size": 8.4,
+   "testo": "Positivi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    417.9,
+    556.7,
+    450.9,
+    566.3
+   ],
+   "size": 8.4,
+   "testo": "Negativi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    417.9,
+    571.3,
+    485.5,
+    580.9
+   ],
+   "size": 8.4,
+   "testo": "Positivi e negativi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    418.1,
+    585.8,
+    504.0,
+    595.5
+   ],
+   "size": 8.4,
+   "testo": "Né positivi né negativi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    603.7,
+    517.7,
+    614.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo non tiene conto delle circostanze, come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    614.9,
+    519.0,
+    625.5
+   ],
+   "size": 8.8,
+   "testo": "altri incantesimi, che potrebbero modificare i risultati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    625.8,
+    527.5,
+    636.4
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore lancia l'incantesimo più volte prima di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    636.9,
+    526.5,
+    647.5
+   ],
+   "size": 8.8,
+   "testo": "completare un riposo lungo, esiste una probabilità cumu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    647.9,
+    517.3,
+    658.5
+   ],
+   "size": 8.8,
+   "testo": "lativa del 25% di non ottenere risposta per ogni lancio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    658.8,
+    360.7,
+    669.4
+   ],
+   "size": 8.8,
+   "testo": "dopo il primo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

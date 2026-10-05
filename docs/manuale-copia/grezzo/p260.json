@@ -1,0 +1,595 @@
+{
+ "pagina_pdf": 260,
+ "pagina_stampata": 257,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 257",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   441
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.4,
+    418.4,
+    133.1,
+    429.8
+   ],
+   "size": 11.2,
+   "testo": "CONTINGENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    429.9,
+    169.1,
+    440.4
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi6° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    445.5,
+    156.0,
+    455.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    456.5,
+    129.7,
+    466.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    467.4,
+    278.1,
+    477.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una statuetta dell'incantatore tempe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    478.3,
+    235.3,
+    487.9
+   ],
+   "size": 8.4,
+   "testo": "stata di gemme, del valore di 1 . 500 mo o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    489.4,
+    120.0,
+    499.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 giorni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    505.7,
+    276.8,
+    516.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie un incantesimo di livello pari o infe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    516.7,
+    274.9,
+    527.2
+   ],
+   "size": 8.8,
+   "testo": "riore a 5 che sia in grado di lanciare, che abbia un tempo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    527.7,
+    268.4,
+    538.2
+   ],
+   "size": 8.8,
+   "testo": "di lancio di un'azione e che possa avere come bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    538.7,
+    257.7,
+    549.3
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore stesso. Lancia l'incantesimo, chiamato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    549.7,
+    264.8,
+    560.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimo contingente, come parte del lancio di con­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    560.6,
+    274.4,
+    571.1
+   ],
+   "size": 8.8,
+   "testo": "tingenza, consumando gli slot incantesimo per entrambi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    571.6,
+    280.1,
+    582.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo contingente, tuttavia, non ha effetto finché",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    582.6,
+    272.4,
+    593.1
+   ],
+   "size": 8.8,
+   "testo": "non si verificano determinati inneschi che l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    593.6,
+    276.9,
+    604.1
+   ],
+   "size": 8.8,
+   "testo": "descrive nel momento in cui lancia i due incantesimi. Per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    604.6,
+    274.7,
+    615.2
+   ],
+   "size": 8.8,
+   "testo": "esempio, un lancio di contingenza con respirare sott'acqua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    615.8,
+    262.5,
+    626.3
+   ],
+   "size": 8.8,
+   "testo": "potrebbe stabilire che respiraresott'acqua avrà effetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    626.7,
+    269.8,
+    637.4
+   ],
+   "size": 8.8,
+   "testo": "quando l'incantatore sarà sommerso nell'acqua o in un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    637.7,
+    110.7,
+    648.3
+   ],
+   "size": 8.8,
+   "testo": "liquido simile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    648.8,
+    261.9,
+    659.3
+   ],
+   "size": 8.8,
+   "testo": "Che l'incantatore lo desideri o meno, l'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    659.7,
+    265.9,
+    670.3
+   ],
+   "size": 8.8,
+   "testo": "contingente ha effetto nel momento in cui gli inneschi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    670.6,
+    267.3,
+    681.2
+   ],
+   "size": 8.8,
+   "testo": "vengono soddisfatti per la prima volta, poi contingenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    681.7,
+    89.6,
+    692.2
+   ],
+   "size": 8.8,
+   "testo": "termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    402.6,
+    501.5,
+    413.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo contingente ha effetto solamente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    413.6,
+    524.0,
+    424.2
+   ],
+   "size": 8.8,
+   "testo": "sull'incantatore, nonostante normalmente possa essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    424.6,
+    528.1,
+    435.2
+   ],
+   "size": 8.8,
+   "testo": "lanciato su altri bersagli. L'incantatore può utilizzare un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    435.6,
+    524.4,
+    446.2
+   ],
+   "size": 8.8,
+   "testo": "solo incantesimo contingenza alla volta. Se l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.7,
+    446.5,
+    516.8,
+    457.1
+   ],
+   "size": 8.8,
+   "testo": "lancia nuovamente questo incantesimo, l'effetto di un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    457.6,
+    520.9,
+    468.2
+   ],
+   "size": 8.8,
+   "testo": "altro incantesimo contingenza su di sé termina. Inoltre,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    468.6,
+    531.9,
+    479.2
+   ],
+   "size": 8.8,
+   "testo": "contingenza termina qualora la sua componente materiale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    479.5,
+    473.6,
+    490.1
+   ],
+   "size": 8.8,
+   "testo": "non si trovi sulla persona dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    514.5,
+    425.9,
+    525.8
+   ],
+   "size": 11.2,
+   "testo": "CONTROINCANTESIMO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    525.9,
+    489.3,
+    536.4
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi3° livello (mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    541.5,
+    531.1,
+    551.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: Reazione, che l'incantatore può effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    552.4,
+    526.2,
+    562.0
+   ],
+   "size": 8.4,
+   "testo": "quando vede una creatura entro 18 metri da lui lanciare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    563.4,
+    512.0,
+    573.0
+   ],
+   "size": 8.4,
+   "testo": "un incantesimo con componenti verbali, somatiche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    573.4,
+    357.6,
+    584.1
+   ],
+   "size": 8.8,
+   "testo": "o materiali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    585.5,
+    371.0,
+    595.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    596.5,
+    364.2,
+    606.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    607.6,
+    379.2,
+    617.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    623.8,
+    534.4,
+    634.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tenta di interrompere una creatura nell'atto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    634.7,
+    523.9,
+    645.3
+   ],
+   "size": 8.8,
+   "testo": "di lanciare un incantesimo. La creatura effettua un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    645.8,
+    514.6,
+    656.3
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Costituzione. Se lo fallisce, l'incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    656.8,
+    518.5,
+    667.3
+   ],
+   "size": 8.8,
+   "testo": "si dissolve senza alcun effetto e l'azione, azione bonus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    667.7,
+    527.5,
+    678.2
+   ],
+   "size": 8.8,
+   "testo": "o reazione utilizzata per lanciarlo viene sprecata. Se l'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    678.7,
+    525.9,
+    689.2
+   ],
+   "size": 8.8,
+   "testo": "cantesimo è stato lanciato usando uno slot incantesimo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    689.7,
+    420.2,
+    700.3
+   ],
+   "size": 8.8,
+   "testo": "lo slot non viene consumato.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

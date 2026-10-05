@@ -1,0 +1,655 @@
+{
+ "pagina_pdf": 249,
+ "pagina_stampata": 246,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "246 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   378
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    60.5,
+    381.9,
+    264.0,
+    392.5
+   ],
+   "size": 8.2,
+   "testo": "Maschera (creatura). L'incantatore sceglie un tipo di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    394.5,
+    270.4,
+    403.1
+   ],
+   "size": 6.6,
+   "testo": "creatura diverso da quello del bersaglio. Gli incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    405.7,
+    280.1,
+    414.3
+   ],
+   "size": 6.6,
+   "testo": "e altri effetti magici considerano il bersaglio come se fosse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    416.7,
+    226.8,
+    425.3
+   ],
+   "size": 6.6,
+   "testo": "una creatura del tipo scelto dall'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    426.0,
+    271.0,
+    436.5
+   ],
+   "size": 8.2,
+   "testo": "Falsa aura (oggetto). L'incantatore modifica il modo in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    438.6,
+    279.4,
+    447.2
+   ],
+   "size": 6.6,
+   "testo": "cui il bersaglio appare agli incantesimi e agli effetti magici",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    448.0,
+    271.1,
+    458.5
+   ],
+   "size": 8.2,
+   "testo": "che individuano le aure magiche, come per esempio indi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    459.0,
+    275.1,
+    469.6
+   ],
+   "size": 8.2,
+   "testo": "viduazione del magico. L'incantatore può fare in modo che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    471.6,
+    271.8,
+    480.2
+   ],
+   "size": 6.6,
+   "testo": "un oggetto non magico appaia come magico e viceversa,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    482.5,
+    265.0,
+    491.1
+   ],
+   "size": 6.6,
+   "testo": "oppure può cambiare l'aura di un oggetto in modo che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    493.5,
+    263.6,
+    502.1
+   ],
+   "size": 6.6,
+   "testo": "sembri appartenere a una scuola di magia a sua scelta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    526.6,
+    120.4,
+    537.2
+   ],
+   "size": 8.2,
+   "testo": "AURA SACRA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    538.1,
+    177.3,
+    548.6
+   ],
+   "size": 8.2,
+   "testo": "Abiurazione di 8° livello (chierico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    552.6,
+    144.2,
+    563.2
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    563.7,
+    128.5,
+    574.2
+   ],
+   "size": 8.2,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    574.5,
+    275.2,
+    585.1
+   ],
+   "size": 8.2,
+   "testo": "Componenti: V, S, M (un reliquiario del valore di 1.000 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.7,
+    585.6,
+    81.9,
+    596.1
+   ],
+   "size": 8.2,
+   "testo": "o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    596.5,
+    205.9,
+    607.1
+   ],
+   "size": 8.2,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    615.5,
+    253.5,
+    624.1
+   ],
+   "size": 6.6,
+   "testo": "Per la durata dell'incantesimo, l'incantatore irradia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    626.6,
+    268.4,
+    635.4
+   ],
+   "size": 6.6,
+   "testo": "un'aura in un'emanazione di 9 metri. L e creature scelte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    637.7,
+    252.6,
+    646.2
+   ],
+   "size": 6.6,
+   "testo": "dell'incantatore che si trovano all'interno dell'aura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    648.6,
+    262.5,
+    657.2
+   ],
+   "size": 6.6,
+   "testo": "dispongono di vantaggio a tutti i tiri salvezza, mentre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    659.6,
+    270.3,
+    668.2
+   ],
+   "size": 6.6,
+   "testo": "le altre creature subiscono svantaggio ai tiri per colpire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    670.6,
+    265.3,
+    679.2
+   ],
+   "size": 6.6,
+   "testo": "contro le creature scelte. Inoltre, quando un immondo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    681.6,
+    276.3,
+    690.2
+   ],
+   "size": 6.6,
+   "testo": "o un non morto colpisce una creatura influenzata con un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    692.5,
+    274.2,
+    701.1
+   ],
+   "size": 6.6,
+   "testo": "tiro per colpire in mischia, l'attaccante deve superare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    703.5,
+    269.7,
+    712.1
+   ],
+   "size": 6.6,
+   "testo": "tiro salvezza su Costituzione, altrimenti viene accecato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    714.5,
+    226.3,
+    723.1
+   ],
+   "size": 6.6,
+   "testo": "fino al termine del proprio turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    396.8,
+    412.7,
+    407.3
+   ],
+   "size": 8.2,
+   "testo": "BACCHE BENEFICHE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    408.7,
+    448.2,
+    419.2
+   ],
+   "size": 8.2,
+   "testo": "Evocazione di 1° livello (druido, ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    423.2,
+    396.7,
+    433.8
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    434.2,
+    380.8,
+    444.7
+   ],
+   "size": 8.2,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    445.1,
+    473.4,
+    455.7
+   ],
+   "size": 8.2,
+   "testo": "Componenti: V, S, M (un rametto di vischio)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    456.0,
+    361.3,
+    466.6
+   ],
+   "size": 8.2,
+   "testo": "Durata: 24 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    475.0,
+    533.9,
+    483.6
+   ],
+   "size": 6.6,
+   "testo": "Per la durata dell'incantesimo, nella mano dell'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    486.0,
+    509.7,
+    494.6
+   ],
+   "size": 6.6,
+   "testo": "appaiono dieci bacche infuse di magia. Una creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    497.0,
+    525.0,
+    505.6
+   ],
+   "size": 6.6,
+   "testo": "può effettuare un'azione bonus per mangiare una bacca,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    508.0,
+    523.3,
+    516.8
+   ],
+   "size": 6.6,
+   "testo": "recuperando così 1 punto ferita e ottenendo nutrimento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    519.1,
+    441.5,
+    527.7
+   ],
+   "size": 6.6,
+   "testo": "sufficiente per una giornata intera.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    530.1,
+    500.3,
+    538.7
+   ],
+   "size": 6.6,
+   "testo": "L e bacche non mangiate scompaiono al termine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    541.1,
+    372.6,
+    549.7
+   ],
+   "size": 6.6,
+   "testo": "dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    573.7,
+    405.6,
+    584.3
+   ],
+   "size": 8.2,
+   "testo": "BAGLIORE LUNARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    585.5,
+    424.2,
+    596.0
+   ],
+   "size": 8.2,
+   "testo": "Invocazione di 2° livello (druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    600.0,
+    396.6,
+    610.6
+   ],
+   "size": 8.2,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    611.1,
+    369.5,
+    621.7
+   ],
+   "size": 8.2,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    622.1,
+    512.0,
+    632.7
+   ],
+   "size": 8.2,
+   "testo": "Componenti: V, S, M (una foglia di un vitigno legnoso)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    633.2,
+    458.6,
+    643.8
+   ],
+   "size": 8.2,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    652.1,
+    519.3,
+    660.7
+   ],
+   "size": 6.6,
+   "testo": "Un bagliore argentato di luce pallida forma un cilindro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    663.0,
+    521.9,
+    671.8
+   ],
+   "size": 6.6,
+   "testo": "del raggio di 1,5 metri e dell'altezza di 12 metri centrato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    674.0,
+    518.0,
+    682.6
+   ],
+   "size": 6.6,
+   "testo": "su un punto entro gittata. Fino al termine dell'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    685.1,
+    516.0,
+    693.9
+   ],
+   "size": 6.6,
+   "testo": "simo, il cilindro è pervaso da luce fioca e l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    696.0,
+    515.7,
+    704.6
+   ],
+   "size": 6.6,
+   "testo": "può effettuare un'azione di Magia nei turni successivi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    707.1,
+    455.0,
+    715.8
+   ],
+   "size": 6.6,
+   "testo": "per spostare il cilindro fino a 18 metri.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

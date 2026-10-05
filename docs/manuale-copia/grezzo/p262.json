@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 262,
+ "pagina_stampata": 259,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 j INCANTESIMI / F59",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   400
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.2,
+    363.6,
+    270.9,
+    374.2
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore entra in uno spazio entro 9 metri dalle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    374.6,
+    264.6,
+    385.2
+   ],
+   "size": 8.8,
+   "testo": "munizioni per la prima volta in un turno o se termina",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    385.7,
+    267.7,
+    396.3
+   ],
+   "size": 8.8,
+   "testo": "il suo turno entro quella distanza, una delle munizioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    396.7,
+    281.0,
+    407.3
+   ],
+   "size": 8.8,
+   "testo": "sfreccia in volo per colpirla. La creatura deve superare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    407.8,
+    273.8,
+    418.4
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Destrezza, altrimenti subisce 2d4 danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    418.9,
+    273.0,
+    429.4
+   ],
+   "size": 8.8,
+   "testo": "perforanti. La munizione viene distrutta. L'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    429.8,
+    251.8,
+    440.4
+   ],
+   "size": 8.8,
+   "testo": "termina quando non rimangono più munizioni nel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    440.7,
+    87.4,
+    451.3
+   ],
+   "size": 8.8,
+   "testo": "terreno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    451.8,
+    270.1,
+    462.4
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore lancia questo incantesimo, può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    462.8,
+    276.5,
+    473.4
+   ],
+   "size": 8.8,
+   "testo": "indicare un qualsiasi numero di creature a sua scelta che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    473.8,
+    191.4,
+    484.4
+   ],
+   "size": 8.8,
+   "testo": "saranno ignorate dall'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    486.4,
+    257.7,
+    495.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di unoslotincantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    495.8,
+    275.0,
+    506.4
+   ],
+   "size": 8.8,
+   "testo": "La quantità di munizioni che possono essere influenzate",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    504.7,
+    262.3,
+    517.4
+   ],
+   "size": 8.8,
+   "testo": "aumenta di due per ogni slot di livello superiore al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    528.4,
+    282.3,
+    537.5
+   ],
+   "size": 6.9,
+   "testo": "Ń-",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    541.6,
+    156.1,
+    552.9
+   ],
+   "size": 11.2,
+   "testo": "CORONA DIFOLLIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    553.1,
+    272.7,
+    563.5
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi2° livello (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    568.5,
+    145.7,
+    578.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    579.6,
+    118.4,
+    589.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    590.6,
+    120.6,
+    600.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    601.5,
+    207.2,
+    611.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    618.0,
+    274.7,
+    628.6
+   ],
+   "size": 8.8,
+   "testo": "Una creatura entro gittata e che l'incantatore è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    629.0,
+    263.9,
+    639.6
+   ],
+   "size": 8.8,
+   "testo": "di vedere deve superare un tiro salvezza su Saggezza,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    640.0,
+    272.1,
+    650.6
+   ],
+   "size": 8.8,
+   "testo": "altrimenti diventa affascinato per la durata dell'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    651.0,
+    273.7,
+    661.6
+   ],
+   "size": 8.8,
+   "testo": "simo. La creatura supera automaticamente il tiro se non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    662.0,
+    115.6,
+    672.6
+   ],
+   "size": 8.8,
+   "testo": "è un umanoide.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    672.9,
+    267.7,
+    683.5
+   ],
+   "size": 8.8,
+   "testo": "Una corona spettrale appare sulla testa del bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    683.9,
+    267.3,
+    694.5
+   ],
+   "size": 8.8,
+   "testo": "affascinato, che deve usare la sua azione prima di muo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    695.0,
+    270.1,
+    705.5
+   ],
+   "size": 8.8,
+   "testo": "versi in ognuno dei suoi turni per effettuare un attacco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    363.7,
+    507.4,
+    374.3
+   ],
+   "size": 8.8,
+   "testo": "in mischia contro una creatura diversa da se stesso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    374.7,
+    519.8,
+    385.3
+   ],
+   "size": 8.8,
+   "testo": "e scelta mentalmente dall'incantatore. Il bersaglio può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    385.8,
+    531.9,
+    396.4
+   ],
+   "size": 8.8,
+   "testo": "agire normalmente nel suo turno se l'incantatore non sce­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    396.8,
+    528.1,
+    407.3
+   ],
+   "size": 8.8,
+   "testo": "glie alcuna creatura o se nessuna creatura si trova entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    407.9,
+    524.8,
+    418.5
+   ],
+   "size": 8.8,
+   "testo": "la sua portata, e ripeterà il tiro salvezza alla fine di ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    418.9,
+    492.3,
+    429.4
+   ],
+   "size": 8.8,
+   "testo": "suo turno. Se lo supera, l'incantesimo svanisce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    429.9,
+    509.0,
+    440.5
+   ],
+   "size": 8.8,
+   "testo": "Nei turni successivi, l'incantatore deve effettuare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    440.8,
+    532.4,
+    451.4
+   ],
+   "size": 8.8,
+   "testo": "l'azione di Magia per mantenere il controllo sul bersaglio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    451.8,
+    403.7,
+    462.4
+   ],
+   "size": 8.8,
+   "testo": "o l'incantesimo termina.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    486.6,
+    380.0,
+    497.9
+   ],
+   "size": 11.2,
+   "testo": "COSTRIZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    498.0,
+    517.6,
+    508.6
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi5° livello (bardo, chierico, druido, mago,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    510.0,
+    342.6,
+    519.4
+   ],
+   "size": 8.6,
+   "testo": "paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    524.7,
+    407.0,
+    534.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    535.7,
+    370.7,
+    545.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    546.7,
+    364.7,
+    556.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    557.6,
+    373.0,
+    567.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 30 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    573.9,
+    524.0,
+    584.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore impartisce un comando verbale a una cre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    584.9,
+    527.2,
+    595.5
+   ],
+   "size": 8.8,
+   "testo": "atura che è in grado di vedere entro gittata, ordinandole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    595.9,
+    529.4,
+    606.5
+   ],
+   "size": 8.8,
+   "testo": "di compiere un servizio di qualche tipo o ad astenersi dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    607.0,
+    518.2,
+    617.6
+   ],
+   "size": 8.8,
+   "testo": "compiere un'azione o un'attività, come da lui stabilito.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    618.0,
+    523.8,
+    628.6
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio deve superare un tiro salvezza su Saggezza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    629.1,
+    523.1,
+    639.6
+   ],
+   "size": 8.8,
+   "testo": "altrimenti rimane affascinato per la durata dell'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    640.0,
+    523.6,
+    650.6
+   ],
+   "size": 8.8,
+   "testo": "simo. Il bersaglio supera automaticamente il tiro se non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    651.1,
+    522.1,
+    661.7
+   ],
+   "size": 8.8,
+   "testo": "è in grado di comprendere il comando dell'incantatore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    662.0,
+    519.9,
+    672.6
+   ],
+   "size": 8.8,
+   "testo": "Mentre è affascinata, la creatura subisce SdlO danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    673.0,
+    519.8,
+    683.6
+   ],
+   "size": 8.8,
+   "testo": "psichici se agisce in maniera direttamente contraria al",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    684.0,
+    527.6,
+    694.6
+   ],
+   "size": 8.8,
+   "testo": "comando dell'incantatore, subendo questi danni non più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    695.0,
+    393.3,
+    705.6
+   ],
+   "size": 8.8,
+   "testo": "di una volta al giorno.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

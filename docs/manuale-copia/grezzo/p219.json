@@ -1,0 +1,307 @@
+{
+ "pagina_pdf": 219,
+ "pagina_stampata": 216,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "216 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [
+  [
+   33,
+   55,
+   540,
+   727
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    49.6,
+    38.7,
+    96.8,
+    55.3
+   ],
+   "size": 13.0,
+   "testo": "ARMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    78.9,
+    236.0,
+    92.0
+   ],
+   "size": 9.7,
+   "testo": "ARMI DA MISCHIA SEMPLICI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    207.6,
+    121.2,
+    242.4,
+    127.9
+   ],
+   "size": 5.4,
+   "testo": "FALCETTO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    207.6,
+    129.9,
+    224.5,
+    139.0
+   ],
+   "size": 7.0,
+   "testo": "1 MO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.9,
+    158.6,
+    140.3,
+    165.5
+   ],
+   "size": 5.4,
+   "testo": "ASCIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.9,
+    167.3,
+    137.1,
+    176.3
+   ],
+   "size": 7.0,
+   "testo": "5 MO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    149.1,
+    394.8,
+    214.0,
+    401.4
+   ],
+   "size": 5.4,
+   "testo": "BASTONE FERRATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    149.4,
+    404.9,
+    166.2,
+    412.1
+   ],
+   "size": 5.4,
+   "testo": "2 MA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    229.3,
+    375.6,
+    275.6,
+    382.3
+   ],
+   "size": 5.4,
+   "testo": "GIAVELLOTTO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    229.6,
+    384.3,
+    246.7,
+    393.3
+   ],
+   "size": 7.0,
+   "testo": "5 MA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.7,
+    492.8,
+    235.4,
+    505.9
+   ],
+   "size": 9.7,
+   "testo": "ARMI A DISTANZA SEMPLICI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    356.6,
+    326.3,
+    363.2
+   ],
+   "size": 5.4,
+   "testo": "LANCIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.6,
+    365.4,
+    317.2,
+    374.4
+   ],
+   "size": 7.0,
+   "testo": "1 MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    369.4,
+    176.8,
+    406.2,
+    183.5
+   ],
+   "size": 5.4,
+   "testo": "MARTELLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    369.3,
+    186.8,
+    400.9,
+    193.5
+   ],
+   "size": 5.4,
+   "testo": "LEGGERO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    369.3,
+    196.8,
+    387.4,
+    203.5
+   ],
+   "size": 5.4,
+   "testo": "2 MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.2,
+    337.6,
+    390.0,
+    344.3
+   ],
+   "size": 5.4,
+   "testo": "MA1.2A",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.9,
+    346.4,
+    383.6,
+    355.4
+   ],
+   "size": 7.0,
+   "testo": "5 MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.8,
+    515.4,
+    467.5,
+    572.1
+   ],
+   "size": 58.0,
+   "testo": "~",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    360.7,
+    556.3,
+    379.0,
+    565.4
+   ],
+   "size": 7.0,
+   "testo": "5 MR",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.5,
+    318.5,
+    462.9,
+    325.2
+   ],
+   "size": 5.4,
+   "testo": "PUGNALE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    430.4,
+    328.7,
+    448.3,
+    335.4
+   ],
+   "size": 5.4,
+   "testo": "2 MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.6,
+    414.3,
+    510.3,
+    421.0
+   ],
+   "size": 5.4,
+   "testo": "RANDELLO PESANTE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    441.5,
+    424.2,
+    458.7,
+    430.9
+   ],
+   "size": 5.4,
+   "testo": "2 MA",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

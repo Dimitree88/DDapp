@@ -1,0 +1,715 @@
+{
+ "pagina_pdf": 68,
+ "pagina_stampata": 65,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   297,
+   -1,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.1,
+    36.3,
+    280.9,
+    46.8
+   ],
+   "size": 8.8,
+   "testo": "questo beneficio con qualsiasi creatura entro 1,5 metri da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    47.3,
+    286.5,
+    57.9
+   ],
+   "size": 8.8,
+   "testo": "sé che stia effettuando lo stesso tiro salvezza su Destrezza.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    58.3,
+    273.6,
+    68.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio non può utilizzare questo privilegio se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    69.4,
+    114.2,
+    80.0
+   ],
+   "size": 8.8,
+   "testo": "è incapacitato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    89.4,
+    203.3,
+    102.5
+   ],
+   "size": 9.7,
+   "testo": "COLLEGIO DEL FASCINO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    106.9,
+    171.2,
+    116.2
+   ],
+   "size": 8.6,
+   "testo": "Tessi l'ammaliante magiafatata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    120.5,
+    276.7,
+    131.1
+   ],
+   "size": 8.8,
+   "testo": "Il Collegio del Fascino trae le sue origini dall'ammaliante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    131.5,
+    285.5,
+    142.1
+   ],
+   "size": 8.8,
+   "testo": "magia della Selva Fatata. I bardi che studiano questa magia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    142.5,
+    267.5,
+    153.1
+   ],
+   "size": 8.8,
+   "testo": "intrecciano fili di bellezza e terrore nelle loro canzoni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    153.5,
+    282.0,
+    164.1
+   ],
+   "size": 8.8,
+   "testo": "e storie, e i più potenti tra loro riescono ad ammantarsi di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    164.5,
+    278.0,
+    175.1
+   ],
+   "size": 8.8,
+   "testo": "una maestosità ultraterrena. Le loro esibizioni suscitano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    175.6,
+    267.9,
+    186.2
+   ],
+   "size": 8.8,
+   "testo": "la malinconica nostalgia di un'innocenza dimenticata,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    186.6,
+    274.7,
+    197.2
+   ],
+   "size": 8.8,
+   "testo": "evocano memorie inconsce di paure del passato e fanno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    197.6,
+    277.1,
+    208.2
+   ],
+   "size": 8.8,
+   "testo": "leva sulle emozionidegli ascoltatori, persino dei più duri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    208.6,
+    91.8,
+    219.2
+   ],
+   "size": 8.8,
+   "testo": "di cuore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    229.1,
+    231.9,
+    240.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: MAGIA AMMALIANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    240.5,
+    266.4,
+    251.0
+   ],
+   "size": 8.8,
+   "testo": "Gli incantesimi charme supersone e immagine speculare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    251.4,
+    192.9,
+    262.0
+   ],
+   "size": 8.8,
+   "testo": "sono sempre considerati preparati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    262.5,
+    267.3,
+    273.1
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, subito dopo aver lanciato un incantesimo di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    273.6,
+    270.7,
+    284.1
+   ],
+   "size": 8.8,
+   "testo": "ammaliamento o illusione utilizzando uno slot incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    284.5,
+    275.4,
+    295.1
+   ],
+   "size": 8.8,
+   "testo": "simo, il bardo può far sì che una creatura entro 18 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    295.5,
+    273.0,
+    306.1
+   ],
+   "size": 8.8,
+   "testo": "da sé e nel suo campo visivo effettui un tiro salvezza su",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    306.6,
+    274.9,
+    317.1
+   ],
+   "size": 8.8,
+   "testo": "Saggezza contro la sua CD del tiro salvezza sull'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    317.5,
+    278.5,
+    328.1
+   ],
+   "size": 8.8,
+   "testo": "simo. Se lo fallisce, il bersaglio è affascinato e spaventato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    328.4,
+    281.1,
+    339.0
+   ],
+   "size": 8.8,
+   "testo": "(a scelta del bardo) per 1 minuto e ripeterà il tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    339.5,
+    281.1,
+    350.1
+   ],
+   "size": 8.8,
+   "testo": "alla fine di ogni suo turno. Se lo supera, l'effetto svanisce.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    350.4,
+    270.2,
+    361.0
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver utilizzato questo beneficio, il personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    361.4,
+    278.3,
+    372.0
+   ],
+   "size": 8.8,
+   "testo": "non può riutilizzarlo prima di aver completato un riposo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    372.4,
+    286.3,
+    383.0
+   ],
+   "size": 8.8,
+   "testo": "lungo. In alternativa, può ripristinarne l'uso spendendo un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    383.4,
+    281.0,
+    394.0
+   ],
+   "size": 8.8,
+   "testo": "utilizzo di Ispirazione Bardica (nessuna azione richiesta).",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    403.9,
+    243.2,
+    415.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: MANTO DI ISPIRAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    415.3,
+    273.5,
+    425.9
+   ],
+   "size": 8.8,
+   "testo": "Il bardo può tessere la magia fatata in una canzone o in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    426.3,
+    276.4,
+    436.9
+   ],
+   "size": 8.8,
+   "testo": "una danza che colma i compagni di vigore. Come azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    437.3,
+    272.3,
+    447.8
+   ],
+   "size": 8.8,
+   "testo": "bonus, può spendere un utilizzo di Ispirazione Bardica,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    448.2,
+    265.1,
+    458.8
+   ],
+   "size": 8.8,
+   "testo": "tirando un dado di Ispirazione Bardica. Quando lo fa,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    459.2,
+    271.0,
+    469.8
+   ],
+   "size": 8.8,
+   "testo": "il bardo sceglie delle creature entro 18 metri da sé, fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    470.2,
+    282.5,
+    480.8
+   ],
+   "size": 8.8,
+   "testo": "a un numero pari al suo modificatore di Carisma (minimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    481.2,
+    271.8,
+    491.8
+   ],
+   "size": 8.8,
+   "testo": "di una creatura). Ognuna di queste creature ottiene un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    492.2,
+    261.0,
+    502.8
+   ],
+   "size": 8.8,
+   "testo": "numero di punti ferita temporanei pari al doppio del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    503.3,
+    272.3,
+    513.8
+   ],
+   "size": 8.8,
+   "testo": "risultato del dado di Ispirazione Bardica, e può usare la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    514.2,
+    266.3,
+    524.8
+   ],
+   "size": 8.8,
+   "testo": "sua reazione per muoversi fino alla sua velocità senza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    525.3,
+    193.2,
+    535.8
+   ],
+   "size": 8.8,
+   "testo": "provocare attacchi di opportunità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    545.7,
+    244.2,
+    557.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: MANTO DI MAESTOSITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    557.0,
+    275.1,
+    567.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo comando è sempre considerato preparato.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    568.0,
+    261.3,
+    578.6
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il bardo lancia comando senza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    579.0,
+    265.3,
+    589.6
+   ],
+   "size": 8.8,
+   "testo": "spendere uno slot incantesimo. Inoltre, può assumere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    590.0,
+    257.8,
+    600.6
+   ],
+   "size": 8.8,
+   "testo": "sembianze ultraterrene per 1 minuto o finché la sua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    601.0,
+    267.9,
+    611.6
+   ],
+   "size": 8.8,
+   "testo": "concentrazione non termina. Per tutta la permanenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    612.2,
+    265.3,
+    622.7
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, il bardo può lanciare comando come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    623.1,
+    255.8,
+    633.7
+   ],
+   "size": 8.8,
+   "testo": "azione bonus senza spendere uno slot incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    634.2,
+    280.8,
+    644.7
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura affascinata dal bardo fallisce automatica­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    645.2,
+    284.7,
+    655.8
+   ],
+   "size": 8.8,
+   "testo": "mente i tiri salvezza contro il comando lanciato con questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    656.2,
+    97.6,
+    666.7
+   ],
+   "size": 8.8,
+   "testo": "privilegio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    667.1,
+    272.5,
+    677.7
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver utilizzato questo privilegio, il personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    678.1,
+    276.0,
+    688.7
+   ],
+   "size": 8.8,
+   "testo": "non può riutilizzarlo prima di aver completato un riposo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    689.1,
+    284.5,
+    699.7
+   ],
+   "size": 8.8,
+   "testo": "lungo. Tuttavia, è possibile ripristinarne l'uso consumando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    697.9,
+    269.0,
+    710.7
+   ],
+   "size": 8.8,
+   "testo": "uno slot incantesimo di 3° livello o superiore (nessuna",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    711.0,
+    124.5,
+    721.6
+   ],
+   "size": 8.8,
+   "testo": "azione richiesta).",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

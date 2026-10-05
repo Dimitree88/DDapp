@@ -1,0 +1,2191 @@
+{
+ "pagina_pdf": 42,
+ "pagina_stampata": 39,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 39",
+ "immagini": [
+  [
+   25,
+   530,
+   96,
+   628
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    84.0,
+    40.9,
+    119.0,
+    51.5
+   ],
+   "size": 10.6,
+   "testo": "FORZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    87.9,
+    56.7,
+    142.8,
+    65.9
+   ],
+   "size": 8.2,
+   "testo": "1d4 For. alta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    70.7,
+    154.0,
+    80.3
+   ],
+   "size": 8.4,
+   "testo": "Muscoloso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.9,
+    85.3,
+    98.9,
+    95.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    85.2,
+    152.2,
+    94.8
+   ],
+   "size": 8.4,
+   "testo": "Nerboruto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    99.8,
+    98.5,
+    109.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    99.7,
+    149.5,
+    109.4
+   ],
+   "size": 8.4,
+   "testo": "Protettivo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.5,
+    114.4,
+    98.8,
+    124.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    114.3,
+    138.9,
+    123.9
+   ],
+   "size": 8.4,
+   "testo": "Diretto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    83.9,
+    138.5,
+    142.8,
+    149.2
+   ],
+   "size": 10.6,
+   "testo": "DESTREZZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    88.2,
+    154.5,
+    103.5,
+    163.7
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.8,
+    154.5,
+    145.8,
+    163.7
+   ],
+   "size": 8.2,
+   "testo": "Des. alta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.8,
+    168.5,
+    131.6,
+    178.1
+   ],
+   "size": 8.4,
+   "testo": "Agile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.9,
+    183.0,
+    98.9,
+    192.6
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    183.0,
+    148.9,
+    192.6
+   ],
+   "size": 8.4,
+   "testo": "Dinamico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    197.8,
+    98.5,
+    207.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    197.8,
+    149.5,
+    207.4
+   ],
+   "size": 8.4,
+   "testo": "Irrequieto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.5,
+    212.1,
+    98.8,
+    221.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.2,
+    212.1,
+    152.1,
+    221.8
+   ],
+   "size": 8.4,
+   "testo": "Composto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    83.3,
+    236.4,
+    160.2,
+    247.1
+   ],
+   "size": 10.6,
+   "testo": "COSTITUZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    88.3,
+    252.2,
+    103.5,
+    261.4
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.3,
+    252.2,
+    144.9,
+    261.4
+   ],
+   "size": 8.2,
+   "testo": "Cos. alta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    266.3,
+    144.7,
+    275.9
+   ],
+   "size": 8.4,
+   "testo": "Energico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.9,
+    280.9,
+    98.9,
+    290.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.8,
+    280.9,
+    143.7,
+    290.5
+   ],
+   "size": 8.4,
+   "testo": "Robusto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    295.5,
+    98.5,
+    305.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.0,
+    295.5,
+    146.2,
+    305.1
+   ],
+   "size": 8.4,
+   "testo": "Vigoroso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.5,
+    310.0,
+    98.8,
+    319.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    310.1,
+    151.6,
+    319.7
+   ],
+   "size": 8.4,
+   "testo": "Resistente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    84.0,
+    334.1,
+    155.0,
+    344.8
+   ],
+   "size": 10.6,
+   "testo": "INTELLIGENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    88.3,
+    349.9,
+    103.5,
+    359.1
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.9,
+    349.9,
+    141.2,
+    359.1
+   ],
+   "size": 8.2,
+   "testo": "Int. alta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    363.8,
+    138.6,
+    373.5
+   ],
+   "size": 8.4,
+   "testo": "Deciso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.9,
+    378.5,
+    98.9,
+    388.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    378.5,
+    136.8,
+    388.1
+   ],
+   "size": 8.4,
+   "testo": "Logico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    393.1,
+    98.5,
+    402.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    393.0,
+    139.8,
+    402.7
+   ],
+   "size": 8.4,
+   "testo": "Istruito",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.5,
+    407.6,
+    98.8,
+    417.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.2,
+    407.7,
+    141.8,
+    417.4
+   ],
+   "size": 8.4,
+   "testo": "Curioso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    83.4,
+    431.8,
+    137.8,
+    442.5
+   ],
+   "size": 10.6,
+   "testo": "SAGGEZZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    88.3,
+    447.6,
+    103.5,
+    456.9
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.6,
+    447.6,
+    144.4,
+    456.9
+   ],
+   "size": 8.2,
+   "testo": "Sag. alta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.8,
+    461.7,
+    137.5,
+    471.3
+   ],
+   "size": 8.4,
+   "testo": "Pacato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.9,
+    476.2,
+    98.9,
+    485.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.9,
+    476.1,
+    140.7,
+    485.8
+   ],
+   "size": 8.4,
+   "testo": "Attento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    490.8,
+    98.5,
+    500.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.8,
+    490.8,
+    133.7,
+    500.4
+   ],
+   "size": 8.4,
+   "testo": "Vigile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.5,
+    505.3,
+    98.8,
+    515.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.2,
+    505.4,
+    134.1,
+    515.0
+   ],
+   "size": 8.4,
+   "testo": "Cauto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.1,
+    56.8,
+    205.3,
+    66.0
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.8,
+    56.8,
+    252.5,
+    66.0
+   ],
+   "size": 8.2,
+   "testo": "For. bassa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    212.6,
+    70.7,
+    241.7,
+    80.3
+   ],
+   "size": 8.4,
+   "testo": "Debole",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.7,
+    85.3,
+    200.7,
+    94.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    85.2,
+    232.3,
+    94.9
+   ],
+   "size": 8.4,
+   "testo": "Esile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    194.8,
+    99.9,
+    200.3,
+    109.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    99.9,
+    256.0,
+    109.5
+   ],
+   "size": 8.4,
+   "testo": "Impacciato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.3,
+    114.4,
+    200.5,
+    124.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    114.3,
+    247.1,
+    123.9
+   ],
+   "size": 8.4,
+   "testo": "Indiretto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    190.6,
+    154.5,
+    205.4,
+    163.7
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.8,
+    154.5,
+    255.4,
+    163.7
+   ],
+   "size": 8.2,
+   "testo": "Des. bassa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    211.7,
+    168.5,
+    232.0,
+    178.1
+   ],
+   "size": 8.4,
+   "testo": "Teso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    194.8,
+    183.0,
+    200.8,
+    192.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.1,
+    183.0,
+    235.2,
+    192.7
+   ],
+   "size": 8.4,
+   "testo": "Goffo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    194.9,
+    197.7,
+    200.4,
+    207.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    211.7,
+    197.7,
+    250.6,
+    207.3
+   ],
+   "size": 8.4,
+   "testo": "Titubante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.4,
+    212.4,
+    200.7,
+    222.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.7,
+    212.1,
+    241.3,
+    221.7
+   ],
+   "size": 8.4,
+   "testo": "Incerto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.1,
+    252.2,
+    254.6,
+    261.4
+   ],
+   "size": 8.2,
+   "testo": "1d4 Cos. bassa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    212.1,
+    266.3,
+    241.3,
+    275.9
+   ],
+   "size": 8.4,
+   "testo": "Gracile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    194.7,
+    280.9,
+    200.7,
+    290.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    280.9,
+    275.4,
+    290.5
+   ],
+   "size": 8.4,
+   "testo": "Impressionabile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.8,
+    295.6,
+    200.3,
+    305.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    295.4,
+    250.5,
+    305.0
+   ],
+   "size": 8.4,
+   "testo": "Indolente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.3,
+    310.0,
+    200.5,
+    319.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    310.0,
+    240.0,
+    319.7
+   ],
+   "size": 8.4,
+   "testo": "Fragile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.1,
+    350.0,
+    205.3,
+    359.2
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.8,
+    350.0,
+    251.0,
+    359.2
+   ],
+   "size": 8.2,
+   "testo": "Int. bassa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.9,
+    363.8,
+    199.3,
+    373.4
+   ],
+   "size": 8.4,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    363.8,
+    237.5,
+    373.4
+   ],
+   "size": 8.4,
+   "testo": "Rozzo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    194.7,
+    378.5,
+    200.7,
+    388.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    378.5,
+    241.3,
+    388.1
+   ],
+   "size": 8.4,
+   "testo": "Illogico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    194.8,
+    393.0,
+    200.3,
+    402.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    194.3,
+    407.7,
+    200.5,
+    417.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    393.0,
+    250.5,
+    402.7
+   ],
+   "size": 8.4,
+   "testo": "Ignorante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    212.6,
+    407.7,
+    240.5,
+    417.4
+   ],
+   "size": 8.4,
+   "testo": "Frivolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.1,
+    447.6,
+    205.3,
+    456.9
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.3,
+    447.6,
+    254.1,
+    456.9
+   ],
+   "size": 8.2,
+   "testo": "Sag. bassa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    211.7,
+    461.6,
+    252.4,
+    471.2
+   ],
+   "size": 8.4,
+   "testo": "Avventato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.7,
+    476.2,
+    200.7,
+    485.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    476.1,
+    248.1,
+    485.8
+   ],
+   "size": 8.4,
+   "testo": "Distratto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.8,
+    490.7,
+    200.3,
+    500.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    490.8,
+    259.5,
+    500.4
+   ],
+   "size": 8.4,
+   "testo": "Noncurante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.3,
+    505.5,
+    200.5,
+    515.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    505.5,
+    246.0,
+    515.1
+   ],
+   "size": 8.4,
+   "testo": "Ingenuo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    25.6,
+    530.5,
+    84.1,
+    575.4
+   ],
+   "size": 44.9,
+   "testo": "•",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    83.3,
+    529.6,
+    130.9,
+    540.3
+   ],
+   "size": 10.6,
+   "testo": "CARISMA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    88.3,
+    545.4,
+    143.3,
+    554.7
+   ],
+   "size": 8.2,
+   "testo": "1d4 Car. alto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.9,
+    559.3,
+    159.0,
+    568.9
+   ],
+   "size": 8.4,
+   "testo": "Affascinante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    573.9,
+    99.0,
+    583.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.0,
+    573.9,
+    153.6,
+    583.5
+   ],
+   "size": 8.4,
+   "testo": "Autorevole",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.1,
+    545.5,
+    205.3,
+    554.7
+   ],
+   "size": 8.2,
+   "testo": "1d4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.3,
+    545.5,
+    253.4,
+    554.7
+   ],
+   "size": 8.2,
+   "testo": "Car. basso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    212.6,
+    559.3,
+    245.1,
+    568.9
+   ],
+   "size": 8.4,
+   "testo": "Pedante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.7,
+    573.9,
+    200.7,
+    583.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    573.9,
+    281.2,
+    583.6
+   ],
+   "size": 8.4,
+   "testo": "Privo di umorismo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    704.5,
+    65.6,
+    710.8
+   ],
+   "size": 4.9,
+   "testo": "..",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.1,
+    588.5,
+    98.7,
+    598.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.7,
+    603.0,
+    98.9,
+    612.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.8,
+    588.5,
+    152.3,
+    598.1
+   ],
+   "size": 8.4,
+   "testo": "Divertente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.8,
+    603.1,
+    148.6,
+    612.7
+   ],
+   "size": 8.4,
+   "testo": "Ispiratore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    194.8,
+    588.6,
+    200.3,
+    598.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.6,
+    588.4,
+    249.6,
+    598.1
+   ],
+   "size": 8.4,
+   "testo": "Riservato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.3,
+    603.1,
+    200.5,
+    612.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    212.7,
+    603.0,
+    251.9,
+    612.7
+   ],
+   "size": 8.4,
+   "testo": "Indelicato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.5,
+    634.0,
+    218.2,
+    644.0
+   ],
+   "size": 8.2,
+   "testo": "CREATURE SENZA ALLINEAMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    647.2,
+    258.4,
+    656.8
+   ],
+   "size": 8.4,
+   "testo": "La maggior parte delle creature prive di una mente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.9,
+    658.1,
+    263.4,
+    667.8
+   ],
+   "size": 8.4,
+   "testo": "razionale è anche priva di allineamento ed è definita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.8,
+    669.1,
+    255.5,
+    678.7
+   ],
+   "size": 8.4,
+   "testo": "senza allineamento. Gli squali, per esempio, sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.1,
+    680.1,
+    259.1,
+    689.7
+   ],
+   "size": 8.4,
+   "testo": "predatori feroci, ma non sono malvagi; sono senza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.7,
+    691.1,
+    117.8,
+    700.7
+   ],
+   "size": 8.4,
+   "testo": "allineamento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    273.9,
+    704.5,
+    282.8,
+    710.8
+   ],
+   "size": 4.9,
+   "testo": "..",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    33.6,
+    425.9,
+    55.1
+   ],
+   "size": 10.8,
+   "testo": "FASE 4 :SCEGLIERE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    56.1,
+    430.3,
+    69.2
+   ],
+   "size": 9.7,
+   "testo": "UN ALLINEAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    72.5,
+    529.9,
+    83.1
+   ],
+   "size": 8.8,
+   "testo": "Scegli l'allineamento del personaggio tra le opzioni sotto­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    83.5,
+    490.0,
+    94.0
+   ],
+   "size": 8.8,
+   "testo": "stanti e annotalo sulla scheda del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    94.4,
+    518.3,
+    104.9
+   ],
+   "size": 8.8,
+   "testo": "D&D presuppone che i personaggi dei giocatori non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    105.4,
+    532.2,
+    116.0
+   ],
+   "size": 8.8,
+   "testo": "siano di allineamento malvagio. Prima di creare un perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    116.4,
+    437.1,
+    127.0
+   ],
+   "size": 8.8,
+   "testo": "naggio malvagio, consulta il DM.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    136.8,
+    430.2,
+    148.2
+   ],
+   "size": 11.2,
+   "testo": "I NOVE ALLINEAMENTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    148.3,
+    518.8,
+    158.9
+   ],
+   "size": 8.8,
+   "testo": "L'allineamento di una creatura descrive a grandi linee",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    159.3,
+    527.9,
+    169.9
+   ],
+   "size": 8.8,
+   "testo": "i suoi ideali e atteggiamenti etici, ed è una combinazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    170.3,
+    533.7,
+    180.8
+   ],
+   "size": 8.8,
+   "testo": "di due fattori: il primo identifica la moralità (buona, malva­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    181.3,
+    535.8,
+    191.9
+   ],
+   "size": 8.8,
+   "testo": "gia o neutrale), mentre il secondo descrive l'atteggiamento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    192.3,
+    510.9,
+    202.9
+   ],
+   "size": 8.8,
+   "testo": "nei confronti dell'ordine (legale, caotico o neutrale).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    203.4,
+    534.7,
+    213.9
+   ],
+   "size": 8.8,
+   "testo": "I seguenti riassunti degli allineamenti descrivono il com­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    214.3,
+    527.8,
+    224.9
+   ],
+   "size": 8.8,
+   "testo": "portamento tipico delle creature a seconda dei rispettivi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    225.4,
+    533.4,
+    235.9
+   ],
+   "size": 8.8,
+   "testo": "allineamenti; sono tuttavia possibili eccezioni individuali.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    236.3,
+    522.1,
+    246.9
+   ],
+   "size": 8.8,
+   "testo": "Legale buono (LB). Le creature legali buone agiranno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    247.3,
+    521.9,
+    257.9
+   ],
+   "size": 8.8,
+   "testo": "sicuramente nel modo considerato giusto dalla società.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    258.3,
+    531.6,
+    268.9
+   ],
+   "size": 8.8,
+   "testo": "Chi combatte le ingiustizie e protegge gli innocenti senza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    269.4,
+    467.1,
+    280.0
+   ],
+   "size": 8.8,
+   "testo": "esitazione è probabilmente legale buono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    280.4,
+    529.7,
+    291.0
+   ],
+   "size": 8.8,
+   "testo": "Neutrale buono (NB). Le creature neutrali buone fanno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    291.4,
+    537.3,
+    302.0
+   ],
+   "size": 8.8,
+   "testo": "del loro meglio, agendo secondo le regole ma senza sentirsi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    302.4,
+    524.6,
+    312.9
+   ],
+   "size": 8.8,
+   "testo": "vincolate da esse. Una persona gentile che aiuta gli altri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    313.4,
+    518.3,
+    324.0
+   ],
+   "size": 8.8,
+   "testo": "in base alle necessità è probabilmente neutrale buona.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    324.4,
+    501.5,
+    334.9
+   ],
+   "size": 8.8,
+   "testo": "Caotico buono (CB). Le creature caotiche buone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    335.3,
+    519.3,
+    345.9
+   ],
+   "size": 8.8,
+   "testo": "agiscono in base ai dettami della loro coscienza, senza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    346.3,
+    525.4,
+    356.8
+   ],
+   "size": 8.8,
+   "testo": "curarsi troppo delle aspettative del prossimo. Un ribelle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    357.3,
+    521.4,
+    367.8
+   ],
+   "size": 8.8,
+   "testo": "che scaccia gli esattori delle tasse di un crudele barone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    368.2,
+    536.0,
+    378.8
+   ],
+   "size": 8.8,
+   "testo": "e usa il denaro rubato per aiutare i poveri è probabilmente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    379.3,
+    366.5,
+    389.8
+   ],
+   "size": 8.8,
+   "testo": "caotico buono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    390.3,
+    503.6,
+    400.8
+   ],
+   "size": 8.8,
+   "testo": "Legale neutrale (LN). I personaggi legali neutrali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    401.3,
+    511.8,
+    411.8
+   ],
+   "size": 8.8,
+   "testo": "agiscono in base a quanto richiesto dalla legge, dalla",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    412.4,
+    530.6,
+    423.0
+   ],
+   "size": 8.8,
+   "testo": "tradizione o dai codici personali. Chi segue una condotta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    423.3,
+    515.8,
+    433.9
+   ],
+   "size": 8.8,
+   "testo": "di vita disciplinata e non si lascia influenzare né dalle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    434.3,
+    526.5,
+    444.9
+   ],
+   "size": 8.8,
+   "testo": "richieste dei bisognosi né dalle tentazioni del male è pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    445.3,
+    414.2,
+    455.9
+   ],
+   "size": 8.8,
+   "testo": "babilmente legale neutrale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    456.3,
+    520.1,
+    466.8
+   ],
+   "size": 8.8,
+   "testo": "Neutrale (N). I personaggi neutrali puri preferiscono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    467.2,
+    534.5,
+    477.8
+   ],
+   "size": 8.8,
+   "testo": "tenersi alla larga dalle questioni morali e non si schierano,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    478.1,
+    522.2,
+    488.7
+   ],
+   "size": 8.8,
+   "testo": "facendo ciò che sembra loro la cosa migliore di volta in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    489.2,
+    537.3,
+    499.8
+   ],
+   "size": 8.8,
+   "testo": "volta. Chi si annoia con il dibattito morale è probabilmente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    500.3,
+    343.8,
+    510.8
+   ],
+   "size": 8.8,
+   "testo": "neutrale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    511.3,
+    526.0,
+    521.9
+   ],
+   "size": 8.8,
+   "testo": "Caotico neutrale (CN). Le creature caotiche neutrali si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    522.3,
+    525.4,
+    532.9
+   ],
+   "size": 8.8,
+   "testo": "lasciano guidare dai loro capricci e antepongono la loro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    533.3,
+    527.3,
+    543.9
+   ],
+   "size": 8.8,
+   "testo": "libertà personale a ogni altra cosa. Un furfante che vaga",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    544.3,
+    533.2,
+    554.9
+   ],
+   "size": 8.8,
+   "testo": "per la terra vivendo di espedienti è probabilmente caotico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    555.3,
+    344.2,
+    565.9
+   ],
+   "size": 8.8,
+   "testo": "neutrale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    566.2,
+    517.4,
+    576.8
+   ],
+   "size": 8.8,
+   "testo": "Legale malvagio (LM). Le creature legali malvagie si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    577.2,
+    525.7,
+    587.8
+   ],
+   "size": 8.8,
+   "testo": "impossessano metodicamente di ciò che vogliono, entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    588.2,
+    521.2,
+    598.8
+   ],
+   "size": 8.8,
+   "testo": "i limiti di un codice di tradizioni, di fedeltà o di ordine.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    599.2,
+    513.8,
+    609.8
+   ],
+   "size": 8.8,
+   "testo": "Un aristocratico che sfrutta i cittadini mentre trama",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    610.4,
+    486.5,
+    620.9
+   ],
+   "size": 8.8,
+   "testo": "per il potere è probabilmente legale malvagio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    621.4,
+    520.4,
+    632.0
+   ],
+   "size": 8.8,
+   "testo": "Neutrale malvagio (NM). Neutrale malvagio è l'alline­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    632.4,
+    523.8,
+    642.9
+   ],
+   "size": 8.8,
+   "testo": "amento di coloro che non si preoccupano dei danni che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    643.4,
+    534.5,
+    654.0
+   ],
+   "size": 8.8,
+   "testo": "causano nel perseguire i propri desideri. Un criminale che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    654.4,
+    535.6,
+    665.0
+   ],
+   "size": 8.8,
+   "testo": "rapina e uccide a suo piacimento è probabilmente neutrale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    665.3,
+    347.2,
+    675.9
+   ],
+   "size": 8.8,
+   "testo": "malvagio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    676.3,
+    526.1,
+    686.9
+   ],
+   "size": 8.8,
+   "testo": "Caotico malvagio (CM). Le creature caotiche malvagie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    687.3,
+    537.7,
+    697.9
+   ],
+   "size": 8.8,
+   "testo": "agiscono con violenza arbitraria, spronate dall'odio o dalla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    698.3,
+    529.9,
+    708.9
+   ],
+   "size": 8.8,
+   "testo": "sete di sangue. Un cattivo che persegue piani di vendetta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    709.3,
+    496.4,
+    719.9
+   ],
+   "size": 8.8,
+   "testo": "e distruzione è probabilmente caotico malvagio.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

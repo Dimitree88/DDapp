@@ -1,0 +1,619 @@
+{
+ "pagina_pdf": 265,
+ "pagina_stampata": 262,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "262 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   440
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    51.6,
+    407.0,
+    123.1,
+    417.1
+   ],
+   "size": 8.1,
+   "testo": "CURA FERITE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    418.7,
+    262.0,
+    429.0
+   ],
+   "size": 8.1,
+   "testo": "Abiurazione di 1° livello (bardo, chierico, druido, paladino,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    429.7,
+    79.2,
+    439.8
+   ],
+   "size": 8.1,
+   "testo": "ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    445.7,
+    141.6,
+    454.5
+   ],
+   "size": 6.6,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    456.7,
+    114.9,
+    465.5
+   ],
+   "size": 6.6,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    467.7,
+    117.1,
+    476.4
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    478.7,
+    122.4,
+    487.4
+   ],
+   "size": 6.6,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    496.0,
+    249.2,
+    504.5
+   ],
+   "size": 6.4,
+   "testo": "Una creatura toccata dall'incantatore recupera un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    507.1,
+    254.5,
+    515.6
+   ],
+   "size": 6.4,
+   "testo": "numero di puntiferita pari a 2d8 più il modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    518.2,
+    238.9,
+    526.7
+   ],
+   "size": 6.4,
+   "testo": "di caratteristica da incantatore dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    529.0,
+    253.6,
+    537.7
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    540.1,
+    255.7,
+    548.6
+   ],
+   "size": 6.4,
+   "testo": "La guarigione aumenta di 2d8 per ogni slot di livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.1,
+    551.1,
+    108.8,
+    559.6
+   ],
+   "size": 6.4,
+   "testo": "superiore al 1°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    583.7,
+    175.9,
+    593.9
+   ],
+   "size": 8.1,
+   "testo": "CURA FERITE DI MASSA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    595.4,
+    228.3,
+    605.7
+   ],
+   "size": 8.1,
+   "testo": "Abiurazione di 5° livello (bardo, chierico, druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    611.6,
+    141.3,
+    620.4
+   ],
+   "size": 6.6,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    622.6,
+    114.4,
+    631.4
+   ],
+   "size": 6.6,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    633.7,
+    116.9,
+    642.4
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    644.7,
+    122.2,
+    653.4
+   ],
+   "size": 6.6,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    662.1,
+    263.8,
+    670.6
+   ],
+   "size": 6.4,
+   "testo": "Un'ondata di energia curativa si sprigiona da un punto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    673.0,
+    250.0,
+    681.7
+   ],
+   "size": 6.6,
+   "testo": "entro gittata che l'incantatore è in grado di vedere.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    684.0,
+    252.5,
+    692.5
+   ],
+   "size": 6.4,
+   "testo": "L'incantatore sceglie fino a sei creature in una sfera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    694.9,
+    254.0,
+    703.7
+   ],
+   "size": 6.6,
+   "testo": "di 9 metri di raggio centrata su quel punto: ogni ber­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    706.0,
+    260.5,
+    714.5
+   ],
+   "size": 6.4,
+   "testo": "saglio recupera una quantità di punti ferita pari a 5d8",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    393.5,
+    499.8,
+    402.1
+   ],
+   "size": 6.4,
+   "testo": "più il modificatore di caratteristica da incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    404.6,
+    368.6,
+    413.2
+   ],
+   "size": 6.4,
+   "testo": "dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    415.5,
+    506.4,
+    424.3
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    426.6,
+    506.7,
+    435.2
+   ],
+   "size": 6.4,
+   "testo": "La guarigione aumenta di 1d8 per ogni slot di livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    437.6,
+    362.9,
+    446.2
+   ],
+   "size": 6.4,
+   "testo": "superiore al 5°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    470.4,
+    465.0,
+    480.6
+   ],
+   "size": 8.1,
+   "testo": "DANZA IRRESISTIBILE DI OTTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    482.0,
+    454.6,
+    492.3
+   ],
+   "size": 8.1,
+   "testo": "Ammaliamento di 6° livello (bardo, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    498.1,
+    394.2,
+    506.8
+   ],
+   "size": 6.6,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    509.1,
+    363.0,
+    517.9
+   ],
+   "size": 6.6,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    520.2,
+    361.1,
+    528.9
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    531.1,
+    456.2,
+    539.9
+   ],
+   "size": 6.6,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    548.5,
+    517.0,
+    557.2
+   ],
+   "size": 6.6,
+   "testo": "Una creatura entro gittata che l'incantatore è in grado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    559.6,
+    516.5,
+    568.1
+   ],
+   "size": 6.4,
+   "testo": "di vedere deve effettuare un tiro salvezza su Saggezza.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    570.5,
+    505.2,
+    579.0
+   ],
+   "size": 6.4,
+   "testo": "In caso di successo, il bersaglio danza comicamente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    581.5,
+    510.6,
+    590.0
+   ],
+   "size": 6.4,
+   "testo": "fino al termine del proprio turno successivo, durante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.1,
+    592.5,
+    523.0,
+    601.0
+   ],
+   "size": 6.4,
+   "testo": "il quale deve spendere tutto il suo movimento danzando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    603.5,
+    341.3,
+    612.0
+   ],
+   "size": 6.4,
+   "testo": "sul posto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    614.6,
+    499.3,
+    623.1
+   ],
+   "size": 6.4,
+   "testo": "Se il bersaglio fallisce il tiro, diventa affascinato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    625.5,
+    507.2,
+    634.3
+   ],
+   "size": 6.6,
+   "testo": "per la durata dell'incantesimo. Mentre è affascinato,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.1,
+    636.7,
+    516.4,
+    645.2
+   ],
+   "size": 6.4,
+   "testo": "il bersaglio danza comicamente, deve spendere tutto il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    647.6,
+    519.9,
+    656.1
+   ],
+   "size": 6.4,
+   "testo": "suo movimento danzando sul posto, subisce svantaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    658.6,
+    524.9,
+    667.1
+   ],
+   "size": 6.4,
+   "testo": "ai tiri salvezza su Destrezza e ai tiri per colpire, e le altre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    669.6,
+    532.7,
+    678.1
+   ],
+   "size": 6.4,
+   "testo": "creature dispongono di vantaggio ai tiri per colpire contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    680.6,
+    513.4,
+    689.1
+   ],
+   "size": 6.4,
+   "testo": "di esso. In ognuno dei suoi turni, il bersaglio può effet­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    691.5,
+    528.7,
+    700.1
+   ],
+   "size": 6.4,
+   "testo": "tuare un'azione per riprendere il controllo di sé e ripetere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.1,
+    702.5,
+    504.2,
+    711.0
+   ],
+   "size": 6.4,
+   "testo": "il tiro salvezza. Se lo supera, l'incantesimo termina.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

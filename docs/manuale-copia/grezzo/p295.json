@@ -1,0 +1,1380 @@
+{
+ "pagina_pdf": 295,
+ "pagina_stampata": 292,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "292 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    61.2,
+    35.3,
+    244.0,
+    45.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può lanciare questo incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    46.2,
+    273.5,
+    56.8
+   ],
+   "size": 8.8,
+   "testo": "attraverso oggetti solidi se il bersaglio gli è noto e sa che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    57.3,
+    265.8,
+    67.8
+   ],
+   "size": 8.8,
+   "testo": "si trova oltre la barriera. Tuttavia, l'incantesimo viene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    68.3,
+    277.5,
+    78.9
+   ],
+   "size": 8.8,
+   "testo": "bloccato da silenzio magico, una sottile lamina di piombo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    79.3,
+    216.7,
+    89.9
+   ],
+   "size": 8.8,
+   "testo": "o 30 centimetri di pietra, metallo o legno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    114.1,
+    131.4,
+    125.4
+   ],
+   "size": 11.2,
+   "testo": "METAMORFOSI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    125.5,
+    265.9,
+    136.0
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi4°livello (bardo, druido, mago, stregone)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    141.1,
+    144.7,
+    150.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    152.1,
+    117.1,
+    161.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    163.2,
+    223.3,
+    172.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (il bozzolo di un bruco)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    174.2,
+    191.3,
+    183.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    190.4,
+    276.4,
+    201.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tenta di trasformare in bestia una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    201.5,
+    266.4,
+    212.0
+   ],
+   "size": 8.8,
+   "testo": "entro gittata che è in grado di vedere. Il bersaglio deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    212.5,
+    277.2,
+    223.0
+   ],
+   "size": 8.8,
+   "testo": "superare un tiro salvezza su Saggezza, altrimenti assume",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    223.4,
+    259.6,
+    234.0
+   ],
+   "size": 8.8,
+   "testo": "la forma di una bestia per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    234.4,
+    278.5,
+    245.0
+   ],
+   "size": 8.8,
+   "testo": "La forma in cui muta può essere quella di qualsiasi bestia,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    245.4,
+    256.5,
+    256.0
+   ],
+   "size": 8.8,
+   "testo": "a scelta dell'incantatore, il cui grado di sfida sia pari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    256.4,
+    278.5,
+    267.0
+   ],
+   "size": 8.8,
+   "testo": "o inferiore a quello del bersaglio (o al livello del bersaglio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    267.4,
+    270.0,
+    277.9
+   ],
+   "size": 8.8,
+   "testo": "se esso non possiede un grado di sfida). Le statistiche di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    278.5,
+    272.0,
+    289.1
+   ],
+   "size": 8.8,
+   "testo": "gioco del bersaglio vengono sostituite dalla scheda delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    289.6,
+    271.3,
+    300.1
+   ],
+   "size": 8.8,
+   "testo": "statistiche della bestia scelta, ma il bersaglio conserva il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    300.5,
+    276.3,
+    311.1
+   ],
+   "size": 8.8,
+   "testo": "proprio allineamento, personalità, tipo di creatura, punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    311.5,
+    268.7,
+    322.1
+   ],
+   "size": 8.8,
+   "testo": "ferita e Dadi Vita. Vedi l'appendice B per un esempio di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    322.6,
+    197.8,
+    333.2
+   ],
+   "size": 8.8,
+   "testo": "scheda delle statistiche di una bestia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    333.5,
+    275.1,
+    344.1
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio guadagna un numero di punti ferita tempo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    344.5,
+    280.1,
+    355.0
+   ],
+   "size": 8.8,
+   "testo": "ranei pari ai punti ferita della forma bestiale. Questi punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    355.5,
+    254.5,
+    366.0
+   ],
+   "size": 8.8,
+   "testo": "ferita temporanei svaniscono quando l'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    366.5,
+    88.2,
+    377.1
+   ],
+   "size": 8.8,
+   "testo": "termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    377.4,
+    261.3,
+    388.0
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio è limitato alle azioni che può effettuare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    388.5,
+    265.1,
+    399.0
+   ],
+   "size": 8.8,
+   "testo": "in base alla anatomia della sua nuova forma e non può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    399.6,
+    173.3,
+    410.1
+   ],
+   "size": 8.8,
+   "testo": "parlare o lanciare incantesimi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    410.6,
+    264.3,
+    421.2
+   ],
+   "size": 8.8,
+   "testo": "L'attrezzatura del bersaglio si fonde nella sua nuova",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    421.6,
+    270.9,
+    432.1
+   ],
+   "size": 8.8,
+   "testo": "forma e la creatura non può utilizzare il suo equipaggia­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    432.5,
+    196.7,
+    443.1
+   ],
+   "size": 8.8,
+   "testo": "mento o beneficiarne in alcun modo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    467.2,
+    162.6,
+    478.6
+   ],
+   "size": 11.2,
+   "testo": "METAMORFOSI PURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    478.7,
+    235.4,
+    489.1
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazione di9° livello (bardo, mago, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    494.2,
+    144.5,
+    503.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    505.3,
+    112.4,
+    514.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    516.3,
+    273.2,
+    526.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una goccia di mercurio, una piccola",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    527.3,
+    212.4,
+    536.9
+   ],
+   "size": 8.4,
+   "testo": "quantità di resina e uno sbuffo di fumo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    538.3,
+    190.1,
+    547.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    554.5,
+    256.3,
+    565.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie una creatura o un oggetto non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    565.5,
+    274.9,
+    576.1
+   ],
+   "size": 8.8,
+   "testo": "magico entro gittata che è in grado di vedere La prima si",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    576.5,
+    272.3,
+    587.0
+   ],
+   "size": 8.8,
+   "testo": "trasforma in un'altra creatura o un oggetto non magico,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    587.5,
+    264.7,
+    598.0
+   ],
+   "size": 8.8,
+   "testo": "mentre il secondo diventa una creatura (l'oggetto non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    598.5,
+    266.5,
+    609.0
+   ],
+   "size": 8.8,
+   "testo": "deve essere né indossato né trasportato). La trasforma­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    609.5,
+    273.2,
+    620.1
+   ],
+   "size": 8.8,
+   "testo": "zione permane per la durata dell'incantesimo, o finché il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    620.6,
+    280.5,
+    631.1
+   ],
+   "size": 8.8,
+   "testo": "bersaglio non muore o viene distrutto. Tuttavia, se l'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    631.7,
+    264.3,
+    642.3
+   ],
+   "size": 8.8,
+   "testo": "tatore mantiene la concentrazione per l'intera durata,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    642.6,
+    251.7,
+    653.2
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo ha efficacia finché non viene dissolto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    653.6,
+    283.3,
+    664.2
+   ],
+   "size": 8.8,
+   "testo": "o una creatura non consenziente supera un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    664.6,
+    103.8,
+    675.1
+   ],
+   "size": 8.8,
+   "testo": "su Saggezza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    675.6,
+    265.8,
+    686.2
+   ],
+   "size": 8.8,
+   "testo": "Creatura in creatura. Se l'incantatore trasforma una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    686.5,
+    274.6,
+    697.1
+   ],
+   "size": 8.8,
+   "testo": "creatura in un altro tipo di creatura, la nuova forma può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    697.6,
+    263.6,
+    708.1
+   ],
+   "size": 8.8,
+   "testo": "essere di qualsiasi tipo, purché il suo grado di sfida sia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    708.6,
+    263.3,
+    719.2
+   ],
+   "size": 8.8,
+   "testo": "pari o inferiore a quello del bersaglio (o al suo livello).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    35.3,
+    516.9,
+    45.9
+   ],
+   "size": 8.8,
+   "testo": "Le sue statistiche di gioco sono sostituite dalla scheda",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    46.3,
+    516.9,
+    56.9
+   ],
+   "size": 8.8,
+   "testo": "delle statistiche della nuova forma, mantenendo punti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    57.5,
+    480.5,
+    68.0
+   ],
+   "size": 8.8,
+   "testo": "ferita, Dadi Vita, allineamento e personalità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.7,
+    68.4,
+    527.8,
+    79.0
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio guadagna un numero di punti ferita tempo­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    79.4,
+    527.0,
+    90.0
+   ],
+   "size": 8.8,
+   "testo": "ranei pari ai punti ferita della nuova forma. Questi punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    90.4,
+    507.2,
+    101.0
+   ],
+   "size": 8.8,
+   "testo": "ferita temporanei svaniscono quando l'incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    101.4,
+    341.1,
+    112.0
+   ],
+   "size": 8.8,
+   "testo": "termina.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.7,
+    112.4,
+    513.8,
+    122.9
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio è limitato alle azioni che può effettuare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    123.4,
+    517.7,
+    134.0
+   ],
+   "size": 8.8,
+   "testo": "in base alla anatomia della sua nuova forma e non può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    134.4,
+    426.4,
+    144.9
+   ],
+   "size": 8.8,
+   "testo": "parlare o lanciare incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.7,
+    145.3,
+    517.0,
+    155.9
+   ],
+   "size": 8.8,
+   "testo": "L'attrezzatura del bersaglio si fonde nella sua nuova",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    156.3,
+    523.5,
+    166.9
+   ],
+   "size": 8.8,
+   "testo": "forma e la creatura non può utilizzare il suo equipaggia­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    167.4,
+    449.6,
+    178.0
+   ],
+   "size": 8.8,
+   "testo": "mento o beneficiarne in alcun modo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    178.4,
+    513.1,
+    189.0
+   ],
+   "size": 8.8,
+   "testo": "Oggetto in creatura. L'incantatore può trasformare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    189.4,
+    527.0,
+    200.0
+   ],
+   "size": 8.8,
+   "testo": "un oggetto in un qualsiasi tipo di creatura, purché la sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    200.6,
+    532.2,
+    211.1
+   ],
+   "size": 8.8,
+   "testo": "taglia non sia superiore a quella dell'oggetto e il suo grado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    211.6,
+    525.2,
+    222.1
+   ],
+   "size": 8.8,
+   "testo": "di sfida sia pari o inferiore a 9. La creatura è amichevole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    222.5,
+    509.6,
+    233.1
+   ],
+   "size": 8.8,
+   "testo": "nei confronti dell'incantatore e dei suoi compagni e,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    233.4,
+    515.9,
+    244.0
+   ],
+   "size": 8.8,
+   "testo": "in combattimento, obbedisce ai suoi comandi e svolge",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    244.5,
+    424.7,
+    255.0
+   ],
+   "size": 8.8,
+   "testo": "il suo turno subito dopo di lui.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    255.5,
+    519.0,
+    266.1
+   ],
+   "size": 8.8,
+   "testo": "Tuttavia, se l'incantesimo dura per più di un'ora, l'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    266.5,
+    531.2,
+    277.0
+   ],
+   "size": 8.8,
+   "testo": "cantatore perde il controllo su di essa. Potrebbe rimanere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    277.5,
+    514.7,
+    288.1
+   ],
+   "size": 8.8,
+   "testo": "amichevole o meno nei suoi confronti, in base a come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    288.6,
+    367.3,
+    299.2
+   ],
+   "size": 8.8,
+   "testo": "è stata trattata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    299.5,
+    497.3,
+    310.1
+   ],
+   "size": 8.8,
+   "testo": "Creatura in oggetto. Se l'incantatore trasforma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    310.5,
+    515.2,
+    321.1
+   ],
+   "size": 8.8,
+   "testo": "una creatura in un oggetto, tutto ciò che essa indossa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    321.6,
+    521.1,
+    332.1
+   ],
+   "size": 8.8,
+   "testo": "o trasporta si fonde nella nuova forma, purché la taglia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    332.6,
+    513.0,
+    343.2
+   ],
+   "size": 8.8,
+   "testo": "dell'oggetto non sia superiore a quella della creatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    343.6,
+    530.7,
+    354.1
+   ],
+   "size": 8.8,
+   "testo": "Le statistiche della creatura diventano quelle dell'oggetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    354.5,
+    522.3,
+    365.1
+   ],
+   "size": 8.8,
+   "testo": "e, una volta terminato l'incantesimo e tornata nella sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    365.6,
+    518.2,
+    376.1
+   ],
+   "size": 8.8,
+   "testo": "forma normale, essa non ricorderà nulla del tempo tra­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    376.5,
+    396.3,
+    387.1
+   ],
+   "size": 8.8,
+   "testo": "scorso in quella forma.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    411.4,
+    408.3,
+    422.7
+   ],
+   "size": 11.2,
+   "testo": "MIRAGGIO ARCANO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    422.8,
+    460.7,
+    433.3
+   ],
+   "size": 8.6,
+   "testo": "Illusionedi 7° livello (bardo, druido, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    438.3,
+    408.0,
+    447.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    449.3,
+    355.8,
+    459.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: vista",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    460.3,
+    372.1,
+    469.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    471.2,
+    371.7,
+    480.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    487.5,
+    515.3,
+    498.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore fa in modo che il terreno in un'area qua­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    498.5,
+    519.4,
+    509.1
+   ],
+   "size": 8.8,
+   "testo": "drata con lato fino a 1,5 chilometri appaia, suoni, odori",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    509.6,
+    515.5,
+    520.1
+   ],
+   "size": 8.8,
+   "testo": "e perfino risulti al tatto come un altro tipo di terreno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    520.6,
+    518.8,
+    531.2
+   ],
+   "size": 8.8,
+   "testo": "Un campo aperto o una strada potrebbe così sembrare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    531.6,
+    530.5,
+    542.2
+   ],
+   "size": 8.8,
+   "testo": "una palude, una collina, un crepaccio o qualche altro tipo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    542.7,
+    527.3,
+    553.2
+   ],
+   "size": 8.8,
+   "testo": "di terreno impervio e invalicabile. Allo stesso modo, uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    553.7,
+    529.9,
+    564.2
+   ],
+   "size": 8.8,
+   "testo": "stagno potrebbe apparire come un prato erboso, un preci­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    564.6,
+    528.3,
+    575.2
+   ],
+   "size": 8.8,
+   "testo": "pizio come un dolce pendio o un fosso irto di rocce come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    575.5,
+    429.2,
+    586.1
+   ],
+   "size": 8.8,
+   "testo": "una strada ampia e accogliente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.2,
+    586.6,
+    509.5,
+    597.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può similmente modificare l'aspetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    597.6,
+    525.8,
+    608.2
+   ],
+   "size": 8.8,
+   "testo": "di strutture o aggiungerne altre dove non sono presenti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    608.7,
+    514.8,
+    619.2
+   ],
+   "size": 8.8,
+   "testo": "Tuttavia, l'incantesimo non può camuffare, occultare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    619.6,
+    395.7,
+    630.2
+   ],
+   "size": 8.8,
+   "testo": "o aggiungere creature.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.2,
+    630.7,
+    501.0,
+    641.3
+   ],
+   "size": 8.8,
+   "testo": "L'illusione include elementi uditivi, visivi, tattili",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    641.7,
+    519.9,
+    652.3
+   ],
+   "size": 8.8,
+   "testo": "e olfattivi, quindi può trasformare un terreno libero in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    652.8,
+    535.5,
+    663.3
+   ],
+   "size": 8.8,
+   "testo": "un terreno difficile (o viceversa), oppure ostacolare in altri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    663.7,
+    524.2,
+    674.3
+   ],
+   "size": 8.8,
+   "testo": "modi i movimenti all'interno dell'area. Ogni frammento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    674.8,
+    504.5,
+    685.4
+   ],
+   "size": 8.8,
+   "testo": "di terreno illusorio (come una roccia o un bastone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    685.7,
+    519.2,
+    696.3
+   ],
+   "size": 8.8,
+   "testo": "che viene rimosso dall'area dell'incantesimo scompare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    696.7,
+    375.1,
+    707.3
+   ],
+   "size": 8.8,
+   "testo": "immediatamente.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

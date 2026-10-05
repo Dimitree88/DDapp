@@ -1,0 +1,1003 @@
+{
+ "pagina_pdf": 369,
+ "pagina_stampata": 366,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "366 / APPENDICE CI GLOSSARIO DELLE REGOLE",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   120
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    48.6,
+    145.0,
+    105.8,
+    156.3
+   ],
+   "size": 11.2,
+   "testo": "IMMUNITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.8,
+    156.3,
+    276.9,
+    166.9
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio è immune a un tipo di danno o a una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.1,
+    167.4,
+    276.0,
+    178.0
+   ],
+   "size": 8.8,
+   "testo": "condizione, significa che non ne subisce gli effetti in alcun",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    178.4,
+    74.7,
+    189.0
+   ],
+   "size": 8.8,
+   "testo": "modo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.6,
+    213.2,
+    123.4,
+    224.6
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    224.6,
+    270.9,
+    235.2
+   ],
+   "size": 8.8,
+   "testo": "Un incantesimo è un effetto magico che ha le caratteristi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.4,
+    235.5,
+    154.9,
+    246.1
+   ],
+   "size": 8.8,
+   "testo": "che descritte nel capitolo 7.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.6,
+    270.3,
+    202.3,
+    281.7
+   ],
+   "size": 11.2,
+   "testo": "INCAPACITATO [CONDIZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.4,
+    281.7,
+    278.5,
+    292.3
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"incapacitato\",",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.4,
+    292.8,
+    145.7,
+    303.4
+   ],
+   "size": 8.8,
+   "testo": "subisce i seguenti effetti:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    303.7,
+    263.7,
+    314.3
+   ],
+   "size": 8.8,
+   "testo": "Inattività. Il personaggio non è in grado di effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.4,
+    314.7,
+    171.6,
+    325.3
+   ],
+   "size": 8.8,
+   "testo": "azioni, azioni bonus o reazioni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    325.8,
+    266.2,
+    336.4
+   ],
+   "size": 8.8,
+   "testo": "Nessuna concentrazione. La concentrazione del perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.3,
+    336.7,
+    126.1,
+    347.3
+   ],
+   "size": 8.8,
+   "testo": "naggio è interrotta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    347.7,
+    266.9,
+    358.3
+   ],
+   "size": 8.8,
+   "testo": "Senzaparole. Il personaggio non è in grado di parlare.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    358.7,
+    267.6,
+    369.2
+   ],
+   "size": 8.8,
+   "testo": "Sorpresa. Se il personaggio è incapacitato quando tira",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.3,
+    369.7,
+    212.1,
+    380.3
+   ],
+   "size": 8.8,
+   "testo": "per l'iniziativa, subisce svantaggio al tiro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.5,
+    404.6,
+    104.6,
+    415.9
+   ],
+   "size": 11.2,
+   "testo": "INCONTRO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.4,
+    415.9,
+    265.8,
+    426.5
+   ],
+   "size": 8.8,
+   "testo": "Un incontro è una scena di un'avventura che fa parte di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.3,
+    426.9,
+    266.6,
+    437.5
+   ],
+   "size": 8.8,
+   "testo": "almeno uno dei tre pilastri del gioco: interazioni sociali,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.3,
+    437.9,
+    250.4,
+    448.5
+   ],
+   "size": 8.8,
+   "testo": "esplorazione o combattimento. Vedianche capitolo 1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.6,
+    448.9,
+    273.9,
+    459.5
+   ],
+   "size": 8.8,
+   "testo": "(\"Interazioni sociali\", \"Esplorazione\" e \"Combattimento\").",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.4,
+    483.5,
+    213.6,
+    494.9
+   ],
+   "size": 11.2,
+   "testo": "INDEBOLIMENTO [CONDIZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    494.9,
+    257.5,
+    505.4
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"indeboli­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    505.9,
+    177.1,
+    516.4
+   ],
+   "size": 8.8,
+   "testo": "mento\", subisce i seguenti effetti:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    516.9,
+    255.4,
+    527.5
+   ],
+   "size": 8.8,
+   "testo": "Livelli di indebolimento. Questa condizione è cumu­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.7,
+    527.9,
+    256.9,
+    538.5
+   ],
+   "size": 8.8,
+   "testo": "lativa. Ogni volta che il personaggio la riceve, ottiene",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    538.9,
+    252.1,
+    549.5
+   ],
+   "size": 8.8,
+   "testo": "1 livello di indebolimento. Il personaggio muore se il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.9,
+    549.9,
+    197.9,
+    560.5
+   ],
+   "size": 8.8,
+   "testo": "suo livello di indebolimento è pari a 6.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    560.9,
+    253.7,
+    571.5
+   ],
+   "size": 8.8,
+   "testo": "Influenza sulle prove con d20. Quando effettui una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.0,
+    571.9,
+    266.1,
+    582.4
+   ],
+   "size": 8.8,
+   "testo": "prova con d20, il risultato ottenuto è ridotto del doppio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    582.8,
+    221.0,
+    593.4
+   ],
+   "size": 8.8,
+   "testo": "del livello qi indebolimento del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    593.8,
+    264.7,
+    604.4
+   ],
+   "size": 8.8,
+   "testo": "Velocità ridotta. La velocità del personaggio è ridotta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    604.8,
+    244.6,
+    615.4
+   ],
+   "size": 8.8,
+   "testo": "di una quantità di metri pari a 1,5 x il suo livello di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.0,
+    615.9,
+    108.2,
+    626.5
+   ],
+   "size": 8.8,
+   "testo": "indebolimento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    626.9,
+    264.9,
+    637.5
+   ],
+   "size": 8.8,
+   "testo": "Rimozione dei livelli di indebolimento. Terminando un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    47.7,
+    637.9,
+    257.2,
+    648.5
+   ],
+   "size": 8.8,
+   "testo": "riposo lungo, il personaggio perde 1 livello di indeboli­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.0,
+    648.9,
+    257.7,
+    659.5
+   ],
+   "size": 8.8,
+   "testo": "mento. Quando l'indebolimento raggiunge il livello O,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.0,
+    659.9,
+    137.3,
+    670.5
+   ],
+   "size": 8.8,
+   "testo": "la condizione termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    145.0,
+    479.6,
+    156.4
+   ],
+   "size": 11.2,
+   "testo": "INDIFFERENTE [ATTEGGIAMENTO]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    156.5,
+    516.8,
+    167.1
+   ],
+   "size": 8.8,
+   "testo": "Una creatura indifferente non ha alcun desiderio di aiu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    167.5,
+    519.6,
+    178.1
+   ],
+   "size": 8.8,
+   "testo": "tare o ostacolare il tuo personaggio. L'indifferenza è l'at­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    178.5,
+    528.5,
+    189.1
+   ],
+   "size": 8.8,
+   "testo": "teggiamento predefinito dei mostri. Vedianche \"Influenza\".",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.3,
+    213.3,
+    423.2,
+    224.6
+   ],
+   "size": 11.2,
+   "testo": "IN FIAMME [PERICOLO]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.8,
+    224.6,
+    517.1,
+    235.2
+   ],
+   "size": 8.8,
+   "testo": "Una creatura o un oggetto in fiamme subisce 1d4 danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    235.7,
+    517.1,
+    246.2
+   ],
+   "size": 8.8,
+   "testo": "da fuoco all'inizio di ogni suo turno. Con un'azione, un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    246.7,
+    518.6,
+    257.3
+   ],
+   "size": 8.8,
+   "testo": "personaggio può estinguere le fiamme che lo avvolgono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    257.7,
+    525.9,
+    268.2
+   ],
+   "size": 8.8,
+   "testo": "assumendo la condizione prono e rotolandosi sul terreno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.8,
+    268.7,
+    516.8,
+    279.3
+   ],
+   "size": 8.8,
+   "testo": "Le fiamme si estinguono anche se vengono spente, som­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    279.8,
+    372.8,
+    290.3
+   ],
+   "size": 8.8,
+   "testo": "merse o soffocate.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.8,
+    314.4,
+    411.6,
+    325.8
+   ],
+   "size": 11.2,
+   "testo": "INFLUENZA [AZIONE]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.6,
+    325.9,
+    513.7,
+    336.4
+   ],
+   "size": 8.8,
+   "testo": "Con l'azione di Influenza, il tuo personaggio esorta un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.2,
+    336.8,
+    508.5,
+    347.4
+   ],
+   "size": 8.8,
+   "testo": "mostro a fare qualcosa. Descrivi o interpreta il modo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    347.8,
+    515.0,
+    358.3
+   ],
+   "size": 8.8,
+   "testo": "in cui interagisce con il mostro: il personaggio cerca di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    358.8,
+    526.1,
+    369.4
+   ],
+   "size": 8.8,
+   "testo": "ingannarlo, intimidirlo, intrattenerlo o persuaderlo gentil­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.2,
+    369.8,
+    522.5,
+    380.3
+   ],
+   "size": 8.8,
+   "testo": "mente? Il DM determina se, dopo l'interazione, il mostro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    380.8,
+    512.9,
+    391.4
+   ],
+   "size": 8.8,
+   "testo": "si sente ben disposto o meno verso il personaggio, o se",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    391.9,
+    522.7,
+    402.4
+   ],
+   "size": 8.8,
+   "testo": "è esitante. In base a ciò, si stabilisce se sia necessaria una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.0,
+    403.0,
+    491.0,
+    413.5
+   ],
+   "size": 8.8,
+   "testo": "prova di caratteristica, come spiegato di seguito:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    413.9,
+    524.8,
+    424.5
+   ],
+   "size": 8.8,
+   "testo": "Ben disposto. Se l'esortazione del personaggio si allinea",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    424.9,
+    519.3,
+    435.5
+   ],
+   "size": 8.8,
+   "testo": "con i desideri del mostro, non è necessaria alcuna prova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    435.9,
+    521.1,
+    446.5
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica: il mostro soddisfa la richiesta del perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.1,
+    446.9,
+    425.9,
+    457.4
+   ],
+   "size": 8.8,
+   "testo": "naggio nel modo che preferisce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    457.8,
+    527.0,
+    468.4
+   ],
+   "size": 8.8,
+   "testo": "Maldisposto. Se l'esortazione del personaggio è sgradita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    468.8,
+    519.0,
+    479.3
+   ],
+   "size": 8.8,
+   "testo": "al mostro o è contraria al suo allineamento, non è neces­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.8,
+    479.8,
+    512.7,
+    490.4
+   ],
+   "size": 8.8,
+   "testo": "saria alcuna prova di caratteristica: il mostro si rifiuta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    490.7,
+    400.0,
+    501.3
+   ],
+   "size": 8.8,
+   "testo": "di soddisfare la richiesta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    501.8,
+    501.1,
+    512.3
+   ],
+   "size": 8.8,
+   "testo": "Esitante. Se il personaggio esorta il mostro a fare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    512.8,
+    508.4,
+    523.4
+   ],
+   "size": 8.8,
+   "testo": "qualcosa ma questo si mostra esitante, il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    523.9,
+    513.7,
+    534.4
+   ],
+   "size": 8.8,
+   "testo": "deve effettuare una prova di caratteristica influenzata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    534.8,
+    519.7,
+    545.4
+   ],
+   "size": 8.8,
+   "testo": "dall'atteggiamento del mostro: indifferente, amichevole,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    545.8,
+    493.1,
+    556.4
+   ],
+   "size": 8.8,
+   "testo": "ostile (ciascuno dei quali è definito nel glossario).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    556.8,
+    502.5,
+    567.4
+   ],
+   "size": 8.8,
+   "testo": "La tabella \"Prove di influenza\" indica quali prove di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    567.8,
+    521.5,
+    578.3
+   ],
+   "size": 8.8,
+   "testo": "caratteristica effettuare in base all'interazione del perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    578.7,
+    525.5,
+    589.3
+   ],
+   "size": 8.8,
+   "testo": "naggio con il mostro. Il DM sceglie la prova da effettuare,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    589.7,
+    530.6,
+    600.3
+   ],
+   "size": 8.8,
+   "testo": "la quale ha una CD predefinita pari a 15 o pari al punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    600.7,
+    506.5,
+    611.3
+   ],
+   "size": 8.8,
+   "testo": "di Intelligenza del mostro (si sceglie il valore più alto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    611.8,
+    511.6,
+    622.4
+   ],
+   "size": 8.8,
+   "testo": "tra i due). Se la prova viene superata, il mostro esegue",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    622.8,
+    517.3,
+    633.4
+   ],
+   "size": 8.8,
+   "testo": "la richiesta del personaggio. In caso di fallimento, il per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    633.8,
+    523.0,
+    644.4
+   ],
+   "size": 8.8,
+   "testo": "sonaggio deve aspettare 24 ore (o un intervallo di tempo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    644.8,
+    510.3,
+    655.4
+   ],
+   "size": 8.8,
+   "testo": "definito dal DM) prima di esortare di nuovo il mostro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    655.8,
+    368.5,
+    666.4
+   ],
+   "size": 8.8,
+   "testo": "allo stesso modo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

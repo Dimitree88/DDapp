@@ -1,0 +1,1147 @@
+{
+ "pagina_pdf": 224,
+ "pagina_stampata": 221,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / FFI",
+ "immagini": [
+  [
+   0,
+   614,
+   590,
+   784
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.6,
+    39.1,
+    282.6,
+    48.7
+   ],
+   "size": 8.4,
+   "testo": "Creazione: moschetto, pistola, campanella, lanterna a lente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    50.0,
+    258.7,
+    59.7
+   ],
+   "size": 8.4,
+   "testo": "sporgente, ampolla, lanterna schermabile, tagliola,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    61.0,
+    284.9,
+    70.7
+   ],
+   "size": 8.4,
+   "testo": "serratura, manette, specchio, pala, fischietto da richiamo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    72.1,
+    165.7,
+    81.8
+   ],
+   "size": 8.4,
+   "testo": "acciarino con pietra focaia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    106.5,
+    237.6,
+    117.9
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA MURATORE (10 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    119.0,
+    134.0,
+    128.6
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.2,
+    119.1,
+    241.8,
+    128.7
+   ],
+   "size": 8.4,
+   "testo": "Peso: 4 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    130.1,
+    262.4,
+    139.7
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: intagliare un simbolo o scavare un buco nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    141.0,
+    118.5,
+    150.7
+   ],
+   "size": 8.4,
+   "testo": "pietra (CD 10)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    152.1,
+    173.6,
+    161.8
+   ],
+   "size": 8.4,
+   "testo": "Creazione: carrucola e paranco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    186.7,
+    224.5,
+    198.1
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA PITTORE (10 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    199.1,
+    148.4,
+    208.8
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.2,
+    199.3,
+    248.8,
+    208.9
+   ],
+   "size": 8.4,
+   "testo": "Peso: 2,5 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    210.3,
+    274.3,
+    219.9
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: dipingere un'immagine riconoscibile di qualcosa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    221.2,
+    198.1,
+    230.9
+   ],
+   "size": 8.4,
+   "testo": "che il personaggio ha visto (CD 10)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    232.2,
+    211.3,
+    241.9
+   ],
+   "size": 8.4,
+   "testo": "Creazione: focus druidico, simbolo sacro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    266.8,
+    244.9,
+    278.2
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA SOFFIATORE (30 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    279.3,
+    156.8,
+    288.9
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.2,
+    279.4,
+    248.7,
+    289.0
+   ],
+   "size": 8.4,
+   "testo": "Peso: 2,5 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    290.3,
+    266.3,
+    300.0
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: capire il contenuto di un oggetto di vetro delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    301.3,
+    146.3,
+    311.0
+   ],
+   "size": 8.4,
+   "testo": "ultime 24 ore (CD 15)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    312.4,
+    253.2,
+    322.0
+   ],
+   "size": 8.4,
+   "testo": "Creazione: bottiglia di vetro, lente d'ingrandimento,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    323.3,
+    135.7,
+    332.9
+   ],
+   "size": 8.4,
+   "testo": "cannocchiale, fiala",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    357.7,
+    228.2,
+    369.1
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA TESSITORE (1 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    370.1,
+    150.9,
+    379.7
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.2,
+    370.2,
+    249.0,
+    379.9
+   ],
+   "size": 8.4,
+   "testo": "Peso: 2,5 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    381.2,
+    260.5,
+    390.9
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: rammendare tessuti lacerati (CD 10) o cucire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.3,
+    392.3,
+    177.4,
+    401.9
+   ],
+   "size": 8.4,
+   "testo": "un motivo minuscolo (CD 10)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    403.3,
+    268.9,
+    412.9
+   ],
+   "size": 8.4,
+   "testo": "Creazione: armatura imbottita, cesto, giaciglio, coperta,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    414.3,
+    266.1,
+    423.9
+   ],
+   "size": 8.4,
+   "testo": "abiti eleganti, rete, veste, corda, sacco, spago, tenda,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    425.4,
+    137.8,
+    435.0
+   ],
+   "size": 8.4,
+   "testo": "abiti da viaggiatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    459.8,
+    217.4,
+    471.1
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA VASAIO (10 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    472.2,
+    156.9,
+    481.9
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.3,
+    472.3,
+    248.4,
+    481.9
+   ],
+   "size": 8.4,
+   "testo": "Peso: 1 , 5 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    483.2,
+    260.5,
+    492.8
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: capire il contenuto di un oggetto di ceramica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.5,
+    494.2,
+    166.6,
+    503.9
+   ],
+   "size": 8.4,
+   "testo": "delle ultime 24 ore (CD 15)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    505.3,
+    162.7,
+    515.0
+   ],
+   "size": 8.4,
+   "testo": "Creazione: brocca, lampada",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    539.9,
+    199.9,
+    551.3
+   ],
+   "size": 11.2,
+   "testo": "UTENSILI DA Cuoco (1 MO)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    552.3,
+    148.4,
+    561.9
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.3,
+    552.4,
+    241.8,
+    562.1
+   ],
+   "size": 8.4,
+   "testo": "Peso: 4 kg",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    563.3,
+    279.5,
+    572.9
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: migliorare il sapore del cibo (CD 10) o individuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    574.2,
+    194.7,
+    583.9
+   ],
+   "size": 8.4,
+   "testo": "cibo avariato o avvelenato (CD 15)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    585.2,
+    125.9,
+    594.9
+   ],
+   "size": 8.4,
+   "testo": "Creazione: razioni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    39.9,
+    423.4,
+    53.0
+   ],
+   "size": 9.7,
+   "testo": "ALTRI STRUMENTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    56.4,
+    526.1,
+    67.0
+   ],
+   "size": 8.8,
+   "testo": "Questi sono strumenti a sostegno dell'avventura e altre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    67.4,
+    343.5,
+    78.0
+   ],
+   "size": 8.8,
+   "testo": "imprese.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    102.1,
+    460.3,
+    113.5
+   ],
+   "size": 11.2,
+   "testo": "ARNESI DA FALSARIO (15 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    114.6,
+    403.9,
+    124.2
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.1,
+    114.7,
+    501.7,
+    124.3
+   ],
+   "size": 8.4,
+   "testo": "Peso: 2,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    125.6,
+    530.9,
+    135.2
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: scrivere 10 parole o meno copiando la scrittura di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.4,
+    136.6,
+    534.9,
+    146.2
+   ],
+   "size": 8.4,
+   "testo": "qualcun altro (CD 15) o duplicare un sigillo di cera (CD 20)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    171.3,
+    450.9,
+    182.6
+   ],
+   "size": 11.2,
+   "testo": "ARNESI DA SCASSO (25 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    183.7,
+    403.9,
+    193.3
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.0,
+    183.8,
+    501.3,
+    193.4
+   ],
+   "size": 8.4,
+   "testo": "Peso: 0,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    194.7,
+    516.3,
+    204.4
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: scassinare una serratura (CD 15) o disattivare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    205.9,
+    397.2,
+    215.5
+   ],
+   "size": 8.4,
+   "testo": "una trappola (CD 15)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    240.4,
+    457.7,
+    251.7
+   ],
+   "size": 11.2,
+   "testo": "BORSA DA ERBORISTA (5 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    252.7,
+    409.8,
+    262.3
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Intelligenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.0,
+    252.8,
+    501.2,
+    262.4
+   ],
+   "size": 8.4,
+   "testo": "Peso: 1 , 5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    263.8,
+    459.2,
+    273.5
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: identificare una pianta (CD 10)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    274.9,
+    506.8,
+    284.5
+   ],
+   "size": 8.4,
+   "testo": "Creazione: antitossina, candela, borsa del guaritore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    286.3,
+    396.2,
+    295.5
+   ],
+   "size": 9.2,
+   "testo": "pozione di guarigione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    320.4,
+    413.6,
+    331.7
+   ],
+   "size": 11.2,
+   "testo": "Gioco (VARIABILE)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    332.8,
+    401.3,
+    342.5
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.0,
+    333.0,
+    485.2,
+    342.3
+   ],
+   "size": 8.2,
+   "testo": "Peso: -",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    343.8,
+    529.6,
+    353.4
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: capire se qualcuno sta barando (CD 10) o vincere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.7,
+    354.7,
+    391.7,
+    364.4
+   ],
+   "size": 8.4,
+   "testo": "una partita (CD 20)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    365.6,
+    492.4,
+    375.2
+   ],
+   "size": 8.4,
+   "testo": "Varianti: Dadi (1 ma), scacchi dei draghi (1 mo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.4,
+    376.7,
+    498.9,
+    386.3
+   ],
+   "size": 8.4,
+   "testo": "carte da gioco (5 ma), Tre Draghi al Buio (1 mo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    411.3,
+    506.7,
+    422.6
+   ],
+   "size": 11.2,
+   "testo": "SOSTANZE DA AVVELENATORE (50 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    423.8,
+    409.7,
+    433.4
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Intelligenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.1,
+    423.9,
+    494.5,
+    433.5
+   ],
+   "size": 8.4,
+   "testo": "Peso: l kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    434.8,
+    503.4,
+    444.5
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: individuare un oggetto avvelenato (CD 10)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    445.8,
+    397.3,
+    455.5
+   ],
+   "size": 8.4,
+   "testo": "Creazione: veleno base",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    480.2,
+    500.1,
+    491.6
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTI DA NAVIGATORE (25 MO)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    492.7,
+    401.3,
+    502.3
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.1,
+    492.8,
+    494.5,
+    502.4
+   ],
+   "size": 8.4,
+   "testo": "Peso: l kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    503.8,
+    531.6,
+    513.4
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: pianificare una rotta (CD 10) o determinare la pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.1,
+    514.8,
+    474.6,
+    524.4
+   ],
+   "size": 8.4,
+   "testo": "pria posizione scrutando le stelle (CD 15)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    549.3,
+    498.0,
+    560.7
+   ],
+   "size": 11.2,
+   "testo": "STRUMENTO MUSICALE (VARIABILE)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    561.7,
+    397.1,
+    571.3
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Carisma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.1,
+    561.8,
+    510.5,
+    571.4
+   ],
+   "size": 8.4,
+   "testo": "Peso: variabile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    572.8,
+    536.1,
+    582.4
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: suonare una canzone conosciuta (CD 10) o improv-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.4,
+    583.8,
+    392.7,
+    593.4
+   ],
+   "size": 8.4,
+   "testo": "visarne una (CD 15)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    594.7,
+    534.3,
+    604.3
+   ],
+   "size": 8.4,
+   "testo": "Varianti: Cornamusa (30 mo, 3 kg), tamburo (6 mo, 1,5 kg),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.5,
+    605.8,
+    488.1,
+    615.4
+   ],
+   "size": 8.4,
+   "testo": "dulcimer (25 mo, 5 kg), flauto (2 mo, 0,5 kg),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    616.8,
+    533.8,
+    626.5
+   ],
+   "size": 8.4,
+   "testo": "corno (3 mo, l kg), liuto (35 mo, l kg), lira (30 mo, l kg),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.4,
+    619.7,
+    518.9,
+    637.9
+   ],
+   "size": 8.6,
+   "testo": "flauto di pan (12 mo, l kg), ciaramella (2 mo, 0,5 kg),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.4,
+    638.9,
+    395.5,
+    648.5
+   ],
+   "size": 8.4,
+   "testo": "viola (30 mo, 0,5 kg)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    673.4,
+    525.4,
+    684.8
+   ],
+   "size": 11.2,
+   "testo": "TRUCCHI PER IL CAMUFFAMENTO (25 MO)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    685.8,
+    397.2,
+    695.4
+   ],
+   "size": 8.4,
+   "testo": "Caratteristica: Carisma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    454.1,
+    685.9,
+    501.3,
+    695.5
+   ],
+   "size": 8.4,
+   "testo": "Peso: 1, 5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    696.9,
+    407.2,
+    706.6
+   ],
+   "size": 8.4,
+   "testo": "Utilizzo: truccarsi (CD 10)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    707.9,
+    385.7,
+    717.6
+   ],
+   "size": 8.4,
+   "testo": "Creazione: costume",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

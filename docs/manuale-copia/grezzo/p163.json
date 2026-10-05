@@ -1,0 +1,739 @@
+{
+ "pagina_pdf": 163,
+ "pagina_stampata": 160,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   -1,
+   333,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    304.5,
+    37.5,
+    462.3,
+    48.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: IMPULSI DOMATI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    49.0,
+    534.0,
+    59.5
+   ],
+   "size": 8.8,
+   "testo": "Subito dopo che lo stregone lancia un incantesimo con uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    60.0,
+    518.8,
+    70.6
+   ],
+   "size": 8.8,
+   "testo": "slot, può creare un effetto a scelta dalla tabella Impulsi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    71.0,
+    513.8,
+    81.6
+   ],
+   "size": 8.8,
+   "testo": "di magia selvaggia invece di effettuare il relativo tiro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    74.9,
+    531.1,
+    93.1
+   ],
+   "size": 8.8,
+   "testo": "È possibile scegliere un effetto qualunque, fatta eccezione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    93.0,
+    521.3,
+    103.6
+   ],
+   "size": 8.8,
+   "testo": "per quello nella riga finale. Inoltre, se è previsto un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    104.1,
+    415.4,
+    114.6
+   ],
+   "size": 8.8,
+   "testo": "di dado, bisogna effettuarlo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    114.9,
+    522.4,
+    125.5
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    126.1,
+    533.5,
+    136.6
+   ],
+   "size": 8.8,
+   "testo": "può riutilizzarlo prima di aver completato un riposo lungo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    148.7,
+    456.3,
+    159.4
+   ],
+   "size": 10.6,
+   "testo": "IMPULSI DI MAGIA SELVAGGIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    164.6,
+    334.1,
+    173.8
+   ],
+   "size": 8.2,
+   "testo": "1d100",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.2,
+    164.6,
+    368.8,
+    173.8
+   ],
+   "size": 8.2,
+   "testo": "Effetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    178.6,
+    522.4,
+    188.3
+   ],
+   "size": 8.4,
+   "testo": "01-04 Tira su questa tabella all'inizio di ciascun turno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.8,
+    190.6,
+    510.9,
+    200.3
+   ],
+   "size": 8.4,
+   "testo": "per il prossimo minuto. Se nei tiri successivi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.4,
+    202.7,
+    495.0,
+    212.3
+   ],
+   "size": 8.4,
+   "testo": "ottieni questo stesso risultato, ignoralo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.3,
+    217.3,
+    513.0,
+    226.9
+   ],
+   "size": 8.4,
+   "testo": "In uno spazio libero entro 18 metri dallo stre­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.4,
+    229.3,
+    518.2,
+    238.9
+   ],
+   "size": 8.4,
+   "testo": "gone appare una creatura amichevole nei suoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.4,
+    241.2,
+    516.9,
+    250.9
+   ],
+   "size": 8.4,
+   "testo": "confronti controllata dal DM. Scompare dopo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.9,
+    253.4,
+    510.2,
+    263.0
+   ],
+   "size": 8.4,
+   "testo": "1 minuto. Tira 1d4 per determinare il tipo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.4,
+    265.3,
+    529.1,
+    274.9
+   ],
+   "size": 8.4,
+   "testo": "creatura: con 1 appare un duodrone modron; con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.3,
+    277.3,
+    529.3,
+    286.9
+   ],
+   "size": 8.4,
+   "testo": "2 appare un flumph; con 3 appare un monodrone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.7,
+    281.3,
+    520.7,
+    299.5
+   ],
+   "size": 8.6,
+   "testo": "modron; con 4 appare un unicorno. È possibile",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.4,
+    301.4,
+    525.0,
+    311.1
+   ],
+   "size": 9.2,
+   "testo": "consultare il Manuale dei Mostri per visualizzare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    313.3,
+    497.3,
+    322.9
+   ],
+   "size": 8.4,
+   "testo": "la scheda delle statistiche della creatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    327.9,
+    334.0,
+    337.5
+   ],
+   "size": 8.4,
+   "testo": "09-12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.9,
+    327.9,
+    514.5,
+    337.5
+   ],
+   "size": 8.4,
+   "testo": "Per il prossimo minuto, lo stregone ripristina",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.8,
+    339.9,
+    475.9,
+    349.6
+   ],
+   "size": 8.4,
+   "testo": "5 dei suoi punti ferita a ogni turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    354.4,
+    333.8,
+    364.0
+   ],
+   "size": 8.4,
+   "testo": "13-16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    354.5,
+    501.7,
+    364.1
+   ],
+   "size": 8.4,
+   "testo": "Per il prossimo minuto, le creature hanno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.5,
+    366.4,
+    512.7,
+    376.1
+   ],
+   "size": 8.4,
+   "testo": "svantaggio ai tiri salvezza contro il prossimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.7,
+    378.4,
+    527.8,
+    388.0
+   ],
+   "size": 8.4,
+   "testo": "incantesimo lanciato dallo stregone che richiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.7,
+    390.4,
+    405.6,
+    400.1
+   ],
+   "size": 8.4,
+   "testo": "un tiro salvezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    405.1,
+    334.0,
+    414.8
+   ],
+   "size": 8.4,
+   "testo": "17-20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.9,
+    405.2,
+    515.6,
+    414.8
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone subisce un effetto della durata di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.9,
+    417.0,
+    524.4,
+    426.7
+   ],
+   "size": 8.4,
+   "testo": "1 minuto, salvo diversamente indicato. Tira 1d8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.4,
+    429.1,
+    506.7,
+    438.7
+   ],
+   "size": 8.4,
+   "testo": "per determinare l'effetto: con 1 lo stregone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.3,
+    441.1,
+    513.0,
+    450.7
+   ],
+   "size": 8.4,
+   "testo": "è accompagnato da una tenue musica eterea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.7,
+    453.0,
+    528.3,
+    462.7
+   ],
+   "size": 8.4,
+   "testo": "udibile solo da sé e dalle creature entro 1,5 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.3,
+    465.0,
+    526.4,
+    474.7
+   ],
+   "size": 8.4,
+   "testo": "da lui; con 2 la sua taglia aumenta di una catego­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.1,
+    477.1,
+    527.4,
+    486.7
+   ],
+   "size": 8.4,
+   "testo": "ria; con 3 gli cresce una folta barba di piume che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.5,
+    489.0,
+    519.8,
+    498.6
+   ],
+   "size": 8.4,
+   "testo": "svanisce solo dopo uno starnuto, scagliandole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.2,
+    500.9,
+    524.8,
+    510.6
+   ],
+   "size": 8.4,
+   "testo": "via dal proprio viso e facendole scomparire; con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.1,
+    513.1,
+    528.4,
+    522.7
+   ],
+   "size": 8.4,
+   "testo": "4 urla invece di parlare normalmente; con 5 appa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.7,
+    525.0,
+    528.1,
+    534.7
+   ],
+   "size": 8.4,
+   "testo": "iono delle farfalle illusorie che svolazzano in aria",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.3,
+    537.0,
+    520.1,
+    546.7
+   ],
+   "size": 8.4,
+   "testo": "entro 3 metri da sé; con 6 gli appare un occhio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.8,
+    549.0,
+    531.0,
+    558.7
+   ],
+   "size": 8.4,
+   "testo": "sulla fronte, conferendogli vantaggio alle prove di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.5,
+    561.0,
+    522.9,
+    570.7
+   ],
+   "size": 8.4,
+   "testo": "Saggezza (Percezione); con 7 fuoriescono delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.7,
+    573.0,
+    520.1,
+    582.6
+   ],
+   "size": 8.4,
+   "testo": "bolle rosa dalla sua bocca ogni volta che parla;",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.3,
+    584.9,
+    521.3,
+    594.5
+   ],
+   "size": 8.4,
+   "testo": "con 8 la sua pelle diventa di un'intensa tonalità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.6,
+    596.9,
+    526.4,
+    606.6
+   ],
+   "size": 8.4,
+   "testo": "di blu per 24 ore o finché l'effetto non è rimosso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.3,
+    608.9,
+    492.8,
+    618.6
+   ],
+   "size": 9.2,
+   "testo": "da un incantesimo rimuovi maledizione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.9,
+    623.6,
+    513.9,
+    633.3
+   ],
+   "size": 8.4,
+   "testo": "Per il minuto successivo, tutti gli incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    340.9,
+    635.7,
+    509.5,
+    645.4
+   ],
+   "size": 8.4,
+   "testo": "con tempo di lancio di un'azione ottengono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.7,
+    647.7,
+    486.6,
+    657.3
+   ],
+   "size": 8.4,
+   "testo": "il tempo di lancio di un'azione bonus.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    662.2,
+    334.7,
+    671.9
+   ],
+   "size": 8.4,
+   "testo": "25-28",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    341.9,
+    662.3,
+    522.5,
+    671.9
+   ],
+   "size": 8.4,
+   "testo": "Lo stregone viene trasportato sul Piano Astrale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.2,
+    674.3,
+    525.8,
+    683.9
+   ],
+   "size": 8.4,
+   "testo": "fino al termine del suo turno successivo, per poi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.2,
+    686.3,
+    520.4,
+    695.9
+   ],
+   "size": 8.4,
+   "testo": "fare ritorno nello spazio che occupava in prece­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.3,
+    698.2,
+    523.5,
+    707.8
+   ],
+   "size": 8.4,
+   "testo": "denza o nello spazio libero più vicino, se quello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.4,
+    710.3,
+    428.7,
+    719.9
+   ],
+   "size": 8.4,
+   "testo": "spazio è ora occupato.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

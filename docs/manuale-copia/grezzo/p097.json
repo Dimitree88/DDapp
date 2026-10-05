@@ -1,0 +1,679 @@
+{
+ "pagina_pdf": 97,
+ "pagina_stampata": 94,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   14,
+   301,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    308.1,
+    41.1,
+    460.8,
+    52.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: SOPRAVVISSUTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    52.5,
+    525.6,
+    63.1
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero giunge all'apice della sua resilienza in batta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    63.5,
+    442.6,
+    74.0
+   ],
+   "size": 8.8,
+   "testo": "glia, ottenendo i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    74.4,
+    520.8,
+    85.0
+   ],
+   "size": 8.8,
+   "testo": "Incoraggiamento eroico. All'inizio di ogni suo turno,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    85.5,
+    534.0,
+    96.0
+   ],
+   "size": 8.8,
+   "testo": "il guerriero recupera punti ferita pari a 5 più il suo modifi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    96.5,
+    536.2,
+    107.1
+   ],
+   "size": 8.8,
+   "testo": "catore di Costituzione se è sanguinante e possiede almeno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    107.4,
+    364.4,
+    118.0
+   ],
+   "size": 8.8,
+   "testo": "1 punto ferita.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    118.4,
+    536.6,
+    129.0
+   ],
+   "size": 8.8,
+   "testo": "Sfuggire alla morte. Dispone di vantaggio ai tiri salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    129.4,
+    516.5,
+    140.0
+   ],
+   "size": 8.8,
+   "testo": "contro morte. Inoltre, quando ottiene 18-20 a un tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    140.4,
+    523.6,
+    151.0
+   ],
+   "size": 8.8,
+   "testo": "salvezza contro morte, possiede il beneficio di ottenere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    151.4,
+    335.3,
+    162.0
+   ],
+   "size": 8.8,
+   "testo": "un 20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    171.6,
+    435.8,
+    184.7
+   ],
+   "size": 9.7,
+   "testo": "CAVALIERE MISTICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    189.1,
+    513.2,
+    198.4
+   ],
+   "size": 8.6,
+   "testo": "Affiancaleabilità di combattimento con la magia arcana",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    202.8,
+    514.4,
+    213.4
+   ],
+   "size": 8.8,
+   "testo": "Il Cavaliere Mistico unisce la maestria nell'arte della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    213.8,
+    533.7,
+    224.4
+   ],
+   "size": 8.8,
+   "testo": "guerra comune a tutti i guerrieri a un attento studio della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    224.8,
+    527.0,
+    235.3
+   ],
+   "size": 8.8,
+   "testo": "magia. I loro incantesimi integrano ed estendono le loro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    235.7,
+    515.0,
+    246.2
+   ],
+   "size": 8.8,
+   "testo": "capacità di combattimento, fornendo una protezione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    246.7,
+    534.3,
+    257.2
+   ],
+   "size": 8.8,
+   "testo": "aggiuntiva per rinforzare la loro armatura e permettendo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    257.7,
+    532.5,
+    268.3
+   ],
+   "size": 8.8,
+   "testo": "loro di affrontare molti nemici contemporaneamente con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    268.8,
+    390.2,
+    279.3
+   ],
+   "size": 8.8,
+   "testo": "una magia esplosiva.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    289.3,
+    466.1,
+    300.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: ARMA VINCOLATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    300.6,
+    512.8,
+    311.2
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero apprende un rituale che crea un vincolo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    311.6,
+    533.2,
+    322.2
+   ],
+   "size": 8.8,
+   "testo": "magico tra lui e un'arma. Il rituale dura 1 ora e può essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    322.6,
+    523.0,
+    333.2
+   ],
+   "size": 8.8,
+   "testo": "completato durante un periodo di riposo breve. L'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    333.6,
+    513.2,
+    344.1
+   ],
+   "size": 8.8,
+   "testo": "deve essere a portata di mano per tutta la durata del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    344.5,
+    514.0,
+    355.1
+   ],
+   "size": 8.8,
+   "testo": "rituale, al termine del quale il guerriero tocca l'arma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    355.5,
+    521.8,
+    366.1
+   ],
+   "size": 8.8,
+   "testo": "e forgia il vincolo. Il vincolo non può essere instaurato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    366.4,
+    517.4,
+    377.0
+   ],
+   "size": 8.8,
+   "testo": "se un altro guerriero è legato a quell'arma o se l'arma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    377.5,
+    511.5,
+    388.0
+   ],
+   "size": 8.8,
+   "testo": "è un oggetto magico con cui qualcun altro è entrato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    388.5,
+    353.5,
+    399.0
+   ],
+   "size": 8.8,
+   "testo": "in sintonia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    399.6,
+    535.4,
+    410.2
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver creato il vincolo con un'arma, quando il guer­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    410.6,
+    522.7,
+    421.2
+   ],
+   "size": 8.8,
+   "testo": "riero la impugna non può essere disarmato a meno che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    421.6,
+    530.4,
+    432.2
+   ],
+   "size": 8.8,
+   "testo": "non sia incapacitato. Il guerriero può evocare quell'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    432.6,
+    522.5,
+    443.2
+   ],
+   "size": 8.8,
+   "testo": "come azione bonus purché si trovi sul suo stesso piano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    443.6,
+    525.8,
+    454.1
+   ],
+   "size": 8.8,
+   "testo": "di esistenza, facendola teletrasportare istantaneamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    454.5,
+    370.1,
+    465.0
+   ],
+   "size": 8.8,
+   "testo": "nella sua mano.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    465.5,
+    510.1,
+    476.0
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero può essere vincolato a un massimo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    476.5,
+    527.4,
+    487.0
+   ],
+   "size": 8.8,
+   "testo": "due armi, ma può evocarne soltanto una alla volta come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    487.5,
+    523.4,
+    498.1
+   ],
+   "size": 8.8,
+   "testo": "azione bonus. Per tentare di creare un vincolo con una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    498.5,
+    529.4,
+    509.0
+   ],
+   "size": 8.8,
+   "testo": "terza arma, il guerriero deve spezzare il vincolo con una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    507.9,
+    367.3,
+    520.1
+   ],
+   "size": 8.8,
+   "testo": "delle altre due.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    530.1,
+    442.2,
+    541.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    541.4,
+    519.8,
+    552.0
+   ],
+   "size": 8.8,
+   "testo": "Il guerriero impara a lanciare incantesimi. Consulta il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    552.4,
+    534.6,
+    563.0
+   ],
+   "size": 8.8,
+   "testo": "capitolo 7 perle regole relative al lancio degli incantesimi.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    563.4,
+    523.9,
+    574.0
+   ],
+   "size": 8.8,
+   "testo": "Le informazioni sottostanti descrivono come applicare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    574.4,
+    497.2,
+    585.0
+   ],
+   "size": 8.8,
+   "testo": "tali regole alla sottoclasse del Cavaliere Mistico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.1,
+    585.4,
+    529.5,
+    596.0
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti. Il guerriero conosce due trucchetti a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    596.4,
+    524.0,
+    607.0
+   ],
+   "size": 8.8,
+   "testo": "dalla lista degli incantesimi da mago (consultabile nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    607.4,
+    527.6,
+    618.0
+   ],
+   "size": 8.8,
+   "testo": "sezione dedicata a questa classe). Sono consigliati raggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    618.5,
+    522.7,
+    629.1
+   ],
+   "size": 8.8,
+   "testo": "digelo e strettafolgorante. Ogni volta che il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    629.6,
+    537.9,
+    640.2
+   ],
+   "size": 8.8,
+   "testo": "ottiene un livello da guerriero, può sostituire uno di questi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    640.5,
+    534.6,
+    651.1
+   ],
+   "size": 8.8,
+   "testo": "trucchetti con un altro trucchetto a scelta dalla lista degli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    651.6,
+    392.2,
+    662.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da mago.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    660.4,
+    525.9,
+    673.1
+   ],
+   "size": 8.8,
+   "testo": "Quando il guerriero raggiunge il 10° livello, può impa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    673.7,
+    471.7,
+    684.2
+   ],
+   "size": 8.8,
+   "testo": "rare un altro trucchetto da mago a scelta.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

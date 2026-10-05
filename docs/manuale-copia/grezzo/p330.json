@@ -1,0 +1,1308 @@
+{
+ "pagina_pdf": 330,
+ "pagina_stampata": 327,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 327",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.7,
+    36.6,
+    281.2,
+    47.2
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, una creatura consenziente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    47.6,
+    262.6,
+    58.2
+   ],
+   "size": 8.8,
+   "testo": "toccata dall'incantatore è dotata di scurovisione fino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    58.5,
+    98.8,
+    69.1
+   ],
+   "size": 8.8,
+   "testo": "a 45 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    93.2,
+    248.2,
+    104.5
+   ],
+   "size": 11.2,
+   "testo": "SEGUGIO FEDELE DI MORDENKAINEN",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    104.7,
+    166.6,
+    115.2
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di4° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    120.3,
+    146.6,
+    130.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    131.3,
+    114.7,
+    140.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    142.3,
+    228.4,
+    152.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un fischietto d'argento)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    153.4,
+    106.5,
+    163.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    169.5,
+    258.3,
+    180.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore evoca un cane da guardia fantasma in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    180.6,
+    272.3,
+    191.1
+   ],
+   "size": 8.8,
+   "testo": "uno spazio libero entro gittata che è in grado di vedere.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    191.6,
+    274.1,
+    202.2
+   ],
+   "size": 8.8,
+   "testo": "Il segugio permane per la durata dell'incantesimo o fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    202.6,
+    265.9,
+    213.2
+   ],
+   "size": 8.8,
+   "testo": "a quando la distanza tra il segugio e l'incantatore non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    213.6,
+    171.0,
+    224.1
+   ],
+   "size": 8.8,
+   "testo": "supera i 90 metri di distanza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    224.6,
+    270.2,
+    235.2
+   ],
+   "size": 8.8,
+   "testo": "Solo l'incantatore è in grado di vedere il segugio, che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    235.6,
+    264.1,
+    246.2
+   ],
+   "size": 8.8,
+   "testo": "è intangibile e invulnerabile. Quando una creatura di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    246.5,
+    264.8,
+    257.1
+   ],
+   "size": 8.8,
+   "testo": "taglia Piccola o inferiore si avvicina entro 9 metri dal",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    257.6,
+    276.5,
+    268.1
+   ],
+   "size": 8.8,
+   "testo": "segugio senza prima aver pronunciato la parola d'ordine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    268.6,
+    277.2,
+    279.2
+   ],
+   "size": 8.8,
+   "testo": "specificata dall'incantatore al momento del lancio dell'in­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    279.7,
+    264.3,
+    290.2
+   ],
+   "size": 8.8,
+   "testo": "cantesimo, il segugio inizia ad abbaiare sonoramente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    290.6,
+    263.9,
+    301.2
+   ],
+   "size": 8.8,
+   "testo": "Il segugio ottiene vista pura con un raggio di 9 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    301.6,
+    283.0,
+    312.2
+   ],
+   "size": 8.8,
+   "testo": "All'inizio di ogni turno dell'incantatore, il segugio tenta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    312.6,
+    284.5,
+    323.2
+   ],
+   "size": 8.8,
+   "testo": "di mordere un nemico entro 1,5 metri da sé. Il nemico deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    323.5,
+    281.5,
+    334.1
+   ],
+   "size": 8.8,
+   "testo": "superare un tiro salvezza su Destrezza, altrimenti subisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    334.5,
+    133.2,
+    345.0
+   ],
+   "size": 8.8,
+   "testo": "4d8 danni da forza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    345.5,
+    273.0,
+    356.1
+   ],
+   "size": 8.8,
+   "testo": "Nei turni successivi, l'incantatore può effettuare un'a­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    356.5,
+    260.9,
+    367.1
+   ],
+   "size": 8.8,
+   "testo": "zione di Magia per spostare il segugio fino a 9 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    391.4,
+    112.6,
+    402.7
+   ],
+   "size": 11.2,
+   "testo": "SEMBRARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    402.7,
+    216.2,
+    413.3
+   ],
+   "size": 8.6,
+   "testo": "Illusione di5°livello (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    418.5,
+    146.9,
+    428.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    429.5,
+    115.0,
+    439.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    440.4,
+    121.9,
+    450.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    451.4,
+    106.5,
+    461.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    467.6,
+    281.8,
+    478.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore assegna un aspetto illusorio a ogni creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    478.6,
+    278.5,
+    489.2
+   ],
+   "size": 8.8,
+   "testo": "a sua scelta entro gittata che è in grado di vedere. Un ber­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    489.6,
+    272.6,
+    500.2
+   ],
+   "size": 8.8,
+   "testo": "saglio non consenziente può effettuare un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    500.7,
+    259.1,
+    511.2
+   ],
+   "size": 8.8,
+   "testo": "su Carisma e, se lo supera, non ne viene influenzato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    511.7,
+    277.0,
+    522.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può assegnare lo stesso aspetto o aspetti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    522.6,
+    274.8,
+    533.2
+   ],
+   "size": 8.8,
+   "testo": "diversi ai bersagli. L'incantesimo consente di modificare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    533.7,
+    263.4,
+    544.2
+   ],
+   "size": 8.8,
+   "testo": "l'aspetto fisico e l'equipaggiamento dei bersagli. Ogni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.3,
+    544.5,
+    276.8,
+    555.1
+   ],
+   "size": 8.8,
+   "testo": "creatura può apparire 30 centimetri più alta o più bassa,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    555.6,
+    283.3,
+    566.2
+   ],
+   "size": 8.8,
+   "testo": "più grassa o più magra. Il nuovo aspetto del bersaglio deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    566.6,
+    270.4,
+    577.2
+   ],
+   "size": 8.8,
+   "testo": "usare la stessa disposizione basilare degli arti del bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    577.6,
+    271.4,
+    588.2
+   ],
+   "size": 8.8,
+   "testo": "glio. Entro questi limiti, la natura dell'illusione dipende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    588.6,
+    276.0,
+    599.2
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore. L'incantesimo permane per tutta la sua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    599.6,
+    85.9,
+    610.2
+   ],
+   "size": 8.8,
+   "testo": "durata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    610.8,
+    266.6,
+    621.4
+   ],
+   "size": 8.8,
+   "testo": "I cambiamenti apportati da questo incantesimo non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    621.8,
+    267.6,
+    632.4
+   ],
+   "size": 8.8,
+   "testo": "passano il vaglio di un'ispezione fisica. Per esempio, se",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    632.8,
+    274.1,
+    643.3
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore usa questo incantesimo per aggiungere un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    643.8,
+    279.6,
+    654.4
+   ],
+   "size": 8.8,
+   "testo": "cappello all'abbigliamento della creatura, gli oggetti sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    654.8,
+    154.4,
+    665.4
+   ],
+   "size": 8.8,
+   "testo": "in grado di attraversarlo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    665.8,
+    275.1,
+    676.3
+   ],
+   "size": 8.8,
+   "testo": "Una creatura che effettua l'azione di Studio per esami­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    676.8,
+    283.1,
+    687.3
+   ],
+   "size": 8.8,
+   "testo": "nare un bersaglio può effettuare una prova di Intelligenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    687.7,
+    283.7,
+    698.3
+   ],
+   "size": 8.8,
+   "testo": "(Indagare) contro la CD del tiro salvezza sull'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    698.8,
+    246.7,
+    709.3
+   ],
+   "size": 8.8,
+   "testo": "Se la supera, capisce che il bersaglio è camuffato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    52.0,
+    368.2,
+    63.3
+   ],
+   "size": 11.2,
+   "testo": "SEMIPIANO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    63.4,
+    486.5,
+    73.8
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi8° livello (mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    79.0,
+    399.1,
+    88.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    89.9,
+    371.5,
+    99.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    100.9,
+    364.6,
+    110.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    111.9,
+    358.5,
+    121.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    128.1,
+    525.4,
+    138.7
+   ],
+   "size": 8.8,
+   "testo": "I.:incantatore crea una porta d'ombra di taglia Media su",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    139.1,
+    528.2,
+    149.6
+   ],
+   "size": 8.8,
+   "testo": "una superficie piatta e solida entro gittata che è in grado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    150.2,
+    529.7,
+    160.7
+   ],
+   "size": 8.8,
+   "testo": "di vedere. La porta può essere aperta e chiusa, e conduce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    161.1,
+    521.7,
+    171.7
+   ],
+   "size": 8.8,
+   "testo": "verso un semipiano che appare come una stanza vuota",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    172.1,
+    529.4,
+    182.7
+   ],
+   "size": 8.8,
+   "testo": "di legno o pietra (a scelta dell'incantatore) ampia 9 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    183.1,
+    385.7,
+    193.7
+   ],
+   "size": 8.8,
+   "testo": "in ogni dimensione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    194.1,
+    518.1,
+    204.7
+   ],
+   "size": 8.8,
+   "testo": "Al termine dell'incantesimo, la porta scompare e gli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    205.1,
+    519.2,
+    215.7
+   ],
+   "size": 8.8,
+   "testo": "oggetti al suo interno rimangono nel semipiano. Ciò si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    216.1,
+    524.4,
+    226.7
+   ],
+   "size": 8.8,
+   "testo": "applica anche alle creature, a meno che non scelgano di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    227.1,
+    530.1,
+    237.7
+   ],
+   "size": 8.8,
+   "testo": "venire spinte attraverso la porta mentre questa svanisce,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    238.1,
+    523.8,
+    248.7
+   ],
+   "size": 8.8,
+   "testo": "atterrando prone sugli spazi liberi più vicini allo spazio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    249.1,
+    461.5,
+    259.6
+   ],
+   "size": 8.8,
+   "testo": "occupato precedentemente dalla porta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    260.1,
+    531.1,
+    270.7
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che lancia questo incantesimo, l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    271.2,
+    530.8,
+    281.7
+   ],
+   "size": 8.8,
+   "testo": "può creare un nuovo semipiano o collegare la porta d'om­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    282.2,
+    533.1,
+    292.8
+   ],
+   "size": 8.8,
+   "testo": "bra a un semipiano da lui creato con un lancio precedente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    293.2,
+    523.4,
+    303.7
+   ],
+   "size": 8.8,
+   "testo": "di questo incantesimo. Inoltre, se l'incantatore conosce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    304.2,
+    529.9,
+    314.7
+   ],
+   "size": 8.8,
+   "testo": "la natura e i contenuti di un semipiano creato da un'altra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    315.1,
+    534.5,
+    325.7
+   ],
+   "size": 8.8,
+   "testo": "creatura lanciando questo incantesimo, può fare invece in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    326.0,
+    523.7,
+    336.6
+   ],
+   "size": 8.8,
+   "testo": "modo che la porta d'ombra si colleghi a quel semipiano.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    360.8,
+    416.5,
+    372.2
+   ],
+   "size": 11.2,
+   "testo": "SERRATURA ARCANA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    372.1,
+    422.6,
+    382.6
+   ],
+   "size": 8.6,
+   "testo": "Abiurazione di2° livello (mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    387.9,
+    399.2,
+    397.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    398.9,
+    372.0,
+    408.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    410.0,
+    517.1,
+    419.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (polvere d'oro del valore di 25 mo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    421.0,
+    487.8,
+    430.6
+   ],
+   "size": 8.4,
+   "testo": "o più, che viene consumata dall'incantesimo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    432.0,
+    434.1,
+    441.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: finché non viene dissolto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    448.1,
+    526.5,
+    458.6
+   ],
+   "size": 8.8,
+   "testo": "Toccando una porta, una finestra, un cancello, un conte­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    459.1,
+    532.4,
+    469.7
+   ],
+   "size": 8.8,
+   "testo": "nitore o una botola, l'oggetto viene sigillato magicamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    470.2,
+    525.4,
+    480.7
+   ],
+   "size": 8.8,
+   "testo": "per la durata dell'incantesimo. I.:oggetto non può essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    481.0,
+    507.5,
+    491.6
+   ],
+   "size": 8.8,
+   "testo": "aperto tramite mezzi non magici. L'incantatore e le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    492.1,
+    519.8,
+    502.7
+   ],
+   "size": 8.8,
+   "testo": "creature da lui designate al momento del lancio dell'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    503.2,
+    534.3,
+    513.7
+   ],
+   "size": 8.8,
+   "testo": "cantesimo possono aprire e chiudere l'oggetto nonostante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    514.2,
+    531.6,
+    524.7
+   ],
+   "size": 8.8,
+   "testo": "la serratura. I.:incantatore può anche stabilire una parola",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    525.2,
+    507.9,
+    535.8
+   ],
+   "size": 8.8,
+   "testo": "d'ordine che, una volta pronunciata entro 1,5 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    536.2,
+    486.0,
+    546.8
+   ],
+   "size": 8.8,
+   "testo": "dall'oggetto, lo mantiene aperto per 1 minuto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    570.9,
+    438.1,
+    582.2
+   ],
+   "size": 11.2,
+   "testo": "SERVITORE INOSSERVATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    582.4,
+    475.5,
+    592.8
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di1° livello (bardo, mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    598.0,
+    432.9,
+    607.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione o rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    609.0,
+    371.7,
+    618.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    620.1,
+    503.4,
+    629.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pezzo di spago e di legno)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    631.2,
+    359.4,
+    640.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.3,
+    647.3,
+    525.1,
+    657.9
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine di questo incantesimo, una forza Media",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    658.3,
+    519.1,
+    668.9
+   ],
+   "size": 8.8,
+   "testo": "invisibile, amorfa e priva di volontà propria svolge dei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    669.3,
+    523.0,
+    679.8
+   ],
+   "size": 8.8,
+   "testo": "compiti semplici su ordine dell'incantatore. Il servitore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    680.2,
+    525.5,
+    690.8
+   ],
+   "size": 8.8,
+   "testo": "appare sul terreno in uno spazio libero entro gittata, ha",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    691.3,
+    528.5,
+    701.9
+   ],
+   "size": 8.8,
+   "testo": "CA 10, 1 punto ferita, Forza pari a 2 e non può attaccare.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    702.2,
+    500.3,
+    712.8
+   ],
+   "size": 8.8,
+   "testo": "Se scende a 0 punti ferita, l'incantesimo termina.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

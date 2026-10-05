@@ -1,0 +1,679 @@
+{
+ "pagina_pdf": 129,
+ "pagina_stampata": 126,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   -1,
+   300,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    306.6,
+    38.6,
+    527.4,
+    55.2
+   ],
+   "size": 12.9,
+   "testo": "SOTTOCLASSI DEL MONACO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    57.0,
+    532.5,
+    67.6
+   ],
+   "size": 8.8,
+   "testo": "Le sottoclassi del monaco sono specializzazioni che confe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    68.0,
+    533.4,
+    78.6
+   ],
+   "size": 8.8,
+   "testo": "riscono dei privilegi a determinati livelli da monaco, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    78.9,
+    517.8,
+    89.5
+   ],
+   "size": 8.8,
+   "testo": "specificato in ognuna di esse. Questa sezione presenta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    90.0,
+    515.4,
+    100.6
+   ],
+   "size": 8.8,
+   "testo": "le sottoclassi Guerriero della Misericordia, Guerriero",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    101.0,
+    520.6,
+    111.6
+   ],
+   "size": 8.8,
+   "testo": "dell'Ombra, Guerriero degli Elementi e Guerriero della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    112.0,
+    362.7,
+    122.5
+   ],
+   "size": 8.8,
+   "testo": "Mano Aperta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    132.0,
+    487.9,
+    145.1
+   ],
+   "size": 9.7,
+   "testo": "GUERRIERO DEGLI ELEMENTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    149.6,
+    459.3,
+    158.9
+   ],
+   "size": 8.6,
+   "testo": "Sferra colpie raffichedipotere elementale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    163.2,
+    517.8,
+    173.8
+   ],
+   "size": 8.8,
+   "testo": "I Guerrieri degli Elementi sfruttano il potere dei Piani",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    174.3,
+    533.6,
+    184.8
+   ],
+   "size": 8.8,
+   "testo": "Elementali. Imbrigliando la loro concentrazione sopranna­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    185.2,
+    529.4,
+    195.7
+   ],
+   "size": 8.8,
+   "testo": "turale, questi monaci domano per un istante l'energia del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    196.3,
+    532.3,
+    206.8
+   ],
+   "size": 8.8,
+   "testo": "Caos Elementale per potenziarsi sia in battaglia che fuori.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    216.7,
+    517.6,
+    228.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: MANIPOLARE GLI ELEMENTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    228.1,
+    533.0,
+    238.7
+   ],
+   "size": 8.8,
+   "testo": "Il monaco conosce l'incantesimo elementalismo. La caratte­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.1,
+    239.1,
+    531.2,
+    249.7
+   ],
+   "size": 8.8,
+   "testo": "ristica da incantatore per questo incantesimo è Saggezza.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    259.5,
+    493.9,
+    270.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SINTONIA ELEMENTALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    271.0,
+    510.9,
+    281.6
+   ],
+   "size": 8.8,
+   "testo": "All'inizio del proprio turno, il monaco può spendere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    282.0,
+    531.2,
+    292.6
+   ],
+   "size": 8.8,
+   "testo": "1 punto concentrazione per infondere in se stesso energia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    293.0,
+    513.8,
+    303.6
+   ],
+   "size": 8.8,
+   "testo": "elementale. L'energia permane per 10 minuti o finché",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    304.0,
+    520.7,
+    314.6
+   ],
+   "size": 8.8,
+   "testo": "il monaco non è incapacitato. Mentre questo privilegio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    314.9,
+    443.7,
+    325.5
+   ],
+   "size": 8.8,
+   "testo": "è attivo, ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    326.1,
+    532.1,
+    336.6
+   ],
+   "size": 8.8,
+   "testo": "Portata. Quando il monaco effettua un colpo senz'armi,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    336.9,
+    511.1,
+    347.5
+   ],
+   "size": 8.8,
+   "testo": "la portata aumenta di 3 metri sotto forma di energia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    347.9,
+    465.0,
+    358.5
+   ],
+   "size": 8.8,
+   "testo": "elementale che si propaga dal suo corpo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.0,
+    359.0,
+    526.3,
+    369.5
+   ],
+   "size": 8.8,
+   "testo": "Colpi elementali. Ogni volta che un colpo senz'armi va",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    369.9,
+    526.3,
+    380.5
+   ],
+   "size": 8.8,
+   "testo": "a segno, il monaco può far sì che infligga danni da acido,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    380.9,
+    512.2,
+    391.4
+   ],
+   "size": 8.8,
+   "testo": "freddo, fulmine, fuoco o tuono invece del suo tipo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    391.9,
+    527.6,
+    402.5
+   ],
+   "size": 8.8,
+   "testo": "danno normale. Quando il monaco infligge uno di questi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    403.0,
+    519.7,
+    413.6
+   ],
+   "size": 8.8,
+   "testo": "tipi di danno, può anche costringere il bersaglio a effet­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    414.0,
+    523.9,
+    424.6
+   ],
+   "size": 8.8,
+   "testo": "tuare un tiro salvezza su Forza. Se lo fallisce, il monaco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    425.0,
+    528.5,
+    435.6
+   ],
+   "size": 8.8,
+   "testo": "può spostare il bersaglio fino a 3 metri verso di sé o nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    436.0,
+    522.0,
+    446.5
+   ],
+   "size": 8.8,
+   "testo": "direzione opposta, mentre l'energia elementale turbina",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    447.0,
+    364.7,
+    457.6
+   ],
+   "size": 8.8,
+   "testo": "intorno a esso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    467.3,
+    505.4,
+    478.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: ESPLOSIONE ELEMENTALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    478.8,
+    521.5,
+    489.3
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, il monaco può spendere 2 punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    489.7,
+    532.3,
+    500.3
+   ],
+   "size": 8.8,
+   "testo": "concentrazione per far sì che l'energia elementale esploda",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    500.7,
+    514.2,
+    511.3
+   ],
+   "size": 8.8,
+   "testo": "in una sfera di 6 metri di raggio centrata su un punto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    511.8,
+    530.3,
+    522.4
+   ],
+   "size": 8.8,
+   "testo": "entro 36 metri dal monaco. Il personaggio sceglie un tipo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    522.9,
+    493.6,
+    533.5
+   ],
+   "size": 8.8,
+   "testo": "di danno: acido, freddo, fulmine, fuoco o tuono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    533.8,
+    536.3,
+    544.4
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura nella sfera deve effettuare un tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    544.8,
+    523.2,
+    555.4
+   ],
+   "size": 8.8,
+   "testo": "su Destrezza. Se lo fallisce, subisce un numero di danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    555.8,
+    526.8,
+    566.4
+   ],
+   "size": 8.8,
+   "testo": "del tipo scelto pari a tre tiri del dado di Arti Marziali del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    566.8,
+    521.1,
+    577.3
+   ],
+   "size": 8.8,
+   "testo": "monaco. Invece, in caso di successo, la creatura colpita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    577.8,
+    456.2,
+    588.3
+   ],
+   "size": 8.8,
+   "testo": "subisce soltanto la metà di quei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    598.2,
+    495.3,
+    609.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: PASSO DEGLI ELEMENTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    609.7,
+    536.4,
+    620.3
+   ],
+   "size": 8.8,
+   "testo": "Quando la Sintonia Elementale è attiva, il monaco è dotato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    620.7,
+    527.8,
+    631.3
+   ],
+   "size": 8.8,
+   "testo": "di una velocità di volo e di una velocità di nuoto pari alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    631.8,
+    375.7,
+    642.4
+   ],
+   "size": 8.8,
+   "testo": "sua velocità base.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    652.2,
+    525.0,
+    663.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: QUINTESSENZA ELEMENTALE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    663.6,
+    530.7,
+    674.2
+   ],
+   "size": 8.8,
+   "testo": "Mentre la Sintonizzazione Elementale è attiva, il monaco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    674.6,
+    435.4,
+    685.2
+   ],
+   "size": 8.8,
+   "testo": "ottiene anche i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    685.6,
+    532.3,
+    696.1
+   ],
+   "size": 8.8,
+   "testo": "Colpipotenziati. Una volta per ogni suo turno e quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    696.5,
+    535.9,
+    707.1
+   ],
+   "size": 8.8,
+   "testo": "mette a segno un colpo senz'armi, il monaco può infliggere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    707.6,
+    507.9,
+    718.2
+   ],
+   "size": 8.8,
+   "testo": "danni extra a un bersaglio pari a un tiro del dado di",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

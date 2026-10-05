@@ -1,0 +1,1471 @@
+{
+ "pagina_pdf": 134,
+ "pagina_stampata": 131,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 131",
+ "immagini": [
+  [
+   41,
+   9,
+   589,
+   565
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.8,
+    51.0,
+    164.4,
+    61.6
+   ],
+   "size": 10.6,
+   "testo": "TRATTI DEL PALADINO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    65.4,
+    116.4,
+    76.1
+   ],
+   "size": 10.6,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.7,
+    76.3,
+    93.0,
+    87.0
+   ],
+   "size": 10.6,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    90.9,
+    98.3,
+    101.6
+   ],
+   "size": 10.6,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    105.5,
+    108.1,
+    116.2
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.7,
+    116.5,
+    118.4,
+    127.1
+   ],
+   "size": 10.6,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    131.0,
+    108.0,
+    141.7
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    142.0,
+    104.0,
+    152.7
+   ],
+   "size": 10.6,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    169.7,
+    108.0,
+    180.4
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    180.6,
+    97.8,
+    191.3
+   ],
+   "size": 10.6,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    195.3,
+    108.0,
+    206.0
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    206.3,
+    114.9,
+    217.0
+   ],
+   "size": 10.6,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.7,
+    221.9,
+    126.6,
+    232.5
+   ],
+   "size": 10.6,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    232.9,
+    87.3,
+    243.6
+   ],
+   "size": 10.6,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.8,
+    66.3,
+    199.1,
+    75.9
+   ],
+   "size": 8.4,
+   "testo": "Forza e Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.8,
+    91.8,
+    257.2,
+    101.4
+   ],
+   "size": 8.4,
+   "testo": "DlO per ogni livello da paladino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.3,
+    106.4,
+    213.5,
+    116.0
+   ],
+   "size": 8.4,
+   "testo": "Saggezza e Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.2,
+    131.8,
+    272.5,
+    141.6
+   ],
+   "size": 9.2,
+   "testo": "Due a scelta tra: Atletica, Intimidire,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.6,
+    143.9,
+    267.0,
+    153.6
+   ],
+   "size": 8.4,
+   "testo": "Intuizione, Medicina, Persuasione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.0,
+    156.1,
+    180.1,
+    165.7
+   ],
+   "size": 8.4,
+   "testo": "o Religione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.8,
+    170.6,
+    235.0,
+    180.2
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici e da guerra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.9,
+    196.2,
+    270.3,
+    205.8
+   ],
+   "size": 8.4,
+   "testo": "Armature leggere, medie e pesanti;",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.3,
+    208.2,
+    157.4,
+    217.8
+   ],
+   "size": 8.4,
+   "testo": "scudi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.7,
+    222.7,
+    277.6,
+    232.4
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e B: (A) cotta di maglia,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    134.7,
+    234.7,
+    261.5,
+    244.3
+   ],
+   "size": 8.4,
+   "testo": "scudo, spada lunga, 6 giavellotti,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.2,
+    246.7,
+    280.4,
+    256.3
+   ],
+   "size": 8.4,
+   "testo": "simbolo sacro, dotazione da sacerdote",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.0,
+    257.6,
+    216.6,
+    268.3
+   ],
+   "size": 8.8,
+   "testo": "e 9 mo; o (B) 150 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    296.7,
+    74.3,
+    347.3
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.6,
+    275.4,
+    262.5,
+    304.6
+   ],
+   "size": 6.6,
+   "testo": "PALADINI SONO ACCOMUNATI DAI LORO GIURA­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.4,
+    305.5,
+    267.8,
+    316.1
+   ],
+   "size": 8.8,
+   "testo": "menti, con cui si impegnano a combattere le forze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    72.4,
+    316.5,
+    266.3,
+    327.1
+   ],
+   "size": 8.8,
+   "testo": "della distruzione e della corruzione. Che sia stato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    327.5,
+    261.4,
+    338.1
+   ],
+   "size": 8.8,
+   "testo": "pronunciato dinanzi all'altare di una divinità, in una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    338.4,
+    274.8,
+    349.0
+   ],
+   "size": 8.8,
+   "testo": "radura sacra al cospetto degli spiriti della natura o in un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    349.4,
+    268.9,
+    360.0
+   ],
+   "size": 8.8,
+   "testo": "momento di assoluta disperazione e solitudine, il giura­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    353.4,
+    272.1,
+    371.6
+   ],
+   "size": 8.8,
+   "testo": "mento di un paladino è un vincolo potente. È la fonte di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    371.4,
+    266.2,
+    381.9
+   ],
+   "size": 8.8,
+   "testo": "potere in grado di trasformare un guerriero devoto in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    382.5,
+    149.8,
+    393.0
+   ],
+   "size": 8.8,
+   "testo": "un campione benedetto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    393.5,
+    270.7,
+    404.1
+   ],
+   "size": 8.8,
+   "testo": "I paladini si allenano per apprendere le abilità di com­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    404.5,
+    271.3,
+    415.1
+   ],
+   "size": 8.8,
+   "testo": "battimento e padroneggiare una varietà di armi e arma­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    415.5,
+    271.2,
+    426.1
+   ],
+   "size": 8.8,
+   "testo": "ture. Ciononostante, queste doti combattive passano in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    426.5,
+    284.7,
+    437.1
+   ],
+   "size": 8.8,
+   "testo": "secondo piano rispetto alle loro capacità magiche: possono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    437.5,
+    261.9,
+    448.0
+   ],
+   "size": 8.8,
+   "testo": "curare i feriti, annientare i nemici e proteggere i loro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    448.4,
+    139.8,
+    459.0
+   ],
+   "size": 8.8,
+   "testo": "alleati e gli innocenti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    459.5,
+    262.4,
+    470.1
+   ],
+   "size": 8.8,
+   "testo": "Un paladino è sempre in prima linea nella battaglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    470.5,
+    279.9,
+    481.0
+   ],
+   "size": 8.8,
+   "testo": "cosmica contro la distruzione, e la sua vita è avventurosa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    481.4,
+    273.9,
+    492.0
+   ],
+   "size": 8.8,
+   "testo": "quasi per definizione. Se i guerrieri sono già abbastanza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    492.5,
+    274.7,
+    503.1
+   ],
+   "size": 8.8,
+   "testo": "rari negli eserciti del mondo, i paladini lo sono ancora di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    503.5,
+    281.3,
+    514.1
+   ],
+   "size": 8.8,
+   "testo": "più. Chiunque senta la chiamata di questo cammino sacro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    514.5,
+    282.1,
+    525.1
+   ],
+   "size": 8.8,
+   "testo": "abbandona le proprie occupazioni per imbracciare le armi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    525.6,
+    169.1,
+    536.1
+   ],
+   "size": 8.8,
+   "testo": "e apprendere le arti magiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    545.7,
+    230.3,
+    558.8
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UN PALADINO...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    566.2,
+    239.4,
+    577.5
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    577.6,
+    266.4,
+    588.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutti i tratti nella tabella Tratti del paladino.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    586.4,
+    281.6,
+    599.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi del paladino di 1° livello elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    599.5,
+    177.6,
+    610.1
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del paladino.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    620.2,
+    238.4,
+    631.5
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    631.6,
+    281.9,
+    642.2
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i seguenti tratti dalla tabella Tratti del paladino:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    642.6,
+    282.0,
+    653.1
+   ],
+   "size": 8.8,
+   "testo": "Dado Vita, competenza nelle armi da guerra, nelle arma­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    653.6,
+    191.1,
+    664.1
+   ],
+   "size": 8.8,
+   "testo": "ture leggere, medie e negli scudi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    662.4,
+    281.4,
+    675.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi del paladino di 1° livello elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    675.5,
+    283.8,
+    686.1
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del paladino. Per determinare il numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    686.5,
+    282.4,
+    697.1
+   ],
+   "size": 8.8,
+   "testo": "di slot incantesimo disponibili, vedi le regole multiclasse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    697.5,
+    118.5,
+    708.1
+   ],
+   "size": 8.8,
+   "testo": "nel capitolo 2.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    51.4,
+    531.8,
+    64.5
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE DEL PALADINO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    67.9,
+    521.5,
+    78.5
+   ],
+   "size": 8.8,
+   "testo": "Il paladino ottiene i seguenti privilegi di classe quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    78.9,
+    525.6,
+    89.5
+   ],
+   "size": 8.8,
+   "testo": "raggiunge i livelli specificati. Tali privilegi sono elencati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    89.9,
+    444.0,
+    100.5
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi del paladino.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    110.3,
+    505.1,
+    121.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: IMPOSIZIONE DELLE MANI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    121.7,
+    528.8,
+    132.2
+   ],
+   "size": 8.8,
+   "testo": "Il tocco benedetto di un paladino è in grado di guarire le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    132.6,
+    532.8,
+    143.2
+   ],
+   "size": 8.8,
+   "testo": "ferite. Un paladino possiede una riserva di poteri curativi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    143.6,
+    516.7,
+    154.2
+   ],
+   "size": 8.8,
+   "testo": "che si ricostituisce quando completa un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    154.7,
+    512.6,
+    165.3
+   ],
+   "size": 8.8,
+   "testo": "Questa gli consente di ripristinare un numero totale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    165.7,
+    513.8,
+    176.3
+   ],
+   "size": 8.8,
+   "testo": "di punti ferita pari a cinque volte il proprio livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    176.7,
+    345.6,
+    187.3
+   ],
+   "size": 8.8,
+   "testo": "paladino.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    187.7,
+    504.5,
+    198.3
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il paladino può toccare una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    198.7,
+    526.8,
+    209.3
+   ],
+   "size": 8.8,
+   "testo": "creatura (anche se stesso) e attingere al potere della sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    209.7,
+    524.0,
+    220.3
+   ],
+   "size": 8.8,
+   "testo": "riserva per ripristinare un certo numero di punti ferita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    220.7,
+    522.1,
+    231.3
+   ],
+   "size": 8.8,
+   "testo": "in quella creatura, fino all'ammontare massimo in essa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    231.8,
+    354.7,
+    242.3
+   ],
+   "size": 8.8,
+   "testo": "disponibile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    242.7,
+    512.9,
+    253.3
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, può consumare 5 punti ferita della riserva",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    253.7,
+    529.5,
+    264.2
+   ],
+   "size": 8.8,
+   "testo": "per curare l'avvelenamento. In questo caso, i punti ferita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    264.8,
+    523.4,
+    275.4
+   ],
+   "size": 8.8,
+   "testo": "impiegati non vanno a ripristinare quelli della creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    275.8,
+    354.4,
+    286.4
+   ],
+   "size": 8.8,
+   "testo": "interessata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    296.2,
+    439.7,
+    307.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    307.6,
+    510.8,
+    318.1
+   ],
+   "size": 8.8,
+   "testo": "Il paladino impara a lanciare incantesimi attraverso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    318.5,
+    523.4,
+    329.1
+   ],
+   "size": 8.8,
+   "testo": "la preghiera e la meditazione. Consulta il capitolo 7 per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    329.5,
+    513.4,
+    340.0
+   ],
+   "size": 8.8,
+   "testo": "le regole relative al lancio degli incantesimi. Le infor­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    340.5,
+    524.0,
+    351.1
+   ],
+   "size": 8.8,
+   "testo": "mazioni sottostanti spiegano come applicare tali regole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    351.5,
+    505.5,
+    362.1
+   ],
+   "size": 8.8,
+   "testo": "agli incantesimi da paladino, elencati nella relativa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    362.4,
+    503.2,
+    373.0
+   ],
+   "size": 8.8,
+   "testo": "lista degli incantesimi più avanti nella descrizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    373.3,
+    355.0,
+    383.9
+   ],
+   "size": 8.8,
+   "testo": "della classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    384.4,
+    508.7,
+    395.0
+   ],
+   "size": 8.8,
+   "testo": "Slotincantesimo. La tabella Privilegi del paladino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    395.4,
+    528.3,
+    406.0
+   ],
+   "size": 8.8,
+   "testo": "mostra gli slot incantesimo disponibili per i propri incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    404.3,
+    525.3,
+    417.1
+   ],
+   "size": 8.8,
+   "testo": "tesimi di 1° livello o superiore. Tutti gli slot incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    417.6,
+    514.9,
+    428.2
+   ],
+   "size": 8.8,
+   "testo": "consumati vengono ripristinati una volta completato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    428.5,
+    373.0,
+    439.1
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    439.5,
+    536.2,
+    450.1
+   ],
+   "size": 8.8,
+   "testo": "Incantesimipreparati di 1° livello o superiore. Con questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    450.5,
+    531.2,
+    461.1
+   ],
+   "size": 8.8,
+   "testo": "privilegio, il personaggio prepara una lista di incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    459.4,
+    516.5,
+    472.0
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello o superiore che può lanciare. Per iniziare,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.7,
+    470.3,
+    515.7,
+    483.0
+   ],
+   "size": 8.8,
+   "testo": "sceglie due incantesimi da paladino di 1° livello. Sono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    483.4,
+    479.3,
+    494.0
+   ],
+   "size": 8.8,
+   "testo": "consigliati eroismo e punizione incandescente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    494.5,
+    507.7,
+    505.1
+   ],
+   "size": 8.8,
+   "testo": "Il numero di incantesimi nella lista aumenta man",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    505.5,
+    506.9,
+    516.1
+   ],
+   "size": 8.8,
+   "testo": "mano che il personaggio ottiene livelli da paladino,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    516.5,
+    528.9,
+    527.1
+   ],
+   "size": 8.8,
+   "testo": "come mostrato nella colonna Incantesimi preparati della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    527.6,
+    521.2,
+    538.2
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del paladino. Ogni volta che il numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    538.6,
+    527.8,
+    549.2
+   ],
+   "size": 8.8,
+   "testo": "cresce, il paladino deve scegliere altri incantesimi finché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    549.6,
+    522.1,
+    560.2
+   ],
+   "size": 8.8,
+   "testo": "il numero sulla lista non combacia con quello mostrato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    560.6,
+    526.7,
+    571.1
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi del paladino. Gli incantesimi scelti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    571.5,
+    532.0,
+    582.1
+   ],
+   "size": 8.8,
+   "testo": "devono essere di un livello di cui possiede degli slot incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    580.3,
+    528.3,
+    593.1
+   ],
+   "size": 8.8,
+   "testo": "tesimo. Per esempio, nel caso di un paladino di 5° livello,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    593.5,
+    513.5,
+    604.1
+   ],
+   "size": 8.8,
+   "testo": "la sua lista di incantesimi preparati può includere sei",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    602.3,
+    510.5,
+    615.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimi da paladino di 1° e 2° livello in qualsiasi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    615.7,
+    366.2,
+    626.3
+   ],
+   "size": 8.8,
+   "testo": "combinazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    626.8,
+    529.6,
+    637.3
+   ],
+   "size": 8.8,
+   "testo": "Se un altro privilegio gli fornisce incantesimi che sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    637.7,
+    525.9,
+    648.3
+   ],
+   "size": 8.8,
+   "testo": "sempre preparati, questi non contano ai fini del numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    648.7,
+    532.5,
+    659.3
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi preparabili con questo privilegio. Tuttavia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    659.7,
+    503.0,
+    670.3
+   ],
+   "size": 8.8,
+   "testo": "valgono comunque come incantesimi da paladino.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    670.6,
+    523.6,
+    681.2
+   ],
+   "size": 8.8,
+   "testo": "Cambiare gli incantesimi preparati. Quando completa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    681.6,
+    534.5,
+    692.2
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo, il paladino può sostituire un incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    692.7,
+    536.0,
+    703.2
+   ],
+   "size": 8.8,
+   "testo": "sulla propria lista con un altro incantesimo di cui possiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    703.6,
+    346.1,
+    714.2
+   ],
+   "size": 8.8,
+   "testo": "degli slot.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

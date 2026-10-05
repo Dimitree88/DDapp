@@ -1,0 +1,1435 @@
+{
+ "pagina_pdf": 151,
+ "pagina_stampata": 148,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "14.8 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   289,
+   422
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    52.0,
+    41.2,
+    174.1,
+    54.9
+   ],
+   "size": 10.4,
+   "testo": "BESTIA DELLA TERRA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    59.6,
+    135.5,
+    68.8
+   ],
+   "size": 9.2,
+   "testo": "Bestia media, neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    74.6,
+    235.5,
+    84.3
+   ],
+   "size": 8.4,
+   "testo": "CA 13 più il modificatore di Saggezza del ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    85.6,
+    258.4,
+    95.2
+   ],
+   "size": 8.4,
+   "testo": "PF 5 + cinque volte il livello da ranger del personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    96.6,
+    265.2,
+    106.2
+   ],
+   "size": 8.4,
+   "testo": "(la bestia ha un numero di Dadi Vita [d8] pari al livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    107.6,
+    161.4,
+    117.2
+   ],
+   "size": 8.4,
+   "testo": "da ranger del personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    118.6,
+    181.2,
+    128.2
+   ],
+   "size": 8.4,
+   "testo": "Velocità 12 metri, scalata 12 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.5,
+    132.1,
+    123.7,
+    139.5
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.2,
+    132.1,
+    201.7,
+    139.5
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    245.9,
+    132.1,
+    279.2,
+    139.5
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    141.9,
+    101.1,
+    151.5
+   ],
+   "size": 8.4,
+   "testo": "FOR 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    108.3,
+    141.9,
+    119.7,
+    151.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.8,
+    141.9,
+    178.7,
+    151.5
+   ],
+   "size": 8.4,
+   "testo": "DES 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.2,
+    141.9,
+    197.3,
+    151.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    209.5,
+    141.9,
+    256.6,
+    151.5
+   ],
+   "size": 8.4,
+   "testo": "Cos 15 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    264.1,
+    141.9,
+    274.6,
+    151.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    156.3,
+    68.1,
+    165.6
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.1,
+    156.0,
+    82.2,
+    165.7
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.7,
+    156.0,
+    99.6,
+    165.7
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    108.2,
+    149.5,
+    178.9,
+    167.1
+   ],
+   "size": 13.9,
+   "testo": "-1 J SAC 14 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.2,
+    156.1,
+    197.3,
+    165.7
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    209.1,
+    156.1,
+    256.6,
+    165.7
+   ],
+   "size": 8.4,
+   "testo": "CAR 11 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    264.3,
+    146.5,
+    279.8,
+    168.1
+   ],
+   "size": 10.8,
+   "testo": "+0 I",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    175.2,
+    231.3,
+    184.8
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 12, scurovisione 18 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    186.1,
+    250.4,
+    195.8
+   ],
+   "size": 8.4,
+   "testo": "Lingue comprende le lingue parlate dal personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    197.3,
+    263.0,
+    206.9
+   ],
+   "size": 8.4,
+   "testo": "GS Nessuno (PE 0; BC pari al bonus di competenza del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.6,
+    208.3,
+    110.0,
+    217.9
+   ],
+   "size": 8.4,
+   "testo": "personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    219.4,
+    85.3,
+    237.6
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    241.9,
+    268.2,
+    251.5
+   ],
+   "size": 8.4,
+   "testo": "Legame primordiale. Il personaggio somma il suo bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    253.5,
+    257.9,
+    263.1
+   ],
+   "size": 8.4,
+   "testo": "di competenza a qualsiasi prova di caratteristica o tiro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    264.9,
+    172.5,
+    274.5
+   ],
+   "size": 8.4,
+   "testo": "salvezza effettuato dalla bestia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    275.5,
+    89.6,
+    293.7
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    298.0,
+    272.6,
+    307.7
+   ],
+   "size": 9.2,
+   "testo": "Colpo della bestia. Tiro per colpire in mischia: i l bonus equi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    309.5,
+    273.6,
+    319.1
+   ],
+   "size": 8.4,
+   "testo": "vale al modificatore di attacco dell'incantesimo del ranger,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    321.0,
+    274.8,
+    330.7
+   ],
+   "size": 9.2,
+   "testo": "portata di 1,5 metri Colpo: 1d8 + 2 più il modificatore di Sag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    332.5,
+    272.6,
+    342.2
+   ],
+   "size": 8.4,
+   "testo": "gezza del ranger, danni contundenti, perforanti o taglienti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    343.9,
+    243.9,
+    353.6
+   ],
+   "size": 8.4,
+   "testo": "(a scelta al momento dell'evocazione della bestia).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.7,
+    355.4,
+    252.9,
+    365.1
+   ],
+   "size": 8.4,
+   "testo": "Se la bestia ha effettuato un movimento di almeno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    367.0,
+    264.3,
+    376.6
+   ],
+   "size": 8.4,
+   "testo": "6 metri in linea retta verso il bersaglio prima di colpirlo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    378.5,
+    267.2,
+    388.1
+   ],
+   "size": 8.4,
+   "testo": "quest'ultimo subisce 1d6 di danni extra dello stesso tipo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    390.0,
+    259.5,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "e cade a terra prono se è una creatura di taglia Grande",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    401.7,
+    91.7,
+    411.3
+   ],
+   "size": 8.4,
+   "testo": "o inferiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    428.2,
+    280.5,
+    439.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: ADDESTRAMENTO ECCEZIONALE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    439.6,
+    268.3,
+    450.2
+   ],
+   "size": 8.8,
+   "testo": "Quando il ranger usa un'azione bonus per ordinare alla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    450.6,
+    259.2,
+    461.1
+   ],
+   "size": 8.8,
+   "testo": "bestia primordiale di effettuare un'azione, può anche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    461.5,
+    261.9,
+    472.1
+   ],
+   "size": 8.8,
+   "testo": "impartire il comando di Scatto, Disimpegno, Schivata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    472.5,
+    229.7,
+    483.0
+   ],
+   "size": 8.8,
+   "testo": "o Aiuto sfruttando l'azione bonus della bestia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    483.5,
+    267.6,
+    494.1
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ognivolta che colpisce con un tiro per colpire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    494.4,
+    257.7,
+    505.0
+   ],
+   "size": 8.8,
+   "testo": "e infligge dei danni, è possibile scegliere tra danni da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    505.5,
+    115.1,
+    516.1
+   ],
+   "size": 8.8,
+   "testo": "forza e normali.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    526.0,
+    203.8,
+    537.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: FURIA BESTIALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    537.4,
+    247.7,
+    548.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il ranger ordina alla bestia primordiale di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    548.3,
+    261.3,
+    558.9
+   ],
+   "size": 8.8,
+   "testo": "effettuare l'azione Colpo, quest'ultima può utilizzarla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    559.4,
+    90.4,
+    570.0
+   ],
+   "size": 8.8,
+   "testo": "due volte.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    570.4,
+    265.9,
+    580.9
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, la prima volta che in ogni turno colpisce una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    581.3,
+    274.4,
+    591.9
+   ],
+   "size": 8.8,
+   "testo": "creatura sotto l'effetto del marchiodelcacciatore, la bestia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    592.3,
+    260.1,
+    602.9
+   ],
+   "size": 8.8,
+   "testo": "infligge danni da forza extra corrispondenti al danno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    603.3,
+    159.6,
+    613.9
+   ],
+   "size": 8.8,
+   "testo": "bonus di quell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    623.9,
+    250.7,
+    635.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: CONDIVIDI INCANTESIMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    635.3,
+    262.3,
+    645.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il ranger lancia un incantesimo prendendo di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    646.3,
+    263.6,
+    656.9
+   ],
+   "size": 8.8,
+   "testo": "mira se stesso, può condividerne l'effetto con la Bestia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.5,
+    657.3,
+    218.9,
+    667.9
+   ],
+   "size": 8.8,
+   "testo": "primordiale se si trova entro 9 metri da sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    34.2,
+    428.7,
+    47.3
+   ],
+   "size": 9.7,
+   "testo": "VIANDANTE FATATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    51.8,
+    437.5,
+    61.2
+   ],
+   "size": 8.6,
+   "testo": "Padroneggia la gioia e lafuriaJatata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    65.5,
+    511.8,
+    76.0
+   ],
+   "size": 8.8,
+   "testo": "Grazie al dono di un signore fatato o a un luogo nella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    76.5,
+    514.4,
+    87.1
+   ],
+   "size": 8.8,
+   "testo": "Selva Fatata che lo ha trasformato, il ranger è avvolto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    87.4,
+    524.8,
+    98.0
+   ],
+   "size": 8.8,
+   "testo": "da un'aura mistica. A prescindere da come l'ha ottenuta,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    98.4,
+    518.9,
+    109.0
+   ],
+   "size": 8.8,
+   "testo": "adesso è un Viandante Fatato. La sua risata gioiosa illu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    109.4,
+    531.0,
+    120.0
+   ],
+   "size": 8.8,
+   "testo": "mina i cuori degli oppressi e la sua abilità marziale suscita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    120.4,
+    524.0,
+    131.0
+   ],
+   "size": 8.8,
+   "testo": "terrore nei nemici, perché grande è l'allegria degli esseri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    131.4,
+    424.4,
+    142.0
+   ],
+   "size": 8.8,
+   "testo": "fatati e terribile è la loro furia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    151.9,
+    456.8,
+    163.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: COLPI TERRIBILI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    163.3,
+    518.2,
+    173.9
+   ],
+   "size": 8.8,
+   "testo": "Il ranger può potenziare i colpi della sua arma con una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    174.4,
+    527.9,
+    184.9
+   ],
+   "size": 8.8,
+   "testo": "magia che dilania la mente, proveniente dalle torbide pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    185.3,
+    526.3,
+    195.9
+   ],
+   "size": 8.8,
+   "testo": "fondità della Selva Fatata. Quando colpisce una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    196.4,
+    519.9,
+    207.0
+   ],
+   "size": 8.8,
+   "testo": "con un'arma, il ranger può infliggere 1d4 danni psichici",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    207.5,
+    532.7,
+    218.1
+   ],
+   "size": 8.8,
+   "testo": "extra al bersaglio, che può subirli solo una volta per turno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    218.4,
+    526.9,
+    229.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il ranger raggiunge il livello 11, tali danni aggiun­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    229.4,
+    389.5,
+    240.0
+   ],
+   "size": 8.8,
+   "testo": "tivi aumentano a 1d6.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    249.9,
+    498.3,
+    261.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: FASCINO ULTRATERRENO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    261.3,
+    519.1,
+    271.8
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che effettua una prova di Carisma, il ranger",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    272.3,
+    517.3,
+    282.9
+   ],
+   "size": 8.8,
+   "testo": "ottiene un bonus alla prova pari al suo modificatore di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    283.3,
+    401.4,
+    293.9
+   ],
+   "size": 8.8,
+   "testo": "Saggezza (minimo di +1).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    294.4,
+    531.1,
+    304.9
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ottiene competenza in una delle seguenti abilità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    305.4,
+    482.2,
+    316.0
+   ],
+   "size": 8.8,
+   "testo": "a scelta: Inganno, Intrattenere o Persuasione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    325.8,
+    524.8,
+    337.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL VIANDANTE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    336.5,
+    345.4,
+    347.8
+   ],
+   "size": 11.2,
+   "testo": "FATATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    347.9,
+    517.3,
+    358.4
+   ],
+   "size": 8.8,
+   "testo": "Quando il ranger raggiunge un livello specificato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    358.9,
+    525.2,
+    369.5
+   ],
+   "size": 8.8,
+   "testo": "tabella Incantesimi del Viandante Fatato, gli incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    369.9,
+    473.3,
+    380.4
+   ],
+   "size": 8.8,
+   "testo": "lì elencati sono considerati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    392.6,
+    491.1,
+    403.3
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL VIANDANTE FATATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    408.7,
+    373.8,
+    417.9
+   ],
+   "size": 8.2,
+   "testo": "Livello da ranger",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    380.9,
+    408.7,
+    429.8,
+    417.9
+   ],
+   "size": 8.2,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    338.2,
+    422.6,
+    343.7,
+    432.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    380.4,
+    423.1,
+    452.5,
+    432.3
+   ],
+   "size": 9.2,
+   "testo": "Charme su persone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    338.3,
+    437.1,
+    343.8,
+    446.7
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    380.5,
+    437.6,
+    427.2,
+    446.8
+   ],
+   "size": 9.2,
+   "testo": "Passo velato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    338.0,
+    452.4,
+    344.0,
+    462.0
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    380.5,
+    452.8,
+    445.6,
+    462.0
+   ],
+   "size": 9.2,
+   "testo": "Richiamafolletto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.3,
+    466.9,
+    347.3,
+    476.5
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    380.5,
+    467.4,
+    453.1,
+    476.6
+   ],
+   "size": 9.2,
+   "testo": "Porta dimensionale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    336.4,
+    481.4,
+    347.5,
+    491.1
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    380.5,
+    481.9,
+    416.5,
+    491.1
+   ],
+   "size": 9.2,
+   "testo": "Fuorviare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    499.3,
+    524.7,
+    509.9
+   ],
+   "size": 8.8,
+   "testo": "Il ranger possiede una benedizione fatata. Puoi scegliere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    510.4,
+    515.1,
+    520.9
+   ],
+   "size": 8.8,
+   "testo": "quale dalla tabella \"Doni della Selva Fatata\" o determi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    521.4,
+    379.4,
+    532.0
+   ],
+   "size": 8.8,
+   "testo": "narla casualmente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    544.0,
+    436.2,
+    554.7
+   ],
+   "size": 10.6,
+   "testo": "DONI DELLA SELVA FATATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.7,
+    559.9,
+    326.9,
+    569.2
+   ],
+   "size": 8.2,
+   "testo": "1d6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    335.4,
+    559.9,
+    358.3,
+    569.2
+   ],
+   "size": 8.2,
+   "testo": "Dono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    335.2,
+    573.8,
+    522.9,
+    583.5
+   ],
+   "size": 8.4,
+   "testo": "Mentre il ranger compie un riposo breve o lungo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    335.1,
+    585.8,
+    504.3,
+    595.5
+   ],
+   "size": 8.4,
+   "testo": "delle farfalle illusorie gli svolazzano intorno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    600.4,
+    321.2,
+    610.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.8,
+    600.5,
+    515.7,
+    610.1
+   ],
+   "size": 8.4,
+   "testo": "Al sorgere dell'alba, fra i capelli del ranger sboc­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    334.7,
+    612.4,
+    391.0,
+    622.0
+   ],
+   "size": 8.4,
+   "testo": "ciano dei fiori.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    627.2,
+    320.9,
+    636.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    335.3,
+    627.1,
+    520.1,
+    636.7
+   ],
+   "size": 8.4,
+   "testo": "Il ranger emana un leggero profumo di cannella,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    335.0,
+    639.1,
+    510.3,
+    648.8
+   ],
+   "size": 8.4,
+   "testo": "lavanda, noce moscata o di qualche altra erba",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.7,
+    651.1,
+    447.2,
+    660.7
+   ],
+   "size": 8.4,
+   "testo": "o spezia dall'odore gradevole.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

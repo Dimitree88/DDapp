@@ -1,0 +1,781 @@
+{
+ "pagina_pdf": 14,
+ "pagina_stampata": 11,
+ "dimensioni": [
+  588.8,
+  782.6
+ ],
+ "piede": "CAPITOLO 1 I COME SI GIOCA / II",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   551
+  ],
+  [
+   -1,
+   681,
+   589,
+   784
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    57.5,
+    393.6,
+    242.8,
+    404.3
+   ],
+   "size": 10.6,
+   "testo": "ESEMPI DI PROVE DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    409.6,
+    113.0,
+    418.9
+   ],
+   "size": 8.2,
+   "testo": "Caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    124.1,
+    409.6,
+    216.1,
+    418.8
+   ],
+   "size": 8.2,
+   "testo": "Effettua una prova per...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    423.7,
+    83.7,
+    433.3
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.5,
+    423.6,
+    262.7,
+    433.2
+   ],
+   "size": 8.4,
+   "testo": "Sollevare, spingere, tirare o rompere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.3,
+    435.6,
+    158.9,
+    445.2
+   ],
+   "size": 8.4,
+   "testo": "qualcosa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    450.1,
+    100.5,
+    459.7
+   ],
+   "size": 8.4,
+   "testo": "Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.9,
+    450.1,
+    266.3,
+    459.7
+   ],
+   "size": 8.4,
+   "testo": "Muoverti agilmente, silenziosamente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.3,
+    462.0,
+    180.6,
+    471.7
+   ],
+   "size": 8.4,
+   "testo": "o rapidamente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    476.5,
+    110.5,
+    486.1
+   ],
+   "size": 8.4,
+   "testo": "Costituzione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.4,
+    476.6,
+    265.7,
+    486.2
+   ],
+   "size": 8.4,
+   "testo": "Spingere il proprio corpo oltre i limiti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.5,
+    488.6,
+    154.9,
+    498.2
+   ],
+   "size": 8.4,
+   "testo": "normali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    503.2,
+    106.4,
+    512.9
+   ],
+   "size": 8.4,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.7,
+    503.2,
+    206.3,
+    512.9
+   ],
+   "size": 8.4,
+   "testo": "Ragionare o ricordare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    517.8,
+    97.9,
+    527.4
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.6,
+    517.8,
+    262.0,
+    527.5
+   ],
+   "size": 8.4,
+   "testo": "Notare qualcosa nell'ambiente o nel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.0,
+    529.9,
+    240.6,
+    539.5
+   ],
+   "size": 8.4,
+   "testo": "comportamento delle creature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    544.3,
+    93.5,
+    553.9
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.6,
+    544.4,
+    263.8,
+    554.1
+   ],
+   "size": 8.4,
+   "testo": "Influenzare, intrattenere o ingannare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    568.0,
+    183.3,
+    579.3
+   ],
+   "size": 11.2,
+   "testo": "BONUS DI COMPETENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.5,
+    579.4,
+    275.5,
+    590.0
+   ],
+   "size": 8.8,
+   "testo": "Si può aggiungere il proprio bonus di competenza a una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    590.4,
+    275.9,
+    601.0
+   ],
+   "size": 8.8,
+   "testo": "prova di caratteristica quando il DM determina che una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    601.4,
+    281.5,
+    612.0
+   ],
+   "size": 8.8,
+   "testo": "competenza in un'abilità o negli strumenti è rilevante per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    612.6,
+    284.2,
+    623.2
+   ],
+   "size": 8.8,
+   "testo": "la prova e si possiede tale competenza. Ad esempio, se una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    623.6,
+    267.2,
+    634.2
+   ],
+   "size": 8.8,
+   "testo": "regola fa riferimento a una prova di Forza (Acrobazia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    634.6,
+    264.8,
+    645.1
+   ],
+   "size": 8.8,
+   "testo": "o Atletica). si può aggiungere il proprio bonus di com­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    645.6,
+    275.6,
+    656.2
+   ],
+   "size": 8.8,
+   "testo": "petenza alla prova se si possiede competenza nell'abilità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    656.6,
+    263.9,
+    667.1
+   ],
+   "size": 8.8,
+   "testo": "Acrobazia o Atletica. Per ulteriori informazioni sulle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    667.5,
+    283.2,
+    678.1
+   ],
+   "size": 8.8,
+   "testo": "competenze in un'abilità o negli strumenti, vedi la sezione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    678.5,
+    227.9,
+    689.1
+   ],
+   "size": 8.8,
+   "testo": "\"Competenza\" più avanti in questo capitolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    393.9,
+    414.7,
+    405.3
+   ],
+   "size": 11.2,
+   "testo": "CLASSE DIFFICOLTÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    405.4,
+    529.9,
+    416.0
+   ],
+   "size": 8.8,
+   "testo": "La Classe Difficoltà di una prova di caratteristica rappre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    416.4,
+    529.3,
+    427.0
+   ],
+   "size": 8.8,
+   "testo": "senta la difficoltà dell'impresa. Più è difficile un'impresa,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    427.4,
+    535.8,
+    438.0
+   ],
+   "size": 8.8,
+   "testo": "più alta è la sua CD. Le regole forniscono le CD per alcune",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    438.4,
+    517.0,
+    448.9
+   ],
+   "size": 8.8,
+   "testo": "prove, ma sostanzialmente vengono stabilite dal DM.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    449.4,
+    517.7,
+    459.9
+   ],
+   "size": 8.8,
+   "testo": "La tabella Classi Difficoltà tipiche indica un ventaglio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    460.4,
+    481.6,
+    470.9
+   ],
+   "size": 8.8,
+   "testo": "di possibili CD per le prove di caratteristica.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    483.0,
+    446.6,
+    493.7
+   ],
+   "size": 10.6,
+   "testo": "(LASSI DIFFICOLTÀ TIPICHE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    499.0,
+    416.9,
+    508.2
+   ],
+   "size": 8.2,
+   "testo": "Difficoltà dell'impresa CD",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.3,
+    499.0,
+    535.0,
+    508.2
+   ],
+   "size": 8.2,
+   "testo": "Difficoltà dell'impresa CD",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    513.0,
+    359.3,
+    522.6
+   ],
+   "size": 8.4,
+   "testo": "Molto facile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    407.8,
+    513.0,
+    413.3,
+    522.6
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.1,
+    513.0,
+    461.2,
+    522.6
+   ],
+   "size": 8.4,
+   "testo": "Difficile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    522.0,
+    513.0,
+    533.7,
+    522.6
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    527.5,
+    336.4,
+    537.2
+   ],
+   "size": 8.4,
+   "testo": "Facile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    542.1,
+    338.6,
+    551.7
+   ],
+   "size": 8.4,
+   "testo": "Media",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    565.4,
+    402.6,
+    578.5
+   ],
+   "size": 9.7,
+   "testo": "TIRI SALVEZZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    405.8,
+    527.6,
+    416.8,
+    537.2
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    405.8,
+    542.1,
+    417.0,
+    551.7
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    430.1,
+    527.6,
+    484.3,
+    537.2
+   ],
+   "size": 8.4,
+   "testo": "Molto difficile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.5,
+    542.2,
+    500.4,
+    551.8
+   ],
+   "size": 8.4,
+   "testo": "Quasi impossibile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    581.8,
+    513.3,
+    592.4
+   ],
+   "size": 8.8,
+   "testo": "Un tiro salvezza rappresenta un tentativo di eludere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    522.4,
+    527.5,
+    532.6,
+    537.2
+   ],
+   "size": 8.4,
+   "testo": "25",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    522.3,
+    542.2,
+    532.9,
+    551.8
+   ],
+   "size": 8.4,
+   "testo": "30",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    592.9,
+    537.5,
+    603.5
+   ],
+   "size": 8.8,
+   "testo": "o respingere una minaccia, come ad esempio un'esplosione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    603.9,
+    521.0,
+    614.5
+   ],
+   "size": 8.8,
+   "testo": "infuocata, un'ondata di gas velenoso o un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    615.0,
+    528.2,
+    625.6
+   ],
+   "size": 8.8,
+   "testo": "che cerca di invadere la mente. Di norma i giocatori non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.5,
+    626.1,
+    520.0,
+    636.6
+   ],
+   "size": 8.8,
+   "testo": "decidono di effettuare un tiro salvezza; sono obbligati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    637.1,
+    522.1,
+    647.7
+   ],
+   "size": 8.8,
+   "testo": "a effettuarne uno quando un personaggio o un mostro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    648.0,
+    517.9,
+    658.6
+   ],
+   "size": 8.8,
+   "testo": "(se sei il DM) rischia di subire danni. Il risultato di un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    659.1,
+    513.8,
+    669.6
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza è descritto nell'effetto che l'ha causato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    670.0,
+    519.7,
+    680.5
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio non vuole resistere all'effetto, può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    681.0,
+    489.4,
+    691.6
+   ],
+   "size": 8.8,
+   "testo": "scegliere di fallire il tiro salvezza senza tirare.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

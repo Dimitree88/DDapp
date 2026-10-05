@@ -1,0 +1,3216 @@
+{
+ "pagina_pdf": 73,
+ "pagina_stampata": 70,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "70 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    52.2,
+    38.7,
+    173.4,
+    49.4
+   ],
+   "size": 10.6,
+   "testo": "PRIVILEGI DEL CHIERICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.5,
+    69.2,
+    124.5,
+    78.5
+   ],
+   "size": 8.2,
+   "testo": "Bonus di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    80.2,
+    130.7,
+    89.4
+   ],
+   "size": 8.2,
+   "testo": "Livello competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.5,
+    80.2,
+    204.2,
+    89.4
+   ],
+   "size": 8.2,
+   "testo": "Privilegi di classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    245.9,
+    69.2,
+    286.4,
+    78.4
+   ],
+   "size": 8.2,
+   "testo": "Incanalare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    251.0,
+    80.2,
+    280.7,
+    89.4
+   ],
+   "size": 8.2,
+   "testo": "divinità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    108.6,
+    69.1,
+    118.3
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    123.3,
+    68.7,
+    132.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    137.8,
+    69.0,
+    147.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    164.4,
+    68.8,
+    174.0
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    179.1,
+    69.1,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    193.6,
+    68.8,
+    203.2
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    208.4,
+    68.9,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    234.8,
+    68.9,
+    244.5
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    249.4,
+    72.6,
+    259.0
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    263.9,
+    71.1,
+    273.5
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    278.6,
+    72.3,
+    288.2
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    305.2,
+    72.3,
+    314.9
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    319.7,
+    72.7,
+    329.5
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    334.2,
+    72.3,
+    343.9
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    348.8,
+    72.6,
+    358.5
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    375.3,
+    72.3,
+    384.9
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    389.9,
+    72.4,
+    399.5
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    404.6,
+    72.3,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    419.2,
+    71.5,
+    428.8
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.1,
+    94.2,
+    112.4,
+    103.8
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.1,
+    108.7,
+    112.4,
+    118.3
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.1,
+    123.3,
+    112.4,
+    133.0
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.9,
+    137.9,
+    112.6,
+    147.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.1,
+    164.4,
+    112.2,
+    174.2
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.1,
+    179.0,
+    112.2,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.1,
+    193.7,
+    112.2,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.1,
+    208.3,
+    112.2,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    234.8,
+    112.8,
+    244.5
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    249.3,
+    112.8,
+    259.1
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    264.0,
+    112.8,
+    273.6
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    278.6,
+    112.8,
+    288.2
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.9,
+    305.1,
+    112.3,
+    315.0
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.9,
+    319.6,
+    112.3,
+    329.5
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.8,
+    334.1,
+    112.5,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.8,
+    348.7,
+    112.5,
+    358.6
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    375.4,
+    112.7,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    390.0,
+    112.7,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    404.7,
+    112.7,
+    414.3
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    100.7,
+    419.3,
+    112.7,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.2,
+    94.2,
+    238.3,
+    103.9
+   ],
+   "size": 8.4,
+   "testo": "Incantesimi, ordine divino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.3,
+    108.7,
+    208.2,
+    118.3
+   ],
+   "size": 8.4,
+   "testo": "Incanalare divinità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    123.3,
+    228.5,
+    132.9
+   ],
+   "size": 8.4,
+   "testo": "Sottoclasse del chierico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    137.9,
+    223.4,
+    147.5
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.9,
+    149.9,
+    197.6,
+    159.5
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.2,
+    164.5,
+    215.3,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "Bruciare i non morti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.2,
+    179.1,
+    239.7,
+    188.8
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.6,
+    193.7,
+    196.7,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "Colpi benedetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.4,
+    208.4,
+    223.4,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    220.3,
+    197.6,
+    229.9
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.1,
+    249.5,
+    204.1,
+    259.1
+   ],
+   "size": 8.4,
+   "testo": "Intervento divino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.4,
+    278.7,
+    223.3,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    290.7,
+    197.6,
+    300.4
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.6,
+    319.8,
+    235.5,
+    329.4
+   ],
+   "size": 8.4,
+   "testo": "Colpi benedetti migliorati",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    348.8,
+    223.3,
+    358.4
+   ],
+   "size": 8.4,
+   "testo": "Aumento dei punteggi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    360.8,
+    197.5,
+    370.5
+   ],
+   "size": 8.4,
+   "testo": "di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.4,
+    375.4,
+    239.6,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "Privilegio della sottoclasse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.1,
+    404.7,
+    182.0,
+    414.3
+   ],
+   "size": 8.4,
+   "testo": "Dono epico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    137.1,
+    419.2,
+    239.1,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "Intervento divino superiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    440.5,
+    198.8,
+    451.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 1: ORDINE DIVINO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    263.0,
+    108.6,
+    268.9,
+    118.3
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    262.8,
+    123.3,
+    268.8,
+    132.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    137.8,
+    268.9,
+    147.4
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    262.8,
+    164.5,
+    268.8,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    179.1,
+    268.5,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    193.7,
+    268.5,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    208.3,
+    268.5,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    234.9,
+    268.5,
+    244.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    249.5,
+    268.5,
+    259.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    264.0,
+    268.5,
+    273.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    278.7,
+    268.5,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    305.2,
+    268.5,
+    314.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    319.8,
+    268.5,
+    329.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    334.3,
+    268.5,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    263.0,
+    348.9,
+    268.5,
+    358.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    262.8,
+    375.4,
+    268.3,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    262.4,
+    389.9,
+    268.6,
+    399.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    262.5,
+    404.6,
+    268.7,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    262.4,
+    419.2,
+    268.6,
+    428.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    451.8,
+    275.6,
+    462.4
+   ],
+   "size": 8.8,
+   "testo": "Il chierico si dedica a uno dei seguenti ruoli sacri a scelta.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.1,
+    462.7,
+    256.7,
+    473.3
+   ],
+   "size": 8.8,
+   "testo": "Protettore. Addestrato a combattere, il chierico ha",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    473.7,
+    254.8,
+    484.3
+   ],
+   "size": 8.8,
+   "testo": "acquisito competenza con le armi da guerra e con le",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    484.7,
+    122.7,
+    495.3
+   ],
+   "size": 8.8,
+   "testo": "armature pesanti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    495.7,
+    264.9,
+    506.3
+   ],
+   "size": 8.8,
+   "testo": "Taumaturgo. Il chierico conosce un trucchetto extra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    506.7,
+    263.2,
+    517.3
+   ],
+   "size": 8.8,
+   "testo": "dalla lista degli incantesimi da chierico. Inoltre, la con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    517.8,
+    276.3,
+    528.4
+   ],
+   "size": 8.8,
+   "testo": "nessione mistica con il divino gli conferisce un bonus alle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    528.8,
+    276.4,
+    539.3
+   ],
+   "size": 8.8,
+   "testo": "prove di Intelligenza (Arcano o Religione). Il bonus è pari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    539.7,
+    235.2,
+    550.3
+   ],
+   "size": 8.8,
+   "testo": "al suo modificatore di Saggezza (minimo di +1).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    560.2,
+    235.1,
+    571.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: INCANALARE DIVINITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    571.5,
+    268.7,
+    582.1
+   ],
+   "size": 8.8,
+   "testo": "Il chierico può incanalare l'energia divina direttamente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    582.5,
+    254.4,
+    593.1
+   ],
+   "size": 8.8,
+   "testo": "dai Piani Esterni, usandola per alimentare gli effetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    593.6,
+    272.2,
+    604.1
+   ],
+   "size": 8.8,
+   "testo": "magici. Un chierico parte con due effetti: scintilla divina",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    604.6,
+    276.7,
+    615.2
+   ],
+   "size": 8.8,
+   "testo": "e scacciare non morti, ciascuno descritto di seguito. Ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    615.6,
+    270.0,
+    626.2
+   ],
+   "size": 8.8,
+   "testo": "volta che il personaggio usa Incanalare Divinità, è possi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    626.7,
+    268.0,
+    637.2
+   ],
+   "size": 8.8,
+   "testo": "bile scegliere l'effetto desiderato della classe. Con livelli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    637.7,
+    253.3,
+    648.3
+   ],
+   "size": 8.8,
+   "testo": "superiori da chierico si ottengono opzioni di effetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    648.7,
+    96.2,
+    659.2
+   ],
+   "size": 8.8,
+   "testo": "aggiuntive.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    659.7,
+    259.1,
+    670.3
+   ],
+   "size": 8.8,
+   "testo": "Il chierico può usare Incanalare Divinità due volte.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    670.7,
+    267.1,
+    681.2
+   ],
+   "size": 8.8,
+   "testo": "Per quanto riguarda gli utilizzi consumati, ne recupera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    681.7,
+    267.3,
+    692.2
+   ],
+   "size": 8.8,
+   "testo": "uno dopo aver completato un riposo breve ed entrambi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    690.8,
+    270.2,
+    703.2
+   ],
+   "size": 8.8,
+   "testo": "dopo un riposo lungo. Quando il personaggio raggiunge",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    703.6,
+    278.0,
+    714.2
+   ],
+   "size": 8.8,
+   "testo": "determinati livelli da chierico, ottiene degli usi aggiuntivi,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    334.2,
+    69.3,
+    380.0,
+    78.5
+   ],
+   "size": 8.2,
+   "testo": "Incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    291.2,
+    80.3,
+    330.9,
+    89.5
+   ],
+   "size": 8.2,
+   "testo": "Trucchetti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    338.9,
+    80.3,
+    374.6,
+    89.5
+   ],
+   "size": 8.2,
+   "testo": "preparati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    94.2,
+    313.9,
+    103.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    108.7,
+    314.1,
+    118.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    123.4,
+    313.9,
+    133.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    137.8,
+    314.2,
+    147.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    164.4,
+    314.2,
+    174.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    179.1,
+    314.2,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    193.6,
+    314.2,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    208.3,
+    314.2,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    234.8,
+    314.2,
+    244.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    249.4,
+    313.9,
+    259.1
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    264.0,
+    313.9,
+    273.6
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    278.7,
+    313.9,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    305.2,
+    313.9,
+    314.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    319.8,
+    313.9,
+    329.4
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    334.4,
+    313.8,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    348.9,
+    313.9,
+    358.5
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    375.4,
+    313.8,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    390.0,
+    313.8,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    404.7,
+    313.8,
+    414.3
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    419.2,
+    313.8,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.3,
+    94.2,
+    359.5,
+    103.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.9,
+    108.8,
+    359.4,
+    118.4
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.7,
+    123.4,
+    359.7,
+    133.0
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.9,
+    137.9,
+    359.6,
+    147.6
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.5,
+    164.6,
+    359.6,
+    174.2
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.8,
+    179.1,
+    363.4,
+    188.8
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.0,
+    193.6,
+    361.7,
+    203.2
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.0,
+    208.4,
+    363.0,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.9,
+    234.9,
+    362.9,
+    244.5
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.1,
+    249.4,
+    362.4,
+    259.1
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.0,
+    264.1,
+    362.9,
+    273.7
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.0,
+    278.7,
+    362.8,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.1,
+    305.2,
+    362.6,
+    314.8
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.1,
+    319.8,
+    362.6,
+    329.5
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.9,
+    334.4,
+    362.7,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.8,
+    348.9,
+    363.0,
+    358.5
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.8,
+    375.4,
+    363.0,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.2,
+    390.0,
+    362.4,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.5,
+    404.7,
+    360.8,
+    414.3
+   ],
+   "size": 8.4,
+   "testo": "21",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.3,
+    419.2,
+    362.6,
+    428.8
+   ],
+   "size": 8.4,
+   "testo": "22",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.0,
+    94.2,
+    391.0,
+    103.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.1,
+    108.8,
+    390.6,
+    118.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    399.4,
+    54.7,
+    512.8,
+    63.9
+   ],
+   "size": 8.2,
+   "testo": "-Slot incantesimo per livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    422.7,
+    65.7,
+    487.4,
+    75.0
+   ],
+   "size": 8.2,
+   "testo": "di incantesimo-",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.7,
+    80.4,
+    407.9,
+    89.6
+   ],
+   "size": 8.2,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.1,
+    80.4,
+    424.9,
+    89.6
+   ],
+   "size": 8.2,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    435.6,
+    80.4,
+    442.2,
+    89.6
+   ],
+   "size": 8.2,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.0,
+    80.4,
+    458.8,
+    89.6
+   ],
+   "size": 8.2,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    470.0,
+    80.4,
+    476.3,
+    89.6
+   ],
+   "size": 8.2,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    487.1,
+    80.4,
+    493.0,
+    89.6
+   ],
+   "size": 8.2,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    503.8,
+    80.4,
+    510.1,
+    89.6
+   ],
+   "size": 8.2,
+   "testo": "8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    384.6,
+    123.3,
+    390.9,
+    132.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.0,
+    123.3,
+    408.0,
+    132.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    137.9,
+    390.9,
+    147.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    138.0,
+    407.7,
+    147.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    164.5,
+    390.7,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    164.6,
+    407.7,
+    174.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.1,
+    164.5,
+    425.1,
+    174.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    179.1,
+    390.9,
+    188.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    179.2,
+    407.7,
+    188.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    179.2,
+    424.7,
+    188.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    193.7,
+    390.9,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    193.7,
+    407.7,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    193.7,
+    424.7,
+    203.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    208.3,
+    390.9,
+    218.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    208.5,
+    407.7,
+    218.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    208.5,
+    424.7,
+    218.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    208.4,
+    442.1,
+    218.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    234.9,
+    390.7,
+    244.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.0,
+    234.9,
+    407.5,
+    244.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    235.0,
+    424.7,
+    244.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.2,
+    235.0,
+    441.7,
+    244.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    249.5,
+    390.7,
+    259.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    249.5,
+    407.7,
+    259.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    249.5,
+    424.7,
+    259.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    249.5,
+    441.8,
+    259.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.2,
+    249.5,
+    459.2,
+    259.2
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    264.1,
+    390.7,
+    273.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    264.1,
+    407.7,
+    273.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    264.1,
+    424.7,
+    273.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    264.1,
+    441.8,
+    273.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.2,
+    264.1,
+    459.2,
+    273.7
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    278.7,
+    390.7,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    278.7,
+    407.7,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    278.7,
+    424.7,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    278.7,
+    441.8,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.2,
+    278.7,
+    459.2,
+    288.3
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    305.3,
+    390.7,
+    314.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    305.3,
+    407.7,
+    314.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    305.3,
+    424.7,
+    314.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    305.3,
+    441.8,
+    314.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.2,
+    305.3,
+    459.2,
+    314.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    319.8,
+    390.7,
+    329.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.2,
+    319.8,
+    407.7,
+    329.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    319.8,
+    424.7,
+    329.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    319.8,
+    441.8,
+    329.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.2,
+    319.8,
+    459.2,
+    329.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    334.4,
+    390.7,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.0,
+    334.4,
+    407.5,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    334.4,
+    424.7,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    334.4,
+    441.8,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.2,
+    334.4,
+    459.2,
+    344.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    348.9,
+    390.7,
+    358.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.0,
+    348.9,
+    407.5,
+    358.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    348.9,
+    424.7,
+    358.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    348.9,
+    441.8,
+    358.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.2,
+    348.9,
+    459.2,
+    358.6
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    375.4,
+    390.7,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.0,
+    375.4,
+    407.5,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    375.4,
+    424.7,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    375.4,
+    441.8,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.2,
+    375.4,
+    459.2,
+    385.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    390.0,
+    390.7,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.0,
+    390.0,
+    407.5,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    390.0,
+    424.7,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    390.0,
+    441.8,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.3,
+    390.0,
+    458.8,
+    399.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    404.6,
+    390.7,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.0,
+    404.6,
+    407.5,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    404.6,
+    424.7,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.1,
+    404.6,
+    441.6,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.3,
+    404.6,
+    458.8,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    470.2,
+    404.6,
+    476.2,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.5,
+    419.2,
+    390.7,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    402.0,
+    419.2,
+    407.5,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    419.2,
+    419.2,
+    424.7,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.3,
+    419.2,
+    441.8,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    453.3,
+    419.2,
+    458.8,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    470.2,
+    419.2,
+    476.2,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    487.3,
+    419.2,
+    493.3,
+    428.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    438.7,
+    517.5,
+    449.3
+   ],
+   "size": 8.8,
+   "testo": "come mostrato nella colonna Incanalare Divinità della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    449.6,
+    417.1,
+    460.2
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del chierico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    520.7,
+    80.4,
+    527.0,
+    89.6
+   ],
+   "size": 8.2,
+   "testo": "9",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    460.6,
+    529.9,
+    471.2
+   ],
+   "size": 8.8,
+   "testo": "Se un effetto di Incanalare Divinità richiede un tiro sal­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    471.6,
+    525.3,
+    482.2
+   ],
+   "size": 8.8,
+   "testo": "vezza, la CD equivale alla CD del tiro salvezza sull'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    482.6,
+    497.9,
+    493.2
+   ],
+   "size": 8.8,
+   "testo": "tesimo del privilegio Incantesimi di questa classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    493.6,
+    524.7,
+    504.1
+   ],
+   "size": 8.8,
+   "testo": "Scacciare non morti. Come azione di Magia, il chierico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    504.6,
+    515.6,
+    515.2
+   ],
+   "size": 8.8,
+   "testo": "brandisce il simbolo sacro e condanna le creature non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    515.7,
+    529.4,
+    526.3
+   ],
+   "size": 8.8,
+   "testo": "morte. Ogni non morto a scelta entro 9 metri dal chierico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    526.6,
+    519.9,
+    537.2
+   ],
+   "size": 8.8,
+   "testo": "deve effettuare un tiro salvezza su Saggezza. Se la crea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    537.7,
+    520.1,
+    548.3
+   ],
+   "size": 8.8,
+   "testo": "tura fallisce il tiro salvezza, è spaventata e incapacitata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    548.7,
+    510.2,
+    559.3
+   ],
+   "size": 8.8,
+   "testo": "per 1 minuto. Per tutta la durata, la creatura cerca di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    559.7,
+    513.7,
+    570.3
+   ],
+   "size": 8.8,
+   "testo": "allontanarsi il più possibile dal chierico durante i suoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    570.7,
+    515.7,
+    581.3
+   ],
+   "size": 8.8,
+   "testo": "turni. L'effetto termina anticipatamente se la creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    581.6,
+    510.5,
+    592.2
+   ],
+   "size": 8.8,
+   "testo": "subisce danni, o se il chierico è incapacitato o morto.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    592.6,
+    531.1,
+    603.2
+   ],
+   "size": 8.8,
+   "testo": "Scintilla divina. Come azione di Magia, il chierico punta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    603.7,
+    527.3,
+    614.2
+   ],
+   "size": 8.8,
+   "testo": "il simbolo sacro verso una creatura entro 9 metri e che si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    614.7,
+    530.8,
+    625.3
+   ],
+   "size": 8.8,
+   "testo": "trova nel suo campo visivo e concentra l'energia divina su",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    625.8,
+    526.8,
+    636.4
+   ],
+   "size": 8.8,
+   "testo": "di essa. Poi, tira 1d8 e aggiunge il suo modificatore di Sag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    636.8,
+    522.5,
+    647.4
+   ],
+   "size": 8.8,
+   "testo": "gezza. Ristora i punti ferita della creatura di un numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    647.8,
+    530.3,
+    658.4
+   ],
+   "size": 8.8,
+   "testo": "pari a quello del totale o costringe la creatura a effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    658.8,
+    530.5,
+    669.3
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Costituzione. Se lo fallisce, la creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    669.8,
+    530.6,
+    680.4
+   ],
+   "size": 8.8,
+   "testo": "subisce danni necrotici o radiosi (a scelta) pari al risultato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    680.8,
+    528.2,
+    691.4
+   ],
+   "size": 8.8,
+   "testo": "del tiro. Se invece lo supera, subisce la metà di quei danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    691.7,
+    402.3,
+    702.3
+   ],
+   "size": 8.8,
+   "testo": "(arrotondati per difetto).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    702.8,
+    526.6,
+    713.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio tira un d8 aggiuntivo quando raggiunge",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    711.6,
+    515.6,
+    724.3
+   ],
+   "size": 8.8,
+   "testo": "il 7° (2d8), il 13° (3d8) e il 18° (4d8) livello da chierico.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,1536 @@
+{
+ "pagina_pdf": 261,
+ "pagina_stampata": 258,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "258 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    55.5,
+    50.5,
+    173.2,
+    61.9
+   ],
+   "size": 11.2,
+   "testo": "CONTROLLARE ACQUA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    62.0,
+    240.6,
+    72.5
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazione di4° livello (chierico, druido, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    77.6,
+    146.8,
+    87.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    88.6,
+    119.7,
+    98.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 90 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    99.6,
+    259.1,
+    109.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una miscela di acqua e polvere)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    110.5,
+    210.0,
+    120.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    126.7,
+    275.8,
+    137.3
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, l'incantatore controlla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    137.8,
+    261.8,
+    148.3
+   ],
+   "size": 8.8,
+   "testo": "una massa d'acqua all'interno di un'area a sua scelta,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    148.8,
+    265.2,
+    159.4
+   ],
+   "size": 8.8,
+   "testo": "con un volume massimo pari a un cubo con spigolo di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    159.8,
+    270.1,
+    170.3
+   ],
+   "size": 8.8,
+   "testo": "30 metri, usando uno dei seguenti effetti. Come azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    170.8,
+    262.8,
+    181.4
+   ],
+   "size": 8.8,
+   "testo": "di Magia durante i suoi turni successivi, può ripetere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    181.9,
+    239.6,
+    192.4
+   ],
+   "size": 8.8,
+   "testo": "il medesimo effetto o sceglierne uno differente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    192.9,
+    283.8,
+    203.4
+   ],
+   "size": 8.8,
+   "testo": "Deviare la corrente. L'incantatore fa in modo che l'acqua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    203.9,
+    278.6,
+    214.5
+   ],
+   "size": 8.8,
+   "testo": "corrente nell'area si muova in una direzione scelta da lui,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    214.9,
+    276.3,
+    225.5
+   ],
+   "size": 8.8,
+   "testo": "anche se l'acqua deve risalire ostacoli e pareti o scorrere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    225.9,
+    276.6,
+    236.5
+   ],
+   "size": 8.8,
+   "testo": "in altre direzioni inverosimili. L'acqua nell'area si muove",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    236.9,
+    282.7,
+    247.4
+   ],
+   "size": 8.8,
+   "testo": "secondo le indicazioni dell'incantatore, ma una volta supe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    247.9,
+    276.2,
+    258.5
+   ],
+   "size": 8.8,
+   "testo": "rata l'area dell'incantesimo, riprende il suo corso in base",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    258.9,
+    267.0,
+    269.4
+   ],
+   "size": 8.8,
+   "testo": "al terreno. L'acqua continua a scorrere nella direzione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    269.9,
+    275.0,
+    280.5
+   ],
+   "size": 8.8,
+   "testo": "scelta fino al termine dell'incantesimo o finché l'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    281.0,
+    191.7,
+    291.5
+   ],
+   "size": 8.8,
+   "testo": "tore non sceglie un effetto diverso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    292.0,
+    275.4,
+    302.6
+   ],
+   "size": 8.8,
+   "testo": "Gorgo. L'incantatore crea un gorgo al centro dell'area,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    303.0,
+    276.1,
+    313.6
+   ],
+   "size": 8.8,
+   "testo": "che deve essere di almeno 15 metri per lato e 7,5 metri di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    314.0,
+    280.4,
+    324.6
+   ],
+   "size": 8.8,
+   "testo": "profondità. Il gorgo permane finché l'incantatore non sce­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    325.0,
+    277.0,
+    335.5
+   ],
+   "size": 8.8,
+   "testo": "glie un effetto diverso o fino al termine dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    336.0,
+    275.4,
+    346.5
+   ],
+   "size": 8.8,
+   "testo": "Il gorgo è alto 7,5 metri e ampio 1,5 metri alla base e fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    346.9,
+    264.5,
+    357.5
+   ],
+   "size": 8.8,
+   "testo": "a 15 metri alla sommità. Qualsiasi creatura nell'acqua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    357.9,
+    275.2,
+    368.5
+   ],
+   "size": 8.8,
+   "testo": "ed entro 7,5 metri dal gorgo viene trascinata per 3 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    369.0,
+    259.6,
+    379.6
+   ],
+   "size": 8.8,
+   "testo": "verso di esso. Quando una creatura viene trascinata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    380.0,
+    262.7,
+    390.5
+   ],
+   "size": 8.8,
+   "testo": "nel gorgo per la prima volta in un turno o vi finisce il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    391.0,
+    271.3,
+    401.5
+   ],
+   "size": 8.8,
+   "testo": "suo turno, effettua un tiro salvezza su Forza. In caso di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    402.1,
+    268.0,
+    412.7
+   ],
+   "size": 8.8,
+   "testo": "fallimento, la creatura subisce 2d8 danni contundenti,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    413.1,
+    284.6,
+    423.7
+   ],
+   "size": 8.8,
+   "testo": "mentre se lo supera, subisce soltanto la metà di quei danni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    424.1,
+    264.8,
+    434.6
+   ],
+   "size": 8.8,
+   "testo": "Una creatura può nuotare via dal gorgo solo se prima",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    435.1,
+    277.3,
+    445.7
+   ],
+   "size": 8.8,
+   "testo": "effettua un'azione per allontanarsi e supera una prova di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    446.1,
+    276.2,
+    456.6
+   ],
+   "size": 8.8,
+   "testo": "Forza (Atletica) contro la CD del tiro salvezza sull'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    457.1,
+    148.9,
+    467.6
+   ],
+   "size": 8.8,
+   "testo": "tesimo dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    468.0,
+    261.4,
+    478.5
+   ],
+   "size": 8.8,
+   "testo": "Inondazione. L'incantatore fa in modo che il livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    479.0,
+    268.4,
+    489.5
+   ],
+   "size": 8.8,
+   "testo": "di tutta l'acqua ferma dell'area si alzi di un massimo di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    489.9,
+    263.5,
+    500.5
+   ],
+   "size": 8.8,
+   "testo": "6 metri. Se l'incantatore sceglie un'area all'interno di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    501.0,
+    272.5,
+    511.6
+   ],
+   "size": 8.8,
+   "testo": "un grande specchio d'acqua, genera invece un'onda alta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    512.0,
+    270.1,
+    522.6
+   ],
+   "size": 8.8,
+   "testo": "6 metri che da una parte dell'area si infrange sull'altra.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    523.1,
+    283.0,
+    533.6
+   ],
+   "size": 8.8,
+   "testo": "Qualsiasi veicolo di taglia Enorme o inferiore sul percorso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    534.1,
+    270.5,
+    544.6
+   ],
+   "size": 8.8,
+   "testo": "dell'onda viene trascinato dall'altra parte dell'area e ha",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    545.1,
+    212.2,
+    555.6
+   ],
+   "size": 8.8,
+   "testo": "una probabilità del 25% di capovolgersi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    556.0,
+    257.1,
+    566.6
+   ],
+   "size": 8.8,
+   "testo": "Il livello dell'acqua rimane elevato fino al termine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    567.0,
+    264.5,
+    577.6
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo o finché l'incantatore non sceglie un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    578.0,
+    280.0,
+    588.6
+   ],
+   "size": 8.8,
+   "testo": "effetto diverso. Se questo effetto produce un'onda, questa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    588.9,
+    269.7,
+    599.5
+   ],
+   "size": 8.8,
+   "testo": "si ripete all'inizio del turno successivo dell'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    600.0,
+    211.5,
+    610.6
+   ],
+   "size": 8.8,
+   "testo": "finché l'effetto di inondazione permane.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    611.1,
+    277.2,
+    621.7
+   ],
+   "size": 8.8,
+   "testo": "Separare le acque. L'incantatore fa in modo che l'acqua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    622.1,
+    259.7,
+    632.7
+   ],
+   "size": 8.8,
+   "testo": "presente nell'area si separi, creando un canale che si",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    633.2,
+    273.6,
+    643.7
+   ],
+   "size": 8.8,
+   "testo": "estende per tutta l'area dell'incantesimo; le acque divise",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    644.2,
+    267.6,
+    654.7
+   ],
+   "size": 8.8,
+   "testo": "formano un muro su entrambi i lati. Il canale permane",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    655.1,
+    283.4,
+    665.7
+   ],
+   "size": 8.8,
+   "testo": "fino al termine dell'incantesimo o finché l'incantatore non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    666.1,
+    278.9,
+    676.7
+   ],
+   "size": 8.8,
+   "testo": "sceglie un effetto diverso. L'acqua poi riempie lentamente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    677.1,
+    270.0,
+    687.7
+   ],
+   "size": 8.8,
+   "testo": "il canale nel corso del round successivo, finché il livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    688.1,
+    219.4,
+    698.6
+   ],
+   "size": 8.8,
+   "testo": "normale dell'acqua non viene ripristinato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    50.6,
+    502.9,
+    62.0
+   ],
+   "size": 11.2,
+   "testo": "CONTROLLARE TEMPO ATMOSFERICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    62.2,
+    493.7,
+    72.6
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi8° livello (chierico, druido, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    77.7,
+    410.4,
+    87.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    88.6,
+    383.2,
+    98.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    99.7,
+    458.9,
+    109.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (incenso bruciato)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    110.6,
+    445.6,
+    120.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 8 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    126.9,
+    527.0,
+    137.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore assume il controllo del tempo atmosferico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    137.9,
+    523.1,
+    148.5
+   ],
+   "size": 8.8,
+   "testo": "entro 7,5 chilometri per la durata dell'incantesimo, che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    148.9,
+    526.8,
+    159.4
+   ],
+   "size": 8.8,
+   "testo": "dev'essere lanciato in un luogo all'aperto. L'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    159.9,
+    526.4,
+    170.4
+   ],
+   "size": 8.8,
+   "testo": "termina anticipatamente se l'incantatore si sposta in un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    171.0,
+    361.2,
+    181.5
+   ],
+   "size": 8.8,
+   "testo": "luogo chiuso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    182.0,
+    521.7,
+    192.5
+   ],
+   "size": 8.8,
+   "testo": "Quando lancia un incantesimo, l'incantatore cambia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    192.9,
+    523.7,
+    203.5
+   ],
+   "size": 8.8,
+   "testo": "le condizioni atmosferiche attuali determinate dal DM.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    204.0,
+    516.5,
+    214.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può modificare le precipitazioni, la tem­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    215.1,
+    526.8,
+    225.6
+   ],
+   "size": 8.8,
+   "testo": "peratura e il vento. Occorrono 1d4 x 10 minuti perché le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    226.0,
+    532.4,
+    236.5
+   ],
+   "size": 8.8,
+   "testo": "nuove condizioni abbiano effetto. Quando questo accade,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    237.0,
+    532.9,
+    247.5
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore le può cambiare di nuovo. Al termine dell'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    248.0,
+    516.6,
+    258.6
+   ],
+   "size": 8.8,
+   "testo": "cantesimo, il tempo atmosferico torna alla normalità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    259.0,
+    529.5,
+    269.5
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore modifica le condizioni atmosferi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    270.0,
+    531.3,
+    280.6
+   ],
+   "size": 8.8,
+   "testo": "che, trova la condizione attuale nelle tabelle seguenti e la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    281.1,
+    534.0,
+    291.6
+   ],
+   "size": 8.8,
+   "testo": "modifica di un grado, verso l'alto o verso il basso. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    292.1,
+    523.8,
+    302.7
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore cambia il vento, può modificarne anche la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    303.1,
+    348.6,
+    313.7
+   ],
+   "size": 8.8,
+   "testo": "direzione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    325.7,
+    389.2,
+    336.4
+   ],
+   "size": 10.6,
+   "testo": "PRECIPITAZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    341.5,
+    387.8,
+    350.8
+   ],
+   "size": 8.2,
+   "testo": "Grado Condizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.0,
+    354.4,
+    371.2,
+    365.1
+   ],
+   "size": 8.8,
+   "testo": "Sereno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.2,
+    370.2,
+    327.1,
+    379.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.4,
+    370.2,
+    401.3,
+    379.8
+   ],
+   "size": 8.4,
+   "testo": "Poco nuvoloso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.3,
+    384.8,
+    326.8,
+    394.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.4,
+    383.7,
+    417.1,
+    394.4
+   ],
+   "size": 8.8,
+   "testo": "Nuvoloso o nebbia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.8,
+    399.4,
+    327.0,
+    409.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.4,
+    399.4,
+    438.4,
+    409.1
+   ],
+   "size": 8.4,
+   "testo": "Pioggia, grandine o neve",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.3,
+    414.0,
+    326.8,
+    423.6
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.4,
+    414.1,
+    533.7,
+    423.8
+   ],
+   "size": 8.4,
+   "testo": "Pioggia torrenziale, grandinata violenta o tormenta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    443.6,
+    380.1,
+    454.2
+   ],
+   "size": 10.6,
+   "testo": "TEM PERATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    424.5,
+    443.7,
+    459.8,
+    454.3
+   ],
+   "size": 10.6,
+   "testo": "VENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    459.4,
+    387.3,
+    468.6
+   ],
+   "size": 8.2,
+   "testo": "Grado Condizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.7,
+    459.4,
+    454.5,
+    468.6
+   ],
+   "size": 8.2,
+   "testo": "Grado",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.3,
+    473.3,
+    372.9,
+    482.9
+   ],
+   "size": 8.4,
+   "testo": "Torrido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.0,
+    487.9,
+    327.0,
+    497.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.6,
+    487.9,
+    367.1,
+    497.5
+   ],
+   "size": 8.4,
+   "testo": "Caldo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.4,
+    488.0,
+    444.4,
+    497.6
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.2,
+    502.4,
+    326.7,
+    512.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.3,
+    502.5,
+    385.7,
+    512.1
+   ],
+   "size": 8.4,
+   "testo": "Temperato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.5,
+    502.5,
+    444.0,
+    512.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.7,
+    517.0,
+    326.9,
+    526.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.1,
+    517.1,
+    369.6,
+    526.8
+   ],
+   "size": 8.4,
+   "testo": "Fresco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.0,
+    517.1,
+    444.3,
+    526.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.2,
+    531.7,
+    326.7,
+    541.3
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.2,
+    531.7,
+    371.8,
+    541.4
+   ],
+   "size": 8.4,
+   "testo": "Freddo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    438.5,
+    531.7,
+    444.0,
+    541.4
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.9,
+    546.3,
+    327.0,
+    555.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.6,
+    546.3,
+    370.3,
+    555.9
+   ],
+   "size": 8.4,
+   "testo": "Gelido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    582.4,
+    419.2,
+    593.7
+   ],
+   "size": 11.2,
+   "testo": "CORDONE DI FRECCE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    593.8,
+    436.5,
+    604.3
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazione di2° livello (ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    609.5,
+    399.1,
+    619.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    620.5,
+    371.8,
+    630.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.4,
+    459.5,
+    504.8,
+    468.7
+   ],
+   "size": 8.2,
+   "testo": "Condizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.1,
+    473.4,
+    487.1,
+    483.0
+   ],
+   "size": 8.4,
+   "testo": "Calmo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    459.9,
+    488.1,
+    523.3,
+    497.7
+   ],
+   "size": 8.4,
+   "testo": "Vento moderato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    459.9,
+    502.6,
+    504.6,
+    512.2
+   ],
+   "size": 8.4,
+   "testo": "Vento forte",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.6,
+    517.2,
+    495.5,
+    526.9
+   ],
+   "size": 8.4,
+   "testo": "Burrasca",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    459.6,
+    531.8,
+    499.3,
+    541.5
+   ],
+   "size": 8.4,
+   "testo": "Tempesta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    631.7,
+    486.7,
+    641.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una treccia ornamentale)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    642.7,
+    358.4,
+    652.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 8 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    658.9,
+    513.9,
+    669.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca fino a quattro frecce o dardi non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    669.9,
+    516.4,
+    680.4
+   ],
+   "size": 8.8,
+   "testo": "magici e li conficca nel terreno nel suo spazio. Fino al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    680.9,
+    537.0,
+    691.4
+   ],
+   "size": 8.8,
+   "testo": "termine dell'incantesimo, le munizioni non possono essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    691.8,
+    534.1,
+    702.4
+   ],
+   "size": 8.8,
+   "testo": "estratte fisicamente, e ogni volta che una creatura diversa",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

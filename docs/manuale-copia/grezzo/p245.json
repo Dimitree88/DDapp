@@ -1,0 +1,1177 @@
+{
+ "pagina_pdf": 245,
+ "pagina_stampata": 242,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "242 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   4,
+   49,
+   292,
+   681
+  ],
+  [
+   839,
+   184,
+   1326,
+   671
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.9,
+    98.5,
+    124.4,
+    105.2
+   ],
+   "size": 5.4,
+   "testo": "UN BRACIERE SOTTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    106.6,
+    152.9,
+    114.9
+   ],
+   "size": 5.4,
+   "testo": "L'EFFE TTO OELLINC/\\NTESIMO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    117.1,
+    117.0,
+    126.1
+   ],
+   "size": 6.9,
+   "testo": "ANIMARE OGGETTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    378.9,
+    174.0,
+    392.6
+   ],
+   "size": 10.4,
+   "testo": "0CCETTO ANIMATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    397.2,
+    236.4,
+    406.4
+   ],
+   "size": 9.2,
+   "testo": "Costrutto Enorme o inferiore, senza allineamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    412.2,
+    79.7,
+    421.8
+   ],
+   "size": 8.4,
+   "testo": "CA 15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    423.3,
+    250.2,
+    432.9
+   ],
+   "size": 8.4,
+   "testo": "PF 10 (taglia Media o inferiore), 20 (taglia Grande),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    434.2,
+    133.2,
+    443.8
+   ],
+   "size": 8.4,
+   "testo": "40 (taglia Enorme)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    445.3,
+    102.3,
+    454.9
+   ],
+   "size": 8.4,
+   "testo": "Velocità 9 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.9,
+    458.6,
+    127.2,
+    466.0
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    468.5,
+    103.8,
+    478.1
+   ],
+   "size": 8.4,
+   "testo": "FoR 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.8,
+    468.9,
+    122.6,
+    477.9
+   ],
+   "size": 6.9,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    482.9,
+    71.6,
+    492.2
+   ],
+   "size": 8.2,
+   "testo": "INT",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.7,
+    483.1,
+    85.0,
+    492.1
+   ],
+   "size": 6.9,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    482.6,
+    105.3,
+    492.3
+   ],
+   "size": 8.4,
+   "testo": "-4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.5,
+    482.9,
+    123.4,
+    492.2
+   ],
+   "size": 8.2,
+   "testo": "-4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    171.5,
+    458.6,
+    204.9,
+    466.0
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.2,
+    468.5,
+    182.6,
+    478.2
+   ],
+   "size": 8.4,
+   "testo": "DES 10 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    189.4,
+    469.0,
+    201.0,
+    478.0
+   ],
+   "size": 6.9,
+   "testo": "+0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.7,
+    483.0,
+    151.3,
+    492.2
+   ],
+   "size": 8.2,
+   "testo": "SAG",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    157.2,
+    483.1,
+    162.5,
+    492.2
+   ],
+   "size": 6.9,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    170.7,
+    482.7,
+    201.4,
+    492.3
+   ],
+   "size": 8.4,
+   "testo": "-4 -4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.2,
+    458.8,
+    282.7,
+    466.2
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    212.3,
+    468.5,
+    260.3,
+    478.1
+   ],
+   "size": 8.4,
+   "testo": "Cos 10 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    267.2,
+    468.9,
+    278.8,
+    478.0
+   ],
+   "size": 6.9,
+   "testo": "+0",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    212.5,
+    483.0,
+    229.1,
+    492.2
+   ],
+   "size": 8.2,
+   "testo": "CAR",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    248.4,
+    482.7,
+    260.0,
+    492.4
+   ],
+   "size": 8.4,
+   "testo": "-5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.9,
+    482.7,
+    278.4,
+    492.4
+   ],
+   "size": 8.4,
+   "testo": "-5",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    501.7,
+    244.5,
+    511.3
+   ],
+   "size": 8.4,
+   "testo": "Immunità affascinato, avvelenato, indebolimento,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    512.7,
+    217.3,
+    522.3
+   ],
+   "size": 8.4,
+   "testo": "paralizzato, psichico, spaventato, veleno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    523.7,
+    217.7,
+    533.3
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 6, vista cieca 9 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    534.7,
+    253.8,
+    544.3
+   ],
+   "size": 8.4,
+   "testo": "Lingue comprende le lingue parlate dal personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    545.7,
+    264.1,
+    555.3
+   ],
+   "size": 8.4,
+   "testo": "GS nessuno (PE 0; BC pari al bonus di competenza del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.8,
+    556.6,
+    112.6,
+    566.3
+   ],
+   "size": 8.4,
+   "testo": "personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    567.7,
+    93.0,
+    586.0
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    590.1,
+    257.1,
+    599.8
+   ],
+   "size": 9.2,
+   "testo": "Schianto. Tiro per colpire in mischia: i l bonus equivale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    601.8,
+    259.4,
+    611.4
+   ],
+   "size": 8.4,
+   "testo": "al modificatore di attacco dell'incantesimo del ranger,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    613.3,
+    266.9,
+    623.1
+   ],
+   "size": 9.2,
+   "testo": "portata di 1,5 metri Colpo: Danni da forza pari a 1d4 + 3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    624.9,
+    257.6,
+    634.5
+   ],
+   "size": 8.4,
+   "testo": "(taglia Media o inferiore), 2d6 + 3 + il modificatore di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    636.5,
+    282.6,
+    646.1
+   ],
+   "size": 8.4,
+   "testo": "caratteristica da incantatore dell'incantatore (taglia Grande)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    648.0,
+    275.2,
+    657.6
+   ],
+   "size": 8.4,
+   "testo": "o 2d12 + 3 + il modificatore di caratteristica da incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    659.4,
+    179.2,
+    669.1
+   ],
+   "size": 8.4,
+   "testo": "dell'incantatore (taglia Enorme).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    38.1,
+    324.8,
+    47.2
+   ],
+   "size": 6.9,
+   "testo": "P'\"\"",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    52.9,
+    411.2,
+    64.2
+   ],
+   "size": 11.2,
+   "testo": "ANIMARE OGGETTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    64.4,
+    492.1,
+    74.8
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazione di5° livello (bardo, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    79.9,
+    399.4,
+    89.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    90.9,
+    372.1,
+    100.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    101.9,
+    374.3,
+    111.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    112.9,
+    460.7,
+    122.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    129.1,
+    500.0,
+    139.7
+   ],
+   "size": 8.8,
+   "testo": "Gli oggetti si animano su ordine dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    140.1,
+    519.4,
+    150.7
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie un numero di oggetti non magici",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    151.1,
+    505.2,
+    161.7
+   ],
+   "size": 8.8,
+   "testo": "entro gittata che non siano indossati o trasportati,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    162.1,
+    525.2,
+    172.7
+   ],
+   "size": 8.8,
+   "testo": "fissati su una superficie o di dimensioni Mastodontiche.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    173.2,
+    534.7,
+    183.8
+   ],
+   "size": 8.8,
+   "testo": "Il numero massimo di oggetti è uguale al suo modificatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    184.1,
+    510.0,
+    194.7
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica da incantatore; per questo numero,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    195.2,
+    508.2,
+    205.8
+   ],
+   "size": 8.8,
+   "testo": "un bersaglio di taglia Media o inferiore conta come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    206.3,
+    515.1,
+    216.8
+   ],
+   "size": 8.8,
+   "testo": "un oggetto, un bersaglio di taglia Grande conta come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    217.2,
+    475.9,
+    227.8
+   ],
+   "size": 8.8,
+   "testo": "due e un bersaglio Enorme conta come tre.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    228.2,
+    518.7,
+    238.7
+   ],
+   "size": 8.8,
+   "testo": "Ogni bersaglio si anima e diventa un costrutto prov­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    239.2,
+    513.7,
+    249.8
+   ],
+   "size": 8.8,
+   "testo": "visto di gambe che utilizza la scheda delle statistiche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    250.3,
+    532.5,
+    260.8
+   ],
+   "size": 8.8,
+   "testo": "dell'oggetto animato; questa creatura è sotto il controllo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    261.2,
+    530.3,
+    271.7
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore fino al termine dell'incantesimo o finché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    272.3,
+    523.3,
+    282.8
+   ],
+   "size": 8.8,
+   "testo": "non viene ridotta a 0 punti ferita. Ogni creatura creata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    283.3,
+    525.2,
+    293.9
+   ],
+   "size": 8.8,
+   "testo": "con questo incantesimo diventa un alleato per l'incanta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    294.3,
+    522.2,
+    304.9
+   ],
+   "size": 8.8,
+   "testo": "tore e i suoi alleati. In combattimento, la creatura ha lo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    305.2,
+    527.0,
+    315.8
+   ],
+   "size": 8.8,
+   "testo": "stesso punteggio di iniziativa dell'incantatore, ma inizia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    316.3,
+    453.8,
+    326.8
+   ],
+   "size": 8.8,
+   "testo": "il turno immediatamente dopo il suo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    327.3,
+    524.6,
+    337.9
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, come azione bonus,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    338.2,
+    527.0,
+    348.8
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore può comandare mentalmente qualsiasi cre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.7,
+    349.2,
+    527.6,
+    359.8
+   ],
+   "size": 8.8,
+   "testo": "atura creata con questo incantesimo, a patto che si trovi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    360.2,
+    531.4,
+    370.7
+   ],
+   "size": 8.8,
+   "testo": "entro 150 metri da sé (se controlla varie creature, l'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    371.2,
+    525.2,
+    381.8
+   ],
+   "size": 8.8,
+   "testo": "tatore può comandarne più di una allo stesso momento,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    382.2,
+    503.1,
+    392.7
+   ],
+   "size": 8.8,
+   "testo": "impartendo lo stesso comando a ciascuna di loro).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    393.2,
+    514.8,
+    403.8
+   ],
+   "size": 8.8,
+   "testo": "Se invece non impartisce alcun comando, la creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    404.3,
+    522.1,
+    414.9
+   ],
+   "size": 8.8,
+   "testo": "effettua l'azione Schivata e si sposta solo per evitare di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    415.3,
+    529.8,
+    425.9
+   ],
+   "size": 8.8,
+   "testo": "subire danni. Quando la creatura scende a 0 punti ferita,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    426.3,
+    530.7,
+    436.8
+   ],
+   "size": 8.8,
+   "testo": "riassume la sua forma di oggetto, a cui vengono trasferiti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    437.2,
+    413.3,
+    447.8
+   ],
+   "size": 8.8,
+   "testo": "eventuali danni rimanenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    450.0,
+    510.7,
+    458.6
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    459.2,
+    512.3,
+    469.7
+   ],
+   "size": 8.8,
+   "testo": "I danni da Schianto della creatura aumentano di 1d4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    470.2,
+    511.0,
+    480.7
+   ],
+   "size": 8.8,
+   "testo": "(taglia Media o inferiore), 1d6 (taglia Grande) o 1d12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    479.1,
+    516.4,
+    491.9
+   ],
+   "size": 8.8,
+   "testo": "(taglia Enorme) per ogni slot di livello superiore al 5°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    516.0,
+    429.3,
+    527.3
+   ],
+   "size": 11.2,
+   "testo": "ANTI-INDIVIDUAZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    527.5,
+    475.3,
+    537.9
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi3° livello (bardo, mago, ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    543.0,
+    398.9,
+    552.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    554.0,
+    371.6,
+    563.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    565.0,
+    518.1,
+    574.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pizzico di polvere di diamante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    576.0,
+    521.0,
+    585.6
+   ],
+   "size": 8.4,
+   "testo": "del valore di 25 mo o più, che l'incantesimo consuma)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    587.0,
+    358.1,
+    596.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: 8 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    603.2,
+    518.5,
+    613.8
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, l'incantatore nasconde",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    614.3,
+    534.8,
+    624.9
+   ],
+   "size": 8.8,
+   "testo": "agli incantesimi di divinazione un bersaglio da lui toccato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    625.3,
+    533.3,
+    635.9
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio può essere una creatura consenziente, oppure",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    636.4,
+    505.6,
+    647.0
+   ],
+   "size": 8.8,
+   "testo": "un luogo o un oggetto non più grande di 3 metri in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    647.3,
+    521.2,
+    657.9
+   ],
+   "size": 8.8,
+   "testo": "qualsiasi dimensione. Il bersaglio non può essere preso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    658.4,
+    529.9,
+    668.9
+   ],
+   "size": 8.8,
+   "testo": "di mira da alcun incantesimo di divinazione né percepito",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    669.4,
+    442.1,
+    680.0
+   ],
+   "size": 8.8,
+   "testo": "da sensori di scrutamento magico.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

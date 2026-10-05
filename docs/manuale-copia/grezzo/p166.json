@@ -1,0 +1,660 @@
+{
+ "pagina_pdf": 166,
+ "pagina_stampata": 163,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.7,
+    35.9,
+    268.1,
+    46.4
+   ],
+   "size": 8.8,
+   "testo": "di vantaggio o svantaggio, lo stregone può usare la sua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    46.9,
+    259.3,
+    57.4
+   ],
+   "size": 8.8,
+   "testo": "reazione per annullare l'effetto del vantaggio o dello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    57.9,
+    100.0,
+    68.4
+   ],
+   "size": 8.8,
+   "testo": "svantaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    68.9,
+    256.0,
+    79.4
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può utilizzare questo privilegio un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    79.8,
+    262.1,
+    90.4
+   ],
+   "size": 8.8,
+   "testo": "numero di volte pari al valore del suo modificatore di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    90.8,
+    258.1,
+    101.4
+   ],
+   "size": 8.8,
+   "testo": "Carisma (minimo di una volta) e recuperare tutti gli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    101.8,
+    261.0,
+    112.4
+   ],
+   "size": 8.8,
+   "testo": "utilizzi consumati quando completa un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    122.3,
+    242.7,
+    133.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: BASTIONE DELLA LEGGE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.1,
+    133.6,
+    268.0,
+    144.2
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone può utilizzare la grande equazione dell'esi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    144.6,
+    270.8,
+    155.2
+   ],
+   "size": 8.8,
+   "testo": "stenza per proteggere una creatura con uno splendente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    155.7,
+    263.2,
+    166.2
+   ],
+   "size": 8.8,
+   "testo": "scudo di ordine. Come azione di Magia, può spendere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    166.7,
+    277.2,
+    177.2
+   ],
+   "size": 8.8,
+   "testo": "da 1 a 5 punti stregoneria per creare una barriera magica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    177.6,
+    265.7,
+    188.2
+   ],
+   "size": 8.8,
+   "testo": "attorno a se stesso o a un'altra creatura che è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    188.7,
+    250.9,
+    199.2
+   ],
+   "size": 8.8,
+   "testo": "di vedere in un raggio di 9 metri da sé. La barriera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    199.6,
+    254.6,
+    210.2
+   ],
+   "size": 8.8,
+   "testo": "è rappresentata da un numero di d8 pari al numero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    210.7,
+    262.9,
+    221.2
+   ],
+   "size": 8.8,
+   "testo": "di punti stregoneria spesi per crearla. Quando la crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    221.7,
+    263.4,
+    232.3
+   ],
+   "size": 8.8,
+   "testo": "tura protetta subisce danni, può spendere un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    232.7,
+    263.9,
+    243.3
+   ],
+   "size": 8.8,
+   "testo": "qualsiasi di questi dadi, tirarli e ridurre i danni di una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    243.7,
+    208.3,
+    254.2
+   ],
+   "size": 8.8,
+   "testo": "quantità pari al risultato totale del tiro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    254.7,
+    255.2,
+    265.3
+   ],
+   "size": 8.8,
+   "testo": "La barriera dura finché lo stregone non completa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    265.8,
+    247.1,
+    276.3
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo o finché non usa di nuovo questo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    276.8,
+    95.3,
+    287.3
+   ],
+   "size": 8.8,
+   "testo": "privilegio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    297.2,
+    237.1,
+    308.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: TRANCE DELL'ORDINE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    308.5,
+    249.5,
+    319.1
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone ottiene l'abilità di allineare la propria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    319.5,
+    253.2,
+    330.1
+   ],
+   "size": 8.8,
+   "testo": "coscienza ai sempiterni calcoli di Mechanus. Come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    330.5,
+    269.7,
+    341.1
+   ],
+   "size": 8.8,
+   "testo": "azione bonus, può entrare in questo stato per 1 minuto,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.5,
+    341.5,
+    247.6,
+    352.0
+   ],
+   "size": 8.8,
+   "testo": "durante il quale i tiri per colpire contro di lui non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    352.4,
+    266.2,
+    363.0
+   ],
+   "size": 8.8,
+   "testo": "possono disporre di vantaggio; inoltre, se effettua una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    363.4,
+    259.9,
+    373.9
+   ],
+   "size": 8.8,
+   "testo": "prova con d20 e ottiene un risultato di 9 o inferiore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    374.4,
+    197.0,
+    385.0
+   ],
+   "size": 8.8,
+   "testo": "può invece considerarlo come un 10.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    385.4,
+    271.7,
+    396.0
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    396.5,
+    258.7,
+    407.0
+   ],
+   "size": 8.8,
+   "testo": "può riutilizzarlo prima di aver completato un riposo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    407.5,
+    259.4,
+    418.1
+   ],
+   "size": 8.8,
+   "testo": "lungo; può ignorare questo limite spendendo 5 punti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    418.6,
+    205.9,
+    429.1
+   ],
+   "size": 8.8,
+   "testo": "stregoneria (nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    439.0,
+    254.0,
+    450.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: CAVALLERIA MECCANICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    450.3,
+    273.4,
+    460.8
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone evoca momentaneamente spiriti dell'ordine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    461.4,
+    255.9,
+    472.0
+   ],
+   "size": 8.8,
+   "testo": "per rimuovere ogni forma di disordine attorno a sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    472.3,
+    275.6,
+    482.9
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, può evocare gli spiriti in un cubo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    483.2,
+    277.2,
+    493.8
+   ],
+   "size": 8.8,
+   "testo": "con spigolo di 9 metri originato dallo stregone. Gli spiriti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    494.3,
+    273.3,
+    504.9
+   ],
+   "size": 8.8,
+   "testo": "hanno l'aspetto di modron o altri costrutti a scelta dello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    505.4,
+    262.7,
+    515.9
+   ],
+   "size": 8.8,
+   "testo": "stregone. Sono intangibili e invulnerabili, e generano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    516.3,
+    265.3,
+    526.9
+   ],
+   "size": 8.8,
+   "testo": "i seguenti effetti all'interno del cubo prima di svanire.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    527.4,
+    268.6,
+    537.9
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questa azione, il personaggio non può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    538.4,
+    267.6,
+    549.0
+   ],
+   "size": 8.8,
+   "testo": "riutilizzarla prima di aver completato un riposo lungo;",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    549.4,
+    279.4,
+    559.9
+   ],
+   "size": 8.8,
+   "testo": "può ignorare questo limite spendendo 7 punti stregoneria",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    560.4,
+    159.1,
+    570.9
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    571.3,
+    261.6,
+    581.9
+   ],
+   "size": 8.8,
+   "testo": "Guarigione. Gli spiriti ripristinano fino a 100 punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    582.3,
+    276.0,
+    592.9
+   ],
+   "size": 8.8,
+   "testo": "ferita, divisi a scelta dello stregone tra qualsiasi creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    593.3,
+    133.8,
+    603.9
+   ],
+   "size": 8.8,
+   "testo": "all'interno del cubo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    604.4,
+    263.0,
+    615.0
+   ],
+   "size": 8.8,
+   "testo": "Riparazione. Ogni oggetto danneggiato che si trova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    615.5,
+    265.2,
+    626.1
+   ],
+   "size": 8.8,
+   "testo": "interamente nel cubo viene riparato istantaneamente.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.8,
+    624.3,
+    249.5,
+    637.1
+   ],
+   "size": 8.8,
+   "testo": "Dissoluzione. Qualsiasi incantesimo di 6° livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    637.5,
+    256.9,
+    648.1
+   ],
+   "size": 8.8,
+   "testo": "o inferiore attivo su creature e oggetti a scelta dello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    648.5,
+    271.2,
+    659.1
+   ],
+   "size": 8.8,
+   "testo": "stregone all'interno del cubo termina immediatamente.",
+   "col": "S",
+   "corta": false
+  }
+ ]
+}

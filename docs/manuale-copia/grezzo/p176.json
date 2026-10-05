@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 176,
+ "pagina_stampata": 173,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   257,
+   -1,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.9,
+    37.8,
+    264.2,
+    48.4
+   ],
+   "size": 8.8,
+   "testo": "al modificatore di Carisma del warlock x 1,5 (minimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    48.8,
+    280.4,
+    59.4
+   ],
+   "size": 8.8,
+   "testo": "di 1,5 chilometri). Affinché si capiscano, i due devono par­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    59.8,
+    284.0,
+    70.4
+   ],
+   "size": 8.8,
+   "testo": "lare mentalmente in una lingua comprensibile a entrambi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.8,
+    70.8,
+    270.1,
+    81.4
+   ],
+   "size": 8.8,
+   "testo": "La connessione telepatica dura un numero di minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    81.9,
+    283.3,
+    92.5
+   ],
+   "size": 8.8,
+   "testo": "pari al livello da warlock del personaggio e termina prima",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    92.8,
+    261.3,
+    103.4
+   ],
+   "size": 8.8,
+   "testo": "se viene utilizzata per stabilire un collegamento con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    103.7,
+    126.6,
+    114.3
+   ],
+   "size": 8.8,
+   "testo": "un'altra creatura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    124.2,
+    282.4,
+    135.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: GUERRIERO CHIAROVEGGENTE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    135.6,
+    272.6,
+    146.2
+   ],
+   "size": 8.8,
+   "testo": "Quando il warlock forma un legame telepatico con una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    146.6,
+    279.7,
+    157.2
+   ],
+   "size": 8.8,
+   "testo": "creatura utilizzando Mente Risvegliata, può costringerla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    157.7,
+    284.2,
+    168.3
+   ],
+   "size": 8.8,
+   "testo": "a effettuare un tiro salvezza su Saggezza contro la sua CD",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    168.7,
+    278.0,
+    179.2
+   ],
+   "size": 8.8,
+   "testo": "del tiro salvezza sull'incantesimo. Se fallisce, la creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    179.7,
+    267.9,
+    190.3
+   ],
+   "size": 8.8,
+   "testo": "ha svantaggio ai tiri per colpire contro il personaggio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    190.7,
+    286.5,
+    201.3
+   ],
+   "size": 8.8,
+   "testo": "mentre quest'ultimo ha vantaggio ai tiri per colpire contro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    201.7,
+    236.7,
+    212.3
+   ],
+   "size": 8.8,
+   "testo": "quella creatura per tutta la durata del legame.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    212.7,
+    274.6,
+    223.2
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    223.8,
+    285.2,
+    234.3
+   ],
+   "size": 8.8,
+   "testo": "può riutilizzarlo prima di avercompletato un riposo breve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    234.8,
+    272.8,
+    245.3
+   ],
+   "size": 8.8,
+   "testo": "o lungo; può ignorare questo limite spendendo uno slot",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    245.7,
+    255.1,
+    256.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimo della Magia del Patto (nessuna azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    256.6,
+    97.4,
+    267.2
+   ],
+   "size": 8.8,
+   "testo": "richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    277.2,
+    236.7,
+    288.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: SCUDO DEL PENSIERO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    288.6,
+    278.1,
+    299.2
+   ],
+   "size": 8.8,
+   "testo": "I pensieri del warlock non possono essere letti per mezzi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    299.6,
+    275.9,
+    310.1
+   ],
+   "size": 8.8,
+   "testo": "telepatici o di altro tipo, a meno che non sia lui a consen­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    310.6,
+    266.4,
+    321.2
+   ],
+   "size": 8.8,
+   "testo": "tirlo. Inoltre, acquisisce resistenza ai danni psichici e,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    321.5,
+    281.4,
+    332.1
+   ],
+   "size": 8.8,
+   "testo": "ogni volta che una creatura gli infligge danni di quel tipo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    332.4,
+    271.7,
+    343.0
+   ],
+   "size": 8.8,
+   "testo": "tale creatura subisce la stessa quantità di danni inflitta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    343.5,
+    117.2,
+    354.0
+   ],
+   "size": 8.8,
+   "testo": "al personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    363.9,
+    242.0,
+    375.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: SORTILEGIO OccULTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    375.2,
+    267.8,
+    385.7
+   ],
+   "size": 8.8,
+   "testo": "Il patrono alieno conferisce al warlock il potere di sca­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    386.3,
+    279.2,
+    396.9
+   ],
+   "size": 8.8,
+   "testo": "gliare una potente maledizione, per questo l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.5,
+    397.3,
+    276.5,
+    407.9
+   ],
+   "size": 8.8,
+   "testo": "sortilegio è sempre considerato come preparato. Quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    408.4,
+    283.4,
+    419.0
+   ],
+   "size": 8.8,
+   "testo": "il personaggio lancia sortilegio e sceglie una caratteristica,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    419.5,
+    281.1,
+    430.1
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio avrà svantaggio ai tiri salvezza sulla caratteri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    430.4,
+    242.7,
+    441.0
+   ],
+   "size": 8.8,
+   "testo": "stica selezionata per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    450.8,
+    228.0,
+    462.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: CREARE SERVITORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    462.2,
+    264.0,
+    472.7
+   ],
+   "size": 8.8,
+   "testo": "Quando il warlock lancia evoca aberrazione, può farlo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    473.2,
+    270.8,
+    483.7
+   ],
+   "size": 8.8,
+   "testo": "senza che abbia bisogno di concentrazione. In tal caso,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    484.1,
+    260.4,
+    494.7
+   ],
+   "size": 8.8,
+   "testo": "la durata dell'incantesimo per quel lancio diventa di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    495.2,
+    284.5,
+    505.7
+   ],
+   "size": 8.8,
+   "testo": "1 minuto e, una volta evocata, l'aberrazione ha un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    506.2,
+    271.0,
+    516.8
+   ],
+   "size": 8.8,
+   "testo": "di punti ferita temporanei pari al livello da warlock del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    517.2,
+    242.3,
+    527.8
+   ],
+   "size": 8.8,
+   "testo": "personaggio più il suo modificatore di Carisma.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    528.3,
+    271.4,
+    538.8
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, la prima volta a ogni turno che l'aberrazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    539.3,
+    260.2,
+    549.8
+   ],
+   "size": 8.8,
+   "testo": "colpisce una creatura sotto l'effetto del sortilegio del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    550.2,
+    282.8,
+    560.8
+   ],
+   "size": 8.8,
+   "testo": "warlock, l'aberrazione le infligge danni psichici extra pari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    561.2,
+    201.1,
+    571.7
+   ],
+   "size": 8.8,
+   "testo": "al danno bonus di quell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    581.3,
+    181.2,
+    594.4
+   ],
+   "size": 9.7,
+   "testo": "PATRONO IMMONDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    598.8,
+    188.8,
+    608.1
+   ],
+   "size": 8.6,
+   "testo": "Stringiunpatto con iPianiInferiori",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    612.5,
+    266.0,
+    623.1
+   ],
+   "size": 8.8,
+   "testo": "Grazie al patto stretto, il warlock attinge i suoi poteri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    623.5,
+    254.2,
+    634.0
+   ],
+   "size": 8.8,
+   "testo": "dai Piani Inferiori, ovvero i regni della perdizione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    634.5,
+    269.1,
+    645.1
+   ],
+   "size": 8.8,
+   "testo": "Potrebbe aver stipulato un accordo con un signore dei",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    645.5,
+    272.8,
+    656.1
+   ],
+   "size": 8.8,
+   "testo": "demoni (per esempio Demogorgon o Orcus), un arcidia­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    656.5,
+    272.4,
+    667.1
+   ],
+   "size": 8.8,
+   "testo": "volo (come Asmodeus), un diavolo della fossa, un balor,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    667.5,
+    269.1,
+    678.1
+   ],
+   "size": 8.8,
+   "testo": "uno yugoloth o una megera notturna particolarmente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    678.4,
+    270.0,
+    689.0
+   ],
+   "size": 8.8,
+   "testo": "potente. Il patrono ha obiettivi malvagi, come la corru­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    689.5,
+    276.2,
+    700.1
+   ],
+   "size": 8.8,
+   "testo": "zione o la distruzione di tutto (incluso il warlock stesso)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    700.4,
+    276.2,
+    711.0
+   ],
+   "size": 8.8,
+   "testo": "e il percorso del personaggio sarà plasmato dalla misura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    711.5,
+    172.4,
+    722.1
+   ],
+   "size": 8.8,
+   "testo": "in cui si batterà per sabotarli.",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

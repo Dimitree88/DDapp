@@ -1,0 +1,1387 @@
+{
+ "pagina_pdf": 126,
+ "pagina_stampata": 123,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 1F3",
+ "immagini": [
+  [
+   41,
+   9,
+   587,
+   348
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.5,
+    53.2,
+    159.4,
+    63.8
+   ],
+   "size": 10.6,
+   "testo": "TRATTI DEL MONACO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    68.3,
+    116.2,
+    79.0
+   ],
+   "size": 10.6,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    79.2,
+    92.6,
+    89.9
+   ],
+   "size": 10.6,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    93.8,
+    98.1,
+    104.4
+   ],
+   "size": 10.6,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    108.4,
+    107.9,
+    119.1
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    119.4,
+    118.2,
+    130.1
+   ],
+   "size": 10.6,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    134.0,
+    107.7,
+    144.6
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    145.0,
+    103.4,
+    155.6
+   ],
+   "size": 10.6,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    172.6,
+    107.9,
+    183.3
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    183.6,
+    97.6,
+    194.2
+   ],
+   "size": 10.6,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    199.3,
+    107.8,
+    209.9
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    210.3,
+    118.0,
+    221.0
+   ],
+   "size": 10.6,
+   "testo": "negli strumenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    237.8,
+    108.0,
+    248.5
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    248.8,
+    114.8,
+    259.4
+   ],
+   "size": 10.6,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    263.4,
+    126.2,
+    274.1
+   ],
+   "size": 10.6,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    274.5,
+    87.1,
+    285.2
+   ],
+   "size": 10.6,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.5,
+    69.1,
+    220.0,
+    78.7
+   ],
+   "size": 8.4,
+   "testo": "Destrezza e Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.5,
+    94.6,
+    250.8,
+    104.3
+   ],
+   "size": 8.4,
+   "testo": "D8 per ogni livello da monaco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.4,
+    109.2,
+    205.5,
+    118.8
+   ],
+   "size": 8.4,
+   "testo": "Forza e Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.3,
+    134.7,
+    272.6,
+    144.4
+   ],
+   "size": 9.2,
+   "testo": "Due a scelta tra: Acrobazia, Atletica,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.4,
+    146.8,
+    251.9,
+    156.4
+   ],
+   "size": 8.4,
+   "testo": "Furtività, Intuizione, Religione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.9,
+    158.8,
+    166.5,
+    168.5
+   ],
+   "size": 8.4,
+   "testo": "o Storia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.7,
+    173.5,
+    269.8,
+    183.1
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici e armi da guerra con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.2,
+    185.5,
+    210.9,
+    195.2
+   ],
+   "size": 8.4,
+   "testo": "la proprietà leggera",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.4,
+    200.6,
+    260.8,
+    209.8
+   ],
+   "size": 9.2,
+   "testo": "Un tipo di strumento da artigiano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.9,
+    212.5,
+    254.5,
+    221.7
+   ],
+   "size": 9.2,
+   "testo": "o di strumento musicale a scelta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.6,
+    224.1,
+    198.2,
+    233.7
+   ],
+   "size": 8.4,
+   "testo": "(vedi capitolo 6)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.4,
+    238.7,
+    170.8,
+    248.3
+   ],
+   "size": 8.4,
+   "testo": "Nessuna",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.6,
+    264.2,
+    261.3,
+    273.9
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e 8: (A) Una lancia,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.2,
+    276.3,
+    281.7,
+    286.0
+   ],
+   "size": 8.4,
+   "testo": "S pugnali, uno strumento da artigiano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    134.8,
+    288.3,
+    261.9,
+    297.9
+   ],
+   "size": 8.4,
+   "testo": "o uno strumento musicale scelto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.2,
+    300.3,
+    267.7,
+    309.9
+   ],
+   "size": 8.4,
+   "testo": "per la competenza negli strumenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.0,
+    312.3,
+    259.4,
+    321.9
+   ],
+   "size": 8.4,
+   "testo": "sopraindicata, una dotazione da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.8,
+    323.2,
+    262.3,
+    333.9
+   ],
+   "size": 8.8,
+   "testo": "esploratore e 11 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    362.1,
+    74.3,
+    412.8
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.8,
+    340.8,
+    259.6,
+    369.9
+   ],
+   "size": 6.6,
+   "testo": "MONACI UTILIZZANO UN RIGOROSO ADDESTRA­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.0,
+    370.9,
+    271.7,
+    381.4
+   ],
+   "size": 8.8,
+   "testo": "mento al combattimento e la disciplina mentale per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.0,
+    381.9,
+    257.0,
+    392.5
+   ],
+   "size": 8.8,
+   "testo": "allinearsi con il multiverso e canalizzare le loro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    393.0,
+    277.6,
+    403.5
+   ],
+   "size": 8.8,
+   "testo": "riserve interiori di energia. A prescindere dalle loro disci­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    404.0,
+    273.9,
+    414.6
+   ],
+   "size": 8.8,
+   "testo": "pline, concettualizzano questa energia in vari modi: per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    415.1,
+    274.1,
+    425.6
+   ],
+   "size": 8.8,
+   "testo": "esempio come respiro, energia, forza vitale, essenza o io",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    426.1,
+    276.1,
+    436.6
+   ],
+   "size": 8.8,
+   "testo": "interiore. Che si tratti di incanalarla in uno stupefacente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    437.0,
+    272.1,
+    447.5
+   ],
+   "size": 8.8,
+   "testo": "sfoggio di maestria in combattimento o in un più sottile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    448.0,
+    281.6,
+    458.5
+   ],
+   "size": 8.8,
+   "testo": "potenziamento delle proprie difese e della velocità, questa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    459.0,
+    223.3,
+    469.6
+   ],
+   "size": 8.8,
+   "testo": "energia pervade ogni azione di un monaco.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    470.0,
+    282.6,
+    480.5
+   ],
+   "size": 8.8,
+   "testo": "I monaci focalizzano la loro energia interiore per creare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    481.0,
+    272.0,
+    491.6
+   ],
+   "size": 8.8,
+   "testo": "effetti straordinari, persino soprannaturali. Incanalano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    492.1,
+    271.9,
+    502.7
+   ],
+   "size": 8.8,
+   "testo": "una velocità e una forza straordinarie nei loro attacchi,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    503.0,
+    281.3,
+    513.6
+   ],
+   "size": 8.8,
+   "testo": "con o senza l'uso di armi. Nelle mani di un monaco, anche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    514.2,
+    264.5,
+    524.7
+   ],
+   "size": 8.8,
+   "testo": "le armi più semplici possono diventare sofisticati stru­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    525.1,
+    202.1,
+    535.7
+   ],
+   "size": 8.8,
+   "testo": "menti di maestria nel combattimento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    536.2,
+    274.6,
+    546.7
+   ],
+   "size": 8.8,
+   "testo": "Molti monaci trovano che uno stile di vita strutturato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    547.1,
+    262.7,
+    557.7
+   ],
+   "size": 8.8,
+   "testo": "di ritiro ascetico li aiuti a coltivare la concentrazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    558.1,
+    271.9,
+    568.6
+   ],
+   "size": 8.8,
+   "testo": "fisica e mentale necessaria per sfruttare la loro energia.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    569.1,
+    279.2,
+    579.6
+   ],
+   "size": 8.8,
+   "testo": "Altri ritengono che immergersi nella vibrante confusione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    580.0,
+    268.8,
+    590.6
+   ],
+   "size": 8.8,
+   "testo": "della vita contribuisca ad alimentare la loro determina­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    591.0,
+    125.3,
+    601.6
+   ],
+   "size": 8.8,
+   "testo": "zione e disciplina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    602.0,
+    262.3,
+    612.6
+   ],
+   "size": 8.8,
+   "testo": "In genere, i monaci considerano le avventure come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    613.2,
+    275.0,
+    623.8
+   ],
+   "size": 8.8,
+   "testo": "prove di evoluzione mentale e fisica. Sono spinti dal desi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    624.2,
+    271.6,
+    634.8
+   ],
+   "size": 8.8,
+   "testo": "derio di compiere una missione più importante che non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    635.1,
+    284.9,
+    645.7
+   ],
+   "size": 8.8,
+   "testo": "dalla semplice necessità di uccidere i mostri e saccheggiare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    646.2,
+    264.2,
+    656.8
+   ],
+   "size": 8.8,
+   "testo": "i loro tesori; il loro obiettivo è diventare armi viventi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    54.3,
+    475.3,
+    67.4
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UN MONACO...",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    74.8,
+    492.4,
+    86.1
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1° LIVELLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    86.2,
+    523.7,
+    96.8
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutte le caratteristiche dellatabella Tratti del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    97.1,
+    350.1,
+    107.6
+   ],
+   "size": 8.8,
+   "testo": "monaco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    106.0,
+    531.1,
+    118.7
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi di 1° livello da monaco, elencati nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    119.2,
+    427.8,
+    129.7
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del monaco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    139.6,
+    491.2,
+    151.0
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    151.1,
+    508.3,
+    161.6
+   ],
+   "size": 8.8,
+   "testo": "Ottiene il tratto Dado Vita dalla tabella Tratti del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    162.1,
+    350.1,
+    172.7
+   ],
+   "size": 8.8,
+   "testo": "monaco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    170.9,
+    531.1,
+    183.6
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi di 1° livello da monaco, elencati nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    184.1,
+    427.6,
+    194.7
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del monaco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    204.3,
+    523.2,
+    217.4
+   ],
+   "size": 9.7,
+   "testo": "PRIVILEGI DI CLASSE DEL MONACO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    220.7,
+    518.1,
+    231.2
+   ],
+   "size": 8.8,
+   "testo": "Il monaco ottiene i seguenti privilegi di classe quando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    231.7,
+    524.8,
+    242.3
+   ],
+   "size": 8.8,
+   "testo": "raggiunge i livelli specificati. Tali privilegi sono elencati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    242.7,
+    440.2,
+    253.3
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Privilegi del monaco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    263.2,
+    451.1,
+    274.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 1: ARTI MARZIALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    274.7,
+    514.8,
+    285.2
+   ],
+   "size": 8.8,
+   "testo": "Grazie alla sua perizia nelle arti marziali, un monaco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    285.6,
+    533.1,
+    296.2
+   ],
+   "size": 8.8,
+   "testo": "padroneggia stili di combattimento che fanno uso di colpi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    296.6,
+    475.8,
+    307.2
+   ],
+   "size": 8.8,
+   "testo": "senz'armi e delle seguenti armi da monaco:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    313.0,
+    415.6,
+    323.6
+   ],
+   "size": 8.8,
+   "testo": "• Armi da mischia semplici",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    323.9,
+    515.5,
+    334.5
+   ],
+   "size": 8.8,
+   "testo": "· Armi da mischia da guerra con la proprietà leggera",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    340.3,
+    524.5,
+    350.9
+   ],
+   "size": 8.8,
+   "testo": "Un monaco ottiene i benefici seguenti fintantoché è sen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    351.3,
+    526.6,
+    361.8
+   ],
+   "size": 8.8,
+   "testo": "z'armi o impugna soltanto armi da monaco, non indossa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    362.2,
+    478.3,
+    372.8
+   ],
+   "size": 8.8,
+   "testo": "alcuna armatura e non impugna uno scudo:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    373.3,
+    515.8,
+    383.8
+   ],
+   "size": 8.8,
+   "testo": "Colpo senz'armi bonus. Il monaco può effettuare un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    384.3,
+    449.1,
+    394.8
+   ],
+   "size": 8.8,
+   "testo": "colpo senz'armi come azione bonus.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    395.3,
+    513.5,
+    405.8
+   ],
+   "size": 8.8,
+   "testo": "Dado di Arti Marziali. Un monaco può tirare 1d6 al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    406.3,
+    522.6,
+    416.9
+   ],
+   "size": 8.8,
+   "testo": "posto dei normali danni del suo colpo senz'armi o della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    417.3,
+    531.6,
+    427.9
+   ],
+   "size": 8.8,
+   "testo": "sua arma da monaco. Questo dado cambia man mano che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    428.3,
+    517.4,
+    438.9
+   ],
+   "size": 8.8,
+   "testo": "il personaggio acquisisce altri livelli da monaco, come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    439.3,
+    532.6,
+    449.9
+   ],
+   "size": 8.8,
+   "testo": "indicato nella colonna Arti marziali nella tabella Privilegi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    450.3,
+    355.5,
+    460.9
+   ],
+   "size": 8.8,
+   "testo": "del monaco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    461.4,
+    522.7,
+    471.9
+   ],
+   "size": 8.8,
+   "testo": "Attacchi destri. Un monaco può usare il modificatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    472.3,
+    534.1,
+    482.9
+   ],
+   "size": 8.8,
+   "testo": "di Destrezza invece del modificatore di Forza per i tiri per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    483.3,
+    525.3,
+    493.9
+   ],
+   "size": 8.8,
+   "testo": "colpire e i tiri per i danni dei suoi colpi senz'armi e delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    494.3,
+    523.3,
+    504.9
+   ],
+   "size": 8.8,
+   "testo": "sue armi da monaco. Inoltre, quando utilizza le opzioni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    505.5,
+    531.0,
+    516.0
+   ],
+   "size": 8.8,
+   "testo": "di afferrare o spingere del suo colpo senz'armi, il monaco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    516.5,
+    516.7,
+    527.1
+   ],
+   "size": 8.8,
+   "testo": "può utilizzare il suo modificatore di Destrezza invece",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    527.4,
+    526.5,
+    538.0
+   ],
+   "size": 8.8,
+   "testo": "del modificatore di Forza per determinare la CD del tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    538.4,
+    344.0,
+    549.0
+   ],
+   "size": 8.8,
+   "testo": "salvezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    558.8,
+    506.0,
+    570.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: DIFESA SENZA ARMATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    570.2,
+    532.9,
+    580.8
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio non sta indossando un'armatura o impu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    581.2,
+    528.4,
+    591.7
+   ],
+   "size": 8.8,
+   "testo": "gnando uno scudo, la Classe Armatura base corrisponde",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    592.2,
+    491.5,
+    602.8
+   ],
+   "size": 8.8,
+   "testo": "a 10 più i modificatori di Destrezza e Saggezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    612.8,
+    533.2,
+    624.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: CONCENTRAZIONE DA MONACO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    624.2,
+    535.9,
+    634.7
+   ],
+   "size": 8.8,
+   "testo": "La concentrazione e l'addestramento marziale del monaco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    635.2,
+    519.9,
+    645.8
+   ],
+   "size": 8.8,
+   "testo": "gli permettono di imbrigliare una fonte di energia stra­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    646.2,
+    519.8,
+    656.8
+   ],
+   "size": 8.8,
+   "testo": "ordinaria dentro di sé. Questa energia è rappresentata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    657.2,
+    521.2,
+    667.8
+   ],
+   "size": 8.8,
+   "testo": "dai punti concentrazione. Il numero di punti posseduti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    668.1,
+    527.9,
+    678.6
+   ],
+   "size": 8.8,
+   "testo": "è determinato dal livello da monaco, come indicato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    679.1,
+    525.0,
+    689.6
+   ],
+   "size": 8.8,
+   "testo": "colonna Punti concentrazione nella tabella Privilegi del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    690.1,
+    341.8,
+    700.6
+   ],
+   "size": 8.8,
+   "testo": "monaco.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

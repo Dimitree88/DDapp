@@ -1,0 +1,445 @@
+{
+ "pagina_pdf": 187,
+ "pagina_stampata": 184,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "184 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   232
+  ],
+  [
+   -1,
+   331,
+   589,
+   596
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    51.6,
+    225.6,
+    250.8,
+    235.2
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Costituzione, Intelligenza,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    237.7,
+    97.0,
+    247.3
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    249.7,
+    247.9,
+    259.4
+   ],
+   "size": 8.4,
+   "testo": "Talento: Iniziato alla Magia (mago) (vedi capitolo S)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    261.7,
+    208.2,
+    271.3
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Arcano e Storia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    273.7,
+    236.7,
+    283.3
+   ],
+   "size": 8.4,
+   "testo": "Competenza negli strumenti: scorte da calligrafo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    285.8,
+    264.0,
+    295.5
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e 8: (A) bastone ferrato,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    297.7,
+    264.6,
+    307.4
+   ],
+   "size": 8.4,
+   "testo": "scorte da calligrafo, libro (storia) pergamena (8 fogli),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    308.6,
+    158.7,
+    319.3
+   ],
+   "size": 8.8,
+   "testo": "tunica, 8 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    589.2,
+    279.2,
+    598.8
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Destrezza, Intelligenza, Saggezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    601.2,
+    167.5,
+    610.9
+   ],
+   "size": 8.4,
+   "testo": "Talento: Abile (vedi capitolo S)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    613.2,
+    234.2,
+    622.8
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Indagare e Percezione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    625.3,
+    236.7,
+    634.9
+   ],
+   "size": 8.4,
+   "testo": "Competenza negli strumenti: scorte da calligrafo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    637.3,
+    278.0,
+    647.0
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e 8: (A) scorte da calligrafo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    649.3,
+    259.7,
+    659.0
+   ],
+   "size": 8.4,
+   "testo": "abiti eleganti, lampada, olio (3 ampolle), pergamena",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    660.2,
+    171.5,
+    670.9
+   ],
+   "size": 8.8,
+   "testo": "(12 fogli) 23 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    224.8,
+    504.9,
+    235.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ha trascorso la sua gioventù tra ville",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    235.8,
+    513.0,
+    246.4
+   ],
+   "size": 8.8,
+   "testo": "e monasteri, svolgendo svariate stravaganti mansioni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    246.8,
+    509.2,
+    257.4
+   ],
+   "size": 8.8,
+   "testo": "in cambio dell'accesso alle biblioteche di quei luoghi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    257.7,
+    512.6,
+    268.3
+   ],
+   "size": 8.8,
+   "testo": "Sono molte le notti che ha passato insonne studiando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    268.8,
+    506.2,
+    279.4
+   ],
+   "size": 8.8,
+   "testo": "libri e pergamene col desiderio di scoprire di più sul",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    279.9,
+    512.5,
+    290.5
+   ],
+   "size": 8.8,
+   "testo": "multiverso e i rudimenti della magia, ma la sua mente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    290.9,
+    408.9,
+    301.5
+   ],
+   "size": 8.8,
+   "testo": "non ne ha mai abbastanza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    398.2,
+    307.2,
+    403.0,
+    313.5
+   ],
+   "size": 4.9,
+   "testo": "•",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.2,
+    320.0,
+    441.2,
+    326.3
+   ],
+   "size": 4.9,
+   "testo": ". .",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    476.0,
+    331.0,
+    481.9,
+    337.3
+   ],
+   "size": 4.9,
+   "testo": "•",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    588.3,
+    510.5,
+    598.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ha trascorso i suoi anni di formazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    599.3,
+    525.4,
+    609.9
+   ],
+   "size": 8.8,
+   "testo": "in uno scriptorium, un monastero dedicato alla preserva­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    610.4,
+    528.6,
+    621.0
+   ],
+   "size": 8.8,
+   "testo": "zione della conoscenza, oppure in un istituto governativo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    621.4,
+    522.5,
+    632.0
+   ],
+   "size": 8.8,
+   "testo": "dove ha imparato l'arte della calligrafia e realizzato una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    632.6,
+    512.1,
+    643.1
+   ],
+   "size": 8.8,
+   "testo": "serie di raffinati scritti. Magari ha trascritto dei docu­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    643.5,
+    520.6,
+    654.1
+   ],
+   "size": 8.8,
+   "testo": "menti governativi o copiato dei tomi letterari. Potrebbe",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    654.4,
+    507.6,
+    665.0
+   ],
+   "size": 8.8,
+   "testo": "essere abile come poeta, narratore o ricercatore, ma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    665.5,
+    520.0,
+    676.0
+   ],
+   "size": 8.8,
+   "testo": "soprattutto ha una grande attenzione ai dettagli, che lo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    676.5,
+    521.8,
+    687.1
+   ],
+   "size": 8.8,
+   "testo": "aiuta a evitare eventuali errori nei documenti che copia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    687.4,
+    330.7,
+    698.0
+   ],
+   "size": 8.8,
+   "testo": "e crea.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

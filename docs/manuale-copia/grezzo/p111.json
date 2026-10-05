@@ -1,0 +1,708 @@
+{
+ "pagina_pdf": 111,
+ "pagina_stampata": 108,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    306.9,
+    38.3,
+    460.9,
+    51.4
+   ],
+   "size": 9.7,
+   "testo": "MISTIFICATORE ARCANO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    56.1,
+    490.8,
+    65.4
+   ],
+   "size": 8.6,
+   "testo": "Amplificaletue dotifurtive con incantesimiarcani",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    69.6,
+    521.2,
+    80.2
+   ],
+   "size": 8.8,
+   "testo": "Alcuni ladri sfruttano gli incantesimi per potenziare le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    80.6,
+    522.2,
+    91.2
+   ],
+   "size": 8.8,
+   "testo": "loro già sopraffine doti di furtività e agilità, imparando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    91.7,
+    533.0,
+    102.2
+   ],
+   "size": 8.8,
+   "testo": "degli appositi trucchi magici. Ci sono Mistificatori Arcani",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    102.7,
+    518.3,
+    113.2
+   ],
+   "size": 8.8,
+   "testo": "che usano i loro talenti per effettuare borseggi e furti,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    113.6,
+    472.1,
+    124.2
+   ],
+   "size": 8.8,
+   "testo": "e altri che li sfruttano per fare delle burle.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    134.2,
+    514.6,
+    145.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: GIOCO DI PRESTIGIO DELLA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    144.7,
+    388.5,
+    156.1
+   ],
+   "size": 11.2,
+   "testo": "MANO MAGICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    156.2,
+    535.9,
+    166.8
+   ],
+   "size": 8.8,
+   "testo": "Quando il ladro lancia mano magica, può farlo come azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    167.2,
+    528.3,
+    177.8
+   ],
+   "size": 8.8,
+   "testo": "bonus e rendere invisibile la mano spettrale. Inoltre, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    178.2,
+    525.5,
+    188.8
+   ],
+   "size": 8.8,
+   "testo": "controllare la mano come azione bonus e utilizzarla per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    189.2,
+    499.1,
+    199.8
+   ],
+   "size": 8.8,
+   "testo": "effettuare prove di Destrezza (Rapidità di mano).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    209.8,
+    444.9,
+    221.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    221.2,
+    511.8,
+    231.7
+   ],
+   "size": 8.8,
+   "testo": "Il ladro impara a lanciare incantesimi. Consulta il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.5,
+    232.1,
+    522.1,
+    242.7
+   ],
+   "size": 8.8,
+   "testo": "capitolo 7 per le regole relative al lancio degli incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.5,
+    243.2,
+    528.6,
+    253.7
+   ],
+   "size": 8.8,
+   "testo": "tesimi. Le informazioni sottostanti descrivono come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.5,
+    254.2,
+    530.3,
+    264.7
+   ],
+   "size": 8.8,
+   "testo": "applicare tali regole alla sottoclasse del Mistificatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.2,
+    265.1,
+    357.0,
+    275.7
+   ],
+   "size": 8.8,
+   "testo": "Arcano.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    331.8,
+    276.2,
+    519.9,
+    286.8
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti. Il ladro conosce tre trucchetti: mano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.2,
+    287.3,
+    527.8,
+    297.8
+   ],
+   "size": 8.8,
+   "testo": "magica e altri due trucchetti a scelta tratti dalla lista",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    321.5,
+    298.2,
+    529.6,
+    308.8
+   ],
+   "size": 8.8,
+   "testo": "degli incantesimi da mago (consultabile dalla sezione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.4,
+    309.2,
+    533.9,
+    319.8
+   ],
+   "size": 8.8,
+   "testo": "dedicata a questa classe). Sono consigliati scheggia della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.2,
+    320.2,
+    405.5,
+    330.8
+   ],
+   "size": 8.8,
+   "testo": "mente e illusione minore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    331.1,
+    528.6,
+    341.7
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il ladro ottiene un livello può sostituire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    342.2,
+    532.4,
+    352.8
+   ],
+   "size": 8.8,
+   "testo": "uno dei suoi trucchetti, eccetto manomagica, con un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    353.2,
+    418.1,
+    363.7
+   ],
+   "size": 8.8,
+   "testo": "trucchetto da mago a scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    364.1,
+    524.0,
+    374.7
+   ],
+   "size": 8.8,
+   "testo": "Quando raggiunge il livello 10, può imparare un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    375.1,
+    419.3,
+    385.7
+   ],
+   "size": 8.8,
+   "testo": "trucchetto da mago a scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.8,
+    386.1,
+    525.6,
+    396.7
+   ],
+   "size": 8.8,
+   "testo": "Slotincantesimo. La tabella Incantesimi del Mistifica­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.1,
+    397.2,
+    526.9,
+    407.7
+   ],
+   "size": 8.8,
+   "testo": "tore Arcano mostra gli slot incantesimo disponibili per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    406.2,
+    530.5,
+    418.9
+   ],
+   "size": 8.8,
+   "testo": "i propri incantesimi di 1° livello o superiore. Il personag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    419.3,
+    535.2,
+    429.8
+   ],
+   "size": 8.8,
+   "testo": "gio recupera tutti gli slot incantesimo consumati quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    430.2,
+    414.9,
+    440.8
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    441.7,
+    491.6,
+    451.6
+   ],
+   "size": 8.6,
+   "testo": "Incantesimipreparati di 1° livello o superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    452.2,
+    519.7,
+    462.8
+   ],
+   "size": 8.8,
+   "testo": "Con questo privilegio, il personaggio prepara una lista",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    461.0,
+    523.0,
+    473.7
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi di 1° livello o superiore che può lanciare.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    472.0,
+    527.0,
+    484.7
+   ],
+   "size": 8.8,
+   "testo": "Per iniziare, sceglie tre incantesimi da mago di 1° livello.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    485.2,
+    512.9,
+    495.8
+   ],
+   "size": 8.8,
+   "testo": "Sono consigliati charmesupersone, camuffaresestesso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    496.0,
+    368.9,
+    506.6
+   ],
+   "size": 8.8,
+   "testo": "e nube di nebbia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.6,
+    507.2,
+    507.0,
+    517.8
+   ],
+   "size": 8.8,
+   "testo": "Il numero di incantesimi nella lista aumenta man",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    518.3,
+    515.9,
+    528.9
+   ],
+   "size": 8.8,
+   "testo": "mano che il personaggio ottiene livelli da ladro, come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    529.2,
+    533.5,
+    539.8
+   ],
+   "size": 8.8,
+   "testo": "mostrato nella colonna Incantesimi preparati della tabella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    540.2,
+    520.5,
+    550.8
+   ],
+   "size": 8.8,
+   "testo": "Incantesimi del Mistificatore Arcano. Ogni volta che il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    551.3,
+    520.4,
+    561.8
+   ],
+   "size": 8.8,
+   "testo": "numero cresce, il ladro deve scegliere altri incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    562.3,
+    519.3,
+    572.8
+   ],
+   "size": 8.8,
+   "testo": "da mago finché il numero nella lista non combacia con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    573.3,
+    533.7,
+    583.8
+   ],
+   "size": 8.8,
+   "testo": "quello mostrato nella tabella Incantesimi del Mistificatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    584.2,
+    528.0,
+    594.8
+   ],
+   "size": 8.8,
+   "testo": "Arcano. Gli incantesimi scelti devono essere di un livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    595.2,
+    518.9,
+    605.8
+   ],
+   "size": 8.8,
+   "testo": "di cui possiede degli slot incantesimo. Per esempio, nel",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    604.1,
+    518.8,
+    616.8
+   ],
+   "size": 8.8,
+   "testo": "caso di un ladro di 7° livello, la sua lista di incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    615.2,
+    529.2,
+    627.9
+   ],
+   "size": 8.8,
+   "testo": "preparati può includere cinque incantesimi da mago di 1°",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    626.2,
+    454.5,
+    638.9
+   ],
+   "size": 8.8,
+   "testo": "e 2° livello in qualsiasi combinazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    639.4,
+    522.6,
+    650.0
+   ],
+   "size": 8.8,
+   "testo": "Cambiare gli incantesimipreparati. Quando completa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    650.4,
+    520.3,
+    661.0
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo, il ladro può sostituire un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    661.4,
+    521.0,
+    672.0
+   ],
+   "size": 8.8,
+   "testo": "sulla propria lista con un altro incantesimo da mago di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    672.4,
+    394.9,
+    682.9
+   ],
+   "size": 8.8,
+   "testo": "cui possiede degli slot.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.1,
+    683.4,
+    530.5,
+    694.0
+   ],
+   "size": 8.8,
+   "testo": "Caratteristica da Incantatore. Intelligenza è la caratteri­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    694.4,
+    532.3,
+    704.9
+   ],
+   "size": 8.8,
+   "testo": "stica da incantatore per gli incantesimi da mago del ladro.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

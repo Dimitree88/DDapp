@@ -1,0 +1,1284 @@
+{
+ "pagina_pdf": 308,
+ "pagina_stampata": 305,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 305",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    63.0,
+    36.8,
+    255.7,
+    47.3
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, infligge danni a uno o più tipi di creature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    47.8,
+    263.3,
+    58.3
+   ],
+   "size": 8.8,
+   "testo": "indicati dall'incantatore al momento del lancio, scelti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    58.8,
+    273.4,
+    69.3
+   ],
+   "size": 8.8,
+   "testo": "tra i seguenti: aberrazioni, celestiali, elementali, folletti,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    69.8,
+    284.2,
+    80.3
+   ],
+   "size": 8.8,
+   "testo": "immondi e non morti. Quando una creatura del tipo scelto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    80.7,
+    260.8,
+    91.3
+   ],
+   "size": 8.8,
+   "testo": "entra nell'area dell'incantesimo per la prima volta in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    91.7,
+    273.0,
+    102.3
+   ],
+   "size": 8.8,
+   "testo": "un turno o termina il suo turno qui, subisce SdlO danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    102.7,
+    273.7,
+    113.2
+   ],
+   "size": 8.8,
+   "testo": "necrotici o radiosi (a scelta dell'incantatore al momento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    113.7,
+    98.7,
+    124.3
+   ],
+   "size": 8.8,
+   "testo": "del lancio).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    124.7,
+    281.9,
+    135.3
+   ],
+   "size": 8.8,
+   "testo": "Quando lancia l'incantesimo, l'incantatore può indicare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    135.7,
+    274.7,
+    146.2
+   ],
+   "size": 8.8,
+   "testo": "una parola d'ordine: una creatura che la pronuncia acce­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    146.7,
+    186.0,
+    157.3
+   ],
+   "size": 8.8,
+   "testo": "dendo all'area non subisce danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    157.8,
+    258.3,
+    168.3
+   ],
+   "size": 8.8,
+   "testo": "L'area di questo incantesimo non può sovrapporsi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    168.8,
+    264.4,
+    179.3
+   ],
+   "size": 8.8,
+   "testo": "all'area di un altro incantesimo proibizione. Se l'incan­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    179.8,
+    267.5,
+    190.3
+   ],
+   "size": 8.8,
+   "testo": "tatore lancia proibizione ogni giorno nello stesso luogo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    190.8,
+    268.5,
+    201.3
+   ],
+   "size": 8.8,
+   "testo": "per 30 giorni, l'incantesimo permane finché non viene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    201.9,
+    263.0,
+    212.4
+   ],
+   "size": 8.8,
+   "testo": "dissolto e i componenti materiali vengono consumati",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    212.8,
+    175.0,
+    223.4
+   ],
+   "size": 8.8,
+   "testo": "al momento dell'ultimo lancio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    247.5,
+    169.5,
+    258.9
+   ],
+   "size": 11.2,
+   "testo": "PROIEZIONE ASTRALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    259.0,
+    239.0,
+    269.4
+   ],
+   "size": 8.6,
+   "testo": "Necromanzia di9°livello (chierico, mago, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    274.7,
+    139.6,
+    284.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    285.7,
+    114.6,
+    295.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 3 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    296.5,
+    276.5,
+    306.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (per ogni bersaglio dell'incantesimo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    307.6,
+    256.8,
+    317.3
+   ],
+   "size": 8.4,
+   "testo": "l'incantatore deve possedere un giacinto del valore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    318.6,
+    259.4,
+    328.2
+   ],
+   "size": 8.4,
+   "testo": "di 1 .000 mo o più e un lingotto d'argento del valore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    329.6,
+    257.2,
+    339.2
+   ],
+   "size": 8.4,
+   "testo": "di 100 mo o più; l'incantesimo consuma entrambi)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    340.6,
+    182.2,
+    350.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: finché non viene dissolto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    356.7,
+    280.1,
+    367.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore e un massimo di otto creature consenzienti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    367.6,
+    260.3,
+    378.2
+   ],
+   "size": 8.8,
+   "testo": "entro gittata proiettano i loro corpi astrali sul Piano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    378.8,
+    254.9,
+    389.3
+   ],
+   "size": 8.8,
+   "testo": "Astrale (l'incantesimo termina immediatamente se",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    389.7,
+    272.9,
+    400.3
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore si trova già su quel piano). Il corpo di ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    400.8,
+    273.1,
+    411.4
+   ],
+   "size": 8.8,
+   "testo": "bersaglio cade in uno stato di animazione sospesa; ha la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    411.8,
+    270.6,
+    422.4
+   ],
+   "size": 8.8,
+   "testo": "condizione privo di sensi, non ha bisogno di cibo o aria",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    422.9,
+    119.8,
+    433.5
+   ],
+   "size": 8.8,
+   "testo": "e non invecchia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    433.8,
+    264.4,
+    444.4
+   ],
+   "size": 8.8,
+   "testo": "La forma astrale di un bersaglio assomiglia in tutto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    444.8,
+    269.9,
+    455.3
+   ],
+   "size": 8.8,
+   "testo": "e per tutto al suo corpo, replicando le sue statistiche di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    455.8,
+    278.8,
+    466.3
+   ],
+   "size": 8.8,
+   "testo": "gioco e le sue proprietà. La differenza principale consiste",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    466.8,
+    275.0,
+    477.3
+   ],
+   "size": 8.8,
+   "testo": "nell'aggiunta di un cordone argentato che si snoda tra le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    477.7,
+    268.4,
+    488.2
+   ],
+   "size": 8.8,
+   "testo": "scapole della forma astrale, diventando invisibile dopo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    488.7,
+    275.9,
+    499.3
+   ],
+   "size": 8.8,
+   "testo": "30 cm. Se il cordone viene reciso, cosa che può accadere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    499.8,
+    275.3,
+    510.3
+   ],
+   "size": 8.8,
+   "testo": "solo quando un effetto lo specifica chiaramente, il corpo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    510.8,
+    252.2,
+    521.4
+   ],
+   "size": 8.8,
+   "testo": "e la forma astrale del bersaglio muoiono entrambi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    521.8,
+    258.1,
+    532.4
+   ],
+   "size": 8.8,
+   "testo": "La forma astrale di un bersaglio può viaggiare sul",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    532.8,
+    262.3,
+    543.4
+   ],
+   "size": 8.8,
+   "testo": "Piano Astrale. Nel momento in cui una forma astrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    543.9,
+    270.2,
+    554.4
+   ],
+   "size": 8.8,
+   "testo": "lascia questo piano, il corpo e le proprietà del bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    554.8,
+    272.8,
+    565.4
+   ],
+   "size": 8.8,
+   "testo": "vengono trasportati lungo il cordone argentato, permet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    565.8,
+    267.7,
+    576.4
+   ],
+   "size": 8.8,
+   "testo": "tendogli di rientrare nel suo corpo nel momento in cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    576.8,
+    144.6,
+    587.4
+   ],
+   "size": 8.8,
+   "testo": "accede al nuovo piano.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    587.8,
+    264.3,
+    598.4
+   ],
+   "size": 8.8,
+   "testo": "Qualsiasi danno o altro effetto che si applichi a una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    598.7,
+    280.5,
+    609.3
+   ],
+   "size": 8.8,
+   "testo": "forma astrale non ha effetto sul corpo del bersaglio e vice­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    610.0,
+    278.5,
+    620.5
+   ],
+   "size": 8.8,
+   "testo": "versa. Inoltre, l'incantesimo termina se il corpo originale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    621.0,
+    276.4,
+    631.6
+   ],
+   "size": 8.8,
+   "testo": "o la forma astrale di un bersaglio scende a 0 punti ferita.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    632.0,
+    279.3,
+    642.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo termina per tutti i bersagli se l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    643.0,
+    237.6,
+    653.6
+   ],
+   "size": 8.8,
+   "testo": "effettua un'azione di Magia per interromperlo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    654.0,
+    282.8,
+    664.5
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantesimo termina per un bersaglio che non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    665.0,
+    277.9,
+    675.6
+   ],
+   "size": 8.8,
+   "testo": "è morto, il bersaglio riappare nel suo corpo ed esce dallo·",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    675.9,
+    167.4,
+    686.5
+   ],
+   "size": 8.8,
+   "testo": "stato di animazione sospesa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    52.1,
+    437.4,
+    63.5
+   ],
+   "size": 11.2,
+   "testo": "PROTEZIONE DAI VELENI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    63.6,
+    523.9,
+    74.0
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi2° livello (chierico, druido, paladino, ranger)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    79.2,
+    399.5,
+    88.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    90.1,
+    372.3,
+    99.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    101.2,
+    374.4,
+    110.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    112.1,
+    358.7,
+    121.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    128.3,
+    522.3,
+    138.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca una creatura e pone fine alla condi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    139.3,
+    525.7,
+    149.9
+   ],
+   "size": 8.8,
+   "testo": "zione avvelenato che la affligge. Per la durata dell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    150.4,
+    524.3,
+    160.9
+   ],
+   "size": 8.8,
+   "testo": "tesimo, il bersaglio dispone di vantaggio ai tiri salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    161.4,
+    534.3,
+    172.0
+   ],
+   "size": 8.8,
+   "testo": "eseguiti per evitare o terminare la condizione avvelenato,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    172.3,
+    440.1,
+    182.9
+   ],
+   "size": 8.8,
+   "testo": "ed è resistente ai danni da veleno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    207.2,
+    491.4,
+    218.5
+   ],
+   "size": 11.2,
+   "testo": "PROTEZIONE DAL BENE E DAL MALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    218.6,
+    517.0,
+    229.1
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi1° livello (chierico, druido, mago, paladino,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    230.6,
+    340.2,
+    239.9
+   ],
+   "size": 8.6,
+   "testo": "warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    245.2,
+    399.5,
+    254.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    256.2,
+    372.3,
+    265.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    267.3,
+    531.0,
+    276.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un'ampolla di acqua santa del valore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    278.3,
+    483.6,
+    287.9
+   ],
+   "size": 8.4,
+   "testo": "di 25 mo o più, che l'incantesimo consuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    289.2,
+    462.7,
+    298.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    305.5,
+    520.5,
+    316.1
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, una creatura consen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    316.3,
+    516.3,
+    326.9
+   ],
+   "size": 8.8,
+   "testo": "ziente toccata dall'incantatore è protetta da certi tipi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    327.4,
+    518.0,
+    338.0
+   ],
+   "size": 8.8,
+   "testo": "di creature: aberrazioni, celestiali, elementali, folletti,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    338.3,
+    522.6,
+    348.9
+   ],
+   "size": 8.8,
+   "testo": "immondi o non morti. La protezione garantisce diversi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    349.3,
+    508.1,
+    359.9
+   ],
+   "size": 8.8,
+   "testo": "vantaggi. Le creature contro cui è attiva subiscono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    360.3,
+    537.7,
+    370.9
+   ],
+   "size": 8.8,
+   "testo": "svantaggio ai tiri per colpire indirizzati contro il bersaglio;",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    371.3,
+    534.8,
+    381.9
+   ],
+   "size": 8.8,
+   "testo": "inoltre, il bersaglio non può essere affascinato, spaventato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    382.3,
+    519.4,
+    392.8
+   ],
+   "size": 8.8,
+   "testo": "o posseduto da creature analoghe. Se il bersaglio è già",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    393.3,
+    530.8,
+    403.9
+   ],
+   "size": 8.8,
+   "testo": "affascinato, spaventato o posseduto da una tale creatura,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    404.4,
+    528.0,
+    415.0
+   ],
+   "size": 8.8,
+   "testo": "dispone di vantaggio a qualsiasi nuovo tiro salvezza con­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    415.4,
+    390.9,
+    426.0
+   ],
+   "size": 8.8,
+   "testo": "tro il relativo effetto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    450.1,
+    451.4,
+    461.5
+   ],
+   "size": 11.2,
+   "testo": "PROTEZIONE DALL'ENERGIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    461.6,
+    510.0,
+    472.0
+   ],
+   "size": 8.6,
+   "testo": "Abiurazionedi3° livello (chierico, druido, mago, ranger,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    473.5,
+    342.7,
+    482.8
+   ],
+   "size": 8.6,
+   "testo": "stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    488.1,
+    399.5,
+    497.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    499.2,
+    372.0,
+    508.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    510.2,
+    374.3,
+    519.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    521.1,
+    445.1,
+    530.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    537.4,
+    533.9,
+    548.0
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, una creatura consenziente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    548.4,
+    523.3,
+    558.9
+   ],
+   "size": 8.8,
+   "testo": "toccata dall'incantatore dispone di resistenza a un tipo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    559.4,
+    525.1,
+    570.0
+   ],
+   "size": 8.8,
+   "testo": "di danni a scelta di quest'ultimo: acido, freddo, fulmine,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    570.4,
+    366.7,
+    581.0
+   ],
+   "size": 8.8,
+   "testo": "fuoco o tuono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    590.9,
+    336.2,
+    599.9
+   ],
+   "size": 6.9,
+   "testo": "p--",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    605.3,
+    433.6,
+    616.7
+   ],
+   "size": 11.2,
+   "testo": "PUNIZIONE ACCECANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    616.8,
+    434.4,
+    627.3
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi3° livello (paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    632.3,
+    522.0,
+    642.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.8,
+    643.3,
+    520.7,
+    652.9
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito una creatura con un'arma da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.9,
+    654.3,
+    445.1,
+    663.9
+   ],
+   "size": 8.4,
+   "testo": "mischia o con un colpo senz'armi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    665.4,
+    382.8,
+    675.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    676.3,
+    367.8,
+    685.9
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    687.4,
+    374.5,
+    697.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 minuto",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

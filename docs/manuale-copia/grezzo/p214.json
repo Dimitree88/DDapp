@@ -1,0 +1,1020 @@
+{
+ "pagina_pdf": 214,
+ "pagina_stampata": 211,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 5 I TALENTI / 211",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.5,
+    53.0,
+    260.4,
+    64.3
+   ],
+   "size": 11.2,
+   "testo": "DONO DELLA RESISTENZA ALL'ENERGIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    64.4,
+    258.6,
+    74.9
+   ],
+   "size": 8.6,
+   "testo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    79.0,
+    215.8,
+    89.6
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    89.9,
+    272.0,
+    100.5
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    100.9,
+    271.0,
+    111.5
+   ],
+   "size": 8.8,
+   "testo": "di una sua caratteristica a scelta aumenta di 1, fino a un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    111.9,
+    114.8,
+    122.5
+   ],
+   "size": 8.8,
+   "testo": "massimo di 30.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    122.9,
+    282.5,
+    133.5
+   ],
+   "size": 8.8,
+   "testo": "Resistenze energetiche. Il personaggio ottiene resistenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    133.9,
+    278.9,
+    144.5
+   ],
+   "size": 8.8,
+   "testo": "a due dei seguenti tipi di danno a scelta: acido, freddo, ful­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    145.0,
+    277.3,
+    155.5
+   ],
+   "size": 8.8,
+   "testo": "mine, fuoco, necrotico, psichico, radioso, tuono o veleno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    156.0,
+    283.5,
+    166.5
+   ],
+   "size": 8.8,
+   "testo": "La scelta effettuata può essere cambiata al termine di ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    167.1,
+    107.1,
+    177.6
+   ],
+   "size": 8.8,
+   "testo": "riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    178.0,
+    276.4,
+    188.5
+   ],
+   "size": 8.8,
+   "testo": "Deviazione dell'energia. Quando il personaggio subisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    189.0,
+    259.4,
+    199.6
+   ],
+   "size": 8.8,
+   "testo": "danni del tipo selezionato per il beneficio Resistenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    200.1,
+    282.7,
+    210.7
+   ],
+   "size": 8.8,
+   "testo": "energetiche, può sfruttare una reazione per deviare danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.1,
+    211.1,
+    284.5,
+    221.6
+   ],
+   "size": 8.8,
+   "testo": "della stessa tipologia verso un'altra creatura che è in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    222.1,
+    266.2,
+    232.7
+   ],
+   "size": 8.8,
+   "testo": "di vedere entro 18 metri da sé e che non sia dietro una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    233.1,
+    277.9,
+    243.6
+   ],
+   "size": 8.8,
+   "testo": "copertura totale. Così facendo, il bersaglio deve superare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    244.1,
+    279.0,
+    254.7
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Destrezza (CD 8 più il modificatore di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    255.1,
+    273.1,
+    265.6
+   ],
+   "size": 8.8,
+   "testo": "Costituzione e il bonus di competenza del personaggio),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    266.1,
+    273.7,
+    276.7
+   ],
+   "size": 8.8,
+   "testo": "altrimenti subirà 2d12 danni più il modificatore di Costi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    277.2,
+    151.2,
+    287.8
+   ],
+   "size": 8.8,
+   "testo": "tuzione del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    312.0,
+    274.9,
+    323.4
+   ],
+   "size": 11.2,
+   "testo": "DONO DEL RICHIAMO DEGLI INCANTESIMI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    323.4,
+    257.9,
+    333.8
+   ],
+   "size": 8.6,
+   "testo": "Talento Dono epico (prerequisito: 19° livello o superiore,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    335.2,
+    136.5,
+    344.6
+   ],
+   "size": 8.6,
+   "testo": "privilegio Incantesimi)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    348.8,
+    215.8,
+    359.4
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    359.8,
+    275.7,
+    370.4
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il tuo punteg­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    370.8,
+    279.5,
+    381.3
+   ],
+   "size": 8.8,
+   "testo": "gio di Intelligenza, Saggezza o Carisma aumenta di 1, fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    381.8,
+    133.8,
+    392.4
+   ],
+   "size": 8.8,
+   "testo": "a un massimo di 30.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    392.9,
+    271.9,
+    403.4
+   ],
+   "size": 8.8,
+   "testo": "Lancio libero. Quando lancia un incantesimo con uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    403.9,
+    276.0,
+    414.5
+   ],
+   "size": 8.8,
+   "testo": "slot di livello da 1 a 4, tira 1d4. Se il risultato corrisponde",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    415.0,
+    244.0,
+    425.5
+   ],
+   "size": 8.8,
+   "testo": "al livello dello slot, questo non verrà consumato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    449.7,
+    232.1,
+    461.0
+   ],
+   "size": 11.2,
+   "testo": "DONO DELLO SPIRITO NOTTURNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    461.0,
+    258.5,
+    471.5
+   ],
+   "size": 8.6,
+   "testo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    475.6,
+    215.8,
+    486.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    486.5,
+    272.0,
+    497.1
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    497.5,
+    271.0,
+    508.1
+   ],
+   "size": 8.8,
+   "testo": "di una sua caratteristica a scelta aumenta di 1, fino a un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    508.6,
+    114.8,
+    519.2
+   ],
+   "size": 8.8,
+   "testo": "massimo di 30.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    519.6,
+    257.6,
+    530.1
+   ],
+   "size": 8.8,
+   "testo": "Fusione con le ombre. Finché si trova in un'area di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    530.6,
+    281.4,
+    541.2
+   ],
+   "size": 8.8,
+   "testo": "oscurità o luce fioca, può diventare invisibile come azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    541.7,
+    273.7,
+    552.3
+   ],
+   "size": 8.8,
+   "testo": "bonus. Tale condizione termina subito dopo che il perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    552.6,
+    284.4,
+    563.2
+   ],
+   "size": 8.8,
+   "testo": "naggio effettua un'azione, un'azione bonus o una reazione.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.1,
+    563.6,
+    269.3,
+    574.2
+   ],
+   "size": 8.8,
+   "testo": "Forma d'ombra. Finché si trova in un'area di oscurità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    574.5,
+    268.6,
+    585.1
+   ],
+   "size": 8.8,
+   "testo": "o luce fioca, ha resistenza a tutti i tipi di danno, tranne",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    585.6,
+    147.1,
+    596.2
+   ],
+   "size": 8.8,
+   "testo": "quelli psichici e radiosi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    620.6,
+    169.4,
+    632.0
+   ],
+   "size": 11.2,
+   "testo": "DONO DELLA TEMPRA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    632.0,
+    258.5,
+    642.4
+   ],
+   "size": 8.6,
+   "testo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    646.5,
+    215.8,
+    657.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    657.5,
+    272.0,
+    668.1
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    668.5,
+    271.0,
+    679.1
+   ],
+   "size": 8.8,
+   "testo": "di una sua caratteristica a scelta aumenta di 1, fino a un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    679.5,
+    114.9,
+    690.0
+   ],
+   "size": 8.8,
+   "testo": "massimo di 30.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    690.5,
+    280.7,
+    701.0
+   ],
+   "size": 8.8,
+   "testo": "Salute rafforzata. I punti ferita massimi del personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    701.5,
+    273.0,
+    712.0
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 40. Inoltre, ogni volta che recupera punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    712.4,
+    270.0,
+    723.0
+   ],
+   "size": 8.8,
+   "testo": "ferita, può recuperarne una quantità aggiuntiva pari al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    299.1,
+    524.4,
+    309.6
+   ],
+   "size": 8.8,
+   "testo": "suo modificatore di Costituzione. Quando riceve questi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    310.1,
+    535.8,
+    320.6
+   ],
+   "size": 8.8,
+   "testo": "punti ferita extra, non può ottenerne ancora fino all'inizio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    321.1,
+    390.0,
+    331.6
+   ],
+   "size": 8.8,
+   "testo": "del turno successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    355.9,
+    431.1,
+    367.2
+   ],
+   "size": 11.2,
+   "testo": "DONO DELLA VELOCITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    367.2,
+    511.2,
+    377.7
+   ],
+   "size": 8.6,
+   "testo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    381.7,
+    468.6,
+    392.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    392.8,
+    524.6,
+    403.3
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    403.8,
+    523.5,
+    414.4
+   ],
+   "size": 8.8,
+   "testo": "di una sua caratteristica a scelta aumenta di 1, fino a un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    414.8,
+    367.7,
+    425.4
+   ],
+   "size": 8.8,
+   "testo": "massimo di 30.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    425.9,
+    507.4,
+    436.4
+   ],
+   "size": 8.8,
+   "testo": "Artista dellafuga. Come azione bonus, può usare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    436.8,
+    511.5,
+    447.3
+   ],
+   "size": 8.8,
+   "testo": "l'azione di Disimpegno. Se afferrato, tale condizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    447.7,
+    342.2,
+    458.3
+   ],
+   "size": 8.8,
+   "testo": "termina.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    458.7,
+    506.5,
+    469.3
+   ],
+   "size": 8.8,
+   "testo": "Rapidità. La velocità del personaggio aumenta di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    469.7,
+    340.1,
+    480.2
+   ],
+   "size": 8.8,
+   "testo": "9 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    504.7,
+    493.6,
+    516.0
+   ],
+   "size": 11.2,
+   "testo": "DONO DEL VIAGGIO DIMENSIONALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    516.0,
+    510.7,
+    526.5
+   ],
+   "size": 8.6,
+   "testo": "Talento Dono epico (prerequisito: 19°livello o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    530.6,
+    468.6,
+    541.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    541.5,
+    524.6,
+    552.1
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    552.5,
+    523.5,
+    563.0
+   ],
+   "size": 8.8,
+   "testo": "di una sua caratteristica a scelta aumenta di 1, fino a un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    563.4,
+    367.7,
+    574.0
+   ],
+   "size": 8.8,
+   "testo": "massimo di 30.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    574.5,
+    528.0,
+    585.1
+   ],
+   "size": 8.8,
+   "testo": "Passifulminei. Subito dopo che il personaggio effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    585.5,
+    532.6,
+    596.0
+   ],
+   "size": 8.8,
+   "testo": "un'azione di Attacco o Magia, può teletrasportarsi di mas­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    596.5,
+    533.8,
+    607.0
+   ],
+   "size": 8.8,
+   "testo": "simo 9 metri in uno spazio libero che è in grado di vedere.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    631.5,
+    441.4,
+    642.9
+   ],
+   "size": 11.2,
+   "testo": "DONO DELLA VISTA PURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    642.8,
+    511.2,
+    653.4
+   ],
+   "size": 8.6,
+   "testo": "Talento Dono epico (prerequisito: 19°livello o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    657.6,
+    468.6,
+    668.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    668.3,
+    524.5,
+    678.9
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    679.3,
+    523.6,
+    689.9
+   ],
+   "size": 8.8,
+   "testo": "di una sua caratteristica a scelta aumenta di 1, fino a un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    690.4,
+    367.7,
+    700.9
+   ],
+   "size": 8.8,
+   "testo": "massimo di 30.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    701.3,
+    517.9,
+    711.9
+   ],
+   "size": 8.8,
+   "testo": "Vista pura. Il personaggio ottienevista pura con un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    712.3,
+    379.7,
+    722.9
+   ],
+   "size": 8.8,
+   "testo": "raggio di 18 metri.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

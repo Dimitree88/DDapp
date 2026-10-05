@@ -1,0 +1,691 @@
+{
+ "pagina_pdf": 328,
+ "pagina_stampata": 325,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 3F5",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   373
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    58.0,
+    378.9,
+    157.5,
+    390.2
+   ],
+   "size": 11.2,
+   "testo": "SCOSSA SINAPTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    390.4,
+    275.7,
+    400.9
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi5° livello (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    406.0,
+    149.0,
+    415.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    417.1,
+    121.7,
+    426.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    428.0,
+    124.0,
+    437.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    439.0,
+    129.6,
+    448.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    455.3,
+    279.0,
+    465.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sprigiona un'esplosione di energia psichica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.5,
+    466.3,
+    279.8,
+    476.9
+   ],
+   "size": 8.8,
+   "testo": "da un punto entro gittata. Ogni creatura presente in una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.1,
+    477.2,
+    275.4,
+    487.8
+   ],
+   "size": 8.8,
+   "testo": "sfera dal raggio di 6 metri e centrata su quel punto deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.5,
+    488.3,
+    275.8,
+    498.8
+   ],
+   "size": 8.8,
+   "testo": "effettuare un tiro salvezza su Intelligenza, subendo 8d6",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.5,
+    499.3,
+    272.7,
+    509.9
+   ],
+   "size": 8.8,
+   "testo": "danni psichici in caso di fallimento, o la metà dei danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    510.4,
+    134.3,
+    521.0
+   ],
+   "size": 8.8,
+   "testo": "in caso di successo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    521.3,
+    262.3,
+    531.9
+   ],
+   "size": 8.8,
+   "testo": "Dopo un tiro salvezza fallito, inoltre, i pensieri del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    532.4,
+    278.8,
+    542.9
+   ],
+   "size": 8.8,
+   "testo": "bersaglio restano offuscati per 1 minuto. Durante questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    543.3,
+    281.9,
+    553.9
+   ],
+   "size": 8.8,
+   "testo": "periodo di tempo, viene sottratto 1d6 a tutti i suoi tiri per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.2,
+    554.2,
+    278.4,
+    564.8
+   ],
+   "size": 8.8,
+   "testo": "colpire e alle sue prove di caratteristica, così come ai tiri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    565.2,
+    264.9,
+    575.8
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Costituzione per mantenere la concentra­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    576.2,
+    283.9,
+    586.8
+   ],
+   "size": 8.8,
+   "testo": "zione. Il bersaglio effettua un tiro salvezza su Intelligenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.5,
+    587.3,
+    287.4,
+    597.8
+   ],
+   "size": 8.8,
+   "testo": "alla fine di ogni suo turno e, se lo supera, l'effetto svanisce.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.0,
+    622.1,
+    224.7,
+    633.4
+   ],
+   "size": 11.2,
+   "testo": "SCRIGNO SEGRETO DI LEOMUND",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    633.6,
+    168.8,
+    644.0
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi4° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    649.1,
+    148.9,
+    658.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    660.1,
+    121.6,
+    669.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    671.1,
+    278.6,
+    680.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (uno scrigno che misura 90 x 60 x 60",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    682.1,
+    263.0,
+    691.7
+   ],
+   "size": 8.4,
+   "testo": "centimetri, realizzato con materiali rari del valore di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.0,
+    693.0,
+    277.3,
+    702.6
+   ],
+   "size": 8.4,
+   "testo": "5.000 mo o più e una riproduzione minuscola dello scri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.7,
+    704.1,
+    279.6,
+    713.7
+   ],
+   "size": 8.4,
+   "testo": "gno fatta degli stessi materiali del valore di 50 mo o più)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.9,
+    715.0,
+    184.3,
+    724.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: finché non viene dissolto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    363.6,
+    500.1,
+    374.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore nasconde uno scrigno e tutti i suoi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    374.6,
+    516.3,
+    385.2
+   ],
+   "size": 8.8,
+   "testo": "contenuti sul Piano Etereo. Per farlo, deve toccare lo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    385.6,
+    522.9,
+    396.2
+   ],
+   "size": 8.8,
+   "testo": "scrigno e la riproduzione in miniatura che fungono da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    396.7,
+    521.3,
+    407.2
+   ],
+   "size": 8.8,
+   "testo": "componenti materiali dell'incantesimo. Il forziere può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.0,
+    407.8,
+    515.7,
+    418.3
+   ],
+   "size": 8.8,
+   "testo": "contenere fino a 12 cubi con spigolo di 30 centimetri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    418.8,
+    480.3,
+    429.4
+   ],
+   "size": 8.8,
+   "testo": "di materiale non vivente (90 x 60 x 60 cm).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    429.8,
+    536.8,
+    440.3
+   ],
+   "size": 8.8,
+   "testo": "Finché il forziere rimane sul Piano Etereo, l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    440.7,
+    522.3,
+    451.3
+   ],
+   "size": 8.8,
+   "testo": "può effettuare un'azione di Magia e toccare la riprodu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    451.7,
+    524.5,
+    462.3
+   ],
+   "size": 8.8,
+   "testo": "zione per richiamare a sé lo scrigno, che appare a terra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    462.7,
+    528.0,
+    473.3
+   ],
+   "size": 8.8,
+   "testo": "in uno spazio libero entro 1,5 metri da lui. L'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    473.8,
+    515.7,
+    484.3
+   ],
+   "size": 8.8,
+   "testo": "può inviare nuovamente lo scrigno sul Piano Etereo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    484.7,
+    520.5,
+    495.2
+   ],
+   "size": 8.8,
+   "testo": "effettuando un'azione di Magia per toccare lo scrigno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    495.7,
+    380.3,
+    506.3
+   ],
+   "size": 8.8,
+   "testo": "e la riproduzione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.8,
+    506.7,
+    527.4,
+    517.3
+   ],
+   "size": 8.8,
+   "testo": "Dopo 60 giorni, esiste una probabilità cumulativa del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    517.8,
+    526.8,
+    528.3
+   ],
+   "size": 8.8,
+   "testo": "5% al termine di ogni giorno che l'incantesimo termini.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    528.8,
+    512.5,
+    539.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo termina anche se l'incantatore lancia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    539.8,
+    517.0,
+    550.3
+   ],
+   "size": 8.8,
+   "testo": "nuovamente questo incantesimo o se la riproduzione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    550.7,
+    532.3,
+    561.3
+   ],
+   "size": 8.8,
+   "testo": "minuscola dello scrigno viene distrutta. Se l'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.4,
+    561.7,
+    533.1,
+    572.2
+   ],
+   "size": 8.8,
+   "testo": "termina e lo scrigno più grande si trova sul Piano Etereo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    572.7,
+    530.4,
+    583.3
+   ],
+   "size": 8.8,
+   "testo": "lo scrigno rimane lì per poter essere ritrovato dall'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.4,
+    583.7,
+    410.7,
+    594.2
+   ],
+   "size": 8.8,
+   "testo": "tatore o da qualcun altro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    618.5,
+    415.2,
+    629.9
+   ],
+   "size": 11.2,
+   "testo": "SCRITTO ILLUSORIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    630.0,
+    467.6,
+    640.4
+   ],
+   "size": 8.6,
+   "testo": "Illusione di1°livello (bardo, mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    645.7,
+    444.3,
+    655.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    656.7,
+    374.2,
+    666.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    667.6,
+    522.4,
+    677.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: S, M (inchiostro del valore di 10 mo o più,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.5,
+    678.6,
+    426.0,
+    688.2
+   ],
+   "size": 8.4,
+   "testo": "che l'incantesimo consuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    689.5,
+    375.7,
+    699.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 giorni",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

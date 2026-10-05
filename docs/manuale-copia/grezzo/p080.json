@@ -1,0 +1,823 @@
+{
+ "pagina_pdf": 80,
+ "pagina_stampata": 77,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   222,
+   140,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.1,
+    38.3,
+    190.1,
+    51.4
+   ],
+   "size": 9.7,
+   "testo": "DOMINIO DELLA VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    55.9,
+    150.9,
+    65.2
+   ],
+   "size": 8.6,
+   "testo": "Allevia leferite del mondo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    69.5,
+    267.9,
+    80.1
+   ],
+   "size": 8.8,
+   "testo": "Il Dominio della Vita si concentra sull'energia positiva",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    80.5,
+    274.5,
+    91.1
+   ],
+   "size": 8.8,
+   "testo": "che aiuta a sostenere ogni essere vivente del multiverso.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    91.4,
+    268.7,
+    102.0
+   ],
+   "size": 8.8,
+   "testo": "I chierici che attingono a questo dominio sono maestri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    102.4,
+    274.6,
+    113.0
+   ],
+   "size": 8.8,
+   "testo": "della guarigione e usano la forza vitale per curare molte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    113.5,
+    79.7,
+    124.0
+   ],
+   "size": 8.8,
+   "testo": "ferite.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    124.4,
+    277.8,
+    135.0
+   ],
+   "size": 8.8,
+   "testo": "L'esistenza stessa si basa sull'energia positiva associata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    135.4,
+    266.6,
+    146.0
+   ],
+   "size": 8.8,
+   "testo": "a questo dominio, rendendolo adatto a pressoché qual­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    146.5,
+    263.0,
+    157.1
+   ],
+   "size": 8.8,
+   "testo": "siasi tradizione religiosa. Questo dominio è associato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    157.5,
+    273.3,
+    168.1
+   ],
+   "size": 8.8,
+   "testo": "in particolare alle divinità dell'agricoltura, agli dèi della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    168.5,
+    271.2,
+    179.1
+   ],
+   "size": 8.8,
+   "testo": "guarigione o della resistenza e agli dèi della casa e della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    179.5,
+    260.1,
+    190.1
+   ],
+   "size": 8.8,
+   "testo": "comunità. La magia di questo dominio viene cercata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    190.5,
+    213.8,
+    201.0
+   ],
+   "size": 8.8,
+   "testo": "anche dagli ordini religiosi dei guaritori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    211.0,
+    241.4,
+    222.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: DISCEPOLO DELLA VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    222.4,
+    265.8,
+    233.0
+   ],
+   "size": 8.8,
+   "testo": "Quando un incantesimo lanciato dal chierico con uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    233.4,
+    275.0,
+    244.0
+   ],
+   "size": 8.8,
+   "testo": "slot incantesimo ripristina i punti ferita di una creatura,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    244.4,
+    269.2,
+    255.0
+   ],
+   "size": 8.8,
+   "testo": "quella creatura recupera un ammontare di punti ferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    255.4,
+    272.3,
+    266.0
+   ],
+   "size": 8.8,
+   "testo": "aggiuntivi nel turno in cui l'incantesimo viene lanciato.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    266.5,
+    268.9,
+    277.0
+   ],
+   "size": 8.8,
+   "testo": "I punti ferita aggiuntivi sono pari a 2 più il livello dello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    277.5,
+    122.5,
+    288.1
+   ],
+   "size": 8.8,
+   "testo": "slot incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    297.9,
+    263.3,
+    309.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL DOMINIO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    308.6,
+    117.5,
+    320.0
+   ],
+   "size": 11.2,
+   "testo": "DELLA VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    320.0,
+    260.9,
+    330.6
+   ],
+   "size": 8.8,
+   "testo": "La connessione con questo dominio divino permette",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    331.0,
+    263.4,
+    341.6
+   ],
+   "size": 8.8,
+   "testo": "al chierico di avere sempre pronti alcuni incantesimi.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    341.9,
+    252.7,
+    352.5
+   ],
+   "size": 8.8,
+   "testo": "Quando il chierico raggiunge un livello specificato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    353.0,
+    255.2,
+    363.5
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Incantesimi del Dominio della Vita, gli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    363.9,
+    271.3,
+    374.5
+   ],
+   "size": 8.8,
+   "testo": "incantesimi lì elencati sono considerati come preparati.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    386.7,
+    252.3,
+    397.4
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL DOMINIO DELLA VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    401.5,
+    98.0,
+    412.2
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    412.5,
+    94.5,
+    423.2
+   ],
+   "size": 10.6,
+   "testo": "chierico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.5,
+    412.5,
+    186.6,
+    423.2
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi preparati",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.5,
+    427.6,
+    81.0,
+    437.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.3,
+    428.0,
+    253.7,
+    437.2
+   ],
+   "size": 9.2,
+   "testo": "Aiuto, benedizione, curaferite e ristorare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.7,
+    440.0,
+    135.3,
+    449.2
+   ],
+   "size": 9.2,
+   "testo": "inferiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.6,
+    454.1,
+    81.1,
+    463.7
+   ],
+   "size": 8.4,
+   "testo": "S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.1,
+    454.6,
+    240.8,
+    463.8
+   ],
+   "size": 9.2,
+   "testo": "Parola guaritrice di massa e rinascita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.6,
+    468.5,
+    81.3,
+    478.2
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.3,
+    469.1,
+    240.5,
+    478.3
+   ],
+   "size": 9.2,
+   "testo": "Aura di vita e interdizione alla morte",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.3,
+    483.2,
+    81.3,
+    492.8
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    104.1,
+    483.6,
+    253.6,
+    492.8
+   ],
+   "size": 9.2,
+   "testo": "Ristorare superiore e curaferite di massa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    506.9,
+    210.7,
+    518.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: PRESERVARE VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    518.3,
+    249.7,
+    528.9
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, il chierico brandisce il suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    529.3,
+    244.5,
+    539.9
+   ],
+   "size": 8.8,
+   "testo": "simbolo sacro e spende un utilizzo di Incanalare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    540.3,
+    249.8,
+    550.9
+   ],
+   "size": 8.8,
+   "testo": "Divinità per evocare un flusso di energia curativa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    551.3,
+    254.0,
+    561.8
+   ],
+   "size": 8.8,
+   "testo": "che può ripristinare un numero di punti ferita pari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    562.2,
+    264.3,
+    572.8
+   ],
+   "size": 8.8,
+   "testo": "a cinque volte il suo livello da chierico. Il personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    573.2,
+    263.5,
+    583.8
+   ],
+   "size": 8.8,
+   "testo": "sceglie delle creature sanguinanti entro 9 metri da sé",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    584.2,
+    257.8,
+    594.8
+   ],
+   "size": 8.8,
+   "testo": "(incluso se stesso) e divide quei punti ferita tra loro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    595.2,
+    258.8,
+    605.8
+   ],
+   "size": 8.8,
+   "testo": "Questo privilegio può ripristinare un ammontare di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    606.3,
+    254.5,
+    616.9
+   ],
+   "size": 8.8,
+   "testo": "punti ferita di una creatura che la riporti a non più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    617.4,
+    211.3,
+    627.9
+   ],
+   "size": 8.8,
+   "testo": "della metà dei suoi punti ferita massimi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    637.7,
+    245.9,
+    649.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: GUARITORE BENEDETTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    649.2,
+    270.5,
+    659.8
+   ],
+   "size": 8.8,
+   "testo": "Gli incantesimi curativi che il chierico lancia sugli altri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    660.2,
+    262.3,
+    670.8
+   ],
+   "size": 8.8,
+   "testo": "guariscono anche il chierico stesso. Subito dopo aver",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    671.1,
+    265.7,
+    681.7
+   ],
+   "size": 8.8,
+   "testo": "lanciato un incantesimo con uno slot incantesimo che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    682.2,
+    258.7,
+    692.7
+   ],
+   "size": 8.8,
+   "testo": "ripristina i punti ferita di una o più creature diverse",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    693.1,
+    246.0,
+    703.7
+   ],
+   "size": 8.8,
+   "testo": "da se stesso, il chierico recupera punti ferita pari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    704.1,
+    204.6,
+    714.7
+   ],
+   "size": 8.8,
+   "testo": "a 2 più il livello dello slot incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    38.4,
+    494.1,
+    49.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: GUARIGIONE SUPREMA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    49.7,
+    516.5,
+    60.3
+   ],
+   "size": 8.8,
+   "testo": "Quando il chierico sta per lanciare normalmente uno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    60.7,
+    523.7,
+    71.2
+   ],
+   "size": 8.8,
+   "testo": "o più dadi per ripristinare i punti ferita di una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    71.7,
+    522.4,
+    82.3
+   ],
+   "size": 8.8,
+   "testo": "con un incantesimo o con Incanalare Divinità, anziché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    82.7,
+    526.8,
+    93.3
+   ],
+   "size": 8.8,
+   "testo": "tirare quei dadi per la guarigione, usa il numero più alto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    93.7,
+    534.2,
+    104.3
+   ],
+   "size": 8.8,
+   "testo": "possibile per ogni dado. Ad esempio, invece di ripristinare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    104.7,
+    514.0,
+    115.3
+   ],
+   "size": 8.8,
+   "testo": "2d6 punti ferita di una creatura con un incantesimo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    115.7,
+    417.4,
+    126.3
+   ],
+   "size": 8.8,
+   "testo": "un chierico ne ripristina 12.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

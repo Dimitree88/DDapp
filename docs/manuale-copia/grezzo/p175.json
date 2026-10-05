@@ -1,0 +1,859 @@
+{
+ "pagina_pdf": 175,
+ "pagina_stampata": 172,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   148,
+   363,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    50.7,
+    37.1,
+    246.4,
+    47.1
+   ],
+   "size": 8.1,
+   "testo": "LIVELLO 10: RESILIENZA CELESTIALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    50.3,
+    270.9,
+    58.9
+   ],
+   "size": 6.6,
+   "testo": "Il warlock ottiene punti ferita temporanei ogni volta che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.5,
+    61.3,
+    262.8,
+    70.0
+   ],
+   "size": 6.6,
+   "testo": "utilizza il suo privilegio Scaltrezza Magica o completa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    72.2,
+    267.7,
+    80.9
+   ],
+   "size": 6.6,
+   "testo": "un riposo breve o lungo. Questi punti ferita temporanei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    83.2,
+    267.5,
+    91.9
+   ],
+   "size": 6.6,
+   "testo": "corrispondono al livello da warlock del personaggio più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    94.2,
+    276.3,
+    102.9
+   ],
+   "size": 6.6,
+   "testo": "il suo modificatore di Carisma. Inoltre, una volta ottenuti,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    105.2,
+    256.6,
+    113.8
+   ],
+   "size": 6.6,
+   "testo": "può scegliere fino a cinque creature che è in grado di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    116.2,
+    259.1,
+    124.8
+   ],
+   "size": 6.6,
+   "testo": "vedere e far ottenere loro una quantità di punti ferita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    127.2,
+    258.9,
+    135.8
+   ],
+   "size": 6.6,
+   "testo": "temporanei pari a metà del suo livello da warlock, più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    138.2,
+    186.6,
+    146.9
+   ],
+   "size": 6.6,
+   "testo": "il proprio modificatore di Carisma.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    37.1,
+    513.9,
+    47.2
+   ],
+   "size": 8.1,
+   "testo": "LIVELLO 14: VENDETTA INCANDESCENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    50.3,
+    509.0,
+    58.9
+   ],
+   "size": 6.6,
+   "testo": "Quando il warlock o un suo alleato entro 18 metri da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    61.3,
+    501.5,
+    70.0
+   ],
+   "size": 6.6,
+   "testo": "sé sta per effettuare un tiro salvezza contro morte,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    72.3,
+    511.4,
+    80.9
+   ],
+   "size": 6.6,
+   "testo": "è possibile scatenare dell'energia radiosa per salvarlo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    83.3,
+    507.4,
+    92.0
+   ],
+   "size": 6.6,
+   "testo": "I punti ferita della creatura verranno poi ripristinati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    94.3,
+    523.5,
+    103.0
+   ],
+   "size": 6.6,
+   "testo": "a un valore pari alla metà dei suoi punti ferita massimi e,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    105.2,
+    532.5,
+    113.9
+   ],
+   "size": 6.6,
+   "testo": "se prona, terminerà tale condizione. Ogni creatura a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.7,
+    116.3,
+    506.9,
+    124.9
+   ],
+   "size": 6.6,
+   "testo": "del warlock entro 9 metri da quella creatura subisce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    127.3,
+    514.7,
+    135.9
+   ],
+   "size": 6.6,
+   "testo": "danni radiosi pari a 2d8 più il modificatore di Carisma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.7,
+    138.2,
+    509.5,
+    146.9
+   ],
+   "size": 6.6,
+   "testo": "dell'incantatore, diventando accecata fino al termine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    149.1,
+    375.3,
+    157.8
+   ],
+   "size": 6.6,
+   "testo": "del turno in corso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    160.2,
+    518.3,
+    168.9
+   ],
+   "size": 6.6,
+   "testo": "Dopo aver utilizzato questo privilegio, il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    171.3,
+    523.6,
+    180.0
+   ],
+   "size": 6.6,
+   "testo": "non può riutilizzarlo prima di aver completato un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    182.3,
+    327.7,
+    190.9
+   ],
+   "size": 6.6,
+   "testo": "lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    200.7,
+    469.7,
+    212.6
+   ],
+   "size": 9.4,
+   "testo": "PATRONO GRANDE ANTICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    217.6,
+    493.8,
+    227.6
+   ],
+   "size": 8.1,
+   "testo": "Scopri conoscenze proibite offerte da esseri ineffabili",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    233.5,
+    521.2,
+    242.2
+   ],
+   "size": 6.6,
+   "testo": "Il warlock sceglie questa sottoclasse dopo aver stipulato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    244.5,
+    499.7,
+    253.2
+   ],
+   "size": 6.6,
+   "testo": "un accordo con esseri ineffabili del Reame Remoto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.6,
+    255.5,
+    520.8,
+    264.2
+   ],
+   "size": 6.6,
+   "testo": "o un'antica divinità, come: Tharizdun, il Dio incatenato;",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    266.6,
+    526.5,
+    275.2
+   ],
+   "size": 6.6,
+   "testo": "Zargon, il Ritornante; Hadar, la Fame Oscura; o il Grande",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.7,
+    277.6,
+    528.0,
+    286.3
+   ],
+   "size": 6.6,
+   "testo": "Cthulhu. In alternativa, potrebbe invocare svariate entità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    288.7,
+    513.1,
+    297.4
+   ],
+   "size": 6.6,
+   "testo": "senza legarsi a una sola in particolare. Le motivazioni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    299.7,
+    514.5,
+    308.3
+   ],
+   "size": 6.6,
+   "testo": "di questi esseri sono al di là della comprensione di una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    310.6,
+    509.8,
+    319.3
+   ],
+   "size": 6.6,
+   "testo": "normale creatura. Inoltre, il Grande Antico potrebbe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    321.6,
+    510.4,
+    330.3
+   ],
+   "size": 6.6,
+   "testo": "essere del tutto indifferente all'esistenza del warlock.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    332.6,
+    507.3,
+    341.3
+   ],
+   "size": 6.6,
+   "testo": "Tuttavia, i segreti appresi gli conferiscono un potere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    343.6,
+    402.1,
+    352.2
+   ],
+   "size": 6.6,
+   "testo": "magico alquanto insolito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    362.3,
+    505.0,
+    372.3
+   ],
+   "size": 8.1,
+   "testo": "LIVELLO 3: INCANTESIMI DEL GRANDE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    373.1,
+    345.4,
+    383.1
+   ],
+   "size": 8.1,
+   "testo": "ANTICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    386.1,
+    529.6,
+    394.8
+   ],
+   "size": 6.6,
+   "testo": "La magia del patrono consente al warlock di avere sempre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    397.2,
+    518.6,
+    405.9
+   ],
+   "size": 6.6,
+   "testo": "pronti determinati incantesimi. Una volta raggiunto un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    408.4,
+    513.3,
+    417.0
+   ],
+   "size": 6.6,
+   "testo": "livello specificato nella tabella Incantesimi del Grande",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.6,
+    419.3,
+    528.4,
+    427.9
+   ],
+   "size": 6.6,
+   "testo": "Antico, gli incantesimi lì elencati saranno sempre conside­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    430.2,
+    381.0,
+    438.9
+   ],
+   "size": 6.6,
+   "testo": "rati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    451.2,
+    476.3,
+    461.2
+   ],
+   "size": 8.1,
+   "testo": "INCANTESIMI DEL GRANDE ANTICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    467.4,
+    344.7,
+    474.2
+   ],
+   "size": 6.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    478.4,
+    341.1,
+    485.2
+   ],
+   "size": 6.6,
+   "testo": "warlock",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.2,
+    478.4,
+    397.7,
+    485.2
+   ],
+   "size": 6.6,
+   "testo": "Incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.3,
+    492.8,
+    328.4,
+    499.6
+   ],
+   "size": 6.6,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.0,
+    489.7,
+    522.2,
+    501.6
+   ],
+   "size": 9.4,
+   "testo": "Individuazione dei pensieri, sussurri dissonanti,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    351.4,
+    501.7,
+    505.4,
+    513.6
+   ],
+   "size": 9.4,
+   "testo": "allucinazione di forza, risata incontenibile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.4,
+    513.7,
+    384.3,
+    525.6
+   ],
+   "size": 9.4,
+   "testo": "di Tasha",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.3,
+    531.4,
+    328.5,
+    538.2
+   ],
+   "size": 6.6,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.9,
+    528.3,
+    469.8,
+    540.2
+   ],
+   "size": 9.4,
+   "testo": "Chiaroveggenza.fame di Hadar",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.3,
+    545.7,
+    328.7,
+    552.5
+   ],
+   "size": 6.6,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    351.8,
+    542.9,
+    464.4,
+    554.8
+   ],
+   "size": 9.4,
+   "testo": "Confusione, evoca aberrazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    560.5,
+    328.6,
+    567.3
+   ],
+   "size": 6.6,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    352.0,
+    557.5,
+    466.0,
+    569.4
+   ],
+   "size": 9.4,
+   "testo": "Modificare memoria, telecinesi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    583.4,
+    484.4,
+    593.4
+   ],
+   "size": 8.1,
+   "testo": "LIVELLO 3: INCANTESIMI PSICHICI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    596.5,
+    510.7,
+    605.2
+   ],
+   "size": 6.6,
+   "testo": "Quando il warlock lancia un incantesimo che infligge",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    607.6,
+    517.2,
+    616.2
+   ],
+   "size": 6.6,
+   "testo": "danni, può modificare la tipologia di danno in psichico.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    618.6,
+    521.9,
+    627.3
+   ],
+   "size": 6.6,
+   "testo": "Inoltre, quando lancia un incantesimo di ammaliamento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    629.7,
+    525.2,
+    638.3
+   ],
+   "size": 6.6,
+   "testo": "o illusione, può farlo senza utilizzare componenti verbali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    640.6,
+    352.3,
+    649.2
+   ],
+   "size": 6.6,
+   "testo": "o somatiche.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    659.4,
+    475.3,
+    669.4
+   ],
+   "size": 8.1,
+   "testo": "LIVELLO 3: MENTE RISVEGLIATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    672.6,
+    514.6,
+    681.2
+   ],
+   "size": 6.6,
+   "testo": "Il warlock può formare una connessione telepatica tra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    683.5,
+    516.4,
+    692.1
+   ],
+   "size": 6.6,
+   "testo": "la sua mente e quella di un'altra creatura. Come azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    694.4,
+    532.0,
+    703.1
+   ],
+   "size": 6.6,
+   "testo": "bonus, può scegliere una creatura entro 9 metri di distanza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    705.4,
+    517.9,
+    714.0
+   ],
+   "size": 6.6,
+   "testo": "da sé, con cui potrà comunicare telepaticamente finché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    716.4,
+    510.8,
+    725.1
+   ],
+   "size": 6.6,
+   "testo": "i due sono a una distanza in chilometri non superiore",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

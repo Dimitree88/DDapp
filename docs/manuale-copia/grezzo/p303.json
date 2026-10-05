@@ -1,0 +1,1296 @@
+{
+ "pagina_pdf": 303,
+ "pagina_stampata": 300,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "300 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.9,
+    51.4,
+    210.0,
+    62.7
+   ],
+   "size": 11.2,
+   "testo": "PAROLA DEL POTERE GUARIRE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    62.9,
+    215.3,
+    73.3
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi9° livello (bardo, chierico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    78.4,
+    146.4,
+    88.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    89.4,
+    118.7,
+    99.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    100.4,
+    114.8,
+    110.0
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    111.4,
+    127.0,
+    121.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    127.6,
+    278.1,
+    138.2
+   ],
+   "size": 8.8,
+   "testo": "Un'ondata di energia curativa investe una creatura entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    138.6,
+    276.9,
+    149.2
+   ],
+   "size": 8.8,
+   "testo": "gittata che l'incantatore è in grado di vedere. Il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    149.6,
+    272.7,
+    160.2
+   ],
+   "size": 8.8,
+   "testo": "recupera tutti i suoi punti ferita. Se la creatura è affasci­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    160.7,
+    284.8,
+    171.2
+   ],
+   "size": 8.8,
+   "testo": "nata, avvelenata, paralizzata, spaventata o stordita, questa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    171.7,
+    274.6,
+    182.3
+   ],
+   "size": 8.8,
+   "testo": "condizione termina. Se la creatura è prona, può usare la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    182.6,
+    157.2,
+    193.2
+   ],
+   "size": 8.8,
+   "testo": "sua reazione per rialzarsi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    217.5,
+    214.5,
+    228.8
+   ],
+   "size": 11.2,
+   "testo": "PAROLA DEL POTERE STORDIRE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    229.0,
+    273.3,
+    239.4
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi8°livello (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    244.5,
+    146.2,
+    254.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    255.5,
+    118.5,
+    265.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    266.6,
+    112.5,
+    276.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    277.6,
+    126.6,
+    287.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    293.9,
+    275.5,
+    304.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sconvolge la mente di una creatura situata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    304.9,
+    274.7,
+    315.4
+   ],
+   "size": 8.8,
+   "testo": "entro gittata che è in grado di vedere. Se il bersaglio pos­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    315.9,
+    281.7,
+    326.4
+   ],
+   "size": 8.8,
+   "testo": "siede 150 punti ferita o meno, è stordito. Altrimenti, la SU!l",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    326.9,
+    262.7,
+    337.4
+   ],
+   "size": 8.8,
+   "testo": "velocità è pari a 0 fino all'inizio del turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    337.8,
+    280.1,
+    348.4
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio stordito effettua un tiro salvezza su Costitu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    348.8,
+    276.2,
+    359.3
+   ],
+   "size": 8.8,
+   "testo": "zione alla fine di ogni suo turno e, se lo supera, pone fine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    359.8,
+    117.3,
+    370.3
+   ],
+   "size": 8.8,
+   "testo": "alla condizione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    394.6,
+    215.4,
+    405.9
+   ],
+   "size": 11.2,
+   "testo": "PAROLA DEL POTERE UCCIDERE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    406.1,
+    272.9,
+    416.7
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamento di 9° livello (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    421.7,
+    145.9,
+    431.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    432.7,
+    118.3,
+    442.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    443.7,
+    114.4,
+    453.3
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    454.7,
+    126.4,
+    464.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    470.8,
+    267.1,
+    481.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore costringe una creatura entro gittata che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    481.9,
+    261.8,
+    492.4
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere a morire. Se il bersaglio possiede",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    492.8,
+    255.7,
+    503.4
+   ],
+   "size": 8.8,
+   "testo": "100 punti ferita o meno, muore. Altrimenti, subisce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    503.9,
+    136.6,
+    514.4
+   ],
+   "size": 8.8,
+   "testo": "12d12 danni psichici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    538.6,
+    158.3,
+    549.9
+   ],
+   "size": 11.2,
+   "testo": "PAROLA DEL RITIRO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    550.1,
+    175.0,
+    560.5
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di 6° livello (chierico)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    565.6,
+    145.7,
+    575.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    576.6,
+    120.4,
+    586.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 1, 5 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    587.5,
+    112.0,
+    597.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    598.5,
+    126.1,
+    608.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    614.9,
+    266.8,
+    625.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore e un massimo di cinque creature consen­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    626.0,
+    257.0,
+    636.5
+   ],
+   "size": 8.8,
+   "testo": "zienti entro 1,5 metri da lui si teletrasportano imme­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    637.0,
+    254.8,
+    647.5
+   ],
+   "size": 8.8,
+   "testo": "diatamente in un santuario indicato in precedenza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    648.0,
+    274.5,
+    658.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore e le creature che si teletrasportano con lui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    659.0,
+    274.4,
+    669.5
+   ],
+   "size": 8.8,
+   "testo": "appaiono nello spazio libero più vicino al punto indicato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    670.0,
+    264.8,
+    680.5
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore quando ha preparato il suo santuario",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    680.9,
+    284.4,
+    691.5
+   ],
+   "size": 8.8,
+   "testo": "(vedi di seguito). Se lancia questo incantesimo senza prima",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    691.9,
+    262.1,
+    702.5
+   ],
+   "size": 8.8,
+   "testo": "preparare un santuario, l'incantesimo non ha effetto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    702.8,
+    271.1,
+    713.4
+   ],
+   "size": 8.8,
+   "testo": "Deve designare un luogo (come un tempio o un santu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    713.9,
+    178.4,
+    724.4
+   ],
+   "size": 8.8,
+   "testo": "ario) lanciando lì l'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    51.6,
+    391.9,
+    62.9
+   ],
+   "size": 11.2,
+   "testo": "PAROLA DIVINA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    63.1,
+    430.7,
+    73.5
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 7° livello (chierico)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    78.7,
+    425.0,
+    88.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    89.6,
+    367.1,
+    99.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    100.6,
+    365.4,
+    110.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    111.6,
+    379.7,
+    121.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    127.9,
+    530.9,
+    138.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore pronuncia una parola pervasa di potere dei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    138.9,
+    525.9,
+    149.5
+   ],
+   "size": 8.8,
+   "testo": "Piani Superiori. Ogni creatura a sua scelta situata entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    149.9,
+    523.7,
+    160.5
+   ],
+   "size": 8.8,
+   "testo": "gittata effettua una tiro salvezza su Carisma. In caso di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    160.9,
+    518.6,
+    171.5
+   ],
+   "size": 8.8,
+   "testo": "fallimento, un bersaglio che ha 50 punti ferita o meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    172.0,
+    536.0,
+    182.6
+   ],
+   "size": 8.8,
+   "testo": "subisce un effetto basato sui suoi punti ferita attuali, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    182.9,
+    526.1,
+    193.5
+   ],
+   "size": 8.8,
+   "testo": "indicato nella tabella Effetti della parola divina. Indipen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    194.0,
+    525.6,
+    204.5
+   ],
+   "size": 8.8,
+   "testo": "dentemente dai suoi punti ferita, un bersaglio celestiale,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    205.1,
+    515.4,
+    215.7
+   ],
+   "size": 8.8,
+   "testo": "elementale, folletto o immondo che fallisce il suo tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    216.1,
+    537.2,
+    226.6
+   ],
+   "size": 8.8,
+   "testo": "salvezza viene respinto sul suo piano d'origine (se non vi si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    227.1,
+    535.1,
+    237.6
+   ],
+   "size": 8.8,
+   "testo": "trova già) e non può ritornare sul piano attuale per 24 ore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    238.0,
+    522.1,
+    248.6
+   ],
+   "size": 8.8,
+   "testo": "in alcun modo se non tramite un incantesimo desiderio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    260.7,
+    461.3,
+    271.4
+   ],
+   "size": 10.6,
+   "testo": "EFFETTI DELLA PAROLA DIVINA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    276.7,
+    355.1,
+    285.9
+   ],
+   "size": 8.2,
+   "testo": "Punti ferita",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    362.0,
+    276.7,
+    388.5,
+    285.9
+   ],
+   "size": 8.2,
+   "testo": "Effetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.5,
+    290.6,
+    343.8,
+    300.3
+   ],
+   "size": 8.4,
+   "testo": "0-20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.9,
+    305.1,
+    345.9,
+    314.7
+   ],
+   "size": 8.4,
+   "testo": "21-30",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.7,
+    331.7,
+    345.9,
+    341.3
+   ],
+   "size": 8.4,
+   "testo": "31-40",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.5,
+    358.2,
+    345.6,
+    367.8
+   ],
+   "size": 8.4,
+   "testo": "41-50",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    362.0,
+    290.7,
+    434.7,
+    300.3
+   ],
+   "size": 8.4,
+   "testo": "Il bersaglio muore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    362.0,
+    304.2,
+    527.1,
+    314.9
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio è accecato, assordato e stordito",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    361.6,
+    317.3,
+    399.6,
+    327.0
+   ],
+   "size": 8.4,
+   "testo": "per 1 ora.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    361.9,
+    330.9,
+    508.2,
+    341.6
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio è accecato e assordato per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    361.8,
+    343.8,
+    401.8,
+    353.4
+   ],
+   "size": 8.4,
+   "testo": "10 minuti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    361.6,
+    358.3,
+    504.3,
+    368.0
+   ],
+   "size": 8.4,
+   "testo": "Il bersaglio è assordato per 1 minuto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    394.5,
+    414.3,
+    405.8
+   ],
+   "size": 11.2,
+   "testo": "PAROLA GUARITRICE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    406.1,
+    483.5,
+    416.6
+   ],
+   "size": 8.6,
+   "testo": "Abiurazione di1° livello (bardo, chierico, druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    421.7,
+    424.9,
+    431.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    432.6,
+    371.0,
+    442.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    443.6,
+    364.9,
+    453.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    454.6,
+    379.3,
+    464.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    470.9,
+    522.7,
+    481.4
+   ],
+   "size": 8.8,
+   "testo": "Una creatura scelta dall'incantatore entro gittata e che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    481.9,
+    530.8,
+    492.5
+   ],
+   "size": 8.8,
+   "testo": "egli è in grado di vedere recupera un ammontare di punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    492.9,
+    520.8,
+    503.4
+   ],
+   "size": 8.8,
+   "testo": "ferita pari a 2d4 più il modificatore di caratteristica da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    503.8,
+    420.4,
+    514.4
+   ],
+   "size": 8.8,
+   "testo": "incantatore dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    516.6,
+    510.3,
+    525.2
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    525.9,
+    511.9,
+    536.5
+   ],
+   "size": 8.8,
+   "testo": "La guarigione aumenta di 2d4 per ogni slot di livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    534.7,
+    365.2,
+    547.4
+   ],
+   "size": 8.8,
+   "testo": "superiore al 1°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    571.5,
+    465.3,
+    582.9
+   ],
+   "size": 11.2,
+   "testo": "PAROLA GUARITRICE DI MASSA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    583.0,
+    456.4,
+    593.4
+   ],
+   "size": 8.6,
+   "testo": "Abiurazione di3° livello (bardo, chierico)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    598.6,
+    424.3,
+    608.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    609.5,
+    370.7,
+    619.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    620.6,
+    364.7,
+    630.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    631.7,
+    379.0,
+    641.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    648.0,
+    527.9,
+    658.5
+   ],
+   "size": 8.8,
+   "testo": "Fino a sei creature a scelta dall'incantatore entro gittata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    659.0,
+    530.0,
+    669.6
+   ],
+   "size": 8.8,
+   "testo": "e che egli è in grado di vedere recuperano un ammontare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    670.0,
+    523.7,
+    680.6
+   ],
+   "size": 8.8,
+   "testo": "di punti ferita pari a 2d4 più il modificatore di caratteri­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    681.0,
+    451.9,
+    691.5
+   ],
+   "size": 8.8,
+   "testo": "stica da incantatore dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    693.6,
+    510.0,
+    702.2
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    702.9,
+    510.1,
+    713.5
+   ],
+   "size": 8.8,
+   "testo": "La guarigione aumenta di 1d4 per ogni slot di livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    711.8,
+    366.6,
+    724.5
+   ],
+   "size": 8.8,
+   "testo": "superiore al 3°.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

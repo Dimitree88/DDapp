@@ -1,0 +1,625 @@
+{
+ "pagina_pdf": 293,
+ "pagina_stampata": 290,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "290 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   556
+  ],
+  [
+   0,
+   717,
+   277,
+   784
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.4,
+    404.6,
+    139.5,
+    416.0
+   ],
+   "size": 11.2,
+   "testo": "LUCI DANZANTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    417.0,
+    223.1,
+    426.3
+   ],
+   "size": 8.6,
+   "testo": "TrucchettodiIllusione (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    431.7,
+    145.1,
+    441.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    442.7,
+    117.7,
+    452.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    453.6,
+    237.4,
+    463.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M ((un frammento di fosforo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    464.5,
+    206.9,
+    474.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    480.7,
+    264.8,
+    491.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea fino a quattro luci delle dimensioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    491.7,
+    264.9,
+    502.3
+   ],
+   "size": 8.8,
+   "testo": "di una torcia, facendole apparire come lanterne, torce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    502.7,
+    264.8,
+    513.2
+   ],
+   "size": 8.8,
+   "testo": "o globi luminosi che fluttuano per la durata dell'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    513.7,
+    269.6,
+    524.3
+   ],
+   "size": 8.8,
+   "testo": "tesimo entro la sua gittata. In alternativa, l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    524.8,
+    278.4,
+    535.3
+   ],
+   "size": 8.8,
+   "testo": "può fondere le quattro luci in un'unica forma luminosa di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    535.7,
+    279.4,
+    546.3
+   ],
+   "size": 8.8,
+   "testo": "taglia Media di aspetto simile a quello umano. Qualunque",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    546.7,
+    273.4,
+    557.3
+   ],
+   "size": 8.8,
+   "testo": "sia la forma scelta, ogni luce proietta luce fioca entro un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    557.7,
+    122.8,
+    568.3
+   ],
+   "size": 8.8,
+   "testo": "raggio di 3 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    568.7,
+    273.0,
+    579.2
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, l'incantatore può muovere le luci",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    579.7,
+    276.8,
+    590.2
+   ],
+   "size": 8.8,
+   "testo": "per un massimo di 18 metri fino a un punto entro gittata.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    590.7,
+    262.5,
+    601.3
+   ],
+   "size": 8.8,
+   "testo": "Ogni luce deve trovarsi entro 6 metri da un'altra luce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    601.7,
+    264.8,
+    612.3
+   ],
+   "size": 8.8,
+   "testo": "creata da questo incantesimo. Se una delle luci supera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    612.8,
+    196.3,
+    623.4
+   ],
+   "size": 8.8,
+   "testo": "la gittata dell'incantesimo, svanisce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    647.6,
+    137.6,
+    659.0
+   ],
+   "size": 11.2,
+   "testo": "LUMINESCENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    659.1,
+    196.4,
+    669.6
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi1° livello (bardo, druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    674.8,
+    145.2,
+    684.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    685.7,
+    117.6,
+    695.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    696.7,
+    111.6,
+    706.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    707.6,
+    206.9,
+    717.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    388.6,
+    518.8,
+    399.2
+   ],
+   "size": 8.8,
+   "testo": "Gli oggetti contenuti in un cubo con spigolo di 6 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    399.7,
+    529.9,
+    410.3
+   ],
+   "size": 8.8,
+   "testo": "entro gittata vengono evidenziati da un alone di luce blu,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    410.8,
+    533.5,
+    421.4
+   ],
+   "size": 8.8,
+   "testo": "verde o viola (a scelta dell'incantatore). Ogni creatura pre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    421.8,
+    529.9,
+    432.3
+   ],
+   "size": 8.8,
+   "testo": "sente nel cubo viene a sua volta evidenziata se fallisce un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    432.7,
+    532.7,
+    443.3
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Destrezza. Per la durata dell'incantesimo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    443.8,
+    526.8,
+    454.4
+   ],
+   "size": 8.8,
+   "testo": "gli oggetti e le creature influenzate proiettano luce fioca",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    454.7,
+    533.0,
+    465.2
+   ],
+   "size": 8.8,
+   "testo": "entro un raggio di 3 metri e non possono beneficiare della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    465.6,
+    406.3,
+    476.2
+   ],
+   "size": 8.8,
+   "testo": "condizione di invisibilità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    476.7,
+    524.9,
+    487.3
+   ],
+   "size": 8.8,
+   "testo": "I tiri per colpire contro una creatura influenzata o un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    487.7,
+    519.7,
+    498.2
+   ],
+   "size": 8.8,
+   "testo": "oggetto influenzato dispongono di vantaggio se l'attac­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    498.7,
+    411.2,
+    509.2
+   ],
+   "size": 8.8,
+   "testo": "cante è in grado di vederli.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    533.5,
+    400.0,
+    544.9
+   ],
+   "size": 11.2,
+   "testo": "MANI BRUCIANTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    545.0,
+    454.1,
+    555.4
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi1° livello (mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    560.6,
+    398.3,
+    570.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    571.6,
+    381.6,
+    581.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    582.6,
+    373.1,
+    592.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    593.6,
+    378.8,
+    603.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    609.6,
+    514.5,
+    620.2
+   ],
+   "size": 8.8,
+   "testo": "Un sottile velo di fiamme si propaga dall'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    620.8,
+    530.3,
+    631.4
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura entro un cono di 4,5 metri effettua un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    631.9,
+    518.2,
+    642.4
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Destrezza, subendo 3d6 danni da fuoco in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    642.8,
+    532.5,
+    653.4
+   ],
+   "size": 8.8,
+   "testo": "caso di fallimento, o la metà dei danni in caso di successo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    653.9,
+    535.2,
+    664.4
+   ],
+   "size": 8.8,
+   "testo": "Gli oggetti infiammabili nel cono che non sono indossati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    664.9,
+    436.3,
+    675.4
+   ],
+   "size": 8.8,
+   "testo": "o trasportati iniziano a bruciare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    675.8,
+    536.1,
+    686.4
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    684.7,
+    522.5,
+    697.4
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d6 per ogni slot di livello superiore al 1°.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

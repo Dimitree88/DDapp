@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 69,
+ "pagina_stampata": 66,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   -1,
+   298,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    304.6,
+    36.7,
+    485.4,
+    46.7
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 14: MAESTOSITÀ INVITTA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    49.9,
+    526.2,
+    58.6
+   ],
+   "size": 6.7,
+   "testo": "Come azione bonus, il bardo può assumere magicamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    61.0,
+    497.4,
+    69.6
+   ],
+   "size": 6.7,
+   "testo": "una presenza maestosa per 1 minuto o finché non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    71.9,
+    523.7,
+    80.5
+   ],
+   "size": 6.7,
+   "testo": "è incapacitato. Per la durata dell'incantesimo, ogni volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    82.9,
+    519.6,
+    91.5
+   ],
+   "size": 6.7,
+   "testo": "che una creatura lo colpisce con un tiro per colpire per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    93.9,
+    525.3,
+    102.5
+   ],
+   "size": 6.7,
+   "testo": "la prima volta in un turno, l'attaccante deve superare un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    104.9,
+    518.6,
+    113.6
+   ],
+   "size": 6.7,
+   "testo": "tiro salvezza su Carisma contro la CD del tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    115.9,
+    529.4,
+    124.5
+   ],
+   "size": 6.7,
+   "testo": "sull'incantesimo, altrimenti l'attacco fallisce e la creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    126.9,
+    493.6,
+    135.5
+   ],
+   "size": 6.7,
+   "testo": "indietreggia atterrita dalla maestosità del bardo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    137.9,
+    525.7,
+    146.5
+   ],
+   "size": 6.7,
+   "testo": "Dopo aver assunto questa presenza maestosa, non può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    148.8,
+    520.5,
+    157.4
+   ],
+   "size": 6.7,
+   "testo": "assumerla di nuovo prima di aver completato un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    159.9,
+    360.9,
+    168.5
+   ],
+   "size": 6.7,
+   "testo": "breve o lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    178.3,
+    476.5,
+    187.9
+   ],
+   "size": 9.4,
+   "testo": "COLLEGIO DELLA SAPIENZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    195.1,
+    485.2,
+    205.2
+   ],
+   "size": 8.2,
+   "testo": "Scandaglia leprofondità della conoscenza magica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    211.2,
+    519.8,
+    219.8
+   ],
+   "size": 6.7,
+   "testo": "I bardi del Collegio della Sapienza accumulano incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    222.2,
+    518.2,
+    230.8
+   ],
+   "size": 6.7,
+   "testo": "simi e segreti da varie fonti, come tomi accademici, riti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    233.2,
+    516.9,
+    241.8
+   ],
+   "size": 6.7,
+   "testo": "mistici e racconti della tradizione contadina. I membri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    244.1,
+    524.0,
+    252.7
+   ],
+   "size": 6.7,
+   "testo": "del collegio si riuniscono nelle biblioteche e nelle univer­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    255.1,
+    529.3,
+    263.8
+   ],
+   "size": 6.7,
+   "testo": "sità per condividere la loro sapienza con gli altri. Si incon­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    266.2,
+    521.5,
+    274.8
+   ],
+   "size": 6.7,
+   "testo": "trano anche in occasione di feste popolari e ricevimenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    277.2,
+    511.8,
+    285.8
+   ],
+   "size": 6.7,
+   "testo": "di stato, dove possono denunciare casi di corruzione,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    288.2,
+    529.4,
+    296.8
+   ],
+   "size": 6.7,
+   "testo": "smascherare bugie e farsi beffe dei più pomposi esponenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    299.1,
+    359.3,
+    307.7
+   ],
+   "size": 6.7,
+   "testo": "delle autorità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    317.9,
+    476.8,
+    328.0
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 3: COMPETENZE BONUS",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    331.0,
+    510.1,
+    339.6
+   ],
+   "size": 6.7,
+   "testo": "Il bardo acquisisce competenza in tre abilità a scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    349.6,
+    467.4,
+    359.7
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 3: PAROLE TAGLIENTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    362.7,
+    506.2,
+    371.3
+   ],
+   "size": 6.7,
+   "testo": "Il bardo impara a fare buon uso del suo ingegno per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    373.7,
+    516.7,
+    382.3
+   ],
+   "size": 6.7,
+   "testo": "distrarre, confondere e fiaccare la determinazione e la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    384.7,
+    518.8,
+    393.4
+   ],
+   "size": 6.7,
+   "testo": "competenza altrui in maniera soprannaturale. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    395.8,
+    511.7,
+    404.4
+   ],
+   "size": 6.7,
+   "testo": "una creatura che il bardo è in grado di vedere situata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    406.9,
+    526.2,
+    415.5
+   ],
+   "size": 6.7,
+   "testo": "a 18 metri da sé effettua un tiro per i danni, o supera una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    417.9,
+    524.2,
+    426.5
+   ],
+   "size": 6.7,
+   "testo": "prova di caratteristica o un tiro per colpire, il bardo può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    428.8,
+    532.0,
+    437.4
+   ],
+   "size": 6.7,
+   "testo": "usare una reazione per spendere un utilizzo di Ispirazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    439.9,
+    523.0,
+    448.5
+   ],
+   "size": 6.7,
+   "testo": "Bardica; il bardo tira il dado di Ispirazione Bardica e sot­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    450.9,
+    528.0,
+    459.5
+   ],
+   "size": 6.7,
+   "testo": "trae il numero ottenuto dal tiro della creatura, riducendo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    461.9,
+    516.5,
+    470.5
+   ],
+   "size": 6.7,
+   "testo": "il danno o trasformando potenzialmente il successo in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    472.7,
+    359.9,
+    481.4
+   ],
+   "size": 6.7,
+   "testo": "un fallimento.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    491.4,
+    473.0,
+    501.5
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 6: SCOPERTE MAGICHE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    504.6,
+    519.2,
+    513.2
+   ],
+   "size": 6.7,
+   "testo": "Il bardo apprende due incantesimi a scelta che possono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    515.7,
+    527.8,
+    524.3
+   ],
+   "size": 6.7,
+   "testo": "far parte della lista degli incantesimi del chierico, del dru­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    526.7,
+    532.1,
+    535.3
+   ],
+   "size": 6.7,
+   "testo": "ido o del mago o di una loro combinazione (vedi la sezione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    537.7,
+    523.6,
+    546.3
+   ],
+   "size": 6.7,
+   "testo": "di ciascuna classe per i rispettivi incantesimi). L'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    548.7,
+    521.0,
+    557.3
+   ],
+   "size": 6.7,
+   "testo": "simo scelto deve essere un trucchetto o un incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    559.7,
+    516.1,
+    568.3
+   ],
+   "size": 6.7,
+   "testo": "per il quale il personaggio dispone di slot incantesimo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    570.6,
+    485.6,
+    579.2
+   ],
+   "size": 6.7,
+   "testo": "come indicato nella tabella Privilegi del bardo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    581.7,
+    529.8,
+    590.3
+   ],
+   "size": 6.7,
+   "testo": "Gli incantesimi scelti sono sempre considerati preparati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    592.7,
+    528.1,
+    601.3
+   ],
+   "size": 6.7,
+   "testo": "e ogni volta che il personaggio ottiene un livello da bardo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    603.7,
+    511.2,
+    612.3
+   ],
+   "size": 6.7,
+   "testo": "può sostituire uno degli incantesimi con un altro che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    614.8,
+    397.9,
+    623.4
+   ],
+   "size": 6.7,
+   "testo": "soddisfi questi requisiti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    633.6,
+    506.1,
+    643.6
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 14: ABILITÀ IMPAREGGIABILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    646.7,
+    513.4,
+    655.3
+   ],
+   "size": 6.7,
+   "testo": "Quando un bardo effettua una prova di caratteristica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    657.7,
+    520.8,
+    666.3
+   ],
+   "size": 6.7,
+   "testo": "o un tiro per colpire e fallisce, può spendere un utilizzo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    668.7,
+    526.8,
+    677.3
+   ],
+   "size": 6.7,
+   "testo": "di Ispirazione Bardica; se lo fa, tira un dado di Ispirazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    679.7,
+    517.2,
+    688.3
+   ],
+   "size": 6.7,
+   "testo": "Bardica e aggiunge il risultato ottenuto al d20, trasfor­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    690.6,
+    504.8,
+    699.2
+   ],
+   "size": 6.7,
+   "testo": "mando potenzialmente il fallimento in un successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    701.6,
+    510.2,
+    710.2
+   ],
+   "size": 6.7,
+   "testo": "In caso di fallimento, l'Ispirazione Bardica non viene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    712.6,
+    350.1,
+    721.2
+   ],
+   "size": 6.7,
+   "testo": "consumata.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

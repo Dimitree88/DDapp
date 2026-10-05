@@ -1,0 +1,715 @@
+{
+ "pagina_pdf": 92,
+ "pagina_stampata": 89,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   194,
+   1,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.6,
+    40.0,
+    145.6,
+    50.7
+   ],
+   "size": 10.6,
+   "testo": "TERRA TROPICALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.4,
+    54.8,
+    104.3,
+    65.4
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    71.4,
+    65.8,
+    98.9,
+    76.4
+   ],
+   "size": 10.6,
+   "testo": "druido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    115.2,
+    65.8,
+    204.0,
+    76.4
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi del Circolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.9,
+    80.8,
+    87.4,
+    90.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    82.0,
+    95.4,
+    87.5,
+    105.1
+   ],
+   "size": 8.4,
+   "testo": "s",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.9,
+    109.9,
+    87.5,
+    119.5
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.5,
+    124.6,
+    87.5,
+    134.2
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    114.9,
+    81.3,
+    271.4,
+    90.5
+   ],
+   "size": 9.2,
+   "testo": "Fiotto acido, raggio di infermità, ragnatela",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    114.9,
+    95.8,
+    190.3,
+    105.0
+   ],
+   "size": 9.2,
+   "testo": "Nube maleodorante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    114.9,
+    110.4,
+    164.2,
+    119.6
+   ],
+   "size": 9.2,
+   "testo": "Metamorfosi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    114.9,
+    125.0,
+    181.6,
+    134.2
+   ],
+   "size": 9.2,
+   "testo": "Piaga degli insetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    148.2,
+    235.6,
+    159.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: RECUPERO NATURALE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    157.5,
+    273.8,
+    170.2
+   ],
+   "size": 8.8,
+   "testo": "Il druido può lanciare uno degli incantesimi di 1° livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    170.6,
+    282.3,
+    181.2
+   ],
+   "size": 8.8,
+   "testo": "o superiore che ha preparato con il privilegio Incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    181.7,
+    267.7,
+    192.2
+   ],
+   "size": 8.8,
+   "testo": "del Circolo senza spendere uno slot incantesimo; deve",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    192.7,
+    258.8,
+    203.2
+   ],
+   "size": 8.8,
+   "testo": "completare un riposo lungo prima di poterlo fare di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    203.7,
+    84.8,
+    214.3
+   ],
+   "size": 8.8,
+   "testo": "nuovo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    214.7,
+    278.1,
+    225.3
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, quando completa un riposo breve, sceglie quali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    225.7,
+    269.7,
+    236.3
+   ],
+   "size": 8.8,
+   "testo": "slot incantesimo spesi desidera recuperare. Questi slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    236.8,
+    286.0,
+    247.4
+   ],
+   "size": 8.8,
+   "testo": "incantesimo possono avere un livello totale pari o inferiore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    247.8,
+    275.3,
+    258.4
+   ],
+   "size": 8.8,
+   "testo": "alla metà del livello da druido {arrotondato per eccesso)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    256.6,
+    252.4,
+    269.3
+   ],
+   "size": 8.8,
+   "testo": "e nessuno slot può essere di livello superiore al 6°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    267.7,
+    270.9,
+    280.4
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, se il personaggio è un druido di 6° livello,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    280.9,
+    273.5,
+    291.4
+   ],
+   "size": 8.8,
+   "testo": "può recuperare slot incantesimo per un valore totale di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    291.9,
+    277.6,
+    302.4
+   ],
+   "size": 8.8,
+   "testo": "tre livelli. Il druido può recuperare uno slot incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    300.7,
+    268.6,
+    313.4
+   ],
+   "size": 8.8,
+   "testo": "di 3° livello, uno slot incantesimo di 2° livello e uno di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    311.7,
+    269.2,
+    324.4
+   ],
+   "size": 8.8,
+   "testo": "1° livello, o tre slot incantesimo di 1° livello. Dopo aver",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    324.7,
+    265.1,
+    335.3
+   ],
+   "size": 8.8,
+   "testo": "recuperato gli slot incantesimo con questo privilegio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    335.8,
+    282.8,
+    346.4
+   ],
+   "size": 8.8,
+   "testo": "il druido non può farlo di nuovo prima di aver completato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    346.7,
+    121.9,
+    357.3
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    367.1,
+    283.0,
+    378.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: INTERDIZIONE DELLA NATURA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    371.5,
+    275.8,
+    389.7
+   ],
+   "size": 8.8,
+   "testo": "È immune alla condizione avvelenato ed è dotato di resi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    389.6,
+    285.0,
+    400.1
+   ],
+   "size": 8.8,
+   "testo": "stenza a un tipo di danno associato alla terra che ha scelto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    400.7,
+    269.9,
+    411.2
+   ],
+   "size": 8.8,
+   "testo": "per il privilegio Incantesimi del Circolo, come indicato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    411.7,
+    208.4,
+    422.3
+   ],
+   "size": 8.8,
+   "testo": "nella tabella Interdizione della Natura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    434.4,
+    207.1,
+    445.0
+   ],
+   "size": 10.6,
+   "testo": "INTERDIZIONE DELLA NATURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    449.1,
+    159.0,
+    459.8
+   ],
+   "size": 10.6,
+   "testo": "Tipo di terra Resistenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    464.3,
+    82.7,
+    474.0
+   ],
+   "size": 8.4,
+   "testo": "Arida",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    116.2,
+    463.9,
+    141.0,
+    473.5
+   ],
+   "size": 8.4,
+   "testo": "Fuoco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    478.8,
+    85.7,
+    488.4
+   ],
+   "size": 8.4,
+   "testo": "Polare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    116.2,
+    478.6,
+    144.7,
+    488.2
+   ],
+   "size": 8.4,
+   "testo": "Freddo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.9,
+    449.1,
+    276.3,
+    459.8
+   ],
+   "size": 10.6,
+   "testo": "Tipo di terra Resistenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    176.9,
+    464.1,
+    219.9,
+    473.7
+   ],
+   "size": 8.4,
+   "testo": "Temperata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    233.5,
+    464.1,
+    266.4,
+    473.7
+   ],
+   "size": 8.4,
+   "testo": "Fulmine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.9,
+    478.7,
+    214.3,
+    488.3
+   ],
+   "size": 8.4,
+   "testo": "Tropicale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    232.6,
+    478.6,
+    261.3,
+    488.3
+   ],
+   "size": 8.4,
+   "testo": "Veleno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    502.4,
+    253.5,
+    513.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: RIFUGIO DELLA NATURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    513.8,
+    282.1,
+    524.4
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, il druido può spendere un utilizzo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    524.8,
+    279.3,
+    535.4
+   ],
+   "size": 8.8,
+   "testo": "della sua Forma Selvatica per farapparire alberi e viticci",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    535.8,
+    276.4,
+    546.4
+   ],
+   "size": 8.8,
+   "testo": "spettrali in un cubo con spigolo di 4,5 metri in un punto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    546.8,
+    282.0,
+    557.4
+   ],
+   "size": 8.8,
+   "testo": "del terreno entro 36 metri da sé. La vegetazione permane",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    557.8,
+    284.9,
+    568.3
+   ],
+   "size": 8.8,
+   "testo": "per 1 minuto, o finché il druido non è incapacitato o morto.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    568.8,
+    273.0,
+    579.4
+   ],
+   "size": 8.8,
+   "testo": "Mentre si trovano in quell'area, il druido e i suoi alleati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    579.7,
+    264.9,
+    590.3
+   ],
+   "size": 8.8,
+   "testo": "ottengono mezza copertura, e gli alleati ottengono la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    590.7,
+    250.6,
+    601.3
+   ],
+   "size": 8.8,
+   "testo": "resistenza conferita da Interdizione della Natura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    601.7,
+    279.9,
+    612.3
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il druido può muovere il cubo fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    612.9,
+    224.9,
+    623.5
+   ],
+   "size": 8.8,
+   "testo": "a 18 metri sul terreno entro 36 metri da sé.",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

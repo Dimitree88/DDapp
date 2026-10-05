@@ -1,0 +1,1075 @@
+{
+ "pagina_pdf": 204,
+ "pagina_stampata": 201,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 5 I TALENTI / 201",
+ "immagini": [
+  [
+   322,
+   22,
+   589,
+   324
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.7,
+    53.1,
+    120.6,
+    64.5
+   ],
+   "size": 11.2,
+   "testo": "FORTUNATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    65.6,
+    113.0,
+    75.0
+   ],
+   "size": 8.6,
+   "testo": "Talento Origini",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    79.2,
+    217.0,
+    89.8
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    90.2,
+    266.3,
+    100.7
+   ],
+   "size": 8.8,
+   "testo": "Puntifortuna. Il personaggio dispone di un numero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    101.2,
+    280.5,
+    111.7
+   ],
+   "size": 8.8,
+   "testo": "di punti fortuna pari al suo bonus di competenza che può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    112.2,
+    270.3,
+    122.8
+   ],
+   "size": 8.8,
+   "testo": "consumare per i benefici elencati di seguito. I punti for­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    123.2,
+    283.6,
+    133.8
+   ],
+   "size": 8.8,
+   "testo": "tuna consumati vengono recuperati dopo aver completato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    134.2,
+    120.8,
+    144.7
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    145.2,
+    272.3,
+    155.8
+   ],
+   "size": 8.8,
+   "testo": "Vantaggio. Quando il personaggio effettua una prova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    156.3,
+    267.3,
+    166.8
+   ],
+   "size": 8.8,
+   "testo": "con d20, può consumare 1 punto fortuna per ottenere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    167.3,
+    98.0,
+    177.9
+   ],
+   "size": 8.8,
+   "testo": "vantaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    178.3,
+    273.7,
+    188.8
+   ],
+   "size": 8.8,
+   "testo": "Svantaggio. Quando una creatura effettua un tiro per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    189.3,
+    278.4,
+    199.8
+   ],
+   "size": 8.8,
+   "testo": "colpire con il d20 contro il personaggio, puoi consumare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    200.3,
+    260.6,
+    210.9
+   ],
+   "size": 8.8,
+   "testo": "1 punto fortuna per conferire svantaggio a quel tiro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    235.0,
+    119.4,
+    246.4
+   ],
+   "size": 11.2,
+   "testo": "GUARITORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    247.5,
+    112.9,
+    256.8
+   ],
+   "size": 8.6,
+   "testo": "Talento Origini",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    261.1,
+    216.9,
+    271.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    272.2,
+    268.8,
+    282.7
+   ],
+   "size": 8.8,
+   "testo": "Medico combattente. Se il personaggio ha con sé una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    283.2,
+    286.2,
+    293.7
+   ],
+   "size": 8.8,
+   "testo": "borsa del guaritore, può consumarne un uso con un'azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    294.2,
+    277.7,
+    304.8
+   ],
+   "size": 8.8,
+   "testo": "di Utilizzo per curare una creatura entro 1,5 metri da sé.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    305.1,
+    282.1,
+    315.7
+   ],
+   "size": 8.8,
+   "testo": "Dopodiché, la creatura può spendere uno deisuoiDadi Vita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    316.1,
+    279.2,
+    326.7
+   ],
+   "size": 8.8,
+   "testo": "per effettuare un tiro. Così facendo, recupera un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    327.1,
+    261.5,
+    337.7
+   ],
+   "size": 8.8,
+   "testo": "di punti ferita pari al risultato del tiro più il bonus di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    338.1,
+    169.8,
+    348.6
+   ],
+   "size": 8.8,
+   "testo": "competenza del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    349.0,
+    272.3,
+    359.6
+   ],
+   "size": 8.8,
+   "testo": "Tiro ripetuto perguarigione. Quando tiri un dado per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    360.0,
+    260.4,
+    370.6
+   ],
+   "size": 8.8,
+   "testo": "determinare il numero di punti ferita ripristinati dal",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    371.1,
+    273.6,
+    381.6
+   ],
+   "size": 8.8,
+   "testo": "personaggio con un incantesimo o col beneficio Medico",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    382.1,
+    268.5,
+    392.7
+   ],
+   "size": 8.8,
+   "testo": "combattente fornito dal talento, puoi ripetere il tiro se",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    393.1,
+    266.8,
+    403.7
+   ],
+   "size": 8.8,
+   "testo": "ottieni 1. Tuttavia, dovrai utilizzare il nuovo risultato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    427.9,
+    174.3,
+    439.3
+   ],
+   "size": 11.2,
+   "testo": "INIZIATO ALLA MAGIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    440.3,
+    112.9,
+    449.6
+   ],
+   "size": 8.6,
+   "testo": "Talento Origini",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    453.9,
+    216.9,
+    464.5
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    464.9,
+    278.0,
+    475.4
+   ],
+   "size": 8.8,
+   "testo": "Due trucchetti. Il personaggio apprende due trucchetti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    475.8,
+    264.4,
+    486.4
+   ],
+   "size": 8.8,
+   "testo": "a scelta tratti dalla lista degli incantesimi da chierico,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    486.9,
+    269.0,
+    497.4
+   ],
+   "size": 8.8,
+   "testo": "druido o mago. La caratteristica da incantatore per gli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    497.9,
+    264.1,
+    508.5
+   ],
+   "size": 8.8,
+   "testo": "incantesimi di questo talento può essere Intelligenza,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    509.0,
+    257.1,
+    519.6
+   ],
+   "size": 8.8,
+   "testo": "Saggezza o Carisma (scegli la caratteristica quando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    520.0,
+    145.8,
+    530.5
+   ],
+   "size": 8.8,
+   "testo": "ottieni questo talento).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    531.0,
+    254.6,
+    541.6
+   ],
+   "size": 8.8,
+   "testo": "Incantesimo di 1° livello. Scegli un incantesimo di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    539.9,
+    265.2,
+    552.6
+   ],
+   "size": 8.8,
+   "testo": "1° livello dalla stessa lista da cui hai selezionato i truc­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    553.0,
+    283.9,
+    563.5
+   ],
+   "size": 8.8,
+   "testo": "chetti forniti da questotalento. Tale incantesimo è sempre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    563.9,
+    279.9,
+    574.5
+   ],
+   "size": 8.8,
+   "testo": "considerato come preparato. Il personaggio può lanciarlo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    574.9,
+    264.8,
+    585.5
+   ],
+   "size": 8.8,
+   "testo": "una volta senza consumare uno slot incantesimo e ne",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    585.9,
+    277.6,
+    596.5
+   ],
+   "size": 8.8,
+   "testo": "recupera l'utilizzo in questo modo dopo aver completato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    588.5,
+    282.9,
+    610.0
+   ],
+   "size": 10.8,
+   "testo": "un riposo lungo. Può anche lanciarefincantesimo usando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    602.6,
+    269.9,
+    620.2
+   ],
+   "size": 13.9,
+   "testo": "unoqualsiasideglislotincantesimo[asuadisposizione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    619.2,
+    278.3,
+    629.8
+   ],
+   "size": 8.8,
+   "testo": "Cambio incantesimo. Quando il personaggio ottiene un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    630.1,
+    277.1,
+    640.7
+   ],
+   "size": 8.8,
+   "testo": "nuovo livello, puoi sostituire uno degli incantesimi scelti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    641.2,
+    272.1,
+    651.8
+   ],
+   "size": 8.8,
+   "testo": "per questotalento con un altro dello stesso livello dalla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    652.2,
+    113.5,
+    662.8
+   ],
+   "size": 8.8,
+   "testo": "lista prescelta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    663.1,
+    275.2,
+    673.7
+   ],
+   "size": 8.8,
+   "testo": "Ripetibile. Questo talento è ottenibile più di una volta,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    674.1,
+    284.6,
+    684.7
+   ],
+   "size": 8.8,
+   "testo": "ma devi scegliere una lista degli incantesimi diversa a ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    685.1,
+    95.2,
+    695.7
+   ],
+   "size": 8.8,
+   "testo": "selezione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    338.5,
+    406.1,
+    349.9
+   ],
+   "size": 11.2,
+   "testo": "LAVORO MANUALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    351.0,
+    365.7,
+    360.3
+   ],
+   "size": 8.6,
+   "testo": "Talento Origini",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    364.6,
+    469.6,
+    375.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    375.5,
+    515.4,
+    386.1
+   ],
+   "size": 8.8,
+   "testo": "Competenza negli strumenti. Il personaggio ottiene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    386.6,
+    530.8,
+    397.1
+   ],
+   "size": 8.8,
+   "testo": "competenza in tre diversi strumenti da artigiano a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    397.6,
+    444.0,
+    408.1
+   ],
+   "size": 8.8,
+   "testo": "dalla tabella Fabbricazione rapida.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    408.7,
+    535.1,
+    419.2
+   ],
+   "size": 8.8,
+   "testo": "Sconto. Ognivolta che il personaggio acquista un oggetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    419.6,
+    454.3,
+    430.2
+   ],
+   "size": 8.8,
+   "testo": "non magico, ottiene il 20% di sconto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    430.6,
+    530.0,
+    441.2
+   ],
+   "size": 8.8,
+   "testo": "Fabbricazione rapida. Quando il personaggio completa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    441.5,
+    523.4,
+    452.1
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo, può realizzare uno strumento a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    452.6,
+    520.7,
+    463.1
+   ],
+   "size": 8.8,
+   "testo": "dalla tabella Fabbricazione rapida, ammesso che abbia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    463.7,
+    529.6,
+    474.3
+   ],
+   "size": 8.8,
+   "testo": "gli strumenti da artigiano necessari e ne possieda la com­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    474.6,
+    527.6,
+    485.1
+   ],
+   "size": 8.8,
+   "testo": "petenza. Gli oggetti durano fino al completamento di un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    485.6,
+    451.2,
+    496.2
+   ],
+   "size": 8.8,
+   "testo": "altro riposo lungo, per poi rompersi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    508.5,
+    426.9,
+    519.2
+   ],
+   "size": 10.6,
+   "testo": "FABBRICAZIONE RAPIDA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    524.3,
+    398.9,
+    533.5
+   ],
+   "size": 8.2,
+   "testo": "Strumenti da artigiano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.3,
+    524.3,
+    485.7,
+    533.5
+   ],
+   "size": 8.2,
+   "testo": "Attrezzatura creata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    539.0,
+    404.9,
+    548.6
+   ],
+   "size": 8.4,
+   "testo": "Strumenti da conciatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.2,
+    539.0,
+    474.1,
+    548.6
+   ],
+   "size": 8.4,
+   "testo": "Custodia, borsa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    554.1,
+    389.6,
+    563.7
+   ],
+   "size": 8.4,
+   "testo": "Strumenti da fabbro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.2,
+    554.1,
+    534.7,
+    563.7
+   ],
+   "size": 8.4,
+   "testo": "Sfere metalliche, secchio, triboli,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    412.5,
+    566.1,
+    509.3,
+    575.8
+   ],
+   "size": 8.4,
+   "testo": "rampino, pentola di ferro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    581.4,
+    485.5,
+    591.0
+   ],
+   "size": 8.4,
+   "testo": "Strumenti da falegname Scala a pioli, torcia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    596.6,
+    405.1,
+    606.2
+   ],
+   "size": 8.4,
+   "testo": "Strumenti da intagliatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.7,
+    596.6,
+    517.3,
+    606.2
+   ],
+   "size": 8.4,
+   "testo": "Randello, randello pesante,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.5,
+    608.7,
+    472.1,
+    618.3
+   ],
+   "size": 8.4,
+   "testo": "bastone ferrato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    624.0,
+    400.6,
+    633.7
+   ],
+   "size": 8.4,
+   "testo": "Strumenti da inventore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.1,
+    624.1,
+    518.8,
+    633.7
+   ],
+   "size": 8.4,
+   "testo": "Campanella, pala, acciarino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    412.1,
+    636.0,
+    477.7,
+    645.6
+   ],
+   "size": 8.4,
+   "testo": "con pietra focaia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    651.3,
+    400.7,
+    660.9
+   ],
+   "size": 8.4,
+   "testo": "Strumenti da muratore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.1,
+    651.3,
+    489.7,
+    661.0
+   ],
+   "size": 8.4,
+   "testo": "Carrucola e paranco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    666.5,
+    397.9,
+    676.2
+   ],
+   "size": 8.4,
+   "testo": "Strumenti da tessitore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.1,
+    666.6,
+    507.2,
+    676.2
+   ],
+   "size": 8.4,
+   "testo": "Cesto, corda, rete, tenda",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    681.8,
+    390.1,
+    691.5
+   ],
+   "size": 8.4,
+   "testo": "Strumenti da vasaio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    412.7,
+    681.8,
+    477.8,
+    691.5
+   ],
+   "size": 8.4,
+   "testo": "Brocca, lampada",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

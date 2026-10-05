@@ -1,0 +1,1272 @@
+{
+ "pagina_pdf": 368,
+ "pagina_stampata": 365,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 365",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    59.9,
+    54.1,
+    116.9,
+    65.4
+   ],
+   "size": 11.2,
+   "testo": "DADI VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    65.6,
+    278.3,
+    76.1
+   ],
+   "size": 8.8,
+   "testo": "I Dadi Vita aiutano a determinare i punti ferita massimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    76.6,
+    283.1,
+    87.2
+   ],
+   "size": 8.8,
+   "testo": "di un personaggio giocante, come spiegato nel capitolo 2.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    87.6,
+    287.0,
+    98.1
+   ],
+   "size": 8.8,
+   "testo": "Anche la maggior parte dei mostri ha i Dadi Vita. Durante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    98.5,
+    286.1,
+    109.1
+   ],
+   "size": 8.8,
+   "testo": "un riposo breve, una creatura può spendere Dadi Vita per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    109.5,
+    255.9,
+    120.1
+   ],
+   "size": 8.8,
+   "testo": "recuperare punti ferita. Vedianche \"Riposo breve\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    144.1,
+    97.9,
+    155.4
+   ],
+   "size": 11.2,
+   "testo": "DANNI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    155.6,
+    266.1,
+    166.2
+   ],
+   "size": 8.8,
+   "testo": "I danni rappresentano ciò che fa perdere punti ferita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    166.5,
+    166.3,
+    177.1
+   ],
+   "size": 8.8,
+   "testo": "a creature e oggetti colpiti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    201.4,
+    211.3,
+    212.7
+   ],
+   "size": 11.2,
+   "testo": "DISIDRATAZIONE [PERICOLO]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    212.8,
+    279.6,
+    223.3
+   ],
+   "size": 8.8,
+   "testo": "In base alla propria taglia, una creatura necessita di una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    223.7,
+    268.6,
+    234.3
+   ],
+   "size": 8.8,
+   "testo": "certa quantità di acqua al giorno, come indicato nella",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    234.7,
+    274.3,
+    245.3
+   ],
+   "size": 8.8,
+   "testo": "tabella \"Fabbisogno d'acqua giornaliero\". Una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    245.7,
+    267.6,
+    256.3
+   ],
+   "size": 8.8,
+   "testo": "che beve meno della metà dell'acqua necessaria in un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    256.7,
+    270.7,
+    267.3
+   ],
+   "size": 8.8,
+   "testo": "giorno ottiene 1 livello di indebolimento alla fine della",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    267.8,
+    273.1,
+    278.4
+   ],
+   "size": 8.8,
+   "testo": "giornata. L'indebolimento causato dalla disidratazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    278.8,
+    280.2,
+    289.4
+   ],
+   "size": 8.8,
+   "testo": "può essere rimosso solo quando la creatura beve l'intera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    289.7,
+    256.5,
+    300.3
+   ],
+   "size": 8.8,
+   "testo": "quantità d'acqua richiesta in un giorno. Vedi anche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    300.8,
+    126.3,
+    311.3
+   ],
+   "size": 8.8,
+   "testo": "\"Indebolimento\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    323.4,
+    243.2,
+    334.1
+   ],
+   "size": 10.6,
+   "testo": "FABBISOGNO D'ACQUA GIORNALIERO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    339.1,
+    87.6,
+    348.4
+   ],
+   "size": 8.2,
+   "testo": "Taglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.0,
+    339.2,
+    156.8,
+    348.4
+   ],
+   "size": 8.2,
+   "testo": "Acqua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.0,
+    339.3,
+    204.5,
+    348.5
+   ],
+   "size": 8.2,
+   "testo": "Taglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    248.2,
+    339.3,
+    274.0,
+    348.5
+   ],
+   "size": 8.2,
+   "testo": "Acqua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    353.1,
+    104.5,
+    362.7
+   ],
+   "size": 8.4,
+   "testo": "Minuscola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.3,
+    353.2,
+    154.4,
+    362.8
+   ],
+   "size": 8.4,
+   "testo": "1 litro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.0,
+    353.2,
+    210.7,
+    362.8
+   ],
+   "size": 8.4,
+   "testo": "Grande",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    248.9,
+    353.2,
+    273.7,
+    362.8
+   ],
+   "size": 8.4,
+   "testo": "16 litri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    367.6,
+    92.1,
+    377.2
+   ],
+   "size": 8.4,
+   "testo": "Piccola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    130.6,
+    367.6,
+    152.2,
+    377.2
+   ],
+   "size": 8.4,
+   "testo": "4 litri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.5,
+    367.8,
+    212.3,
+    377.4
+   ],
+   "size": 8.4,
+   "testo": "Enorme",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    248.1,
+    367.8,
+    274.3,
+    377.4
+   ],
+   "size": 8.4,
+   "testo": "64 litri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    382.2,
+    89.0,
+    391.9
+   ],
+   "size": 8.4,
+   "testo": "Media",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    130.7,
+    382.3,
+    152.2,
+    391.9
+   ],
+   "size": 8.4,
+   "testo": "4 litri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    180.5,
+    382.4,
+    234.9,
+    392.0
+   ],
+   "size": 8.4,
+   "testo": "Mastodontica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    248.2,
+    382.4,
+    278.7,
+    392.0
+   ],
+   "size": 8.4,
+   "testo": "256 litri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    420.4,
+    177.0,
+    431.8
+   ],
+   "size": 11.2,
+   "testo": "DISIMPEGNO [AZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    431.8,
+    275.9,
+    442.4
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio effettua un'azione di Disimpegno,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    442.8,
+    272.7,
+    453.4
+   ],
+   "size": 8.8,
+   "testo": "il suo movimento non provoca attacchi di opportunità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    453.8,
+    176.9,
+    464.4
+   ],
+   "size": 8.8,
+   "testo": "per il resto del turno in corso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    488.4,
+    172.2,
+    499.8
+   ],
+   "size": 11.2,
+   "testo": "EFFETTI SIMULTANEI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    499.9,
+    270.2,
+    510.5
+   ],
+   "size": 8.8,
+   "testo": "Se due o più eventi accadono nello stesso momento in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    510.9,
+    276.7,
+    521.5
+   ],
+   "size": 8.8,
+   "testo": "un turno, a decidere l'ordine degli eventi è la persona al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    521.9,
+    282.7,
+    532.5
+   ],
+   "size": 8.8,
+   "testo": "tavolo (giocatore o DM) che sta giocando il turno in quel",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    533.0,
+    285.8,
+    543.5
+   ],
+   "size": 8.8,
+   "testo": "momento. Ad esempio, se due effetti si applicano all'inizio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    543.9,
+    268.8,
+    554.5
+   ],
+   "size": 8.8,
+   "testo": "del turno di un personaggio giocante, il giocatore che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    554.9,
+    271.2,
+    565.4
+   ],
+   "size": 8.8,
+   "testo": "controlla quel personaggio decide quale dei due effetti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    565.8,
+    139.7,
+    576.3
+   ],
+   "size": 8.8,
+   "testo": "si applica per primo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    600.5,
+    154.2,
+    611.9
+   ],
+   "size": 11.2,
+   "testo": "EFFETTO MAGICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    612.1,
+    266.2,
+    622.7
+   ],
+   "size": 8.8,
+   "testo": "Un effetto si definisce \"magico\" se viene creato da un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    623.1,
+    268.6,
+    633.7
+   ],
+   "size": 8.8,
+   "testo": "incantesimo, da un oggetto magico o da un fenomeno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    634.1,
+    215.7,
+    644.7
+   ],
+   "size": 8.8,
+   "testo": "che una regola definisce come \"magico\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    668.8,
+    233.1,
+    680.2
+   ],
+   "size": 11.2,
+   "testo": "EMANAZIONE [AREA DI EFFETTO]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    680.1,
+    282.2,
+    690.7
+   ],
+   "size": 8.8,
+   "testo": "Un'emanazione è un'area di effetto che si estende in linee",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.8,
+    691.1,
+    286.1,
+    701.7
+   ],
+   "size": 8.8,
+   "testo": "rette da una creatura o da un oggetto in tutte le direzioni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    702.2,
+    286.1,
+    712.7
+   ],
+   "size": 8.8,
+   "testo": "L'effetto che crea un'emanazione specifica la distanza fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.2,
+    713.1,
+    139.9,
+    723.6
+   ],
+   "size": 8.8,
+   "testo": "a cui essa si estende.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.3,
+    39.1,
+    532.5,
+    49.7
+   ],
+   "size": 8.8,
+   "testo": "Un'emanazione si muove insieme alla creatura o all'og­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.3,
+    50.1,
+    536.2,
+    60.7
+   ],
+   "size": 8.8,
+   "testo": "getto che ne costituisce l'origine, a meno che non si tratti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.0,
+    61.1,
+    460.9,
+    71.7
+   ],
+   "size": 8.8,
+   "testo": "di un effetto istantaneo o stazionario.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.2,
+    72.2,
+    524.8,
+    82.7
+   ],
+   "size": 8.8,
+   "testo": "L'origine di un'emanazione (creatura o oggetto) non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    83.1,
+    526.6,
+    93.7
+   ],
+   "size": 8.8,
+   "testo": "è inclusa nell'area di effetto, a meno che il suo creatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.0,
+    94.0,
+    400.0,
+    104.6
+   ],
+   "size": 8.8,
+   "testo": "non decida altrimenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    128.6,
+    375.9,
+    140.0
+   ],
+   "size": 11.2,
+   "testo": "FLUTTUARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    140.0,
+    526.4,
+    150.6
+   ],
+   "size": 8.8,
+   "testo": "Alcune creature sono in grado di fluttuare, come speci­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.9,
+    151.1,
+    526.0,
+    161.7
+   ],
+   "size": 8.8,
+   "testo": "ficato nella loro scheda delle statistiche. Inoltre, alcuni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    162.1,
+    534.3,
+    172.7
+   ],
+   "size": 8.8,
+   "testo": "incantesimi e altri effetti concedono l'abilità di fluttuare.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.0,
+    173.1,
+    541.5,
+    183.7
+   ],
+   "size": 8.8,
+   "testo": "Fluttuando mentre è in volo, il personaggio evita di cadere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    184.1,
+    499.2,
+    194.7
+   ],
+   "size": 8.8,
+   "testo": "in determinate circostanze. Vedianche \"Volare\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    218.7,
+    441.3,
+    230.1
+   ],
+   "size": 11.2,
+   "testo": "FOCUS DA INCANTATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    230.2,
+    537.4,
+    240.8
+   ],
+   "size": 8.8,
+   "testo": "Un focus da incantatore è un oggetto che alcune creature",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    241.2,
+    534.5,
+    251.7
+   ],
+   "size": 8.8,
+   "testo": "possono utilizzare al posto delle componenti materiali di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    252.2,
+    532.5,
+    262.7
+   ],
+   "size": 8.8,
+   "testo": "un incantesimo solo se tali materiali non vengono consu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    263.2,
+    530.0,
+    273.8
+   ],
+   "size": 8.8,
+   "testo": "mati dall'incantesimo e non hanno un costo specificato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    274.2,
+    530.1,
+    284.8
+   ],
+   "size": 8.8,
+   "testo": "Alcune classi consentono ai propri membri di utilizzare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    285.3,
+    535.7,
+    295.8
+   ],
+   "size": 8.8,
+   "testo": "tipi specifici di focus da incantatore. Vedianchecapitolo 7",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.0,
+    296.2,
+    423.3,
+    306.8
+   ],
+   "size": 8.8,
+   "testo": "(\"Lanciare gli incantesimi\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    330.8,
+    398.9,
+    342.1
+   ],
+   "size": 11.2,
+   "testo": "GRADO DI SFIDA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    342.2,
+    525.6,
+    352.8
+   ],
+   "size": 8.8,
+   "testo": "Il grado di sfida (GS) indica quanto è grave la minaccia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    353.2,
+    529.0,
+    363.7
+   ],
+   "size": 8.8,
+   "testo": "costituita da un mostro per un gruppo di quattro perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    364.2,
+    536.7,
+    374.7
+   ],
+   "size": 8.8,
+   "testo": "naggi giocanti. Confronta il GS di un mostro con il livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    375.1,
+    520.7,
+    385.7
+   ],
+   "size": 8.8,
+   "testo": "dei personaggi. Se il GS è superiore, è probabile che il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    386.2,
+    534.6,
+    396.7
+   ],
+   "size": 8.8,
+   "testo": "mostro costituisca un pericolo. Se il GS è inferiore, è pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.2,
+    397.2,
+    528.8,
+    407.8
+   ],
+   "size": 8.8,
+   "testo": "babile che il mostro non costituisca una seria minaccia.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    408.3,
+    539.7,
+    418.9
+   ],
+   "size": 8.8,
+   "testo": "Tuttavia, le circostanze e il numero di personaggi giocanti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    419.3,
+    526.6,
+    429.9
+   ],
+   "size": 8.8,
+   "testo": "possono alterare significativamente l'effettivo grado di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    430.3,
+    523.4,
+    440.9
+   ],
+   "size": 8.8,
+   "testo": "minaccia di un mostro nel gioco. La Guida del Dungeon",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    441.3,
+    526.6,
+    451.8
+   ],
+   "size": 8.8,
+   "testo": "Master fornisce una guida per il DM su come utilizzare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    452.2,
+    535.5,
+    462.8
+   ],
+   "size": 8.8,
+   "testo": "i GS nel pianificare potenziali incontri di combattimento.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.9,
+    463.2,
+    454.2,
+    473.8
+   ],
+   "size": 8.8,
+   "testo": "Vedianche \"Scheda delle statistiche\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    498.0,
+    381.0,
+    509.3
+   ],
+   "size": 11.2,
+   "testo": "GUARIGIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    509.4,
+    538.9,
+    520.0
+   ],
+   "size": 8.8,
+   "testo": "La guarigione è il modo in cui il tuo personaggio recupera",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    520.4,
+    531.8,
+    531.0
+   ],
+   "size": 8.8,
+   "testo": "punti ferita. Vedianche capitolo 1 (\"Danni e guarigione\").",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    555.1,
+    366.8,
+    566.4
+   ],
+   "size": 11.2,
+   "testo": "ILLUSIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    566.4,
+    537.2,
+    577.0
+   ],
+   "size": 8.8,
+   "testo": "Incantesimi e altri effetti a volte creano illusioni magiche.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.2,
+    577.4,
+    525.9,
+    588.0
+   ],
+   "size": 8.8,
+   "testo": "Tali effetti definiscono cosa fa l'illusione e in che modo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.3,
+    588.4,
+    529.8,
+    599.0
+   ],
+   "size": 8.8,
+   "testo": "essa inganna i sensi o le facoltà mentali di una creatura.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    319.5,
+    599.4,
+    514.0,
+    610.0
+   ],
+   "size": 8.8,
+   "testo": "Se un'illusione si manifesta in uno spazio, è incon­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    610.5,
+    520.7,
+    621.1
+   ],
+   "size": 8.8,
+   "testo": "sistente e priva di peso, ma sembra essere influenzata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    621.6,
+    522.1,
+    632.2
+   ],
+   "size": 8.8,
+   "testo": "dall'ambiente come se fosse reale, a meno che l'effetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.3,
+    632.6,
+    534.2,
+    643.2
+   ],
+   "size": 8.8,
+   "testo": "che l'ha creata non specifichi diversamente. Per esempio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.2,
+    643.6,
+    535.4,
+    654.2
+   ],
+   "size": 8.8,
+   "testo": "l'illusione visiva di una creatura proietta ombre e riflessi,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.3,
+    654.6,
+    506.6,
+    665.1
+   ],
+   "size": 8.8,
+   "testo": "e il vento sembra influenzare la creatura illusoria.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.0,
+    665.5,
+    532.7,
+    676.1
+   ],
+   "size": 8.8,
+   "testo": "Allo stesso modo, un'illusione acustica riecheggia in uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.2,
+    676.5,
+    405.6,
+    687.0
+   ],
+   "size": 8.8,
+   "testo": "spazio che produce eco.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

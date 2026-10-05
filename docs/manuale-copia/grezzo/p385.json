@@ -1,0 +1,5088 @@
+{
+ "pagina_pdf": 385,
+ "pagina_stampata": 382,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "INDICE",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    46.7,
+    38.2,
+    106.1,
+    45.0
+   ],
+   "size": 5.2,
+   "testo": "Maestro dell'Occulto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    38.0,
+    232.7,
+    44.9
+   ],
+   "size": 6.8,
+   "testo": "miraggio arcano (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    37.9,
+    316.8,
+    44.7
+   ],
+   "size": 5.2,
+   "testo": "Nascondersi (azione), 15",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.5,
+    37.8,
+    415.5,
+    44.6
+   ],
+   "size": 5.2,
+   "testo": "paladino (classe), 49, 131",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.8,
+    38.2,
+    500.9,
+    45.1
+   ],
+   "size": 6.8,
+   "testo": "percezione delle bestie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    46.2,
+    125.2,
+    53.0
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 167",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.9,
+    46.0,
+    164.3,
+    52.8
+   ],
+   "size": 5.2,
+   "testo": "292",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    45.9,
+    299.2,
+    52.6
+   ],
+   "size": 5.2,
+   "testo": "Natura (abilità), 14",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.5,
+    45.9,
+    426.2,
+    52.7
+   ],
+   "size": 5.2,
+   "testo": "lista degli incantesimi, 134",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.5,
+    46.3,
+    503.3,
+    53.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 302",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    54.3,
+    104.1,
+    61.1
+   ],
+   "size": 5.2,
+   "testo": "Maestro di Battaglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    54.1,
+    202.9,
+    60.9
+   ],
+   "size": 5.2,
+   "testo": "M istificatore Arcano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    54.0,
+    289.3,
+    60.7
+   ],
+   "size": 5.2,
+   "testo": "nave a vela, 230",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.8,
+    53.9,
+    410.5,
+    60.7
+   ],
+   "size": 5.2,
+   "testo": "Privilegi del paladino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    54.3,
+    507.1,
+    61.1
+   ],
+   "size": 5.2,
+   "testo": "Percezione del Pericolo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    62.4,
+    102.4,
+    69.1
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 97",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.4,
+    62.2,
+    203.8,
+    69.0
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 108",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    62.0,
+    301.4,
+    68.8
+   ],
+   "size": 5.2,
+   "testo": "Nave da guerra, 230",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    359.0,
+    62.0,
+    396.4,
+    68.8
+   ],
+   "size": 5.2,
+   "testo": "(tabella) , 132",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.5,
+    62.4,
+    517.2,
+    69.2
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 52",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    70.3,
+    113.4,
+    77.1
+   ],
+   "size": 5.2,
+   "testo": "Maestro di Mille Forme",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    70.1,
+    213.3,
+    76.9
+   ],
+   "size": 5.2,
+   "testo": "modificare i punteggi di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    70.0,
+    290.5,
+    76.8
+   ],
+   "size": 5.2,
+   "testo": "Nave lunga, 230",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    69.9,
+    394.8,
+    76.7
+   ],
+   "size": 5.2,
+   "testo": "sottoclassi, 135",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.4,
+    70.3,
+    519.0,
+    77.1
+   ],
+   "size": 5.2,
+   "testo": "Percezione passiva, 40, 369",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    78.3,
+    97.1,
+    85.0
+   ],
+   "size": 5.2,
+   "testo": "(supplica), 168",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.8,
+    78.1,
+    199.7,
+    84.9
+   ],
+   "size": 5.2,
+   "testo": "caratteristica, 38",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    78.0,
+    270.1,
+    84.8
+   ],
+   "size": 5.2,
+   "testo": "navi, 230",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.1,
+    77.9,
+    429.2,
+    84.7
+   ],
+   "size": 5.2,
+   "testo": "Tratti del paladino (tabella),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.4,
+    78.3,
+    510.8,
+    85.1
+   ],
+   "size": 5.2,
+   "testo": "Percezione tellurica, 369",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    86.3,
+    101.2,
+    93.0
+   ],
+   "size": 5.2,
+   "testo": "Magia (azione), 15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    86.1,
+    200.2,
+    93.0
+   ],
+   "size": 6.8,
+   "testo": "modificare memoria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    86.0,
+    309.4,
+    92.8
+   ],
+   "size": 5.2,
+   "testo": "necrotico (danno) , 376",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    358.7,
+    86.0,
+    369.8,
+    92.8
+   ],
+   "size": 5.2,
+   "testo": "131",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    86.3,
+    516.7,
+    93.1
+   ],
+   "size": 5.2,
+   "testo": "perdere conoscenza (privo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    94.3,
+    121.5,
+    101.0
+   ],
+   "size": 5.2,
+   "testo": "Magia del Patto (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.3,
+    94.1,
+    207.1,
+    100.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 293",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    94.0,
+    279.3,
+    100.8
+   ],
+   "size": 5.2,
+   "testo": "nemico, 368",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    93.8,
+    422.8,
+    100.7
+   ],
+   "size": 6.8,
+   "testo": "palla difuoco (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    94.3,
+    484.9,
+    101.1
+   ],
+   "size": 5.2,
+   "testo": "di sensi), 28",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    102.3,
+    95.2,
+    109.1
+   ],
+   "size": 5.2,
+   "testo": "di classe) , 165",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    102.2,
+    232.0,
+    108.9
+   ],
+   "size": 5.2,
+   "testo": "modificatore, caratteristica, 10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    102.0,
+    324.8,
+    108.8
+   ],
+   "size": 5.2,
+   "testo": "Nemico Prescelto (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    102.0,
+    361.8,
+    108.7
+   ],
+   "size": 5.2,
+   "testo": "298",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    102.3,
+    509.1,
+    109.1
+   ],
+   "size": 5.2,
+   "testo": "perforante (danno), 376",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    110.3,
+    103.9,
+    117.0
+   ],
+   "size": 5.2,
+   "testo": "maglia, cotta di, 219",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    110.1,
+    228.1,
+    116.9
+   ],
+   "size": 5.2,
+   "testo": "modificatore di caratteristica,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.4,
+    110.0,
+    292.6,
+    116.8
+   ],
+   "size": 5.2,
+   "testo": "di classe). 141",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    109.8,
+    404.9,
+    116.7
+   ],
+   "size": 6.8,
+   "testo": "palla difuoco ritardata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    110.3,
+    487.6,
+    117.1
+   ],
+   "size": 5.2,
+   "testo": "pergamena, 227",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.7,
+    118.2,
+    80.0,
+    125.0
+   ],
+   "size": 5.2,
+   "testo": "Maglio, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    118.2,
+    174.1,
+    124.9
+   ],
+   "size": 5.2,
+   "testo": "10, 370",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    117.9,
+    312.6,
+    124.7
+   ],
+   "size": 5.2,
+   "testo": "nero, orso (scheda delle",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.9,
+    117.9,
+    405.2,
+    124.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) . 298",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    118.2,
+    509.1,
+    125.1
+   ],
+   "size": 6.8,
+   "testo": "magica, pergamena, 227",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    126.2,
+    102.8,
+    133.0
+   ],
+   "size": 5.2,
+   "testo": "Magma, Piano Para-",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    126.1,
+    208.5,
+    132.9
+   ],
+   "size": 5.2,
+   "testo": "determinazione, 38",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    125.9,
+    297.4,
+    132.7
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 353",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.6,
+    125.9,
+    399.1,
+    132.7
+   ],
+   "size": 5.2,
+   "testo": "Pandemonium, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.8,
+    126.2,
+    507.4,
+    133.1
+   ],
+   "size": 6.8,
+   "testo": "pergamena magica, 227",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    134.2,
+    110.6,
+    141.0
+   ],
+   "size": 5.2,
+   "testo": "Elementale del, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    134.1,
+    225.1,
+    140.9
+   ],
+   "size": 5.2,
+   "testo": "Modificatori di caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.2,
+    134.0,
+    291.4,
+    140.7
+   ],
+   "size": 5.2,
+   "testo": "Neutrale (N), 39",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.6,
+    133.9,
+    409.4,
+    140.7
+   ],
+   "size": 5.2,
+   "testo": "Panoramica delle classi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.9,
+    134.2,
+    498.0,
+    141.1
+   ],
+   "size": 6.8,
+   "testo": "pergamene magiche,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    142.2,
+    111.2,
+    149.0
+   ],
+   "size": 5.2,
+   "testo": "mago (classe), 49, 111",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.3,
+    142.1,
+    188.4,
+    148.9
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    141.9,
+    315.1,
+    148.7
+   ],
+   "size": 5.2,
+   "testo": "Neutrale buono ( N B ) , 39",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.9,
+    141.9,
+    385.5,
+    148.7
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 33",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.8,
+    142.3,
+    493.1,
+    149.1
+   ],
+   "size": 5.2,
+   "testo": "trascrivere, 233",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    150.1,
+    131.3,
+    156.9
+   ],
+   "size": 5.2,
+   "testo": "lista degli incantesimi, 114",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    150.1,
+    215.9,
+    156.9
+   ],
+   "size": 5.2,
+   "testo": "monaco (classe), 49, 123",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    149.9,
+    323.8,
+    156.7
+   ],
+   "size": 5.2,
+   "testo": "Neutrale malvagio (NM), 39",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.5,
+    150.0,
+    404.2,
+    156.7
+   ],
+   "size": 5.2,
+   "testo": "pantera (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    150.3,
+    488.7,
+    157.1
+   ],
+   "size": 5.2,
+   "testo": "pericolo, 20, 369",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    158.3,
+    131.9,
+    165.0
+   ],
+   "size": 5.2,
+   "testo": "Privilegi del mago (tabella),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    158.1,
+    211.2,
+    164.9
+   ],
+   "size": 5.2,
+   "testo": "Privilegi del monaco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    158.0,
+    316.5,
+    164.8
+   ],
+   "size": 5.2,
+   "testo": "Nobile (background), 183",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    157.9,
+    396.6,
+    164.7
+   ],
+   "size": 5.2,
+   "testo": "statistiche) , 353",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    158.2,
+    483.1,
+    165.0
+   ],
+   "size": 5.2,
+   "testo": "caduta, 363",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    166.2,
+    74.9,
+    173.0
+   ],
+   "size": 5.2,
+   "testo": "112",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    161.3,
+    166.1,
+    198.7,
+    172.9
+   ],
+   "size": 5.2,
+   "testo": "(tabella), 124",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    166.0,
+    326.3,
+    172.8
+   ],
+   "size": 5.2,
+   "testo": "non morto (tipo di creatura),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.5,
+    165.9,
+    425.8,
+    172.7
+   ],
+   "size": 5.2,
+   "testo": "paralizzato (condizione), 369",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    166.3,
+    503.6,
+    173.1
+   ],
+   "size": 5.2,
+   "testo": "disidratazione, 365",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    174.3,
+    100.1,
+    181.1
+   ],
+   "size": 5.2,
+   "testo": "sottoclassi, 118",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.8,
+    174.2,
+    197.3,
+    180.9
+   ],
+   "size": 5.2,
+   "testo": "sottoclassi, 126",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.8,
+    174.1,
+    263.3,
+    180.9
+   ],
+   "size": 5.2,
+   "testo": "376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.2,
+    173.9,
+    404.0,
+    180.8
+   ],
+   "size": 6.8,
+   "testo": "parlare con gli animali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.7,
+    174.4,
+    492.3,
+    181.1
+   ],
+   "size": 5.2,
+   "testo": "in fiamme, 366",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    182.4,
+    124.5,
+    189.1
+   ],
+   "size": 5.2,
+   "testo": "Tratti del mago (tabella),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.4,
+    182.1,
+    229.5,
+    188.9
+   ],
+   "size": 5.2,
+   "testo": "Tratti del monaco (tabella) ,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.9,
+    182.0,
+    289.6,
+    188.7
+   ],
+   "size": 5.2,
+   "testo": "Nove Inferi, 344",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.9,
+    182.0,
+    404.8,
+    188.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 299",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    182.4,
+    503.0,
+    189.1
+   ],
+   "size": 5.2,
+   "testo": "malnutrizione, 368",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    190.2,
+    74.0,
+    197.0
+   ],
+   "size": 5.2,
+   "testo": "111",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    161.2,
+    190.2,
+    171.7,
+    196.9
+   ],
+   "size": 5.2,
+   "testo": "123",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.1,
+    189.9,
+    327.7,
+    196.8
+   ],
+   "size": 6.8,
+   "testo": "nube di nebbia (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    189.8,
+    393.6,
+    196.7
+   ],
+   "size": 6.8,
+   "testo": "parlare con i morii",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    190.3,
+    502.0,
+    197.1
+   ],
+   "size": 5.2,
+   "testo": "soffocamento, 374",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    198.4,
+    95.4,
+    205.1
+   ],
+   "size": 5.2,
+   "testo": "maledizione, 368",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    198.2,
+    224.8,
+    205.0
+   ],
+   "size": 5.2,
+   "testo": "Moneta d'argento (ma), 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    198.1,
+    263.1,
+    204.9
+   ],
+   "size": 5.2,
+   "testo": "296",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.8,
+    198.0,
+    404.8,
+    204.7
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 299",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    198.4,
+    473.3,
+    205.2
+   ],
+   "size": 5.2,
+   "testo": "personaggi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    206.4,
+    129.4,
+    213.1
+   ],
+   "size": 5.2,
+   "testo": "malnutrizione (pericolo), 368",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    206.2,
+    230.0,
+    213.0
+   ],
+   "size": 5.2,
+   "testo": "Moneta di electrum (me) , 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    206.1,
+    328.9,
+    213.0
+   ],
+   "size": 6.8,
+   "testo": "nube di pugnali (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    206.0,
+    399.2,
+    212.9
+   ],
+   "size": 6.8,
+   "testo": "parlare con i vegetali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    206.5,
+    475.6,
+    213.2
+   ],
+   "size": 5.2,
+   "testo": "classi, 49",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    214.4,
+    84.3,
+    221.2
+   ],
+   "size": 5.2,
+   "testo": "manette, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    214.3,
+    225.2,
+    221.0
+   ],
+   "size": 5.2,
+   "testo": "Moneta di platino (mp), 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    214.1,
+    263.1,
+    220.9
+   ],
+   "size": 5.2,
+   "testo": "296",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.8,
+    214.1,
+    404.9,
+    220.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 299",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    214.5,
+    483.5,
+    221.2
+   ],
+   "size": 5.2,
+   "testo": "personaggio, 7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.0,
+    222.3,
+    129.5,
+    229.2
+   ],
+   "size": 6.8,
+   "testo": "mani brucianti (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    222.3,
+    218.7,
+    229.0
+   ],
+   "size": 5.2,
+   "testo": "Moneta di rame (mr) , 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.1,
+    222.1,
+    289.2,
+    229.0
+   ],
+   "size": 6.8,
+   "testo": "nube incendiaria",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    221.9,
+    415.4,
+    228.8
+   ],
+   "size": 6.8,
+   "testo": "parola del poterefortificare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    222.4,
+    512.8,
+    229.2
+   ],
+   "size": 5.2,
+   "testo": "acquisire un livello, 42",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    230.3,
+    65.6,
+    237.1
+   ],
+   "size": 5.2,
+   "testo": "290",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    230.2,
+    212.9,
+    237.0
+   ],
+   "size": 5.2,
+   "testo": "Moneta d'oro (mo), 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    252.0,
+    230.1,
+    306.1,
+    236.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 296",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.8,
+    230.0,
+    404.8,
+    236.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 299",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    230.4,
+    481.4,
+    237.2
+   ],
+   "size": 5.2,
+   "testo": "aspetto, 38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.7,
+    238.3,
+    122.4,
+    245.1
+   ],
+   "size": 5.2,
+   "testo": "Manifestazioni dell'Ordine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    238.2,
+    180.5,
+    244.9
+   ],
+   "size": 5.2,
+   "testo": "monete, 213",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    238.0,
+    297.2,
+    244.9
+   ],
+   "size": 6.8,
+   "testo": "nube maleodorante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.2,
+    237.9,
+    408.6,
+    244.8
+   ],
+   "size": 6.8,
+   "testo": "parola del potere guarire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    238.3,
+    496.6,
+    245.1
+   ],
+   "size": 5.2,
+   "testo": "background, 177",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    246.3,
+    92.1,
+    253.1
+   ],
+   "size": 5.2,
+   "testo": "(tabella) , 162",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    246.2,
+    173.5,
+    252.9
+   ],
+   "size": 5.2,
+   "testo": "monili, 46",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    252.0,
+    246.0,
+    306.2,
+    252.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 297",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.8,
+    246.0,
+    404.8,
+    252.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    246.3,
+    486.1,
+    253.1
+   ],
+   "size": 5.2,
+   "testo": "creare un, 33",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    254.3,
+    129.3,
+    261.2
+   ],
+   "size": 6.8,
+   "testo": "mano di Bigby (incantesimo).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    254.2,
+    199.7,
+    261.0
+   ],
+   "size": 5.2,
+   "testo": "Monili (tabella) , 46",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    254.0,
+    323.3,
+    260.9
+   ],
+   "size": 6.8,
+   "testo": "nube mortale (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    253.9,
+    409.8,
+    260.8
+   ],
+   "size": 6.8,
+   "testo": "parola del potere stordire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    254.4,
+    487.7,
+    261.2
+   ],
+   "size": 5.2,
+   "testo": "giocante, 369",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    262.3,
+    65.0,
+    269.1
+   ],
+   "size": 5.2,
+   "testo": "291",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    262.2,
+    202.1,
+    269.0
+   ],
+   "size": 5.2,
+   "testo": "Monte Celestia, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    262.1,
+    263.3,
+    268.8
+   ],
+   "size": 5.2,
+   "testo": "297",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.8,
+    262.0,
+    404.8,
+    268.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    262.4,
+    510.7,
+    269.2
+   ],
+   "size": 5.2,
+   "testo": "morte/scomparsa, 28",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.4,
+    270.2,
+    126.9,
+    277.1
+   ],
+   "size": 6.8,
+   "testo": "mano magica (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    270.2,
+    176.7,
+    277.0
+   ],
+   "size": 5.2,
+   "testo": "morte, 376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    270.1,
+    280.4,
+    276.9
+   ],
+   "size": 5.2,
+   "testo": "nuotare, 368",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    270.0,
+    411.8,
+    276.9
+   ],
+   "size": 6.8,
+   "testo": "parola del potere uccidere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.0,
+    270.4,
+    481.6,
+    277.2
+   ],
+   "size": 5.2,
+   "testo": "origini, 177",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    278.3,
+    64.9,
+    285.1
+   ],
+   "size": 5.2,
+   "testo": "291",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    278.2,
+    219.0,
+    285.0
+   ],
+   "size": 5.2,
+   "testo": "danni considerevoli, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.2,
+    278.0,
+    324.9,
+    284.9
+   ],
+   "size": 6.8,
+   "testo": "occhio arcano (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.8,
+    278.1,
+    404.8,
+    284.8
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.3,
+    278.4,
+    491.5,
+    285.2
+   ],
+   "size": 5.2,
+   "testo": "personalità, 38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.4,
+    286.4,
+    97.6,
+    293.3
+   ],
+   "size": 6.8,
+   "testo": "manto del crociato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.9,
+    286.3,
+    193.1,
+    293.1
+   ],
+   "size": 5.2,
+   "testo": "istantanea, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    286.1,
+    263.1,
+    292.9
+   ],
+   "size": 5.2,
+   "testo": "297",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    286.1,
+    427.7,
+    293.0
+   ],
+   "size": 6.8,
+   "testo": "parola del ritiro (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    286.5,
+    481.2,
+    293.2
+   ],
+   "size": 5.2,
+   "testo": "specie, 177",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    294.4,
+    107.8,
+    301.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 291",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.5,
+    294.3,
+    184.6,
+    301.1
+   ],
+   "size": 5.2,
+   "testo": "mostro, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    294.2,
+    305.6,
+    300.9
+   ],
+   "size": 5.2,
+   "testo": "occupato, spazio, 374",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.7,
+    294.1,
+    361.2,
+    300.9
+   ],
+   "size": 5.2,
+   "testo": "300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    294.5,
+    500.7,
+    301.3
+   ],
+   "size": 5.2,
+   "testo": "stabilizzare un, 29",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    302.4,
+    80.5,
+    309.2
+   ],
+   "size": 5.2,
+   "testo": "mappa, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.3,
+    302.3,
+    198.8,
+    309.1
+   ],
+   "size": 5.2,
+   "testo": "personaggio, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    302.1,
+    278.2,
+    308.9
+   ],
+   "size": 5.2,
+   "testo": "oggetti, 232",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    302.0,
+    421.8,
+    308.9
+   ],
+   "size": 6.8,
+   "testo": "parola divina (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    302.5,
+    521.7,
+    309.2
+   ],
+   "size": 5.2,
+   "testo": "personaggio, aspetto del, 38",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    310.4,
+    107.1,
+    317.2
+   ],
+   "size": 5.2,
+   "testo": "mappe o pergamene,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.9,
+    310.3,
+    223.1,
+    317.0
+   ],
+   "size": 5.2,
+   "testo": "punti ferita massimi pari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.1,
+    310.1,
+    326.1,
+    316.9
+   ],
+   "size": 5.2,
+   "testo": "creare oggetti non magici,",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    310.1,
+    361.7,
+    316.9
+   ],
+   "size": 5.2,
+   "testo": "300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    310.5,
+    515.9,
+    317.2
+   ],
+   "size": 5.2,
+   "testo": "personaggio giocante, 369",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    318.4,
+    102.7,
+    325.1
+   ],
+   "size": 5.2,
+   "testo": "custodia per, 225",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.8,
+    318.3,
+    180.4,
+    325.1
+   ],
+   "size": 5.2,
+   "testo": "a 0, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    318.1,
+    271.1,
+    324.9
+   ],
+   "size": 5.2,
+   "testo": "233",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    318.0,
+    412.6,
+    324.9
+   ],
+   "size": 6.8,
+   "testo": "parola guaritrice di massa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    318.4,
+    515.2,
+    325.2
+   ],
+   "size": 5.2,
+   "testo": "personaggio non giocante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.4,
+    326.3,
+    107.4,
+    333.2
+   ],
+   "size": 6.8,
+   "testo": "marchio del cacciatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    326.2,
+    190.5,
+    333.1
+   ],
+   "size": 6.8,
+   "testo": "morie apparente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    326.2,
+    297.3,
+    333.0
+   ],
+   "size": 5.2,
+   "testo": "impugnare, 232",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.8,
+    326.1,
+    404.6,
+    332.9
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo). 300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.5,
+    326.4,
+    482.6,
+    333.2
+   ],
+   "size": 5.2,
+   "testo": "(PNG), 369",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    334.4,
+    107.9,
+    341.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 291",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.3,
+    334.2,
+    207.2,
+    341.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 293",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    334.1,
+    293.9,
+    340.9
+   ],
+   "size": 5.2,
+   "testo": "indossare, 232",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    334.0,
+    429.6,
+    340.9
+   ],
+   "size": 6.8,
+   "testo": "parola guaritrice (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    334.4,
+    511.5,
+    341.2
+   ],
+   "size": 5.2,
+   "testo": "personaggio, personalità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    342.3,
+    125.6,
+    349.1
+   ],
+   "size": 5.2,
+   "testo": "Marinaio (background), 182",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    342.2,
+    205.1,
+    349.0
+   ],
+   "size": 5.2,
+   "testo": "morte del mostro, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    342.1,
+    289.6,
+    348.9
+   ],
+   "size": 5.2,
+   "testo": "oggetto, 19, 368",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    342.0,
+    361.7,
+    348.8
+   ],
+   "size": 5.2,
+   "testo": "300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.4,
+    342.4,
+    468.9,
+    349.2
+   ],
+   "size": 5.2,
+   "testo": "del, 38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    350.3,
+    81.9,
+    357.1
+   ],
+   "size": 5.2,
+   "testo": "martelli, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    350.2,
+    203.6,
+    357.0
+   ],
+   "size": 5.2,
+   "testo": "morte istantanea, 28",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    350.1,
+    305.9,
+    356.9
+   ],
+   "size": 5.2,
+   "testo": "interazioni con, 19",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    349.9,
+    425.3,
+    356.8
+   ],
+   "size": 6.8,
+   "testo": "parola radiosa (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.4,
+    350.3,
+    510.9,
+    357.1
+   ],
+   "size": 5.2,
+   "testo": "Persuasione (abilità), 14",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.7,
+    358.3,
+    112.3,
+    365.0
+   ],
+   "size": 5.2,
+   "testo": "Martello da guerra, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    358.2,
+    189.3,
+    364.9
+   ],
+   "size": 5.2,
+   "testo": "Moschetto, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.4,
+    358.0,
+    317.4,
+    364.8
+   ],
+   "size": 5.2,
+   "testo": "a tempo limitato, 20",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    358.0,
+    361.0,
+    364.8
+   ],
+   "size": 5.2,
+   "testo": "301",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.4,
+    358.3,
+    478.4,
+    365.1
+   ],
+   "size": 5.2,
+   "testo": "Pesante, 214",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    366.3,
+    106.4,
+    373.1
+   ],
+   "size": 5.2,
+   "testo": "Martello leggero, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    366.2,
+    179.8,
+    373.0
+   ],
+   "size": 5.2,
+   "testo": "mostro, 368",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    366.1,
+    300.3,
+    372.9
+   ],
+   "size": 5.2,
+   "testo": "rompere, 20, 372",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.6,
+    366.0,
+    406.2,
+    372.8
+   ],
+   "size": 5.2,
+   "testo": "Parole della Creazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    366.4,
+    519.0,
+    373.2
+   ],
+   "size": 5.2,
+   "testo": "pesantemente oscurata, 19",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    374.3,
+    132.2,
+    381.1
+   ],
+   "size": 5.2,
+   "testo": "Martello vivente (talento), 207",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.1,
+    374.2,
+    230.5,
+    381.0
+   ],
+   "size": 5.2,
+   "testo": "mostruosità (tipo di creatura).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    374.1,
+    293.8,
+    380.9
+   ],
+   "size": 5.2,
+   "testo": "trasportare, 20",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.8,
+    374.0,
+    417.9,
+    380.8
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe) , 61",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.4,
+    374.4,
+    503.6,
+    381.2
+   ],
+   "size": 5.2,
+   "testo": "Pesante Oscurità, 369",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    382.3,
+    115.5,
+    389.1
+   ],
+   "size": 5.2,
+   "testo": "Maschera dei Molti Volti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.1,
+    382.2,
+    164.0,
+    388.9
+   ],
+   "size": 5.2,
+   "testo": "376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    382.0,
+    304.6,
+    388.8
+   ],
+   "size": 5.2,
+   "testo": "trovare un oggetto",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    381.9,
+    428.0,
+    388.8
+   ],
+   "size": 6.8,
+   "testo": "passapareti (incantesimo). 301",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.8,
+    382.3,
+    489.3,
+    389.2
+   ],
+   "size": 6.8,
+   "testo": "piaga degli insetti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    390.3,
+    97.1,
+    397.1
+   ],
+   "size": 5.2,
+   "testo": "(supplica), 168",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    390.1,
+    201.5,
+    397.0
+   ],
+   "size": 6.8,
+   "testo": "movimenti del ragno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    259.7,
+    390.1,
+    296.2,
+    396.9
+   ],
+   "size": 5.2,
+   "testo": "nascosto, 20",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.4,
+    390.0,
+    428.0,
+    396.9
+   ],
+   "size": 6.8,
+   "testo": "passare. VediTerreno Difficile,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.5,
+    390.4,
+    503.8,
+    397.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo) , 302",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    398.4,
+    109.4,
+    405.1
+   ],
+   "size": 5.2,
+   "testo": "mastino (scheda delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    398.2,
+    207.2,
+    405.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 293",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    398.1,
+    316.5,
+    404.9
+   ],
+   "size": 5.2,
+   "testo": "Oggetto animato (scheda",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.3,
+    398.1,
+    358.5,
+    404.8
+   ],
+   "size": 5.2,
+   "testo": "25",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    398.4,
+    509.5,
+    405.2
+   ],
+   "size": 5.2,
+   "testo": "piani di transizione, 344",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    406.5,
+    100.6,
+    413.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche) . 352",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    406.4,
+    189.1,
+    413.2
+   ],
+   "size": 5.2,
+   "testo": "movimento, 24",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.4,
+    406.3,
+    312.6,
+    413.1
+   ],
+   "size": 5.2,
+   "testo": "delle statistiche), 242",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.0,
+    406.2,
+    397.4,
+    413.1
+   ],
+   "size": 6.8,
+   "testo": "passare senza tracce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.4,
+    406.6,
+    501.1,
+    413.3
+   ],
+   "size": 5.2,
+   "testo": "Piani Elementali, 344",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    414.5,
+    96.4,
+    421.3
+   ],
+   "size": 5.2,
+   "testo": "Mastodontica, 25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    414.4,
+    232.3,
+    421.1
+   ],
+   "size": 5.2,
+   "testo": "attorno ad altre creature, 25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    414.3,
+    302.4,
+    421.0
+   ],
+   "size": 5.2,
+   "testo": "oggetto magico, 232",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.8,
+    414.2,
+    404.1,
+    421.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 301",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.4,
+    414.5,
+    491.4,
+    421.3
+   ],
+   "size": 5.2,
+   "testo": "Piani Esterni, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    422.4,
+    107.0,
+    429.2
+   ],
+   "size": 5.2,
+   "testo": "Materiale, Piano, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    422.3,
+    209.2,
+    429.1
+   ],
+   "size": 5.2,
+   "testo": "attraverso il terreno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    422.2,
+    306.9,
+    429.0
+   ],
+   "size": 5.2,
+   "testo": "identificare un, 232",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.4,
+    422.2,
+    400.4,
+    429.0
+   ],
+   "size": 5.2,
+   "testo": "passeggeri, 230-231",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    422.6,
+    516.0,
+    429.4
+   ],
+   "size": 5.2,
+   "testo": "Piani Esterni (tabella), 344",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    430.5,
+    79.1,
+    437.2
+   ],
+   "size": 5.2,
+   "testo": "Mazza, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    160.7,
+    430.3,
+    192.7,
+    437.1
+   ],
+   "size": 5.2,
+   "testo": "difficile, 25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    430.2,
+    267.4,
+    437.0
+   ],
+   "size": 5.2,
+   "testo": "olio, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.4,
+    430.2,
+    422.7,
+    436.9
+   ],
+   "size": 5.2,
+   "testo": "passiva, percezione, 40, 369",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    430.5,
+    490.1,
+    437.3
+   ],
+   "size": 5.2,
+   "testo": "Piani I nterni, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    438.5,
+    104.9,
+    445.3
+   ],
+   "size": 5.2,
+   "testo": "Mazza chiodata, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    438.4,
+    216.6,
+    445.2
+   ],
+   "size": 5.2,
+   "testo": "spezzare il proprio, 25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    438.2,
+    330.2,
+    445.1
+   ],
+   "size": 6.8,
+   "testo": "onda distruttiva (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    438.2,
+    425.7,
+    444.9
+   ],
+   "size": 5.2,
+   "testo": "Passo Ascendente (supplica),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    438.5,
+    515.3,
+    445.3
+   ],
+   "size": 5.2,
+   "testo": "Piani Para-Elementali, 344",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    446.5,
+    95.6,
+    453.3
+   ],
+   "size": 5.2,
+   "testo": "Mazzafrusto, 215",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    446.4,
+    210.3,
+    453.2
+   ],
+   "size": 5.2,
+   "testo": "Movimento Acrobatico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    446.2,
+    263.1,
+    453.0
+   ],
+   "size": 5.2,
+   "testo": "297",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.4,
+    446.2,
+    361.3,
+    453.0
+   ],
+   "size": 5.2,
+   "testo": "168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    446.6,
+    492.6,
+    453.4
+   ],
+   "size": 5.2,
+   "testo": "Piano Astrale, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    454.4,
+    90.2,
+    461.2
+   ],
+   "size": 5.2,
+   "testo": "Mechanus, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    454.3,
+    223.6,
+    461.1
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 125",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.7,
+    454.1,
+    324.0,
+    461.0
+   ],
+   "size": 6.8,
+   "testo": "onda tonante (incantesimo),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.0,
+    454.1,
+    398.9,
+    460.9
+   ],
+   "size": 5.2,
+   "testo": "passo di viaggio, 20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    454.6,
+    490.9,
+    461.4
+   ],
+   "size": 5.2,
+   "testo": "Piano Etereo, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    462.4,
+    74.7,
+    469.2
+   ],
+   "size": 5.2,
+   "testo": "Media, 25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    462.3,
+    224.7,
+    469.1
+   ],
+   "size": 5.2,
+   "testo": "Movimento Senza Armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.6,
+    462.2,
+    263.1,
+    469.0
+   ],
+   "size": 5.2,
+   "testo": "297",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.5,
+    462.2,
+    424.7,
+    468.9
+   ],
+   "size": 5.2,
+   "testo": "Passo di viaggio (tabella), 20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    462.5,
+    500.1,
+    469.3
+   ],
+   "size": 5.2,
+   "testo": "Piano Materiale, 344",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    470.3,
+    107.9,
+    477.1
+   ],
+   "size": 5.2,
+   "testo": "Medicina (abilità), 14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    470.3,
+    223.7,
+    477.1
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 124",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    470.1,
+    319.4,
+    476.9
+   ],
+   "size": 5.2,
+   "testo": "opzioni di Metamagia, 153",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.3,
+    470.1,
+    418.4,
+    477.0
+   ],
+   "size": 6.8,
+   "testo": "passo velato (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    470.5,
+    469.9,
+    477.3
+   ],
+   "size": 5.2,
+   "testo": "Picca, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    478.4,
+    133.7,
+    485.2
+   ],
+   "size": 5.2,
+   "testo": "Melma, Piano Para-Elementale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    478.3,
+    228.4,
+    485.0
+   ],
+   "size": 5.2,
+   "testo": "Movimento Veloce (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    478.2,
+    305.7,
+    485.0
+   ],
+   "size": 5.2,
+   "testo": "Orchesco (lingua), 37",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.4,
+    478.1,
+    360.8,
+    484.9
+   ],
+   "size": 5.2,
+   "testo": "301",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    478.5,
+    472.5,
+    485.3
+   ],
+   "size": 5.2,
+   "testo": "Piccola, 25",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    486.4,
+    82.1,
+    493.2
+   ],
+   "size": 5.2,
+   "testo": "della, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    486.3,
+    190.9,
+    493.1
+   ],
+   "size": 5.2,
+   "testo": "di classe), 52",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    486.1,
+    271.8,
+    492.9
+   ],
+   "size": 5.2,
+   "testo": "Orco, 194",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.2,
+    486.1,
+    419.1,
+    493.0
+   ],
+   "size": 6.8,
+   "testo": "passo veloce (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.9,
+    486.5,
+    507.0,
+    493.3
+   ],
+   "size": 5.2,
+   "testo": "guerra, piccone da, 215",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.4,
+    494.4,
+    130.0,
+    501.2
+   ],
+   "size": 5.2,
+   "testo": "melma (tipo di creatura), 376",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    494.2,
+    199.7,
+    501.0
+   ],
+   "size": 5.2,
+   "testo": "mulo (scheda delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    494.1,
+    325.1,
+    500.9
+   ],
+   "size": 5.2,
+   "testo": "ordine di combattimento, 23",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    494.1,
+    360.8,
+    500.8
+   ],
+   "size": 5.2,
+   "testo": "301",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    494.5,
+    505.5,
+    501.2
+   ],
+   "size": 5.2,
+   "testo": "Piccone da guerra, 215",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    502.4,
+    119.6,
+    509.2
+   ],
+   "size": 5.2,
+   "testo": "Memorizzare I ncantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.8,
+    502.2,
+    199.1,
+    509.0
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 352",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    502.2,
+    306.8,
+    508.9
+   ],
+   "size": 5.2,
+   "testo": "ordine di iniziativa, 23",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.5,
+    502.1,
+    394.4,
+    508.9
+   ],
+   "size": 5.2,
+   "testo": "Patrono Celestiale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    502.5,
+    496.2,
+    509.2
+   ],
+   "size": 5.2,
+   "testo": "piede di porco, 227",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    510.5,
+    126.5,
+    517.2
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe) . 113",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    510.3,
+    187.8,
+    517.1
+   ],
+   "size": 5.2,
+   "testo": "multiclasse, 44",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    510.1,
+    324.0,
+    516.9
+   ],
+   "size": 5.2,
+   "testo": "Ordine di marcia (riquadro),",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.7,
+    510.1,
+    400.3,
+    516.9
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 171",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    510.5,
+    523.2,
+    517.3
+   ],
+   "size": 5.2,
+   "testo": "pietrificato (condizione), 369",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    518.4,
+    121.9,
+    525.2
+   ],
+   "size": 5.2,
+   "testo": "Mente acuta (talento) . 207",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    518.3,
+    189.4,
+    525.1
+   ],
+   "size": 5.2,
+   "testo": "multiverso, 344",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.4,
+    518.2,
+    259.6,
+    525.0
+   ],
+   "size": 5.2,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.5,
+    518.2,
+    408.1,
+    525.0
+   ],
+   "size": 5.2,
+   "testo": "Patrono Grande Antico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    518.6,
+    498.7,
+    525.4
+   ],
+   "size": 5.2,
+   "testo": "piovra (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    526.4,
+    122.8,
+    533.2
+   ],
+   "size": 5.2,
+   "testo": "Mente Lucida (privilegio di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    526.3,
+    188.1,
+    533.1
+   ],
+   "size": 5.2,
+   "testo": "munizioni, 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    526.2,
+    314.6,
+    533.0
+   ],
+   "size": 5.2,
+   "testo": "Ordine Divino (privilegio",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.7,
+    526.2,
+    401.2,
+    533.0
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 172",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    526.5,
+    495.0,
+    533.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 353",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    534.4,
+    88.0,
+    541.2
+   ],
+   "size": 5.2,
+   "testo": "classe), 125",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    534.3,
+    213.5,
+    541.1
+   ],
+   "size": 5.2,
+   "testo": "Munizioni (tabella), 226",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    534.2,
+    289.4,
+    541.0
+   ],
+   "size": 5.2,
+   "testo": "di classe), 70",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.5,
+    534.2,
+    395.7,
+    541.0
+   ],
+   "size": 5.2,
+   "testo": "Patrono Immondo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.2,
+    534.6,
+    509.3,
+    541.3
+   ],
+   "size": 5.2,
+   "testo": "pipistrello (scheda delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.6,
+    542.4,
+    132.2,
+    549.2
+   ],
+   "size": 5.2,
+   "testo": "Mente Occulta (supplica), 168",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    542.2,
+    194.2,
+    549.1
+   ],
+   "size": 6.8,
+   "testo": "muovere il terreno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    542.2,
+    328.9,
+    549.0
+   ],
+   "size": 5.2,
+   "testo": "Ordine Primordiale (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.7,
+    542.1,
+    401.1,
+    548.9
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse), 173",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    542.5,
+    495.0,
+    549.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche) , 353",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    550.4,
+    125.4,
+    557.2
+   ],
+   "size": 5.2,
+   "testo": "Mente Sfuggente (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    550.3,
+    207.0,
+    557.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 293",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    550.2,
+    289.8,
+    557.0
+   ],
+   "size": 5.2,
+   "testo": "di classe) , 80",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.5,
+    550.2,
+    408.0,
+    556.9
+   ],
+   "size": 5.2,
+   "testo": "Patrono Signore Fatato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    550.5,
+    474.2,
+    557.3
+   ],
+   "size": 5.2,
+   "testo": "Pistola, 215",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    558.4,
+    95.7,
+    565.2
+   ],
+   "size": 5.2,
+   "testo": "di classe) , 103",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    558.2,
+    225.5,
+    565.1
+   ],
+   "size": 6.8,
+   "testo": "muro diforza (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    558.2,
+    317.9,
+    565.0
+   ],
+   "size": 5.2,
+   "testo": "origini, determinare le, 36",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.7,
+    558.1,
+    401.1,
+    564.9
+   ],
+   "size": 5.2,
+   "testo": "(sottoclasse). 175",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.0,
+    558.5,
+    494.9,
+    565.3
+   ],
+   "size": 5.2,
+   "testo": "pony (scheda delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    566.4,
+    115.3,
+    573.1
+   ],
+   "size": 5.2,
+   "testo": "Mente Tattica (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    566.2,
+    164.4,
+    573.0
+   ],
+   "size": 5.2,
+   "testo": "294",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    566.2,
+    314.2,
+    572.9
+   ],
+   "size": 5.2,
+   "testo": "origini, personaggio, 177",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.5,
+    566.1,
+    401.8,
+    572.9
+   ],
+   "size": 5.2,
+   "testo": "Patrono Ultraterreno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.1,
+    566.5,
+    495.1,
+    573.3
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 354",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    574.3,
+    91.6,
+    581.0
+   ],
+   "size": 5.2,
+   "testo": "di classe), 91",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    574.2,
+    226.3,
+    581.1
+   ],
+   "size": 6.8,
+   "testo": "muro difuoco (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.9,
+    574.2,
+    314.9,
+    580.9
+   ],
+   "size": 5.2,
+   "testo": "orso bruno (scheda delle",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.7,
+    574.4,
+    423.2,
+    581.3
+   ],
+   "size": 6.8,
+   "testo": "(privilegio di classe). Vedi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    574.4,
+    493.5,
+    581.3
+   ],
+   "size": 6.8,
+   "testo": "porla dimensiona/e",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.6,
+    582.3,
+    126.6,
+    589.1
+   ],
+   "size": 5.2,
+   "testo": "Mercante (background), 183",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    582.2,
+    164.0,
+    589.0
+   ],
+   "size": 5.2,
+   "testo": "294",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.4,
+    582.1,
+    297.8,
+    588.9
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 352",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.2,
+    582.5,
+    429.5,
+    589.2
+   ],
+   "size": 5.2,
+   "testo": "sottoclasse del warlock, 166",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.4,
+    582.4,
+    503.3,
+    589.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 302",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    590.2,
+    105.8,
+    597.0
+   ],
+   "size": 5.2,
+   "testo": "Mercante della gilda.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    590.1,
+    190.4,
+    597.0
+   ],
+   "size": 6.8,
+   "testo": "muro dighiaccio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.7,
+    590.1,
+    310.8,
+    596.8
+   ],
+   "size": 5.2,
+   "testo": "orso nero (scheda delle",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.4,
+    590.4,
+    425.6,
+    597.2
+   ],
+   "size": 5.2,
+   "testo": "Patto della Catena (supplica),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    590.3,
+    523.7,
+    597.2
+   ],
+   "size": 6.8,
+   "testo": "portale arcano (incantesimo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    598.2,
+    108.3,
+    605.1
+   ],
+   "size": 6.8,
+   "testo": "Vedi mercante, 183",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.2,
+    598.2,
+    206.9,
+    605.0
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 294",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.4,
+    598.1,
+    297.8,
+    604.8
+   ],
+   "size": 5.2,
+   "testo": "statistiche), 353",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.4,
+    598.5,
+    361.3,
+    605.2
+   ],
+   "size": 5.2,
+   "testo": "168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    598.4,
+    460.2,
+    605.2
+   ],
+   "size": 5.2,
+   "testo": "303",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    606.2,
+    128.8,
+    613.1
+   ],
+   "size": 6.8,
+   "testo": "messaggio (incantesimo), 291",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.2,
+    606.1,
+    226.6,
+    613.0
+   ],
+   "size": 6.8,
+   "testo": "murodipietra (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    606.1,
+    331.3,
+    612.9
+   ],
+   "size": 5.2,
+   "testo": "oscurata, leggermente, 19, 367",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    342.4,
+    606.5,
+    422.4,
+    613.2
+   ],
+   "size": 5.2,
+   "testo": "Patto della Lama (supplica),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    606.4,
+    516.0,
+    613.3
+   ],
+   "size": 6.8,
+   "testo": "portale (incantesimo), 303",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    614.3,
+    123.3,
+    621.1
+   ],
+   "size": 5.2,
+   "testo": "Metabolismo Straordinario",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.5,
+    614.2,
+    164.4,
+    621.0
+   ],
+   "size": 5.2,
+   "testo": "294",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    614.1,
+    313.7,
+    620.9
+   ],
+   "size": 5.2,
+   "testo": "oscurata, pesantemente,",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.4,
+    614.5,
+    361.3,
+    621.3
+   ],
+   "size": 5.2,
+   "testo": "168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.0,
+    614.5,
+    472.1,
+    621.3
+   ],
+   "size": 5.2,
+   "testo": "portata, 26",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    622.4,
+    124.9,
+    629.2
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe) , 124",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    622.2,
+    224.9,
+    629.1
+   ],
+   "size": 6.8,
+   "testo": "muro di spine (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    622.2,
+    273.1,
+    629.0
+   ],
+   "size": 5.2,
+   "testo": "19, 369",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.4,
+    622.5,
+    429.2,
+    629.3
+   ],
+   "size": 5.2,
+   "testo": "Patto del Tomo (supplica), 168",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.0,
+    622.5,
+    498.0,
+    629.2
+   ],
+   "size": 5.2,
+   "testo": "portatile, ariete, 224",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    630.4,
+    115.4,
+    637.2
+   ],
+   "size": 5.2,
+   "testo": "Metamagia (privilegio di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.9,
+    630.3,
+    163.7,
+    637.1
+   ],
+   "size": 5.2,
+   "testo": "295",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    630.2,
+    290.7,
+    637.0
+   ],
+   "size": 5.2,
+   "testo": "oscurità, 19, 368",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.6,
+    630.5,
+    413.0,
+    637.4
+   ],
+   "size": 6.8,
+   "testo": "paura (incantesimo), 301",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.0,
+    630.5,
+    479.4,
+    637.3
+   ],
+   "size": 5.2,
+   "testo": "posizione, 24",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    638.4,
+    87.9,
+    645.2
+   ],
+   "size": 5.2,
+   "testo": "classe), 153",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.6,
+    638.3,
+    226.4,
+    645.2
+   ],
+   "size": 6.8,
+   "testo": "muro di vento (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.4,
+    638.2,
+    320.8,
+    645.1
+   ],
+   "size": 6.8,
+   "testo": "oscurità (incantesimo), 297",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.8,
+    638.5,
+    421.9,
+    645.4
+   ],
+   "size": 6.8,
+   "testo": "pelle coriacea (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.0,
+    638.6,
+    490.6,
+    645.4
+   ],
+   "size": 5.2,
+   "testo": "possessione, 369",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    646.3,
+    124.1,
+    653.2
+   ],
+   "size": 6.8,
+   "testo": "metamorfosi (incantesimo),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.7,
+    646.3,
+    164.1,
+    653.0
+   ],
+   "size": 5.2,
+   "testo": "295",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    646.2,
+    318.9,
+    653.0
+   ],
+   "size": 5.2,
+   "testo": "Osservatore (talento), 207",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    350.3,
+    646.5,
+    360.9,
+    653.3
+   ],
+   "size": 5.2,
+   "testo": "301",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    646.5,
+    528.3,
+    653.3
+   ],
+   "size": 5.2,
+   "testo": "Potenza I ndomabile (privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    654.3,
+    65.5,
+    661.1
+   ],
+   "size": 5.2,
+   "testo": "292",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.3,
+    654.2,
+    190.0,
+    661.1
+   ],
+   "size": 6.8,
+   "testo": "muro prismatico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    654.2,
+    320.9,
+    661.0
+   ],
+   "size": 5.2,
+   "testo": "ostile (atteggiamento), 369",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.9,
+    654.5,
+    422.0,
+    661.4
+   ],
+   "size": 6.8,
+   "testo": "pelle dipietra (incantesimo),",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.2,
+    654.5,
+    487.1,
+    661.3
+   ],
+   "size": 5.2,
+   "testo": "di classe), 53",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.2,
+    662.3,
+    95.1,
+    669.2
+   ],
+   "size": 6.8,
+   "testo": "metamorfosi pura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    153.0,
+    662.3,
+    207.1,
+    669.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 295",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.8,
+    662.2,
+    269.6,
+    669.0
+   ],
+   "size": 5.2,
+   "testo": "otre, 227",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    350.3,
+    662.6,
+    360.9,
+    669.4
+   ],
+   "size": 5.2,
+   "testo": "301",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    662.6,
+    515.8,
+    669.3
+   ],
+   "size": 5.2,
+   "testo": "Potere Psionico (privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    670.4,
+    108.4,
+    677.1
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 292",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    670.3,
+    216.4,
+    677.0
+   ],
+   "size": 5.2,
+   "testo": "musicale, strumento, 221",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.3,
+    670.2,
+    316.2,
+    677.0
+   ],
+   "size": 5.2,
+   "testo": "ottenere incantesimi, 235",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.3,
+    670.6,
+    380.6,
+    677.3
+   ],
+   "size": 5.2,
+   "testo": "pennino, 227",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    448.8,
+    670.5,
+    487.1,
+    677.3
+   ],
+   "size": 5.2,
+   "testo": "di classe), 96",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.5,
+    678.4,
+    106.3,
+    685.1
+   ],
+   "size": 5.2,
+   "testo": "Mezza armatura, 219",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    678.3,
+    212.8,
+    685.1
+   ],
+   "size": 5.2,
+   "testo": "Musicista (talento) . 202",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.6,
+    678.2,
+    328.4,
+    684.9
+   ],
+   "size": 5.2,
+   "testo": "Padronanza d'Armi (privilegio",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    341.9,
+    678.6,
+    402.0,
+    685.3
+   ],
+   "size": 5.2,
+   "testo": "ferro, pentola di, 227",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    678.5,
+    512.7,
+    685.4
+   ],
+   "size": 6.8,
+   "testo": "pozione diguarigione, 227",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.2,
+    686.4,
+    104.6,
+    693.1
+   ],
+   "size": 5.2,
+   "testo": "mezza copertura, 26",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    145.0,
+    686.3,
+    190.8,
+    693.0
+   ],
+   "size": 5.2,
+   "testo": "mutaforma, 368",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.3,
+    686.2,
+    315.1,
+    692.9
+   ],
+   "size": 5.2,
+   "testo": "di classe). 51 , 91, 101,",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.2,
+    686.5,
+    400.3,
+    693.3
+   ],
+   "size": 5.2,
+   "testo": "pentola di ferro, 227",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    441.3,
+    686.5,
+    512.2,
+    693.3
+   ],
+   "size": 5.2,
+   "testo": "Precisione del Cacciatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    694.3,
+    86.4,
+    701.1
+   ],
+   "size": 5.2,
+   "testo": "Minuscola, 25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    694.2,
+    200.8,
+    701.0
+   ],
+   "size": 5.2,
+   "testo": "Nanico (lingua), 37",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.7,
+    694.1,
+    276.1,
+    700.9
+   ],
+   "size": 5.2,
+   "testo": "132, 141",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.2,
+    694.5,
+    421.6,
+    701.3
+   ],
+   "size": 5.2,
+   "testo": "percentuale di probabilità, 9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.4,
+    694.5,
+    519.6,
+    701.3
+   ],
+   "size": 5.2,
+   "testo": "(privilegio di classe), 143",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.5,
+    702.3,
+    109.9,
+    709.1
+   ],
+   "size": 5.2,
+   "testo": "Mira Ferma (privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.9,
+    702.2,
+    174.5,
+    708.9
+   ],
+   "size": 5.2,
+   "testo": "Nano, 193",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    243.5,
+    702.1,
+    270.1,
+    708.9
+   ],
+   "size": 5.2,
+   "testo": "pala, 227",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    342.4,
+    702.5,
+    408.5,
+    709.3
+   ],
+   "size": 5.2,
+   "testo": "Percezione (abilità) , 14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    440.7,
+    702.4,
+    503.1,
+    709.3
+   ],
+   "size": 6.8,
+   "testo": "preghiera di guarigione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    710.3,
+    94.9,
+    717.1
+   ],
+   "size": 5.2,
+   "testo": "di classe), 101",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    144.8,
+    710.2,
+    191.0,
+    717.0
+   ],
+   "size": 5.2,
+   "testo": "nascondersi, 19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    449.3,
+    710.5,
+    503.2,
+    717.2
+   ],
+   "size": 5.2,
+   "testo": "(incantesimo), 303",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

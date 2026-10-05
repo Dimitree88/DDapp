@@ -1,0 +1,1651 @@
+{
+ "pagina_pdf": 222,
+ "pagina_stampata": 219,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / F19",
+ "immagini": [
+  [
+   767,
+   -4,
+   1376,
+   605
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.7,
+    40.0,
+    110.9,
+    50.0
+   ],
+   "size": 8.2,
+   "testo": "ARMATURE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    55.4,
+    96.9,
+    64.6
+   ],
+   "size": 8.2,
+   "testo": "Armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.4,
+    55.4,
+    269.2,
+    64.6
+   ],
+   "size": 8.2,
+   "testo": "Classe Armatura (CA)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    61.2,
+    252.1,
+    79.4
+   ],
+   "size": 9.2,
+   "testo": "Armatura leggera (1 minuto per indossare o togliere)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.2,
+    83.9,
+    142.7,
+    93.6
+   ],
+   "size": 8.4,
+   "testo": "Armatura imbottita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.6,
+    83.9,
+    281.0,
+    93.6
+   ],
+   "size": 8.4,
+   "testo": "11 + modificatore di Des",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.2,
+    98.5,
+    138.3,
+    108.1
+   ],
+   "size": 8.4,
+   "testo": "Armatura di cuoio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    187.1,
+    98.4,
+    281.5,
+    108.0
+   ],
+   "size": 8.4,
+   "testo": "11 + modificatore di Des",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.2,
+    113.0,
+    176.1,
+    122.7
+   ],
+   "size": 8.4,
+   "testo": "Armatura di cuoio borchiato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.6,
+    113.0,
+    281.5,
+    122.6
+   ],
+   "size": 8.4,
+   "testo": "12 + modificatore di Des",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.2,
+    119.5,
+    295.0,
+    137.7
+   ],
+   "size": 9.2,
+   "testo": "Armatura media (5 minuti per indossare e 1 minuto per togliere)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    327.9,
+    55.3,
+    350.1,
+    64.6
+   ],
+   "size": 8.2,
+   "testo": "Forza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.8,
+    55.3,
+    419.9,
+    64.5
+   ],
+   "size": 8.2,
+   "testo": "Furtività",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    469.5,
+    55.3,
+    489.1,
+    64.5
+   ],
+   "size": 8.2,
+   "testo": "Peso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    510.6,
+    55.2,
+    534.3,
+    64.4
+   ],
+   "size": 8.2,
+   "testo": "Costo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    386.3,
+    83.9,
+    430.1,
+    93.5
+   ],
+   "size": 8.4,
+   "testo": "Svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    471.9,
+    83.7,
+    490.2,
+    93.4
+   ],
+   "size": 8.4,
+   "testo": "4 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    514.0,
+    83.7,
+    535.3,
+    93.4
+   ],
+   "size": 8.4,
+   "testo": "5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    472.4,
+    98.3,
+    490.2,
+    108.0
+   ],
+   "size": 8.4,
+   "testo": "s kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    510.0,
+    98.2,
+    535.3,
+    107.9
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    465.2,
+    112.9,
+    490.1,
+    122.5
+   ],
+   "size": 8.4,
+   "testo": "6,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.1,
+    112.9,
+    535.3,
+    122.5
+   ],
+   "size": 8.4,
+   "testo": "45 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.2,
+    142.2,
+    135.3,
+    151.9
+   ],
+   "size": 8.4,
+   "testo": "Armatura di pelle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    187.0,
+    142.1,
+    312.6,
+    151.7
+   ],
+   "size": 8.4,
+   "testo": "12 + modificatore di Des (max 2)",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    472.1,
+    142.1,
+    490.2,
+    151.7
+   ],
+   "size": 8.4,
+   "testo": "6 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    510.0,
+    142.0,
+    535.3,
+    151.6
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.6,
+    156.7,
+    128.4,
+    166.4
+   ],
+   "size": 8.4,
+   "testo": "Giaco di maglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    187.1,
+    156.8,
+    311.7,
+    166.5
+   ],
+   "size": 8.4,
+   "testo": "13 + modificatore di Des (max 2)",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    468.0,
+    156.7,
+    489.4,
+    166.3
+   ],
+   "size": 8.4,
+   "testo": "10 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.3,
+    156.7,
+    535.3,
+    166.3
+   ],
+   "size": 8.4,
+   "testo": "50 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.6,
+    171.5,
+    135.5,
+    181.1
+   ],
+   "size": 8.4,
+   "testo": "Corazza a scaglie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    186.1,
+    137.3,
+    195.7
+   ],
+   "size": 8.4,
+   "testo": "Corazza di piastre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.1,
+    200.8,
+    131.1,
+    210.4
+   ],
+   "size": 8.4,
+   "testo": "Mezza armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.6,
+    171.4,
+    311.9,
+    181.0
+   ],
+   "size": 8.4,
+   "testo": "14 + modificatore di Des (max 2)",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    186.6,
+    186.0,
+    311.9,
+    195.6
+   ],
+   "size": 8.4,
+   "testo": "14 + modificatore di Des (max 2)",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    186.6,
+    200.6,
+    311.8,
+    210.2
+   ],
+   "size": 8.4,
+   "testo": "1 S + modificatore di Des (max 2)",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    386.3,
+    171.4,
+    430.3,
+    181.0
+   ],
+   "size": 8.4,
+   "testo": "Svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.2,
+    200.6,
+    430.1,
+    210.2
+   ],
+   "size": 8.4,
+   "testo": "Svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    460.8,
+    171.3,
+    490.2,
+    180.9
+   ],
+   "size": 8.4,
+   "testo": "22,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.2,
+    171.3,
+    535.3,
+    180.9
+   ],
+   "size": 8.4,
+   "testo": "50 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    468.3,
+    185.8,
+    490.2,
+    195.5
+   ],
+   "size": 8.4,
+   "testo": "10 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    503.7,
+    185.8,
+    535.3,
+    195.4
+   ],
+   "size": 8.4,
+   "testo": "400 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    467.4,
+    200.5,
+    490.2,
+    210.1
+   ],
+   "size": 8.4,
+   "testo": "20 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    504.9,
+    200.4,
+    535.3,
+    210.1
+   ],
+   "size": 8.4,
+   "testo": "7SO mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.2,
+    207.1,
+    302.5,
+    225.3
+   ],
+   "size": 9.2,
+   "testo": "Armatura pesante (10 minuti per indossare e 5 minuti pertogliere)",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.6,
+    229.9,
+    134.6,
+    239.5
+   ],
+   "size": 8.4,
+   "testo": "Corazza ad anelli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    244.4,
+    127.5,
+    254.0
+   ],
+   "size": 8.4,
+   "testo": "Cotta di maglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    259.0,
+    133.9,
+    268.7
+   ],
+   "size": 8.4,
+   "testo": "Corazza a strisce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.8,
+    229.9,
+    197.8,
+    239.5
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.8,
+    244.4,
+    197.7,
+    254.1
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.9,
+    259.0,
+    197.4,
+    268.6
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.2,
+    273.8,
+    139.6,
+    283.4
+   ],
+   "size": 8.4,
+   "testo": "Armatura a piastre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.8,
+    273.6,
+    198.0,
+    283.2
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    288.7,
+    239.3,
+    297.9
+   ],
+   "size": 9.2,
+   "testo": "Scudo (azione di Utilizzo per indossare o togliere)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.7,
+    302.8,
+    93.5,
+    312.4
+   ],
+   "size": 8.4,
+   "testo": "Scudo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    186.0,
+    302.8,
+    197.4,
+    312.4
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    323.9,
+    148.0,
+    340.6
+   ],
+   "size": 12.9,
+   "testo": "ARMATURE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.5,
+    342.2,
+    285.1,
+    352.8
+   ],
+   "size": 8.8,
+   "testo": "Nella tabella Armature sono elencate le principali armature",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    353.2,
+    277.8,
+    363.7
+   ],
+   "size": 8.8,
+   "testo": "del gioco. Al suo interno si trovano informazioni come il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    364.1,
+    268.8,
+    374.7
+   ],
+   "size": 8.8,
+   "testo": "costo e il peso dell'armatura, oltre ai seguenti dettagli:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    380.6,
+    284.6,
+    391.2
+   ],
+   "size": 8.8,
+   "testo": "Categoria. Ogni tipo di armatura rientra in una categoria:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    391.6,
+    285.8,
+    402.1
+   ],
+   "size": 8.8,
+   "testo": "leggera, media o pesante. La categoria determina quanto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    402.6,
+    286.2,
+    413.2
+   ],
+   "size": 8.8,
+   "testo": "tempo occorre per indossare o togliere l'armatura (come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    413.7,
+    155.2,
+    424.3
+   ],
+   "size": 8.8,
+   "testo": "illustrato nella tabella).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    424.6,
+    264.4,
+    435.2
+   ],
+   "size": 8.8,
+   "testo": "Classe Armatura (CA). La colonna Classe Armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    435.7,
+    274.1,
+    446.2
+   ],
+   "size": 8.8,
+   "testo": "della tabella mostra qual è la tua CA di base quando il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    446.6,
+    276.7,
+    457.1
+   ],
+   "size": 8.8,
+   "testo": "personaggio indossa un determinato tipo di armatura.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    457.6,
+    279.8,
+    468.2
+   ],
+   "size": 8.8,
+   "testo": "Ad esempio, se indossa un'armatura di cuoio, la sua CA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    468.6,
+    276.4,
+    479.2
+   ],
+   "size": 8.8,
+   "testo": "è 11 più il modificatore di Destrezza, mentre la CA è 16",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    479.5,
+    184.2,
+    490.1
+   ],
+   "size": 8.8,
+   "testo": "se indossa una cotta di maglia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    490.5,
+    267.0,
+    501.1
+   ],
+   "size": 8.8,
+   "testo": "Forza. Se la tabella indica un punteggio di Forza nella",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    501.6,
+    270.7,
+    512.1
+   ],
+   "size": 8.8,
+   "testo": "colonna \"Forza\" relativa a un certo tipo di armatura,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    512.7,
+    255.5,
+    523.2
+   ],
+   "size": 8.8,
+   "testo": "quell'armatura riduce la velocità del portatore di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    523.6,
+    271.9,
+    534.1
+   ],
+   "size": 8.8,
+   "testo": "3 metri, a meno che il portatore non possieda un pun­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    534.6,
+    257.5,
+    545.2
+   ],
+   "size": 8.8,
+   "testo": "teggio di Forza pari o superiore a quello elencato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    545.6,
+    272.5,
+    556.2
+   ],
+   "size": 8.8,
+   "testo": "Furtività. Se la tabella riporta la voce Svantaggio nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.9,
+    556.6,
+    266.4,
+    567.1
+   ],
+   "size": 8.8,
+   "testo": "colonna Furtività, chi la indossa subisce svantaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    567.5,
+    200.4,
+    578.1
+   ],
+   "size": 8.8,
+   "testo": "alle prove di Destrezza (Furtività).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    587.6,
+    256.3,
+    600.7
+   ],
+   "size": 9.7,
+   "testo": "COMPETENZA NELLE ARMATURE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    604.2,
+    272.8,
+    614.7
+   ],
+   "size": 8.8,
+   "testo": "Chiunque può indossare un'armatura o impugnare uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    615.3,
+    271.2,
+    625.8
+   ],
+   "size": 8.8,
+   "testo": "scudo, ma solo chi ne possiede la competenza può farlo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    626.3,
+    258.0,
+    636.9
+   ],
+   "size": 8.8,
+   "testo": "in maniera efficiente, come spiegato sotto. La classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    637.3,
+    264.7,
+    647.9
+   ],
+   "size": 8.8,
+   "testo": "di un personaggio e altri privilegi determinano la sua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    648.3,
+    272.2,
+    658.9
+   ],
+   "size": 8.8,
+   "testo": "competenza nelle armature. Un mostro ha competenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    659.3,
+    261.2,
+    669.9
+   ],
+   "size": 8.8,
+   "testo": "in qualunque armatura menzionata nella sua scheda",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    670.3,
+    120.5,
+    680.9
+   ],
+   "size": 8.8,
+   "testo": "delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    690.7,
+    209.5,
+    702.0
+   ],
+   "size": 11.2,
+   "testo": "LEGGERA, MEDIA O PESANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    702.1,
+    254.7,
+    712.6
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio indossa un'armatura leggera,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    713.0,
+    264.0,
+    723.8
+   ],
+   "size": 8.8,
+   "testo": "media o pesante senza avere la competenza per farlo,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.6,
+    244.3,
+    353.4,
+    254.0
+   ],
+   "size": 8.4,
+   "testo": "For 13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.6,
+    258.9,
+    353.7,
+    268.5
+   ],
+   "size": 8.4,
+   "testo": "For l S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.6,
+    273.6,
+    352.0,
+    283.2
+   ],
+   "size": 8.4,
+   "testo": "For 1 S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.3,
+    229.8,
+    430.1,
+    239.4
+   ],
+   "size": 8.4,
+   "testo": "Svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.2,
+    244.3,
+    430.1,
+    254.0
+   ],
+   "size": 8.4,
+   "testo": "Svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.3,
+    258.9,
+    430.3,
+    268.5
+   ],
+   "size": 8.4,
+   "testo": "Svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    386.3,
+    273.6,
+    430.1,
+    283.2
+   ],
+   "size": 8.4,
+   "testo": "Svantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    467.4,
+    229.7,
+    490.2,
+    239.3
+   ],
+   "size": 8.4,
+   "testo": "20 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.4,
+    244.2,
+    490.2,
+    253.8
+   ],
+   "size": 8.4,
+   "testo": "27,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    467.5,
+    258.8,
+    490.2,
+    268.4
+   ],
+   "size": 8.4,
+   "testo": "30 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    461.2,
+    273.5,
+    490.2,
+    283.1
+   ],
+   "size": 8.4,
+   "testo": "32,5 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    472.4,
+    302.6,
+    490.2,
+    312.2
+   ],
+   "size": 8.4,
+   "testo": "3 kg",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    509.2,
+    229.7,
+    535.3,
+    239.3
+   ],
+   "size": 8.4,
+   "testo": "30 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    509.5,
+    244.2,
+    535.3,
+    253.8
+   ],
+   "size": 8.4,
+   "testo": "75 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    503.8,
+    258.8,
+    535.3,
+    268.4
+   ],
+   "size": 8.4,
+   "testo": "200 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    497.7,
+    273.5,
+    535.3,
+    283.1
+   ],
+   "size": 8.4,
+   "testo": "1 . SOO mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    509.9,
+    302.6,
+    535.3,
+    312.2
+   ],
+   "size": 8.4,
+   "testo": "10 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    322.3,
+    510.1,
+    332.9
+   ],
+   "size": 8.8,
+   "testo": "subisce svantaggio a tutte le prove con d20 relative",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    333.2,
+    513.4,
+    343.8
+   ],
+   "size": 8.8,
+   "testo": "a Forza o Destrezza, e non può lanciare incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    353.8,
+    347.3,
+    365.2
+   ],
+   "size": 11.2,
+   "testo": "SCUDO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    365.1,
+    524.3,
+    375.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene il beneficio alla Classe Armatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    376.1,
+    518.4,
+    386.7
+   ],
+   "size": 8.8,
+   "testo": "di uno scudo solo se possiede competenza negli scudi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    396.3,
+    415.3,
+    409.4
+   ],
+   "size": 9.7,
+   "testo": "UNA ALLA VOLTA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    412.8,
+    525.1,
+    423.4
+   ],
+   "size": 8.8,
+   "testo": "Una creatura può indossare solo un'armatura alla volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    423.9,
+    454.7,
+    434.5
+   ],
+   "size": 8.8,
+   "testo": "e impugnare un solo scudo alla volta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    449.4,
+    518.0,
+    459.5
+   ],
+   "size": 8.2,
+   "testo": "VARIANTE: TAC LIA DELL1EQUIPACC IAM ENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.2,
+    462.5,
+    509.5,
+    472.2
+   ],
+   "size": 8.4,
+   "testo": "Nella maggior parte delle campagne, nei limiti del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    473.6,
+    514.0,
+    483.2
+   ],
+   "size": 8.4,
+   "testo": "buonsenso i personaggi possono usare o indossare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    484.5,
+    505.6,
+    494.2
+   ],
+   "size": 8.4,
+   "testo": "qualsiasi pezzo di equipaggiamento trovato nelle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    495.6,
+    510.1,
+    505.2
+   ],
+   "size": 8.4,
+   "testo": "loro avventure. Per esempio, un'armatura di cuoio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    506.6,
+    510.5,
+    516.2
+   ],
+   "size": 8.4,
+   "testo": "da halfling non potrà mai essere della taglia giusta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    517.5,
+    513.3,
+    527.1
+   ],
+   "size": 8.4,
+   "testo": "per un orco, così come la tunica di un gigante delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    528.6,
+    477.6,
+    538.2
+   ],
+   "size": 8.4,
+   "testo": "nuvole non potrà mai stare a uno gnomo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.6,
+    539.6,
+    514.2,
+    549.3
+   ],
+   "size": 8.4,
+   "testo": "Il DM potrebbe optare per un maggiore realismo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.2,
+    550.6,
+    515.5,
+    560.2
+   ],
+   "size": 8.4,
+   "testo": "Per esempio, se un umano dovesse tentare di indos­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.7,
+    561.5,
+    504.0,
+    571.1
+   ],
+   "size": 8.4,
+   "testo": "sare un'armatura a piastre realizzata per un altro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    572.5,
+    508.6,
+    582.2
+   ],
+   "size": 8.4,
+   "testo": "membro della sua specie, potrebbe doverle prima",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.7,
+    583.5,
+    520.9,
+    593.1
+   ],
+   "size": 8.4,
+   "testo": "apportare delle pesanti modifiche. Lo stesso vale per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    594.5,
+    524.9,
+    604.1
+   ],
+   "size": 8.4,
+   "testo": "un avventuriero che indossa l'uniforme di una guardia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.5,
+    605.6,
+    515.7,
+    615.2
+   ],
+   "size": 8.4,
+   "testo": "come travestimento: la differenza di taglia potrebbe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    616.7,
+    432.2,
+    626.3
+   ],
+   "size": 8.4,
+   "testo": "essere visibilmente eccessiva.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.4,
+    627.6,
+    513.9,
+    637.3
+   ],
+   "size": 8.4,
+   "testo": "Facendo uso di questa variante, quando gli avven­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.3,
+    638.6,
+    513.9,
+    648.2
+   ],
+   "size": 8.4,
+   "testo": "turieri trovano armature, vestiti e altri oggetti simili",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    649.6,
+    516.2,
+    659.2
+   ],
+   "size": 8.4,
+   "testo": "da indossare, potrebbero aver bisogno di un fabbro,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    660.6,
+    508.2,
+    670.2
+   ],
+   "size": 8.4,
+   "testo": "un sarto, un conciatore o un altro artigiano simile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.6,
+    671.5,
+    526.4,
+    681.2
+   ],
+   "size": 8.4,
+   "testo": "prima di poterne fare uso. Il costo di un simile operato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.5,
+    682.5,
+    505.9,
+    692.2
+   ],
+   "size": 8.4,
+   "testo": "è di 1d4 x 10% del valore di mercato dell'oggetto.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

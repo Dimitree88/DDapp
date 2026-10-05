@@ -1,0 +1,1392 @@
+{
+ "pagina_pdf": 329,
+ "pagina_stampata": 326,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "326 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    50.8,
+    34.4,
+    262.1,
+    45.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore scrive su una pergamena, un foglio o un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    45.4,
+    272.7,
+    56.0
+   ],
+   "size": 8.8,
+   "testo": "altro materiale adatto e infonde nello scritto un'illusione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    56.5,
+    268.9,
+    67.1
+   ],
+   "size": 8.8,
+   "testo": "che permane per la durata dell'incantesimo. All'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    67.5,
+    272.0,
+    78.0
+   ],
+   "size": 8.8,
+   "testo": "tore e a qualsiasi creatura indicata da lui al momento del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    78.4,
+    264.2,
+    89.0
+   ],
+   "size": 8.8,
+   "testo": "lancio, lo scritto appare normale, sembra essere stilato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    89.5,
+    272.7,
+    100.0
+   ],
+   "size": 8.8,
+   "testo": "nella calligrafia dell'incantatore e trasmette il significato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    100.5,
+    261.9,
+    111.1
+   ],
+   "size": 8.8,
+   "testo": "inteso nel momento in cui è stato scritto. Agli occhi di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    111.4,
+    262.5,
+    122.0
+   ],
+   "size": 8.8,
+   "testo": "tutti gli altri, il messaggio appare scritto in una lingua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    122.4,
+    257.4,
+    133.0
+   ],
+   "size": 8.8,
+   "testo": "magica o ignota che risulta per loro incomprensibile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    133.4,
+    249.6,
+    144.0
+   ],
+   "size": 8.8,
+   "testo": "In alternativa, l'illusione può alterare il significato,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    144.4,
+    267.6,
+    155.0
+   ],
+   "size": 8.8,
+   "testo": "la calligrafia e la lingua del testo, ma questa deve essere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    155.4,
+    205.1,
+    166.0
+   ],
+   "size": 8.8,
+   "testo": "una lingua conosciuta dall'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.7,
+    166.5,
+    268.8,
+    177.0
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantesimo viene dissolto, il messaggio originale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    177.5,
+    147.7,
+    188.1
+   ],
+   "size": 8.8,
+   "testo": "e l'illusione scompaiono.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    188.4,
+    266.3,
+    199.0
+   ],
+   "size": 8.8,
+   "testo": "Una creatura con vista pura può leggere il messaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    199.5,
+    88.7,
+    210.1
+   ],
+   "size": 8.8,
+   "testo": "nascosto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    234.3,
+    106.3,
+    245.6
+   ],
+   "size": 11.2,
+   "testo": "SCRUTARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    245.7,
+    250.1,
+    256.2
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi5°livello (bardo, chierico, druido, mago,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    257.7,
+    83.4,
+    267.0
+   ],
+   "size": 8.6,
+   "testo": "warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    272.4,
+    152.9,
+    282.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    283.5,
+    126.1,
+    293.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    294.4,
+    279.2,
+    304.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un focus del valore di 1 .000 mo o più,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.6,
+    304.4,
+    260.7,
+    315.1
+   ],
+   "size": 8.8,
+   "testo": "come una sfera di cristallo, uno specchio o una fonte",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    316.3,
+    92.6,
+    326.0
+   ],
+   "size": 8.4,
+   "testo": "d'acqua)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    327.4,
+    205.4,
+    337.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    343.5,
+    253.9,
+    354.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può vedere e udire una creatura a sua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    354.5,
+    277.1,
+    365.1
+   ],
+   "size": 8.8,
+   "testo": "scelta situata sul suo stesso piano di esistenza. Il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    365.5,
+    272.7,
+    376.1
+   ],
+   "size": 8.8,
+   "testo": "effettua un tiro salvezza su Saggezza, modificato (vedi le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    376.5,
+    267.3,
+    387.0
+   ],
+   "size": 8.8,
+   "testo": "tabelle di seguito) dalla conoscenza e dal tipo di legame",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    387.5,
+    264.2,
+    398.1
+   ],
+   "size": 8.8,
+   "testo": "fisico che l'incantatore ha nei confronti della creatura.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    398.6,
+    255.9,
+    409.2
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio non sa contro cosa sta effettuando il tiro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    409.7,
+    240.3,
+    420.3
+   ],
+   "size": 8.8,
+   "testo": "salvezza, avverte solo una sensazione di disagio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    427.1,
+    181.3,
+    436.3
+   ],
+   "size": 8.2,
+   "testo": "L'incantatore conosce il bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    438.2,
+    103.8,
+    447.4
+   ],
+   "size": 8.2,
+   "testo": "in maniera...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    452.1,
+    173.9,
+    461.7
+   ],
+   "size": 8.4,
+   "testo": "Indiretta (ha sentito parlare del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    464.0,
+    92.5,
+    473.6
+   ],
+   "size": 8.4,
+   "testo": "bersaglio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    478.6,
+    184.4,
+    488.2
+   ],
+   "size": 8.4,
+   "testo": "Diretta (ha incontrato il bersaglio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    221.7,
+    427.0,
+    271.2,
+    436.2
+   ],
+   "size": 8.2,
+   "testo": "Modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    217.6,
+    438.0,
+    274.6,
+    447.2
+   ],
+   "size": 8.2,
+   "testo": "al tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    240.6,
+    451.9,
+    251.3,
+    461.5
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    240.3,
+    478.5,
+    251.8,
+    488.1
+   ],
+   "size": 8.4,
+   "testo": "+0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    493.1,
+    209.1,
+    502.7
+   ],
+   "size": 8.4,
+   "testo": "Approfondita (conosce bene il bersaglio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    240.3,
+    493.0,
+    251.9,
+    502.7
+   ],
+   "size": 8.4,
+   "testo": "-5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    517.4,
+    205.6,
+    526.6
+   ],
+   "size": 8.2,
+   "testo": "L'oggetto del bersaglio che l'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    221.7,
+    517.4,
+    271.3,
+    526.6
+   ],
+   "size": 8.2,
+   "testo": "Modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    528.4,
+    103.3,
+    537.6
+   ],
+   "size": 8.2,
+   "testo": "possiede è...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    217.6,
+    528.3,
+    274.6,
+    537.5
+   ],
+   "size": 8.2,
+   "testo": "al tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    542.3,
+    176.1,
+    551.9
+   ],
+   "size": 8.4,
+   "testo": "Immagine o altra raffigurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    240.4,
+    542.3,
+    251.5,
+    551.9
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    556.9,
+    174.7,
+    566.5
+   ],
+   "size": 8.4,
+   "testo": "Abito o altro oggetto personale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    239.8,
+    556.9,
+    252.8,
+    566.5
+   ],
+   "size": 8.4,
+   "testo": "-4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    571.4,
+    210.6,
+    581.0
+   ],
+   "size": 8.4,
+   "testo": "Parte del corpo, ciocca di capelli o pezzo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    238.1,
+    571.4,
+    253.3,
+    581.1
+   ],
+   "size": 8.4,
+   "testo": "-10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    583.5,
+    91.7,
+    593.1
+   ],
+   "size": 8.4,
+   "testo": "di unghia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    601.1,
+    272.8,
+    611.7
+   ],
+   "size": 8.8,
+   "testo": "In caso di tiro salvezza superato, il bersaglio non viene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    612.3,
+    267.6,
+    622.9
+   ],
+   "size": 8.8,
+   "testo": "influenzato dall'incantesimo, che l'incantatore non può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    623.3,
+    167.2,
+    633.9
+   ],
+   "size": 8.8,
+   "testo": "lanciare su di esso per 24 ore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    634.4,
+    277.5,
+    645.0
+   ],
+   "size": 8.8,
+   "testo": "In caso di fallimento, l'incantesimo crea un sensore invi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    645.4,
+    273.1,
+    656.0
+   ],
+   "size": 8.8,
+   "testo": "sibile e intangibile entro 3 metri dal bersaglio, attraverso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    656.3,
+    273.6,
+    666.9
+   ],
+   "size": 8.8,
+   "testo": "cui l'incantatore può vedere e sentire come se si trovasse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    667.3,
+    245.8,
+    677.9
+   ],
+   "size": 8.8,
+   "testo": "sul posto. Il sensore si muove insieme al bersaglio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    678.3,
+    272.0,
+    688.9
+   ],
+   "size": 8.8,
+   "testo": "rimanendo entro 3 metri da esso per la durata dell'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    689.3,
+    266.9,
+    699.9
+   ],
+   "size": 8.8,
+   "testo": "tesimo. Se qualcosa è in grado di vedere il sensore, esso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    700.3,
+    276.9,
+    710.8
+   ],
+   "size": 8.8,
+   "testo": "appare come un globo luminoso grande all'incirca quanto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    711.3,
+    120.9,
+    721.8
+   ],
+   "size": 8.8,
+   "testo": "un pugno umano.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    34.4,
+    517.4,
+    44.9
+   ],
+   "size": 8.8,
+   "testo": "Invece di bersagliare una creatura, l'incantatore può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    45.5,
+    525.9,
+    56.0
+   ],
+   "size": 8.8,
+   "testo": "bersagliare un luogo che ha già visto. Quando lo fa, il sen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    56.5,
+    464.0,
+    67.0
+   ],
+   "size": 8.8,
+   "testo": "sore appare in quel luogo e non si muove.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    91.1,
+    341.9,
+    102.5
+   ],
+   "size": 11.2,
+   "testo": "SCUDO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    102.7,
+    451.3,
+    113.1
+   ],
+   "size": 8.6,
+   "testo": "Abiurazione di 1° livello (mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    118.2,
+    532.2,
+    127.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: reazione, che l'incantatore effettua quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.8,
+    129.2,
+    524.0,
+    138.8
+   ],
+   "size": 8.4,
+   "testo": "è colpito da un tiro per colpire o bersagliato dall'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.1,
+    140.2,
+    392.9,
+    149.9
+   ],
+   "size": 9.2,
+   "testo": "simo dardo incantato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    151.1,
+    378.9,
+    160.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    162.2,
+    369.6,
+    171.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    173.2,
+    365.4,
+    182.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: l round",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    189.5,
+    509.9,
+    200.0
+   ],
+   "size": 8.8,
+   "testo": "Una barriera impercettibile di forza magica protegge",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    200.5,
+    512.3,
+    211.1
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore. Fino all'inizio del suo turno successivo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    211.6,
+    523.8,
+    222.1
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore ottiene un bonus di +5 alla CA da applicare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    222.5,
+    528.5,
+    233.0
+   ],
+   "size": 8.8,
+   "testo": "anche all'attacco innescante e non subisce danni da dardo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.7,
+    234.4,
+    341.0,
+    243.8
+   ],
+   "size": 8.6,
+   "testo": "incantato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    268.1,
+    405.6,
+    279.5
+   ],
+   "size": 11.2,
+   "testo": "SCUDO DELLA FEDE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.2,
+    279.7,
+    461.3,
+    290.3
+   ],
+   "size": 8.6,
+   "testo": "Abiurazione di 1° livello (chierico, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    295.4,
+    420.6,
+    305.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    306.3,
+    366.9,
+    315.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    317.3,
+    520.7,
+    327.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una pergamena con una preghiera)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    328.4,
+    457.9,
+    338.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    344.5,
+    515.8,
+    355.1
+   ],
+   "size": 8.8,
+   "testo": "Un campo di energia scintillante avvolge una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.7,
+    355.5,
+    511.3,
+    366.1
+   ],
+   "size": 8.8,
+   "testo": "scelta dall'incantatore entro gittata, conferendole un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    366.6,
+    499.8,
+    377.1
+   ],
+   "size": 8.8,
+   "testo": "bonus di +2 alla CA per la durata dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    401.4,
+    395.8,
+    412.8
+   ],
+   "size": 11.2,
+   "testo": "ScuDo DI Fuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    412.9,
+    479.5,
+    423.4
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 4° livello (druido, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    428.5,
+    394.7,
+    438.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    439.4,
+    378.0,
+    449.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    450.4,
+    505.4,
+    460.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un frammento di fosforo o una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    461.4,
+    343.7,
+    471.0
+   ],
+   "size": 8.4,
+   "testo": "lucciola)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    472.3,
+    371.4,
+    481.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    488.5,
+    519.2,
+    499.1
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, il corpo dell'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    499.6,
+    517.7,
+    510.1
+   ],
+   "size": 8.8,
+   "testo": "è avvolto da fiamme sottili, che proiettano luce intensa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    510.6,
+    519.2,
+    521.2
+   ],
+   "size": 8.8,
+   "testo": "in un raggio di 3 metri e luce fioca per ulteriori 3 metri.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.7,
+    521.6,
+    508.6,
+    532.2
+   ],
+   "size": 8.8,
+   "testo": "Le fiamme conferiscono all'incantatore uno scudo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    532.6,
+    527.1,
+    543.2
+   ],
+   "size": 8.8,
+   "testo": "ardente o gelido a sua scelta. Lo scudo ardente gli conferi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    543.6,
+    523.8,
+    554.1
+   ],
+   "size": 8.8,
+   "testo": "sce resistenza ai danni da freddo, mentre lo scudo gelido",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    554.6,
+    416.0,
+    565.2
+   ],
+   "size": 8.8,
+   "testo": "resistenza ai danni da fuoco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.7,
+    565.6,
+    511.1,
+    576.1
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ogni volta che una creatura entro 1,5 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    576.5,
+    509.5,
+    587.1
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore lo colpisce con un tiro per colpire in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    587.5,
+    528.8,
+    598.1
+   ],
+   "size": 8.8,
+   "testo": "mischia, dallo scudo erompono delle fiamme. L'attaccante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    598.5,
+    520.8,
+    609.1
+   ],
+   "size": 8.8,
+   "testo": "subisce 2d8 danni da fuoco da uno scudo ardente o 2d8",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    609.6,
+    448.1,
+    620.1
+   ],
+   "size": 8.8,
+   "testo": "danni da freddo da uno scudo gelido.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    644.3,
+    381.7,
+    655.7
+   ],
+   "size": 11.2,
+   "testo": "SCUROVISIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    655.9,
+    517.3,
+    666.3
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi2° livello (druido, mago, ranger, stregone)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    671.5,
+    394.6,
+    681.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    682.5,
+    367.2,
+    692.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    693.4,
+    467.3,
+    703.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una carota essiccata)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    704.4,
+    353.8,
+    714.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: 8 ore",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

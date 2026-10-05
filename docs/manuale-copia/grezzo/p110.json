@@ -1,0 +1,679 @@
+{
+ "pagina_pdf": 110,
+ "pagina_stampata": 107,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   119,
+   -1,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    60.6,
+    38.4,
+    254.8,
+    49.0
+   ],
+   "size": 8.8,
+   "testo": "Sussurripsichici. Il personaggio può stabilire una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    49.5,
+    269.5,
+    60.0
+   ],
+   "size": 8.8,
+   "testo": "comunicazione telepatica tra sé e gli altri. Come azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    60.5,
+    276.5,
+    71.0
+   ],
+   "size": 8.8,
+   "testo": "di Magia, può scegliere una o più creature nel suo campo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    71.5,
+    282.6,
+    82.1
+   ],
+   "size": 8.8,
+   "testo": "visivo, fino a un massimo pari al suo bonus di competenza,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    82.5,
+    271.3,
+    93.1
+   ],
+   "size": 8.8,
+   "testo": "e poi tirare un dado di Energia Psionica. Per un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    93.5,
+    280.8,
+    104.0
+   ],
+   "size": 8.8,
+   "testo": "di ore pari al risultato ottenuto, le creature scelte possono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    104.4,
+    268.0,
+    115.0
+   ],
+   "size": 8.8,
+   "testo": "parlare telepaticamente con il personaggio e viceversa;",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    115.5,
+    281.6,
+    126.1
+   ],
+   "size": 8.8,
+   "testo": "per inviare o ricevere un messaggio non è richiesta alcuna",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    126.4,
+    261.6,
+    137.0
+   ],
+   "size": 8.8,
+   "testo": "azione, ma il personaggio e la creatura devono essere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    137.3,
+    266.7,
+    147.9
+   ],
+   "size": 8.8,
+   "testo": "a non più di 1,5 chilometri di distanza. Le creature pos­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    148.5,
+    275.5,
+    159.1
+   ],
+   "size": 8.8,
+   "testo": "sono interrompere il collegamento telepatico in qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    159.5,
+    197.4,
+    170.1
+   ],
+   "size": 8.8,
+   "testo": "momento (nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    170.5,
+    279.1,
+    181.1
+   ],
+   "size": 8.8,
+   "testo": "Questo potere non spende il dado di Energia Psionica la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    181.5,
+    283.1,
+    192.1
+   ],
+   "size": 8.8,
+   "testo": "prima volta che viene usato dopo un riposo lungo, ma ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    192.5,
+    187.1,
+    203.1
+   ],
+   "size": 8.8,
+   "testo": "uso successivo consumerà il dado.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    213.0,
+    214.2,
+    224.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 9: LAME DELL'ANIMA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    224.5,
+    260.3,
+    235.0
+   ],
+   "size": 8.8,
+   "testo": "Il ladro può ora utilizzare i seguenti poteri con le sue",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    235.5,
+    117.6,
+    246.1
+   ],
+   "size": 8.8,
+   "testo": "Lame Psichiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    246.4,
+    278.8,
+    257.0
+   ],
+   "size": 8.8,
+   "testo": "Colpiguidati. Se il ladro effettua un tiro per colpire con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    257.5,
+    274.4,
+    268.0
+   ],
+   "size": 8.8,
+   "testo": "le sue Lame Psichiche e manca il bersaglio, può tirare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    268.5,
+    281.5,
+    279.1
+   ],
+   "size": 8.8,
+   "testo": "dado di Energia Psionica e aggiungere il risultato ottenuto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    279.6,
+    266.3,
+    290.2
+   ],
+   "size": 8.8,
+   "testo": "al tiro per colpire. Se così facendo l'attacco va a segno,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    290.5,
+    205.0,
+    301.1
+   ],
+   "size": 8.8,
+   "testo": "il dado è considerato come consumato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    301.6,
+    275.2,
+    312.1
+   ],
+   "size": 8.8,
+   "testo": "Teletrasporto psichico. Come azione bonus, il personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    312.5,
+    281.0,
+    323.1
+   ],
+   "size": 8.8,
+   "testo": "gio può manifestare una Lama Psichica, spendere un dado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    323.5,
+    262.1,
+    334.1
+   ],
+   "size": 8.8,
+   "testo": "di Energia Psionica e tirarlo, e lanciare la lama in uno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    334.4,
+    266.1,
+    345.0
+   ],
+   "size": 8.8,
+   "testo": "spazio libero nel suo campo visivo, a una distanza pari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    345.5,
+    279.5,
+    356.1
+   ],
+   "size": 8.8,
+   "testo": "a 3 metri x il risultato del dado; dopodiché si teletrasporta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    356.4,
+    179.8,
+    367.0
+   ],
+   "size": 8.8,
+   "testo": "in quel punto e la lama svanisce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    376.8,
+    201.9,
+    388.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 13: VELO PSICHICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    388.2,
+    271.5,
+    398.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può tessere un velo di trama psichica per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    399.2,
+    262.6,
+    409.7
+   ],
+   "size": 8.8,
+   "testo": "occultare la propria presenza. Come azione di Magia,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    410.3,
+    265.8,
+    420.9
+   ],
+   "size": 8.8,
+   "testo": "diventa invisibile per 1 ora o finché non decide di inter­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    421.3,
+    276.1,
+    431.9
+   ],
+   "size": 8.8,
+   "testo": "rompere l'effetto (nessuna azione richiesta). L'invisibilità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    432.3,
+    253.8,
+    442.9
+   ],
+   "size": 8.8,
+   "testo": "termina subito se infligge danni a una creatura o se",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    443.2,
+    257.9,
+    453.8
+   ],
+   "size": 8.8,
+   "testo": "costringe una creatura a effettuare un tiro salvezza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    454.2,
+    253.0,
+    464.8
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    465.3,
+    247.8,
+    475.8
+   ],
+   "size": 8.8,
+   "testo": "non può riutilizzarlo prima di aver completato un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    476.2,
+    254.9,
+    486.8
+   ],
+   "size": 8.8,
+   "testo": "riposo lungo; può ignorare questo limite spendendo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    487.2,
+    227.3,
+    497.7
+   ],
+   "size": 8.8,
+   "testo": "un dado di Energia Psionica (nessuna azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    498.3,
+    93.1,
+    508.9
+   ],
+   "size": 8.8,
+   "testo": "richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    518.7,
+    242.4,
+    530.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: SQUARCIARE LA MENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    530.2,
+    253.3,
+    540.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può usare le proprie Lame Psichiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    541.2,
+    254.9,
+    551.8
+   ],
+   "size": 8.8,
+   "testo": "per attaccare la mente di una creatura. Quando usa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    552.1,
+    256.9,
+    562.7
+   ],
+   "size": 8.8,
+   "testo": "le Lame Psichiche per effettuare un Attacco Furtivo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    563.1,
+    260.0,
+    573.7
+   ],
+   "size": 8.8,
+   "testo": "contro una creatura, può costringere il suo bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    574.1,
+    248.7,
+    584.6
+   ],
+   "size": 8.8,
+   "testo": "a effettuare un tiro salvezza su Saggezza (CD pari",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    585.1,
+    269.3,
+    595.7
+   ],
+   "size": 8.8,
+   "testo": "a 8 più il suo modificatore di Destrezza più il suo bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    596.0,
+    244.7,
+    606.6
+   ],
+   "size": 8.8,
+   "testo": "di competenza). In caso di fallimento, il bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    607.1,
+    257.3,
+    617.7
+   ],
+   "size": 8.8,
+   "testo": "è stordito per 1 minuto e ripeterà il tiro salvezza alla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    618.2,
+    261.6,
+    628.8
+   ],
+   "size": 8.8,
+   "testo": "fine di ogni suo turno. Se lo supera, l'effetto svanisce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    629.2,
+    252.9,
+    639.8
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    640.3,
+    247.3,
+    650.9
+   ],
+   "size": 8.8,
+   "testo": "non può riutilizzarlo prima di aver completato un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    651.2,
+    254.9,
+    661.8
+   ],
+   "size": 8.8,
+   "testo": "riposo lungo; può ignorare questo limite spendendo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    662.2,
+    267.2,
+    672.8
+   ],
+   "size": 8.8,
+   "testo": "tre dadi di Energia Psionica (nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

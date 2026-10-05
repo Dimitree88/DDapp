@@ -1,0 +1,1003 @@
+{
+ "pagina_pdf": 12,
+ "pagina_stampata": 9,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 1 I COME SI GIOCA / 9",
+ "immagini": [
+  [
+   13,
+   569,
+   553,
+   713
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.8,
+    41.0,
+    99.0,
+    57.6
+   ],
+   "size": 12.9,
+   "testo": "DADI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    59.2,
+    269.4,
+    69.7
+   ],
+   "size": 8.8,
+   "testo": "I dadi conferiscono casualità al gioco e contribuiscono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    70.3,
+    273.7,
+    80.9
+   ],
+   "size": 8.8,
+   "testo": "a determinare se i personaggi e i mostri hanno successo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    81.2,
+    120.1,
+    91.7
+   ],
+   "size": 8.8,
+   "testo": "nelle loro prove.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    101.2,
+    178.2,
+    114.3
+   ],
+   "size": 9.7,
+   "testo": "DICITURE DEI DADI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    117.8,
+    259.1,
+    128.3
+   ],
+   "size": 8.8,
+   "testo": "In D&D, si fa riferimento ai vari dadi con la lettera d",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    128.8,
+    273.2,
+    139.3
+   ],
+   "size": 8.8,
+   "testo": "seguita dal numero dei lati del dado: d4, d6, d8, d10, d12",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    139.7,
+    268.2,
+    150.2
+   ],
+   "size": 8.8,
+   "testo": "e d20. Ad esempio, un d6 è un dado a sei facce (il cubo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    150.8,
+    281.7,
+    161.3
+   ],
+   "size": 8.8,
+   "testo": "utilizzato in molti giochi). L'illustrazione di questa pagina",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    161.8,
+    184.6,
+    172.4
+   ],
+   "size": 8.8,
+   "testo": "mostra l'aspetto di ciascun dado.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    172.7,
+    267.3,
+    183.3
+   ],
+   "size": 8.8,
+   "testo": "Quando è necessario tirare i dadi, le regole indicano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    183.7,
+    267.2,
+    194.3
+   ],
+   "size": 8.8,
+   "testo": "quanti dadi di un certo tipo vanno tirati, nonché quali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.3,
+    194.9,
+    266.5,
+    205.5
+   ],
+   "size": 8.8,
+   "testo": "numeri aggiungere o sottrarre. Per esempio, \"3d8 + 5\"",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    205.8,
+    270.6,
+    216.4
+   ],
+   "size": 8.8,
+   "testo": "significa che bisognerà tirare tre dadi a otto facce, som­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    216.8,
+    209.9,
+    227.4
+   ],
+   "size": 8.8,
+   "testo": "mare i risultati e aggiungere 5 al totale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    237.2,
+    159.2,
+    248.6
+   ],
+   "size": 11.2,
+   "testo": "DADI PERCENTUALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    248.7,
+    269.5,
+    259.3
+   ],
+   "size": 8.8,
+   "testo": "A volte le regole fanno riferimento a un d100. Sebbene",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    259.6,
+    271.8,
+    270.2
+   ],
+   "size": 8.8,
+   "testo": "esistano dadi di questo tipo, per tirare 1d100 di solito si",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    270.7,
+    283.6,
+    281.3
+   ],
+   "size": 8.8,
+   "testo": "utilizza una coppia di dadi a dieci facce numerate da 0 a 9,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    281.7,
+    272.4,
+    292.3
+   ],
+   "size": 8.8,
+   "testo": "noti come dadi percentuali. Un dado (da stabilire prima",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    292.7,
+    276.0,
+    303.2
+   ],
+   "size": 8.8,
+   "testo": "del tiro) indicherà le decine, l'altro le unità. Per esempio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    303.7,
+    272.9,
+    314.3
+   ],
+   "size": 8.8,
+   "testo": "se ottieni un 7 nelle decine e un 1 nelle unità, il risultato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    314.6,
+    236.3,
+    325.2
+   ],
+   "size": 8.8,
+   "testo": "del tiro sarà 71. Due zeri rappresentano il 100.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    325.7,
+    271.0,
+    336.2
+   ],
+   "size": 8.8,
+   "testo": "Alcuni dadi a dieci facce sono numerati a decine (00,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    336.6,
+    271.8,
+    347.2
+   ],
+   "size": 8.8,
+   "testo": "10, 20 e così via) per facilitare la distinzione tra la cifra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    347.6,
+    269.7,
+    358.2
+   ],
+   "size": 8.8,
+   "testo": "delle decine e quella delle unità. In questo caso, un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    358.6,
+    273.7,
+    369.1
+   ],
+   "size": 8.8,
+   "testo": "di 70 e 1 equivale a 71 e un tiro di 00 e O equivale a 100.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    379.0,
+    73.3,
+    390.4
+   ],
+   "size": 11.2,
+   "testo": "D3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    390.5,
+    281.0,
+    401.0
+   ],
+   "size": 8.8,
+   "testo": "La stessa dicitura dappare nell'espressione \"1d3\", sebbene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    401.5,
+    284.1,
+    412.1
+   ],
+   "size": 8.8,
+   "testo": "sia raro trovare dadi con sole tre facce. Per simulare il tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    412.5,
+    285.1,
+    423.1
+   ],
+   "size": 8.8,
+   "testo": "di 1d3 si tira 1d6 e si divide il risultato per 2 (arrotondando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    423.5,
+    106.8,
+    434.1
+   ],
+   "size": 8.8,
+   "testo": "per eccesso).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    443.4,
+    215.7,
+    456.5
+   ],
+   "size": 9.7,
+   "testo": "A COSA SERVONO I DADI?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    460.0,
+    212.8,
+    470.6
+   ],
+   "size": 8.8,
+   "testo": "Ecco gli usi più comuni dei dadi in D&D.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    480.5,
+    141.5,
+    491.8
+   ],
+   "size": 11.2,
+   "testo": "PROVA CON D20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    491.8,
+    260.2,
+    502.4
+   ],
+   "size": 8.8,
+   "testo": "Il dado a 20 facce (d20) è il dado più importante che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    502.9,
+    277.0,
+    513.5
+   ],
+   "size": 8.8,
+   "testo": "utilizzerai nel gioco. ed è fondamentale per la meccanica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    513.9,
+    262.0,
+    524.5
+   ],
+   "size": 8.8,
+   "testo": "di base, chiamata prova con d20, che il gioco usa per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    524.9,
+    270.5,
+    535.5
+   ],
+   "size": 8.8,
+   "testo": "determinare se le creature hanno successo o falliscono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    535.9,
+    266.2,
+    546.5
+   ],
+   "size": 8.8,
+   "testo": "nelle prove durante il gioco (vedi \"Prove con d20\" più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.1,
+    40.3,
+    522.9,
+    51.0
+   ],
+   "size": 10.6,
+   "testo": "INTERPRETARE I TIRI DEI DADI NELLA STORIA",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    53.9,
+    516.6,
+    63.5
+   ],
+   "size": 8.4,
+   "testo": "Parte del divertimento di D&D consiste nell'interpre­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    64.9,
+    522.2,
+    74.5
+   ],
+   "size": 8.4,
+   "testo": "tare il significato dei tiri dei dadi nella storia. La casua­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.1,
+    75.8,
+    516.8,
+    85.5
+   ],
+   "size": 8.4,
+   "testo": "lità dei dadi introduce spesso un evento inatteso: un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    86.8,
+    518.6,
+    96.4
+   ],
+   "size": 8.4,
+   "testo": "esperto fallisce, un principiante ha successo e un'infi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    97.8,
+    521.3,
+    107.4
+   ],
+   "size": 8.4,
+   "testo": "nità di altri colpi di scena. Quando una prova con d20",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.7,
+    108.7,
+    526.1,
+    118.4
+   ],
+   "size": 8.4,
+   "testo": "o un altro tiro genera una sorpresa, il Dungeon Master",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    119.8,
+    518.6,
+    129.4
+   ],
+   "size": 8.4,
+   "testo": "spesso fornisce una descrizione divertente di ciò che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.7,
+    130.7,
+    525.0,
+    140.4
+   ],
+   "size": 8.4,
+   "testo": "è accaduto. I giocatori dovrebbero cogliere l'occasione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    141.7,
+    522.0,
+    151.4
+   ],
+   "size": 8.4,
+   "testo": "per interpretare i tiri dei dadi del proprio personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.7,
+    152.7,
+    516.3,
+    162.3
+   ],
+   "size": 8.4,
+   "testo": "e descrivere perché la situazione ha preso una piega",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.1,
+    163.8,
+    445.6,
+    173.4
+   ],
+   "size": 8.4,
+   "testo": "inaspettata, o addirittura comica.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    187.4,
+    522.6,
+    197.9
+   ],
+   "size": 8.8,
+   "testo": "avanti in questo capitolo). Si tira un d20 ogni volta che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    198.5,
+    524.1,
+    209.0
+   ],
+   "size": 8.8,
+   "testo": "il personaggio tenta di fare qualcosa che secondo il DM",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    209.4,
+    527.2,
+    220.0
+   ],
+   "size": 8.8,
+   "testo": "abbia una possibilità di successo e di fallimento. Più alto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    220.4,
+    502.6,
+    231.0
+   ],
+   "size": 8.8,
+   "testo": "è il risultato, più è probabile che si abbia successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    240.9,
+    346.1,
+    252.3
+   ],
+   "size": 11.2,
+   "testo": "DANNI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    252.2,
+    512.3,
+    262.7
+   ],
+   "size": 8.8,
+   "testo": "L'uso più comune dei dadi diversi dal d20 è quello di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    263.3,
+    516.0,
+    273.9
+   ],
+   "size": 8.8,
+   "testo": "determinare i danni. Quando si effettua con successo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    274.3,
+    526.9,
+    284.9
+   ],
+   "size": 8.8,
+   "testo": "un tiro per colpire (un tipo di prova con d20), si tira per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    285.3,
+    517.9,
+    295.8
+   ],
+   "size": 8.8,
+   "testo": "i danni pervedere quanto è efficace l'attacco. Quando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    296.3,
+    525.9,
+    306.9
+   ],
+   "size": 8.8,
+   "testo": "si lancia un incantesimo, si può anche tirare per i danni.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    307.3,
+    516.5,
+    317.9
+   ],
+   "size": 8.8,
+   "testo": "Armi e incantesimi diversi utilizzano dadi diversi per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    318.3,
+    515.9,
+    328.9
+   ],
+   "size": 8.8,
+   "testo": "i danni. Ad esempio, un pugnale utilizza 1d4, un'ascia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    329.2,
+    505.1,
+    339.8
+   ],
+   "size": 8.8,
+   "testo": "bipenne 1d12, mentre un incantesimo palla difuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    340.3,
+    358.4,
+    350.9
+   ],
+   "size": 8.8,
+   "testo": "utilizza 8d6.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    360.7,
+    404.5,
+    372.1
+   ],
+   "size": 11.2,
+   "testo": "TABELLE CASUALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    372.0,
+    524.8,
+    382.6
+   ],
+   "size": 8.8,
+   "testo": "Di tanto in tanto, vedrai una tabella che utilizza un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    383.0,
+    512.5,
+    393.6
+   ],
+   "size": 8.8,
+   "testo": "del dado per generare un risultato casuale. In queste",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    394.0,
+    530.8,
+    404.6
+   ],
+   "size": 8.8,
+   "testo": "tabelle, nell'intestazione della colonna di sinistra si trova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    405.1,
+    521.3,
+    415.7
+   ],
+   "size": 8.8,
+   "testo": "un'indicazione del dado, ad esempio d10 o d100. Tira il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    416.1,
+    532.8,
+    426.7
+   ],
+   "size": 8.8,
+   "testo": "dado richiesto e individua il risultato (o un intervallo con­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    427.1,
+    530.0,
+    437.7
+   ],
+   "size": 8.8,
+   "testo": "tenente quel numero) in quella colonna. Leggi il risultato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    438.0,
+    524.2,
+    448.6
+   ],
+   "size": 8.8,
+   "testo": "nella riga corrispondente. Ad esempio, la tabella Monili",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    449.0,
+    429.2,
+    459.6
+   ],
+   "size": 8.8,
+   "testo": "del capitolo 2 utilizza un d100.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    469.5,
+    468.6,
+    480.9
+   ],
+   "size": 11.2,
+   "testo": "PERCENTUALE DI PROBABILITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    480.8,
+    534.6,
+    491.4
+   ],
+   "size": 8.8,
+   "testo": "A volte una regola descrive una percentuale di probabilità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    491.9,
+    517.1,
+    502.4
+   ],
+   "size": 8.8,
+   "testo": "che qualcosa accada. Ad esempio, potrebbe affermare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    502.9,
+    521.5,
+    513.5
+   ],
+   "size": 8.8,
+   "testo": "che la probabilità sia del 5%. In tal caso, si tirano i dadi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    513.9,
+    521.7,
+    524.4
+   ],
+   "size": 8.8,
+   "testo": "percentuali: se il risultato è pari o inferiore alla percen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    524.9,
+    532.3,
+    535.5
+   ],
+   "size": 8.8,
+   "testo": "tuale di probabilità (da 01 a 05, in questo esempio), quella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    535.9,
+    357.1,
+    546.5
+   ],
+   "size": 8.8,
+   "testo": "cosa accade.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,703 @@
+{
+ "pagina_pdf": 278,
+ "pagina_stampata": 275,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 275",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   380
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    52.1,
+    393.5,
+    141.6,
+    404.3
+   ],
+   "size": 8.4,
+   "testo": "FORMA GASSOSA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    405.1,
+    243.6,
+    415.9
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione di 3°livello (mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    419.8,
+    142.8,
+    430.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    430.8,
+    116.2,
+    441.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    441.7,
+    206.6,
+    452.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pezzo di garza)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    452.6,
+    189.5,
+    463.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    471.9,
+    279.8,
+    480.4
+   ],
+   "size": 6.6,
+   "testo": "Una creatura consenziente, toccata dall'incantatore, muta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    482.8,
+    278.4,
+    491.3
+   ],
+   "size": 6.6,
+   "testo": "forma, insieme a tutto ciò che indossa o trasporta, trasfor­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    493.9,
+    276.4,
+    502.4
+   ],
+   "size": 6.6,
+   "testo": "mandosi in una nube fosca per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    504.9,
+    264.4,
+    513.6
+   ],
+   "size": 6.6,
+   "testo": "L'effetto svanisce se il bersaglio scende a 0 punti ferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    516.0,
+    270.4,
+    524.5
+   ],
+   "size": 6.6,
+   "testo": "o se effettua un'azione di Magia per terminare l'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    527.0,
+    103.7,
+    535.6
+   ],
+   "size": 6.6,
+   "testo": "simo su di sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    538.0,
+    265.2,
+    546.5
+   ],
+   "size": 6.6,
+   "testo": "Mentre si trova in questa forma, una velocità di volo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    549.0,
+    267.0,
+    557.7
+   ],
+   "size": 6.6,
+   "testo": "di 3 metri è l'unico metodo di movimento del bersaglio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    559.9,
+    264.9,
+    568.4
+   ],
+   "size": 6.6,
+   "testo": "che può fluttuare e può entrare nello spazio di un'altra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.7,
+    570.9,
+    261.4,
+    579.6
+   ],
+   "size": 6.6,
+   "testo": "creatura e occuparlo. Il bersaglio è resistente ai danni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    581.9,
+    262.2,
+    590.6
+   ],
+   "size": 6.6,
+   "testo": "contundenti, perforanti e taglienti; è immune alla con­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    593.0,
+    261.9,
+    601.5
+   ],
+   "size": 6.6,
+   "testo": "dizione prono; dispone di vantaggio ai tiri salvezza su",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    603.9,
+    273.5,
+    612.4
+   ],
+   "size": 6.6,
+   "testo": "Forza, Destrezza e Costituzione. Il bersaglio può passare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    615.1,
+    272.5,
+    623.6
+   ],
+   "size": 6.6,
+   "testo": "attraverso aperture strette, tuttavia tratta i liquidi come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    626.1,
+    143.6,
+    634.7
+   ],
+   "size": 6.6,
+   "testo": "fossero superfici solide.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    637.1,
+    252.0,
+    645.6
+   ],
+   "size": 6.6,
+   "testo": "Il bersaglio non può parlare o manipolare oggetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    648.2,
+    256.8,
+    656.7
+   ],
+   "size": 6.6,
+   "testo": "e quelli che trasporta o impugna non possono essere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    659.1,
+    269.8,
+    667.6
+   ],
+   "size": 6.6,
+   "testo": "lasciati cadere, usati o manipolati in alcun modo. Infine,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    670.1,
+    258.4,
+    678.6
+   ],
+   "size": 6.6,
+   "testo": "il bersaglio non può attaccare o lanciare incantesimi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    681.0,
+    254.7,
+    689.7
+   ],
+   "size": 6.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    692.1,
+    263.7,
+    700.6
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    699.9,
+    197.4,
+    711.7
+   ],
+   "size": 6.6,
+   "testo": "per ogni slot di livello superiore al 3°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    393.5,
+    392.1,
+    404.3
+   ],
+   "size": 8.4,
+   "testo": "FORME ANIMALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    405.2,
+    433.8,
+    416.0
+   ],
+   "size": 8.4,
+   "testo": "T?asmutazione di 8° livello (druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    419.8,
+    395.5,
+    430.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    430.8,
+    364.0,
+    441.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    443.6,
+    371.4,
+    452.3
+   ],
+   "size": 6.6,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    452.7,
+    360.3,
+    463.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: 24 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    472.0,
+    529.2,
+    480.5
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore sceglie un qualsiasi numero di creature con­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    482.9,
+    526.3,
+    491.6
+   ],
+   "size": 6.6,
+   "testo": "senzienti entro gittata che è in grado di vedere. Ogni ber­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    494.0,
+    528.8,
+    502.5
+   ],
+   "size": 6.6,
+   "testo": "saglio muta forma in una bestia Grande o Piccola a scelta,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    505.0,
+    518.3,
+    513.7
+   ],
+   "size": 6.6,
+   "testo": "con un grado di sfida pari o inferiore a 4. L'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    516.1,
+    519.8,
+    524.6
+   ],
+   "size": 6.6,
+   "testo": "può scegliere una forma differente per ogni bersaglio e,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    527.0,
+    516.5,
+    535.5
+   ],
+   "size": 6.6,
+   "testo": "nei turni successivi, può effettuare un'azione di Magia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    538.1,
+    457.4,
+    546.6
+   ],
+   "size": 6.6,
+   "testo": "per trasformare nuovamente i bersagli.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    549.1,
+    498.5,
+    557.6
+   ],
+   "size": 6.6,
+   "testo": "Le statistiche della bestia scelta sostituiscono le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    560.0,
+    515.9,
+    568.5
+   ],
+   "size": 6.6,
+   "testo": "statistiche di gioco del bersaglio, il cui tipo di creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    571.0,
+    519.2,
+    579.5
+   ],
+   "size": 6.6,
+   "testo": "non cambia. Inoltre, il bersaglio conserva i punti ferita,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    582.0,
+    529.2,
+    590.5
+   ],
+   "size": 6.6,
+   "testo": "i dadi vita, il proprio allineamento, l'abilità di comunicare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    593.0,
+    530.3,
+    601.5
+   ],
+   "size": 6.6,
+   "testo": "e i punteggi di Intelligenza, Saggezza e Carisma. L e azioni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    604.0,
+    517.7,
+    612.5
+   ],
+   "size": 6.6,
+   "testo": "del bersaglio sono limitate dalla forma anatomica della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.3,
+    615.2,
+    527.8,
+    623.7
+   ],
+   "size": 6.6,
+   "testo": "bestia scelta, che non può lanciare incantesimi. L'equipag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    626.2,
+    521.9,
+    634.7
+   ],
+   "size": 6.6,
+   "testo": "giamento del bersaglio si fonde nella nuova forma e non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    637.1,
+    520.3,
+    645.6
+   ],
+   "size": 6.6,
+   "testo": "può essere utilizzato finché non viene assunta di nuovo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    648.2,
+    376.9,
+    656.7
+   ],
+   "size": 6.6,
+   "testo": "la forma originale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    659.2,
+    515.7,
+    667.7
+   ],
+   "size": 6.6,
+   "testo": "Il bersaglio ottiene un numero di punti ferita tempo­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    670.2,
+    514.9,
+    678.7
+   ],
+   "size": 6.6,
+   "testo": "ranei pari ai punti ferita della prima forma nella quale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    681.1,
+    526.3,
+    689.6
+   ],
+   "size": 6.6,
+   "testo": "muta. Questi punti ferita temporanei svaniscono quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    692.1,
+    527.6,
+    700.7
+   ],
+   "size": 6.6,
+   "testo": "l'incantesimo termina. La trasformazione permane per la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    703.1,
+    521.2,
+    711.6
+   ],
+   "size": 6.6,
+   "testo": "durata dell'incantesimo o fino a quando il bersaglio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    714.1,
+    423.6,
+    722.7
+   ],
+   "size": 6.6,
+   "testo": "la termina come azione bonus.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

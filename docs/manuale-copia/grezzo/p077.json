@@ -1,0 +1,727 @@
+{
+ "pagina_pdf": 77,
+ "pagina_stampata": 74,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   25,
+   407,
+   784
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    304.7,
+    38.5,
+    519.8,
+    49.1
+   ],
+   "size": 8.8,
+   "testo": "utilizzare questa azione bonus un numero di volte pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    49.7,
+    515.5,
+    60.2
+   ],
+   "size": 8.8,
+   "testo": "al suo modificatore di Saggezza (minimo di una volta)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    60.6,
+    511.5,
+    71.2
+   ],
+   "size": 8.8,
+   "testo": "e recupera tutti gli utilizzi spesi quando completa un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    71.6,
+    389.0,
+    82.2
+   ],
+   "size": 8.8,
+   "testo": "riposo breve o lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    92.1,
+    521.4,
+    103.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: BENEDIZIONE DEL DIO DELLA",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    102.8,
+    350.9,
+    114.2
+   ],
+   "size": 11.2,
+   "testo": "GUERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    114.2,
+    532.8,
+    124.8
+   ],
+   "size": 8.8,
+   "testo": "Il chierico può spendere un utilizzo di Incanalare Divinità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    125.2,
+    529.9,
+    135.8
+   ],
+   "size": 8.8,
+   "testo": "per lanciare scudo dellafede o armaspirituale anziché spen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    136.2,
+    530.2,
+    146.8
+   ],
+   "size": 8.8,
+   "testo": "dere uno slot incantesimo. Quando lancia un incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    147.2,
+    516.1,
+    157.8
+   ],
+   "size": 8.8,
+   "testo": "in questo modo, l'incantesimo non richiede concentra­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    158.2,
+    515.4,
+    168.8
+   ],
+   "size": 8.8,
+   "testo": "zione e dura 1 minuto, ma termina anticipatamente se",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    169.3,
+    525.9,
+    179.8
+   ],
+   "size": 8.8,
+   "testo": "lanciato di nuovo, o se il chierico è incapacitato o morto.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    189.7,
+    508.5,
+    201.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: AVATAR DELLA BATTAGLIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    201.1,
+    527.0,
+    211.7
+   ],
+   "size": 8.8,
+   "testo": "Il chierico ottiene resistenza ai danni contundenti, perfo­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    212.2,
+    369.3,
+    222.7
+   ],
+   "size": 8.8,
+   "testo": "ranti e taglienti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    231.8,
+    460.3,
+    245.4
+   ],
+   "size": 9.7,
+   "testo": "DOMINIO DELL'INGANNO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    249.8,
+    417.5,
+    259.2
+   ],
+   "size": 8.6,
+   "testo": "Turba l'ordine e sfida l'autorità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    263.4,
+    527.6,
+    274.0
+   ],
+   "size": 8.8,
+   "testo": "Il Dominio dell'Inganno offre magie di inganno, illusione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    274.4,
+    507.1,
+    285.0
+   ],
+   "size": 8.8,
+   "testo": "e furtività. I chierici che si dedicano a questa magia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    285.4,
+    524.4,
+    296.0
+   ],
+   "size": 8.8,
+   "testo": "esercitano una forza perturbatrice nel mondo: umiliano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    296.4,
+    525.0,
+    307.0
+   ],
+   "size": 8.8,
+   "testo": "i superbi, si fanno beffe dei tiranni, liberano i prigionieri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    307.4,
+    528.8,
+    317.9
+   ],
+   "size": 8.8,
+   "testo": "e contestano le tradizioni di facciata. Prediligono i sotter­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    318.4,
+    435.3,
+    328.9
+   ],
+   "size": 8.8,
+   "testo": "fugi e le burle agli scontri diretti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    329.4,
+    519.4,
+    339.9
+   ],
+   "size": 8.8,
+   "testo": "Gli dèi dell'inganno sono mistificatori e fomentatori,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    340.3,
+    515.7,
+    350.9
+   ],
+   "size": 8.8,
+   "testo": "sempre pronti a turbare l'ordine, sia presso gli dèi che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    351.3,
+    513.1,
+    361.9
+   ],
+   "size": 8.8,
+   "testo": "presso i mortali. Incarnano le forze del cambiamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    362.3,
+    528.1,
+    372.8
+   ],
+   "size": 8.8,
+   "testo": "e delle rivolte sociali e sono patroni di ladri, canaglie, gio­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    319.2,
+    373.2,
+    524.5,
+    383.8
+   ],
+   "size": 8.8,
+   "testo": "catori d'azzardo, ribelli e liberatori. Anche gli ordini",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.3,
+    384.2,
+    521.3,
+    394.8
+   ],
+   "size": 8.8,
+   "testo": "religiosi che operano in segreto, soprattutto quelli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.2,
+    395.3,
+    521.3,
+    405.8
+   ],
+   "size": 8.8,
+   "testo": "che cercano di minare governi o gerarchie oppres­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.4,
+    406.3,
+    524.4,
+    416.9
+   ],
+   "size": 8.8,
+   "testo": "sive, attingono al potere del Dominio dell'Inganno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    320.3,
+    426.8,
+    455.8,
+    438.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: BENEDIZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    437.6,
+    416.3,
+    448.9
+   ],
+   "size": 11.2,
+   "testo": "DELL'INGANNATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    448.9,
+    525.9,
+    459.5
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, il chierico può scegliere se stesso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    459.8,
+    513.8,
+    470.4
+   ],
+   "size": 8.8,
+   "testo": "o una creatura consenziente entro 9 metri da sé e far",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    470.8,
+    512.6,
+    481.4
+   ],
+   "size": 8.8,
+   "testo": "sì che disponga di vantaggio sulle prove di Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    481.8,
+    516.9,
+    492.4
+   ],
+   "size": 8.8,
+   "testo": "(Furtività). La benedizione dura finché il chierico non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    492.8,
+    508.4,
+    503.4
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo lungo o finché non usa di nuovo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    503.8,
+    375.0,
+    514.3
+   ],
+   "size": 8.8,
+   "testo": "questo privilegio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    524.3,
+    513.7,
+    535.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL DOMINIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    535.1,
+    384.7,
+    546.5
+   ],
+   "size": 11.2,
+   "testo": "DELL'INGANNO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    546.4,
+    511.5,
+    557.0
+   ],
+   "size": 8.8,
+   "testo": "La connessione con questo dominio divino permette",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    557.5,
+    514.0,
+    568.0
+   ],
+   "size": 8.8,
+   "testo": "al chierico di avere sempre pronti alcuni incantesimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    568.4,
+    524.4,
+    579.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il chierico raggiunge un livello specificato nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    579.4,
+    528.1,
+    589.9
+   ],
+   "size": 8.8,
+   "testo": "tabella Incantesimi del Dominio dell'Inganno, gli incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    590.4,
+    493.0,
+    601.0
+   ],
+   "size": 8.8,
+   "testo": "simi lì elencati sono considerati come preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    613.2,
+    522.7,
+    623.9
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL DOMINIO DELL'INGANNO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.6,
+    628.1,
+    348.9,
+    638.8
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.1,
+    639.1,
+    345.2,
+    649.8
+   ],
+   "size": 10.6,
+   "testo": "chierico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    355.3,
+    639.1,
+    437.6,
+    649.8
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi preparati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.2,
+    654.2,
+    331.7,
+    663.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.6,
+    654.7,
+    502.3,
+    663.9
+   ],
+   "size": 9.2,
+   "testo": "Camuffare se stesso, charme su persone,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.5,
+    666.6,
+    476.3,
+    675.8
+   ],
+   "size": 9.2,
+   "testo": "invisibilità e passare senza tracce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.2,
+    680.6,
+    331.7,
+    690.3
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.9,
+    681.2,
+    491.3,
+    690.4
+   ],
+   "size": 9.2,
+   "testo": "Trama ipnotica e anti-individuazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.2,
+    695.1,
+    331.9,
+    704.7
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.8,
+    695.7,
+    476.4,
+    704.9
+   ],
+   "size": 9.2,
+   "testo": "Confusione e porta dimensionale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.0,
+    709.9,
+    332.0,
+    719.5
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    354.9,
+    710.3,
+    506.2,
+    719.5
+   ],
+   "size": 9.2,
+   "testo": "Dominare persone e modificare memoria",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

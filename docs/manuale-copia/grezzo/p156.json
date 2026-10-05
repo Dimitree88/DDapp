@@ -1,0 +1,1416 @@
+{
+ "pagina_pdf": 156,
+ "pagina_stampata": 153,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 153",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    64.6,
+    34.8,
+    278.0,
+    45.4
+   ],
+   "size": 8.8,
+   "testo": "Ogni slot incantesimo creato tramite questo privilegio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    45.8,
+    271.9,
+    56.4
+   ],
+   "size": 8.8,
+   "testo": "svanisce quando lo stregone completa un riposo lungo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    68.6,
+    248.7,
+    79.3
+   ],
+   "size": 10.6,
+   "testo": "CREAZIONE DEGLI SLOT INCANTESIMO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.7,
+    84.5,
+    116.3,
+    93.7
+   ],
+   "size": 8.2,
+   "testo": "Livello slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    148.7,
+    84.5,
+    193.9,
+    93.7
+   ],
+   "size": 8.2,
+   "testo": "Costo punti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    222.9,
+    84.4,
+    272.9,
+    93.7
+   ],
+   "size": 8.2,
+   "testo": "Liv. stregone",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    71.5,
+    95.5,
+    119.6,
+    104.7
+   ],
+   "size": 8.2,
+   "testo": "incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    148.8,
+    95.4,
+    193.9,
+    104.7
+   ],
+   "size": 8.2,
+   "testo": "stregoneria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    232.4,
+    95.4,
+    263.6,
+    104.6
+   ],
+   "size": 8.2,
+   "testo": "minimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    109.3,
+    174.3,
+    118.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.5,
+    109.3,
+    250.5,
+    118.9
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.3,
+    123.9,
+    98.3,
+    133.5
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    124.0,
+    173.9,
+    133.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.6,
+    124.0,
+    250.1,
+    133.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.4,
+    138.5,
+    97.9,
+    148.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    138.6,
+    173.9,
+    148.2
+   ],
+   "size": 8.4,
+   "testo": "s",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.7,
+    138.5,
+    250.2,
+    148.1
+   ],
+   "size": 8.4,
+   "testo": "s",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    91.9,
+    153.1,
+    98.2,
+    162.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.2,
+    153.2,
+    174.2,
+    162.9
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.7,
+    153.0,
+    250.4,
+    162.7
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    92.4,
+    167.8,
+    97.9,
+    177.4
+   ],
+   "size": 8.4,
+   "testo": "s",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    167.7,
+    174.1,
+    177.4
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.4,
+    167.7,
+    250.4,
+    177.4
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    191.4,
+    185.4,
+    202.8
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 2: METAMAGIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    202.9,
+    283.5,
+    213.5
+   ],
+   "size": 8.8,
+   "testo": "Poiché la magia è un'abilità innata dello stregone, quest'ul­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    213.9,
+    270.3,
+    224.5
+   ],
+   "size": 8.8,
+   "testo": "timo può alterare i suoi incantesimi secondo necessità,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    224.9,
+    285.0,
+    235.4
+   ],
+   "size": 8.8,
+   "testo": "per questo ottiene due opzioni di Metamagia dalla sezione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    235.9,
+    283.0,
+    246.5
+   ],
+   "size": 8.8,
+   "testo": "Opzioni di Metamagia, che si trova più avanti nella descri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    246.9,
+    276.6,
+    257.4
+   ],
+   "size": 8.8,
+   "testo": "zione della classe. Le opzioni selezionate possono essere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    257.9,
+    286.9,
+    268.4
+   ],
+   "size": 8.8,
+   "testo": "utilizzate per modificare temporaneamente gli incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    268.9,
+    270.3,
+    279.5
+   ],
+   "size": 8.8,
+   "testo": "lanciati. Per fare uso di un'opzione, è necessario consu­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    280.0,
+    252.5,
+    290.5
+   ],
+   "size": 8.8,
+   "testo": "mare il costo corrispondente in punti stregoneria.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    291.0,
+    277.0,
+    301.5
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone può usare soltanto un'opzione di Metama­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    302.0,
+    274.8,
+    312.5
+   ],
+   "size": 8.8,
+   "testo": "gia su un incantesimo quando lo lancia, a meno che non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    312.9,
+    169.4,
+    323.5
+   ],
+   "size": 8.8,
+   "testo": "sia specificato diversamente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    323.8,
+    277.6,
+    334.4
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il personaggio ottiene un livello da stre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    334.9,
+    286.0,
+    345.4
+   ],
+   "size": 8.8,
+   "testo": "gone, è possibile sostituire una delle opzioni di Metamagia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    345.8,
+    282.0,
+    356.4
+   ],
+   "size": 8.8,
+   "testo": "con una che ancora non conosce. Lo stregone ottiene due",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    354.7,
+    266.6,
+    367.4
+   ],
+   "size": 8.8,
+   "testo": "ulteriori opzioni al 10° livello e altre due al 17° livello.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    377.2,
+    287.3,
+    388.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SOTTOCLASSE DELLO STREGONE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    388.7,
+    262.8,
+    399.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene una sottoclasse dello stregone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    399.8,
+    266.9,
+    410.3
+   ],
+   "size": 8.8,
+   "testo": "a scelta. Dopo la descrizione di questa classe, troverai",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    410.8,
+    273.0,
+    421.4
+   ],
+   "size": 8.8,
+   "testo": "una spiegazione per ciascuna delle seguenti sottoclassi:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    421.8,
+    270.3,
+    432.4
+   ],
+   "size": 8.8,
+   "testo": "Stregoneria Aberrante, Stregoneria Meccanica, Strego­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    432.8,
+    264.7,
+    443.4
+   ],
+   "size": 8.8,
+   "testo": "neria Draconica e Stregoneria della Magia Selvaggia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    443.7,
+    267.2,
+    454.3
+   ],
+   "size": 8.8,
+   "testo": "Una sottoclasse è una specializzazione che conferisce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    454.8,
+    277.5,
+    465.4
+   ],
+   "size": 8.8,
+   "testo": "dei privilegi a determinati livelli da stregone. Per il resto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    465.8,
+    274.2,
+    476.4
+   ],
+   "size": 8.8,
+   "testo": "della sua carriera, il personaggio ottiene tutti i privilegi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    476.7,
+    267.5,
+    487.3
+   ],
+   "size": 8.8,
+   "testo": "della sottoclasse pari al suo livello da stregone attuale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    487.7,
+    130.5,
+    498.3
+   ],
+   "size": 8.8,
+   "testo": "o a quelli inferiori.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    508.3,
+    251.2,
+    519.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 4: AUMENTO DEI PUNTEGGI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    519.0,
+    163.0,
+    530.4
+   ],
+   "size": 11.2,
+   "testo": "DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    530.5,
+    275.0,
+    541.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene l'aumento dei punteggi di caratte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    541.5,
+    273.3,
+    552.0
+   ],
+   "size": 8.8,
+   "testo": "ristica (vedi capitolo 5) o un altro talento a scelta di cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    552.4,
+    280.5,
+    563.0
+   ],
+   "size": 8.8,
+   "testo": "possiede i prerequisiti. Questo privilegio si ottiene nuova­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    561.2,
+    236.4,
+    574.0
+   ],
+   "size": 8.8,
+   "testo": "mente all'8°, al 12° e al 16° livello da stregone.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    583.9,
+    259.3,
+    595.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 5: RIPRISTINO STREGONESCO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    595.2,
+    255.8,
+    605.8
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone completa un riposo breve, può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    606.3,
+    266.9,
+    616.9
+   ],
+   "size": 8.8,
+   "testo": "recuperare i punti stregoneria consumati, ma non più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    617.4,
+    275.9,
+    628.0
+   ],
+   "size": 8.8,
+   "testo": "di un numero pari a metà del proprio livello da stregone",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    628.4,
+    272.6,
+    639.0
+   ],
+   "size": 8.8,
+   "testo": "(arrotondato per difetto). Dopo aver usato questo privi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    639.4,
+    273.4,
+    650.0
+   ],
+   "size": 8.8,
+   "testo": "legio, il personaggio non può riutilizzarlo prima di aver",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    650.4,
+    167.9,
+    661.0
+   ],
+   "size": 8.8,
+   "testo": "completato un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    670.8,
+    254.6,
+    682.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: STREGONERIA INCARNATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    682.2,
+    284.8,
+    692.8
+   ],
+   "size": 8.8,
+   "testo": "Se ha consumato tutti i suoi utilizzi di Stregoneria Innata,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    693.2,
+    279.7,
+    703.7
+   ],
+   "size": 8.8,
+   "testo": "come azione bonus può spendere 2 punti stregoneria per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    704.2,
+    94.5,
+    714.7
+   ],
+   "size": 8.8,
+   "testo": "attivarla.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.1,
+    34.8,
+    534.5,
+    45.3
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, mentre il privilegio Stregoneria Innata è attivo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    45.8,
+    534.3,
+    56.3
+   ],
+   "size": 8.8,
+   "testo": "lo stregone può usare fino a due delle sue opzioni di Meta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    56.8,
+    449.8,
+    67.4
+   ],
+   "size": 8.8,
+   "testo": "magia su ogni incantesimo lanciato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    77.3,
+    445.1,
+    88.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    88.6,
+    519.8,
+    99.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    99.5,
+    523.4,
+    110.1
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    103.5,
+    492.6,
+    121.7
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono del viaggio dimensionale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    131.0,
+    478.4,
+    142.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: APOTEOSI ARCANA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    142.4,
+    526.1,
+    152.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il privilegio Stregoneria Innata è attivo, lo stre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    153.4,
+    521.8,
+    164.0
+   ],
+   "size": 8.8,
+   "testo": "gone può usare un'opzione di Metamagia a ogni turno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    164.5,
+    475.2,
+    175.0
+   ],
+   "size": 8.8,
+   "testo": "senza dover consumare punti stregoneria.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    184.6,
+    462.0,
+    197.7
+   ],
+   "size": 9.7,
+   "testo": "OPZIONI DI METAMAGIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.6,
+    201.2,
+    536.0,
+    211.7
+   ],
+   "size": 8.8,
+   "testo": "Per il privilegio di Metamagia dello stregone sono disponi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.8,
+    212.1,
+    515.3,
+    222.7
+   ],
+   "size": 8.8,
+   "testo": "bili le seguenti opzioni, elencate in ordine alfabetico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    232.5,
+    428.7,
+    243.9
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO CELATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    245.0,
+    405.5,
+    254.5
+   ],
+   "size": 8.6,
+   "testo": "Costo: 1 punto stregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    258.5,
+    531.6,
+    269.1
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone lancia un incantesimo, può spendere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    269.5,
+    534.9,
+    280.1
+   ],
+   "size": 8.8,
+   "testo": "1 punto stregoneria per farlo senza utilizzare componenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    280.6,
+    532.2,
+    291.2
+   ],
+   "size": 8.8,
+   "testo": "verbali, somatiche o materiali, fatta eccezione per le com­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    291.6,
+    518.1,
+    302.1
+   ],
+   "size": 8.8,
+   "testo": "ponenti materiali consumate dall'incantesimo o il cui",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    302.5,
+    467.4,
+    313.1
+   ],
+   "size": 8.8,
+   "testo": "costo è specificato nella sua descrizione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    323.0,
+    439.3,
+    334.3
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO DISTANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    335.4,
+    405.5,
+    344.9
+   ],
+   "size": 8.6,
+   "testo": "Costo: 1 punto stregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    348.9,
+    520.1,
+    359.5
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone lancia un incantesimo che ha una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    359.9,
+    531.4,
+    370.4
+   ],
+   "size": 8.8,
+   "testo": "gittata pari o superiore a 1,5 metri, può spendere 1 punto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    370.8,
+    533.5,
+    381.4
+   ],
+   "size": 8.8,
+   "testo": "stregoneria per raddoppiarla. Se invece lancia un incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    381.9,
+    531.1,
+    392.4
+   ],
+   "size": 8.8,
+   "testo": "simo che ha una gittata a contatto, può spendere 1 punto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    392.9,
+    456.9,
+    403.5
+   ],
+   "size": 8.8,
+   "testo": "stregoneria per aumentarla a 9 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    413.5,
+    425.9,
+    424.9
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO ESTESO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    426.0,
+    405.5,
+    435.5
+   ],
+   "size": 8.6,
+   "testo": "Costo: 1 punto stregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    439.4,
+    531.4,
+    450.0
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone lancia un incantesimo di durata pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    450.4,
+    531.8,
+    460.9
+   ],
+   "size": 8.8,
+   "testo": "o superiore a 1 minuto, può spendere 1 punto stregoneria",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    461.4,
+    488.1,
+    472.0
+   ],
+   "size": 8.8,
+   "testo": "per raddoppiarla fino a un massimo di 24 ore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    472.4,
+    527.2,
+    483.0
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantesimo interessato richiede concentrazione,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    483.4,
+    527.1,
+    493.9
+   ],
+   "size": 8.8,
+   "testo": "il personaggio dispone di vantaggio a ogni tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    494.4,
+    482.8,
+    505.0
+   ],
+   "size": 8.8,
+   "testo": "effettuato per mantenere la concentrazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    514.9,
+    466.7,
+    526.3
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO INTENSIFICATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    527.4,
+    405.2,
+    536.9
+   ],
+   "size": 8.6,
+   "testo": "Costo: 2 puntistregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    540.9,
+    522.0,
+    551.5
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone lancia un incantesimo che obbliga",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    551.9,
+    529.6,
+    562.5
+   ],
+   "size": 8.8,
+   "testo": "una creatura a effettuare un tiro salvezza, può spendere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    562.9,
+    527.7,
+    573.5
+   ],
+   "size": 8.8,
+   "testo": "2 punti stregoneria per infliggere svantaggio a un bersa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    573.9,
+    513.7,
+    584.5
+   ],
+   "size": 8.8,
+   "testo": "glio dell'incantesimo sui tiri salvezza contro di esso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    594.4,
+    429.5,
+    605.7
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO MIRATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    606.9,
+    405.8,
+    616.4
+   ],
+   "size": 8.6,
+   "testo": "Costo: 1 punto stregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    620.5,
+    531.4,
+    631.0
+   ],
+   "size": 8.8,
+   "testo": "Se lo stregone effettua un tiro per colpire per un incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    631.5,
+    539.3,
+    642.1
+   ],
+   "size": 8.8,
+   "testo": "simo e fallisce, può spendere 1 punto stregoneria per tirare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.7,
+    642.4,
+    506.1,
+    653.0
+   ],
+   "size": 8.8,
+   "testo": "nuovamente il d20 e deve usare il nuovo risultato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.3,
+    653.5,
+    526.6,
+    664.1
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone può utilizzare Incantesimo mirato anche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    664.5,
+    515.2,
+    675.1
+   ],
+   "size": 8.8,
+   "testo": "se ha già utilizzato un'opzione diversa di Metamagia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    675.4,
+    443.5,
+    686.0
+   ],
+   "size": 8.8,
+   "testo": "durante il lancio dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

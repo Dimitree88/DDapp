@@ -1,0 +1,1764 @@
+{
+ "pagina_pdf": 13,
+ "pagina_stampata": 10,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "IO / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    52.7,
+    38.3,
+    260.6,
+    55.0
+   ],
+   "size": 12.9,
+   "testo": "LE SEI CARATTERISTICHE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    56.7,
+    272.6,
+    67.2
+   ],
+   "size": 8.8,
+   "testo": "Tutte le creature, personaggi e mostri, hanno sei caratte­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    67.7,
+    277.5,
+    78.2
+   ],
+   "size": 8.8,
+   "testo": "ristiche che ne misurano le facoltà fisiche e mentali, come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    78.6,
+    263.7,
+    89.2
+   ],
+   "size": 8.8,
+   "testo": "indicato nella tabella Descrizioni delle caratteristiche.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    101.4,
+    243.0,
+    112.1
+   ],
+   "size": 10.6,
+   "testo": "DESCRIZIONI DELLE CARATTERISTICHE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    117.2,
+    108.3,
+    126.4
+   ],
+   "size": 8.2,
+   "testo": "Caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.7,
+    117.2,
+    201.8,
+    126.4
+   ],
+   "size": 8.2,
+   "testo": "Il punteggio misura...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    130.4,
+    79.5,
+    140.1
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.2,
+    130.4,
+    172.8,
+    140.0
+   ],
+   "size": 8.4,
+   "testo": "Potenza fisica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    143.6,
+    95.8,
+    153.2
+   ],
+   "size": 8.4,
+   "testo": "Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.3,
+    143.5,
+    224.2,
+    153.2
+   ],
+   "size": 8.4,
+   "testo": "Agilità, riflessi ed equilibrio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    156.7,
+    105.9,
+    166.3
+   ],
+   "size": 8.4,
+   "testo": "Costituzione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.7,
+    156.8,
+    213.2,
+    166.4
+   ],
+   "size": 8.4,
+   "testo": "Salute e resistenza fisica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    170.0,
+    101.6,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.2,
+    169.9,
+    219.5,
+    179.5
+   ],
+   "size": 8.4,
+   "testo": "Ragionamento e memoria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    183.0,
+    93.4,
+    192.7
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.1,
+    183.0,
+    235.6,
+    192.7
+   ],
+   "size": 8.4,
+   "testo": "Percezione e fortezza mentale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    196.3,
+    89.0,
+    205.9
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.1,
+    196.3,
+    272.9,
+    205.9
+   ],
+   "size": 8.4,
+   "testo": "Disinvoltura, padronanza di sé e fascino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    218.8,
+    245.5,
+    231.9
+   ],
+   "size": 9.7,
+   "testo": "PUNTEGGI DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    235.3,
+    258.3,
+    245.9
+   ],
+   "size": 8.8,
+   "testo": "Ogni caratteristica ha un punteggio che va da 1 a 20,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    246.4,
+    263.8,
+    256.9
+   ],
+   "size": 8.8,
+   "testo": "anche se alcuni mostri hanno un punteggio che arriva",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    257.4,
+    276.9,
+    268.0
+   ],
+   "size": 8.8,
+   "testo": "fino a un massimo di 30. Il punteggio rappresenta la scala",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    268.4,
+    276.6,
+    279.0
+   ],
+   "size": 8.8,
+   "testo": "di una caratteristica. La tabella Punteggi di caratteristica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    279.5,
+    190.8,
+    290.0
+   ],
+   "size": 8.8,
+   "testo": "riassume il significato dei punteggi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    302.2,
+    203.2,
+    312.8
+   ],
+   "size": 10.6,
+   "testo": "PUNTEGGI DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    318.0,
+    137.7,
+    327.2
+   ],
+   "size": 8.2,
+   "testo": "Punteggio Significato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.5,
+    331.6,
+    74.8,
+    341.2
+   ],
+   "size": 8.4,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    96.7,
+    323.4,
+    259.0,
+    341.6
+   ],
+   "size": 8.6,
+   "testo": "È il punteggio più basso che di norma può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    96.1,
+    343.5,
+    272.0,
+    353.1
+   ],
+   "size": 8.4,
+   "testo": "essere raggiunto. Se un effetto riduce un pun·",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    95.9,
+    355.5,
+    262.2,
+    365.1
+   ],
+   "size": 8.4,
+   "testo": "teggio a 0, quell'effetto spiega cosa accade.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.4,
+    369.6,
+    80.8,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "2-9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    96.6,
+    369.6,
+    227.9,
+    379.2
+   ],
+   "size": 8.4,
+   "testo": "Rappresenta delle capacità deboli.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    383.5,
+    85.2,
+    393.2
+   ],
+   "size": 8.4,
+   "testo": "10-11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    409.8,
+    84.6,
+    419.4
+   ],
+   "size": 8.4,
+   "testo": "12-19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.9,
+    423.9,
+    78.1,
+    433.5
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    461.8,
+    85.1,
+    471.4
+   ],
+   "size": 8.4,
+   "testo": "21-29",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.9,
+    475.9,
+    78.3,
+    485.5
+   ],
+   "size": 8.4,
+   "testo": "30",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    96.6,
+    383.6,
+    265.6,
+    393.2
+   ],
+   "size": 8.4,
+   "testo": "Rappresenta un valore medio per un umano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    96.4,
+    395.6,
+    132.1,
+    405.2
+   ],
+   "size": 8.4,
+   "testo": "normale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    96.6,
+    409.8,
+    220.3,
+    419.5
+   ],
+   "size": 8.4,
+   "testo": "Rappresenta delle capacità forti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    96.6,
+    415.7,
+    264.2,
+    434.0
+   ],
+   "size": 8.6,
+   "testo": "È il punteggio massimo che un avventuriero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    96.4,
+    435.9,
+    275.8,
+    445.5
+   ],
+   "size": 8.4,
+   "testo": "può raggiungere, a meno che un privilegio non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    96.3,
+    447.9,
+    179.3,
+    457.5
+   ],
+   "size": 8.4,
+   "testo": "indichi diversamente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    96.6,
+    461.8,
+    252.8,
+    471.5
+   ],
+   "size": 8.4,
+   "testo": "Rappresenta delle capacità straordinarie.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    96.5,
+    467.8,
+    278.3,
+    486.0
+   ],
+   "size": 8.6,
+   "testo": "È il punteggio massimo che può essere raggiunto.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    499.1,
+    272.3,
+    512.2
+   ],
+   "size": 9.7,
+   "testo": "MODIFICATORI DI CARATTERISTICA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    515.7,
+    265.6,
+    526.3
+   ],
+   "size": 8.8,
+   "testo": "A ogni caratteristica è abbinato un modificatore che si",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    526.7,
+    271.0,
+    537.3
+   ],
+   "size": 8.8,
+   "testo": "applica ogni volta che si effettua una prova con d20 con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    537.7,
+    272.7,
+    548.3
+   ],
+   "size": 8.8,
+   "testo": "quella caratteristica (come spiegato in \"Prove con d20\").",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    548.7,
+    280.8,
+    559.3
+   ],
+   "size": 8.8,
+   "testo": "Un modificatore di caratteristica deriva dal suo punteggio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    559.7,
+    280.6,
+    570.3
+   ],
+   "size": 8.8,
+   "testo": "come indicato nella tabella \"Modificatori di caratteristica\".",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    582.3,
+    225.7,
+    593.0
+   ],
+   "size": 10.6,
+   "testo": "MODIFICATORI DI CARATTERISTICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    598.2,
+    93.0,
+    607.5
+   ],
+   "size": 8.2,
+   "testo": "Punteggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    101.1,
+    598.3,
+    150.3,
+    607.5
+   ],
+   "size": 8.2,
+   "testo": "Modificatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.3,
+    598.2,
+    216.1,
+    607.5
+   ],
+   "size": 8.2,
+   "testo": "Punteggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.3,
+    611.5,
+    74.7,
+    621.1
+   ],
+   "size": 8.4,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.4,
+    611.5,
+    131.1,
+    621.1
+   ],
+   "size": 8.4,
+   "testo": "-5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.4,
+    611.5,
+    207.7,
+    621.1
+   ],
+   "size": 8.4,
+   "testo": "16-17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    624.7,
+    80.5,
+    634.3
+   ],
+   "size": 8.4,
+   "testo": "2-3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.2,
+    624.7,
+    131.3,
+    634.3
+   ],
+   "size": 8.4,
+   "testo": "-4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    184.2,
+    624.7,
+    207.7,
+    634.3
+   ],
+   "size": 8.4,
+   "testo": "18-19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    637.9,
+    81.1,
+    647.5
+   ],
+   "size": 8.4,
+   "testo": "4-5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.4,
+    637.9,
+    130.8,
+    647.5
+   ],
+   "size": 8.4,
+   "testo": "-3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    183.5,
+    637.9,
+    207.4,
+    647.6
+   ],
+   "size": 8.4,
+   "testo": "20-21",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    651.0,
+    81.1,
+    660.6
+   ],
+   "size": 8.4,
+   "testo": "6-7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.4,
+    651.0,
+    130.8,
+    660.6
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    183.6,
+    651.0,
+    208.2,
+    660.7
+   ],
+   "size": 8.4,
+   "testo": "22-23",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.9,
+    664.1,
+    81.2,
+    673.8
+   ],
+   "size": 8.4,
+   "testo": "8-9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.4,
+    664.1,
+    129.6,
+    673.8
+   ],
+   "size": 8.4,
+   "testo": "-1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    183.5,
+    664.2,
+    207.9,
+    673.8
+   ],
+   "size": 8.4,
+   "testo": "24-25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    677.2,
+    85.0,
+    686.8
+   ],
+   "size": 8.4,
+   "testo": "10-11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.3,
+    677.3,
+    131.2,
+    686.9
+   ],
+   "size": 8.4,
+   "testo": "+0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    183.6,
+    677.3,
+    208.3,
+    687.0
+   ],
+   "size": 8.4,
+   "testo": "26-27",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    690.3,
+    84.0,
+    699.9
+   ],
+   "size": 8.4,
+   "testo": "12-13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.8,
+    690.3,
+    128.7,
+    700.0
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    183.3,
+    690.4,
+    208.6,
+    700.0
+   ],
+   "size": 8.4,
+   "testo": "28-29",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    703.4,
+    84.4,
+    713.0
+   ],
+   "size": 8.4,
+   "testo": "14-15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    119.6,
+    703.4,
+    130.2,
+    713.1
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.5,
+    703.5,
+    201.9,
+    713.1
+   ],
+   "size": 8.4,
+   "testo": "30",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    224.0,
+    598.3,
+    273.5,
+    607.5
+   ],
+   "size": 8.2,
+   "testo": "Modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    242.9,
+    611.6,
+    253.4,
+    621.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.6,
+    624.6,
+    253.9,
+    634.5
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.6,
+    638.0,
+    254.1,
+    647.6
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.4,
+    651.1,
+    254.7,
+    660.7
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.7,
+    664.0,
+    254.1,
+    673.9
+   ],
+   "size": 8.4,
+   "testo": "+7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.4,
+    677.4,
+    254.2,
+    687.0
+   ],
+   "size": 8.4,
+   "testo": "+8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.4,
+    690.3,
+    253.9,
+    700.2
+   ],
+   "size": 8.4,
+   "testo": "+9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    240.5,
+    703.5,
+    255.5,
+    713.2
+   ],
+   "size": 8.4,
+   "testo": "+10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    38.6,
+    436.2,
+    55.2
+   ],
+   "size": 12.9,
+   "testo": "PROVE CON D20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    56.8,
+    494.0,
+    67.4
+   ],
+   "size": 8.8,
+   "testo": "Quando l'esito di un'azione è incerto, il gioco uti­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    67.8,
+    502.2,
+    78.4
+   ],
+   "size": 8.8,
+   "testo": "lizza il tiro di un d20 per determinarne il successo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    78.9,
+    509.4,
+    89.4
+   ],
+   "size": 8.8,
+   "testo": "o il fallimento. Questi tiri si chiamano prove con d20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    89.8,
+    511.4,
+    100.4
+   ],
+   "size": 8.8,
+   "testo": "e sono di tre tipi: prove di caratteristica, tiri salvezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    100.8,
+    518.7,
+    111.4
+   ],
+   "size": 8.8,
+   "testo": "e tiri per colpire. Tutti e tre prevedono i passi seguenti:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    117.2,
+    503.5,
+    127.8
+   ],
+   "size": 8.8,
+   "testo": "1: Tirare 1d20. Ottenere un numero alto è sempre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    128.3,
+    512.2,
+    138.8
+   ],
+   "size": 8.8,
+   "testo": "il risultato migliore. Se il tiro dispone di vantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    139.2,
+    518.1,
+    149.8
+   ],
+   "size": 8.8,
+   "testo": "o svantaggio (descritti più avanti in questo capitolo),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    150.2,
+    506.5,
+    160.8
+   ],
+   "size": 8.8,
+   "testo": "si tirano due d20, ma si usa soltanto un risultato:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    161.2,
+    506.4,
+    171.8
+   ],
+   "size": 8.8,
+   "testo": "quello più alto se si dispone di vantaggio o quello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    172.2,
+    459.9,
+    182.8
+   ],
+   "size": 8.8,
+   "testo": "più basso se si dispone di svantaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    183.3,
+    524.7,
+    193.9
+   ],
+   "size": 8.8,
+   "testo": "2: Aggiungere i modificatori. Si tira un d20 e si aggiun­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    194.3,
+    491.8,
+    204.8
+   ],
+   "size": 8.8,
+   "testo": "gono questi modificatori al numero ottenuto:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    210.8,
+    519.0,
+    221.4
+   ],
+   "size": 8.8,
+   "testo": "Il modificatore di caratteristica rilevante. Questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    221.7,
+    527.8,
+    232.3
+   ],
+   "size": 8.8,
+   "testo": "capitolo e il Glossario delle regole spiegano quali modi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    232.7,
+    519.3,
+    243.2
+   ],
+   "size": 8.8,
+   "testo": "ficatori di caratteristica utilizzare per le varie prove",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    243.7,
+    351.8,
+    254.2
+   ],
+   "size": 8.8,
+   "testo": "con d20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    254.7,
+    522.2,
+    265.3
+   ],
+   "size": 8.8,
+   "testo": "Il proprio bonus di competenza, se rilevante. Ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.0,
+    265.7,
+    527.5,
+    276.2
+   ],
+   "size": 8.8,
+   "testo": "creatura possiede un bonus di competenza, ovvero un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    276.7,
+    527.1,
+    287.3
+   ],
+   "size": 8.8,
+   "testo": "numero da aggiungere alla prova con d20 che utilizza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    287.8,
+    522.8,
+    298.4
+   ],
+   "size": 8.8,
+   "testo": "qualcosa in cui il personaggio abbia una certa compe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.7,
+    298.7,
+    521.7,
+    309.3
+   ],
+   "size": 8.8,
+   "testo": "tenza, come un'abilità. Vedi la sezione \"Competenza\"",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    309.8,
+    429.5,
+    320.3
+   ],
+   "size": 8.8,
+   "testo": "più avanti in questo capitolo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.1,
+    320.7,
+    509.8,
+    331.3
+   ],
+   "size": 8.8,
+   "testo": "Bonus e penalità circostanziali. Un privilegio di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    331.7,
+    507.8,
+    342.2
+   ],
+   "size": 8.8,
+   "testo": "classe, un incantesimo o un'altra regola potrebbe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    342.6,
+    477.5,
+    353.2
+   ],
+   "size": 8.8,
+   "testo": "conferire un bonus o una penalità al tiro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    360.7,
+    509.0,
+    369.7
+   ],
+   "size": 8.4,
+   "testo": "3: Confrontare il totale con un numero bersaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    370.0,
+    522.3,
+    380.5
+   ],
+   "size": 8.8,
+   "testo": "Se il totale ottenuto sommando il tiro del d20 e i rela­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    380.9,
+    531.8,
+    391.5
+   ],
+   "size": 8.8,
+   "testo": "tivi modificatori è pari o superiore al numero bersaglio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    392.0,
+    502.8,
+    402.6
+   ],
+   "size": 8.8,
+   "testo": "la prova con d20 ha successo. In caso contrario,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    403.1,
+    522.6,
+    413.7
+   ],
+   "size": 8.8,
+   "testo": "fallisce. Il Dungeon Master determina i numeri bersa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    414.2,
+    522.6,
+    424.7
+   ],
+   "size": 8.8,
+   "testo": "glio e comunica ai giocatori se i loro tiri hanno avuto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    425.1,
+    524.7,
+    435.6
+   ],
+   "size": 8.8,
+   "testo": "o meno successo. Il numero bersaglio per una prova di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    436.1,
+    528.5,
+    446.7
+   ],
+   "size": 8.8,
+   "testo": "caratteristica o un tiro salvezza viene chiamato Classe",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    447.1,
+    521.2,
+    457.7
+   ],
+   "size": 8.8,
+   "testo": "Difficoltà (CD). Il numero bersaglio relativo a un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    458.1,
+    508.6,
+    468.6
+   ],
+   "size": 8.8,
+   "testo": "per colpire viene chiamato Classe Armatura (CA)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    469.0,
+    504.9,
+    479.5
+   ],
+   "size": 8.8,
+   "testo": "e appare sulla scheda del personaggio o nella sua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    480.0,
+    524.4,
+    490.6
+   ],
+   "size": 8.8,
+   "testo": "scheda delle statistiche (vedi il Glossario delle regole).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    500.0,
+    473.3,
+    513.1
+   ],
+   "size": 9.7,
+   "testo": "PROVE DI CARATTERISTICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    516.7,
+    524.5,
+    527.3
+   ],
+   "size": 8.8,
+   "testo": "Una prova di caratteristica misura le doti innate e l'adde­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    527.7,
+    529.8,
+    538.2
+   ],
+   "size": 8.8,
+   "testo": "stramento di una creatura di fronte a una sfida da superare,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    538.7,
+    522.9,
+    549.2
+   ],
+   "size": 8.8,
+   "testo": "come forzare una porta incastrata, scassinare una serra­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    549.7,
+    521.5,
+    560.3
+   ],
+   "size": 8.8,
+   "testo": "tura, intrattenere una folla o decifrare un codice. Il DM",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    560.7,
+    526.8,
+    571.3
+   ],
+   "size": 8.8,
+   "testo": "richiede una prova di caratteristica quando una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    571.7,
+    523.8,
+    582.2
+   ],
+   "size": 8.8,
+   "testo": "si cimenta in un'azione (diversa da un attacco) che abbia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    582.6,
+    527.4,
+    593.2
+   ],
+   "size": 8.8,
+   "testo": "una probabilità di fallimento significativa. Quando l'esito",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    593.6,
+    530.6,
+    604.1
+   ],
+   "size": 8.8,
+   "testo": "è incerto e interessante dal punto di vista narrativo, i dadi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    604.7,
+    459.3,
+    615.2
+   ],
+   "size": 8.8,
+   "testo": "determinano il risultato di quell'azione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    625.1,
+    492.1,
+    636.5
+   ],
+   "size": 11.2,
+   "testo": "MODIFICATORE DI CARATTERISTICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.1,
+    636.6,
+    511.9,
+    647.2
+   ],
+   "size": 8.8,
+   "testo": "Una prova di caratteristica prende il nome dal modifi­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    647.6,
+    521.4,
+    658.1
+   ],
+   "size": 8.8,
+   "testo": "catore di caratteristica che utilizza: una prova di Forza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    658.6,
+    515.1,
+    669.2
+   ],
+   "size": 8.8,
+   "testo": "una prova di Intelligenza e così via. Situazioni diverse",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    669.6,
+    508.6,
+    680.2
+   ],
+   "size": 8.8,
+   "testo": "richiedono prove di caratteristica diverse, a seconda",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    680.6,
+    529.5,
+    691.2
+   ],
+   "size": 8.8,
+   "testo": "della caratteristica più rilevante. Per gli esempi di utilizzo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    691.6,
+    512.7,
+    702.1
+   ],
+   "size": 8.8,
+   "testo": "di ciascuna prova, consulta la tabella Esempi di prove",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    702.4,
+    369.6,
+    713.0
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

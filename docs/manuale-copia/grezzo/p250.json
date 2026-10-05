@@ -1,0 +1,1260 @@
+{
+ "pagina_pdf": 250,
+ "pagina_stampata": 247,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / Y47",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    63.7,
+    37.8,
+    278.3,
+    46.5
+   ],
+   "size": 6.6,
+   "testo": "Quando appare il cilindro, ogni creatura al suo interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    48.9,
+    256.6,
+    57.5
+   ],
+   "size": 6.6,
+   "testo": "effettua un tiro salvezza su Costituzione. In caso di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    59.8,
+    265.0,
+    68.4
+   ],
+   "size": 6.6,
+   "testo": "fallimento, una creatura subisce 2d10 danni radiosi e,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    70.8,
+    279.8,
+    79.6
+   ],
+   "size": 6.7,
+   "testo": "se la creatura è in forma mutata (ad esempio, come conse­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    80.3,
+    280.4,
+    90.8
+   ],
+   "size": 8.4,
+   "testo": "guenza all'incantesimo metamorfosi), torna alla sua forma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    92.8,
+    277.9,
+    101.4
+   ],
+   "size": 6.6,
+   "testo": "naturale e non può trasformarsi finché non esce dal cilin­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    103.8,
+    273.3,
+    112.4
+   ],
+   "size": 6.6,
+   "testo": "dro. In caso di successo, subisce soltanto la metà di quei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    114.8,
+    273.0,
+    123.4
+   ],
+   "size": 6.6,
+   "testo": "danni. Una creatura effettua questo tiro salvezza anche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    125.8,
+    269.2,
+    134.4
+   ],
+   "size": 6.6,
+   "testo": "quando l'area dell'incantesimo si muove nel suo spazio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    136.7,
+    262.1,
+    145.4
+   ],
+   "size": 6.6,
+   "testo": "e quando la creatura entra nell'area dell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    147.8,
+    268.7,
+    156.5
+   ],
+   "size": 6.6,
+   "testo": "o vi termina il suo turno. Una creatura effettua questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    158.9,
+    204.3,
+    167.5
+   ],
+   "size": 6.6,
+   "testo": "tiro salvezza solo una volta per turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    169.8,
+    258.8,
+    178.6
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    180.9,
+    267.3,
+    189.5
+   ],
+   "size": 6.6,
+   "testo": "I danni aumentano di 1d10 per ogni slot di livello supe­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.3,
+    191.8,
+    97.5,
+    200.4
+   ],
+   "size": 6.6,
+   "testo": "riore al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    224.8,
+    152.6,
+    235.3
+   ],
+   "size": 8.4,
+   "testo": "BAGLIORE SOLARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    234.9,
+    265.8,
+    246.9
+   ],
+   "size": 8.4,
+   "testo": "Invocazionedi 6°livello (chierico, druido, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    251.1,
+    147.1,
+    261.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    262.2,
+    131.3,
+    272.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    273.1,
+    243.7,
+    283.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una lente d'ingrandimento)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    284.1,
+    208.8,
+    294.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    303.0,
+    254.6,
+    311.6
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore lancia un bagliore solare in una linea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    313.9,
+    272.6,
+    322.5
+   ],
+   "size": 6.6,
+   "testo": "larga 1,5 metri e lunga 18 metri. Ogni creatura nella sua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    324.9,
+    266.4,
+    333.5
+   ],
+   "size": 6.6,
+   "testo": "traiettoria effettua un tiro salvezza su Costituzione e,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    335.8,
+    279.2,
+    344.4
+   ],
+   "size": 6.6,
+   "testo": "se lo fallisce, subisce 6d8 danni radiosi e rimane accecata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    346.8,
+    255.7,
+    355.4
+   ],
+   "size": 6.6,
+   "testo": "fino all'inizio del turno successivo dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    357.8,
+    254.1,
+    366.4
+   ],
+   "size": 6.6,
+   "testo": "Se lo supera, invece, subisce solo la metà dei danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    368.7,
+    262.5,
+    377.3
+   ],
+   "size": 6.6,
+   "testo": "Fino al termine dell'incantesimo, l'incantatore può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    379.7,
+    278.6,
+    388.3
+   ],
+   "size": 6.6,
+   "testo": "effettuare un'azione di Magia per creare una nuova linea",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    390.8,
+    87.4,
+    399.4
+   ],
+   "size": 6.6,
+   "testo": "radiosa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    401.7,
+    261.0,
+    410.3
+   ],
+   "size": 6.6,
+   "testo": "Per la durata dell'incantesimo, una scintilla di luce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.9,
+    412.8,
+    271.7,
+    421.4
+   ],
+   "size": 6.6,
+   "testo": "radiosa risplende nella sua mano ed emana luce intensa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    423.8,
+    272.3,
+    432.7
+   ],
+   "size": 6.7,
+   "testo": "in un raggio di 9 metri e luce fioca per ulteriori 9 metri.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    434.7,
+    202.1,
+    443.6
+   ],
+   "size": 6.7,
+   "testo": "Questa luce è considerata luce solare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    467.7,
+    185.3,
+    478.2
+   ],
+   "size": 8.4,
+   "testo": "BANCHETTO DEGLI EROI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    477.8,
+    230.5,
+    489.8
+   ],
+   "size": 8.4,
+   "testo": "Evocazione di 6°livello (bardo, chierico, druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    493.9,
+    158.2,
+    504.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    505.1,
+    131.4,
+    515.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    516.0,
+    268.9,
+    526.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una ciotola tempestata di gemme",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    527.0,
+    282.0,
+    537.5
+   ],
+   "size": 8.4,
+   "testo": "del valore di 1.000 mo o più, che l'incantesimo consuma)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    538.1,
+    128.0,
+    548.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    556.8,
+    281.8,
+    565.4
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore evoca accanto a sé un banchetto che appare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    567.8,
+    280.7,
+    576.4
+   ],
+   "size": 6.6,
+   "testo": "su una superficie all'interno di un cubo libero con spigolo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    578.8,
+    277.2,
+    587.4
+   ],
+   "size": 6.6,
+   "testo": "di 3 metri. Consumare il banchetto richiede 1 ora, solo al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    589.8,
+    269.9,
+    598.4
+   ],
+   "size": 6.6,
+   "testo": "termine della quale il convivio scompare e i suoi effetti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    600.7,
+    272.0,
+    609.3
+   ],
+   "size": 6.6,
+   "testo": "benefici vengono applicati. Fino a un massimo di dodici",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    611.9,
+    224.3,
+    620.5
+   ],
+   "size": 6.6,
+   "testo": "creature possono partecipare al banchetto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    622.9,
+    251.9,
+    631.6
+   ],
+   "size": 6.6,
+   "testo": "Una creatura che partecipa al banchetto ottiene",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    633.9,
+    281.3,
+    642.5
+   ],
+   "size": 6.6,
+   "testo": "numerosi benefici che durano 24 ore. L a creatura diventa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    644.8,
+    268.2,
+    653.4
+   ],
+   "size": 6.6,
+   "testo": "resistente ai danni da veleno e immune alle condizioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    655.9,
+    271.9,
+    664.5
+   ],
+   "size": 6.6,
+   "testo": "avvelenato e spaventato. Inoltre, i suoi punti ferita mas­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    666.8,
+    264.2,
+    675.4
+   ],
+   "size": 6.6,
+   "testo": "simi aumentano di 2d10 e ottiene lo stesso numero di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    677.8,
+    103.6,
+    686.4
+   ],
+   "size": 6.6,
+   "testo": "punti ferita.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    51.1,
+    409.2,
+    61.5
+   ],
+   "size": 8.4,
+   "testo": "BARRIERA DI LAME",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    61.2,
+    431.3,
+    73.3
+   ],
+   "size": 8.4,
+   "testo": "Invocazione di 6°livello (chierico)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    77.5,
+    399.2,
+    87.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    88.5,
+    372.2,
+    98.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    100.9,
+    374.7,
+    109.7
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    110.3,
+    462.8,
+    120.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    129.1,
+    528.4,
+    137.8
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore crea un muro di lame turbinanti composte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    140.1,
+    500.6,
+    148.7
+   ],
+   "size": 6.6,
+   "testo": "da energia magica. Il muro compare entro gittata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    151.2,
+    524.5,
+    159.8
+   ],
+   "size": 6.6,
+   "testo": "e permane per la durata dell'incantesimo. L'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    162.2,
+    525.6,
+    170.8
+   ],
+   "size": 6.6,
+   "testo": "crea un muro lineare lungo fino a 30 metri, alto 6 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    173.1,
+    533.5,
+    181.7
+   ],
+   "size": 6.6,
+   "testo": "e spesso 1,5 metri, oppure un muro circolare del diametro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    184.1,
+    508.6,
+    192.7
+   ],
+   "size": 6.6,
+   "testo": "massimo di 18 metri, alto 6 metri e spesso 1,5 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    195.2,
+    527.7,
+    203.8
+   ],
+   "size": 6.6,
+   "testo": "Il muro garantisce tre quarti di copertura e il suo spazio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    206.2,
+    390.6,
+    215.0
+   ],
+   "size": 6.7,
+   "testo": "è un terreno difficile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    217.2,
+    522.9,
+    225.8
+   ],
+   "size": 6.6,
+   "testo": "Qualsiasi creatura situata nello spazio del muro deve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    228.2,
+    522.1,
+    236.8
+   ],
+   "size": 6.6,
+   "testo": "effettuare un tiro salvezza su Destrezza, subendo 6d10",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    239.2,
+    523.1,
+    247.8
+   ],
+   "size": 6.6,
+   "testo": "danni forza in caso di fallimento, o la metà dei danni in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    250.2,
+    519.8,
+    258.8
+   ],
+   "size": 6.6,
+   "testo": "caso di successo. Una creatura effettua il tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    261.2,
+    523.5,
+    269.8
+   ],
+   "size": 6.6,
+   "testo": "anche se entra nello spazio del muro o vi termina il suo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    272.3,
+    512.0,
+    280.9
+   ],
+   "size": 6.6,
+   "testo": "turno. Il tiro salvezza può essere effettuato solo una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    283.3,
+    370.4,
+    291.9
+   ],
+   "size": 6.6,
+   "testo": "volta per turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    316.1,
+    393.0,
+    326.6
+   ],
+   "size": 8.4,
+   "testo": "BEFFA CRUDELE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    327.8,
+    443.6,
+    338.3
+   ],
+   "size": 8.4,
+   "testo": "Trucchetto diAmmaliamento (bardo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    342.4,
+    399.2,
+    352.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    353.4,
+    372.0,
+    363.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    365.8,
+    365.9,
+    374.7
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    375.4,
+    380.3,
+    385.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    394.1,
+    534.6,
+    402.7
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore pronuncia una sequenza di insulti mescolati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    405.0,
+    531.6,
+    413.6
+   ],
+   "size": 6.6,
+   "testo": "a impercettibili ammaliamenti contro una creatura entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    416.1,
+    522.7,
+    424.9
+   ],
+   "size": 6.7,
+   "testo": "gittata che è in grado di vedere o di sentire. Il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    427.1,
+    520.6,
+    435.7
+   ],
+   "size": 6.6,
+   "testo": "deve superare un tiro salvezza su Saggezza, altrimenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    438.1,
+    530.6,
+    446.7
+   ],
+   "size": 6.6,
+   "testo": "subisce 1d6 danni psichici e svantaggio al tiro per colpire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    449.0,
+    515.3,
+    457.6
+   ],
+   "size": 6.6,
+   "testo": "successivo che effettua prima della fine del suo turno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    460.0,
+    352.2,
+    468.6
+   ],
+   "size": 6.6,
+   "testo": "successivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    471.0,
+    536.4,
+    479.8
+   ],
+   "size": 6.7,
+   "testo": "Trucchetto potenziato. I danni aumentano di 1d6 quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    482.0,
+    536.4,
+    490.6
+   ],
+   "size": 6.6,
+   "testo": "l'incantatore raggiunge il 5° livello (2d6), 1'11° livello (3d6)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.9,
+    493.1,
+    385.7,
+    501.7
+   ],
+   "size": 6.6,
+   "testo": "e il 17° livello (4d6).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    526.1,
+    380.3,
+    536.6
+   ],
+   "size": 8.4,
+   "testo": "BENEDIZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    536.2,
+    477.4,
+    548.3
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento di 1°livello (chierico, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    552.4,
+    399.7,
+    562.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    563.4,
+    368.2,
+    573.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    574.2,
+    528.9,
+    584.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un simbolo sacro del valore di 5 mo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.2,
+    585.4,
+    339.3,
+    595.8
+   ],
+   "size": 8.4,
+   "testo": "o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.1,
+    596.2,
+    461.3,
+    606.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    615.2,
+    524.6,
+    623.8
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore benedice fino a tre creature entro gittata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.4,
+    626.2,
+    511.7,
+    634.9
+   ],
+   "size": 6.6,
+   "testo": "Se un bersaglio effettua un tiro per colpire o un tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    637.2,
+    527.4,
+    645.8
+   ],
+   "size": 6.6,
+   "testo": "salvezza prima del termine dell'incantesimo, il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    648.2,
+    385.1,
+    656.8
+   ],
+   "size": 6.6,
+   "testo": "aggiunge a essi 1d4.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    659.1,
+    511.4,
+    668.0
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    670.1,
+    520.7,
+    678.8
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    681.1,
+    452.5,
+    689.7
+   ],
+   "size": 6.6,
+   "testo": "per ogni slot di livello superiore al 1°.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

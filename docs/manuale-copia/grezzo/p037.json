@@ -1,0 +1,672 @@
+{
+ "pagina_pdf": 37,
+ "pagina_stampata": 34,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "34 / CAPITOLO 2 I CREARE UN PERSONAGGIO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    312.8,
+    26.0,
+    339.8,
+    44.2
+   ],
+   "size": 8.6,
+   "testo": "CLASSE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    33.2,
+    345.9,
+    51.4
+   ],
+   "size": 8.6,
+   "testo": "ARMATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    78.7,
+    338.1,
+    85.1
+   ],
+   "size": 4.9,
+   "testo": "SCUDO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    321.2,
+    77.3,
+    331.1,
+    95.5
+   ],
+   "size": 8.6,
+   "testo": "o",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    226.2,
+    97.0,
+    356.9,
+    116.3
+   ],
+   "size": 13.9,
+   "testo": "DUNGEONS&;DRAGONS",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    381.2,
+    26.0,
+    428.6,
+    44.2
+   ],
+   "size": 8.6,
+   "testo": "PUNTI FERITA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    410.3,
+    66.7,
+    430.9,
+    73.0
+   ],
+   "size": 4.9,
+   "testo": "TE MP",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    356.2,
+    80.4,
+    363.2,
+    98.6
+   ],
+   "size": 8.6,
+   "testo": "¬",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    361.4,
+    86.1,
+    388.9,
+    92.4
+   ],
+   "size": 4.9,
+   "testo": "ATTUALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    411.2,
+    66.7,
+    444.5,
+    92.4
+   ],
+   "size": 13.9,
+   "testo": "MAX o",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    26.1,
+    491.5,
+    44.3
+   ],
+   "size": 8.6,
+   "testo": "DADI VITA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    455.7,
+    66.7,
+    490.3,
+    84.3
+   ],
+   "size": 13.9,
+   "testo": "SPESIo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    456.0,
+    86.1,
+    470.7,
+    92.4
+   ],
+   "size": 4.9,
+   "testo": "MAX",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    498.2,
+    10.9,
+    556.6,
+    49.5
+   ],
+   "size": 38.6,
+   "testo": "TSCONTRO\u0007·",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    499.0,
+    33.4,
+    547.9,
+    55.4
+   ],
+   "size": 13.9,
+   "testo": "MORTE o",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    500.9,
+    49.9,
+    530.9,
+    68.2
+   ],
+   "size": 8.6,
+   "testo": "«",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.9,
+    66.9,
+    533.8,
+    73.2
+   ],
+   "size": 4.9,
+   "testo": "SUCCESSI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    499.2,
+    69.4,
+    530.9,
+    87.6
+   ],
+   "size": 8.6,
+   "testo": "-«",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    502.4,
+    86.2,
+    541.4,
+    92.5
+   ],
+   "size": 4.9,
+   "testo": "FALLI MENTI",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    471.0,
+    119.8,
+    554.8,
+    126.1
+   ],
+   "size": 4.9,
+   "testo": "...Ą%ą%%%%...",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    477.5,
+    115.9,
+    550.9,
+    134.1
+   ],
+   "size": 8.6,
+   "testo": "PERCEZIONE PASSIVA",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.6,
+    164.1,
+    459.8,
+    183.3
+   ],
+   "size": 13.9,
+   "testo": "o ARMI ETRUCCHETTI DACOMBATTIMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.3,
+    179.6,
+    192.5,
+    197.3
+   ],
+   "size": 13.9,
+   "testo": "o-- nrosalveza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    129.3,
+    208.4,
+    181.7,
+    226.6
+   ],
+   "size": 8.6,
+   "testo": "O __ Indagare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.3,
+    221.0,
+    176.3,
+    239.2
+   ],
+   "size": 8.6,
+   "testo": "O __ Natura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.3,
+    233.6,
+    183.4,
+    251.8
+   ],
+   "size": 8.6,
+   "testo": "O __ Religione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    224.3,
+    191.2,
+    240.9,
+    196.9
+   ],
+   "size": 4.3,
+   "testo": "Nome",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.0,
+    191.3,
+    361.7,
+    197.0
+   ],
+   "size": 4.3,
+   "testo": "Bonus att. / CD",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.3,
+    191.3,
+    399.5,
+    197.0
+   ],
+   "size": 4.3,
+   "testo": "Danno e tipo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    436.8,
+    191.3,
+    449.7,
+    197.0
+   ],
+   "size": 4.3,
+   "testo": "Note",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    223.8,
+    251.5,
+    515.9,
+    269.2
+   ],
+   "size": 13.9,
+   "testo": "------ --- ----- -- -----",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    33.0,
+    372.2,
+    106.3,
+    389.8
+   ],
+   "size": 13.9,
+   "testo": "0__Acrobazia e",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    33.0,
+    383.9,
+    83.7,
+    402.1
+   ],
+   "size": 8.6,
+   "testo": "O __ Furtività",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    33.0,
+    396.6,
+    109.4,
+    414.9
+   ],
+   "size": 8.6,
+   "testo": "O __ Rapidità di mano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.2,
+    352.1,
+    138.1,
+    370.3
+   ],
+   "size": 8.6,
+   "testo": "O",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    155.6,
+    355.6,
+    200.9,
+    364.7
+   ],
+   "size": 6.9,
+   "testo": "Ad_destrareŁ",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    137.8,
+    362.8,
+    178.1,
+    369.6
+   ],
+   "size": 5.2,
+   "testo": "__ animali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    187.1,
+    361.0,
+    200.9,
+    370.1
+   ],
+   "size": 6.9,
+   "testo": "ł",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    129.2,
+    364.8,
+    185.9,
+    383.0
+   ],
+   "size": 8.6,
+   "testo": "O __ Intuizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.2,
+    377.4,
+    183.2,
+    395.6
+   ],
+   "size": 8.6,
+   "testo": "O __ Medicina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.2,
+    390.1,
+    188.0,
+    408.3
+   ],
+   "size": 8.6,
+   "testo": "O __ Percezione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.2,
+    402.8,
+    197.6,
+    421.0
+   ],
+   "size": 8.6,
+   "testo": "O __ Sopravvivenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    156.4,
+    498.6,
+    192.2,
+    507.7
+   ],
+   "size": 6.9,
+   "testo": "Tiro salveza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    129.0,
+    517.6,
+    137.6,
+    526.6
+   ],
+   "size": 6.9,
+   "testo": "0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    156.0,
+    510.6,
+    202.8,
+    528.2
+   ],
+   "size": 13.9,
+   "testo": "Inganno e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    129.0,
+    521.4,
+    184.5,
+    539.6
+   ],
+   "size": 8.6,
+   "testo": "O __ Intimidire",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.2,
+    542.9,
+    189.9,
+    551.9
+   ],
+   "size": 6.9,
+   "testo": "0 __ Intrattenere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.0,
+    546.7,
+    191.6,
+    564.9
+   ],
+   "size": 8.6,
+   "testo": "O __ Persuasione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    570.3,
+    178.7,
+    588.6
+   ],
+   "size": 8.6,
+   "testo": "ADDESTRAMENTO E COMPETENZE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    75.0,
+    577.5,
+    163.1,
+    595.7
+   ],
+   "size": 8.6,
+   "testo": "NELL'EQUIPAGGIAMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    31.7,
+    596.8,
+    138.1,
+    603.1
+   ],
+   "size": 4.9,
+   "testo": "COMPETENZA NELLE ARMATURE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.9,
+    595.2,
+    205.1,
+    613.4
+   ],
+   "size": 8.6,
+   "testo": "Oleggera Omedia O pesante Oscudi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    335.0,
+    312.6,
+    423.3,
+    331.8
+   ],
+   "size": 13.9,
+   "testo": "o PRIVILEGI DICLASSE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    246.2,
+    529.5,
+    335.6,
+    549.0
+   ],
+   "size": 13.9,
+   "testo": "e TRATTI DELLASPECIE",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    439.7,
+    529.9,
+    485.8,
+    549.1
+   ],
+   "size": 13.9,
+   "testo": "e TALENTI",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

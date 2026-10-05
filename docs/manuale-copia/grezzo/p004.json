@@ -1,0 +1,43 @@
+{
+ "pagina_pdf": 4,
+ "pagina_stampata": 1,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   140,
+   238,
+   452,
+   576
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    48.2,
+    72.4,
+    548.6,
+    117.4
+   ],
+   "size": 45.0,
+   "testo": "MANUALE DEL GIOCATORE",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    168.9,
+    165.3,
+    422.9,
+    216.0
+   ],
+   "size": 29.9,
+   "testo": "PLAYER'S HANDBOOK®",
+   "col": "P",
+   "corta": true
+  }
+ ]
+}

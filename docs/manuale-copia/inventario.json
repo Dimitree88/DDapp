@@ -1,0 +1,5358 @@
+{
+ "pdf": "docs/regole/Manuale Del Giocatore - 2024.pdf",
+ "sha256": "c55e18df5398a25341a249830b3a346733eafd3465b1aad731a5473bba796189",
+ "pagine_totali": 390,
+ "dimensione_byte": 256527876,
+ "segnalibri": 1989,
+ "capitoli": [
+  {
+   "titolo": "Copertina",
+   "pagina_pdf": 1
+  },
+  {
+   "titolo": "Indice",
+   "pagina_pdf": 6
+  },
+  {
+   "titolo": "Introduzione - Benvenuti nell'avventura",
+   "pagina_pdf": 7
+  },
+  {
+   "titolo": "Capitolo 1 - Come Si Gioca",
+   "pagina_pdf": 10
+  },
+  {
+   "titolo": "Capitolo 2 - Creare un Personaggio",
+   "pagina_pdf": 36
+  },
+  {
+   "titolo": "Capitolo 3 - Classi dei Personaggi",
+   "pagina_pdf": 52
+  },
+  {
+   "titolo": "Capitolo 4 - Origini dei Personaggi",
+   "pagina_pdf": 180
+  },
+  {
+   "titolo": "Capitolo 5 - Talenti",
+   "pagina_pdf": 202
+  },
+  {
+   "titolo": "Capitolo 6 - Equipaggiamento",
+   "pagina_pdf": 216
+  },
+  {
+   "titolo": "Capitolo 7 - Incantesimi",
+   "pagina_pdf": 238
+  },
+  {
+   "titolo": "Appendice A - Il Multiverso",
+   "pagina_pdf": 347
+  },
+  {
+   "titolo": "Appendice B - Schede delle Statistiche delle Creature",
+   "pagina_pdf": 349
+  },
+  {
+   "titolo": "Appendice C - Glossario delle Regole",
+   "pagina_pdf": 363
+  },
+  {
+   "titolo": "Indice",
+   "pagina_pdf": 381
+  }
+ ],
+ "pagine_senza_testo": [
+  1,
+  2,
+  3,
+  4,
+  9,
+  35,
+  51,
+  53,
+  61,
+  71,
+  81,
+  93,
+  103,
+  113,
+  125,
+  133,
+  143,
+  153,
+  167,
+  179,
+  201,
+  215,
+  237,
+  348,
+  388,
+  389,
+  390
+ ],
+ "pagine_con_immagini": [
+  1,
+  4,
+  5,
+  11,
+  12,
+  14,
+  16,
+  19,
+  20,
+  21,
+  22,
+  24,
+  25,
+  26,
+  27,
+  30,
+  32,
+  33,
+  34,
+  39,
+  40,
+  42,
+  45,
+  48,
+  54,
+  55,
+  56,
+  57,
+  58,
+  64,
+  67,
+  68,
+  69,
+  70,
+  72,
+  76,
+  77,
+  78,
+  80,
+  82,
+  83,
+  85,
+  87,
+  88,
+  92,
+  94,
+  96,
+  97,
+  98,
+  104,
+  108,
+  109,
+  110,
+  112,
+  114,
+  116,
+  118,
+  121,
+  122,
+  124,
+  126,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  137,
+  138,
+  139,
+  140,
+  141,
+  144,
+  147,
+  148,
+  149,
+  151,
+  154,
+  155,
+  157,
+  158,
+  161,
+  163,
+  164,
+  168,
+  169,
+  172,
+  174,
+  175,
+  176,
+  177,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  199,
+  204,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  216,
+  219,
+  220,
+  221,
+  222,
+  224,
+  230,
+  232,
+  236,
+  240,
+  241,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  252,
+  257,
+  260,
+  262,
+  263,
+  264,
+  265,
+  267,
+  268,
+  269,
+  275,
+  278,
+  281,
+  283,
+  284,
+  285,
+  287,
+  292,
+  293,
+  296,
+  299,
+  301,
+  302,
+  305,
+  309,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  321,
+  322,
+  323,
+  328,
+  331,
+  335,
+  338,
+  339,
+  341,
+  342,
+  343,
+  344,
+  346,
+  347,
+  349,
+  350,
+  351,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  365,
+  366,
+  369,
+  370,
+  373,
+  374,
+  377,
+  378,
+  387,
+  390
+ ],
+ "pagine": [
+  {
+   "pagina_pdf": 1,
+   "pagina_stampata": null,
+   "sezione": [
+    "Copertina"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 1,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 2,
+   "pagina_stampata": null,
+   "sezione": [
+    "Copertina"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 3,
+   "pagina_stampata": null,
+   "sezione": [
+    "Copertina"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 4,
+   "pagina_stampata": 1,
+   "sezione": [
+    "Copertina"
+   ],
+   "caratteri": 39,
+   "righe": 2,
+   "immagini": 1,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 5,
+   "pagina_stampata": 2,
+   "sezione": [
+    "Copertina",
+    "Riconoscimenti"
+   ],
+   "caratteri": 4947,
+   "righe": 95,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 6,
+   "pagina_stampata": 3,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 12195,
+   "righe": 185,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 7,
+   "pagina_stampata": 4,
+   "sezione": [
+    "Introduzione - Benvenuti nell'avventura",
+    "Box: Impara guardando"
+   ],
+   "caratteri": 5086,
+   "righe": 101,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "4 / INTRODUZIONE I BENVENUTI NELL'AVVENTURA"
+  },
+  {
+   "pagina_pdf": 8,
+   "pagina_stampata": 5,
+   "sezione": [
+    "Introduzione - Benvenuti nell'avventura",
+    "Mondi dell'Avventura"
+   ],
+   "caratteri": 4978,
+   "righe": 108,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "INTRODUZIONE I BENVENUTI NELL'AVVENTURA / 5"
+  },
+  {
+   "pagina_pdf": 9,
+   "pagina_stampata": 6,
+   "sezione": [
+    "Introduzione - Benvenuti nell'avventura",
+    "Mondi dell'Avventura"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 10,
+   "pagina_stampata": 7,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Giocatore o DM?"
+   ],
+   "caratteri": 4247,
+   "righe": 110,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 7"
+  },
+  {
+   "pagina_pdf": 11,
+   "pagina_stampata": 8,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Box: Arrotondare per difetto"
+   ],
+   "caratteri": 5432,
+   "righe": 109,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "8 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 12,
+   "pagina_stampata": 9,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Dadi"
+   ],
+   "caratteri": 3933,
+   "righe": 82,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 9"
+  },
+  {
+   "pagina_pdf": 13,
+   "pagina_stampata": 10,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Prove con D20"
+   ],
+   "caratteri": 4603,
+   "righe": 146,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "IO / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 14,
+   "pagina_stampata": 11,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Prove con D20"
+   ],
+   "caratteri": 2007,
+   "righe": 63,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / II"
+  },
+  {
+   "pagina_pdf": 15,
+   "pagina_stampata": 12,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Prove con D20"
+   ],
+   "caratteri": 4843,
+   "righe": 115,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "12 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 16,
+   "pagina_stampata": 13,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Competenza"
+   ],
+   "caratteri": 4440,
+   "righe": 109,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 13"
+  },
+  {
+   "pagina_pdf": 17,
+   "pagina_stampata": 14,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Competenza"
+   ],
+   "caratteri": 4568,
+   "righe": 120,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "14 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 18,
+   "pagina_stampata": 15,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Azioni"
+   ],
+   "caratteri": 5148,
+   "righe": 121,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 15"
+  },
+  {
+   "pagina_pdf": 19,
+   "pagina_stampata": 16,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Interazioni Sociali"
+   ],
+   "caratteri": 2709,
+   "righe": 53,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "16 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 20,
+   "pagina_stampata": 17,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Interazioni Sociali"
+   ],
+   "caratteri": 4456,
+   "righe": 94,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 17"
+  },
+  {
+   "pagina_pdf": 21,
+   "pagina_stampata": 18,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Interazioni Sociali"
+   ],
+   "caratteri": 2722,
+   "righe": 52,
+   "immagini": 3,
+   "senza_testo": false,
+   "piede": "18 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 22,
+   "pagina_stampata": 19,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Esplorazione"
+   ],
+   "caratteri": 3689,
+   "righe": 78,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 19."
+  },
+  {
+   "pagina_pdf": 23,
+   "pagina_stampata": 20,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Esplorazione"
+   ],
+   "caratteri": 4670,
+   "righe": 119,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "FO / CAPITOLO 1 J COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 24,
+   "pagina_stampata": 21,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Esplorazione"
+   ],
+   "caratteri": 2695,
+   "righe": 54,
+   "immagini": 3,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 21"
+  },
+  {
+   "pagina_pdf": 25,
+   "pagina_stampata": 22,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Esplorazione"
+   ],
+   "caratteri": 4689,
+   "righe": 97,
+   "immagini": 7,
+   "senza_testo": false,
+   "piede": "22 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 26,
+   "pagina_stampata": 23,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Combattimento"
+   ],
+   "caratteri": 3316,
+   "righe": 66,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 23"
+  },
+  {
+   "pagina_pdf": 27,
+   "pagina_stampata": 24,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Combattimento"
+   ],
+   "caratteri": 2843,
+   "righe": 58,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "F4 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 28,
+   "pagina_stampata": 25,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Combattimento"
+   ],
+   "caratteri": 5592,
+   "righe": 128,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 25"
+  },
+  {
+   "pagina_pdf": 29,
+   "pagina_stampata": 26,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Combattimento"
+   ],
+   "caratteri": 5374,
+   "righe": 126,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "26 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 30,
+   "pagina_stampata": 27,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Danni e Guarigione"
+   ],
+   "caratteri": 3372,
+   "righe": 74,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 27"
+  },
+  {
+   "pagina_pdf": 31,
+   "pagina_stampata": 28,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Danni e Guarigione"
+   ],
+   "caratteri": 5195,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "28 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 32,
+   "pagina_stampata": 29,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Condizioni"
+   ],
+   "caratteri": 5123,
+   "righe": 120,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 29"
+  },
+  {
+   "pagina_pdf": 33,
+   "pagina_stampata": 30,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Esempio di Combattimento e Danno"
+   ],
+   "caratteri": 4334,
+   "righe": 96,
+   "immagini": 7,
+   "senza_testo": false,
+   "piede": "30 / CAPITOLO 1 I COME SI GIOCA"
+  },
+  {
+   "pagina_pdf": 34,
+   "pagina_stampata": 31,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Esempio di Combattimento e Danno"
+   ],
+   "caratteri": 2648,
+   "righe": 58,
+   "immagini": 4,
+   "senza_testo": false,
+   "piede": "CAPITOLO 1 I COME SI GIOCA / 31"
+  },
+  {
+   "pagina_pdf": 35,
+   "pagina_stampata": 32,
+   "sezione": [
+    "Capitolo 1 - Come Si Gioca",
+    "Esempio di Combattimento e Danno"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 36,
+   "pagina_stampata": 33,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Creare il Personaggio"
+   ],
+   "caratteri": 3789,
+   "righe": 129,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 33"
+  },
+  {
+   "pagina_pdf": 37,
+   "pagina_stampata": 34,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Creare il Personaggio"
+   ],
+   "caratteri": 657,
+   "righe": 55,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "34 / CAPITOLO 2 I CREARE UN PERSONAGGIO"
+  },
+  {
+   "pagina_pdf": 38,
+   "pagina_stampata": 35,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Creare il Personaggio"
+   ],
+   "caratteri": 1060,
+   "righe": 82,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 35"
+  },
+  {
+   "pagina_pdf": 39,
+   "pagina_stampata": 36,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Creare il Personaggio"
+   ],
+   "caratteri": 5040,
+   "righe": 119,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "36 / CAPITOLO 2 I CREARE UN PERSONAGGIO"
+  },
+  {
+   "pagina_pdf": 40,
+   "pagina_stampata": 37,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Creare il Personaggio"
+   ],
+   "caratteri": 2658,
+   "righe": 102,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 37"
+  },
+  {
+   "pagina_pdf": 41,
+   "pagina_stampata": 38,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Creare il Personaggio"
+   ],
+   "caratteri": 4265,
+   "righe": 216,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "38 / CAPITOLO 2 I CREARE UN PERSONAGGIO"
+  },
+  {
+   "pagina_pdf": 42,
+   "pagina_stampata": 39,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Creare il Personaggio"
+   ],
+   "caratteri": 3843,
+   "righe": 181,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 39"
+  },
+  {
+   "pagina_pdf": 43,
+   "pagina_stampata": 40,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Creare il Personaggio"
+   ],
+   "caratteri": 3337,
+   "righe": 117,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "40 / CAPITOLO 2 I CREARE UN PERSONAGGIO"
+  },
+  {
+   "pagina_pdf": 44,
+   "pagina_stampata": 41,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Avanzamento di Livello"
+   ],
+   "caratteri": 3838,
+   "righe": 138,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 41"
+  },
+  {
+   "pagina_pdf": 45,
+   "pagina_stampata": 42,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Avanzamento di Livello"
+   ],
+   "caratteri": 2467,
+   "righe": 58,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "42 / CAPITOLO 2 I CREARE UN PERSONAGGIO"
+  },
+  {
+   "pagina_pdf": 46,
+   "pagina_stampata": 43,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Iniziare a Livelli Superiori"
+   ],
+   "caratteri": 4141,
+   "righe": 97,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO '2 I CREARE UN PERSONAGGIO / 43"
+  },
+  {
+   "pagina_pdf": 47,
+   "pagina_stampata": 44,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Multiclasse"
+   ],
+   "caratteri": 5209,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "44 / CAPITOLO 2 I CREARE UN PERSONAGGIO"
+  },
+  {
+   "pagina_pdf": 48,
+   "pagina_stampata": 45,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Multiclasse"
+   ],
+   "caratteri": 2437,
+   "righe": 156,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 45"
+  },
+  {
+   "pagina_pdf": 49,
+   "pagina_stampata": 46,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Monili"
+   ],
+   "caratteri": 3365,
+   "righe": 138,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "46 / CAPITOLO 2 I CREARE UN PERSONAGGIO"
+  },
+  {
+   "pagina_pdf": 50,
+   "pagina_stampata": 47,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Monili"
+   ],
+   "caratteri": 2997,
+   "righe": 133,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 47"
+  },
+  {
+   "pagina_pdf": 51,
+   "pagina_stampata": 48,
+   "sezione": [
+    "Capitolo 2 - Creare un Personaggio",
+    "Monili"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 52,
+   "pagina_stampata": 49,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi"
+   ],
+   "caratteri": 4281,
+   "righe": 100,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "a caccia di tesori. / CAPITOLO 3 I CLASSI DEI PERSONAGGI / 49"
+  },
+  {
+   "pagina_pdf": 53,
+   "pagina_stampata": 50,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Barbaro"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 54,
+   "pagina_stampata": 51,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Barbaro"
+   ],
+   "caratteri": 4482,
+   "righe": 115,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 51"
+  },
+  {
+   "pagina_pdf": 55,
+   "pagina_stampata": 52,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Barbaro"
+   ],
+   "caratteri": 3392,
+   "righe": 184,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "52 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 56,
+   "pagina_stampata": 53,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Barbaro"
+   ],
+   "caratteri": 3317,
+   "righe": 68,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 53"
+  },
+  {
+   "pagina_pdf": 57,
+   "pagina_stampata": 54,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Barbaro"
+   ],
+   "caratteri": 2438,
+   "righe": 50,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 58,
+   "pagina_stampata": 55,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Barbaro"
+   ],
+   "caratteri": 2390,
+   "righe": 49,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 59,
+   "pagina_stampata": 56,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Barbaro"
+   ],
+   "caratteri": 2402,
+   "righe": 57,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 60,
+   "pagina_stampata": 57,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Barbaro"
+   ],
+   "caratteri": 2648,
+   "righe": 57,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 61,
+   "pagina_stampata": 58,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 62,
+   "pagina_stampata": 59,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 4936,
+   "righe": 123,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 59"
+  },
+  {
+   "pagina_pdf": 63,
+   "pagina_stampata": 60,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 3121,
+   "righe": 265,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "60 / CAPITOLO 3 i CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 64,
+   "pagina_stampata": 61,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 3381,
+   "righe": 68,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 61"
+  },
+  {
+   "pagina_pdf": 65,
+   "pagina_stampata": 62,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 2664,
+   "righe": 215,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "62 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 66,
+   "pagina_stampata": 63,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 2309,
+   "righe": 201,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 63"
+  },
+  {
+   "pagina_pdf": 67,
+   "pagina_stampata": 64,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 2679,
+   "righe": 56,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 68,
+   "pagina_stampata": 65,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 2871,
+   "righe": 58,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 69,
+   "pagina_stampata": 66,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 2794,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 70,
+   "pagina_stampata": 67,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Bardo"
+   ],
+   "caratteri": 1793,
+   "righe": 40,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 71,
+   "pagina_stampata": 68,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 72,
+   "pagina_stampata": 69,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 5115,
+   "righe": 126,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 69"
+  },
+  {
+   "pagina_pdf": 73,
+   "pagina_stampata": 70,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 3403,
+   "righe": 267,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "70 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 74,
+   "pagina_stampata": 71,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 4383,
+   "righe": 142,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 71"
+  },
+  {
+   "pagina_pdf": 75,
+   "pagina_stampata": 72,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 2364,
+   "righe": 214,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "72 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 76,
+   "pagina_stampata": 73,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 3082,
+   "righe": 118,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 73"
+  },
+  {
+   "pagina_pdf": 77,
+   "pagina_stampata": 74,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 2376,
+   "righe": 59,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 78,
+   "pagina_stampata": 75,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 2722,
+   "righe": 58,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 79,
+   "pagina_stampata": 76,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 2275,
+   "righe": 56,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 80,
+   "pagina_stampata": 77,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Chierico"
+   ],
+   "caratteri": 2802,
+   "righe": 67,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 81,
+   "pagina_stampata": 78,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 82,
+   "pagina_stampata": 79,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 4976,
+   "righe": 118,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 79"
+  },
+  {
+   "pagina_pdf": 83,
+   "pagina_stampata": 80,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 2796,
+   "righe": 268,
+   "immagini": 3,
+   "senza_testo": false,
+   "piede": "80 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 84,
+   "pagina_stampata": 81,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 5368,
+   "righe": 126,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 81"
+  },
+  {
+   "pagina_pdf": 85,
+   "pagina_stampata": 82,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 2203,
+   "righe": 70,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "82 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 86,
+   "pagina_stampata": 83,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 2686,
+   "righe": 236,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 83"
+  },
+  {
+   "pagina_pdf": 87,
+   "pagina_stampata": 84,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 2586,
+   "righe": 152,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "84 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 88,
+   "pagina_stampata": 85,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 2316,
+   "righe": 59,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 89,
+   "pagina_stampata": 86,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 2230,
+   "righe": 57,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "• / • / •"
+  },
+  {
+   "pagina_pdf": 90,
+   "pagina_stampata": 87,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 2508,
+   "righe": 58,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 91,
+   "pagina_stampata": 88,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 4804,
+   "righe": 123,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "88 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 92,
+   "pagina_stampata": 89,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Druido"
+   ],
+   "caratteri": 2050,
+   "righe": 58,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 93,
+   "pagina_stampata": 90,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 94,
+   "pagina_stampata": 91,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 4683,
+   "righe": 129,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 91"
+  },
+  {
+   "pagina_pdf": 95,
+   "pagina_stampata": 92,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 3407,
+   "righe": 158,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "92 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 96,
+   "pagina_stampata": 93,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 1636,
+   "righe": 38,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 93"
+  },
+  {
+   "pagina_pdf": 97,
+   "pagina_stampata": 94,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 2603,
+   "righe": 55,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 98,
+   "pagina_stampata": 95,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 1841,
+   "righe": 116,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 99,
+   "pagina_stampata": 96,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 2150,
+   "righe": 66,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 100,
+   "pagina_stampata": 97,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 5828,
+   "righe": 116,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 97"
+  },
+  {
+   "pagina_pdf": 101,
+   "pagina_stampata": 98,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 2534,
+   "righe": 55,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 102,
+   "pagina_stampata": 99,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Guerriero"
+   ],
+   "caratteri": 5507,
+   "righe": 106,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 99"
+  },
+  {
+   "pagina_pdf": 103,
+   "pagina_stampata": 100,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 104,
+   "pagina_stampata": 101,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 4435,
+   "righe": 121,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 101"
+  },
+  {
+   "pagina_pdf": 105,
+   "pagina_stampata": 102,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 3590,
+   "righe": 140,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "102 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 106,
+   "pagina_stampata": 103,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 1837,
+   "righe": 40,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 107,
+   "pagina_stampata": 104,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 2198,
+   "righe": 46,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 108,
+   "pagina_stampata": 105,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 2663,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 109,
+   "pagina_stampata": 106,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 2943,
+   "righe": 77,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 110,
+   "pagina_stampata": 107,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 2745,
+   "righe": 55,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 111,
+   "pagina_stampata": 108,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 2808,
+   "righe": 58,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 112,
+   "pagina_stampata": 109,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ladro"
+   ],
+   "caratteri": 1743,
+   "righe": 116,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 113,
+   "pagina_stampata": 110,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 114,
+   "pagina_stampata": 111,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 5158,
+   "righe": 121,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / III"
+  },
+  {
+   "pagina_pdf": 115,
+   "pagina_stampata": 112,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 3288,
+   "righe": 240,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "112 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 116,
+   "pagina_stampata": 113,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 3719,
+   "righe": 73,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / II3"
+  },
+  {
+   "pagina_pdf": 117,
+   "pagina_stampata": 114,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 2716,
+   "righe": 216,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "114 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 118,
+   "pagina_stampata": 115,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 1682,
+   "righe": 166,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 115"
+  },
+  {
+   "pagina_pdf": 119,
+   "pagina_stampata": 116,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 2500,
+   "righe": 232,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "II6 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 120,
+   "pagina_stampata": 117,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 958,
+   "righe": 89,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 117"
+  },
+  {
+   "pagina_pdf": 121,
+   "pagina_stampata": 118,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 2834,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 122,
+   "pagina_stampata": 119,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 3474,
+   "righe": 74,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 123,
+   "pagina_stampata": 120,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 2858,
+   "righe": 58,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 124,
+   "pagina_stampata": 121,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Mago"
+   ],
+   "caratteri": 2827,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 125,
+   "pagina_stampata": 122,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Monaco"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 126,
+   "pagina_stampata": 123,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Monaco"
+   ],
+   "caratteri": 4400,
+   "righe": 114,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 1F3"
+  },
+  {
+   "pagina_pdf": 127,
+   "pagina_stampata": 124,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Monaco"
+   ],
+   "caratteri": 3491,
+   "righe": 176,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "124 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 128,
+   "pagina_stampata": 125,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Monaco"
+   ],
+   "caratteri": 4904,
+   "righe": 106,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 125"
+  },
+  {
+   "pagina_pdf": 129,
+   "pagina_stampata": 126,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Monaco"
+   ],
+   "caratteri": 2678,
+   "righe": 55,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 130,
+   "pagina_stampata": 127,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Monaco"
+   ],
+   "caratteri": 3190,
+   "righe": 65,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 131,
+   "pagina_stampata": 128,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Monaco"
+   ],
+   "caratteri": 2458,
+   "righe": 56,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 132,
+   "pagina_stampata": 129,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Monaco"
+   ],
+   "caratteri": 3170,
+   "righe": 66,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 133,
+   "pagina_stampata": 130,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 1,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 134,
+   "pagina_stampata": 131,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 4997,
+   "righe": 121,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 131"
+  },
+  {
+   "pagina_pdf": 135,
+   "pagina_stampata": 132,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 3337,
+   "righe": 215,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "132 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 136,
+   "pagina_stampata": 133,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 4419,
+   "righe": 94,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 133"
+  },
+  {
+   "pagina_pdf": 137,
+   "pagina_stampata": 134,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 2271,
+   "righe": 162,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "134 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 138,
+   "pagina_stampata": 135,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 2392,
+   "righe": 59,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 139,
+   "pagina_stampata": 136,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 4959,
+   "righe": 113,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "136 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 140,
+   "pagina_stampata": 137,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 2034,
+   "righe": 55,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 141,
+   "pagina_stampata": 138,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 2552,
+   "righe": 55,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 142,
+   "pagina_stampata": 139,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Paladino"
+   ],
+   "caratteri": 2228,
+   "righe": 56,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 143,
+   "pagina_stampata": 140,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 144,
+   "pagina_stampata": 141,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 4852,
+   "righe": 117,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 141"
+  },
+  {
+   "pagina_pdf": 145,
+   "pagina_stampata": 142,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 3269,
+   "righe": 220,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "142 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 146,
+   "pagina_stampata": 143,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 3466,
+   "righe": 180,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 143"
+  },
+  {
+   "pagina_pdf": 147,
+   "pagina_stampata": 144,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 3098,
+   "righe": 99,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "144 / CAPITOLO 3 j CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 148,
+   "pagina_stampata": 145,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 2023,
+   "righe": 58,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "145"
+  },
+  {
+   "pagina_pdf": 149,
+   "pagina_stampata": 146,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 2967,
+   "righe": 59,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "."
+  },
+  {
+   "pagina_pdf": 150,
+   "pagina_stampata": 147,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 2081,
+   "righe": 78,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 151,
+   "pagina_stampata": 148,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 3962,
+   "righe": 118,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "14.8 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 152,
+   "pagina_stampata": 149,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Ranger"
+   ],
+   "caratteri": 2025,
+   "righe": 48,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 153,
+   "pagina_stampata": 150,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 154,
+   "pagina_stampata": 151,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 4988,
+   "righe": 132,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 151"
+  },
+  {
+   "pagina_pdf": 155,
+   "pagina_stampata": 152,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 2833,
+   "righe": 262,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "152 / CAPiTOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 156,
+   "pagina_stampata": 153,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 4608,
+   "righe": 117,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 153"
+  },
+  {
+   "pagina_pdf": 157,
+   "pagina_stampata": 154,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 2396,
+   "righe": 54,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "154 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 158,
+   "pagina_stampata": 155,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 2321,
+   "righe": 210,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 155"
+  },
+  {
+   "pagina_pdf": 159,
+   "pagina_stampata": 156,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 2365,
+   "righe": 216,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "156 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 160,
+   "pagina_stampata": 157,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 2251,
+   "righe": 56,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 161,
+   "pagina_stampata": 158,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 2940,
+   "righe": 59,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 162,
+   "pagina_stampata": 159,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 4621,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 159"
+  },
+  {
+   "pagina_pdf": 163,
+   "pagina_stampata": 160,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 2496,
+   "righe": 60,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 164,
+   "pagina_stampata": 161,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 1840,
+   "righe": 51,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 165,
+   "pagina_stampata": 162,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 3648,
+   "righe": 108,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "162 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 166,
+   "pagina_stampata": 163,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Stregone"
+   ],
+   "caratteri": 2631,
+   "righe": 54,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 167,
+   "pagina_stampata": 164,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 168,
+   "pagina_stampata": 165,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 5180,
+   "righe": 120,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 j CLASSI DEI PERSONAGGI / 165"
+  },
+  {
+   "pagina_pdf": 169,
+   "pagina_stampata": 166,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 3403,
+   "righe": 218,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "166 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 170,
+   "pagina_stampata": 167,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 5015,
+   "righe": 108,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 167"
+  },
+  {
+   "pagina_pdf": 171,
+   "pagina_stampata": 168,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 4960,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "168 / CAPITOLO 3 j CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 172,
+   "pagina_stampata": 169,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 3377,
+   "righe": 123,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 173,
+   "pagina_stampata": 170,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 2350,
+   "righe": 222,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "170 / CAPITOLO 3 I CLASSI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 174,
+   "pagina_stampata": 171,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 2433,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 175,
+   "pagina_stampata": 172,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 2924,
+   "righe": 70,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 176,
+   "pagina_stampata": 173,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 2830,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 177,
+   "pagina_stampata": 174,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 2465,
+   "righe": 60,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 178,
+   "pagina_stampata": 175,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 3787,
+   "righe": 87,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 175"
+  },
+  {
+   "pagina_pdf": 179,
+   "pagina_stampata": 176,
+   "sezione": [
+    "Capitolo 3 - Classi dei Personaggi",
+    "Warlock"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 180,
+   "pagina_stampata": 177,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 4162,
+   "righe": 104,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 177"
+  },
+  {
+   "pagina_pdf": 181,
+   "pagina_stampata": 178,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 1628,
+   "righe": 32,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "178 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 182,
+   "pagina_stampata": 179,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 1315,
+   "righe": 26,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 179"
+  },
+  {
+   "pagina_pdf": 183,
+   "pagina_stampata": 180,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 1430,
+   "righe": 30,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "180 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 184,
+   "pagina_stampata": 181,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 1645,
+   "righe": 34,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 i ORIGINI DEI PERSONAGGI / 181"
+  },
+  {
+   "pagina_pdf": 185,
+   "pagina_stampata": 182,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 1330,
+   "righe": 32,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "182 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 186,
+   "pagina_stampata": 183,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 1559,
+   "righe": 32,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 183"
+  },
+  {
+   "pagina_pdf": 187,
+   "pagina_stampata": 184,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 1533,
+   "righe": 35,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "184 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 188,
+   "pagina_stampata": 185,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni dei Background"
+   ],
+   "caratteri": 1536,
+   "righe": 30,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 185"
+  },
+  {
+   "pagina_pdf": 189,
+   "pagina_stampata": 186,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 3567,
+   "righe": 74,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "186 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 190,
+   "pagina_stampata": 187,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 2915,
+   "righe": 82,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 187"
+  },
+  {
+   "pagina_pdf": 191,
+   "pagina_stampata": 188,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 2304,
+   "righe": 47,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "188 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 192,
+   "pagina_stampata": 189,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 1972,
+   "righe": 55,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 189"
+  },
+  {
+   "pagina_pdf": 193,
+   "pagina_stampata": 190,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 2926,
+   "righe": 61,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "190 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 194,
+   "pagina_stampata": 191,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 2957,
+   "righe": 64,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 191"
+  },
+  {
+   "pagina_pdf": 195,
+   "pagina_stampata": 192,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 2211,
+   "righe": 46,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "192 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 196,
+   "pagina_stampata": 193,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 2074,
+   "righe": 44,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 193"
+  },
+  {
+   "pagina_pdf": 197,
+   "pagina_stampata": 194,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 1776,
+   "righe": 39,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "194 / CAPITOLO 4 J ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 198,
+   "pagina_stampata": 195,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 1463,
+   "righe": 35,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 195"
+  },
+  {
+   "pagina_pdf": 199,
+   "pagina_stampata": 196,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 1714,
+   "righe": 50,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "196 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI"
+  },
+  {
+   "pagina_pdf": 200,
+   "pagina_stampata": 197,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 1246,
+   "righe": 31,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 197"
+  },
+  {
+   "pagina_pdf": 201,
+   "pagina_stampata": 198,
+   "sezione": [
+    "Capitolo 4 - Origini dei Personaggi",
+    "Descrizioni delle Specie"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 202,
+   "pagina_stampata": 199,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 3379,
+   "righe": 126,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 5 I TALENTI / 199"
+  },
+  {
+   "pagina_pdf": 203,
+   "pagina_stampata": 200,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 1998,
+   "righe": 108,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "200 / CAPITOLO 5 I TALENTI"
+  },
+  {
+   "pagina_pdf": 204,
+   "pagina_stampata": 201,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 3487,
+   "righe": 88,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 5 I TALENTI / 201"
+  },
+  {
+   "pagina_pdf": 205,
+   "pagina_stampata": 202,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 4247,
+   "righe": 97,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "202 / CAPITOLO 5 I TALENTI"
+  },
+  {
+   "pagina_pdf": 206,
+   "pagina_stampata": 203,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 5152,
+   "righe": 105,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 5 I TALENTI / 203"
+  },
+  {
+   "pagina_pdf": 207,
+   "pagina_stampata": 204,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 3729,
+   "righe": 81,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "204 / CAPITOLO 5 I TALENTI"
+  },
+  {
+   "pagina_pdf": 208,
+   "pagina_stampata": 205,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 5252,
+   "righe": 110,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 5 I TALENTI / 205"
+  },
+  {
+   "pagina_pdf": 209,
+   "pagina_stampata": 206,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 3244,
+   "righe": 74,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "206"
+  },
+  {
+   "pagina_pdf": 210,
+   "pagina_stampata": 207,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 3776,
+   "righe": 87,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 5 I TALENTI / 207"
+  },
+  {
+   "pagina_pdf": 211,
+   "pagina_stampata": 208,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 4102,
+   "righe": 86,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "208 / CAPITOLO 5 I TALENTI"
+  },
+  {
+   "pagina_pdf": 212,
+   "pagina_stampata": 209,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 3547,
+   "righe": 81,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 213,
+   "pagina_stampata": 210,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 4064,
+   "righe": 87,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "210 / CAPITOLO 5 I TALENTI"
+  },
+  {
+   "pagina_pdf": 214,
+   "pagina_stampata": 211,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 3814,
+   "righe": 84,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 5 I TALENTI / 211"
+  },
+  {
+   "pagina_pdf": 215,
+   "pagina_stampata": 212,
+   "sezione": [
+    "Capitolo 5 - Talenti",
+    "Descrizioni dei Talenti"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 216,
+   "pagina_stampata": 213,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Armi"
+   ],
+   "caratteri": 4043,
+   "righe": 101,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 213"
+  },
+  {
+   "pagina_pdf": 217,
+   "pagina_stampata": 214,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Armi"
+   ],
+   "caratteri": 4747,
+   "righe": 108,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "214 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 218,
+   "pagina_stampata": 215,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Armi"
+   ],
+   "caratteri": 2853,
+   "righe": 236,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 215"
+  },
+  {
+   "pagina_pdf": 219,
+   "pagina_stampata": 216,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Armi"
+   ],
+   "caratteri": 182,
+   "righe": 24,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "216 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 220,
+   "pagina_stampata": 217,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Armi"
+   ],
+   "caratteri": 176,
+   "righe": 26,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 217"
+  },
+  {
+   "pagina_pdf": 221,
+   "pagina_stampata": 218,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Armi"
+   ],
+   "caratteri": 357,
+   "righe": 34,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "218 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 222,
+   "pagina_stampata": 219,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Armature"
+   ],
+   "caratteri": 3932,
+   "righe": 136,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / F19"
+  },
+  {
+   "pagina_pdf": 223,
+   "pagina_stampata": 220,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Strumenti"
+   ],
+   "caratteri": 4090,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "220 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 224,
+   "pagina_stampata": 221,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Strumenti"
+   ],
+   "caratteri": 3015,
+   "righe": 94,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / FFI"
+  },
+  {
+   "pagina_pdf": 225,
+   "pagina_stampata": 222,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Equipaggiamento d'Avventura"
+   ],
+   "caratteri": 2066,
+   "righe": 45,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "222 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 226,
+   "pagina_stampata": 223,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Equipaggiamento d'Avventura"
+   ],
+   "caratteri": 1854,
+   "righe": 237,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 223"
+  },
+  {
+   "pagina_pdf": 227,
+   "pagina_stampata": 224,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Equipaggiamento d'Avventura"
+   ],
+   "caratteri": 3469,
+   "righe": 83,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "224 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 228,
+   "pagina_stampata": 225,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Equipaggiamento d'Avventura"
+   ],
+   "caratteri": 3315,
+   "righe": 105,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 225"
+  },
+  {
+   "pagina_pdf": 229,
+   "pagina_stampata": 226,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Equipaggiamento d'Avventura"
+   ],
+   "caratteri": 4397,
+   "righe": 119,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "226 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 230,
+   "pagina_stampata": 227,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Equipaggiamento d'Avventura"
+   ],
+   "caratteri": 3329,
+   "righe": 76,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 227"
+  },
+  {
+   "pagina_pdf": 231,
+   "pagina_stampata": 228,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Equipaggiamento d'Avventura"
+   ],
+   "caratteri": 4220,
+   "righe": 99,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "228 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 232,
+   "pagina_stampata": 229,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Cavalcature e Veicoli"
+   ],
+   "caratteri": 2653,
+   "righe": 110,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 229"
+  },
+  {
+   "pagina_pdf": 233,
+   "pagina_stampata": 230,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Servizi"
+   ],
+   "caratteri": 4121,
+   "righe": 154,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "230 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 234,
+   "pagina_stampata": 231,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Servizi"
+   ],
+   "caratteri": 1451,
+   "righe": 83,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / F31"
+  },
+  {
+   "pagina_pdf": 235,
+   "pagina_stampata": 232,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Oggetti Magici"
+   ],
+   "caratteri": 5176,
+   "righe": 125,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "232 / CAPITOLO 6 I EQUIPAGGIAMENTO"
+  },
+  {
+   "pagina_pdf": 236,
+   "pagina_stampata": 233,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Creare Equipaggiamento"
+   ],
+   "caratteri": 4076,
+   "righe": 119,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 233"
+  },
+  {
+   "pagina_pdf": 237,
+   "pagina_stampata": 234,
+   "sezione": [
+    "Capitolo 6 - Equipaggiamento",
+    "Creare Equipaggiamento"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 238,
+   "pagina_stampata": 235,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Lanciare gli Incantesimi"
+   ],
+   "caratteri": 4556,
+   "righe": 116,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / F35"
+  },
+  {
+   "pagina_pdf": 239,
+   "pagina_stampata": 236,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Lanciare gli Incantesimi"
+   ],
+   "caratteri": 5082,
+   "righe": 118,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "236 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 240,
+   "pagina_stampata": 237,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Lanciare gli Incantesimi"
+   ],
+   "caratteri": 3433,
+   "righe": 71,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 237"
+  },
+  {
+   "pagina_pdf": 241,
+   "pagina_stampata": 238,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Lanciare gli Incantesimi"
+   ],
+   "caratteri": 3501,
+   "righe": 71,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "238 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 242,
+   "pagina_stampata": 239,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4821,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 239"
+  },
+  {
+   "pagina_pdf": 243,
+   "pagina_stampata": 240,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5047,
+   "righe": 108,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "240 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 244,
+   "pagina_stampata": 241,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4687,
+   "righe": 100,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 241"
+  },
+  {
+   "pagina_pdf": 245,
+   "pagina_stampata": 242,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3419,
+   "righe": 96,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "242 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 246,
+   "pagina_stampata": 243,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2398,
+   "righe": 58,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 243"
+  },
+  {
+   "pagina_pdf": 247,
+   "pagina_stampata": 244,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3620,
+   "righe": 86,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "244 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 248,
+   "pagina_stampata": 245,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2022,
+   "righe": 50,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / J45"
+  },
+  {
+   "pagina_pdf": 249,
+   "pagina_stampata": 246,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2316,
+   "righe": 53,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "246 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 250,
+   "pagina_stampata": 247,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4508,
+   "righe": 104,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / Y47"
+  },
+  {
+   "pagina_pdf": 251,
+   "pagina_stampata": 248,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4489,
+   "righe": 106,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "248 / CAPITOLO 7 i INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 252,
+   "pagina_stampata": 249,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2501,
+   "righe": 54,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 249"
+  },
+  {
+   "pagina_pdf": 253,
+   "pagina_stampata": 250,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2330,
+   "righe": 50,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 254,
+   "pagina_stampata": 251,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5066,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 J INCANTESIMI / 251"
+  },
+  {
+   "pagina_pdf": 255,
+   "pagina_stampata": 252,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4556,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "252 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 256,
+   "pagina_stampata": 253,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5044,
+   "righe": 111,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 253"
+  },
+  {
+   "pagina_pdf": 257,
+   "pagina_stampata": 254,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3709,
+   "righe": 88,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "254 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 258,
+   "pagina_stampata": 255,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4481,
+   "righe": 104,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 255"
+  },
+  {
+   "pagina_pdf": 259,
+   "pagina_stampata": 256,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4671,
+   "righe": 110,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "256 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 260,
+   "pagina_stampata": 257,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2141,
+   "righe": 48,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 257"
+  },
+  {
+   "pagina_pdf": 261,
+   "pagina_stampata": 258,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4743,
+   "righe": 127,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "258 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 262,
+   "pagina_stampata": 259,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2506,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 j INCANTESIMI / F59"
+  },
+  {
+   "pagina_pdf": 263,
+   "pagina_stampata": 260,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4961,
+   "righe": 107,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "260 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 264,
+   "pagina_stampata": 261,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2169,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 261"
+  },
+  {
+   "pagina_pdf": 265,
+   "pagina_stampata": 262,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 1976,
+   "righe": 50,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "262 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 266,
+   "pagina_stampata": 263,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4257,
+   "righe": 103,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 263"
+  },
+  {
+   "pagina_pdf": 267,
+   "pagina_stampata": 264,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2897,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "264 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 268,
+   "pagina_stampata": 265,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4026,
+   "righe": 85,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / N65"
+  },
+  {
+   "pagina_pdf": 269,
+   "pagina_stampata": 266,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2315,
+   "righe": 54,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "266 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 270,
+   "pagina_stampata": 267,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4728,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / F67"
+  },
+  {
+   "pagina_pdf": 271,
+   "pagina_stampata": 268,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2115,
+   "righe": 43,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "F68 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 272,
+   "pagina_stampata": 269,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4698,
+   "righe": 106,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 269"
+  },
+  {
+   "pagina_pdf": 273,
+   "pagina_stampata": 270,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5051,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "270 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 274,
+   "pagina_stampata": 271,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4850,
+   "righe": 105,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 271"
+  },
+  {
+   "pagina_pdf": 275,
+   "pagina_stampata": 272,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2303,
+   "righe": 49,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "272 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 276,
+   "pagina_stampata": 273,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3902,
+   "righe": 102,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 273"
+  },
+  {
+   "pagina_pdf": 277,
+   "pagina_stampata": 274,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5345,
+   "righe": 112,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "274 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 278,
+   "pagina_stampata": 275,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2648,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 275"
+  },
+  {
+   "pagina_pdf": 279,
+   "pagina_stampata": 276,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4383,
+   "righe": 102,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "276 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 280,
+   "pagina_stampata": 277,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5846,
+   "righe": 117,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 277"
+  },
+  {
+   "pagina_pdf": 281,
+   "pagina_stampata": 278,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2842,
+   "righe": 55,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "278 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 282,
+   "pagina_stampata": 279,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4490,
+   "righe": 103,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / W79"
+  },
+  {
+   "pagina_pdf": 283,
+   "pagina_stampata": 280,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2120,
+   "righe": 50,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "580 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 284,
+   "pagina_stampata": 281,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4855,
+   "righe": 101,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 281"
+  },
+  {
+   "pagina_pdf": 285,
+   "pagina_stampata": 282,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4526,
+   "righe": 98,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "282 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 286,
+   "pagina_stampata": 283,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4981,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 283"
+  },
+  {
+   "pagina_pdf": 287,
+   "pagina_stampata": 284,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4503,
+   "righe": 119,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "284 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 288,
+   "pagina_stampata": 285,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4526,
+   "righe": 105,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 285"
+  },
+  {
+   "pagina_pdf": 289,
+   "pagina_stampata": 286,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4720,
+   "righe": 108,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "286 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 290,
+   "pagina_stampata": 287,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5077,
+   "righe": 112,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 287"
+  },
+  {
+   "pagina_pdf": 291,
+   "pagina_stampata": 288,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4617,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "288 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 292,
+   "pagina_stampata": 289,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2060,
+   "righe": 50,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 289"
+  },
+  {
+   "pagina_pdf": 293,
+   "pagina_stampata": 290,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2129,
+   "righe": 50,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "290 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 294,
+   "pagina_stampata": 291,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4839,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / F91"
+  },
+  {
+   "pagina_pdf": 295,
+   "pagina_stampata": 292,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5351,
+   "righe": 114,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "292 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 296,
+   "pagina_stampata": 293,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5200,
+   "righe": 110,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 293"
+  },
+  {
+   "pagina_pdf": 297,
+   "pagina_stampata": 294,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5075,
+   "righe": 110,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "294 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 298,
+   "pagina_stampata": 295,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5612,
+   "righe": 116,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 295"
+  },
+  {
+   "pagina_pdf": 299,
+   "pagina_stampata": 296,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4819,
+   "righe": 115,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "296 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 300,
+   "pagina_stampata": 297,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4591,
+   "righe": 105,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 297"
+  },
+  {
+   "pagina_pdf": 301,
+   "pagina_stampata": 298,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2289,
+   "righe": 51,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "298 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 302,
+   "pagina_stampata": 299,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3248,
+   "righe": 77,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 299"
+  },
+  {
+   "pagina_pdf": 303,
+   "pagina_stampata": 300,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3893,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "300 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 304,
+   "pagina_stampata": 301,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3848,
+   "righe": 98,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 301"
+  },
+  {
+   "pagina_pdf": 305,
+   "pagina_stampata": 302,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2091,
+   "righe": 51,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "302 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 306,
+   "pagina_stampata": 303,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4371,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 303"
+  },
+  {
+   "pagina_pdf": 307,
+   "pagina_stampata": 304,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4207,
+   "righe": 98,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "304 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 308,
+   "pagina_stampata": 305,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4635,
+   "righe": 106,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 305"
+  },
+  {
+   "pagina_pdf": 309,
+   "pagina_stampata": 306,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 1811,
+   "righe": 46,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "306 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 310,
+   "pagina_stampata": 307,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4122,
+   "righe": 103,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 307"
+  },
+  {
+   "pagina_pdf": 311,
+   "pagina_stampata": 308,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4681,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "308 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 312,
+   "pagina_stampata": 309,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2128,
+   "righe": 47,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 309"
+  },
+  {
+   "pagina_pdf": 313,
+   "pagina_stampata": 310,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3139,
+   "righe": 94,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "310 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 314,
+   "pagina_stampata": 311,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2450,
+   "righe": 55,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 311"
+  },
+  {
+   "pagina_pdf": 315,
+   "pagina_stampata": 312,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3124,
+   "righe": 79,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "312 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 316,
+   "pagina_stampata": 313,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3898,
+   "righe": 101,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 313"
+  },
+  {
+   "pagina_pdf": 317,
+   "pagina_stampata": 314,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2739,
+   "righe": 76,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "314 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 318,
+   "pagina_stampata": 315,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2749,
+   "righe": 77,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 315"
+  },
+  {
+   "pagina_pdf": 319,
+   "pagina_stampata": 316,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4019,
+   "righe": 117,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "316 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 320,
+   "pagina_stampata": 317,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3119,
+   "righe": 83,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 317"
+  },
+  {
+   "pagina_pdf": 321,
+   "pagina_stampata": 318,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3195,
+   "righe": 80,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "318 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 322,
+   "pagina_stampata": 319,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3533,
+   "righe": 90,
+   "immagini": 3,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 319"
+  },
+  {
+   "pagina_pdf": 323,
+   "pagina_stampata": 320,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 1930,
+   "righe": 50,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 324,
+   "pagina_stampata": 321,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4138,
+   "righe": 102,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 321"
+  },
+  {
+   "pagina_pdf": 325,
+   "pagina_stampata": 322,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4174,
+   "righe": 101,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "322 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 326,
+   "pagina_stampata": 323,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4542,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 323"
+  },
+  {
+   "pagina_pdf": 327,
+   "pagina_stampata": 324,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4508,
+   "righe": 107,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "324 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 328,
+   "pagina_stampata": 325,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2486,
+   "righe": 56,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 3F5"
+  },
+  {
+   "pagina_pdf": 329,
+   "pagina_stampata": 326,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4377,
+   "righe": 115,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "326 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 330,
+   "pagina_stampata": 327,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4847,
+   "righe": 108,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 327"
+  },
+  {
+   "pagina_pdf": 331,
+   "pagina_stampata": 328,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2782,
+   "righe": 61,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "328 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 332,
+   "pagina_stampata": 329,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4950,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 329"
+  },
+  {
+   "pagina_pdf": 333,
+   "pagina_stampata": 330,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5423,
+   "righe": 112,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "330 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 334,
+   "pagina_stampata": 331,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5034,
+   "righe": 110,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 331"
+  },
+  {
+   "pagina_pdf": 335,
+   "pagina_stampata": 332,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3213,
+   "righe": 89,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "332 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 336,
+   "pagina_stampata": 333,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4967,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 333"
+  },
+  {
+   "pagina_pdf": 337,
+   "pagina_stampata": 334,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4850,
+   "righe": 131,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "334 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 338,
+   "pagina_stampata": 335,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2660,
+   "righe": 57,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 335"
+  },
+  {
+   "pagina_pdf": 339,
+   "pagina_stampata": 336,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2562,
+   "righe": 58,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "336 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 340,
+   "pagina_stampata": 337,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5245,
+   "righe": 111,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 337"
+  },
+  {
+   "pagina_pdf": 341,
+   "pagina_stampata": 338,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 2208,
+   "righe": 53,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "338 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 342,
+   "pagina_stampata": 339,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3313,
+   "righe": 73,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 339"
+  },
+  {
+   "pagina_pdf": 343,
+   "pagina_stampata": 340,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 5124,
+   "righe": 120,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "340 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 344,
+   "pagina_stampata": 341,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 3124,
+   "righe": 72,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 i INCANTESIMI / 341"
+  },
+  {
+   "pagina_pdf": 345,
+   "pagina_stampata": 342,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4849,
+   "righe": 110,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "342 / CAPITOLO 7 I INCANTESIMI"
+  },
+  {
+   "pagina_pdf": 346,
+   "pagina_stampata": 343,
+   "sezione": [
+    "Capitolo 7 - Incantesimi",
+    "Descrizione degli Incantesimi"
+   ],
+   "caratteri": 4070,
+   "righe": 103,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "CAPITOLO 7 I INCANTESIMI / 343"
+  },
+  {
+   "pagina_pdf": 347,
+   "pagina_stampata": 344,
+   "sezione": [
+    "Appendice A - Il Multiverso",
+    "I Piani Esterni"
+   ],
+   "caratteri": 3866,
+   "righe": 110,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "344 / APPENDICE A I IL MULTIVERSO"
+  },
+  {
+   "pagina_pdf": 348,
+   "pagina_stampata": 345,
+   "sezione": [
+    "Appendice A - Il Multiverso",
+    "Mappa: Il Multiverso"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 349,
+   "pagina_stampata": 346,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Capra Gigante - Bestia Grande"
+   ],
+   "caratteri": 2698,
+   "righe": 146,
+   "immagini": 3,
+   "senza_testo": false,
+   "piede": "346 / APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE"
+  },
+  {
+   "pagina_pdf": 350,
+   "pagina_stampata": 347,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Cinghiale - Bestia Media"
+   ],
+   "caratteri": 2756,
+   "righe": 174,
+   "immagini": 5,
+   "senza_testo": false,
+   "piede": "APPENDICE B i SCHEDE DELLE STATISTICHE DELLE CREATURE / 347"
+  },
+  {
+   "pagina_pdf": 351,
+   "pagina_stampata": 348,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Faina - Bestia Minuscola"
+   ],
+   "caratteri": 2315,
+   "righe": 142,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "348 / APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE"
+  },
+  {
+   "pagina_pdf": 352,
+   "pagina_stampata": 349,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Gorilla - Bestia Media"
+   ],
+   "caratteri": 1828,
+   "righe": 127,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE / 349"
+  },
+  {
+   "pagina_pdf": 353,
+   "pagina_stampata": 350,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Imp - Immondo Minuscolo"
+   ],
+   "caratteri": 2635,
+   "righe": 151,
+   "immagini": 4,
+   "senza_testo": false,
+   "piede": "350 / APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE"
+  },
+  {
+   "pagina_pdf": 354,
+   "pagina_stampata": 351,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Lupo - Bestia Media"
+   ],
+   "caratteri": 2106,
+   "righe": 114,
+   "immagini": 4,
+   "senza_testo": false,
+   "piede": "APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE / 351"
+  },
+  {
+   "pagina_pdf": 355,
+   "pagina_stampata": 352,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Orso Bruno - Bestia Grande"
+   ],
+   "caratteri": 2224,
+   "righe": 141,
+   "immagini": 5,
+   "senza_testo": false,
+   "piede": "352 / APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE"
+  },
+  {
+   "pagina_pdf": 356,
+   "pagina_stampata": 353,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Pipistrello - Bestia Minuscola"
+   ],
+   "caratteri": 2298,
+   "righe": 146,
+   "immagini": 4,
+   "senza_testo": false,
+   "piede": "APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE / 353"
+  },
+  {
+   "pagina_pdf": 357,
+   "pagina_stampata": 354,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Quasit - Immondo Minuscolo"
+   ],
+   "caratteri": 2787,
+   "righe": 119,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "354 / APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE"
+  },
+  {
+   "pagina_pdf": 358,
+   "pagina_stampata": 355,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Ragno Gigante - Bestia Grande"
+   ],
+   "caratteri": 1751,
+   "righe": 90,
+   "immagini": 3,
+   "senza_testo": false,
+   "piede": "APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE / 355"
+  },
+  {
+   "pagina_pdf": 359,
+   "pagina_stampata": 356,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Serpente Stritolatore - Bestia Grande"
+   ],
+   "caratteri": 2208,
+   "righe": 144,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "356 / APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE"
+  },
+  {
+   "pagina_pdf": 360,
+   "pagina_stampata": 357,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Slaad Girino - Aberrazione Minuscola"
+   ],
+   "caratteri": 1833,
+   "righe": 108,
+   "immagini": 3,
+   "senza_testo": false,
+   "piede": "APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE / 357"
+  },
+  {
+   "pagina_pdf": 361,
+   "pagina_stampata": 358,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Tasso - Bestia Minuscola"
+   ],
+   "caratteri": 2060,
+   "righe": 112,
+   "immagini": 4,
+   "senza_testo": false,
+   "piede": "358 / APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE"
+  },
+  {
+   "pagina_pdf": 362,
+   "pagina_stampata": 359,
+   "sezione": [
+    "Appendice B - Schede delle Statistiche delle Creature",
+    "Zombi - Non morto Medio"
+   ],
+   "caratteri": 2087,
+   "righe": 180,
+   "immagini": 3,
+   "senza_testo": false,
+   "piede": "APPENDICE B I SCHEDE DELLE STATISTICHE DELLE CREATURE / 359"
+  },
+  {
+   "pagina_pdf": 363,
+   "pagina_stampata": 360,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4030,
+   "righe": 136,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "360 / APPENDICE CI GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 364,
+   "pagina_stampata": 361,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4895,
+   "righe": 106,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 361"
+  },
+  {
+   "pagina_pdf": 365,
+   "pagina_stampata": 362,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 3773,
+   "righe": 92,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "362 / APPENDICE CI GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 366,
+   "pagina_stampata": 363,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 3706,
+   "righe": 96,
+   "immagini": 2,
+   "senza_testo": false,
+   "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 363"
+  },
+  {
+   "pagina_pdf": 367,
+   "pagina_stampata": 364,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 5031,
+   "righe": 113,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "364 / APPENDICE CI GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 368,
+   "pagina_stampata": 365,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4265,
+   "righe": 105,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 365"
+  },
+  {
+   "pagina_pdf": 369,
+   "pagina_stampata": 366,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 3836,
+   "righe": 82,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "366 / APPENDICE CI GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 370,
+   "pagina_stampata": 367,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 3882,
+   "righe": 93,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 367"
+  },
+  {
+   "pagina_pdf": 371,
+   "pagina_stampata": 368,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4551,
+   "righe": 109,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "368 / APPENDICE C J GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 372,
+   "pagina_stampata": 369,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4346,
+   "righe": 98,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 369"
+  },
+  {
+   "pagina_pdf": 373,
+   "pagina_stampata": 370,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4201,
+   "righe": 89,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "370 / APPENDICE C J GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 374,
+   "pagina_stampata": 371,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4070,
+   "righe": 94,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "APPENDICE C i GLOSSARIO DELLE REGOLE / 371"
+  },
+  {
+   "pagina_pdf": 375,
+   "pagina_stampata": 372,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4500,
+   "righe": 121,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "372 / APPENDICE CI GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 376,
+   "pagina_stampata": 373,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 5642,
+   "righe": 114,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "APPENDICE C \\GLOSSARIO DELLE REGOLE / 373"
+  },
+  {
+   "pagina_pdf": 377,
+   "pagina_stampata": 374,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 3591,
+   "righe": 82,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "374 / APPENDICE CI GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 378,
+   "pagina_stampata": 375,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 3971,
+   "righe": 94,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 375"
+  },
+  {
+   "pagina_pdf": 379,
+   "pagina_stampata": 376,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 3806,
+   "righe": 113,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "376 / APPENDICE CI GLOSSARIO DELLE REGOLE"
+  },
+  {
+   "pagina_pdf": 380,
+   "pagina_stampata": 377,
+   "sezione": [
+    "Appendice C - Glossario delle Regole",
+    "Definizione delle Regole"
+   ],
+   "caratteri": 4632,
+   "righe": 97,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 377"
+  },
+  {
+   "pagina_pdf": 381,
+   "pagina_stampata": 378,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 6972,
+   "righe": 379,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "378 / INDICE"
+  },
+  {
+   "pagina_pdf": 382,
+   "pagina_stampata": 379,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 8235,
+   "righe": 428,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "INDICE / 379"
+  },
+  {
+   "pagina_pdf": 383,
+   "pagina_stampata": 380,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 8319,
+   "righe": 429,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "INDICE"
+  },
+  {
+   "pagina_pdf": 384,
+   "pagina_stampata": 381,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 8722,
+   "righe": 429,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "INDICE / 381"
+  },
+  {
+   "pagina_pdf": 385,
+   "pagina_stampata": 382,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 8004,
+   "righe": 423,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "INDICE"
+  },
+  {
+   "pagina_pdf": 386,
+   "pagina_stampata": 383,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 8521,
+   "righe": 426,
+   "immagini": 0,
+   "senza_testo": false,
+   "piede": "INDICE / 383"
+  },
+  {
+   "pagina_pdf": 387,
+   "pagina_stampata": 384,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 7897,
+   "righe": 392,
+   "immagini": 1,
+   "senza_testo": false,
+   "piede": "384 / INDICE"
+  },
+  {
+   "pagina_pdf": 388,
+   "pagina_stampata": 385,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 389,
+   "pagina_stampata": 386,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 0,
+   "senza_testo": true,
+   "piede": ""
+  },
+  {
+   "pagina_pdf": 390,
+   "pagina_stampata": 387,
+   "sezione": [
+    "Indice"
+   ],
+   "caratteri": 0,
+   "righe": 0,
+   "immagini": 1,
+   "senza_testo": true,
+   "piede": ""
+  }
+ ]
+}

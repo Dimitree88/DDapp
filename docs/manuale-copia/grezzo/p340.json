@@ -1,0 +1,1344 @@
+{
+ "pagina_pdf": 340,
+ "pagina_stampata": 337,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 337",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    57.9,
+    36.9,
+    275.5,
+    47.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore scatena una tempesta di fulmini saettanti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.8,
+    47.8,
+    273.1,
+    58.4
+   ],
+   "size": 8.8,
+   "testo": "e tuoni rombanti in un cilindro del diametro di 3 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.8,
+    58.9,
+    263.2,
+    69.4
+   ],
+   "size": 8.8,
+   "testo": "e dell'altezza di 12 metri, centrato su un punto entro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    69.9,
+    275.0,
+    80.5
+   ],
+   "size": 8.8,
+   "testo": "gittata che è in grado di vedere. Finché sono all'interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.8,
+    80.9,
+    261.8,
+    91.4
+   ],
+   "size": 8.8,
+   "testo": "dell'area dell'incantesimo, le creature sono accecate",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    91.8,
+    261.4,
+    102.4
+   ],
+   "size": 8.8,
+   "testo": "e assordate, e non possono lanciare incantesimi con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    102.8,
+    157.7,
+    113.4
+   ],
+   "size": 8.8,
+   "testo": "una componente verbale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.8,
+    113.7,
+    264.4,
+    124.3
+   ],
+   "size": 8.8,
+   "testo": "Quando la tempesta compare, ogni creatura al suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    124.8,
+    286.0,
+    135.4
+   ],
+   "size": 8.8,
+   "testo": "interno effettua un tiro salvezza su Costituzione, subendo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.8,
+    135.7,
+    273.1,
+    146.3
+   ],
+   "size": 8.8,
+   "testo": "2d10 danni da tuono e 2d10 danni radiosi in caso di fal­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.6,
+    146.8,
+    275.8,
+    157.3
+   ],
+   "size": 8.8,
+   "testo": "limento, o la metà dei danni in caso di successo. Inoltre,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.8,
+    157.8,
+    280.1,
+    168.4
+   ],
+   "size": 8.8,
+   "testo": "una creatura effettua questo tiro salvezza anche quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.6,
+    168.8,
+    276.2,
+    179.4
+   ],
+   "size": 8.8,
+   "testo": "entra nell'area dell'incantesimo per la prima volta in un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.6,
+    179.7,
+    267.4,
+    190.3
+   ],
+   "size": 8.8,
+   "testo": "turno o quando vi termina il suo turno. Una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.9,
+    190.8,
+    268.4,
+    201.3
+   ],
+   "size": 8.8,
+   "testo": "effettua questo tiro salvezza solo una volta per turno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.4,
+    203.6,
+    261.6,
+    212.2
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    212.8,
+    264.0,
+    223.4
+   ],
+   "size": 8.8,
+   "testo": "I danni da tuono e i danni radiosi aumentano di 1d10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    221.7,
+    204.1,
+    234.4
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 5°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    258.5,
+    199.8,
+    269.8
+   ],
+   "size": 11.2,
+   "testo": "TENTACOLI NERI DI EVARD",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    270.1,
+    169.5,
+    280.5
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi4° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    285.7,
+    149.5,
+    295.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    296.7,
+    122.1,
+    306.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    307.7,
+    192.8,
+    317.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un tentacolo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    318.7,
+    211.0,
+    328.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    334.8,
+    268.2,
+    345.4
+   ],
+   "size": 8.8,
+   "testo": "Una massa di tentacoli brulicanti color ebano riempie",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.9,
+    345.9,
+    279.5,
+    356.5
+   ],
+   "size": 8.8,
+   "testo": "un quadrato con lato di 6 metri situato sul terreno entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.5,
+    356.9,
+    265.7,
+    367.4
+   ],
+   "size": 8.8,
+   "testo": "gittata e che l'incantatore è in grado di vedere. Per la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    367.8,
+    268.1,
+    378.4
+   ],
+   "size": 8.8,
+   "testo": "durata dell'incantesimo, questi tentacoli trasformano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.0,
+    378.9,
+    185.1,
+    389.4
+   ],
+   "size": 8.8,
+   "testo": "quell'area in un terreno difficile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.8,
+    389.9,
+    266.6,
+    400.5
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura nell'area effettua un tiro salvezza su",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    400.9,
+    271.3,
+    411.5
+   ],
+   "size": 8.8,
+   "testo": "Forza. In caso di fallimento, subisce 3d6 danni contun­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.7,
+    412.0,
+    267.7,
+    422.6
+   ],
+   "size": 8.8,
+   "testo": "denti ed è trattenuta fino al termine dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.0,
+    423.0,
+    261.8,
+    433.6
+   ],
+   "size": 8.8,
+   "testo": "Una creatura effettua il tiro salvezza anche se entra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    434.0,
+    269.1,
+    444.6
+   ],
+   "size": 8.8,
+   "testo": "nell'area o vi termina il suo turno. Il tiro salvezza può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.9,
+    444.9,
+    223.1,
+    455.5
+   ],
+   "size": 8.8,
+   "testo": "essere effettuato solo una volta per turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.0,
+    456.0,
+    276.8,
+    466.6
+   ],
+   "size": 8.8,
+   "testo": "Una creatura trattenuta può usare un'azione per effet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.9,
+    467.0,
+    278.9,
+    477.6
+   ],
+   "size": 8.8,
+   "testo": "tuare una prova di Forza (Atletica) contro la CD del tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.0,
+    478.0,
+    269.7,
+    488.5
+   ],
+   "size": 8.8,
+   "testo": "salvezza sull'incantesimo, ponendo fine alla sua condi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    489.0,
+    206.9,
+    499.6
+   ],
+   "size": 8.8,
+   "testo": "zione \"trattenuta\" in caso di successo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    523.8,
+    124.1,
+    535.1
+   ],
+   "size": 11.2,
+   "testo": "TERREMOTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    535.3,
+    255.0,
+    545.8
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi8°livello (chierico, druido, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    550.8,
+    149.6,
+    560.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    561.8,
+    126.5,
+    571.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 150 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    572.8,
+    223.1,
+    582.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una roccia fratturata)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    583.8,
+    211.2,
+    593.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    600.0,
+    275.1,
+    610.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie un punto del terreno entro gittata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    611.2,
+    275.2,
+    621.7
+   ],
+   "size": 8.8,
+   "testo": "che è in grado di vedere. Per la durata dell'incantesimo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    622.2,
+    266.4,
+    632.8
+   ],
+   "size": 8.8,
+   "testo": "una scossa intensa sconquassa il terreno in un raggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    633.2,
+    273.9,
+    643.7
+   ],
+   "size": 8.8,
+   "testo": "di 30 metri centrato su quel punto, rendendolo terreno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    644.2,
+    91.0,
+    654.7
+   ],
+   "size": 8.8,
+   "testo": "difficile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.3,
+    655.2,
+    279.8,
+    665.7
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore lancia questo incantesi.mo, e alla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    666.1,
+    288.7,
+    676.7
+   ],
+   "size": 8.8,
+   "testo": "fine di ogni suo turno per tutta la durata, ogni creatura sul",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.7,
+    677.1,
+    276.4,
+    687.7
+   ],
+   "size": 8.8,
+   "testo": "terreno nell'area effettua un tiro salvezza su Destrezza.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    688.1,
+    279.1,
+    698.7
+   ],
+   "size": 8.8,
+   "testo": "In caso di fallimento, la creatura cade prona e la sua con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.2,
+    699.1,
+    172.5,
+    709.7
+   ],
+   "size": 8.8,
+   "testo": "centrazione viene interrotta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.6,
+    36.8,
+    514.9,
+    47.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può anche causare i seguenti effetti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.6,
+    47.8,
+    522.2,
+    58.3
+   ],
+   "size": 8.8,
+   "testo": "Crepe. Un totale di 1d6 crepe si apre nell'area dell'in­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    58.8,
+    523.4,
+    69.4
+   ],
+   "size": 8.8,
+   "testo": "cantesimo alla fine del turno in cui viene lanciato. L'in­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    69.8,
+    535.8,
+    80.4
+   ],
+   "size": 8.8,
+   "testo": "cantatore sceglie i punti in cui si aprono le crepe, che non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    80.8,
+    530.4,
+    91.3
+   ],
+   "size": 8.8,
+   "testo": "possono trovarsi al di sotto di strutture. Ognuna di esse",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    91.7,
+    540.0,
+    102.3
+   ],
+   "size": 8.8,
+   "testo": "è profonda 1d10 x 3 metri, ampia 3 metri e si estende da un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    102.7,
+    536.3,
+    113.3
+   ],
+   "size": 8.8,
+   "testo": "Iato all'altro dell'area dell'incantesimo. Se una creatura si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    113.7,
+    531.4,
+    124.3
+   ],
+   "size": 8.8,
+   "testo": "trova nel punto i cui si apre una crepa, deve superare un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    124.7,
+    535.0,
+    135.3
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Destrezza o vi cade dentro. Una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    135.7,
+    522.8,
+    146.2
+   ],
+   "size": 8.8,
+   "testo": "che supera il tiro salvezza riesce a spostarsi insieme al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    146.7,
+    440.3,
+    157.3
+   ],
+   "size": 8.8,
+   "testo": "bordo della crepa mentre si apre.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.3,
+    157.8,
+    516.9,
+    168.3
+   ],
+   "size": 8.8,
+   "testo": "Strutture. La scossa infligge 50 danni contundenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    168.7,
+    540.9,
+    179.3
+   ],
+   "size": 8.8,
+   "testo": "a una qualsiasi struttura a contatto con il terreno nell'area",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    179.7,
+    519.2,
+    190.3
+   ],
+   "size": 8.8,
+   "testo": "in cui è stato lanciato l'incantesimo e alla fine di ogni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    190.7,
+    527.4,
+    201.3
+   ],
+   "size": 8.8,
+   "testo": "turno dell'incantatore fino al termine dell'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.6,
+    201.8,
+    487.6,
+    212.3
+   ],
+   "size": 8.8,
+   "testo": "Se la struttura scende a 0 punti ferita, crolla.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.6,
+    212.7,
+    505.6,
+    223.2
+   ],
+   "size": 8.8,
+   "testo": "Una creatura situata entro una distanza da una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    223.7,
+    533.3,
+    234.3
+   ],
+   "size": 8.8,
+   "testo": "struttura in disfacimento pari alla metà dell'altezza della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    234.8,
+    525.4,
+    245.3
+   ],
+   "size": 8.8,
+   "testo": "struttura stessa effettua un tiro salvezza su Destrezza.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.6,
+    245.7,
+    505.2,
+    256.3
+   ],
+   "size": 8.8,
+   "testo": "Se fallisce, subisce 12d6 danni contundenti, viene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    256.7,
+    527.2,
+    267.2
+   ],
+   "size": 8.8,
+   "testo": "buttata a terra prona e rimane sepolta sotto le macerie;",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    267.8,
+    528.6,
+    278.4
+   ],
+   "size": 8.8,
+   "testo": "per liberarsi con un'azione deve effettuare una prova di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    278.8,
+    535.2,
+    289.4
+   ],
+   "size": 8.8,
+   "testo": "Forza (Atletica) con CD 20. Se la supera, subisce soltanto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    289.7,
+    396.2,
+    300.3
+   ],
+   "size": 8.8,
+   "testo": "la metà di quei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    324.5,
+    419.6,
+    335.9
+   ],
+   "size": 11.2,
+   "testo": "TERRENO ILLUSORIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    335.9,
+    498.5,
+    346.4
+   ],
+   "size": 8.6,
+   "testo": "Illusionedi4° livello (bardo, druido, mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    351.6,
+    413.3,
+    361.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    362.5,
+    375.4,
+    372.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 90 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    373.5,
+    432.5,
+    383.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un fungo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.0,
+    384.6,
+    366.5,
+    394.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: 24 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    400.8,
+    526.1,
+    411.4
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore fa in modo che un terreno naturale in un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    411.9,
+    535.1,
+    422.5
+   ],
+   "size": 8.8,
+   "testo": "cubo con spigolo di 45 metri entro gittata abbia l'aspetto,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    422.9,
+    519.3,
+    433.5
+   ],
+   "size": 8.8,
+   "testo": "i suoni e gli odori di un altro tipo di terreno naturale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    433.8,
+    524.4,
+    444.4
+   ],
+   "size": 8.8,
+   "testo": "Un campo aperto o una strada potrebbe così sembrare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    444.9,
+    518.2,
+    455.4
+   ],
+   "size": 8.8,
+   "testo": "una palude, una collina, un crepaccio o qualche altro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    455.8,
+    526.4,
+    466.4
+   ],
+   "size": 8.8,
+   "testo": "tipo di terreno difficile e invalicabile. Allo stesso modo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    466.8,
+    530.6,
+    477.4
+   ],
+   "size": 8.8,
+   "testo": "uno stagno potrebbe apparire come un prato erboso, un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.1,
+    477.8,
+    530.8,
+    488.4
+   ],
+   "size": 8.8,
+   "testo": "precipizio come un dolce pendio o un fosso irto di rocce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.6,
+    488.8,
+    524.8,
+    499.4
+   ],
+   "size": 8.8,
+   "testo": "come una strada ampia e accogliente. Tuttavia, le strut­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.4,
+    499.9,
+    537.3,
+    510.4
+   ],
+   "size": 8.8,
+   "testo": "ture artificiali, l'equipaggiamento e le creature all'interno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.0,
+    510.9,
+    405.3,
+    521.5
+   ],
+   "size": 8.8,
+   "testo": "dell'area non cambiano.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.8,
+    521.9,
+    532.5,
+    532.5
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, le caratteristiche tattili del terreno rimangono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    532.9,
+    533.3,
+    543.5
+   ],
+   "size": 8.8,
+   "testo": "invariate, quindi le creature che entrano nell'area hanno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    543.9,
+    508.0,
+    554.5
+   ],
+   "size": 8.8,
+   "testo": "buone probabilità di accorgersi dell'illusione. Se la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    554.9,
+    535.4,
+    565.5
+   ],
+   "size": 8.8,
+   "testo": "differenza non è ovvia al tatto, una creatura che esamina",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    565.9,
+    534.4,
+    576.4
+   ],
+   "size": 8.8,
+   "testo": "l'illusione può effettuare l'azione di Studio per effettuare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    576.9,
+    535.9,
+    587.5
+   ],
+   "size": 8.8,
+   "testo": "una prova di Intelligenza (Indagare) contro la CD del tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    587.9,
+    540.9,
+    598.4
+   ],
+   "size": 8.8,
+   "testo": "salvezza sull'incantesimo per non essere tratta in inganno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.6,
+    598.8,
+    532.9,
+    609.3
+   ],
+   "size": 8.8,
+   "testo": "Se una creatura si accorge che il terreno è illusorio, vede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.5,
+    610.0,
+    517.7,
+    620.6
+   ],
+   "size": 8.8,
+   "testo": "un'immagine indistinta sovrapposta al terreno reale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    644.9,
+    420.3,
+    656.2
+   ],
+   "size": 11.2,
+   "testo": "Tocco DEL VAMPIRO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    656.2,
+    496.9,
+    666.7
+   ],
+   "size": 8.6,
+   "testo": "Necromanzia di3° livello (stregone, mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    671.8,
+    402.6,
+    681.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    682.8,
+    386.1,
+    692.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    693.8,
+    377.5,
+    703.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.0,
+    704.8,
+    464.2,
+    714.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

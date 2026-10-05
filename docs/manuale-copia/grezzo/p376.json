@@ -1,0 +1,1380 @@
+{
+ "pagina_pdf": 376,
+ "pagina_stampata": 373,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "APPENDICE C \\GLOSSARIO DELLE REGOLE / 373",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    63.0,
+    53.8,
+    112.2,
+    65.2
+   ],
+   "size": 11.2,
+   "testo": "SCALARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    65.1,
+    277.7,
+    75.7
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio scala, ogni 30 centimetri di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    76.1,
+    279.9,
+    86.7
+   ],
+   "size": 8.8,
+   "testo": "movimento costano 30 centimetri extra (60 centimetri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    87.1,
+    289.2,
+    97.6
+   ],
+   "size": 8.8,
+   "testo": "extra in caso di terreno difficile). Se il personaggio ha una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    98.0,
+    287.2,
+    108.6
+   ],
+   "size": 8.8,
+   "testo": "velocità di scalata e la usa per scalare, ignora i costi extra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    109.0,
+    99.1,
+    119.6
+   ],
+   "size": 8.8,
+   "testo": "descritti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.6,
+    120.1,
+    283.3,
+    130.7
+   ],
+   "size": 8.8,
+   "testo": "A discrezione del DM, per scalare una superficie scivo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    131.1,
+    288.9,
+    141.6
+   ],
+   "size": 8.8,
+   "testo": "losa o una che offra pochi appigli potrebbe essere necessa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.9,
+    142.1,
+    270.7,
+    152.6
+   ],
+   "size": 8.8,
+   "testo": "rio superare una prova di Forza (Atletica) con CD 15.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    176.9,
+    155.7,
+    188.2
+   ],
+   "size": 11.2,
+   "testo": "SCATTO [AZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    188.2,
+    272.8,
+    198.8
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio effettua l'azione di Scatto,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    199.3,
+    288.1,
+    209.9
+   ],
+   "size": 8.8,
+   "testo": "ottiene del movimento extra per il turno in corso. Questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    210.3,
+    283.3,
+    220.8
+   ],
+   "size": 8.8,
+   "testo": "incremento è pari alla sua velocità, dopo avere applicato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    221.3,
+    283.8,
+    231.9
+   ],
+   "size": 8.8,
+   "testo": "eventuali modificatori. Per esempio, se il personaggio ha",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.9,
+    232.3,
+    281.7,
+    242.9
+   ],
+   "size": 8.8,
+   "testo": "una velocità di 9 metri, nel suo turno può muoversi fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    243.3,
+    280.7,
+    253.9
+   ],
+   "size": 8.8,
+   "testo": "a 18 metri se scatta. Se il personaggio ha una velocità di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    254.3,
+    279.5,
+    264.8
+   ],
+   "size": 8.8,
+   "testo": "9 metri che viene ridotta a 4,5 metri, nel suo turno può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    265.4,
+    193.5,
+    275.9
+   ],
+   "size": 8.8,
+   "testo": "muoversi fino a 9 metri se scatta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    71.1,
+    276.3,
+    282.5,
+    286.9
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio possiede una velocità speciale, come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    287.4,
+    287.3,
+    297.9
+   ],
+   "size": 8.8,
+   "testo": "una velocità di volo o di nuoto, può usarla in sostituzione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.9,
+    298.3,
+    291.7,
+    308.9
+   ],
+   "size": 8.8,
+   "testo": "alla sua velocità quando effettua questa azione. Ogni volta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.9,
+    309.3,
+    277.6,
+    319.8
+   ],
+   "size": 8.8,
+   "testo": "che effettua l'azione, può scegliere quale velocità utiliz­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    320.3,
+    168.5,
+    330.8
+   ],
+   "size": 8.8,
+   "testo": "zare. Vedianche \"Velocità\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    355.0,
+    211.3,
+    366.3
+   ],
+   "size": 11.2,
+   "testo": "SCHEDA DELLE STATISTICHE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    366.3,
+    292.0,
+    376.8
+   ],
+   "size": 8.8,
+   "testo": "Una scheda delle statistiche contiene le statistiche di gioco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    377.3,
+    280.6,
+    387.9
+   ],
+   "size": 8.8,
+   "testo": "di un mostro. Ogni scheda contiene le seguenti informa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.4,
+    388.4,
+    253.8,
+    399.0
+   ],
+   "size": 8.8,
+   "testo": "zioni, presentate subito dopo il nome del mostro:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    71.3,
+    399.4,
+    293.1,
+    410.0
+   ],
+   "size": 8.8,
+   "testo": "Taglia. Un mostro può essere Minuscolo, Piccolo, Medio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    410.6,
+    270.5,
+    421.1
+   ],
+   "size": 8.8,
+   "testo": "Grande, Enorme o Mastodontico. Vedianche \"Taglia\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    71.3,
+    421.5,
+    280.0,
+    432.1
+   ],
+   "size": 8.8,
+   "testo": "Tipo di creatura. Questa voce riporta la famiglia a cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.9,
+    432.5,
+    292.9,
+    443.1
+   ],
+   "size": 8.8,
+   "testo": "appartiene il mostro, insieme ad altri descrittori. Vedianche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    443.5,
+    136.1,
+    454.1
+   ],
+   "size": 8.8,
+   "testo": "\"Tipo di creatura\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.5,
+    454.5,
+    265.4,
+    465.0
+   ],
+   "size": 8.8,
+   "testo": "Allineamento. Per ogni mostro viene suggerito un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    465.5,
+    289.0,
+    476.1
+   ],
+   "size": 8.8,
+   "testo": "allineamento, ma questo può essere definito a discrezione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    476.5,
+    199.7,
+    487.1
+   ],
+   "size": 8.8,
+   "testo": "del DM. Vedianche \"Allineamento\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    71.2,
+    487.5,
+    264.8,
+    498.1
+   ],
+   "size": 8.8,
+   "testo": "CA, iniziativa ePF. Queste voci indicano la Classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    498.6,
+    288.5,
+    509.2
+   ],
+   "size": 8.8,
+   "testo": "Armatura, l'iniziativa e i punti ferita del mostro, descritti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    509.6,
+    269.6,
+    520.1
+   ],
+   "size": 8.8,
+   "testo": "in dettaglio nel capitolo 1. Tra parentesi, dopo i punti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    520.5,
+    284.6,
+    531.1
+   ],
+   "size": 8.8,
+   "testo": "ferita, sono indicati i Dadi Vita del mostro e, se presente,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    531.6,
+    276.7,
+    542.2
+   ],
+   "size": 8.8,
+   "testo": "il contributo dato dalla sua caratteristica Costituzione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    542.6,
+    276.5,
+    553.2
+   ],
+   "size": 8.8,
+   "testo": "ai suoi punti ferita. Il punteggio di iniziativa è indicato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    553.5,
+    286.1,
+    564.1
+   ],
+   "size": 8.8,
+   "testo": "subito dopo il modificatore di iniziativa. Alcune creature",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    564.5,
+    290.5,
+    575.1
+   ],
+   "size": 8.8,
+   "testo": "che sono state create dalla magia non presentano informa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    575.5,
+    227.8,
+    586.1
+   ],
+   "size": 8.8,
+   "testo": "zioni riguardanti i Dadi Vita e l'iniziativa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    71.4,
+    586.5,
+    267.6,
+    597.1
+   ],
+   "size": 8.8,
+   "testo": "Velocità. Qui viene indicata la velocità del mostro,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    597.5,
+    285.4,
+    608.0
+   ],
+   "size": 8.8,
+   "testo": "insieme a eventuali velocità speciali. Vedianche \"Velocità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    608.6,
+    288.0,
+    619.2
+   ],
+   "size": 8.8,
+   "testo": "di nuoto\", \"Velocità di scalata\", \"Velocità di scavo\" e \"Velo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.3,
+    619.6,
+    112.5,
+    630.2
+   ],
+   "size": 8.8,
+   "testo": "cità di volo''.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.8,
+    630.7,
+    281.0,
+    641.3
+   ],
+   "size": 8.8,
+   "testo": "Punteggi di caratteristica. In una tabella sono indicati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.3,
+    641.8,
+    293.1,
+    652.3
+   ],
+   "size": 8.8,
+   "testo": "i punteggi di caratteristica, i modificatori e i modificatori ai",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    652.7,
+    291.9,
+    663.2
+   ],
+   "size": 8.8,
+   "testo": "tiri salvezza del mostro, descritti in dettaglio nel capitolo 1.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.7,
+    663.7,
+    290.6,
+    674.2
+   ],
+   "size": 8.8,
+   "testo": "Abilità. Questavoceelenca le competenze nelle abilità del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    674.6,
+    285.2,
+    685.2
+   ],
+   "size": 8.8,
+   "testo": "mostro, se presenti. Vedianche capitolo 1 (\"Competenza\").",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.9,
+    685.6,
+    284.9,
+    696.2
+   ],
+   "size": 8.8,
+   "testo": "Resistenza e Vulnerabilità. Queste voci elencano le resi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.3,
+    696.7,
+    291.4,
+    707.2
+   ],
+   "size": 8.8,
+   "testo": "stenze e le vulnerabilità del mostro, se presenti. Vedianche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.4,
+    707.6,
+    181.7,
+    718.2
+   ],
+   "size": 8.8,
+   "testo": "\"Resistenza\" e \"Vulnerabilità\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.3,
+    38.0,
+    544.6,
+    48.6
+   ],
+   "size": 8.8,
+   "testo": "Immunità. Questa sezione indica le immunità del mostro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.2,
+    49.1,
+    535.5,
+    59.6
+   ],
+   "size": 8.8,
+   "testo": "a danni e condizioni, se presenti. Vedianche \"Immunità\".",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    322.7,
+    60.1,
+    533.5,
+    70.7
+   ],
+   "size": 8.8,
+   "testo": "Attrezzatura. Se il mostro ha qualsiasi tipo di equipag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    71.1,
+    524.3,
+    81.7
+   ],
+   "size": 8.8,
+   "testo": "giamento recuperabile o che può essere ceduto, viene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    82.1,
+    409.2,
+    92.6
+   ],
+   "size": 8.8,
+   "testo": "indicato in questa voce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    93.0,
+    527.9,
+    103.6
+   ],
+   "size": 8.8,
+   "testo": "Sensi. Questa voce elenca i sensi speciali del mostro,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    104.0,
+    533.5,
+    114.6
+   ],
+   "size": 8.8,
+   "testo": "come la Percezione passiva e la scurovisione. Vedianche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    115.0,
+    398.8,
+    125.6
+   ],
+   "size": 8.8,
+   "testo": "\"Percezione passiva\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    126.0,
+    519.1,
+    136.6
+   ],
+   "size": 8.8,
+   "testo": "Lingue. Questa voce elenca le lingue che il mostro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    136.9,
+    350.9,
+    147.5
+   ],
+   "size": 8.8,
+   "testo": "conosce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.9,
+    148.1,
+    532.8,
+    158.6
+   ],
+   "size": 8.8,
+   "testo": "GS. Il grado di sfida indica quanto è grave la minaccia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    159.1,
+    514.0,
+    169.6
+   ],
+   "size": 8.8,
+   "testo": "costituita dal mostro ed è descritta in dettaglio nel",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    170.0,
+    534.7,
+    180.6
+   ],
+   "size": 8.8,
+   "testo": "Manuale deiMostri. Subito dopo vengono indicati i punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.6,
+    181.1,
+    531.9,
+    191.6
+   ],
+   "size": 8.8,
+   "testo": "esperienza che i personaggi ricevono per aver sconfitto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.2,
+    192.1,
+    528.5,
+    202.7
+   ],
+   "size": 8.8,
+   "testo": "il mostro, e il bonus di competenza del mostro. Alcune",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    203.1,
+    507.5,
+    213.7
+   ],
+   "size": 8.8,
+   "testo": "creature create dalla magia non hanno alcun GS.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    214.1,
+    501.7,
+    224.7
+   ],
+   "size": 8.8,
+   "testo": "Vedianche \"Grado di sfida\" e \"Punti esperienza\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.5,
+    225.1,
+    536.6,
+    235.7
+   ],
+   "size": 8.8,
+   "testo": "Tratti. I tratti del mostro, se presenti, sono caratteristi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    236.1,
+    510.2,
+    246.6
+   ],
+   "size": 8.8,
+   "testo": "che sempre attive o attive solo in certe situazioni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.7,
+    247.1,
+    544.1,
+    257.6
+   ],
+   "size": 8.8,
+   "testo": "Azioni. Oltre alle azioni descritte nel glossario, il mostro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.2,
+    258.1,
+    512.2,
+    268.6
+   ],
+   "size": 8.8,
+   "testo": "può effettuare le azioni indicate in questa sezione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    269.2,
+    438.8,
+    279.8
+   ],
+   "size": 8.8,
+   "testo": "Vedianche capitolo 1 (''Azioni\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.8,
+    280.2,
+    522.4,
+    290.8
+   ],
+   "size": 8.8,
+   "testo": "Azioni bonus. Se il mostro ha delle azioni bonus da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    291.1,
+    483.3,
+    301.7
+   ],
+   "size": 8.8,
+   "testo": "effettuare, sono indicate in questa sezione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.1,
+    302.2,
+    522.3,
+    312.7
+   ],
+   "size": 8.8,
+   "testo": "Reazioni. Se il mostro può effettuare delle reazioni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    313.1,
+    473.6,
+    323.7
+   ],
+   "size": 8.8,
+   "testo": "speciali, sono indicate in questa sezione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.0,
+    324.1,
+    540.4,
+    334.6
+   ],
+   "size": 8.8,
+   "testo": "Informazioni sull'attacco. La voce che descrive l'attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    335.1,
+    529.2,
+    345.6
+   ],
+   "size": 8.8,
+   "testo": "di un mostro fornisce varie informazioni, a partire dal",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    346.1,
+    531.2,
+    356.6
+   ],
+   "size": 8.8,
+   "testo": "tipo di attacco (in mischia o a distanza), il bonus al tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    357.1,
+    532.1,
+    367.6
+   ],
+   "size": 8.8,
+   "testo": "per colpire, la sua portata o gittata, e le conseguenze se",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    368.0,
+    538.0,
+    378.5
+   ],
+   "size": 8.8,
+   "testo": "il colpo va a segno. Un attacco è inteso contro un singolo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    379.1,
+    519.8,
+    389.6
+   ],
+   "size": 8.8,
+   "testo": "bersaglio, a meno che la voce non indichi altrimenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.1,
+    390.1,
+    530.8,
+    400.7
+   ],
+   "size": 8.8,
+   "testo": "Informazioni sul tiro salvezza. Se un effetto costringe",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    401.2,
+    527.6,
+    411.8
+   ],
+   "size": 8.8,
+   "testo": "a effettuare un tiro salvezza, la voce riferita all'effetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    412.2,
+    527.9,
+    422.8
+   ],
+   "size": 8.8,
+   "testo": "indica il tipo di tiro salvezza richiesto e fornisce la CD",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    423.3,
+    544.9,
+    433.8
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, una descrizione di quali creature devono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    434.2,
+    523.9,
+    444.8
+   ],
+   "size": 8.8,
+   "testo": "effettuare il tiro, e le conseguenze di un tiro salvezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    445.2,
+    381.9,
+    455.7
+   ],
+   "size": 8.8,
+   "testo": "riuscito o fallito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.2,
+    456.2,
+    520.2,
+    466.8
+   ],
+   "size": 8.8,
+   "testo": "Informazioni suidanni. La scheda delle statistiche,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    467.1,
+    543.8,
+    477.7
+   ],
+   "size": 8.8,
+   "testo": "per ogni istanza di danno, di solito fornisce sia un numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    478.1,
+    528.3,
+    488.7
+   ],
+   "size": 8.8,
+   "testo": "statico sia una formula che utilizza i dadi. Ad esempio,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.4,
+    489.1,
+    542.7,
+    499.7
+   ],
+   "size": 8.8,
+   "testo": "un attacco potrebbe infliggere 4 (1d4 + 2) danni se il colpo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.2,
+    493.1,
+    537.8,
+    511.3
+   ],
+   "size": 8.8,
+   "testo": "va a segno. È il DM a scegliere se far utilizzare il numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    511.3,
+    534.1,
+    521.8
+   ],
+   "size": 8.8,
+   "testo": "statico o la formula con i dadi in parentesi. Non bisogna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    522.3,
+    395.1,
+    532.8
+   ],
+   "size": 8.8,
+   "testo": "utilizzare entrambi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    557.0,
+    457.6,
+    568.4
+   ],
+   "size": 11.2,
+   "testo": "SCHEDA DEL PERSONAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.6,
+    568.3,
+    537.0,
+    578.9
+   ],
+   "size": 8.8,
+   "testo": "La scheda del personaggio è una nota digitale o cartacea",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    579.3,
+    542.5,
+    589.9
+   ],
+   "size": 8.8,
+   "testo": "che usi per tenere traccia delle informazioni sul tuo perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    590.3,
+    429.9,
+    600.9
+   ],
+   "size": 8.8,
+   "testo": "naggio. Vedianche capitolo 2.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    625.3,
+    418.9,
+    636.7
+   ],
+   "size": 11.2,
+   "testo": "SCHIVATA [AZIONE]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    636.5,
+    542.1,
+    647.0
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio effettua l'azione di Schivata, ottiene",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    647.6,
+    542.5,
+    658.2
+   ],
+   "size": 8.8,
+   "testo": "i seguenti benefici: fino all'inizio del suo turno successivo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    658.6,
+    522.1,
+    669.1
+   ],
+   "size": 8.8,
+   "testo": "ogni tiro per colpire effettuato contro il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    669.5,
+    536.5,
+    680.1
+   ],
+   "size": 8.8,
+   "testo": "subisce svantaggio se il personaggio è in grado di vedere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    680.5,
+    543.1,
+    691.1
+   ],
+   "size": 8.8,
+   "testo": "l'attaccante, e ogni suo tiro salvezza su Destrezza dispone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.5,
+    691.5,
+    368.1,
+    702.1
+   ],
+   "size": 8.8,
+   "testo": "di vantaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.8,
+    702.5,
+    530.3,
+    713.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio perde questi benefici se è incapacitato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.5,
+    713.6,
+    431.7,
+    724.1
+   ],
+   "size": 8.8,
+   "testo": "o se la sua velocità scende a 0.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

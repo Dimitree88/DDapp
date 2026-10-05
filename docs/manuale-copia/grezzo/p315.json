@@ -1,0 +1,973 @@
+{
+ "pagina_pdf": 315,
+ "pagina_stampata": 312,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "312 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   101,
+   25,
+   481,
+   240
+  ],
+  [
+   44,
+   423,
+   540,
+   723
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    52.1,
+    262.6,
+    185.0,
+    274.0
+   ],
+   "size": 11.2,
+   "testo": "RICHIAMA ABERRAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    274.2,
+    196.0,
+    284.7
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi4° livello (mago, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    289.9,
+    143.6,
+    299.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    300.9,
+    116.1,
+    310.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    311.8,
+    272.6,
+    321.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un tentacolo in salamoia e un bulbo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    322.8,
+    254.7,
+    332.4
+   ],
+   "size": 8.4,
+   "testo": "oculare in una fiala intarsiata di platino del valore di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    333.7,
+    115.2,
+    343.4
+   ],
+   "size": 8.4,
+   "testo": "400 mo o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    344.8,
+    189.2,
+    354.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    361.0,
+    275.0,
+    371.5
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore invoca uno spirito aberrante, che si manife­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    371.9,
+    274.6,
+    382.5
+   ],
+   "size": 8.8,
+   "testo": "sta in uno spazio libero entro gittata che egli sia in grado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    382.9,
+    276.9,
+    393.5
+   ],
+   "size": 8.8,
+   "testo": "di vedere e utilizza la scheda delle statistiche dello Spirito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    393.9,
+    260.6,
+    404.5
+   ],
+   "size": 8.8,
+   "testo": "Aberrante. Al lancio dell'incantesimo, il personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    405.0,
+    268.0,
+    415.7
+   ],
+   "size": 8.8,
+   "testo": "deve scegliere tra pseudo-beholder, mind flayer o slaad.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    429.9,
+    173.1,
+    443.6
+   ],
+   "size": 10.4,
+   "testo": "SPIRITO ABERRANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    448.2,
+    158.0,
+    457.4
+   ],
+   "size": 9.2,
+   "testo": "Aberrazione Media, neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    462.5,
+    179.4,
+    472.1
+   ],
+   "size": 8.4,
+   "testo": "CA 11 + il livello dell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    473.3,
+    250.9,
+    483.0
+   ],
+   "size": 8.4,
+   "testo": "PF 40 + 10 per ogni livello di incantesimo sopra il 4°",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    484.4,
+    265.5,
+    494.1
+   ],
+   "size": 8.4,
+   "testo": "Velocità 9 m, volo 9 m (fluttuare; solo pseudo-beholder)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    91.2,
+    498.0,
+    124.4,
+    505.4
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    169.2,
+    497.9,
+    202.1,
+    505.3
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    246.8,
+    497.9,
+    279.6,
+    505.3
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    507.7,
+    101.7,
+    517.3
+   ],
+   "size": 8.4,
+   "testo": "FoR 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.3,
+    507.7,
+    119.4,
+    517.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    132.4,
+    507.7,
+    198.5,
+    517.3
+   ],
+   "size": 8.4,
+   "testo": "DES 10 +0 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    209.9,
+    507.7,
+    256.9,
+    517.3
+   ],
+   "size": 8.4,
+   "testo": "Cos 15 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    264.3,
+    507.7,
+    275.4,
+    517.3
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    521.9,
+    101.7,
+    531.6
+   ],
+   "size": 8.4,
+   "testo": "INT 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.1,
+    521.9,
+    120.2,
+    531.6
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    131.9,
+    521.9,
+    198.6,
+    531.6
+   ],
+   "size": 8.4,
+   "testo": "SAG 10 +0 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    209.8,
+    521.9,
+    238.1,
+    531.6
+   ],
+   "size": 8.4,
+   "testo": "CAR 6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    245.6,
+    521.9,
+    256.9,
+    531.6
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    264.1,
+    521.9,
+    275.0,
+    531.6
+   ],
+   "size": 8.4,
+   "testo": "-2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    540.9,
+    123.7,
+    550.6
+   ],
+   "size": 8.4,
+   "testo": "Immunità psichico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    551.9,
+    231.9,
+    561.5
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 10, scurovisione 18 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    562.8,
+    278.2,
+    572.5
+   ],
+   "size": 8.4,
+   "testo": "Lingue Gergo delle Profondità, comprende le lingue parlate",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    573.8,
+    122.0,
+    583.4
+   ],
+   "size": 8.4,
+   "testo": "dal personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    584.8,
+    260.9,
+    594.4
+   ],
+   "size": 8.4,
+   "testo": "GS nessuno (PE 0; BC pari al bonus di competenza del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    595.8,
+    110.0,
+    605.5
+   ],
+   "size": 8.4,
+   "testo": "personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    607.0,
+    85.1,
+    625.2
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    629.6,
+    278.0,
+    639.2
+   ],
+   "size": 8.4,
+   "testo": "Aura sussurante (solo mindjlayer). All'inizio di ogni suo turno,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    641.1,
+    266.2,
+    650.7
+   ],
+   "size": 8.4,
+   "testo": "se lo spirito non è incapacitato emette energia psionica.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    652.5,
+    273.4,
+    662.2
+   ],
+   "size": 9.2,
+   "testo": "Tiro salvezza su Saggezza: CD pari alla CD del tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    664.1,
+    278.3,
+    673.7
+   ],
+   "size": 8.4,
+   "testo": "sull'incantesimo, ogni creatura (eccetto l'incantatore) entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    675.6,
+    254.5,
+    685.3
+   ],
+   "size": 9.2,
+   "testo": "1,5 metri dallo spirito. Fallimento: 2d6 danni psichici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    691.5,
+    275.6,
+    701.1
+   ],
+   "size": 8.4,
+   "testo": "Rigenerazione (solo slaad). Se lo spirito ha almeno 1 punto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    703.0,
+    218.8,
+    712.6
+   ],
+   "size": 8.4,
+   "testo": "ferita, ne recupera 5 all'inizio del suo turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    249.4,
+    518.2,
+    259.9
+   ],
+   "size": 8.8,
+   "testo": "La creatura ha le sembianze di una delle aberrazioni e,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    260.3,
+    528.6,
+    270.9
+   ],
+   "size": 8.8,
+   "testo": "in base a questa somiglianza, vengono determinati alcuni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    271.3,
+    513.5,
+    281.9
+   ],
+   "size": 8.8,
+   "testo": "dettagli nella sua scheda delle statistiche. La creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    282.4,
+    503.1,
+    293.0
+   ],
+   "size": 8.8,
+   "testo": "scompare quando scende a 0 punti ferita o quando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    293.5,
+    522.2,
+    304.0
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo termina ed è un alleato per il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    304.4,
+    361.3,
+    315.0
+   ],
+   "size": 8.8,
+   "testo": "e i suoi alleati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    315.4,
+    520.8,
+    325.9
+   ],
+   "size": 8.8,
+   "testo": "In combattimento ha lo stesso punteggio di iniziativa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    326.4,
+    529.4,
+    337.0
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore, ma inizia il turno immediatamente dopo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    337.3,
+    530.0,
+    347.9
+   ],
+   "size": 8.8,
+   "testo": "il suo, obbedendo ai suoi comandi verbali (nessuna azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    348.3,
+    524.3,
+    358.9
+   ],
+   "size": 8.8,
+   "testo": "richiesta da parte dell'incantatore). Se l'incantatore non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    359.3,
+    529.5,
+    369.9
+   ],
+   "size": 8.8,
+   "testo": "pronuncia comandi verbali, la creatura compie l'azione di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    370.3,
+    526.9,
+    380.9
+   ],
+   "size": 8.8,
+   "testo": "Schivata e usa il suo movimento per sottrarsi al pericolo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    383.0,
+    507.7,
+    391.6
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    392.3,
+    507.7,
+    402.8
+   ],
+   "size": 8.8,
+   "testo": "Usa il livello dello slot incantesimo relativo al livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    403.4,
+    484.9,
+    414.0
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo nella scheda delle statistiche.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    456.1,
+    342.7,
+    474.3
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    478.7,
+    530.5,
+    488.4
+   ],
+   "size": 8.4,
+   "testo": "Multiattacco. Lo spirito effettua u n numero d i attacchi pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    490.0,
+    518.9,
+    499.7
+   ],
+   "size": 8.4,
+   "testo": "alla metà del livello di quest'incantesimo (arrotondando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    501.6,
+    350.5,
+    511.2
+   ],
+   "size": 8.4,
+   "testo": "per difetto).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    517.7,
+    512.7,
+    527.4
+   ],
+   "size": 9.2,
+   "testo": "Artiglio (solo slaad). Tiro per colpire in mischia: il bonus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    529.1,
+    514.8,
+    538.7
+   ],
+   "size": 8.4,
+   "testo": "equivale al modificatore di attacco dell'incantesimo del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    540.5,
+    530.0,
+    550.2
+   ],
+   "size": 9.2,
+   "testo": "personaggio, portata di 1,5 metri. Colpo: 1d10 + 3 +il livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    552.1,
+    518.2,
+    561.8
+   ],
+   "size": 8.4,
+   "testo": "dell'incantesimo danni taglienti. Inoltre, il bersaglio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    563.6,
+    527.7,
+    573.2
+   ],
+   "size": 8.4,
+   "testo": "può recuperare i punti ferita fino all'inizio del turno succes­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    575.1,
+    370.9,
+    584.7
+   ],
+   "size": 8.4,
+   "testo": "sivo dello spirito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    591.5,
+    528.7,
+    600.7
+   ],
+   "size": 9.2,
+   "testo": "Colpo psichico (solo mindflayer). Tiro per colpire in mischia:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    602.5,
+    533.8,
+    612.2
+   ],
+   "size": 8.4,
+   "testo": "il bonus equivale al modificatore di attacco dell'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    614.1,
+    510.0,
+    623.8
+   ],
+   "size": 9.2,
+   "testo": "del personaggio, portata di 1,5 metri. Colpo: 1d8 + 3 +",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    625.7,
+    457.1,
+    635.3
+   ],
+   "size": 8.4,
+   "testo": "il livello dell'incantesimo danni psichici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    642.2,
+    508.6,
+    651.4
+   ],
+   "size": 9.2,
+   "testo": "Raggio oculare (solo pseudo-beholder). Tiro percolpire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    653.2,
+    510.3,
+    663.0
+   ],
+   "size": 9.2,
+   "testo": "a distanza: il bonus equivale al modificatore di attacco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    664.7,
+    506.9,
+    674.3
+   ],
+   "size": 8.4,
+   "testo": "dell'incantesimo del personaggio, gittata di 45 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    676.2,
+    519.7,
+    685.9
+   ],
+   "size": 9.2,
+   "testo": "Colpo: 1d8 + 3 + il livello dell'incantesimo danni psichici.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,1308 @@
+{
+ "pagina_pdf": 289,
+ "pagina_stampata": 286,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "286 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    50.7,
+    31.4,
+    265.1,
+    42.0
+   ],
+   "size": 8.8,
+   "testo": "Questo incantesimo inverte la gravità all'interno di un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    42.4,
+    265.8,
+    53.0
+   ],
+   "size": 8.8,
+   "testo": "cilindro del raggio di 15 metri e dell'altezza di 30 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    53.5,
+    255.3,
+    64.1
+   ],
+   "size": 8.8,
+   "testo": "centrato su un punto entro gittata. Tutte le creature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    64.5,
+    264.9,
+    75.0
+   ],
+   "size": 8.8,
+   "testo": "e gli oggetti presenti nell'area che non sono ancorati al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    75.5,
+    269.7,
+    86.1
+   ],
+   "size": 8.8,
+   "testo": "terreno vengono trascinati verso l'alto e raggiungono la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    86.5,
+    273.3,
+    97.1
+   ],
+   "size": 8.8,
+   "testo": "parte superiore del cilindro. Una creatura può effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    97.5,
+    263.3,
+    108.1
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Destrezza per afferrare un oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    108.4,
+    275.9,
+    119.0
+   ],
+   "size": 8.8,
+   "testo": "ancorato entro portata, evitando così di essere trascinata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    119.4,
+    97.2,
+    130.0
+   ],
+   "size": 8.8,
+   "testo": "verso l'alto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    130.4,
+    251.2,
+    141.0
+   ],
+   "size": 8.8,
+   "testo": "Se un soffitto o un oggetto ancorato viene urtato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    141.4,
+    274.5,
+    151.9
+   ],
+   "size": 8.8,
+   "testo": "durante questa caduta, gli oggetti e le creature subiscono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    152.4,
+    259.5,
+    163.0
+   ],
+   "size": 8.8,
+   "testo": "un impatto identico a quello che subirebbero durante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    163.4,
+    270.3,
+    174.0
+   ],
+   "size": 8.8,
+   "testo": "una normale caduta verso il basso. Se una creatura o un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    174.3,
+    280.8,
+    184.9
+   ],
+   "size": 8.8,
+   "testo": "oggetto influenzato arriva in cima al cilindro senza colpire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    185.5,
+    280.1,
+    196.0
+   ],
+   "size": 8.8,
+   "testo": "niente, rimane lì a fluttuare per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    196.6,
+    255.2,
+    207.1
+   ],
+   "size": 8.8,
+   "testo": "Al termine dell'incantesimo, le creature e gli oggetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    207.5,
+    181.5,
+    218.1
+   ],
+   "size": 8.8,
+   "testo": "influenzati cadono verso il basso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    242.3,
+    97.3,
+    253.6
+   ],
+   "size": 11.2,
+   "testo": "INVIARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    253.7,
+    222.8,
+    264.1
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi3° livello (bardo, chierico, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    269.3,
+    142.3,
+    279.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    280.3,
+    116.4,
+    289.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: illimitata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    291.4,
+    193.0,
+    301.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un filo di rame)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    302.4,
+    122.9,
+    312.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    318.6,
+    263.9,
+    329.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore invia un breve messaggio di un massimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    329.6,
+    259.4,
+    340.2
+   ],
+   "size": 8.8,
+   "testo": "di 25 parole a una creatura che ha incontrato o a una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    340.5,
+    255.4,
+    351.1
+   ],
+   "size": 8.8,
+   "testo": "creatura che gli è stata descritta da qualcuno che ha",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    351.5,
+    279.2,
+    362.1
+   ],
+   "size": 8.8,
+   "testo": "conosciuto. Il bersaglio sente il messaggio nella sua mente,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    362.5,
+    272.1,
+    373.0
+   ],
+   "size": 8.8,
+   "testo": "riconosce l'incantatore come colui che l'ha inviato e può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    373.5,
+    262.0,
+    384.1
+   ],
+   "size": 8.8,
+   "testo": "rispondere immediatamente allo stesso modo. L'incan­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    384.5,
+    271.3,
+    395.0
+   ],
+   "size": 8.8,
+   "testo": "tesimo consente ai bersagli di comprendere il significato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    395.4,
+    172.7,
+    406.0
+   ],
+   "size": 8.8,
+   "testo": "del messaggio dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.8,
+    406.7,
+    251.6,
+    417.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può inviare il messaggio a qualsiasi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    417.6,
+    255.6,
+    428.2
+   ],
+   "size": 8.8,
+   "testo": "distanza e perfino ad altri piani di esistenza, ma se il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    428.6,
+    277.6,
+    439.1
+   ],
+   "size": 8.8,
+   "testo": "bersaglio si trova su un piano di esistenza diverso dal suo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    439.5,
+    262.0,
+    450.1
+   ],
+   "size": 8.8,
+   "testo": "c'è una probabilità del 5% che il messaggio non arrivi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    450.5,
+    275.1,
+    461.1
+   ],
+   "size": 8.8,
+   "testo": "Se l'invio del messaggio fallisce, l'incantatore se ne rende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    461.5,
+    76.8,
+    472.1
+   ],
+   "size": 8.8,
+   "testo": "conto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.7,
+    472.5,
+    274.3,
+    483.1
+   ],
+   "size": 8.8,
+   "testo": "Quando riceve il messaggio, una creatura può bloccare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    483.5,
+    263.9,
+    494.1
+   ],
+   "size": 8.8,
+   "testo": "la capacità dell'incantatore di contattarla nuovamente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    494.4,
+    263.1,
+    505.0
+   ],
+   "size": 8.8,
+   "testo": "tramite questo incantesimo per 8 ore. Se l'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    505.5,
+    275.2,
+    516.1
+   ],
+   "size": 8.8,
+   "testo": "cerca di inviare un altro messaggio durante quel periodo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    516.5,
+    266.4,
+    527.1
+   ],
+   "size": 8.8,
+   "testo": "capisce di essere stato bloccato e l'incantesimo fallisce.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    551.3,
+    119.8,
+    562.6
+   ],
+   "size": 11.2,
+   "testo": "INVISIBILITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    562.7,
+    245.1,
+    573.2
+   ],
+   "size": 8.6,
+   "testo": "Illusione di2° livello (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    578.3,
+    142.3,
+    587.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    589.3,
+    115.0,
+    598.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    600.3,
+    255.8,
+    609.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un ciglio in uno strato di resina)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    611.3,
+    188.9,
+    620.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    627.6,
+    268.4,
+    638.2
+   ],
+   "size": 8.8,
+   "testo": "Una creatura toccata dall'incantatore diventa invisibile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    638.6,
+    268.2,
+    649.1
+   ],
+   "size": 8.8,
+   "testo": "fino al termine dell'incantesimo. L'incantesimo termina",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    649.6,
+    272.1,
+    660.1
+   ],
+   "size": 8.8,
+   "testo": "immediatamente quando il bersaglio effettua un tiro per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    660.6,
+    234.4,
+    671.1
+   ],
+   "size": 8.8,
+   "testo": "colpire, infligge danni o lancia un incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    673.3,
+    254.2,
+    681.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    682.5,
+    263.2,
+    693.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    691.3,
+    197.1,
+    704.1
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    46.7,
+    431.6,
+    58.0
+   ],
+   "size": 11.2,
+   "testo": "INVISIBILITÀ SUPERIORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    58.2,
+    464.4,
+    68.7
+   ],
+   "size": 8.6,
+   "testo": "Illusionedi4°livello (bardo, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    73.9,
+    395.0,
+    83.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    84.8,
+    367.8,
+    94.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    95.9,
+    370.0,
+    105.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    106.8,
+    456.5,
+    116.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    122.9,
+    520.7,
+    133.5
+   ],
+   "size": 8.8,
+   "testo": "Una creatura toccata dall'incantatore diventa invisibile",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    134.0,
+    431.2,
+    144.5
+   ],
+   "size": 8.8,
+   "testo": "fino al termine dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    168.7,
+    424.0,
+    180.0
+   ],
+   "size": 11.2,
+   "testo": "INVOCARE IL FULMINE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    180.2,
+    419.8,
+    190.7
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di3° livello (druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    195.9,
+    395.0,
+    205.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    206.9,
+    367.6,
+    216.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    217.9,
+    370.0,
+    227.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    228.8,
+    458.4,
+    238.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    245.1,
+    518.7,
+    255.6
+   ],
+   "size": 8.8,
+   "testo": "Una nube di tempesta appare in un punto situato entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    256.0,
+    523.0,
+    266.6
+   ],
+   "size": 8.8,
+   "testo": "gittata che l'incantatore è in grado di vedere sopra di sé.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    267.1,
+    519.2,
+    277.6
+   ],
+   "size": 8.8,
+   "testo": "Ha la forma di un cilindro alto 3 metri con un raggio di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    278.0,
+    339.4,
+    288.6
+   ],
+   "size": 8.8,
+   "testo": "18 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.2,
+    289.1,
+    530.3,
+    299.7
+   ],
+   "size": 8.8,
+   "testo": "Quando lancia questo incantesimo, l'incantatore sceglie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    300.1,
+    519.9,
+    310.7
+   ],
+   "size": 8.8,
+   "testo": "un punto che è in grado di vedere al di sotto della nube,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    311.1,
+    519.3,
+    321.7
+   ],
+   "size": 8.8,
+   "testo": "dove si abbatte un fulmine originato da essa. Ogni crea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    322.1,
+    518.9,
+    332.7
+   ],
+   "size": 8.8,
+   "testo": "tura entro un raggio di 1,5 metri da quel punto effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    333.1,
+    524.1,
+    343.7
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Destrezza; se lo fallisce, subisce 3d10",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    344.0,
+    522.4,
+    354.6
+   ],
+   "size": 8.8,
+   "testo": "danni da fulmine, mentre se lo supera subisce la metà di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    355.0,
+    348.7,
+    365.6
+   ],
+   "size": 8.8,
+   "testo": "quei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.2,
+    366.1,
+    511.3,
+    376.7
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, l'incantatore può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    377.0,
+    520.2,
+    387.6
+   ],
+   "size": 8.8,
+   "testo": "effettuare un'azione di Magia per richiamare il fulmine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    388.1,
+    524.8,
+    398.7
+   ],
+   "size": 8.8,
+   "testo": "in questo modo, bersagliando lo stesso punto o un punto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    399.2,
+    335.9,
+    409.7
+   ],
+   "size": 8.8,
+   "testo": "diverso.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.2,
+    410.2,
+    508.5,
+    420.8
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore lancia questo incantesimo mentre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    421.2,
+    518.3,
+    431.8
+   ],
+   "size": 8.8,
+   "testo": "si trova all'aperto durante una tempesta, l'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    432.2,
+    528.7,
+    442.7
+   ],
+   "size": 8.8,
+   "testo": "permette di controllare quella tempesta invece di crearne",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    443.1,
+    527.7,
+    453.7
+   ],
+   "size": 8.8,
+   "testo": "una nuova. In queste condizioni, i danni provocati dall'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.7,
+    454.1,
+    422.4,
+    464.7
+   ],
+   "size": 8.8,
+   "testo": "cantesimo aumentano di 1d10.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    465.1,
+    532.5,
+    475.6
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    473.9,
+    524.6,
+    486.6
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d10 per ogni slot di livello superiore al 3°.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    510.9,
+    364.4,
+    522.2
+   ],
+   "size": 11.2,
+   "testo": "LABIRINTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    522.4,
+    415.3,
+    532.8
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi8° livello (mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    537.9,
+    395.0,
+    547.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    548.9,
+    367.4,
+    558.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    559.9,
+    370.0,
+    569.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    570.8,
+    458.2,
+    580.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    587.1,
+    513.6,
+    597.7
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore bandisce una creatura entro gittata che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    598.1,
+    521.9,
+    608.6
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere in un semipiano labirintico. Il bersa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    609.2,
+    526.8,
+    619.7
+   ],
+   "size": 8.8,
+   "testo": "glio rimane laggiù per la durata dell'incantesimo o finché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    620.2,
+    396.0,
+    630.8
+   ],
+   "size": 8.8,
+   "testo": "non fugge dal labirinto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.2,
+    631.2,
+    522.7,
+    641.8
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio può effettuare un'azione di Studio per pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.7,
+    642.2,
+    532.7,
+    652.8
+   ],
+   "size": 8.8,
+   "testo": "vare a fuggire. Quando questo avviene, effettua una prova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    653.2,
+    527.2,
+    663.8
+   ],
+   "size": 8.8,
+   "testo": "di Intelligenza (Indagare) con CD 20. In caso di successo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    664.2,
+    468.3,
+    674.8
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio fugge e l'incantesimo termina.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.7,
+    675.2,
+    524.8,
+    685.8
+   ],
+   "size": 8.8,
+   "testo": "Al termine dell'incantesimo, il bersaglio riappare nello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    686.2,
+    524.6,
+    696.8
+   ],
+   "size": 8.8,
+   "testo": "spazio in cui si trovava prima del lancio o, se è occupato,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    697.1,
+    418.9,
+    707.7
+   ],
+   "size": 8.8,
+   "testo": "nello spazio libero più vicino.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

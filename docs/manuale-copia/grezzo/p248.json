@@ -1,0 +1,619 @@
+{
+ "pagina_pdf": 248,
+ "pagina_stampata": 245,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / J45",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   377
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.8,
+    382.4,
+    150.3,
+    392.9
+   ],
+   "size": 8.4,
+   "testo": "AURA DI PUREZZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    394.1,
+    214.8,
+    404.6
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione di 4°livello (chierico, paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    408.8,
+    146.3,
+    419.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    419.7,
+    130.7,
+    430.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    432.4,
+    112.7,
+    441.2
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    441.6,
+    210.1,
+    452.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    460.6,
+    280.0,
+    469.4
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore irradia un'aura in un'emanazione di 9 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    471.6,
+    279.9,
+    480.2
+   ],
+   "size": 6.6,
+   "testo": "da sé che permane per la durata dell'incantesimo. Mentre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    482.6,
+    262.7,
+    491.2
+   ],
+   "size": 6.6,
+   "testo": "sono nell'aura, l'incantatore e i suoi alleati ottengono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    493.6,
+    274.6,
+    502.2
+   ],
+   "size": 6.6,
+   "testo": "resistenza ai danni da veleno e vantaggio ai tiri salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    504.7,
+    269.2,
+    513.3
+   ],
+   "size": 6.6,
+   "testo": "che evitano o pongono fine agli effetti che includono le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    515.7,
+    271.1,
+    524.3
+   ],
+   "size": 6.6,
+   "testo": "condizioni accecato, affascinato, assordato, avvelenato,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    526.7,
+    188.9,
+    535.3
+   ],
+   "size": 6.6,
+   "testo": "paralizzato, spaventato o stordito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    559.4,
+    128.4,
+    569.9
+   ],
+   "size": 8.4,
+   "testo": "AURA DI VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    571.2,
+    215.0,
+    581.6
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione di 4°livello (chierico, paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    585.7,
+    146.5,
+    596.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    596.7,
+    131.0,
+    607.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    609.5,
+    112.7,
+    618.3
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    618.9,
+    210.1,
+    629.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    637.9,
+    280.1,
+    646.7
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore irradia un'aura in un'emanazione di 9 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.3,
+    648.9,
+    279.7,
+    657.4
+   ],
+   "size": 6.6,
+   "testo": "da sé che permane per la durata dell'incantesimo. Mentre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    659.9,
+    262.5,
+    668.4
+   ],
+   "size": 6.6,
+   "testo": "sono nell'aura, l'incantatore e i suoi alleati ottengono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    670.8,
+    276.2,
+    679.4
+   ],
+   "size": 6.6,
+   "testo": "resistenza ai danni necrotici e i loro punti ferita massimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    681.8,
+    284.4,
+    690.6
+   ],
+   "size": 6.7,
+   "testo": "non possono essere ridotti. Se un alleato con O punti ferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.3,
+    692.9,
+    219.8,
+    701.7
+   ],
+   "size": 6.7,
+   "testo": "inizia il suo turno nell'aura, ne recupera 1.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    382.4,
+    404.5,
+    392.9
+   ],
+   "size": 8.4,
+   "testo": "AURA DI VITALITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    394.1,
+    495.8,
+    404.6
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione di 3°livello (chierico, druido, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    408.8,
+    399.1,
+    419.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    419.8,
+    383.3,
+    430.3
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    432.4,
+    365.2,
+    441.2
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    441.6,
+    460.9,
+    452.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    460.7,
+    532.5,
+    469.5
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore irradia un'aura in un'emanazione di 9 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    471.7,
+    534.0,
+    480.3
+   ],
+   "size": 6.6,
+   "testo": "da sé che permane per la durata dell'incantesimo. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    482.6,
+    528.7,
+    491.2
+   ],
+   "size": 6.6,
+   "testo": "crea l'aura e all'inizio di ogni suo turno finché l'aura per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    493.7,
+    535.6,
+    502.2
+   ],
+   "size": 6.6,
+   "testo": "mane, l'incantatore può ripristinare 2d6 punti ferita a una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    504.7,
+    399.9,
+    513.3
+   ],
+   "size": 6.6,
+   "testo": "creatura al suo interno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    537.7,
+    443.6,
+    548.2
+   ],
+   "size": 8.4,
+   "testo": "AURA MAGICA DI NYSTUL",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    549.2,
+    409.3,
+    559.7
+   ],
+   "size": 8.4,
+   "testo": "Illusione di 2°livello (mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    563.7,
+    398.9,
+    574.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    574.8,
+    372.0,
+    585.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    585.8,
+    523.1,
+    596.3
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un piccolo pezzo quadrato di seta)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    596.7,
+    363.8,
+    607.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: 24 ore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    615.9,
+    509.7,
+    624.5
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore tocca una creatura consenziente o un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    626.9,
+    514.7,
+    635.5
+   ],
+   "size": 6.6,
+   "testo": "oggetto che non sia indossato o trasportato e vi pone",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.3,
+    637.9,
+    510.9,
+    646.5
+   ],
+   "size": 6.6,
+   "testo": "un'illusione. Una creatura ricevel'effetto Maschera,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.7,
+    648.9,
+    522.5,
+    657.5
+   ],
+   "size": 6.6,
+   "testo": "mentre un oggetto ricevel'effetto Falsa aura. Entrambi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    659.9,
+    520.5,
+    668.5
+   ],
+   "size": 6.6,
+   "testo": "gli effetti, descritti di seguito, permangono per tutta la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    670.9,
+    521.9,
+    679.4
+   ],
+   "size": 6.6,
+   "testo": "durata dell'incantesimo. Se l'incantatore lancia l'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    681.8,
+    522.2,
+    690.6
+   ],
+   "size": 6.7,
+   "testo": "tesimo sullo stesso bersaglio ogni giorno per 30 giorni,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    692.8,
+    483.9,
+    701.4
+   ],
+   "size": 6.6,
+   "testo": "l'illusione permane finché non viene dissolta.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

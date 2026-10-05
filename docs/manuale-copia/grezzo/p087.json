@@ -1,0 +1,1843 @@
+{
+ "pagina_pdf": 87,
+ "pagina_stampata": 84,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "84 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [
+  [
+   842,
+   133,
+   1329,
+   620
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.7,
+    336.6,
+    102.7,
+    347.3
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.4,
+    336.6,
+    204.3,
+    347.3
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.6,
+    336.6,
+    276.8,
+    347.3
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    352.2,
+    87.9,
+    361.4
+   ],
+   "size": 9.2,
+   "testo": "Contagio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    351.6,
+    229.5,
+    361.2
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    366.7,
+    95.7,
+    375.9
+   ],
+   "size": 9.2,
+   "testo": "Costrizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.0,
+    366.2,
+    237.0,
+    375.8
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    381.3,
+    127.5,
+    390.5
+   ],
+   "size": 9.2,
+   "testo": "Curaferite di massa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.0,
+    380.7,
+    224.3,
+    390.3
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    395.9,
+    118.5,
+    405.1
+   ],
+   "size": 9.2,
+   "testo": "Evoca elementale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    395.3,
+    221.6,
+    405.0
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    395.8,
+    262.2,
+    404.8
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    410.6,
+    112.7,
+    419.8
+   ],
+   "size": 9.2,
+   "testo": "Guscio anti-vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.0,
+    410.0,
+    224.4,
+    419.7
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    410.5,
+    262.2,
+    419.5
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    425.1,
+    113.2,
+    434.3
+   ],
+   "size": 9.2,
+   "testo": "Legame planare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.0,
+    424.6,
+    224.4,
+    434.2
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.8,
+    424.5,
+    263.1,
+    434.1
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    439.7,
+    107.2,
+    448.9
+   ],
+   "size": 9.2,
+   "testo": "Muro di pietra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    439.2,
+    224.5,
+    448.8
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    439.6,
+    262.2,
+    448.6
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    454.2,
+    119.9,
+    463.4
+   ],
+   "size": 9.2,
+   "testo": "Piaga degli insetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    453.7,
+    221.7,
+    463.3
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.6,
+    454.2,
+    262.4,
+    463.2
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    468.7,
+    111.4,
+    477.9
+   ],
+   "size": 9.2,
+   "testo": "Reincarnazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    468.2,
+    229.6,
+    477.9
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.9,
+    468.2,
+    263.2,
+    477.8
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    483.4,
+    122.6,
+    492.6
+   ],
+   "size": 9.2,
+   "testo": "Ristorare superiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.0,
+    482.8,
+    224.3,
+    492.4
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.9,
+    482.8,
+    263.2,
+    492.4
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    497.9,
+    86.3,
+    507.1
+   ],
+   "size": 9.2,
+   "testo": "Risveglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.7,
+    497.3,
+    235.1,
+    507.0
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.8,
+    497.4,
+    263.1,
+    507.0
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    512.5,
+    85.7,
+    521.7
+   ],
+   "size": 9.2,
+   "testo": "Scrutare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    512.0,
+    223.8,
+    521.6
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.2,
+    512.0,
+    268.4,
+    521.6
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    527.1,
+    126.1,
+    536.3
+   ],
+   "size": 9.2,
+   "testo": "Traslazione arborea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    526.6,
+    221.6,
+    536.2
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    527.1,
+    262.2,
+    536.1
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    550.8,
+    248.3,
+    561.4
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA DRUIDO DI 6° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    565.6,
+    102.6,
+    576.2
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.3,
+    565.5,
+    204.2,
+    576.2
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    242.4,
+    565.5,
+    276.7,
+    576.2
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    581.1,
+    107.8,
+    590.3
+   ],
+   "size": 9.2,
+   "testo": "Bagliore solare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    580.5,
+    224.5,
+    590.2
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    581.0,
+    262.2,
+    590.0
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    595.7,
+    128.2,
+    604.9
+   ],
+   "size": 9.2,
+   "testo": "Banchetto degli eroi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.6,
+    595.1,
+    221.7,
+    604.8
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    254.8,
+    595.1,
+    263.1,
+    604.7
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    610.3,
+    133.7,
+    619.5
+   ],
+   "size": 9.2,
+   "testo": "Camminare nel vento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.7,
+    609.8,
+    235.0,
+    619.4
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    624.9,
+    108.9,
+    634.1
+   ],
+   "size": 9.2,
+   "testo": "Carne in pietra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.7,
+    624.4,
+    235.1,
+    634.0
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.4,
+    624.9,
+    262.1,
+    633.9
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    639.5,
+    104.6,
+    648.7
+   ],
+   "size": 9.2,
+   "testo": "Evocafolletto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.6,
+    639.0,
+    221.7,
+    648.6
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.4,
+    639.4,
+    262.1,
+    648.5
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    654.1,
+    95.6,
+    663.3
+   ],
+   "size": 9.2,
+   "testo": "Guarigione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.8,
+    653.6,
+    224.3,
+    663.2
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    668.7,
+    121.9,
+    677.9
+   ],
+   "size": 9.2,
+   "testo": "Muovere il terreno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.7,
+    668.2,
+    235.1,
+    677.8
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    668.7,
+    262.2,
+    677.7
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    683.2,
+    104.7,
+    692.4
+   ],
+   "size": 9.2,
+   "testo": "Muro di spine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.6,
+    682.7,
+    221.5,
+    692.3
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    255.5,
+    683.3,
+    262.2,
+    692.3
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    697.8,
+    116.9,
+    707.0
+   ],
+   "size": 9.2,
+   "testo": "Scopri il percorso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.7,
+    697.3,
+    223.8,
+    706.9
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    249.0,
+    697.3,
+    268.3,
+    706.9
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    712.4,
+    121.9,
+    721.6
+   ],
+   "size": 9.2,
+   "testo": "Trasporto vegetale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    176.6,
+    711.9,
+    221.6,
+    721.5
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    39.9,
+    500.6,
+    50.6
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA DRUIDO DI 7° LIVELLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    54.7,
+    355.6,
+    65.4
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    70.3,
+    392.2,
+    79.5
+   ],
+   "size": 9.2,
+   "testo": "Inversione della gravità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    84.9,
+    368.4,
+    94.1
+   ],
+   "size": 9.2,
+   "testo": "Miraggio arcano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    99.4,
+    359.2,
+    108.6
+   ],
+   "size": 9.2,
+   "testo": "Rigenerazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    114.0,
+    338.1,
+    123.2
+   ],
+   "size": 9.2,
+   "testo": "Simbolo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    128.6,
+    386.0,
+    137.8
+   ],
+   "size": 9.2,
+   "testo": "Spostamento planare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    143.2,
+    374.5,
+    152.4
+   ],
+   "size": 9.2,
+   "testo": "Tempesta difuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.4,
+    54.7,
+    457.3,
+    65.4
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    495.1,
+    54.8,
+    529.5,
+    65.5
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    428.8,
+    69.8,
+    488.0,
+    79.4
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.2,
+    69.8,
+    515.3,
+    79.4
+   ],
+   "size": 8.4,
+   "testo": "C",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    429.8,
+    84.4,
+    464.1,
+    94.0
+   ],
+   "size": 8.4,
+   "testo": "Illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    99.0,
+    488.0,
+    108.6
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.9,
+    113.5,
+    477.2,
+    123.1
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    128.1,
+    474.5,
+    137.7
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    142.7,
+    477.3,
+    152.3
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    507.5,
+    113.5,
+    515.8,
+    123.1
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    507.5,
+    128.1,
+    515.8,
+    137.7
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    166.9,
+    500.7,
+    177.6
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA DRUIDO DI 8° LIVELLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    181.6,
+    355.6,
+    192.3
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    197.3,
+    378.7,
+    206.5
+   ],
+   "size": 9.2,
+   "testo": "Antipatia/Simpatia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.4,
+    181.7,
+    457.3,
+    192.4
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.9,
+    196.8,
+    489.8,
+    206.4
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    495.1,
+    181.7,
+    529.4,
+    192.4
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    211.9,
+    419.2,
+    221.1
+   ],
+   "size": 9.2,
+   "testo": "Controllare tempo atmosferico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    211.4,
+    488.0,
+    221.0
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.3,
+    211.4,
+    515.4,
+    221.0
+   ],
+   "size": 8.4,
+   "testo": "C",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    226.4,
+    352.3,
+    235.6
+   ],
+   "size": 9.2,
+   "testo": "Disorientare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    241.0,
+    368.6,
+    250.2
+   ],
+   "size": 9.2,
+   "testo": "Esplosione solare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    255.5,
+    361.3,
+    264.7
+   ],
+   "size": 9.2,
+   "testo": "Forme animali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    270.1,
+    370.4,
+    279.3
+   ],
+   "size": 9.2,
+   "testo": "Nube incendiaria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    284.8,
+    345.8,
+    294.0
+   ],
+   "size": 9.2,
+   "testo": "Terremoto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    299.4,
+    339.8,
+    308.6
+   ],
+   "size": 9.2,
+   "testo": "Tsunami",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.9,
+    225.9,
+    489.8,
+    235.6
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    240.5,
+    477.5,
+    250.1
+   ],
+   "size": 8.4,
+   "testo": "Invocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    255.1,
+    488.0,
+    264.7
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    269.7,
+    474.5,
+    279.3
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    284.4,
+    488.0,
+    294.0
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.8,
+    298.9,
+    474.5,
+    308.5
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.4,
+    270.2,
+    515.1,
+    279.3
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    508.4,
+    284.8,
+    515.1,
+    293.9
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    508.4,
+    299.4,
+    515.1,
+    308.4
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    323.1,
+    500.2,
+    333.7
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA DRUIDO DI 9° LIVELLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    337.7,
+    355.5,
+    348.4
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.4,
+    337.7,
+    457.3,
+    348.4
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    495.1,
+    337.8,
+    529.5,
+    348.4
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    353.2,
+    344.4,
+    362.4
+   ],
+   "size": 9.2,
+   "testo": "Previsione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    352.8,
+    476.8,
+    362.4
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    367.8,
+    372.6,
+    377.0
+   ],
+   "size": 9.2,
+   "testo": "Resurrezione pura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    367.4,
+    482.2,
+    377.0
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    507.6,
+    367.3,
+    516.0,
+    377.0
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    382.4,
+    386.5,
+    391.6
+   ],
+   "size": 9.2,
+   "testo": "Tempesta di vendetta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    429.6,
+    381.9,
+    474.6,
+    391.6
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    508.2,
+    382.4,
+    515.0,
+    391.4
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    397.0,
+    364.2,
+    406.2
+   ],
+   "size": 9.2,
+   "testo": "Trasformazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    428.8,
+    396.6,
+    488.1,
+    406.2
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    501.9,
+    396.5,
+    521.0,
+    406.2
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    420.7,
+    517.7,
+    437.3
+   ],
+   "size": 12.9,
+   "testo": "SOTTOCLASSI DEL DRUIDO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    438.8,
+    499.9,
+    449.4
+   ],
+   "size": 8.8,
+   "testo": "Le sottoclassi del druido sono specializzazioni che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    449.8,
+    523.3,
+    460.3
+   ],
+   "size": 8.8,
+   "testo": "conferiscono dei privilegi a determinati livelli da druido,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    460.7,
+    523.8,
+    471.3
+   ],
+   "size": 8.8,
+   "testo": "come specificato in ognuna di esse. I druidi si riuniscono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    471.7,
+    515.9,
+    482.3
+   ],
+   "size": 8.8,
+   "testo": "in associazioni informali che chiamano circoli. Questa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    482.7,
+    528.9,
+    493.3
+   ],
+   "size": 8.8,
+   "testo": "sezione presenta le sottoclassi Circolo della Terra, Circolo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.7,
+    493.7,
+    498.7,
+    504.3
+   ],
+   "size": 8.8,
+   "testo": "della Luna, Circolo del Mare e Circolo delle Stelle.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    513.8,
+    441.1,
+    526.9
+   ],
+   "size": 9.7,
+   "testo": "CIRCOLO DELLA LUNA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    531.4,
+    495.1,
+    540.7
+   ],
+   "size": 8.6,
+   "testo": "Adottaforme animaliperproteggere le terre selvagge",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.8,
+    545.0,
+    530.5,
+    555.6
+   ],
+   "size": 8.8,
+   "testo": "I druidi del Circolo della Luna attingono alla magia lunare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.6,
+    556.0,
+    521.6,
+    566.6
+   ],
+   "size": 8.8,
+   "testo": "per trasformarsi. I membri di questo ordine si radunano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.6,
+    566.9,
+    518.3,
+    577.5
+   ],
+   "size": 8.8,
+   "testo": "sotto la luna per condividere notizie e celebrare rituali.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    577.9,
+    510.5,
+    588.5
+   ],
+   "size": 8.8,
+   "testo": "Mutevole come la luna, un druido di questo circolo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    588.9,
+    515.4,
+    599.5
+   ],
+   "size": 8.8,
+   "testo": "potrebbe aggirarsi nella forma di un grande felino una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.6,
+    599.9,
+    530.9,
+    610.5
+   ],
+   "size": 8.8,
+   "testo": "notte, sfrecciare in volo come un'aquila sopra le cime degli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    611.1,
+    525.3,
+    621.6
+   ],
+   "size": 8.8,
+   "testo": "alberi il giorno successivo e avanzare a passo pesante nel",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.6,
+    622.1,
+    526.3,
+    632.6
+   ],
+   "size": 8.8,
+   "testo": "sottobosco in forma di orso per scacciare un mostro inva­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.9,
+    633.2,
+    529.6,
+    643.8
+   ],
+   "size": 8.8,
+   "testo": "sore. La natura selvaggia scorre nelle vene di questo druido.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.8,
+    653.6,
+    474.7,
+    664.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: FORME DEL CIRCOLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.7,
+    665.0,
+    527.6,
+    675.5
+   ],
+   "size": 8.8,
+   "testo": "Quando si assume una Forma Selvatica, si può incanalare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    676.0,
+    518.7,
+    686.6
+   ],
+   "size": 8.8,
+   "testo": "la magia lunare, ottenendo i benefici indicati di seguito.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    686.9,
+    513.0,
+    697.5
+   ],
+   "size": 8.8,
+   "testo": "Grado di sfida. Il grado di sfida massimo della forma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.6,
+    698.0,
+    516.4,
+    708.6
+   ],
+   "size": 8.8,
+   "testo": "è pari al proprio livello da druido diviso per 3 (arroton­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.6,
+    709.0,
+    369.4,
+    719.6
+   ],
+   "size": 8.8,
+   "testo": "dato per difetto).",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

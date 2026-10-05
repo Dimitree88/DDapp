@@ -1,0 +1,691 @@
+{
+ "pagina_pdf": 67,
+ "pagina_stampata": 64,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   -1,
+   352,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    303.4,
+    39.0,
+    512.1,
+    52.0
+   ],
+   "size": 12.2,
+   "testo": "SOTTOCLASSI DEL BARDO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    59.0,
+    496.8,
+    67.7
+   ],
+   "size": 6.6,
+   "testo": "Le sottoclassi del bardo sono specializzazioni che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.6,
+    69.9,
+    520.1,
+    78.6
+   ],
+   "size": 6.6,
+   "testo": "conferiscono dei privilegi a determinati livelli da bardo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    81.0,
+    520.5,
+    89.6
+   ],
+   "size": 6.6,
+   "testo": "come specificato in ognuna di esse. I bardi si riuniscono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    92.1,
+    517.2,
+    100.7
+   ],
+   "size": 6.6,
+   "testo": "in associazioni informali chiamate collegi allo scopo di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    103.0,
+    527.1,
+    111.7
+   ],
+   "size": 6.6,
+   "testo": "preservare le tradizioni. Questa sezione presenta le sotto­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    114.0,
+    526.1,
+    122.6
+   ],
+   "size": 6.6,
+   "testo": "classi Collegio della Danza, Collegio del Fascino, Collegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    124.9,
+    444.2,
+    133.6
+   ],
+   "size": 6.6,
+   "testo": "della Sapienza e Collegio del Valore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    143.3,
+    457.9,
+    152.9
+   ],
+   "size": 9.2,
+   "testo": "COLLEGIO DELLA DANZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    161.8,
+    421.0,
+    168.4
+   ],
+   "size": 6.4,
+   "testo": "Muoviti in armonia con il cosmo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.5,
+    176.3,
+    524.2,
+    185.0
+   ],
+   "size": 6.6,
+   "testo": "I bardi del Collegio della Danza sanno che le Parole della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    187.2,
+    520.6,
+    195.8
+   ],
+   "size": 6.6,
+   "testo": "Creazione non possono essere contenute in un discorso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    198.3,
+    512.8,
+    206.9
+   ],
+   "size": 6.6,
+   "testo": "o in un canto; le parole vengono pronunciate dai moti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.6,
+    209.4,
+    521.3,
+    218.1
+   ],
+   "size": 6.6,
+   "testo": "dei corpi celesti e fluiscono attraverso i movimenti delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    220.3,
+    512.5,
+    228.9
+   ],
+   "size": 6.6,
+   "testo": "creature più piccole. Questi bardi entrano in armonia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.6,
+    231.3,
+    515.8,
+    239.9
+   ],
+   "size": 6.6,
+   "testo": "con il turbinio del cosmo esaltando l'agilità, la velocità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    242.2,
+    345.7,
+    250.9
+   ],
+   "size": 6.6,
+   "testo": "e la grazia.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    261.0,
+    478.7,
+    271.0
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 3: SCARTO SMAGLIANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    274.2,
+    528.9,
+    282.8
+   ],
+   "size": 6.6,
+   "testo": "Se il personaggio non sta indossando un'armatura o impu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    285.2,
+    481.7,
+    293.9
+   ],
+   "size": 6.6,
+   "testo": "gnando uno scudo, ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    294.7,
+    520.6,
+    304.8
+   ],
+   "size": 8.2,
+   "testo": "Virtuoso della danza. Il bardo dispone di vantaggio su",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    307.2,
+    520.0,
+    315.9
+   ],
+   "size": 6.6,
+   "testo": "ogni prova di Carisma (Intrattenere) che effettua corre­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    318.1,
+    362.2,
+    326.8
+   ],
+   "size": 6.6,
+   "testo": "lata alla danza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    327.7,
+    522.9,
+    337.8
+   ],
+   "size": 8.2,
+   "testo": "Difesa senza armatura. La Classe Armatura base corri­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    340.1,
+    512.7,
+    348.8
+   ],
+   "size": 6.6,
+   "testo": "sponde a 10 più i modificatori di Destrezza e Carisma.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    349.6,
+    520.3,
+    359.7
+   ],
+   "size": 8.2,
+   "testo": "Colpi scattanti. Quando il bardo spende un utilizzo di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    362.1,
+    516.9,
+    370.7
+   ],
+   "size": 6.6,
+   "testo": "Ispirazione Bardica come parte di un'azione, un'azione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.7,
+    373.0,
+    523.8,
+    381.7
+   ],
+   "size": 6.6,
+   "testo": "bonus o una reazione, può effettuare un colpo senz'armi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    384.0,
+    377.5,
+    392.7
+   ],
+   "size": 6.6,
+   "testo": "come parte di esse.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    393.6,
+    523.1,
+    403.7
+   ],
+   "size": 8.2,
+   "testo": "Danno bardico. Un bardo può usare Destrezza anziché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    406.2,
+    499.4,
+    414.8
+   ],
+   "size": 6.6,
+   "testo": "Forza per i tiri per colpire dei suoi colpi senz'armi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    417.2,
+    502.9,
+    425.8
+   ],
+   "size": 6.6,
+   "testo": "Quando infligge danni con un colpo senz'armi, può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    428.2,
+    514.4,
+    436.8
+   ],
+   "size": 6.6,
+   "testo": "infliggere danni contundenti pari a un tiro del dado di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    439.2,
+    522.1,
+    447.8
+   ],
+   "size": 6.6,
+   "testo": "Ispirazione Bardica più il suo modificatore di Destrezza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    450.1,
+    522.2,
+    458.8
+   ],
+   "size": 6.6,
+   "testo": "anziché infliggere i danni normali del colpo. Questo tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    461.1,
+    386.7,
+    469.8
+   ],
+   "size": 6.6,
+   "testo": "non consuma il dado.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    479.8,
+    496.3,
+    489.8
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 6: MOVIMENTO ISPIRATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    492.9,
+    505.9,
+    501.5
+   ],
+   "size": 6.6,
+   "testo": "Quando un nemico che il bardo è in grado di vedere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    503.9,
+    525.5,
+    512.6
+   ],
+   "size": 6.6,
+   "testo": "termina il turno a 1,5 metri da lui, il bardo può usare una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    515.0,
+    529.3,
+    523.7
+   ],
+   "size": 6.6,
+   "testo": "reazione e spendere un utilizzo di Ispirazione Bardica per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    526.0,
+    523.4,
+    534.7
+   ],
+   "size": 6.6,
+   "testo": "muoversi fino alla metà della sua velocità. Poi, un alleato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    537.0,
+    514.9,
+    545.6
+   ],
+   "size": 6.6,
+   "testo": "a scelta entro 9 metri dal bardo può muoversi fino alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    547.9,
+    484.7,
+    556.6
+   ],
+   "size": 6.6,
+   "testo": "metà della sua velocità usando la sua reazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.0,
+    559.0,
+    515.6,
+    567.6
+   ],
+   "size": 6.6,
+   "testo": "Nessuno dei movimenti di questo privilegio provoca",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    570.0,
+    396.9,
+    578.6
+   ],
+   "size": 6.6,
+   "testo": "attacchi di opportunità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    588.7,
+    480.7,
+    598.7
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 6: SCARTO COORDINATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    601.8,
+    528.7,
+    610.5
+   ],
+   "size": 6.6,
+   "testo": "Quando il bardo tira per l'iniziativa, se non è incapacitato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    612.8,
+    524.0,
+    621.5
+   ],
+   "size": 6.6,
+   "testo": "può spendere un utilizzo di Ispirazione Bardica. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    623.9,
+    521.1,
+    632.5
+   ],
+   "size": 6.6,
+   "testo": "lo fa, tira un dado di Ispirazione Bardica; il bardo e ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    635.0,
+    510.8,
+    643.6
+   ],
+   "size": 6.6,
+   "testo": "alleato entro 9 metri da lui che può vederlo o sentirlo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    645.9,
+    485.1,
+    654.5
+   ],
+   "size": 6.6,
+   "testo": "ottiene un bonus all'iniziativa pari al risultato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    664.7,
+    486.8,
+    674.7
+   ],
+   "size": 8.2,
+   "testo": "LIVELLO 14: ELUSIONE TRAINANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    677.8,
+    520.9,
+    686.4
+   ],
+   "size": 6.6,
+   "testo": "Quando il bardo è soggetto a un effetto che gli consente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.5,
+    688.8,
+    526.9,
+    697.4
+   ],
+   "size": 6.6,
+   "testo": "di effettuare un tiro salvezza su Destrezza per dimezzare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    699.8,
+    521.8,
+    708.4
+   ],
+   "size": 6.6,
+   "testo": "i danni, non subisce alcun danno se lo supera, e soltanto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    710.8,
+    520.2,
+    719.4
+   ],
+   "size": 6.6,
+   "testo": "la metà dei danni se lo fallisce. Il bardo può condividere",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

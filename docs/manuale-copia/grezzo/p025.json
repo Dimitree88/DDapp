@@ -1,0 +1,1219 @@
+{
+ "pagina_pdf": 25,
+ "pagina_stampata": 22,
+ "dimensioni": [
+  588.8,
+  782.6
+ ],
+ "piede": "22 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [
+  [
+   301,
+   38,
+   533,
+   149
+  ],
+  [
+   301,
+   158,
+   533,
+   291
+  ],
+  [
+   37,
+   260,
+   281,
+   456
+  ],
+  [
+   303,
+   299,
+   532,
+   385
+  ],
+  [
+   300,
+   394,
+   532,
+   516
+  ],
+  [
+   300,
+   524,
+   532,
+   679
+  ],
+  [
+   37,
+   534,
+   280,
+   654
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.4,
+    40.0,
+    274.5,
+    48.4
+   ],
+   "size": 8.4,
+   "testo": "Filippo: Quindi forse è un'antenata di Ireena? A meno che non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    51.2,
+    264.7,
+    59.6
+   ],
+   "size": 8.4,
+   "testo": "sia già una vampira e questa storia del \"morso di Strahd\"",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.4,
+    62.2,
+    156.0,
+    70.6
+   ],
+   "size": 8.4,
+   "testo": "non sia uno stratagemma.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    73.1,
+    258.6,
+    81.5
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Chi lo sa! Ora, Mirabella sta esaminando i libri?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    84.1,
+    215.8,
+    92.5
+   ],
+   "size": 8.4,
+   "testo": "Marta: Sì, ne prendo uno a caso dalla libreria.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    94.6,
+    268.4,
+    103.6
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: È un libro scritto in Comune intitolato Sulle dimore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    106.2,
+    190.7,
+    114.5
+   ],
+   "size": 7.4,
+   "testo": "del Divino nei Regni celesti e infernali.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    117.0,
+    185.2,
+    125.4
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: Te lo sei appena inventato?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    128.0,
+    254.2,
+    136.4
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Non te lo dirò mai. Sfogliando il libro, noti che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    139.1,
+    233.6,
+    147.5
+   ],
+   "size": 8.4,
+   "testo": "è prettamente accademico, quasi impenetrabile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    150.0,
+    241.1,
+    158.4
+   ],
+   "size": 8.4,
+   "testo": "Marta: OK, lo rimetto a posto e ne tiro fuori un altro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    161.1,
+    251.2,
+    169.5
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Shreeve e Auro stanno facendo qualcos'altro?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    38.1,
+    134.1,
+    61.9,
+    179.1
+   ],
+   "size": 45.0,
+   "testo": "+",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    172.1,
+    250.5,
+    180.5
+   ],
+   "size": 8.4,
+   "testo": "Denise: Afferro l'attizzatoio e smuovo i ceppi nel fuoco.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    183.1,
+    263.1,
+    191.5
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Non appena sollevi l'attizzatoio, senti un rumore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    194.1,
+    265.6,
+    202.5
+   ],
+   "size": 8.4,
+   "testo": "stridente e il retro del camino scorre su un lato, rivelando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    205.1,
+    155.1,
+    213.5
+   ],
+   "size": 8.4,
+   "testo": "una stanza alle sue spalle!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    216.2,
+    272.9,
+    224.6
+   ],
+   "size": 8.4,
+   "testo": "Denise: \"Ehm, gente? Ho trovato qualcosa!\" Si riesce a vedere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    227.1,
+    208.3,
+    235.5
+   ],
+   "size": 8.4,
+   "testo": "qualcosa nella stanza al di là del camino?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    238.1,
+    273.2,
+    246.5
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Oltre le fiamme e il fumo, vedete un mucchio scintil­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    249.0,
+    232.3,
+    257.4
+   ],
+   "size": 8.4,
+   "testo": "lante di monete ammassate vicino a un forziere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    260.1,
+    268.1,
+    268.5
+   ],
+   "size": 8.4,
+   "testo": "Denise: Qualcuno ha un modo rapido per spegnere il fuoco?",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    271.1,
+    250.3,
+    279.6
+   ],
+   "size": 8.4,
+   "testo": "Filippo: E tu che hai riso di me per aver preparato creare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    282.1,
+    251.4,
+    290.5
+   ],
+   "size": 8.4,
+   "testo": "o distruggere acqua! Uso il mio simbolo sacro e lancio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    293.2,
+    221.7,
+    301.6
+   ],
+   "size": 8.4,
+   "testo": "l'incantesimo, riempiendo d'acqua il camino.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    304.1,
+    239.3,
+    312.5
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Cosa dice la descrizione dell'incantesimo?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    315.1,
+    256.0,
+    323.5
+   ],
+   "size": 8.4,
+   "testo": "Filippo: Fa piovere 45 litri d'acqua in un cubo con spigolo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    326.1,
+    216.1,
+    334.5
+   ],
+   "size": 8.4,
+   "testo": "di 9 metri, estinguendo le fiamme nell'area.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    337.1,
+    263.3,
+    345.5
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Ottimo! Il fuoco si spegne. Senza la luce del foco­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    348.0,
+    271.5,
+    356.4
+   ],
+   "size": 8.4,
+   "testo": "lare, siete tornati al bagliore magico della spada di Shreeve,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    358.9,
+    261.5,
+    367.3
+   ],
+   "size": 8.4,
+   "testo": "che proietta le vostre ombre nella stanza oltre il camino.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    370.0,
+    264.1,
+    378.4
+   ],
+   "size": 8.4,
+   "testo": "Attraverso le nuvole di fumo che aleggiano nell'aria, intra­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    380.9,
+    271.5,
+    389.3
+   ],
+   "size": 8.4,
+   "testo": "vedete un forziere chiuso sul pavimento, circondato da pile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    391.9,
+    261.4,
+    400.3
+   ],
+   "size": 8.4,
+   "testo": "di monete. Sulla parete più lontana ci sono due supporti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    403.0,
+    265.7,
+    411.4
+   ],
+   "size": 8.4,
+   "testo": "per torce: uno sorregge una torcia spenta con un'intricata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    414.1,
+    270.0,
+    422.5
+   ],
+   "size": 8.4,
+   "testo": "base di metallo, l'altro è vuoto. Uno scheletro con addosso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    425.0,
+    264.1,
+    433.4
+   ],
+   "size": 8.4,
+   "testo": "un'armatura a piastre rotta giace contro il muro. Con una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.3,
+    436.0,
+    259.1,
+    444.4
+   ],
+   "size": 8.4,
+   "testo": "mano si tiene la gola, mentre con l'altra stringe la torcia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    447.0,
+    193.3,
+    455.4
+   ],
+   "size": 8.4,
+   "testo": "abbinata al supporto per torce vuoto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    457.8,
+    175.9,
+    466.2
+   ],
+   "size": 8.4,
+   "testo": "Denise: Do un'occhiata al forziere!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    468.8,
+    119.5,
+    477.2
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Gli altri?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    479.9,
+    207.4,
+    488.3
+   ],
+   "size": 8.4,
+   "testo": "Filippo: Gareth entra e osserva lo scheletro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    490.9,
+    242.0,
+    499.3
+   ],
+   "size": 8.4,
+   "testo": "Marta: lo faccio la guardia da questo lato del camino.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    501.9,
+    204.1,
+    510.3
+   ],
+   "size": 8.4,
+   "testo": "Riccardo: Rimango vicino alla prima porta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    512.9,
+    271.7,
+    521.3
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Denise, il forziere sembra realizzato a regola d'arte,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    523.9,
+    191.7,
+    532.3
+   ],
+   "size": 8.4,
+   "testo": "con eleganti finiture e piedi artigliati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    534.3,
+    207.3,
+    543.3
+   ],
+   "size": 8.4,
+   "testo": "Denise: Provo ad aprirlo. È chiuso a chiave?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    546.0,
+    267.2,
+    554.4
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Non è chiuso a chiave, si apre facilmente e rilascia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    556.9,
+    200.5,
+    565.3
+   ],
+   "size": 8.4,
+   "testo": "una nuvola di gas dall'odore dolciastro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    567.8,
+    108.8,
+    576.2
+   ],
+   "size": 8.4,
+   "testo": "Denise: Oh, no.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    578.9,
+    259.6,
+    587.3
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Oh, sì. Ho bisogno che Auro e Gareth effettuino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    589.7,
+    175.9,
+    598.1
+   ],
+   "size": 8.4,
+   "testo": "dei tiri salvezza su Costituzione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    600.8,
+    199.8,
+    609.3
+   ],
+   "size": 8.4,
+   "testo": "Denise: Scusa, Filippo! Ho ottenuto un 8.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    611.9,
+    145.5,
+    620.3
+   ],
+   "size": 8.4,
+   "testo": "Filippo: E un 5 per Gareth.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    622.9,
+    237.2,
+    631.3
+   ],
+   "size": 8.4,
+   "testo": "Giacomo: Quando il gas penetra nei vostri polmoni,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    633.9,
+    257.9,
+    642.3
+   ],
+   "size": 8.4,
+   "testo": "sentite una morsa gelida e i vostri corpi si irrigidiscono.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    645.0,
+    210.3,
+    653.4
+   ],
+   "size": 8.4,
+   "testo": "Subite entrambi la condizione paralizzato!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.8,
+    60.2,
+    492.3,
+    68.6
+   ],
+   "size": 8.4,
+   "testo": "Trovare un oggetto nascosto. Gli ambienti delle",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.1,
+    71.2,
+    493.1,
+    79.6
+   ],
+   "size": 8.4,
+   "testo": "avventure sono colmi di segreti: trappole, porte",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.2,
+    82.1,
+    496.4,
+    90.5
+   ],
+   "size": 8.4,
+   "testo": "segrete, assi sconnesse e tesori nascosti. I perso­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.4,
+    93.1,
+    509.2,
+    101.5
+   ],
+   "size": 8.4,
+   "testo": "naggi usano spesso le prove di Saggezza per trovare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.4,
+    104.2,
+    502.9,
+    112.6
+   ],
+   "size": 8.4,
+   "testo": "le cose (vedi l'azione di Ricerca nel Glossario delle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.4,
+    115.1,
+    501.3,
+    123.5
+   ],
+   "size": 8.4,
+   "testo": "regole), ma a volte ci si imbattono per caso, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.0,
+    126.0,
+    396.1,
+    134.4
+   ],
+   "size": 8.4,
+   "testo": "è successo ad Auro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.2,
+    179.7,
+    497.4,
+    188.1
+   ],
+   "size": 8.4,
+   "testo": "Lanciare gli incantesimi. Molti personaggi hanno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    325.1,
+    190.7,
+    506.6,
+    199.1
+   ],
+   "size": 8.4,
+   "testo": "la capacità di lanciare incantesimi, che comportano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.1,
+    201.8,
+    491.0,
+    210.2
+   ],
+   "size": 8.4,
+   "testo": "un'enorme varietà di effetti. Alcuni incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.7,
+    212.8,
+    501.1,
+    221.2
+   ],
+   "size": 8.4,
+   "testo": "sono utili specialmente in combattimento, poiché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.1,
+    223.7,
+    514.8,
+    232.1
+   ],
+   "size": 8.4,
+   "testo": "infliggono danni o impongono condizioni. Altri hanno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    325.1,
+    234.7,
+    507.4,
+    243.1
+   ],
+   "size": 8.4,
+   "testo": "utilità durante le esplorazioni. Se il tuo personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.6,
+    245.7,
+    503.3,
+    254.1
+   ],
+   "size": 8.4,
+   "testo": "è un incantatore, potresti scegliere un mix di incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    256.7,
+    501.9,
+    265.1
+   ],
+   "size": 8.4,
+   "testo": "tesimi efficaci in combattimento e incantesimi più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    267.7,
+    442.1,
+    276.1
+   ],
+   "size": 8.4,
+   "testo": "funzionali a sfide di vario genere.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.9,
+    318.5,
+    511.5,
+    326.9
+   ],
+   "size": 8.4,
+   "testo": "Impara i tuoi incantesimi! Tieni aperto il tuo Manuale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.8,
+    329.4,
+    497.3,
+    337.9
+   ],
+   "size": 8.4,
+   "testo": "del Giocatore sulla descrizione di un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.9,
+    340.4,
+    504.5,
+    348.8
+   ],
+   "size": 8.4,
+   "testo": "prima di lanciarlo. Non aspettarti che il DM sappia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.4,
+    351.3,
+    484.9,
+    359.7
+   ],
+   "size": 8.4,
+   "testo": "come funziona il tuo incantesimo, e preparati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.5,
+    362.3,
+    480.3,
+    370.7
+   ],
+   "size": 8.4,
+   "testo": "a rispondere a qualsiasi domanda in merito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.2,
+    415.7,
+    505.9,
+    424.1
+   ],
+   "size": 8.4,
+   "testo": "Visione e illuminazione. Il DM determina ciò che gli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.4,
+    426.7,
+    512.5,
+    435.1
+   ],
+   "size": 8.4,
+   "testo": "avventurieri possono percepire, il che significa essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.3,
+    437.7,
+    491.3,
+    446.1
+   ],
+   "size": 8.4,
+   "testo": "consapevoli delle fonti di luce (come le fiamme",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.4,
+    448.7,
+    502.4,
+    457.1
+   ],
+   "size": 8.4,
+   "testo": "scoppiettanti nel camino e la spada incandescente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.2,
+    459.7,
+    499.8,
+    468.1
+   ],
+   "size": 8.4,
+   "testo": "di Shreeve), così come dei fattori di oscuramento,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.2,
+    470.6,
+    507.0,
+    479.0
+   ],
+   "size": 8.4,
+   "testo": "come il fumo e la nebbia. Per ulteriori informazioni,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.0,
+    481.6,
+    498.9,
+    490.0
+   ],
+   "size": 8.4,
+   "testo": "vedi \"Visione e illuminazione\" tra le sezioni prece­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.6,
+    492.6,
+    411.2,
+    501.0
+   ],
+   "size": 8.4,
+   "testo": "denti di questo capitolo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.4,
+    545.8,
+    498.1,
+    554.2
+   ],
+   "size": 8.4,
+   "testo": "Tiri salvezza. Un tiro salvezza viene utilizzato per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.0,
+    556.7,
+    511.3,
+    565.1
+   ],
+   "size": 8.4,
+   "testo": "determinare se una creatura evita o resiste a qualcosa.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.0,
+    567.7,
+    504.4,
+    576.1
+   ],
+   "size": 8.4,
+   "testo": "Quando il forziere rilascia gas tossico, i personaggi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.9,
+    578.7,
+    495.5,
+    587.1
+   ],
+   "size": 8.4,
+   "testo": "di Filippo e Denise effettuano dei tiri salvezza su",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.0,
+    589.6,
+    499.9,
+    598.0
+   ],
+   "size": 8.4,
+   "testo": "Costituzione. La Costituzione è una delle sei carat­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.8,
+    600.7,
+    496.4,
+    609.1
+   ],
+   "size": 8.4,
+   "testo": "teristiche che misurano le capacità delle creature",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.9,
+    611.8,
+    506.9,
+    620.2
+   ],
+   "size": 8.4,
+   "testo": "e ha a che fare con la salute e la resistenza. Quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.2,
+    622.7,
+    504.7,
+    631.1
+   ],
+   "size": 8.4,
+   "testo": "i personaggi falliscono i tiri salvezza, il gas provoca",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.2,
+    633.8,
+    507.7,
+    642.2
+   ],
+   "size": 8.4,
+   "testo": "la condizione paralizzato. Per ulteriori informazioni,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.2,
+    644.8,
+    494.9,
+    653.2
+   ],
+   "size": 8.4,
+   "testo": "vedi la sezione \"Condizioni\" più avanti in questo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.8,
+    655.8,
+    356.1,
+    664.2
+   ],
+   "size": 8.4,
+   "testo": "capitolo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

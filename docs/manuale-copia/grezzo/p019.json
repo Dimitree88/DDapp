@@ -1,0 +1,655 @@
+{
+ "pagina_pdf": 19,
+ "pagina_stampata": 16,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "16 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   697
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.7,
+    402.5,
+    232.1,
+    419.2
+   ],
+   "size": 12.9,
+   "testo": "INTERAZIONI SOCIALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    420.7,
+    259.6,
+    431.3
+   ],
+   "size": 8.8,
+   "testo": "Durante le loro avventure, i personaggi dei giocatori",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    431.6,
+    265.5,
+    442.2
+   ],
+   "size": 8.8,
+   "testo": "incontrano molto persone diverse e affrontano mostri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    442.7,
+    257.1,
+    453.2
+   ],
+   "size": 8.8,
+   "testo": "desiderosi più di parlare che di combattere. In simili",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.9,
+    453.6,
+    279.7,
+    464.2
+   ],
+   "size": 8.8,
+   "testo": "situazioni bisogna passare alle interazioni sociali, che pos­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    464.6,
+    276.3,
+    475.1
+   ],
+   "size": 8.8,
+   "testo": "sono assumere molte forme. Ad esempio, un personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    475.6,
+    279.9,
+    486.2
+   ],
+   "size": 8.8,
+   "testo": "potrebbe cercare di convincere un ladro a confessare una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    486.6,
+    268.6,
+    497.1
+   ],
+   "size": 8.8,
+   "testo": "malefatta o di adulare una guardia. Il Dungeon Master",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    497.5,
+    266.6,
+    508.1
+   ],
+   "size": 8.8,
+   "testo": "interpreta i ruoli di tutti i personaggi non giocanti che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    508.6,
+    162.9,
+    519.2
+   ],
+   "size": 8.8,
+   "testo": "partecipano ali'interazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    519.7,
+    273.4,
+    530.3
+   ],
+   "size": 8.8,
+   "testo": "L'atteggiamento di un PNG nei confronti del personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    530.8,
+    276.7,
+    541.4
+   ],
+   "size": 8.8,
+   "testo": "gio è amichevole, indifferente o ostile, come descritto nel",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    541.6,
+    275.8,
+    552.2
+   ],
+   "size": 8.8,
+   "testo": "Glossario delle regole. I PNG amichevoli sono disposti ad",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    552.6,
+    265.5,
+    563.2
+   ],
+   "size": 8.8,
+   "testo": "aiutare il personaggio, mentre quelli ostili tenderanno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    563.7,
+    107.3,
+    574.3
+   ],
+   "size": 8.8,
+   "testo": "a ostacolarlo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    574.5,
+    283.1,
+    585.1
+   ],
+   "size": 8.8,
+   "testo": "Le interazioni sociali avvengono in due modi: attraverso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    585.5,
+    264.0,
+    596.1
+   ],
+   "size": 8.8,
+   "testo": "l'interpretazione del ruolo e le prove di caratteristica.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    605.7,
+    240.9,
+    618.8
+   ],
+   "size": 9.7,
+   "testo": "INTERPRETAZIONE DEL RUOLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    622.3,
+    261.5,
+    632.9
+   ],
+   "size": 8.8,
+   "testo": "L'interpretazione del ruolo è esattamente ciò che sug­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    633.4,
+    262.4,
+    643.9
+   ],
+   "size": 8.8,
+   "testo": "gerisce il termine stesso, ovvero l'atto di interpretare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    644.3,
+    269.8,
+    654.9
+   ],
+   "size": 8.8,
+   "testo": "il ruolo di un personaggio, nella fattispecie le scelte che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    655.3,
+    281.0,
+    665.9
+   ],
+   "size": 8.8,
+   "testo": "determinano in che modo il tuo personaggio pensa, agisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    666.2,
+    280.1,
+    676.8
+   ],
+   "size": 8.8,
+   "testo": "e parla. L'interpretazione del ruolo è parte di ogni aspetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    677.3,
+    268.9,
+    687.9
+   ],
+   "size": 8.8,
+   "testo": "del gioco, ma diventa di primaria importanza nel corso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    688.2,
+    147.9,
+    698.8
+   ],
+   "size": 8.8,
+   "testo": "delle interazioni sociali.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    400.7,
+    507.8,
+    411.2
+   ],
+   "size": 8.8,
+   "testo": "Durante l'interpretazione, valuta se preferisci un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    411.7,
+    516.0,
+    422.2
+   ],
+   "size": 8.8,
+   "testo": "approccio attivo o un approccio descrittivo, entrambi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.1,
+    422.7,
+    521.7,
+    433.3
+   ],
+   "size": 8.8,
+   "testo": "delineati nella sezione \"Esempio di interazione sociale\".",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    433.7,
+    532.2,
+    444.2
+   ],
+   "size": 8.8,
+   "testo": "Il DM usa la personalità di un PNG e le azioni e gli atteg­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    444.6,
+    529.4,
+    455.2
+   ],
+   "size": 8.8,
+   "testo": "giamenti di un personaggio per determinare in che modo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    455.5,
+    520.0,
+    466.1
+   ],
+   "size": 8.8,
+   "testo": "un PNG reagisce. Un bandito codardo potrebbe cedere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    466.6,
+    525.4,
+    477.1
+   ],
+   "size": 8.8,
+   "testo": "di fronte a una minaccia di reclusione. Una mercantessa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    477.6,
+    509.9,
+    488.1
+   ],
+   "size": 8.8,
+   "testo": "testarda si rifiuta di prestare aiuto se i personaggi la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    488.6,
+    520.6,
+    499.1
+   ],
+   "size": 8.8,
+   "testo": "importunano. Un drago vanesio adora sentirsi adulato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    499.5,
+    512.9,
+    510.1
+   ],
+   "size": 8.8,
+   "testo": "Durante le interazioni con un PNG è bene prestare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.1,
+    510.6,
+    513.2,
+    521.2
+   ],
+   "size": 8.8,
+   "testo": "attenzione a come il DM ne interpreta la personalità:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    521.6,
+    512.0,
+    532.2
+   ],
+   "size": 8.8,
+   "testo": "potresti essere in grado di apprendere gli obiettivi di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    532.5,
+    515.9,
+    543.1
+   ],
+   "size": 8.8,
+   "testo": "un PNG e usare queste informazioni per influenzarlo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    543.6,
+    507.7,
+    554.2
+   ],
+   "size": 8.8,
+   "testo": "Offrendo a un PNG qualcosa che desidera oppure",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    554.6,
+    514.9,
+    565.2
+   ],
+   "size": 8.8,
+   "testo": "facendo leva sui suoi obiettivi, le sue simpatie o le sue",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    565.5,
+    528.1,
+    576.1
+   ],
+   "size": 8.8,
+   "testo": "paure, puoi stringere amicizie, scongiurare il ricorso alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    576.6,
+    532.2,
+    587.1
+   ],
+   "size": 8.8,
+   "testo": "violenza o apprendere informazioni chiave. D'altro canto,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    587.5,
+    532.5,
+    598.1
+   ],
+   "size": 8.8,
+   "testo": "se insulti un orgoglioso guerriero o parli male degli alleati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    598.5,
+    523.4,
+    609.1
+   ],
+   "size": 8.8,
+   "testo": "di un nobile, difficilmente i tuoi tentativi di persuasione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    609.6,
+    444.3,
+    620.2
+   ],
+   "size": 8.8,
+   "testo": "o di inganno andranno a buon fine.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    629.8,
+    475.6,
+    642.9
+   ],
+   "size": 9.7,
+   "testo": "PROVE DI CARATTERISTICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    646.3,
+    502.5,
+    656.9
+   ],
+   "size": 8.8,
+   "testo": "Le prove di caratteristica sono essenziali al fine di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    657.3,
+    529.3,
+    667.8
+   ],
+   "size": 8.8,
+   "testo": "determinare l'esito di un'interazione sociale. La tua inter­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    668.3,
+    518.1,
+    678.9
+   ],
+   "size": 8.8,
+   "testo": "pretazione può modificare l'atteggiamento di un PNG,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    679.3,
+    524.8,
+    689.8
+   ],
+   "size": 8.8,
+   "testo": "ma potrebbe comunque persistere un elemento di casua­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    690.2,
+    523.1,
+    700.8
+   ],
+   "size": 8.8,
+   "testo": "lità se il DM vuole che i dadi abbiano un ruolo nel deter­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    701.2,
+    529.5,
+    711.7
+   ],
+   "size": 8.8,
+   "testo": "minare la reazione di un PNG. In queste situazioni, il DM",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    712.2,
+    520.5,
+    722.8
+   ],
+   "size": 8.8,
+   "testo": "chiederà in genere di effettuare un'azione di Influenza.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

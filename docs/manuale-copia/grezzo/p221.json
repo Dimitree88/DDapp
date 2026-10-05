@@ -1,0 +1,427 @@
+{
+ "pagina_pdf": 221,
+ "pagina_stampata": 218,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "218 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [
+  [
+   18,
+   56,
+   589,
+   775
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    50.1,
+    40.3,
+    143.3,
+    57.0
+   ],
+   "size": 12.9,
+   "testo": "ARMATURE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.9,
+    81.0,
+    195.1,
+    94.1
+   ],
+   "size": 9.7,
+   "testo": "ARMATURE LEGGERE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.7,
+    215.6,
+    151.4,
+    222.2
+   ],
+   "size": 5.4,
+   "testo": "ARMATURA IMBOTTITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    76.6,
+    224.1,
+    94.7,
+    233.2
+   ],
+   "size": 6.9,
+   "testo": "5 MO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.6,
+    214.4,
+    258.3,
+    221.1
+   ],
+   "size": 5.4,
+   "testo": "ARMATURA DI CUOIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.9,
+    223.0,
+    209.7,
+    232.0
+   ],
+   "size": 6.9,
+   "testo": "10 MO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    267.0,
+    179.4,
+    280.1
+   ],
+   "size": 9.7,
+   "testo": "ARMATURE MEDIE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.3,
+    313.7,
+    187.7,
+    320.4
+   ],
+   "size": 5.4,
+   "testo": "ARMATURA DI PELLE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    118.7,
+    322.6,
+    139.6,
+    331.6
+   ],
+   "size": 6.9,
+   "testo": "10 MO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    511.6,
+    191.4,
+    524.7
+   ],
+   "size": 9.7,
+   "testo": "ARMATURE PESANTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    115.0,
+    691.8,
+    183.2,
+    698.5
+   ],
+   "size": 5.4,
+   "testo": "CoRA\"IZA AD ANELLI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    114.4,
+    700.5,
+    136.7,
+    709.6
+   ],
+   "size": 6.9,
+   "testo": "30 MO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    223.4,
+    449.7,
+    282.4,
+    456.4
+   ],
+   "size": 5.4,
+   "testo": "GIACO DI MAGLIA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    223.5,
+    458.5,
+    245.7,
+    467.5
+   ],
+   "size": 6.9,
+   "testo": "50 MO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    223.4,
+    646.7,
+    283.1,
+    653.3
+   ],
+   "size": 5.4,
+   "testo": "COTTA DI MAGLIA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    223.2,
+    655.4,
+    245.1,
+    664.4
+   ],
+   "size": 6.9,
+   "testo": "75 MO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    416.4,
+    81.1,
+    456.9,
+    94.2
+   ],
+   "size": 9.7,
+   "testo": "SCUDI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.9,
+    203.4,
+    370.1,
+    210.0
+   ],
+   "size": 5.4,
+   "testo": "ARMATURA DI CUOIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.2,
+    213.4,
+    339.3,
+    220.0
+   ],
+   "size": 5.4,
+   "testo": "BORCHIATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.9,
+    223.5,
+    322.1,
+    230.2
+   ],
+   "size": 5.4,
+   "testo": "45 MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.7,
+    296.0,
+    422.0,
+    302.7
+   ],
+   "size": 5.4,
+   "testo": "CoRA\"IZA A scAG L I E",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    353.7,
+    304.7,
+    376.0,
+    313.8
+   ],
+   "size": 6.9,
+   "testo": "50 MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    371.2,
+    465.1,
+    442.9,
+    471.7
+   ],
+   "size": 5.4,
+   "testo": "CoRA\"IZA D I P I ASTRE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    370.9,
+    475.1,
+    398.4,
+    481.7
+   ],
+   "size": 5.4,
+   "testo": "4oO MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.0,
+    525.8,
+    431.9,
+    532.5
+   ],
+   "size": 5.4,
+   "testo": "ARMATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.0,
+    535.8,
+    429.0,
+    542.5
+   ],
+   "size": 5.4,
+   "testo": "A PIASTRE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.2,
+    544.4,
+    425.4,
+    553.4
+   ],
+   "size": 6.9,
+   "testo": "1.500 MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.8,
+    691.1,
+    402.7,
+    697.8
+   ],
+   "size": 5.4,
+   "testo": "CoRA\"IZA A S T R I SCE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    335.0,
+    701.1,
+    361.7,
+    707.7
+   ],
+   "size": 5.4,
+   "testo": "2oO MO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    480.5,
+    147.5,
+    504.9,
+    154.1
+   ],
+   "size": 5.4,
+   "testo": "ScuDo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    480.8,
+    156.1,
+    501.4,
+    165.1
+   ],
+   "size": 6.9,
+   "testo": "10 MO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    480.2,
+    413.4,
+    504.2,
+    420.1
+   ],
+   "size": 5.4,
+   "testo": "M E\"IZA",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    479.8,
+    423.4,
+    516.3,
+    430.0
+   ],
+   "size": 5.4,
+   "testo": "ARMATURA",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    479.7,
+    432.1,
+    505.1,
+    441.2
+   ],
+   "size": 6.9,
+   "testo": "750 MO",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

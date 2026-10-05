@@ -1,0 +1,1231 @@
+{
+ "pagina_pdf": 284,
+ "pagina_stampata": 281,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 281",
+ "immagini": [
+  [
+   45,
+   552,
+   302,
+   744
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    61.6,
+    36.1,
+    273.7,
+    46.6
+   ],
+   "size": 8.8,
+   "testo": "Suono. Se l'incantatore crea un suono, la sua intensità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    47.0,
+    270.8,
+    57.6
+   ],
+   "size": 8.8,
+   "testo": "può variare da quella di un sussurro a quella di un urlo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    58.1,
+    262.1,
+    68.6
+   ],
+   "size": 8.8,
+   "testo": "Può trattarsi della voce dell'incantatore o di altri, del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    69.0,
+    283.5,
+    79.6
+   ],
+   "size": 8.8,
+   "testo": "ruggito di un leone, di un rullo di tamburi o di un qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    80.0,
+    272.7,
+    90.6
+   ],
+   "size": 8.8,
+   "testo": "altro suono a sua scelta. Il suono può echeggiare ininter­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    91.0,
+    271.8,
+    101.5
+   ],
+   "size": 8.8,
+   "testo": "rottamente per tutta la durata dell'incantesimo, oppure",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    101.9,
+    276.9,
+    112.5
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore può emettere dei suoni separati in momenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    113.0,
+    211.3,
+    123.5
+   ],
+   "size": 8.8,
+   "testo": "diversi prima che l'incantesimo termini.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    124.0,
+    254.9,
+    134.5
+   ],
+   "size": 8.8,
+   "testo": "Immagine. Se l'incantatore crea l'immagine di un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    135.0,
+    283.8,
+    145.5
+   ],
+   "size": 8.8,
+   "testo": "oggetto (come per esempio una sedia, una serie di impronte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    146.0,
+    268.6,
+    156.5
+   ],
+   "size": 8.8,
+   "testo": "nel fango o uno scrigno), quell'oggetto non deve essere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    157.0,
+    276.6,
+    167.6
+   ],
+   "size": 8.8,
+   "testo": "più grande di un cubo con spigolo di 1,5 metri. L'illusione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    168.0,
+    283.4,
+    178.6
+   ],
+   "size": 8.8,
+   "testo": "non può emettere suoni, luci, odori o qualsiasi altro effetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    179.0,
+    271.1,
+    189.6
+   ],
+   "size": 8.8,
+   "testo": "sensoriale e può essere rivelata da un'interazione fisica,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    190.0,
+    211.5,
+    200.6
+   ],
+   "size": 8.8,
+   "testo": "poiché gli oggetti possono attraversarla.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    224.7,
+    191.0,
+    236.1
+   ],
+   "size": 11.2,
+   "testo": "ILLUSIONE PROGRAMMATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    236.2,
+    180.6,
+    246.7
+   ],
+   "size": 8.6,
+   "testo": "Illusione di 6°livello (bardo, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    251.7,
+    145.2,
+    261.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    262.8,
+    117.7,
+    272.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    273.9,
+    274.1,
+    283.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (polvere di giada del valore di 25 mo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.7,
+    284.8,
+    84.7,
+    294.5
+   ],
+   "size": 8.4,
+   "testo": "o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    295.8,
+    180.6,
+    305.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: finché non viene dissolto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    312.0,
+    282.8,
+    322.6
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea un'illusione di un oggetto, una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    323.0,
+    260.3,
+    333.6
+   ],
+   "size": 8.8,
+   "testo": "o qualche altro fenomeno visibile entro gittata che si",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    334.0,
+    279.4,
+    344.6
+   ],
+   "size": 8.8,
+   "testo": "attiva al verificarsi di un innesco specifico. Fino ad allora,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    345.0,
+    283.1,
+    355.6
+   ],
+   "size": 8.8,
+   "testo": "l'illusione è impercettibile. Inoltre, essa non può essere più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    356.0,
+    282.2,
+    366.5
+   ],
+   "size": 8.8,
+   "testo": "grande di un cubo con spigolo di 9 metri ed è l'incantatore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    366.9,
+    283.8,
+    377.5
+   ],
+   "size": 8.8,
+   "testo": "al momento del lancio, a decidere come si comporta e quali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    377.9,
+    279.9,
+    388.5
+   ],
+   "size": 8.8,
+   "testo": "suoni emette. Questa esibizione programmata può durare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    389.0,
+    148.9,
+    399.5
+   ],
+   "size": 8.8,
+   "testo": "un massimo di 5 minuti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    400.0,
+    257.6,
+    410.6
+   ],
+   "size": 8.8,
+   "testo": "Quando l'innesco specificato si verifica, l'illusione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    411.1,
+    258.7,
+    421.7
+   ],
+   "size": 8.8,
+   "testo": "si materializza e si comporta nella maniera descritta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    422.1,
+    283.2,
+    432.7
+   ],
+   "size": 8.8,
+   "testo": "dall'incantatore. Al termine della sua esibizione, l'illusione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    433.1,
+    279.6,
+    443.7
+   ],
+   "size": 8.8,
+   "testo": "scompare e rimane latente per 10 minuti, dopo i quali può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    444.0,
+    164.6,
+    454.6
+   ],
+   "size": 8.8,
+   "testo": "essere attivata nuovamente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    455.1,
+    280.3,
+    465.7
+   ],
+   "size": 8.8,
+   "testo": "L'innesco può essere sia generale che dettagliato, ma deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    466.0,
+    276.9,
+    476.6
+   ],
+   "size": 8.8,
+   "testo": "essere basato su fenomeni visibili o udibili che si verificano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    477.0,
+    278.9,
+    487.6
+   ],
+   "size": 8.8,
+   "testo": "entro 9 metri dall'area. Per esempio, l'incantatore potrebbe",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    488.1,
+    269.4,
+    498.6
+   ],
+   "size": 8.8,
+   "testo": "creare un'illusione di se stesso per avvertire coloro che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    499.1,
+    261.5,
+    509.6
+   ],
+   "size": 8.8,
+   "testo": "tentano di aprire una porta protetta da una trappola.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    526.5,
+    171.8,
+    533.1
+   ],
+   "size": 5.4,
+   "testo": "UN INCllNTllTORE POTREBBE USARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    535.3,
+    170.4,
+    544.3
+   ],
+   "size": 6.9,
+   "testo": "ILLUSIONE PROGRllMMllTll PER FAR",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    546.5,
+    158.5,
+    553.1
+   ],
+   "size": 5.4,
+   "testo": "llPPllR I R E UN CANE Dli GUAR D I /I",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    556.5,
+    159.2,
+    563.2
+   ],
+   "size": 5.4,
+   "testo": "E CHIEDERE GENTILMENTE AGLI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    566.4,
+    132.9,
+    573.1
+   ],
+   "size": 5.4,
+   "testo": "INTRUSI DI ANDARSENE.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    36.2,
+    525.5,
+    46.8
+   ],
+   "size": 8.8,
+   "testo": "L'illusione può essere rivelata da un'interazione fisica,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    47.2,
+    517.9,
+    57.8
+   ],
+   "size": 8.8,
+   "testo": "poiché gli oggetti possono attraversarla. Una creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    58.1,
+    527.6,
+    68.7
+   ],
+   "size": 8.8,
+   "testo": "che effettua l'azione di Studio per esaminare l'immagine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    69.2,
+    522.1,
+    79.8
+   ],
+   "size": 8.8,
+   "testo": "può determinare che si tratta di un'illusione superando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    80.2,
+    514.1,
+    90.8
+   ],
+   "size": 8.8,
+   "testo": "una prova di Intelligenza (Indagare) contro la CD del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    91.2,
+    529.5,
+    101.7
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza sull'incantesimo. Se una creatura riconosce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    102.1,
+    530.2,
+    112.7
+   ],
+   "size": 8.8,
+   "testo": "l'illusione per ciò che è, riesce a vedere attraverso l'imma­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    113.1,
+    530.1,
+    123.7
+   ],
+   "size": 8.8,
+   "testo": "gine e gli eventuali suoni che emette si attenuano alle sue",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    124.2,
+    343.5,
+    134.7
+   ],
+   "size": 8.8,
+   "testo": "orecchie.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    158.9,
+    420.6,
+    170.3
+   ],
+   "size": 11.2,
+   "testo": "IMMAGINE MAGGIORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    170.4,
+    500.1,
+    180.8
+   ],
+   "size": 8.6,
+   "testo": "Illusionedi3° livello (bardo, mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    186.0,
+    397.8,
+    195.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    196.9,
+    370.4,
+    206.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    208.0,
+    454.3,
+    217.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un ciuffo di lana)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    218.9,
+    461.0,
+    228.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 10 minuti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    235.1,
+    533.3,
+    245.7
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea l'immagine di un oggetto, una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    246.1,
+    526.5,
+    256.6
+   ],
+   "size": 8.8,
+   "testo": "o qualche altro fenomeno visibile che non sia più grande",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    257.1,
+    531.1,
+    267.7
+   ],
+   "size": 8.8,
+   "testo": "di un cubo con spigolo di 6 metri. L'immagine, apparendo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    268.2,
+    518.2,
+    278.8
+   ],
+   "size": 8.8,
+   "testo": "in un punto situato entro gittata che l'incantatore è in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    279.2,
+    527.0,
+    289.8
+   ],
+   "size": 8.8,
+   "testo": "grado di vedere, permane per la durata dell'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    290.3,
+    518.6,
+    300.8
+   ],
+   "size": 8.8,
+   "testo": "L'immagine sembra reale e include temperature, suoni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    301.2,
+    525.2,
+    311.8
+   ],
+   "size": 8.8,
+   "testo": "e odori appropriati all'elemento raffigurato, ma non può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    312.2,
+    454.7,
+    322.7
+   ],
+   "size": 8.8,
+   "testo": "infliggere danni o causare condizioni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    323.2,
+    527.0,
+    333.8
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore si trova entro la gittata dell'immagine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    334.1,
+    520.7,
+    344.7
+   ],
+   "size": 8.8,
+   "testo": "illusoria, può effettuare la sua azione di Magia per fare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    345.0,
+    531.2,
+    355.6
+   ],
+   "size": 8.8,
+   "testo": "in modo che l'immagine si muova fino a un qualsiasi altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    356.1,
+    526.6,
+    366.6
+   ],
+   "size": 8.8,
+   "testo": "punto entro gittata. Mentre l'immagine è in movimento,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    367.0,
+    524.7,
+    377.6
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore può alterarne l'aspetto in modo che i movi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    378.0,
+    532.1,
+    388.6
+   ],
+   "size": 8.8,
+   "testo": "menti risultino naturali. Ad esempio, se l'incantatore crea",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    389.1,
+    532.1,
+    399.7
+   ],
+   "size": 8.8,
+   "testo": "l'immagine di una creatura e decide di farla muovere, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    400.2,
+    526.4,
+    410.7
+   ],
+   "size": 8.8,
+   "testo": "alterare l'immagine in modo da simulare che stia cammi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    411.2,
+    519.7,
+    421.8
+   ],
+   "size": 8.8,
+   "testo": "nando. Analogamente, può fare in modo che l'illusione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    422.2,
+    524.2,
+    432.8
+   ],
+   "size": 8.8,
+   "testo": "generi suoni diversi in momenti diversi, in modo da, per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    433.2,
+    509.6,
+    443.7
+   ],
+   "size": 8.8,
+   "testo": "esempio, farle persino sostenere una conversazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    444.1,
+    525.1,
+    454.7
+   ],
+   "size": 8.8,
+   "testo": "L'illusione può essere rivelata da un'interazione fisica,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    455.2,
+    523.4,
+    465.7
+   ],
+   "size": 8.8,
+   "testo": "poiché è possibile passarle attraverso. Una creatura che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    466.1,
+    528.4,
+    476.7
+   ],
+   "size": 8.8,
+   "testo": "effettua l'azione di Studio per esaminare l'immagine può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    477.1,
+    521.9,
+    487.7
+   ],
+   "size": 8.8,
+   "testo": "determinare che si tratta di un'illusione superando una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    488.1,
+    513.8,
+    498.7
+   ],
+   "size": 8.8,
+   "testo": "prova di Intelligenza (Indagare) contro la CD del tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    499.2,
+    532.2,
+    509.8
+   ],
+   "size": 8.8,
+   "testo": "salvezza sull'incantesimo. Se una creatura riconosce l'illu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    510.2,
+    530.7,
+    520.8
+   ],
+   "size": 8.8,
+   "testo": "sione per ciò che è, riesce a vedere attraverso l'immagine,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    521.2,
+    509.9,
+    531.8
+   ],
+   "size": 8.8,
+   "testo": "di cui si attenuano le altre caratteristiche sensoriali.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    532.3,
+    533.1,
+    542.8
+   ],
+   "size": 8.8,
+   "testo": "Utilizzodiunoslot incantesimodilivello superiore. L'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    543.3,
+    525.7,
+    553.8
+   ],
+   "size": 8.8,
+   "testo": "tesimo dura finché non viene dissolto, e non necessita di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    554.2,
+    534.1,
+    564.8
+   ],
+   "size": 8.8,
+   "testo": "concentrazione, se viene lanciato con uno slot incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    563.1,
+    390.8,
+    575.8
+   ],
+   "size": 8.8,
+   "testo": "4° livello o superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    599.9,
+    427.1,
+    611.2
+   ],
+   "size": 11.2,
+   "testo": "IMMAGINE PROIETTATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    611.5,
+    432.4,
+    622.0
+   ],
+   "size": 8.6,
+   "testo": "Illusione di 7°livello (bardo, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    627.2,
+    397.4,
+    636.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    638.1,
+    393.6,
+    647.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 800 chilometri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    649.2,
+    516.3,
+    658.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una statuetta dell'incantatore del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    660.2,
+    392.9,
+    669.8
+   ],
+   "size": 8.4,
+   "testo": "valore di 5 mo o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    671.2,
+    456.6,
+    680.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l giorno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    687.3,
+    513.5,
+    697.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore crea una copia illusoria di se stesso che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    698.3,
+    514.1,
+    708.9
+   ],
+   "size": 8.8,
+   "testo": "permane per la durata dell'incantesimo. La copia può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    709.3,
+    529.6,
+    719.8
+   ],
+   "size": 8.8,
+   "testo": "apparire in qualsiasi luogo entro gittata che l'incantatore",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

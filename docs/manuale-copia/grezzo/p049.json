@@ -1,0 +1,1668 @@
+{
+ "pagina_pdf": 49,
+ "pagina_stampata": 46,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "46 / CAPITOLO 2 I CREARE UN PERSONAGGIO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    50.3,
+    37.6,
+    114.9,
+    54.3
+   ],
+   "size": 12.9,
+   "testo": "MONILI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    55.9,
+    263.1,
+    66.4
+   ],
+   "size": 8.8,
+   "testo": "Quando crei il personaggio, puoi tirare una volta sulla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    66.8,
+    256.3,
+    77.4
+   ],
+   "size": 8.8,
+   "testo": "tabella Monili per ottenere un monile minuscolo, un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.4,
+    77.8,
+    268.5,
+    88.4
+   ],
+   "size": 8.8,
+   "testo": "oggetto semplice e avvolto da un sottile velo di mistero.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    88.8,
+    271.0,
+    99.4
+   ],
+   "size": 8.8,
+   "testo": "Anche il DM potrebbe utilizzare questa tabella per rifor­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    99.9,
+    267.1,
+    110.5
+   ],
+   "size": 8.8,
+   "testo": "nire la stanza di un dungeon o per riempire le tasche di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    110.8,
+    105.1,
+    121.4
+   ],
+   "size": 8.8,
+   "testo": "una creatura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    133.5,
+    89.8,
+    144.2
+   ],
+   "size": 10.6,
+   "testo": "MONILI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    149.4,
+    110.3,
+    158.6
+   ],
+   "size": 8.2,
+   "testo": "1d100 Monile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    163.4,
+    69.5,
+    173.0
+   ],
+   "size": 8.4,
+   "testo": "01",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    82.0,
+    163.5,
+    211.4,
+    173.1
+   ],
+   "size": 8.4,
+   "testo": "Una mano di goblin mummificata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    178.0,
+    70.8,
+    187.7
+   ],
+   "size": 8.4,
+   "testo": "02",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    82.0,
+    178.1,
+    258.2,
+    187.7
+   ],
+   "size": 8.4,
+   "testo": "Un frammento di cristallo che risplende debol-",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    81.5,
+    190.0,
+    179.7,
+    199.6
+   ],
+   "size": 8.4,
+   "testo": "mente alla luce della luna",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    204.7,
+    70.6,
+    214.3
+   ],
+   "size": 8.4,
+   "testo": "03",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.8,
+    204.7,
+    256.3,
+    214.4
+   ],
+   "size": 8.4,
+   "testo": "Una moneta d'oro forgiata in una terra ignota",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    219.2,
+    70.8,
+    228.9
+   ],
+   "size": 8.4,
+   "testo": "04",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.9,
+    219.3,
+    222.7,
+    228.9
+   ],
+   "size": 8.4,
+   "testo": "Un diario scritto in una lingua ignota",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    233.7,
+    70.0,
+    243.3
+   ],
+   "size": 8.4,
+   "testo": "05",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    82.0,
+    233.8,
+    251.5,
+    243.4
+   ],
+   "size": 8.4,
+   "testo": "Un anello di ottone che non si consuma mai",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    248.4,
+    70.9,
+    258.0
+   ],
+   "size": 8.4,
+   "testo": "06",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.5,
+    248.4,
+    252.3,
+    258.0
+   ],
+   "size": 8.4,
+   "testo": "Un vecchio pezzo degli scacchi fatto in vetro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    263.0,
+    70.6,
+    272.6
+   ],
+   "size": 8.4,
+   "testo": "07",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.7,
+    263.0,
+    263.8,
+    272.7
+   ],
+   "size": 8.4,
+   "testo": "Un paio di dadi fatto in ossa di falange; ognuno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    81.4,
+    275.0,
+    261.6,
+    284.7
+   ],
+   "size": 8.4,
+   "testo": "mostra il simbolo di un teschio sul lato che nor­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    81.4,
+    287.1,
+    207.4,
+    296.8
+   ],
+   "size": 8.4,
+   "testo": "malmente mostrerebbe sei punti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    301.7,
+    70.5,
+    311.3
+   ],
+   "size": 8.4,
+   "testo": "08",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.7,
+    301.7,
+    276.0,
+    311.3
+   ],
+   "size": 8.4,
+   "testo": "Un piccolo idolo che raffigura una creatura da incubo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    81.0,
+    313.5,
+    271.2,
+    323.2
+   ],
+   "size": 8.4,
+   "testo": "e fa fare brutti sogni a chi dorme nelle sue vicinanze",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.0,
+    328.1,
+    70.6,
+    337.7
+   ],
+   "size": 8.4,
+   "testo": "09",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.9,
+    328.2,
+    161.3,
+    337.9
+   ],
+   "size": 8.4,
+   "testo": "Una ciocca di capelli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    342.7,
+    70.8,
+    352.3
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.5,
+    342.7,
+    260.0,
+    352.3
+   ],
+   "size": 8.4,
+   "testo": "L'atto di proprietà di un appezzamento di terra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    81.3,
+    354.7,
+    176.4,
+    364.4
+   ],
+   "size": 8.4,
+   "testo": "in un reame sconosciuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    369.2,
+    70.0,
+    378.8
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.4,
+    369.3,
+    253.4,
+    379.0
+   ],
+   "size": 8.4,
+   "testo": "Un cubetto fatto d i un materiale sconosciuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.4,
+    381.2,
+    168.4,
+    390.9
+   ],
+   "size": 8.4,
+   "testo": "del peso di 30 grammi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    395.7,
+    70.7,
+    405.4
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.4,
+    395.9,
+    255.1,
+    405.5
+   ],
+   "size": 8.4,
+   "testo": "Una piccola bambola di pezza trafitta da aghi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    410.5,
+    70.8,
+    420.2
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.0,
+    410.6,
+    222.4,
+    420.2
+   ],
+   "size": 8.4,
+   "testo": "Una zanna di una bestia sconosciuta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    425.1,
+    70.8,
+    434.7
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.3,
+    425.2,
+    273.8,
+    434.8
+   ],
+   "size": 8.4,
+   "testo": "Una scaglia enorme, forse appartenente a un drago",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    439.6,
+    71.2,
+    449.3
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.3,
+    439.7,
+    189.8,
+    449.3
+   ],
+   "size": 8.4,
+   "testo": "Una sgargiante piuma verde",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    454.2,
+    71.5,
+    463.8
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    80.8,
+    454.2,
+    267.2,
+    463.8
+   ],
+   "size": 8.4,
+   "testo": "U n a vecchia carta d a chiromante s u cui compare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    81.8,
+    466.2,
+    179.8,
+    475.9
+   ],
+   "size": 8.4,
+   "testo": "il ritratto del personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    480.8,
+    71.1,
+    490.4
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.3,
+    480.8,
+    238.0,
+    490.5
+   ],
+   "size": 8.4,
+   "testo": "Un globo di vetro pieno di sbuffi di fumo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    495.3,
+    70.3,
+    504.9
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.3,
+    495.4,
+    276.3,
+    505.0
+   ],
+   "size": 8.4,
+   "testo": "Un uovo da mezzo chilo dal guscio color rosso chiaro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    509.9,
+    71.0,
+    519.5
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.3,
+    510.0,
+    219.5,
+    519.6
+   ],
+   "size": 8.4,
+   "testo": "Un tubo per soffiare bolle di sapone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    524.6,
+    70.2,
+    534.2
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.1,
+    524.6,
+    264.0,
+    534.2
+   ],
+   "size": 8.4,
+   "testo": "Un vaso di vetro che contiene uno strano pezzo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    80.8,
+    536.6,
+    247.6,
+    546.3
+   ],
+   "size": 8.4,
+   "testo": "di carne immerso in un liquido conservante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    551.0,
+    68.9,
+    560.7
+   ],
+   "size": 8.4,
+   "testo": "21",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.5,
+    551.2,
+    252.6,
+    560.8
+   ],
+   "size": 8.4,
+   "testo": "Un carillon di fattura gnomesca il cui motivo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.0,
+    563.2,
+    269.3,
+    572.8
+   ],
+   "size": 8.4,
+   "testo": "richiama vagamente una melodia che il personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    80.7,
+    575.1,
+    171.6,
+    584.7
+   ],
+   "size": 8.4,
+   "testo": "gio ricorda dall'infanzia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    589.6,
+    70.7,
+    599.2
+   ],
+   "size": 8.4,
+   "testo": "22",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.3,
+    589.7,
+    277.5,
+    599.3
+   ],
+   "size": 8.4,
+   "testo": "Una statuetta di legno con le fattezze di un halfling",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    80.8,
+    601.7,
+    127.2,
+    611.3
+   ],
+   "size": 8.4,
+   "testo": "strafottente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    616.3,
+    69.7,
+    625.9
+   ],
+   "size": 8.4,
+   "testo": "23",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.4,
+    616.4,
+    261.5,
+    626.0
+   ],
+   "size": 8.4,
+   "testo": "Un globo di ottone ricoperto di strane incisioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    80.9,
+    628.4,
+    111.7,
+    638.1
+   ],
+   "size": 8.4,
+   "testo": "runiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.8,
+    642.9,
+    70.6,
+    652.6
+   ],
+   "size": 8.4,
+   "testo": "24",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.0,
+    643.1,
+    195.1,
+    652.7
+   ],
+   "size": 8.4,
+   "testo": "Un disco di pietra multicolore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    657.7,
+    70.2,
+    667.3
+   ],
+   "size": 8.4,
+   "testo": "25",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    80.9,
+    657.7,
+    219.4,
+    667.3
+   ],
+   "size": 8.4,
+   "testo": "Un'icona d'argento a forma di corvo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    672.2,
+    69.9,
+    681.9
+   ],
+   "size": 8.4,
+   "testo": "26",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    81.4,
+    672.3,
+    256.7,
+    681.9
+   ],
+   "size": 8.4,
+   "testo": "Un sacchetto contenente quarantasette denti,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    80.0,
+    684.2,
+    152.2,
+    693.8
+   ],
+   "size": 8.4,
+   "testo": "tra cui uno marcio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    42.0,
+    363.1,
+    51.2
+   ],
+   "size": 8.2,
+   "testo": "1d100 Monile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    56.1,
+    323.4,
+    65.7
+   ],
+   "size": 8.4,
+   "testo": "27",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.8,
+    56.2,
+    511.5,
+    65.8
+   ],
+   "size": 8.4,
+   "testo": "Un frammento di ossidiana che risulta sempre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    334.0,
+    68.1,
+    385.7,
+    77.7
+   ],
+   "size": 8.4,
+   "testo": "caldo al tatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    82.7,
+    323.5,
+    92.3
+   ],
+   "size": 8.4,
+   "testo": "28",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.7,
+    82.7,
+    508.9,
+    92.4
+   ],
+   "size": 8.4,
+   "testo": "Un artiglio di drago che pende da una collana",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    334.2,
+    94.8,
+    366.8,
+    104.4
+   ],
+   "size": 8.4,
+   "testo": "in cuoio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.1,
+    109.2,
+    323.7,
+    118.8
+   ],
+   "size": 8.4,
+   "testo": "29",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.6,
+    109.2,
+    428.3,
+    118.9
+   ],
+   "size": 8.4,
+   "testo": "Un paio di vecchi calzini",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    123.8,
+    324.2,
+    133.5
+   ],
+   "size": 8.4,
+   "testo": "30",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.4,
+    123.8,
+    518.5,
+    133.5
+   ],
+   "size": 8.4,
+   "testo": "Un libro vuoto le cui pagine non si lasciano spor­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.9,
+    135.9,
+    520.2,
+    145.5
+   ],
+   "size": 8.4,
+   "testo": "care da inchiostro, gesso, grafite o qualsiasi altra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    334.1,
+    147.9,
+    402.5,
+    157.5
+   ],
+   "size": 8.4,
+   "testo": "sostanza o segno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    162.4,
+    321.8,
+    172.1
+   ],
+   "size": 8.4,
+   "testo": "31",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.6,
+    162.5,
+    503.5,
+    172.1
+   ],
+   "size": 8.4,
+   "testo": "Un distintivo d'argento a forma di una stella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.0,
+    174.4,
+    392.3,
+    184.1
+   ],
+   "size": 8.4,
+   "testo": "a cinque punte",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.7,
+    189.0,
+    323.2,
+    198.6
+   ],
+   "size": 8.4,
+   "testo": "32",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.7,
+    189.0,
+    475.7,
+    198.6
+   ],
+   "size": 8.4,
+   "testo": "Un coltello appartenuto a un parente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    203.7,
+    323.1,
+    213.3
+   ],
+   "size": 8.4,
+   "testo": "33",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.7,
+    203.7,
+    491.1,
+    213.3
+   ],
+   "size": 8.4,
+   "testo": "Una fiala di vetro piena di unghie tagliate",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    218.3,
+    322.9,
+    227.9
+   ],
+   "size": 8.4,
+   "testo": "34",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.2,
+    218.3,
+    508.9,
+    227.9
+   ],
+   "size": 8.4,
+   "testo": "Un congegno di metallo rettangolare con due",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    334.1,
+    230.2,
+    514.2,
+    239.9
+   ],
+   "size": 8.4,
+   "testo": "minuscole coppe di metallo a un'estremità che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.9,
+    242.2,
+    468.3,
+    251.9
+   ],
+   "size": 8.4,
+   "testo": "emettono scintille quando bagnate",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    256.8,
+    323.4,
+    266.4
+   ],
+   "size": 8.4,
+   "testo": "35",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.2,
+    256.8,
+    522.4,
+    266.4
+   ],
+   "size": 8.4,
+   "testo": "Un guanto bianco ricoperto di lustrini della taglia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.8,
+    268.7,
+    384.8,
+    278.4
+   ],
+   "size": 8.4,
+   "testo": "di un umano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    283.5,
+    323.5,
+    293.1
+   ],
+   "size": 8.4,
+   "testo": "36",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.2,
+    283.5,
+    481.8,
+    293.1
+   ],
+   "size": 8.4,
+   "testo": "Una veste con cento minuscole tasche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    298.0,
+    323.0,
+    307.6
+   ],
+   "size": 8.4,
+   "testo": "37",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.6,
+    298.0,
+    427.3,
+    307.7
+   ],
+   "size": 8.4,
+   "testo": "Una pietra priva di peso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    312.6,
+    323.3,
+    322.2
+   ],
+   "size": 8.4,
+   "testo": "38",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.2,
+    312.6,
+    495.8,
+    322.3
+   ],
+   "size": 8.4,
+   "testo": "Un ritratto appena abbozzato di un goblin",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.1,
+    327.2,
+    323.7,
+    336.9
+   ],
+   "size": 8.4,
+   "testo": "39",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.1,
+    327.2,
+    528.1,
+    336.8
+   ],
+   "size": 8.4,
+   "testo": "Una fiala di vetro vuota cheemana un buon profumo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    341.8,
+    323.6,
+    351.4
+   ],
+   "size": 8.4,
+   "testo": "40",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.5,
+    341.8,
+    508.8,
+    351.4
+   ],
+   "size": 8.4,
+   "testo": "Una gemma che sembra un pezzo di carbone",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    334.2,
+    353.7,
+    515.7,
+    363.3
+   ],
+   "size": 8.4,
+   "testo": "quando viene esaminata da chiunque al di fuori",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.6,
+    365.8,
+    397.2,
+    375.4
+   ],
+   "size": 8.4,
+   "testo": "del personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    380.2,
+    321.6,
+    389.8
+   ],
+   "size": 8.4,
+   "testo": "41",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.1,
+    380.3,
+    525.8,
+    389.9
+   ],
+   "size": 8.4,
+   "testo": "Un pezzo di stoffa strappato di una vecchia bandiera",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    394.9,
+    323.1,
+    404.5
+   ],
+   "size": 8.4,
+   "testo": "42",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.1,
+    394.9,
+    529.6,
+    404.5
+   ],
+   "size": 8.4,
+   "testo": "Una mostrina dei gradi di un legionario scomparso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    409.6,
+    322.9,
+    419.2
+   ],
+   "size": 8.4,
+   "testo": "43",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.4,
+    409.6,
+    495.4,
+    419.2
+   ],
+   "size": 8.4,
+   "testo": "Un campanello d'argento senza batacchio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    424.1,
+    323.6,
+    433.7
+   ],
+   "size": 8.4,
+   "testo": "44",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.1,
+    424.0,
+    528.7,
+    433.6
+   ],
+   "size": 8.4,
+   "testo": "Una lampada con all'interno un canarino meccanico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.8,
+    438.7,
+    323.1,
+    448.3
+   ],
+   "size": 8.4,
+   "testo": "45",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.4,
+    438.7,
+    510.8,
+    448.3
+   ],
+   "size": 8.4,
+   "testo": "Uno scrigno in miniatura scolpito per apparire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.6,
+    450.7,
+    473.8,
+    460.3
+   ],
+   "size": 8.4,
+   "testo": "dotato di numerose zampe alla base",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    465.2,
+    323.3,
+    474.9
+   ],
+   "size": 8.4,
+   "testo": "46",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.3,
+    465.3,
+    513.6,
+    474.9
+   ],
+   "size": 8.4,
+   "testo": "Uno spiritello morto all'interno di una bottiglia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.6,
+    477.3,
+    409.4,
+    486.9
+   ],
+   "size": 8.4,
+   "testo": "di vetro trasparente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    491.8,
+    322.9,
+    501.5
+   ],
+   "size": 8.4,
+   "testo": "47",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.3,
+    491.9,
+    518.5,
+    501.5
+   ],
+   "size": 8.4,
+   "testo": "Un cilindro di metallo privo di qualsiasi apertura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.9,
+    503.9,
+    508.7,
+    513.5
+   ],
+   "size": 8.4,
+   "testo": "ma che sembra pieno di un liquido, di sabbia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.5,
+    515.9,
+    506.0,
+    525.6
+   ],
+   "size": 8.4,
+   "testo": "di ragni o di vetri rotti (a scelta del giocatore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.6,
+    530.4,
+    322.3,
+    540.1
+   ],
+   "size": 8.4,
+   "testo": "48",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    333.9,
+    530.5,
+    509.4,
+    540.1
+   ],
+   "size": 8.4,
+   "testo": "Un globo di vetro pieno d'acqua al cui interno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    333.9,
+    542.5,
+    459.5,
+    552.1
+   ],
+   "size": 8.4,
+   "testo": "nuota un pesce rosso meccanico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    557.0,
+    322.8,
+    566.7
+   ],
+   "size": 8.4,
+   "testo": "49",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.2,
+    557.1,
+    529.3,
+    566.8
+   ],
+   "size": 9.2,
+   "testo": "Un cucchiaio d'argento con una M incisa sul manico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.0,
+    571.7,
+    322.7,
+    581.3
+   ],
+   "size": 8.4,
+   "testo": "50",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    334.3,
+    571.6,
+    444.5,
+    581.2
+   ],
+   "size": 8.4,
+   "testo": "Un fischietto in legno dorato",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,492 @@
+{
+ "pagina_pdf": 106,
+ "pagina_stampata": 103,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.9,
+    39.5,
+    272.8,
+    50.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: COLPO ASTUTO MIGLIORATO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    51.0,
+    270.8,
+    61.6
+   ],
+   "size": 8.8,
+   "testo": "Il ladro può utilizzare fino a due effetti di Colpo Astuto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    62.0,
+    262.9,
+    72.6
+   ],
+   "size": 8.8,
+   "testo": "quando infligge danni da Attacco Furtivo, pagando il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    73.1,
+    218.4,
+    83.6
+   ],
+   "size": 8.8,
+   "testo": "relativo costo in dadi per ciascuno di essi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    93.3,
+    193.5,
+    104.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: COLPI INFIDI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    104.8,
+    273.4,
+    115.4
+   ],
+   "size": 8.8,
+   "testo": "Il ladro ha scoperto nuovi modi più infidi di utilizzare il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    115.8,
+    275.1,
+    126.4
+   ],
+   "size": 8.8,
+   "testo": "proprio Attacco Furtivo. I seguenti effetti si aggiungono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    126.9,
+    166.9,
+    137.5
+   ],
+   "size": 8.8,
+   "testo": "alle opzioni di Colpo Astuto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    137.8,
+    266.9,
+    148.4
+   ],
+   "size": 8.8,
+   "testo": "Atterramento (costo: 6d6). Il bersaglio deve superare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    148.9,
+    279.4,
+    159.5
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Costituzione, altrimenti diventa privo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    160.0,
+    281.5,
+    170.5
+   ],
+   "size": 8.8,
+   "testo": "di sensi per 1 minuto o finché non subisce dei danni. Dopo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    170.9,
+    274.9,
+    181.4
+   ],
+   "size": 8.8,
+   "testo": "diché, ripete il tiro salvezza alla fine di ogni suo turno e,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    181.9,
+    173.8,
+    192.5
+   ],
+   "size": 8.8,
+   "testo": "se lo supera, l'effetto svanisce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    192.9,
+    270.9,
+    203.5
+   ],
+   "size": 8.8,
+   "testo": "Confusione (costo: 2d6). Il bersaglio deve superare un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    204.0,
+    267.3,
+    214.6
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Costituzione, altrimenti nel suo turno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    214.9,
+    277.4,
+    225.5
+   ],
+   "size": 8.8,
+   "testo": "successivo potrà fare solo una delle seguenti azioni: muo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    226.0,
+    237.4,
+    236.5
+   ],
+   "size": 8.8,
+   "testo": "versi o effettuare un'azione o un'azione bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    237.0,
+    275.5,
+    247.6
+   ],
+   "size": 8.8,
+   "testo": "Rabbuio (costo: 3d6). Il bersaglio deve superare un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    248.0,
+    284.5,
+    258.6
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Destrezza, altrimenti è accecato fino al termine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    259.1,
+    169.2,
+    269.6
+   ],
+   "size": 8.8,
+   "testo": "del proprio turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    39.5,
+    477.8,
+    50.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: MENTE SFUGGENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    50.9,
+    512.5,
+    61.4
+   ],
+   "size": 8.8,
+   "testo": "La mente arguta del ladro è particolarmente difficile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    61.9,
+    517.2,
+    72.5
+   ],
+   "size": 8.8,
+   "testo": "da controllare, per questo ottiene competenza nei tiri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    72.9,
+    434.4,
+    83.5
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Saggezza e Carisma.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    93.3,
+    457.4,
+    104.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 18: INAFFERRABILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    104.7,
+    524.9,
+    115.3
+   ],
+   "size": 8.8,
+   "testo": "Il ladro è talmente sfuggente chegli attaccanti riescono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.7,
+    115.7,
+    524.7,
+    126.3
+   ],
+   "size": 8.8,
+   "testo": "raramente ad avere il sopravvento su di lui. Nessun tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    126.7,
+    522.8,
+    137.3
+   ],
+   "size": 8.8,
+   "testo": "per colpire può avere vantaggio contro il ladro, a meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    137.8,
+    404.4,
+    148.4
+   ],
+   "size": 8.8,
+   "testo": "che non sia incapacitato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    158.3,
+    443.1,
+    169.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 19: DONO EPICO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    169.6,
+    517.9,
+    180.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene un Dono epico (vedi capitolo 5)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    180.6,
+    521.3,
+    191.1
+   ],
+   "size": 8.8,
+   "testo": "o un altro talento a scelta di cui possiede i prerequisiti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    184.5,
+    478.7,
+    202.8
+   ],
+   "size": 8.8,
+   "testo": "È consigliato il Dono dello spirito notturno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    212.1,
+    480.6,
+    223.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: COLPO DI FORTUNA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    223.5,
+    529.8,
+    234.1
+   ],
+   "size": 8.8,
+   "testo": "Il ladro ha un'incredibile propensione per avere successo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    234.5,
+    532.4,
+    245.1
+   ],
+   "size": 8.8,
+   "testo": "quando ne ha bisogno. Se fallisce una prova con d20, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    245.5,
+    436.2,
+    256.1
+   ],
+   "size": 8.8,
+   "testo": "trasformare il risultato in un 20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    256.5,
+    525.2,
+    267.1
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo privilegio, il personaggio non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    267.6,
+    535.3,
+    278.2
+   ],
+   "size": 8.8,
+   "testo": "può riutilizzarlo prima di aver completato un riposo breve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    278.7,
+    340.2,
+    289.2
+   ],
+   "size": 8.8,
+   "testo": "o lungo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

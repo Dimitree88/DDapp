@@ -1,0 +1,1248 @@
+{
+ "pagina_pdf": 310,
+ "pagina_stampata": 307,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 307",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    57.8,
+    36.7,
+    275.9,
+    47.3
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio subisce 2d8 danni radiosi extra dall'attacco.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.5,
+    47.7,
+    271.7,
+    58.2
+   ],
+   "size": 8.8,
+   "testo": "I danni aumentano di 1d8 se il bersaglio è un immondo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    58.6,
+    122.3,
+    69.2
+   ],
+   "size": 8.8,
+   "testo": "o un non morto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    69.7,
+    287.1,
+    80.3
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    78.6,
+    273.4,
+    91.3
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d8 per ogni slot di livello superiore al 1°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.5,
+    115.4,
+    176.4,
+    126.7
+   ],
+   "size": 11.2,
+   "testo": "PUNIZIONE ESILIANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    126.9,
+    181.3,
+    137.4
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi5°livello (paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    142.5,
+    272.0,
+    152.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.5,
+    153.5,
+    271.0,
+    163.2
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito una creatura con un'arma da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.8,
+    164.6,
+    194.8,
+    174.2
+   ],
+   "size": 8.4,
+   "testo": "mischia o con un colpo senz'armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    175.5,
+    133.0,
+    185.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    186.5,
+    117.4,
+    196.1
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    197.5,
+    210.6,
+    207.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    213.8,
+    282.9,
+    224.4
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio colpito dal tiro per colpire subisce SdlO danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    224.8,
+    270.9,
+    235.4
+   ],
+   "size": 8.8,
+   "testo": "da forza extra dall'attacco e, se l'attacco lo fa scendere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    235.8,
+    276.6,
+    246.3
+   ],
+   "size": 8.8,
+   "testo": "a 50 punti ferita o meno, deve superare un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    246.8,
+    274.3,
+    257.4
+   ],
+   "size": 8.8,
+   "testo": "su Carisma o essere trasportato in un semipiano sicuro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    257.8,
+    280.3,
+    268.3
+   ],
+   "size": 8.8,
+   "testo": "per la durata dell'incantesimo. Mentre si trova lì, il bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    268.9,
+    275.4,
+    279.5
+   ],
+   "size": 8.8,
+   "testo": "glio è incapacitato. Al termine dell'incantesimo, il bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    279.9,
+    286.6,
+    290.5
+   ],
+   "size": 8.8,
+   "testo": "glio riappare nello spazio in cui si trovava prima del lancio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    290.9,
+    238.6,
+    301.5
+   ],
+   "size": 8.8,
+   "testo": "o, se è occupato, nello spazio libero più vicino.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    325.5,
+    206.5,
+    336.8
+   ],
+   "size": 11.2,
+   "testo": "PUNIZIONE INCANDESCENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    337.0,
+    182.5,
+    347.5
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi1°livello (paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    352.6,
+    272.2,
+    362.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.4,
+    363.5,
+    270.2,
+    373.2
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito un bersaglio con un'arma da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    374.5,
+    194.7,
+    384.2
+   ],
+   "size": 8.4,
+   "testo": "mischia o con un colpo senz'armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    385.5,
+    132.6,
+    395.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    396.5,
+    117.3,
+    406.1
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    407.6,
+    124.0,
+    417.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    423.9,
+    272.5,
+    434.5
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore colpisce il bersaglio, esso subisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    434.8,
+    273.3,
+    445.4
+   ],
+   "size": 8.8,
+   "testo": "1d6 danni da fuoco extra dall'attacco. All'inizio di ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    445.8,
+    270.3,
+    456.3
+   ],
+   "size": 8.8,
+   "testo": "suo turno fino al termine dell'incantesimo, il bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    456.8,
+    272.3,
+    467.4
+   ],
+   "size": 8.8,
+   "testo": "subisce 1d6 danni da fuoco ed effettua un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.3,
+    467.8,
+    276.9,
+    478.4
+   ],
+   "size": 8.8,
+   "testo": "su Costituzione. In caso di fallimento, l'incantesimo per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    478.7,
+    250.4,
+    489.3
+   ],
+   "size": 8.8,
+   "testo": "mane. In caso di successo, l'incantesimo termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.8,
+    491.5,
+    260.9,
+    500.1
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slotincantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    500.8,
+    265.1,
+    511.4
+   ],
+   "size": 8.8,
+   "testo": "Tutti i danni aumentano di 1d6 per ogni slot di livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    509.7,
+    115.6,
+    522.4
+   ],
+   "size": 8.8,
+   "testo": "superiore al 1°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    546.5,
+    185.9,
+    557.9
+   ],
+   "size": 11.2,
+   "testo": "PUNIZIONE SPLENDENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    558.0,
+    194.4,
+    568.4
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi2° livello (paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    573.6,
+    271.9,
+    583.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.4,
+    584.6,
+    270.7,
+    594.2
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito una creatura con un'arma da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.7,
+    595.6,
+    194.6,
+    605.3
+   ],
+   "size": 8.4,
+   "testo": "mischia o con un colpo senz'armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    606.6,
+    132.4,
+    616.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    617.7,
+    117.4,
+    627.3
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    628.7,
+    210.4,
+    638.4
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    645.0,
+    267.6,
+    655.6
+   ],
+   "size": 8.8,
+   "testo": "L'attacco infligge 2d6 danni radiosi extra al bersaglio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    656.0,
+    283.9,
+    666.5
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, il bersaglio proietta luce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    666.9,
+    284.9,
+    677.5
+   ],
+   "size": 8.8,
+   "testo": "intensa in un raggio di 1,5 metri, non può beneficiare della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    677.9,
+    281.5,
+    688.5
+   ],
+   "size": 8.8,
+   "testo": "condizione di invisibilità e i tiri per colpire contro di esso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    688.9,
+    157.0,
+    699.5
+   ],
+   "size": 8.8,
+   "testo": "dispongono di vantaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.9,
+    699.9,
+    286.7,
+    710.5
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    708.8,
+    274.9,
+    721.5
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d6 per ogni slot di livello superiore al 2°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.0,
+    52.2,
+    423.8,
+    63.5
+   ],
+   "size": 11.2,
+   "testo": "PUNIZIONE TONANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    63.6,
+    435.5,
+    74.1
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi1° livello (paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    79.3,
+    524.4,
+    89.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.2,
+    90.2,
+    522.7,
+    99.8
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito un bersaglio con un'arma da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.3,
+    101.2,
+    447.7,
+    110.8
+   ],
+   "size": 8.4,
+   "testo": "mischia o con un colpo senz'armi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    112.3,
+    385.4,
+    121.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    123.3,
+    370.2,
+    132.9
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    134.2,
+    382.3,
+    143.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    150.5,
+    520.5,
+    161.1
+   ],
+   "size": 8.8,
+   "testo": "Il colpo sferrato dall'incantatore risuona di un rombo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    161.6,
+    513.1,
+    172.1
+   ],
+   "size": 8.8,
+   "testo": "tonante udibile entro 90 metri e l'attacco infligge al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    172.5,
+    537.1,
+    183.1
+   ],
+   "size": 8.8,
+   "testo": "bersaglio 2d6 danni da tuono extra. Inoltre, se il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    183.5,
+    529.4,
+    194.1
+   ],
+   "size": 8.8,
+   "testo": "è una creatura, deve superare un tiro salvezza su Forza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    194.5,
+    537.9,
+    205.1
+   ],
+   "size": 8.8,
+   "testo": "altrimenti è spinto 3 metri lontano dall'incantatore e cade",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.9,
+    205.5,
+    365.9,
+    216.1
+   ],
+   "size": 8.8,
+   "testo": "a terra prono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.4,
+    218.3,
+    513.6,
+    226.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di unoslotincantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    227.6,
+    517.6,
+    238.2
+   ],
+   "size": 8.8,
+   "testo": "I danni aumentano di 1d6 per ogni slot di livello supe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    236.5,
+    350.5,
+    249.2
+   ],
+   "size": 8.8,
+   "testo": "riore al 1°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.0,
+    273.4,
+    462.0,
+    284.8
+   ],
+   "size": 11.2,
+   "testo": "PURIFICARE CIBO E BEVANDE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    284.8,
+    506.1,
+    295.3
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi1° livello (chierico, druido, paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    300.4,
+    435.3,
+    310.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione o rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    311.5,
+    369.8,
+    321.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 3 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    322.4,
+    376.7,
+    332.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    333.4,
+    382.4,
+    343.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    349.6,
+    502.0,
+    360.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore rimuove veleno e marciume da cibi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    360.5,
+    511.3,
+    371.1
+   ],
+   "size": 8.8,
+   "testo": "e bevande non magici situati in una sfera del raggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    371.5,
+    492.7,
+    382.1
+   ],
+   "size": 8.8,
+   "testo": "di 1,5 metri centrata su un punto entro gittata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.9,
+    406.3,
+    404.6,
+    417.7
+   ],
+   "size": 11.2,
+   "testo": "RAFFICA DI SPINE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    417.9,
+    424.6,
+    428.3
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di1° livello (ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    433.4,
+    524.4,
+    443.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    318.0,
+    444.3,
+    511.8,
+    453.9
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito una creatura con un'arma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.9,
+    455.4,
+    358.7,
+    465.0
+   ],
+   "size": 8.4,
+   "testo": "a distanza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    466.4,
+    385.9,
+    476.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    477.3,
+    368.1,
+    487.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    488.4,
+    382.2,
+    498.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    504.7,
+    512.0,
+    515.2
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore colpisce una creatura, questo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    515.6,
+    517.3,
+    526.2
+   ],
+   "size": 8.8,
+   "testo": "incantesimo crea una raffica di spine che si sprigiona",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    526.7,
+    528.7,
+    537.3
+   ],
+   "size": 8.8,
+   "testo": "dalla sua arma a distanza o dalle sue munizioni. Il bersa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.5,
+    537.7,
+    524.6,
+    548.3
+   ],
+   "size": 8.8,
+   "testo": "glio dell'attacco e ogni creatura entro 1,5 metri da esso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.8,
+    548.6,
+    540.0,
+    559.2
+   ],
+   "size": 8.8,
+   "testo": "effettua un tiro salvezza su Destrezza, subendo 1d10 danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    559.6,
+    540.3,
+    570.1
+   ],
+   "size": 8.8,
+   "testo": "perforanti in caso di fallimento, o la metà dei danni in caso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    570.6,
+    357.4,
+    581.1
+   ],
+   "size": 8.8,
+   "testo": "di successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    318.3,
+    583.3,
+    513.5,
+    591.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    592.6,
+    521.6,
+    603.2
+   ],
+   "size": 8.8,
+   "testo": "I danni aumentano di 1d10 per ogni slot di livello supe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.6,
+    601.3,
+    350.4,
+    614.2
+   ],
+   "size": 8.8,
+   "testo": "riore al 1°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.8,
+    638.5,
+    457.3,
+    649.8
+   ],
+   "size": 11.2,
+   "testo": "RAGGIO DI AFFATICAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    650.0,
+    461.3,
+    660.5
+   ],
+   "size": 8.6,
+   "testo": "Necromanzia di2° livello (mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.4,
+    665.5,
+    401.6,
+    675.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    676.5,
+    374.0,
+    686.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    687.6,
+    376.6,
+    697.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    698.5,
+    463.3,
+    708.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

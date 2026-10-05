@@ -1,0 +1,667 @@
+{
+ "pagina_pdf": 157,
+ "pagina_stampata": 154,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "154 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   287,
+   713
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    304.4,
+    37.0,
+    448.4,
+    48.4
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO POTENZIATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    49.6,
+    400.8,
+    59.1
+   ],
+   "size": 8.6,
+   "testo": "Costo: 1 punto stregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    63.2,
+    517.3,
+    73.8
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone tira per i danni di un incantesimo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    74.2,
+    517.4,
+    84.8
+   ],
+   "size": 8.8,
+   "testo": "può spendere 1 punto stregoneria per ripetere il tiro di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    85.2,
+    518.6,
+    95.8
+   ],
+   "size": 8.8,
+   "testo": "un numero massimo di dadi pari al suo modificatore di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    96.2,
+    520.5,
+    106.8
+   ],
+   "size": 8.8,
+   "testo": "Carisma (minimo di uno), e deve usare i nuovi risultati.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    107.2,
+    511.8,
+    117.8
+   ],
+   "size": 8.8,
+   "testo": "Lo stregone può utilizzare Incantesimo potenziato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    118.2,
+    523.6,
+    128.8
+   ],
+   "size": 8.8,
+   "testo": "anche se ha già utilizzato un'opzione diversa di Metama­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    129.2,
+    452.3,
+    139.7
+   ],
+   "size": 8.8,
+   "testo": "gia durante il lancio dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    149.6,
+    426.6,
+    160.9
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO PRECISO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    162.1,
+    400.8,
+    171.6
+   ],
+   "size": 8.6,
+   "testo": "Costo: 1 punto stregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    175.7,
+    516.9,
+    186.3
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone lancia un incantesimo che obbliga",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    186.7,
+    518.7,
+    197.3
+   ],
+   "size": 8.8,
+   "testo": "altre creature a effettuare un tiro salvezza, può proteg­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    197.8,
+    513.8,
+    208.3
+   ],
+   "size": 8.8,
+   "testo": "gere alcune di esse dalla piena forza dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    208.8,
+    528.8,
+    219.4
+   ],
+   "size": 8.8,
+   "testo": "Per farlo, spende 1 punto stregoneria e sceglie un numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    219.8,
+    524.8,
+    230.4
+   ],
+   "size": 8.8,
+   "testo": "massimo di creature pari al suo modificatore di Carisma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    230.8,
+    507.4,
+    241.3
+   ],
+   "size": 8.8,
+   "testo": "(minimo una creatura). Le creature scelte superano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    241.7,
+    529.0,
+    252.3
+   ],
+   "size": 8.8,
+   "testo": "automaticamente i loro tiri salvezza contro l'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    252.8,
+    532.9,
+    263.4
+   ],
+   "size": 8.8,
+   "testo": "e non subiscono alcun danno se normalmente subirebbero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    263.8,
+    501.5,
+    274.3
+   ],
+   "size": 8.8,
+   "testo": "la metà dei danni in caso di tiro salvezza superato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    284.3,
+    456.0,
+    295.7
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO RADDOPPIATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    296.7,
+    400.6,
+    306.2
+   ],
+   "size": 8.6,
+   "testo": "Costo: 1 punto stregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    310.3,
+    518.8,
+    320.8
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone produce un incantesimo lanciabile",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    321.3,
+    521.4,
+    331.9
+   ],
+   "size": 8.8,
+   "testo": "consumando uno slot di livello superiore per colpire un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    332.3,
+    519.2,
+    342.8
+   ],
+   "size": 8.8,
+   "testo": "bersaglio aggiuntivo, come charmesupersone, può spen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    343.2,
+    533.2,
+    353.8
+   ],
+   "size": 8.8,
+   "testo": "dere 1 punto stregoneria per aumentarne il livello effettivo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    354.2,
+    321.3,
+    364.8
+   ],
+   "size": 8.8,
+   "testo": "di 1.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    374.6,
+    423.3,
+    385.9
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO RAPIDO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    387.1,
+    400.0,
+    396.6
+   ],
+   "size": 8.6,
+   "testo": "Costo: 2puntistregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    400.8,
+    509.9,
+    411.4
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone lancia un incantesimo che ha un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    411.8,
+    513.2,
+    422.4
+   ],
+   "size": 8.8,
+   "testo": "tempo di lancio di 1 azione, può spendere 2 punti stre­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    422.8,
+    518.6,
+    433.4
+   ],
+   "size": 8.8,
+   "testo": "goneria per cambiarlo a 1 azione bonus per quel lancio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    433.8,
+    530.5,
+    444.3
+   ],
+   "size": 8.8,
+   "testo": "Non è possibile eseguire questa modifica se il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    442.6,
+    529.6,
+    455.4
+   ],
+   "size": 8.8,
+   "testo": "ha già lanciato un incantesimo di 1° livello o superiore nel",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    455.8,
+    520.7,
+    466.3
+   ],
+   "size": 8.8,
+   "testo": "turno attuale, così come non si può lanciare un incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    464.5,
+    519.1,
+    477.3
+   ],
+   "size": 8.8,
+   "testo": "simo di 1° livello o superiore in questo turno dopo aver",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    477.7,
+    485.4,
+    488.3
+   ],
+   "size": 8.8,
+   "testo": "modificato l'incantesimo come indicato sopra.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    498.1,
+    451.2,
+    509.4
+   ],
+   "size": 11.2,
+   "testo": "INCANTESIMO TRASMUTATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    510.5,
+    400.5,
+    520.0
+   ],
+   "size": 8.6,
+   "testo": "Costo: 1 punto stregoneria",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    524.2,
+    529.3,
+    534.8
+   ],
+   "size": 8.8,
+   "testo": "Quando lo stregone lancia un incantesimo che infligge un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    535.2,
+    525.9,
+    545.8
+   ],
+   "size": 8.8,
+   "testo": "tipo di danno presente nella lista seguente, può spendere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    546.2,
+    518.6,
+    556.8
+   ],
+   "size": 8.8,
+   "testo": "1 punto stregoneria per cambiare il tipo di danno in un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    557.2,
+    510.2,
+    567.8
+   ],
+   "size": 8.8,
+   "testo": "altro della lista: acido, freddo, fulmine, fuoco, tuono,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    568.1,
+    333.3,
+    578.7
+   ],
+   "size": 8.8,
+   "testo": "veleno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    588.3,
+    467.9,
+    601.4
+   ],
+   "size": 9.7,
+   "testo": "LISTA DEGLI INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.7,
+    603.2,
+    391.3,
+    616.3
+   ],
+   "size": 9.7,
+   "testo": "DA STREGONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    619.8,
+    512.0,
+    630.4
+   ],
+   "size": 8.8,
+   "testo": "In questa sezione si trova la lista degli incantesimi da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    630.9,
+    523.6,
+    641.5
+   ],
+   "size": 8.8,
+   "testo": "stregone. Gli incantesimi sono ordinati prima per livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    641.9,
+    519.0,
+    652.4
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo e poi in ordine alfabetico, insieme alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    652.8,
+    504.7,
+    663.4
+   ],
+   "size": 8.8,
+   "testo": "scuola di magia per ciascuna voce dell'elenco. Nella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    663.8,
+    520.2,
+    674.4
+   ],
+   "size": 8.8,
+   "testo": "colonna Speciale, C significa che l'incantesimo richiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    674.8,
+    497.1,
+    685.4
+   ],
+   "size": 8.8,
+   "testo": "concentrazione, R indica che è un rituale, mentre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    685.9,
+    504.1,
+    696.4
+   ],
+   "size": 8.8,
+   "testo": "M segnala la necessità di una specifica componente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    696.8,
+    344.7,
+    707.4
+   ],
+   "size": 8.8,
+   "testo": "materiale.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,715 @@
+{
+ "pagina_pdf": 78,
+ "pagina_stampata": 75,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   256,
+   -1,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.6,
+    40.7,
+    236.7,
+    52.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INVOCARE DUPLICATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    52.1,
+    275.4,
+    62.7
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il chierico può spendere un utilizzo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    63.1,
+    271.1,
+    73.7
+   ],
+   "size": 8.8,
+   "testo": "di Incanalare Divinità per creare un duplicato illusorio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    74.1,
+    267.9,
+    84.7
+   ],
+   "size": 8.8,
+   "testo": "perfetto di se stesso in uno spazio libero entro 9 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    85.1,
+    262.6,
+    95.7
+   ],
+   "size": 8.8,
+   "testo": "da sé e nel suo campo visivo. L'illusione è intangibile,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    96.0,
+    265.8,
+    106.6
+   ],
+   "size": 8.8,
+   "testo": "non occupa spazio e dura 1 minuto, ma termina antici­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    107.1,
+    269.2,
+    117.7
+   ],
+   "size": 8.8,
+   "testo": "patamente se il chierico la interrompe (nessuna azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    118.0,
+    271.0,
+    128.6
+   ],
+   "size": 8.8,
+   "testo": "richiesta) o è incapacitato. L'illusione è animata e imita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    129.0,
+    257.6,
+    139.6
+   ],
+   "size": 8.8,
+   "testo": "le espressioni e i gesti del chierico. Finché permane,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    140.0,
+    216.9,
+    150.6
+   ],
+   "size": 8.8,
+   "testo": "fa ottenere al chierico i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    151.1,
+    265.2,
+    161.7
+   ],
+   "size": 8.8,
+   "testo": "Distrarre. Quando sia il chierico che la sua illusione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    162.1,
+    264.9,
+    172.7
+   ],
+   "size": 8.8,
+   "testo": "si trovano entro 1,5 metri da una creatura in grado di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    173.2,
+    273.2,
+    183.8
+   ],
+   "size": 8.8,
+   "testo": "vedere l'illusione, il chierico dispone di vantaggio ai tiri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    184.1,
+    270.8,
+    194.7
+   ],
+   "size": 8.8,
+   "testo": "per colpire contro quella creatura, in quanto l'illusione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    195.2,
+    130.8,
+    205.8
+   ],
+   "size": 8.8,
+   "testo": "distrae il bersaglio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.9,
+    206.2,
+    264.1,
+    216.8
+   ],
+   "size": 8.8,
+   "testo": "Lanciare incantesimi. Il chierico può lanciare incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    217.1,
+    259.4,
+    227.7
+   ],
+   "size": 8.8,
+   "testo": "tesimi come se si trovasse nello spazio dell'illusione,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    228.2,
+    167.5,
+    238.7
+   ],
+   "size": 8.8,
+   "testo": "ma deve usare i propri sensi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    239.2,
+    269.1,
+    249.8
+   ],
+   "size": 8.8,
+   "testo": "Movimento. Come azione bonus, il chierico può muo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    250.1,
+    271.5,
+    260.7
+   ],
+   "size": 8.8,
+   "testo": "vere l'illusione fino a 9 metri in uno spazio libero entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    261.3,
+    203.3,
+    271.8
+   ],
+   "size": 8.8,
+   "testo": "36 metri da sé e nel suo campo visivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    281.7,
+    201.0,
+    293.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: TRASPOSIZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    292.5,
+    159.8,
+    303.8
+   ],
+   "size": 11.2,
+   "testo": "DELL'INGANNATORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    303.9,
+    268.1,
+    314.4
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il chierico effettua un'azione bonus per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    314.8,
+    271.1,
+    325.4
+   ],
+   "size": 8.8,
+   "testo": "creare o muovere l'illusione di Invocare Duplicato, può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    325.8,
+    264.7,
+    336.4
+   ],
+   "size": 8.8,
+   "testo": "teletrasportarsi scambiandosi di posto con l'illusione.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    346.2,
+    252.3,
+    357.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: DUPLICATO MIGLIORATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    357.6,
+    275.2,
+    368.1
+   ],
+   "size": 8.8,
+   "testo": "L'illusione di Invocare Duplicato è diventata più potente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    368.5,
+    127.5,
+    379.1
+   ],
+   "size": 8.8,
+   "testo": "nei seguenti modi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    379.6,
+    270.9,
+    390.1
+   ],
+   "size": 8.8,
+   "testo": "Diversivo condiviso. Quando il chierico e i suoi alleati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    390.6,
+    280.2,
+    401.1
+   ],
+   "size": 8.8,
+   "testo": "effettuano tiri per colpire contro creature entro 1,5 metri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    401.6,
+    272.9,
+    412.1
+   ],
+   "size": 8.8,
+   "testo": "dall'illusione, i tiri per colpire dispongono di vantaggio.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    412.7,
+    284.3,
+    423.2
+   ],
+   "size": 8.8,
+   "testo": "Illusione curativa. Quando l'illusione termina, il chierico",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    423.6,
+    272.6,
+    434.2
+   ],
+   "size": 8.8,
+   "testo": "o una creatura a sua scelta entro 1,5 metri dall'illusione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    434.5,
+    257.5,
+    445.1
+   ],
+   "size": 8.8,
+   "testo": "recupera un numero di punti ferita pari al livello da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    445.5,
+    90.4,
+    456.0
+   ],
+   "size": 8.8,
+   "testo": "chierico.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    465.6,
+    194.4,
+    478.7
+   ],
+   "size": 9.7,
+   "testo": "DOMINIO DELLA LUCE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    483.0,
+    195.1,
+    492.4
+   ],
+   "size": 8.6,
+   "testo": "Portare la luceper scacciare le tenebre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    496.8,
+    279.9,
+    507.3
+   ],
+   "size": 8.8,
+   "testo": "Il Dominio della Luce esalta il potere divino che consente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    507.8,
+    270.1,
+    518.3
+   ],
+   "size": 8.8,
+   "testo": "di diffondere fuoco ardente e rivelazione. I chierici che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    518.7,
+    277.1,
+    529.3
+   ],
+   "size": 8.8,
+   "testo": "esercitano questo potere sono anime illuminate, pervase",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    529.8,
+    267.8,
+    540.3
+   ],
+   "size": 8.8,
+   "testo": "dal fulgore e dal potere della limpida visione delle loro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    540.8,
+    252.6,
+    551.3
+   ],
+   "size": 8.8,
+   "testo": "divinità, incaricate di mettere a nudo le menzogne",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    551.7,
+    149.3,
+    562.2
+   ],
+   "size": 8.8,
+   "testo": "e allontanare l'oscurità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    562.7,
+    271.0,
+    573.2
+   ],
+   "size": 8.8,
+   "testo": "Il Dominio della Luce è associato agli dèi della verità,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.7,
+    573.7,
+    250.8,
+    584.3
+   ],
+   "size": 8.8,
+   "testo": "della vigilanza, dellabellezza, dell'intuizione e del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    584.7,
+    249.2,
+    595.3
+   ],
+   "size": 8.8,
+   "testo": "rinnovamento. Alcuni di questi dèi si identificano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    595.6,
+    245.9,
+    606.2
+   ],
+   "size": 8.8,
+   "testo": "con il sole, o come aurighi che guidano il sole nel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    606.6,
+    265.2,
+    617.2
+   ],
+   "size": 8.8,
+   "testo": "cielo. Altri sono instancabili sentinelle che vanificano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    617.9,
+    270.4,
+    628.4
+   ],
+   "size": 8.8,
+   "testo": "ogni inganno. Alcuni sono dèi della bellezza e dell'arte,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    628.8,
+    255.1,
+    639.4
+   ],
+   "size": 8.8,
+   "testo": "e insegnano l'arte come uno strumento per elevare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    639.8,
+    88.0,
+    650.4
+   ],
+   "size": 8.8,
+   "testo": "l'anima.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    660.3,
+    263.3,
+    671.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: BAGLIORE DI INTERDIZIONE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    671.6,
+    254.7,
+    682.1
+   ],
+   "size": 8.8,
+   "testo": "Il chierico può utilizzare una reazione per imporre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    682.6,
+    265.2,
+    693.2
+   ],
+   "size": 8.8,
+   "testo": "svantaggio sul tiro per colpire di una creatura situata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    693.6,
+    252.0,
+    704.1
+   ],
+   "size": 8.8,
+   "testo": "a 9 metri da sé e che si trova nel suo campo visivo,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    704.6,
+    259.7,
+    715.2
+   ],
+   "size": 8.8,
+   "testo": "creando un bagliore di luce prima che il colpo riesca",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    715.6,
+    161.3,
+    726.1
+   ],
+   "size": 8.8,
+   "testo": "ad andare a segno o fallire.",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

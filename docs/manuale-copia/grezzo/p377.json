@@ -1,0 +1,1003 @@
+{
+ "pagina_pdf": 377,
+ "pagina_stampata": 374,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "374 / APPENDICE CI GLOSSARIO DELLE REGOLE",
+ "immagini": [
+  [
+   29,
+   -1,
+   589,
+   123
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    46.1,
+    145.8,
+    124.7,
+    157.1
+   ],
+   "size": 11.2,
+   "testo": "SCUROVISIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.9,
+    157.1,
+    246.6,
+    167.7
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio ha scurovisione, è in grado di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.4,
+    168.2,
+    262.9,
+    178.7
+   ],
+   "size": 8.8,
+   "testo": "vedere in condizioni di luce fioca, entro un raggio speci­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    179.1,
+    261.5,
+    189.7
+   ],
+   "size": 8.8,
+   "testo": "ficato, come se si trovasse in condizioni di luce intensa;",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    190.2,
+    260.3,
+    200.7
+   ],
+   "size": 8.8,
+   "testo": "è in grado di vedere in condizioni di oscurità, entro un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    201.3,
+    257.7,
+    211.9
+   ],
+   "size": 8.8,
+   "testo": "raggio specificato, come se si trovasse in condizioni di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.6,
+    212.3,
+    267.3,
+    222.9
+   ],
+   "size": 8.8,
+   "testo": "luce fioca. Nell'oscurità, il personaggio riconosce i colori",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    223.2,
+    270.1,
+    233.8
+   ],
+   "size": 8.8,
+   "testo": "solamente come sfumature di grigio. Vedianche capitolo 1",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    46.1,
+    234.2,
+    113.4,
+    244.8
+   ],
+   "size": 8.8,
+   "testo": "(\"Esplorazione\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.1,
+    268.9,
+    183.2,
+    280.3
+   ],
+   "size": 11.2,
+   "testo": "SFERA [AREA DI EFFETTO]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.9,
+    280.4,
+    267.3,
+    291.0
+   ],
+   "size": 8.8,
+   "testo": "Una sfera è un'area di effetto che si estende in linee rette",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    291.5,
+    273.3,
+    302.0
+   ],
+   "size": 8.8,
+   "testo": "da un punto di origineverso l'esterno in tutte le direzioni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.9,
+    302.4,
+    270.7,
+    313.0
+   ],
+   "size": 8.8,
+   "testo": "L'effetto che crea una sfera specifica la distanza fino a cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    313.4,
+    224.8,
+    324.0
+   ],
+   "size": 8.8,
+   "testo": "essa si estende, indicando il raggio della sfera.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    324.5,
+    266.1,
+    335.0
+   ],
+   "size": 8.8,
+   "testo": "Il punto di origine di una sfera è incluso nella sua area",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.8,
+    335.5,
+    84.9,
+    346.0
+   ],
+   "size": 8.8,
+   "testo": "di effetto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.0,
+    370.2,
+    100.4,
+    381.5
+   ],
+   "size": 11.2,
+   "testo": "SINTONIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.4,
+    381.5,
+    267.5,
+    392.1
+   ],
+   "size": 8.8,
+   "testo": "Alcuni oggetti magici richiedono che la creatura entri in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.6,
+    392.6,
+    271.2,
+    403.1
+   ],
+   "size": 8.8,
+   "testo": "sintonia con loro prima che possa utilizzarne le proprietà",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.6,
+    403.7,
+    258.0,
+    414.3
+   ],
+   "size": 8.8,
+   "testo": "magiche. Una creatura può avere sintonia con non più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.6,
+    414.7,
+    247.7,
+    425.3
+   ],
+   "size": 8.8,
+   "testo": "di tre oggetti magici alla volta. Vedianche capitolo 6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.9,
+    425.7,
+    120.3,
+    436.2
+   ],
+   "size": 8.8,
+   "testo": "(\"Oggetti magici\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    46.0,
+    460.4,
+    194.7,
+    471.7
+   ],
+   "size": 11.2,
+   "testo": "SOFFOCAMENTO [PERICOLO]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.6,
+    471.7,
+    245.1,
+    482.3
+   ],
+   "size": 8.8,
+   "testo": "Una creatura può trattenere il fiato per un numero",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.6,
+    482.8,
+    256.3,
+    493.4
+   ],
+   "size": 8.8,
+   "testo": "di minuti pari a 1 + il suo modificatore di Costituzione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.9,
+    493.7,
+    252.3,
+    504.3
+   ],
+   "size": 8.8,
+   "testo": "(minimo di 30 secondi) prima di iniziare a soffocare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.6,
+    504.8,
+    264.9,
+    515.3
+   ],
+   "size": 8.8,
+   "testo": "Quando una creatura resta senza fiato o sta soffocando,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.3,
+    515.9,
+    252.5,
+    526.4
+   ],
+   "size": 8.8,
+   "testo": "ottiene 1 livello di indebolimento alla fine di ogni suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.5,
+    526.8,
+    257.7,
+    537.4
+   ],
+   "size": 8.8,
+   "testo": "turno. Quando riesce a respirare di nuovo, la creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.5,
+    537.8,
+    259.8,
+    548.4
+   ],
+   "size": 8.8,
+   "testo": "rimuove tutti i livelli di indebolimento che ha ottenuto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.5,
+    548.8,
+    116.2,
+    559.4
+   ],
+   "size": 8.8,
+   "testo": "dal soffocamento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.9,
+    583.3,
+    142.9,
+    594.7
+   ],
+   "size": 11.2,
+   "testo": "SOGLIA DI DANNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.5,
+    594.9,
+    253.3,
+    605.5
+   ],
+   "size": 8.8,
+   "testo": "Una creatura o un oggetto che possiede una soglia di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.4,
+    605.9,
+    264.3,
+    616.4
+   ],
+   "size": 8.8,
+   "testo": "danno è immune a tutti i danni, a meno che non subisca",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.4,
+    617.0,
+    252.3,
+    627.5
+   ],
+   "size": 8.8,
+   "testo": "una quantità di danni pari o superiore alla sua soglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.4,
+    628.0,
+    256.2,
+    638.6
+   ],
+   "size": 8.8,
+   "testo": "di danno da un singolo attacco o effetto, nel qual caso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.4,
+    639.0,
+    273.1,
+    649.6
+   ],
+   "size": 8.8,
+   "testo": "subisce l'intera istanza di danno. I danni che non riescono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.4,
+    650.0,
+    274.8,
+    660.6
+   ],
+   "size": 8.8,
+   "testo": "a eguagliare o superare la soglia di danno sono superficiali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.4,
+    661.1,
+    263.1,
+    671.6
+   ],
+   "size": 8.8,
+   "testo": "e non riducono i punti ferita. Ad esempio, se un oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.3,
+    672.1,
+    266.4,
+    682.6
+   ],
+   "size": 8.8,
+   "testo": "ha una soglia di danno pari a 10, non subisce danni se gli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.0,
+    683.0,
+    267.2,
+    693.6
+   ],
+   "size": 8.8,
+   "testo": "vengono inflitti 9 danni, poiché questa quantità di danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    45.3,
+    694.0,
+    253.1,
+    704.5
+   ],
+   "size": 8.8,
+   "testo": "non supera la soglia di danno. Se all'oggetto vengono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.3,
+    705.0,
+    233.4,
+    715.5
+   ],
+   "size": 8.8,
+   "testo": "inflitti 11 danni, l'oggetto li subisce interamente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.6,
+    145.7,
+    352.3,
+    157.0
+   ],
+   "size": 11.2,
+   "testo": "SORPRESA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.7,
+    157.1,
+    502.9,
+    167.6
+   ],
+   "size": 8.8,
+   "testo": "Se una creatura viene colta alla sprovvista all'inizio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.2,
+    168.2,
+    498.3,
+    178.8
+   ],
+   "size": 8.8,
+   "testo": "del combattimento, è sorpresa: subisce quindi svan­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.1,
+    179.3,
+    491.6,
+    189.9
+   ],
+   "size": 8.8,
+   "testo": "taggio al tiro per l'iniziativa. Vedianche capitolo 1",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.5,
+    190.2,
+    376.8,
+    200.8
+   ],
+   "size": 8.8,
+   "testo": "(\"Combattimento\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.6,
+    224.9,
+    442.3,
+    236.3
+   ],
+   "size": 11.2,
+   "testo": "SPAVENTATO [CONDIZIONE]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.2,
+    236.4,
+    522.3,
+    246.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"spaventato\",",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.6,
+    247.4,
+    395.9,
+    258.0
+   ],
+   "size": 8.8,
+   "testo": "subisce i seguenti effetti:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    260.1,
+    511.7,
+    268.7
+   ],
+   "size": 8.6,
+   "testo": "Influenza sulle prove di caratteristica e sugli attacchi.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.5,
+    269.4,
+    511.3,
+    280.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio subisce svantaggio alle prove di caratte­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.5,
+    280.5,
+    517.0,
+    291.1
+   ],
+   "size": 8.8,
+   "testo": "ristica e ai tiri per colpire finché la fonte della sua paura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.1,
+    291.5,
+    389.4,
+    302.1
+   ],
+   "size": 8.8,
+   "testo": "è nel suo campo visivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    302.5,
+    510.8,
+    313.0
+   ],
+   "size": 8.8,
+   "testo": "Non è ingrado di avvicinarsi. Il personaggio non è in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.9,
+    313.5,
+    519.1,
+    324.0
+   ],
+   "size": 8.8,
+   "testo": "grado di avvicinarsi volontariamente alla fonte della sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.0,
+    324.5,
+    324.9,
+    335.1
+   ],
+   "size": 8.8,
+   "testo": "paura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.5,
+    359.1,
+    377.7,
+    370.5
+   ],
+   "size": 11.2,
+   "testo": "SPAZIO LIBERO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.5,
+    370.6,
+    507.2,
+    381.2
+   ],
+   "size": 8.8,
+   "testo": "Uno spazio si definisce \"libero\" se nessuna creatura si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.0,
+    381.6,
+    522.4,
+    392.1
+   ],
+   "size": 8.8,
+   "testo": "trova al suo interno o se esso non è completamente pieno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.0,
+    392.7,
+    339.4,
+    403.3
+   ],
+   "size": 8.8,
+   "testo": "di oggetti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.4,
+    427.5,
+    396.5,
+    438.8
+   ],
+   "size": 11.2,
+   "testo": "SPAZIO OCCUPATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.5,
+    438.9,
+    526.7,
+    449.5
+   ],
+   "size": 8.8,
+   "testo": "Uno spazio si definisce \"occupato\" se una creatura si trova",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.0,
+    449.9,
+    523.1,
+    460.5
+   ],
+   "size": 8.8,
+   "testo": "al suo interno o se esso è completamente pieno di oggetti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.4,
+    484.5,
+    343.4,
+    495.8
+   ],
+   "size": 11.2,
+   "testo": "STABILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.5,
+    496.0,
+    512.8,
+    506.5
+   ],
+   "size": 8.8,
+   "testo": "Una creatura è stabile se ha O punti ferita ma non deve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.0,
+    507.0,
+    524.4,
+    517.5
+   ],
+   "size": 8.8,
+   "testo": "effettuare tiri salvezza contro morte. Vedianche capitolo 1",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    298.2,
+    518.1,
+    389.9,
+    528.6
+   ],
+   "size": 8.8,
+   "testo": "(\"Danni e guarigione\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.4,
+    552.7,
+    429.4,
+    564.0
+   ],
+   "size": 11.2,
+   "testo": "STORDITO [CONDIZIONE]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.0,
+    564.1,
+    510.8,
+    574.7
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"stordito\",",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.2,
+    575.0,
+    395.7,
+    585.6
+   ],
+   "size": 8.8,
+   "testo": "subisce i seguenti effetti:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    586.0,
+    481.9,
+    596.6
+   ],
+   "size": 8.8,
+   "testo": "Incapacitato. Il personaggio ha la condizione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.1,
+    597.1,
+    356.4,
+    607.6
+   ],
+   "size": 8.8,
+   "testo": "\"incapacitato\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    608.2,
+    514.8,
+    618.7
+   ],
+   "size": 8.8,
+   "testo": "Influenza sui tiri salvezza. Il personaggio fallisce auto­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.9,
+    619.2,
+    489.8,
+    629.8
+   ],
+   "size": 8.8,
+   "testo": "maticamente i tiri salvezza su Forza e Destrezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    630.3,
+    523.2,
+    640.9
+   ],
+   "size": 8.8,
+   "testo": "Influenza sugli attacchi. I tiri per colpire contro il perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.9,
+    641.3,
+    426.7,
+    651.9
+   ],
+   "size": 8.8,
+   "testo": "naggio dispongono di vantaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    298.2,
+    675.9,
+    361.2,
+    687.3
+   ],
+   "size": 11.2,
+   "testo": "STRISCIARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.9,
+    687.3,
+    512.3,
+    697.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio striscia, ogni 30 centimetri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.9,
+    698.3,
+    524.7,
+    708.9
+   ],
+   "size": 8.8,
+   "testo": "di movimento costano 30 centimetri extra (60 centimetri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.9,
+    709.3,
+    511.1,
+    719.9
+   ],
+   "size": 8.8,
+   "testo": "extra in caso di terreno difficile). Vedianche \"Velocità\".",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

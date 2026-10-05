@@ -1,0 +1,1296 @@
+{
+ "pagina_pdf": 327,
+ "pagina_stampata": 324,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "324 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    52.2,
+    50.4,
+    117.4,
+    61.8
+   ],
+   "size": 11.2,
+   "testo": "SCASSINARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    61.9,
+    236.2,
+    72.3
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi2° livello (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    77.5,
+    143.5,
+    87.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    88.5,
+    115.9,
+    98.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    99.6,
+    109.9,
+    109.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    110.4,
+    124.1,
+    120.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    126.5,
+    274.9,
+    137.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore sceglie un oggetto entro gittata che egli sia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    137.6,
+    281.5,
+    148.2
+   ],
+   "size": 8.8,
+   "testo": "in grado di vedere. Può trattarsi di una porta, uno scrigno,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    148.6,
+    268.6,
+    159.1
+   ],
+   "size": 8.8,
+   "testo": "un forziere, un paio di manette, un lucchetto o un altro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    159.5,
+    257.1,
+    170.1
+   ],
+   "size": 8.8,
+   "testo": "oggetto dotato di un mezzo normale o magico per la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    170.6,
+    90.2,
+    181.2
+   ],
+   "size": 8.8,
+   "testo": "chiusura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    181.6,
+    270.7,
+    192.2
+   ],
+   "size": 8.8,
+   "testo": "Un bersaglio tenuto chiuso da una normale serratura,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    192.6,
+    262.5,
+    203.2
+   ],
+   "size": 8.8,
+   "testo": "incastrato o sbarrato, cessa di essere tale. Se l'oggetto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    203.7,
+    263.8,
+    214.3
+   ],
+   "size": 8.8,
+   "testo": "è protetto da più serrature, con questo incantesimo se",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    214.8,
+    147.1,
+    225.4
+   ],
+   "size": 8.8,
+   "testo": "ne sblocca soltanto una.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    225.6,
+    257.3,
+    236.2
+   ],
+   "size": 8.8,
+   "testo": "Se il bersaglio è tenuto chiuso da SerraturaArcana,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    236.6,
+    264.5,
+    247.2
+   ],
+   "size": 8.8,
+   "testo": "quell'incantesimo è soppresso per 10 minuti, nel corso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    247.6,
+    230.2,
+    258.2
+   ],
+   "size": 8.8,
+   "testo": "dei quali l'oggetto può essere aperto e chiuso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    258.6,
+    279.4,
+    269.2
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore lancia l'incantesimo, si percepisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    269.6,
+    270.5,
+    280.2
+   ],
+   "size": 8.8,
+   "testo": "un forte rumore simile al bussare proveniente dal bersa­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    280.7,
+    223.5,
+    291.3
+   ],
+   "size": 8.8,
+   "testo": "glio, udibile fino a una distanza di 90 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    315.5,
+    182.0,
+    326.8
+   ],
+   "size": 11.2,
+   "testo": "SCHEGGIA DELLA MENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    327.9,
+    253.0,
+    337.2
+   ],
+   "size": 8.6,
+   "testo": "TrucchettodiAmmaliamento (mago, stregone, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    342.5,
+    143.6,
+    352.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    353.5,
+    115.8,
+    363.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    364.5,
+    109.9,
+    374.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    375.5,
+    114.3,
+    385.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 round",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    391.7,
+    280.3,
+    402.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tenta di spezzare temporaneamente la mente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    402.7,
+    261.9,
+    413.2
+   ],
+   "size": 8.8,
+   "testo": "di una creatura entro gittata che è in grado di vedere.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    413.8,
+    279.2,
+    424.3
+   ],
+   "size": 8.8,
+   "testo": "La creatura deve superare un tiro salvezza su Intelligenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    424.8,
+    277.5,
+    435.3
+   ],
+   "size": 8.8,
+   "testo": "o subire 1d6 danni psichici e sottrarre 1d4 al tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    435.8,
+    269.3,
+    446.4
+   ],
+   "size": 8.8,
+   "testo": "successivo che effettua prima del termine del turno suc­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    446.7,
+    148.0,
+    457.3
+   ],
+   "size": 8.8,
+   "testo": "cessivo dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    457.7,
+    281.0,
+    468.3
+   ],
+   "size": 8.8,
+   "testo": "Trucchetto potenziato. I danni aumentano di 1d6 quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    466.6,
+    280.8,
+    479.3
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore raggiunge il 5° livello (2d6), 1'11° livello (3d6)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    477.5,
+    130.3,
+    490.3
+   ],
+   "size": 8.8,
+   "testo": "e il 17° livello (4d6).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    514.5,
+    159.9,
+    525.8
+   ],
+   "size": 11.2,
+   "testo": "SCIAME DI METEORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    526.0,
+    201.0,
+    536.4
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi9°livello (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    541.6,
+    143.7,
+    551.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    552.5,
+    136.7,
+    562.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 1,5 chilometri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    563.6,
+    118.6,
+    573.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    574.5,
+    124.1,
+    584.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    590.6,
+    269.3,
+    601.2
+   ],
+   "size": 8.8,
+   "testo": "Globi infuocati precipitano sul terreno in quattro punti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    601.6,
+    260.5,
+    612.2
+   ],
+   "size": 8.8,
+   "testo": "differenti entro gittata che l'incantatore è in grado di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    612.7,
+    266.1,
+    623.3
+   ],
+   "size": 8.8,
+   "testo": "vedere. Ogni creatura situata in una sfera del raggio di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    623.8,
+    277.0,
+    634.4
+   ],
+   "size": 8.8,
+   "testo": "12 metri centrata su ognuno di quei punti effettua un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    634.8,
+    272.8,
+    645.4
+   ],
+   "size": 8.8,
+   "testo": "salvezza su Destrezza. Una creatura subisce 20d6 danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    645.7,
+    275.0,
+    656.3
+   ],
+   "size": 8.8,
+   "testo": "da fuoco e 20d6 danni contundenti in caso di fallimento,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    656.8,
+    268.1,
+    667.4
+   ],
+   "size": 8.8,
+   "testo": "o la metà dei danni in caso di successo. Una creatura in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    667.7,
+    270.5,
+    678.3
+   ],
+   "size": 8.8,
+   "testo": "un'area con più sfere infuocate subisce l'effetto soltanto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    678.8,
+    92.5,
+    689.3
+   ],
+   "size": 8.8,
+   "testo": "una volta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    689.7,
+    264.3,
+    700.3
+   ],
+   "size": 8.8,
+   "testo": "Anche un oggetto non magico che non sia indossato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    700.6,
+    254.1,
+    711.2
+   ],
+   "size": 8.8,
+   "testo": "o trasportato subisce i danni se si trova entro l'area",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    711.7,
+    264.2,
+    722.3
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, e inizia a bruciare se è infiammabile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    50.2,
+    398.3,
+    61.6
+   ],
+   "size": 11.2,
+   "testo": "SCOLPIRE PIETRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    61.8,
+    489.6,
+    72.3
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi4° livello (chierico, druido, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    77.4,
+    396.1,
+    87.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    88.3,
+    368.8,
+    97.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    99.3,
+    449.0,
+    109.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (argilla morbida)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    110.3,
+    376.7,
+    119.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    126.4,
+    520.8,
+    137.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca un oggetto di pietra di taglia Media",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    137.4,
+    523.3,
+    148.0
+   ],
+   "size": 8.8,
+   "testo": "o inferiore, oppure una sezione di pietra non più grande",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    148.5,
+    503.5,
+    159.1
+   ],
+   "size": 8.8,
+   "testo": "di 1,5 metri in ogni dimensione, modellandola nella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    159.4,
+    520.0,
+    170.0
+   ],
+   "size": 8.8,
+   "testo": "forma che desidera. Per esempio, potrebbe trasformare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    170.5,
+    512.0,
+    181.1
+   ],
+   "size": 8.8,
+   "testo": "una grossa roccia in un'arma, una statua, un forziere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    181.5,
+    506.8,
+    192.1
+   ],
+   "size": 8.8,
+   "testo": "o creare un piccolo sentiero di passaggio attraverso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    192.5,
+    502.1,
+    203.1
+   ],
+   "size": 8.8,
+   "testo": "un muro spesso 1,5 metri. L'incantatore può anche",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    203.6,
+    527.7,
+    214.1
+   ],
+   "size": 8.8,
+   "testo": "modellare una porta di pietra o i suoi stipiti per sigillarla.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    214.6,
+    514.5,
+    225.2
+   ],
+   "size": 8.8,
+   "testo": "L'oggetto creato può avere un massimo di due cardini",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    225.5,
+    525.7,
+    236.1
+   ],
+   "size": 8.8,
+   "testo": "e una chiusura, ma non può essere dotato di meccanismi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    236.5,
+    354.6,
+    247.1
+   ],
+   "size": 8.8,
+   "testo": "più raffinati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    271.2,
+    414.2,
+    282.6
+   ],
+   "size": 11.2,
+   "testo": "SCOPRI IL PERCORSO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    282.7,
+    481.7,
+    293.3
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi6° livello (bardo, chierico, druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    298.4,
+    405.0,
+    308.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    309.4,
+    379.6,
+    319.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    320.4,
+    519.6,
+    330.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un set di strumenti di divinazione,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.3,
+    331.4,
+    488.6,
+    341.0
+   ],
+   "size": 8.4,
+   "testo": "come carte o rune, del valore di 100 mo o più)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    342.3,
+    455.5,
+    352.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 giorno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    358.5,
+    522.3,
+    369.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore percepisce magicamente il percorso fisico",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    369.5,
+    526.2,
+    380.1
+   ],
+   "size": 8.8,
+   "testo": "più diretto verso una destinazione di cui nomina il nome",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    380.5,
+    528.8,
+    391.1
+   ],
+   "size": 8.8,
+   "testo": "e che gli sia nota. Se nomina una destinazione su un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    391.6,
+    528.7,
+    402.2
+   ],
+   "size": 8.8,
+   "testo": "piano di esistenza, una destinazione in movimento (come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    402.8,
+    519.6,
+    413.4
+   ],
+   "size": 8.8,
+   "testo": "una fortezza mobile) o una destinazione poco specifica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    413.7,
+    513.0,
+    424.2
+   ],
+   "size": 8.8,
+   "testo": "(come \"la tana di un drago verde\"), l'incantesimo non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    424.7,
+    345.7,
+    435.3
+   ],
+   "size": 8.8,
+   "testo": "ha effetto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    435.7,
+    519.5,
+    446.3
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, finché l'incantatore si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    446.7,
+    519.7,
+    457.2
+   ],
+   "size": 8.8,
+   "testo": "trova sullo stesso piano di esistenza della destinazione,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    457.6,
+    529.7,
+    468.2
+   ],
+   "size": 8.8,
+   "testo": "sa quanto è lontana e in che direzione si trova. Ogni volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    468.6,
+    510.7,
+    479.2
+   ],
+   "size": 8.8,
+   "testo": "che l'incantatore si trova a scegliere tra più percorsi,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    479.6,
+    392.4,
+    490.1
+   ],
+   "size": 8.8,
+   "testo": "sa qual è il più diretto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    514.3,
+    400.5,
+    525.7
+   ],
+   "size": 11.2,
+   "testo": "SCOPRI TRAPPOLE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    525.9,
+    484.1,
+    536.3
+   ],
+   "size": 8.6,
+   "testo": "Divinazionedi2° livello (chierico, druido, ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    541.4,
+    396.1,
+    551.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    552.4,
+    368.8,
+    562.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    563.4,
+    371.1,
+    573.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    574.3,
+    376.7,
+    584.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    590.6,
+    507.6,
+    601.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore percepisce qualsiasi trappola piazzata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    601.5,
+    511.3,
+    612.1
+   ],
+   "size": 8.8,
+   "testo": "entro gittata e nel suo campo visivo. Ai fini di questo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    612.7,
+    513.3,
+    623.3
+   ],
+   "size": 8.8,
+   "testo": "incantesimo, per trappola si intende qualsiasi oggetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    623.7,
+    529.9,
+    634.3
+   ],
+   "size": 8.8,
+   "testo": "o meccanismo creato per provocare danni o altri pericoli.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    634.8,
+    522.8,
+    645.3
+   ],
+   "size": 8.8,
+   "testo": "Pertanto, l'incantesimo è in grado di percepire gli incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    645.7,
+    529.9,
+    656.3
+   ],
+   "size": 8.8,
+   "testo": "tesimi allarme o glifo di interdizione, o una fossa meccanica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    656.7,
+    520.0,
+    667.3
+   ],
+   "size": 8.8,
+   "testo": "nascosta, ma non di rivelare un cedimento naturale del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    667.7,
+    526.2,
+    678.3
+   ],
+   "size": 8.8,
+   "testo": "pavimento, un soffitto instabile o una voragine nascosta.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.3,
+    678.7,
+    524.0,
+    689.3
+   ],
+   "size": 8.8,
+   "testo": "Questo incantesimo rivela la presenza di una trappola",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    689.7,
+    515.1,
+    700.2
+   ],
+   "size": 8.8,
+   "testo": "ma non la sua ubicazione. L'incantatore scopre solo la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    700.6,
+    498.2,
+    711.2
+   ],
+   "size": 8.8,
+   "testo": "natura generale del pericolo che la trappola pone.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

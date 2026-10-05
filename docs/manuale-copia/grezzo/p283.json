@@ -1,0 +1,625 @@
+{
+ "pagina_pdf": 283,
+ "pagina_stampata": 280,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "580 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   697
+  ],
+  [
+   0,
+   701,
+   286,
+   784
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.6,
+    414.8,
+    154.3,
+    425.1
+   ],
+   "size": 8.1,
+   "testo": "Guscio ANTI-VITA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    426.4,
+    172.3,
+    436.7
+   ],
+   "size": 8.1,
+   "testo": "Abiurazione di 5° livello (druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    441.0,
+    144.2,
+    451.3
+   ],
+   "size": 8.1,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    452.0,
+    128.6,
+    462.3
+   ],
+   "size": 8.1,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    464.4,
+    120.0,
+    473.2
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    473.9,
+    190.9,
+    484.1
+   ],
+   "size": 8.1,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    492.6,
+    260.1,
+    501.1
+   ],
+   "size": 6.6,
+   "testo": "Un'aura si estende dall'incantatore in un'emanazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    503.6,
+    255.3,
+    512.3
+   ],
+   "size": 6.7,
+   "testo": "di 3 metri e permane per la durata dell'incantesimo,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    514.6,
+    266.3,
+    523.2
+   ],
+   "size": 6.6,
+   "testo": "impedendo a tutte le creature che non siano non morti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    525.7,
+    271.1,
+    534.3
+   ],
+   "size": 6.6,
+   "testo": "e costrutti di attraversarla o protendersi oltre essa. Una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    536.6,
+    280.3,
+    545.2
+   ],
+   "size": 6.6,
+   "testo": "creatura influenzata può lanciare incantesimi o effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.9,
+    547.6,
+    272.1,
+    556.2
+   ],
+   "size": 6.6,
+   "testo": "attacchi utilizzando armi a distanza o con portata attra­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    558.7,
+    120.6,
+    567.2
+   ],
+   "size": 6.6,
+   "testo": "verso la barriera.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    569.5,
+    262.8,
+    578.1
+   ],
+   "size": 6.6,
+   "testo": "Se l'incantatore si muove in modo che una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    580.6,
+    255.1,
+    589.2
+   ],
+   "size": 6.6,
+   "testo": "influenzata sia costretta ad attraversare la barriera,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    591.5,
+    142.1,
+    600.1
+   ],
+   "size": 6.6,
+   "testo": "l'incantesimo termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    624.8,
+    128.1,
+    635.1
+   ],
+   "size": 8.1,
+   "testo": "IDENTIFICARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    636.5,
+    191.0,
+    646.8
+   ],
+   "size": 8.1,
+   "testo": "Divinazione di 1° livello (bardo, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    651.0,
+    187.1,
+    661.3
+   ],
+   "size": 8.1,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    662.0,
+    117.6,
+    672.3
+   ],
+   "size": 8.1,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    672.9,
+    276.8,
+    683.2
+   ],
+   "size": 8.1,
+   "testo": "Componenti: V, S, M (una perla del valore di 100 mo o più)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    683.9,
+    125.2,
+    694.2
+   ],
+   "size": 8.1,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    702.7,
+    265.3,
+    711.2
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore tocca un oggetto per la durata del lancio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    713.6,
+    266.2,
+    722.2
+   ],
+   "size": 6.6,
+   "testo": "dell'incantesimo. Se si tratta di un oggetto magico o di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    400.6,
+    513.4,
+    409.1
+   ],
+   "size": 6.6,
+   "testo": "un altro oggetto infuso di magia, apprende le sue pro­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    411.7,
+    530.9,
+    420.2
+   ],
+   "size": 6.6,
+   "testo": "prietà e come usarlo, se richiede sintonia e quante cariche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    422.6,
+    508.6,
+    431.2
+   ],
+   "size": 6.6,
+   "testo": "contiene, se ce ne sono. Apprende anche se l'oggetto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    433.6,
+    525.6,
+    442.4
+   ],
+   "size": 6.7,
+   "testo": "è influenzato da eventuali incantesimi in corso e di quali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    444.6,
+    517.2,
+    453.3
+   ],
+   "size": 6.7,
+   "testo": "si tratta. Se l'oggetto è stato creato da un incantesimo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    455.5,
+    508.5,
+    464.1
+   ],
+   "size": 6.6,
+   "testo": "l'incantatore apprende il nome di quell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    466.5,
+    520.6,
+    475.1
+   ],
+   "size": 6.6,
+   "testo": "Se invece durante il lancio dell'incantesimo l'incanta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    477.5,
+    517.7,
+    486.0
+   ],
+   "size": 6.6,
+   "testo": "tore tocca una creatura, apprende quali incantesimi in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    488.5,
+    475.9,
+    497.1
+   ],
+   "size": 6.6,
+   "testo": "corso la stanno influenzando, se ce ne sono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    521.5,
+    409.1,
+    531.8
+   ],
+   "size": 8.1,
+   "testo": "ILLUSIONE MINORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    533.2,
+    507.5,
+    543.5
+   ],
+   "size": 8.1,
+   "testo": "Trucchetto di Illusione (bardo, mago, stregone, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    547.8,
+    396.5,
+    558.1
+   ],
+   "size": 8.1,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    558.9,
+    364.9,
+    569.1
+   ],
+   "size": 8.1,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    569.7,
+    444.3,
+    580.0
+   ],
+   "size": 8.1,
+   "testo": "Componenti: S, M (un ciuffo di lana)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    580.8,
+    372.0,
+    591.1
+   ],
+   "size": 8.1,
+   "testo": "Durata: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    599.5,
+    529.9,
+    608.1
+   ],
+   "size": 6.6,
+   "testo": "L'incantatore crea un suono o un'immagine di un oggetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    610.6,
+    528.2,
+    619.1
+   ],
+   "size": 6.6,
+   "testo": "entro gittata che permane per la durata dell'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    621.6,
+    512.9,
+    630.2
+   ],
+   "size": 6.6,
+   "testo": "Di seguito sono descritti gli effetti di ciascuno di essi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    632.7,
+    518.0,
+    641.3
+   ],
+   "size": 6.6,
+   "testo": "L'illusione termina se l'incantatore lancia nuovamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    643.6,
+    360.9,
+    652.2
+   ],
+   "size": 6.6,
+   "testo": "l'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.6,
+    654.7,
+    509.8,
+    663.2
+   ],
+   "size": 6.6,
+   "testo": "Se una creatura effettua l'azione di Studio per esa­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    665.7,
+    514.0,
+    674.3
+   ],
+   "size": 6.6,
+   "testo": "minare il suono o l'immagine, può determinare che si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    676.6,
+    528.9,
+    685.2
+   ],
+   "size": 6.6,
+   "testo": "tratta di un'illusione superando una prova di Intelligenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    687.6,
+    532.7,
+    696.2
+   ],
+   "size": 6.6,
+   "testo": "(Indagare) contro la CD del tiro salvezza sull'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    698.5,
+    522.1,
+    707.3
+   ],
+   "size": 6.7,
+   "testo": "Se una creatura riconosce l'illusione per ciò che è, l'illu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    709.6,
+    472.5,
+    718.2
+   ],
+   "size": 6.6,
+   "testo": "sione risulta attenuata per quella creatura.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

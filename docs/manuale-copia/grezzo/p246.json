@@ -1,0 +1,715 @@
+{
+ "pagina_pdf": 246,
+ "pagina_stampata": 243,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 243",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   449
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    25.3,
+    690.5,
+    29.7,
+    694.6
+   ],
+   "size": 2.8,
+   "testo": "N",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    25.2,
+    694.0,
+    30.7,
+    703.1
+   ],
+   "size": 6.9,
+   "testo": "Ļ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    25.2,
+    700.3,
+    29.8,
+    704.4
+   ],
+   "size": 2.8,
+   "testo": "u",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    25.2,
+    704.0,
+    29.7,
+    708.1
+   ],
+   "size": 2.8,
+   "testo": "w",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    25.3,
+    707.1,
+    30.2,
+    713.4
+   ],
+   "size": 4.9,
+   "testo": "z",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    25.3,
+    712.3,
+    30.8,
+    721.3
+   ],
+   "size": 6.9,
+   "testo": "!;",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    25.3,
+    719.8,
+    31.1,
+    726.1
+   ],
+   "size": 4.9,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    407.0,
+    169.1,
+    418.4
+   ],
+   "size": 11.2,
+   "testo": "ANTIPATIA/SIMPATIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    418.4,
+    234.7,
+    428.9
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi8° livello (bardo, druido, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    434.0,
+    140.6,
+    443.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    444.9,
+    119.2,
+    454.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    455.9,
+    249.5,
+    465.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una miscela di aceto e miele)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    466.8,
+    121.2,
+    476.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: 10 giorni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    483.0,
+    275.4,
+    493.6
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore lancia l'incantesimo, decide se cre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    494.2,
+    280.3,
+    504.7
+   ],
+   "size": 8.8,
+   "testo": "are antipatia o simpatia e sceglie come bersaglio una crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    505.2,
+    284.4,
+    515.8
+   ],
+   "size": 8.8,
+   "testo": "tura o un oggetto di taglia Enorme o inferiore. Dopodiché,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    516.1,
+    267.9,
+    526.7
+   ],
+   "size": 8.8,
+   "testo": "specifica un tipo di creatura, come per esempio draghi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    527.2,
+    275.8,
+    537.8
+   ],
+   "size": 8.8,
+   "testo": "rossi, goblin o vampiri. Una creatura del tipo scelto effet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    538.2,
+    270.1,
+    548.8
+   ],
+   "size": 8.8,
+   "testo": "tua un tiro salvezza su Saggezza quando si trova entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    549.2,
+    270.5,
+    559.8
+   ],
+   "size": 8.8,
+   "testo": "36 metri dal bersaglio. La scelta dell'incantatore tra gli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    560.1,
+    282.4,
+    570.7
+   ],
+   "size": 8.8,
+   "testo": "effetti di antipatia e simpatia determina cosa accade a una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    571.2,
+    240.7,
+    581.8
+   ],
+   "size": 8.8,
+   "testo": "creatura quando questa fallisce il tiro salvezza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    587.6,
+    276.7,
+    598.1
+   ],
+   "size": 8.8,
+   "testo": "Antipatia. La creatura è spaventata e deve usare il movi-",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    598.5,
+    279.8,
+    609.1
+   ],
+   "size": 8.8,
+   "testo": "mento nel suo turno per allontanarsi il più possibile dal",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    609.7,
+    232.6,
+    620.3
+   ],
+   "size": 8.8,
+   "testo": "bersaglio, muovendosi per la via più sicura.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    620.8,
+    274.5,
+    631.3
+   ],
+   "size": 8.8,
+   "testo": "Simpatia. La creatura è affascinata e deve usare il movi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    631.7,
+    262.4,
+    642.3
+   ],
+   "size": 8.8,
+   "testo": "mento nel suo turno per avvicinarsi il più possibile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    642.8,
+    262.3,
+    653.3
+   ],
+   "size": 8.8,
+   "testo": "al bersaglio, muovendosi per la via più sicura. Se la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.2,
+    653.7,
+    278.3,
+    664.3
+   ],
+   "size": 8.8,
+   "testo": "creatura si trova entro 1,5 metri dal bersaglio, non può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.3,
+    664.7,
+    268.7,
+    675.3
+   ],
+   "size": 8.8,
+   "testo": "allontanarsi volontariamente. Se il bersaglio infligge",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    675.7,
+    272.4,
+    686.3
+   ],
+   "size": 8.8,
+   "testo": "danni alla creatura affascinata, questa può effettuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    686.7,
+    273.7,
+    697.3
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Saggezza per porre fine all'effetto,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    697.7,
+    165.4,
+    708.3
+   ],
+   "size": 8.8,
+   "testo": "come descritto di seguito.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    391.1,
+    530.3,
+    401.7
+   ],
+   "size": 8.8,
+   "testo": "Porrefine all'effetto. Se la creatura spaventata o affasci­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    402.1,
+    532.7,
+    412.7
+   ],
+   "size": 8.8,
+   "testo": "nata termina il suo turno a più di 36 metri di distanza dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    413.2,
+    525.2,
+    423.8
+   ],
+   "size": 8.8,
+   "testo": "bersaglio, effettua un tiro salvezza su Saggezza. In caso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    424.2,
+    517.0,
+    434.8
+   ],
+   "size": 8.8,
+   "testo": "di successo, la creatura non è più sotto l'influenza del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    435.1,
+    537.2,
+    445.7
+   ],
+   "size": 8.8,
+   "testo": "bersaglio. Una creatura che supera un tiro salvezza contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    446.1,
+    523.8,
+    456.7
+   ],
+   "size": 8.8,
+   "testo": "l'effetto ne è immune per 1 minuto, al termine del quale",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    457.1,
+    439.8,
+    467.7
+   ],
+   "size": 8.8,
+   "testo": "può esserne influenzata di nuovo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    492.0,
+    413.0,
+    503.3
+   ],
+   "size": 11.2,
+   "testo": "ARMA ELEMENTALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    503.3,
+    500.4,
+    513.8
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi3° livello (druido, paladino, ranger)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    519.0,
+    399.6,
+    528.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    530.1,
+    372.4,
+    539.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    541.1,
+    374.5,
+    550.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    552.0,
+    445.4,
+    561.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    568.2,
+    516.7,
+    578.7
+   ],
+   "size": 8.8,
+   "testo": "Un'arma non magica toccata dall'incantatore diventa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    579.2,
+    512.3,
+    589.7
+   ],
+   "size": 8.8,
+   "testo": "un'arma magica. L'incantatore sceglie uno dei tipi di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    590.1,
+    522.5,
+    600.7
+   ],
+   "size": 8.8,
+   "testo": "danno seguenti: Acido, freddo, fulmine, fuoco o tuono.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    601.1,
+    523.2,
+    611.7
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, l'arma ottiene un bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    612.3,
+    526.1,
+    622.9
+   ],
+   "size": 8.8,
+   "testo": "di +1 ai tiri per colpire e infligge 1d4 danni extra del tipo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    623.4,
+    399.1,
+    633.9
+   ],
+   "size": 8.8,
+   "testo": "scelto quando colpisce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.4,
+    636.0,
+    511.5,
+    644.6
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    643.2,
+    531.9,
+    655.9
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore usa uno slot incantesimo di 5° o 6° livello,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    656.3,
+    519.9,
+    666.9
+   ],
+   "size": 8.8,
+   "testo": "il bonus ai tiri per colpire aumenta a +2 e i danni extra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    667.3,
+    516.6,
+    677.8
+   ],
+   "size": 8.8,
+   "testo": "aumentano a 2d4. Se l'incantatore usa uno slot incan­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    676.1,
+    517.1,
+    688.8
+   ],
+   "size": 8.8,
+   "testo": "tesimo di 7° livello o superiore, il bonus aumenta a +3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    689.3,
+    437.9,
+    699.9
+   ],
+   "size": 8.8,
+   "testo": "e i danni extra aumentano a 3d4.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

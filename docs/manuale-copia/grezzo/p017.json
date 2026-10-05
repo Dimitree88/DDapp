@@ -1,0 +1,1452 @@
+{
+ "pagina_pdf": 17,
+ "pagina_stampata": 14,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "14 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    51.0,
+    36.2,
+    89.8,
+    46.2
+   ],
+   "size": 8.5,
+   "testo": "ABILITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    52.2,
+    80.4,
+    61.1
+   ],
+   "size": 6.7,
+   "testo": "Abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.6,
+    52.3,
+    188.5,
+    61.2
+   ],
+   "size": 6.7,
+   "testo": "Caratteristica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    196.1,
+    52.3,
+    252.4,
+    61.2
+   ],
+   "size": 6.7,
+   "testo": "Esempio d'uso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    66.5,
+    93.8,
+    75.6
+   ],
+   "size": 6.7,
+   "testo": "Acrobazia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.8,
+    66.5,
+    176.0,
+    75.5
+   ],
+   "size": 6.7,
+   "testo": "Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.8,
+    66.6,
+    437.1,
+    75.7
+   ],
+   "size": 6.7,
+   "testo": "Rimani in piedi in una situazione difficile o esegui un'acrobazia.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    81.0,
+    127.9,
+    90.1
+   ],
+   "size": 6.7,
+   "testo": "Addestrare animali",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    95.7,
+    83.0,
+    104.7
+   ],
+   "size": 6.7,
+   "testo": "Arcano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    110.2,
+    84.8,
+    119.2
+   ],
+   "size": 6.7,
+   "testo": "Atletica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    81.1,
+    173.5,
+    90.1
+   ],
+   "size": 6.7,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    95.7,
+    181.6,
+    104.7
+   ],
+   "size": 6.7,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    110.2,
+    159.0,
+    119.2
+   ],
+   "size": 6.7,
+   "testo": "Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.3,
+    81.2,
+    465.1,
+    90.3
+   ],
+   "size": 6.7,
+   "testo": "Calma o addestra un animale, o fallo comportare in una certa maniera.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.8,
+    95.8,
+    480.7,
+    104.9
+   ],
+   "size": 6.7,
+   "testo": "Richiama la conoscenza su incantesimi, oggetti magici e piani di esistenza.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.3,
+    110.4,
+    490.6,
+    119.4
+   ],
+   "size": 6.7,
+   "testo": "Salta più lontano del normale, resta a galla in acque agitate o rompi qualcosa.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    124.7,
+    87.7,
+    133.8
+   ],
+   "size": 6.7,
+   "testo": "Furtività",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    139.4,
+    89.3,
+    148.4
+   ],
+   "size": 6.7,
+   "testo": "Indagare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    153.9,
+    87.5,
+    162.9
+   ],
+   "size": 6.7,
+   "testo": "Inganno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.7,
+    124.7,
+    175.9,
+    133.8
+   ],
+   "size": 6.7,
+   "testo": "Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    139.3,
+    181.5,
+    148.4
+   ],
+   "size": 6.7,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    153.9,
+    168.8,
+    163.0
+   ],
+   "size": 6.7,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.3,
+    124.8,
+    527.6,
+    133.8
+   ],
+   "size": 6.7,
+   "testo": "Sfuggi all'attenzione altrui muovendoti silenziosamente e nascondendoti dietro le cose.",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    194.8,
+    139.5,
+    527.1,
+    148.6
+   ],
+   "size": 6.7,
+   "testo": "Trova informazioni sepolte nei libri o deduci il funzionamento degli oggetti più disparati.",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    195.9,
+    154.1,
+    461.1,
+    163.1
+   ],
+   "size": 6.7,
+   "testo": "Racconta una bugia convincente o indossa un travestimento credibile.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    168.5,
+    93.2,
+    177.5
+   ],
+   "size": 6.7,
+   "testo": "Intimidire",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    168.5,
+    168.8,
+    177.6
+   ],
+   "size": 6.7,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.0,
+    168.7,
+    444.1,
+    177.8
+   ],
+   "size": 6.7,
+   "testo": "Impressiona o minaccia qualcuno facendogli fare quello che vuoi.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    183.0,
+    101.1,
+    192.1
+   ],
+   "size": 6.7,
+   "testo": "Intrattenere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    183.1,
+    168.8,
+    192.2
+   ],
+   "size": 6.7,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.6,
+    183.2,
+    346.6,
+    192.3
+   ],
+   "size": 6.7,
+   "testo": "Recita, narra una storia, suona o danza.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    197.7,
+    94.3,
+    206.7
+   ],
+   "size": 6.7,
+   "testo": "Intuizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    197.7,
+    173.4,
+    206.8
+   ],
+   "size": 6.7,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.6,
+    197.8,
+    375.8,
+    206.9
+   ],
+   "size": 6.7,
+   "testo": "Discerni l'umore e le intenzioni di una persona.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    212.2,
+    91.4,
+    221.2
+   ],
+   "size": 6.7,
+   "testo": "Medicina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    226.5,
+    82.8,
+    235.6
+   ],
+   "size": 6.7,
+   "testo": "Natura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    212.3,
+    173.6,
+    221.3
+   ],
+   "size": 6.7,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    226.6,
+    181.6,
+    235.7
+   ],
+   "size": 6.7,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.6,
+    212.5,
+    502.3,
+    221.6
+   ],
+   "size": 6.7,
+   "testo": "Diagnostica una malattia o determina cosa abbia recentemente ucciso qualcuno.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.8,
+    226.9,
+    424.8,
+    235.9
+   ],
+   "size": 6.7,
+   "testo": "Richiama la conoscenza su terreno, piante, animali e tempo.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    241.0,
+    97.6,
+    250.1
+   ],
+   "size": 6.7,
+   "testo": "Percezione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    255.7,
+    102.3,
+    264.8
+   ],
+   "size": 6.7,
+   "testo": "Persuasione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.5,
+    241.1,
+    173.5,
+    250.2
+   ],
+   "size": 6.7,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.2,
+    255.8,
+    168.8,
+    264.8
+   ],
+   "size": 6.7,
+   "testo": "Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.6,
+    241.4,
+    473.7,
+    250.4
+   ],
+   "size": 6.7,
+   "testo": "Usando una combinazione di sensi, nota qualcosa che è facile trascurare.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.2,
+    256.1,
+    423.7,
+    265.1
+   ],
+   "size": 6.7,
+   "testo": "Convinci qualcuno di qualcosa con onestà e buone maniere.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    270.4,
+    120.7,
+    279.4
+   ],
+   "size": 6.7,
+   "testo": "Rapidità di mano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    285.0,
+    91.1,
+    294.0
+   ],
+   "size": 6.7,
+   "testo": "Religione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.6,
+    270.4,
+    175.7,
+    279.5
+   ],
+   "size": 6.7,
+   "testo": "Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.0,
+    285.1,
+    181.5,
+    294.1
+   ],
+   "size": 6.7,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.2,
+    270.7,
+    517.5,
+    279.7
+   ],
+   "size": 6.7,
+   "testo": "Svuota le tasche, nascondi un oggetto tenuto in mano o esegui un gioco di prestigio.",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    195.5,
+    285.3,
+    446.5,
+    294.4
+   ],
+   "size": 6.7,
+   "testo": "Richiama la conoscenza su divinità, rituali religiosi e simboli sacri.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    299.6,
+    110.7,
+    308.6
+   ],
+   "size": 6.7,
+   "testo": "Sopravvivenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    314.1,
+    78.3,
+    323.2
+   ],
+   "size": 6.7,
+   "testo": "Storia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    136.1,
+    299.6,
+    173.3,
+    308.7
+   ],
+   "size": 6.7,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.8,
+    314.2,
+    181.4,
+    323.2
+   ],
+   "size": 6.7,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.0,
+    299.9,
+    493.4,
+    308.9
+   ],
+   "size": 6.7,
+   "testo": "Segui le tracce, va' alla ricerca di cibo, trova una pista o evita i pericoli naturali.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    195.4,
+    314.5,
+    452.3,
+    323.6
+   ],
+   "size": 6.7,
+   "testo": "Ricorda dati e leggende su eventi storici, persone, nazioni e culture.",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    333.9,
+    264.1,
+    342.4
+   ],
+   "size": 6.4,
+   "testo": "di caratteristica che riguardano quell'abilità, ma senza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.5,
+    344.9,
+    261.0,
+    353.5
+   ],
+   "size": 6.4,
+   "testo": "aggiungere il bonus di competenza. Ad esempio, se un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.4,
+    356.0,
+    276.2,
+    364.5
+   ],
+   "size": 6.4,
+   "testo": "personaggio cerca di arrampicarsi su una parete rocciosa,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.1,
+    365.8,
+    269.2,
+    375.8
+   ],
+   "size": 8.5,
+   "testo": "il DM potrebbe richiedere una prova di Forza (Atletica).",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    378.0,
+    261.4,
+    386.5
+   ],
+   "size": 6.4,
+   "testo": "Se il personaggio ha competenza in Atletica, aggiunge",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    389.1,
+    262.8,
+    397.6
+   ],
+   "size": 6.4,
+   "testo": "il suo bonus di competenza alla prova di Forza. Se non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.2,
+    400.2,
+    251.7,
+    408.7
+   ],
+   "size": 6.4,
+   "testo": "possiede tale competenza, effettua una prova senza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.0,
+    411.4,
+    169.7,
+    419.9
+   ],
+   "size": 6.4,
+   "testo": "aggiungere il rispettivo bonus.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.2,
+    430.4,
+    161.7,
+    440.5
+   ],
+   "size": 8.5,
+   "testo": "LISTA DELLE ABILITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    443.3,
+    267.4,
+    451.9
+   ],
+   "size": 6.4,
+   "testo": "Le abilità sono indicate nella tabella Abilità, che riporta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.6,
+    454.3,
+    276.5,
+    462.9
+   ],
+   "size": 6.4,
+   "testo": "esempi di utilizzo per ogni competenza e la prova di càrat­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.9,
+    465.3,
+    215.9,
+    473.9
+   ],
+   "size": 6.4,
+   "testo": "teristica a cui l'abilità si applica più spesso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.5,
+    484.2,
+    187.3,
+    494.2
+   ],
+   "size": 8.5,
+   "testo": "DETERMINARE LE ABILITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.3,
+    497.1,
+    258.7,
+    505.6
+   ],
+   "size": 6.4,
+   "testo": "Le competenze nelle abilità iniziali di un personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.8,
+    508.1,
+    265.7,
+    516.7
+   ],
+   "size": 6.4,
+   "testo": "sono determinate nel corso della sua creazione, mentre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.9,
+    519.2,
+    260.5,
+    527.8
+   ],
+   "size": 6.4,
+   "testo": "le competenze nelle abilità di un mostro sono indicate",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.9,
+    530.2,
+    178.4,
+    538.8
+   ],
+   "size": 6.4,
+   "testo": "nella sua scheda delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    552.9,
+    242.8,
+    562.9
+   ],
+   "size": 8.5,
+   "testo": "ABILITÀ CON CARATTERISTICHE DIVERSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    566.8,
+    251.7,
+    575.9
+   ],
+   "size": 6.7,
+   "testo": "Ogni competenza in un'abilità è associata con una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.7,
+    577.7,
+    264.4,
+    586.8
+   ],
+   "size": 6.7,
+   "testo": "prova di caratteristica. Ad esempio, l'abilità Intimidire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    588.7,
+    249.1,
+    597.7
+   ],
+   "size": 6.7,
+   "testo": "è associata al Carisma. In alcune situazioni, il DM",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    599.8,
+    251.1,
+    608.8
+   ],
+   "size": 6.7,
+   "testo": "può consentire di applicare la propria competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    610.9,
+    243.8,
+    619.9
+   ],
+   "size": 6.7,
+   "testo": "in un'abilità a una prova di caratteristica diversa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    621.8,
+    251.0,
+    630.9
+   ],
+   "size": 6.7,
+   "testo": "Ad esempio, se un personaggio cerca di intimidire",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    632.9,
+    264.1,
+    641.9
+   ],
+   "size": 6.7,
+   "testo": "qualcuno con una dimostrazione di forza fisica, il DM",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.6,
+    643.9,
+    253.6,
+    653.0
+   ],
+   "size": 6.7,
+   "testo": "potrebbe richiedere una prova di Forza (Intimidire)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.9,
+    654.9,
+    265.8,
+    663.9
+   ],
+   "size": 6.7,
+   "testo": "anziché una prova di Carisma (Intimidire). Il personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.0,
+    665.9,
+    269.2,
+    675.0
+   ],
+   "size": 6.7,
+   "testo": "gio effettua una prova di Forza e aggiunge il suo bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.9,
+    676.9,
+    238.6,
+    686.0
+   ],
+   "size": 6.7,
+   "testo": "di competenza se ha competenza in Intimidire.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    334.1,
+    507.3,
+    343.9
+   ],
+   "size": 9.1,
+   "testo": "COMPETENZE NEI TIRI SALVEZZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    352.5,
+    518.3,
+    361.0
+   ],
+   "size": 6.4,
+   "testo": "La competenza in un tiro salvezza consente a un perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    363.6,
+    516.5,
+    372.1
+   ],
+   "size": 6.4,
+   "testo": "naggio di aggiungere il suo bonus di competenza ai tiri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    374.5,
+    512.7,
+    383.0
+   ],
+   "size": 6.4,
+   "testo": "salvezza che utilizzano una particolare caratteristica.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    385.6,
+    521.8,
+    394.1
+   ],
+   "size": 6.4,
+   "testo": "Ad esempio, la competenza nei tiri salvezza su Saggezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    396.6,
+    523.2,
+    405.1
+   ],
+   "size": 6.4,
+   "testo": "consente di aggiungere il bonus di competenza a tali tiri.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.2,
+    407.7,
+    524.4,
+    416.3
+   ],
+   "size": 6.4,
+   "testo": "Anche alcuni mostri hanno competenze nei tiri salvezza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.3,
+    418.7,
+    490.2,
+    427.3
+   ],
+   "size": 6.4,
+   "testo": "come indicato nelle loro schede delle statistiche.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.5,
+    429.8,
+    519.2,
+    438.3
+   ],
+   "size": 6.4,
+   "testo": "Ogni classe conferisce competenza in almeno due tiri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    440.8,
+    513.6,
+    449.3
+   ],
+   "size": 6.4,
+   "testo": "salvezza, che rappresentano l'addestramento di quella",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    451.8,
+    510.4,
+    460.3
+   ],
+   "size": 6.4,
+   "testo": "classe nell'eludere o respingere determinate minacce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    462.8,
+    526.5,
+    471.3
+   ],
+   "size": 6.4,
+   "testo": "I maghi, ad esempio, si allenano per resistere agli attacchi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.0,
+    473.7,
+    528.7,
+    482.3
+   ],
+   "size": 6.4,
+   "testo": "psichici e sono competenti nei tiri salvezza su Intelligenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    484.8,
+    348.2,
+    493.3
+   ],
+   "size": 6.4,
+   "testo": "e Saggezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    503.1,
+    386.8,
+    512.9
+   ],
+   "size": 9.1,
+   "testo": "COMPETENZE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.4,
+    518.3,
+    454.8,
+    528.1
+   ],
+   "size": 9.1,
+   "testo": "DELL'E UIPAGGIAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    536.4,
+    508.5,
+    544.9
+   ],
+   "size": 6.4,
+   "testo": "Un personaggio acquisisce competenza in varie armi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.1,
+    547.4,
+    516.4,
+    555.9
+   ],
+   "size": 6.4,
+   "testo": "e strumenti in base alla sua classe e al suo background.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.4,
+    558.4,
+    517.0,
+    567.0
+   ],
+   "size": 6.4,
+   "testo": "Esistono due categorie di competenza negli equipaggia­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.1,
+    569.3,
+    327.9,
+    577.9
+   ],
+   "size": 6.4,
+   "testo": "menti:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.0,
+    585.7,
+    529.4,
+    594.5
+   ],
+   "size": 6.7,
+   "testo": "Armi. Chiunque può brandire un'arma, ma la competenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.0,
+    596.7,
+    515.2,
+    605.3
+   ],
+   "size": 6.4,
+   "testo": "rende il personaggio più abile nel brandirla. Se il per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.0,
+    607.8,
+    524.0,
+    616.4
+   ],
+   "size": 6.4,
+   "testo": "sonaggio ha competenza in un'arma, aggiunge il bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.2,
+    618.9,
+    510.9,
+    627.4
+   ],
+   "size": 6.4,
+   "testo": "di competenza ai tiri per colpire effettuati con essa.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    629.9,
+    504.9,
+    638.8
+   ],
+   "size": 6.7,
+   "testo": "Strumenti. Se il personaggio ha competenza in uno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.4,
+    641.0,
+    509.0,
+    649.5
+   ],
+   "size": 6.4,
+   "testo": "strumento, può aggiungere il bonus di competenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.1,
+    651.9,
+    527.0,
+    660.5
+   ],
+   "size": 6.4,
+   "testo": "a qualsiasi prova di caratteristica che effettua utilizzan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.2,
+    662.8,
+    517.0,
+    671.7
+   ],
+   "size": 6.7,
+   "testo": "dolo. Se è dotato di competenza nell'abilità utilizzata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.1,
+    674.0,
+    510.5,
+    682.5
+   ],
+   "size": 6.4,
+   "testo": "per quella prova, effettuerà la prova con vantaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.2,
+    684.9,
+    520.2,
+    693.4
+   ],
+   "size": 6.4,
+   "testo": "Ciò significa che può beneficiare sia della competenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.0,
+    695.9,
+    520.8,
+    704.4
+   ],
+   "size": 6.4,
+   "testo": "nell'abilità che della competenza negli strumenti nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    310.0,
+    706.9,
+    425.5,
+    715.4
+   ],
+   "size": 6.4,
+   "testo": "stessa prova di caratteristica.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    343.4,
+    515.0,
+    352.3,
+    531.6
+   ],
+   "size": 15.0,
+   "testo": "q",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

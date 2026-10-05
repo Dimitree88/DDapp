@@ -1,0 +1,1404 @@
+{
+ "pagina_pdf": 238,
+ "pagina_stampata": 235,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / F35",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    245.8,
+    21.1,
+    346.7,
+    42.6
+   ],
+   "size": 13.9,
+   "testo": "CAPITOLO 7",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.3,
+    47.6,
+    408.1,
+    98.3
+   ],
+   "size": 29.9,
+   "testo": "INCANTESIMI",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    86.2,
+    100.6,
+    263.6,
+    129.7
+   ],
+   "size": 6.6,
+   "testo": "VESTO CAPITOLO ILLUSTRA LE REGOLE CHE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.6,
+    130.7,
+    270.2,
+    141.3
+   ],
+   "size": 8.8,
+   "testo": "governano il lancio degli incantesimi, oltre alle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    85.8,
+    141.7,
+    282.5,
+    152.3
+   ],
+   "size": 8.8,
+   "testo": "descrizioni degli incantesimi piùcomuni nel mondo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    85.8,
+    133.7,
+    285.0,
+    163.4
+   ],
+   "size": 8.8,
+   "testo": "di DUNGEONS & DRAGONS. Questi incantesimi sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    163.8,
+    283.2,
+    174.4
+   ],
+   "size": 8.8,
+   "testo": "utilizzati da molti privilegi di classe, oggetti magici e mostri.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    184.6,
+    257.1,
+    201.3
+   ],
+   "size": 12.9,
+   "testo": "OTTENERE INCANTESIMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    202.9,
+    280.3,
+    213.5
+   ],
+   "size": 8.8,
+   "testo": "Prima che un personaggio possa lanciare un incantesimo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.1,
+    213.9,
+    279.9,
+    224.4
+   ],
+   "size": 8.8,
+   "testo": "deve averlo preparato e ben chiaro in mente, oppure deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    224.9,
+    282.0,
+    235.4
+   ],
+   "size": 8.8,
+   "testo": "avere accesso all'incantesimo in questione custodito in un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    235.9,
+    270.8,
+    246.4
+   ],
+   "size": 8.8,
+   "testo": "oggetto magico, come una pergamenamagica. I privilegi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    246.8,
+    272.9,
+    257.4
+   ],
+   "size": 8.8,
+   "testo": "del personaggio determinano il tipo di incantesimi a cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    257.8,
+    275.2,
+    268.4
+   ],
+   "size": 8.8,
+   "testo": "ha accesso (se presenti), se ha alcuni incantesimi sempre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    268.9,
+    270.6,
+    279.5
+   ],
+   "size": 8.8,
+   "testo": "preparati e se può modificare la lista di incantesimi che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    279.9,
+    108.2,
+    290.5
+   ],
+   "size": 8.8,
+   "testo": "ha preparato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    300.0,
+    237.7,
+    313.1
+   ],
+   "size": 9.7,
+   "testo": "PREPARARE GLI INCANTESIMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    316.5,
+    260.6,
+    327.0
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio possiede una lista di incantesimi di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    325.3,
+    277.6,
+    338.0
+   ],
+   "size": 8.8,
+   "testo": "1° livello o superiore da preparare, il suo privilegio Incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    338.4,
+    282.3,
+    349.0
+   ],
+   "size": 8.8,
+   "testo": "tesimi specifica quando può modificare la lista e il numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    349.4,
+    272.4,
+    360.0
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi che può cambiare, come riepilogato nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    360.3,
+    247.6,
+    370.9
+   ],
+   "size": 8.8,
+   "testo": "tabella Preparazione degli incantesimi per classe.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    383.1,
+    283.5,
+    393.8
+   ],
+   "size": 10.6,
+   "testo": "PREPARAZIONE DEGLI INCANTESIMI PER CLASSE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    232.4,
+    399.1,
+    274.8,
+    408.3
+   ],
+   "size": 8.2,
+   "testo": "Numero di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.1,
+    410.0,
+    84.7,
+    419.2
+   ],
+   "size": 8.2,
+   "testo": "Classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.9,
+    410.0,
+    185.5,
+    419.3
+   ],
+   "size": 8.2,
+   "testo": "Modifica quando...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    230.6,
+    410.1,
+    276.2,
+    419.3
+   ],
+   "size": 8.2,
+   "testo": "incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.5,
+    423.9,
+    82.8,
+    433.5
+   ],
+   "size": 8.4,
+   "testo": "Bardo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.7,
+    424.0,
+    191.2,
+    433.6
+   ],
+   "size": 8.4,
+   "testo": "Acquisisce un livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.5,
+    424.1,
+    263.1,
+    433.7
+   ],
+   "size": 8.4,
+   "testo": "Uno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    438.4,
+    90.7,
+    448.0
+   ],
+   "size": 8.4,
+   "testo": "Chierico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.0,
+    438.5,
+    213.0,
+    448.1
+   ],
+   "size": 8.4,
+   "testo": "Completa un riposo lungo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    234.6,
+    438.6,
+    272.1,
+    448.2
+   ],
+   "size": 8.4,
+   "testo": "Qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.3,
+    453.0,
+    87.1,
+    462.6
+   ],
+   "size": 8.4,
+   "testo": "Druido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.1,
+    453.1,
+    213.0,
+    462.7
+   ],
+   "size": 8.4,
+   "testo": "Completa un riposo lungo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    234.6,
+    453.1,
+    272.1,
+    462.8
+   ],
+   "size": 8.4,
+   "testo": "Qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.5,
+    467.5,
+    81.1,
+    477.2
+   ],
+   "size": 8.4,
+   "testo": "Mago",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.0,
+    467.6,
+    213.0,
+    477.2
+   ],
+   "size": 8.4,
+   "testo": "Completa un riposo lungo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    234.5,
+    467.8,
+    272.0,
+    477.4
+   ],
+   "size": 8.4,
+   "testo": "Qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.4,
+    482.1,
+    93.1,
+    491.7
+   ],
+   "size": 8.4,
+   "testo": "Paladino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.0,
+    482.2,
+    213.0,
+    491.8
+   ],
+   "size": 8.4,
+   "testo": "Completa un riposo lungo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.5,
+    482.3,
+    262.9,
+    491.9
+   ],
+   "size": 8.4,
+   "testo": "Uno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    496.7,
+    87.2,
+    506.4
+   ],
+   "size": 8.4,
+   "testo": "Ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    112.0,
+    496.9,
+    213.0,
+    506.5
+   ],
+   "size": 8.4,
+   "testo": "Completa un riposo lungo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.5,
+    496.9,
+    262.9,
+    506.6
+   ],
+   "size": 8.4,
+   "testo": "Uno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    511.4,
+    94.1,
+    521.0
+   ],
+   "size": 8.4,
+   "testo": "Stregone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.7,
+    511.4,
+    191.1,
+    521.1
+   ],
+   "size": 8.4,
+   "testo": "Acquisisce un livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.5,
+    511.6,
+    262.9,
+    521.2
+   ],
+   "size": 8.4,
+   "testo": "Uno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    526.0,
+    90.6,
+    535.6
+   ],
+   "size": 8.4,
+   "testo": "Warlock",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.7,
+    526.0,
+    191.1,
+    535.7
+   ],
+   "size": 8.4,
+   "testo": "Acquisisce un livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.5,
+    526.1,
+    262.9,
+    535.8
+   ],
+   "size": 8.4,
+   "testo": "Uno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    543.8,
+    273.6,
+    554.4
+   ],
+   "size": 8.8,
+   "testo": "Quasi tutti i mostri in grado di lanciare incantesimi non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    535.7,
+    280.8,
+    565.4
+   ],
+   "size": 8.8,
+   "testo": "modificano la loro lista di incantesimi preparati, ma il DM",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    565.8,
+    178.8,
+    576.4
+   ],
+   "size": 8.8,
+   "testo": "ha la libertà di ritoccare le liste.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    585.9,
+    260.8,
+    599.0
+   ],
+   "size": 9.7,
+   "testo": "INCANTESIMI SEMPRE PREPARATI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    602.3,
+    271.1,
+    612.9
+   ],
+   "size": 8.8,
+   "testo": "Certi privilegi possono fornire al personaggio un incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    613.6,
+    277.7,
+    624.2
+   ],
+   "size": 8.8,
+   "testo": "tesimo sempre preparato. Se il personaggio ha anche una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    624.6,
+    269.7,
+    635.1
+   ],
+   "size": 8.8,
+   "testo": "lista di incantesimi preparati che può modificare, il suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    635.5,
+    276.9,
+    646.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimo sempre preparato non viene conteggiato nel",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    646.6,
+    185.0,
+    657.2
+   ],
+   "size": 8.8,
+   "testo": "numero di incantesimi sulla lista.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    671.5,
+    240.4,
+    682.2
+   ],
+   "size": 10.6,
+   "testo": "LANCIARE INCANTESIMI IN ARMATURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    685.2,
+    267.9,
+    694.8
+   ],
+   "size": 8.4,
+   "testo": "Un incantatore deve essere competente nell'armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    696.1,
+    269.4,
+    705.7
+   ],
+   "size": 8.4,
+   "testo": "che indossa per poter lanciare un incantesimo mentre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.2,
+    707.3,
+    262.1,
+    716.9
+   ],
+   "size": 8.4,
+   "testo": "la indossa. In caso contrario, sarà troppo ostacolato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.4,
+    718.1,
+    253.6,
+    727.7
+   ],
+   "size": 8.4,
+   "testo": "dalla sua armatura per poter lanciare incantesimi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    121.5,
+    536.6,
+    138.2
+   ],
+   "size": 12.9,
+   "testo": "LANCIARE GLI INCANTESIMI",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.7,
+    139.7,
+    518.2,
+    150.3
+   ],
+   "size": 8.8,
+   "testo": "La descrizione di ogni incantesimo contiene una serie",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    150.7,
+    520.3,
+    161.3
+   ],
+   "size": 8.8,
+   "testo": "di voci con i dettagli necessari al lancio. Le sezioni che",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    161.8,
+    516.3,
+    172.3
+   ],
+   "size": 8.8,
+   "testo": "seguono spiegano ciascuna delle voci elencate dopo il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    172.8,
+    399.1,
+    183.3
+   ],
+   "size": 8.8,
+   "testo": "nome dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    192.4,
+    485.2,
+    206.0
+   ],
+   "size": 9.7,
+   "testo": "LIVELLO DELL'INCANTESIMO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    209.4,
+    522.9,
+    220.0
+   ],
+   "size": 8.8,
+   "testo": "Ogni incantesimo ha un livello compreso tra O e 9, indi­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    220.4,
+    533.2,
+    231.0
+   ],
+   "size": 8.8,
+   "testo": "cato nella relativa descrizione. Il livello di un incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    231.4,
+    522.2,
+    242.0
+   ],
+   "size": 8.8,
+   "testo": "è un indicatore della sua potenza. I trucchetti, semplici",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    242.4,
+    530.5,
+    252.9
+   ],
+   "size": 8.8,
+   "testo": "incantesimi che possono essere lanciati quasi automatica­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    253.4,
+    534.2,
+    263.9
+   ],
+   "size": 8.8,
+   "testo": "mente, sono di livello O. Le regole per ogni classe da incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    264.5,
+    527.4,
+    275.0
+   ],
+   "size": 8.8,
+   "testo": "tatore indicano quando i membri di tali classi ottengono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.3,
+    275.5,
+    476.1,
+    286.0
+   ],
+   "size": 8.8,
+   "testo": "accesso a incantesimi di determinati livelli.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    295.8,
+    411.7,
+    307.2
+   ],
+   "size": 11.2,
+   "testo": "SLOT INCANTESIMO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    307.3,
+    536.6,
+    317.8
+   ],
+   "size": 8.8,
+   "testo": "Lanciare incantesimi è faticoso, quindi un incantatore può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    318.2,
+    529.3,
+    328.8
+   ],
+   "size": 8.8,
+   "testo": "lanciare solo un numero limitato di incantesimi di livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    327.1,
+    536.4,
+    339.8
+   ],
+   "size": 8.8,
+   "testo": "superiore al 1° prima di riposare. Gli slot incantesimo sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    340.2,
+    522.5,
+    350.7
+   ],
+   "size": 8.8,
+   "testo": "il modo in cui viene rappresentato il potenziale magico",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    351.1,
+    527.1,
+    361.7
+   ],
+   "size": 8.8,
+   "testo": "di un incantatore. Ogni classe da incantatore fornisce ai",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    362.1,
+    520.8,
+    372.7
+   ],
+   "size": 8.8,
+   "testo": "suoi membri un numero limitato di slot incantesimo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    373.0,
+    524.6,
+    383.6
+   ],
+   "size": 8.8,
+   "testo": "determinati livelli di incantesimo. Ad esempio, un mago",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    382.0,
+    530.2,
+    394.7
+   ],
+   "size": 8.8,
+   "testo": "di 3° livello ha quattro slot incantesimo di 1° livello e due",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    393.0,
+    421.5,
+    405.6
+   ],
+   "size": 8.8,
+   "testo": "slot incantesimo di 2° livello.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    406.2,
+    536.1,
+    416.7
+   ],
+   "size": 8.8,
+   "testo": "Quando un personaggio lancia un incantesimo, consuma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    417.2,
+    525.6,
+    427.8
+   ],
+   "size": 8.8,
+   "testo": "uno slot incantesimo di livello pari o superiore a quell'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    428.2,
+    529.6,
+    438.7
+   ],
+   "size": 8.8,
+   "testo": "cantesimo, a tutti gli effetti \"riempiendo\" uno slot con l'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    439.1,
+    533.1,
+    449.7
+   ],
+   "size": 8.8,
+   "testo": "cantesimo. Uno slot incantesimo è paragonabile a un solco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    450.1,
+    523.9,
+    460.7
+   ],
+   "size": 8.8,
+   "testo": "di un dato spessore: piccolo nel caso di uno slot incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    459.0,
+    523.2,
+    471.7
+   ],
+   "size": 8.8,
+   "testo": "simo di 1° livello, più grande nel caso di un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    470.0,
+    537.0,
+    482.7
+   ],
+   "size": 8.8,
+   "testo": "di livello superiore. Un incantesimo di 1° livello può entrare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    483.0,
+    528.3,
+    493.6
+   ],
+   "size": 8.8,
+   "testo": "in uno slot di qualsiasi dimensione, ma un incantesimo di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    492.0,
+    528.6,
+    504.8
+   ],
+   "size": 8.8,
+   "testo": "2° livello entrerà solo in uno slot di 2° livello o superiore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    503.0,
+    535.4,
+    515.8
+   ],
+   "size": 8.8,
+   "testo": "Quindi, quando un mago di 3° livello lancia dardo incantato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    514.0,
+    532.9,
+    526.7
+   ],
+   "size": 8.8,
+   "testo": "(incantesimo di 1° livello), spende uno dei suoi quattro slot",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    525.0,
+    492.0,
+    537.8
+   ],
+   "size": 8.8,
+   "testo": "incantesimo di 1° livello e gliene rimangono tre.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    538.2,
+    513.3,
+    548.7
+   ],
+   "size": 8.8,
+   "testo": "Completare un riposo lungo ripristina tutti gli slot",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    549.2,
+    379.7,
+    559.7
+   ],
+   "size": 8.8,
+   "testo": "incantesimo spesi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    569.6,
+    522.3,
+    580.9
+   ],
+   "size": 11.2,
+   "testo": "LANCIARE UN INCANTESIMO SENZA SLOT",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    580.9,
+    527.9,
+    591.5
+   ],
+   "size": 8.8,
+   "testo": "Esistono diversi modi per lanciare un incantesimo senza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    591.9,
+    429.2,
+    602.5
+   ],
+   "size": 8.8,
+   "testo": "spendere uno slot incantesimo:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    608.5,
+    533.3,
+    619.0
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti. I trucchetti vengono lanciati senza usare uno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    619.5,
+    382.5,
+    630.0
+   ],
+   "size": 8.8,
+   "testo": "slot incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    630.5,
+    522.9,
+    641.1
+   ],
+   "size": 8.8,
+   "testo": "Rituali. Alcuni incantesimi hanno il descrittore rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    641.5,
+    513.9,
+    652.1
+   ],
+   "size": 8.8,
+   "testo": "alla voce Tempo di lancio. Un tale incantesimo può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    652.5,
+    516.7,
+    663.0
+   ],
+   "size": 8.8,
+   "testo": "essere lanciato seguendo le normali regole di lancio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    663.5,
+    514.5,
+    674.0
+   ],
+   "size": 8.8,
+   "testo": "degli incantesimi, oppure può essere lanciato come",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    674.4,
+    525.8,
+    684.9
+   ],
+   "size": 8.8,
+   "testo": "rituale. La versione rituale di un incantesimo richiede",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    685.4,
+    531.4,
+    695.9
+   ],
+   "size": 8.8,
+   "testo": "10 minuti in più rispetto alla norma per essere lanciata,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    696.5,
+    529.7,
+    707.0
+   ],
+   "size": 8.8,
+   "testo": "ma non consuma uno slot incantesimo. Per lanciare un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    707.4,
+    523.7,
+    717.9
+   ],
+   "size": 8.8,
+   "testo": "incantesimo come rituale, un incantatore deve averlo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    718.4,
+    356.9,
+    729.0
+   ],
+   "size": 8.8,
+   "testo": "preparato.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

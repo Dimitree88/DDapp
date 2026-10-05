@@ -1,0 +1,985 @@
+{
+ "pagina_pdf": 321,
+ "pagina_stampata": 318,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "318 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   134,
+   -1,
+   589,
+   375
+  ],
+  [
+   47,
+   390,
+   542,
+   724
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.0,
+    119.6,
+    228.0,
+    130.1
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore invoca uno spirito demoniaco,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    130.6,
+    249.5,
+    141.1
+   ],
+   "size": 8.8,
+   "testo": "che si manifesta in uno spazio libero entro gittata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    141.6,
+    246.1,
+    152.1
+   ],
+   "size": 8.8,
+   "testo": "che egli sia in grado di vedere e utilizza la scheda",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    152.5,
+    252.8,
+    163.1
+   ],
+   "size": 8.8,
+   "testo": "delle statistiche dello Spirito Demoniaco. Quando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    163.5,
+    242.7,
+    174.1
+   ],
+   "size": 8.8,
+   "testo": "questo incantesimo viene lanciato, l'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    174.6,
+    252.2,
+    185.2
+   ],
+   "size": 8.8,
+   "testo": "può scegliere una creatura demoniaca tra demone,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    185.6,
+    242.7,
+    196.2
+   ],
+   "size": 8.8,
+   "testo": "diavolo o yugoloth. La creatura ha le sembianze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    196.6,
+    237.9,
+    207.2
+   ],
+   "size": 8.8,
+   "testo": "della creatura demoniaca selezionata e, in base",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    207.7,
+    224.8,
+    218.3
+   ],
+   "size": 8.8,
+   "testo": "a questa scelta, vengono determinati alcuni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    218.7,
+    215.5,
+    229.3
+   ],
+   "size": 8.8,
+   "testo": "dettagli nella sua scheda delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    229.7,
+    238.8,
+    240.2
+   ],
+   "size": 8.8,
+   "testo": "La creatura scompare quando scende a 0 punti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    240.6,
+    234.0,
+    251.2
+   ],
+   "size": 8.8,
+   "testo": "ferita o quando l'incantesimo termina ed è un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    251.7,
+    211.4,
+    262.2
+   ],
+   "size": 8.8,
+   "testo": "alleato per il personaggio e i suoi alleati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    262.7,
+    227.4,
+    273.2
+   ],
+   "size": 8.8,
+   "testo": "In combattimento, la creatura ha lo stesso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    273.7,
+    224.1,
+    284.3
+   ],
+   "size": 8.8,
+   "testo": "punteggio di iniziativa dell'incantatore, ma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    284.8,
+    223.8,
+    295.3
+   ],
+   "size": 8.8,
+   "testo": "inizia il turno immediatamente dopo il suo,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    295.8,
+    227.6,
+    306.3
+   ],
+   "size": 8.8,
+   "testo": "obbedendo ai suoi comandi verbali (nessuna",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    306.7,
+    220.7,
+    317.3
+   ],
+   "size": 8.8,
+   "testo": "azione richiesta da parte dell'incantatore).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    317.7,
+    244.3,
+    328.3
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore non pronuncia comandi verbali,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    328.7,
+    235.6,
+    339.3
+   ],
+   "size": 8.8,
+   "testo": "la creatura compie l'azione di Schivata e usa il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    339.7,
+    211.8,
+    350.3
+   ],
+   "size": 8.8,
+   "testo": "suo movimento per sottrarsi al pericolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    352.4,
+    257.4,
+    361.0
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    361.7,
+    257.7,
+    372.3
+   ],
+   "size": 8.8,
+   "testo": "Usa il livello dello slot incantesimo relativo al livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    372.7,
+    234.6,
+    383.3
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo nella scheda delle statistiche.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    397.3,
+    181.3,
+    410.9
+   ],
+   "size": 10.4,
+   "testo": "SPIRITO DEMONIACO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    415.7,
+    156.0,
+    424.9
+   ],
+   "size": 9.2,
+   "testo": "Immondo Grande, neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    430.1,
+    181.5,
+    439.7
+   ],
+   "size": 8.4,
+   "testo": "CA 12 + il livello dell'incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    441.1,
+    283.3,
+    450.8
+   ],
+   "size": 8.4,
+   "testo": "PF 50 (solo demone) o 40 (solo diavolo) o 60 (solo yugoloth)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.6,
+    452.1,
+    236.1,
+    461.7
+   ],
+   "size": 8.4,
+   "testo": "+ 15 per ogni livello di incantesimo sopra il 6°",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    462.9,
+    256.7,
+    472.6
+   ],
+   "size": 8.4,
+   "testo": "Velocità 12 m; scalata 12 m (solo demone); volo 18 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    473.9,
+    113.4,
+    483.5
+   ],
+   "size": 8.4,
+   "testo": "(solo diavolo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    93.0,
+    487.4,
+    126.4,
+    494.8
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    497.2,
+    102.0,
+    506.8
+   ],
+   "size": 8.4,
+   "testo": "FoR 13 +1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.0,
+    497.2,
+    120.4,
+    506.8
+   ],
+   "size": 8.4,
+   "testo": "+1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    511.5,
+    122.8,
+    521.1
+   ],
+   "size": 8.4,
+   "testo": "INT 10 +0 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    530.4,
+    119.8,
+    540.0
+   ],
+   "size": 8.4,
+   "testo": "Resistenze fuoco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    170.7,
+    487.5,
+    203.9,
+    494.9
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.3,
+    497.3,
+    181.2,
+    506.9
+   ],
+   "size": 8.4,
+   "testo": "DES 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.6,
+    497.3,
+    199.9,
+    506.9
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    133.5,
+    511.5,
+    200.7,
+    521.1
+   ],
+   "size": 8.4,
+   "testo": "SAC 10 +0 +0",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    541.4,
+    165.3,
+    551.1
+   ],
+   "size": 8.4,
+   "testo": "Immunità avvelenato, veleno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    248.3,
+    487.5,
+    281.8,
+    494.9
+   ],
+   "size": 7.4,
+   "testo": "MOD SALV",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    211.5,
+    497.2,
+    258.9,
+    506.8
+   ],
+   "size": 8.4,
+   "testo": "Cos 15 +2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.3,
+    497.2,
+    277.4,
+    506.8
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    211.8,
+    511.4,
+    259.1,
+    521.0
+   ],
+   "size": 8.4,
+   "testo": "CAR 16 +3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    266.3,
+    511.4,
+    277.4,
+    521.0
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    552.4,
+    233.9,
+    562.0
+   ],
+   "size": 8.4,
+   "testo": "Sensi Percezione passiva 10, scurovisione 18 m",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    563.4,
+    224.1,
+    573.0
+   ],
+   "size": 8.4,
+   "testo": "Lingue Abissale, Infernale, telepatia 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    574.4,
+    262.8,
+    584.0
+   ],
+   "size": 8.4,
+   "testo": "GS nessuno (PE 0; BC pari al bonus di competenza del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    585.3,
+    111.7,
+    594.9
+   ],
+   "size": 8.4,
+   "testo": "personaggio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    596.4,
+    87.8,
+    614.6
+   ],
+   "size": 8.6,
+   "testo": "TRATTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    619.1,
+    260.5,
+    628.7
+   ],
+   "size": 8.4,
+   "testo": "Resistenza alla magia. Lo spirito dispone di vantaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    630.6,
+    260.7,
+    640.2
+   ],
+   "size": 8.4,
+   "testo": "ai tiri salvezza contro incantesimi e altri effetti magici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    646.6,
+    274.2,
+    656.3
+   ],
+   "size": 8.4,
+   "testo": "Spasmi di morte (solo demone). Quando lo spirito scende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    658.1,
+    276.4,
+    667.8
+   ],
+   "size": 8.4,
+   "testo": "a 0 punti ferita o l'incantesimo termina, lo spirito esplode.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    669.6,
+    277.1,
+    679.3
+   ],
+   "size": 9.2,
+   "testo": "Tiro salvezza su Destrezza: CD pari alla CD del tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    681.1,
+    277.2,
+    690.7
+   ],
+   "size": 8.4,
+   "testo": "sull'incantesimo, ogni creatura in un'emanazione di 3 m di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    692.5,
+    282.4,
+    702.3
+   ],
+   "size": 9.2,
+   "testo": "cui lo spirito è il punto di origine. Fallimento: 2d10 più il livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    704.1,
+    281.4,
+    713.8
+   ],
+   "size": 9.2,
+   "testo": "dell'incantesimo danni da fuoco. Successo: danni dimezzati.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    430.1,
+    511.6,
+    439.8
+   ],
+   "size": 8.4,
+   "testo": "Vista del diavolo (solo diavolo). L'oscurità magica non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    441.6,
+    448.7,
+    451.3
+   ],
+   "size": 8.4,
+   "testo": "ostacola la scurovisione dello spirito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    452.0,
+    344.8,
+    470.2
+   ],
+   "size": 8.6,
+   "testo": "AZIONI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    474.5,
+    532.7,
+    484.1
+   ],
+   "size": 8.4,
+   "testo": "Multiattacco. Lo spirito effettua u n numero d i attacchi pari",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    486.1,
+    521.3,
+    495.7
+   ],
+   "size": 8.4,
+   "testo": "alla metà del livello di quest'incantesimo (arrotondando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    497.5,
+    352.5,
+    507.1
+   ],
+   "size": 8.4,
+   "testo": "per difetto).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    513.6,
+    523.1,
+    523.3
+   ],
+   "size": 9.2,
+   "testo": "Artigli (solo yugoloth). Tiro per colpire in mischia: il bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    525.1,
+    517.1,
+    534.7
+   ],
+   "size": 8.4,
+   "testo": "equivale al modificatore di attacco dell'incantesimo del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    536.5,
+    530.4,
+    546.2
+   ],
+   "size": 9.2,
+   "testo": "personaggio, portata di 1,5 metri. Colpo: 1d8 + 3 + il livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    548.1,
+    515.1,
+    557.7
+   ],
+   "size": 8.4,
+   "testo": "dell'incantesimo danni taglienti. Subito dopo l'attacco,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    559.5,
+    515.3,
+    569.1
+   ],
+   "size": 8.4,
+   "testo": "sia in caso di successo che di fallimento, lo spirito può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    571.0,
+    518.2,
+    580.6
+   ],
+   "size": 8.4,
+   "testo": "teletrasportarsi di un massimo di 9 metri in uno spazio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    582.5,
+    425.0,
+    592.1
+   ],
+   "size": 8.4,
+   "testo": "libero che è in grado di vedere.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    598.9,
+    512.4,
+    608.1
+   ],
+   "size": 9.2,
+   "testo": "Colpo ardente (solo diavolo). Tiro per colpire in mischia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    610.0,
+    519.4,
+    619.7
+   ],
+   "size": 9.2,
+   "testo": "o a distanza: il bonus equivale al modificatore di attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    621.6,
+    528.8,
+    631.2
+   ],
+   "size": 8.4,
+   "testo": "dell'incantesimo, portata di 1,5 metri o gittata di 45 metri.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    633.1,
+    526.1,
+    642.8
+   ],
+   "size": 9.2,
+   "testo": "Colpo: 2d6 + 3 + il livello dell'incantesimo danni da fuoco.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    649.1,
+    520.4,
+    658.8
+   ],
+   "size": 9.2,
+   "testo": "Morso (solo demone). Tiro per colpire in mischia: il bonus",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    660.6,
+    516.9,
+    670.2
+   ],
+   "size": 8.4,
+   "testo": "equivale al modificatore di attacco dell'incantesimo del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    672.1,
+    534.0,
+    681.8
+   ],
+   "size": 9.2,
+   "testo": "personaggio, portata di 1,5 metri. Colpo: 1d12 + 3 + il livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    683.5,
+    432.4,
+    693.2
+   ],
+   "size": 8.4,
+   "testo": "dell'incantesimo danni ne.erotici.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

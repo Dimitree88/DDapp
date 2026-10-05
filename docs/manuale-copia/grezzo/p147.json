@@ -1,0 +1,1213 @@
+{
+ "pagina_pdf": 147,
+ "pagina_stampata": 144,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "144 / CAPITOLO 3 j CLASSI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   382,
+   462
+  ],
+  [
+   841,
+   148,
+   1328,
+   635
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    51.9,
+    445.6,
+    249.3,
+    456.3
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA RANGER DI 4° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    460.3,
+    104.8,
+    470.9
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.5,
+    460.3,
+    206.4,
+    471.0
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.6,
+    460.3,
+    278.8,
+    471.0
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    475.8,
+    117.0,
+    485.0
+   ],
+   "size": 9.2,
+   "testo": "Dominare bestie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.9,
+    475.3,
+    239.1,
+    484.9
+   ],
+   "size": 8.4,
+   "testo": "Ammaliamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    257.5,
+    475.8,
+    264.3,
+    484.9
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    490.4,
+    143.5,
+    499.6
+   ],
+   "size": 9.2,
+   "testo": "Evoca creature boschive",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.7,
+    489.9,
+    223.7,
+    499.5
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    257.5,
+    490.4,
+    264.3,
+    499.4
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    504.9,
+    136.4,
+    514.1
+   ],
+   "size": 9.2,
+   "testo": "Libertà di movimento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.9,
+    504.4,
+    226.3,
+    514.1
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    519.6,
+    123.4,
+    528.8
+   ],
+   "size": 9.2,
+   "testo": "Localizza creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.7,
+    519.1,
+    225.9,
+    528.7
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    257.5,
+    519.7,
+    264.3,
+    528.7
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    534.1,
+    106.2,
+    543.3
+   ],
+   "size": 9.2,
+   "testo": "Pelle di pietra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.8,
+    533.7,
+    237.2,
+    543.3
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.1,
+    533.7,
+    270.3,
+    543.4
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    548.7,
+    139.4,
+    557.9
+   ],
+   "size": 9.2,
+   "testo": "Rampicante afferrante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.7,
+    548.3,
+    223.8,
+    557.9
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    257.5,
+    548.7,
+    264.3,
+    557.8
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    563.3,
+    133.6,
+    572.5
+   ],
+   "size": 9.2,
+   "testo": "Richiama elementale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.6,
+    562.8,
+    223.7,
+    572.4
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    251.1,
+    562.8,
+    270.3,
+    572.5
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    586.9,
+    249.4,
+    597.5
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DA RANGER DI 5° LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    601.6,
+    104.5,
+    612.3
+   ],
+   "size": 10.6,
+   "testo": "Incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.4,
+    601.6,
+    206.3,
+    612.3
+   ],
+   "size": 10.6,
+   "testo": "Scuola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    617.3,
+    149.4,
+    626.5
+   ],
+   "size": 9.2,
+   "testo": "Comunione con la natura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.6,
+    616.8,
+    225.7,
+    626.4
+   ],
+   "size": 8.4,
+   "testo": "Divinazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    631.9,
+    135.9,
+    641.1
+   ],
+   "size": 9.2,
+   "testo": "Evoca pioggia di armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.6,
+    631.5,
+    223.5,
+    641.1
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    646.5,
+    108.9,
+    655.7
+   ],
+   "size": 9.2,
+   "testo": "Faretra rapida",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.6,
+    646.1,
+    236.9,
+    655.7
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    661.1,
+    124.4,
+    670.3
+   ],
+   "size": 9.2,
+   "testo": "Ristorare superiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    177.6,
+    660.6,
+    226.2,
+    670.2
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    675.7,
+    128.1,
+    684.9
+   ],
+   "size": 9.2,
+   "testo": "Traslazione arborea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.5,
+    675.2,
+    223.4,
+    684.8
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    690.2,
+    128.5,
+    699.4
+   ],
+   "size": 9.2,
+   "testo": "Turbine implacabile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    178.5,
+    689.7,
+    223.5,
+    699.4
+   ],
+   "size": 8.4,
+   "testo": "Evocazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    244.5,
+    601.7,
+    278.7,
+    612.4
+   ],
+   "size": 10.6,
+   "testo": "Speciale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    258.0,
+    616.8,
+    264.3,
+    626.5
+   ],
+   "size": 8.4,
+   "testo": "R",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    251.0,
+    646.1,
+    270.2,
+    655.7
+   ],
+   "size": 8.4,
+   "testo": "C,M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    256.7,
+    660.6,
+    265.0,
+    670.2
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    257.4,
+    675.7,
+    264.2,
+    684.7
+   ],
+   "size": 6.9,
+   "testo": "e",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    256.7,
+    689.7,
+    265.0,
+    699.3
+   ],
+   "size": 8.4,
+   "testo": "M",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    35.8,
+    521.4,
+    52.4
+   ],
+   "size": 12.9,
+   "testo": "SOTTOCLASSI DEL RANGER",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    54.1,
+    526.2,
+    64.7
+   ],
+   "size": 8.8,
+   "testo": "Le sottoclassi del ranger sono specializzazioni che confe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    65.1,
+    526.7,
+    75.7
+   ],
+   "size": 8.8,
+   "testo": "riscono dei privilegi a determinati livelli da ranger, come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    76.1,
+    524.0,
+    86.7
+   ],
+   "size": 8.8,
+   "testo": "specificato in ognuna di esse. In questa sezione vengono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    87.1,
+    510.6,
+    97.7
+   ],
+   "size": 8.8,
+   "testo": "descritte le seguenti sottoclassi: Signore delle Bestie,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    98.1,
+    526.6,
+    108.7
+   ],
+   "size": 8.8,
+   "testo": "Viandante Fatato, Cacciatore delle Tenebre e Cacciatore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    118.1,
+    386.1,
+    131.2
+   ],
+   "size": 9.7,
+   "testo": "CACCIATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    135.7,
+    478.7,
+    145.1
+   ],
+   "size": 8.6,
+   "testo": "Proteggilanatura elepersone dalla distruzione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    149.3,
+    525.5,
+    159.8
+   ],
+   "size": 8.8,
+   "testo": "Bracchi la preda sia nelle terre selvagge che in ogni altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    160.4,
+    509.7,
+    170.9
+   ],
+   "size": 8.8,
+   "testo": "luogo, utilizzando le tue abilità di cacciatore per pro­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    171.4,
+    521.6,
+    182.0
+   ],
+   "size": 8.8,
+   "testo": "teggere la natura e le persone dalle forze che intendono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    182.4,
+    355.9,
+    192.9
+   ],
+   "size": 8.8,
+   "testo": "distruggerle.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    202.8,
+    494.9,
+    214.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: PREDA DEL CACCIATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    214.3,
+    522.7,
+    224.9
+   ],
+   "size": 8.8,
+   "testo": "Il ranger ottiene una delle seguenti opzioni di privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    225.2,
+    530.0,
+    235.8
+   ],
+   "size": 8.8,
+   "testo": "a scelta. Ogni volta che completa un riposo breve o lungo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    236.2,
+    487.1,
+    246.8
+   ],
+   "size": 8.8,
+   "testo": "può sostituire l'opzione selezionata con l'altra.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    247.2,
+    531.6,
+    257.8
+   ],
+   "size": 8.8,
+   "testo": "Devastatore dell'orda. Una volta per turno quando il ran­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    258.3,
+    531.8,
+    268.8
+   ],
+   "size": 8.8,
+   "testo": "ger effettua un attacco con un'arma, può sferrare un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    269.3,
+    519.3,
+    279.8
+   ],
+   "size": 8.8,
+   "testo": "attacco con la stessa arma contro una creatura diversa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    280.4,
+    525.2,
+    290.9
+   ],
+   "size": 8.8,
+   "testo": "che sia entro 1,5 metri dal bersaglio originale e a portata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    291.4,
+    510.3,
+    301.9
+   ],
+   "size": 8.8,
+   "testo": "dell'arma, e che non abbia già attaccato nel corso del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.3,
+    302.3,
+    366.7,
+    312.9
+   ],
+   "size": 8.8,
+   "testo": "turno corrente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    313.3,
+    527.6,
+    323.9
+   ],
+   "size": 8.8,
+   "testo": "Sterminatore di colossi. La tenacia del ranger scoraggia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    324.3,
+    515.7,
+    334.9
+   ],
+   "size": 8.8,
+   "testo": "anche i nemici più insistenti. Quando colpisce una cre­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    335.2,
+    521.1,
+    345.8
+   ],
+   "size": 8.8,
+   "testo": "atura con un'arma, questa infligge 1d8 danni aggiuntivi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    346.3,
+    529.8,
+    356.9
+   ],
+   "size": 8.8,
+   "testo": "al bersaglio se gli mancano dei punti ferita. Può infliggere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.3,
+    357.3,
+    475.7,
+    367.8
+   ],
+   "size": 8.8,
+   "testo": "questi danni extra solo una volta per turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    377.7,
+    511.1,
+    389.0
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: SAPIENZA DEL CACCIATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    389.0,
+    522.3,
+    399.6
+   ],
+   "size": 8.8,
+   "testo": "Il cacciatore può fare appello alle forze della natura per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    400.1,
+    519.4,
+    410.7
+   ],
+   "size": 8.8,
+   "testo": "scoprire punti di forza e debolezza della propria preda.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    411.2,
+    514.6,
+    421.8
+   ],
+   "size": 8.8,
+   "testo": "Se una creatura ha su di sé il marchio del cacciatore del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    422.2,
+    513.8,
+    432.7
+   ],
+   "size": 8.8,
+   "testo": "personaggio, questi saprà se il bersaglio ha immunità,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    433.1,
+    457.6,
+    443.7
+   ],
+   "size": 8.8,
+   "testo": "resistenze e vulnerabilità, e quali sono.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    453.5,
+    478.9,
+    464.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: TATTICHE DIFENSIVE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    464.9,
+    522.6,
+    475.5
+   ],
+   "size": 8.8,
+   "testo": "Il ranger ottiene una delle seguenti opzioni di privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    475.9,
+    530.1,
+    486.5
+   ],
+   "size": 8.8,
+   "testo": "a scelta. Ogni volta che completa un riposo breve o lungo,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    486.9,
+    487.0,
+    497.5
+   ],
+   "size": 8.8,
+   "testo": "può sostituire l'opzione selezionata con l'altra.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    497.9,
+    525.1,
+    508.5
+   ],
+   "size": 8.8,
+   "testo": "Difesa dal multiattacco. Se una creatura colpisce il ran­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    508.9,
+    529.5,
+    519.5
+   ],
+   "size": 8.8,
+   "testo": "ger con un tiro per colpire avrà svantaggio a tutti gli altri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    520.0,
+    531.2,
+    530.6
+   ],
+   "size": 8.8,
+   "testo": "tiri per colpire effettuati contro il ranger durante il turno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    530.9,
+    524.3,
+    541.5
+   ],
+   "size": 8.8,
+   "testo": "Sfuggire all'orda. Gli attacchi di opportunità effettuati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    541.9,
+    463.2,
+    552.5
+   ],
+   "size": 8.8,
+   "testo": "contro il personaggio hanno svantaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    562.4,
+    497.1,
+    573.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: PREDA DEL CACCIATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    573.0,
+    363.7,
+    584.4
+   ],
+   "size": 11.2,
+   "testo": "SUPERIORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    584.4,
+    531.6,
+    595.0
+   ],
+   "size": 8.8,
+   "testo": "Una volta per turno, quando il ranger infligge danni a una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    595.5,
+    520.0,
+    606.0
+   ],
+   "size": 8.8,
+   "testo": "creatura su cui è posto il suo marchio del cacciatore, può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    606.5,
+    529.5,
+    617.1
+   ],
+   "size": 8.8,
+   "testo": "infliggere i danni aggiuntivi dell'incantesimo anche a una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    617.5,
+    522.6,
+    628.1
+   ],
+   "size": 8.8,
+   "testo": "creatura nel suo campo visivo che si trovi entro 9 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    628.6,
+    383.3,
+    639.2
+   ],
+   "size": 8.8,
+   "testo": "dal primo bersaglio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    649.0,
+    502.5,
+    660.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: DIFESA DEL CACCIATORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    659.7,
+    363.6,
+    671.1
+   ],
+   "size": 11.2,
+   "testo": "SUPERIORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    671.2,
+    518.5,
+    681.7
+   ],
+   "size": 8.8,
+   "testo": "Quando il ranger subisce danni, può utilizzare una rea­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    682.1,
+    528.4,
+    692.7
+   ],
+   "size": 8.8,
+   "testo": "zione per ottenere resistenza a quel danno e ad altri dello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    693.1,
+    480.4,
+    703.7
+   ],
+   "size": 8.8,
+   "testo": "stesso tipo fino al termine del turno in corso.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

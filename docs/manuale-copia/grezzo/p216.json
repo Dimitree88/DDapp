@@ -1,0 +1,1237 @@
+{
+ "pagina_pdf": 216,
+ "pagina_stampata": 213,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 6 I EQUIPAGGIAMENTO / 213",
+ "immagini": [
+  [
+   519,
+   -1,
+   585,
+   74
+  ],
+  [
+   55,
+   622,
+   574,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    202.6,
+    22.2,
+    396.4,
+    43.7
+   ],
+   "size": 16.8,
+   "testo": "-.j CAPITOLO 6 \\",
+   "col": "P",
+   "corta": true
+  },
+  {
+   "bbox": [
+    138.2,
+    48.5,
+    460.8,
+    99.2
+   ],
+   "size": 29.9,
+   "testo": "EQUIPAGGIAMENTO",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    123.1,
+    74.7,
+    173.8
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.4,
+    101.7,
+    244.8,
+    130.9
+   ],
+   "size": 6.6,
+   "testo": "L GIUSTO EQUIPAGGIAMENTO PUÒ FARE LA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.2,
+    131.8,
+    271.4,
+    142.4
+   ],
+   "size": 8.8,
+   "testo": "differenza tra il successo e il fallimento degli avven­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.2,
+    142.8,
+    264.9,
+    153.4
+   ],
+   "size": 8.8,
+   "testo": "turieri. In questo capitolo troverai regole e prezzi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    154.0,
+    268.6,
+    164.5
+   ],
+   "size": 8.8,
+   "testo": "di armi, armature e altri pezzi di equipaggiamento che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    165.0,
+    278.3,
+    175.5
+   ],
+   "size": 8.8,
+   "testo": "i personaggi potrebbero acquistare o trovare. Sarà il DM",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    175.9,
+    283.3,
+    186.4
+   ],
+   "size": 8.8,
+   "testo": "a dirti se un negozio ha un determinato oggetto in vendita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    187.0,
+    196.0,
+    197.5
+   ],
+   "size": 8.8,
+   "testo": "e se è disponibile al prezzo indicato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.7,
+    207.8,
+    126.1,
+    224.5
+   ],
+   "size": 12.9,
+   "testo": "MONETE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    226.0,
+    257.6,
+    236.6
+   ],
+   "size": 8.8,
+   "testo": "Spesso i personaggi trovano monete durante le loro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    237.0,
+    276.2,
+    247.6
+   ],
+   "size": 8.8,
+   "testo": "avventure e possono spenderle in negozi, locande e altre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    247.9,
+    280.4,
+    258.5
+   ],
+   "size": 8.8,
+   "testo": "attività commerciali. Le monete hanno diverse denomina­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    259.1,
+    280.2,
+    269.6
+   ],
+   "size": 8.8,
+   "testo": "zioni in base al valore del materiale di cui sono composte.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    270.1,
+    268.0,
+    280.7
+   ],
+   "size": 8.8,
+   "testo": "Nella tabella Valore della moneta sono elencati i tipi di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    281.1,
+    263.0,
+    291.7
+   ],
+   "size": 8.8,
+   "testo": "monete e il relativo valore in monete d'oro, ovvero la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    292.1,
+    261.0,
+    302.7
+   ],
+   "size": 8.8,
+   "testo": "valuta principale del gioco. Per esempio, 100 monete",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    303.2,
+    204.5,
+    313.7
+   ],
+   "size": 8.8,
+   "testo": "di rame equivalgono a 1 moneta d'oro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    314.1,
+    277.7,
+    324.7
+   ],
+   "size": 8.8,
+   "testo": "Una moneta pesa circa dieci grammi, quindi cinquanta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.9,
+    325.0,
+    220.9,
+    335.6
+   ],
+   "size": 8.8,
+   "testo": "monete pesano circa mezzo chilogrammo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    347.8,
+    173.6,
+    358.5
+   ],
+   "size": 10.6,
+   "testo": "VALORE DELLA MONETA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    363.6,
+    89.8,
+    372.8
+   ],
+   "size": 8.2,
+   "testo": "Moneta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    377.6,
+    139.5,
+    387.2
+   ],
+   "size": 8.4,
+   "testo": "Moneta di rame (mr)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    392.2,
+    148.2,
+    401.8
+   ],
+   "size": 8.4,
+   "testo": "Moneta d'argento (ma)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    406.9,
+    155.0,
+    416.5
+   ],
+   "size": 8.4,
+   "testo": "Moneta di electrum (me)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    421.5,
+    132.4,
+    431.1
+   ],
+   "size": 8.4,
+   "testo": "Moneta d'oro (mo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    436.0,
+    148.0,
+    445.6
+   ],
+   "size": 8.4,
+   "testo": "Moneta di platino (mp)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    460.0,
+    100.9,
+    476.6
+   ],
+   "size": 12.9,
+   "testo": "ARMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    209.7,
+    363.7,
+    259.8,
+    372.9
+   ],
+   "size": 8.2,
+   "testo": "Valore in mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    223.5,
+    377.6,
+    246.0,
+    387.2
+   ],
+   "size": 8.4,
+   "testo": "1/100",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    226.0,
+    392.2,
+    244.8,
+    401.9
+   ],
+   "size": 8.4,
+   "testo": "1/10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    227.9,
+    406.9,
+    242.8,
+    416.5
+   ],
+   "size": 8.4,
+   "testo": "1/2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    232.0,
+    421.4,
+    236.4,
+    431.0
+   ],
+   "size": 8.4,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    229.7,
+    436.0,
+    241.3,
+    445.6
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    478.1,
+    280.8,
+    488.7
+   ],
+   "size": 8.8,
+   "testo": "Nella tabella Armi di questa sezione sono elencate le armi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    489.2,
+    282.3,
+    499.7
+   ],
+   "size": 8.8,
+   "testo": "principali del gioco. La tabella mostra costo e peso di ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    500.2,
+    178.2,
+    510.8
+   ],
+   "size": 8.8,
+   "testo": "arma, oltre ai seguenti dettagli:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    516.6,
+    275.4,
+    527.2
+   ],
+   "size": 8.8,
+   "testo": "Categoria. Ogni arma rientra in una categoria: semplice",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    527.6,
+    279.8,
+    538.2
+   ],
+   "size": 8.8,
+   "testo": "o da guerra. Le competenze nelle armi sono solitamente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    538.7,
+    281.2,
+    549.2
+   ],
+   "size": 8.8,
+   "testo": "legate a una di queste categorie; ad esempio, il personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.1,
+    549.6,
+    268.8,
+    560.2
+   ],
+   "size": 8.8,
+   "testo": "gio potrebbe avere competenza con le armi semplici.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.0,
+    560.6,
+    274.1,
+    571.2
+   ],
+   "size": 8.8,
+   "testo": "Da mischia e a distanza. Ogni arma è classificata come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    571.6,
+    282.0,
+    582.2
+   ],
+   "size": 8.8,
+   "testo": "arma da mischia o arma a distanza. Un'arma da mischia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.0,
+    582.6,
+    258.1,
+    593.2
+   ],
+   "size": 8.8,
+   "testo": "è usata per attaccare un bersaglio entro 1,5 metri,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    593.6,
+    255.5,
+    604.2
+   ],
+   "size": 8.8,
+   "testo": "mentre un'arma a distanza permette di attaccare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.0,
+    604.7,
+    167.3,
+    615.2
+   ],
+   "size": 8.8,
+   "testo": "da una distanza maggiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    699.8,
+    68.3,
+    716.8
+   ],
+   "size": 16.8,
+   "testo": "..",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    629.9,
+    207.7,
+    640.5
+   ],
+   "size": 10.6,
+   "testo": "VENDERE L1EQUIPACCIAMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    643.5,
+    262.7,
+    653.2
+   ],
+   "size": 8.4,
+   "testo": "L'equipaggiamento può essere rivenduto a metà del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    654.4,
+    259.9,
+    664.1
+   ],
+   "size": 8.4,
+   "testo": "suo prezzo d'acquisto originale. Al contrario, merci",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    665.5,
+    270.7,
+    675.1
+   ],
+   "size": 8.4,
+   "testo": "e oggetti di valore (come pietre preziose e opere d'arte)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.7,
+    676.4,
+    263.3,
+    686.1
+   ],
+   "size": 9.2,
+   "testo": "preservano il loro valore di mercato. Nella Guida del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    687.4,
+    258.6,
+    697.1
+   ],
+   "size": 9.2,
+   "testo": "Dungeon Master sono indicati i prezzi degli oggetti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    698.4,
+    94.0,
+    708.1
+   ],
+   "size": 8.4,
+   "testo": "magici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    273.9,
+    699.8,
+    286.0,
+    716.8
+   ],
+   "size": 16.8,
+   "testo": "..",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    120.8,
+    532.3,
+    131.3
+   ],
+   "size": 8.8,
+   "testo": "Danni. La tabella elenca la quantità di danni che un'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    131.8,
+    519.1,
+    142.4
+   ],
+   "size": 8.8,
+   "testo": "infligge quando un attaccante la usa per sferrare un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    142.8,
+    501.9,
+    153.4
+   ],
+   "size": 8.8,
+   "testo": "attacco, così come la tipologia di danno inferto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    153.9,
+    522.2,
+    164.4
+   ],
+   "size": 8.8,
+   "testo": "Proprietà. Nella colonna Proprietà sono elencate even­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    164.9,
+    525.4,
+    175.5
+   ],
+   "size": 8.8,
+   "testo": "tuali proprietà che un'arma potrebbe avere. Ciascuna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.4,
+    175.9,
+    524.6,
+    186.4
+   ],
+   "size": 8.8,
+   "testo": "di esse viene spiegata nell'apposita sezione Proprietà.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    186.9,
+    531.5,
+    197.5
+   ],
+   "size": 8.8,
+   "testo": "Padronanza. Ogni arma possiede una proprietà di padro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    197.9,
+    527.8,
+    208.5
+   ],
+   "size": 8.8,
+   "testo": "nanza, spiegata nella sezione Proprietà di padronanza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    208.9,
+    517.6,
+    219.5
+   ],
+   "size": 8.8,
+   "testo": "più avanti in questo capitolo. Per utilizzare tale pro­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    220.0,
+    533.9,
+    230.5
+   ],
+   "size": 8.8,
+   "testo": "prietà, il personaggio deve prima disporre del privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    230.9,
+    360.7,
+    241.5
+   ],
+   "size": 8.8,
+   "testo": "necessario.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    251.0,
+    473.1,
+    264.1
+   ],
+   "size": 9.7,
+   "testo": "COMPETENZA NELLE ARMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    267.7,
+    516.8,
+    278.2
+   ],
+   "size": 8.8,
+   "testo": "Chiunque può impugnare un'arma, ma il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    278.7,
+    518.3,
+    289.3
+   ],
+   "size": 8.8,
+   "testo": "deve avere competenza con essa per aggiungere il suo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    289.6,
+    524.1,
+    300.2
+   ],
+   "size": 8.8,
+   "testo": "bonus di competenza a un tiro per colpire che ne faccia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    300.6,
+    526.9,
+    311.2
+   ],
+   "size": 8.8,
+   "testo": "uso. La competenza in varie armi viene fornita dai privi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    311.7,
+    534.0,
+    322.2
+   ],
+   "size": 8.8,
+   "testo": "legi del personaggio. I mostri hanno competenza con qual­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.2,
+    322.6,
+    528.7,
+    333.2
+   ],
+   "size": 8.8,
+   "testo": "siasi arma elencata nella propria scheda delle statistiche.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    342.7,
+    376.6,
+    355.8
+   ],
+   "size": 9.7,
+   "testo": "PROPRIETÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    359.1,
+    519.0,
+    369.7
+   ],
+   "size": 8.8,
+   "testo": "Di seguito sono riportate le definizioni delle proprietà",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    370.2,
+    508.9,
+    380.8
+   ],
+   "size": 8.8,
+   "testo": "presenti nella colonna Proprietà della tabella Armi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    390.7,
+    373.6,
+    402.1
+   ],
+   "size": 11.2,
+   "testo": "A DUE MANI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    402.1,
+    513.3,
+    412.7
+   ],
+   "size": 8.8,
+   "testo": "Quest'arma richiede di essere impugnata a due mani",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    413.1,
+    476.2,
+    423.7
+   ],
+   "size": 8.8,
+   "testo": "quando il personaggio la usa per attaccare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    433.6,
+    365.5,
+    444.9
+   ],
+   "size": 11.2,
+   "testo": "ACCURATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    444.9,
+    530.2,
+    455.4
+   ],
+   "size": 8.8,
+   "testo": "Quando un personaggio effettua un attacco con un'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    455.9,
+    525.7,
+    466.5
+   ],
+   "size": 8.8,
+   "testo": "accurata, può scegliere se usare il modificatore di Forza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    466.9,
+    522.3,
+    477.5
+   ],
+   "size": 8.8,
+   "testo": "o di Destrezza per il tiro per colpire e il tiro per i danni.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    477.8,
+    513.8,
+    488.4
+   ],
+   "size": 8.8,
+   "testo": "Deve usare lo stesso modificatore per entrambi i tiri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    498.4,
+    355.7,
+    509.7
+   ],
+   "size": 11.2,
+   "testo": "GITTATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    509.7,
+    506.7,
+    520.3
+   ],
+   "size": 8.8,
+   "testo": "Un'arma a distanza presenta una gittata scritta tra",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    520.8,
+    532.0,
+    531.3
+   ],
+   "size": 8.8,
+   "testo": "parentesi dopo la proprietà munizioni o lancio. La gittata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    531.9,
+    536.1,
+    542.4
+   ],
+   "size": 8.8,
+   "testo": "riporta due numeri. Il primo è la gittata normale dell'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    542.8,
+    537.8,
+    553.3
+   ],
+   "size": 8.8,
+   "testo": "in metri, il secondo è la gittata lunga dell'arma. Quando un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    553.7,
+    532.4,
+    564.3
+   ],
+   "size": 8.8,
+   "testo": "personaggio attacca un bersaglio oltre la gittata normale,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    564.7,
+    515.6,
+    575.3
+   ],
+   "size": 8.8,
+   "testo": "subisce svantaggio al tiro per colpire. Non è possibile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    575.7,
+    480.3,
+    586.3
+   ],
+   "size": 8.8,
+   "testo": "attaccare un bersaglio oltre la gittata lunga.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    596.2,
+    351.1,
+    607.6
+   ],
+   "size": 11.2,
+   "testo": "LANCIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    607.7,
+    520.6,
+    618.2
+   ],
+   "size": 8.8,
+   "testo": "Se un'arma possiede la proprietà da lancio, il personag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    618.8,
+    516.1,
+    629.4
+   ],
+   "size": 8.8,
+   "testo": "gio può lanciarla per effettuare un attacco a distanza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    629.8,
+    509.6,
+    640.3
+   ],
+   "size": 8.8,
+   "testo": "ed estrarla come parte dell'attacco. Se è un'arma da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    640.8,
+    514.5,
+    651.3
+   ],
+   "size": 8.8,
+   "testo": "mischia, il personaggio applica al tiro per colpire e al",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    651.8,
+    519.8,
+    662.4
+   ],
+   "size": 8.8,
+   "testo": "tiro per i danni lo stesso modificatore di caratteristica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    662.8,
+    518.3,
+    673.3
+   ],
+   "size": 8.8,
+   "testo": "che userebbe per un attacco in mischia effettuato con",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    673.7,
+    353.0,
+    684.3
+   ],
+   "size": 8.8,
+   "testo": "quell'arma.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1176 @@
+{
+ "pagina_pdf": 205,
+ "pagina_stampata": 202,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "202 / CAPITOLO 5 I TALENTI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    52.4,
+    53.1,
+    183.3,
+    64.5
+   ],
+   "size": 11.2,
+   "testo": "LOTTATORE DA TAVERNA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    65.5,
+    109.8,
+    74.9
+   ],
+   "size": 8.6,
+   "testo": "Talento Origini",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    79.1,
+    213.6,
+    89.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    90.1,
+    256.5,
+    100.7
+   ],
+   "size": 8.8,
+   "testo": "Colpo senz'armi migliorato. Quando il personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    100.9,
+    272.2,
+    111.5
+   ],
+   "size": 8.8,
+   "testo": "colpisce con un colpo senz'armi e infligge dei danni, può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    112.1,
+    270.8,
+    122.6
+   ],
+   "size": 8.8,
+   "testo": "infliggere 1d4 danni contundenti più il suo modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    123.0,
+    263.8,
+    133.6
+   ],
+   "size": 8.8,
+   "testo": "di Forza invece dei normali danni del colpo senz'armi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    134.1,
+    263.6,
+    144.7
+   ],
+   "size": 8.8,
+   "testo": "Tiro ripetutoperi danni. Quando tiri per i danni del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    145.0,
+    276.8,
+    155.6
+   ],
+   "size": 8.8,
+   "testo": "colpo senz'armi, se ottieni 1 puoi ripetere il tiro. Tuttavia,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    156.1,
+    212.2,
+    166.7
+   ],
+   "size": 8.8,
+   "testo": "dopo dovrai utilizzare il nuovo risultato.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    167.2,
+    274.9,
+    177.7
+   ],
+   "size": 8.8,
+   "testo": "Armi improvvisate. Il personaggio ha competenza nelle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    178.2,
+    128.4,
+    188.8
+   ],
+   "size": 8.8,
+   "testo": "armi improvvisate.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    189.1,
+    266.2,
+    199.7
+   ],
+   "size": 8.8,
+   "testo": "Spinta. Quando il personaggio colpisce una creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    200.2,
+    281.9,
+    210.8
+   ],
+   "size": 8.8,
+   "testo": "con un colpo senz'armi come parte di un'azione di Attacco",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    211.2,
+    280.4,
+    221.8
+   ],
+   "size": 8.8,
+   "testo": "nel suo turno, può infliggere danni al bersaglio e spingerlo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    222.2,
+    272.2,
+    232.8
+   ],
+   "size": 8.8,
+   "testo": "via di 1,5 metri da sé. Questo beneficio è utilizzabile una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    233.1,
+    133.0,
+    243.7
+   ],
+   "size": 8.8,
+   "testo": "sola volta per turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    268.0,
+    110.2,
+    279.4
+   ],
+   "size": 11.2,
+   "testo": "MUSICISTA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    280.5,
+    109.8,
+    289.8
+   ],
+   "size": 8.6,
+   "testo": "Talento Origini",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    294.0,
+    213.5,
+    304.6
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    305.1,
+    282.2,
+    315.7
+   ],
+   "size": 8.8,
+   "testo": "Formazione musicale. Il personaggio ottiene competenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    316.0,
+    198.7,
+    326.6
+   ],
+   "size": 8.8,
+   "testo": "in tre strumenti musicali a tua scelta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    327.0,
+    280.0,
+    337.6
+   ],
+   "size": 8.8,
+   "testo": "Canzone incoraggiante. Dopo aver completato un riposo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    338.0,
+    268.5,
+    348.6
+   ],
+   "size": 8.8,
+   "testo": "breve o lungo, il personaggio può suonare una canzone",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    348.9,
+    278.0,
+    359.5
+   ],
+   "size": 8.8,
+   "testo": "utilizzando uno strumento in cui ha competenza, in modo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    359.9,
+    272.3,
+    370.5
+   ],
+   "size": 8.8,
+   "testo": "da conferire Ispirazione eroica ai personaggi che la ascol­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    370.9,
+    280.5,
+    381.4
+   ],
+   "size": 8.8,
+   "testo": "tano. Il numero di alleati che possono beneficiare di questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    381.9,
+    271.8,
+    392.5
+   ],
+   "size": 8.8,
+   "testo": "effetto equivale al bonus di competenza del personaggio.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    416.9,
+    102.7,
+    428.2
+   ],
+   "size": 11.2,
+   "testo": "ROBUSTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    429.2,
+    109.4,
+    438.5
+   ],
+   "size": 8.6,
+   "testo": "Talento Origini",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    442.7,
+    268.9,
+    453.3
+   ],
+   "size": 8.8,
+   "testo": "I punti ferita massimi del personaggio aumentano di un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    453.7,
+    280.9,
+    464.2
+   ],
+   "size": 8.8,
+   "testo": "valore pari al doppio del livello del personaggio al momento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    464.6,
+    274.2,
+    475.2
+   ],
+   "size": 8.8,
+   "testo": "dell'acquisizione del talento. Dopodiché, ogni volta che il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    475.7,
+    275.4,
+    486.2
+   ],
+   "size": 8.8,
+   "testo": "personaggio ottiene un livello, i suoi punti ferita massimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    486.7,
+    116.8,
+    497.2
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 2.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    506.8,
+    176.0,
+    519.9
+   ],
+   "size": 9.7,
+   "testo": "TALENTI GENERALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    523.4,
+    257.7,
+    533.9
+   ],
+   "size": 8.8,
+   "testo": "Questi talenti appartengono alla categoria Generale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    558.1,
+    168.8,
+    569.5
+   ],
+   "size": 11.2,
+   "testo": "ABILITÀ IMPECCABILE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    569.5,
+    244.2,
+    580.0
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    584.0,
+    213.1,
+    594.6
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    595.0,
+    269.3,
+    605.6
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il punteggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    606.0,
+    268.3,
+    616.6
+   ],
+   "size": 8.8,
+   "testo": "di una sua caratteristica a scelta aumenta di 1, fino a un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    617.0,
+    112.7,
+    627.5
+   ],
+   "size": 8.8,
+   "testo": "massimo di 20.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    628.0,
+    261.0,
+    638.6
+   ],
+   "size": 8.8,
+   "testo": "Competenza nelle abilità. Acquisisce competenza in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    639.1,
+    138.1,
+    649.7
+   ],
+   "size": 8.8,
+   "testo": "un'abilità a tua scelta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    650.0,
+    274.5,
+    660.6
+   ],
+   "size": 8.8,
+   "testo": "Maestria. Scegli un'abilità in cui il personaggio ha com­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    661.1,
+    275.0,
+    671.7
+   ],
+   "size": 8.8,
+   "testo": "petenza, ma non maestria, Così da ottenere quest'ultima.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    53.1,
+    421.1,
+    64.4
+   ],
+   "size": 11.2,
+   "testo": "ADEPTO ELEMENTALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    64.5,
+    533.3,
+    75.0
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore, privilegio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    76.5,
+    416.0,
+    85.8
+   ],
+   "size": 8.6,
+   "testo": "Incantesimi o Magia delpatto)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    90.1,
+    466.5,
+    100.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    101.1,
+    525.9,
+    111.7
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggi di caratteristica. Il tuo punteg­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    112.1,
+    529.4,
+    122.6
+   ],
+   "size": 8.8,
+   "testo": "gio di Intelligenza, Saggezza o Carisma aumenta di 1, fino",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    123.0,
+    384.3,
+    133.6
+   ],
+   "size": 8.8,
+   "testo": "a un massimo di 20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    134.1,
+    522.4,
+    144.7
+   ],
+   "size": 8.8,
+   "testo": "Padronanza dell'energia. L'incantatore sceglie uno dei",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    145.1,
+    514.5,
+    155.7
+   ],
+   "size": 8.8,
+   "testo": "tipi di danno seguenti: acido, freddo, fulmine, fuoco o",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    156.1,
+    525.6,
+    166.7
+   ],
+   "size": 8.8,
+   "testo": "tuono. Gli incantesimi lanciati dal personaggio ignorano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    167.2,
+    531.2,
+    177.7
+   ],
+   "size": 8.8,
+   "testo": "un'eventuale resistenza al danno del tipo selezionato. Inol­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    178.2,
+    528.0,
+    188.8
+   ],
+   "size": 8.8,
+   "testo": "tre, quando effettui il tiro per i danni per un incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    189.2,
+    517.5,
+    199.8
+   ],
+   "size": 8.8,
+   "testo": "che infligge danni di quella tipologia, puoi considerare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    200.3,
+    405.9,
+    210.9
+   ],
+   "size": 8.8,
+   "testo": "ogni 1 come se fosse un 2.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    211.3,
+    524.3,
+    221.9
+   ],
+   "size": 8.8,
+   "testo": "Ripetibile. Questo talento è ottenibile più di una volta,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    222.3,
+    515.4,
+    232.8
+   ],
+   "size": 8.8,
+   "testo": "ma per Padronanza dell'energia devi scegliere un tipo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    233.2,
+    415.7,
+    243.8
+   ],
+   "size": 8.8,
+   "testo": "di danno diverso ogni volta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    268.0,
+    366.2,
+    279.3
+   ],
+   "size": 11.2,
+   "testo": "APPOSTATO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    279.5,
+    496.4,
+    290.0
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    291.5,
+    396.2,
+    301.0
+   ],
+   "size": 8.6,
+   "testo": "Destrezza 13 o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    305.0,
+    466.3,
+    315.6
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    316.1,
+    532.9,
+    326.6
+   ],
+   "size": 8.8,
+   "testo": "Incrementodeipunteggidicaratteristica. Il suo punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    327.0,
+    505.9,
+    337.6
+   ],
+   "size": 8.8,
+   "testo": "di Destrezza aumenta di 1, fino a un massimo di 20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    338.0,
+    518.0,
+    348.6
+   ],
+   "size": 8.8,
+   "testo": "Vista cieca. Il personaggio ottiene vista cieca con un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    348.9,
+    374.1,
+    359.5
+   ],
+   "size": 8.8,
+   "testo": "raggio di 3 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    359.9,
+    521.1,
+    370.5
+   ],
+   "size": 8.8,
+   "testo": "Nebbia della guerra. Il personaggio è in grado di sfrut­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    371.0,
+    518.0,
+    381.5
+   ],
+   "size": 8.8,
+   "testo": "tare le distrazioni della battaglia, ottenendo vantaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    381.9,
+    525.4,
+    392.5
+   ],
+   "size": 8.8,
+   "testo": "alle prove di Destrezza (Furtività) effettuate come parte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    392.9,
+    511.7,
+    403.5
+   ],
+   "size": 8.8,
+   "testo": "dell'azione di Nascondersi durante il combattimento.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    404.1,
+    499.6,
+    414.6
+   ],
+   "size": 8.8,
+   "testo": "Cecchino. Se effettua un tiro per colpire mentre",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    415.0,
+    502.9,
+    425.6
+   ],
+   "size": 8.8,
+   "testo": "è nascosto e il colpo non va a segno, il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    426.1,
+    372.9,
+    436.6
+   ],
+   "size": 8.8,
+   "testo": "rimane nascosto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    460.7,
+    346.5,
+    472.0
+   ],
+   "size": 11.2,
+   "testo": "ATLETA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    472.1,
+    496.2,
+    482.7
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    484.2,
+    425.4,
+    493.7
+   ],
+   "size": 8.6,
+   "testo": "Forza o Destrezza 13 o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    497.7,
+    466.2,
+    508.2
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    508.8,
+    532.9,
+    519.3
+   ],
+   "size": 8.8,
+   "testo": "Incrementodeipunteggidicaratteristica. Il suo punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    519.9,
+    532.5,
+    530.4
+   ],
+   "size": 8.8,
+   "testo": "di Forza o Destrezza aumenta di 1, fino a un massimo di 20.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    530.7,
+    516.3,
+    541.3
+   ],
+   "size": 8.8,
+   "testo": "Velocità di scalata. Il personaggio ottiene velocità di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    541.8,
+    433.8,
+    552.3
+   ],
+   "size": 8.8,
+   "testo": "scalata pari alla propria velocità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    552.8,
+    511.1,
+    563.4
+   ],
+   "size": 8.8,
+   "testo": "Rialzarsi. Se il personaggio è prono, può rimettersi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    563.8,
+    478.1,
+    574.3
+   ],
+   "size": 8.8,
+   "testo": "in piedi usando solo 1,5 metri di movimento.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    574.7,
+    514.0,
+    585.3
+   ],
+   "size": 8.8,
+   "testo": "Saltare. Il personaggio può eseguire un salto in alto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    585.7,
+    509.2,
+    596.3
+   ],
+   "size": 8.8,
+   "testo": "o in lungo in corsa dopo aver percorso solo 1,5 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    620.4,
+    348.8,
+    631.8
+   ],
+   "size": 11.2,
+   "testo": "ATTORE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    632.1,
+    496.4,
+    642.6
+   ],
+   "size": 8.6,
+   "testo": "Talento Generale (prerequisito: 4° livello o superiore,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    644.0,
+    391.4,
+    653.5
+   ],
+   "size": 8.6,
+   "testo": "Carisma 13 o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    657.5,
+    466.2,
+    668.1
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ottiene i seguenti benefici.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    668.6,
+    532.9,
+    679.2
+   ],
+   "size": 8.8,
+   "testo": "Incremento deipunteggidicaratteristica. Il suo punteggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    679.5,
+    499.3,
+    690.1
+   ],
+   "size": 8.8,
+   "testo": "di Carisma aumenta di 1, fino a un massimo di 20.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

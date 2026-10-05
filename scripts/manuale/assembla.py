@@ -78,7 +78,8 @@ def main() -> None:
                 parti.append("")
             parti.append(testo.strip())
             parti.append("")
-        (CAPITOLI / nome).write_text("\n".join(parti), encoding="utf-8")
+        markdown = re.sub(r"(?m)[ \t]+$", "", "\n".join(parti)).rstrip() + "\n"
+        (CAPITOLI / nome).write_text(markdown, encoding="utf-8")
         stato_cap = "verificato" if not non_verificate else f"{a - da + 1 - len(non_verificate)}/{a - da + 1} pagine verificate"
         righe_indice.append(f"- [{cap['titolo']}](capitoli/{nome}) — {rif(da)}–{rif(a)} · {stato_cap}")
 

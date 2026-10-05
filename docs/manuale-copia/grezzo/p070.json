@@ -1,0 +1,499 @@
+{
+ "pagina_pdf": 70,
+ "pagina_stampata": 67,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   148,
+   -1,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.9,
+    38.8,
+    199.7,
+    51.9
+   ],
+   "size": 9.7,
+   "testo": "COLLEGIO DEL VALORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    56.4,
+    170.8,
+    65.7
+   ],
+   "size": 8.6,
+   "testo": "Cantalegesta degliantichi eroi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    69.9,
+    260.1,
+    80.5
+   ],
+   "size": 8.8,
+   "testo": "I bardi del Collegio del Valore sono audaci narratori",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    81.0,
+    275.3,
+    91.5
+   ],
+   "size": 8.8,
+   "testo": "i cui racconti conservano la memoria dei grandi eroi del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    91.9,
+    269.2,
+    102.5
+   ],
+   "size": 8.8,
+   "testo": "passato. Cantano le gesta dei valorosi nelle sale a volta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    102.9,
+    269.0,
+    113.5
+   ],
+   "size": 8.8,
+   "testo": "o alle folle riunite intorno a grandi falò. Viaggiano per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    113.9,
+    279.0,
+    124.5
+   ],
+   "size": 8.8,
+   "testo": "assistere ai grandi eventi di persona e per assicurarsi che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    124.9,
+    283.6,
+    135.5
+   ],
+   "size": 8.8,
+   "testo": "il ricordo di tali eventi non scompaia. Con le loro canzoni,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    135.9,
+    284.3,
+    146.5
+   ],
+   "size": 8.8,
+   "testo": "ispirano le nuove generazioni a raggiungere le stesse vette",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    146.9,
+    190.7,
+    157.5
+   ],
+   "size": 8.8,
+   "testo": "di successo degli eroi di un tempo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    167.4,
+    270.2,
+    178.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: ADDESTRAMENTO MARZIALE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    178.8,
+    271.8,
+    189.3
+   ],
+   "size": 8.8,
+   "testo": "Il bardo ottiene competenza nelle armi da guerra, nelle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    189.7,
+    172.7,
+    200.3
+   ],
+   "size": 8.8,
+   "testo": "armature medie e negli scudi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    200.9,
+    268.8,
+    211.5
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, può utilizzare un'arma semplice o da guerra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    211.8,
+    278.2,
+    222.4
+   ],
+   "size": 8.8,
+   "testo": "come focus da incantatore per lanciare incantesimi dalla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    222.9,
+    181.1,
+    233.5
+   ],
+   "size": 8.8,
+   "testo": "lista degli incantesimi da bardo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    243.3,
+    201.0,
+    254.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: ISPIRAZIONE IN",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    254.0,
+    151.4,
+    265.4
+   ],
+   "size": 11.2,
+   "testo": "COMBATTIMENTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    265.5,
+    266.2,
+    276.1
+   ],
+   "size": 8.8,
+   "testo": "Il bardo può usare il suo ingegno per ribaltare le sorti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    276.6,
+    280.0,
+    287.2
+   ],
+   "size": 8.8,
+   "testo": "di una battaglia. Una creatura a cui il bardo abbia donato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    287.5,
+    266.8,
+    298.1
+   ],
+   "size": 8.8,
+   "testo": "un dado di Ispirazione Bardica può usarlo per uno dei",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    298.5,
+    118.6,
+    309.1
+   ],
+   "size": 8.8,
+   "testo": "seguenti effetti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    309.5,
+    261.7,
+    320.0
+   ],
+   "size": 8.8,
+   "testo": "Attacco. Subito dopo aver colpito un bersaglio con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    320.5,
+    255.7,
+    331.1
+   ],
+   "size": 8.8,
+   "testo": "un tiro per colpire, la creatura può tirare il dado di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    331.4,
+    262.7,
+    341.9
+   ],
+   "size": 8.8,
+   "testo": "Ispirazione Bardica e aggiungere il risultato ai danni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    342.4,
+    178.0,
+    353.0
+   ],
+   "size": 8.8,
+   "testo": "dell'attacco contro il bersaglio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    353.5,
+    263.1,
+    364.0
+   ],
+   "size": 8.8,
+   "testo": "Difesa. Quando la creatura viene colpita da un tiro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    364.3,
+    270.8,
+    374.9
+   ],
+   "size": 8.8,
+   "testo": "per colpire, può usare la sua reazione per tirare il dado",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    375.4,
+    269.8,
+    386.0
+   ],
+   "size": 8.8,
+   "testo": "di Ispirazione Bardica e aggiungere il risultato alla sua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    386.5,
+    262.4,
+    397.0
+   ],
+   "size": 8.8,
+   "testo": "CA contro quell'attacco, causando potenzialmente il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    397.5,
+    147.1,
+    408.0
+   ],
+   "size": 8.8,
+   "testo": "fallimento dell'attacco.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    418.0,
+    207.8,
+    429.4
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: ATTACCO EXTRA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    429.3,
+    269.3,
+    439.8
+   ],
+   "size": 8.8,
+   "testo": "Quando effettua l'azione di Attacco nel proprio turno,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    440.3,
+    232.7,
+    450.9
+   ],
+   "size": 8.8,
+   "testo": "il bardo può attaccare due volte anziché una.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    451.3,
+    279.6,
+    461.9
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, può lanciare uno dei suoi trucchetti con tempo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    462.3,
+    256.8,
+    472.9
+   ],
+   "size": 8.8,
+   "testo": "di lancio di un'azione al posto di uno degli attacchi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    482.7,
+    273.7,
+    494.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: MAGIA DA COMBATTIMENTO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    494.1,
+    272.5,
+    504.7
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver lanciato un incantesimo con tempo di lancio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    505.2,
+    257.1,
+    515.8
+   ],
+   "size": 8.8,
+   "testo": "di un'azione, il bardo può effettuare un attacco con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    516.2,
+    168.6,
+    526.7
+   ],
+   "size": 8.8,
+   "testo": "un'arma come azione bonus.",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

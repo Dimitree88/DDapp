@@ -1,0 +1,1207 @@
+{
+ "pagina_pdf": 33,
+ "pagina_stampata": 30,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "30 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [
+  [
+   301,
+   32,
+   533,
+   136
+  ],
+  [
+   301,
+   144,
+   533,
+   212
+  ],
+  [
+   301,
+   220,
+   533,
+   297
+  ],
+  [
+   301,
+   304,
+   533,
+   492
+  ],
+  [
+   300,
+   501,
+   533,
+   601
+  ],
+  [
+   300,
+   606,
+   533,
+   710
+  ],
+  [
+   793,
+   178,
+   1283,
+   668
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.1,
+    39.7,
+    282.9,
+    56.0
+   ],
+   "size": 12.4,
+   "testo": "ESEMPIO DI COMBATTIMENTO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    59.0,
+    128.7,
+    75.3
+   ],
+   "size": 12.4,
+   "testo": "E DANNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    78.5,
+    263.8,
+    87.2
+   ],
+   "size": 7.6,
+   "testo": "In questa scena, delle minacce costringono un gruppo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    89.6,
+    269.0,
+    98.3
+   ],
+   "size": 7.6,
+   "testo": "di avventurieri a combattere. Questo esempio mostra il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    100.5,
+    281.4,
+    109.2
+   ],
+   "size": 7.6,
+   "testo": "flusso di combattimento a turni che dà a ciascun giocatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    111.4,
+    253.9,
+    120.1
+   ],
+   "size": 7.6,
+   "testo": "la possibilità di descrivere le proprie azioni durante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    122.5,
+    198.5,
+    131.2
+   ],
+   "size": 7.6,
+   "testo": "i momenti più salienti di uno scontro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    139.9,
+    253.9,
+    148.6
+   ],
+   "size": 7.6,
+   "testo": "Nei sotterranei di Castel Ravenloft, i personaggi entrano in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    151.8,
+    109.6,
+    160.5
+   ],
+   "size": 7.6,
+   "testo": "combattimento!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    176.8,
+    264.9,
+    185.1
+   ],
+   "size": 6.2,
+   "testo": "Giacomo (DM): Un lichene giallo ricopre il soffitto di questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    187.7,
+    238.7,
+    196.0
+   ],
+   "size": 6.2,
+   "testo": "corsello, fiancheggiato da alcove in entrambi i lati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    198.9,
+    270.9,
+    207.2
+   ],
+   "size": 6.2,
+   "testo": "Riccardo (che interpreta Shreeve): Do una sbirciata alle alcove",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    210.0,
+    97.8,
+    218.2
+   ],
+   "size": 6.2,
+   "testo": "più vicine.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    38.1,
+    194.2,
+    275.7,
+    235.4
+   ],
+   "size": 41.2,
+   "testo": "+Giacomo:Ciascunacontienerestidischeletriumani.Ilsilenzio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    231.8,
+    260.5,
+    240.1
+   ],
+   "size": 6.2,
+   "testo": "viene infranto all'improvviso dal crepitio delle ossa degli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.4,
+    242.7,
+    270.0,
+    251.0
+   ],
+   "size": 6.2,
+   "testo": "scheletri, che si alzano in piedi intorno a voi e si preparano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    253.8,
+    106.8,
+    262.1
+   ],
+   "size": 6.2,
+   "testo": "ad attaccare!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    264.8,
+    177.3,
+    273.0
+   ],
+   "size": 6.2,
+   "testo": "Riccardo: Cavolo! Quanti scheletri?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    38.1,
+    269.3,
+    261.7,
+    285.7
+   ],
+   "size": 12.4,
+   "testo": "C!)Giacomo: Dieciintutto, esonoostili.Tirateperl'iniziativa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    286.9,
+    249.6,
+    295.2
+   ],
+   "size": 6.2,
+   "testo": "Riccardo: Dieci scheletri? Accidenti! Ho ottenuto un 16.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    297.5,
+    197.0,
+    306.1
+   ],
+   "size": 6.7,
+   "testo": "Marta (che interpreta Mirabella): lo un 8.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    308.5,
+    262.4,
+    317.1
+   ],
+   "size": 6.7,
+   "testo": "Filippo (che interpreta Gareth): Un incredibile 2 per Gareth.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    319.8,
+    224.4,
+    328.0
+   ],
+   "size": 6.2,
+   "testo": "Denise (che interpreta Auro): Ho ottenuto un 19!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    38.0,
+    313.1,
+    276.4,
+    343.0
+   ],
+   "size": 29.9,
+   "testo": "+Giacomo:liladrosaràpureveloce...manonquantoglischeletri!",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    341.4,
+    263.0,
+    350.0
+   ],
+   "size": 6.7,
+   "testo": "Hanno ottenuto un 20. I primi quattro attaccano il primo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.3,
+    352.7,
+    125.1,
+    361.0
+   ],
+   "size": 6.2,
+   "testo": "della fila: Shreeve.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    363.7,
+    128.5,
+    372.0
+   ],
+   "size": 6.2,
+   "testo": "Riccardo: Oh, cavolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    37.8,
+    374.2,
+    276.8,
+    427.3
+   ],
+   "size": 52.7,
+   "testo": "tGiacomo:Ilorotiripercolpirehannountotaledi8,16,18e20.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    385.6,
+    274.2,
+    393.9
+   ],
+   "size": 6.2,
+   "testo": "Riccardo: L'8 e il 16 non superano la mia CA, ma gli altri vanno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    396.6,
+    91.2,
+    404.9
+   ],
+   "size": 6.2,
+   "testo": "a segno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    407.8,
+    275.2,
+    416.1
+   ],
+   "size": 6.2,
+   "testo": "Giacomo: Due scheletri ti colpiscono con le loro lame spezzate,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    418.7,
+    211.8,
+    427.0
+   ],
+   "size": 6.2,
+   "testo": "infliggendo un totale di 9 danni perforanti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    429.4,
+    197.0,
+    438.0
+   ],
+   "size": 6.7,
+   "testo": "Riccardo: È questo il meglio che sai fare?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    440.7,
+    209.4,
+    449.0
+   ],
+   "size": 6.2,
+   "testo": "Filippo: Mai dire una cosa del genere al DM.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    451.6,
+    267.8,
+    459.9
+   ],
+   "size": 6.2,
+   "testo": "Giacomo: Eheh. Ora due di loro attaccano Auro. Il primo tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.4,
+    462.3,
+    244.8,
+    470.9
+   ],
+   "size": 6.7,
+   "testo": "è un l naturale: colpo mancato. Il secondo tiro è 16.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    473.6,
+    137.6,
+    481.9
+   ],
+   "size": 6.2,
+   "testo": "Denise: Che va a segno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    484.6,
+    257.0,
+    492.9
+   ],
+   "size": 6.2,
+   "testo": "Giacomo: Subisci 4 danni perforanti, e uno di loro attacca",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    495.5,
+    173.7,
+    503.8
+   ],
+   "size": 6.2,
+   "testo": "Mirabella con un risultato di 14.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    77.4,
+    506.1,
+    270.5,
+    514.8
+   ],
+   "size": 7.6,
+   "testo": "Colpita. No, aspetta! Lancio scudo, così da fargli fallire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    517.7,
+    89.5,
+    526.0
+   ],
+   "size": 6.2,
+   "testo": "il colpo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    528.6,
+    262.8,
+    536.9
+   ],
+   "size": 6.2,
+   "testo": "Giacomo: La lama dello scheletro rimbalza sul tuo scudo di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    539.6,
+    268.8,
+    547.9
+   ],
+   "size": 6.2,
+   "testo": "forza magica. Poi due scheletri attaccano Gareth. Uno falli­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    550.2,
+    269.5,
+    558.9
+   ],
+   "size": 6.7,
+   "testo": "sce con un 5, ma l'altro sferra un colpo vigoroso con un 21,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    561.3,
+    169.4,
+    569.9
+   ],
+   "size": 6.7,
+   "testo": "infliggendo 7 danni perforanti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    572.6,
+    160.2,
+    580.9
+   ],
+   "size": 6.2,
+   "testo": "Filippo: Questo sì che fa male!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    583.5,
+    266.6,
+    591.8
+   ],
+   "size": 6.2,
+   "testo": "Giacomo: E siamo a nove attacchi. C'è un altro scheletro alla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    594.6,
+    265.3,
+    602.8
+   ],
+   "size": 6.2,
+   "testo": "fine del corridoio. Si avvicina e aspetta il momento giusto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.1,
+    605.5,
+    180.9,
+    613.8
+   ],
+   "size": 6.2,
+   "testo": "per colpire. Ora è il turno di Auro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    616.6,
+    238.2,
+    624.9
+   ],
+   "size": 6.2,
+   "testo": "Denise: Ne attacco uno vicino a me. Un 24 colpisce?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    627.6,
+    161.8,
+    635.9
+   ],
+   "size": 6.2,
+   "testo": "Giacomo: Colpisce alla grande!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    638.7,
+    225.7,
+    647.0
+   ],
+   "size": 6.2,
+   "testo": "Denise: Ed è vicino a uno dei miei alleati, giusto?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    649.7,
+    98.0,
+    657.9
+   ],
+   "size": 6.2,
+   "testo": "Giacomo: Sì.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    37.4,
+    654.2,
+    254.0,
+    670.5
+   ],
+   "size": 12.4,
+   "testo": "49Denise: QuindiconilmioAttacco Furtivosono22danni!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    671.7,
+    274.2,
+    679.9
+   ],
+   "size": 6.2,
+   "testo": "Giacomo: La tua lama si conficca in un'orbita vuota e lo schele-",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    682.6,
+    216.9,
+    690.9
+   ],
+   "size": 6.2,
+   "testo": "tro cade a terra, ormai inanimato e innocuo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    37.3,
+    676.0,
+    56.9,
+    705.8
+   ],
+   "size": 29.6,
+   "testo": "+",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    693.6,
+    265.0,
+    701.8
+   ],
+   "size": 6.2,
+   "testo": "Denise: Poi uso Azione Scaltra per effettuare l'azione Disim­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    704.6,
+    262.6,
+    712.8
+   ],
+   "size": 6.2,
+   "testo": "pegno come azione bonus e mi allontano di 6 metri dalla",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    715.5,
+    91.0,
+    723.8
+   ],
+   "size": 6.2,
+   "testo": "mischia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.6,
+    58.8,
+    497.8,
+    67.1
+   ],
+   "size": 6.2,
+   "testo": "Dare inizio al combattimento_ Mentre descrive gli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.6,
+    69.7,
+    511.2,
+    78.0
+   ],
+   "size": 6.2,
+   "testo": "scheletri che si animano, il DM si prepara a dare inizio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.7,
+    80.6,
+    513.0,
+    88.9
+   ],
+   "size": 6.2,
+   "testo": "al combattimento e crea un'immagine mentale di dove",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.9,
+    91.7,
+    499.9,
+    99.9
+   ],
+   "size": 6.2,
+   "testo": "si trovano tutti i combattenti, facendo riferimento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.7,
+    102.7,
+    501.2,
+    111.0
+   ],
+   "size": 6.2,
+   "testo": "alla mappa dell'area e all'ordine di marcia stabilito",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.8,
+    113.6,
+    366.2,
+    121.9
+   ],
+   "size": 6.2,
+   "testo": "dal gruppo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.6,
+    166.8,
+    506.0,
+    175.1
+   ],
+   "size": 6.2,
+   "testo": "Tirare per l'iniziativa_ La fase successiva del combat­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    177.7,
+    497.7,
+    186.0
+   ],
+   "size": 6.2,
+   "testo": "timento prevede che tutti i partecipanti tirino per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.7,
+    188.7,
+    363.6,
+    197.0
+   ],
+   "size": 6.2,
+   "testo": "l'iniziativa.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.9,
+    241.9,
+    492.5,
+    250.2
+   ],
+   "size": 6.2,
+   "testo": "Svolgere i turni. Ogni partecipante alla battaglia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.8,
+    253.0,
+    485.0,
+    261.2
+   ],
+   "size": 6.2,
+   "testo": "svolge un turno secondo l'ordine di iniziativa.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.9,
+    263.8,
+    497.4,
+    272.1
+   ],
+   "size": 6.2,
+   "testo": "Gli scheletri combattono per primi perché hanno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.7,
+    274.6,
+    436.3,
+    283.2
+   ],
+   "size": 6.7,
+   "testo": "ottenuto l'iniziativa più alta: 20.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.5,
+    328.4,
+    506.9,
+    336.7
+   ],
+   "size": 6.2,
+   "testo": "Tiri per colpire. Quando una creatura attacca, che si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.7,
+    339.4,
+    509.9,
+    347.6
+   ],
+   "size": 6.2,
+   "testo": "tratti di menare un fendente di spada o scoccare una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.7,
+    350.3,
+    504.1,
+    358.6
+   ],
+   "size": 6.2,
+   "testo": "freccia con un arco, il suo giocatore effettua un tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    361.3,
+    506.3,
+    369.6
+   ],
+   "size": 6.2,
+   "testo": "per colpire. Se il totale è pari o superiore alla Classe",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    323.9,
+    372.3,
+    499.4,
+    380.6
+   ],
+   "size": 6.2,
+   "testo": "Armatura (CA) del bersaglio, l'attacco va a segno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.8,
+    425.7,
+    510.9,
+    434.0
+   ],
+   "size": 6.2,
+   "testo": "Incantesimi e reazioni. Mirabella lancia l'incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.6,
+    436.3,
+    508.2,
+    445.0
+   ],
+   "size": 7.6,
+   "testo": "scudo. Una proprietà speciale di questo incantesimo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.6,
+    447.6,
+    512.5,
+    455.9
+   ],
+   "size": 6.2,
+   "testo": "è che può essere lanciato anche quando non è il turno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.4,
+    458.6,
+    497.7,
+    466.9
+   ],
+   "size": 6.2,
+   "testo": "dell'incantatore, utilizzando la sua reazione (vedi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.6,
+    469.6,
+    510.3,
+    477.9
+   ],
+   "size": 6.2,
+   "testo": "\"Azioni\" tra le sezioni precedenti di questo capitolo).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    523.2,
+    499.2,
+    531.5
+   ],
+   "size": 6.2,
+   "testo": "Capacità speciali. L'Attacco Furtivo di Auro gli per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    534.1,
+    505.6,
+    542.4
+   ],
+   "size": 6.2,
+   "testo": "mette di infliggere danni extra agli scheletri e la sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.1,
+    545.2,
+    495.0,
+    553.4
+   ],
+   "size": 6.2,
+   "testo": "Azione Scaltra gli permette di effettuare l'azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.4,
+    556.2,
+    496.9,
+    564.5
+   ],
+   "size": 6.2,
+   "testo": "di Disimpegno come Azione Bonus. Questi sono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.5,
+    566.8,
+    507.3,
+    575.5
+   ],
+   "size": 7.6,
+   "testo": "esempi di privilegi di classe (descritti nel capitolo 3)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.4,
+    578.1,
+    504.6,
+    586.4
+   ],
+   "size": 6.2,
+   "testo": "che permettono ai personaggi di aggirare le regole.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.0,
+    631.5,
+    503.0,
+    639.8
+   ],
+   "size": 6.2,
+   "testo": "Vulnerabilità. Un attacco che infligge danni contun­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.3,
+    642.6,
+    507.9,
+    650.8
+   ],
+   "size": 6.2,
+   "testo": "denti è letale per gli scheletri. Shreeve lo ha appreso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.4,
+    653.7,
+    508.2,
+    661.9
+   ],
+   "size": 6.2,
+   "testo": "in esperienze precedenti, ed è per questo che abban­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.3,
+    664.6,
+    487.9,
+    672.8
+   ],
+   "size": 6.2,
+   "testo": "dona la spada e passa a un'arma contundente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.9,
+    675.3,
+    500.5,
+    683.9
+   ],
+   "size": 6.7,
+   "testo": "Anche se infligge soltanto 7 danni, il DM sa che lo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.0,
+    686.5,
+    439.5,
+    694.7
+   ],
+   "size": 6.2,
+   "testo": "scheletro ne subisce in realtà 14.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    504.6,
+    76.2,
+    515.1
+   ],
+   "size": 9.0,
+   "testo": "Marta:",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

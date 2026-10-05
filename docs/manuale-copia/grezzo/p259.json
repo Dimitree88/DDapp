@@ -1,0 +1,1332 @@
+{
+ "pagina_pdf": 259,
+ "pagina_stampata": 256,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "256 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    52.0,
+    38.6,
+    274.8,
+    47.2
+   ],
+   "size": 6.7,
+   "testo": "non può effettuare azioni, azioni bonus o reazioni e deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    49.6,
+    267.4,
+    58.2
+   ],
+   "size": 6.7,
+   "testo": "tirare 1d10 all'inizio di ogni suo turno per determinare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    60.7,
+    268.5,
+    69.3
+   ],
+   "size": 6.7,
+   "testo": "il suo comportamento durante quel turno, consultando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    71.6,
+    136.4,
+    80.2
+   ],
+   "size": 6.7,
+   "testo": "la tabella sottostante.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.7,
+    87.7,
+    76.7,
+    96.3
+   ],
+   "size": 6.4,
+   "testo": "1d10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    84.7,
+    87.7,
+    192.4,
+    96.4
+   ],
+   "size": 6.4,
+   "testo": "Comportamento per il turno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.1,
+    101.8,
+    274.4,
+    110.9
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio non effettua alcuna azione e usa tutto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    84.3,
+    113.7,
+    267.9,
+    122.8
+   ],
+   "size": 6.7,
+   "testo": "il suo movimento per muoversi, tirando 1d4 per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    84.3,
+    125.8,
+    257.0,
+    134.9
+   ],
+   "size": 6.7,
+   "testo": "la direzione: 1, nord; 2, est; 3, sud; o 4, ovest.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    140.5,
+    74.7,
+    149.2
+   ],
+   "size": 6.4,
+   "testo": "2-6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.1,
+    140.3,
+    263.9,
+    149.4
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio non si muove e non effettua azioni.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    154.5,
+    74.5,
+    163.2
+   ],
+   "size": 6.4,
+   "testo": "7-8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.1,
+    154.9,
+    266.0,
+    164.0
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio non si muove ed effettua l'azione di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    84.4,
+    167.0,
+    274.2,
+    176.1
+   ],
+   "size": 6.7,
+   "testo": "Attacco per eseguire un attacco in mischia contro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    84.3,
+    178.9,
+    264.5,
+    188.0
+   ],
+   "size": 6.7,
+   "testo": "una creatura casuale entro portata. Se nessuna",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    84.3,
+    190.9,
+    270.4,
+    200.0
+   ],
+   "size": 6.7,
+   "testo": "creatura si trova entro la sua portata, il bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    84.3,
+    203.0,
+    159.4,
+    212.1
+   ],
+   "size": 6.7,
+   "testo": "non effettua azioni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    217.8,
+    76.8,
+    226.5
+   ],
+   "size": 6.4,
+   "testo": "9-10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.1,
+    217.7,
+    228.8,
+    226.8
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio sceglie il comportamento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    236.6,
+    262.8,
+    245.2
+   ],
+   "size": 6.7,
+   "testo": "Alla fine di ogni suo turno, un bersaglio influenzato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    247.6,
+    281.8,
+    256.2
+   ],
+   "size": 6.7,
+   "testo": "ripete il tiro salvezza e, se lo supera, termina l'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    258.6,
+    83.5,
+    267.2
+   ],
+   "size": 6.7,
+   "testo": "su di sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    269.7,
+    255.3,
+    278.4
+   ],
+   "size": 6.4,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    280.7,
+    260.9,
+    289.3
+   ],
+   "size": 6.7,
+   "testo": "Il raggio della sfera aumenta di 1,5 metri per ogni slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    288.7,
+    146.9,
+    300.3
+   ],
+   "size": 6.7,
+   "testo": "di livello superiore al 4°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    324.6,
+    144.4,
+    334.7
+   ],
+   "size": 8.5,
+   "testo": "CONO DI FREDDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    334.8,
+    229.0,
+    346.5
+   ],
+   "size": 8.5,
+   "testo": "Invocazione di 5°livello(druido, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    352.3,
+    142.8,
+    361.3
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    363.3,
+    127.3,
+    372.4
+   ],
+   "size": 6.7,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    374.2,
+    269.8,
+    383.3
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S, M (un piccolo cono di cristallo o vetro)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    385.2,
+    123.4,
+    394.3
+   ],
+   "size": 6.7,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    402.8,
+    245.4,
+    411.4
+   ],
+   "size": 6.7,
+   "testo": "Un getto d'aria gelida si propaga dall'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    413.8,
+    267.2,
+    422.3
+   ],
+   "size": 6.7,
+   "testo": "Ogni creatura entro un cono di 18 metri che ha origine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    424.8,
+    278.7,
+    433.3
+   ],
+   "size": 6.7,
+   "testo": "dall'incantatore effettua un tiro salvezza su Costituzione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    435.7,
+    267.4,
+    444.3
+   ],
+   "size": 6.7,
+   "testo": "subendo 8d8 danni da freddo in caso di fallimento, o la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    446.7,
+    268.6,
+    455.3
+   ],
+   "size": 6.7,
+   "testo": "metà dei danni in caso di successo. Una creatura uccisa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    457.7,
+    280.4,
+    466.3
+   ],
+   "size": 6.7,
+   "testo": "da questo incantesimo si tramuta in una statua di ghiaccio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    468.6,
+    135.7,
+    477.2
+   ],
+   "size": 6.7,
+   "testo": "finché non si scioglie.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    479.7,
+    255.1,
+    488.4
+   ],
+   "size": 6.4,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    490.6,
+    259.7,
+    499.2
+   ],
+   "size": 6.7,
+   "testo": "I danni aumentano di 1d8 per ogni slot di livello supe­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    498.5,
+    93.6,
+    510.2
+   ],
+   "size": 6.7,
+   "testo": "riore al 5°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    534.4,
+    220.2,
+    545.7
+   ],
+   "size": 8.5,
+   "testo": "CONOSCENZA DELLE LEGGENDE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    544.6,
+    224.2,
+    556.5
+   ],
+   "size": 8.5,
+   "testo": "Divinazionedi 5°livello (bardo, chierico, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    561.8,
+    153.9,
+    571.3
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: 10 minuti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    573.3,
+    127.2,
+    582.3
+   ],
+   "size": 6.7,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    583.7,
+    269.2,
+    593.2
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S, M (incenso del valore di 250 mo o più,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    595.2,
+    278.9,
+    604.3
+   ],
+   "size": 6.7,
+   "testo": "che l'incantesimo consuma, e quattro bastoncini d'avorio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    605.7,
+    193.3,
+    615.3
+   ],
+   "size": 6.7,
+   "testo": "del valore di 50 mo o più ciascuno)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    617.3,
+    123.6,
+    626.3
+   ],
+   "size": 6.7,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    634.7,
+    268.0,
+    643.3
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore nomina o descrive una persona, un luogo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    645.7,
+    262.2,
+    654.2
+   ],
+   "size": 6.7,
+   "testo": "o un oggetto famosi. L'incantesimo riporta alla mente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    656.7,
+    259.0,
+    665.2
+   ],
+   "size": 6.7,
+   "testo": "dell'incantatore un breve riassunto delle conoscenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    667.7,
+    259.5,
+    676.3
+   ],
+   "size": 6.7,
+   "testo": "più significative relative a ciò che ha nominato, come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.3,
+    678.6,
+    121.2,
+    687.2
+   ],
+   "size": 6.7,
+   "testo": "descritto dal DM.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    38.5,
+    520.3,
+    47.0
+   ],
+   "size": 6.7,
+   "testo": "Queste conoscenze possono includere dettagli impor­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    49.5,
+    532.4,
+    58.1
+   ],
+   "size": 6.7,
+   "testo": "tanti, rivelazioni sorprendenti o persino conoscenze segrete",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    60.5,
+    523.6,
+    69.1
+   ],
+   "size": 6.7,
+   "testo": "che non sono note ai più. Più informazioni l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    71.5,
+    521.7,
+    80.1
+   ],
+   "size": 6.7,
+   "testo": "conosce già riguardo a ciò che ha nominato, più precise",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    82.6,
+    501.9,
+    91.1
+   ],
+   "size": 6.7,
+   "testo": "e dettagliate saranno le informazioni che riceverà.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    93.6,
+    529.6,
+    102.1
+   ],
+   "size": 6.7,
+   "testo": "L e informazioni che riceve sono accurate, ma potrebbero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    104.5,
+    519.0,
+    113.1
+   ],
+   "size": 6.7,
+   "testo": "essere celate da un linguaggio figurativo o sotto forma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    115.5,
+    444.8,
+    124.0
+   ],
+   "size": 6.7,
+   "testo": "di poesia, in base alla scelta del DM.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    126.5,
+    527.8,
+    135.0
+   ],
+   "size": 6.7,
+   "testo": "Se l'incantatore nomina qualche cosa che in realtà non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    137.5,
+    524.8,
+    146.2
+   ],
+   "size": 6.7,
+   "testo": "è famosa, sente il suono delle tristi note di un trombone,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    148.4,
+    396.7,
+    157.0
+   ],
+   "size": 6.7,
+   "testo": "e l'incantesimo fallisce.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    181.4,
+    362.1,
+    192.5
+   ],
+   "size": 8.5,
+   "testo": "CONTAGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    191.6,
+    460.7,
+    203.3
+   ],
+   "size": 8.5,
+   "testo": "Necromanzia di 5° livello (chierico, druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    209.2,
+    395.5,
+    218.3
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    220.2,
+    368.7,
+    229.3
+   ],
+   "size": 6.7,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    231.2,
+    373.6,
+    240.2
+   ],
+   "size": 6.7,
+   "testo": "Componente: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    241.7,
+    365.8,
+    251.2
+   ],
+   "size": 6.7,
+   "testo": "Durata: 7 giorni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    259.6,
+    520.0,
+    268.2
+   ],
+   "size": 6.7,
+   "testo": "Il tocco dell'incantatore trasmette un contagio magico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    270.6,
+    533.7,
+    279.2
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio deve superare un tiro salvezza su Costituzione,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    281.7,
+    523.5,
+    290.2
+   ],
+   "size": 6.7,
+   "testo": "altrimenti subirà lld8 danni necrotici e sarà avvelenato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    292.7,
+    529.5,
+    301.3
+   ],
+   "size": 6.7,
+   "testo": "Inoltre, quando l'incantatore lancia l'incantesimo, sceglie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    303.6,
+    526.0,
+    312.4
+   ],
+   "size": 6.7,
+   "testo": "una caratteristica. Mentre è avvelenato, il bersaglio subi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    314.6,
+    522.5,
+    323.2
+   ],
+   "size": 6.7,
+   "testo": "sce svantaggio ai tiri salvezza effettuati con la caratteri­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    325.6,
+    350.2,
+    334.2
+   ],
+   "size": 6.7,
+   "testo": "stica scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    336.7,
+    532.1,
+    345.2
+   ],
+   "size": 6.7,
+   "testo": "Il bersaglio deve ripetere il tiro salvezza alla fine di ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    347.6,
+    522.8,
+    356.2
+   ],
+   "size": 6.7,
+   "testo": "suo turno finché non raggiunge tre tiri superati o falliti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    358.6,
+    530.7,
+    367.2
+   ],
+   "size": 6.7,
+   "testo": "Se il bersaglio supera tre tiri salvezza, si libera dall'effetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    369.6,
+    524.0,
+    378.1
+   ],
+   "size": 6.7,
+   "testo": "dell'incantesimo. Se il bersaglio fallisce tre tiri salvezza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    380.5,
+    438.5,
+    389.2
+   ],
+   "size": 6.7,
+   "testo": "subisce l'incantesimo per 7 giorni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    391.6,
+    526.7,
+    400.1
+   ],
+   "size": 6.7,
+   "testo": "Ogni volta che il bersaglio avvelenato riceve un effetto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    402.8,
+    502.5,
+    411.3
+   ],
+   "size": 6.7,
+   "testo": "che porrebbe fine all'avvelenamento, deve riuscire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    413.7,
+    518.3,
+    422.3
+   ],
+   "size": 6.7,
+   "testo": "a superare un tiro salvezza su Costituzione, altrimenti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    424.7,
+    408.5,
+    433.2
+   ],
+   "size": 6.7,
+   "testo": "l'avvelenamento permane.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    457.4,
+    444.8,
+    467.5
+   ],
+   "size": 8.5,
+   "testo": "CONTATTARE ALTRI PIANI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    467.6,
+    451.9,
+    479.4
+   ],
+   "size": 8.5,
+   "testo": "Divinazione di 5°livello (mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    485.2,
+    438.6,
+    494.3
+   ],
+   "size": 6.7,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    496.2,
+    380.0,
+    505.2
+   ],
+   "size": 6.7,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    507.3,
+    362.5,
+    516.0
+   ],
+   "size": 6.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    518.3,
+    371.3,
+    527.3
+   ],
+   "size": 6.7,
+   "testo": "Durata: 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    535.6,
+    530.9,
+    544.2
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore contatta mentalmente un semidio, lo spirito",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    546.6,
+    516.8,
+    555.1
+   ],
+   "size": 6.7,
+   "testo": "di un sapiente defunto da tempo o qualche altra entità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    557.6,
+    523.8,
+    566.2
+   ],
+   "size": 6.7,
+   "testo": "saggia appartenente a un altro piano. Contattare questa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    568.6,
+    519.7,
+    577.1
+   ],
+   "size": 6.7,
+   "testo": "intelligenza ultraterrena può sconvolgere la sua mente:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    579.6,
+    513.6,
+    588.1
+   ],
+   "size": 6.7,
+   "testo": "quando l'incantatore lancia questo incantesimo, deve",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    590.5,
+    511.4,
+    599.1
+   ],
+   "size": 6.7,
+   "testo": "effettuare un tiro salvezza su Intelligenza con CD 15.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    601.5,
+    523.8,
+    610.1
+   ],
+   "size": 6.7,
+   "testo": "In caso di successo, l'incantatore può porre all'entità un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    612.6,
+    529.7,
+    621.1
+   ],
+   "size": 6.7,
+   "testo": "massimo di cinque domande prima del termine dell'incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.9,
+    623.6,
+    522.5,
+    632.2
+   ],
+   "size": 6.7,
+   "testo": "tesimo. Il DM risponde a ogni domanda con una parola,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    634.7,
+    533.7,
+    643.2
+   ],
+   "size": 6.7,
+   "testo": "ad esempio \"sì\", \"no\", \"forse\", \"mai\", \"irrilevante\" o \"ignoto\"",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    645.7,
+    533.8,
+    654.3
+   ],
+   "size": 6.7,
+   "testo": "(se l'entità non conosce la risposta alla domanda). Nel caso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    656.6,
+    527.9,
+    665.2
+   ],
+   "size": 6.7,
+   "testo": "in cui una risposta di una parola sola possa rivelarsi fuor­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    667.6,
+    524.6,
+    676.2
+   ],
+   "size": 6.7,
+   "testo": "viante, il DM può fornire come risposta una breve frase.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.8,
+    678.7,
+    521.4,
+    687.3
+   ],
+   "size": 6.7,
+   "testo": "In caso di fallimento,l'incantatore subisce 6d6 danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    689.6,
+    524.2,
+    698.3
+   ],
+   "size": 6.7,
+   "testo": "psichici ed è incapacitato finché non completa un riposo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    699.0,
+    533.1,
+    709.1
+   ],
+   "size": 8.5,
+   "testo": "lungo. Un incantesimoristorare superiore fa svanire questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    711.6,
+    333.2,
+    720.1
+   ],
+   "size": 6.7,
+   "testo": "effetto.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

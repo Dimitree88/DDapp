@@ -1,0 +1,679 @@
+{
+ "pagina_pdf": 140,
+ "pagina_stampata": 137,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   56,
+   14,
+   589,
+   783
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    57.5,
+    38.0,
+    214.5,
+    51.1
+   ],
+   "size": 9.7,
+   "testo": "GIURAMENTO DI GLORIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    55.5,
+    165.1,
+    64.9
+   ],
+   "size": 8.6,
+   "testo": "Raggiungi l'apice dell'eroismo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    69.1,
+    274.4,
+    79.7
+   ],
+   "size": 8.8,
+   "testo": "I paladini che prestano il Giuramento di Gloria credono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    80.1,
+    269.2,
+    90.7
+   ],
+   "size": 8.8,
+   "testo": "di essere destinati alla gloria assieme ai loro compagni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    91.1,
+    272.6,
+    101.7
+   ],
+   "size": 8.8,
+   "testo": "attraverso il compimento di atti di eroismo. Si allenano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    102.1,
+    275.9,
+    112.7
+   ],
+   "size": 8.8,
+   "testo": "diligentemente e incoraggiano i loro compagni, in modo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    113.0,
+    237.7,
+    123.6
+   ],
+   "size": 8.8,
+   "testo": "da essere pronti quando il destino li chiamerà.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    124.1,
+    191.3,
+    134.6
+   ],
+   "size": 8.8,
+   "testo": "Condividono i seguenti dettami:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    140.5,
+    239.7,
+    151.1
+   ],
+   "size": 8.8,
+   "testo": "Fai in modo che tutti conoscano le tue gesta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    151.5,
+    194.7,
+    162.1
+   ],
+   "size": 8.8,
+   "testo": "Affronta ogni sfida con coraggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.9,
+    162.5,
+    217.0,
+    173.1
+   ],
+   "size": 8.8,
+   "testo": "Ispira gli altri nella ricerca della gloria.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.9,
+    182.9,
+    251.7,
+    194.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: ATLETA IMPAREGGIABILE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    194.3,
+    270.8,
+    204.9
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il paladino può consumare un uso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    205.4,
+    277.0,
+    216.0
+   ],
+   "size": 8.8,
+   "testo": "di Incanalare Divinità per migliorare le proprie doti atle­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    216.3,
+    275.9,
+    226.9
+   ],
+   "size": 8.8,
+   "testo": "tiche. Per 1 ora, ottiene un vantaggio alle prove di Forza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.0,
+    227.4,
+    275.7,
+    238.0
+   ],
+   "size": 8.8,
+   "testo": "(Atletica) e Destrezza (Acrobazia), e la distanza dei suoi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    238.4,
+    284.7,
+    249.0
+   ],
+   "size": 8.8,
+   "testo": "salti in lungo e in alto aumenta di 3 metri (questa distanza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    249.3,
+    278.4,
+    259.9
+   ],
+   "size": 8.8,
+   "testo": "aggiuntiva ha un costo in movimento come di consueto).",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    269.8,
+    213.2,
+    281.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    280.6,
+    190.2,
+    292.0
+   ],
+   "size": 11.2,
+   "testo": "GIURAMENTO DI GLORIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    292.0,
+    263.7,
+    302.6
+   ],
+   "size": 8.8,
+   "testo": "La magia del giuramento del paladino gli consente di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    303.0,
+    274.3,
+    313.6
+   ],
+   "size": 8.8,
+   "testo": "avere sempre pronti determinati incantesimi. Una volta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    314.1,
+    276.3,
+    324.7
+   ],
+   "size": 8.8,
+   "testo": "raggiunto un livello specificato nella tabella Incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    324.9,
+    256.5,
+    335.5
+   ],
+   "size": 8.8,
+   "testo": "del Giuramento di Gloria, gli incantesimi lì elencati",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    335.9,
+    229.7,
+    346.5
+   ],
+   "size": 8.8,
+   "testo": "saranno sempre considerati come preparati.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    358.6,
+    271.8,
+    369.3
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL GIURAMENTO DI GLORIA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    373.4,
+    101.9,
+    384.0
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.5,
+    384.3,
+    100.6,
+    395.0
+   ],
+   "size": 10.6,
+   "testo": "paladino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.7,
+    384.3,
+    156.9,
+    395.0
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.5,
+    399.5,
+    85.0,
+    409.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.2,
+    399.9,
+    207.1,
+    409.1
+   ],
+   "size": 9.2,
+   "testo": "Dardo tracciante, eroismo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.6,
+    414.1,
+    85.1,
+    423.8
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.1,
+    414.6,
+    256.2,
+    423.8
+   ],
+   "size": 9.2,
+   "testo": "Caratteristica potenziata, arma magica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.2,
+    428.7,
+    85.3,
+    438.4
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.2,
+    429.2,
+    228.0,
+    438.4
+   ],
+   "size": 9.2,
+   "testo": "Velocità, protezione dall'energia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    77.7,
+    443.2,
+    88.7,
+    452.8
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.1,
+    443.7,
+    240.7,
+    452.9
+   ],
+   "size": 9.2,
+   "testo": "Compulsione, libertà di movimento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    77.7,
+    457.8,
+    88.7,
+    467.5
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.1,
+    458.3,
+    268.5,
+    467.5
+   ],
+   "size": 9.2,
+   "testo": "Conoscenza delle leggende, presenza regale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    109.7,
+    470.3,
+    149.6,
+    479.5
+   ],
+   "size": 9.2,
+   "testo": "di Yolande",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    493.5,
+    249.5,
+    504.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: PUNIZIONE ISPIRATRICE.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    505.0,
+    265.8,
+    515.6
+   ],
+   "size": 8.8,
+   "testo": "Subito dopo aver lanciato punizione divina, il paladino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    515.9,
+    235.2,
+    526.5
+   ],
+   "size": 8.8,
+   "testo": "può consumare un uso di Incanalare Divinità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    527.0,
+    241.8,
+    537.6
+   ],
+   "size": 8.8,
+   "testo": "e distribuire punti ferita temporanei a creature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    538.1,
+    251.6,
+    548.6
+   ],
+   "size": 8.8,
+   "testo": "a sua scelta entro 9 metri da sé (incluso se stesso).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    549.0,
+    226.3,
+    559.5
+   ],
+   "size": 8.8,
+   "testo": "Il numero totale di punti ferita temporanei,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    559.9,
+    228.6,
+    570.5
+   ],
+   "size": 8.8,
+   "testo": "da dividere a sua discrezione tra le creature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    570.9,
+    230.8,
+    581.5
+   ],
+   "size": 8.8,
+   "testo": "scelte, è pari a 2d8 + il livello da paladino del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    581.9,
+    108.0,
+    592.5
+   ],
+   "size": 8.8,
+   "testo": "personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    602.3,
+    217.8,
+    613.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: AURA DI ALACRITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    613.9,
+    228.9,
+    624.5
+   ],
+   "size": 8.8,
+   "testo": "La velocità del paladino aumenta di 3 metri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.8,
+    624.9,
+    228.2,
+    635.5
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, quando un alleato entra nell'Aura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    635.9,
+    228.8,
+    646.5
+   ],
+   "size": 8.8,
+   "testo": "di Protezione per la prima volta in un turno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.5,
+    647.0,
+    236.0,
+    657.6
+   ],
+   "size": 8.8,
+   "testo": "oppure lo comincia lì, la sua velocità aumenta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    658.0,
+    239.0,
+    668.5
+   ],
+   "size": 8.8,
+   "testo": "di 3 metri fino al termine del turno successivo.",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

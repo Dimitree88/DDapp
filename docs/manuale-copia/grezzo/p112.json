@@ -1,0 +1,1411 @@
+{
+ "pagina_pdf": 112,
+ "pagina_stampata": 109,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "",
+ "immagini": [
+  [
+   -1,
+   129,
+   590,
+   784
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    60.3,
+    41.5,
+    257.5,
+    52.0
+   ],
+   "size": 8.8,
+   "testo": "Focus da incantatore. Un ladro può usare un focus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    41.5,
+    475.3,
+    52.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 9: IMBOSCATA MAGICA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    52.4,
+    272.3,
+    63.0
+   ],
+   "size": 8.8,
+   "testo": "arcano come focus da incantatore per i suoi incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    52.9,
+    509.7,
+    63.5
+   ],
+   "size": 8.8,
+   "testo": "Se il ladro è invisibile quando lancia un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    63.5,
+    89.1,
+    74.1
+   ],
+   "size": 8.8,
+   "testo": "da mago.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    63.9,
+    522.3,
+    74.4
+   ],
+   "size": 8.8,
+   "testo": "su una creatura, questa avrà svantaggio a qualsiasi tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    74.9,
+    522.8,
+    85.5
+   ],
+   "size": 8.8,
+   "testo": "salvezza da effettuare contro l'incantesimo nello stesso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    86.3,
+    266.2,
+    97.0
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL MISTIFICATORE ARCANO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    86.0,
+    331.8,
+    96.6
+   ],
+   "size": 8.8,
+   "testo": "turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.6,
+    102.0,
+    267.1,
+    112.7
+   ],
+   "size": 10.6,
+   "testo": "-Slot incantesimo per livello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    106.3,
+    507.3,
+    117.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 13: INGANNATORE VERSATILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    117.4,
+    138.3,
+    128.2
+   ],
+   "size": 10.6,
+   "testo": "Livello Incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    175.8,
+    113.1,
+    241.0,
+    123.8
+   ],
+   "size": 10.6,
+   "testo": "di incantesimo-",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    117.7,
+    532.2,
+    128.3
+   ],
+   "size": 8.8,
+   "testo": "Il ladro ottiene la capacità di distrarre i bersagli con mano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    128.4,
+    132.6,
+    139.1
+   ],
+   "size": 10.6,
+   "testo": "da ladro preparati",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.1,
+    128.8,
+    194.3,
+    138.0
+   ],
+   "size": 8.2,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    224.7,
+    128.7,
+    230.5,
+    137.9
+   ],
+   "size": 8.2,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    260.7,
+    128.6,
+    267.2,
+    137.9
+   ],
+   "size": 8.2,
+   "testo": "4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    128.7,
+    515.7,
+    139.3
+   ],
+   "size": 8.8,
+   "testo": "magica. Quando usa l'opzione Inciampo del suo Colpo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.9,
+    143.9,
+    75.4,
+    153.5
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.5,
+    143.8,
+    117.0,
+    153.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.0,
+    143.7,
+    157.9,
+    153.4
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    139.7,
+    522.7,
+    150.3
+   ],
+   "size": 8.8,
+   "testo": "Astuto su una creatura, può applicarla anche a un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    69.4,
+    158.5,
+    75.6,
+    168.1
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.0,
+    158.4,
+    117.3,
+    168.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.2,
+    158.4,
+    157.7,
+    168.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    150.8,
+    486.8,
+    161.3
+   ],
+   "size": 8.8,
+   "testo": "bersaglio entro 1,5 metri dalla mano spettrale.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.0,
+    173.1,
+    75.5,
+    182.7
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.0,
+    173.0,
+    117.3,
+    182.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.2,
+    173.0,
+    157.7,
+    182.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    171.2,
+    495.9,
+    182.6
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 17: LADRO DI INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.6,
+    187.8,
+    75.7,
+    197.4
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.0,
+    187.6,
+    117.3,
+    197.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.2,
+    187.6,
+    157.7,
+    197.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    182.6,
+    531.7,
+    193.2
+   ],
+   "size": 8.8,
+   "testo": "Il ladro ottiene la capacità di rubare magicamente le cono-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    70.0,
+    202.3,
+    75.7,
+    211.9
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.6,
+    202.2,
+    117.1,
+    211.8
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.7,
+    202.2,
+    157.9,
+    211.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.4,
+    202.1,
+    194.4,
+    211.8
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    193.6,
+    524.3,
+    204.2
+   ],
+   "size": 8.8,
+   "testo": "scenze necessarie per lanciare un incantesimo prodotto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    204.8,
+    400.0,
+    215.4
+   ],
+   "size": 8.8,
+   "testo": "da un altro incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.6,
+    216.9,
+    75.7,
+    226.5
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.4,
+    216.9,
+    117.4,
+    226.6
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.8,
+    216.7,
+    158.1,
+    226.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.4,
+    216.7,
+    194.4,
+    226.3
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    215.6,
+    518.8,
+    226.2
+   ],
+   "size": 8.8,
+   "testo": "Subito dopo che una creatura lancia un incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    69.7,
+    232.2,
+    75.8,
+    241.8
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.4,
+    232.2,
+    117.4,
+    241.8
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.7,
+    232.0,
+    157.9,
+    241.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.4,
+    232.0,
+    194.4,
+    241.6
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    226.7,
+    521.1,
+    237.3
+   ],
+   "size": 8.8,
+   "testo": "contro il ladro o che lo include nella sua area di effetto,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    67.8,
+    246.7,
+    79.4,
+    256.4
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.6,
+    246.6,
+    194.1,
+    256.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    237.7,
+    535.3,
+    248.3
+   ],
+   "size": 8.8,
+   "testo": "il ladro può usare una reazione per costringere la creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    111.6,
+    246.6,
+    117.3,
+    256.3
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.7,
+    246.6,
+    157.9,
+    256.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    248.7,
+    522.1,
+    259.2
+   ],
+   "size": 8.8,
+   "testo": "a effettuare un tiro salvezza su Intelligenza. La CD equi-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.2,
+    261.3,
+    77.9,
+    270.9
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.4,
+    261.3,
+    117.4,
+    270.9
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.7,
+    261.1,
+    157.9,
+    270.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.7,
+    261.2,
+    194.2,
+    270.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    259.7,
+    523.9,
+    270.3
+   ],
+   "size": 8.8,
+   "testo": "vale alla CD del tiro salvezza sull'incantesimo del ladro.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.2,
+    276.0,
+    79.2,
+    285.6
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.4,
+    276.0,
+    117.4,
+    285.6
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.8,
+    275.9,
+    158.1,
+    285.5
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.7,
+    275.9,
+    194.2,
+    285.6
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    270.8,
+    528.7,
+    281.3
+   ],
+   "size": 8.8,
+   "testo": "In caso di fallimento, il ladro annulla gli effetti dell'incan-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    188.7,
+    290.4,
+    194.2,
+    300.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    224.9,
+    290.3,
+    230.9,
+    300.0
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    281.8,
+    533.7,
+    292.3
+   ],
+   "size": 8.8,
+   "testo": "tesimo su di sé e ne ruba le conoscenze se questo è almeno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.2,
+    290.6,
+    79.2,
+    300.2
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.4,
+    290.5,
+    117.4,
+    300.1
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.8,
+    290.4,
+    158.1,
+    300.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    290.6,
+    514.8,
+    303.3
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello o di un livello utilizzabile dal personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.1,
+    305.2,
+    79.3,
+    314.8
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.6,
+    305.1,
+    121.2,
+    314.8
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.8,
+    305.0,
+    158.1,
+    314.6
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.7,
+    305.1,
+    194.2,
+    314.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    224.9,
+    305.0,
+    230.9,
+    314.6
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    303.8,
+    511.2,
+    314.4
+   ],
+   "size": 8.8,
+   "testo": "(non deve per forza essere un incantesimo da mago).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.2,
+    319.7,
+    79.5,
+    329.3
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.6,
+    319.7,
+    121.2,
+    329.3
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.8,
+    319.6,
+    158.1,
+    329.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.7,
+    319.6,
+    194.2,
+    329.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    224.9,
+    319.5,
+    230.9,
+    329.1
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    314.8,
+    523.3,
+    325.3
+   ],
+   "size": 8.8,
+   "testo": "Per le prossime 8 ore, l'incantesimo è considerato come",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.1,
+    334.3,
+    79.5,
+    343.9
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.9,
+    334.1,
+    119.7,
+    343.7
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.8,
+    334.1,
+    158.1,
+    343.7
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.7,
+    334.1,
+    194.2,
+    343.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    225.2,
+    334.1,
+    230.7,
+    343.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    325.6,
+    528.3,
+    336.2
+   ],
+   "size": 8.8,
+   "testo": "preparato. La creatura vittima del furto, invece, non può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    336.7,
+    490.6,
+    347.3
+   ],
+   "size": 8.8,
+   "testo": "più utilizzarlo finché non sono passate le 8 ore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.3,
+    348.8,
+    79.4,
+    358.4
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.8,
+    348.7,
+    119.8,
+    358.4
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.8,
+    348.6,
+    158.1,
+    358.2
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.7,
+    348.6,
+    194.2,
+    358.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    225.2,
+    348.6,
+    230.7,
+    358.3
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.6,
+    347.7,
+    510.7,
+    358.2
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver rubato un incantesimo in questo modo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.1,
+    363.4,
+    79.5,
+    373.0
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.9,
+    363.3,
+    119.7,
+    372.9
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    151.8,
+    363.2,
+    158.1,
+    372.8
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.8,
+    363.2,
+    194.3,
+    372.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    225.2,
+    363.2,
+    230.7,
+    372.8
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    358.6,
+    513.9,
+    369.2
+   ],
+   "size": 8.8,
+   "testo": "il ladro non può più utilizzare il privilegio finché non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.1,
+    377.9,
+    79.5,
+    387.6
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.8,
+    377.9,
+    121.1,
+    387.5
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.0,
+    377.8,
+    158.2,
+    387.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.8,
+    377.8,
+    194.3,
+    387.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    225.2,
+    377.7,
+    230.7,
+    387.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    369.7,
+    408.8,
+    380.3
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    392.6,
+    78.5,
+    402.2
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.8,
+    392.5,
+    120.9,
+    402.2
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    152.0,
+    392.4,
+    158.2,
+    402.0
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    188.8,
+    392.4,
+    194.3,
+    402.1
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    225.2,
+    392.4,
+    230.7,
+    402.0
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": false
+  }
+ ]
+}

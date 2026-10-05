@@ -1,0 +1,1333 @@
+{
+ "pagina_pdf": 11,
+ "pagina_stampata": 8,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "8 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [
+  [
+   36,
+   468,
+   277,
+   721
+  ],
+  [
+   276,
+   619,
+   529,
+   714
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    49.0,
+    38.3,
+    187.9,
+    54.9
+   ],
+   "size": 12.9,
+   "testo": "RITMO DI GIOCO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.8,
+    56.4,
+    271.2,
+    67.0
+   ],
+   "size": 8.8,
+   "testo": "I tre pilastri principali di D&D sono le interazioni sociali,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.5,
+    67.4,
+    263.7,
+    77.9
+   ],
+   "size": 8.8,
+   "testo": "l'esplorazione e il combattimento. Qualunque sia l'espe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.5,
+    78.4,
+    275.1,
+    89.0
+   ],
+   "size": 8.8,
+   "testo": "rienza, il gioco si sviluppa secondo questo schema di base:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.3,
+    94.8,
+    278.0,
+    105.4
+   ],
+   "size": 8.8,
+   "testo": "1: Il Dungeon Master descrive unascena. Il DM descrive",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    105.8,
+    270.4,
+    116.4
+   ],
+   "size": 8.8,
+   "testo": "ai giocatori il luogo in cui si trovano i rispettivi avven­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    116.8,
+    278.6,
+    127.3
+   ],
+   "size": 8.8,
+   "testo": "turieri e cosa li circonda (quante porte conducono fuori",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    127.7,
+    242.0,
+    138.2
+   ],
+   "size": 8.8,
+   "testo": "da una stanza, cosa c'è su un tavolo e così via).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.5,
+    140.5,
+    263.9,
+    149.1
+   ],
+   "size": 8.4,
+   "testo": "2: I giocatori descrivono come agiscono i loro perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    149.7,
+    259.3,
+    160.3
+   ],
+   "size": 8.8,
+   "testo": "naggi. In genere, i personaggi restano uniti mentre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    160.8,
+    272.7,
+    171.3
+   ],
+   "size": 8.8,
+   "testo": "attraversano un dungeon o un altro ambiente. A volte,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    171.8,
+    258.0,
+    182.4
+   ],
+   "size": 8.8,
+   "testo": "i singoli avventurieri potrebbero fare cose diverse:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    182.8,
+    273.1,
+    193.4
+   ],
+   "size": 8.8,
+   "testo": "uno potrebbe rovistare in un forziere, mentre un altro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    193.8,
+    265.8,
+    204.3
+   ],
+   "size": 8.8,
+   "testo": "esamina un misterioso simbolo tracciato su un muro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    204.9,
+    262.8,
+    215.4
+   ],
+   "size": 8.8,
+   "testo": "e un terzo fa la guardia nel caso arrivino dei mostri.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    215.9,
+    262.1,
+    226.5
+   ],
+   "size": 8.8,
+   "testo": "Fuori dal combattimento, il DM si assicura che ogni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    226.8,
+    270.5,
+    237.4
+   ],
+   "size": 8.8,
+   "testo": "personaggio abbia la possibilità di agire e decide come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    237.8,
+    273.2,
+    248.4
+   ],
+   "size": 8.8,
+   "testo": "risolvere la sua azione. In combattimento, i personaggi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    248.9,
+    128.7,
+    259.4
+   ],
+   "size": 8.8,
+   "testo": "agiscono a turno.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.5,
+    261.5,
+    278.1,
+    270.5
+   ],
+   "size": 8.4,
+   "testo": "3: Il DM narra i risultati delle azioni degli avventurieri.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.0,
+    270.9,
+    276.0,
+    281.4
+   ],
+   "size": 8.8,
+   "testo": "A volte, risolvere un'azione è facile. Se un avventuriero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    281.9,
+    253.1,
+    292.5
+   ],
+   "size": 8.8,
+   "testo": "attraversa una stanza e cerca di aprire una porta,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    293.0,
+    262.6,
+    303.5
+   ],
+   "size": 8.8,
+   "testo": "il DM potrebbe dire che la porta si apre e descrivere",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    303.9,
+    261.1,
+    314.4
+   ],
+   "size": 8.8,
+   "testo": "ciò che si trova oltre la soglia. Ma la porta potrebbe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.2,
+    314.9,
+    262.0,
+    325.5
+   ],
+   "size": 8.8,
+   "testo": "essere chiusa a chiave, il pavimento potrebbe celare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    325.9,
+    266.7,
+    336.5
+   ],
+   "size": 8.8,
+   "testo": "una trappola, o altre circostanze potrebbero rendere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.1,
+    336.9,
+    274.1,
+    347.4
+   ],
+   "size": 8.8,
+   "testo": "più arduo per un avventuriero completare un compito.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    347.8,
+    268.5,
+    358.4
+   ],
+   "size": 8.8,
+   "testo": "In questi casi, il DM potrebbe chiedere al giocatore di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.1,
+    358.8,
+    270.7,
+    369.4
+   ],
+   "size": 8.8,
+   "testo": "tirare un dado per determinare cosa accade. La descri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.2,
+    369.8,
+    267.3,
+    380.3
+   ],
+   "size": 8.8,
+   "testo": "zione dei risultati in genere conduce a un altro snodo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.2,
+    380.7,
+    224.1,
+    391.3
+   ],
+   "size": 8.8,
+   "testo": "decisionale, che riporta il gioco al punto 1.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.4,
+    397.2,
+    243.6,
+    407.8
+   ],
+   "size": 8.8,
+   "testo": "Questo schema è valido per ogni sessione di gioco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    408.3,
+    256.2,
+    418.9
+   ],
+   "size": 8.8,
+   "testo": "(ognivolta che ci si siede a giocare a D&D), sia che gli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    419.3,
+    273.8,
+    429.9
+   ],
+   "size": 8.8,
+   "testo": "avventurieri stiano parlando con un nobile, sia che stiano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.3,
+    430.2,
+    269.3,
+    440.8
+   ],
+   "size": 8.8,
+   "testo": "esplorando delle rovine o combattendo contro un drago.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.4,
+    441.3,
+    277.1,
+    451.9
+   ],
+   "size": 8.8,
+   "testo": "In certe situazioni, specialmente in combattimento, l'azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.3,
+    452.2,
+    244.4,
+    462.8
+   ],
+   "size": 8.8,
+   "testo": "è più strutturata e tutti devono svolgere dei turni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    476.3,
+    252.0,
+    487.0
+   ],
+   "size": 10.6,
+   "testo": "LE ECCEZIONI SOSTITUISCONO LE REGOLE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    488.3,
+    104.6,
+    499.0
+   ],
+   "size": 10.6,
+   "testo": "GENERALI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    501.9,
+    255.4,
+    511.5
+   ],
+   "size": 8.4,
+   "testo": "Ogni parte del gioco è governata da regole generali:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    512.9,
+    250.3,
+    522.6
+   ],
+   "size": 8.4,
+   "testo": "secondo le regole di combattimento, per esempio,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    523.0,
+    249.6,
+    533.7
+   ],
+   "size": 8.8,
+   "testo": "gli attacchi in mischia usano la Forza e gli attacchi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.5,
+    535.0,
+    265.4,
+    544.6
+   ],
+   "size": 8.4,
+   "testo": "a distanza la Destrezza. Questa è una regola generale,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    57.4,
+    545.9,
+    254.5,
+    555.6
+   ],
+   "size": 8.4,
+   "testo": "che è valida finché qualcosa nel gioco non asserisce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    557.0,
+    160.4,
+    566.6
+   ],
+   "size": 8.4,
+   "testo": "esplicitamente il contrario.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.4,
+    567.9,
+    247.2,
+    577.5
+   ],
+   "size": 8.4,
+   "testo": "Il gioco contiene anche elementi, come privilegi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    578.9,
+    250.9,
+    588.5
+   ],
+   "size": 8.4,
+   "testo": "di classe, talenti, proprietà delle armi, incantesimi,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.4,
+    589.9,
+    255.1,
+    599.5
+   ],
+   "size": 8.4,
+   "testo": "oggetti magici, abilità dei mostri e altro ancora, che",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    600.9,
+    247.9,
+    610.5
+   ],
+   "size": 8.4,
+   "testo": "talvolta contraddicono le regole generali. Quando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.6,
+    612.0,
+    259.6,
+    621.6
+   ],
+   "size": 8.4,
+   "testo": "una regola generale e un'eccezione si contraddicono,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    623.0,
+    257.8,
+    632.6
+   ],
+   "size": 8.4,
+   "testo": "è l'eccezione a vincere. Per esempio, se un privilegio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    634.0,
+    264.4,
+    643.7
+   ],
+   "size": 8.4,
+   "testo": "dice che una creatura può effettuare attacchi in mischia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    58.0,
+    645.0,
+    251.5,
+    654.6
+   ],
+   "size": 8.4,
+   "testo": "usando il proprio Carisma, potrà farlo anche se ciò",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    656.0,
+    175.4,
+    665.6
+   ],
+   "size": 8.4,
+   "testo": "contraddice la regola generale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.6,
+    38.3,
+    483.9,
+    54.9
+   ],
+   "size": 12.9,
+   "testo": "UN GIOCO CONTINUO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    56.5,
+    513.6,
+    67.0
+   ],
+   "size": 8.8,
+   "testo": "A volte una sessione di D&D corrisponde a una partita",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.5,
+    67.5,
+    526.0,
+    78.0
+   ],
+   "size": 8.8,
+   "testo": "completa (spesso chiamata \"one-shot\"), in cui si gioca una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.0,
+    78.5,
+    517.7,
+    89.1
+   ],
+   "size": 8.8,
+   "testo": "breve avventura che dura solo una sessione. Più spesso,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    89.5,
+    520.6,
+    100.1
+   ],
+   "size": 8.8,
+   "testo": "però, le sessioni di D&D fanno parte di un'avventura più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.1,
+    100.5,
+    524.8,
+    111.1
+   ],
+   "size": 8.8,
+   "testo": "lunga che richiede diverse sessioni per essere completata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.6,
+    111.4,
+    521.5,
+    122.0
+   ],
+   "size": 8.8,
+   "testo": "In questo caso, le avventure si possono inanellare in una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    122.4,
+    467.8,
+    133.0
+   ],
+   "size": 8.8,
+   "testo": "narrazione più ampia chiamata campagna.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    133.4,
+    512.7,
+    144.0
+   ],
+   "size": 8.8,
+   "testo": "Una campagna è paragonabile a una serie televisiva,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    144.5,
+    520.7,
+    155.0
+   ],
+   "size": 8.8,
+   "testo": "mentre un'avventura equivale a una stagione della serie.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    155.4,
+    528.9,
+    166.0
+   ],
+   "size": 8.8,
+   "testo": "Una sessione di gioco, dunque, è come un singolo episodio:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    166.5,
+    514.6,
+    177.1
+   ],
+   "size": 8.8,
+   "testo": "può essere autoconclusivo, ma di solito si collega a una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    177.5,
+    421.4,
+    188.1
+   ],
+   "size": 8.8,
+   "testo": "trama più ampia, se ce n'è una.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.4,
+    197.6,
+    377.3,
+    210.7
+   ],
+   "size": 9.7,
+   "testo": "AVVENTURE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    214.2,
+    507.3,
+    224.8
+   ],
+   "size": 8.8,
+   "testo": "Un'avventura può essere creata dal Dungeon Master",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    225.1,
+    518.0,
+    235.7
+   ],
+   "size": 8.8,
+   "testo": "o acquistata (gli esempi di gioco di questo capitolo sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    236.2,
+    527.7,
+    246.7
+   ],
+   "size": 8.8,
+   "testo": "ispirati a un'avventura pubblicata, LaMaledizionediStrahd).",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.8,
+    247.1,
+    518.1,
+    257.7
+   ],
+   "size": 8.8,
+   "testo": "In entrambi i casi, è caratterizzata da un'ambientazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    258.1,
+    511.0,
+    268.7
+   ],
+   "size": 8.8,
+   "testo": "fantastica, come un dungeon sotterraneo, una meravi­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    269.2,
+    517.8,
+    279.7
+   ],
+   "size": 8.8,
+   "testo": "gliosa terra selvaggia o una città incantata. L'avventura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    280.2,
+    524.0,
+    290.8
+   ],
+   "size": 8.8,
+   "testo": "include un cast di personaggi non giocanti controllati dal",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.7,
+    291.2,
+    514.0,
+    301.8
+   ],
+   "size": 8.8,
+   "testo": "DM. Spesso uno dei PNG è un nemico i cui piani mette­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    302.2,
+    510.8,
+    312.8
+   ],
+   "size": 8.8,
+   "testo": "ranno in moto gran parte dell'azione di un'avventura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.4,
+    313.2,
+    516.7,
+    323.8
+   ],
+   "size": 8.8,
+   "testo": "Durante un'avventura, gli avventurieri si troveranno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    324.2,
+    528.6,
+    334.8
+   ],
+   "size": 8.8,
+   "testo": "di fronte ad ambienti, eventi e creature presentati dal DM.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.4,
+    335.2,
+    522.0,
+    345.8
+   ],
+   "size": 8.8,
+   "testo": "Nelle loro esplorazioni, avranno a che fare con battaglie,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.7,
+    346.1,
+    466.9,
+    356.6
+   ],
+   "size": 8.8,
+   "testo": "trappole, trattative, misteri e altro ancora.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    357.1,
+    529.9,
+    367.7
+   ],
+   "size": 8.8,
+   "testo": "La lunghezza e la complessità delle avventure può variare.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    368.1,
+    519.6,
+    378.7
+   ],
+   "size": 8.8,
+   "testo": "Un'avventura breve potrebbe presentare soltanto poche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.2,
+    379.1,
+    525.4,
+    389.6
+   ],
+   "size": 8.8,
+   "testo": "sfide e richiedere una sola sessione per essere completata.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    390.1,
+    508.4,
+    400.6
+   ],
+   "size": 8.8,
+   "testo": "Un'avventura lunga potrebbe includere molti combat­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.0,
+    401.2,
+    509.2,
+    411.8
+   ],
+   "size": 8.8,
+   "testo": "timenti, interazioni e altre sfide e richiedere decine di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.2,
+    412.2,
+    334.8,
+    422.7
+   ],
+   "size": 8.8,
+   "testo": "sessioni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    432.3,
+    370.2,
+    445.4
+   ],
+   "size": 9.7,
+   "testo": "CAMPAGNE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.7,
+    448.8,
+    522.0,
+    459.3
+   ],
+   "size": 8.8,
+   "testo": "Una campagna consiste in una serie di avventure con un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.5,
+    459.7,
+    522.4,
+    470.3
+   ],
+   "size": 8.8,
+   "testo": "gruppo costante di avventurieri che segue la narrazione.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    470.7,
+    515.2,
+    481.2
+   ],
+   "size": 8.8,
+   "testo": "Alcune campagne sono episodiche, in cui ogni avven­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    481.8,
+    527.3,
+    492.3
+   ],
+   "size": 8.8,
+   "testo": "tura è una storia a sé stante e non c'è molto che la colleghi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.0,
+    492.7,
+    522.6,
+    503.3
+   ],
+   "size": 8.8,
+   "testo": "a quella successiva, a parte i personaggi giocanti. Altre si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.9,
+    503.7,
+    530.0,
+    514.3
+   ],
+   "size": 8.8,
+   "testo": "basano su trame di lunga durata, un cast di PNG ricorrenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.0,
+    514.8,
+    517.1,
+    525.4
+   ],
+   "size": 8.8,
+   "testo": "e temi che si sviluppano in più avventure e che portano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.0,
+    525.8,
+    413.3,
+    536.3
+   ],
+   "size": 8.8,
+   "testo": "a una conclusione definitiva.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    536.8,
+    510.3,
+    547.4
+   ],
+   "size": 8.8,
+   "testo": "Come per le avventure, un DM può creare una cam­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.9,
+    547.8,
+    505.0,
+    558.4
+   ],
+   "size": 8.8,
+   "testo": "pagna da zero, costruire una campagna partendo da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.0,
+    558.8,
+    524.3,
+    569.4
+   ],
+   "size": 8.8,
+   "testo": "avventure pubblicate, o mescolare materiale fatto in casa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.9,
+    569.7,
+    527.8,
+    580.3
+   ],
+   "size": 8.8,
+   "testo": "con materiale pubblicato. La campagna potrebbe svolgersi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.9,
+    580.7,
+    524.2,
+    591.3
+   ],
+   "size": 8.8,
+   "testo": "in un mondo creato dal DM o in un'ambientazione pubbli­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    591.8,
+    517.9,
+    602.3
+   ],
+   "size": 8.8,
+   "testo": "cata, come Forgotten Realms o Greyhawk (quest'ultima",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.9,
+    602.7,
+    467.1,
+    613.3
+   ],
+   "size": 8.8,
+   "testo": "è descritta nella Guida del Dungeon Master).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    627.1,
+    441.3,
+    637.8
+   ],
+   "size": 10.6,
+   "testo": "ARROTONDARE PER DIFETTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    640.8,
+    514.9,
+    650.4
+   ],
+   "size": 8.4,
+   "testo": "Ogni volta che è necessario dividere o moltiplicare un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    651.8,
+    509.0,
+    661.4
+   ],
+   "size": 8.4,
+   "testo": "numero nel gioco, si deve arrotondare per difetto se",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    662.9,
+    510.2,
+    672.6
+   ],
+   "size": 8.4,
+   "testo": "il risultato è una frazione, anche nel caso in cui la fra­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    673.8,
+    516.5,
+    683.4
+   ],
+   "size": 8.4,
+   "testo": "zione raggiunga o superi la metà. Alcune regole fanno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    684.7,
+    505.3,
+    694.3
+   ],
+   "size": 8.4,
+   "testo": "eccezione e specificano di arrotondare per eccesso.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

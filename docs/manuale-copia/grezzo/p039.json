@@ -1,0 +1,1447 @@
+{
+ "pagina_pdf": 39,
+ "pagina_stampata": 36,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "36 / CAPITOLO 2 I CREARE UN PERSONAGGIO",
+ "immagini": [
+  [
+   48,
+   27,
+   283,
+   206
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.3,
+    199.5,
+    62.0,
+    205.8
+   ],
+   "size": 4.9,
+   "testo": "..",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    35.7,
+    176.4,
+    46.4
+   ],
+   "size": 10.6,
+   "testo": "UN GRUPPO BILANCIATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    49.4,
+    271.1,
+    59.0
+   ],
+   "size": 8.4,
+   "testo": "Il gruppo classico di D&D è formato da un chierico, un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    60.5,
+    268.7,
+    70.1
+   ],
+   "size": 8.4,
+   "testo": "guerriero, un ladro e un mago. Queste sono le quattro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    71.4,
+    269.1,
+    81.0
+   ],
+   "size": 8.4,
+   "testo": "classi con la storia più lunga del gioco, ma soprattutto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    82.4,
+    254.1,
+    92.1
+   ],
+   "size": 8.4,
+   "testo": "apportano un insieme equilibrato di capacità nelle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.0,
+    93.4,
+    260.0,
+    103.0
+   ],
+   "size": 8.4,
+   "testo": "avventure. I giocatori sono liberi di utilizzare questa",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    104.4,
+    256.2,
+    114.0
+   ],
+   "size": 8.4,
+   "testo": "formazione o di modificarla seguendo queste linee",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    115.4,
+    86.3,
+    125.0
+   ],
+   "size": 8.4,
+   "testo": "guida:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.8,
+    130.8,
+    234.5,
+    140.4
+   ],
+   "size": 8.4,
+   "testo": "Chierico. Sostituire con un bardo o un druido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    141.8,
+    249.7,
+    151.5
+   ],
+   "size": 8.4,
+   "testo": "Guerriero. Sostituire con un barbaro, un monaco,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.8,
+    152.9,
+    161.7,
+    162.5
+   ],
+   "size": 8.4,
+   "testo": "un paladino o un ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.4,
+    163.9,
+    224.5,
+    173.5
+   ],
+   "size": 8.4,
+   "testo": "Ladro. Sostituire con un bardo o un ranger",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    174.9,
+    233.2,
+    184.6
+   ],
+   "size": 8.4,
+   "testo": "Mago. Sostituire con un bardo, uno stregone",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.2,
+    185.9,
+    116.1,
+    195.5
+   ],
+   "size": 8.4,
+   "testo": "o un warlock",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    211.5,
+    166.1,
+    222.8
+   ],
+   "size": 11.2,
+   "testo": "SCRIVERE IL LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    270.8,
+    199.4,
+    279.7,
+    205.7
+   ],
+   "size": 4.9,
+   "testo": "..",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    222.8,
+    274.7,
+    233.4
+   ],
+   "size": 8.8,
+   "testo": "Scrivi il livello del personaggio sulla scheda del personag­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    231.6,
+    280.5,
+    244.4
+   ],
+   "size": 8.8,
+   "testo": "gio. In genere, il personaggio inizia al 1° livello e tramite le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    244.8,
+    274.5,
+    255.4
+   ],
+   "size": 8.8,
+   "testo": "avventure a cui partecipa guadagna dei punti esperienza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    255.8,
+    230.9,
+    266.4
+   ],
+   "size": 8.8,
+   "testo": "(PE) che gli consentono di avanzare di livello.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    266.8,
+    272.1,
+    277.4
+   ],
+   "size": 8.8,
+   "testo": "Scrivere i PE. Annota anche i punti esperienza. Un per­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    277.9,
+    163.9,
+    288.4
+   ],
+   "size": 8.8,
+   "testo": "sonaggio di livello 1 ha O PE.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    289.0,
+    257.0,
+    299.5
+   ],
+   "size": 8.8,
+   "testo": "Iniziare a un livello superiore. Il DM potrebbe farti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    299.9,
+    270.9,
+    310.4
+   ],
+   "size": 8.8,
+   "testo": "iniziare a un livello superiore. Se parti da un livello pari",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    308.7,
+    268.5,
+    321.4
+   ],
+   "size": 8.8,
+   "testo": "o superiore al 3°, scrivi la sottoclasse scelta sulla scheda",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    321.9,
+    281.4,
+    332.4
+   ],
+   "size": 8.8,
+   "testo": "del personaggio. Per ulteriori informazioni, vedi la sezione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    332.9,
+    249.3,
+    343.4
+   ],
+   "size": 8.8,
+   "testo": "\"Iniziare a livelli superiori\" più avanti nel capitolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    353.2,
+    237.1,
+    364.5
+   ],
+   "size": 11.2,
+   "testo": "ANNOTARE LA COMPETENZA NELLE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    363.9,
+    112.5,
+    375.3
+   ],
+   "size": 11.2,
+   "testo": "ARMATURE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    375.3,
+    272.7,
+    385.9
+   ],
+   "size": 8.8,
+   "testo": "La tua classe potrebbe fornirti addestramento con deter­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    386.3,
+    280.4,
+    396.9
+   ],
+   "size": 8.8,
+   "testo": "minate categorie di armature. Annota la competenza nelle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    397.3,
+    267.3,
+    407.9
+   ],
+   "size": 8.8,
+   "testo": "armature sulla scheda del personaggio. La competenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    408.5,
+    268.5,
+    419.1
+   ],
+   "size": 8.8,
+   "testo": "in un tipo di armatura significa che quell'armatura può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.4,
+    419.4,
+    282.1,
+    430.0
+   ],
+   "size": 8.8,
+   "testo": "essere indossata in modo efficace, ottenendo da essa bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    430.4,
+    259.6,
+    441.0
+   ],
+   "size": 8.8,
+   "testo": "difensivi. Le categorie di armature sono descritte nel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    441.4,
+    94.0,
+    452.0
+   ],
+   "size": 8.8,
+   "testo": "capitolo 6.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    461.8,
+    173.3,
+    473.1
+   ],
+   "size": 11.2,
+   "testo": "1ÌENI TUTTO A MENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    473.2,
+    257.4,
+    483.8
+   ],
+   "size": 8.8,
+   "testo": "Aggiungerai ulteriori dettagli sulla classe più avanti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    484.2,
+    269.1,
+    494.7
+   ],
+   "size": 8.8,
+   "testo": "La scelta della classe è la decisione più importante nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    495.1,
+    269.5,
+    505.7
+   ],
+   "size": 8.8,
+   "testo": "creazione di un personaggio e riguarda molte delle deci­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    506.2,
+    261.3,
+    516.8
+   ],
+   "size": 8.8,
+   "testo": "sioni che prenderai nelle fasi successive. Tornerai alla",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    517.2,
+    275.8,
+    527.8
+   ],
+   "size": 8.8,
+   "testo": "descrizione della classe nel capitolo 3 diversevolte prima",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    528.3,
+    193.1,
+    538.8
+   ],
+   "size": 8.8,
+   "testo": "di considerare questa fase conclusa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    540.9,
+    266.7,
+    562.4
+   ],
+   "size": 10.8,
+   "testo": "FASE 2 :DETERMINARE LE ORIGINI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    564.9,
+    268.2,
+    575.4
+   ],
+   "size": 8.8,
+   "testo": "Per determinare le origini del personaggio è necessario",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    575.8,
+    245.9,
+    586.3
+   ],
+   "size": 8.8,
+   "testo": "scegliere un background, una specie e due lingue.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    586.7,
+    268.1,
+    597.3
+   ],
+   "size": 8.8,
+   "testo": "Il background di un personaggio rappresenta il luogo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.6,
+    597.8,
+    259.9,
+    608.4
+   ],
+   "size": 8.8,
+   "testo": "e l'occupazione che lo hanno formato maggiormente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    608.8,
+    261.4,
+    619.4
+   ],
+   "size": 8.8,
+   "testo": "La combinazione di background, specie e lingue offre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    619.9,
+    268.8,
+    630.5
+   ],
+   "size": 8.8,
+   "testo": "terreno fertile per l'immaginazione nel momento in cui",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.1,
+    631.0,
+    189.8,
+    641.5
+   ],
+   "size": 8.8,
+   "testo": "riflettisuglialbori del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    651.4,
+    203.3,
+    662.7
+   ],
+   "size": 11.2,
+   "testo": "SCEGLIERE UN BACKGROUND",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    662.8,
+    258.1,
+    673.3
+   ],
+   "size": 8.8,
+   "testo": "Scegli il background e scrivilo sulla scheda del perso­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    673.8,
+    273.4,
+    684.3
+   ],
+   "size": 8.8,
+   "testo": "naggio. Puoi scegliere un background qualsiasi tra quelli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    684.7,
+    263.0,
+    695.3
+   ],
+   "size": 8.8,
+   "testo": "descritti nel capitolo 4. Inoltre, il DM potrebbe offrire",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    695.7,
+    191.5,
+    706.3
+   ],
+   "size": 8.8,
+   "testo": "ulteriori background come opzioni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    34.2,
+    524.9,
+    44.7
+   ],
+   "size": 8.8,
+   "testo": "Il background scelto influenza la fase 3, in cui determi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    45.2,
+    522.7,
+    55.8
+   ],
+   "size": 8.8,
+   "testo": "nerai i punteggi di caratteristica del personaggio. Se hai",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    56.2,
+    527.0,
+    66.8
+   ],
+   "size": 8.8,
+   "testo": "difficoltà nella scelta, la tabella Punteggi di caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    67.2,
+    520.4,
+    77.8
+   ],
+   "size": 8.8,
+   "testo": "e background mostra quali background avvantaggiano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    78.2,
+    516.4,
+    88.8
+   ],
+   "size": 8.8,
+   "testo": "determinati punteggi di caratteristica. Lì puoi trovare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    89.2,
+    467.1,
+    99.8
+   ],
+   "size": 8.8,
+   "testo": "la caratteristica primaria della tua classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    111.9,
+    531.6,
+    122.6
+   ],
+   "size": 10.6,
+   "testo": "PUNTEGGI DI CARATTERISTICA E BACKGROUND",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    127.8,
+    360.8,
+    137.0
+   ],
+   "size": 8.2,
+   "testo": "Caratteristica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    141.7,
+    331.6,
+    151.3
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    168.4,
+    348.4,
+    178.1
+   ],
+   "size": 8.4,
+   "testo": "Destrezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    207.1,
+    358.4,
+    216.7
+   ],
+   "size": 8.4,
+   "testo": "Costituzione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    233.6,
+    354.3,
+    243.2
+   ],
+   "size": 8.4,
+   "testo": "Intelligenza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    260.1,
+    345.9,
+    269.8
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    298.8,
+    341.9,
+    308.4
+   ],
+   "size": 8.4,
+   "testo": "Carisma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    367.8,
+    127.8,
+    414.7,
+    137.0
+   ],
+   "size": 8.2,
+   "testo": "Background",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.8,
+    141.7,
+    519.6,
+    151.3
+   ],
+   "size": 8.4,
+   "testo": "Artigiano, contadino, guardia, intratteni­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.8,
+    153.6,
+    483.2,
+    163.3
+   ],
+   "size": 8.4,
+   "testo": "tore, marinaio, nobile, soldato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.8,
+    168.4,
+    514.0,
+    178.1
+   ],
+   "size": 8.4,
+   "testo": "Artigiano, ciarlatano, criminale, guida,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    367.4,
+    180.4,
+    519.6,
+    190.0
+   ],
+   "size": 8.4,
+   "testo": "intrattenitore, marinaio, scriba, soldato,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    366.9,
+    192.4,
+    406.2,
+    202.0
+   ],
+   "size": 8.4,
+   "testo": "viandante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    367.0,
+    207.1,
+    526.4,
+    216.7
+   ],
+   "size": 8.4,
+   "testo": "Ciarlatano, contadino, criminale, eremita,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    367.0,
+    219.0,
+    500.0,
+    228.6
+   ],
+   "size": 8.4,
+   "testo": "guida, mercante, sapiente, soldato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.8,
+    233.6,
+    513.4,
+    243.3
+   ],
+   "size": 8.4,
+   "testo": "Accolito, artigiano, criminale, guardia,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    367.4,
+    245.6,
+    497.2,
+    255.2
+   ],
+   "size": 8.4,
+   "testo": "mercante, nobile, sapiente, scriba",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.8,
+    260.2,
+    511.6,
+    269.8
+   ],
+   "size": 8.4,
+   "testo": "Accolito, contadino, eremita, guardia,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    367.0,
+    272.2,
+    495.1,
+    281.9
+   ],
+   "size": 8.4,
+   "testo": "guida, marinaio, sapiente, scriba,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.9,
+    284.3,
+    406.0,
+    293.9
+   ],
+   "size": 8.4,
+   "testo": "viandante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.8,
+    298.8,
+    515.0,
+    308.4
+   ],
+   "size": 8.4,
+   "testo": "Accolito, ciarlatano, eremita, intratteni­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    366.8,
+    310.8,
+    494.5,
+    320.4
+   ],
+   "size": 8.4,
+   "testo": "tore, mercante, nobile, viandante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    330.3,
+    517.5,
+    340.9
+   ],
+   "size": 8.8,
+   "testo": "Registra il tuo talento. Un background conferisce un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.7,
+    341.3,
+    524.8,
+    351.8
+   ],
+   "size": 8.8,
+   "testo": "talento, che fornisce al personaggio particolari capacità.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    352.2,
+    531.3,
+    362.8
+   ],
+   "size": 8.8,
+   "testo": "I talenti sono descritti nel capitolo 5. Scrivi il talento sulla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    363.2,
+    398.7,
+    373.8
+   ],
+   "size": 8.8,
+   "testo": "scheda del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.7,
+    374.2,
+    519.7,
+    384.7
+   ],
+   "size": 8.8,
+   "testo": "Annota le competenze. Il background fornisce compe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    385.2,
+    521.2,
+    395.8
+   ],
+   "size": 8.8,
+   "testo": "tenza in due abilità e in uno strumento. Registra queste",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    396.3,
+    472.3,
+    406.8
+   ],
+   "size": 8.8,
+   "testo": "informazioni sulla scheda del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    407.4,
+    507.8,
+    417.9
+   ],
+   "size": 8.8,
+   "testo": "Anche la classe fornisce competenze. Controlla la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    418.3,
+    510.6,
+    428.9
+   ],
+   "size": 8.8,
+   "testo": "descrizione della tua classe nel capitolo 3 e annota le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    429.2,
+    468.2,
+    439.8
+   ],
+   "size": 8.8,
+   "testo": "competenze sulla scheda del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    440.3,
+    508.6,
+    450.9
+   ],
+   "size": 8.8,
+   "testo": "Sulla scheda del personaggio esemplificativa, puoi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    451.2,
+    513.8,
+    461.8
+   ],
+   "size": 8.8,
+   "testo": "indicare la competenza nelle abilità e nei tiri salvezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    462.2,
+    520.1,
+    472.8
+   ],
+   "size": 8.8,
+   "testo": "contrassegnando il cerchio accanto alle rispettive voci.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    473.2,
+    514.5,
+    483.8
+   ],
+   "size": 8.8,
+   "testo": "La tabella dei privilegi nella descrizione della classe",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    484.2,
+    523.1,
+    494.8
+   ],
+   "size": 8.8,
+   "testo": "mostra il bonus di competenza (descritto nel capitolo 1),",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    493.0,
+    510.9,
+    505.7
+   ],
+   "size": 8.8,
+   "testo": "che corrisponde a +2 per un personaggio di 1° livello.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.9,
+    506.2,
+    533.6,
+    516.8
+   ],
+   "size": 8.8,
+   "testo": "Annota questo numero sulla scheda del personaggio. Nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    517.3,
+    522.1,
+    527.9
+   ],
+   "size": 8.8,
+   "testo": "fase 5 inserirai altri numeri legati a queste competenze.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    537.7,
+    475.7,
+    549.1
+   ],
+   "size": 11.2,
+   "testo": "SCEGLIERE L'EQUIPAGGIAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    548.5,
+    374.8,
+    559.8
+   ],
+   "size": 11.2,
+   "testo": "DI PARTENZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    559.8,
+    517.8,
+    570.4
+   ],
+   "size": 8.8,
+   "testo": "Sia il background che la classe forniscono l'equipaggia­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    570.8,
+    514.0,
+    581.4
+   ],
+   "size": 8.8,
+   "testo": "mento di partenza. Puoi spendere immediatamente le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.8,
+    581.8,
+    526.2,
+    592.3
+   ],
+   "size": 8.8,
+   "testo": "monete che guadagni in questa fase per acquistare l'equi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    592.8,
+    528.2,
+    603.4
+   ],
+   "size": 8.8,
+   "testo": "paggiamento del capitolo 6. Inoltre, puoi avere un monile",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    603.7,
+    533.0,
+    614.3
+   ],
+   "size": 8.8,
+   "testo": "senza alcun costo (vedi la tabella Monili alla fine di questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    614.9,
+    342.1,
+    625.4
+   ],
+   "size": 8.8,
+   "testo": "capitolo).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    626.0,
+    508.1,
+    636.6
+   ],
+   "size": 8.8,
+   "testo": "Registra l'equipaggiamento scelto sulla scheda del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    637.0,
+    531.8,
+    647.5
+   ],
+   "size": 8.8,
+   "testo": "personaggio. L'equipaggiamento è descritto nel capitolo 6,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    648.0,
+    515.7,
+    658.5
+   ],
+   "size": 8.8,
+   "testo": "ma per il momento è sufficiente annotarlo e cercare le",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.1,
+    658.9,
+    508.7,
+    669.5
+   ],
+   "size": 8.8,
+   "testo": "specifiche in quel capitolo più tardi. Sulla scheda del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.0,
+    670.0,
+    532.4,
+    680.5
+   ],
+   "size": 8.8,
+   "testo": "personaggio esemplificativa c'è anche spazio per annotare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.0,
+    680.9,
+    522.4,
+    691.5
+   ],
+   "size": 8.8,
+   "testo": "le monete rimaste dopo l'acquisto dell'equipaggiamento",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.1,
+    691.9,
+    461.1,
+    702.4
+   ],
+   "size": 8.8,
+   "testo": "e i tesori acquisiti durante le avventure.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

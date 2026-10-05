@@ -1,0 +1,1488 @@
+{
+ "pagina_pdf": 91,
+ "pagina_stampata": 88,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "88 / CAPITOLO 3 I CLASSI DEI PERSONAGGI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.8,
+    37.5,
+    277.6,
+    48.1
+   ],
+   "size": 8.8,
+   "testo": "La forma si dissolve prima della sua scadenza se il druido",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    48.6,
+    281.4,
+    59.2
+   ],
+   "size": 8.8,
+   "testo": "la congeda (nessuna azione richiesta), è incapacitato o usa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    59.6,
+    159.3,
+    70.2
+   ],
+   "size": 8.8,
+   "testo": "di nuovo questo privilegio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    70.7,
+    270.8,
+    81.2
+   ],
+   "size": 8.8,
+   "testo": "Il druido può scegliere la forma della costellazione da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    81.6,
+    267.5,
+    92.2
+   ],
+   "size": 8.8,
+   "testo": "far brillare sul suo corpo tra quelle elencate di seguito,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    92.6,
+    255.5,
+    103.2
+   ],
+   "size": 8.8,
+   "testo": "ognuna delle quali gli concede determinati benefici.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    103.7,
+    274.2,
+    114.3
+   ],
+   "size": 8.8,
+   "testo": "Arciere. Sul corpo del druido compare la costellazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    114.6,
+    259.2,
+    125.2
+   ],
+   "size": 8.8,
+   "testo": "dell'arciere. Per il tempo in cui questa forma è attiva",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    125.6,
+    259.1,
+    136.1
+   ],
+   "size": 8.8,
+   "testo": "e come azione bonus nei turni successivi per tutta la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    136.7,
+    268.7,
+    147.2
+   ],
+   "size": 8.8,
+   "testo": "sua durata, il druido effettua un attacco a distanza con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    147.6,
+    275.8,
+    158.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimo scagliando una freccia luminosa contro una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    158.6,
+    261.2,
+    169.2
+   ],
+   "size": 8.8,
+   "testo": "creatura entro un raggio di 18 metri da sé. Se il colpo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    169.7,
+    270.5,
+    180.2
+   ],
+   "size": 8.8,
+   "testo": "va a segno, l'attacco infligge 1d8 danni radiosi più il suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    180.6,
+    155.4,
+    191.2
+   ],
+   "size": 8.8,
+   "testo": "modificatore di Saggezza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    191.6,
+    269.2,
+    202.2
+   ],
+   "size": 8.8,
+   "testo": "Calice. Sul corpo del druido compare la costellazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    202.8,
+    263.8,
+    213.3
+   ],
+   "size": 8.8,
+   "testo": "del calice della vita. Ogni volta che il druido lancia un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    213.7,
+    277.5,
+    224.3
+   ],
+   "size": 8.8,
+   "testo": "incantesimo utilizzando uno slot incantesimo per ripristi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    224.7,
+    273.8,
+    235.3
+   ],
+   "size": 8.8,
+   "testo": "nare i punti ferita di una creatura, il personaggio o un'al­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    235.7,
+    269.3,
+    246.3
+   ],
+   "size": 8.8,
+   "testo": "tra creatura nel raggio di 9 metri da lui può recuperare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    246.7,
+    267.8,
+    257.2
+   ],
+   "size": 8.8,
+   "testo": "un numero di punti ferita pari a 1d8 più il modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    257.7,
+    144.7,
+    268.3
+   ],
+   "size": 8.8,
+   "testo": "di Saggezza del druido.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.1,
+    268.7,
+    268.8,
+    279.3
+   ],
+   "size": 8.8,
+   "testo": "Drago. Sul corpo del druido compare la costellazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    279.8,
+    272.6,
+    290.3
+   ],
+   "size": 8.8,
+   "testo": "di un dragosaggio. Quando il druido effettua una prova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    290.9,
+    271.0,
+    301.4
+   ],
+   "size": 8.8,
+   "testo": "di Saggezza o di Intelligenza oppure un tiro salvezza su",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    301.8,
+    278.3,
+    312.4
+   ],
+   "size": 8.8,
+   "testo": "Costituzione per mantenere la concentrazione, se ottiene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    312.7,
+    274.4,
+    323.3
+   ],
+   "size": 8.8,
+   "testo": "un risultato pari o inferiore a 9 al tiro del d20, quel risul­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    323.7,
+    143.2,
+    334.3
+   ],
+   "size": 8.8,
+   "testo": "tato conta come un 10.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    344.1,
+    220.2,
+    355.5
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 6: PROFEZIA COSMICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    355.6,
+    268.8,
+    366.1
+   ],
+   "size": 8.8,
+   "testo": "Al termine di un riposo lungo, il druido può consultare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    366.6,
+    274.4,
+    377.1
+   ],
+   "size": 8.8,
+   "testo": "la sua Carta Celeste per carpire presagi e tirare un dado.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    377.5,
+    271.3,
+    388.1
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine del suo prossimo riposo lungo, il druido",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    388.5,
+    260.2,
+    399.1
+   ],
+   "size": 8.8,
+   "testo": "o.ttiene accesso a una reazione speciale a seconda del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    399.7,
+    180.4,
+    410.2
+   ],
+   "size": 8.8,
+   "testo": "risultato pari o dispari ottenuto:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    415.9,
+    281.4,
+    426.5
+   ],
+   "size": 8.8,
+   "testo": "Sventura (dispari). Ogni volta che una creatura nel raggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    427.0,
+    269.0,
+    437.6
+   ],
+   "size": 8.8,
+   "testo": "di 9 metri nel suo campo visivo sta per effettuare una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    438.0,
+    277.4,
+    448.6
+   ],
+   "size": 8.8,
+   "testo": "prova con d20, il personaggio può usare la sua reazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    449.0,
+    274.4,
+    459.6
+   ],
+   "size": 8.8,
+   "testo": "per tirare 1d6 e sottrarre il numero ottenuto dal totale.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    460.0,
+    268.0,
+    470.5
+   ],
+   "size": 8.8,
+   "testo": "Ventura (pari). Ogni volta che una creatura nel raggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.1,
+    470.9,
+    270.9,
+    481.5
+   ],
+   "size": 8.8,
+   "testo": "di 9 metri nel suo campo visivo sta per effettuare una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    481.9,
+    279.6,
+    492.5
+   ],
+   "size": 8.8,
+   "testo": "prova con d20, il personaggio può usare la sua reazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.9,
+    492.9,
+    279.5,
+    503.5
+   ],
+   "size": 8.8,
+   "testo": "per tirare 1d6 e aggiungere il numero ottenuto al totale.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    509.3,
+    276.0,
+    519.9
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può utilizzare questa reazione un numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    520.4,
+    266.9,
+    531.0
+   ],
+   "size": 8.8,
+   "testo": "di volte pari al valore del suo modificatore di Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    531.4,
+    277.5,
+    541.9
+   ],
+   "size": 8.8,
+   "testo": "(minimo una volta) e recupera tutti gli utilizzi consumati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    542.4,
+    187.4,
+    553.0
+   ],
+   "size": 8.8,
+   "testo": "quando completa un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    562.8,
+    283.0,
+    574.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 10: COSTELLAZIONI SCINTILLANTI",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    574.2,
+    276.4,
+    584.8
+   ],
+   "size": 8.8,
+   "testo": "Le costellazioni generate con il privilegio Forma Siderale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    585.2,
+    278.7,
+    595.7
+   ],
+   "size": 8.8,
+   "testo": "vengono migliorate. Il tiro da effettuare con le costellazioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    596.2,
+    267.9,
+    606.8
+   ],
+   "size": 8.8,
+   "testo": "dell'Arciere e del Calice passa da 1d8 a 2d8 e la velocità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    607.2,
+    266.0,
+    617.8
+   ],
+   "size": 8.8,
+   "testo": "di volo ottenuta con la costellazione del Drago ora è di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.8,
+    618.2,
+    199.0,
+    628.8
+   ],
+   "size": 8.8,
+   "testo": "6 metri con la possibilità di fluttuare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    629.4,
+    279.5,
+    640.0
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, all'inizio di ogni turno, il druido che ha attivato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    640.4,
+    270.8,
+    651.0
+   ],
+   "size": 8.8,
+   "testo": "il privilegio Forma Siderale può scegliere di cambiare la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.3,
+    651.3,
+    194.2,
+    661.9
+   ],
+   "size": 8.8,
+   "testo": "costellazione apparsa sul suo corpo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    671.8,
+    217.0,
+    683.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 14: MANTO DI STELLE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    683.1,
+    271.0,
+    693.7
+   ],
+   "size": 8.8,
+   "testo": "Quando il druido attiva Forma Siderale, diventa parzial­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    694.0,
+    272.3,
+    704.6
+   ],
+   "size": 8.8,
+   "testo": "mente incorporeo ottenendo resistenza ai danni contun­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    704.7,
+    161.9,
+    715.3
+   ],
+   "size": 8.8,
+   "testo": "denti, perforanti e taglienti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    40.2,
+    451.4,
+    53.3
+   ],
+   "size": 9.7,
+   "testo": "CIRCOLO DELLA TERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    57.9,
+    470.9,
+    67.7
+   ],
+   "size": 9.2,
+   "testo": "Celebralaconnessione con il mondo naturale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    71.5,
+    529.2,
+    82.1
+   ],
+   "size": 8.8,
+   "testo": "Il Circolo della Terra è composto da mistici e sapienti che",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    82.5,
+    530.9,
+    93.0
+   ],
+   "size": 8.8,
+   "testo": "preservano i riti e le conoscenze dei tempi antichi. Questi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    93.5,
+    520.6,
+    104.1
+   ],
+   "size": 8.8,
+   "testo": "druidi si incontrano all'interno di circoli sacri di alberi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    104.5,
+    521.8,
+    115.0
+   ],
+   "size": 8.8,
+   "testo": "o monoliti, per rivelarsi in druidico i segreti primordiali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    115.4,
+    525.9,
+    126.0
+   ],
+   "size": 8.8,
+   "testo": "che hanno appreso. I più saggi membri del circolo presie­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    126.4,
+    478.4,
+    137.0
+   ],
+   "size": 8.8,
+   "testo": "dono come sommi sacerdoti delle comunità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    146.8,
+    486.4,
+    158.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: AUSILIO DALLA TERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    158.3,
+    532.7,
+    168.8
+   ],
+   "size": 8.8,
+   "testo": "Come azione di Magia, può spendere un utilizzo di Forma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    169.3,
+    532.7,
+    179.9
+   ],
+   "size": 8.8,
+   "testo": "Selvatica e scegliere un punto entro 18 metri da sé. Per un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    180.3,
+    529.2,
+    190.9
+   ],
+   "size": 8.8,
+   "testo": "istante, in una sfera del raggio di 3 metri centrata su quel",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    191.4,
+    531.2,
+    201.9
+   ],
+   "size": 8.8,
+   "testo": "punto appaiono fiori che donano vitalità e spine che risuc­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    202.4,
+    534.4,
+    213.0
+   ],
+   "size": 8.8,
+   "testo": "chiano la vita. Ogni creatura nella sfera a scelta del druido",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    213.4,
+    522.4,
+    224.0
+   ],
+   "size": 8.8,
+   "testo": "deve effettuare un tiro salvezza su Costituzione contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    224.4,
+    523.0,
+    235.0
+   ],
+   "size": 8.8,
+   "testo": "la CD del tiro salvezza sul suo incantesimo. La creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    235.3,
+    535.2,
+    245.9
+   ],
+   "size": 8.8,
+   "testo": "subisce 2d6 danni necrotici in caso di fallimento, o la metà",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    246.3,
+    518.9,
+    256.9
+   ],
+   "size": 8.8,
+   "testo": "in caso di successo. Una creatura a scelta del druido in",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    257.4,
+    448.8,
+    267.9
+   ],
+   "size": 8.8,
+   "testo": "quell'area recupera 2d6 punti ferita.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.7,
+    268.4,
+    512.9,
+    279.0
+   ],
+   "size": 8.8,
+   "testo": "I danni e la guarigione del personaggio aumentano",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    277.2,
+    525.9,
+    290.0
+   ],
+   "size": 8.8,
+   "testo": "di 1d6 quando raggiunge il 10° (3d6) e il 14° (4d6) livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    290.5,
+    347.6,
+    301.0
+   ],
+   "size": 8.8,
+   "testo": "da druido.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    310.9,
+    511.6,
+    322.2
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: INCANTESIMI DEL CIRCOLO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    321.6,
+    378.5,
+    333.0
+   ],
+   "size": 11.2,
+   "testo": "DELLA TERRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    333.0,
+    519.0,
+    343.6
+   ],
+   "size": 8.8,
+   "testo": "Al termine di un riposo lungo, il druido sceglie un tipo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    343.9,
+    526.7,
+    354.5
+   ],
+   "size": 8.8,
+   "testo": "di terra: arida, polare, temperata o tropicale. Consulta la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    354.9,
+    534.8,
+    365.5
+   ],
+   "size": 8.8,
+   "testo": "tabella qui di seguito corrispondente al tipo di terra scelto;",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    366.0,
+    514.6,
+    376.5
+   ],
+   "size": 8.8,
+   "testo": "gli incantesimi elencati per il livello da druido attuale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    376.9,
+    488.5,
+    387.4
+   ],
+   "size": 8.8,
+   "testo": "e per i livelli inferiori si considerano preparati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    399.6,
+    370.3,
+    410.3
+   ],
+   "size": 10.6,
+   "testo": "TERRA ARIDA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    414.4,
+    353.2,
+    425.0
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.1,
+    425.4,
+    347.8,
+    436.1
+   ],
+   "size": 10.6,
+   "testo": "druido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    364.2,
+    425.5,
+    453.1,
+    436.2
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi del Circolo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.6,
+    440.6,
+    336.1,
+    450.2
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.9,
+    441.1,
+    516.1,
+    450.3
+   ],
+   "size": 9.2,
+   "testo": "Dardo difuoco, mani brucianti, sfocatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.6,
+    455.3,
+    336.1,
+    464.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.9,
+    455.5,
+    415.4,
+    464.7
+   ],
+   "size": 9.2,
+   "testo": "Palla difuoco",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.6,
+    469.6,
+    336.3,
+    479.2
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.8,
+    470.0,
+    396.3,
+    479.2
+   ],
+   "size": 9.2,
+   "testo": "Inaridire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.3,
+    484.3,
+    336.3,
+    493.9
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.8,
+    484.6,
+    417.9,
+    493.8
+   ],
+   "size": 9.2,
+   "testo": "Muro di pietra",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    510.1,
+    379.5,
+    520.8
+   ],
+   "size": 10.6,
+   "testo": "TERRA POLARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    524.9,
+    353.2,
+    535.6
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    319.7,
+    535.9,
+    348.0,
+    546.6
+   ],
+   "size": 10.6,
+   "testo": "druido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.5,
+    551.0,
+    336.0,
+    560.7
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.4,
+    565.5,
+    335.9,
+    575.1
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.4,
+    580.1,
+    336.1,
+    589.7
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.0,
+    594.6,
+    336.1,
+    604.3
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    364.1,
+    536.0,
+    453.0,
+    546.7
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi del Circolo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.6,
+    551.7,
+    531.0,
+    560.9
+   ],
+   "size": 9.2,
+   "testo": "Blocca persone, nube di nebbia, raggio di gelo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    363.5,
+    566.3,
+    445.1,
+    575.5
+   ],
+   "size": 9.2,
+   "testo": "Tempesta di nevischio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.5,
+    580.7,
+    442.1,
+    589.9
+   ],
+   "size": 9.2,
+   "testo": "Tempesta dighiaccio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.4,
+    595.3,
+    418.5,
+    604.5
+   ],
+   "size": 9.2,
+   "testo": "Cono difreddo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    620.8,
+    395.7,
+    631.5
+   ],
+   "size": 10.6,
+   "testo": "TERRA TEMPERATA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    635.7,
+    353.0,
+    646.4
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    319.5,
+    646.6,
+    347.8,
+    657.3
+   ],
+   "size": 10.6,
+   "testo": "druido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.9,
+    646.7,
+    452.8,
+    657.4
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi del Circolo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.3,
+    661.8,
+    335.8,
+    671.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.4,
+    662.3,
+    508.2,
+    671.5
+   ],
+   "size": 9.2,
+   "testo": "Passo velato, sonno e strettafolgorante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.3,
+    676.3,
+    335.8,
+    685.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.4,
+    690.6,
+    336.1,
+    700.3
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    330.0,
+    705.2,
+    336.1,
+    714.9
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.5,
+    676.8,
+    395.3,
+    686.0
+   ],
+   "size": 9.2,
+   "testo": "Fulmine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.5,
+    691.3,
+    444.9,
+    700.5
+   ],
+   "size": 9.2,
+   "testo": "Libertà di movimento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    363.5,
+    705.8,
+    436.8,
+    715.0
+   ],
+   "size": 9.2,
+   "testo": "Traslazione arborea",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

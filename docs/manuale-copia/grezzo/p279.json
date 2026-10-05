@@ -1,0 +1,1236 @@
+{
+ "pagina_pdf": 279,
+ "pagina_stampata": 276,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "276 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    56.6,
+    50.7,
+    129.8,
+    61.1
+   ],
+   "size": 8.5,
+   "testo": "FRANTUMARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    60.9,
+    230.8,
+    72.8
+   ],
+   "size": 8.5,
+   "testo": "Invocazione di 2°livello (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    77.0,
+    147.7,
+    87.4
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    88.0,
+    120.5,
+    98.4
+   ],
+   "size": 8.5,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    98.9,
+    228.7,
+    109.4
+   ],
+   "size": 8.5,
+   "testo": "Componenti: V, S, M (un frammento di mica)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    110.0,
+    128.7,
+    120.4
+   ],
+   "size": 8.5,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    128.7,
+    257.4,
+    137.2
+   ],
+   "size": 6.7,
+   "testo": "Un rumore assordante esplode da un punto a scelta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.5,
+    139.7,
+    283.7,
+    148.3
+   ],
+   "size": 6.7,
+   "testo": "dell'incantatore entro gittata. Ogni creatura all'interno di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    150.7,
+    280.3,
+    159.3
+   ],
+   "size": 6.7,
+   "testo": "una sfera di 3 metri di raggio centrata su quel punto effet­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    161.8,
+    284.3,
+    170.3
+   ],
+   "size": 6.7,
+   "testo": "tua un tiro salvezza su Costituzione. In caso di fallimento,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    172.8,
+    279.8,
+    181.4
+   ],
+   "size": 6.7,
+   "testo": "subisce 3d8 danni da tuono o la metà dei danni in caso di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    183.7,
+    283.9,
+    192.3
+   ],
+   "size": 6.7,
+   "testo": "successo. Un costrutto subisce svantaggio al tiro salvezza.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.1,
+    194.8,
+    268.0,
+    203.3
+   ],
+   "size": 6.7,
+   "testo": "Anche un oggetto non magico che non sia indossato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.5,
+    205.9,
+    258.5,
+    214.4
+   ],
+   "size": 6.7,
+   "testo": "o trasportato subisce i danni se si trova entro l'area",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.5,
+    216.9,
+    123.6,
+    225.4
+   ],
+   "size": 6.7,
+   "testo": "dell'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.9,
+    227.8,
+    285.3,
+    236.6
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    237.3,
+    273.7,
+    247.3
+   ],
+   "size": 6.7,
+   "testo": "aumentano di 1d8 per ogni slot di livello superiore al 2°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    271.8,
+    186.8,
+    282.3
+   ],
+   "size": 8.5,
+   "testo": "FRECCIA ACIDA DI MELF",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    282.0,
+    170.7,
+    294.0
+   ],
+   "size": 8.5,
+   "testo": "Invocazione di2°livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    298.1,
+    147.6,
+    308.5
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    309.1,
+    120.4,
+    319.5
+   ],
+   "size": 8.5,
+   "testo": "Gittata: 27 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    320.1,
+    252.8,
+    330.5
+   ],
+   "size": 8.5,
+   "testo": "Componenti: V, S, M (foglia di rabarbaro in polvere)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    331.1,
+    128.3,
+    341.5
+   ],
+   "size": 8.5,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    349.8,
+    278.4,
+    358.4
+   ],
+   "size": 6.7,
+   "testo": "Una freccia verde scintillante sfreccia verso un bersaglio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.5,
+    360.8,
+    284.3,
+    369.4
+   ],
+   "size": 6.7,
+   "testo": "entro gittata ed esplode in uno spruzzo di acido. L'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.5,
+    371.8,
+    286.2,
+    380.4
+   ],
+   "size": 6.7,
+   "testo": "tore effettua un attacco a distanza con incantesimo contro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    382.9,
+    281.8,
+    391.4
+   ],
+   "size": 6.7,
+   "testo": "il bersaglio. Se il colpo va a segno, il bersaglio subisce 4d4",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.5,
+    393.8,
+    284.2,
+    402.4
+   ],
+   "size": 6.7,
+   "testo": "danni da acido e 2d4 danni da acido alla fine del suo turno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    404.9,
+    279.5,
+    413.5
+   ],
+   "size": 6.7,
+   "testo": "successivo. Se il colpo manca, la freccia schizza acido sul'",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    415.9,
+    258.9,
+    424.5
+   ],
+   "size": 6.7,
+   "testo": "bersaglio, infliggendo solo la metà dei danni iniziali.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.9,
+    426.9,
+    285.3,
+    435.7
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    437.9,
+    282.1,
+    446.5
+   ],
+   "size": 6.7,
+   "testo": "(sia iniziali che successivi) aumentano di 1d4 per ogni slot",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.5,
+    447.4,
+    151.6,
+    457.5
+   ],
+   "size": 6.7,
+   "testo": "di livello superiore al 2°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    481.8,
+    176.0,
+    492.3
+   ],
+   "size": 8.5,
+   "testo": "FRECCIA FOLGORANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    491.9,
+    185.3,
+    503.8
+   ],
+   "size": 8.5,
+   "testo": "Trasmutazione di 3°livello (ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    508.0,
+    273.0,
+    518.4
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione bonus, che l'incantatore effettua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    519.0,
+    266.1,
+    529.5
+   ],
+   "size": 8.5,
+   "testo": "subito dopo aver colpito o mancato un bersaglio con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    530.0,
+    225.0,
+    540.4
+   ],
+   "size": 8.5,
+   "testo": "un attacco a distanza utilizzando un'arma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    541.0,
+    132.0,
+    551.4
+   ],
+   "size": 8.5,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    552.8,
+    123.2,
+    562.3
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    562.9,
+    128.5,
+    573.4
+   ],
+   "size": 8.5,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    581.7,
+    264.3,
+    590.3
+   ],
+   "size": 6.7,
+   "testo": "Quando l'attacco dell'incantatore colpisce o manca il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    592.8,
+    280.6,
+    601.3
+   ],
+   "size": 6.7,
+   "testo": "bersaglio,l'arma o la munizione che sta utilizzando si tra­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    603.7,
+    282.4,
+    612.3
+   ],
+   "size": 6.7,
+   "testo": "sforma in un fulmine. Invece di subire danni o altri effetti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    614.8,
+    277.0,
+    623.4
+   ],
+   "size": 6.7,
+   "testo": "dall'attacco, il bersaglio subisce 4d8 danni da fulmine se",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    625.9,
+    276.8,
+    634.4
+   ],
+   "size": 6.7,
+   "testo": "il colpo va a segno, o la metà dei danni se il colpo manca.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    636.9,
+    267.6,
+    645.5
+   ],
+   "size": 6.7,
+   "testo": "Ogni creatura entro un raggio di 3 metri dal bersaglio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    647.9,
+    286.2,
+    656.4
+   ],
+   "size": 6.7,
+   "testo": "effettua un tiro salvezza su Destrezza; se lo fallisce, subisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    658.8,
+    282.5,
+    667.4
+   ],
+   "size": 6.7,
+   "testo": "2d8 danni da fulmine, mentre se lo supera subisce la metà",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    669.9,
+    95.9,
+    678.4
+   ],
+   "size": 6.7,
+   "testo": "dei danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.2,
+    680.8,
+    285.7,
+    689.3
+   ],
+   "size": 6.7,
+   "testo": "L'arma o la munizione torna poi alla sua forma originaria.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    65.2,
+    691.7,
+    285.2,
+    700.5
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    702.8,
+    278.0,
+    711.4
+   ],
+   "size": 6.7,
+   "testo": "di entrambi gli effetti dell'incantesimo aumentano di 1d8",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    712.2,
+    202.2,
+    722.4
+   ],
+   "size": 6.7,
+   "testo": "per ogni slot di livello superiore al 3°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    50.6,
+    396.5,
+    61.0
+   ],
+   "size": 8.5,
+   "testo": "FRUSTA DI SPINE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    62.2,
+    446.3,
+    72.7
+   ],
+   "size": 8.5,
+   "testo": "Trucchetto di Trasmutazione (druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    76.8,
+    400.4,
+    87.3
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    87.9,
+    368.9,
+    98.3
+   ],
+   "size": 8.5,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    98.9,
+    511.5,
+    109.3
+   ],
+   "size": 8.5,
+   "testo": "Componenti: V, S, M (il gambo di una pianta spinata)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    109.9,
+    380.9,
+    120.4
+   ],
+   "size": 8.5,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.5,
+    128.7,
+    515.0,
+    137.2
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore crea una frusta simile a un rampicante",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    139.7,
+    528.1,
+    148.2
+   ],
+   "size": 6.7,
+   "testo": "e coperta di spine che, al suo comando, sferza fino a una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    150.7,
+    531.0,
+    159.2
+   ],
+   "size": 6.7,
+   "testo": "creatura entro gittata, effettuando un attacco in mischia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    161.7,
+    535.9,
+    170.3
+   ],
+   "size": 6.7,
+   "testo": "con incantesimo contro il bersaglio. Se il colpo va a segno,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    172.7,
+    530.6,
+    181.5
+   ],
+   "size": 6.7,
+   "testo": "quest'ultimo subisce 1d6 danni perforanti e, se è di taglia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    183.7,
+    522.3,
+    192.2
+   ],
+   "size": 6.7,
+   "testo": "Grande o inferiore, l'incantatore può tirarlo più vicino",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    194.7,
+    366.5,
+    203.3
+   ],
+   "size": 6.7,
+   "testo": "a sé di 3 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.8,
+    205.8,
+    537.3,
+    214.6
+   ],
+   "size": 6.7,
+   "testo": "Trucchetto potenziato. I danni aumentano di 1d6 quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    215.3,
+    537.4,
+    225.4
+   ],
+   "size": 6.7,
+   "testo": "l'incantatore raggiunge il 5° livello (2d6), 1'11° livello (3d6)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    226.3,
+    386.3,
+    236.5
+   ],
+   "size": 6.7,
+   "testo": "e il 17° livello (4d6).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    260.7,
+    358.5,
+    271.1
+   ],
+   "size": 8.5,
+   "testo": "FULMINE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    270.9,
+    458.1,
+    282.8
+   ],
+   "size": 8.5,
+   "testo": "Invocazione di 3°livello (mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    287.1,
+    400.4,
+    297.5
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    298.0,
+    384.8,
+    308.5
+   ],
+   "size": 8.5,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    309.0,
+    501.8,
+    319.5
+   ],
+   "size": 8.5,
+   "testo": "Componenti: V, S, M (un ciuffo di pelo e una verga",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    319.9,
+    360.3,
+    330.4
+   ],
+   "size": 8.5,
+   "testo": "di cristallo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    331.0,
+    381.2,
+    341.5
+   ],
+   "size": 8.5,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    349.8,
+    529.7,
+    358.3
+   ],
+   "size": 6.7,
+   "testo": "Un fulmine parte dall'incantatore in una direzione a sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    360.8,
+    537.2,
+    369.3
+   ],
+   "size": 6.7,
+   "testo": "scelta, formando una linea lunga 30 metri e larga 1,5 metri.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    371.8,
+    514.8,
+    380.3
+   ],
+   "size": 6.7,
+   "testo": "Ogni creatura sulla linea effettua un tiro salvezza su",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    382.7,
+    521.7,
+    391.3
+   ],
+   "size": 6.7,
+   "testo": "Destrezza; se lo fallisce, subisce 8d6 danni da fulmine,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    393.8,
+    487.0,
+    402.3
+   ],
+   "size": 6.7,
+   "testo": "mentre se lo supera subisce la metà dei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.5,
+    404.8,
+    537.6,
+    413.6
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore. I danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    414.3,
+    526.1,
+    424.4
+   ],
+   "size": 6.7,
+   "testo": "aumentano di 1d6 per ogni slot di livello superiore al 3°.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    448.7,
+    369.7,
+    459.1
+   ],
+   "size": 8.5,
+   "testo": "FUORVIARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    458.9,
+    468.7,
+    470.8
+   ],
+   "size": 8.5,
+   "testo": "Illusione di 5°livello (bardo, mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.5,
+    474.9,
+    400.4,
+    485.3
+   ],
+   "size": 8.5,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    485.9,
+    384.8,
+    496.4
+   ],
+   "size": 8.5,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    498.4,
+    366.4,
+    507.2
+   ],
+   "size": 6.7,
+   "testo": "Componenti: S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.3,
+    507.9,
+    447.1,
+    518.4
+   ],
+   "size": 8.5,
+   "testo": "Durata: concentrazione, fino a l ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    526.8,
+    517.3,
+    535.4
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore diventa invisibile nello stesso momento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.6,
+    537.9,
+    516.3,
+    546.4
+   ],
+   "size": 6.7,
+   "testo": "in cui un suo sosia illusorio appare nel punto in cui si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    548.8,
+    519.7,
+    557.3
+   ],
+   "size": 6.7,
+   "testo": "trova. Il sosia permane per la durata dell'incantesimo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    559.7,
+    513.8,
+    568.3
+   ],
+   "size": 6.7,
+   "testo": "ma l'invisibilità termina se non appena l'incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.1,
+    570.7,
+    517.8,
+    579.3
+   ],
+   "size": 6.7,
+   "testo": "effettua un tiro per colpire, infligge danni o lancia un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.6,
+    581.7,
+    359.7,
+    590.2
+   ],
+   "size": 6.7,
+   "testo": "incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    592.7,
+    513.3,
+    601.2
+   ],
+   "size": 6.7,
+   "testo": "Come azione di Magia, l'incantatore può muovere",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.6,
+    603.7,
+    522.6,
+    612.3
+   ],
+   "size": 6.7,
+   "testo": "il sosia illusorio fino al doppio della sua velocità e farlo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    614.8,
+    521.9,
+    623.4
+   ],
+   "size": 6.7,
+   "testo": "gesticolare, parlare e comportare nel modo che ritiene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    625.7,
+    510.6,
+    634.6
+   ],
+   "size": 6.7,
+   "testo": "più opportuno. Il sosia è intangibile e invulnerabile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.1,
+    636.9,
+    523.1,
+    645.5
+   ],
+   "size": 6.7,
+   "testo": "Inoltre, l'incantatore può vedere e sentire attraverso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.6,
+    647.9,
+    489.0,
+    656.4
+   ],
+   "size": 6.7,
+   "testo": "il sosia, come se si trovasse nello stesso punto.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

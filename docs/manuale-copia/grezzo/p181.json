@@ -1,0 +1,409 @@
+{
+ "pagina_pdf": 181,
+ "pagina_stampata": 178,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "178 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   235
+  ],
+  [
+   -1,
+   325,
+   589,
+   598
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    53.6,
+    225.4,
+    274.7,
+    235.1
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Intelligenza, Saggezza, Carisma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.8,
+    235.8,
+    260.3,
+    247.0
+   ],
+   "size": 8.4,
+   "testo": "Talento: Iniziato alla Magia (Chierico) (vedi capitolo S)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    249.4,
+    235.0,
+    259.0
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Intuizione e Religione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    261.4,
+    238.9,
+    271.0
+   ],
+   "size": 8.4,
+   "testo": "Competenza negli strumenti: scorte da calligrafo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    273.5,
+    280.4,
+    283.2
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e 8: (A) scorte da calligrafo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.5,
+    285.5,
+    269.4,
+    295.2
+   ],
+   "size": 8.4,
+   "testo": "libro (preghiere), simbolo sacro, pergamena (10 fogli),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.0,
+    297.5,
+    161.0,
+    307.2
+   ],
+   "size": 8.4,
+   "testo": "tunica, 8 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    589.2,
+    267.4,
+    598.8
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Forza, Destrezza, Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.0,
+    601.2,
+    212.0,
+    610.8
+   ],
+   "size": 8.4,
+   "testo": "Talento: Lavoro manuale (vedi capitolo S)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    613.2,
+    241.4,
+    622.9
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Indagare e Persuasione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    625.5,
+    263.7,
+    634.9
+   ],
+   "size": 9.2,
+   "testo": "Competenza negli strumenti: Scegli un tipo di strumenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.9,
+    637.3,
+    171.3,
+    647.0
+   ],
+   "size": 9.2,
+   "testo": "da artigiano (vedi capitolo 6)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    649.3,
+    270.5,
+    659.0
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e 8: (A) strumenti da arti­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.4,
+    661.3,
+    283.0,
+    670.9
+   ],
+   "size": 8.4,
+   "testo": "giano (gli stessi scelti sopra), 2 borse, abiti da viaggiatore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.6,
+    673.3,
+    136.8,
+    683.0
+   ],
+   "size": 8.4,
+   "testo": "32 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    224.4,
+    535.8,
+    235.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ha trascorso la sua vita in un tempio situato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    235.3,
+    523.3,
+    245.9
+   ],
+   "size": 8.8,
+   "testo": "in una zona appartata di una cittadina o nascosto in un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    246.3,
+    519.0,
+    256.9
+   ],
+   "size": 8.8,
+   "testo": "bosco sacro. Lì celebrava dei riti in onore degli dèi o di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    257.3,
+    528.1,
+    267.9
+   ],
+   "size": 8.8,
+   "testo": "un pantheon ed era al servizio di un sacerdote, mentre si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    268.3,
+    524.7,
+    278.9
+   ],
+   "size": 8.8,
+   "testo": "dedicava allo studio delle religioni. Grazie a questo men­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    279.4,
+    522.6,
+    290.0
+   ],
+   "size": 8.8,
+   "testo": "tore e alla propria devozione, ha imparato come incana­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    290.5,
+    529.4,
+    301.1
+   ],
+   "size": 8.8,
+   "testo": "lare una certa quantità di potere divino per servire il suo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    301.4,
+    398.1,
+    312.0
+   ],
+   "size": 8.8,
+   "testo": "luogo di culto e i fedeli.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    587.7,
+    523.3,
+    598.3
+   ],
+   "size": 8.8,
+   "testo": "Appena ha acquisito la forza sufficiente per trasportare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    598.8,
+    524.0,
+    609.4
+   ],
+   "size": 8.8,
+   "testo": "un secchio, il personaggio ha cominciato la sua carriera",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    609.9,
+    515.4,
+    620.5
+   ],
+   "size": 8.8,
+   "testo": "lavando i pavimenti e i banchi da lavoro nella bottega",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    620.9,
+    508.9,
+    631.5
+   ],
+   "size": 8.8,
+   "testo": "di un artigiano per poche monete di rame al giorno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.9,
+    632.0,
+    512.9,
+    642.6
+   ],
+   "size": 8.8,
+   "testo": "Una volta diventato abbastanza grande da poter fare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    643.0,
+    520.6,
+    653.6
+   ],
+   "size": 8.8,
+   "testo": "l'apprendista, ha imparato a realizzare delle opere sem­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.7,
+    654.0,
+    525.8,
+    664.6
+   ],
+   "size": 8.8,
+   "testo": "plici per sé, ma anche a conquistare i clienti più esigenti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.1,
+    665.0,
+    532.8,
+    675.6
+   ],
+   "size": 8.8,
+   "testo": "Grazie alla propria arte, il personaggio ha anche acquisito",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.8,
+    676.0,
+    423.2,
+    686.5
+   ],
+   "size": 8.8,
+   "testo": "un certo occhio per i dettagli.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

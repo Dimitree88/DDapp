@@ -1,0 +1,337 @@
+{
+ "pagina_pdf": 182,
+ "pagina_stampata": 179,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "CAPITOLO 4 I ORIGINI DEI PERSONAGGI / 179",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   271
+  ],
+  [
+   -1,
+   275,
+   590,
+   607
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.5,
+    228.5,
+    282.1,
+    238.1
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Destrezza, Costituzione, Carisma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    240.5,
+    171.0,
+    250.1
+   ],
+   "size": 8.4,
+   "testo": "Talento: Abile (vedi capitolo 5)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    252.3,
+    259.2,
+    261.9
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Inganno e Rapidità di Mano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    264.4,
+    232.8,
+    274.1
+   ],
+   "size": 8.4,
+   "testo": "Competenza negli strumenti: arnesi da falsario",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    276.5,
+    274.1,
+    286.2
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e 8: (A) arnesi da falsario,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    288.4,
+    229.0,
+    298.1
+   ],
+   "size": 8.4,
+   "testo": "costume, abiti eleganti, 15 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    592.0,
+    269.6,
+    601.6
+   ],
+   "size": 8.4,
+   "testo": "Punteggi di caratteristica: Forza, Costituzione, Saggezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    604.0,
+    183.7,
+    613.6
+   ],
+   "size": 8.4,
+   "testo": "Talento: Robusto (vedi capitolo 5)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    616.1,
+    261.1,
+    625.7
+   ],
+   "size": 8.4,
+   "testo": "Competenze nelle abilità: Addestrare Animali e Natura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    628.1,
+    259.1,
+    637.7
+   ],
+   "size": 8.4,
+   "testo": "Competenza negli strumenti: strumenti da falegname",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    640.1,
+    277.6,
+    649.9
+   ],
+   "size": 9.2,
+   "testo": "Equipaggiamento: a scelta tra A e 8: (A) falcetto, strumenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    652.1,
+    278.1,
+    661.7
+   ],
+   "size": 8.4,
+   "testo": "da falegname, borsa del guaritore, pentola di ferro, pala,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.8,
+    664.1,
+    215.5,
+    673.7
+   ],
+   "size": 8.4,
+   "testo": "abiti da viaggiatore, 30 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    227.4,
+    516.9,
+    238.0
+   ],
+   "size": 8.8,
+   "testo": "Una volta raggiunta l'età per poter bere alcolici, il per­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    238.4,
+    519.6,
+    249.0
+   ],
+   "size": 8.8,
+   "testo": "sonaggio ha subito ottenuto un posto di favore in ogni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    249.3,
+    524.6,
+    259.8
+   ],
+   "size": 8.8,
+   "testo": "singola taverna nel raggio di 15 chilometri dalla propria",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    260.4,
+    527.1,
+    271.0
+   ],
+   "size": 8.8,
+   "testo": "città natale. Viaggiando da una bettola all'altra, ha impa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    271.5,
+    534.7,
+    282.1
+   ],
+   "size": 8.8,
+   "testo": "rato come approfittare degli sfortunati in cerca di qualche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    282.5,
+    530.7,
+    293.2
+   ],
+   "size": 8.8,
+   "testo": "bugia di conforto, come una pozione fasulla o dei registri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    293.5,
+    397.4,
+    304.0
+   ],
+   "size": 8.8,
+   "testo": "anagrafici contraffatti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    590.9,
+    527.9,
+    601.4
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio è cresciuto a contatto con la terra. Grazie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    601.9,
+    525.4,
+    612.5
+   ],
+   "size": 8.8,
+   "testo": "agli anni trascorsi prendendosi cura di animali e piante,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    613.1,
+    519.9,
+    623.6
+   ],
+   "size": 8.8,
+   "testo": "ha appreso la virtù della pazienza e ora gode di ottima",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    617.0,
+    533.1,
+    635.2
+   ],
+   "size": 8.8,
+   "testo": "salute. È una persona che sa apprezzare molto i doni della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    635.0,
+    529.2,
+    645.6
+   ],
+   "size": 8.8,
+   "testo": "natura, nutrendo al contempo un sano rispetto per i suoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    646.1,
+    376.9,
+    656.6
+   ],
+   "size": 8.8,
+   "testo": "momenti di furia.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

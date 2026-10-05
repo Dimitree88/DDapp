@@ -1,0 +1,1320 @@
+{
+ "pagina_pdf": 31,
+ "pagina_stampata": 28,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "28 / CAPITOLO 1 I COME SI GIOCA",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    51.4,
+    37.7,
+    258.6,
+    48.2
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, se metti a segno un colpo critico con un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    48.7,
+    263.6,
+    59.3
+   ],
+   "size": 8.8,
+   "testo": "pugnale, tira 2d4 per i danni anziché 1d4, poi aggiungi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    59.8,
+    273.2,
+    70.3
+   ],
+   "size": 8.8,
+   "testo": "al risultato il tuo modificatore di caratteristica rilevante.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    70.8,
+    278.5,
+    81.3
+   ],
+   "size": 8.8,
+   "testo": "Se l'attacco prevede altri dadi di danno, come per esempio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    81.7,
+    256.7,
+    92.3
+   ],
+   "size": 8.8,
+   "testo": "nel caso del privilegio Attacco Furtivo del ladro, tira",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    92.7,
+    153.1,
+    103.3
+   ],
+   "size": 8.8,
+   "testo": "anche quei dadi due volte.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    112.8,
+    200.6,
+    125.9
+   ],
+   "size": 9.7,
+   "testo": "TIRI SALVEZZA E DANNI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    129.4,
+    273.3,
+    139.9
+   ],
+   "size": 8.8,
+   "testo": "I danni inflitti tramite tiri salvezza utilizzano le seguenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    140.3,
+    78.9,
+    150.8
+   ],
+   "size": 8.8,
+   "testo": "regole.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    160.7,
+    240.5,
+    172.0
+   ],
+   "size": 11.2,
+   "testo": "DANNI CONTRO BERSAGLI MULTIPLI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    172.1,
+    269.2,
+    182.7
+   ],
+   "size": 8.8,
+   "testo": "Quando crei un effetto dannoso che costringe due o più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    183.1,
+    278.4,
+    193.7
+   ],
+   "size": 8.8,
+   "testo": "bersagli a effettuare tiri salvezza contro di esso contempo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    194.1,
+    272.6,
+    204.7
+   ],
+   "size": 8.8,
+   "testo": "raneamente, tira per i danni una volta sola per tutti i ber­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    205.2,
+    267.0,
+    215.8
+   ],
+   "size": 8.8,
+   "testo": "sagli. Ad esempio, quando un mago lanciapalladifuoco,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    216.2,
+    273.2,
+    226.8
+   ],
+   "size": 8.8,
+   "testo": "i danni dell'incantesimo si tirano una volta sola per tutte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    227.2,
+    193.9,
+    237.8
+   ],
+   "size": 8.8,
+   "testo": "le creature coinvolte nell'esplosione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    247.6,
+    148.5,
+    258.9
+   ],
+   "size": 11.2,
+   "testo": "DANNI DIMEZZATI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    258.9,
+    273.3,
+    269.5
+   ],
+   "size": 8.8,
+   "testo": "Molti effetti dei tiri salvezza infliggono la metà dei danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    270.0,
+    275.8,
+    280.5
+   ],
+   "size": 8.8,
+   "testo": "(arrotondati per difetto) quando il bersaglio supera il tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    281.0,
+    269.1,
+    291.6
+   ],
+   "size": 8.8,
+   "testo": "salvezza. I danni dimezzati corrispondono alla metà dei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    292.0,
+    271.5,
+    302.6
+   ],
+   "size": 8.8,
+   "testo": "danni che verrebbero inflitti con un tiro salvezza fallito.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    312.2,
+    144.0,
+    325.3
+   ],
+   "size": 9.7,
+   "testo": "TIPI DI DANNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    328.7,
+    246.0,
+    339.2
+   ],
+   "size": 8.8,
+   "testo": "Ogni istanza di danno è di un tipo, come da fuoco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    339.5,
+    279.6,
+    350.1
+   ],
+   "size": 8.8,
+   "testo": "o tagliente. I tipi di danno sono elencati nel Glossario delle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    350.5,
+    269.8,
+    361.0
+   ],
+   "size": 8.8,
+   "testo": "regole e non seguono regole particolari, ma altre regole,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    361.5,
+    279.8,
+    372.0
+   ],
+   "size": 8.8,
+   "testo": "come per esempio la resistenza, possono farvi riferimento.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    381.5,
+    240.0,
+    394.6
+   ],
+   "size": 9.7,
+   "testo": "RESISTENZA E VULNERABILITÀ",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.6,
+    398.1,
+    249.4,
+    408.7
+   ],
+   "size": 8.8,
+   "testo": "Alcune creature e oggetti sono dotati di resistenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    409.3,
+    266.6,
+    419.8
+   ],
+   "size": 8.8,
+   "testo": "o vulnerabilità a determinati tipi di danno. Se un perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    420.2,
+    268.5,
+    430.7
+   ],
+   "size": 8.8,
+   "testo": "naggio è dotato di resistenza a un tipo di danno, i danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    431.1,
+    263.1,
+    441.7
+   ],
+   "size": 8.8,
+   "testo": "di quel tipo che subisce sono dimezzati (arrotondando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    442.1,
+    268.9,
+    452.7
+   ],
+   "size": 8.8,
+   "testo": "per difetto). Se un personaggio è dotato di vulnerabilità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    453.1,
+    267.5,
+    463.6
+   ],
+   "size": 8.8,
+   "testo": "a un tipo di danno, i danni di quel tipo che subisce sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    464.1,
+    269.5,
+    474.6
+   ],
+   "size": 8.8,
+   "testo": "raddoppiati. Ad esempio, se possiede resistenza ai danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    475.1,
+    270.4,
+    485.7
+   ],
+   "size": 8.8,
+   "testo": "da freddo, tali danni sono dimezzati, mentre se possiede",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    486.1,
+    279.5,
+    496.6
+   ],
+   "size": 8.8,
+   "testo": "vulnerabilità ai danni da fuoco, tali danni sono raddoppiati.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    506.5,
+    156.1,
+    517.9
+   ],
+   "size": 11.2,
+   "testo": "NESSUN ACCUMULO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    517.9,
+    271.2,
+    528.5
+   ],
+   "size": 8.8,
+   "testo": "Più istanze di resistenza o vulnerabilità che influenzano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    528.9,
+    261.7,
+    539.5
+   ],
+   "size": 8.8,
+   "testo": "lo stesso tipo di danno contano sempre come una sola",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    539.9,
+    276.2,
+    550.5
+   ],
+   "size": 8.8,
+   "testo": "istanza. Ad esempio, se il personaggio possiede resistenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    550.9,
+    255.9,
+    561.5
+   ],
+   "size": 8.8,
+   "testo": "ai danni necrotici e resistenza a tutti i danni, i danni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    561.9,
+    218.4,
+    572.5
+   ],
+   "size": 8.8,
+   "testo": "necrotici subiti vengono ridotti della metà.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    582.3,
+    187.8,
+    593.6
+   ],
+   "size": 11.2,
+   "testo": "ORDINE DI APPLICAZIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    593.7,
+    261.2,
+    604.2
+   ],
+   "size": 8.8,
+   "testo": "I modificatori ai danni vengono applicati nel seguente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    604.8,
+    276.8,
+    615.3
+   ],
+   "size": 8.8,
+   "testo": "ordine: le modifiche come bonus, penalità o moltiplicatori",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.0,
+    615.8,
+    276.7,
+    626.4
+   ],
+   "size": 8.8,
+   "testo": "vengono applicate per prime; la resistenza viene applicata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    626.9,
+    262.4,
+    637.5
+   ],
+   "size": 8.8,
+   "testo": "per seconda; la vulnerabilità viene applicata per terza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.0,
+    637.9,
+    267.0,
+    648.5
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, una creatura dotata di resistenza a tutti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    648.8,
+    280.6,
+    659.4
+   ],
+   "size": 8.8,
+   "testo": "i danni e vulnerabilità ai danni da fuoco si trova all'interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    659.8,
+    273.2,
+    670.4
+   ],
+   "size": 8.8,
+   "testo": "di un'aura magica che riduce di 5 tutti i danni. Se subisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    670.8,
+    258.9,
+    681.4
+   ],
+   "size": 8.8,
+   "testo": "28 danni da fuoco, i danni vengono prima ridotti di 5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    681.8,
+    253.4,
+    692.4
+   ],
+   "size": 8.8,
+   "testo": "(a 23), poi dimezzati per la resistenza della creatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    692.8,
+    260.7,
+    703.4
+   ],
+   "size": 8.8,
+   "testo": "(e arrotondati per difetto a 11), quindi raddoppiati per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    703.9,
+    153.5,
+    714.4
+   ],
+   "size": 8.8,
+   "testo": "la sua vulnerabilità (a 22).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    39.5,
+    370.3,
+    52.6
+   ],
+   "size": 9.7,
+   "testo": "IMMUNITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    56.0,
+    528.3,
+    66.5
+   ],
+   "size": 8.8,
+   "testo": "Alcune creature e oggetti sono dotate di immunità a certi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    67.0,
+    526.5,
+    77.6
+   ],
+   "size": 8.8,
+   "testo": "tipi di danno e condizioni. L'immunità a un tipo di danno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    78.0,
+    522.3,
+    88.6
+   ],
+   "size": 8.8,
+   "testo": "significa che non si subiscono danni di quel tipo, mentre",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    89.0,
+    505.6,
+    99.6
+   ],
+   "size": 8.8,
+   "testo": "l'immunità a una condizione significa che non se ne",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    100.0,
+    367.4,
+    110.6
+   ],
+   "size": 8.8,
+   "testo": "subisce l'effetto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.6,
+    120.0,
+    383.4,
+    133.1
+   ],
+   "size": 9.7,
+   "testo": "GUARIGIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    136.5,
+    512.5,
+    147.1
+   ],
+   "size": 8.8,
+   "testo": "I punti ferita possono essere ripristinati con la magia,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    147.5,
+    528.2,
+    158.0
+   ],
+   "size": 8.8,
+   "testo": "come ad esempio l'incantesimo curaferite o una pozione di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    158.5,
+    527.0,
+    169.1
+   ],
+   "size": 8.8,
+   "testo": "guarigione, o da un riposo breve o lungo (vedi il Glossario",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    169.6,
+    354.2,
+    180.1
+   ],
+   "size": 8.8,
+   "testo": "delle regole).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    180.5,
+    522.1,
+    191.0
+   ],
+   "size": 8.8,
+   "testo": "Quando si riceve una guarigione, i punti ferita ripristi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    191.5,
+    527.8,
+    202.1
+   ],
+   "size": 8.8,
+   "testo": "nati vanno aggiunti ai punti ferita attuali. I punti ferita di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    202.6,
+    522.1,
+    213.2
+   ],
+   "size": 8.8,
+   "testo": "un personaggio non possono superare i suoi punti ferita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    213.6,
+    512.1,
+    224.2
+   ],
+   "size": 8.8,
+   "testo": "massimi, quindi tutti i punti ferita ottenuti in eccesso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.7,
+    224.5,
+    509.3,
+    235.1
+   ],
+   "size": 8.8,
+   "testo": "vanno perduti. Ad esempio, se un personaggio riceve",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    235.5,
+    529.6,
+    246.1
+   ],
+   "size": 8.8,
+   "testo": "8 punti ferita di guarigione, e ha 14 punti ferita e 20 punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    246.6,
+    482.0,
+    257.1
+   ],
+   "size": 8.8,
+   "testo": "ferita massimi, recupera 6 punti ferita, non 8.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    266.6,
+    482.9,
+    279.7
+   ],
+   "size": 9.7,
+   "testo": "SCENDERE A 0 PUNTI FERITA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    283.3,
+    507.9,
+    293.8
+   ],
+   "size": 8.8,
+   "testo": "Quando una creatura scende a 0 punti ferita, muore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    294.2,
+    517.0,
+    304.8
+   ],
+   "size": 8.8,
+   "testo": "immediatamente o perde conoscenza rimanendo priva",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    305.2,
+    435.0,
+    315.7
+   ],
+   "size": 8.8,
+   "testo": "di sensi, come spiegato di seguito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    325.6,
+    411.2,
+    336.9
+   ],
+   "size": 11.2,
+   "testo": "MORTE ISTANTANEA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    337.0,
+    512.5,
+    347.6
+   ],
+   "size": 8.8,
+   "testo": "Ecco i principali modi in cui una creatura può morire",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    347.9,
+    345.8,
+    358.5
+   ],
+   "size": 8.8,
+   "testo": "all'istante.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.6,
+    358.9,
+    521.6,
+    369.5
+   ],
+   "size": 8.8,
+   "testo": "Morte del mostro. Un mostro muore nell'istante in cui",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    369.8,
+    522.2,
+    380.4
+   ],
+   "size": 8.8,
+   "testo": "scende a 0 punti ferita; tuttavia, il Dungeon Master può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    380.9,
+    522.6,
+    391.5
+   ],
+   "size": 8.8,
+   "testo": "ignorare questaregola per un singolo mostro e trattarlo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    391.8,
+    390.0,
+    402.4
+   ],
+   "size": 8.8,
+   "testo": "come un personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.3,
+    403.0,
+    505.3,
+    413.6
+   ],
+   "size": 8.8,
+   "testo": "Puntiferita massimiparia O. Una creatura muore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    414.0,
+    515.4,
+    424.6
+   ],
+   "size": 8.8,
+   "testo": "se i suoi punti ferita massimi raggiungono lo O. Alcuni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    425.0,
+    507.6,
+    435.5
+   ],
+   "size": 8.8,
+   "testo": "effetti risucchiano l'energia vitale, riducendo i punti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    436.0,
+    425.1,
+    446.5
+   ],
+   "size": 8.8,
+   "testo": "ferita massimi di una creatura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.7,
+    446.9,
+    504.0,
+    457.5
+   ],
+   "size": 8.8,
+   "testo": "Danni considerevoli. Quando i danni riducono un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    457.9,
+    530.1,
+    468.5
+   ],
+   "size": 8.8,
+   "testo": "personaggio a 0 punti ferita e ci sono danni non utilizzati,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    468.8,
+    508.9,
+    479.4
+   ],
+   "size": 8.8,
+   "testo": "il personaggio muore se il danno rimanente è uguale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    479.9,
+    516.9,
+    490.4
+   ],
+   "size": 8.8,
+   "testo": "o superiore ai propri punti ferita massimi. Ad esempio,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    490.8,
+    528.4,
+    501.4
+   ],
+   "size": 8.8,
+   "testo": "se il personaggio ha 12 punti ferita massimi, 6 punti ferita",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    501.9,
+    527.6,
+    512.5
+   ],
+   "size": 8.8,
+   "testo": "attuali e subisce 18 danni, il personaggio scende a 0 punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    513.0,
+    528.4,
+    523.6
+   ],
+   "size": 8.8,
+   "testo": "ferita, ma restano ancora 12 danni da applicare. In questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    524.0,
+    532.5,
+    534.5
+   ],
+   "size": 8.8,
+   "testo": "caso il personaggio muore, poiché 12 equivale ai suoi punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    535.0,
+    362.5,
+    545.5
+   ],
+   "size": 8.8,
+   "testo": "ferita massimi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    555.3,
+    464.4,
+    566.7
+   ],
+   "size": 11.2,
+   "testo": "SCOMPARSA DEL PERSONAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    566.7,
+    524.1,
+    577.3
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio muore, gli altri potrebbero trovare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    577.7,
+    522.8,
+    588.2
+   ],
+   "size": 8.8,
+   "testo": "un modo magico per riportarlo in vita, come ad esempio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    588.7,
+    518.5,
+    599.3
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo rianimare morti. Altrimenti, puoi confron­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    599.7,
+    512.4,
+    610.3
+   ],
+   "size": 8.8,
+   "testo": "tarti con il DM per aggiungere un nuovo personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    610.8,
+    508.0,
+    621.4
+   ],
+   "size": 8.8,
+   "testo": "al gruppo. Il Glossario delle regole contiene ulteriori",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    621.8,
+    404.4,
+    632.4
+   ],
+   "size": 8.8,
+   "testo": "informazioni sulla morte.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    642.4,
+    515.8,
+    653.8
+   ],
+   "size": 11.2,
+   "testo": "PERDERE CONOSCENZA (PRIVO DI SENSI)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    653.7,
+    517.8,
+    664.3
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio raggiunge O punti ferita e non muore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    664.7,
+    520.4,
+    675.3
+   ],
+   "size": 8.8,
+   "testo": "istantaneamente, ha la condizione privo di sensi (vedi il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.6,
+    675.7,
+    519.9,
+    686.3
+   ],
+   "size": 8.8,
+   "testo": "Glossario delle regole) finché non recupera un qualsiasi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.8,
+    686.7,
+    515.1,
+    697.2
+   ],
+   "size": 8.8,
+   "testo": "ammontare di punti ferita. Inoltre, deve effettuare tiri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.8,
+    697.6,
+    458.2,
+    708.2
+   ],
+   "size": 8.8,
+   "testo": "salvezza contro morte (vedi di seguito).",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

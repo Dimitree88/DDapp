@@ -1,0 +1,883 @@
+{
+ "pagina_pdf": 344,
+ "pagina_stampata": 341,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 i INCANTESIMI / 341",
+ "immagini": [
+  [
+   107,
+   18,
+   440,
+   265
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    89.3,
+    37.7,
+    169.5,
+    44.3
+   ],
+   "size": 5.4,
+   "testo": "GLI S P I RITI EVOCAT I DA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    90.0,
+    46.5,
+    182.5,
+    55.6
+   ],
+   "size": 6.9,
+   "testo": "TROVA F!IMIGLIO ASSUMONO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.7,
+    57.7,
+    193.8,
+    64.3
+   ],
+   "size": 5.4,
+   "testo": "UNA FORMA I S P I R ATA A l MAG H I",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    89.2,
+    67.8,
+    170.1,
+    74.4
+   ],
+   "size": 5.4,
+   "testo": "C.HE LI HANNO EVOCAT I.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    290.1,
+    287.7,
+    300.6
+   ],
+   "size": 8.8,
+   "testo": "il famiglia scende a 0 punti ferita o scompare in una sacca",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.1,
+    301.1,
+    276.1,
+    311.6
+   ],
+   "size": 8.8,
+   "testo": "dimensionale, nello spazio che occupava in precedenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.3,
+    312.0,
+    286.1,
+    322.6
+   ],
+   "size": 8.8,
+   "testo": "lascia qualsiasi oggetto stesse indossando o trasportando.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    68.8,
+    323.0,
+    289.3,
+    333.6
+   ],
+   "size": 8.8,
+   "testo": "Un solofamiglia. Un incantatore non può avere più di un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.3,
+    334.0,
+    279.3,
+    344.6
+   ],
+   "size": 8.8,
+   "testo": "famiglia alla volta. Se lancia questo incantesimo mentre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.3,
+    345.0,
+    272.3,
+    355.6
+   ],
+   "size": 8.8,
+   "testo": "è già presente un famiglia, l'incantatore gli impartisce",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    356.0,
+    156.0,
+    366.6
+   ],
+   "size": 8.8,
+   "testo": "un'altra forma possibile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    390.7,
+    178.0,
+    402.0
+   ],
+   "size": 11.2,
+   "testo": "TRUCCO DELLA CORDA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    401.7,
+    184.7,
+    412.8
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazione di2° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    417.9,
+    151.6,
+    427.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    428.9,
+    124.4,
+    438.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    439.9,
+    215.8,
+    449.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un pezzo di corda)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.5,
+    450.9,
+    111.2,
+    460.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: l ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.3,
+    467.1,
+    284.1,
+    477.7
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca una corda: un'estremità fluttua verso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    478.1,
+    274.1,
+    488.7
+   ],
+   "size": 8.8,
+   "testo": "l'alto finché la corda non pende perpendicolarmente al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    489.1,
+    275.5,
+    499.7
+   ],
+   "size": 8.8,
+   "testo": "terreno oppure raggiunge il soffitto. All'estremità supe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    500.1,
+    284.3,
+    510.7
+   ],
+   "size": 8.8,
+   "testo": "riore della corda, si apre un portale invisibile (che misura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.5,
+    511.2,
+    268.7,
+    521.7
+   ],
+   "size": 8.8,
+   "testo": "90 centimetri per 1,5 metri) verso uno spazio extradi­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    522.1,
+    286.7,
+    532.7
+   ],
+   "size": 8.8,
+   "testo": "mensionale che permane fino al termine dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.3,
+    526.1,
+    281.5,
+    544.3
+   ],
+   "size": 8.8,
+   "testo": "È possibile raggiungere questo spazio arrampicandosi in",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    544.1,
+    285.8,
+    554.7
+   ],
+   "size": 8.8,
+   "testo": "cima alla corda, la quale può essere ritratta al suo interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    555.1,
+    175.5,
+    565.7
+   ],
+   "size": 8.8,
+   "testo": "o lasciata cadere fuori di esso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    68.3,
+    566.0,
+    278.4,
+    576.6
+   ],
+   "size": 8.8,
+   "testo": "Lo spazio può contenere un massimo di otto creature",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.0,
+    577.1,
+    276.6,
+    587.7
+   ],
+   "size": 8.8,
+   "testo": "di taglia Media o inferiore. Attacchi, incantesimi e altri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    588.1,
+    270.2,
+    598.7
+   ],
+   "size": 8.8,
+   "testo": "effetti non possono attraversare in entrata o in uscita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    599.0,
+    275.0,
+    609.6
+   ],
+   "size": 8.8,
+   "testo": "lo spazio, ma le creature al suo interno possono vedere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    60.2,
+    610.2,
+    270.0,
+    620.8
+   ],
+   "size": 8.8,
+   "testo": "attraverso il portale. Tutto ciò che si trova all'interno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.2,
+    621.2,
+    281.4,
+    631.8
+   ],
+   "size": 8.8,
+   "testo": "dello spazio cade all'esterno al termine dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    655.9,
+    110.8,
+    667.3
+   ],
+   "size": 11.2,
+   "testo": "TSUNAMI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.9,
+    666.9,
+    176.6,
+    677.8
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di8°livello (druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    682.9,
+    160.5,
+    692.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    693.9,
+    144.7,
+    703.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 1 , 5 chilometri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    704.9,
+    126.7,
+    714.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.6,
+    715.9,
+    208.9,
+    725.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 6 round",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    290.0,
+    521.9,
+    300.6
+   ],
+   "size": 8.8,
+   "testo": "Un muro di acqua si materializza in un punto a scelta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    301.1,
+    528.8,
+    311.6
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore entro gittata. Il muro può avere dimen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    312.1,
+    515.5,
+    322.7
+   ],
+   "size": 8.8,
+   "testo": "sioni massime di 90 metri di lunghezza, 90 metri di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    323.0,
+    532.5,
+    333.6
+   ],
+   "size": 8.8,
+   "testo": "altezza e 15 metri di spessore Il muro permane per tutta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    333.9,
+    417.9,
+    344.5
+   ],
+   "size": 8.8,
+   "testo": "la durata dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.7,
+    345.0,
+    521.4,
+    355.5
+   ],
+   "size": 8.8,
+   "testo": "Quando appare, ogni creatura nell'area effettua un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    356.0,
+    532.6,
+    366.6
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza su Forza, subendo 6d10 danni contundenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    366.9,
+    508.7,
+    377.5
+   ],
+   "size": 8.8,
+   "testo": "in caso di fallimento o la metà dei danni in caso di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    377.9,
+    350.4,
+    388.5
+   ],
+   "size": 8.8,
+   "testo": "successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.4,
+    389.1,
+    526.2,
+    399.6
+   ],
+   "size": 8.8,
+   "testo": "All'inizio di ogni turno dell'incantatore, dopo l'appa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    400.1,
+    529.8,
+    410.6
+   ],
+   "size": 8.8,
+   "testo": "rizione del muro, esso si sposta di 15 metri (insieme alle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    411.0,
+    529.3,
+    421.6
+   ],
+   "size": 8.8,
+   "testo": "creature che contiene) allontanandosi dall'incantatore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    422.1,
+    539.9,
+    432.7
+   ],
+   "size": 8.8,
+   "testo": "Qualsiasi creatura di taglia Enorme o inferiore all'interno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    433.1,
+    536.2,
+    443.7
+   ],
+   "size": 8.8,
+   "testo": "del muro e qualsiasi creatura in uno spazio in cui il muro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    444.0,
+    525.5,
+    454.6
+   ],
+   "size": 8.8,
+   "testo": "entra quando si sposta, deve superare un tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    455.1,
+    519.7,
+    465.6
+   ],
+   "size": 8.8,
+   "testo": "su Forza, altrimenti subisce 5d10 danni contundenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    466.0,
+    531.8,
+    476.6
+   ],
+   "size": 8.8,
+   "testo": "Una creatura può subire questi danni solo una volta per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    477.1,
+    532.0,
+    487.6
+   ],
+   "size": 8.8,
+   "testo": "round. Alla fine del turno, l'altezza del muro si riduce di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    488.0,
+    530.9,
+    498.6
+   ],
+   "size": 8.8,
+   "testo": "15 metri e i danni che infligge nei round successivi sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    499.2,
+    517.6,
+    509.7
+   ],
+   "size": 8.8,
+   "testo": "ridotti di 1d10. Quando il muro raggiunge O metri di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    510.2,
+    435.0,
+    520.8
+   ],
+   "size": 8.8,
+   "testo": "altezza, l'incantesimo termina.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.8,
+    521.1,
+    520.4,
+    531.7
+   ],
+   "size": 8.8,
+   "testo": "Una creatura immersa nel muro può muoversi nuo­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    532.1,
+    534.2,
+    542.7
+   ],
+   "size": 8.8,
+   "testo": "tando. Tuttavia, a causa della forza dell'onda, per potersi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    543.1,
+    540.6,
+    553.7
+   ],
+   "size": 8.8,
+   "testo": "effettivamente muovere deve superare una prova di Forza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.9,
+    554.1,
+    537.0,
+    564.7
+   ],
+   "size": 8.8,
+   "testo": "(Atletica) contro la CD del tiro salvezza sull'incantesimo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    565.1,
+    535.6,
+    575.6
+   ],
+   "size": 8.8,
+   "testo": "Se fallisce la prova, non può muoversi. Una creatura che,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    576.1,
+    472.3,
+    586.6
+   ],
+   "size": 8.8,
+   "testo": "muovendosi, esce dal muro, cade a terra.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    610.9,
+    433.2,
+    622.2
+   ],
+   "size": 11.2,
+   "testo": "TURBINE IMPLACABILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    622.4,
+    451.9,
+    632.9
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi5° livello (ranger, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    638.0,
+    404.7,
+    647.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    649.0,
+    372.5,
+    658.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.4,
+    660.0,
+    532.5,
+    669.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: S, M (un'arma da mischia dal valore di l ma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    320.7,
+    670.8,
+    365.8,
+    680.5
+   ],
+   "size": 8.4,
+   "testo": "o superiore)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.9,
+    681.9,
+    385.1,
+    691.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

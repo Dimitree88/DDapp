@@ -1,0 +1,1435 @@
+{
+ "pagina_pdf": 82,
+ "pagina_stampata": 79,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 3 I CLASSI DEI PERSONAGGI / 79",
+ "immagini": [
+  [
+   41,
+   6,
+   589,
+   491
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.3,
+    50.4,
+    153.2,
+    61.1
+   ],
+   "size": 10.6,
+   "testo": "TRATTI DEL DRUIDO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    64.8,
+    116.1,
+    75.5
+   ],
+   "size": 10.6,
+   "testo": "Caratteristiche",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    75.7,
+    92.2,
+    86.4
+   ],
+   "size": 10.6,
+   "testo": "primarie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.5,
+    90.3,
+    98.0,
+    101.0
+   ],
+   "size": 10.6,
+   "testo": "Dado Vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    104.9,
+    107.7,
+    115.5
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    115.9,
+    117.9,
+    126.5
+   ],
+   "size": 10.6,
+   "testo": "nei tiri salvezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.9,
+    130.4,
+    107.7,
+    141.1
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.6,
+    141.4,
+    103.5,
+    152.1
+   ],
+   "size": 10.6,
+   "testo": "nelle abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    169.1,
+    107.7,
+    179.8
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    180.0,
+    97.7,
+    190.7
+   ],
+   "size": 10.6,
+   "testo": "nelle armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    194.6,
+    107.5,
+    205.3
+   ],
+   "size": 10.6,
+   "testo": "Competenze",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.1,
+    205.7,
+    117.6,
+    216.4
+   ],
+   "size": 10.6,
+   "testo": "negli strumenti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.8,
+    220.3,
+    107.5,
+    231.0
+   ],
+   "size": 10.6,
+   "testo": "Competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.4,
+    231.3,
+    114.6,
+    242.0
+   ],
+   "size": 10.6,
+   "testo": "nelle armature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.2,
+    245.8,
+    125.9,
+    256.5
+   ],
+   "size": 10.6,
+   "testo": "Equipaggiamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.0,
+    256.9,
+    86.7,
+    267.6
+   ],
+   "size": 10.6,
+   "testo": "iniziale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.0,
+    65.7,
+    172.7,
+    75.4
+   ],
+   "size": 8.4,
+   "testo": "Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.4,
+    91.3,
+    245.6,
+    100.9
+   ],
+   "size": 8.4,
+   "testo": "08 per ogni livello da druido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.3,
+    105.9,
+    225.7,
+    115.5
+   ],
+   "size": 8.4,
+   "testo": "Intelligenza e Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.2,
+    131.5,
+    274.9,
+    141.2
+   ],
+   "size": 9.2,
+   "testo": "Due a scelta tra: Addestrare Animali,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    134.4,
+    143.5,
+    280.3,
+    153.1
+   ],
+   "size": 8.4,
+   "testo": "Arcano, Intuizione, Medicina, Natura,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    135.3,
+    155.6,
+    279.4,
+    165.2
+   ],
+   "size": 8.4,
+   "testo": "Percezione, Religione o Sopravvivenza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    134.8,
+    170.0,
+    189.5,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "Armi semplici",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    135.3,
+    195.6,
+    206.6,
+    205.2
+   ],
+   "size": 8.4,
+   "testo": "Borsa da erborista",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.4,
+    221.3,
+    231.8,
+    231.0
+   ],
+   "size": 8.4,
+   "testo": "Armature leggere e scudi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.2,
+    246.8,
+    265.6,
+    256.5
+   ],
+   "size": 9.2,
+   "testo": "A scelta tra A e B: (A) Un'armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.6,
+    258.8,
+    258.5,
+    268.4
+   ],
+   "size": 8.4,
+   "testo": "di cuoio, uno scudo, un falcetto,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    134.3,
+    270.9,
+    276.8,
+    280.6
+   ],
+   "size": 8.4,
+   "testo": "focus druidico (bastone ferrato), una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    134.4,
+    282.9,
+    274.1,
+    292.6
+   ],
+   "size": 8.4,
+   "testo": "dotazione da esploratore, una borsa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    134.4,
+    293.8,
+    261.0,
+    304.5
+   ],
+   "size": 8.8,
+   "testo": "da erborista e 9 mo; o (B) 50 mo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    332.4,
+    74.1,
+    383.0
+   ],
+   "size": 29.9,
+   "testo": "1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    71.3,
+    311.4,
+    268.5,
+    340.6
+   ],
+   "size": 6.6,
+   "testo": "DRUIDI APPARTENGONO AD ANTICHI ORDINI CHE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    71.8,
+    341.6,
+    280.1,
+    352.1
+   ],
+   "size": 8.8,
+   "testo": "invocano le forze della natura. Imbrigliando la magia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    71.8,
+    352.5,
+    262.7,
+    363.1
+   ],
+   "size": 8.8,
+   "testo": "degli animali, delle piante e dei quattro elementi,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    363.5,
+    268.2,
+    374.1
+   ],
+   "size": 8.8,
+   "testo": "i druidi guariscono, si trasformano in animali e brandi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    374.5,
+    180.9,
+    385.1
+   ],
+   "size": 8.8,
+   "testo": "scono la distruzione elementale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    385.6,
+    281.0,
+    396.2
+   ],
+   "size": 8.8,
+   "testo": "I druidi venerano la natura al di sopra di ogni altra cosa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    396.6,
+    267.0,
+    407.1
+   ],
+   "size": 8.8,
+   "testo": "e traggono i loro poteri magici dalla forza della natura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    407.6,
+    283.4,
+    418.2
+   ],
+   "size": 8.8,
+   "testo": "stessa, da una divinità della natura o da entrambe. Di solito",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    418.7,
+    283.5,
+    429.2
+   ],
+   "size": 8.8,
+   "testo": "si riuniscono con altri druidi per celebrare riti che segnano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    429.6,
+    243.3,
+    440.2
+   ],
+   "size": 8.8,
+   "testo": "il passaggio delle stagioni e di altri cicli naturali.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    440.5,
+    283.2,
+    451.1
+   ],
+   "size": 8.8,
+   "testo": "I druidi si occupano del delicato equilibrio ecologico che",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    451.6,
+    279.0,
+    462.2
+   ],
+   "size": 8.8,
+   "testo": "sostiene la vita vegetale e animale, nonché della necessità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    462.6,
+    273.0,
+    473.2
+   ],
+   "size": 8.8,
+   "testo": "delle persone di vivere in armonia con la natura. Spesso",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    473.5,
+    265.7,
+    484.1
+   ],
+   "size": 8.8,
+   "testo": "custodiscono siti sacri o sorvegliano regioni di natura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    484.5,
+    277.4,
+    495.1
+   ],
+   "size": 8.8,
+   "testo": "incontaminata, ma quando si presenta un grave pericolo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    495.5,
+    278.9,
+    506.1
+   ],
+   "size": 8.8,
+   "testo": "i druidi assumono un ruolo più attivo, partendo all'avven­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    506.6,
+    171.6,
+    517.2
+   ],
+   "size": 8.8,
+   "testo": "tura per sventare la minaccia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    526.7,
+    216.6,
+    539.8
+   ],
+   "size": 9.7,
+   "testo": "DIVENTARE UN DRUIDO...",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    547.2,
+    239.0,
+    558.6
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO DI 1o LIVELLO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    558.6,
+    270.4,
+    569.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene tutte le caratteristiche della tabella Tratti del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.8,
+    569.5,
+    92.1,
+    580.1
+   ],
+   "size": 8.8,
+   "testo": "druido.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    578.4,
+    273.4,
+    591.2
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi di 1° livello da druido, elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.6,
+    591.6,
+    169.4,
+    602.1
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del druido.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    612.2,
+    237.9,
+    623.5
+   ],
+   "size": 11.2,
+   "testo": "COME PERSONAGGIO MULTICLASSE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    623.6,
+    273.6,
+    634.2
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i seguenti tratti della tabella Tratti del druido:",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.8,
+    634.5,
+    276.3,
+    645.1
+   ],
+   "size": 8.8,
+   "testo": "Dado Vita e competenza nelle armature leggere e negli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.7,
+    645.6,
+    86.4,
+    656.1
+   ],
+   "size": 8.8,
+   "testo": "scudi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    654.5,
+    273.3,
+    667.1
+   ],
+   "size": 8.8,
+   "testo": "Ottiene i privilegi di 1° livello da druido, elencati nella",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.6,
+    667.5,
+    275.6,
+    678.1
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del druido. Per determinare il numero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.7,
+    678.5,
+    281.9,
+    689.1
+   ],
+   "size": 8.8,
+   "testo": "di slot incantesimo disponibili, vedi le regole multiclasse",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.6,
+    689.5,
+    117.7,
+    700.1
+   ],
+   "size": 8.8,
+   "testo": "nel capitolo 2.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    67.7,
+    529.2,
+    78.2
+   ],
+   "size": 8.8,
+   "testo": "Il druido ottiene i seguenti privilegi di classe quando rag­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    78.6,
+    533.5,
+    89.2
+   ],
+   "size": 8.8,
+   "testo": "giunge i livelli specificati. Tali privilegi sono elencati nella",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    89.6,
+    415.4,
+    100.2
+   ],
+   "size": 8.8,
+   "testo": "tabella Privilegi del druido.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    102.6,
+    439.8,
+    121.3
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO l: INCANTESIMI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    121.4,
+    523.2,
+    132.0
+   ],
+   "size": 8.8,
+   "testo": "Il druido ha imparato a lanciare incantesimi attraverso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    132.4,
+    517.2,
+    143.0
+   ],
+   "size": 8.8,
+   "testo": "lo studio delle forze mistiche della natura. Consulta il",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    143.4,
+    534.3,
+    154.0
+   ],
+   "size": 8.8,
+   "testo": "capitolo 7 per le regole relative al lancio degli incantesimi.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.1,
+    154.5,
+    532.8,
+    165.0
+   ],
+   "size": 8.8,
+   "testo": "Le informazioni sottostanti spiegano come applicarle agli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    165.5,
+    523.7,
+    176.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimi del druido, elencati nella relativa lista degli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    176.4,
+    511.4,
+    187.0
+   ],
+   "size": 8.8,
+   "testo": "incantesimi più avanti nella descrizione della classe.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    187.4,
+    524.2,
+    198.0
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti. Un druido conosce due trucchetti a scelta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    198.5,
+    525.1,
+    209.1
+   ],
+   "size": 8.8,
+   "testo": "tratti dalla lista degli incantesimi da druido. Sono consi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    209.5,
+    464.5,
+    220.1
+   ],
+   "size": 8.8,
+   "testo": "gliati artificio druidico e produrrefiamma.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.0,
+    220.5,
+    510.9,
+    231.1
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che il personaggio ottiene un livello da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    231.5,
+    534.9,
+    242.1
+   ],
+   "size": 8.8,
+   "testo": "druido, può sostituire uno dei suoi trucchetti con un altro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    242.5,
+    531.9,
+    253.1
+   ],
+   "size": 8.8,
+   "testo": "trucchetto a scelta dalla lista degli incantesimi da druido.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    251.3,
+    519.8,
+    264.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio raggiunge il 4° e il 10° livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    264.5,
+    526.3,
+    275.1
+   ],
+   "size": 8.8,
+   "testo": "da druido, impara un altro trucchetto a scelta dalla lista",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    275.6,
+    528.5,
+    286.2
+   ],
+   "size": 8.8,
+   "testo": "degli incantesimi da druido, come indicato nella colonna",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    286.5,
+    479.1,
+    297.1
+   ],
+   "size": 8.8,
+   "testo": "Trucchetti della tabella Privilegi del druido.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    297.6,
+    530.8,
+    308.1
+   ],
+   "size": 8.8,
+   "testo": "Slotincantesimo. La tabella Privilegi del druido mostra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    308.5,
+    531.6,
+    319.1
+   ],
+   "size": 8.8,
+   "testo": "gli slot incantesimo disponibili per i propri incantesimi di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    317.3,
+    532.7,
+    330.1
+   ],
+   "size": 8.8,
+   "testo": "1° livello o superiore. Tutti gli slot incantesimo consumati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.0,
+    330.5,
+    537.6,
+    341.0
+   ],
+   "size": 8.8,
+   "testo": "vengono ripristinati una volta completato un riposo lungo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    341.4,
+    536.3,
+    352.0
+   ],
+   "size": 8.8,
+   "testo": "Incantesimipreparati di 1° livello o superiore. Con questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    352.4,
+    530.9,
+    363.0
+   ],
+   "size": 8.8,
+   "testo": "privilegio, il personaggio prepara una lista di incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    361.3,
+    523.6,
+    374.0
+   ],
+   "size": 8.8,
+   "testo": "di 1° livello o superiore che può lanciare. Per iniziare, il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    372.2,
+    530.6,
+    384.9
+   ],
+   "size": 8.8,
+   "testo": "personaggio sceglie quattro incantesimi di 1° livello dalla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    385.4,
+    532.7,
+    396.0
+   ],
+   "size": 8.8,
+   "testo": "lista degli incantesimi da druido. Sono consigliati amicizia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    396.4,
+    514.3,
+    407.0
+   ],
+   "size": 8.8,
+   "testo": "con gli animali, curaferite, luminescenza e onda tonante.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    407.5,
+    531.5,
+    418.1
+   ],
+   "size": 8.8,
+   "testo": "Il numero di incantesimi nella lista aumenta man mano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    418.5,
+    535.3,
+    429.1
+   ],
+   "size": 8.8,
+   "testo": "che il personaggio ottiene livelli da druido, come mostrato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    429.5,
+    531.9,
+    440.1
+   ],
+   "size": 8.8,
+   "testo": "nella colonna Incantesimi preparati della tabella Privilegi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    440.4,
+    533.9,
+    451.0
+   ],
+   "size": 8.8,
+   "testo": "del druido. Ogni volta che il numero cresce, il druido deve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    451.4,
+    517.4,
+    461.9
+   ],
+   "size": 8.8,
+   "testo": "scegliere altri incantesimi dalla lista degli incantesimi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    462.4,
+    505.8,
+    473.0
+   ],
+   "size": 8.8,
+   "testo": "da druido finché il numero di incantesimi sulla sua",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    473.4,
+    512.6,
+    483.9
+   ],
+   "size": 8.8,
+   "testo": "lista non combacia con quello mostrato nella tabella.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    484.4,
+    519.1,
+    494.9
+   ],
+   "size": 8.8,
+   "testo": "Gli incantesimi scelti devono essere di un livello di cui",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    495.4,
+    524.9,
+    505.9
+   ],
+   "size": 8.8,
+   "testo": "possiede degli slot incantesimo. Per esempio, nel caso di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    504.2,
+    534.7,
+    517.0
+   ],
+   "size": 8.8,
+   "testo": "un druido di 3° livello, la sua lista di incantesimi preparati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    515.3,
+    530.4,
+    528.0
+   ],
+   "size": 8.8,
+   "testo": "può includere sei incantesimi di 1° e 2° livello in qualsiasi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.4,
+    528.4,
+    365.5,
+    539.0
+   ],
+   "size": 8.8,
+   "testo": "combinazione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    539.5,
+    529.0,
+    550.0
+   ],
+   "size": 8.8,
+   "testo": "Se un altro privilegio gli fornisce incantesimi che sono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    550.4,
+    525.3,
+    561.0
+   ],
+   "size": 8.8,
+   "testo": "sempre preparati, questi non contano ai fini del numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    561.4,
+    532.0,
+    572.0
+   ],
+   "size": 8.8,
+   "testo": "di incantesimi preparabili con questo privilegio. Tuttavia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    572.4,
+    495.3,
+    582.9
+   ],
+   "size": 8.8,
+   "testo": "valgono comunque come incantesimi da druido.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    583.4,
+    520.9,
+    593.9
+   ],
+   "size": 8.8,
+   "testo": "Cambiaregliincantesimipreparati. Quando il druido",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    594.3,
+    523.7,
+    604.9
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo lungo, può modificare la sua lista di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    605.4,
+    522.7,
+    616.0
+   ],
+   "size": 8.8,
+   "testo": "incantesimi preparati, sostituendo quelli che preferisce",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    616.5,
+    515.8,
+    627.0
+   ],
+   "size": 8.8,
+   "testo": "con altri incantesimi da druido cui possiede degli slot",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    627.5,
+    358.1,
+    638.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    638.5,
+    520.9,
+    649.1
+   ],
+   "size": 8.8,
+   "testo": "Caratteristica da Incantatore. Saggezza è la caratteri­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    649.5,
+    524.9,
+    660.0
+   ],
+   "size": 8.8,
+   "testo": "stica da incantatore usata per gli incantesimi da druido.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    660.5,
+    511.5,
+    671.1
+   ],
+   "size": 8.8,
+   "testo": "Focus da incantatore. Il druido può usare un focus",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    671.4,
+    532.6,
+    682.0
+   ],
+   "size": 8.8,
+   "testo": "druidico come focus da incantatore per i suoi incantesimi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    682.4,
+    348.5,
+    693.0
+   ],
+   "size": 8.8,
+   "testo": "da druido.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

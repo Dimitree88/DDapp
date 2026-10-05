@@ -1,0 +1,1416 @@
+{
+ "pagina_pdf": 280,
+ "pagina_stampata": 277,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 277",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.3,
+    49.2,
+    148.5,
+    59.6
+   ],
+   "size": 8.4,
+   "testo": "GABBIA DI FORZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    61.0,
+    225.2,
+    71.4
+   ],
+   "size": 8.4,
+   "testo": "Invocazione di 7°livello (bardo, mago, warlock)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    75.5,
+    144.5,
+    86.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    86.5,
+    117.9,
+    96.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 30 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    97.5,
+    242.5,
+    107.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (polvere di rubino del valore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    108.5,
+    240.4,
+    119.0
+   ],
+   "size": 8.4,
+   "testo": "di 1.500 mo o più, che l'incantesimo consuma)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    119.5,
+    191.2,
+    129.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    138.2,
+    277.2,
+    146.8
+   ],
+   "size": 6.7,
+   "testo": "Una prigione cubica di forza magica invisibile e immobile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    149.3,
+    256.5,
+    157.9
+   ],
+   "size": 6.7,
+   "testo": "si materializza intorno a un'area entro gittata scelta",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    160.3,
+    253.7,
+    168.9
+   ],
+   "size": 6.7,
+   "testo": "dall'incantatore. La prigione può essere una gabbia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.4,
+    171.2,
+    187.6,
+    179.8
+   ],
+   "size": 6.7,
+   "testo": "o una struttura solida a sua scelta.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    182.3,
+    254.6,
+    190.9
+   ],
+   "size": 6.7,
+   "testo": "Una prigione a forma di gabbia può misurare fino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    193.3,
+    279.4,
+    202.2
+   ],
+   "size": 6.7,
+   "testo": "a 6 metri per lato ed essere composta da sbarre di 1,25 cen­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    204.4,
+    277.9,
+    213.2
+   ],
+   "size": 6.7,
+   "testo": "timetri di diametro disposte a 1,25 centimetri di distanza.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    215.3,
+    275.6,
+    223.9
+   ],
+   "size": 6.7,
+   "testo": "Una prigione a forma di scatola chiusa può misurare fino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    224.9,
+    274.9,
+    235.3
+   ],
+   "size": 8.4,
+   "testo": "a 3 metri per lato e crea una barriera compatta che impe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    237.4,
+    279.3,
+    246.0
+   ],
+   "size": 6.7,
+   "testo": "disce a ogni tipo di materia di passarle attraverso e blocca",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    248.3,
+    273.6,
+    256.9
+   ],
+   "size": 6.7,
+   "testo": "qualsiasiincantesimo lanciato verso l'interno o l'esterno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    259.3,
+    89.8,
+    267.9
+   ],
+   "size": 6.7,
+   "testo": "dell'area.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    270.4,
+    273.6,
+    279.0
+   ],
+   "size": 6.7,
+   "testo": "Al momento del lancio dell'incantesimo, ogni creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    281.4,
+    274.9,
+    290.2
+   ],
+   "size": 6.7,
+   "testo": "completamente all'interno dell'area della gabbia è intrap­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    292.3,
+    271.4,
+    300.9
+   ],
+   "size": 6.7,
+   "testo": "polata. Le creature situate solo parzialmente all'interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    303.4,
+    273.0,
+    312.0
+   ],
+   "size": 6.7,
+   "testo": "dell'area o quelle di dimensioni troppo grandi per essere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    314.4,
+    269.9,
+    323.0
+   ],
+   "size": 6.7,
+   "testo": "contenute al suo interno sono spinte lontano dal centro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.0,
+    325.3,
+    255.3,
+    333.9
+   ],
+   "size": 6.7,
+   "testo": "dell'area finché non ne fuoriescono completamente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.6,
+    336.3,
+    270.7,
+    344.9
+   ],
+   "size": 6.7,
+   "testo": "Una creatura all'interno della gabbia non può uscirne",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    347.3,
+    266.9,
+    355.9
+   ],
+   "size": 6.7,
+   "testo": "tramite mezzi non magici. Se la creatura prova a utiliz­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    358.2,
+    275.4,
+    366.8
+   ],
+   "size": 6.7,
+   "testo": "zare il teletrasporto o il viaggio interplanare, deve prima",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    369.2,
+    265.4,
+    377.8
+   ],
+   "size": 6.7,
+   "testo": "effettuare un tiro salvezza su Carisma. Se lo supera, la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.4,
+    380.3,
+    271.1,
+    388.9
+   ],
+   "size": 6.7,
+   "testo": "creatura può usare quella magia per uscire dalla gabbia,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    391.3,
+    276.0,
+    399.9
+   ],
+   "size": 6.7,
+   "testo": "mentre se lo fallisce, non può uscire dalla gabbia e spreca",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.3,
+    402.3,
+    277.9,
+    410.9
+   ],
+   "size": 6.7,
+   "testo": "un uso di quell'incantesimo o effetto. La gabbia si estende",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    413.4,
+    244.4,
+    422.0
+   ],
+   "size": 6.7,
+   "testo": "anche sul Piano Etereo, bloccando i viaggi eterei.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.5,
+    424.4,
+    249.5,
+    433.0
+   ],
+   "size": 6.7,
+   "testo": "Questo incantesimo non può essere dissolto con",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    433.9,
+    106.9,
+    444.3
+   ],
+   "size": 8.4,
+   "testo": "dissolvi magie.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    467.9,
+    135.1,
+    478.3
+   ],
+   "size": 8.4,
+   "testo": "GIARA MAGICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    479.9,
+    171.7,
+    490.4
+   ],
+   "size": 8.4,
+   "testo": "Necromanzia di 6°livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    494.6,
+    153.4,
+    505.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    505.7,
+    128.7,
+    516.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.3,
+    516.7,
+    249.8,
+    527.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una gemma, un cristallo o un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.3,
+    527.7,
+    204.5,
+    538.1
+   ],
+   "size": 8.4,
+   "testo": "reliquiario del valore di 500 mo o più)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    538.7,
+    180.0,
+    549.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: finché non viene dissolto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    557.4,
+    260.8,
+    566.0
+   ],
+   "size": 6.7,
+   "testo": "Il corpo dell'incantatore cade in uno stato catatonico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    568.4,
+    262.8,
+    577.0
+   ],
+   "size": 6.7,
+   "testo": "e la sua anima lo abbandona entrando nel contenitore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    579.4,
+    272.0,
+    588.0
+   ],
+   "size": 6.7,
+   "testo": "utilizzato come componente materiale dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.6,
+    590.4,
+    271.9,
+    599.0
+   ],
+   "size": 6.7,
+   "testo": "Mentre la sua anima si trova all'interno del contenitore,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.7,
+    601.4,
+    259.8,
+    610.2
+   ],
+   "size": 6.7,
+   "testo": "l'incantatore è consapevole di ciò che accade intorno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.1,
+    612.5,
+    258.0,
+    621.1
+   ],
+   "size": 6.7,
+   "testo": "a lui come se si trovasse nello spazio del contenitore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.6,
+    623.7,
+    262.6,
+    632.3
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore non può muoversi o effettuare reazioni,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    634.6,
+    270.1,
+    643.4
+   ],
+   "size": 6.7,
+   "testo": "l'unica azione che può effettuare è proiettare la propria",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    645.6,
+    276.7,
+    654.4
+   ],
+   "size": 6.7,
+   "testo": "anima fino a 30 metri fuori dal contenitore, tornando nel",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.2,
+    656.5,
+    272.2,
+    665.1
+   ],
+   "size": 6.7,
+   "testo": "suo corpo (e così terminando l'incantesimo) o provando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    667.5,
+    243.9,
+    676.1
+   ],
+   "size": 6.7,
+   "testo": "a prendere possesso di un corpo di un umanoide.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.2,
+    678.5,
+    260.8,
+    687.1
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore può tentare di possedere un qualsiasi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.2,
+    689.5,
+    270.5,
+    698.3
+   ],
+   "size": 6.7,
+   "testo": "umanoide entro 30 metri da lui che è in grado di vedere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    699.1,
+    276.5,
+    709.5
+   ],
+   "size": 8.4,
+   "testo": "(tranne le creature protette da un incantesimo protezione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    710.1,
+    268.1,
+    720.5
+   ],
+   "size": 8.4,
+   "testo": "dalbene e dal male o cerchio magico). li bersaglio effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    35.8,
+    531.4,
+    44.4
+   ],
+   "size": 6.7,
+   "testo": "un tiro salvezza su Carisma. In caso di fallimento, l'anima",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    46.8,
+    533.6,
+    55.4
+   ],
+   "size": 6.7,
+   "testo": "dell'incantatore entra nel corpo del bersaglio, la cui anima",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    57.8,
+    526.4,
+    66.4
+   ],
+   "size": 6.7,
+   "testo": "viene intrappolata nel contenitore. In caso di successo, il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.1,
+    68.8,
+    527.9,
+    77.4
+   ],
+   "size": 6.7,
+   "testo": "bersaglio resiste agli sforzi dell'incantatore di possederlo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    79.8,
+    531.2,
+    88.6
+   ],
+   "size": 6.7,
+   "testo": "e quest'ultimo non può riprovare per le 24 ore successive.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    90.8,
+    512.7,
+    99.4
+   ],
+   "size": 6.7,
+   "testo": "Quando l'incantatore prende possesso del corpo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.6,
+    101.7,
+    525.2,
+    110.3
+   ],
+   "size": 6.7,
+   "testo": "una creatura, ne ha il pieno controllo. I suoi punti ferita,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    112.8,
+    532.6,
+    121.4
+   ],
+   "size": 6.7,
+   "testo": "Dadi Vita, Forza, Destrezza, Costituzione, Velocità e sensi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    123.7,
+    516.4,
+    132.3
+   ],
+   "size": 6.7,
+   "testo": "vengono sostituiti da quelli della creatura. Altrimenti,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    134.7,
+    511.7,
+    143.3
+   ],
+   "size": 6.7,
+   "testo": "l'incantatore conserva le proprie statistiche di gioco.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    145.8,
+    533.2,
+    154.4
+   ],
+   "size": 6.7,
+   "testo": "Nel frattempo, l'anima della creatura posseduta può per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    156.8,
+    523.6,
+    165.4
+   ],
+   "size": 6.7,
+   "testo": "cepire ciò che accade intorno al contenitore utilizzando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    167.8,
+    515.5,
+    176.6
+   ],
+   "size": 6.7,
+   "testo": "i propri sensi, ma non può muoversi ed è incapacitata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.8,
+    178.8,
+    533.1,
+    187.6
+   ],
+   "size": 6.7,
+   "testo": "Mentre è in possesso di un corpo, l'incantatore può effet­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    189.8,
+    524.7,
+    198.4
+   ],
+   "size": 6.7,
+   "testo": "tuare la sua azione di Magia per tornare nel contenitore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    200.9,
+    528.2,
+    209.7
+   ],
+   "size": 6.7,
+   "testo": "se si trova entro 30 metri da lui, riportando l'anima della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    211.8,
+    518.8,
+    220.4
+   ],
+   "size": 6.7,
+   "testo": "creatura ospite nel suo corpo. Se il corpo ospite muore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    222.9,
+    511.0,
+    231.5
+   ],
+   "size": 6.7,
+   "testo": "mentre l'incantatore si trova al suo interno, anche la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    233.8,
+    534.2,
+    242.4
+   ],
+   "size": 6.7,
+   "testo": "creatura muore e l'incantatore effettua un tiro salvezza su",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    244.8,
+    527.9,
+    253.4
+   ],
+   "size": 6.7,
+   "testo": "Carisma contro la CD del suo stesso incantesimo. In caso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    255.8,
+    527.6,
+    264.4
+   ],
+   "size": 6.7,
+   "testo": "di successo, l'incantatore torna nel contenitore, che deve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.7,
+    266.8,
+    527.8,
+    275.7
+   ],
+   "size": 6.7,
+   "testo": "tuttavia trovarsi entro 30 metri da lui; altrimenti muore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.8,
+    277.9,
+    534.1,
+    286.5
+   ],
+   "size": 6.7,
+   "testo": "Se il contenitore viene distrutto o l'incantesimo termina,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    288.9,
+    526.9,
+    297.5
+   ],
+   "size": 6.7,
+   "testo": "l'anima dell'incantatore torna nel suo corpo. Tuttavia, se",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    299.8,
+    525.6,
+    308.7
+   ],
+   "size": 6.7,
+   "testo": "il suo corpo si trova a più di 30 metri da lui o se è morto,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    310.8,
+    531.9,
+    319.4
+   ],
+   "size": 6.7,
+   "testo": "anche l'incantatore muore. Se l'anima di un'altra creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    321.8,
+    534.1,
+    330.4
+   ],
+   "size": 6.7,
+   "testo": "si trova all'interno del contenitore quando viene distrutto,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.5,
+    332.8,
+    531.6,
+    341.4
+   ],
+   "size": 6.7,
+   "testo": "questa ritorna nel suo corpo, a patto che sia vivo e si trovi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    343.7,
+    484.0,
+    352.5
+   ],
+   "size": 6.7,
+   "testo": "entro 30 metri; altrimenti, la creatura muore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.2,
+    354.8,
+    503.0,
+    363.4
+   ],
+   "size": 6.7,
+   "testo": "Al termine dell'incantesimo, il contenitore viene",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    365.6,
+    343.8,
+    374.2
+   ],
+   "size": 6.7,
+   "testo": "distrutto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    384.5,
+    533.6,
+    393.3
+   ],
+   "size": 6.6,
+   "testo": "...-- --------..-",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.9,
+    398.9,
+    434.0,
+    409.3
+   ],
+   "size": 8.4,
+   "testo": "GLIFO DI INTERDIZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    410.6,
+    478.5,
+    421.0
+   ],
+   "size": 8.4,
+   "testo": "Abiurazione di 3° livello (bardo, chierico, mago)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    425.1,
+    390.9,
+    435.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: l ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    436.1,
+    370.2,
+    446.5
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    447.1,
+    505.0,
+    457.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (polvere di diamante del valore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.5,
+    458.1,
+    485.8,
+    468.5
+   ],
+   "size": 8.4,
+   "testo": "di 200 mo o più, che l'incantesimo consuma)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.8,
+    469.1,
+    478.7,
+    479.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: finché non viene dissolto o innescato",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    487.8,
+    528.5,
+    496.4
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore traccia un glifo da cui, in seguito, si sprigio­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    498.8,
+    532.0,
+    507.6
+   ],
+   "size": 6.7,
+   "testo": "nerà un effetto magico. li glifo può essere tracciato su una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    509.9,
+    531.4,
+    518.5
+   ],
+   "size": 6.7,
+   "testo": "superficie (come un tavolo o una sezione di pavimento) o, al",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    520.9,
+    531.1,
+    529.5
+   ],
+   "size": 6.7,
+   "testo": "fine di nasconderlo, all'interno di un oggetto che può essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    531.9,
+    523.4,
+    540.5
+   ],
+   "size": 6.7,
+   "testo": "chiuso (come un libro o un forziere). Il glifo può coprire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    542.9,
+    525.7,
+    551.7
+   ],
+   "size": 6.7,
+   "testo": "un'area massima del diametro di 3 metri. Se la superficie",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    553.8,
+    524.7,
+    562.6
+   ],
+   "size": 6.7,
+   "testo": "o l'oggetto viene spostato per più di 3 metri dal punto in",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.2,
+    564.9,
+    530.7,
+    573.5
+   ],
+   "size": 6.7,
+   "testo": "cui l'incantatore ha lanciato questo incantesimo, il glifo si",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.6,
+    575.9,
+    526.2,
+    584.5
+   ],
+   "size": 6.7,
+   "testo": "infrange e l'incantesimo termina senza essere innescato.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.6,
+    586.9,
+    531.8,
+    595.7
+   ],
+   "size": 6.7,
+   "testo": "li glifo è quasi impercettibile e, per notarlo, è necessario",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    597.8,
+    533.3,
+    606.4
+   ],
+   "size": 6.7,
+   "testo": "superare una prova di Saggezza (Percezione) contro la CD",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    608.9,
+    437.8,
+    617.5
+   ],
+   "size": 6.7,
+   "testo": "del tiro salvezza sull'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.4,
+    620.1,
+    516.3,
+    628.7
+   ],
+   "size": 6.7,
+   "testo": "Quando l'incantatore traccia il glifo, ne programma",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    631.0,
+    520.7,
+    639.6
+   ],
+   "size": 6.7,
+   "testo": "l'innesco e sceglie se si tratta di una runa esplosiva o di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    642.0,
+    471.7,
+    650.6
+   ],
+   "size": 6.7,
+   "testo": "un glifo magico, come illustrato di seguito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    653.0,
+    515.8,
+    661.8
+   ],
+   "size": 6.7,
+   "testo": "Programmare l'innesco. Quando questo incantesimo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    664.0,
+    522.0,
+    672.6
+   ],
+   "size": 6.7,
+   "testo": "viene lanciato, l'incantatore decide cosa innesca il glifo.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.4,
+    674.9,
+    517.3,
+    683.5
+   ],
+   "size": 6.7,
+   "testo": "Nel caso di glifi tracciati su una superficie, gli inneschi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    686.0,
+    517.4,
+    694.6
+   ],
+   "size": 6.7,
+   "testo": "più comuni includono: toccare o camminare su di essi,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    696.9,
+    512.4,
+    705.5
+   ],
+   "size": 6.7,
+   "testo": "rimuovere un altro oggetto che li copre o avvicinarsi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.9,
+    707.9,
+    513.3,
+    716.5
+   ],
+   "size": 6.7,
+   "testo": "a una certa distanza da loro. Nel caso di glifi tracciati",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

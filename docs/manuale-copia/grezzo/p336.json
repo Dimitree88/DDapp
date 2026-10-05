@@ -1,0 +1,1320 @@
+{
+ "pagina_pdf": 336,
+ "pagina_stampata": 333,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 333",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    63.5,
+    34.8,
+    285.7,
+    45.3
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore ottiene il risultato 8 su un d8, può tirare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    45.8,
+    279.8,
+    56.4
+   ],
+   "size": 8.8,
+   "testo": "un altro d8 e aggiungere il risultato ai danni. Quando lan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    56.8,
+    273.7,
+    67.3
+   ],
+   "size": 8.8,
+   "testo": "cia l'incantesimo, l'incantatore può aggiungere ai danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    67.8,
+    283.3,
+    78.3
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo un numero di d8 pari al suo modificatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    78.8,
+    180.2,
+    89.3
+   ],
+   "size": 8.8,
+   "testo": "di caratteristica da incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    89.7,
+    269.3,
+    100.3
+   ],
+   "size": 8.8,
+   "testo": "Trucchetto potenziato. I danni di questo incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    100.7,
+    258.9,
+    111.2
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d8 quando l'incantatore raggiunge il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    109.5,
+    262.1,
+    122.2
+   ],
+   "size": 8.8,
+   "testo": "5° livello (2d8}, 1'11° livello (3d8} e il 17° livello (4d8}.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    146.3,
+    175.0,
+    157.7
+   ],
+   "size": 11.2,
+   "testo": "STRETTA FOLGORANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    158.8,
+    211.8,
+    168.1
+   ],
+   "size": 8.6,
+   "testo": "TrucchettodiInvocazione (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    173.4,
+    147.0,
+    183.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    184.5,
+    119.7,
+    194.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    195.5,
+    121.9,
+    205.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    206.6,
+    127.5,
+    216.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.3,
+    222.7,
+    272.7,
+    233.3
+   ],
+   "size": 8.8,
+   "testo": "Un fulmine si sprigiona dall'incantatore verso una crea­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    233.7,
+    281.2,
+    244.2
+   ],
+   "size": 8.8,
+   "testo": "tura da lui toccata. Con questo incantesimo, l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    244.6,
+    267.2,
+    255.2
+   ],
+   "size": 8.8,
+   "testo": "effettua un attacco in mischia contro il bersaglio. Se il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    255.7,
+    282.9,
+    266.2
+   ],
+   "size": 8.8,
+   "testo": "colpo va a segno, il bersaglio subisce 1d8 danni da fulmine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    266.8,
+    283.8,
+    277.3
+   ],
+   "size": 8.8,
+   "testo": "e non può effettuare attacchi di opportunità fino all'inizio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.3,
+    277.7,
+    170.1,
+    288.3
+   ],
+   "size": 8.8,
+   "testo": "del proprio turno successivo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    288.7,
+    284.3,
+    299.3
+   ],
+   "size": 8.8,
+   "testo": "Trucchetto potenziato. I danni aumentano di 1d8 quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    297.5,
+    284.2,
+    310.3
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore raggiunge il 5° livello (2d8}, 1'11° livello (3d8}",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    308.6,
+    133.5,
+    321.3
+   ],
+   "size": 8.8,
+   "testo": "e il 17° livello (4d8}.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    345.4,
+    129.7,
+    356.7
+   ],
+   "size": 11.2,
+   "testo": "SUGGESTIONE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    356.8,
+    274.1,
+    367.3
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi2° livello (bardo, mago, stregone, warlock)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    372.3,
+    147.0,
+    382.0
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    383.4,
+    115.1,
+    393.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    394.5,
+    206.3,
+    404.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, M (una goccia di miele)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    405.5,
+    192.9,
+    415.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    421.8,
+    274.5,
+    432.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore suggerisce un corso d'azione da intrapren­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    432.8,
+    272.9,
+    443.3
+   ],
+   "size": 8.8,
+   "testo": "dere (descritto con non più di 25 parole) a una creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    443.7,
+    282.0,
+    454.3
+   ],
+   "size": 8.8,
+   "testo": "entro gittata che è in grado di vedere. Le creature devono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    454.7,
+    272.8,
+    465.3
+   ],
+   "size": 8.8,
+   "testo": "essere in grado di comprendere l'incantatore. Il suggeri­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    465.7,
+    277.1,
+    476.3
+   ],
+   "size": 8.8,
+   "testo": "mento deve apparire realizzabile e non deve comportare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    476.7,
+    280.1,
+    487.3
+   ],
+   "size": 8.8,
+   "testo": "nulla che infligga palesemente danni al bersaglio o ai suoi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    487.7,
+    274.1,
+    498.2
+   ],
+   "size": 8.8,
+   "testo": "alleati. Per esempio, l'incantatore potrebbe dire \"Prendi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    498.8,
+    278.1,
+    509.4
+   ],
+   "size": 8.8,
+   "testo": "la chiave per il caveau del tesoro della setta e portamela\".",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    509.8,
+    279.2,
+    520.3
+   ],
+   "size": 8.8,
+   "testo": "Oppure \"Smetti di combattere, esci dalla biblioteca pacifi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    520.7,
+    182.1,
+    531.3
+   ],
+   "size": 8.8,
+   "testo": "camente e non tornare mai più\".",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    531.8,
+    280.9,
+    542.4
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio deve superare un tiro salvezza su Saggezza,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    542.8,
+    272.3,
+    553.4
+   ],
+   "size": 8.8,
+   "testo": "altrimenti rimane affascinato per la durata dell'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    553.8,
+    268.8,
+    564.3
+   ],
+   "size": 8.8,
+   "testo": "simo o finché l'incantatore o i suoi alleati non gli inflig­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.9,
+    564.7,
+    281.0,
+    575.3
+   ],
+   "size": 8.8,
+   "testo": "gono danni. Il bersaglio affascinato segue il suggerimento",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    575.7,
+    273.6,
+    586.3
+   ],
+   "size": 8.8,
+   "testo": "al meglio delle sue capacità. L'attività suggerita può con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    586.7,
+    274.5,
+    597.3
+   ],
+   "size": 8.8,
+   "testo": "tinuare per l'intera durata, ma se può essere completata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    597.7,
+    282.6,
+    608.2
+   ],
+   "size": 8.8,
+   "testo": "in un tempo più breve, l'incantesimo termina e non ha più",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    608.8,
+    245.8,
+    619.4
+   ],
+   "size": 8.8,
+   "testo": "effetto sul bersaglio una volta portata a termine.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    643.6,
+    181.1,
+    655.0
+   ],
+   "size": 11.2,
+   "testo": "SUGGESTIONE DI MASSA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    655.1,
+    241.4,
+    665.5
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi6° livello (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    670.6,
+    147.2,
+    680.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    681.6,
+    119.5,
+    691.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    692.6,
+    218.2,
+    702.2
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, M (una lingua di serpente)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    703.6,
+    111.3,
+    713.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: 24 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    34.8,
+    526.9,
+    45.3
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore suggerisce un corso d'azione da intrapren­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    45.8,
+    522.7,
+    56.3
+   ],
+   "size": 8.8,
+   "testo": "dere (descritto con non più di 25 parole} a fino a dodici",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    56.7,
+    536.6,
+    67.3
+   ],
+   "size": 8.8,
+   "testo": "creature entro gittata che è in grado di vedere. Le creature",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    67.8,
+    517.3,
+    78.3
+   ],
+   "size": 8.8,
+   "testo": "devono essere in grado di comprendere l'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    78.7,
+    534.3,
+    89.2
+   ],
+   "size": 8.8,
+   "testo": "Il suggerimento deve apparire realizzabile e non deve com­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    89.7,
+    525.5,
+    100.2
+   ],
+   "size": 8.8,
+   "testo": "portare nulla che infligga palesemente danni ai bersagli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    100.6,
+    528.4,
+    111.2
+   ],
+   "size": 8.8,
+   "testo": "o ai loro alleati. Ad esempio, l'incantatore potrebbe dire:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    111.6,
+    530.6,
+    122.2
+   ],
+   "size": 8.8,
+   "testo": "\"Cammina fino al villaggio in fondo alla strada e aiuta gli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    122.6,
+    533.5,
+    133.2
+   ],
+   "size": 8.8,
+   "testo": "abitanti a raccogliere le colture fino al tramonto\". Oppure",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    133.5,
+    530.1,
+    144.1
+   ],
+   "size": 8.8,
+   "testo": "potrebbe dire: \"Non è il momento della violenza. Getta le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    144.6,
+    436.1,
+    155.2
+   ],
+   "size": 8.8,
+   "testo": "armi e balla! Fermati tra un'ora\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.1,
+    155.7,
+    506.4,
+    166.2
+   ],
+   "size": 8.8,
+   "testo": "Ogni bersaglio deve superare un tiro salvezza su",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    166.6,
+    516.7,
+    177.2
+   ],
+   "size": 8.8,
+   "testo": "Saggezza, altrimenti rimane affascinato per la durata",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    177.6,
+    532.5,
+    188.1
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo o finché l'incantatore o i suoi alleati non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    188.7,
+    523.6,
+    199.2
+   ],
+   "size": 8.8,
+   "testo": "gli infliggono danni. Ogni bersaglio affascinato segue il",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    199.6,
+    534.6,
+    210.2
+   ],
+   "size": 8.8,
+   "testo": "suggerimento al meglio delle sue capacità. L'attività sugge­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    210.6,
+    528.5,
+    221.2
+   ],
+   "size": 8.8,
+   "testo": "rita può continuare per l'intera durata, ma se può essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    221.6,
+    530.7,
+    232.2
+   ],
+   "size": 8.8,
+   "testo": "completata in un tempo più breve, l'incantesimo termina",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    232.6,
+    527.1,
+    243.2
+   ],
+   "size": 8.8,
+   "testo": "e non ha più effetto sul bersaglio che completa l'attività.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.4,
+    245.3,
+    511.5,
+    253.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    252.4,
+    529.8,
+    265.1
+   ],
+   "size": 8.8,
+   "testo": "La durata aumenta con uno slot incantesimo di 7° livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    263.4,
+    529.9,
+    276.2
+   ],
+   "size": 8.8,
+   "testo": "(10 giorni}, 8° livello (30 giorni} o 9° livello (366 giorni}.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.2,
+    300.3,
+    427.5,
+    311.7
+   ],
+   "size": 11.2,
+   "testo": "SUSSURRI DISSONANTI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    311.8,
+    434.0,
+    322.3
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamento di1° livello (bardo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    327.3,
+    399.7,
+    336.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    338.4,
+    372.1,
+    348.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    349.3,
+    366.0,
+    359.0
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    360.4,
+    380.3,
+    370.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.5,
+    376.4,
+    536.3,
+    387.0
+   ],
+   "size": 8.8,
+   "testo": "Una creatura a scelta dell'incantatore, situata entro gittata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    387.5,
+    533.4,
+    398.1
+   ],
+   "size": 8.8,
+   "testo": "e che sia in grado di vedere, sente una melodia dissonante",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    398.5,
+    525.2,
+    409.1
+   ],
+   "size": 8.8,
+   "testo": "nella sua mente. Il bersaglio effettua un tiro salvezza su",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    409.6,
+    523.3,
+    420.2
+   ],
+   "size": 8.8,
+   "testo": "Saggezza. Se lo fallisce, subisce 3d6 danni psichici e, se",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    420.7,
+    526.5,
+    431.2
+   ],
+   "size": 8.8,
+   "testo": "disponibile, deve usare immediatamente la sua reazione",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    431.7,
+    528.7,
+    442.2
+   ],
+   "size": 8.8,
+   "testo": "per muoversi fin dove la sua velocità glielo consente, per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    442.6,
+    534.1,
+    453.2
+   ],
+   "size": 8.8,
+   "testo": "correndo la via più sicura. Se invece lo supera, il bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.1,
+    453.6,
+    457.8,
+    464.2
+   ],
+   "size": 8.8,
+   "testo": "subisce soltanto la metà di quei danni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.4,
+    464.5,
+    537.5,
+    475.1
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslot incantesimo dilivello superiore. I danni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    473.4,
+    523.7,
+    486.2
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d6 per ogni slot di livello superiore al 1°.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    510.4,
+    387.2,
+    521.8
+   ],
+   "size": 11.2,
+   "testo": "TAUMATURGIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    522.8,
+    449.8,
+    532.2
+   ],
+   "size": 8.6,
+   "testo": "Trucchetto di Trasmutazione (chierico)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    537.5,
+    399.8,
+    547.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    548.5,
+    367.9,
+    558.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    559.4,
+    366.1,
+    569.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.2,
+    570.4,
+    398.3,
+    580.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: fino a 1 minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    586.6,
+    535.0,
+    597.2
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore genera una meraviglia minore entro gittata,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    597.5,
+    537.2,
+    608.1
+   ],
+   "size": 8.8,
+   "testo": "oltre a uno degli effetti elencati di seguito. Se l'incantatore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    608.7,
+    532.5,
+    619.3
+   ],
+   "size": 8.8,
+   "testo": "lancia questo incantesimo più volte, può tenere attivi con­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    619.8,
+    524.7,
+    630.3
+   ],
+   "size": 8.8,
+   "testo": "temporaneamente fino a tre dei suoi effetti dalla durata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    630.9,
+    355.3,
+    641.5
+   ],
+   "size": 8.8,
+   "testo": "di 1 minuto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.1,
+    641.8,
+    533.1,
+    652.4
+   ],
+   "size": 8.8,
+   "testo": "Mano invisibile. L'incantatore fa in modo che una porta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    652.7,
+    533.0,
+    663.3
+   ],
+   "size": 8.8,
+   "testo": "o una finestra non chiusa a chiave si spalanchi o si chiuda",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    663.6,
+    371.7,
+    674.2
+   ],
+   "size": 8.8,
+   "testo": "di colpo da sola.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.0,
+    674.7,
+    518.3,
+    685.3
+   ],
+   "size": 8.8,
+   "testo": "Occhi alterati. L'incantatore altera l'aspetto dei suoi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.1,
+    685.6,
+    383.9,
+    696.2
+   ],
+   "size": 8.8,
+   "testo": "occhi per 1 minuto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    696.6,
+    522.3,
+    707.2
+   ],
+   "size": 8.8,
+   "testo": "Suono spettrale. L'incantatore crea un suono improv­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    707.6,
+    532.6,
+    718.2
+   ],
+   "size": 8.8,
+   "testo": "viso che ha origine da un punto entro gittata a sua scelta,",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

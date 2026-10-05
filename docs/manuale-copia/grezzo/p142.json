@@ -1,0 +1,684 @@
+{
+ "pagina_pdf": 142,
+ "pagina_stampata": 139,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    57.0,
+    37.9,
+    282.7,
+    48.6
+   ],
+   "size": 10.6,
+   "testo": "INCANTESIMI DEL GIURAMENTO DI VENDETTA",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    52.7,
+    101.8,
+    63.4
+   ],
+   "size": 10.6,
+   "testo": "Livello da",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    65.2,
+    63.7,
+    100.2,
+    74.4
+   ],
+   "size": 10.6,
+   "testo": "paladino",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.4,
+    63.7,
+    156.7,
+    74.4
+   ],
+   "size": 10.6,
+   "testo": "Incantesimi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.2,
+    78.7,
+    84.7,
+    88.4
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.2,
+    79.3,
+    232.2,
+    88.5
+   ],
+   "size": 9.2,
+   "testo": "Anatema, marchio del cacciatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    79.2,
+    93.3,
+    84.7,
+    102.9
+   ],
+   "size": 8.4,
+   "testo": "S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.9,
+    93.8,
+    215.1,
+    103.0
+   ],
+   "size": 9.2,
+   "testo": "Blocca persone, passo velato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    78.9,
+    107.8,
+    84.9,
+    117.5
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.9,
+    108.4,
+    227.7,
+    117.6
+   ],
+   "size": 9.2,
+   "testo": "Velocità, protezione dall'energia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    77.3,
+    122.4,
+    88.1,
+    132.1
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.8,
+    123.0,
+    205.1,
+    132.2
+   ],
+   "size": 9.2,
+   "testo": "Esilio, porta dimensionale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    77.3,
+    137.0,
+    88.4,
+    146.6
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    109.9,
+    137.5,
+    195.0,
+    146.7
+   ],
+   "size": 9.2,
+   "testo": "Blocca mostri, scrutare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    160.8,
+    225.3,
+    172.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 3: VOTO DI INIMICIZIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    172.2,
+    275.7,
+    182.8
+   ],
+   "size": 8.8,
+   "testo": "Quando il paladino effettua l'azione di Attacco, può con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    183.1,
+    285.2,
+    193.7
+   ],
+   "size": 8.8,
+   "testo": "sumare un utilizzo di Incanalare Divinità per pronunciare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    194.2,
+    272.4,
+    204.7
+   ],
+   "size": 8.8,
+   "testo": "un voto di inimicizia verso una creatura nel suo campo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    205.2,
+    280.1,
+    215.8
+   ],
+   "size": 8.8,
+   "testo": "visivo ed entro 9 metri da sé, ottenendo così vantaggio ai",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    216.2,
+    285.1,
+    226.8
+   ],
+   "size": 8.8,
+   "testo": "tiri per colpire contro di essa per 1 minuto, o finché questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    227.2,
+    213.4,
+    237.8
+   ],
+   "size": 8.8,
+   "testo": "privilegio non viene utilizzato di nuovo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    238.2,
+    281.6,
+    248.8
+   ],
+   "size": 8.8,
+   "testo": "Se la creatura scende a 0 punti ferita prima del termine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    249.2,
+    286.6,
+    259.8
+   ],
+   "size": 8.8,
+   "testo": "del voto, è possibile trasferirlo a un bersaglio diverso entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    260.3,
+    213.6,
+    270.8
+   ],
+   "size": 8.8,
+   "testo": "9 metri da sé (nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    280.7,
+    245.9,
+    292.1
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: VENDETTA IMPLACABILE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    292.0,
+    268.1,
+    302.6
+   ],
+   "size": 8.8,
+   "testo": "Grazie alla sua concentrazione soprannaturale, il pala­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    303.1,
+    257.2,
+    313.7
+   ],
+   "size": 8.8,
+   "testo": "dino può impedire a un nemico di ritirarsi. Quando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    314.1,
+    263.1,
+    324.6
+   ],
+   "size": 8.8,
+   "testo": "colpisce una creatura con un attacco di opportunità,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    325.0,
+    273.4,
+    335.6
+   ],
+   "size": 8.8,
+   "testo": "è possibile ridurre la sua velocità a 0 fino al termine del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    336.0,
+    272.9,
+    346.6
+   ],
+   "size": 8.8,
+   "testo": "turno attuale. Inoltre, come parte della stessa reazione,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    347.0,
+    259.1,
+    357.6
+   ],
+   "size": 8.8,
+   "testo": "il personaggio può muoversi fino alla metà della sua",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    357.9,
+    252.8,
+    368.4
+   ],
+   "size": 8.8,
+   "testo": "velocità. Questo movimento non provoca attacchi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    368.9,
+    117.3,
+    379.5
+   ],
+   "size": 8.8,
+   "testo": "di opportunità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    389.4,
+    233.6,
+    400.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: ANIMA VENDICATIVA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    400.8,
+    267.2,
+    411.4
+   ],
+   "size": 8.8,
+   "testo": "Subito dopo che una creatura sotto l'effetto di Voto di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    411.9,
+    269.9,
+    422.5
+   ],
+   "size": 8.8,
+   "testo": "Inimicizia mette a segno o manca un colpo con un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    422.9,
+    271.5,
+    433.4
+   ],
+   "size": 8.8,
+   "testo": "per colpire, il paladino può effettuare una reazione per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    433.9,
+    274.8,
+    444.4
+   ],
+   "size": 8.8,
+   "testo": "sferrare un attacco in mischia contro di essa, se si trova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    444.8,
+    95.7,
+    455.4
+   ],
+   "size": 8.8,
+   "testo": "a portata.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    465.3,
+    246.2,
+    476.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 20: ANGELO VENDICATORE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    476.6,
+    278.9,
+    487.2
+   ],
+   "size": 8.8,
+   "testo": "Come azione bonus, il paladino ottiene i benefici elencati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    487.7,
+    254.4,
+    498.2
+   ],
+   "size": 8.8,
+   "testo": "di seguito per 10 minuti o finché non li interrompe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    498.7,
+    271.4,
+    509.3
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta). Dopo aver utilizzato questo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    509.7,
+    263.1,
+    520.3
+   ],
+   "size": 8.8,
+   "testo": "privilegio, il personaggio non può riutilizzarlo prima",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    520.7,
+    275.5,
+    531.3
+   ],
+   "size": 8.8,
+   "testo": "di aver completato un riposo lungo. Tuttavia, è possibile",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    531.8,
+    264.6,
+    542.3
+   ],
+   "size": 8.8,
+   "testo": "ripristinarne l'uso consumando uno slot incantesimo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    540.6,
+    208.1,
+    553.4
+   ],
+   "size": 8.8,
+   "testo": "di 5° livello (nessuna azione richiesta).",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    553.7,
+    265.5,
+    564.2
+   ],
+   "size": 8.8,
+   "testo": "Aura di terrore. Ogni volta che un nemico comincia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    564.7,
+    256.7,
+    575.2
+   ],
+   "size": 8.8,
+   "testo": "il proprio turno all'interno dell'Aura di Protezione,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    575.7,
+    269.6,
+    586.2
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Saggezza, altrimenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    586.6,
+    260.5,
+    597.2
+   ],
+   "size": 8.8,
+   "testo": "sarà spaventato per 1 minuto o finché non subirà dei",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    597.6,
+    263.8,
+    608.2
+   ],
+   "size": 8.8,
+   "testo": "danni. I tiri per colpire contro la creatura spaventata",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    608.8,
+    141.1,
+    619.3
+   ],
+   "size": 8.8,
+   "testo": "ottengono vantaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    619.8,
+    271.4,
+    630.4
+   ],
+   "size": 8.8,
+   "testo": "Volo. Il paladino ottiene delle ali eteree sulla schiena,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.3,
+    630.7,
+    258.3,
+    641.3
+   ],
+   "size": 8.8,
+   "testo": "che gli conferiscono una velocità di volo di 18 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.3,
+    641.8,
+    154.3,
+    652.3
+   ],
+   "size": 8.8,
+   "testo": "e la capacità di fluttuare.",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

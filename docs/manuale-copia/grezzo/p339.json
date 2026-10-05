@@ -1,0 +1,715 @@
+{
+ "pagina_pdf": 339,
+ "pagina_stampata": 336,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "336 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   369
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    56.9,
+    344.6,
+    260.8,
+    355.1
+   ],
+   "size": 8.8,
+   "testo": "La grandine trasforma l'area all'interno del cilindro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.8,
+    355.6,
+    262.2,
+    366.2
+   ],
+   "size": 8.8,
+   "testo": "in terreno difficile fino al termine del turno successivo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.8,
+    366.6,
+    114.8,
+    377.2
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.3,
+    379.3,
+    252.4,
+    387.9
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    388.6,
+    254.6,
+    399.2
+   ],
+   "size": 8.8,
+   "testo": "I danni contundenti aumentano di 1d10 per ogni slot",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.8,
+    397.5,
+    144.3,
+    410.3
+   ],
+   "size": 8.8,
+   "testo": "di livello superiore al 4°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.5,
+    434.5,
+    179.5,
+    445.9
+   ],
+   "size": 11.2,
+   "testo": "TEMPESTA DI NEVISCHIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.5,
+    446.0,
+    223.2,
+    456.4
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di3° livello (druido, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.4,
+    461.5,
+    140.5,
+    471.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.6,
+    472.4,
+    112.9,
+    482.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 45 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.6,
+    483.5,
+    231.1,
+    493.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un ombrello in miniatura)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.1,
+    494.4,
+    201.8,
+    504.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    510.7,
+    272.4,
+    521.3
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo cade del nevischio in un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.8,
+    521.8,
+    263.5,
+    532.3
+   ],
+   "size": 8.8,
+   "testo": "cilindro alto 12 metri dal raggio di 6 metri il cui centro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.6,
+    532.7,
+    267.2,
+    543.2
+   ],
+   "size": 8.8,
+   "testo": "è un punto a scelta dell'incantatore entro gittata. L'area",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.8,
+    543.6,
+    274.0,
+    554.2
+   ],
+   "size": 8.8,
+   "testo": "è pesantemente oscurata e le fiamme libere al suo interno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.4,
+    554.7,
+    114.8,
+    565.3
+   ],
+   "size": 8.8,
+   "testo": "vengono estinte.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    565.6,
+    249.2,
+    576.2
+   ],
+   "size": 8.8,
+   "testo": "La superficie all'interno del cilindro è un terreno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.6,
+    576.6,
+    273.3,
+    587.2
+   ],
+   "size": 8.8,
+   "testo": "difficile. Quando una creatura entra nell'area del cilindro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.5,
+    587.6,
+    272.6,
+    598.2
+   ],
+   "size": 8.8,
+   "testo": "per la prima volta in un turno o vi inizia il proprio turno,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    598.5,
+    265.1,
+    609.1
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Destrezza, altrimenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.6,
+    609.6,
+    238.0,
+    620.2
+   ],
+   "size": 8.8,
+   "testo": "cadrà a terra prona e perderà la concentrazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    644.4,
+    174.8,
+    655.8
+   ],
+   "size": 11.2,
+   "testo": "TEMPESTA DI VENDETTA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    655.9,
+    165.1,
+    666.3
+   ],
+   "size": 8.6,
+   "testo": "Evocazione di9° livello (druido)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    671.5,
+    140.3,
+    681.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.5,
+    682.4,
+    133.4,
+    692.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 1,5 chilometri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.4,
+    693.4,
+    115.1,
+    703.1
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.9,
+    704.4,
+    201.8,
+    714.0
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.5,
+    344.6,
+    519.8,
+    355.2
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'incantesimo, l'incantatore genera una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.5,
+    355.6,
+    521.4,
+    366.2
+   ],
+   "size": 8.8,
+   "testo": "minacciosa nube temporalesca che si espande fino a una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    366.7,
+    511.7,
+    377.3
+   ],
+   "size": 8.8,
+   "testo": "raggio di 90 metri centrata su un punto entro gittata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.4,
+    377.6,
+    525.6,
+    388.2
+   ],
+   "size": 8.8,
+   "testo": "Ogni creatura che si trova sotto alla nube quando appare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.0,
+    388.6,
+    529.0,
+    399.2
+   ],
+   "size": 8.8,
+   "testo": "deve superare un tiro salvezza su Costituzione, altrimenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    399.7,
+    523.4,
+    410.3
+   ],
+   "size": 8.8,
+   "testo": "subirà 2d6 danni da tuono e sarà assordata per la durata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    410.8,
+    369.7,
+    421.3
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.0,
+    421.8,
+    506.0,
+    432.3
+   ],
+   "size": 8.8,
+   "testo": "All'inizio di ciascun turno successivo, la tempesta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.2,
+    432.8,
+    473.0,
+    443.4
+   ],
+   "size": 8.8,
+   "testo": "produce effetti diversi, come indicato sotto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    443.7,
+    526.7,
+    454.3
+   ],
+   "size": 8.8,
+   "testo": "2° turno. Cade della pioggia acida. Ogni creatura e ogni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    454.7,
+    494.2,
+    465.3
+   ],
+   "size": 8.8,
+   "testo": "oggetto sotto la nube subisce 4d6 danni da acido.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.2,
+    465.7,
+    526.5,
+    476.3
+   ],
+   "size": 8.8,
+   "testo": "3° turno. L'incantatore invoca sei fulmini che scendono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.2,
+    476.7,
+    505.5,
+    487.3
+   ],
+   "size": 8.8,
+   "testo": "dalla nube e colpiscono sei creature o oggetti situati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    487.7,
+    509.7,
+    498.2
+   ],
+   "size": 8.8,
+   "testo": "sotto di essa. Ogni bersaglio effettua un tiro salvezza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    498.7,
+    510.0,
+    509.3
+   ],
+   "size": 8.8,
+   "testo": "su Destrezza, subendo 10d6 danni da fulmine in caso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.2,
+    509.8,
+    507.9,
+    520.4
+   ],
+   "size": 8.8,
+   "testo": "di fallimento, o la metà dei danni in caso di successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.9,
+    520.8,
+    506.9,
+    531.3
+   ],
+   "size": 8.8,
+   "testo": "4° turno. Cade della grandine. Ogni creatura sotto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    531.7,
+    456.2,
+    542.3
+   ],
+   "size": 8.8,
+   "testo": "la nube subisce 2d6 danni contundenti.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.6,
+    542.7,
+    517.9,
+    553.3
+   ],
+   "size": 8.8,
+   "testo": "Dal 5° al 10° turno. L'area sotto la nube è attraversata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    553.8,
+    519.7,
+    564.3
+   ],
+   "size": 8.8,
+   "testo": "da raffiche di vento e pioggia gelida, ogni creatura sotto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    564.7,
+    503.1,
+    575.3
+   ],
+   "size": 8.8,
+   "testo": "di essa subisce 1d6 danni da freddo. Fino al termine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.1,
+    575.7,
+    528.4,
+    586.2
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, quest'area è considerata terreno difficile",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    579.6,
+    522.9,
+    597.8
+   ],
+   "size": 8.8,
+   "testo": "ed è pesantemente oscurata. È sferzata da forti venti e al",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    301.1,
+    597.7,
+    513.3,
+    608.3
+   ],
+   "size": 8.8,
+   "testo": "suo interno è impossibile eseguire attacchi a distanza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.8,
+    632.6,
+    469.4,
+    643.9
+   ],
+   "size": 11.2,
+   "testo": "TEMPESTA RADIOSA DIjALLARZI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    644.0,
+    448.1,
+    654.4
+   ],
+   "size": 8.6,
+   "testo": "Invocazionedi5° livello (mago, warlock)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.8,
+    659.5,
+    393.1,
+    669.1
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.0,
+    670.5,
+    365.7,
+    680.2
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 36 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.0,
+    681.5,
+    468.8,
+    691.2
+   ],
+   "size": 8.4,
+   "testo": "Componente: V, S, M (un pizzico di fosforo)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    301.4,
+    692.5,
+    454.7,
+    702.1
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

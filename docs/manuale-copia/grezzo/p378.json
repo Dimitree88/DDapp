@@ -1,0 +1,1147 @@
+{
+ "pagina_pdf": 378,
+ "pagina_stampata": 375,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "APPENDICE CI GLOSSARIO DELLE REGOLE / 375",
+ "immagini": [
+  [
+   -1,
+   10,
+   561,
+   126
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    62.8,
+    146.9,
+    153.8,
+    158.3
+   ],
+   "size": 11.2,
+   "testo": "STUDIO [AZIONE]",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    158.4,
+    272.6,
+    169.0
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio effettua l'azione di Studio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    169.4,
+    261.8,
+    180.0
+   ],
+   "size": 8.8,
+   "testo": "effettua una prova di Intelligenza per analizzare la",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    180.4,
+    270.8,
+    191.0
+   ],
+   "size": 8.8,
+   "testo": "propria memoria, un libro, un indizio o un'altra fonte",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    191.4,
+    282.8,
+    201.9
+   ],
+   "size": 8.8,
+   "testo": "di conoscenza, richiamando alla mente un'informazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    61.9,
+    202.5,
+    153.2,
+    213.1
+   ],
+   "size": 8.8,
+   "testo": "importante a riguardo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.5,
+    213.5,
+    283.6,
+    224.0
+   ],
+   "size": 8.8,
+   "testo": "La tabella Aree di conoscenza indica quali abilità sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.1,
+    224.5,
+    220.5,
+    235.1
+   ],
+   "size": 8.8,
+   "testo": "applicabili alle varie aree di conoscenza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    247.1,
+    173.4,
+    257.8
+   ],
+   "size": 10.6,
+   "testo": "AREE DI CONOSCENZA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.3,
+    263.1,
+    92.2,
+    272.3
+   ],
+   "size": 8.2,
+   "testo": "Abilità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.1,
+    262.9,
+    130.5,
+    272.1
+   ],
+   "size": 8.2,
+   "testo": "Aree",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.0,
+    277.1,
+    95.0,
+    286.7
+   ],
+   "size": 8.4,
+   "testo": "Arcano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.6,
+    277.1,
+    279.4,
+    286.7
+   ],
+   "size": 8.4,
+   "testo": "Incantesimi, oggetti magici, simboli occulti,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    110.9,
+    289.1,
+    288.3,
+    298.7
+   ],
+   "size": 8.4,
+   "testo": "tradizioni magiche, piani di esistenza e alcune",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    111.0,
+    301.1,
+    276.1,
+    310.7
+   ],
+   "size": 8.4,
+   "testo": "creature (aberrazioni, costrutti, elementali,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    110.9,
+    313.1,
+    195.0,
+    322.7
+   ],
+   "size": 8.4,
+   "testo": "folletti e mostruosità)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.7,
+    327.6,
+    100.8,
+    337.2
+   ],
+   "size": 8.4,
+   "testo": "Indagare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.8,
+    327.5,
+    260.4,
+    337.2
+   ],
+   "size": 8.4,
+   "testo": "Trappole, cifrari, indovinelli e congegni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.9,
+    342.1,
+    93.9,
+    351.8
+   ],
+   "size": 8.4,
+   "testo": "Natura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    110.8,
+    342.1,
+    275.2,
+    351.8
+   ],
+   "size": 8.4,
+   "testo": "Terreno, flora, tempo atmosferico e alcune",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    111.1,
+    354.2,
+    273.3,
+    363.8
+   ],
+   "size": 8.4,
+   "testo": "creature (bestie, draghi, melme e vegetali)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    66.7,
+    368.6,
+    103.5,
+    378.3
+   ],
+   "size": 8.4,
+   "testo": "Religione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.7,
+    368.7,
+    268.9,
+    378.3
+   ],
+   "size": 8.4,
+   "testo": "Divinità, riti e gerarchie religiose, simboli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.4,
+    380.7,
+    259.8,
+    390.3
+   ],
+   "size": 8.4,
+   "testo": "sacri, culti e alcune creature (celestiali,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.5,
+    392.8,
+    197.8,
+    402.4
+   ],
+   "size": 8.4,
+   "testo": "immondi e non morti)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    66.1,
+    407.4,
+    90.4,
+    417.1
+   ],
+   "size": 8.4,
+   "testo": "Storia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    111.7,
+    407.5,
+    272.6,
+    417.1
+   ],
+   "size": 8.4,
+   "testo": "Eventi e personaggi storici, antiche civiltà,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    111.3,
+    419.5,
+    284.1,
+    429.1
+   ],
+   "size": 8.4,
+   "testo": "guerre e alcune creature (giganti e umanoidi)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    457.4,
+    130.7,
+    468.8
+   ],
+   "size": 11.2,
+   "testo": "SVANTAGGIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    468.8,
+    285.8,
+    479.4
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio subisce svantaggio a una prova con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    479.8,
+    275.6,
+    490.4
+   ],
+   "size": 8.8,
+   "testo": "d20, tira due d20 e scegli il risultato più basso. Un tiro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    490.8,
+    285.8,
+    501.3
+   ],
+   "size": 8.8,
+   "testo": "non può essere influenzato da più di uno svantaggio; inol­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    501.8,
+    283.1,
+    512.4
+   ],
+   "size": 8.8,
+   "testo": "tre, vantaggio e svantaggio sullo stesso tiro si annullano",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    512.9,
+    258.2,
+    523.5
+   ],
+   "size": 8.8,
+   "testo": "a vicenda. Vedianche capitolo 1 (\"Prove con d20\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    547.5,
+    104.2,
+    558.9
+   ],
+   "size": 11.2,
+   "testo": "TAGLIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.2,
+    558.9,
+    266.6,
+    569.5
+   ],
+   "size": 8.8,
+   "testo": "A ogni creatura o oggetto è assegnata una categoria",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    570.0,
+    270.8,
+    580.6
+   ],
+   "size": 8.8,
+   "testo": "di taglia: Minuscola, Piccola, Media, Grande, Enorme",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    581.0,
+    265.5,
+    591.6
+   ],
+   "size": 8.8,
+   "testo": "o Mastodontica. La taglia di una creatura determina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    592.0,
+    240.8,
+    602.6
+   ],
+   "size": 8.8,
+   "testo": "quanto spazio essa occupa in combattimento.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.4,
+    603.0,
+    264.8,
+    613.5
+   ],
+   "size": 8.8,
+   "testo": "La dimensione di un oggetto influisce sui suoi punti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    614.1,
+    259.7,
+    624.7
+   ],
+   "size": 8.8,
+   "testo": "ferita. Vedianche \"Rompere gli oggetti\" e capitolo 1",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.8,
+    625.2,
+    140.4,
+    635.8
+   ],
+   "size": 8.8,
+   "testo": "(\"Combattimento\").",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    659.8,
+    121.0,
+    671.2
+   ],
+   "size": 11.2,
+   "testo": "TELEPATIA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    671.3,
+    275.4,
+    681.8
+   ],
+   "size": 8.8,
+   "testo": "La telepatia è un'abilità magica che consente a una cre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    682.2,
+    281.5,
+    692.8
+   ],
+   "size": 8.8,
+   "testo": "atura di comunicare mentalmente con un'altra creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    693.2,
+    269.9,
+    703.8
+   ],
+   "size": 8.8,
+   "testo": "entro un raggio specificato. A meno che non indicato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    131.6,
+    528.1,
+    142.2
+   ],
+   "size": 8.8,
+   "testo": "diversamente da una regola, per comprendere la comu­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    142.6,
+    518.5,
+    153.2
+   ],
+   "size": 8.8,
+   "testo": "nicazione ricevuta, non è necessario che la creatura",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    153.6,
+    536.3,
+    164.2
+   ],
+   "size": 8.8,
+   "testo": "contattata parli la stessa lingua della creatura telepatica,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    164.6,
+    520.9,
+    175.2
+   ],
+   "size": 8.8,
+   "testo": "ma deve essere in grado di comprendere almeno una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    175.6,
+    460.0,
+    186.2
+   ],
+   "size": 8.8,
+   "testo": "lingua o essere essa stessa telepatica.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.7,
+    186.7,
+    514.6,
+    197.2
+   ],
+   "size": 8.8,
+   "testo": "La creatura telepatica non deve necessariamente",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.2,
+    197.7,
+    515.3,
+    208.2
+   ],
+   "size": 8.8,
+   "testo": "vedere la creatura che ha contattato, e può iniziare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    208.7,
+    527.9,
+    219.3
+   ],
+   "size": 8.8,
+   "testo": "o terminare il contatto telepatico in qualsiasi momento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    219.7,
+    520.5,
+    230.2
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta). Il contatto telepatico non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    230.7,
+    526.5,
+    241.2
+   ],
+   "size": 8.8,
+   "testo": "può essere iniziato ed è immediatamente interrotto se",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    241.7,
+    527.5,
+    252.3
+   ],
+   "size": 8.8,
+   "testo": "la creatura telepatica o la creatura contattata è incapa­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    252.6,
+    528.3,
+    263.2
+   ],
+   "size": 8.8,
+   "testo": "citata. Inoltre, il contatto telepatico si interrompe se la",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    263.7,
+    527.7,
+    274.3
+   ],
+   "size": 8.8,
+   "testo": "creatura contattata non è più nel raggio della telepatia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    274.7,
+    531.5,
+    285.3
+   ],
+   "size": 8.8,
+   "testo": "o se la creatura telepatica contatta una creatura diversa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    285.7,
+    368.0,
+    296.2
+   ],
+   "size": 8.8,
+   "testo": "entro gittata.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.6,
+    296.7,
+    536.6,
+    307.3
+   ],
+   "size": 8.8,
+   "testo": "Una creatura priva di telepatia può ricevere i messaggi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    307.7,
+    509.5,
+    318.3
+   ],
+   "size": 8.8,
+   "testo": "telepatici, ma non può avviare una conversazione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    318.7,
+    536.9,
+    329.3
+   ],
+   "size": 8.8,
+   "testo": "telepatica. Una volta iniziata la conversazione telepatica,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    329.6,
+    529.5,
+    340.2
+   ],
+   "size": 8.8,
+   "testo": "la creatura che è stata contattata può comunicare men­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    340.7,
+    532.0,
+    351.2
+   ],
+   "size": 8.8,
+   "testo": "talmente con la creatura telepatica fino al termine della",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    351.6,
+    366.7,
+    362.2
+   ],
+   "size": 8.8,
+   "testo": "connessione.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    386.4,
+    402.8,
+    397.8
+   ],
+   "size": 11.2,
+   "testo": "TELETRASPORTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    397.9,
+    526.0,
+    408.4
+   ],
+   "size": 8.8,
+   "testo": "Il teletrasporto è un tipo speciale di trasporto magico.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    408.9,
+    542.9,
+    419.5
+   ],
+   "size": 8.8,
+   "testo": "Se il tuo personaggio si teletrasporta, scompare e riappare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    420.0,
+    524.3,
+    430.6
+   ],
+   "size": 8.8,
+   "testo": "altrove istantaneamente, senza muoversi nello spazio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    430.9,
+    521.3,
+    441.5
+   ],
+   "size": 8.8,
+   "testo": "che separa i due luoghi. Questo tipo di trasporto non",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    441.9,
+    535.9,
+    452.4
+   ],
+   "size": 8.8,
+   "testo": "consuma movimento, a meno che una regola non indichi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    453.0,
+    530.9,
+    463.5
+   ],
+   "size": 8.8,
+   "testo": "il contrario, e il teletrasporto non provoca mai attacchi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    464.0,
+    375.8,
+    474.5
+   ],
+   "size": 8.8,
+   "testo": "di opportunità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.6,
+    474.9,
+    537.9,
+    485.5
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio si teletrasporta, si teletrasporta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    485.9,
+    540.8,
+    496.5
+   ],
+   "size": 8.8,
+   "testo": "anche l'equipaggiamento che indossa e trasporta. Se, men­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    496.9,
+    541.7,
+    507.5
+   ],
+   "size": 8.8,
+   "testo": "tre si teletrasporta, il personaggio tocca un'altra creatura,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    508.0,
+    543.5,
+    518.5
+   ],
+   "size": 8.8,
+   "testo": "questa non si teletrasporta insieme al personaggio, a meno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.4,
+    519.0,
+    519.9,
+    529.5
+   ],
+   "size": 8.8,
+   "testo": "che l'effetto di teletrasporto non indichi il contrario.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.6,
+    530.0,
+    542.6,
+    540.6
+   ],
+   "size": 8.8,
+   "testo": "Se lo spazio di destinazione del teletrasporto è occupato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    541.0,
+    528.3,
+    551.6
+   ],
+   "size": 8.8,
+   "testo": "da un'altra creatura o è bloccato da un ostacolo solido,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    552.0,
+    536.0,
+    562.6
+   ],
+   "size": 8.8,
+   "testo": "il personaggio appare nello spazio libero più vicino a sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.6,
+    563.0,
+    340.7,
+    573.5
+   ],
+   "size": 8.8,
+   "testo": "scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    322.6,
+    574.0,
+    530.3,
+    584.6
+   ],
+   "size": 8.8,
+   "testo": "La descrizione di un effetto di teletrasporto indica se",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    585.0,
+    531.7,
+    595.6
+   ],
+   "size": 8.8,
+   "testo": "è necessario che il personaggio veda la destinazione del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.3,
+    596.0,
+    369.8,
+    606.5
+   ],
+   "size": 8.8,
+   "testo": "teletrasporto.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.3,
+    630.9,
+    420.3,
+    642.2
+   ],
+   "size": 11.2,
+   "testo": "TERRENO DIFFICILE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    642.3,
+    526.7,
+    652.8
+   ],
+   "size": 8.8,
+   "testo": "Se uno spazio è terreno difficile, ogni 30 centimetri di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    653.3,
+    537.4,
+    663.8
+   ],
+   "size": 8.8,
+   "testo": "movimento in quello spazio costano 30 centimetri extra.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.5,
+    664.2,
+    521.9,
+    674.8
+   ],
+   "size": 8.8,
+   "testo": "Per esempio, spostarsi di 1,5 metri su terreno difficile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    675.2,
+    526.8,
+    685.7
+   ],
+   "size": 8.8,
+   "testo": "costa 3 metri di movimento. Terreno difficile non è un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    686.2,
+    521.5,
+    696.8
+   ],
+   "size": 8.8,
+   "testo": "elemento cumulativo: o uno spazio è terreno difficile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    697.3,
+    353.8,
+    707.8
+   ],
+   "size": 8.8,
+   "testo": "o non lo è.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

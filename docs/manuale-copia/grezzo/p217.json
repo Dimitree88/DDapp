@@ -1,0 +1,1308 @@
+{
+ "pagina_pdf": 217,
+ "pagina_stampata": 214,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "214 / CAPITOLO 6 I EQUIPAGGIAMENTO",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.0,
+    132.7,
+    62.7,
+    139.0
+   ],
+   "size": 4.9,
+   "testo": "..",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.7,
+    40.0,
+    157.2,
+    50.1
+   ],
+   "size": 8.2,
+   "testo": "ARMI IMPROVVISATE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.1,
+    53.2,
+    268.0,
+    62.9
+   ],
+   "size": 8.4,
+   "testo": "Se il personaggio usa un'arma di fortuna (ad esempio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    64.3,
+    256.5,
+    73.9
+   ],
+   "size": 8.4,
+   "testo": "la zampa di un tavolo, una padella o una bottiglia),",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    75.2,
+    251.3,
+    84.9
+   ],
+   "size": 8.4,
+   "testo": "vedi la sezione \"Armi improvvisate\" nel Glossario",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.3,
+    86.3,
+    264.9,
+    95.9
+   ],
+   "size": 8.4,
+   "testo": "delle regole. Consultala anche qualora il personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.2,
+    97.3,
+    250.5,
+    106.9
+   ],
+   "size": 8.4,
+   "testo": "impugnasse un'arma in un modo particolare, per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    61.8,
+    108.2,
+    268.5,
+    117.8
+   ],
+   "size": 8.4,
+   "testo": "esempio sferrando un attacco in mischia con un'arma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.0,
+    119.1,
+    104.9,
+    128.8
+   ],
+   "size": 8.4,
+   "testo": "a distanza.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    144.5,
+    104.1,
+    155.9
+   ],
+   "size": 11.2,
+   "testo": "LEGGERA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    271.7,
+    132.7,
+    280.4,
+    139.0
+   ],
+   "size": 4.9,
+   "testo": "..",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    156.0,
+    270.7,
+    166.6
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio utilizza un'azione di Attacco nel",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    167.1,
+    272.1,
+    177.7
+   ],
+   "size": 8.8,
+   "testo": "suo turno per attaccare con un'arma leggera, durante lo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    178.1,
+    269.7,
+    188.7
+   ],
+   "size": 8.8,
+   "testo": "stesso turno può sferrare un attacco extra come azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    189.1,
+    279.8,
+    199.7
+   ],
+   "size": 8.8,
+   "testo": "bonus. Tuttavia, deve essere eseguito con un'arma leggera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.6,
+    200.2,
+    257.6,
+    210.8
+   ],
+   "size": 8.8,
+   "testo": "diversa e non puoi sommarci il modificatore di carat­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.5,
+    211.2,
+    264.3,
+    221.8
+   ],
+   "size": 8.8,
+   "testo": "teristica del personaggio, a meno che non sia di valore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    222.2,
+    270.3,
+    232.8
+   ],
+   "size": 8.8,
+   "testo": "negativo. Per esempio, il personaggio può attaccare con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    233.1,
+    261.8,
+    243.7
+   ],
+   "size": 8.8,
+   "testo": "una spada corta in una mano e un pugnale in un'altra",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    244.2,
+    271.2,
+    254.8
+   ],
+   "size": 8.8,
+   "testo": "utilizzando l'azione di Attacco e l'azione bonus, ma non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    255.2,
+    272.4,
+    265.8
+   ],
+   "size": 8.8,
+   "testo": "può aggiungere il suo modificatore di Forza o Destrezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    266.2,
+    270.0,
+    276.8
+   ],
+   "size": 8.8,
+   "testo": "al tiro per i danni dell'azione bonus, a meno che non sia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.5,
+    277.2,
+    126.2,
+    287.8
+   ],
+   "size": 8.8,
+   "testo": "di valore negativo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    297.6,
+    114.4,
+    308.9
+   ],
+   "size": 11.2,
+   "testo": "MUNIZIONI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.6,
+    309.1,
+    253.3,
+    319.7
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può effettuare un attacco a distanza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    320.1,
+    265.0,
+    330.6
+   ],
+   "size": 8.8,
+   "testo": "usando un'arma dotata della proprietà Munizioni solo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    331.0,
+    262.0,
+    341.6
+   ],
+   "size": 8.8,
+   "testo": "se possiede delle munizioni da utilizzare. La tipologia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    342.0,
+    265.8,
+    352.6
+   ],
+   "size": 8.8,
+   "testo": "di munizioni richiesta è specificata insieme alla gittata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    352.9,
+    257.1,
+    363.5
+   ],
+   "size": 8.8,
+   "testo": "dell'arma. Ogni attacco consuma una certa quantità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    364.0,
+    271.1,
+    374.6
+   ],
+   "size": 8.8,
+   "testo": "di munizioni. Estrarre la munizione è considerato parte",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.4,
+    374.9,
+    254.6,
+    385.5
+   ],
+   "size": 8.8,
+   "testo": "dell'attacco (il personaggio ha bisogno di una mano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    385.9,
+    267.2,
+    396.5
+   ],
+   "size": 8.8,
+   "testo": "libera per caricare un'arma a una mano). Dopo un com­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    396.9,
+    265.5,
+    407.5
+   ],
+   "size": 8.8,
+   "testo": "battimento, il personaggio può impiegare 1 minuto per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    408.1,
+    279.6,
+    418.7
+   ],
+   "size": 8.8,
+   "testo": "recuperare metà delle munizioni (arrotondate per difetto)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    419.1,
+    252.5,
+    429.6
+   ],
+   "size": 8.8,
+   "testo": "utilizzate nel combattimento. Il resto è considerato",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    430.0,
+    111.6,
+    440.6
+   ],
+   "size": 8.8,
+   "testo": "irrecuperabile.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    450.3,
+    101.6,
+    461.7
+   ],
+   "size": 11.2,
+   "testo": "PESANTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    461.8,
+    275.6,
+    472.3
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio ha svantaggio ai tiri per colpire se utilizza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    472.7,
+    266.9,
+    483.3
+   ],
+   "size": 8.8,
+   "testo": "un'arma pesante da mischia e il suo punteggio di Forza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.2,
+    483.8,
+    266.0,
+    494.4
+   ],
+   "size": 8.8,
+   "testo": "è inferiore a 13 o se usa un'arma pesante a distanza e il",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    494.7,
+    221.9,
+    505.3
+   ],
+   "size": 8.8,
+   "testo": "suo punteggio di Destrezza è inferiore a 13.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.4,
+    515.2,
+    100.4,
+    526.6
+   ],
+   "size": 11.2,
+   "testo": "PORTATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    526.7,
+    270.2,
+    537.2
+   ],
+   "size": 8.8,
+   "testo": "Aggiunge 1,5 metri alla portata del personaggio quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.1,
+    537.6,
+    274.1,
+    548.2
+   ],
+   "size": 8.8,
+   "testo": "la usa per attaccare e per determinare la portata di possi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    548.7,
+    161.5,
+    559.3
+   ],
+   "size": 8.8,
+   "testo": "bili attacchi di opportunità.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.2,
+    569.0,
+    105.8,
+    580.3
+   ],
+   "size": 11.2,
+   "testo": "RICARICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.1,
+    580.5,
+    270.3,
+    591.0
+   ],
+   "size": 8.8,
+   "testo": "Il personaggio può scagliare una sola munizione da rica­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    591.4,
+    261.9,
+    602.0
+   ],
+   "size": 8.8,
+   "testo": "rica quando usa un'azione, un'azione bonus o una rea­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.0,
+    602.5,
+    279.4,
+    613.1
+   ],
+   "size": 8.8,
+   "testo": "zione per fare fuoco, a prescindere dal numero di attacchi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    52.0,
+    613.6,
+    202.7,
+    624.2
+   ],
+   "size": 8.8,
+   "testo": "che potrebbe normalmente effettuare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    634.0,
+    110.0,
+    645.4
+   ],
+   "size": 11.2,
+   "testo": "VERSATILE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    645.4,
+    259.5,
+    656.0
+   ],
+   "size": 8.8,
+   "testo": "Un'arma versatile può essere usata a una o due mani.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.7,
+    656.5,
+    265.2,
+    667.0
+   ],
+   "size": 8.8,
+   "testo": "Insieme alla proprietà viene visualizzato un valore del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    667.5,
+    269.7,
+    678.0
+   ],
+   "size": 8.8,
+   "testo": "danno tra parentesi: questo è il danno inflitto dall'arma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.9,
+    678.5,
+    249.0,
+    689.1
+   ],
+   "size": 8.8,
+   "testo": "se utilizzata a due mani per eseguire un attacco in",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.8,
+    689.4,
+    86.2,
+    700.0
+   ],
+   "size": 8.8,
+   "testo": "mischia.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    39.9,
+    477.7,
+    53.0
+   ],
+   "size": 9.7,
+   "testo": "PROPRIETÀ DI PADRONANZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    56.6,
+    506.6,
+    67.2
+   ],
+   "size": 8.8,
+   "testo": "Ogni arma è dotata di una proprietà di padronanza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    67.6,
+    527.9,
+    78.2
+   ],
+   "size": 8.8,
+   "testo": "utilizzabile solo da un personaggio provvisto del relativo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    78.6,
+    514.8,
+    89.2
+   ],
+   "size": 8.8,
+   "testo": "privilegio (come Padronanza d'armi). Di seguito sono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    89.6,
+    391.2,
+    100.1
+   ],
+   "size": 8.8,
+   "testo": "descritte le proprietà.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.5,
+    109.8,
+    407.8,
+    121.2
+   ],
+   "size": 11.2,
+   "testo": "COLPO DI STRISCIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    121.4,
+    534.3,
+    132.0
+   ],
+   "size": 8.8,
+   "testo": "Se il tiro per colpire con quest'arma non va a segno contro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    132.5,
+    525.2,
+    143.0
+   ],
+   "size": 8.8,
+   "testo": "una creatura, il personaggio può infliggere una quantità",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.1,
+    143.5,
+    534.0,
+    154.0
+   ],
+   "size": 8.8,
+   "testo": "di danni alla creatura pari al modificatore di caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    154.4,
+    516.6,
+    165.0
+   ],
+   "size": 8.8,
+   "testo": "utilizzato per il tiro per colpire. Il danno è della stessa",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    165.5,
+    530.7,
+    176.1
+   ],
+   "size": 8.8,
+   "testo": "tipologia dell'arma e può essere aumentato solo incremen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    176.5,
+    455.4,
+    187.1
+   ],
+   "size": 8.8,
+   "testo": "tando il modificatore di caratteristica.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    196.9,
+    404.3,
+    208.2
+   ],
+   "size": 11.2,
+   "testo": "DOPPIO FENDENTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.1,
+    208.5,
+    520.2,
+    219.0
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio colpisce una creatura con un tiro per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.0,
+    219.4,
+    529.7,
+    230.0
+   ],
+   "size": 8.8,
+   "testo": "colpire in mischia usando quest'arma, può effettuarne un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    230.4,
+    522.1,
+    241.0
+   ],
+   "size": 8.8,
+   "testo": "altro con la stessa arma contro un altro bersaglio entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    305.3,
+    241.4,
+    535.3,
+    251.9
+   ],
+   "size": 8.8,
+   "testo": "1,5 metri dal primo che sia a portata. Se il colpo va a segno,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    252.3,
+    524.7,
+    262.9
+   ],
+   "size": 8.8,
+   "testo": "la seconda creatura subisce i danni inferti dall'arma, ma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.8,
+    263.4,
+    523.9,
+    273.9
+   ],
+   "size": 8.8,
+   "testo": "non puoi aggiungere il modificatore di caratteristica del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    274.4,
+    530.8,
+    285.0
+   ],
+   "size": 8.8,
+   "testo": "personaggio al danno a meno che questo non sia di valore",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    285.5,
+    515.4,
+    296.0
+   ],
+   "size": 8.8,
+   "testo": "negativo. L'attacco extra può essere eseguito solo una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    296.4,
+    368.3,
+    307.0
+   ],
+   "size": 8.8,
+   "testo": "volta per turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.3,
+    316.7,
+    354.6,
+    328.1
+   ],
+   "size": 11.2,
+   "testo": "GRAFFIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    328.3,
+    523.1,
+    338.8
+   ],
+   "size": 8.8,
+   "testo": "Quando il personaggio effettua l'attacco extra della pro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    339.2,
+    524.1,
+    349.8
+   ],
+   "size": 8.8,
+   "testo": "prietà leggera, può renderlo parte dell'azione di Attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    350.1,
+    522.5,
+    360.7
+   ],
+   "size": 8.8,
+   "testo": "invece che dell'azione bonus. L'attacco extra può essere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    361.2,
+    438.0,
+    371.7
+   ],
+   "size": 8.8,
+   "testo": "eseguito solo una volta per turno.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    381.4,
+    361.3,
+    392.8
+   ],
+   "size": 11.2,
+   "testo": "LENTEZZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    392.9,
+    520.9,
+    403.5
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio colpisce una creatura con quest'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    404.1,
+    521.9,
+    414.7
+   ],
+   "size": 8.8,
+   "testo": "e le infligge dei danni, può ridurne la velocità di 3 metri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    415.1,
+    525.9,
+    425.7
+   ],
+   "size": 8.8,
+   "testo": "fino all'inizio del turno successivo del personaggio. Se la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    426.1,
+    530.8,
+    436.6
+   ],
+   "size": 8.8,
+   "testo": "creatura viene colpita più di una volta da armi con questa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    437.1,
+    519.0,
+    447.7
+   ],
+   "size": 8.8,
+   "testo": "proprietà, la riduzione di velocità non supera i 3 metri.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    457.3,
+    403.4,
+    468.7
+   ],
+   "size": 11.2,
+   "testo": "PROSCIUGAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    468.8,
+    523.0,
+    479.4
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio colpisce una creatura con quest'arma,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.5,
+    479.8,
+    521.8,
+    490.4
+   ],
+   "size": 8.8,
+   "testo": "la creatura avrà svantaggio al prossimo tiro per colpire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    490.8,
+    512.9,
+    501.4
+   ],
+   "size": 8.8,
+   "testo": "prima dell'inizio del prossimo turno del personaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.7,
+    511.2,
+    396.5,
+    522.6
+   ],
+   "size": 11.2,
+   "testo": "ROVESCIAMENTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.6,
+    522.8,
+    522.8,
+    533.4
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio colpisce una creatura con quest'arma,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    533.8,
+    524.7,
+    544.4
+   ],
+   "size": 8.8,
+   "testo": "può costringerla a effettuare un tiro salvezza su Costitu­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.6,
+    544.8,
+    529.7,
+    555.3
+   ],
+   "size": 8.8,
+   "testo": "zione (CD 8 più il modificatore di caratteristica utilizzato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    555.8,
+    518.7,
+    566.4
+   ],
+   "size": 8.8,
+   "testo": "per il tiro salvezza su Costituzione e il bonus di compe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    566.7,
+    524.4,
+    577.3
+   ],
+   "size": 8.8,
+   "testo": "tenza del personaggio). Se lo fallisce, cade a terra prona.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.7,
+    587.0,
+    344.0,
+    598.3
+   ],
+   "size": 11.2,
+   "testo": "SPINTA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    598.6,
+    522.7,
+    609.1
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio colpisce una creatura con quest'arma,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    609.6,
+    515.7,
+    620.2
+   ],
+   "size": 8.8,
+   "testo": "può spingerla via da sé di almeno 3 metri se è di taglia",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.4,
+    620.7,
+    381.2,
+    631.3
+   ],
+   "size": 8.8,
+   "testo": "Grande o inferiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.5,
+    641.0,
+    370.3,
+    652.4
+   ],
+   "size": 11.2,
+   "testo": "VESSAZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.5,
+    652.5,
+    520.6,
+    663.1
+   ],
+   "size": 8.8,
+   "testo": "Se il personaggio colpisce una creatura con quest'arma",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.4,
+    663.5,
+    515.8,
+    674.1
+   ],
+   "size": 8.8,
+   "testo": "e le infligge dei danni, avrà vantaggio al prossimo tiro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.2,
+    674.5,
+    528.5,
+    685.1
+   ],
+   "size": 8.8,
+   "testo": "per colpire eseguito contro la creatura prima del termine",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    304.2,
+    685.5,
+    387.5,
+    696.1
+   ],
+   "size": 8.8,
+   "testo": "del turno successivo.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

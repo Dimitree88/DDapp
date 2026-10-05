@@ -1,0 +1,1308 @@
+{
+ "pagina_pdf": 8,
+ "pagina_stampata": 5,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "INTRODUZIONE I BENVENUTI NELL'AVVENTURA / 5",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    56.2,
+    38.5,
+    232.9,
+    49.1
+   ],
+   "size": 8.8,
+   "testo": "Il DM potrebbe trovare utili questi accessori:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    54.8,
+    253.0,
+    65.4
+   ],
+   "size": 8.8,
+   "testo": "Schermo pieghevole DM. Molti DM amano usare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    65.9,
+    269.8,
+    76.4
+   ],
+   "size": 8.8,
+   "testo": "uno schermo per proteggere i loro appunti e i tiri dei",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    69.8,
+    261.4,
+    88.0
+   ],
+   "size": 8.8,
+   "testo": "dadi dai giocatori. È maleducazione sbirciare oltre",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    87.8,
+    110.6,
+    98.4
+   ],
+   "size": 8.8,
+   "testo": "lo schermo!",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    98.8,
+    258.3,
+    109.4
+   ],
+   "size": 8.8,
+   "testo": "Miniature e griglia di battaglia. Alcuni DM usano",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    109.8,
+    253.6,
+    120.4
+   ],
+   "size": 8.8,
+   "testo": "una griglia di battaglia e le miniature per gestire",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    120.9,
+    261.8,
+    131.4
+   ],
+   "size": 8.8,
+   "testo": "gli incontri di combattimento, poiché aiutano tutti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    131.8,
+    272.8,
+    142.4
+   ],
+   "size": 8.8,
+   "testo": "a visualizzare l'azione. Si può considerare una griglia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    142.8,
+    266.3,
+    153.4
+   ],
+   "size": 8.8,
+   "testo": "di battaglia qualsiasi supporto su cui sono disegnati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    153.9,
+    280.1,
+    164.5
+   ],
+   "size": 8.8,
+   "testo": "quadretti da 2,5 centimetri, da fogli di carta usa e getta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    164.9,
+    267.6,
+    175.5
+   ],
+   "size": 8.8,
+   "testo": "a mappe pieghevoli. Le miniature vanno da semplici",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    175.9,
+    271.4,
+    186.4
+   ],
+   "size": 8.8,
+   "testo": "pedine a figurine dettagliate. Sono inoltre disponibili",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    186.9,
+    250.8,
+    197.4
+   ],
+   "size": 8.8,
+   "testo": "mappe e miniature online, come per esempio su",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    197.9,
+    134.1,
+    208.5
+   ],
+   "size": 8.8,
+   "testo": "DnDBeyond.com.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    218.6,
+    286.4,
+    235.2
+   ],
+   "size": 12.9,
+   "testo": "COME USARE QUESTO LIBRO",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    236.9,
+    190.2,
+    247.4
+   ],
+   "size": 8.8,
+   "testo": "Ecco cosa troverai in questo libro:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    253.3,
+    261.5,
+    263.8
+   ],
+   "size": 8.8,
+   "testo": "Capitolo 1: come si gioca. Il primo capitolo spiega le",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    264.3,
+    268.5,
+    274.9
+   ],
+   "size": 8.8,
+   "testo": "basi del gioco, con esempi che aiutano a capire come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    275.4,
+    96.8,
+    286.0
+   ],
+   "size": 8.8,
+   "testo": "giocare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    286.3,
+    276.8,
+    296.9
+   ],
+   "size": 8.8,
+   "testo": "Capitolo 2: creare un personaggio. Il capitolo 2 illustra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.5,
+    297.4,
+    203.2,
+    308.0
+   ],
+   "size": 8.8,
+   "testo": "le fasi di creazione del personaggio.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    308.4,
+    275.5,
+    319.1
+   ],
+   "size": 8.8,
+   "testo": "Capitolo 3: classi dei personaggi. Le capacità dei perso­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    319.4,
+    281.5,
+    329.9
+   ],
+   "size": 8.8,
+   "testo": "naggi sono in gran parte determinate dalla classe, come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    330.3,
+    275.9,
+    340.8
+   ],
+   "size": 8.8,
+   "testo": "ad esempio guerriero o mago. Il capitolo 3 offre dodici",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    341.3,
+    237.9,
+    351.9
+   ],
+   "size": 8.8,
+   "testo": "classi tra cui scegliere, oltre a 48 sottoclassi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    352.3,
+    269.1,
+    362.9
+   ],
+   "size": 8.8,
+   "testo": "Capitolo 4: origini dei personaggi. Il background e la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.2,
+    363.2,
+    284.6,
+    373.7
+   ],
+   "size": 8.8,
+   "testo": "specie sono elementi fondamentali per definire le origini",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    374.2,
+    272.8,
+    384.8
+   ],
+   "size": 8.8,
+   "testo": "di un personaggio, che ne modellano ulteriormente le",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    385.3,
+    275.1,
+    395.8
+   ],
+   "size": 8.8,
+   "testo": "capacità al di là della scelta della classe. Il background",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    396.3,
+    247.3,
+    406.8
+   ],
+   "size": 8.8,
+   "testo": "e le opzioni relative alle specie sono presentate",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    407.3,
+    119.8,
+    417.9
+   ],
+   "size": 8.8,
+   "testo": "nel capitolo 4.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    418.5,
+    262.9,
+    429.0
+   ],
+   "size": 8.8,
+   "testo": "Capitolo 5: talenti. I talenti del capitolo 5 sono carat­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    429.4,
+    264.6,
+    439.9
+   ],
+   "size": 8.8,
+   "testo": "teristiche speciali che i personaggi ottengono come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.6,
+    440.3,
+    239.3,
+    450.8
+   ],
+   "size": 8.8,
+   "testo": "parte del loro background e della loro classe.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    451.3,
+    260.2,
+    461.8
+   ],
+   "size": 8.8,
+   "testo": "Capitolo 6: equipaggiamento. Le armature, le armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    462.2,
+    248.5,
+    472.8
+   ],
+   "size": 8.8,
+   "testo": "e l'equipaggiamento d'avventura si trovano nel",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    473.2,
+    105.8,
+    483.8
+   ],
+   "size": 8.8,
+   "testo": "capitolo 6.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    484.2,
+    253.3,
+    494.8
+   ],
+   "size": 8.8,
+   "testo": "Capitolo 7: incantesimi. Questo capitolo contiene",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    495.3,
+    259.2,
+    505.8
+   ],
+   "size": 8.8,
+   "testo": "le descrizioni degli incantesimi che gli incantatori",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    506.3,
+    133.4,
+    516.9
+   ],
+   "size": 8.8,
+   "testo": "possono lanciare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    517.3,
+    258.6,
+    527.9
+   ],
+   "size": 8.8,
+   "testo": "Appendice A: il multiverso. Qui troverai una pano­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    528.3,
+    259.0,
+    538.9
+   ],
+   "size": 8.8,
+   "testo": "ramica del magico multiverso in cui si svolgono le",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    539.3,
+    138.4,
+    549.9
+   ],
+   "size": 8.8,
+   "testo": "avventure di D&D.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    552.1,
+    270.7,
+    560.7
+   ],
+   "size": 8.4,
+   "testo": "Appendice B: schede delle statistiche delle creature.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    561.2,
+    258.4,
+    571.8
+   ],
+   "size": 8.8,
+   "testo": "Questa appendice è ricca di informazioni di gioco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    572.3,
+    255.4,
+    582.8
+   ],
+   "size": 8.8,
+   "testo": "sulle creature con cui alcuni personaggi possono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    583.3,
+    254.4,
+    593.9
+   ],
+   "size": 8.8,
+   "testo": "stringere amicizia o in cui possono trasformarsi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    594.2,
+    267.8,
+    604.8
+   ],
+   "size": 8.8,
+   "testo": "Appendice C: glossario delle regole. La terminologia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.7,
+    605.3,
+    269.0,
+    615.9
+   ],
+   "size": 8.8,
+   "testo": "delle regole principali del gioco è riassunta in questa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.0,
+    616.4,
+    262.0,
+    627.0
+   ],
+   "size": 8.8,
+   "testo": "appendice, che costituisce un prezioso riferimento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    627.4,
+    135.9,
+    638.0
+   ],
+   "size": 8.8,
+   "testo": "durante le partite.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.8,
+    40.8,
+    460.1,
+    51.5
+   ],
+   "size": 10.6,
+   "testo": "QUALI SONO LE NOVITÀ DELLA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    52.9,
+    395.0,
+    63.5
+   ],
+   "size": 10.6,
+   "testo": "VERSIONE 2024?",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.0,
+    66.4,
+    511.8,
+    76.0
+   ],
+   "size": 8.4,
+   "testo": "Questa è la versione 2024 della quinta edizione del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.3,
+    77.5,
+    506.8,
+    87.2
+   ],
+   "size": 9.2,
+   "testo": "Manuale del Giocatore. Se hai letto la versione del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.1,
+    88.4,
+    520.5,
+    98.0
+   ],
+   "size": 8.4,
+   "testo": "2014, gran parte di questo libro ti sembrerà familiare,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    99.4,
+    526.4,
+    109.0
+   ],
+   "size": 8.4,
+   "testo": "poiché le regole fondamentali del gioco sono le stesse.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.6,
+    110.4,
+    513.6,
+    120.0
+   ],
+   "size": 8.4,
+   "testo": "Tuttavia, il libro contiene elementi nuovi o rivisitati;",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    121.4,
+    523.3,
+    131.0
+   ],
+   "size": 8.4,
+   "testo": "le versioni delle cose di questo manuale sostituiscono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.8,
+    132.2,
+    509.8,
+    141.8
+   ],
+   "size": 8.4,
+   "testo": "quelle dei libri precedenti. Ecco qui i punti salienti:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    147.9,
+    510.3,
+    157.6
+   ],
+   "size": 8.4,
+   "testo": "Regole semplificate. Le regole del gioco sono state",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.9,
+    158.9,
+    518.7,
+    168.6
+   ],
+   "size": 8.4,
+   "testo": "semplificate e sono ora supportate da un glossario",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.2,
+    170.0,
+    372.7,
+    179.6
+   ],
+   "size": 8.4,
+   "testo": "delle regole.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    180.9,
+    501.8,
+    190.6
+   ],
+   "size": 8.4,
+   "testo": "Creazione del personaggio facilitata. Utilizzando",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.5,
+    191.8,
+    503.6,
+    201.4
+   ],
+   "size": 8.4,
+   "testo": "il capitolo 2, creare un personaggio è più facile",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.8,
+    203.0,
+    358.9,
+    212.6
+   ],
+   "size": 8.4,
+   "testo": "che mai.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    213.9,
+    514.4,
+    223.6
+   ],
+   "size": 8.4,
+   "testo": "Classi migliorate. Nel capitolo 3, ogni classe e sotto­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.2,
+    225.0,
+    492.1,
+    234.6
+   ],
+   "size": 8.4,
+   "testo": "classe è stata migliorata con nuove opzioni.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.7,
+    235.9,
+    500.7,
+    245.6
+   ],
+   "size": 8.4,
+   "testo": "Origini reinventate. Approfondite nel capitolo 4,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.5,
+    247.0,
+    510.6,
+    256.6
+   ],
+   "size": 8.4,
+   "testo": "le origini di un personaggio sono ora definite dal",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.5,
+    257.9,
+    498.5,
+    267.6
+   ],
+   "size": 8.4,
+   "testo": "background e dalla specie, entrambi rivisitati.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    269.0,
+    513.7,
+    278.6
+   ],
+   "size": 8.4,
+   "testo": "Talenti aggiuntivi. Nel capitolo 5, i talenti sono stati",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.5,
+    280.1,
+    483.1,
+    289.7
+   ],
+   "size": 8.4,
+   "testo": "rivisitati e ne sono stati aggiunti di nuovi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.5,
+    291.0,
+    513.5,
+    300.6
+   ],
+   "size": 8.4,
+   "testo": "Armi, strumenti e creazione potenziati. Le proprietà",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.4,
+    301.9,
+    512.6,
+    311.6
+   ],
+   "size": 8.4,
+   "testo": "di padronanza trasformano il modo in cui le armi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    323.9,
+    313.0,
+    515.9,
+    322.6
+   ],
+   "size": 8.4,
+   "testo": "vengono utilizzate da chi le brandisce. Ogni perso­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.5,
+    323.9,
+    510.6,
+    333.6
+   ],
+   "size": 8.4,
+   "testo": "naggio può usufruire di nuovi strumenti e regole",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    324.2,
+    334.9,
+    428.2,
+    344.5
+   ],
+   "size": 8.4,
+   "testo": "di creazione nel capitolo 6.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    345.9,
+    522.7,
+    355.5
+   ],
+   "size": 8.4,
+   "testo": "Incantesimi sfolgoranti. Il capitolo 7 abbonda di nuovi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    324.4,
+    356.9,
+    520.3,
+    366.5
+   ],
+   "size": 8.4,
+   "testo": "incantesimi e di vecchi incantesimi resi più potenti.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.0,
+    372.3,
+    514.6,
+    381.9
+   ],
+   "size": 8.4,
+   "testo": "Se non riesci a trovare una regola, controlla l'indice.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.0,
+    383.3,
+    521.7,
+    393.0
+   ],
+   "size": 8.4,
+   "testo": "Se il nome di una regola è cambiato rispetto a quanto",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.6,
+    394.4,
+    520.2,
+    404.1
+   ],
+   "size": 9.2,
+   "testo": "stampato nel Manuale del Giocatore del 2014, l'indice",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.6,
+    405.4,
+    499.8,
+    415.0
+   ],
+   "size": 8.4,
+   "testo": "ti indirizzerà verso il nuovo nome. Per esempio,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.6,
+    416.5,
+    518.5,
+    426.1
+   ],
+   "size": 8.4,
+   "testo": "se cerchi Ispirazione, l'indice ti rimanderà alle regole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    316.7,
+    427.4,
+    495.0,
+    437.1
+   ],
+   "size": 8.4,
+   "testo": "di Ispirazione Eroica nel glossario delle regole.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    453.2,
+    510.9,
+    469.8
+   ],
+   "size": 12.9,
+   "testo": "MONDI DELLAVVENTURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    471.4,
+    517.5,
+    482.0
+   ],
+   "size": 8.8,
+   "testo": "I mondi di D&D brillano di magia, mostri e avventure",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.0,
+    482.3,
+    519.2,
+    492.9
+   ],
+   "size": 8.8,
+   "testo": "spettacolari. Partendo da una base fantasy medievale,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.4,
+    493.4,
+    516.0,
+    503.9
+   ],
+   "size": 8.8,
+   "testo": "questi mondi sono ricchi di possibilità che vanno ben",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    504.4,
+    428.9,
+    515.0
+   ],
+   "size": 8.8,
+   "testo": "oltre quelle della nostra realtà.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    515.5,
+    513.9,
+    526.1
+   ],
+   "size": 8.8,
+   "testo": "I mondi di D&D si trovano in un multiverso e sono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    526.5,
+    515.5,
+    537.0
+   ],
+   "size": 8.8,
+   "testo": "collegati tra loro e con altri piani di esistenza. Alcuni",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    537.4,
+    527.8,
+    548.0
+   ],
+   "size": 8.8,
+   "testo": "mondi sono stati pubblicati come ambientazioni ufficiali",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    548.5,
+    518.4,
+    559.0
+   ],
+   "size": 8.8,
+   "testo": "di D&D, tra cui Greyhawk, Forgotten Realms, Dragon­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    559.4,
+    508.8,
+    569.9
+   ],
+   "size": 8.8,
+   "testo": "lance, Spelljammer, Planescape, Dark Sun, Eberron",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    570.4,
+    526.2,
+    580.9
+   ],
+   "size": 8.8,
+   "testo": "e Ravenloft. Accanto a questi mondi ve ne sono migliaia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    581.3,
+    523.7,
+    591.9
+   ],
+   "size": 8.8,
+   "testo": "di altri, creati da generazioni di giocatori di D&D per le",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    592.4,
+    530.4,
+    602.9
+   ],
+   "size": 8.8,
+   "testo": "proprie partite. Nella ricchezza del multiverso, tu e i tuoi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    603.4,
+    486.0,
+    613.9
+   ],
+   "size": 8.8,
+   "testo": "amici potreste creare un mondo tutto vostro.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    614.6,
+    525.9,
+    625.2
+   ],
+   "size": 8.8,
+   "testo": "I mondi del multiverso hanno caratteristiche comuni,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    625.6,
+    535.4,
+    636.2
+   ],
+   "size": 8.8,
+   "testo": "ma ognuno si distingue per la sua storia e la sua geografia.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    636.6,
+    529.7,
+    647.1
+   ],
+   "size": 8.8,
+   "testo": "Il DM potrebbe ambientare la campagna in uno di questi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    647.6,
+    524.1,
+    658.1
+   ],
+   "size": 8.8,
+   "testo": "mondi o in un mondo di sua invenzione. Poiché in D&D",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    658.6,
+    512.7,
+    669.1
+   ],
+   "size": 8.8,
+   "testo": "esiste una grande varietà di mondi, ti consigliamo di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    669.5,
+    519.8,
+    680.1
+   ],
+   "size": 8.8,
+   "testo": "chiedere al DM quale sarà il mondo delle tue prossime",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    680.5,
+    352.1,
+    691.1
+   ],
+   "size": 8.8,
+   "testo": "avventure.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

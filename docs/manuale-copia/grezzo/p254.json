@@ -1,0 +1,1320 @@
+{
+ "pagina_pdf": 254,
+ "pagina_stampata": 251,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 J INCANTESIMI / 251",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    54.9,
+    51.0,
+    177.1,
+    62.3
+   ],
+   "size": 11.2,
+   "testo": "CAMUFFARE SE STESSO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    62.5,
+    214.3,
+    73.0
+   ],
+   "size": 8.6,
+   "testo": "Illusione di 1° livello (bardo, mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    78.1,
+    145.8,
+    87.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    89.1,
+    129.6,
+    98.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    100.1,
+    120.8,
+    109.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    111.1,
+    105.8,
+    120.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: l ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    127.3,
+    262.7,
+    137.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore assume un aspetto diverso (che include",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    138.1,
+    268.9,
+    148.7
+   ],
+   "size": 8.8,
+   "testo": "i suoi abiti, armatura, armi e altri oggetti personali pre­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    149.2,
+    274.8,
+    159.7
+   ],
+   "size": 8.8,
+   "testo": "senti sulla sua persona) fino al termine dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    160.3,
+    281.5,
+    170.9
+   ],
+   "size": 8.8,
+   "testo": "Può apparire 30 centimetri più alto o più basso e apparire",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    171.3,
+    270.1,
+    181.9
+   ],
+   "size": 8.8,
+   "testo": "più grasso o più magro, adottando una forma che usi la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    182.2,
+    277.8,
+    192.8
+   ],
+   "size": 8.8,
+   "testo": "stessa disposizione basilare degli arti. Entro questi limiti,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    193.3,
+    201.6,
+    203.9
+   ],
+   "size": 8.8,
+   "testo": "la natura dell'illusione dipende da lui.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    204.3,
+    265.2,
+    214.9
+   ],
+   "size": 8.8,
+   "testo": "I cambiamenti apportati da questo incantesimo non",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    215.3,
+    266.7,
+    225.9
+   ],
+   "size": 8.8,
+   "testo": "passano il vaglio di un'ispezione fisica. Per esempio, se",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    226.4,
+    273.3,
+    236.9
+   ],
+   "size": 8.8,
+   "testo": "l'incantatore usa questo incantesimo per aggiungere un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    237.3,
+    282.1,
+    247.9
+   ],
+   "size": 8.8,
+   "testo": "cappello al suo abbigliamento, gli oggetti attraverserebbero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    248.3,
+    269.3,
+    258.9
+   ],
+   "size": 8.8,
+   "testo": "il cappello e chiunque lo toccasse non sentirebbe nulla.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.6,
+    259.4,
+    258.5,
+    269.9
+   ],
+   "size": 8.8,
+   "testo": "Per capire che l'incantatore è camuffato, una crea­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    270.4,
+    270.5,
+    280.9
+   ],
+   "size": 8.8,
+   "testo": "tura può usare la sua azione di Studio per ispezionarne",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    281.3,
+    277.1,
+    291.9
+   ],
+   "size": 8.8,
+   "testo": "l'aspetto, superando una prova di Intelligenza (Indagare)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    292.3,
+    239.5,
+    302.9
+   ],
+   "size": 8.8,
+   "testo": "contro la CD del tiro salvezza sull'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    327.0,
+    177.6,
+    338.4
+   ],
+   "size": 11.2,
+   "testo": "CAPANNA DI LEOMUND",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    338.5,
+    193.7,
+    348.9
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 3°livello (bardo, mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    354.0,
+    188.8,
+    363.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: l minuto o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    365.0,
+    129.4,
+    374.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    376.0,
+    219.0,
+    385.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una perla di cristallo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    387.0,
+    105.4,
+    396.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: 8 ore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    403.2,
+    276.3,
+    413.8
+   ],
+   "size": 8.8,
+   "testo": "Un'emanazione di 3 metri si materializza attorno all'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    414.4,
+    282.1,
+    424.9
+   ],
+   "size": 8.8,
+   "testo": "tatore e permane stazionaria per la durata dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    425.3,
+    273.1,
+    435.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo fallisce quando l'incantatore lo lancia ma",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    436.3,
+    280.6,
+    446.9
+   ],
+   "size": 8.8,
+   "testo": "l'emanazione non è abbastanza grande da poter inglobare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    447.3,
+    265.1,
+    457.9
+   ],
+   "size": 8.8,
+   "testo": "totalmente tutte le creature all'interno della sua area.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    458.3,
+    266.1,
+    468.8
+   ],
+   "size": 8.8,
+   "testo": "Le creature e gli oggetti all'interno dell'emanazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    469.3,
+    264.1,
+    479.9
+   ],
+   "size": 8.8,
+   "testo": "al momento del lancio dell'incantesimo possono attra­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    480.3,
+    261.5,
+    490.8
+   ],
+   "size": 8.8,
+   "testo": "versarla liberamente, mentre a tutte le altre creature",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    491.3,
+    274.0,
+    501.9
+   ],
+   "size": 8.8,
+   "testo": "e oggetti è proibito. Non è possibile lanciare incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    500.2,
+    260.9,
+    512.9
+   ],
+   "size": 8.8,
+   "testo": "di 3° livello o inferiore attraverso l'emanazione, e gli",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    513.2,
+    277.7,
+    523.8
+   ],
+   "size": 8.8,
+   "testo": "effetti di tali incantesimi non si estendono al suo interno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    524.3,
+    264.7,
+    534.9
+   ],
+   "size": 8.8,
+   "testo": "L'atmosfera all'interno dell'emanazione è gradevole",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    535.4,
+    282.2,
+    546.0
+   ],
+   "size": 8.8,
+   "testo": "e asciutta, a prescindere dal tempo atmosferico all'esterno.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.6,
+    546.3,
+    281.9,
+    556.9
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine dell'incantesimo, l'incantatore può decidere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    557.3,
+    280.4,
+    567.8
+   ],
+   "size": 8.8,
+   "testo": "che all'interno dell'emanazione ci sia luce fioca o oscurità",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    568.3,
+    264.9,
+    578.9
+   ],
+   "size": 8.8,
+   "testo": "(nessuna azione richiesta). Dall'esterno, l'emanazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    579.2,
+    278.0,
+    589.8
+   ],
+   "size": 8.8,
+   "testo": "appare opaca e di un qualsiasi colore a scelta dell'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    590.2,
+    213.6,
+    600.8
+   ],
+   "size": 8.8,
+   "testo": "tore, ma dall'interno risulta trasparente.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.7,
+    601.3,
+    258.4,
+    611.8
+   ],
+   "size": 8.8,
+   "testo": "L'incantesimo termina in anticipo se l'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    612.4,
+    264.0,
+    623.0
+   ],
+   "size": 8.8,
+   "testo": "lo lancia di nuovo o se esce dall'area dell'emanazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    647.1,
+    213.4,
+    658.4
+   ],
+   "size": 11.2,
+   "testo": "CARATTERISTICA POTENZIATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    658.6,
+    264.5,
+    669.1
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazione di 2°livello (bardo, chierico, druido, mago,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    670.4,
+    117.0,
+    679.8
+   ],
+   "size": 8.6,
+   "testo": "ranger, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    685.1,
+    146.2,
+    694.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    696.1,
+    118.9,
+    705.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: contatto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    707.1,
+    250.7,
+    716.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (un ciuffo di peli o una piuma)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    718.0,
+    192.5,
+    727.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    35.5,
+    497.8,
+    46.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tocca una creatura e sceglie Forza,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    46.5,
+    534.7,
+    57.1
+   ],
+   "size": 8.8,
+   "testo": "Destrezza, Intelligenza, Saggezza o Carisma. Per la durata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    57.4,
+    522.6,
+    68.0
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo, il bersaglio dispone di vantaggio sulle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    68.5,
+    512.8,
+    79.0
+   ],
+   "size": 8.8,
+   "testo": "prove di caratteristica effettuate utilizzando l'abilità",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.7,
+    79.6,
+    332.8,
+    90.2
+   ],
+   "size": 8.8,
+   "testo": "scelta.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.2,
+    92.1,
+    510.3,
+    100.7
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    101.4,
+    519.4,
+    112.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore può bersagliare una creatura aggiuntiva",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    110.3,
+    524.8,
+    123.0
+   ],
+   "size": 8.8,
+   "testo": "per ogni slot di livello superiore al 2°. L'incantatore può",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    123.4,
+    528.5,
+    134.0
+   ],
+   "size": 8.8,
+   "testo": "scegliere una caratteristica differente per ogni bersaglio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.0,
+    158.2,
+    402.5,
+    169.5
+   ],
+   "size": 11.2,
+   "testo": "CARNE IN PIETRA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    169.7,
+    494.4,
+    180.1
+   ],
+   "size": 8.6,
+   "testo": "Trasmutazionedi 6° livello (druido, mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    185.3,
+    398.5,
+    194.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    196.4,
+    370.9,
+    206.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    207.3,
+    484.8,
+    216.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una piuma di coccatrice)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    218.3,
+    459.9,
+    227.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    234.5,
+    522.4,
+    245.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore tenta di tramutare in pietra una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    245.4,
+    532.7,
+    256.0
+   ],
+   "size": 8.8,
+   "testo": "entro gittata che è in grado di vedere. Il bersaglio effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    256.4,
+    519.8,
+    267.0
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Costituzione. In caso di fallimento,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    267.5,
+    515.4,
+    278.1
+   ],
+   "size": 8.8,
+   "testo": "è trattenuto per la durata dell'incantesimo. In caso di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    278.5,
+    532.3,
+    289.1
+   ],
+   "size": 8.8,
+   "testo": "successo, la sua velocità è pari a 0 fino all'inizio del turno",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    289.4,
+    525.6,
+    300.0
+   ],
+   "size": 8.8,
+   "testo": "successivo. I costrutti superano automaticamente il tiro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    300.6,
+    343.7,
+    311.2
+   ],
+   "size": 8.8,
+   "testo": "salvezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.7,
+    311.4,
+    526.6,
+    322.0
+   ],
+   "size": 8.8,
+   "testo": "Un bersaglio trattenuto effettua un altro tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    322.4,
+    521.7,
+    333.0
+   ],
+   "size": 8.8,
+   "testo": "su Costituzione al termine di ogni suo turno. L'incante­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    333.4,
+    530.4,
+    343.9
+   ],
+   "size": 8.8,
+   "testo": "simo termina se il bersaglio supera per tre volte il tiro sal­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    344.3,
+    534.5,
+    354.9
+   ],
+   "size": 8.8,
+   "testo": "vezza contro questo incantesimo. Mentre se lo fallisce per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    355.3,
+    526.8,
+    365.9
+   ],
+   "size": 8.8,
+   "testo": "tre volte, viene tramutato in pietra e diventa pietrificato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    366.3,
+    529.7,
+    376.8
+   ],
+   "size": 8.8,
+   "testo": "per la durata dell'incantesimo. Non è necessario che i tiri",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    377.3,
+    531.9,
+    387.8
+   ],
+   "size": 8.8,
+   "testo": "superati o falliti siano consecutivi: si tiene semplicemente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    388.3,
+    524.6,
+    398.8
+   ],
+   "size": 8.8,
+   "testo": "il conto di entrambi finché il bersaglio non ne accumula",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    399.4,
+    384.7,
+    410.0
+   ],
+   "size": 8.8,
+   "testo": "tre di un certo tipo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.8,
+    410.4,
+    527.4,
+    420.9
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore mantiene la concentrazione su questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    421.4,
+    512.3,
+    432.0
+   ],
+   "size": 8.8,
+   "testo": "incantesimo per l'intera durata possibile, il bersaglio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    432.5,
+    527.0,
+    443.1
+   ],
+   "size": 8.8,
+   "testo": "è pietrificato fino a quando non viene posta fine alla con­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    443.3,
+    516.4,
+    453.9
+   ],
+   "size": 8.8,
+   "testo": "dizione con ristorare superiore o un'altra magia simile.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    478.1,
+    415.8,
+    489.5
+   ],
+   "size": 11.2,
+   "testo": "CATENA DI FULMINI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    489.6,
+    455.9,
+    500.1
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 6° livello (mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    505.3,
+    398.6,
+    514.9
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    516.4,
+    371.1,
+    526.0
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 45 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    527.3,
+    463.3,
+    536.9
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (tre spilli d'argento)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.1,
+    538.3,
+    379.2,
+    547.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    554.4,
+    531.8,
+    565.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore scaglia un fulmine verso un bersaglio entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.5,
+    565.4,
+    527.1,
+    576.0
+   ],
+   "size": 8.8,
+   "testo": "gittata e che è in grado di vedere. Tre fulmini sfrecciano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    576.4,
+    519.6,
+    587.0
+   ],
+   "size": 8.8,
+   "testo": "poi dal bersaglio verso un massimo di altri tre bersagli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    587.4,
+    524.6,
+    598.0
+   ],
+   "size": 8.8,
+   "testo": "a scelta dell'incantatore, ognuno dei quali deve trovarsi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    598.3,
+    522.9,
+    608.9
+   ],
+   "size": 8.8,
+   "testo": "entro 9 metri dal primo. I bersagli dell'incantesimo pos­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    609.5,
+    535.4,
+    620.1
+   ],
+   "size": 8.8,
+   "testo": "sono essere creature o oggetti e possono essere bersagliati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    620.6,
+    416.8,
+    631.2
+   ],
+   "size": 8.8,
+   "testo": "soltanto da uno dei fulmini.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    631.5,
+    525.0,
+    642.1
+   ],
+   "size": 8.8,
+   "testo": "Ogni bersaglio effettua un tiro salvezza su Destrezza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    642.5,
+    514.9,
+    653.1
+   ],
+   "size": 8.8,
+   "testo": "subendo 10d8 danni da fulmine in caso di fallimento,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    653.6,
+    456.7,
+    664.1
+   ],
+   "size": 8.8,
+   "testo": "o la metà dei danni in caso di successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    666.2,
+    510.4,
+    674.8
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    675.3,
+    522.6,
+    685.9
+   ],
+   "size": 8.8,
+   "testo": "Un fulmine aggiuntivo si trasmette dal primo bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    684.3,
+    531.0,
+    697.0
+   ],
+   "size": 8.8,
+   "testo": "a un altro bersaglio per ogni slot di livello superiore al 6°.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

@@ -1,0 +1,631 @@
+{
+ "pagina_pdf": 301,
+ "pagina_stampata": 298,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "298 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   377
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    55.5,
+    401.2,
+    144.7,
+    412.6
+   ],
+   "size": 11.2,
+   "testo": "PALLA DI Fuoco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    412.6,
+    204.1,
+    423.1
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di3°livello (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    428.1,
+    147.0,
+    437.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    439.2,
+    119.4,
+    448.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 45 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    450.1,
+    268.0,
+    459.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una pallina di guano di pipistrello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    63.4,
+    461.1,
+    92.5,
+    470.8
+   ],
+   "size": 8.4,
+   "testo": "e zolfo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    472.1,
+    127.6,
+    481.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    488.3,
+    280.0,
+    499.0
+   ],
+   "size": 8.8,
+   "testo": "Unascia di luce brillante parte dall'incantatore e sfreccia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    499.2,
+    265.8,
+    509.8
+   ],
+   "size": 8.8,
+   "testo": "fino a un punto a sua scelta entro gittata, provocando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.8,
+    510.3,
+    264.1,
+    520.9
+   ],
+   "size": 8.8,
+   "testo": "un'esplosione infuocata con un profondo boato. Ogni",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    521.4,
+    255.7,
+    531.9
+   ],
+   "size": 8.8,
+   "testo": "creatura presente in una sfera dal raggio di 6 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    532.3,
+    276.7,
+    542.8
+   ],
+   "size": 8.8,
+   "testo": "e centrata su quel punto deve effettuare un tiro salvezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    543.3,
+    261.3,
+    553.9
+   ],
+   "size": 8.8,
+   "testo": "su Destrezza, subendo 8d6 danni da fuoco in caso di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.2,
+    554.3,
+    251.8,
+    564.9
+   ],
+   "size": 8.8,
+   "testo": "fallimento, o la metà dei danni in caso di successo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.3,
+    565.3,
+    284.2,
+    575.9
+   ],
+   "size": 8.8,
+   "testo": "Gli oggetti infiammabili nell'area che non sono indossati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    576.2,
+    182.1,
+    586.8
+   ],
+   "size": 8.8,
+   "testo": "o trasportati iniziano a bruciare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.7,
+    587.3,
+    284.6,
+    597.8
+   ],
+   "size": 8.8,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    596.1,
+    272.8,
+    608.8
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d6 per ogni slot di livello superiore al 3°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    633.2,
+    205.6,
+    644.5
+   ],
+   "size": 11.2,
+   "testo": "PALLA DI Fuoco RITARDATA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.4,
+    644.6,
+    203.4,
+    655.1
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 7° livello (mago, stregone)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    660.2,
+    146.9,
+    669.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.1,
+    671.2,
+    119.2,
+    680.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 45 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    682.2,
+    267.9,
+    691.8
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una pallina di guano di pipistrello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.1,
+    693.2,
+    92.3,
+    702.8
+   ],
+   "size": 8.4,
+   "testo": "e zolfo)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    704.1,
+    208.4,
+    713.8
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    385.6,
+    526.0,
+    396.2
+   ],
+   "size": 8.8,
+   "testo": "Un raggio di luce gialla si sprigiona dall'incantatore per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    396.7,
+    518.7,
+    407.3
+   ],
+   "size": 8.8,
+   "testo": "poi condensarsi in un punto a sua scelta entro gittata,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    407.8,
+    536.5,
+    418.4
+   ],
+   "size": 8.8,
+   "testo": "formando una sfera scintillante che permane per la durata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    418.7,
+    518.4,
+    429.3
+   ],
+   "size": 8.8,
+   "testo": "dell'incantesimo. Al termine dell'incantesimo, la sfera",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    429.7,
+    531.5,
+    440.3
+   ],
+   "size": 8.8,
+   "testo": "esplode e ogni creatura all'interno di una sfera del raggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    440.7,
+    534.7,
+    451.3
+   ],
+   "size": 8.8,
+   "testo": "di 6 metri centrata su quel punto effettua un tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    451.7,
+    520.6,
+    462.2
+   ],
+   "size": 8.8,
+   "testo": "su Destrezza. In caso di fallimento, la creatura subisce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    462.6,
+    519.9,
+    473.2
+   ],
+   "size": 8.8,
+   "testo": "una quantità di danni da fuoco pari al totale dei danni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    473.6,
+    507.7,
+    484.2
+   ],
+   "size": 8.8,
+   "testo": "accumulati, o la metà dei danni in caso di successo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.9,
+    484.7,
+    532.1,
+    495.3
+   ],
+   "size": 8.8,
+   "testo": "I danni base dell'incantesimo sono pari a 12d6 e aumen­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    495.6,
+    522.9,
+    506.1
+   ],
+   "size": 8.8,
+   "testo": "tano di 1d6 ogni volta che termina il turno dell'incanta­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    506.7,
+    449.5,
+    517.2
+   ],
+   "size": 8.8,
+   "testo": "tore e l'incantesimo è ancora attivo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    517.7,
+    517.8,
+    528.3
+   ],
+   "size": 8.8,
+   "testo": "Se una creatura tocca la sfera scintillante prima del",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.9,
+    528.7,
+    517.1,
+    539.3
+   ],
+   "size": 8.8,
+   "testo": "termine dell'incantesimo, effettua un tiro salvezza su",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    539.7,
+    525.0,
+    550.3
+   ],
+   "size": 8.8,
+   "testo": "Destrezza. In caso di fallimento, l'incantesimo termina,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.7,
+    550.7,
+    514.9,
+    561.3
+   ],
+   "size": 8.8,
+   "testo": "causando l'esplosione della sfera. In caso di successo,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    561.7,
+    518.6,
+    572.2
+   ],
+   "size": 8.8,
+   "testo": "la creatura può lanciare la sfera fino a una distanza di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    572.7,
+    534.2,
+    583.3
+   ],
+   "size": 8.8,
+   "testo": "12 metri: se entra nello spazio di una creatura o si scontra",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    583.6,
+    518.8,
+    594.2
+   ],
+   "size": 8.8,
+   "testo": "con un oggetto solido, l'incantesimo termina, facendo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    594.7,
+    379.5,
+    605.3
+   ],
+   "size": 8.8,
+   "testo": "esplodere la sfera.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.8,
+    605.6,
+    528.0,
+    616.2
+   ],
+   "size": 8.8,
+   "testo": "Quando la sfera esplode, gli oggetti infiammabili all'in­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.5,
+    616.8,
+    531.9,
+    627.3
+   ],
+   "size": 8.8,
+   "testo": "terno dell'esplosione che non sono indossati o trasportati",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.6,
+    627.8,
+    385.8,
+    638.4
+   ],
+   "size": 8.8,
+   "testo": "iniziano a bruciare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    316.2,
+    640.6,
+    511.3,
+    649.2
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    649.8,
+    514.4,
+    660.4
+   ],
+   "size": 8.8,
+   "testo": "I danni base aumentano di 1d6 per ogni slot di livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.6,
+    658.6,
+    367.6,
+    671.3
+   ],
+   "size": 8.8,
+   "testo": "superiore al 7°.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,1039 @@
+{
+ "pagina_pdf": 268,
+ "pagina_stampata": 265,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / N65",
+ "immagini": [
+  [
+   290,
+   51,
+   561,
+   333
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.9,
+    38.8,
+    280.0,
+    49.6
+   ],
+   "size": 8.4,
+   "testo": "La tensione provocata dal lancio di desiderio per produrre",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.5,
+    51.0,
+    276.8,
+    60.2
+   ],
+   "size": 6.7,
+   "testo": "un qualsiasi effetto diverso dalla duplicazione di un altro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.1,
+    61.9,
+    276.6,
+    71.2
+   ],
+   "size": 6.7,
+   "testo": "incantesimo debilita l'incantatore. Dopo aver sopportato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    73.0,
+    263.4,
+    82.2
+   ],
+   "size": 6.7,
+   "testo": "quella tensione, ogni volta che l'incantatore lancia un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    83.9,
+    273.3,
+    93.2
+   ],
+   "size": 6.7,
+   "testo": "incantesimo prima di avere completato un riposo lungo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    94.9,
+    269.5,
+    104.1
+   ],
+   "size": 6.7,
+   "testo": "subisce 1d10 danni necrotici per livello di quell'incante­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    105.8,
+    280.8,
+    115.1
+   ],
+   "size": 6.7,
+   "testo": "simo. Questi danni non possono essere ridotti o prevenuti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    116.8,
+    276.1,
+    126.1
+   ],
+   "size": 6.7,
+   "testo": "in alcun modo. Inoltre, il punteggio di Forza dell'incanta­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    127.9,
+    275.4,
+    137.1
+   ],
+   "size": 6.7,
+   "testo": "tore scende a 3 per 2d4 giorni. Per ognuno di quei giorni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    138.8,
+    266.8,
+    148.0
+   ],
+   "size": 6.7,
+   "testo": "trascorso a riposare e a non fare nulla fuorché attività",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    149.8,
+    271.5,
+    159.1
+   ],
+   "size": 6.7,
+   "testo": "poco impegnative, il tempo di recupero rimanente dimi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    160.9,
+    269.7,
+    170.2
+   ],
+   "size": 6.7,
+   "testo": "nuisce di 2 giorni. Esiste infine una probabilità del 33%",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    170.7,
+    280.9,
+    181.5
+   ],
+   "size": 8.4,
+   "testo": "che l'incantatore non sia più in grado di lanciare desiderio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    182.9,
+    189.5,
+    192.1
+   ],
+   "size": 6.7,
+   "testo": "se non riesce a reggere la tensione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    216.0,
+    194.4,
+    226.8
+   ],
+   "size": 8.4,
+   "testo": "DESTRIERO FANTOMATICO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    227.8,
+    155.6,
+    238.6
+   ],
+   "size": 8.4,
+   "testo": "Illusione di 3° livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    242.4,
+    188.4,
+    253.2
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: 1 minuto o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    253.3,
+    114.1,
+    264.1
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    266.1,
+    121.4,
+    274.9
+   ],
+   "size": 6.7,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.0,
+    275.4,
+    105.8,
+    286.2
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    293.9,
+    270.8,
+    303.2
+   ],
+   "size": 6.7,
+   "testo": "Una creatura di taglia Grande, simile a un cavallo quasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    304.9,
+    281.8,
+    314.2
+   ],
+   "size": 6.7,
+   "testo": "reale, compare sul terreno in uno spazio libero entro gittata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    316.0,
+    281.1,
+    325.2
+   ],
+   "size": 6.7,
+   "testo": "ascelta dell'incantatore. L'incantatore sceglie l'aspetto della",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    326.9,
+    272.2,
+    336.3
+   ],
+   "size": 6.7,
+   "testo": "creatura, che è dotata di sella, morso e briglie. Qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    337.9,
+    279.1,
+    347.1
+   ],
+   "size": 6.7,
+   "testo": "equipaggiamento creato dall'incantesimo svanisce in uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    348.9,
+    284.0,
+    358.1
+   ],
+   "size": 6.7,
+   "testo": "sbuffo di fumo se trasportato a più di 3 metri dal destriero.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.7,
+    359.9,
+    258.4,
+    369.1
+   ],
+   "size": 6.7,
+   "testo": "Per la durata dell'incantesimo, l'incantatore o una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    370.8,
+    269.4,
+    380.1
+   ],
+   "size": 6.7,
+   "testo": "creatura a sua scelta può cavalcare il destriero, che usa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    381.9,
+    267.1,
+    391.3
+   ],
+   "size": 6.7,
+   "testo": "la scheda delle statistiche del cavallo da galoppo (vedi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    391.7,
+    281.0,
+    402.6
+   ],
+   "size": 8.4,
+   "testo": "appendice B), ma ha una velocità di 30 metri e può percor­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    404.0,
+    279.2,
+    413.2
+   ],
+   "size": 6.7,
+   "testo": "rere 20 chilometri in un'ora. Al termine dell'incantesimo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.1,
+    415.1,
+    255.1,
+    424.4
+   ],
+   "size": 6.7,
+   "testo": "la cavalcatura svanisce gradualmente, dando al suo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    426.1,
+    273.2,
+    435.3
+   ],
+   "size": 6.7,
+   "testo": "cavaliere 1 minuto per smontare. L'incantesimo termina",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    437.0,
+    220.9,
+    446.3
+   ],
+   "size": 6.7,
+   "testo": "in anticipo se la cavalcatura subisce danni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.6,
+    470.2,
+    217.7,
+    481.0
+   ],
+   "size": 8.4,
+   "testo": "DISCO FLUTTUANTE DI TENSER",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.3,
+    481.8,
+    164.1,
+    492.6
+   ],
+   "size": 8.4,
+   "testo": "Evocazione di 1°livello (mago)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    496.5,
+    178.9,
+    507.4
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione o rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    507.6,
+    113.9,
+    518.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    518.5,
+    228.3,
+    529.4
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una goccia di mercurio)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.9,
+    529.7,
+    105.7,
+    540.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 ora",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    548.1,
+    279.2,
+    557.4
+   ],
+   "size": 6.7,
+   "testo": "Questo incantesimo crea un piano circolare e orizzontale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    559.0,
+    254.0,
+    568.3
+   ],
+   "size": 6.7,
+   "testo": "di forza del diametro di 90 centimetri e spessore di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    570.0,
+    275.3,
+    579.3
+   ],
+   "size": 6.7,
+   "testo": "2,5 centimetri, che fluttua 90 centimetri sopra il terreno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    581.1,
+    279.0,
+    590.3
+   ],
+   "size": 6.7,
+   "testo": "in uno spazio libero a scelta dell'incantatore entro gittata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    592.1,
+    269.5,
+    601.5
+   ],
+   "size": 6.7,
+   "testo": "e che è in grado di vedere. Questo disco permane per la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.4,
+    603.0,
+    264.8,
+    612.3
+   ],
+   "size": 6.7,
+   "testo": "durata dell'incantesimo e può sostenere fino a 250 kg.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.5,
+    614.2,
+    256.8,
+    623.5
+   ],
+   "size": 6.7,
+   "testo": "Se si aggiunge ulteriore peso, l'incantesimo termina",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    625.2,
+    254.4,
+    634.5
+   ],
+   "size": 6.7,
+   "testo": "e tutto ciò che si trovava sul disco precipita a terra.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    636.2,
+    277.5,
+    645.5
+   ],
+   "size": 6.7,
+   "testo": "Il disco rimane immobile se l'incantatore si trova entro",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.3,
+    647.2,
+    283.2,
+    656.4
+   ],
+   "size": 6.7,
+   "testo": "6 metri da esso. Se l'incantatore si allontana a più di 6metri,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    658.2,
+    280.5,
+    667.5
+   ],
+   "size": 6.7,
+   "testo": "il disco lo segue perrimanere entro 6 metri da lui. Può muo­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    669.2,
+    279.9,
+    678.4
+   ],
+   "size": 6.7,
+   "testo": "versi sul terreno dissestato, lungo scalinate, pendii e terreni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    680.2,
+    277.2,
+    689.4
+   ],
+   "size": 6.7,
+   "testo": "simili, ma non può superare un dislivello pari o superiore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    691.2,
+    274.5,
+    700.4
+   ],
+   "size": 6.7,
+   "testo": "a 3 metri. Per esempio, il disco non può attraversare una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.2,
+    702.2,
+    275.0,
+    711.4
+   ],
+   "size": 6.7,
+   "testo": "fossa profonda 3 metri o uscirne se si trovasse sul fondo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    486.3,
+    336.6,
+    533.7,
+    340.5
+   ],
+   "size": 4.0,
+   "testo": "FANTOMATICO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.7,
+    360.0,
+    513.2,
+    369.3
+   ],
+   "size": 6.7,
+   "testo": "L'incantesimo termina se l'incantatore si allontana",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    371.0,
+    526.7,
+    380.2
+   ],
+   "size": 6.7,
+   "testo": "di più di 30 metri dal disco (normalmente accade perché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    382.0,
+    506.2,
+    391.3
+   ],
+   "size": 6.7,
+   "testo": "il disco non può superare un ostacolo per seguirlo).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    415.4,
+    403.8,
+    426.2
+   ],
+   "size": 8.4,
+   "testo": "DISINTEGRAZIONE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    427.1,
+    466.1,
+    437.9
+   ],
+   "size": 8.4,
+   "testo": "Trasmutazione di 6° livello (mago, stregone)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    441.7,
+    398.0,
+    452.5
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    452.6,
+    370.8,
+    463.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 18 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    463.7,
+    499.5,
+    474.5
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S, M (una calamita e della polvere)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    474.6,
+    378.4,
+    485.5
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    493.1,
+    522.0,
+    502.4
+   ],
+   "size": 6.7,
+   "testo": "L'incantatore lancia un raggio verde verso un bersaglio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    504.2,
+    515.7,
+    513.6
+   ],
+   "size": 6.7,
+   "testo": "entro gittata che è in grado di vedere. Il bersaglio può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.2,
+    515.2,
+    502.4,
+    524.5
+   ],
+   "size": 6.7,
+   "testo": "essere una creatura, un oggetto non magico o una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    526.2,
+    507.4,
+    535.5
+   ],
+   "size": 6.7,
+   "testo": "creazione di forza magica, come un muro creato da",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.1,
+    536.1,
+    359.2,
+    546.9
+   ],
+   "size": 8.4,
+   "testo": "muro diforza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.5,
+    548.2,
+    534.2,
+    557.4
+   ],
+   "size": 6.7,
+   "testo": "Una creatura bersagliata da questo incantesimo effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    559.1,
+    533.3,
+    568.4
+   ],
+   "size": 6.7,
+   "testo": "un tiro salvezza su Destrezza. Se lo fallisce, subisce 10d6 +",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    570.2,
+    532.4,
+    579.4
+   ],
+   "size": 6.7,
+   "testo": "40 danni da forza. Se tali danni riducono i punti ferita del",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    581.2,
+    529.3,
+    590.5
+   ],
+   "size": 6.7,
+   "testo": "bersaglio a 0, la creatura, insieme a qualsiasi oggetto non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.1,
+    592.2,
+    524.5,
+    601.4
+   ],
+   "size": 6.7,
+   "testo": "magico indossi o trasporti, viene disintegrata in polvere",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.1,
+    603.1,
+    528.5,
+    612.4
+   ],
+   "size": 6.7,
+   "testo": "grigia. Il bersaglio può essere rianimato solo da un incan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.3,
+    613.1,
+    445.3,
+    623.9
+   ],
+   "size": 8.4,
+   "testo": "tesimo desiderio o resurrezionepura.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.4,
+    625.4,
+    517.5,
+    634.6
+   ],
+   "size": 6.7,
+   "testo": "Questo incantesimo disintegra automaticamente un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    636.3,
+    525.0,
+    645.6
+   ],
+   "size": 6.7,
+   "testo": "oggetto non magico di taglia Grande o inferiore, oppure",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    647.3,
+    522.7,
+    656.7
+   ],
+   "size": 6.7,
+   "testo": "una creazione di forza magica. Se il bersaglio è Enorme",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    658.3,
+    524.4,
+    667.6
+   ],
+   "size": 6.7,
+   "testo": "o superiore, questo incantesimo ne disintegra una parte",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.2,
+    669.3,
+    451.7,
+    678.5
+   ],
+   "size": 6.7,
+   "testo": "pari a un cubo con spigolo di 3 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    314.9,
+    680.9,
+    509.4,
+    689.7
+   ],
+   "size": 6.7,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.4,
+    691.3,
+    515.7,
+    700.5
+   ],
+   "size": 6.7,
+   "testo": "I danni aumentano di 3d6 per ogni slot di livello supe­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    702.3,
+    348.4,
+    711.6
+   ],
+   "size": 6.7,
+   "testo": "riore al 6°.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

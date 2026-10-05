@@ -1,0 +1,571 @@
+{
+ "pagina_pdf": 309,
+ "pagina_stampata": 306,
+ "dimensioni": [
+  588.6,
+  782.7
+ ],
+ "piede": "306 / CAPITOLO 7 I INCANTESIMI",
+ "immagini": [
+  [
+   -1,
+   -1,
+   590,
+   363
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    54.4,
+    375.8,
+    278.1,
+    386.4
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio colpito subisce 3d8 danni radiosi extra dall'at­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.8,
+    386.8,
+    277.5,
+    397.4
+   ],
+   "size": 8.8,
+   "testo": "tacco e rimane accecato fino al termine dell'incantesimo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.7,
+    397.9,
+    274.0,
+    408.5
+   ],
+   "size": 8.8,
+   "testo": "Alla fine di ogni suo turno, il bersaglio accecato effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    409.0,
+    273.1,
+    419.6
+   ],
+   "size": 8.8,
+   "testo": "un tiro salvezza su Costituzione e, se lo supera, termina",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.9,
+    420.0,
+    141.2,
+    430.5
+   ],
+   "size": 8.8,
+   "testo": "l'incantesimo su di sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    432.7,
+    257.7,
+    441.3
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo diunoslotincantesimo di livello superiore.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    441.9,
+    264.0,
+    452.5
+   ],
+   "size": 8.8,
+   "testo": "I danni extra aumentano di 1d8 per ogni slot di livello",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    450.8,
+    114.1,
+    463.4
+   ],
+   "size": 8.8,
+   "testo": "superiore al 3°.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    487.6,
+    177.7,
+    498.9
+   ],
+   "size": 11.2,
+   "testo": "PUNIZIONE COLLERICA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.8,
+    498.5,
+    183.8,
+    509.5
+   ],
+   "size": 8.6,
+   "testo": "Necromanziadi1° livello (paladino)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.7,
+    514.7,
+    268.7,
+    524.3
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.3,
+    525.7,
+    267.5,
+    535.3
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito una creatura con un'arma da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    62.4,
+    536.6,
+    191.6,
+    546.3
+   ],
+   "size": 8.4,
+   "testo": "mischia o con un colpo senz'armi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    547.7,
+    129.9,
+    557.4
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    53.9,
+    558.7,
+    114.3,
+    568.4
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.4,
+    569.7,
+    120.7,
+    579.3
+   ],
+   "size": 8.4,
+   "testo": "Durata: 1 minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.2,
+    585.8,
+    271.3,
+    596.3
+   ],
+   "size": 8.8,
+   "testo": "L'attacco infligge 1d6 danni necrotici extra al bersaglio,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    596.8,
+    283.4,
+    607.4
+   ],
+   "size": 8.8,
+   "testo": "che deve superare un tiro salvezza su Saggezza, altrimenti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    607.8,
+    268.2,
+    618.4
+   ],
+   "size": 8.8,
+   "testo": "è spaventato fino al termine dell'incantesimo. Alla fine",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    618.9,
+    263.1,
+    629.4
+   ],
+   "size": 8.8,
+   "testo": "di ogni suo turno, il bersaglio ripete il tiro salvezza e,",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    54.0,
+    630.0,
+    224.6,
+    640.6
+   ],
+   "size": 8.8,
+   "testo": "se lo supera, termina l'incantesimo su di sé.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.6,
+    640.9,
+    283.8,
+    651.5
+   ],
+   "size": 8.8,
+   "testo": "Utilizzodiunoslot incantesimo di livello superiore. I danni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.0,
+    649.8,
+    270.2,
+    662.5
+   ],
+   "size": 8.8,
+   "testo": "aumentano di 1d6 per ogni slot di livello superiore al 1°.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    390.9,
+    466.2,
+    402.3
+   ],
+   "size": 11.2,
+   "testo": "PUNIZIONE DEMORALIZZANTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.0,
+    402.0,
+    445.3,
+    413.1
+   ],
+   "size": 8.6,
+   "testo": "Ammaliamentodi4° livello (paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.3,
+    418.2,
+    521.6,
+    427.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    314.9,
+    429.1,
+    520.3,
+    438.8
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito una creatura con un'arma da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.2,
+    440.1,
+    444.7,
+    449.8
+   ],
+   "size": 8.4,
+   "testo": "mischia o con un colpo senz'armi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    451.2,
+    382.2,
+    460.8
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    462.1,
+    367.1,
+    471.8
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.0,
+    473.1,
+    379.4,
+    482.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    489.3,
+    526.6,
+    499.8
+   ],
+   "size": 8.8,
+   "testo": "Il bersaglio subisce 4d6 danni psichici extra dall'attacco",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    500.3,
+    504.6,
+    510.8
+   ],
+   "size": 8.8,
+   "testo": "e deve superare un tiro salvezza su Saggezza, altri­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    511.3,
+    511.9,
+    521.9
+   ],
+   "size": 8.8,
+   "testo": "menti è stordito fino al termine del turno successivo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.8,
+    522.4,
+    373.0,
+    532.9
+   ],
+   "size": 8.8,
+   "testo": "dell'incantatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    315.3,
+    535.1,
+    510.7,
+    543.7
+   ],
+   "size": 8.6,
+   "testo": "Utilizzo di uno slot incantesimo di livello superiore.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.9,
+    544.3,
+    517.1,
+    554.9
+   ],
+   "size": 8.8,
+   "testo": "I danni extra aumentano di 1d6 per ogni slot di livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    306.6,
+    553.2,
+    367.2,
+    566.0
+   ],
+   "size": 8.8,
+   "testo": "superiore al 4°.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.9,
+    590.0,
+    409.8,
+    601.3
+   ],
+   "size": 11.2,
+   "testo": "PUNIZIONE DIVINA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    601.0,
+    432.6,
+    612.0
+   ],
+   "size": 8.6,
+   "testo": "Invocazione di 1° livello (paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    617.2,
+    521.6,
+    626.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione bonus che l'incantatore effettua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.0,
+    628.2,
+    519.8,
+    637.8
+   ],
+   "size": 8.4,
+   "testo": "subito dopo aver colpito un bersaglio con un'arma da",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    315.3,
+    639.2,
+    444.8,
+    648.8
+   ],
+   "size": 8.4,
+   "testo": "mischia o con un colpo senz'armi",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.8,
+    650.3,
+    383.0,
+    659.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.6,
+    661.2,
+    367.2,
+    670.9
+   ],
+   "size": 8.4,
+   "testo": "Componente: V",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.2,
+    672.3,
+    379.5,
+    681.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

@@ -1,0 +1,588 @@
+{
+ "pagina_pdf": 152,
+ "pagina_stampata": 149,
+ "dimensioni": [
+  588.8,
+  782.6
+ ],
+ "piede": "",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    63.0,
+    40.7,
+    79.0,
+    49.9
+   ],
+   "size": 8.2,
+   "testo": "1d6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    87.5,
+    40.7,
+    110.0,
+    49.9
+   ],
+   "size": 8.2,
+   "testo": "Dono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.1,
+    54.7,
+    73.3,
+    64.3
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.7,
+    54.8,
+    276.3,
+    64.4
+   ],
+   "size": 8.4,
+   "testo": "Quando nessuno la guarda direttamente, l'ombra",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    86.5,
+    66.8,
+    190.6,
+    76.4
+   ],
+   "size": 8.4,
+   "testo": "del ranger inizia a danzare.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    81.3,
+    73.1,
+    90.9
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    86.8,
+    81.3,
+    274.1,
+    91.0
+   ],
+   "size": 8.4,
+   "testo": "Sulla testa del personaggio spuntano delle corna",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    86.5,
+    93.3,
+    168.0,
+    102.9
+   ],
+   "size": 8.4,
+   "testo": "o dei palchi di corna.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.2,
+    107.9,
+    73.3,
+    117.6
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    87.4,
+    107.9,
+    280.9,
+    117.5
+   ],
+   "size": 8.4,
+   "testo": "La pelle e i capelli del ranger cambiano colore ogni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    86.0,
+    119.9,
+    170.6,
+    129.5
+   ],
+   "size": 8.4,
+   "testo": "volta che sorge l'alba.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    143.5,
+    230.0,
+    154.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 7: SCAMBIO SEDUCENTE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    155.0,
+    278.7,
+    165.6
+   ],
+   "size": 8.8,
+   "testo": "La magia della Selva Fatata protegge la mente del ranger,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    166.0,
+    281.6,
+    176.6
+   ],
+   "size": 8.8,
+   "testo": "conferendogli vantaggio ai tiri salvezza eseguiti per evitare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    177.0,
+    281.5,
+    187.6
+   ],
+   "size": 8.8,
+   "testo": "di essere affascinato o spaventato, o per terminare queste",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    188.0,
+    101.2,
+    198.6
+   ],
+   "size": 8.8,
+   "testo": "condizioni.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.0,
+    199.1,
+    283.1,
+    209.6
+   ],
+   "size": 8.8,
+   "testo": "In più, ogni volta che una creatura nel suo campo visivo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    210.0,
+    284.9,
+    220.6
+   ],
+   "size": 8.8,
+   "testo": "entro 36 metri da lui supera un tiro salvezza per evitare di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    221.1,
+    279.1,
+    231.6
+   ],
+   "size": 8.8,
+   "testo": "essere affascinata o spaventata o per porre fine a tali con­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    232.1,
+    277.8,
+    242.7
+   ],
+   "size": 8.8,
+   "testo": "dizioni, il ranger può usare una reazione per costringere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    243.1,
+    277.7,
+    253.7
+   ],
+   "size": 8.8,
+   "testo": "un'altra creatura nel suo campo visivo entro 36 metri da",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    254.1,
+    278.7,
+    264.7
+   ],
+   "size": 8.8,
+   "testo": "sé a effettuare un tiro salvezza su Saggezza contro la CD",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    265.1,
+    283.4,
+    275.7
+   ],
+   "size": 8.8,
+   "testo": "deltiro salvezza sull'incantesimo del ranger. Se lo fallisce,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.6,
+    276.2,
+    281.4,
+    286.7
+   ],
+   "size": 8.8,
+   "testo": "il bersaglio è affascinato o spaventato (a scelta del ranger)",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    287.2,
+    282.8,
+    297.7
+   ],
+   "size": 8.8,
+   "testo": "per 1 minuto e ripeterà il tiro salvezza alla fine di ogni suo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    298.2,
+    203.0,
+    308.8
+   ],
+   "size": 8.8,
+   "testo": "turno. Se lo supera, l'effetto svanisce.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    318.5,
+    211.4,
+    329.9
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 11: RINFORZI FATATI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.0,
+    330.0,
+    269.1,
+    340.5
+   ],
+   "size": 8.8,
+   "testo": "Il ranger può lanciare richiamafolletto senza usare una",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    340.9,
+    274.0,
+    351.5
+   ],
+   "size": 8.8,
+   "testo": "componente materiale. Inoltre, può anche lanciarlo una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.2,
+    351.9,
+    273.7,
+    362.4
+   ],
+   "size": 8.8,
+   "testo": "volta senza consumare uno slot incantesimo e recupera",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    362.9,
+    281.3,
+    373.5
+   ],
+   "size": 8.8,
+   "testo": "l'abilità di lanciarlo in questo modo dopo aver completato",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    373.8,
+    121.0,
+    384.4
+   ],
+   "size": 8.8,
+   "testo": "un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.5,
+    384.9,
+    266.7,
+    395.5
+   ],
+   "size": 8.8,
+   "testo": "Ogni volta che lo stregone lancia l'incantesimo, può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    395.9,
+    268.4,
+    406.5
+   ],
+   "size": 8.8,
+   "testo": "modificarlo in modo che non richieda concentrazione.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    407.0,
+    272.5,
+    417.5
+   ],
+   "size": 8.8,
+   "testo": "Così facendo, per quel lancio la durata dell'incantesimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    418.0,
+    134.0,
+    428.6
+   ],
+   "size": 8.8,
+   "testo": "diventa di 1 minuto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.6,
+    438.4,
+    230.1,
+    449.7
+   ],
+   "size": 11.2,
+   "testo": "LIVELLO 15: VIANDANTE VELATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.7,
+    449.8,
+    275.6,
+    460.4
+   ],
+   "size": 8.8,
+   "testo": "Il ranger può lanciare passo velato senza consumare uno",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    460.8,
+    280.9,
+    471.4
+   ],
+   "size": 8.8,
+   "testo": "slot incantesimo. Può lanciarlo un numero di volte pari al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    54.8,
+    471.8,
+    273.8,
+    482.4
+   ],
+   "size": 8.8,
+   "testo": "valore del suo modificatore di Saggezza (minimo di una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    482.7,
+    267.3,
+    493.3
+   ],
+   "size": 8.8,
+   "testo": "volta) e recuperare tutti gli utilizzi consumati quando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    493.8,
+    158.7,
+    504.4
+   ],
+   "size": 8.8,
+   "testo": "completa un riposo lungo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.6,
+    504.9,
+    276.9,
+    515.5
+   ],
+   "size": 8.8,
+   "testo": "Inoltre, ogni volta che il ranger lancia passo velato, può",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.4,
+    515.9,
+    270.1,
+    526.5
+   ],
+   "size": 8.8,
+   "testo": "portare con sé una creatura consenziente nel raggio di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    526.9,
+    280.7,
+    537.5
+   ],
+   "size": 8.8,
+   "testo": "1,5 metri da sé e che sia nel suo campo visivo. La creatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.1,
+    538.0,
+    262.7,
+    548.6
+   ],
+   "size": 8.8,
+   "testo": "viene teletrasportata in uno spazio libero a scelta del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.5,
+    548.9,
+    275.1,
+    559.5
+   ],
+   "size": 8.8,
+   "testo": "personaggio entro 1,5 metri dallo spazio di destinazione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.5,
+    559.8,
+    98.0,
+    570.4
+   ],
+   "size": 8.8,
+   "testo": "del ranger.",
+   "col": "S",
+   "corta": true
+  }
+ ]
+}

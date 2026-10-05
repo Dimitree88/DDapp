@@ -282,7 +282,8 @@ def main() -> None:
         testo = in_markdown(file)
         stampata = pagina_stampata(n)
         intest = f"<!-- pagina PDF {n}" + (f" · pagina stampata {stampata}" if stampata else "") + " -->\n\n"
-        (AUTO / f"{nome_pagina(n)}.md").write_text(intest + testo, encoding="utf-8")
+        markdown = re.sub(r"(?m)[ \t]+$", "", intest + testo).rstrip() + "\n"
+        (AUTO / f"{nome_pagina(n)}.md").write_text(markdown, encoding="utf-8")
         pagine.append({
             "pagina_pdf": n,
             "pagina_stampata": stampata,

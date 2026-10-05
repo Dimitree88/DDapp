@@ -1,0 +1,907 @@
+{
+ "pagina_pdf": 189,
+ "pagina_stampata": 186,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "186 / CAPITOLO 4 I ORIGINI DEI PERSONAGGI",
+ "immagini": [
+  [
+   41,
+   491,
+   589,
+   769
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    51.3,
+    36.4,
+    271.7,
+    53.0
+   ],
+   "size": 12.9,
+   "testo": "DESCRIZIONI DELLE SPECIE",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.5,
+    54.6,
+    265.7,
+    65.2
+   ],
+   "size": 8.8,
+   "testo": "In questa sezione troverai la descrizione di dieci specie",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    65.6,
+    271.6,
+    76.2
+   ],
+   "size": 8.8,
+   "testo": "presentate in ordine alfabetico: aasimar, dragonide, elfo,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    76.6,
+    260.6,
+    87.2
+   ],
+   "size": 8.8,
+   "testo": "gnomo, goliath, halfling, nano, orco, tiefling e umano.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.1,
+    96.9,
+    110.7,
+    110.0
+   ],
+   "size": 9.7,
+   "testo": "AASIMAR",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    113.2,
+    280.0,
+    123.7
+   ],
+   "size": 8.8,
+   "testo": "Gli aasimar (pronunciato così come si scrive) sono mortali",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    124.2,
+    273.3,
+    134.7
+   ],
+   "size": 8.8,
+   "testo": "che portano nelle loro anime una scintilla dei Piani Supe­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    135.2,
+    271.0,
+    145.8
+   ],
+   "size": 8.8,
+   "testo": "riori. Che discendano da un essere angelico o siano stati",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    146.2,
+    272.8,
+    156.7
+   ],
+   "size": 8.8,
+   "testo": "infusi con del potere celestiale, possono sfruttare questa",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    157.2,
+    275.9,
+    167.8
+   ],
+   "size": 8.8,
+   "testo": "loro caratteristica per portare la luce, guarire il prossimo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    168.3,
+    148.9,
+    178.9
+   ],
+   "size": 8.8,
+   "testo": "o scatenare l'ira dei cieli.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    179.2,
+    267.0,
+    189.8
+   ],
+   "size": 8.8,
+   "testo": "Gli aasimar possono generarsi all'interno di qualsiasi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    190.2,
+    269.9,
+    200.8
+   ],
+   "size": 8.8,
+   "testo": "popolazione di mortali. Assomigliano ai propri genitori,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    201.4,
+    274.1,
+    211.9
+   ],
+   "size": 8.8,
+   "testo": "ma possono vivere fino a 160 anni e possiedono dei tratti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    212.3,
+    262.9,
+    222.9
+   ],
+   "size": 8.8,
+   "testo": "che lasciano intendere il loro retaggio celestiale, come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    223.3,
+    275.8,
+    233.9
+   ],
+   "size": 8.8,
+   "testo": "lentiggini metalliche, occhi luminosi, un'aureola o la pelle",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    234.3,
+    270.6,
+    244.9
+   ],
+   "size": 8.8,
+   "testo": "dello stesso colore di quella di un angelo (argento, verde",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    245.3,
+    266.0,
+    255.8
+   ],
+   "size": 8.8,
+   "testo": "opalescente o rosso ramato). Inizialmente, questi tratti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    256.3,
+    262.7,
+    266.8
+   ],
+   "size": 8.8,
+   "testo": "sono difficili da notare, ma diventano sempre più ovvi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    267.3,
+    263.6,
+    277.9
+   ],
+   "size": 8.8,
+   "testo": "man mano che l'aasimar impara a rivelare la sua piena",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    278.3,
+    119.4,
+    288.9
+   ],
+   "size": 8.8,
+   "testo": "natura celestiale.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    311.8,
+    168.0,
+    324.5
+   ],
+   "size": 11.2,
+   "testo": "TRATTI DELL1AASIMAR",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    325.7,
+    157.0,
+    335.3
+   ],
+   "size": 8.4,
+   "testo": "Tipo di creatura: Umanoide",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    335.5,
+    278.0,
+    346.2
+   ],
+   "size": 8.8,
+   "testo": "Taglia: Media (altezza di circa 120-210 centimetri) o Piccola",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.9,
+    347.5,
+    271.5,
+    357.1
+   ],
+   "size": 8.4,
+   "testo": "(altezza di circa 60-120 centimetri), a tua scelta quando",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    358.5,
+    118.1,
+    368.1
+   ],
+   "size": 8.4,
+   "testo": "scegli la specie",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    369.6,
+    114.5,
+    379.3
+   ],
+   "size": 8.4,
+   "testo": "Velocità: 9 metri",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    385.8,
+    256.9,
+    396.3
+   ],
+   "size": 8.8,
+   "testo": "In quanto aasimar, il personaggio ha i seguenti tratti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    396.8,
+    84.5,
+    407.4
+   ],
+   "size": 8.8,
+   "testo": "speciali.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    58.8,
+    407.9,
+    261.6,
+    418.5
+   ],
+   "size": 8.8,
+   "testo": "Mani curative. Con un'azione di Magia, può toccare",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    418.9,
+    269.9,
+    429.5
+   ],
+   "size": 8.8,
+   "testo": "una creatura e tirare un numero di d4 pari al suo bonus",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    429.9,
+    267.9,
+    440.5
+   ],
+   "size": 8.8,
+   "testo": "di competenza. La creatura che ha toccato recupera un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    440.9,
+    259.6,
+    451.5
+   ],
+   "size": 8.8,
+   "testo": "numero di punti ferita pari al risultato totale del tiro.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    451.8,
+    263.3,
+    462.4
+   ],
+   "size": 8.8,
+   "testo": "Dopo aver usato questo tratto, il personaggio non può",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    462.8,
+    265.3,
+    473.4
+   ],
+   "size": 8.8,
+   "testo": "riutilizzarlo prima di aver completato un riposo lungo.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.0,
+    34.5,
+    526.2,
+    45.1
+   ],
+   "size": 8.8,
+   "testo": "Portatore di luce. Conosce il trucchetto luce. La caratte­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    45.6,
+    518.8,
+    56.2
+   ],
+   "size": 8.8,
+   "testo": "ristica da incantatore per questo trucchetto è Carisma.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    56.6,
+    528.9,
+    67.2
+   ],
+   "size": 8.8,
+   "testo": "Resistenza celestiale. Possiede resistenza ai danni necro­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    67.6,
+    355.0,
+    78.2
+   ],
+   "size": 8.8,
+   "testo": "tici e radiosi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    78.6,
+    503.3,
+    89.2
+   ],
+   "size": 8.8,
+   "testo": "Scurovisione. Ha scurovisione fino a un raggio di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    89.6,
+    339.4,
+    100.1
+   ],
+   "size": 8.8,
+   "testo": "18 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.1,
+    98.5,
+    517.5,
+    111.1
+   ],
+   "size": 8.8,
+   "testo": "Rivelazione celestiale. Quando raggiunge il 3° livello,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    111.6,
+    511.0,
+    122.2
+   ],
+   "size": 8.8,
+   "testo": "può trasformarsi come azione bonus utilizzando una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    122.6,
+    519.1,
+    133.1
+   ],
+   "size": 8.8,
+   "testo": "delle opzioni seguenti (scegli l'opzione ogni volta che si",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    133.6,
+    528.0,
+    144.2
+   ],
+   "size": 8.8,
+   "testo": "trasforma). La trasformazione dura per 1 minuto o finché",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    144.5,
+    520.7,
+    155.1
+   ],
+   "size": 8.8,
+   "testo": "non la interrompe (nessuna azione richiesta). Una volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    155.6,
+    508.8,
+    166.1
+   ],
+   "size": 8.8,
+   "testo": "effettuata, non può ripeterla finché non completa un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    166.6,
+    356.0,
+    177.2
+   ],
+   "size": 8.8,
+   "testo": "riposo lungo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.8,
+    177.7,
+    511.9,
+    188.2
+   ],
+   "size": 8.8,
+   "testo": "Fino al termine della trasformazione, una volta per",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    188.6,
+    528.2,
+    199.2
+   ],
+   "size": 8.8,
+   "testo": "ogni suo turno, quando il personaggio infligge danni a un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    199.7,
+    533.2,
+    210.3
+   ],
+   "size": 8.8,
+   "testo": "bersaglio con un attacco o un incantesimo, può infliggergli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.8,
+    210.7,
+    530.7,
+    221.3
+   ],
+   "size": 8.8,
+   "testo": "danni extra. L'ammontare di danni extra corrisponde al suo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.6,
+    221.7,
+    529.9,
+    232.2
+   ],
+   "size": 8.8,
+   "testo": "bonus di competenza, con tipologia necrotica per Sudario",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    232.6,
+    515.5,
+    243.2
+   ],
+   "size": 8.8,
+   "testo": "necrotico o radiosa per Ali celesti e Bagliore interiore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    243.6,
+    521.7,
+    254.2
+   ],
+   "size": 8.8,
+   "testo": "Di seguito sono elencate le opzioni di trasformazione:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    260.1,
+    528.1,
+    270.6
+   ],
+   "size": 8.8,
+   "testo": "Ali celesti. Due ali luminose spuntano temporaneamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.9,
+    271.1,
+    512.4,
+    281.7
+   ],
+   "size": 8.8,
+   "testo": "dalla schiena del personaggio. Fino al termine della",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    282.2,
+    531.4,
+    292.7
+   ],
+   "size": 8.8,
+   "testo": "trasformazione, è dotato di una velocità di volo pari alla",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    293.1,
+    361.7,
+    303.7
+   ],
+   "size": 8.8,
+   "testo": "sua velocità.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    304.2,
+    528.8,
+    314.7
+   ],
+   "size": 8.8,
+   "testo": "Bagliore interiore. Una luce bruciante si irradia tempora­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    315.1,
+    529.0,
+    325.7
+   ],
+   "size": 8.8,
+   "testo": "neamente dagli occhi e dalla bocca del tuo personaggio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.7,
+    326.2,
+    526.9,
+    336.7
+   ],
+   "size": 8.8,
+   "testo": "Per la durata dell'effetto, emana luce intensa in un'area",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    337.1,
+    499.8,
+    347.7
+   ],
+   "size": 8.8,
+   "testo": "di 3 metri di raggio e luce fioca per altri 3 metri.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.2,
+    348.1,
+    507.1,
+    358.7
+   ],
+   "size": 8.8,
+   "testo": "Alla fine di ogni tuo turno, tutte le creature entro",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    359.1,
+    518.4,
+    369.7
+   ],
+   "size": 8.8,
+   "testo": "3 metri dal personaggio subiscono danni radiosi pari",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    370.1,
+    423.5,
+    380.7
+   ],
+   "size": 8.8,
+   "testo": "al suo bonus di competenza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    381.1,
+    523.3,
+    391.7
+   ],
+   "size": 8.8,
+   "testo": "Sudario necrotico. Gli occhi del personaggio diventano",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.4,
+    392.2,
+    511.2,
+    402.7
+   ],
+   "size": 8.8,
+   "testo": "per un istante vere e proprie pozze di oscurità e ali",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    403.2,
+    527.5,
+    413.8
+   ],
+   "size": 8.8,
+   "testo": "incapaci di spiccare il volo spuntano temporaneamente",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.9,
+    414.3,
+    510.1,
+    424.9
+   ],
+   "size": 8.8,
+   "testo": "dalla sua schiena. Fatta eccezione per i suoi alleati,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    425.2,
+    525.9,
+    435.8
+   ],
+   "size": 8.8,
+   "testo": "tutte le creature entro 3 metri dal personaggio devono",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    436.3,
+    530.8,
+    446.8
+   ],
+   "size": 8.8,
+   "testo": "effettuare un tiro salvezza su Carisma (CD 8 più il modi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    447.3,
+    532.3,
+    457.8
+   ],
+   "size": 8.8,
+   "testo": "ficatore di Carisma e il bonus di competenza), altrimenti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.5,
+    458.2,
+    531.9,
+    468.8
+   ],
+   "size": 8.8,
+   "testo": "saranno spaventate fino al termine del turno successivo.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

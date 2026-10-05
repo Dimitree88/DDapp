@@ -1,0 +1,1440 @@
+{
+ "pagina_pdf": 23,
+ "pagina_stampata": 20,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "FO / CAPITOLO 1 J COME SI GIOCA",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    51.6,
+    40.0,
+    189.2,
+    51.4
+   ],
+   "size": 11.2,
+   "testo": "CHE Cos'È UN OGGETTO?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    51.5,
+    266.8,
+    62.1
+   ],
+   "size": 8.8,
+   "testo": "Ai fini delle regole, per oggetto si considera qualcosa di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    62.5,
+    265.2,
+    73.1
+   ],
+   "size": 8.8,
+   "testo": "dimensioni ridotte e inanimato come una finestra, una",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    73.5,
+    274.8,
+    84.0
+   ],
+   "size": 8.8,
+   "testo": "porta, una spada, un libro, un tavolo, una sedia o una roc­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    84.5,
+    275.6,
+    95.0
+   ],
+   "size": 8.8,
+   "testo": "cia; Questo non include un edificio o un veicolo, che sono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    95.5,
+    173.2,
+    106.1
+   ],
+   "size": 8.8,
+   "testo": "composti da molti altri oggetti.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    115.9,
+    247.3,
+    127.2
+   ],
+   "size": 11.2,
+   "testo": "INTERAZIONI CON OGGETTI A TEMPO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    126.7,
+    104.7,
+    138.0
+   ],
+   "size": 11.2,
+   "testo": "LIMITATO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    138.0,
+    259.2,
+    148.6
+   ],
+   "size": 8.8,
+   "testo": "Quando il tempo stringe, come ad esempio in combat­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    149.0,
+    252.0,
+    159.5
+   ],
+   "size": 8.8,
+   "testo": "timento, le interazioni con gli oggetti sono limitate:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    160.0,
+    275.7,
+    170.6
+   ],
+   "size": 8.8,
+   "testo": "è possibile una sola interazione libera per turno, che deve",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    171.1,
+    259.2,
+    181.6
+   ],
+   "size": 8.8,
+   "testo": "avvenire durante il movimento o l'azione di una crea­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    182.0,
+    266.1,
+    192.6
+   ],
+   "size": 8.8,
+   "testo": "tura. Qualsiasi interazione aggiuntiva richiede l'azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    193.0,
+    274.1,
+    203.6
+   ],
+   "size": 8.8,
+   "testo": "di Utilizzo, come spiegato in \"Combattimento\" più avanti",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    204.2,
+    123.9,
+    214.7
+   ],
+   "size": 8.8,
+   "testo": "in questo capitolo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    224.6,
+    231.2,
+    236.0
+   ],
+   "size": 11.2,
+   "testo": "TROVARE UN OGGETTO NASCOSTO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    235.9,
+    275.7,
+    246.5
+   ],
+   "size": 8.8,
+   "testo": "Quando un personaggio cerca un oggetto nascosto, come",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    246.9,
+    266.5,
+    257.5
+   ],
+   "size": 8.8,
+   "testo": "una porta segreta o una trappola, il DM solitamente gli",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    257.9,
+    271.3,
+    268.4
+   ],
+   "size": 8.8,
+   "testo": "chiede di effettuare una prova di Saggezza (Percezione),",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    268.9,
+    255.8,
+    279.5
+   ],
+   "size": 8.8,
+   "testo": "a condizione che il giocatore descriva il personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    279.9,
+    266.1,
+    290.5
+   ],
+   "size": 8.8,
+   "testo": "intento a cercare nelle vicinanze dell'oggetto nascosto.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    291.0,
+    265.6,
+    301.6
+   ],
+   "size": 8.8,
+   "testo": "In caso di successo, il personaggio trova l'oggetto, altri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    301.9,
+    174.0,
+    312.5
+   ],
+   "size": 8.8,
+   "testo": "dettagli importanti o entrambi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.1,
+    312.9,
+    258.2,
+    323.5
+   ],
+   "size": 8.8,
+   "testo": "Se nella descrizione il personaggio sta esaminando",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    324.0,
+    251.7,
+    334.6
+   ],
+   "size": 8.8,
+   "testo": "un'area lontana dall'oggetto nascosto, una prova di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    334.9,
+    273.7,
+    345.5
+   ],
+   "size": 8.8,
+   "testo": "Saggezza (Percezione) non rivelerà l'oggetto, indipenden­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    345.8,
+    170.9,
+    356.4
+   ],
+   "size": 8.8,
+   "testo": "temente dal totale della prova.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.7,
+    366.3,
+    197.2,
+    377.7
+   ],
+   "size": 11.2,
+   "testo": "TRASPORTARE GLI OGGETTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    377.6,
+    262.3,
+    388.2
+   ],
+   "size": 8.8,
+   "testo": "Di solito il personaggio può trasportare l'attrezzatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    388.6,
+    268.9,
+    399.2
+   ],
+   "size": 8.8,
+   "testo": "e il tesoro senza preoccuparsi del peso di questi oggetti.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    399.7,
+    274.1,
+    410.3
+   ],
+   "size": 8.8,
+   "testo": "Se cerca di trasportare un oggetto insolitamente pesante",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    410.8,
+    278.7,
+    421.4
+   ],
+   "size": 8.8,
+   "testo": "o un numero elevato di oggetti più leggeri, il DM potrebbe",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    421.7,
+    273.6,
+    432.3
+   ],
+   "size": 8.8,
+   "testo": "richiedere di attenersi alle regole di capacità di trasporto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    432.7,
+    152.1,
+    443.2
+   ],
+   "size": 8.8,
+   "testo": "del Glossario delle regole.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    453.1,
+    173.9,
+    464.5
+   ],
+   "size": 11.2,
+   "testo": "ROMPERE GLI OGGETTI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    464.4,
+    257.1,
+    475.0
+   ],
+   "size": 8.8,
+   "testo": "Con un'azione, si può distruggere o rompere automa­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.8,
+    475.5,
+    254.6,
+    486.0
+   ],
+   "size": 8.8,
+   "testo": "ticamente un oggetto fragile e non magico, come un",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    486.5,
+    262.3,
+    497.1
+   ],
+   "size": 8.8,
+   "testo": "contenitore di vetro o un pezzo di carta. Se si cerca di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    497.5,
+    265.3,
+    508.0
+   ],
+   "size": 8.8,
+   "testo": "danneggiare qualcosa di più resistente, il DM potrebbe",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    508.5,
+    267.8,
+    519.0
+   ],
+   "size": 8.8,
+   "testo": "applicare le regole per rompere gli oggetti del Glossario",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.9,
+    519.5,
+    99.3,
+    530.1
+   ],
+   "size": 8.8,
+   "testo": "delle regole.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    539.6,
+    110.8,
+    552.7
+   ],
+   "size": 9.7,
+   "testo": "PERICOLI",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    556.1,
+    276.2,
+    566.7
+   ],
+   "size": 8.8,
+   "testo": "I mostri sono i pericoli principali che i personaggi devono",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    567.1,
+    275.7,
+    577.6
+   ],
+   "size": 8.8,
+   "testo": "affrontare, ma non sono gli unici. Il Glossario delle regole",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.8,
+    578.1,
+    160.5,
+    588.6
+   ],
+   "size": 8.8,
+   "testo": "definisce i seguenti pericoli:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.9,
+    596.6,
+    91.9,
+    606.3
+   ],
+   "size": 8.4,
+   "testo": "In fiamme",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    608.6,
+    108.5,
+    618.2
+   ],
+   "size": 8.4,
+   "testo": "Disidratazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.8,
+    627.7,
+    121.4,
+    640.8
+   ],
+   "size": 9.7,
+   "testo": "VIAGGIARE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    128.7,
+    596.6,
+    157.9,
+    606.2
+   ],
+   "size": 8.4,
+   "testo": "Cadute",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    129.3,
+    608.6,
+    184.3,
+    618.2
+   ],
+   "size": 8.4,
+   "testo": "Malnutrizione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    206.9,
+    596.6,
+    262.1,
+    606.2
+   ],
+   "size": 8.4,
+   "testo": "Soffocamento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    644.2,
+    265.7,
+    654.8
+   ],
+   "size": 8.8,
+   "testo": "Durante un'avventura, i personaggi potrebbero percor­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.7,
+    655.2,
+    269.9,
+    665.8
+   ],
+   "size": 8.8,
+   "testo": "rere lunghe distanze in viaggi che richiedono ore o addi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    666.2,
+    270.0,
+    676.8
+   ],
+   "size": 8.8,
+   "testo": "rittura giorni. Il DM può riassumere questi viaggi senza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.3,
+    677.2,
+    271.7,
+    687.8
+   ],
+   "size": 8.8,
+   "testo": "calcolarne esattamente distanze e tempi, oppure può far",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    50.6,
+    688.2,
+    266.1,
+    698.8
+   ],
+   "size": 8.8,
+   "testo": "usare le regole del passo di viaggio riportate di seguito.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.6,
+    40.4,
+    403.6,
+    50.4
+   ],
+   "size": 8.2,
+   "testo": "ORDINE DI MARCIA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    53.7,
+    490.4,
+    63.3
+   ],
+   "size": 8.4,
+   "testo": "Gli avventurieri dovrebbero stabilire un ordine",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    64.8,
+    504.7,
+    74.4
+   ],
+   "size": 8.4,
+   "testo": "di marcia durante i loro viaggi, che siano al chiuso",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.8,
+    75.7,
+    519.2,
+    85.3
+   ],
+   "size": 8.4,
+   "testo": "o all'aperto. Un ordine di marcia rende più facile deter­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    86.7,
+    523.6,
+    96.4
+   ],
+   "size": 8.4,
+   "testo": "minare quali personaggi vengono colpiti dalle trappole,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.1,
+    97.7,
+    507.6,
+    107.3
+   ],
+   "size": 8.4,
+   "testo": "quali sono in grado di individuare i nemici nascosti",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    108.6,
+    508.7,
+    118.3
+   ],
+   "size": 8.4,
+   "testo": "e quali sono più vicini ai nemici in caso di combatti­",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    111.5,
+    521.4,
+    129.7
+   ],
+   "size": 8.6,
+   "testo": "mento. È possibile cambiare l'ordine di marcia quando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    313.0,
+    130.6,
+    513.3,
+    140.2
+   ],
+   "size": 8.4,
+   "testo": "non si è impegnati in un combattimento e annotarlo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    313.0,
+    141.7,
+    513.7,
+    151.3
+   ],
+   "size": 8.4,
+   "testo": "nel modo che si preferisce: scrivendolo, ad esempio,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    152.6,
+    501.8,
+    162.2
+   ],
+   "size": 8.4,
+   "testo": "o disponendo le miniature in modo da mostrarlo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    176.3,
+    526.3,
+    186.8
+   ],
+   "size": 8.8,
+   "testo": "Se hai bisogno di sapere a quale velocità puoi muoverti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    187.3,
+    528.2,
+    197.9
+   ],
+   "size": 8.8,
+   "testo": "quando ogni secondo è di vitale importanza, usa le regole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    198.4,
+    518.4,
+    209.0
+   ],
+   "size": 8.8,
+   "testo": "di movimento in \"Combattimento\" più avanti in questo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    209.4,
+    338.5,
+    219.9
+   ],
+   "size": 8.8,
+   "testo": "capitolo.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.4,
+    229.7,
+    399.7,
+    241.1
+   ],
+   "size": 11.2,
+   "testo": "PASSO DI VIAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    241.1,
+    519.1,
+    251.7
+   ],
+   "size": 8.8,
+   "testo": "Quando è in viaggio e non sta combattendo, un gruppo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    252.1,
+    523.1,
+    262.7
+   ],
+   "size": 8.8,
+   "testo": "può muoversi a passo veloce, normale o lento, come indi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.3,
+    263.1,
+    526.5,
+    273.7
+   ],
+   "size": 8.8,
+   "testo": "cato nella tabella \"Passo di viaggio\". La tabella determina",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    274.1,
+    522.9,
+    284.7
+   ],
+   "size": 8.8,
+   "testo": "la distanza che un gruppo riesce a coprire in un periodo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    285.2,
+    531.3,
+    295.8
+   ],
+   "size": 8.8,
+   "testo": "di tempo; in sella a cavalli o ad altre cavalcature, il gruppo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    296.2,
+    508.8,
+    306.8
+   ],
+   "size": 8.8,
+   "testo": "può percorrere il doppio di quella distanza per 1 ora,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.3,
+    307.2,
+    522.7,
+    317.7
+   ],
+   "size": 8.8,
+   "testo": "dopodiché le cavalcature necessitano di un riposo breve",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    318.2,
+    515.4,
+    328.8
+   ],
+   "size": 8.8,
+   "testo": "o lungo prima di potersi muovere di nuovo a passo più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    329.2,
+    519.2,
+    339.8
+   ],
+   "size": 8.8,
+   "testo": "veloce (vedi capitolo 6 per una selezione di cavalcature",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    340.1,
+    516.6,
+    350.6
+   ],
+   "size": 8.8,
+   "testo": "in vendita). La Guida del Dungeon Master include regole",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.2,
+    351.0,
+    526.4,
+    361.6
+   ],
+   "size": 8.8,
+   "testo": "che influenzano la scelta del passo in certi tipi di terreno.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.9,
+    374.1,
+    397.3,
+    384.2
+   ],
+   "size": 8.2,
+   "testo": "PASSO DI VIAGGIO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.0,
+    389.6,
+    460.6,
+    398.8
+   ],
+   "size": 8.2,
+   "testo": "Distanza percorsa ogni...",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    404.3,
+    331.5,
+    413.5
+   ],
+   "size": 8.2,
+   "testo": "Passo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    365.1,
+    404.3,
+    393.9,
+    413.5
+   ],
+   "size": 8.2,
+   "testo": "Minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    423.5,
+    404.4,
+    439.7,
+    413.6
+   ],
+   "size": 8.2,
+   "testo": "Ora",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    477.2,
+    404.4,
+    505.4,
+    413.6
+   ],
+   "size": 8.2,
+   "testo": "Giorno",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    306.5,
+    418.2,
+    334.1,
+    427.8
+   ],
+   "size": 8.4,
+   "testo": "Veloce",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    364.6,
+    418.2,
+    388.8,
+    427.9
+   ],
+   "size": 8.4,
+   "testo": "120 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    423.3,
+    418.3,
+    443.1,
+    427.9
+   ],
+   "size": 8.4,
+   "testo": "6 km",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    477.0,
+    418.3,
+    501.9,
+    427.9
+   ],
+   "size": 8.4,
+   "testo": "45 km",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    432.8,
+    342.9,
+    442.4
+   ],
+   "size": 8.4,
+   "testo": "Normale",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    364.1,
+    432.9,
+    384.8,
+    442.5
+   ],
+   "size": 8.4,
+   "testo": "90 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    423.0,
+    432.8,
+    451.2,
+    442.4
+   ],
+   "size": 8.4,
+   "testo": "4,5 km",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    477.2,
+    432.8,
+    502.0,
+    442.4
+   ],
+   "size": 8.4,
+   "testo": "36 km",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.4,
+    447.4,
+    330.5,
+    457.0
+   ],
+   "size": 8.4,
+   "testo": "Lento",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    364.2,
+    447.3,
+    384.7,
+    457.0
+   ],
+   "size": 8.4,
+   "testo": "60 m",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    423.5,
+    447.4,
+    443.1,
+    457.1
+   ],
+   "size": 8.4,
+   "testo": "3 km",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    477.4,
+    447.4,
+    501.9,
+    457.0
+   ],
+   "size": 8.4,
+   "testo": "27 km",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    465.2,
+    518.8,
+    475.8
+   ],
+   "size": 8.8,
+   "testo": "Ogni passo di viaggio ha un effetto sul gioco, come defi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    476.2,
+    363.0,
+    486.8
+   ],
+   "size": 8.8,
+   "testo": "nito di seguito.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.4,
+    487.2,
+    530.4,
+    497.8
+   ],
+   "size": 8.8,
+   "testo": "Veloce. Viaggiare a passo veloce impone uno svantaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.5,
+    498.1,
+    509.4,
+    508.7
+   ],
+   "size": 8.8,
+   "testo": "alle prove di Saggezza (Percezione o Sopravvivenza)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.0,
+    509.2,
+    456.7,
+    519.7
+   ],
+   "size": 8.8,
+   "testo": "e Destrezza (Furtività) del viaggiatore.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.8,
+    520.3,
+    522.6,
+    530.9
+   ],
+   "size": 8.8,
+   "testo": "Normale. Viaggiare a passo normale impone uno svan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    531.2,
+    466.5,
+    541.8
+   ],
+   "size": 8.8,
+   "testo": "taggio alle prove di Destrezza (Furtività).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    310.7,
+    542.2,
+    528.9,
+    552.8
+   ],
+   "size": 8.8,
+   "testo": "Lento. Viaggiare a passo lento conferisce vantaggio alle",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    553.2,
+    496.2,
+    563.8
+   ],
+   "size": 8.8,
+   "testo": "prove di Saggezza (Percezione o Sopravvivenza).",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.3,
+    573.5,
+    348.1,
+    584.9
+   ],
+   "size": 11.2,
+   "testo": "VEICOLI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    303.2,
+    585.0,
+    507.6,
+    595.6
+   ],
+   "size": 8.8,
+   "testo": "I viaggiatori a bordo di carri, carrozze o altri veicoli",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    596.0,
+    527.3,
+    606.6
+   ],
+   "size": 8.8,
+   "testo": "terrestri avanzano a passo normale. I personaggi a bordo",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.0,
+    607.1,
+    523.7,
+    617.7
+   ],
+   "size": 8.8,
+   "testo": "di un'imbarcazione sono limitati alla velocità di quell'im­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    303.4,
+    618.1,
+    510.7,
+    628.7
+   ],
+   "size": 8.8,
+   "testo": "barcazione e non scelgono il passo di viaggio. In base",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    629.2,
+    503.3,
+    639.7
+   ],
+   "size": 8.8,
+   "testo": "al tipo di vascello e alle dimensioni dell'equipaggio,",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    302.9,
+    640.2,
+    516.5,
+    650.8
+   ],
+   "size": 8.8,
+   "testo": "un'imbarcazione potrebbe essere in grado di viaggiare",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    651.2,
+    520.7,
+    661.8
+   ],
+   "size": 8.8,
+   "testo": "anche per 24 ore al giorno. Il capitolo 6 include i veicoli",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    302.9,
+    662.2,
+    346.5,
+    672.7
+   ],
+   "size": 8.8,
+   "testo": "in vendita.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

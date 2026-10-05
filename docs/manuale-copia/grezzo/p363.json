@@ -1,0 +1,1644 @@
+{
+ "pagina_pdf": 363,
+ "pagina_stampata": 360,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "360 / APPENDICE CI GLOSSARIO DELLE REGOLE",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    81.9,
+    46.1,
+    495.1,
+    96.8
+   ],
+   "size": 29.9,
+   "testo": "GLOSSARIO DELLE REGOLE",
+   "col": "P",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.4,
+    119.3,
+    200.3,
+    135.9
+   ],
+   "size": 12.9,
+   "testo": "CONVENZIONI DEL",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    138.2,
+    138.8,
+    154.8
+   ],
+   "size": 12.9,
+   "testo": "GLOSSARIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.7,
+    156.4,
+    220.0,
+    167.0
+   ],
+   "size": 8.8,
+   "testo": "Il glossario utilizza le seguenti convenzioni:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    172.9,
+    252.0,
+    183.4
+   ],
+   "size": 8.8,
+   "testo": "Descrittori tra parentesi. Alcune voci, subito dopo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.2,
+    183.8,
+    250.5,
+    194.4
+   ],
+   "size": 8.8,
+   "testo": "il nome, hanno un descrittore tra parentesi, come",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    195.0,
+    259.8,
+    205.6
+   ],
+   "size": 8.8,
+   "testo": "in \"Attacco [Azione]\". Il descrittore (Azione, Area di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    205.9,
+    265.1,
+    216.5
+   ],
+   "size": 8.8,
+   "testo": "effetto, Atteggiamento, Condizione o Pericolo) indica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    216.9,
+    257.3,
+    227.5
+   ],
+   "size": 8.8,
+   "testo": "che la regola fa parte di un gruppo di regole. Anche",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    228.0,
+    257.5,
+    238.5
+   ],
+   "size": 8.8,
+   "testo": "i descrittori sono specificati nelle voci del glossario.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    48.2,
+    238.9,
+    262.4,
+    249.4
+   ],
+   "size": 8.8,
+   "testo": "\"Personaggio\". Le regole del gioco (in questo glossario",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    249.8,
+    272.1,
+    260.4
+   ],
+   "size": 8.8,
+   "testo": "e altrove) spesso descrivono situazioni che accadono al",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    260.9,
+    269.6,
+    271.5
+   ],
+   "size": 8.8,
+   "testo": "tuo personaggio nel mondo di gioco. Queste situazioni",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    271.9,
+    267.5,
+    282.5
+   ],
+   "size": 8.8,
+   "testo": "possono far riferimento a una creatura o a un oggetto",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.1,
+    283.0,
+    266.0,
+    293.6
+   ],
+   "size": 8.8,
+   "testo": "a cui si applica la regola in un particolare momento di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    294.0,
+    263.3,
+    304.5
+   ],
+   "size": 8.8,
+   "testo": "gioco. Ad esempio, nella descrizione della condizione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.9,
+    304.9,
+    264.5,
+    315.5
+   ],
+   "size": 8.8,
+   "testo": "\"prono\",vengono descritti gli effetti che questa condi­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    315.9,
+    269.6,
+    326.5
+   ],
+   "size": 8.8,
+   "testo": "zione ha sul tuo personaggio o su una creatura influen­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    326.8,
+    106.2,
+    337.4
+   ],
+   "size": 8.8,
+   "testo": "zata da essa.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.0,
+    337.9,
+    276.4,
+    348.4
+   ],
+   "size": 8.8,
+   "testo": "\"Vedi anche\". Alcune voci includono la sezione Vedianche,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.2,
+    348.8,
+    258.4,
+    359.4
+   ],
+   "size": 8.8,
+   "testo": "che rimanda ad altre voci del glossario, ai capitoli di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.0,
+    359.9,
+    172.4,
+    370.4
+   ],
+   "size": 8.8,
+   "testo": "questo manuale o a entrambi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.5,
+    370.8,
+    252.8,
+    381.4
+   ],
+   "size": 8.8,
+   "testo": "Nessun termine obsoleto. Il glossario contiene solo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    55.8,
+    381.8,
+    257.7,
+    392.4
+   ],
+   "size": 8.8,
+   "testo": "le definizioni dei termini delle regole attuali. Se stai",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    392.9,
+    273.0,
+    403.5
+   ],
+   "size": 8.8,
+   "testo": "cercando un termine riferito a una versione precedente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.8,
+    404.0,
+    255.8,
+    414.6
+   ],
+   "size": 8.8,
+   "testo": "delle regole della quinta edizione, consulta l'indice.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    47.6,
+    415.0,
+    271.4,
+    425.6
+   ],
+   "size": 8.8,
+   "testo": "Abbreviazioni. Le abbreviazioni elencate di seguito com­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    55.7,
+    426.0,
+    262.7,
+    436.5
+   ],
+   "size": 8.8,
+   "testo": "paiono in questo glossario e altrove nel regolamento.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.8,
+    453.8,
+    64.4,
+    463.0
+   ],
+   "size": 8.2,
+   "testo": "BC",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.5,
+    453.6,
+    158.6,
+    463.2
+   ],
+   "size": 8.4,
+   "testo": "Bonus di competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    453.9,
+    183.8,
+    463.1
+   ],
+   "size": 8.2,
+   "testo": "ME",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.3,
+    453.7,
+    274.8,
+    463.3
+   ],
+   "size": 8.4,
+   "testo": "Moneta/e di electrum",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.3,
+    468.1,
+    107.4,
+    477.7
+   ],
+   "size": 8.4,
+   "testo": "Car. Carisma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.6,
+    468.2,
+    252.1,
+    477.9
+   ],
+   "size": 8.4,
+   "testo": "MO Moneta/e d'oro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    482.9,
+    64.6,
+    492.1
+   ],
+   "size": 8.2,
+   "testo": "CA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.9,
+    482.6,
+    137.7,
+    492.3
+   ],
+   "size": 8.4,
+   "testo": "Classe Armatura",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    483.0,
+    184.1,
+    492.2
+   ],
+   "size": 8.2,
+   "testo": "MP",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.3,
+    482.8,
+    268.5,
+    492.4
+   ],
+   "size": 8.4,
+   "testo": "Moneta/e di platino",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    497.4,
+    64.6,
+    506.6
+   ],
+   "size": 8.2,
+   "testo": "CB",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.9,
+    497.2,
+    131.4,
+    506.9
+   ],
+   "size": 8.4,
+   "testo": "Caotico buono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.8,
+    497.5,
+    183.4,
+    506.8
+   ],
+   "size": 8.2,
+   "testo": "MR",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.3,
+    497.3,
+    261.3,
+    507.0
+   ],
+   "size": 8.4,
+   "testo": "Moneta/e di rame",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.2,
+    512.1,
+    65.5,
+    521.3
+   ],
+   "size": 8.2,
+   "testo": "CD",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.2,
+    511.8,
+    137.0,
+    521.5
+   ],
+   "size": 8.4,
+   "testo": "Classe Difficoltà",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    512.2,
+    177.1,
+    521.4
+   ],
+   "size": 8.2,
+   "testo": "M",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.7,
+    512.0,
+    242.3,
+    521.6
+   ],
+   "size": 8.4,
+   "testo": "Componente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    526.6,
+    66.4,
+    535.8
+   ],
+   "size": 8.2,
+   "testo": "CM",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.4,
+    526.4,
+    141.3,
+    536.0
+   ],
+   "size": 8.4,
+   "testo": "Caotico malvagio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.1,
+    523.9,
+    228.7,
+    533.6
+   ],
+   "size": 8.4,
+   "testo": "materiale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    541.2,
+    65.3,
+    550.4
+   ],
+   "size": 8.2,
+   "testo": "CN",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.8,
+    540.9,
+    138.5,
+    550.6
+   ],
+   "size": 8.4,
+   "testo": "Caotico neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    538.7,
+    182.9,
+    548.0
+   ],
+   "size": 8.2,
+   "testo": "NB",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.2,
+    538.5,
+    253.0,
+    548.2
+   ],
+   "size": 8.4,
+   "testo": "Neutrale buono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.0,
+    555.5,
+    123.9,
+    565.1
+   ],
+   "size": 8.4,
+   "testo": "Cos. Costituzione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.7,
+    553.3,
+    184.3,
+    562.5
+   ],
+   "size": 8.2,
+   "testo": "NM",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.2,
+    553.0,
+    262.6,
+    562.7
+   ],
+   "size": 8.4,
+   "testo": "Neutrale malvagio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.0,
+    570.4,
+    57.9,
+    579.5
+   ],
+   "size": 6.9,
+   "testo": "c",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.7,
+    570.0,
+    135.7,
+    579.7
+   ],
+   "size": 8.4,
+   "testo": "Concentrazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    567.8,
+    175.9,
+    577.1
+   ],
+   "size": 8.2,
+   "testo": "N",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.2,
+    567.6,
+    226.4,
+    577.2
+   ],
+   "size": 8.4,
+   "testo": "Neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    584.5,
+    113.8,
+    594.2
+   ],
+   "size": 8.4,
+   "testo": "Des. Destrezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.4,
+    582.3,
+    179.9,
+    591.5
+   ],
+   "size": 8.2,
+   "testo": "PE",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.2,
+    582.2,
+    264.4,
+    591.8
+   ],
+   "size": 8.4,
+   "testo": "Punto/i esperienza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    51.5,
+    599.4,
+    67.3,
+    608.6
+   ],
+   "size": 8.2,
+   "testo": "DM",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.2,
+    599.2,
+    140.3,
+    608.8
+   ],
+   "size": 8.4,
+   "testo": "Dungeon Master",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    596.9,
+    180.1,
+    606.1
+   ],
+   "size": 8.2,
+   "testo": "PF",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.1,
+    596.7,
+    243.0,
+    606.3
+   ],
+   "size": 8.4,
+   "testo": "Punto/i ferita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.5,
+    614.1,
+    66.9,
+    623.3
+   ],
+   "size": 8.2,
+   "testo": "For.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.2,
+    613.7,
+    96.9,
+    623.4
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.5,
+    611.3,
+    240.1,
+    621.0
+   ],
+   "size": 8.4,
+   "testo": "PNG Personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    50.9,
+    628.7,
+    64.4,
+    637.9
+   ],
+   "size": 8.2,
+   "testo": "GS",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.6,
+    628.4,
+    129.2,
+    638.1
+   ],
+   "size": 8.4,
+   "testo": "Grado di sfida",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.8,
+    623.4,
+    242.2,
+    633.1
+   ],
+   "size": 8.4,
+   "testo": "non giocante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.4,
+    643.2,
+    65.9,
+    652.5
+   ],
+   "size": 8.2,
+   "testo": "Int.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.1,
+    643.0,
+    119.5,
+    652.6
+   ],
+   "size": 8.4,
+   "testo": "Intelligenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    168.3,
+    638.2,
+    174.8,
+    647.4
+   ],
+   "size": 8.2,
+   "testo": "R",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    191.1,
+    638.0,
+    219.2,
+    647.6
+   ],
+   "size": 8.4,
+   "testo": "Rituale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.2,
+    657.7,
+    63.4,
+    666.9
+   ],
+   "size": 8.2,
+   "testo": "LB",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.1,
+    657.5,
+    127.1,
+    667.2
+   ],
+   "size": 8.4,
+   "testo": "Legale buono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.7,
+    652.5,
+    228.3,
+    662.1
+   ],
+   "size": 8.4,
+   "testo": "Sag. Saggezza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    672.4,
+    64.7,
+    681.6
+   ],
+   "size": 8.2,
+   "testo": "LM",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    74.1,
+    672.1,
+    136.7,
+    681.8
+   ],
+   "size": 8.4,
+   "testo": "Legale malvagio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    167.7,
+    667.5,
+    173.9,
+    676.6
+   ],
+   "size": 6.9,
+   "testo": "s",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.5,
+    667.1,
+    241.8,
+    676.7
+   ],
+   "size": 8.4,
+   "testo": "Componente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.5,
+    679.1,
+    227.1,
+    688.7
+   ],
+   "size": 8.4,
+   "testo": "somatica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.3,
+    686.9,
+    63.7,
+    696.1
+   ],
+   "size": 8.2,
+   "testo": "LN",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.9,
+    686.6,
+    133.9,
+    696.2
+   ],
+   "size": 8.4,
+   "testo": "Legale neutrale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    190.4,
+    693.6,
+    272.2,
+    703.2
+   ],
+   "size": 8.4,
+   "testo": "Componente verbale",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    167.4,
+    693.9,
+    174.8,
+    703.1
+   ],
+   "size": 8.2,
+   "testo": "V",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    51.6,
+    701.4,
+    65.7,
+    710.6
+   ],
+   "size": 8.2,
+   "testo": "MA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    73.9,
+    701.2,
+    150.9,
+    710.8
+   ],
+   "size": 8.4,
+   "testo": "Moneta/e d'argento",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.9,
+    119.6,
+    529.3,
+    136.2
+   ],
+   "size": 12.9,
+   "testo": "DEFINIZIONE DELLE REGOLE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    137.7,
+    527.1,
+    148.3
+   ],
+   "size": 8.8,
+   "testo": "Di seguito vengono illustrate le definizioni di varie regole.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.5,
+    172.5,
+    345.2,
+    183.8
+   ],
+   "size": 11.2,
+   "testo": "ABILITÀ",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.4,
+    183.9,
+    513.5,
+    194.5
+   ],
+   "size": 8.8,
+   "testo": "Un'abilità è un'area di specializzazione associata a una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.2,
+    194.9,
+    514.9,
+    205.5
+   ],
+   "size": 8.8,
+   "testo": "prova di caratteristica. Se il tuo personaggio ha compe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.2,
+    206.0,
+    522.8,
+    216.6
+   ],
+   "size": 8.8,
+   "testo": "tenza in un'abilità, può aggiungere il suo bonus di compe­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.2,
+    217.0,
+    521.4,
+    227.6
+   ],
+   "size": 8.8,
+   "testo": "tenza al risultato di una prova di caratteristica associata",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.3,
+    227.9,
+    506.9,
+    238.5
+   ],
+   "size": 8.8,
+   "testo": "a quella abilità. Vedianche capitolo 1 (\"Competenza\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.4,
+    262.6,
+    434.0,
+    273.9
+   ],
+   "size": 11.2,
+   "testo": "ACCECATO [CONDIZIONE]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.3,
+    274.1,
+    515.2,
+    284.6
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"accecato\",",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.5,
+    285.1,
+    397.7,
+    295.7
+   ],
+   "size": 8.8,
+   "testo": "subisce i seguenti effetti:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    296.0,
+    519.4,
+    306.6
+   ],
+   "size": 8.8,
+   "testo": "Non è in grado di vedere. Il personaggio non è in grado",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.2,
+    307.1,
+    514.1,
+    317.6
+   ],
+   "size": 8.8,
+   "testo": "di vedere e fallisce automaticamente qualsiasi prova di",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.2,
+    318.0,
+    468.3,
+    328.6
+   ],
+   "size": 8.8,
+   "testo": "caratteristica che richieda l'uso della vista.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    329.1,
+    516.2,
+    339.6
+   ],
+   "size": 8.8,
+   "testo": "Influenza sugli attacchi. I tiri per colpire contro il per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.0,
+    340.0,
+    519.5,
+    350.5
+   ],
+   "size": 8.8,
+   "testo": "sonaggio dispongono di vantaggio, mentre i suoi tiri per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.0,
+    350.9,
+    416.9,
+    361.5
+   ],
+   "size": 8.8,
+   "testo": "colpire subiscono svantaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.2,
+    385.7,
+    449.8,
+    397.1
+   ],
+   "size": 11.2,
+   "testo": "AFFASCINATO [CONDIZIONE]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.0,
+    397.1,
+    524.4,
+    407.7
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"affascinato\",",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.2,
+    408.2,
+    397.6,
+    418.8
+   ],
+   "size": 8.8,
+   "testo": "subisce i seguenti effetti:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.7,
+    419.2,
+    517.9,
+    429.8
+   ],
+   "size": 8.8,
+   "testo": "Non può attaccare chi lo ha affascinato. Il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.2,
+    430.2,
+    512.3,
+    440.7
+   ],
+   "size": 8.8,
+   "testo": "non può attaccare chi lo ha affascinato né bersagliarlo",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.9,
+    441.1,
+    438.5,
+    451.7
+   ],
+   "size": 8.8,
+   "testo": "con abilità o effetti magici dannosi.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.3,
+    452.1,
+    509.1,
+    462.7
+   ],
+   "size": 8.8,
+   "testo": "Vantaggio sociale. Chi ha affascinato il personaggio",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    300.2,
+    463.1,
+    514.0,
+    473.7
+   ],
+   "size": 8.8,
+   "testo": "dispone di vantaggio a qualsiasi prova di caratteristica",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.9,
+    474.0,
+    519.6,
+    484.6
+   ],
+   "size": 8.8,
+   "testo": "effettuata per interagire socialmente con il personaggio.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.1,
+    508.8,
+    362.9,
+    520.1
+   ],
+   "size": 11.2,
+   "testo": "AFFERRARE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.5,
+    520.2,
+    526.9,
+    530.8
+   ],
+   "size": 8.8,
+   "testo": "Una creatura può afferrare un'altra creatura. I personaggi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.7,
+    531.2,
+    517.9,
+    541.7
+   ],
+   "size": 8.8,
+   "testo": "tipicamente possono afferrare una creatura utilizzando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.7,
+    542.2,
+    519.9,
+    552.8
+   ],
+   "size": 8.8,
+   "testo": "un colpo senz'armi. Molti mostri dispongono di attacchi",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    300.1,
+    553.2,
+    519.4,
+    563.7
+   ],
+   "size": 8.8,
+   "testo": "speciali che permettono loro di afferrare rapidamente la",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.8,
+    564.1,
+    521.9,
+    574.7
+   ],
+   "size": 8.8,
+   "testo": "preda. A prescindere dal tipo di presa, bisogna fare riferi­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.7,
+    575.1,
+    519.3,
+    585.6
+   ],
+   "size": 8.8,
+   "testo": "mento alle seguenti regole. Vedianche \"Colpo senz'armi\"",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.7,
+    585.9,
+    352.2,
+    596.5
+   ],
+   "size": 8.8,
+   "testo": "e \"Afferrato\".",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    307.8,
+    597.1,
+    522.1,
+    607.6
+   ],
+   "size": 8.8,
+   "testo": "Condizione afferrato. Se un personaggio riesce ad affer­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.5,
+    608.1,
+    528.7,
+    618.6
+   ],
+   "size": 8.8,
+   "testo": "rare una creatura, questa subisce la condizione \"afferrata\".",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    307.8,
+    619.1,
+    520.7,
+    629.7
+   ],
+   "size": 8.8,
+   "testo": "Unapresaper ogni mano. Una creatura deve avere una",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.8,
+    630.2,
+    523.0,
+    640.8
+   ],
+   "size": 8.8,
+   "testo": "mano libera per poter afferrare un'altra creatura. Alcune",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.7,
+    641.2,
+    507.8,
+    651.8
+   ],
+   "size": 8.8,
+   "testo": "schede delle statistiche ed effetti di gioco consentono",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.5,
+    652.1,
+    527.4,
+    662.7
+   ],
+   "size": 8.8,
+   "testo": "a una creatura di afferrarne un'altra utilizzando tentacoli,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.1,
+    663.1,
+    526.0,
+    673.7
+   ],
+   "size": 8.8,
+   "testo": "fauci o altre parti del corpo. A prescindere dalle modalità,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.4,
+    674.1,
+    513.9,
+    684.7
+   ],
+   "size": 8.8,
+   "testo": "una creatura può afferrare solo una creatura alla volta",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.5,
+    685.0,
+    513.8,
+    695.6
+   ],
+   "size": 8.8,
+   "testo": "con la parte del corpo che ha scelto di usare, e non può",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    299.5,
+    696.0,
+    518.2,
+    706.6
+   ],
+   "size": 8.8,
+   "testo": "utilizzare quella parte per bersagliare un'altra creatura,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    299.5,
+    706.9,
+    428.0,
+    717.5
+   ],
+   "size": 8.8,
+   "testo": "a meno che non termini la presa.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

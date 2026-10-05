@@ -1,0 +1,1368 @@
+{
+ "pagina_pdf": 379,
+ "pagina_stampata": 376,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "376 / APPENDICE CI GLOSSARIO DELLE REGOLE",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    53.1,
+    35.9,
+    243.8,
+    46.5
+   ],
+   "size": 8.8,
+   "testo": "Uno spazio è terreno difficile se contiene uno dei",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.3,
+    47.0,
+    195.1,
+    57.6
+   ],
+   "size": 8.8,
+   "testo": "seguenti elementi o qualcosa di simile:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.8,
+    65.5,
+    271.8,
+    75.2
+   ],
+   "size": 8.4,
+   "testo": "• Una creatura che non sia minuscola o una creatura alleata",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.8,
+    77.6,
+    248.8,
+    87.2
+   ],
+   "size": 8.4,
+   "testo": "• Mobili a misura di creature di taglia pari o superiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    52.7,
+    89.6,
+    142.6,
+    99.2
+   ],
+   "size": 8.4,
+   "testo": "a quella dell'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.8,
+    101.6,
+    202.9,
+    111.3
+   ],
+   "size": 8.4,
+   "testo": "• Neve alta, ghiaccio, detriti o sottobosco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.8,
+    113.5,
+    210.1,
+    123.1
+   ],
+   "size": 8.4,
+   "testo": "• Liquido a livello degli stichi o fino alla vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.8,
+    125.4,
+    256.3,
+    135.0
+   ],
+   "size": 8.4,
+   "testo": "• Un'apertura stretta adatta a una creatura di una taglia",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    53.1,
+    137.5,
+    178.9,
+    147.1
+   ],
+   "size": 8.4,
+   "testo": "inferiore a quella del personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.8,
+    149.4,
+    170.6,
+    159.0
+   ],
+   "size": 8.4,
+   "testo": "• Una pendenza di 20 gradi o più",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.4,
+    183.3,
+    124.0,
+    194.6
+   ],
+   "size": 11.2,
+   "testo": "1ÌPI DI DANNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.7,
+    194.5,
+    260.0,
+    205.1
+   ],
+   "size": 8.8,
+   "testo": "Gli attacchi e altri effetti dannosi infliggono vari tipi di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.7,
+    205.6,
+    254.3,
+    216.2
+   ],
+   "size": 8.8,
+   "testo": "danno. I tipi di danno non seguono regole particolari;",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.7,
+    216.6,
+    250.2,
+    227.2
+   ],
+   "size": 8.8,
+   "testo": "tuttavia, altre regole, come quelle riguardanti la resi­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.7,
+    227.6,
+    250.1,
+    238.1
+   ],
+   "size": 8.8,
+   "testo": "stenza, possono farvi riferimento. La tabella \"Tipi di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.3,
+    238.6,
+    257.7,
+    249.1
+   ],
+   "size": 8.8,
+   "testo": "danno\" fornisce degli esempi per aiutare il DM ad asse­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.3,
+    249.6,
+    235.1,
+    260.2
+   ],
+   "size": 8.8,
+   "testo": "gnare un tipo di danno a un determinato effetto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.4,
+    272.9,
+    120.3,
+    283.0
+   ],
+   "size": 8.2,
+   "testo": "TIPI DI DANNO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.4,
+    288.4,
+    67.6,
+    297.6
+   ],
+   "size": 8.2,
+   "testo": "Tipo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    107.2,
+    288.4,
+    136.1,
+    297.6
+   ],
+   "size": 8.2,
+   "testo": "Esempi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    302.2,
+    72.3,
+    311.9
+   ],
+   "size": 8.4,
+   "testo": "Acido",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.8,
+    302.3,
+    233.2,
+    311.9
+   ],
+   "size": 8.4,
+   "testo": "Liquidi corrosivi, enzimi digestivi",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.5,
+    316.8,
+    272.2,
+    326.4
+   ],
+   "size": 8.4,
+   "testo": "Contundente Oggetti contundenti, stritolamento, caduta",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    49.0,
+    331.6,
+    71.7,
+    341.2
+   ],
+   "size": 8.4,
+   "testo": "Forza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    346.1,
+    77.4,
+    355.7
+   ],
+   "size": 8.4,
+   "testo": "Freddo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    360.6,
+    81.8,
+    370.2
+   ],
+   "size": 8.4,
+   "testo": "Fulmine",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    375.2,
+    73.6,
+    384.8
+   ],
+   "size": 8.4,
+   "testo": "Fuoco",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    389.8,
+    87.7,
+    399.4
+   ],
+   "size": 8.4,
+   "testo": "Necrotico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.1,
+    404.5,
+    90.3,
+    414.1
+   ],
+   "size": 8.4,
+   "testo": "Perforante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.0,
+    419.1,
+    81.4,
+    428.8
+   ],
+   "size": 8.4,
+   "testo": "Psichico",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    49.1,
+    433.7,
+    81.2,
+    443.3
+   ],
+   "size": 8.4,
+   "testo": "Radioso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    448.2,
+    84.7,
+    457.8
+   ],
+   "size": 8.4,
+   "testo": "Tagliente",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.2,
+    462.8,
+    74.9,
+    472.4
+   ],
+   "size": 8.4,
+   "testo": "Tuono",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    48.3,
+    477.4,
+    76.7,
+    487.0
+   ],
+   "size": 8.4,
+   "testo": "ve·leno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.8,
+    331.4,
+    185.7,
+    341.0
+   ],
+   "size": 8.4,
+   "testo": "Pura energia magica",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.0,
+    345.9,
+    217.0,
+    355.5
+   ],
+   "size": 8.4,
+   "testo": "Acqua gelata, getti ghiacciati",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.8,
+    360.5,
+    144.6,
+    370.2
+   ],
+   "size": 8.4,
+   "testo": "Elettricità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.8,
+    375.0,
+    225.1,
+    384.7
+   ],
+   "size": 8.4,
+   "testo": "Fiamme, calore insopportabile",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.8,
+    389.7,
+    248.1,
+    399.3
+   ],
+   "size": 8.4,
+   "testo": "Energia in grado di risucchiare la vita",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.2,
+    404.4,
+    203.7,
+    414.0
+   ],
+   "size": 8.4,
+   "testo": "Zanne, oggetti perforanti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.8,
+    419.0,
+    251.4,
+    428.6
+   ],
+   "size": 8.4,
+   "testo": "Energia in grado di spezzare la mente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    106.8,
+    433.5,
+    259.9,
+    443.1
+   ],
+   "size": 8.4,
+   "testo": "Energia sacra, radiazione incandescente",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    106.1,
+    448.1,
+    195.8,
+    457.7
+   ],
+   "size": 8.4,
+   "testo": "Artigli, oggetti taglienti",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.5,
+    462.7,
+    177.1,
+    472.3
+   ],
+   "size": 8.4,
+   "testo": "Suono concussivo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    106.7,
+    477.3,
+    182.0,
+    486.9
+   ],
+   "size": 8.4,
+   "testo": "Gas tossico, veleno",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.6,
+    515.2,
+    147.0,
+    526.6
+   ],
+   "size": 11.2,
+   "testo": "1ÌPO DI CREATURA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.9,
+    526.6,
+    255.4,
+    537.2
+   ],
+   "size": 8.8,
+   "testo": "Le regole relative a ogni creatura, inclusi i personaggi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.6,
+    537.5,
+    263.4,
+    548.1
+   ],
+   "size": 8.8,
+   "testo": "giocanti, presentano un descrittore che identifica il tipo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.9,
+    548.6,
+    270.3,
+    559.1
+   ],
+   "size": 8.8,
+   "testo": "di creatura. La maggior parte dei personaggi giocanti è di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.8,
+    559.6,
+    265.1,
+    570.1
+   ],
+   "size": 8.8,
+   "testo": "tipo umanoide. Di seguito sono elencati i tipi di creature",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.8,
+    570.5,
+    117.5,
+    581.1
+   ],
+   "size": 8.8,
+   "testo": "presenti nel gioco:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.7,
+    589.0,
+    93.2,
+    598.6
+   ],
+   "size": 8.4,
+   "testo": "Aberrazione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.3,
+    588.9,
+    167.6,
+    598.6
+   ],
+   "size": 8.4,
+   "testo": "Elementale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.4,
+    588.8,
+    249.4,
+    598.4
+   ],
+   "size": 8.4,
+   "testo": "Mostruosità",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.5,
+    601.0,
+    70.2,
+    610.7
+   ],
+   "size": 8.4,
+   "testo": "Bestia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.3,
+    601.0,
+    153.8,
+    610.6
+   ],
+   "size": 8.4,
+   "testo": "Folletto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.4,
+    600.9,
+    245.7,
+    610.5
+   ],
+   "size": 8.4,
+   "testo": "Non morto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.9,
+    613.1,
+    83.7,
+    622.7
+   ],
+   "size": 8.4,
+   "testo": "Celestiale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.8,
+    613.0,
+    154.7,
+    622.7
+   ],
+   "size": 8.4,
+   "testo": "Gigante",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    200.7,
+    613.0,
+    235.7,
+    622.6
+   ],
+   "size": 8.4,
+   "testo": "Vegetale",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.9,
+    625.2,
+    82.8,
+    634.8
+   ],
+   "size": 8.4,
+   "testo": "Costrutto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.3,
+    625.1,
+    163.0,
+    634.7
+   ],
+   "size": 8.4,
+   "testo": "Immondo",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    201.3,
+    625.0,
+    243.1,
+    634.6
+   ],
+   "size": 8.4,
+   "testo": "Umanoide",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    45.4,
+    637.2,
+    70.4,
+    646.8
+   ],
+   "size": 8.4,
+   "testo": "Drago",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    123.3,
+    637.1,
+    151.7,
+    646.7
+   ],
+   "size": 8.4,
+   "testo": "Melma",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    44.9,
+    652.4,
+    273.9,
+    663.0
+   ],
+   "size": 8.8,
+   "testo": "I vari tipi di creature non hanno regole proprie, ma alcune",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.8,
+    663.4,
+    271.4,
+    673.9
+   ],
+   "size": 8.8,
+   "testo": "regole del gioco influenzano certi tipi di creature in modo",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    44.8,
+    674.3,
+    77.3,
+    684.9
+   ],
+   "size": 8.8,
+   "testo": "diverso.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.5,
+    51.1,
+    395.3,
+    62.5
+   ],
+   "size": 11.2,
+   "testo": "1ÌRO PER COLPIRE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.6,
+    62.6,
+    518.1,
+    73.1
+   ],
+   "size": 8.8,
+   "testo": "Un tiro per colpire è una prova con d20 che rappresenta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.8,
+    73.6,
+    520.9,
+    84.2
+   ],
+   "size": 8.8,
+   "testo": "un attacco con un'arma, con un colpo senz'armi o con un",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.2,
+    84.5,
+    503.4,
+    95.1
+   ],
+   "size": 8.8,
+   "testo": "incantesimo. Vedi anche capitolo 1 (\"Prove con d20\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.7,
+    119.2,
+    392.6,
+    130.6
+   ],
+   "size": 11.2,
+   "testo": "TIRO PER I DANNI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.6,
+    130.6,
+    525.6,
+    141.2
+   ],
+   "size": 8.8,
+   "testo": "Un tiro per i danni è un tiro di dado (regolato dall'aggiunta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.9,
+    141.6,
+    519.8,
+    152.2
+   ],
+   "size": 8.8,
+   "testo": "dei modificatori applicabili) che infligge danni a un bersa­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.7,
+    152.6,
+    487.5,
+    163.2
+   ],
+   "size": 8.8,
+   "testo": "glio. Vedianche capitolo 1 (\"Danni e guarigione\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.7,
+    187.4,
+    379.8,
+    198.8
+   ],
+   "size": 11.2,
+   "testo": "1ÌRO SALVEZZA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.7,
+    198.8,
+    512.3,
+    209.4
+   ],
+   "size": 8.8,
+   "testo": "Un tiro salvezza rappresenta il tentativo di evitare o di",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.9,
+    209.9,
+    519.7,
+    220.5
+   ],
+   "size": 8.8,
+   "testo": "resistere a una minaccia. Solitamente, effettui un tiro sal­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.7,
+    220.8,
+    517.6,
+    231.4
+   ],
+   "size": 8.8,
+   "testo": "vezza solo quando una regola lo richiede, ma puoi anche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.9,
+    231.8,
+    513.2,
+    242.4
+   ],
+   "size": 8.8,
+   "testo": "decidere di fallire il tiro senza tirare il dado. Il risultato",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.9,
+    242.8,
+    509.3,
+    253.4
+   ],
+   "size": 8.8,
+   "testo": "di un tiro salvezza è descritto nell'effetto che l'ha reso",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.9,
+    253.9,
+    508.0,
+    264.4
+   ],
+   "size": 8.8,
+   "testo": "necessario. Se un bersaglio è costretto a effettuare un",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.9,
+    264.9,
+    519.8,
+    275.4
+   ],
+   "size": 8.8,
+   "testo": "tiro salvezza e non possiede il punteggio di caratteristica",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.9,
+    275.9,
+    512.5,
+    286.5
+   ],
+   "size": 8.8,
+   "testo": "utilizzato dal tiro, fallisce automaticamente. Vedi anche",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.9,
+    287.0,
+    410.6,
+    297.6
+   ],
+   "size": 8.8,
+   "testo": "capitolo 1 (\"Prove con d20\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.7,
+    321.7,
+    466.9,
+    333.1
+   ],
+   "size": 11.2,
+   "testo": "TIRO SALVEZZA CONTRO MORTE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.8,
+    333.0,
+    521.5,
+    343.6
+   ],
+   "size": 8.8,
+   "testo": "Un personaggio giocante deve effettuare un tiro salvezza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.7,
+    343.9,
+    521.4,
+    354.5
+   ],
+   "size": 8.8,
+   "testo": "contro morte se inizia il proprio turno con O punti ferita.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.5,
+    354.9,
+    469.5,
+    365.5
+   ],
+   "size": 8.8,
+   "testo": "Vedianche capitolo 1 (\"Danni e guarigione\").",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.7,
+    389.8,
+    452.2,
+    401.1
+   ],
+   "size": 11.2,
+   "testo": "TRAMORTIRE UNA CREATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.0,
+    401.3,
+    514.9,
+    411.8
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio sta per ridurre una creatura",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.0,
+    412.3,
+    505.7,
+    422.8
+   ],
+   "size": 8.8,
+   "testo": "a 0 punti ferita con un attacco in mischia, può invece",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.0,
+    423.3,
+    517.8,
+    433.8
+   ],
+   "size": 8.8,
+   "testo": "ridurla a 1 punto ferita. La creatura diventa quindi priva",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.0,
+    434.3,
+    423.7,
+    444.9
+   ],
+   "size": 8.8,
+   "testo": "di sensi e inizia un riposo breve.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.2,
+    445.2,
+    508.9,
+    455.8
+   ],
+   "size": 8.8,
+   "testo": "La creatura rimane priva di sensi fino a quando non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.4,
+    456.2,
+    518.1,
+    466.8
+   ],
+   "size": 8.8,
+   "testo": "riacquista punti ferita o fino a quando qualcuno non usa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.0,
+    467.2,
+    510.2,
+    477.8
+   ],
+   "size": 8.8,
+   "testo": "un'azione per somministrarle cure di pronto soccorso,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.0,
+    478.2,
+    523.8,
+    488.7
+   ],
+   "size": 8.8,
+   "testo": "il che richiede superare una prova di Saggezza (Medicina)",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.4,
+    489.1,
+    341.0,
+    499.7
+   ],
+   "size": 8.8,
+   "testo": "con CD 10.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.8,
+    524.0,
+    445.9,
+    535.4
+   ],
+   "size": 11.2,
+   "testo": "TRATTENUTO [CONDIZIONE]",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.2,
+    535.3,
+    519.5,
+    545.9
+   ],
+   "size": 8.8,
+   "testo": "Quando il tuo personaggio ha la condizione \"trattenuto\",",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.3,
+    546.3,
+    394.7,
+    556.9
+   ],
+   "size": 8.8,
+   "testo": "subisce i seguenti effetti:",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.4,
+    557.3,
+    518.6,
+    567.9
+   ],
+   "size": 8.8,
+   "testo": "Velocità O. La velocità del personaggio è pari a 0 e non",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.0,
+    568.2,
+    360.5,
+    578.8
+   ],
+   "size": 8.8,
+   "testo": "può aumentare.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    304.8,
+    579.3,
+    513.7,
+    589.8
+   ],
+   "size": 8.8,
+   "testo": "Influenza sugli attacchi. I tiri per colpire contro il per­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.0,
+    590.2,
+    517.0,
+    600.8
+   ],
+   "size": 8.8,
+   "testo": "sonaggio dispongono di vantaggio, mentre i suoi tiri per",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.2,
+    601.2,
+    414.0,
+    611.8
+   ],
+   "size": 8.8,
+   "testo": "colpire subiscono svantaggio.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    305.0,
+    612.3,
+    515.2,
+    622.9
+   ],
+   "size": 8.8,
+   "testo": "Influenza sui tiri salvezza. Il personaggio subisce svan­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    296.9,
+    623.4,
+    436.6,
+    633.9
+   ],
+   "size": 8.8,
+   "testo": "taggio ai tiri salvezza su Destrezza.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    296.9,
+    658.2,
+    369.0,
+    669.5
+   ],
+   "size": 11.2,
+   "testo": "TRUCCHETTO",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    297.2,
+    669.5,
+    516.3,
+    680.0
+   ],
+   "size": 8.8,
+   "testo": "Un trucchetto è un incantesimo di livello O che si lancia",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    297.2,
+    680.5,
+    471.8,
+    691.0
+   ],
+   "size": 8.8,
+   "testo": "senza slot incantesimo. Vedianche capitolo 7.",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}

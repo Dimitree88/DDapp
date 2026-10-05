@@ -1,0 +1,895 @@
+{
+ "pagina_pdf": 342,
+ "pagina_stampata": 339,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 7 I INCANTESIMI / 339",
+ "immagini": [
+  [
+   -1,
+   -1,
+   589,
+   272
+  ]
+ ],
+ "righe": [
+  {
+   "bbox": [
+    59.8,
+    268.2,
+    287.6,
+    278.7
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore assume la forma di una creatura diversa per",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    279.1,
+    285.6,
+    289.7
+   ],
+   "size": 8.8,
+   "testo": "la durata dell'incantesimo o finché non effettua un'azione",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    290.1,
+    285.8,
+    300.7
+   ],
+   "size": 8.8,
+   "testo": "di Magia per mutare in un'altra forma possibile. La nuova",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    301.2,
+    282.9,
+    311.7
+   ],
+   "size": 8.8,
+   "testo": "forma deve essere quella di una creatura con un grado di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    312.1,
+    287.8,
+    322.7
+   ],
+   "size": 8.8,
+   "testo": "sfida pari o inferiore al livello o al grado di sfida dell'incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.3,
+    323.1,
+    283.9,
+    333.7
+   ],
+   "size": 8.8,
+   "testo": "tatore. La creatura non può essere un costrutto o un non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    334.1,
+    282.4,
+    344.6
+   ],
+   "size": 8.8,
+   "testo": "morto e deve essere un tipo di creatura che l'incantatore",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    345.1,
+    119.1,
+    355.7
+   ],
+   "size": 8.8,
+   "testo": "abbia già visto.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    356.1,
+    288.1,
+    366.7
+   ],
+   "size": 8.8,
+   "testo": "Quando l'incantatore lancia questo incantesimo, ottiene",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    367.0,
+    281.3,
+    377.6
+   ],
+   "size": 8.8,
+   "testo": "un numero di punti ferita temporanei pari ai punti ferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    378.1,
+    274.4,
+    388.7
+   ],
+   "size": 8.8,
+   "testo": "della prima forma nella quale muta. Questi punti ferita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    389.1,
+    273.4,
+    399.7
+   ],
+   "size": 8.8,
+   "testo": "temporanei svaniscono quando l'incantesimo termina.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    400.2,
+    284.0,
+    410.8
+   ],
+   "size": 8.8,
+   "testo": "Le statistiche di gioco dell'incantatore vengono sostitu­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    411.3,
+    286.1,
+    421.8
+   ],
+   "size": 8.8,
+   "testo": "ite dalla scheda delle statistiche della forma scelta, ma l'in­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    422.3,
+    280.3,
+    432.8
+   ],
+   "size": 8.8,
+   "testo": "cantatore conserva il suo tipo di creatura, allineamento,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    433.3,
+    286.2,
+    443.9
+   ],
+   "size": 8.8,
+   "testo": "personalità, punteggi di Intelligenza, Saggezza e Carisma,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.4,
+    444.2,
+    278.1,
+    454.8
+   ],
+   "size": 8.8,
+   "testo": "punti ferita, Dadi Vita, competenze e l'abilità di comuni­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    455.2,
+    277.1,
+    465.8
+   ],
+   "size": 8.8,
+   "testo": "care. Se l'incantatore possiede il privilegio Incantesimi,",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    466.2,
+    150.3,
+    476.8
+   ],
+   "size": 8.8,
+   "testo": "conserva anche quello.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    67.6,
+    477.2,
+    275.3,
+    487.8
+   ],
+   "size": 8.8,
+   "testo": "Quando si trasforma, l'incantatore sceglie se lasciare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    488.3,
+    264.6,
+    498.8
+   ],
+   "size": 8.8,
+   "testo": "a terra il suo equipaggiamento o se cambiarne taglia",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    499.3,
+    284.9,
+    509.8
+   ],
+   "size": 8.8,
+   "testo": "e aspetto per adattarlo alla sua nuova forma e continuare",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    510.4,
+    110.2,
+    520.9
+   ],
+   "size": 8.8,
+   "testo": "a indossarlo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    545.0,
+    185.9,
+    556.3
+   ],
+   "size": 11.2,
+   "testo": "TRASLAZIONE ARBOREA",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    556.4,
+    203.7,
+    566.9
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi5° livello (druido, ranger)",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.3,
+    572.0,
+    151.2,
+    581.6
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.6,
+    583.0,
+    134.7,
+    592.6
+   ],
+   "size": 8.4,
+   "testo": "Gittata: incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.4,
+    594.0,
+    126.1,
+    603.6
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    60.0,
+    604.9,
+    212.9,
+    614.6
+   ],
+   "size": 8.4,
+   "testo": "Durata: concentrazione, fino a l minuto",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.8,
+    621.4,
+    277.0,
+    631.9
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore ottiene la capacità di entrare in un albero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.7,
+    632.3,
+    263.3,
+    642.9
+   ],
+   "size": 8.8,
+   "testo": "e muoversi al suo interno fino ad arrivare a un altro",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    643.4,
+    279.2,
+    654.0
+   ],
+   "size": 8.8,
+   "testo": "albero dello stesso tipo posto entro 150 metri. Entrambi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.6,
+    654.4,
+    274.1,
+    664.9
+   ],
+   "size": 8.8,
+   "testo": "gli alberi devono essere vivi e di taglia pari o superiore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    665.3,
+    263.4,
+    675.9
+   ],
+   "size": 8.8,
+   "testo": "a quella dell'incantatore, che deve usare 1,5 metri di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.7,
+    676.3,
+    262.0,
+    686.9
+   ],
+   "size": 8.8,
+   "testo": "movimento per entrare in uno di essi. L'incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    59.5,
+    687.3,
+    274.7,
+    697.9
+   ],
+   "size": 8.8,
+   "testo": "apprende immediatamente l'ubicazione di tutti gli altri",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    698.3,
+    279.8,
+    708.9
+   ],
+   "size": 8.8,
+   "testo": "alberi dello stesso tipo entro 150 metri e, come parte del",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    59.8,
+    709.3,
+    274.3,
+    719.9
+   ],
+   "size": 8.8,
+   "testo": "movimento usato per entrare nell'albero, può scegliere",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    268.1,
+    530.6,
+    278.7
+   ],
+   "size": 8.8,
+   "testo": "se passare in uno di quegli alberi o riemergere da quello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    279.2,
+    536.1,
+    289.8
+   ],
+   "size": 8.8,
+   "testo": "in cui si trova. L'incantatore ricompare in un punto a sua",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    290.2,
+    533.7,
+    300.7
+   ],
+   "size": 8.8,
+   "testo": "scelta entro 1,5 metri dall'albero di destinazione, usando",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    301.2,
+    526.4,
+    311.7
+   ],
+   "size": 8.8,
+   "testo": "ulteriori 1,5 metri di movimento. Se non gli rimane più",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    312.2,
+    530.3,
+    322.7
+   ],
+   "size": 8.8,
+   "testo": "alcun movimento, ricompare entro 1,5 metri dall'albero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    323.1,
+    375.6,
+    333.7
+   ],
+   "size": 8.8,
+   "testo": "in cui è entrato.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    320.3,
+    334.1,
+    529.1,
+    344.7
+   ],
+   "size": 8.8,
+   "testo": "Quest'abilità di trasporto è utilizzabile una sola volta",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    345.1,
+    522.4,
+    355.7
+   ],
+   "size": 8.8,
+   "testo": "per turno. Inoltre, l'incantatore deve concludere ogni",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    356.1,
+    420.0,
+    366.7
+   ],
+   "size": 8.8,
+   "testo": "suo turno fuori dall'albero.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    390.9,
+    431.1,
+    402.2
+   ],
+   "size": 11.2,
+   "testo": "TRASPORTO VEGETALE",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    402.4,
+    429.0,
+    412.9
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi6° livello (druido)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    418.1,
+    404.3,
+    427.7
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    429.1,
+    372.2,
+    438.7
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 3 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    440.0,
+    379.1,
+    449.7
+   ],
+   "size": 8.4,
+   "testo": "Componenti: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.6,
+    451.0,
+    379.3,
+    460.7
+   ],
+   "size": 8.4,
+   "testo": "Durata: l minuto",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    467.3,
+    530.1,
+    477.8
+   ],
+   "size": 8.8,
+   "testo": "Questo incantesimo crea un legame magico tra un vege­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    478.2,
+    534.3,
+    488.8
+   ],
+   "size": 8.8,
+   "testo": "tale inanimato di taglia Grande o superiore situato entro",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.4,
+    489.2,
+    523.9,
+    499.8
+   ],
+   "size": 8.8,
+   "testo": "gittata e un altro vegetale, situato a qualsiasi distanza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    500.3,
+    526.1,
+    510.9
+   ],
+   "size": 8.8,
+   "testo": "sullo stesso piano di esistenza. L'incantatore deve aver",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.9,
+    511.3,
+    522.8,
+    521.9
+   ],
+   "size": 8.8,
+   "testo": "visto o toccato il vegetale di destinazione almeno una",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.5,
+    522.3,
+    532.9,
+    532.9
+   ],
+   "size": 8.8,
+   "testo": "volta in precedenza. Per la durata dell'incantesimo, qual­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    533.3,
+    533.0,
+    543.9
+   ],
+   "size": 8.8,
+   "testo": "siasi creatura può entrare nel vegetale bersaglio e uscire",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    544.3,
+    536.0,
+    554.9
+   ],
+   "size": 8.8,
+   "testo": "da quello di destinazione usando 1,5 metri di movimento.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    311.9,
+    579.0,
+    427.4,
+    590.3
+   ],
+   "size": 11.2,
+   "testo": "TROVA CAVALCATURA",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    590.5,
+    436.9,
+    600.9
+   ],
+   "size": 8.6,
+   "testo": "Evocazionedi2° livello (paladino)",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    311.9,
+    606.1,
+    404.3,
+    615.8
+   ],
+   "size": 8.4,
+   "testo": "Tempo di lancio: azione",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    617.2,
+    372.2,
+    626.9
+   ],
+   "size": 8.4,
+   "testo": "Gittata: 9 metri",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.0,
+    628.2,
+    381.3,
+    637.9
+   ],
+   "size": 8.4,
+   "testo": "Componente: V, S",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.5,
+    639.2,
+    384.8,
+    648.9
+   ],
+   "size": 8.4,
+   "testo": "Durata: istantanea",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.3,
+    655.4,
+    525.2,
+    666.0
+   ],
+   "size": 8.8,
+   "testo": "L'incantatore evoca un essere ultraterreno che appare",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    312.2,
+    666.4,
+    532.1,
+    676.9
+   ],
+   "size": 8.8,
+   "testo": "come una cavalcatura forte e fedele in uno spazio libero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    677.3,
+    541.9,
+    687.8
+   ],
+   "size": 8.8,
+   "testo": "a scelta dell'incantatore entro gittata. Questa creatura usa",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.0,
+    688.3,
+    539.3,
+    698.9
+   ],
+   "size": 8.8,
+   "testo": "la scheda delle statistiche della cavalcatura ultraterrena.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.2,
+    699.4,
+    538.4,
+    709.9
+   ],
+   "size": 8.8,
+   "testo": "Se l'incantatore possiede già una cavalcatura evocata con",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    312.5,
+    710.3,
+    537.5,
+    720.9
+   ],
+   "size": 8.8,
+   "testo": "questo incantesimo, essa viene sostituita da quella nuova.",
+   "col": "D",
+   "corta": false
+  }
+ ]
+}

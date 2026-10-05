@@ -1,0 +1,1668 @@
+{
+ "pagina_pdf": 44,
+ "pagina_stampata": 41,
+ "dimensioni": [
+  587.2,
+  781.5
+ ],
+ "piede": "CAPITOLO 2 I CREARE UN PERSONAGGIO / 41",
+ "immagini": [],
+ "righe": [
+  {
+   "bbox": [
+    64.6,
+    38.0,
+    270.0,
+    48.6
+   ],
+   "size": 8.8,
+   "testo": "Dadi Vita. La descrizione della classe indica il tipo di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.0,
+    49.1,
+    263.5,
+    59.6
+   ],
+   "size": 8.8,
+   "testo": "Dado Vita del personaggio; annotalo sulla scheda del",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.8,
+    57.9,
+    274.8,
+    70.7
+   ],
+   "size": 8.8,
+   "testo": "personaggio. Al 1° livello, il personaggio ha 1 Dado Vita.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.9,
+    71.1,
+    275.9,
+    81.7
+   ],
+   "size": 8.8,
+   "testo": "Durante un riposo breve, si possono spendere Dadi Vita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    82.1,
+    269.7,
+    92.7
+   ],
+   "size": 8.8,
+   "testo": "per recuperare punti ferita. La scheda del personaggio",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    57.2,
+    93.0,
+    276.5,
+    103.6
+   ],
+   "size": 8.8,
+   "testo": "include anche uno spazio per annotare quanti Dadi Vita",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    104.0,
+    119.2,
+    114.6
+   ],
+   "size": 8.8,
+   "testo": "sono stati spesi.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.5,
+    115.1,
+    283.9,
+    125.6
+   ],
+   "size": 8.8,
+   "testo": "Iniziativa. Annota il tuo modificatore di Destrezza nello",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    126.1,
+    284.8,
+    136.7
+   ],
+   "size": 8.8,
+   "testo": "spazio dedicato all'iniziativa sulla scheda del personaggio.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    64.8,
+    137.1,
+    267.6,
+    147.7
+   ],
+   "size": 8.8,
+   "testo": "Classe Armatura. Senza armatura o scudo, la Classe",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.1,
+    148.2,
+    285.5,
+    158.7
+   ],
+   "size": 8.8,
+   "testo": "Armatura base è pari a 10 più il modificatore di Destrezza.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    159.2,
+    285.2,
+    169.8
+   ],
+   "size": 8.8,
+   "testo": "Se l'equipaggiamento di partenza comprende un'armatura",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    170.1,
+    263.7,
+    180.7
+   ],
+   "size": 8.8,
+   "testo": "o uno scudo (o entrambi), calcola la CA utilizzando le",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    181.2,
+    282.7,
+    191.7
+   ],
+   "size": 8.8,
+   "testo": "regole del capitolo 6. Alcuni privilegi di classe potrebbero",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    192.2,
+    230.3,
+    202.7
+   ],
+   "size": 8.8,
+   "testo": "offrire un modo diverso per calcolare la CA.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.1,
+    203.3,
+    267.9,
+    213.9
+   ],
+   "size": 8.8,
+   "testo": "Attacchi. Nella sezione Armi e trucchetti da combat­",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    214.2,
+    272.6,
+    224.7
+   ],
+   "size": 8.8,
+   "testo": "timento della scheda del personaggio, annota le armi di",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    225.2,
+    275.4,
+    235.8
+   ],
+   "size": 8.8,
+   "testo": "partenza. Il bonus al tiro per colpire di un'arma in cui si",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    236.3,
+    282.0,
+    246.9
+   ],
+   "size": 8.8,
+   "testo": "ha competenza è uno dei seguenti, a meno che l'arma non",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.8,
+    247.2,
+    236.8,
+    257.8
+   ],
+   "size": 8.8,
+   "testo": "abbia una proprietà che indichi diversamente:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    70.5,
+    265.8,
+    273.4,
+    275.4
+   ],
+   "size": 8.4,
+   "testo": "Bonus di attacco in mischia = il modificatore di Forza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    122.4,
+    277.9,
+    220.7,
+    287.5
+   ],
+   "size": 8.4,
+   "testo": "+ il bonus di competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    62.0,
+    289.8,
+    281.6,
+    299.4
+   ],
+   "size": 8.4,
+   "testo": "Bonus di attacco a distanza = il modificatore di Destrezza",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    123.5,
+    301.8,
+    221.9,
+    311.4
+   ],
+   "size": 8.4,
+   "testo": "+ il bonus di competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.7,
+    316.2,
+    268.2,
+    326.8
+   ],
+   "size": 8.8,
+   "testo": "Consulta il capitolo 6 per i danni e le proprietà delle",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    327.2,
+    270.4,
+    337.8
+   ],
+   "size": 8.8,
+   "testo": "armi. Aggiungi ai tiri per i danni con un'arma lo stesso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    338.2,
+    278.5,
+    348.7
+   ],
+   "size": 8.8,
+   "testo": "modificatore di caratteristica che usi per gli attacchi con",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    349.2,
+    102.1,
+    359.7
+   ],
+   "size": 8.8,
+   "testo": "quell'arma.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.3,
+    360.1,
+    262.0,
+    370.7
+   ],
+   "size": 8.8,
+   "testo": "Incantesimi. Annota sia la CD del tiro salvezza per",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    371.1,
+    272.2,
+    381.7
+   ],
+   "size": 8.8,
+   "testo": "i tuoi incantesimi, sia il bonus d'attacco per gli attacchi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    382.2,
+    246.7,
+    392.8
+   ],
+   "size": 8.8,
+   "testo": "che effettui con essi, utilizzando queste formule:",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    97.7,
+    401.0,
+    244.9,
+    410.2
+   ],
+   "size": 8.2,
+   "testo": "CD del tiro salvezza sull'incantesimo =",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    77.2,
+    412.8,
+    265.7,
+    422.5
+   ],
+   "size": 8.4,
+   "testo": "8 + il modificatore di caratteristica da incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.2,
+    424.7,
+    220.7,
+    434.4
+   ],
+   "size": 8.4,
+   "testo": "+ il bonus di competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    103.3,
+    437.0,
+    239.3,
+    446.3
+   ],
+   "size": 8.2,
+   "testo": "Bonus di attacco dell'incantesimo =",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    85.0,
+    448.8,
+    259.2,
+    458.4
+   ],
+   "size": 8.4,
+   "testo": "il modificatore di caratteristica da incantatore",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    122.2,
+    460.7,
+    220.7,
+    470.3
+   ],
+   "size": 8.4,
+   "testo": "+ il bonus di competenza",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    64.6,
+    475.1,
+    275.0,
+    485.7
+   ],
+   "size": 8.8,
+   "testo": "Il modificatore di caratteristica da incantatore per un",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    486.1,
+    275.0,
+    496.7
+   ],
+   "size": 8.8,
+   "testo": "incantesimo è determinato dal privilegio che conferisce",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    497.2,
+    186.9,
+    507.7
+   ],
+   "size": 8.8,
+   "testo": "l'abilità di lanciare l'incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    63.9,
+    508.2,
+    285.6,
+    518.8
+   ],
+   "size": 8.8,
+   "testo": "Slotincantesimo, trucchetti e incantesimipreparati. Se la",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    519.2,
+    282.4,
+    529.8
+   ],
+   "size": 8.8,
+   "testo": "classe del personaggio conferisce il privilegio Incantesimi",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    530.2,
+    272.6,
+    540.8
+   ],
+   "size": 8.8,
+   "testo": "o Magia del Patto, la tabella dei privilegi di classe indica",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    541.2,
+    266.9,
+    551.8
+   ],
+   "size": 8.8,
+   "testo": "il numero di slot incantesimo disponibili, il numero di",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    552.1,
+    266.7,
+    562.7
+   ],
+   "size": 8.8,
+   "testo": "trucchetti conosciuti e il numero di incantesimi che il",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.4,
+    563.1,
+    279.7,
+    573.7
+   ],
+   "size": 8.8,
+   "testo": "personaggio può preparare. Scegli i trucchetti e gli incan­",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.4,
+    574.2,
+    274.2,
+    584.8
+   ],
+   "size": 8.8,
+   "testo": "tesimi preparati e annotali sulla scheda del personaggio",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    585.2,
+    207.5,
+    595.8
+   ],
+   "size": 8.8,
+   "testo": "insieme al numero di slot incantesimo.",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.7,
+    605.7,
+    232.3,
+    617.1
+   ],
+   "size": 11.2,
+   "testo": "DARE UN NOME AL PERSONAGGIO",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    617.2,
+    277.0,
+    627.8
+   ],
+   "size": 8.8,
+   "testo": "Scegli un nome per il personaggio e scrivilo sulla scheda",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.6,
+    628.2,
+    272.5,
+    638.8
+   ],
+   "size": 8.8,
+   "testo": "del personaggio. Puoi scegliere qualsiasi nome desideri.",
+   "col": "S",
+   "corta": false
+  },
+  {
+   "bbox": [
+    56.7,
+    639.2,
+    270.2,
+    649.8
+   ],
+   "size": 8.8,
+   "testo": "Era il nome di un antenato? Ha un significato religioso",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    56.6,
+    643.2,
+    226.3,
+    661.4
+   ],
+   "size": 8.8,
+   "testo": "o di altro tipo? È un nome che hai scelto tu?",
+   "col": "S",
+   "corta": true
+  },
+  {
+   "bbox": [
+    309.6,
+    39.6,
+    455.6,
+    50.9
+   ],
+   "size": 11.2,
+   "testo": "CREARE I DETTAGLI FINALI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.8,
+    51.0,
+    516.9,
+    61.6
+   ],
+   "size": 8.8,
+   "testo": "Al termine della creazione del personaggio, valuta se",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    62.0,
+    517.3,
+    72.6
+   ],
+   "size": 8.8,
+   "testo": "aggiungere ulteriori dettagli. Ecco il tipo di domande",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    73.0,
+    510.7,
+    83.6
+   ],
+   "size": 8.8,
+   "testo": "a cui potresti rispondere nei panni del personaggio:",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    89.4,
+    399.5,
+    100.0
+   ],
+   "size": 8.8,
+   "testo": "Qual è il tuo genere?",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    100.4,
+    523.4,
+    111.0
+   ],
+   "size": 8.8,
+   "testo": "Quale persona o quali persone ti stanno più a cuore?",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.2,
+    111.4,
+    449.3,
+    122.0
+   ],
+   "size": 8.8,
+   "testo": "Qual è la tua paura più profonda?",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.2,
+    122.5,
+    513.7,
+    133.0
+   ],
+   "size": 8.8,
+   "testo": "Nelle tue avventure sei alla ricerca di conoscenza,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.1,
+    133.4,
+    524.0,
+    144.0
+   ],
+   "size": 8.8,
+   "testo": "ricchezza, gloria, ispirazione, giustizia, misericordia,",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    317.0,
+    144.4,
+    407.7,
+    155.0
+   ],
+   "size": 8.8,
+   "testo": "potere o qualcos'altro?",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.0,
+    165.3,
+    530.7,
+    182.0
+   ],
+   "size": 12.9,
+   "testo": "AVANZAMENTO DI LIVELLO",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.2,
+    183.5,
+    518.9,
+    194.1
+   ],
+   "size": 8.8,
+   "testo": "Man mano che intraprende avventure, il personaggio",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    194.5,
+    532.5,
+    205.1
+   ],
+   "size": 8.8,
+   "testo": "accumula esperienza, rappresentata dai punti esperienza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    205.7,
+    519.2,
+    216.3
+   ],
+   "size": 8.8,
+   "testo": "(PE). Quando raggiunge un numero specifico di punti",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.3,
+    216.6,
+    517.9,
+    227.1
+   ],
+   "size": 8.8,
+   "testo": "esperienza, le sue capacità sono soggette a un avanza­",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    227.6,
+    454.3,
+    238.2
+   ],
+   "size": 8.8,
+   "testo": "mento, chiamato acquisire un livello.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    317.1,
+    238.6,
+    527.2,
+    249.2
+   ],
+   "size": 8.8,
+   "testo": "La tabella Avanzamento dei personaggi riassume i PE",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    249.5,
+    521.5,
+    260.1
+   ],
+   "size": 8.8,
+   "testo": "di cui un personaggio necessita per avanzare di livello",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    260.6,
+    535.0,
+    271.2
+   ],
+   "size": 8.8,
+   "testo": "e il bonus di competenza di un personaggio di quel livello.",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    271.7,
+    518.0,
+    282.2
+   ],
+   "size": 8.8,
+   "testo": "Quando i PE totali sono pari o superiori a un numero",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    308.9,
+    282.7,
+    530.8,
+    293.2
+   ],
+   "size": 8.8,
+   "testo": "della colonna Punti esperienza, il personaggio raggiunge",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    309.0,
+    293.6,
+    405.8,
+    304.1
+   ],
+   "size": 8.8,
+   "testo": "il livello corrispondente.",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    308.7,
+    316.4,
+    471.2,
+    327.1
+   ],
+   "size": 10.6,
+   "testo": "AVANZAMENTO DEI PERSONAGGI",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    319.5,
+    331.8,
+    345.8,
+    341.0
+   ],
+   "size": 8.2,
+   "testo": "Livello",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    329.2,
+    360.6,
+    335.2,
+    370.3
+   ],
+   "size": 8.4,
+   "testo": "2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    329.3,
+    375.3,
+    334.8,
+    384.9
+   ],
+   "size": 8.4,
+   "testo": "3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    328.8,
+    389.8,
+    335.1,
+    399.4
+   ],
+   "size": 8.4,
+   "testo": "4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    329.3,
+    404.4,
+    334.8,
+    414.0
+   ],
+   "size": 8.4,
+   "testo": "5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    329.1,
+    419.2,
+    335.1,
+    428.8
+   ],
+   "size": 8.4,
+   "testo": "6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    329.3,
+    433.6,
+    335.0,
+    443.2
+   ],
+   "size": 8.4,
+   "testo": "7",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    329.0,
+    448.3,
+    335.0,
+    457.9
+   ],
+   "size": 8.4,
+   "testo": "8",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    329.0,
+    462.8,
+    335.0,
+    472.5
+   ],
+   "size": 8.4,
+   "testo": "9",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.2,
+    477.3,
+    338.8,
+    487.0
+   ],
+   "size": 8.4,
+   "testo": "10",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.4,
+    491.9,
+    337.4,
+    501.6
+   ],
+   "size": 8.4,
+   "testo": "11",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.3,
+    506.6,
+    338.5,
+    516.2
+   ],
+   "size": 8.4,
+   "testo": "12",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.3,
+    521.2,
+    338.3,
+    530.8
+   ],
+   "size": 8.4,
+   "testo": "13",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.1,
+    535.7,
+    338.8,
+    545.4
+   ],
+   "size": 8.4,
+   "testo": "14",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.3,
+    550.4,
+    338.5,
+    560.0
+   ],
+   "size": 8.4,
+   "testo": "15",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.2,
+    564.9,
+    338.6,
+    574.5
+   ],
+   "size": 8.4,
+   "testo": "16",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.4,
+    579.4,
+    338.5,
+    589.1
+   ],
+   "size": 8.4,
+   "testo": "17",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.2,
+    594.0,
+    338.6,
+    603.7
+   ],
+   "size": 8.4,
+   "testo": "18",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    327.2,
+    608.7,
+    338.6,
+    618.4
+   ],
+   "size": 8.4,
+   "testo": "19",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    326.7,
+    623.4,
+    337.6,
+    633.1
+   ],
+   "size": 8.4,
+   "testo": "20",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    368.1,
+    331.9,
+    432.4,
+    341.1
+   ],
+   "size": 8.2,
+   "testo": "Punti esperienza",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    450.8,
+    331.9,
+    533.3,
+    341.1
+   ],
+   "size": 8.2,
+   "testo": "Bonus di competenza",
+   "col": "D",
+   "corta": false
+  },
+  {
+   "bbox": [
+    410.5,
+    346.6,
+    416.5,
+    355.7
+   ],
+   "size": 6.9,
+   "testo": "o",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    486.2,
+    346.2,
+    496.7,
+    355.8
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.4,
+    360.7,
+    417.5,
+    370.4
+   ],
+   "size": 8.4,
+   "testo": "300",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.8,
+    360.7,
+    497.4,
+    370.3
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    401.0,
+    375.3,
+    417.5,
+    384.9
+   ],
+   "size": 8.4,
+   "testo": "900",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.9,
+    375.3,
+    497.3,
+    384.9
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.4,
+    389.9,
+    417.6,
+    399.5
+   ],
+   "size": 8.4,
+   "testo": "2.700",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.8,
+    389.9,
+    497.7,
+    399.5
+   ],
+   "size": 8.4,
+   "testo": "+2",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    394.0,
+    404.6,
+    417.5,
+    414.2
+   ],
+   "size": 8.4,
+   "testo": "6.500",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.9,
+    404.4,
+    497.1,
+    414.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    390.2,
+    419.2,
+    417.5,
+    428.8
+   ],
+   "size": 8.4,
+   "testo": "14.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.9,
+    419.2,
+    497.1,
+    428.8
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    389.4,
+    433.7,
+    417.5,
+    443.3
+   ],
+   "size": 8.4,
+   "testo": "23.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.9,
+    433.7,
+    497.1,
+    443.3
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    389.5,
+    448.3,
+    417.6,
+    457.9
+   ],
+   "size": 8.4,
+   "testo": "34.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.9,
+    448.2,
+    497.1,
+    457.8
+   ],
+   "size": 8.4,
+   "testo": "+3",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    388.8,
+    462.8,
+    417.6,
+    472.5
+   ],
+   "size": 8.4,
+   "testo": "48.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.7,
+    462.8,
+    497.8,
+    472.4
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    389.2,
+    477.4,
+    417.5,
+    487.0
+   ],
+   "size": 8.4,
+   "testo": "64.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.7,
+    477.4,
+    497.8,
+    487.0
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    389.3,
+    492.0,
+    417.6,
+    501.6
+   ],
+   "size": 8.4,
+   "testo": "85.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.5,
+    491.9,
+    497.7,
+    501.6
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.9,
+    506.6,
+    417.6,
+    516.3
+   ],
+   "size": 8.4,
+   "testo": "100.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.5,
+    506.6,
+    497.7,
+    516.2
+   ],
+   "size": 8.4,
+   "testo": "+4",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.4,
+    521.3,
+    417.4,
+    530.9
+   ],
+   "size": 8.4,
+   "testo": "120.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.8,
+    521.2,
+    497.4,
+    530.9
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.4,
+    535.8,
+    417.6,
+    545.4
+   ],
+   "size": 8.4,
+   "testo": "140.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.8,
+    535.8,
+    497.4,
+    545.6
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.5,
+    550.4,
+    417.5,
+    560.0
+   ],
+   "size": 8.4,
+   "testo": "165.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.8,
+    550.3,
+    497.2,
+    560.1
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.5,
+    564.9,
+    417.5,
+    574.6
+   ],
+   "size": 8.4,
+   "testo": "195.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.8,
+    564.9,
+    497.2,
+    574.6
+   ],
+   "size": 8.4,
+   "testo": "+5",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.6,
+    579.5,
+    417.4,
+    589.2
+   ],
+   "size": 8.4,
+   "testo": "225.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.5,
+    579.5,
+    497.6,
+    589.2
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.0,
+    594.1,
+    417.4,
+    603.7
+   ],
+   "size": 8.4,
+   "testo": "265.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.5,
+    594.1,
+    497.6,
+    603.7
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    384.8,
+    608.8,
+    417.4,
+    618.4
+   ],
+   "size": 8.4,
+   "testo": "305.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.5,
+    608.8,
+    497.8,
+    618.4
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    385.4,
+    623.5,
+    417.5,
+    633.1
+   ],
+   "size": 8.4,
+   "testo": "355.000",
+   "col": "D",
+   "corta": true
+  },
+  {
+   "bbox": [
+    485.5,
+    623.5,
+    497.6,
+    633.1
+   ],
+   "size": 8.4,
+   "testo": "+6",
+   "col": "D",
+   "corta": true
+  }
+ ]
+}
