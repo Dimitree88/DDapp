@@ -1,9 +1,9 @@
-export type FieldHelp = { meaning: string; effect?: string; rule?: boolean };
+export type FieldHelp = { meaning: string; effect?: string; rule?: boolean; page?: number | string };
 
 export const fieldHelp: Record<string, FieldHelp> = {
   "Nome personaggio": { meaning: "Nome con cui il personaggio è identificato nell'app." },
   Livello: { meaning: "Livello totale del personaggio.", effect: "Aggiorna il bonus competenza e tutti i calcoli che lo usano, inclusa l'Iniziativa con Allerta.", rule: true },
-  Classe: { meaning: "Classe iniziale del personaggio.", effect: "Determina le opzioni di Sottoclasse mostrate; le capacità di classe si registrano separatamente.", rule: true },
+  Classe: { meaning: "Classe iniziale del personaggio.", effect: "Determina le opzioni di sottoclasse e i privilegi acquisiti mostrati in base al livello.", rule: true, page: 33 },
   Sottoclasse: { meaning: "Specializzazione della Classe, scelta quando le regole la concedono.", rule: true },
   "Punti Ferita": { meaning: "Punti ferita attuali.", rule: true },
   "Punti Ferita Massimi": { meaning: "Limite ordinario dei punti ferita del personaggio.", rule: true },
@@ -14,11 +14,11 @@ export const fieldHelp: Record<string, FieldHelp> = {
   "Ispirazione Eroica": { meaning: "Risorsa che permette di ritirare un dado secondo le regole 2024.", rule: true },
   "Velocità": { meaning: "Velocità di movimento registrata in metri.", rule: true },
   Allineamento: { meaning: "Descrizione generale dell'orientamento morale del personaggio.", rule: true },
-  "Taglia base": { meaning: "Taglia ordinaria determinata dalla Specie; alcune Specie consentono una scelta tra Piccola e Media.", rule: true },
+  "Taglia base": { meaning: "Taglia ordinaria determinata dalla Specie; alcune Specie consentono una scelta tra Piccola e Media.", rule: true, page: 25 },
   Specie: { meaning: "Specie del personaggio e origine dei suoi tratti. È una scelta iniziale fissa.", rule: true },
   Background: { meaning: "Origine e occupazione che hanno formato il personaggio prima dell'avventura.", rule: true },
   Lignaggio: { meaning: "Variante prevista da alcune Specie, come Elfo, Gnomo e Tiefling.", rule: true },
-  Lingue: { meaning: "Lingue che il personaggio conosce: può usarle per comunicare, leggere e scrivere.", rule: true },
+  Lingue: { meaning: "Lingue che il personaggio conosce: può usarle per comunicare, leggere e scrivere.", rule: true, page: 37 },
   "Note lingue": { meaning: "Dettagli personali sulle lingue conosciute." },
   Valore: { meaning: "Punteggio di una delle sei caratteristiche.", effect: "Aggiorna il modificatore, i tiri salvezza, le abilità collegate e gli altri calcoli derivati.", rule: true },
   "Valore.FOR": { meaning: "Forza: potenza fisica e capacità di esercitare forza.", effect: "Aggiorna il modificatore di Forza, il suo tiro salvezza e Atletica.", rule: true },
@@ -44,8 +44,8 @@ export const fieldHelp: Record<string, FieldHelp> = {
   Privilegi: { meaning: "Privilegi e capacità ottenuti da classe, specie o altre fonti.", rule: true },
   Titolo: { meaning: "Nome del privilegio o della capacità." },
   "Scelte privilegio": { meaning: "Scelte e dettagli personali legati a un privilegio." },
-  Talenti: { meaning: "Talenti acquisiti dal personaggio.", effect: "Il talento Allerta aumenta automaticamente l'Iniziativa; gli altri effetti vanno registrati dove pertinenti.", rule: true },
-  "Nome talento": { meaning: "Talento selezionato per il personaggio.", effect: "Allerta aggiunge il bonus competenza all'Iniziativa; gli altri effetti non sono tutti automatici.", rule: true },
+  Talenti: { meaning: "Talenti acquisiti dal personaggio.", effect: "Allerta aggiorna l'Iniziativa e Lavoro manuale registra le competenze negli strumenti scelte. Gli altri effetti vanno registrati dove pertinenti.", rule: true, page: 199 },
+  "Nome talento": { meaning: "Talento selezionato per il personaggio.", effect: "L'app applica automaticamente solo gli effetti dei talenti che ha modellato esplicitamente.", rule: true, page: 199 },
   "Scelte talento": { meaning: "Scelte personali richieste o concesse dal talento.", rule: true },
   Incantesimi: { meaning: "Incantesimi registrati nella scheda.", rule: true },
   "Nome incantesimo": { meaning: "Nome dell'incantesimo scelto dal catalogo.", rule: true },

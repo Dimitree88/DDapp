@@ -37,7 +37,7 @@ import { weaponByName, weaponDetails } from "@/lib/weaponDetails";
 import { availableWeaponMasteries, proficientWeaponNames, weaponMasteryLimit } from "@/lib/weaponChoices";
 import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
-import { gearCatalog, gearById } from "@/lib/gearCatalog";
+import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
 import { availableFeatChoices, availablePrivilegeChoices, featGrants, grantedPrivileges, privilegeOptions } from "@/lib/characterGrants";
 import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
@@ -563,20 +563,20 @@ export default function CharacterClient({
   const language = fieldInfo?.id.startsWith("lingua:") ? languageDetails(fieldInfo.id.slice("lingua:".length)) : null;
   const weapon = fieldInfo?.id.startsWith("arma:") ? weaponDetails(fieldInfo.id.slice("arma:".length)) : null;
   const weaponCompetencyName = fieldInfo?.id.startsWith("competenzaArma:") ? fieldInfo.id.slice("competenzaArma:".length) : null;
-  const weaponCompetencyInfo = weaponCompetencyName ? { meaning: weaponCompetencyDetails(sheet, weaponCompetencyName), rule: true } : null;
+  const weaponCompetencyInfo = weaponCompetencyName ? { meaning: weaponCompetencyDetails(sheet, weaponCompetencyName), rule: true, page: 215 } : null;
   const toolCompetencyName = fieldInfo?.id.startsWith("competenzaStrumento:") ? fieldInfo.id.slice("competenzaStrumento:".length) : null;
-  const toolCompetencyInfo = toolCompetencyName ? { meaning: toolCompetencyDetails(sheet, toolCompetencyName), rule: true } : null;
+  const toolCompetencyInfo = toolCompetencyName ? { meaning: toolCompetencyDetails(sheet, toolCompetencyName), rule: true, page: gearByName(toolCompetencyName)?.sourcePage ?? 220 } : null;
   const masteryName = fieldInfo?.id.startsWith("padronanza:") ? fieldInfo.id.slice("padronanza:".length) : null;
   const masteryWeapon = masteryName ? weaponByName(masteryName) : null;
-  const masteryInfo = masteryWeapon ? { meaning: `${weaponDetails(masteryWeapon.name)}\n\nPadronanza ${masteryWeapon.mastery}: ${masteryEffects[masteryWeapon.mastery] ?? ""}\n\nConcessa dalla classe ${sheet.classe}: ${weaponMasteryLimit(sheet)} scelte al livello ${sheet.livello}.`, rule: true } : null;
+  const masteryInfo = masteryWeapon ? { meaning: `${weaponDetails(masteryWeapon.name)}\n\nPadronanza ${masteryWeapon.mastery}: ${masteryEffects[masteryWeapon.mastery] ?? ""}\n\nConcessa dalla classe ${sheet.classe}: ${weaponMasteryLimit(sheet)} scelte al livello ${sheet.livello}.`, rule: true, page: 214 } : null;
   const selectedArmor = sheet.equipaggiamento.find((item) => item.indossato && armorForEquipment(item)?.category !== "scudi");
   const selectedShield = sheet.equipaggiamento.find((item) => item.impugnato && armorForEquipment(item)?.category === "scudi");
   const carriedArmors = sheet.equipaggiamento.filter((item) => armorForEquipment(item)?.category !== "scudi" && isArmorEquipment(item) && !item.indossato);
   const carriedShields = sheet.equipaggiamento.filter((item) => armorForEquipment(item)?.category === "scudi" && !item.impugnato);
   const armorBaseInfo = selectedArmor ? equipmentDetails(selectedArmor.nome, selectedArmor.dettaglio) : null;
   const shieldBaseInfo = selectedShield ? equipmentDetails(selectedShield.nome, selectedShield.dettaglio) : null;
-  const armorSelectionInfo = fieldInfo?.id === "armaturaSelezionata" ? { meaning: [armorBaseInfo?.meaning ?? "Nessuna armatura indossata.", selectedArmor?.bonusMagico && `Bonus magico alla CA: +${selectedArmor.bonusMagico}.`, ...carriedArmors.map((item) => `Trasportata: ${item.nome}. ${equipmentDetails(item.nome)?.meaning ?? ""}`)].filter(Boolean).join("\n\n"), rule: true } : null;
-  const shieldSelectionInfo = fieldInfo?.id === "scudoSelezionato" ? { meaning: [shieldBaseInfo?.meaning ?? (sheet.scudo ? equipmentDetails("Scudo")?.meaning : "Nessuno scudo impugnato."), selectedShield?.bonusMagico && `Bonus magico alla CA: +${selectedShield.bonusMagico}.`, ...carriedShields.map((item) => `Trasportato: ${item.nome}. ${equipmentDetails(item.nome)?.meaning ?? ""}`)].filter(Boolean).join("\n\n"), rule: true } : null;
+  const armorSelectionInfo = fieldInfo?.id === "armaturaSelezionata" ? { meaning: [armorBaseInfo?.meaning ?? "Nessuna armatura indossata.", selectedArmor?.bonusMagico && `Bonus magico alla CA: +${selectedArmor.bonusMagico}.`, ...carriedArmors.map((item) => `Trasportata: ${item.nome}. ${equipmentDetails(item.nome)?.meaning ?? ""}`)].filter(Boolean).join("\n\n"), rule: true, page: 219 } : null;
+  const shieldSelectionInfo = fieldInfo?.id === "scudoSelezionato" ? { meaning: [shieldBaseInfo?.meaning ?? (sheet.scudo ? equipmentDetails("Scudo")?.meaning : "Nessuno scudo impugnato."), selectedShield?.bonusMagico && `Bonus magico alla CA: +${selectedShield.bonusMagico}.`, ...carriedShields.map((item) => `Trasportato: ${item.nome}. ${equipmentDetails(item.nome)?.meaning ?? ""}`)].filter(Boolean).join("\n\n"), rule: true, page: 219 } : null;
   const ownedWeaponIndex = fieldInfo?.id.startsWith("armaPosseduta:") ? Number(fieldInfo.id.slice("armaPosseduta:".length)) : -1;
   const ownedWeapon = ownedWeaponIndex >= 0 ? sheet.armi[ownedWeaponIndex] : null;
   const ownedWeaponBase = ownedWeapon ? weaponDetails(ownedWeapon.nome) : null;
@@ -585,6 +585,7 @@ export default function CharacterClient({
   const ownedWeaponInfo = ownedWeaponBase || ownedWeapon?.note ? {
     meaning: [ownedWeaponBase, ownedWeapon?.modo && ownedWeapon.modo !== "base" && `Uso: ${ownedWeapon.modo === "lancio" ? "Lancio" : "Due mani"}.`, ownedWeapon?.caratteristica && `Caratteristica scelta: ${ownedWeapon.caratteristica}.`, ownedWeaponCalculation && `Attacco calcolato: ${ownedWeaponCalculation.formula}. Danno: ${ownedWeaponCalculation.damage || "punteggio da inserire"}.`, ownedMastery && `Padronanza scelta: ${ownedMastery}. ${masteryEffects[ownedMastery] ?? ""}`, ownedWeapon?.bonusMagico && `Bonus magico: +${ownedWeapon.bonusMagico}.`, ownedWeapon?.bonus && `Bonus al tiro per colpire manuale: ${ownedWeapon.bonus} (prevale sul calcolo).`, ownedWeapon?.note && `Dettaglio personale: ${ownedWeapon.note}`].filter(Boolean).join("\n\n"),
     rule: Boolean(ownedWeaponBase),
+    page: ownedWeaponBase ? weaponByName(ownedWeapon?.nome ?? "")?.pages : undefined,
   } : null;
   const valueId = fieldInfo?.id.startsWith("valore:") ? fieldInfo.id.slice("valore:".length) : null;
   const valueKind = valueId?.slice(0, valueId.indexOf(":")) ?? "";
@@ -605,8 +606,9 @@ export default function CharacterClient({
   const privilegeInfo = privilegeBase || privilege?.scelte ? {
     meaning: [privilegeBase?.meaning, privilege?.scelte && `Scelte personali: ${privilege.scelte}`].filter(Boolean).join("\n\n"),
     rule: privilegeBase?.rule,
+    page: privilegeBase?.page,
   } : null;
-  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true, page: language.page } : weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true, page: weaponByName(fieldInfo.id.slice("arma:".length))?.pages } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -948,10 +950,10 @@ export default function CharacterClient({
           <h3 className={sectionTitle}>Privilegi acquisiti</h3>
           <div className="mb-3 flex flex-col gap-2">
             {grantedPrivileges(sheet).map((grant, index) => {
-              const saved = sheet.privilegi.find((item) => item.titolo === grant.name);
+              const saved = sheet.privilegi.find((item) => item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0);
               return <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
                 <p className="text-sm font-semibold text-ink">{grant.name}</p>
-                <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}</p>
+                <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
                 {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
               </div>;
             })}
@@ -1288,6 +1290,7 @@ export default function CharacterClient({
                   </div>
                   {fieldHelp && <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed"><DiceText text={fieldHelp.meaning} /></p>}
                   {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed"><DiceText text={fieldHelp.effect} /></p></>}
+                  {fieldHelp?.page && <p className="mt-4 text-xs text-ink-soft">Manuale del Giocatore 2024, p. {fieldHelp.page}</p>}
                   {object && <div className="mt-4 flex flex-col gap-2 border-t border-line pt-3">
                     <TextField label="Oggetto" showInfo={false} showEditIcon value={object.nome} onChange={(name) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: name, catalogId: gearById(item.catalogId ?? "")?.name === name ? item.catalogId : undefined } : item) })} />
                     <TextField label="Dettaglio personale" showInfo={false} showEditIcon value={object.dettaglio} onChange={(dettaglio) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, dettaglio } : item) })} multiline />

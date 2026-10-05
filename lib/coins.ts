@@ -1,6 +1,6 @@
 import type { Sheet } from "./sheet";
 
-// Valore della moneta, SRD 5.2.1 italiano, p. 100. Il totale non modifica le monete.
+// Valore della moneta, Manuale del Giocatore 2024, p. 213. Il totale non modifica le monete.
 export function coinTotalGold(coins: Sheet["monete"]): string | null {
   const values = Object.values(coins);
   if (values.some((value) => value && !/^\d+$/.test(value))) return null;

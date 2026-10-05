@@ -2,721 +2,895 @@
   "Barbaro": [
     {
       "level": 1,
-      "name": "Ira"
+      "name": "Difesa Senza Armatura",
+      "page": 51
     },
     {
       "level": 1,
-      "name": "Difesa senza armatura"
+      "name": "Ira",
+      "page": 51
     },
     {
       "level": 1,
-      "name": "Padronanza d'armi"
+      "name": "Padronanza d'Armi",
+      "page": 51
     },
     {
       "level": 2,
-      "name": "Percezione del pericolo"
+      "name": "Attacco Irruento",
+      "page": 52
     },
     {
       "level": 2,
-      "name": "Attacco irruento"
+      "name": "Percezione del Pericolo",
+      "page": 52
     },
     {
       "level": 3,
-      "name": "Sottoclasse del barbaro"
+      "name": "Conoscenza Primordiale",
+      "page": 52
     },
     {
       "level": 3,
-      "name": "Conoscenza primordiale"
+      "name": "Sottoclasse del Barbaro",
+      "page": 52
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 52
     },
     {
       "level": 5,
-      "name": "Attacco extra"
+      "name": "Attacco Extra",
+      "page": 52
     },
     {
       "level": 5,
-      "name": "Movimento veloce"
+      "name": "Movimento Veloce",
+      "page": 52
     },
     {
       "level": 7,
-      "name": "Istinto ferino"
+      "name": "Balzo Istintivo",
+      "page": 52
     },
     {
       "level": 7,
-      "name": "Balzo istintivo"
+      "name": "Istinto Ferino",
+      "page": 53
     },
     {
       "level": 9,
-      "name": "Colpo brutale"
+      "name": "Colpo Brutale",
+      "page": 53
     },
     {
       "level": 11,
-      "name": "Ira implacabile"
+      "name": "Ira Implacabile",
+      "page": 53
     },
     {
       "level": 13,
-      "name": "Colpo brutale migliorato"
+      "name": "Colpo Brutale Migliorato",
+      "page": 53
     },
     {
       "level": 15,
-      "name": "Ira persistente"
+      "name": "Ira Persistente",
+      "page": 53
     },
     {
       "level": 17,
-      "name": "Colpo brutale migliorato"
+      "name": "Colpo Brutale Migliorato",
+      "page": 53
     },
     {
       "level": 18,
-      "name": "Potenza indomabile"
+      "name": "Potenza Indomabile",
+      "page": 53
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 53
     },
     {
       "level": 20,
-      "name": "Campione primordiale"
+      "name": "Campione Primordiale",
+      "page": 53
     }
   ],
   "Bardo": [
     {
       "level": 1,
-      "name": "Ispirazione bardica"
+      "name": "Incantesimi",
+      "page": 59
     },
     {
       "level": 1,
-      "name": "Incantesimi"
+      "name": "Ispirazione Bardica",
+      "page": 60
     },
     {
       "level": 2,
-      "name": "Maestria"
+      "name": "Factotum",
+      "page": 60
     },
     {
       "level": 2,
-      "name": "Factotum"
+      "name": "Maestria",
+      "page": 60
     },
     {
       "level": 3,
-      "name": "Sottoclasse del bardo"
+      "name": "Sottoclasse del Bardo",
+      "page": 60
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 61
     },
     {
       "level": 5,
-      "name": "Fonte di ispirazione"
+      "name": "Fonte di Ispirazione",
+      "page": 61
     },
     {
       "level": 7,
-      "name": "Controfascino"
+      "name": "Controfascino",
+      "page": 61
     },
     {
       "level": 10,
-      "name": "Segreti magici"
+      "name": "Segreti Magici",
+      "page": 61
     },
     {
       "level": 18,
-      "name": "Ispirazione superiore"
+      "name": "Ispirazione Superiore",
+      "page": 61
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 61
     },
     {
       "level": 20,
-      "name": "Parole della creazione"
+      "name": "Parole della Creazione",
+      "page": 61
     }
   ],
   "Chierico": [
     {
       "level": 1,
-      "name": "Incantesimi"
+      "name": "Incantesimi",
+      "page": 69
     },
     {
       "level": 1,
-      "name": "Ordine divino"
+      "name": "Ordine Divino",
+      "page": 70
     },
     {
       "level": 2,
-      "name": "Incanalare divinità"
+      "name": "Incanalare Divinità",
+      "page": 70
     },
     {
       "level": 3,
-      "name": "Sottoclasse del chierico"
+      "name": "Sottoclasse del Chierico",
+      "page": 71
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 71
     },
     {
       "level": 5,
-      "name": "Bruciare i non morti"
+      "name": "Bruciare i Non Morti",
+      "page": 71
     },
     {
       "level": 7,
-      "name": "Colpi benedetti"
+      "name": "Colpi Benedetti",
+      "page": 71
     },
     {
       "level": 10,
-      "name": "Intervento divino"
+      "name": "Intervento Divino",
+      "page": 71
     },
     {
       "level": 14,
-      "name": "Colpi benedetti migliorati"
+      "name": "Colpi Benedetti Migliorati",
+      "page": 71
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 71
     },
     {
       "level": 20,
-      "name": "Intervento divino superiore"
+      "name": "Intervento Divino Superiore",
+      "page": 71
     }
   ],
   "Druido": [
     {
       "level": 1,
-      "name": "Incantesimi"
+      "name": "Incantesimi",
+      "page": 79
     },
     {
       "level": 1,
-      "name": "Druidico"
+      "name": "Druidico",
+      "page": 80
     },
     {
       "level": 1,
-      "name": "Ordine primordiale"
+      "name": "Ordine Primordiale",
+      "page": 80
     },
     {
       "level": 2,
-      "name": "Forma selvatica"
+      "name": "Compagno Selvatico",
+      "page": 80
     },
     {
       "level": 2,
-      "name": "Compagno selvatico"
+      "name": "Forma Selvatica",
+      "page": 80
     },
     {
       "level": 3,
-      "name": "Sottoclasse del druido"
+      "name": "Sottoclasse del Druido",
+      "page": 81
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 81
     },
     {
       "level": 5,
-      "name": "Rinascita selvatica"
+      "name": "Rinascita Selvatica",
+      "page": 81
     },
     {
       "level": 7,
-      "name": "Furia elementale"
+      "name": "Furia Elementale",
+      "page": 81
     },
     {
       "level": 15,
-      "name": "Furia elementale migliorata"
+      "name": "Furia Elementale Migliorata",
+      "page": 81
     },
     {
       "level": 18,
-      "name": "Incantesimi bestiali"
+      "name": "Incantesimi Bestiali",
+      "page": 82
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 82
     },
     {
       "level": 20,
-      "name": "Arcidruido"
+      "name": "Arcidruido",
+      "page": 82
     }
   ],
   "Guerriero": [
     {
       "level": 1,
-      "name": "Stile di combattimento"
+      "name": "Padronanza d'Armi",
+      "page": 91
     },
     {
       "level": 1,
-      "name": "Recuperare energie"
+      "name": "Recuperare Energie",
+      "page": 91
     },
     {
       "level": 1,
-      "name": "Padronanza d'armi"
+      "name": "Stile di Combattimento",
+      "page": 91
     },
     {
       "level": 2,
-      "name": "Azione impetuosa"
+      "name": "Azione Impetuosa",
+      "page": 91
     },
     {
       "level": 2,
-      "name": "Mente tattica"
+      "name": "Mente Tattica",
+      "page": 91
     },
     {
       "level": 3,
-      "name": "Sottoclasse del guerriero"
+      "name": "Sottoclasse del Guerriero",
+      "page": 92
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 92
     },
     {
       "level": 5,
-      "name": "Attacco extra"
+      "name": "Attacco Extra",
+      "page": 92
     },
     {
       "level": 5,
-      "name": "Spostamento tattico"
+      "name": "Spostamento Tattico",
+      "page": 92
     },
     {
       "level": 9,
-      "name": "Indomabile"
+      "name": "Indomabile",
+      "page": 92
     },
     {
       "level": 9,
-      "name": "Signore delle tattiche"
+      "name": "Signore delle Tattiche",
+      "page": 92
     },
     {
       "level": 11,
-      "name": "Due attacchi extra"
+      "name": "Due Attacchi Extra",
+      "page": 92
     },
     {
       "level": 13,
-      "name": "Attacchi studiati"
+      "name": "Attacchi Studiati",
+      "page": 92
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 92
     },
     {
       "level": 20,
-      "name": "Tre attacchi extra"
+      "name": "Tre Attacchi Extra",
+      "page": 92
     }
   ],
   "Ladro": [
     {
       "level": 1,
-      "name": "Maestria"
+      "name": "Attacco Furtivo",
+      "page": 101
     },
     {
       "level": 1,
-      "name": "Attacco furtivo"
+      "name": "Gergo Ladresco",
+      "page": 101
     },
     {
       "level": 1,
-      "name": "Gergo ladresco"
+      "name": "Maestria",
+      "page": 101
     },
     {
       "level": 1,
-      "name": "Padronanza d'armi"
+      "name": "Padronanza d'Armi",
+      "page": 101
     },
     {
       "level": 2,
-      "name": "Azione scaltra"
+      "name": "Azione Scaltra",
+      "page": 101
     },
     {
       "level": 3,
-      "name": "Sottoclasse del ladro"
+      "name": "Mira Ferma",
+      "page": 101
     },
     {
       "level": 3,
-      "name": "Mira ferma"
+      "name": "Sottoclasse del Ladro",
+      "page": 102
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 102
     },
     {
       "level": 5,
-      "name": "Colpo astuto"
+      "name": "Colpo Astuto",
+      "page": 102
     },
     {
       "level": 5,
-      "name": "Schivata prodigiosa"
+      "name": "Schivata Prodigiosa",
+      "page": 102
     },
     {
       "level": 7,
-      "name": "Elusione"
+      "name": "Dote Affidabile",
+      "page": 102
     },
     {
       "level": 7,
-      "name": "Dote affidabile"
+      "name": "Elusione",
+      "page": 102
     },
     {
       "level": 11,
-      "name": "Colpo astuto migliorato"
+      "name": "Colpo Astuto Migliorato",
+      "page": 103
     },
     {
       "level": 14,
-      "name": "Colpi infidi"
+      "name": "Colpi Infidi",
+      "page": 103
     },
     {
       "level": 15,
-      "name": "Mente sfuggente"
+      "name": "Mente Sfuggente",
+      "page": 103
     },
     {
       "level": 18,
-      "name": "Inafferrabile"
+      "name": "Inafferrabile",
+      "page": 103
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 103
     },
     {
       "level": 20,
-      "name": "Colpo di fortuna"
+      "name": "Colpo di Fortuna",
+      "page": 103
     }
   ],
   "Mago": [
     {
       "level": 1,
-      "name": "Incantesimi"
+      "name": "Incantesimi",
+      "page": 111
     },
     {
       "level": 1,
-      "name": "Adepto dei rituali"
+      "name": "Adepto dei Rituali",
+      "page": 112
     },
     {
       "level": 1,
-      "name": "Recupero arcano"
+      "name": "Recupero Arcano",
+      "page": 112
     },
     {
       "level": 2,
-      "name": "Studioso"
+      "name": "Studioso",
+      "page": 112
     },
     {
       "level": 3,
-      "name": "Sottoclasse del mago"
+      "name": "Sottoclasse del Mago",
+      "page": 113
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 113
     },
     {
       "level": 5,
-      "name": "Memorizzare incantesimi"
+      "name": "Memorizzare Incantesimi",
+      "page": 113
     },
     {
       "level": 18,
-      "name": "Maestria negli incantesimi"
+      "name": "Maestria negli Incantesimi",
+      "page": 113
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 113
     },
     {
       "level": 20,
-      "name": "Incantesimi personali"
+      "name": "Incantesimi Personali",
+      "page": 113
     }
   ],
   "Monaco": [
     {
       "level": 1,
-      "name": "Arti marziali"
+      "name": "Arti Marziali",
+      "page": 123
     },
     {
       "level": 1,
-      "name": "Difesa senza armatura"
+      "name": "Difesa Senza Armatura",
+      "page": 123
     },
     {
       "level": 2,
-      "name": "Concentrazione da monaco"
+      "name": "Concentrazione da Monaco",
+      "page": 123
     },
     {
       "level": 2,
-      "name": "Movimento senza armatura"
+      "name": "Metabolismo Straordinario",
+      "page": 124
     },
     {
       "level": 2,
-      "name": "Metabolismo straordinario"
+      "name": "Movimento Senza Armatura",
+      "page": 124
     },
     {
       "level": 3,
-      "name": "Devia attacchi"
+      "name": "Devia Attacchi",
+      "page": 124
     },
     {
       "level": 3,
-      "name": "Sottoclasse del monaco"
+      "name": "Sottoclasse del Monaco",
+      "page": 125
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 125
     },
     {
       "level": 4,
-      "name": "Caduta lenta"
+      "name": "Caduta Lenta",
+      "page": 125
     },
     {
       "level": 5,
-      "name": "Attacco extra"
+      "name": "Attacco Extra",
+      "page": 125
     },
     {
       "level": 5,
-      "name": "Colpo stordente"
+      "name": "Colpo Stordente",
+      "page": 125
     },
     {
       "level": 6,
-      "name": "Colpi potenziati"
+      "name": "Colpi Potenziati",
+      "page": 125
     },
     {
       "level": 7,
-      "name": "Elusione"
+      "name": "Elusione",
+      "page": 125
     },
     {
       "level": 9,
-      "name": "Movimento acrobatico"
+      "name": "Movimento Acrobatico",
+      "page": 125
     },
     {
       "level": 10,
-      "name": "Concentrazione superiore"
+      "name": "Autorigenerazione",
+      "page": 125
     },
     {
       "level": 10,
-      "name": "Autorigenerazione"
+      "name": "Concentrazione Superiore",
+      "page": 125
     },
     {
       "level": 13,
-      "name": "Deviare energia"
+      "name": "Deviare Energia",
+      "page": 125
     },
     {
       "level": 14,
-      "name": "Esperto di sopravvivenza"
+      "name": "Esperto di Sopravvivenza Disciplinato",
+      "page": 125
     },
     {
       "level": 15,
-      "name": "Concentrazione perfetta"
+      "name": "Concentrazione Perfetta",
+      "page": 125
     },
     {
       "level": 18,
-      "name": "Difesa superiore"
+      "name": "Difesa Superiore",
+      "page": 125
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 125
     },
     {
       "level": 20,
-      "name": "Corpo e mente"
+      "name": "Corpo e Mente",
+      "page": 125
     }
   ],
   "Paladino": [
     {
       "level": 1,
-      "name": "Imposizione delle mani"
+      "name": "Imposizione delle Mani",
+      "page": 131
     },
     {
       "level": 1,
-      "name": "Incantesimi"
+      "name": "Incantesimi",
+      "page": 131
     },
     {
       "level": 1,
-      "name": "Padronanza d'armi"
+      "name": "Padronanza d'Armi",
+      "page": 132
     },
     {
       "level": 2,
-      "name": "Stile di combattimento"
+      "name": "Punizione del Paladino",
+      "page": 132
     },
     {
       "level": 2,
-      "name": "Punizione del paladino"
+      "name": "Stile di Combattimento",
+      "page": 132
     },
     {
       "level": 3,
-      "name": "Incanalare divinità"
+      "name": "Incanalare Divinità",
+      "page": 132
     },
     {
       "level": 3,
-      "name": "Sottoclasse del paladino"
+      "name": "Sottoclasse del Paladino",
+      "page": 133
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 133
     },
     {
       "level": 5,
-      "name": "Attacco extra"
+      "name": "Attacco Extra",
+      "page": 133
     },
     {
       "level": 5,
-      "name": "Fido destriero"
+      "name": "Fido Destriero",
+      "page": 133
     },
     {
       "level": 6,
-      "name": "Aura di protezione"
+      "name": "Aura di Protezione",
+      "page": 133
     },
     {
       "level": 9,
-      "name": "Abiurare nemici"
+      "name": "Abiurare Nemici",
+      "page": 133
     },
     {
       "level": 10,
-      "name": "Aura di coraggio"
+      "name": "Aura di Coraggio",
+      "page": 133
     },
     {
       "level": 11,
-      "name": "Colpi radiosi"
+      "name": "Colpi Radiosi",
+      "page": 133
     },
     {
       "level": 14,
-      "name": "Tocco rigenerante"
+      "name": "Tocco Rigenerante",
+      "page": 133
     },
     {
       "level": 18,
-      "name": "Ampliamento dell'aura"
+      "name": "Ampliamento dell'Aura",
+      "page": 133
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 133
     }
   ],
   "Ranger": [
     {
       "level": 1,
-      "name": "Incantesimi"
+      "name": "Incantesimi",
+      "page": 141
     },
     {
       "level": 1,
-      "name": "Nemico prescelto"
+      "name": "Nemico Prescelto",
+      "page": 141
     },
     {
       "level": 1,
-      "name": "Padronanza d'armi"
+      "name": "Padronanza d'Armi",
+      "page": 141
     },
     {
       "level": 2,
-      "name": "Esploratore esperto"
+      "name": "Esploratore Esperto",
+      "page": 142
     },
     {
       "level": 2,
-      "name": "Stile di combattimento"
+      "name": "Stile di Combattimento",
+      "page": 142
     },
     {
       "level": 3,
-      "name": "Sottoclasse del ranger"
+      "name": "Sottoclasse del Ranger",
+      "page": 142
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 142
     },
     {
       "level": 5,
-      "name": "Attacco extra"
+      "name": "Attacco Extra",
+      "page": 142
     },
     {
       "level": 6,
-      "name": "Girovago"
+      "name": "Girovago",
+      "page": 142
     },
     {
       "level": 9,
-      "name": "Maestria"
+      "name": "Maestria",
+      "page": 142
     },
     {
       "level": 10,
-      "name": "Instancabile"
+      "name": "Instancabile",
+      "page": 142
     },
     {
       "level": 13,
-      "name": "Cacciatore implacabile"
+      "name": "Cacciatore Implacabile",
+      "page": 143
     },
     {
       "level": 14,
-      "name": "Velo della natura"
+      "name": "Velo della Natura",
+      "page": 143
     },
     {
       "level": 17,
-      "name": "Precisione del cacciatore"
+      "name": "Precisione del Cacciatore",
+      "page": 143
     },
     {
       "level": 18,
-      "name": "Sensi ferini"
+      "name": "Sensi Ferini",
+      "page": 143
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 143
     },
     {
       "level": 20,
-      "name": "Sterminatore di nemici"
+      "name": "Sterminatore di Nemici",
+      "page": 143
     }
   ],
   "Stregone": [
     {
       "level": 1,
-      "name": "Incantesimi"
+      "name": "Incantesimi",
+      "page": 151
     },
     {
       "level": 1,
-      "name": "Stregoneria innata"
+      "name": "Stregoneria Innata",
+      "page": 152
     },
     {
       "level": 2,
-      "name": "Fonte di magia"
+      "name": "Fonte di Magia",
+      "page": 152
     },
     {
       "level": 2,
-      "name": "Metamagia"
+      "name": "Metamagia",
+      "page": 153
     },
     {
       "level": 3,
-      "name": "Sottoclasse dello stregone"
+      "name": "Sottoclasse dello Stregone",
+      "page": 153
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 153
     },
     {
       "level": 5,
-      "name": "Ripristino stregonesco"
+      "name": "Ripristino Stregonesco",
+      "page": 153
     },
     {
       "level": 7,
-      "name": "Stregoneria incarnata"
+      "name": "Stregoneria Incarnata",
+      "page": 153
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 153
     },
     {
       "level": 20,
-      "name": "Apoteosi arcana"
+      "name": "Apoteosi Arcana",
+      "page": 153
     }
   ],
   "Warlock": [
     {
       "level": 1,
-      "name": "Suppliche occulte"
+      "name": "Magia del Patto",
+      "page": 165
     },
     {
       "level": 1,
-      "name": "Magia del patto"
+      "name": "Suppliche Occulte",
+      "page": 166
     },
     {
       "level": 2,
-      "name": "Scaltrezza magica"
+      "name": "Scaltrezza Magica",
+      "page": 166
     },
     {
       "level": 3,
-      "name": "Sottoclasse del warlock"
+      "name": "Sottoclasse del Warlock",
+      "page": 166
     },
     {
       "level": 4,
-      "name": "Aumento dei punteggi di caratteristica"
+      "name": "Aumento dei Punteggi di Caratteristica",
+      "page": 166
     },
     {
       "level": 9,
-      "name": "Contatta patrono"
+      "name": "Contatta Patrono",
+      "page": 167
     },
     {
       "level": 11,
-      "name": "Arcanum mistico"
+      "name": "Arcanum Mistico",
+      "page": 167
     },
     {
       "level": 19,
-      "name": "Dono epico"
+      "name": "Dono Epico",
+      "page": 167
     },
     {
       "level": 20,
-      "name": "Maestro dell'occulto"
+      "name": "Maestro dell'Occulto",
+      "page": 167
     }
   ]
 }

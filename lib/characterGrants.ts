@@ -3,9 +3,10 @@ import classFeatures from "./class-feature-grants.json";
 import subclassFeatures from "./subclass-feature-grants.json";
 import { featCatalog } from "./featCatalog";
 import backgrounds from "./manuale-2024-backgrounds.json";
+import pages2024 from "./manuale-2024-pages.json";
 import { featPrerequisitesMet } from "./featPrerequisites";
 
-export type Grant = { name: string; source: string; level?: number; detail?: string };
+export type Grant = { name: string; source: string; level?: number; detail?: string; page?: number };
 
 const backgroundFeats: Record<string, string> = Object.fromEntries(
   Object.entries(backgrounds).map(([name, details]) => [name, details.feat]),
@@ -32,17 +33,23 @@ const lineageTraits: Record<string, string[]> = {
   Abissale: ["Retaggio abissale"], Ctonio: ["Retaggio ctonio"], Infernale: ["Retaggio infernale"],
 };
 
+const lineagePages: Record<string, number> = {
+  Drow: 188, "Elfo alto": 188, "Elfo dei boschi": 188,
+  "Gnomo delle foreste": 190, "Gnomo delle rocce": 190,
+  Abissale: 195, Ctonio: 195, Infernale: 195,
+};
+
 export function grantedPrivileges(sheet: Sheet): Grant[] {
   const level = Number(sheet.livello);
   const fromClass = (classFeatures as Record<string, { level: number; name: string }[]>)[sheet.classe] ?? [];
   return [
     ...fromClass.filter((feature) => feature.level <= level && !feature.name.startsWith("Sottoclasse "))
       .map((feature) => ({ ...feature, source: `Classe: ${sheet.classe}` })),
-    ...(sheet.sottoclasse && level >= 3 ? [{ name: sheet.sottoclasse, source: `Sottoclasse: ${sheet.classe}`, level: 3 }] : []),
+    ...(sheet.sottoclasse && level >= 3 ? [{ name: sheet.sottoclasse, source: `Sottoclasse: ${sheet.classe}`, level: 3, page: (pages2024.subclasses as Record<string, number>)[sheet.sottoclasse] }] : []),
     ...((subclassFeatures as Record<string, { level: number; name: string }[]>)[sheet.sottoclasse] ?? [])
       .filter((feature) => feature.level <= level).map((feature) => ({ ...feature, source: `Sottoclasse: ${sheet.sottoclasse}` })),
-    ...(speciesTraits[sheet.specie] ?? []).map((name) => ({ name, source: `Specie: ${sheet.specie}` })),
-    ...(lineageTraits[sheet.lignaggio] ?? []).map((name) => ({ name, source: `Lignaggio: ${sheet.lignaggio}` })),
+    ...(speciesTraits[sheet.specie] ?? []).map((name) => ({ name, source: `Specie: ${sheet.specie}`, page: (pages2024.species as Record<string, number>)[sheet.specie] })),
+    ...(lineageTraits[sheet.lignaggio] ?? []).map((name) => ({ name, source: `Lignaggio: ${sheet.lignaggio}`, page: lineagePages[sheet.lignaggio] })),
   ];
 }
 
@@ -60,12 +67,12 @@ export function featGrants(sheet: Sheet): Grant[] {
     grants.push({ name: "Talento Stile di combattimento a scelta", source: `Classe: ${sheet.classe}` });
   }
   for (const threshold of [4, 8, 12, 16]) {
-    if (level >= threshold) grants.push({ name: "Talento Generale a scelta", source: `Classe: ${sheet.classe}`, level: threshold });
+    if (level >= threshold) grants.push({ name: "Talento a scelta", source: `Classe: ${sheet.classe}`, level: threshold });
   }
   if (sheet.classe === "Guerriero") for (const threshold of [6, 14]) {
-    if (level >= threshold) grants.push({ name: "Talento Generale a scelta", source: "Classe: Guerriero", level: threshold });
+    if (level >= threshold) grants.push({ name: "Talento a scelta", source: "Classe: Guerriero", level: threshold });
   }
-  if (sheet.classe === "Ladro" && level >= 10) grants.push({ name: "Talento Generale a scelta", source: "Classe: Ladro", level: 10 });
+  if (sheet.classe === "Ladro" && level >= 10) grants.push({ name: "Talento a scelta", source: "Classe: Ladro", level: 10 });
   if (sheet.sottoclasse === "Campione" && level >= 7) grants.push({ name: "Talento Stile di combattimento a scelta", source: "Sottoclasse: Campione", level: 7 });
   if (level >= 19) grants.push({ name: "Dono epico a scelta", source: `Classe: ${sheet.classe}`, level: 19 });
   return grants;
@@ -87,7 +94,9 @@ export function availableFeatChoices(sheet: Sheet): string[] {
       continue;
     }
     const category = categoryFor(grant.name);
-    const choices = featCatalog.filter((feat) => feat.category === category || category === "generali" && feat.category === "origini")
+    // I privilegi di aumento e Dono epico permettono anche un altro talento
+    // di cui si possiedono i prerequisiti (Manuale, pp. 53 e 199).
+    const choices = featCatalog.filter((feat) => category === "donoEpico" || category === "generali" || feat.category === category)
       .filter((feat) => Number(sheet.livello) >= feat.minLevel)
       .filter((feat) => featPrerequisitesMet(sheet, feat.name));
     const index = acquired.findIndex((item) => choices.some((feat) => feat.name === item.nome));

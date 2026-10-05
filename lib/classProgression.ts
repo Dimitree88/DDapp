@@ -1,7 +1,7 @@
 import { abilityModifier } from "./abilityBonus";
 import type { Sheet } from "./sheet";
 
-// Dadi Vita e accesso alla sottoclasse: SRD 5.2.1 italiano, capitolo Classi.
+// Dadi Vita e accesso alla sottoclasse: Manuale del Giocatore 2024, pp. 50-175.
 export const classHitDice: Record<string, 6 | 8 | 10 | 12> = {
   Barbaro: 12, Bardo: 8, Chierico: 8, Druido: 8, Guerriero: 10,
   Ladro: 8, Mago: 6, Monaco: 8, Paladino: 10, Ranger: 10,

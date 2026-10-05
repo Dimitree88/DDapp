@@ -1,7 +1,6 @@
 import type { Sheet } from "./sheet";
 
-// D&D Basic Rules 2024, Core Class Traits:
-// https://www.dndbeyond.com/sources/dnd/br-2024/character-classes
+// Tratti di classe, Manuale del Giocatore 2024, pp. 50-175.
 export const classSavingThrows: Record<string, readonly [string, string]> = {
   Barbaro: ["FOR", "COS"], Bardo: ["DES", "CAR"],
   Chierico: ["SAG", "CAR"], Druido: ["INT", "SAG"],

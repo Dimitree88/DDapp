@@ -28,7 +28,7 @@ export function savingThrowBonus(sheet: Sheet, characteristic: Caratteristica): 
   return signed(Number(modifier) + (characteristic.tsCompetente ? Number(proficiency) : 0));
 }
 
-// La competenza si applica una volta, o due con Maestria (SRD 5.2.1).
+// Bonus di competenza e Maestria: Manuale del Giocatore 2024, pp. 11-13.
 export function abilityBonus(sheet: Sheet, ability: Abilita): string {
   const score = sheet.caratteristiche.find((item) => item.abbr === ability.caratteristica)?.valore ?? "";
   const modifier = abilityModifier(score);

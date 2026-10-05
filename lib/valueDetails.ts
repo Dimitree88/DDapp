@@ -1,6 +1,7 @@
 import regole from "./regole-srd-2024.json";
 import manual from "./manuale-2024-entities.json";
 import backgrounds2024 from "./manuale-2024-backgrounds.json";
+import pages2024 from "./manuale-2024-pages.json";
 import { proficiencyBonus } from "./abilityBonus";
 
 export type ValueDetail = { meaning: string; rule?: boolean; page?: number };
@@ -131,26 +132,52 @@ const catalogs: Record<string, Record<string, string>> = {
   armatura: armorTraining, privilegio: privileges,
 };
 
+const pagesByKind: Record<string, Record<string, number>> = {
+  classe: pages2024.classes,
+  sottoclasse: pages2024.subclasses,
+  specie: pages2024.species,
+  background: pages2024.backgrounds,
+  talento: pages2024.feats,
+  lignaggio: {
+    Drow: 188, "Elfo alto": 188, "Elfo dei boschi": 188,
+    "Gnomo delle foreste": 190, "Gnomo delle rocce": 190,
+    Abissale: 195, Ctonio: 195, Infernale: 195,
+  },
+};
+
+function manualPage(kind: string, value: string): number | undefined {
+  if (kind === "allineamento") return 39;
+  if (kind === "taglia") return 25;
+  if (kind === "armatura") return 219;
+  if (kind === "privilegio") return ({
+    "Padronanza d'armi": 214,
+    "Esploratore esperto": 142,
+    "Stile di combattimento": 209,
+    "Nemico prescelto": 141,
+  } as Record<string, number>)[value];
+  return pagesByKind[kind]?.[value];
+}
+
 export function valueDetails(kind: string, value: string): ValueDetail | null {
   if (kind === "livello" && regole.livelliPersonaggio.includes(value as typeof regole.livelliPersonaggio[number])) {
     return { meaning: `Il personaggio è di ${value}° livello. Il suo bonus di competenza è ${proficiencyBonus(value)}.`, rule: true };
   }
   const meaning = catalogs[kind]?.[value];
-  if (meaning) return { meaning, rule: true };
+  if (meaning) return { meaning, rule: true, page: manualPage(kind, value) };
   if (kind === "sottoclasse") {
     const owner = Object.entries(manual.classes).find(([, options]) => options.includes(value));
-    if (owner) return { meaning: `Sottoclasse del ${owner[0]}, descritta nel Manuale del Giocatore 2024. I privilegi specifici dipendono dal livello del personaggio.`, rule: true };
+    if (owner) return { meaning: `Sottoclasse del ${owner[0]}, descritta nel Manuale del Giocatore 2024. I privilegi specifici dipendono dal livello del personaggio.`, rule: true, page: manualPage(kind, value) };
   }
   if (kind === "background") {
     const entry = (backgrounds2024 as Record<string, { feat: string; skills: string[] }>)[value];
-    if (entry) return { meaning: `Background del Manuale del Giocatore 2024. Concede ${entry.feat} e competenza in ${entry.skills.join(" e ")}.`, rule: true };
+    if (entry) return { meaning: `Background del Manuale del Giocatore 2024. Concede ${entry.feat} e competenza in ${entry.skills.join(" e ")}.`, rule: true, page: manualPage(kind, value) };
   }
   if (kind === "specie" && value === "Aasimar") return {
-    meaning: "Specie del Manuale del Giocatore 2024. Può essere Media o Piccola; possiede tratti celestiali e una rivelazione dal 3° livello.", rule: true,
+    meaning: "Specie del Manuale del Giocatore 2024. Può essere Media o Piccola; possiede tratti celestiali e una rivelazione dal 3° livello.", rule: true, page: manualPage(kind, value),
   };
   if (kind === "talento") {
     const category = Object.entries(manual.feats).find(([, options]) => options.includes(value))?.[0];
-    if (category) return { meaning: `Talento ${category === "origini" ? "Origini" : category === "generali" ? "Generale" : category === "stileDiCombattimento" ? "Stile di combattimento" : "Dono epico"} del Manuale del Giocatore 2024.`, rule: true };
+    if (category) return { meaning: `Talento ${category === "origini" ? "Origini" : category === "generali" ? "Generale" : category === "stileDiCombattimento" ? "Stile di combattimento" : "Dono epico"} del Manuale del Giocatore 2024.`, rule: true, page: manualPage(kind, value) };
   }
   return null;
 }

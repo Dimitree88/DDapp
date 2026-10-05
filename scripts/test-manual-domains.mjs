@@ -9,6 +9,9 @@ import rules from "../lib/regole-srd-2024.json" with { type: "json" };
 import { gearCatalog } from "../lib/gearCatalog.ts";
 import { weaponCatalog } from "../lib/weaponDetails.ts";
 import { masteryEffects } from "../lib/weaponMastery.ts";
+import manualEntities from "../lib/manuale-2024-entities.json" with { type: "json" };
+import classFeatures from "../lib/class-feature-grants.json" with { type: "json" };
+import subclassFeatures from "../lib/subclass-feature-grants.json" with { type: "json" };
 
 test("manual alignment and equipment domains replace outdated options", () => {
   assert.equal(rules.allineamenti.length, 9);
@@ -20,6 +23,27 @@ test("manual alignment and equipment domains replace outdated options", () => {
   assert.ok(!weaponCatalog.some((weapon) => weapon.mastery === "Fiaccare"));
   assert.equal(weaponCatalog.find((weapon) => weapon.name === "Lancia")?.mastery, "Prosciugamento");
   assert.ok(masteryEffects.Prosciugamento);
+});
+
+test("every Manuale 2024 class and subclass grants its page-linked features", () => {
+  assert.deepEqual(new Set(Object.keys(classFeatures)), new Set(Object.keys(manualEntities.classes)));
+  const allSubclasses = Object.values(manualEntities.classes).flat();
+  assert.deepEqual(new Set(Object.keys(subclassFeatures)), new Set(allSubclasses));
+  for (const [className, options] of Object.entries(manualEntities.classes)) {
+    assert.ok(classFeatures[className].every((feature) => feature.page >= 50 && feature.page <= 175));
+    for (const subclass of options) {
+      assert.ok(subclassFeatures[subclass].length >= 3, subclass);
+      assert.ok(subclassFeatures[subclass].every((feature) => feature.page >= 50 && feature.page <= 175), subclass);
+      const sheet = emptySheet();
+      sheet.classe = className;
+      sheet.sottoclasse = subclass;
+      sheet.livello = "20";
+      const grants = grantedPrivileges(sheet);
+      for (const feature of subclassFeatures[subclass]) {
+        assert.ok(grants.some((grant) => grant.name === feature.name && grant.level === feature.level && grant.page === feature.page), `${subclass}: ${feature.name}`);
+      }
+    }
+  }
 });
 
 test("new Manuale 2024 identity choices pass domain validation", () => {

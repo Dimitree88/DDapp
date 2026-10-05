@@ -1,258 +1,1303 @@
 {
-  "Cammino del berserker": [
+  "Cammino dell'Albero del Mondo": [
     {
       "level": 3,
-      "name": "Frenesia"
+      "name": "Vitalità dell'Albero",
+      "page": 54
     },
     {
       "level": 6,
-      "name": "Ira incontenibile"
+      "name": "Rami dell'Albero",
+      "page": 54
     },
     {
       "level": 10,
-      "name": "Ritorsione"
+      "name": "Radici d'Assalto",
+      "page": 54
     },
     {
       "level": 14,
-      "name": "Presenza intimidatoria"
+      "name": "Viaggio Lungo l'Albero",
+      "page": 55
+    }
+  ],
+  "Cammino del Berserker": [
+    {
+      "level": 3,
+      "name": "Frenesia",
+      "page": 55
+    },
+    {
+      "level": 6,
+      "name": "Ira Incontenibile",
+      "page": 55
+    },
+    {
+      "level": 10,
+      "name": "Ritorsione",
+      "page": 55
+    },
+    {
+      "level": 14,
+      "name": "Presenza Intimidatoria",
+      "page": 55
+    }
+  ],
+  "Cammino del Cuore Selvaggio": [
+    {
+      "level": 3,
+      "name": "Ira della Natura Selvaggia",
+      "page": 56
+    },
+    {
+      "level": 3,
+      "name": "Portavoce degli Animali",
+      "page": 56
+    },
+    {
+      "level": 6,
+      "name": "Aspetto della Natura Selvaggia",
+      "page": 56
+    },
+    {
+      "level": 10,
+      "name": "Portavoce della Natura",
+      "page": 56
+    },
+    {
+      "level": 14,
+      "name": "Potere della Natura Selvaggia",
+      "page": 56
+    }
+  ],
+  "Cammino dello Zelota": [
+    {
+      "level": 3,
+      "name": "Furia Divina",
+      "page": 57
+    },
+    {
+      "level": 3,
+      "name": "Guerriero degli Dèi",
+      "page": 57
+    },
+    {
+      "level": 6,
+      "name": "Focus Fanatico",
+      "page": 57
+    },
+    {
+      "level": 10,
+      "name": "Presenza Zelante",
+      "page": 57
+    },
+    {
+      "level": 14,
+      "name": "Ira degli Dèi",
+      "page": 57
+    }
+  ],
+  "Collegio della Danza": [
+    {
+      "level": 3,
+      "name": "Scarto Smagliante",
+      "page": 64
+    },
+    {
+      "level": 6,
+      "name": "Movimento Ispiratore",
+      "page": 64
+    },
+    {
+      "level": 6,
+      "name": "Scarto Coordinato",
+      "page": 64
+    },
+    {
+      "level": 14,
+      "name": "Elusione Trainante",
+      "page": 64
+    }
+  ],
+  "Collegio del Fascino": [
+    {
+      "level": 3,
+      "name": "Magia Ammaliante",
+      "page": 65
+    },
+    {
+      "level": 3,
+      "name": "Manto di Ispirazione",
+      "page": 65
+    },
+    {
+      "level": 6,
+      "name": "Manto di Maestosità",
+      "page": 65
+    },
+    {
+      "level": 14,
+      "name": "Maestosità Invitta",
+      "page": 66
     }
   ],
   "Collegio della Sapienza": [
     {
       "level": 3,
-      "name": "Competenze bonus"
+      "name": "Competenze Bonus",
+      "page": 66
     },
     {
       "level": 3,
-      "name": "Parole taglienti"
+      "name": "Parole Taglienti",
+      "page": 66
     },
     {
       "level": 6,
-      "name": "Scoperte magiche"
+      "name": "Scoperte Magiche",
+      "page": 66
     },
     {
       "level": 14,
-      "name": "Abilità impareggiabile"
+      "name": "Abilità Impareggiabile",
+      "page": 66
+    }
+  ],
+  "Collegio del Valore": [
+    {
+      "level": 3,
+      "name": "Addestramento Marziale",
+      "page": 67
+    },
+    {
+      "level": 3,
+      "name": "Ispirazione in Combattimento",
+      "page": 67
+    },
+    {
+      "level": 6,
+      "name": "Attacco Extra",
+      "page": 67
+    },
+    {
+      "level": 14,
+      "name": "Magia da Combattimento",
+      "page": 67
+    }
+  ],
+  "Dominio della Guerra": [
+    {
+      "level": 3,
+      "name": "Colpo Guidato",
+      "page": 73
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Dominio della Guerra",
+      "page": 73
+    },
+    {
+      "level": 3,
+      "name": "Sacerdote di Guerra",
+      "page": 73
+    },
+    {
+      "level": 6,
+      "name": "Benedizione del Dio della Guerra",
+      "page": 74
+    },
+    {
+      "level": 17,
+      "name": "Avatar della Battaglia",
+      "page": 74
+    }
+  ],
+  "Dominio dell'Inganno": [
+    {
+      "level": 3,
+      "name": "Benedizione dell'Ingannatore",
+      "page": 74
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Dominio dell'Inganno",
+      "page": 74
+    },
+    {
+      "level": 3,
+      "name": "Invocare Duplicato",
+      "page": 75
+    },
+    {
+      "level": 6,
+      "name": "Trasposizione dell'Ingannatore",
+      "page": 75
+    },
+    {
+      "level": 17,
+      "name": "Duplicato Migliorato",
+      "page": 75
+    }
+  ],
+  "Dominio della Luce": [
+    {
+      "level": 3,
+      "name": "Bagliore di Interdizione",
+      "page": 75
+    },
+    {
+      "level": 3,
+      "name": "Fulgore dell'Alba",
+      "page": 76
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Dominio della Luce",
+      "page": 76
+    },
+    {
+      "level": 6,
+      "name": "Bagliore di Interdizione Migliorato",
+      "page": 76
+    },
+    {
+      "level": 17,
+      "name": "Corona di Luce",
+      "page": 76
     }
   ],
   "Dominio della Vita": [
     {
       "level": 3,
-      "name": "Discepolo della vita"
+      "name": "Discepolo della Vita",
+      "page": 77
     },
     {
       "level": 3,
-      "name": "Incantesimi del Dominio della Vita"
+      "name": "Incantesimi del Dominio della Vita",
+      "page": 77
     },
     {
       "level": 3,
-      "name": "Preservare vita"
+      "name": "Preservare Vita",
+      "page": 77
     },
     {
       "level": 6,
-      "name": "Guaritore benedetto"
+      "name": "Guaritore Benedetto",
+      "page": 77
     },
     {
       "level": 17,
-      "name": "Guarigione suprema"
+      "name": "Guarigione Suprema",
+      "page": 77
+    }
+  ],
+  "Circolo della Luna": [
+    {
+      "level": 3,
+      "name": "Forme del Circolo",
+      "page": 84
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Circolo della Luna",
+      "page": 85
+    },
+    {
+      "level": 6,
+      "name": "Forme del Circolo Migliorate",
+      "page": 85
+    },
+    {
+      "level": 10,
+      "name": "Passo Chiardiluna",
+      "page": 85
+    },
+    {
+      "level": 14,
+      "name": "Forma Lunare",
+      "page": 85
+    }
+  ],
+  "Circolo del Mare": [
+    {
+      "level": 3,
+      "name": "Furia dei Mari",
+      "page": 86
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Circolo del Mare",
+      "page": 86
+    },
+    {
+      "level": 6,
+      "name": "Affinità Acquatica",
+      "page": 86
+    },
+    {
+      "level": 10,
+      "name": "Nato dalla Tempesta",
+      "page": 86
+    },
+    {
+      "level": 14,
+      "name": "Dono Oceanico",
+      "page": 87
+    }
+  ],
+  "Circolo delle Stelle": [
+    {
+      "level": 3,
+      "name": "Carta Celeste",
+      "page": 87
+    },
+    {
+      "level": 3,
+      "name": "Forma Siderale",
+      "page": 87
+    },
+    {
+      "level": 6,
+      "name": "Profezia Cosmica",
+      "page": 88
+    },
+    {
+      "level": 10,
+      "name": "Costellazioni Scintillanti",
+      "page": 88
+    },
+    {
+      "level": 14,
+      "name": "Manto di Stelle",
+      "page": 88
     }
   ],
   "Circolo della Terra": [
     {
       "level": 3,
-      "name": "Incantesimi del Circolo della Terra"
+      "name": "Ausilio dalla Terra",
+      "page": 88
     },
     {
       "level": 3,
-      "name": "Ausilio dalla terra"
+      "name": "Incantesimi del Circolo della Terra",
+      "page": 88
     },
     {
       "level": 6,
-      "name": "Recupero naturale"
+      "name": "Recupero Naturale",
+      "page": 89
     },
     {
       "level": 10,
-      "name": "Interdizione della Natura"
+      "name": "Interdizione della Natura",
+      "page": 89
     },
     {
       "level": 14,
-      "name": "Rifugio della Natura"
+      "name": "Rifugio della Natura",
+      "page": 89
     }
   ],
   "Campione": [
     {
       "level": 3,
-      "name": "Critico migliorato"
+      "name": "Atleta Straordinario",
+      "page": 93
     },
     {
       "level": 3,
-      "name": "Atleta straordinario"
+      "name": "Critico Migliorato",
+      "page": 93
     },
     {
       "level": 7,
-      "name": "Stile di combattimento"
+      "name": "Stile di Combattimento Aggiuntivo",
+      "page": 93
     },
     {
       "level": 10,
-      "name": "Guerriero eroico"
+      "name": "Guerriero Eroico",
+      "page": 93
     },
     {
       "level": 15,
-      "name": "Critico superiore"
+      "name": "Critico Superiore",
+      "page": 93
     },
     {
       "level": 18,
-      "name": "Sopravvissuto"
+      "name": "Sopravvissuto",
+      "page": 94
+    }
+  ],
+  "Cavaliere Mistico": [
+    {
+      "level": 3,
+      "name": "Arma Vincolata",
+      "page": 94
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi",
+      "page": 94
+    },
+    {
+      "level": 7,
+      "name": "Magia da Guerra",
+      "page": 96
+    },
+    {
+      "level": 10,
+      "name": "Colpo Mistico",
+      "page": 96
+    },
+    {
+      "level": 15,
+      "name": "Carica Arcana",
+      "page": 96
+    },
+    {
+      "level": 18,
+      "name": "Magia da Guerra Migliorata",
+      "page": 96
+    }
+  ],
+  "Guerriero Psionico": [
+    {
+      "level": 3,
+      "name": "Potere Psionico",
+      "page": 96
+    },
+    {
+      "level": 7,
+      "name": "Adepto Telecinetico",
+      "page": 97
+    },
+    {
+      "level": 10,
+      "name": "Scudo Mentale",
+      "page": 97
+    },
+    {
+      "level": 15,
+      "name": "Baluardo della Forza",
+      "page": 97
+    },
+    {
+      "level": 18,
+      "name": "Maestro della Telecinesi",
+      "page": 97
+    }
+  ],
+  "Maestro di Battaglia": [
+    {
+      "level": 3,
+      "name": "Studioso di Guerra",
+      "page": 97
+    },
+    {
+      "level": 3,
+      "name": "Superiorità in Combattimento",
+      "page": 97
+    },
+    {
+      "level": 7,
+      "name": "Conosci il tuo Nemico",
+      "page": 98
+    },
+    {
+      "level": 10,
+      "name": "Superiorità in Combattimento Migliorata",
+      "page": 98
+    },
+    {
+      "level": 15,
+      "name": "Implacabile",
+      "page": 98
+    },
+    {
+      "level": 18,
+      "name": "Superiorità in Combattimento Suprema",
+      "page": 98
+    }
+  ],
+  "Assassino": [
+    {
+      "level": 3,
+      "name": "Arnesi dell'Assassino",
+      "page": 104
+    },
+    {
+      "level": 3,
+      "name": "Assassinare",
+      "page": 104
+    },
+    {
+      "level": 9,
+      "name": "Maestro Infiltrato ",
+      "page": 104
+    },
+    {
+      "level": 13,
+      "name": "Avvelenare Armi",
+      "page": 104
+    },
+    {
+      "level": 17,
+      "name": "Colpo di Morte",
+      "page": 104
     }
   ],
   "Furfante": [
     {
       "level": 3,
-      "name": "Mani veloci"
+      "name": "Lavoro al Secondo Piano",
+      "page": 105
     },
     {
       "level": 3,
-      "name": "Lavoro al secondo piano"
+      "name": "Mani Veloci",
+      "page": 105
     },
     {
       "level": 9,
-      "name": "Furtività suprema"
+      "name": "Furtività Suprema",
+      "page": 105
     },
     {
       "level": 13,
-      "name": "Usare oggetto magico"
+      "name": "Usare Oggetto Magico",
+      "page": 105
     },
     {
       "level": 17,
-      "name": "Riflessi da furfante"
+      "name": "Riflessi da Furfante",
+      "page": 105
+    }
+  ],
+  "Lama Spirituale": [
+    {
+      "level": 3,
+      "name": "Lame Psichiche",
+      "page": 106
+    },
+    {
+      "level": 3,
+      "name": "Potere Psionico",
+      "page": 106
+    },
+    {
+      "level": 9,
+      "name": "Lame dell'Anima",
+      "page": 107
+    },
+    {
+      "level": 13,
+      "name": "Velo Psichico",
+      "page": 107
+    },
+    {
+      "level": 17,
+      "name": "Squarciare la Mente",
+      "page": 107
+    }
+  ],
+  "Mistificatore Arcano": [
+    {
+      "level": 3,
+      "name": "Gioco di Prestigio della Mano Magica",
+      "page": 108
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi",
+      "page": 108
+    },
+    {
+      "level": 9,
+      "name": "Imboscata Magica",
+      "page": 109
+    },
+    {
+      "level": 13,
+      "name": "Ingannatore Versatile",
+      "page": 109
+    },
+    {
+      "level": 17,
+      "name": "Ladro di Incantesimi",
+      "page": 109
+    }
+  ],
+  "Abiuratore": [
+    {
+      "level": 3,
+      "name": "Abiuratore Sapiente",
+      "page": 118
+    },
+    {
+      "level": 3,
+      "name": "Interdizione Arcana",
+      "page": 118
+    },
+    {
+      "level": 6,
+      "name": "Interdizione Proiettata",
+      "page": 118
+    },
+    {
+      "level": 10,
+      "name": "Spezzamagia",
+      "page": 119
+    },
+    {
+      "level": 14,
+      "name": "Resistenza agli Incantesimi",
+      "page": 119
+    }
+  ],
+  "Divinatore": [
+    {
+      "level": 3,
+      "name": "Divinatore Sapiente",
+      "page": 119
+    },
+    {
+      "level": 3,
+      "name": "Portento",
+      "page": 119
+    },
+    {
+      "level": 6,
+      "name": "Divinazione Esperta",
+      "page": 119
+    },
+    {
+      "level": 10,
+      "name": "Terzo Occhio",
+      "page": 119
+    },
+    {
+      "level": 14,
+      "name": "Portento Superiore",
+      "page": 119
+    }
+  ],
+  "Illusionista": [
+    {
+      "level": 3,
+      "name": "Illusioni Migliorate",
+      "page": 120
+    },
+    {
+      "level": 3,
+      "name": "Illusionista Sapiente",
+      "page": 120
+    },
+    {
+      "level": 6,
+      "name": "Creature Spettrali",
+      "page": 120
+    },
+    {
+      "level": 10,
+      "name": "Sosia Illusorio",
+      "page": 120
+    },
+    {
+      "level": 14,
+      "name": "Realtà Illusoria",
+      "page": 120
     }
   ],
   "Invocatore": [
     {
       "level": 3,
-      "name": "Invocatore sapiente"
+      "name": "Invocatore Sapiente",
+      "page": 121
     },
     {
       "level": 3,
-      "name": "Trucchetto potente"
+      "name": "Trucchetto Potente",
+      "page": 121
     },
     {
       "level": 6,
-      "name": "Plasmare incantesimi"
+      "name": "Plasmare Incantesimi",
+      "page": 121
     },
     {
       "level": 10,
-      "name": "Invocazione potente"
+      "name": "Invocazione Potente",
+      "page": 121
     },
     {
       "level": 14,
-      "name": "Saturazione magica"
+      "name": "Saturazione Magica",
+      "page": 121
+    }
+  ],
+  "Guerriero degli Elementi": [
+    {
+      "level": 3,
+      "name": "Manipolare gli Elementi",
+      "page": 126
+    },
+    {
+      "level": 3,
+      "name": "Sintonia Elementale",
+      "page": 126
+    },
+    {
+      "level": 6,
+      "name": "Esplosione Elementale",
+      "page": 126
+    },
+    {
+      "level": 11,
+      "name": "Passo degli Elementi",
+      "page": 126
+    },
+    {
+      "level": 17,
+      "name": "Quintessenza Elementale",
+      "page": 126
     }
   ],
   "Guerriero della Mano Aperta": [
     {
       "level": 3,
-      "name": "Tecnica della mano aperta"
+      "name": "Tecnica della Mano Aperta",
+      "page": 127
     },
     {
       "level": 6,
-      "name": "Integrità del corpo"
+      "name": "Integrità del Corpo",
+      "page": 127
     },
     {
       "level": 11,
-      "name": "Passo lesto"
+      "name": "Passo Lesto",
+      "page": 127
     },
     {
       "level": 17,
-      "name": "Palmo tremante"
+      "name": "Palmo Tremante",
+      "page": 127
     }
   ],
-  "Giuramento di devozione": [
+  "Guerriero della Misericordia": [
     {
       "level": 3,
-      "name": "Incantesimi del Giuramento"
+      "name": "Mano del Dolore",
+      "page": 128
     },
     {
       "level": 3,
-      "name": "Arma consacrata"
+      "name": "Mano Guaritrice",
+      "page": 128
+    },
+    {
+      "level": 3,
+      "name": "Strumenti di Misericordia",
+      "page": 128
+    },
+    {
+      "level": 6,
+      "name": "Tocco del Medico",
+      "page": 128
+    },
+    {
+      "level": 11,
+      "name": "Raffica di Guarigione e Dolore",
+      "page": 128
+    },
+    {
+      "level": 17,
+      "name": "Mano della Misericordia Suprema",
+      "page": 128
+    }
+  ],
+  "Guerriero dell'Ombra": [
+    {
+      "level": 3,
+      "name": "Arti dell'Ombra",
+      "page": 129
+    },
+    {
+      "level": 6,
+      "name": "Passo d'Ombra",
+      "page": 129
+    },
+    {
+      "level": 11,
+      "name": "Passo d'Ombra Migliorato",
+      "page": 129
+    },
+    {
+      "level": 17,
+      "name": "Manto di Ombre",
+      "page": 129
+    }
+  ],
+  "Giuramento degli Antichi": [
+    {
+      "level": 3,
+      "name": "Furia della Natura",
+      "page": 135
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Giuramento degli Antichi",
+      "page": 135
     },
     {
       "level": 7,
-      "name": "Aura di devozione"
+      "name": "Aura Guardiana",
+      "page": 136
     },
     {
       "level": 15,
-      "name": "Punizione protettiva"
+      "name": "Sentinella Imperitura",
+      "page": 136
     },
     {
       "level": 20,
-      "name": "Nube sacra"
+      "name": "Campione degli Antichi",
+      "page": 136
+    }
+  ],
+  "Giuramento di Devozione": [
+    {
+      "level": 3,
+      "name": "Arma Consacrata",
+      "page": 136
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Giuramento di Devozione",
+      "page": 136
+    },
+    {
+      "level": 7,
+      "name": "Aura di Devozione",
+      "page": 136
+    },
+    {
+      "level": 15,
+      "name": "Punizione Protettiva",
+      "page": 136
+    },
+    {
+      "level": 20,
+      "name": "Nube Sacra",
+      "page": 136
+    }
+  ],
+  "Giuramento di Gloria": [
+    {
+      "level": 3,
+      "name": "Atleta Impareggiabile",
+      "page": 137
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Giuramento di Gloria",
+      "page": 137
+    },
+    {
+      "level": 3,
+      "name": "Punizione Ispiratrice",
+      "page": 137
+    },
+    {
+      "level": 7,
+      "name": "Aura di Alacrità",
+      "page": 137
+    },
+    {
+      "level": 15,
+      "name": "Difesa Gloriosa",
+      "page": 138
+    },
+    {
+      "level": 20,
+      "name": "Leggenda Vivente",
+      "page": 138
+    }
+  ],
+  "Giuramento di Vendetta": [
+    {
+      "level": 3,
+      "name": "Incantesimi del Giuramento di Vendetta",
+      "page": 138
+    },
+    {
+      "level": 3,
+      "name": "Voto di Inimicizia",
+      "page": 139
+    },
+    {
+      "level": 7,
+      "name": "Vendetta Implacabile",
+      "page": 139
+    },
+    {
+      "level": 15,
+      "name": "Anima Vendicativa",
+      "page": 139
+    },
+    {
+      "level": 20,
+      "name": "Angelo Vendicatore",
+      "page": 139
     }
   ],
   "Cacciatore": [
     {
       "level": 3,
-      "name": "Sapienza del cacciatore"
+      "name": "Preda del Cacciatore",
+      "page": 144
     },
     {
       "level": 3,
-      "name": "Preda del cacciatore"
+      "name": "Sapienza del Cacciatore",
+      "page": 144
     },
     {
       "level": 7,
-      "name": "Tattiche difensive"
+      "name": "Tattiche Difensive",
+      "page": 144
     },
     {
       "level": 11,
-      "name": "Preda del cacciatore superiore"
+      "name": "Preda del Cacciatore Superiore",
+      "page": 144
     },
     {
       "level": 15,
-      "name": "Difesa del cacciatore superiore"
+      "name": "Difesa del Cacciatore Superiore",
+      "page": 144
     }
   ],
-  "Stregoneria draconica": [
+  "Cacciatore delle Tenebre": [
     {
       "level": 3,
-      "name": "Resilienza draconica"
+      "name": "Imboscata Terrificante",
+      "page": 145
     },
     {
       "level": 3,
-      "name": "Incantesimi draconici"
+      "name": "Incantesimi del Cacciatore delle Tenebre",
+      "page": 145
+    },
+    {
+      "level": 3,
+      "name": "Vista dell'Ombra",
+      "page": 145
+    },
+    {
+      "level": 7,
+      "name": "Mente di Ferro",
+      "page": 145
+    },
+    {
+      "level": 11,
+      "name": "Raffica del Cacciatore",
+      "page": 146
+    },
+    {
+      "level": 15,
+      "name": "Schivata dell'Ombra",
+      "page": 146
+    }
+  ],
+  "Signore delle Bestie": [
+    {
+      "level": 3,
+      "name": "Compagno Primordiale",
+      "page": 146
+    },
+    {
+      "level": 7,
+      "name": "Addestramento Eccezionale",
+      "page": 148
+    },
+    {
+      "level": 11,
+      "name": "Furia Bestiale",
+      "page": 148
+    },
+    {
+      "level": 15,
+      "name": "Condividi Incantesimi",
+      "page": 148
+    }
+  ],
+  "Viandante Fatato": [
+    {
+      "level": 3,
+      "name": "Colpi Terribili",
+      "page": 148
+    },
+    {
+      "level": 3,
+      "name": "Fascino Ultraterreno",
+      "page": 148
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Viandante Fatato",
+      "page": 148
+    },
+    {
+      "level": 7,
+      "name": "Scambio Seducente",
+      "page": 149
+    },
+    {
+      "level": 11,
+      "name": "Rinforzi Fatati",
+      "page": 149
+    },
+    {
+      "level": 15,
+      "name": "Viandante Velato",
+      "page": 149
+    }
+  ],
+  "Stregoneria Aberrante": [
+    {
+      "level": 3,
+      "name": "Conversazione Telepatica",
+      "page": 157
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi Psionici",
+      "page": 157
     },
     {
       "level": 6,
-      "name": "Affinità elementale"
+      "name": "Difese Psichiche",
+      "page": 158
+    },
+    {
+      "level": 6,
+      "name": "Stregoneria Psionica",
+      "page": 158
     },
     {
       "level": 14,
-      "name": "Ali di drago"
+      "name": "Rivelazione della Carne",
+      "page": 158
     },
     {
       "level": 18,
-      "name": "Seguace draconico"
+      "name": "Implosione Distorcente",
+      "page": 158
     }
   ],
-  "Patrono immondo": [
+  "Stregoneria Draconica": [
     {
       "level": 3,
-      "name": "Benedizione dell'oscuro"
+      "name": "Incantesimi Draconici",
+      "page": 159
     },
     {
       "level": 3,
-      "name": "Incantesimi immondi"
+      "name": "Resilienza Draconica",
+      "page": 159
     },
     {
       "level": 6,
-      "name": "Fortuna dell'Oscuro"
-    },
-    {
-      "level": 10,
-      "name": "Resilienza immonda"
+      "name": "Affinità Elementale",
+      "page": 159
     },
     {
       "level": 14,
-      "name": "Scagliare all'Inferno"
+      "name": "Ali di Drago",
+      "page": 159
+    },
+    {
+      "level": 18,
+      "name": "Seguace Draconico",
+      "page": 159
+    }
+  ],
+  "Stregoneria della Magia Selvaggia": [
+    {
+      "level": 3,
+      "name": "Impulso di Magia Selvaggia",
+      "page": 159
+    },
+    {
+      "level": 3,
+      "name": "Onde di Caos",
+      "page": 159
+    },
+    {
+      "level": 6,
+      "name": "Piegare la Fortuna",
+      "page": 159
+    },
+    {
+      "level": 14,
+      "name": "Caos Controllato",
+      "page": 159
+    },
+    {
+      "level": 18,
+      "name": "Impulsi Domati",
+      "page": 160
+    }
+  ],
+  "Stregoneria Meccanica": [
+    {
+      "level": 3,
+      "name": "Incantesimi Meccanici",
+      "page": 162
+    },
+    {
+      "level": 3,
+      "name": "Ripristino dell'Equilibrio",
+      "page": 162
+    },
+    {
+      "level": 6,
+      "name": "Bastione della Legge",
+      "page": 163
+    },
+    {
+      "level": 14,
+      "name": "Trance dell'Ordine",
+      "page": 163
+    },
+    {
+      "level": 18,
+      "name": "Cavalleria Meccanica",
+      "page": 163
+    }
+  ],
+  "Patrono Celestiale": [
+    {
+      "level": 3,
+      "name": "Incantesimi Celestiali",
+      "page": 171
+    },
+    {
+      "level": 3,
+      "name": "Luce Curatrice",
+      "page": 171
+    },
+    {
+      "level": 6,
+      "name": "Anima Radiosa",
+      "page": 171
+    },
+    {
+      "level": 10,
+      "name": "Resilienza Celestiale",
+      "page": 172
+    },
+    {
+      "level": 14,
+      "name": "Vendetta Incandescente",
+      "page": 172
+    }
+  ],
+  "Patrono Grande Antico": [
+    {
+      "level": 3,
+      "name": "Incantesimi del Grande Antico",
+      "page": 172
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi Psichici",
+      "page": 172
+    },
+    {
+      "level": 3,
+      "name": "Mente Risvegliata",
+      "page": 172
+    },
+    {
+      "level": 6,
+      "name": "Guerriero Chiaroveggente",
+      "page": 173
+    },
+    {
+      "level": 10,
+      "name": "Scudo del Pensiero",
+      "page": 173
+    },
+    {
+      "level": 10,
+      "name": "Sortilegio Occulto",
+      "page": 173
+    },
+    {
+      "level": 14,
+      "name": "Creare Servitore",
+      "page": 173
+    }
+  ],
+  "Patrono Immondo": [
+    {
+      "level": 3,
+      "name": "Benedizione dell'Occulto",
+      "page": 174
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi Immondi",
+      "page": 174
+    },
+    {
+      "level": 6,
+      "name": "Fortuna dell'Oscuro",
+      "page": 174
+    },
+    {
+      "level": 10,
+      "name": "Resilienza Immonda",
+      "page": 174
+    },
+    {
+      "level": 14,
+      "name": "Scagliare all'Inferno",
+      "page": 174
+    }
+  ],
+  "Patrono Signore Fatato": [
+    {
+      "level": 3,
+      "name": "Incantesimi del Signore Fatato",
+      "page": 175
+    },
+    {
+      "level": 3,
+      "name": "Movimenti del Folletto",
+      "page": 175
+    },
+    {
+      "level": 6,
+      "name": "Fuga Nebbiosa",
+      "page": 175
+    },
+    {
+      "level": 10,
+      "name": "Difese Seducenti",
+      "page": 175
+    },
+    {
+      "level": 14,
+      "name": "Magia Ammaliante",
+      "page": 175
     }
   ]
 }

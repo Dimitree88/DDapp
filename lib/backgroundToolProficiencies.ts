@@ -1,7 +1,7 @@
 import type { Sheet } from "./sheet";
 import backgrounds from "./manuale-2024-backgrounds.json";
 
-// Player's Handbook 2024: competenze fisse dei background presenti nell'app.
+// Competenze negli strumenti dei background: Manuale del Giocatore 2024, pp. 178-185.
 const backgroundTools: Record<string, string> = Object.fromEntries(
   Object.entries(backgrounds).filter(([, details]) => "tool" in details)
     .map(([name, details]) => [name, (details as { tool: string }).tool]),

@@ -101,6 +101,11 @@ test("every catalog value opens a specific explanation", () => {
   for (const [kind, values] of Object.entries(choices)) {
     for (const value of values) assert.ok(valueDetails(kind, value)?.meaning, `${kind}: ${value}`);
   }
+  for (const kind of ["classe", "sottoclasse", "specie", "lignaggio", "background", "talento", "allineamento", "taglia", "armatura"]) {
+    for (const value of choices[kind]) assert.ok(valueDetails(kind, value)?.page, `${kind}: ${value}`);
+  }
+  assert.equal(equipmentDetails("Pozione di guarigione")?.page, 227);
+  assert.equal(equipmentDetails("Torcia")?.page, 228);
   assert.match(valueDetails("allineamento", "Caotico neutrale").meaning, /libertà personale/);
   assert.equal(valueDetails("allineamento", "Inventato"), null);
 });
