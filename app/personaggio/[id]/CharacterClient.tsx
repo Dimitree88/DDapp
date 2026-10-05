@@ -819,15 +819,12 @@ export default function CharacterClient({
                   ["Pesanti", "pesanti"],
                   ["Scudi", "scudi"],
                 ] as [string, keyof Sheet["competenzeArmatura"]][]
-              ).map(([lab, key]) => (
-                <Toggle
-                  key={key}
-                  label={lab}
-                  helpId={`valore:armatura:${lab}`}
-                  checked={sheet.competenzeArmatura[key]}
-                  onChange={(v) => patch(setCheckboxCompetency(sheet, "armatura", key, v))}
-                />
+              ).filter(([, key]) => sheet.competenzeArmatura[key]).map(([lab]) => (
+                <span key={lab} className="rounded-full border border-accent bg-accent/12 px-2.5 py-1 text-xs font-medium text-accent">
+                  <InfoLabel id={`valore:armatura:${lab}`} title={lab} />
+                </span>
               ))}
+              {!Object.values(sheet.competenzeArmatura).some(Boolean) && <span className="text-sm text-ink-faint">Nessuna</span>}
             </div>
           </div>
           <div>
