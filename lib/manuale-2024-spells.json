@@ -1,0 +1,629 @@
+[
+  {
+    "name": "Amicizia",
+    "level": 0,
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "page": 240,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Arma elementale",
+    "level": 3,
+    "classes": [
+      "druido",
+      "paladino",
+      "ranger"
+    ],
+    "page": 243,
+    "school": "Trasmutazione"
+  },
+  {
+    "name": "Armatura di Agathys",
+    "level": 1,
+    "classes": [
+      "warlock"
+    ],
+    "page": 244,
+    "school": "Abiurazione"
+  },
+  {
+    "name": "Aura di purezza",
+    "level": 4,
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
+    "page": 245,
+    "school": "Abiurazione"
+  },
+  {
+    "name": "Aura magica di Nystul",
+    "level": 2,
+    "classes": [
+      "mago"
+    ],
+    "page": 245,
+    "school": "Illusione"
+  },
+  {
+    "name": "Braccia di Hadar",
+    "level": 1,
+    "classes": [
+      "warlock"
+    ],
+    "page": 248,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Calderone ribollente di Tasha",
+    "level": 6,
+    "classes": [
+      "mago",
+      "warlock"
+    ],
+    "page": 248,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Capanna di Leomund",
+    "level": 3,
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "page": 251,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Cerchio di potere",
+    "level": 5,
+    "classes": [
+      "chierico",
+      "mago",
+      "paladino"
+    ],
+    "page": 252,
+    "school": "Abiurazione"
+  },
+  {
+    "name": "Cordone di frecce",
+    "level": 2,
+    "classes": [
+      "ranger"
+    ],
+    "page": 258,
+    "school": "Trasmutazione"
+  },
+  {
+    "name": "Corona di follia",
+    "level": 2,
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "page": 259,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Danza irresistibile di Otto",
+    "level": 6,
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "page": 262,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Dardo stregato",
+    "level": 1,
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "page": 263,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Disco fluttuante di Tenser",
+    "level": 1,
+    "classes": [
+      "mago"
+    ],
+    "page": 265,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Duello obbligato",
+    "level": 1,
+    "classes": [
+      "paladino"
+    ],
+    "page": 268,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Evoca pioggia di armi",
+    "level": 5,
+    "classes": [
+      "ranger"
+    ],
+    "page": 271,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Evoca raffica",
+    "level": 3,
+    "classes": [
+      "ranger"
+    ],
+    "page": 271,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Evocazioni istantanee di Drawmij",
+    "level": 6,
+    "classes": [
+      "mago"
+    ],
+    "page": 271,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Fame di Hadar",
+    "level": 3,
+    "classes": [
+      "warlock"
+    ],
+    "page": 272,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Faretra rapida",
+    "level": 5,
+    "classes": [
+      "ranger"
+    ],
+    "page": 272,
+    "school": "Trasmutazione"
+  },
+  {
+    "name": "Interdizione alle lame",
+    "level": 0,
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "page": 285,
+    "school": "Abiurazione"
+  },
+  {
+    "name": "Legame telepatico di Rary",
+    "level": 5,
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "page": 287,
+    "school": "Divinazione"
+  },
+  {
+    "name": "Mano di Bigby",
+    "level": 5,
+    "classes": [
+      "mago",
+      "stregone"
+    ],
+    "page": 291,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Manto del crociato",
+    "level": 3,
+    "classes": [
+      "paladino"
+    ],
+    "page": 291,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Morte apparente",
+    "level": 3,
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago"
+    ],
+    "page": 293,
+    "school": "Necromanzia"
+  },
+  {
+    "name": "Nube di pugnali",
+    "level": 2,
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "page": 296,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Onda distruttiva",
+    "level": 5,
+    "classes": [
+      "paladino"
+    ],
+    "page": 297,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Parola del potere fortificare",
+    "level": 7,
+    "classes": [
+      "bardo",
+      "chierico"
+    ],
+    "page": 299,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Parola radiosa",
+    "level": 0,
+    "classes": [
+      "chierico"
+    ],
+    "page": 301,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Percezione delle bestie",
+    "level": 2,
+    "classes": [
+      "druido",
+      "ranger"
+    ],
+    "page": 302,
+    "school": "Divinazione"
+  },
+  {
+    "name": "Portale arcano",
+    "level": 6,
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "page": 303,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Presenza regale di Yolande",
+    "level": 5,
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "page": 304,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Punizione accecante",
+    "level": 3,
+    "classes": [
+      "paladino"
+    ],
+    "page": 305,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Punizione collerica",
+    "level": 1,
+    "classes": [
+      "paladino"
+    ],
+    "page": 306,
+    "school": "Necromanzia"
+  },
+  {
+    "name": "Punizione demoralizzante",
+    "level": 4,
+    "classes": [
+      "paladino"
+    ],
+    "page": 306,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Punizione esiliante",
+    "level": 5,
+    "classes": [
+      "paladino"
+    ],
+    "page": 307,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Punizione tonante",
+    "level": 1,
+    "classes": [
+      "paladino"
+    ],
+    "page": 307,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Raffica di spine",
+    "level": 1,
+    "classes": [
+      "ranger"
+    ],
+    "page": 307,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Rampicante afferrante",
+    "level": 4,
+    "classes": [
+      "druido",
+      "ranger"
+    ],
+    "page": 308,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Reggia meravigliosa di Mordenkainen",
+    "level": 7,
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "page": 309,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Richiama aberrazione",
+    "level": 4,
+    "classes": [
+      "mago",
+      "warlock"
+    ],
+    "page": 312,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Richiama bestia",
+    "level": 2,
+    "classes": [
+      "druido",
+      "ranger"
+    ],
+    "page": 313,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Richiama celestiale",
+    "level": 5,
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
+    "page": 313,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Richiama costrutto",
+    "level": 4,
+    "classes": [
+      "mago"
+    ],
+    "page": 314,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Richiama elementale",
+    "level": 4,
+    "classes": [
+      "druido",
+      "mago",
+      "ranger"
+    ],
+    "page": 316,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Richiama folletto",
+    "level": 3,
+    "classes": [
+      "druido",
+      "mago",
+      "ranger",
+      "warlock"
+    ],
+    "page": 317,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Richiama immondo",
+    "level": 6,
+    "classes": [
+      "mago",
+      "warlock"
+    ],
+    "page": 317,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Richiama non morto",
+    "level": 3,
+    "classes": [
+      "mago",
+      "warlock"
+    ],
+    "page": 319,
+    "school": "Necromanzia"
+  },
+  {
+    "name": "Rintocco dei morti",
+    "level": 0,
+    "classes": [
+      "chierico",
+      "mago",
+      "warlock"
+    ],
+    "page": 320,
+    "school": "Necromanzia"
+  },
+  {
+    "name": "Risata incontenibile di Tasha",
+    "level": 1,
+    "classes": [
+      "bardo",
+      "warlock",
+      "mago"
+    ],
+    "page": 321,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Saltare",
+    "level": 1,
+    "classes": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
+    "page": 322,
+    "school": "Trasmutazione"
+  },
+  {
+    "name": "Santuario privato di Mordenkainen",
+    "level": 4,
+    "classes": [
+      "mago"
+    ],
+    "page": 323,
+    "school": "Abiurazione"
+  },
+  {
+    "name": "Scheggia della mente",
+    "level": 0,
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "page": 324,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Scossa sinaptica",
+    "level": 5,
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
+    "page": 325,
+    "school": "Ammaliamento"
+  },
+  {
+    "name": "Scrigno segreto di Leomund",
+    "level": 4,
+    "classes": [
+      "mago"
+    ],
+    "page": 325,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Segugio fedele di Mordenkainen",
+    "level": 4,
+    "classes": [
+      "mago"
+    ],
+    "page": 327,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Sfera congelante di Otiluke",
+    "level": 6,
+    "classes": [
+      "mago",
+      "stregone"
+    ],
+    "page": 328,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Sfera elastica di Otiluke",
+    "level": 4,
+    "classes": [
+      "mago"
+    ],
+    "page": 329,
+    "school": "Abiurazione"
+  },
+  {
+    "name": "Spada di Mordenkainen",
+    "level": 7,
+    "classes": [
+      "bardo",
+      "mago"
+    ],
+    "page": 331,
+    "school": "Invocazione"
+  },
+  {
+    "name": "Telepatia",
+    "level": 8,
+    "classes": [
+      "mago"
+    ],
+    "page": 334,
+    "school": "Divinazione"
+  },
+  {
+    "name": "Tentacoli neri di Evard",
+    "level": 4,
+    "classes": [
+      "mago"
+    ],
+    "page": 337,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Turbine implacabile",
+    "level": 5,
+    "classes": [
+      "ranger",
+      "mago"
+    ],
+    "page": 341,
+    "school": "Evocazione"
+  },
+  {
+    "name": "Vigore arcano",
+    "level": 2,
+    "classes": [
+      "mago",
+      "stregone"
+    ],
+    "page": 343,
+    "school": "Abiurazione"
+  }
+]

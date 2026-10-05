@@ -2,18 +2,17 @@ import type { Sheet } from "./sheet";
 import classFeatures from "./class-feature-grants.json";
 import subclassFeatures from "./subclass-feature-grants.json";
 import { featCatalog } from "./featCatalog";
-import phb from "./integrazioni-phb-2024.json";
+import backgrounds from "./manuale-2024-backgrounds.json";
+import { featPrerequisitesMet } from "./featPrerequisites";
 
 export type Grant = { name: string; source: string; level?: number; detail?: string };
 
-const backgroundFeats: Record<string, string> = {
-  Accolito: "Iniziato alla magia", Criminale: "Allerta",
-  Sapiente: "Iniziato alla magia", Soldato: "Aggressore selvaggio",
-  Eremita: phb.background.Eremita.talento.nome,
-  Guida: phb.background.Guida.talento.nome,
-};
+const backgroundFeats: Record<string, string> = Object.fromEntries(
+  Object.entries(backgrounds).map(([name, details]) => [name, details.feat]),
+);
 
 const speciesTraits: Record<string, string[]> = {
+  Aasimar: ["Mani curative", "Portatore di luce", "Resistenza celestiale", "Scurovisione", "Rivelazione celestiale"],
   Dragonide: ["Retaggio draconico", "Soffio", "Resistenza ai danni"],
   Elfo: ["Scurovisione", "Discendenza fatata", "Sensi acuti", "Trance"],
   Gnomo: ["Scurovisione", "Astuzia gnomesca"],
@@ -51,10 +50,11 @@ export function featGrants(sheet: Sheet): Grant[] {
   const level = Number(sheet.livello);
   const grants: Grant[] = [];
   const backgroundFeat = backgroundFeats[sheet.background];
-  if (backgroundFeat) grants.push({ name: backgroundFeat, source: `Background: ${sheet.background}`,
-    detail: sheet.background === "Guida" ? `Lista: ${phb.background.Guida.talento.listaIncantesimi}`
-      : sheet.background === "Accolito" ? "Lista: Chierico"
-      : sheet.background === "Sapiente" ? "Lista: Mago" : undefined });
+  if (backgroundFeat) {
+    const background = (backgrounds as Record<string, { spellList?: string }>)[sheet.background];
+    grants.push({ name: backgroundFeat, source: `Background: ${sheet.background}`,
+      detail: background?.spellList ? `Lista: ${background.spellList}` : undefined });
+  }
   if (sheet.specie === "Umano") grants.push({ name: "Talento Origini a scelta", source: "Specie: Umano" });
   if (["Guerriero", "Ranger", "Paladino"].includes(sheet.classe) && level >= (sheet.classe === "Guerriero" ? 1 : 2)) {
     grants.push({ name: "Talento Stile di combattimento a scelta", source: `Classe: ${sheet.classe}` });
@@ -83,13 +83,13 @@ export function availableFeatChoices(sheet: Sheet): string[] {
     if (!grant.name.includes("a scelta")) {
       const index = acquired.findIndex((item) => item.nome === grant.name);
       if (index >= 0) acquired.splice(index, 1);
+      else available.add(grant.name);
       continue;
     }
     const category = categoryFor(grant.name);
     const choices = featCatalog.filter((feat) => feat.category === category || category === "generali" && feat.category === "origini")
       .filter((feat) => Number(sheet.livello) >= feat.minLevel)
-      .filter((feat) => feat.name !== "Lottatore" || sheet.caratteristiche.some((ability) => ["FOR", "DES"].includes(ability.abbr) && Number(ability.valore) >= 13))
-      .filter((feat) => feat.name !== "Dono del richiamo degli incantesimi" || grantedPrivileges(sheet).some((known) => known.name === "Incantesimi" || known.name === "Magia del patto"));
+      .filter((feat) => featPrerequisitesMet(sheet, feat.name));
     const index = acquired.findIndex((item) => choices.some((feat) => feat.name === item.nome));
     if (index >= 0) acquired.splice(index, 1);
     else choices.forEach((feat) => { if (["Abile", "Iniziato alla magia", "Aumento dei punteggi di caratteristica"].includes(feat.name) || !sheet.talenti.some((item) => item.nome === feat.name)) available.add(feat.name); });

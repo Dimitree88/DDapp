@@ -1,52 +1,340 @@
 {
-  "versione": "SRD 5.2.1 (2024)",
+  "versione": "Manuale del Giocatore 2024 (domini dei nomi)",
   "lingua": "it",
-  "fonte": "https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf",
-  "fonteIntegrazioni": "https://www.dndbeyond.com/posts/1785-the-backgrounds-and-origin-feats-in-the-2024",
-  "integrazioniNonSrd": {
-    "background": ["Eremita", "Guida"],
-    "talenti": ["Guaritore", "Lavoro manuale"]
-  },
-  "licenza": "CC-BY-4.0",
-  "livelliPersonaggio": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"],
+  "licenza": "SRD 5.2.1: CC-BY-4.0; opzioni aggiunte: Manuale del Giocatore 2024",
+  "livelliPersonaggio": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
+  ],
   "attribuzione": "Quest'opera include materiale tratto dal System Reference Document 5.2.1 (\"SRD 5.2.1\") di Wizards of the Coast LLC, disponibile all'indirizzo https://www.dndbeyond.com/srd. Il SRD 5.2.1 è concesso in licenza ai sensi della licenza di attribuzione 4.0 Internazionale di Creative Commons, disponibile all'indirizzo https://creativecommons.org/licenses/by/4.0/legalcode.",
   "classi": {
-    "Barbaro": ["Cammino del berserker"],
-    "Bardo": ["Collegio della Sapienza"],
-    "Chierico": ["Dominio della Vita"],
-    "Druido": ["Circolo della Terra"],
-    "Guerriero": ["Campione"],
-    "Ladro": ["Furfante"],
-    "Mago": ["Invocatore"],
-    "Monaco": ["Guerriero della Mano Aperta"],
-    "Paladino": ["Giuramento di devozione"],
-    "Ranger": ["Cacciatore"],
-    "Stregone": ["Stregoneria draconica"],
-    "Warlock": ["Patrono immondo"]
+    "Barbaro": [
+      "Cammino dell'Albero del Mondo",
+      "Cammino del Berserker",
+      "Cammino del Cuore Selvaggio",
+      "Cammino dello Zelota"
+    ],
+    "Bardo": [
+      "Collegio della Danza",
+      "Collegio del Fascino",
+      "Collegio della Sapienza",
+      "Collegio del Valore"
+    ],
+    "Chierico": [
+      "Dominio della Guerra",
+      "Dominio dell'Inganno",
+      "Dominio della Luce",
+      "Dominio della Vita"
+    ],
+    "Druido": [
+      "Circolo della Luna",
+      "Circolo del Mare",
+      "Circolo delle Stelle",
+      "Circolo della Terra"
+    ],
+    "Guerriero": [
+      "Campione",
+      "Cavaliere Mistico",
+      "Guerriero Psionico",
+      "Maestro di Battaglia"
+    ],
+    "Ladro": [
+      "Assassino",
+      "Furfante",
+      "Lama Spirituale",
+      "Mistificatore Arcano"
+    ],
+    "Mago": [
+      "Abiuratore",
+      "Divinatore",
+      "Illusionista",
+      "Invocatore"
+    ],
+    "Monaco": [
+      "Guerriero degli Elementi",
+      "Guerriero della Mano Aperta",
+      "Guerriero della Misericordia",
+      "Guerriero dell'Ombra"
+    ],
+    "Paladino": [
+      "Giuramento degli Antichi",
+      "Giuramento di Devozione",
+      "Giuramento di Gloria",
+      "Giuramento di Vendetta"
+    ],
+    "Ranger": [
+      "Cacciatore",
+      "Cacciatore delle Tenebre",
+      "Signore delle Bestie",
+      "Viandante Fatato"
+    ],
+    "Stregone": [
+      "Stregoneria Aberrante",
+      "Stregoneria Draconica",
+      "Stregoneria della Magia Selvaggia",
+      "Stregoneria Meccanica"
+    ],
+    "Warlock": [
+      "Patrono Celestiale",
+      "Patrono Grande Antico",
+      "Patrono Immondo",
+      "Patrono Signore Fatato"
+    ]
   },
-  "specie": ["Dragonide", "Elfo", "Gnomo", "Goliath", "Halfling", "Nano", "Orco", "Tiefling", "Umano"],
+  "specie": [
+    "Aasimar",
+    "Dragonide",
+    "Elfo",
+    "Gnomo",
+    "Goliath",
+    "Halfling",
+    "Nano",
+    "Orco",
+    "Tiefling",
+    "Umano"
+  ],
   "lignaggi": {
-    "Elfo": ["Drow", "Elfo alto", "Elfo dei boschi"],
-    "Gnomo": ["Gnomo delle foreste", "Gnomo delle rocce"],
-    "Tiefling": ["Abissale", "Ctonio", "Infernale"]
+    "Elfo": [
+      "Drow",
+      "Elfo alto",
+      "Elfo dei boschi"
+    ],
+    "Gnomo": [
+      "Gnomo delle foreste",
+      "Gnomo delle rocce"
+    ],
+    "Tiefling": [
+      "Abissale",
+      "Ctonio",
+      "Infernale"
+    ]
   },
-  "background": ["Accolito", "Criminale", "Sapiente", "Soldato", "Eremita", "Guida"],
+  "background": [
+    "Accolito",
+    "Artigiano",
+    "Ciarlatano",
+    "Contadino",
+    "Criminale",
+    "Eremita",
+    "Guardia",
+    "Guida",
+    "Intrattenitore",
+    "Marinaio",
+    "Mercante",
+    "Nobile",
+    "Sapiente",
+    "Scriba",
+    "Soldato",
+    "Viandante"
+  ],
   "lingue": {
-    "standard": ["Comune", "Lingua dei segni comune", "Draconico", "Nanico", "Elfico", "Gigante", "Gnomesco", "Goblin", "Halfling", "Orchesco"],
-    "rare": ["Abissale", "Celestiale", "Druidico", "Gergo delle profondità", "Gergo ladresco", "Infernale", "Primordiale", "Silvano", "Sottocomune"]
+    "standard": [
+      "Comune",
+      "Lingua dei segni comune",
+      "Draconico",
+      "Nanico",
+      "Elfico",
+      "Gigante",
+      "Gnomesco",
+      "Goblin",
+      "Halfling",
+      "Orchesco"
+    ],
+    "rare": [
+      "Abissale",
+      "Celestiale",
+      "Druidico",
+      "Gergo delle profondità",
+      "Gergo ladresco",
+      "Infernale",
+      "Primordiale",
+      "Silvano",
+      "Sottocomune"
+    ]
   },
-  "allineamenti": ["Legale buono", "Neutrale buono", "Caotico buono", "Legale neutrale", "Neutrale", "Caotico neutrale", "Legale malvagio", "Neutrale malvagio", "Caotico malvagio", "Senza allineamento"],
-  "taglie": ["Piccola", "Media", "Minuscola", "Grande", "Enorme", "Mastodontica"],
-  "competenzeArmi": ["Armi semplici", "Armi da guerra"],
+  "allineamenti": [
+    "Legale buono",
+    "Neutrale buono",
+    "Caotico buono",
+    "Legale neutrale",
+    "Neutrale",
+    "Caotico neutrale",
+    "Legale malvagio",
+    "Neutrale malvagio",
+    "Caotico malvagio",
+    "Senza allineamento"
+  ],
+  "taglie": [
+    "Piccola",
+    "Media",
+    "Minuscola",
+    "Grande",
+    "Enorme",
+    "Mastodontica"
+  ],
+  "competenzeArmi": [
+    "Armi semplici",
+    "Armi da guerra"
+  ],
   "armi": {
-    "semplici": ["Ascia", "Bastone ferrato", "Falcetto", "Giavellotto", "Lancia", "Martello leggero", "Mazza", "Pugnale", "Randello pesante", "Randello", "Arco corto", "Balestra leggera", "Dardo", "Fionda"],
-    "daGuerra": ["Alabarda", "Ascia bipenne", "Ascia da battaglia", "Falcione", "Frusta", "Lancia da cavaliere", "Maglio", "Martello da guerra", "Mazza chiodata", "Mazzafrusto", "Picca", "Piccone da guerra", "Scimitarra", "Spada corta", "Spada lunga", "Spadone", "Stocco", "Tridente", "Arco lungo", "Balestra a mano", "Balestra pesante", "Cerbottana", "Moschetto", "Pistola"]
+    "semplici": [
+      "Ascia",
+      "Bastone ferrato",
+      "Falcetto",
+      "Giavellotto",
+      "Lancia",
+      "Martello leggero",
+      "Mazza",
+      "Pugnale",
+      "Randello pesante",
+      "Randello",
+      "Arco corto",
+      "Balestra leggera",
+      "Dardo",
+      "Fionda"
+    ],
+    "daGuerra": [
+      "Alabarda",
+      "Ascia bipenne",
+      "Ascia da battaglia",
+      "Falcione",
+      "Frusta",
+      "Lancia da cavaliere",
+      "Maglio",
+      "Martello da guerra",
+      "Mazza chiodata",
+      "Mazzafrusto",
+      "Picca",
+      "Piccone da guerra",
+      "Scimitarra",
+      "Spada corta",
+      "Spada lunga",
+      "Spadone",
+      "Stocco",
+      "Tridente",
+      "Arco lungo",
+      "Balestra a mano",
+      "Balestra pesante",
+      "Cerbottana",
+      "Moschetto",
+      "Pistola"
+    ]
   },
   "talenti": {
-    "origini": ["Abile", "Aggressore selvaggio", "Allerta", "Iniziato alla magia", "Guaritore", "Lavoro manuale"],
-    "generali": ["Aumento dei punteggi di caratteristica", "Lottatore"],
-    "stileDiCombattimento": ["Combattere con armi possenti", "Combattere con due armi", "Difesa", "Tiro"],
-    "donoEpico": ["Dono del fato", "Dono della vista pura", "Dono delle abilità di combattimento", "Dono dell'offensiva irresistibile", "Dono dello spirito notturno", "Dono del richiamo degli incantesimi", "Dono del viaggio dimensionale"]
+    "origini": [
+      "Abile",
+      "Aggressore selvaggio",
+      "Allerta",
+      "Fortunato",
+      "Guaritore",
+      "Iniziato alla magia",
+      "Lavoro manuale",
+      "Lottatore da taverna",
+      "Musicista",
+      "Robusto"
+    ],
+    "generali": [
+      "Abilità impeccabile",
+      "Adepto elementale",
+      "Appostato",
+      "Atleta",
+      "Attore",
+      "Aumento dei punteggi di caratteristica",
+      "Bisturi da battaglia",
+      "Carica",
+      "Cecchino magico",
+      "Combattente a due armi",
+      "Combattente in sella",
+      "Competenza nelle armi da guerra",
+      "Condottiero ispiratore",
+      "Contaminazione fatata",
+      "Contaminazione oscura",
+      "Corazze leggere",
+      "Corazze medie",
+      "Corazze pesanti",
+      "Cuoco",
+      "Duellante difensivo",
+      "Esperto di balestre",
+      "Incantatore da guerra",
+      "Incantatore rituale",
+      "Lottatore",
+      "Maestria dei veleni",
+      "Maestro d'armi",
+      "Maestro d'armi possenti",
+      "Maestro degli scudi",
+      "Maestro delle armature medie",
+      "Maestro delle armature pesanti",
+      "Maestro delle armi su asta",
+      "Martello vivente",
+      "Mente acuta",
+      "Osservatore",
+      "Rapidità",
+      "Resiliente",
+      "Sentinella",
+      "Sterminatore di maghi",
+      "Stile penetrante",
+      "Telecinesi",
+      "Telepatia",
+      "Tenace",
+      "Tiratore scelto"
+    ],
+    "stileDiCombattimento": [
+      "Combattere alla cieca",
+      "Combattere con armi da lancio",
+      "Combattere con armi possenti",
+      "Combattere con due armi",
+      "Combattere disarmato",
+      "Difesa",
+      "Duellare",
+      "Intercettazione",
+      "Protezione",
+      "Tiro"
+    ],
+    "donoEpico": [
+      "Dono dell'abilità",
+      "Dono delle abilità di combattimento",
+      "Dono del fato",
+      "Dono dell'offensiva irresistibile",
+      "Dono del recupero",
+      "Dono della resistenza all'energia",
+      "Dono del richiamo degli incantesimi",
+      "Dono dello spirito notturno",
+      "Dono della tempra",
+      "Dono della velocità",
+      "Dono del viaggio dimensionale",
+      "Dono della vista pura"
+    ]
   },
-  "livelliIncantesimo": ["Trucchetto", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  "livelliIncantesimo": [
+    "Trucchetto",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "fontePrincipale": "docs/regole/Manuale Del Giocatore - 2024.pdf",
+  "fonteSrd": "https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
 }

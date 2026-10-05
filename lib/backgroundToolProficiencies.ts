@@ -1,14 +1,11 @@
 import type { Sheet } from "./sheet";
-import phb from "./integrazioni-phb-2024.json";
+import backgrounds from "./manuale-2024-backgrounds.json";
 
 // Player's Handbook 2024: competenze fisse dei background presenti nell'app.
-const backgroundTools: Record<string, string> = {
-  Accolito: "Scorte da calligrafo",
-  Criminale: "Arnesi da scasso",
-  Sapiente: "Scorte da calligrafo",
-  Eremita: phb.background.Eremita.strumento,
-  Guida: phb.background.Guida.strumento,
-};
+const backgroundTools: Record<string, string> = Object.fromEntries(
+  Object.entries(backgrounds).filter(([, details]) => "tool" in details)
+    .map(([name, details]) => [name, (details as { tool: string }).tool]),
+);
 
 export function backgroundToolProficiency(background: string): string | null {
   return backgroundTools[background] ?? null;

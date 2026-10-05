@@ -2,6 +2,7 @@ import type { Sheet } from "./sheet";
 
 // Taglia di base della specie (SRD 5.2.1). Effetti temporanei non la cambiano.
 export const speciesSizes: Record<string, readonly string[]> = {
+  Aasimar: ["Media", "Piccola"],
   Dragonide: ["Media"],
   Elfo: ["Media"],
   Gnomo: ["Piccola"],

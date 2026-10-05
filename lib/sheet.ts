@@ -42,6 +42,7 @@ export type Equip = {
   indossato?: boolean;
   impugnato?: boolean;
   bonusMagico?: 1 | 2 | 3;
+  magico?: boolean;
 };
 
 export type Privilegio = {

@@ -97,6 +97,6 @@ test("recorded values explain the selected character state", () => {
   sheet.puntiFeritaMax = "20";
   sheet.classeArmatura = 14;
   assert.match(recordedValueDetails(sheet, "pf").meaning, /16 punti ferita attuali su 20 massimi/);
-  assert.match(recordedValueDetails(sheet, "ca").meaning, /almeno 14/);
+  assert.match(recordedValueDetails(sheet, "ca").meaning, /Classe Armatura: 14\. Valore storico/);
   assert.equal(recordedValueDetails(sheet, "pfMassimi").meaning.includes("20"), true);
 });

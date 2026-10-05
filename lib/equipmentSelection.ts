@@ -1,4 +1,5 @@
 import { armorById, armorCatalog } from "./armorCatalog";
+import { gearCatalog } from "./gearCatalog";
 import type { Equip, Sheet } from "./sheet";
 
 export function armorForEquipment(item: Equip) {
@@ -7,6 +8,21 @@ export function armorForEquipment(item: Equip) {
 
 export function isArmorEquipment(item: Equip): boolean {
   return armorForEquipment(item) !== null;
+}
+
+const magicGearIds = new Set(["srd52:gear:pozione-guarigione", "srd52:gear:pergamena-livello-1", "srd52:gear:pergamena-trucchetto"]);
+const magicGearNames = new Set(gearCatalog.filter((gear) => magicGearIds.has(gear.id)).map((gear) => gear.name));
+
+export function isMagicGearId(id: string): boolean {
+  return magicGearIds.has(id);
+}
+
+export function isMagicEquipment(item: Equip): boolean {
+  return item.magico === true || magicGearIds.has(item.catalogId ?? "") || magicGearNames.has(item.nome);
+}
+
+export function replaceEquipmentGroup(all: Equip[], items: Equip[], magic: boolean): Equip[] {
+  return [...all.filter((item) => isArmorEquipment(item) || isMagicEquipment(item) !== magic), ...items];
 }
 
 export function replaceOtherEquipment(all: Equip[], other: Equip[]): Equip[] {

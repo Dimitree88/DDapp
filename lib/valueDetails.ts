@@ -1,4 +1,6 @@
 import regole from "./regole-srd-2024.json";
+import manual from "./manuale-2024-entities.json";
+import backgrounds2024 from "./manuale-2024-backgrounds.json";
 import { proficiencyBonus } from "./abilityBonus";
 
 export type ValueDetail = { meaning: string; rule?: boolean; page?: number };
@@ -135,6 +137,21 @@ export function valueDetails(kind: string, value: string): ValueDetail | null {
     return { meaning: `Il personaggio è di ${value}° livello. Il suo bonus di competenza è ${proficiencyBonus(value)}.`, rule: true };
   }
   const meaning = catalogs[kind]?.[value];
-  if (!meaning) return null;
-  return { meaning, rule: !["Eremita", "Guida", "Guaritore", "Lavoro manuale"].includes(value) };
+  if (meaning) return { meaning, rule: true };
+  if (kind === "sottoclasse") {
+    const owner = Object.entries(manual.classes).find(([, options]) => options.includes(value));
+    if (owner) return { meaning: `Sottoclasse del ${owner[0]}, descritta nel Manuale del Giocatore 2024. I privilegi specifici dipendono dal livello del personaggio.`, rule: true };
+  }
+  if (kind === "background") {
+    const entry = (backgrounds2024 as Record<string, { feat: string; skills: string[] }>)[value];
+    if (entry) return { meaning: `Background del Manuale del Giocatore 2024. Concede ${entry.feat} e competenza in ${entry.skills.join(" e ")}.`, rule: true };
+  }
+  if (kind === "specie" && value === "Aasimar") return {
+    meaning: "Specie del Manuale del Giocatore 2024. Può essere Media o Piccola; possiede tratti celestiali e una rivelazione dal 3° livello.", rule: true,
+  };
+  if (kind === "talento") {
+    const category = Object.entries(manual.feats).find(([, options]) => options.includes(value))?.[0];
+    if (category) return { meaning: `Talento ${category === "origini" ? "Origini" : category === "generali" ? "Generale" : category === "stileDiCombattimento" ? "Stile di combattimento" : "Dono epico"} del Manuale del Giocatore 2024.`, rule: true };
+  }
+  return null;
 }

@@ -33,7 +33,7 @@ import { calculationExplanation, type CalculationTarget } from "@/lib/calculatio
 import { speciesSizes } from "@/lib/creationRules";
 import { helpFor, type FieldHelp } from "@/lib/fieldHelp";
 import { languageDetails } from "@/lib/languageDetails";
-import { weaponByName, weaponDetails, weaponNames } from "@/lib/weaponDetails";
+import { weaponByName, weaponDetails } from "@/lib/weaponDetails";
 import { availableWeaponMasteries, proficientWeaponNames, weaponMasteryLimit } from "@/lib/weaponChoices";
 import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
@@ -55,7 +55,7 @@ import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
 import { recordedValueDetails } from "@/lib/recordedValueDetails";
 import { displayedArmorClass } from "@/lib/armorClass";
-import { armorForEquipment, isArmorEquipment, replaceOtherEquipment, selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
+import { armorForEquipment, isArmorEquipment, isMagicEquipment, isMagicGearId, replaceEquipmentGroup, selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { DiceText } from "@/components/DiceText";
 
@@ -63,7 +63,6 @@ const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
 const lignaggi = regole.lignaggi as Record<string, string[]>;
 const lingue = [...regole.lingue.standard, ...regole.lingue.rare];
-const nomiArmi = weaponNames;
 const historyDayFormatter = new Intl.DateTimeFormat("it-IT", {
   dateStyle: "full", timeZone: "Europe/Rome",
 });
@@ -282,7 +281,7 @@ function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: 
   </div>;
 }
 
-function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void }) {
+function ObjectListEditor({ items, indices, onChange, magic = false }: { items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; magic?: boolean }) {
   const { unlocked } = useContext(EditContext);
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
   const entries = items.map((item, index) => ({ item, index }));
@@ -294,7 +293,8 @@ function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indice
       {position === standard.length && custom.length > 0 && <h4 className={`${sectionTitle} mt-2`}>Oggetti personalizzati</h4>}
       <div className={`${card} flex items-center gap-2`}>
         <div className="min-w-0 flex-1">
-          <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-sm font-semibold text-ink" />
+          {item.catalogId || !unlocked ? <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-sm font-semibold text-ink" />
+            : <TextField label="Nome" showInfo={false} value={item.nome} onChange={(value) => patchAt(index, { nome: value })} />}
           {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
         </div>
         <span className="text-xs text-ink-faint">Quantità</span>
@@ -302,15 +302,15 @@ function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indice
         {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
       </div>
     </Fragment>)}
-    {unlocked && <select aria-label="Aggiungi oggetto" value="" onChange={(event) => {
+    {unlocked && <select aria-label={magic ? "Aggiungi oggetto magico" : "Aggiungi oggetto"} value="" onChange={(event) => {
       const gear = gearCatalog.find((entry) => entry.id === event.target.value);
-      onChange([...items, { nome: gear?.name ?? "", catalogId: gear?.id, dettaglio: "", quantita: "1" }]);
+      onChange([...items, { nome: gear?.name ?? "", catalogId: gear?.id, dettaglio: "", quantita: "1", ...(magic ? { magico: true } : {}) }]);
     }} className="max-w-full self-start rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
-      <option value="" disabled>+ Aggiungi oggetto</option>
-      {gearCatalog.map((gear) => ({ id: gear.id, name: gear.name }))
+      <option value="" disabled>{magic ? "+ Aggiungi oggetto magico" : "+ Aggiungi oggetto"}</option>
+      {gearCatalog.filter((gear) => isMagicGearId(gear.id) === magic).map((gear) => ({ id: gear.id, name: gear.name }))
         .sort((a, b) => compareOptionLabels(a.name, b.name))
         .map((gear) => <option key={gear.id} value={gear.id}>{gear.name}</option>)}
-      <option value="personalizzato">OGGETTO PERSONALIZZATO</option>
+      <option value="personalizzato">{magic ? "OGGETTO MAGICO PERSONALIZZATO" : "OGGETTO PERSONALIZZATO"}</option>
     </select>}
   </div>;
 }
@@ -757,8 +757,10 @@ export default function CharacterClient({
     label: `${armor.name}${sheet.competenzeArmatura[armor.category] ? "" : " · senza competenza"}`,
   }));
   const wornArmorName = armorChoices.find((armor) => armor.id === (wornArmor ? armorForEquipment(wornArmor)?.id : null))?.label ?? "Nessuna";
-  const otherEquipment = sheet.equipaggiamento.filter((item) => !isArmorEquipment(item));
-  const otherEquipmentIndices = sheet.equipaggiamento.flatMap((item, index) => isArmorEquipment(item) ? [] : [index]);
+  const otherEquipment = sheet.equipaggiamento.filter((item) => !isArmorEquipment(item) && !isMagicEquipment(item));
+  const otherEquipmentIndices = sheet.equipaggiamento.flatMap((item, index) => isArmorEquipment(item) || isMagicEquipment(item) ? [] : [index]);
+  const magicEquipment = sheet.equipaggiamento.filter((item) => !isArmorEquipment(item) && isMagicEquipment(item));
+  const magicEquipmentIndices = sheet.equipaggiamento.flatMap((item, index) => !isArmorEquipment(item) && isMagicEquipment(item) ? [index] : []);
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
       title: "Stato & Identità",
@@ -942,7 +944,11 @@ export default function CharacterClient({
           <div>
             <h3 className={sectionTitle}>Oggetti</h3>
             <p className="mb-2 text-sm text-ink-soft">Peso catalogato: {inventoryWeight(sheet).knownKg} kg{carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}{inventoryWeight(sheet).unknownItems.length ? `; peso non noto per ${inventoryWeight(sheet).unknownItems.length} voci` : ""}.</p>
-            <ObjectListEditor items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })} />
+            <ObjectListEditor items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceEquipmentGroup(sheet.equipaggiamento, items, false) })} />
+          </div>
+          <div>
+            <h3 className={sectionTitle}>Oggetti magici</h3>
+            <ObjectListEditor magic items={magicEquipment} indices={magicEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceEquipmentGroup(sheet.equipaggiamento, items, true) })} />
           </div>
         </div>
       ),

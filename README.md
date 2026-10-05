@@ -104,8 +104,10 @@ valori attuali; `node scripts/normalize-domain-values.mjs` simula la bonifica e
 backup locale ignorato da Git in `.db-backups/`. Gli script leggono `.env.local`.
 
 **Regole adottate dalla campagna:** D&D quinta edizione revisionata 2024
-(talvolta chiamata «5.5»). La base è l'SRD 5.2.1 in italiano, integrata con
-le voci del Manuale del Giocatore 2024 documentate in
+(talvolta chiamata «5.5»). Il riferimento principale è
+[`docs/regole/Manuale Del Giocatore - 2024.pdf`](docs/regole/Manuale%20Del%20Giocatore%20-%202024.pdf).
+L'SRD 5.2.1 in italiano resta la fonte dei cataloghi esistenti da confrontare
+con il Manuale; le integrazioni precedenti sono documentate in
 [`docs/integrazioni-phb-2024.md`](docs/integrazioni-phb-2024.md).
 Lo SRD 5.1 non è la fonte per nuove opzioni, controlli o bonifiche delle schede.
 Se una voce sembra provenire dalle regole 2014 o da un'eccezione del tavolo,

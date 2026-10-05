@@ -1,7 +1,8 @@
 import catalog from "./incantesimi-srd-2024.json";
 import details from "./incantesimi-dettagli-srd-2024.json";
+import manualSpells from "./manuale-2024-spells.json";
 
-export const spellNames = catalog.incantesimi;
+export const spellNames = [...new Set([...catalog.incantesimi, ...manualSpells.map((spell) => spell.name)])];
 
 const namesByKey = new Map(spellNames.map((name) => [name.toLocaleLowerCase("it"), name]));
 const legacyNames = new Map([
@@ -16,5 +17,17 @@ export function canonicalSpellName(name: string): string {
 
 export function spellDetails(name: string) {
   const canonical = canonicalSpellName(name) as keyof typeof details;
-  return details[canonical] ?? null;
+  const existing = details[canonical];
+  if (existing) return existing;
+  const manual = manualSpells.find((spell) => spell.name === canonical);
+  return manual ? {
+    livello: manual.level,
+    scuola: manual.school,
+    classi: manual.classes,
+    tempo: "",
+    gittata: "",
+    componenti: "",
+    durata: "",
+    pagina: manual.page,
+  } : null;
 }

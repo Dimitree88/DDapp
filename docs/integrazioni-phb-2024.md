@@ -11,4 +11,4 @@ Il PDF `docs/regole/IT_SRD_CC_v5.2.1.pdf` è lo SRD italiano. Non contiene i bac
 
 La descrizione generale di **Iniziato alla magia** nello SRD permette di scegliere una lista tra Chierico, Druido e Mago quando il talento è ottenuto come scelta libera. Il background Guida assegna invece la versione con lista **Druido**. La nota attuale di Erin indica la lista **Mago**, che non corrisponde al talento concesso da Guida. Non è stata trovata un'altra concessione per quel talento nella sua scheda; la provenienza va chiarita con il giocatore o il master prima di modificare il dato o attivare una validazione automatica.
 
-Le descrizioni dei benefici nel JSON sono sintesi operative, non una copia del testo del manuale. Il file non amplia ancora il catalogo a tutti gli altri background e talenti esclusivi del Manuale: registra le integrazioni già utilizzate dall'app e dai personaggi presenti.
+Le descrizioni dei benefici nel JSON sono sintesi operative, non una copia del testo del manuale. Quel file conserva le prime quattro integrazioni; i domini completi dei nomi e il loro stato di verifica sono ora in `lib/manuale-2024-entities.json` e `docs/archivio-entita-2024.md`.

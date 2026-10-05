@@ -1,0 +1,18 @@
+{
+  "Accolito": { "feat": "Iniziato alla magia", "spellList": "Chierico", "abilities": ["INT", "SAG", "CAR"], "skills": ["INTUIZIONE", "RELIGIONE"], "tool": "Scorte da calligrafo" },
+  "Artigiano": { "feat": "Lavoro manuale", "abilities": ["FOR", "DES", "INT"], "skills": ["INDAGARE", "PERSUASIONE"], "toolChoice": "strumento da artigiano" },
+  "Ciarlatano": { "feat": "Abile", "abilities": ["DES", "COS", "CAR"], "skills": ["INGANNO", "RAPIDITÀ DI MANO"], "tool": "Arnesi da falsario" },
+  "Contadino": { "feat": "Robusto", "abilities": ["FOR", "COS", "SAG"], "skills": ["ADDESTRARE ANIMALI", "NATURA"], "tool": "Strumenti da falegname" },
+  "Criminale": { "feat": "Allerta", "abilities": ["DES", "COS", "INT"], "skills": ["RAPIDITÀ DI MANO", "FURTIVITÀ"], "tool": "Arnesi da scasso" },
+  "Eremita": { "feat": "Guaritore", "abilities": ["COS", "SAG", "CAR"], "skills": ["MEDICINA", "RELIGIONE"], "tool": "Borsa da erborista" },
+  "Guardia": { "feat": "Allerta", "abilities": ["FOR", "INT", "SAG"], "skills": ["ATLETICA", "PERCEZIONE"], "toolChoice": "tipo di gioco" },
+  "Guida": { "feat": "Iniziato alla magia", "spellList": "Druido", "abilities": ["DES", "COS", "SAG"], "skills": ["FURTIVITÀ", "SOPRAVVIVENZA"], "tool": "Strumenti da cartografo" },
+  "Intrattenitore": { "feat": "Musicista", "abilities": ["FOR", "DES", "CAR"], "skills": ["ACROBAZIA", "INTRATTENERE"], "toolChoice": "strumento musicale" },
+  "Marinaio": { "feat": "Lottatore da taverna", "abilities": ["FOR", "DES", "SAG"], "skills": ["ACROBAZIA", "PERCEZIONE"], "tool": "Strumenti da navigatore" },
+  "Mercante": { "feat": "Fortunato", "abilities": ["COS", "INT", "CAR"], "skills": ["ADDESTRARE ANIMALI", "PERSUASIONE"], "tool": "Strumenti da navigatore" },
+  "Nobile": { "feat": "Abile", "abilities": ["FOR", "INT", "CAR"], "skills": ["STORIA", "PERSUASIONE"], "toolChoice": "tipo di gioco" },
+  "Sapiente": { "feat": "Iniziato alla magia", "spellList": "Mago", "abilities": ["COS", "INT", "SAG"], "skills": ["ARCANO", "STORIA"], "tool": "Scorte da calligrafo" },
+  "Scriba": { "feat": "Abile", "abilities": ["DES", "INT", "SAG"], "skills": ["INDAGARE", "PERCEZIONE"], "tool": "Scorte da calligrafo" },
+  "Soldato": { "feat": "Aggressore selvaggio", "abilities": ["FOR", "DES", "COS"], "skills": ["ATLETICA", "INTIMIDIRE"], "toolChoice": "tipo di gioco" },
+  "Viandante": { "feat": "Fortunato", "abilities": ["DES", "SAG", "CAR"], "skills": ["INTUIZIONE", "FURTIVITÀ"], "tool": "Arnesi da scasso" }
+}

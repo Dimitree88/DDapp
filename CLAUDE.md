@@ -43,7 +43,7 @@ anche l'ambiente locale si collega a quello).
   standard di caratteristiche/abilità D&D e conversione dei vecchi JSON con
   `normalizeSheet()`.
 - `lib/abilityBonus.ts` — calcolo dei valori derivati senza salvarli nel DB.
-- `docs/regole/` — SRD ufficiali italiani 5.1 (2014) e 5.2.1 (2024).
+- `docs/regole/Manuale Del Giocatore - 2024.pdf` — riferimento principale per le regole 2024; nella stessa cartella si trova lo SRD 5.2.1 usato dai cataloghi precedenti.
 - `lib/exportPdf.ts` — esportazione PDF nel formato dell'app.
 - `lib/exportTemplatePdf.ts` e `lib/pdfTemplateFields.json` — esportazione
   statica sul modello originale in `public/scheda-template.pdf`.

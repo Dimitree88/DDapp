@@ -11,6 +11,7 @@ import { gearCatalog } from "./gearCatalog";
 import { availableClassSpells, spellSlots, spellcastingAbility } from "./spellcasting";
 import { subclassLevel } from "./classProgression";
 import { featByName } from "./featCatalog";
+import { featPrerequisitesMet } from "./featPrerequisites";
 
 const classes = rules.classi as Record<string, string[]>;
 const lineages = rules.lignaggi as Record<string, string[]>;
@@ -86,6 +87,7 @@ export function domainErrors(sheet: Sheet): string[] {
     check(`Talento ${index + 1}`, feat.nome, feats);
     const entry = featByName(feat.nome);
     if (entry && Number(sheet.livello) < entry.minLevel) errors.push(`Talento ${feat.nome}: richiede almeno livello ${entry.minLevel}`);
+    if (entry && !featPrerequisitesMet(sheet, feat.nome)) errors.push(`Talento ${feat.nome}: prerequisiti non soddisfatti`);
   });
   (sheet.risorse ?? []).forEach((resource, index) => {
     if (!resource.nome.trim() || !resource.fonte.trim() || !Number.isSafeInteger(resource.massimo) || resource.massimo < 0 || !Number.isSafeInteger(resource.spesi) || resource.spesi < 0 || resource.spesi > resource.massimo || !["breve", "lungo", "manuale"].includes(resource.ricarica)) errors.push(`Risorsa ${index + 1}: dati non validi`);

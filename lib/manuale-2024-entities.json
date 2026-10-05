@@ -1,0 +1,32 @@
+{
+  "source": "docs/regole/Manuale Del Giocatore - 2024.pdf",
+  "pageOffset": 3,
+  "classes": {
+    "Barbaro": ["Cammino dell'Albero del Mondo", "Cammino del Berserker", "Cammino del Cuore Selvaggio", "Cammino dello Zelota"],
+    "Bardo": ["Collegio della Danza", "Collegio del Fascino", "Collegio della Sapienza", "Collegio del Valore"],
+    "Chierico": ["Dominio della Guerra", "Dominio dell'Inganno", "Dominio della Luce", "Dominio della Vita"],
+    "Druido": ["Circolo della Luna", "Circolo del Mare", "Circolo delle Stelle", "Circolo della Terra"],
+    "Guerriero": ["Campione", "Cavaliere Mistico", "Guerriero Psionico", "Maestro di Battaglia"],
+    "Ladro": ["Assassino", "Furfante", "Lama Spirituale", "Mistificatore Arcano"],
+    "Mago": ["Abiuratore", "Divinatore", "Illusionista", "Invocatore"],
+    "Monaco": ["Guerriero degli Elementi", "Guerriero della Mano Aperta", "Guerriero della Misericordia", "Guerriero dell'Ombra"],
+    "Paladino": ["Giuramento degli Antichi", "Giuramento di Devozione", "Giuramento di Gloria", "Giuramento di Vendetta"],
+    "Ranger": ["Cacciatore", "Cacciatore delle Tenebre", "Signore delle Bestie", "Viandante Fatato"],
+    "Stregone": ["Stregoneria Aberrante", "Stregoneria Draconica", "Stregoneria della Magia Selvaggia", "Stregoneria Meccanica"],
+    "Warlock": ["Patrono Celestiale", "Patrono Grande Antico", "Patrono Immondo", "Patrono Signore Fatato"]
+  },
+  "backgrounds": ["Accolito", "Artigiano", "Ciarlatano", "Contadino", "Criminale", "Eremita", "Guardia", "Guida", "Intrattenitore", "Marinaio", "Mercante", "Nobile", "Sapiente", "Scriba", "Soldato", "Viandante"],
+  "species": ["Aasimar", "Dragonide", "Elfo", "Gnomo", "Goliath", "Halfling", "Nano", "Orco", "Tiefling", "Umano"],
+  "conditions": ["Accecato", "Affascinato", "Afferrato", "Assordato", "Avvelenato", "Incapacitato", "Indebolimento", "Invisibile", "Paralizzato", "Pietrificato", "Privo di sensi", "Prono", "Spaventato", "Stordito", "Trattenuto"],
+  "mounts": ["Cammello", "Cavallo da galoppo", "Cavallo da guerra", "Cavallo da tiro", "Elefante", "Mastino", "Mulo", "Pony"],
+  "vehicles": ["Biga", "Carretto", "Carro", "Carrozza", "Slitta", "Barca a remi", "Barcone", "Dirigibile", "Galea", "Nave da guerra", "Nave lunga", "Nave a vela"],
+  "lifestyles": ["Miserabile", "Squallido", "Povero", "Modesto", "Agiato", "Ricco", "Aristocratico"],
+  "services": ["Passaggio in nave", "Pedaggio stradale o di ingresso", "Viaggio in carrozza dentro una città", "Viaggio in carrozza tra cittadine", "Gregario abile", "Gregario inesperto", "Messaggero"],
+  "spellNamesToReconcile": ["Amicizia", "Arma elementale", "Armatura di Agathys", "Aura di purezza", "Aura magica di Nystul", "Braccia di Hadar", "Calderone ribollente di Tasha", "Capanna di Leomund", "Cerchio di potere", "Cordone di frecce", "Corona di follia", "Danza irresistibile di Otto", "Dardo stregato", "Disco fluttuante di Tenser", "Duello obbligato", "Evoca pioggia di armi", "Evoca raffica", "Evocazioni istantanee di Drawmij", "Fame di Hadar", "Faretra rapida", "Interdizione alle lame", "Legame telepatico di Rary", "Mano di Bigby", "Manto del crociato", "Morte apparente", "Nube di pugnali", "Onda distruttiva", "Parola del potere fortificare", "Parola radiosa", "Percezione delle bestie", "Portale arcano", "Presenza regale di Yolande", "Punizione accecante", "Punizione collerica", "Punizione demoralizzante", "Punizione esiliante", "Punizione tonante", "Raffica di spine", "Rampicante afferrante", "Reggia meravigliosa di Mordenkainen", "Richiama aberrazione", "Richiama bestia", "Richiama celestiale", "Richiama costrutto", "Richiama elementale", "Richiama folletto", "Richiama immondo", "Richiama non morto", "Rintocco dei morti", "Risata incontenibile di Tasha", "Saltare", "Santuario privato di Mordenkainen", "Scheggia della mente", "Scossa sinaptica", "Scrigno segreto di Leomund", "Segugio fedele di Mordenkainen", "Sfera congelante di Otiluke", "Sfera elastica di Otiluke", "Spada di Mordenkainen", "Telepatia", "Tentacoli neri di Evard", "Turbine implacabile", "Vigore arcano"],
+  "feats": {
+    "origini": ["Abile", "Aggressore selvaggio", "Allerta", "Fortunato", "Guaritore", "Iniziato alla magia", "Lavoro manuale", "Lottatore da taverna", "Musicista", "Robusto"],
+    "generali": ["Abilità impeccabile", "Adepto elementale", "Appostato", "Atleta", "Attore", "Aumento dei punteggi di caratteristica", "Bisturi da battaglia", "Carica", "Cecchino magico", "Combattente a due armi", "Combattente in sella", "Competenza nelle armi da guerra", "Condottiero ispiratore", "Contaminazione fatata", "Contaminazione oscura", "Corazze leggere", "Corazze medie", "Corazze pesanti", "Cuoco", "Duellante difensivo", "Esperto di balestre", "Incantatore da guerra", "Incantatore rituale", "Lottatore", "Maestria dei veleni", "Maestro d'armi", "Maestro d'armi possenti", "Maestro degli scudi", "Maestro delle armature medie", "Maestro delle armature pesanti", "Maestro delle armi su asta", "Martello vivente", "Mente acuta", "Osservatore", "Rapidità", "Resiliente", "Sentinella", "Sterminatore di maghi", "Stile penetrante", "Telecinesi", "Telepatia", "Tenace", "Tiratore scelto"],
+    "stileDiCombattimento": ["Combattere alla cieca", "Combattere con armi da lancio", "Combattere con armi possenti", "Combattere con due armi", "Combattere disarmato", "Difesa", "Duellare", "Intercettazione", "Protezione", "Tiro"],
+    "donoEpico": ["Dono dell'abilità", "Dono delle abilità di combattimento", "Dono del fato", "Dono dell'offensiva irresistibile", "Dono del recupero", "Dono della resistenza all'energia", "Dono del richiamo degli incantesimi", "Dono dello spirito notturno", "Dono della tempra", "Dono della velocità", "Dono del viaggio dimensionale", "Dono della vista pura"]
+  }
+}
