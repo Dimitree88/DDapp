@@ -902,7 +902,7 @@ export default function CharacterClient({
             <div className="mt-2"><Toggle label="Scudo impugnato" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} /></div>
           </div>
           <div>
-            <h3 className={sectionTitle}>Competenze armatura</h3>
+            <h3 className={sectionTitle}><InfoLabel id="Competenze armatura" title="Competenze armatura" /></h3>
             <div className="flex flex-wrap gap-2">
               {([
                 ["Leggere", "leggere"], ["Medie", "medie"], ["Pesanti", "pesanti"], ["Scudi", "scudi"],
@@ -913,11 +913,11 @@ export default function CharacterClient({
             </div>
           </div>
           <div>
-            <h3 className={sectionTitle}>Competenze armi</h3>
+            <h3 className={sectionTitle}><InfoLabel id="Competenze armi" title="Competenze armi" /></h3>
             <WeaponCompetencyEditor sheet={sheet} onChange={patch} />
           </div>
           <div>
-            <h3 className={sectionTitle}>Padronanze scelte</h3>
+            <h3 className={sectionTitle}><InfoLabel id="Padronanze scelte" title="Padronanze scelte" /></h3>
             <WeaponMasteryEditor sheet={sheet} onChange={(items) => patch({ padronanzeArmi: items })} />
           </div>
           <div>
