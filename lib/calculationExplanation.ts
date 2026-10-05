@@ -59,7 +59,7 @@ export function calculationExplanation(sheet: Sheet, target: CalculationTarget):
       details: [
         { label: "Destrezza", value: shown(sheet.caratteristiche.find((item) => item.abbr === "DES")?.valore ?? "") },
         { label: "Armatura indossata", value: worn?.nome ?? "Nessuna" },
-        { label: "Scudo impugnato", value: shield?.nome ?? (sheet.scudo ? "Sì" : "No") },
+        { label: "Scudo", value: shield?.nome ?? (sheet.scudo ? "Sì" : "No") },
         { label: "Competenza negli scudi", value: sheet.competenzeArmatura.scudi ? "Sì" : "No" },
       ],
       formula: calculation ? [calculation.formula, ...calculation.warnings].join("; ") : "Inserisci Destrezza per ottenere il calcolo automatico.",

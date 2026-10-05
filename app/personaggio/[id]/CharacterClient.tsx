@@ -157,8 +157,8 @@ function StringListEditor({
               (helpId === "Lingue" && !languageDetails(it)) ?
                 <span className="block w-full rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">{it}</span> :
                 <InfoLabel id={helpId === "Lingue" ? `lingua:${it}` : helpId === "Competenze armi" ? `arma:${it}` : helpId ?? it} title={it} className="w-full rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" /> : options ?
-              <TextField label="" helpId={helpId} value={it} options={options} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
-              <InlineInput value={it} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} className="flex-1" placeholder="…" />}
+                <TextField label="" helpId={helpId} value={it} options={options} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
+                <InlineInput value={it} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} className="flex-1" placeholder="…" />}
           </div>
           {unlocked && !(lockExisting && it) && (
             <button
@@ -281,27 +281,29 @@ function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: 
   </div>;
 }
 
-function ObjectListEditor({ items, indices, onChange, magic = false }: { items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; magic?: boolean }) {
+function ObjectListEditor({ items, indices, onChange, magic = false, afterStandard }: { items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; magic?: boolean; afterStandard?: ReactNode }) {
   const { unlocked } = useContext(EditContext);
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
   const entries = items.map((item, index) => ({ item, index }));
   const standard = entries.filter(({ item }) => gearById(item.catalogId ?? "") || gearCatalog.some((gear) => gear.name === item.nome));
   const custom = entries.filter(({ item }) => !gearById(item.catalogId ?? "") && !gearCatalog.some((gear) => gear.name === item.nome));
-  return <div className="flex flex-col gap-2">
-    {items.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
-    {[...standard, ...custom].map(({ item, index }, position) => <Fragment key={index}>
-      {position === standard.length && custom.length > 0 && <h4 className={`${sectionTitle} mt-2`}>Oggetti personalizzati</h4>}
-      <div className={`${card} flex items-center gap-2`}>
-        <div className="min-w-0 flex-1">
-          {item.catalogId || !unlocked ? <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-sm font-semibold text-ink" />
-            : <TextField label="Nome" showInfo={false} value={item.nome} onChange={(value) => patchAt(index, { nome: value })} />}
-          {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
-        </div>
-        <span className="text-xs text-ink-faint">Quantità</span>
-        <InlineInput value={item.quantita || "1"} onChange={(value) => patchAt(index, { quantita: value || "1" })} numeric="unsigned" large className="w-10 text-center font-semibold" />
-        {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+  const renderItem = ({ item, index }: { item: Equip; index: number }) =>
+    <div key={index} className={`${card} flex items-center gap-2`}>
+      <div className="min-w-0 flex-1">
+        {item.catalogId || !unlocked ? <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-left text-sm font-semibold text-ink" />
+          : <TextField label="" showInfo={false} value={item.nome} onChange={(value) => patchAt(index, { nome: value })} />}
+        {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
       </div>
-    </Fragment>)}
+      <span className="text-xs text-ink-faint">Quantità</span>
+      <InlineInput value={item.quantita || "1"} onChange={(value) => patchAt(index, { quantita: value || "1" })} numeric="unsigned" className="w-8 text-center" />
+      {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+    </div>;
+  return <div className="flex flex-col gap-2">
+    {items.length === 0 && !unlocked && !afterStandard && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
+    {standard.map(renderItem)}
+    {afterStandard}
+    {custom.length > 0 && <h4 className={`${sectionTitle} mt-2`}>Oggetti personalizzati</h4>}
+    {custom.map(renderItem)}
     {unlocked && <select aria-label={magic ? "Aggiungi oggetto magico" : "Aggiungi oggetto"} value="" onChange={(event) => {
       const gear = gearCatalog.find((entry) => entry.id === event.target.value);
       onChange([...items, { nome: gear?.name ?? "", catalogId: gear?.id, dettaglio: "", quantita: "1", ...(magic ? { magico: true } : {}) }]);
@@ -333,11 +335,10 @@ function CompetenceDot({
       type="button"
       onClick={onTap}
       aria-label="Competente"
-      className={`grid h-4 w-4 shrink-0 touch-manipulation place-items-center rounded-full border text-[9px] transition-colors ${
-        checked
+      className={`grid h-4 w-4 shrink-0 touch-manipulation place-items-center rounded-full border text-[9px] transition-colors ${checked
           ? "border-accent bg-accent text-parchment"
           : "border-ink-faint text-transparent"
-      }`}
+        }`}
     >
       ✓
     </button>
@@ -438,9 +439,8 @@ function ArrayEditor<T>({
                   type="button"
                   onClick={() => toggle(i)}
                   aria-label={open ? "Comprimi" : "Espandi"}
-                  className={`shrink-0 text-lg leading-none text-ink-soft transition-transform ${
-                    open ? "rotate-90" : ""
-                  }`}
+                  className={`shrink-0 text-lg leading-none text-ink-soft transition-transform ${open ? "rotate-90" : ""
+                    }`}
                 >
                   ›
                 </button>
@@ -770,10 +770,7 @@ export default function CharacterClient({
             <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
             <TextField label="Ispirazione Eroica" showInfo={false} showEditIcon value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
           </div>
-          <div className={grid2}>
-            <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
-            <TextField label="Scudo" showInfo={false} showEditIcon value={shieldInUse ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${shieldInUse ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch(selectHeldShield(sheet, v === "Sì"))} />
-          </div>
+          <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
           <div className={grid2}>
             <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
             <TextField label="Livello" showInfo={false} showEditIcon value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
@@ -811,16 +808,16 @@ export default function CharacterClient({
       title: "Lingue",
       body: (
         <div className="flex flex-col gap-2">
-        <h3 className={sectionTitle}>Lingue</h3>
-        <StringListEditor
-          items={toList(sheet.lingue)}
-          onChange={(v) => patch({ lingue: v })}
-          addLabel="Aggiungi lingua"
-          options={lingue}
-          lockExisting
-          helpId="Lingue"
-        />
-        <TextField label="Note lingue" showInfo={false} value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
+          <h3 className={sectionTitle}>Lingue</h3>
+          <StringListEditor
+            items={toList(sheet.lingue)}
+            onChange={(v) => patch({ lingue: v })}
+            addLabel="Aggiungi lingua"
+            options={lingue}
+            lockExisting
+            helpId="Lingue"
+          />
+          <TextField label="Note lingue" showInfo={false} value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
         </div>
       ),
     },
@@ -904,7 +901,7 @@ export default function CharacterClient({
                 .sort((a, b) => compareOptionLabels(a.label, b.label))
                 .map((armor) => <option key={armor.id} value={armor.label}>{armor.label}</option>)}
             </select>
-            <div className="mt-2"><Toggle label="Scudo impugnato" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} /></div>
+            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} /></div>
           </div>
           <div>
             <h3 className={sectionTitle}><InfoLabel id="Competenze armatura" title="Competenze armatura" /></h3>
@@ -944,11 +941,11 @@ export default function CharacterClient({
           <div>
             <h3 className={sectionTitle}>Oggetti</h3>
             <p className="mb-2 text-sm text-ink-soft">Peso catalogato: {inventoryWeight(sheet).knownKg} kg{carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}{inventoryWeight(sheet).unknownItems.length ? `; peso non noto per ${inventoryWeight(sheet).unknownItems.length} voci` : ""}.</p>
-            <ObjectListEditor items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceEquipmentGroup(sheet.equipaggiamento, items, false) })} />
-          </div>
-          <div>
-            <h3 className={sectionTitle}>Oggetti magici</h3>
-            <ObjectListEditor magic items={magicEquipment} indices={magicEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceEquipmentGroup(sheet.equipaggiamento, items, true) })} />
+            <ObjectListEditor items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceEquipmentGroup(sheet.equipaggiamento, items, false) })}
+              afterStandard={<div className="mt-2">
+                <h3 className={sectionTitle}>Oggetti magici</h3>
+                <ObjectListEditor magic items={magicEquipment} indices={magicEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceEquipmentGroup(sheet.equipaggiamento, items, true) })} />
+              </div>} />
           </div>
         </div>
       ),
@@ -957,68 +954,68 @@ export default function CharacterClient({
       title: "Privilegi",
       body: (
         <div>
-        <h3 className={sectionTitle}>Privilegi acquisiti</h3>
-        <div className="mb-3 flex flex-col gap-2">
-          {grantedPrivileges(sheet).map((grant, index) => {
-            const saved = sheet.privilegi.find((item) => item.titolo === grant.name);
-            return <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
-              <p className="text-sm font-semibold text-ink">{grant.name}</p>
-              <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}</p>
-              {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
-            </div>;
-          })}
-        </div>
-        <h3 className={sectionTitle}>Scelte dei privilegi</h3>
-        <ArrayEditor
-          items={sheet.privilegi}
-          onChange={(items) => patch({ privilegi: items })}
-          makeNew={() => ({ titolo: availablePrivilegeChoices(sheet)[0] ?? "", scelte: "" })}
-          addLabel="Aggiungi privilegio"
-          canAdd={availablePrivilegeChoices(sheet).length > 0 && !sheet.privilegi.some((item) => !item.titolo)}
-          renderItem={(pr, p, index) => (
-            <div className="flex flex-col gap-2">
-              <TextField label="Titolo" showInfo={false} value={pr.titolo} valueInfoId={pr.titolo && (valueDetails("privilegio", pr.titolo) || pr.scelte) ? `privilegio:${index}` : undefined} options={availablePrivilegeChoices(sheet).includes(pr.titolo) ? availablePrivilegeChoices(sheet) : [pr.titolo, ...availablePrivilegeChoices(sheet)]} onChange={(v) => p({ titolo: v, scelte: "" })} />
-              <TextField label="Scelta" showInfo={false} value={pr.scelte} valueInfoId={pr.titolo ? `privilegio:${index}` : undefined} valueInfoTitle={pr.titolo} options={privilegeOptions[pr.titolo]} onChange={(v) => p({ scelte: v })} multiline={!privilegeOptions[pr.titolo]} />
-            </div>
-          )}
-        />
-        <h3 className={`${sectionTitle} mt-4`}>Risorse dei privilegi</h3>
-        <ArrayEditor
-          items={sheet.risorse ?? []}
-          onChange={(items) => patch({ risorse: items })}
-          makeNew={(): NonNullable<Sheet["risorse"]>[number] => ({ nome: "", fonte: "", massimo: 1, spesi: 0, ricarica: "manuale" })}
-          addLabel="Aggiungi risorsa"
-          titleOf={(resource) => resource.nome || "Nuova risorsa"}
-          subtitleOf={(resource) => `${resource.massimo - resource.spesi}/${resource.massimo} disponibili`}
-          renderItem={(resource, p) => <div className="flex flex-col gap-2">
-            <TextField label="Nome" showInfo={false} value={resource.nome} onChange={(v) => p({ nome: v })} />
-            <TextField label="Fonte" showInfo={false} value={resource.fonte} onChange={(v) => p({ fonte: v })} />
-            <div className={grid2}>
-              <TextField label="Usi massimi" showInfo={false} numeric="unsigned" value={String(resource.massimo)} onChange={(v) => p({ massimo: Number(v || 0) })} />
-              <TextField label="Usi spesi" showInfo={false} numeric="unsigned" value={String(resource.spesi)} onChange={(v) => p({ spesi: Number(v || 0) })} />
-            </div>
-            <TextField label="Ricarica" showInfo={false} value={resource.ricarica === "breve" ? "Riposo breve" : resource.ricarica === "lungo" ? "Riposo lungo" : "Manuale"} options={["Manuale", "Riposo breve", "Riposo lungo"]} onChange={(v) => p({ ricarica: v === "Riposo breve" ? "breve" : v === "Riposo lungo" ? "lungo" : "manuale" })} />
-          </div>}
-        />
-        <h3 className={`${sectionTitle} mt-4`}>Fonti delle competenze</h3>
-        <ArrayEditor
-          items={sheet.fontiCompetenze ?? []}
-          onChange={(items) => patch(grantCompetencies(sheet, items))}
-          makeNew={(): NonNullable<Sheet["fontiCompetenze"]>[number] => ({ tipo: "abilita", valore: "", fonte: "" })}
-          addLabel="Aggiungi fonte"
-          titleOf={(record) => record.valore || "Nuova fonte"}
-          subtitleOf={(record) => record.fonte}
-          lockItem={(record) => record.tipo === "strumento"
-            ? (record.fonte === `Classe: ${sheet.classe}` && classToolProficiencies(sheet.classe).includes(record.valore))
+          <h3 className={sectionTitle}>Privilegi acquisiti</h3>
+          <div className="mb-3 flex flex-col gap-2">
+            {grantedPrivileges(sheet).map((grant, index) => {
+              const saved = sheet.privilegi.find((item) => item.titolo === grant.name);
+              return <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
+                <p className="text-sm font-semibold text-ink">{grant.name}</p>
+                <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}</p>
+                {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
+              </div>;
+            })}
+          </div>
+          <h3 className={sectionTitle}>Scelte dei privilegi</h3>
+          <ArrayEditor
+            items={sheet.privilegi}
+            onChange={(items) => patch({ privilegi: items })}
+            makeNew={() => ({ titolo: availablePrivilegeChoices(sheet)[0] ?? "", scelte: "" })}
+            addLabel="Aggiungi privilegio"
+            canAdd={availablePrivilegeChoices(sheet).length > 0 && !sheet.privilegi.some((item) => !item.titolo)}
+            renderItem={(pr, p, index) => (
+              <div className="flex flex-col gap-2">
+                <TextField label="Titolo" showInfo={false} value={pr.titolo} valueInfoId={pr.titolo && (valueDetails("privilegio", pr.titolo) || pr.scelte) ? `privilegio:${index}` : undefined} options={availablePrivilegeChoices(sheet).includes(pr.titolo) ? availablePrivilegeChoices(sheet) : [pr.titolo, ...availablePrivilegeChoices(sheet)]} onChange={(v) => p({ titolo: v, scelte: "" })} />
+                <TextField label="Scelta" showInfo={false} value={pr.scelte} valueInfoId={pr.titolo ? `privilegio:${index}` : undefined} valueInfoTitle={pr.titolo} options={privilegeOptions[pr.titolo]} onChange={(v) => p({ scelte: v })} multiline={!privilegeOptions[pr.titolo]} />
+              </div>
+            )}
+          />
+          <h3 className={`${sectionTitle} mt-4`}>Risorse dei privilegi</h3>
+          <ArrayEditor
+            items={sheet.risorse ?? []}
+            onChange={(items) => patch({ risorse: items })}
+            makeNew={(): NonNullable<Sheet["risorse"]>[number] => ({ nome: "", fonte: "", massimo: 1, spesi: 0, ricarica: "manuale" })}
+            addLabel="Aggiungi risorsa"
+            titleOf={(resource) => resource.nome || "Nuova risorsa"}
+            subtitleOf={(resource) => `${resource.massimo - resource.spesi}/${resource.massimo} disponibili`}
+            renderItem={(resource, p) => <div className="flex flex-col gap-2">
+              <TextField label="Nome" showInfo={false} value={resource.nome} onChange={(v) => p({ nome: v })} />
+              <TextField label="Fonte" showInfo={false} value={resource.fonte} onChange={(v) => p({ fonte: v })} />
+              <div className={grid2}>
+                <TextField label="Usi massimi" showInfo={false} numeric="unsigned" value={String(resource.massimo)} onChange={(v) => p({ massimo: Number(v || 0) })} />
+                <TextField label="Usi spesi" showInfo={false} numeric="unsigned" value={String(resource.spesi)} onChange={(v) => p({ spesi: Number(v || 0) })} />
+              </div>
+              <TextField label="Ricarica" showInfo={false} value={resource.ricarica === "breve" ? "Riposo breve" : resource.ricarica === "lungo" ? "Riposo lungo" : "Manuale"} options={["Manuale", "Riposo breve", "Riposo lungo"]} onChange={(v) => p({ ricarica: v === "Riposo breve" ? "breve" : v === "Riposo lungo" ? "lungo" : "manuale" })} />
+            </div>}
+          />
+          <h3 className={`${sectionTitle} mt-4`}>Fonti delle competenze</h3>
+          <ArrayEditor
+            items={sheet.fontiCompetenze ?? []}
+            onChange={(items) => patch(grantCompetencies(sheet, items))}
+            makeNew={(): NonNullable<Sheet["fontiCompetenze"]>[number] => ({ tipo: "abilita", valore: "", fonte: "" })}
+            addLabel="Aggiungi fonte"
+            titleOf={(record) => record.valore || "Nuova fonte"}
+            subtitleOf={(record) => record.fonte}
+            lockItem={(record) => record.tipo === "strumento"
+              ? (record.fonte === `Classe: ${sheet.classe}` && classToolProficiencies(sheet.classe).includes(record.valore))
               || (record.fonte === `Background: ${sheet.background}` && backgroundToolProficiency(sheet.background) === record.valore)
               || (record.fonte === "Talento: Lavoro manuale" && featToolProficiencies(sheet).includes(record.valore))
-            : record.tipo === "arma" && record.fonte === `Classe: ${sheet.classe}` && classWeaponProficiencies(sheet.classe).includes(record.valore)}
-          renderItem={(record, p, _index, locked) => locked ? <p className="text-sm text-ink-soft">{record.valore} · {record.fonte}</p> : <div className="flex flex-col gap-2">
-            <TextField label="Tipo" showInfo={false} value={record.tipo} options={["abilita", "tiroSalvezza", "arma", "armatura", "strumento", "lingua"]} onChange={(v) => p({ tipo: v as typeof record.tipo, valore: "" })} />
-            <TextField label="Competenza" showInfo={false} value={record.valore} options={record.tipo === "abilita" ? sheet.abilita.map((item) => item.nome) : record.tipo === "tiroSalvezza" ? sheet.caratteristiche.map((item) => item.abbr) : record.tipo === "arma" ? WEAPON_PROFICIENCIES : record.tipo === "armatura" ? Object.keys(sheet.competenzeArmatura) : record.tipo === "strumento" ? gearCatalog.filter((item) => item.tool).map((item) => item.name) : lingue} onChange={(v) => p({ valore: v })} />
-            <TextField label="Fonte" showInfo={false} value={record.fonte} onChange={(v) => p({ fonte: v })} />
-          </div>}
-        />
+              : record.tipo === "arma" && record.fonte === `Classe: ${sheet.classe}` && classWeaponProficiencies(sheet.classe).includes(record.valore)}
+            renderItem={(record, p, _index, locked) => locked ? <p className="text-sm text-ink-soft">{record.valore} · {record.fonte}</p> : <div className="flex flex-col gap-2">
+              <TextField label="Tipo" showInfo={false} value={record.tipo} options={["abilita", "tiroSalvezza", "arma", "armatura", "strumento", "lingua"]} onChange={(v) => p({ tipo: v as typeof record.tipo, valore: "" })} />
+              <TextField label="Competenza" showInfo={false} value={record.valore} options={record.tipo === "abilita" ? sheet.abilita.map((item) => item.nome) : record.tipo === "tiroSalvezza" ? sheet.caratteristiche.map((item) => item.abbr) : record.tipo === "arma" ? WEAPON_PROFICIENCIES : record.tipo === "armatura" ? Object.keys(sheet.competenzeArmatura) : record.tipo === "strumento" ? gearCatalog.filter((item) => item.tool).map((item) => item.name) : lingue} onChange={(v) => p({ valore: v })} />
+              <TextField label="Fonte" showInfo={false} value={record.fonte} onChange={(v) => p({ fonte: v })} />
+            </div>}
+          />
         </div>
       ),
     },
@@ -1026,29 +1023,29 @@ export default function CharacterClient({
       title: "Talenti",
       body: (
         <div>
-        <h3 className={sectionTitle}>Talenti concessi</h3>
-        <div className="mb-3 flex flex-col gap-2">
-          {featGrants(sheet).map((grant, index) => <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
-            <p className="text-sm font-semibold text-ink">{grant.name}</p>
-            <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}</p>
-            {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
-          </div>)}
-        </div>
-        <h3 className={sectionTitle}>Talenti</h3>
-        <ArrayEditor
-          items={sheet.talenti}
-          onChange={(items) => patch({ talenti: items })}
-          makeNew={() => ({ nome: "", scelte: "" })}
-          addLabel="Aggiungi talento"
-          canAdd={availableFeatChoices(sheet).length > 0 && !sheet.talenti.some((item) => !item.nome)}
-          lockItem={(t) => Boolean(t.nome)}
-          renderItem={(t, p, _index, locked) => (
-            <div className="flex flex-col gap-2">
-              <TextField label="Nome" showInfo={false} value={t.nome} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} options={availableFeatChoices(sheet)} locked={locked} onChange={(v) => p({ nome: v })} />
-              <TextField label="Scelte personali" showInfo={false} value={t.scelte} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} valueInfoTitle={t.nome} onChange={(v) => p({ scelte: v })} multiline />
-            </div>
-          )}
-        />
+          <h3 className={sectionTitle}>Talenti concessi</h3>
+          <div className="mb-3 flex flex-col gap-2">
+            {featGrants(sheet).map((grant, index) => <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
+              <p className="text-sm font-semibold text-ink">{grant.name}</p>
+              <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}</p>
+              {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
+            </div>)}
+          </div>
+          <h3 className={sectionTitle}>Talenti</h3>
+          <ArrayEditor
+            items={sheet.talenti}
+            onChange={(items) => patch({ talenti: items })}
+            makeNew={() => ({ nome: "", scelte: "" })}
+            addLabel="Aggiungi talento"
+            canAdd={availableFeatChoices(sheet).length > 0 && !sheet.talenti.some((item) => !item.nome)}
+            lockItem={(t) => Boolean(t.nome)}
+            renderItem={(t, p, _index, locked) => (
+              <div className="flex flex-col gap-2">
+                <TextField label="Nome" showInfo={false} value={t.nome} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} options={availableFeatChoices(sheet)} locked={locked} onChange={(v) => p({ nome: v })} />
+                <TextField label="Scelte personali" showInfo={false} value={t.scelte} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} valueInfoTitle={t.nome} onChange={(v) => p({ scelte: v })} multiline />
+              </div>
+            )}
+          />
         </div>
       ),
     },
@@ -1056,26 +1053,26 @@ export default function CharacterClient({
       title: "Incantesimi",
       body: (
         <div className="flex flex-col gap-3">
-        {spellcastingStats(sheet) && <div className={card}><p>CD incantesimi: {spellcastingStats(sheet)?.dc} · Attacco magico: {spellcastingStats(sheet)?.attack}</p><p className="text-sm text-ink-soft">{spellcastingStats(sheet)?.formula}</p></div>}
-        {spellSlots(sheet).some((slot) => slot.maximum > 0) && <div className={card}><h3 className={sectionTitle}>Slot incantesimo spesi</h3><div className="grid grid-cols-3 gap-2">{spellSlots(sheet).filter((slot) => slot.maximum > 0).map((slot) => <TextField key={slot.level} label={`Livello ${slot.level} / ${slot.maximum}`} showInfo={false} numeric="unsigned" value={String(sheet.slotSpesi?.[String(slot.level)] ?? 0)} onChange={(v) => patch({ slotSpesi: { ...sheet.slotSpesi, [String(slot.level)]: Number(v || 0) } })} />)}</div></div>}
-        <h3 className={sectionTitle}>Incantesimi</h3>
-        <ArrayEditor
-          items={sheet.incantesimi}
-          onChange={(items) => patch({ incantesimi: items })}
-          makeNew={(): Incantesimo => ({ nome: "" })}
-          addLabel="Aggiungi incantesimo"
-          collapsible
-          titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
-          onTitleClick={(inc, _index, button) => { if (!inc.nome) return false; openFieldInfo(`incantesimo:${inc.nome}`, inc.nome, button); return true; }}
-          renderItem={(inc, p) => (
-            <div className="flex flex-col gap-2">
-              <TextField label="Fonte" showInfo={false} value={inc.fonte === "classe" ? "Classe" : inc.fonte === "talento" ? "Talento" : inc.fonte === "privilegio" ? "Privilegio" : inc.fonte === "altro" ? "Altro" : "Non specificata"} options={["Non specificata", "Classe", "Talento", "Privilegio", "Altro"]} onChange={(v) => p({ fonte: v === "Classe" ? "classe" : v === "Talento" ? "talento" : v === "Privilegio" ? "privilegio" : v === "Altro" ? "altro" : undefined })} />
-              <TextField label="Nome" showInfo={false} value={inc.nome} valueInfoId={inc.nome ? `incantesimo:${inc.nome}` : undefined} options={inc.fonte === "classe" ? availableClassSpells(sheet) : spellNames} onChange={(v) => p({ nome: v })} />
-              <TextField label="Stato" showInfo={false} value={inc.stato === "semprePreparato" ? "Sempre preparato" : inc.stato === "conosciuto" ? "Conosciuto" : inc.stato === "libro" ? "Nel libro" : inc.stato === "preparato" ? "Preparato" : inc.stato === "concesso" ? "Concesso" : "Non specificato"} options={["Non specificato", "Conosciuto", "Nel libro", "Preparato", "Sempre preparato", "Concesso"]} onChange={(v) => p({ stato: v === "Conosciuto" ? "conosciuto" : v === "Nel libro" ? "libro" : v === "Preparato" ? "preparato" : v === "Sempre preparato" ? "semprePreparato" : v === "Concesso" ? "concesso" : undefined })} />
-              {inc.fonte && inc.fonte !== "classe" && <TextField label="Caratteristica di lancio" showInfo={false} value={inc.caratteristica ?? ""} options={["INT", "SAG", "CAR"]} onChange={(v) => p({ caratteristica: v as "INT" | "SAG" | "CAR" })} />}
-            </div>
-          )}
-        />
+          {spellcastingStats(sheet) && <div className={card}><p>CD incantesimi: {spellcastingStats(sheet)?.dc} · Attacco magico: {spellcastingStats(sheet)?.attack}</p><p className="text-sm text-ink-soft">{spellcastingStats(sheet)?.formula}</p></div>}
+          {spellSlots(sheet).some((slot) => slot.maximum > 0) && <div className={card}><h3 className={sectionTitle}>Slot incantesimo spesi</h3><div className="grid grid-cols-3 gap-2">{spellSlots(sheet).filter((slot) => slot.maximum > 0).map((slot) => <TextField key={slot.level} label={`Livello ${slot.level} / ${slot.maximum}`} showInfo={false} numeric="unsigned" value={String(sheet.slotSpesi?.[String(slot.level)] ?? 0)} onChange={(v) => patch({ slotSpesi: { ...sheet.slotSpesi, [String(slot.level)]: Number(v || 0) } })} />)}</div></div>}
+          <h3 className={sectionTitle}>Incantesimi</h3>
+          <ArrayEditor
+            items={sheet.incantesimi}
+            onChange={(items) => patch({ incantesimi: items })}
+            makeNew={(): Incantesimo => ({ nome: "" })}
+            addLabel="Aggiungi incantesimo"
+            collapsible
+            titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
+            onTitleClick={(inc, _index, button) => { if (!inc.nome) return false; openFieldInfo(`incantesimo:${inc.nome}`, inc.nome, button); return true; }}
+            renderItem={(inc, p) => (
+              <div className="flex flex-col gap-2">
+                <TextField label="Fonte" showInfo={false} value={inc.fonte === "classe" ? "Classe" : inc.fonte === "talento" ? "Talento" : inc.fonte === "privilegio" ? "Privilegio" : inc.fonte === "altro" ? "Altro" : "Non specificata"} options={["Non specificata", "Classe", "Talento", "Privilegio", "Altro"]} onChange={(v) => p({ fonte: v === "Classe" ? "classe" : v === "Talento" ? "talento" : v === "Privilegio" ? "privilegio" : v === "Altro" ? "altro" : undefined })} />
+                <TextField label="Nome" showInfo={false} value={inc.nome} valueInfoId={inc.nome ? `incantesimo:${inc.nome}` : undefined} options={inc.fonte === "classe" ? availableClassSpells(sheet) : spellNames} onChange={(v) => p({ nome: v })} />
+                <TextField label="Stato" showInfo={false} value={inc.stato === "semprePreparato" ? "Sempre preparato" : inc.stato === "conosciuto" ? "Conosciuto" : inc.stato === "libro" ? "Nel libro" : inc.stato === "preparato" ? "Preparato" : inc.stato === "concesso" ? "Concesso" : "Non specificato"} options={["Non specificato", "Conosciuto", "Nel libro", "Preparato", "Sempre preparato", "Concesso"]} onChange={(v) => p({ stato: v === "Conosciuto" ? "conosciuto" : v === "Nel libro" ? "libro" : v === "Preparato" ? "preparato" : v === "Sempre preparato" ? "semprePreparato" : v === "Concesso" ? "concesso" : undefined })} />
+                {inc.fonte && inc.fonte !== "classe" && <TextField label="Caratteristica di lancio" showInfo={false} value={inc.caratteristica ?? ""} options={["INT", "SAG", "CAR"]} onChange={(v) => p({ caratteristica: v as "INT" | "SAG" | "CAR" })} />}
+              </div>
+            )}
+          />
         </div>
       ),
     },
@@ -1123,224 +1120,223 @@ export default function CharacterClient({
   const pages = pageOrder.map((t) => pageDefs.find((p) => p.title === t)!);
 
   return (
-    <EditProvider unlocked={true} requireUnlock={() => {}}>
+    <EditProvider unlocked={true} requireUnlock={() => { }}>
       <FieldInfoContext.Provider value={openFieldInfo}>
-      <div className="flex h-dvh flex-col">
-        <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-2 pt-2 backdrop-blur">
-          <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-            <div className="flex min-w-0 items-center justify-self-start">
-            <button
-              type="button"
-              onClick={() => setShowHub(true)}
-              className="flex min-w-0 items-center gap-1.5 justify-self-start text-left"
-              aria-label="Torna alla home del personaggio"
-            >
-              <span className="text-lg leading-none text-ink-soft" aria-hidden>
-                ⌂
-              </span>
-              <h1 className="truncate text-base font-bold text-ink">
-                {name || "Senza nome"}
-              </h1>
-            </button>
-            </div>
-            <button
-              type="button"
-              onClick={undo}
-              disabled={histLen === 0}
-              className="justify-self-center touch-manipulation rounded-full border border-line px-3 py-1 text-xs font-medium text-ink-soft transition-opacity disabled:opacity-30"
-            >
-              ↶ Annulla
-            </button>
-            <div className="flex shrink-0 items-center gap-2 justify-self-end">
-              {!showHub && (
-                <span className="text-xs text-ink-faint">{pages[selected]?.title}</span>
-              )}
-              <SaveIndicator state={saveState} />
-            </div>
-          </div>
-          {!showHub && (
-            <div className="mt-1.5 flex items-center justify-center gap-1.5">
-              {pages.map((p, i) => (
+        <div className="flex h-dvh flex-col">
+          <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-2 pt-2 backdrop-blur">
+            <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
+              <div className="flex min-w-0 items-center justify-self-start">
                 <button
-                  key={i}
                   type="button"
-                  aria-label={p.title}
-                  onClick={() => emblaApi?.scrollTo(i)}
-                  className={`h-1.5 rounded-full transition-all ${
-                    i === selected ? "w-5 bg-accent" : "w-1.5 bg-line"
-                  }`}
-                />
-              ))}
-            </div>
-          )}
-        </header>
-
-        <div className="relative flex-1 overflow-hidden">
-          <div className="h-full overflow-hidden" ref={emblaRef}>
-            <div className="flex h-full">
-              {pages.map((p, i) => (
-                <div
-                  key={i}
-                  className="no-scrollbar h-full min-w-0 flex-[0_0_100%] overflow-y-auto px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3"
+                  onClick={() => setShowHub(true)}
+                  className="flex min-w-0 items-center gap-1.5 justify-self-start text-left"
+                  aria-label="Torna alla home del personaggio"
                 >
-                  {p.body}
-                </div>
-              ))}
+                  <span className="text-lg leading-none text-ink-soft" aria-hidden>
+                    ⌂
+                  </span>
+                  <h1 className="truncate text-base font-bold text-ink">
+                    {name || "Senza nome"}
+                  </h1>
+                </button>
+              </div>
+              <button
+                type="button"
+                onClick={undo}
+                disabled={histLen === 0}
+                className="justify-self-center touch-manipulation rounded-full border border-line px-3 py-1 text-xs font-medium text-ink-soft transition-opacity disabled:opacity-30"
+              >
+                ↶ Annulla
+              </button>
+              <div className="flex shrink-0 items-center gap-2 justify-self-end">
+                {!showHub && (
+                  <span className="text-xs text-ink-faint">{pages[selected]?.title}</span>
+                )}
+                <SaveIndicator state={saveState} />
+              </div>
             </div>
-          </div>
-
-          {showHub && (
-            <div className="absolute inset-0 z-20 flex flex-col overflow-y-auto bg-parchment/95 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur">
-              <div className="grid grid-cols-2 gap-2.5">
+            {!showHub && (
+              <div className="mt-1.5 flex items-center justify-center gap-1.5">
                 {pages.map((p, i) => (
                   <button
                     key={i}
                     type="button"
-                    onClick={() => goToPage(i)}
-                    className="flex min-h-[62px] items-center justify-center rounded-xl border border-line bg-card/70 px-3 py-3 text-center text-sm font-semibold text-ink shadow-sm transition-colors active:bg-card"
-                  >
-                    {p.title}
-                  </button>
+                    aria-label={p.title}
+                    onClick={() => emblaApi?.scrollTo(i)}
+                    className={`h-1.5 rounded-full transition-all ${i === selected ? "w-5 bg-accent" : "w-1.5 bg-line"
+                      }`}
+                  />
                 ))}
               </div>
-              <button
-                type="button"
-                onClick={() => handleExport("template")}
-                disabled={exporting !== null}
-                className="mt-4 w-full rounded-xl bg-accent py-3 text-sm font-semibold text-parchment shadow-sm transition-opacity active:opacity-90 disabled:opacity-50"
-              >
-                {exporting === "template" ? "Esportazione…" : "Esporta PDF scheda"}
-              </button>
-              <button
-                type="button"
-                onClick={() => handleExport("current")}
-                disabled={exporting !== null}
-                className="mt-2 w-full rounded-xl border border-accent py-3 text-sm font-semibold text-accent transition-opacity active:opacity-90 disabled:opacity-50"
-              >
-                {exporting === "current" ? "Esportazione…" : "Esporta PDF app"}
-              </button>
-              <button
-                type="button"
-                onClick={openHistory}
-                className="mt-2 w-full rounded-xl border border-line bg-card/70 py-3 text-sm font-semibold text-ink shadow-sm active:bg-card"
-              >
-                Storico modifiche
-              </button>
-            </div>
-          )}
+            )}
+          </header>
 
-          {showHistory && (
-            <div className="absolute inset-0 z-30 flex flex-col bg-parchment">
-              <div className="flex shrink-0 items-center justify-between border-b border-line px-4 py-3">
-                <button type="button" onClick={() => setShowHistory(false)} className="text-sm font-medium text-accent">
-                  ← Scheda
-                </button>
-                <h2 className="text-base font-bold text-ink">Storico modifiche</h2>
-                <span className="w-14" />
+          <div className="relative flex-1 overflow-hidden">
+            <div className="h-full overflow-hidden" ref={emblaRef}>
+              <div className="flex h-full">
+                {pages.map((p, i) => (
+                  <div
+                    key={i}
+                    className="no-scrollbar h-full min-w-0 flex-[0_0_100%] overflow-y-auto px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3"
+                  >
+                    {p.body}
+                  </div>
+                ))}
               </div>
-              <div className="flex-1 overflow-y-auto px-4 py-4">
-                {historyLoading ? <p className="text-sm text-ink-soft">Caricamento…</p> :
-                  historyError ? <p className="text-sm text-red-800">{historyError}</p> :
-                  historyEntries.length === 0 ? <p className="text-sm text-ink-soft">Nessuna modifica registrata. Lo storico parte da oggi; le modifiche precedenti non erano tracciate.</p> :
-                  <ol className="flex flex-col gap-3">
-                    {groupHistoryByDay(historyEntries).map((day) => (
-                      <li key={day.day} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
-                        <h3 className="text-sm font-semibold capitalize text-accent">
-                          {historyDayFormatter.format(new Date(day.timeGroups[0].newest))}
-                        </h3>
-                        <ol className="mt-2 flex flex-col gap-3">
-                          {day.timeGroups.map((group) => (
-                            <li key={group.newest} className="border-t border-line/60 pt-2 first:border-0 first:pt-0">
-                              <time className="text-xs font-semibold text-ink-soft" dateTime={group.newest}>
-                                {historyTimeFormatter.format(new Date(group.oldest))}
-                                {historyTimeFormatter.format(new Date(group.oldest)) !== historyTimeFormatter.format(new Date(group.newest)) && `–${historyTimeFormatter.format(new Date(group.newest))}`}
-                              </time>
-                              <ul className="mt-1 list-disc space-y-1 pl-5 marker:text-accent">
-                                {group.entries.flatMap((entry) => entry.changes.map((change, index) => (
-                                  <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
-                                    <span className="font-semibold">{change.field}</span>{"  "}
-                                    <span>{change.before} → {change.after}</span>
+            </div>
+
+            {showHub && (
+              <div className="absolute inset-0 z-20 flex flex-col overflow-y-auto bg-parchment/95 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur">
+                <div className="grid grid-cols-2 gap-2.5">
+                  {pages.map((p, i) => (
+                    <button
+                      key={i}
+                      type="button"
+                      onClick={() => goToPage(i)}
+                      className="flex min-h-[62px] items-center justify-center rounded-xl border border-line bg-card/70 px-3 py-3 text-center text-sm font-semibold text-ink shadow-sm transition-colors active:bg-card"
+                    >
+                      {p.title}
+                    </button>
+                  ))}
+                </div>
+                <button
+                  type="button"
+                  onClick={() => handleExport("template")}
+                  disabled={exporting !== null}
+                  className="mt-4 w-full rounded-xl bg-accent py-3 text-sm font-semibold text-parchment shadow-sm transition-opacity active:opacity-90 disabled:opacity-50"
+                >
+                  {exporting === "template" ? "Esportazione…" : "Esporta PDF scheda"}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleExport("current")}
+                  disabled={exporting !== null}
+                  className="mt-2 w-full rounded-xl border border-accent py-3 text-sm font-semibold text-accent transition-opacity active:opacity-90 disabled:opacity-50"
+                >
+                  {exporting === "current" ? "Esportazione…" : "Esporta PDF app"}
+                </button>
+                <button
+                  type="button"
+                  onClick={openHistory}
+                  className="mt-2 w-full rounded-xl border border-line bg-card/70 py-3 text-sm font-semibold text-ink shadow-sm active:bg-card"
+                >
+                  Storico modifiche
+                </button>
+              </div>
+            )}
+
+            {showHistory && (
+              <div className="absolute inset-0 z-30 flex flex-col bg-parchment">
+                <div className="flex shrink-0 items-center justify-between border-b border-line px-4 py-3">
+                  <button type="button" onClick={() => setShowHistory(false)} className="text-sm font-medium text-accent">
+                    ← Scheda
+                  </button>
+                  <h2 className="text-base font-bold text-ink">Storico modifiche</h2>
+                  <span className="w-14" />
+                </div>
+                <div className="flex-1 overflow-y-auto px-4 py-4">
+                  {historyLoading ? <p className="text-sm text-ink-soft">Caricamento…</p> :
+                    historyError ? <p className="text-sm text-red-800">{historyError}</p> :
+                      historyEntries.length === 0 ? <p className="text-sm text-ink-soft">Nessuna modifica registrata. Lo storico parte da oggi; le modifiche precedenti non erano tracciate.</p> :
+                        <ol className="flex flex-col gap-3">
+                          {groupHistoryByDay(historyEntries).map((day) => (
+                            <li key={day.day} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
+                              <h3 className="text-sm font-semibold capitalize text-accent">
+                                {historyDayFormatter.format(new Date(day.timeGroups[0].newest))}
+                              </h3>
+                              <ol className="mt-2 flex flex-col gap-3">
+                                {day.timeGroups.map((group) => (
+                                  <li key={group.newest} className="border-t border-line/60 pt-2 first:border-0 first:pt-0">
+                                    <time className="text-xs font-semibold text-ink-soft" dateTime={group.newest}>
+                                      {historyTimeFormatter.format(new Date(group.oldest))}
+                                      {historyTimeFormatter.format(new Date(group.oldest)) !== historyTimeFormatter.format(new Date(group.newest)) && `–${historyTimeFormatter.format(new Date(group.newest))}`}
+                                    </time>
+                                    <ul className="mt-1 list-disc space-y-1 pl-5 marker:text-accent">
+                                      {group.entries.flatMap((entry) => entry.changes.map((change, index) => (
+                                        <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
+                                          <span className="font-semibold">{change.field}</span>{"  "}
+                                          <span>{change.before} → {change.after}</span>
+                                        </li>
+                                      )))}
+                                    </ul>
                                   </li>
-                                )))}
-                              </ul>
+                                ))}
+                              </ol>
                             </li>
                           ))}
-                        </ol>
-                      </li>
-                    ))}
-                  </ol>}
+                        </ol>}
+                </div>
               </div>
-            </div>
-          )}
+            )}
 
-          {calculation && (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4"
-              onClick={closeCalculation}>
-              <div role="dialog" aria-modal="true" aria-labelledby="calculation-title"
-                onClick={(event) => event.stopPropagation()}
-                className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-parchment p-5 text-ink shadow-xl">
-                <div className="flex items-start justify-between gap-3">
-                  <h2 id="calculation-title" className="text-lg font-bold text-accent">{calculation.title}</h2>
-                  <button ref={calculationClose} type="button" onClick={closeCalculation}
-                    aria-label="Chiudi spiegazione"
-                    className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
-                </div>
-                <p className="mt-3 text-sm leading-relaxed">{calculation.rule}</p>
-                <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Valori della scheda</h3>
-                <dl className="mt-2 space-y-1 text-sm">
-                  {calculation.details.map((detail) => (
-                    <div key={detail.label} className="flex justify-between gap-4 border-b border-line/50 py-1">
-                      <dt>{detail.label}</dt><dd className="text-right font-semibold">{detail.value}</dd>
-                    </div>
-                  ))}
-                </dl>
-                <div className="mt-4 rounded-lg bg-card/70 p-3">
-                  <div className="text-xs font-semibold uppercase tracking-wide text-ink-soft">Calcolo</div>
-                  <div className="mt-1 text-sm">{calculation.formula}</div>
-                  <div className="mt-2 text-lg font-bold text-accent">Risultato: {calculation.result || "—"}</div>
-                </div>
-                {calculationTarget && <div className="mt-4 text-sm"><h3 className="font-semibold text-accent">Come si modifica</h3><p className="mt-1">{calculationEditGuide(calculationTarget)}</p></div>}
-              </div>
-            </div>
-          )}
-          {fieldInfo && (fieldHelp || spell) && (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4" onClick={closeFieldInfo}>
-              <div role="dialog" aria-modal="true" aria-labelledby="field-info-title"
-                onClick={(event) => event.stopPropagation()}
-                className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-parchment p-5 text-ink shadow-xl">
-                <div className="flex items-start justify-between gap-3">
-                  <h2 id="field-info-title" className="text-lg font-bold text-accent">{fieldInfo.title}</h2>
-                  <button ref={fieldInfoClose} type="button" onClick={closeFieldInfo} aria-label="Chiudi spiegazione"
-                    className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
-                </div>
-                {fieldHelp && <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed"><DiceText text={fieldHelp.meaning} /></p>}
-                {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed"><DiceText text={fieldHelp.effect} /></p></>}
-                {object && <div className="mt-4 flex flex-col gap-2 border-t border-line pt-3">
-                  <TextField label="Oggetto" showInfo={false} showEditIcon value={object.nome} onChange={(name) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: name, catalogId: gearById(item.catalogId ?? "")?.name === name ? item.catalogId : undefined } : item) })} />
-                  <TextField label="Dettaglio personale" showInfo={false} showEditIcon value={object.dettaglio} onChange={(dettaglio) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, dettaglio } : item) })} multiline />
-                </div>}
-                {spell && <>
-                  <dl className="mt-4 space-y-2 text-sm">
-                    {([
-                      ["Livello", spell.livello === 0 ? "Trucchetto" : String(spell.livello)],
-                      ["Scuola", spell.scuola],
-                      ["Classi", spell.classi.join(", ")],
-                      ["Tempo di lancio", spell.tempo],
-                      ["Gittata", spell.gittata],
-                      ["Componenti", spell.componenti],
-                      ["Materiale", "materiale" in spell ? spell.materiale : ""],
-                      ["Durata", spell.durata],
-                    ] as [string, string][]).filter(([, value]) => value).map(([label, value]) =>
-                      <div key={label} className="flex justify-between gap-4 border-b border-line/50 py-1"><dt>{label}</dt><dd className="text-right font-semibold">{value}</dd></div>,
-                    )}
+            {calculation && (
+              <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4"
+                onClick={closeCalculation}>
+                <div role="dialog" aria-modal="true" aria-labelledby="calculation-title"
+                  onClick={(event) => event.stopPropagation()}
+                  className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-parchment p-5 text-ink shadow-xl">
+                  <div className="flex items-start justify-between gap-3">
+                    <h2 id="calculation-title" className="text-lg font-bold text-accent">{calculation.title}</h2>
+                    <button ref={calculationClose} type="button" onClick={closeCalculation}
+                      aria-label="Chiudi spiegazione"
+                      className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
+                  </div>
+                  <p className="mt-3 text-sm leading-relaxed">{calculation.rule}</p>
+                  <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Valori della scheda</h3>
+                  <dl className="mt-2 space-y-1 text-sm">
+                    {calculation.details.map((detail) => (
+                      <div key={detail.label} className="flex justify-between gap-4 border-b border-line/50 py-1">
+                        <dt>{detail.label}</dt><dd className="text-right font-semibold">{detail.value}</dd>
+                      </div>
+                    ))}
                   </dl>
-                  {spellName && spellEffects[spellName] && <p className="mt-4 text-sm leading-relaxed"><DiceText text={spellEffects[spellName]} /></p>}
-                </>}
+                  <div className="mt-4 rounded-lg bg-card/70 p-3">
+                    <div className="text-xs font-semibold uppercase tracking-wide text-ink-soft">Calcolo</div>
+                    <div className="mt-1 text-sm">{calculation.formula}</div>
+                    <div className="mt-2 text-lg font-bold text-accent">Risultato: {calculation.result || "—"}</div>
+                  </div>
+                  {calculationTarget && <div className="mt-4 text-sm"><h3 className="font-semibold text-accent">Come si modifica</h3><p className="mt-1">{calculationEditGuide(calculationTarget)}</p></div>}
+                </div>
               </div>
-            </div>
-          )}
+            )}
+            {fieldInfo && (fieldHelp || spell) && (
+              <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4" onClick={closeFieldInfo}>
+                <div role="dialog" aria-modal="true" aria-labelledby="field-info-title"
+                  onClick={(event) => event.stopPropagation()}
+                  className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-parchment p-5 text-ink shadow-xl">
+                  <div className="flex items-start justify-between gap-3">
+                    <h2 id="field-info-title" className="text-lg font-bold text-accent">{fieldInfo.title}</h2>
+                    <button ref={fieldInfoClose} type="button" onClick={closeFieldInfo} aria-label="Chiudi spiegazione"
+                      className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
+                  </div>
+                  {fieldHelp && <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed"><DiceText text={fieldHelp.meaning} /></p>}
+                  {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed"><DiceText text={fieldHelp.effect} /></p></>}
+                  {object && <div className="mt-4 flex flex-col gap-2 border-t border-line pt-3">
+                    <TextField label="Oggetto" showInfo={false} showEditIcon value={object.nome} onChange={(name) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: name, catalogId: gearById(item.catalogId ?? "")?.name === name ? item.catalogId : undefined } : item) })} />
+                    <TextField label="Dettaglio personale" showInfo={false} showEditIcon value={object.dettaglio} onChange={(dettaglio) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, dettaglio } : item) })} multiline />
+                  </div>}
+                  {spell && <>
+                    <dl className="mt-4 space-y-2 text-sm">
+                      {([
+                        ["Livello", spell.livello === 0 ? "Trucchetto" : String(spell.livello)],
+                        ["Scuola", spell.scuola],
+                        ["Classi", spell.classi.join(", ")],
+                        ["Tempo di lancio", spell.tempo],
+                        ["Gittata", spell.gittata],
+                        ["Componenti", spell.componenti],
+                        ["Materiale", "materiale" in spell ? spell.materiale : ""],
+                        ["Durata", spell.durata],
+                      ] as [string, string][]).filter(([, value]) => value).map(([label, value]) =>
+                        <div key={label} className="flex justify-between gap-4 border-b border-line/50 py-1"><dt>{label}</dt><dd className="text-right font-semibold">{value}</dd></div>,
+                      )}
+                    </dl>
+                    {spellName && spellEffects[spellName] && <p className="mt-4 text-sm leading-relaxed"><DiceText text={spellEffects[spellName]} /></p>}
+                  </>}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
-      </div>
       </FieldInfoContext.Provider>
     </EditProvider>
   );
