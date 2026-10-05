@@ -761,31 +761,23 @@ export default function CharacterClient({
   const otherEquipmentIndices = sheet.equipaggiamento.flatMap((item, index) => isArmorEquipment(item) ? [] : [index]);
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
-      title: "Stato",
+      title: "Stato & Identità",
       body: (
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
-            <TextField label="Punti Ferita" showInfo={false} showEditIcon value={sheet.puntiFerita} valueInfoId="stato:pf" valueInfoTitle={`Punti Ferita: ${sheet.puntiFerita}`} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
+            <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
             <TextField label="Ispirazione Eroica" showInfo={false} showEditIcon value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
           </div>
           <div className={grid2}>
             <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
             <TextField label="Scudo" showInfo={false} showEditIcon value={shieldInUse ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${shieldInUse ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch(selectHeldShield(sheet, v === "Sì"))} />
           </div>
-        </div>
-      ),
-    },
-    {
-      title: "Identità",
-      body: (
-        <div className="flex flex-col gap-1.5">
           <div className={grid2}>
             <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
             <TextField label="Livello" showInfo={false} showEditIcon value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
           </div>
           {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
           <div className={grid2}>
-            <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
             <TextField label="Punti Esperienza" showInfo={false} showEditIcon value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
           <div className={grid2}>
@@ -1111,8 +1103,7 @@ export default function CharacterClient({
   ];
 
   const pageOrder = [
-    "Stato",
-    "Identità",
+    "Stato & Identità",
     "Lingue",
     "Caratteristiche",
     "Abilità",

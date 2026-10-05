@@ -27,12 +27,11 @@ export function DiceText({ text }: { text: string }) {
   for (const match of text.matchAll(dice)) {
     const index = match.index;
     if (index > from) parts.push(text.slice(from, index));
-    const count = match[1];
+    const count = Number(match[1] || 1);
     const sides = Number(match[2]);
-    parts.push(<span key={index} className="inline-flex items-center align-middle whitespace-nowrap" role="img" aria-label={`${count || 1} ${Number(count || 1) === 1 ? "dado" : "dadi"} a ${sides} facce`}>
-      {count && count !== "1" && <span aria-hidden="true" className="mr-0.5">{count}×</span>}
-      <DiceIcon sides={sides} />
-    </span>);
+    parts.push(count > 0 && count <= 100 ? <span key={index} className="inline-flex max-w-full flex-wrap items-center align-middle" role="img" aria-label={`${count} ${count === 1 ? "dado" : "dadi"} a ${sides} facce`}>
+      {Array.from({ length: count }, (_, dieIndex) => <DiceIcon key={dieIndex} sides={sides} />)}
+    </span> : match[0]);
     from = index + match[0].length;
   }
   if (!parts.length) return <>{text}</>;
