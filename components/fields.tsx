@@ -379,24 +379,11 @@ export function Toggle({
   onExplain?: (button: HTMLButtonElement) => void;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
-  const openInfo = useContext(FieldInfoContext);
-  const infoTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const lastInfoTap = useRef(0);
-  useEffect(() => () => { if (infoTimer.current) clearTimeout(infoTimer.current); }, []);
-  const explain = (button: HTMLButtonElement) => onExplain ? onExplain(button) : openInfo(helpId ?? label, label, button);
-  const onTap = (event: React.MouseEvent<HTMLButtonElement>) => {
-    const trigger = event.currentTarget;
-    const now = Date.now();
-    if (now - lastInfoTap.current < 320) {
-      if (infoTimer.current) clearTimeout(infoTimer.current);
-      infoTimer.current = null;
-      lastInfoTap.current = 0;
-      if (!locked) unlocked ? onChange(!checked) : requireUnlock();
-      return;
-    }
-    lastInfoTap.current = now;
-    infoTimer.current = setTimeout(() => { explain(trigger); infoTimer.current = null; }, 330);
-  };
+  const onTap = useDoubleTap(() => {
+    if (locked) return;
+    if (unlocked) onChange(!checked);
+    else requireUnlock();
+  });
   const active = checked
     ? "border-accent bg-accent/12 text-accent"
     : "border-line bg-card/60 text-ink-soft";
@@ -405,7 +392,7 @@ export function Toggle({
     <button
       type="button"
       onClick={onTap}
-      aria-label={`Informazioni su ${label}; doppio tocco per ${checked ? "rimuovere" : "aggiungere"}`}
+      aria-label={`${label}; doppio tocco per ${checked ? "rimuovere" : "aggiungere"}`}
       aria-disabled={locked}
       className={`flex touch-manipulation items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${active}`}
     >

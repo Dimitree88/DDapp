@@ -183,12 +183,10 @@ function CompetenceDot({
   checked,
   onChange,
   locked = false,
-  onExplain,
 }: {
   checked: boolean;
   onChange: (v: boolean) => void;
   locked?: boolean;
-  onExplain?: (button: HTMLButtonElement) => void;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const onTap = useDoubleTap(() =>
@@ -197,7 +195,7 @@ function CompetenceDot({
   return (
     <button
       type="button"
-      onClick={(event) => locked ? onExplain?.(event.currentTarget) : onTap()}
+      onClick={() => { if (!locked) onTap(); }}
       aria-label="Competente"
       aria-disabled={locked}
       className={`grid h-4 w-4 shrink-0 touch-manipulation place-items-center rounded-full border text-[9px] transition-colors ${
@@ -714,7 +712,6 @@ export default function CharacterClient({
                   <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
                     <div className="flex items-center gap-1.5">
                       <CompetenceDot checked={a.competente} locked={a.competente}
-                        onExplain={(button) => openCalculation({ kind: "ability", name: a.nome }, button)}
                         onChange={(v) => updateAbi(i, { competente: v, ...(!v ? { maestria: false } : {}) })} />
                       <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
                         aria-haspopup="dialog"
