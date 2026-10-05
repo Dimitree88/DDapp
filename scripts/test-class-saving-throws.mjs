@@ -4,6 +4,8 @@ import rules from "../lib/regole-srd-2024.json" with { type: "json" };
 import { classSavingThrows, grantClassProficiencies } from "../lib/classSavingThrows.ts";
 import { emptySheet, normalizeSheet } from "../lib/sheet.ts";
 import { domainErrors } from "../lib/domain.ts";
+import { isWeaponProficient } from "../lib/weaponProficiencyRules.ts";
+import { weaponByName } from "../lib/weaponDetails.ts";
 
 test("every catalog class grants its two saving throw proficiencies", () => {
   assert.deepEqual(Object.keys(classSavingThrows).sort(), Object.keys(rules.classi).sort());
@@ -32,11 +34,13 @@ test("fixed class weapon, armor and tool grants follow core traits", () => {
   assert.deepEqual(ranger.competenzeArmi, ["Armi semplici", "Armi da guerra"]);
   assert.deepEqual(ranger.competenzeArmatura, { leggere: true, medie: true, pesanti: false, scudi: true });
   const monk = grantClassProficiencies({ ...emptySheet(), classe: "Monaco" });
-  assert.ok(monk.competenzeArmi.includes("Spada corta"));
-  assert.ok(!monk.competenzeArmi.includes("Stocco"));
+  assert.ok(monk.competenzeArmi.includes("Armi da guerra leggere"));
+  assert.ok(isWeaponProficient(monk, weaponByName("Spada corta")));
+  assert.ok(!isWeaponProficient(monk, weaponByName("Stocco")));
   const rogue = grantClassProficiencies({ ...emptySheet(), classe: "Ladro" });
-  assert.ok(rogue.competenzeArmi.includes("Stocco"));
-  assert.ok(!rogue.competenzeArmi.includes("Spadone"));
+  assert.ok(rogue.competenzeArmi.includes("Armi da guerra accurate o leggere"));
+  assert.ok(isWeaponProficient(rogue, weaponByName("Stocco")));
+  assert.ok(!isWeaponProficient(rogue, weaponByName("Spadone")));
   assert.deepEqual(rogue.competenzeStrumenti, ["Arnesi da scasso"]);
   assert.deepEqual(grantClassProficiencies({ ...emptySheet(), classe: "Druido" }).competenzeStrumenti, ["Borsa da erborista"]);
 });

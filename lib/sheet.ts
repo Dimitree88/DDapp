@@ -3,6 +3,8 @@ import { calculatedMaxHp } from "./classProgression";
 import { calculatedArmorClass } from "./armorClass";
 import { calculatedSpeed } from "./speed";
 import { grantClassProficiencies } from "./classSavingThrows";
+import { grantBackgroundToolProficiency } from "./backgroundToolProficiencies";
+import { grantFeatToolProficiencies } from "./featToolProficiencies";
 
 // Modello dati della scheda. I bonus delle abilità sono derivati.
 
@@ -363,5 +365,5 @@ export function normalizeSheet(value: Sheet): Sheet {
   delete (normalized as Sheet & { percezionePassiva?: string }).percezionePassiva;
   delete (normalized as Sheet & { iniziativa?: string }).iniziativa;
   const cleaned = removeRetiredFields(normalized);
-  return cleaned.classProficienciesApplied ? cleaned : grantClassProficiencies(cleaned);
+  return grantFeatToolProficiencies(grantBackgroundToolProficiency(cleaned.classProficienciesApplied ? cleaned : grantClassProficiencies(cleaned)));
 }

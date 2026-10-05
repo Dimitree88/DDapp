@@ -1,10 +1,13 @@
 import { classWeaponProficiencies } from "./classSavingThrows";
+import { hasGrantedCompetency } from "./competencySources";
 import type { Sheet } from "./sheet";
 import { weaponDetails } from "./weaponDetails";
 
 const categoryDetails: Record<string, string> = {
   "Armi semplici": "Competenza con tutte le armi semplici.",
   "Armi da guerra": "Competenza con tutte le armi da guerra.",
+  "Armi da guerra leggere": "Competenza con le armi da guerra che hanno la proprietà Leggera.",
+  "Armi da guerra accurate o leggere": "Competenza con le armi da guerra che hanno la proprietà Accurata oppure Leggera.",
 };
 
 export function weaponCompetencyDetails(sheet: Sheet, name: string): string {
@@ -27,7 +30,7 @@ export function addWeaponCompetency(sheet: Sheet, name: string): Partial<Sheet> 
 }
 
 export function removeWeaponCompetency(sheet: Sheet, name: string): Partial<Sheet> {
-  if (classWeaponProficiencies(sheet.classe).includes(name)) return {};
+  if (hasGrantedCompetency(sheet, "arma", name, classWeaponProficiencies(sheet.classe).includes(name))) return {};
   return {
     competenzeArmi: sheet.competenzeArmi.filter((value) => value !== name),
     fontiCompetenze: (sheet.fontiCompetenze ?? []).filter((record) => record.tipo !== "arma" || record.valore !== name),

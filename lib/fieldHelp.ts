@@ -30,6 +30,7 @@ export const fieldHelp: Record<string, FieldHelp> = {
   "Tiro Salvezza": { meaning: "Indica la competenza nel tiro salvezza della caratteristica.", effect: "Se attiva, il bonus competenza viene aggiunto al tiro salvezza.", rule: true },
   Maestria: { meaning: "Raddoppia il bonus competenza per l'abilità indicata.", effect: "Aggiorna il bonus dell'abilità e, per Percezione, anche la Percezione Passiva.", rule: true },
   "Competenze armi": { meaning: "Armi o categorie di armi in cui il personaggio è competente.", rule: true },
+  "Competenze negli strumenti": { meaning: "Classe, background, talenti e altre capacità possono concedere competenza in uno strumento. Si aggiunge il bonus competenza alle prove che usano quello strumento; se si applica anche una competenza in un'abilità, la prova ha vantaggio. Tocca una competenza per vederne l'origine.", rule: true },
   Armi: { meaning: "Armi possedute o usate dal personaggio." },
   "Quantità arma": { meaning: "Numero di esemplari dell'arma posseduti." },
   "Nome arma": { meaning: "Tipo di arma registrata.", rule: true },

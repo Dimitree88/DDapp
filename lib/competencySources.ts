@@ -1,5 +1,11 @@
 import type { FonteCompetenza, Sheet } from "./sheet";
 
+export function hasGrantedCompetency(sheet: Sheet, type: FonteCompetenza["tipo"], value: string, classGranted = false): boolean {
+  return classGranted || (sheet.fontiCompetenze ?? []).some((record) =>
+    record.tipo === type && record.valore === value && record.fonte.trim() !== "" && record.fonte !== "Aggiunta manuale",
+  );
+}
+
 // Le competenze acquisite restano registrate anche se la fonte viene corretta.
 // Non si revocano automaticamente: possono provenire da piu fonti o da scelte manuali.
 export function grantCompetencies(sheet: Sheet, sources: FonteCompetenza[]): Partial<Sheet> {

@@ -1,6 +1,7 @@
 import { abilityModifier, proficiencyBonus } from "./abilityBonus";
 import type { Arma, Sheet } from "./sheet";
 import { weaponByName } from "./weaponDetails";
+import { isWeaponProficient } from "./weaponProficiencyRules";
 
 export type WeaponAttack = {
   attack: string;
@@ -21,7 +22,7 @@ export function weaponAttack(sheet: Sheet, weapon: Arma): WeaponAttack | null {
   if (mode === "lancio" && (!entry.thrown || entry.kind !== "mischia") || mode === "dueMani" && (!entry.versatileDie || entry.kind !== "mischia")) return null;
   const ability = entry.finesse ? weapon.caratteristica ?? (entry.kind === "distanza" ? "DES" : "FOR") : entry.kind === "distanza" ? "DES" : "FOR";
   const modifier = abilityModifier(sheet.caratteristiche.find((item) => item.abbr === ability)?.valore ?? "");
-  const proficient = sheet.competenzeArmi.includes(weapon.nome) || sheet.competenzeArmi.includes(entry.category === "semplici" ? "Armi semplici" : "Armi da guerra");
+  const proficient = isWeaponProficient(sheet, entry);
   const proficiency = proficient ? proficiencyBonus(sheet.livello) : "";
   const magic = weapon.bonusMagico ?? 0;
   const attack = modifier && (!proficient || proficiency) ? signed(Number(modifier) + Number(proficiency || 0) + magic) : "";

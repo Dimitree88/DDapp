@@ -4,6 +4,7 @@ import { numericValueValid, type NumericMode } from "./numeric";
 import { spellNames } from "./spells";
 import { speciesSizes } from "./creationRules";
 import { weaponByName, weaponNames } from "./weaponDetails";
+import { isWeaponProficient, WEAPON_PROFICIENCIES } from "./weaponProficiencyRules";
 import { armorById } from "./armorCatalog";
 import { gearById } from "./gearCatalog";
 import { gearCatalog } from "./gearCatalog";
@@ -53,7 +54,7 @@ export function domainErrors(sheet: Sheet): string[] {
     if (ability.maestria && !ability.competente) errors.push(`${ability.nome}: Maestria richiede competenza`);
   });
   sheet.lingue.forEach((value, index) => check(`Lingua ${index + 1}`, value, languages));
-  sheet.competenzeArmi.forEach((value, index) => check(`Competenza armi ${index + 1}`, value, [...rules.competenzeArmi, ...weapons]));
+  sheet.competenzeArmi.forEach((value, index) => check(`Competenza armi ${index + 1}`, value, [...WEAPON_PROFICIENCIES, ...weapons]));
   const toolNames = gearCatalog.filter((item) => item.tool).map((item) => item.name);
   (sheet.competenzeStrumenti ?? []).forEach((value, index) => check(`Competenza strumenti ${index + 1}`, value, toolNames));
   if (new Set(sheet.competenzeStrumenti ?? []).size !== (sheet.competenzeStrumenti ?? []).length) errors.push("Competenze strumenti duplicate");
@@ -70,7 +71,7 @@ export function domainErrors(sheet: Sheet): string[] {
   (sheet.padronanzeArmi ?? []).forEach((name, index) => {
     check(`Padronanza armi ${index + 1}`, name, weapons);
     const entry = weaponByName(name);
-    if (entry && !sheet.competenzeArmi.includes(name) && !sheet.competenzeArmi.includes(entry.category === "semplici" ? "Armi semplici" : "Armi da guerra")) errors.push(`Padronanza ${name}: manca competenza`);
+    if (entry && !isWeaponProficient(sheet, entry)) errors.push(`Padronanza ${name}: manca competenza`);
   });
   sheet.armi.forEach((weapon, index) => {
     check(`Arma ${index + 1}`, weapon.nome, weapons);

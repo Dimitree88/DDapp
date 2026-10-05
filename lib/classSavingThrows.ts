@@ -1,5 +1,4 @@
 import type { Sheet } from "./sheet";
-import { weaponCatalog } from "./weaponDetails";
 
 // D&D Basic Rules 2024, Core Class Traits:
 // https://www.dndbeyond.com/sources/dnd/br-2024/character-classes
@@ -12,13 +11,11 @@ export const classSavingThrows: Record<string, readonly [string, string]> = {
   Stregone: ["COS", "CAR"], Warlock: ["SAG", "CAR"],
 };
 
-const martialLight = weaponCatalog.filter((weapon) => weapon.category === "daGuerra" && /\bleggera\b/i.test(weapon.properties)).map((weapon) => weapon.name);
-const martialFinesseOrLight = weaponCatalog.filter((weapon) => weapon.category === "daGuerra" && (weapon.finesse || /\bleggera\b/i.test(weapon.properties))).map((weapon) => weapon.name);
 const classWeapons: Record<string, string[]> = {
   Barbaro: ["Armi semplici", "Armi da guerra"], Bardo: ["Armi semplici"],
   Chierico: ["Armi semplici"], Druido: ["Armi semplici"],
-  Guerriero: ["Armi semplici", "Armi da guerra"], Ladro: ["Armi semplici", ...martialFinesseOrLight],
-  Mago: ["Armi semplici"], Monaco: ["Armi semplici", ...martialLight],
+  Guerriero: ["Armi semplici", "Armi da guerra"], Ladro: ["Armi semplici", "Armi da guerra accurate o leggere"],
+  Mago: ["Armi semplici"], Monaco: ["Armi semplici", "Armi da guerra leggere"],
   Paladino: ["Armi semplici", "Armi da guerra"], Ranger: ["Armi semplici", "Armi da guerra"],
   Stregone: ["Armi semplici"], Warlock: ["Armi semplici"],
 };
@@ -33,6 +30,7 @@ const classArmor: Record<string, (keyof Sheet["competenzeArmatura"])[]> = {
 const classTools: Record<string, string[]> = {
   Druido: ["Borsa da erborista"], Ladro: ["Arnesi da scasso"],
 };
+export const classToolProficiencies = (className: string): readonly string[] => classTools[className] ?? [];
 
 export function grantClassProficiencies(sheet: Sheet): Sheet {
   const saves = classSavingThrows[sheet.classe];

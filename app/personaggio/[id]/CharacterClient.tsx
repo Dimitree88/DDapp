@@ -41,9 +41,13 @@ import { availableFeats } from "@/lib/featCatalog";
 import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotalGold } from "@/lib/coins";
-import { grantCompetencies, setCheckboxCompetency } from "@/lib/competencySources";
-import { classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
+import { grantCompetencies, hasGrantedCompetency, setCheckboxCompetency } from "@/lib/competencySources";
+import { classToolProficiencies, classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
 import { addWeaponCompetency, removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
+import { addToolCompetency, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
+import { backgroundToolProficiency } from "@/lib/backgroundToolProficiencies";
+import { featToolProficiencies } from "@/lib/featToolProficiencies";
+import { WEAPON_PROFICIENCIES } from "@/lib/weaponProficiencyRules";
 import { subclassLevel } from "@/lib/classProgression";
 import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
@@ -184,16 +188,37 @@ function WeaponCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (
   const { unlocked } = useContext(EditContext);
   const items = toList(sheet.competenzeArmi);
   const classGranted = classWeaponProficiencies(sheet.classe);
-  const choices = [...new Set([...regole.competenzeArmi, ...nomiArmi])].filter((name) => !items.includes(name));
+  const choices = WEAPON_PROFICIENCIES.filter((name) => !items.includes(name));
   return <ul className="flex flex-col gap-1.5">
     {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
     {items.map((name) => <li key={name} className="flex items-center gap-2">
       <span className="text-ink-faint" aria-hidden>•</span>
       <InfoLabel id={`competenzaArma:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
-      {unlocked && !classGranted.includes(name) && <button type="button" onClick={() => onChange(removeWeaponCompetency(sheet, name))} aria-label={`Rimuovi ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+      {unlocked && !hasGrantedCompetency(sheet, "arma", name, classGranted.includes(name)) && <button type="button" onClick={() => onChange(removeWeaponCompetency(sheet, name))} aria-label={`Rimuovi ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
     </li>)}
     {unlocked && choices.length > 0 && <li>
       <select aria-label="Aggiungi competenza armi" value="" onChange={(event) => onChange(addWeaponCompetency(sheet, event.target.value))}
+        className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
+        <option value="" disabled>+ Aggiungi competenza</option>
+        {choices.map((name) => <option key={name} value={name}>{name}</option>)}
+      </select>
+    </li>}
+  </ul>;
+}
+
+function ToolCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (update: Partial<Sheet>) => void }) {
+  const { unlocked } = useContext(EditContext);
+  const items = sheet.competenzeStrumenti ?? [];
+  const choices = gearCatalog.filter((item) => item.tool && !items.includes(item.name)).map((item) => item.name);
+  return <ul className="flex flex-col gap-1.5">
+    {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
+    {items.map((name) => <li key={name} className="flex items-center gap-2">
+      <span className="text-ink-faint" aria-hidden>•</span>
+      <InfoLabel id={`competenzaStrumento:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
+      {unlocked && !hasGrantedCompetency(sheet, "strumento", name, classToolProficiencies(sheet.classe).includes(name) || backgroundToolProficiency(sheet.background) === name || featToolProficiencies(sheet).includes(name)) && <button type="button" onClick={() => onChange(removeToolCompetency(sheet, name))} aria-label={`Rimuovi ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+    </li>)}
+    {unlocked && choices.length > 0 && <li>
+      <select aria-label="Aggiungi competenza strumenti" value="" onChange={(event) => onChange(addToolCompetency(sheet, event.target.value))}
         className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
         <option value="" disabled>+ Aggiungi competenza</option>
         {choices.map((name) => <option key={name} value={name}>{name}</option>)}
@@ -452,6 +477,8 @@ export default function CharacterClient({
   const weapon = fieldInfo?.id.startsWith("arma:") ? weaponDetails(fieldInfo.id.slice("arma:".length)) : null;
   const weaponCompetencyName = fieldInfo?.id.startsWith("competenzaArma:") ? fieldInfo.id.slice("competenzaArma:".length) : null;
   const weaponCompetencyInfo = weaponCompetencyName ? { meaning: weaponCompetencyDetails(sheet, weaponCompetencyName), rule: true } : null;
+  const toolCompetencyName = fieldInfo?.id.startsWith("competenzaStrumento:") ? fieldInfo.id.slice("competenzaStrumento:".length) : null;
+  const toolCompetencyInfo = toolCompetencyName ? { meaning: toolCompetencyDetails(sheet, toolCompetencyName), rule: true } : null;
   const ownedWeaponIndex = fieldInfo?.id.startsWith("armaPosseduta:") ? Number(fieldInfo.id.slice("armaPosseduta:".length)) : -1;
   const ownedWeapon = ownedWeaponIndex >= 0 ? sheet.armi[ownedWeaponIndex] : null;
   const ownedWeaponBase = ownedWeapon ? weaponDetails(ownedWeapon.nome) : null;
@@ -481,7 +508,7 @@ export default function CharacterClient({
     meaning: [privilegeBase?.meaning, privilege?.scelte && `Scelte personali: ${privilege.scelte}`].filter(Boolean).join("\n\n"),
     rule: privilegeBase?.rule,
   } : null;
-  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weaponCompetencyInfo ?? (weapon ? { meaning: weapon, rule: true } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weaponCompetencyInfo ?? toolCompetencyInfo ?? (weapon ? { meaning: weapon, rule: true } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -846,8 +873,8 @@ export default function CharacterClient({
             </div>
           </div>
           <div>
-            <h3 className={sectionTitle}>Competenze negli strumenti</h3>
-            <StringListEditor items={sheet.competenzeStrumenti ?? []} onChange={(items) => patch({ competenzeStrumenti: items })} addLabel="Aggiungi competenza" options={gearCatalog.filter((item) => item.tool).map((item) => item.name)} />
+            <h3 className={sectionTitle}><InfoLabel id="Competenze negli strumenti" title="Competenze negli strumenti" /></h3>
+            <ToolCompetencyEditor sheet={sheet} onChange={patch} />
           </div>
           <div>
             <h3 className={sectionTitle}>Oggetti</h3>
@@ -924,9 +951,14 @@ export default function CharacterClient({
           addLabel="Aggiungi fonte"
           titleOf={(record) => record.valore || "Nuova fonte"}
           subtitleOf={(record) => record.fonte}
-          renderItem={(record, p) => <div className="flex flex-col gap-2">
+          lockItem={(record) => record.tipo === "strumento"
+            ? (record.fonte === `Classe: ${sheet.classe}` && classToolProficiencies(sheet.classe).includes(record.valore))
+              || (record.fonte === `Background: ${sheet.background}` && backgroundToolProficiency(sheet.background) === record.valore)
+              || (record.fonte === "Talento: Lavoro manuale" && featToolProficiencies(sheet).includes(record.valore))
+            : record.tipo === "arma" && record.fonte === `Classe: ${sheet.classe}` && classWeaponProficiencies(sheet.classe).includes(record.valore)}
+          renderItem={(record, p, _index, locked) => locked ? <p className="text-sm text-ink-soft">{record.valore} · {record.fonte}</p> : <div className="flex flex-col gap-2">
             <TextField label="Tipo" showInfo={false} value={record.tipo} options={["abilita", "tiroSalvezza", "arma", "armatura", "strumento", "lingua"]} onChange={(v) => p({ tipo: v as typeof record.tipo, valore: "" })} />
-            <TextField label="Competenza" showInfo={false} value={record.valore} options={record.tipo === "abilita" ? sheet.abilita.map((item) => item.nome) : record.tipo === "tiroSalvezza" ? sheet.caratteristiche.map((item) => item.abbr) : record.tipo === "arma" ? [...regole.competenzeArmi, ...nomiArmi] : record.tipo === "armatura" ? Object.keys(sheet.competenzeArmatura) : record.tipo === "strumento" ? gearCatalog.filter((item) => item.tool).map((item) => item.name) : lingue} onChange={(v) => p({ valore: v })} />
+            <TextField label="Competenza" showInfo={false} value={record.valore} options={record.tipo === "abilita" ? sheet.abilita.map((item) => item.nome) : record.tipo === "tiroSalvezza" ? sheet.caratteristiche.map((item) => item.abbr) : record.tipo === "arma" ? WEAPON_PROFICIENCIES : record.tipo === "armatura" ? Object.keys(sheet.competenzeArmatura) : record.tipo === "strumento" ? gearCatalog.filter((item) => item.tool).map((item) => item.name) : lingue} onChange={(v) => p({ valore: v })} />
             <TextField label="Fonte" showInfo={false} value={record.fonte} onChange={(v) => p({ fonte: v })} />
           </div>}
         />
