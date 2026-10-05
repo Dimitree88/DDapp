@@ -47,7 +47,8 @@ import { subclassLevel } from "@/lib/classProgression";
 import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
 import { recordedValueDetails } from "@/lib/recordedValueDetails";
-import { calculatedArmorClass, displayedArmorClass } from "@/lib/armorClass";
+import { displayedArmorClass } from "@/lib/armorClass";
+import { selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -67,7 +68,7 @@ const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
 
 function calculationEditGuide(target: CalculationTarget): string {
-  if (target.kind === "armor") return "Si aggiorna cambiando Destrezza, armatura indossata, scudo impugnato o competenza negli scudi; questo valore non si modifica direttamente.";
+  if (target.kind === "armor") return "Indica l'armatura indossata negli Oggetti; poi la CA si aggiorna con Destrezza, scudo impugnato e competenza negli scudi. Questo valore non si modifica direttamente.";
   if (target.kind === "initiative") return "Si aggiorna cambiando Destrezza, Livello o il talento Allerta; questo valore non si modifica direttamente.";
   if (target.kind === "proficiency") return "Si aggiorna cambiando il Livello; il bonus non si modifica direttamente.";
   if (target.kind === "passive") return "Si aggiorna con Saggezza e con Competenza o Maestria in Percezione; il valore non si modifica direttamente.";
@@ -595,9 +596,14 @@ export default function CharacterClient({
     }
   }
 
-  const armorCalculation = calculatedArmorClass(sheet);
   const armorValue = displayedArmorClass(sheet);
   const shieldInUse = sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi");
+  const wornArmor = sheet.equipaggiamento.find((item) => item.indossato);
+  const armorChoices = armorCatalog.filter((armor) => armor.category !== "scudi").map((armor) => ({
+    id: armor.id,
+    label: `${armor.name}${sheet.competenzeArmatura[armor.category] ? "" : " · senza competenza"}`,
+  }));
+  const wornArmorName = armorChoices.find((armor) => armor.id === wornArmor?.catalogId)?.label ?? "Nessuna";
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
       title: "Stato & Identità",
@@ -613,11 +619,8 @@ export default function CharacterClient({
             <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
           </div>
           <div className={grid2}>
-            <div>
-              <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
-              <p className="mt-0.5 text-[10px] text-ink-soft">{armorCalculation ? `Calcolata: ${armorCalculation.formula}` : "Inserisci Destrezza per il calcolo automatico"}</p>
-            </div>
-            <TextField label="Scudo" showInfo={false} showEditIcon value={shieldInUse ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${shieldInUse ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch(v === "Sì" ? { scudo: true } : { scudo: false, equipaggiamento: sheet.equipaggiamento.map((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi" ? { ...item, impugnato: false } : item) })} />
+            <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
+            <TextField label="Scudo" showInfo={false} showEditIcon value={shieldInUse ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${shieldInUse ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch(selectHeldShield(sheet, v === "Sì"))} />
           </div>
           <div className={grid2}>
             <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
@@ -800,6 +803,15 @@ export default function CharacterClient({
       title: "Equipaggiamento",
       body: (
         <div className="flex flex-col gap-4">
+          <div className={card}>
+            <h3 className={sectionTitle}>Armatura e scudo in uso</h3>
+            <p className="mb-2 text-xs text-ink-soft">Scegli gli oggetti che il personaggio possiede e usa. La classe determina le competenze, non l&apos;armatura indossata.</p>
+            <div className={grid2}>
+              <TextField label="Armatura indossata" showInfo={false} showEditIcon value={wornArmorName} options={["Nessuna", ...armorChoices.map((armor) => armor.label)]} allowEmpty={false} onChange={(name) => patch({ equipaggiamento: selectWornArmor(sheet, armorChoices.find((armor) => armor.label === name)?.id ?? null) })} />
+              <Toggle label="Scudo impugnato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} />
+            </div>
+            <p className="mt-2 text-xs text-ink-soft">CA attuale: {armorValue || "—"}. Le armature già possedute vengono riutilizzate; una nuova scelta viene aggiunta agli Oggetti.</p>
+          </div>
           <div>
             <h3 className={sectionTitle}>Competenze armatura</h3>
             <div className="flex flex-wrap gap-2">
@@ -848,7 +860,7 @@ export default function CharacterClient({
                   </div>
                   <TextField label="Contenitore" showInfo={false} value={e.contenitore ?? ""} onChange={(v) => p({ contenitore: v })} />
                   {armorById(e.catalogId ?? "") && <TextField label="Variante magica SRD" showInfo={false} value={e.bonusMagico ? `+${e.bonusMagico}` : "Nessuna"} options={["Nessuna", "+1", "+2", "+3"]} onChange={(v) => p({ bonusMagico: v === "Nessuna" ? undefined : Number(v.slice(1)) as 1 | 2 | 3 })} />}
-                  {armorById(e.catalogId ?? "")?.category === "scudi" ? <Toggle label="Scudo impugnato" checked={Boolean(e.impugnato)} onChange={(v) => p({ impugnato: v })} /> : armorById(e.catalogId ?? "") && <Toggle label="Armatura indossata" checked={Boolean(e.indossato)} onChange={(v) => p({ indossato: v })} />}
+                  {armorById(e.catalogId ?? "")?.category === "scudi" ? <Toggle label="Scudo impugnato" checked={Boolean(e.impugnato)} onChange={(v) => patch(selectHeldShield(sheet, v, index))} /> : armorById(e.catalogId ?? "") && <Toggle label="Armatura indossata" checked={Boolean(e.indossato)} onChange={(v) => patch({ equipaggiamento: selectWornArmor(sheet, v ? e.catalogId ?? null : null, index) })} />}
                   <TextField label="Dettaglio personale" showInfo={false} value={e.dettaglio} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${index}` : undefined} valueInfoTitle={e.nome} onChange={(v) => p({ dettaglio: v })} multiline />
                 </div>
               )}

@@ -6,6 +6,8 @@ Decisione UI del 5 ottobre 2026: non esporre più il box danni/cure, le fonti se
 
 La CA torna automatica senza un selettore di fonte: usa Destrezza, armatura indossata e scudo impugnato. Non è modificabile direttamente. Le vecchie correzioni manuali vengono scartate; se manca Destrezza, resta visibile l'eventuale CA storica finché il calcolo non è disponibile. App e PDF mostrano lo stesso valore.
 
+La pagina Equipaggiamento propone una scelta guidata tra le armature SRD e lo scudo, segnalando le armature senza competenza. La scelta aggiunge o riusa l'oggetto e registra se è indossato o impugnato; nessuna dotazione viene assegnata soltanto in base alla classe.
+
 Avanzamento sulle competenze: inserire una fonte completa registra anche la competenza corrispondente (abilità, TS, arma, armatura, strumento o lingua). La classe attribuisce le competenze fisse verificate nelle Basic Rules 2024. Le competenze già registrate restano valide; cancellare una fonte non revoca automaticamente una competenza che potrebbe avere altre origini. Le abilità di classe a scelta e le concessioni di specie/background richiedono ancora cataloghi delle alternative e una scelta del giocatore.
 
 ### Lavoro ancora aperto
