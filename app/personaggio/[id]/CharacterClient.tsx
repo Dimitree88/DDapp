@@ -600,17 +600,17 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
-            <TextField label="Livello" showInfo={false} value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
-            <TextField label="Classe" showInfo={false} value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
+            <TextField label="Livello" showInfo={false} showEditIcon value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
+            <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
           </div>
-          {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
+          {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
           <div className={grid2}>
-            <TextField label="Punti Ferita" showInfo={false} value={sheet.puntiFerita} valueInfoId="stato:pf" valueInfoTitle={`Punti Ferita: ${sheet.puntiFerita}`} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
-            <TextField label="Punti Ferita Massimi" showInfo={false} value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
+            <TextField label="Punti Ferita" showInfo={false} showEditIcon value={sheet.puntiFerita} valueInfoId="stato:pf" valueInfoTitle={`Punti Ferita: ${sheet.puntiFerita}`} numeric="unsigned" onChange={(v) => patch({ puntiFerita: v })} />
+            <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Classe Armatura" showInfo={false} numeric="unsigned" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} valueInfoId="stato:ca" valueInfoTitle={`Classe Armatura: ${sheet.classeArmatura ?? "—"}`} onChange={(v) => patch({ classeArmatura: v ? Number(v) : null })} />
-            <TextField label="Scudo" showInfo={false} value={sheet.scudo ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${sheet.scudo ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ scudo: v === "Sì" })} />
+            <TextField label="Classe Armatura" showInfo={false} showEditIcon numeric="unsigned" value={sheet.classeArmatura == null ? "" : String(sheet.classeArmatura)} valueInfoId="stato:ca" valueInfoTitle={`Classe Armatura: ${sheet.classeArmatura ?? "—"}`} onChange={(v) => patch({ classeArmatura: v ? Number(v) : null })} />
+            <TextField label="Scudo" showInfo={false} showEditIcon value={sheet.scudo ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${sheet.scudo ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ scudo: v === "Sì" })} />
           </div>
           <div className={grid2}>
             <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
@@ -622,22 +622,22 @@ export default function CharacterClient({
               onExplain={(button) => openCalculation({ kind: "passive" }, button)} />
           </div>
           <div className={grid2}>
-            <TextField label="Dadi Vita" showInfo={false} value={sheet.dadiVita} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
-            <TextField label="Punti Esperienza" showInfo={false} value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
+            <TextField label="Dadi Vita" showInfo={false} showEditIcon value={sheet.dadiVita} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
+            <TextField label="Punti Esperienza" showInfo={false} showEditIcon value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Ispirazione Eroica" showInfo={false} value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
-            <NumberUnitField label="Velocità" value={sheet.velocita} valueInfoId="stato:velocita" unit="m" onChange={(v) => patch({ velocita: v })} />
+            <TextField label="Ispirazione Eroica" showInfo={false} showEditIcon value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
+            <NumberUnitField label="Velocità" value={sheet.velocita} valueInfoId="stato:velocita" unit="m" showEditIcon onChange={(v) => patch({ velocita: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Allineamento" showInfo={false} value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
-            <TextField label="Taglia base" showInfo={false} value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
+            <TextField label="Allineamento" showInfo={false} showEditIcon value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
+            <TextField label="Taglia base" showInfo={false} showEditIcon value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
           </div>
           <div className={grid2}>
-            <TextField label="Specie" showInfo={false} value={sheet.specie} valueInfoId={`valore:specie:${sheet.specie}`} options={regole.specie} locked={Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
-            <TextField label="Background" showInfo={false} value={sheet.background} valueInfoId={`valore:background:${sheet.background}`} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
+            <TextField label="Specie" showInfo={false} showEditIcon value={sheet.specie} valueInfoId={`valore:specie:${sheet.specie}`} options={regole.specie} locked={Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
+            <TextField label="Background" showInfo={false} showEditIcon value={sheet.background} valueInfoId={`valore:background:${sheet.background}`} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
           </div>
-          {lignaggi[sheet.specie] && <TextField label="Lignaggio" showInfo={false} value={sheet.lignaggio} valueInfoId={`valore:lignaggio:${sheet.lignaggio}`} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
+          {lignaggi[sheet.specie] && <TextField label="Lignaggio" showInfo={false} showEditIcon value={sheet.lignaggio} valueInfoId={`valore:lignaggio:${sheet.lignaggio}`} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
         </div>
       ),
     },

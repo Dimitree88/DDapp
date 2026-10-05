@@ -67,6 +67,13 @@ const readonlyBase =
   "w-full rounded-lg border border-transparent bg-card/40 px-3 py-1 text-[15px] text-ink min-h-[2rem] touch-manipulation";
 const editableHint = "cursor-pointer border-dashed border-line/60";
 
+function EditIcon() {
+  return <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+    <path d="M12 20h9" />
+    <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L8 18l-4 1 1-4L16.5 3.5Z" />
+  </svg>;
+}
+
 function enterBlurs(e: React.KeyboardEvent) {
   if (e.key === "Enter") (e.target as HTMLElement).blur();
 }
@@ -86,6 +93,7 @@ export function TextField({
   showInfo = true,
   valueInfoId,
   valueInfoTitle,
+  showEditIcon = false,
 }: {
   label: string;
   value: string;
@@ -101,6 +109,7 @@ export function TextField({
   showInfo?: boolean;
   valueInfoId?: string;
   valueInfoTitle?: string;
+  showEditIcon?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const openInfo = useContext(FieldInfoContext);
@@ -115,6 +124,13 @@ export function TextField({
     setDraft(value);
     setEditing(true);
   });
+  const startEditing = () => {
+    if (locked) return;
+    if (!unlocked) return requireUnlock();
+    setDraft(value);
+    setEditing(true);
+  };
+  const editButton = showEditIcon && !locked ? <button type="button" aria-label={`Modifica ${label}`} onClick={startEditing} className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded p-1 text-ink-soft hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"><EditIcon /></button> : null;
   const close = () => {
     if (numeric && !numericValueValid(draft, numeric)) onChange("");
     setEditing(false);
@@ -181,11 +197,14 @@ export function TextField({
           />
         )
       ) : valueInfoId && value ? (
-        <button type="button" aria-label={`Informazioni su ${valueInfoTitle ?? value}`} aria-haspopup="dialog"
-          onClick={onValueTap}
-          className={`${readonlyBase} text-left ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""} ${unlocked && !locked ? editableHint : ""}`}>
-          {value}
-        </button>
+        <div className="relative">
+          <button type="button" aria-label={`Informazioni su ${valueInfoTitle ?? value}`} aria-haspopup="dialog"
+            onClick={onValueTap}
+            className={`${readonlyBase} text-left ${editButton ? "pr-10" : ""} ${multiline ? "whitespace-pre-wrap leading-relaxed" : ""} ${unlocked && !locked ? editableHint : ""}`}>
+            {value}
+          </button>
+          {editButton}
+        </div>
       ) : locked && showInfo ? (
         <button type="button" aria-label={`Informazioni su ${label || helpId || "campo"}`} aria-haspopup="dialog"
           onClick={(event) => openInfo(helpId ?? label, label || helpId || "Campo", event.currentTarget)}
@@ -193,13 +212,16 @@ export function TextField({
           {value || <span className="text-ink-faint">—</span>}
         </button>
       ) : (
-        <div
-          onClick={onTap}
-          className={`${readonlyBase} ${unlocked && !locked ? editableHint : ""} ${
-            multiline ? "whitespace-pre-wrap leading-relaxed" : ""
-          }`}
-        >
-          {value || <span className="text-ink-faint">—</span>}
+        <div className="relative">
+          <div
+            onClick={onTap}
+            className={`${readonlyBase} ${editButton ? "pr-10" : ""} ${unlocked && !locked ? editableHint : ""} ${
+              multiline ? "whitespace-pre-wrap leading-relaxed" : ""
+            }`}
+          >
+            {value || <span className="text-ink-faint">—</span>}
+          </div>
+          {editButton}
         </div>
       )}
     </div>
@@ -212,12 +234,14 @@ export function NumberUnitField({
   unit,
   onChange,
   valueInfoId,
+  showEditIcon = false,
 }: {
   label: string;
   value: string;
   unit: string;
   onChange: (value: string) => void;
   valueInfoId?: string;
+  showEditIcon?: boolean;
 }) {
   const { unlocked, requireUnlock } = useContext(EditContext);
   const openInfo = useContext(FieldInfoContext);
@@ -231,6 +255,12 @@ export function NumberUnitField({
     setDraft(value);
     setEditing(true);
   });
+  const startEditing = () => {
+    if (!unlocked) return requireUnlock();
+    setDraft(value);
+    setEditing(true);
+  };
+  const editButton = showEditIcon ? <button type="button" aria-label={`Modifica ${label}`} onClick={startEditing} className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded p-1 text-ink-soft hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"><EditIcon /></button> : null;
   const commit = () => {
     const parsed = Number(draft.replace(",", "."));
     onChange(draft.trim() && Number.isFinite(parsed) ? String(parsed) : "");
@@ -253,26 +283,32 @@ export function NumberUnitField({
           <span className="text-sm text-ink-soft">{unit}</span>
         </div>
       ) : valueInfoId && value ? (
-        <button type="button" aria-label={`Informazioni su ${label}: ${value} ${unit}`} aria-haspopup="dialog"
-          onClick={(event) => {
-            const trigger = event.currentTarget;
-            const now = Date.now();
-            if (now - lastInfoTap.current < 320) {
-              if (infoTimer.current) clearTimeout(infoTimer.current);
-              infoTimer.current = null;
-              lastInfoTap.current = 0;
-              if (unlocked) { setDraft(value); setEditing(true); }
-              return;
-            }
-            lastInfoTap.current = now;
-            infoTimer.current = setTimeout(() => { openInfo(valueInfoId, `${label}: ${value} ${unit}`, trigger); infoTimer.current = null; }, 330);
-          }}
-          className={`${readonlyBase} text-left ${unlocked ? editableHint : ""}`}>
-          {value} {unit}
-        </button>
+        <div className="relative">
+          <button type="button" aria-label={`Informazioni su ${label}: ${value} ${unit}`} aria-haspopup="dialog"
+            onClick={(event) => {
+              const trigger = event.currentTarget;
+              const now = Date.now();
+              if (now - lastInfoTap.current < 320) {
+                if (infoTimer.current) clearTimeout(infoTimer.current);
+                infoTimer.current = null;
+                lastInfoTap.current = 0;
+                if (unlocked) { setDraft(value); setEditing(true); }
+                return;
+              }
+              lastInfoTap.current = now;
+              infoTimer.current = setTimeout(() => { openInfo(valueInfoId, `${label}: ${value} ${unit}`, trigger); infoTimer.current = null; }, 330);
+            }}
+            className={`${readonlyBase} text-left ${editButton ? "pr-10" : ""} ${unlocked ? editableHint : ""}`}>
+            {value} {unit}
+          </button>
+          {editButton}
+        </div>
       ) : (
-        <div onClick={onTap} className={`${readonlyBase} ${unlocked ? editableHint : ""}`}>
-          {value ? `${value} ${unit}` : <span className="text-ink-faint">—</span>}
+        <div className="relative">
+          <div onClick={onTap} className={`${readonlyBase} ${editButton ? "pr-10" : ""} ${unlocked ? editableHint : ""}`}>
+            {value ? `${value} ${unit}` : <span className="text-ink-faint">—</span>}
+          </div>
+          {editButton}
         </div>
       )}
     </div>
