@@ -1,5 +1,6 @@
 import type { Sheet } from "./sheet";
 import { armorById } from "./armorCatalog";
+import { armorForEquipment } from "./equipmentSelection";
 import { gearById } from "./gearCatalog";
 import { weaponByName } from "./weaponDetails";
 
@@ -16,7 +17,7 @@ export function inventoryWeight(sheet: Sheet): InventoryWeight {
   let knownKg = 0;
   const unknownItems: string[] = [];
   for (const item of sheet.equipaggiamento) {
-    const catalog = armorById(item.catalogId ?? "") ?? gearById(item.catalogId ?? "");
+    const catalog = armorById(item.catalogId ?? "") ?? armorForEquipment(item) ?? gearById(item.catalogId ?? "");
     const count = item.quantita === undefined || item.quantita === "" ? 1 : Number(item.quantita);
     if (!item.nome && !catalog) continue;
     if (!catalog || catalog.weightKg === undefined || !Number.isFinite(count)) unknownItems.push(item.nome || catalog?.name || "Oggetto senza nome");

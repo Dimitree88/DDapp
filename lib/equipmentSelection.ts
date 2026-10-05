@@ -1,5 +1,17 @@
-import { armorById } from "./armorCatalog";
+import { armorById, armorCatalog } from "./armorCatalog";
 import type { Equip, Sheet } from "./sheet";
+
+export function armorForEquipment(item: Equip) {
+  return armorById(item.catalogId ?? "") ?? armorCatalog.find((armor) => armor.name === item.nome) ?? null;
+}
+
+export function isArmorEquipment(item: Equip): boolean {
+  return armorForEquipment(item) !== null;
+}
+
+export function replaceOtherEquipment(all: Equip[], other: Equip[]): Equip[] {
+  return [...all.filter(isArmorEquipment), ...other];
+}
 
 export function selectWornArmor(sheet: Sheet, catalogId: string | null, preferredIndex?: number): Equip[] {
   const armor = catalogId ? armorById(catalogId) : null;

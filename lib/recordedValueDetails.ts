@@ -19,7 +19,7 @@ export function recordedValueDetails(sheet: Sheet, kind: string): FieldHelp | nu
       } : null;
     }
     case "scudo": return {
-      meaning: sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi") ? `Scudo impugnato: sì. ${sheet.competenzeArmatura.scudi ? "Il bonus dello scudo entra nel calcolo automatico della CA." : "Senza competenza lo scudo non aggiunge CA."}` : "Scudo impugnato: no. Per usare uno scudo puoi selezionare Sì qui o segnarlo come impugnato negli Oggetti.", rule: true,
+      meaning: sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi") ? `Scudo impugnato: sì. ${sheet.competenzeArmatura.scudi ? "Il bonus dello scudo entra nel calcolo automatico della CA." : "Senza competenza lo scudo non aggiunge CA."}` : "Scudo impugnato: no. Puoi selezionarlo nella sezione Equipaggiamento.", rule: true,
     };
     case "dadiVita": return sheet.dadiVita ? {
       meaning: `Dadi Vita massimi registrati: ${sheet.dadiVita}. Durante un riposo breve se ne possono spendere per recuperare punti ferita. La scheda non registra quanti ne siano già stati spesi.`, rule: true,

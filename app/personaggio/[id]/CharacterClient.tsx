@@ -33,6 +33,7 @@ import { speciesSizes } from "@/lib/creationRules";
 import { helpFor, type FieldHelp } from "@/lib/fieldHelp";
 import { languageDetails } from "@/lib/languageDetails";
 import { weaponByName, weaponDetails, weaponNames } from "@/lib/weaponDetails";
+import { availableWeaponMasteries, proficientWeaponNames, weaponMasteryLimit } from "@/lib/weaponChoices";
 import { displayedWeaponAttack, weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById } from "@/lib/gearCatalog";
@@ -53,7 +54,7 @@ import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
 import { recordedValueDetails } from "@/lib/recordedValueDetails";
 import { displayedArmorClass } from "@/lib/armorClass";
-import { selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
+import { armorForEquipment, isArmorEquipment, replaceOtherEquipment, selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
 
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
@@ -73,7 +74,7 @@ const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
 
 function calculationEditGuide(target: CalculationTarget): string {
-  if (target.kind === "armor") return "Indica l'armatura indossata negli Oggetti; poi la CA si aggiorna con Destrezza, scudo impugnato e competenza negli scudi. Questo valore non si modifica direttamente.";
+  if (target.kind === "armor") return "Scegli l'armatura indossata e lo scudo impugnato nella sezione Equipaggiamento; poi la CA si aggiorna con Destrezza e competenza negli scudi. Questo valore non si modifica direttamente.";
   if (target.kind === "initiative") return "Si aggiorna cambiando Destrezza, Livello o il talento Allerta; questo valore non si modifica direttamente.";
   if (target.kind === "proficiency") return "Si aggiorna cambiando il Livello; il bonus non si modifica direttamente.";
   if (target.kind === "passive") return "Si aggiorna con Saggezza e con Competenza o Maestria in Percezione; il valore non si modifica direttamente.";
@@ -227,6 +228,39 @@ function ToolCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (up
   </ul>;
 }
 
+function WeaponMasteryEditor({ sheet, onChange }: { sheet: Sheet; onChange: (items: string[]) => void }) {
+  const { unlocked } = useContext(EditContext);
+  const selected = sheet.padronanzeArmi ?? [];
+  const limit = weaponMasteryLimit(sheet);
+  const allowed = availableWeaponMasteries(sheet);
+  const choices = allowed.filter((name) => !selected.includes(name));
+  return <ul className="flex flex-col gap-1.5">
+    {selected.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
+    {selected.map((name, index) => <li key={`${name}:${index}`} className="flex items-center gap-2">
+      <span className="text-ink-faint" aria-hidden>•</span>
+      <InfoLabel id={`padronanza:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
+      {unlocked && <button type="button" onClick={() => onChange(selected.filter((_, i) => i !== index))} aria-label={`Rimuovi padronanza ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+    </li>)}
+    {unlocked && selected.length < limit && choices.length > 0 && <li>
+      <select aria-label="Aggiungi padronanza" value="" onChange={(event) => onChange([...selected, event.target.value])}
+        className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
+        <option value="" disabled>+ Aggiungi padronanza</option>
+        {choices.map((name) => <option key={name} value={name}>{name}</option>)}
+      </select>
+    </li>}
+  </ul>;
+}
+
+function AddWeaponSelect({ sheet, onAdd }: { sheet: Sheet; onAdd: (name: string) => void }) {
+  const { unlocked } = useContext(EditContext);
+  const choices = proficientWeaponNames(sheet).filter((name) => !sheet.armi.some((weapon) => weapon.nome === name));
+  return unlocked && choices.length > 0 ? <select aria-label="Aggiungi arma" value="" onChange={(event) => onAdd(event.target.value)}
+    className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
+    <option value="" disabled>+ Aggiungi arma</option>
+    {choices.map((name) => <option key={name} value={name}>{name}</option>)}
+  </select> : null;
+}
+
 // Pallino di competenza per la pagina Abilità: doppio tocco per cambiarlo
 // (o per richiedere lo sblocco se la scheda è bloccata).
 function CompetenceDot({
@@ -269,6 +303,7 @@ function ArrayEditor<T>({
   headerAccessory,
   maxItems,
   lockItem,
+  allowAdd = true,
 }: {
   items: T[];
   onChange: (items: T[]) => void;
@@ -282,6 +317,7 @@ function ArrayEditor<T>({
   headerAccessory?: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
   maxItems?: number;
   lockItem?: (item: T) => boolean;
+  allowAdd?: boolean;
 }) {
   const { unlocked } = useContext(EditContext);
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
@@ -307,7 +343,7 @@ function ArrayEditor<T>({
       return n;
     });
 
-  const addButton = unlocked && (maxItems === undefined || items.length < maxItems) && (
+  const addButton = unlocked && allowAdd && (maxItems === undefined || items.length < maxItems) && (
     <button
       type="button"
       onClick={add}
@@ -479,6 +515,17 @@ export default function CharacterClient({
   const weaponCompetencyInfo = weaponCompetencyName ? { meaning: weaponCompetencyDetails(sheet, weaponCompetencyName), rule: true } : null;
   const toolCompetencyName = fieldInfo?.id.startsWith("competenzaStrumento:") ? fieldInfo.id.slice("competenzaStrumento:".length) : null;
   const toolCompetencyInfo = toolCompetencyName ? { meaning: toolCompetencyDetails(sheet, toolCompetencyName), rule: true } : null;
+  const masteryName = fieldInfo?.id.startsWith("padronanza:") ? fieldInfo.id.slice("padronanza:".length) : null;
+  const masteryWeapon = masteryName ? weaponByName(masteryName) : null;
+  const masteryInfo = masteryWeapon ? { meaning: `${weaponDetails(masteryWeapon.name)}\n\nPadronanza ${masteryWeapon.mastery}: ${masteryEffects[masteryWeapon.mastery] ?? ""}\n\nConcessa dalla classe ${sheet.classe}: ${weaponMasteryLimit(sheet)} scelte al livello ${sheet.livello}.`, rule: true } : null;
+  const selectedArmor = sheet.equipaggiamento.find((item) => item.indossato && armorForEquipment(item)?.category !== "scudi");
+  const selectedShield = sheet.equipaggiamento.find((item) => item.impugnato && armorForEquipment(item)?.category === "scudi");
+  const carriedArmors = sheet.equipaggiamento.filter((item) => armorForEquipment(item)?.category !== "scudi" && isArmorEquipment(item) && !item.indossato);
+  const carriedShields = sheet.equipaggiamento.filter((item) => armorForEquipment(item)?.category === "scudi" && !item.impugnato);
+  const armorBaseInfo = selectedArmor ? equipmentDetails(selectedArmor.nome, selectedArmor.dettaglio) : null;
+  const shieldBaseInfo = selectedShield ? equipmentDetails(selectedShield.nome, selectedShield.dettaglio) : null;
+  const armorSelectionInfo = fieldInfo?.id === "armaturaSelezionata" ? { meaning: [armorBaseInfo?.meaning ?? "Nessuna armatura indossata.", selectedArmor?.bonusMagico && `Bonus magico alla CA: +${selectedArmor.bonusMagico}.`, ...carriedArmors.map((item) => `Trasportata: ${item.nome}. ${equipmentDetails(item.nome)?.meaning ?? ""}`)].filter(Boolean).join("\n\n"), rule: true } : null;
+  const shieldSelectionInfo = fieldInfo?.id === "scudoSelezionato" ? { meaning: [shieldBaseInfo?.meaning ?? (sheet.scudo ? equipmentDetails("Scudo")?.meaning : "Nessuno scudo impugnato."), selectedShield?.bonusMagico && `Bonus magico alla CA: +${selectedShield.bonusMagico}.`, ...carriedShields.map((item) => `Trasportato: ${item.nome}. ${equipmentDetails(item.nome)?.meaning ?? ""}`)].filter(Boolean).join("\n\n"), rule: true } : null;
   const ownedWeaponIndex = fieldInfo?.id.startsWith("armaPosseduta:") ? Number(fieldInfo.id.slice("armaPosseduta:".length)) : -1;
   const ownedWeapon = ownedWeaponIndex >= 0 ? sheet.armi[ownedWeaponIndex] : null;
   const ownedWeaponBase = ownedWeapon ? weaponDetails(ownedWeapon.nome) : null;
@@ -508,7 +555,7 @@ export default function CharacterClient({
     meaning: [privilegeBase?.meaning, privilege?.scelte && `Scelte personali: ${privilege.scelte}`].filter(Boolean).join("\n\n"),
     rule: privilegeBase?.rule,
   } : null;
-  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weaponCompetencyInfo ?? toolCompetencyInfo ?? (weapon ? { meaning: weapon, rule: true } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -655,7 +702,9 @@ export default function CharacterClient({
     id: armor.id,
     label: `${armor.name}${sheet.competenzeArmatura[armor.category] ? "" : " · senza competenza"}`,
   }));
-  const wornArmorName = armorChoices.find((armor) => armor.id === wornArmor?.catalogId)?.label ?? "Nessuna";
+  const wornArmorName = armorChoices.find((armor) => armor.id === (wornArmor ? armorForEquipment(wornArmor)?.id : null))?.label ?? "Nessuna";
+  const otherEquipment = sheet.equipaggiamento.filter((item) => !isArmorEquipment(item));
+  const otherEquipmentIndices = sheet.equipaggiamento.flatMap((item, index) => isArmorEquipment(item) ? [] : [index]);
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
       title: "Stato & Identità",
@@ -799,7 +848,7 @@ export default function CharacterClient({
           </div>
           <div>
             <h3 className={sectionTitle}>Padronanze scelte</h3>
-            <StringListEditor items={sheet.padronanzeArmi ?? []} onChange={(items) => patch({ padronanzeArmi: items })} addLabel="Aggiungi padronanza" options={nomiArmi} helpId="Competenze armi" />
+            <WeaponMasteryEditor sheet={sheet} onChange={(items) => patch({ padronanzeArmi: items })} />
           </div>
           <div>
             <h3 className={sectionTitle}>Armi</h3>
@@ -808,6 +857,7 @@ export default function CharacterClient({
               onChange={(items) => patch({ armi: items })}
               makeNew={(): Arma => ({ nome: "", quantita: "", bonus: "", note: "" })}
               addLabel="Aggiungi arma"
+              allowAdd={false}
               collapsible
               titleOf={(a) => a.nome || "Nuova arma"}
               onTitleClick={(a, index, button) => { if (!a.nome) return false; openFieldInfo(`armaPosseduta:${index}`, a.nome, button); return true; }}
@@ -826,7 +876,7 @@ export default function CharacterClient({
               )}
               renderItem={(a, p, index) => (
                 <div className="flex flex-col gap-2">
-                  <TextField label="Nome" showInfo={false} value={a.nome} valueInfoId={a.nome ? `armaPosseduta:${index}` : undefined} options={nomiArmi} onChange={(v) => p({ nome: v, modo: "base", caratteristica: undefined })} />
+                  <TextField label="Nome" showInfo={false} value={a.nome} valueInfoId={a.nome ? `armaPosseduta:${index}` : undefined} options={[...new Set([a.nome, ...proficientWeaponNames(sheet)])]} onChange={(v) => p({ nome: v, modo: "base", caratteristica: undefined })} />
                   {weaponByName(a.nome)?.kind === "mischia" && (weaponByName(a.nome)?.thrown || weaponByName(a.nome)?.versatileDie) && (
                     <TextField label="Uso" showInfo={false} value={a.modo === "lancio" ? "Lancio" : a.modo === "dueMani" ? "Due mani" : "Mischia"} options={["Mischia", ...(weaponByName(a.nome)?.thrown ? ["Lancio"] : []), ...(weaponByName(a.nome)?.versatileDie ? ["Due mani"] : [])]} onChange={(v) => p({ modo: v === "Lancio" ? "lancio" : v === "Due mani" ? "dueMani" : "base" })} />
                   )}
@@ -840,6 +890,7 @@ export default function CharacterClient({
                 </div>
               )}
             />
+            <AddWeaponSelect sheet={sheet} onAdd={(weaponName) => patch({ armi: [...sheet.armi, { nome: weaponName, quantita: "1", bonus: "", note: "" }] })} />
           </div>
         </div>
       ),
@@ -850,8 +901,8 @@ export default function CharacterClient({
         <div className="flex flex-col gap-4">
           <div className={card}>
             <div className={grid2}>
-              <TextField label="Armatura indossata" showInfo={false} showEditIcon value={wornArmorName} options={["Nessuna", ...armorChoices.map((armor) => armor.label)]} allowEmpty={false} onChange={(name) => patch({ equipaggiamento: selectWornArmor(sheet, armorChoices.find((armor) => armor.label === name)?.id ?? null) })} />
-              <Toggle label="Scudo impugnato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} />
+              <TextField label="Armatura indossata" showInfo helpId="armaturaSelezionata" showEditIcon value={wornArmorName} options={["Nessuna", ...armorChoices.map((armor) => armor.label)]} allowEmpty={false} onChange={(name) => patch({ equipaggiamento: selectWornArmor(sheet, armorChoices.find((armor) => armor.label === name)?.id ?? null) })} />
+              <Toggle label="Scudo impugnato" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} />
             </div>
           </div>
           <div>
@@ -880,27 +931,24 @@ export default function CharacterClient({
             <h3 className={sectionTitle}>Oggetti</h3>
             <p className="mb-2 text-sm text-ink-soft">Peso catalogato: {inventoryWeight(sheet).knownKg} kg{carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}{inventoryWeight(sheet).unknownItems.length ? `; peso non noto per ${inventoryWeight(sheet).unknownItems.length} voci` : ""}. Le monete e il contenuto dei contenitori non sono inclusi.</p>
             <ArrayEditor
-              items={sheet.equipaggiamento}
-              onChange={(items) => patch({ equipaggiamento: items })}
+              items={otherEquipment}
+              onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })}
               makeNew={(): Equip => ({ nome: "", dettaglio: "" })}
               addLabel="Aggiungi oggetto"
               collapsible
               titleOf={(e) => e.nome || "Nuovo oggetto"}
-              onTitleClick={(e, index, button) => { if (!equipmentDetails(e.nome, e.dettaglio)) return false; openFieldInfo(`oggetto:${index}`, e.nome, button); return true; }}
+              onTitleClick={(e, index, button) => { if (!equipmentDetails(e.nome, e.dettaglio)) return false; openFieldInfo(`oggetto:${otherEquipmentIndices[index]}`, e.nome, button); return true; }}
               subtitleOf={(e) => [e.catalogId ? "SRD" : "Personalizzato/non collegato", e.quantita && `×${e.quantita}`, e.indossato && "Indossata", e.impugnato && "Impugnato", e.dettaglio].filter(Boolean).join(" · ")}
               renderItem={(e, p, index) => (
                 <div className="flex flex-col gap-2">
-                  <TextField label="Oggetto" showInfo={false} value={e.nome} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${index}` : undefined} onChange={(v) => p({ nome: v })} />
-                  <TextField label="Armatura o scudo SRD" showInfo={false} value={armorById(e.catalogId ?? "")?.name ?? ""} options={armorCatalog.map((armor) => armor.name)} onChange={(v) => { const armor = armorCatalog.find((item) => item.name === v); p({ catalogId: armor?.id, nome: armor?.name ?? e.nome, indossato: false, impugnato: false, bonusMagico: undefined }); }} />
+                  <TextField label="Oggetto" showInfo={false} value={e.nome} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${otherEquipmentIndices[index]}` : undefined} onChange={(v) => p({ nome: v })} />
                   <TextField label="Equipaggiamento SRD" showInfo={false} value={gearById(e.catalogId ?? "")?.name ?? ""} options={gearCatalog.map((item) => item.name)} onChange={(v) => { const gear = gearCatalog.find((item) => item.name === v); p({ catalogId: gear?.id, nome: gear?.name ?? e.nome, indossato: false, impugnato: false, bonusMagico: undefined }); }} />
                   <div className={grid2}>
                     <TextField label="Quantità" showInfo={false} value={e.quantita ?? ""} numeric="unsigned" onChange={(v) => p({ quantita: v })} />
                     <TextField label="Unità" showInfo={false} value={e.unita ?? ""} onChange={(v) => p({ unita: v })} />
                   </div>
                   <TextField label="Contenitore" showInfo={false} value={e.contenitore ?? ""} onChange={(v) => p({ contenitore: v })} />
-                  {armorById(e.catalogId ?? "") && <TextField label="Variante magica SRD" showInfo={false} value={e.bonusMagico ? `+${e.bonusMagico}` : "Nessuna"} options={["Nessuna", "+1", "+2", "+3"]} onChange={(v) => p({ bonusMagico: v === "Nessuna" ? undefined : Number(v.slice(1)) as 1 | 2 | 3 })} />}
-                  {armorById(e.catalogId ?? "")?.category === "scudi" ? <Toggle label="Scudo impugnato" checked={Boolean(e.impugnato)} onChange={(v) => patch(selectHeldShield(sheet, v, index))} /> : armorById(e.catalogId ?? "") && <Toggle label="Armatura indossata" checked={Boolean(e.indossato)} onChange={(v) => patch({ equipaggiamento: selectWornArmor(sheet, v ? e.catalogId ?? null : null, index) })} />}
-                  <TextField label="Dettaglio personale" showInfo={false} value={e.dettaglio} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${index}` : undefined} valueInfoTitle={e.nome} onChange={(v) => p({ dettaglio: v })} multiline />
+                  <TextField label="Dettaglio personale" showInfo={false} value={e.dettaglio} valueInfoId={equipmentDetails(e.nome, e.dettaglio) ? `oggetto:${otherEquipmentIndices[index]}` : undefined} valueInfoTitle={e.nome} onChange={(v) => p({ dettaglio: v })} multiline />
                 </div>
               )}
             />
