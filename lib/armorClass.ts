@@ -31,7 +31,6 @@ export function calculatedArmorClass(sheet: Sheet): ArmorClassResult | null {
 }
 
 export function displayedArmorClass(sheet: Sheet): string {
-  if (sheet.classeArmaturaOverride != null) return String(sheet.classeArmaturaOverride);
   const calculated = calculatedArmorClass(sheet);
   return calculated ? String(calculated.value) : sheet.classeArmatura == null ? "" : String(sheet.classeArmatura);
 }

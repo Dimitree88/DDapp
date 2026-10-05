@@ -7,7 +7,7 @@ export const fieldHelp: Record<string, FieldHelp> = {
   Sottoclasse: { meaning: "Specializzazione della Classe, scelta quando le regole la concedono.", rule: true },
   "Punti Ferita": { meaning: "Punti ferita attuali.", rule: true },
   "Punti Ferita Massimi": { meaning: "Limite ordinario dei punti ferita del personaggio.", rule: true },
-  "Classe Armatura": { meaning: "Valore che un tiro per colpire deve raggiungere. La scheda lo calcola da Destrezza, armatura indossata e scudo impugnato. Puoi inserire un valore manuale per regole o effetti non rappresentati; svuotalo per tornare al calcolo.", rule: true },
+  "Classe Armatura": { meaning: "Valore che un tiro per colpire deve raggiungere. La scheda lo calcola da Destrezza, armatura indossata e scudo impugnato.", rule: true },
   Scudo: { meaning: "Indica se il personaggio impugna uno scudo. Con la competenza negli scudi, aggiunge 2 alla Classe Armatura calcolata; una variante magica impugnata aggiunge il suo bonus.", rule: true },
   "Dadi Vita": { meaning: "Dadi Vita del personaggio, da usare per riposo e avanzamento.", rule: true },
   "Punti Esperienza": { meaning: "Esperienza accumulata dal personaggio.", rule: true },

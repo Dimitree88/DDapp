@@ -56,7 +56,7 @@ test("declared SRD magic armor and shield add only while equipped", () => {
   assert.equal(calculatedArmorClass(sheet).value, 14);
 });
 
-test("automatic AC updates with Destrezza and supports an explicit manual override", () => {
+test("automatic AC updates with Destrezza and ignores a saved manual override", () => {
   const sheet = emptySheet();
   sheet.classeArmatura = 19;
   sheet.caratteristiche.find((item) => item.abbr === "DES").valore = "14";
@@ -65,9 +65,9 @@ test("automatic AC updates with Destrezza and supports an explicit manual overri
   sheet.competenzeArmatura.scudi = true;
   assert.equal(displayedArmorClass(sheet), "14");
   sheet.classeArmaturaOverride = 18;
-  assert.equal(displayedArmorClass(sheet), "18");
-  sheet.classeArmaturaOverride = null;
   assert.equal(displayedArmorClass(sheet), "14");
+  const normalized = normalizeSheet(sheet);
+  assert.equal("classeArmaturaOverride" in normalized, false);
   sheet.caratteristiche.find((item) => item.abbr === "DES").valore = "16";
   assert.equal(displayedArmorClass(sheet), "15");
 });

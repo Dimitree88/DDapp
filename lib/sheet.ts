@@ -74,7 +74,6 @@ export type Sheet = {
   incrementiPf?: { value: number; method: "tiro" | "fisso" }[];
   puntiFeritaTemporanei?: string;
   classeArmatura: number | null;
-  classeArmaturaOverride?: number | null;
   classeArmaturaModo?: "manuale" | "equipaggiamento";
   scudo: boolean;
   dadiVita: string;
@@ -141,7 +140,7 @@ export type Sheet = {
 
 export const retiredCharacterFields = [
   "puntiFeritaMaxModo", "incrementiPf", "puntiFeritaTemporanei",
-  "classeArmaturaModo", "dadiVitaSpesi", "tiriMorte", "condizioni",
+  "classeArmaturaModo", "classeArmaturaOverride", "dadiVitaSpesi", "tiriMorte", "condizioni",
   "velocitaModo", "modificatoriVelocita",
 ] as const;
 
@@ -159,7 +158,7 @@ export function removeRetiredFields(sheet: Sheet): Sheet {
     const value = calculatedSpeed(sheet)?.value;
     if (value !== undefined) cleaned.velocita = String(value);
   }
-  for (const field of retiredCharacterFields) delete cleaned[field];
+  for (const field of retiredCharacterFields) delete (cleaned as unknown as Record<string, unknown>)[field];
   return cleaned;
 }
 

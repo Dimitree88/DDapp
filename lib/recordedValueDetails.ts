@@ -15,7 +15,7 @@ export function recordedValueDetails(sheet: Sheet, kind: string): FieldHelp | nu
       const value = displayedArmorClass(sheet);
       const calculated = calculatedArmorClass(sheet);
       return value ? {
-        meaning: `Classe Armatura: ${value}. ${sheet.classeArmaturaOverride != null ? `Valore manuale; il calcolo ordinario sarebbe ${calculated?.value ?? "non disponibile"}.` : calculated ? `Calcolo automatico: ${calculated.formula}.` : "Valore registrato; inserisci Destrezza per il calcolo automatico."}${calculated?.warnings.length ? ` ${calculated.warnings.join(" ")}` : ""}${sheet.classeArmaturaOverride != null ? " Per tornare al calcolo automatico, svuota il valore manuale." : ""}`, rule: true,
+        meaning: `Classe Armatura: ${value}. ${calculated ? `Calcolo automatico: ${calculated.formula}.` : "Valore storico; inserisci Destrezza per il calcolo automatico."}${calculated?.warnings.length ? ` ${calculated.warnings.join(" ")}` : ""}`, rule: true,
       } : null;
     }
     case "scudo": return {

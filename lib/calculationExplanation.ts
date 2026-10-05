@@ -1,7 +1,10 @@
 import type { Sheet } from "./sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
+import { calculatedArmorClass, displayedArmorClass } from "./armorClass";
+import { armorById } from "./armorCatalog";
 
 export type CalculationTarget =
+  | { kind: "armor" }
   | { kind: "proficiency" }
   | { kind: "initiative" }
   | { kind: "passive" }
@@ -46,6 +49,22 @@ const skillMeaning: Record<string, string> = {
 
 export function calculationExplanation(sheet: Sheet, target: CalculationTarget): CalculationExplanation | null {
   const proficiency = proficiencyBonus(sheet.livello);
+  if (target.kind === "armor") {
+    const calculation = calculatedArmorClass(sheet);
+    const worn = sheet.equipaggiamento.find((item) => item.indossato);
+    const shield = sheet.equipaggiamento.find((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi");
+    return {
+      title: "Classe Armatura", result: displayedArmorClass(sheet),
+      rule: "La CA ordinaria dipende da Destrezza, armatura indossata e scudo impugnato. Alcuni privilegi o effetti possono usare formule diverse non ancora rappresentate nella scheda.",
+      details: [
+        { label: "Destrezza", value: shown(sheet.caratteristiche.find((item) => item.abbr === "DES")?.valore ?? "") },
+        { label: "Armatura indossata", value: worn?.nome ?? "Nessuna" },
+        { label: "Scudo impugnato", value: shield?.nome ?? (sheet.scudo ? "Sì" : "No") },
+        { label: "Competenza negli scudi", value: sheet.competenzeArmatura.scudi ? "Sì" : "No" },
+      ],
+      formula: calculation ? [calculation.formula, ...calculation.warnings].join("; ") : "Inserisci Destrezza per ottenere il calcolo automatico.",
+    };
+  }
   if (target.kind === "proficiency") {
     const level = Number(sheet.livello);
     const first = Math.floor((level - 1) / 4) * 4 + 1;

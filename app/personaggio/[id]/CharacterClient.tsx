@@ -67,6 +67,7 @@ const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
 
 function calculationEditGuide(target: CalculationTarget): string {
+  if (target.kind === "armor") return "Si aggiorna cambiando Destrezza, armatura indossata, scudo impugnato o competenza negli scudi; questo valore non si modifica direttamente.";
   if (target.kind === "initiative") return "Si aggiorna cambiando Destrezza, Livello o il talento Allerta; questo valore non si modifica direttamente.";
   if (target.kind === "proficiency") return "Si aggiorna cambiando il Livello; il bonus non si modifica direttamente.";
   if (target.kind === "passive") return "Si aggiorna con Saggezza e con Competenza o Maestria in Percezione; il valore non si modifica direttamente.";
@@ -455,7 +456,6 @@ export default function CharacterClient({
     rule: privilegeBase?.rule,
   } : null;
   const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weapon ? { meaning: weapon, rule: true } : ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
-  const sourcePage = spell?.pagina ?? language?.page ?? selectedValue?.page ?? objectInfo?.page ?? (weapon || ownedWeaponBase ? 103 : undefined);
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -614,8 +614,8 @@ export default function CharacterClient({
           </div>
           <div className={grid2}>
             <div>
-              <TextField label="Classe Armatura" showInfo={false} showEditIcon numeric="unsigned" value={armorValue} valueInfoId="stato:ca" valueInfoTitle={`Classe Armatura: ${armorValue || "—"}`} onChange={(v) => patch({ classeArmaturaOverride: v ? Number(v) : null })} />
-              <p className="mt-0.5 text-[10px] text-ink-soft">{sheet.classeArmaturaOverride != null ? `Valore manuale · calcolo ${armorCalculation?.value ?? "non disponibile"}` : armorCalculation ? `Calcolata: ${armorCalculation.formula}` : "Inserisci Destrezza per il calcolo automatico"}</p>
+              <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
+              <p className="mt-0.5 text-[10px] text-ink-soft">{armorCalculation ? `Calcolata: ${armorCalculation.formula}` : "Inserisci Destrezza per il calcolo automatico"}</p>
             </div>
             <TextField label="Scudo" showInfo={false} showEditIcon value={shieldInUse ? "Sì" : "No"} valueInfoId="stato:scudo" valueInfoTitle={`Scudo: ${shieldInUse ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch(v === "Sì" ? { scudo: true } : { scudo: false, equipaggiamento: sheet.equipaggiamento.map((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi" ? { ...item, impugnato: false } : item) })} />
           </div>
@@ -1178,10 +1178,6 @@ export default function CharacterClient({
                   <div className="mt-2 text-lg font-bold text-accent">Risultato: {calculation.result || "—"}</div>
                 </div>
                 {calculationTarget && <div className="mt-4 text-sm"><h3 className="font-semibold text-accent">Come si modifica</h3><p className="mt-1">{calculationEditGuide(calculationTarget)}</p></div>}
-                <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf"
-                  target="_blank" rel="noreferrer" className="mt-4 inline-block text-xs font-medium text-accent underline">
-                  Fonte: SRD 5.2.1 (regole 2024)
-                </a>
               </div>
             </div>
           )}
@@ -1214,10 +1210,6 @@ export default function CharacterClient({
                   </dl>
                   {spellName && spellEffects[spellName] && <p className="mt-4 text-sm leading-relaxed">{spellEffects[spellName]}</p>}
                 </>}
-                {(fieldHelp?.rule || spell) && <a href={`https://media.dndbeyond.com/compendium-images/srd/5.2/IT_SRD_CC_v5.2.1.pdf${sourcePage ? `#page=${sourcePage}` : ""}`}
-                  target="_blank" rel="noreferrer" className="mt-4 inline-block text-xs font-medium text-accent underline">
-                  Fonte: SRD 5.2.1 (regole 2024)
-                </a>}
               </div>
             </div>
           )}
