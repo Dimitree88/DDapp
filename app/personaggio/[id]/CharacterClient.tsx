@@ -39,7 +39,7 @@ import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
-import { availableFeats } from "@/lib/featCatalog";
+import { availableFeatChoices, availablePrivilegeChoices, featGrants, grantedPrivileges, privilegeOptions } from "@/lib/characterGrants";
 import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotalGold } from "@/lib/coins";
@@ -306,9 +306,10 @@ function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indice
       onChange([...items, { nome: gear?.name ?? "", catalogId: gear?.id, dettaglio: "", quantita: "1" }]);
     }} className="max-w-full self-start rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
       <option value="" disabled>+ Aggiungi oggetto</option>
-      {[...gearCatalog.map((gear) => ({ id: gear.id, name: gear.name })), { id: "personalizzato", name: "Oggetto personalizzato" }]
+      {gearCatalog.map((gear) => ({ id: gear.id, name: gear.name }))
         .sort((a, b) => compareOptionLabels(a.name, b.name))
         .map((gear) => <option key={gear.id} value={gear.id}>{gear.name}</option>)}
+      <option value="personalizzato">OGGETTO PERSONALIZZATO</option>
     </select>}
   </div>;
 }
@@ -355,6 +356,7 @@ function ArrayEditor<T>({
   headerAccessory,
   maxItems,
   lockItem,
+  canAdd = true,
 }: {
   items: T[];
   onChange: (items: T[]) => void;
@@ -368,6 +370,7 @@ function ArrayEditor<T>({
   headerAccessory?: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
   maxItems?: number;
   lockItem?: (item: T) => boolean;
+  canAdd?: boolean;
 }) {
   const { unlocked } = useContext(EditContext);
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
@@ -393,7 +396,7 @@ function ArrayEditor<T>({
       return n;
     });
 
-  const addButton = unlocked && (maxItems === undefined || items.length < maxItems) && (
+  const addButton = unlocked && canAdd && (maxItems === undefined || items.length < maxItems) && (
     <button
       type="button"
       onClick={add}
@@ -948,16 +951,28 @@ export default function CharacterClient({
       title: "Privilegi",
       body: (
         <div>
-        <h3 className={sectionTitle}>Privilegi</h3>
+        <h3 className={sectionTitle}>Privilegi acquisiti</h3>
+        <div className="mb-3 flex flex-col gap-2">
+          {grantedPrivileges(sheet).map((grant, index) => {
+            const saved = sheet.privilegi.find((item) => item.titolo === grant.name);
+            return <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
+              <p className="text-sm font-semibold text-ink">{grant.name}</p>
+              <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}</p>
+              {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
+            </div>;
+          })}
+        </div>
+        <h3 className={sectionTitle}>Scelte dei privilegi</h3>
         <ArrayEditor
           items={sheet.privilegi}
           onChange={(items) => patch({ privilegi: items })}
-          makeNew={() => ({ titolo: "", scelte: "" })}
+          makeNew={() => ({ titolo: availablePrivilegeChoices(sheet)[0] ?? "", scelte: "" })}
           addLabel="Aggiungi privilegio"
+          canAdd={availablePrivilegeChoices(sheet).length > 0 && !sheet.privilegi.some((item) => !item.titolo)}
           renderItem={(pr, p, index) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Titolo" showInfo={false} value={pr.titolo} valueInfoId={pr.titolo && (valueDetails("privilegio", pr.titolo) || pr.scelte) ? `privilegio:${index}` : undefined} onChange={(v) => p({ titolo: v })} />
-              <TextField label="Scelte personali" showInfo={false} value={pr.scelte} valueInfoId={pr.titolo ? `privilegio:${index}` : undefined} valueInfoTitle={pr.titolo} onChange={(v) => p({ scelte: v })} multiline />
+              <TextField label="Titolo" showInfo={false} value={pr.titolo} valueInfoId={pr.titolo && (valueDetails("privilegio", pr.titolo) || pr.scelte) ? `privilegio:${index}` : undefined} options={availablePrivilegeChoices(sheet).includes(pr.titolo) ? availablePrivilegeChoices(sheet) : [pr.titolo, ...availablePrivilegeChoices(sheet)]} onChange={(v) => p({ titolo: v, scelte: "" })} />
+              <TextField label="Scelta" showInfo={false} value={pr.scelte} valueInfoId={pr.titolo ? `privilegio:${index}` : undefined} valueInfoTitle={pr.titolo} options={privilegeOptions[pr.titolo]} onChange={(v) => p({ scelte: v })} multiline={!privilegeOptions[pr.titolo]} />
             </div>
           )}
         />
@@ -1005,16 +1020,25 @@ export default function CharacterClient({
       title: "Talenti",
       body: (
         <div>
+        <h3 className={sectionTitle}>Talenti concessi</h3>
+        <div className="mb-3 flex flex-col gap-2">
+          {featGrants(sheet).map((grant, index) => <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
+            <p className="text-sm font-semibold text-ink">{grant.name}</p>
+            <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}</p>
+            {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
+          </div>)}
+        </div>
         <h3 className={sectionTitle}>Talenti</h3>
         <ArrayEditor
           items={sheet.talenti}
           onChange={(items) => patch({ talenti: items })}
           makeNew={() => ({ nome: "", scelte: "" })}
           addLabel="Aggiungi talento"
+          canAdd={availableFeatChoices(sheet).length > 0 && !sheet.talenti.some((item) => !item.nome)}
           lockItem={(t) => Boolean(t.nome)}
           renderItem={(t, p, _index, locked) => (
             <div className="flex flex-col gap-2">
-              <TextField label="Nome" showInfo={false} value={t.nome} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} options={availableFeats(Number(sheet.livello))} locked={locked} onChange={(v) => p({ nome: v })} />
+              <TextField label="Nome" showInfo={false} value={t.nome} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} options={availableFeatChoices(sheet)} locked={locked} onChange={(v) => p({ nome: v })} />
               <TextField label="Scelte personali" showInfo={false} value={t.scelte} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} valueInfoTitle={t.nome} onChange={(v) => p({ scelte: v })} multiline />
             </div>
           )}

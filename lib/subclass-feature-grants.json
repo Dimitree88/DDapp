@@ -1,0 +1,258 @@
+{
+  "Cammino del berserker": [
+    {
+      "level": 3,
+      "name": "Frenesia"
+    },
+    {
+      "level": 6,
+      "name": "Ira incontenibile"
+    },
+    {
+      "level": 10,
+      "name": "Ritorsione"
+    },
+    {
+      "level": 14,
+      "name": "Presenza intimidatoria"
+    }
+  ],
+  "Collegio della Sapienza": [
+    {
+      "level": 3,
+      "name": "Competenze bonus"
+    },
+    {
+      "level": 3,
+      "name": "Parole taglienti"
+    },
+    {
+      "level": 6,
+      "name": "Scoperte magiche"
+    },
+    {
+      "level": 14,
+      "name": "Abilità impareggiabile"
+    }
+  ],
+  "Dominio della Vita": [
+    {
+      "level": 3,
+      "name": "Discepolo della vita"
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi del Dominio della Vita"
+    },
+    {
+      "level": 3,
+      "name": "Preservare vita"
+    },
+    {
+      "level": 6,
+      "name": "Guaritore benedetto"
+    },
+    {
+      "level": 17,
+      "name": "Guarigione suprema"
+    }
+  ],
+  "Circolo della Terra": [
+    {
+      "level": 3,
+      "name": "Incantesimi del Circolo della Terra"
+    },
+    {
+      "level": 3,
+      "name": "Ausilio dalla terra"
+    },
+    {
+      "level": 6,
+      "name": "Recupero naturale"
+    },
+    {
+      "level": 10,
+      "name": "Interdizione della Natura"
+    },
+    {
+      "level": 14,
+      "name": "Rifugio della Natura"
+    }
+  ],
+  "Campione": [
+    {
+      "level": 3,
+      "name": "Critico migliorato"
+    },
+    {
+      "level": 3,
+      "name": "Atleta straordinario"
+    },
+    {
+      "level": 7,
+      "name": "Stile di combattimento"
+    },
+    {
+      "level": 10,
+      "name": "Guerriero eroico"
+    },
+    {
+      "level": 15,
+      "name": "Critico superiore"
+    },
+    {
+      "level": 18,
+      "name": "Sopravvissuto"
+    }
+  ],
+  "Furfante": [
+    {
+      "level": 3,
+      "name": "Mani veloci"
+    },
+    {
+      "level": 3,
+      "name": "Lavoro al secondo piano"
+    },
+    {
+      "level": 9,
+      "name": "Furtività suprema"
+    },
+    {
+      "level": 13,
+      "name": "Usare oggetto magico"
+    },
+    {
+      "level": 17,
+      "name": "Riflessi da furfante"
+    }
+  ],
+  "Invocatore": [
+    {
+      "level": 3,
+      "name": "Invocatore sapiente"
+    },
+    {
+      "level": 3,
+      "name": "Trucchetto potente"
+    },
+    {
+      "level": 6,
+      "name": "Plasmare incantesimi"
+    },
+    {
+      "level": 10,
+      "name": "Invocazione potente"
+    },
+    {
+      "level": 14,
+      "name": "Saturazione magica"
+    }
+  ],
+  "Guerriero della Mano Aperta": [
+    {
+      "level": 3,
+      "name": "Tecnica della mano aperta"
+    },
+    {
+      "level": 6,
+      "name": "Integrità del corpo"
+    },
+    {
+      "level": 11,
+      "name": "Passo lesto"
+    },
+    {
+      "level": 17,
+      "name": "Palmo tremante"
+    }
+  ],
+  "Giuramento di devozione": [
+    {
+      "level": 3,
+      "name": "Incantesimi del Giuramento"
+    },
+    {
+      "level": 3,
+      "name": "Arma consacrata"
+    },
+    {
+      "level": 7,
+      "name": "Aura di devozione"
+    },
+    {
+      "level": 15,
+      "name": "Punizione protettiva"
+    },
+    {
+      "level": 20,
+      "name": "Nube sacra"
+    }
+  ],
+  "Cacciatore": [
+    {
+      "level": 3,
+      "name": "Sapienza del cacciatore"
+    },
+    {
+      "level": 3,
+      "name": "Preda del cacciatore"
+    },
+    {
+      "level": 7,
+      "name": "Tattiche difensive"
+    },
+    {
+      "level": 11,
+      "name": "Preda del cacciatore superiore"
+    },
+    {
+      "level": 15,
+      "name": "Difesa del cacciatore superiore"
+    }
+  ],
+  "Stregoneria draconica": [
+    {
+      "level": 3,
+      "name": "Resilienza draconica"
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi draconici"
+    },
+    {
+      "level": 6,
+      "name": "Affinità elementale"
+    },
+    {
+      "level": 14,
+      "name": "Ali di drago"
+    },
+    {
+      "level": 18,
+      "name": "Seguace draconico"
+    }
+  ],
+  "Patrono immondo": [
+    {
+      "level": 3,
+      "name": "Benedizione dell'oscuro"
+    },
+    {
+      "level": 3,
+      "name": "Incantesimi immondi"
+    },
+    {
+      "level": 6,
+      "name": "Fortuna dell'Oscuro"
+    },
+    {
+      "level": 10,
+      "name": "Resilienza immonda"
+    },
+    {
+      "level": 14,
+      "name": "Scagliare all'Inferno"
+    }
+  ]
+}
