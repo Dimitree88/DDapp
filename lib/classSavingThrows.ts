@@ -22,6 +22,7 @@ const classWeapons: Record<string, string[]> = {
   Paladino: ["Armi semplici", "Armi da guerra"], Ranger: ["Armi semplici", "Armi da guerra"],
   Stregone: ["Armi semplici"], Warlock: ["Armi semplici"],
 };
+export const classWeaponProficiencies = (className: string): readonly string[] => classWeapons[className] ?? [];
 const classArmor: Record<string, (keyof Sheet["competenzeArmatura"])[]> = {
   Barbaro: ["leggere", "medie", "scudi"], Bardo: ["leggere"],
   Chierico: ["leggere", "medie", "scudi"], Druido: ["leggere", "scudi"],

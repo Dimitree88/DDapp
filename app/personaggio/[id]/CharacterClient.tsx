@@ -42,7 +42,8 @@ import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spell
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotalGold } from "@/lib/coins";
 import { grantCompetencies, setCheckboxCompetency } from "@/lib/competencySources";
-import { grantClassProficiencies } from "@/lib/classSavingThrows";
+import { classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
+import { addWeaponCompetency, removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
 import { subclassLevel } from "@/lib/classProgression";
 import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
@@ -177,6 +178,28 @@ function StringListEditor({
       )}
     </ul>
   );
+}
+
+function WeaponCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (update: Partial<Sheet>) => void }) {
+  const { unlocked } = useContext(EditContext);
+  const items = toList(sheet.competenzeArmi);
+  const classGranted = classWeaponProficiencies(sheet.classe);
+  const choices = [...new Set([...regole.competenzeArmi, ...nomiArmi])].filter((name) => !items.includes(name));
+  return <ul className="flex flex-col gap-1.5">
+    {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
+    {items.map((name) => <li key={name} className="flex items-center gap-2">
+      <span className="text-ink-faint" aria-hidden>•</span>
+      <InfoLabel id={`competenzaArma:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
+      {unlocked && !classGranted.includes(name) && <button type="button" onClick={() => onChange(removeWeaponCompetency(sheet, name))} aria-label={`Rimuovi ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+    </li>)}
+    {unlocked && choices.length > 0 && <li>
+      <select aria-label="Aggiungi competenza armi" value="" onChange={(event) => onChange(addWeaponCompetency(sheet, event.target.value))}
+        className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
+        <option value="" disabled>+ Aggiungi competenza</option>
+        {choices.map((name) => <option key={name} value={name}>{name}</option>)}
+      </select>
+    </li>}
+  </ul>;
 }
 
 // Pallino di competenza per la pagina Abilità: doppio tocco per cambiarlo
@@ -427,6 +450,8 @@ export default function CharacterClient({
   const spell = spellName ? spellDetails(spellName) : null;
   const language = fieldInfo?.id.startsWith("lingua:") ? languageDetails(fieldInfo.id.slice("lingua:".length)) : null;
   const weapon = fieldInfo?.id.startsWith("arma:") ? weaponDetails(fieldInfo.id.slice("arma:".length)) : null;
+  const weaponCompetencyName = fieldInfo?.id.startsWith("competenzaArma:") ? fieldInfo.id.slice("competenzaArma:".length) : null;
+  const weaponCompetencyInfo = weaponCompetencyName ? { meaning: weaponCompetencyDetails(sheet, weaponCompetencyName), rule: true } : null;
   const ownedWeaponIndex = fieldInfo?.id.startsWith("armaPosseduta:") ? Number(fieldInfo.id.slice("armaPosseduta:".length)) : -1;
   const ownedWeapon = ownedWeaponIndex >= 0 ? sheet.armi[ownedWeaponIndex] : null;
   const ownedWeaponBase = ownedWeapon ? weaponDetails(ownedWeapon.nome) : null;
@@ -456,7 +481,7 @@ export default function CharacterClient({
     meaning: [privilegeBase?.meaning, privilege?.scelte && `Scelte personali: ${privilege.scelte}`].filter(Boolean).join("\n\n"),
     rule: privilegeBase?.rule,
   } : null;
-  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weapon ? { meaning: weapon, rule: true } : ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true } : weaponCompetencyInfo ?? (weapon ? { meaning: weapon, rule: true } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -743,14 +768,7 @@ export default function CharacterClient({
         <div className="flex flex-col gap-4">
           <div>
             <h3 className={sectionTitle}>Competenze armi</h3>
-            <StringListEditor
-              items={toList(sheet.competenzeArmi)}
-              onChange={(v) => patch({ competenzeArmi: v })}
-              addLabel="Aggiungi competenza"
-              options={[...regole.competenzeArmi, ...nomiArmi]}
-              lockExisting
-              helpId="Competenze armi"
-            />
+            <WeaponCompetencyEditor sheet={sheet} onChange={patch} />
           </div>
           <div>
             <h3 className={sectionTitle}>Padronanze scelte</h3>
