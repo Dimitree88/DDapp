@@ -804,13 +804,10 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div className={card}>
-            <h3 className={sectionTitle}>Armatura e scudo in uso</h3>
-            <p className="mb-2 text-xs text-ink-soft">Scegli gli oggetti che il personaggio possiede e usa. La classe determina le competenze, non l&apos;armatura indossata.</p>
             <div className={grid2}>
               <TextField label="Armatura indossata" showInfo={false} showEditIcon value={wornArmorName} options={["Nessuna", ...armorChoices.map((armor) => armor.label)]} allowEmpty={false} onChange={(name) => patch({ equipaggiamento: selectWornArmor(sheet, armorChoices.find((armor) => armor.label === name)?.id ?? null) })} />
               <Toggle label="Scudo impugnato" checked={shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} />
             </div>
-            <p className="mt-2 text-xs text-ink-soft">CA attuale: {armorValue || "—"}. Le armature già possedute vengono riutilizzate; una nuova scelta viene aggiunta agli Oggetti.</p>
           </div>
           <div>
             <h3 className={sectionTitle}>Competenze armatura</h3>
