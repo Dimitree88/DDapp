@@ -73,6 +73,7 @@ export type Sheet = {
   sottoclasse: string;
   puntiFerita: string;
   puntiFeritaMax: string;
+  storiaPuntiFerita?: { iniziali: number; incrementi: { value: number; method: "tiro" | "fisso" }[] };
   puntiFeritaMaxModo?: "manuale" | "classe";
   incrementiPf?: { value: number; method: "tiro" | "fisso" }[];
   puntiFeritaTemporanei?: string;
@@ -129,6 +130,7 @@ export type Sheet = {
 
   // Pagina: Incantesimi
   incantesimi: Incantesimo[];
+  storiaIncantesimiPreparati?: { livello: number; nomi: string[] }[];
   slotSpesi?: Record<string, number>;
 
   // Pagina: Monete & Note

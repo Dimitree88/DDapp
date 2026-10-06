@@ -17,3 +17,31 @@ test("ranger languages gained at level 2 appear in that chapter", () => {
   assert.deepEqual(levelTwo.events.find((event) => event.title === "Privilegio: Esploratore Esperto")?.details,
     [{ label: "Lingua: Primordiale" }, { label: "Lingua: Sottocomune" }]);
 });
+
+test("recorded fixed hit point gain appears in creation and level 2", () => {
+  const sheet = emptySheet();
+  sheet.classe = "Ranger";
+  sheet.livello = "2";
+  sheet.puntiFeritaMax = "16";
+  sheet.dadiVita = "2d10";
+  sheet.storiaPuntiFerita = { iniziali: 10, incrementi: [{ value: 6, method: "fisso" }] };
+  const [creation, levelTwo] = characterStory(sheet);
+  assert.deepEqual(creation.events.find((event) => event.title === "Determinati i punti ferita iniziali")?.details,
+    [{ label: "Punti ferita massimi: 10" }]);
+  assert.match(levelTwo.events[0].title, /Valore fisso: 6/);
+});
+
+test("prepared spell choices appear at the level when they were made", () => {
+  const sheet = emptySheet();
+  sheet.classe = "Ranger";
+  sheet.livello = "2";
+  sheet.storiaIncantesimiPreparati = [
+    { livello: 1, nomi: ["Cura ferite", "Passo veloce"] },
+    { livello: 2, nomi: ["Colpo intrappolante"] },
+  ];
+  const [creation, levelTwo] = characterStory(sheet);
+  const classEvent = creation.events.find((event) => event.title === "Scelta classe: Ranger");
+  assert.deepEqual(classEvent.details.find((item) => item.label === "Privilegio: Incantesimi")?.consequences,
+    ["Incantesimi preparati: Cura ferite, Passo veloce"]);
+  assert.ok(levelTwo.events.some((event) => event.title === "Incantesimo preparato aggiunto: Colpo intrappolante"));
+});

@@ -78,11 +78,16 @@ function privilegeDetails(grants: Grant[], sheet: Sheet): StoryDetail[] {
       item.fonte.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0
       || item.fonte.localeCompare(`Privilegio: ${grant.name}`, "it", { sensitivity: "base" }) === 0)
       .map((item) => `${item.tipo === "tiroSalvezza" ? "Tiro salvezza" : item.tipo === "abilita" ? "Abilità" : item.tipo === "lingua" ? "Lingua" : "Competenza"}: ${item.valore}`);
+    const spellChoices = grant.name === "Incantesimi"
+      ? (sheet.storiaIncantesimiPreparati ?? []).filter((item) => item.livello === grant.level)
+        .map((item) => `Incantesimi preparati: ${item.nomi.join(", ")}`) : [];
+    const pendingMastery = grant.name.toLocaleLowerCase("it") === "padronanza d'armi" && chosen?.startsWith("Da specificare:")
+      ? [chosen] : [];
     const choice = grant.name.toLocaleLowerCase("it") === "ordine primordiale" && option === "Custode"
       ? ["Armi da guerra", "Armature pesanti"] : [];
     return {
       label: `Privilegio: ${grant.name}`,
-      consequences: unique([...(option ? [`Scelta: ${option}`] : []), ...(mastery ? [`Maestria: ${mastery}`] : []), ...named, ...choice, ...resources, ...competencies]),
+      consequences: unique([...(option ? [`Scelta: ${option}`] : []), ...(mastery ? [`Maestria: ${mastery}`] : []), ...named, ...choice, ...resources, ...competencies, ...spellChoices, ...pendingMastery]),
     };
   });
 }
@@ -182,17 +187,22 @@ export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"
   const scores = sheet.caratteristiche.filter((item) => present(item.valore));
   if (scores.length) events.push({ title: "Determinati i punteggi di caratteristica", details: scores.map((item) => detail(`${item.abbr} ${item.valore}`)) });
   if (present(sheet.allineamento)) events.push({ title: `Scelto allineamento: ${sheet.allineamento}`, details: [] });
-  if (present(sheet.puntiFeritaMax) && level === 1) events.push({ title: "Determinati i punti ferita iniziali", details: [detail(`Punti ferita massimi: ${sheet.puntiFeritaMax}`)] });
+  const initialHitPoints = sheet.storiaPuntiFerita?.iniziali;
+  if (initialHitPoints !== undefined || present(sheet.puntiFeritaMax) && level === 1) {
+    events.push({ title: "Determinati i punti ferita iniziali", details: [detail(`Punti ferita massimi: ${initialHitPoints ?? sheet.puntiFeritaMax}`)] });
+  }
 
   const chapters: StoryChapter[] = [{ trigger: "Creazione personaggio", events }];
   for (let current = 2; current <= level; current++) {
     const levelPrivileges = privileges.filter((item) => item.level === current);
     const levelFeats = feats.filter((item) => featGrantLevel(item, sheet) === current);
-    const gain = hitPointGains?.[current - 2];
+    const gain = sheet.storiaPuntiFerita?.incrementi[current - 2] ?? hitPointGains?.[current - 2];
     const hitDie = sheet.dadiVita.match(/d\d+/i)?.[0];
     const result = gain ? ` · ${gain.method === "fisso" ? "Valore fisso" : "Tiro"}: ${gain.value}` : "";
     const details: StoryDetail[] = [
       detail(`Dado Vita aggiunto${hitDie ? `: 1${hitDie} (${current}${hitDie} totali)` : ""}${result}`),
+      ...(sheet.storiaIncantesimiPreparati ?? []).filter((item) => item.livello === current)
+        .flatMap((item) => item.nomi.map((name) => detail(`Incantesimo preparato aggiunto: ${name}`))),
       ...privilegeDetails(levelPrivileges, sheet),
       ...featDetails(levelFeats, sheet, usedFeats),
     ];
