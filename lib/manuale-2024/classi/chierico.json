@@ -4,5 +4,758 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:chierico",
+      "tipo": "classe",
+      "nome": "Chierico",
+      "testo": [{ "pagina": 69, "da": "combattere i nemici.", "a": "Privilegi di classe del chierico" }],
+      "correzioni": [
+        [
+          "Poiché il loro potere è un dono",
+          "I chierici traggono il loro potere dai regni degli dèi e lo imbrigliano per compiere miracoli. Benedetto da una divinità, da un pantheon o da un'altra entità immortale, un chierico può raggiungere la magia divina dei Piani Esterni, dove dimorano gli dèi, e incanalarla per dare forza alle persone e combattere i nemici.\n\nPoiché il loro potere è un dono"
+        ],
+        ["dellatabella", "della tabella"],
+        ["capitolo 2.\n\n9: MNO=PQ================'R,:::::====S ©", "capitolo 2."]
+      ],
+      "pagina": 69,
+      "pagine": [68, 70, 71, 72],
+      "tabelle": [
+        {
+          "titolo": "Tratti del chierico",
+          "pagina": 69,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Saggezza"],
+            ["Dado Vita", "D8 per ogni livello da chierico"],
+            ["Competenze nei tiri salvezza", "Saggezza e Carisma"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Intuizione, Medicina, Persuasione, Religione o Storia"
+            ],
+            ["Competenza nelle armi", "Armi semplici"],
+            ["Competenza nelle armature", "Armature leggere e medie; scudi"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Un giaco di maglia, uno scudo, una mazza, un simbolo sacro, una dotazione da sacerdote e 7 mo; o (B) 110 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del chierico",
+          "pagina": 70,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Incanalare divinità",
+            "Trucchetti",
+            "Incantesimi preparati",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "righe": [
+            [
+              "1",
+              "+2",
+              "Incantesimi, ordine divino",
+              "—",
+              "3",
+              "4",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["2", "+2", "Incanalare divinità", "2", "3", "5", "3", "—", "—", "—", "—", "—", "—", "—", "—"],
+            [
+              "3",
+              "+2",
+              "Sottoclasse del chierico",
+              "2",
+              "3",
+              "6",
+              "4",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "4",
+              "+2",
+              "Aumento dei punteggi di caratteristica",
+              "2",
+              "4",
+              "7",
+              "4",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["5", "+3", "Bruciare i non morti", "2", "4", "9", "4", "3", "2", "—", "—", "—", "—", "—", "—"],
+            [
+              "6",
+              "+3",
+              "Privilegio della sottoclasse",
+              "3",
+              "4",
+              "10",
+              "4",
+              "3",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["7", "+3", "Colpi benedetti", "3", "4", "11", "4", "3", "3", "1", "—", "—", "—", "—", "—"],
+            [
+              "8",
+              "+3",
+              "Aumento dei punteggi di caratteristica",
+              "3",
+              "4",
+              "12",
+              "4",
+              "3",
+              "3",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["9", "+4", "—", "3", "4", "14", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
+            ["10", "+4", "Intervento divino", "3", "5", "15", "4", "3", "3", "3", "2", "—", "—", "—", "—"],
+            ["11", "+4", "—", "3", "5", "16", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            [
+              "12",
+              "+4",
+              "Aumento dei punteggi di caratteristica",
+              "3",
+              "5",
+              "16",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "—",
+              "—",
+              "—"
+            ],
+            ["13", "+5", "—", "3", "5", "17", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            [
+              "14",
+              "+5",
+              "Colpi benedetti migliorati",
+              "3",
+              "5",
+              "17",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "—",
+              "—"
+            ],
+            ["15", "+5", "—", "3", "5", "18", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
+            [
+              "16",
+              "+5",
+              "Aumento dei punteggi di caratteristica",
+              "3",
+              "5",
+              "18",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "1",
+              "—"
+            ],
+            [
+              "17",
+              "+6",
+              "Privilegio della sottoclasse",
+              "3",
+              "5",
+              "19",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            ["18", "+6", "—", "4", "5", "20", "4", "3", "3", "3", "3", "1", "1", "1", "1"],
+            ["19", "+6", "Dono epico", "4", "5", "21", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
+            [
+              "20",
+              "+6",
+              "Intervento divino superiore",
+              "4",
+              "5",
+              "22",
+              "4",
+              "3",
+              "3",
+              "3",
+              "3",
+              "2",
+              "2",
+              "1",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "dadoVita": "D8",
+      "caratteristicaPrimaria": "Saggezza",
+      "tiriSalvezza": ["SAG", "CAR"],
+      "competenze": {
+        "abilita": { "numero": 2, "scelte": ["Intuizione", "Medicina", "Persuasione", "Religione", "Storia"] },
+        "armi": ["Armi semplici"],
+        "armature": ["Leggere", "Medie", "Scudi"],
+        "strumenti": []
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Un giaco di maglia, uno scudo, una mazza, un simbolo sacro, una dotazione da sacerdote e 7 mo; o (B) 110 mo",
+      "privilegi": [
+        {
+          "id": "classe:chierico:privilegio:1-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 1,
+          "testo": [{ "pagina": 69, "da": "Livello 1: Incantesimi", "a": "Privilegi del chierico", "na": 4 }],
+          "correzioni": [
+            [
+              "per le\n\nregole relative al lancio degli incantesimi. Le informazioni sottostanti spiegano come applicarle agli incantesimi del · I\\\n\nchierico, elencati",
+              "per le regole relative al lancio degli incantesimi. Le informazioni sottostanti spiegano come applicarle agli incantesimi del chierico, elencati"
+            ],
+            ["guida,fiamma sacra", "guida, fiamma sacra"],
+            ["Slotincantesimo.", "Slot incantesimo."],
+            ["riposo lungo. Incantesimipreparati di 1°", "riposo lungo.\n\nIncantesimi preparati di 1°"],
+            ["scudo dellafede", "scudo della fede"],
+            ["Cambiare gli incantesimipreparati.", "Cambiare gli incantesimi preparati."],
+            ["da chierico. Focus da incantatore.", "da chierico.\n\nFocus da incantatore."]
+          ],
+          "pagina": 69,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:1-ordine-divino",
+          "nome": "Ordine Divino",
+          "livello": 1,
+          "testo": [{ "pagina": 70, "da": "Livello 1: Ordine Divino", "a": "Livello 2: Incanalare Divinità" }],
+          "correzioni": [["a scelta. Protettore.", "a scelta.\n\nProtettore."]],
+          "pagina": 70,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:2-incanalare-divinita",
+          "nome": "Incanalare Divinità",
+          "livello": 2,
+          "testo": [
+            { "pagina": 70, "da": "Livello 2: Incanalare Divinità", "a": "Slot incantesimo per livello" },
+            {
+              "pagina": 70,
+              "da": "come mostrato nella colonna Incanalare Divinità",
+              "includiDa": true,
+              "a": "Livello 3: Sottoclasse del Chierico"
+            }
+          ],
+          "correzioni": [
+            ["usi aggiuntivi,\n\n-\n\ncome mostrato", "usi aggiuntivi, come mostrato"],
+            ["o morto. Scintilla divina.", "o morto.\n\nScintilla divina."]
+          ],
+          "pagina": 70,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:3-sottoclasse-del-chierico",
+          "nome": "Sottoclasse del Chierico",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 71,
+              "da": "Livello 3: Sottoclasse del Chierico",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 71,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 71,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Bruciare i Non Morti"
+            }
+          ],
+          "pagina": 71,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:5-bruciare-i-non-morti",
+          "nome": "Bruciare i Non Morti",
+          "livello": 5,
+          "testo": [{ "pagina": 71, "da": "Livello 5: Bruciare i Non Morti", "a": "Livello 7: Colpi Benedetti" }],
+          "pagina": 71,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:7-colpi-benedetti",
+          "nome": "Colpi Benedetti",
+          "livello": 7,
+          "testo": [{ "pagina": 71, "da": "Livello 7: Colpi Benedetti", "a": "Livello 10: Intervento Divino" }],
+          "pagina": 71,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:10-intervento-divino",
+          "nome": "Intervento Divino",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 71,
+              "da": "Livello 10: Intervento Divino",
+              "a": "Livello 14: Colpi Benedetti Migliorati"
+            }
+          ],
+          "pagina": 71,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:14-colpi-benedetti-migliorati",
+          "nome": "Colpi Benedetti Migliorati",
+          "livello": 14,
+          "testo": [{ "pagina": 71, "da": "Livello 14: Colpi Benedetti Migliorati", "a": "Livello 19: Dono Epico" }],
+          "correzioni": [
+            ["più potente. Colpo divino.", "più potente.\n\nColpo divino."],
+            ["Incantesimipotenti.", "Incantesimi potenti."]
+          ],
+          "pagina": 71,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 71, "da": "Livello 19: Dono Epico", "a": "Livello 20: Intervento Divino Superiore" }],
+          "pagina": 71,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:privilegio:20-intervento-divino-superiore",
+          "nome": "Intervento Divino Superiore",
+          "livello": 20,
+          "testo": [
+            {
+              "pagina": 71,
+              "da": "Livello 20: Intervento Divino Superiore",
+              "a": "Lista degli Incantesimi da Chierico"
+            }
+          ],
+          "pagina": 71,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:chierico:sottoclasse:dominio-della-guerra",
+      "tipo": "sottoclasse",
+      "classe": "Chierico",
+      "nome": "Dominio della Guerra",
+      "testo": [{ "pagina": 73, "da": "Dominio della Guerra", "n": 2, "a": "Livello 3: Colpo Guidato" }],
+      "correzioni": [["Ispira valore e annienta inemici La guerra", "Ispira valore e annienta i nemici\n\nLa guerra"]],
+      "pagina": 73,
+      "privilegi": [
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-guerra:privilegio:3-colpo-guidato",
+          "nome": "Colpo Guidato",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 73,
+              "da": "Livello 3: Colpo Guidato",
+              "a": "Livello 3: Incantesimi del Dominio della Guerra"
+            }
+          ],
+          "pagina": 73,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-guerra:privilegio:3-incantesimi-del-dominio-della-guerra",
+          "nome": "Incantesimi del Dominio della Guerra",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 73,
+              "da": "Livello 3: Incantesimi del Dominio della Guerra",
+              "a": "Incantesimi del Dominio della Guerra",
+              "na": 2
+            }
+          ],
+          "correzioni": [["alcuni incantesimi.\n\nQuando il chierico", "alcuni incantesimi. Quando il chierico"]],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Dominio della Guerra",
+              "pagina": 73,
+              "colonne": ["Livello da chierico", "Incantesimi preparati"],
+              "righe": [
+                ["3", "Dardo tracciante, arma magica, scudo della fede e arma spirituale"],
+                ["5", "Manto del crociato e guardiani spirituali"],
+                ["7", "Scudo di fuoco e libertà di movimento"],
+                ["9", "Blocca mostri e turbine implacabile"]
+              ]
+            }
+          ],
+          "pagina": 73,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-guerra:privilegio:3-sacerdote-di-guerra",
+          "nome": "Sacerdote di Guerra",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 73,
+              "da": "Livello 3: Sacerdote di Guerra",
+              "a": "Livello 6: Benedizione del Dio della Guerra"
+            }
+          ],
+          "correzioni": [["Il chierico può\n\nutilizzare", "Il chierico può utilizzare"]],
+          "pagina": 73,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-guerra:privilegio:6-benedizione-del-dio-della-guerra",
+          "nome": "Benedizione del Dio della Guerra",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 74,
+              "da": "Livello 6: Benedizione del Dio della Guerra",
+              "a": "Livello 17: Avatar della Battaglia"
+            }
+          ],
+          "correzioni": [["scudo dellafede o armaspirituale", "scudo della fede o arma spirituale"]],
+          "pagina": 74,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-guerra:privilegio:17-avatar-della-battaglia",
+          "nome": "Avatar della Battaglia",
+          "livello": 17,
+          "testo": [{ "pagina": 74, "da": "Livello 17: Avatar della Battaglia", "a": "Dominio dell'Inganno" }],
+          "pagina": 74,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:chierico:sottoclasse:dominio-dell-inganno",
+      "tipo": "sottoclasse",
+      "classe": "Chierico",
+      "nome": "Dominio dell'Inganno",
+      "testo": [{ "pagina": 74, "da": "Dominio dell'Inganno", "a": "Livello 3: Benedizione dell'Ingannatore" }],
+      "correzioni": [["Turba l'ordine e sfida l'autorità Il Dominio", "Turba l'ordine e sfida l'autorità\n\nIl Dominio"]],
+      "pagina": 74,
+      "privilegi": [
+        {
+          "id": "classe:chierico:sottoclasse:dominio-dell-inganno:privilegio:3-benedizione-dell-ingannatore",
+          "nome": "Benedizione dell'Ingannatore",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 74,
+              "da": "Livello 3: Benedizione dell'Ingannatore",
+              "a": "Livello 3: Incantesimi del Dominio dell'Inganno"
+            }
+          ],
+          "pagina": 74,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-dell-inganno:privilegio:3-incantesimi-del-dominio-dell-inganno",
+          "nome": "Incantesimi del Dominio dell'Inganno",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 74,
+              "da": "Livello 3: Incantesimi del Dominio dell'Inganno",
+              "a": "Incantesimi del Dominio dell'Inganno",
+              "na": 2
+            }
+          ],
+          "correzioni": [["alcuni incantesimi.\n\nQuando il chierico", "alcuni incantesimi. Quando il chierico"]],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Dominio dell'Inganno",
+              "pagina": 74,
+              "colonne": ["Livello da chierico", "Incantesimi preparati"],
+              "righe": [
+                ["3", "Camuffare se stesso, charme su persone, invisibilità e passare senza tracce"],
+                ["5", "Trama ipnotica e anti-individuazione"],
+                ["7", "Confusione e porta dimensionale"],
+                ["9", "Dominare persone e modificare memoria"]
+              ]
+            }
+          ],
+          "pagina": 74,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-dell-inganno:privilegio:3-invocare-duplicato",
+          "nome": "Invocare Duplicato",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 75,
+              "da": "Livello 3: Invocare Duplicato",
+              "a": "Livello 6: Trasposizione dell'Ingannatore"
+            }
+          ],
+          "pagina": 75,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-dell-inganno:privilegio:6-trasposizione-dell-ingannatore",
+          "nome": "Trasposizione dell'Ingannatore",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 75,
+              "da": "Livello 6: Trasposizione dell'Ingannatore",
+              "a": "Livello 17: Duplicato Migliorato"
+            }
+          ],
+          "pagina": 75,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-dell-inganno:privilegio:17-duplicato-migliorato",
+          "nome": "Duplicato Migliorato",
+          "livello": 17,
+          "testo": [{ "pagina": 75, "da": "Livello 17: Duplicato Migliorato", "a": "Dominio della Luce" }],
+          "correzioni": [["vantaggio. Illusione curativa.", "vantaggio.\n\nIllusione curativa."]],
+          "pagina": 75,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:chierico:sottoclasse:dominio-della-luce",
+      "tipo": "sottoclasse",
+      "classe": "Chierico",
+      "nome": "Dominio della Luce",
+      "testo": [{ "pagina": 75, "da": "Dominio della Luce", "a": "Livello 3: Bagliore di Interdizione" }],
+      "correzioni": [
+        [
+          "Portare la luceper scacciare le tenebre Il Dominio",
+          "Portare la luce per scacciare le tenebre\n\nIl Dominio"
+        ],
+        ["dellabellezza", "della bellezza"]
+      ],
+      "pagina": 75,
+      "privilegi": [
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-luce:privilegio:3-bagliore-di-interdizione",
+          "nome": "Bagliore di Interdizione",
+          "livello": 3,
+          "testo": [{ "pagina": 75, "da": "Livello 3: Bagliore di Interdizione", "a": "Livello 3: Fulgore dell'Alba" }],
+          "correzioni": [["(minimo di una volta).\n\nTutti gli utilizzi", "(minimo di una volta). Tutti gli utilizzi"]],
+          "pagina": 75,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-luce:privilegio:3-fulgore-dell-alba",
+          "nome": "Fulgore dell'Alba",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 76,
+              "da": "Livello 3: Fulgore dell'Alba",
+              "a": "Livello 3: Incantesimi del Dominio della Luce"
+            }
+          ],
+          "pagina": 76,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-luce:privilegio:3-incantesimi-del-dominio-della-luce",
+          "nome": "Incantesimi del Dominio della Luce",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 76,
+              "da": "Livello 3: Incantesimi del Dominio della Luce",
+              "a": "Incantesimi del Dominio della Luce",
+              "na": 2
+            }
+          ],
+          "correzioni": [["alcuni incantesimi.\n\nQuando il chierico", "alcuni incantesimi. Quando il chierico"]],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Dominio della Luce",
+              "pagina": 76,
+              "colonne": ["Livello da chierico", "Incantesimi preparati"],
+              "righe": [
+                ["3", "Mani brucianti, luminescenza, raggio rovente e vedere invisibilità"],
+                ["5", "Luce diurna e palla di fuoco"],
+                ["7", "Occhio arcano e muro di fuoco"],
+                ["9", "Colpo infuocato e scrutare"]
+              ]
+            }
+          ],
+          "pagina": 76,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-luce:privilegio:6-bagliore-di-interdizione-migliorato",
+          "nome": "Bagliore di Interdizione Migliorato",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 76,
+              "da": "Livello 6: Bagliore di Interdizione Migliorato",
+              "a": "Livello 17: Corona di Luce"
+            }
+          ],
+          "pagina": 76,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-luce:privilegio:17-corona-di-luce",
+          "nome": "Corona di Luce",
+          "livello": 17,
+          "testo": [{ "pagina": 76, "da": "Livello 17: Corona di Luce", "a": "Dominio della Vita" }],
+          "correzioni": [["per altri 9 metri.\n\nI nemici", "per altri 9 metri. I nemici"]],
+          "pagina": 76,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:chierico:sottoclasse:dominio-della-vita",
+      "tipo": "sottoclasse",
+      "classe": "Chierico",
+      "nome": "Dominio della Vita",
+      "testo": [{ "pagina": 77, "da": "Dominio della Vita", "a": "Livello 3: Discepolo della Vita" }],
+      "correzioni": [["Allevia leferite del mondo Il Dominio", "Allevia le ferite del mondo\n\nIl Dominio"]],
+      "pagina": 77,
+      "privilegi": [
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-vita:privilegio:3-discepolo-della-vita",
+          "nome": "Discepolo della Vita",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 77,
+              "da": "Livello 3: Discepolo della Vita",
+              "a": "Livello 3: Incantesimi del Dominio della Vita"
+            }
+          ],
+          "pagina": 77,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-vita:privilegio:3-incantesimi-del-dominio-della-vita",
+          "nome": "Incantesimi del Dominio della Vita",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 77,
+              "da": "Livello 3: Incantesimi del Dominio della Vita",
+              "a": "Incantesimi del Dominio della Vita",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Dominio della Vita",
+              "pagina": 77,
+              "colonne": ["Livello da chierico", "Incantesimi preparati"],
+              "righe": [
+                ["3", "Aiuto, benedizione, cura ferite e ristorare inferiore"],
+                ["5", "Parola guaritrice di massa e rinascita"],
+                ["7", "Aura di vita e interdizione alla morte"],
+                ["9", "Ristorare superiore e cura ferite di massa"]
+              ]
+            }
+          ],
+          "pagina": 77,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-vita:privilegio:3-preservare-vita",
+          "nome": "Preservare Vita",
+          "livello": 3,
+          "testo": [{ "pagina": 77, "da": "Livello 3: Preservare Vita", "a": "Livello 6: Guaritore Benedetto" }],
+          "correzioni": [["tra loro.\n\nQuesto privilegio", "tra loro. Questo privilegio"]],
+          "pagina": 77,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-vita:privilegio:6-guaritore-benedetto",
+          "nome": "Guaritore Benedetto",
+          "livello": 6,
+          "testo": [{ "pagina": 77, "da": "Livello 6: Guaritore Benedetto", "a": "Livello 17: Guarigione Suprema" }],
+          "pagina": 77,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:chierico:sottoclasse:dominio-della-vita:privilegio:17-guarigione-suprema",
+          "nome": "Guarigione Suprema",
+          "livello": 17,
+          "testo": [{ "pagina": 77, "da": "Livello 17: Guarigione Suprema" }],
+          "pagina": 77,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
