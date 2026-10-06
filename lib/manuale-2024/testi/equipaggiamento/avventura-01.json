@@ -1,4 +1,31 @@
 {
   "dominio": "equipaggiamento/avventura-01",
-  "testi": {}
+  "testi": {
+    "etichetta:equipaggiamento-avventura": "La tabella Equipaggiamento d'avventura in questa sezione include attrezzatura che spesso può tornare utile agli avventurieri. Tali oggetti sono presentati in ordine alfabetico, con il relativo prezzo indicato dopo il loro nome.",
+    "oggetto:abiti-da-viaggiatore": "Gli abiti da viaggiatore sono resistenti e progettati per sopportare svariati ambienti.",
+    "oggetto:abiti-eleganti": "Gli abiti eleganti sono realizzati con stoffe pregiate e decorati con dettagli raffinati. Alcuni eventi e luoghi consentono l'accesso solo a chi li indossa.",
+    "oggetto:acciarino-e-pietra-focaia": "Si tratta di un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Utilizzarlo per accendere una candela, una lampada, una lanterna, una torcia o qualunque altra cosa con sopra materiale infiammabile richiede un'azione bonus. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.",
+    "oggetto:acido": "Quando il personaggio effettua un'azione di Attacco, puoi sostituire uno dei suoi attacchi con il lancio di una fiala di acido. Può prendere di mira una creatura o un oggetto che è in grado di vedere entro 6 metri da sé. Il bersaglio deve superare un tiro salvezza su Destrezza (CD 8 più il modificatore di Destrezza e il bonus di competenza del personaggio), altrimenti subirà 2d6 danni da acido.",
+    "oggetto:acqua-santa": "Quando il personaggio effettua un'azione di Attacco, puoi sostituire uno dei suoi attacchi con il lancio di una ampolla di acqua santa verso una creatura che è in grado di vedere entro un raggio di 6 metri da sé. Il bersaglio deve superare un tiro salvezza su Destrezza (CD 8 più il modificatore di Destrezza e il bonus di competenza del personaggio), altrimenti subirà 2d8 danni radiosi se è un immondo o un non morto.",
+    "oggetto:ampolla": "Un'ampolla ha una capacità di 0,5 litri.",
+    "oggetto:antitossina": "Come azione bonus, per evitare di essere avvelenato o interrompere tale condizione, il personaggio può bere una fiala di antitossina per ottenere vantaggio ai relativi tiri salvezza.",
+    "oggetto:ariete-portatile": "Un ariete portatile può essere usato per sfondare le porte e conferisce un bonus di +4 alla prova di Forza del personaggio. Un altro personaggio può aiutare il primo a usare l'ariete, nel qual caso quest'ultimo dispone di vantaggio alla prova.",
+    "oggetto:asta": "Un'asta è lunga 3 metri. Il personaggio può usarla per toccare qualcosa a massimo 3 metri di distanza da sé. Se deve effettuare una prova di Forza (Atletica) come parte di un salto in alto o in lungo, può effettuarla con vantaggio sfruttando l'asta.",
+    "oggetto:attrezzi-da-scalatore": "Un kit da scalatore è composto da punte per stivali, guanti, chiodi da rocciatore e un'imbragatura. Come azione di Utilizzo, il personaggio può usare gli attrezzi da scalatore per ancorarsi; quando lo fa, non può cadere per più di 7,5 metri dal punto in cui si è ancorato e non può arrampicarsi per più di 7,5 metri dal quel punto senza disfare l'ancoraggio come azione bonus.",
+    "oggetto:barile": "Un barile può contenere fino a 20 litri di liquido o 4 cubi con spigolo di 30 centimetri di merci essiccate.",
+    "oggetto:borsa": "Una borsa può contenere fino a 3 chilogrammi e 1 cubo con spigolo di 6 centimetri.",
+    "oggetto:borsa-del-guaritore": "La borsa del guaritore è utilizzabile dieci volte. Come azione di Utilizzo, il personaggio può consumarne un uso per stabilizzare una creatura priva di sensi con 0 punti ferita senza dover effettuare una prova di Saggezza (Medicina).",
+    "oggetto:borsa-per-componenti": "Una borsa per componenti è impermeabile e piena di scompartimenti in cui sono conservate tutte le componenti materiali sfuse degli incantesimi del personaggio.",
+    "oggetto:bottiglia-di-vetro": "Una bottiglia di vetro ha una capacità di 0,75 litri.",
+    "oggetto:brocca": "Una brocca ha una capacità di 4 litri.",
+    "oggetto:campanella": "Come azione di Utilizzo, la campana può essere suonata affinché produca un suono udibile fino a 18 metri di distanza.",
+    "oggetto:candela": "Per 1 ora, una candela accesa proietta luce intensa entro un raggio di 1,5 metri e luce fioca per altri 1,5 metri.",
+    "oggetto:cannocchiale": "Gli oggetti osservati attraverso un cannocchiale appaiono grandi il doppio della loro taglia.",
+    "oggetto:carrucola-e-paranco": "Carrucola e paranco consentono al personaggio di sollevare fino a quattro volte il peso massimo che solleverebbe normalmente.",
+    "oggetto:carta": "Un foglio di carta può contenere circa 250 parole scritte a mano.",
+    "oggetto:catena": "Come azione di Utilizzo, se supera una prova di Forza (Atletica) con CD 13, il personaggio può avvolgere la catena attorno a una creatura non consenziente entro 1,5 metri da sé che sia afferrata, incapacitata o trattenuta. Se le vengono legate le gambe, sarà trattenuta finché non riuscirà a scappare. Per liberarsi dalla catena è necessario superare una prova di Destrezza (Acrobazia) con CD 18 con un'azione. Rompere la catena richiede il superamento di una prova di Forza (Atletica) con CD 20 con un'azione.",
+    "oggetto:cesto": "Un cesto può contenere fino a 20 chilogrammi entro 2 cubi con spigolo di 30 centimetri.",
+    "oggetto:coperta": "Finché il personaggio è avvolto dalla coperta, dispone di vantaggio ai tiri salvezza contro il freddo estremo (vedi la Guida del Dungeon Master).",
+    "oggetto:corda": "Come azione di Utilizzo, il personaggio può stringere un nodo con la corda se supera una prova di Destrezza (Rapidità di mano) con CD 10. La corda può essere spezzata superando una prova di Forza (Atletica) con CD 20.\n\nIl personaggio può legare una creatura non consenziente con la corda solo se questa è afferrata, incapacitata o trattenuta. Se le vengono legate le gambe, sarà trattenuta finché non riuscirà a scappare. Per liberarsi dalla corda è necessario superare una prova di Destrezza (Acrobazia) con CD 15 con un'azione."
+  }
 }

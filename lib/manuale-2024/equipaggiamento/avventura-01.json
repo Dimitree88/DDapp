@@ -3,6 +3,550 @@
   "modulo": "E04",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:equipaggiamento-avventura",
+      "tipo": "etichetta",
+      "nome": "Oggetti",
+      "alias": ["Equipaggiamento d'avventura"],
+      "testo": [{ "pagina": 222, "da": "D'avventura" }],
+      "pagina": 222,
+      "righeMatrice": ["equipaggiamento.oggetti.etichetta"],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "oggetto:abiti-da-viaggiatore",
+      "tipo": "oggetto",
+      "nome": "Abiti da viaggiatore",
+      "testo": [{ "pagina": 222, "da": "Abiti da viaggiatore (2 mo)" }],
+      "pagina": 222,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Abiti da viaggiatore", "2 kg", "2 mo"]]
+        }
+      ],
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:abiti-eleganti",
+      "tipo": "oggetto",
+      "nome": "Abiti eleganti",
+      "testo": [{ "pagina": 222, "da": "Abiti eleganti (15 mo)" }],
+      "pagina": 222,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Abiti eleganti", "3 kg", "15 mo"]]
+        }
+      ],
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "15 mo",
+      "costoMo": 15,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:acciarino-e-pietra-focaia",
+      "tipo": "oggetto",
+      "nome": "Acciarino e pietra focaia",
+      "testo": [{ "pagina": 222, "da": "Acciarino con pietra focaia (5 ma)" }],
+      "pagina": 222,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Acciarino e pietra focaia", "0,5 kg", "5 ma"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "5 ma",
+      "costoMo": 0.5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:acido",
+      "tipo": "oggetto",
+      "nome": "Acido",
+      "testo": [{ "pagina": 222, "da": "Acido (25 mo)" }],
+      "pagina": 222,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Acido", "0,5 kg", "25 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:acqua-santa",
+      "tipo": "oggetto",
+      "nome": "Acqua santa",
+      "testo": [{ "pagina": 222, "da": "Acqua santa (25 mo)" }],
+      "pagina": 222,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Acqua santa", "0,5 kg", "25 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:ampolla",
+      "tipo": "oggetto",
+      "nome": "Ampolla",
+      "testo": [{ "pagina": 222, "da": "Ampolla (2 mr)" }],
+      "pagina": 222,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Ampolla", "0,5 kg", "2 mr"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "2 mr",
+      "costoMo": 0.02,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:antitossina",
+      "tipo": "oggetto",
+      "nome": "Antitossina",
+      "testo": [{ "pagina": 222, "da": "Antitossina (50 mo)" }],
+      "pagina": 222,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Antitossina", "—", "50 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:ariete-portatile",
+      "tipo": "oggetto",
+      "nome": "Ariete portatile",
+      "testo": [{ "pagina": 224, "da": "Ariete, portatile (4 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Ariete portatile", "17,5 kg", "4 mo"]]
+        }
+      ],
+      "peso": "17,5 kg",
+      "pesoKg": 17.5,
+      "costo": "4 mo",
+      "costoMo": 4,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:asta",
+      "tipo": "oggetto",
+      "nome": "Asta",
+      "testo": [{ "pagina": 224, "da": "Asta (5 mr)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Asta", "3,5 kg", "5 mr"]]
+        }
+      ],
+      "peso": "3,5 kg",
+      "pesoKg": 3.5,
+      "costo": "5 mr",
+      "costoMo": 0.05,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:attrezzi-da-scalatore",
+      "tipo": "oggetto",
+      "nome": "Attrezzi da scalatore",
+      "testo": [{ "pagina": 224, "da": "Attrezzi da scalatore (25 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Attrezzi da scalatore", "6 kg", "25 mo"]]
+        }
+      ],
+      "peso": "6 kg",
+      "pesoKg": 6,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:barile",
+      "tipo": "oggetto",
+      "nome": "Barile",
+      "testo": [{ "pagina": 224, "da": "Barile (2 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Barile", "35 kg", "2 mo"]]
+        }
+      ],
+      "peso": "35 kg",
+      "pesoKg": 35,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:borsa-del-guaritore",
+      "tipo": "oggetto",
+      "nome": "Borsa del guaritore",
+      "testo": [{ "pagina": 224, "da": "Borsa del guaritore (5 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Borsa del guaritore", "1,5 kg", "5 mo"]]
+        }
+      ],
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["creaturapriva di sensi con O punti", "creatura priva di sensi con 0 punti"]]
+    },
+    {
+      "id": "oggetto:borsa-per-componenti",
+      "tipo": "oggetto",
+      "nome": "Borsa per componenti",
+      "testo": [{ "pagina": 224, "da": "Borsa per componenti (25 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Borsa per componenti", "1 kg", "25 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:borsa",
+      "tipo": "oggetto",
+      "nome": "Borsa",
+      "testo": [{ "pagina": 224, "da": "Borsa (5 ma)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Borsa", "0,5 kg", "5 ma"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "5 ma",
+      "costoMo": 0.5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:bottiglia-di-vetro",
+      "tipo": "oggetto",
+      "nome": "Bottiglia di vetro",
+      "testo": [{ "pagina": 224, "da": "Bottiglia di vetro (2 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Bottiglia di vetro", "1 kg", "2 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:brocca",
+      "tipo": "oggetto",
+      "nome": "Brocca",
+      "testo": [{ "pagina": 224, "da": "Brocca (2 mr)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Brocca", "2 kg", "2 mr"]]
+        }
+      ],
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "2 mr",
+      "costoMo": 0.02,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:campanella",
+      "tipo": "oggetto",
+      "nome": "Campanella",
+      "testo": [{ "pagina": 224, "da": "Campana (1 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Campanella", "—", "1 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:candela",
+      "tipo": "oggetto",
+      "nome": "Candela",
+      "testo": [{ "pagina": 224, "da": "Candela (1 mr)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Candela", "—", "1 mr"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 mr",
+      "costoMo": 0.01,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:cannocchiale",
+      "tipo": "oggetto",
+      "nome": "Cannocchiale",
+      "testo": [{ "pagina": 224, "da": "Cannocchiale (1.000 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Cannocchiale", "0,5 kg", "1.000 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "1.000 mo",
+      "costoMo": 1000,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:carrucola-e-paranco",
+      "tipo": "oggetto",
+      "nome": "Carrucola e paranco",
+      "testo": [{ "pagina": 224, "da": "Carrucola e paranco (1 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Carrucola e paranco", "2,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:carta",
+      "tipo": "oggetto",
+      "nome": "Carta",
+      "testo": [{ "pagina": 224, "da": "Carta (2 ma)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Carta", "—", "2 ma"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "2 ma",
+      "costoMo": 0.2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:catena",
+      "tipo": "oggetto",
+      "nome": "Catena",
+      "testo": [{ "pagina": 224, "da": "Catena (5 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Catena", "5 kg", "5 mo"]]
+        }
+      ],
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["CD 18.con", "CD 18 con"]]
+    },
+    {
+      "id": "oggetto:cesto",
+      "tipo": "oggetto",
+      "nome": "Cesto",
+      "testo": [{ "pagina": 224, "da": "Cesto (4 ma)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Cesto", "1 kg", "4 ma"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "4 ma",
+      "costoMo": 0.4,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:coperta",
+      "tipo": "oggetto",
+      "nome": "Coperta",
+      "testo": [{ "pagina": 224, "da": "Coperta (5 ma)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Coperta", "1,5 kg", "5 ma"]]
+        }
+      ],
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "5 ma",
+      "costoMo": 0.5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:corda",
+      "tipo": "oggetto",
+      "nome": "Corda",
+      "testo": [{ "pagina": 224, "da": "Corda (1 mo)" }],
+      "pagina": 224,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Corda", "2,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["con CD 20. Il personaggio può legare", "con CD 20.\n\nIl personaggio può legare"],
+        ["vengonolegate", "vengono legate"],
+        ["trattenuta\n\nfinché", "trattenuta finché"]
+      ]
+    }
+  ]
 }

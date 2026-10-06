@@ -4,5 +4,534 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "oggetto:giaciglio",
+      "tipo": "oggetto",
+      "nome": "Giaciglio",
+      "testo": [{ "pagina": 226, "da": "Giaciglio (1 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Giaciglio", "3,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "3,5 kg",
+      "pesoKg": 3.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:inchiostro",
+      "tipo": "oggetto",
+      "nome": "Inchiostro",
+      "testo": [{ "pagina": 226, "da": "Inchiostro (10 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Inchiostro", "—", "10 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:lampada",
+      "tipo": "oggetto",
+      "nome": "Lampada",
+      "testo": [{ "pagina": 226, "da": "Lampada (5 ma)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Lampada", "0,5 kg", "5 ma"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "5 ma",
+      "costoMo": 0.5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:lanterna-a-lente-sporgente",
+      "tipo": "oggetto",
+      "nome": "Lanterna a lente sporgente",
+      "testo": [{ "pagina": 226, "da": "Lanterna, a lente sporgente (10 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Lanterna a lente sporgente", "1 kg", "10 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:lanterna-schermabile",
+      "tipo": "oggetto",
+      "nome": "Lanterna schermabile",
+      "testo": [{ "pagina": 226, "da": "Lanterna, schermabile (5 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Lanterna schermabile", "1 kg", "5 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:lente-d-ingrandimento",
+      "tipo": "oggetto",
+      "nome": "Lente d'ingrandimento",
+      "testo": [{ "pagina": 226, "da": "Lente d'ingrandimento (100 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Lente d'ingrandimento", "—", "100 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "100 mo",
+      "costoMo": 100,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:libro",
+      "tipo": "oggetto",
+      "nome": "Libro",
+      "testo": [{ "pagina": 226, "da": "Libro (25 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Libro", "2,5 kg", "25 mo"]]
+        }
+      ],
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:manette",
+      "tipo": "oggetto",
+      "nome": "Manette",
+      "testo": [{ "pagina": 226, "da": "Manette (2 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Manette", "3 kg", "2 mo"]]
+        }
+      ],
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:mappa",
+      "tipo": "oggetto",
+      "nome": "Mappa",
+      "testo": [{ "pagina": 226, "da": "Mappa (1 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Mappa", "—", "1 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:munizioni",
+      "tipo": "oggetto",
+      "nome": "Munizioni",
+      "testo": [{ "pagina": 226, "da": "Munizioni (variabili)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Munizioni", "Variabile", "Variabile"]]
+        }
+      ],
+      "peso": "Variabile",
+      "pesoKg": null,
+      "costo": "Variabile",
+      "costoMo": null,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:olio",
+      "tipo": "oggetto",
+      "nome": "Olio",
+      "testo": [{ "pagina": 226, "da": "Ouo (1 ma)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Olio", "0,5 kg", "1 ma"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "1 ma",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["oliosu", "olio su"], ["su una\n\nsuperficie", "su una superficie"]]
+    },
+    {
+      "id": "oggetto:otre",
+      "tipo": "oggetto",
+      "nome": "Otre",
+      "testo": [{ "pagina": 227, "da": "Otre (2 ma)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Otre", "2,5 kg (pieno)", "2 ma"]]
+        }
+      ],
+      "peso": "2,5 kg (pieno)",
+      "pesoKg": 2.5,
+      "costo": "2 ma",
+      "costoMo": 0.2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:pala",
+      "tipo": "oggetto",
+      "nome": "Pala",
+      "testo": [{ "pagina": 227, "da": "Pala (2 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Pala", "2,5 kg", "2 mo"]]
+        }
+      ],
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:pennino",
+      "tipo": "oggetto",
+      "nome": "Pennino",
+      "testo": [{ "pagina": 227, "da": "Pennino (2 mr)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Pennino", "—", "2 mr"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "2 mr",
+      "costoMo": 0.02,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:pentola-di-ferro",
+      "tipo": "oggetto",
+      "nome": "Pentola di ferro",
+      "testo": [{ "pagina": 227, "da": "Pentola di ferro (2 mo)", "a": "Pergamena (1 ma)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Pentola di ferro", "5 kg", "2 mo"]]
+        }
+      ],
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:pergamena-magica-livello-1",
+      "tipo": "oggetto",
+      "nome": "Pergamena magica (livello 1)",
+      "testo": [{ "pagina": 227, "da": "Pergamena magica (trucchetto, 30 mo; livello 1, 50 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Pergamena magica (livello 1)", "—", "50 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:pergamena-magica-trucchetto",
+      "tipo": "oggetto",
+      "nome": "Pergamena magica (trucchetto)",
+      "testo": [{ "pagina": 227, "da": "Pergamena magica (trucchetto, 30 mo; livello 1, 50 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Pergamena magica (trucchetto)", "—", "30 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "30 mo",
+      "costoMo": 30,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:pergamena",
+      "tipo": "oggetto",
+      "nome": "Pergamena",
+      "testo": [{ "pagina": 227, "da": "Pergamena (1 ma)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Pergamena", "—", "1 ma"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 ma",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:piede-di-porco",
+      "tipo": "oggetto",
+      "nome": "Piede di porco",
+      "testo": [{ "pagina": 227, "da": "Piede di porco (2 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Piede di porco", "2,5 kg", "2 mo"]]
+        }
+      ],
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:pozione-di-guarigione",
+      "tipo": "oggetto",
+      "nome": "Pozione di guarigione",
+      "testo": [{ "pagina": 227, "da": "Pozione di guarigione (50 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Pozione di guarigione", "0,25 kg", "50 mo"]]
+        }
+      ],
+      "peso": "0,25 kg",
+      "pesoKg": 0.25,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:frecce",
+      "tipo": "oggetto",
+      "nome": "Frecce",
+      "pagina": 226,
+      "tabelle": [
+        {
+          "titolo": "Munizioni",
+          "pagina": 226,
+          "colonne": ["Tipo", "Quantità", "Conservazione", "Peso", "Costo"],
+          "righe": [["Frecce", "20", "Faretra", "0,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "quantitaPrezzo": 20,
+      "varianteDi": "Munizioni",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:quadrelli",
+      "tipo": "oggetto",
+      "nome": "Quadrelli",
+      "pagina": 226,
+      "tabelle": [
+        {
+          "titolo": "Munizioni",
+          "pagina": 226,
+          "colonne": ["Tipo", "Quantità", "Conservazione", "Peso", "Costo"],
+          "righe": [["Quadrelli", "20", "Custodia", "0,75 kg", "1 mo"]]
+        }
+      ],
+      "peso": "0,75 kg",
+      "pesoKg": 0.75,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "quantitaPrezzo": 20,
+      "varianteDi": "Munizioni",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:proiettili-arma-da-fuoco",
+      "tipo": "oggetto",
+      "nome": "Proiettili, arma da fuoco",
+      "alias": ["Proiettili per arma da fuoco"],
+      "pagina": 226,
+      "tabelle": [
+        {
+          "titolo": "Munizioni",
+          "pagina": 226,
+          "colonne": ["Tipo", "Quantità", "Conservazione", "Peso", "Costo"],
+          "righe": [["Proiettili, arma da fuoco", "10", "Borsa", "1 kg", "3 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "3 mo",
+      "costoMo": 3,
+      "quantitaPrezzo": 10,
+      "varianteDi": "Munizioni",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:proiettili-fionda",
+      "tipo": "oggetto",
+      "nome": "Proiettili, fionda",
+      "alias": ["Proiettili per fionda"],
+      "pagina": 226,
+      "tabelle": [
+        {
+          "titolo": "Munizioni",
+          "pagina": 226,
+          "colonne": ["Tipo", "Quantità", "Conservazione", "Peso", "Costo"],
+          "righe": [["Proiettili, fionda", "20", "Borsa", "0,75 kg", "4 mr"]]
+        }
+      ],
+      "peso": "0,75 kg",
+      "pesoKg": 0.75,
+      "costo": "4 mr",
+      "costoMo": 0.04,
+      "quantitaPrezzo": 20,
+      "varianteDi": "Munizioni",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:aghi",
+      "tipo": "oggetto",
+      "nome": "Aghi",
+      "pagina": 226,
+      "tabelle": [
+        {
+          "titolo": "Munizioni",
+          "pagina": 226,
+          "colonne": ["Tipo", "Quantità", "Conservazione", "Peso", "Costo"],
+          "righe": [["Aghi", "50", "Borsa", "0,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "quantitaPrezzo": 50,
+      "varianteDi": "Munizioni",
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

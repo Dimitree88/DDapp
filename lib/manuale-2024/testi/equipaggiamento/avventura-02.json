@@ -1,4 +1,22 @@
 {
   "dominio": "equipaggiamento/avventura-02",
-  "testi": {}
+  "testi": {
+    "oggetto:costume": "Quando il personaggio indossa un costume, dispone di vantaggio a qualsiasi prova di caratteristica effettuata per impersonare qualcuno o una specifica tipologia di persona.",
+    "oggetto:custodia-per-mappe-o-pergamene": "Una custodia per mappe o pergamene può contenere fino a 10 fogli di carta o 5 di pergamena.",
+    "oggetto:custodia-per-quadrelli-da-balestra": "Una custodia per quadrelli da balestra può contenerne fino a 20 unità.",
+    "oggetto:dotazione-da-avventuriero": "Una dotazione da avventuriero contiene i seguenti oggetti: zaino, triboli, piede di porco, 2 ampolle di olio, 10 razioni giornaliere, corda, acciarino con pietra focaia, 10 torce e un otre.",
+    "oggetto:dotazione-da-diplomatico": "Una dotazione da diplomatico contiene i seguenti oggetti: forziere, abiti eleganti, inchiostro, 5 pennini, lampada, 2 custodie per mappe o pergamene, 4 ampolle di olio, 5 fogli di carta, 5 fogli di pergamena, profumo e acciarino con pietra focaia.",
+    "oggetto:dotazione-da-esploratore": "Una dotazione da esploratore contiene i seguenti oggetti: zaino, giaciglio, 2 ampolle di olio, 10 razioni giornaliere, corda, acciarino con pietra focaia, 10 torce e un otre.",
+    "oggetto:dotazione-da-intrattenitore": "Una dotazione da intrattenitore contiene i seguenti i oggetti: zaino, giaciglio, campana, lanterna a lente sporgente, 3 costumi, specchio, 8 ampolle di olio, 9 razioni giornaliere e un otre.",
+    "oggetto:dotazione-da-sacerdote": "Una dotazione da sacerdote contiene i seguenti oggetti: zaino, coperta, acqua santa, lampada, 7 razioni giornaliere, tunica e acciarino con pietra focaia.",
+    "oggetto:dotazione-da-scassinatore": "Una dotazione da scassinatore comprende i seguenti oggetti: zaino, sfere metalliche, campana, 10 candele, piede di porco, lanterna schermabile, 7 ampolle di olio, 5 razioni giornaliere, corda, acciarino con pietra focaia e un otre.",
+    "oggetto:dotazione-da-studioso": "Una dotazione da studioso contiene i seguenti oggetti: zaino, libro, inchiostro, pennino, lampada, 10 ampolle di olio, 10 fogli di pergamena e acciarino con pietra focaia.",
+    "oggetto:faretra": "Una faretra può contenere fino a 20 frecce.",
+    "oggetto:fiala": "Una fiala ha una capacità di 2 litri.",
+    "oggetto:fischietto-da-richiamo": "Se il personaggio soffia al suo interno con un'azione di Utilizzo, il fischietto da richiamo produce un suono udibile fino a 180 metri di distanza.",
+    "oggetto:focus-arcano": "Un focus arcano assume una delle forme elencate nella tabella Focus Arcani, ed è adornato con gioielli o intagliato affinché possa incanalare l'energia arcana. Un mago, uno stregone o un warlock può usare questo oggetto come focus da incantatore.",
+    "oggetto:focus-druidico": "Un focus druidico assume una delle forme indicate nella tabella Focus druidici ed è intagliato, legato con del nastro o dipinto per incanalare la magia primordiale. Un oggetto del genere è utilizzabile come focus da incantatore da un druido o un ranger.",
+    "oggetto:forziere": "Un forziere ha una capacità di 12 cubi con spigolo di 30 centimetri.",
+    "oggetto:fuoco-dell-alchimista": "Quando il personaggio effettua un'azione di Attacco, puoi sostituire uno dei suoi attacchi con il lancio di una ampolla di fuoco dell'alchimista. Può prendere di mira una creatura o un oggetto che è in grado di vedere entro 6 metri da sé. Il bersaglio deve superare un tiro salvezza su Destrezza (CD 8 più il modificatore di Destrezza e il bonus di competenza del personaggio), altrimenti subirà 1d4 danni da fuoco e sarà in fiamme (consulta il Glossario delle regole)."
+  }
 }

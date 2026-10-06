@@ -4,5 +4,528 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "oggetto:costume",
+      "tipo": "oggetto",
+      "nome": "Costume",
+      "testo": [{ "pagina": 225, "da": "Costume (5 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Costume", "2 kg", "5 mo"]]
+        }
+      ],
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:custodia-per-mappe-o-pergamene",
+      "tipo": "oggetto",
+      "nome": "Custodia per mappe o pergamene",
+      "testo": [{ "pagina": 225, "da": "Custodia per mappe o pergamene (1 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Custodia per mappe o pergamene", "0,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["\n\nĽ", ""]]
+    },
+    {
+      "id": "oggetto:custodia-per-quadrelli-da-balestra",
+      "tipo": "oggetto",
+      "nome": "Custodia per quadrelli da balestra",
+      "testo": [{ "pagina": 225, "da": "Custodia per quadrelli da balestra", "dopo": "(1 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Custodia per quadrelli da balestra", "0,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:dotazione-da-avventuriero",
+      "tipo": "oggetto",
+      "nome": "Dotazione da avventuriero",
+      "testo": [{ "pagina": 225, "da": "Dotazione da avventuriero (12 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Dotazione da avventuriero", "27,5 kg", "12 mo"]]
+        }
+      ],
+      "peso": "27,5 kg",
+      "pesoKg": 27.5,
+      "costo": "12 mo",
+      "costoMo": 12,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:dotazione-da-diplomatico",
+      "tipo": "oggetto",
+      "nome": "Dotazione da diplomatico",
+      "testo": [{ "pagina": 225, "da": "Dotazione da diplomatico (39 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Dotazione da diplomatico", "19,5 kg", "39 mo"]]
+        }
+      ],
+      "peso": "19,5 kg",
+      "pesoKg": 19.5,
+      "costo": "39 mo",
+      "costoMo": 39,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["\n\n--", ""]]
+    },
+    {
+      "id": "oggetto:dotazione-da-esploratore",
+      "tipo": "oggetto",
+      "nome": "Dotazione da esploratore",
+      "testo": [{ "pagina": 225, "da": "Dotazione da esploratore (10 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Dotazione da esploratore", "27,5 kg", "10 mo"]]
+        }
+      ],
+      "peso": "27,5 kg",
+      "pesoKg": 27.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:dotazione-da-intrattenitore",
+      "tipo": "oggetto",
+      "nome": "Dotazione da intrattenitore",
+      "testo": [{ "pagina": 225, "da": "Dotazione da intrattenitore (40 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Dotazione da intrattenitore", "29 kg", "40 mo"]]
+        }
+      ],
+      "peso": "29 kg",
+      "pesoKg": 29,
+      "costo": "40 mo",
+      "costoMo": 40,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["\n\n--.;:::=-", ""]]
+    },
+    {
+      "id": "oggetto:dotazione-da-sacerdote",
+      "tipo": "oggetto",
+      "nome": "Dotazione da sacerdote",
+      "testo": [{ "pagina": 225, "da": "Dotazione da sacerdote (33 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Dotazione da sacerdote", "14 kg", "33 mo"]]
+        }
+      ],
+      "peso": "14 kg",
+      "pesoKg": 14,
+      "costo": "33 mo",
+      "costoMo": 33,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:dotazione-da-scassinatore",
+      "tipo": "oggetto",
+      "nome": "Dotazione da scassinatore",
+      "testo": [{ "pagina": 225, "da": "Dotazione da scassinatore (16 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Dotazione da scassinatore", "19 kg", "16 mo"]]
+        }
+      ],
+      "peso": "19 kg",
+      "pesoKg": 19,
+      "costo": "16 mo",
+      "costoMo": 16,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:dotazione-da-studioso",
+      "tipo": "oggetto",
+      "nome": "Dotazione da studioso",
+      "testo": [{ "pagina": 225, "da": "Dotazione da studioso (40 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Dotazione da studioso", "11 kg", "40 mo"]]
+        }
+      ],
+      "peso": "11 kg",
+      "pesoKg": 11,
+      "costo": "40 mo",
+      "costoMo": 40,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["oggetti:\n\nzaino", "oggetti: zaino"]]
+    },
+    {
+      "id": "oggetto:faretra",
+      "tipo": "oggetto",
+      "nome": "Faretra",
+      "testo": [{ "pagina": 225, "da": "Faretra (1 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Faretra", "0,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:fiala",
+      "tipo": "oggetto",
+      "nome": "Fiala",
+      "testo": [{ "pagina": 225, "da": "Fiala (1 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Fiala", "—", "1 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:fischietto-da-richiamo",
+      "tipo": "oggetto",
+      "nome": "Fischietto da richiamo",
+      "testo": [{ "pagina": 225, "da": "Fischietto da richiamo (5 mr)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Fischietto da richiamo", "—", "5 mr"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "5 mr",
+      "costoMo": 0.05,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["\n\n-", ""]]
+    },
+    {
+      "id": "oggetto:focus-arcano",
+      "tipo": "oggetto",
+      "nome": "Focus arcano",
+      "testo": [{ "pagina": 225, "da": "Focus arcano (variabile)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Focus arcano", "Variabile", "Variabile"]]
+        }
+      ],
+      "peso": "Variabile",
+      "pesoKg": null,
+      "costo": "Variabile",
+      "costoMo": null,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-druidico",
+      "tipo": "oggetto",
+      "nome": "Focus druidico",
+      "testo": [{ "pagina": 225, "da": "Focus druidico (variabile)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Focus druidico", "Variabile", "Variabile"]]
+        }
+      ],
+      "peso": "Variabile",
+      "pesoKg": null,
+      "costo": "Variabile",
+      "costoMo": null,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:forziere",
+      "tipo": "oggetto",
+      "nome": "Forziere",
+      "testo": [{ "pagina": 225, "da": "Forziere (5 mo)" }],
+      "pagina": 225,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Forziere", "12,5 kg", "5 mo"]]
+        }
+      ],
+      "peso": "12,5 kg",
+      "pesoKg": 12.5,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:fuoco-dell-alchimista",
+      "tipo": "oggetto",
+      "nome": "Fuoco dell'alchimista",
+      "testo": [{ "pagina": 226, "da": "Fuoco dell'alchimista (50 mo)" }],
+      "pagina": 226,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Fuoco dell'alchimista", "0,5 kg", "50 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-arcano-bacchetta",
+      "tipo": "oggetto",
+      "nome": "Focus arcano (bacchetta)",
+      "pagina": 225,
+      "tabelle": [
+        {
+          "titolo": "Focus arcani",
+          "pagina": 225,
+          "colonne": ["Focus", "Peso", "Costo"],
+          "righe": [["Bacchetta", "0,5 kg", "10 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "varianteDi": "Focus arcano",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-arcano-bastone",
+      "tipo": "oggetto",
+      "nome": "Focus arcano (bastone)",
+      "pagina": 225,
+      "tabelle": [
+        {
+          "titolo": "Focus arcani",
+          "pagina": 225,
+          "colonne": ["Focus", "Peso", "Costo"],
+          "righe": [["Bastone (anche bastone ferrato)", "2 kg", "5 mo"]]
+        }
+      ],
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "varianteDi": "Focus arcano",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-arcano-cristallo",
+      "tipo": "oggetto",
+      "nome": "Focus arcano (cristallo)",
+      "pagina": 225,
+      "tabelle": [
+        {
+          "titolo": "Focus arcani",
+          "pagina": 225,
+          "colonne": ["Focus", "Peso", "Costo"],
+          "righe": [["Cristallo", "0,5 kg", "10 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "varianteDi": "Focus arcano",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-arcano-globo",
+      "tipo": "oggetto",
+      "nome": "Focus arcano (globo)",
+      "pagina": 225,
+      "tabelle": [
+        {
+          "titolo": "Focus arcani",
+          "pagina": 225,
+          "colonne": ["Focus", "Peso", "Costo"],
+          "righe": [["Globo", "1,5 kg", "20 mo"]]
+        }
+      ],
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "20 mo",
+      "costoMo": 20,
+      "varianteDi": "Focus arcano",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-arcano-verga",
+      "tipo": "oggetto",
+      "nome": "Focus arcano (verga)",
+      "pagina": 225,
+      "tabelle": [
+        {
+          "titolo": "Focus arcani",
+          "pagina": 225,
+          "colonne": ["Focus", "Peso", "Costo"],
+          "righe": [["Verga", "1 kg", "10 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "varianteDi": "Focus arcano",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-druidico-bacchetta-in-legno-di-tasso",
+      "tipo": "oggetto",
+      "nome": "Focus druidico (bacchetta in legno di tasso)",
+      "pagina": 225,
+      "tabelle": [
+        {
+          "titolo": "Focus druidici",
+          "pagina": 225,
+          "colonne": ["Focus", "Peso", "Costo"],
+          "righe": [["Bacchetta in legno di tasso", "0,5 kg", "10 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "varianteDi": "Focus druidico",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-druidico-bastone-di-legno",
+      "tipo": "oggetto",
+      "nome": "Focus druidico (bastone di legno)",
+      "pagina": 225,
+      "tabelle": [
+        {
+          "titolo": "Focus druidici",
+          "pagina": 225,
+          "colonne": ["Focus", "Peso", "Costo"],
+          "righe": [["Bastone di legno (anche bastone ferrato)", "2 kg", "5 mo"]]
+        }
+      ],
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "varianteDi": "Focus druidico",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:focus-druidico-rametto-di-vischio",
+      "tipo": "oggetto",
+      "nome": "Focus druidico (rametto di vischio)",
+      "pagina": 225,
+      "tabelle": [
+        {
+          "titolo": "Focus druidici",
+          "pagina": 225,
+          "colonne": ["Focus", "Peso", "Costo"],
+          "righe": [["Rametto di vischio", "—", "1 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "varianteDi": "Focus druidico",
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
