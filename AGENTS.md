@@ -14,3 +14,12 @@ Questa regola si applica a tutte le modifiche e verifiche relative ai contenuti 
 - L'interfaccia è in italiano ed è pensata per l'uso mobile.
 - Il progetto usa Next.js 16: prima di modificare API o convenzioni del framework, consultare la documentazione installata in `node_modules/next/dist/docs/`.
 - Verificare la destinazione configurata prima di eseguire operazioni di scrittura sul database o modifiche allo schema.
+
+## Lavoro parallelo sul piano 2024
+
+Per i task di `PLAN_ADEGUAMENTO_2024.md`, prima di modificare contenuti:
+
+1. Su `main` pulito, fare `git pull --ff-only origin main` e rileggere `docs/adeguamento-2024/stato/<ID>.json` e le dipendenze.
+2. Prendere soltanto un task `da_fare` con dipendenze `completato`: segnare `in_corso`, assegnatario, branch e ora UTC nel **suo** file di stato; committare soltanto quel file e fare subito push su `main`.
+3. Iniziare il branch di lavoro soltanto dopo il push riuscito. Se il push è rifiutato, aggiornarsi e ricontrollare lo stato: non fare force push né iniziare un task già preso da un'altra AI.
+4. Registrare pagine PDF, modifiche e prove in `docs/adeguamento-2024/evidenze/<ID>.md`. Seguire il protocollo di chiusura del piano per `pronto`, `completato` e `aperto`.
