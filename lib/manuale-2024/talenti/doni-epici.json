@@ -4,5 +4,228 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "talento:dono-dell-abilita",
+      "tipo": "talento",
+      "nome": "Dono dell'abilità",
+      "testo": [
+        {
+          "pagina": 210,
+          "da": "Dono dell'abilità",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono delle abilità di combattimento"
+        }
+      ],
+      "pagina": 210,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["tutte le abilità. Maestria.", "tutte le abilità.\n\nMaestria."]]
+    },
+    {
+      "id": "talento:dono-delle-abilita-di-combattimento",
+      "tipo": "talento",
+      "nome": "Dono delle abilità di combattimento",
+      "testo": [
+        {
+          "pagina": 210,
+          "da": "Dono delle abilità di combattimento",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono del fato"
+        }
+      ],
+      "pagina": 210,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:dono-del-fato",
+      "tipo": "talento",
+      "nome": "Dono del fato",
+      "testo": [
+        {
+          "pagina": 210,
+          "da": "Dono del fato",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono dell'offensiva irresistibile"
+        }
+      ],
+      "pagina": 210,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:dono-dell-offensiva-irresistibile",
+      "tipo": "talento",
+      "nome": "Dono dell'offensiva irresistibile",
+      "testo": [
+        {
+          "pagina": 210,
+          "da": "Dono dell'offensiva irresistibile",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono del recupero"
+        }
+      ],
+      "pagina": 210,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["massimo di 30. Ignora difese.", "massimo di 30.\n\nIgnora difese."]]
+    },
+    {
+      "id": "talento:dono-del-recupero",
+      "tipo": "talento",
+      "nome": "Dono del recupero",
+      "testo": [
+        {
+          "pagina": 210,
+          "da": "Dono del recupero",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono della resistenza all'energia"
+        }
+      ],
+      "pagina": 210,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:dono-della-resistenza-all-energia",
+      "tipo": "talento",
+      "nome": "Dono della resistenza all'energia",
+      "testo": [
+        {
+          "pagina": 211,
+          "da": "Dono della resistenza all'energia",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono del richiamo degli incantesimi"
+        }
+      ],
+      "pagina": 211,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:dono-del-richiamo-degli-incantesimi",
+      "tipo": "talento",
+      "nome": "Dono del richiamo degli incantesimi",
+      "testo": [
+        {
+          "pagina": 211,
+          "da": "Dono del richiamo degli incantesimi",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore, privilegio Incantesimi)",
+          "a": "Dono dello spirito notturno"
+        }
+      ],
+      "pagina": 211,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore, privilegio Incantesimi",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:dono-dello-spirito-notturno",
+      "tipo": "talento",
+      "nome": "Dono dello spirito notturno",
+      "testo": [
+        {
+          "pagina": 211,
+          "da": "Dono dello spirito notturno",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono della tempra"
+        }
+      ],
+      "pagina": 211,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["o una reazione. Forma d'ombra.", "o una reazione.\n\nForma d'ombra."]]
+    },
+    {
+      "id": "talento:dono-della-tempra",
+      "tipo": "talento",
+      "nome": "Dono della tempra",
+      "testo": [
+        {
+          "pagina": 211,
+          "da": "Dono della tempra",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono della velocità"
+        }
+      ],
+      "pagina": 211,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["pari al\n\nsuo modificatore", "pari al suo modificatore"]]
+    },
+    {
+      "id": "talento:dono-della-velocita",
+      "tipo": "talento",
+      "nome": "Dono della velocità",
+      "testo": [
+        {
+          "pagina": 211,
+          "da": "Dono della velocità",
+          "dopo": "Talento Dono epico (prerequisito: 19° livello o superiore)",
+          "a": "Dono del viaggio dimensionale"
+        }
+      ],
+      "pagina": 211,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Artista dellafuga.", "Artista della fuga."]]
+    },
+    {
+      "id": "talento:dono-del-viaggio-dimensionale",
+      "tipo": "talento",
+      "nome": "Dono del viaggio dimensionale",
+      "testo": [
+        {
+          "pagina": 211,
+          "da": "Dono del viaggio dimensionale",
+          "dopo": "Talento Dono epico (prerequisito: 19°livello o superiore)",
+          "a": "Dono della vista pura"
+        }
+      ],
+      "pagina": 211,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Passifulminei.", "Passi fulminei."]]
+    },
+    {
+      "id": "talento:dono-della-vista-pura",
+      "tipo": "talento",
+      "nome": "Dono della vista pura",
+      "testo": [
+        {
+          "pagina": 211,
+          "da": "Dono della vista pura",
+          "dopo": "Talento Dono epico (prerequisito: 19°livello o superiore)"
+        }
+      ],
+      "pagina": 211,
+      "categoria": "Dono epico",
+      "prerequisito": "19° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["ottienevista", "ottiene vista"]]
+    }
+  ]
 }
