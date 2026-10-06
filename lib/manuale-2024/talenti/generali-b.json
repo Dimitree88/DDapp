@@ -4,5 +4,402 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "talento:incantatore-rituale",
+      "tipo": "talento",
+      "nome": "Incantatore rituale",
+      "testo": [
+        {
+          "pagina": 205,
+          "da": "Incantatore rituale",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Intelligenza, Saggezza o Carisma 13 o superiore)",
+          "a": "Lottatore"
+        }
+      ],
+      "pagina": 205,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Intelligenza, Saggezza o Carisma 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:lottatore",
+      "tipo": "talento",
+      "nome": "Lottatore",
+      "testo": [
+        {
+          "pagina": 205,
+          "da": "Lottatore",
+          "dopo": "Talento Generale (prerequisito: 4°livello o superiore, Forza o Destrezza 13 o superiore)",
+          "a": "Maestria dei veleni"
+        }
+      ],
+      "pagina": 205,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Forza o Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:maestria-dei-veleni",
+      "tipo": "talento",
+      "nome": "Maestria dei veleni",
+      "testo": [
+        {
+          "pagina": 206,
+          "da": "Maestria dei veleni",
+          "dopo": "Talento Generale (prerequisito: 4°livello o superiore)",
+          "a": "Maestro d'armi"
+        }
+      ],
+      "pagina": 206,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:maestro-d-armi",
+      "tipo": "talento",
+      "nome": "Maestro d'armi",
+      "testo": [
+        {
+          "pagina": 206,
+          "da": "Maestro d'armi",
+          "dopo": "Talento Generale (prerequisito: 4°livello o superiore)",
+          "a": "Maestro d'armi possenti"
+        }
+      ],
+      "pagina": 206,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["dipadronanza", "di padronanza"]]
+    },
+    {
+      "id": "talento:maestro-d-armi-possenti",
+      "tipo": "talento",
+      "nome": "Maestro d'armi possenti",
+      "testo": [
+        {
+          "pagina": 206,
+          "da": "Maestro d'armi possenti",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Forza 13 o superiore)",
+          "a": "Maestro degli scudi"
+        }
+      ],
+      "pagina": 206,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Forza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["armipesanti", "armi pesanti"]]
+    },
+    {
+      "id": "talento:maestro-degli-scudi",
+      "tipo": "talento",
+      "nome": "Maestro degli scudi",
+      "testo": [
+        {
+          "pagina": 206,
+          "da": "Maestro degli scudi",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Competenza negliscudi)",
+          "a": "Maestro delle armature medie"
+        }
+      ],
+      "pagina": 206,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Competenza negli scudi",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["\n\nD z ľ <.J i'i", ""]]
+    },
+    {
+      "id": "talento:maestro-delle-armature-medie",
+      "tipo": "talento",
+      "nome": "Maestro delle armature medie",
+      "testo": [
+        {
+          "pagina": 207,
+          "da": "Maestro delle armature medie",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Competenza nelle armature medie)",
+          "a": "Maestro delle armature pesanti"
+        }
+      ],
+      "pagina": 207,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Competenza nelle armature medie",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["conarmatura", "con armatura"]]
+    },
+    {
+      "id": "talento:maestro-delle-armature-pesanti",
+      "tipo": "talento",
+      "nome": "Maestro delle armature pesanti",
+      "testo": [
+        {
+          "pagina": 207,
+          "da": "Maestro delle armature pesanti",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Competenza nelle armaturepesanti)",
+          "a": "Maestro delle armi su asta"
+        }
+      ],
+      "pagina": 207,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Competenza nelle armature pesanti",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:maestro-delle-armi-su-asta",
+      "tipo": "talento",
+      "nome": "Maestro delle armi su asta",
+      "testo": [
+        {
+          "pagina": 207,
+          "da": "Maestro delle armi su asta",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Forza o Destrezza 13 o superiore)",
+          "a": "Martello vivente"
+        }
+      ],
+      "pagina": 207,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Forza o Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["massimo di 20. Colpo d'asta.", "massimo di 20.\n\nColpo d'asta."]]
+    },
+    {
+      "id": "talento:martello-vivente",
+      "tipo": "talento",
+      "nome": "Martello vivente",
+      "testo": [
+        {
+          "pagina": 207,
+          "da": "Martello vivente",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Mente acuta"
+        }
+      ],
+      "pagina": 207,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:mente-acuta",
+      "tipo": "talento",
+      "nome": "Mente acuta",
+      "testo": [
+        {
+          "pagina": 207,
+          "da": "Mente acuta",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Intelligenza13 o superiore)",
+          "a": "Osservatore"
+        }
+      ],
+      "pagina": 207,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Intelligenza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:osservatore",
+      "tipo": "talento",
+      "nome": "Osservatore",
+      "testo": [
+        {
+          "pagina": 207,
+          "da": "Osservatore",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Intelligenza o Saggezza 13 o superiore)",
+          "a": "Rapidità"
+        }
+      ],
+      "pagina": 207,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Intelligenza o Saggezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["abilità:\n\nIntuizione", "abilità: Intuizione"]]
+    },
+    {
+      "id": "talento:rapidita",
+      "tipo": "talento",
+      "nome": "Rapidità",
+      "testo": [
+        {
+          "pagina": 207,
+          "da": "Rapidità",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Destrezza o Costituzione13 o superiore)",
+          "a": "Resiliente"
+        }
+      ],
+      "pagina": 207,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Destrezza o Costituzione 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:resiliente",
+      "tipo": "talento",
+      "nome": "Resiliente",
+      "testo": [
+        {
+          "pagina": 208,
+          "da": "Resiliente",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Sentinella"
+        }
+      ],
+      "pagina": 208,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:sentinella",
+      "tipo": "talento",
+      "nome": "Sentinella",
+      "testo": [
+        {
+          "pagina": 208,
+          "da": "Sentinella",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Forza o Destrezza 13 o superiore)",
+          "a": "Sterminatore di maghi"
+        }
+      ],
+      "pagina": 208,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Forza o Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["massimo di 20. Guardiano.", "massimo di 20.\n\nGuardiano."],
+        ["contro la creatura. Fermo.", "contro la creatura.\n\nFermo."]
+      ]
+    },
+    {
+      "id": "talento:sterminatore-di-maghi",
+      "tipo": "talento",
+      "nome": "Sterminatore di maghi",
+      "testo": [
+        {
+          "pagina": 208,
+          "da": "Sterminatore di maghi",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Stile penetrante"
+        }
+      ],
+      "pagina": 208,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["massimo di 20. Spezza-concentrazione.", "massimo di 20.\n\nSpezza-concentrazione."],
+        ["la concentrazione. Scudo mentale.", "la concentrazione.\n\nScudo mentale."]
+      ]
+    },
+    {
+      "id": "talento:stile-penetrante",
+      "tipo": "talento",
+      "nome": "Stile penetrante",
+      "testo": [
+        {
+          "pagina": 208,
+          "da": "Stile penetrante",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Telecinesi"
+        }
+      ],
+      "pagina": 208,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["massimo di 20. Perforazione.", "massimo di 20.\n\nPerforazione."]]
+    },
+    {
+      "id": "talento:telecinesi",
+      "tipo": "talento",
+      "nome": "Telecinesi",
+      "testo": [
+        {
+          "pagina": 208,
+          "da": "Telecinesi",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Telepatia"
+        }
+      ],
+      "pagina": 208,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["manomagica", "mano magica"]]
+    },
+    {
+      "id": "talento:telepatia",
+      "tipo": "talento",
+      "nome": "Telepatia",
+      "testo": [
+        {
+          "pagina": 208,
+          "da": "Telepatia",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Tenace"
+        }
+      ],
+      "pagina": 208,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["deipensieri", "dei pensieri"], ["preparato.\n\nPuò lanciarlo", "preparato. Può lanciarlo"]]
+    },
+    {
+      "id": "talento:tenace",
+      "tipo": "talento",
+      "nome": "Tenace",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Tenace",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Tiratore scelto"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:tiratore-scelto",
+      "tipo": "talento",
+      "nome": "Tiratore scelto",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Tiratore scelto",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Destrezza 13 o superiore)",
+          "a": "TALENTI STILE DI COMBATTIMENTO"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["di copertura. Sparo in mischia.", "di copertura.\n\nSparo in mischia."]]
+    }
+  ]
 }
