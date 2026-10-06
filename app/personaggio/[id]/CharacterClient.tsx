@@ -38,6 +38,7 @@ import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
 import { featGrants, grantedPrivileges } from "@/lib/characterGrants";
+import { operationalReminder } from "@/lib/operationalReminders";
 import { spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotals } from "@/lib/coins";
@@ -62,6 +63,16 @@ const historyTimeFormatter = new Intl.DateTimeFormat("it-IT", {
 
 const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
 const grid2 = "grid grid-cols-2 gap-2.5";
+const operationalNote = "mt-1 text-sm text-accent";
+
+function OperationalReminder({ name, sheet }: { name: string; sheet: Sheet }) {
+  const reminder = operationalReminder(name, sheet);
+  if (!reminder) return null;
+  return <p className={operationalNote}>{reminder.parts.map((part, index) =>
+    typeof part === "string" ? <Fragment key={index}>{part}</Fragment>
+      : <InfoLabel key={index} id={`incantesimo:${part.spell}`} title={part.spell} className="font-semibold underline underline-offset-2" />,
+  )}</p>;
+}
 const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
 
@@ -550,9 +561,7 @@ export default function CharacterClient({
         : grant.name}</p>
       <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
       {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
-      {grant.name === "Compagno Selvatico" && <p className="mt-1 text-sm text-ink-soft">
-        Lancia <InfoLabel id="incantesimo:Trova famiglio" title="Trova famiglio" className="font-semibold text-accent underline underline-offset-2" /> spendendo uno slot incantesimo o un uso di Forma Selvatica, senza componenti materiali.
-      </p>}
+      <OperationalReminder name={grant.name} sheet={sheet} />
       {resources.map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
     </div>;
   };
@@ -749,6 +758,7 @@ export default function CharacterClient({
                 return <div key={`${pr.titolo}:${index}`} className={card}>
                   <p className="text-sm font-semibold text-ink"><InfoLabel id={`privilegio:${savedIndex}`} title={pr.titolo || "Privilegio"} /></p>
                   {pr.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{pr.scelte}</p>}
+                  <OperationalReminder name={pr.titolo} sheet={sheet} />
                 </div>;
               })}
             </div>
@@ -772,12 +782,14 @@ export default function CharacterClient({
                   <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
                   {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
                   {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
+                  <OperationalReminder name={grant.name} sheet={sheet} />
                   {(sheet.risorse ?? []).filter((resource) => resource.fonte.toLocaleLowerCase("it").includes(grant.name.toLocaleLowerCase("it")))
                     .map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
                 </div>)}
               {recordedOtherFeats.map((talento, index) => <div key={`${talento.nome}:${index}`} className={card}>
                 <p className="text-sm font-semibold text-ink"><InfoLabel id={`valore:talento:${talento.nome}`} title={talento.nome || "Talento"} /></p>
                 {talento.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{talento.scelte}</p>}
+                <OperationalReminder name={talento.nome} sheet={sheet} />
               </div>)}
             </div>
           </section>
