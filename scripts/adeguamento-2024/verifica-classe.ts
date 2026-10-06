@@ -67,8 +67,11 @@ export function differenzeProgressione(classe: string): string[] {
     const livello = indice + 1;
     if (riga[0] !== String(livello)) differenze.push(`riga ${livello}: livello ${riga[0]}`);
     if (riga[1] !== proficiencyBonus(String(livello))) differenze.push(`livello ${livello}: bonus ${riga[1]} ≠ ${proficiencyBonus(String(livello))}`);
-    const nomi = riga[colonnaPrivilegi] === "—" ? [] : riga[colonnaPrivilegi].split(/, (?=[A-ZÀ-Üa-zà-ü])/).map(chiaveRicerca);
     const attesi = concessioni.filter((item) => item.level === livello).map((item) => chiaveRicerca(item.name));
+    // «Druidico, incantesimi e ordine primordiale»: l'ultima «e» separa due privilegi se il nome intero non esiste.
+    const nomi = (riga[colonnaPrivilegi] === "—" ? [] : riga[colonnaPrivilegi].split(/, (?=[A-ZÀ-Üa-zà-ü])/))
+      .flatMap((nome) => attesi.includes(chiaveRicerca(nome)) || giaVisti.has(chiaveRicerca(nome)) ? [nome] : nome.split(" e "))
+      .map(chiaveRicerca);
     for (const nome of nomi) {
       if (nome === chiaveRicerca("Privilegio della sottoclasse")) {
         if (!livelliSottoclasse.has(livello)) differenze.push(`livello ${livello}: nessun privilegio di sottoclasse`);
