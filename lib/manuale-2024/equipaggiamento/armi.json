@@ -3,6 +3,1359 @@
   "modulo": "E01",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:armi",
+      "tipo": "etichetta",
+      "nome": "Armi",
+      "testo": [
+        { "pagina": 213, "da": "Armi", "n": 2, "a": "Vendere" },
+        { "pagina": 213, "da": "Danni.", "includiDa": true, "a": "Competenza nelle armi" }
+      ],
+      "pagina": 213,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["armi semplici. Da mischia e a distanza.", "armi semplici.\n\nDa mischia e a distanza."],
+        ["sezione Proprietà. Padronanza.", "sezione Proprietà.\n\nPadronanza."]
+      ]
+    },
+    {
+      "id": "etichetta:competenze-armi",
+      "tipo": "etichetta",
+      "nome": "Competenze armi",
+      "alias": ["Competenza nelle armi"],
+      "testo": [
+        { "pagina": 213, "da": "Competenza nelle armi", "a": "Proprietà" },
+        { "pagina": 14, "da": "Armi. Chiunque", "includiDa": true, "a": "Strumenti. Se" }
+      ],
+      "pagina": 213,
+      "pagine": [14],
+      "righeMatrice": ["armi.competenze-armi.etichetta"],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "etichetta:padronanze",
+      "tipo": "etichetta",
+      "nome": "Padronanze scelte",
+      "alias": ["Proprietà di padronanza"],
+      "testo": [
+        { "pagina": 214, "da": "Proprietà di padronanza", "a": "Colpo di striscio" },
+        { "pagina": 213, "da": "Padronanza.", "includiDa": true, "a": "Competenza nelle armi" }
+      ],
+      "pagina": 214,
+      "pagine": [213],
+      "righeMatrice": ["armi.padronanze.etichetta"],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "categoria-armi:semplici",
+      "tipo": "categoria",
+      "nome": "Armi semplici",
+      "testo": [{ "pagina": 213, "da": "Categoria.", "includiDa": true, "a": "Da mischia e a distanza." }],
+      "pagina": 213,
+      "pagine": [215],
+      "tabelle": [
+        {
+          "titolo": "Armi semplici",
+          "pagina": 215,
+          "colonne": ["Arma"],
+          "righe": [
+            ["Ascia"],
+            ["Bastone ferrato"],
+            ["Falcetto"],
+            ["Giavellotto"],
+            ["Lancia"],
+            ["Martello leggero"],
+            ["Mazza"],
+            ["Pugnale"],
+            ["Randello pesante"],
+            ["Randello"],
+            ["Arco corto"],
+            ["Balestra leggera"],
+            ["Dardo"],
+            ["Fionda"]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "categoria-armi:da-guerra",
+      "tipo": "categoria",
+      "nome": "Armi da guerra",
+      "testo": [{ "pagina": 213, "da": "Categoria.", "includiDa": true, "a": "Da mischia e a distanza." }],
+      "pagina": 213,
+      "pagine": [215],
+      "tabelle": [
+        {
+          "titolo": "Armi da guerra",
+          "pagina": 215,
+          "colonne": ["Arma"],
+          "righe": [
+            ["Alabarda"],
+            ["Ascia bipenne"],
+            ["Ascia da battaglia"],
+            ["Falcione"],
+            ["Frusta"],
+            ["Lancia da cavaliere"],
+            ["Maglio"],
+            ["Martello da guerra"],
+            ["Mazza chiodata"],
+            ["Mazzafrusto"],
+            ["Picca"],
+            ["Scimitarra"],
+            ["Spada corta"],
+            ["Spada lunga"],
+            ["Spadone"],
+            ["Stocco"],
+            ["Tridente"],
+            ["Piccone da guerra"],
+            ["Arco lungo"],
+            ["Balestra a mano"],
+            ["Balestra pesante"],
+            ["Cerbottana"],
+            ["Moschetto"],
+            ["Pistola"]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "categoria-armi:da-guerra-leggere",
+      "tipo": "categoria",
+      "nome": "Armi da guerra leggere",
+      "testo": [
+        {
+          "pagina": 123,
+          "da": "Armi semplici e armi da guerra con",
+          "includiDa": true,
+          "a": "Competenze Un tipo"
+        }
+      ],
+      "pagina": 213,
+      "pagine": [123, 215],
+      "tabelle": [
+        {
+          "titolo": "Armi da guerra leggere",
+          "pagina": 215,
+          "colonne": ["Arma"],
+          "righe": [["Scimitarra"], ["Spada corta"], ["Balestra a mano"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "Armi semplici e armi da guerra con\nnelle armi · la proprietà leggera",
+          "Armi semplici e armi da guerra con la proprietà leggera"
+        ]
+      ]
+    },
+    {
+      "id": "categoria-armi:da-guerra-accurate-o-leggere",
+      "tipo": "categoria",
+      "nome": "Armi da guerra accurate o leggere",
+      "testo": [
+        {
+          "pagina": 101,
+          "da": "Armi semplici e armi da guerra con",
+          "includiDa": true,
+          "a": "Competenze Arnesi da scasso"
+        }
+      ],
+      "pagina": 213,
+      "pagine": [101, 215],
+      "tabelle": [
+        {
+          "titolo": "Armi da guerra accurate o leggere",
+          "pagina": 215,
+          "colonne": ["Arma"],
+          "righe": [["Frusta"], ["Scimitarra"], ["Spada corta"], ["Stocco"], ["Balestra a mano"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "Armi semplici e armi da guerra con\nnelle armi · la proprietà accurata o leggera",
+          "Armi semplici e armi da guerra con la proprietà accurata o leggera"
+        ]
+      ]
+    },
+    {
+      "id": "arma:ascia",
+      "tipo": "arma",
+      "nome": "Ascia",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Ascia", "1d6 taglienti", "Lancio (gittata 6/18), leggera", "Vessazione", "1 kg", "5 mo"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d6 taglienti",
+      "proprieta": ["Lancio (gittata 6/18)", "Leggera"],
+      "padronanza": "Vessazione",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:bastone-ferrato",
+      "tipo": "arma",
+      "nome": "Bastone ferrato",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Bastone ferrato", "1d6 contundenti", "Versatile (1d8)", "Rovesciamento", "2 kg", "2 ma"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d6 contundenti",
+      "proprieta": ["Versatile (1d8)"],
+      "padronanza": "Rovesciamento",
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "2 ma",
+      "costoMo": 0.2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:falcetto",
+      "tipo": "arma",
+      "nome": "Falcetto",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Falcetto", "1d4 taglienti", "Leggera", "Graffio", "1 kg", "1 mo"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d4 taglienti",
+      "proprieta": ["Leggera"],
+      "padronanza": "Graffio",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:giavellotto",
+      "tipo": "arma",
+      "nome": "Giavellotto",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Giavellotto", "1d6 perforanti", "Lancio (gittata 9/36)", "Lentezza", "1 kg", "5 ma"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d6 perforanti",
+      "proprieta": ["Lancio (gittata 9/36)"],
+      "padronanza": "Lentezza",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "5 ma",
+      "costoMo": 0.5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:lancia",
+      "tipo": "arma",
+      "nome": "Lancia",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Lancia",
+              "1d6 perforanti",
+              "Lancio (gittata 6/18), versatile (1d8)",
+              "Prosciugamento",
+              "1,5 kg",
+              "1 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d6 perforanti",
+      "proprieta": ["Lancio (gittata 6/18)", "Versatile (1d8)"],
+      "padronanza": "Prosciugamento",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:martello-leggero",
+      "tipo": "arma",
+      "nome": "Martello leggero",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Martello leggero",
+              "1d4 contundenti",
+              "Lancio (gittata 6/18), leggera",
+              "Graffio",
+              "1 kg",
+              "2 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d4 contundenti",
+      "proprieta": ["Lancio (gittata 6/18)", "Leggera"],
+      "padronanza": "Graffio",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:mazza",
+      "tipo": "arma",
+      "nome": "Mazza",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Mazza", "1d6 contundenti", "—", "Prosciugamento", "2 kg", "5 mo"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d6 contundenti",
+      "proprieta": [],
+      "padronanza": "Prosciugamento",
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:pugnale",
+      "tipo": "arma",
+      "nome": "Pugnale",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Pugnale",
+              "1d4 perforanti",
+              "Accurata, lancio (gittata 6/18), leggera",
+              "Graffio",
+              "0,5 kg",
+              "2 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d4 perforanti",
+      "proprieta": ["Accurata", "Lancio (gittata 6/18)", "Leggera"],
+      "padronanza": "Graffio",
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:randello-pesante",
+      "tipo": "arma",
+      "nome": "Randello pesante",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Randello pesante", "1d8 contundenti", "Due mani", "Spinta", "5 kg", "2 ma"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d8 contundenti",
+      "proprieta": ["Due mani"],
+      "padronanza": "Spinta",
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "costo": "2 ma",
+      "costoMo": 0.2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:randello",
+      "tipo": "arma",
+      "nome": "Randello",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Randello", "1d4 contundenti", "Leggera", "Lentezza", "1 kg", "1 ma"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "mischia",
+      "danni": "1d4 contundenti",
+      "proprieta": ["Leggera"],
+      "padronanza": "Lentezza",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "1 ma",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:arco-corto",
+      "tipo": "arma",
+      "nome": "Arco corto",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Arco corto",
+              "1d6 perforanti",
+              "Due mani, munizioni (gittata 24/96; freccia)",
+              "Vessazione",
+              "1 kg",
+              "25 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "distanza",
+      "danni": "1d6 perforanti",
+      "proprieta": ["Due mani", "Munizioni (gittata 24/96; freccia)"],
+      "padronanza": "Vessazione",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:balestra-leggera",
+      "tipo": "arma",
+      "nome": "Balestra leggera",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Balestra leggera",
+              "1d8 perforanti",
+              "Due mani, munizioni (gittata 24/96; quadrello), ricarica",
+              "Lentezza",
+              "2,5 kg",
+              "25 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "distanza",
+      "danni": "1d8 perforanti",
+      "proprieta": ["Due mani", "Munizioni (gittata 24/96; quadrello)", "Ricarica"],
+      "padronanza": "Lentezza",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:dardo",
+      "tipo": "arma",
+      "nome": "Dardo",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Dardo", "1d4 perforanti", "Accurata, lancio (gittata 6/18)", "Vessazione", "0,125 kg", "5 mr"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "distanza",
+      "danni": "1d4 perforanti",
+      "proprieta": ["Accurata", "Lancio (gittata 6/18)"],
+      "padronanza": "Vessazione",
+      "peso": "0,125 kg",
+      "pesoKg": 0.125,
+      "costo": "5 mr",
+      "costoMo": 0.05,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:fionda",
+      "tipo": "arma",
+      "nome": "Fionda",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza semplici",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Fionda", "1d4 contundenti", "Munizioni (gittata 9/36; proiettile)", "Lentezza", "—", "1 ma"]]
+        }
+      ],
+      "categoria": "semplice",
+      "attacco": "distanza",
+      "danni": "1d4 contundenti",
+      "proprieta": ["Munizioni (gittata 9/36; proiettile)"],
+      "padronanza": "Lentezza",
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 ma",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:alabarda",
+      "tipo": "arma",
+      "nome": "Alabarda",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Alabarda", "1d10 taglienti", "Due mani, pesante, portata", "Doppio fendente", "3 kg", "20 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d10 taglienti",
+      "proprieta": ["Due mani", "Pesante", "Portata"],
+      "padronanza": "Doppio fendente",
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "20 mo",
+      "costoMo": 20,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:ascia-bipenne",
+      "tipo": "arma",
+      "nome": "Ascia bipenne",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Ascia bipenne", "1d12 taglienti", "Due mani, pesante", "Doppio fendente", "3,5 kg", "30 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d12 taglienti",
+      "proprieta": ["Due mani", "Pesante"],
+      "padronanza": "Doppio fendente",
+      "peso": "3,5 kg",
+      "pesoKg": 3.5,
+      "costo": "30 mo",
+      "costoMo": 30,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:ascia-da-battaglia",
+      "tipo": "arma",
+      "nome": "Ascia da battaglia",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Ascia da battaglia", "1d8 taglienti", "Versatile (1d10)", "Rovesciamento", "2 kg", "10 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d8 taglienti",
+      "proprieta": ["Versatile (1d10)"],
+      "padronanza": "Rovesciamento",
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:falcione",
+      "tipo": "arma",
+      "nome": "Falcione",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Falcione", "1d10 taglienti", "Due mani, pesante, portata", "Colpo di striscio", "3 kg", "20 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d10 taglienti",
+      "proprieta": ["Due mani", "Pesante", "Portata"],
+      "padronanza": "Colpo di striscio",
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "20 mo",
+      "costoMo": 20,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:frusta",
+      "tipo": "arma",
+      "nome": "Frusta",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Frusta", "1d4 taglienti", "Accurata, portata", "Lentezza", "1,5 kg", "2 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d4 taglienti",
+      "proprieta": ["Accurata", "Portata"],
+      "padronanza": "Lentezza",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:lancia-da-cavaliere",
+      "tipo": "arma",
+      "nome": "Lancia da cavaliere",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Lancia da cavaliere",
+              "1d10 perforanti",
+              "Due mani (eccetto in sella), pesante, portata",
+              "Rovesciamento",
+              "3 kg",
+              "10 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d10 perforanti",
+      "proprieta": ["Due mani (eccetto in sella)", "Pesante", "Portata"],
+      "padronanza": "Rovesciamento",
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:maglio",
+      "tipo": "arma",
+      "nome": "Maglio",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Maglio", "2d6 contundenti", "Due mani, pesante", "Rovesciamento", "5 kg", "10 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "2d6 contundenti",
+      "proprieta": ["Due mani", "Pesante"],
+      "padronanza": "Rovesciamento",
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:martello-da-guerra",
+      "tipo": "arma",
+      "nome": "Martello da guerra",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Martello da guerra", "1d8 contundenti", "Versatile (1d10)", "Spinta", "2,5 kg", "15 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d8 contundenti",
+      "proprieta": ["Versatile (1d10)"],
+      "padronanza": "Spinta",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "15 mo",
+      "costoMo": 15,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:mazza-chiodata",
+      "tipo": "arma",
+      "nome": "Mazza chiodata",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Mazza chiodata", "1d8 perforanti", "—", "Prosciugamento", "2 kg", "15 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d8 perforanti",
+      "proprieta": [],
+      "padronanza": "Prosciugamento",
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "15 mo",
+      "costoMo": 15,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:mazzafrusto",
+      "tipo": "arma",
+      "nome": "Mazzafrusto",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Mazzafrusto", "1d8 contundenti", "—", "Prosciugamento", "1 kg", "10 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d8 contundenti",
+      "proprieta": [],
+      "padronanza": "Prosciugamento",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:picca",
+      "tipo": "arma",
+      "nome": "Picca",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Picca", "1d10 perforanti", "Due mani, pesante, portata", "Spinta", "9 kg", "5 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d10 perforanti",
+      "proprieta": ["Due mani", "Pesante", "Portata"],
+      "padronanza": "Spinta",
+      "peso": "9 kg",
+      "pesoKg": 9,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:scimitarra",
+      "tipo": "arma",
+      "nome": "Scimitarra",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Scimitarra", "1d6 taglienti", "Accurata, leggera", "Graffio", "1,5 kg", "25 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d6 taglienti",
+      "proprieta": ["Accurata", "Leggera"],
+      "padronanza": "Graffio",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:spada-corta",
+      "tipo": "arma",
+      "nome": "Spada corta",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Spada corta", "1d6 perforanti", "Accurata, leggera", "Vessazione", "1 kg", "10 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d6 perforanti",
+      "proprieta": ["Accurata", "Leggera"],
+      "padronanza": "Vessazione",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:spada-lunga",
+      "tipo": "arma",
+      "nome": "Spada lunga",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Spada lunga", "1d8 taglienti", "Versatile (1d10)", "Prosciugamento", "1,5 kg", "15 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d8 taglienti",
+      "proprieta": ["Versatile (1d10)"],
+      "padronanza": "Prosciugamento",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "15 mo",
+      "costoMo": 15,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:spadone",
+      "tipo": "arma",
+      "nome": "Spadone",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Spadone", "2d6 taglienti", "Due mani, pesante", "Colpo di striscio", "3 kg", "50 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "2d6 taglienti",
+      "proprieta": ["Due mani", "Pesante"],
+      "padronanza": "Colpo di striscio",
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:stocco",
+      "tipo": "arma",
+      "nome": "Stocco",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Stocco", "1d8 perforanti", "Accurata", "Vessazione", "1 kg", "25 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d8 perforanti",
+      "proprieta": ["Accurata"],
+      "padronanza": "Vessazione",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:tridente",
+      "tipo": "arma",
+      "nome": "Tridente",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Tridente",
+              "1d8 perforanti",
+              "Lancio (gittata 6/18), versatile (1d10)",
+              "Rovesciamento",
+              "2 kg",
+              "5 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d8 perforanti",
+      "proprieta": ["Lancio (gittata 6/18)", "Versatile (1d10)"],
+      "padronanza": "Rovesciamento",
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:piccone-da-guerra",
+      "tipo": "arma",
+      "nome": "Piccone da guerra",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi da mischia da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [["Piccone da guerra", "1d8 perforanti", "Versatile (1d10)", "Prosciugamento", "1 kg", "5 mo"]]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "mischia",
+      "danni": "1d8 perforanti",
+      "proprieta": ["Versatile (1d10)"],
+      "padronanza": "Prosciugamento",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:arco-lungo",
+      "tipo": "arma",
+      "nome": "Arco lungo",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Arco lungo",
+              "1d8 perforanti",
+              "Due mani, munizioni (gittata 45/180; freccia), pesante",
+              "Lentezza",
+              "1 kg",
+              "50 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "distanza",
+      "danni": "1d8 perforanti",
+      "proprieta": ["Due mani", "Munizioni (gittata 45/180; freccia)", "Pesante"],
+      "padronanza": "Lentezza",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:balestra-a-mano",
+      "tipo": "arma",
+      "nome": "Balestra a mano",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Balestra a mano",
+              "1d6 perforanti",
+              "Leggera, munizioni (gittata 9/36; quadrello), ricarica",
+              "Vessazione",
+              "1,5 kg",
+              "75 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "distanza",
+      "danni": "1d6 perforanti",
+      "proprieta": ["Leggera", "Munizioni (gittata 9/36; quadrello)", "Ricarica"],
+      "padronanza": "Vessazione",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "75 mo",
+      "costoMo": 75,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:balestra-pesante",
+      "tipo": "arma",
+      "nome": "Balestra pesante",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Balestra pesante",
+              "1d10 perforanti",
+              "Due mani, munizioni (gittata 30/120; quadrello), pesante, ricarica",
+              "Spinta",
+              "9 kg",
+              "50 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "distanza",
+      "danni": "1d10 perforanti",
+      "proprieta": ["Due mani", "Munizioni (gittata 30/120; quadrello)", "Pesante", "Ricarica"],
+      "padronanza": "Spinta",
+      "peso": "9 kg",
+      "pesoKg": 9,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:cerbottana",
+      "tipo": "arma",
+      "nome": "Cerbottana",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Cerbottana",
+              "1 perforante",
+              "Munizioni (gittata 7/30; ago), ricarica",
+              "Vessazione",
+              "0,5 kg",
+              "10 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "distanza",
+      "danni": "1 perforante",
+      "proprieta": ["Munizioni (gittata 7/30; ago)", "Ricarica"],
+      "padronanza": "Vessazione",
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:moschetto",
+      "tipo": "arma",
+      "nome": "Moschetto",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Moschetto",
+              "1d12 perforanti",
+              "Due mani, munizioni (gittata 12/36; proiettile), ricarica",
+              "Lentezza",
+              "5 kg",
+              "500 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "distanza",
+      "danni": "1d12 perforanti",
+      "proprieta": ["Due mani", "Munizioni (gittata 12/36; proiettile)", "Ricarica"],
+      "padronanza": "Lentezza",
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "costo": "500 mo",
+      "costoMo": 500,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "arma:pistola",
+      "tipo": "arma",
+      "nome": "Pistola",
+      "pagina": 215,
+      "tabelle": [
+        {
+          "titolo": "Armi — Armi a distanza da guerra",
+          "pagina": 215,
+          "colonne": ["Nome", "Danni", "Proprietà", "Padronanza", "Peso", "Costo"],
+          "righe": [
+            [
+              "Pistola",
+              "1d10 perforanti",
+              "Munizioni (gittata 9/27; proiettile), ricarica",
+              "Vessazione",
+              "1,5 kg",
+              "250 mo"
+            ]
+          ]
+        }
+      ],
+      "categoria": "da guerra",
+      "attacco": "distanza",
+      "danni": "1d10 perforanti",
+      "proprieta": ["Munizioni (gittata 9/27; proiettile)", "Ricarica"],
+      "padronanza": "Vessazione",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "250 mo",
+      "costoMo": 250,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:a-due-mani",
+      "tipo": "proprietaArma",
+      "nome": "A due mani",
+      "testo": [{ "pagina": 213, "da": "A due mani", "a": "Accurata" }],
+      "pagina": 213,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:accurata",
+      "tipo": "proprietaArma",
+      "nome": "Accurata",
+      "testo": [{ "pagina": 213, "da": "Accurata", "a": "Gittata" }],
+      "pagina": 213,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:gittata",
+      "tipo": "proprietaArma",
+      "nome": "Gittata",
+      "testo": [{ "pagina": 213, "da": "Gittata", "a": "Lancio", "na": 2 }],
+      "pagina": 213,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:lancio",
+      "tipo": "proprietaArma",
+      "nome": "Lancio",
+      "testo": [{ "pagina": 213, "da": "Lancio", "n": 2, "finePagina": true }],
+      "pagina": 213,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:leggera",
+      "tipo": "proprietaArma",
+      "nome": "Leggera",
+      "testo": [{ "pagina": 214, "da": "Leggera", "a": "Munizioni" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:munizioni",
+      "tipo": "proprietaArma",
+      "nome": "Munizioni",
+      "testo": [{ "pagina": 214, "da": "Munizioni", "a": "Pesante" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:pesante",
+      "tipo": "proprietaArma",
+      "nome": "Pesante",
+      "testo": [{ "pagina": 214, "da": "Pesante", "a": "Portata" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:portata",
+      "tipo": "proprietaArma",
+      "nome": "Portata",
+      "testo": [{ "pagina": 214, "da": "Portata", "a": "Ricarica" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:ricarica",
+      "tipo": "proprietaArma",
+      "nome": "Ricarica",
+      "testo": [{ "pagina": 214, "da": "Ricarica", "a": "Versatile" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "proprieta-arma:versatile",
+      "tipo": "proprietaArma",
+      "nome": "Versatile",
+      "testo": [{ "pagina": 214, "da": "Versatile", "a": "Proprietà di padronanza" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["due mani.\n\nInsieme alla proprietà", "due mani. Insieme alla proprietà"]]
+    },
+    {
+      "id": "padronanza:colpo-di-striscio",
+      "tipo": "padronanza",
+      "nome": "Colpo di striscio",
+      "testo": [{ "pagina": 214, "da": "Colpo di striscio", "a": "Doppio fendente" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "padronanza:doppio-fendente",
+      "tipo": "padronanza",
+      "nome": "Doppio fendente",
+      "testo": [{ "pagina": 214, "da": "Doppio fendente", "a": "Graffio" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "padronanza:graffio",
+      "tipo": "padronanza",
+      "nome": "Graffio",
+      "testo": [{ "pagina": 214, "da": "Graffio", "a": "Lentezza" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "padronanza:lentezza",
+      "tipo": "padronanza",
+      "nome": "Lentezza",
+      "testo": [{ "pagina": 214, "da": "Lentezza", "a": "Prosciugamento" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "padronanza:prosciugamento",
+      "tipo": "padronanza",
+      "nome": "Prosciugamento",
+      "testo": [{ "pagina": 214, "da": "Prosciugamento", "a": "Rovesciamento" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "padronanza:rovesciamento",
+      "tipo": "padronanza",
+      "nome": "Rovesciamento",
+      "testo": [{ "pagina": 214, "da": "Rovesciamento", "a": "Spinta" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "padronanza:spinta",
+      "tipo": "padronanza",
+      "nome": "Spinta",
+      "testo": [{ "pagina": 214, "da": "Spinta", "a": "Vessazione" }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "padronanza:vessazione",
+      "tipo": "padronanza",
+      "nome": "Vessazione",
+      "testo": [{ "pagina": 214, "da": "Vessazione", "finePagina": true }],
+      "pagina": 214,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

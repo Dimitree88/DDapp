@@ -1,4 +1,6 @@
 {
   "dominio": "regole/attacchi",
-  "testi": {}
+  "testi": {
+    "regola:attacco-con-arma": "Attacchi. Nella sezione Armi e trucchetti da combattimento della scheda del personaggio, annota le armi di partenza. Il bonus al tiro per colpire di un'arma in cui si ha competenza è uno dei seguenti, a meno che l'arma non abbia una proprietà che indichi diversamente:\n\nBonus di attacco in mischia = il modificatore di Forza + il bonus di competenza\n\nBonus di attacco a distanza = il modificatore di Destrezza + il bonus di competenza\n\nConsulta il capitolo 6 per i danni e le proprietà delle armi. Aggiungi ai tiri per i danni con un'arma lo stesso modificatore di caratteristica che usi per gli attacchi con quell'arma.\n\nUn tiro per colpire determina se un attacco colpisce un bersaglio. Il tiro va a segno se il risultato è pari o superiore alla Classe Armatura del bersaglio. Di solito i tiri per colpire vengono effettuati in battaglia, come descritto in \"Combattimento\" più avanti in questo capitolo, ma DM potrebbe chiedere un tiro per colpire anche in altre situazioni, come in una gara di tiro con l'arco.\n\nAlcuni privilegi consentono l'uso di diversi modificatori di caratteristica tra quelli elencati. Ad esempio, la proprietà accurata (vedi capitolo 6) consente di utilizzare Forza o Destrezza con un'arma che possiede tale proprietà."
+  }
 }
