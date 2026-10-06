@@ -42,7 +42,7 @@ test("worn armor and held shield determine AC automatically", () => {
   assert.match(domainErrors(sheet).join(" "), /sola armatura/);
 });
 
-test("historical magic bonuses stay recorded without changing Manual armor class", () => {
+test("normalization removes historical magic bonuses from armor and shield", () => {
   const sheet = emptySheet();
   sheet.caratteristiche.find((item) => item.abbr === "DES").valore = "14";
   sheet.competenzeArmatura.scudi = true;
@@ -50,10 +50,12 @@ test("historical magic bonuses stay recorded without changing Manual armor class
     { nome: "Armatura di cuoio", catalogId: "armatura-di-cuoio", dettaglio: "", indossato: true, bonusMagico: 1 },
     { nome: "Scudo", catalogId: "scudo", dettaglio: "", impugnato: true, bonusMagico: 2 },
   ];
-  assert.equal(calculatedArmorClass(sheet).value, 15);
-  assert.deepEqual(domainErrors(sheet), []);
-  sheet.equipaggiamento[1].impugnato = false;
-  assert.equal(calculatedArmorClass(sheet).value, 13);
+  const normalized = normalizeSheet(sheet);
+  assert.equal(calculatedArmorClass(normalized).value, 15);
+  assert.deepEqual(normalized.equipaggiamento.map((item) => Object.hasOwn(item, "bonusMagico")), [false, false]);
+  assert.deepEqual(domainErrors(normalized), []);
+  normalized.equipaggiamento[1].impugnato = false;
+  assert.equal(calculatedArmorClass(normalized).value, 13);
 });
 
 test("automatic AC updates with Destrezza and ignores a saved manual override", () => {

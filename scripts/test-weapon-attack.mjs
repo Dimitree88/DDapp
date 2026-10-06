@@ -62,11 +62,11 @@ test("mastery is a separate explicit choice and requires proficiency", () => {
   assert.match(domainErrors({ ...chosen, padronanzeArmi: ["Pugnale", "Pugnale"] }).join(" "), /duplicate/);
 });
 
-test("a historical magic bonus stays recorded without changing Manual attack or damage", () => {
+test("normalization removes a historical magic bonus from a weapon", () => {
   const weapon = { nome: "Pugnale", quantita: "1", bonus: "", note: "", bonusMagico: 1 };
   assert.equal(weaponAttack(sheet, weapon).attack, "+6");
   assert.equal(weaponAttack(sheet, weapon).damage, "1d4 +3 perforanti");
-  assert.equal(normalizeSheet({ ...sheet, armi: [weapon] }).armi[0].bonusMagico, 1);
-  assert.deepEqual(domainErrors({ ...sheet, armi: [weapon] }), []);
-  assert.match(domainErrors({ ...sheet, armi: [{ ...weapon, bonusMagico: 0 }] }).join(" "), /bonus magico/);
+  const normalized = normalizeSheet({ ...sheet, armi: [weapon] });
+  assert.equal(Object.hasOwn(normalized.armi[0], "bonusMagico"), false);
+  assert.deepEqual(domainErrors(normalized), []);
 });

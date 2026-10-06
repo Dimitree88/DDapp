@@ -30,7 +30,6 @@ export type Arma = {
   bonus: string; // valore manuale prevalente per il tiro per colpire
   modo?: "base" | "lancio" | "dueMani";
   caratteristica?: "FOR" | "DES";
-  bonusMagico?: number;
   note: string;
 };
 
@@ -43,7 +42,6 @@ export type Equip = {
   contenitore?: string;
   indossato?: boolean;
   impugnato?: boolean;
-  bonusMagico?: number;
   magico?: boolean;
 };
 
@@ -348,14 +346,14 @@ export function normalizeSheet(value: Sheet): Sheet {
       const note = personalBonus && !(weapon.note ?? "").includes(personalBonus[1])
         ? [weapon.note, `Bonus al tiro per colpire: ${personalBonus[1]}`].filter(Boolean).join("\n")
         : weapon.note ?? "";
-      return { nome: weapon.nome, quantita: weapon.quantita?.trim() ? weapon.quantita : "1", bonus: weapon.bonus, ...(weapon.modo ? { modo: weapon.modo } : {}), ...(weapon.caratteristica ? { caratteristica: weapon.caratteristica } : {}), ...(weapon.bonusMagico ? { bonusMagico: weapon.bonusMagico } : {}), note };
+      return { nome: weapon.nome, quantita: weapon.quantita?.trim() ? weapon.quantita : "1", bonus: weapon.bonus, ...(weapon.modo ? { modo: weapon.modo } : {}), ...(weapon.caratteristica ? { caratteristica: weapon.caratteristica } : {}), note };
     }),
     equipaggiamento: old.equipaggiamento
       .filter((item) => item.nome !== "Sconto 20% su oggetti non magici")
       .map((item) => {
         const legacyArrows = !item.catalogId && !item.quantita ? /^Frecce x([1-9]\d*)$/.exec(item.nome) : null;
         const nome = legacyArrows ? "Frecce" : item.nome;
-        return { nome, ...(legacyArrows ? { catalogId: gearByName("Frecce")?.id, quantita: legacyArrows[1] } : item.catalogId ? { catalogId: item.catalogId } : {}), ...(!legacyArrows && item.quantita ? { quantita: item.quantita } : {}), ...(item.unita ? { unita: item.unita } : {}), ...(item.contenitore ? { contenitore: item.contenitore } : {}), ...(item.indossato ? { indossato: true } : {}), ...(item.impugnato ? { impugnato: true } : {}), ...(item.bonusMagico ? { bonusMagico: item.bonusMagico } : {}), ...(item.magico ? { magico: true } : {}), dettaglio:
+        return { nome, ...(legacyArrows ? { catalogId: gearByName("Frecce")?.id, quantita: legacyArrows[1] } : item.catalogId ? { catalogId: item.catalogId } : {}), ...(!legacyArrows && item.quantita ? { quantita: item.quantita } : {}), ...(item.unita ? { unita: item.unita } : {}), ...(item.contenitore ? { contenitore: item.contenitore } : {}), ...(item.indossato ? { indossato: true } : {}), ...(item.impugnato ? { impugnato: true } : {}), ...(item.magico ? { magico: true } : {}), dettaglio:
         (item.nome === "Armatura di cuoio borchiato" && item.dettaglio === "Classe armatura 12") ||
         (item.nome === "Borsa da erborista" && /^CD 10 per identificare una pianta; creazione:/.test(item.dettaglio))
           ? "" : item.dettaglio };

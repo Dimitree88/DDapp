@@ -51,10 +51,12 @@ export async function saveSheet(
     if (locked.length) return { ok: false, error: `Scelte bloccate: ${locked.join(", ")}` };
     const changes = diffSheet(previous, normalized);
     if (current.name !== cleanName) changes.unshift({ field: "Nome del personaggio", before: current.name, after: cleanName });
-    if (changes.length === 0) return { ok: true };
+    const hasRemovedBonus = [...current.data.armi, ...current.data.equipaggiamento]
+      .some((item) => Object.hasOwn(item, "bonusMagico"));
+    if (changes.length === 0 && !hasRemovedBonus) return { ok: true };
     const now = new Date();
     await tx.update(characters).set({ name: cleanName, data: normalized, updatedAt: now }).where(eq(characters.id, id));
-    await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
+    if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
     return { ok: true };
   });
   if (!result.ok) return result;

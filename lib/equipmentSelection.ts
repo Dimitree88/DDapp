@@ -34,7 +34,7 @@ export function addCatalogEquipment(items: Equip[], catalogId: string): Equip[] 
   if (!gear) return items;
   const index = items.findIndex((item) =>
     (item.catalogId === catalogId || (!item.catalogId && item.nome === gear.name)) &&
-    !item.dettaglio && !item.unita && !item.contenitore && !item.bonusMagico
+    !item.dettaglio && !item.unita && !item.contenitore
   );
   if (index < 0) return [...items, { nome: gear.name, catalogId, dettaglio: "", quantita: "1", ...(isMagicGearId(catalogId) ? { magico: true } : {}) }];
   return items.map((item, current) => current === index
@@ -45,11 +45,11 @@ export function addCatalogEquipment(items: Equip[], catalogId: string): Equip[] 
 export function mergeDuplicateCatalogEquipment(items: Equip[]): Equip[] {
   return items.reduce<Equip[]>((merged, item) => {
     const count = Number(item.quantita || "1");
-    if (!gearCatalog.some((gear) => gear.id === item.catalogId) || item.dettaglio || item.unita || item.contenitore || item.bonusMagico || item.indossato || item.impugnato || !Number.isInteger(count) || count < 0) {
+    if (!gearCatalog.some((gear) => gear.id === item.catalogId) || item.dettaglio || item.unita || item.contenitore || item.indossato || item.impugnato || !Number.isInteger(count) || count < 0) {
       merged.push(item);
       return merged;
     }
-    const index = merged.findIndex((other) => other.catalogId === item.catalogId && !other.dettaglio && !other.unita && !other.contenitore && !other.bonusMagico && !other.indossato && !other.impugnato && Number.isInteger(Number(other.quantita || "1")));
+    const index = merged.findIndex((other) => other.catalogId === item.catalogId && !other.dettaglio && !other.unita && !other.contenitore && !other.indossato && !other.impugnato && Number.isInteger(Number(other.quantita || "1")));
     if (index < 0) merged.push(item);
     else merged[index] = { ...merged[index], quantita: String(Number(merged[index].quantita || "1") + count) };
     return merged;
