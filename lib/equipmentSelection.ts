@@ -56,25 +56,55 @@ export function mergeDuplicateCatalogEquipment(items: Equip[]): Equip[] {
   }, []);
 }
 
+export function addOwnedArmor(items: Equip[], catalogId: string): Equip[] {
+  const armor = armorById(catalogId);
+  if (!armor) return items;
+  const index = items.findIndex((item) =>
+    (item.catalogId === catalogId || (!item.catalogId && item.nome === armor.name)) &&
+    !item.magico && !item.dettaglio && !item.unita && !item.contenitore &&
+    Number.isSafeInteger(Number(item.quantita ?? "1")) && Number(item.quantita ?? "1") >= 0 &&
+    Number(item.quantita ?? "1") < Number.MAX_SAFE_INTEGER,
+  );
+  if (index < 0) return [...items, { nome: armor.name, catalogId, quantita: "1", dettaglio: "" }];
+  return items.map((item, current) => current === index
+    ? { ...item, catalogId, quantita: String(Number(item.quantita ?? "1") + 1) }
+    : item);
+}
+
+export function removeOwnedArmor(items: Equip[], index: number): Equip[] {
+  const item = items[index];
+  if (!item || !isArmorEquipment(item)) return items;
+  const quantity = Number(item.quantita ?? "1");
+  if (!Number.isSafeInteger(quantity) || quantity < 1) return items;
+  if (quantity === 1) {
+    if (item.indossato || item.impugnato) return items;
+    return items.filter((_, current) => current !== index);
+  }
+  return items.map((entry, current) => current === index ? { ...entry, quantita: String(quantity - 1) } : entry);
+}
+
 export function selectWornArmor(sheet: Sheet, catalogId: string | null, preferredIndex?: number): Equip[] {
   const armor = catalogId ? armorById(catalogId) : null;
   if (catalogId && (!armor || armor.category === "scudi")) return sheet.equipaggiamento;
+  const index = !armor ? -1 : preferredIndex !== undefined && sheet.equipaggiamento[preferredIndex] &&
+    armorForEquipment(sheet.equipaggiamento[preferredIndex])?.id === catalogId &&
+    Number(sheet.equipaggiamento[preferredIndex].quantita ?? "1") > 0
+    ? preferredIndex : sheet.equipaggiamento.findIndex((item) =>
+      armorForEquipment(item)?.id === catalogId && Number(item.quantita ?? "1") > 0);
+  if (armor && index < 0) return sheet.equipaggiamento;
   const items = sheet.equipaggiamento.map((item) => ({ ...item, indossato: false }));
-  if (!armor) return items;
-  const index = preferredIndex !== undefined && items[preferredIndex]?.catalogId === catalogId
-    ? preferredIndex : items.findIndex((item) => item.catalogId === catalogId || (!item.catalogId && item.nome === armor.name));
-  if (index >= 0) items[index] = { ...items[index], catalogId: armor.id, indossato: true };
-  else items.push({ nome: armor.name, catalogId: armor.id, quantita: "1", dettaglio: "", indossato: true });
+  if (armor) items[index] = { ...items[index], catalogId: armor.id, indossato: true };
   return items;
 }
 
 export function selectHeldShield(sheet: Sheet, enabled: boolean, preferredIndex?: number): Pick<Sheet, "scudo" | "equipaggiamento"> {
+  const index = !enabled ? -1 : preferredIndex !== undefined && sheet.equipaggiamento[preferredIndex] &&
+    armorForEquipment(sheet.equipaggiamento[preferredIndex])?.category === "scudi" &&
+    Number(sheet.equipaggiamento[preferredIndex].quantita ?? "1") > 0
+    ? preferredIndex : sheet.equipaggiamento.findIndex((item) =>
+      armorForEquipment(item)?.category === "scudi" && Number(item.quantita ?? "1") > 0);
+  if (enabled && index < 0) return { scudo: sheet.scudo, equipaggiamento: sheet.equipaggiamento };
   const items = sheet.equipaggiamento.map((item) => ({ ...item, impugnato: false }));
-  if (enabled) {
-    const index = preferredIndex !== undefined && armorById(items[preferredIndex]?.catalogId ?? "")?.category === "scudi"
-      ? preferredIndex : items.findIndex((item) => armorById(item.catalogId ?? "")?.category === "scudi" || (!item.catalogId && item.nome === "Scudo"));
-    if (index >= 0) items[index] = { ...items[index], catalogId: "scudo", impugnato: true };
-    else items.push({ nome: "Scudo", catalogId: "scudo", quantita: "1", dettaglio: "", impugnato: true });
-  }
+  if (enabled) items[index] = { ...items[index], catalogId: "scudo", impugnato: true };
   return { scudo: enabled, equipaggiamento: items };
 }

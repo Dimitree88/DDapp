@@ -111,6 +111,7 @@ export function domainErrors(sheet: Sheet): string[] {
     if (item.indossato && armorById(item.catalogId ?? "")?.category === "scudi") errors.push(`Oggetto ${index + 1}: uno scudo non si indossa come armatura`);
     if (item.impugnato && armorById(item.catalogId ?? "")?.category !== "scudi") errors.push(`Oggetto ${index + 1}: seleziona uno scudo di catalogo`);
     if (item.indossato && !armorById(item.catalogId ?? "")) errors.push(`Oggetto ${index + 1}: seleziona un'armatura di catalogo`);
+    if ((item.indossato || item.impugnato) && Number(item.quantita ?? "1") < 1) errors.push(`Oggetto ${index + 1}: non puoi equipaggiare un oggetto senza unità possedute`);
   });
   Object.entries(sheet.monete).forEach(([coin, value]) => checkNumber(`Monete ${coin}`, value, "unsigned"));
   return errors;

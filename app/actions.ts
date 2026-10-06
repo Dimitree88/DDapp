@@ -10,6 +10,7 @@ import { domainErrors } from "@/lib/domain";
 import { diffSheet, historyTimestampMs, type HistoryChange } from "@/lib/history";
 import { creationErrors } from "@/lib/creationRules";
 import { addClassSkillChoice, availableClassSkillChoices } from "@/lib/classSkillChoices";
+import { armorForEquipment } from "@/lib/equipmentSelection";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 
@@ -73,6 +74,10 @@ export async function saveSheet(
           && JSON.stringify(skillSources({ ...previous, ...choice })) === JSON.stringify(skillSources(normalized));
       });
       if (!validClassChoice) return { ok: false, error: "Competenze e Maestria nelle abilità si modificano solo tramite le scelte previste dalle regole." };
+    }
+    if (!previous.scudo && normalized.scudo && !normalized.equipaggiamento.some((item) =>
+      item.impugnato && armorForEquipment(item)?.category === "scudi" && Number(item.quantita ?? "1") > 0)) {
+      return { ok: false, error: "Registra prima lo scudo nell'inventario." };
     }
     const changes = diffSheet(previous, normalized);
     if (current.name !== cleanName) changes.unshift({ field: "Nome del personaggio", before: current.name, after: cleanName });
