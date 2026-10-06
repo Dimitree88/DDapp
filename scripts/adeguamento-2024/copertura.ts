@@ -90,7 +90,7 @@ const sorgenti: Record<string, () => Elemento[]> = {
   trattiSpecie: () => regole.specie.flatMap((specie) => [undefined, ...((regole.lignaggi as Record<string, string[]>)[specie] ?? [])]
     .flatMap((lignaggio) => grantedPrivileges({ ...emptySheet(), livello: "20", specie, lignaggio: lignaggio ?? "" })
       .filter((grant) => grant.source.startsWith(lignaggio ? "Lignaggio:" : "Specie:"))
-      .map((grant) => ({ valore: grant.name, padre: lignaggio ?? specie })))),
+      .map((grant) => ({ valore: grant.name, ...(lignaggio ? {} : { padre: specie }) })))),
   sceltePrivilegi: () => Object.keys(regole.classi).flatMap((classe) =>
     availablePrivilegeChoices({ ...emptySheet(), classe, livello: "20" }).map((valore) => ({ valore, classe }))),
 };

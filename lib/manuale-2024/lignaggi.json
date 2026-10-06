@@ -3,6 +3,222 @@
   "modulo": "V04",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:lignaggio",
+      "tipo": "etichetta",
+      "nome": "Lignaggio",
+      "testo": [
+        {
+          "pagina": 189,
+          "da": "Lignaggio elfico.",
+          "includiDa": true,
+          "a": "Quando raggiunge i livelli 3 e 5"
+        },
+        { "pagina": 190, "da": "Lignaggio gnomesco.", "includiDa": true, "a": "Gnomo delle foreste." },
+        {
+          "pagina": 196,
+          "da": "Retaggio immondo.",
+          "n": 2,
+          "includiDa": true,
+          "a": "Quando raggiunge i livelli 3 e 5"
+        }
+      ],
+      "pagina": 189,
+      "pagine": [190, 196],
+      "righeMatrice": ["stato.lignaggio.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["selezionata,\n\nla caratteristica", "selezionata, la caratteristica"],
+        [
+          "dalla tabella\n\nRETAGGI IMMONDI\n\nRetaggio · Livello 1\nAbissale · Ha resistenza ai danni da veleno.\n\nInoltre, conosce il trucchetto spruzzo velenoso.\n\nCtonio · Possiede resistenza ai danni necrotici.\n\nInoltre, conosce il trucchetto tocco gelido.\n\nInfernale · Possiede resistenza ai danni da fuoco.\n\nInoltre, conosce il trucchetto dardo difuoco.\n\nRetaggi immondi. Dopodiché",
+          "dalla tabella Retaggi immondi. Dopodiché"
+        ]
+      ]
+    }
+  ],
+  "voci": [
+    {
+      "id": "lignaggio:drow",
+      "tipo": "lignaggio",
+      "nome": "Drow",
+      "alias": ["Lignaggio drow"],
+      "specie": "Elfo",
+      "testo": [{ "pagina": 188, "da": "Drow", "n": 2 }],
+      "pagina": 188,
+      "verifica": { "stato": "verificata" },
+      "tabelle": [
+        {
+          "titolo": "Lignaggi elfici",
+          "pagina": 189,
+          "colonne": ["Lignaggio", "Livello 1", "Livello 3", "Livello 5"],
+          "righe": [
+            [
+              "Drow",
+              "La portata di scurovisione aumenta fino a 36 metri. Inoltre, il personaggio conosce il trucchetto luci danzanti.",
+              "Luminescenza",
+              "Oscurità"
+            ]
+          ]
+        }
+      ],
+      "pagine": [189]
+    },
+    {
+      "id": "lignaggio:elfo-alto",
+      "tipo": "lignaggio",
+      "nome": "Elfo alto",
+      "alias": ["Elfi alti", "Lignaggio elfo alto"],
+      "specie": "Elfo",
+      "testo": [{ "pagina": 188, "da": "Elfi alti", "n": 2 }],
+      "pagina": 188,
+      "verifica": { "stato": "verificata" },
+      "tabelle": [
+        {
+          "titolo": "Lignaggi elfici",
+          "pagina": 189,
+          "colonne": ["Lignaggio", "Livello 1", "Livello 3", "Livello 5"],
+          "righe": [
+            [
+              "Elfo alto",
+              "Il personaggio impara il trucchetto prestidigitazione. Ogni volta che completa un riposo lungo, può sostituirlo con un altro trucchetto dalla lista degli incantesimi del mago.",
+              "Individuazione del magico",
+              "Passo velato"
+            ]
+          ]
+        }
+      ],
+      "pagine": [189],
+      "correzioni": [["elfi altisono", "elfi alti sono"]]
+    },
+    {
+      "id": "lignaggio:elfo-dei-boschi",
+      "tipo": "lignaggio",
+      "nome": "Elfo dei boschi",
+      "alias": ["Elfi dei boschi", "Lignaggio elfo dei boschi"],
+      "specie": "Elfo",
+      "testo": [{ "pagina": 188, "da": "Elfi dei boschi", "n": 2 }],
+      "pagina": 188,
+      "verifica": { "stato": "verificata" },
+      "tabelle": [
+        {
+          "titolo": "Lignaggi elfici",
+          "pagina": 189,
+          "colonne": ["Lignaggio", "Livello 1", "Livello 3", "Livello 5"],
+          "righe": [
+            [
+              "Elfo dei boschi",
+              "La velocità del personaggio aumenta a 10,5 metri. Inoltre, conosce il trucchetto artificio druidico.",
+              "Passo veloce",
+              "Passare senza tracce"
+            ]
+          ]
+        }
+      ],
+      "pagine": [189]
+    },
+    {
+      "id": "lignaggio:gnomo-delle-foreste",
+      "tipo": "lignaggio",
+      "nome": "Gnomo delle foreste",
+      "alias": ["Lignaggio gnomo delle foreste"],
+      "specie": "Gnomo",
+      "testo": [{ "pagina": 190, "da": "Gnomo delle foreste.", "a": "Gnomo delle rocce." }],
+      "pagina": 190,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["parlare con glianimali", "parlare con gli animali"],
+        ["preparato.\n\nPuò lanciarlo", "preparato. Può lanciarlo"]
+      ]
+    },
+    {
+      "id": "lignaggio:gnomo-delle-rocce",
+      "tipo": "lignaggio",
+      "nome": "Gnomo delle rocce",
+      "alias": ["Lignaggio gnomo delle rocce"],
+      "specie": "Gnomo",
+      "testo": [{ "pagina": 190, "da": "Gnomo delle rocce." }],
+      "pagina": 190,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Contatto o Utilizzo.\n\n-", "Contatto o Utilizzo."]]
+    },
+    {
+      "id": "lignaggio:abissale",
+      "tipo": "lignaggio",
+      "nome": "Abissale",
+      "alias": ["Retaggio abissale"],
+      "specie": "Tiefling",
+      "testo": [{ "pagina": 195, "da": "Abissale" }],
+      "pagina": 195,
+      "verifica": { "stato": "verificata" },
+      "tabelle": [
+        {
+          "titolo": "Retaggi immondi",
+          "pagina": 196,
+          "colonne": ["Retaggio", "Livello 1", "Livello 3", "Livello 5"],
+          "righe": [
+            [
+              "Abissale",
+              "Ha resistenza ai danni da veleno. Inoltre, conosce il trucchetto spruzzo velenoso.",
+              "Raggio di infermità",
+              "Blocca persone"
+            ]
+          ]
+        }
+      ],
+      "pagine": [196]
+    },
+    {
+      "id": "lignaggio:ctonio",
+      "tipo": "lignaggio",
+      "nome": "Ctonio",
+      "alias": ["Retaggio ctonio"],
+      "specie": "Tiefling",
+      "testo": [{ "pagina": 195, "da": "Ctonio" }],
+      "pagina": 195,
+      "verifica": { "stato": "verificata" },
+      "tabelle": [
+        {
+          "titolo": "Retaggi immondi",
+          "pagina": 196,
+          "colonne": ["Retaggio", "Livello 1", "Livello 3", "Livello 5"],
+          "righe": [
+            [
+              "Ctonio",
+              "Possiede resistenza ai danni necrotici. Inoltre, conosce il trucchetto tocco gelido.",
+              "Vita falsata",
+              "Raggio di affaticamento"
+            ]
+          ]
+        }
+      ],
+      "pagine": [196]
+    },
+    {
+      "id": "lignaggio:infernale",
+      "tipo": "lignaggio",
+      "nome": "Infernale",
+      "alias": ["Retaggio infernale"],
+      "specie": "Tiefling",
+      "testo": [{ "pagina": 195, "da": "Infernale", "n": 2 }],
+      "pagina": 195,
+      "verifica": { "stato": "verificata" },
+      "tabelle": [
+        {
+          "titolo": "Retaggi immondi",
+          "pagina": 196,
+          "colonne": ["Retaggio", "Livello 1", "Livello 3", "Livello 5"],
+          "righe": [
+            [
+              "Infernale",
+              "Possiede resistenza ai danni da fuoco. Inoltre, conosce il trucchetto dardo di fuoco.",
+              "Intimorire infernale",
+              "Oscurità"
+            ]
+          ]
+        }
+      ],
+      "pagine": [196]
+    }
+  ]
 }
