@@ -4,5 +4,147 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "regola:bonus-competenza",
+      "tipo": "regola",
+      "nome": "Bonus di competenza",
+      "testo": [
+        { "pagina": 13, "da": "Competenza", "a": "Competenze nelle abilità" },
+        {
+          "pagina": 42,
+          "da": "4: Modificare il bonus di competenza.",
+          "includiDa": true,
+          "a": "5: Modificare i modificatori di caratteristica."
+        }
+      ],
+      "pagina": 13,
+      "pagine": [41, 42],
+      "tabelle": [
+        {
+          "titolo": "Avanzamento dei personaggi",
+          "pagina": 41,
+          "colonne": ["Livello", "Punti esperienza", "Bonus di competenza"],
+          "righe": [
+            ["1", "0", "+2"],
+            ["2", "300", "+2"],
+            ["3", "900", "+2"],
+            ["4", "2.700", "+2"],
+            ["5", "6.500", "+3"],
+            ["6", "14.000", "+3"],
+            ["7", "23.000", "+3"],
+            ["8", "34.000", "+3"],
+            ["9", "48.000", "+4"],
+            ["10", "64.000", "+4"],
+            ["11", "85.000", "+4"],
+            ["12", "100.000", "+4"],
+            ["13", "120.000", "+5"],
+            ["14", "140.000", "+5"],
+            ["15", "165.000", "+5"],
+            ["16", "195.000", "+5"],
+            ["17", "225.000", "+6"],
+            ["18", "265.000", "+6"],
+            ["19", "305.000", "+6"],
+            ["20", "355.000", "+6"]
+          ]
+        }
+      ],
+      "formula": "+2 ai livelli 1-4, +3 ai livelli 5-8, +4 ai livelli 9-12, +5 ai livelli 13-16, +6 ai livelli 17-20",
+      "calcolo": "lib/abilityBonus.ts#proficiencyBonus",
+      "righeMatrice": ["stato.bonus-competenza", "stato.livello.valore"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["BONUS DI COM PETENZA", "BONUS DI COMPETENZA"],
+        [
+          "capitolo 3.\n\nQuando il bonus di competenza aumenta",
+          "capitolo 3. Quando il bonus di competenza aumenta"
+        ]
+      ]
+    },
+    {
+      "id": "regola:iniziativa",
+      "tipo": "regola",
+      "nome": "Iniziativa",
+      "testo": [
+        { "pagina": 23, "da": "Iniziativa", "n": 5 },
+        {
+          "pagina": 41,
+          "da": "Iniziativa. Annota",
+          "includiDa": true,
+          "a": "Classe Armatura. Senza armatura"
+        },
+        { "pagina": 367, "da": "Iniziativa" }
+      ],
+      "pagina": 23,
+      "pagine": [41, 367],
+      "formula": "Prova di Destrezza: d20 + modificatore di Destrezza, più i bonus concessi da privilegi o talenti",
+      "calcolo": "lib/abilityBonus.ts#initiativeBonus",
+      "righeMatrice": ["stato.iniziativa"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["stessa iniziativa. Sorpresa.", "stessa iniziativa.\n\nSorpresa."],
+        ["\n\nPer esempio, se un personaggio sbuca", " Per esempio, se un personaggio sbuca"],
+        ["è sorpreso. Ordine di iniziativa.", "è sorpreso.\n\nOrdine di iniziativa."]
+      ]
+    },
+    {
+      "id": "regola:punti-ferita-massimi",
+      "tipo": "regola",
+      "nome": "Punti ferita",
+      "alias": ["Punti ferita massimi", "PF"],
+      "testo": [
+        { "pagina": 27, "da": "Punti ferita" },
+        { "pagina": 370, "da": "Punti ferita" },
+        {
+          "pagina": 40,
+          "da": "Punti ferita.",
+          "includiDa": true,
+          "a": "Punti ferita per classe al 1° livello",
+          "na": 2
+        },
+        {
+          "pagina": 42,
+          "da": "2: Modificare i punti ferita e i Dadi Vita.",
+          "includiDa": true,
+          "a": "Punti ferita fissi per classe",
+          "na": 2
+        }
+      ],
+      "pagina": 27,
+      "pagine": [40, 42, 370],
+      "tabelle": [
+        {
+          "titolo": "Punti ferita per classe al 1° livello",
+          "pagina": 40,
+          "colonne": ["Classe", "Punti ferita massimi"],
+          "righe": [
+            ["Barbaro", "12 + modificatore di Cos."],
+            ["Guerriero, paladino o ranger", "10 + modificatore di Cos."],
+            ["Bardo, chierico, druido, monaco, ladro o warlock", "8 + modificatore di Cos."],
+            ["Stregone o mago", "6 + modificatore di Cos."]
+          ]
+        },
+        {
+          "titolo": "Punti ferita fissi per classe",
+          "pagina": 42,
+          "colonne": ["Classe", "Punti ferita per livello"],
+          "righe": [
+            ["Barbaro", "7 + modificatore di Cos."],
+            ["Guerriero, paladino o ranger", "6 + modificatore di Cos."],
+            ["Bardo, chierico, druido, monaco, ladro o warlock", "5 + modificatore di Cos."],
+            ["Stregone o mago", "4 + modificatore di Cos."]
+          ]
+        }
+      ],
+      "formula": "1° livello: valore della classe + modificatore di Costituzione; a ogni livello successivo si aggiunge il tiro del Dado Vita (o il valore fisso) + modificatore di Costituzione, con un minimo di 1",
+      "calcolo": "lib/classProgression.ts#calculatedMaxHp",
+      "righeMatrice": ["stato.pf-massimi"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["compreso tra O (", "compreso tra 0 ("],
+        ["raggiunge lo O.", "raggiunge lo 0."],
+        ["Puntiferita.", "Punti ferita."]
+      ]
+    }
+  ]
 }

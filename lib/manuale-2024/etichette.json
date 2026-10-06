@@ -3,6 +3,156 @@
   "modulo": "V05",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
+  "etichette": [
+    {
+      "id": "etichetta:classe",
+      "tipo": "etichetta",
+      "nome": "Classe",
+      "testo": [
+        { "pagina": 33, "da": "1: Scegliere una classe.", "a": "2: Determinare le origini." },
+        { "pagina": 33, "da": "Fase 1: Scegliere una classe" }
+      ],
+      "pagina": 33,
+      "righeMatrice": ["stato.classe.etichetta"],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "etichetta:sottoclasse",
+      "tipo": "etichetta",
+      "nome": "Sottoclasse",
+      "testo": [
+        { "pagina": 49, "da": "Classi dei personaggi", "a": "Barbaro. Un feroce" },
+        { "pagina": 36, "da": "Iniziare a un livello superiore.", "includiDa": true }
+      ],
+      "pagina": 49,
+      "pagine": [36],
+      "righeMatrice": ["stato.sottoclasse.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "A CLASSE DI UN PERSONAGGIO FORNISCE LE SUE\n\n\"' IL sottoclassi, riassunte di seguito. capacità più interessa?ti. Questo capitolo presenta dodici classi, ognuna delle quali contiene quattro",
+          "La classe di un personaggio fornisce le sue capacità più interessanti. Questo capitolo presenta dodici classi, ognuna delle quali contiene quattro sottoclassi, riassunte di seguito."
+        ]
+      ]
+    },
+    {
+      "id": "etichetta:livello",
+      "tipo": "etichetta",
+      "nome": "Livello",
+      "testo": [
+        { "pagina": 36, "da": "Scrivere il livello", "a": "Iniziare a un livello superiore." },
+        { "pagina": 41, "da": "Avanzamento di livello" },
+        { "pagina": 42, "da": "Acquisire un livello", "a": "Punti ferita fissi per classe", "na": 2 },
+        {
+          "pagina": 42,
+          "da": "3: Registrare nuovi privilegi di classe.",
+          "includiDa": true,
+          "a": "Talenti bonus al 20° livello"
+        }
+      ],
+      "pagina": 41,
+      "pagine": [36, 42],
+      "righeMatrice": ["stato.livello.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "capitolo 3.\n\nQuando il bonus di competenza aumenta",
+          "capitolo 3. Quando il bonus di competenza aumenta"
+        ],
+        ["ha O PE.", "ha 0 PE."]
+      ]
+    },
+    {
+      "id": "etichetta:punti-esperienza",
+      "tipo": "etichetta",
+      "nome": "Punti esperienza",
+      "alias": ["PE"],
+      "testo": [
+        { "pagina": 370, "da": "Punti esperienza" },
+        { "pagina": 36, "da": "Scrivere i PE.", "includiDa": true, "a": "Iniziare a un livello superiore." }
+      ],
+      "pagina": 370,
+      "pagine": [36, 41],
+      "righeMatrice": ["stato.punti-esperienza"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["ha O PE.", "ha 0 PE."]]
+    },
+    {
+      "id": "etichetta:dadi-vita",
+      "tipo": "etichetta",
+      "nome": "Dadi Vita",
+      "testo": [
+        { "pagina": 365, "da": "Dadi Vita" },
+        { "pagina": 41, "da": "Dadi Vita.", "includiDa": true, "a": "Iniziativa. Annota" }
+      ],
+      "pagina": 365,
+      "pagine": [41],
+      "righeMatrice": ["stato.dadi-vita"],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "etichetta:velocita",
+      "tipo": "etichetta",
+      "nome": "Velocità",
+      "testo": [{ "pagina": 377, "da": "Velocità" }],
+      "pagina": 377,
+      "righeMatrice": ["stato.velocita"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["all'altra.\n\nOgni volta", "all'altra. Ogni volta"],
+        ["nuova velocità:\n\nil risultato", "nuova velocità: il risultato"]
+      ]
+    },
+    {
+      "id": "etichetta:ispirazione-eroica",
+      "tipo": "etichetta",
+      "nome": "Ispirazione eroica",
+      "testo": [{ "pagina": 13, "da": "Ispirazione eroica", "n": 3 }, { "pagina": 367, "da": "Ispirazione eroica" }],
+      "pagina": 13,
+      "pagine": [367],
+      "righeMatrice": ["stato.ispirazione-eroica"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["motivi.\n\nIn genere", "motivi. In genere"],
+        [
+          "quando si compie con il personaggio. È una ricompensa per aver reso un'azione particolarmente eroica, divertente o in linea il gioco",
+          "quando si compie un'azione particolarmente eroica, divertente o in linea con il personaggio. È una ricompensa per aver reso il gioco"
+        ],
+        [
+          "risultato ottenuto. Se il personaggio già possiede",
+          "risultato ottenuto.\n\nSe il personaggio già possiede"
+        ]
+      ]
+    },
+    {
+      "id": "etichetta:privilegi",
+      "tipo": "etichetta",
+      "nome": "Privilegi",
+      "testo": [
+        { "pagina": 40, "da": "Registrare i privilegi di classe" },
+        {
+          "pagina": 42,
+          "da": "3: Registrare nuovi privilegi di classe.",
+          "includiDa": true,
+          "a": "4: Modificare il bonus di competenza."
+        }
+      ],
+      "pagina": 40,
+      "pagine": [42],
+      "righeMatrice": ["privilegi.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["nel medesimo capitolo. Alcuni privilegi", "nel medesimo capitolo.\n\nAlcuni privilegi"]]
+    },
+    {
+      "id": "etichetta:talenti",
+      "tipo": "etichetta",
+      "nome": "Talenti",
+      "testo": [{ "pagina": 199, "da": "Talenti" }, { "pagina": 199, "da": "Componenti di un talento", "n": 2 }],
+      "pagina": 199,
+      "righeMatrice": ["talenti.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["UESTO CAPITOLO INCLUDE UNA RACCOLTA DI talenti", "Questo capitolo include una raccolta di talenti"]]
+    }
+  ],
   "voci": []
 }

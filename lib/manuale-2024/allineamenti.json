@@ -8,11 +8,7 @@
       "id": "etichetta:allineamento",
       "tipo": "etichetta",
       "nome": "Allineamento",
-      "testo": [
-        { "pagina": 361, "da": "Allineamento" },
-        { "pagina": 39, "da": "Fase 4: Scegliere un allineamento" }
-      ],
-      "correzioni": [["Vedianche", "Vedi anche"]],
+      "testo": [{ "pagina": 361, "da": "Allineamento" }, { "pagina": 39, "da": "Fase 4: Scegliere un allineamento" }],
       "pagina": 39,
       "pagine": [361],
       "righeMatrice": ["stato.allineamento.etichetta"],

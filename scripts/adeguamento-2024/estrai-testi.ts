@@ -45,7 +45,7 @@ function righeAuto(stampata: number): string[] {
   return cachePagine.get(stampata)!;
 }
 
-function flusso(da: number): Flusso {
+export function flusso(da: number): Flusso {
   let testo = "";
   const righe: Riga[] = [];
   for (let pagina = da; pagina <= da + PAGINE_SEGUENTI; pagina++) {
@@ -58,7 +58,8 @@ function flusso(da: number): Flusso {
   return { testo, righe, ...normalizza(testo) };
 }
 
-function trova(flusso: Flusso, cercato: string, daOriginale: number): { inizio: number; fine: number } | null {
+// Occorrenza n-esima (da 1) di «cercato» a partire dalla posizione originale indicata.
+export function trova(flusso: Flusso, cercato: string, daOriginale: number, occorrenza = 1): { inizio: number; fine: number } | null {
   const ago = chiaveAncora(cercato);
   if (!ago) return null;
   // L'ancora deve iniziare e finire a confine di parola nel testo originale.
@@ -67,13 +68,13 @@ function trova(flusso: Flusso, cercato: string, daOriginale: number): { inizio: 
   while (indice >= 0 && (indice = flusso.chiave.indexOf(ago, indice)) >= 0) {
     const inizio = flusso.mappa[indice];
     const fine = flusso.mappa[indice + ago.length - 1] + 1;
-    if (!alfanumerico(flusso.testo[inizio - 1]) && !alfanumerico(flusso.testo[fine])) return { inizio, fine };
+    if (!alfanumerico(flusso.testo[inizio - 1]) && !alfanumerico(flusso.testo[fine]) && --occorrenza === 0) return { inizio, fine };
     indice++;
   }
   return null;
 }
 
-const rigaDi = (flusso: Flusso, posizione: number) =>
+export const rigaDi = (flusso: Flusso, posizione: number) =>
   flusso.righe.find((riga) => posizione >= riga.inizio && posizione < riga.fine)!;
 
 // Confusioni sistematiche di estrazione; il resto va corretto voce per voce.
@@ -85,6 +86,9 @@ const PULIZIA: [RegExp, string][] = [
   [/\b1'(?=\d)/g, "l'"],
   [/\bO,(?=\d)/g, "0,"],
   [/\bl,(?=\d)/g, "1,"],
+  [/\bVedianche\b/g, "Vedi anche"],
+  [/\bGuidadel DungeonMaster\b/g, "Guida del Dungeon Master"],
+  [/\bDungeonMaster\b/g, "Dungeon Master"],
 ];
 
 export function pulisciTesto(testo: string): string {
@@ -97,7 +101,7 @@ export function estraiSegmento(ancora: Ancora): { testo: string; errore?: string
   const paginaIniziale = sorgente.righe.filter((riga) => riga.pagina === ancora.pagina);
   if (paginaIniziale.length === 0) return { testo: "", errore: `pagina ${ancora.pagina} assente in ${CARTELLA}` };
   const fineIniziale = paginaIniziale.at(-1)!.fine;
-  const inizioAncora = trova(sorgente, ancora.da, paginaIniziale[0].inizio);
+  const inizioAncora = trova(sorgente, ancora.da, paginaIniziale[0].inizio, ancora.n ?? 1);
   if (!inizioAncora || inizioAncora.inizio >= fineIniziale) return { testo: "", errore: `«${ancora.da}» non trovato a p. ${ancora.pagina}` };
   const rigaAncora = rigaDi(sorgente, inizioAncora.fine - 1);
   const inizio = ancora.includiDa ? inizioAncora.inizio : rigaAncora.titolo ? rigaAncora.fine : inizioAncora.fine;
@@ -105,7 +109,7 @@ export function estraiSegmento(ancora: Ancora): { testo: string; errore?: string
   if (ancora.finePagina) {
     fine = paginaIniziale.at(-1)!.fine;
   } else if (ancora.a) {
-    const termine = trova(sorgente, ancora.a, inizio);
+    const termine = trova(sorgente, ancora.a, inizio, ancora.na ?? 1);
     if (!termine) return { testo: "", errore: `«${ancora.a}» non trovato dopo «${ancora.da}» (p. ${ancora.pagina})` };
     fine = termine.inizio;
   } else {
