@@ -1,4 +1,6 @@
 import type { Sheet } from "./sheet";
+import { classWeaponProficiencies } from "./classSavingThrows";
+import { hasGrantedCompetency } from "./competencySources";
 
 // Taglia di base della specie (Manuale del Giocatore 2024, cap. 4).
 export const speciesSizes: Record<string, readonly string[]> = {
@@ -37,7 +39,11 @@ export function creationErrors(before: Sheet, after: Sheet): string[] {
   }
   if (before.sottoclasse && before.sottoclasse !== after.sottoclasse) errors.push("sottoclasse");
   for (const language of missing(before.lingue, after.lingue)) errors.push(`lingua ${language}`);
-  for (const proficiency of missing(before.competenzeArmi, after.competenzeArmi)) errors.push(`competenza ${proficiency}`);
+  for (const proficiency of missing(before.competenzeArmi, after.competenzeArmi)) {
+    if (hasGrantedCompetency(before, "arma", proficiency, classWeaponProficiencies(before.classe).includes(proficiency))) {
+      errors.push(`competenza ${proficiency}`);
+    }
+  }
   for (const feat of missing(before.talenti.map((item) => item.nome), after.talenti.map((item) => item.nome))) errors.push(`talento ${feat}`);
   return errors;
 }

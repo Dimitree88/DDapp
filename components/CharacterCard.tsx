@@ -7,13 +7,9 @@ import { DeleteCharacter } from "./DeleteCharacter";
 export function CharacterCard({
   id,
   name,
-  livello,
-  classe,
 }: {
   id: string;
   name: string;
-  livello: string;
-  classe: string;
 }) {
   const router = useRouter();
   const [revealed, setRevealed] = useState(false);
@@ -66,13 +62,7 @@ export function CharacterCard({
         style={{ WebkitTouchCallout: "none" }}
         className="flex flex-1 cursor-pointer items-center justify-between px-4 py-4 transition-colors active:bg-card"
       >
-        <div>
-          <div className="text-lg font-semibold text-ink">{name}</div>
-          <div className="text-sm text-ink-soft">
-            Liv. {livello || "—"}
-            {classe ? ` · ${classe}` : ""}
-          </div>
-        </div>
+        <div className="text-lg font-semibold text-ink">{name}</div>
         <span className="text-accent">{revealed ? "" : "›"}</span>
       </div>
       {revealed && <DeleteCharacter id={id} name={name} />}

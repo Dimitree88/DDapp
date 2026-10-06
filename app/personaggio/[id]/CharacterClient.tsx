@@ -10,6 +10,7 @@ import {
   type ReactNode,
 } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import { useRouter } from "next/navigation";
 import {
   TextField,
   NumberUnitField,
@@ -516,6 +517,7 @@ export default function CharacterClient({
   name: string;
   sheet: Sheet;
 }) {
+  const router = useRouter();
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
   const [name] = useState(initialName);
 
@@ -687,9 +689,15 @@ export default function CharacterClient({
     const t = setTimeout(async () => {
       try {
         const res = await queueSave(sheet);
-        setSaveState(res.ok ? "saved" : "error");
-      } catch {
+        if (res.ok) {
+          setSaveState("saved");
+        } else {
+          setSaveState("error");
+          window.alert(`Modifica non salvata.\n\n${res.error || "Errore sconosciuto nel salvataggio."}`);
+        }
+      } catch (error) {
         setSaveState("error");
+        window.alert(`Modifica non salvata.\n\n${error instanceof Error ? error.message : String(error)}`);
       }
     }, 700);
     return () => clearTimeout(t);
@@ -1118,9 +1126,9 @@ export default function CharacterClient({
               <div className="flex min-w-0 items-center justify-self-start">
                 <button
                   type="button"
-                  onClick={() => setShowHub(true)}
+                  onClick={() => showHub ? router.push("/") : setShowHub(true)}
                   className="flex min-w-0 items-center gap-1.5 justify-self-start text-left"
-                  aria-label="Torna alla home del personaggio"
+                  aria-label={showHub ? "Torna alla home generale" : "Torna alla home del personaggio"}
                 >
                   <span className="text-lg leading-none text-ink-soft" aria-hidden>
                     ⌂
