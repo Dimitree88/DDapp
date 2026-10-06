@@ -19,14 +19,13 @@ import {
   EditContext,
   FieldInfoContext,
   InfoLabel,
-  useDoubleTap,
 } from "@/components/fields";
 import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
 import { groupHistoryByDay } from "@/lib/history";
 import regole from "@/lib/manuale-2024-domains.json";
 import { spellNames, spellDetails, canonicalSpellName } from "@/lib/spells";
 import { spellEffects } from "@/lib/spellEffects";
-import type { Sheet, Abilita, Arma, Equip, Incantesimo } from "@/lib/sheet";
+import type { Sheet, Arma, Equip, Incantesimo } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
 import { speciesSizes } from "@/lib/creationRules";
@@ -42,7 +41,7 @@ import { availableFeatChoices, availablePrivilegeChoices, featGrants, grantedPri
 import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotals } from "@/lib/coins";
-import { hasGrantedCompetency, setCheckboxCompetency } from "@/lib/competencySources";
+import { hasGrantedCompetency } from "@/lib/competencySources";
 import { classToolProficiencies, classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
 import { removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
 import { addToolCompetency, availableToolCompetencyChoices, pendingToolChoiceSources, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
@@ -79,15 +78,16 @@ function calculationEditGuide(target: CalculationTarget): string {
   if (target.kind === "proficiency") return "Si aggiorna cambiando il Livello; il bonus non si modifica direttamente.";
   if (target.kind === "passive") return "Si aggiorna con Saggezza e con Competenza o Maestria in Percezione; il valore non si modifica direttamente.";
   if (target.kind === "modifier") return "Si aggiorna cambiando il punteggio della caratteristica; il modificatore non si modifica direttamente.";
-  if (target.kind === "save") return "Si aggiorna cambiando il punteggio della caratteristica o il Livello. La competenza si può acquisire dalla spunta e resta fissa.";
-  return "Si aggiorna cambiando il punteggio della caratteristica o il Livello. Competenza e Maestria si possono acquisire dalle rispettive spunte e restano fisse.";
+  if (target.kind === "save") return "Si aggiorna quando cambiano il punteggio della caratteristica, il livello o una competenza concessa dalle regole.";
+  return "Si aggiorna quando cambiano il punteggio della caratteristica, il livello o una competenza o Maestria concessa dalle regole.";
 }
 
-function ComputedField({ label, value, explainLabel, onExplain }: {
+function ComputedField({ label, value, explainLabel, onExplain, competent }: {
   label: string;
   value: string;
   explainLabel?: string;
   onExplain: (button: HTMLButtonElement) => void;
+  competent?: boolean;
 }) {
   return <div>
     <button type="button" onClick={(event) => onExplain(event.currentTarget)}
@@ -98,6 +98,10 @@ function ComputedField({ label, value, explainLabel, onExplain }: {
         {label}
       </span>
       <span className="flex min-h-[2rem] items-center rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">
+        {competent !== undefined && <span aria-hidden className={`mr-1.5 grid h-3.5 w-3.5 shrink-0 place-items-center rounded-full border text-[9px] ${competent
+          ? "border-accent bg-accent text-parchment"
+          : "border-ink-faint text-transparent"
+        }`}>✓</span>}
         {value || "—"}
       </span>
     </button>
@@ -246,32 +250,12 @@ function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indice
   </div>;
 }
 
-// Pallino di competenza per la pagina Abilità: doppio tocco per cambiarlo
-// (o per richiedere lo sblocco se la scheda è bloccata).
-function CompetenceDot({
-  checked,
-  onChange,
-}: {
-  checked: boolean;
-  onChange: (v: boolean) => void;
-}) {
-  const { unlocked, requireUnlock } = useContext(EditContext);
-  const onTap = useDoubleTap(() =>
-    unlocked ? onChange(!checked) : requireUnlock(),
-  );
-  return (
-    <button
-      type="button"
-      onClick={onTap}
-      aria-label="Competente"
-      className={`grid h-4 w-4 shrink-0 touch-manipulation place-items-center rounded-full border text-[9px] transition-colors ${checked
-          ? "border-accent bg-accent text-parchment"
-          : "border-ink-faint text-transparent"
-        }`}
-    >
-      ✓
-    </button>
-  );
+function CompetenceDot({ checked, label }: { checked: boolean; label: string }) {
+  return <span role="img" aria-label={`${label}: ${checked ? "sì" : "no"}`}
+    className={`grid h-4 w-4 shrink-0 place-items-center rounded-full border text-[9px] ${checked
+      ? "border-accent bg-accent text-parchment"
+      : "border-ink-faint text-transparent"
+    }`}>✓</span>;
 }
 
 function ArrayEditor<T>({
@@ -651,13 +635,6 @@ export default function CharacterClient({
     snapshot();
     setSheet((s) => ({ ...s, ...p }));
   };
-  const updateAbi = (i: number, p: Partial<Abilita>) => {
-    snapshot();
-    setSheet((s) => ({
-      ...s,
-      abilita: s.abilita.map((a, idx) => (idx === i ? { ...a, ...p } : a)),
-    }));
-  };
 
   function goToPage(i: number) {
     emblaApi?.scrollTo(i, true);
@@ -748,22 +725,19 @@ export default function CharacterClient({
         <div className="flex flex-col gap-1.5">
           {sheet.caratteristiche.map((c) => (
             <div key={c.abbr} className="rounded-xl border border-line bg-card/70 px-3 py-1.5 shadow-sm">
-              <div className="mb-1 flex items-center justify-between">
-                <span className="text-sm font-bold text-accent">{c.nome}</span>
-                <span className="text-xs font-medium text-ink-soft">
-                  Tiro Salvezza: {c.tsCompetente ? "competente" : "non competente"}
-                </span>
+              <div className="mb-1 flex items-center">
+                <InfoLabel id={`Valore.${c.abbr}`} title={c.nome} className="text-sm font-bold text-accent" />
               </div>
               <div className="grid grid-cols-3 gap-2 text-center">
                 <div>
-                  <span aria-label={`Punteggio di ${c.nome}: ${c.valore || "non disponibile"}`} className="block w-full py-1 text-center text-2xl font-bold text-ink">
-                    {c.valore || "—"}
-                  </span>
+                  <InfoLabel id={`Valore.${c.abbr}`} title={c.valore || "—"}
+                    dialogTitle={`Punteggio di ${c.nome}: ${c.valore || "non disponibile"}`}
+                    className="block w-full py-1 text-center text-2xl font-bold text-ink" />
                 </div>
                 <ComputedField label="Modificatore" value={abilityModifier(c.valore)}
                   explainLabel={`modificatore di ${c.nome}`}
                   onExplain={(button) => openCalculation({ kind: "modifier", abbr: c.abbr }, button)} />
-                <ComputedField label="Tiro Salvezza" value={savingThrowBonus(sheet, c)}
+                <ComputedField label="Tiro Salvezza" value={savingThrowBonus(sheet, c)} competent={c.tsCompetente}
                   explainLabel={`tiro salvezza di ${c.nome}`}
                   onExplain={(button) => openCalculation({ kind: "save", abbr: c.abbr }, button)} />
               </div>
@@ -777,7 +751,7 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           {remainingClassSkillChoices(sheet) > 0 && <div className="rounded-lg border border-line bg-card/70 px-3 py-2 text-xs text-ink-soft">
-            <p>Abilità di classe da registrare: {remainingClassSkillChoices(sheet)} · Manuale del Giocatore 2024, p. {classSkillChoices[sheet.classe]?.page}. Se una è già spuntata, selezionala qui per registrarne la fonte.</p>
+            <p>Abilità di classe da scegliere: {remainingClassSkillChoices(sheet)} · Manuale del Giocatore 2024, p. {classSkillChoices[sheet.classe]?.page}. La scelta registra la competenza e la sua fonte.</p>
             <select aria-label="Scegli un'abilità di classe" value="" onChange={(event) => patch(addClassSkillChoice(sheet, event.target.value))}
               className="mt-1 max-w-full rounded-lg border border-line bg-card px-2 py-1 text-sm text-ink focus:border-accent focus:outline-none">
               <option value="" disabled>+ Scegli abilità di classe</option>
@@ -790,11 +764,10 @@ export default function CharacterClient({
             <section key={caratteristica}>
               <h3 className={sectionTitle}>{titolo}</h3>
               <div className="grid grid-cols-2 gap-1">
-                {sheet.abilita.map((a, i) => a.caratteristica === caratteristica && (
+                {sheet.abilita.map((a) => a.caratteristica === caratteristica && (
                   <div key={a.nome} className="rounded-lg border border-line bg-card/70 px-2 py-1 shadow-sm">
                     <div className="flex items-center gap-1.5">
-                      <CompetenceDot checked={a.competente}
-                        onChange={(v) => patch(setCheckboxCompetency(sheet, "abilita", a.nome, v))} />
+                      <CompetenceDot checked={a.competente} label={`Competenza in ${a.nome}`} />
                       <button type="button" aria-label={`Spiega il calcolo del bonus ${a.nome}`}
                         aria-haspopup="dialog"
                         onClick={(event) => openCalculation({ kind: "ability", name: a.nome }, event.currentTarget)}
@@ -808,7 +781,10 @@ export default function CharacterClient({
                         {abilityBonus(sheet, a) || "—"}
                       </button>
                     </div>
-                    {a.competente && <div className="mt-1"><Toggle label="Maestria" checked={a.maestria} onExplain={(button) => openCalculation({ kind: "ability", name: a.nome }, button)} onChange={(v) => updateAbi(i, { maestria: v })} /></div>}
+                    {a.competente && <div className="mt-1 flex items-center gap-1.5 text-xs text-ink-soft">
+                      <CompetenceDot checked={a.maestria} label={`Maestria in ${a.nome}`} />
+                      <InfoLabel id="Maestria" title="Maestria" />
+                    </div>}
                   </div>
                 ))}
               </div>

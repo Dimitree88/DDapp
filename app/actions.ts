@@ -9,6 +9,7 @@ import { normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
 import { diffSheet, historyTimestampMs, type HistoryChange } from "@/lib/history";
 import { creationErrors } from "@/lib/creationRules";
+import { addClassSkillChoice, availableClassSkillChoices } from "@/lib/classSkillChoices";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 
@@ -61,6 +62,17 @@ export async function saveSheet(
     const savingThrowSources = (value: Sheet) => (value.fontiCompetenze ?? []).filter((record) => record.tipo === "tiroSalvezza");
     if (JSON.stringify(savingThrowSources(previous)) !== JSON.stringify(savingThrowSources(normalized))) {
       return { ok: false, error: "Le fonti delle competenze nei tiri salvezza si modificano solo tramite gli eventi previsti dalle regole." };
+    }
+    const skillSources = (value: Sheet) => (value.fontiCompetenze ?? []).filter((record) => record.tipo === "abilita");
+    const skillChanges = JSON.stringify(previous.abilita) !== JSON.stringify(normalized.abilita)
+      || JSON.stringify(skillSources(previous)) !== JSON.stringify(skillSources(normalized));
+    if (skillChanges) {
+      const validClassChoice = availableClassSkillChoices(previous).some((skill) => {
+        const choice = addClassSkillChoice(previous, skill);
+        return JSON.stringify(choice.abilita) === JSON.stringify(normalized.abilita)
+          && JSON.stringify(skillSources({ ...previous, ...choice })) === JSON.stringify(skillSources(normalized));
+      });
+      if (!validClassChoice) return { ok: false, error: "Competenze e Maestria nelle abilità si modificano solo tramite le scelte previste dalle regole." };
     }
     const changes = diffSheet(previous, normalized);
     if (current.name !== cleanName) changes.unshift({ field: "Nome del personaggio", before: current.name, after: cleanName });

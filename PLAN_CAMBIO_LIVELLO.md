@@ -36,6 +36,11 @@ Decisioni dell'utente del 6 ottobre 2026:
   avanzando si applicano nel wizard, con fonte e limiti verificati. Gli effetti
   eccezionali durante il gioco (per esempio *Desiderio*, p. 265) sono gestiti
   manualmente dalle persone al tavolo e non richiedono un automatismo nell'app.
+- Le spunte di competenza e Maestria nella pagina Abilità sono indicatori in
+  sola lettura. Resta la scelta guidata delle abilità di classe iniziali non
+  ancora registrate: il giocatore sceglie tra le opzioni concesse, senza poter
+  spuntare liberamente altre abilità. Il wizard di avanzamento raccoglierà le
+  nuove scelte concesse da privilegi e talenti.
 - Decisione successiva: per ora la Velocità resta soltanto leggibile. Non
   introdurre comandi manuali per variarla; il wizard la aggiornerà solo se
   il nuovo livello concede un effetto permanente verificato. Gli altri
@@ -68,6 +73,7 @@ direttamente nel PDF per questo piano:
 | 12, 36, 38, 40 | Il tiro salvezza somma il bonus di competenza solo se la competenza è posseduta; alla creazione si scelgono i punteggi e si registrano le competenze conferite. |
 | 53, 103, 125, 145 | Esempi di privilegi di classe che aumentano punteggi o conferiscono competenza nei tiri salvezza a livelli specifici. |
 | 199, 203, 208 | I talenti possono aumentare i punteggi; Resiliente conferisce anche competenza nel tiro salvezza scelto. |
+| 13–14, 36, 101–102, 202 | Le competenze nelle abilità iniziali derivano dalla creazione; classe e background concedono competenze, mentre privilegi e talenti specifici possono conferire competenza o Maestria. Il bonus numerico dipende dal modificatore e dal bonus di competenza. |
 
 Le tabelle e le regole di **ogni classe e sottoclasse**, di ogni talento e di
 ogni incantesimo interessato andranno verificate sulle rispettive pagine del
@@ -115,6 +121,7 @@ verificato della classe, sottoclasse, talento o incantesimo pertinente.
 | Lingue | Nessuna aggiunta libera dalla scheda. Alla creazione registrare Comune e le due lingue standard scelte o tirate, con fonte. Ai livelli successivi aggiungere una lingua solo quando un privilegio verificato lo concede; chiedere la scelta soltanto dall'elenco consentito e registrare fonte, livello e pagina. Per il primo rilascio verificare almeno Esploratore Esperto del Ranger al 2° livello; le concessioni del Ladro e del Druido al 1° livello appartengono alla creazione. Le note sulle lingue restano testo personale modificabile. |
 | Talenti | Quando un privilegio concede un talento, creare una scelta vincolata alla sua fonte: categoria, prerequisiti e ripetibilità verificati. Registrare anche le scelte interne al talento e applicare i suoi effetti soltanto dove l'app li calcola davvero. |
 | Caratteristiche e competenza | Applicare gli incrementi scelti tramite il talento o privilegio pertinente, con limiti e requisiti verificati. Conferire o scegliere competenze nei tiri salvezza solo quando la classe, un privilegio o un talento lo prevede (per esempio Resiliente). Registrare la fonte e non confondere la competenza con il bonus numerico, che può aumentare per livello. Ricalcolare i modificatori e il bonus di competenza del nuovo livello; non salvare copie ridondanti dei valori derivabili. |
+| Abilità e Maestria | Applicare competenze e Maestria soltanto se una classe, un privilegio o un talento li concede. Chiedere l'abilità quando la fonte prevede una scelta; conservarne fonte e livello. Aggiornare i bonus delle abilità dal punteggio di caratteristica e dal bonus di competenza, senza editarli o assegnare spunte arbitrarie. |
 | Calcoli dipendenti | Aggiornare i risultati realmente calcolati: tiri salvezza, abilità e Maestria, iniziativa, percezione passiva, attacchi e danni, CA, velocità, capacità, CD e attacchi degli incantesimi. Per la velocità distinguere base della specie, variazioni permanenti da livello/talento e variazioni da equipaggiamento, condizioni, privilegi o incantesimi durante il gioco; aggiornare il valore solo tramite l'evento pertinente. Ogni effetto non implementato va indicato come da gestire in un flusso guidato, senza dichiararlo applicato. |
 | Incantesimi | Usare la progressione della classe e i privilegi acquisiti per determinare trucchetti, incantesimi preparati o sostituibili, livello accessibile, slot e risorse di lancio. Chiedere le scelte previste, conservare fonte e caratteristica da incantatore di ciascun incantesimo. Non usare le attuali tabelle SRD come fonte normativa. |
 | Risorse e stato di gioco | Adeguare i massimi e aggiungere le nuove risorse previste; mantenere tracciabili utilizzi già spesi, PF attuali e slot già spesi. Il cambio livello da solo non ripristina PF o risorse: le pp. 27 e 42 distinguono i PF attuali dal loro massimo e indicano l'aumento del massimo, senza prescrivere una guarigione. Applicare eventuali variazioni dei PF attuali solo quando la regola specifica lo dice. I casi non determinabili dal PDF o dalla scheda richiedono una scelta esplicita prima dell'implementazione. |
@@ -154,6 +161,11 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   pagina Caratteristiche. `saveSheet` rifiuta variazioni dirette a punteggi,
   spunte e fonti delle competenze nei tiri salvezza. Il wizard applica le
   concessioni permanenti e registra la relativa fonte.
+- Conservare in sola lettura le spunte di competenza e Maestria nella pagina
+  Abilità. `saveSheet` rifiuta variazioni libere delle abilità e delle loro
+  fonti; consente solo una scelta di abilità di classe iniziale ancora dovuta,
+  verificata contro le opzioni ammesse. Il wizard userà una transizione
+  dedicata per le concessioni ai livelli successivi.
 - Mantenere PF massimi, Dadi Vita totali, Velocità e Allineamento in sola
   lettura nella scheda. `saveSheet` deve rifiutare le modifiche dirette a
   questi campi; il wizard userà una transizione dedicata, verificata sul
@@ -262,6 +274,10 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   spunte dei tiri salvezza; il salvataggio ordinario rifiuta anche tentativi
   di cambiare le relative fonti. Il wizard applica solo scelte e concessioni
   documentate e aggiorna i valori derivati senza intervento manuale.
+- La pagina Abilità mostra le spunte senza permettere di cambiarle; rimane
+  disponibile soltanto la scelta guidata delle abilità di classe iniziali
+  mancanti. Il salvataggio ordinario rifiuta spunte, Maestria o fonti aggiunte
+  liberamente, anche se inviate senza passare dall'interfaccia.
 - I PE sotto soglia richiedono la conferma aggiuntiva; i PE non sono modificati.
   Il livello non può essere cambiato con l'editor ordinario né superare 20.
 - Le vecchie schede mantengono talenti, privilegi, scelte e note. Le voci
