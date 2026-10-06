@@ -541,12 +541,16 @@ export default function CharacterClient({
     const savedIndex = sheet.privilegi.findIndex((item) =>
       item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0);
     const saved = savedIndex >= 0 ? sheet.privilegi[savedIndex] : null;
+    const resources = (sheet.risorse ?? []).filter((resource) =>
+      resource.nome.toLocaleLowerCase("it").includes(grant.name.toLocaleLowerCase("it"))
+      || resource.fonte.toLocaleLowerCase("it").includes(grant.name.toLocaleLowerCase("it")));
     return <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
       <p className="text-sm font-semibold text-ink">{saved
         ? <InfoLabel id={`privilegio:${savedIndex}`} title={grant.name} />
         : grant.name}</p>
       <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
       {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
+      {resources.map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
     </div>;
   };
   const pageDefs: { title: string; body: ReactNode }[] = [
@@ -736,18 +740,6 @@ export default function CharacterClient({
             <div className="flex flex-col gap-2">
               {classGrants.length === 0 && <p className="text-sm text-ink-faint">Nessun privilegio di classe.</p>}
               {classGrants.map(renderGrant)}
-            </div>
-          </section>
-          <section>
-            <h3 className={sectionTitle}>Tratti della specie</h3>
-            <div className="flex flex-col gap-2">
-              {speciesGrants.length === 0 && <p className="text-sm text-ink-faint">Nessun tratto della specie.</p>}
-              {speciesGrants.map(renderGrant)}
-            </div>
-          </section>
-          {(otherGrants.length > 0 || recordedOtherPrivileges.length > 0) && <section>
-            <h3 className={sectionTitle}>Altri privilegi</h3>
-            <div className="flex flex-col gap-2">
               {otherGrants.map(renderGrant)}
               {recordedOtherPrivileges.map((pr, index) => {
                 const savedIndex = sheet.privilegi.indexOf(pr);
@@ -757,7 +749,14 @@ export default function CharacterClient({
                 </div>;
               })}
             </div>
-          </section>}
+          </section>
+          <section>
+            <h3 className={sectionTitle}>Tratti della specie</h3>
+            <div className="flex flex-col gap-2">
+              {speciesGrants.length === 0 && <p className="text-sm text-ink-faint">Nessun tratto della specie.</p>}
+              {speciesGrants.map(renderGrant)}
+            </div>
+          </section>
           <section>
             <h3 className={sectionTitle}>Talenti</h3>
             <div className="flex flex-col gap-2">
@@ -770,6 +769,8 @@ export default function CharacterClient({
                   <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
                   {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
                   {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
+                  {(sheet.risorse ?? []).filter((resource) => resource.fonte.toLocaleLowerCase("it").includes(grant.name.toLocaleLowerCase("it")))
+                    .map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
                 </div>)}
               {recordedOtherFeats.map((talento, index) => <div key={`${talento.nome}:${index}`} className={card}>
                 <p className="text-sm font-semibold text-ink"><InfoLabel id={`valore:talento:${talento.nome}`} title={talento.nome || "Talento"} /></p>
@@ -777,25 +778,6 @@ export default function CharacterClient({
               </div>)}
             </div>
           </section>
-          <section>
-            <h3 className={sectionTitle}>Risorse dei privilegi e talenti</h3>
-            <div className="flex flex-col gap-2">
-              {(sheet.risorse ?? []).length === 0 && <p className="text-sm text-ink-faint">Nessuna risorsa registrata.</p>}
-              {(sheet.risorse ?? []).map((resource, index) => <div key={index} className={card}>
-                <p className="text-sm font-semibold text-ink">{resource.nome}</p>
-                <p className="text-sm text-ink-soft">{resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>
-                <p className="text-xs text-ink-soft">Fonte: {resource.fonte}{resource.ricarica ? ` · Ricarica: ${resource.ricarica}` : ""}</p>
-              </div>)}
-            </div>
-          </section>
-          {(sheet.fontiCompetenze ?? []).length > 0 && <section>
-            <h3 className={sectionTitle}>Fonti delle competenze</h3>
-            <div className="flex flex-col gap-1.5">
-              {(sheet.fontiCompetenze ?? []).map((record, index) => (
-                <p key={index} className="text-sm text-ink-soft">{record.valore} · {record.fonte}</p>
-              ))}
-            </div>
-          </section>}
         </div>
       ),
     },
