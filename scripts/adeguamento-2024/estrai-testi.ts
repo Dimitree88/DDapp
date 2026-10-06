@@ -133,7 +133,7 @@ export function estraiSegmento(ancora: Ancora): { testo: string; errore?: string
     testo += testo ? (riga.tabella && tabellaPrecedente ? "\n" : "\n\n") + contenuto : contenuto;
     tabellaPrecedente = riga.tabella;
   }
-  const pulito = pulisciTesto(testo);
+  const pulito = pulisciTesto(ancora.unisci ? testo.replace(/\s*\n+\s*/g, " ") : testo);
   return pulito ? { testo: pulito } : { testo: "", errore: `testo vuoto per «${ancora.da}» (p. ${ancora.pagina})` };
 }
 

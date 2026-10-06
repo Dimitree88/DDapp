@@ -3,6 +3,361 @@
   "modulo": "V03",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:background",
+      "tipo": "etichetta",
+      "nome": "Background",
+      "testo": [{ "pagina": 177, "da": "Background dei personaggi", "a": "Specie dei personaggi" }],
+      "pagina": 177,
+      "righeMatrice": ["stato.background.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["tutti e tre di 1.\n\nNessuno", "tutti e tre di 1. Nessuno"],
+        ["artigiano.\n\nGli strumenti", "artigiano. Gli strumenti"]
+      ]
+    }
+  ],
+  "voci": [
+    {
+      "id": "background:accolito",
+      "tipo": "background",
+      "nome": "Accolito",
+      "testo": [
+        {
+          "pagina": 178,
+          "da": "Il personaggio ha trascorso la sua vita in un tempio",
+          "includiDa": true,
+          "a": "Appena ha acquisito la forza sufficiente",
+          "unisci": true
+        }
+      ],
+      "pagina": 178,
+      "punteggiCaratteristica": ["INT", "SAG", "CAR"],
+      "talento": "Iniziato alla Magia (Chierico)",
+      "competenzeAbilita": ["Intuizione", "Religione"],
+      "competenzaStrumenti": "scorte da calligrafo",
+      "equipaggiamento": "a scelta tra A e B: (A) scorte da calligrafo, libro (preghiere), simbolo sacro, pergamena (10 fogli), tunica, 8 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:artigiano",
+      "tipo": "background",
+      "nome": "Artigiano",
+      "testo": [
+        {
+          "pagina": 178,
+          "da": "Appena ha acquisito la forza sufficiente",
+          "includiDa": true,
+          "finePagina": true,
+          "unisci": true
+        }
+      ],
+      "pagina": 178,
+      "punteggiCaratteristica": ["FOR", "DES", "INT"],
+      "talento": "Lavoro manuale",
+      "competenzeAbilita": ["Indagare", "Persuasione"],
+      "competenzaStrumenti": "Scegli un tipo di strumenti da artigiano",
+      "equipaggiamento": "a scelta tra A e B: (A) strumenti da artigiano (gli stessi scelti sopra), 2 borse, abiti da viaggiatore, 32 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:ciarlatano",
+      "tipo": "background",
+      "nome": "Ciarlatano",
+      "testo": [
+        {
+          "pagina": 179,
+          "da": "Una volta raggiunta l'età per poter bere",
+          "includiDa": true,
+          "a": "Il personaggio è cresciuto a contatto con la terra",
+          "unisci": true
+        }
+      ],
+      "pagina": 179,
+      "punteggiCaratteristica": ["DES", "COS", "CAR"],
+      "talento": "Abile",
+      "competenzeAbilita": ["Inganno", "Rapidità di Mano"],
+      "competenzaStrumenti": "arnesi da falsario",
+      "equipaggiamento": "a scelta tra A e B: (A) arnesi da falsario, costume, abiti eleganti, 15 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:contadino",
+      "tipo": "background",
+      "nome": "Contadino",
+      "testo": [
+        {
+          "pagina": 179,
+          "da": "Il personaggio è cresciuto a contatto con la terra",
+          "includiDa": true,
+          "finePagina": true,
+          "unisci": true
+        }
+      ],
+      "pagina": 179,
+      "punteggiCaratteristica": ["FOR", "COS", "SAG"],
+      "talento": "Robusto",
+      "competenzeAbilita": ["Addestrare Animali", "Natura"],
+      "competenzaStrumenti": "strumenti da falegname",
+      "equipaggiamento": "a scelta tra A e B: (A) falcetto, strumenti da falegname, borsa del guaritore, pentola di ferro, pala, abiti da viaggiatore, 30 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:criminale",
+      "tipo": "background",
+      "nome": "Criminale",
+      "testo": [
+        {
+          "pagina": 180,
+          "da": "Il personaggio è riuscito a sopravvivere",
+          "includiDa": true,
+          "a": "Il personaggio ha trascorso i suoi primi anni",
+          "unisci": true
+        }
+      ],
+      "pagina": 180,
+      "punteggiCaratteristica": ["DES", "COS", "INT"],
+      "talento": "Allerta",
+      "competenzeAbilita": ["Rapidità di Mano", "Furtività"],
+      "competenzaStrumenti": "arnesi da scasso",
+      "equipaggiamento": "a scelta tra A e B: (A) 2 pugnali, arnesi da scasso, piede di porco, 2 borse, abiti da viaggiatore, 16 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:eremita",
+      "tipo": "background",
+      "nome": "Eremita",
+      "testo": [
+        {
+          "pagina": 180,
+          "da": "Il personaggio ha trascorso i suoi primi anni",
+          "includiDa": true,
+          "finePagina": true,
+          "unisci": true
+        }
+      ],
+      "pagina": 180,
+      "punteggiCaratteristica": ["COS", "SAG", "CAR"],
+      "talento": "Guaritore",
+      "competenzeAbilita": ["Medicina", "Religione"],
+      "competenzaStrumenti": "borsa da erborista",
+      "equipaggiamento": "a scelta tra A e B: (A) bastone ferrato, borsa da erborista, giaciglio, libro (filosofia) lampada, olio (3 ampolle), abiti da viaggiatore, 16 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:guardia",
+      "tipo": "background",
+      "nome": "Guardia",
+      "testo": [
+        {
+          "pagina": 181,
+          "da": "Al personaggio basta pensare",
+          "includiDa": true,
+          "a": "Il personaggio è cresciuto all'aperto",
+          "unisci": true
+        }
+      ],
+      "pagina": 181,
+      "punteggiCaratteristica": ["FOR", "INT", "SAG"],
+      "talento": "Allerta",
+      "competenzeAbilita": ["Atletica", "Percezione"],
+      "competenzaStrumenti": "Scegli un tipo di gioco",
+      "equipaggiamento": "a scelta tra A e B: (A) lancia, balestra leggera, 20 quadrelli, gioco (lo stesso scelto sopra), lanterna schermabile, manette, faretra, abiti da viaggiatore, 12 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:guida",
+      "tipo": "background",
+      "nome": "Guida",
+      "testo": [
+        {
+          "pagina": 181,
+          "da": "Il personaggio è cresciuto all'aperto",
+          "includiDa": true,
+          "finePagina": true,
+          "unisci": true
+        }
+      ],
+      "pagina": 181,
+      "punteggiCaratteristica": ["DES", "COS", "SAG"],
+      "talento": "Iniziato alla Magia (druido)",
+      "competenzeAbilita": ["Furtività", "Sopravvivenza"],
+      "competenzaStrumenti": "strumenti da cartografo",
+      "equipaggiamento": "a scelta tra A e B: (A) arco corto, 20 frecce, strumenti da cartografo, giaciglio, faretra, tenda, abiti da viaggiatore, 3 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["incòntaminati", "incontaminati"]]
+    },
+    {
+      "id": "background:intrattenitore",
+      "tipo": "background",
+      "nome": "Intrattenitore",
+      "testo": [
+        {
+          "pagina": 182,
+          "da": "Il personaggio ha trascorso la maggior parte della sua gioventù",
+          "includiDa": true,
+          "a": "Il personaggio ha vissuto la sua vita per mare",
+          "unisci": true
+        }
+      ],
+      "pagina": 182,
+      "punteggiCaratteristica": ["FOR", "DES", "CAR"],
+      "talento": "Musicista",
+      "competenzeAbilita": ["Acrobazia", "Intrattenere"],
+      "competenzaStrumenti": "Scegli un tipo di strumento musicale",
+      "equipaggiamento": "a scelta tra A e B: (A) strumento musicale (lo stesso scelto sopra), 2 costumi, specchio, profumo, abiti da viaggiatore, 11 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" },
+      "correzioni": [[" o > > § z", ""]]
+    },
+    {
+      "id": "background:marinaio",
+      "tipo": "background",
+      "nome": "Marinaio",
+      "testo": [
+        {
+          "pagina": 182,
+          "da": "Il personaggio ha vissuto la sua vita per mare",
+          "includiDa": true,
+          "finePagina": true,
+          "unisci": true
+        }
+      ],
+      "pagina": 182,
+      "punteggiCaratteristica": ["FOR", "DES", "SAG"],
+      "talento": "Lottatore da Taverna",
+      "competenzeAbilita": ["Acrobazia", "Percezione"],
+      "competenzaStrumenti": "strumenti da navigatore",
+      "equipaggiamento": "a scelta tra A e B: (A) pugnale, strumenti da navigatore, corda, abiti da viaggiatore, 20 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:mercante",
+      "tipo": "background",
+      "nome": "Mercante",
+      "testo": [
+        {
+          "pagina": 183,
+          "da": "Il personaggio ha cominciato il suo percorso",
+          "includiDa": true,
+          "a": "Il personaggio è cresciuto in un castello",
+          "unisci": true
+        }
+      ],
+      "pagina": 183,
+      "punteggiCaratteristica": ["COS", "INT", "CAR"],
+      "talento": "Fortunato",
+      "competenzeAbilita": ["Addestrare Animali", "Persuasione"],
+      "competenzaStrumenti": "strumenti da navigatore",
+      "equipaggiamento": "a scelta tra A e B: (A) strumenti da navigatore, 2 borse, abiti da viaggiatore, 22 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:nobile",
+      "tipo": "background",
+      "nome": "Nobile",
+      "testo": [
+        {
+          "pagina": 183,
+          "da": "Il personaggio è cresciuto in un castello",
+          "includiDa": true,
+          "finePagina": true,
+          "unisci": true
+        }
+      ],
+      "pagina": 183,
+      "punteggiCaratteristica": ["FOR", "INT", "CAR"],
+      "talento": "Abile",
+      "competenzeAbilita": ["Storia", "Persuasione"],
+      "competenzaStrumenti": "Scegli un tipo di gioco",
+      "equipaggiamento": "a scelta tra A e B: (A) gioco (lo stesso scelto sopra), abiti eleganti, profumo, 29 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:sapiente",
+      "tipo": "background",
+      "nome": "Sapiente",
+      "testo": [
+        {
+          "pagina": 184,
+          "da": "Il personaggio ha trascorso la sua gioventù tra ville",
+          "includiDa": true,
+          "a": "Il personaggio ha trascorso i suoi anni di formazione",
+          "unisci": true
+        }
+      ],
+      "pagina": 184,
+      "punteggiCaratteristica": ["COS", "INT", "SAG"],
+      "talento": "Iniziato alla Magia (mago)",
+      "competenzeAbilita": ["Arcano", "Storia"],
+      "competenzaStrumenti": "scorte da calligrafo",
+      "equipaggiamento": "a scelta tra A e B: (A) bastone ferrato, scorte da calligrafo, libro (storia) pergamena (8 fogli), tunica, 8 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" },
+      "correzioni": [[" -.. -", ""]]
+    },
+    {
+      "id": "background:scriba",
+      "tipo": "background",
+      "nome": "Scriba",
+      "testo": [
+        {
+          "pagina": 184,
+          "da": "Il personaggio ha trascorso i suoi anni di formazione",
+          "includiDa": true,
+          "finePagina": true,
+          "unisci": true
+        }
+      ],
+      "pagina": 184,
+      "punteggiCaratteristica": ["DES", "INT", "SAG"],
+      "talento": "Abile",
+      "competenzeAbilita": ["Indagare", "Percezione"],
+      "competenzaStrumenti": "scorte da calligrafo",
+      "equipaggiamento": "a scelta tra A e B: (A) scorte da calligrafo, abiti eleganti, lampada, olio (3 ampolle), pergamena (12 fogli) 23 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "background:soldato",
+      "tipo": "background",
+      "nome": "Soldato",
+      "testo": [
+        {
+          "pagina": 185,
+          "da": "Il personaggio ha iniziato il suo addestramento",
+          "includiDa": true,
+          "a": "Il personaggio è cresciuto in strada",
+          "unisci": true
+        }
+      ],
+      "pagina": 185,
+      "punteggiCaratteristica": ["FOR", "DES", "COS"],
+      "talento": "Aggressore Selvaggio",
+      "competenzeAbilita": ["Atletica", "Intimidire"],
+      "competenzaStrumenti": "Scegli un tipo di gioco",
+      "equipaggiamento": "a scelta tra A e B: (A) lancia, arco corto, 20 frecce, gioco (lo stesso scelto sopra), borsa del guaritore, faretra, abiti da viaggiatore, 14 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Avolte", "A volte"]]
+    },
+    {
+      "id": "background:viandante",
+      "tipo": "background",
+      "nome": "Viandante",
+      "testo": [
+        {
+          "pagina": 185,
+          "da": "Il personaggio è cresciuto in strada",
+          "includiDa": true,
+          "finePagina": true,
+          "unisci": true
+        }
+      ],
+      "pagina": 185,
+      "punteggiCaratteristica": ["DES", "SAG", "CAR"],
+      "talento": "Fortunato",
+      "competenzeAbilita": ["Intuizione", "Furtività"],
+      "competenzaStrumenti": "arnesi da scasso",
+      "equipaggiamento": "a scelta tra A e B: (A) 2 pugnali, arnesi da scasso, gioco (qualunque), giaciglio, 2 borse, abiti da viaggiatore, 16 mo; o (B) 50 mo",
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
