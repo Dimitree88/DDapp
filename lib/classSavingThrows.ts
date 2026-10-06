@@ -26,6 +26,7 @@ const classArmor: Record<string, (keyof Sheet["competenzeArmatura"])[]> = {
   Mago: [], Monaco: [], Paladino: ["leggere", "medie", "pesanti", "scudi"],
   Ranger: ["leggere", "medie", "scudi"], Stregone: [], Warlock: ["leggere"],
 };
+export const classArmorProficiencies = (className: string): readonly (keyof Sheet["competenzeArmatura"])[] => classArmor[className] ?? [];
 const classTools: Record<string, string[]> = {
   Druido: ["Borsa da erborista"], Ladro: ["Arnesi da scasso"],
 };

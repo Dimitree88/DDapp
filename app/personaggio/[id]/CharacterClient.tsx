@@ -22,6 +22,7 @@ import {
 } from "@/components/fields";
 import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
 import { groupHistoryByDay } from "@/lib/history";
+import { characterStory } from "@/lib/characterStory";
 import regole from "@/lib/manuale-2024-domains.json";
 import { spellDetails, canonicalSpellName } from "@/lib/spells";
 import { spellEffects } from "@/lib/spellEffects";
@@ -907,6 +908,21 @@ export default function CharacterClient({
         />
       ),
     },
+    {
+      title: "Storia",
+      body: (
+        <ol className="flex flex-col gap-2 pb-4">
+          {characterStory(sheet, name).map((event, index) => (
+            <li key={`${index}-${event.title}`} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
+              <h2 className="text-sm font-semibold text-ink">{event.title}</h2>
+              {event.details.length > 0 && <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-accent">
+                {event.details.map((detail, detailIndex) => <li key={detailIndex} className="break-words text-sm text-ink-soft">{detail}</li>)}
+              </ul>}
+            </li>
+          ))}
+        </ol>
+      ),
+    },
   ];
 
   const pageOrder = [
@@ -919,6 +935,7 @@ export default function CharacterClient({
     "Incantesimi",
     "Capacità",
     "Appunti",
+    "Storia",
   ];
   const pages = pageOrder.map((t) => pageDefs.find((p) => p.title === t)!);
 
