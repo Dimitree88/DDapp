@@ -3,6 +3,105 @@
   "modulo": "V01",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:allineamento",
+      "tipo": "etichetta",
+      "nome": "Allineamento",
+      "testo": [
+        { "pagina": 361, "da": "Allineamento" },
+        { "pagina": 39, "da": "Fase 4: Scegliere un allineamento" }
+      ],
+      "correzioni": [["Vedianche", "Vedi anche"]],
+      "pagina": 39,
+      "pagine": [361],
+      "righeMatrice": ["stato.allineamento.etichetta"],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "allineamento:legale-buono",
+      "tipo": "allineamento",
+      "nome": "Legale buono",
+      "alias": ["LB"],
+      "testo": [{ "pagina": 39, "da": "Legale buono (LB)", "a": "Neutrale buono (NB)" }],
+      "correzioni": [["\n\nChi combatte", " Chi combatte"]],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "allineamento:neutrale-buono",
+      "tipo": "allineamento",
+      "nome": "Neutrale buono",
+      "alias": ["NB"],
+      "testo": [{ "pagina": 39, "da": "Neutrale buono (NB)", "a": "Caotico buono (CB)" }],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "allineamento:caotico-buono",
+      "tipo": "allineamento",
+      "nome": "Caotico buono",
+      "alias": ["CB"],
+      "testo": [{ "pagina": 39, "da": "Caotico buono (CB)", "a": "Legale neutrale (LN)" }],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "allineamento:legale-neutrale",
+      "tipo": "allineamento",
+      "nome": "Legale neutrale",
+      "alias": ["LN"],
+      "testo": [{ "pagina": 39, "da": "Legale neutrale (LN)", "a": "Neutrale (N)" }],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "allineamento:neutrale",
+      "tipo": "allineamento",
+      "nome": "Neutrale",
+      "alias": ["N"],
+      "testo": [{ "pagina": 39, "da": "Neutrale (N)", "a": "Caotico neutrale (CN)" }],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "allineamento:caotico-neutrale",
+      "tipo": "allineamento",
+      "nome": "Caotico neutrale",
+      "alias": ["CN"],
+      "testo": [{ "pagina": 39, "da": "Caotico neutrale (CN)", "a": "Legale malvagio (LM)" }],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "allineamento:legale-malvagio",
+      "tipo": "allineamento",
+      "nome": "Legale malvagio",
+      "alias": ["LM"],
+      "testo": [{ "pagina": 39, "da": "Legale malvagio (LM)", "a": "Neutrale malvagio (NM)" }],
+      "correzioni": [["\n\nUn aristocratico", " Un aristocratico"]],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "allineamento:neutrale-malvagio",
+      "tipo": "allineamento",
+      "nome": "Neutrale malvagio",
+      "alias": ["NM"],
+      "testo": [{ "pagina": 39, "da": "Neutrale malvagio (NM)", "a": "Caotico malvagio (CM)" }],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "allineamento:caotico-malvagio",
+      "tipo": "allineamento",
+      "nome": "Caotico malvagio",
+      "alias": ["CM"],
+      "testo": [{ "pagina": 39, "da": "Caotico malvagio (CM)", "finePagina": true }],
+      "pagina": 39,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

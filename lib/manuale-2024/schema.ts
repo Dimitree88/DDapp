@@ -23,7 +23,7 @@ export type Verifica = {
 };
 
 // Segmento di testo nel PDF: da «da» (escluso, salvo includiDa) fino
-// all'inizio di «a» oppure, senza «a», fino al titolo successivo.
+// all'inizio di «a», alla fine della pagina (finePagina) oppure al titolo successivo.
 // Le ancore ignorano maiuscole, accenti, spazi, punteggiatura e le
 // confusioni OCR più comuni (l/i/1, o/0, s/5, rn/m).
 export type Ancora = {
@@ -31,6 +31,7 @@ export type Ancora = {
   da: string;
   a?: string;
   includiDa?: boolean;
+  finePagina?: boolean;
 };
 
 export type VoceBase = {
@@ -243,6 +244,7 @@ function controllaAncore(dove: string, voce: VoceBase, errori: string[]) {
     if (typeof ancora?.da !== "string" || !ancora.da.trim()) errori.push(`${qui}: «da» mancante`);
     if (ancora?.a !== undefined && (typeof ancora.a !== "string" || !ancora.a.trim())) errori.push(`${qui}: «a» non valido`);
     if (ancora?.includiDa !== undefined && typeof ancora.includiDa !== "boolean") errori.push(`${qui}: includiDa non booleano`);
+    if (ancora?.finePagina !== undefined && (typeof ancora.finePagina !== "boolean" || ancora.a !== undefined)) errori.push(`${qui}: finePagina non booleano o insieme ad «a»`);
   }
   if (voce.correzioni !== undefined && (!Array.isArray(voce.correzioni) || voce.correzioni.some((coppia) => !Array.isArray(coppia) || coppia.length !== 2 || coppia.some((parte) => typeof parte !== "string") || !coppia[0]))) errori.push(`${dove}: correzioni non valide`);
 }
