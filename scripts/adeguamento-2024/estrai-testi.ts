@@ -45,10 +45,10 @@ function righeAuto(stampata: number): string[] {
   return cachePagine.get(stampata)!;
 }
 
-export function flusso(da: number): Flusso {
+export function flusso(da: number, seguenti = PAGINE_SEGUENTI): Flusso {
   let testo = "";
   const righe: Riga[] = [];
-  for (let pagina = da; pagina <= da + PAGINE_SEGUENTI; pagina++) {
+  for (let pagina = da; pagina <= da + seguenti; pagina++) {
     for (const contenuto of righeAuto(pagina)) {
       const inizio = testo.length;
       testo += `${contenuto}\n`;
