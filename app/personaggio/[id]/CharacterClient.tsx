@@ -42,7 +42,7 @@ import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
 import { availableFeatChoices, availablePrivilegeChoices, featGrants, grantedPrivileges, privilegeOptions } from "@/lib/characterGrants";
 import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
-import { coinTotalGold } from "@/lib/coins";
+import { coinTotals } from "@/lib/coins";
 import { hasGrantedCompetency, setCheckboxCompetency } from "@/lib/competencySources";
 import { classToolProficiencies, classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
 import { removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
@@ -427,12 +427,12 @@ function ArrayEditor<T>({
   );
 }
 
-const COINS: [string, keyof Sheet["monete"]][] = [
-  ["Rame", "rame"],
-  ["Argento", "argento"],
-  ["Electrum", "electrum"],
-  ["Oro", "oro"],
-  ["Platino", "platino"],
+const COINS: [string, keyof Sheet["monete"], string][] = [
+  ["Rame", "rame", "mr"],
+  ["Argento", "argento", "ma"],
+  ["Electrum", "electrum", "me"],
+  ["Oro", "oro", "mo"],
+  ["Platino", "platino", "mp"],
 ];
 
 type SaveState = "idle" | "saving" | "saved" | "error";
@@ -452,6 +452,7 @@ export default function CharacterClient({
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
   const [selected, setSelected] = useState(0);
+  const notesTouchStart = useRef({ x: 0, y: 0 });
 
   // All'ingresso mostriamo la "home" del personaggio con l'indice delle sezioni.
   const [showHub, setShowHub] = useState(true);
@@ -671,6 +672,14 @@ export default function CharacterClient({
     setShowHub(false);
   }
 
+  function adjustCoin(key: keyof Sheet["monete"], delta: 1 | -1) {
+    const current = Number(sheet.monete[key] || 0);
+    if (!Number.isSafeInteger(current) || current < 0) return;
+    const next = current + delta;
+    if (next < 0 || !Number.isSafeInteger(next)) return;
+    patch({ monete: { ...sheet.monete, [key]: String(next) } });
+  }
+
   const [exporting, setExporting] = useState<"current" | "template" | null>(null);
   async function handleExport(kind: "current" | "template") {
     setExporting(kind);
@@ -689,6 +698,7 @@ export default function CharacterClient({
   }
 
   const armorValue = displayedArmorClass(sheet);
+  const coinValues = coinTotals(sheet.monete);
   const shieldInUse = sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi");
   const wornArmor = sheet.equipaggiamento.find((item) => item.indossato);
   const armorChoices = armorCatalog.filter((armor) => armor.category !== "scudi").map((armor) => ({
@@ -710,7 +720,7 @@ export default function CharacterClient({
           <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
           <div className={grid2}>
             <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
-            <TextField label="Livello" showInfo={false} showEditIcon value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} options={regole.livelliPersonaggio} allowEmpty={false} onChange={(v) => patch({ livello: v })} />
+            <TextField label="Livello" showInfo={false} locked value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} onChange={() => {}} />
           </div>
           {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
           <div className={grid2}>
@@ -1008,26 +1018,39 @@ export default function CharacterClient({
     {
       title: "Monete",
       body: (
-        <div className="flex flex-col gap-4">
-          <div>
-            <h3 className={sectionTitle}>Monete</h3>
-            <p className="mb-2 text-sm text-ink-soft">Valore equivalente: {coinTotalGold(sheet.monete) ?? "—"} mo</p>
-            <div className="flex flex-col gap-2">
-              {COINS.map(([lab, key]) => (
-                <div
-                  key={key}
-                  className="flex items-center justify-between rounded-lg border border-line bg-card/70 px-3 py-2 shadow-sm"
-                >
-                  <span className="text-sm text-ink-soft">{lab}</span>
-                  <InlineInput
-                    value={sheet.monete[key]}
-                    onChange={(v) => patch({ monete: { ...sheet.monete, [key]: v } })}
-                    numeric="unsigned"
-                    className="w-24 text-right"
-                  />
+        <div className="flex flex-col gap-3">
+          <h3 className={sectionTitle}>Monete</h3>
+          <div className="flex flex-col gap-3">
+            {COINS.map(([lab, key, unit]) => {
+              const count = Number(sheet.monete[key] || 0);
+              return <div key={key} className="flex min-h-20 items-center gap-3 rounded-xl border border-line bg-card/70 px-4 py-3 shadow-sm">
+                <label htmlFor={`coin-${key}`} className="min-w-0 flex-1 text-base font-semibold text-ink">{lab} <span className="text-sm font-normal text-ink-soft">({unit})</span></label>
+                <input
+                  id={`coin-${key}`}
+                  type="text"
+                  inputMode="numeric"
+                  pattern="[0-9]*"
+                  value={sheet.monete[key]}
+                  onChange={(event) => {
+                    const next = event.target.value;
+                    if (/^\d*$/.test(next)) patch({ monete: { ...sheet.monete, [key]: next } });
+                  }}
+                  className="w-20 rounded-lg border border-line bg-parchment/70 px-2 py-2 text-center text-xl font-semibold text-ink outline-none focus:border-accent"
+                />
+                <div className="flex flex-col gap-1">
+                  <button type="button" aria-label={`Aumenta ${lab.toLowerCase()}`} onClick={() => adjustCoin(key, 1)} disabled={!Number.isSafeInteger(count) || count < 0 || count >= Number.MAX_SAFE_INTEGER} className="flex size-11 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">↑</button>
+                  <button type="button" aria-label={`Diminuisci ${lab.toLowerCase()}`} onClick={() => adjustCoin(key, -1)} disabled={!Number.isSafeInteger(count) || count <= 0} className="flex size-11 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">↓</button>
                 </div>
+              </div>;
+            })}
+          </div>
+          <div className="mt-2 rounded-xl border border-line bg-card/70 p-4 shadow-sm">
+            <h4 className="text-sm font-semibold text-ink">Valore equivalente totale</h4>
+            <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+              {COINS.map(([lab, key, unit]) => (
+                <div key={key} className="flex justify-between gap-2"><dt className="text-ink-soft">{lab}</dt><dd className="font-semibold text-ink">{coinValues?.[key] ?? "—"} {unit}</dd></div>
               ))}
-            </div>
+            </dl>
           </div>
         </div>
       ),
@@ -1040,7 +1063,16 @@ export default function CharacterClient({
           placeholder="Scrivi qui i tuoi appunti…"
           value={sheet.note}
           onChange={(event) => patch({ note: event.target.value })}
-          className="h-full min-h-full w-full resize-none rounded-xl border border-line bg-card/70 p-4 text-base leading-relaxed text-ink shadow-sm outline-none placeholder:text-ink-faint focus:border-accent"
+          onTouchStart={(event) => { notesTouchStart.current = { x: event.touches[0].clientX, y: event.touches[0].clientY }; }}
+          onTouchEnd={(event) => {
+            const touch = event.changedTouches[0];
+            const dx = touch.clientX - notesTouchStart.current.x;
+            const dy = touch.clientY - notesTouchStart.current.y;
+            if (Math.abs(dx) < 50 || Math.abs(dx) <= Math.abs(dy) * 1.25) return;
+            if (dx > 0) emblaApi?.scrollPrev();
+            else emblaApi?.scrollNext();
+          }}
+          className="h-full min-h-full w-full touch-pan-y resize-none rounded-xl border border-line bg-card/70 p-4 text-base leading-relaxed text-ink shadow-sm outline-none placeholder:text-ink-faint focus:border-accent"
         />
       ),
     },

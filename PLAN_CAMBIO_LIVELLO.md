@@ -23,6 +23,9 @@ Decisioni dell'utente del 6 ottobre 2026:
   multiclasse è una fase distinta: oggi `Sheet` registra una sola classe e un
   solo livello. Il wizard non deve simulare la multiclasse usando il livello
   totale come livello di classe.
+- Il Livello è già in sola lettura nella scheda: `saveSheet` rifiuta modifiche
+  dirette. Finché il wizard non sarà pronto, non esiste un comando per
+  avanzare; il futuro cambio livello userà una transizione dedicata e atomica.
 - PF massimi, Dadi Vita e Velocità non si modificano più direttamente dalla
   scheda. Il cambio livello o l'evento che li altera deve mostrare fonte,
   calcolo e valore prima/dopo. L'Allineamento è scelto alla creazione e,
@@ -191,9 +194,9 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
 - `lib/classProgression.ts` calcola già Dado Vita, incremento fisso e PF
   massimi; `lib/abilityBonus.ts` calcola il bonus di competenza e alcuni valori
   derivati. Va verificato ogni raccordo al nuovo modello e al PDF.
-- `app/actions.ts` salva già scheda e storico in una transazione, ma oggi
-  `saveSheet` accetta anche un cambio diretto di livello. La nuova transizione
-  deve avere una validazione specifica e atomica.
+- `app/actions.ts` salva già scheda e storico in una transazione e `saveSheet`
+  ora rifiuta il cambio diretto di livello. Il wizard richiede una nuova
+  transizione con validazione specifica e salvataggio atomico.
 - I nuovi domini di `PLAN_ADEGUAMENTO_2024.md` sono la futura fonte dei dati.
   I moduli delle **12 classi**, T03/T04, I00/blocchi/I10 e R01/R02 sono
   dipendenze per dichiarare completo il wizard su ogni classe. La struttura
