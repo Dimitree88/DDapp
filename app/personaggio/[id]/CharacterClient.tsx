@@ -23,7 +23,6 @@ import {
 } from "@/components/fields";
 import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
 import { groupHistoryByDay } from "@/lib/history";
-import { exportSheetPdf } from "@/lib/exportPdf";
 import regole from "@/lib/manuale-2024-domains.json";
 import { spellNames, spellDetails, canonicalSpellName } from "@/lib/spells";
 import { spellEffects } from "@/lib/spellEffects";
@@ -680,20 +679,17 @@ export default function CharacterClient({
     patch({ monete: { ...sheet.monete, [key]: String(next) } });
   }
 
-  const [exporting, setExporting] = useState<"current" | "template" | null>(null);
-  async function handleExport(kind: "current" | "template") {
-    setExporting(kind);
+  const [exporting, setExporting] = useState(false);
+  async function handleExport() {
+    setExporting(true);
     try {
-      if (kind === "current") await exportSheetPdf(name, sheet);
-      else {
-        const { exportTemplatePdf } = await import("@/lib/exportTemplatePdf");
-        await exportTemplatePdf(name, sheet);
-      }
+      const { exportTemplatePdf } = await import("@/lib/exportTemplatePdf");
+      await exportTemplatePdf(name, sheet);
     } catch (error) {
       console.error(error);
       window.alert("Esportazione PDF non riuscita. Riprova.");
     } finally {
-      setExporting(null);
+      setExporting(false);
     }
   }
 
@@ -714,59 +710,42 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
+            <TextField label="Specie" showInfo={false} showEditIcon value={sheet.specie} valueInfoId={`valore:specie:${sheet.specie}`} options={regole.specie} locked={Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
+            <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
+          </div>
+          <div className={grid2}>
+            <TextField label="Background" showInfo={false} showEditIcon value={sheet.background} valueInfoId={`valore:background:${sheet.background}`} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
+            <TextField label="Allineamento" showInfo={false} locked value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} onChange={() => {}} />
+          </div>
+          <div className="grid grid-cols-3 gap-2.5 [&>*]:min-w-0">
+            {lignaggi[sheet.specie] && <TextField label="Lignaggio" showInfo={false} showEditIcon value={sheet.lignaggio} valueInfoId={`valore:lignaggio:${sheet.lignaggio}`} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
+            <TextField label="Livello" showInfo={false} locked value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} onChange={() => {}} />
+            {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
+            <TextField label="Taglia base" showInfo={false} showEditIcon value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
             <TextField label="Punti Ferita Massimi" showInfo={false} locked value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} onChange={() => {}} />
             <TextField label="Ispirazione Eroica" showInfo={false} locked value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} onChange={() => {}} />
-          </div>
-          <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
-          <div className={grid2}>
-            <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
-            <TextField label="Livello" showInfo={false} locked value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} onChange={() => {}} />
-          </div>
-          {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
-          <div className={grid2}>
+            <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
             <TextField label="Punti Esperienza" showInfo={false} locked value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} onChange={() => {}} />
-          </div>
-          <div className={grid2}>
             <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
-          </div>
-          <div className={grid2}>
-            <ComputedField label="Bonus Competenza" value={proficiencyBonus(sheet.livello)}
-              onExplain={(button) => openCalculation({ kind: "proficiency" }, button)} />
-            <ComputedField label="Percezione Passiva" value={passivePerception(sheet)}
-              onExplain={(button) => openCalculation({ kind: "passive" }, button)} />
-          </div>
-          <div className={grid2}>
+            <ComputedField label="Bonus Competenza" value={proficiencyBonus(sheet.livello)} onExplain={(button) => openCalculation({ kind: "proficiency" }, button)} />
+            <ComputedField label="Percezione Passiva" value={passivePerception(sheet)} onExplain={(button) => openCalculation({ kind: "passive" }, button)} />
             <TextField label="Dadi Vita" showInfo={false} locked value={sheet.dadiVita} displayValue={<DiceText text={sheet.dadiVita} />} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} onChange={() => {}} />
             <TextField label="Velocità" showInfo={false} locked value={sheet.velocita ? `${sheet.velocita} m` : ""} valueInfoId="stato:velocita" valueInfoTitle={`Velocità: ${sheet.velocita} m`} onChange={() => {}} />
           </div>
-          <div className={grid2}>
-            <TextField label="Allineamento" showInfo={false} locked value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} onChange={() => {}} />
-            <TextField label="Taglia base" showInfo={false} showEditIcon value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
-          </div>
-          <div className={grid2}>
-            <TextField label="Specie" showInfo={false} showEditIcon value={sheet.specie} valueInfoId={`valore:specie:${sheet.specie}`} options={regole.specie} locked={Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
-            <TextField label="Background" showInfo={false} showEditIcon value={sheet.background} valueInfoId={`valore:background:${sheet.background}`} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
-          </div>
-          {lignaggi[sheet.specie] && <TextField label="Lignaggio" showInfo={false} showEditIcon value={sheet.lignaggio} valueInfoId={`valore:lignaggio:${sheet.lignaggio}`} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
-        </div>
-      ),
-    },
-    {
-      title: "Lingue",
-      body: (
-        <div className="flex flex-col gap-2">
-          <h3 className={sectionTitle}>Lingue</h3>
-          <ul className="flex flex-col gap-1.5">
-            {toList(sheet.lingue).map((language) => (
-              <li key={language} className="flex items-center gap-2">
-                <span className="text-ink-faint" aria-hidden>•</span>
-                {languageDetails(language) ?
-                  <InfoLabel id={`lingua:${language}`} title={language} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" /> :
-                  <span className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">{language}</span>}
-              </li>
-            ))}
-          </ul>
-          <TextField label="Note lingue" showInfo={false} showEditIcon value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
+          <section className="mt-2 flex flex-col gap-2">
+            <h3 className={sectionTitle}>Lingue</h3>
+            <ul className="flex flex-col gap-1.5">
+              {toList(sheet.lingue).map((language) => (
+                <li key={language} className="flex items-center gap-2">
+                  <span className="text-ink-faint" aria-hidden>•</span>
+                  {languageDetails(language) ?
+                    <InfoLabel id={`lingua:${language}`} title={language} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" /> :
+                    <span className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">{language}</span>}
+                </li>
+              ))}
+            </ul>
+            <TextField label="Note lingue" showInfo={false} showEditIcon value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
+          </section>
         </div>
       ),
     },
@@ -1020,11 +999,11 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-3">
           <h3 className={sectionTitle}>Monete</h3>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-2">
             {COINS.map(([lab, key, unit]) => {
               const count = Number(sheet.monete[key] || 0);
-              return <div key={key} className="flex min-h-20 items-center gap-3 rounded-xl border border-line bg-card/70 px-4 py-3 shadow-sm">
-                <label htmlFor={`coin-${key}`} className="min-w-0 flex-1 text-base font-semibold text-ink">{lab} <span className="text-sm font-normal text-ink-soft">({unit})</span></label>
+              return <div key={key} className="flex items-center gap-1.5 rounded-xl border border-line bg-card/70 px-3 py-2 shadow-sm">
+                <label htmlFor={`coin-${key}`} className="min-w-0 flex-1 text-sm font-semibold text-ink">{lab} <span className="text-xs font-normal text-ink-soft">({unit})</span></label>
                 <input
                   id={`coin-${key}`}
                   type="text"
@@ -1035,20 +1014,18 @@ export default function CharacterClient({
                     const next = event.target.value;
                     if (/^\d*$/.test(next)) patch({ monete: { ...sheet.monete, [key]: next } });
                   }}
-                  className="w-20 rounded-lg border border-line bg-parchment/70 px-2 py-2 text-center text-xl font-semibold text-ink outline-none focus:border-accent"
+                  className="min-w-0 w-16 rounded-lg border border-line bg-parchment/70 px-1 py-1.5 text-center text-lg font-semibold text-ink outline-none focus:border-accent"
                 />
-                <div className="flex flex-col gap-1">
-                  <button type="button" aria-label={`Aumenta ${lab.toLowerCase()}`} onClick={() => adjustCoin(key, 1)} disabled={!Number.isSafeInteger(count) || count < 0 || count >= Number.MAX_SAFE_INTEGER} className="flex size-11 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">↑</button>
-                  <button type="button" aria-label={`Diminuisci ${lab.toLowerCase()}`} onClick={() => adjustCoin(key, -1)} disabled={!Number.isSafeInteger(count) || count <= 0} className="flex size-11 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">↓</button>
-                </div>
+                <button type="button" aria-label={`Diminuisci ${lab.toLowerCase()}`} onClick={() => adjustCoin(key, -1)} disabled={!Number.isSafeInteger(count) || count <= 0} className="flex size-11 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">−</button>
+                <button type="button" aria-label={`Aumenta ${lab.toLowerCase()}`} onClick={() => adjustCoin(key, 1)} disabled={!Number.isSafeInteger(count) || count < 0 || count >= Number.MAX_SAFE_INTEGER} className="flex size-11 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">+</button>
               </div>;
             })}
           </div>
           <div className="mt-2 rounded-xl border border-line bg-card/70 p-4 shadow-sm">
             <h4 className="text-sm font-semibold text-ink">Valore equivalente totale</h4>
             <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
-              {COINS.map(([lab, key, unit]) => (
-                <div key={key} className="flex justify-between gap-2"><dt className="text-ink-soft">{lab}</dt><dd className="font-semibold text-ink">{coinValues?.[key] ?? "—"} {unit}</dd></div>
+              {COINS.map(([lab, key]) => (
+                <div key={key} className="flex justify-between gap-2"><dt className="text-ink-soft">{lab}</dt><dd className="font-semibold text-ink">{coinValues?.[key] ?? "—"}</dd></div>
               ))}
             </dl>
           </div>
@@ -1080,7 +1057,6 @@ export default function CharacterClient({
 
   const pageOrder = [
     "Stato & Identità",
-    "Lingue",
     "Caratteristiche",
     "Abilità",
     "Incantesimi",
@@ -1175,19 +1151,11 @@ export default function CharacterClient({
                 </div>
                 <button
                   type="button"
-                  onClick={() => handleExport("template")}
-                  disabled={exporting !== null}
+                  onClick={handleExport}
+                  disabled={exporting}
                   className="mt-4 w-full rounded-xl bg-accent py-3 text-sm font-semibold text-parchment shadow-sm transition-opacity active:opacity-90 disabled:opacity-50"
                 >
-                  {exporting === "template" ? "Esportazione…" : "Esporta PDF scheda"}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => handleExport("current")}
-                  disabled={exporting !== null}
-                  className="mt-2 w-full rounded-xl border border-accent py-3 text-sm font-semibold text-accent transition-opacity active:opacity-90 disabled:opacity-50"
-                >
-                  {exporting === "current" ? "Esportazione…" : "Esporta PDF app"}
+                  {exporting ? "Esportazione…" : "Esporta Scheda"}
                 </button>
                 <button
                   type="button"
