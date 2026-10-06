@@ -23,9 +23,9 @@ import {
 import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
 import { groupHistoryByDay } from "@/lib/history";
 import regole from "@/lib/manuale-2024-domains.json";
-import { spellNames, spellDetails, canonicalSpellName } from "@/lib/spells";
+import { spellDetails, canonicalSpellName } from "@/lib/spells";
 import { spellEffects } from "@/lib/spellEffects";
-import type { Sheet, Arma, Equip, Incantesimo } from "@/lib/sheet";
+import type { Sheet, Arma, Equip } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
 import { helpFor, type FieldHelp } from "@/lib/fieldHelp";
@@ -38,7 +38,7 @@ import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
 import { availableFeatChoices, availablePrivilegeChoices, featGrants, grantedPrivileges, privilegeOptions } from "@/lib/characterGrants";
-import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spellcasting";
+import { spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotals } from "@/lib/coins";
 import { hasGrantedCompetency } from "@/lib/competencySources";
@@ -963,22 +963,15 @@ export default function CharacterClient({
           {spellcastingStats(sheet) && <div className={card}><p>CD incantesimi: {spellcastingStats(sheet)?.dc} · Attacco magico: {spellcastingStats(sheet)?.attack}</p><p className="text-sm text-ink-soft">{spellcastingStats(sheet)?.formula}</p></div>}
           {spellSlots(sheet).some((slot) => slot.maximum > 0) && <div className={card}><h3 className={sectionTitle}>Slot incantesimo spesi</h3><div className="grid grid-cols-3 gap-2">{spellSlots(sheet).filter((slot) => slot.maximum > 0).map((slot) => <TextField key={slot.level} label={`Livello ${slot.level} / ${slot.maximum}`} showInfo={false} numeric="unsigned" value={String(sheet.slotSpesi?.[String(slot.level)] ?? 0)} onChange={(v) => patch({ slotSpesi: { ...sheet.slotSpesi, [String(slot.level)]: Number(v || 0) } })} />)}</div></div>}
           <h3 className={sectionTitle}>Incantesimi</h3>
-          <ArrayEditor
-            items={sheet.incantesimi}
-            onChange={(items) => patch({ incantesimi: items })}
-            makeNew={(): Incantesimo => ({ nome: "" })}
-            addLabel="Aggiungi incantesimo"
-            collapsible
-            titleOf={(inc) => inc.nome || "Nuovo incantesimo"}
-            onTitleClick={(inc, _index, button) => { if (!inc.nome) return false; openFieldInfo(`incantesimo:${inc.nome}`, inc.nome, button); return true; }}
-            renderItem={(inc, p) => (
-              <div className="flex flex-col gap-2">
-                <TextField label="Nome" showInfo={false} value={inc.nome} valueInfoId={inc.nome ? `incantesimo:${inc.nome}` : undefined} options={inc.fonte === "classe" ? availableClassSpells(sheet) : spellNames} onChange={(v) => p({ nome: v })} />
-                {(inc.fonte || inc.stato) && <p className="text-xs text-ink-soft">{inc.fonte ? `Fonte registrata: ${{ classe: "Classe", talento: "Talento", privilegio: "Privilegio", altro: "Altro" }[inc.fonte]}` : ""}{inc.fonte && inc.stato ? " · " : ""}{inc.stato ? `Stato registrato: ${{ conosciuto: "Conosciuto", libro: "Nel libro", preparato: "Preparato", semprePreparato: "Sempre preparato", concesso: "Concesso" }[inc.stato]}` : ""}</p>}
-                {inc.fonte && inc.fonte !== "classe" && <TextField label="Caratteristica di lancio" showInfo={false} value={inc.caratteristica ?? ""} options={["INT", "SAG", "CAR"]} onChange={(v) => p({ caratteristica: v as "INT" | "SAG" | "CAR" })} />}
-              </div>
-            )}
-          />
+          {sheet.incantesimi.length === 0 && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
+          <div className="flex flex-col gap-2">
+            {sheet.incantesimi.map((inc, index) => <div key={index} className={card}>
+              {inc.nome ? <InfoLabel id={`incantesimo:${inc.nome}`} title={inc.nome} className="text-sm font-semibold text-ink" />
+                : <p className="text-sm text-ink-faint">Incantesimo senza nome</p>}
+              {(inc.fonte || inc.stato) && <p className="mt-1 text-xs text-ink-soft">{inc.fonte ? `Fonte registrata: ${{ classe: "Classe", talento: "Talento", privilegio: "Privilegio", altro: "Altro" }[inc.fonte]}` : ""}{inc.fonte && inc.stato ? " · " : ""}{inc.stato ? `Stato registrato: ${{ conosciuto: "Conosciuto", libro: "Nel libro", preparato: "Preparato", semprePreparato: "Sempre preparato", concesso: "Concesso" }[inc.stato]}` : ""}</p>}
+              {inc.fonte && inc.fonte !== "classe" && inc.caratteristica && <p className="mt-1 text-xs text-ink-soft">Caratteristica di lancio: {inc.caratteristica}</p>}
+            </div>)}
+          </div>
         </div>
       ),
     },

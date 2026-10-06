@@ -86,6 +86,7 @@ direttamente nel PDF per definire questo piano:
 | 27–29 | PF attuali e massimi, danni, resistenza e vulnerabilità, guarigione, 0 PF, morte, tiri salvezza contro morte, stabilità, PF temporanei e condizioni. |
 | 41 | PE, soglie di livello e bonus di competenza. |
 | 51, 91, 101, 132, 141, 206 | Barbaro, Guerriero, Ladro, Paladino, Ranger e il talento Maestro d'Armi permettono di cambiare armi scelte per la Padronanza dopo un riposo lungo, secondo i limiti della rispettiva fonte. |
+| 59, 69, 79, 95, 108, 112–113, 131, 141, 151, 165 | I tempi e limiti per cambiare incantesimi preparati dipendono dalla classe o sottoclasse; il mago distingue libro e lista preparata e può copiare incantesimi trovati. La Magia del Patto del Warlock recupera slot al riposo breve o lungo. |
 | 235–238 | Lancio degli incantesimi, slot e dati di lancio; ogni automatismo specifico dipende dalla voce e dalla classe verificate. |
 | 364 | Concentrazione e suoi modi di interruzione. |
 | 366 | Indebolimento: livelli, effetti e riduzione con riposo lungo. |
@@ -237,11 +238,43 @@ competenza, limiti e fonte sul server, registrare prima/dopo nello storico e
 mostrare la scelta anche nell'anteprima del riposo collettivo. Nuovi posti di
 Padronanza concessi dal livello appartengono invece al cambio livello; la
 pagina Armi resta di sola lettura per competenze e Padronanze.
+Per gli incantesimi, il riposo propone soltanto le sostituzioni consentite
+dalla classe e dai privilegi posseduti: il Chierico e il Druido possono
+rivedere la lista preparata al riposo lungo (pp. 69, 79); il Mago la sceglie
+dal proprio libro (p. 112) e dal 5° livello può sostituire un incantesimo
+preparato dal libro anche al riposo breve (p. 113). Paladino, Ranger e
+Stregone hanno limiti di sostituzione specifici al riposo lungo (pp. 131,
+141, 151); verificare allo stesso modo Cavaliere Mistico e Mistificatore
+Arcano (pp. 95, 108). Le sostituzioni del Bardo e del Warlock al cambio
+livello non sono offerte come scelta libera al riposo (pp. 59, 165).
+L'anteprima distingue incantesimi nel libro, preparati e sempre preparati;
+questi ultimi non si rimuovono né occupano posti ordinari. Il Warlock
+recupera gli slot della Magia del Patto al riposo breve o lungo (p. 165);
+gli altri recuperi seguono la fonte verificata. Validare sul server numero,
+lista ammessa, livello degli slot, fonte e momento della scelta, poi registrare
+prima/dopo nello storico senza duplicare incantesimi o applicare un riposo
+due volte. Gli slot spesi rimangono registrabili durante il gioco nella
+scheda; la lista degli incantesimi e la caratteristica di lancio sono di sola
+lettura fuori dai flussi guidati.
 Il riposo individuale e quello collettivo chiamano **lo stesso motore di
 regole e validazione**; un personaggio già incluso in un riposo registrato
 non riceve due volte i benefici per un doppio clic o per una schermata
 Master rimasta aperta. L'ora dell'ultimo riposo lungo va conservata per
 verificare il limite di p. 371.
+
+### Incantesimi acquisiti durante il gioco
+
+Il Mago può trovare un incantesimo da mago di 1° livello o superiore e
+copiarlo nel proprio libro quando è di un livello che può preparare e ha
+tempo sufficiente: 2 ore e 50 mo per livello dell'incantesimo (p. 113).
+Prevedere un flusso individuale «Copia nel libro» distinto da cambio livello
+e riposo. Chiedere quale incantesimo è stato trovato, verificare idoneità,
+tempo e costo, mostrare l'eventuale spesa di monete e aggiungere la voce con
+stato «nel libro» e fonte dell'evento; non prepararla automaticamente.
+Se una Sessione è aperta, collegare l'evento alla Sessione e renderlo subito
+visibile al Master; fuori Sessione conservarlo nello storico individuale.
+Le altre acquisizioni di incantesimi durante il gioco richiedono una fonte
+esplicita verificata, non un editor libero nella pagina Incantesimi.
 
 ## Dati e integrazione con l'app
 
@@ -349,6 +382,14 @@ verificare il limite di p. 371.
   Sessione. Applica solo benefici consentiti e ricariche verificate; risorse
   con recupero diverso restano distinte. I dati personali e le scelte
   permanenti non vengono cancellati.
+- Il riposo propone solo le sostituzioni di incantesimi consentite dalla
+  fonte del personaggio e valida elenco, numero e momento della scelta. Il
+  Mago prepara dal proprio libro; gli incantesimi sempre preparati restano
+  tali. Gli slot della Magia del Patto del Warlock si recuperano anche al
+  riposo breve, senza attribuire lo stesso recupero alle altre classi.
+- «Copia nel libro» del Mago registra un incantesimo trovato di livello
+  idoneo, tempo e costo di p. 113; aggiunge la voce al libro senza prepararla.
+  Un errore o una seconda conferma non duplica l'incantesimo né la spesa.
 - Il giocatore può completare un riposo dalla propria scheda con lo stesso
   calcolo. Durante una Sessione il Master vede subito l'evento e la scheda
   aggiornata; fuori Sessione l'evento resta nello storico individuale. Un

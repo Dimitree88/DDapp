@@ -62,6 +62,7 @@ direttamente nel PDF per questo piano:
 | 43 | Creazione a livello superiore e caso opzionale dei talenti dopo il 20° livello, escluso dal primo rilascio. |
 | 42–43 | La sequenza ordinaria di avanzamento non concede equipaggiamento di partenza aggiuntivo; la tabella di equipaggiamento per livelli superiori riguarda la creazione e lascia al DM la decisione sull'equipaggiamento extra. |
 | 44–45 | Multiclasse: prerequisiti, livelli per classe, competenze, Dadi Vita, privilegi e incantesimi; base per la fase separata. |
+| 59, 69, 79, 95, 108, 111–113, 131, 141, 151, 165 | Progressioni di incantesimi, trucchetti, preparazione, libro del mago e momenti di sostituzione differenti per classe e sottoclasse: verificare ciascun testo e tabella prima di applicare concessioni o scelte. |
 | 204, 219 | Corazze Leggere, Corazze Medie e Corazze Pesanti conferiscono competenze, non oggetti. Possedere, indossare e saper usare armature o scudi sono stati distinti. |
 | 87, 168 | Il Circolo delle Stelle al 3° livello ha creato una Carta Celeste, oggetto con aspetto scelto o tirato; se viene persa, può crearne un'altra con un rituale. Il Libro delle Ombre del Patto del Tomo è invece evocato dopo un riposo e scompare quando viene evocato un altro libro o muore il warlock: distinguere gli oggetti acquisiti da quelli evocati e temporanei. |
 | 37–40 | Allineamento scelto durante la creazione; taglia e velocità base determinate dalla specie. Il PDF non descrive un normale cambio di Allineamento dopo la creazione. |
@@ -137,9 +138,44 @@ verificato della classe, sottoclasse, talento o incantesimo pertinente.
 | Abilità e Maestria | Applicare competenze e Maestria soltanto se una classe, un privilegio o un talento li concede. Chiedere l'abilità quando la fonte prevede una scelta; conservarne fonte e livello. Aggiornare i bonus delle abilità dal punteggio di caratteristica e dal bonus di competenza, senza editarli o assegnare spunte arbitrarie. |
 | Competenze nelle armature e negli scudi | Applicare le competenze concesse dal talento o privilegio acquisito, con fonte e requisiti verificati. Per esempio, Corazze Leggere concede competenza nelle armature leggere e negli scudi; non aggiunge oggetti all'inventario e non li equipaggia. |
 | Calcoli dipendenti | Aggiornare i risultati realmente calcolati: tiri salvezza, abilità e Maestria, iniziativa, percezione passiva, attacchi e danni, CA, velocità, capacità, CD e attacchi degli incantesimi. Per la velocità distinguere base della specie, variazioni permanenti da livello/talento e variazioni da equipaggiamento, condizioni, privilegi o incantesimi durante il gioco; aggiornare il valore solo tramite l'evento pertinente. Ogni effetto non implementato va indicato come da gestire in un flusso guidato, senza dichiararlo applicato. |
-| Incantesimi | Usare la progressione della classe e i privilegi acquisiti per determinare trucchetti, incantesimi preparati o sostituibili, livello accessibile, slot e risorse di lancio. Chiedere le scelte previste, conservare fonte e caratteristica da incantatore di ciascun incantesimo. Non usare le attuali tabelle SRD come fonte normativa. |
+| Incantesimi | Usare la progressione della classe e i privilegi acquisiti per determinare trucchetti, incantesimi preparati o sostituibili, incantesimi nel libro, livello accessibile, slot e risorse di lancio. Chiedere soltanto le scelte previste in quel passaggio; conservare fonte, stato (nel libro, preparato, sempre preparato o concesso), caratteristica da incantatore, livello di acquisizione e pagina di ciascun incantesimo. Registrare le sostituzioni permesse al cambio livello (per esempio Bardo e Warlock) senza offrire quelle riservate al riposo. Un incantesimo sempre preparato non occupa uno dei posti di preparazione ordinari e non si rimuove come libera scelta. I nuovi massimi degli slot non azzerano gli slot già spesi: il cambio livello non è un riposo. Non usare le attuali tabelle SRD come fonte normativa. |
+
 | Risorse e stato di gioco | Adeguare i massimi e aggiungere le nuove risorse previste; mantenere tracciabili utilizzi già spesi, PF attuali e slot già spesi. Il cambio livello da solo non ripristina PF o risorse: le pp. 27 e 42 distinguono i PF attuali dal loro massimo e indicano l'aumento del massimo, senza prescrivere una guarigione. Applicare eventuali variazioni dei PF attuali solo quando la regola specifica lo dice. I casi non determinabili dal PDF o dalla scheda richiedono una scelta esplicita prima dell'implementazione. |
 | Dati personali ed equipaggiamento | Conservare note, oggetti, quantità, monete, armatura indossata e scudo impugnato. Il solo cambio livello, anche quando conferisce competenza nelle armature o negli scudi, non aggiunge né equipaggia un oggetto. Risolvere anche gli effetti degli eventuali talenti e privilegi appena acquisiti: quando il testo verificato concede un oggetto fisico persistente, aggiungerlo una sola volta all'inventario con quantità, scelta, fonte, livello e pagina; chiedere le scelte necessarie (per esempio l'aspetto della Carta Celeste del Druido del Circolo delle Stelle al 3° livello, p. 87). Non inventare peso o costo mancanti. Oggetti evocati, temporanei o creati durante il gioco non diventano automaticamente voci permanenti dell'inventario; in mancanza di una concessione esplicita, l'acquisizione resta nel normale inventario di gioco. |
+
+### Scelte di incantesimi nell'avanzamento
+
+- Per ogni classe e sottoclasse verificare direttamente nel PDF numero di
+  trucchetti, incantesimi preparati, incantesimi nel libro, livelli accessibili,
+  slot e ricariche. Distinguere «aggiunto al repertorio/libro», «preparato» e
+  «sempre preparato», con fonti e limiti indipendenti. Il wizard chiede le
+  scelte necessarie prima di salvare e non inventa incantesimi mancanti.
+- Applicare le sostituzioni previste proprio dal nuovo livello, come quelle
+  del Bardo (p. 59) e del Warlock (p. 165). Le modifiche consentite al riposo
+  appartengono al flusso di riposo di
+  `PLAN_MASTER_TOOLS.md`; copiare un incantesimo trovato nel libro del mago
+  durante il gioco è un evento distinto (p. 113).
+- Risolvere anche gli incantesimi concessi da talenti, privilegi e sottoclassi,
+  comprese le scelte interne e la caratteristica da incantatore prevista dalla
+  fonte. Una caratteristica può essere scelta solo se il testo lo consente.
+  Conservare e mostrare gli slot spesi già registrati; i massimi e i livelli
+  degli slot derivano dalle tabelle del PDF, non da `lib/spellcasting.ts` o dai
+  cataloghi SRD attuali senza riconciliazione.
+
+| Fonte | Scelte al cambio livello | Scelte riservate al riposo |
+| --- | --- | --- |
+| Bardo (p. 59) | Nuovi incantesimi quando cresce la capienza; può sostituirne uno preparato e un trucchetto. | Nessuna sostituzione generale della lista preparata per il solo riposo. |
+| Chierico e Druido (pp. 69, 79) | Nuovi incantesimi quando cresce la capienza; può sostituire un trucchetto. | Può rivedere la lista preparata al riposo lungo. |
+| Mago (pp. 111–113) | Due nuovi incantesimi nel libro a ogni livello da mago dopo il primo; nuovi posti di preparazione e trucchetti ai livelli indicati dalla tabella. | Può rivedere la lista preparata e sostituire un trucchetto al riposo lungo; dal 5° livello può sostituire un preparato dal libro dopo un riposo breve. |
+| Paladino e Ranger (pp. 131, 141) | Nuovi incantesimi quando cresce la capienza. | Può sostituire un preparato al riposo lungo. |
+| Stregone (p. 151) | Nuovi incantesimi quando cresce la capienza; può sostituire un trucchetto. | Può sostituire un preparato al riposo lungo. |
+| Warlock (p. 165) | Nuovi incantesimi quando cresce la capienza; può sostituire un preparato e un trucchetto. | Recupera gli slot della Magia del Patto al riposo breve o lungo; nessuna sostituzione generale della lista per il solo riposo. |
+| Cavaliere Mistico e Mistificatore Arcano (pp. 95, 108) | Seguire le rispettive tabelle di sottoclasse per nuovi incantesimi e trucchetti; il Mistificatore può sostituire un trucchetto diverso da *mano magica* quando ottiene un livello. | Ciascuno può sostituire un preparato al riposo lungo; verificare ogni altra opzione dal testo della sottoclasse. |
+
+La matrice descrive il momento delle scelte, non sostituisce i conteggi delle
+tabelle di classe né le concessioni di talenti, privilegi e sottoclassi. Le
+scelte speciali di questi ultimi si sommano solo quando la loro voce PDF lo
+prevede, con fonte distinta.
 
 ### Completezza delle concessioni
 
@@ -209,6 +245,12 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   avanzamento useranno transizioni dedicate che verificano fonte, numero di
   scelte e insieme di lingue ammesse. Riconciliare le schede pregresse senza
   eliminare lingue storiche prive di fonte certa.
+- Mostrare gli incantesimi e la caratteristica di lancio in sola lettura nella
+  scheda ordinaria. `saveSheet` rifiuta modifiche dirette a `incantesimi`;
+  `slotSpesi` resta il conteggio modificabile dell'uso durante il gioco, con
+  limite al massimo verificato. Creazione, avanzamento, riposo e acquisizioni
+  durante il gioco useranno transizioni dedicate con fonte e momento validati.
+  Riconciliare le voci pregresse senza fonte o stato certo senza cancellarle.
 - Per PF massimi e velocità conservare separatamente valore base, fonti e
   variazioni applicabili, inclusi gli effetti temporanei e la loro scadenza.
   I Dadi Vita totali derivano dai livelli nelle classi; quelli spesi sono
@@ -336,6 +378,12 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
 - La pagina Abilità mostra spunte e Maestria senza editor. La creazione
   raccoglie tutte le scelte iniziali; il salvataggio ordinario rifiuta ogni
   variazione di abilità o fonti, anche se inviata senza passare dall'interfaccia.
+- La pagina Incantesimi mostra la lista e le caratteristiche di lancio senza
+  editor; `saveSheet` rifiuta aggiunte, sostituzioni e rimozioni dirette. Gli
+  slot spesi restano registrabili entro il massimo. Il wizard acquisisce o
+  sostituisce solo gli incantesimi consentiti dal nuovo livello e conserva gli
+  slot già spesi; incantesimi sempre preparati e libro del mago mantengono
+  stati e fonti distinti.
 - I PE sotto soglia richiedono la conferma aggiuntiva; i PE non sono modificati.
   Il livello non può essere cambiato con l'editor ordinario né superare 20.
 - Le vecchie schede mantengono talenti, privilegi, scelte e note. Le voci

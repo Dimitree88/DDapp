@@ -75,6 +75,9 @@ export async function saveSheet(
     const skillChanges = JSON.stringify(previous.abilita) !== JSON.stringify(normalized.abilita)
       || JSON.stringify(skillSources(previous)) !== JSON.stringify(skillSources(normalized));
     if (skillChanges) return { ok: false, error: "Competenze e Maestria nelle abilità si modificano solo tramite i flussi guidati previsti dalle regole." };
+    if (JSON.stringify(previous.incantesimi) !== JSON.stringify(normalized.incantesimi)) {
+      return { ok: false, error: "Incantesimi e caratteristiche di lancio si modificano solo tramite i flussi guidati previsti dalle regole." };
+    }
     if (!previous.scudo && normalized.scudo && !normalized.equipaggiamento.some((item) =>
       item.impugnato && armorForEquipment(item)?.category === "scudi" && Number(item.quantita ?? "1") > 0)) {
       return { ok: false, error: "Registra prima lo scudo nell'inventario." };
