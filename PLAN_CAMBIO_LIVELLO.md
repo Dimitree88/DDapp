@@ -31,6 +31,11 @@ Decisioni dell'utente del 6 ottobre 2026:
   calcolo e valore prima/dopo. L'Allineamento è scelto alla creazione e,
   secondo la decisione dell'utente del 6 ottobre 2026, non si modifica più
   dalla scheda dopo la creazione.
+- I sei punteggi di caratteristica e le competenze nei tiri salvezza sono in
+  sola lettura nella pagina Caratteristiche. Le scelte permanenti ottenute
+  avanzando si applicano nel wizard, con fonte e limiti verificati. Gli effetti
+  eccezionali durante il gioco (per esempio *Desiderio*, p. 265) sono gestiti
+  manualmente dalle persone al tavolo e non richiedono un automatismo nell'app.
 - Decisione successiva: per ora la Velocità resta soltanto leggibile. Non
   introdurre comandi manuali per variarla; il wizard la aggiornerà solo se
   il nuovo livello concede un effetto permanente verificato. Gli altri
@@ -60,6 +65,9 @@ direttamente nel PDF per questo piano:
 | 37, 101, 142 | Alla creazione: Comune e due lingue standard scelte o tirate. Il Ladro ottiene Gergo Ladresco e una lingua scelta al 1° livello; il Ranger sceglie due lingue con Esploratore Esperto al 2° livello. |
 | 51–52 | Esempio di tabella di classe, privilegio con risorsa, sottoclasse, talento concesso da un privilegio. |
 | 177, 197, 199 | Talento conferito dal background; talento di Origini aggiuntivo dell'Umano; categorie, prerequisiti e ripetibilità dei talenti. |
+| 12, 36, 38, 40 | Il tiro salvezza somma il bonus di competenza solo se la competenza è posseduta; alla creazione si scelgono i punteggi e si registrano le competenze conferite. |
+| 53, 103, 125, 145 | Esempi di privilegi di classe che aumentano punteggi o conferiscono competenza nei tiri salvezza a livelli specifici. |
+| 199, 203, 208 | I talenti possono aumentare i punteggi; Resiliente conferisce anche competenza nel tiro salvezza scelto. |
 
 Le tabelle e le regole di **ogni classe e sottoclasse**, di ogni talento e di
 ogni incantesimo interessato andranno verificate sulle rispettive pagine del
@@ -106,7 +114,7 @@ verificato della classe, sottoclasse, talento o incantesimo pertinente.
 | Privilegi | Conferire quelli previsti al nuovo livello dalla classe e dalla sottoclasse già scelta. Mostrare le decisioni che richiedono: sottoclasse, opzioni interne, competenze, padronanze, lingue o altre scelte effettivamente presenti nel testo. Non duplicare un privilegio già conferito. |
 | Lingue | Nessuna aggiunta libera dalla scheda. Alla creazione registrare Comune e le due lingue standard scelte o tirate, con fonte. Ai livelli successivi aggiungere una lingua solo quando un privilegio verificato lo concede; chiedere la scelta soltanto dall'elenco consentito e registrare fonte, livello e pagina. Per il primo rilascio verificare almeno Esploratore Esperto del Ranger al 2° livello; le concessioni del Ladro e del Druido al 1° livello appartengono alla creazione. Le note sulle lingue restano testo personale modificabile. |
 | Talenti | Quando un privilegio concede un talento, creare una scelta vincolata alla sua fonte: categoria, prerequisiti e ripetibilità verificati. Registrare anche le scelte interne al talento e applicare i suoi effetti soltanto dove l'app li calcola davvero. |
-| Caratteristiche e competenza | Applicare gli incrementi scelti tramite il talento pertinente, con limiti e requisiti verificati. Ricalcolare i modificatori e il bonus di competenza del nuovo livello; non salvare copie ridondanti dei valori derivabili. |
+| Caratteristiche e competenza | Applicare gli incrementi scelti tramite il talento o privilegio pertinente, con limiti e requisiti verificati. Conferire o scegliere competenze nei tiri salvezza solo quando la classe, un privilegio o un talento lo prevede (per esempio Resiliente). Registrare la fonte e non confondere la competenza con il bonus numerico, che può aumentare per livello. Ricalcolare i modificatori e il bonus di competenza del nuovo livello; non salvare copie ridondanti dei valori derivabili. |
 | Calcoli dipendenti | Aggiornare i risultati realmente calcolati: tiri salvezza, abilità e Maestria, iniziativa, percezione passiva, attacchi e danni, CA, velocità, capacità, CD e attacchi degli incantesimi. Per la velocità distinguere base della specie, variazioni permanenti da livello/talento e variazioni da equipaggiamento, condizioni, privilegi o incantesimi durante il gioco; aggiornare il valore solo tramite l'evento pertinente. Ogni effetto non implementato va indicato come da gestire in un flusso guidato, senza dichiararlo applicato. |
 | Incantesimi | Usare la progressione della classe e i privilegi acquisiti per determinare trucchetti, incantesimi preparati o sostituibili, livello accessibile, slot e risorse di lancio. Chiedere le scelte previste, conservare fonte e caratteristica da incantatore di ciascun incantesimo. Non usare le attuali tabelle SRD come fonte normativa. |
 | Risorse e stato di gioco | Adeguare i massimi e aggiungere le nuove risorse previste; mantenere tracciabili utilizzi già spesi, PF attuali e slot già spesi. Il cambio livello da solo non ripristina PF o risorse: le pp. 27 e 42 distinguono i PF attuali dal loro massimo e indicano l'aumento del massimo, senza prescrivere una guarigione. Applicare eventuali variazioni dei PF attuali solo quando la regola specifica lo dice. I casi non determinabili dal PDF o dalla scheda richiedono una scelta esplicita prima dell'implementazione. |
@@ -142,6 +150,10 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
 
 - Sostituire l'attuale modifica diretta di `sheet.livello` in
   `app/personaggio/[id]/CharacterClient.tsx` con l'ingresso al wizard.
+- Conservare in sola lettura punteggi e competenze nei tiri salvezza nella
+  pagina Caratteristiche. `saveSheet` rifiuta variazioni dirette a punteggi,
+  spunte e fonti delle competenze nei tiri salvezza. Il wizard applica le
+  concessioni permanenti e registra la relativa fonte.
 - Mantenere PF massimi, Dadi Vita totali, Velocità e Allineamento in sola
   lettura nella scheda. `saveSheet` deve rifiutare le modifiche dirette a
   questi campi; il wizard userà una transizione dedicata, verificata sul
@@ -246,6 +258,10 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   Velocità solo per un effetto permanente concesso dal livello e verificato.
   Nessun comando manuale cambia la Velocità in questa fase. La
   creazione è l'unico flusso ordinario che sceglie l'Allineamento.
+- La pagina Caratteristiche non offre editor diretti dei sei punteggi o delle
+  spunte dei tiri salvezza; il salvataggio ordinario rifiuta anche tentativi
+  di cambiare le relative fonti. Il wizard applica solo scelte e concessioni
+  documentate e aggiorna i valori derivati senza intervento manuale.
 - I PE sotto soglia richiedono la conferma aggiuntiva; i PE non sono modificati.
   Il livello non può essere cambiato con l'editor ordinario né superare 20.
 - Le vecchie schede mantengono talenti, privilegi, scelte e note. Le voci

@@ -26,7 +26,7 @@ import { groupHistoryByDay } from "@/lib/history";
 import regole from "@/lib/manuale-2024-domains.json";
 import { spellNames, spellDetails, canonicalSpellName } from "@/lib/spells";
 import { spellEffects } from "@/lib/spellEffects";
-import type { Sheet, Caratteristica, Abilita, Arma, Equip, Incantesimo } from "@/lib/sheet";
+import type { Sheet, Abilita, Arma, Equip, Incantesimo } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
 import { speciesSizes } from "@/lib/creationRules";
@@ -651,13 +651,6 @@ export default function CharacterClient({
     snapshot();
     setSheet((s) => ({ ...s, ...p }));
   };
-  const updateCar = (i: number, p: Partial<Caratteristica>) => {
-    snapshot();
-    setSheet((s) => ({
-      ...s,
-      caratteristiche: s.caratteristiche.map((c, idx) => (idx === i ? { ...c, ...p } : c)),
-    }));
-  };
   const updateAbi = (i: number, p: Partial<Abilita>) => {
     snapshot();
     setSheet((s) => ({
@@ -753,21 +746,19 @@ export default function CharacterClient({
       title: "Caratteristiche",
       body: (
         <div className="flex flex-col gap-1.5">
-          {sheet.caratteristiche.map((c, i) => (
+          {sheet.caratteristiche.map((c) => (
             <div key={c.abbr} className="rounded-xl border border-line bg-card/70 px-3 py-1.5 shadow-sm">
               <div className="mb-1 flex items-center justify-between">
                 <span className="text-sm font-bold text-accent">{c.nome}</span>
-                <Toggle
-                  label="Tiro Salvezza"
-                  checked={c.tsCompetente}
-                  onExplain={(button) => openCalculation({ kind: "save", abbr: c.abbr }, button)}
-                  onChange={(v) => patch(setCheckboxCompetency(sheet, "tiroSalvezza", c.abbr, v))}
-                />
+                <span className="text-xs font-medium text-ink-soft">
+                  Tiro Salvezza: {c.tsCompetente ? "competente" : "non competente"}
+                </span>
               </div>
               <div className="grid grid-cols-3 gap-2 text-center">
                 <div>
-                  <InlineInput value={c.valore} onChange={(v) => updateCar(i, { valore: v })}
-                    numeric="unsigned" large className="w-full text-center font-bold" />
+                  <span aria-label={`Punteggio di ${c.nome}: ${c.valore || "non disponibile"}`} className="block w-full py-1 text-center text-2xl font-bold text-ink">
+                    {c.valore || "—"}
+                  </span>
                 </div>
                 <ComputedField label="Modificatore" value={abilityModifier(c.valore)}
                   explainLabel={`modificatore di ${c.nome}`}

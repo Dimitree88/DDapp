@@ -55,6 +55,13 @@ export async function saveSheet(
     if (JSON.stringify(previous.lingue) !== JSON.stringify(normalized.lingue)) {
       return { ok: false, error: "Le lingue si modificano solo nei flussi guidati di creazione e avanzamento." };
     }
+    if (JSON.stringify(previous.caratteristiche) !== JSON.stringify(normalized.caratteristiche)) {
+      return { ok: false, error: "Punteggi di caratteristica e competenze nei tiri salvezza si modificano solo tramite gli eventi previsti dalle regole." };
+    }
+    const savingThrowSources = (value: Sheet) => (value.fontiCompetenze ?? []).filter((record) => record.tipo === "tiroSalvezza");
+    if (JSON.stringify(savingThrowSources(previous)) !== JSON.stringify(savingThrowSources(normalized))) {
+      return { ok: false, error: "Le fonti delle competenze nei tiri salvezza si modificano solo tramite gli eventi previsti dalle regole." };
+    }
     const changes = diffSheet(previous, normalized);
     if (current.name !== cleanName) changes.unshift({ field: "Nome del personaggio", before: current.name, after: cleanName });
     const hasRemovedBonus = [...current.data.armi, ...current.data.equipaggiamento]
