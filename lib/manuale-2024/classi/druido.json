@@ -4,5 +4,877 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:druido",
+      "tipo": "classe",
+      "nome": "Druido",
+      "testo": [
+        {
+          "pagina": 79,
+          "da": "I druidi venerano la natura",
+          "includiDa": true,
+          "a": "Il druido ottiene i seguenti privilegi di classe"
+        }
+      ],
+      "correzioni": [
+        [
+          "I druidi venerano la natura",
+          "I druidi appartengono ad antichi ordini che invocano le forze della natura. Imbrigliando la magia degli animali, delle piante e dei quattro elementi, i druidi guariscono, si trasformano in animali e brandiscono la distruzione elementale.\n\nI druidi venerano la natura"
+        ],
+        ["DI 1o LIVELLO", "DI 1° LIVELLO"]
+      ],
+      "pagina": 79,
+      "pagine": [78, 80, 81, 82],
+      "tabelle": [
+        {
+          "titolo": "Tratti del druido",
+          "pagina": 79,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Saggezza"],
+            ["Dado Vita", "D8 per ogni livello da druido"],
+            ["Competenze nei tiri salvezza", "Intelligenza e Saggezza"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Addestrare Animali, Arcano, Intuizione, Medicina, Natura, Percezione, Religione o Sopravvivenza"
+            ],
+            ["Competenza nelle armi", "Armi semplici"],
+            ["Competenze negli strumenti", "Borsa da erborista"],
+            ["Competenza nelle armature", "Armature leggere e scudi"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Un'armatura di cuoio, uno scudo, un falcetto, focus druidico (bastone ferrato), una dotazione da esploratore, una borsa da erborista e 9 mo; o (B) 50 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del druido",
+          "pagina": 80,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Forma selvatica",
+            "Trucchetti",
+            "Incantesimi preparati",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "righe": [
+            [
+              "1",
+              "+2",
+              "Druidico, incantesimi e ordine primordiale",
+              "—",
+              "2",
+              "4",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "2",
+              "+2",
+              "Compagno selvatico, forma selvatica",
+              "2",
+              "2",
+              "5",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["3", "+2", "Sottoclasse del druido", "2", "2", "6", "4", "2", "—", "—", "—", "—", "—", "—", "—"],
+            [
+              "4",
+              "+2",
+              "Aumento dei punteggi di caratteristica",
+              "2",
+              "3",
+              "7",
+              "4",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["5", "+3", "Rinascita selvatica", "2", "3", "9", "4", "3", "2", "—", "—", "—", "—", "—", "—"],
+            [
+              "6",
+              "+3",
+              "Privilegio della sottoclasse",
+              "3",
+              "3",
+              "10",
+              "4",
+              "3",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["7", "+3", "Furia elementale", "3", "3", "11", "4", "3", "3", "1", "—", "—", "—", "—", "—"],
+            [
+              "8",
+              "+3",
+              "Aumento dei punteggi di caratteristica",
+              "3",
+              "3",
+              "12",
+              "4",
+              "3",
+              "3",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["9", "+4", "—", "3", "3", "14", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
+            [
+              "10",
+              "+4",
+              "Privilegio della sottoclasse",
+              "3",
+              "4",
+              "15",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["11", "+4", "—", "3", "4", "16", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            [
+              "12",
+              "+4",
+              "Aumento dei punteggi di caratteristica",
+              "3",
+              "4",
+              "16",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "—",
+              "—",
+              "—"
+            ],
+            ["13", "+5", "—", "3", "4", "17", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            [
+              "14",
+              "+5",
+              "Privilegio della sottoclasse",
+              "3",
+              "4",
+              "17",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "—",
+              "—"
+            ],
+            [
+              "15",
+              "+5",
+              "Furia elementale migliorata",
+              "3",
+              "4",
+              "18",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "1",
+              "—"
+            ],
+            [
+              "16",
+              "+5",
+              "Aumento dei punteggi di caratteristica",
+              "3",
+              "4",
+              "18",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "1",
+              "—"
+            ],
+            ["17", "+6", "—", "4", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "1"],
+            ["18", "+6", "Incantesimi bestiali", "4", "4", "20", "4", "3", "3", "3", "3", "1", "1", "1", "1"],
+            ["19", "+6", "Dono epico", "4", "4", "21", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
+            ["20", "+6", "Arcidruido", "4", "4", "22", "4", "3", "3", "3", "3", "2", "2", "1", "1"]
+          ]
+        }
+      ],
+      "dadoVita": "D8",
+      "caratteristicaPrimaria": "Saggezza",
+      "tiriSalvezza": ["INT", "SAG"],
+      "competenze": {
+        "abilita": {
+          "numero": 2,
+          "scelte": [
+            "Addestrare Animali",
+            "Arcano",
+            "Intuizione",
+            "Medicina",
+            "Natura",
+            "Percezione",
+            "Religione",
+            "Sopravvivenza"
+          ]
+        },
+        "armi": ["Armi semplici"],
+        "armature": ["Leggere", "Scudi"],
+        "strumenti": ["Borsa da erborista"]
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Un'armatura di cuoio, uno scudo, un falcetto, focus druidico (bastone ferrato), una dotazione da esploratore, una borsa da erborista e 9 mo; o (B) 50 mo",
+      "privilegi": [
+        {
+          "id": "classe:druido:privilegio:1-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 1,
+          "testo": [{ "pagina": 79, "da": "Livello 1: Incantesimi", "a": "Privilegi del druido", "na": 4 }],
+          "correzioni": [
+            ["produrrefiamma", "produrre fiamma"],
+            ["Slotincantesimo.", "Slot incantesimo."],
+            ["riposo lungo. Incantesimipreparati di 1°", "riposo lungo.\n\nIncantesimi preparati di 1°"],
+            ["curaferite", "cura ferite"],
+            ["nella tabella.\n\nGli incantesimi scelti", "nella tabella. Gli incantesimi scelti"],
+            ["Cambiaregliincantesimipreparati.", "Cambiare gli incantesimi preparati."],
+            ["da druido. Focus da incantatore.", "da druido.\n\nFocus da incantatore."]
+          ],
+          "pagina": 79,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:1-druidico",
+          "nome": "Druidico",
+          "livello": 1,
+          "testo": [{ "pagina": 80, "da": "Livello 1: Druidico", "a": "Livello 1: Ordine Primordiale" }],
+          "correzioni": [["parlare conglianimali", "parlare con gli animali"]],
+          "pagina": 80,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:1-ordine-primordiale",
+          "nome": "Ordine Primordiale",
+          "livello": 1,
+          "testo": [{ "pagina": 80, "da": "Livello 1: Ordine Primordiale", "a": "Slot incantesimo per livello" }],
+          "correzioni": [
+            ["a scelta. Custode.", "a scelta.\n\nCustode."],
+            ["(bonus minimo di +1).\n\n-", "(bonus minimo di +1)."]
+          ],
+          "pagina": 80,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:2-compagno-selvatico",
+          "nome": "Compagno Selvatico",
+          "livello": 2,
+          "testo": [{ "pagina": 80, "da": "Livello 2: Compagno Selvatico", "a": "Livello 2: Forma Selvatica" }],
+          "correzioni": [
+            ["trovafamiglio", "trova famiglio"],
+            ["materiali. Una volta lanciato", "materiali.\n\nUna volta lanciato"],
+            ["il famiglia evocato", "il famiglio evocato"]
+          ],
+          "pagina": 80,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:2-forma-selvatica",
+          "nome": "Forma Selvatica",
+          "livello": 2,
+          "testo": [{ "pagina": 80, "da": "Livello 2: Forma Selvatica", "a": "Livello 3: Sottoclasse del Druido" }],
+          "correzioni": [
+            ["Privilegi del druido. Forme conosciute.", "Privilegi del druido.\n\nForme conosciute."],
+            ["di volo. Quando scegli", "di volo.\n\nQuando scegli"],
+            ["ManualedeiMostri", "Manuale dei Mostri"],
+            [
+              "\n\nFORME BESTIALI\n\nLivello da · Forme · Velocità\ndruido · conosciute · GS max · di volo\n2 · 4 · 1/4 · No\n4 · 6 · 1/2 · No\n8 · 8 · Sì",
+              ""
+            ],
+            ["dellaforma", "della forma"],
+            ["equipaggiamento si\n\nfonde", "equipaggiamento si fonde"]
+          ],
+          "tabelle": [
+            {
+              "titolo": "Forme bestiali",
+              "pagina": 81,
+              "colonne": ["Livello da druido", "Forme conosciute", "GS max", "Velocità di volo"],
+              "righe": [["2", "4", "1/4", "No"], ["4", "6", "1/2", "No"], ["8", "8", "1", "Sì"]]
+            }
+          ],
+          "pagina": 80,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:3-sottoclasse-del-druido",
+          "nome": "Sottoclasse del Druido",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 81,
+              "da": "Livello 3: Sottoclasse del Druido",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "correzioni": [["livelli da druido.\n\nPer il resto", "livelli da druido. Per il resto"]],
+          "pagina": 81,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 81,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Rinascita Selvatica"
+            }
+          ],
+          "correzioni": [
+            [
+              "teristica (vedi capitolo S) o un altro talento a scelta di Il personaggio ottiene l'aumento dei punteggi di caratcui possiede i prerequisiti.",
+              "Il personaggio ottiene l'aumento dei punteggi di caratteristica (vedi capitolo 5) o un altro talento a scelta di cui possiede i prerequisiti."
+            ]
+          ],
+          "pagina": 81,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:5-rinascita-selvatica",
+          "nome": "Rinascita Selvatica",
+          "livello": 5,
+          "testo": [{ "pagina": 81, "da": "Livello 5: Rinascita Selvatica", "a": "Livello 7: Furia Elementale" }],
+          "pagina": 81,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:7-furia-elementale",
+          "nome": "Furia Elementale",
+          "livello": 7,
+          "testo": [
+            {
+              "pagina": 81,
+              "da": "Livello 7: Furia Elementale",
+              "a": "Livello 15: Furia Elementale Migliorata"
+            }
+          ],
+          "correzioni": [["(a scelta). Incantesimipotenti.", "(a scelta).\n\nIncantesimi potenti."]],
+          "pagina": 81,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:15-furia-elementale-migliorata",
+          "nome": "Furia Elementale Migliorata",
+          "livello": 15,
+          "testo": [
+            {
+              "pagina": 81,
+              "da": "Livello 15: Furia Elementale Migliorata",
+              "a": "Livello 18: Incantesimi Bestiali"
+            }
+          ],
+          "correzioni": [
+            ["Incantesimipotenti.", "Incantesimi potenti."],
+            ["aumenta di 90 metri.\n\n..", "aumenta di 90 metri."]
+          ],
+          "pagina": 81,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:18-incantesimi-bestiali",
+          "nome": "Incantesimi Bestiali",
+          "livello": 18,
+          "testo": [{ "pagina": 82, "da": "Livello 18: Incantesimi Bestiali", "a": "Livello 19: Dono Epico" }],
+          "pagina": 82,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 82, "da": "Livello 19: Dono Epico", "a": "Livello 20: Arcidruido" }],
+          "pagina": 82,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:privilegio:20-arcidruido",
+          "nome": "Arcidruido",
+          "livello": 20,
+          "testo": [{ "pagina": 82, "da": "Livello 20: Arcidruido", "a": "Lista degli Incantesimi da Druido" }],
+          "correzioni": [["livelli di incantesimo.\n\nPer esempio,", "livelli di incantesimo. Per esempio,"]],
+          "pagina": 82,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:druido:sottoclasse:circolo-della-luna",
+      "tipo": "sottoclasse",
+      "classe": "Druido",
+      "nome": "Circolo della Luna",
+      "testo": [{ "pagina": 84, "da": "Circolo della Luna", "n": 2, "a": "Livello 3: Forme del Circolo" }],
+      "correzioni": [
+        [
+          "Adottaforme animaliperproteggere le terre selvagge I druidi",
+          "Adotta forme animali per proteggere le terre selvagge\n\nI druidi"
+        ],
+        ["celebrare rituali. Mutevole come la luna", "celebrare rituali.\n\nMutevole come la luna"]
+      ],
+      "pagina": 84,
+      "privilegi": [
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-luna:privilegio:3-forme-del-circolo",
+          "nome": "Forme del Circolo",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 84,
+              "da": "Livello 3: Forme del Circolo",
+              "a": "Livello 3: Incantesimi del Circolo della Luna"
+            }
+          ],
+          "correzioni": [
+            ["indicati di seguito. Grado di sfida.", "indicati di seguito.\n\nGrado di sfida."],
+            ["Puntiferita temporanei.", "Punti ferita temporanei."]
+          ],
+          "pagina": 84,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-luna:privilegio:3-incantesimi-del-circolo-della-luna",
+          "nome": "Incantesimi del Circolo della Luna",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 85,
+              "da": "Livello 3: Incantesimi del Circolo della Luna",
+              "a": "Incantesimi del Circolo della Luna",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Circolo della Luna",
+              "pagina": 85,
+              "colonne": ["Livello da druido", "Incantesimi preparati"],
+              "righe": [
+                ["3", "Bagliore lunare, cura ferite e luce splendente"],
+                ["5", "Evoca animali"],
+                ["7", "Fonte di luce lunare"],
+                ["9", "Cura ferite di massa"]
+              ]
+            }
+          ],
+          "pagina": 85,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-luna:privilegio:6-forme-del-circolo-migliorate",
+          "nome": "Forme del Circolo Migliorate",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 85,
+              "da": "Livello 6: Forme del Circolo Migliorate",
+              "a": "Livello 10: Passo Chiardiluna"
+            }
+          ],
+          "pagina": 85,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-luna:privilegio:10-passo-chiardiluna",
+          "nome": "Passo Chiardiluna",
+          "livello": 10,
+          "testo": [{ "pagina": 85, "da": "Livello 10: Passo Chiardiluna", "a": "Livello 14: Forma Lunare" }],
+          "pagina": 85,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-luna:privilegio:14-forma-lunare",
+          "nome": "Forma Lunare",
+          "livello": 14,
+          "testo": [{ "pagina": 85, "da": "Livello 14: Forma Lunare", "a": "Circolo del Mare" }],
+          "pagina": 85,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:druido:sottoclasse:circolo-del-mare",
+      "tipo": "sottoclasse",
+      "classe": "Druido",
+      "nome": "Circolo del Mare",
+      "testo": [{ "pagina": 86, "da": "Circolo del Mare", "a": "Livello 3: Furia dei Mari" }],
+      "correzioni": [
+        [
+          "Diventauntutt'uno conlemaree eletempeste I druidi",
+          "Diventa un tutt'uno con le maree e le tempeste\n\nI druidi"
+        ]
+      ],
+      "pagina": 86,
+      "privilegi": [
+        {
+          "id": "classe:druido:sottoclasse:circolo-del-mare:privilegio:3-furia-dei-mari",
+          "nome": "Furia dei Mari",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 86,
+              "da": "Livello 3: Furia dei Mari",
+              "a": "Livello 3: Incantesimi del Circolo del Mare"
+            }
+          ],
+          "correzioni": [["bersagliodeve", "bersaglio deve"]],
+          "pagina": 86,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-del-mare:privilegio:3-incantesimi-del-circolo-del-mare",
+          "nome": "Incantesimi del Circolo del Mare",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 86,
+              "da": "Livello 3: Incantesimi del Circolo del Mare",
+              "a": "Incantesimi del Circolo del Mare",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Circolo del Mare",
+              "pagina": 86,
+              "colonne": ["Livello da druido", "Incantesimi preparati"],
+              "righe": [
+                ["3", "Nube di nebbia, folata di vento, raggio di gelo, frantumare e onda tonante"],
+                ["5", "Fulmine e respirare sott'acqua"],
+                ["7", "Controllare acqua e tempesta di ghiaccio"],
+                ["9", "Evoca elementale e blocca mostri"]
+              ]
+            }
+          ],
+          "pagina": 86,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-del-mare:privilegio:6-affinita-acquatica",
+          "nome": "Affinità Acquatica",
+          "livello": 6,
+          "testo": [{ "pagina": 86, "da": "Livello 6: Affinità Acquatica", "a": "Livello 10: Nato dalla Tempesta" }],
+          "pagina": 86,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-del-mare:privilegio:10-nato-dalla-tempesta",
+          "nome": "Nato dalla Tempesta",
+          "livello": 10,
+          "testo": [{ "pagina": 86, "da": "Livello 10: Nato dalla Tempesta", "a": "Livello 14: Dono Oceanico" }],
+          "pagina": 86,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-del-mare:privilegio:14-dono-oceanico",
+          "nome": "Dono Oceanico",
+          "livello": 14,
+          "testo": [{ "pagina": 87, "da": "Livello 14: Dono Oceanico", "a": "Circolo delle Stelle" }],
+          "pagina": 87,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:druido:sottoclasse:circolo-delle-stelle",
+      "tipo": "sottoclasse",
+      "classe": "Druido",
+      "nome": "Circolo delle Stelle",
+      "testo": [{ "pagina": 87, "da": "Circolo delle Stelle", "a": "Livello 3: Carta Celeste" }],
+      "correzioni": [
+        [
+          "Imbriglia isegretinascosti nelle costellazioni Il Circolo",
+          "Imbriglia i segreti nascosti nelle costellazioni\n\nIl Circolo"
+        ]
+      ],
+      "pagina": 87,
+      "privilegi": [
+        {
+          "id": "classe:druido:sottoclasse:circolo-delle-stelle:privilegio:3-carta-celeste",
+          "nome": "Carta Celeste",
+          "livello": 3,
+          "testo": [{ "pagina": 87, "da": "Livello 3: Carta Celeste", "a": "Carta Celeste", "na": 5 }],
+          "correzioni": [
+            [
+              "ha creato una carta celeste. È un oggetto Minuscolo e può Il druido, nell'ambito dei suoi studisulla volta del cielo, assolvere la funzione",
+              "Il druido, nell'ambito dei suoi studi sulla volta del cielo, ha creato una carta celeste. È un oggetto Minuscolo e può assolvere la funzione"
+            ]
+          ],
+          "tabelle": [
+            {
+              "titolo": "Carta Celeste",
+              "pagina": 87,
+              "colonne": ["1d6", "Aspetto della Carta"],
+              "righe": [
+                ["1", "Una pergamena con le descrizioni delle costellazioni"],
+                ["2", "Una tavoletta di pietra con dei piccoli fori incisi"],
+                ["3", "Una pelle di orsogufo lavorata con simboli stellari"],
+                ["4", "Una raccolta di carte celesti rilegate in ebano"],
+                ["5", "Un cristallo inciso con forme di costellazioni"],
+                ["6", "Un disco di vetro inciso con costellazioni"]
+              ]
+            }
+          ],
+          "pagina": 87,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-delle-stelle:privilegio:3-forma-siderale",
+          "nome": "Forma Siderale",
+          "livello": 3,
+          "testo": [{ "pagina": 87, "da": "Livello 3: Forma Siderale", "a": "Livello 6: Profezia Cosmica" }],
+          "correzioni": [
+            ["ih un raggio", "in un raggio"],
+            ["per 10 minuti.\n\nLa forma si dissolve", "per 10 minuti. La forma si dissolve"],
+            ["dragosaggio", "drago saggio"]
+          ],
+          "pagina": 87,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-delle-stelle:privilegio:6-profezia-cosmica",
+          "nome": "Profezia Cosmica",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 88,
+              "da": "Livello 6: Profezia Cosmica",
+              "a": "Livello 10: Costellazioni Scintillanti"
+            }
+          ],
+          "correzioni": [
+            ["o.ttiene", "ottiene"],
+            ["dal totale. Ventura (pari).", "dal totale.\n\nVentura (pari)."],
+            ["al totale. Il personaggio può utilizzare", "al totale.\n\nIl personaggio può utilizzare"]
+          ],
+          "pagina": 88,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-delle-stelle:privilegio:10-costellazioni-scintillanti",
+          "nome": "Costellazioni Scintillanti",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 88,
+              "da": "Livello 10: Costellazioni Scintillanti",
+              "a": "Livello 14: Manto di Stelle"
+            }
+          ],
+          "pagina": 88,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-delle-stelle:privilegio:14-manto-di-stelle",
+          "nome": "Manto di Stelle",
+          "livello": 14,
+          "testo": [{ "pagina": 88, "da": "Livello 14: Manto di Stelle", "a": "Circolo della Terra" }],
+          "pagina": 88,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:druido:sottoclasse:circolo-della-terra",
+      "tipo": "sottoclasse",
+      "classe": "Druido",
+      "nome": "Circolo della Terra",
+      "testo": [{ "pagina": 88, "da": "Circolo della Terra", "a": "Livello 3: Ausilio dalla Terra" }],
+      "correzioni": [
+        [
+          "Celebralaconnessione con il mondo naturale Il Circolo",
+          "Celebra la connessione con il mondo naturale\n\nIl Circolo"
+        ]
+      ],
+      "pagina": 88,
+      "privilegi": [
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-terra:privilegio:3-ausilio-dalla-terra",
+          "nome": "Ausilio dalla Terra",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 88,
+              "da": "Livello 3: Ausilio dalla Terra",
+              "a": "Livello 3: Incantesimi del Circolo della Terra"
+            }
+          ],
+          "pagina": 88,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-terra:privilegio:3-incantesimi-del-circolo-della-terra",
+          "nome": "Incantesimi del Circolo della Terra",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 88,
+              "da": "Livello 3: Incantesimi del Circolo della Terra",
+              "a": "Terra arida",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Terra arida",
+              "pagina": 88,
+              "colonne": ["Livello da druido", "Incantesimi del Circolo"],
+              "righe": [
+                ["3", "Dardo di fuoco, mani brucianti, sfocatura"],
+                ["5", "Palla di fuoco"],
+                ["7", "Inaridire"],
+                ["9", "Muro di pietra"]
+              ]
+            },
+            {
+              "titolo": "Terra polare",
+              "pagina": 88,
+              "colonne": ["Livello da druido", "Incantesimi del Circolo"],
+              "righe": [
+                ["3", "Blocca persone, nube di nebbia, raggio di gelo"],
+                ["5", "Tempesta di nevischio"],
+                ["7", "Tempesta di ghiaccio"],
+                ["9", "Cono di freddo"]
+              ]
+            },
+            {
+              "titolo": "Terra temperata",
+              "pagina": 88,
+              "colonne": ["Livello da druido", "Incantesimi del Circolo"],
+              "righe": [
+                ["3", "Passo velato, sonno e stretta folgorante"],
+                ["5", "Fulmine"],
+                ["7", "Libertà di movimento"],
+                ["9", "Traslazione arborea"]
+              ]
+            },
+            {
+              "titolo": "Terra tropicale",
+              "pagina": 89,
+              "colonne": ["Livello da druido", "Incantesimi del Circolo"],
+              "righe": [
+                ["3", "Fiotto acido, raggio di infermità, ragnatela"],
+                ["5", "Nube maleodorante"],
+                ["7", "Metamorfosi"],
+                ["9", "Piaga degli insetti"]
+              ]
+            }
+          ],
+          "pagina": 88,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-terra:privilegio:6-recupero-naturale",
+          "nome": "Recupero Naturale",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 89,
+              "da": "Livello 6: Recupero Naturale",
+              "a": "Livello 10: Interdizione della Natura"
+            }
+          ],
+          "correzioni": [["{arrotondato", "(arrotondato"]],
+          "pagina": 89,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-terra:privilegio:10-interdizione-della-natura",
+          "nome": "Interdizione della Natura",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 89,
+              "da": "È immune alla condizione avvelenato",
+              "includiDa": true,
+              "a": "Interdizione della Natura",
+              "na": 2
+            }
+          ],
+          "correzioni": [["resi\n\nstenza", "resistenza"]],
+          "tabelle": [
+            {
+              "titolo": "Interdizione della Natura",
+              "pagina": 89,
+              "colonne": ["Tipo di terra", "Resistenza"],
+              "righe": [["Arida", "Fuoco"], ["Polare", "Freddo"], ["Temperata", "Fulmine"], ["Tropicale", "Veleno"]]
+            }
+          ],
+          "pagina": 89,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:druido:sottoclasse:circolo-della-terra:privilegio:14-rifugio-della-natura",
+          "nome": "Rifugio della Natura",
+          "livello": 14,
+          "testo": [{ "pagina": 89, "da": "Livello 14: Rifugio della Natura" }],
+          "correzioni": [["farapparire", "far apparire"]],
+          "pagina": 89,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

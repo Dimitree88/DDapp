@@ -4,5 +4,597 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:bardo",
+      "tipo": "classe",
+      "nome": "Bardo",
+      "testo": [{ "pagina": 59, "da": "NVOCANDO LA MAGIA", "includiDa": true, "a": "Privilegi di classe del bardo" }],
+      "correzioni": [
+        [
+          "NVOCANDO LA MAGIA ATTRAVERSO LA MUSICA, la danza, e i versi, i bardi sono esperti nell'ispirare\n\n1 illusioni. I bardi credono che l'universo sia stato creato tramite la parola e che gli echi di queste primordiali Parole gli altri, lenire le ferite, scoraggiare i nemici e creare\n\ndella Creazione",
+          "Invocando la magia attraverso la musica, la danza, e i versi, i bardi sono esperti nell'ispirare gli altri, lenire le ferite, scoraggiare i nemici e creare illusioni. I bardi credono che l'universo sia stato creato tramite la parola e che gli echi di queste primordiali Parole della Creazione"
+        ],
+        [
+          "gratitudine del\n\n• · pubblico proprio come ogni altro intrattenitore. Tuttavia,\n\nla profondità",
+          "gratitudine del pubblico proprio come ogni altro intrattenitore. Tuttavia, la profondità"
+        ]
+      ],
+      "pagina": 59,
+      "pagine": [58, 60, 61, 62, 63],
+      "tabelle": [
+        {
+          "titolo": "Tratti del bardo",
+          "pagina": 59,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Carisma"],
+            ["Dado Vita", "D8 per ogni livello da bardo"],
+            ["Competenze nei tiri salvezza", "Destrezza e Carisma"],
+            ["Competenze nelle abilità", "Tre abilità a scelta (vedi capitolo 1)"],
+            ["Competenza nelle armi", "Armi semplici"],
+            ["Competenze negli strumenti", "Tre strumenti musicali a scelta (vedi capitolo 6)"],
+            ["Competenza nelle armature", "Armature leggere"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Un'armatura di cuoio, 2 pugnali, uno strumento musicale (a scelta), una dotazione da intrattenitore e 19 mo; o (B) 90 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del bardo",
+          "pagina": 60,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Dado bardico",
+            "Trucchetti",
+            "Incantesimi preparati",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "righe": [
+            [
+              "1",
+              "+2",
+              "Incantesimi, ispirazione bardica",
+              "D6",
+              "2",
+              "4",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["2", "+2", "Factotum, maestria", "D6", "2", "5", "3", "—", "—", "—", "—", "—", "—", "—", "—"],
+            ["3", "+2", "Sottoclasse del bardo", "D6", "2", "6", "4", "2", "—", "—", "—", "—", "—", "—", "—"],
+            [
+              "4",
+              "+2",
+              "Aumento dei punteggi di caratteristica",
+              "D6",
+              "3",
+              "7",
+              "4",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["5", "+3", "Fonte di ispirazione", "D8", "3", "9", "4", "3", "2", "—", "—", "—", "—", "—", "—"],
+            [
+              "6",
+              "+3",
+              "Privilegio della sottoclasse",
+              "D8",
+              "3",
+              "10",
+              "4",
+              "3",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["7", "+3", "Controfascino", "D8", "3", "11", "4", "3", "3", "1", "—", "—", "—", "—", "—"],
+            [
+              "8",
+              "+3",
+              "Aumento dei punteggi di caratteristica",
+              "D8",
+              "3",
+              "12",
+              "4",
+              "3",
+              "3",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["9", "+4", "Maestria", "D8", "3", "14", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
+            ["10", "+4", "Segreti magici", "D10", "4", "15", "4", "3", "3", "3", "2", "—", "—", "—", "—"],
+            ["11", "+4", "—", "D10", "4", "16", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            [
+              "12",
+              "+4",
+              "Aumento dei punteggi di caratteristica",
+              "D10",
+              "4",
+              "16",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "—",
+              "—",
+              "—"
+            ],
+            ["13", "+5", "—", "D10", "4", "17", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            [
+              "14",
+              "+5",
+              "Privilegio della sottoclasse",
+              "D10",
+              "4",
+              "17",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "—",
+              "—"
+            ],
+            ["15", "+5", "—", "D12", "4", "18", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
+            [
+              "16",
+              "+5",
+              "Aumento dei punteggi di caratteristica",
+              "D12",
+              "4",
+              "18",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "1",
+              "—"
+            ],
+            ["17", "+6", "—", "D12", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "1"],
+            [
+              "18",
+              "+6",
+              "Ispirazione superiore",
+              "D12",
+              "4",
+              "20",
+              "4",
+              "3",
+              "3",
+              "3",
+              "3",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            ["19", "+6", "Dono epico", "D12", "4", "21", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
+            [
+              "20",
+              "+6",
+              "Parole della creazione",
+              "D12",
+              "4",
+              "22",
+              "4",
+              "3",
+              "3",
+              "3",
+              "3",
+              "2",
+              "2",
+              "1",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "dadoVita": "D8",
+      "caratteristicaPrimaria": "Carisma",
+      "tiriSalvezza": ["DES", "CAR"],
+      "competenze": {
+        "abilita": {
+          "numero": 3,
+          "scelte": [
+            "Acrobazia",
+            "Addestrare Animali",
+            "Arcano",
+            "Atletica",
+            "Furtività",
+            "Indagare",
+            "Inganno",
+            "Intimidire",
+            "Intrattenere",
+            "Intuizione",
+            "Medicina",
+            "Natura",
+            "Percezione",
+            "Persuasione",
+            "Rapidità di Mano",
+            "Religione",
+            "Sopravvivenza",
+            "Storia"
+          ]
+        },
+        "armi": ["Armi semplici"],
+        "armature": ["Leggere"],
+        "strumenti": [],
+        "strumentiAScelta": { "numero": 3, "tipi": ["musicale"] }
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Un'armatura di cuoio, 2 pugnali, uno strumento musicale (a scelta), una dotazione da intrattenitore e 19 mo; o (B) 90 mo",
+      "privilegi": [
+        {
+          "id": "classe:bardo:privilegio:1-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 1,
+          "testo": [{ "pagina": 59, "da": "Livello 1: Incantesimi", "a": "Privilegi del bardo", "na": 4 }],
+          "correzioni": [
+            ["lucidanzanti", "luci danzanti"],
+            [
+              "un altro truc-\n\nchetto a scelta dalla lista degli incantesimi da bardo. Quando il personaggio raggiunge il 4° e il 10° livello · j\n\nda bardo, impara",
+              "un altro trucchetto a scelta dalla lista degli incantesimi da bardo. Quando il personaggio raggiunge il 4° e il 10° livello da bardo, impara"
+            ],
+            ["Slotincantesimo.", "Slot incantesimo."],
+            ["Incantesimipreparati di 1°", "Incantesimi preparati di 1°"],
+            ["charmesupersone", "charme su persone"],
+            ["Cambiare gli incantesimipreparati.", "Cambiare gli incantesimi preparati."]
+          ],
+          "pagina": 59,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:1-ispirazione-bardica",
+          "nome": "Ispirazione Bardica",
+          "livello": 1,
+          "testo": [{ "pagina": 60, "da": "Livello 1: Ispirazione Bardica", "a": "preparati" }],
+          "correzioni": [
+            ["alla volta. Una volta entro", "alla volta.\n\nUna volta entro"],
+            ["si raggiungono.determinatili\\reli da bardo", "si raggiungono determinati livelli da bardo"]
+          ],
+          "pagina": 60,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:2-factotum",
+          "nome": "Factotum",
+          "livello": 2,
+          "testo": [{ "pagina": 60, "da": "Livello 2: Factotum", "a": "Livello 2: Maestria" }],
+          "pagina": 60,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:2-maestria",
+          "nome": "Maestria",
+          "livello": 2,
+          "testo": [{ "pagina": 60, "da": "Livello 2: Maestria", "a": "Livello 3: Sottoclasse del Bardo" }],
+          "pagina": 60,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:3-sottoclasse-del-bardo",
+          "nome": "Sottoclasse del Bardo",
+          "livello": 3,
+          "testo": [
+            { "pagina": 60, "da": "Livello 3: Sottoclasse del Bardo", "a": "Il repertorio di un bardo" },
+            {
+              "pagina": 61,
+              "da": "padroneggiarli tutti?",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "correzioni": [["determinati livelli\n\n?\n\nda bardo.", "determinati livelli da bardo."]],
+          "pagina": 60,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 61,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Fonte di Ispirazione"
+            }
+          ],
+          "pagina": 61,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:5-fonte-di-ispirazione",
+          "nome": "Fonte di Ispirazione",
+          "livello": 5,
+          "testo": [{ "pagina": 61, "da": "Livello 5: Fonte di Ispirazione", "a": "Livello 7: Controfascino" }],
+          "pagina": 61,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:7-controfascino",
+          "nome": "Controfascino",
+          "livello": 7,
+          "testo": [{ "pagina": 61, "da": "Livello 7: Controfascino", "a": "Livello 10: Segreti Magici" }],
+          "pagina": 61,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:10-segreti-magici",
+          "nome": "Segreti Magici",
+          "livello": 10,
+          "testo": [{ "pagina": 61, "da": "Livello 10: Segreti Magici", "a": "Livello 18: Ispirazione Superiore" }],
+          "pagina": 61,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:18-ispirazione-superiore",
+          "nome": "Ispirazione Superiore",
+          "livello": 18,
+          "testo": [{ "pagina": 61, "da": "Livello 18: Ispirazione Superiore", "a": "Livello 19: Dono Epico" }],
+          "pagina": 61,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 61, "da": "Livello 19: Dono Epico", "a": "Livello 20: Parole della Creazione" }],
+          "pagina": 61,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:privilegio:20-parole-della-creazione",
+          "nome": "Parole della Creazione",
+          "livello": 20,
+          "testo": [
+            {
+              "pagina": 61,
+              "da": "Livello 20: Parole della Creazione",
+              "a": "Lista degli Incantesimi da Bardo"
+            }
+          ],
+          "pagina": 61,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:bardo:sottoclasse:collegio-della-danza",
+      "tipo": "sottoclasse",
+      "classe": "Bardo",
+      "nome": "Collegio della Danza",
+      "testo": [{ "pagina": 64, "da": "Collegio della Danza", "n": 2, "a": "Livello 3: Scarto Smagliante" }],
+      "pagina": 64,
+      "privilegi": [
+        {
+          "id": "classe:bardo:sottoclasse:collegio-della-danza:privilegio:3-scarto-smagliante",
+          "nome": "Scarto Smagliante",
+          "livello": 3,
+          "testo": [{ "pagina": 64, "da": "Livello 3: Scarto Smagliante", "a": "Livello 6: Movimento Ispiratore" }],
+          "correzioni": [["colpi senz'armi.\n\nQuando infligge danni", "colpi senz'armi. Quando infligge danni"]],
+          "pagina": 64,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-della-danza:privilegio:6-movimento-ispiratore",
+          "nome": "Movimento Ispiratore",
+          "livello": 6,
+          "testo": [{ "pagina": 64, "da": "Livello 6: Movimento Ispiratore", "a": "Livello 6: Scarto Coordinato" }],
+          "pagina": 64,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-della-danza:privilegio:6-scarto-coordinato",
+          "nome": "Scarto Coordinato",
+          "livello": 6,
+          "testo": [{ "pagina": 64, "da": "Livello 6: Scarto Coordinato", "a": "Livello 14: Elusione Trainante" }],
+          "pagina": 64,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-della-danza:privilegio:14-elusione-trainante",
+          "nome": "Elusione Trainante",
+          "livello": 14,
+          "testo": [{ "pagina": 64, "da": "Livello 14: Elusione Trainante", "a": "Collegio del Fascino" }],
+          "correzioni": [
+            ["può condividere\n\nquesto beneficio", "può condividere questo beneficio"],
+            ["su Destrezza. Il personaggio non può", "su Destrezza.\n\nIl personaggio non può"]
+          ],
+          "pagina": 64,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:bardo:sottoclasse:collegio-del-fascino",
+      "tipo": "sottoclasse",
+      "classe": "Bardo",
+      "nome": "Collegio del Fascino",
+      "testo": [{ "pagina": 65, "da": "Collegio del Fascino", "a": "Livello 3: Magia Ammaliante" }],
+      "correzioni": [
+        ["Tessi l'ammaliante magiafatata Il Collegio", "Tessi l'ammaliante magia fatata\n\nIl Collegio"],
+        ["emozionidegli", "emozioni degli"]
+      ],
+      "pagina": 65,
+      "privilegi": [
+        {
+          "id": "classe:bardo:sottoclasse:collegio-del-fascino:privilegio:3-magia-ammaliante",
+          "nome": "Magia Ammaliante",
+          "livello": 3,
+          "testo": [{ "pagina": 65, "da": "Livello 3: Magia Ammaliante", "a": "Livello 3: Manto di Ispirazione" }],
+          "correzioni": [
+            ["charme supersone", "charme su persone"],
+            ["l'effetto svanisce. Dopo aver utilizzato", "l'effetto svanisce.\n\nDopo aver utilizzato"]
+          ],
+          "pagina": 65,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-del-fascino:privilegio:3-manto-di-ispirazione",
+          "nome": "Manto di Ispirazione",
+          "livello": 3,
+          "testo": [{ "pagina": 65, "da": "Livello 3: Manto di Ispirazione", "a": "Livello 6: Manto di Maestosità" }],
+          "pagina": 65,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-del-fascino:privilegio:6-manto-di-maestosita",
+          "nome": "Manto di Maestosità",
+          "livello": 6,
+          "testo": [{ "pagina": 65, "da": "Livello 6: Manto di Maestosità", "a": "Livello 14: Maestosità Invitta" }],
+          "correzioni": [["considerato preparato. Come azione bonus", "considerato preparato.\n\nCome azione bonus"]],
+          "pagina": 65,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-del-fascino:privilegio:14-maestosita-invitta",
+          "nome": "Maestosità Invitta",
+          "livello": 14,
+          "testo": [{ "pagina": 66, "da": "Livello 14: Maestosità Invitta", "a": "Collegio della Sapienza" }],
+          "pagina": 66,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:bardo:sottoclasse:collegio-della-sapienza",
+      "tipo": "sottoclasse",
+      "classe": "Bardo",
+      "nome": "Collegio della Sapienza",
+      "testo": [{ "pagina": 66, "da": "Collegio della Sapienza", "a": "Livello 3: Competenze Bonus" }],
+      "correzioni": [
+        [
+          "Scandaglia leprofondità della conoscenza magica I bardi",
+          "Scandaglia le profondità della conoscenza magica\n\nI bardi"
+        ]
+      ],
+      "pagina": 66,
+      "privilegi": [
+        {
+          "id": "classe:bardo:sottoclasse:collegio-della-sapienza:privilegio:3-competenze-bonus",
+          "nome": "Competenze Bonus",
+          "livello": 3,
+          "testo": [{ "pagina": 66, "da": "Livello 3: Competenze Bonus", "a": "Livello 3: Parole Taglienti" }],
+          "pagina": 66,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-della-sapienza:privilegio:3-parole-taglienti",
+          "nome": "Parole Taglienti",
+          "livello": 3,
+          "testo": [{ "pagina": 66, "da": "Livello 3: Parole Taglienti", "a": "Livello 6: Scoperte Magiche" }],
+          "pagina": 66,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-della-sapienza:privilegio:6-scoperte-magiche",
+          "nome": "Scoperte Magiche",
+          "livello": 6,
+          "testo": [{ "pagina": 66, "da": "Livello 6: Scoperte Magiche", "a": "Livello 14: Abilità Impareggiabile" }],
+          "pagina": 66,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-della-sapienza:privilegio:14-abilita-impareggiabile",
+          "nome": "Abilità Impareggiabile",
+          "livello": 14,
+          "testo": [{ "pagina": 66, "da": "Livello 14: Abilità Impareggiabile", "a": "Collegio del Valore" }],
+          "pagina": 66,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:bardo:sottoclasse:collegio-del-valore",
+      "tipo": "sottoclasse",
+      "classe": "Bardo",
+      "nome": "Collegio del Valore",
+      "testo": [{ "pagina": 67, "da": "Collegio del Valore", "a": "Livello 3: Addestramento Marziale" }],
+      "correzioni": [["Cantalegesta degliantichi eroi I bardi", "Canta le gesta degli antichi eroi\n\nI bardi"]],
+      "pagina": 67,
+      "privilegi": [
+        {
+          "id": "classe:bardo:sottoclasse:collegio-del-valore:privilegio:3-addestramento-marziale",
+          "nome": "Addestramento Marziale",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 67,
+              "da": "Livello 3: Addestramento Marziale",
+              "a": "Livello 3: Ispirazione in Combattimento"
+            }
+          ],
+          "pagina": 67,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-del-valore:privilegio:3-ispirazione-in-combattimento",
+          "nome": "Ispirazione in Combattimento",
+          "livello": 3,
+          "testo": [{ "pagina": 67, "da": "Livello 3: Ispirazione in Combattimento", "a": "Livello 6: Attacco Extra" }],
+          "pagina": 67,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-del-valore:privilegio:6-attacco-extra",
+          "nome": "Attacco Extra",
+          "livello": 6,
+          "testo": [{ "pagina": 67, "da": "Livello 6: Attacco Extra", "a": "Livello 14: Magia da Combattimento" }],
+          "pagina": 67,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:bardo:sottoclasse:collegio-del-valore:privilegio:14-magia-da-combattimento",
+          "nome": "Magia da Combattimento",
+          "livello": 14,
+          "testo": [{ "pagina": 67, "da": "Livello 14: Magia da Combattimento" }],
+          "pagina": 67,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
