@@ -4,5 +4,186 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "talento:combattere-alla-cieca",
+      "tipo": "talento",
+      "nome": "Combattere alla cieca",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Combattere alla cieca",
+          "dopo": "Talento Stile di combattimento (prerequisito:privilegio Stile di combattimento)",
+          "a": "Combattere con armi da lancio"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:combattere-con-armi-da-lancio",
+      "tipo": "talento",
+      "nome": "Combattere con armi da lancio",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Combattere con armi da lancio",
+          "dopo": "Talento Stiledicombattimento (prerequisito:privilegio Stile di combattimento)",
+          "a": "Combattere con armi possenti"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:combattere-con-armi-possenti",
+      "tipo": "talento",
+      "nome": "Combattere con armi possenti",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Combattere con armi possenti",
+          "dopo": "Talento Stiledicombattimento (prerequisito: privilegio Stile di combattimento)",
+          "a": "Combattere con due armi"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:combattere-con-due-armi",
+      "tipo": "talento",
+      "nome": "Combattere con due armi",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Combattere con due armi",
+          "dopo": "Talento Stiledicombattimento (prerequisito: privilegio Stile di combattimento)",
+          "a": "Combattere disarmato"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:combattere-disarmato",
+      "tipo": "talento",
+      "nome": "Combattere disarmato",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Combattere disarmato",
+          "dopo": "Talento Stile dicombattimento (prerequisito: privilegio Stile di combattimento)",
+          "a": "Difesa"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:difesa",
+      "tipo": "talento",
+      "nome": "Difesa",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Difesa",
+          "dopo": "Talento Stile di combattimento (prerequisito:privilegio Stile di combattimento)",
+          "a": "Duellare"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:duellare",
+      "tipo": "talento",
+      "nome": "Duellare",
+      "testo": [
+        {
+          "pagina": 209,
+          "da": "Duellare",
+          "dopo": "Talento Stiledicombattimento (prerequisito:privilegio Stile di combattimento)",
+          "a": "Intercettazione"
+        }
+      ],
+      "pagina": 209,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:intercettazione",
+      "tipo": "talento",
+      "nome": "Intercettazione",
+      "testo": [
+        {
+          "pagina": 210,
+          "da": "Intercettazione",
+          "dopo": "Talento Stiledicombattimento (prerequisito: privilegio Stile di combattimento)",
+          "a": "Protezione"
+        }
+      ],
+      "pagina": 210,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:protezione",
+      "tipo": "talento",
+      "nome": "Protezione",
+      "testo": [
+        {
+          "pagina": 210,
+          "da": "Protezione",
+          "dopo": "Talento Stiledicombattimento (prerequisito: privilegio Stile di combattimento)",
+          "a": "1ÌRO"
+        }
+      ],
+      "pagina": 210,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:tiro",
+      "tipo": "talento",
+      "nome": "Tiro",
+      "testo": [
+        {
+          "pagina": 210,
+          "da": "1ÌRO",
+          "dopo": "Talento Stile di combattimento (prerequisito:privilegio Stile di combattimento)",
+          "a": "TALENTI DONO EPICO"
+        }
+      ],
+      "pagina": 210,
+      "categoria": "Stile di combattimento",
+      "prerequisito": "privilegio Stile di combattimento",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
