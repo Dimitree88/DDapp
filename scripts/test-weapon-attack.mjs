@@ -17,6 +17,8 @@ test("proficiency comes from category or individual weapon, once", () => {
   assert.equal(weaponAttack(sheet, dagger).attack, "+6");
   const sword = { ...dagger, nome: "Spada lunga" };
   assert.equal(weaponAttack(sheet, sword).attack, "+3");
+  assert.equal(weaponAttack(sheet, sword).proficient, false);
+  assert.deepEqual(domainErrors({ ...sheet, armi: [sword] }), []);
   sheet.competenzeArmi.push("Spada lunga");
   assert.equal(weaponAttack(sheet, sword).attack, "+6");
 });

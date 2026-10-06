@@ -30,8 +30,9 @@ import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, prof
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
 import { helpFor, type FieldHelp } from "@/lib/fieldHelp";
 import { languageDetails } from "@/lib/languageDetails";
-import { weaponByName, weaponDetails } from "@/lib/weaponDetails";
-import { proficientWeaponNames, weaponMasteryLimit } from "@/lib/weaponChoices";
+import { weaponByName, weaponCatalog, weaponDetails } from "@/lib/weaponDetails";
+import { weaponMasteryLimit } from "@/lib/weaponChoices";
+import { isWeaponProficient } from "@/lib/weaponProficiencyRules";
 import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
@@ -69,7 +70,7 @@ const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
 
 function calculationEditGuide(target: CalculationTarget): string {
-  if (target.kind === "armor") return "Scegli l'armatura indossata e lo scudo impugnato nella sezione Equipaggiamento; poi la CA si aggiorna con Destrezza e competenza negli scudi. Questo valore non si modifica direttamente.";
+  if (target.kind === "armor") return "Scegli l'armatura indossata e lo scudo impugnato nella pagina Armi; poi la CA si aggiorna con Destrezza e competenza negli scudi. Questo valore non si modifica direttamente.";
   if (target.kind === "initiative") return "Si aggiorna cambiando Destrezza, Livello o il talento Allerta; questo valore non si modifica direttamente.";
   if (target.kind === "proficiency") return "Si aggiorna cambiando il Livello; il bonus non si modifica direttamente.";
   if (target.kind === "passive") return "Si aggiorna con Saggezza e con Competenza o Maestria in Percezione; il valore non si modifica direttamente.";
@@ -127,11 +128,10 @@ function toList(v: unknown): string[] {
 
 function WeaponCompetencyList({ sheet }: { sheet: Sheet }) {
   const items = toList(sheet.competenzeArmi);
-  return <ul className="flex flex-col gap-1.5">
-    {items.length === 0 && <li className="text-sm text-ink-faint">—</li>}
-    {items.map((name) => <li key={name} className="flex items-center gap-2">
-      <span className="text-ink-faint" aria-hidden>•</span>
-      <InfoLabel id={`competenzaArma:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
+  return <ul className="flex flex-wrap gap-2">
+    {items.length === 0 && <li className="text-sm text-ink-faint">Nessuna</li>}
+    {items.map((name) => <li key={name} className="rounded-full border border-accent bg-accent/12 px-2.5 py-1 text-xs font-medium text-accent">
+      <InfoLabel id={`competenzaArma:${name}`} title={name} />
     </li>)}
   </ul>;
 }
@@ -172,11 +172,12 @@ function WeaponMasteryList({ sheet }: { sheet: Sheet }) {
 
 function AddWeaponSelect({ sheet, onAdd }: { sheet: Sheet; onAdd: (name: string) => void }) {
   const { unlocked } = useContext(EditContext);
-  const choices = proficientWeaponNames(sheet).filter((name) => !sheet.armi.some((weapon) => weapon.nome === name));
+  const choices = weaponCatalog.filter((weapon) => !sheet.armi.some((owned) => owned.nome === weapon.name));
   return unlocked && choices.length > 0 ? <select aria-label="Aggiungi arma" value="" onChange={(event) => onAdd(event.target.value)}
     className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
     <option value="" disabled>+ Aggiungi arma</option>
-    {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
+    {[...choices].sort((a, b) => compareOptionLabels(a.name, b.name)).map((weapon) =>
+      <option key={weapon.id} value={weapon.name}>{weapon.name}{isWeaponProficient(sheet, weapon) ? "" : " · senza competenza"}</option>)}
   </select> : null;
 }
 
@@ -233,7 +234,8 @@ function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indice
 
 function OwnedArmorEditor({ sheet, onChange }: { sheet: Sheet; onChange: (items: Equip[]) => void }) {
   const { unlocked } = useContext(EditContext);
-  const owned = sheet.equipaggiamento.flatMap((item, index) => isArmorEquipment(item) ? [{ item, index }] : []);
+  const owned = sheet.equipaggiamento.flatMap((item, index) => isArmorEquipment(item) ? [{ item, index }] : [])
+    .sort((a, b) => compareOptionLabels(a.item.nome, b.item.nome));
   return <div className="flex flex-col gap-2">
     {owned.length === 0 && <p className="text-sm text-ink-soft">Nessuna armatura o scudo registrato.</p>}
     {owned.map(({ item, index }) => {
@@ -251,7 +253,7 @@ function OwnedArmorEditor({ sheet, onChange }: { sheet: Sheet; onChange: (items:
       onChange={(event) => onChange(addOwnedArmor(sheet.equipaggiamento, event.target.value))}
       className="max-w-full self-start rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
       <option value="" disabled>+ Registra armatura o scudo</option>
-      {armorCatalog.map((armor) => <option key={armor.id} value={armor.id}>{armor.name}</option>)}
+      {[...armorCatalog].sort((a, b) => compareOptionLabels(a.name, b.name)).map((armor) => <option key={armor.id} value={armor.id}>{armor.name}</option>)}
     </select>}
   </div>;
 }
@@ -806,22 +808,6 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}><InfoLabel id="armaturaSelezionata" title="Armatura indossata" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
-            <select aria-label="Armatura indossata" value={wornArmorId} onChange={(event) => patch({ equipaggiamento: selectWornArmor(sheet, event.target.value || null) })} className="max-w-full bg-transparent py-1 text-[15px] text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent">
-              {[...armorChoices, { id: "", label: "Nessuna" }]
-                .sort((a, b) => compareOptionLabels(a.label, b.label))
-                .map((armor) => <option key={armor.id} value={armor.id}>{armor.label}</option>)}
-            </select>
-            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => {
-              if (enabled && !hasOwnedShield) {
-                setShowShieldNotice(true);
-                return;
-              }
-              patch(selectHeldShield(sheet, enabled));
-            }} /></div>
-            {!armorChoices.length && !hasOwnedShield && <p className="mt-1 text-xs text-ink-soft">Registra armature e scudi posseduti nella pagina Equipaggiamento.</p>}
-          </div>
-          <div>
             <h3 className={sectionTitle}><InfoLabel id="Competenze armatura" title="Competenze armatura" /></h3>
             <div className="flex flex-wrap gap-2">
               {([
@@ -841,6 +827,26 @@ export default function CharacterClient({
             <WeaponMasteryList sheet={sheet} />
           </div>
           <div>
+            <h3 className={sectionTitle}>Armature e scudi posseduti</h3>
+            <OwnedArmorEditor sheet={sheet} onChange={(items) => patch({ equipaggiamento: items })} />
+          </div>
+          <div>
+            <h3 className={sectionTitle}><InfoLabel id="armaturaSelezionata" title="Armatura indossata" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
+            <select aria-label="Armatura indossata" value={wornArmorId} onChange={(event) => patch({ equipaggiamento: selectWornArmor(sheet, event.target.value || null) })} className="max-w-full bg-transparent py-1 text-[15px] text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent">
+              {[...armorChoices, { id: "", label: "Nessuna" }]
+                .sort((a, b) => compareOptionLabels(a.label, b.label))
+                .map((armor) => <option key={armor.id} value={armor.id}>{armor.label}</option>)}
+            </select>
+            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => {
+              if (enabled && !hasOwnedShield) {
+                setShowShieldNotice(true);
+                return;
+              }
+              patch(selectHeldShield(sheet, enabled));
+            }} /></div>
+            {!armorChoices.length && !hasOwnedShield && <p className="mt-1 text-xs text-ink-soft">Registra prima un&apos;armatura o uno scudo nella sezione qui sopra.</p>}
+          </div>
+          <div>
             <h3 className={sectionTitle}>Armi</h3>
             <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} />
             <div className="mt-3"><AddWeaponSelect sheet={sheet} onAdd={(weaponName) => patch({ armi: [...sheet.armi, { nome: weaponName, quantita: "1", bonus: "", note: "" }] })} /></div>
@@ -852,10 +858,6 @@ export default function CharacterClient({
       title: "Equipaggiamento",
       body: (
         <div className="flex flex-col gap-4">
-          <div>
-            <h3 className={sectionTitle}>Armature e scudi posseduti</h3>
-            <OwnedArmorEditor sheet={sheet} onChange={(items) => patch({ equipaggiamento: items })} />
-          </div>
           <div>
             <h3 className={sectionTitle}><InfoLabel id="Competenze negli strumenti" title="Competenze negli strumenti" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
             <ToolCompetencyEditor sheet={sheet} onChange={patch} />
