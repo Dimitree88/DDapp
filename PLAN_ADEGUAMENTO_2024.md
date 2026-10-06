@@ -23,7 +23,10 @@ direttamente dall'app come fonte dei popup e delle regole. Per esempio:
 | Regole di calcolo | File distinti in `lib/manuale-2024/regole/` (`generali`, `caratteristiche`, `attacchi`, `classe-armatura`, `incantesimi`), collegati ai dati descrittivi e ai calcoli effettivi |
 
 Ogni voce normativa contiene almeno **ID stabile, nome, descrizione fedele
-alla voce del PDF e pagina stampata**. Aggiunge i campi utili al suo dominio:
+alla voce del PDF e pagina stampata**. Per decisione dell'utente (6 ottobre
+2026) la descrizione non si trascrive a mano: la voce indica le ancore del
+proprio testo e `scripts/adeguamento-2024/estrai.mjs` la estrae dal PDF locale
+in `lib/manuale-2024/testi/`, con correzioni puntuali degli artefatti OCR. Aggiunge i campi utili al suo dominio:
 requisiti, livello, opzioni, benefici, durata, uso, recupero, costo, peso,
 danni, proprietà, gittata o formule. Tabelle e progressioni necessarie non
 devono sparire in una sintesi. La struttura concreta è fissata dal modulo

@@ -1,6 +1,8 @@
 // Schema comune dei file per dominio in lib/manuale-2024/.
-// Ogni voce riporta testo e pagina stampata del Manuale del Giocatore 2024;
-// note e scelte del giocatore restano nella scheda, mai in questi file.
+// Ogni voce riporta dati strutturati, pagina stampata e ancore del proprio
+// testo nel Manuale del Giocatore 2024: la descrizione è estratta dal PDF
+// locale da scripts/adeguamento-2024/estrai.mjs in lib/manuale-2024/testi/.
+// Note e scelte del giocatore restano nella scheda, mai in questi file.
 import { FONTE_MANUALE, paginaNegliIntervalli, paginaValida, type IntervalloPagine } from "./pagine";
 
 export type Sigla = "FOR" | "DES" | "COS" | "INT" | "SAG" | "CAR";
@@ -20,10 +22,22 @@ export type Verifica = {
   note?: string;
 };
 
+// Segmento di testo nel PDF: da «da» (escluso, salvo includiDa) fino
+// all'inizio di «a» oppure, senza «a», fino al titolo successivo.
+// Le ancore ignorano maiuscole, accenti, spazi, punteggiatura e le
+// confusioni OCR più comuni (l/i/1, o/0, s/5, rn/m).
+export type Ancora = {
+  pagina: number; // pagina stampata in cui compare «da»
+  da: string;
+  a?: string;
+  includiDa?: boolean;
+};
+
 export type VoceBase = {
   id: string; // "<prefisso>:<slug>", unico in tutto il manuale
   nome: string; // nome come stampato nel PDF
-  descrizione: string; // testo della voce; corretti solo a capo e artefatti OCR
+  testo: Ancora[]; // segmenti della descrizione nel PDF, in ordine
+  correzioni?: [string, string][]; // correzioni puntuali di artefatti OCR nel testo estratto
   pagina: number; // pagina stampata in cui inizia la voce
   pagine?: number[]; // altre pagine stampate (tabella, seguito, regola collegata)
   alias?: string[]; // nomi storici, solo per leggere vecchie schede
@@ -144,7 +158,6 @@ export type VoceIncantesimo = VoceBase & {
   componenti: Componenti;
   durata: string;
   concentrazione: boolean;
-  potenziamento?: string; // «Utilizzo di uno slot…» o «Trucchetto potenziato…»
 };
 
 export type Voce =
@@ -163,6 +176,9 @@ export type FileDominio = {
   etichette: VoceEtichetta[]; // definizioni generali delle etichette del dominio
   voci: Voce[];
 };
+
+// File generato in lib/manuale-2024/testi/: descrizioni estratte, per id di voce.
+export type TestiDominio = { dominio: string; testi: Record<string, string> };
 
 // Campi obbligatori oltre a quelli di VoceBase, controllati anche a runtime.
 const CAMPI: Record<TipoVoce, readonly string[]> = {
@@ -209,10 +225,32 @@ function controllaTesto(dove: string, testo: unknown, errori: string[], obbligat
   for (const [regola, nome] of ARTEFATTI) if (regola.test(testo)) errori.push(`${dove}: ${nome}`);
 }
 
+// Testo estratto dal PDF: senza artefatti di estrazione.
+export function controllaTestoEstratto(dove: string, testo: unknown): string[] {
+  const errori: string[] = [];
+  controllaTesto(dove, testo, errori);
+  return errori;
+}
+
+function controllaAncore(dove: string, voce: VoceBase, errori: string[]) {
+  if (!Array.isArray(voce.testo) || voce.testo.length === 0) {
+    errori.push(`${dove}: ancore del testo mancanti`);
+    return;
+  }
+  for (const [indice, ancora] of voce.testo.entries()) {
+    const qui = `${dove} ancora ${indice + 1}`;
+    if (!paginaValida(ancora?.pagina)) errori.push(`${qui}: pagina non valida`);
+    if (typeof ancora?.da !== "string" || !ancora.da.trim()) errori.push(`${qui}: «da» mancante`);
+    if (ancora?.a !== undefined && (typeof ancora.a !== "string" || !ancora.a.trim())) errori.push(`${qui}: «a» non valido`);
+    if (ancora?.includiDa !== undefined && typeof ancora.includiDa !== "boolean") errori.push(`${qui}: includiDa non booleano`);
+  }
+  if (voce.correzioni !== undefined && (!Array.isArray(voce.correzioni) || voce.correzioni.some((coppia) => !Array.isArray(coppia) || coppia.length !== 2 || coppia.some((parte) => typeof parte !== "string") || !coppia[0]))) errori.push(`${dove}: correzioni non valide`);
+}
+
 function controllaVoceBase(dove: string, voce: VoceBase, regola: RegolaDominio | null, errori: string[]) {
   if (typeof voce.id !== "string" || !ID.test(voce.id)) errori.push(`${dove}: id non valido (${voce.id})`);
   controllaTesto(`${dove} nome`, voce.nome, errori);
-  controllaTesto(`${dove} descrizione`, voce.descrizione, errori);
+  controllaAncore(dove, voce, errori);
   if (!paginaValida(voce.pagina)) errori.push(`${dove}: pagina stampata non valida (${voce.pagina})`);
   else if (regola && !paginaNegliIntervalli(voce.pagina, regola.pagine)) errori.push(`${dove}: pagina ${voce.pagina} fuori dal dominio`);
   if (voce.pagine !== undefined && (!Array.isArray(voce.pagine) || !voce.pagine.every(paginaValida))) errori.push(`${dove}: pagine aggiuntive non valide`);

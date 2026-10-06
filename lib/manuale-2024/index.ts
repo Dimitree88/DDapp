@@ -4,14 +4,15 @@
 import blocchiIncantesimi from "./incantesimi/blocchi.json";
 import { BLOCCHI_E04, DOMINI, REGOLA_BLOCCO_INCANTESIMI, dominioBloccoIncantesimi, fileClasse } from "./domini";
 import { riferimentoManuale } from "./pagine";
-import { FILE_MANUALE } from "./registro";
-import type { FileDominio, Privilegio, RegolaDominio, Voce, VoceBase, VoceEtichetta } from "./schema";
+import { FILE_MANUALE, TESTI_MANUALE } from "./registro";
+import type { FileDominio, Privilegio, RegolaDominio, TestiDominio, Voce, VoceBase, VoceEtichetta } from "./schema";
 
 export type RisultatoManuale<T extends VoceBase = Voce> = {
   voce: T;
   dominio: string;
   modulo: string;
   verificata: boolean;
+  descrizione: string | null; // testo estratto dal PDF (lib/manuale-2024/testi)
   riferimento: string; // «Manuale del Giocatore 2024, p. N»
 };
 
@@ -36,10 +37,11 @@ export function regolaDominio(dominio: string): RegolaDominio | null {
 
 const pagineVoce = (voce: VoceBase) => [voce.pagina, ...(voce.pagine ?? [])];
 
-export function creaIndiceManuale(files: Record<string, FileDominio>) {
+export function creaIndiceManuale(files: Record<string, FileDominio>, testi: Record<string, TestiDominio> = {}) {
   const risultato = <T extends VoceBase>(voce: T, dominio: string): RisultatoManuale<T> => ({
     voce, dominio, modulo: files[dominio].modulo,
     verificata: voce.verifica.stato === "verificata",
+    descrizione: testi[dominio]?.testi[voce.id] || null,
     riferimento: riferimentoManuale(pagineVoce(voce)),
   });
   const corrisponde = (voce: VoceBase, chiave: string) => {
@@ -100,7 +102,7 @@ export function creaIndiceManuale(files: Record<string, FileDominio>) {
   };
 }
 
-export const manuale = creaIndiceManuale(FILE_MANUALE);
+export const manuale = creaIndiceManuale(FILE_MANUALE, TESTI_MANUALE);
 export const voceManuale = manuale.voce;
 export const etichettaManuale = manuale.etichetta;
 export const privilegioManuale = manuale.privilegio;
