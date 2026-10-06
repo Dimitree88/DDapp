@@ -913,10 +913,10 @@ export default function CharacterClient({
     "Stato & Identità",
     "Caratteristiche",
     "Abilità",
-    "Incantesimi",
     "Armi",
     "Equipaggiamento",
     "Monete",
+    "Incantesimi",
     "Capacità",
     "Appunti",
   ];
