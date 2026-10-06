@@ -1,10 +1,10 @@
 import type { Sheet } from "./sheet";
-import { featGrants, grantedPrivileges, type Grant } from "./characterGrants";
+import { featGrants, grantedPrivileges, privilegeOptions, type Grant } from "./characterGrants";
 import { featCatalog } from "./featCatalog";
 import { proficiencyBonus } from "./abilityBonus";
 import { classSavingThrows, classWeaponProficiencies, classArmorProficiencies, classToolProficiencies } from "./classSavingThrows";
 import backgrounds from "./manuale-2024-backgrounds.json";
-import { privilegioManuale, voceManuale } from "./manuale-2024";
+import { chiaveRicerca, privilegioManuale } from "./manuale-2024";
 
 export type StoryDetail = { label: string; consequences?: string[] };
 export type StoryEvent = { title: string; details: StoryDetail[] };
@@ -34,23 +34,59 @@ function competencyDetails(sheet: Sheet, kind: string, name: string): string[] {
 }
 
 const detail = (label: string): StoryDetail => ({ label });
-const paragraphs = (description: string | null | undefined) => description?.split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean) ?? [];
+
+// Nomi verificati nel PDF locale (pp. 80 e 141); la scheda può aggiungerne altri.
+const knownPrivilegeSpells: Record<string, string[]> = {
+  "Druido:Druidico": ["Parlare con gli animali"],
+  "Druido:Compagno Selvatico": ["Trova famiglio"],
+  "Ranger:Nemico Prescelto": ["Marchio del cacciatore"],
+};
+
+function namedSpells(grant: Grant, sheet: Sheet): string[] {
+  const description = privilegioManuale(grant.name, {
+    classe: sheet.classe, sottoclasse: sheet.sottoclasse,
+    specie: sheet.specie, lignaggio: sheet.lignaggio, livello: grant.level,
+  })?.descrizione;
+  if (!description || grant.name === "Incantesimi") return [];
+  const text = chiaveRicerca(description);
+  const candidates = unique([
+    ...(knownPrivilegeSpells[`${sheet.classe}:${grant.name}`] ?? []),
+    ...sheet.incantesimi.filter((spell) => spell.fonte === "privilegio" || spell.stato === "semprePreparato")
+      .map((spell) => spell.nome),
+  ]);
+  return candidates.filter((name) => {
+    const phrase = `l'incantesimo ${chiaveRicerca(name)}`;
+    const at = text.indexOf(phrase);
+    return at >= 0 && !/\p{L}/u.test(text[at + phrase.length] ?? "");
+  }).map((name) => `Incantesimo: ${name}`);
+}
 
 function privilegeDetails(grants: Grant[], sheet: Sheet): StoryDetail[] {
-  return grants.flatMap((grant) => {
+  return grants.map((grant) => {
     const chosen = sheet.privilegi.find((item) => item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0)?.scelte.trim();
-    const manual = privilegioManuale(grant.name, {
-      classe: sheet.classe, sottoclasse: sheet.sottoclasse,
-      specie: sheet.specie, lignaggio: sheet.lignaggio, livello: grant.level,
-    });
-    return [{
-      label: `Privilegio: ${grant.name}${chosen ? ` · ${chosen}` : ""}`,
-      consequences: paragraphs(manual?.descrizione),
-    }];
+    const option = Object.entries(privilegeOptions).find(([name]) => name.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0)?.[1]
+      .find((name) => chosen?.toLocaleLowerCase("it").includes(name.toLocaleLowerCase("it")));
+    const mastery = grant.name.toLocaleLowerCase("it") === "esploratore esperto"
+      ? /^maestria:\s*([^,;\.\n]+)/i.exec(chosen ?? "")?.[1]?.trim() : null;
+    const named = namedSpells(grant, sheet);
+    const resources = (sheet.risorse ?? []).filter((item) =>
+      item.fonte.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0
+      || item.fonte.localeCompare(`Privilegio: ${grant.name}`, "it", { sensitivity: "base" }) === 0)
+      .map((item) => `Risorsa: ${item.nome}`);
+    const competencies = (sheet.fontiCompetenze ?? []).filter((item) =>
+      item.fonte.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0
+      || item.fonte.localeCompare(`Privilegio: ${grant.name}`, "it", { sensitivity: "base" }) === 0)
+      .map((item) => `${item.tipo === "tiroSalvezza" ? "Tiro salvezza" : item.tipo === "abilita" ? "Abilità" : item.tipo === "lingua" ? "Lingua" : "Competenza"}: ${item.valore}`);
+    const choice = grant.name.toLocaleLowerCase("it") === "ordine primordiale" && option === "Custode"
+      ? ["Armi da guerra", "Armature pesanti"] : [];
+    return {
+      label: `Privilegio: ${grant.name}`,
+      consequences: unique([...(option ? [`Scelta: ${option}`] : []), ...(mastery ? [`Maestria: ${mastery}`] : []), ...named, ...choice, ...resources, ...competencies]),
+    };
   });
 }
 
-function findFeatForGrant(grant: Grant, sheet: Sheet, used: Set<number>): string | null {
+function findFeatForGrant(grant: Grant, sheet: Sheet, used: Set<number>): Sheet["talenti"][number] | null {
   const isChoice = grant.name.includes("a scelta");
   const category = grant.name === "Talento Origini a scelta" ? "origini"
     : grant.name === "Talento Stile di combattimento a scelta" ? "stileDiCombattimento"
@@ -65,8 +101,7 @@ function findFeatForGrant(grant: Grant, sheet: Sheet, used: Set<number>): string
   });
   if (index < 0) return null;
   used.add(index);
-  const feat = sheet.talenti[index];
-  return `${feat.nome}${present(feat.scelte) ? ` · ${feat.scelte.trim()}` : ""}`;
+  return sheet.talenti[index];
 }
 
 function featGrantLevel(grant: Grant, sheet: Sheet): number {
@@ -81,16 +116,12 @@ function featGrantLevel(grant: Grant, sheet: Sheet): number {
 function featDetails(grants: Grant[], sheet: Sheet, used: Set<number>): StoryDetail[] {
   return grants.map((grant) => {
     const chosen = findFeatForGrant(grant, sheet, used);
-    const featName = chosen?.split(" · ")[0] ?? grant.name;
-    const category = featCatalog.find((entry) => entry.name === featName)?.category;
-    const domain = category === "origini" ? "talenti/origini"
-      : category === "stileDiCombattimento" ? "talenti/stili"
-        : category === "donoEpico" ? "talenti/doni-epici" : null;
-    const manual = domain ? voceManuale(domain, featName)
-      : voceManuale("talenti/generali-a", featName) ?? voceManuale("talenti/generali-b", featName);
+    const choices = chosen?.scelte.trim() ?? "";
+    const choiceNames = choices.length <= 80 && !/[.;\n\d:]/.test(choices)
+      ? choices.split(",").map((name) => name.trim()).filter((name) => name.length > 0 && name.length <= 35 && name.split(/\s+/).length <= 5) : [];
     return {
-      label: chosen ? `Talento: ${chosen}` : `Talento concesso: ${grant.name}`,
-      consequences: paragraphs(manual?.descrizione),
+      label: chosen ? `Talento: ${chosen.nome}` : `Talento concesso: ${grant.name}`,
+      consequences: choiceNames.length ? choiceNames : undefined,
     };
   });
 }
