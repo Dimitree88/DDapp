@@ -39,6 +39,15 @@
           " Ad esempio, se un personaggio cerca di intimidire"
         ]
       ]
+    },
+    {
+      "id": "etichetta:maestria",
+      "tipo": "etichetta",
+      "nome": "Maestria",
+      "testo": [{ "pagina": 367, "da": "Maestria" }],
+      "pagina": 367,
+      "righeMatrice": ["abilita.maestria"],
+      "verifica": { "stato": "verificata" }
     }
   ],
   "voci": [
