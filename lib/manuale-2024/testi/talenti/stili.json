@@ -1,4 +1,15 @@
 {
   "dominio": "talenti/stili",
-  "testi": {}
+  "testi": {
+    "talento:combattere-alla-cieca": "Il personaggio ottiene vista cieca con un raggio di 3 metri.",
+    "talento:combattere-con-armi-da-lancio": "Quando il personaggio colpisce con un tiro per colpire a distanza utilizzando un'arma da lancio, ottiene un bonus di +2 al tiro per i danni.",
+    "talento:combattere-con-armi-possenti": "Quando tiri per i danni per un attacco effettuato con un'arma da mischia che il personaggio impugna a due mani, se il risultato ottenuto è 1 o 2, puoi invece considerarlo come un 3. L'arma deve possedere la proprietà a due mani o versatile affinché ottenga questo beneficio.",
+    "talento:combattere-con-due-armi": "Quando il personaggio effettua un attacco extra sfruttando un'arma leggera, puoi aggiungere il suo modificatore di caratteristica al danno di quell'attacco a patto che non sia già stato aggiunto in altro modo.",
+    "talento:combattere-disarmato": "Quando il personaggio colpisce con un colpo senz'armi e infligge dei danni, può infliggere 1d6 danni contundenti più il suo modificatore di Forza invece dei normali danni del colpo senz'armi. Se non sta impugnando né armi né scudo, il d6 del suo tiro per colpire diventa un d8.\n\nAll'inizio di ogni suo turno, il personaggio può infliggere 1d4 danni contundenti a una creatura che ha afferrato.",
+    "talento:difesa": "Finché il personaggio indossa un'armatura leggera, media o pesante, ottiene un +1 alla Classe Armatura.",
+    "talento:duellare": "Quando il personaggio impugna un'arma da mischia in una mano e nessun'altra arma, ottiene +2 ai tiri per i danni con quell'arma.",
+    "talento:intercettazione": "Quando una creatura che il personaggio è in grado di vedere ne colpisce un'altra entro 1,5 metri da lui con un tiro per colpire, il personaggio può utilizzare una reazione per ridurre i danni inflitti al bersaglio di 1d10 più il suo bonus di competenza. Per poter utilizzare questa reazione, deve impugnare uno scudo o un'arma semplice o da guerra.",
+    "talento:protezione": "Quando una creatura che il personaggio è in grado di vedere attacca un bersaglio diverso dal personaggio entro 1,5 metri da lui, il personaggio può utilizzare una reazione per proteggerlo con lo scudo (se ne impugna uno). Così facendo, conferisce svantaggio al tiro per colpire scatenante e a tutti gli altri tiri per colpire eseguiti contro quel bersaglio fino all'inizio del turno successivo, se il personaggio rimane entro 1,5 metri dal bersaglio.",
+    "talento:tiro": "Il personaggio ottiene un bonus di +2 ai tiri per colpire che effettua con le armi a distanza."
+  }
 }
