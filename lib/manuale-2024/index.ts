@@ -86,7 +86,9 @@ export function creaIndiceManuale(files: Record<string, FileDominio>, testi: Rec
       if (!dominio || !proprietario || !files[dominio]) continue;
       const padre = files[dominio].voci.find((item) => corrisponde(item, proprietario));
       const candidati = padre ? privilegiDi(padre).filter((item) => corrisponde(item, nome)) : [];
-      const trovato = candidati.find((item) => contesto.livello === undefined || item.livello === undefined || item.livello <= contesto.livello) ?? null;
+      // Un privilegio ripetuto (es. Colpo brutale migliorato ai livelli 13 e 17) si sceglie per livello esatto.
+      const trovato = candidati.find((item) => item.livello !== undefined && item.livello === contesto.livello)
+        ?? candidati.find((item) => contesto.livello === undefined || item.livello === undefined || item.livello <= contesto.livello) ?? null;
       if (trovato) return risultato(trovato, dominio);
     }
     return null;

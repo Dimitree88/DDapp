@@ -4,5 +4,540 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:barbaro",
+      "tipo": "classe",
+      "nome": "Barbaro",
+      "testo": [
+        {
+          "pagina": 51,
+          "da": "Alcuni barbari incarnano",
+          "includiDa": true,
+          "a": "Privilegi di classe del barbaro"
+        }
+      ],
+      "correzioni": [
+        [
+          "Alcuni barbari incarnano",
+          "I barbari sono potenti guerrieri alimentati dalle forze primordiali del multiverso che si manifestano come ira. Si tratta di un'emozione che va ben oltre la rabbia: l'ira è l'incarnazione della ferocia di un predatore, della furia di una tempesta e del tumulto del mare.\n\nAlcuni barbari incarnano"
+        ]
+      ],
+      "pagina": 51,
+      "pagine": [50, 52, 53],
+      "tabelle": [
+        {
+          "titolo": "Tratti del barbaro",
+          "pagina": 51,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Forza"],
+            ["Dado Vita", "D12 per ogni livello da barbaro"],
+            ["Competenze nei tiri salvezza", "Forza e Costituzione"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Addestrare Animali, Atletica, Intimidire, Natura, Percezione o Sopravvivenza"
+            ],
+            ["Competenza nelle armi", "Armi semplici e da guerra"],
+            ["Competenza nelle armature", "Armature leggere e medie; scudi"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Un'ascia bipenne, 4 asce, una dotazione da esploratore e 15 mo; o (B) 75 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del barbaro",
+          "pagina": 52,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Ira",
+            "Danni dell'ira",
+            "Padronanza d'armi"
+          ],
+          "righe": [
+            ["1", "+2", "Difesa senza armatura, ira, padronanza d'armi", "2", "+2", "2"],
+            ["2", "+2", "Attacco irruento, percezione del pericolo", "2", "+2", "2"],
+            ["3", "+2", "Conoscenza primordiale, sottoclasse del barbaro", "3", "+2", "2"],
+            ["4", "+2", "Aumento dei punteggi di caratteristica", "3", "+2", "3"],
+            ["5", "+3", "Attacco Extra, Movimento Veloce", "3", "+2", "3"],
+            ["6", "+3", "Privilegio della sottoclasse", "4", "+2", "3"],
+            ["7", "+3", "Balzo istintivo, istinto ferino", "4", "+2", "3"],
+            ["8", "+3", "Aumento dei punteggi di caratteristica", "4", "+2", "3"],
+            ["9", "+4", "Colpo brutale", "4", "+3", "3"],
+            ["10", "+4", "Privilegio della sottoclasse", "4", "+3", "4"],
+            ["11", "+4", "Ira Implacabile", "4", "+3", "4"],
+            ["12", "+4", "Aumento dei punteggi di caratteristica", "5", "+3", "4"],
+            ["13", "+5", "Colpo brutale migliorato", "5", "+3", "4"],
+            ["14", "+5", "Privilegio della sottoclasse", "5", "+3", "4"],
+            ["15", "+5", "Ira Persistente", "5", "+3", "4"],
+            ["16", "+5", "Aumento dei punteggi di caratteristica", "5", "+4", "4"],
+            ["17", "+6", "Colpo brutale migliorato", "6", "+4", "4"],
+            ["18", "+6", "Potenza Indomabile", "6", "+4", "4"],
+            ["19", "+6", "Dono epico", "6", "+4", "4"],
+            ["20", "+6", "Campione primordiale", "6", "+4", "4"]
+          ]
+        }
+      ],
+      "dadoVita": "D12",
+      "caratteristicaPrimaria": "Forza",
+      "tiriSalvezza": ["FOR", "COS"],
+      "competenze": {
+        "abilita": {
+          "numero": 2,
+          "scelte": ["Addestrare Animali", "Atletica", "Intimidire", "Natura", "Percezione", "Sopravvivenza"]
+        },
+        "armi": ["Armi semplici", "Armi da guerra"],
+        "armature": ["Leggere", "Medie", "Scudi"],
+        "strumenti": []
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Un'ascia bipenne, 4 asce, una dotazione da esploratore e 15 mo; o (B) 75 mo",
+      "privilegi": [
+        {
+          "id": "classe:barbaro:privilegio:1-difesa-senza-armatura",
+          "nome": "Difesa Senza Armatura",
+          "livello": 1,
+          "testo": [{ "pagina": 51, "da": "Livello 1: Difesa Senza Armatura", "a": "Livello 1: Ira" }],
+          "pagina": 51,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:1-ira",
+          "nome": "Ira",
+          "livello": 1,
+          "testo": [{ "pagina": 51, "da": "Livello 1: Ira", "a": "Livello 1: Padronanza d'Armi" }],
+          "correzioni": [
+            [" · 1\nper il proprio", " per il proprio"],
+            [" · 1\n\ntabella Privilegi", " tabella Privilegi"],
+            ["di seguito. Resistenza ai danni.", "di seguito.\n\nResistenza ai danni."],
+            ["barbaro. Vantaggio nellaForza.", "barbaro.\n\nVantaggio nella Forza."],
+            ["salvezza. Effettuando un'azione bonus", "salvezza.\n\nEffettuando un'azione bonus"]
+          ],
+          "pagina": 51,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:1-padronanza-d-armi",
+          "nome": "Padronanza d'Armi",
+          "livello": 1,
+          "testo": [{ "pagina": 51, "da": "Livello 1: Padronanza d'Armi", "a": "Privilegi del barbaro", "na": 2 }],
+          "pagina": 51,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:2-attacco-irruento",
+          "nome": "Attacco Irruento",
+          "livello": 2,
+          "testo": [{ "pagina": 52, "da": "Livello 2: Attacco Irruento", "a": "Livello 2: Percezione del Pericolo" }],
+          "pagina": 52,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:2-percezione-del-pericolo",
+          "nome": "Percezione del Pericolo",
+          "livello": 2,
+          "testo": [
+            {
+              "pagina": 52,
+              "da": "Livello 2: Percezione del Pericolo",
+              "a": "Livello 3: Conoscenza Primordiale"
+            }
+          ],
+          "pagina": 52,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:3-conoscenza-primordiale",
+          "nome": "Conoscenza Primordiale",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 52,
+              "da": "Livello 3: Conoscenza Primordiale",
+              "a": "Livello 3: Sottoclasse del Barbaro"
+            }
+          ],
+          "correzioni": [
+            ["ognivolta", "ogni volta"],
+            ["sensi.\n\n5 · 4\n6 · +4 · 4\n6 · +4 · 4\n6 · +4 · 4\n6 · +4 · 4", "sensi."]
+          ],
+          "pagina": 52,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:3-sottoclasse-del-barbaro",
+          "nome": "Sottoclasse del Barbaro",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 52,
+              "da": "Livello 3: Sottoclasse del Barbaro",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 52,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 52,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Attacco Extra"
+            }
+          ],
+          "pagina": 52,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:5-attacco-extra",
+          "nome": "Attacco Extra",
+          "livello": 5,
+          "testo": [{ "pagina": 52, "da": "Livello 5: Attacco Extra", "a": "Livello 5: Movimento Veloce" }],
+          "pagina": 52,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:5-movimento-veloce",
+          "nome": "Movimento Veloce",
+          "livello": 5,
+          "testo": [{ "pagina": 52, "da": "Livello 5: Movimento Veloce", "a": "Livello 7: Balzo Istintivo" }],
+          "pagina": 52,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:7-balzo-istintivo",
+          "nome": "Balzo Istintivo",
+          "livello": 7,
+          "testo": [{ "pagina": 52, "da": "Livello 7: Balzo Istintivo", "a": "Livello 7: Istinto Ferino" }],
+          "pagina": 52,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:7-istinto-ferino",
+          "nome": "Istinto Ferino",
+          "livello": 7,
+          "testo": [{ "pagina": 53, "da": "Livello 7: Istinto Ferino", "a": "Livello 9: Colpo Brutale" }],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:9-colpo-brutale",
+          "nome": "Colpo Brutale",
+          "livello": 9,
+          "testo": [{ "pagina": 53, "da": "Livello 9: Colpo Brutale", "a": "Livello 11: Ira Implacabile" }],
+          "correzioni": [["colpirescelto", "colpire scelto"], ["person·aggio", "personaggio"]],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:11-ira-implacabile",
+          "nome": "Ira Implacabile",
+          "livello": 11,
+          "testo": [{ "pagina": 53, "da": "Livello 11: Ira Implacabile", "a": "Livello 13: Colpo Brutale Migliorato" }],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:13-colpo-brutale-migliorato",
+          "nome": "Colpo Brutale Migliorato",
+          "livello": 13,
+          "testo": [{ "pagina": 53, "da": "Livello 13: Colpo Brutale Migliorato", "a": "Livello 15: Ira Persistente" }],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:15-ira-persistente",
+          "nome": "Ira Persistente",
+          "livello": 15,
+          "testo": [{ "pagina": 53, "da": "Livello 15: Ira Persistente", "a": "Livello 17: Colpo Brutale Migliorato" }],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:17-colpo-brutale-migliorato",
+          "nome": "Colpo Brutale Migliorato",
+          "livello": 17,
+          "testo": [
+            {
+              "pagina": 53,
+              "da": "Livello 17: Colpo Brutale Migliorato",
+              "a": "Livello 18: Potenza Indomabile"
+            }
+          ],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:18-potenza-indomabile",
+          "nome": "Potenza Indomabile",
+          "livello": 18,
+          "testo": [{ "pagina": 53, "da": "Livello 18: Potenza Indomabile", "a": "Livello 19: Dono Epico" }],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 53, "da": "Livello 19: Dono Epico", "a": "Livello 20: Campione Primordiale" }],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:privilegio:20-campione-primordiale",
+          "nome": "Campione Primordiale",
+          "livello": 20,
+          "testo": [{ "pagina": 53, "da": "Livello 20: Campione Primordiale", "a": "Sottoclassi del barbaro" }],
+          "pagina": 53,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:barbaro:sottoclasse:cammino-dell-albero-del-mondo",
+      "tipo": "sottoclasse",
+      "classe": "Barbaro",
+      "nome": "Cammino dell'Albero del Mondo",
+      "testo": [
+        {
+          "pagina": 54,
+          "da": "Cammino dell'Albero del Mondo",
+          "n": 2,
+          "a": "Livello 3: Vitalità dell'Albero"
+        }
+      ],
+      "correzioni": [
+        [
+          "Risalialle radicie airami del multiverso I barbari",
+          "Risali alle radici e ai rami del multiverso\n\nI barbari"
+        ]
+      ],
+      "pagina": 54,
+      "privilegi": [
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dell-albero-del-mondo:privilegio:3-vitalita-dell-albero",
+          "nome": "Vitalità dell'Albero",
+          "livello": 3,
+          "testo": [{ "pagina": 54, "da": "Livello 3: Vitalità dell'Albero", "a": "Livello 6: Rami dell'Albero" }],
+          "pagina": 54,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dell-albero-del-mondo:privilegio:6-rami-dell-albero",
+          "nome": "Rami dell'Albero",
+          "livello": 6,
+          "testo": [{ "pagina": 54, "da": "Livello 6: Rami dell'Albero", "a": "Livello 10: Radici d'Assalto" }],
+          "pagina": 54,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dell-albero-del-mondo:privilegio:10-radici-d-assalto",
+          "nome": "Radici d'Assalto",
+          "livello": 10,
+          "testo": [{ "pagina": 54, "da": "Livello 10: Radici d'Assalto", "a": "Livello 14: Viaggio Lungo l'Albero" }],
+          "pagina": 54,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dell-albero-del-mondo:privilegio:14-viaggio-lungo-l-albero",
+          "nome": "Viaggio Lungo l'Albero",
+          "livello": 14,
+          "testo": [{ "pagina": 55, "da": "Livello 14: Viaggio Lungo l'Albero", "a": "Cammino del Berserker" }],
+          "pagina": 55,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:barbaro:sottoclasse:cammino-del-berserker",
+      "tipo": "sottoclasse",
+      "classe": "Barbaro",
+      "nome": "Cammino del Berserker",
+      "testo": [{ "pagina": 55, "da": "Cammino del Berserker", "a": "Livello 3: Frenesia" }],
+      "correzioni": [
+        [
+          "Incanala l'ira infuria violenta è diretta principalmente verso la violenza. È un cammino L'ira dei barbari che percorrono il Cammino del Berserker di furia",
+          "Incanala l'ira in furia violenta\n\nL'ira dei barbari che percorrono il Cammino del Berserker è diretta principalmente verso la violenza. È un cammino di furia"
+        ]
+      ],
+      "pagina": 55,
+      "privilegi": [
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-berserker:privilegio:3-frenesia",
+          "nome": "Frenesia",
+          "livello": 3,
+          "testo": [{ "pagina": 55, "da": "Livello 3: Frenesia", "a": "Livello 6: Ira Incontenibile" }],
+          "pagina": 55,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-berserker:privilegio:6-ira-incontenibile",
+          "nome": "Ira Incontenibile",
+          "livello": 6,
+          "testo": [{ "pagina": 55, "da": "Livello 6: Ira Incontenibile", "a": "Livello 10: Ritorsione" }],
+          "pagina": 55,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-berserker:privilegio:10-ritorsione",
+          "nome": "Ritorsione",
+          "livello": 10,
+          "testo": [{ "pagina": 55, "da": "Livello 10: Ritorsione", "a": "Livello 14: Presenza Intimidatoria" }],
+          "pagina": 55,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-berserker:privilegio:14-presenza-intimidatoria",
+          "nome": "Presenza Intimidatoria",
+          "livello": 14,
+          "testo": [{ "pagina": 55, "da": "Livello 14: Presenza Intimidatoria", "a": "Cammino del Cuore Selvaggio" }],
+          "pagina": 55,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:barbaro:sottoclasse:cammino-del-cuore-selvaggio",
+      "tipo": "sottoclasse",
+      "classe": "Barbaro",
+      "nome": "Cammino del Cuore Selvaggio",
+      "testo": [{ "pagina": 56, "da": "Cammino del Cuore Selvaggio", "a": "Livello 3: Ira della Natura Selvaggia" }],
+      "pagina": 56,
+      "privilegi": [
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-cuore-selvaggio:privilegio:3-ira-della-natura-selvaggia",
+          "nome": "Ira della Natura Selvaggia",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 56,
+              "da": "Livello 3: Ira della Natura Selvaggia",
+              "a": "Livello 3: Portavoce degli Animali"
+            }
+          ],
+          "correzioni": [["da lui. Orso.", "da lui.\n\nOrso."]],
+          "pagina": 56,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-cuore-selvaggio:privilegio:3-portavoce-degli-animali",
+          "nome": "Portavoce degli Animali",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 56,
+              "da": "Livello 3: Portavoce degli Animali",
+              "a": "Livello 6: Aspetto della Natura Selvaggia"
+            }
+          ],
+          "pagina": 56,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-cuore-selvaggio:privilegio:6-aspetto-della-natura-selvaggia",
+          "nome": "Aspetto della Natura Selvaggia",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 56,
+              "da": "Livello 6: Aspetto della Natura Selvaggia",
+              "a": "Livello 10: Portavoce della Natura"
+            }
+          ],
+          "pagina": 56,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-cuore-selvaggio:privilegio:10-portavoce-della-natura",
+          "nome": "Portavoce della Natura",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 56,
+              "da": "Livello 10: Portavoce della Natura",
+              "a": "Livello 14: Potere della Natura Selvaggia"
+            }
+          ],
+          "pagina": 56,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-del-cuore-selvaggio:privilegio:14-potere-della-natura-selvaggia",
+          "nome": "Potere della Natura Selvaggia",
+          "livello": 14,
+          "testo": [{ "pagina": 56, "da": "Livello 14: Potere della Natura Selvaggia", "a": "Cammino dello Zelota" }],
+          "pagina": 56,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:barbaro:sottoclasse:cammino-dello-zelota",
+      "tipo": "sottoclasse",
+      "classe": "Barbaro",
+      "nome": "Cammino dello Zelota",
+      "testo": [{ "pagina": 57, "da": "Cammino dello Zelota", "a": "Livello 3: Furia Divina" }],
+      "correzioni": [
+        [
+          "Entra in ira inun'unione estatica con un dio I barbari",
+          "Entra in ira in un'unione estatica con un dio\n\nI barbari"
+        ]
+      ],
+      "pagina": 57,
+      "privilegi": [
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dello-zelota:privilegio:3-furia-divina",
+          "nome": "Furia Divina",
+          "livello": 3,
+          "testo": [{ "pagina": 57, "da": "Livello 3: Furia Divina", "a": "Livello 3: Guerriero degli Dèi" }],
+          "pagina": 57,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dello-zelota:privilegio:3-guerriero-degli-dei",
+          "nome": "Guerriero degli Dèi",
+          "livello": 3,
+          "testo": [{ "pagina": 57, "da": "Livello 3: Guerriero degli Dèi", "a": "Livello 6: Focus Fanatico" }],
+          "pagina": 57,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dello-zelota:privilegio:6-focus-fanatico",
+          "nome": "Focus Fanatico",
+          "livello": 6,
+          "testo": [{ "pagina": 57, "da": "Livello 6: Focus Fanatico", "a": "Livello 10: Presenza Zelante" }],
+          "pagina": 57,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dello-zelota:privilegio:10-presenza-zelante",
+          "nome": "Presenza Zelante",
+          "livello": 10,
+          "testo": [{ "pagina": 57, "da": "Livello 10: Presenza Zelante", "a": "Livello 14: Ira degli Dèi" }],
+          "pagina": 57,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:barbaro:sottoclasse:cammino-dello-zelota:privilegio:14-ira-degli-dei",
+          "nome": "Ira degli Dèi",
+          "livello": 14,
+          "testo": [{ "pagina": 57, "da": "Livello 14: Ira degli Dèi" }],
+          "correzioni": [["di' una", "di una"]],
+          "pagina": 57,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

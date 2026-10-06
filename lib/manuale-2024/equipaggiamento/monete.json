@@ -3,6 +3,131 @@
   "modulo": "E05",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:monete",
+      "tipo": "etichetta",
+      "nome": "Monete",
+      "testo": [{ "pagina": 213, "da": "Monete", "a": "Valore della moneta", "na": 2 }],
+      "pagina": 213,
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "moneta:moneta-di-rame-mr",
+      "tipo": "moneta",
+      "nome": "Moneta di rame (mr)",
+      "pagina": 213,
+      "tabelle": [
+        {
+          "titolo": "Valore della moneta",
+          "pagina": 213,
+          "colonne": ["Moneta", "Valore in mo"],
+          "righe": [["Moneta di rame (mr)", "1/100"]]
+        }
+      ],
+      "costo": "1 mr",
+      "costoMo": 0.01,
+      "alias": ["Rame"],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "moneta:moneta-d-argento-ma",
+      "tipo": "moneta",
+      "nome": "Moneta d'argento (ma)",
+      "pagina": 213,
+      "tabelle": [
+        {
+          "titolo": "Valore della moneta",
+          "pagina": 213,
+          "colonne": ["Moneta", "Valore in mo"],
+          "righe": [["Moneta d'argento (ma)", "1/10"]]
+        }
+      ],
+      "costo": "1 ma",
+      "costoMo": 0.1,
+      "alias": ["Argento"],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "moneta:moneta-di-electrum-me",
+      "tipo": "moneta",
+      "nome": "Moneta di electrum (me)",
+      "pagina": 213,
+      "tabelle": [
+        {
+          "titolo": "Valore della moneta",
+          "pagina": 213,
+          "colonne": ["Moneta", "Valore in mo"],
+          "righe": [["Moneta di electrum (me)", "1/2"]]
+        }
+      ],
+      "costo": "1 me",
+      "costoMo": 0.5,
+      "alias": ["Electrum"],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "moneta:moneta-d-oro-mo",
+      "tipo": "moneta",
+      "nome": "Moneta d'oro (mo)",
+      "pagina": 213,
+      "tabelle": [
+        {
+          "titolo": "Valore della moneta",
+          "pagina": 213,
+          "colonne": ["Moneta", "Valore in mo"],
+          "righe": [["Moneta d'oro (mo)", "1"]]
+        }
+      ],
+      "costo": "1 mo",
+      "costoMo": 1,
+      "alias": ["Oro"],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "moneta:moneta-di-platino-mp",
+      "tipo": "moneta",
+      "nome": "Moneta di platino (mp)",
+      "pagina": 213,
+      "tabelle": [
+        {
+          "titolo": "Valore della moneta",
+          "pagina": 213,
+          "colonne": ["Moneta", "Valore in mo"],
+          "righe": [["Moneta di platino (mp)", "10"]]
+        }
+      ],
+      "costo": "1 mp",
+      "costoMo": 10,
+      "alias": ["Platino"],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "regola:valore-della-moneta",
+      "tipo": "regola",
+      "nome": "Valore della moneta",
+      "testo": [{ "pagina": 213, "da": "Monete", "a": "Valore della moneta", "na": 2 }],
+      "pagina": 213,
+      "tabelle": [
+        {
+          "titolo": "Valore della moneta",
+          "pagina": 213,
+          "colonne": ["Moneta", "Valore in mo"],
+          "righe": [
+            ["Moneta di rame (mr)", "1/100"],
+            ["Moneta d'argento (ma)", "1/10"],
+            ["Moneta di electrum (me)", "1/2"],
+            ["Moneta d'oro (mo)", "1"],
+            ["Moneta di platino (mp)", "10"]
+          ]
+        }
+      ],
+      "formula": "Valore in mo = mr/100 + ma/10 + me/2 + mo + 10 × mp",
+      "calcolo": "lib/coins.ts#coinTotalGold",
+      "righeMatrice": ["monete.totale"],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

@@ -3,6 +3,289 @@
   "modulo": "E05",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:servizi",
+      "tipo": "etichetta",
+      "nome": "Servizi",
+      "testo": [{ "pagina": 230, "da": "Servizi", "a": "Spese dello stile di vita", "n": 2 }],
+      "pagina": 230,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "etichetta:stile-di-vita",
+      "tipo": "etichetta",
+      "nome": "Spese dello stile di vita",
+      "alias": ["Stile di vita"],
+      "testo": [{ "pagina": 230, "da": "Spese dello stile di vita", "a": "Miserabile (gratis)" }],
+      "pagina": 230,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["ognisettimana", "ogni settimana"]]
+    }
+  ],
+  "voci": [
+    {
+      "id": "stile-di-vita:miserabile",
+      "tipo": "stileDiVita",
+      "nome": "Miserabile",
+      "testo": [{ "pagina": 230, "da": "Miserabile (gratis)", "a": "Squallido (1 ma al giorno)" }],
+      "pagina": 230,
+      "costo": "Gratis",
+      "costoMo": 0,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "stile-di-vita:squallido",
+      "tipo": "stileDiVita",
+      "nome": "Squallido",
+      "testo": [{ "pagina": 230, "da": "Squallido (1 ma al giorno)", "a": "Povero (2 ma al giorno)" }],
+      "pagina": 230,
+      "costo": "1 ma al giorno",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "stile-di-vita:povero",
+      "tipo": "stileDiVita",
+      "nome": "Povero",
+      "testo": [{ "pagina": 230, "da": "Povero (2 ma al giorno)", "a": "Modesto (1 mo al giorno)" }],
+      "pagina": 230,
+      "costo": "2 ma al giorno",
+      "costoMo": 0.2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "stile-di-vita:modesto",
+      "tipo": "stileDiVita",
+      "nome": "Modesto",
+      "testo": [{ "pagina": 230, "da": "Modesto (1 mo al giorno)", "a": "Agiato (2 mo al giorno)" }],
+      "pagina": 230,
+      "costo": "1 mo al giorno",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "stile-di-vita:agiato",
+      "tipo": "stileDiVita",
+      "nome": "Agiato",
+      "testo": [{ "pagina": 230, "da": "Agiato (2 mo al giorno)", "a": "Ricco (4 mo al giorno)" }],
+      "pagina": 230,
+      "costo": "2 mo al giorno",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "stile-di-vita:ricco",
+      "tipo": "stileDiVita",
+      "nome": "Ricco",
+      "testo": [{ "pagina": 230, "da": "Ricco (4 mo al giorno)", "a": "Aristocratico (10 mo al giorno)" }],
+      "pagina": 230,
+      "costo": "4 mo al giorno",
+      "costoMo": 4,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "stile-di-vita:aristocratico",
+      "tipo": "stileDiVita",
+      "nome": "Aristocratico",
+      "testo": [{ "pagina": 230, "da": "Aristocratico (10 mo al giorno)", "a": "Carico" }],
+      "pagina": 230,
+      "costo": "10 mo al giorno",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "servizio:passaggio-in-nave",
+      "tipo": "servizio",
+      "nome": "Passaggio in nave",
+      "pagina": 231,
+      "tabelle": [
+        {
+          "titolo": "Viaggiare",
+          "pagina": 231,
+          "colonne": ["Servizio", "Costo"],
+          "righe": [["Passaggio in nave", "1 ma per 1,5 km"]]
+        }
+      ],
+      "costo": "1 ma per 1,5 km",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 231, "da": "Viaggiare", "a": "Passaggio in nave" }],
+      "correzioni": [["\n\nVIAGGIARE\n\nServizio · Costo", ""]]
+    },
+    {
+      "id": "servizio:pedaggio-stradale-o-di-ingresso",
+      "tipo": "servizio",
+      "nome": "Pedaggio stradale o di ingresso",
+      "pagina": 231,
+      "tabelle": [
+        {
+          "titolo": "Viaggiare",
+          "pagina": 231,
+          "colonne": ["Servizio", "Costo"],
+          "righe": [["Pedaggio stradale o di ingresso", "1 mr"]]
+        }
+      ],
+      "costo": "1 mr",
+      "costoMo": 0.01,
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 231, "da": "Viaggiare", "a": "Passaggio in nave" }],
+      "correzioni": [["\n\nVIAGGIARE\n\nServizio · Costo", ""]]
+    },
+    {
+      "id": "servizio:viaggio-in-carrozza-dentro-una-citta",
+      "tipo": "servizio",
+      "nome": "Viaggio in carrozza dentro una città",
+      "pagina": 231,
+      "tabelle": [
+        {
+          "titolo": "Viaggiare",
+          "pagina": 231,
+          "colonne": ["Servizio", "Costo"],
+          "righe": [["Viaggio in carrozza dentro una città", "1 mr per 1,5 km"]]
+        }
+      ],
+      "costo": "1 mr per 1,5 km",
+      "costoMo": 0.01,
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 231, "da": "Viaggiare", "a": "Passaggio in nave" }],
+      "correzioni": [["\n\nVIAGGIARE\n\nServizio · Costo", ""]]
+    },
+    {
+      "id": "servizio:viaggio-in-carrozza-tra-cittadine",
+      "tipo": "servizio",
+      "nome": "Viaggio in carrozza tra cittadine",
+      "pagina": 231,
+      "tabelle": [
+        {
+          "titolo": "Viaggiare",
+          "pagina": 231,
+          "colonne": ["Servizio", "Costo"],
+          "righe": [["Viaggio in carrozza tra cittadine", "3 mr per 1,5 km"]]
+        }
+      ],
+      "costo": "3 mr per 1,5 km",
+      "costoMo": 0.03,
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 231, "da": "Viaggiare", "a": "Passaggio in nave" }],
+      "correzioni": [["\n\nVIAGGIARE\n\nServizio · Costo", ""]]
+    },
+    {
+      "id": "servizio:gregario-abile",
+      "tipo": "servizio",
+      "nome": "Gregario abile",
+      "pagina": 231,
+      "tabelle": [
+        {
+          "titolo": "Gregari",
+          "pagina": 231,
+          "colonne": ["Servizio", "Costo"],
+          "righe": [["Gregario abile", "2 mo al giorno"]]
+        }
+      ],
+      "costo": "2 mo al giorno",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 231, "da": "Gregari", "a": "Gregario abile" }],
+      "correzioni": [["\n\nGREGARI\n\nServizio · Costo", ""]]
+    },
+    {
+      "id": "servizio:gregario-inesperto",
+      "tipo": "servizio",
+      "nome": "Gregario inesperto",
+      "pagina": 231,
+      "tabelle": [
+        {
+          "titolo": "Gregari",
+          "pagina": 231,
+          "colonne": ["Servizio", "Costo"],
+          "righe": [["Gregario inesperto", "2 ma al giorno"]]
+        }
+      ],
+      "costo": "2 ma al giorno",
+      "costoMo": 0.2,
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 231, "da": "Gregari", "a": "Gregario abile" }],
+      "correzioni": [["\n\nGREGARI\n\nServizio · Costo", ""]]
+    },
+    {
+      "id": "servizio:messaggero",
+      "tipo": "servizio",
+      "nome": "Messaggero",
+      "pagina": 231,
+      "tabelle": [
+        {
+          "titolo": "Gregari",
+          "pagina": 231,
+          "colonne": ["Servizio", "Costo"],
+          "righe": [["Messaggero", "2 mr per 1,5 km"]]
+        }
+      ],
+      "costo": "2 mr per 1,5 km",
+      "costoMo": 0.02,
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 231, "da": "Gregari", "a": "Gregario abile" }],
+      "correzioni": [["\n\nGREGARI\n\nServizio · Costo", ""]]
+    },
+    {
+      "id": "servizio:vitto-e-alloggio",
+      "tipo": "servizio",
+      "nome": "Vitto e alloggio",
+      "testo": [{ "pagina": 231, "da": "Vitto e alloggio", "a": "Birra (boccale)" }],
+      "pagina": 231,
+      "tabelle": [
+        {
+          "titolo": "Vitto e alloggio",
+          "pagina": 231,
+          "colonne": ["Oggetto", "Costo"],
+          "righe": [
+            ["Birra (boccale)", "4 mr"],
+            ["Fetta di formaggio", "1 ma"],
+            ["Locanda (al giorno), squallido", "7 mr"],
+            ["Locanda (al giorno), povero", "1 ma"],
+            ["Locanda (al giorno), modesto", "5 ma"],
+            ["Locanda (al giorno), agiato", "8 ma"],
+            ["Locanda (al giorno), ricco", "2 mo"],
+            ["Locanda (al giorno), aristocratico", "4 mo"],
+            ["Pagnotta", "2 mr"],
+            ["Pasto, squallido", "1 mr"],
+            ["Pasto, povero", "2 mr"],
+            ["Pasto, modesto", "1 ma"],
+            ["Pasto, agiato", "2 ma"],
+            ["Pasto, ricco", "3 ma"],
+            ["Pasto, aristocratico", "6 ma"],
+            ["Vino (bottiglia), comune", "2 ma"],
+            ["Vino (bottiglia), pregiato", "10 mo"]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["- La tabella", "La tabella"], ["\n\nVITTO E ALLOGGIO\n\nOggetto · Costo · Oggetto · Costo", ""]]
+    },
+    {
+      "id": "servizio:servizi-magici",
+      "tipo": "servizio",
+      "nome": "Incantesimi (servizi magici)",
+      "alias": ["Servizi magici"],
+      "testo": [{ "pagina": 232, "da": "Incantesimi", "a": "Servizi magici", "na": 2 }],
+      "pagina": 232,
+      "tabelle": [
+        {
+          "titolo": "Servizi magici",
+          "pagina": 232,
+          "colonne": ["Livello dell'incantesimo", "Disponibilità", "Costo"],
+          "righe": [
+            ["Trucchetto", "Villaggio, cittadina o città", "30 mo"],
+            ["1", "Villaggio, cittadina o città", "50 mo"],
+            ["2", "Villaggio, cittadina o città", "200 mo"],
+            ["3", "Solo cittadina o città", "300 mo"],
+            ["4-5", "Solo cittadina o città", "2.000 mo"],
+            ["6-8", "Solo città", "20.000 mo"],
+            ["9", "Solo città", "100.000 mo"]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
