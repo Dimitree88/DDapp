@@ -32,6 +32,7 @@ export type Ancora = {
   a?: string;
   includiDa?: boolean;
   finePagina?: boolean;
+  unisci?: boolean; // il segmento è un unico paragrafo: gli a capo dell'estrazione diventano spazi
   n?: number; // occorrenza di «da» nella pagina, se il testo compare più volte (predefinita 1)
   na?: number; // occorrenza di «a» dopo l'inizio del segmento (predefinita 1)
 };
@@ -248,6 +249,7 @@ function controllaAncore(dove: string, voce: VoceBase, errori: string[]) {
     if (ancora?.a !== undefined && (typeof ancora.a !== "string" || !ancora.a.trim())) errori.push(`${qui}: «a» non valido`);
     if (ancora?.includiDa !== undefined && typeof ancora.includiDa !== "boolean") errori.push(`${qui}: includiDa non booleano`);
     for (const campo of ["n", "na"] as const) if (ancora?.[campo] !== undefined && (!Number.isInteger(ancora[campo]) || ancora[campo]! < 1)) errori.push(`${qui}: ${campo} non valido`);
+    if (ancora?.unisci !== undefined && typeof ancora.unisci !== "boolean") errori.push(`${qui}: unisci non booleano`);
     if (ancora?.finePagina !== undefined && (typeof ancora.finePagina !== "boolean" || ancora.a !== undefined)) errori.push(`${qui}: finePagina non booleano o insieme ad «a»`);
   }
   if (voce.correzioni !== undefined && (!Array.isArray(voce.correzioni) || voce.correzioni.some((coppia) => !Array.isArray(coppia) || coppia.length !== 2 || coppia.some((parte) => typeof parte !== "string") || !coppia[0]))) errori.push(`${dove}: correzioni non valide`);
