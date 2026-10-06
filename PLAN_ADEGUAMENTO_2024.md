@@ -14,19 +14,22 @@ direttamente dall'app come fonte dei popup e delle regole. Per esempio:
 | Dominio | File previsti dopo il modulo di base |
 | --- | --- |
 | Allineamenti e definizioni generali | `lib/manuale-2024/allineamenti.json`, `lib/manuale-2024/etichette.json` |
+| Valori comuni | `caratteristiche.json`, `abilita.json`, `taglie.json`, `lingue.json`, `condizioni.json` |
 | Background, specie e lignaggi | `lib/manuale-2024/background.json`, `lib/manuale-2024/specie.json`, `lib/manuale-2024/lignaggi.json` |
-| Talenti | `lib/manuale-2024/talenti/origini.json`, file separati per Generali, Stili di combattimento e Doni epici |
+| Talenti | `lib/manuale-2024/talenti/origini.json`, `generali-a.json`, `generali-b.json`, `stili.json`, `doni-epici.json` |
 | Classi e sottoclassi | Un file per classe in `lib/manuale-2024/classi/`, contenente anche le sue quattro sottoclassi e i loro privilegi |
-| Armi, armature, strumenti e altri beni | File distinti in `lib/manuale-2024/equipaggiamento/` |
-| Incantesimi | Indice unico e file in `lib/manuale-2024/incantesimi/`, suddivisi per livello e, se necessario, in blocchi di massimo 20 voci |
-| Regole di calcolo | File distinti in `lib/manuale-2024/regole/`, collegati ai dati descrittivi e ai calcoli effettivi |
+| Armi, armature, strumenti e altri beni | File distinti in `lib/manuale-2024/equipaggiamento/` (`armi`, `armature`, `strumenti`, `avventura-01`…`04`, `cavalcature-veicoli`, `servizi`, `monete`) |
+| Incantesimi | Indice unico e file in `lib/manuale-2024/incantesimi/`, suddivisi per livello e in blocchi di massimo 20 voci (`incantesimi/blocchi.json`) |
+| Regole di calcolo | File distinti in `lib/manuale-2024/regole/` (`generali`, `caratteristiche`, `attacchi`, `classe-armatura`, `incantesimi`), collegati ai dati descrittivi e ai calcoli effettivi |
 
 Ogni voce normativa contiene almeno **ID stabile, nome, descrizione fedele
 alla voce del PDF e pagina stampata**. Aggiunge i campi utili al suo dominio:
 requisiti, livello, opzioni, benefici, durata, uso, recupero, costo, peso,
 danni, proprietà, gittata o formule. Tabelle e progressioni necessarie non
-devono sparire in una sintesi. La struttura concreta viene fissata nel modulo
-`F00`; il testo del manuale non deve essere duplicato in sintesi hardcoded
+devono sparire in una sintesi. La struttura concreta è fissata dal modulo
+`F00` in [`docs/adeguamento-2024/struttura.md`](docs/adeguamento-2024/struttura.md),
+con inventario in [`inventario.md`](docs/adeguamento-2024/inventario.md) e
+matrice in [`matrice.json`](docs/adeguamento-2024/matrice.json); il testo del manuale non deve essere duplicato in sintesi hardcoded
 discordanti nei componenti React. Le note personali del giocatore rimangono
 separate dalle descrizioni del libro.
 
@@ -129,13 +132,14 @@ I numeri di voci sono la fotografia attuale e si confermano nell'inventario
 | ID | Ambito e risultato esclusivo | Dipende da |
 | --- | --- | --- |
 | F00 | Inventario completo di schermate, popup, domini, esportazioni e valori dinamici; matrice voce→modulo; schema dei file per dominio; adapter di lettura, riferimenti di pagina e test di copertura | — |
-| V01 | Allineamenti e relative definizioni generali; `allineamenti.json` | F00 |
+| V01 | Allineamenti e definizione generale di «Allineamento»; `allineamenti.json` | F00 |
 | V02 | Caratteristiche, abilità, taglie, lingue, condizioni e relative etichette; file di valori comuni; due lingue standard iniziali distinte dalle rare | F00 |
 | V03 | Tutti i 16 background, equipaggiamento/scelte iniziali, talenti e competenze concessi; `background.json` | F00 |
 | V04 | Tutte le 10 specie, lignaggi, tratti e progressioni; `specie.json` e `lignaggi.json` | F00 |
+| V05 | Etichette generali e regole comuni (Classe, Sottoclasse, Livello, PE, PF, Dadi Vita, Iniziativa, Bonus competenza, Velocità, Ispirazione eroica, Privilegi, Talenti); `etichette.json` e `regole/generali.json` | F00 |
 | T01 | 10 talenti di Origine; `talenti/origini.json` | F00 |
-| T02A | Prima metà alfabetica dei 43 talenti Generali; file proprio | F00 |
-| T02B | Seconda metà alfabetica dei talenti Generali; file proprio | F00 |
+| T02A | Talenti Generali da «Abilità impeccabile» a «Incantatore da guerra» (22); `talenti/generali-a.json` | F00 |
+| T02B | Talenti Generali da «Incantatore rituale» a «Tiratore scelto» (21); `talenti/generali-b.json` | F00 |
 | T03 | 10 Stili di combattimento; `talenti/stili.json` | F00 |
 | T04 | 12 Doni epici; `talenti/doni-epici.json` | F00 |
 | C01 | Barbaro e sue quattro sottoclassi; file della classe | F00 |
@@ -153,19 +157,46 @@ I numeri di voci sono la fotografia attuale e si confermano nell'inventario
 | E01 | Armi, proprietà, padronanze, attacchi e dati di catalogo | F00 |
 | E02 | Armature, scudi, proprietà, CA e dati di catalogo | F00 |
 | E03 | Strumenti, varianti, competenze, prove e creazioni | F00 |
-| E04 | Equipaggiamento d'avventura, munizioni e oggetti con effetti d'uso; suddividere in file/blocchi disgiunti da massimo 25 voci | F00 |
+| E04 | Equipaggiamento d'avventura, munizioni e oggetti con effetti d'uso; quattro file disgiunti `avventura-01`…`04` da massimo 25 voci (confini in `inventario.md`) | F00 |
 | E05 | Mezzi, cavalcature, servizi, costi e altre voci di equipaggiamento selezionabili | F00 |
 | I00 | Indice completo degli incantesimi dal PDF, schema della voce, pagine, liste di classe e ripartizione in blocchi | F00 |
-| I0–I9 (famiglia non assegnabile) | Contenuto integrale degli incantesimi di livello 0–9; per ogni livello creare blocchi `I<livello>-<nn>` da massimo 20 voci, ciascuno con file, branch, stato ed evidenza propri | I00 |
+| I0–I9 (famiglia non assegnabile) | Contenuto integrale degli incantesimi di livello 0–9 nei blocchi `I<livello>-<nn>` qui sotto, ciascuno con file, branch, stato ed evidenza propri | I00 |
+| I0-01 | Trucchetti, dall'inizio alfabetico a «Messaggio» escluso; `incantesimi/I0-01.json` | I00 |
+| I0-02 | Trucchetti, da «Messaggio» alla fine; `incantesimi/I0-02.json` | I00 |
+| I1-01 | Incantesimi di livello 1, dall'inizio alfabetico a «Cura ferite» escluso; `incantesimi/I1-01.json` | I00 |
+| I1-02 | Incantesimi di livello 1, da «Cura ferite» a «Intralciare» escluso; `incantesimi/I1-02.json` | I00 |
+| I1-03 | Incantesimi di livello 1, da «Intralciare» a «Raggio di infermità» escluso; `incantesimi/I1-03.json` | I00 |
+| I1-04 | Incantesimi di livello 1, da «Raggio di infermità» alla fine; `incantesimi/I1-04.json` | I00 |
+| I2-01 | Incantesimi di livello 2, dall'inizio alfabetico a «Crescita di spine» escluso; `incantesimi/I2-01.json` | I00 |
+| I2-02 | Incantesimi di livello 2, da «Crescita di spine» a «Oscurità» escluso; `incantesimi/I2-02.json` | I00 |
+| I2-03 | Incantesimi di livello 2, da «Oscurità» a «Scassinare» escluso; `incantesimi/I2-03.json` | I00 |
+| I2-04 | Incantesimi di livello 2, da «Scassinare» alla fine; `incantesimi/I2-04.json` | I00 |
+| I3-01 | Incantesimi di livello 3, dall'inizio alfabetico a «Forma gassosa» escluso; `incantesimi/I3-01.json` | I00 |
+| I3-02 | Incantesimi di livello 3, da «Forma gassosa» a «Parlare con i morti» escluso; `incantesimi/I3-02.json` | I00 |
+| I3-03 | Incantesimi di livello 3, da «Parlare con i morti» alla fine; `incantesimi/I3-03.json` | I00 |
+| I4-01 | Incantesimi di livello 4, dall'inizio alfabetico a «Guardiano della fede» escluso; `incantesimi/I4-01.json` | I00 |
+| I4-02 | Incantesimi di livello 4, da «Guardiano della fede» a «Richiama aberrazione» escluso; `incantesimi/I4-02.json` | I00 |
+| I4-03 | Incantesimi di livello 4, da «Richiama aberrazione» alla fine; `incantesimi/I4-03.json` | I00 |
+| I5-01 | Incantesimi di livello 5, dall'inizio alfabetico a «Evoca elementale» escluso; `incantesimi/I5-01.json` | I00 |
+| I5-02 | Incantesimi di livello 5, da «Evoca elementale» a «Punizione esiliante» escluso; `incantesimi/I5-02.json` | I00 |
+| I5-03 | Incantesimi di livello 5, da «Punizione esiliante» alla fine; `incantesimi/I5-03.json` | I00 |
+| I6-01 | Incantesimi di livello 6, dall'inizio alfabetico a «Globo di invulnerabilità» escluso; `incantesimi/I6-01.json` | I00 |
+| I6-02 | Incantesimi di livello 6, da «Globo di invulnerabilità» alla fine; `incantesimi/I6-02.json` | I00 |
+| I7-01 | Incantesimi di livello 7, dall'inizio alfabetico a «Reggia meravigliosa di Mordenkainen» escluso; `incantesimi/I7-01.json` | I00 |
+| I7-02 | Incantesimi di livello 7, da «Reggia meravigliosa di Mordenkainen» alla fine; `incantesimi/I7-02.json` | I00 |
+| I8-01 | Incantesimi di livello 8, tutti; `incantesimi/I8-01.json` | I00 |
+| I9-01 | Incantesimi di livello 9, tutti; `incantesimi/I9-01.json` | I00 |
 | I10 | Logiche comuni degli incantesimi: selezione, preparazione, slot, lancio, recupero, CD, attacchi e interazioni | I0–I9, C01–C12, T01–T04 |
 | R01 | Integrazione dei dati nei popup, formule e domini dell'app; eliminazione dei fallback; verifica delle etichette generiche e dei popup composti | Tutti i moduli V/T/C/E/I |
 | R02 | Compatibilità e migrazione delle schede precedenti, esportazioni e dati salvati; verifica della destinazione prima di scrivere nel database | R01 |
 | Q01 | Copertura integrale, regressioni, verifica mobile, TypeScript, build e dichiarazione finale | R02 |
 
-Durante `F00` si congelano i confini alfabetici di `T02A/T02B`, la lista dei
-blocchi di `E04` e l'elenco di tutti i blocchi di incantesimi `I<livello>-<nn>`.
-Ogni blocco aggiunto diventa una **riga autonoma** nel registro prima di essere
-assegnato. Un modulo grande si divide in nuove righe e nuovi file, mai in due
+`F00` ha congelato i confini alfabetici di `T02A/T02B`, i blocchi di `E04` e i
+25 blocchi di incantesimi `I<livello>-<nn>` (regola di appartenenza in
+`lib/manuale-2024/incantesimi/blocchi.json`). `I00` crea file e stati dei
+blocchi; se l'indice verificato porta un blocco oltre 20 voci, lo segnala come
+`aperto` invece di ridividerlo da solo. Ogni blocco aggiunto diventa una **riga
+autonoma** nel registro prima di essere assegnato. Un modulo grande si divide in nuove righe e nuovi file, mai in due
 computer che modificano lo stesso file.
 
 ## Verifiche obbligatorie per famiglia
@@ -213,8 +244,9 @@ la voce e chiedere indicazioni all'utente; non completarla con altre fonti.
 
 ## Avvio della prossima sessione
 
-Eseguire `F00` e integrare la sua struttura comune. Pubblicare il commit di
-base, poi assegnare moduli di contenuto indipendenti ai diversi computer.
+Integrare su `main` il branch `manuale-2024/F00` (struttura comune, matrice e
+test), poi assegnare moduli di contenuto indipendenti ai diversi computer
+seguendo [`struttura.md`](docs/adeguamento-2024/struttura.md).
 Nessun dominio, incluso quello degli allineamenti, ha precedenza normativa
 sugli altri: l'esempio di «Caotico neutrale» serve a definire la qualità
 attesa per **tutte** le descrizioni.
