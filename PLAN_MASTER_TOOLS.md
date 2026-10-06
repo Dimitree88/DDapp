@@ -241,7 +241,8 @@ pagina Armi resta di sola lettura per competenze e Padronanze.
 Per gli incantesimi, il riposo propone soltanto le sostituzioni consentite
 dalla classe e dai privilegi posseduti: il Chierico e il Druido possono
 rivedere la lista preparata al riposo lungo (pp. 69, 79); il Mago la sceglie
-dal proprio libro (p. 112) e dal 5° livello può sostituire un incantesimo
+dal proprio libro e può sostituire un trucchetto al riposo lungo (p. 112);
+dal 5° livello può sostituire un incantesimo
 preparato dal libro anche al riposo breve (p. 113). Paladino, Ranger e
 Stregone hanno limiti di sostituzione specifici al riposo lungo (pp. 131,
 141, 151); verificare allo stesso modo Cavaliere Mistico e Mistificatore
