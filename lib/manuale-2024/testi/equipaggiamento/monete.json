@@ -1,4 +1,7 @@
 {
   "dominio": "equipaggiamento/monete",
-  "testi": {}
+  "testi": {
+    "etichetta:monete": "Spesso i personaggi trovano monete durante le loro avventure e possono spenderle in negozi, locande e altre attività commerciali. Le monete hanno diverse denominazioni in base al valore del materiale di cui sono composte. Nella tabella Valore della moneta sono elencati i tipi di monete e il relativo valore in monete d'oro, ovvero la valuta principale del gioco. Per esempio, 100 monete di rame equivalgono a 1 moneta d'oro.\n\nUna moneta pesa circa dieci grammi, quindi cinquanta monete pesano circa mezzo chilogrammo.",
+    "regola:valore-della-moneta": "Spesso i personaggi trovano monete durante le loro avventure e possono spenderle in negozi, locande e altre attività commerciali. Le monete hanno diverse denominazioni in base al valore del materiale di cui sono composte. Nella tabella Valore della moneta sono elencati i tipi di monete e il relativo valore in monete d'oro, ovvero la valuta principale del gioco. Per esempio, 100 monete di rame equivalgono a 1 moneta d'oro.\n\nUna moneta pesa circa dieci grammi, quindi cinquanta monete pesano circa mezzo chilogrammo."
+  }
 }

@@ -3,6 +3,533 @@
   "modulo": "E05",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:cavalcature-e-veicoli",
+      "tipo": "etichetta",
+      "nome": "Cavalcature e veicoli",
+      "testo": [
+        { "pagina": 229, "da": "Cavalcature e veicoli", "a": "Bardatura" },
+        { "pagina": 229, "da": "Bardatura", "a": "Cavalcature e altri animali" },
+        { "pagina": 230, "da": "Veicoli grandi", "a": "Veicoli aerei e imbarcazioni", "na": 2 }
+      ],
+      "pagina": 229,
+      "pagine": [230],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["p·rogettata", "progettata"],
+        [
+          "RIPARARE UNA NAVE È possibile effettuare delle riparazioni a una nave mentre\n\nquesta",
+          "RIPARARE UNA NAVE\n\nÈ possibile effettuare delle riparazioni a una nave mentre questa"
+        ]
+      ]
+    }
+  ],
+  "voci": [
+    {
+      "id": "cavalcatura:cammello",
+      "tipo": "cavalcatura",
+      "nome": "Cammello",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Cavalcature e altri animali",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Capacità di trasporto", "Costo"],
+          "righe": [["Cammello", "225 kg", "50 mo"]]
+        }
+      ],
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "cavalcatura:cavallo-da-galoppo",
+      "tipo": "cavalcatura",
+      "nome": "Cavallo da galoppo",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Cavalcature e altri animali",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Capacità di trasporto", "Costo"],
+          "righe": [["Cavallo da galoppo", "240 kg", "75 mo"]]
+        }
+      ],
+      "costo": "75 mo",
+      "costoMo": 75,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "cavalcatura:cavallo-da-guerra",
+      "tipo": "cavalcatura",
+      "nome": "Cavallo da guerra",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Cavalcature e altri animali",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Capacità di trasporto", "Costo"],
+          "righe": [["Cavallo da guerra", "270 kg", "400 mo"]]
+        }
+      ],
+      "costo": "400 mo",
+      "costoMo": 400,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "cavalcatura:cavallo-da-tiro",
+      "tipo": "cavalcatura",
+      "nome": "Cavallo da tiro",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Cavalcature e altri animali",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Capacità di trasporto", "Costo"],
+          "righe": [["Cavallo da tiro", "270 kg", "50 mo"]]
+        }
+      ],
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "cavalcatura:elefante",
+      "tipo": "cavalcatura",
+      "nome": "Elefante",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Cavalcature e altri animali",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Capacità di trasporto", "Costo"],
+          "righe": [["Elefante", "660 kg", "200 mo"]]
+        }
+      ],
+      "costo": "200 mo",
+      "costoMo": 200,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "cavalcatura:mastino",
+      "tipo": "cavalcatura",
+      "nome": "Mastino",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Cavalcature e altri animali",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Capacità di trasporto", "Costo"],
+          "righe": [["Mastino", "97,5 kg", "25 mo"]]
+        }
+      ],
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "cavalcatura:mulo",
+      "tipo": "cavalcatura",
+      "nome": "Mulo",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Cavalcature e altri animali",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Capacità di trasporto", "Costo"],
+          "righe": [["Mulo", "210 kg", "8 mo"]]
+        }
+      ],
+      "costo": "8 mo",
+      "costoMo": 8,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "cavalcatura:pony",
+      "tipo": "cavalcatura",
+      "nome": "Pony",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Cavalcature e altri animali",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Capacità di trasporto", "Costo"],
+          "righe": [["Pony", "112,5 kg", "30 mo"]]
+        }
+      ],
+      "costo": "30 mo",
+      "costoMo": 30,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:biga",
+      "tipo": "veicolo",
+      "nome": "Biga",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Biga", "50 kg", "250 mo"]]
+        }
+      ],
+      "costo": "250 mo",
+      "costoMo": 250,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:carretto",
+      "tipo": "veicolo",
+      "nome": "Carretto",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Carretto", "100 kg", "15 mo"]]
+        }
+      ],
+      "costo": "15 mo",
+      "costoMo": 15,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:carro",
+      "tipo": "veicolo",
+      "nome": "Carro",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Carro", "200 kg", "35 mo"]]
+        }
+      ],
+      "costo": "35 mo",
+      "costoMo": 35,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:carrozza",
+      "tipo": "veicolo",
+      "nome": "Carrozza",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Carrozza", "300 kg", "100 mo"]]
+        }
+      ],
+      "costo": "100 mo",
+      "costoMo": 100,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "finimento:nutrimento-al-giorno",
+      "tipo": "oggetto",
+      "nome": "Nutrimento (al giorno)",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Nutrimento (al giorno)", "5 kg", "5 mr"]]
+        }
+      ],
+      "costo": "5 mr",
+      "costoMo": 0.05,
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "finimento:sella-esotica",
+      "tipo": "oggetto",
+      "nome": "Sella esotica",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Sella esotica", "20 kg", "60 mo"]]
+        }
+      ],
+      "costo": "60 mo",
+      "costoMo": 60,
+      "peso": "20 kg",
+      "pesoKg": 20,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "finimento:sella-militare",
+      "tipo": "oggetto",
+      "nome": "Sella militare",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Sella militare", "15 kg", "20 mo"]]
+        }
+      ],
+      "costo": "20 mo",
+      "costoMo": 20,
+      "peso": "15 kg",
+      "pesoKg": 15,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "finimento:sella-da-galoppo",
+      "tipo": "oggetto",
+      "nome": "Sella da galoppo",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Sella da galoppo", "12,5 kg", "10 mo"]]
+        }
+      ],
+      "costo": "10 mo",
+      "costoMo": 10,
+      "peso": "12,5 kg",
+      "pesoKg": 12.5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:slitta",
+      "tipo": "veicolo",
+      "nome": "Slitta",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Slitta", "150 kg", "20 mo"]]
+        }
+      ],
+      "costo": "20 mo",
+      "costoMo": 20,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "finimento:stallaggio-al-giorno",
+      "tipo": "oggetto",
+      "nome": "Stallaggio (al giorno)",
+      "pagina": 229,
+      "tabelle": [
+        {
+          "titolo": "Finimenti e veicoli da tiro",
+          "pagina": 229,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Stallaggio (al giorno)", "—", "5 ma"]]
+        }
+      ],
+      "costo": "5 ma",
+      "costoMo": 0.5,
+      "peso": "—",
+      "pesoKg": null,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:barca-a-remi",
+      "tipo": "veicolo",
+      "nome": "Barca a remi",
+      "pagina": 230,
+      "tabelle": [
+        {
+          "titolo": "Veicoli aerei e imbarcazioni",
+          "pagina": 230,
+          "colonne": [
+            "Nave",
+            "Velocità",
+            "Equipaggio",
+            "Passeggeri",
+            "Carico (tonnellate)",
+            "CA",
+            "PF",
+            "Soglia di danno",
+            "Costo"
+          ],
+          "righe": [["Barca a remi", "2,25 km/h", "1", "3", "—", "11", "50", "—", "50 mo"]]
+        }
+      ],
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:barcone",
+      "tipo": "veicolo",
+      "nome": "Barcone",
+      "pagina": 230,
+      "tabelle": [
+        {
+          "titolo": "Veicoli aerei e imbarcazioni",
+          "pagina": 230,
+          "colonne": [
+            "Nave",
+            "Velocità",
+            "Equipaggio",
+            "Passeggeri",
+            "Carico (tonnellate)",
+            "CA",
+            "PF",
+            "Soglia di danno",
+            "Costo"
+          ],
+          "righe": [["Barcone", "1,5 km/h", "1", "6", "1/2", "15", "100", "10", "3.000 mo"]]
+        }
+      ],
+      "costo": "3.000 mo",
+      "costoMo": 3000,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:dirigibile",
+      "tipo": "veicolo",
+      "nome": "Dirigibile",
+      "pagina": 230,
+      "tabelle": [
+        {
+          "titolo": "Veicoli aerei e imbarcazioni",
+          "pagina": 230,
+          "colonne": [
+            "Nave",
+            "Velocità",
+            "Equipaggio",
+            "Passeggeri",
+            "Carico (tonnellate)",
+            "CA",
+            "PF",
+            "Soglia di danno",
+            "Costo"
+          ],
+          "righe": [["Dirigibile", "12 km/h", "10", "20", "1", "13", "300", "—", "40.000 mo"]]
+        }
+      ],
+      "costo": "40.000 mo",
+      "costoMo": 40000,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:galea",
+      "tipo": "veicolo",
+      "nome": "Galea",
+      "pagina": 230,
+      "tabelle": [
+        {
+          "titolo": "Veicoli aerei e imbarcazioni",
+          "pagina": 230,
+          "colonne": [
+            "Nave",
+            "Velocità",
+            "Equipaggio",
+            "Passeggeri",
+            "Carico (tonnellate)",
+            "CA",
+            "PF",
+            "Soglia di danno",
+            "Costo"
+          ],
+          "righe": [["Galea", "6 km/h", "80", "—", "150", "15", "500", "20", "30.000 mo"]]
+        }
+      ],
+      "costo": "30.000 mo",
+      "costoMo": 30000,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:nave-da-guerra",
+      "tipo": "veicolo",
+      "nome": "Nave da guerra",
+      "pagina": 230,
+      "tabelle": [
+        {
+          "titolo": "Veicoli aerei e imbarcazioni",
+          "pagina": 230,
+          "colonne": [
+            "Nave",
+            "Velocità",
+            "Equipaggio",
+            "Passeggeri",
+            "Carico (tonnellate)",
+            "CA",
+            "PF",
+            "Soglia di danno",
+            "Costo"
+          ],
+          "righe": [["Nave da guerra", "3,75 km/h", "60", "60", "200", "15", "500", "20", "25.000 mo"]]
+        }
+      ],
+      "costo": "25.000 mo",
+      "costoMo": 25000,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:nave-lunga",
+      "tipo": "veicolo",
+      "nome": "Nave lunga",
+      "pagina": 230,
+      "tabelle": [
+        {
+          "titolo": "Veicoli aerei e imbarcazioni",
+          "pagina": 230,
+          "colonne": [
+            "Nave",
+            "Velocità",
+            "Equipaggio",
+            "Passeggeri",
+            "Carico (tonnellate)",
+            "CA",
+            "PF",
+            "Soglia di danno",
+            "Costo"
+          ],
+          "righe": [["Nave lunga", "4,5 km/h", "40", "150", "10", "15", "300", "15", "10.000 mo"]]
+        }
+      ],
+      "costo": "10.000 mo",
+      "costoMo": 10000,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "veicolo:nave-a-vela",
+      "tipo": "veicolo",
+      "nome": "Nave a vela",
+      "pagina": 230,
+      "tabelle": [
+        {
+          "titolo": "Veicoli aerei e imbarcazioni",
+          "pagina": 230,
+          "colonne": [
+            "Nave",
+            "Velocità",
+            "Equipaggio",
+            "Passeggeri",
+            "Carico (tonnellate)",
+            "CA",
+            "PF",
+            "Soglia di danno",
+            "Costo"
+          ],
+          "righe": [["Nave a vela", "3 km/h", "20", "20", "100", "15", "300", "15", "10.000 mo"]]
+        }
+      ],
+      "costo": "10.000 mo",
+      "costoMo": 10000,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
