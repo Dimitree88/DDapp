@@ -140,11 +140,7 @@
       "calcolo": "lib/classProgression.ts#calculatedMaxHp",
       "righeMatrice": ["stato.pf-massimi"],
       "verifica": { "stato": "verificata" },
-      "correzioni": [
-        ["compreso tra O (", "compreso tra 0 ("],
-        ["raggiunge lo O.", "raggiunge lo 0."],
-        ["Puntiferita.", "Punti ferita."]
-      ]
+      "correzioni": [["Puntiferita.", "Punti ferita."]]
     }
   ]
 }

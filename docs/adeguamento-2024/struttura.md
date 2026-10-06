@@ -65,7 +65,7 @@ Campi comuni (tipi completi in [`schema.ts`](../../lib/manuale-2024/schema.ts)):
 | `id` | Stabile, minuscolo, con almeno un prefisso: `talento:allerta`, `classe:barbaro:privilegio:ira`. Unico in tutto il manuale; non cambia se si corregge il nome. |
 | `tipo` | Uno dei tipi di `schema.ts`; determina i campi obbligatori. |
 | `nome` | Nome come stampato nel PDF. |
-| `testo` | Ancore della descrizione nel PDF: `[{ "pagina": 39, "da": "Caotico neutrale (CN)", "a": "Legale malvagio (LM)" }]`. Il segmento parte dopo `da` (o dalla riga successiva se `da` è un titolo; `includiDa: true` lo comprende) e termina prima di `a`, alla fine della pagina con `finePagina: true` o, altrimenti, al titolo successivo; può proseguire sulle quattro pagine seguenti. Se il testo dell'ancora compare più volte, `n` (per `da`, sulla pagina) e `na` (per `a`, dopo l'inizio) scelgono l'occorrenza; `scripts/adeguamento-2024/occorrenze.mjs <pagina> <testo>` le elenca. Più ancore si uniscono in paragrafi. |
+| `testo` | Facoltativo solo se la voce è interamente una riga di tabella del libro, registrata in `tabelle`. Ancore della descrizione nel PDF: `[{ "pagina": 39, "da": "Caotico neutrale (CN)", "a": "Legale malvagio (LM)" }]`. Il segmento parte dopo `da` (o dalla riga successiva se `da` è un titolo; `includiDa: true` lo comprende) e termina prima di `a`, alla fine della pagina con `finePagina: true` o, altrimenti, al titolo successivo; può proseguire sulle quattro pagine seguenti. Se il testo dell'ancora compare più volte, `n` (per `da`, sulla pagina) e `na` (per `a`, dopo l'inizio) scelgono l'occorrenza; `scripts/adeguamento-2024/occorrenze.mjs <pagina> <testo>` le elenca. Più ancore si uniscono in paragrafi. |
 | `correzioni` | Coppie `[testo estratto, testo corretto]` per artefatti OCR verificati sulla pagina (parole unite o spezzate, cifre confuse, celle spurie). Una correzione che non trova più il testo è un errore. |
 | `pagina` | Pagina **stampata** in cui inizia la voce, dentro gli intervalli del dominio. |
 | `pagine` | Altre pagine stampate pertinenti (tabella, seguito della voce). |
@@ -105,7 +105,7 @@ I file `lib/manuale-2024/testi/<dominio>.json` sono generati e versionati
 (l'app non esegue l'estrazione). Il modulo confronta ogni testo con la pagina
 renderizzata del PDF, registra in `correzioni` gli artefatti da sistemare e
 rigenera il file. Le ancore ignorano maiuscole, accenti, spazi, punteggiatura e
-le confusioni OCR l/i/1, o/0, s/5, rn/m.
+le confusioni OCR l/i/!/1, o/0, s/5, rn/m.
 
 ## Adapter e pagine
 

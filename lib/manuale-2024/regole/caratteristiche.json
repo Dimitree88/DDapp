@@ -4,5 +4,162 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "regola:modificatore-caratteristica",
+      "tipo": "regola",
+      "nome": "Modificatore di caratteristica",
+      "testo": [
+        { "pagina": 10, "da": "Punteggi di caratteristica", "a": "Punteggi di caratteristica", "na": 2 },
+        {
+          "pagina": 10,
+          "da": "Modificatori di caratteristica",
+          "a": "Modificatori di caratteristica",
+          "na": 2
+        },
+        { "pagina": 370, "da": "Punteggio di caratteristica e modificatore" }
+      ],
+      "pagina": 10,
+      "pagine": [370],
+      "tabelle": [
+        {
+          "titolo": "Punteggi di caratteristica",
+          "pagina": 10,
+          "colonne": ["Punteggio", "Significato"],
+          "righe": [
+            [
+              "1",
+              "È il punteggio più basso che di norma può essere raggiunto. Se un effetto riduce un punteggio a 0, quell'effetto spiega cosa accade."
+            ],
+            ["2-9", "Rappresenta delle capacità deboli."],
+            ["10-11", "Rappresenta un valore medio per un umano normale."],
+            ["12-19", "Rappresenta delle capacità forti."],
+            [
+              "20",
+              "È il punteggio massimo che un avventuriero può raggiungere, a meno che un privilegio non indichi diversamente."
+            ],
+            ["21-29", "Rappresenta delle capacità straordinarie."],
+            ["30", "È il punteggio massimo che può essere raggiunto."]
+          ]
+        },
+        {
+          "titolo": "Modificatori di caratteristica",
+          "pagina": 10,
+          "colonne": ["Punteggio", "Modificatore"],
+          "righe": [
+            ["1", "-5"],
+            ["2-3", "-4"],
+            ["4-5", "-3"],
+            ["6-7", "-2"],
+            ["8-9", "-1"],
+            ["10-11", "+0"],
+            ["12-13", "+1"],
+            ["14-15", "+2"],
+            ["16-17", "+3"],
+            ["18-19", "+4"],
+            ["20-21", "+5"],
+            ["22-23", "+6"],
+            ["24-25", "+7"],
+            ["26-27", "+8"],
+            ["28-29", "+9"],
+            ["30", "+10"]
+          ]
+        }
+      ],
+      "formula": "Tabella Modificatori di caratteristica: (punteggio − 10) ÷ 2, arrotondato per difetto",
+      "calcolo": "lib/abilityBonus.ts#abilityModifier",
+      "righeMatrice": ["caratteristiche.modificatore"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["corrispondente.\n\nQuando effettui", "corrispondente. Quando effettui"]]
+    },
+    {
+      "id": "regola:tiro-salvezza",
+      "tipo": "regola",
+      "nome": "Tiro salvezza",
+      "testo": [
+        { "pagina": 11, "da": "Tiri salvezza", "a": "Tiri per colpire" },
+        { "pagina": 14, "da": "Competenze nei tiri salvezza", "a": "Competenze dell'e uipaggiamento" },
+        { "pagina": 376, "da": "1ÌRO SALVEZZA" }
+      ],
+      "pagina": 11,
+      "pagine": [12, 14, 376],
+      "formula": "d20 + modificatore della caratteristica + bonus di competenza se competente",
+      "calcolo": "lib/abilityBonus.ts#savingThrowBonus",
+      "righeMatrice": ["caratteristiche.tiro-salvezza"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "caratteristica.\n\nAd esempio, la competenza nei tiri",
+          "caratteristica. Ad esempio, la competenza nei tiri"
+        ],
+        ["minacce.\n\nI maghi", "minacce. I maghi"]
+      ]
+    },
+    {
+      "id": "regola:prova-di-caratteristica",
+      "tipo": "regola",
+      "nome": "Prova di caratteristica",
+      "testo": [
+        {
+          "pagina": 10,
+          "da": "Prove di caratteristica",
+          "n": 2,
+          "a": "Esempi di prove di caratteristica",
+          "na": 2
+        },
+        { "pagina": 11, "da": "Bonus di competenza", "a": "Classe Difficoltà" },
+        { "pagina": 370, "da": "Prova di caratteristica", "n": 2 }
+      ],
+      "pagina": 10,
+      "pagine": [11, 13, 14, 370],
+      "formula": "d20 + modificatore della caratteristica + bonus di competenza se competente nell'abilità (raddoppiato con Maestria)",
+      "calcolo": "lib/abilityBonus.ts#abilityBonus",
+      "righeMatrice": ["abilita.bonus"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Atletica). si può", "Atletica), si può"]]
+    },
+    {
+      "id": "regola:percezione-passiva",
+      "tipo": "regola",
+      "nome": "Percezione passiva",
+      "testo": [
+        { "pagina": 40, "da": "Percezione passiva.", "includiDa": true, "a": "Punti ferita. La tua classe" },
+        { "pagina": 369, "da": "Percezione passiva" }
+      ],
+      "pagina": 40,
+      "pagine": [369],
+      "formula": "10 + bonus alla prova di Saggezza (Percezione); +5 con vantaggio, −5 con svantaggio",
+      "calcolo": "lib/abilityBonus.ts#passivePerception",
+      "righeMatrice": ["stato.percezione-passiva"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Saggezza (Percezione) Includi tutti", "Saggezza (Percezione)\n\nIncludi tutti"]]
+    },
+    {
+      "id": "regola:capacita-di-trasporto",
+      "tipo": "regola",
+      "nome": "Capacità di trasporto",
+      "testo": [{ "pagina": 363, "da": "Capacità di trasporto" }, { "pagina": 20, "da": "Trasportare gli oggetti" }],
+      "pagina": 363,
+      "pagine": [20],
+      "formula": "Secondo la tabella Capacità di trasporto (taglia e Forza)",
+      "calcolo": "lib/inventoryWeight.ts#carryingCapacity",
+      "righeMatrice": ["equipaggiamento.peso"],
+      "verifica": { "stato": "verificata" },
+      "tabelle": [
+        {
+          "titolo": "Capacità di trasporto",
+          "pagina": 363,
+          "colonne": ["Taglia creatura", "Trasportare max.", "Trascinare, sollevare o spingere max."],
+          "righe": [
+            ["Minuscola", "For. × 3,75 kg", "For. × 7,5 kg"],
+            ["Piccola/Media", "For. × 7,5 kg", "For. × 15 kg"],
+            ["Grande", "For. × 15 kg", "For. × 30 kg"],
+            ["Enorme", "For. × 30 kg", "For. × 60 kg"],
+            ["Mastodontica", "For. × 60 kg", "For. × 120 kg"]
+          ],
+          "note": "Nel PDF le intestazioni delle due colonne riportano solo «max.»; i nomi seguono il testo della voce."
+        }
+      ]
+    }
+  ]
 }

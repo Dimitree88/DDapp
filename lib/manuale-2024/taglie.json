@@ -3,6 +3,113 @@
   "modulo": "V02",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:taglia",
+      "tipo": "etichetta",
+      "nome": "Taglia",
+      "alias": ["Taglia base"],
+      "testo": [
+        { "pagina": 375, "da": "Taglia" },
+        { "pagina": 25, "da": "Taglia delle creature", "a": "TAC LI E E SPAZIO" }
+      ],
+      "pagina": 25,
+      "pagine": [375],
+      "righeMatrice": ["stato.taglia.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["combattimento.\n\nLa dimensione di un oggetto", "combattimento. La dimensione di un oggetto"]]
+    }
+  ],
+  "voci": [
+    {
+      "id": "taglia:minuscola",
+      "tipo": "taglia",
+      "nome": "Minuscola",
+      "pagina": 25,
+      "tabelle": [
+        {
+          "titolo": "Taglie e spazio delle creature",
+          "pagina": 25,
+          "colonne": ["Taglia", "Spazio (metri)", "Spazio (quadretti)"],
+          "righe": [["Minuscola", "75 x 75 cm", "4 per quadretto"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "taglia:piccola",
+      "tipo": "taglia",
+      "nome": "Piccola",
+      "pagina": 25,
+      "tabelle": [
+        {
+          "titolo": "Taglie e spazio delle creature",
+          "pagina": 25,
+          "colonne": ["Taglia", "Spazio (metri)", "Spazio (quadretti)"],
+          "righe": [["Piccola", "1,5 m x 1,5 m", "1 quadretto"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "taglia:media",
+      "tipo": "taglia",
+      "nome": "Media",
+      "pagina": 25,
+      "tabelle": [
+        {
+          "titolo": "Taglie e spazio delle creature",
+          "pagina": 25,
+          "colonne": ["Taglia", "Spazio (metri)", "Spazio (quadretti)"],
+          "righe": [["Media", "1,5 m x 1,5 m", "1 quadretto"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "taglia:grande",
+      "tipo": "taglia",
+      "nome": "Grande",
+      "pagina": 25,
+      "tabelle": [
+        {
+          "titolo": "Taglie e spazio delle creature",
+          "pagina": 25,
+          "colonne": ["Taglia", "Spazio (metri)", "Spazio (quadretti)"],
+          "righe": [["Grande", "3 m x 3 m", "4 quadretti (2 per 2)"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "taglia:enorme",
+      "tipo": "taglia",
+      "nome": "Enorme",
+      "pagina": 25,
+      "tabelle": [
+        {
+          "titolo": "Taglie e spazio delle creature",
+          "pagina": 25,
+          "colonne": ["Taglia", "Spazio (metri)", "Spazio (quadretti)"],
+          "righe": [["Enorme", "4,5 m x 4,5 m", "9 quadretti (3 per 3)"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "taglia:mastodontica",
+      "tipo": "taglia",
+      "nome": "Mastodontica",
+      "pagina": 25,
+      "tabelle": [
+        {
+          "titolo": "Taglie e spazio delle creature",
+          "pagina": 25,
+          "colonne": ["Taglia", "Spazio (metri)", "Spazio (quadretti)"],
+          "righe": [["Mastodontica", "6 m x 6 m", "16 quadretti (4 per 4)"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

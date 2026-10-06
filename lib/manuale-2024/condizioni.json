@@ -3,6 +3,151 @@
   "modulo": "V02",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:condizioni",
+      "tipo": "etichetta",
+      "nome": "Condizioni",
+      "alias": ["Condizione"],
+      "testo": [
+        { "pagina": 364, "da": "Condizione" },
+        { "pagina": 29, "da": "Condizioni", "a": "Esempio di combattimento" }
+      ],
+      "pagina": 29,
+      "pagine": [364],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["ParaIizzato", "Paralizzato"],
+        ["temporaneo.\n\nNella descrizione", "temporaneo. Nella descrizione"],
+        ["regola.\n\nVedi anche", "regola. Vedi anche"],
+        ["ogniistanza", "ogni istanza"]
+      ]
+    }
+  ],
+  "voci": [
+    {
+      "id": "condizione:accecato",
+      "tipo": "condizione",
+      "nome": "Accecato",
+      "testo": [{ "pagina": 360, "da": "Accecato [Condizione]" }],
+      "pagina": 360,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:affascinato",
+      "tipo": "condizione",
+      "nome": "Affascinato",
+      "testo": [{ "pagina": 360, "da": "Affascinato [Condizione]" }],
+      "pagina": 360,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:afferrato",
+      "tipo": "condizione",
+      "nome": "Afferrato",
+      "testo": [{ "pagina": 361, "da": "Afferrato [Condizione]" }],
+      "pagina": 361,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:assordato",
+      "tipo": "condizione",
+      "nome": "Assordato",
+      "testo": [{ "pagina": 362, "da": "Assordato [Condizione]" }],
+      "pagina": 362,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:avvelenato",
+      "tipo": "condizione",
+      "nome": "Avvelenato",
+      "testo": [{ "pagina": 362, "da": "Avvelenato [Condizione]" }],
+      "pagina": 362,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["avvelenato''", "avvelenato\""]]
+    },
+    {
+      "id": "condizione:incapacitato",
+      "tipo": "condizione",
+      "nome": "Incapacitato",
+      "testo": [{ "pagina": 366, "da": "Incapacitato [Condizione]" }],
+      "pagina": 366,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Senzaparole.", "Senza parole."], ["di parlare. Sorpresa.", "di parlare.\n\nSorpresa."]]
+    },
+    {
+      "id": "condizione:indebolimento",
+      "tipo": "condizione",
+      "nome": "Indebolimento",
+      "testo": [{ "pagina": 366, "da": "Indebolimento [Condizione]" }],
+      "pagina": 366,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["livello qi indebolimento", "livello di indebolimento"], ["1,5 x il suo", "1,5 × il suo"]]
+    },
+    {
+      "id": "condizione:invisibile",
+      "tipo": "condizione",
+      "nome": "Invisibile",
+      "testo": [{ "pagina": 367, "da": "Invisibile [Condizione]" }],
+      "pagina": 367,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:paralizzato",
+      "tipo": "condizione",
+      "nome": "Paralizzato",
+      "testo": [{ "pagina": 369, "da": "Paralizzato [Condizione]" }],
+      "pagina": 369,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:pietrificato",
+      "tipo": "condizione",
+      "nome": "Pietrificato",
+      "testo": [{ "pagina": 369, "da": "Pietrificato [Condizione]" }],
+      "pagina": 369,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:privo-di-sensi",
+      "tipo": "condizione",
+      "nome": "Privo di sensi",
+      "testo": [{ "pagina": 370, "da": "Privo di sensi [Condizione]" }],
+      "pagina": 370,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["privo di 1ìensi", "privo di sensi"], ["resta prono. Velocità 0.", "resta prono.\n\nVelocità 0."]]
+    },
+    {
+      "id": "condizione:prono",
+      "tipo": "condizione",
+      "nome": "Prono",
+      "testo": [{ "pagina": 370, "da": "Prono [Condizione]" }],
+      "pagina": 370,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:spaventato",
+      "tipo": "condizione",
+      "nome": "Spaventato",
+      "testo": [{ "pagina": 374, "da": "Spaventato [Condizione]" }],
+      "pagina": 374,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:stordito",
+      "tipo": "condizione",
+      "nome": "Stordito",
+      "testo": [{ "pagina": 374, "da": "Stordito [Condizione]" }],
+      "pagina": 374,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "condizione:trattenuto",
+      "tipo": "condizione",
+      "nome": "Trattenuto",
+      "testo": [{ "pagina": 376, "da": "Trattenuto [Condizione]" }],
+      "pagina": 376,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

@@ -39,7 +39,7 @@ export type Ancora = {
 export type VoceBase = {
   id: string; // "<prefisso>:<slug>", unico in tutto il manuale
   nome: string; // nome come stampato nel PDF
-  testo: Ancora[]; // segmenti della descrizione nel PDF, in ordine
+  testo?: Ancora[]; // segmenti della descrizione nel PDF, in ordine; facoltativo se la voce è una riga di «tabelle»
   correzioni?: [string, string][]; // correzioni puntuali di artefatti OCR nel testo estratto
   pagina: number; // pagina stampata in cui inizia la voce
   pagine?: number[]; // altre pagine stampate (tabella, seguito, regola collegata)
@@ -207,7 +207,7 @@ export const TIPI_VOCE = Object.keys(CAMPI) as TipoVoce[];
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*(?::[a-z0-9]+(?:-[a-z0-9]+)*)+$/;
 // Artefatti tipici dell'estrazione dal PDF che non devono restare nel testo.
 const ARTEFATTI: [RegExp, string][] = [
-  [/­/, "trattino morbido"],
+  [/\u00ad/, "trattino morbido"],
   [/[ \t]{2,}/, "spazi doppi"],
   [/[a-zà-ù]-\n[a-zà-ù]/, "parola spezzata a capo"],
   [/\bSRD\b/, "riferimento all'SRD"],
@@ -236,6 +236,7 @@ export function controllaTestoEstratto(dove: string, testo: unknown): string[] {
 }
 
 function controllaAncore(dove: string, voce: VoceBase, errori: string[]) {
+  if (voce.testo === undefined && voce.tabelle?.length) return;
   if (!Array.isArray(voce.testo) || voce.testo.length === 0) {
     errori.push(`${dove}: ancore del testo mancanti`);
     return;

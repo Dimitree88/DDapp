@@ -1,4 +1,6 @@
 {
   "dominio": "taglie",
-  "testi": {}
+  "testi": {
+    "etichetta:taglia": "A ogni creatura o oggetto è assegnata una categoria di taglia: Minuscola, Piccola, Media, Grande, Enorme o Mastodontica. La taglia di una creatura determina quanto spazio essa occupa in combattimento. La dimensione di un oggetto influisce sui suoi punti ferita. Vedi anche \"Rompere gli oggetti\" e capitolo 1 (\"Combattimento\").\n\nOgni creatura appartiene a una categoria di taglia, che determina la larghezza dello spazio quadrato che la creatura occupa su una mappa, come mostrato nella tabella Taglie e spazio delle creature, che elenca le dimensioni dalla più piccola (Minuscola) alla più grande (Mastodontica). Lo spazio di una creatura è l'area che essa controlla a tutti gli effetti in combattimento, nonché l'area di cui ha bisogno per combattere con efficacia.\n\nLa taglia di un personaggio è determinata dalla sua specie, mentre la taglia di un mostro è specificata nella sua scheda delle statistiche."
+  }
 }

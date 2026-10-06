@@ -20,7 +20,7 @@ export type ContestoPrivilegio = { classe?: string; sottoclasse?: string; specie
 
 // Confronto di nomi: maiuscole, accenti, apostrofi tipografici e spazi non contano.
 export function chiaveRicerca(testo: string): string {
-  return testo.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[’`´]/g, "'")
+  return testo.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[’`´]/g, "'")
     .toLocaleLowerCase("it").replace(/\s+/g, " ").trim();
 }
 
