@@ -31,8 +31,9 @@ condiviso va toccato per aggiungere voci.
 | I<livello>-<nn> | `incantesimi/<blocco>.json` (blocchi congelati in `incantesimi/blocchi.json`) |
 | I10 | `regole/incantesimi.json` |
 
-`I00` crea i file dei blocchi, li aggiunge a `registro.ts` e crea il file di
-stato di ogni blocco. `R01` integra adapter e popup; `R02` gestisce dati salvati
+`I00` crea i file dei blocchi e il file di stato di ogni blocco, poi rigenera
+il registro con `node --import tsx scripts/adeguamento-2024/genera-registro.mjs`
+(`registro.ts` è generato: non va modificato a mano). `R01` integra adapter e popup; `R02` gestisce dati salvati
 ed esportazioni. Se un modulo ha bisogno di cambiare logica condivisa (per
 esempio `lib/classSkillChoices.ts` o `lib/spellcasting.ts`), registra nel proprio
 file i dati corretti e annota nell'evidenza la modifica richiesta a `R01`.
@@ -64,7 +65,8 @@ Campi comuni (tipi completi in [`schema.ts`](../../lib/manuale-2024/schema.ts)):
 | `id` | Stabile, minuscolo, con almeno un prefisso: `talento:allerta`, `classe:barbaro:privilegio:ira`. Unico in tutto il manuale; non cambia se si corregge il nome. |
 | `tipo` | Uno dei tipi di `schema.ts`; determina i campi obbligatori. |
 | `nome` | Nome come stampato nel PDF. |
-| `descrizione` | Testo della voce nel PDF. Si correggono solo a capo e artefatti di estrazione dopo il confronto con la pagina. Paragrafi separati da una riga vuota, elenchi con `- `. |
+| `testo` | Ancore della descrizione nel PDF: `[{ "pagina": 39, "da": "Caotico neutrale (CN)", "a": "Legale malvagio (LM)" }]`. Il segmento parte dopo `da` (o dalla riga successiva se `da` è un titolo; `includiDa: true` lo comprende) e termina prima di `a` o, senza `a`, al titolo successivo; può proseguire sulle quattro pagine seguenti. Più ancore si uniscono in paragrafi. |
+| `correzioni` | Coppie `[testo estratto, testo corretto]` per artefatti OCR verificati sulla pagina (parole unite o spezzate, cifre confuse, celle spurie). Una correzione che non trova più il testo è un errore. |
 | `pagina` | Pagina **stampata** in cui inizia la voce, dentro gli intervalli del dominio. |
 | `pagine` | Altre pagine stampate pertinenti (tabella, seguito della voce). |
 | `alias` | Solo nomi storici necessari a leggere vecchie schede o valori dell'app (es. «Leggere» per le armature leggere). |
@@ -80,12 +82,30 @@ specie (`tipoCreatura`, `taglia`, `velocita`, `tratti`), background
 `competenzaStrumenti`, `equipaggiamento`), armi, armature, strumenti e oggetti
 (`peso` e `costo` come stampati più `pesoKg` e `costoMo` numerici o `null`),
 incantesimi (`livello`, `scuola`, `classi`, `tempoLancio`, `rituale`,
-`gittata`, `componenti`, `durata`, `concentrazione`, `potenziamento`), regole
+`gittata`, `componenti`, `durata`, `concentrazione`), regole
 (`formula` del manuale e `calcolo`, cioè la funzione dell'app che la applica).
 I privilegi annidati usano gli stessi campi comuni più `livello` e `risorse`
 (`nome`, `usi`, `recupero`).
 
 Le note e le scelte del giocatore non entrano mai in questi file.
+
+## Testi estratti dal PDF
+
+La descrizione non si scrive a mano: per decisione dell'utente è estratta dal
+PDF locale, attraverso la copia automatica `docs/manuale-copia/auto/`
+(rigenerabile con `python scripts/manuale/estrai.py`), seguendo le ancore.
+
+```bash
+node --import tsx scripts/adeguamento-2024/estrai.mjs talenti/origini            # scrive testi/talenti/origini.json
+node --import tsx scripts/adeguamento-2024/estrai.mjs --sospetti talenti/origini  # parole anomale da controllare
+node --import tsx scripts/adeguamento-2024/estrai.mjs --controlla                 # tutti i file aggiornati?
+```
+
+I file `lib/manuale-2024/testi/<dominio>.json` sono generati e versionati
+(l'app non esegue l'estrazione). Il modulo confronta ogni testo con la pagina
+renderizzata del PDF, registra in `correzioni` gli artefatti da sistemare e
+rigenera il file. Le ancore ignorano maiuscole, accenti, spazi, punteggiatura e
+le confusioni OCR l/i/1, o/0, s/5, rn/m.
 
 ## Adapter e pagine
 
@@ -96,7 +116,8 @@ Le note e le scelte del giocatore non entrano mai in questi file.
   `bloccoEquipaggiamentoAvventura(voceMadre)`. Il confronto dei nomi ignora
   maiuscole, accenti e apostrofi tipografici. Se la voce non c'è, il risultato
   è `null`: l'interfaccia non deve inventare un testo sostitutivo. Ogni
-  risultato indica `verificata` e il riferimento «Manuale del Giocatore 2024, p. N».
+  risultato indica `verificata`, la `descrizione` estratta e il riferimento
+  «Manuale del Giocatore 2024, p. N».
 - [`lib/manuale-2024/pagine.ts`](../../lib/manuale-2024/pagine.ts): pagina
   stampata = pagina PDF − 3, intervalli dei capitoli, `riferimentoManuale`.
 
@@ -145,6 +166,7 @@ test("<ID> covers every assigned value with verified manual entries", () => {
 
 e aggiunge le verifiche proprie del dominio (conteggi del PDF, campi, effetti e
 calcoli realmente applicati). `scripts/test-manuale-2024-F00.mjs` valida già
-schema, ID unici, pagine nel dominio e coerenza della matrice per tutti i file.
+schema, ID unici, pagine nel dominio, testi estratti aggiornati e privi di
+artefatti e coerenza della matrice per tutti i file.
 
 Tutti i test: `node --import tsx --test scripts/test-*.mjs`.

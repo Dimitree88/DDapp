@@ -1,22 +1,25 @@
 import assert from "node:assert/strict";
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { test } from "node:test";
 import { CAPITOLI, capitoloDiPagina, paginaPdf, paginaStampata, riferimentoManuale } from "../lib/manuale-2024/pagine.ts";
-import { validaFileDominio, validaVoce } from "../lib/manuale-2024/schema.ts";
-import { BLOCCHI_E04, CLASSI_MODULI, DOMINI } from "../lib/manuale-2024/domini.ts";
-import { FILE_MANUALE } from "../lib/manuale-2024/registro.ts";
+import { controllaTestoEstratto, validaFileDominio, validaVoce } from "../lib/manuale-2024/schema.ts";
+import { BLOCCHI_E04, CLASSI_MODULI, DOMINI, dominioBloccoIncantesimi } from "../lib/manuale-2024/domini.ts";
+import { FILE_MANUALE, TESTI_MANUALE } from "../lib/manuale-2024/registro.ts";
 import { bloccoEquipaggiamentoAvventura, bloccoIncantesimo, chiaveOrdinamento, creaIndiceManuale, regolaDominio } from "../lib/manuale-2024/index.ts";
 import { coperturaModulo, esitoRiga, espandiValori, INIZIO_T02B, moduliBlocchiIncantesimi, righe, SORGENTI, voceMadreOggetto } from "./adeguamento-2024/copertura.ts";
+import { chiaveAncora, estraiDominio, estraiSegmento, testoVoce, tutteLeVoci } from "./adeguamento-2024/estrai-testi.ts";
 import blocchi from "../lib/manuale-2024/incantesimi/blocchi.json" with { type: "json" };
 import matrice from "../docs/adeguamento-2024/matrice.json" with { type: "json" };
 import regole from "../lib/manuale-2024-domains.json" with { type: "json" };
 
 const moduliConStato = new Set(readdirSync("docs/adeguamento-2024/stato").map((name) => name.replace(/\.json$/, "")));
 const moduliEsistenti = new Set([...moduliConStato, ...moduliBlocchiIncantesimi]);
+const dominiAttesi = [...Object.keys(DOMINI), ...blocchi.blocchi.map((blocco) => dominioBloccoIncantesimi(blocco.id)).filter((chiave) => existsSync(`lib/manuale-2024/${chiave}.json`))];
 
 // Voci sintetiche: verificano solo lo schema, non contengono testo del manuale.
+const ancoraProva = [{ pagina: 39, da: "Titolo di prova" }];
 const voceProva = (extra = {}) => ({
-  id: "prova:voce", tipo: "allineamento", nome: "Voce di prova", descrizione: "Testo di prova.",
+  id: "prova:voce", tipo: "allineamento", nome: "Voce di prova", testo: ancoraProva,
   pagina: 39, verifica: { stato: "verificata" }, ...extra,
 });
 const fileProva = (voci, etichette = []) => ({
@@ -39,9 +42,11 @@ test("F00 page references use printed pages and verified chapter ranges", () => 
 });
 
 test("F00 domain files exist, declare their owner and validate", () => {
-  assert.deepEqual(Object.keys(FILE_MANUALE).sort(), Object.keys(DOMINI).sort());
-  for (const [chiave, regola] of Object.entries(DOMINI)) {
-    assert.ok(moduliConStato.has(regola.modulo), `${chiave}: modulo ${regola.modulo} senza file di stato`);
+  assert.deepEqual(Object.keys(FILE_MANUALE).sort(), [...dominiAttesi].sort(), "rigenera il registro con genera-registro.mjs");
+  assert.deepEqual(Object.keys(TESTI_MANUALE).sort(), [...dominiAttesi].sort());
+  for (const chiave of dominiAttesi) {
+    const regola = regolaDominio(chiave);
+    assert.ok(moduliEsistenti.has(regola.modulo), `${chiave}: modulo ${regola.modulo} senza file di stato`);
     assert.deepEqual(validaFileDominio(chiave, FILE_MANUALE[chiave], regola), [], chiave);
   }
   for (const [classe, modulo] of Object.entries(CLASSI_MODULI)) {
@@ -53,24 +58,48 @@ test("F00 domain files exist, declare their owner and validate", () => {
 test("F00 ids are unique across every domain file", () => {
   const visti = new Map();
   for (const [chiave, file] of Object.entries(FILE_MANUALE)) {
-    const annidati = file.voci.flatMap((voce) => [...(voce.privilegi ?? []), ...(voce.tratti ?? [])]);
-    for (const voce of [...file.etichette, ...file.voci, ...annidati]) {
+    for (const voce of tutteLeVoci(file)) {
       assert.ok(!visti.has(voce.id), `${voce.id} in ${chiave} e ${visti.get(voce.id)}`);
       visti.set(voce.id, chiave);
     }
   }
 });
 
+test("F00 extracted texts are up to date, complete and free of extraction artifacts", () => {
+  for (const [chiave, file] of Object.entries(FILE_MANUALE)) {
+    const { testi, errori } = estraiDominio(file);
+    assert.deepEqual(errori, [], chiave);
+    assert.deepEqual(TESTI_MANUALE[chiave].testi, testi, `${chiave}: esegui scripts/adeguamento-2024/estrai.mjs`);
+    for (const [id, testo] of Object.entries(testi)) assert.deepEqual(controllaTestoEstratto(`${chiave} ${id}`, testo), []);
+  }
+});
+
+test("F00 text anchors tolerate OCR noise and cut segments at the next heading or anchor", () => {
+  assert.equal(chiaveAncora("LIVELLO l:IRA"), chiaveAncora("Livello 1: Ira"));
+  assert.equal(chiaveAncora("Muro di Fuoco"), chiaveAncora("MuRo DI Fuoco"));
+  const allineamento = estraiSegmento({ pagina: 39, da: "Caotico neutrale (CN)", a: "Legale malvagio (LM)" });
+  assert.equal(allineamento.errore, undefined);
+  assert.ok(allineamento.testo.length > 50 && !/legale malvagio/i.test(allineamento.testo) && !/^caotico neutrale/i.test(allineamento.testo));
+  const talento = estraiSegmento({ pagina: 200, da: "Abile" });
+  assert.equal(talento.errore, undefined);
+  assert.ok(talento.testo.includes("\n\n") && !/aggressore selvaggio/i.test(talento.testo));
+  assert.match(estraiSegmento({ pagina: 39, da: "Ancora inesistente nel libro" }).errore, /non trovato a p\. 39/);
+  assert.match(testoVoce({ testo: [{ pagina: 200, da: "Abile" }], correzioni: [["Parola assente dal testo", "x"]] }).errori.join(), /correzione non applicabile/);
+});
+
 test("F00 schema rejects incomplete entries and extraction artifacts", () => {
   const regola = DOMINI.allineamenti;
   assert.deepEqual(validaFileDominio("allineamenti", fileProva([voceProva()]), regola), []);
   const errori = (extra) => validaVoce("prova", voceProva(extra), regola).join("\n");
-  assert.match(errori({ descrizione: "" }), /descrizione: testo mancante/);
+  assert.match(errori({ testo: [] }), /ancore del testo mancanti/);
+  assert.match(errori({ testo: [{ pagina: 39, da: "" }] }), /«da» mancante/);
+  assert.match(errori({ correzioni: [["", "x"]] }), /correzioni non valide/);
   assert.match(errori({ pagina: 199 }), /fuori dal dominio/);
   assert.match(errori({ pagina: 400 }), /pagina stampata non valida/);
-  assert.match(errori({ descrizione: "Back­ground" }), /trattino morbido/);
-  assert.match(errori({ descrizione: "Testo  doppio" }), /spazi doppi/);
-  assert.match(errori({ descrizione: "Testo dall'SRD" }), /SRD/);
+  assert.match(controllaTestoEstratto("prova", "Back­ground").join(), /trattino morbido/);
+  assert.match(controllaTestoEstratto("prova", "Testo  doppio").join(), /spazi doppi/);
+  assert.match(controllaTestoEstratto("prova", "Testo dall'SRD").join(), /SRD/);
+  assert.match(controllaTestoEstratto("prova", "").join(), /testo mancante/);
   assert.match(errori({ id: "Senza Prefisso" }), /id non valido/);
   assert.match(errori({ verifica: { stato: "aperta" } }), /aperta senza domanda/);
   assert.match(errori({ tipo: "talento" }), /tipo talento non ammesso[\s\S]*campo categoria mancante/);
@@ -82,28 +111,32 @@ test("F00 schema rejects incomplete entries and extraction artifacts", () => {
 
 test("F00 adapter finds entries by id, name or alias and never invents text", () => {
   const classe = {
-    id: "classe:prova", tipo: "classe", nome: "Classe di prova", descrizione: "Testo di prova.", pagina: 50,
+    id: "classe:prova", tipo: "classe", nome: "Classe di prova", testo: ancoraProva, pagina: 50,
     dadoVita: "D12", caratteristicaPrimaria: "Forza", tiriSalvezza: ["FOR", "COS"], verifica: { stato: "da_verificare" },
-    privilegi: [{ id: "classe:prova:dote", nome: "Dote", livello: 1, descrizione: "Dote della classe.", pagina: 51, verifica: { stato: "verificata" } }],
+    privilegi: [{ id: "classe:prova:dote", nome: "Dote", livello: 1, testo: ancoraProva, pagina: 51, verifica: { stato: "verificata" } }],
   };
   const sottoclasse = {
-    id: "classe:prova:sottoclasse", tipo: "sottoclasse", classe: "Classe di prova", nome: "Via di prova", descrizione: "Testo di prova.",
+    id: "classe:prova:sottoclasse", tipo: "sottoclasse", classe: "Classe di prova", nome: "Via di prova", testo: ancoraProva,
     pagina: 54, verifica: { stato: "verificata" },
-    privilegi: [{ id: "classe:prova:sottoclasse:dote", nome: "Dote", livello: 3, descrizione: "Dote della sottoclasse.", pagina: 54, verifica: { stato: "verificata" } }],
+    privilegi: [{ id: "classe:prova:sottoclasse:dote", nome: "Dote", livello: 3, testo: ancoraProva, pagina: 54, verifica: { stato: "verificata" } }],
   };
   const indice = creaIndiceManuale({
     allineamenti: fileProva([voceProva({ alias: ["Vecchio nome"] })], [voceProva({ id: "prova:etichetta", tipo: "etichetta", nome: "Etichetta di prova" })]),
     "classi/classe di prova": { ...fileProva([classe, sottoclasse]), dominio: "classi/classe di prova", modulo: "C01" },
+  }, {
+    allineamenti: { dominio: "allineamenti", testi: { "prova:voce": "Testo di prova." } },
+    "classi/classe di prova": { dominio: "classi/classe di prova", testi: { "classe:prova:dote": "Dote della classe.", "classe:prova:sottoclasse:dote": "Dote della sottoclasse." } },
   });
   assert.equal(indice.voce("allineamenti", "VOCE DI PROVA")?.voce.id, "prova:voce");
   assert.equal(indice.voce("allineamenti", "vecchio nome")?.riferimento, "Manuale del Giocatore 2024, p. 39");
+  assert.equal(indice.voce("allineamenti", "prova:voce")?.descrizione, "Testo di prova.");
   assert.equal(indice.voce("allineamenti", "prova:voce")?.verificata, true);
   assert.equal(indice.voce("allineamenti", "Assente"), null);
-  assert.equal(indice.etichetta("Etichetta di prova")?.dominio, "allineamenti");
-  assert.equal(indice.privilegio("Dote", { classe: "Classe di prova", sottoclasse: "Via di prova" })?.voce.descrizione, "Dote della sottoclasse.");
-  assert.equal(indice.privilegio("Dote", { classe: "Classe di prova" })?.voce.descrizione, "Dote della classe.");
+  assert.equal(indice.etichetta("Etichetta di prova")?.descrizione, null);
+  assert.equal(indice.privilegio("Dote", { classe: "Classe di prova", sottoclasse: "Via di prova" })?.descrizione, "Dote della sottoclasse.");
+  assert.equal(indice.privilegio("Dote", { classe: "Classe di prova" })?.descrizione, "Dote della classe.");
   assert.equal(indice.perId("classe:prova:dote")?.dominio, "classi/classe di prova");
-  assert.equal(creaIndiceManuale(FILE_MANUALE).voce("allineamenti", "Caotico neutrale"), null);
+  assert.equal(creaIndiceManuale({}).voce("allineamenti", "Caotico neutrale"), null);
 });
 
 test("F00 freezes T02A/T02B, E04 and spell blocks", () => {
