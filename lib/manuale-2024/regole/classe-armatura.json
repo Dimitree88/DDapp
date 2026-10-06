@@ -4,5 +4,34 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "regola:classe-armatura",
+      "tipo": "regola",
+      "nome": "Classe Armatura",
+      "alias": ["CA"],
+      "testo": [
+        { "pagina": 12, "da": "Classe Armatura", "n": 2, "a": "Ottenere un 20 o un 1" },
+        {
+          "pagina": 41,
+          "da": "Classe Armatura. Senza armatura",
+          "includiDa": true,
+          "a": "Attacchi. Nella sezione"
+        },
+        { "pagina": 363, "da": "Classe Armatura", "a": "Classe Difficoltà" }
+      ],
+      "pagina": 12,
+      "pagine": [41, 219, 363],
+      "formula": "Senza armatura: 10 + modificatore di Destrezza; con armatura: valore della tabella Armature (Destrezza intera per le leggere, massimo +2 per le medie, nessuna per le pesanti); +2 con uno scudo in cui si ha competenza",
+      "calcolo": "lib/armorClass.ts#calculatedArmorClass",
+      "righeMatrice": ["stato.classe-armatura"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["della creatura La CA di una creatura", "della creatura\n\nLa CA di una creatura"],
+        ["La CAbase è solouna.", "La CA base è solo una."],
+        ["regolaprevede", "regola prevede"],
+        ["in combattimento.\n\nLa CA di un personaggio", "in combattimento. La CA di un personaggio"]
+      ]
+    }
+  ]
 }
