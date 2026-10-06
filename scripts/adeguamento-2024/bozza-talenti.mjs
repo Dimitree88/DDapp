@@ -15,7 +15,8 @@ const SOTTOTITOLO = /^Talento (Origini|Generale|Stile di combattimento|Dono epic
 // Spazi persi dall'OCR nei prerequisiti («osuperiore», «delpatto»…).
 const pulisciPrerequisito = (testo) => testo?.trim()
   .replace(/(\d°)(?=\S)/g, "$1 ").replace(/\bosuperiore\b/g, "o superiore").replace(/delpatto\b/g, "del patto")
-  .replace(/\bIncantesimio\b/g, "Incantesimi o").replace(/\bo(?=[A-Z])/g, "o ");
+  .replace(/\bIncantesimio\b/g, "Incantesimi o").replace(/\bo(?=[A-Z])/g, "o ")
+  .replace(/negliscudi/g, "negli scudi").replace(/armaturepesanti/g, "armature pesanti").replace(/([a-zà-ù])(\d)/g, "$1 $2");
 
 // Titoli dei talenti: righe di titolo seguite dal sottotitolo «Talento …».
 const titoli = [];
