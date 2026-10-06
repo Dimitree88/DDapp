@@ -3,7 +3,7 @@ import { backgroundToolProficiency } from "./backgroundToolProficiencies";
 import { featToolProficiencies } from "./featToolProficiencies";
 import { hasGrantedCompetency } from "./competencySources";
 import { equipmentDetails } from "./equipmentDetails";
-import { gearByName } from "./gearCatalog";
+import { gearByName, gearCatalog } from "./gearCatalog";
 import backgrounds from "./manuale-2024-backgrounds.json";
 import type { Sheet } from "./sheet";
 
@@ -37,6 +37,12 @@ function toolChoiceSource(sheet: Sheet, name: string): string | null {
   return null;
 }
 
+export function availableToolCompetencyChoices(sheet: Sheet): string[] {
+  return gearCatalog
+    .filter((item) => item.tool && !(sheet.competenzeStrumenti ?? []).includes(item.name) && toolChoiceSource(sheet, item.name))
+    .map((item) => item.name);
+}
+
 export function toolCompetencyDetails(sheet: Sheet, name: string): string {
   const origins = [
     ...(classToolProficiencies(sheet.classe).includes(name) ? [`Classe: ${sheet.classe}`] : []),
@@ -52,7 +58,8 @@ export function toolCompetencyDetails(sheet: Sheet, name: string): string {
 
 export function addToolCompetency(sheet: Sheet, name: string): Partial<Sheet> {
   if ((sheet.competenzeStrumenti ?? []).includes(name)) return {};
-  const source = toolChoiceSource(sheet, name) ?? "Aggiunta manuale";
+  const source = toolChoiceSource(sheet, name);
+  if (!source) return {};
   return {
     competenzeStrumenti: [...(sheet.competenzeStrumenti ?? []), name],
     fontiCompetenze: [...(sheet.fontiCompetenze ?? []), { tipo: "strumento", valore: name, fonte: source }],

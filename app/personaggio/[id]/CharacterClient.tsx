@@ -46,12 +46,11 @@ import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotalGold } from "@/lib/coins";
 import { hasGrantedCompetency, setCheckboxCompetency } from "@/lib/competencySources";
 import { classToolProficiencies, classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
-import { addWeaponCompetency, removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
-import { addToolCompetency, pendingToolChoiceSources, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
+import { removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
+import { addToolCompetency, availableToolCompetencyChoices, pendingToolChoiceSources, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
 import { addClassSkillChoice, availableClassSkillChoices, classSkillChoices, remainingClassSkillChoices } from "@/lib/classSkillChoices";
 import { backgroundToolProficiency } from "@/lib/backgroundToolProficiencies";
 import { featToolProficiencies } from "@/lib/featToolProficiencies";
-import { WEAPON_PROFICIENCIES } from "@/lib/weaponProficiencyRules";
 import { subclassLevel } from "@/lib/classProgression";
 import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
@@ -193,7 +192,6 @@ function WeaponCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (
   const { unlocked } = useContext(EditContext);
   const items = toList(sheet.competenzeArmi);
   const classGranted = classWeaponProficiencies(sheet.classe);
-  const choices = WEAPON_PROFICIENCIES.filter((name) => !items.includes(name));
   return <ul className="flex flex-col gap-1.5">
     {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
     {items.map((name) => <li key={name} className="flex items-center gap-2">
@@ -201,20 +199,13 @@ function WeaponCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (
       <InfoLabel id={`competenzaArma:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
       {unlocked && !hasGrantedCompetency(sheet, "arma", name, classGranted.includes(name)) && <button type="button" onClick={() => onChange(removeWeaponCompetency(sheet, name))} aria-label={`Rimuovi ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
     </li>)}
-    {unlocked && choices.length > 0 && <li>
-      <select aria-label="Aggiungi competenza armi" value="" onChange={(event) => onChange(addWeaponCompetency(sheet, event.target.value))}
-        className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
-        <option value="" disabled>+ Aggiungi competenza</option>
-        {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
-      </select>
-    </li>}
   </ul>;
 }
 
 function ToolCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (update: Partial<Sheet>) => void }) {
   const { unlocked } = useContext(EditContext);
   const items = sheet.competenzeStrumenti ?? [];
-  const choices = gearCatalog.filter((item) => item.tool && !items.includes(item.name)).map((item) => item.name);
+  const choices = availableToolCompetencyChoices(sheet);
   const pending = pendingToolChoiceSources(sheet);
   return <ul className="flex flex-col gap-1.5">
     {pending.length > 0 && <li className="text-xs text-ink-soft">Scelte strumenti da completare: {pending.map((item) => `${item.source} (${item.remaining})`).join("; ")}.</li>}
@@ -225,9 +216,9 @@ function ToolCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (up
       {unlocked && !hasGrantedCompetency(sheet, "strumento", name, classToolProficiencies(sheet.classe).includes(name) || backgroundToolProficiency(sheet.background) === name || featToolProficiencies(sheet).includes(name)) && <button type="button" onClick={() => onChange(removeToolCompetency(sheet, name))} aria-label={`Rimuovi ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
     </li>)}
     {unlocked && choices.length > 0 && <li>
-      <select aria-label="Aggiungi competenza strumenti" value="" onChange={(event) => onChange(addToolCompetency(sheet, event.target.value))}
+      <select aria-label="Scegli strumento per una competenza prevista" value="" onChange={(event) => onChange(addToolCompetency(sheet, event.target.value))}
         className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
-        <option value="" disabled>+ Aggiungi competenza</option>
+        <option value="" disabled>+ Scegli strumento</option>
         {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
       </select>
     </li>}
