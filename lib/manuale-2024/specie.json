@@ -3,6 +3,516 @@
   "modulo": "V04",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:specie",
+      "tipo": "etichetta",
+      "nome": "Specie",
+      "testo": [{ "pagina": 177, "da": "Specie dei personaggi", "a": "Descrizioni dei background" }],
+      "pagina": 177,
+      "righeMatrice": ["stato.specie.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["creaturevive", "creature vive"],
+        ["caratterizza una specie: Tipo di creatura.", "caratterizza una specie:\n\nTipo di creatura."]
+      ]
+    }
+  ],
+  "voci": [
+    {
+      "id": "specie:aasimar",
+      "tipo": "specie",
+      "nome": "Aasimar",
+      "testo": [{ "pagina": 186, "da": "Aasimar", "n": 2 }],
+      "pagina": 186,
+      "tipoCreatura": "Umanoide",
+      "taglia": "Media (altezza di circa 120-210 centimetri) o Piccola (altezza di circa 60-120 centimetri), a tua scelta quando scegli la specie",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:aasimar:mani-curative",
+          "nome": "Mani curative",
+          "testo": [{ "pagina": 186, "da": "Mani curative.", "a": "Portatore di luce." }],
+          "pagina": 186,
+          "verifica": { "stato": "verificata" },
+          "correzioni": [["totale del tiro.\n\nDopo aver usato", "totale del tiro. Dopo aver usato"]]
+        },
+        {
+          "id": "specie:aasimar:portatore-di-luce",
+          "nome": "Portatore di luce",
+          "testo": [{ "pagina": 186, "da": "Portatore di luce.", "a": "Resistenza celestiale." }],
+          "pagina": 186,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:aasimar:resistenza-celestiale",
+          "nome": "Resistenza celestiale",
+          "testo": [{ "pagina": 186, "da": "Resistenza celestiale.", "a": "Scurovisione." }],
+          "pagina": 186,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:aasimar:scurovisione",
+          "nome": "Scurovisione",
+          "testo": [{ "pagina": 186, "da": "Scurovisione.", "a": "Rivelazione celestiale." }],
+          "pagina": 186,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:aasimar:rivelazione-celestiale",
+          "nome": "Rivelazione celestiale",
+          "testo": [{ "pagina": 186, "da": "Rivelazione celestiale." }],
+          "pagina": 186,
+          "livello": 3,
+          "verifica": { "stato": "verificata" },
+          "correzioni": [
+            ["trasformazione: Ali celesti.", "trasformazione:\n\nAli celesti."],
+            ["altri 3 metri.\n\nAlla fine di ogni tuo turno", "altri 3 metri. Alla fine di ogni tuo turno"]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "specie:dragonide",
+      "tipo": "specie",
+      "nome": "Dragonide",
+      "testo": [{ "pagina": 187, "da": "Dragonide" }],
+      "pagina": 187,
+      "tipoCreatura": "Umanoide",
+      "taglia": "Media (altezza di circa 150-210 centimetri)",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:dragonide:discendenza-draconica",
+          "nome": "Discendenza draconica",
+          "testo": [{ "pagina": 187, "da": "Discendenza draconica." }],
+          "pagina": 187,
+          "verifica": { "stato": "verificata" },
+          "tabelle": [
+            {
+              "titolo": "Antenati draconici",
+              "pagina": 187,
+              "colonne": ["Drago", "Tipo di danni"],
+              "righe": [
+                ["Blu", "Fulmine"],
+                ["Bronzo", "Fulmine"],
+                ["Nero", "Acido"],
+                ["Ottone", "Fuoco"],
+                ["Rame", "Acido"],
+                ["Verde", "Veleno"],
+                ["Argento", "Freddo"],
+                ["Oro", "Fuoco"],
+                ["Rosso", "Fuoco"],
+                ["Bianco", "Freddo"]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specie:dragonide:resistenza-ai-danni",
+          "nome": "Resistenza ai danni",
+          "testo": [{ "pagina": 187, "da": "Resistenza ai danni.", "n": 2, "a": "Scurovisione." }],
+          "pagina": 187,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:dragonide:scurovisione",
+          "nome": "Scurovisione",
+          "testo": [{ "pagina": 187, "da": "Scurovisione.", "a": "Soffio." }],
+          "pagina": 187,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:dragonide:soffio",
+          "nome": "Soffio",
+          "testo": [{ "pagina": 187, "da": "Soffio.", "n": 2, "a": "Volo draconico." }],
+          "pagina": 187,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:dragonide:volo-draconico",
+          "nome": "Volo draconico",
+          "testo": [{ "pagina": 187, "da": "Volo draconico." }],
+          "pagina": 187,
+          "livello": 5,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "specie:elfo",
+      "tipo": "specie",
+      "nome": "Elfo",
+      "testo": [{ "pagina": 188, "da": "Elfo" }],
+      "pagina": 188,
+      "pagine": [189],
+      "tipoCreatura": "Umanoide",
+      "taglia": "Media (altezza di circa 150-180 centimetri)",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:elfo:lignaggio-elfico",
+          "nome": "Lignaggio elfico",
+          "testo": [{ "pagina": 189, "da": "Lignaggio elfico.", "a": "Retaggio fatato." }],
+          "pagina": 189,
+          "verifica": { "stato": "verificata" },
+          "tabelle": [
+            {
+              "titolo": "Lignaggi elfici",
+              "pagina": 189,
+              "colonne": ["Lignaggio", "Livello 1", "Livello 3", "Livello 5"],
+              "righe": [
+                [
+                  "Drow",
+                  "La portata di scurovisione aumenta fino a 36 metri. Inoltre, il personaggio conosce il trucchetto luci danzanti.",
+                  "Luminescenza",
+                  "Oscurità"
+                ],
+                [
+                  "Elfo alto",
+                  "Il personaggio impara il trucchetto prestidigitazione. Ogni volta che completa un riposo lungo, può sostituirlo con un altro trucchetto dalla lista degli incantesimi del mago.",
+                  "Individuazione del magico",
+                  "Passo velato"
+                ],
+                [
+                  "Elfo dei boschi",
+                  "La velocità del personaggio aumenta a 10,5 metri. Inoltre, conosce il trucchetto artificio druidico.",
+                  "Passo veloce",
+                  "Passare senza tracce"
+                ]
+              ]
+            }
+          ],
+          "correzioni": [["lanciarlo\n\nLIGNAGGI ELFICI\n\nLignaggio · Livello l\n\nusando", "lanciarlo usando"]]
+        },
+        {
+          "id": "specie:elfo:retaggio-fatato",
+          "nome": "Retaggio fatato",
+          "testo": [{ "pagina": 189, "da": "Retaggio fatato.", "a": "Scurovisione." }],
+          "pagina": 189,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:elfo:scurovisione",
+          "nome": "Scurovisione",
+          "testo": [{ "pagina": 189, "da": "Scurovisione.", "a": "Sensi acuti." }],
+          "pagina": 189,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:elfo:sensi-acuti",
+          "nome": "Sensi acuti",
+          "testo": [{ "pagina": 189, "da": "Sensi acuti.", "a": "Trance." }],
+          "pagina": 189,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:elfo:trance",
+          "nome": "Trance",
+          "testo": [{ "pagina": 189, "da": "Trance.", "a": "Livello 3 Livello 5" }],
+          "pagina": 189,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Corellon.\n\nTuttavia, ciò che", "Corellon. Tuttavia, ciò che"]]
+    },
+    {
+      "id": "specie:gnomo",
+      "tipo": "specie",
+      "nome": "Gnomo",
+      "testo": [{ "pagina": 190, "da": "Gnomo" }],
+      "pagina": 190,
+      "tipoCreatura": "Umanoide",
+      "taglia": "Piccola (altezza di circa 90-120 centimetri)",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:gnomo:astuzia-gnomesca",
+          "nome": "Astuzia gnomesca",
+          "testo": [{ "pagina": 190, "da": "Astuzia gnomesca.", "a": "Scurovisione." }],
+          "pagina": 190,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:gnomo:scurovisione",
+          "nome": "Scurovisione",
+          "testo": [{ "pagina": 190, "da": "Scurovisione.", "a": "Lignaggio gnomesco." }],
+          "pagina": 190,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:gnomo:lignaggio-gnomesco",
+          "nome": "Lignaggio gnomesco",
+          "testo": [{ "pagina": 190, "da": "Lignaggio gnomesco.", "a": "Gnomo delle foreste." }],
+          "pagina": 190,
+          "verifica": { "stato": "verificata" },
+          "correzioni": [["selezionata,\n\nla caratteristica", "selezionata, la caratteristica"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "specie:goliath",
+      "tipo": "specie",
+      "nome": "Goliath",
+      "testo": [{ "pagina": 191, "da": "Goliath" }],
+      "pagina": 191,
+      "tipoCreatura": "Umanoide",
+      "taglia": "Media (altezza di circa 210-240 centimetri)",
+      "velocita": "10,5 metri",
+      "tratti": [
+        {
+          "id": "specie:goliath:costituzione-robusta",
+          "nome": "Costituzione robusta",
+          "testo": [{ "pagina": 191, "da": "Costituzione robusta.", "a": "Discendenza gigantica." }],
+          "pagina": 191,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:goliath:discendenza-gigantica",
+          "nome": "Discendenza gigantica",
+          "testo": [{ "pagina": 191, "da": "Discendenza gigantica.", "a": "Forma Grande." }],
+          "pagina": 191,
+          "verifica": { "stato": "verificata" },
+          "correzioni": [["valore del suo\n\nbonus di competenza", "valore del suo bonus di competenza"]]
+        },
+        {
+          "id": "specie:goliath:forma-grande",
+          "nome": "Forma Grande",
+          "testo": [{ "pagina": 191, "da": "Forma Grande." }],
+          "pagina": 191,
+          "livello": 5,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["giganti del fuoco.\n\nA prescindere", "giganti del fuoco. A prescindere"]]
+    },
+    {
+      "id": "specie:halfling",
+      "tipo": "specie",
+      "nome": "Halfling",
+      "testo": [{ "pagina": 192, "da": "Halfling" }],
+      "pagina": 192,
+      "tipoCreatura": "Umanoide",
+      "taglia": "Piccola (altezza di circa 60-90 centimetri)",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:halfling:agilita-halfling",
+          "nome": "Agilità halfling",
+          "testo": [{ "pagina": 192, "da": "Agilità halfling.", "a": "Coraggioso." }],
+          "pagina": 192,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:halfling:coraggioso",
+          "nome": "Coraggioso",
+          "testo": [{ "pagina": 192, "da": "Coraggioso.", "a": "Fortuna." }],
+          "pagina": 192,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:halfling:fortuna",
+          "nome": "Fortuna",
+          "testo": [{ "pagina": 192, "da": "Fortuna.", "n": 3, "a": "Furtività innata." }],
+          "pagina": 192,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:halfling:furtivita-innata",
+          "nome": "Furtività innata",
+          "testo": [{ "pagina": 192, "da": "Furtività innata." }],
+          "pagina": 192,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "specie:nano",
+      "tipo": "specie",
+      "nome": "Nano",
+      "testo": [{ "pagina": 193, "da": "Nano" }],
+      "pagina": 193,
+      "tipoCreatura": "Umanoide",
+      "taglia": "Media (altezza di circa 120-150centimetri)",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:nano:esperto-minatore",
+          "nome": "Esperto minatore",
+          "testo": [{ "pagina": 193, "da": "Esperto minatore.", "a": "Resilienza nanica." }],
+          "pagina": 193,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:nano:resilienza-nanica",
+          "nome": "Resilienza nanica",
+          "testo": [{ "pagina": 193, "da": "Resilienza nanica.", "a": "Robustezza nanica." }],
+          "pagina": 193,
+          "verifica": { "stato": "verificata" },
+          "correzioni": [["da veleno.\n\nDispone di vantaggio", "da veleno. Dispone di vantaggio"]]
+        },
+        {
+          "id": "specie:nano:robustezza-nanica",
+          "nome": "Robustezza nanica",
+          "testo": [{ "pagina": 193, "da": "Robustezza nanica.", "a": "Scurovisione." }],
+          "pagina": 193,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:nano:scurovisione",
+          "nome": "Scurovisione",
+          "testo": [{ "pagina": 193, "da": "Scurovisione." }],
+          "pagina": 193,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["nani delle montagne''", "nani delle montagne\""]]
+    },
+    {
+      "id": "specie:orco",
+      "tipo": "specie",
+      "nome": "Orco",
+      "testo": [{ "pagina": 194, "da": "Orco" }],
+      "pagina": 194,
+      "tipoCreatura": "Umanoide",
+      "taglia": "Media (altezza di circa 180-210 centimetri)",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:orco:scarica-di-adrenalina",
+          "nome": "Scarica di adrenalina",
+          "testo": [{ "pagina": 194, "da": "Scarica di adrenalina.", "a": "Scurovisione." }],
+          "pagina": 194,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:orco:scurovisione",
+          "nome": "Scurovisione",
+          "testo": [{ "pagina": 194, "da": "Scurovisione.", "a": "Resistenza implacabile." }],
+          "pagina": 194,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:orco:resistenza-implacabile",
+          "nome": "Resistenza implacabile",
+          "testo": [{ "pagina": 194, "da": "Resistenza implacabile.", "finePagina": true }],
+          "pagina": 194,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "specie:tiefling",
+      "tipo": "specie",
+      "nome": "Tiefling",
+      "testo": [{ "pagina": 195, "da": "Tiefling" }],
+      "pagina": 195,
+      "pagine": [196],
+      "tipoCreatura": "Umanoide",
+      "taglia": "Media (altezza di circa 120-210 centimetri) o Piccola (altezza di circa 90-120 centimetri), a tua scelta quando scegli la specie",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:tiefling:presenza-ultraterrena",
+          "nome": "Presenza ultraterrena",
+          "testo": [{ "pagina": 196, "da": "Presenza ultraterrena.", "a": "Retaggio immondo.", "na": 2 }],
+          "pagina": 196,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:tiefling:retaggio-immondo",
+          "nome": "Retaggio immondo",
+          "testo": [{ "pagina": 196, "da": "Retaggio immondo.", "n": 2, "a": "Scurovisione." }],
+          "pagina": 196,
+          "verifica": { "stato": "verificata" },
+          "tabelle": [
+            {
+              "titolo": "Retaggi immondi",
+              "pagina": 196,
+              "colonne": ["Retaggio", "Livello 1", "Livello 3", "Livello 5"],
+              "righe": [
+                [
+                  "Abissale",
+                  "Ha resistenza ai danni da veleno. Inoltre, conosce il trucchetto spruzzo velenoso.",
+                  "Raggio di infermità",
+                  "Blocca persone"
+                ],
+                [
+                  "Ctonio",
+                  "Possiede resistenza ai danni necrotici. Inoltre, conosce il trucchetto tocco gelido.",
+                  "Vita falsata",
+                  "Raggio di affaticamento"
+                ],
+                [
+                  "Infernale",
+                  "Possiede resistenza ai danni da fuoco. Inoltre, conosce il trucchetto dardo di fuoco.",
+                  "Intimorire infernale",
+                  "Oscurità"
+                ]
+              ]
+            }
+          ],
+          "correzioni": [
+            [
+              "dalla tabella\n\nRETAGGI IMMONDI\n\nRetaggio · Livello 1\nAbissale · Ha resistenza ai danni da veleno.\n\nInoltre, conosce il trucchetto spruzzo velenoso.\n\nCtonio · Possiede resistenza ai danni necrotici.\n\nInoltre, conosce il trucchetto tocco gelido.\n\nInfernale · Possiede resistenza ai danni da fuoco.\n\nInoltre, conosce il trucchetto dardo difuoco.\n\nRetaggi immondi. Dopodiché",
+              "dalla tabella Retaggi immondi. Dopodiché"
+            ]
+          ]
+        },
+        {
+          "id": "specie:tiefling:scurovisione",
+          "nome": "Scurovisione",
+          "testo": [{ "pagina": 196, "da": "Scurovisione.", "a": "Livello 3 Livello 5" }],
+          "pagina": 196,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "specie:umano",
+      "tipo": "specie",
+      "nome": "Umano",
+      "testo": [{ "pagina": 197, "da": "Umano" }],
+      "pagina": 197,
+      "tipoCreatura": "Umanoide",
+      "taglia": "Media (altezza di circa 120-210 centimetri) o Piccola (altezza di circa 60-120 centimetri), a tua scelta quando scegli la specie",
+      "velocita": "9 metri",
+      "tratti": [
+        {
+          "id": "specie:umano:intraprendente",
+          "nome": "Intraprendente",
+          "testo": [{ "pagina": 197, "da": "Intraprendente.", "n": 2, "a": "Pluriabilità." }],
+          "pagina": 197,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "specie:umano:pluriabilita",
+          "nome": "Pluriabilità",
+          "testo": [{ "pagina": 197, "da": "Pluriabilità.", "a": "Versatile." }],
+          "pagina": 197,
+          "verifica": { "stato": "verificata" },
+          "correzioni": [["\n\n(vedi capitolo 5). È consigliato il talento Abile.", ""]]
+        },
+        {
+          "id": "specie:umano:versatile",
+          "nome": "Versatile",
+          "testo": [{ "pagina": 197, "da": "Versatile.", "finePagina": true }],
+          "pagina": 197,
+          "verifica": { "stato": "verificata" },
+          "correzioni": [["a tua scelta\n\n-\n\n-", "a tua scelta (vedi capitolo 5). È consigliato il talento Abile."]]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["avutoluogo", "avuto luogo"]]
+    }
+  ]
 }
