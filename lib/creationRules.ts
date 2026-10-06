@@ -28,16 +28,15 @@ const missing = (before: string[], after: string[]) => {
   });
 };
 
-// Le scelte di identita e i talenti restano protetti; le competenze a spunta
-// possono essere corrette anche dopo la creazione.
+// La scheda ordinaria non completa né cambia le scelte di identità.
 export function creationErrors(before: Sheet, after: Sheet): string[] {
   if (!after.creazioneCompletata) return ["La creazione completata non può essere annullata."];
   const errors: string[] = [];
   for (const field of fixedFields) {
-    if (!before[field] || before[field] === after[field]) continue;
+    if (before[field] === after[field]) continue;
     errors.push(field);
   }
-  if (before.sottoclasse && before.sottoclasse !== after.sottoclasse) errors.push("sottoclasse");
+  if (before.sottoclasse !== after.sottoclasse) errors.push("sottoclasse");
   for (const language of missing(before.lingue, after.lingue)) errors.push(`lingua ${language}`);
   for (const proficiency of missing(before.competenzeArmi, after.competenzeArmi)) {
     if (hasGrantedCompetency(before, "arma", proficiency, classWeaponProficiencies(before.classe).includes(proficiency))) {

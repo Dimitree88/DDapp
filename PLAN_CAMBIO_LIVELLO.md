@@ -37,10 +37,9 @@ Decisioni dell'utente del 6 ottobre 2026:
   eccezionali durante il gioco (per esempio *Desiderio*, p. 265) sono gestiti
   manualmente dalle persone al tavolo e non richiedono un automatismo nell'app.
 - Le spunte di competenza e Maestria nella pagina Abilità sono indicatori in
-  sola lettura. Resta la scelta guidata delle abilità di classe iniziali non
-  ancora registrate: il giocatore sceglie tra le opzioni concesse, senza poter
-  spuntare liberamente altre abilità. Il wizard di avanzamento raccoglierà le
-  nuove scelte concesse da privilegi e talenti.
+  sola lettura. La creazione deve raccogliere tutte le scelte iniziali, senza
+  consentire di completarle dalla scheda in un secondo momento. Il wizard di
+  avanzamento raccoglierà le nuove scelte concesse da privilegi e talenti.
 - Decisione successiva: per ora la Velocità resta soltanto leggibile. Non
   introdurre comandi manuali per variarla; il wizard la aggiornerà solo se
   il nuovo livello concede un effetto permanente verificato. Gli altri
@@ -61,7 +60,10 @@ direttamente nel PDF per questo piano:
 | 41 | PE, livelli 1–20, bonus di competenza, incantesimi, trucchetti e slot indicati dalle tabelle di classe. |
 | 42 | Sequenza di avanzamento: classe, PF e Dado Vita, nuovi privilegi e scelte, bonus di competenza, modificatori di caratteristica. Valore tirato o fisso dei PF; incremento dei PF massimi quando aumenta il modificatore di Costituzione. |
 | 43 | Creazione a livello superiore e caso opzionale dei talenti dopo il 20° livello, escluso dal primo rilascio. |
+| 42–43 | La sequenza ordinaria di avanzamento non concede equipaggiamento di partenza aggiuntivo; la tabella di equipaggiamento per livelli superiori riguarda la creazione e lascia al DM la decisione sull'equipaggiamento extra. |
 | 44–45 | Multiclasse: prerequisiti, livelli per classe, competenze, Dadi Vita, privilegi e incantesimi; base per la fase separata. |
+| 204, 219 | Corazze Leggere, Corazze Medie e Corazze Pesanti conferiscono competenze, non oggetti. Possedere, indossare e saper usare armature o scudi sono stati distinti. |
+| 87, 168 | Il Circolo delle Stelle al 3° livello ha creato una Carta Celeste, oggetto con aspetto scelto o tirato; se viene persa, può crearne un'altra con un rituale. Il Libro delle Ombre del Patto del Tomo è invece evocato dopo un riposo e scompare quando viene evocato un altro libro o muore il warlock: distinguere gli oggetti acquisiti da quelli evocati e temporanei. |
 | 37–40 | Allineamento scelto durante la creazione; taglia e velocità base determinate dalla specie. Il PDF non descrive un normale cambio di Allineamento dopo la creazione. |
 | 186–197 | Tratti delle specie da cui deriva la velocità base; la Robustezza nanica aumenta i PF massimi al livello. |
 | 202 | Il talento Robusto aumenta i PF massimi subito e a ogni livello successivo. |
@@ -97,15 +99,26 @@ stato attuale dell'app, non sostituiscono il PDF.
    completo. Le opzioni non disponibili spiegano il requisito mancante.
    Nessuna scelta obbligatoria viene compilata arbitrariamente.
 5. Il riepilogo distingue «applicato automaticamente», «scelto dal giocatore»
-   e «da gestire durante il gioco». Mostra prima/dopo per livello, PF massimi,
-   Dadi Vita, bonus di competenza, caratteristiche, privilegi, talenti,
-   incantesimi e valori derivati modificati. Le formule riportate sono quelle
-   realmente applicate.
+   e «da gestire durante il gioco». Mostra prima/dopo per ogni cambiamento
+   concesso dal nuovo livello, inclusi PF massimi, Dadi Vita, caratteristiche,
+   privilegi, talenti, incantesimi, lingue, oggetti, monete, competenze,
+   risorse e valori derivati. Ogni voce riporta fonte e pagina; le formule
+   sono quelle realmente applicate.
 6. «Conferma cambio livello» è disponibile solo con tutte le scelte
    obbligatorie valide. Un solo salvataggio atomico aggiorna la scheda e lo
    storico. Un errore lascia la bozza aperta; un secondo clic non crea un
    secondo livello. Dopo il salvataggio, Talenti e Privilegi mostrano le nuove
    voci e le scelte effettuate.
+7. Dopo il salvataggio, aprire un riepilogo mobile con il titolo «Sei passato
+   al livello X! Ecco le novità:» e una lista puntata di tutte le voci
+   aggiunte, modificate o rimosse da quel passaggio, comprese le conseguenze
+   delle scelte effettuate. Ogni punto usa parole comprensibili al giocatore;
+   per un valore modificato mostra prima e dopo, e rende consultabili fonte e
+   pagina. Se una capacità nuova richiede un'azione durante il gioco, dirlo
+   esplicitamente senza presentarla come oggetto o effetto già applicato. Un
+   indicatore «Novità» resta sulla scheda finché il riepilogo non viene letto;
+   lo stesso evento si può riaprire dallo storico. Un salvataggio fallito non
+   genera né notifica né indicatore.
 
 ## Effetti da valutare a ogni livello
 
@@ -122,10 +135,30 @@ verificato della classe, sottoclasse, talento o incantesimo pertinente.
 | Talenti | Quando un privilegio concede un talento, creare una scelta vincolata alla sua fonte: categoria, prerequisiti e ripetibilità verificati. Registrare anche le scelte interne al talento e applicare i suoi effetti soltanto dove l'app li calcola davvero. |
 | Caratteristiche e competenza | Applicare gli incrementi scelti tramite il talento o privilegio pertinente, con limiti e requisiti verificati. Conferire o scegliere competenze nei tiri salvezza solo quando la classe, un privilegio o un talento lo prevede (per esempio Resiliente). Registrare la fonte e non confondere la competenza con il bonus numerico, che può aumentare per livello. Ricalcolare i modificatori e il bonus di competenza del nuovo livello; non salvare copie ridondanti dei valori derivabili. |
 | Abilità e Maestria | Applicare competenze e Maestria soltanto se una classe, un privilegio o un talento li concede. Chiedere l'abilità quando la fonte prevede una scelta; conservarne fonte e livello. Aggiornare i bonus delle abilità dal punteggio di caratteristica e dal bonus di competenza, senza editarli o assegnare spunte arbitrarie. |
+| Competenze nelle armature e negli scudi | Applicare le competenze concesse dal talento o privilegio acquisito, con fonte e requisiti verificati. Per esempio, Corazze Leggere concede competenza nelle armature leggere e negli scudi; non aggiunge oggetti all'inventario e non li equipaggia. |
 | Calcoli dipendenti | Aggiornare i risultati realmente calcolati: tiri salvezza, abilità e Maestria, iniziativa, percezione passiva, attacchi e danni, CA, velocità, capacità, CD e attacchi degli incantesimi. Per la velocità distinguere base della specie, variazioni permanenti da livello/talento e variazioni da equipaggiamento, condizioni, privilegi o incantesimi durante il gioco; aggiornare il valore solo tramite l'evento pertinente. Ogni effetto non implementato va indicato come da gestire in un flusso guidato, senza dichiararlo applicato. |
 | Incantesimi | Usare la progressione della classe e i privilegi acquisiti per determinare trucchetti, incantesimi preparati o sostituibili, livello accessibile, slot e risorse di lancio. Chiedere le scelte previste, conservare fonte e caratteristica da incantatore di ciascun incantesimo. Non usare le attuali tabelle SRD come fonte normativa. |
 | Risorse e stato di gioco | Adeguare i massimi e aggiungere le nuove risorse previste; mantenere tracciabili utilizzi già spesi, PF attuali e slot già spesi. Il cambio livello da solo non ripristina PF o risorse: le pp. 27 e 42 distinguono i PF attuali dal loro massimo e indicano l'aumento del massimo, senza prescrivere una guarigione. Applicare eventuali variazioni dei PF attuali solo quando la regola specifica lo dice. I casi non determinabili dal PDF o dalla scheda richiedono una scelta esplicita prima dell'implementazione. |
-| Dati personali ed equipaggiamento | Conservare note, oggetti, quantità, monete e scelte precedenti. Non creare equipaggiamento o altri premi senza una concessione verificata della regola pertinente. |
+| Dati personali ed equipaggiamento | Conservare note, oggetti, quantità, monete, armatura indossata e scudo impugnato. Il solo cambio livello, anche quando conferisce competenza nelle armature o negli scudi, non aggiunge né equipaggia un oggetto. Risolvere anche gli effetti degli eventuali talenti e privilegi appena acquisiti: quando il testo verificato concede un oggetto fisico persistente, aggiungerlo una sola volta all'inventario con quantità, scelta, fonte, livello e pagina; chiedere le scelte necessarie (per esempio l'aspetto della Carta Celeste del Druido del Circolo delle Stelle al 3° livello, p. 87). Non inventare peso o costo mancanti. Oggetti evocati, temporanei o creati durante il gioco non diventano automaticamente voci permanenti dell'inventario; in mancanza di una concessione esplicita, l'acquisizione resta nel normale inventario di gioco. |
+
+### Completezza delle concessioni
+
+- Per ogni passaggio e opzione selezionata, seguire tutta la catena delle
+  concessioni: classe, sottoclasse, privilegi, talenti e scelte interne.
+  Applicare ogni effetto permanente previsto dal testo verificato, qualunque
+  sia il campo della scheda: lingue, monete, oggetti, competenze, punteggi,
+  massimi, incantesimi, risorse, calcoli o altri dati pertinenti. Per esempio,
+  Esploratore Esperto del Ranger al 2° livello richiede due lingue e una scelta
+  di Maestria (p. 142); non basta registrare il nome del privilegio.
+- Registrare per ciascun effetto tipo, quantità o variazione, scelta, fonte,
+  livello e pagina PDF. Se il testo richiede una scelta, chiederla al giocatore;
+  non assegnare arbitrariamente oggetti, monete o altre ricompense. Il cambio
+  livello da solo non aumenta PE o monete e non consegna equipaggiamento.
+- Classificare ogni effetto della matrice classe/livello come applicato,
+  scelta obbligatoria o capacità da usare durante il gioco. Una concessione
+  permanente non modellata o senza fonte verificata impedisce di dichiarare
+  completo quel passaggio del wizard: non deve sparire dal riepilogo né
+  apparire come applicata.
 
 ### Aggiornamento dei quattro campi bloccati
 
@@ -162,10 +195,9 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   spunte e fonti delle competenze nei tiri salvezza. Il wizard applica le
   concessioni permanenti e registra la relativa fonte.
 - Conservare in sola lettura le spunte di competenza e Maestria nella pagina
-  Abilità. `saveSheet` rifiuta variazioni libere delle abilità e delle loro
-  fonti; consente solo una scelta di abilità di classe iniziale ancora dovuta,
-  verificata contro le opzioni ammesse. Il wizard userà una transizione
-  dedicata per le concessioni ai livelli successivi.
+  Abilità. `saveSheet` rifiuta ogni variazione delle abilità e delle loro
+  fonti. La creazione completa le scelte iniziali; il wizard userà una
+  transizione dedicata per le concessioni ai livelli successivi.
 - Mantenere PF massimi, Dadi Vita totali, Velocità e Allineamento in sola
   lettura nella scheda. `saveSheet` deve rifiutare le modifiche dirette a
   questi campi; il wizard userà una transizione dedicata, verificata sul
@@ -187,11 +219,22 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   (`classe`, `sottoclasse`, `background`, `specie`, `talento`), livello di
   acquisizione, riferimento alla voce del manuale e scelte richieste.
   Un talento scelto deve riferirsi alla concessione che lo ha permesso.
+- Risolvere le concessioni in catena (livello → classe/sottoclasse → privilegio
+  o talento scelto → effetti), includendo tutti i dati persistenti concessi.
+  Ogni effetto applicato conserva l'ID della concessione che lo ha prodotto,
+  oltre a scelta, quantità o variazione e riferimento PDF. La stessa
+  concessione non si applica due volte se il wizard viene riaperto o
+  confermato di nuovo.
 - Conservare separatamente: dati normativi del PDF, concessioni derivate,
   risposte del giocatore, valori calcolati e stato corrente delle risorse.
   Registrare per livello il dado/valore fisso dei PF e le decisioni che non si
   possono ricostruire dalla sola scheda finale. Evitare copie dei testi del
   manuale nelle schede salvate.
+- Persistire con ogni transizione di livello un manifesto dei cambiamenti:
+  concessione originaria, categoria, prima/dopo, descrizione leggibile,
+  pagina e stato «applicato», «scelto» o «da usare durante il gioco».
+  Registrare l'ID dell'evento letto per mantenere l'indicatore «Novità»
+  corretto dopo ricaricamento, senza creare notifiche duplicate.
 - Una funzione pura prepara da scheda + nuovo livello + dati verificati le
   concessioni, le scelte mancanti e l'anteprima. Un'altra applica una bozza
   completa e valida. Rieseguire la preparazione non deve aggiungere duplicati.
@@ -264,6 +307,22 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
 - PF, Dadi Vita, valori derivati, scelte e risorse nel riepilogo coincidono
   con la scheda salvata; i dati personali e gli utilizzi già spesi restano
   presenti. Nessun testo definisce «applicato» un effetto ancora manuale.
+- L'inventario nel riepilogo mostra prima/dopo e fonte degli oggetti concessi
+  da privilegi o talenti acquisiti con il livello. Il Druido del Circolo delle
+  Stelle al 3° livello registra una Carta Celeste con l'aspetto scelto o tirato
+  e senza duplicati; il Patto del Tomo non aggiunge un Libro delle Ombre
+  permanente. Nessun talento che conferisce soltanto competenza crea oggetti.
+- Il Ranger al 2° livello riceve le due lingue e la scelta di Maestria previste
+  da Esploratore Esperto; il riepilogo registra entrambe le concessioni e le
+  scelte. Monete e oggetti aumentano solo per concessioni esplicite verificate
+  e non per il semplice cambio livello.
+- Dopo un salvataggio riuscito compare «Sei passato al livello X! Ecco le
+  novità:» con una lista puntata completa di aggiunte, modifiche e rimozioni
+  effettive, incluse quelle derivate dai talenti e privilegi ottenuti. Ogni
+  modifica numerica mostra prima e dopo; fonte e pagina sono consultabili.
+  Il riepilogo si riapre dallo storico, l'indicatore resta finché non viene
+  letto e tentativi ripetuti dello stesso salvataggio non creano nuove novità.
+  Annullamento o errore non producono riepilogo né indicatore.
 - La scheda non offre editor diretti per PF massimi, Dadi Vita totali,
   Velocità o Allineamento; `saveSheet` rifiuta tentativi di modificarli.
   Il wizard aggiorna PF massimi e Dadi Vita con fonte e formula; modifica la
@@ -274,14 +333,16 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   spunte dei tiri salvezza; il salvataggio ordinario rifiuta anche tentativi
   di cambiare le relative fonti. Il wizard applica solo scelte e concessioni
   documentate e aggiorna i valori derivati senza intervento manuale.
-- La pagina Abilità mostra le spunte senza permettere di cambiarle; rimane
-  disponibile soltanto la scelta guidata delle abilità di classe iniziali
-  mancanti. Il salvataggio ordinario rifiuta spunte, Maestria o fonti aggiunte
-  liberamente, anche se inviate senza passare dall'interfaccia.
+- La pagina Abilità mostra spunte e Maestria senza editor. La creazione
+  raccoglie tutte le scelte iniziali; il salvataggio ordinario rifiuta ogni
+  variazione di abilità o fonti, anche se inviata senza passare dall'interfaccia.
 - I PE sotto soglia richiedono la conferma aggiuntiva; i PE non sono modificati.
   Il livello non può essere cambiato con l'editor ordinario né superare 20.
 - Le vecchie schede mantengono talenti, privilegi, scelte e note. Le voci
   ambigue sono visibili e riconciliabili, non cancellate silenziosamente.
+- Un avanzamento che concede competenza nelle armature o negli scudi aggiorna
+  la competenza e la sua fonte, ma lascia invariati inventario, armatura
+  indossata e scudo impugnato; il talento Corazze Leggere è un caso campione.
 - I popup e i dettagli delle pagine Talenti e Privilegi riportano la voce
   specifica, la fonte e la pagina stampata; il layout è leggibile su mobile.
 

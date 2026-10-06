@@ -28,11 +28,10 @@ import { spellEffects } from "@/lib/spellEffects";
 import type { Sheet, Arma, Equip, Incantesimo } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
-import { speciesSizes } from "@/lib/creationRules";
 import { helpFor, type FieldHelp } from "@/lib/fieldHelp";
 import { languageDetails } from "@/lib/languageDetails";
 import { weaponByName, weaponDetails } from "@/lib/weaponDetails";
-import { availableWeaponMasteries, proficientWeaponNames, weaponMasteryLimit } from "@/lib/weaponChoices";
+import { proficientWeaponNames, weaponMasteryLimit } from "@/lib/weaponChoices";
 import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
@@ -42,10 +41,9 @@ import { availableClassSpells, spellSlots, spellcastingStats } from "@/lib/spell
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotals } from "@/lib/coins";
 import { hasGrantedCompetency } from "@/lib/competencySources";
-import { classToolProficiencies, classWeaponProficiencies, grantClassProficiencies } from "@/lib/classSavingThrows";
-import { removeWeaponCompetency, weaponCompetencyDetails } from "@/lib/weaponCompetencies";
+import { classToolProficiencies } from "@/lib/classSavingThrows";
+import { weaponCompetencyDetails } from "@/lib/weaponCompetencies";
 import { addToolCompetency, availableToolCompetencyChoices, pendingToolChoiceSources, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
-import { addClassSkillChoice, availableClassSkillChoices, classSkillChoices, remainingClassSkillChoices } from "@/lib/classSkillChoices";
 import { backgroundToolProficiency } from "@/lib/backgroundToolProficiencies";
 import { featToolProficiencies } from "@/lib/featToolProficiencies";
 import { subclassLevel } from "@/lib/classProgression";
@@ -57,8 +55,6 @@ import { addCatalogEquipment, addOwnedArmor, armorForEquipment, isArmorEquipment
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { DiceText } from "@/components/DiceText";
 
-const classi = Object.keys(regole.classi);
-const sottoclassi = regole.classi as Record<string, string[]>;
 const lignaggi = regole.lignaggi as Record<string, string[]>;
 const historyDayFormatter = new Intl.DateTimeFormat("it-IT", {
   dateStyle: "full", timeZone: "Europe/Rome",
@@ -129,16 +125,13 @@ function toList(v: unknown): string[] {
   return [];
 }
 
-function WeaponCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (update: Partial<Sheet>) => void }) {
-  const { unlocked } = useContext(EditContext);
+function WeaponCompetencyList({ sheet }: { sheet: Sheet }) {
   const items = toList(sheet.competenzeArmi);
-  const classGranted = classWeaponProficiencies(sheet.classe);
   return <ul className="flex flex-col gap-1.5">
-    {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
+    {items.length === 0 && <li className="text-sm text-ink-faint">—</li>}
     {items.map((name) => <li key={name} className="flex items-center gap-2">
       <span className="text-ink-faint" aria-hidden>•</span>
       <InfoLabel id={`competenzaArma:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
-      {unlocked && !hasGrantedCompetency(sheet, "arma", name, classGranted.includes(name)) && <button type="button" onClick={() => onChange(removeWeaponCompetency(sheet, name))} aria-label={`Rimuovi ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
     </li>)}
   </ul>;
 }
@@ -166,26 +159,14 @@ function ToolCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (up
   </ul>;
 }
 
-function WeaponMasteryEditor({ sheet, onChange }: { sheet: Sheet; onChange: (items: string[]) => void }) {
-  const { unlocked } = useContext(EditContext);
+function WeaponMasteryList({ sheet }: { sheet: Sheet }) {
   const selected = sheet.padronanzeArmi ?? [];
-  const limit = weaponMasteryLimit(sheet);
-  const allowed = availableWeaponMasteries(sheet);
-  const choices = allowed.filter((name) => !selected.includes(name));
   return <ul className="flex flex-col gap-1.5">
-    {selected.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
+    {selected.length === 0 && <li className="text-sm text-ink-faint">—</li>}
     {selected.map((name, index) => <li key={`${name}:${index}`} className="flex items-center gap-2">
       <span className="text-ink-faint" aria-hidden>•</span>
       <InfoLabel id={`padronanza:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
-      {unlocked && <button type="button" onClick={() => onChange(selected.filter((_, i) => i !== index))} aria-label={`Rimuovi padronanza ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
     </li>)}
-    {unlocked && selected.length < limit && choices.length > 0 && <li>
-      <select aria-label="Aggiungi padronanza" value="" onChange={(event) => onChange([...selected, event.target.value])}
-        className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
-        <option value="" disabled>+ Aggiungi padronanza</option>
-        {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
-      </select>
-    </li>}
   </ul>;
 }
 
@@ -469,6 +450,7 @@ export default function CharacterClient({
   const firstRun = useRef(true);
   const saveChainRef = useRef<Promise<void>>(Promise.resolve());
   const [showHistory, setShowHistory] = useState(false);
+  const [showShieldNotice, setShowShieldNotice] = useState(false);
   const [calculationTarget, setCalculationTarget] = useState<CalculationTarget | null>(null);
   const [fieldInfo, setFieldInfo] = useState<{ id: string; title: string } | null>(null);
   const calculationTrigger = useRef<HTMLButtonElement | null>(null);
@@ -478,6 +460,12 @@ export default function CharacterClient({
   const [historyEntries, setHistoryEntries] = useState<HistoryEntry[]>([]);
   const [historyLoading, setHistoryLoading] = useState(false);
   const [historyError, setHistoryError] = useState("");
+
+  useEffect(() => {
+    if (!showShieldNotice) return;
+    const timer = window.setTimeout(() => setShowShieldNotice(false), 2500);
+    return () => window.clearTimeout(timer);
+  }, [showShieldNotice]);
 
   useEffect(() => {
     if (!calculationTarget) return;
@@ -708,18 +696,18 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
-            <TextField label="Specie" showInfo={false} showEditIcon value={sheet.specie} valueInfoId={`valore:specie:${sheet.specie}`} options={regole.specie} locked={Boolean(sheet.specie)} onChange={(v) => patch({ specie: v, lignaggio: v === sheet.specie ? sheet.lignaggio : "", taglia: v === sheet.specie ? sheet.taglia : speciesSizes[v]?.[0] ?? "" })} />
-            <TextField label="Classe" showInfo={false} showEditIcon value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} options={classi} locked={Boolean(sheet.classe)} onChange={(v) => patch(grantClassProficiencies({ ...sheet, classe: v, sottoclasse: v === sheet.classe ? sheet.sottoclasse : "" }))} />
+            <TextField label="Specie" showInfo={false} value={sheet.specie} valueInfoId={`valore:specie:${sheet.specie}`} locked onChange={() => {}} />
+            <TextField label="Classe" showInfo={false} value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} locked onChange={() => {}} />
           </div>
           <div className={grid2}>
-            <TextField label="Background" showInfo={false} showEditIcon value={sheet.background} valueInfoId={`valore:background:${sheet.background}`} options={regole.background} locked={Boolean(sheet.background)} onChange={(v) => patch({ background: v })} multiline />
+            <TextField label="Background" showInfo={false} value={sheet.background} valueInfoId={`valore:background:${sheet.background}`} locked onChange={() => {}} multiline />
             <TextField label="Allineamento" showInfo={false} locked value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} onChange={() => {}} />
           </div>
           <div className="grid grid-cols-3 gap-2.5 [&>*]:min-w-0">
-            {lignaggi[sheet.specie] && <TextField label="Lignaggio" showInfo={false} showEditIcon value={sheet.lignaggio} valueInfoId={`valore:lignaggio:${sheet.lignaggio}`} options={lignaggi[sheet.specie]} locked={Boolean(sheet.lignaggio)} onChange={(v) => patch({ lignaggio: v })} />}
+            {lignaggi[sheet.specie] && <TextField label="Lignaggio" showInfo={false} value={sheet.lignaggio} valueInfoId={`valore:lignaggio:${sheet.lignaggio}`} locked onChange={() => {}} />}
             <TextField label="Livello" showInfo={false} locked value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} onChange={() => {}} />
-            {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
-            <TextField label="Taglia base" showInfo={false} showEditIcon value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
+            {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} locked onChange={() => {}} />}
+            <TextField label="Taglia base" showInfo={false} value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} locked onChange={() => {}} />
             <TextField label="Punti Ferita Massimi" showInfo={false} locked value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} onChange={() => {}} />
             <TextField label="Ispirazione Eroica" showInfo={false} locked value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} onChange={() => {}} />
             <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
@@ -778,14 +766,6 @@ export default function CharacterClient({
       title: "Abilità",
       body: (
         <div className="flex flex-col gap-4">
-          {remainingClassSkillChoices(sheet) > 0 && <div className="rounded-lg border border-line bg-card/70 px-3 py-2 text-xs text-ink-soft">
-            <p>Abilità di classe da scegliere: {remainingClassSkillChoices(sheet)} · Manuale del Giocatore 2024, p. {classSkillChoices[sheet.classe]?.page}. La scelta registra la competenza e la sua fonte.</p>
-            <select aria-label="Scegli un'abilità di classe" value="" onChange={(event) => patch(addClassSkillChoice(sheet, event.target.value))}
-              className="mt-1 max-w-full rounded-lg border border-line bg-card px-2 py-1 text-sm text-ink focus:border-accent focus:outline-none">
-              <option value="" disabled>+ Scegli abilità di classe</option>
-              {availableClassSkillChoices(sheet).map((name) => <option key={name} value={name}>{name}</option>)}
-            </select>
-          </div>}
           {Object.entries(CAR_FULL).filter(([caratteristica]) =>
             sheet.abilita.some((a) => a.caratteristica === caratteristica),
           ).map(([caratteristica, titolo]) => (
@@ -832,7 +812,13 @@ export default function CharacterClient({
                 .sort((a, b) => compareOptionLabels(a.label, b.label))
                 .map((armor) => <option key={armor.id} value={armor.id}>{armor.label}</option>)}
             </select>
-            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} locked={!hasOwnedShield && !shieldInUse} onChange={(enabled) => patch(selectHeldShield(sheet, enabled))} /></div>
+            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => {
+              if (enabled && !hasOwnedShield) {
+                setShowShieldNotice(true);
+                return;
+              }
+              patch(selectHeldShield(sheet, enabled));
+            }} /></div>
             {!armorChoices.length && !hasOwnedShield && <p className="mt-1 text-xs text-ink-soft">Registra armature e scudi posseduti nella pagina Equipaggiamento.</p>}
           </div>
           <div>
@@ -848,11 +834,11 @@ export default function CharacterClient({
           </div>
           <div>
             <h3 className={sectionTitle}><InfoLabel id="Competenze armi" title="Competenze armi" /></h3>
-            <WeaponCompetencyEditor sheet={sheet} onChange={patch} />
+            <WeaponCompetencyList sheet={sheet} />
           </div>
           <div>
             <h3 className={sectionTitle}><InfoLabel id="Padronanze scelte" title="Padronanze scelte" /></h3>
-            <WeaponMasteryEditor sheet={sheet} onChange={(items) => patch({ padronanzeArmi: items })} />
+            <WeaponMasteryList sheet={sheet} />
           </div>
           <div>
             <h3 className={sectionTitle}>Armi</h3>
@@ -1073,6 +1059,7 @@ export default function CharacterClient({
     <EditProvider unlocked={true} requireUnlock={() => { }}>
       <FieldInfoContext.Provider value={openFieldInfo}>
         <div className="flex h-dvh flex-col">
+          {showShieldNotice && <div role="status" className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] left-1/2 z-[60] w-max max-w-[calc(100vw-2rem)] -translate-x-1/2 rounded-lg bg-ink px-4 py-2 text-center text-sm font-medium text-parchment shadow-lg">Non possiedi alcuno scudo.</div>}
           <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-2 pt-2 backdrop-blur">
             <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
               <div className="flex min-w-0 items-center justify-self-start">

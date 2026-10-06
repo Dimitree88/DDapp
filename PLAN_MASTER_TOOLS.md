@@ -85,6 +85,7 @@ direttamente nel PDF per definire questo piano:
 | 23 | Iniziativa, ordine dei turni e round di combattimento. |
 | 27–29 | PF attuali e massimi, danni, resistenza e vulnerabilità, guarigione, 0 PF, morte, tiri salvezza contro morte, stabilità, PF temporanei e condizioni. |
 | 41 | PE, soglie di livello e bonus di competenza. |
+| 51, 91, 101, 132, 141, 206 | Barbaro, Guerriero, Ladro, Paladino, Ranger e il talento Maestro d'Armi permettono di cambiare armi scelte per la Padronanza dopo un riposo lungo, secondo i limiti della rispettiva fonte. |
 | 235–238 | Lancio degli incantesimi, slot e dati di lancio; ogni automatismo specifico dipende dalla voce e dalla classe verificate. |
 | 364 | Concentrazione e suoi modi di interruzione. |
 | 366 | Indebolimento: livelli, effetti e riduzione con riposo lungo. |
@@ -131,7 +132,7 @@ scelte già prese e le ultime modifiche della sessione.
 | Prima | **Ispirazione eroica** | Conferire o segnare come spesa. Se il destinatario la possiede già, mostrare che non si accumula e offrire il trasferimento a un altro personaggio idoneo, come previsto dal PDF. |
 | Prima | **Condizioni e Indebolimento** | Applicare/rimuovere una condizione con fonte, durata o nota; mostrare più fonti senza sommare lo stesso effetto. Indebolimento usa un contatore separato, con le conseguenze e il limite del PDF. |
 | Prima | **PF temporanei e tiri salvezza contro morte** | Registrare una nuova concessione di PF temporanei scegliendo se mantenere i precedenti o usare i nuovi, mai sommarli. Contare successi/fallimenti, stabilizzazione e gli esiti speciali del tiro; chiedere il contesto per danni subiti a 0 PF. |
-| Dopo i dati 2024 pertinenti | **Riposo breve/lungo di gruppo** | Il Master lo avvia dalla Sessione per tutti i partecipanti presenti, con possibilità di escludere chi non riposa. Verificare i requisiti di ciascuno, mostrare l'anteprima su tutte le schede e chiedere i tiri/scelte necessari. Riposo breve: spesa dei Dadi Vita e recuperi specifici. Riposo lungo: benefici generali e ricariche specifiche verificate, senza azzerare genericamente tutte le risorse. |
+| Dopo i dati 2024 pertinenti | **Riposo breve/lungo di gruppo** | Il Master lo avvia dalla Sessione per tutti i partecipanti presenti, con possibilità di escludere chi non riposa. Verificare i requisiti di ciascuno, mostrare l'anteprima su tutte le schede e chiedere i tiri/scelte necessari. Riposo breve: spesa dei Dadi Vita e recuperi specifici. Riposo lungo: benefici generali, ricariche specifiche e possibilità di sostituire una Padronanza d'armi quando la fonte del personaggio lo consente, senza azzerare genericamente tutte le risorse. |
 | Dopo i dati 2024 pertinenti | **Slot e risorse** | Segnare utilizzi spesi o recuperati, con limite, fonte e tipo di ricarica. Il Master può correggere un conteggio con motivo; un incantesimo o privilegio non ancora verificato resta un'annotazione manuale dichiarata. |
 | Fase successiva | **Incontro** | Registrare i risultati di iniziativa, ordinare personaggi e creature, indicare turno/round e concentrazione. Le schede delle creature condivise o degli esemplari della Sessione seguono `PLAN_CREATURE.md`: i loro dati personalizzati sono inseriti dal gruppo, mai inventati dall'app. |
 | Fase successiva | **Beni e altri effetti** | Annotare acquisizione/spesa di monete, oggetti e consumabili; registrare effetti temporanei con fonte e scadenza. Modificare CA, velocità, PF massimi o caratteristiche solo tramite una regola verificata oppure come esito manuale chiaramente etichettato. |
@@ -228,6 +229,14 @@ esplicito. La conferma è **una sola operazione di gruppo**: aggiorna tutte
 le schede ammesse e scrive un evento per ciascuna, collegato allo stesso
 riposo della Sessione. Un errore non lascia metà gruppo aggiornato. La
 chiusura della Sessione, da sola, non esegue questo comando.
+Per ogni personaggio con una fonte di Padronanza d'armi che consente un cambio
+al termine del riposo lungo, il flusso mostra le armi attualmente scelte e
+permette di sostituirne una con un'arma idonea secondo quella fonte. La scelta
+è facoltativa: il riposo non cambia automaticamente le Padronanze. Validare
+competenza, limiti e fonte sul server, registrare prima/dopo nello storico e
+mostrare la scelta anche nell'anteprima del riposo collettivo. Nuovi posti di
+Padronanza concessi dal livello appartengono invece al cambio livello; la
+pagina Armi resta di sola lettura per competenze e Padronanze.
 Il riposo individuale e quello collettivo chiamano **lo stesso motore di
 regole e validazione**; un personaggio già incluso in un riposo registrato
 non riceve due volte i benefici per un doppio clic o per una schermata

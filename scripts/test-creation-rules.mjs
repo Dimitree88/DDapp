@@ -35,12 +35,24 @@ test("level gains remain possible while acquired choices stay protected", () => 
   assert.deepEqual(creationErrors(sheet, advanced), ["lingua Comune", "talento Allerta"]);
 });
 
-test("subclass can be chosen later and is fixed once selected", () => {
+test("subclass cannot be chosen or changed in the ordinary sheet", () => {
   const sheet = formed();
   const chosen = structuredClone(sheet);
   chosen.sottoclasse = "Furfante";
-  assert.deepEqual(creationErrors(sheet, chosen), []);
+  assert.deepEqual(creationErrors(sheet, chosen), ["sottoclasse"]);
   assert.deepEqual(creationErrors(chosen, sheet), ["sottoclasse"]);
+});
+
+test("missing identity fields cannot be filled in the ordinary sheet", () => {
+  const sheet = formed();
+  sheet.specie = "";
+  sheet.background = "";
+  sheet.taglia = "";
+  const changed = structuredClone(sheet);
+  changed.specie = "Umano";
+  changed.background = "Criminale";
+  changed.taglia = "Media";
+  assert.deepEqual(creationErrors(sheet, changed), ["specie", "background", "taglia"]);
 });
 
 test("base size follows the species options", () => {
