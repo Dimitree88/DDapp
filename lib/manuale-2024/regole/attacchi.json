@@ -4,5 +4,44 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "regola:attacco-con-arma",
+      "tipo": "regola",
+      "nome": "Attacco con un'arma",
+      "testo": [
+        { "pagina": 41, "da": "Attacchi.", "includiDa": true, "a": "Incantesimi. Annota" },
+        { "pagina": 12, "da": "Tiri per colpire", "a": "Modificatore di caratteristica" },
+        { "pagina": 12, "da": "Alcuni privilegi consentono", "includiDa": true, "a": "Bonus di competenza" }
+      ],
+      "pagina": 41,
+      "pagine": [12, 213, 214],
+      "tabelle": [
+        {
+          "titolo": "Caratteristiche dei tiri per colpire",
+          "pagina": 12,
+          "colonne": ["Caratteristica", "Tipo di attacco"],
+          "righe": [
+            ["Forza", "Attacco in mischia con un'arma o colpo senz'armi (vedi il Glossario delle regole)"],
+            ["Destrezza", "Attacco con arma a distanza"],
+            [
+              "Variabile",
+              "Attacco con incantesimo (la caratteristica utilizzata è determinata dal privilegio Incantesimi dell'incantatore, come spiegato nel capitolo 7)"
+            ]
+          ]
+        }
+      ],
+      "formula": "Bonus di attacco in mischia = modificatore di Forza + bonus di competenza; a distanza = modificatore di Destrezza + bonus di competenza; Accurata e Lancio cambiano la caratteristica; ai danni si aggiunge lo stesso modificatore",
+      "calcolo": "lib/weaponAttack.ts#weaponAttack",
+      "righeMatrice": ["armi.possedute"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "il bonus di competenza Bonus di attacco a distanza",
+          "il bonus di competenza\n\nBonus di attacco a distanza"
+        ],
+        ["il bonus di competenza Consulta il capitolo 6", "il bonus di competenza\n\nConsulta il capitolo 6"]
+      ]
+    }
+  ]
 }
