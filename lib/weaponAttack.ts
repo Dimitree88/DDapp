@@ -11,6 +11,7 @@ export type WeaponAttack = {
   proficient: boolean;
   proficiency: string;
   formula: string;
+  warnings: string[];
 };
 
 const signed = (value: number) => value > 0 ? `+${value}` : String(value);
@@ -24,13 +25,17 @@ export function weaponAttack(sheet: Sheet, weapon: Arma): WeaponAttack | null {
   const modifier = abilityModifier(sheet.caratteristiche.find((item) => item.abbr === ability)?.valore ?? "");
   const proficient = isWeaponProficient(sheet, entry);
   const proficiency = proficient ? proficiencyBonus(sheet.livello) : "";
-  const magic = weapon.bonusMagico ?? 0;
-  const attack = modifier && (!proficient || proficiency) ? signed(Number(modifier) + Number(proficiency || 0) + magic) : "";
+  const attack = modifier && (!proficient || proficiency) ? signed(Number(modifier) + Number(proficiency || 0)) : "";
   const [dice, ...type] = entry.damage.split(" ");
-  const damage = modifier ? `${mode === "dueMani" ? entry.versatileDie : dice} ${signed(Number(modifier) + magic)} ${type.join(" ")}` : "";
+  const damage = modifier ? `${mode === "dueMani" ? entry.versatileDie : dice} ${signed(Number(modifier))} ${type.join(" ")}` : "";
+  const heavyAbility = entry.kind === "mischia" ? "FOR" : "DES";
+  const heavyScore = Number(sheet.caratteristiche.find((item) => item.abbr === heavyAbility)?.valore);
+  const warnings = entry.properties.toLowerCase().includes("pesante") && heavyScore > 0 && heavyScore < 13
+    ? [`Arma pesante: svantaggio ai tiri per colpire con ${heavyAbility} inferiore a 13 (Manuale p. 214).`]
+    : [];
   return {
-    attack, damage, ability, modifier, proficient, proficiency,
-    formula: attack ? `${ability} ${modifier}${proficient ? ` + competenza ${proficiency}` : ""}${magic ? ` + arma magica ${magic}` : ""} = ${attack}` : "Inserisci il punteggio di caratteristica e, se competente, il livello.",
+    attack, damage, ability, modifier, proficient, proficiency, warnings,
+    formula: attack ? `${ability} ${modifier}${proficient ? ` + competenza ${proficiency}` : ""} = ${attack}` : "Inserisci il punteggio di caratteristica e, se competente, il livello.",
   };
 }
 

@@ -42,7 +42,7 @@ test("worn armor and held shield determine AC automatically", () => {
   assert.match(domainErrors(sheet).join(" "), /sola armatura/);
 });
 
-test("declared SRD magic armor and shield add only while equipped", () => {
+test("historical magic bonuses stay recorded without changing Manual armor class", () => {
   const sheet = emptySheet();
   sheet.caratteristiche.find((item) => item.abbr === "DES").valore = "14";
   sheet.competenzeArmatura.scudi = true;
@@ -50,10 +50,10 @@ test("declared SRD magic armor and shield add only while equipped", () => {
     { nome: "Armatura di cuoio", catalogId: "armatura-di-cuoio", dettaglio: "", indossato: true, bonusMagico: 1 },
     { nome: "Scudo", catalogId: "scudo", dettaglio: "", impugnato: true, bonusMagico: 2 },
   ];
-  assert.equal(calculatedArmorClass(sheet).value, 18);
+  assert.equal(calculatedArmorClass(sheet).value, 15);
   assert.deepEqual(domainErrors(sheet), []);
   sheet.equipaggiamento[1].impugnato = false;
-  assert.equal(calculatedArmorClass(sheet).value, 14);
+  assert.equal(calculatedArmorClass(sheet).value, 13);
 });
 
 test("automatic AC updates with Destrezza and ignores a saved manual override", () => {

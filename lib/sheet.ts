@@ -30,7 +30,7 @@ export type Arma = {
   bonus: string; // valore manuale prevalente per il tiro per colpire
   modo?: "base" | "lancio" | "dueMani";
   caratteristica?: "FOR" | "DES";
-  bonusMagico?: 1 | 2 | 3;
+  bonusMagico?: number;
   note: string;
 };
 
@@ -43,7 +43,7 @@ export type Equip = {
   contenitore?: string;
   indossato?: boolean;
   impugnato?: boolean;
-  bonusMagico?: 1 | 2 | 3;
+  bonusMagico?: number;
   magico?: boolean;
 };
 

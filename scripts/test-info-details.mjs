@@ -73,7 +73,7 @@ test("weapon catalog covers each selectable weapon with stable metadata", () => 
     assert.ok(weapon.id && weapon.damage && weapon.properties && weapon.mastery, weapon.name);
     assert.ok(rules.armi[weapon.category].includes(weapon.name), weapon.name);
     assert.equal(weapon.source, "Manuale del Giocatore 2024");
-    assert.equal(weapon.pages, "215-216");
+    assert.equal(weapon.pages, "215");
     assert.ok(weapon.costGp > 0, weapon.name);
     assert.ok(weapon.weightKg === undefined || weapon.weightKg > 0, weapon.name);
     assert.equal(Boolean(weapon.finesse), /Accurata/i.test(weapon.properties), weapon.name);

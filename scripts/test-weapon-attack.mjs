@@ -34,6 +34,16 @@ test("finesse, thrown, ranged and versatile use the selected mode", () => {
   assert.equal(weaponAttack(sheet, { ...bow, modo: "dueMani" }), null);
 });
 
+test("heavy weapons show the relevant Strength or Dexterity disadvantage", () => {
+  const weak = structuredClone(sheet);
+  weak.caratteristiche.find((item) => item.abbr === "FOR").valore = "12";
+  weak.caratteristiche.find((item) => item.abbr === "DES").valore = "11";
+  const weapon = { nome: "Spadone", quantita: "1", bonus: "", note: "" };
+  assert.match(weaponAttack(weak, weapon).warnings.join(" "), /FOR inferiore a 13/);
+  assert.match(weaponAttack(weak, { ...weapon, nome: "Arco lungo" }).warnings.join(" "), /DES inferiore a 13/);
+  assert.deepEqual(weaponAttack(sheet, weapon).warnings, []);
+});
+
 test("manual attack bonus wins while damage remains derived", () => {
   const weapon = { nome: "Pugnale", quantita: "1", bonus: "+9", note: "", modo: "base", caratteristica: "DES" };
   assert.equal(displayedWeaponAttack(sheet, weapon), "+9");
@@ -52,11 +62,11 @@ test("mastery is a separate explicit choice and requires proficiency", () => {
   assert.match(domainErrors({ ...chosen, padronanzeArmi: ["Pugnale", "Pugnale"] }).join(" "), /duplicate/);
 });
 
-test("a declared SRD magic weapon adds its bonus to attack and damage", () => {
+test("a historical magic bonus stays recorded without changing Manual attack or damage", () => {
   const weapon = { nome: "Pugnale", quantita: "1", bonus: "", note: "", bonusMagico: 1 };
-  assert.equal(weaponAttack(sheet, weapon).attack, "+7");
-  assert.equal(weaponAttack(sheet, weapon).damage, "1d4 +4 perforanti");
+  assert.equal(weaponAttack(sheet, weapon).attack, "+6");
+  assert.equal(weaponAttack(sheet, weapon).damage, "1d4 +3 perforanti");
   assert.equal(normalizeSheet({ ...sheet, armi: [weapon] }).armi[0].bonusMagico, 1);
   assert.deepEqual(domainErrors({ ...sheet, armi: [weapon] }), []);
-  assert.match(domainErrors({ ...sheet, armi: [{ ...weapon, bonusMagico: 4 }] }).join(" "), /bonus magico/);
+  assert.match(domainErrors({ ...sheet, armi: [{ ...weapon, bonusMagico: 0 }] }).join(" "), /bonus magico/);
 });

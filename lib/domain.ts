@@ -81,7 +81,7 @@ export function domainErrors(sheet: Sheet): string[] {
     const entry = weaponByName(weapon.nome);
     if (weapon.modo && weapon.modo !== "base" && !(weapon.modo === "lancio" && entry?.kind === "mischia" && entry.thrown) && !(weapon.modo === "dueMani" && entry?.kind === "mischia" && entry.versatileDie)) errors.push(`Arma ${index + 1} modo: ${weapon.modo}`);
     if (weapon.caratteristica && (weapon.caratteristica !== "FOR" && weapon.caratteristica !== "DES" || !entry?.finesse)) errors.push(`Arma ${index + 1} caratteristica: ${weapon.caratteristica}`);
-    if (weapon.bonusMagico !== undefined && ![1, 2, 3].includes(weapon.bonusMagico)) errors.push(`Arma ${index + 1} bonus magico: ${weapon.bonusMagico}`);
+    if (weapon.bonusMagico !== undefined && (!Number.isInteger(weapon.bonusMagico) || weapon.bonusMagico < 1)) errors.push(`Arma ${index + 1} bonus magico storico: ${weapon.bonusMagico}`);
   });
   sheet.talenti.forEach((feat, index) => {
     check(`Talento ${index + 1}`, feat.nome, feats);
@@ -112,7 +112,7 @@ export function domainErrors(sheet: Sheet): string[] {
     if (item.indossato && armorById(item.catalogId ?? "")?.category === "scudi") errors.push(`Oggetto ${index + 1}: uno scudo non si indossa come armatura`);
     if (item.impugnato && armorById(item.catalogId ?? "")?.category !== "scudi") errors.push(`Oggetto ${index + 1}: seleziona uno scudo di catalogo`);
     if (item.indossato && !armorById(item.catalogId ?? "")) errors.push(`Oggetto ${index + 1}: seleziona un'armatura di catalogo`);
-    if (item.bonusMagico !== undefined && (![1, 2, 3].includes(item.bonusMagico) || !armorById(item.catalogId ?? ""))) errors.push(`Oggetto ${index + 1} bonus magico: ${item.bonusMagico}`);
+    if (item.bonusMagico !== undefined && (!Number.isInteger(item.bonusMagico) || item.bonusMagico < 1 || !armorById(item.catalogId ?? ""))) errors.push(`Oggetto ${index + 1} bonus magico storico: ${item.bonusMagico}`);
   });
   Object.entries(sheet.monete).forEach(([coin, value]) => checkNumber(`Monete ${coin}`, value, "unsigned"));
   return errors;
