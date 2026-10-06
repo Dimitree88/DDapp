@@ -524,6 +524,31 @@ export default function CharacterClient({
   const hasOwnedShield = ownedArmorIds.has("scudo");
   const otherEquipment = sheet.equipaggiamento.filter((item) => !isArmorEquipment(item));
   const otherEquipmentIndices = sheet.equipaggiamento.flatMap((item, index) => isArmorEquipment(item) ? [] : [index]);
+  const grants = grantedPrivileges(sheet);
+  const classGrants = grants.filter((grant) => grant.source.startsWith("Classe:") || grant.source.startsWith("Sottoclasse:"));
+  const speciesGrants = grants.filter((grant) => grant.source.startsWith("Specie:") || grant.source.startsWith("Lignaggio:"));
+  const otherGrants = grants.filter((grant) => !classGrants.includes(grant) && !speciesGrants.includes(grant));
+  const recordedOtherPrivileges = sheet.privilegi.filter((item) => !grants.some((grant) =>
+    item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0));
+  const grantedFeats = featGrants(sheet);
+  const recordedOtherFeats = [...sheet.talenti];
+  const grantedFeatCards = grantedFeats.map((grant) => {
+    const savedIndex = recordedOtherFeats.findIndex((item) => item.nome === grant.name);
+    const saved = savedIndex >= 0 ? recordedOtherFeats.splice(savedIndex, 1)[0] : null;
+    return { grant, saved };
+  });
+  const renderGrant = (grant: (typeof grants)[number], index: number) => {
+    const savedIndex = sheet.privilegi.findIndex((item) =>
+      item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0);
+    const saved = savedIndex >= 0 ? sheet.privilegi[savedIndex] : null;
+    return <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
+      <p className="text-sm font-semibold text-ink">{saved
+        ? <InfoLabel id={`privilegio:${savedIndex}`} title={grant.name} />
+        : grant.name}</p>
+      <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
+      {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
+    </div>;
+  };
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
       title: "Stato & Identità",
@@ -703,66 +728,74 @@ export default function CharacterClient({
       ),
     },
     {
-      title: "Privilegi",
+      title: "Capacità",
       body: (
-        <div>
-          <h3 className={sectionTitle}>Privilegi acquisiti</h3>
-          <div className="mb-3 flex flex-col gap-2">
-            {grantedPrivileges(sheet).map((grant, index) => {
-              const saved = sheet.privilegi.find((item) => item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0);
-              return <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
-                <p className="text-sm font-semibold text-ink">{grant.name}</p>
-                <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
-                {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
-              </div>;
-            })}
-          </div>
-          <h3 className={sectionTitle}>Scelte dei privilegi registrate</h3>
-          <div className="flex flex-col gap-2">
-            {sheet.privilegi.length === 0 && <p className="text-sm text-ink-faint">Nessuna scelta registrata.</p>}
-            {sheet.privilegi.map((pr, index) => <div key={index} className={card}>
-              <p className="text-sm font-semibold text-ink"><InfoLabel id={`privilegio:${index}`} title={pr.titolo || "Privilegio"} /></p>
-              {pr.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{pr.scelte}</p>}
-            </div>)}
-          </div>
-          <h3 className={`${sectionTitle} mt-4`}>Risorse dei privilegi</h3>
-          <div className="flex flex-col gap-2">
-            {(sheet.risorse ?? []).length === 0 && <p className="text-sm text-ink-faint">Nessuna risorsa registrata.</p>}
-            {(sheet.risorse ?? []).map((resource, index) => <div key={index} className={card}>
-              <p className="text-sm font-semibold text-ink">{resource.nome}</p>
-              <p className="text-sm text-ink-soft">{resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>
-              <p className="text-xs text-ink-soft">Fonte: {resource.fonte}{resource.ricarica ? ` · Ricarica: ${resource.ricarica}` : ""}</p>
-            </div>)}
-          </div>
-          <h3 className={`${sectionTitle} mt-4`}>Fonti delle competenze</h3>
-          <div className="flex flex-col gap-1.5">
-            {(sheet.fontiCompetenze ?? []).map((record, index) => (
-              <p key={index} className="text-sm text-ink-soft">{record.valore} · {record.fonte}</p>
-            ))}
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "Talenti",
-      body: (
-        <div>
-          <h3 className={sectionTitle}>Talenti concessi</h3>
-          <div className="mb-3 flex flex-col gap-2">
-            {featGrants(sheet).map((grant, index) => <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
-              <p className="text-sm font-semibold text-ink">{grant.name}</p>
-              <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale del Giocatore 2024, p. ${grant.page}` : ""}</p>
-              {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
-            </div>)}
-          </div>
-          <h3 className={sectionTitle}>Talenti</h3>
-          <div className="flex flex-col gap-2">
-            {sheet.talenti.length === 0 && <p className="text-sm text-ink-faint">Nessun talento registrato.</p>}
-            {sheet.talenti.map((talento, index) => <div key={index} className={card}>
-              <p className="text-sm font-semibold text-ink"><InfoLabel id={`valore:talento:${talento.nome}`} title={talento.nome || "Talento"} /></p>
-              {talento.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{talento.scelte}</p>}
-            </div>)}
-          </div>
+        <div className="flex flex-col gap-5">
+          <section>
+            <h3 className={sectionTitle}>Privilegi di classe</h3>
+            <div className="flex flex-col gap-2">
+              {classGrants.length === 0 && <p className="text-sm text-ink-faint">Nessun privilegio di classe.</p>}
+              {classGrants.map(renderGrant)}
+            </div>
+          </section>
+          <section>
+            <h3 className={sectionTitle}>Tratti della specie</h3>
+            <div className="flex flex-col gap-2">
+              {speciesGrants.length === 0 && <p className="text-sm text-ink-faint">Nessun tratto della specie.</p>}
+              {speciesGrants.map(renderGrant)}
+            </div>
+          </section>
+          {(otherGrants.length > 0 || recordedOtherPrivileges.length > 0) && <section>
+            <h3 className={sectionTitle}>Altri privilegi</h3>
+            <div className="flex flex-col gap-2">
+              {otherGrants.map(renderGrant)}
+              {recordedOtherPrivileges.map((pr, index) => {
+                const savedIndex = sheet.privilegi.indexOf(pr);
+                return <div key={`${pr.titolo}:${index}`} className={card}>
+                  <p className="text-sm font-semibold text-ink"><InfoLabel id={`privilegio:${savedIndex}`} title={pr.titolo || "Privilegio"} /></p>
+                  {pr.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{pr.scelte}</p>}
+                </div>;
+              })}
+            </div>
+          </section>}
+          <section>
+            <h3 className={sectionTitle}>Talenti</h3>
+            <div className="flex flex-col gap-2">
+              {grantedFeats.length === 0 && recordedOtherFeats.length === 0 && <p className="text-sm text-ink-faint">Nessun talento registrato.</p>}
+              {grantedFeatCards.map(({ grant, saved }, index) =>
+                <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
+                  <p className="text-sm font-semibold text-ink">{saved
+                    ? <InfoLabel id={`valore:talento:${saved.nome}`} title={saved.nome} />
+                    : grant.name}</p>
+                  <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
+                  {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
+                  {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
+                </div>)}
+              {recordedOtherFeats.map((talento, index) => <div key={`${talento.nome}:${index}`} className={card}>
+                <p className="text-sm font-semibold text-ink"><InfoLabel id={`valore:talento:${talento.nome}`} title={talento.nome || "Talento"} /></p>
+                {talento.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{talento.scelte}</p>}
+              </div>)}
+            </div>
+          </section>
+          <section>
+            <h3 className={sectionTitle}>Risorse dei privilegi e talenti</h3>
+            <div className="flex flex-col gap-2">
+              {(sheet.risorse ?? []).length === 0 && <p className="text-sm text-ink-faint">Nessuna risorsa registrata.</p>}
+              {(sheet.risorse ?? []).map((resource, index) => <div key={index} className={card}>
+                <p className="text-sm font-semibold text-ink">{resource.nome}</p>
+                <p className="text-sm text-ink-soft">{resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>
+                <p className="text-xs text-ink-soft">Fonte: {resource.fonte}{resource.ricarica ? ` · Ricarica: ${resource.ricarica}` : ""}</p>
+              </div>)}
+            </div>
+          </section>
+          {(sheet.fontiCompetenze ?? []).length > 0 && <section>
+            <h3 className={sectionTitle}>Fonti delle competenze</h3>
+            <div className="flex flex-col gap-1.5">
+              {(sheet.fontiCompetenze ?? []).map((record, index) => (
+                <p key={index} className="text-sm text-ink-soft">{record.valore} · {record.fonte}</p>
+              ))}
+            </div>
+          </section>}
         </div>
       ),
     },
@@ -887,8 +920,7 @@ export default function CharacterClient({
     "Armi",
     "Equipaggiamento",
     "Monete",
-    "Privilegi",
-    "Talenti",
+    "Capacità",
     "Appunti",
   ];
   const pages = pageOrder.map((t) => pageDefs.find((p) => p.title === t)!);
