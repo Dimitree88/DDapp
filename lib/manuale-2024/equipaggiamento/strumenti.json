@@ -3,6 +3,735 @@
   "modulo": "E03",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:strumenti",
+      "tipo": "etichetta",
+      "nome": "Strumenti",
+      "testo": [{ "pagina": 220, "da": "Strumenti", "a": "Competenza negli strumenti" }],
+      "pagina": 220,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["le seguenti voci: Caratteristica.", "le seguenti voci:\n\nCaratteristica."]]
+    },
+    {
+      "id": "etichetta:competenze-strumenti",
+      "tipo": "etichetta",
+      "nome": "Competenze negli strumenti",
+      "alias": ["Competenza negli strumenti"],
+      "testo": [
+        { "pagina": 220, "da": "Competenza negli strumenti", "a": "Strumenti da artigiano" },
+        { "pagina": 14, "da": "Strumenti. Se", "includiDa": true, "finePagina": true }
+      ],
+      "pagina": 220,
+      "pagine": [14],
+      "righeMatrice": ["equipaggiamento.strumenti.etichetta"],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "categoria-strumenti:artigiano",
+      "tipo": "categoria",
+      "nome": "Strumenti da artigiano",
+      "alias": ["Strumento da artigiano"],
+      "testo": [{ "pagina": 220, "da": "Strumenti da artigiano", "a": "Scorte da alchimista" }],
+      "pagina": 220,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "categoria-strumenti:altri",
+      "tipo": "categoria",
+      "nome": "Altri strumenti",
+      "testo": [{ "pagina": 221, "da": "Altri strumenti", "a": "Arnesi da falsario" }],
+      "pagina": 221,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:scorte-da-alchimista",
+      "tipo": "strumento",
+      "nome": "Scorte da alchimista",
+      "testo": [{ "pagina": 220, "da": "Scorte da alchimista (50 mo)", "dopo": "Peso: 4 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "INT",
+      "peso": "4 kg",
+      "pesoKg": 4,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:scorte-da-birraio",
+      "tipo": "strumento",
+      "nome": "Scorte da birraio",
+      "testo": [{ "pagina": 220, "da": "Scorte da birraio (20 mo)", "dopo": "Peso: 4,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "INT",
+      "peso": "4,5 kg",
+      "pesoKg": 4.5,
+      "costo": "20 mo",
+      "costoMo": 20,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:scorte-da-calligrafo",
+      "tipo": "strumento",
+      "nome": "Scorte da calligrafo",
+      "testo": [{ "pagina": 220, "da": "Scorte da calligrafo (10 mo)", "dopo": "Peso: 2,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "DES",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-calzolaio",
+      "tipo": "strumento",
+      "nome": "Strumenti da calzolaio",
+      "testo": [{ "pagina": 220, "da": "Strumenti da calzolaio (5 mo)", "dopo": "Peso: 2,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "DES",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-cartografo",
+      "tipo": "strumento",
+      "nome": "Strumenti da cartografo",
+      "testo": [{ "pagina": 220, "da": "Strumenti da cartografo (15 mo)", "dopo": "Peso: 3 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "SAG",
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "15 mo",
+      "costoMo": 15,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-conciatore",
+      "tipo": "strumento",
+      "nome": "Strumenti da conciatore",
+      "testo": [{ "pagina": 220, "da": "Strumenti da conciatore (5 mo)", "dopo": "Peso: 2,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "DES",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-fabbro",
+      "tipo": "strumento",
+      "nome": "Strumenti da fabbro",
+      "testo": [{ "pagina": 220, "da": "Strumenti da fabbro (20 mo)", "dopo": "Peso: 4 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "FOR",
+      "peso": "4 kg",
+      "pesoKg": 4,
+      "costo": "20 mo",
+      "costoMo": 20,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-falegname",
+      "tipo": "strumento",
+      "nome": "Strumenti da falegname",
+      "testo": [{ "pagina": 220, "da": "Strumenti da falegname (8 mo)", "dopo": "Peso: 3 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "FOR",
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "8 mo",
+      "costoMo": 8,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-gioielliere",
+      "tipo": "strumento",
+      "nome": "Strumenti da gioielliere",
+      "testo": [{ "pagina": 220, "da": "Strumenti da gioielliere (25 mo)", "dopo": "Peso: 1 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "INT",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-intagliatore",
+      "tipo": "strumento",
+      "nome": "Strumenti da intagliatore",
+      "testo": [{ "pagina": 220, "da": "Strumenti da intagliatore (1 mo)", "dopo": "Peso: 2,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "DES",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-inventore",
+      "tipo": "strumento",
+      "nome": "Strumenti da inventore",
+      "testo": [{ "pagina": 220, "da": "Strumenti da inventore (50 mo)", "dopo": "Peso: 5 kg" }],
+      "pagina": 220,
+      "categoria": "artigiano",
+      "caratteristica": "DES",
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["dopo l minuto", "dopo 1 minuto"]]
+    },
+    {
+      "id": "strumento:strumenti-da-muratore",
+      "tipo": "strumento",
+      "nome": "Strumenti da muratore",
+      "testo": [{ "pagina": 221, "da": "Strumenti da muratore (10 mo)", "dopo": "Peso: 4 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "artigiano",
+      "caratteristica": "FOR",
+      "peso": "4 kg",
+      "pesoKg": 4,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-pittore",
+      "tipo": "strumento",
+      "nome": "Strumenti da pittore",
+      "testo": [{ "pagina": 221, "da": "Strumenti da pittore (10 mo)", "dopo": "Peso: 2,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "artigiano",
+      "caratteristica": "SAG",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-soffiatore",
+      "tipo": "strumento",
+      "nome": "Strumenti da soffiatore",
+      "testo": [{ "pagina": 221, "da": "Strumenti da soffiatore (30 mo)", "dopo": "Peso: 2,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "artigiano",
+      "caratteristica": "INT",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "30 mo",
+      "costoMo": 30,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-tessitore",
+      "tipo": "strumento",
+      "nome": "Strumenti da tessitore",
+      "testo": [{ "pagina": 221, "da": "Strumenti da tessitore (1 mo)", "dopo": "Peso: 2,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "artigiano",
+      "caratteristica": "DES",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-vasaio",
+      "tipo": "strumento",
+      "nome": "Strumenti da vasaio",
+      "testo": [{ "pagina": 221, "da": "Strumenti da vasaio (10 mo)", "dopo": "Peso: 1,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "artigiano",
+      "caratteristica": "INT",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:utensili-da-cuoco",
+      "tipo": "strumento",
+      "nome": "Utensili da cuoco",
+      "testo": [{ "pagina": 221, "da": "Utensili da cuoco (1 mo)", "dopo": "Peso: 4 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "artigiano",
+      "caratteristica": "SAG",
+      "peso": "4 kg",
+      "pesoKg": 4,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:arnesi-da-falsario",
+      "tipo": "strumento",
+      "nome": "Arnesi da falsario",
+      "testo": [{ "pagina": 221, "da": "Arnesi da falsario (15 mo)", "dopo": "Peso: 2,5 kg" }],
+      "pagina": 221,
+      "categoria": "altro",
+      "caratteristica": "DES",
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "15 mo",
+      "costoMo": 15,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:arnesi-da-scasso",
+      "tipo": "strumento",
+      "nome": "Arnesi da scasso",
+      "testo": [{ "pagina": 221, "da": "Arnesi da scasso (25 mo)", "dopo": "Peso: 0,5 kg" }],
+      "pagina": 221,
+      "categoria": "altro",
+      "caratteristica": "DES",
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:borsa-da-erborista",
+      "tipo": "strumento",
+      "nome": "Borsa da erborista",
+      "testo": [{ "pagina": 221, "da": "Borsa da erborista (5 mo)", "dopo": "Peso: 1,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "altro",
+      "caratteristica": "INT",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:gioco",
+      "tipo": "strumento",
+      "nome": "Gioco",
+      "testo": [{ "pagina": 221, "da": "Gioco (Variabile)", "dopo": "Peso:" }],
+      "correzioni": [[" Varianti: ", "\n\nVarianti: "], ["-\n\nUtilizzo:", "Utilizzo:"]],
+      "pagina": 221,
+      "categoria": "altro",
+      "caratteristica": "SAG",
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "Variabile",
+      "costoMo": null,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:sostanze-da-avvelenatore",
+      "tipo": "strumento",
+      "nome": "Sostanze da avvelenatore",
+      "testo": [{ "pagina": 221, "da": "Sostanze da avvelenatore (50 mo)", "dopo": "Peso: 1 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "altro",
+      "caratteristica": "INT",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumenti-da-navigatore",
+      "tipo": "strumento",
+      "nome": "Strumenti da navigatore",
+      "testo": [{ "pagina": 221, "da": "Strumenti da navigatore (25 mo)", "dopo": "Peso: 1 kg" }],
+      "pagina": 221,
+      "categoria": "altro",
+      "caratteristica": "SAG",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale",
+      "tipo": "strumento",
+      "nome": "Strumento musicale",
+      "testo": [{ "pagina": 221, "da": "Strumento musicale (Variabile)", "dopo": "Peso: variabile" }],
+      "correzioni": [
+        [" Varianti: ", "\n\nVarianti: "],
+        ["improv- visarne", "improvvisarne"],
+        [
+          "flauto di pan (12 mo, l kg), ciaramella (2 mo, 0,5 kg), corno (3 mo, l kg), liuto (35 mo, l kg), lira (30 mo, l kg), viola",
+          "corno (3 mo, 1 kg), liuto (35 mo, 1 kg), lira (30 mo, 1 kg), flauto di pan (12 mo, 1 kg), ciaramella (2 mo, 0,5 kg), viola"
+        ]
+      ],
+      "pagina": 221,
+      "categoria": "altro",
+      "caratteristica": "CAR",
+      "peso": "variabile",
+      "pesoKg": null,
+      "costo": "Variabile",
+      "costoMo": null,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:trucchi-per-il-camuffamento",
+      "tipo": "strumento",
+      "nome": "Trucchi per il camuffamento",
+      "testo": [{ "pagina": 221, "da": "Trucchi per il camuffamento (25 mo)", "dopo": "Peso: 1,5 kg" }],
+      "correzioni": [[" Creazione: ", "\n\nCreazione: "]],
+      "pagina": 221,
+      "categoria": "altro",
+      "caratteristica": "CAR",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:gioco:dadi",
+      "tipo": "strumento",
+      "nome": "Dadi",
+      "pagina": 221,
+      "varianteDi": "Gioco",
+      "tabelle": [
+        {
+          "titolo": "Gioco: varianti",
+          "pagina": 221,
+          "colonne": ["Gioco", "Costo"],
+          "righe": [["Dadi", "1 ma"]]
+        }
+      ],
+      "categoria": "gioco",
+      "caratteristica": "SAG",
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 ma",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:gioco:scacchi-dei-draghi",
+      "tipo": "strumento",
+      "nome": "Scacchi dei draghi",
+      "pagina": 221,
+      "varianteDi": "Gioco",
+      "tabelle": [
+        {
+          "titolo": "Gioco: varianti",
+          "pagina": 221,
+          "colonne": ["Gioco", "Costo"],
+          "righe": [["Scacchi dei draghi", "1 mo"]]
+        }
+      ],
+      "categoria": "gioco",
+      "caratteristica": "SAG",
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:gioco:carte-da-gioco",
+      "tipo": "strumento",
+      "nome": "Carte da gioco",
+      "pagina": 221,
+      "varianteDi": "Gioco",
+      "tabelle": [
+        {
+          "titolo": "Gioco: varianti",
+          "pagina": 221,
+          "colonne": ["Gioco", "Costo"],
+          "righe": [["Carte da gioco", "5 ma"]]
+        }
+      ],
+      "categoria": "gioco",
+      "caratteristica": "SAG",
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "5 ma",
+      "costoMo": 0.5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:gioco:tre-draghi-al-buio",
+      "tipo": "strumento",
+      "nome": "Tre Draghi al Buio",
+      "pagina": 221,
+      "varianteDi": "Gioco",
+      "tabelle": [
+        {
+          "titolo": "Gioco: varianti",
+          "pagina": 221,
+          "colonne": ["Gioco", "Costo"],
+          "righe": [["Tre Draghi al Buio", "1 mo"]]
+        }
+      ],
+      "categoria": "gioco",
+      "caratteristica": "SAG",
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:cornamusa",
+      "tipo": "strumento",
+      "nome": "Cornamusa",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Cornamusa", "30 mo", "3 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "30 mo",
+      "costoMo": 30,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:tamburo",
+      "tipo": "strumento",
+      "nome": "Tamburo",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Tamburo", "6 mo", "1,5 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "6 mo",
+      "costoMo": 6,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:dulcimer",
+      "tipo": "strumento",
+      "nome": "Dulcimer",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Dulcimer", "25 mo", "5 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "costo": "25 mo",
+      "costoMo": 25,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:flauto",
+      "tipo": "strumento",
+      "nome": "Flauto",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Flauto", "2 mo", "0,5 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:corno",
+      "tipo": "strumento",
+      "nome": "Corno",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Corno", "3 mo", "1 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "3 mo",
+      "costoMo": 3,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:liuto",
+      "tipo": "strumento",
+      "nome": "Liuto",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Liuto", "35 mo", "1 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "35 mo",
+      "costoMo": 35,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:lira",
+      "tipo": "strumento",
+      "nome": "Lira",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Lira", "30 mo", "1 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "30 mo",
+      "costoMo": 30,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:flauto-di-pan",
+      "tipo": "strumento",
+      "nome": "Flauto di pan",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Flauto di pan", "12 mo", "1 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "12 mo",
+      "costoMo": 12,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:ciaramella",
+      "tipo": "strumento",
+      "nome": "Ciaramella",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Ciaramella", "2 mo", "0,5 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "strumento:strumento-musicale:viola",
+      "tipo": "strumento",
+      "nome": "Viola",
+      "pagina": 221,
+      "varianteDi": "Strumento musicale",
+      "tabelle": [
+        {
+          "titolo": "Strumento musicale: varianti",
+          "pagina": 221,
+          "colonne": ["Strumento", "Costo", "Peso"],
+          "righe": [["Viola", "30 mo", "0,5 kg"]]
+        }
+      ],
+      "categoria": "strumento musicale",
+      "caratteristica": "CAR",
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "30 mo",
+      "costoMo": 30,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
