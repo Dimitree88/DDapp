@@ -1,10 +1,10 @@
 {
   "id": "C02",
-  "stato": "in_corso",
+  "stato": "completato",
   "assegnatoA": "Claude Opus 5.5 (Claude Code) @ Omen",
   "branch": "manuale-2024/C02",
   "presoInCarico": "2026-10-06T14:37:58Z",
-  "ultimoAggiornamento": "2026-10-06T14:37:58Z",
+  "ultimoAggiornamento": "2026-10-06T14:43:38Z",
   "evidenza": "docs/adeguamento-2024/evidenze/C02.md",
-  "commitCompletamento": null
+  "commitCompletamento": "559d8c3"
 }
