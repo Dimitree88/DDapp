@@ -770,17 +770,50 @@ export default function CharacterClient({
       title: "Incantesimi",
       body: (
         <div className="flex flex-col gap-3">
-          {spellcastingStats(sheet) && <div className={card}><p>CD incantesimi: {spellcastingStats(sheet)?.dc} · Attacco magico: {spellcastingStats(sheet)?.attack}</p><p className="text-sm text-ink-soft">{spellcastingStats(sheet)?.formula}</p></div>}
-          {spellSlots(sheet).some((slot) => slot.maximum > 0) && <div className={card}><h3 className={sectionTitle}>Slot incantesimo spesi</h3><div className="grid grid-cols-3 gap-2">{spellSlots(sheet).filter((slot) => slot.maximum > 0).map((slot) => <TextField key={slot.level} label={`Livello ${slot.level} / ${slot.maximum}`} showInfo={false} numeric="unsigned" value={String(sheet.slotSpesi?.[String(slot.level)] ?? 0)} onChange={(v) => patch({ slotSpesi: { ...sheet.slotSpesi, [String(slot.level)]: Number(v || 0) } })} />)}</div></div>}
+          {spellcastingStats(sheet) && <div className="space-y-1">
+            <p>CD incantesimi: {spellcastingStats(sheet)?.dc}</p>
+            <p>Attacco magico: {spellcastingStats(sheet)?.attack}</p>
+            <p className="text-sm text-ink-soft">Calcolo CD: {spellcastingStats(sheet)?.formula}</p>
+          </div>}
+          {spellSlots(sheet).some((slot) => slot.maximum > 0) && <div className={card}>
+            <h3 className={sectionTitle}>Slot incantesimo</h3>
+            <div className="divide-y divide-line">
+              {spellSlots(sheet).filter((slot) => slot.maximum > 0).map((slot) => <div key={slot.level} className="flex items-center justify-between gap-3 py-2 first:pt-0 last:pb-0">
+                <div>
+                  <p className="text-sm font-semibold text-ink">Livello {slot.level}</p>
+                  <p className="text-xs text-ink-soft">Totali: {slot.maximum} · Spesi: {slot.spent}</p>
+                </div>
+                <p className="shrink-0 text-sm font-semibold text-ink">Disponibili: {slot.maximum - slot.spent}</p>
+              </div>)}
+            </div>
+          </div>}
           <h3 className={sectionTitle}>Incantesimi</h3>
           {sheet.incantesimi.length === 0 && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
           <div className="flex flex-col gap-2">
-            {sheet.incantesimi.map((inc, index) => <div key={index} className={card}>
-              {inc.nome ? <InfoLabel id={`incantesimo:${inc.nome}`} title={inc.nome} className="text-sm font-semibold text-ink" />
-                : <p className="text-sm text-ink-faint">Incantesimo senza nome</p>}
-              {(inc.fonte || inc.stato) && <p className="mt-1 text-xs text-ink-soft">{inc.fonte ? `Fonte registrata: ${{ classe: "Classe", talento: "Talento", privilegio: "Privilegio", altro: "Altro" }[inc.fonte]}` : ""}{inc.fonte && inc.stato ? " · " : ""}{inc.stato ? `Stato registrato: ${{ conosciuto: "Conosciuto", libro: "Nel libro", preparato: "Preparato", semprePreparato: "Sempre preparato", concesso: "Concesso" }[inc.stato]}` : ""}</p>}
-              {inc.fonte && inc.fonte !== "classe" && inc.caratteristica && <p className="mt-1 text-xs text-ink-soft">Caratteristica di lancio: {inc.caratteristica}</p>}
-            </div>)}
+            {sheet.incantesimi.map((inc, index) => {
+              const detail = inc.nome ? spellDetails(inc.nome) : null;
+              const ritual = Boolean(detail?.tempo && /rituale/i.test(detail.tempo));
+              const concentration = Boolean(detail?.durata && /concentrazione/i.test(detail.durata));
+              const summary = [
+                detail && (detail.livello === 0 ? "Trucchetto" : `${detail.livello}° livello`),
+                detail?.tempo && `Lancio: ${detail.tempo.replace(/\s+o rituale/i, "")}`,
+                detail?.gittata && `Gittata: ${detail.gittata}`,
+              ].filter(Boolean).join(" · ");
+              return <div key={index} className={card}>
+                <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+                  {inc.nome ? <InfoLabel id={`incantesimo:${inc.nome}`} title={inc.nome} className="text-sm font-semibold text-ink" />
+                    : <p className="text-sm text-ink-faint">Incantesimo senza nome</p>}
+                  {inc.stato && <span className="text-xs font-medium text-ink-soft">{{ conosciuto: "Conosciuto", libro: "Nel libro", preparato: "Preparato", semprePreparato: "Sempre preparato", concesso: "Concesso" }[inc.stato]}</span>}
+                </div>
+                {summary && <p className="mt-1 text-xs text-ink-soft">{summary}</p>}
+                {(concentration || ritual) && <p className="mt-1 flex flex-wrap gap-x-2 text-xs font-medium text-accent">
+                  {concentration && <span>Concentrazione</span>}
+                  {ritual && <span>Rituale</span>}
+                </p>}
+                {inc.fonte && <p className="mt-1 text-xs text-ink-soft">Fonte registrata: {{ classe: "Classe", talento: "Talento", privilegio: "Privilegio", altro: "Altro" }[inc.fonte]}</p>}
+                {inc.fonte && inc.fonte !== "classe" && inc.caratteristica && <p className="mt-1 text-xs text-ink-soft">Caratteristica di lancio: {inc.caratteristica}</p>}
+              </div>;
+            })}
           </div>
         </div>
       ),
