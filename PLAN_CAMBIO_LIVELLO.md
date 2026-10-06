@@ -54,6 +54,7 @@ direttamente nel PDF per questo piano:
 | 202 | Il talento Robusto aumenta i PF massimi subito e a ogni livello successivo. |
 | 137, 211, 301 | Esempi di velocità modificata rispettivamente da privilegio di classe, talento e incantesimo; non sono modifiche libere della scheda. |
 | 219 | Un'armatura con requisito di Forza non soddisfatto riduce la velocità di 3 metri. |
+| 37, 101, 142 | Alla creazione: Comune e due lingue standard scelte o tirate. Il Ladro ottiene Gergo Ladresco e una lingua scelta al 1° livello; il Ranger sceglie due lingue con Esploratore Esperto al 2° livello. |
 | 51–52 | Esempio di tabella di classe, privilegio con risorsa, sottoclasse, talento concesso da un privilegio. |
 | 177, 197, 199 | Talento conferito dal background; talento di Origini aggiuntivo dell'Umano; categorie, prerequisiti e ripetibilità dei talenti. |
 
@@ -100,6 +101,7 @@ verificato della classe, sottoclasse, talento o incantesimo pertinente.
 | Livello e PE | Aumentare di 1 il livello solo al salvataggio. Conservare i PE registrati; mostrare la soglia e l'eventuale conferma sotto soglia. |
 | PF massimi e Dadi Vita | Aggiungere un Dado Vita del tipo della classe. Chiedere tiro del dado oppure valore fisso della tabella; sommare Costituzione, rispettando il minimo indicato. Conservare metodo e risultato per quel livello. Ricalcolare i PF massimi se il modificatore di Costituzione cambia, includendo l'incremento per i livelli già acquisiti. Applicare incrementi verificati di specie, talenti e privilegi (per esempio Robustezza nanica e Robusto); distinguere Dadi Vita totali e Dadi Vita spesi. Nessuna modifica diretta ai due massimi nella scheda. |
 | Privilegi | Conferire quelli previsti al nuovo livello dalla classe e dalla sottoclasse già scelta. Mostrare le decisioni che richiedono: sottoclasse, opzioni interne, competenze, padronanze, lingue o altre scelte effettivamente presenti nel testo. Non duplicare un privilegio già conferito. |
+| Lingue | Nessuna aggiunta libera dalla scheda. Alla creazione registrare Comune e le due lingue standard scelte o tirate, con fonte. Ai livelli successivi aggiungere una lingua solo quando un privilegio verificato lo concede; chiedere la scelta soltanto dall'elenco consentito e registrare fonte, livello e pagina. Per il primo rilascio verificare almeno Esploratore Esperto del Ranger al 2° livello; le concessioni del Ladro e del Druido al 1° livello appartengono alla creazione. Le note sulle lingue restano testo personale modificabile. |
 | Talenti | Quando un privilegio concede un talento, creare una scelta vincolata alla sua fonte: categoria, prerequisiti e ripetibilità verificati. Registrare anche le scelte interne al talento e applicare i suoi effetti soltanto dove l'app li calcola davvero. |
 | Caratteristiche e competenza | Applicare gli incrementi scelti tramite il talento pertinente, con limiti e requisiti verificati. Ricalcolare i modificatori e il bonus di competenza del nuovo livello; non salvare copie ridondanti dei valori derivabili. |
 | Calcoli dipendenti | Aggiornare i risultati realmente calcolati: tiri salvezza, abilità e Maestria, iniziativa, percezione passiva, attacchi e danni, CA, velocità, capacità, CD e attacchi degli incantesimi. Per la velocità distinguere base della specie, variazioni permanenti da livello/talento e variazioni da equipaggiamento, condizioni, privilegi o incantesimi durante il gioco; aggiornare il valore solo tramite l'evento pertinente. Ogni effetto non implementato va indicato come da gestire in un flusso guidato, senza dichiararlo applicato. |
@@ -143,6 +145,11 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   server. Gli altri eventi avranno transizioni dedicate in una fase successiva.
   L'Allineamento si raccoglie nel flusso di creazione e non è
   un effetto del cambio livello.
+- Mostrare le lingue conosciute in sola lettura e lasciare modificabili solo
+  le note. `saveSheet` rifiuta variazioni dirette a `lingue`; creazione e
+  avanzamento useranno transizioni dedicate che verificano fonte, numero di
+  scelte e insieme di lingue ammesse. Riconciliare le schede pregresse senza
+  eliminare lingue storiche prive di fonte certa.
 - Per PF massimi e velocità conservare separatamente valore base, fonti e
   variazioni applicabili, inclusi gli effetti temporanei e la loro scadenza.
   I Dadi Vita totali derivano dai livelli nelle classi; quelli spesi sono

@@ -49,9 +49,12 @@ export async function saveSheet(
     const previous = normalizeSheet(current.data);
     const locked = creationErrors(previous, normalized);
     if (locked.length) return { ok: false, error: `Scelte bloccate: ${locked.join(", ")}` };
-    const protectedFields = ["puntiFeritaMax", "dadiVita", "velocita", "allineamento"] as const;
+    const protectedFields = ["puntiFeritaMax", "dadiVita", "velocita", "allineamento", "ispirazioneEroica", "puntiEsperienza"] as const;
     const directChanges = protectedFields.filter((field) => previous[field] !== normalized[field]);
     if (directChanges.length) return { ok: false, error: `Modifiche non consentite dalla scheda: ${directChanges.join(", ")}` };
+    if (JSON.stringify(previous.lingue) !== JSON.stringify(normalized.lingue)) {
+      return { ok: false, error: "Le lingue si modificano solo nei flussi guidati di creazione e avanzamento." };
+    }
     const changes = diffSheet(previous, normalized);
     if (current.name !== cleanName) changes.unshift({ field: "Nome del personaggio", before: current.name, after: cleanName });
     const hasRemovedBonus = [...current.data.armi, ...current.data.equipaggiamento]

@@ -19,6 +19,14 @@ dalla vista Master appartiene alla Sessione aperta e appare **subito** nella
 scheda del personaggio. La chiusura archivia eventi e riepilogo, senza
 rimandare fino a quel momento l'aggiornamento delle schede.
 
+Decisione successiva: Ispirazione eroica e PE sono in sola lettura nella
+scheda del personaggio. `saveSheet` rifiuta modifiche dirette a questi campi.
+La vista Master registra concessione, spesa o trasferimento dell'Ispirazione
+e assegnazione o correzione dei PE con azioni dedicate, fonte e storico.
+L'Ispirazione può essere concessa anche da una regola e spesa dal personaggio:
+la vista Master registra questi eventi, senza attribuirli automaticamente a
+una decisione del DM. Il wizard di cambio livello legge i PE ma non li assegna.
+
 Il Master registra gli esiti degli eventi. L'app calcola soltanto le
 conseguenze sostenute dal PDF locale e dai dati verificati della scheda.
 Scelte permanenti di classe, talenti, privilegi e avanzamento appartengono ai

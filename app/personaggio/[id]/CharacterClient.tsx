@@ -62,7 +62,6 @@ import { DiceText } from "@/components/DiceText";
 const classi = Object.keys(regole.classi);
 const sottoclassi = regole.classi as Record<string, string[]>;
 const lignaggi = regole.lignaggi as Record<string, string[]>;
-const lingue = [...regole.lingue.standard, ...regole.lingue.rare];
 const historyDayFormatter = new Intl.DateTimeFormat("it-IT", {
   dateStyle: "full", timeZone: "Europe/Rome",
 });
@@ -125,66 +124,6 @@ function toList(v: unknown): string[] {
       .map((s) => s.trim())
       .filter(Boolean);
   return [];
-}
-
-// Lista puntata con voci modificabili (doppio tocco) e aggiungi/rimuovi.
-function StringListEditor({
-  items,
-  onChange,
-  addLabel,
-  options,
-  lockExisting = false,
-  helpId,
-}: {
-  items: string[];
-  onChange: (v: string[]) => void;
-  addLabel: string;
-  options?: readonly string[];
-  lockExisting?: boolean;
-  helpId?: string;
-}) {
-  const { unlocked } = useContext(EditContext);
-  return (
-    <ul className="flex flex-col gap-1.5">
-      {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
-      {items.map((it, i) => (
-        <li key={i} className="flex items-center gap-2">
-          <span className="text-ink-faint" aria-hidden>
-            •
-          </span>
-          <div className="min-w-0 flex-1">
-            {options && lockExisting && it ?
-              (helpId === "Lingue" && !languageDetails(it)) ?
-                <span className="block w-full rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">{it}</span> :
-                <InfoLabel id={helpId === "Lingue" ? `lingua:${it}` : helpId === "Competenze armi" ? `arma:${it}` : helpId ?? it} title={it} className="w-full rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" /> : options ?
-                <TextField label="" helpId={helpId} value={it} options={options} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} /> :
-                <InlineInput value={it} onChange={(v) => onChange(items.map((x, idx) => (idx === i ? v : x)))} className="flex-1" placeholder="…" />}
-          </div>
-          {unlocked && !(lockExisting && it) && (
-            <button
-              type="button"
-              onClick={() => onChange(items.filter((_, idx) => idx !== i))}
-              aria-label="Rimuovi"
-              className="shrink-0 px-1 text-sm font-medium text-red-800"
-            >
-              ×
-            </button>
-          )}
-        </li>
-      ))}
-      {unlocked && (
-        <li>
-          <button
-            type="button"
-            onClick={() => onChange([...items, ""])}
-            className="rounded-lg border border-dashed border-line px-3 py-1.5 text-sm font-medium text-ink-soft active:bg-card/60"
-          >
-            + {addLabel}
-          </button>
-        </li>
-      )}
-    </ul>
-  );
 }
 
 function WeaponCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (update: Partial<Sheet>) => void }) {
@@ -766,7 +705,7 @@ export default function CharacterClient({
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
             <TextField label="Punti Ferita Massimi" showInfo={false} locked value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} onChange={() => {}} />
-            <TextField label="Ispirazione Eroica" showInfo={false} showEditIcon value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
+            <TextField label="Ispirazione Eroica" showInfo={false} locked value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} onChange={() => {}} />
           </div>
           <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
           <div className={grid2}>
@@ -775,7 +714,7 @@ export default function CharacterClient({
           </div>
           {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} showEditIcon value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} options={sottoclassi[sheet.classe] ?? []} locked={Boolean(sheet.sottoclasse)} onChange={(v) => patch({ sottoclasse: v })} />}
           <div className={grid2}>
-            <TextField label="Punti Esperienza" showInfo={false} showEditIcon value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} numeric="unsigned" onChange={(v) => patch({ puntiEsperienza: v })} />
+            <TextField label="Punti Esperienza" showInfo={false} locked value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} onChange={() => {}} />
           </div>
           <div className={grid2}>
             <ComputedField label="Iniziativa" value={initiativeBonus(sheet)} onExplain={(button) => openCalculation({ kind: "initiative" }, button)} />
@@ -807,15 +746,17 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-2">
           <h3 className={sectionTitle}>Lingue</h3>
-          <StringListEditor
-            items={toList(sheet.lingue)}
-            onChange={(v) => patch({ lingue: v })}
-            addLabel="Aggiungi lingua"
-            options={lingue}
-            lockExisting
-            helpId="Lingue"
-          />
-          <TextField label="Note lingue" showInfo={false} value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
+          <ul className="flex flex-col gap-1.5">
+            {toList(sheet.lingue).map((language) => (
+              <li key={language} className="flex items-center gap-2">
+                <span className="text-ink-faint" aria-hidden>•</span>
+                {languageDetails(language) ?
+                  <InfoLabel id={`lingua:${language}`} title={language} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" /> :
+                  <span className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">{language}</span>}
+              </li>
+            ))}
+          </ul>
+          <TextField label="Note lingue" showInfo={false} showEditIcon value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
         </div>
       ),
     },
@@ -1091,6 +1032,18 @@ export default function CharacterClient({
         </div>
       ),
     },
+    {
+      title: "Appunti",
+      body: (
+        <textarea
+          aria-label="Appunti"
+          placeholder="Scrivi qui i tuoi appunti…"
+          value={sheet.note}
+          onChange={(event) => patch({ note: event.target.value })}
+          className="h-full min-h-full w-full resize-none rounded-xl border border-line bg-card/70 p-4 text-base leading-relaxed text-ink shadow-sm outline-none placeholder:text-ink-faint focus:border-accent"
+        />
+      ),
+    },
   ];
 
   const pageOrder = [
@@ -1104,6 +1057,7 @@ export default function CharacterClient({
     "Monete",
     "Privilegi",
     "Talenti",
+    "Appunti",
   ];
   const pages = pageOrder.map((t) => pageDefs.find((p) => p.title === t)!);
 
