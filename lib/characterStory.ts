@@ -4,8 +4,10 @@ import { featCatalog } from "./featCatalog";
 import { proficiencyBonus } from "./abilityBonus";
 import { classSavingThrows, classWeaponProficiencies, classArmorProficiencies, classToolProficiencies } from "./classSavingThrows";
 import backgrounds from "./manuale-2024-backgrounds.json";
+import { privilegioManuale, voceManuale } from "./manuale-2024";
 
-export type StoryEvent = { title: string; details: string[] };
+export type StoryDetail = { label: string; consequences?: string[] };
+export type StoryEvent = { title: string; details: StoryDetail[] };
 
 const present = (value: string | undefined) => Boolean(value?.trim());
 const unique = (values: string[]) => [...new Set(values.filter(Boolean))];
@@ -31,16 +33,20 @@ function competencyDetails(sheet: Sheet, kind: string, name: string): string[] {
   });
 }
 
-function privilegeDetails(grants: Grant[], sheet: Sheet): string[] {
+const detail = (label: string): StoryDetail => ({ label });
+const paragraphs = (description: string | null | undefined) => description?.split(/\n\s*\n/).map((part) => part.trim()).filter(Boolean) ?? [];
+
+function privilegeDetails(grants: Grant[], sheet: Sheet): StoryDetail[] {
   return grants.flatMap((grant) => {
     const chosen = sheet.privilegi.find((item) => item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0)?.scelte.trim();
-    const resources = (sheet.risorse ?? []).filter((item) =>
-      item.fonte.toLocaleLowerCase("it").includes(grant.name.toLocaleLowerCase("it"))
-      || item.nome.toLocaleLowerCase("it").includes(grant.name.toLocaleLowerCase("it")));
-    return [
-      `Privilegio: ${grant.name}${chosen ? ` · ${chosen}` : ""}`,
-      ...resources.map((item) => `Risorsa: ${item.nome}`),
-    ];
+    const manual = privilegioManuale(grant.name, {
+      classe: sheet.classe, sottoclasse: sheet.sottoclasse,
+      specie: sheet.specie, lignaggio: sheet.lignaggio, livello: grant.level,
+    });
+    return [{
+      label: `Privilegio: ${grant.name}${chosen ? ` · ${chosen}` : ""}`,
+      consequences: paragraphs(manual?.descrizione),
+    }];
   });
 }
 
@@ -72,33 +78,43 @@ function featGrantLevel(grant: Grant, sheet: Sheet): number {
   return 1;
 }
 
-function featDetails(grants: Grant[], sheet: Sheet, used: Set<number>): string[] {
+function featDetails(grants: Grant[], sheet: Sheet, used: Set<number>): StoryDetail[] {
   return grants.map((grant) => {
     const chosen = findFeatForGrant(grant, sheet, used);
-    return chosen ? `Talento: ${chosen}` : `Talento concesso: ${grant.name}`;
+    const featName = chosen?.split(" · ")[0] ?? grant.name;
+    const category = featCatalog.find((entry) => entry.name === featName)?.category;
+    const domain = category === "origini" ? "talenti/origini"
+      : category === "stileDiCombattimento" ? "talenti/stili"
+        : category === "donoEpico" ? "talenti/doni-epici" : null;
+    const manual = domain ? voceManuale(domain, featName)
+      : voceManuale("talenti/generali-a", featName) ?? voceManuale("talenti/generali-b", featName);
+    return {
+      label: chosen ? `Talento: ${chosen}` : `Talento concesso: ${grant.name}`,
+      consequences: paragraphs(manual?.descrizione),
+    };
   });
 }
 
 // Le fasi di creazione e avanzamento seguono il Manuale del Giocatore 2024, pp. 33, 36-42.
 // I dati già presenti nella scheda non conservano il momento di ogni scelta: si assegna
 // una conseguenza allo step solo quando la sua fonte o il livello sono identificabili.
-export function characterStory(sheet: Sheet, name: string): StoryEvent[] {
+export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"] = []): StoryEvent[] {
   const level = Math.max(1, Math.min(20, Number(sheet.livello) || 1));
   const privileges = grantedPrivileges(sheet);
   const feats = featGrants(sheet);
   const usedFeats = new Set<number>();
-  const events: StoryEvent[] = [{ title: "Personaggio creato", details: ["Livello 1"] }];
+  const events: StoryEvent[] = [{ title: "Personaggio creato", details: [detail("Livello 1")] }];
 
   if (present(sheet.classe)) {
     const hitDie = sheet.dadiVita.match(/d\d+/i)?.[0];
     events.push({
       title: `Scelta classe: ${sheet.classe}`,
       details: [
-        ...(hitDie ? [`Dado Vita: ${hitDie}`] : []),
-        ...competencyDetails(sheet, "Classe", sheet.classe),
+        ...(hitDie ? [detail(`Dado Vita: ${hitDie}`)] : []),
+        ...competencyDetails(sheet, "Classe", sheet.classe).map(detail),
         ...privilegeDetails(privileges.filter((item) => sourceIs(item.source, "Classe", sheet.classe) && item.level === 1), sheet),
         ...(sheet.padronanzeArmi?.length && privileges.some((item) => item.level === 1 && sourceIs(item.source, "Classe", sheet.classe) && item.name.toLocaleLowerCase("it").includes("padronanza"))
-          ? [`Padronanze scelte: ${sheet.padronanzeArmi.join(", ")}`] : []),
+          ? [detail(`Padronanze scelte: ${sheet.padronanzeArmi.join(", ")}`)] : []),
         ...featDetails(feats.filter((item) => sourceIs(item.source, "Classe", sheet.classe) && featGrantLevel(item, sheet) === 1), sheet, usedFeats),
       ],
     });
@@ -107,7 +123,7 @@ export function characterStory(sheet: Sheet, name: string): StoryEvent[] {
     events.push({
       title: `Scelto background: ${sheet.background}`,
       details: [
-        ...competencyDetails(sheet, "Background", sheet.background),
+        ...competencyDetails(sheet, "Background", sheet.background).map(detail),
         ...featDetails(feats.filter((item) => sourceIs(item.source, "Background", sheet.background)), sheet, usedFeats),
       ],
     });
@@ -116,51 +132,37 @@ export function characterStory(sheet: Sheet, name: string): StoryEvent[] {
     events.push({
       title: `Scelta specie: ${sheet.specie}`,
       details: [
-        ...(present(sheet.lignaggio) ? [`Lignaggio: ${sheet.lignaggio}`] : []),
-        ...(present(sheet.taglia) ? [`Taglia: ${sheet.taglia}`] : []),
-        ...(present(sheet.velocita) ? [`Velocità: ${sheet.velocita} m`] : []),
-        ...competencyDetails(sheet, "Specie", sheet.specie),
+        ...(present(sheet.lignaggio) ? [detail(`Lignaggio: ${sheet.lignaggio}`)] : []),
+        ...(present(sheet.taglia) ? [detail(`Taglia: ${sheet.taglia}`)] : []),
+        ...(present(sheet.velocita) ? [detail(`Velocità: ${sheet.velocita} m`)] : []),
+        ...competencyDetails(sheet, "Specie", sheet.specie).map(detail),
         ...privilegeDetails(privileges.filter((item) => sourceIs(item.source, "Specie", sheet.specie) && (!item.level || item.level === 1)
           || present(sheet.lignaggio) && sourceIs(item.source, "Lignaggio", sheet.lignaggio)), sheet),
         ...featDetails(feats.filter((item) => sourceIs(item.source, "Specie", sheet.specie)), sheet, usedFeats),
       ],
     });
   }
-  if (sheet.lingue.length) events.push({ title: "Scelte le lingue", details: [sheet.lingue.join(", ")] });
+  if (sheet.lingue.length) events.push({ title: "Scelte le lingue", details: [detail(sheet.lingue.join(", "))] });
   const scores = sheet.caratteristiche.filter((item) => present(item.valore));
-  if (scores.length) events.push({ title: "Determinati i punteggi di caratteristica", details: scores.map((item) => `${item.abbr} ${item.valore}`) });
+  if (scores.length) events.push({ title: "Determinati i punteggi di caratteristica", details: scores.map((item) => detail(`${item.abbr} ${item.valore}`)) });
   if (present(sheet.allineamento)) events.push({ title: `Scelto allineamento: ${sheet.allineamento}`, details: [] });
-  const initialDetails = [
-    `Nome: ${name || "Senza nome"}`,
-    ...(present(sheet.puntiFeritaMax) && level === 1 ? [`Punti ferita massimi: ${sheet.puntiFeritaMax}`] : []),
-  ];
-  events.push({ title: "Inseriti i dettagli", details: initialDetails });
+  if (present(sheet.puntiFeritaMax) && level === 1) events.push({ title: "Determinati i punti ferita iniziali", details: [detail(`Punti ferita massimi: ${sheet.puntiFeritaMax}`)] });
 
   for (let current = 2; current <= level; current++) {
     const levelPrivileges = privileges.filter((item) => item.level === current);
     const levelFeats = feats.filter((item) => featGrantLevel(item, sheet) === current);
-    const details = [
-      "Dado Vita aggiunto; punti ferita massimi aumentati",
+    const gain = hitPointGains?.[current - 2];
+    const hitDie = sheet.dadiVita.match(/d\d+/i)?.[0];
+    const result = gain ? ` · ${gain.method === "fisso" ? "Valore fisso" : "Tiro"}: ${gain.value}` : "";
+    const details: StoryDetail[] = [
+      detail(`Dado Vita aggiunto${hitDie ? `: 1${hitDie} (${current}${hitDie} totali)` : ""}${result}`),
       ...privilegeDetails(levelPrivileges, sheet),
       ...featDetails(levelFeats, sheet, usedFeats),
     ];
     const previousBonus = proficiencyBonus(String(current - 1));
     const nextBonus = proficiencyBonus(String(current));
-    if (previousBonus !== nextBonus) details.push(`Bonus di competenza: ${nextBonus}`);
+    if (previousBonus !== nextBonus) details.push(detail(`Bonus di competenza: ${nextBonus}`));
     events.push({ title: `Raggiunto livello ${current}`, details });
   }
-
-  const remaining = sheet.talenti.filter((_, index) => !usedFeats.has(index)).map((item) =>
-    `Talento: ${item.nome}${present(item.scelte) ? ` · ${item.scelte.trim()}` : ""}`);
-  const recordedPrivileges = sheet.privilegi.filter((item) => !privileges.some((grant) => grant.name.localeCompare(item.titolo, "it", { sensitivity: "base" }) === 0)).map((item) =>
-    `Privilegio: ${item.titolo}${present(item.scelte) ? ` · ${item.scelte.trim()}` : ""}`);
-  const spells = sheet.incantesimi.filter((item) => present(item.nome)).map((item) => `Incantesimo: ${item.nome}`);
-  const current = [
-    ...(present(sheet.dadiVita) && level > 1 ? [`Dadi Vita: ${sheet.dadiVita}`] : []),
-    ...(present(sheet.puntiFeritaMax) && level > 1 ? [`Punti ferita massimi: ${sheet.puntiFeritaMax}`] : []),
-    ...(sheet.equipaggiamento.length ? [`Equipaggiamento: ${sheet.equipaggiamento.map((item) => item.nome).join(", ")}`] : []),
-    ...remaining, ...recordedPrivileges, ...spells,
-  ];
-  if (current.length) events.push({ title: "Stato attuale", details: current });
   return events;
 }

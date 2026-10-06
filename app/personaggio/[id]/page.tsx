@@ -17,5 +17,5 @@ export default async function Page({
   const row = rows[0];
   if (!row) notFound();
 
-  return <CharacterClient id={row.id} name={row.name} sheet={normalizeSheet(row.data)} />;
+  return <CharacterClient id={row.id} name={row.name} sheet={normalizeSheet(row.data)} hitPointGains={row.data.incrementiPf} />;
 }

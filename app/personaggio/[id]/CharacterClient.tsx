@@ -276,10 +276,12 @@ export default function CharacterClient({
   id,
   name: initialName,
   sheet: initialSheet,
+  hitPointGains,
 }: {
   id: string;
   name: string;
   sheet: Sheet;
+  hitPointGains?: Sheet["incrementiPf"];
 }) {
   const router = useRouter();
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
@@ -912,11 +914,16 @@ export default function CharacterClient({
       title: "Storia",
       body: (
         <ol className="flex flex-col gap-2 pb-4">
-          {characterStory(sheet, name).map((event, index) => (
+          {characterStory(sheet, hitPointGains).map((event, index) => (
             <li key={`${index}-${event.title}`} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
               <h2 className="text-sm font-semibold text-ink">{event.title}</h2>
               {event.details.length > 0 && <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-accent">
-                {event.details.map((detail, detailIndex) => <li key={detailIndex} className="break-words text-sm text-ink-soft">{detail}</li>)}
+                {event.details.map((item, detailIndex) => <li key={detailIndex} className="break-words text-sm text-ink-soft">
+                  {item.label}
+                  {item.consequences && item.consequences.length > 0 && <ul className="mt-1 list-[circle] space-y-1 pl-5 marker:text-accent/70">
+                    {item.consequences.map((consequence, consequenceIndex) => <li key={consequenceIndex} className="whitespace-pre-line">{consequence}</li>)}
+                  </ul>}
+                </li>)}
               </ul>}
             </li>
           ))}
