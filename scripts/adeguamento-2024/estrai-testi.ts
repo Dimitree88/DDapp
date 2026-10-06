@@ -61,9 +61,16 @@ function flusso(da: number): Flusso {
 function trova(flusso: Flusso, cercato: string, daOriginale: number): { inizio: number; fine: number } | null {
   const ago = chiaveAncora(cercato);
   if (!ago) return null;
-  const partenza = flusso.mappa.findIndex((posizione) => posizione >= daOriginale);
-  const indice = partenza < 0 ? -1 : flusso.chiave.indexOf(ago, partenza);
-  return indice < 0 ? null : { inizio: flusso.mappa[indice], fine: flusso.mappa[indice + ago.length - 1] + 1 };
+  // L'ancora deve iniziare e finire a confine di parola nel testo originale.
+  const alfanumerico = (carattere: string | undefined) => carattere !== undefined && /[\p{L}\p{N}]/u.test(carattere);
+  let indice = flusso.mappa.findIndex((posizione) => posizione >= daOriginale);
+  while (indice >= 0 && (indice = flusso.chiave.indexOf(ago, indice)) >= 0) {
+    const inizio = flusso.mappa[indice];
+    const fine = flusso.mappa[indice + ago.length - 1] + 1;
+    if (!alfanumerico(flusso.testo[inizio - 1]) && !alfanumerico(flusso.testo[fine])) return { inizio, fine };
+    indice++;
+  }
+  return null;
 }
 
 const rigaDi = (flusso: Flusso, posizione: number) =>
@@ -92,10 +99,12 @@ export function estraiSegmento(ancora: Ancora): { testo: string; errore?: string
   const fineIniziale = paginaIniziale.at(-1)!.fine;
   const inizioAncora = trova(sorgente, ancora.da, paginaIniziale[0].inizio);
   if (!inizioAncora || inizioAncora.inizio >= fineIniziale) return { testo: "", errore: `«${ancora.da}» non trovato a p. ${ancora.pagina}` };
-  const rigaAncora = rigaDi(sorgente, inizioAncora.inizio);
+  const rigaAncora = rigaDi(sorgente, inizioAncora.fine - 1);
   const inizio = ancora.includiDa ? inizioAncora.inizio : rigaAncora.titolo ? rigaAncora.fine : inizioAncora.fine;
   let fine: number;
-  if (ancora.a) {
+  if (ancora.finePagina) {
+    fine = paginaIniziale.at(-1)!.fine;
+  } else if (ancora.a) {
     const termine = trova(sorgente, ancora.a, inizio);
     if (!termine) return { testo: "", errore: `«${ancora.a}» non trovato dopo «${ancora.da}» (p. ${ancora.pagina})` };
     fine = termine.inizio;

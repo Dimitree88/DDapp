@@ -257,5 +257,5 @@ test("F00 module coverage counts verified entries only", () => {
   assert.equal(copertura.valori.verificati, 1);
   assert.deepEqual(copertura.valori.aperti, ["Neutrale (stato.allineamento.valore)"]);
   assert.equal(copertura.righe.verificate, 1);
-  assert.equal(coperturaModulo("V01").valori.verificati, 0);
+  assert.equal(coperturaModulo("V01", { ...FILE_MANUALE, allineamenti: fileProva([]) }).valori.verificati, 0);
 });
