@@ -90,6 +90,8 @@ const PULIZIA: [RegExp, string][] = [
   [/\bGuidadel DungeonMaster\b/g, "Guida del Dungeon Master"],
   [/\bDungeonMaster\b/g, "Dungeon Master"],
   [/\bingrado\b/g, "in grado"],
+  [/\bIncremento ?dei ?punteggi ?di ?caratteristica\b/g, "Incremento dei punteggi di caratteristica"],
+  [/\bdei ?punteggi ?di ?caratteristica\b/g, "dei punteggi di caratteristica"],
   // «O» al posto dello zero dopo parole che introducono un numero.
   [/\b(Velocità|livello|pari a|tra|lo|ha|a|di) O\b(?!['’])/g, "$1 0"],
 ];
@@ -107,7 +109,12 @@ export function estraiSegmento(ancora: Ancora): { testo: string; errore?: string
   const inizioAncora = trova(sorgente, ancora.da, paginaIniziale[0].inizio, ancora.n ?? 1);
   if (!inizioAncora || inizioAncora.inizio >= fineIniziale) return { testo: "", errore: `«${ancora.da}» non trovato a p. ${ancora.pagina}` };
   const rigaAncora = rigaDi(sorgente, inizioAncora.fine - 1);
-  const inizio = ancora.includiDa ? inizioAncora.inizio : rigaAncora.titolo ? rigaAncora.fine : inizioAncora.fine;
+  let inizio = ancora.includiDa ? inizioAncora.inizio : rigaAncora.titolo ? rigaAncora.fine : inizioAncora.fine;
+  if (ancora.dopo) {
+    const salto = trova(sorgente, ancora.dopo, inizio);
+    if (!salto || salto.inizio - inizio > 400) return { testo: "", errore: `«${ancora.dopo}» non trovato subito dopo «${ancora.da}» (p. ${ancora.pagina})` };
+    inizio = salto.fine;
+  }
   let fine: number;
   if (ancora.finePagina) {
     fine = paginaIniziale.at(-1)!.fine;

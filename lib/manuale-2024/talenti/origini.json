@@ -4,5 +4,141 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "talento:abile",
+      "tipo": "talento",
+      "nome": "Abile",
+      "testo": [{ "pagina": 200, "da": "Abile", "dopo": "Talento Origini ", "a": "Aggressore selvaggio" }],
+      "pagina": 200,
+      "categoria": "Origini",
+      "ripetibile": true,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:aggressore-selvaggio",
+      "tipo": "talento",
+      "nome": "Aggressore selvaggio",
+      "testo": [{ "pagina": 200, "da": "Aggressore selvaggio", "dopo": "Talento Origini ", "a": "Allerta" }],
+      "pagina": 200,
+      "categoria": "Origini",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:allerta",
+      "tipo": "talento",
+      "nome": "Allerta",
+      "testo": [{ "pagina": 200, "da": "Allerta", "dopo": "Talento Origini ", "a": "Fortunato" }],
+      "pagina": 200,
+      "categoria": "Origini",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:fortunato",
+      "tipo": "talento",
+      "nome": "Fortunato",
+      "testo": [{ "pagina": 201, "da": "Fortunato", "dopo": "Talento Origini ", "a": "Guaritore" }],
+      "pagina": 201,
+      "categoria": "Origini",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Puntifortuna.", "Punti fortuna."]]
+    },
+    {
+      "id": "talento:guaritore",
+      "tipo": "talento",
+      "nome": "Guaritore",
+      "testo": [{ "pagina": 201, "da": "Guaritore", "dopo": "Talento Origini ", "a": "Iniziato alla magia" }],
+      "pagina": 201,
+      "categoria": "Origini",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["deisuoiDadi", "dei suoi Dadi"], ["perguarigione", "per guarigione"]]
+    },
+    {
+      "id": "talento:iniziato-alla-magia",
+      "tipo": "talento",
+      "nome": "Iniziato alla magia",
+      "testo": [{ "pagina": 201, "da": "Iniziato alla magia", "dopo": "Talento Origini ", "a": "Lavoro manuale" }],
+      "pagina": 201,
+      "categoria": "Origini",
+      "ripetibile": true,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "e ne\n\nrecupera l'utilizzo in questo modo dopo aver completato un riposo lungo. Può anche lanciarefincantesimo usando\n\nunoqualsiasideglislotincantesimo[asuadisposizione.",
+          "e ne recupera l'utilizzo in questo modo dopo aver completato un riposo lungo. Può anche lanciare l'incantesimo usando uno qualsiasi degli slot incantesimo a sua disposizione."
+        ],
+        ["questotalento", "questo talento"]
+      ]
+    },
+    {
+      "id": "talento:lavoro-manuale",
+      "tipo": "talento",
+      "nome": "Lavoro manuale",
+      "testo": [
+        {
+          "pagina": 201,
+          "da": "Lavoro manuale",
+          "dopo": "Talento Origini ",
+          "a": "Fabbricazione rapida Strumenti da artigiano"
+        }
+      ],
+      "pagina": 201,
+      "categoria": "Origini",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Ognivolta", "Ogni volta"]],
+      "tabelle": [
+        {
+          "titolo": "Fabbricazione rapida",
+          "pagina": 201,
+          "colonne": ["Strumenti da artigiano", "Attrezzatura creata"],
+          "righe": [
+            ["Strumenti da conciatore", "Custodia, borsa"],
+            ["Strumenti da fabbro", "Sfere metalliche, secchio, triboli, rampino, pentola di ferro"],
+            ["Strumenti da falegname", "Scala a pioli, torcia"],
+            ["Strumenti da intagliatore", "Randello, randello pesante, bastone ferrato"],
+            ["Strumenti da inventore", "Campanella, pala, acciarino con pietra focaia"],
+            ["Strumenti da muratore", "Carrucola e paranco"],
+            ["Strumenti da tessitore", "Cesto, corda, rete, tenda"],
+            ["Strumenti da vasaio", "Brocca, lampada"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talento:lottatore-da-taverna",
+      "tipo": "talento",
+      "nome": "Lottatore da taverna",
+      "testo": [{ "pagina": 202, "da": "Lottatore da taverna", "dopo": "Talento Origini ", "a": "Musicista" }],
+      "pagina": 202,
+      "categoria": "Origini",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Tiro ripetutoperi danni.", "Tiro ripetuto per i danni."]]
+    },
+    {
+      "id": "talento:musicista",
+      "tipo": "talento",
+      "nome": "Musicista",
+      "testo": [{ "pagina": 202, "da": "Musicista", "dopo": "Talento Origini ", "a": "Robusto" }],
+      "pagina": 202,
+      "categoria": "Origini",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:robusto",
+      "tipo": "talento",
+      "nome": "Robusto",
+      "testo": [{ "pagina": 202, "da": "Robusto", "dopo": "Talento Origini ", "a": "TALENTI GENERALI" }],
+      "pagina": 202,
+      "categoria": "Origini",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
