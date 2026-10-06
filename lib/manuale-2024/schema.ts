@@ -97,7 +97,11 @@ export type VoceClasse = VoceBase & {
   dadoVita: string;
   caratteristicaPrimaria: string;
   tiriSalvezza: Sigla[];
-  competenze: { abilita: { numero: number; scelte: string[] }; armi: string[]; armature: string[]; strumenti: string[] };
+  competenze: {
+    abilita: { numero: number; scelte: string[] }; armi: string[]; armature: string[]; strumenti: string[];
+    // Strumenti a scelta del tipo indicato (es. tre strumenti musicali del bardo).
+    strumentiAScelta?: { numero: number; tipi: ("artigiano" | "musicale" | "gioco")[] };
+  };
   equipaggiamentoIniziale: string;
   privilegi: Privilegio[];
 };

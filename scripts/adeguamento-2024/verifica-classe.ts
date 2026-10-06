@@ -8,6 +8,8 @@ import { classHitDice } from "../../lib/classProgression";
 import { classSavingThrows, classToolProficiencies, classWeaponProficiencies, grantClassProficiencies } from "../../lib/classSavingThrows";
 import { classSkillChoices } from "../../lib/classSkillChoices";
 import { emptySheet } from "../../lib/sheet";
+import { spellSlots } from "../../lib/spellcasting";
+import { pendingToolChoiceSources } from "../../lib/toolCompetencies";
 import { chiaveRicerca, manuale } from "../../lib/manuale-2024/index";
 import type { Privilegio, VoceClasse, VoceSottoclasse } from "../../lib/manuale-2024/schema";
 
@@ -43,6 +45,8 @@ export function differenzeTratti(classe: string): string[] {
   if (abilita && !(voce.tabelle ?? []).some((tabella) => tabella.pagina === abilita.page && tabella.titolo.startsWith("Tratti"))) differenze.push(`pagina abilità ${abilita.page}`);
   if (!uguali(voce.competenze.armi, classWeaponProficiencies(classe))) differenze.push(`armi ${voce.competenze.armi} ≠ ${classWeaponProficiencies(classe)}`);
   if (!uguali(voce.competenze.strumenti, classToolProficiencies(classe))) differenze.push(`strumenti ${voce.competenze.strumenti} ≠ ${classToolProficiencies(classe)}`);
+  const scelte = pendingToolChoiceSources({ ...emptySheet(), classe }).find((item) => item.source === `Classe: ${classe}`)?.remaining ?? 0;
+  if ((voce.competenze.strumentiAScelta?.numero ?? 0) !== scelte) differenze.push(`strumenti a scelta ${voce.competenze.strumentiAScelta?.numero ?? 0} ≠ ${scelte}`);
   const armature = Object.entries(grantClassProficiencies({ ...emptySheet(), classe }).competenzeArmatura).filter(([, nota]) => nota).map(([tipo]) => tipo);
   if (!uguali(voce.competenze.armature.map((nome) => ARMATURE[nome] ?? nome), armature)) differenze.push(`armature ${voce.competenze.armature} ≠ ${armature}`);
   if (!uguali(sottoclassiDi(classe).map((item) => item.nome), (regole.classi as Record<string, string[]>)[classe] ?? [])) differenze.push("sottoclassi diverse dal dominio");
@@ -63,7 +67,7 @@ export function differenzeProgressione(classe: string): string[] {
     const livello = indice + 1;
     if (riga[0] !== String(livello)) differenze.push(`riga ${livello}: livello ${riga[0]}`);
     if (riga[1] !== proficiencyBonus(String(livello))) differenze.push(`livello ${livello}: bonus ${riga[1]} ≠ ${proficiencyBonus(String(livello))}`);
-    const nomi = riga[colonnaPrivilegi].split(/, (?=[A-ZÀ-Üa-zà-ü])/).map(chiaveRicerca);
+    const nomi = riga[colonnaPrivilegi] === "—" ? [] : riga[colonnaPrivilegi].split(/, (?=[A-ZÀ-Üa-zà-ü])/).map(chiaveRicerca);
     const attesi = concessioni.filter((item) => item.level === livello).map((item) => chiaveRicerca(item.name));
     for (const nome of nomi) {
       if (nome === chiaveRicerca("Privilegio della sottoclasse")) {
@@ -72,6 +76,14 @@ export function differenzeProgressione(classe: string): string[] {
     }
     for (const atteso of attesi) if (!nomi.includes(atteso)) differenze.push(`livello ${livello}: «${atteso}» assente nella tabella`);
     nomi.forEach((nome) => giaVisti.add(nome));
+    // Slot incantesimo per livello (colonne «1»…«9»), confrontati con spellcasting.ts#spellSlots.
+    const colonneSlot = ["1", "2", "3", "4", "5", "6", "7", "8", "9"].map((nome) => tabella.colonne.indexOf(nome));
+    if (colonneSlot.every((colonna) => colonna >= 0)) {
+      const stampati = colonneSlot.map((colonna) => riga[colonna] === "—" ? 0 : Number(riga[colonna]));
+      const app = spellSlots({ ...emptySheet(), classe, livello: String(livello) }).map((slot) => slot.maximum);
+      const pieni = (valori: number[]) => valori.join(",").replace(/(,0)+$/, "");
+      if (pieni(stampati) !== pieni(app)) differenze.push(`livello ${livello}: slot ${pieni(stampati)} ≠ ${pieni(app)}`);
+    }
   });
   return differenze;
 }
