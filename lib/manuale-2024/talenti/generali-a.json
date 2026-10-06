@@ -4,5 +4,420 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "talento:abilita-impeccabile",
+      "tipo": "talento",
+      "nome": "Abilità impeccabile",
+      "testo": [
+        {
+          "pagina": 202,
+          "da": "Abilità impeccabile",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Adepto elementale"
+        }
+      ],
+      "pagina": 202,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:adepto-elementale",
+      "tipo": "talento",
+      "nome": "Adepto elementale",
+      "testo": [
+        {
+          "pagina": 202,
+          "da": "Adepto elementale",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, privilegio Incantesimi o Magia delpatto)",
+          "a": "Appostato"
+        }
+      ],
+      "pagina": 202,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, privilegio Incantesimi o Magia del patto",
+      "ripetibile": true,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:appostato",
+      "tipo": "talento",
+      "nome": "Appostato",
+      "testo": [
+        {
+          "pagina": 202,
+          "da": "Appostato",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Destrezza 13 o superiore)",
+          "a": "Atleta"
+        }
+      ],
+      "pagina": 202,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:atleta",
+      "tipo": "talento",
+      "nome": "Atleta",
+      "testo": [
+        {
+          "pagina": 202,
+          "da": "Atleta",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Forza o Destrezza 13 o superiore)",
+          "a": "Attore"
+        }
+      ],
+      "pagina": 202,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Forza o Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["massimo di 20. Velocità di scalata.", "massimo di 20.\n\nVelocità di scalata."]]
+    },
+    {
+      "id": "talento:attore",
+      "tipo": "talento",
+      "nome": "Attore",
+      "testo": [
+        {
+          "pagina": 202,
+          "da": "Attore",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Carisma 13 o superiore)",
+          "a": "Aumento dei punteggi di caratteristica"
+        }
+      ],
+      "pagina": 202,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Carisma 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:aumento-dei-punteggi-di-caratteristica",
+      "tipo": "talento",
+      "nome": "Aumento dei punteggi di caratteristica",
+      "testo": [
+        {
+          "pagina": 203,
+          "da": "Aumento dei punteggi di caratteristica",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Bisturi da battaglia"
+        }
+      ],
+      "pagina": 203,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": true,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:bisturi-da-battaglia",
+      "tipo": "talento",
+      "nome": "Bisturi da battaglia",
+      "testo": [
+        {
+          "pagina": 203,
+          "da": "Bisturi da battaglia",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Carica"
+        }
+      ],
+      "pagina": 203,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["massimo di 20. Colpo debilitante.", "massimo di 20.\n\nColpo debilitante."]]
+    },
+    {
+      "id": "talento:carica",
+      "tipo": "talento",
+      "nome": "Carica",
+      "testo": [
+        {
+          "pagina": 203,
+          "da": "Carica",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Forza oDestrezza 13 o superiore)",
+          "a": "Cecchino magico"
+        }
+      ],
+      "pagina": 203,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Forza o Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["massimo di 20. Scatto migliorato.", "massimo di 20.\n\nScatto migliorato."],
+        ["per quell'azione. Attacco in carica.", "per quell'azione.\n\nAttacco in carica."],
+        ["seguenti effetti:\n\nottieni 1d8", "seguenti effetti: ottieni 1d8"]
+      ]
+    },
+    {
+      "id": "talento:cecchino-magico",
+      "tipo": "talento",
+      "nome": "Cecchino magico",
+      "testo": [
+        {
+          "pagina": 203,
+          "da": "Cecchino magico",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, privilegio Incantesimio Magia delpatto)",
+          "a": "Combattente a due armi"
+        }
+      ],
+      "pagina": 203,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, privilegio Incantesimi o Magia del patto",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["di copertura. Lancio in mischia.", "di copertura.\n\nLancio in mischia."]]
+    },
+    {
+      "id": "talento:combattente-a-due-armi",
+      "tipo": "talento",
+      "nome": "Combattente a due armi",
+      "testo": [
+        {
+          "pagina": 203,
+          "da": "Combattente a due armi",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Forza o Destrezza 13 o superiore)",
+          "a": "Combattente in sella"
+        }
+      ],
+      "pagina": 203,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Forza o Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "massimo di 20. Combattere condue armi migliorato.",
+          "massimo di 20.\n\nCombattere con due armi migliorato."
+        ]
+      ]
+    },
+    {
+      "id": "talento:combattente-in-sella",
+      "tipo": "talento",
+      "nome": "Combattente in sella",
+      "testo": [
+        {
+          "pagina": 203,
+          "da": "Combattente in sella",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Competenza nelle armi da guerra"
+        }
+      ],
+      "pagina": 203,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:competenza-nelle-armi-da-guerra",
+      "tipo": "talento",
+      "nome": "Competenza nelle armi da guerra",
+      "testo": [
+        {
+          "pagina": 203,
+          "da": "Competenza nelle armi da guerra",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Condottiero ispiratore"
+        }
+      ],
+      "pagina": 203,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["massimo di 20. Competenza nelle armi.", "massimo di 20.\n\nCompetenza nelle armi."]]
+    },
+    {
+      "id": "talento:condottiero-ispiratore",
+      "tipo": "talento",
+      "nome": "Condottiero ispiratore",
+      "testo": [
+        {
+          "pagina": 204,
+          "da": "Condottiero ispiratore",
+          "dopo": "Talento Generale (prerequisito: 4° livello osuperiore, Saggezza o Carisma 13 o superiore)",
+          "a": "Contaminazione fatata"
+        }
+      ],
+      "pagina": 204,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Saggezza o Carisma 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:contaminazione-fatata",
+      "tipo": "talento",
+      "nome": "Contaminazione fatata",
+      "testo": [
+        {
+          "pagina": 204,
+          "da": "Contaminazione fatata",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Contaminazione oscura"
+        }
+      ],
+      "pagina": 204,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["Magiafatata.", "Magia fatata."]]
+    },
+    {
+      "id": "talento:contaminazione-oscura",
+      "tipo": "talento",
+      "nome": "Contaminazione oscura",
+      "testo": [
+        {
+          "pagina": 204,
+          "da": "Contaminazione oscura",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Corazze leggere"
+        }
+      ],
+      "pagina": 204,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:corazze-leggere",
+      "tipo": "talento",
+      "nome": "Corazze leggere",
+      "testo": [
+        {
+          "pagina": 204,
+          "da": "Corazze leggere",
+          "dopo": "Talento Generale (prerequisito: 4° livello osuperiore)",
+          "a": "Corazze medie"
+        }
+      ],
+      "pagina": 204,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["massimo di 20. Competenza nelle armature.", "massimo di 20.\n\nCompetenza nelle armature."]]
+    },
+    {
+      "id": "talento:corazze-medie",
+      "tipo": "talento",
+      "nome": "Corazze medie",
+      "testo": [
+        {
+          "pagina": 204,
+          "da": "Corazze medie",
+          "dopo": "Talento Generale (prerequisito: 4° livello osuperiore, Competenza nelle armature leggere)",
+          "a": "Corazze pesanti"
+        }
+      ],
+      "pagina": 204,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Competenza nelle armature leggere",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["massimo di 20. Competenza nelle armature.", "massimo di 20.\n\nCompetenza nelle armature."]]
+    },
+    {
+      "id": "talento:corazze-pesanti",
+      "tipo": "talento",
+      "nome": "Corazze pesanti",
+      "testo": [
+        {
+          "pagina": 204,
+          "da": "Corazze pesanti",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Competenza nelle armature medie)",
+          "a": "Cuoco"
+        }
+      ],
+      "pagina": 204,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Competenza nelle armature medie",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:cuoco",
+      "tipo": "talento",
+      "nome": "Cuoco",
+      "testo": [
+        {
+          "pagina": 204,
+          "da": "Cuoco",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore)",
+          "a": "Duellante difensivo"
+        }
+      ],
+      "pagina": 204,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:duellante-difensivo",
+      "tipo": "talento",
+      "nome": "Duellante difensivo",
+      "testo": [
+        {
+          "pagina": 205,
+          "da": "Duellante difensivo",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Destrezza 13 o superiore)",
+          "a": "Esperto di balestre"
+        }
+      ],
+      "pagina": 205,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:esperto-di-balestre",
+      "tipo": "talento",
+      "nome": "Esperto di balestre",
+      "testo": [
+        {
+          "pagina": 205,
+          "da": "Esperto di balestre",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, Destrezza 13 o superiore)",
+          "a": "Incantatore da guerra"
+        }
+      ],
+      "pagina": 205,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, Destrezza 13 o superiore",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "talento:incantatore-da-guerra",
+      "tipo": "talento",
+      "nome": "Incantatore da guerra",
+      "testo": [
+        {
+          "pagina": 205,
+          "da": "Incantatore da guerra",
+          "dopo": "Talento Generale (prerequisito: 4° livello o superiore, privilegio Incantesimi oMagia delpatto)",
+          "a": "Incantatore rituale"
+        }
+      ],
+      "pagina": 205,
+      "categoria": "Generale",
+      "prerequisito": "4° livello o superiore, privilegio Incantesimi o Magia del patto",
+      "ripetibile": false,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

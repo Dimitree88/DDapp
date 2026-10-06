@@ -9,8 +9,13 @@ import regole from "../../lib/manuale-2024-domains.json" with { type: "json" };
 const [dominio, categoria, da, aEscluso] = process.argv.slice(2);
 const MODULI = { "talenti/origini": "T01", "talenti/generali-a": "T02A", "talenti/generali-b": "T02B", "talenti/stili": "T03", "talenti/doni-epici": "T04" };
 const nomi = Object.values(regole.talenti).flat();
-const sorgente = flusso(200);
+const sorgente = flusso(200, 12);
 const SOTTOTITOLO = /^Talento (Origini|Generale|Stile di combattimento|Dono epico)\s*(?:\((?:p|P)rerequisito:\s*([^)]*)\))?/;
+
+// Spazi persi dall'OCR nei prerequisiti («osuperiore», «delpatto»…).
+const pulisciPrerequisito = (testo) => testo?.trim()
+  .replace(/(\d°)(?=\S)/g, "$1 ").replace(/\bosuperiore\b/g, "o superiore").replace(/delpatto\b/g, "del patto")
+  .replace(/\bIncantesimio\b/g, "Incantesimi o").replace(/\bo(?=[A-Z])/g, "o ");
 
 // Titoli dei talenti: righe di titolo seguite dal sottotitolo «Talento …».
 const titoli = [];
@@ -19,10 +24,11 @@ for (const [indice, riga] of sorgente.righe.entries()) {
   const successiva = sorgente.righe[indice + 1];
   const sottotitolo = successiva && SOTTOTITOLO.exec(sorgente.testo.slice(successiva.inizio, successiva.fine).trim());
   if (!sottotitolo) continue;
-  const testoTitolo = sorgente.testo.slice(riga.inizio, riga.fine).replace(/^#+\s*/, "").trim();
+  // «1Ì» è la resa OCR di «TI» nei titoli in maiuscoletto (es. «1ÌRO» per «TIRO»).
+  const testoTitolo = sorgente.testo.slice(riga.inizio, riga.fine).replace(/^#+\s*/, "").replace(/^1Ì/, "TI").trim();
   const nome = nomi.find((candidato) => chiaveAncora(candidato) === chiaveAncora(testoTitolo));
   if (!nome) throw new Error(`Titolo non riconosciuto: ${testoTitolo}`);
-  titoli.push({ nome, riga, pagina: riga.pagina, categoria: sottotitolo[1], prerequisito: sottotitolo[2]?.trim(), sottotitolo: sottotitolo[0] });
+  titoli.push({ nome, riga, pagina: riga.pagina, categoria: sottotitolo[1], prerequisito: pulisciPrerequisito(sottotitolo[2]), sottotitolo: sottotitolo[0] });
 }
 // Titoli di sezione che chiudono l'ultimo talento di una categoria.
 const sezioni = sorgente.righe.filter((riga) => riga.titolo && /TALENTI (GENERALI|STILE|DONI|DONO)/i.test(sorgente.testo.slice(riga.inizio, riga.fine)));
