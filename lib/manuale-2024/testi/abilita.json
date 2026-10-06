@@ -1,4 +1,24 @@
 {
   "dominio": "abilita",
-  "testi": {}
+  "testi": {
+    "abilita:acrobazia": "Rimani in piedi in una situazione difficile o esegui un'acrobazia.",
+    "abilita:addestrare-animali": "Calma o addestra un animale, o fallo comportare in una certa maniera.",
+    "abilita:arcano": "Richiama la conoscenza su incantesimi, oggetti magici e piani di esistenza.",
+    "abilita:atletica": "Salta più lontano del normale, resta a galla in acque agitate o rompi qualcosa.",
+    "abilita:furtivita": "Sfuggi all'attenzione altrui muovendoti silenziosamente e nascondendoti dietro le cose.",
+    "abilita:indagare": "Trova informazioni sepolte nei libri o deduci il funzionamento degli oggetti più disparati.",
+    "abilita:inganno": "Racconta una bugia convincente o indossa un travestimento credibile.",
+    "abilita:intimidire": "Impressiona o minaccia qualcuno facendogli fare quello che vuoi.",
+    "abilita:intrattenere": "Recita, narra una storia, suona o danza.",
+    "abilita:intuizione": "Discerni l'umore e le intenzioni di una persona.",
+    "abilita:medicina": "Diagnostica una malattia o determina cosa abbia recentemente ucciso qualcuno.",
+    "abilita:natura": "Richiama la conoscenza su terreno, piante, animali e tempo.",
+    "abilita:percezione": "Usando una combinazione di sensi, nota qualcosa che è facile trascurare.",
+    "abilita:persuasione": "Convinci qualcuno di qualcosa con onestà e buone maniere.",
+    "abilita:rapidita-di-mano": "Svuota le tasche, nascondi un oggetto tenuto in mano o esegui un gioco di prestigio.",
+    "abilita:religione": "Richiama la conoscenza su divinità, rituali religiosi e simboli sacri.",
+    "abilita:sopravvivenza": "Segui le tracce, va' alla ricerca di cibo, trova una pista o evita i pericoli naturali.",
+    "abilita:storia": "Ricorda dati e leggende su eventi storici, persone, nazioni e culture.",
+    "etichetta:abilita": "Un'abilità è un'area di specializzazione associata a una prova di caratteristica. Se il tuo personaggio ha competenza in un'abilità, può aggiungere il suo bonus di competenza al risultato di una prova di caratteristica associata a quella abilità. Vedi anche capitolo 1 (\"Competenza\").\n\nLa maggior parte delle prove di caratteristica comporta l'uso di un'abilità, che rappresenta una categoria di azioni che le creature tentano di compiere con una prova di caratteristica. Le descrizioni delle azioni compiute dal personaggio (vedi \"Azioni\" più avanti in questo capitolo) specificano quale abilità si applica se si effettua una prova di caratteristica per quell'azione. Inoltre, molte altre regole indicano quando un'abilità è rilevante, ma l'ultima parola sulla rilevanza di un'abilità in una determinata situazione è sempre del DM.\n\nSe una creatura è competente in un'abilità, applica il suo bonus di competenza alle prove di caratteristica che riguardano quell'abilità. Senza competenza in un'abilità, una creatura può comunque effettuare prove di caratteristica che riguardano quell'abilità, ma senza aggiungere il bonus di competenza. Ad esempio, se un personaggio cerca di arrampicarsi su una parete rocciosa, il DM potrebbe richiedere una prova di Forza (Atletica). Se il personaggio ha competenza in Atletica, aggiunge il suo bonus di competenza alla prova di Forza. Se non possiede tale competenza, effettua una prova senza aggiungere il rispettivo bonus.\n\nLISTA DELLE ABILITÀ\n\nLe abilità sono indicate nella tabella Abilità, che riporta esempi di utilizzo per ogni competenza e la prova di caratteristica a cui l'abilità si applica più spesso.\n\nDETERMINARE LE ABILITÀ\n\nLe competenze nelle abilità iniziali di un personaggio sono determinate nel corso della sua creazione, mentre le competenze nelle abilità di un mostro sono indicate nella sua scheda delle statistiche.\n\nABILITÀ CON CARATTERISTICHE DIVERSE\n\nOgni competenza in un'abilità è associata con una prova di caratteristica. Ad esempio, l'abilità Intimidire è associata al Carisma. In alcune situazioni, il DM può consentire di applicare la propria competenza in un'abilità a una prova di caratteristica diversa. Ad esempio, se un personaggio cerca di intimidire qualcuno con una dimostrazione di forza fisica, il DM potrebbe richiedere una prova di Forza (Intimidire) anziché una prova di Carisma (Intimidire). Il personaggio effettua una prova di Forza e aggiunge il suo bonus di competenza se ha competenza in Intimidire."
+  }
 }

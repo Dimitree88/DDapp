@@ -58,8 +58,7 @@
         [
           "capitolo 3.\n\nQuando il bonus di competenza aumenta",
           "capitolo 3. Quando il bonus di competenza aumenta"
-        ],
-        ["ha O PE.", "ha 0 PE."]
+        ]
       ]
     },
     {
@@ -74,8 +73,7 @@
       "pagina": 370,
       "pagine": [36, 41],
       "righeMatrice": ["stato.punti-esperienza"],
-      "verifica": { "stato": "verificata" },
-      "correzioni": [["ha O PE.", "ha 0 PE."]]
+      "verifica": { "stato": "verificata" }
     },
     {
       "id": "etichetta:dadi-vita",

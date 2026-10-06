@@ -3,6 +3,327 @@
   "modulo": "V02",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:lingue",
+      "tipo": "etichetta",
+      "nome": "Lingue",
+      "testo": [{ "pagina": 37, "da": "Scegliere le lingue", "a": "Lingue standard", "na": 3 }],
+      "pagina": 37,
+      "righeMatrice": ["lingue.etichetta"],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "lingua:comune",
+      "tipo": "lingua",
+      "nome": "Comune",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["—", "Comune", "Sigil"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:draconico",
+      "tipo": "lingua",
+      "nome": "Draconico",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["1", "Draconico", "Draghi"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:elfico",
+      "tipo": "lingua",
+      "nome": "Elfico",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["2-3", "Elfico", "Elfi"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:gigante",
+      "tipo": "lingua",
+      "nome": "Gigante",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["4", "Gigante", "Giganti"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:gnomesco",
+      "tipo": "lingua",
+      "nome": "Gnomesco",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["5", "Gnomesco", "Gnomi"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:goblin",
+      "tipo": "lingua",
+      "nome": "Goblin",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["6", "Goblin", "Goblinoidi"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:halfling",
+      "tipo": "lingua",
+      "nome": "Halfling",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["7-8", "Halfling", "Halfling"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:lingua-dei-segni-comune",
+      "tipo": "lingua",
+      "nome": "Lingua dei Segni Comune",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["9", "Lingua dei Segni Comune", "Sigil"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:nanico",
+      "tipo": "lingua",
+      "nome": "Nanico",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["10-11", "Nanico", "Nani"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:orchesco",
+      "tipo": "lingua",
+      "nome": "Orchesco",
+      "gruppo": "standard",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue standard",
+          "pagina": 37,
+          "colonne": ["1d12", "Lingua", "Origine"],
+          "righe": [["12", "Orchesco", "Orchi"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:abissale",
+      "tipo": "lingua",
+      "nome": "Abissale",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Abissale", "Demoni dell'Abisso"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:celestiale",
+      "tipo": "lingua",
+      "nome": "Celestiale",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Celestiale", "Celestiali"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:druidico",
+      "tipo": "lingua",
+      "nome": "Druidico",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Druidico", "Circoli druidici"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 80, "da": "Livello 1: Druidico" }],
+      "pagine": [80],
+      "correzioni": [["parlare conglianimali", "parlare con gli animali"]]
+    },
+    {
+      "id": "lingua:gergo-delle-profondita",
+      "tipo": "lingua",
+      "nome": "Gergo delle Profondità",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Gergo delle Profondità", "Aberrazioni"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:gergo-ladresco",
+      "tipo": "lingua",
+      "nome": "Gergo Ladresco",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Gergo Ladresco", "Gilde criminali varie"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 101, "da": "Livello 1: Gergo ladresco" }],
+      "pagine": [101]
+    },
+    {
+      "id": "lingua:infernale",
+      "tipo": "lingua",
+      "nome": "Infernale",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Infernale", "Diavoli dei Nove Inferi"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:primordiale",
+      "tipo": "lingua",
+      "nome": "Primordiale",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Primordiale", "Elementali"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "testo": [{ "pagina": 37, "da": "Il Primordiale include", "includiDa": true, "finePagina": true }]
+    },
+    {
+      "id": "lingua:silvano",
+      "tipo": "lingua",
+      "nome": "Silvano",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Silvano", "La Selva Fatata"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "lingua:sottocomune",
+      "tipo": "lingua",
+      "nome": "Sottocomune",
+      "gruppo": "rara",
+      "pagina": 37,
+      "tabelle": [
+        {
+          "titolo": "Lingue rare",
+          "pagina": 37,
+          "colonne": ["Lingua", "Origine"],
+          "righe": [["Sottocomune", "Il Sottosuolo"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

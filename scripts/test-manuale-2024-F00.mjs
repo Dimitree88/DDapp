@@ -96,7 +96,7 @@ test("F00 schema rejects incomplete entries and extraction artifacts", () => {
   assert.match(errori({ correzioni: [["", "x"]] }), /correzioni non valide/);
   assert.match(errori({ pagina: 199 }), /fuori dal dominio/);
   assert.match(errori({ pagina: 400 }), /pagina stampata non valida/);
-  assert.match(controllaTestoEstratto("prova", "Back­ground").join(), /trattino morbido/);
+  assert.match(controllaTestoEstratto("prova", "Back\u00adground").join(), /trattino morbido/);
   assert.match(controllaTestoEstratto("prova", "Testo  doppio").join(), /spazi doppi/);
   assert.match(controllaTestoEstratto("prova", "Testo dall'SRD").join(), /SRD/);
   assert.match(controllaTestoEstratto("prova", "").join(), /testo mancante/);

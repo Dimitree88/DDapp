@@ -19,8 +19,8 @@ function normalizza(testo: string, base = 0): { chiave: string; mappa: number[] 
   const mappa: number[] = [];
   for (let indice = 0; indice < testo.length; indice++) {
     for (const carattere of testo[indice].normalize("NFD").toLowerCase()) {
-      if (!/[a-z0-9|!]/.test(carattere)) continue;
-      const simbolo = /[il|!]/.test(carattere) ? "1" : carattere === "o" ? "0" : carattere === "s" ? "5" : carattere;
+      if (!/[a-z0-9!]/.test(carattere)) continue;
+      const simbolo = /[il!]/.test(carattere) ? "1" : carattere === "o" ? "0" : carattere === "s" ? "5" : carattere;
       if (simbolo === "n" && chiave.endsWith("r")) {
         chiave = `${chiave.slice(0, -1)}m`;
         continue;
@@ -79,7 +79,7 @@ export const rigaDi = (flusso: Flusso, posizione: number) =>
 
 // Confusioni sistematiche di estrazione; il resto va corretto voce per voce.
 const PULIZIA: [RegExp, string][] = [
-  [/­/g, ""],
+  [/\u00ad/g, ""],
   [/[ \t]+/g, " "],
   [/ ([,.;:!?])/g, "$1"],
   [/\bII(?= [a-zà-ù])/g, "Il"],
@@ -89,6 +89,9 @@ const PULIZIA: [RegExp, string][] = [
   [/\bVedianche\b/g, "Vedi anche"],
   [/\bGuidadel DungeonMaster\b/g, "Guida del Dungeon Master"],
   [/\bDungeonMaster\b/g, "Dungeon Master"],
+  [/\bingrado\b/g, "in grado"],
+  // «O» al posto dello zero dopo parole che introducono un numero.
+  [/\b(Velocità|livello|pari a|tra|lo|ha|a|di) O\b(?!['’])/g, "$1 0"],
 ];
 
 export function pulisciTesto(testo: string): string {
@@ -136,7 +139,7 @@ export function estraiSegmento(ancora: Ancora): { testo: string; errore?: string
 
 export function testoVoce(voce: VoceBase): { testo: string; errori: string[] } {
   const errori: string[] = [];
-  let testo = voce.testo.map((ancora) => {
+  let testo = (voce.testo ?? []).map((ancora) => {
     const segmento = estraiSegmento(ancora);
     if (segmento.errore) errori.push(segmento.errore);
     return segmento.testo;
@@ -159,6 +162,7 @@ export function estraiDominio(file: FileDominio): { testi: Record<string, string
   const testi: Record<string, string> = {};
   const errori: string[] = [];
   for (const voce of tutteLeVoci(file)) {
+    if (!voce.testo) continue;
     const risultato = testoVoce(voce);
     errori.push(...risultato.errori.map((errore) => `${file.dominio} ${voce.id}: ${errore}`));
     testi[voce.id] = risultato.testo;

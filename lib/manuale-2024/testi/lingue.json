@@ -1,4 +1,9 @@
 {
   "dominio": "lingue",
-  "testi": {}
+  "testi": {
+    "etichetta:lingue": "Il personaggio conosce almeno tre lingue: il Comune più altre due lingue a tua scelta o assegnate in maniera casuale effettuando un tiro sulla tabella Lingue standard. Conoscere una lingua significa poterla usare per comunicare, leggere e scrivere. Anche la classe e altri privilegi potrebbero fornire accesso a delle lingue.\n\nLa tabella Lingue standard elenca le lingue più diffuse nei mondi di D&D. Ogni personaggio giocante conosce il Comune, le cui origini risalgono alla metropoli planare di Sigil, il fulcro del multiverso. Le altre",
+    "lingua:druidico": "Un druido conosce il druidico, la lingua segreta del suo ordine. Imparando questa lingua antica, ha sbloccato anche la magia della comunicazione con gli animali; l'incantesimo parlare con gli animali è sempre considerato preparato.\n\nIl druido può usare il druidico per lasciare messaggi nascosti. Il druido e coloro che conoscono il druidico sono in grado di individuare tali messaggi automaticamente. Altri possono notare la presenza di un messaggio superando una prova di Intelligenza (Indagare) con CD 15, ma non possono decifrarlo senza l'aiuto della magia.",
+    "lingua:gergo-ladresco": "Il ladro ha appreso varie lingue nelle comunità in cui ha affinato le proprie competenze furtive. Per questo, conosce il Gergo Ladresco e un'altra lingua a scelta, selezionabili dalle tabelle delle lingue al capitolo 2.",
+    "lingua:primordiale": "Il Primordiale include i dialetti Aquan, Auran, Ignan e Terran.\n\nLe creature che parlano dialetti diversi di una stessa lingua sono in grado di comunicare tra loro."
+  }
 }

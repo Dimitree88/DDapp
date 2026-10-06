@@ -3,6 +3,206 @@
   "modulo": "V02",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:abilita",
+      "tipo": "etichetta",
+      "nome": "Abilità",
+      "testo": [
+        { "pagina": 360, "da": "Abilità" },
+        {
+          "pagina": 13,
+          "da": "Competenze nelle abilità",
+          "a": "Abilità Abilità Caratteristica Esempio d'uso"
+        },
+        {
+          "pagina": 14,
+          "da": "Ricorda dati e leggende su eventi storici, persone, nazioni e culture.",
+          "a": "Competenze nei tiri salvezza"
+        }
+      ],
+      "pagina": 13,
+      "pagine": [14, 360],
+      "verifica": { "stato": "verificata" },
+      "righeMatrice": ["abilita.bonus"],
+      "correzioni": [
+        ["effettuare prove\n\ndi caratteristica", "effettuare prove di caratteristica"],
+        ["LISTA DELLE ABILITÀ Le abilità", "LISTA DELLE ABILITÀ\n\nLe abilità"],
+        ["càratteristica", "caratteristica"],
+        ["DETERMINARE LE ABILITÀ Le competenze", "DETERMINARE LE ABILITÀ\n\nLe competenze"],
+        [
+          "ABILITÀ CON CARATTERISTICHE DIVERSE Ogni competenza",
+          "ABILITÀ CON CARATTERISTICHE DIVERSE\n\nOgni competenza"
+        ],
+        [
+          "\n\nAd esempio, se un personaggio cerca di intimidire",
+          " Ad esempio, se un personaggio cerca di intimidire"
+        ]
+      ]
+    }
+  ],
+  "voci": [
+    {
+      "id": "abilita:acrobazia",
+      "tipo": "abilita",
+      "nome": "Acrobazia",
+      "caratteristica": "DES",
+      "testo": [{ "pagina": 14, "da": "Acrobazia Destrezza", "a": "Addestrare animali Saggezza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:addestrare-animali",
+      "tipo": "abilita",
+      "nome": "Addestrare animali",
+      "caratteristica": "SAG",
+      "testo": [{ "pagina": 14, "da": "Addestrare animali Saggezza", "a": "Arcano Intelligenza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:arcano",
+      "tipo": "abilita",
+      "nome": "Arcano",
+      "caratteristica": "INT",
+      "testo": [{ "pagina": 14, "da": "Arcano Intelligenza", "a": "Atletica Forza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:atletica",
+      "tipo": "abilita",
+      "nome": "Atletica",
+      "caratteristica": "FOR",
+      "testo": [{ "pagina": 14, "da": "Atletica Forza", "a": "Furtività Destrezza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:furtivita",
+      "tipo": "abilita",
+      "nome": "Furtività",
+      "caratteristica": "DES",
+      "testo": [{ "pagina": 14, "da": "Furtività Destrezza", "a": "Indagare Intelligenza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:indagare",
+      "tipo": "abilita",
+      "nome": "Indagare",
+      "caratteristica": "INT",
+      "testo": [{ "pagina": 14, "da": "Indagare Intelligenza", "a": "Inganno Carisma" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:inganno",
+      "tipo": "abilita",
+      "nome": "Inganno",
+      "caratteristica": "CAR",
+      "testo": [{ "pagina": 14, "da": "Inganno Carisma", "a": "Intimidire Carisma" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:intimidire",
+      "tipo": "abilita",
+      "nome": "Intimidire",
+      "caratteristica": "CAR",
+      "testo": [{ "pagina": 14, "da": "Intimidire Carisma", "a": "Intrattenere Carisma" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:intrattenere",
+      "tipo": "abilita",
+      "nome": "Intrattenere",
+      "caratteristica": "CAR",
+      "testo": [{ "pagina": 14, "da": "Intrattenere Carisma", "a": "Intuizione Saggezza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:intuizione",
+      "tipo": "abilita",
+      "nome": "Intuizione",
+      "caratteristica": "SAG",
+      "testo": [{ "pagina": 14, "da": "Intuizione Saggezza", "a": "Medicina Saggezza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:medicina",
+      "tipo": "abilita",
+      "nome": "Medicina",
+      "caratteristica": "SAG",
+      "testo": [{ "pagina": 14, "da": "Medicina Saggezza", "a": "Natura Intelligenza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:natura",
+      "tipo": "abilita",
+      "nome": "Natura",
+      "caratteristica": "INT",
+      "testo": [{ "pagina": 14, "da": "Natura Intelligenza", "a": "Percezione Saggezza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:percezione",
+      "tipo": "abilita",
+      "nome": "Percezione",
+      "caratteristica": "SAG",
+      "testo": [{ "pagina": 14, "da": "Percezione Saggezza", "a": "Persuasione Carisma" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:persuasione",
+      "tipo": "abilita",
+      "nome": "Persuasione",
+      "caratteristica": "CAR",
+      "testo": [{ "pagina": 14, "da": "Persuasione Carisma", "a": "Rapidità di mano Destrezza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:rapidita-di-mano",
+      "tipo": "abilita",
+      "nome": "Rapidità di mano",
+      "caratteristica": "DES",
+      "testo": [{ "pagina": 14, "da": "Rapidità di mano Destrezza", "a": "Religione Intelligenza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:religione",
+      "tipo": "abilita",
+      "nome": "Religione",
+      "caratteristica": "INT",
+      "testo": [{ "pagina": 14, "da": "Religione Intelligenza", "a": "Sopravvivenza Saggezza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:sopravvivenza",
+      "tipo": "abilita",
+      "nome": "Sopravvivenza",
+      "caratteristica": "SAG",
+      "testo": [{ "pagina": 14, "da": "Sopravvivenza Saggezza", "a": "Storia Intelligenza" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "abilita:storia",
+      "tipo": "abilita",
+      "nome": "Storia",
+      "caratteristica": "INT",
+      "testo": [{ "pagina": 14, "da": "Storia Intelligenza", "a": "di caratteristica che riguardano quell'abilità" }],
+      "pagina": 14,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

@@ -4,5 +4,144 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "caratteristica:forza",
+      "tipo": "caratteristica",
+      "nome": "Forza",
+      "sigla": "FOR",
+      "alias": ["FOR"],
+      "pagina": 10,
+      "pagine": [11, 12],
+      "tabelle": [
+        {
+          "titolo": "Forza",
+          "pagina": 10,
+          "colonne": ["Il punteggio misura...", "Effettua una prova per...", "Effettua un tiro salvezza per..."],
+          "righe": [
+            [
+              "Potenza fisica",
+              "Sollevare, spingere, tirare o rompere qualcosa",
+              "Resistere fisicamente alla forza diretta"
+            ]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "caratteristica:destrezza",
+      "tipo": "caratteristica",
+      "nome": "Destrezza",
+      "sigla": "DES",
+      "alias": ["DES"],
+      "pagina": 10,
+      "pagine": [11, 12],
+      "tabelle": [
+        {
+          "titolo": "Destrezza",
+          "pagina": 10,
+          "colonne": ["Il punteggio misura...", "Effettua una prova per...", "Effettua un tiro salvezza per..."],
+          "righe": [
+            [
+              "Agilità, riflessi ed equilibrio",
+              "Muoverti agilmente, silenziosamente o rapidamente",
+              "Schivare dei pericoli"
+            ]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "caratteristica:costituzione",
+      "tipo": "caratteristica",
+      "nome": "Costituzione",
+      "sigla": "COS",
+      "alias": ["COS"],
+      "pagina": 10,
+      "pagine": [11, 12],
+      "tabelle": [
+        {
+          "titolo": "Costituzione",
+          "pagina": 10,
+          "colonne": ["Il punteggio misura...", "Effettua una prova per...", "Effettua un tiro salvezza per..."],
+          "righe": [
+            [
+              "Salute e resistenza fisica",
+              "Spingere il proprio corpo oltre i limiti normali",
+              "Sopravvivere a un pericolo tossico"
+            ]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "caratteristica:intelligenza",
+      "tipo": "caratteristica",
+      "nome": "Intelligenza",
+      "sigla": "INT",
+      "alias": ["INT"],
+      "pagina": 10,
+      "pagine": [11, 12],
+      "tabelle": [
+        {
+          "titolo": "Intelligenza",
+          "pagina": 10,
+          "colonne": ["Il punteggio misura...", "Effettua una prova per...", "Effettua un tiro salvezza per..."],
+          "righe": [["Ragionamento e memoria", "Ragionare o ricordare", "Riconoscere un'illusione come falsa"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "caratteristica:saggezza",
+      "tipo": "caratteristica",
+      "nome": "Saggezza",
+      "sigla": "SAG",
+      "alias": ["SAG"],
+      "pagina": 10,
+      "pagine": [11, 12],
+      "tabelle": [
+        {
+          "titolo": "Saggezza",
+          "pagina": 10,
+          "colonne": ["Il punteggio misura...", "Effettua una prova per...", "Effettua un tiro salvezza per..."],
+          "righe": [
+            [
+              "Percezione e fortezza mentale",
+              "Notare qualcosa nell'ambiente o nel comportamento delle creature",
+              "Resistere a un attacco psichico"
+            ]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "caratteristica:carisma",
+      "tipo": "caratteristica",
+      "nome": "Carisma",
+      "sigla": "CAR",
+      "alias": ["CAR"],
+      "pagina": 10,
+      "pagine": [11, 12],
+      "tabelle": [
+        {
+          "titolo": "Carisma",
+          "pagina": 10,
+          "colonne": ["Il punteggio misura...", "Effettua una prova per...", "Effettua un tiro salvezza per..."],
+          "righe": [
+            [
+              "Disinvoltura, padronanza di sé e fascino",
+              "Influenzare, intrattenere o ingannare",
+              "Affermare la propria identità"
+            ]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
