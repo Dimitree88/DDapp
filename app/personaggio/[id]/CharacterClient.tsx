@@ -13,7 +13,6 @@ import useEmblaCarousel from "embla-carousel-react";
 import { useRouter } from "next/navigation";
 import {
   TextField,
-  NumberUnitField,
   InlineInput,
   Toggle,
   EditProvider,
@@ -766,7 +765,7 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-1.5">
           <div className={grid2}>
-            <TextField label="Punti Ferita Massimi" showInfo={false} showEditIcon value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} numeric="unsigned" onChange={(v) => patch({ puntiFeritaMax: v })} />
+            <TextField label="Punti Ferita Massimi" showInfo={false} locked value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} onChange={() => {}} />
             <TextField label="Ispirazione Eroica" showInfo={false} showEditIcon value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} options={["Sì", "No"]} onChange={(v) => patch({ ispirazioneEroica: v === "Sì" })} />
           </div>
           <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
@@ -788,11 +787,11 @@ export default function CharacterClient({
               onExplain={(button) => openCalculation({ kind: "passive" }, button)} />
           </div>
           <div className={grid2}>
-            <TextField label="Dadi Vita" showInfo={false} showEditIcon value={sheet.dadiVita} displayValue={<DiceText text={sheet.dadiVita} />} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} numeric="dice" onChange={(v) => patch({ dadiVita: v })} />
-            <NumberUnitField label="Velocità" value={sheet.velocita} valueInfoId="stato:velocita" unit="m" showEditIcon onChange={(v) => patch({ velocita: v })} />
+            <TextField label="Dadi Vita" showInfo={false} locked value={sheet.dadiVita} displayValue={<DiceText text={sheet.dadiVita} />} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} onChange={() => {}} />
+            <TextField label="Velocità" showInfo={false} locked value={sheet.velocita ? `${sheet.velocita} m` : ""} valueInfoId="stato:velocita" valueInfoTitle={`Velocità: ${sheet.velocita} m`} onChange={() => {}} />
           </div>
           <div className={grid2}>
-            <TextField label="Allineamento" showInfo={false} showEditIcon value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} options={regole.allineamenti} onChange={(v) => patch({ allineamento: v })} />
+            <TextField label="Allineamento" showInfo={false} locked value={sheet.allineamento} valueInfoId={`valore:allineamento:${sheet.allineamento}`} onChange={() => {}} />
             <TextField label="Taglia base" showInfo={false} showEditIcon value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} options={speciesSizes[sheet.specie] ?? regole.taglie} locked={Boolean(sheet.taglia)} onChange={(v) => patch({ taglia: v })} />
           </div>
           <div className={grid2}>

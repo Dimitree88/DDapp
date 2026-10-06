@@ -9,7 +9,7 @@ export function recordedValueDetails(sheet: Sheet, kind: string): FieldHelp | nu
       meaning: `${sheet.puntiFerita} punti ferita attuali${sheet.puntiFeritaMax ? ` su ${sheet.puntiFeritaMax} massimi` : ""}. I danni riducono questo valore; le cure lo aumentano senza superare normalmente il massimo.`, rule: true, page: 27,
     } : null;
     case "pfMassimi": return sheet.puntiFeritaMax ? {
-      meaning: `${sheet.puntiFeritaMax} è il massimo ordinario di punti ferita registrato. Il valore può cambiare con l'avanzamento o con effetti specifici; qui resta manuale.`, rule: true, page: 27,
+      meaning: `${sheet.puntiFeritaMax} è il massimo ordinario di punti ferita registrato. Il valore può cambiare con l'avanzamento o con effetti specifici.`, rule: true, page: 27,
     } : null;
     case "ca": {
       const value = displayedArmorClass(sheet);

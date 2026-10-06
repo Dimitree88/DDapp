@@ -23,6 +23,15 @@ Decisioni dell'utente del 6 ottobre 2026:
   multiclasse è una fase distinta: oggi `Sheet` registra una sola classe e un
   solo livello. Il wizard non deve simulare la multiclasse usando il livello
   totale come livello di classe.
+- PF massimi, Dadi Vita e Velocità non si modificano più direttamente dalla
+  scheda. Il cambio livello o l'evento che li altera deve mostrare fonte,
+  calcolo e valore prima/dopo. L'Allineamento è scelto alla creazione e,
+  secondo la decisione dell'utente del 6 ottobre 2026, non si modifica più
+  dalla scheda dopo la creazione.
+- Decisione successiva: per ora la Velocità resta soltanto leggibile. Non
+  introdurre comandi manuali per variarla; il wizard la aggiornerà solo se
+  il nuovo livello concede un effetto permanente verificato. Gli altri
+  effetti sulla velocità richiedono una futura funzione dedicata.
 - I talenti bonus successivi al 20° livello descritti a p. 43 restano fuori da
   questo wizard, come richiesto dall'utente.
 
@@ -40,6 +49,11 @@ direttamente nel PDF per questo piano:
 | 42 | Sequenza di avanzamento: classe, PF e Dado Vita, nuovi privilegi e scelte, bonus di competenza, modificatori di caratteristica. Valore tirato o fisso dei PF; incremento dei PF massimi quando aumenta il modificatore di Costituzione. |
 | 43 | Creazione a livello superiore e caso opzionale dei talenti dopo il 20° livello, escluso dal primo rilascio. |
 | 44–45 | Multiclasse: prerequisiti, livelli per classe, competenze, Dadi Vita, privilegi e incantesimi; base per la fase separata. |
+| 37–40 | Allineamento scelto durante la creazione; taglia e velocità base determinate dalla specie. Il PDF non descrive un normale cambio di Allineamento dopo la creazione. |
+| 186–197 | Tratti delle specie da cui deriva la velocità base; la Robustezza nanica aumenta i PF massimi al livello. |
+| 202 | Il talento Robusto aumenta i PF massimi subito e a ogni livello successivo. |
+| 137, 211, 301 | Esempi di velocità modificata rispettivamente da privilegio di classe, talento e incantesimo; non sono modifiche libere della scheda. |
+| 219 | Un'armatura con requisito di Forza non soddisfatto riduce la velocità di 3 metri. |
 | 51–52 | Esempio di tabella di classe, privilegio con risorsa, sottoclasse, talento concesso da un privilegio. |
 | 177, 197, 199 | Talento conferito dal background; talento di Origini aggiuntivo dell'Umano; categorie, prerequisiti e ripetibilità dei talenti. |
 
@@ -84,14 +98,36 @@ verificato della classe, sottoclasse, talento o incantesimo pertinente.
 | Ambito | Automatico o richiesta al giocatore |
 | --- | --- |
 | Livello e PE | Aumentare di 1 il livello solo al salvataggio. Conservare i PE registrati; mostrare la soglia e l'eventuale conferma sotto soglia. |
-| PF massimi e Dadi Vita | Aggiungere un Dado Vita del tipo della classe. Chiedere tiro del dado oppure valore fisso della tabella; sommare Costituzione, rispettando il minimo indicato. Conservare metodo e risultato per quel livello. Ricalcolare i PF massimi se il modificatore di Costituzione cambia, includendo l'incremento per i livelli già acquisiti. |
+| PF massimi e Dadi Vita | Aggiungere un Dado Vita del tipo della classe. Chiedere tiro del dado oppure valore fisso della tabella; sommare Costituzione, rispettando il minimo indicato. Conservare metodo e risultato per quel livello. Ricalcolare i PF massimi se il modificatore di Costituzione cambia, includendo l'incremento per i livelli già acquisiti. Applicare incrementi verificati di specie, talenti e privilegi (per esempio Robustezza nanica e Robusto); distinguere Dadi Vita totali e Dadi Vita spesi. Nessuna modifica diretta ai due massimi nella scheda. |
 | Privilegi | Conferire quelli previsti al nuovo livello dalla classe e dalla sottoclasse già scelta. Mostrare le decisioni che richiedono: sottoclasse, opzioni interne, competenze, padronanze, lingue o altre scelte effettivamente presenti nel testo. Non duplicare un privilegio già conferito. |
 | Talenti | Quando un privilegio concede un talento, creare una scelta vincolata alla sua fonte: categoria, prerequisiti e ripetibilità verificati. Registrare anche le scelte interne al talento e applicare i suoi effetti soltanto dove l'app li calcola davvero. |
 | Caratteristiche e competenza | Applicare gli incrementi scelti tramite il talento pertinente, con limiti e requisiti verificati. Ricalcolare i modificatori e il bonus di competenza del nuovo livello; non salvare copie ridondanti dei valori derivabili. |
-| Calcoli dipendenti | Aggiornare i risultati realmente calcolati: tiri salvezza, abilità e Maestria, iniziativa, percezione passiva, attacchi e danni, CA, velocità, capacità, CD e attacchi degli incantesimi. Ogni effetto non implementato va indicato come manuale, senza dichiararlo applicato. |
+| Calcoli dipendenti | Aggiornare i risultati realmente calcolati: tiri salvezza, abilità e Maestria, iniziativa, percezione passiva, attacchi e danni, CA, velocità, capacità, CD e attacchi degli incantesimi. Per la velocità distinguere base della specie, variazioni permanenti da livello/talento e variazioni da equipaggiamento, condizioni, privilegi o incantesimi durante il gioco; aggiornare il valore solo tramite l'evento pertinente. Ogni effetto non implementato va indicato come da gestire in un flusso guidato, senza dichiararlo applicato. |
 | Incantesimi | Usare la progressione della classe e i privilegi acquisiti per determinare trucchetti, incantesimi preparati o sostituibili, livello accessibile, slot e risorse di lancio. Chiedere le scelte previste, conservare fonte e caratteristica da incantatore di ciascun incantesimo. Non usare le attuali tabelle SRD come fonte normativa. |
 | Risorse e stato di gioco | Adeguare i massimi e aggiungere le nuove risorse previste; mantenere tracciabili utilizzi già spesi, PF attuali e slot già spesi. Il cambio livello da solo non ripristina PF o risorse: le pp. 27 e 42 distinguono i PF attuali dal loro massimo e indicano l'aumento del massimo, senza prescrivere una guarigione. Applicare eventuali variazioni dei PF attuali solo quando la regola specifica lo dice. I casi non determinabili dal PDF o dalla scheda richiedono una scelta esplicita prima dell'implementazione. |
 | Dati personali ed equipaggiamento | Conservare note, oggetti, quantità, monete e scelte precedenti. Non creare equipaggiamento o altri premi senza una concessione verificata della regola pertinente. |
+
+### Aggiornamento dei quattro campi bloccati
+
+1. **PF massimi:** partire dal valore persistito e mostrare il valore prima
+   dell'avanzamento. Al nuovo livello chiedere tiro del Dado Vita o scelta del
+   valore fisso; sommare il modificatore di Costituzione con il minimo di 1 PF
+   guadagnato. Applicare gli incrementi per i livelli già acquisiti se il
+   modificatore di Costituzione cambia, e quelli di specie, talenti o privilegi
+   solo quando la relativa voce verificata li prevede. Salvare metodo, esito,
+   fonti e totale nuovo; non inventare tiri storici mancanti.
+2. **Dadi Vita totali:** aggiungere esattamente un dado del tipo della classe
+   per il livello acquisito. Registrare separatamente i dadi già spesi: il
+   cambio livello non equivale a un riposo. La multiclasse resta fuori dal
+   primo rilascio e richiederà i dadi delle rispettive classi.
+3. **Velocità:** mantenere il valore registrato se il nuovo livello non
+   conferisce un effetto pertinente. Se classe, sottoclasse o talento scelto
+   concede un incremento permanente, applicarlo solo dopo verifica della
+   voce nel PDF e mostrarne fonte e calcolo nel riepilogo. Non offrire un
+   campo editabile né un comando manuale per effetti temporanei,
+   equipaggiamento o altre variazioni in questa fase.
+4. **Allineamento:** conservarlo senza variazioni nel cambio livello. È una
+   scelta della creazione, non una ricompensa o un valore derivato dal livello.
 
 Le opzioni che un privilegio permette di **cambiare durante il gioco** (per
 esempio dopo un riposo) non diventano modifiche libere nella pagina
@@ -101,6 +137,18 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
 
 - Sostituire l'attuale modifica diretta di `sheet.livello` in
   `app/personaggio/[id]/CharacterClient.tsx` con l'ingresso al wizard.
+- Mantenere PF massimi, Dadi Vita totali, Velocità e Allineamento in sola
+  lettura nella scheda. `saveSheet` deve rifiutare le modifiche dirette a
+  questi campi; il wizard userà una transizione dedicata, verificata sul
+  server. Gli altri eventi avranno transizioni dedicate in una fase successiva.
+  L'Allineamento si raccoglie nel flusso di creazione e non è
+  un effetto del cambio livello.
+- Per PF massimi e velocità conservare separatamente valore base, fonti e
+  variazioni applicabili, inclusi gli effetti temporanei e la loro scadenza.
+  I Dadi Vita totali derivano dai livelli nelle classi; quelli spesi sono
+  stato di gioco distinto. Il wizard applica le variazioni permanenti del
+  nuovo livello; equipaggiamento e altri effetti richiederanno flussi evento
+  distinti in una fase successiva, senza editor manuale della Velocità.
 - Introdurre un modello di **concessione** con ID stabile, fonte
   (`classe`, `sottoclasse`, `background`, `specie`, `talento`), livello di
   acquisizione, riferimento alla voce del manuale e scelte richieste.
@@ -182,6 +230,12 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
 - PF, Dadi Vita, valori derivati, scelte e risorse nel riepilogo coincidono
   con la scheda salvata; i dati personali e gli utilizzi già spesi restano
   presenti. Nessun testo definisce «applicato» un effetto ancora manuale.
+- La scheda non offre editor diretti per PF massimi, Dadi Vita totali,
+  Velocità o Allineamento; `saveSheet` rifiuta tentativi di modificarli.
+  Il wizard aggiorna PF massimi e Dadi Vita con fonte e formula; modifica la
+  Velocità solo per un effetto permanente concesso dal livello e verificato.
+  Nessun comando manuale cambia la Velocità in questa fase. La
+  creazione è l'unico flusso ordinario che sceglie l'Allineamento.
 - I PE sotto soglia richiedono la conferma aggiuntiva; i PE non sono modificati.
   Il livello non può essere cambiato con l'editor ordinario né superare 20.
 - Le vecchie schede mantengono talenti, privilegi, scelte e note. Le voci
@@ -197,8 +251,14 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   Ogni effetto specifico che aumenti anche i PF attuali va applicato secondo
   il suo testo verificato nel PDF.
 - **Schede esistenti incomplete:** stabilire come presentare le decisioni
-  storiche mancanti (per esempio tiri dei PF non registrati) senza fabbricare
-  risultati. La soluzione deve essere verificabile prima di togliere gli
-  editor manuali.
+  storiche mancanti (per esempio tiri dei PF non registrati), PF massimi,
+  Dadi Vita, Velocità o Allineamento assenti o incoerenti, senza fabbricare
+  risultati. Gli editor diretti sono disattivati: prevedere nel wizard o in
+  un flusso di riconciliazione una correzione esplicita e tracciata, senza
+  sovrascrivere automaticamente i valori storici.
+- **Eventi fuori avanzamento:** distinguere la velocità base dalla velocità
+  corrente modificata da armatura, condizioni, incantesimi e privilegi;
+  distinguere PF massimi da PF attuali e dagli effetti temporanei. Ogni
+  variazione richiede una fonte verificata e una transizione dedicata.
 - **Multiclasse:** fase successiva che richiede livelli per classe e le regole
   delle pp. 44–45; nessuna concessione del primo wizard deve presupporla.
