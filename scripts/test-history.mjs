@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { diffSheet, groupHistoryByDay, historyTimestampMs } from "../lib/history.ts";
+import { diffManualSheet, diffSheet, groupHistoryByDay, historyTimestampMs } from "../lib/history.ts";
 import { emptySheet } from "../lib/sheet.ts";
 
 test("records only fields whose saved value changed", () => {
@@ -24,6 +24,25 @@ test("records an added item without marking shifted items as modified", () => {
   after.lingue.splice(1, 0, "Draconico");
   assert.deepEqual(diffSheet(before, after), [
     { field: "Lingue · aggiunta", before: "—", after: "Draconico" },
+  ]);
+});
+
+test("manual history excludes creation, progression and derived values", () => {
+  const before = emptySheet();
+  const after = structuredClone(before);
+  after.classe = "Ranger";
+  after.livello = "2";
+  after.classeArmatura = 15;
+  after.scudo = true;
+  after.noteLingue = "Promemoria";
+  after.equipaggiamento = [{ nome: "Torcia", dettaglio: "" }];
+  after.monete.oro = "3";
+  after.note = "Appunto";
+  assert.deepEqual(diffManualSheet(before, after), [
+    { field: "Note lingue", before: "—", after: "Promemoria" },
+    { field: "Equipaggiamento · aggiunta", before: "—", after: '{\n  "nome": "Torcia",\n  "dettaglio": ""\n}' },
+    { field: "Monete · Oro", before: "—", after: "3" },
+    { field: "Note", before: "—", after: "Appunto" },
   ]);
 });
 

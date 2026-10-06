@@ -7,7 +7,7 @@ import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
 import { normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
-import { diffSheet, historyTimestampMs, type HistoryChange } from "@/lib/history";
+import { diffManualSheet, historyTimestampMs, type HistoryChange } from "@/lib/history";
 import { creationErrors } from "@/lib/creationRules";
 import { armorForEquipment } from "@/lib/equipmentSelection";
 
@@ -94,11 +94,10 @@ export async function saveSheet(
       item.impugnato && armorForEquipment(item)?.category === "scudi" && Number(item.quantita ?? "1") > 0)) {
       return { ok: false, error: "Registra prima lo scudo nell'inventario." };
     }
-    const changes = diffSheet(previous, normalized);
-    if (current.name !== cleanName) changes.unshift({ field: "Nome del personaggio", before: current.name, after: cleanName });
+    const changes = diffManualSheet(previous, normalized);
     const hasRemovedBonus = [...current.data.armi, ...current.data.equipaggiamento]
       .some((item) => Object.hasOwn(item, "bonusMagico"));
-    if (changes.length === 0 && !hasRemovedBonus) return { ok: true };
+    if (changes.length === 0 && !hasRemovedBonus && current.name === cleanName) return { ok: true };
     const now = new Date();
     await tx.update(characters).set({ name: cleanName, data: normalized, updatedAt: now }).where(eq(characters.id, id));
     if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });

@@ -84,7 +84,7 @@ function itemName(before: unknown, after: unknown, index: number): string {
   return candidate?.nome || candidate?.titolo || String(index + 1);
 }
 
-export function diffSheet(before: Sheet, after: Sheet): HistoryChange[] {
+export function diffSheet(before: Partial<Sheet>, after: Partial<Sheet>): HistoryChange[] {
   const changes: HistoryChange[] = [];
   const add = (field: string, oldValue: unknown, newValue: unknown) => {
     changes.push({ field, before: show(oldValue), after: show(newValue) });
@@ -127,4 +127,15 @@ export function diffSheet(before: Sheet, after: Sheet): HistoryChange[] {
     walk(before[key as keyof Sheet], after[key as keyof Sheet], labels[key] ?? key);
   }
   return changes;
+}
+
+// Solo i campi che il giocatore può modificare nelle pagine della scheda.
+// Le scelte di creazione/avanzamento e i valori derivati sono mostrati in Storia.
+const manualFields = ["noteLingue", "armi", "equipaggiamento", "monete", "note"] as const;
+
+export function diffManualSheet(before: Sheet, after: Sheet): HistoryChange[] {
+  return diffSheet(
+    Object.fromEntries(manualFields.map((field) => [field, before[field]])) as Partial<Sheet>,
+    Object.fromEntries(manualFields.map((field) => [field, after[field]])) as Partial<Sheet>,
+  );
 }

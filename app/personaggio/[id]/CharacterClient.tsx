@@ -913,18 +913,25 @@ export default function CharacterClient({
     {
       title: "Storia",
       body: (
-        <ol className="flex flex-col gap-2 pb-4">
-          {characterStory(sheet, hitPointGains).map((event, index) => (
-            <li key={`${index}-${event.title}`} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
-              <h2 className="text-sm font-semibold text-ink">{event.title}</h2>
-              {event.details.length > 0 && <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-accent">
-                {event.details.map((item, detailIndex) => <li key={detailIndex} className="break-words text-sm text-ink-soft">
-                  {item.label}
-                  {item.consequences && item.consequences.length > 0 && <ul className="mt-1 list-[circle] space-y-1 pl-5 marker:text-accent/70">
-                    {item.consequences.map((consequence, consequenceIndex) => <li key={consequenceIndex} className="whitespace-pre-line">{consequence}</li>)}
-                  </ul>}
-                </li>)}
-              </ul>}
+        <ol className="flex flex-col gap-6 pb-4">
+          {characterStory(sheet, hitPointGains).map((chapter) => (
+            <li key={chapter.trigger}>
+              <h2 className="mb-2 border-b border-accent/40 pb-1 text-base font-bold uppercase tracking-wide text-accent">{chapter.trigger}</h2>
+              <ol className="flex flex-col gap-2">
+                {chapter.events.map((event, index) => (
+                  <li key={`${index}-${event.title}`} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
+                    <h3 className="text-sm font-semibold text-ink">{event.title}</h3>
+                    {event.details.length > 0 && <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-accent">
+                      {event.details.map((item, detailIndex) => <li key={detailIndex} className="break-words text-sm text-ink-soft">
+                        {item.label}
+                        {item.consequences && item.consequences.length > 0 && <ul className="mt-1 list-[circle] space-y-1 pl-5 marker:text-accent/70">
+                          {item.consequences.map((consequence, consequenceIndex) => <li key={consequenceIndex} className="whitespace-pre-line">{consequence}</li>)}
+                        </ul>}
+                      </li>)}
+                    </ul>}
+                  </li>
+                ))}
+              </ol>
             </li>
           ))}
         </ol>
@@ -1057,7 +1064,7 @@ export default function CharacterClient({
                 <div className="flex-1 overflow-y-auto px-4 py-4">
                   {historyLoading ? <p className="text-sm text-ink-soft">Caricamento…</p> :
                     historyError ? <p className="text-sm text-red-800">{historyError}</p> :
-                      historyEntries.length === 0 ? <p className="text-sm text-ink-soft">Nessuna modifica registrata. Lo storico parte da oggi; le modifiche precedenti non erano tracciate.</p> :
+                      historyEntries.length === 0 ? <p className="text-sm text-ink-soft">Nessuna modifica manuale registrata.</p> :
                         <ol className="flex flex-col gap-3">
                           {groupHistoryByDay(historyEntries).map((day) => (
                             <li key={day.day} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">

@@ -58,10 +58,9 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 - Dalla pagina del personaggio puoi esportare il PDF nel formato dell'app o
   compilare il modello D&D originale. Il secondo PDF è statico e contiene fino a
   6 armi e 30 incantesimi; i testi troppo lunghi vengono tagliati solo nel PDF.
-- Il pulsante **Storico modifiche** in fondo alla pagina del personaggio mostra i
-  salvataggi in ordine dal più recente, con data, ora e valori prima/dopo. I
-  salvataggi identici non creano voci. Lo storico inizia dall'attivazione della
-  funzione; le modifiche precedenti non sono ricostruibili dal database.
+- Il pulsante **Storico modifiche** in fondo alla pagina del personaggio mostra le
+  modifiche manuali alle pagine della scheda, con data, ora e valori prima/dopo.
+  La sezione **Storia** mostra creazione e avanzamenti.
 
 ## Script
 | Comando | Cosa fa |
@@ -89,7 +88,7 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 ## Modello dati
 La tabella `characters` contiene `id`, `name`, `pin_hash` e `data` (JSON con l'intera
 scheda — vedi il tipo `Sheet` in `lib/sheet.ts`). `character_history` registra
-data, ora e differenze di ogni salvataggio effettivo. La scheda originale di riferimento è
+data, ora e differenze delle modifiche manuali alla scheda. La scheda originale di riferimento è
 in `docs/EPHEMER.md`.
 
 ## Catalogo delle regole

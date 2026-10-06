@@ -8,6 +8,7 @@ import { chiaveRicerca, privilegioManuale } from "./manuale-2024";
 
 export type StoryDetail = { label: string; consequences?: string[] };
 export type StoryEvent = { title: string; details: StoryDetail[] };
+export type StoryChapter = { trigger: string; events: StoryEvent[] };
 
 const present = (value: string | undefined) => Boolean(value?.trim());
 const unique = (values: string[]) => [...new Set(values.filter(Boolean))];
@@ -129,12 +130,12 @@ function featDetails(grants: Grant[], sheet: Sheet, used: Set<number>): StoryDet
 // Le fasi di creazione e avanzamento seguono il Manuale del Giocatore 2024, pp. 33, 36-42.
 // I dati già presenti nella scheda non conservano il momento di ogni scelta: si assegna
 // una conseguenza allo step solo quando la sua fonte o il livello sono identificabili.
-export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"] = []): StoryEvent[] {
+export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"] = []): StoryChapter[] {
   const level = Math.max(1, Math.min(20, Number(sheet.livello) || 1));
   const privileges = grantedPrivileges(sheet);
   const feats = featGrants(sheet);
   const usedFeats = new Set<number>();
-  const events: StoryEvent[] = [{ title: "Personaggio creato", details: [detail("Livello 1")] }];
+  const events: StoryEvent[] = [];
 
   if (present(sheet.classe)) {
     const hitDie = sheet.dadiVita.match(/d\d+/i)?.[0];
@@ -179,6 +180,7 @@ export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"
   if (present(sheet.allineamento)) events.push({ title: `Scelto allineamento: ${sheet.allineamento}`, details: [] });
   if (present(sheet.puntiFeritaMax) && level === 1) events.push({ title: "Determinati i punti ferita iniziali", details: [detail(`Punti ferita massimi: ${sheet.puntiFeritaMax}`)] });
 
+  const chapters: StoryChapter[] = [{ trigger: "Creazione personaggio", events }];
   for (let current = 2; current <= level; current++) {
     const levelPrivileges = privileges.filter((item) => item.level === current);
     const levelFeats = feats.filter((item) => featGrantLevel(item, sheet) === current);
@@ -193,7 +195,13 @@ export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"
     const previousBonus = proficiencyBonus(String(current - 1));
     const nextBonus = proficiencyBonus(String(current));
     if (previousBonus !== nextBonus) details.push(detail(`Bonus di competenza: ${nextBonus}`));
-    events.push({ title: `Raggiunto livello ${current}`, details });
+    chapters.push({
+      trigger: `Livello ${current}`,
+      events: details.map((item) => ({
+        title: item.label,
+        details: (item.consequences ?? []).map(detail),
+      })),
+    });
   }
-  return events;
+  return chapters;
 }
