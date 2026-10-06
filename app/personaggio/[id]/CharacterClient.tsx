@@ -550,6 +550,9 @@ export default function CharacterClient({
         : grant.name}</p>
       <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
       {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
+      {grant.name === "Compagno Selvatico" && <p className="mt-1 text-sm text-ink-soft">
+        Lancia <InfoLabel id="incantesimo:Trova famiglio" title="Trova famiglio" className="font-semibold text-accent underline underline-offset-2" /> spendendo uno slot incantesimo o un uso di Forma Selvatica, senza componenti materiali.
+      </p>}
       {resources.map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
     </div>;
   };
