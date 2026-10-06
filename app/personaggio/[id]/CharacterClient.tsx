@@ -37,16 +37,12 @@ import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
-import { availableFeatChoices, availablePrivilegeChoices, featGrants, grantedPrivileges, privilegeOptions } from "@/lib/characterGrants";
+import { featGrants, grantedPrivileges } from "@/lib/characterGrants";
 import { spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotals } from "@/lib/coins";
-import { hasGrantedCompetency } from "@/lib/competencySources";
-import { classToolProficiencies } from "@/lib/classSavingThrows";
 import { weaponCompetencyDetails } from "@/lib/weaponCompetencies";
-import { addToolCompetency, availableToolCompetencyChoices, pendingToolChoiceSources, removeToolCompetency, toolCompetencyDetails } from "@/lib/toolCompetencies";
-import { backgroundToolProficiency } from "@/lib/backgroundToolProficiencies";
-import { featToolProficiencies } from "@/lib/featToolProficiencies";
+import { toolCompetencyDetails } from "@/lib/toolCompetencies";
 import { subclassLevel } from "@/lib/classProgression";
 import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
@@ -136,26 +132,14 @@ function WeaponCompetencyList({ sheet }: { sheet: Sheet }) {
   </ul>;
 }
 
-function ToolCompetencyEditor({ sheet, onChange }: { sheet: Sheet; onChange: (update: Partial<Sheet>) => void }) {
-  const { unlocked } = useContext(EditContext);
+function ToolCompetencyList({ sheet }: { sheet: Sheet }) {
   const items = sheet.competenzeStrumenti ?? [];
-  const choices = availableToolCompetencyChoices(sheet);
-  const pending = pendingToolChoiceSources(sheet);
   return <ul className="flex flex-col gap-1.5">
-    {pending.length > 0 && <li className="text-xs text-ink-soft">Scelte strumenti da completare: {pending.map((item) => `${item.source} (${item.remaining})`).join("; ")}.</li>}
-    {items.length === 0 && !unlocked && <li className="text-sm text-ink-faint">—</li>}
+    {items.length === 0 && <li className="text-sm text-ink-faint">—</li>}
     {items.map((name) => <li key={name} className="flex items-center gap-2">
       <span className="text-ink-faint" aria-hidden>•</span>
       <InfoLabel id={`competenzaStrumento:${name}`} title={name} className="min-w-0 flex-1 rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink" />
-      {unlocked && !hasGrantedCompetency(sheet, "strumento", name, classToolProficiencies(sheet.classe).includes(name) || backgroundToolProficiency(sheet.background) === name || featToolProficiencies(sheet).includes(name)) && <button type="button" onClick={() => onChange(removeToolCompetency(sheet, name))} aria-label={`Rimuovi ${name}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
     </li>)}
-    {unlocked && choices.length > 0 && <li>
-      <select aria-label="Scegli strumento per una competenza prevista" value="" onChange={(event) => onChange(addToolCompetency(sheet, event.target.value))}
-        className="max-w-full rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
-        <option value="" disabled>+ Scegli strumento</option>
-        {[...choices].sort(compareOptionLabels).map((name) => <option key={name} value={name}>{name}</option>)}
-      </select>
-    </li>}
   </ul>;
 }
 
@@ -264,158 +248,6 @@ function CompetenceDot({ checked, label }: { checked: boolean; label: string }) 
       ? "border-accent bg-accent text-parchment"
       : "border-ink-faint text-transparent"
     }`}>✓</span>;
-}
-
-function ArrayEditor<T>({
-  items,
-  onChange,
-  makeNew,
-  addLabel,
-  renderItem,
-  collapsible = false,
-  titleOf,
-  onTitleClick,
-  subtitleOf,
-  headerAccessory,
-  maxItems,
-  lockItem,
-  canAdd = true,
-}: {
-  items: T[];
-  onChange: (items: T[]) => void;
-  makeNew: () => T;
-  addLabel: string;
-  renderItem: (item: T, patch: (p: Partial<T>) => void, index: number, locked: boolean) => ReactNode;
-  collapsible?: boolean;
-  titleOf?: (item: T, index: number) => string;
-  onTitleClick?: (item: T, index: number, button: HTMLButtonElement) => boolean;
-  subtitleOf?: (item: T, index: number) => string;
-  headerAccessory?: (item: T, patch: (p: Partial<T>) => void, index: number) => ReactNode;
-  maxItems?: number;
-  lockItem?: (item: T) => boolean;
-  canAdd?: boolean;
-}) {
-  const { unlocked } = useContext(EditContext);
-  const [expanded, setExpanded] = useState<Set<number>>(new Set());
-
-  const patchAt = (i: number, p: Partial<T>) =>
-    onChange(items.map((it, idx) => (idx === i ? { ...it, ...p } : it)));
-  const removeAt = (i: number) => {
-    onChange(items.filter((_, idx) => idx !== i));
-    setExpanded((prev) =>
-      new Set([...prev].filter((x) => x !== i).map((x) => (x > i ? x - 1 : x))),
-    );
-  };
-  const add = () => {
-    const newIndex = items.length;
-    onChange([...items, makeNew()]);
-    setExpanded((prev) => new Set(prev).add(newIndex));
-  };
-  const toggle = (i: number) =>
-    setExpanded((prev) => {
-      const n = new Set(prev);
-      if (n.has(i)) n.delete(i);
-      else n.add(i);
-      return n;
-    });
-
-  const addButton = unlocked && canAdd && (maxItems === undefined || items.length < maxItems) && (
-    <button
-      type="button"
-      onClick={add}
-      className="rounded-lg border border-dashed border-line px-4 py-3 text-sm font-medium text-ink-soft active:bg-card/60"
-    >
-      + {addLabel}
-    </button>
-  );
-
-  if (collapsible) {
-    return (
-      <div className="flex flex-col gap-2">
-        {items.length === 0 && !unlocked && (
-          <p className="text-sm text-ink-faint">Niente da mostrare.</p>
-        )}
-        {items.map((item, i) => {
-          const open = expanded.has(i);
-          const sub = subtitleOf?.(item, i);
-          return (
-            <div key={i} className="overflow-hidden rounded-xl border border-line bg-card/70 shadow-sm">
-              <div className="flex items-center gap-2 px-3 py-2">
-                <button
-                  type="button"
-                  onClick={(event) => { if (!onTitleClick?.(item, i, event.currentTarget)) toggle(i); }}
-                  className="flex min-w-0 flex-1 items-center text-left"
-                >
-                  <span className="min-w-0 flex-1">
-                    <span className="block truncate text-sm font-semibold text-ink">
-                      {titleOf?.(item, i) || `Elemento ${i + 1}`}
-                    </span>
-                    {sub && <span className="block truncate text-xs text-ink-faint">{sub}</span>}
-                  </span>
-                </button>
-                {headerAccessory && (
-                  <div className="shrink-0">{headerAccessory(item, (p) => patchAt(i, p), i)}</div>
-                )}
-                <button
-                  type="button"
-                  onClick={() => toggle(i)}
-                  aria-label={open ? "Comprimi" : "Espandi"}
-                  className={`shrink-0 text-lg leading-none text-ink-soft transition-transform ${open ? "rotate-90" : ""
-                    }`}
-                >
-                  ›
-                </button>
-              </div>
-              {open && (
-                <div className="border-t border-line/70 px-3 py-3">
-                  {renderItem(item, (p) => patchAt(i, p), i, lockItem?.(item) ?? false)}
-                  {unlocked && !lockItem?.(item) && (
-                    <button
-                      type="button"
-                      onClick={() => removeAt(i)}
-                      className="mt-3 text-xs font-medium text-red-800"
-                    >
-                      Rimuovi
-                    </button>
-                  )}
-                </div>
-              )}
-            </div>
-          );
-        })}
-        {addButton}
-        {unlocked && maxItems !== undefined && items.length >= maxItems && (
-          <p className="text-xs text-ink-faint">Massimo {maxItems} elementi.</p>
-        )}
-      </div>
-    );
-  }
-
-  return (
-    <div className="flex flex-col gap-2.5">
-      {items.length === 0 && !unlocked && (
-        <p className="text-sm text-ink-faint">Niente da mostrare.</p>
-      )}
-      {items.map((item, i) => (
-        <div key={i} className={card}>
-          {renderItem(item, (p) => patchAt(i, p), i, lockItem?.(item) ?? false)}
-          {unlocked && !lockItem?.(item) && (
-            <button
-              type="button"
-              onClick={() => removeAt(i)}
-              className="mt-3 text-xs font-medium text-red-800"
-            >
-              Rimuovi
-            </button>
-          )}
-        </div>
-      ))}
-      {addButton}
-      {unlocked && maxItems !== undefined && items.length >= maxItems && (
-        <p className="text-xs text-ink-faint">Massimo {maxItems} elementi.</p>
-      )}
-    </div>
-  );
 }
 
 const COINS: [string, keyof Sheet["monete"], string][] = [
@@ -860,7 +692,7 @@ export default function CharacterClient({
         <div className="flex flex-col gap-4">
           <div>
             <h3 className={sectionTitle}><InfoLabel id="Competenze negli strumenti" title="Competenze negli strumenti" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
-            <ToolCompetencyEditor sheet={sheet} onChange={patch} />
+            <ToolCompetencyList sheet={sheet} />
           </div>
           <div>
             <h3 className={sectionTitle}>Oggetti</h3>
@@ -885,38 +717,23 @@ export default function CharacterClient({
               </div>;
             })}
           </div>
-          <h3 className={sectionTitle}>Scelte dei privilegi</h3>
-          <ArrayEditor
-            items={sheet.privilegi}
-            onChange={(items) => patch({ privilegi: items })}
-            makeNew={() => ({ titolo: availablePrivilegeChoices(sheet)[0] ?? "", scelte: "" })}
-            addLabel="Aggiungi privilegio"
-            canAdd={availablePrivilegeChoices(sheet).length > 0 && !sheet.privilegi.some((item) => !item.titolo)}
-            renderItem={(pr, p, index) => (
-              <div className="flex flex-col gap-2">
-                <TextField label="Titolo" showInfo={false} value={pr.titolo} valueInfoId={pr.titolo && (valueDetails("privilegio", pr.titolo) || pr.scelte) ? `privilegio:${index}` : undefined} options={availablePrivilegeChoices(sheet).includes(pr.titolo) ? availablePrivilegeChoices(sheet) : [pr.titolo, ...availablePrivilegeChoices(sheet)]} onChange={(v) => p({ titolo: v, scelte: "" })} />
-                <TextField label="Scelta" showInfo={false} value={pr.scelte} valueInfoId={pr.titolo ? `privilegio:${index}` : undefined} valueInfoTitle={pr.titolo} options={privilegeOptions[pr.titolo]} onChange={(v) => p({ scelte: v })} multiline={!privilegeOptions[pr.titolo]} />
-              </div>
-            )}
-          />
+          <h3 className={sectionTitle}>Scelte dei privilegi registrate</h3>
+          <div className="flex flex-col gap-2">
+            {sheet.privilegi.length === 0 && <p className="text-sm text-ink-faint">Nessuna scelta registrata.</p>}
+            {sheet.privilegi.map((pr, index) => <div key={index} className={card}>
+              <p className="text-sm font-semibold text-ink"><InfoLabel id={`privilegio:${index}`} title={pr.titolo || "Privilegio"} /></p>
+              {pr.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{pr.scelte}</p>}
+            </div>)}
+          </div>
           <h3 className={`${sectionTitle} mt-4`}>Risorse dei privilegi</h3>
-          <ArrayEditor
-            items={sheet.risorse ?? []}
-            onChange={(items) => patch({ risorse: items })}
-            makeNew={(): NonNullable<Sheet["risorse"]>[number] => ({ nome: "", fonte: "", massimo: 1, spesi: 0, ricarica: "" })}
-            addLabel="Aggiungi risorsa"
-            titleOf={(resource) => resource.nome || "Nuova risorsa"}
-            subtitleOf={(resource) => `${resource.massimo - resource.spesi}/${resource.massimo} disponibili`}
-            renderItem={(resource, p) => <div className="flex flex-col gap-2">
-              <TextField label="Nome" showInfo={false} value={resource.nome} onChange={(v) => p({ nome: v })} />
-              <TextField label="Fonte" showInfo={false} value={resource.fonte} onChange={(v) => p({ fonte: v })} />
-              <div className={grid2}>
-                <TextField label="Usi massimi" showInfo={false} numeric="unsigned" value={String(resource.massimo)} onChange={(v) => p({ massimo: Number(v || 0) })} />
-                <TextField label="Usi spesi" showInfo={false} numeric="unsigned" value={String(resource.spesi)} onChange={(v) => p({ spesi: Number(v || 0) })} />
-              </div>
-              <TextField label="Ricarica" showInfo={false} value={resource.ricarica} onChange={(v) => p({ ricarica: v })} />
-            </div>}
-          />
+          <div className="flex flex-col gap-2">
+            {(sheet.risorse ?? []).length === 0 && <p className="text-sm text-ink-faint">Nessuna risorsa registrata.</p>}
+            {(sheet.risorse ?? []).map((resource, index) => <div key={index} className={card}>
+              <p className="text-sm font-semibold text-ink">{resource.nome}</p>
+              <p className="text-sm text-ink-soft">{resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>
+              <p className="text-xs text-ink-soft">Fonte: {resource.fonte}{resource.ricarica ? ` · Ricarica: ${resource.ricarica}` : ""}</p>
+            </div>)}
+          </div>
           <h3 className={`${sectionTitle} mt-4`}>Fonti delle competenze</h3>
           <div className="flex flex-col gap-1.5">
             {(sheet.fontiCompetenze ?? []).map((record, index) => (
@@ -939,20 +756,13 @@ export default function CharacterClient({
             </div>)}
           </div>
           <h3 className={sectionTitle}>Talenti</h3>
-          <ArrayEditor
-            items={sheet.talenti}
-            onChange={(items) => patch({ talenti: items })}
-            makeNew={() => ({ nome: "", scelte: "" })}
-            addLabel="Aggiungi talento"
-            canAdd={availableFeatChoices(sheet).length > 0 && !sheet.talenti.some((item) => !item.nome)}
-            lockItem={(t) => Boolean(t.nome)}
-            renderItem={(t, p, _index, locked) => (
-              <div className="flex flex-col gap-2">
-                <TextField label="Nome" showInfo={false} value={t.nome} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} options={availableFeatChoices(sheet)} locked={locked} onChange={(v) => p({ nome: v })} />
-                <TextField label="Scelte personali" showInfo={false} value={t.scelte} valueInfoId={t.nome ? `valore:talento:${t.nome}` : undefined} valueInfoTitle={t.nome} onChange={(v) => p({ scelte: v })} multiline />
-              </div>
-            )}
-          />
+          <div className="flex flex-col gap-2">
+            {sheet.talenti.length === 0 && <p className="text-sm text-ink-faint">Nessun talento registrato.</p>}
+            {sheet.talenti.map((talento, index) => <div key={index} className={card}>
+              <p className="text-sm font-semibold text-ink"><InfoLabel id={`valore:talento:${talento.nome}`} title={talento.nome || "Talento"} /></p>
+              {talento.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{talento.scelte}</p>}
+            </div>)}
+          </div>
         </div>
       ),
     },

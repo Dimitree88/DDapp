@@ -12,8 +12,10 @@ Decisioni dell'utente del 6 ottobre 2026:
 
 - Le pagine **Talenti** e **Privilegi** mostrano quanto acquisito, con fonte,
   livello, testo e scelte effettuate. Non hanno pulsanti per aggiungere o
-  rimuovere liberamente voci. Il wizard di creazione e quello di avanzamento
-  raccolgono le scelte permanenti.
+  rimuovere liberamente voci, né campi per correggere direttamente scelte o
+  risorse. Anche gli usi spesi delle risorse richiedono un comando guidato
+  durante il gioco. Il wizard di creazione e quello di avanzamento raccolgono
+  le scelte permanenti.
 - Il cambio livello può essere avviato anche se i PE registrati sono inferiori
   alla soglia della tabella. In questo caso il wizard mostra soglia e PE attuali
   e richiede una conferma esplicita aggiuntiva. È una scelta del flusso
@@ -73,6 +75,7 @@ direttamente nel PDF per questo piano:
 | 37, 101, 142 | Alla creazione: Comune e due lingue standard scelte o tirate. Il Ladro ottiene Gergo Ladresco e una lingua scelta al 1° livello; il Ranger sceglie due lingue con Esploratore Esperto al 2° livello. |
 | 51–52 | Esempio di tabella di classe, privilegio con risorsa, sottoclasse, talento concesso da un privilegio. |
 | 177, 197, 199 | Talento conferito dal background; talento di Origini aggiuntivo dell'Umano; categorie, prerequisiti e ripetibilità dei talenti. |
+| 70, 80, 201–202 | Ordine divino e Ordine primordiale richiedono una scelta al 1° livello; Iniziato alla magia ha una sostituzione quando si acquisisce un livello, mentre Lavoro manuale e Musicista concedono scelte di strumenti. |
 | 12, 36, 38, 40 | Il tiro salvezza somma il bonus di competenza solo se la competenza è posseduta; alla creazione si scelgono i punteggi e si registrano le competenze conferite. |
 | 53, 103, 125, 145 | Esempi di privilegi di classe che aumentano punteggi o conferiscono competenza nei tiri salvezza a livelli specifici. |
 | 199, 203, 208 | I talenti possono aumentare i punteggi; Resiliente conferisce anche competenza nel tiro salvezza scelto. |
@@ -131,9 +134,9 @@ verificato della classe, sottoclasse, talento o incantesimo pertinente.
 | --- | --- |
 | Livello e PE | Aumentare di 1 il livello solo al salvataggio. Conservare i PE registrati; mostrare la soglia e l'eventuale conferma sotto soglia. |
 | PF massimi e Dadi Vita | Aggiungere un Dado Vita del tipo della classe. Chiedere tiro del dado oppure valore fisso della tabella; sommare Costituzione, rispettando il minimo indicato. Conservare metodo e risultato per quel livello. Ricalcolare i PF massimi se il modificatore di Costituzione cambia, includendo l'incremento per i livelli già acquisiti. Applicare incrementi verificati di specie, talenti e privilegi (per esempio Robustezza nanica e Robusto); distinguere Dadi Vita totali e Dadi Vita spesi. Nessuna modifica diretta ai due massimi nella scheda. |
-| Privilegi | Conferire quelli previsti al nuovo livello dalla classe e dalla sottoclasse già scelta. Mostrare le decisioni che richiedono: sottoclasse, opzioni interne, competenze, padronanze, lingue o altre scelte effettivamente presenti nel testo. Non duplicare un privilegio già conferito. |
+| Privilegi | Conferire quelli previsti al nuovo livello dalla classe e dalla sottoclasse già scelta. Mostrare le decisioni che richiedono: sottoclasse, opzioni interne, competenze, padronanze, lingue o altre scelte effettivamente presenti nel testo. Non duplicare un privilegio già conferito. Creare o aggiornare le risorse con massimo, fonte e ricarica verificati, conservando gli usi già spesi; il cambio livello non è un riposo. Le scelte iniziali di 1° livello, come Ordine divino e Ordine primordiale (pp. 70, 80), devono essere complete già alla creazione, senza un editor tardivo nella scheda. |
 | Lingue | Nessuna aggiunta libera dalla scheda. Alla creazione registrare Comune e le due lingue standard scelte o tirate, con fonte. Ai livelli successivi aggiungere una lingua solo quando un privilegio verificato lo concede; chiedere la scelta soltanto dall'elenco consentito e registrare fonte, livello e pagina. Per il primo rilascio verificare almeno Esploratore Esperto del Ranger al 2° livello; le concessioni del Ladro e del Druido al 1° livello appartengono alla creazione. Le note sulle lingue restano testo personale modificabile. |
-| Talenti | Quando un privilegio concede un talento, creare una scelta vincolata alla sua fonte: categoria, prerequisiti e ripetibilità verificati. Registrare anche le scelte interne al talento e applicare i suoi effetti soltanto dove l'app li calcola davvero. |
+| Talenti | Quando un privilegio concede un talento, creare una scelta vincolata alla sua fonte: categoria, prerequisiti e ripetibilità verificati. Registrare anche le scelte interne al talento e applicare i suoi effetti soltanto dove l'app li calcola davvero. Verificare a ogni livello le opzioni di talenti già posseduti: Iniziato alla magia permette di sostituire uno degli incantesimi scelti quando si ottiene un nuovo livello (p. 201). La scelta della lista e della caratteristica di lancio fatta all'acquisizione non diventa liberamente editabile. |
 | Caratteristiche e competenza | Applicare gli incrementi scelti tramite il talento o privilegio pertinente, con limiti e requisiti verificati. Conferire o scegliere competenze nei tiri salvezza solo quando la classe, un privilegio o un talento lo prevede (per esempio Resiliente). Registrare la fonte e non confondere la competenza con il bonus numerico, che può aumentare per livello. Ricalcolare i modificatori e il bonus di competenza del nuovo livello; non salvare copie ridondanti dei valori derivabili. |
 | Abilità e Maestria | Applicare competenze e Maestria soltanto se una classe, un privilegio o un talento li concede. Chiedere l'abilità quando la fonte prevede una scelta; conservarne fonte e livello. Aggiornare i bonus delle abilità dal punteggio di caratteristica e dal bonus di competenza, senza editarli o assegnare spunte arbitrarie. |
 | Competenze nelle armature e negli scudi | Applicare le competenze concesse dal talento o privilegio acquisito, con fonte e requisiti verificati. Per esempio, Corazze Leggere concede competenza nelle armature leggere e negli scudi; non aggiunge oggetti all'inventario e non li equipaggia. |
@@ -251,6 +254,15 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   limite al massimo verificato. Creazione, avanzamento, riposo e acquisizioni
   durante il gioco useranno transizioni dedicate con fonte e momento validati.
   Riconciliare le voci pregresse senza fonte o stato certo senza cancellarle.
+- Le pagine Privilegi e Talenti mostrano voci e scelte registrate in sola
+  lettura. `saveSheet` rifiuta variazioni dirette a `privilegi`, `talenti`,
+  `risorse`, competenze negli strumenti e fonti delle competenze. Il wizard
+  aggiorna queste voci tramite la concessione verificata; l'uso e il recupero
+  delle risorse appartengono ai comandi guidati della Sessione e del riposo.
+  Le competenze concesse da Lavoro manuale o Musicista (pp. 201–202) devono
+  essere riconciliate con le scelte del talento, rimuovendo una vecchia fonte
+  quando una transizione valida sostituisce una scelta e senza aggiungere
+  competenze duplicate.
 - Per PF massimi e velocità conservare separatamente valore base, fonti e
   variazioni applicabili, inclusi gli effetti temporanei e la loro scadenza.
   I Dadi Vita totali derivano dai livelli nelle classi; quelli spesi sono
@@ -384,6 +396,12 @@ Privilegi: avranno un flusso guidato distinto dal cambio livello.
   sostituisce solo gli incantesimi consentiti dal nuovo livello e conserva gli
   slot già spesi; incantesimi sempre preparati e libro del mago mantengono
   stati e fonti distinti.
+- Le pagine Privilegi e Talenti e la lista delle competenze negli strumenti
+  non offrono editor diretti, neppure per scelte o usi spesi. `saveSheet`
+  rifiuta modifiche a voci, risorse, competenze e fonti inviate fuori dai
+  flussi. Il wizard collega ogni nuovo privilegio, talento, risorsa e scelta
+  alla concessione verificata; al livello successivo propone la sostituzione
+  di un incantesimo di Iniziato alla magia solo se il talento è posseduto.
 - I PE sotto soglia richiedono la conferma aggiuntiva; i PE non sono modificati.
   Il livello non può essere cambiato con l'editor ordinario né superare 20.
 - Le vecchie schede mantengono talenti, privilegi, scelte e note. Le voci

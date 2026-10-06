@@ -23,11 +23,13 @@ test("Ephemer's Hermit background and Crafter choices grant four tool proficienc
   assert.deepEqual(normalizeSheet(ephemer), ephemer);
 });
 
-test("manual tool proficiency can be added and removed with its source", () => {
+test("tool proficiency cannot be added without an unfilled grant", () => {
   const sheet = normalizeSheet({ ...emptySheet(), classe: "Ranger" });
-  Object.assign(sheet, addToolCompetency(sheet, "Arnesi da scasso"));
-  assert.match(toolCompetencyDetails(sheet, "Arnesi da scasso"), /Aggiunta manuale/);
-  Object.assign(sheet, removeToolCompetency(sheet, "Arnesi da scasso"));
+  assert.deepEqual(addToolCompetency(sheet, "Arnesi da scasso"), {});
+  assert.deepEqual(removeToolCompetency(sheet, "Arnesi da scasso"), {
+    competenzeStrumenti: sheet.competenzeStrumenti,
+    fontiCompetenze: sheet.fontiCompetenze,
+  });
   assert.equal(sheet.competenzeStrumenti.includes("Arnesi da scasso"), false);
   assert.equal(sheet.fontiCompetenze.some((record) => record.tipo === "strumento" && record.valore === "Arnesi da scasso"), false);
 });

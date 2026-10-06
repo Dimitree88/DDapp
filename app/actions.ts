@@ -78,6 +78,18 @@ export async function saveSheet(
     if (JSON.stringify(previous.incantesimi) !== JSON.stringify(normalized.incantesimi)) {
       return { ok: false, error: "Incantesimi e caratteristiche di lancio si modificano solo tramite i flussi guidati previsti dalle regole." };
     }
+    if (JSON.stringify(previous.privilegi) !== JSON.stringify(normalized.privilegi)
+      || JSON.stringify(previous.talenti) !== JSON.stringify(normalized.talenti)) {
+      return { ok: false, error: "Privilegi, talenti e relative scelte si modificano solo tramite i flussi guidati previsti dalle regole." };
+    }
+    if (JSON.stringify(previous.risorse ?? []) !== JSON.stringify(normalized.risorse ?? [])) {
+      return { ok: false, error: "Le risorse e i loro utilizzi si modificano solo tramite i flussi guidati previsti dalle regole." };
+    }
+    if (JSON.stringify(previous.competenzeArmatura) !== JSON.stringify(normalized.competenzeArmatura)
+      || JSON.stringify(previous.competenzeStrumenti ?? []) !== JSON.stringify(normalized.competenzeStrumenti ?? [])
+      || JSON.stringify(previous.fontiCompetenze ?? []) !== JSON.stringify(normalized.fontiCompetenze ?? [])) {
+      return { ok: false, error: "Competenze e relative fonti si modificano solo tramite i flussi guidati previsti dalle regole." };
+    }
     if (!previous.scudo && normalized.scudo && !normalized.equipaggiamento.some((item) =>
       item.impugnato && armorForEquipment(item)?.category === "scudi" && Number(item.quantita ?? "1") > 0)) {
       return { ok: false, error: "Registra prima lo scudo nell'inventario." };

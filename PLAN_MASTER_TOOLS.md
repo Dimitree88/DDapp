@@ -87,6 +87,7 @@ direttamente nel PDF per definire questo piano:
 | 41 | PE, soglie di livello e bonus di competenza. |
 | 51, 91, 101, 132, 141, 206 | Barbaro, Guerriero, Ladro, Paladino, Ranger e il talento Maestro d'Armi permettono di cambiare armi scelte per la Padronanza dopo un riposo lungo, secondo i limiti della rispettiva fonte. |
 | 59, 69, 79, 95, 108, 112–113, 131, 141, 151, 165 | I tempi e limiti per cambiare incantesimi preparati dipendono dalla classe o sottoclasse; il mago distingue libro e lista preparata e può copiare incantesimi trovati. La Magia del Patto del Warlock recupera slot al riposo breve o lungo. |
+| 81, 201, 202, 206, 211 | Forma Selvatica, Fortunato e altre risorse hanno recuperi propri; alcune scelte di privilegi e talenti possono cambiare al riposo lungo, secondo la voce specifica. |
 | 235–238 | Lancio degli incantesimi, slot e dati di lancio; ogni automatismo specifico dipende dalla voce e dalla classe verificate. |
 | 364 | Concentrazione e suoi modi di interruzione. |
 | 366 | Indebolimento: livelli, effetti e riduzione con riposo lungo. |
@@ -134,7 +135,7 @@ scelte già prese e le ultime modifiche della sessione.
 | Prima | **Condizioni e Indebolimento** | Applicare/rimuovere una condizione con fonte, durata o nota; mostrare più fonti senza sommare lo stesso effetto. Indebolimento usa un contatore separato, con le conseguenze e il limite del PDF. |
 | Prima | **PF temporanei e tiri salvezza contro morte** | Registrare una nuova concessione di PF temporanei scegliendo se mantenere i precedenti o usare i nuovi, mai sommarli. Contare successi/fallimenti, stabilizzazione e gli esiti speciali del tiro; chiedere il contesto per danni subiti a 0 PF. |
 | Dopo i dati 2024 pertinenti | **Riposo breve/lungo di gruppo** | Il Master lo avvia dalla Sessione per tutti i partecipanti presenti, con possibilità di escludere chi non riposa. Verificare i requisiti di ciascuno, mostrare l'anteprima su tutte le schede e chiedere i tiri/scelte necessari. Riposo breve: spesa dei Dadi Vita e recuperi specifici. Riposo lungo: benefici generali, ricariche specifiche e possibilità di sostituire una Padronanza d'armi quando la fonte del personaggio lo consente, senza azzerare genericamente tutte le risorse. |
-| Dopo i dati 2024 pertinenti | **Slot e risorse** | Segnare utilizzi spesi o recuperati, con limite, fonte e tipo di ricarica. Il Master può correggere un conteggio con motivo; un incantesimo o privilegio non ancora verificato resta un'annotazione manuale dichiarata. |
+| Dopo i dati 2024 pertinenti | **Slot e risorse** | Un comando guidato della Sessione registra l'uso di una capacità posseduta e ne scala gli utilizzi, con limite, fonte e tipo di ricarica verificati. Il recupero avviene solo all'evento previsto dalla fonte, inclusi riposo o altra condizione esplicita. Il Master può correggere un conteggio con motivo in un comando distinto; un incantesimo o privilegio non ancora verificato resta un'annotazione manuale dichiarata. La pagina Privilegi mostra anche gli usi spesi in sola lettura. |
 | Fase successiva | **Incontro** | Registrare i risultati di iniziativa, ordinare personaggi e creature, indicare turno/round e concentrazione. Le schede delle creature condivise o degli esemplari della Sessione seguono `PLAN_CREATURE.md`: i loro dati personalizzati sono inseriti dal gruppo, mai inventati dall'app. |
 | Fase successiva | **Beni e altri effetti** | Annotare acquisizione/spesa di monete, oggetti e consumabili; registrare effetti temporanei con fonte e scadenza. Modificare CA, velocità, PF massimi o caratteristiche solo tramite una regola verificata oppure come esito manuale chiaramente etichettato. |
 
@@ -230,6 +231,17 @@ esplicito. La conferma è **una sola operazione di gruppo**: aggiorna tutte
 le schede ammesse e scrive un evento per ciascuna, collegato allo stesso
 riposo della Sessione. Un errore non lascia metà gruppo aggiornato. La
 chiusura della Sessione, da sola, non esegue questo comando.
+Il riposo mostra anche le scelte modificabili in quel preciso momento: una
+forma conosciuta del Druido può essere sostituita al termine del riposo lungo
+(p. 81); il tipo di arma scelto con il talento Maestro d'armi può cambiare
+al termine del riposo lungo (p. 206); le due resistenze del Dono della
+resistenza all'energia possono cambiare al termine del riposo lungo (p. 211).
+Queste scelte sono facoltative, hanno limiti e fonte distinti, e non aprono un
+editor libero per `privilegi` o `talenti`. Il riposo aggiorna anche gli usi
+spesi delle risorse solo secondo la voce che le concede: per esempio Forma
+Selvatica recupera un uso dopo un riposo breve e tutti dopo un riposo lungo
+(p. 81); i punti di Fortunato tornano dopo un riposo lungo (p. 201).
+L'anteprima mostra ogni scelta, risorsa e competenza influenzata prima/dopo.
 Per ogni personaggio con una fonte di Padronanza d'armi che consente un cambio
 al termine del riposo lungo, il flusso mostra le armi attualmente scelte e
 permette di sostituirne una con un'arma idonea secondo quella fonte. La scelta
@@ -383,6 +395,11 @@ esplicita verificata, non un editor libero nella pagina Incantesimi.
   Sessione. Applica solo benefici consentiti e ricariche verificate; risorse
   con recupero diverso restano distinte. I dati personali e le scelte
   permanenti non vengono cancellati.
+- Il comando guidato di uso di una risorsa rifiuta capacità non possedute,
+  usi esauriti e richieste duplicate. Il riposo propone soltanto le scelte
+  modificabili in quel momento, tra cui una forma conosciuta del Druido,
+  l'arma del talento Maestro d'armi e le resistenze del Dono della resistenza
+  all'energia al riposo lungo; conserva le altre scelte e mostra prima/dopo.
 - Il riposo propone solo le sostituzioni di incantesimi consentite dalla
   fonte del personaggio e valida elenco, numero e momento della scelta. Il
   Mago prepara dal proprio libro; gli incantesimi sempre preparati restano
