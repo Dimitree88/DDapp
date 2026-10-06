@@ -25,7 +25,8 @@ export function weaponAttack(sheet: Sheet, weapon: Arma): WeaponAttack | null {
   const modifier = abilityModifier(sheet.caratteristiche.find((item) => item.abbr === ability)?.valore ?? "");
   const proficient = isWeaponProficient(sheet, entry);
   const proficiency = proficient ? proficiencyBonus(sheet.livello) : "";
-  const attack = modifier && (!proficient || proficiency) ? signed(Number(modifier) + Number(proficiency || 0)) : "";
+  const archery = entry.kind === "distanza" && sheet.talenti.some((feat) => feat.nome === "Tiro") ? 2 : 0;
+  const attack = modifier && (!proficient || proficiency) ? signed(Number(modifier) + Number(proficiency || 0) + archery) : "";
   const [dice, ...type] = entry.damage.split(" ");
   const damage = modifier ? `${mode === "dueMani" ? entry.versatileDie : dice} ${signed(Number(modifier))} ${type.join(" ")}` : "";
   const heavyAbility = entry.kind === "mischia" ? "FOR" : "DES";
@@ -35,7 +36,7 @@ export function weaponAttack(sheet: Sheet, weapon: Arma): WeaponAttack | null {
     : [];
   return {
     attack, damage, ability, modifier, proficient, proficiency, warnings,
-    formula: attack ? `${ability} ${modifier}${proficient ? ` + competenza ${proficiency}` : ""} = ${attack}` : "Inserisci il punteggio di caratteristica e, se competente, il livello.",
+    formula: attack ? `${ability} ${modifier}${proficient ? ` + competenza ${proficiency}` : ""}${archery ? " + Tiro +2" : ""} = ${attack}` : "Inserisci il punteggio di caratteristica e, se competente, il livello.",
   };
 }
 

@@ -36,6 +36,15 @@ test("finesse, thrown, ranged and versatile use the selected mode", () => {
   assert.equal(weaponAttack(sheet, { ...bow, modo: "dueMani" }), null);
 });
 
+test("Tiro adds +2 only to ranged weapon attack rolls", () => {
+  const ranger = { ...sheet, talenti: [{ nome: "Tiro", scelte: "" }] };
+  const bow = { nome: "Arco corto", quantita: "1", bonus: "", note: "" };
+  const dagger = { ...bow, nome: "Pugnale", modo: "lancio" };
+  assert.equal(weaponAttack(ranger, bow).attack, "+7");
+  assert.match(weaponAttack(ranger, bow).formula, /Tiro \+2/);
+  assert.equal(weaponAttack(ranger, dagger).attack, "+6");
+});
+
 test("heavy weapons show the relevant Strength or Dexterity disadvantage", () => {
   const weak = structuredClone(sheet);
   weak.caratteristiche.find((item) => item.abbr === "FOR").valore = "12";

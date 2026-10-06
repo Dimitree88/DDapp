@@ -174,7 +174,11 @@ export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"
       ],
     });
   }
-  if (sheet.lingue.length) events.push({ title: "Scelte le lingue", details: [detail(sheet.lingue.join(", "))] });
+  const rangerLanguages = new Set((sheet.fontiCompetenze ?? [])
+    .filter((item) => item.tipo === "lingua" && sourceIs(item.fonte, "Privilegio", "Esploratore Esperto"))
+    .map((item) => item.valore));
+  const creationLanguages = sheet.lingue.filter((name) => !rangerLanguages.has(name));
+  if (creationLanguages.length) events.push({ title: "Scelte le lingue", details: [detail(creationLanguages.join(", "))] });
   const scores = sheet.caratteristiche.filter((item) => present(item.valore));
   if (scores.length) events.push({ title: "Determinati i punteggi di caratteristica", details: scores.map((item) => detail(`${item.abbr} ${item.valore}`)) });
   if (present(sheet.allineamento)) events.push({ title: `Scelto allineamento: ${sheet.allineamento}`, details: [] });
