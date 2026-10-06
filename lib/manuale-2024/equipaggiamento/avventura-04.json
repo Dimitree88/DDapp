@@ -4,5 +4,500 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "oggetto:profumo",
+      "tipo": "oggetto",
+      "nome": "Profumo",
+      "testo": [{ "pagina": 227, "da": "Profumo (5 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Profumo", "—", "5 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:rampino",
+      "tipo": "oggetto",
+      "nome": "Rampino",
+      "testo": [{ "pagina": 227, "da": "Rampino (2 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Rampino", "2 kg", "2 mo"]]
+        }
+      ],
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:razioni",
+      "tipo": "oggetto",
+      "nome": "Razioni",
+      "testo": [{ "pagina": 227, "da": "Razioni (5 ma)", "a": "Rete (1 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Razioni", "1 kg", "5 ma"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "5 ma",
+      "costoMo": 0.5,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["L e razioni", "Le razioni"]]
+    },
+    {
+      "id": "oggetto:rete",
+      "tipo": "oggetto",
+      "nome": "Rete",
+      "testo": [{ "pagina": 227, "da": "Rete (1 mo)" }],
+      "pagina": 227,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Rete", "1,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "1,5 kg",
+      "pesoKg": 1.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["superare\n\nun tiro", "superare un tiro"], ["tratte nuta", "trattenuta"]]
+    },
+    {
+      "id": "oggetto:sacco",
+      "tipo": "oggetto",
+      "nome": "Sacco",
+      "testo": [{ "pagina": 228, "da": "Sacco (1 mr)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Sacco", "0,25 kg", "1 mr"]]
+        }
+      ],
+      "peso": "0,25 kg",
+      "pesoKg": 0.25,
+      "costo": "1 mr",
+      "costoMo": 0.01,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:scala-a-pioli",
+      "tipo": "oggetto",
+      "nome": "Scala a pioli",
+      "testo": [{ "pagina": 228, "da": "Scala a pioli (1 ma)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Scala a pioli", "12,5 kg", "1 ma"]]
+        }
+      ],
+      "peso": "12,5 kg",
+      "pesoKg": 12.5,
+      "costo": "1 ma",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:secchio",
+      "tipo": "oggetto",
+      "nome": "Secchio",
+      "testo": [{ "pagina": 228, "da": "Secchio (5 mr)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Secchio", "1 kg", "5 mr"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "5 mr",
+      "costoMo": 0.05,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:serratura",
+      "tipo": "oggetto",
+      "nome": "Serratura",
+      "testo": [{ "pagina": 228, "da": "Serratura (10 mo)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Serratura", "0,5 kg", "10 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:sfere-metalliche",
+      "tipo": "oggetto",
+      "nome": "Sfere metalliche",
+      "testo": [{ "pagina": 228, "da": "Sfere metalliche (1 mo)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Sfere metalliche", "1 kg", "1 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:simbolo-sacro",
+      "tipo": "oggetto",
+      "nome": "Simbolo sacro",
+      "testo": [{ "pagina": 228, "da": "Simbolo sacro (variabile)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Simbolo sacro", "Variabile", "Variabile"]]
+        }
+      ],
+      "peso": "Variabile",
+      "pesoKg": null,
+      "costo": "Variabile",
+      "costoMo": null,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["nellatabella", "nella tabella"],
+        ["focus da incantatore. La tabella", "focus da incantatore.\n\nLa tabella"]
+      ]
+    },
+    {
+      "id": "oggetto:spago",
+      "tipo": "oggetto",
+      "nome": "Spago",
+      "testo": [{ "pagina": 228, "da": "Spago (1 ma)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Spago", "—", "1 ma"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "1 ma",
+      "costoMo": 0.1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:specchio",
+      "tipo": "oggetto",
+      "nome": "Specchio",
+      "testo": [{ "pagina": 228, "da": "Specchio (5 mo)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Specchio", "0,25 kg", "5 mo"]]
+        }
+      ],
+      "peso": "0,25 kg",
+      "pesoKg": 0.25,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:spuntoni-di-ferro",
+      "tipo": "oggetto",
+      "nome": "Spuntoni di ferro",
+      "testo": [{ "pagina": 228, "da": "Spuntoni di ferro (1 mo)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Spuntoni di ferro", "2,5 kg", "1 mo"]]
+        }
+      ],
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["gruppi di dieci.\n\nCome azione", "gruppi di dieci. Come azione"]]
+    },
+    {
+      "id": "oggetto:tagliola",
+      "tipo": "oggetto",
+      "nome": "Tagliola",
+      "testo": [{ "pagina": 228, "da": "Tagliola (5 mo)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Tagliola", "12,5 kg", "5 mo"]]
+        }
+      ],
+      "peso": "12,5 kg",
+      "pesoKg": 12.5,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        ["trappolaviene", "trappola viene"],
+        ["90 centimetri).\n\nUna creatura", "90 centimetri). Una creatura"]
+      ]
+    },
+    {
+      "id": "oggetto:tenda",
+      "tipo": "oggetto",
+      "nome": "Tenda",
+      "testo": [{ "pagina": 228, "da": "Tenda (2 mo)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Tenda", "10 kg", "2 mo"]]
+        }
+      ],
+      "peso": "10 kg",
+      "pesoKg": 10,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:torcia",
+      "tipo": "oggetto",
+      "nome": "Torcia",
+      "testo": [{ "pagina": 228, "da": "Torcia (1 mr)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Torcia", "0,5 kg", "1 mr"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "1 mr",
+      "costoMo": 0.01,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["ulteriori 6 metri.\n\nQuando", "ulteriori 6 metri. Quando"]]
+    },
+    {
+      "id": "oggetto:triboli",
+      "tipo": "oggetto",
+      "nome": "Triboli",
+      "testo": [{ "pagina": 228, "da": "Triboli (1 mo)" }],
+      "pagina": 228,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Triboli", "1 kg", "1 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" },
+      "correzioni": [["superare\n\nun tiro", "superare un tiro"]]
+    },
+    {
+      "id": "oggetto:tunica",
+      "tipo": "oggetto",
+      "nome": "Tunica",
+      "testo": [{ "pagina": 229, "da": "Tunica (1 mo)" }],
+      "pagina": 229,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Tunica", "2 kg", "1 mo"]]
+        }
+      ],
+      "peso": "2 kg",
+      "pesoKg": 2,
+      "costo": "1 mo",
+      "costoMo": 1,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:veleno-base",
+      "tipo": "oggetto",
+      "nome": "Veleno, base",
+      "alias": ["Veleno base"],
+      "testo": [{ "pagina": 229, "da": "Veleno base (100 mo)" }],
+      "pagina": 229,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Veleno, base", "—", "100 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "100 mo",
+      "costoMo": 100,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:zaino",
+      "tipo": "oggetto",
+      "nome": "Zaino",
+      "testo": [{ "pagina": 229, "da": "Zaino (2 mo)" }],
+      "pagina": 229,
+      "pagine": [223],
+      "tabelle": [
+        {
+          "titolo": "Equipaggiamento d'avventura",
+          "pagina": 223,
+          "colonne": ["Oggetto", "Peso", "Costo"],
+          "righe": [["Zaino", "2,5 kg", "2 mo"]]
+        }
+      ],
+      "peso": "2,5 kg",
+      "pesoKg": 2.5,
+      "costo": "2 mo",
+      "costoMo": 2,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:simbolo-sacro-amuleto",
+      "tipo": "oggetto",
+      "nome": "Simbolo sacro (amuleto)",
+      "pagina": 228,
+      "tabelle": [
+        {
+          "titolo": "Simboli sacri",
+          "pagina": 228,
+          "colonne": ["Simbolo", "Peso", "Costo"],
+          "righe": [["Amuleto (indossato o tenuto in mano)", "0,5 kg", "5 mo"]]
+        }
+      ],
+      "peso": "0,5 kg",
+      "pesoKg": 0.5,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "varianteDi": "Simbolo sacro",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:simbolo-sacro-emblema",
+      "tipo": "oggetto",
+      "nome": "Simbolo sacro (emblema)",
+      "pagina": 228,
+      "tabelle": [
+        {
+          "titolo": "Simboli sacri",
+          "pagina": 228,
+          "colonne": ["Simbolo", "Peso", "Costo"],
+          "righe": [["Emblema (portato su un tessuto o uno scudo)", "—", "5 mo"]]
+        }
+      ],
+      "peso": "—",
+      "pesoKg": null,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "varianteDi": "Simbolo sacro",
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "oggetto:simbolo-sacro-reliquiario",
+      "tipo": "oggetto",
+      "nome": "Simbolo sacro (reliquiario)",
+      "pagina": 228,
+      "tabelle": [
+        {
+          "titolo": "Simboli sacri",
+          "pagina": 228,
+          "colonne": ["Simbolo", "Peso", "Costo"],
+          "righe": [["Reliquiario (tenuto in mano)", "1 kg", "5 mo"]]
+        }
+      ],
+      "peso": "1 kg",
+      "pesoKg": 1,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "varianteDi": "Simbolo sacro",
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

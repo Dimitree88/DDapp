@@ -108,7 +108,7 @@ gearCatalog.push(
   { id: "srd52:ammo:aghi", name: "Aghi", weightKg: 0.5 / 50, costGp: 1, priceQuantity: 50 },
   { id: "srd52:ammo:frecce", name: "Frecce", weightKg: 0.5 / 20, costGp: 1, priceQuantity: 20 },
   { id: "srd52:ammo:proiettili-arma-fuoco", name: "Proiettili per arma da fuoco", weightKg: 1 / 10, costGp: 3, priceQuantity: 10 },
-  { id: "srd52:ammo:proiettili-fionda", name: "Proiettili per fionda", weightKg: 0.75 / 20, costGp: 0.4, priceQuantity: 20 },
+  { id: "srd52:ammo:proiettili-fionda", name: "Proiettili per fionda", weightKg: 0.75 / 20, costGp: 0.04, priceQuantity: 20 },
   { id: "srd52:ammo:quadrelli", name: "Quadrelli", weightKg: 0.75 / 20, costGp: 1, priceQuantity: 20 },
 );
 const tools: [string, string, number | null, number][] = [

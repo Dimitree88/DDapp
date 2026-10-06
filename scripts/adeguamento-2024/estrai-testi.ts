@@ -87,7 +87,7 @@ const PULIZIA: [RegExp, string][] = [
   [/\bO,(?=\d)/g, "0,"],
   [/\bl,(?=\d)/g, "1,"],
   [/\bVedianche\b/g, "Vedi anche"],
-  [/\bGuidadel DungeonMaster\b/g, "Guida del Dungeon Master"],
+  [/\bGuida ?del ?Dungeon ?Master\b/g, "Guida del Dungeon Master"],
   [/\bDungeonMaster\b/g, "Dungeon Master"],
   [/\bingrado\b/g, "in grado"],
   [/\bIncremento ?dei ?punteggi ?di ?caratteristica\b/g, "Incremento dei punteggi di caratteristica"],

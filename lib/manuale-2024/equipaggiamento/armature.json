@@ -3,6 +3,427 @@
   "modulo": "E02",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:armature",
+      "tipo": "etichetta",
+      "nome": "Armature",
+      "alias": ["Armatura indossata"],
+      "testo": [{ "pagina": 219, "da": "Armature", "n": 3, "a": "Competenza nelle armature" }],
+      "pagina": 219,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "etichetta:competenze-armatura",
+      "tipo": "etichetta",
+      "nome": "Competenze armatura",
+      "alias": ["Competenza nelle armature"],
+      "testo": [
+        { "pagina": 219, "da": "Competenza nelle armature", "a": "Variante" },
+        { "pagina": 364, "da": "Competenza nelle armature", "a": "Concentrazione" }
+      ],
+      "pagina": 219,
+      "pagine": [364],
+      "righeMatrice": ["armi.competenze-armatura.etichetta"],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "per farlo,\n\nSvantaggio · 20 kg · 30 mo\nFor 13 · Svantaggio · 27,5 kg · 75 mo\nFor l S · Svantaggio · 30 kg · 200 mo\nFor 1 S · Svantaggio · 32,5 kg · 1. SOO mo\n3 kg · 10 mo\n\nsubisce svantaggio",
+          "per farlo, subisce svantaggio"
+        ]
+      ]
+    }
+  ],
+  "voci": [
+    {
+      "id": "categoria-armature:leggere",
+      "tipo": "categoria",
+      "nome": "Armatura leggera",
+      "alias": ["Leggere", "Armature leggere"],
+      "testo": [{ "pagina": 219, "da": "Leggera, media o pesante", "n": 2, "a": "Scudo" }],
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armatura leggera (1 minuto per indossare o togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [
+            ["Armatura imbottita", "11 + modificatore di Des", "—", "Svantaggio", "4 kg", "5 mo"],
+            ["Armatura di cuoio", "11 + modificatore di Des", "—", "—", "5 kg", "10 mo"],
+            ["Armatura di cuoio borchiato", "12 + modificatore di Des", "—", "—", "6,5 kg", "45 mo"]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "per farlo,\n\nSvantaggio · 20 kg · 30 mo\nFor 13 · Svantaggio · 27,5 kg · 75 mo\nFor l S · Svantaggio · 30 kg · 200 mo\nFor 1 S · Svantaggio · 32,5 kg · 1. SOO mo\n3 kg · 10 mo\n\nsubisce svantaggio",
+          "per farlo, subisce svantaggio"
+        ]
+      ]
+    },
+    {
+      "id": "categoria-armature:medie",
+      "tipo": "categoria",
+      "nome": "Armatura media",
+      "alias": ["Medie", "Armature medie"],
+      "testo": [{ "pagina": 219, "da": "Leggera, media o pesante", "n": 2, "a": "Scudo" }],
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armatura media (5 minuti per indossare e 1 minuto per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [
+            ["Armatura di pelle", "12 + modificatore di Des (max 2)", "—", "—", "6 kg", "10 mo"],
+            ["Giaco di maglia", "13 + modificatore di Des (max 2)", "—", "—", "10 kg", "50 mo"],
+            ["Corazza a scaglie", "14 + modificatore di Des (max 2)", "—", "Svantaggio", "22,5 kg", "50 mo"],
+            ["Corazza di piastre", "14 + modificatore di Des (max 2)", "—", "—", "10 kg", "400 mo"],
+            ["Mezza armatura", "15 + modificatore di Des (max 2)", "—", "Svantaggio", "20 kg", "750 mo"]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "per farlo,\n\nSvantaggio · 20 kg · 30 mo\nFor 13 · Svantaggio · 27,5 kg · 75 mo\nFor l S · Svantaggio · 30 kg · 200 mo\nFor 1 S · Svantaggio · 32,5 kg · 1. SOO mo\n3 kg · 10 mo\n\nsubisce svantaggio",
+          "per farlo, subisce svantaggio"
+        ]
+      ]
+    },
+    {
+      "id": "categoria-armature:pesanti",
+      "tipo": "categoria",
+      "nome": "Armatura pesante",
+      "alias": ["Pesanti", "Armature pesanti"],
+      "testo": [{ "pagina": 219, "da": "Leggera, media o pesante", "n": 2, "a": "Scudo" }],
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armatura pesante (10 minuti per indossare e 5 minuti per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [
+            ["Corazza ad anelli", "14", "—", "Svantaggio", "20 kg", "30 mo"],
+            ["Cotta di maglia", "16", "For 13", "Svantaggio", "27,5 kg", "75 mo"],
+            ["Corazza a strisce", "17", "For 15", "Svantaggio", "30 kg", "200 mo"],
+            ["Armatura a piastre", "18", "For 15", "Svantaggio", "32,5 kg", "1.500 mo"]
+          ]
+        }
+      ],
+      "verifica": { "stato": "verificata" },
+      "correzioni": [
+        [
+          "per farlo,\n\nSvantaggio · 20 kg · 30 mo\nFor 13 · Svantaggio · 27,5 kg · 75 mo\nFor l S · Svantaggio · 30 kg · 200 mo\nFor 1 S · Svantaggio · 32,5 kg · 1. SOO mo\n3 kg · 10 mo\n\nsubisce svantaggio",
+          "per farlo, subisce svantaggio"
+        ]
+      ]
+    },
+    {
+      "id": "categoria-armature:scudi",
+      "tipo": "categoria",
+      "nome": "Scudo (competenza)",
+      "alias": ["Scudi"],
+      "testo": [{ "pagina": 219, "da": "Scudo", "n": 4, "a": "Una alla volta" }],
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Scudo (azione di Utilizzo per indossare o togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Scudo", "+2", "—", "—", "3 kg", "10 mo"]]
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:armatura-imbottita",
+      "tipo": "armatura",
+      "nome": "Armatura imbottita",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura leggera (1 minuto per indossare o togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Armatura imbottita", "11 + modificatore di Des", "—", "Svantaggio", "4 kg", "5 mo"]]
+        }
+      ],
+      "categoria": "leggera",
+      "classeArmatura": "11 + modificatore di Des",
+      "svantaggioFurtivita": true,
+      "peso": "4 kg",
+      "pesoKg": 4,
+      "costo": "5 mo",
+      "costoMo": 5,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:armatura-di-cuoio",
+      "tipo": "armatura",
+      "nome": "Armatura di cuoio",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura leggera (1 minuto per indossare o togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Armatura di cuoio", "11 + modificatore di Des", "—", "—", "5 kg", "10 mo"]]
+        }
+      ],
+      "categoria": "leggera",
+      "classeArmatura": "11 + modificatore di Des",
+      "svantaggioFurtivita": false,
+      "peso": "5 kg",
+      "pesoKg": 5,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:armatura-di-cuoio-borchiato",
+      "tipo": "armatura",
+      "nome": "Armatura di cuoio borchiato",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura leggera (1 minuto per indossare o togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Armatura di cuoio borchiato", "12 + modificatore di Des", "—", "—", "6,5 kg", "45 mo"]]
+        }
+      ],
+      "categoria": "leggera",
+      "classeArmatura": "12 + modificatore di Des",
+      "svantaggioFurtivita": false,
+      "peso": "6,5 kg",
+      "pesoKg": 6.5,
+      "costo": "45 mo",
+      "costoMo": 45,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:armatura-di-pelle",
+      "tipo": "armatura",
+      "nome": "Armatura di pelle",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura media (5 minuti per indossare e 1 minuto per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Armatura di pelle", "12 + modificatore di Des (max 2)", "—", "—", "6 kg", "10 mo"]]
+        }
+      ],
+      "categoria": "media",
+      "classeArmatura": "12 + modificatore di Des (max 2)",
+      "svantaggioFurtivita": false,
+      "peso": "6 kg",
+      "pesoKg": 6,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:giaco-di-maglia",
+      "tipo": "armatura",
+      "nome": "Giaco di maglia",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura media (5 minuti per indossare e 1 minuto per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Giaco di maglia", "13 + modificatore di Des (max 2)", "—", "—", "10 kg", "50 mo"]]
+        }
+      ],
+      "categoria": "media",
+      "classeArmatura": "13 + modificatore di Des (max 2)",
+      "svantaggioFurtivita": false,
+      "peso": "10 kg",
+      "pesoKg": 10,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:corazza-a-scaglie",
+      "tipo": "armatura",
+      "nome": "Corazza a scaglie",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura media (5 minuti per indossare e 1 minuto per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Corazza a scaglie", "14 + modificatore di Des (max 2)", "—", "Svantaggio", "22,5 kg", "50 mo"]]
+        }
+      ],
+      "categoria": "media",
+      "classeArmatura": "14 + modificatore di Des (max 2)",
+      "svantaggioFurtivita": true,
+      "peso": "22,5 kg",
+      "pesoKg": 22.5,
+      "costo": "50 mo",
+      "costoMo": 50,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:corazza-di-piastre",
+      "tipo": "armatura",
+      "nome": "Corazza di piastre",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura media (5 minuti per indossare e 1 minuto per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Corazza di piastre", "14 + modificatore di Des (max 2)", "—", "—", "10 kg", "400 mo"]]
+        }
+      ],
+      "categoria": "media",
+      "classeArmatura": "14 + modificatore di Des (max 2)",
+      "svantaggioFurtivita": false,
+      "peso": "10 kg",
+      "pesoKg": 10,
+      "costo": "400 mo",
+      "costoMo": 400,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:mezza-armatura",
+      "tipo": "armatura",
+      "nome": "Mezza armatura",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura media (5 minuti per indossare e 1 minuto per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Mezza armatura", "15 + modificatore di Des (max 2)", "—", "Svantaggio", "20 kg", "750 mo"]]
+        }
+      ],
+      "categoria": "media",
+      "classeArmatura": "15 + modificatore di Des (max 2)",
+      "svantaggioFurtivita": true,
+      "peso": "20 kg",
+      "pesoKg": 20,
+      "costo": "750 mo",
+      "costoMo": 750,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:corazza-ad-anelli",
+      "tipo": "armatura",
+      "nome": "Corazza ad anelli",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura pesante (10 minuti per indossare e 5 minuti per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Corazza ad anelli", "14", "—", "Svantaggio", "20 kg", "30 mo"]]
+        }
+      ],
+      "categoria": "pesante",
+      "classeArmatura": "14",
+      "svantaggioFurtivita": true,
+      "peso": "20 kg",
+      "pesoKg": 20,
+      "costo": "30 mo",
+      "costoMo": 30,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:cotta-di-maglia",
+      "tipo": "armatura",
+      "nome": "Cotta di maglia",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura pesante (10 minuti per indossare e 5 minuti per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Cotta di maglia", "16", "For 13", "Svantaggio", "27,5 kg", "75 mo"]]
+        }
+      ],
+      "categoria": "pesante",
+      "classeArmatura": "16",
+      "forza": 13,
+      "svantaggioFurtivita": true,
+      "peso": "27,5 kg",
+      "pesoKg": 27.5,
+      "costo": "75 mo",
+      "costoMo": 75,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:corazza-a-strisce",
+      "tipo": "armatura",
+      "nome": "Corazza a strisce",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura pesante (10 minuti per indossare e 5 minuti per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Corazza a strisce", "17", "For 15", "Svantaggio", "30 kg", "200 mo"]]
+        }
+      ],
+      "categoria": "pesante",
+      "classeArmatura": "17",
+      "forza": 15,
+      "svantaggioFurtivita": true,
+      "peso": "30 kg",
+      "pesoKg": 30,
+      "costo": "200 mo",
+      "costoMo": 200,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:armatura-a-piastre",
+      "tipo": "armatura",
+      "nome": "Armatura a piastre",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Armatura pesante (10 minuti per indossare e 5 minuti per togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Armatura a piastre", "18", "For 15", "Svantaggio", "32,5 kg", "1.500 mo"]]
+        }
+      ],
+      "categoria": "pesante",
+      "classeArmatura": "18",
+      "forza": 15,
+      "svantaggioFurtivita": true,
+      "peso": "32,5 kg",
+      "pesoKg": 32.5,
+      "costo": "1.500 mo",
+      "costoMo": 1500,
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "armatura:scudo",
+      "tipo": "armatura",
+      "nome": "Scudo",
+      "pagina": 219,
+      "tabelle": [
+        {
+          "titolo": "Armature — Scudo (azione di Utilizzo per indossare o togliere)",
+          "pagina": 219,
+          "colonne": ["Armature", "Classe Armatura (CA)", "Forza", "Furtività", "Peso", "Costo"],
+          "righe": [["Scudo", "+2", "—", "—", "3 kg", "10 mo"]]
+        }
+      ],
+      "categoria": "scudo",
+      "classeArmatura": "+2",
+      "svantaggioFurtivita": false,
+      "peso": "3 kg",
+      "pesoKg": 3,
+      "costo": "10 mo",
+      "costoMo": 10,
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
