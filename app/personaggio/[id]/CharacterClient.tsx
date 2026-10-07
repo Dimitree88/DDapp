@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  Fragment,
   useCallback,
   useContext,
   useEffect,
@@ -39,8 +38,9 @@ import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
-import { featGrants, grantedPrivileges } from "@/lib/characterGrants";
+import { grantedPrivileges } from "@/lib/characterGrants";
 import { operationalReminder } from "@/lib/operationalReminders";
+import { displayedFeatGrants, featFunctionalDetails, grantFunctionalDetails } from "@/lib/functionalDetails";
 import { spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
 import { coinTotals } from "@/lib/coins";
@@ -67,13 +67,15 @@ const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
 const grid2 = "grid grid-cols-2 gap-2.5";
 const operationalNote = "mt-1 text-sm text-accent";
 
-function OperationalReminder({ name, sheet }: { name: string; sheet: Sheet }) {
-  const reminder = operationalReminder(name, sheet);
-  if (!reminder) return null;
-  return <p className={operationalNote}>{reminder.parts.map((part, index) =>
-    typeof part === "string" ? <Fragment key={index}>{part}</Fragment>
-      : <InfoLabel key={index} id={`incantesimo:${part.spell}`} title={part.spell} className="font-semibold underline underline-offset-2" />,
-  )}</p>;
+function FunctionalSummary({ name, sheet, details }: { name: string; sheet: Sheet; details: { summary: string | null; full: string | null } }) {
+  if (!details.summary && !details.full) return null;
+  return <>
+    {details.summary && <p className={operationalReminder(name, sheet) ? operationalNote : "mt-1 whitespace-pre-wrap text-sm text-ink-soft"}>{details.summary}</p>}
+    {details.full && details.full !== details.summary && <details className="mt-1 text-sm text-ink-soft">
+      <summary className="cursor-pointer">Dettagli completi</summary>
+      <p className="mt-1 whitespace-pre-wrap">{details.full}</p>
+    </details>}
+  </>;
 }
 const sectionTitle =
   "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
@@ -565,14 +567,9 @@ export default function CharacterClient({
   const otherGrants = grants.filter((grant) => !classGrants.includes(grant) && !speciesGrants.includes(grant));
   const recordedOtherPrivileges = sheet.privilegi.filter((item) => !grants.some((grant) =>
     item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0));
-  const grantedFeats = featGrants(sheet);
-  const recordedOtherFeats = [...sheet.talenti];
-  const grantedFeatCards = grantedFeats.map((grant) => {
-    const savedIndex = recordedOtherFeats.findIndex((item) => item.nome === grant.name);
-    const saved = savedIndex >= 0 ? recordedOtherFeats.splice(savedIndex, 1)[0] : null;
-    return { grant, saved };
-  });
+  const { granted: grantedFeatCards, remaining: recordedOtherFeats } = displayedFeatGrants(sheet);
   const renderGrant = (grant: (typeof grants)[number], index: number) => {
+    const functional = grantFunctionalDetails(grant, sheet);
     const savedIndex = sheet.privilegi.findIndex((item) =>
       item.titolo.localeCompare(grant.name, "it", { sensitivity: "base" }) === 0);
     const saved = savedIndex >= 0 ? sheet.privilegi[savedIndex] : null;
@@ -585,7 +582,7 @@ export default function CharacterClient({
         : grant.name}</p>
       <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
       {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
-      <OperationalReminder name={grant.name} sheet={sheet} />
+      <FunctionalSummary name={grant.name} sheet={sheet} details={functional} />
       {resources.map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
     </div>;
   };
@@ -782,7 +779,7 @@ export default function CharacterClient({
                 return <div key={`${pr.titolo}:${index}`} className={card}>
                   <p className="text-sm font-semibold text-ink"><InfoLabel id={`privilegio:${savedIndex}`} title={pr.titolo || "Privilegio"} /></p>
                   {pr.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{pr.scelte}</p>}
-                  <OperationalReminder name={pr.titolo} sheet={sheet} />
+                  <FunctionalSummary name={pr.titolo} sheet={sheet} details={{ summary: operationalReminder(pr.titolo, sheet)?.parts.map((part) => typeof part === "string" ? part : part.spell).join("") ?? null, full: null }} />
                 </div>;
               })}
             </div>
@@ -797,7 +794,7 @@ export default function CharacterClient({
           <section>
             <h3 className={sectionTitle}>Talenti</h3>
             <div className="flex flex-col gap-2">
-              {grantedFeats.length === 0 && recordedOtherFeats.length === 0 && <p className="text-sm text-ink-faint">Nessun talento registrato.</p>}
+              {grantedFeatCards.length === 0 && recordedOtherFeats.length === 0 && <p className="text-sm text-ink-faint">Nessun talento registrato.</p>}
               {grantedFeatCards.map(({ grant, saved }, index) =>
                 <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
                   <p className="text-sm font-semibold text-ink">{saved
@@ -806,14 +803,14 @@ export default function CharacterClient({
                   <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
                   {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
                   {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
-                  <OperationalReminder name={grant.name} sheet={sheet} />
+                  <FunctionalSummary name={saved?.nome ?? grant.name} sheet={sheet} details={featFunctionalDetails(saved?.nome ?? grant.name, sheet)} />
                   {(sheet.risorse ?? []).filter((resource) => resource.fonte.toLocaleLowerCase("it").includes(grant.name.toLocaleLowerCase("it")))
                     .map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
                 </div>)}
               {recordedOtherFeats.map((talento, index) => <div key={`${talento.nome}:${index}`} className={card}>
                 <p className="text-sm font-semibold text-ink"><InfoLabel id={`valore:talento:${talento.nome}`} title={talento.nome || "Talento"} /></p>
                 {talento.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{talento.scelte}</p>}
-                <OperationalReminder name={talento.nome} sheet={sheet} />
+                <FunctionalSummary name={talento.nome} sheet={sheet} details={featFunctionalDetails(talento.nome, sheet)} />
               </div>)}
             </div>
           </section>

@@ -6,9 +6,12 @@ import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, prof
 import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
 import { spellDetails } from "./spells";
 import { displayedArmorClass } from "./armorClass";
-import { featGrants, grantedPrivileges } from "./characterGrants";
+import { grantedPrivileges } from "./characterGrants";
 import { operationalReminder } from "./operationalReminders";
 import { compareOptionLabels } from "./sortOptions";
+import { isArmorEquipment } from "./equipmentSelection";
+import { spellDamageNote } from "./spellDamageNotes";
+import { displayedFeatGrants, featFunctionalDetails, grantFunctionalDetails } from "./functionalDetails";
 
 type Mapping = (typeof fields)[number];
 type RichItem = { title: string; detail?: string };
@@ -24,13 +27,14 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet
   const source = mapping.source;
   if (source === "name") return name;
   if (source === "sheet.privilegi" || source === "sheet.talenti" || source === "sheet.equipaggiamento") return undefined;
+  if (source === "sheet.puntiFerita") return undefined;
   if (source === "sheet.specie" && mapping.field === "textarea_142hif") return undefined;
   if (source === "sheet.specie") return sheet.lignaggio || sheet.specie;
   if (source === "sheet.classeArmatura") return displayedArmorClass(sheet);
   if (source === "sheet.puntiFeritaMax") return sheet.puntiFeritaMax;
   if (source === "sheet.classe") return sheet.sottoclasse ? `${sheet.classe} - ${sheet.sottoclasse}` : sheet.classe;
   if (source === "sheet.velocita") return sheet.velocita ? `${sheet.velocita} m` : "";
-  if (source === "sheet.competenzeArmi") return [sheet.competenzeArmi.join(", "), sheet.padronanzeArmi?.length ? `Padronanze: ${sheet.padronanzeArmi.join(", ")}` : ""].filter(Boolean).join("; ");
+  if (source === "sheet.competenzeArmi") return undefined;
   if (source === "sheet.lingue") return sheet.lingue.join(", ");
   if (source === "sheet.bonusCompetenza") return proficiencyBonus(sheet.livello);
   if (source === "sheet.iniziativa") return initiativeBonus(sheet);
@@ -69,7 +73,10 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet
     if (array[3] === "livello") return detail?.livello === 0 ? "T" : String(detail?.livello ?? "");
     if (array[3] === "tempo") return detail?.tempo ? compactCastingTime(detail.tempo) : undefined;
     if (array[3] === "gittata") return detail?.gittata;
-    if (array[3] === "note") return item.stato === "preparato" || item.stato === "semprePreparato" ? "preparato" : "";
+    if (array[3] === "note") return [
+      item.stato === "preparato" || item.stato === "semprePreparato" ? "preparato" : "",
+      spellDamageNote(item.nome),
+    ].filter(Boolean).join("\n");
     if (array[3] === "concentrazione") return Boolean(detail?.durata.startsWith("concentrazione"));
     if (array[3] === "rituale") return Boolean(detail?.tempo.includes("rituale"));
     if (array[3] === "materiali") return Boolean(detail?.componenti.includes("M"));
@@ -124,7 +131,7 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
     const page = pages[mapping.page];
     const width = Math.max(1, mapping.width - 4);
     const multiline = mapping.field.startsWith("textarea_");
-    if (multiline || mapping.source.endsWith(".tempo")) {
+    if (multiline || mapping.source.endsWith(".tempo") || mapping.source.endsWith(".note") && mapping.source.includes("incantesimi")) {
       let size = 7;
       while (size > 4 && wrappedLines(value, width, size, measure).length * size * 1.2 > mapping.height - 3) size -= 0.5;
       const limit = Math.max(1, Math.floor((mapping.height - 3) / (size * 1.2)));
@@ -144,8 +151,8 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
     const space = Math.min(...boxes.map((box) => box.height - 4));
     const measureItem = (item: RichItem, box: Mapping, size: number) => {
       const detailSize = size * 0.84;
-      const title = wrappedLines(`- ${item.title}`, box.width - 4, size, measure);
-      const detail = item.detail ? wrappedLines(item.detail, box.width - 12, detailSize, measure) : [];
+      const title = wrappedLines(`- ${item.title}`, box.width - 12, size, measure);
+      const detail = item.detail ? wrappedLines(item.detail, box.width - 22, detailSize, measure) : [];
       return { title, detail, height: title.length * size * 1.2 + detail.length * detailSize * 1.2 + 2 };
     };
     const layoutFor = (list: RichItem[], size: number) => {
@@ -193,7 +200,7 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
         }
         const detailSize = chosenSize * 0.84;
         for (const line of layout.detail) {
-          page.drawText(line, { x: box.x + 10, y: page.getHeight() - top - detailSize, size: detailSize, font, color: rgb(0.55, 0.12, 0.1) });
+          page.drawText(line, { x: box.x + 10, y: page.getHeight() - top - detailSize, size: detailSize, font, color: rgb(0, 0, 0) });
           top += detailSize * 1.2;
         }
         top += 2;
@@ -233,11 +240,11 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   const grants = grantedPrivileges(sheet);
   const sameName = (a: string, b: string) => a.localeCompare(b, "it", { sensitivity: "base" }) === 0;
   const recordedPrivileges = sheet.privilegi.filter((item) => !grants.some((grant) => sameName(item.titolo, grant.name)));
-  const richItem = (title: string, choices?: string): RichItem => ({
+  const richItem = (title: string, choices?: string, detail?: string | null): RichItem => ({
     title: `${title}${choices ? `: ${choices}` : ""}`,
-    detail: operationalReminder(title, sheet)?.parts.map((part) => typeof part === "string" ? part : part.spell).join(""),
+    detail: detail ?? operationalReminder(title, sheet)?.parts.map((part) => typeof part === "string" ? part : part.spell).join(""),
   });
-  const grantItem = (grant: (typeof grants)[number]) => richItem(grant.name, sheet.privilegi.find((item) => sameName(item.titolo, grant.name))?.scelte);
+  const grantItem = (grant: (typeof grants)[number]) => richItem(grant.name, sheet.privilegi.find((item) => sameName(item.titolo, grant.name))?.scelte, grantFunctionalDetails(grant, sheet).summary);
   const privileges = [
     ...grants.filter((grant) => !grant.source.startsWith("Specie:") && !grant.source.startsWith("Lignaggio:")).map(grantItem),
     ...recordedPrivileges.map((item) => richItem(item.titolo, item.scelte)),
@@ -245,16 +252,24 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   drawRichList([byField.get("textarea_140vxzv")!, byField.get("textarea_141pxvh")!], privileges);
   const species = grants.filter((grant) => grant.source.startsWith("Specie:") || grant.source.startsWith("Lignaggio:"));
   drawRichList([{ ...byField.get("textarea_143mcko")!, x: 228, width: 178, source: "sheet.specie" }], species.map(grantItem));
-  const recordedFeats = [...sheet.talenti];
-  const feats = featGrants(sheet).map((grant) => {
-    const index = recordedFeats.findIndex((item) => sameName(item.nome, grant.name));
-    const saved = index >= 0 ? recordedFeats.splice(index, 1)[0] : null;
-    return richItem(saved?.nome ?? grant.name, saved?.scelte);
+  const { granted: grantedFeats, remaining: recordedFeats } = displayedFeatGrants(sheet);
+  const feats = grantedFeats.map(({ grant, saved }) => {
+    const title = saved?.nome ?? grant.name;
+    return richItem(title, saved?.scelte, featFunctionalDetails(title, sheet).summary);
   });
-  feats.push(...recordedFeats.map((item) => richItem(item.nome, item.scelte)));
+  feats.push(...recordedFeats.map((item) => richItem(item.nome, item.scelte, featFunctionalDetails(item.nome, sheet).summary)));
   drawRichList([byField.get("textarea_143mcko")!], feats);
   const quantity = (value?: string) => Number(value) > 1 ? ` x${value}` : "";
-  drawRichList([byField.get("textarea_165hxzs")!], [...sheet.equipaggiamento].sort((a, b) => compareOptionLabels(a.nome, b.nome)).map((item) => ({
+  const armors = sheet.equipaggiamento.filter(isArmorEquipment);
+  const arms = [
+    ...sheet.armi.map((item) => ({ title: `${item.nome}${quantity(item.quantita)}` })),
+    ...armors.map((item) => ({ title: `${item.nome}${quantity(item.quantita)}` })),
+  ].sort((a, b) => compareOptionLabels(a.title, b.title));
+  if (arms.length) {
+    const first = { ...byField.get("textarea_158mwcp")!, x: 19, y: 679, width: 94, height: 37, source: "sheet.armi" };
+    drawRichList([first, { ...first, x: 113 }], arms);
+  }
+  drawRichList([byField.get("textarea_165hxzs")!], sheet.equipaggiamento.filter((item) => !isArmorEquipment(item)).sort((a, b) => compareOptionLabels(a.nome, b.nome)).map((item) => ({
     title: `${item.nome}${quantity(item.quantita)}${Number(item.quantita) > 1 && item.unita ? ` ${item.unita}` : ""}${item.indossato ? " (indossata)" : item.impugnato ? " (impugnato)" : ""}`,
   })));
   if (sheet.competenzeStrumenti?.length) {

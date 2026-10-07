@@ -211,6 +211,7 @@ computer che modificano lo stesso file.
   precisa, livello, scelte, risorse, recupero, concessioni ed effetto reale.
   I 174 privilegi di classe e 241 di sottoclasse oggi solo catalogati vanno
   verificati individualmente.
+
 - **Equipaggiamento:** oltre a costo e peso, descrizione ed effetto d'uso del
   libro; pagina della descrizione quando diversa da quella della tabella.
 - **Incantesimi:** ricostruzione dell'indice completo dal PDF, confronto in
@@ -222,6 +223,28 @@ computer che modificano lo stesso file.
   l'effetto richiede ancora inserimento manuale.
 - **Persistenza:** mantenere note e scelte personali, convertire solo ciò che
   il PDF consente di mappare con certezza, non far riapparire vecchie regole.
+
+### Sintesi funzionali nella scheda e nell'esportazione PDF
+
+La copertura richiesta vale per **qualsiasi personaggio**, non solo per le
+schede usate come esempio. Le sintesi brevi che ancora mancano sono lavoro dei
+moduli del piano: `V04` per tratti di specie e lignaggio, `T01`–`T04` per
+talenti, `C01`–`C12` per privilegi di classe e sottoclasse. Ogni modulo deve
+ricavare dal PDF locale una sintesi utile durante il gioco, controllando
+azione/reazione, condizioni, dadi o bonus, usi, recupero, progressione e scelte
+quando pertinenti. Il testo completo, la pagina stampata e i dati strutturati
+restano la fonte; la sintesi non deve introdurre effetti assenti dal manuale.
+
+`R01` deve collegare queste sintesi alle schede nell'app e segnalare con un test
+di copertura ogni privilegio, tratto o talento acquisibile che ne sia ancora
+privo. `R02` deve usare gli stessi dati nell'esportazione PDF, verificando che
+le sintesi restino leggibili dentro i box senza aggiungere una terza pagina.
+`Q01` verifica personaggi di classi, specie, sottoclassi e livelli diversi,
+oltre ai talenti scelti: nessuna scheda deve dipendere da promemoria scritti
+per un personaggio specifico. Tra i casi già individuati da completare ci sono
+privilegi con intestazioni spezzate nell'estrazione del PDF, come Ispirazione
+Bardica, Fido Destriero, e diversi privilegi di sottoclasse; il controllo deve
+coprire **l'intero catalogo**, non soltanto questi esempi.
 
 ## Verifica finale dell'intero piano
 
