@@ -3,6 +3,818 @@
   "modulo": "C11",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:opzioni-di-metamagia",
+      "tipo": "etichetta",
+      "nome": "Opzioni di metamagia",
+      "alias": ["Metamagia"],
+      "testo": [{ "pagina": 153, "da": "Opzioni di Metamagia", "n": 5, "a": "Lista degli Incantesimi da Stregone" }],
+      "correzioni": [["2puntistregoneria", "2 punti stregoneria"]],
+      "pagina": 153,
+      "pagine": [154],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "classe:stregone",
+      "tipo": "classe",
+      "nome": "Stregone",
+      "testo": [
+        {
+          "pagina": 151,
+          "da": "LI STREGONI PADRONEGGIANO UNA MAGIA",
+          "includiDa": true,
+          "a": "PRIVILEGI DI CLASSE DELLO"
+        }
+      ],
+      "correzioni": [
+        [
+          "LI STREGONI PADRONEGGIANO UNA MAGIA innata che pervade",
+          "Gli stregoni padroneggiano una magia innata che pervade"
+        ],
+        [
+          "da\n\nun fulmine. O ancora otrebbero, p · a erlo ottenuto da una V\n\ndivinità",
+          "da un fulmine. O ancora potrebbero averlo ottenuto da una divinità"
+        ],
+        ["dello stregone.\n\n.\n\n-.... · \"\"'\"\n\n-\n\nCOME", "dello stregone.\n\nCOME"],
+        ["multiclasse nel capitolo 2. · 1 1", "multiclasse nel capitolo 2."]
+      ],
+      "pagina": 151,
+      "pagine": [152, 153],
+      "tabelle": [
+        {
+          "titolo": "Tratti del stregone",
+          "pagina": 151,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Carisma"],
+            ["Dado Vita", "D6 per ogni livello da stregone"],
+            ["Competenze nei tiri salvezza", "Costituzione e Carisma"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Arcano, Inganno, Intimidire, Intuizione, Persuasione o Religione"
+            ],
+            ["Competenza nelle armi", "Armi semplici"],
+            ["Competenza nelle armature", "Nessuno"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Una lancia, 2 pugnali, focus arcano (cristallo), dotazione da avventuriero e 28 mo; o (B) 50 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi dello stregone",
+          "pagina": 152,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Punti stregoneria",
+            "Trucchetti",
+            "Incantesimi preparati",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "righe": [
+            [
+              "1",
+              "+2",
+              "Incantesimi, stregoneria innata",
+              "—",
+              "4",
+              "2",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "2",
+              "+2",
+              "Fonte di magia, metamagia",
+              "2",
+              "4",
+              "4",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "3",
+              "+2",
+              "Sottoclasse dello stregone",
+              "3",
+              "4",
+              "6",
+              "4",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            [
+              "4",
+              "+2",
+              "Aumento dei punteggi di caratteristica",
+              "4",
+              "5",
+              "7",
+              "4",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["5", "+3", "Ripristino stregonesco", "5", "5", "9", "4", "3", "2", "—", "—", "—", "—", "—", "—"],
+            [
+              "6",
+              "+3",
+              "Privilegio della sottoclasse",
+              "6",
+              "5",
+              "10",
+              "4",
+              "3",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["7", "+3", "Stregoneria incarnata", "7", "5", "11", "4", "3", "3", "1", "—", "—", "—", "—", "—"],
+            [
+              "8",
+              "+3",
+              "Aumento dei punteggi di caratteristica",
+              "8",
+              "5",
+              "12",
+              "4",
+              "3",
+              "3",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["9", "+4", "—", "9", "5", "14", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
+            ["10", "+4", "Metamagia", "10", "6", "15", "4", "3", "3", "3", "2", "—", "—", "—", "—"],
+            ["11", "+4", "—", "11", "6", "16", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            [
+              "12",
+              "+4",
+              "Aumento dei punteggi di caratteristica",
+              "12",
+              "6",
+              "16",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "—",
+              "—",
+              "—"
+            ],
+            ["13", "+5", "—", "13", "6", "17", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            [
+              "14",
+              "+5",
+              "Privilegio della sottoclasse",
+              "14",
+              "6",
+              "17",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "—",
+              "—"
+            ],
+            ["15", "+5", "—", "15", "6", "18", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
+            [
+              "16",
+              "+5",
+              "Aumento dei punteggi di caratteristica",
+              "16",
+              "6",
+              "18",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "1",
+              "—"
+            ],
+            ["17", "+6", "Metamagia", "17", "6", "19", "4", "3", "3", "3", "2", "1", "1", "1", "1"],
+            [
+              "18",
+              "+6",
+              "Privilegio della sottoclasse",
+              "18",
+              "6",
+              "20",
+              "4",
+              "3",
+              "3",
+              "3",
+              "3",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            ["19", "+6", "Dono epico", "19", "6", "21", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
+            ["20", "+6", "Apoteosi arcana", "20", "6", "22", "4", "3", "3", "3", "3", "2", "2", "1", "1"]
+          ]
+        }
+      ],
+      "dadoVita": "D6",
+      "caratteristicaPrimaria": "Carisma",
+      "tiriSalvezza": ["COS", "CAR"],
+      "competenze": {
+        "abilita": {
+          "numero": 2,
+          "scelte": ["Arcano", "Inganno", "Intimidire", "Intuizione", "Persuasione", "Religione"]
+        },
+        "armi": ["Armi semplici"],
+        "armature": [],
+        "strumenti": []
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Una lancia, 2 pugnali, focus arcano (cristallo), dotazione da avventuriero e 28 mo; o (B) 50 mo",
+      "privilegi": [
+        {
+          "id": "classe:stregone:privilegio:1-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 1,
+          "testo": [
+            { "pagina": 151, "da": "Livello 1: Incantesimi", "a": "Privilegi dello stregone", "na": 5 },
+            {
+              "pagina": 152,
+              "da": "Caratteristica da Incantatore",
+              "includiDa": true,
+              "a": "Livello 1: Stregoneria Innata"
+            }
+          ],
+          "correzioni": [["stregoneriaesplosiva", "stregoneria esplosiva"]],
+          "pagina": 151,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:1-stregoneria-innata",
+          "nome": "Stregoneria Innata",
+          "livello": 1,
+          "testo": [{ "pagina": 152, "da": "Livello 1: Stregoneria Innata", "a": "Livello 2: Fonte di Magia" }],
+          "pagina": 152,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:2-fonte-di-magia",
+          "nome": "Fonte di Magia",
+          "livello": 2,
+          "testo": [{ "pagina": 152, "da": "Livello 2: Fonte di Magia", "a": "Livello 2: Metamagia" }],
+          "correzioni": [
+            [
+              "stregoneria,\n\npreparati · 1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9\n4 · 2 · 2\n4 · 4 · 3\n4 · 6 · 4 · 2\n5 · 7 · 4 · 3\n5 · 9 · 4 · 3 · 2\n5 · 10 · 4 · 3 · 3\n5 · 11 · 4 · 3 · 3\n5 · 12 · 4 · 3 · 3 · 2\n5 · 14 · 4 · 3 · 3 · 3\n6 · 15 · 4 · 3 · 3 · 3 · 2\n6 · 16 · 4 · 3 · 3 · 3 · 2\n6 · 16 · 4 · 3 · 3 · 3 · 2\n6 · 17 · 4 · 3 · 3 · 3 · 2\n6 · 17 · 4 · 3 · 3 · 3 · 2\n6 · 18 · 4 · 3 · 3 · 3 · 2\n6 · 18 · 4 · 3 · 3 · 3 · 2\n6 · 19 · 4 · 3 · 3 · 3 · 2\n6 · 20 · 4 · 3 · 3 · 3 · 3\n6 · 21 · 4 · 3 · 3 · 3 · 3 · 2\n6 · 22 · 4 · 3 · 3 · 3 · 3 · 2 · 2\n\nche gli consentono",
+              "stregoneria, che gli consentono"
+            ],
+            [
+              "svanisce quando lo stregone completa un riposo lungo.\n\nCREAZIONE DEGLI SLOT INCANTESIMO\n\nLivello slot · Costo punti · Liv. stregone\nincantesimo · stregoneria · minimo\n2 · 2\n2 · 3 · 3\n3 · s · s\n4 · 6 · 7\ns · 7 · 9",
+              "svanisce quando lo stregone completa un riposo lungo."
+            ]
+          ],
+          "tabelle": [
+            {
+              "titolo": "Creazione degli slot incantesimo",
+              "pagina": 153,
+              "colonne": ["Livello slot incantesimo", "Costo punti stregoneria", "Liv. stregone minimo"],
+              "righe": [["1", "2", "2"], ["2", "3", "3"], ["3", "5", "5"], ["4", "6", "7"], ["5", "7", "9"]]
+            }
+          ],
+          "pagina": 152,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:2-metamagia",
+          "nome": "Metamagia",
+          "livello": 2,
+          "testo": [{ "pagina": 153, "da": "Livello 2: Metamagia", "a": "Livello 3: Sottoclasse dello Stregone" }],
+          "pagina": 153,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:3-sottoclasse-dello-stregone",
+          "nome": "Sottoclasse dello Stregone",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 153,
+              "da": "Livello 3: Sottoclasse dello Stregone",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 153,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 153,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Ripristino Stregonesco"
+            }
+          ],
+          "pagina": 153,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:5-ripristino-stregonesco",
+          "nome": "Ripristino Stregonesco",
+          "livello": 5,
+          "testo": [
+            {
+              "pagina": 153,
+              "da": "Livello 5: Ripristino Stregonesco",
+              "a": "Livello 7: Stregoneria Incarnata"
+            }
+          ],
+          "pagina": 153,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:7-stregoneria-incarnata",
+          "nome": "Stregoneria Incarnata",
+          "livello": 7,
+          "testo": [{ "pagina": 153, "da": "Livello 7: Stregoneria Incarnata", "a": "Livello 19: Dono Epico" }],
+          "pagina": 153,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 153, "da": "Livello 19: Dono Epico", "a": "Livello 20: Apoteosi Arcana" }],
+          "pagina": 153,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:privilegio:20-apoteosi-arcana",
+          "nome": "Apoteosi Arcana",
+          "livello": 20,
+          "testo": [{ "pagina": 153, "da": "Livello 20: Apoteosi Arcana", "a": "Opzioni di Metamagia" }],
+          "pagina": 153,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:stregone:sottoclasse:stregoneria-aberrante",
+      "tipo": "sottoclasse",
+      "classe": "Stregone",
+      "nome": "Stregoneria Aberrante",
+      "testo": [{ "pagina": 157, "da": "Stregoneria Aberrante", "n": 2, "a": "Livello 3: Conversazione Telepatica" }],
+      "pagina": 157,
+      "privilegi": [
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-aberrante:privilegio:3-conversazione-telepatica",
+          "nome": "Conversazione Telepatica",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 157,
+              "da": "Livello 3: Conversazione Telepatica",
+              "a": "Livello 3: Incantesimi Psionici"
+            }
+          ],
+          "pagina": 157,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-aberrante:privilegio:3-incantesimi-psionici",
+          "nome": "Incantesimi Psionici",
+          "livello": 3,
+          "testo": [{ "pagina": 157, "da": "Livello 3: Incantesimi Psionici", "a": "Incantesimi Psionici", "na": 2 }],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi Psionici",
+              "pagina": 157,
+              "colonne": ["Livello da stregone", "Incantesimi"],
+              "righe": [
+                [
+                  "3",
+                  "Braccia di Hadar, calmare emozioni, individuazione dei pensieri, sussurri dissonanti, scheggia della mente"
+                ],
+                ["5", "Fame di Hadar, inviare"],
+                ["7", "Tentacoli neri di Evard, evoca aberrazione"],
+                ["9", "Legame telepatico di Rary, telecinesi"]
+              ]
+            }
+          ],
+          "pagina": 157,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-aberrante:privilegio:6-difese-psichiche",
+          "nome": "Difese Psichiche",
+          "livello": 6,
+          "testo": [{ "pagina": 158, "da": "Livello 6: Difese Psichiche", "a": "Livello 6: Stregoneria Psionica" }],
+          "pagina": 158,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-aberrante:privilegio:6-stregoneria-psionica",
+          "nome": "Stregoneria Psionica",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 158,
+              "da": "Livello 6: Stregoneria Psionica",
+              "a": "Livello 14: Rivelazione della Carne"
+            }
+          ],
+          "pagina": 158,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-aberrante:privilegio:14-rivelazione-della-carne",
+          "nome": "Rivelazione della Carne",
+          "livello": 14,
+          "testo": [
+            {
+              "pagina": 158,
+              "da": "Livello 14: Rivelazione della Carne",
+              "a": "Livello 18: Implosione Distorcente"
+            }
+          ],
+          "pagina": 158,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-aberrante:privilegio:18-implosione-distorcente",
+          "nome": "Implosione Distorcente",
+          "livello": 18,
+          "testo": [{ "pagina": 158, "da": "Livello 18: Implosione Distorcente", "a": "Stregoneria Draconica" }],
+          "pagina": 158,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:stregone:sottoclasse:stregoneria-draconica",
+      "tipo": "sottoclasse",
+      "classe": "Stregone",
+      "nome": "Stregoneria Draconica",
+      "testo": [{ "pagina": 159, "da": "Stregoneria Draconica", "a": "Livello 3: Incantesimi Draconici" }],
+      "pagina": 159,
+      "privilegi": [
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-draconica:privilegio:3-incantesimi-draconici",
+          "nome": "Incantesimi Draconici",
+          "livello": 3,
+          "testo": [{ "pagina": 159, "da": "Livello 3: Incantesimi Draconici", "a": "Incantesimi Draconici", "na": 2 }],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi Draconici",
+              "pagina": 159,
+              "colonne": ["Livello da stregone", "Incantesimi"],
+              "righe": [
+                ["3", "Alterare se stesso, globo cromatico, comando, soffio del drago"],
+                ["5", "Paura, volare"],
+                ["7", "Occhio arcano, charme sui mostri"],
+                ["9", "Conoscenza delle leggende, evoca drago"]
+              ]
+            }
+          ],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-draconica:privilegio:3-resilienza-draconica",
+          "nome": "Resilienza Draconica",
+          "livello": 3,
+          "testo": [{ "pagina": 159, "da": "Livello 3: Resilienza Draconica", "a": "Livello 6: Affinità Elementale" }],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-draconica:privilegio:6-affinita-elementale",
+          "nome": "Affinità Elementale",
+          "livello": 6,
+          "testo": [{ "pagina": 159, "da": "Livello 6: Affinità Elementale", "a": "Livello 14: Ali di Drago" }],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-draconica:privilegio:14-ali-di-drago",
+          "nome": "Ali di Drago",
+          "livello": 14,
+          "testo": [{ "pagina": 159, "da": "Livello 14: Ali di Drago", "a": "Livello 18: Seguace Draconico" }],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-draconica:privilegio:18-seguace-draconico",
+          "nome": "Seguace Draconico",
+          "livello": 18,
+          "testo": [{ "pagina": 159, "da": "Livello 18: Seguace Draconico", "a": "Stregoneria della Magia Selvaggia" }],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:stregone:sottoclasse:stregoneria-della-magia-selvaggia",
+      "tipo": "sottoclasse",
+      "classe": "Stregone",
+      "nome": "Stregoneria della Magia Selvaggia",
+      "testo": [
+        {
+          "pagina": 159,
+          "da": "Stregoneria della Magia Selvaggia",
+          "a": "Livello 3: Impulso di Magia Selvaggia"
+        }
+      ],
+      "pagina": 159,
+      "privilegi": [
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-della-magia-selvaggia:privilegio:3-impulso-di-magia-selvaggia",
+          "nome": "Impulso di Magia Selvaggia",
+          "livello": 3,
+          "testo": [{ "pagina": 159, "da": "Livello 3: Impulso di Magia Selvaggia", "a": "Livello 3: Onde di Caos" }],
+          "tabelle": [
+            {
+              "titolo": "Impulsi di magia selvaggia",
+              "pagina": 159,
+              "pagine": [160, 161, 162],
+              "colonne": ["1d100", "Effetto"],
+              "righe": [
+                [
+                  "01-04",
+                  "Tira su questa tabella all'inizio di ciascun turno per il prossimo minuto. Se nei tiri successivi ottieni questo stesso risultato, ignoralo."
+                ],
+                [
+                  "05-08",
+                  "In uno spazio libero entro 18 metri dallo stregone appare una creatura amichevole nei suoi confronti controllata dal DM. Scompare dopo 1 minuto. Tira 1d4 per determinare il tipo di creatura: con 1 appare un duodrone modron; con 2 appare un flumph; con 3 appare un monodrone modron; con 4 appare un unicorno. È possibile consultare il Manuale dei Mostri per visualizzare la scheda delle statistiche della creatura."
+                ],
+                [
+                  "09-12",
+                  "Per il prossimo minuto, lo stregone ripristina 5 dei suoi punti ferita a ogni turno."
+                ],
+                [
+                  "13-16",
+                  "Per il prossimo minuto, le creature hanno svantaggio ai tiri salvezza contro il prossimo incantesimo lanciato dallo stregone che richiede un tiro salvezza."
+                ],
+                [
+                  "17-20",
+                  "Lo stregone subisce un effetto della durata di 1 minuto, salvo diversamente indicato. Tira 1d8 per determinare l'effetto: con 1 lo stregone è accompagnato da una tenue musica eterea udibile solo da sé e dalle creature entro 1,5 metri da lui; con 2 la sua taglia aumenta di una categoria; con 3 gli cresce una folta barba di piume che svanisce solo dopo uno starnuto, scagliandole via dal proprio viso e facendole scomparire; con 4 urla invece di parlare normalmente; con 5 appaiono delle farfalle illusorie che svolazzano in aria entro 3 metri da sé; con 6 gli appare un occhio sulla fronte, conferendogli vantaggio alle prove di Saggezza (Percezione); con 7 fuoriescono delle bolle rosa dalla sua bocca ogni volta che parla; con 8 la sua pelle diventa di un'intensa tonalità di blu per 24 ore o finché l'effetto non è rimosso da un incantesimo rimuovi maledizione."
+                ],
+                [
+                  "21-24",
+                  "Per il minuto successivo, tutti gli incantesimi con tempo di lancio di un'azione ottengono il tempo di lancio di un'azione bonus."
+                ],
+                [
+                  "25-28",
+                  "Lo stregone viene trasportato sul Piano Astrale fino al termine del suo turno successivo, per poi fare ritorno nello spazio che occupava in precedenza o nello spazio libero più vicino, se quello spazio è ora occupato."
+                ],
+                [
+                  "29-32",
+                  "Se nel minuto successivo lo stregone lancia un incantesimo che infligge danni, non è necessario tirare i dadi di danno, poiché sarà preso in considerazione il massimo risultato possibile per ciascun dado."
+                ],
+                ["33-36", "Per il minuto successivo, lo stregone ha resistenza a tutti i danni."],
+                [
+                  "37-40",
+                  "Lo stregone diventa una pianta in vaso fino all'inizio del turno successivo. Mentre è in forma di pianta, è incapacitato e vulnerabile a tutti i tipi di danno. Per riacquistare la sua forma originale, deve scendere a 0 punti ferita, così da far rompere il vaso."
+                ],
+                [
+                  "41-44",
+                  "Per il minuto successivo, lo stregone può teletrasportarsi fino a 6 metri come azione bonus in ogni suo turno."
+                ],
+                [
+                  "45-48",
+                  "Lo stregone e altre tre creature a scelta entro 9 metri da sé sono invisibili per 1 minuto. L'invisibilità termina sulla singola creatura immediatamente dopo che effettua un tiro per colpire, infligge danni o lancia un incantesimo."
+                ],
+                [
+                  "49-52",
+                  "Appare uno scudo spettrale che fluttua accanto allo stregone per il minuto successivo, conferendogli un bonus di +2 alla CA e immunità a dardo incantato."
+                ],
+                ["53-56", "Lo stregone può effettuare un'azione extra durante questo turno."],
+                [
+                  "57-60",
+                  "Lo stregone può lanciare un incantesimo casuale. Se l'incantesimo dovesse normalmente richiedere concentrazione, in questo caso non conta. Inoltre, l'incantesimo ha la sua durata normale. Tira 1d10 per determinare l'incantesimo: con 1 lancia confusione; con 2 lancia palla di fuoco; con 3 lancia nube di nebbia; con 4 lancia volare (su una creatura casuale entro 18 metri dallo stregone); con 5 lancia levitazione (su di sé); con 6 lancia dardo incantato (come incantesimo di 5° livello); con 7 lancia dardo incantato; con 8 lancia immagine speculare; con 9 lancia metamorfosi (su di sé) e, in caso di fallimento del tiro salvezza, lo stregone diventa una capra (vedi appendice B); con 10 lancia vedere invisibilità."
+                ],
+                [
+                  "61-64",
+                  "Per il minuto successivo, se lo stregone tocca qualsiasi oggetto non magico infiammabile che non è indossato o trasportato da un'altra creatura, questo prende fuoco subendo 1d4 danni da fuoco."
+                ],
+                [
+                  "65-68",
+                  "Se lo stregone muore entro l'ora successiva, viene riportato in vita come per effetto dell'incantesimo reincarnazione."
+                ],
+                [
+                  "69-72",
+                  "Lo stregone è spaventato fino al termine del suo turno successivo. La fonte della paura è a discrezione del DM."
+                ],
+                [
+                  "73-76",
+                  "Lo stregone si teletrasporta di 18 metri in uno spazio libero che è in grado di vedere."
+                ],
+                ["77-80", "Una creatura casuale entro 18 metri dallo stregone è avvelenata per 1d4 ore."],
+                [
+                  "81-84",
+                  "Per il minuto successivo, lo stregone emana luce intensa in un raggio di 9 metri. Qualsiasi creatura che termini il suo turno entro 1,5 metri dal personaggio è accecata fino al termine del proprio turno successivo."
+                ],
+                [
+                  "85-88",
+                  "Lo stregone infligge 1d10 danni necrotici a un massimo di tre creature a scelta che è in grado di vedere. Dopodiché, ripristina una quantità di punti ferita pari ai danni necrotici inflitti."
+                ],
+                [
+                  "89-92",
+                  "Lo stregone infligge 4d10 danni da fulmine a un massimo di tre creature a scelta che è in grado di vedere."
+                ],
+                [
+                  "93-96",
+                  "Lo stregone e tutte le creature entro 9 metri da sé diventano vulnerabili ai danni perforanti per il minuto successivo."
+                ],
+                [
+                  "97-00",
+                  "Tira 1d6: con 1 il personaggio recupera 2d10 punti ferita; con 2 un alleato a scelta che è in grado di vedere entro 90 metri dallo stregone recupera 2d10 punti ferita; con 3 lo stregone recupera lo slot incantesimo speso di livello più basso; con 4 un alleato a scelta recupera lo slot incantesimo speso di livello più basso; con 5 lo stregone recupera tutti i punti stregoneria spesi; con 6 si attivano simultaneamente tutti gli effetti della riga 17-20."
+                ]
+              ]
+            }
+          ],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-della-magia-selvaggia:privilegio:3-onde-di-caos",
+          "nome": "Onde di Caos",
+          "livello": 3,
+          "testo": [{ "pagina": 159, "da": "Livello 3: Onde di Caos", "a": "Livello 6: Piegare la Fortuna" }],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-della-magia-selvaggia:privilegio:6-piegare-la-fortuna",
+          "nome": "Piegare la Fortuna",
+          "livello": 6,
+          "testo": [{ "pagina": 159, "da": "Livello 6: Piegare la Fortuna", "a": "Livello 14: Caos Controllato" }],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-della-magia-selvaggia:privilegio:14-caos-controllato",
+          "nome": "Caos Controllato",
+          "livello": 14,
+          "testo": [{ "pagina": 159, "da": "Livello 14: Caos Controllato", "a": "Livello 18: Impulsi Domati" }],
+          "pagina": 159,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-della-magia-selvaggia:privilegio:18-impulsi-domati",
+          "nome": "Impulsi Domati",
+          "livello": 18,
+          "testo": [{ "pagina": 160, "da": "Livello 18: Impulsi Domati", "a": "Impulsi di magia selvaggia", "na": 2 }],
+          "pagina": 160,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:stregone:sottoclasse:stregoneria-meccanica",
+      "tipo": "sottoclasse",
+      "classe": "Stregone",
+      "nome": "Stregoneria Meccanica",
+      "testo": [{ "pagina": 162, "da": "Stregoneria Meccanica", "a": "Livello 3: Incantesimi Meccanici" }],
+      "pagina": 162,
+      "tabelle": [
+        {
+          "titolo": "Manifestazioni dell'ordine",
+          "pagina": 162,
+          "colonne": ["1d6", "Manifestazione"],
+          "righe": [
+            ["1", "Ingranaggi spettrali si librano alle sue spalle."],
+            ["2", "Le lancette di un orologio si muovono nei suoi occhi."],
+            ["3", "La sua pelle luccica come ottone."],
+            ["4", "Il suo corpo si ricopre di figure geometriche e formule matematiche."],
+            [
+              "5",
+              "Il suo focus da incantatore assume temporaneamente la forma di un meccanismo ad orologeria minuscolo."
+            ],
+            [
+              "6",
+              "Lo stregone e i bersagli della sua magia sentono il ronzio di ingranaggi e il ticchettio di orologi."
+            ]
+          ]
+        }
+      ],
+      "privilegi": [
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-meccanica:privilegio:3-incantesimi-meccanici",
+          "nome": "Incantesimi Meccanici",
+          "livello": 3,
+          "testo": [{ "pagina": 162, "da": "Livello 3: Incantesimi Meccanici", "a": "Incantesimi Meccanici", "na": 2 }],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi Meccanici",
+              "pagina": 162,
+              "colonne": ["Livello da stregone", "Incantesimi"],
+              "righe": [
+                ["3", "Aiuto, allarme, ristorare inferiore, protezione dal bene e dal male"],
+                ["5", "Dissolvi magie, protezione dall'energia"],
+                ["7", "Libertà di movimento, evoca costrutto"],
+                ["9", "Ristorare superiore, muro di forza"]
+              ]
+            }
+          ],
+          "pagina": 162,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-meccanica:privilegio:3-ripristino-dell-equilibrio",
+          "nome": "Ripristino dell'Equilibrio",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 162,
+              "da": "Livello 3: Ripristino dell'Equilibrio",
+              "a": "Livello 6: Bastione della Legge"
+            }
+          ],
+          "pagina": 162,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-meccanica:privilegio:6-bastione-della-legge",
+          "nome": "Bastione della Legge",
+          "livello": 6,
+          "testo": [{ "pagina": 163, "da": "Livello 6: Bastione della Legge", "a": "Livello 14: Trance dell'Ordine" }],
+          "pagina": 163,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-meccanica:privilegio:14-trance-dell-ordine",
+          "nome": "Trance dell'Ordine",
+          "livello": 14,
+          "testo": [{ "pagina": 163, "da": "Livello 14: Trance dell'Ordine", "a": "Livello 18: Cavalleria Meccanica" }],
+          "pagina": 163,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:stregone:sottoclasse:stregoneria-meccanica:privilegio:18-cavalleria-meccanica",
+          "nome": "Cavalleria Meccanica",
+          "livello": 18,
+          "testo": [{ "pagina": 163, "da": "Livello 18: Cavalleria Meccanica", "finePagina": true }],
+          "pagina": 163,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
