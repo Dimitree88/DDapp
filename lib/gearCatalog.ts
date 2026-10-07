@@ -2,7 +2,18 @@
 // I pesi non indicati dalla fonte restano assenti.
 // Gli ID storici srd52 restano stabili per leggere le schede già salvate;
 // nomi, pesi e costi visualizzati sono confrontati con il Manuale locale.
-export type Gear = { id: string; name: string; weightKg?: number; costGp?: number; priceQuantity?: number; sourcePage?: number; tool?: boolean; toolKind?: "artigiano" | "gioco" | "musicale" | "altro" };
+export type Gear = { id: string; name: string; weightKg?: number; costGp?: number; priceQuantity?: number; sourcePage?: number; contents?: string[]; tool?: boolean; toolKind?: "artigiano" | "gioco" | "musicale" | "altro" };
+
+// Contenuti delle dotazioni, Manuale del Giocatore 2024, p. 225.
+const packContents: Record<string, string[]> = {
+  "dotazione-avventuriero": ["Zaino", "Triboli", "Piede di porco", "Ampolle di olio ×2", "Razioni giornaliere ×10", "Corda", "Acciarino e pietra focaia", "Torce ×10", "Otre"],
+  "dotazione-diplomatico": ["Forziere", "Abiti eleganti", "Inchiostro", "Pennini ×5", "Lampada", "Custodie per mappe o pergamene ×2", "Ampolle di olio ×4", "Fogli di carta ×5", "Fogli di pergamena ×5", "Profumo", "Acciarino e pietra focaia"],
+  "dotazione-esploratore": ["Zaino", "Giaciglio", "Ampolle di olio ×2", "Razioni giornaliere ×10", "Corda", "Acciarino e pietra focaia", "Torce ×10", "Otre"],
+  "dotazione-intrattenitore": ["Zaino", "Giaciglio", "Campana", "Lanterna a lente sporgente", "Costumi ×3", "Specchio", "Ampolle di olio ×8", "Razioni giornaliere ×9", "Otre"],
+  "dotazione-sacerdote": ["Zaino", "Coperta", "Acqua santa", "Lampada", "Razioni giornaliere ×7", "Tunica", "Acciarino e pietra focaia"],
+  "dotazione-scassinatore": ["Zaino", "Sfere metalliche", "Campana", "Candele ×10", "Piede di porco", "Lanterna schermabile", "Ampolle di olio ×7", "Razioni giornaliere ×5", "Corda", "Acciarino e pietra focaia", "Otre"],
+  "dotazione-studioso": ["Zaino", "Libro", "Inchiostro", "Pennino", "Lampada", "Ampolle di olio ×10", "Fogli di pergamena ×10", "Acciarino e pietra focaia"],
+};
 
 const rows: [string, string, number | null, number][] = [
   ["abiti-viaggiatore", "Abiti da viaggiatore", 2, 2],
@@ -85,7 +96,10 @@ const rows: [string, string, number | null, number][] = [
   ["zaino", "Zaino", 2.5, 2],
 ];
 
-export const gearCatalog: Gear[] = rows.map(([id, name, weightKg, costGp]) => ({ id: `srd52:gear:${id}`, name, ...(weightKg === null ? {} : { weightKg }), costGp }));
+export const gearCatalog: Gear[] = rows.map(([id, name, weightKg, costGp]) => ({
+  id: `srd52:gear:${id}`, name, ...(weightKg === null ? {} : { weightKg }), costGp,
+  ...(packContents[id] ? { contents: packContents[id], sourcePage: 225 } : {}),
+}));
 // Manuale del Giocatore 2024, tabella Focus druidici: la voce generale ha costo variabile.
 gearCatalog.push(
   { id: "phb24:gear:focus-arcano", name: "Focus arcano", sourcePage: 225 },

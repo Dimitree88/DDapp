@@ -220,6 +220,9 @@ function ObjectListEditor({ sheet, items, indices, onChange }: { sheet: Sheet; i
             : <TextField label="" showInfo={false} value={item.nome} onChange={(value) => patchAt(index, { nome: value })} />}
           <WarningLabel id={`avvisoOggetto:${indices[index]}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
         </div>
+        {gearById(item.catalogId ?? "")?.contents?.length ? <ul className="mt-1 list-inside list-disc text-xs text-ink-soft" aria-label={`Contenuto di ${item.nome}`}>
+          {gearById(item.catalogId ?? "")!.contents!.map((content) => <li key={content}>{content}</li>)}
+        </ul> : null}
         {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
       </div>
       <span className="text-xs text-ink-faint">Quantità</span>
@@ -626,7 +629,6 @@ export default function CharacterClient({
                 </li>
               ))}
             </ul>
-            <TextField label="Note lingue" showInfo={false} showEditIcon value={sheet.noteLingue} onChange={(v) => patch({ noteLingue: v })} multiline />
           </section>
         </div>
       ),
