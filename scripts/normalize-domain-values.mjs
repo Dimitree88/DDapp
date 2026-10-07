@@ -56,7 +56,6 @@ function convert(raw, name) {
   sheet.noteLingue ??= "";
   sheet.lingue = list(sheet.lingue).map((rawLanguage) => {
     let language = rawLanguage.replace(/\s*\(da [^)]+\)\s*$/i, "").trim();
-    if (language.toLocaleLowerCase("it") === "sottocomune mercanti") language = "Sottocomune";
     if (language !== rawLanguage && !sheet.noteLingue.includes(rawLanguage)) {
       sheet.noteLingue += `${sheet.noteLingue ? "\n" : ""}${rawLanguage}`;
     }

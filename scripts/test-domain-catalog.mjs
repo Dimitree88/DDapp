@@ -23,7 +23,7 @@ test("the catalog accepts migrated 2024 options and rejects names outside it", (
   };
   assert.deepEqual(domainErrors(sheet), []);
   assert.match(domainErrors({ ...sheet, specie: "Elfo Alto" }).join(" "), /Specie/);
-  assert.match(domainErrors({ ...sheet, lingue: ["Sottocomune mercanti"] }).join(" "), /Lingua/);
+  assert.match(domainErrors({ ...sheet, lingue: ["Lingua inesistente"] }).join(" "), /Lingua/);
   assert.match(domainErrors({ ...sheet, incantesimi: [{ nome: "Incantesimo inventato" }] }).join(" "), /Incantesimo/);
 });
 

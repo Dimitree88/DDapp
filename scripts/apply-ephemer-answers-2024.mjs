@@ -26,7 +26,7 @@ const assert = (condition, message) => { if (!condition) throw new Error(message
 assert(sheet.classe === "Ranger" && sheet.livello === "2", "Classe o livello inattesi");
 assert(!sheet.lingue.includes("Lingua dei segni comune"), "Lingua già presente");
 sheet.lingue.splice(2, 0, "Lingua dei segni comune");
-sheet.noteLingue = "Sottocomune — Mercanti (specifica della campagna)";
+sheet.noteLingue = "";
 
 assert(!sheet.incantesimi.some((spell) => spell.nome === "Colpo intrappolante"), "Incantesimo già presente");
 sheet.incantesimi.push({ nome: "Colpo intrappolante", fonte: "classe", stato: "preparato", caratteristica: "SAG" });

@@ -301,7 +301,6 @@ export function normalizeSheet(value: Sheet): Sheet {
   const noteLingue = (old.noteLingue ?? "").split(/\r?\n/).flatMap((line) => {
     const trimmed = line.trim();
     if (!trimmed) return [];
-    if (/^Sottocomune mercanti(?:\s+\(da [^)]+\))?$/i.test(trimmed)) return ["Mercanti"];
     const provenance = /^(.+?)\s+\(da [^)]+\)$/i.exec(trimmed);
     if (provenance && languages.some((language) => language.toLocaleLowerCase("it") === provenance[1].toLocaleLowerCase("it"))) return [];
     return [line];

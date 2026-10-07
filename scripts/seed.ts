@@ -17,7 +17,7 @@ function ephemerSheet(): Sheet {
     puntiEsperienza: "0", specie: "Umano", background: "Eremita",
     allineamento: "Caotico neutrale", velocita: "9", taglia: "Media",
     lingue: ["Comune", "Draconico", "Primordiale", "Sottocomune"],
-    noteLingue: "Mercanti",
+    noteLingue: "",
   });
   const scores = [
     ["9", true], ["15", true],

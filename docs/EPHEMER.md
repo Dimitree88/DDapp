@@ -35,7 +35,7 @@ temporanei:
 | LINGUE | - comune
 - draconico (acquisito con Eremita)
 - Primordiale (da Livello 2)
-- Sottocomune, mercanti (da Livello 2) |
+- Sottocomune (da Livello 2) |
   
   
   
