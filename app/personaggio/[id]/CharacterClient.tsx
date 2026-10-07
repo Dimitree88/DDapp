@@ -34,6 +34,7 @@ import { languageDetails } from "@/lib/languageDetails";
 import { weaponByName, weaponCatalog, weaponDetails } from "@/lib/weaponDetails";
 import { weaponMasteryLimit } from "@/lib/weaponChoices";
 import { isWeaponProficient } from "@/lib/weaponProficiencyRules";
+import { equipmentWarning, weaponWarning, type EquipmentWarning } from "@/lib/equipmentUsability";
 import { weaponAttack } from "@/lib/weaponAttack";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
@@ -177,13 +178,22 @@ function AddWeaponSelect({ sheet, onAdd }: { sheet: Sheet; onAdd: (name: string)
   </select> : null;
 }
 
+function WarningLabel({ id, name, warning }: { id: string; name: string; warning: EquipmentWarning | null }) {
+  if (!warning) return null;
+  return <InfoLabel id={id} title={warning.label} dialogTitle={`${name}: ${warning.label.toLocaleLowerCase("it")}`}
+    className="inline-flex min-h-7 items-center rounded border border-red-700/50 bg-red-700/10 px-2 text-[10px] font-bold text-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-red-700" />;
+}
+
 function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: Arma[]) => void }) {
   const { unlocked } = useContext(EditContext);
   return <div className="flex flex-col gap-2">
     {sheet.armi.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
     {sheet.armi.map((weapon, index) => <div key={index} className={`${card} flex items-center gap-2`}>
       <div className="min-w-0 flex-1">
-        <InfoLabel id={`armaPosseduta:${index}`} title={weapon.nome || "Arma"} className="text-left text-sm font-semibold text-ink" />
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <InfoLabel id={`armaPosseduta:${index}`} title={weapon.nome || "Arma"} className="text-left text-sm font-semibold text-ink" />
+          <WarningLabel id={`avvisoArma:${index}`} name={weapon.nome} warning={weaponWarning(sheet, weapon)} />
+        </div>
         {weapon.note && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{weapon.note}</p>}
       </div>
       <span className="text-xs text-ink-faint">Quantità</span>
@@ -195,7 +205,7 @@ function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: 
   </div>;
 }
 
-function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void }) {
+function ObjectListEditor({ sheet, items, indices, onChange }: { sheet: Sheet; items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void }) {
   const { unlocked } = useContext(EditContext);
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
   const entries = items.map((item, index) => ({ item, index }))
@@ -203,8 +213,11 @@ function ObjectListEditor({ items, indices, onChange }: { items: Equip[]; indice
   const renderItem = ({ item, index }: { item: Equip; index: number }) =>
     <div key={index} className={`${card} flex items-center gap-2`}>
       <div className="min-w-0 flex-1">
-        {item.nome || !unlocked ? <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-left text-sm font-semibold text-ink" />
-          : <TextField label="" showInfo={false} value={item.nome} onChange={(value) => patchAt(index, { nome: value })} />}
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          {item.nome || !unlocked ? <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-left text-sm font-semibold text-ink" />
+            : <TextField label="" showInfo={false} value={item.nome} onChange={(value) => patchAt(index, { nome: value })} />}
+          <WarningLabel id={`avvisoOggetto:${indices[index]}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
+        </div>
         {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
       </div>
       <span className="text-xs text-ink-faint">Quantità</span>
@@ -238,7 +251,10 @@ function OwnedArmorEditor({ sheet, onChange }: { sheet: Sheet; onChange: (items:
       const lastEquipped = Number(item.quantita ?? "1") <= 1 &&
         (item.indossato || item.impugnato || (sheet.scudo && armorForEquipment(item)?.category === "scudi"));
       return <div key={index} className="flex items-center gap-2 rounded-lg border border-line bg-card/70 px-3 py-2">
-        <span className="min-w-0 flex-1 text-sm font-medium text-ink">{item.nome}</span>
+        <span className="min-w-0 flex flex-1 flex-wrap items-center gap-x-2 gap-y-1 text-sm font-medium text-ink">
+          {item.nome}
+          <WarningLabel id={`avvisoOggetto:${index}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
+        </span>
         <span className="text-sm text-ink-soft">×{item.quantita ?? "1"}</span>
         {unlocked && <button type="button" disabled={lastEquipped} onClick={() => onChange(removeOwnedArmor(sheet.equipaggiamento, index))}
           aria-label={`Rimuovi una unità di ${item.nome}`}
@@ -357,6 +373,11 @@ export default function CharacterClient({
   const armorSelectionInfo = fieldInfo?.id === "armaturaSelezionata" ? { meaning: [armorBaseInfo?.meaning ?? "Nessuna armatura indossata.", ...carriedArmors.map((item) => `Trasportata: ${item.nome}. ${equipmentDetails(item.nome)?.meaning ?? ""}`)].filter(Boolean).join("\n\n"), rule: true, page: 219 } : null;
   const shieldSelectionInfo = fieldInfo?.id === "scudoSelezionato" ? { meaning: [shieldBaseInfo?.meaning ?? (sheet.scudo ? equipmentDetails("Scudo")?.meaning : "Nessuno scudo impugnato."), ...carriedShields.map((item) => `Trasportato: ${item.nome}. ${equipmentDetails(item.nome)?.meaning ?? ""}`)].filter(Boolean).join("\n\n"), rule: true, page: 219 } : null;
   const ownedWeaponIndex = fieldInfo?.id.startsWith("armaPosseduta:") ? Number(fieldInfo.id.slice("armaPosseduta:".length)) : -1;
+  const warningWeaponIndex = fieldInfo?.id.startsWith("avvisoArma:") ? Number(fieldInfo.id.slice("avvisoArma:".length)) : -1;
+  const warningObjectIndex = fieldInfo?.id.startsWith("avvisoOggetto:") ? Number(fieldInfo.id.slice("avvisoOggetto:".length)) : -1;
+  const warning = warningWeaponIndex >= 0 ? sheet.armi[warningWeaponIndex] && weaponWarning(sheet, sheet.armi[warningWeaponIndex])
+    : warningObjectIndex >= 0 ? sheet.equipaggiamento[warningObjectIndex] && equipmentWarning(sheet, sheet.equipaggiamento[warningObjectIndex]) : null;
+  const warningInfo = warning ? { meaning: warning.reason, rule: true, page: warning.page } : null;
   const ownedWeapon = ownedWeaponIndex >= 0 ? sheet.armi[ownedWeaponIndex] : null;
   const ownedWeaponBase = ownedWeapon ? weaponDetails(ownedWeapon.nome) : null;
   const ownedWeaponCalculation = ownedWeapon ? weaponAttack(sheet, ownedWeapon) : null;
@@ -387,7 +408,7 @@ export default function CharacterClient({
     rule: privilegeBase?.rule,
     page: privilegeBase?.page,
   } : null;
-  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true, page: language.page } : weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true, page: weaponByName(fieldInfo.id.slice("arma:".length))?.pages } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true, page: language.page } : warningInfo ?? weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true, page: weaponByName(fieldInfo.id.slice("arma:".length))?.pages } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -741,7 +762,7 @@ export default function CharacterClient({
           <div>
             <h3 className={sectionTitle}>Oggetti</h3>
             <p className="mb-2 text-sm text-ink-soft">Peso catalogato: {inventoryWeight(sheet).knownKg} kg{carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}{inventoryWeight(sheet).unknownItems.length ? `; peso non noto per ${inventoryWeight(sheet).unknownItems.length} voci` : ""}.</p>
-            <ObjectListEditor items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })} />
+            <ObjectListEditor sheet={sheet} items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })} />
           </div>
         </div>
       ),
