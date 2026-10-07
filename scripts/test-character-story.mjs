@@ -3,6 +3,15 @@ import { test } from "node:test";
 import { characterStory } from "../lib/characterStory.ts";
 import { emptySheet } from "../lib/sheet.ts";
 
+test("human species story explains Intraprendente's Heroic Inspiration", () => {
+  const sheet = emptySheet();
+  sheet.specie = "Umano";
+  const [creation] = characterStory(sheet);
+  const species = creation.events.find((event) => event.title === "Scelta specie: Umano");
+  assert.deepEqual(species?.details.find((item) => item.label === "Privilegio: Intraprendente")?.consequences,
+    ["Ottiene Ispirazione Eroica ogni volta che completa un riposo lungo"]);
+});
+
 test("ranger languages gained at level 2 appear in that chapter", () => {
   const sheet = emptySheet();
   sheet.classe = "Ranger";

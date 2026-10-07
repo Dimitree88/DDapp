@@ -85,9 +85,11 @@ function privilegeDetails(grants: Grant[], sheet: Sheet): StoryDetail[] {
       ? [chosen] : [];
     const choice = grant.name.toLocaleLowerCase("it") === "ordine primordiale" && option === "Custode"
       ? ["Armi da guerra", "Armature pesanti"] : [];
+    const humanInspiration = grant.name === "Intraprendente" && grant.source === "Specie: Umano"
+      ? ["Ottiene Ispirazione Eroica ogni volta che completa un riposo lungo"] : [];
     return {
       label: `Privilegio: ${grant.name}`,
-      consequences: unique([...(option ? [`Scelta: ${option}`] : []), ...(mastery ? [`Maestria: ${mastery}`] : []), ...named, ...choice, ...resources, ...competencies, ...spellChoices, ...pendingMastery]),
+      consequences: unique([...(option ? [`Scelta: ${option}`] : []), ...(mastery ? [`Maestria: ${mastery}`] : []), ...named, ...choice, ...humanInspiration, ...resources, ...competencies, ...spellChoices, ...pendingMastery]),
     };
   });
 }

@@ -18,6 +18,7 @@ const reminders: Record<string, OperationalReminder> = {
   trance: note("Completi un riposo lungo in 4 ore di trance, restando cosciente; la magia non può farti dormire."),
   "lignaggio elfo alto": note("Dopo ogni riposo lungo puoi sostituire il trucchetto del lignaggio con un altro trucchetto da mago."),
   "iniziato alla magia": note("Puoi lanciare l’incantesimo scelto una volta senza slot per riposo lungo, oppure usando uno slot. Quando sali di livello puoi sostituire un incantesimo scelto con uno dello stesso livello e della stessa lista."),
+  "lavoro manuale": note("Quando acquisti un oggetto non magico, ottieni il 20% di sconto."),
   "astuzia gnomesca": note("Hai vantaggio ai tiri salvezza su Intelligenza, Saggezza e Carisma."),
   "agilità halfling": note("Puoi attraversare lo spazio di una creatura più grande di te, senza fermarti lì."),
   coraggioso: note("Hai vantaggio ai tiri salvezza per evitare o terminare la condizione spaventato su di te."),

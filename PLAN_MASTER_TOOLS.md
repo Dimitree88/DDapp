@@ -234,6 +234,12 @@ esplicito. La conferma è **una sola operazione di gruppo**: aggiorna tutte
 le schede ammesse e scrive un evento per ciascuna, collegato allo stesso
 riposo della Sessione. Un errore non lascia metà gruppo aggiornato. La
 chiusura della Sessione, da sola, non esegue questo comando.
+Per un personaggio Umano con Intraprendente, il completamento del riposo lungo
+conferisce automaticamente Ispirazione eroica (p. 197). Se la possiede già,
+non si accumula: nell'anteprima offrire il trasferimento a un altro personaggio
+giocante del gruppo che ne è privo (p. 13), senza sostituire o consumare
+l'Ispirazione del personaggio che ha riposato. Registrare l'esito nello storico
+e applicarlo una sola volta anche nel riposo collettivo.
 Il riposo mostra anche le scelte modificabili in quel preciso momento: una
 forma conosciuta del Druido può essere sostituita al termine del riposo lungo
 (p. 81); il tipo di arma scelto con il talento Maestro d'armi può cambiare
@@ -398,6 +404,9 @@ esplicita verificata, non un editor libero nella pagina Incantesimi.
   Sessione. Applica solo benefici consentiti e ricariche verificate; risorse
   con recupero diverso restano distinte. I dati personali e le scelte
   permanenti non vengono cancellati.
+- Il riposo lungo di un Umano con Intraprendente assegna Ispirazione eroica se
+  assente; se già presente, offre il trasferimento a un personaggio giocante
+  idoneo senza accumularla o applicare due volte il beneficio.
 - Il comando guidato di uso di una risorsa rifiuta capacità non possedute,
   usi esauriti e richieste duplicate. Il riposo propone soltanto le scelte
   modificabili in quel momento, tra cui una forma conosciuta del Druido,

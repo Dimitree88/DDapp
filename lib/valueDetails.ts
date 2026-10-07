@@ -86,7 +86,7 @@ const feats: Record<string, string> = {
   Allerta: "Aggiunge il bonus di competenza all'Iniziativa; questo effetto è già calcolato nella scheda.",
   "Iniziato alla magia": "Concede due trucchetti e un incantesimo di 1° livello da una lista scelta.",
   Guaritore: "Permette di usare una borsa da guaritore per curare e di migliorare i dadi di guarigione.",
-  "Lavoro manuale": "Concede competenza negli strumenti da artigiano scelti e agevola la creazione di oggetti.",
+  "Lavoro manuale": "Concede competenza in tre strumenti da artigiano scelti, il 20% di sconto sull'acquisto di oggetti non magici e la possibilità di fabbricare uno strumento dopo un riposo lungo, se si hanno gli strumenti necessari e la relativa competenza.",
   Musicista: "Concede competenza in tre strumenti musicali a scelta. Dopo un riposo breve o lungo, una canzone può dare Ispirazione Eroica a un numero di alleati pari al bonus di competenza.",
   "Adepto elementale": "Richiede Incantesimi o Magia del patto. Consente di scegliere un tipo di danno elementale i cui incantesimi ignorano la resistenza; è ripetibile scegliendo ogni volta un tipo diverso.",
   "Aumento dei punteggi di caratteristica": "Aumenta i punteggi di caratteristica scelti, entro il limite previsto dal talento.",
