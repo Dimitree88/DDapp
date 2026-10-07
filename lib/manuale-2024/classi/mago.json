@@ -4,5 +4,575 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:mago",
+      "tipo": "classe",
+      "nome": "Mago",
+      "testo": [
+        {
+          "pagina": 111,
+          "da": "MAGHI SONO NOTI PER IL LORO ESAUSTIVO STUDIO",
+          "includiDa": true,
+          "a": "Privilegi di Classe del Mago"
+        }
+      ],
+      "correzioni": [
+        [
+          "MAGHI SONO NOTI PER IL LORO ESAUSTIVO STUDIO\n\n1 e tempeste di fulmini, ma anche orchestrare inganni e dare origine a spettacolari trasformazioni. Grazie ai loro incantes1m1, possono causare esplos10m d1 fuoco dellama4ia.e dei suoi meccanismi inLer3i..Coniloro\n\npoteri possono chiamare a sé mostri",
+          "I maghi sono noti per il loro esaustivo studio della magia e dei suoi meccanismi interni. Con i loro incantesimi, possono causare esplosioni di fuoco e tempeste di fulmini, ma anche orchestrare inganni e dare origine a spettacolari trasformazioni. Grazie ai loro poteri possono chiamare a sé mostri"
+        ],
+        ["DI 1o LIVELLO", "DI 1° LIVELLO"]
+      ],
+      "pagina": 111,
+      "pagine": [112, 113],
+      "tabelle": [
+        {
+          "titolo": "Tratti del mago",
+          "pagina": 111,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Intelligenza"],
+            ["Dado Vita", "D6 per ogni livello da mago"],
+            ["Competenze nei tiri salvezza", "Intelligenza e Saggezza"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Arcano, Indagare, Intuizione, Medicina, Natura, Religione o Storia"
+            ],
+            ["Competenza nelle armi", "Armi semplici"],
+            ["Competenza nelle armature", "Nessuno"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) 2 pugnali, focus arcano (bastone ferrato), veste, libro degli incantesimi, dotazione da studioso e 5 mo; o (B) 55 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del mago",
+          "pagina": 113,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Trucchetti",
+            "Incantesimi preparati",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "righe": [
+            [
+              "1",
+              "+2",
+              "Incantesimi, adepto dei rituali, recupero arcano",
+              "3",
+              "4",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["2", "+2", "Studioso", "3", "5", "3", "—", "—", "—", "—", "—", "—", "—", "—"],
+            ["3", "+2", "Sottoclasse del mago", "3", "6", "4", "2", "—", "—", "—", "—", "—", "—", "—"],
+            [
+              "4",
+              "+2",
+              "Aumento dei punteggi di caratteristica",
+              "4",
+              "7",
+              "4",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["5", "+3", "Memorizzare incantesimi", "4", "9", "4", "3", "2", "—", "—", "—", "—", "—", "—"],
+            [
+              "6",
+              "+3",
+              "Privilegio della sottoclasse",
+              "4",
+              "10",
+              "4",
+              "3",
+              "3",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["7", "+3", "—", "4", "11", "4", "3", "3", "1", "—", "—", "—", "—", "—"],
+            [
+              "8",
+              "+3",
+              "Aumento dei punteggi di caratteristica",
+              "4",
+              "12",
+              "4",
+              "3",
+              "3",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["9", "+4", "—", "4", "14", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
+            [
+              "10",
+              "+4",
+              "Privilegio della sottoclasse",
+              "5",
+              "15",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["11", "+4", "—", "5", "16", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            [
+              "12",
+              "+4",
+              "Aumento dei punteggi di caratteristica",
+              "5",
+              "16",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "—",
+              "—",
+              "—"
+            ],
+            ["13", "+5", "—", "5", "17", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            [
+              "14",
+              "+5",
+              "Privilegio della sottoclasse",
+              "5",
+              "18",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "—",
+              "—"
+            ],
+            ["15", "+5", "—", "5", "19", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
+            [
+              "16",
+              "+5",
+              "Aumento dei punteggi di caratteristica",
+              "5",
+              "21",
+              "4",
+              "3",
+              "3",
+              "3",
+              "2",
+              "1",
+              "1",
+              "1",
+              "—"
+            ],
+            ["17", "+6", "—", "5", "22", "4", "3", "3", "3", "2", "1", "1", "1", "1"],
+            ["18", "+6", "Maestria negli incantesimi", "5", "23", "4", "3", "3", "3", "3", "1", "1", "1", "1"],
+            ["19", "+6", "Dono epico", "5", "24", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
+            ["20", "+6", "Incantesimi personali", "5", "25", "4", "3", "3", "3", "3", "2", "2", "1", "1"]
+          ]
+        }
+      ],
+      "dadoVita": "D6",
+      "caratteristicaPrimaria": "Intelligenza",
+      "tiriSalvezza": ["INT", "SAG"],
+      "competenze": {
+        "abilita": {
+          "numero": 2,
+          "scelte": ["Arcano", "Indagare", "Intuizione", "Medicina", "Natura", "Religione", "Storia"]
+        },
+        "armi": ["Armi semplici"],
+        "armature": [],
+        "strumenti": []
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) 2 pugnali, focus arcano (bastone ferrato), veste, libro degli incantesimi, dotazione da studioso e 5 mo; o (B) 55 mo",
+      "privilegi": [
+        {
+          "id": "classe:mago:privilegio:1-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 1,
+          "testo": [
+            { "pagina": 111, "da": "Livello 1: Incantesimi", "a": "Privilegi del mago", "na": 4 },
+            {
+              "pagina": 112,
+              "da": "Il numero di incantesimi nella lista aumenta",
+              "includiDa": true,
+              "a": "Slot incantesimo per livello"
+            }
+          ],
+          "correzioni": [
+            [
+              "a scelta.\n\nSono consigliati luce, manomagica e raggio digelo.",
+              "a scelta. Sono consigliati luce, mano magica e raggio di gelo."
+            ],
+            ["Slotincantesimo.", "Slot incantesimo."],
+            ["Cambiare gli incantesimipreparati.", "Cambiare gli incantesimi preparati."],
+            ["per i propri incantesimi da mago.\n\n-", "per i propri incantesimi da mago."]
+          ],
+          "pagina": 111,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:1-adepto-dei-rituali",
+          "nome": "Adepto dei Rituali",
+          "livello": 1,
+          "testo": [{ "pagina": 112, "da": "Livello 1: Adepto dei Rituali", "a": "Livello 1: Recupero Arcano" }],
+          "pagina": 112,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:1-recupero-arcano",
+          "nome": "Recupero Arcano",
+          "livello": 1,
+          "testo": [{ "pagina": 112, "da": "Livello 1: Recupero Arcano", "a": "Livello 2: Studioso" }],
+          "pagina": 112,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:2-studioso",
+          "nome": "Studioso",
+          "livello": 2,
+          "testo": [{ "pagina": 112, "da": "Livello 2: Studioso", "a": "Livello 3: Sottoclasse del Mago" }],
+          "pagina": 112,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:3-sottoclasse-del-mago",
+          "nome": "Sottoclasse del Mago",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 113,
+              "da": "Livello 3: Sottoclasse del Mago",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 113,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 113,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Memorizzare Incantesimi"
+            }
+          ],
+          "pagina": 113,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:5-memorizzare-incantesimi",
+          "nome": "Memorizzare Incantesimi",
+          "livello": 5,
+          "testo": [
+            {
+              "pagina": 113,
+              "da": "Livello 5: Memorizzare Incantesimi",
+              "a": "Livello 18: Maestria negli Incantesimi"
+            }
+          ],
+          "pagina": 113,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:18-maestria-negli-incantesimi",
+          "nome": "Maestria negli Incantesimi",
+          "livello": 18,
+          "testo": [{ "pagina": 113, "da": "Livello 18: Maestria negli Incantesimi", "a": "Livello 19: Dono Epico" }],
+          "pagina": 113,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 113, "da": "Livello 19: Dono Epico", "a": "Livello 20: Incantesimi Personali" }],
+          "pagina": 113,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:privilegio:20-incantesimi-personali",
+          "nome": "Incantesimi Personali",
+          "livello": 20,
+          "testo": [{ "pagina": 113, "da": "Livello 20: Incantesimi Personali", "finePagina": true }],
+          "pagina": 113,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:mago:sottoclasse:abiuratore",
+      "tipo": "sottoclasse",
+      "classe": "Mago",
+      "nome": "Abiuratore",
+      "testo": [{ "pagina": 118, "da": "Abiuratore", "n": 2, "a": "Livello 3: Abiuratore Sapiente" }],
+      "correzioni": [["Difendiglialleatie sgomina inemici Il mago", "Difendi gli alleati e sgomina i nemici\n\nIl mago"]],
+      "pagina": 118,
+      "privilegi": [
+        {
+          "id": "classe:mago:sottoclasse:abiuratore:privilegio:3-abiuratore-sapiente",
+          "nome": "Abiuratore Sapiente",
+          "livello": 3,
+          "testo": [{ "pagina": 118, "da": "Livello 3: Abiuratore Sapiente", "a": "Livello 3: Interdizione Arcana" }],
+          "pagina": 118,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:abiuratore:privilegio:3-interdizione-arcana",
+          "nome": "Interdizione Arcana",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 118,
+              "da": "Livello 3: Interdizione Arcana",
+              "a": "Livello 6: Interdizione Proiettata"
+            }
+          ],
+          "pagina": 118,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:abiuratore:privilegio:6-interdizione-proiettata",
+          "nome": "Interdizione Proiettata",
+          "livello": 6,
+          "testo": [{ "pagina": 118, "da": "Livello 6: Interdizione Proiettata", "a": "Livello 10: Spezzamagia" }],
+          "pagina": 118,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:abiuratore:privilegio:10-spezzamagia",
+          "nome": "Spezzamagia",
+          "livello": 10,
+          "testo": [{ "pagina": 119, "da": "Livello 10: Spezzamagia", "a": "Livello 14: Resistenza agli Incantesimi" }],
+          "pagina": 119,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:abiuratore:privilegio:14-resistenza-agli-incantesimi",
+          "nome": "Resistenza agli Incantesimi",
+          "livello": 14,
+          "testo": [{ "pagina": 119, "da": "Livello 14: Resistenza agli Incantesimi", "a": "Divinatore" }],
+          "pagina": 119,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:mago:sottoclasse:divinatore",
+      "tipo": "sottoclasse",
+      "classe": "Mago",
+      "nome": "Divinatore",
+      "testo": [{ "pagina": 119, "da": "Divinatore", "a": "Livello 3: Divinatore Sapiente" }],
+      "correzioni": [["Apprendi isegreti del multiverso Chiunque", "Apprendi i segreti del multiverso\n\nChiunque"]],
+      "pagina": 119,
+      "privilegi": [
+        {
+          "id": "classe:mago:sottoclasse:divinatore:privilegio:3-divinatore-sapiente",
+          "nome": "Divinatore Sapiente",
+          "livello": 3,
+          "testo": [{ "pagina": 119, "da": "Livello 3: Divinatore Sapiente", "a": "Livello 3: Portento" }],
+          "pagina": 119,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:divinatore:privilegio:3-portento",
+          "nome": "Portento",
+          "livello": 3,
+          "testo": [{ "pagina": 119, "da": "Livello 3: Portento", "a": "Livello 6: Divinazione Esperta" }],
+          "pagina": 119,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:divinatore:privilegio:6-divinazione-esperta",
+          "nome": "Divinazione Esperta",
+          "livello": 6,
+          "testo": [{ "pagina": 119, "da": "Livello 6: Divinazione Esperta", "a": "Livello 10: Terzo Occhio" }],
+          "pagina": 119,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:divinatore:privilegio:10-terzo-occhio",
+          "nome": "Terzo Occhio",
+          "livello": 10,
+          "testo": [{ "pagina": 119, "da": "Livello 10: Terzo Occhio", "a": "Livello 14: Portento Superiore" }],
+          "pagina": 119,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:divinatore:privilegio:14-portento-superiore",
+          "nome": "Portento Superiore",
+          "livello": 14,
+          "testo": [{ "pagina": 119, "da": "Livello 14: Portento Superiore", "a": "Illusionista" }],
+          "pagina": 119,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:mago:sottoclasse:illusionista",
+      "tipo": "sottoclasse",
+      "classe": "Mago",
+      "nome": "Illusionista",
+      "testo": [{ "pagina": 120, "da": "Illusionista", "a": "Livello 3: Illusioni Migliorate" }],
+      "correzioni": [
+        [
+          "Plasma i tuoi incantesimiper architettare inganni Il mago",
+          "Plasma i tuoi incantesimi per architettare inganni\n\nIl mago"
+        ]
+      ],
+      "pagina": 120,
+      "privilegi": [
+        {
+          "id": "classe:mago:sottoclasse:illusionista:privilegio:3-illusioni-migliorate",
+          "nome": "Illusioni Migliorate",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 120,
+              "da": "Livello 3: Illusioni Migliorate",
+              "a": "Livello 3: Illusionista Sapiente"
+            }
+          ],
+          "correzioni": [["illusioneminore", "illusione minore"]],
+          "pagina": 120,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:illusionista:privilegio:3-illusionista-sapiente",
+          "nome": "Illusionista Sapiente",
+          "livello": 3,
+          "testo": [{ "pagina": 120, "da": "Livello 3: Illusionista Sapiente", "a": "Livello 6: Creature Spettrali" }],
+          "pagina": 120,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:illusionista:privilegio:6-creature-spettrali",
+          "nome": "Creature Spettrali",
+          "livello": 6,
+          "testo": [{ "pagina": 120, "da": "Livello 6: Creature Spettrali", "a": "Livello 10: Sosia Illusorio" }],
+          "correzioni": [["richiamafollettosono", "richiama folletto sono"]],
+          "pagina": 120,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:illusionista:privilegio:10-sosia-illusorio",
+          "nome": "Sosia Illusorio",
+          "livello": 10,
+          "testo": [{ "pagina": 120, "da": "Livello 10: Sosia Illusorio", "a": "Livello 14: Realtà Illusoria" }],
+          "pagina": 120,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:illusionista:privilegio:14-realta-illusoria",
+          "nome": "Realtà Illusoria",
+          "livello": 14,
+          "testo": [{ "pagina": 120, "da": "Livello 14: Realtà Illusoria", "a": "Invocatore" }],
+          "pagina": 120,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:mago:sottoclasse:invocatore",
+      "tipo": "sottoclasse",
+      "classe": "Mago",
+      "nome": "Invocatore",
+      "testo": [{ "pagina": 121, "da": "Invocatore", "a": "Livello 3: Invocatore Sapiente" }],
+      "correzioni": [
+        [
+          "Crea effettielementali esplosivi Un invocatore",
+          "Crea effetti elementali esplosivi\n\nUn invocatore"
+        ]
+      ],
+      "pagina": 121,
+      "privilegi": [
+        {
+          "id": "classe:mago:sottoclasse:invocatore:privilegio:3-invocatore-sapiente",
+          "nome": "Invocatore Sapiente",
+          "livello": 3,
+          "testo": [{ "pagina": 121, "da": "Livello 3: Invocatore Sapiente", "a": "Livello 3: Trucchetto Potente" }],
+          "pagina": 121,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:invocatore:privilegio:3-trucchetto-potente",
+          "nome": "Trucchetto Potente",
+          "livello": 3,
+          "testo": [{ "pagina": 121, "da": "Livello 3: Trucchetto Potente", "a": "Livello 6: Plasmare Incantesimi" }],
+          "pagina": 121,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:invocatore:privilegio:6-plasmare-incantesimi",
+          "nome": "Plasmare Incantesimi",
+          "livello": 6,
+          "testo": [{ "pagina": 121, "da": "Livello 6: Plasmare Incantesimi", "a": "Livello 10: Invocazione Potente" }],
+          "pagina": 121,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:invocatore:privilegio:10-invocazione-potente",
+          "nome": "Invocazione Potente",
+          "livello": 10,
+          "testo": [{ "pagina": 121, "da": "Livello 10: Invocazione Potente", "a": "Livello 14: Saturazione Magica" }],
+          "pagina": 121,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:mago:sottoclasse:invocatore:privilegio:14-saturazione-magica",
+          "nome": "Saturazione Magica",
+          "livello": 14,
+          "testo": [{ "pagina": 121, "da": "Livello 14: Saturazione Magica" }],
+          "pagina": 121,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }

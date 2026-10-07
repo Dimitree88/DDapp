@@ -1,10 +1,10 @@
 {
   "id": "C09",
-  "stato": "da_fare",
-  "assegnatoA": null,
-  "branch": null,
-  "presoInCarico": null,
-  "ultimoAggiornamento": null,
-  "evidenza": null,
-  "commitCompletamento": null
+  "stato": "completato",
+  "assegnatoA": "Claude Opus 5.5 (Claude Code) @ Omen",
+  "branch": "manuale-2024/C09",
+  "presoInCarico": "2026-10-07T15:29:54Z",
+  "ultimoAggiornamento": "2026-10-07T15:38:01Z",
+  "evidenza": "docs/adeguamento-2024/evidenze/C09.md",
+  "commitCompletamento": "f3c05e2"
 }
