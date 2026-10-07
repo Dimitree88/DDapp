@@ -1,6 +1,7 @@
 import { sqliteTable, text, integer, index } from "drizzle-orm/sqlite-core";
 import type { Sheet } from "../sheet";
 import type { HistoryChange } from "../history";
+import type { CreatureData } from "../creature";
 
 export const characters = sqliteTable("characters", {
   id: text("id").primaryKey(),
@@ -16,6 +17,20 @@ export const characters = sqliteTable("characters", {
 });
 
 export type CharacterRow = typeof characters.$inferSelect;
+
+export const creatures = sqliteTable("creatures", {
+  id: text("id").primaryKey(),
+  name: text("name").notNull(),
+  data: text("data", { mode: "json" }).notNull().$type<CreatureData>(),
+  createdAt: integer("created_at", { mode: "timestamp" })
+    .notNull()
+    .$defaultFn(() => new Date()),
+  updatedAt: integer("updated_at", { mode: "timestamp" })
+    .notNull()
+    .$defaultFn(() => new Date()),
+});
+
+export type CreatureRow = typeof creatures.$inferSelect;
 
 export const characterHistory = sqliteTable("character_history", {
   id: text("id").primaryKey(),

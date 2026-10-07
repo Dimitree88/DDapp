@@ -1,16 +1,16 @@
 import { asc } from "drizzle-orm";
 import Link from "next/link";
 import { db } from "@/lib/db";
-import { characters } from "@/lib/db/schema";
+import { characters, creatures } from "@/lib/db/schema";
 import { CharacterCard } from "@/components/CharacterCard";
 
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const list = await db
-    .select({ id: characters.id, name: characters.name })
-    .from(characters)
-    .orderBy(asc(characters.name));
+  const [list, creatureList] = await Promise.all([
+    db.select({ id: characters.id, name: characters.name }).from(characters).orderBy(asc(characters.name)),
+    db.select({ id: creatures.id, name: creatures.name, data: creatures.data }).from(creatures).orderBy(asc(creatures.name)),
+  ]);
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col px-5 py-8">
@@ -37,9 +37,17 @@ export default async function Home() {
 
       <section className="mt-6 flex flex-col gap-3" aria-labelledby="creatures-title">
         <h2 id="creatures-title" className="text-lg font-bold text-ink">Creature</h2>
-        <p className="rounded-xl border border-line bg-card/60 px-4 py-6 text-center text-sm text-ink-soft">
-          Nessuna creatura presente.
-        </p>
+        {creatureList.length === 0 && (
+          <p className="rounded-xl border border-line bg-card/60 px-4 py-6 text-center text-sm text-ink-soft">
+            Nessuna creatura presente.
+          </p>
+        )}
+        {creatureList.map((creature) => (
+          <Link key={creature.id} href={`/creatura/${creature.id}`} className="rounded-xl border border-line bg-card/70 px-4 py-4 shadow-sm active:bg-card">
+            <span className="block text-lg font-semibold text-ink">{creature.name}</span>
+            <span className="text-sm text-ink-soft">{creature.data.size} · {creature.data.creatureType} · CA {creature.data.armorClass} · PF {creature.data.hitPointsCurrent}/{creature.data.hitPointsMax}</span>
+          </Link>
+        ))}
       </section>
     </div>
   );
