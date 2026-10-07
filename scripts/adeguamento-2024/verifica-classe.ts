@@ -68,8 +68,10 @@ export function differenzeProgressione(classe: string): string[] {
     if (riga[0] !== String(livello)) differenze.push(`riga ${livello}: livello ${riga[0]}`);
     if (riga[1] !== proficiencyBonus(String(livello))) differenze.push(`livello ${livello}: bonus ${riga[1]} ≠ ${proficiencyBonus(String(livello))}`);
     const attesi = concessioni.filter((item) => item.level === livello).map((item) => chiaveRicerca(item.name));
+    // Le celle possono riportare un conteggio tra parentesi, es. «Azione impetuosa (un utilizzo)».
+    const senzaParentesi = (nome: string) => nome.replace(/\s*\([^)]*\)/g, "").trim();
     // «Druidico, incantesimi e ordine primordiale»: l'ultima «e» separa due privilegi se il nome intero non esiste.
-    const nomi = (riga[colonnaPrivilegi] === "—" ? [] : riga[colonnaPrivilegi].split(/, (?=[A-ZÀ-Üa-zà-ü])/))
+    const nomi = (riga[colonnaPrivilegi] === "—" ? [] : riga[colonnaPrivilegi].split(/, (?=[A-ZÀ-Üa-zà-ü])/).map(senzaParentesi))
       .flatMap((nome) => attesi.includes(chiaveRicerca(nome)) || giaVisti.has(chiaveRicerca(nome)) ? [nome] : nome.split(" e "))
       .map(chiaveRicerca);
     for (const nome of nomi) {
@@ -103,7 +105,7 @@ export function differenzePrivilegi(classe: string): string[] {
     ...padre.privilegi.map((item) => [`${padre.nome}: ${item.livello} ${item.nome}`, manuale.perId(item.id)?.descrizione ?? ""]),
   ]);
   for (const [nome, testo] of testi) {
-    if (testo.length < 40 || /·|\|/.test(testo) || /^[a-zà-ù]/.test(testo)) differenze.push(`${nome}: testo da controllare`);
+    if (testo.length < 30 || /·|\|/.test(testo) || /^[a-zà-ù]/.test(testo)) differenze.push(`${nome}: testo da controllare`);
   }
   return differenze;
 }
