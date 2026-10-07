@@ -9,7 +9,7 @@ export const dynamic = "force-dynamic";
 export default async function Home() {
   const [list, creatureList] = await Promise.all([
     db.select({ id: characters.id, name: characters.name }).from(characters).orderBy(asc(characters.name)),
-    db.select({ id: creatures.id, name: creatures.name, data: creatures.data }).from(creatures).orderBy(asc(creatures.name)),
+    db.select({ id: creatures.id, name: creatures.name }).from(creatures).orderBy(asc(creatures.name)),
   ]);
 
   return (
@@ -43,9 +43,9 @@ export default async function Home() {
           </p>
         )}
         {creatureList.map((creature) => (
-          <Link key={creature.id} href={`/creatura/${creature.id}`} className="rounded-xl border border-line bg-card/70 px-4 py-4 shadow-sm active:bg-card">
-            <span className="block text-lg font-semibold text-ink">{creature.name}</span>
-            <span className="text-sm text-ink-soft">{creature.data.size} · {creature.data.creatureType} · CA {creature.data.armorClass} · PF {creature.data.hitPointsCurrent}/{creature.data.hitPointsMax}</span>
+          <Link key={creature.id} href={`/creatura/${creature.id}`} className="flex items-center justify-between rounded-xl border border-line bg-card/70 px-4 py-4 shadow-sm active:bg-card">
+            <span className="text-lg font-semibold text-ink">{creature.name}</span>
+            <span className="text-accent" aria-hidden>›</span>
           </Link>
         ))}
       </section>

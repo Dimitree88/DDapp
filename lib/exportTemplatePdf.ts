@@ -5,12 +5,19 @@ import type { Sheet } from "./sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
 import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
 import { spellDetails } from "./spells";
-import { carryingCapacity, inventoryWeight } from "./inventoryWeight";
 import { displayedArmorClass } from "./armorClass";
+import { featGrants, grantedPrivileges } from "./characterGrants";
 
 type Mapping = (typeof fields)[number];
 
-function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boolean | undefined {
+function compactCastingTime(value: string): string {
+  if (value.startsWith("reazione,")) return "reazione";
+  if (value.startsWith("azione bonus che ")) return "azione bonus";
+  if (value.startsWith("azione (") && value.includes(" o 8 ore")) return "azione / 8 ore";
+  return value;
+}
+
+function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet["incantesimi"]): string | boolean | undefined {
   const source = mapping.source;
   if (source === "name") return name;
   if (source === "sheet.privilegi" || source === "sheet.talenti" || source === "sheet.equipaggiamento") return undefined;
@@ -53,13 +60,13 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet): string | boo
       const value = item[array[3] as keyof typeof item];
       return typeof value === "number" ? String(value) : value;
     }
-    const item = sheet.incantesimi[index];
+    const item = spells[index];
     if (!item) return undefined;
     const detail = spellDetails(item.nome);
     if (array[3] === "livello") return detail?.livello === 0 ? "T" : String(detail?.livello ?? "");
-    if (array[3] === "tempo") return detail?.tempo;
+    if (array[3] === "tempo") return detail?.tempo ? compactCastingTime(detail.tempo) : undefined;
     if (array[3] === "gittata") return detail?.gittata;
-    if (array[3] === "note") return [item.stato, item.fonte].filter(Boolean).join(" · ");
+    if (array[3] === "note") return item.stato === "preparato" || item.stato === "semprePreparato" ? "preparato" : "";
     if (array[3] === "concentrazione") return Boolean(detail?.durata.startsWith("concentrazione"));
     if (array[3] === "rituale") return Boolean(detail?.tempo.includes("rituale"));
     if (array[3] === "materiali") return Boolean(detail?.componenti.includes("M"));
@@ -107,13 +114,17 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   });
   const measure = (text: string, size: number) => font.widthOfTextAtSize(text, size);
   const byField = new Map(fields.map((field) => [field.field, field]));
+  const spells = [...sheet.incantesimi].sort((a, b) =>
+    (spellDetails(a.nome)?.livello ?? Infinity) - (spellDetails(b.nome)?.livello ?? Infinity)
+    || a.nome.localeCompare(b.nome, "it", { sensitivity: "base" }));
   const draw = (mapping: Mapping, value: string) => {
     const page = pages[mapping.page];
     const width = Math.max(1, mapping.width - 4);
     const multiline = mapping.field.startsWith("textarea_");
-    if (multiline) {
-      const size = 7;
-      const limit = Math.max(1, Math.floor((mapping.height - 4) / (size * 1.2)));
+    if (multiline || mapping.source.endsWith(".tempo")) {
+      let size = 7;
+      while (size > 4 && wrappedLines(value, width, size, measure).length * size * 1.2 > mapping.height - 3) size -= 0.5;
+      const limit = Math.max(1, Math.floor((mapping.height - 3) / (size * 1.2)));
       wrappedLines(value, width, size, measure).slice(0, limit).forEach((line, index) => {
         page.drawText(line, { x: mapping.x + 2, y: page.getHeight() - mapping.y - 2 - size - index * size * 1.2, size, font, color: rgb(0, 0, 0) });
       });
@@ -137,60 +148,51 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   // The form uses arbitrary Sejda field names. The reviewed mapping is kept
   // separate from the rendering logic so coordinates never depend on array order.
   for (const mapping of fields) {
-    const value = sourceValue(mapping, name, sheet);
+    const value = sourceValue(mapping, name, sheet, spells);
     if (value === undefined || value === "" || value === false) continue;
     if (mapping.type === "CheckBox") {
       if (value === true) check(mapping);
     } else draw(mapping, String(value));
   }
 
-  // Privilegi occupy two columns: flow the wrapped lines into the second.
-  const privileges = sheet.privilegi.map((item) => item.scelte ? `${item.titolo}: ${item.scelte}` : item.titolo);
+  const grants = grantedPrivileges(sheet);
+  const sameName = (a: string, b: string) => a.localeCompare(b, "it", { sensitivity: "base" }) === 0;
+  const recordedPrivileges = sheet.privilegi.filter((item) => !grants.some((grant) => sameName(item.titolo, grant.name)));
+  const formatItem = (title: string, choices?: string) => `- ${title}${choices ? `: ${choices}` : ""}`;
+  const grantLine = (grant: (typeof grants)[number]) => formatItem(grant.name, sheet.privilegi.find((item) => sameName(item.titolo, grant.name))?.scelte);
+  const privileges = [
+    ...grants.filter((grant) => !grant.source.startsWith("Specie:") && !grant.source.startsWith("Lignaggio:")).map(grantLine),
+    ...recordedPrivileges.map((item) => formatItem(item.titolo, item.scelte)),
+  ];
   if (privileges.length) {
     const first = byField.get("textarea_140vxzv")!;
     const second = byField.get("textarea_141pxvh")!;
-    const lines = wrappedLines(privileges.join("\n"), first.width - 4, 7, measure);
-    const perColumn = Math.floor((first.height - 4) / (7 * 1.2));
-    draw(first, lines.slice(0, perColumn).join("\n"));
-    draw(second, lines.slice(perColumn, perColumn * 2).join("\n"));
-  }
-  if (sheet.talenti.length) draw(byField.get("textarea_143mcko")!, sheet.talenti.map((item) => item.scelte ? `${item.nome}: ${item.scelte}` : item.nome).join("\n"));
-  if (sheet.equipaggiamento.length) draw(byField.get("textarea_165hxzs")!, sheet.equipaggiamento.map((item) => `${item.nome}${item.quantita ? ` ×${item.quantita}${item.unita ? ` ${item.unita}` : ""}` : ""}${item.indossato ? " (indossata)" : item.impugnato ? " (impugnato)" : ""}`).join("\n"));
-
-  // Il modello originale ha campi corti: un'appendice conserva le informazioni
-  // strutturate che altrimenti verrebbero tagliate senza alcun segnale.
-  const appendix: string[] = [];
-  const addSection = (title: string, lines: string[]) => {
-    if (lines.length) appendix.push(title.toUpperCase(), ...lines, "");
-  };
-  addSection("Stato e risorse", [
-    ...Object.entries(sheet.slotSpesi ?? {}).filter(([, spent]) => spent > 0).map(([level, spent]) => `Slot livello ${level} spesi: ${spent}`),
-  ].filter(Boolean));
-  addSection("Armi oltre le sei righe del modello", sheet.armi.slice(6).map((item) => `${item.nome} ×${item.quantita || 1}; attacco ${displayedWeaponAttack(sheet, item)}; danno ${weaponAttack(sheet, item)?.damage ?? "—"}`));
-  addSection("Incantesimi oltre le trenta righe del modello", sheet.incantesimi.slice(30).map((item) => [item.nome, item.fonte, item.stato].filter(Boolean).join(" · ")));
-  addSection("Inventario completo", sheet.equipaggiamento.map((item) => [item.nome, item.quantita ? `×${item.quantita}` : "", item.unita, item.contenitore ? `in ${item.contenitore}` : "", item.dettaglio].filter(Boolean).join(" · ")));
-  addSection("Competenze negli strumenti", sheet.competenzeStrumenti ?? []);
-  addSection("Privilegi completi", privileges);
-  addSection("Risorse dei privilegi", (sheet.risorse ?? []).map((resource) => `${resource.nome}: ${resource.massimo - resource.spesi}/${resource.massimo}; fonte ${resource.fonte}${resource.ricarica ? `; ricarica ${resource.ricarica}` : ""}`));
-  addSection("Fonti delle competenze", (sheet.fontiCompetenze ?? []).map((record) => `${record.valore} (${record.tipo}): ${record.fonte}`));
-  addSection("Talenti completi", sheet.talenti.map((item) => item.scelte ? `${item.nome}: ${item.scelte}` : item.nome));
-  const weight = inventoryWeight(sheet);
-  if (weight.knownKg || weight.unknownItems.length) appendix.push(`Peso catalogato: ${weight.knownKg} kg${carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}${weight.unknownItems.length ? `; peso sconosciuto: ${weight.unknownItems.join(", ")}` : ""}`);
-  if (appendix.length) {
-    const pageSize: [number, number] = [595.28, 841.89];
-    let page = pdf.addPage(pageSize);
-    let y = pageSize[1] - 45;
-    const lineHeight = 11;
-    page.drawText("Appendice alla scheda", { x: 40, y, font, size: 14, color: rgb(0, 0, 0) });
-    y -= 26;
-    for (const line of appendix) {
-      for (const wrapped of wrappedLines(line, pageSize[0] - 80, 8, measure)) {
-        if (y < 40) { page = pdf.addPage(pageSize); y = pageSize[1] - 45; }
-        if (wrapped) page.drawText(wrapped, { x: 40, y, font, size: 8, color: rgb(0, 0, 0) });
-        y -= lineHeight;
-      }
+    let size = 7;
+    let lines = wrappedLines(privileges.join("\n"), first.width - 4, size, measure);
+    while (size > 4 && lines.length > 2 * Math.floor((first.height - 4) / (size * 1.2))) {
+      size -= 0.5;
+      lines = wrappedLines(privileges.join("\n"), first.width - 4, size, measure);
     }
+    const perColumn = Math.floor((first.height - 4) / (size * 1.2));
+    const drawColumn = (mapping: Mapping, content: string[]) => content.slice(0, perColumn).forEach((line, index) =>
+      pages[mapping.page].drawText(line, { x: mapping.x + 2, y: pages[mapping.page].getHeight() - mapping.y - 2 - size - index * size * 1.2, size, font, color: rgb(0, 0, 0) }));
+    drawColumn(first, lines);
+    drawColumn(second, lines.slice(perColumn));
   }
+  const species = grants.filter((grant) => grant.source.startsWith("Specie:") || grant.source.startsWith("Lignaggio:"));
+  if (species.length) draw({ ...byField.get("textarea_143mcko")!, x: 228, width: 178, source: "sheet.specie" }, species.map(grantLine).join("\n"));
+  const recordedFeats = [...sheet.talenti];
+  const feats = featGrants(sheet).map((grant) => {
+    const index = recordedFeats.findIndex((item) => sameName(item.nome, grant.name));
+    const saved = index >= 0 ? recordedFeats.splice(index, 1)[0] : null;
+    return formatItem(saved?.nome ?? grant.name, saved?.scelte);
+  });
+  feats.push(...recordedFeats.map((item) => formatItem(item.nome, item.scelte)));
+  if (feats.length) draw(byField.get("textarea_143mcko")!, feats.join("\n"));
+  const quantity = (value?: string) => Number(value) > 1 ? ` x${value}` : "";
+  if (sheet.equipaggiamento.length) draw(byField.get("textarea_165hxzs")!, sheet.equipaggiamento.map((item) =>
+    `- ${item.nome}${quantity(item.quantita)}${Number(item.quantita) > 1 && item.unita ? ` ${item.unita}` : ""}${item.indossato ? " (indossata)" : item.impugnato ? " (impugnato)" : ""}`).join("\n"));
+  if (sheet.competenzeStrumenti?.length) draw({ ...byField.get("textarea_158mwcp")!, x: 19, y: 737, width: 187, height: 25, source: "sheet.competenzeStrumenti" }, sheet.competenzeStrumenti.map((item) => `- ${item}`).join("\n"));
 
   return pdf.save();
 }
