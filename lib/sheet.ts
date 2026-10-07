@@ -53,6 +53,8 @@ export type Privilegio = {
 export type Risorsa = { nome: string; fonte: string; massimo: number; spesi: number; ricarica: string };
 export type FonteCompetenza = { tipo: "abilita" | "tiroSalvezza" | "arma" | "armatura" | "strumento" | "lingua"; valore: string; fonte: string };
 export type EventoStoria = { capitolo: string; titolo: string; dettagli: string[]; data: string };
+export type CondizioneAttiva = { nome: string; fonte: string; durata: string; nota: string };
+export type ConcentrazioneAttiva = { effetto: string; fonte: string; durata: string };
 
 export type Talento = {
   nome: string;
@@ -84,7 +86,10 @@ export type Sheet = {
   dadiVita: string;
   dadiVitaSpesi?: string;
   tiriMorte?: { successi: number; fallimenti: number };
-  condizioni?: string[];
+  statoMorte?: "tiri" | "stabile" | "morto";
+  condizioni?: CondizioneAttiva[];
+  indebolimento?: number;
+  concentrazione?: ConcentrazioneAttiva;
   ispirazioneEroica: boolean;
   puntiEsperienza: string;
 
@@ -147,8 +152,8 @@ export type Sheet = {
 };
 
 export const retiredCharacterFields = [
-  "puntiFeritaMaxModo", "incrementiPf", "puntiFeritaTemporanei",
-  "classeArmaturaModo", "classeArmaturaOverride", "dadiVitaSpesi", "tiriMorte", "condizioni",
+  "puntiFeritaMaxModo", "incrementiPf",
+  "classeArmaturaModo", "classeArmaturaOverride",
   "velocitaModo", "modificatoriVelocita",
 ] as const;
 
@@ -214,6 +219,11 @@ export function emptySheet(): Sheet {
     classeArmatura: null,
     scudo: false,
     dadiVita: "",
+    puntiFeritaTemporanei: "0",
+    dadiVitaSpesi: "0",
+    tiriMorte: { successi: 0, fallimenti: 0 },
+    condizioni: [],
+    indebolimento: 0,
     ispirazioneEroica: false,
     puntiEsperienza: "0",
 
@@ -335,6 +345,22 @@ export function normalizeSheet(value: Sheet): Sheet {
     velocita,
     scudo: toBoolean(old.scudo),
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
+    ...(value.puntiFeritaTemporanei !== undefined ? { puntiFeritaTemporanei: String(value.puntiFeritaTemporanei) } : {}),
+    ...(value.dadiVitaSpesi !== undefined ? { dadiVitaSpesi: String(value.dadiVitaSpesi) } : {}),
+    ...(value.tiriMorte && Number.isInteger(value.tiriMorte.successi) && Number.isInteger(value.tiriMorte.fallimenti)
+      ? { tiriMorte: { successi: value.tiriMorte.successi, fallimenti: value.tiriMorte.fallimenti } } : {}),
+    ...(value.statoMorte === "tiri" || value.statoMorte === "stabile" || value.statoMorte === "morto"
+      ? { statoMorte: value.statoMorte } : {}),
+    ...(Array.isArray(value.condizioni) ? { condizioni: (value.condizioni as unknown[]).flatMap((condition) => {
+      if (typeof condition === "string" && condition.trim()) return [{ nome: condition.trim(), fonte: "Importata", durata: "", nota: "" }];
+      if (!condition || typeof condition !== "object") return [];
+      const item = condition as Partial<CondizioneAttiva>;
+      return typeof item.nome === "string" ? [{ nome: item.nome, fonte: item.fonte ?? "", durata: item.durata ?? "", nota: item.nota ?? "" }] : [];
+    }) } : {}),
+    ...(Number.isInteger(value.indebolimento) && (value.indebolimento ?? -1) >= 0 && (value.indebolimento ?? 7) <= 6
+      ? { indebolimento: value.indebolimento } : {}),
+    ...(value.concentrazione && typeof value.concentrazione.effetto === "string"
+      ? { concentrazione: { effetto: value.concentrazione.effetto, fonte: value.concentrazione.fonte ?? "", durata: value.concentrazione.durata ?? "" } } : {}),
     lingue: [...new Set(["Comune", ...languages])],
     competenzeArmi: toList(old.competenzeArmi),
     ...(Array.isArray(value.competenzeStrumenti) ? { competenzeStrumenti: value.competenzeStrumenti } : {}),

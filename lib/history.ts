@@ -64,6 +64,9 @@ const labels: Record<string, string> = {
   dettaglio: "Dettaglio personale", titolo: "Titolo", descrizione: "Descrizione", scelte: "Scelte personali",
   tempo: "Tempo di lancio", componenti: "Componenti", durata: "Durata",
   concentrazione: "Concentrazione", rituale: "Rituale", materiali: "Materiali",
+  puntiFeritaTemporanei: "Punti ferita temporanei", dadiVitaSpesi: "Dadi Vita spesi",
+  tiriMorte: "Tiri salvezza contro morte", statoMorte: "Stato di morte",
+  condizioni: "Condizioni", indebolimento: "Indebolimento",
   leggere: "Leggere", medie: "Medie", pesanti: "Pesanti", scudi: "Scudi",
   rame: "Rame", argento: "Argento", electrum: "Electrum", oro: "Oro", platino: "Platino",
 };

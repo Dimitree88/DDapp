@@ -50,10 +50,16 @@ export const masterSessionParticipants = sqliteTable("master_session_participant
   characterId: text("character_id").notNull().references(() => characters.id, { onDelete: "cascade" }),
 }, (table) => [primaryKey({ columns: [table.sessionId, table.characterId] })]);
 
+export const masterSessionCreatures = sqliteTable("master_session_creatures", {
+  sessionId: text("session_id").notNull().references(() => masterSessions.id, { onDelete: "cascade" }),
+  creatureId: text("creature_id").notNull().references(() => creatures.id, { onDelete: "cascade" }),
+}, (table) => [primaryKey({ columns: [table.sessionId, table.creatureId] })]);
+
 export const masterSessionEvents = sqliteTable("master_session_events", {
   id: text("id").primaryKey(),
   sessionId: text("session_id").notNull().references(() => masterSessions.id),
   characterId: text("character_id").references(() => characters.id),
+  creatureId: text("creature_id").references(() => creatures.id),
   type: text("type").notNull(),
   occurredAt: integer("occurred_at", { mode: "timestamp" }).notNull(),
   payload: text("payload", { mode: "json" }).notNull().$type<Record<string, unknown>>(),
