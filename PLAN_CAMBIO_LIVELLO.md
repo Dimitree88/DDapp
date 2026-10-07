@@ -53,6 +53,14 @@ Decisioni dell'utente del 6 ottobre 2026:
   effetti sulla velocità richiedono una futura funzione dedicata.
 - I talenti bonus successivi al 20° livello descritti a p. 43 restano fuori da
   questo wizard, come richiesto dall'utente.
+- Per la Storia del personaggio, le conseguenze di una scelta vanno mostrate
+  sotto la scelta che le concede, quando la fonte è registrata. Se la scheda
+  non conserva il legame, la conseguenza può restare una voce separata, ma
+  sempre nella fase corretta di creazione o cambio livello: mai in una sezione
+  autonoma come «Dotazioni ricevute». I dati storici già salvati possono
+  mantenere la forma attuale. I flussi futuri devono salvare la scelta, le sue
+  conseguenze, la fonte e la fase/livello, così la Storia può ricostruire il
+  legame senza dedurlo a posteriori.
 
 ## Fonte normativa verificata
 
@@ -203,6 +211,13 @@ prevede, con fonte distinta.
   permanente non modellata o senza fonte verificata impedisce di dichiarare
   completo quel passaggio del wizard: non deve sparire dal riepilogo né
   apparire come applicata.
+- La persistenza del passaggio deve includere le scelte effettuate e gli
+  effetti da esse derivati, ciascuno collegato alla scelta/fonte che lo ha
+  prodotto e al livello acquisito. Il riepilogo e la Storia mostrano le
+  conseguenze annidate sotto la scelta corrispondente; gli effetti senza un
+  legame persistito restano separati ma dentro il capitolo della fase che li
+  ha prodotti. Non creare capitoli o sezioni autonome per categorie di
+  conseguenze, come dotazioni, lingue o privilegi.
 
 ### Aggiornamento dei quattro campi bloccati
 
