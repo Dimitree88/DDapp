@@ -4,5 +4,639 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:ranger",
+      "tipo": "classe",
+      "nome": "Ranger",
+      "testo": [
+        {
+          "pagina": 141,
+          "da": "ONTANO DAL CAOS CITTADINO",
+          "includiDa": true,
+          "a": "Privilegi di Classe del Ranger"
+        }
+      ],
+      "correzioni": [["ONTANO DAL CAOS CITTADINO, IN MEZZO AL verde", "Lontano dal caos cittadino, in mezzo al verde"]],
+      "pagina": 141,
+      "pagine": [142, 143],
+      "tabelle": [
+        {
+          "titolo": "Tratti del ranger",
+          "pagina": 141,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Destrezza e Saggezza"],
+            ["Dado Vita", "D10 per ogni livello da ranger"],
+            ["Competenze nei tiri salvezza", "Forza e Destrezza"],
+            [
+              "Competenze nelle abilità",
+              "Tre a scelta tra: Addestrare Animali, Atletica, Furtività, Indagare, Intuizione, Natura, Percezione o Sopravvivenza"
+            ],
+            ["Competenza nelle armi", "Armi semplici e da guerra"],
+            ["Competenza nelle armature", "Armature leggere e medie; scudi"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Un'armatura di cuoio borchiato, scimitarra, spada corta, arco lungo, 20 frecce, faretra, focus druidico (rametto di vischio), dotazione da esploratore e 7 mo; o (B) 150 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del ranger",
+          "pagina": 142,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Nemici prescelti",
+            "Incantesimi preparati",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "righe": [
+            ["1", "+2", "Incantesimi, nemico prescelto, padronanza d'armi", "2", "2", "2", "—", "—", "—", "—"],
+            ["2", "+2", "Esploratore esperto, stile di combattimento", "2", "3", "2", "—", "—", "—", "—"],
+            ["3", "+2", "Sottoclasse del ranger", "2", "4", "3", "—", "—", "—", "—"],
+            ["4", "+2", "Aumento dei punteggi di caratteristica", "2", "5", "3", "—", "—", "—", "—"],
+            ["5", "+3", "Attacco extra", "3", "6", "4", "2", "—", "—", "—"],
+            ["6", "+3", "Girovago", "3", "6", "4", "2", "—", "—", "—"],
+            ["7", "+3", "Privilegio della sottoclasse", "3", "7", "4", "3", "—", "—", "—"],
+            ["8", "+3", "Aumento dei punteggi di caratteristica", "3", "7", "4", "3", "—", "—", "—"],
+            ["9", "+4", "Maestria", "4", "9", "4", "3", "2", "—", "—"],
+            ["10", "+4", "Instancabile", "4", "9", "4", "3", "2", "—", "—"],
+            ["11", "+4", "Privilegio della sottoclasse", "4", "10", "4", "3", "3", "—", "—"],
+            ["12", "+4", "Aumento dei punteggi di caratteristica", "4", "10", "4", "3", "3", "—", "—"],
+            ["13", "+5", "Cacciatore Implacabile", "5", "11", "4", "3", "3", "1", "—"],
+            ["14", "+5", "Velo della natura", "5", "11", "4", "3", "3", "1", "—"],
+            ["15", "+5", "Privilegio della sottoclasse", "5", "12", "4", "3", "3", "2", "—"],
+            ["16", "+5", "Aumento dei punteggi di caratteristica", "5", "12", "4", "3", "3", "2", "—"],
+            ["17", "+6", "Precisione del cacciatore", "6", "14", "4", "3", "3", "3", "1"],
+            ["18", "+6", "Sensi ferini", "6", "14", "4", "3", "3", "3", "1"],
+            ["19", "+6", "Dono epico", "6", "15", "4", "3", "3", "3", "2"],
+            ["20", "+6", "Sterminatore di nemici", "6", "15", "4", "3", "3", "3", "2"]
+          ]
+        }
+      ],
+      "dadoVita": "D10",
+      "caratteristicaPrimaria": "Destrezza e Saggezza",
+      "tiriSalvezza": ["FOR", "DES"],
+      "competenze": {
+        "abilita": {
+          "numero": 3,
+          "scelte": [
+            "Addestrare Animali",
+            "Atletica",
+            "Furtività",
+            "Indagare",
+            "Intuizione",
+            "Natura",
+            "Percezione",
+            "Sopravvivenza"
+          ]
+        },
+        "armi": ["Armi semplici", "Armi da guerra"],
+        "armature": ["Leggere", "Medie", "Scudi"],
+        "strumenti": []
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Un'armatura di cuoio borchiato, scimitarra, spada corta, arco lungo, 20 frecce, faretra, focus druidico (rametto di vischio), dotazione da esploratore e 7 mo; o (B) 150 mo",
+      "privilegi": [
+        {
+          "id": "classe:ranger:privilegio:1-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 1,
+          "testo": [{ "pagina": 141, "da": "Livello 1: Incantesimi", "a": "Livello 1: Nemico Prescelto" }],
+          "pagina": 141,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:1-nemico-prescelto",
+          "nome": "Nemico Prescelto",
+          "livello": 1,
+          "testo": [{ "pagina": 141, "da": "Livello 1: Nemico Prescelto", "a": "Livello 1: Padronanza d'Armi" }],
+          "correzioni": [
+            [
+              "considerato come preparato. È possibile lanciarlo due L'incantesimo marchio del cacciatore del ranger è sempre volte senza spendere alcuno slot incantesimo.",
+              "L'incantesimo marchio del cacciatore del ranger è sempre considerato come preparato. È possibile lanciarlo due volte senza spendere alcuno slot incantesimo."
+            ]
+          ],
+          "pagina": 141,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:1-padronanza-d-armi",
+          "nome": "Padronanza d'Armi",
+          "livello": 1,
+          "testo": [{ "pagina": 141, "da": "Livello 1: Padronanza d'Armi", "a": "PRIVILEGI DEL RANGER" }],
+          "pagina": 141,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:2-esploratore-esperto",
+          "nome": "Esploratore Esperto",
+          "livello": 2,
+          "testo": [
+            {
+              "pagina": 142,
+              "da": "Livello 2: Esploratore Esperto",
+              "a": "Livello 2: Stile di Combattimento"
+            }
+          ],
+          "pagina": 142,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:2-stile-di-combattimento",
+          "nome": "Stile di Combattimento",
+          "livello": 2,
+          "testo": [
+            {
+              "pagina": 142,
+              "da": "Livello 2: Stile di Combattimento",
+              "a": "Livello 3: Sottoclasse del Ranger"
+            }
+          ],
+          "pagina": 142,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:3-sottoclasse-del-ranger",
+          "nome": "Sottoclasse del Ranger",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 142,
+              "da": "Livello 3: Sottoclasse del Ranger",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "correzioni": [
+            [
+              "livelli da ranger.\n\n2 · 2\n2 · 4 · 3\n2 · 5 · 3\n3 · 6 · 4 · 2\n3 · 6 · 4 · 2\n3 · 7 · 4 · 3\n3 · 7 · 4 · 3\n4 · 9 · 4 · 3 · 2\n4 · 9 · 4 · 3 · 2\n4 · 10 · 4 · 3 · 3\n4 · 10 · 4 · 3 · 3\n5 · 11 · 4 · 3 · 3\n5 · 11 · 4 · 3 · 3\n5 · 12 · 4 · 3 · 3 · 2\n5 · 12 · 4 · 3 · 3 · 2\n6 · 14 · 4 · 3 · 3 · 3\n6 · 14 · 4 · 3 · 3 · 3\n6 · 15 · 4 · 3 · 3 · 3 · 2\n6 · 15 · 4 · 3 · 3 · 3 · 2\n\nPer il resto",
+              "livelli da ranger. Per il resto"
+            ]
+          ],
+          "pagina": 142,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 142,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Attacco Extra"
+            }
+          ],
+          "correzioni": [
+            [
+              "teristica (vedi capitolo S) o un altro talento a scelta di Il personaggio ottiene l'aumento dei punteggi di caratcui possiede i prerequisiti.",
+              "Il personaggio ottiene l'aumento dei punteggi di caratteristica (vedi capitolo 5) o un altro talento a scelta di cui possiede i prerequisiti."
+            ]
+          ],
+          "pagina": 142,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:5-attacco-extra",
+          "nome": "Attacco Extra",
+          "livello": 5,
+          "testo": [{ "pagina": 142, "da": "Livello 5: Attacco Extra", "a": "Livello 6: Girovago" }],
+          "pagina": 142,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:6-girovago",
+          "nome": "Girovago",
+          "livello": 6,
+          "testo": [{ "pagina": 142, "da": "Livello 6: Girovago", "a": "Livello 9: Maestria" }],
+          "pagina": 142,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:9-maestria",
+          "nome": "Maestria",
+          "livello": 9,
+          "testo": [{ "pagina": 142, "da": "Livello 9: Maestria", "a": "Livello 10: Instancabile" }],
+          "pagina": 142,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:10-instancabile",
+          "nome": "Instancabile",
+          "livello": 10,
+          "testo": [{ "pagina": 142, "da": "Livello 10: Instancabile", "a": "Livello 13: Cacciatore Implacabile" }],
+          "pagina": 142,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:13-cacciatore-implacabile",
+          "nome": "Cacciatore Implacabile",
+          "livello": 13,
+          "testo": [
+            {
+              "pagina": 143,
+              "da": "Livello 13: Cacciatore Implacabile",
+              "a": "Livello 14: Velo della Natura"
+            }
+          ],
+          "pagina": 143,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:14-velo-della-natura",
+          "nome": "Velo della Natura",
+          "livello": 14,
+          "testo": [
+            {
+              "pagina": 143,
+              "da": "Livello 14: Velo della Natura",
+              "a": "Livello 17: Precisione del Cacciatore"
+            }
+          ],
+          "correzioni": [["pernascondersi", "per nascondersi"]],
+          "pagina": 143,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:17-precisione-del-cacciatore",
+          "nome": "Precisione del Cacciatore",
+          "livello": 17,
+          "testo": [{ "pagina": 143, "da": "Livello 17: Precisione del Cacciatore", "a": "Livello 18: Sensi Ferini" }],
+          "pagina": 143,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:18-sensi-ferini",
+          "nome": "Sensi Ferini",
+          "livello": 18,
+          "testo": [{ "pagina": 143, "da": "Livello 18: Sensi Ferini", "a": "Livello 19: Dono Epico" }],
+          "pagina": 143,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 143, "da": "Livello 19: Dono Epico", "a": "Livello 20: Sterminatore di Nemici" }],
+          "pagina": 143,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:privilegio:20-sterminatore-di-nemici",
+          "nome": "Sterminatore di Nemici",
+          "livello": 20,
+          "testo": [
+            {
+              "pagina": 143,
+              "da": "Livello 20: Sterminatore di Nemici",
+              "a": "Lista degli Incantesimi da Ranger"
+            }
+          ],
+          "pagina": 143,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:ranger:sottoclasse:cacciatore",
+      "tipo": "sottoclasse",
+      "classe": "Ranger",
+      "nome": "Cacciatore",
+      "testo": [
+        {
+          "pagina": 144,
+          "da": "Proteggilanatura elepersone",
+          "includiDa": true,
+          "a": "Livello 3: Preda del Cacciatore"
+        }
+      ],
+      "correzioni": [
+        [
+          "Proteggilanatura elepersone dalla distruzione Bracchi",
+          "Proteggi la natura e le persone dalla distruzione\n\nBracchi"
+        ]
+      ],
+      "pagina": 144,
+      "privilegi": [
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore:privilegio:3-preda-del-cacciatore",
+          "nome": "Preda del Cacciatore",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 144,
+              "da": "Livello 3: Preda del Cacciatore",
+              "a": "Livello 3: Sapienza del Cacciatore"
+            }
+          ],
+          "pagina": 144,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore:privilegio:3-sapienza-del-cacciatore",
+          "nome": "Sapienza del Cacciatore",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 144,
+              "da": "Livello 3: Sapienza del Cacciatore",
+              "a": "Livello 7: Tattiche Difensive"
+            }
+          ],
+          "pagina": 144,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore:privilegio:7-tattiche-difensive",
+          "nome": "Tattiche Difensive",
+          "livello": 7,
+          "testo": [
+            {
+              "pagina": 144,
+              "da": "Livello 7: Tattiche Difensive",
+              "a": "Livello 11: Preda del Cacciatore Superiore"
+            }
+          ],
+          "pagina": 144,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore:privilegio:11-preda-del-cacciatore-superiore",
+          "nome": "Preda del Cacciatore Superiore",
+          "livello": 11,
+          "testo": [
+            {
+              "pagina": 144,
+              "da": "Livello 11: Preda del Cacciatore Superiore",
+              "a": "Livello 15: Difesa del Cacciatore Superiore"
+            }
+          ],
+          "pagina": 144,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore:privilegio:15-difesa-del-cacciatore-superiore",
+          "nome": "Difesa del Cacciatore Superiore",
+          "livello": 15,
+          "testo": [
+            {
+              "pagina": 144,
+              "da": "Livello 15: Difesa del Cacciatore Superiore",
+              "a": "Cacciatore delle Tenebre"
+            }
+          ],
+          "pagina": 144,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:ranger:sottoclasse:cacciatore-delle-tenebre",
+      "tipo": "sottoclasse",
+      "classe": "Ranger",
+      "nome": "Cacciatore delle Tenebre",
+      "testo": [
+        {
+          "pagina": 145,
+          "da": "Attingialla magia dell'ombraper sgominare",
+          "includiDa": true,
+          "a": "Livello 3: Imboscata Terrificante"
+        }
+      ],
+      "correzioni": [
+        [
+          "Attingialla magia dell'ombraper sgominare i nemici I Cacciatori",
+          "Attingi alla magia dell'ombra per sgominare i nemici\n\nI Cacciatori"
+        ]
+      ],
+      "pagina": 145,
+      "privilegi": [
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore-delle-tenebre:privilegio:3-imboscata-terrificante",
+          "nome": "Imboscata Terrificante",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 145,
+              "da": "Livello 3: Imboscata Terrificante",
+              "a": "Livello 3: Incantesimi del Cacciatore delle Tenebre"
+            }
+          ],
+          "pagina": 145,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore-delle-tenebre:privilegio:3-incantesimi-del-cacciatore-delle-tenebre",
+          "nome": "Incantesimi del Cacciatore delle Tenebre",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 145,
+              "da": "Livello 3: Incantesimi del Cacciatore delle Tenebre",
+              "a": "Incantesimi del Cacciatore delle Tenebre",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Cacciatore delle Tenebre",
+              "pagina": 145,
+              "colonne": ["Livello da ranger", "Incantesimi"],
+              "righe": [
+                ["3", "Camuffare se stesso"],
+                ["5", "Trucco della corda"],
+                ["9", "Paura"],
+                ["13", "Invisibilità superiore"],
+                ["17", "Sembrare"]
+              ]
+            }
+          ],
+          "pagina": 145,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore-delle-tenebre:privilegio:3-vista-dell-ombra",
+          "nome": "Vista dell'Ombra",
+          "livello": 3,
+          "testo": [{ "pagina": 145, "da": "Livello 3: Vista dell'Ombra", "a": "Livello 7: Mente di Ferro" }],
+          "pagina": 145,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore-delle-tenebre:privilegio:7-mente-di-ferro",
+          "nome": "Mente di Ferro",
+          "livello": 7,
+          "testo": [{ "pagina": 145, "da": "Livello 7: Mente di Ferro", "a": "Livello 11: Raffica del Cacciatore" }],
+          "pagina": 145,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore-delle-tenebre:privilegio:11-raffica-del-cacciatore",
+          "nome": "Raffica del Cacciatore",
+          "livello": 11,
+          "testo": [
+            {
+              "pagina": 146,
+              "da": "Livello 11: Raffica del Cacciatore",
+              "a": "Livello 15: Schivata dell'Ombra"
+            }
+          ],
+          "pagina": 146,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:cacciatore-delle-tenebre:privilegio:15-schivata-dell-ombra",
+          "nome": "Schivata dell'Ombra",
+          "livello": 15,
+          "testo": [{ "pagina": 146, "da": "Livello 15: Schivata dell'Ombra", "a": "Signore delle Bestie" }],
+          "pagina": 146,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:ranger:sottoclasse:signore-delle-bestie",
+      "tipo": "sottoclasse",
+      "classe": "Ranger",
+      "nome": "Signore delle Bestie",
+      "testo": [{ "pagina": 146, "da": "Signore delle Bestie", "a": "Livello 3: Compagno Primordiale" }],
+      "correzioni": [
+        [
+          "Entra in comunione conuna bestiaprimordiale Un Signore",
+          "Entra in comunione con una bestia primordiale\n\nUn Signore"
+        ]
+      ],
+      "pagina": 146,
+      "privilegi": [
+        {
+          "id": "classe:ranger:sottoclasse:signore-delle-bestie:privilegio:3-compagno-primordiale",
+          "nome": "Compagno Primordiale",
+          "livello": 3,
+          "testo": [{ "pagina": 146, "da": "Livello 3: Compagno Primordiale", "finePagina": true }],
+          "pagina": 146,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:signore-delle-bestie:privilegio:7-addestramento-eccezionale",
+          "nome": "Addestramento Eccezionale",
+          "livello": 7,
+          "testo": [{ "pagina": 148, "da": "Livello 7: Addestramento Eccezionale", "a": "Livello 11: Furia Bestiale" }],
+          "pagina": 148,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:signore-delle-bestie:privilegio:11-furia-bestiale",
+          "nome": "Furia Bestiale",
+          "livello": 11,
+          "testo": [{ "pagina": 148, "da": "Livello 11: Furia Bestiale", "a": "Livello 15: Condividi Incantesimi" }],
+          "pagina": 148,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:signore-delle-bestie:privilegio:15-condividi-incantesimi",
+          "nome": "Condividi Incantesimi",
+          "livello": 15,
+          "testo": [{ "pagina": 148, "da": "Livello 15: Condividi Incantesimi", "a": "Viandante Fatato" }],
+          "pagina": 148,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:ranger:sottoclasse:viandante-fatato",
+      "tipo": "sottoclasse",
+      "classe": "Ranger",
+      "nome": "Viandante Fatato",
+      "testo": [{ "pagina": 148, "da": "Viandante Fatato", "a": "Livello 3: Colpi Terribili" }],
+      "correzioni": [["Padroneggia la gioia e lafuriaJatata Grazie", "Padroneggia la gioia e la furia fatata\n\nGrazie"]],
+      "pagina": 148,
+      "privilegi": [
+        {
+          "id": "classe:ranger:sottoclasse:viandante-fatato:privilegio:3-colpi-terribili",
+          "nome": "Colpi Terribili",
+          "livello": 3,
+          "testo": [{ "pagina": 148, "da": "Livello 3: Colpi Terribili", "a": "Livello 3: Fascino Ultraterreno" }],
+          "pagina": 148,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:viandante-fatato:privilegio:3-fascino-ultraterreno",
+          "nome": "Fascino Ultraterreno",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 148,
+              "da": "Livello 3: Fascino Ultraterreno",
+              "a": "Livello 3: Incantesimi del Viandante Fatato"
+            }
+          ],
+          "pagina": 148,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:viandante-fatato:privilegio:3-incantesimi-del-viandante-fatato",
+          "nome": "Incantesimi del Viandante Fatato",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 148,
+              "da": "Livello 3: Incantesimi del Viandante Fatato",
+              "a": "Incantesimi del Viandante Fatato",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Viandante Fatato",
+              "pagina": 148,
+              "colonne": ["Livello da ranger", "Incantesimi"],
+              "righe": [
+                ["3", "Charme su persone"],
+                ["5", "Passo velato"],
+                ["9", "Richiama folletto"],
+                ["13", "Porta dimensionale"],
+                ["17", "Fuorviare"]
+              ]
+            }
+          ],
+          "pagina": 148,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:viandante-fatato:privilegio:7-scambio-seducente",
+          "nome": "Scambio Seducente",
+          "livello": 7,
+          "testo": [{ "pagina": 149, "da": "Livello 7: Scambio Seducente", "a": "Livello 11: Rinforzi Fatati" }],
+          "pagina": 149,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:viandante-fatato:privilegio:11-rinforzi-fatati",
+          "nome": "Rinforzi Fatati",
+          "livello": 11,
+          "testo": [{ "pagina": 149, "da": "Livello 11: Rinforzi Fatati", "a": "Livello 15: Viandante Velato" }],
+          "pagina": 149,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ranger:sottoclasse:viandante-fatato:privilegio:15-viandante-velato",
+          "nome": "Viandante Velato",
+          "livello": 15,
+          "testo": [{ "pagina": 149, "da": "Livello 15: Viandante Velato" }],
+          "pagina": 149,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
