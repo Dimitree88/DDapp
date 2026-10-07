@@ -4,5 +4,653 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:monaco",
+      "tipo": "classe",
+      "nome": "Monaco",
+      "testo": [
+        {
+          "pagina": 123,
+          "da": "MONACI UTILIZZANO UN RIGOROSO",
+          "includiDa": true,
+          "a": "Privilegi di Classe del Monaco"
+        }
+      ],
+      "correzioni": [
+        [
+          "MONACI UTILIZZANO UN RIGOROSO ADDESTRAmento al combattimento e la disciplina mentale per\n\n1 riserve interiori di energia. A prescindere dalle loro disci pline, concettualizzano questa energia in vari modi: per allinearsi con il multiverso e canalizzare le loro\n\nesempio come respiro,",
+          "I monaci utilizzano un rigoroso addestramento al combattimento e la disciplina mentale per allinearsi con il multiverso e canalizzare le loro riserve interiori di energia. A prescindere dalle loro discipline, concettualizzano questa energia in vari modi: per esempio come respiro,"
+        ],
+        ["dellatabella", "della tabella"]
+      ],
+      "pagina": 123,
+      "pagine": [122, 124, 125],
+      "tabelle": [
+        {
+          "titolo": "Tratti del monaco",
+          "pagina": 123,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Destrezza e Saggezza"],
+            ["Dado Vita", "D8 per ogni livello da monaco"],
+            ["Competenze nei tiri salvezza", "Forza e Destrezza"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Acrobazia, Atletica, Furtività, Intuizione, Religione o Storia"
+            ],
+            ["Competenza nelle armi", "Armi semplici e armi da guerra con la proprietà leggera"],
+            [
+              "Competenze negli strumenti",
+              "Un tipo di strumento da artigiano o di strumento musicale a scelta (vedi capitolo 6)"
+            ],
+            ["Competenza nelle armature", "Nessuna"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Una lancia, 5 pugnali, uno strumento da artigiano o uno strumento musicale scelto per la competenza negli strumenti sopraindicata, una dotazione da esploratore e 11 mo; o (B) 50 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del monaco",
+          "pagina": 124,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Arti marziali",
+            "Punti concentrazione",
+            "Movimento senza armatura"
+          ],
+          "righe": [
+            ["1", "+2", "Arti marziali, difesa senza armatura", "1d6", "—", "—"],
+            [
+              "2",
+              "+2",
+              "Concentrazione da monaco, metabolismo straordinario, movimento senza armatura",
+              "1d6",
+              "2",
+              "+3 m"
+            ],
+            ["3", "+2", "Devia attacchi, sottoclasse del monaco", "1d6", "3", "+3 m"],
+            ["4", "+2", "Aumento dei punteggi di caratteristica, caduta lenta", "1d6", "4", "+3 m"],
+            ["5", "+3", "Attacco extra, colpo stordente", "1d8", "5", "+3 m"],
+            ["6", "+3", "Colpi potenziati, privilegio della sottoclasse", "1d8", "6", "+4,5 m"],
+            ["7", "+3", "Elusione", "1d8", "7", "+4,5 m"],
+            ["8", "+3", "Aumento dei punteggi di caratteristica", "1d8", "8", "+4,5 m"],
+            ["9", "+4", "Movimento Acrobatico", "1d8", "9", "+4,5 m"],
+            ["10", "+4", "Autorigenerazione, concentrazione superiore", "1d8", "10", "+6 m"],
+            ["11", "+4", "Privilegio della sottoclasse", "1d10", "11", "+6 m"],
+            ["12", "+4", "Aumento dei punteggi di caratteristica", "1d10", "12", "+6 m"],
+            ["13", "+5", "Deviare Energia", "1d10", "13", "+6 m"],
+            ["14", "+5", "Esperto di Sopravvivenza Disciplinato", "1d10", "14", "+7,5 m"],
+            ["15", "+5", "Concentrazione Perfetta", "1d10", "15", "+7,5 m"],
+            ["16", "+5", "Aumento dei punteggi di caratteristica", "1d10", "16", "+7,5 m"],
+            ["17", "+6", "Privilegio della sottoclasse", "1d12", "17", "+7,5 m"],
+            ["18", "+6", "Difesa Superiore", "1d12", "18", "+9 m"],
+            ["19", "+6", "Dono epico", "1d12", "19", "+9 m"],
+            ["20", "+6", "Corpo e Mente", "1d12", "20", "+9 m"]
+          ]
+        }
+      ],
+      "dadoVita": "D8",
+      "caratteristicaPrimaria": "Destrezza e Saggezza",
+      "tiriSalvezza": ["FOR", "DES"],
+      "competenze": {
+        "abilita": { "numero": 2, "scelte": ["Acrobazia", "Atletica", "Furtività", "Intuizione", "Religione", "Storia"] },
+        "armi": ["Armi semplici", "Armi da guerra leggere"],
+        "armature": [],
+        "strumenti": [],
+        "strumentiAScelta": { "numero": 1, "tipi": ["artigiano", "musicale"] }
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Una lancia, 5 pugnali, uno strumento da artigiano o uno strumento musicale scelto per la competenza negli strumenti sopraindicata, una dotazione da esploratore e 11 mo; o (B) 50 mo",
+      "privilegi": [
+        {
+          "id": "classe:monaco:privilegio:1-arti-marziali",
+          "nome": "Arti Marziali",
+          "livello": 1,
+          "testo": [{ "pagina": 123, "da": "Livello 1: Arti Marziali", "a": "Livello 1: Difesa Senza Armatura" }],
+          "correzioni": [
+            [
+              "- Armi da mischia semplici Armi da mischia da guerra con la proprietà leggera Un monaco ottiene i benefici seguenti",
+              "- Armi da mischia semplici\n- Armi da mischia da guerra con la proprietà leggera\n\nUn monaco ottiene i benefici seguenti"
+            ]
+          ],
+          "pagina": 123,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:1-difesa-senza-armatura",
+          "nome": "Difesa Senza Armatura",
+          "livello": 1,
+          "testo": [
+            {
+              "pagina": 123,
+              "da": "Livello 1: Difesa Senza Armatura",
+              "a": "Livello 2: Concentrazione da Monaco"
+            }
+          ],
+          "pagina": 123,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:2-concentrazione-da-monaco",
+          "nome": "Concentrazione da Monaco",
+          "livello": 2,
+          "testo": [
+            {
+              "pagina": 123,
+              "da": "Livello 2: Concentrazione da Monaco",
+              "a": "PRIVILEGI DEL MONACO",
+              "na": 2
+            },
+            {
+              "pagina": 124,
+              "da": "Questi punti possono essere spesi",
+              "includiDa": true,
+              "a": "Livello 2: Metabolismo Straordinario"
+            }
+          ],
+          "correzioni": [
+            ["punti concentra- • zione richiedono", "punti concentrazione richiedono"],
+            ["Passo delvento.", "Passo del vento."],
+            [
+              "azione bonus.\n\n1d8 · 10 · +6 m\n1d10 · 11 · +6 m\n1d10 · 12 · +6 m\n1d10 · 13 · + 6 m\n1d10 · 14 · +7,5 m\n1d10 · 15 · +7,5 m\n1d10 · 16 · +7,5 m\n1d12 · 17 · +7,5 m\n1d12 · 18 · +9 m\n1d12 · 19 · +9 m\n1d12 · 20 · +9 m",
+              "azione bonus."
+            ]
+          ],
+          "pagina": 123,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:2-metabolismo-straordinario",
+          "nome": "Metabolismo Straordinario",
+          "livello": 2,
+          "testo": [
+            {
+              "pagina": 124,
+              "da": "Livello 2: Metabolismo Straordinario",
+              "a": "Livello 2: Movimento Senza Armatura"
+            }
+          ],
+          "pagina": 124,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:2-movimento-senza-armatura",
+          "nome": "Movimento Senza Armatura",
+          "livello": 2,
+          "testo": [{ "pagina": 124, "da": "Livello 2: Movimento Senza Armatura", "a": "Livello 3: Devia Attacchi" }],
+          "pagina": 124,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:3-devia-attacchi",
+          "nome": "Devia Attacchi",
+          "livello": 3,
+          "testo": [{ "pagina": 124, "da": "Livello 3: Devia Attacchi", "a": "Livello 3: Sottoclasse del Monaco" }],
+          "pagina": 124,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:3-sottoclasse-del-monaco",
+          "nome": "Sottoclasse del Monaco",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 125,
+              "da": "Livello 3: Sottoclasse del Monaco",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 125,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 4: Caduta Lenta"
+            }
+          ],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:4-caduta-lenta",
+          "nome": "Caduta Lenta",
+          "livello": 4,
+          "testo": [{ "pagina": 125, "da": "Livello 4: Caduta Lenta", "a": "Livello 5: Attacco Extra" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:5-attacco-extra",
+          "nome": "Attacco Extra",
+          "livello": 5,
+          "testo": [{ "pagina": 125, "da": "Livello 5: Attacco Extra", "a": "Livello 5: Colpo Stordente" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:5-colpo-stordente",
+          "nome": "Colpo Stordente",
+          "livello": 5,
+          "testo": [{ "pagina": 125, "da": "Livello 5: Colpo Stordente", "a": "Livello 6: Colpi Potenziati" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:6-colpi-potenziati",
+          "nome": "Colpi Potenziati",
+          "livello": 6,
+          "testo": [{ "pagina": 125, "da": "Livello 6: Colpi Potenziati", "a": "Livello 7: Elusione" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:7-elusione",
+          "nome": "Elusione",
+          "livello": 7,
+          "testo": [{ "pagina": 125, "da": "Livello 7: Elusione", "a": "Livello 9: Movimento Acrobatico" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:9-movimento-acrobatico",
+          "nome": "Movimento Acrobatico",
+          "livello": 9,
+          "testo": [{ "pagina": 125, "da": "Livello 9: Movimento Acrobatico", "a": "Livello 10: Autorigenerazione" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:10-autorigenerazione",
+          "nome": "Autorigenerazione",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 125,
+              "da": "Livello 10: Autorigenerazione",
+              "a": "Livello 10: Concentrazione Superiore"
+            }
+          ],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:10-concentrazione-superiore",
+          "nome": "Concentrazione Superiore",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 125,
+              "da": "Livello 10: Concentrazione Superiore",
+              "a": "Livello 13: Deviare Energia"
+            }
+          ],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:13-deviare-energia",
+          "nome": "Deviare Energia",
+          "livello": 13,
+          "testo": [
+            {
+              "pagina": 125,
+              "da": "Livello 13: Deviare Energia",
+              "a": "Livello 14: Esperto di Sopravvivenza Disciplinato"
+            }
+          ],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:14-esperto-di-sopravvivenza-disciplinato",
+          "nome": "Esperto di Sopravvivenza Disciplinato",
+          "livello": 14,
+          "testo": [
+            {
+              "pagina": 125,
+              "da": "Livello 14: Esperto di Sopravvivenza Disciplinato",
+              "a": "Livello 15: Concentrazione Perfetta"
+            }
+          ],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:15-concentrazione-perfetta",
+          "nome": "Concentrazione Perfetta",
+          "livello": 15,
+          "testo": [
+            {
+              "pagina": 125,
+              "da": "Livello 15: Concentrazione Perfetta",
+              "a": "Livello 18: Difesa Superiore"
+            }
+          ],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:18-difesa-superiore",
+          "nome": "Difesa Superiore",
+          "livello": 18,
+          "testo": [{ "pagina": 125, "da": "Livello 18: Difesa Superiore", "a": "Livello 19: Dono Epico" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 125, "da": "Livello 19: Dono Epico", "a": "Livello 20: Corpo e Mente" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:privilegio:20-corpo-e-mente",
+          "nome": "Corpo e Mente",
+          "livello": 20,
+          "testo": [{ "pagina": 125, "da": "Livello 20: Corpo e Mente", "a": "Sottoclassi del Monaco" }],
+          "pagina": 125,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:monaco:sottoclasse:guerriero-degli-elementi",
+      "tipo": "sottoclasse",
+      "classe": "Monaco",
+      "nome": "Guerriero degli Elementi",
+      "testo": [{ "pagina": 126, "da": "Guerriero degli Elementi", "n": 2, "a": "Livello 3: Manipolare gli Elementi" }],
+      "correzioni": [
+        [
+          "Sferra colpie raffichedipotere elementale I Guerrieri",
+          "Sferra colpi e raffiche di potere elementale\n\nI Guerrieri"
+        ]
+      ],
+      "pagina": 126,
+      "privilegi": [
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-degli-elementi:privilegio:3-manipolare-gli-elementi",
+          "nome": "Manipolare gli Elementi",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 126,
+              "da": "Livello 3: Manipolare gli Elementi",
+              "a": "Livello 3: Sintonia Elementale"
+            }
+          ],
+          "pagina": 126,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-degli-elementi:privilegio:3-sintonia-elementale",
+          "nome": "Sintonia Elementale",
+          "livello": 3,
+          "testo": [{ "pagina": 126, "da": "Livello 3: Sintonia Elementale", "a": "Livello 6: Esplosione Elementale" }],
+          "pagina": 126,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-degli-elementi:privilegio:6-esplosione-elementale",
+          "nome": "Esplosione Elementale",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 126,
+              "da": "Livello 6: Esplosione Elementale",
+              "a": "Livello 11: Passo degli Elementi"
+            }
+          ],
+          "pagina": 126,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-degli-elementi:privilegio:11-passo-degli-elementi",
+          "nome": "Passo degli Elementi",
+          "livello": 11,
+          "testo": [
+            {
+              "pagina": 126,
+              "da": "Livello 11: Passo degli Elementi",
+              "a": "Livello 17: Quintessenza Elementale"
+            }
+          ],
+          "pagina": 126,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-degli-elementi:privilegio:17-quintessenza-elementale",
+          "nome": "Quintessenza Elementale",
+          "livello": 17,
+          "testo": [{ "pagina": 126, "da": "Livello 17: Quintessenza Elementale", "a": "Guerriero della Mano Aperta" }],
+          "correzioni": [
+            ["Colpipotenziati", "Colpi potenziati"],
+            [
+              "pari a un tiro del dado di\n\nArti Marziali. Il danno extra",
+              "pari a un tiro del dado di Arti Marziali. Il danno extra"
+            ]
+          ],
+          "pagina": 126,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:monaco:sottoclasse:guerriero-della-mano-aperta",
+      "tipo": "sottoclasse",
+      "classe": "Monaco",
+      "nome": "Guerriero della Mano Aperta",
+      "testo": [{ "pagina": 127, "da": "Guerriero della Mano Aperta", "a": "Livello 3: Tecnica della Mano Aperta" }],
+      "correzioni": [
+        [
+          "Padroneggia le tecniche di combattimento senz'armi I Guerrieri",
+          "Padroneggia le tecniche di combattimento senz'armi\n\nI Guerrieri"
+        ]
+      ],
+      "pagina": 127,
+      "privilegi": [
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-mano-aperta:privilegio:3-tecnica-della-mano-aperta",
+          "nome": "Tecnica della Mano Aperta",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 127,
+              "da": "Livello 3: Tecnica della Mano Aperta",
+              "a": "Livello 6: Integrità del Corpo"
+            }
+          ],
+          "pagina": 127,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-mano-aperta:privilegio:6-integrita-del-corpo",
+          "nome": "Integrità del Corpo",
+          "livello": 6,
+          "testo": [{ "pagina": 127, "da": "Livello 6: Integrità del Corpo", "a": "Livello 11: Passo Lesto" }],
+          "pagina": 127,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-mano-aperta:privilegio:11-passo-lesto",
+          "nome": "Passo Lesto",
+          "livello": 11,
+          "testo": [{ "pagina": 127, "da": "Livello 11: Passo Lesto", "a": "Livello 17: Palmo Tremante" }],
+          "pagina": 127,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-mano-aperta:privilegio:17-palmo-tremante",
+          "nome": "Palmo Tremante",
+          "livello": 17,
+          "testo": [{ "pagina": 127, "da": "Livello 17: Palmo Tremante", "a": "Guerriero della Misericordia" }],
+          "pagina": 127,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:monaco:sottoclasse:guerriero-della-misericordia",
+      "tipo": "sottoclasse",
+      "classe": "Monaco",
+      "nome": "Guerriero della Misericordia",
+      "testo": [{ "pagina": 128, "da": "Guerriero della Misericordia", "a": "Livello 3: Mano del Dolore" }],
+      "correzioni": [
+        [
+          "Manipolaleforze della vita e della morte I Guerrieri",
+          "Manipola le forze della vita e della morte\n\nI Guerrieri"
+        ]
+      ],
+      "pagina": 128,
+      "privilegi": [
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-misericordia:privilegio:3-mano-del-dolore",
+          "nome": "Mano del Dolore",
+          "livello": 3,
+          "testo": [{ "pagina": 128, "da": "Livello 3: Mano del Dolore", "a": "Livello 3: Mano Guaritrice" }],
+          "pagina": 128,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-misericordia:privilegio:3-mano-guaritrice",
+          "nome": "Mano Guaritrice",
+          "livello": 3,
+          "testo": [{ "pagina": 128, "da": "Livello 3: Mano Guaritrice", "a": "Livello 3: Strumenti di Misericordia" }],
+          "pagina": 128,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-misericordia:privilegio:3-strumenti-di-misericordia",
+          "nome": "Strumenti di Misericordia",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 128,
+              "da": "Livello 3: Strumenti di Misericordia",
+              "a": "Livello 6: Tocco del Medico"
+            }
+          ],
+          "pagina": 128,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-misericordia:privilegio:6-tocco-del-medico",
+          "nome": "Tocco del Medico",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 128,
+              "da": "Livello 6: Tocco del Medico",
+              "a": "Livello 11: Raffica di Guarigione e Dolore"
+            }
+          ],
+          "pagina": 128,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-misericordia:privilegio:11-raffica-di-guarigione-e-dolore",
+          "nome": "Raffica di Guarigione e Dolore",
+          "livello": 11,
+          "testo": [
+            {
+              "pagina": 128,
+              "da": "Livello 11: Raffica di Guarigione e Dolore",
+              "a": "Livello 17: Mano della Misericordia Suprema"
+            }
+          ],
+          "pagina": 128,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-della-misericordia:privilegio:17-mano-della-misericordia-suprema",
+          "nome": "Mano della Misericordia Suprema",
+          "livello": 17,
+          "testo": [
+            {
+              "pagina": 128,
+              "da": "Livello 17: Mano della Misericordia Suprema",
+              "a": "Guerriero dell'Ombra"
+            }
+          ],
+          "pagina": 128,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:monaco:sottoclasse:guerriero-dell-ombra",
+      "tipo": "sottoclasse",
+      "classe": "Monaco",
+      "nome": "Guerriero dell'Ombra",
+      "testo": [{ "pagina": 129, "da": "Guerriero dell'Ombra", "a": "Livello 3: Arti dell'Ombra" }],
+      "correzioni": [
+        [
+          "Poni ilpotere delle ombrealservizio dellafurtività e del sotterfugio I Guerrieri",
+          "Poni il potere delle ombre al servizio della furtività e del sotterfugio\n\nI Guerrieri"
+        ]
+      ],
+      "pagina": 129,
+      "privilegi": [
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-dell-ombra:privilegio:3-arti-dell-ombra",
+          "nome": "Arti dell'Ombra",
+          "livello": 3,
+          "testo": [{ "pagina": 129, "da": "Livello 3: Arti dell'Ombra", "a": "Livello 6: Passo d'Ombra" }],
+          "correzioni": [
+            [
+              "in uno spazio entro 18 metri da sé all'inizio di ogni suo turno. Scurovisione.",
+              "in uno spazio entro 18 metri da sé all'inizio di ogni suo turno.\n\nScurovisione."
+            ]
+          ],
+          "pagina": 129,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-dell-ombra:privilegio:6-passo-d-ombra",
+          "nome": "Passo d'Ombra",
+          "livello": 6,
+          "testo": [{ "pagina": 129, "da": "Livello 6: Passo d'Ombra", "a": "Livello 11: Passo d'Ombra Migliorato" }],
+          "pagina": 129,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-dell-ombra:privilegio:11-passo-d-ombra-migliorato",
+          "nome": "Passo d'Ombra Migliorato",
+          "livello": 11,
+          "testo": [{ "pagina": 129, "da": "Livello 11: Passo d'Ombra Migliorato", "a": "Livello 17: Manto di Ombre" }],
+          "pagina": 129,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:monaco:sottoclasse:guerriero-dell-ombra:privilegio:17-manto-di-ombre",
+          "nome": "Manto di Ombre",
+          "livello": 17,
+          "testo": [{ "pagina": 129, "da": "Livello 17: Manto di Ombre", "finePagina": true }],
+          "correzioni": [
+            [
+              "viene spostato nell'ultimo spazio libero che ha occupato. Raffica di ombre.",
+              "viene spostato nell'ultimo spazio libero che ha occupato.\n\nRaffica di ombre."
+            ]
+          ],
+          "pagina": 129,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
