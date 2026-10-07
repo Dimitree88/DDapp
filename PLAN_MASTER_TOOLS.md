@@ -33,6 +33,9 @@ Scelte permanenti di classe, talenti, privilegi e avanzamento appartengono ai
 wizard di creazione e cambio livello, non ai controlli rapidi del Master.
 Il riposo è disponibile anche nella scheda del singolo personaggio: la vista
 Master aggiunge il comando collettivo, non ne diventa l'unica via.
+L'assetto delle mani e il flusso di attacco seguono
+`PLAN_ARMI_ATTACCHI.md`: cambiare arma impugnata è un evento di gioco,
+distinto dal cambio delle armi scelte per la Padronanza al riposo lungo.
 
 ## Ciclo di vita della Sessione
 

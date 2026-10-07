@@ -1,5 +1,10 @@
 # Piano per il wizard di cambio livello
 
+L'assetto delle armi impugnate e il flusso di attacco sono descritti in
+`PLAN_ARMI_ATTACCHI.md`. Il cambio livello può aggiungere competenze,
+Padronanze e privilegi che modificano gli attacchi, ma non cambia da solo
+le armi in mano.
+
 ## Obiettivo e decisioni
 
 Un tocco sulla freccia ↑ accanto al livello apre la conferma di avanzamento. Il
