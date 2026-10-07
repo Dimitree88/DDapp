@@ -30,7 +30,7 @@ export function sottoclassiDi(classe: string): VoceSottoclasse[] {
 }
 
 const confrontaPrivilegi = (padre: string, privilegi: Privilegio[], concessioni: Concessione[]) =>
-  JSON.stringify(privilegi.map((item) => [item.livello, item.nome, item.pagina])) === JSON.stringify(concessioni.map((item) => [item.level, item.name, item.page]))
+  JSON.stringify(privilegi.map((item) => [item.livello, item.nome, item.pagina])) === JSON.stringify(concessioni.map((item) => [item.level, item.name.trim(), item.page]))
     ? [] : [`${padre}: privilegi diversi da class/subclass-feature-grants`];
 
 // Tratti della classe confrontati con i dati dell'app.

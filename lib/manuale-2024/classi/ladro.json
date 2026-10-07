@@ -4,5 +4,615 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:ladro",
+      "tipo": "classe",
+      "nome": "Ladro",
+      "testo": [
+        {
+          "pagina": 101,
+          "da": "LADRI SI AFFIDANO ALL'ASTUZIA",
+          "includiDa": true,
+          "a": "Privilegi di classe del ladro"
+        }
+      ],
+      "correzioni": [
+        [
+          "LADRI SI AFFIDANO ALL'ASTUZIA, ALLA FURTIVITÀ e alla",
+          "I ladri si affidano all'astuzia, alla furtività e alla"
+        ],
+        [
+          "per avere la meglio\n\n1 ché ogni problema e alcuni di loro imparano persino dei trucchi magici in supporto alle proprie abilità. Molti ladri in ogni situazione. Sono in grado di risolvere presso\n\nsi concentrano",
+          "per avere la meglio in ogni situazione. Sono in grado di risolvere pressoché ogni problema e alcuni di loro imparano persino dei trucchi magici in supporto alle proprie abilità. Molti ladri si concentrano"
+        ],
+        ["DI 1o LIVELLO", "DI 1° LIVELLO"],
+        ["Privilegi del ladro.\n\n\" ---5========'67 8", "Privilegi del ladro."]
+      ],
+      "pagina": 101,
+      "pagine": [100, 102, 103],
+      "tabelle": [
+        {
+          "titolo": "Tratti del ladro",
+          "pagina": 101,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Destrezza"],
+            ["Dado Vita", "D8 per ogni livello da ladro"],
+            ["Competenze nei tiri salvezza", "Destrezza e Intelligenza"],
+            [
+              "Competenze nelle abilità",
+              "Quattro a scelta tra: Acrobazia, Atletica, Furtività, Indagare, Inganno, Intimidire, Intuizione, Percezione, Persuasione o Rapidità di Mano"
+            ],
+            ["Competenza nelle armi", "Armi semplici e armi da guerra con la proprietà accurata o leggera"],
+            ["Competenza negli strumenti", "Arnesi da scasso"],
+            ["Competenza nelle armature", "Armature leggere"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Un'armatura di cuoio, 2 pugnali, spada corta, arco corto, 20 frecce, faretra, arnesi da scasso, dotazione da scassinatore e 8 mo; o (B) 100 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del ladro",
+          "pagina": 102,
+          "colonne": ["Livello", "Bonus di competenza", "Privilegi di classe", "Attacco furtivo"],
+          "righe": [
+            ["1", "+2", "Attacco furtivo, Gergo ladresco, Maestria, Padronanza d'armi", "1d6"],
+            ["2", "+2", "Azione scaltra", "1d6"],
+            ["3", "+2", "Mira ferma, Sottoclasse del ladro", "2d6"],
+            ["4", "+2", "Aumento dei punteggi di caratteristica", "2d6"],
+            ["5", "+3", "Colpo astuto, Schivata prodigiosa", "3d6"],
+            ["6", "+3", "Maestria", "3d6"],
+            ["7", "+3", "Dote affidabile, Elusione", "4d6"],
+            ["8", "+3", "Aumento dei punteggi di caratteristica", "4d6"],
+            ["9", "+4", "Privilegio della sottoclasse", "5d6"],
+            ["10", "+4", "Aumento dei punteggi di caratteristica", "5d6"],
+            ["11", "+4", "Colpo astuto migliorato", "6d6"],
+            ["12", "+4", "Aumento dei punteggi di caratteristica", "6d6"],
+            ["13", "+5", "Privilegio della sottoclasse", "7d6"],
+            ["14", "+5", "Colpi infidi", "7d6"],
+            ["15", "+5", "Mente sfuggente", "8d6"],
+            ["16", "+5", "Aumento dei punteggi di caratteristica", "8d6"],
+            ["17", "+6", "Privilegio della sottoclasse", "9d6"],
+            ["18", "+6", "Inafferrabile", "9d6"],
+            ["19", "+6", "Dono epico", "10d6"],
+            ["20", "+6", "Colpo di fortuna", "10d6"]
+          ]
+        }
+      ],
+      "dadoVita": "D8",
+      "caratteristicaPrimaria": "Destrezza",
+      "tiriSalvezza": ["DES", "INT"],
+      "competenze": {
+        "abilita": {
+          "numero": 4,
+          "scelte": [
+            "Acrobazia",
+            "Atletica",
+            "Furtività",
+            "Indagare",
+            "Inganno",
+            "Intimidire",
+            "Intuizione",
+            "Percezione",
+            "Persuasione",
+            "Rapidità di Mano"
+          ]
+        },
+        "armi": ["Armi semplici", "Armi da guerra accurate o leggere"],
+        "armature": ["Leggere"],
+        "strumenti": ["Arnesi da scasso"]
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Un'armatura di cuoio, 2 pugnali, spada corta, arco corto, 20 frecce, faretra, arnesi da scasso, dotazione da scassinatore e 8 mo; o (B) 100 mo",
+      "privilegi": [
+        {
+          "id": "classe:ladro:privilegio:1-attacco-furtivo",
+          "nome": "Attacco Furtivo",
+          "livello": 1,
+          "testo": [{ "pagina": 101, "da": "Livello 1: Attacco Furtivo", "a": "Livello 1: Gergo Ladresco" }],
+          "correzioni": [["I J\n\nIl ladro sa come colpire", "Il ladro sa come colpire"]],
+          "pagina": 101,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:1-gergo-ladresco",
+          "nome": "Gergo Ladresco",
+          "livello": 1,
+          "testo": [{ "pagina": 101, "da": "Livello 1: Gergo Ladresco", "a": "Livello 1: Maestria" }],
+          "pagina": 101,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:1-maestria",
+          "nome": "Maestria",
+          "livello": 1,
+          "testo": [{ "pagina": 101, "da": "Livello 1: Maestria", "a": "Livello 1: Padronanza d'Armi" }],
+          "pagina": 101,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:1-padronanza-d-armi",
+          "nome": "Padronanza d'Armi",
+          "livello": 1,
+          "testo": [{ "pagina": 101, "da": "Livello 1: Padronanza d'Armi", "a": "Livello 2: Azione Scaltra" }],
+          "pagina": 101,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:2-azione-scaltra",
+          "nome": "Azione Scaltra",
+          "livello": 2,
+          "testo": [{ "pagina": 101, "da": "Livello 2: Azione Scaltra", "a": "Livello 3: Mira Ferma" }],
+          "pagina": 101,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:3-mira-ferma",
+          "nome": "Mira Ferma",
+          "livello": 3,
+          "testo": [{ "pagina": 101, "da": "Livello 3: Mira Ferma", "a": "PRIVILEGI DEL LADRO" }],
+          "pagina": 101,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:3-sottoclasse-del-ladro",
+          "nome": "Sottoclasse del Ladro",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 102,
+              "da": "Livello 3: Sottoclasse del Ladro",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 102,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 102,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Colpo Astuto"
+            }
+          ],
+          "pagina": 102,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:5-colpo-astuto",
+          "nome": "Colpo Astuto",
+          "livello": 5,
+          "testo": [{ "pagina": 102, "da": "Livello 5: Colpo Astuto", "a": "Livello 5: Schivata Prodigiosa" }],
+          "correzioni": [
+            [
+              "competenza.\n\n1d6 1d6 2d6 2d6 3d6 3d6 4d6 4d6 Sd6 Sd6 6d6 6d6 7d6 7d6 8d6 8d6 9d6 9d6 10d6 10d6\n\nInciampo",
+              "competenza.\n\nInciampo"
+            ],
+            ["prona. Ritirata (costo: 1d6).", "prona.\n\nRitirata (costo: 1d6)."]
+          ],
+          "pagina": 102,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:5-schivata-prodigiosa",
+          "nome": "Schivata Prodigiosa",
+          "livello": 5,
+          "testo": [{ "pagina": 102, "da": "Livello 5: Schivata Prodigiosa", "a": "Livello 7: Dote Affidabile" }],
+          "pagina": 102,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:7-dote-affidabile",
+          "nome": "Dote Affidabile",
+          "livello": 7,
+          "testo": [{ "pagina": 102, "da": "Livello 7: Dote Affidabile", "a": "Livello 7: Elusione" }],
+          "pagina": 102,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:7-elusione",
+          "nome": "Elusione",
+          "livello": 7,
+          "testo": [{ "pagina": 102, "da": "Livello 7: Elusione", "a": "Livello 11: Colpo Astuto Migliorato" }],
+          "pagina": 102,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:11-colpo-astuto-migliorato",
+          "nome": "Colpo Astuto Migliorato",
+          "livello": 11,
+          "testo": [{ "pagina": 103, "da": "Livello 11: Colpo Astuto Migliorato", "a": "Livello 14: Colpi Infidi" }],
+          "pagina": 103,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:14-colpi-infidi",
+          "nome": "Colpi Infidi",
+          "livello": 14,
+          "testo": [{ "pagina": 103, "da": "Livello 14: Colpi Infidi", "a": "Livello 15: Mente Sfuggente" }],
+          "pagina": 103,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:15-mente-sfuggente",
+          "nome": "Mente Sfuggente",
+          "livello": 15,
+          "testo": [{ "pagina": 103, "da": "Livello 15: Mente Sfuggente", "a": "Livello 18: Inafferrabile" }],
+          "pagina": 103,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:18-inafferrabile",
+          "nome": "Inafferrabile",
+          "livello": 18,
+          "testo": [{ "pagina": 103, "da": "Livello 18: Inafferrabile", "a": "Livello 19: Dono Epico" }],
+          "pagina": 103,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 103, "da": "Livello 19: Dono Epico", "a": "Livello 20: Colpo di Fortuna" }],
+          "pagina": 103,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:privilegio:20-colpo-di-fortuna",
+          "nome": "Colpo di Fortuna",
+          "livello": 20,
+          "testo": [{ "pagina": 103, "da": "Livello 20: Colpo di Fortuna", "a": "Sottoclassi del Ladro" }],
+          "pagina": 103,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:ladro:sottoclasse:assassino",
+      "tipo": "sottoclasse",
+      "classe": "Ladro",
+      "nome": "Assassino",
+      "testo": [{ "pagina": 104, "da": "Assassino", "n": 2, "a": "Livello 3: Arnesi dell'Assassino" }],
+      "correzioni": [
+        [
+          "Padroneggia l'oscura arte della morte L'addestramento",
+          "Padroneggia l'oscura arte della morte\n\nL'addestramento"
+        ]
+      ],
+      "pagina": 104,
+      "privilegi": [
+        {
+          "id": "classe:ladro:sottoclasse:assassino:privilegio:3-arnesi-dell-assassino",
+          "nome": "Arnesi dell'Assassino",
+          "livello": 3,
+          "testo": [{ "pagina": 104, "da": "Livello 3: Arnesi dell'Assassino", "a": "Livello 3: Assassinare" }],
+          "pagina": 104,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:assassino:privilegio:3-assassinare",
+          "nome": "Assassinare",
+          "livello": 3,
+          "testo": [{ "pagina": 104, "da": "Livello 3: Assassinare", "a": "Livello 9: Maestro Infiltrato " }],
+          "pagina": 104,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:assassino:privilegio:9-maestro-infiltrato",
+          "nome": "Maestro Infiltrato",
+          "livello": 9,
+          "testo": [{ "pagina": 104, "da": "Livello 9: Maestro Infiltrato ", "a": "Livello 13: Avvelenare Armi" }],
+          "pagina": 104,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:assassino:privilegio:13-avvelenare-armi",
+          "nome": "Avvelenare Armi",
+          "livello": 13,
+          "testo": [{ "pagina": 104, "da": "Livello 13: Avvelenare Armi", "a": "Livello 17: Colpo di Morte" }],
+          "pagina": 104,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:assassino:privilegio:17-colpo-di-morte",
+          "nome": "Colpo di Morte",
+          "livello": 17,
+          "testo": [{ "pagina": 104, "da": "Livello 17: Colpo di Morte", "a": "Furfante" }],
+          "pagina": 104,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:ladro:sottoclasse:furfante",
+      "tipo": "sottoclasse",
+      "classe": "Ladro",
+      "nome": "Furfante",
+      "testo": [{ "pagina": 105, "da": "Furfante", "a": "Livello 3: Lavoro al Secondo Piano" }],
+      "correzioni": [
+        [
+          "Vaia cacciaditesori neipannidiun autentico avventuriero Grazie",
+          "Vai a caccia di tesori nei panni di un autentico avventuriero\n\nGrazie"
+        ]
+      ],
+      "pagina": 105,
+      "privilegi": [
+        {
+          "id": "classe:ladro:sottoclasse:furfante:privilegio:3-lavoro-al-secondo-piano",
+          "nome": "Lavoro al Secondo Piano",
+          "livello": 3,
+          "testo": [{ "pagina": 105, "da": "Livello 3: Lavoro al Secondo Piano", "a": "Livello 3: Mani Veloci" }],
+          "pagina": 105,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:furfante:privilegio:3-mani-veloci",
+          "nome": "Mani Veloci",
+          "livello": 3,
+          "testo": [{ "pagina": 105, "da": "Livello 3: Mani Veloci", "a": "Livello 9: Furtività Suprema" }],
+          "pagina": 105,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:furfante:privilegio:9-furtivita-suprema",
+          "nome": "Furtività Suprema",
+          "livello": 9,
+          "testo": [{ "pagina": 105, "da": "Livello 9: Furtività Suprema", "a": "Livello 13: Usare Oggetto Magico" }],
+          "pagina": 105,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:furfante:privilegio:13-usare-oggetto-magico",
+          "nome": "Usare Oggetto Magico",
+          "livello": 13,
+          "testo": [
+            {
+              "pagina": 105,
+              "da": "Livello 13: Usare Oggetto Magico",
+              "a": "Livello 17: Riflessi da Furfante"
+            }
+          ],
+          "correzioni": [["In caso,di fallimento", "In caso di fallimento"]],
+          "pagina": 105,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:furfante:privilegio:17-riflessi-da-furfante",
+          "nome": "Riflessi da Furfante",
+          "livello": 17,
+          "testo": [{ "pagina": 105, "da": "Livello 17: Riflessi da Furfante", "a": "Lama Spirituale" }],
+          "pagina": 105,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:ladro:sottoclasse:lama-spirituale",
+      "tipo": "sottoclasse",
+      "classe": "Ladro",
+      "nome": "Lama Spirituale",
+      "testo": [{ "pagina": 106, "da": "Lama Spirituale", "a": "Livello 3: Lame Psichiche" }],
+      "correzioni": [
+        [
+          "Abbatti i nemici conletue lamepsioniche Una Lama",
+          "Abbatti i nemici con le tue lame psioniche\n\nUna Lama"
+        ]
+      ],
+      "pagina": 106,
+      "privilegi": [
+        {
+          "id": "classe:ladro:sottoclasse:lama-spirituale:privilegio:3-lame-psichiche",
+          "nome": "Lame Psichiche",
+          "livello": 3,
+          "testo": [{ "pagina": 106, "da": "Livello 3: Lame Psichiche", "a": "Livello 3: Potere Psionico" }],
+          "correzioni": [["Padronanza d'armi) La lama svanisce", "Padronanza d'armi)\n\nLa lama svanisce"]],
+          "pagina": 106,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:lama-spirituale:privilegio:3-potere-psionico",
+          "nome": "Potere Psionico",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 106,
+              "da": "Livello 3: Potere Psionico",
+              "a": "DADO DI ENERGIA DELLA LAMA SPIRITUALE",
+              "na": 2
+            },
+            {
+              "pagina": 106,
+              "da": "Qualunque privilegio di questa sottoclasse",
+              "includiDa": true,
+              "a": "Livello 9: Lame dell'Anima"
+            }
+          ],
+          "correzioni": [
+            [
+              "di sé. È rappresentata dal suo dado di Energia Psionica, Il personaggio attinge a una fonte di energia psionica dentro che alimenta determinati poteri forniti da questa sottoclasse.",
+              "Il personaggio attinge a una fonte di energia psionica dentro di sé. È rappresentata dal suo dado di Energia Psionica, che alimenta determinati poteri forniti da questa sottoclasse."
+            ],
+            ["riposo lungo.\n\nAbilità psicorinforzata.", "riposo lungo.\n\nAbilità psicorinforzata."],
+            ["Sussurripsichici.", "Sussurri psichici."]
+          ],
+          "tabelle": [
+            {
+              "titolo": "Dado di energia della Lama Spirituale",
+              "pagina": 106,
+              "colonne": ["Livello da ladro", "Tipo di dado", "Numero"],
+              "righe": [
+                ["3", "D6", "4"],
+                ["5", "D8", "6"],
+                ["9", "D8", "8"],
+                ["11", "D10", "8"],
+                ["13", "D10", "10"],
+                ["17", "D12", "12"]
+              ]
+            }
+          ],
+          "pagina": 106,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:lama-spirituale:privilegio:9-lame-dell-anima",
+          "nome": "Lame dell'Anima",
+          "livello": 9,
+          "testo": [{ "pagina": 107, "da": "Livello 9: Lame dell'Anima", "a": "Livello 13: Velo Psichico" }],
+          "correzioni": [["Colpiguidati.", "Colpi guidati."]],
+          "pagina": 107,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:lama-spirituale:privilegio:13-velo-psichico",
+          "nome": "Velo Psichico",
+          "livello": 13,
+          "testo": [{ "pagina": 107, "da": "Livello 13: Velo Psichico", "a": "Livello 17: Squarciare la Mente" }],
+          "pagina": 107,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:lama-spirituale:privilegio:17-squarciare-la-mente",
+          "nome": "Squarciare la Mente",
+          "livello": 17,
+          "testo": [{ "pagina": 107, "da": "Livello 17: Squarciare la Mente", "a": "Mistificatore Arcano" }],
+          "pagina": 107,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:ladro:sottoclasse:mistificatore-arcano",
+      "tipo": "sottoclasse",
+      "classe": "Ladro",
+      "nome": "Mistificatore Arcano",
+      "testo": [
+        {
+          "pagina": 108,
+          "da": "Mistificatore Arcano",
+          "a": "Livello 3: Gioco di Prestigio della Mano Magica"
+        }
+      ],
+      "correzioni": [
+        [
+          "Amplificaletue dotifurtive con incantesimiarcani Alcuni",
+          "Amplifica le tue doti furtive con incantesimi arcani\n\nAlcuni"
+        ]
+      ],
+      "pagina": 108,
+      "privilegi": [
+        {
+          "id": "classe:ladro:sottoclasse:mistificatore-arcano:privilegio:3-gioco-di-prestigio-della-mano-magica",
+          "nome": "Gioco di Prestigio della Mano Magica",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 108,
+              "da": "Livello 3: Gioco di Prestigio della Mano Magica",
+              "a": "Livello 3: Incantesimi"
+            }
+          ],
+          "pagina": 108,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:mistificatore-arcano:privilegio:3-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 108,
+              "da": "Livello 3: Incantesimi",
+              "a": "INCANTESIMI DEL MISTIFICATORE ARCANO",
+              "na": 4
+            }
+          ],
+          "correzioni": [
+            ["manomagica", "mano magica"],
+            ["Slotincantesimo.", "Slot incantesimo."],
+            [
+              "Incantesimipreparati di 1° livello o superiore.\n\nCon questo",
+              "Incantesimi preparati di 1° livello o superiore. Con questo"
+            ],
+            ["charmesupersone", "charme su persone"],
+            ["camuffaresestesso", "camuffare se stesso"],
+            ["Cambiare gli incantesimipreparati.", "Cambiare gli incantesimi preparati."]
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Mistificatore Arcano",
+              "pagina": 109,
+              "colonne": ["Livello da ladro", "Incantesimi preparati", "1", "2", "3", "4"],
+              "righe": [
+                ["3", "3", "2", "—", "—", "—"],
+                ["4", "4", "3", "—", "—", "—"],
+                ["5", "4", "3", "—", "—", "—"],
+                ["6", "4", "3", "—", "—", "—"],
+                ["7", "5", "4", "2", "—", "—"],
+                ["8", "6", "4", "2", "—", "—"],
+                ["9", "6", "4", "2", "—", "—"],
+                ["10", "7", "4", "3", "—", "—"],
+                ["11", "8", "4", "3", "—", "—"],
+                ["12", "8", "4", "3", "—", "—"],
+                ["13", "9", "4", "3", "2", "—"],
+                ["14", "10", "4", "3", "2", "—"],
+                ["15", "10", "4", "3", "2", "—"],
+                ["16", "11", "4", "3", "3", "—"],
+                ["17", "11", "4", "3", "3", "—"],
+                ["18", "11", "4", "3", "3", "—"],
+                ["19", "12", "4", "3", "3", "1"],
+                ["20", "13", "4", "3", "3", "1"]
+              ]
+            }
+          ],
+          "pagina": 108,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:mistificatore-arcano:privilegio:9-imboscata-magica",
+          "nome": "Imboscata Magica",
+          "livello": 9,
+          "testo": [{ "pagina": 109, "da": "Livello 9: Imboscata Magica", "a": "Livello 13: Ingannatore Versatile" }],
+          "pagina": 109,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:mistificatore-arcano:privilegio:13-ingannatore-versatile",
+          "nome": "Ingannatore Versatile",
+          "livello": 13,
+          "testo": [
+            {
+              "pagina": 109,
+              "da": "Livello 13: Ingannatore Versatile",
+              "a": "Livello 17: Ladro di Incantesimi"
+            }
+          ],
+          "pagina": 109,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:ladro:sottoclasse:mistificatore-arcano:privilegio:17-ladro-di-incantesimi",
+          "nome": "Ladro di Incantesimi",
+          "livello": 17,
+          "testo": [{ "pagina": 109, "da": "Livello 17: Ladro di Incantesimi", "finePagina": true }],
+          "correzioni": [
+            ["cono- scenze", "conoscenze"],
+            ["equi- vale", "equivale"],
+            ["dell'incan- tesimo", "dell'incantesimo"]
+          ],
+          "pagina": 109,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
