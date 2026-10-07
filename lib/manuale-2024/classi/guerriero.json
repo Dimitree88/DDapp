@@ -3,6 +3,671 @@
   "modulo": "C05",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:opzioni-di-manovra",
+      "tipo": "etichetta",
+      "nome": "Opzioni di manovra",
+      "alias": ["Manovre"],
+      "testo": [
+        { "pagina": 98, "da": "Opzioni di Manovra", "finePagina": true },
+        { "pagina": 99, "da": "Attacco con spazzata", "includiDa": true, "finePagina": true }
+      ],
+      "correzioni": [
+        ["Attacco con.finta.", "Attacco con finta."],
+        ["Attacco conspinta.", "Attacco con spinta."],
+        ["bersagliodeve", "bersaglio deve"],
+        ["aggiungerlo al tiro. Replica.", "aggiungerlo al tiro.\n\nReplica."]
+      ],
+      "pagina": 98,
+      "pagine": [99],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "classe:guerriero",
+      "tipo": "classe",
+      "nome": "Guerriero",
+      "testo": [
+        {
+          "pagina": 91,
+          "da": "Padroneggiano varie tecniche",
+          "includiDa": true,
+          "a": "Privilegi di classe del"
+        }
+      ],
+      "correzioni": [
+        [
+          "Padroneggiano varie tecniche",
+          "I guerrieri dominano molti campi di battaglia. Cavalieri votati a una causa, campioni possenti, soldati specializzati e mercenari incalliti... in quanto guerrieri, tutte queste figure condividono una maestria ineguagliata nell'uso delle armi e delle armature. E conoscono bene la morte, che infliggono e sfidano.\n\nPadroneggiano varie tecniche"
+        ],
+        ["strumentogiusto", "strumento giusto"],
+        ["dellatabella", "della tabella"],
+        ["guerriero.\n\n'. \"- ------ __ - \"\"", "guerriero."]
+      ],
+      "pagina": 91,
+      "pagine": [90, 92],
+      "tabelle": [
+        {
+          "titolo": "Tratti del guerriero",
+          "pagina": 91,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Forza o Destrezza"],
+            ["Dado Vita", "D10 per ogni livello da guerriero"],
+            ["Competenze nei tiri salvezza", "Forza e Costituzione"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Acrobazia, Addestrare Animali, Atletica, Intimidire, Intuizione, Percezione, Persuasione, Sopravvivenza o Storia"
+            ],
+            ["Competenza nelle armi", "Armi semplici e da guerra"],
+            ["Competenza nelle armature", "Armature leggere, medie e pesanti; scudi"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A, B e C: (A) Una cotta di maglia, uno spadone, un mazzafrusto, 8 giavellotti, una dotazione da avventuriero e 4 mo; o (B) un'armatura di cuoio borchiato, una scimitarra, una spada corta, un arco lungo, 20 frecce, una faretra, una dotazione da avventuriero e 11 mo; o (C) 155 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del guerriero",
+          "pagina": 92,
+          "colonne": ["Livello", "Bonus di competenza", "Privilegi di classe", "Recuperare energie", "Padronanza d'armi"],
+          "righe": [
+            ["1", "+2", "Padronanza d'armi, recuperare energie e stile di combattimento", "2", "3"],
+            ["2", "+2", "Azione impetuosa (un utilizzo), mente tattica", "2", "3"],
+            ["3", "+2", "Sottoclasse del guerriero", "2", "3"],
+            ["4", "+2", "Aumento dei punteggi di caratteristica", "3", "4"],
+            ["5", "+3", "Attacco extra, spostamento tattico", "3", "4"],
+            ["6", "+3", "Aumento dei punteggi di caratteristica", "3", "4"],
+            ["7", "+3", "Privilegio della sottoclasse", "3", "4"],
+            ["8", "+3", "Aumento dei punteggi di caratteristica", "3", "4"],
+            ["9", "+4", "Indomabile (un utilizzo), signore delle tattiche", "3", "4"],
+            ["10", "+4", "Privilegio della sottoclasse", "4", "5"],
+            ["11", "+4", "Due attacchi extra", "4", "5"],
+            ["12", "+4", "Aumento dei punteggi di caratteristica", "4", "5"],
+            ["13", "+5", "Attacchi studiati, indomabile (due utilizzi)", "4", "5"],
+            ["14", "+5", "Aumento dei punteggi di caratteristica", "4", "5"],
+            ["15", "+5", "Privilegio della sottoclasse", "4", "5"],
+            ["16", "+5", "Aumento dei punteggi di caratteristica", "4", "6"],
+            ["17", "+6", "Azione impetuosa (due utilizzi), indomabile (tre utilizzi)", "4", "6"],
+            ["18", "+6", "Privilegio della sottoclasse", "4", "6"],
+            ["19", "+6", "Dono epico", "4", "6"],
+            ["20", "+6", "Tre attacchi extra", "4", "6"]
+          ]
+        }
+      ],
+      "dadoVita": "D10",
+      "caratteristicaPrimaria": "Forza o Destrezza",
+      "tiriSalvezza": ["FOR", "COS"],
+      "competenze": {
+        "abilita": {
+          "numero": 2,
+          "scelte": [
+            "Acrobazia",
+            "Addestrare Animali",
+            "Atletica",
+            "Intimidire",
+            "Intuizione",
+            "Percezione",
+            "Persuasione",
+            "Sopravvivenza",
+            "Storia"
+          ]
+        },
+        "armi": ["Armi semplici", "Armi da guerra"],
+        "armature": ["Leggere", "Medie", "Pesanti", "Scudi"],
+        "strumenti": []
+      },
+      "equipaggiamentoIniziale": "A scelta tra A, B e C: (A) Una cotta di maglia, uno spadone, un mazzafrusto, 8 giavellotti, una dotazione da avventuriero e 4 mo; o (B) un'armatura di cuoio borchiato, una scimitarra, una spada corta, un arco lungo, 20 frecce, una faretra, una dotazione da avventuriero e 11 mo; o (C) 155 mo",
+      "privilegi": [
+        {
+          "id": "classe:guerriero:privilegio:1-padronanza-d-armi",
+          "nome": "Padronanza d'Armi",
+          "livello": 1,
+          "testo": [{ "pagina": 91, "da": "Livello 1: Padronanza d'Armi", "a": "Livello 1: Recuperare Energie" }],
+          "pagina": 91,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:1-recuperare-energie",
+          "nome": "Recuperare Energie",
+          "livello": 1,
+          "testo": [{ "pagina": 91, "da": "Livello 1: Recuperare Energie", "a": "Livello 1: Stile di Combattimento" }],
+          "correzioni": [
+            ["resistenza · 1\nfisica", "resistenza fisica"],
+            ["pari a 1d10 più · 1 1\n\nil suo livello", "pari a 1d10 più il suo livello"]
+          ],
+          "pagina": 91,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:1-stile-di-combattimento",
+          "nome": "Stile di Combattimento",
+          "livello": 1,
+          "testo": [{ "pagina": 91, "da": "Livello 1: Stile di Combattimento", "a": "Livello 2: Azione Impetuosa" }],
+          "pagina": 91,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:2-azione-impetuosa",
+          "nome": "Azione Impetuosa",
+          "livello": 2,
+          "testo": [{ "pagina": 91, "da": "Livello 2: Azione Impetuosa", "a": "Livello 2: Mente Tattica" }],
+          "pagina": 91,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:2-mente-tattica",
+          "nome": "Mente Tattica",
+          "livello": 2,
+          "testo": [{ "pagina": 91, "da": "Livello 2: Mente Tattica", "a": "Privilegi del guerriero" }],
+          "pagina": 91,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:3-sottoclasse-del-guerriero",
+          "nome": "Sottoclasse del Guerriero",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 92,
+              "da": "Livello 3: Sottoclasse del Guerriero",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 92,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Attacco Extra"
+            }
+          ],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:5-attacco-extra",
+          "nome": "Attacco Extra",
+          "livello": 5,
+          "testo": [{ "pagina": 92, "da": "Livello 5: Attacco Extra", "a": "Livello 5: Spostamento Tattico" }],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:5-spostamento-tattico",
+          "nome": "Spostamento Tattico",
+          "livello": 5,
+          "testo": [{ "pagina": 92, "da": "Livello 5: Spostamento Tattico", "a": "Livello 9: Indomabile" }],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:9-indomabile",
+          "nome": "Indomabile",
+          "livello": 9,
+          "testo": [{ "pagina": 92, "da": "Livello 9: Indomabile", "a": "Livello 9: Signore delle Tattiche" }],
+          "correzioni": [
+            [
+              "livello da guerriero.\n\n6\n\n4 · 6\n4 · 6\n4 · 6\n\nDeve usare il nuovo risultato",
+              "livello da guerriero.\n\nDeve usare il nuovo risultato"
+            ]
+          ],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:9-signore-delle-tattiche",
+          "nome": "Signore delle Tattiche",
+          "livello": 9,
+          "testo": [{ "pagina": 92, "da": "Livello 9: Signore delle Tattiche", "a": "Livello 11: Due Attacchi Extra" }],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:11-due-attacchi-extra",
+          "nome": "Due Attacchi Extra",
+          "livello": 11,
+          "testo": [{ "pagina": 92, "da": "Livello 11: Due Attacchi Extra", "a": "Livello 13: Attacchi Studiati" }],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:13-attacchi-studiati",
+          "nome": "Attacchi Studiati",
+          "livello": 13,
+          "testo": [{ "pagina": 92, "da": "Livello 13: Attacchi Studiati", "a": "Livello 19: Dono Epico" }],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 92, "da": "Livello 19: Dono Epico", "a": "Livello 20: Tre Attacchi Extra" }],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:privilegio:20-tre-attacchi-extra",
+          "nome": "Tre Attacchi Extra",
+          "livello": 20,
+          "testo": [{ "pagina": 92, "da": "Livello 20: Tre Attacchi Extra", "a": "Sottoclassi del Guerriero" }],
+          "pagina": 92,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:guerriero:sottoclasse:campione",
+      "tipo": "sottoclasse",
+      "classe": "Guerriero",
+      "nome": "Campione",
+      "testo": [{ "pagina": 93, "da": "Campione", "n": 2, "a": "Livello 3: Atleta Straordinario" }],
+      "correzioni": [
+        [
+          "Raggiungi l'eccellenza.fisica nel combattimento Il campione",
+          "Raggiungi l'eccellenza fisica nel combattimento\n\nIl campione"
+        ]
+      ],
+      "pagina": 93,
+      "privilegi": [
+        {
+          "id": "classe:guerriero:sottoclasse:campione:privilegio:3-atleta-straordinario",
+          "nome": "Atleta Straordinario",
+          "livello": 3,
+          "testo": [{ "pagina": 93, "da": "Livello 3: Atleta Straordinario", "a": "Livello 3: Critico Migliorato" }],
+          "pagina": 93,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:campione:privilegio:3-critico-migliorato",
+          "nome": "Critico Migliorato",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 93,
+              "da": "Livello 3: Critico Migliorato",
+              "a": "Livello 7: Stile di Combattimento Aggiuntivo"
+            }
+          ],
+          "pagina": 93,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:campione:privilegio:7-stile-di-combattimento-aggiuntivo",
+          "nome": "Stile di Combattimento Aggiuntivo",
+          "livello": 7,
+          "testo": [
+            {
+              "pagina": 93,
+              "da": "Livello 7: Stile di Combattimento Aggiuntivo",
+              "a": "Livello 10: Guerriero Eroico"
+            }
+          ],
+          "pagina": 93,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:campione:privilegio:10-guerriero-eroico",
+          "nome": "Guerriero Eroico",
+          "livello": 10,
+          "testo": [{ "pagina": 93, "da": "Livello 10: Guerriero Eroico", "a": "Livello 15: Critico Superiore" }],
+          "pagina": 93,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:campione:privilegio:15-critico-superiore",
+          "nome": "Critico Superiore",
+          "livello": 15,
+          "testo": [{ "pagina": 93, "da": "Livello 15: Critico Superiore", "a": "Livello 18: Sopravvissuto" }],
+          "pagina": 93,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:campione:privilegio:18-sopravvissuto",
+          "nome": "Sopravvissuto",
+          "livello": 18,
+          "testo": [{ "pagina": 94, "da": "Livello 18: Sopravvissuto", "a": "Cavaliere Mistico" }],
+          "pagina": 94,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:guerriero:sottoclasse:cavaliere-mistico",
+      "tipo": "sottoclasse",
+      "classe": "Guerriero",
+      "nome": "Cavaliere Mistico",
+      "testo": [{ "pagina": 94, "da": "Cavaliere Mistico", "a": "Livello 3: Arma Vincolata" }],
+      "correzioni": [
+        [
+          "Affiancaleabilità di combattimento con la magia arcana Il Cavaliere",
+          "Affianca le abilità di combattimento con la magia arcana\n\nIl Cavaliere"
+        ]
+      ],
+      "pagina": 94,
+      "privilegi": [
+        {
+          "id": "classe:guerriero:sottoclasse:cavaliere-mistico:privilegio:3-arma-vincolata",
+          "nome": "Arma Vincolata",
+          "livello": 3,
+          "testo": [{ "pagina": 94, "da": "Livello 3: Arma Vincolata", "a": "Livello 3: Incantesimi" }],
+          "pagina": 94,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:cavaliere-mistico:privilegio:3-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 94,
+              "da": "Livello 3: Incantesimi",
+              "a": "INCANTESIMI DEL CAVALIERE MISTICO",
+              "na": 2
+            },
+            {
+              "pagina": 95,
+              "da": "Incantesimi preparati di 1° livello o superiore. Con questo",
+              "includiDa": true,
+              "a": "Livello 7: Magia da Guerra"
+            }
+          ],
+          "correzioni": [
+            ["capitolo 7 perle regole", "capitolo 7 per le regole"],
+            ["raggio digelo", "raggio di gelo"],
+            ["strettafolgorante", "stretta folgorante"],
+            [
+              "da mago.\n\nQuando il guerriero raggiunge il 10°",
+              "da mago. Quando il guerriero raggiunge il 10°"
+            ],
+            [
+              "mostrato nella tabella. Gli incantesimi scelti",
+              "mostrato nella tabella.\n\nGli incantesimi scelti"
+            ],
+            [
+              "in qualsiasi combinazione. Cambiare gli incantesimipreparati.",
+              "in qualsiasi combinazione.\n\nCambiare gli incantesimi preparati."
+            ]
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Cavaliere Mistico",
+              "pagina": 95,
+              "colonne": ["Livello da guerriero", "Incantesimi preparati", "1", "2", "3", "4"],
+              "righe": [
+                ["3", "3", "2", "—", "—", "—"],
+                ["4", "4", "3", "—", "—", "—"],
+                ["5", "4", "3", "—", "—", "—"],
+                ["6", "4", "3", "—", "—", "—"],
+                ["7", "5", "4", "2", "—", "—"],
+                ["8", "6", "4", "2", "—", "—"],
+                ["9", "6", "4", "2", "—", "—"],
+                ["10", "7", "4", "3", "—", "—"],
+                ["11", "8", "4", "3", "—", "—"],
+                ["12", "8", "4", "3", "—", "—"],
+                ["13", "9", "4", "3", "2", "—"],
+                ["14", "10", "4", "3", "2", "—"],
+                ["15", "10", "4", "3", "2", "—"],
+                ["16", "11", "4", "3", "3", "—"],
+                ["17", "11", "4", "3", "3", "—"],
+                ["18", "11", "4", "3", "3", "—"],
+                ["19", "12", "4", "3", "3", "1"],
+                ["20", "13", "4", "3", "3", "1"]
+              ]
+            }
+          ],
+          "pagina": 94,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:cavaliere-mistico:privilegio:7-magia-da-guerra",
+          "nome": "Magia da Guerra",
+          "livello": 7,
+          "testo": [{ "pagina": 96, "da": "Livello 7: Magia da Guerra", "a": "Livello 10: Colpo Mistico" }],
+          "pagina": 96,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:cavaliere-mistico:privilegio:10-colpo-mistico",
+          "nome": "Colpo Mistico",
+          "livello": 10,
+          "testo": [{ "pagina": 96, "da": "Livello 10: Colpo Mistico", "a": "Livello 15: Carica Arcana" }],
+          "pagina": 96,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:cavaliere-mistico:privilegio:15-carica-arcana",
+          "nome": "Carica Arcana",
+          "livello": 15,
+          "testo": [{ "pagina": 96, "da": "Livello 15: Carica Arcana", "a": "Livello 18: Magia da Guerra Migliorata" }],
+          "pagina": 96,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:cavaliere-mistico:privilegio:18-magia-da-guerra-migliorata",
+          "nome": "Magia da Guerra Migliorata",
+          "livello": 18,
+          "testo": [{ "pagina": 96, "da": "Livello 18: Magia da Guerra Migliorata", "a": "Guerriero Psionico" }],
+          "pagina": 96,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:guerriero:sottoclasse:guerriero-psionico",
+      "tipo": "sottoclasse",
+      "classe": "Guerriero",
+      "nome": "Guerriero Psionico",
+      "testo": [{ "pagina": 96, "da": "Guerriero Psionico", "a": "Livello 3: Potere Psionico" }],
+      "correzioni": [
+        [
+          "Potenzia laforza.fisica con ilpoterepsionico I guerrieri",
+          "Potenzia la forza fisica con il potere psionico\n\nI guerrieri"
+        ]
+      ],
+      "pagina": 96,
+      "privilegi": [
+        {
+          "id": "classe:guerriero:sottoclasse:guerriero-psionico:privilegio:3-potere-psionico",
+          "nome": "Potere Psionico",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 96,
+              "da": "Livello 3: Potere Psionico",
+              "a": "DADI DI ENERGIA DEL GUERRIERO PSIONICO",
+              "na": 2
+            },
+            {
+              "pagina": 96,
+              "da": "Qualunque privilegio di questa sottoclasse",
+              "includiDa": true,
+              "a": "Livello 7: Adepto Telecinetico"
+            }
+          ],
+          "correzioni": [
+            [
+              "tro di sé. È rappresentata dal suo dado di Energia Psionica, Il personaggio attinge a una fonte di energia psionica denche alimenta i poteri forniti da questa sottoclasse.",
+              "Il personaggio attinge a una fonte di energia psionica dentro di sé. È rappresentata dal suo dado di Energia Psionica, che alimenta i poteri forniti da questa sottoclasse."
+            ],
+            ["riposo lungo.\n\nCampo protettivo.", "riposo lungo.\n\nCampo protettivo."],
+            ["(riduzione minima di 1).\n\nColpo psionico.", "(riduzione minima di 1).\n\nColpo psionico."]
+          ],
+          "tabelle": [
+            {
+              "titolo": "Dadi di energia del Guerriero Psionico",
+              "pagina": 96,
+              "colonne": ["Livello da Guerriero", "Tipo di dado", "Numero"],
+              "righe": [
+                ["3", "D6", "4"],
+                ["5", "D8", "6"],
+                ["9", "D8", "8"],
+                ["11", "D10", "8"],
+                ["13", "D10", "10"],
+                ["17", "D12", "12"]
+              ]
+            }
+          ],
+          "pagina": 96,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:guerriero-psionico:privilegio:7-adepto-telecinetico",
+          "nome": "Adepto Telecinetico",
+          "livello": 7,
+          "testo": [{ "pagina": 97, "da": "Livello 7: Adepto Telecinetico", "a": "Livello 10: Scudo Mentale" }],
+          "pagina": 97,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:guerriero-psionico:privilegio:10-scudo-mentale",
+          "nome": "Scudo Mentale",
+          "livello": 10,
+          "testo": [{ "pagina": 97, "da": "Livello 10: Scudo Mentale", "a": "Livello 15: Baluardo della Forza" }],
+          "pagina": 97,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:guerriero-psionico:privilegio:15-baluardo-della-forza",
+          "nome": "Baluardo della Forza",
+          "livello": 15,
+          "testo": [
+            {
+              "pagina": 97,
+              "da": "Livello 15: Baluardo della Forza",
+              "a": "Livello 18: Maestro della Telecinesi"
+            }
+          ],
+          "correzioni": [["prima di avercompletato", "prima di aver completato"]],
+          "pagina": 97,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:guerriero-psionico:privilegio:18-maestro-della-telecinesi",
+          "nome": "Maestro della Telecinesi",
+          "livello": 18,
+          "testo": [{ "pagina": 97, "da": "Livello 18: Maestro della Telecinesi", "a": "Maestro di Battaglia" }],
+          "pagina": 97,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:guerriero:sottoclasse:maestro-di-battaglia",
+      "tipo": "sottoclasse",
+      "classe": "Guerriero",
+      "nome": "Maestro di Battaglia",
+      "testo": [{ "pagina": 97, "da": "Maestro di Battaglia", "a": "Livello 3: Studioso di Guerra" }],
+      "correzioni": [
+        [
+          "Padroneggia sofisticate manovre dibattaglia I Maestri",
+          "Padroneggia sofisticate manovre di battaglia\n\nI Maestri"
+        ]
+      ],
+      "pagina": 97,
+      "privilegi": [
+        {
+          "id": "classe:guerriero:sottoclasse:maestro-di-battaglia:privilegio:3-studioso-di-guerra",
+          "nome": "Studioso di Guerra",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 97,
+              "da": "Livello 3: Studioso di Guerra",
+              "a": "Livello 3: Superiorità in Combattimento"
+            }
+          ],
+          "pagina": 97,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:maestro-di-battaglia:privilegio:3-superiorita-in-combattimento",
+          "nome": "Superiorità in Combattimento",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 97,
+              "da": "Livello 3: Superiorità in Combattimento",
+              "a": "Livello 7: Conosci il tuo Nemico"
+            }
+          ],
+          "correzioni": [["chiamati dadi di superiorità. Manovre.", "chiamati dadi di superiorità.\n\nManovre."]],
+          "pagina": 97,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:maestro-di-battaglia:privilegio:7-conosci-il-tuo-nemico",
+          "nome": "Conosci il tuo Nemico",
+          "livello": 7,
+          "testo": [
+            {
+              "pagina": 98,
+              "da": "Livello 7: Conosci il tuo Nemico",
+              "a": "Livello 10: Superiorità in Combattimento Migliorata"
+            }
+          ],
+          "correzioni": [["(nessuna azione richiesta}.", "(nessuna azione richiesta)."]],
+          "pagina": 98,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:maestro-di-battaglia:privilegio:10-superiorita-in-combattimento-migliorata",
+          "nome": "Superiorità in Combattimento Migliorata",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 98,
+              "da": "Livello 10: Superiorità in Combattimento Migliorata",
+              "a": "Livello 15: Implacabile"
+            }
+          ],
+          "pagina": 98,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:maestro-di-battaglia:privilegio:15-implacabile",
+          "nome": "Implacabile",
+          "livello": 15,
+          "testo": [
+            {
+              "pagina": 98,
+              "da": "Livello 15: Implacabile",
+              "a": "Livello 18: Superiorità in Combattimento Suprema"
+            }
+          ],
+          "correzioni": [["quando usauna manovra", "quando usa una manovra"]],
+          "pagina": 98,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:guerriero:sottoclasse:maestro-di-battaglia:privilegio:18-superiorita-in-combattimento-suprema",
+          "nome": "Superiorità in Combattimento Suprema",
+          "livello": 18,
+          "testo": [
+            {
+              "pagina": 98,
+              "da": "Livello 18: Superiorità in Combattimento Suprema",
+              "a": "Opzioni di Manovra"
+            }
+          ],
+          "pagina": 98,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
