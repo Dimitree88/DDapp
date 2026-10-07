@@ -10,6 +10,8 @@ export type StoryDetail = { label: string; consequences?: string[] };
 export type StoryEvent = { title: string; details: StoryDetail[] };
 export type StoryChapter = { trigger: string; events: StoryEvent[] };
 
+const storyDateFormatter = new Intl.DateTimeFormat("it-IT", { dateStyle: "medium", timeZone: "Europe/Rome" });
+
 const present = (value: string | undefined) => Boolean(value?.trim());
 const unique = (values: string[]) => [...new Set(values.filter(Boolean))];
 const sourceIs = (source: string, kind: string, name: string) => source.toLocaleLowerCase("it") === `${kind}: ${name}`.toLocaleLowerCase("it");
@@ -218,6 +220,16 @@ export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"
         details: (item.consequences ?? []).map(detail),
       })),
     });
+  }
+  for (const event of sheet.eventiStoria ?? []) {
+    let chapter = chapters.find((item) => item.trigger === event.capitolo);
+    if (!chapter) {
+      chapter = { trigger: event.capitolo, events: [] };
+      chapters.push(chapter);
+    }
+    const date = new Date(event.data);
+    const datedTitle = Number.isNaN(date.getTime()) ? event.titolo : `${event.titolo} · ${storyDateFormatter.format(date)}`;
+    chapter.events.push({ title: datedTitle, details: event.dettagli.map(detail) });
   }
   return chapters;
 }

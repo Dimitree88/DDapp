@@ -207,7 +207,7 @@ function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: 
   </div>;
 }
 
-function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }: { sheet: Sheet; items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; onBundleReceived: (name: string, items: string[]) => void }) {
+function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }: { sheet: Sheet; items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; onBundleReceived: (name: string) => void }) {
   const { unlocked } = useContext(EditContext);
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
   const entries = items.map((item, index) => ({ item, index }))
@@ -231,7 +231,7 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
     {entries.map(renderItem)}
     {unlocked && <select aria-label="Aggiungi oggetto" value="" onChange={(event) => {
       const gear = gearById(event.target.value);
-      if (gear?.contents?.length) onBundleReceived(gear.name, gear.contents.map((item) => `${item.name}${(item.quantity ?? 1) > 1 ? ` ×${item.quantity}` : ""}`));
+      if (gear?.contents?.length) onBundleReceived(gear.name);
       onChange(event.target.value === "personalizzato"
         ? [...items, { nome: "", dettaglio: "", quantita: "1" }]
         : addCatalogEquipment(items, event.target.value));
@@ -305,7 +305,8 @@ export default function CharacterClient({
 }) {
   const router = useRouter();
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
-  const pendingBundleEvents = useRef<{ name: string; items: string[] }[]>([]);
+  const [localStoryEvents, setLocalStoryEvents] = useState(sheet.eventiStoria ?? []);
+  const pendingBundleEvents = useRef<{ name: string }[]>([]);
   const [name] = useState(initialName);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
@@ -483,6 +484,18 @@ export default function CharacterClient({
     saveChainRef.current = task.then(() => undefined, () => undefined);
     return task;
   }, [id, name]);
+
+  const noteBundleReceipt = (name: string) => {
+    const gear = gearByName(name);
+    if (!gear?.contents?.length) return;
+    pendingBundleEvents.current.push({ name });
+    setLocalStoryEvents((events) => [...events, {
+      capitolo: "Dotazioni ricevute",
+      titolo: `Dotazione ricevuta: ${gear.name}`,
+      dettagli: gear.contents!.map(({ name: itemName, quantity }) => `${itemName}${quantity && quantity > 1 ? ` ×${quantity}` : ""}`),
+      data: new Date().toISOString(),
+    }]);
+  };
 
   // Salvataggio automatico: a ogni modifica, con debounce. Le richieste restano in ordine.
   useEffect(() => {
@@ -766,7 +779,7 @@ export default function CharacterClient({
           <div>
             <h3 className={sectionTitle}>Oggetti</h3>
             <p className="mb-2 text-sm text-ink-soft">Peso catalogato: {inventoryWeight(sheet).knownKg} kg{carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}{inventoryWeight(sheet).unknownItems.length ? `; peso non noto per ${inventoryWeight(sheet).unknownItems.length} voci` : ""}.</p>
-            <ObjectListEditor sheet={sheet} items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })} onBundleReceived={(name, items) => pendingBundleEvents.current.push({ name, items })} />
+            <ObjectListEditor sheet={sheet} items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })} onBundleReceived={noteBundleReceipt} />
           </div>
         </div>
       ),
@@ -939,7 +952,7 @@ export default function CharacterClient({
       title: "Storia",
       body: (
         <ol className="flex flex-col gap-6 pb-4">
-          {characterStory(sheet, hitPointGains).map((chapter) => (
+          {characterStory({ ...sheet, eventiStoria: localStoryEvents }, hitPointGains).map((chapter) => (
             <li key={chapter.trigger}>
               <h2 className="mb-2 border-b border-accent/40 pb-1 text-base font-bold uppercase tracking-wide text-accent">{chapter.trigger}</h2>
               <ol className="flex flex-col gap-2">
@@ -1106,8 +1119,8 @@ export default function CharacterClient({
                                     <ul className="mt-1 list-disc space-y-1 pl-5 marker:text-accent">
                                       {group.entries.flatMap((entry) => entry.changes.map((change, index) => (
                                         <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
-                                          <span className="font-semibold">{change.field}</span>{!change.items && <>{"  "}<span>{change.before} → {change.after}</span></>}
-                                          {change.items && <ul className="mt-1 list-[circle] space-y-0.5 pl-5 text-ink-soft">{change.items.map((item, itemIndex) => <li key={itemIndex}>{item}</li>)}</ul>}
+                                          <span className="font-semibold">{change.field}</span>{"  "}
+                                          <span>{change.before} → {change.after}</span>
                                         </li>
                                       )))}
                                     </ul>

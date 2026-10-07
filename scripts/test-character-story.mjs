@@ -54,3 +54,16 @@ test("prepared spell choices appear at the level when they were made", () => {
     ["Incantesimi preparati: Cura ferite, Passo veloce"]);
   assert.ok(levelTwo.events.some((event) => event.title === "Incantesimo preparato aggiunto: Colpo intrappolante"));
 });
+
+test("automatically received equipment appears under Story and preserves its item list", () => {
+  const sheet = emptySheet();
+  sheet.eventiStoria = [{
+    capitolo: "Creazione personaggio",
+    titolo: "Dotazione ricevuta: Dotazione da sacerdote",
+    data: "2026-10-07T13:56:07.000Z",
+    dettagli: ["Zaino", "Coperta", "Razioni ×7"],
+  }];
+  const [creation] = characterStory(sheet);
+  const receipt = creation.events.find((event) => event.title.startsWith("Dotazione ricevuta: Dotazione da sacerdote"));
+  assert.deepEqual(receipt?.details, [{ label: "Zaino" }, { label: "Coperta" }, { label: "Razioni ×7" }]);
+});

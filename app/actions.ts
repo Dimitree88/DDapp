@@ -9,10 +9,11 @@ import { normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
 import { diffManualSheet, historyTimestampMs, type HistoryChange } from "@/lib/history";
 import { creationErrors } from "@/lib/creationRules";
-import { armorForEquipment } from "@/lib/equipmentSelection";
+import { addCatalogEquipment, armorForEquipment } from "@/lib/equipmentSelection";
+import { gearByName } from "@/lib/gearCatalog";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
-export type BundleReceipt = { name: string; items: string[] };
+export type BundleReceipt = { name: string };
 
 export async function deleteCharacter(id: string) {
   await db.transaction(async (tx) => {
@@ -43,13 +44,30 @@ export async function saveSheet(
   bundleReceipts: BundleReceipt[] = [],
 ): Promise<{ ok: boolean; error?: string }> {
   const cleanName = name.trim() || "Senza nome";
-  const normalized = normalizeSheet(sheet);
+  let normalized = normalizeSheet(sheet);
   const invalid = domainErrors(normalized);
   if (invalid.length) return { ok: false, error: `Valori fuori catalogo: ${invalid.join("; ")}` };
   const result = await db.transaction(async (tx) => {
     const [current] = await tx.select().from(characters).where(eq(characters.id, id));
     if (!current) return { ok: false, error: "Personaggio non trovato" };
     const previous = normalizeSheet(current.data);
+    const receiptPacks = bundleReceipts.map((receipt) => gearByName(receipt.name));
+    if (receiptPacks.some((pack) => !pack?.contents?.length)) return { ok: false, error: "Dotazione non valida." };
+    if (bundleReceipts.length) {
+      const now = new Date();
+      normalized = normalizeSheet({
+        ...normalized,
+        eventiStoria: [
+          ...(previous.eventiStoria ?? []),
+          ...receiptPacks.map((pack) => ({
+            capitolo: "Dotazioni ricevute",
+            titolo: `Dotazione ricevuta: ${pack!.name}`,
+            dettagli: pack!.contents!.map(({ name, quantity }) => `${name}${quantity && quantity > 1 ? ` ×${quantity}` : ""}`),
+            data: now.toISOString(),
+          })),
+        ],
+      });
+    }
     const locked = creationErrors(previous, normalized);
     if (locked.length) return { ok: false, error: `Scelte bloccate: ${locked.join(", ")}` };
     const protectedFields = ["livello", "puntiFeritaMax", "dadiVita", "velocita", "allineamento", "ispirazioneEroica", "puntiEsperienza"] as const;
@@ -96,18 +114,12 @@ export async function saveSheet(
       item.impugnato && armorForEquipment(item)?.category === "scudi" && Number(item.quantita ?? "1") > 0)) {
       return { ok: false, error: "Registra prima lo scudo nell'inventario." };
     }
-    const changes = [
-      ...diffManualSheet(previous, normalized),
-      ...bundleReceipts.map((receipt): HistoryChange => ({
-        field: `Dotazione ricevuta · ${receipt.name}`,
-        before: "",
-        after: "",
-        items: receipt.items,
-      })),
-    ];
+    let equipmentBeforeManual = previous.equipaggiamento;
+    for (const pack of receiptPacks) equipmentBeforeManual = addCatalogEquipment(equipmentBeforeManual, pack!.id);
+    const changes = diffManualSheet({ ...previous, equipaggiamento: equipmentBeforeManual }, normalized);
     const hasRemovedBonus = [...current.data.armi, ...current.data.equipaggiamento]
       .some((item) => Object.hasOwn(item, "bonusMagico"));
-    if (changes.length === 0 && !hasRemovedBonus && current.name === cleanName) return { ok: true };
+    if (changes.length === 0 && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName) return { ok: true };
     const now = new Date();
     await tx.update(characters).set({ name: cleanName, data: normalized, updatedAt: now }).where(eq(characters.id, id));
     if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });

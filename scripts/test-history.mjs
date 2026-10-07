@@ -36,6 +36,7 @@ test("manual history excludes creation, progression and derived values", () => {
   after.scudo = true;
   after.noteLingue = "Promemoria";
   after.equipaggiamento = [{ nome: "Torcia", dettaglio: "" }];
+  after.eventiStoria = [{ capitolo: "Dotazioni ricevute", titolo: "Dotazione ricevuta", data: "2026-10-07T13:00:00.000Z", dettagli: ["Torcia"] }];
   after.monete.oro = "3";
   after.note = "Appunto";
   assert.deepEqual(diffManualSheet(before, after), [

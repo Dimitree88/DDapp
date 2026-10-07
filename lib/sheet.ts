@@ -52,6 +52,7 @@ export type Privilegio = {
 
 export type Risorsa = { nome: string; fonte: string; massimo: number; spesi: number; ricarica: string };
 export type FonteCompetenza = { tipo: "abilita" | "tiroSalvezza" | "arma" | "armatura" | "strumento" | "lingua"; valore: string; fonte: string };
+export type EventoStoria = { capitolo: string; titolo: string; dettagli: string[]; data: string };
 
 export type Talento = {
   nome: string;
@@ -131,6 +132,7 @@ export type Sheet = {
   // Pagina: Incantesimi
   incantesimi: Incantesimo[];
   storiaIncantesimiPreparati?: { livello: number; nomi: string[] }[];
+  eventiStoria?: EventoStoria[];
   slotSpesi?: Record<string, number>;
 
   // Pagina: Monete & Note
@@ -255,6 +257,7 @@ export function emptySheet(): Sheet {
     fontiCompetenze: [],
     talenti: [],
     incantesimi: [],
+    eventiStoria: [],
     slotSpesi: {},
 
     monete: { rame: "", argento: "", electrum: "", oro: "", platino: "" },
@@ -369,6 +372,9 @@ export function normalizeSheet(value: Sheet): Sheet {
       return { nome: feat.nome, scelte: typeof feat.scelte === "string" ? feat.scelte : tools?.[1].trim() ?? "" };
     }),
     incantesimi: old.incantesimi.map((spell) => ({ nome: canonicalSpellName(spell.nome), ...(spell.fonte ? { fonte: spell.fonte } : {}), ...(spell.stato ? { stato: spell.stato } : {}), ...(spell.caratteristica ? { caratteristica: spell.caratteristica } : {}) })),
+    eventiStoria: Array.isArray(value.eventiStoria) ? value.eventiStoria
+      .filter((event): event is EventoStoria => Boolean(event && typeof event.capitolo === "string" && typeof event.titolo === "string" && typeof event.data === "string" && Array.isArray(event.dettagli)))
+      .map((event) => ({ capitolo: event.capitolo, titolo: event.titolo, data: event.data, dettagli: event.dettagli.filter((item): item is string => typeof item === "string") })) : [],
   };
   delete (normalized as Sheet & { noteClasseArmatura?: string }).noteClasseArmatura;
   delete (normalized as Sheet & { noteVelocita?: string }).noteVelocita;
