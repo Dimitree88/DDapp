@@ -5,7 +5,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { isDeepStrictEqual } from "node:util";
 import { normalizeSheet } from "../lib/sheet.ts";
-import { gearById, gearByName } from "../lib/gearCatalog.ts";
+import { gearById, gearByName, gearCatalog } from "../lib/gearCatalog.ts";
 
 dotenv.config({ path: ".env.local", quiet: true });
 if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL non impostata");
@@ -34,6 +34,10 @@ for (const row of characters.rows) {
   }
   for (const entry of historyByCharacter.get(String(row.id)) ?? []) {
     for (const change of entry.changes) {
+      const oldText = `${change.field} ${change.before} ${change.after}`.toLocaleLowerCase("it");
+      for (const gear of gearCatalog) {
+        if (gear.contents?.length && oldText.includes(gear.name.toLocaleLowerCase("it"))) packs.set(gear.name, gear);
+      }
       if (change.field !== "Equipaggiamento · aggiunta") continue;
       try {
         const added = JSON.parse(change.after);
@@ -55,7 +59,9 @@ for (const row of characters.rows) {
     };
     const matchingOriginEntry = history.find((entry) => entry.changes.some((change) =>
       change.field === "Equipaggiamento · aggiunta" && change.after.includes(`\"nome\": \"${pack.name}\"`)));
-    const existingReceipt = history.some((entry) => entry.changes.some((change) => change.field === receipt.field));
+    const matchingReceiptContext = matchingOriginEntry ?? history.find((entry) => entry.changes.some((change) =>
+      `${change.field} ${change.before} ${change.after}`.toLocaleLowerCase("it").includes(pack.name.toLocaleLowerCase("it"))));
+    const existingReceipt = history.some((entry) => entry.changes.some((change) => change.field.endsWith(receipt.field)));
     if (existingReceipt) {
       if (matchingOriginEntry) {
         historyUpdates.push({ id: String(matchingOriginEntry.id), changes: matchingOriginEntry.changes.filter((change) =>
@@ -63,9 +69,9 @@ for (const row of characters.rows) {
       }
       continue;
     }
-    if (matchingOriginEntry) {
-      historyUpdates.push({ id: String(matchingOriginEntry.id), changes: [
-        ...matchingOriginEntry.changes.filter((change) => !(change.field === "Equipaggiamento · aggiunta" && change.after.includes(`\"nome\": \"${pack.name}\"`))),
+    if (matchingReceiptContext) {
+      historyUpdates.push({ id: String(matchingReceiptContext.id), changes: [
+        ...matchingReceiptContext.changes.filter((change) => !(change.field === "Equipaggiamento · aggiunta" && change.after.includes(`\"nome\": \"${pack.name}\"`))),
         receipt,
       ] });
     } else {

@@ -5,7 +5,7 @@ import type { Sheet } from "./sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "./abilityBonus";
 import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
 import { spellDetails } from "./spells";
-import { spellcastingStats } from "./spellcasting";
+import { spellSlots, spellcastingStats } from "./spellcasting";
 import { displayedArmorClass } from "./armorClass";
 import { grantedPrivileges } from "./characterGrants";
 import { operationalReminder } from "./operationalReminders";
@@ -13,7 +13,6 @@ import { compareOptionLabels } from "./sortOptions";
 import { isArmorEquipment } from "./equipmentSelection";
 import { spellDamageNote } from "./spellDamageNotes";
 import { displayedFeatGrants, featFunctionalDetails, grantFunctionalDetails } from "./functionalDetails";
-import { equipmentExportDescription } from "./equipmentDetails";
 
 type Mapping = (typeof fields)[number];
 type RichItem = { title: string; detail?: string };
@@ -36,6 +35,11 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet
     if (key === "dc") return String(stats.dc);
     if (key === "attack") return stats.attack;
     return undefined;
+  }
+  const slotTotal = source.match(/^spellSlots\.(\d+)\.total$/);
+  if (slotTotal) {
+    const slot = spellSlots(sheet).find((entry) => entry.level === Number(slotTotal[1]));
+    return slot?.maximum ? String(slot.maximum) : undefined;
   }
   if (source === "sheet.privilegi" || source === "sheet.talenti" || source === "sheet.equipaggiamento") return undefined;
   if (source === "sheet.puntiFerita") return undefined;
@@ -282,7 +286,7 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   }
   drawRichList([byField.get("textarea_165hxzs")!], sheet.equipaggiamento.filter((item) => !isArmorEquipment(item)).sort((a, b) => compareOptionLabels(a.nome, b.nome)).map((item) => ({
     title: `${item.nome}${quantity(item.quantita)}${Number(item.quantita) > 1 && item.unita ? ` ${item.unita}` : ""}${item.indossato ? " (indossata)" : item.impugnato ? " (impugnato)" : ""}`,
-    detail: equipmentExportDescription(item.nome).slice(0, 180),
+    detail: item.dettaglio.trim().slice(0, 180),
   })));
   if (sheet.competenzeStrumenti?.length) {
     const box = { ...byField.get("textarea_158mwcp")!, x: 19, y: 730, width: 187, height: 32, source: "sheet.competenzeStrumenti" };

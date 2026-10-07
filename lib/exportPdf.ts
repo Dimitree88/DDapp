@@ -7,7 +7,6 @@ import { spellSlots, spellcastingStats } from "./spellcasting";
 import { coinTotalGold } from "./coins";
 import { carryingCapacity, inventoryWeight } from "./inventoryWeight";
 import { displayedArmorClass } from "./armorClass";
-import { equipmentExportDescription } from "./equipmentDetails";
 
 const CAR_FULL: Record<string, string> = {
   FOR: "FORZA",
@@ -426,9 +425,8 @@ export async function exportSheetPdf(name: string, sheet: Sheet): Promise<void> 
   }
   if (sheet.equipaggiamento.length) {
     sheet.equipaggiamento.forEach((e) => {
-      const description = equipmentExportDescription(e.nome);
       const personalContainer = e.contenitore ? `In: ${e.contenitore}` : "";
-      titledCard(e.nome || "—", e.quantita ? `×${e.quantita}${e.unita ? ` ${e.unita}` : ""}` : "", [e.indossato && "Indossata", e.impugnato && "Impugnato", personalContainer].filter(Boolean).join(" · "), description);
+      titledCard(e.nome || "—", e.quantita ? `×${e.quantita}${e.unita ? ` ${e.unita}` : ""}` : "", [e.indossato && "Indossata", e.impugnato && "Impugnato", personalContainer].filter(Boolean).join(" · "), e.dettaglio.trim());
     });
   } else {
     emptyNote();
