@@ -4,5 +4,655 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "classe:paladino",
+      "tipo": "classe",
+      "nome": "Paladino",
+      "testo": [
+        {
+          "pagina": 131,
+          "da": "PALADINI SONO ACCOMUNATI DAI LORO",
+          "includiDa": true,
+          "a": "Privilegi di Classe del Paladino"
+        }
+      ],
+      "correzioni": [
+        [
+          "PALADINI SONO ACCOMUNATI DAI LORO GIURAmenti, con cui si impegnano a combattere le forze\n\n1 pronunciato dinanzi all'altare di una divinità, in una radura sacra al cospetto degli spiriti della natura o in un della distruzione e della corruzione. Che sia stato\n\nmento di un paladino è un vincolo potente. È la fonte di momento di assoluta disperazione e solitudine, il giurapotere in grado di trasformare un guerriero devoto in un campione benedetto.",
+          "I paladini sono accomunati dai loro giuramenti, con cui si impegnano a combattere le forze della distruzione e della corruzione. Che sia stato pronunciato dinanzi all'altare di una divinità, in una radura sacra al cospetto degli spiriti della natura o in un momento di assoluta disperazione e solitudine, il giuramento di un paladino è un vincolo potente. È la fonte di potere in grado di trasformare un guerriero devoto in un campione benedetto."
+        ]
+      ],
+      "pagina": 131,
+      "pagine": [132, 133],
+      "tabelle": [
+        {
+          "titolo": "Tratti del paladino",
+          "pagina": 131,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Forza e Carisma"],
+            ["Dado Vita", "D10 per ogni livello da paladino"],
+            ["Competenze nei tiri salvezza", "Saggezza e Carisma"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Atletica, Intimidire, Intuizione, Medicina, Persuasione o Religione"
+            ],
+            ["Competenza nelle armi", "Armi semplici e da guerra"],
+            ["Competenza nelle armature", "Armature leggere, medie e pesanti; scudi"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Una cotta di maglia, uno scudo, una spada lunga, 6 giavellotti, un simbolo sacro, una dotazione da sacerdote e 9 mo; o (B) 150 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del paladino",
+          "pagina": 132,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Incanalare divinità",
+            "Incantesimi preparati",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "righe": [
+            [
+              "1",
+              "+2",
+              "Imposizione delle mani, incantesimi, padronanza d'armi",
+              "—",
+              "2",
+              "2",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            ["2", "+2", "Stile di combattimento, punizione del paladino", "—", "3", "2", "—", "—", "—", "—"],
+            ["3", "+2", "Incanalare divinità, sottoclasse del paladino", "2", "4", "3", "—", "—", "—", "—"],
+            ["4", "+2", "Aumento dei punteggi di caratteristica", "2", "5", "3", "—", "—", "—", "—"],
+            ["5", "+3", "Attacco extra, fido destriero", "2", "6", "4", "2", "—", "—", "—"],
+            ["6", "+3", "Aura di Protezione", "2", "6", "4", "2", "—", "—", "—"],
+            ["7", "+3", "Privilegio della sottoclasse", "2", "7", "4", "3", "—", "—", "—"],
+            ["8", "+3", "Aumento dei punteggi di caratteristica", "2", "7", "4", "3", "—", "—", "—"],
+            ["9", "+4", "Abiurare nemici", "2", "9", "4", "3", "2", "—", "—"],
+            ["10", "+4", "Aura di coraggio", "2", "9", "4", "3", "2", "—", "—"],
+            ["11", "+4", "Colpi radiosi", "3", "10", "4", "3", "3", "—", "—"],
+            ["12", "+4", "Aumento dei punteggi di caratteristica", "3", "10", "4", "3", "3", "—", "—"],
+            ["13", "+5", "—", "3", "11", "4", "3", "3", "1", "—"],
+            ["14", "+5", "Tocco rigenerante", "3", "11", "4", "3", "3", "1", "—"],
+            ["15", "+5", "Privilegio della sottoclasse", "3", "12", "4", "3", "3", "2", "—"],
+            ["16", "+5", "Aumento dei punteggi di caratteristica", "3", "12", "4", "3", "3", "2", "—"],
+            ["17", "+6", "—", "3", "14", "4", "3", "3", "3", "1"],
+            ["18", "+6", "Ampliamento dell'aura", "3", "14", "4", "3", "3", "3", "1"],
+            ["19", "+6", "Dono epico", "3", "15", "4", "3", "3", "3", "2"],
+            ["20", "+6", "Privilegio della sottoclasse", "3", "15", "4", "3", "3", "3", "2"]
+          ]
+        }
+      ],
+      "dadoVita": "D10",
+      "caratteristicaPrimaria": "Forza e Carisma",
+      "tiriSalvezza": ["SAG", "CAR"],
+      "competenze": {
+        "abilita": {
+          "numero": 2,
+          "scelte": ["Atletica", "Intimidire", "Intuizione", "Medicina", "Persuasione", "Religione"]
+        },
+        "armi": ["Armi semplici", "Armi da guerra"],
+        "armature": ["Leggere", "Medie", "Pesanti", "Scudi"],
+        "strumenti": []
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Una cotta di maglia, uno scudo, una spada lunga, 6 giavellotti, un simbolo sacro, una dotazione da sacerdote e 9 mo; o (B) 150 mo",
+      "privilegi": [
+        {
+          "id": "classe:paladino:privilegio:1-imposizione-delle-mani",
+          "nome": "Imposizione delle Mani",
+          "livello": 1,
+          "testo": [{ "pagina": 131, "da": "Livello 1: Imposizione delle Mani", "a": "Livello 1: Incantesimi" }],
+          "pagina": 131,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:1-incantesimi",
+          "nome": "Incantesimi",
+          "livello": 1,
+          "testo": [
+            { "pagina": 131, "da": "Livello 1: Incantesimi", "a": "PRIVILEGI DEL PALADINO", "na": 3 },
+            {
+              "pagina": 132,
+              "da": "Caratteristica da Incantatore",
+              "includiDa": true,
+              "a": "Livello 1: Padronanza d'Armi"
+            }
+          ],
+          "correzioni": [
+            ["Slotincantesimo.", "Slot incantesimo."],
+            ["Incantesimipreparati di 1°", "Incantesimi preparati di 1°"]
+          ],
+          "pagina": 131,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:1-padronanza-d-armi",
+          "nome": "Padronanza d'Armi",
+          "livello": 1,
+          "testo": [{ "pagina": 132, "da": "Livello 1: Padronanza d'Armi", "a": "Livello 2: Punizione del Paladino" }],
+          "pagina": 132,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:2-punizione-del-paladino",
+          "nome": "Punizione del Paladino",
+          "livello": 2,
+          "testo": [
+            {
+              "pagina": 132,
+              "da": "Livello 2: Punizione del Paladino",
+              "a": "Livello 2: Stile di Combattimento"
+            }
+          ],
+          "pagina": 132,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:2-stile-di-combattimento",
+          "nome": "Stile di Combattimento",
+          "livello": 2,
+          "testo": [
+            {
+              "pagina": 132,
+              "da": "Livello 2: Stile di Combattimento",
+              "a": "Livello 3: Incanalare Divinità"
+            }
+          ],
+          "correzioni": [
+            ["per i talenti}.", "per i talenti)."],
+            ["guida efiamma sacra", "guida e fiamma sacra"],
+            [
+              "opzione sottostante.\n\n2 · 3\n2 · 5 · 3\n2 · 6 · 4 · 2\n2 · 6 · 4 · 2\n2 · 7 · 4 · 3\n2 · 7 · 4 · 3\n2 · 9 · 4 · 3 · 2\n2 · 9 · 4 · 3 · 2\n3 · 10 · 4 · 3 · 3\n3 · 10 · 4 · 3 · 3\n3 · 11 · 4 · 3 · 3\n3 · 11 · 4 · 3 · 3\n3 · 12 · 4 · 3 · 3 · 2\n3 · 12 · 4 · 3 · 3 · 2\n3 · 14 · 4 · 3 · 3 · 3\n3 · 14 · 4 · 3 · 3 · 3\n3 · 15 · 4 · 3 · 3 · 3 · 2\n3 · 15 · 4 · 3 · 3 · 3 · 2\n\nGuerriero Benedetto.",
+              "opzione sottostante.\n\nGuerriero Benedetto."
+            ]
+          ],
+          "pagina": 132,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:3-incanalare-divinita",
+          "nome": "Incanalare Divinità",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 132,
+              "da": "Livello 3: Incanalare Divinità",
+              "a": "Livello 3: Sottoclasse del Paladino"
+            }
+          ],
+          "correzioni": [["questa classe. Percezione del Divino.", "questa classe.\n\nPercezione del Divino."]],
+          "pagina": 132,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:3-sottoclasse-del-paladino",
+          "nome": "Sottoclasse del Paladino",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 133,
+              "da": "Livello 3: Sottoclasse del Paladino",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 133,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 5: Attacco Extra"
+            }
+          ],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:5-attacco-extra",
+          "nome": "Attacco Extra",
+          "livello": 5,
+          "testo": [{ "pagina": 133, "da": "Livello 5: Attacco Extra", "a": "Livello 5: Frno DESTRIERO" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:5-fido-destriero",
+          "nome": "Fido Destriero",
+          "livello": 5,
+          "testo": [{ "pagina": 133, "da": "Livello 5: Frno DESTRIERO", "a": "Livello 6: Aura di Protezione" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:6-aura-di-protezione",
+          "nome": "Aura di Protezione",
+          "livello": 6,
+          "testo": [{ "pagina": 133, "da": "Livello 6: Aura di Protezione", "a": "Livello 9: Abiurare Nemici" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:9-abiurare-nemici",
+          "nome": "Abiurare Nemici",
+          "livello": 9,
+          "testo": [{ "pagina": 133, "da": "Livello 9: Abiurare Nemici", "a": "GIURAMENTI IN FRANTI" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:10-aura-di-coraggio",
+          "nome": "Aura di Coraggio",
+          "livello": 10,
+          "testo": [{ "pagina": 133, "da": "Livello 10: Aura di Coraggio", "a": "Livello 11: Colpi Radiosi" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:11-colpi-radiosi",
+          "nome": "Colpi Radiosi",
+          "livello": 11,
+          "testo": [{ "pagina": 133, "da": "Livello 11: Colpi Radiosi", "a": "Livello 14: Tocco Rigenerante" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:14-tocco-rigenerante",
+          "nome": "Tocco Rigenerante",
+          "livello": 14,
+          "testo": [{ "pagina": 133, "da": "Livello 14: Tocco Rigenerante", "a": "Livello 18: Ampliamento dell'Aura" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:18-ampliamento-dell-aura",
+          "nome": "Ampliamento dell'Aura",
+          "livello": 18,
+          "testo": [{ "pagina": 133, "da": "Livello 18: Ampliamento dell'Aura", "a": "Livello 19: Dono Epico" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 133, "da": "Livello 19: Dono Epico", "a": "Lista degli Incantesimi da Paladino" }],
+          "pagina": 133,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:paladino:sottoclasse:giuramento-degli-antichi",
+      "tipo": "sottoclasse",
+      "classe": "Paladino",
+      "nome": "Giuramento degli Antichi",
+      "testo": [{ "pagina": 135, "da": "Giuramento degli Antichi", "n": 2, "a": "Livello 3: Furia della Natura" }],
+      "correzioni": [
+        [
+          "Proteggi la vita e la luce del mondo Il Giuramento",
+          "Proteggi la vita e la luce del mondo\n\nIl Giuramento"
+        ],
+        ["foglie, corna odori, poiché", "foglie, corna o fiori, poiché"]
+      ],
+      "pagina": 135,
+      "privilegi": [
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-degli-antichi:privilegio:3-furia-della-natura",
+          "nome": "Furia della Natura",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 135,
+              "da": "Livello 3: Furia della Natura",
+              "a": "Livello 3: Incantesimi del Giuramento degli Antichi"
+            }
+          ],
+          "pagina": 135,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-degli-antichi:privilegio:3-incantesimi-del-giuramento-degli-antichi",
+          "nome": "Incantesimi del Giuramento degli Antichi",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 135,
+              "da": "Livello 3: Incantesimi del Giuramento degli Antichi",
+              "a": "Incantesimi del Giuramento degli Antichi",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Giuramento degli Antichi",
+              "pagina": 135,
+              "colonne": ["Livello da paladino", "Incantesimi"],
+              "righe": [
+                ["3", "Colpo intrappolante, parlare con gli animali"],
+                ["5", "Passo velato, bagliore lunare"],
+                ["9", "Crescita vegetale, protezione dall'energia"],
+                ["13", "Tempesta di ghiaccio, pelle di pietra"],
+                ["17", "Comunione con la natura, traslazione arborea"]
+              ]
+            }
+          ],
+          "pagina": 135,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-degli-antichi:privilegio:7-aura-guardiana",
+          "nome": "Aura Guardiana",
+          "livello": 7,
+          "testo": [{ "pagina": 136, "da": "Livello 7: Aura Guardiana", "a": "Livello 15: Sentinella Imperitura" }],
+          "pagina": 136,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-degli-antichi:privilegio:15-sentinella-imperitura",
+          "nome": "Sentinella Imperitura",
+          "livello": 15,
+          "testo": [
+            {
+              "pagina": 136,
+              "da": "Livello 15: Sentinella Imperitura",
+              "a": "Livello 20: Campione degli Antichi"
+            }
+          ],
+          "pagina": 136,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-degli-antichi:privilegio:20-campione-degli-antichi",
+          "nome": "Campione degli Antichi",
+          "livello": 20,
+          "testo": [{ "pagina": 136, "da": "Livello 20: Campione degli Antichi", "a": "Giuramento di Devozione" }],
+          "pagina": 136,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:paladino:sottoclasse:giuramento-di-devozione",
+      "tipo": "sottoclasse",
+      "classe": "Paladino",
+      "nome": "Giuramento di Devozione",
+      "testo": [{ "pagina": 136, "da": "Giuramento di Devozione", "a": "Livello 3: Arma Consacrata" }],
+      "correzioni": [
+        [
+          "Tienifede agli ideali di giustizia e ordine Il Giuramento",
+          "Tieni fede agli ideali di giustizia e ordine\n\nIl Giuramento"
+        ]
+      ],
+      "pagina": 136,
+      "privilegi": [
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-devozione:privilegio:3-arma-consacrata",
+          "nome": "Arma Consacrata",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 136,
+              "da": "Livello 3: Arma Consacrata",
+              "a": "Livello 3: Incantesimi del Giuramento di Devozione"
+            }
+          ],
+          "pagina": 136,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-devozione:privilegio:3-incantesimi-del-giuramento-di-devozione",
+          "nome": "Incantesimi del Giuramento di Devozione",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 136,
+              "da": "Livello 3: Incantesimi del Giuramento di Devozione",
+              "a": "Incantesimi del Giuramento di Devozione",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Giuramento di Devozione",
+              "pagina": 136,
+              "colonne": ["Livello da paladino", "Incantesimi"],
+              "righe": [
+                ["3", "Protezione dal bene e dal male, scudo della fede"],
+                ["5", "Aiuto, zona di verità"],
+                ["9", "Faro di speranza, dissolvi magie"],
+                ["13", "Libertà di movimento, guardiano della fede"],
+                ["17", "Comunione, colpo infuocato"]
+              ]
+            }
+          ],
+          "pagina": 136,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-devozione:privilegio:7-aura-di-devozione",
+          "nome": "Aura di Devozione",
+          "livello": 7,
+          "testo": [{ "pagina": 136, "da": "Livello 7: Aura di Devozione", "a": "Livello 15: Punizione Protettiva" }],
+          "pagina": 136,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-devozione:privilegio:15-punizione-protettiva",
+          "nome": "Punizione Protettiva",
+          "livello": 15,
+          "testo": [{ "pagina": 136, "da": "Livello 15: Punizione Protettiva", "a": "Livello 20: Nube Sacra" }],
+          "pagina": 136,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-devozione:privilegio:20-nube-sacra",
+          "nome": "Nube Sacra",
+          "livello": 20,
+          "testo": [{ "pagina": 136, "da": "Livello 20: Nube Sacra", "a": "Giuramento di Gloria" }],
+          "correzioni": [
+            [
+              "bonus di competenza del paladino. Luce delsole.",
+              "bonus di competenza del paladino.\n\nLuce del sole."
+            ]
+          ],
+          "pagina": 136,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:paladino:sottoclasse:giuramento-di-gloria",
+      "tipo": "sottoclasse",
+      "classe": "Paladino",
+      "nome": "Giuramento di Gloria",
+      "testo": [{ "pagina": 137, "da": "Giuramento di Gloria", "a": "Livello 3: Atleta Impareggiabile" }],
+      "correzioni": [["Raggiungi l'apice dell'eroismo I paladini", "Raggiungi l'apice dell'eroismo\n\nI paladini"]],
+      "pagina": 137,
+      "privilegi": [
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-gloria:privilegio:3-atleta-impareggiabile",
+          "nome": "Atleta Impareggiabile",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 137,
+              "da": "Livello 3: Atleta Impareggiabile",
+              "a": "Livello 3: Incantesimi del Giuramento di Gloria"
+            }
+          ],
+          "pagina": 137,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-gloria:privilegio:3-incantesimi-del-giuramento-di-gloria",
+          "nome": "Incantesimi del Giuramento di Gloria",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 137,
+              "da": "Livello 3: Incantesimi del Giuramento di Gloria",
+              "a": "Incantesimi del Giuramento di Gloria",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Giuramento di Gloria",
+              "pagina": 137,
+              "colonne": ["Livello da paladino", "Incantesimi"],
+              "righe": [
+                ["3", "Dardo tracciante, eroismo"],
+                ["5", "Caratteristica potenziata, arma magica"],
+                ["9", "Velocità, protezione dall'energia"],
+                ["13", "Compulsione, libertà di movimento"],
+                ["17", "Conoscenza delle leggende, presenza regale di Yolande"]
+              ]
+            }
+          ],
+          "pagina": 137,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-gloria:privilegio:3-punizione-ispiratrice",
+          "nome": "Punizione Ispiratrice",
+          "livello": 3,
+          "testo": [{ "pagina": 137, "da": "Livello 3: Punizione Ispiratrice", "a": "Livello 7: Aura di Alacrità" }],
+          "pagina": 137,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-gloria:privilegio:7-aura-di-alacrita",
+          "nome": "Aura di Alacrità",
+          "livello": 7,
+          "testo": [{ "pagina": 137, "da": "Livello 7: Aura di Alacrità", "a": "Livello 15: Difesa Gloriosa" }],
+          "pagina": 137,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-gloria:privilegio:15-difesa-gloriosa",
+          "nome": "Difesa Gloriosa",
+          "livello": 15,
+          "testo": [{ "pagina": 138, "da": "Livello 15: Difesa Gloriosa", "a": "Livello 20: Leggenda Vivente" }],
+          "pagina": 138,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-gloria:privilegio:20-leggenda-vivente",
+          "nome": "Leggenda Vivente",
+          "livello": 20,
+          "testo": [{ "pagina": 138, "da": "Livello 20: Leggenda Vivente", "a": "Giuramento di Vendetta" }],
+          "correzioni": [
+            [
+              "slot incantesimo di 5° livello (nessuna azione richiesta). Carismatico.",
+              "slot incantesimo di 5° livello (nessuna azione richiesta).\n\nCarismatico."
+            ]
+          ],
+          "pagina": 138,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:paladino:sottoclasse:giuramento-di-vendetta",
+      "tipo": "sottoclasse",
+      "classe": "Paladino",
+      "nome": "Giuramento di Vendetta",
+      "testo": [
+        {
+          "pagina": 138,
+          "da": "Giuramento di Vendetta",
+          "a": "Livello 3: Incantesimi del Giuramento di Vendetta"
+        }
+      ],
+      "correzioni": [["Punisci i malvagia ogni costo Chi presta", "Punisci i malvagi a ogni costo\n\nChi presta"]],
+      "pagina": 138,
+      "privilegi": [
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-vendetta:privilegio:3-incantesimi-del-giuramento-di-vendetta",
+          "nome": "Incantesimi del Giuramento di Vendetta",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 138,
+              "da": "Livello 3: Incantesimi del Giuramento di Vendetta",
+              "a": "Incantesimi del Giuramento di Vendetta",
+              "na": 2
+            }
+          ],
+          "correzioni": [["preparati.\n\n-", "preparati."]],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Giuramento di Vendetta",
+              "pagina": 139,
+              "colonne": ["Livello da paladino", "Incantesimi"],
+              "righe": [
+                ["3", "Anatema, marchio del cacciatore"],
+                ["5", "Blocca persone, passo velato"],
+                ["9", "Velocità, protezione dall'energia"],
+                ["13", "Esilio, porta dimensionale"],
+                ["17", "Blocca mostri, scrutare"]
+              ]
+            }
+          ],
+          "pagina": 138,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-vendetta:privilegio:3-voto-di-inimicizia",
+          "nome": "Voto di Inimicizia",
+          "livello": 3,
+          "testo": [{ "pagina": 139, "da": "Livello 3: Voto di Inimicizia", "a": "Livello 7: Vendetta Implacabile" }],
+          "pagina": 139,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-vendetta:privilegio:7-vendetta-implacabile",
+          "nome": "Vendetta Implacabile",
+          "livello": 7,
+          "testo": [{ "pagina": 139, "da": "Livello 7: Vendetta Implacabile", "a": "Livello 15: Anima Vendicativa" }],
+          "pagina": 139,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-vendetta:privilegio:15-anima-vendicativa",
+          "nome": "Anima Vendicativa",
+          "livello": 15,
+          "testo": [{ "pagina": 139, "da": "Livello 15: Anima Vendicativa", "a": "Livello 20: Angelo Vendicatore" }],
+          "pagina": 139,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:paladino:sottoclasse:giuramento-di-vendetta:privilegio:20-angelo-vendicatore",
+          "nome": "Angelo Vendicatore",
+          "livello": 20,
+          "testo": [{ "pagina": 139, "da": "Livello 20: Angelo Vendicatore" }],
+          "pagina": 139,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
