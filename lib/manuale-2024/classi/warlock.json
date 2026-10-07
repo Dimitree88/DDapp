@@ -3,6 +3,568 @@
   "modulo": "C12",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:opzioni-di-suppliche-occulte",
+      "tipo": "etichetta",
+      "nome": "Opzioni di suppliche occulte",
+      "alias": ["Suppliche occulte"],
+      "testo": [{ "pagina": 167, "da": "Opzioni di Suppliche Occulte", "a": "Lista degli Incantesimi da Warlock" }],
+      "correzioni": [
+        ["di2°", "di 2°"],
+        ["di5°", "di 5°"],
+        ["di9°", "di 9°"],
+        ["di12°", "di 12°"],
+        ["2°livello", "2° livello"],
+        ["9°livello", "9° livello"],
+        ["untrucchetto", "un trucchetto"],
+        ["Danninecrotici", "Danni necrotici"],
+        ["proƐenire", "provenire"],
+        ["SuccttIAVITA", "SUCCHIAVITA"],
+        ["TUTT1UNO", "TUTT'UNO"]
+      ],
+      "pagina": 167,
+      "pagine": [168, 169],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "classe:warlock",
+      "tipo": "classe",
+      "nome": "Warlock",
+      "testo": [
+        {
+          "pagina": 165,
+          "da": "WARLOCK ANELANO ALLA CONOSCENZA",
+          "includiDa": true,
+          "a": "Livello 1: Magia del Patto"
+        }
+      ],
+      "correzioni": [["WARLOCK ANELANO ALLA CONOSCENZA CHE giace", "I warlock anelano alla conoscenza che giace"]],
+      "pagina": 165,
+      "pagine": [166, 167],
+      "tabelle": [
+        {
+          "titolo": "Tratti del warlock",
+          "pagina": 165,
+          "colonne": ["Tratto", "Valore"],
+          "righe": [
+            ["Caratteristiche primarie", "Carisma"],
+            ["Dado Vita", "D8 per ogni livello da warlock"],
+            ["Competenze nei tiri salvezza", "Saggezza e Carisma"],
+            [
+              "Competenze nelle abilità",
+              "Due a scelta tra: Arcano, Indagare, Inganno, Intimidire, Natura, Religione o Storia"
+            ],
+            ["Competenza nelle armi", "Armi semplici"],
+            ["Competenza nelle armature", "Armature leggere"],
+            [
+              "Equipaggiamento iniziale",
+              "A scelta tra A e B: (A) Un'armatura di cuoio, falcetto, 2 pugnali, focus arcano (globo), libro (scienze occulte), dotazione da studioso e 15 mo; o (B) 100 mo"
+            ]
+          ]
+        },
+        {
+          "titolo": "Privilegi del warlock",
+          "pagina": 166,
+          "colonne": [
+            "Livello",
+            "Bonus di competenza",
+            "Privilegi di classe",
+            "Suppliche occulte",
+            "Trucchetti",
+            "Incantesimi preparati",
+            "Slot incantesimo",
+            "Livello slot"
+          ],
+          "righe": [
+            ["1", "+2", "Magia del patto, suppliche occulte", "1", "2", "2", "1", "1"],
+            ["2", "+2", "Scaltrezza magica", "3", "2", "3", "2", "1"],
+            ["3", "+2", "Sottoclasse del warlock", "3", "2", "4", "2", "2"],
+            ["4", "+2", "Aumento dei punteggi di caratteristica", "3", "3", "5", "2", "2"],
+            ["5", "+3", "—", "5", "3", "6", "2", "3"],
+            ["6", "+3", "Privilegio della sottoclasse", "5", "3", "7", "2", "3"],
+            ["7", "+3", "—", "6", "3", "8", "2", "4"],
+            ["8", "+3", "Aumento dei punteggi di caratteristica", "6", "3", "9", "2", "4"],
+            ["9", "+4", "Contatta patrono", "7", "3", "10", "2", "5"],
+            ["10", "+4", "Privilegio della sottoclasse", "7", "4", "10", "2", "5"],
+            ["11", "+4", "Arcanum mistico (incantesimo di 6° livello)", "7", "4", "11", "3", "5"],
+            ["12", "+4", "Aumento dei punteggi di caratteristica", "8", "4", "11", "3", "5"],
+            ["13", "+5", "Arcanum mistico (incantesimo di 7° livello)", "8", "4", "12", "3", "5"],
+            ["14", "+5", "Privilegio della sottoclasse", "8", "4", "12", "3", "5"],
+            ["15", "+5", "Arcanum mistico (incantesimo di 8° livello)", "9", "4", "13", "3", "5"],
+            ["16", "+5", "Aumento dei punteggi di caratteristica", "9", "4", "13", "3", "5"],
+            ["17", "+6", "Arcanum mistico (incantesimo di 9° livello)", "9", "4", "14", "4", "5"],
+            ["18", "+6", "—", "10", "4", "14", "4", "5"],
+            ["19", "+6", "Dono epico", "10", "4", "15", "4", "5"],
+            ["20", "+6", "Maestro dell'occulto", "10", "4", "15", "4", "5"]
+          ]
+        }
+      ],
+      "dadoVita": "D8",
+      "caratteristicaPrimaria": "Carisma",
+      "tiriSalvezza": ["SAG", "CAR"],
+      "competenze": {
+        "abilita": {
+          "numero": 2,
+          "scelte": ["Arcano", "Indagare", "Inganno", "Intimidire", "Natura", "Religione", "Storia"]
+        },
+        "armi": ["Armi semplici"],
+        "armature": ["Leggere"],
+        "strumenti": []
+      },
+      "equipaggiamentoIniziale": "A scelta tra A e B: (A) Un'armatura di cuoio, falcetto, 2 pugnali, focus arcano (globo), libro (scienze occulte), dotazione da studioso e 15 mo; o (B) 100 mo",
+      "privilegi": [
+        {
+          "id": "classe:warlock:privilegio:1-magia-del-patto",
+          "nome": "Magia del Patto",
+          "livello": 1,
+          "testo": [
+            { "pagina": 165, "da": "Livello 1: Magia del Patto", "a": "Privilegi del warlock", "na": 5 },
+            {
+              "pagina": 166,
+              "da": "Caratteristica da Incantatore",
+              "includiDa": true,
+              "a": "Livello 1: Suppliche Occulte"
+            }
+          ],
+          "correzioni": [["daincantatore", "da incantatore"]],
+          "pagina": 165,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:privilegio:1-suppliche-occulte",
+          "nome": "Suppliche Occulte",
+          "livello": 1,
+          "testo": [{ "pagina": 166, "da": "Livello 1: Suppliche Occulte", "a": "Livello 2: Scaltrezza Magica" }],
+          "correzioni": [
+            ["conoscenzeproibite", "conoscenze proibite"],
+            [
+              "salvo diversamente indicato.\n\n9 · 14 · 4 · 5\n10 · 4 · 14 · 4 · 5\n10 · 4 · 15 · 4 · 5\n10 · 4 · 15 · 4 · 5",
+              "salvo diversamente indicato."
+            ]
+          ],
+          "pagina": 166,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:privilegio:2-scaltrezza-magica",
+          "nome": "Scaltrezza Magica",
+          "livello": 2,
+          "testo": [{ "pagina": 166, "da": "Livello 2: Scaltrezza Magica", "a": "Livello 3: Sottoclasse del Warlock" }],
+          "pagina": 166,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:privilegio:3-sottoclasse-del-warlock",
+          "nome": "Sottoclasse del Warlock",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 166,
+              "da": "Livello 3: Sottoclasse del Warlock",
+              "a": "Livello 4: Aumento dei Punteggi di Caratteristica"
+            }
+          ],
+          "pagina": 166,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:privilegio:4-aumento-dei-punteggi-di-caratteristica",
+          "nome": "Aumento dei Punteggi di Caratteristica",
+          "livello": 4,
+          "testo": [
+            {
+              "pagina": 166,
+              "da": "Livello 4: Aumento dei Punteggi di Caratteristica",
+              "a": "Livello 9: Contatta Patrono"
+            }
+          ],
+          "pagina": 166,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:privilegio:9-contatta-patrono",
+          "nome": "Contatta Patrono",
+          "livello": 9,
+          "testo": [{ "pagina": 167, "da": "Livello 9: Contatta Patrono", "a": "Livello 11: Arcanum Mistico" }],
+          "correzioni": [["contattarealtripiani", "contattare altri piani"]],
+          "pagina": 167,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:privilegio:11-arcanum-mistico",
+          "nome": "Arcanum Mistico",
+          "livello": 11,
+          "testo": [{ "pagina": 167, "da": "Livello 11: Arcanum Mistico", "a": "Livello 19: Dono Epico" }],
+          "pagina": 167,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:privilegio:19-dono-epico",
+          "nome": "Dono Epico",
+          "livello": 19,
+          "testo": [{ "pagina": 167, "da": "Livello 19: Dono Epico", "a": "Livello 20: Maestro dell'Occulto" }],
+          "pagina": 167,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:privilegio:20-maestro-dell-occulto",
+          "nome": "Maestro dell'Occulto",
+          "livello": 20,
+          "testo": [{ "pagina": 167, "da": "Livello 20: Maestro dell'Occulto", "a": "Opzioni di Suppliche Occulte" }],
+          "pagina": 167,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:warlock:sottoclasse:patrono-celestiale",
+      "tipo": "sottoclasse",
+      "classe": "Warlock",
+      "nome": "Patrono Celestiale",
+      "testo": [{ "pagina": 171, "da": "Patrono Celestiale", "n": 2, "a": "Livello 3: Incantesimi Celestiali" }],
+      "correzioni": [["Evoca ilpotere dei cieli Grazie", "Evoca il potere dei cieli\n\nGrazie"]],
+      "pagina": 171,
+      "privilegi": [
+        {
+          "id": "classe:warlock:sottoclasse:patrono-celestiale:privilegio:3-incantesimi-celestiali",
+          "nome": "Incantesimi Celestiali",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 171,
+              "da": "Livello 3: Incantesimi Celestiali",
+              "a": "Incantesimi Celestiali",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi Celestiali",
+              "pagina": 171,
+              "colonne": ["Livello da warlock", "Incantesimi"],
+              "righe": [
+                ["3", "Aiuto, cura ferite, dardo tracciante, ristorare inferiore, luce, fiamma sacra"],
+                ["5", "Luce diurna, rinascita"],
+                ["7", "Guardiano della fede, muro di fuoco"],
+                ["9", "Ristorare superiore, richiama celestiale"]
+              ]
+            }
+          ],
+          "pagina": 171,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-celestiale:privilegio:3-luce-curatrice",
+          "nome": "Luce Curatrice",
+          "livello": 3,
+          "testo": [{ "pagina": 171, "da": "Livello 3: Luce Curatrice", "a": "Livello 6: Anima Radiosa" }],
+          "pagina": 171,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-celestiale:privilegio:6-anima-radiosa",
+          "nome": "Anima Radiosa",
+          "livello": 6,
+          "testo": [{ "pagina": 171, "da": "Livello 6: Anima Radiosa", "a": "Livello 10: Resilienza Celestiale" }],
+          "pagina": 171,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-celestiale:privilegio:10-resilienza-celestiale",
+          "nome": "Resilienza Celestiale",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 172,
+              "da": "Livello 10: Resilienza Celestiale",
+              "a": "Livello 14: Vendetta Incandescente"
+            }
+          ],
+          "pagina": 172,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-celestiale:privilegio:14-vendetta-incandescente",
+          "nome": "Vendetta Incandescente",
+          "livello": 14,
+          "testo": [{ "pagina": 172, "da": "Livello 14: Vendetta Incandescente", "a": "Patrono Grande Antico" }],
+          "pagina": 172,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:warlock:sottoclasse:patrono-grande-antico",
+      "tipo": "sottoclasse",
+      "classe": "Warlock",
+      "nome": "Patrono Grande Antico",
+      "testo": [{ "pagina": 172, "da": "Patrono Grande Antico", "a": "Livello 3: Incantesimi del Grande Antico" }],
+      "correzioni": [
+        [
+          "Scopri conoscenze proibite offerte da esseri ineffabili Il warlock",
+          "Scopri conoscenze proibite offerte da esseri ineffabili\n\nIl warlock"
+        ]
+      ],
+      "pagina": 172,
+      "privilegi": [
+        {
+          "id": "classe:warlock:sottoclasse:patrono-grande-antico:privilegio:3-incantesimi-del-grande-antico",
+          "nome": "Incantesimi del Grande Antico",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 172,
+              "da": "Livello 3: Incantesimi del Grande Antico",
+              "a": "Incantesimi del Grande Antico",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Grande Antico",
+              "pagina": 172,
+              "colonne": ["Livello da warlock", "Incantesimi"],
+              "righe": [
+                [
+                  "3",
+                  "Individuazione dei pensieri, sussurri dissonanti, allucinazione di forza, risata incontenibile di Tasha"
+                ],
+                ["5", "Chiaroveggenza, fame di Hadar"],
+                ["7", "Confusione, evoca aberrazione"],
+                ["9", "Modificare memoria, telecinesi"]
+              ]
+            }
+          ],
+          "pagina": 172,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-grande-antico:privilegio:3-incantesimi-psichici",
+          "nome": "Incantesimi Psichici",
+          "livello": 3,
+          "testo": [{ "pagina": 172, "da": "Livello 3: Incantesimi Psichici", "a": "Livello 3: Mente Risvegliata" }],
+          "pagina": 172,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-grande-antico:privilegio:3-mente-risvegliata",
+          "nome": "Mente Risvegliata",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 172,
+              "da": "Livello 3: Mente Risvegliata",
+              "a": "Livello 6: Guerriero Chiaroveggente"
+            }
+          ],
+          "pagina": 172,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-grande-antico:privilegio:6-guerriero-chiaroveggente",
+          "nome": "Guerriero Chiaroveggente",
+          "livello": 6,
+          "testo": [
+            {
+              "pagina": 173,
+              "da": "Livello 6: Guerriero Chiaroveggente",
+              "a": "Livello 10: Scudo del Pensiero"
+            }
+          ],
+          "pagina": 173,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-grande-antico:privilegio:10-scudo-del-pensiero",
+          "nome": "Scudo del Pensiero",
+          "livello": 10,
+          "testo": [{ "pagina": 173, "da": "Livello 10: Scudo del Pensiero", "a": "Livello 10: Sortilegio Occulto" }],
+          "pagina": 173,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-grande-antico:privilegio:10-sortilegio-occulto",
+          "nome": "Sortilegio Occulto",
+          "livello": 10,
+          "testo": [{ "pagina": 173, "da": "Livello 10: Sortilegio Occulto", "a": "Livello 14: Creare Servitore" }],
+          "pagina": 173,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-grande-antico:privilegio:14-creare-servitore",
+          "nome": "Creare Servitore",
+          "livello": 14,
+          "testo": [{ "pagina": 173, "da": "Livello 14: Creare Servitore", "a": "Patrono Immondo" }],
+          "pagina": 173,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:warlock:sottoclasse:patrono-immondo",
+      "tipo": "sottoclasse",
+      "classe": "Warlock",
+      "nome": "Patrono Immondo",
+      "testo": [{ "pagina": 173, "da": "Patrono Immondo", "a": "Livello 3: Benedizione dell'Oscuro" }],
+      "correzioni": [["Stringiunpatto con iPianiInferiori Grazie", "Stringi un patto con i Piani Inferiori\n\nGrazie"]],
+      "pagina": 173,
+      "privilegi": [
+        {
+          "id": "classe:warlock:sottoclasse:patrono-immondo:privilegio:3-benedizione-dell-occulto",
+          "nome": "Benedizione dell'Occulto",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 174,
+              "da": "Livello 3: Benedizione dell'Oscuro",
+              "a": "Livello 3: Incantesimi Immondi"
+            }
+          ],
+          "pagina": 174,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-immondo:privilegio:3-incantesimi-immondi",
+          "nome": "Incantesimi Immondi",
+          "livello": 3,
+          "testo": [{ "pagina": 174, "da": "Livello 3: Incantesimi Immondi", "a": "Incantesimi Immondi", "na": 2 }],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi Immondi",
+              "pagina": 174,
+              "colonne": ["Livello da warlock", "Incantesimi"],
+              "righe": [
+                ["3", "Mani brucianti, comando, raggio rovente, suggestione"],
+                ["5", "Palla di fuoco, nube maleodorante"],
+                ["7", "Scudo di fuoco, muro di fuoco"],
+                ["9", "Costrizione, piaga degli insetti"]
+              ]
+            }
+          ],
+          "pagina": 174,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-immondo:privilegio:6-fortuna-dell-oscuro",
+          "nome": "Fortuna dell'Oscuro",
+          "livello": 6,
+          "testo": [{ "pagina": 174, "da": "Livello 6: Fortuna dell'Oscuro", "a": "Livello 10: Resilienza Immonda" }],
+          "pagina": 174,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-immondo:privilegio:10-resilienza-immonda",
+          "nome": "Resilienza Immonda",
+          "livello": 10,
+          "testo": [
+            {
+              "pagina": 174,
+              "da": "Livello 10: Resilienza Immonda",
+              "a": "Livello 14: Scagliare all'Inferno"
+            }
+          ],
+          "pagina": 174,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-immondo:privilegio:14-scagliare-all-inferno",
+          "nome": "Scagliare all'Inferno",
+          "livello": 14,
+          "testo": [{ "pagina": 174, "da": "Livello 14: Scagliare all'Inferno", "a": "Patrono Signore Fatato" }],
+          "pagina": 174,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    },
+    {
+      "id": "classe:warlock:sottoclasse:patrono-signore-fatato",
+      "tipo": "sottoclasse",
+      "classe": "Warlock",
+      "nome": "Patrono Signore Fatato",
+      "testo": [{ "pagina": 175, "da": "Patrono Signore Fatato", "a": "Livello 3: Incantesimi del Signore Fatato" }],
+      "correzioni": [
+        [
+          "Stringi unpatto conuno stravagantefolletto Il patto",
+          "Stringi un patto con uno stravagante folletto\n\nIl patto"
+        ]
+      ],
+      "pagina": 175,
+      "privilegi": [
+        {
+          "id": "classe:warlock:sottoclasse:patrono-signore-fatato:privilegio:3-incantesimi-del-signore-fatato",
+          "nome": "Incantesimi del Signore Fatato",
+          "livello": 3,
+          "testo": [
+            {
+              "pagina": 175,
+              "da": "Livello 3: Incantesimi del Signore Fatato",
+              "a": "Incantesimi del Signore Fatato",
+              "na": 2
+            }
+          ],
+          "tabelle": [
+            {
+              "titolo": "Incantesimi del Signore Fatato",
+              "pagina": 175,
+              "colonne": ["Livello da warlock", "Incantesimi"],
+              "righe": [
+                ["3", "Calmare emozioni, luminescenza, passo velato, allucinazione di forza, sonno"],
+                ["5", "Intermittenza, crescita vegetale"],
+                ["7", "Dominare bestie, invisibilità superiore"],
+                ["9", "Dominare persone, sembrare"]
+              ]
+            }
+          ],
+          "pagina": 175,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-signore-fatato:privilegio:3-movimenti-del-folletto",
+          "nome": "Movimenti del Folletto",
+          "livello": 3,
+          "testo": [{ "pagina": 175, "da": "Livello 3: Movimenti del Folletto", "a": "Livello 6: Fuga Nebbiosa" }],
+          "pagina": 175,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-signore-fatato:privilegio:6-fuga-nebbiosa",
+          "nome": "Fuga Nebbiosa",
+          "livello": 6,
+          "testo": [{ "pagina": 175, "da": "Livello 6: Fuga Nebbiosa", "a": "Livello 10: Difese Seducenti" }],
+          "correzioni": [
+            [
+              "subiti.\n\nInoltre, si aggiungono",
+              "È possibile lanciare passo velato come reazione ai danni subiti.\n\nInoltre, si aggiungono"
+            ]
+          ],
+          "pagina": 175,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-signore-fatato:privilegio:10-difese-seducenti",
+          "nome": "Difese Seducenti",
+          "livello": 10,
+          "testo": [{ "pagina": 175, "da": "Livello 10: Difese Seducenti", "a": "Livello 14: Magia Ammaliante" }],
+          "pagina": 175,
+          "verifica": { "stato": "verificata" }
+        },
+        {
+          "id": "classe:warlock:sottoclasse:patrono-signore-fatato:privilegio:14-magia-ammaliante",
+          "nome": "Magia Ammaliante",
+          "livello": 14,
+          "testo": [{ "pagina": 175, "da": "Livello 14: Magia Ammaliante" }],
+          "pagina": 175,
+          "verifica": { "stato": "verificata" }
+        }
+      ],
+      "verifica": { "stato": "verificata" }
+    }
+  ]
 }
