@@ -146,7 +146,7 @@ function WeaponCompetencyList({ sheet }: { sheet: Sheet }) {
 }
 
 function ToolCompetencyList({ sheet }: { sheet: Sheet }) {
-  const items = sheet.competenzeStrumenti ?? [];
+  const items = [...(sheet.competenzeStrumenti ?? [])].sort(compareOptionLabels);
   return <ul className="flex flex-col gap-1.5">
     {items.length === 0 && <li className="text-sm text-ink-faint">—</li>}
     {items.map((name) => <li key={name} className="flex items-center gap-2">

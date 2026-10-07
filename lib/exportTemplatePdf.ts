@@ -7,8 +7,11 @@ import { displayedWeaponAttack, weaponAttack } from "./weaponAttack";
 import { spellDetails } from "./spells";
 import { displayedArmorClass } from "./armorClass";
 import { featGrants, grantedPrivileges } from "./characterGrants";
+import { operationalReminder } from "./operationalReminders";
+import { compareOptionLabels } from "./sortOptions";
 
 type Mapping = (typeof fields)[number];
+type RichItem = { title: string; detail?: string };
 
 function compactCastingTime(value: string): string {
   if (value.startsWith("reazione,")) return "reazione";
@@ -136,6 +139,78 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
       page.drawText(text, { x: mapping.x + 2, y: page.getHeight() - mapping.y - 1 - size, size, font, color: rgb(0, 0, 0) });
     }
   };
+  const drawRichList = (boxes: Mapping[], items: RichItem[]) => {
+    if (!items.length) return;
+    const space = Math.min(...boxes.map((box) => box.height - 4));
+    const measureItem = (item: RichItem, box: Mapping, size: number) => {
+      const detailSize = size * 0.84;
+      const title = wrappedLines(`- ${item.title}`, box.width - 4, size, measure);
+      const detail = item.detail ? wrappedLines(item.detail, box.width - 12, detailSize, measure) : [];
+      return { title, detail, height: title.length * size * 1.2 + detail.length * detailSize * 1.2 + 2 };
+    };
+    const layoutFor = (list: RichItem[], size: number) => {
+      const heights = list.map((item) => measureItem(item, boxes[0], size).height);
+      if (boxes.length === 1 || list.length < 2) return { cut: list.length, used: heights.reduce((total, height) => total + height, 0) };
+      return Array.from({ length: list.length - 1 }, (_, index) => index + 1)
+        .map((index) => ({ cut: index, used: Math.max(
+          heights.slice(0, index).reduce((a, b) => a + b, 0),
+          heights.slice(index).reduce((a, b) => a + b, 0),
+        ) })).sort((a, b) => a.used - b.used)[0];
+    };
+    let visibleItems = items;
+    let chosenSize = 4.5;
+    let chosenCut = items.length;
+    let used = Infinity;
+    for (let size = 10.5; size >= 4.5; size -= 0.5) {
+      const layout = layoutFor(items, size);
+      chosenSize = size;
+      chosenCut = layout.cut;
+      used = layout.used;
+      if (used <= space) break;
+    }
+    if (used > space) {
+      visibleItems = items.map((item) => ({ ...item }));
+      while (used > space) {
+        const longest = visibleItems.reduce((best, item, index) =>
+          (item.detail?.length ?? 0) > (visibleItems[best]?.detail?.length ?? 0) ? index : best, 0);
+        if (!visibleItems[longest]?.detail) break;
+        visibleItems[longest].detail = undefined;
+        const layout = layoutFor(visibleItems, chosenSize);
+        chosenCut = layout.cut;
+        used = layout.used;
+      }
+    }
+    boxes.forEach((box, column) => {
+      const page = pages[box.page];
+      let top = box.y + 2;
+      const selected = boxes.length === 1 ? visibleItems : column === 0 ? visibleItems.slice(0, chosenCut) : visibleItems.slice(chosenCut);
+      for (const item of selected) {
+        const layout = measureItem(item, box, chosenSize);
+        if (top + layout.height > box.y + box.height) break;
+        for (const line of layout.title) {
+          page.drawText(line, { x: box.x + 2, y: page.getHeight() - top - chosenSize, size: chosenSize, font, color: rgb(0, 0, 0) });
+          top += chosenSize * 1.2;
+        }
+        const detailSize = chosenSize * 0.84;
+        for (const line of layout.detail) {
+          page.drawText(line, { x: box.x + 10, y: page.getHeight() - top - detailSize, size: detailSize, font, color: rgb(0.55, 0.12, 0.1) });
+          top += detailSize * 1.2;
+        }
+        top += 2;
+      }
+    });
+  };
+  const drawFittedParagraph = (box: Mapping, value: string, maxSize = 10.5, bottomPadding = 4) => {
+    const page = pages[box.page];
+    let size = maxSize;
+    let lines = wrappedLines(value, box.width - 4, size, measure);
+    while (size > 4.5 && lines.length * size * 1.2 > box.height - bottomPadding) {
+      size -= 0.5;
+      lines = wrappedLines(value, box.width - 4, size, measure);
+    }
+    lines.slice(0, Math.floor((box.height - bottomPadding) / (size * 1.2))).forEach((line, index) =>
+      page.drawText(line, { x: box.x + 2, y: page.getHeight() - box.y - 2 - size - index * size * 1.2, size, font, color: rgb(0, 0, 0) }));
+  };
   const check = (mapping: Mapping) => {
     const page = pages[mapping.page];
     const x = mapping.x + mapping.width / 2;
@@ -158,41 +233,35 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   const grants = grantedPrivileges(sheet);
   const sameName = (a: string, b: string) => a.localeCompare(b, "it", { sensitivity: "base" }) === 0;
   const recordedPrivileges = sheet.privilegi.filter((item) => !grants.some((grant) => sameName(item.titolo, grant.name)));
-  const formatItem = (title: string, choices?: string) => `- ${title}${choices ? `: ${choices}` : ""}`;
-  const grantLine = (grant: (typeof grants)[number]) => formatItem(grant.name, sheet.privilegi.find((item) => sameName(item.titolo, grant.name))?.scelte);
+  const richItem = (title: string, choices?: string): RichItem => ({
+    title: `${title}${choices ? `: ${choices}` : ""}`,
+    detail: operationalReminder(title, sheet)?.parts.map((part) => typeof part === "string" ? part : part.spell).join(""),
+  });
+  const grantItem = (grant: (typeof grants)[number]) => richItem(grant.name, sheet.privilegi.find((item) => sameName(item.titolo, grant.name))?.scelte);
   const privileges = [
-    ...grants.filter((grant) => !grant.source.startsWith("Specie:") && !grant.source.startsWith("Lignaggio:")).map(grantLine),
-    ...recordedPrivileges.map((item) => formatItem(item.titolo, item.scelte)),
+    ...grants.filter((grant) => !grant.source.startsWith("Specie:") && !grant.source.startsWith("Lignaggio:")).map(grantItem),
+    ...recordedPrivileges.map((item) => richItem(item.titolo, item.scelte)),
   ];
-  if (privileges.length) {
-    const first = byField.get("textarea_140vxzv")!;
-    const second = byField.get("textarea_141pxvh")!;
-    let size = 7;
-    let lines = wrappedLines(privileges.join("\n"), first.width - 4, size, measure);
-    while (size > 4 && lines.length > 2 * Math.floor((first.height - 4) / (size * 1.2))) {
-      size -= 0.5;
-      lines = wrappedLines(privileges.join("\n"), first.width - 4, size, measure);
-    }
-    const perColumn = Math.floor((first.height - 4) / (size * 1.2));
-    const drawColumn = (mapping: Mapping, content: string[]) => content.slice(0, perColumn).forEach((line, index) =>
-      pages[mapping.page].drawText(line, { x: mapping.x + 2, y: pages[mapping.page].getHeight() - mapping.y - 2 - size - index * size * 1.2, size, font, color: rgb(0, 0, 0) }));
-    drawColumn(first, lines);
-    drawColumn(second, lines.slice(perColumn));
-  }
+  drawRichList([byField.get("textarea_140vxzv")!, byField.get("textarea_141pxvh")!], privileges);
   const species = grants.filter((grant) => grant.source.startsWith("Specie:") || grant.source.startsWith("Lignaggio:"));
-  if (species.length) draw({ ...byField.get("textarea_143mcko")!, x: 228, width: 178, source: "sheet.specie" }, species.map(grantLine).join("\n"));
+  drawRichList([{ ...byField.get("textarea_143mcko")!, x: 228, width: 178, source: "sheet.specie" }], species.map(grantItem));
   const recordedFeats = [...sheet.talenti];
   const feats = featGrants(sheet).map((grant) => {
     const index = recordedFeats.findIndex((item) => sameName(item.nome, grant.name));
     const saved = index >= 0 ? recordedFeats.splice(index, 1)[0] : null;
-    return formatItem(saved?.nome ?? grant.name, saved?.scelte);
+    return richItem(saved?.nome ?? grant.name, saved?.scelte);
   });
-  feats.push(...recordedFeats.map((item) => formatItem(item.nome, item.scelte)));
-  if (feats.length) draw(byField.get("textarea_143mcko")!, feats.join("\n"));
+  feats.push(...recordedFeats.map((item) => richItem(item.nome, item.scelte)));
+  drawRichList([byField.get("textarea_143mcko")!], feats);
   const quantity = (value?: string) => Number(value) > 1 ? ` x${value}` : "";
-  if (sheet.equipaggiamento.length) draw(byField.get("textarea_165hxzs")!, sheet.equipaggiamento.map((item) =>
-    `- ${item.nome}${quantity(item.quantita)}${Number(item.quantita) > 1 && item.unita ? ` ${item.unita}` : ""}${item.indossato ? " (indossata)" : item.impugnato ? " (impugnato)" : ""}`).join("\n"));
-  if (sheet.competenzeStrumenti?.length) draw({ ...byField.get("textarea_158mwcp")!, x: 19, y: 737, width: 187, height: 25, source: "sheet.competenzeStrumenti" }, sheet.competenzeStrumenti.map((item) => `- ${item}`).join("\n"));
+  drawRichList([byField.get("textarea_165hxzs")!], [...sheet.equipaggiamento].sort((a, b) => compareOptionLabels(a.nome, b.nome)).map((item) => ({
+    title: `${item.nome}${quantity(item.quantita)}${Number(item.quantita) > 1 && item.unita ? ` ${item.unita}` : ""}${item.indossato ? " (indossata)" : item.impugnato ? " (impugnato)" : ""}`,
+  })));
+  if (sheet.competenzeStrumenti?.length) {
+    const box = { ...byField.get("textarea_158mwcp")!, x: 19, y: 730, width: 187, height: 32, source: "sheet.competenzeStrumenti" };
+    drawFittedParagraph(box, [...sheet.competenzeStrumenti].sort(compareOptionLabels).join(", "), 7.5, 10);
+  }
+  if (sheet.note?.trim()) drawFittedParagraph({ ...byField.get("textarea_165hxzs")!, x: 413, y: 139, width: 175, height: 140, source: "sheet.note" }, sheet.note.trim());
 
   return pdf.save();
 }
