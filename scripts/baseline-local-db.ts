@@ -13,17 +13,8 @@ const expectedColumns: Record<string, string[]> = {
   characters: ["id", "name", "pin_hash", "data", "created_at", "updated_at"],
   character_history: ["id", "character_id", "occurred_at", "changes"],
   creatures: ["id", "name", "data", "created_at", "updated_at"],
-  master_sessions: ["id", "name", "local_date", "status", "created_at", "closed_at"],
-  master_session_participants: ["session_id", "character_id"],
-  master_session_creatures: ["session_id", "creature_id"],
-  master_session_events: ["id", "session_id", "character_id", "creature_id", "type", "occurred_at", "payload"],
 };
-const expectedIndexes = [
-  "character_history_character_time_idx",
-  "master_sessions_single_open_idx",
-  "master_sessions_status_created_idx",
-  "master_session_events_session_time_idx",
-];
+const expectedIndexes = ["character_history_character_time_idx"];
 
 async function main() {
   const url = process.env.DATABASE_URL;
@@ -34,7 +25,7 @@ async function main() {
   const tablesResult = await client.execute("SELECT name FROM sqlite_master WHERE type = 'table'");
   const tables = new Set(tablesResult.rows.map((row) => String(row.name)));
   for (const [table, required] of Object.entries(expectedColumns)) {
-    if (!tables.has(table)) throw new Error(`Baseline interrotta: manca la tabella ${table}; usa prima la migration completa su un database vuoto.`);
+    if (!tables.has(table)) throw new Error(`Baseline interrotta: manca la tabella ${table}; questo comando accetta solo database locali già inizializzati con lo schema precedente.`);
     const info = await client.execute(`PRAGMA table_info("${table}")`);
     const actual = new Set(info.rows.map((row) => String(row.name)));
     const missing = required.filter((column) => !actual.has(column));

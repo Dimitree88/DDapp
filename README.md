@@ -49,10 +49,13 @@ npm run dev
 ```
 
 Se hai già un `local.db` creato con il vecchio `db:push`, conserva quel file e
-registra la migration iniziale una sola volta: `npm run db:baseline:local`.
-Il comando controlla tabelle, colonne e indici prima di scrivere il registro e
-non modifica le schede esistenti. Le migration successive si applicano con
-`npm run db:migrate:local`.
+registra la base dello schema precedente una sola volta:
+`npm run db:baseline:local`. Il comando controlla le tabelle, colonne e indici
+preesistenti prima di scrivere il registro, senza modificare le schede.
+Subito dopo esegui `npm run db:migrate:local`: la migration incrementale crea
+le tabelle Master mancanti. Su un database vuoto, `db:migrate:local` applica
+entrambe le migration; quella incrementale usa `IF NOT EXISTS` ed è sicura
+anche se le tabelle Master esistono già.
 
 Per aggiungere una modifica allo schema: aggiorna `lib/db/schema.ts`, esegui
 `npm run db:generate -- --name=descrizione_breve`, controlla il file SQL
@@ -94,7 +97,7 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 | `npm run seed` | Inserisce il personaggio "Ephemer" |
 | `npm run db:generate -- --name=nome` | Genera una migration Drizzle versionata |
 | `npm run db:migrate:local` | Applica le migration al SQLite indicato da `.env.local` |
-| `npm run db:baseline:local` | Registra lo schema iniziale su un DB locale già esistente, senza riscrivere dati |
+| `npm run db:baseline:local` | Registra la base dello schema precedente su un DB locale esistente, senza riscrivere dati |
 | `npm run db:seed:demo` | Inserisce i dati sintetici della pagina Master nel DB locale |
 | `npm run db:studio` | Apre Drizzle Studio sul DB |
 | `node scripts/setup-history.mjs` | Crea la tabella dello storico senza cambiare le schede |
@@ -109,7 +112,13 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 ## Deploy su Vercel (da fare)
 1. Crea un database su [Turso](https://turso.tech) e ottieni URL + auth token.
 2. Imposta su Vercel le 3 variabili d'ambiente (vedi tabella).
-3. Applica le migration versionate con una procedura di deploy autorizzata. I comandi `*:local` rifiutano database remoti; non puntare mai il seed demo a Turso.
+3. Applica le migration versionate con una procedura di deploy autorizzata.
+   Su un database già popolato, non eseguire la migration iniziale come se fosse
+   un database vuoto: verifica/baseline dello schema esistente, poi applica
+   `drizzle/0001_master_session_tables.sql`. È additiva e non modifica le
+   schede esistenti. Le migration `*:local` rifiutano URL remoti; non puntare
+   mai il seed demo a Turso. Per tornare al codice precedente basta il rollback
+   del deploy: le nuove tabelle possono restare vuote senza impatto.
 4. Collega il repo a Vercel e fai il deploy.
 
 ## Modello dati

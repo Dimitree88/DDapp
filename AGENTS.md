@@ -19,7 +19,7 @@ Per lo sviluppo locale seguire la sezione "Avvio in locale" del `README.md`: usa
 
 Le modifiche allo schema devono avere migration SQL e snapshot versionati in `drizzle/`; generarle con `npm run db:generate -- --name=...` e applicarle in locale con `npm run db:migrate:local`. Non usare `db:push` come normale flusso di sviluppo.
 
-Non copiare database locali o dati reali nel repository. Per nuovi ambienti usare i fixture sintetici di `db:seed:demo`; per database locali preesistenti seguire la procedura di baseline nel README.
+Non copiare database locali o dati reali nel repository. Per nuovi ambienti usare i fixture sintetici di `db:seed:demo`; per database locali preesistenti seguire la procedura di baseline e poi applicare le migration successive nel README.
 
 ## Lavoro parallelo sul piano 2024
 
