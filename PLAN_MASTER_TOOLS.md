@@ -3,9 +3,9 @@
 ## Obiettivo e confini
 
 Una pagina `/master` permette prima di **creare una Sessione** e poi mostra
-**tutti i personaggi** del database in un'unica vista, con i dati necessari a
-condurla e azioni rapide per registrare ciò che accade. È un pannello
-operativo, non una seconda scheda del personaggio.
+soltanto i personaggi e le creature selezionati come partecipanti, con i dati
+necessari a condurla e azioni rapide per registrare ciò che accade. È un
+pannello operativo, non una seconda scheda del personaggio.
 
 Decisione dell'utente del 6 ottobre 2026: tutti possono aprire qualunque
 pagina. La prima versione **non introduce account, ruoli, inviti o permessi**;
@@ -43,8 +43,9 @@ distinto dal cambio delle armi scelte per la Padronanza al riposo lungo.
    del giorno di creazione secondo `Europe/Rome`. Salvare anche gli istanti
    UTC di creazione e chiusura. La data esposta è una data storica della
    Sessione: non cambia a mezzanotte o quando viene riaperta la pagina.
-   Inizialmente tutti i personaggi sono visibili; il Master indica i
-   partecipanti effettivi, modificabili finché la Sessione è aperta.
+   Il Master seleziona personaggi e creature partecipanti nel modulo di
+   creazione. Dopo l'apertura la composizione è fissa; le schede degli altri
+   personaggi e creature non vengono mostrate nella Sessione.
 2. **Sessione aperta.** Per la prima versione c'è una sola Sessione aperta
    alla volta. La testata mostra nome, data, partecipanti e comandi «Eventi»
    e «Chiudi Sessione». Ogni comando dalla vista Master richiede l'ID della
@@ -300,47 +301,27 @@ esplicita verificata, non un editor libero nella pagina Incantesimi.
 
 ## Dati e integrazione con l'app
 
-- `app/page.tsx` elenca già tutti i personaggi, ma mostra solo nome, classe e
-  livello. `lib/db/schema.ts` contiene personaggi e storico; non esistono
-  Sessioni, campagne, ruoli o modello di incontro.
-- `lib/sheet.ts` salva PE, PF attuali/massimi, Ispirazione, slot spesi,
-  risorse e monete. **PF temporanei, Dadi Vita spesi, tiri salvezza contro
-  morte e condizioni sono campi ritirati:** `removeRetiredFields` li elimina
-  dal salvataggio. Prima di offrire i relativi controlli vanno introdotti
-  campi persistenti, validazione e compatibilità con le vecchie schede.
-- Aggiungere uno stato di sessione canonico per personaggio: PF temporanei,
-  condizioni con fonti/durate, Indebolimento, stato a 0 PF/stabile/morto,
-  tiri salvezza contro morte, Dadi Vita spesi e concentrazione. Distinguere
-  dati persistenti della scheda, stati temporanei ed effetti derivati; evitare
-  due copie concorrenti degli stessi PF o slot.
-- Aggiungere entità persistenti per Sessione (`id`, nome, data locale fissata
-  alla creazione, `createdAt`, `closedAt`, stato), partecipanti ed eventi.
-  Ogni evento ha `sessionId`, `characterId` se pertinente, tipo, ora,
-  payload, prima/dopo e riferimento all'eventuale evento corretto. Lo stato
-  attuale del personaggio rimane nella scheda canonica; il riepilogo e gli
-  snapshot di apertura/chiusura sono copie storiche, non una seconda fonte da
-  sincronizzare. Lo storico precedente all'introduzione delle Sessioni
-  rimane consultabile come «storico precedente», senza Sessione inventata.
-- Ogni pulsante invia un **comando relativo** al server (per esempio
-  `assegnaPE(+100)`, `subisciDanno(7)`, `conferisciIspirazione`) con ID
-  idempotente, ID di Sessione aperta e valore atteso della versione corrente.
-  Il server rilegge Sessione e scheda, valida, calcola e salva nuovo stato,
-  evento di Sessione e storico nella stessa transazione.
-  In caso di modifica concorrente la UI ricarica e ripropone l'anteprima,
-  anziché sovrascrivere silenziosamente la scheda del giocatore.
-- Il motore dei riposi è condiviso dai comandi della scheda e della vista
-  Master. Il comando individuale può esistere anche senza Sessione aperta;
-  quello collettivo richiede una Sessione. Entrambi applicano gli stessi
-  requisiti, benefici, ricariche, limiti temporali e regole di idempotenza.
-- Registrare nello storico evento, valori prima/dopo, fonte/nota facoltativa
-  e provenienza «vista Master». Senza account non attribuire l'evento a una
-  persona verificata. Offrire correzione e annullamento espliciti di un
-  evento, con nuovo evento di storico, rispettando le modifiche successive.
-- La chiusura salva lo stato `chiusa`, l'ora e il riepilogo nella stessa
-  transazione e blocca nuovi eventi. Controllare nuovamente lo stato della
-  Sessione sul server anche se un client è rimasto aperto; due clic su
-  «Chiudi» non creano due chiusure. Le modifiche delle schede già applicate
-  non vengono riprodotte una seconda volta alla chiusura.
+- La pagina Master legge personaggi, creature, Sessioni, partecipanti ed
+  eventi dal database. Non sono previsti campagne, ruoli o permessi in questa
+  prima versione.
+- `lib/sheet.ts` persiste PE, PF attuali/massimi e temporanei, Ispirazione,
+  slot, risorse, Dadi Vita spesi, condizioni, Indebolimento, concentrazione e
+  stato/tiri contro morte. `removeRetiredFields` rimuove solo campi ritirati
+  diversi da questi stati.
+- Il database contiene Sessioni, partecipanti personaggio/creatura ed eventi.
+  La scheda conserva lo stato attuale; gli eventi e il riepilogo di chiusura
+  costituiscono la cronologia.
+- I comandi Master validano Sessione e destinatario, salvano gli aggiornamenti
+  e gli eventi in transazione e usano ID comando per evitare duplicati.
+  Mancano ancora una gestione completa dei conflitti tra modifiche
+  concorrenti e un flusso generale per correggere/annullare eventi.
+- Il riepilogo finale e il blocco delle azioni dopo la chiusura sono
+  implementati. Non vengono rigiocate le modifiche già applicate.
+- Il cambio livello resta affidato a `PLAN_CAMBIO_LIVELLO.md`; PE e
+  progressione non sono gestiti dai controlli Master attuali.
+- La vista Master mostra creature selezionate e registra i loro eventi.
+  Creature condivise e varianti più articolate restano nel perimetro di
+  `PLAN_CREATURE.md`.
 - Il cambio livello resta affidato a `PLAN_CAMBIO_LIVELLO.md`. La vista Master
   segnala PE sufficienti e apre quel wizard, senza cambiare direttamente il
   livello. Le pagine Talenti e Privilegi restano di consultazione.
@@ -352,7 +333,54 @@ esplicita verificata, non un editor libero nella pagina Incantesimi.
   `node_modules/next/dist/docs/`. Prima di modificare lo schema o scrivere
   nel database, verificare la destinazione configurata.
 
-## Sequenza di lavoro e dipendenze
+## Stato dell'implementazione
+
+Aggiornato il 7 ottobre 2026. Questo riepilogo descrive lo stato del codice;
+le regole di gioco restano quelle verificate nel PDF locale.
+
+### Fatto
+
+- Pagina Master con creazione di una Sessione nominata, data fissata alla
+  creazione, archivio e chiusura.
+- Scelta di personaggi e creature durante la creazione. La selezione è
+  immutabile a Sessione aperta; vengono mostrate solo le schede selezionate.
+- Controlli rapidi per personaggio: PF/danni/guarigione, PF temporanei,
+  Ispirazione eroica, stati e condizioni, concentrazione, risorse e slot,
+  tiri contro morte e stabilizzazione.
+- Controlli per le creature partecipanti: registrazione PF, danni e
+  guarigione, con eventi collegati alla Sessione.
+- Riposo breve e lungo dalla Sessione, applicabili all'intero gruppo o ai
+  soli personaggi/creature selezionati nel modulo del riposo.
+- Cronologia degli eventi e riepilogo alla chiusura con partecipanti,
+  modifiche registrate, stati attivi e dati mancanti.
+- Migration SQL e snapshot Drizzle versionati, procedura di baseline per DB
+  locali preesistenti e comandi locali che rifiutano database remoti.
+- Seed sintetico della pagina Master, separato dal database e dai dati reali.
+
+### Da fare per completare il piano
+
+- Prove end-to-end complete dei flussi di creazione, azioni, riposi, archivio
+  e chiusura su mobile e desktop, comprese modifiche concorrenti e correzioni.
+- Controllare che ogni effetto di riposo, risorsa e condizione sia coperto da
+  dati affidabili e dalla relativa regola verificata; lasciare manuale quello
+  che non si può automatizzare con sicurezza.
+- Valutare PE e progressione: non sono gestiti dai controlli della Sessione
+  in questa implementazione.
+
+### Da migliorare, senza bloccare l'uso attuale
+
+- Rendere più leggibile il dettaglio degli eventi e delle variazioni nel
+  riepilogo finale quando una Sessione è lunga.
+- Aggiungere prove automatizzate dei comandi e dei vincoli di partecipazione,
+  inclusi invii duplicati e Sessione già chiusa.
+- Affinare l'esperienza mobile e i messaggi di validazione sulla base dell'uso
+  locale.
+
+Tracker d'iniziativa/round, consultazione comparativa del gruppo, appunti,
+bottino e altri strumenti elencati nel piano restano idee successive, non
+attività richieste per questa consegna.
+
+## Sequenza di lavoro e dipendenze (piano iniziale)
 
 1. **Contratto di Sessione e inventario:** definire creazione, data, nome,
    partecipanti, eventi, chiusura e archivio; mappare ogni azione della
@@ -384,9 +412,9 @@ esplicita verificata, non un editor libero nella pagina Incantesimi.
 
 ## Prove di accettazione
 
-- Il Master vede tutti i personaggi e individua subito chi è a 0 PF, chi ha
-  una condizione o Indebolimento, chi possiede Ispirazione e chi è vicino al
-  livello successivo. I valori mancanti non appaiono come zero.
+- Alla creazione il Master sceglie i partecipanti; nella Sessione vede solo
+  le schede selezionate e individua PF, condizioni, Indebolimento e
+  Ispirazione. I valori mancanti non appaiono come zero.
 - Una nuova Sessione conserva nome e data automatica di creazione. Ogni
   modifica del Master durante la Sessione aperta appare subito nella scheda
   e ha esattamente un evento collegato. Nessuna azione è attribuita a una

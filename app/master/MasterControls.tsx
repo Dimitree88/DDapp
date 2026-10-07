@@ -28,11 +28,10 @@ function CharacterActionPanel({ sessionId, character: entry, party }: { sessionI
   const resources = data.risorse ?? [];
   const slots = spellSlots(data).filter((slot) => slot.maximum > 0);
   const recipients = party.filter((member) => member.id !== character.id && !member.data.ispirazioneEroica);
-  return <details className="mt-3 border-t border-line pt-3">
-    <summary className="min-h-10 cursor-pointer list-none py-2 font-semibold text-accent">Azioni sul personaggio</summary>
-    <div className="flex flex-col gap-4 pt-2">
-      <section className="rounded-lg bg-parchment/60 p-3">
-        <h4 className="font-semibold text-ink">Ispirazione eroica</h4>
+  return <div className="mt-3 flex flex-col gap-2 border-t border-line pt-3">
+      <details className="rounded-lg bg-parchment/60 p-3">
+        <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between rounded-lg border border-line bg-white px-3 py-2 font-semibold text-accent">Ispirazione eroica<span aria-hidden>⌄</span></summary>
+        <div className="pt-2">
         <p className="mb-2 text-sm text-ink-soft">{data.ispirazioneEroica ? "Posseduta" : "Non posseduta"}</p>
         {!data.ispirazioneEroica ? <form action={applyMasterCharacterAction} className="flex flex-wrap gap-2">
           <ActionFields sessionId={sessionId} character={character} action="ispirazione-conferisci" />
@@ -54,10 +53,12 @@ function CharacterActionPanel({ sessionId, character: entry, party }: { sessionI
             <button className={secondaryButton}>Trasferisci</button>
           </form>}
         </div>}
-      </section>
+        </div>
+      </details>
 
-      <section className="rounded-lg bg-parchment/60 p-3">
-        <h4 className="font-semibold text-ink">Punti ferita</h4>
+      <details className="rounded-lg bg-parchment/60 p-3">
+        <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between rounded-lg border border-line bg-white px-3 py-2 font-semibold text-accent">Punti ferita<span aria-hidden>⌄</span></summary>
+        <div className="pt-2">
         <p className="mb-2 text-sm text-ink-soft">PF {data.puntiFerita || "da registrare"} / {data.puntiFeritaMax || "da registrare"} · temporanei {data.puntiFeritaTemporanei ?? "da registrare"}</p>
         {!Number.isInteger(hp) || hp < 0 ? <form action={applyMasterCharacterAction} className="flex gap-2">
           <ActionFields sessionId={sessionId} character={character} action="pf-registra" />
@@ -96,10 +97,12 @@ function CharacterActionPanel({ sessionId, character: entry, party }: { sessionI
             <button className={secondaryButton}>Segna stabilizzazione confermata</button>
           </form>
         </div>}
-      </section>
+        </div>
+      </details>
 
-      <section className="rounded-lg bg-parchment/60 p-3">
-        <h4 className="font-semibold text-ink">Stati</h4>
+      <details className="rounded-lg bg-parchment/60 p-3">
+        <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between rounded-lg border border-line bg-white px-3 py-2 font-semibold text-accent">Stati<span aria-hidden>⌄</span></summary>
+        <div className="pt-2">
         <p className="text-sm text-ink-soft">Indebolimento: {data.indebolimento ?? "da registrare"}{data.concentrazione ? ` · Concentrazione: ${data.concentrazione.effetto}` : ""}</p>
         {data.condizioni?.map((condition, index) => <div key={`${condition.nome}-${index}`} className="mt-2 flex items-center justify-between gap-2 text-sm text-ink">
           <span>{condition.nome} · {condition.fonte}{condition.durata ? ` · ${condition.durata}` : ""}</span>
@@ -134,10 +137,12 @@ function CharacterActionPanel({ sessionId, character: entry, party }: { sessionI
           <input name="duration" placeholder="Durata (se nota)" className={fieldClass} />
           <button className={secondaryButton}>Registra concentrazione</button>
         </form>}
-      </section>
+        </div>
+      </details>
 
-      {(resources.length > 0 || slots.length > 0) && <section className="rounded-lg bg-parchment/60 p-3">
-        <h4 className="font-semibold text-ink">Risorse e slot</h4>
+      {(resources.length > 0 || slots.length > 0) && <details className="rounded-lg bg-parchment/60 p-3">
+        <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between rounded-lg border border-line bg-white px-3 py-2 font-semibold text-accent">Risorse e slot<span aria-hidden>⌄</span></summary>
+        <div className="pt-2">
         {resources.map((resource, index) => <div key={`${resource.fonte}-${resource.nome}-${index}`} className="mt-2 flex items-center justify-between gap-2 text-sm text-ink">
           <span>{resource.nome} ({resource.fonte}) · {resource.spesi}/{resource.massimo} spesi</span>
           <form action={applyMasterCharacterAction}><ActionFields sessionId={sessionId} character={character} action="risorsa-usa" /><input type="hidden" name="resourceIndex" value={index} /><button disabled={resource.spesi >= resource.massimo} className={secondaryButton}>Usa</button></form>
@@ -146,9 +151,9 @@ function CharacterActionPanel({ sessionId, character: entry, party }: { sessionI
           <span>Slot livello {slot.level} · {data.slotSpesi?.[String(slot.level)] ?? "da registrare"}/{slot.maximum} spesi</span>
           <form action={applyMasterCharacterAction}><ActionFields sessionId={sessionId} character={character} action="slot-usa" /><input type="hidden" name="slotLevel" value={slot.level} /><button disabled={(data.slotSpesi?.[String(slot.level)] ?? 0) >= slot.maximum} className={secondaryButton}>Usa</button></form>
         </div>)}
-      </section>}
-    </div>
-  </details>;
+        </div>
+      </details>}
+  </div>;
 }
 
 function CreatureActionPanel({ sessionId, creature }: { sessionId: string; creature: CreatureEntry }) {
@@ -223,13 +228,12 @@ export function MasterCharacterCard({ sessionId, character, party, canAct }: { s
   return <article className="rounded-xl border border-line bg-card/70 p-3">
     <div className="flex items-start justify-between gap-2">
       <div><h3 className="font-bold text-ink">{character.name}</h3><p className="text-sm text-ink-soft">{data.classe || "Classe da registrare"} · livello {data.livello || "—"}</p></div>
-      {canAct && <span className="rounded-full bg-accent/10 px-2 py-1 text-xs font-semibold text-accent">Partecipa</span>}
     </div>
     <div className="mt-3 flex flex-wrap justify-between gap-2 text-sm text-ink">
       <span>PF <strong>{data.puntiFerita || "da registrare"}</strong> / {data.puntiFeritaMax || "da registrare"} · temp {data.puntiFeritaTemporanei ?? "da registrare"}</span>
       <span>CA <strong>{data.classeArmatura ?? "da registrare"}</strong></span>
     </div>
-    <p className="mt-1 text-sm text-ink-soft">Ispirazione {data.ispirazioneEroica ? "sì" : "no"} · Indebolimento {data.indebolimento ?? "da registrare"} · {data.condizioni?.length ? data.condizioni.map((item) => item.nome).join(", ") : "condizioni da registrare"}</p>
+    <p className="mt-1 flex flex-wrap items-center gap-x-2 text-sm text-ink-soft"><span className="inline-flex items-center gap-1.5"><span aria-hidden className={`flex size-4 items-center justify-center rounded border ${data.ispirazioneEroica ? "border-accent bg-accent text-white" : "border-line bg-white"}`}>{data.ispirazioneEroica ? "✓" : ""}</span><span>Ispirazione eroica</span></span><span>· Indebolimento {data.indebolimento ?? "da registrare"}</span><span>· {data.condizioni?.length ? data.condizioni.map((item) => item.nome).join(", ") : "condizioni da registrare"}</span></p>
     {canAct && <CharacterActionPanel sessionId={sessionId} character={character} party={party} />}
     <Link href={`/personaggio/${character.id}`} className="mt-3 inline-block min-h-10 pt-2 text-sm font-semibold text-accent">Apri scheda ›</Link>
   </article>;
@@ -237,9 +241,9 @@ export function MasterCharacterCard({ sessionId, character, party, canAct }: { s
 
 export function MasterCreatureCard({ sessionId, creature, canAct }: { sessionId: string; creature: CreatureEntry; canAct: boolean }) {
   return <article className="rounded-xl border border-line bg-card/70 p-3">
-    <div className="flex items-start justify-between gap-2"><div><h3 className="font-bold text-ink">{creature.name}</h3><p className="text-sm text-ink-soft">Creatura personalizzata del tavolo · {creature.data.creatureType} {creature.data.size}</p></div>{canAct && <span className="rounded-full bg-accent/10 px-2 py-1 text-xs font-semibold text-accent">In Sessione</span>}</div>
+    <div className="flex items-start justify-between gap-2"><h3 className="font-bold text-ink">{creature.name}</h3></div>
     <div className="mt-3 flex justify-between gap-2 text-sm text-ink"><span>PF <strong>{creature.data.hitPointsCurrent}</strong> / {creature.data.hitPointsMax}</span><span>CA <strong>{creature.data.armorClass}</strong></span></div>
     {canAct && <CreatureActionPanel sessionId={sessionId} creature={creature} />}
-    <Link href={`/creatura/${creature.id}`} className="mt-3 inline-block min-h-10 pt-2 text-sm font-semibold text-accent">Apri creatura ›</Link>
+    <Link href={`/creatura/${creature.id}`} className="mt-3 inline-block min-h-10 pt-2 text-sm font-semibold text-accent">Apri scheda ›</Link>
   </article>;
 }

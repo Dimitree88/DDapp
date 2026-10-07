@@ -33,19 +33,42 @@ Requisiti: Node 22+.
 # 1. Installa le dipendenze
 npm install
 
-# 2. Crea il file .env (vedi .env.example)
-#    DATABASE_URL="file:local.db"
-#    SESSION_SECRET="<stringa lunga e casuale>"
+# 2. Crea il file .env.local (ignorato da Git)
+DATABASE_URL="file:local.db"
+DATABASE_AUTH_TOKEN=""
+SESSION_SECRET="<stringa lunga e casuale>"
 
-# 3. Crea lo schema del DB locale
-npm run db:push
+# 3. Crea lo schema usando le migration versionate (solo SQLite locale)
+npm run db:migrate:local
 
-# 4. (opzionale) Carica il personaggio di esempio "Ephemer"
-npm run seed        # PIN di Ephemer: 0000
+# 4. Carica personaggi, creatura e Sessione dimostrativi fittizi
+npm run db:seed:demo # PIN dei personaggi demo: 0000
 
 # 5. Avvia il server di sviluppo
 npm run dev
 ```
+
+Se hai già un `local.db` creato con il vecchio `db:push`, conserva quel file e
+registra la migration iniziale una sola volta: `npm run db:baseline:local`.
+Il comando controlla tabelle, colonne e indici prima di scrivere il registro e
+non modifica le schede esistenti. Le migration successive si applicano con
+`npm run db:migrate:local`.
+
+Per aggiungere una modifica allo schema: aggiorna `lib/db/schema.ts`, esegui
+`npm run db:generate -- --name=descrizione_breve`, controlla il file SQL
+generato in `drizzle/` e committa insieme migration, journal e snapshot.
+Durante lo sviluppo locale usa `db:migrate:local`; `db:push` non registra
+migration riproducibili e non fa parte del normale flusso.
+
+Il seed demo contiene solo dati sintetici: quattro personaggi e una creatura,
+con `Test` in fondo al nome, oltre a una Sessione aperta quando non ne esiste
+già un'altra. È idempotente e aggiorna i nomi dei record demo già presenti
+senza riscriverne le schede. I database locali non vengono copiati nel
+repository e questi comandi rifiutano URL remoti o token Turso.
+In una Sessione Master i partecipanti si scelgono alla creazione: dopo l'apertura
+la composizione è fissa e nella pagina si vedono soltanto le schede selezionate.
+Quando chiudi la Sessione, l'archivio si apre sul riepilogo finale con modifiche,
+stati attivi e dati mancanti di personaggi e creature partecipanti.
 
 Apri **http://localhost:3000**. Per provarla dal telefono (stessa rete Wi-Fi) usa
 l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
@@ -67,8 +90,12 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 | --- | --- |
 | `npm run dev` | Server di sviluppo |
 | `npm run build` / `npm start` | Build e avvio di produzione |
-| `npm run db:push` | Applica lo schema Drizzle al DB |
+| `npm run db:push` | Push schema non versionato (strumento legacy; non usare nel flusso normale) |
 | `npm run seed` | Inserisce il personaggio "Ephemer" |
+| `npm run db:generate -- --name=nome` | Genera una migration Drizzle versionata |
+| `npm run db:migrate:local` | Applica le migration al SQLite indicato da `.env.local` |
+| `npm run db:baseline:local` | Registra lo schema iniziale su un DB locale già esistente, senza riscrivere dati |
+| `npm run db:seed:demo` | Inserisce i dati sintetici della pagina Master nel DB locale |
 | `npm run db:studio` | Apre Drizzle Studio sul DB |
 | `node scripts/setup-history.mjs` | Crea la tabella dello storico senza cambiare le schede |
 
@@ -82,7 +109,7 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
 ## Deploy su Vercel (da fare)
 1. Crea un database su [Turso](https://turso.tech) e ottieni URL + auth token.
 2. Imposta su Vercel le 3 variabili d'ambiente (vedi tabella).
-3. Esegui una volta `npm run db:push` puntando al DB Turso (con le env di produzione).
+3. Applica le migration versionate con una procedura di deploy autorizzata. I comandi `*:local` rifiutano database remoti; non puntare mai il seed demo a Turso.
 4. Collega il repo a Vercel e fai il deploy.
 
 ## Modello dati

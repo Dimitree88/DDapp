@@ -1,11 +1,12 @@
 "use server";
 
 import { randomUUID } from "crypto";
-import { and, eq } from "drizzle-orm";
+import { and, asc, eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { db } from "@/lib/db";
 import { characters, creatures, masterSessionCreatures, masterSessionEvents, masterSessionParticipants, masterSessions } from "@/lib/db/schema";
+import { normalizeSheet } from "@/lib/sheet";
 
 function localDateRome(date: Date) {
   const parts = new Intl.DateTimeFormat("en-CA", {
@@ -22,6 +23,7 @@ export async function createMasterSession(formData: FormData) {
   const id = randomUUID();
   const selectedIds = [...new Set(formData.getAll("participant").map(String))];
   const selectedCreatureIds = [...new Set(formData.getAll("creature").map(String))];
+  if (!selectedIds.length && !selectedCreatureIds.length) redirect(`/master?errore=${encodeURIComponent("Seleziona almeno un partecipante prima di creare la Sessione.")}`);
   await db.transaction(async (tx) => {
     const existing = await tx.select({ id: masterSessions.id }).from(masterSessions).where(eq(masterSessions.status, "aperta")).limit(1);
     if (existing.length) throw new Error("Esiste già una Sessione aperta.");
@@ -45,92 +47,66 @@ export async function createMasterSession(formData: FormData) {
   redirect("/master");
 }
 
-export async function saveMasterParticipants(formData: FormData) {
-  const sessionId = String(formData.get("sessionId") ?? "");
-  const selectedIds = [...new Set(formData.getAll("participant").map(String))];
-  const selectedCreatureIds = [...new Set(formData.getAll("creature").map(String))];
-  await db.transaction(async (tx) => {
-    const [session] = await tx.select({ id: masterSessions.id }).from(masterSessions)
-      .where(and(eq(masterSessions.id, sessionId), eq(masterSessions.status, "aperta"))).limit(1);
-    if (!session) throw new Error("La Sessione non è aperta.");
-    const previous = await tx.select({ characterId: masterSessionParticipants.characterId }).from(masterSessionParticipants)
-      .where(eq(masterSessionParticipants.sessionId, sessionId));
-    const previousCreatures = await tx.select({ creatureId: masterSessionCreatures.creatureId }).from(masterSessionCreatures)
-      .where(eq(masterSessionCreatures.sessionId, sessionId));
-    const allCharacters = selectedIds.length ? await tx.select({ id: characters.id }).from(characters) : [];
-    const validIds = new Set(allCharacters.map(({ id }) => id));
-    if (selectedIds.some((id) => !validIds.has(id))) throw new Error("La selezione contiene un personaggio non valido.");
-    const allCreatures = selectedCreatureIds.length ? await tx.select({ id: creatures.id }).from(creatures) : [];
-    const validCreatureIds = new Set(allCreatures.map(({ id }) => id));
-    if (selectedCreatureIds.some((id) => !validCreatureIds.has(id))) throw new Error("La selezione contiene una creatura non valida.");
-    await tx.delete(masterSessionParticipants).where(eq(masterSessionParticipants.sessionId, sessionId));
-    if (selectedIds.length) await tx.insert(masterSessionParticipants).values(selectedIds.map((characterId) => ({ sessionId, characterId })));
-    await tx.delete(masterSessionCreatures).where(eq(masterSessionCreatures.sessionId, sessionId));
-    if (selectedCreatureIds.length) await tx.insert(masterSessionCreatures).values(selectedCreatureIds.map((creatureId) => ({ sessionId, creatureId })));
-    const now = new Date();
-    await tx.insert(masterSessionEvents).values({
-      id: randomUUID(), sessionId, type: "partecipanti_aggiornati", occurredAt: now,
-      payload: {
-        charactersBefore: previous.map(({ characterId }) => characterId), charactersAfter: selectedIds,
-        creaturesBefore: previousCreatures.map(({ creatureId }) => creatureId), creaturesAfter: selectedCreatureIds,
-      },
-    });
-  });
-  revalidatePath("/master");
-  redirect("/master");
-}
-
-export async function toggleMasterParticipant(formData: FormData) {
-  const sessionId = String(formData.get("sessionId") ?? "");
-  const participantId = String(formData.get("participantId") ?? "");
-  const participantType = String(formData.get("participantType") ?? "");
-  const selected = formData.get("selected") === "true";
-  if (!participantId || (participantType !== "personaggio" && participantType !== "creatura")) throw new Error("Partecipante non valido.");
-  const now = new Date();
-  await db.transaction(async (tx) => {
-    const [session] = await tx.select({ id: masterSessions.id }).from(masterSessions)
-      .where(and(eq(masterSessions.id, sessionId), eq(masterSessions.status, "aperta"))).limit(1);
-    if (!session) throw new Error("La Sessione non è aperta.");
-    const isCharacter = participantType === "personaggio";
-    const [participant] = isCharacter
-      ? await tx.select({ id: characters.id, name: characters.name }).from(characters).where(eq(characters.id, participantId)).limit(1)
-      : await tx.select({ id: creatures.id, name: creatures.name }).from(creatures).where(eq(creatures.id, participantId)).limit(1);
-    if (!participant) throw new Error("Partecipante non trovato.");
-    const joinTable = isCharacter ? masterSessionParticipants : masterSessionCreatures;
-    const idColumn = isCharacter ? masterSessionParticipants.characterId : masterSessionCreatures.creatureId;
-    if (selected) {
-      await tx.insert(joinTable).values(isCharacter
-        ? { sessionId, characterId: participantId }
-        : { sessionId, creatureId: participantId }).onConflictDoNothing();
-    } else {
-      await tx.delete(joinTable).where(and(eq(joinTable.sessionId, sessionId), eq(idColumn, participantId)));
-    }
-    await tx.insert(masterSessionEvents).values({
-      id: randomUUID(), sessionId, type: "partecipante_modificato", occurredAt: now,
-      payload: { participantId, participantName: participant.name, participantType, selected },
-    });
-  });
-  revalidatePath("/master");
-}
-
 export async function closeMasterSession(formData: FormData) {
   const sessionId = String(formData.get("sessionId") ?? "");
   const now = new Date();
   await db.transaction(async (tx) => {
-    const participants = await tx.select({ characterId: masterSessionParticipants.characterId, name: characters.name })
+    const participants = await tx.select({ characterId: masterSessionParticipants.characterId, name: characters.name, data: characters.data })
       .from(masterSessionParticipants).innerJoin(characters, eq(masterSessionParticipants.characterId, characters.id))
       .where(eq(masterSessionParticipants.sessionId, sessionId));
-    const selectedCreatures = await tx.select({ creatureId: masterSessionCreatures.creatureId, name: creatures.name })
+    const selectedCreatures = await tx.select({ creatureId: masterSessionCreatures.creatureId, name: creatures.name, data: creatures.data })
       .from(masterSessionCreatures).innerJoin(creatures, eq(masterSessionCreatures.creatureId, creatures.id))
       .where(eq(masterSessionCreatures.sessionId, sessionId));
+    const previousEvents = await tx.select().from(masterSessionEvents)
+      .where(eq(masterSessionEvents.sessionId, sessionId)).orderBy(asc(masterSessionEvents.occurredAt));
+    const participantSummary = participants.map((participant) => {
+      const sheet = normalizeSheet(participant.data);
+      const missing: string[] = [];
+      if (!/^\d+$/.test(sheet.puntiFerita)) missing.push("PF attuali");
+      if (!/^\d+$/.test(sheet.puntiFeritaMax)) missing.push("PF massimi");
+      if (!Number.isFinite(sheet.classeArmatura)) missing.push("Classe Armatura");
+      if (!sheet.dadiVita.trim()) missing.push("Dadi Vita");
+      const states = [
+        ...(sheet.ispirazioneEroica ? ["Ispirazione eroica"] : []),
+        ...(sheet.indebolimento ? [`Indebolimento ${sheet.indebolimento}`] : []),
+        ...(Number(sheet.puntiFeritaTemporanei) > 0 ? [`PF temporanei ${sheet.puntiFeritaTemporanei}`] : []),
+        ...(sheet.condizioni ?? []).map((condition) => `${condition.nome}${condition.fonte ? ` (${condition.fonte})` : ""}${condition.durata ? ` — ${condition.durata}` : ""}`),
+        ...(sheet.concentrazione ? [`Concentrazione: ${sheet.concentrazione.effetto}`] : []),
+        ...(sheet.statoMorte ? [`Stato a 0 PF: ${sheet.statoMorte}`] : []),
+      ];
+      const changes = previousEvents.filter((event) => event.characterId === participant.characterId).map((event) => {
+        const payload = event.payload as Record<string, unknown>;
+        const details = Array.isArray(payload.details) ? payload.details.filter((item): item is string => typeof item === "string") : [];
+        const values = Array.isArray(payload.changes) ? payload.changes.filter((item): item is { field: string; before: string; after: string } => Boolean(item && typeof item === "object" && "field" in item && typeof item.field === "string" && "before" in item && typeof item.before === "string" && "after" in item && typeof item.after === "string")) : [];
+        return { occurredAt: event.occurredAt.toISOString(), action: typeof payload.title === "string" ? payload.title : event.type, details, changes: values };
+      });
+      return {
+        characterId: participant.characterId, name: participant.name,
+        current: { puntiFerita: sheet.puntiFerita, puntiFeritaMax: sheet.puntiFeritaMax, classeArmatura: sheet.classeArmatura },
+        statiAttivi: states, datiMancanti: missing, modificheSessione: changes,
+      };
+    });
+    const creatureSummary = selectedCreatures.map((creature) => ({
+      creatureId: creature.creatureId, name: creature.name,
+      current: { puntiFerita: creature.data.hitPointsCurrent, puntiFeritaMax: creature.data.hitPointsMax, classeArmatura: creature.data.armorClass },
+      modificheSessione: previousEvents.filter((event) => event.creatureId === creature.creatureId).map((event) => {
+        const payload = event.payload as Record<string, unknown>;
+        const before = payload.before && typeof payload.before === "object" ? payload.before as { hitPointsCurrent?: unknown } : {};
+        const after = payload.after && typeof payload.after === "object" ? payload.after as { hitPointsCurrent?: unknown } : {};
+        const details = Array.isArray(payload.details) ? payload.details.filter((item): item is string => typeof item === "string") : [];
+        if (Number.isInteger(before.hitPointsCurrent) && Number.isInteger(after.hitPointsCurrent) && before.hitPointsCurrent !== after.hitPointsCurrent) details.push(`PF: ${before.hitPointsCurrent} → ${after.hitPointsCurrent}`);
+        if (typeof payload.note === "string" && payload.note) details.push(payload.note);
+        return { occurredAt: event.occurredAt.toISOString(), action: typeof payload.title === "string" ? payload.title : event.type, details };
+      }),
+    }));
     const changed = await tx.update(masterSessions).set({ status: "chiusa", closedAt: now })
       .where(and(eq(masterSessions.id, sessionId), eq(masterSessions.status, "aperta"))).returning({ id: masterSessions.id });
     if (!changed.length) throw new Error("La Sessione non è aperta.");
     await tx.insert(masterSessionEvents).values({
       id: randomUUID(), sessionId, type: "sessione_chiusa", occurredAt: now,
-      payload: { participants, creatures: selectedCreatures },
+      payload: { participants: participantSummary, creatures: creatureSummary },
     });
   });
   revalidatePath("/master");
-  redirect("/master");
+  redirect(`/master?chiusa=${encodeURIComponent(sessionId)}`);
 }

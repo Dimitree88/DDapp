@@ -15,6 +15,12 @@ Questa regola si applica a tutte le modifiche e verifiche relative ai contenuti 
 - Il progetto usa Next.js 16: prima di modificare API o convenzioni del framework, consultare la documentazione installata in `node_modules/next/dist/docs/`.
 - Verificare la destinazione configurata prima di eseguire operazioni di scrittura sul database o modifiche allo schema.
 
+Per lo sviluppo locale seguire la sezione "Avvio in locale" del `README.md`: usare `npm run db:migrate:local` e `npm run db:seed:demo`, che richiedono `.env.local` con SQLite `file:` e token vuoto.
+
+Le modifiche allo schema devono avere migration SQL e snapshot versionati in `drizzle/`; generarle con `npm run db:generate -- --name=...` e applicarle in locale con `npm run db:migrate:local`. Non usare `db:push` come normale flusso di sviluppo.
+
+Non copiare database locali o dati reali nel repository. Per nuovi ambienti usare i fixture sintetici di `db:seed:demo`; per database locali preesistenti seguire la procedura di baseline nel README.
+
 ## Lavoro parallelo sul piano 2024
 
 Per i task di `PLAN_ADEGUAMENTO_2024.md`, prima di modificare contenuti:
