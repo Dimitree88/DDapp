@@ -12,6 +12,7 @@ import { creationErrors } from "@/lib/creationRules";
 import { armorForEquipment } from "@/lib/equipmentSelection";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
+export type BundleReceipt = { name: string; items: string[] };
 
 export async function deleteCharacter(id: string) {
   await db.transaction(async (tx) => {
@@ -39,6 +40,7 @@ export async function saveSheet(
   id: string,
   name: string,
   sheet: Sheet,
+  bundleReceipts: BundleReceipt[] = [],
 ): Promise<{ ok: boolean; error?: string }> {
   const cleanName = name.trim() || "Senza nome";
   const normalized = normalizeSheet(sheet);
@@ -94,7 +96,15 @@ export async function saveSheet(
       item.impugnato && armorForEquipment(item)?.category === "scudi" && Number(item.quantita ?? "1") > 0)) {
       return { ok: false, error: "Registra prima lo scudo nell'inventario." };
     }
-    const changes = diffManualSheet(previous, normalized);
+    const changes = [
+      ...diffManualSheet(previous, normalized),
+      ...bundleReceipts.map((receipt): HistoryChange => ({
+        field: `Dotazione ricevuta · ${receipt.name}`,
+        before: "",
+        after: "",
+        items: receipt.items,
+      })),
+    ];
     const hasRemovedBonus = [...current.data.armi, ...current.data.equipaggiamento]
       .some((item) => Object.hasOwn(item, "bonusMagico"));
     if (changes.length === 0 && !hasRemovedBonus && current.name === cleanName) return { ok: true };

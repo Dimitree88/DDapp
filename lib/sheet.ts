@@ -6,7 +6,7 @@ import { grantClassLanguages, grantClassProficiencies } from "./classSavingThrow
 import { grantBackgroundSkills, grantBackgroundToolProficiency } from "./backgroundToolProficiencies";
 import { grantFeatToolProficiencies } from "./featToolProficiencies";
 import { gearByName } from "./gearCatalog";
-import { mergeDuplicateCatalogEquipment } from "./equipmentSelection";
+import { expandPackageEquipment, mergeDuplicateCatalogEquipment } from "./equipmentSelection";
 
 // Modello dati della scheda. I bonus delle abilità sono derivati.
 
@@ -357,7 +357,7 @@ export function normalizeSheet(value: Sheet): Sheet {
         return { nome, ...(legacyArrows ? { catalogId: gearByName("Frecce")?.id, quantita: legacyArrows[1] } : item.catalogId ? { catalogId: item.catalogId } : {}), ...(!legacyArrows && item.quantita ? { quantita: item.quantita } : {}), ...(item.unita ? { unita: item.unita } : {}), ...(item.contenitore ? { contenitore: item.contenitore } : {}), ...(item.indossato ? { indossato: true } : {}), ...(item.impugnato ? { impugnato: true } : {}), ...(item.magico ? { magico: true } : {}), dettaglio:
         (item.nome === "Armatura di cuoio borchiato" && item.dettaglio === "Classe armatura 12") ||
         (item.nome === "Borsa da erborista" && /^CD 10 per identificare una pianta; creazione:/.test(item.dettaglio))
-          ? "" : item.dettaglio };
+          ? "" : gearByName(item.dettaglio)?.contents?.length ? "" : item.dettaglio };
       }),
     privilegi: privileges,
     risorse: (value.risorse ?? []).map((resource) => ({
@@ -376,7 +376,7 @@ export function normalizeSheet(value: Sheet): Sheet {
   delete (normalized as Sheet & { percezionePassiva?: string }).percezionePassiva;
   delete (normalized as Sheet & { iniziativa?: string }).iniziativa;
   const cleaned = removeRetiredFields(normalized);
-  cleaned.equipaggiamento = mergeDuplicateCatalogEquipment(cleaned.equipaggiamento);
+  cleaned.equipaggiamento = mergeDuplicateCatalogEquipment(expandPackageEquipment(cleaned.equipaggiamento));
   const withClass = cleaned.classProficienciesApplied ? cleaned : grantClassProficiencies(cleaned);
   return grantFeatToolProficiencies(grantBackgroundToolProficiency(grantBackgroundSkills(grantClassLanguages(withClass))));
 }

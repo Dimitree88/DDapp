@@ -79,6 +79,32 @@ test("adding a catalog object increases its existing quantity", () => {
   assert.equal(existing[0].quantita, "16");
 });
 
+test("standard equipment packs expand to separate catalog items without their source", () => {
+  const packs = gearByName("Dotazione da avventuriero");
+  const items = addCatalogEquipment([], packs.id);
+  assert.equal(items.some((item) => item.catalogId === packs.id), false);
+  assert.deepEqual(items.map(({ nome, quantita, dettaglio }) => [nome, quantita, dettaglio]), [
+    ["Zaino", "1", ""], ["Triboli", "1", ""], ["Piede di porco", "1", ""],
+    ["Olio", "2", ""], ["Razioni", "10", ""], ["Corda", "1", ""],
+    ["Acciarino e pietra focaia", "1", ""], ["Torcia", "10", ""], ["Otre", "1", ""],
+  ]);
+  const sheet = emptySheet();
+  sheet.equipaggiamento = [{ nome: packs.name, catalogId: packs.id, dettaglio: "", quantita: "1" }];
+  assert.deepEqual(normalizeSheet(sheet).equipaggiamento, items);
+  assert.equal(inventoryWeight({ ...sheet, equipaggiamento: items }).knownKg, 27.5);
+});
+
+test("every catalog equipment pack has resolvable separate contents", () => {
+  const packs = ["Dotazione da avventuriero", "Dotazione da diplomatico", "Dotazione da esploratore", "Dotazione da intrattenitore", "Dotazione da sacerdote", "Dotazione da scassinatore", "Dotazione da studioso"];
+  for (const name of packs) {
+    const pack = gearByName(name);
+    const items = addCatalogEquipment([], pack.id);
+    assert.ok(items.length > 0, name);
+    assert.ok(items.every((item) => item.catalogId && item.dettaglio === ""), name);
+    assert.equal(items.some((item) => item.catalogId === pack.id), false, name);
+  }
+});
+
 test("an object with personal details stays separate from a newly added copy", () => {
   const book = gearByName("Libro");
   const existing = [{ nome: "Libro", catalogId: book.id, quantita: "1", dettaglio: "Di filosofia" }];

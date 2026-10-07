@@ -207,7 +207,7 @@ function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: 
   </div>;
 }
 
-function ObjectListEditor({ sheet, items, indices, onChange }: { sheet: Sheet; items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void }) {
+function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }: { sheet: Sheet; items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; onBundleReceived: (name: string, items: string[]) => void }) {
   const { unlocked } = useContext(EditContext);
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
   const entries = items.map((item, index) => ({ item, index }))
@@ -220,9 +220,6 @@ function ObjectListEditor({ sheet, items, indices, onChange }: { sheet: Sheet; i
             : <TextField label="" showInfo={false} value={item.nome} onChange={(value) => patchAt(index, { nome: value })} />}
           <WarningLabel id={`avvisoOggetto:${indices[index]}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
         </div>
-        {gearById(item.catalogId ?? "")?.contents?.length ? <ul className="mt-1 list-inside list-disc text-xs text-ink-soft" aria-label={`Contenuto di ${item.nome}`}>
-          {gearById(item.catalogId ?? "")!.contents!.map((content) => <li key={content}>{content}</li>)}
-        </ul> : null}
         {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
       </div>
       <span className="text-xs text-ink-faint">Quantità</span>
@@ -233,6 +230,8 @@ function ObjectListEditor({ sheet, items, indices, onChange }: { sheet: Sheet; i
     {items.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
     {entries.map(renderItem)}
     {unlocked && <select aria-label="Aggiungi oggetto" value="" onChange={(event) => {
+      const gear = gearById(event.target.value);
+      if (gear?.contents?.length) onBundleReceived(gear.name, gear.contents.map((item) => `${item.name}${(item.quantity ?? 1) > 1 ? ` ×${item.quantity}` : ""}`));
       onChange(event.target.value === "personalizzato"
         ? [...items, { nome: "", dettaglio: "", quantita: "1" }]
         : addCatalogEquipment(items, event.target.value));
@@ -306,6 +305,7 @@ export default function CharacterClient({
 }) {
   const router = useRouter();
   const [sheet, setSheet] = useState<Sheet>(initialSheet);
+  const pendingBundleEvents = useRef<{ name: string; items: string[] }[]>([]);
   const [name] = useState(initialName);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
@@ -474,7 +474,12 @@ export default function CharacterClient({
   }, [emblaApi]);
 
   const queueSave = useCallback((nextSheet: Sheet) => {
-    const task = saveChainRef.current.then(() => saveSheet(id, name, nextSheet));
+    const task = saveChainRef.current.then(async () => {
+      const receipts = [...pendingBundleEvents.current];
+      const result = await saveSheet(id, name, nextSheet, receipts);
+      if (result.ok) pendingBundleEvents.current.splice(0, receipts.length);
+      return result;
+    });
     saveChainRef.current = task.then(() => undefined, () => undefined);
     return task;
   }, [id, name]);
@@ -761,7 +766,7 @@ export default function CharacterClient({
           <div>
             <h3 className={sectionTitle}>Oggetti</h3>
             <p className="mb-2 text-sm text-ink-soft">Peso catalogato: {inventoryWeight(sheet).knownKg} kg{carryingCapacity(sheet) !== null ? ` / capacità ${carryingCapacity(sheet)} kg` : ""}{inventoryWeight(sheet).unknownItems.length ? `; peso non noto per ${inventoryWeight(sheet).unknownItems.length} voci` : ""}.</p>
-            <ObjectListEditor sheet={sheet} items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })} />
+            <ObjectListEditor sheet={sheet} items={otherEquipment} indices={otherEquipmentIndices} onChange={(items) => patch({ equipaggiamento: replaceOtherEquipment(sheet.equipaggiamento, items) })} onBundleReceived={(name, items) => pendingBundleEvents.current.push({ name, items })} />
           </div>
         </div>
       ),
@@ -1101,8 +1106,8 @@ export default function CharacterClient({
                                     <ul className="mt-1 list-disc space-y-1 pl-5 marker:text-accent">
                                       {group.entries.flatMap((entry) => entry.changes.map((change, index) => (
                                         <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
-                                          <span className="font-semibold">{change.field}</span>{"  "}
-                                          <span>{change.before} → {change.after}</span>
+                                          <span className="font-semibold">{change.field}</span>{!change.items && <>{"  "}<span>{change.before} → {change.after}</span></>}
+                                          {change.items && <ul className="mt-1 list-[circle] space-y-0.5 pl-5 text-ink-soft">{change.items.map((item, itemIndex) => <li key={itemIndex}>{item}</li>)}</ul>}
                                         </li>
                                       )))}
                                     </ul>

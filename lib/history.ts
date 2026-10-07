@@ -4,6 +4,7 @@ export type HistoryChange = {
   field: string;
   before: string;
   after: string;
+  items?: string[];
 };
 
 type TimedHistoryEntry = { occurredAt: string };

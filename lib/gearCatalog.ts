@@ -2,17 +2,18 @@
 // I pesi non indicati dalla fonte restano assenti.
 // Gli ID storici srd52 restano stabili per leggere le schede già salvate;
 // nomi, pesi e costi visualizzati sono confrontati con il Manuale locale.
-export type Gear = { id: string; name: string; weightKg?: number; costGp?: number; priceQuantity?: number; sourcePage?: number; contents?: string[]; tool?: boolean; toolKind?: "artigiano" | "gioco" | "musicale" | "altro" };
+export type GearContent = { name: string; quantity?: number };
+export type Gear = { id: string; name: string; weightKg?: number; costGp?: number; priceQuantity?: number; sourcePage?: number; contents?: GearContent[]; tool?: boolean; toolKind?: "artigiano" | "gioco" | "musicale" | "altro" };
 
 // Contenuti delle dotazioni, Manuale del Giocatore 2024, p. 225.
-const packContents: Record<string, string[]> = {
-  "dotazione-avventuriero": ["Zaino", "Triboli", "Piede di porco", "Ampolle di olio ×2", "Razioni giornaliere ×10", "Corda", "Acciarino e pietra focaia", "Torce ×10", "Otre"],
-  "dotazione-diplomatico": ["Forziere", "Abiti eleganti", "Inchiostro", "Pennini ×5", "Lampada", "Custodie per mappe o pergamene ×2", "Ampolle di olio ×4", "Fogli di carta ×5", "Fogli di pergamena ×5", "Profumo", "Acciarino e pietra focaia"],
-  "dotazione-esploratore": ["Zaino", "Giaciglio", "Ampolle di olio ×2", "Razioni giornaliere ×10", "Corda", "Acciarino e pietra focaia", "Torce ×10", "Otre"],
-  "dotazione-intrattenitore": ["Zaino", "Giaciglio", "Campana", "Lanterna a lente sporgente", "Costumi ×3", "Specchio", "Ampolle di olio ×8", "Razioni giornaliere ×9", "Otre"],
-  "dotazione-sacerdote": ["Zaino", "Coperta", "Acqua santa", "Lampada", "Razioni giornaliere ×7", "Tunica", "Acciarino e pietra focaia"],
-  "dotazione-scassinatore": ["Zaino", "Sfere metalliche", "Campana", "Candele ×10", "Piede di porco", "Lanterna schermabile", "Ampolle di olio ×7", "Razioni giornaliere ×5", "Corda", "Acciarino e pietra focaia", "Otre"],
-  "dotazione-studioso": ["Zaino", "Libro", "Inchiostro", "Pennino", "Lampada", "Ampolle di olio ×10", "Fogli di pergamena ×10", "Acciarino e pietra focaia"],
+const packContents: Record<string, GearContent[]> = {
+  "dotazione-avventuriero": [{ name: "Zaino" }, { name: "Triboli" }, { name: "Piede di porco" }, { name: "Olio", quantity: 2 }, { name: "Razioni", quantity: 10 }, { name: "Corda" }, { name: "Acciarino e pietra focaia" }, { name: "Torcia", quantity: 10 }, { name: "Otre" }],
+  "dotazione-diplomatico": [{ name: "Forziere" }, { name: "Abiti eleganti" }, { name: "Inchiostro" }, { name: "Pennino", quantity: 5 }, { name: "Lampada" }, { name: "Custodia per mappe o pergamene", quantity: 2 }, { name: "Olio", quantity: 4 }, { name: "Carta", quantity: 5 }, { name: "Pergamena", quantity: 5 }, { name: "Profumo" }, { name: "Acciarino e pietra focaia" }],
+  "dotazione-esploratore": [{ name: "Zaino" }, { name: "Giaciglio" }, { name: "Olio", quantity: 2 }, { name: "Razioni", quantity: 10 }, { name: "Corda" }, { name: "Acciarino e pietra focaia" }, { name: "Torcia", quantity: 10 }, { name: "Otre" }],
+  "dotazione-intrattenitore": [{ name: "Zaino" }, { name: "Giaciglio" }, { name: "Campanella" }, { name: "Lanterna a lente sporgente" }, { name: "Costume", quantity: 3 }, { name: "Specchio" }, { name: "Olio", quantity: 8 }, { name: "Razioni", quantity: 9 }, { name: "Otre" }],
+  "dotazione-sacerdote": [{ name: "Zaino" }, { name: "Coperta" }, { name: "Acqua santa" }, { name: "Lampada" }, { name: "Razioni", quantity: 7 }, { name: "Tunica" }, { name: "Acciarino e pietra focaia" }],
+  "dotazione-scassinatore": [{ name: "Zaino" }, { name: "Sfere metalliche" }, { name: "Campanella" }, { name: "Candela", quantity: 10 }, { name: "Piede di porco" }, { name: "Lanterna schermabile" }, { name: "Olio", quantity: 7 }, { name: "Razioni", quantity: 5 }, { name: "Corda" }, { name: "Acciarino e pietra focaia" }, { name: "Otre" }],
+  "dotazione-studioso": [{ name: "Zaino" }, { name: "Libro" }, { name: "Inchiostro" }, { name: "Pennino" }, { name: "Lampada" }, { name: "Olio", quantity: 10 }, { name: "Pergamena", quantity: 10 }, { name: "Acciarino e pietra focaia" }],
 };
 
 const rows: [string, string, number | null, number][] = [

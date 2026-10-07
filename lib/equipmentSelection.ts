@@ -1,5 +1,5 @@
 import { armorById, armorCatalog } from "./armorCatalog";
-import { gearCatalog } from "./gearCatalog";
+import { gearById, gearByName, gearCatalog } from "./gearCatalog";
 import type { Equip, Sheet } from "./sheet";
 
 export function armorForEquipment(item: Equip) {
@@ -32,6 +32,9 @@ export function replaceOtherEquipment(all: Equip[], other: Equip[]): Equip[] {
 export function addCatalogEquipment(items: Equip[], catalogId: string): Equip[] {
   const gear = gearCatalog.find((entry) => entry.id === catalogId);
   if (!gear) return items;
+  if (gear.contents?.length) return mergeDuplicateCatalogEquipment(expandPackageEquipment([
+    ...items, { nome: gear.name, catalogId, dettaglio: "", quantita: "1" },
+  ]));
   const index = items.findIndex((item) =>
     (item.catalogId === catalogId || (!item.catalogId && item.nome === gear.name)) &&
     !item.dettaglio && !item.unita && !item.contenitore
@@ -40,6 +43,26 @@ export function addCatalogEquipment(items: Equip[], catalogId: string): Equip[] 
   return items.map((item, current) => current === index
     ? { ...item, nome: gear.name, catalogId, quantita: String((Number(item.quantita || "1") || 0) + 1) }
     : item);
+}
+
+export function expandPackageEquipment(items: Equip[]): Equip[] {
+  return items.flatMap((item) => {
+    const gear = gearById(item.catalogId ?? "") ?? gearByName(item.nome);
+    if (!gear?.contents?.length) return [item];
+    const packs = Number(item.quantita ?? "1");
+    if (!Number.isSafeInteger(packs) || packs < 1) return [item];
+    return gear.contents.map((content) => {
+      const component = gearByName(content.name);
+      if (!component) throw new Error(`Contenuto non presente nel catalogo: ${content.name}`);
+      return {
+        nome: component.name,
+        catalogId: component.id,
+        dettaglio: "",
+        quantita: String((content.quantity ?? 1) * packs),
+        ...(item.contenitore ? { contenitore: item.contenitore } : {}),
+      };
+    });
+  });
 }
 
 export function mergeDuplicateCatalogEquipment(items: Equip[]): Equip[] {
