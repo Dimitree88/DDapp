@@ -36,6 +36,15 @@ async function main() {
   const absentIndexes = expectedIndexes.filter((index) => !indexes.has(index));
   if (absentIndexes.length) throw new Error(`Baseline interrotta: indici mancanti (${absentIndexes.join(", ")}). Nessun dato è stato modificato.`);
 
+  if (tables.has("master_session_events")) {
+    const eventInfo = await client.execute('PRAGMA table_info("master_session_events")');
+    const eventColumns = new Set(eventInfo.rows.map((row) => String(row.name)));
+    if (!eventColumns.has("creature_id")) {
+      await client.execute("ALTER TABLE master_session_events ADD COLUMN creature_id text REFERENCES creatures(id)");
+      console.log("Compatibilità locale applicata: aggiunto il riferimento opzionale alla creatura negli eventi Master.");
+    }
+  }
+
   const sql = readFileSync(`${migrationFolder}/${initial.tag}.sql`, "utf8");
   const hash = createHash("sha256").update(sql).digest("hex");
   await client.execute(`CREATE TABLE IF NOT EXISTS "__drizzle_migrations" (id INTEGER PRIMARY KEY AUTOINCREMENT, hash text NOT NULL, created_at numeric)`);

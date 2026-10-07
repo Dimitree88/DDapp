@@ -51,7 +51,9 @@ npm run dev
 Se hai già un `local.db` creato con il vecchio `db:push`, conserva quel file e
 registra la base dello schema precedente una sola volta:
 `npm run db:baseline:local`. Il comando controlla le tabelle, colonne e indici
-preesistenti prima di scrivere il registro, senza modificare le schede.
+preesistenti prima di scrivere il registro, senza modificare le schede; se la
+vecchia tabella eventi Master esiste già, aggiunge anche il riferimento
+opzionale alla creatura mancante.
 Subito dopo esegui `npm run db:migrate:local`: la migration incrementale crea
 le tabelle Master mancanti. Su un database vuoto, `db:migrate:local` applica
 entrambe le migration; quella incrementale usa `IF NOT EXISTS` ed è sicura
@@ -116,9 +118,12 @@ l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).
    Su un database già popolato, non eseguire la migration iniziale come se fosse
    un database vuoto: verifica/baseline dello schema esistente, poi applica
    `drizzle/0001_master_session_tables.sql`. È additiva e non modifica le
-   schede esistenti. Le migration `*:local` rifiutano URL remoti; non puntare
-   mai il seed demo a Turso. Per tornare al codice precedente basta il rollback
-   del deploy: le nuove tabelle possono restare vuote senza impatto.
+   schede esistenti. Se `master_session_events` esiste già senza la colonna
+   `creature_id`, dopo aver verificato le colonne esegui una sola volta
+   `ALTER TABLE master_session_events ADD COLUMN creature_id text REFERENCES creatures(id);`.
+   Le migration `*:local` rifiutano URL remoti; non puntare mai il seed demo a
+   Turso. Per tornare al codice precedente basta il rollback del deploy: le
+   nuove tabelle possono restare vuote senza impatto.
 4. Collega il repo a Vercel e fai il deploy.
 
 ## Modello dati
