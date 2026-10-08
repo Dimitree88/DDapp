@@ -1,6 +1,6 @@
 import type { Sheet } from "./sheet";
 import { featGrants, type Grant } from "./characterGrants";
-import { privilegioManuale, voceManuale } from "./manuale-2024";
+import { privilegioManuale, voceManuale, descrizioneValore } from "./manuale-2024";
 import { operationalReminder } from "./operationalReminders";
 import { featCatalog } from "./featCatalog";
 
@@ -27,7 +27,16 @@ export function grantFunctionalDetails(grant: Grant, sheet: Sheet): { summary: s
     classe: sheet.classe, sottoclasse: sheet.sottoclasse, specie: sheet.specie,
     lignaggio: sheet.lignaggio, livello: grant.level,
   });
-  const full = manual?.verificata && manual.descrizione ? clean(manual.descrizione) : null;
+  let full = manual?.verificata && manual.descrizione ? clean(manual.descrizione) : null;
+  // Alcuni privilegi concessi sono etichette che rimandano a una voce del
+  // manuale: il nome della sottoclasse e i tratti di lignaggio. La loro sintesi
+  // viene dalla descrizione della voce (stessa fonte dei popup, non una nota).
+  if (!full) {
+    const voce = grant.name === sheet.sottoclasse ? descrizioneValore("sottoclasse", sheet.sottoclasse)
+      : grant.source.startsWith("Lignaggio:") && sheet.lignaggio ? descrizioneValore("lignaggio", sheet.lignaggio)
+        : null;
+    if (voce?.verificata && voce.descrizione) full = clean(voce.descrizione);
+  }
   return { summary: reminderText(grant.name, sheet) ?? (full ? brief(full) : null), full };
 }
 
