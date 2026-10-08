@@ -15,5 +15,5 @@ for (const modulo of moduli) {
   console.log(`${modulo.padEnd(7)} ${(stati[modulo] ?? "senza stato").padEnd(12)} ${`${valori.verificati}/${valori.totale}`.padStart(17)}  ${`${proprie.verificate}/${proprie.totale}`.padStart(16)}  ${aperti}`);
   if (richiesti.length) for (const voce of [...valori.mancanti, ...proprie.mancanti]) console.log(`  manca: ${voce}`);
 }
-const esiti = righe.map(esitoRiga);
+const esiti = righe.map((riga) => esitoRiga(riga));
 console.log(`\nRighe della matrice: ${righe.length} · verificate ${esiti.filter((e) => e === "verificato").length} · da fare ${esiti.filter((e) => e === "da_fare").length} · aperte ${esiti.filter((e) => e === "aperto").length} · app ${esiti.filter((e) => e === "app").length}`);
