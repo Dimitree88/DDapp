@@ -1,10 +1,10 @@
 {
   "id": "I5-03",
-  "stato": "da_fare",
-  "assegnatoA": null,
-  "branch": null,
-  "presoInCarico": null,
-  "ultimoAggiornamento": "2026-10-08T01:02:30Z",
-  "evidenza": null,
+  "stato": "in_corso",
+  "assegnatoA": "Claude Opus 5.5 (Claude Code) @ Omen",
+  "branch": "manuale-2024/I5-03",
+  "presoInCarico": "2026-10-08T01:37:40Z",
+  "ultimoAggiornamento": "2026-10-08T01:37:40Z",
+  "evidenza": "docs/adeguamento-2024/evidenze/I5-03.md",
   "commitCompletamento": null
 }
