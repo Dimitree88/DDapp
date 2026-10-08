@@ -4,5 +4,604 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:animare-morti",
+      "tipo": "incantesimo",
+      "nome": "Animare morti",
+      "livello": 3,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "mago"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una goccia di sangue, un pezzo di carne e un pizzico di polvere d'osso"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 241,
+          "da": "Animare morti",
+          "a": "Animare oggetti",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 241,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:anti-individuazione",
+      "tipo": "incantesimo",
+      "nome": "Anti-individuazione",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di polvere di diamante del valore di 25 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 242,
+          "da": "Anti-individuazione",
+          "a": "Antipatia/simpatia",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 242,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:arma-elementale",
+      "tipo": "incantesimo",
+      "nome": "Arma elementale",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 243,
+          "da": "Arma elementale",
+          "a": "Arma magica",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 243,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:aura-di-vitalita",
+      "tipo": "incantesimo",
+      "nome": "Aura di vitalità",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 245,
+          "da": "Aura di vitalità",
+          "a": "Aura magica di Nystul",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 245,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:camminare-sull-acqua",
+      "tipo": "incantesimo",
+      "nome": "Camminare sull'acqua",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di sughero"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 250,
+          "da": "Camminare sull'acqua",
+          "a": "Campo anti-magia",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 250,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:capanna-di-leomund",
+      "tipo": "incantesimo",
+      "nome": "Capanna di Leomund",
+      "livello": 3,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "l minuto o rituale",
+      "rituale": true,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una perla di cristallo"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 251,
+          "da": "Capanna di Leomund",
+          "a": "Caratteristica potenziata",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 251,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:cerchio-magico",
+      "tipo": "incantesimo",
+      "nome": "Cerchio magico",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "mago",
+        "paladino",
+        "warlock"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "sale e polvere d'argento del valore di 100 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 252,
+          "da": "Cerchio magico",
+          "a": "Charme sui mostri",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 252,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:chiaroveggenza",
+      "tipo": "incantesimo",
+      "nome": "Chiaroveggenza",
+      "livello": 3,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "1,5 chilometri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un focus del valore di 100 mo o più, a scelta tra un cornetto acustico incastonato di gemme o un occhio di vetro per la vista"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 253,
+          "da": "Chiaroveggenza",
+          "a": "Clone",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 253,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:controincantesimo",
+      "tipo": "incantesimo",
+      "nome": "Controincantesimo",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "Reazione, che l'incantatore può effettuare quando vede una creatura entro 18 metri da lui lanciare un incantesimo con componenti verbali, somatiche o materiali",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": false,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 257,
+          "da": "Controincantesimo",
+          "a": "Controllare acqua",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 257,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:creare-cibo-e-acqua",
+      "tipo": "incantesimo",
+      "nome": "Creare cibo e acqua",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 260,
+          "da": "Creare Crno e acqua",
+          "a": "Creare non morti",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 260,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:crescita-vegetale",
+      "tipo": "incantesimo",
+      "nome": "Crescita vegetale",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione (Groviglio) o 8 ore (Fertilità)",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 261,
+          "da": "Crescita vegetale",
+          "a": "Cura ferite",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 261,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:destriero-fantomatico",
+      "tipo": "incantesimo",
+      "nome": "Destriero fantomatico",
+      "livello": 3,
+      "scuola": "Illusione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 265,
+          "da": "Destriero fantomatico",
+          "a": "Disco fluttuante di Tenser",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 265,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:dissolvi-magie",
+      "tipo": "incantesimo",
+      "nome": "Dissolvi magie",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "paladino",
+        "ranger",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 266,
+          "da": "Dissolvi magie",
+          "a": "Dito della morte",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 266,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:evoca-animali",
+      "tipo": "incantesimo",
+      "nome": "Evoca animali",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 270,
+          "da": "Evoca animali",
+          "a": "Evoca celestiale",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 270,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:evoca-raffica",
+      "tipo": "incantesimo",
+      "nome": "Evoca raffica",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un'arma da mischia o a distanza del valore di almeno 1 mr"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 271,
+          "da": "Evoca raffica",
+          "a": "Evocazioni istantanee di Drawmij",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 271,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:fame-di-hadar",
+      "tipo": "incantesimo",
+      "nome": "Fame di Hadar",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un tentacolo in salamoia"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 272,
+          "da": "Fame di Hadar",
+          "a": "Faretra rapida",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 272,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:faro-di-speranza",
+      "tipo": "incantesimo",
+      "nome": "Faro di speranza",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 273,
+          "da": "Faro di speranza",
+          "a": "Fatale",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 273,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:fondersi-nella-pietra",
+      "tipo": "incantesimo",
+      "nome": "Fondersi nella pietra",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 274,
+          "da": "Fondersi nella pietra",
+          "a": "Fonte di luce lunare",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 274,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
