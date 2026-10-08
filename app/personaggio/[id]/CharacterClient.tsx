@@ -55,6 +55,8 @@ import { displayedArmorClass } from "@/lib/armorClass";
 import { addCatalogEquipment, addOwnedArmor, armorForEquipment, isArmorEquipment, removeOwnedArmor, replaceOtherEquipment, selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { DiceText } from "@/components/DiceText";
+import { LevelUpWizard } from "@/components/LevelUpWizard";
+import { readyToLevel, xpThresholds } from "@/lib/masterRules";
 
 const lignaggi = regole.lignaggi as Record<string, string[]>;
 const historyDayFormatter = new Intl.DateTimeFormat("it-IT", {
@@ -331,6 +333,7 @@ export default function CharacterClient({
   const [historyEntries, setHistoryEntries] = useState<HistoryEntry[]>([]);
   const [historyLoading, setHistoryLoading] = useState(false);
   const [historyError, setHistoryError] = useState("");
+  const [levelUpOpen, setLevelUpOpen] = useState(false);
 
   useEffect(() => {
     if (!showShieldNotice) return;
@@ -472,6 +475,15 @@ export default function CharacterClient({
     setHistLen(historyRef.current.length);
     lastSnapRef.current = 0;
     setSheet(prev);
+  }, []);
+  // Adotta una scheda già salvata da un flusso guidato (cambio di livello):
+  // la cronologia di «Annulla» riparte da qui.
+  const adoptSavedSheet = useCallback((saved: Sheet) => {
+    historyRef.current = [];
+    setHistLen(0);
+    lastSnapRef.current = 0;
+    setSheet(saved);
+    setLocalStoryEvents(saved.eventiStoria ?? []);
   }, []);
 
   useEffect(() => {
@@ -617,11 +629,20 @@ export default function CharacterClient({
       {resources.map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
     </div>;
   };
+  const levelNumber = Number(sheet.livello);
+  const canLevel = Number.isInteger(levelNumber) && levelNumber >= 1 && levelNumber < 20 && Boolean(sheet.classe);
+  const levelReady = canLevel && readyToLevel(sheet.livello, sheet.puntiEsperienza);
+  const levelBanner = canLevel && <button type="button" onClick={() => setLevelUpOpen(true)}
+    className={`mb-2 flex min-h-12 w-full items-center justify-between gap-2 rounded-xl px-4 text-left ${levelReady ? "bg-accent text-white shadow-md" : "border border-line bg-card/70 text-ink"}`}>
+    <span className="text-sm font-semibold">{levelReady ? `⬆ Hai i PE per il livello ${levelNumber + 1}: sali di livello` : `↑ Passa al livello ${levelNumber + 1} (PE ${sheet.puntiEsperienza || 0}/${xpThresholds[levelNumber]})`}</span>
+    <span aria-hidden>›</span>
+  </button>;
   const pageDefs: { title: string; body: ReactNode }[] = [
     {
       title: "Stato & Identità",
       body: (
         <div className="flex flex-col gap-1.5">
+          {levelBanner}
           <div className={grid2}>
             <TextField label="Specie" showInfo={false} value={sheet.specie} valueInfoId={`valore:specie:${sheet.specie}`} locked onChange={() => {}} />
             <TextField label="Classe" showInfo={false} value={sheet.classe} valueInfoId={`valore:classe:${sheet.classe}`} locked onChange={() => {}} />
@@ -1070,6 +1091,7 @@ export default function CharacterClient({
 
             {showHub && (
               <div className="absolute inset-0 z-20 flex flex-col overflow-y-auto bg-parchment/95 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur">
+                {levelReady && levelBanner}
                 <div className="grid grid-cols-2 gap-2.5">
                   {pages.map((p, i) => (
                     <button
@@ -1217,6 +1239,8 @@ export default function CharacterClient({
             )}
           </div>
         </div>
+        <LevelUpWizard characterId={id} open={levelUpOpen} onClose={() => setLevelUpOpen(false)} onSaved={adoptSavedSheet}
+          scores={Object.fromEntries(sheet.caratteristiche.map((item) => [item.abbr, Number(item.valore) || 0]))} />
       </FieldInfoContext.Provider>
     </EditProvider>
   );

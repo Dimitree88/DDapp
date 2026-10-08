@@ -70,10 +70,33 @@ con `Test` in fondo al nome, oltre a una Sessione aperta quando non ne esiste
 già un'altra. È idempotente e aggiorna i nomi dei record demo già presenti
 senza riscriverne le schede. I database locali non vengono copiati nel
 repository e questi comandi rifiutano URL remoti o token Turso.
-In una Sessione Master i partecipanti si scelgono alla creazione: dopo l'apertura
-la composizione è fissa e nella pagina si vedono soltanto le schede selezionate.
-Quando chiudi la Sessione, l'archivio si apre sul riepilogo finale con modifiche,
-stati attivi e dati mancanti di personaggi e creature partecipanti.
+La pagina **Master** (`/master`) è pensata per telefono e tablet. Con una Sessione
+aperta mostra il **Tavolo** (righe compatte con PF, CA, stati e pulsanti −/+ che
+aprono un tastierino), il tracker d'iniziativa con round e turni, la tabella del
+**Gruppo**, il **Registro** con «Annulla» e gli **Appunti**. Dal menu «Altro» si
+avviano riposi di gruppo, PE, aggiunta di partecipanti, la libreria delle creature
+(con editor di valori, caratteristiche, attacchi e tratti), la chiusura e
+l'eliminazione. «⚔ Combattimento» apre lo strumento che aggiunge i nemici (dalla
+libreria o rapidi, con numerazione automatica), raccoglie le iniziative con un
+solo tiro per i gruppi uguali e mostra la classifica dei turni; a fine scontro
+toglie i nemici sconfitti e propone i loro PE. «Più bersagli» applica danni ad
+area (metà a chi supera il TS), cure o condizioni a più creature insieme. I PE si
+assegnano a testa, divisi o portando tutti alla soglia del livello successivo.
+Quando i PE bastano il Master vede «⬆ Livello N pronto» e il giocatore trova
+«Sali di livello» nella propria scheda: il passaggio guidato, fatto dal
+giocatore, chiede PF, sottoclasse, talento, maestria, lingue, incantesimi (con
+descrizione dal manuale) e padronanze secondo le tabelle di classe verificate
+(`lib/levelUp.ts`, prove in `scripts/test-level-up.mjs`).
+Le Sessioni chiuse si riaprono o si eliminano dall'archivio;
+eliminare una Sessione cancella registro e appunti, non le modifiche già applicate
+alle schede. I partecipanti si scelgono alla creazione e si possono aggiungere o
+togliere anche a Sessione aperta. Le regole applicate (danni, 0 PF, tiri contro
+morte, concentrazione, PE, riposi) sono in `lib/masterRules.ts` con le pagine del
+manuale; le prove sono in `scripts/test-master-rules.mjs`.
+
+Prima del deploy applica al database di produzione la migration
+`drizzle/0002_master_session_notes_encounter.sql` (colonne `notes` ed `encounter`
+di `master_sessions`).
 
 Apri **http://localhost:3000**. Per provarla dal telefono (stessa rete Wi-Fi) usa
 l'indirizzo **Network** stampato all'avvio (es. `http://192.168.1.222:3000`).

@@ -62,6 +62,44 @@ Decisioni dell'utente del 6 ottobre 2026:
   conseguenze, la fonte e la fase/livello, così la Storia può ricostruire il
   legame senza dedurlo a posteriori.
 
+## Stato dell'implementazione (8 ottobre 2026)
+
+Primo rilascio del wizard, nella classe registrata (niente multiclasse):
+
+- **Ingressi:** banner «Sali di livello» nella scheda quando i PE bastano e
+  pulsante ↑ (con conferma aggiuntiva sotto soglia). Decisione dell'utente
+  dell'8 ottobre 2026: le scelte del passaggio le fa il giocatore dalla propria
+  scheda; la vista Master mostra soltanto «Livello N pronto».
+- **Incantesimi:** ogni opzione mostra livello, scuola, tempo di lancio,
+  gittata, durata, componenti, concentrazione/rituale e il testo completo del
+  manuale con la pagina.
+- **Motore** `lib/levelUp.ts`: legge le tabelle verificate delle 12 classi
+  (privilegi per livello, trucchetti, incantesimi preparati, slot, colonne delle
+  risorse) e i testi dei privilegi. Bozza nel client, validazione e salvataggio
+  atomico sul server (`app/level-actions.ts`) con controllo del livello di
+  partenza, storico, Storia («Livello N») e evento nella Sessione aperta.
+- **Applicato:** PF massimi con tiro o valore fisso + COS (min. 1), Robustezza
+  nanica, Robusto, Resilienza draconica e aumento retroattivo della COS (p. 42);
+  Dadi Vita; PF attuali invariati; sottoclasse al 3° livello con i privilegi;
+  talenti di Aumento dei punteggi, Dono epico e Stile di combattimento (con le
+  alternative Guerriero Benedetto/Druidico) e relativi incrementi di
+  caratteristica, Resiliente con competenza nel TS; Maestria, Studioso,
+  Esploratore Esperto (lingue); trucchetti e incantesimi preparati fino al valore
+  della tabella, due incantesimi nel libro del mago, Arcanum mistico,
+  sostituzioni consentite al cambio livello (pp. 59, 69, 79, 151, 165); incantesimi
+  sempre preparati delle sottoclassi (`lib/manuale-2024/incantesimi-sottoclassi.json`);
+  padronanze d'armi; massimi delle risorse con lo stesso nome della colonna.
+- **Riepilogo** «Livello N raggiunto! Ecco le novità» con scelte, aggiornamenti,
+  capacità da usare in gioco e voci da gestire a mano.
+
+Ancora da fare: incantesimi di Cavaliere Mistico, Mistificatore Arcano e
+Circolo della Terra; scelte interne dei talenti diversi dagli incrementi (sono
+annotate come testo); suppliche, metamagia e altre opzioni dei privilegi
+(annotate come testo); indicatore persistente «Novità» sulla scheda;
+multiclasse. Nota sul PDF: le tabelle delle sottoclassi chiamano «Evoca
+aberrazione/costrutto/drago» gli incantesimi descritti come «Richiama …»
+(pp. 312-315): l'app usa l'alias documentato nel file dei dati.
+
 ## Fonte normativa verificata
 
 Unica fonte per ogni regola e dato di gioco:

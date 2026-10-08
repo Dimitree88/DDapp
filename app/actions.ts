@@ -11,6 +11,7 @@ import { diffManualSheet, historyTimestampMs, type HistoryChange } from "@/lib/h
 import { creationErrors } from "@/lib/creationRules";
 import { addCatalogEquipment, armorForEquipment } from "@/lib/equipmentSelection";
 import { gearByName } from "@/lib/gearCatalog";
+import { stableJson } from "@/lib/masterView";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 export type BundleReceipt = { name: string };
@@ -75,7 +76,8 @@ export async function saveSheet(
       "tiriMorte", "condizioni", "indebolimento", "concentrazione", "risorse", "slotSpesi",
       "velocita", "allineamento", "ispirazioneEroica", "puntiEsperienza",
     ] as const;
-    const directChanges = protectedFields.filter((field) => previous[field] !== normalized[field]);
+    // Confronto per valore: array e oggetti normalizzati sono sempre istanze nuove.
+    const directChanges = protectedFields.filter((field) => stableJson(previous[field]) !== stableJson(normalized[field]));
     if (directChanges.length) return { ok: false, error: `Modifiche non consentite dalla scheda: ${directChanges.join(", ")}` };
     if (JSON.stringify(previous.lingue) !== JSON.stringify(normalized.lingue)) {
       return { ok: false, error: "Le lingue si modificano solo nei flussi guidati di creazione e avanzamento." };

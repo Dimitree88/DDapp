@@ -46,11 +46,24 @@ const demoCreature: CreatureData = {
   armorClassNote: "Dato dimostrativo",
   hitPointsMax: 10,
   hitPointsCurrent: 6,
+  hitPointsFormula: "3d8",
+  initiativeBonus: 2,
   speedMeters: 9,
-  challengeRating: "",
-  experiencePoints: 0,
-  actions: [],
-  traits: [],
+  challengeRating: "1/4",
+  experiencePoints: 50,
+  proficiencyBonus: 2,
+  abilities: [
+    { abbr: "FOR", score: 12, save: null }, { abbr: "DES", score: 14, save: null }, { abbr: "COS", score: 12, save: null },
+    { abbr: "INT", score: 8, save: null }, { abbr: "SAG", score: 10, save: null }, { abbr: "CAR", score: 8, save: null },
+  ],
+  senses: "Percezione passiva 10",
+  languages: "nessuna",
+  actions: [
+    { name: "Colpo di prova", category: "azione", attackType: "Tiro per colpire in mischia", hitBonus: 4, reachMeters: 1.5, hitDamage: 5, damageFormula: "1d6 + 2", damageType: "taglienti" },
+    { name: "Lancio di prova", category: "azione", attackType: "Tiro per colpire a distanza", hitBonus: 4, reachMeters: null, range: "9/36 m", hitDamage: 4, damageFormula: "1d4 + 2", damageType: "perforanti" },
+  ],
+  traits: [{ name: "Tratto dimostrativo", description: "Dato fittizio per provare la pagina Master.", adjudication: "master" }],
+  conditions: [],
 };
 
 function localDateRome(date: Date) {

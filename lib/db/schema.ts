@@ -4,6 +4,10 @@ import type { Sheet } from "../sheet";
 import type { HistoryChange } from "../history";
 import type { CreatureData } from "../creature";
 
+// Ordine di iniziativa del combattimento in corso (p. 23).
+export type EncounterEntry = { kind: "pg" | "cr"; id: string; initiative: number };
+export type Encounter = { round: number; turn: number; order: EncounterEntry[] };
+
 export const characters = sqliteTable("characters", {
   id: text("id").primaryKey(),
   name: text("name").notNull(),
@@ -40,6 +44,8 @@ export const masterSessions = sqliteTable("master_sessions", {
   status: text("status", { enum: ["aperta", "chiusa"] }).notNull(),
   createdAt: integer("created_at", { mode: "timestamp" }).notNull(),
   closedAt: integer("closed_at", { mode: "timestamp" }),
+  notes: text("notes").notNull().default(""),
+  encounter: text("encounter", { mode: "json" }).$type<Encounter | null>(),
 }, (table) => [
   uniqueIndex("master_sessions_single_open_idx").on(table.status).where(sql`${table.status} = 'aperta'`),
   index("master_sessions_status_created_idx").on(table.status, table.createdAt),

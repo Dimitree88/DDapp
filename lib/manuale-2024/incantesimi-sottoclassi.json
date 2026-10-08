@@ -1,0 +1,113 @@
+{
+  "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
+  "nota": "Tabelle degli incantesimi sempre preparati delle sottoclassi, trascritte dalle pagine stampate indicate. Il Circolo della Terra dipende dal terreno scelto (p. 88) e non è incluso.",
+  "alias": {
+    "Evoca aberrazione": "Richiama aberrazione",
+    "Evoca costrutto": "Richiama costrutto",
+    "Evoca drago": "Richiama drago"
+  },
+  "notaAlias": "Le tabelle delle sottoclassi e le liste di classe (pp. 115-116, 157, 159, 162, 170, 172) usano «Evoca»; la descrizione dell'incantesimo (pp. 312, 314, 315) e l'indice (p. 383) usano «Richiama». È lo stesso incantesimo.",
+  "voci": [
+    { "classe": "Chierico", "sottoclasse": "Dominio della Guerra", "pagina": 73, "livelli": {
+      "3": ["Dardo tracciante", "Arma magica", "Scudo della fede", "Arma spirituale"],
+      "5": ["Manto del crociato", "Guardiani spirituali"],
+      "7": ["Scudo di fuoco", "Libertà di movimento"],
+      "9": ["Blocca mostri", "Turbine implacabile"] } },
+    { "classe": "Chierico", "sottoclasse": "Dominio dell'Inganno", "pagina": 74, "livelli": {
+      "3": ["Camuffare se stesso", "Charme su persone", "Invisibilità", "Passare senza tracce"],
+      "5": ["Trama ipnotica", "Anti-individuazione"],
+      "7": ["Confusione", "Porta dimensionale"],
+      "9": ["Dominare persone", "Modificare memoria"] } },
+    { "classe": "Chierico", "sottoclasse": "Dominio della Luce", "pagina": 76, "livelli": {
+      "3": ["Mani brucianti", "Luminescenza", "Raggio rovente", "Vedere invisibilità"],
+      "5": ["Luce diurna", "Palla di fuoco"],
+      "7": ["Occhio arcano", "Muro di fuoco"],
+      "9": ["Colpo infuocato", "Scrutare"] } },
+    { "classe": "Chierico", "sottoclasse": "Dominio della Vita", "pagina": 77, "livelli": {
+      "3": ["Aiuto", "Benedizione", "Cura ferite", "Ristorare inferiore"],
+      "5": ["Parola guaritrice di massa", "Rinascita"],
+      "7": ["Aura di vita", "Interdizione alla morte"],
+      "9": ["Ristorare superiore", "Cura ferite di massa"] } },
+    { "classe": "Druido", "sottoclasse": "Circolo della Luna", "pagina": 85, "livelli": {
+      "3": ["Bagliore lunare", "Cura ferite", "Luce splendente"],
+      "5": ["Evoca animali"],
+      "7": ["Fonte di luce lunare"],
+      "9": ["Cura ferite di massa"] } },
+    { "classe": "Druido", "sottoclasse": "Circolo del Mare", "pagina": 86, "livelli": {
+      "3": ["Nube di nebbia", "Folata di vento", "Raggio di gelo", "Frantumare", "Onda tonante"],
+      "5": ["Fulmine", "Respirare sott'acqua"],
+      "7": ["Controllare acqua", "Tempesta di ghiaccio"],
+      "9": ["Evoca elementale", "Blocca mostri"] } },
+    { "classe": "Paladino", "sottoclasse": "Giuramento degli Antichi", "pagina": 135, "livelli": {
+      "3": ["Colpo intrappolante", "Parlare con gli animali"],
+      "5": ["Passo velato", "Bagliore lunare"],
+      "9": ["Crescita vegetale", "Protezione dall'energia"],
+      "13": ["Tempesta di ghiaccio", "Pelle di pietra"],
+      "17": ["Comunione con la natura", "Traslazione arborea"] } },
+    { "classe": "Paladino", "sottoclasse": "Giuramento di Devozione", "pagina": 136, "livelli": {
+      "3": ["Protezione dal bene e dal male", "Scudo della fede"],
+      "5": ["Aiuto", "Zona di verità"],
+      "9": ["Faro di speranza", "Dissolvi magie"],
+      "13": ["Libertà di movimento", "Guardiano della fede"],
+      "17": ["Comunione", "Colpo infuocato"] } },
+    { "classe": "Paladino", "sottoclasse": "Giuramento di Gloria", "pagina": 137, "livelli": {
+      "3": ["Dardo tracciante", "Eroismo"],
+      "5": ["Caratteristica potenziata", "Arma magica"],
+      "9": ["Velocità", "Protezione dall'energia"],
+      "13": ["Compulsione", "Libertà di movimento"],
+      "17": ["Conoscenza delle leggende", "Presenza regale di Yolande"] } },
+    { "classe": "Paladino", "sottoclasse": "Giuramento di Vendetta", "pagina": 139, "livelli": {
+      "3": ["Anatema", "Marchio del cacciatore"],
+      "5": ["Blocca persone", "Passo velato"],
+      "9": ["Velocità", "Protezione dall'energia"],
+      "13": ["Esilio", "Porta dimensionale"],
+      "17": ["Blocca mostri", "Scrutare"] } },
+    { "classe": "Ranger", "sottoclasse": "Cacciatore delle Tenebre", "pagina": 145, "livelli": {
+      "3": ["Camuffare se stesso"],
+      "5": ["Trucco della corda"],
+      "9": ["Paura"],
+      "13": ["Invisibilità superiore"],
+      "17": ["Sembrare"] } },
+    { "classe": "Ranger", "sottoclasse": "Viandante Fatato", "pagina": 148, "livelli": {
+      "3": ["Charme su persone"],
+      "5": ["Passo velato"],
+      "9": ["Richiama folletto"],
+      "13": ["Porta dimensionale"],
+      "17": ["Fuorviare"] } },
+    { "classe": "Stregone", "sottoclasse": "Stregoneria Aberrante", "pagina": 157, "livelli": {
+      "3": ["Braccia di Hadar", "Calmare emozioni", "Individuazione dei pensieri", "Sussurri dissonanti", "Scheggia della mente"],
+      "5": ["Fame di Hadar", "Inviare"],
+      "7": ["Tentacoli neri di Evard", "Evoca aberrazione"],
+      "9": ["Legame telepatico di Rary", "Telecinesi"] } },
+    { "classe": "Stregone", "sottoclasse": "Stregoneria Draconica", "pagina": 159, "livelli": {
+      "3": ["Alterare se stesso", "Globo cromatico", "Comando", "Soffio del drago"],
+      "5": ["Paura", "Volare"],
+      "7": ["Occhio arcano", "Charme sui mostri"],
+      "9": ["Conoscenza delle leggende", "Evoca drago"] } },
+    { "classe": "Stregone", "sottoclasse": "Stregoneria Meccanica", "pagina": 162, "livelli": {
+      "3": ["Aiuto", "Allarme", "Ristorare inferiore", "Protezione dal bene e dal male"],
+      "5": ["Dissolvi magie", "Protezione dall'energia"],
+      "7": ["Libertà di movimento", "Evoca costrutto"],
+      "9": ["Ristorare superiore", "Muro di forza"] } },
+    { "classe": "Warlock", "sottoclasse": "Patrono Celestiale", "pagina": 171, "livelli": {
+      "3": ["Aiuto", "Cura ferite", "Dardo tracciante", "Ristorare inferiore", "Luce", "Fiamma sacra"],
+      "5": ["Luce diurna", "Rinascita"],
+      "7": ["Guardiano della fede", "Muro di fuoco"],
+      "9": ["Ristorare superiore", "Richiama celestiale"] } },
+    { "classe": "Warlock", "sottoclasse": "Patrono Grande Antico", "pagina": 172, "livelli": {
+      "3": ["Individuazione dei pensieri", "Sussurri dissonanti", "Allucinazione di forza", "Risata incontenibile di Tasha"],
+      "5": ["Chiaroveggenza", "Fame di Hadar"],
+      "7": ["Confusione", "Evoca aberrazione"],
+      "9": ["Modificare memoria", "Telecinesi"] } },
+    { "classe": "Warlock", "sottoclasse": "Patrono Immondo", "pagina": 174, "livelli": {
+      "3": ["Mani brucianti", "Comando", "Raggio rovente", "Suggestione"],
+      "5": ["Palla di fuoco", "Nube maleodorante"],
+      "7": ["Scudo di fuoco", "Muro di fuoco"],
+      "9": ["Costrizione", "Piaga degli insetti"] } },
+    { "classe": "Warlock", "sottoclasse": "Patrono Signore Fatato", "pagina": 175, "livelli": {
+      "3": ["Calmare emozioni", "Luminescenza", "Passo velato", "Allucinazione di forza", "Sonno"],
+      "5": ["Intermittenza", "Crescita vegetale"],
+      "7": ["Dominare bestie", "Invisibilità superiore"],
+      "9": ["Dominare persone", "Sembrare"] } }
+  ]
+}

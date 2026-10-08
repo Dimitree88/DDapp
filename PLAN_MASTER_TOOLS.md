@@ -335,6 +335,49 @@ esplicita verificata, non un editor libero nella pagina Incantesimi.
 
 ## Stato dell'implementazione
 
+### Riprogettazione dell'8 ottobre 2026
+
+Su richiesta dell'utente la pagina Master è stata riprogettata per l'uso da
+telefono e tablet, con queste decisioni che aggiornano quelle precedenti:
+
+- **Composizione modificabile:** personaggi e creature si aggiungono o tolgono
+  anche a Sessione aperta; gli eventi già registrati restano.
+- **Sessioni riapribili ed eliminabili:** una Sessione chiusa si riapre se non ce
+  n'è un'altra aperta; l'eliminazione cancella Sessione, registro e appunti ma
+  non annulla le modifiche già applicate alle schede.
+- **Annullamento:** ogni comando salva i campi Master prima/dopo; «Annulla»
+  registra un evento compensativo e rifiuta l'operazione se la scheda è cambiata
+  dopo quell'azione.
+- **Creature:** editor completo della scheda delle statistiche (p. 346), copie
+  numerate, condizioni e concentrazione, tiro d'attacco con vantaggio/svantaggio,
+  20 e 1 naturali (p. 12), critico con dadi raddoppiati (p. 27) e applicazione
+  dei danni a un personaggio.
+- **Combattimento:** ordine d'iniziativa con un solo tiro per creature identiche
+  e parità decise dal DM (p. 23), round e turni, promemoria dei tiri contro morte
+  a inizio turno (p. 29).
+- **Altro:** PE con soglie di p. 41, consultazione del gruppo, appunti di
+  Sessione, aggiornamento periodico della pagina.
+
+La logica è in `lib/masterRules.ts`, `lib/masterCommand.ts`, `lib/masterView.ts`
+e `lib/masterEvents.ts`; l'interfaccia in `app/master/_components/`.
+
+Aggiunte successive (stesso giorno):
+
+- **Combattimento:** strumento unico per aggiungere nemici (copie numerate dei
+  modelli della libreria o nemici rapidi con CA, PF, iniziativa e attacco),
+  inserire o tirare le iniziative e vedere la classifica dei turni; gli
+  esemplari creati per lo scontro non compaiono nella libreria. «Termina»
+  elenca i nemici a 0 PF, li toglie dalla Sessione e propone i loro PE.
+- **PE:** a testa, divisi per difetto tra i personaggi scelti (p. 8) o fino alla
+  soglia del livello successivo per far salire tutti insieme. Il Manuale del
+  Giocatore lascia al DM come assegnarli (p. 370): la scelta resta al Master.
+- **Più bersagli:** danni ad area con un solo tiro e metà a chi supera il TS
+  (p. 28), cure e condizioni su più creature, in un comando annullabile.
+- **Livelli:** la vista Master segnala «Livello N pronto»; il passaggio e le
+  sue scelte li fa il giocatore dalla propria scheda (`PLAN_CAMBIO_LIVELLO.md`).
+
+### Stato precedente
+
 Aggiornato il 7 ottobre 2026. Questo riepilogo descrive lo stato del codice;
 le regole di gioco restano quelle verificate nel PDF locale.
 

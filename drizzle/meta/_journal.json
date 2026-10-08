@@ -15,6 +15,13 @@
       "when": 1791408354133,
       "tag": "0001_master_session_tables",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791446304066,
+      "tag": "0002_master_session_notes_encounter",
+      "breakpoints": true
     }
   ]
 }
