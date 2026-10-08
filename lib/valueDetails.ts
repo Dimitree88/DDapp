@@ -3,6 +3,7 @@ import manual from "./manuale-2024-entities.json";
 import backgrounds2024 from "./manuale-2024-backgrounds.json";
 import pages2024 from "./manuale-2024-pages.json";
 import { proficiencyBonus } from "./abilityBonus";
+import { descrizioneValore } from "./manuale-2024/index";
 
 export type ValueDetail = { meaning: string; rule?: boolean; page?: number };
 
@@ -164,6 +165,9 @@ export function valueDetails(kind: string, value: string): ValueDetail | null {
   if (kind === "livello" && regole.livelliPersonaggio.includes(value as typeof regole.livelliPersonaggio[number])) {
     return { meaning: `Il personaggio è di ${value}° livello. Il suo bonus di competenza è ${proficiencyBonus(value)}.`, rule: true };
   }
+  // Prima il testo del manuale (PDF): descrizione verificata con pagina. In mancanza, i riassunti interni.
+  const manuale = descrizioneValore(kind, value);
+  if (manuale?.verificata) return { meaning: manuale.descrizione, rule: true, page: manuale.pagina ?? manualPage(kind, value) };
   const meaning = catalogs[kind]?.[value];
   if (meaning) return { meaning, rule: true, page: manualPage(kind, value) };
   if (kind === "sottoclasse") {

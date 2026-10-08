@@ -24,6 +24,7 @@ import { groupHistoryByDay } from "@/lib/history";
 import { characterStory } from "@/lib/characterStory";
 import regole from "@/lib/manuale-2024-domains.json";
 import { spellDetails, canonicalSpellName } from "@/lib/spells";
+import { bloccoIncantesimo, privilegioManuale, voceManuale } from "@/lib/manuale-2024/index";
 import { spellEffects } from "@/lib/spellEffects";
 import type { Sheet, Arma, Equip } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
@@ -361,6 +362,9 @@ export default function CharacterClient({
   const calculation = calculationTarget ? calculationExplanation(sheet, calculationTarget) : null;
   const spellName = fieldInfo?.id.startsWith("incantesimo:") ? canonicalSpellName(fieldInfo.id.slice("incantesimo:".length)) : null;
   const spell = spellName ? spellDetails(spellName) : null;
+  // Descrizione dell'incantesimo dal manuale (blocco del suo livello).
+  const spellBlock = spellName && spell ? bloccoIncantesimo(spell.livello, spellName) : null;
+  const spellManual = spellName && spellBlock ? voceManuale(`incantesimi/${spellBlock}`, spellName) : null;
   const language = fieldInfo?.id.startsWith("lingua:") ? languageDetails(fieldInfo.id.slice("lingua:".length)) : null;
   const weapon = fieldInfo?.id.startsWith("arma:") ? weaponDetails(fieldInfo.id.slice("arma:".length)) : null;
   const weaponCompetencyName = fieldInfo?.id.startsWith("competenzaArma:") ? fieldInfo.id.slice("competenzaArma:".length) : null;
@@ -408,7 +412,13 @@ export default function CharacterClient({
   const objectInfo = object ? equipmentDetails(object.nome, object.dettaglio) ?? { meaning: "Oggetto personalizzato.", rule: false } : null;
   const privilegeIndex = fieldInfo?.id.startsWith("privilegio:") ? Number(fieldInfo.id.slice("privilegio:".length)) : -1;
   const privilege = privilegeIndex >= 0 ? sheet.privilegi[privilegeIndex] : null;
-  const privilegeBase = privilege ? valueDetails("privilegio", privilege.titolo) : null;
+  // Prima il testo del manuale per il privilegio, con il contesto di classe/sottoclasse/specie/lignaggio.
+  const privilegeManual = privilege ? privilegioManuale(privilege.titolo, {
+    classe: sheet.classe, sottoclasse: sheet.sottoclasse, specie: sheet.specie, lignaggio: sheet.lignaggio, livello: Number(sheet.livello),
+  }) : null;
+  const privilegeBase = privilegeManual?.descrizione
+    ? { meaning: privilegeManual.descrizione, rule: true, page: privilegeManual.voce.pagina }
+    : privilege ? valueDetails("privilegio", privilege.titolo) : null;
   const privilegeInfo = privilegeBase || privilege?.scelte ? {
     meaning: [privilegeBase?.meaning, privilege?.scelte && `Scelte personali: ${privilege.scelte}`].filter(Boolean).join("\n\n"),
     rule: privilegeBase?.rule,
@@ -1197,7 +1207,10 @@ export default function CharacterClient({
                         <div key={label} className="flex justify-between gap-4 border-b border-line/50 py-1"><dt>{label}</dt><dd className="text-right font-semibold">{value}</dd></div>,
                       )}
                     </dl>
-                    {spellName && spellEffects[spellName] && <p className="mt-4 text-sm leading-relaxed"><DiceText text={spellEffects[spellName]} /></p>}
+                    {spellManual?.descrizione
+                      ? <><p className="mt-4 whitespace-pre-wrap text-sm leading-relaxed"><DiceText text={spellManual.descrizione} /></p>
+                        <p className="mt-4 text-xs text-ink-soft">Manuale del Giocatore 2024, p. {spellManual.voce.pagina}</p></>
+                      : spellName && spellEffects[spellName] && <p className="mt-4 text-sm leading-relaxed"><DiceText text={spellEffects[spellName]} /></p>}
                   </>}
                 </div>
               </div>
