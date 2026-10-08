@@ -4,5 +4,525 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:intralciare",
+      "tipo": "incantesimo",
+      "nome": "Intralciare",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 285,
+          "da": "Intralciare",
+          "a": "Inversione della gravità",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 285,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:luminescenza",
+      "tipo": "incantesimo",
+      "nome": "Luminescenza",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 290,
+          "da": "Luminescenza",
+          "a": "Mani brucianti",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 290,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:mani-brucianti",
+      "tipo": "incantesimo",
+      "nome": "Mani brucianti",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 290,
+          "da": "Mani brucianti",
+          "a": "Mano di Bigby",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 290,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:marchio-del-cacciatore",
+      "tipo": "incantesimo",
+      "nome": "Marchio del cacciatore",
+      "livello": 1,
+      "scuola": "Divinazione",
+      "classi": [
+        "ranger"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 291,
+          "da": "Marchio del cacciatore",
+          "a": "Messaggio",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 291,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:nube-di-nebbia",
+      "tipo": "incantesimo",
+      "nome": "Nube di nebbia",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a l ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 296,
+          "da": "Nube di nebbia",
+          "a": "Nube di pugnali",
+          "dopo": "concentrazione, fino a l ora"
+        }
+      ],
+      "pagina": 296,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:onda-tonante",
+      "tipo": "incantesimo",
+      "nome": "Onda tonante",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 297,
+          "da": "Onda tonante",
+          "a": "Oscurità",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 297,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parlare-con-gli-animali",
+      "tipo": "incantesimo",
+      "nome": "Parlare con gli animali",
+      "livello": 1,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "ranger",
+        "warlock"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "10 minuti",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 299,
+          "da": "Parlare con gli animali",
+          "a": "Parlare con i morti",
+          "dopo": "10 minuti"
+        }
+      ],
+      "pagina": 299,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-guaritrice",
+      "tipo": "incantesimo",
+      "nome": "Parola guaritrice",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 300,
+          "da": "Parola guaritrice",
+          "a": "Parola guaritrice di massa",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 300,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:passo-veloce",
+      "tipo": "incantesimo",
+      "nome": "Passo veloce",
+      "livello": 1,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di terriccio"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 301,
+          "da": "Passo veloce",
+          "a": "Paura",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 301,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:protezione-dal-bene-e-dal-male",
+      "tipo": "incantesimo",
+      "nome": "Protezione dal bene e dal male",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago",
+        "paladino",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un'ampolla di acqua santa del valore di 25 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 305,
+          "da": "Protezione dal bene e dal male",
+          "a": "Protezione dall'energia",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 305,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:punizione-collerica",
+      "tipo": "incantesimo",
+      "nome": "Punizione collerica",
+      "livello": 1,
+      "scuola": "Necromanzia",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 306,
+          "da": "Punizione collerica",
+          "a": "Punizione demoralizzante"
+        }
+      ],
+      "pagina": 306,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:punizione-divina",
+      "tipo": "incantesimo",
+      "nome": "Punizione divina",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito un bersaglio con un'arma da mischia o con un colpo senz'armi",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 306,
+          "da": "Punizione divina",
+          "a": "Punizione esiliante",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 306,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:punizione-incandescente",
+      "tipo": "incantesimo",
+      "nome": "Punizione incandescente",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito un bersaglio con un'arma da mischia o con un colpo senz'armi",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 307,
+          "da": "Punizione incandescente",
+          "a": "Punizione splendente",
+          "dopo": "1 minuto"
+        }
+      ],
+      "pagina": 307,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:punizione-tonante",
+      "tipo": "incantesimo",
+      "nome": "Punizione tonante",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 307,
+          "da": "Punizione tonante",
+          "a": "Purificare cibo e bevande"
+        }
+      ],
+      "pagina": 307,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:purificare-cibo-e-bevande",
+      "tipo": "incantesimo",
+      "nome": "Purificare cibo e bevande",
+      "livello": 1,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "paladino"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 307,
+          "da": "Purificare cibo e bevande",
+          "a": "Raffica di spine",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 307,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:raffica-di-spine",
+      "tipo": "incantesimo",
+      "nome": "Raffica di spine",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "ranger"
+      ],
+      "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma a distanza",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 307,
+          "da": "Raffica di spine",
+          "a": "Raggio di affaticamento",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 307,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
