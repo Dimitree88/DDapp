@@ -4,5 +4,559 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:messaggio",
+      "tipo": "incantesimo",
+      "nome": "Messaggio",
+      "livello": 0,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": false,
+        "somatica": true,
+        "materiale": "un filo di rame"
+      },
+      "durata": "1 round",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 291,
+          "da": "Messaggio",
+          "a": "Metamorfosi",
+          "dopo": "1 round"
+        }
+      ],
+      "pagina": 291,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-radiosa",
+      "tipo": "incantesimo",
+      "nome": "Parola radiosa",
+      "livello": 0,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 301,
+          "da": "Parola radiosa",
+          "a": "Passapareti"
+        }
+      ],
+      "pagina": 301,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:prestidigitazione",
+      "tipo": "incantesimo",
+      "nome": "Prestidigitazione",
+      "livello": 0,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "fino a l ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 304,
+          "da": "Prestidigitazione",
+          "a": "Previsione",
+          "dopo": "fino a l ora"
+        }
+      ],
+      "pagina": 304,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:produrre-fiamma",
+      "tipo": "incantesimo",
+      "nome": "Produrre fiamma",
+      "livello": 0,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "10 minuti",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 304,
+          "da": "Produrre fiamma",
+          "a": "Proibizione",
+          "dopo": "10 minuti"
+        }
+      ],
+      "pagina": 304,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:raggio-di-gelo",
+      "tipo": "incantesimo",
+      "nome": "Raggio di gelo",
+      "livello": 0,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "Istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 308,
+          "da": "Raggio di gelo",
+          "a": "Raggio di infermità",
+          "dopo": "Istantanea"
+        }
+      ],
+      "pagina": 308,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:randello-incantato",
+      "tipo": "incantesimo",
+      "nome": "Randello incantato",
+      "livello": 0,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "vischio"
+      },
+      "durata": "1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 309,
+          "da": "Randello incantato",
+          "a": "Reggia meravigliosa di Mordenkainen",
+          "dopo": "1 minuto"
+        }
+      ],
+      "pagina": 309,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:resistenza",
+      "tipo": "incantesimo",
+      "nome": "Resistenza",
+      "livello": 0,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 310,
+          "da": "Resistenza",
+          "a": "Respirare sott'acqua",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 310,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:rintocco-dei-morti",
+      "tipo": "incantesimo",
+      "nome": "Rintocco dei morti",
+      "livello": 0,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 320,
+          "da": "Rintocco dei morti",
+          "a": "Riparare"
+        }
+      ],
+      "pagina": 320,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:riparare",
+      "tipo": "incantesimo",
+      "nome": "Riparare",
+      "livello": 0,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "due calamite"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 321,
+          "da": "Riparare",
+          "a": "Riposo inviolato",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 321,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:rombo-di-tuono",
+      "tipo": "incantesimo",
+      "nome": "Rombo di tuono",
+      "livello": 0,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 322,
+          "da": "Rombo di tuono",
+          "a": "Saltare"
+        }
+      ],
+      "pagina": 322,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:salvare-i-morenti",
+      "tipo": "incantesimo",
+      "nome": "Salvare i morenti",
+      "livello": 0,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "4,5 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 322,
+          "da": "Salvare i morenti",
+          "a": "Santificare",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 322,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scheggia-della-mente",
+      "tipo": "incantesimo",
+      "nome": "Scheggia della mente",
+      "livello": 0,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 324,
+          "da": "Scheggia della mente",
+          "a": "Sciame di meteore"
+        }
+      ],
+      "pagina": 324,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:spruzzo-velenoso",
+      "tipo": "incantesimo",
+      "nome": "Spruzzo velenoso",
+      "livello": 0,
+      "scuola": "Necromanzia",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 332,
+          "da": "Spruzzo velenoso",
+          "a": "Stregoneria esplosiva",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 332,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:stregoneria-esplosiva",
+      "tipo": "incantesimo",
+      "nome": "Stregoneria esplosiva",
+      "livello": 0,
+      "scuola": "Invocazione",
+      "classi": [
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 332,
+          "da": "Stregoneria esplosiva",
+          "a": "Stretta folgorante",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 332,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:stretta-folgorante",
+      "tipo": "incantesimo",
+      "nome": "Stretta folgorante",
+      "livello": 0,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 333,
+          "da": "Stretta folgorante",
+          "a": "Suggestione",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 333,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:taumaturgia",
+      "tipo": "incantesimo",
+      "nome": "Taumaturgia",
+      "livello": 0,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "fino a 1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 333,
+          "da": "Taumaturgia",
+          "a": "Telecinesi",
+          "dopo": "fino a 1 minuto"
+        }
+      ],
+      "pagina": 333,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tocco-gelido",
+      "tipo": "incantesimo",
+      "nome": "Tocco gelido",
+      "livello": 0,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 338,
+          "da": "Tocco gelido",
+          "a": "Trama ipnotica",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 338,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
