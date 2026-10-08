@@ -4,5 +4,531 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:desiderio",
+      "tipo": "incantesimo",
+      "nome": "Desiderio",
+      "livello": 9,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 263,
+          "da": "Desiderio",
+          "a": "Destriero fantomatico",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 263,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:fatale",
+      "tipo": "incantesimo",
+      "nome": "Fatale",
+      "livello": 9,
+      "scuola": "Illusione",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 273,
+          "da": "Fatale",
+          "a": "Favore divino",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 273,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:fermare-il-tempo",
+      "tipo": "incantesimo",
+      "nome": "Fermare il tempo",
+      "livello": 9,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 273,
+          "da": "Fermare il tempo",
+          "a": "Fiamma perenne",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 273,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:guarigione-di-massa",
+      "tipo": "incantesimo",
+      "nome": "Guarigione di massa",
+      "livello": 9,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 279,
+          "da": "Guarigione di massa",
+          "a": "Guida",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 279,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:imprigionare",
+      "tipo": "incantesimo",
+      "nome": "Imprigionare",
+      "livello": 9,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "l minuto",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una statuetta del bersaglio del valore di 5.000 mo o più"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 282,
+          "da": "Imprigionare",
+          "a": "Inaridire",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 282,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:metamorfosi-pura",
+      "tipo": "incantesimo",
+      "nome": "Metamorfosi pura",
+      "livello": 9,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una goccia di mercurio, una piccola quantità di resina e uno sbuffo di fumo"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 292,
+          "da": "Metamorfosi pura",
+          "a": "Miraggio arcano",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 292,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:muro-prismatico",
+      "tipo": "incantesimo",
+      "nome": "Muro prismatico",
+      "livello": 9,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "10 minuti",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 295,
+          "da": "Muro prismatico",
+          "a": "Nube di nebbia",
+          "dopo": "10 minuti"
+        }
+      ],
+      "pagina": 295,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-del-potere-guarire",
+      "tipo": "incantesimo",
+      "nome": "Parola del potere guarire",
+      "livello": 9,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 300,
+          "da": "Parola del potere guarire",
+          "a": "Parola del potere stordire",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 300,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-del-potere-uccidere",
+      "tipo": "incantesimo",
+      "nome": "Parola del potere uccidere",
+      "livello": 9,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 300,
+          "da": "Parola del potere uccidere",
+          "a": "Parola del ritiro",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 300,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:portale",
+      "tipo": "incantesimo",
+      "nome": "Portale",
+      "livello": 9,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un diamante del valore di 5.000 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 303,
+          "da": "Portale",
+          "a": "Portale arcano",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 303,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:previsione",
+      "tipo": "incantesimo",
+      "nome": "Previsione",
+      "livello": 9,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "l minuto",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una piuma di colibrì"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 304,
+          "da": "Previsione",
+          "a": "Produrre fiamma",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 304,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:proiezione-astrale",
+      "tipo": "incantesimo",
+      "nome": "Proiezione astrale",
+      "livello": 9,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "1 ora",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "per ogni bersaglio dell'incantesimo, l'incantatore deve possedere un giacinto del valore di 1 .000 mo o più e un lingotto d'argento del valore di 100 mo o più; l'incantesimo consuma entrambi"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 305,
+          "da": "Proiezione astrale",
+          "a": "Protezione dai veleni",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 305,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:resurrezione-pura",
+      "tipo": "incantesimo",
+      "nome": "Resurrezione pura",
+      "livello": 9,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "l ora",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "diamanti del valore di 25.000 mo o più, che vengono consumati dall'incantesimo"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 311,
+          "da": "Resurrezione pura",
+          "a": "Rianimare morti",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 311,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sciame-di-meteore",
+      "tipo": "incantesimo",
+      "nome": "Sciame di meteore",
+      "livello": 9,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "1,5 chilometri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 324,
+          "da": "Sciame di meteore",
+          "a": "Scolpire pietra",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 324,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tempesta-di-vendetta",
+      "tipo": "incantesimo",
+      "nome": "Tempesta di vendetta",
+      "livello": 9,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "1,5 chilometri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 336,
+          "da": "Tempesta di vendetta",
+          "a": "Tempesta radiosa di Jallarzi",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 336,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:trasformazione",
+      "tipo": "incantesimo",
+      "nome": "Trasformazione",
+      "livello": 9,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un diadema di giada del valore di 1 . 500 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 338,
+          "da": "Trasformazione",
+          "a": "Traslazione arborea",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 338,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
