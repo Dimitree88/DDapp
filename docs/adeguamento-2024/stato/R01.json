@@ -1,10 +1,10 @@
 {
   "id": "R01",
-  "stato": "da_fare",
-  "assegnatoA": null,
-  "branch": null,
-  "presoInCarico": null,
-  "ultimoAggiornamento": null,
-  "evidenza": null,
+  "stato": "in_corso",
+  "assegnatoA": "Claude Opus 5.5 (Claude Code) @ Omen",
+  "branch": "manuale-2024/R01",
+  "presoInCarico": "2026-10-08T06:03:29Z",
+  "ultimoAggiornamento": "2026-10-08T06:03:29Z",
+  "evidenza": "docs/adeguamento-2024/evidenze/R01.md",
   "commitCompletamento": null
 }
