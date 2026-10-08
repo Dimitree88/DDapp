@@ -2447,14 +2447,14 @@
         "classi": [
           "paladino"
         ],
-        "tempoLancio": "",
+        "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma da mischia o con un colpo senz'armi",
         "rituale": false,
         "gittata": "",
         "componenti": {
-          "verbale": false,
+          "verbale": true,
           "somatica": false
         },
-        "durata": "",
+        "durata": "1 minuto",
         "concentrazione": false,
         "testo": [
           {
@@ -2537,14 +2537,14 @@
         "classi": [
           "paladino"
         ],
-        "tempoLancio": "",
+        "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito un bersaglio con un'arma da mischia o con un colpo senz'armi",
         "rituale": false,
         "gittata": "",
         "componenti": {
-          "verbale": false,
+          "verbale": true,
           "somatica": false
         },
-        "durata": "",
+        "durata": "istantanea",
         "concentrazione": false,
         "testo": [
           {
@@ -3047,12 +3047,13 @@
         "classi": [
           "mago"
         ],
-        "tempoLancio": "1 ora o rituale",
+        "tempoLancio": "l ora o rituale",
         "rituale": true,
         "gittata": "3 metri",
         "componenti": {
           "verbale": true,
-          "somatica": true
+          "somatica": true,
+          "materiale": "incenso bruciato del valore di 10 mo o più, che l'incantesimo consuma"
         },
         "durata": "istantanea",
         "concentrazione": false,
@@ -4300,10 +4301,10 @@
         "componenti": {
           "verbale": true,
           "somatica": true,
-          "materiale": "polvere di diamante del valore di 100 mo o più, che l'incantesimo consuma"
+          "materiale": "un pezzo di corteccia"
         },
-        "durata": "concentrazione, fino a 1 ora",
-        "concentrazione": true,
+        "durata": "1 ora",
+        "concentrazione": false,
         "testo": [
           {
             "pagina": 301,
@@ -5006,8 +5007,7 @@
         "gittata": "9 metri",
         "componenti": {
           "verbale": true,
-          "somatica": true,
-          "materiale": "incenso bruciato del valore di 10 mo o più, che l'incantesimo consuma"
+          "somatica": true
         },
         "durata": "istantanea",
         "concentrazione": false,
@@ -5102,10 +5102,9 @@
         "gittata": "",
         "componenti": {
           "verbale": true,
-          "somatica": true,
-          "materiale": "un paio di anelli di platino del valore di 50 mo o più, che l'incantatore e il bersaglio devono indossare per la durata dell'incantesimo"
+          "somatica": true
         },
-        "durata": "1 ora",
+        "durata": "istantanea",
         "concentrazione": false,
         "testo": [
           {
@@ -5134,7 +5133,8 @@
         "gittata": "contatto",
         "componenti": {
           "verbale": true,
-          "somatica": true
+          "somatica": true,
+          "materiale": "un paio di anelli di platino del valore di 50 mo o più, che l'incantatore e il bersaglio devono indossare per la durata dell'incantesimo"
         },
         "durata": "1 ora",
         "concentrazione": false,
@@ -6496,9 +6496,9 @@
         "gittata": "",
         "componenti": {
           "verbale": true,
-          "somatica": true
+          "somatica": false
         },
-        "durata": "istantanea",
+        "durata": "1 minuto",
         "concentrazione": false,
         "testo": [
           {
@@ -7667,7 +7667,8 @@
         "gittata": "contatto",
         "componenti": {
           "verbale": true,
-          "somatica": true
+          "somatica": true,
+          "materiale": "polvere di diamante del valore di 100 mo o più, che l'incantesimo consuma"
         },
         "durata": "concentrazione, fino a 1 ora",
         "concentrazione": true,
@@ -7725,14 +7726,14 @@
         "classi": [
           "paladino"
         ],
-        "tempoLancio": "",
+        "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma da mischia o con un colpo senz'armi",
         "rituale": false,
         "gittata": "",
         "componenti": {
-          "verbale": false,
+          "verbale": true,
           "somatica": false
         },
-        "durata": "",
+        "durata": "istantanea",
         "concentrazione": false,
         "testo": [
           {
@@ -8138,15 +8139,16 @@
         "classi": [
           "mago"
         ],
-        "tempoLancio": "",
+        "tempoLancio": "azione",
         "rituale": false,
         "gittata": "",
         "componenti": {
-          "verbale": false,
-          "somatica": false
+          "verbale": true,
+          "somatica": true,
+          "materiale": "un tentacolo"
         },
-        "durata": "",
-        "concentrazione": false,
+        "durata": "concentrazione, fino a 1 minuto",
+        "concentrazione": true,
         "testo": [
           {
             "pagina": 337,
@@ -8500,9 +8502,9 @@
         "gittata": "contatto",
         "componenti": {
           "verbale": true,
-          "somatica": false
+          "somatica": true
         },
-        "durata": "1 minuto",
+        "durata": "7 giorni",
         "concentrazione": false,
         "testo": [
           {
@@ -9200,10 +9202,11 @@
         "gittata": "",
         "componenti": {
           "verbale": true,
-          "somatica": true
+          "somatica": true,
+          "materiale": "una tiara in miniatura"
         },
-        "durata": "fino a l ora",
-        "concentrazione": false,
+        "durata": "concentrazione, fino a l minuto",
+        "concentrazione": true,
         "testo": [
           {
             "pagina": 304,
@@ -9227,15 +9230,15 @@
         "classi": [
           "paladino"
         ],
-        "tempoLancio": "",
+        "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma da mischia o con un colpo senz'armi",
         "rituale": false,
         "gittata": "",
         "componenti": {
-          "verbale": false,
+          "verbale": true,
           "somatica": false
         },
-        "durata": "",
-        "concentrazione": false,
+        "durata": "concentrazione, fino a 1 minuto",
+        "concentrazione": true,
         "testo": [
           {
             "pagina": 307,
@@ -9653,9 +9656,9 @@
         "componenti": {
           "verbale": true,
           "somatica": true,
-          "materiale": "un tentacolo"
+          "materiale": "un pizzico di fosforo"
         },
-        "durata": "concentrazione, fino a 1 minuto",
+        "durata": "concentrazione, fino a l minuto",
         "concentrazione": true,
         "testo": [
           {
@@ -9876,10 +9879,11 @@
         "gittata": "",
         "componenti": {
           "verbale": true,
-          "somatica": true
+          "somatica": true,
+          "materiale": "un mestolo dorato del valore di 500 mo o più"
         },
-        "durata": "concentrazione, fino a 1 minuto",
-        "concentrazione": true,
+        "durata": "10 minuti",
+        "concentrazione": false,
         "testo": [
           {
             "pagina": 248,
