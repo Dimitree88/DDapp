@@ -84,6 +84,56 @@ import fileEquipaggiamentoMonete from "./equipaggiamento/monete.json";
 import testiEquipaggiamentoMonete from "./testi/equipaggiamento/monete.json";
 import fileRegoleIncantesimi from "./regole/incantesimi.json";
 import testiRegoleIncantesimi from "./testi/regole/incantesimi.json";
+import fileIncantesimiI001 from "./incantesimi/I0-01.json";
+import testiIncantesimiI001 from "./testi/incantesimi/I0-01.json";
+import fileIncantesimiI002 from "./incantesimi/I0-02.json";
+import testiIncantesimiI002 from "./testi/incantesimi/I0-02.json";
+import fileIncantesimiI101 from "./incantesimi/I1-01.json";
+import testiIncantesimiI101 from "./testi/incantesimi/I1-01.json";
+import fileIncantesimiI102 from "./incantesimi/I1-02.json";
+import testiIncantesimiI102 from "./testi/incantesimi/I1-02.json";
+import fileIncantesimiI103 from "./incantesimi/I1-03.json";
+import testiIncantesimiI103 from "./testi/incantesimi/I1-03.json";
+import fileIncantesimiI104 from "./incantesimi/I1-04.json";
+import testiIncantesimiI104 from "./testi/incantesimi/I1-04.json";
+import fileIncantesimiI201 from "./incantesimi/I2-01.json";
+import testiIncantesimiI201 from "./testi/incantesimi/I2-01.json";
+import fileIncantesimiI202 from "./incantesimi/I2-02.json";
+import testiIncantesimiI202 from "./testi/incantesimi/I2-02.json";
+import fileIncantesimiI203 from "./incantesimi/I2-03.json";
+import testiIncantesimiI203 from "./testi/incantesimi/I2-03.json";
+import fileIncantesimiI204 from "./incantesimi/I2-04.json";
+import testiIncantesimiI204 from "./testi/incantesimi/I2-04.json";
+import fileIncantesimiI301 from "./incantesimi/I3-01.json";
+import testiIncantesimiI301 from "./testi/incantesimi/I3-01.json";
+import fileIncantesimiI302 from "./incantesimi/I3-02.json";
+import testiIncantesimiI302 from "./testi/incantesimi/I3-02.json";
+import fileIncantesimiI303 from "./incantesimi/I3-03.json";
+import testiIncantesimiI303 from "./testi/incantesimi/I3-03.json";
+import fileIncantesimiI401 from "./incantesimi/I4-01.json";
+import testiIncantesimiI401 from "./testi/incantesimi/I4-01.json";
+import fileIncantesimiI402 from "./incantesimi/I4-02.json";
+import testiIncantesimiI402 from "./testi/incantesimi/I4-02.json";
+import fileIncantesimiI403 from "./incantesimi/I4-03.json";
+import testiIncantesimiI403 from "./testi/incantesimi/I4-03.json";
+import fileIncantesimiI501 from "./incantesimi/I5-01.json";
+import testiIncantesimiI501 from "./testi/incantesimi/I5-01.json";
+import fileIncantesimiI502 from "./incantesimi/I5-02.json";
+import testiIncantesimiI502 from "./testi/incantesimi/I5-02.json";
+import fileIncantesimiI503 from "./incantesimi/I5-03.json";
+import testiIncantesimiI503 from "./testi/incantesimi/I5-03.json";
+import fileIncantesimiI601 from "./incantesimi/I6-01.json";
+import testiIncantesimiI601 from "./testi/incantesimi/I6-01.json";
+import fileIncantesimiI602 from "./incantesimi/I6-02.json";
+import testiIncantesimiI602 from "./testi/incantesimi/I6-02.json";
+import fileIncantesimiI701 from "./incantesimi/I7-01.json";
+import testiIncantesimiI701 from "./testi/incantesimi/I7-01.json";
+import fileIncantesimiI702 from "./incantesimi/I7-02.json";
+import testiIncantesimiI702 from "./testi/incantesimi/I7-02.json";
+import fileIncantesimiI801 from "./incantesimi/I8-01.json";
+import testiIncantesimiI801 from "./testi/incantesimi/I8-01.json";
+import fileIncantesimiI901 from "./incantesimi/I9-01.json";
+import testiIncantesimiI901 from "./testi/incantesimi/I9-01.json";
 
 export const FILE_MANUALE: Record<string, FileDominio> = {
   "allineamenti": fileAllineamenti as unknown as FileDominio,
@@ -128,6 +178,31 @@ export const FILE_MANUALE: Record<string, FileDominio> = {
   "equipaggiamento/servizi": fileEquipaggiamentoServizi as unknown as FileDominio,
   "equipaggiamento/monete": fileEquipaggiamentoMonete as unknown as FileDominio,
   "regole/incantesimi": fileRegoleIncantesimi as unknown as FileDominio,
+  "incantesimi/I0-01": fileIncantesimiI001 as unknown as FileDominio,
+  "incantesimi/I0-02": fileIncantesimiI002 as unknown as FileDominio,
+  "incantesimi/I1-01": fileIncantesimiI101 as unknown as FileDominio,
+  "incantesimi/I1-02": fileIncantesimiI102 as unknown as FileDominio,
+  "incantesimi/I1-03": fileIncantesimiI103 as unknown as FileDominio,
+  "incantesimi/I1-04": fileIncantesimiI104 as unknown as FileDominio,
+  "incantesimi/I2-01": fileIncantesimiI201 as unknown as FileDominio,
+  "incantesimi/I2-02": fileIncantesimiI202 as unknown as FileDominio,
+  "incantesimi/I2-03": fileIncantesimiI203 as unknown as FileDominio,
+  "incantesimi/I2-04": fileIncantesimiI204 as unknown as FileDominio,
+  "incantesimi/I3-01": fileIncantesimiI301 as unknown as FileDominio,
+  "incantesimi/I3-02": fileIncantesimiI302 as unknown as FileDominio,
+  "incantesimi/I3-03": fileIncantesimiI303 as unknown as FileDominio,
+  "incantesimi/I4-01": fileIncantesimiI401 as unknown as FileDominio,
+  "incantesimi/I4-02": fileIncantesimiI402 as unknown as FileDominio,
+  "incantesimi/I4-03": fileIncantesimiI403 as unknown as FileDominio,
+  "incantesimi/I5-01": fileIncantesimiI501 as unknown as FileDominio,
+  "incantesimi/I5-02": fileIncantesimiI502 as unknown as FileDominio,
+  "incantesimi/I5-03": fileIncantesimiI503 as unknown as FileDominio,
+  "incantesimi/I6-01": fileIncantesimiI601 as unknown as FileDominio,
+  "incantesimi/I6-02": fileIncantesimiI602 as unknown as FileDominio,
+  "incantesimi/I7-01": fileIncantesimiI701 as unknown as FileDominio,
+  "incantesimi/I7-02": fileIncantesimiI702 as unknown as FileDominio,
+  "incantesimi/I8-01": fileIncantesimiI801 as unknown as FileDominio,
+  "incantesimi/I9-01": fileIncantesimiI901 as unknown as FileDominio,
 };
 
 export const TESTI_MANUALE: Record<string, TestiDominio> = {
@@ -173,4 +248,29 @@ export const TESTI_MANUALE: Record<string, TestiDominio> = {
   "equipaggiamento/servizi": testiEquipaggiamentoServizi as TestiDominio,
   "equipaggiamento/monete": testiEquipaggiamentoMonete as TestiDominio,
   "regole/incantesimi": testiRegoleIncantesimi as TestiDominio,
+  "incantesimi/I0-01": testiIncantesimiI001 as TestiDominio,
+  "incantesimi/I0-02": testiIncantesimiI002 as TestiDominio,
+  "incantesimi/I1-01": testiIncantesimiI101 as TestiDominio,
+  "incantesimi/I1-02": testiIncantesimiI102 as TestiDominio,
+  "incantesimi/I1-03": testiIncantesimiI103 as TestiDominio,
+  "incantesimi/I1-04": testiIncantesimiI104 as TestiDominio,
+  "incantesimi/I2-01": testiIncantesimiI201 as TestiDominio,
+  "incantesimi/I2-02": testiIncantesimiI202 as TestiDominio,
+  "incantesimi/I2-03": testiIncantesimiI203 as TestiDominio,
+  "incantesimi/I2-04": testiIncantesimiI204 as TestiDominio,
+  "incantesimi/I3-01": testiIncantesimiI301 as TestiDominio,
+  "incantesimi/I3-02": testiIncantesimiI302 as TestiDominio,
+  "incantesimi/I3-03": testiIncantesimiI303 as TestiDominio,
+  "incantesimi/I4-01": testiIncantesimiI401 as TestiDominio,
+  "incantesimi/I4-02": testiIncantesimiI402 as TestiDominio,
+  "incantesimi/I4-03": testiIncantesimiI403 as TestiDominio,
+  "incantesimi/I5-01": testiIncantesimiI501 as TestiDominio,
+  "incantesimi/I5-02": testiIncantesimiI502 as TestiDominio,
+  "incantesimi/I5-03": testiIncantesimiI503 as TestiDominio,
+  "incantesimi/I6-01": testiIncantesimiI601 as TestiDominio,
+  "incantesimi/I6-02": testiIncantesimiI602 as TestiDominio,
+  "incantesimi/I7-01": testiIncantesimiI701 as TestiDominio,
+  "incantesimi/I7-02": testiIncantesimiI702 as TestiDominio,
+  "incantesimi/I8-01": testiIncantesimiI801 as TestiDominio,
+  "incantesimi/I9-01": testiIncantesimiI901 as TestiDominio,
 };
