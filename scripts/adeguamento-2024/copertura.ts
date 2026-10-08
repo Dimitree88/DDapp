@@ -162,7 +162,8 @@ export function esitoValore(valore: ValoreMatrice, files: Record<string, FileDom
 }
 
 // Etichette e calcoli sono coperti dalle voci che citano la riga in «righeMatrice».
-const richiedeVoceDiRiga = (riga: RigaMatrice) => riga.tipo === "etichetta" || riga.tipo === "derivato";
+// Etichette, calcoli e oggetti singoli (non da sorgente) sono coperti dalle voci che citano la riga in «righeMatrice».
+const richiedeVoceDiRiga = (riga: RigaMatrice) => (riga.tipo === "etichetta" || riga.tipo === "derivato" || riga.tipo === "oggetto") && !riga.sorgente;
 
 function esitoVociDiRiga(riga: RigaMatrice, files: Record<string, FileDominio>): Esito {
   const voci = vociDelModulo(riga.modulo ?? "", files).filter((voce) => voce.righeMatrice?.includes(riga.id));

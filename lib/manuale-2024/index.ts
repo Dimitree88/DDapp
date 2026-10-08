@@ -109,6 +109,26 @@ export const voceManuale = manuale.voce;
 export const etichettaManuale = manuale.etichetta;
 export const privilegioManuale = manuale.privilegio;
 
+// Descrizione dal manuale per un valore di gioco mostrato nei popup dell'app.
+// Cerca nei domini pertinenti al tipo e restituisce il testo del PDF con la pagina.
+const DOMINI_VALORE: Record<string, string[]> = {
+  allineamento: ["allineamenti"], taglia: ["taglie"], specie: ["specie"], lignaggio: ["lignaggi"],
+  background: ["background"], condizione: ["condizioni"], lingua: ["lingue"],
+  abilita: ["abilita"], caratteristica: ["caratteristiche"],
+  talento: ["talenti/origini", "talenti/generali-a", "talenti/generali-b", "talenti/stili", "talenti/doni-epici"],
+};
+const DOMINI_CLASSI = Object.keys(FILE_MANUALE).filter((d) => d.startsWith("classi/"));
+
+export function descrizioneValore(tipo: string, valore: string): { descrizione: string; pagina?: number; verificata: boolean } | null {
+  const domini = tipo === "classe" || tipo === "sottoclasse" ? DOMINI_CLASSI : DOMINI_VALORE[tipo];
+  if (!domini) return null;
+  for (const dominio of domini) {
+    const trovata = manuale.voce(dominio, valore);
+    if (trovata?.descrizione) return { descrizione: trovata.descrizione, pagina: pagineVoce(trovata.voce)[0], verificata: trovata.verificata };
+  }
+  return null;
+}
+
 function bloccoPerInizio<T extends { da: string | null }>(blocchi: readonly T[], nome: string): T | null {
   const chiave = chiaveOrdinamento(nome);
   return blocchi.filter((blocco) => blocco.da === null || chiaveOrdinamento(blocco.da) <= chiave).at(-1) ?? null;
