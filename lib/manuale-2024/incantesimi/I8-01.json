@@ -4,5 +4,598 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:antipatia-simpatia",
+      "tipo": "incantesimo",
+      "nome": "Antipatia/simpatia",
+      "livello": 8,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "1 ora",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una miscela di aceto e miele"
+      },
+      "durata": "10 giorni",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 243,
+          "da": "Antipatia/simpatia",
+          "a": "Arma elementale",
+          "dopo": "10 giorni"
+        }
+      ],
+      "pagina": 243,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:aura-sacra",
+      "tipo": "incantesimo",
+      "nome": "Aura sacra",
+      "livello": 8,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un reliquiario del valore di 1.000 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 246,
+          "da": "Aura sacra",
+          "a": "Bacche benefiche",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 246,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:campo-anti-magia",
+      "tipo": "incantesimo",
+      "nome": "Campo anti-magia",
+      "livello": 8,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "limatura di ferro"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 250,
+          "da": "Campo anti-magia",
+          "a": "Camuffare se stesso",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 250,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:clone",
+      "tipo": "incantesimo",
+      "nome": "Clone",
+      "livello": 8,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "1 ora",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un diamante del valore di 1 .000 mo o più, che l'incantesimo consuma, e un contenitore sigillabile del valore di 2.000 mo o più, abbastanza grande da contenere la creatura da clonare"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 253,
+          "da": "Clone",
+          "a": "Colpo accurato",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 253,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:controllare-tempo-atmosferico",
+      "tipo": "incantesimo",
+      "nome": "Controllare tempo atmosferico",
+      "livello": 8,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "incenso bruciato"
+      },
+      "durata": "concentrazione, fino a 8 ore",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 258,
+          "da": "Controllare tempo atmosferico",
+          "a": "Cordone di frecce",
+          "dopo": "concentrazione, fino a 8 ore"
+        }
+      ],
+      "pagina": 258,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:disorientare",
+      "tipo": "incantesimo",
+      "nome": "Disorientare",
+      "livello": 8,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un portachiavi senza chiavi"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 266,
+          "da": "Disorientare",
+          "a": "Dissolvi il bene e il male",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 266,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:dominare-mostri",
+      "tipo": "incantesimo",
+      "nome": "Dominare mostri",
+      "livello": 8,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 267,
+          "da": "Dominare mostri",
+          "a": "Dominare persone",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 267,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:esplosione-solare",
+      "tipo": "incantesimo",
+      "nome": "Esplosione solare",
+      "livello": 8,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un frammento di pietra di sole"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 269,
+          "da": "Esplosione solare",
+          "a": "Estasiare",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 269,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:forme-animali",
+      "tipo": "incantesimo",
+      "nome": "Forme animali",
+      "livello": 8,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 275,
+          "da": "Forme animali",
+          "a": "Frantumare",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 275,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:labirinto",
+      "tipo": "incantesimo",
+      "nome": "Labirinto",
+      "livello": 8,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 286,
+          "da": "Labirinto",
+          "a": "Lama infuocata",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 286,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:loquacita",
+      "tipo": "incantesimo",
+      "nome": "Loquacità",
+      "livello": 8,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 288,
+          "da": "Loquacità",
+          "a": "Luce",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 288,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:nube-incendiaria",
+      "tipo": "incantesimo",
+      "nome": "Nube incendiaria",
+      "livello": 8,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 296,
+          "da": "Nube incendiaria",
+          "a": "Nube maleodorante",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 296,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-del-potere-stordire",
+      "tipo": "incantesimo",
+      "nome": "Parola del potere stordire",
+      "livello": 8,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 300,
+          "da": "Parola del potere stordire",
+          "a": "Parola del potere uccidere",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 300,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:semipiano",
+      "tipo": "incantesimo",
+      "nome": "Semipiano",
+      "livello": 8,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": false,
+        "somatica": true
+      },
+      "durata": "1 ora I.:incantatore crea una porta d'ombra di taglia",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 327,
+          "da": "Semipiano",
+          "a": "Serratura arcana",
+          "dopo": "1 ora I.:incantatore crea una porta d'ombra di taglia"
+        }
+      ],
+      "pagina": 327,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:telepatia",
+      "tipo": "incantesimo",
+      "nome": "Telepatia",
+      "livello": 8,
+      "scuola": "Divinazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un paio di anelli d'argento concatenati"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 334,
+          "da": "Telepatia",
+          "a": "Teletrasporto",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 334,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:terremoto",
+      "tipo": "incantesimo",
+      "nome": "Terremoto",
+      "livello": 8,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "150 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una roccia fratturata"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 337,
+          "da": "Terremoto",
+          "a": "Terreno illusorio",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 337,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tsunami",
+      "tipo": "incantesimo",
+      "nome": "Tsunami",
+      "livello": 8,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "l minuto",
+      "rituale": false,
+      "gittata": "1,5 chilometri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 6 round",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 341,
+          "da": "Tsunami",
+          "a": "Turbine implacabile",
+          "dopo": "concentrazione, fino a 6 round"
+        }
+      ],
+      "pagina": 341,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:vuoto-mentale",
+      "tipo": "incantesimo",
+      "nome": "Vuoto mentale",
+      "livello": 8,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 343,
+          "da": "Vuoto mentale",
+          "a": "Zona di verità",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 343,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
