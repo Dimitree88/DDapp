@@ -29,7 +29,7 @@ import { spellEffects } from "@/lib/spellEffects";
 import type { Sheet, Arma, Equip } from "@/lib/sheet";
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, proficiencyBonus, savingThrowBonus } from "@/lib/abilityBonus";
 import { calculationExplanation, type CalculationTarget } from "@/lib/calculationExplanation";
-import { helpFor, type FieldHelp } from "@/lib/fieldHelp";
+import { labelHelp, type FieldHelp } from "@/lib/fieldHelp";
 import { languageDetails } from "@/lib/languageDetails";
 import { weaponByName, weaponCatalog, weaponDetails } from "@/lib/weaponDetails";
 import { weaponMasteryLimit } from "@/lib/weaponChoices";
@@ -424,7 +424,7 @@ export default function CharacterClient({
     rule: privilegeBase?.rule,
     page: privilegeBase?.page,
   } : null;
-  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true, page: language.page } : warningInfo ?? weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true, page: weaponByName(fieldInfo.id.slice("arma:".length))?.pages } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? helpFor(fieldInfo.id) : null;
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true, page: language.page } : warningInfo ?? weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true, page: weaponByName(fieldInfo.id.slice("arma:".length))?.pages } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? labelHelp(fieldInfo.id, fieldInfo.title) : null;
 
   useEffect(() => {
     if (!fieldInfo) return;

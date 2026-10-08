@@ -1,3 +1,5 @@
+import { etichettaManuale } from "./manuale-2024/index";
+
 export type FieldHelp = { meaning: string; effect?: string; rule?: boolean; page?: number | string };
 
 export const fieldHelp: Record<string, FieldHelp> = {
@@ -54,4 +56,22 @@ export const fieldHelp: Record<string, FieldHelp> = {
 
 export function helpFor(id: string): FieldHelp | null {
   return fieldHelp[id] ?? null;
+}
+
+// Aiuto per una label della scheda. La descrizione, se disponibile, è quella
+// estratta dal Manuale del Giocatore 2024 per l'etichetta corrispondente
+// (per id o per nome mostrato); resta il campo `effect` interno, che descrive
+// il comportamento dell'app e non è contenuto del manuale.
+export function labelHelp(id: string, title?: string): FieldHelp | null {
+  const hard = helpFor(id);
+  const etichetta = etichettaManuale(id) ?? (title ? etichettaManuale(title) : null);
+  if (etichetta?.descrizione) {
+    return {
+      meaning: etichetta.descrizione,
+      effect: hard?.effect,
+      rule: true,
+      page: etichetta.voce.pagina,
+    };
+  }
+  return hard;
 }
