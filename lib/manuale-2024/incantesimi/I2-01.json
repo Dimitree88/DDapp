@@ -4,5 +4,543 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:aculeo-mentale",
+      "tipo": "incantesimo",
+      "nome": "Aculeo mentale",
+      "livello": 2,
+      "scuola": "Divinazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": false,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 239,
+          "da": "Aculeo mentale",
+          "a": "Aiuto",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 239,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:aiuto",
+      "tipo": "incantesimo",
+      "nome": "Aiuto",
+      "livello": 2,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una striscia di tessuto bianco"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 239,
+          "da": "Aiuto",
+          "a": "Allarme",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 239,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:allucinazione-di-forza",
+      "tipo": "incantesimo",
+      "nome": "Allucinazione di forza",
+      "livello": 2,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciuffo di lana"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 240,
+          "da": "Allucinazione di forza",
+          "a": "Allucinazione mortale",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 240,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:alterare-se-stesso",
+      "tipo": "incantesimo",
+      "nome": "Alterare se stesso",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 240,
+          "da": "Alterare se stesso",
+          "a": "Amicizia",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 240,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:animale-messaggero",
+      "tipo": "incantesimo",
+      "nome": "Animale messaggero",
+      "livello": 2,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un boccone di cibo"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 241,
+          "da": "Animale messaggero",
+          "a": "Animare morti",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 241,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:arma-magica",
+      "tipo": "incantesimo",
+      "nome": "Arma magica",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "paladino",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 244,
+          "da": "Arma magica",
+          "a": "Arma spirituale",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 244,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:arma-spirituale",
+      "tipo": "incantesimo",
+      "nome": "Arma spirituale",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 244,
+          "da": "Arma spirituale",
+          "a": "Armatura di Agathys",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 244,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:aura-magica-di-nystul",
+      "tipo": "incantesimo",
+      "nome": "Aura magica di Nystul",
+      "livello": 2,
+      "scuola": "Illusione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un piccolo pezzo quadrato di seta"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 245,
+          "da": "Aura magica di Nystul",
+          "a": "Aura sacra",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 245,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:bagliore-lunare",
+      "tipo": "incantesimo",
+      "nome": "Bagliore lunare",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una foglia di un vitigno legnoso"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 246,
+          "da": "Bagliore lunare",
+          "a": "Bagliore solare",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 246,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:blocca-persone",
+      "tipo": "incantesimo",
+      "nome": "Blocca persone",
+      "livello": 2,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una sbarra di ferro"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 248,
+          "da": "Blocca persone",
+          "a": "Bocca magica",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 248,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:bocca-magica",
+      "tipo": "incantesimo",
+      "nome": "Bocca magica",
+      "livello": 2,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di giada del valore di 10 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 248,
+          "da": "Bocca magica",
+          "a": "Braccia di Radar",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 248,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:calmare-emozioni",
+      "tipo": "incantesimo",
+      "nome": "Calmare emozioni",
+      "livello": 2,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 249,
+          "da": "Calmare emozioni",
+          "a": "Camminare nel vento",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 249,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:caratteristica-potenziata",
+      "tipo": "incantesimo",
+      "nome": "Caratteristica potenziata",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciuffo di peli o una piuma"
+      },
+      "durata": "concentrazione, fino a l ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 251,
+          "da": "Caratteristica potenziata",
+          "a": "Carne in pietra",
+          "dopo": "concentrazione, fino a l ora"
+        }
+      ],
+      "pagina": 251,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:cecita-sordita",
+      "tipo": "incantesimo",
+      "nome": "Cecità/sordità",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 252,
+          "da": "Cecità/sordità",
+          "a": "Celare",
+          "dopo": "1 minuto"
+        }
+      ],
+      "pagina": 252,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:cordone-di-frecce",
+      "tipo": "incantesimo",
+      "nome": "Cordone di frecce",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una treccia ornamentale"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 258,
+          "da": "Cordone di frecce",
+          "a": "Corona di follia",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 258,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:corona-di-follia",
+      "tipo": "incantesimo",
+      "nome": "Corona di follia",
+      "livello": 2,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 259,
+          "da": "Corona di follia",
+          "a": "Costrizione",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 259,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
