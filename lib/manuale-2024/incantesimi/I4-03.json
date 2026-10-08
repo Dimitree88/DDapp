@@ -4,5 +4,433 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:richiama-aberrazione",
+      "tipo": "incantesimo",
+      "nome": "Richiama aberrazione",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un tentacolo in salamoia e un bulbo oculare in una fiala intarsiata di platino del valore di 400 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 312,
+          "da": "Richiama aberrazione",
+          "a": "Richiama bestia",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 312,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:richiama-costrutto",
+      "tipo": "incantesimo",
+      "nome": "Richiama costrutto",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una cassaforte del valore di 400 mo o più"
+      },
+      "durata": "concentrazione, fino a l ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 314,
+          "da": "Richiama costrutto",
+          "a": "Richiama drago",
+          "dopo": "concentrazione, fino a l ora"
+        }
+      ],
+      "pagina": 314,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:richiama-elementale",
+      "tipo": "incantesimo",
+      "nome": "Richiama elementale",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "aria, un sassolino, cenere e acqua all'interno di una fiala intarsiata d'oro del valore di 400 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 316,
+          "da": "Richiama elementale",
+          "a": "Richiama folletto",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 316,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:santuario-privato-di-mordenkainen",
+      "tipo": "incantesimo",
+      "nome": "Santuario privato di Mordenkainen",
+      "livello": 4,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una sottile lamina di piombo"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 323,
+          "da": "Santuario privato di Mordenkainen",
+          "a": "Scagliare maledizione",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 323,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scolpire-pietra",
+      "tipo": "incantesimo",
+      "nome": "Scolpire pietra",
+      "livello": 4,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "argilla morbida"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 324,
+          "da": "Scolpire pietra",
+          "a": "Scopri il percorso",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 324,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scrigno-segreto-di-leomund",
+      "tipo": "incantesimo",
+      "nome": "Scrigno segreto di Leomund",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "uno scrigno che misura 90 x 60 x 60 centimetri, realizzato con materiali rari del valore di 5.000 mo o più e una riproduzione minuscola dello scrigno fatta degli stessi materiali del valore di 50 mo o più"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 325,
+          "da": "Scrigno segreto di Leomund",
+          "a": "Scritto illusorio",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 325,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scudo-di-fuoco",
+      "tipo": "incantesimo",
+      "nome": "Scudo di fuoco",
+      "livello": 4,
+      "scuola": "Invocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un frammento di fosforo o una lucciola"
+      },
+      "durata": "10 minuti",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 326,
+          "da": "Scudo di fuoco",
+          "a": "Scurovisione",
+          "dopo": "10 minuti"
+        }
+      ],
+      "pagina": 326,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:segugio-fedele-di-mordenkainen",
+      "tipo": "incantesimo",
+      "nome": "Segugio fedele di Mordenkainen",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un fischietto d'argento"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 327,
+          "da": "Segugio fedele di Mordenkainen",
+          "a": "Sembrare",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 327,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sfera-al-vetriolo",
+      "tipo": "incantesimo",
+      "nome": "Sfera al vetriolo",
+      "livello": 4,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una goccia di bile"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 328,
+          "da": "Sfera al vetriolo",
+          "a": "Sfera congelante di 0tiluke",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 328,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sfera-elastica-di-otiluke",
+      "tipo": "incantesimo",
+      "nome": "Sfera elastica di Otiluke",
+      "livello": 4,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 329,
+          "da": "Sfera elastica di 0tiluke",
+          "a": "Sfera infuocata"
+        }
+      ],
+      "pagina": 329,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tempesta-di-ghiaccio",
+      "tipo": "incantesimo",
+      "nome": "Tempesta di ghiaccio",
+      "livello": 4,
+      "scuola": "Invocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "90 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una muffola"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 335,
+          "da": "Tempesta di ghiaccio",
+          "a": "Tempesta di nevischio",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 335,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tentacoli-neri-di-evard",
+      "tipo": "incantesimo",
+      "nome": "Tentacoli neri di Evard",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un tentacolo"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 337,
+          "da": "Tentacoli neri di Evard",
+          "a": "Terremoto",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 337,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:terreno-illusorio",
+      "tipo": "incantesimo",
+      "nome": "Terreno illusorio",
+      "livello": 4,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "90 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un fungo"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 337,
+          "da": "Terreno illusorio",
+          "a": "Tocco del vampiro",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 337,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
