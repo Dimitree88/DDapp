@@ -4,5 +4,540 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:oscurita",
+      "tipo": "incantesimo",
+      "nome": "Oscurità",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false,
+        "materiale": "pelo di pipistrello e un pezzo di carbone"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 297,
+          "da": "Oscurità",
+          "a": "Palla di fuoco",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 297,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:passare-senza-tracce",
+      "tipo": "incantesimo",
+      "nome": "Passare senza tracce",
+      "livello": 2,
+      "scuola": "Abiurazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "ceneri di vischio bruciato"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 301,
+          "da": "Passare senza tracce",
+          "a": "Passo velato",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 301,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:passo-velato",
+      "tipo": "incantesimo",
+      "nome": "Passo velato",
+      "livello": 2,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 301,
+          "da": "Passo velato",
+          "a": "Passo veloce",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 301,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:pelle-coriacea",
+      "tipo": "incantesimo",
+      "nome": "Pelle coriacea",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di corteccia"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 301,
+          "da": "Pelle coriacea",
+          "a": "Pelle di pietra",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 301,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:percezione-delle-bestie",
+      "tipo": "incantesimo",
+      "nome": "Percezione delle bestie",
+      "livello": 2,
+      "scuola": "Divinazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a l ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 302,
+          "da": "Percezione delle bestie",
+          "a": "Piaga degli insetti",
+          "dopo": "concentrazione, fino a l ora"
+        }
+      ],
+      "pagina": 302,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:preghiera-di-guarigione",
+      "tipo": "incantesimo",
+      "nome": "Preghiera di guarigione",
+      "livello": 2,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 303,
+          "da": "Preghiera di guarigione",
+          "a": "Presagio",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 303,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:presagio",
+      "tipo": "incantesimo",
+      "nome": "Presagio",
+      "livello": 2,
+      "scuola": "Divinazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "bastoncini, ossa, carte o altri oggetti da divinazione dotati di contrassegni speciali, del valore di 25 mo o più"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 303,
+          "da": "Presagio",
+          "a": "Presenza regale di Yolande",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 303,
+      "verifica": {
+        "stato": "verificata"
+      },
+      "correzioni": [
+        [
+          "tabella Presagi.\n\nPRESAGI\n\nPresagio · Con risultati...\nVentura · Positivi\nSventura · Negativi\nVentura e sventura · Positivi e negativi\nIndifferenza · Né positivi né negativi\n\nL'incantesimo",
+          "tabella Presagi: Ventura (risultati positivi), Sventura (risultati negativi), Ventura e sventura (risultati sia positivi sia negativi), Indifferenza (risultati né positivi né negativi).\n\nL'incantesimo"
+        ]
+      ]
+    },
+    {
+      "id": "incantesimo:protezione-dai-veleni",
+      "tipo": "incantesimo",
+      "nome": "Protezione dai veleni",
+      "livello": 2,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 305,
+          "da": "Protezione dai veleni",
+          "a": "Protezione dal bene e dal male",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 305,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:punizione-splendente",
+      "tipo": "incantesimo",
+      "nome": "Punizione splendente",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma da mischia o con un colpo senz'armi",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 307,
+          "da": "Punizione splendente",
+          "a": "Punizione tonante",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 307,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:raggio-di-affaticamento",
+      "tipo": "incantesimo",
+      "nome": "Raggio di affaticamento",
+      "livello": 2,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 307,
+          "da": "Raggio di affaticamento",
+          "a": "Raggio di gelo",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 307,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:raggio-rovente",
+      "tipo": "incantesimo",
+      "nome": "Raggio rovente",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 308,
+          "da": "Raggio rovente",
+          "a": "Ragnatela",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 308,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:ragnatela",
+      "tipo": "incantesimo",
+      "nome": "Ragnatela",
+      "livello": 2,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un frammento di ragnatela comune"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 308,
+          "da": "Ragnatela",
+          "a": "Rampicante afferrante",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 308,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:richiama-bestia",
+      "tipo": "incantesimo",
+      "nome": "Richiama bestia",
+      "livello": 2,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una piuma, un ciuffo di peli e una coda di pesce all'interno di una ghianda dorata del valore di 200 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 313,
+          "da": "Richiama bestia",
+          "a": "Richiama celestiale",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 313,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:riposo-inviolato",
+      "tipo": "incantesimo",
+      "nome": "Riposo inviolato",
+      "livello": 2,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "mago",
+        "paladino"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "2 monete di rame, che l'incantesimo consuma"
+      },
+      "durata": "10 giorni",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 321,
+          "da": "Riposo inviolato",
+          "a": "Risata incontenibile di Tasha",
+          "dopo": "10 giorni"
+        }
+      ],
+      "pagina": 321,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:riscaldare-il-metallo",
+      "tipo": "incantesimo",
+      "nome": "Riscaldare il metallo",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di ferro e una fiamma"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 321,
+          "da": "Riscaldare il metallo",
+          "a": "Ristorare inferiore",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 321,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:ristorare-inferiore",
+      "tipo": "incantesimo",
+      "nome": "Ristorare inferiore",
+      "livello": 2,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 321,
+          "da": "Ristorare inferiore",
+          "a": "Ristorare superiore",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 321,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
