@@ -4,5 +4,537 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:cura-ferite",
+      "tipo": "incantesimo",
+      "nome": "Cura ferite",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 262,
+          "da": "Cura ferite",
+          "a": "Cura ferite di massa",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 262,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:dardo-incantato",
+      "tipo": "incantesimo",
+      "nome": "Dardo incantato",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 263,
+          "da": "Dardo incantato",
+          "a": "Dardo stregato",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 263,
+      "verifica": {
+        "stato": "verificata"
+      },
+      "correzioni": [
+        [
+          "dardi lucenti di·forza magica",
+          "dardi lucenti di forza magica"
+        ]
+      ]
+    },
+    {
+      "id": "incantesimo:dardo-stregato",
+      "tipo": "incantesimo",
+      "nome": "Dardo stregato",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ramoscello colpito da un fulmine"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 263,
+          "da": "Dardo stregato",
+          "a": "Dardo tracciante",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 263,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:dardo-tracciante",
+      "tipo": "incantesimo",
+      "nome": "Dardo tracciante",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "1 round",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 263,
+          "da": "Dardo tracciante",
+          "a": "Deflagrazione occulta",
+          "dopo": "1 round"
+        }
+      ],
+      "pagina": 263,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:disco-fluttuante-di-tenser",
+      "tipo": "incantesimo",
+      "nome": "Disco fluttuante di Tenser",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una goccia di mercurio"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 265,
+          "da": "Disco fluttuante di Tenser",
+          "a": "Disintegrazione",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 265,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:duello-obbligato",
+      "tipo": "incantesimo",
+      "nome": "Duello obbligato",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 268,
+          "da": "Duello obbligato",
+          "a": "Elementalismo",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 268,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:eroismo",
+      "tipo": "incantesimo",
+      "nome": "Eroismo",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 269,
+          "da": "Eroismo",
+          "a": "Esilio",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 269,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:favore-divino",
+      "tipo": "incantesimo",
+      "nome": "Favore divino",
+      "livello": 1,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 273,
+          "da": "Favore divino",
+          "a": "Ferire",
+          "dopo": "1 minuto"
+        }
+      ],
+      "pagina": 273,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:globo-cromatico",
+      "tipo": "incantesimo",
+      "nome": "Globo cromatico",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un diamante del valore di 50 mo o più"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 278,
+          "da": "Globo cromatico",
+          "a": "Globo di invulnerabilità",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 278,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:identificare",
+      "tipo": "incantesimo",
+      "nome": "Identificare",
+      "livello": 1,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una perla del valore di 100 mo o più"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 280,
+          "da": "Identificare",
+          "a": "Illusione minore",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 280,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:immagine-silenziosa",
+      "tipo": "incantesimo",
+      "nome": "Immagine silenziosa",
+      "livello": 1,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciuffo di lana"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 282,
+          "da": "Immagine silenziosa",
+          "a": "Immagine speculare",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 282,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:individuazione-del-bene-e-del-male",
+      "tipo": "incantesimo",
+      "nome": "Individuazione del bene e del male",
+      "livello": 1,
+      "scuola": "Divinazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 283,
+          "da": "Individuazione del bene e del male",
+          "a": "Individuazione delle malattie e dei veleni",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 283,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:individuazione-delle-malattie-e-dei-veleni",
+      "tipo": "incantesimo",
+      "nome": "Individuazione delle malattie e dei veleni",
+      "livello": 1,
+      "scuola": "Divinazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una foglia di tasso"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 283,
+          "da": "Individuazione delle malattie e dei veleni",
+          "a": "Individuazione del magico",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 283,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:individuazione-del-magico",
+      "tipo": "incantesimo",
+      "nome": "Individuazione del magico",
+      "livello": 1,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "paladino",
+        "ranger",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 284,
+          "da": "Individuazione del magico",
+          "a": "Infliggi ferite",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 284,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:infliggi-ferite",
+      "tipo": "incantesimo",
+      "nome": "Infliggi ferite",
+      "livello": 1,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 284,
+          "da": "Infliggi ferite",
+          "a": "Ingrandire/ridurre",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 284,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:intimorire-infernale",
+      "tipo": "incantesimo",
+      "nome": "Intimorire infernale",
+      "livello": 1,
+      "scuola": "Invocazione",
+      "classi": [
+        "warlock"
+      ],
+      "tempoLancio": "reazione, che l'incantatore effettua quando subisce danni da una creatura che è in grado di vedere entro 18 metri da sé",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 285,
+          "da": "Intimorire infernale",
+          "a": "Intralciare",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 285,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
