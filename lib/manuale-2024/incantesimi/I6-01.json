@@ -4,5 +4,560 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:alleato-planare",
+      "tipo": "incantesimo",
+      "nome": "Alleato planare",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 239,
+          "da": "Alleato planare",
+          "a": "Allucinazione di forza",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 239,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:bagliore-solare",
+      "tipo": "incantesimo",
+      "nome": "Bagliore solare",
+      "livello": 6,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una lente d'ingrandimento"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 247,
+          "da": "Bagliore solare",
+          "a": "Banchetto degli eroi",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 247,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:banchetto-degli-eroi",
+      "tipo": "incantesimo",
+      "nome": "Banchetto degli eroi",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una ciotola tempestata di gemme del valore di 1.000 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 247,
+          "da": "Banchetto degli eroi",
+          "a": "Barriera di lame",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 247,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:barriera-di-lame",
+      "tipo": "incantesimo",
+      "nome": "Barriera di lame",
+      "livello": 6,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 247,
+          "da": "Barriera di lame",
+          "a": "Beffa crudele",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 247,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:calderone-ribollente-di-tasha",
+      "tipo": "incantesimo",
+      "nome": "Calderone ribollente di Tasha",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un mestolo dorato del valore di 500 mo o più"
+      },
+      "durata": "10 minuti",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 248,
+          "da": "Calderone ribollente di Tasha",
+          "a": "Calmare emozioni",
+          "dopo": "10 minuti"
+        }
+      ],
+      "pagina": 248,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:camminare-nel-vento",
+      "tipo": "incantesimo",
+      "nome": "Camminare nel vento",
+      "livello": 6,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una candela"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 249,
+          "da": "Camminare nel vento",
+          "a": "Camminare sull'acqua",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 249,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:carne-in-pietra",
+      "tipo": "incantesimo",
+      "nome": "Carne in pietra",
+      "livello": 6,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una piuma di coccatrice"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 251,
+          "da": "Carne in pietra",
+          "a": "Catena di fulmini",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 251,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:catena-di-fulmini",
+      "tipo": "incantesimo",
+      "nome": "Catena di fulmini",
+      "livello": 6,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "tre spilli d'argento"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 251,
+          "da": "Catena di fulmini",
+          "a": "Cecità/sordità",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 251,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:cerchio-di-morte",
+      "tipo": "incantesimo",
+      "nome": "Cerchio di morte",
+      "livello": 6,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere ricavata da una perla nera frantumata, del valore di 500 mo o più"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 252,
+          "da": "Cerchio di morte",
+          "a": "Cerchio di potere",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 252,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:contingenza",
+      "tipo": "incantesimo",
+      "nome": "Contingenza",
+      "livello": 6,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una statuetta dell'incantatore tempestata di gemme, del valore di 1 . 500 mo o più"
+      },
+      "durata": "10 giorni",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 257,
+          "da": "Contingenza",
+          "a": "Controincantesimo",
+          "dopo": "10 giorni"
+        }
+      ],
+      "pagina": 257,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:creare-non-morti",
+      "tipo": "incantesimo",
+      "nome": "Creare non morti",
+      "livello": 6,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una pietra onice nera del valore di 1 50 mo o più per ogni cadavere"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 260,
+          "da": "Creare non morti",
+          "a": "Creare o distruggere acqua",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 260,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:danza-irresistibile-di-otto",
+      "tipo": "incantesimo",
+      "nome": "Danza irresistibile di Otto",
+      "livello": 6,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 262,
+          "da": "Danza irresistibile di Otto",
+          "a": "Dardo di fuoco",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 262,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:disintegrazione",
+      "tipo": "incantesimo",
+      "nome": "Disintegrazione",
+      "livello": 6,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una calamita e della polvere"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 265,
+          "da": "Disintegrazione",
+          "a": "Disorientare",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 265,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:evoca-folletto",
+      "tipo": "incantesimo",
+      "nome": "Evoca folletto",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 271,
+          "da": "Evoca folletto",
+          "a": "Evoca pioggia di armi",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 271,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:evocazioni-istantanee-di-drawmij",
+      "tipo": "incantesimo",
+      "nome": "Evocazioni istantanee di Drawmij",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "uno zaffiro del valore di 1.000 mo o più"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 271,
+          "da": "Evocazioni istantanee di Drawmij",
+          "a": "Fabbricare",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 271,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:ferire",
+      "tipo": "incantesimo",
+      "nome": "Ferire",
+      "livello": 6,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 273,
+          "da": "Ferire",
+          "a": "Fermare il tempo",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 273,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:giara-magica",
+      "tipo": "incantesimo",
+      "nome": "Giara magica",
+      "livello": 6,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "l minuto",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una gemma, un cristallo o un reliquiario del valore di 500 mo o più"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 277,
+          "da": "Giara magica",
+          "a": "Glifo di interdizione",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 277,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
