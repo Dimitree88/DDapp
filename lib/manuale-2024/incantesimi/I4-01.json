@@ -4,5 +4,467 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:allucinazione-mortale",
+      "tipo": "incantesimo",
+      "nome": "Allucinazione mortale",
+      "livello": 4,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 240,
+          "da": "Allucinazione mortale",
+          "a": "Alterare se stesso",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 240,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:aura-di-purezza",
+      "tipo": "incantesimo",
+      "nome": "Aura di purezza",
+      "livello": 4,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 245,
+          "da": "Aura di purezza",
+          "a": "Aura di vita",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 245,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:aura-di-vita",
+      "tipo": "incantesimo",
+      "nome": "Aura di vita",
+      "livello": 4,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 245,
+          "da": "Aura di vita",
+          "a": "Aura di vitalità",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 245,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:charme-sui-mostri",
+      "tipo": "incantesimo",
+      "nome": "Charme sui mostri",
+      "livello": 4,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 253,
+          "da": "Charme sui mostri",
+          "a": "Charme su persone",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 253,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:compulsione",
+      "tipo": "incantesimo",
+      "nome": "Compulsione",
+      "livello": 4,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 255,
+          "da": "Compulsione",
+          "a": "Comunione",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 255,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:confusione",
+      "tipo": "incantesimo",
+      "nome": "Confusione",
+      "livello": 4,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "tre gusci di noce"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 255,
+          "da": "Confusione",
+          "a": "Cono di freddo",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 255,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:controllare-acqua",
+      "tipo": "incantesimo",
+      "nome": "Controllare acqua",
+      "livello": 4,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "90 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una miscela di acqua e polvere"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 258,
+          "da": "Controllare acqua",
+          "a": "Controllare tempo atmosferico",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 258,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:divinazione",
+      "tipo": "incantesimo",
+      "nome": "Divinazione",
+      "livello": 4,
+      "scuola": "Divinazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "incenso del valore di 25 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 267,
+          "da": "Divinazione",
+          "a": "Dominare bestie",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 267,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:dominare-bestie",
+      "tipo": "incantesimo",
+      "nome": "Dominare bestie",
+      "livello": 4,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "druido",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 267,
+          "da": "Dominare bestie",
+          "a": "Dominare mostri",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 267,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:esilio",
+      "tipo": "incantesimo",
+      "nome": "Esilio",
+      "livello": 4,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "mago",
+        "paladino",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pentacolo"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 269,
+          "da": "Esilio",
+          "a": "Esplosione solare",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 269,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:evoca-creature-boschive",
+      "tipo": "incantesimo",
+      "nome": "Evoca creature boschive",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 270,
+          "da": "Evoca creature boschive",
+          "a": "Evoca elementale",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 270,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:evoca-elementali-minori",
+      "tipo": "incantesimo",
+      "nome": "Evoca elementali minori",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 270,
+          "da": "Evoca elementali minori",
+          "a": "Evoca folletto",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 270,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:fabbricare",
+      "tipo": "incantesimo",
+      "nome": "Fabbricare",
+      "livello": 4,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 271,
+          "da": "Fabbricare",
+          "a": "Fame di Hadar",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 271,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:fonte-di-luce-lunare",
+      "tipo": "incantesimo",
+      "nome": "Fonte di luce lunare",
+      "livello": 4,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 274,
+          "da": "Fonte di luce lunare",
+          "a": "Forma eterea",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 274,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
