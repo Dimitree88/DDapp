@@ -3,6 +3,52 @@
   "modulo": "I10",
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
-  "etichette": [],
-  "voci": []
+  "etichette": [
+    {
+      "id": "etichetta:incantesimi",
+      "tipo": "etichetta",
+      "nome": "Incantesimi",
+      "alias": ["Lanciare gli incantesimi"],
+      "testo": [{ "pagina": 235, "da": "Lanciare gli Incantesimi", "a": "Livello dell'Incantesimo" }],
+      "pagina": 235,
+      "righeMatrice": ["incantesimi.etichetta"],
+      "verifica": { "stato": "verificata" }
+    }
+  ],
+  "voci": [
+    {
+      "id": "regola:livello-e-slot-incantesimo",
+      "tipo": "regola",
+      "nome": "Slot incantesimo",
+      "alias": ["Livello dell'incantesimo"],
+      "testo": [{ "pagina": 235, "da": "Livello dell'Incantesimo", "a": "Lanciare un Incantesimo senza Slot" }],
+      "pagina": 235,
+      "righeMatrice": ["incantesimi.slot"],
+      "verifica": { "stato": "verificata" },
+      "nota": "Gli slot per livello sono quelli delle tabelle Privilegi di ciascuna classe (C01-C12), non la tabella SRD."
+    },
+    {
+      "id": "regola:preparazione-degli-incantesimi",
+      "tipo": "regola",
+      "nome": "Preparare gli incantesimi",
+      "alias": ["Incantesimi preparati", "Fonte e stato di preparazione"],
+      "testo": [{ "pagina": 235, "da": "Preparare gli Incantesimi", "a": "Lanciare gli Incantesimi" }],
+      "pagina": 235,
+      "righeMatrice": ["incantesimi.fonte-stato"],
+      "verifica": { "stato": "verificata" },
+      "nota": "La caratteristica da incantatore è indicata dal privilegio Incantesimi di ciascuna classe (es. Carisma per bardo e stregone)."
+    },
+    {
+      "id": "regola:cd-e-attacco-con-incantesimo",
+      "tipo": "regola",
+      "nome": "CD e attacco con incantesimo",
+      "alias": ["CD del tiro salvezza sull'incantesimo", "Attacco con incantesimo"],
+      "testo": [{ "pagina": 238, "da": "Tiri Salvezza", "a": "Combinare gli Effetti degli" }],
+      "pagina": 238,
+      "righeMatrice": ["incantesimi.statistiche"],
+      "verifica": { "stato": "verificata" },
+      "formula": "CD tiro salvezza = 8 + modificatore di caratteristica da incantatore + bonus di competenza; modificatore di attacco = modificatore di caratteristica da incantatore + bonus di competenza",
+      "calcolo": "lib/spellcasting.ts#spellcastingStats"
+    }
+  ]
 }
