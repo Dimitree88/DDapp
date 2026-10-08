@@ -4,5 +4,536 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:allarme",
+      "tipo": "incantesimo",
+      "nome": "Allarme",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago",
+        "ranger"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una campanella e un filo d'argento"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 239,
+          "da": "Allarme",
+          "a": "Alleato planare",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 239,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:amicizia-con-gli-animali",
+      "tipo": "incantesimo",
+      "nome": "Amicizia con gli animali",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un boccone di cibo"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 241,
+          "da": "Amicizia con gli animali",
+          "a": "Anatema",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 241,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:anatema",
+      "tipo": "incantesimo",
+      "nome": "Anatema",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "chierico",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una goccia di sangue"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 241,
+          "da": "Anatema",
+          "a": "Animale messaggero",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 241,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:armatura-di-agathys",
+      "tipo": "incantesimo",
+      "nome": "Armatura di Agathys",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "warlock"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un frammento di vetro blu"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 244,
+          "da": "Armatura di Agathys",
+          "a": "Armatura magica",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 244,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:armatura-magica",
+      "tipo": "incantesimo",
+      "nome": "Armatura magica",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di cuoio trattato"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 244,
+          "da": "Armatura magica",
+          "a": "Artificio druidico",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 244,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:bacche-benefiche",
+      "tipo": "incantesimo",
+      "nome": "Bacche benefiche",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un rametto di vischio"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 246,
+          "da": "Bacche benefiche",
+          "a": "Bagliore lunare",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 246,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:benedizione",
+      "tipo": "incantesimo",
+      "nome": "Benedizione",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un simbolo sacro del valore di 5 mo o più"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 247,
+          "da": "Benedizione",
+          "a": "Blocca mostri",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 247,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:braccia-di-hadar",
+      "tipo": "incantesimo",
+      "nome": "Braccia di Hadar",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "warlock"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 248,
+          "da": "Braccia di Radar",
+          "a": "Caduta morbida"
+        }
+      ],
+      "pagina": 248,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:caduta-morbida",
+      "tipo": "incantesimo",
+      "nome": "Caduta morbida",
+      "livello": 1,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "Reazione, che l'incantatore può effettuare quando egli stesso o una creatura entro 18 metri da lui che è in grado di vedere cade",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false,
+        "materiale": "una piccola piuma"
+      },
+      "durata": "1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 248,
+          "da": "Caduta morbida",
+          "a": "Calderone ribollente di Tasha",
+          "dopo": "1 minuto"
+        }
+      ],
+      "pagina": 248,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:camuffare-se-stesso",
+      "tipo": "incantesimo",
+      "nome": "Camuffare se stesso",
+      "livello": 1,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "l ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 251,
+          "da": "Camuffare se stesso",
+          "a": "Capanna di Leomund",
+          "dopo": "l ora"
+        }
+      ],
+      "pagina": 251,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:charme-su-persone",
+      "tipo": "incantesimo",
+      "nome": "Charme su persone",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 253,
+          "da": "Charme su persone",
+          "a": "Chiaroveggenza",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 253,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:colpo-intrappolante",
+      "tipo": "incantesimo",
+      "nome": "Colpo intrappolante",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "ranger"
+      ],
+      "tempoLancio": "Azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino al minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 254,
+          "da": "Colpo intrappolante",
+          "a": "Coltello di ghiaccio",
+          "dopo": "concentrazione, fino al minuto"
+        }
+      ],
+      "pagina": 254,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:coltello-di-ghiaccio",
+      "tipo": "incantesimo",
+      "nome": "Coltello di ghiaccio",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": false,
+        "somatica": true,
+        "materiale": "una goccia d'acqua o un frammento di ghiaccio"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 254,
+          "da": "Coltello di ghiaccio",
+          "a": "Comando",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 254,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:comando",
+      "tipo": "incantesimo",
+      "nome": "Comando",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 254,
+          "da": "Comando",
+          "a": "Comprensione dei linguaggi",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 254,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:comprensione-dei-linguaggi",
+      "tipo": "incantesimo",
+      "nome": "Comprensione dei linguaggi",
+      "livello": 1,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di fuliggine e di sale"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 255,
+          "da": "Comprensione dei linguaggi",
+          "a": "Compulsione",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 255,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:creare-o-distruggere-acqua",
+      "tipo": "incantesimo",
+      "nome": "Creare o distruggere acqua",
+      "livello": 1,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una miscela di acqua e sabbia"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 260,
+          "da": "Creare o distruggere acqua",
+          "a": "Creazione",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 260,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
