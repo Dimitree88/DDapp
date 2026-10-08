@@ -14,7 +14,8 @@ test("I00 registers 25 spell blocks with their files, state and empty voci", () 
     const file = manuale.file(`incantesimi/${blocco.id}`);
     assert.ok(file, `manca il file del blocco ${blocco.id}`);
     assert.equal(file.modulo, blocco.id);
-    assert.deepEqual(file.voci, [], `${blocco.id}: le voci spettano al task del blocco`);
+    assert.ok(Array.isArray(file.voci), `${blocco.id}: voci assenti`); // i task I<n> popolano le voci
+    for (const voce of file.voci) assert.equal(voce.livello, blocco.livello, `${blocco.id}: ${voce.nome} livello errato`);
     const stato = JSON.parse(readFileSync(`docs/adeguamento-2024/stato/${blocco.id}.json`, "utf8"));
     assert.equal(stato.id, blocco.id);
   }
