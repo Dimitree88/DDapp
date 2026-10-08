@@ -4,5 +4,550 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:crescita-di-spine",
+      "tipo": "incantesimo",
+      "nome": "Crescita di spine",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "sette spine"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 261,
+          "da": "Crescita di spine",
+          "a": "Crescita vegetale",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 261,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:estasiare",
+      "tipo": "incantesimo",
+      "nome": "Estasiare",
+      "livello": 2,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 269,
+          "da": "Estasiare",
+          "a": "Evoca animali",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 269,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:fiamma-perenne",
+      "tipo": "incantesimo",
+      "nome": "Fiamma perenne",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di rubino del valore di 50 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 273,
+          "da": "Fiamma perenne",
+          "a": "Fiamma sacra",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 273,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:folata-di-vento",
+      "tipo": "incantesimo",
+      "nome": "Folata di vento",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "druido",
+        "ranger",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un seme di legume"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 274,
+          "da": "Folata di vento",
+          "a": "Fondersi nella pietra",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 274,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:frantumare",
+      "tipo": "incantesimo",
+      "nome": "Frantumare",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un frammento di mica"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 276,
+          "da": "Frantumare",
+          "a": "Freccia acida di Melf",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 276,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:freccia-acida-di-melf",
+      "tipo": "incantesimo",
+      "nome": "Freccia acida di Melf",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "foglia di rabarbaro in polvere"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 276,
+          "da": "Freccia acida di Melf",
+          "a": "Freccia folgorante",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 276,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:immagine-speculare",
+      "tipo": "incantesimo",
+      "nome": "Immagine speculare",
+      "livello": 2,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "l minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 282,
+          "da": "Immagine speculare",
+          "a": "Imprigionare",
+          "dopo": "l minuto"
+        }
+      ],
+      "pagina": 282,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:individuazione-dei-pensieri",
+      "tipo": "incantesimo",
+      "nome": "Individuazione dei pensieri",
+      "livello": 2,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "1 pezzo di rame"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 283,
+          "da": "Individuazione dei pensieri",
+          "a": "Individuazione del bene e del male",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 283,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:ingrandire-ridurre",
+      "tipo": "incantesimo",
+      "nome": "Ingrandire/ridurre",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di polvere di ferro"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 284,
+          "da": "Ingrandire/ridurre",
+          "a": "Insetto gigante",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 284,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:invisibilita",
+      "tipo": "incantesimo",
+      "nome": "Invisibilità",
+      "livello": 2,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciglio in uno strato di resina"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 286,
+          "da": "Invisibilità",
+          "a": "Invisibilità superiore",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 286,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:lama-infuocata",
+      "tipo": "incantesimo",
+      "nome": "Lama infuocata",
+      "livello": 2,
+      "scuola": "Invocazione",
+      "classi": [
+        "druido",
+        "stregone"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una foglia di sommacco"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 287,
+          "da": "Lama infuocata",
+          "a": "Legame planare",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 287,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:levitazione",
+      "tipo": "incantesimo",
+      "nome": "Levitazione",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una molla in metallo"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 287,
+          "da": "Levitazione",
+          "a": "Libertà di movimento",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 287,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:localizza-animali-o-vegetali",
+      "tipo": "incantesimo",
+      "nome": "Localizza animali o vegetali",
+      "livello": 2,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciuffo di peli di un segugio"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 288,
+          "da": "Localizza animali o vegetali",
+          "a": "Localizza creatura",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 288,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:localizza-oggetto",
+      "tipo": "incantesimo",
+      "nome": "Localizza oggetto",
+      "livello": 2,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ramoscello biforcuto"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 288,
+          "da": "Localizza oggetto",
+          "a": "Loquacità",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 288,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:movimenti-del-ragno",
+      "tipo": "incantesimo",
+      "nome": "Movimenti del ragno",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una goccia di bitume e un ragno"
+      },
+      "durata": "concentrazione, fino a l ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 293,
+          "da": "Movimenti del ragno",
+          "a": "Muovere il terreno",
+          "dopo": "concentrazione, fino a l ora"
+        }
+      ],
+      "pagina": 293,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:nube-di-pugnali",
+      "tipo": "incantesimo",
+      "nome": "Nube di pugnali",
+      "livello": 2,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una scheggia di vetro"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 296,
+          "da": "Nube di pugnali",
+          "a": "Nube incendiaria",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 296,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
