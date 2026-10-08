@@ -4,5 +4,472 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:guardiano-della-fede",
+      "tipo": "incantesimo",
+      "nome": "Guardiano della fede",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 279,
+          "da": "Guardiano della fede",
+          "a": "Guarigione",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 279,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:inaridire",
+      "tipo": "incantesimo",
+      "nome": "Inaridire",
+      "livello": 4,
+      "scuola": "Necromanzia",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 283,
+          "da": "Inaridire",
+          "a": "Individuazione dei pensieri",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 283,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:insetto-gigante",
+      "tipo": "incantesimo",
+      "nome": "Insetto gigante",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 284,
+          "da": "Insetto gigante",
+          "a": "Interdizione alla morte",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 284,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:interdizione-alla-morte",
+      "tipo": "incantesimo",
+      "nome": "Interdizione alla morte",
+      "livello": 4,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 285,
+          "da": "Interdizione alla morte",
+          "a": "Interdizione alle lame",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 285,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:invisibilita-superiore",
+      "tipo": "incantesimo",
+      "nome": "Invisibilità superiore",
+      "livello": 4,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 286,
+          "da": "Invisibilità superiore",
+          "a": "Invocare il fulmine",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 286,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:liberta-di-movimento",
+      "tipo": "incantesimo",
+      "nome": "Libertà di movimento",
+      "livello": 4,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una cinghia di cuoio"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 288,
+          "da": "Libertà di movimento",
+          "a": "Linguaggi",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 288,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:localizza-creatura",
+      "tipo": "incantesimo",
+      "nome": "Localizza creatura",
+      "livello": 4,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciuffo di peli di un segugio"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 288,
+          "da": "Localizza creatura",
+          "a": "Localizza oggetto",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 288,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:metamorfosi",
+      "tipo": "incantesimo",
+      "nome": "Metamorfosi",
+      "livello": 4,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "il bozzolo di un bruco"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 292,
+          "da": "Metamorfosi",
+          "a": "Metamorfosi pura",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 292,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:muro-di-fuoco",
+      "tipo": "incantesimo",
+      "nome": "Muro di fuoco",
+      "livello": 4,
+      "scuola": "Invocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di carbone"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 294,
+          "da": "Muro di fuoco",
+          "a": "Muro di ghiaccio",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 294,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:occhio-arcano",
+      "tipo": "incantesimo",
+      "nome": "Occhio arcano",
+      "livello": 4,
+      "scuola": "Divinazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciuffo di peli di pipistrello"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 297,
+          "da": "Occhio arcano",
+          "a": "Onda distruttiva",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 297,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:pelle-di-pietra",
+      "tipo": "incantesimo",
+      "nome": "Pelle di pietra",
+      "livello": 4,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "mago",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di diamante del valore di 100 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 301,
+          "da": "Pelle di pietra",
+          "a": "Percezione delle bestie",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 301,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:porta-dimensionale",
+      "tipo": "incantesimo",
+      "nome": "Porta dimensionale",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "150 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 302,
+          "da": "Porta dimensionale",
+          "a": "Portale",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 302,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:punizione-demoralizzante",
+      "tipo": "incantesimo",
+      "nome": "Punizione demoralizzante",
+      "livello": 4,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma da mischia o con un colpo senz'armi",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 306,
+          "da": "Punizione demoralizzante",
+          "a": "Punizione divina",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 306,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:rampicante-afferrante",
+      "tipo": "incantesimo",
+      "nome": "Rampicante afferrante",
+      "livello": 4,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 308,
+          "da": "Rampicante afferrante",
+          "a": "Randello incantato",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 308,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
