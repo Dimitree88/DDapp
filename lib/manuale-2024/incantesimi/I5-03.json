@@ -4,5 +4,536 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:punizione-esiliante",
+      "tipo": "incantesimo",
+      "nome": "Punizione esiliante",
+      "livello": 5,
+      "scuola": "Evocazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma da mischia o con un colpo senz'armi",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 307,
+          "da": "Punizione esiliante",
+          "a": "Punizione incandescente",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 307,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:reincarnazione",
+      "tipo": "incantesimo",
+      "nome": "Reincarnazione",
+      "livello": 5,
+      "scuola": "Necromanzia",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "1 ora",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "oli rari del valore di 1 .000 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "istantanea L:incantatore tocca un umanoide defunto o una parte di umanoide defunto.",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 310,
+          "da": "Reincarnazione",
+          "a": "Resistenza",
+          "dopo": "istantanea L:incantatore tocca un umanoide defunto o una parte di umanoide defunto."
+        }
+      ],
+      "pagina": 310,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:rianimare-morti",
+      "tipo": "incantesimo",
+      "nome": "Rianimare morti",
+      "livello": 5,
+      "scuola": "Necromanzia",
+      "classi": [
+        "bardo",
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "l ora",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un diamante del valore di 500 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 311,
+          "da": "Rianimare morti",
+          "a": "Richiama aberrazione",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 311,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:richiama-celestiale",
+      "tipo": "incantesimo",
+      "nome": "Richiama celestiale",
+      "livello": 5,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un reliquiario del valore di 500 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 313,
+          "da": "Richiama celestiale",
+          "a": "Richiama costrutto",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 313,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:richiama-drago",
+      "tipo": "incantesimo",
+      "nome": "Richiama drago",
+      "livello": 5,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un oggetto su cui è incisa l'immagine di un drago, del valore di 500 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 315,
+          "da": "Richiama drago",
+          "a": "Richiama elementale",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 315,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:ristorare-superiore",
+      "tipo": "incantesimo",
+      "nome": "Ristorare superiore",
+      "livello": 5,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di diamante del valore di 100 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 321,
+          "da": "Ristorare superiore",
+          "a": "Risveglio",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 321,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:risveglio",
+      "tipo": "incantesimo",
+      "nome": "Risveglio",
+      "livello": 5,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "druido"
+      ],
+      "tempoLancio": "8 ore",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un'agata del valore di 1 .000 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 322,
+          "da": "Risveglio",
+          "a": "Ritirata rapida",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 322,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:santificare",
+      "tipo": "incantesimo",
+      "nome": "Santificare",
+      "livello": 5,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "24 ore",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "incenso del valore di 1 .000 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 322,
+          "da": "Santificare",
+          "a": "Santuario",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 322,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scossa-sinaptica",
+      "tipo": "incantesimo",
+      "nome": "Scossa sinaptica",
+      "livello": 5,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 325,
+          "da": "Scossa sinaptica",
+          "a": "Scrigno segreto di Leomund",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 325,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scrutare",
+      "tipo": "incantesimo",
+      "nome": "Scrutare",
+      "livello": 5,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un focus del valore di 1 .000 mo o più, come una sfera di cristallo, uno specchio o una fonte d'acqua"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 326,
+          "da": "Scrutare",
+          "a": "Scudo",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 326,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sembrare",
+      "tipo": "incantesimo",
+      "nome": "Sembrare",
+      "livello": 5,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 327,
+          "da": "Sembrare",
+          "a": "Semipiano",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 327,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sogno",
+      "tipo": "incantesimo",
+      "nome": "Sogno",
+      "livello": 5,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "speciale",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una manciata di sabbia"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 331,
+          "da": "Sogno",
+          "a": "Sonno",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 331,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:telecinesi",
+      "tipo": "incantesimo",
+      "nome": "Telecinesi",
+      "livello": 5,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 334,
+          "da": "Telecinesi",
+          "a": "Telepatia",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 334,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tempesta-radiosa-di-jallarzi",
+      "tipo": "incantesimo",
+      "nome": "Tempesta radiosa di Jallarzi",
+      "livello": 5,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di fosforo"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 336,
+          "da": "Tempesta radiosa di Jallarzi",
+          "a": "Tentacoli neri di Evard",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 336,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:traslazione-arborea",
+      "tipo": "incantesimo",
+      "nome": "Traslazione arborea",
+      "livello": 5,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 339,
+          "da": "Traslazione arborea",
+          "a": "Trasporto vegetale",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 339,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:turbine-implacabile",
+      "tipo": "incantesimo",
+      "nome": "Turbine implacabile",
+      "livello": 5,
+      "scuola": "Evocazione",
+      "classi": [
+        "ranger",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": true,
+        "materiale": "un'arma da mischia dal valore di l ma o superiore"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 341,
+          "da": "Turbine implacabile",
+          "a": "Unto",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 341,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
