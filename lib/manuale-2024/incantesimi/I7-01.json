@@ -4,5 +4,367 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:celare",
+      "tipo": "incantesimo",
+      "nome": "Celare",
+      "livello": 7,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di gemme del valore di 5.000 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 252,
+          "da": "Celare",
+          "a": "Cerchio di morte",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 252,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:dito-della-morte",
+      "tipo": "incantesimo",
+      "nome": "Dito della morte",
+      "livello": 7,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 267,
+          "da": "Dito della morte",
+          "a": "Divinazione",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 267,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:evoca-celestiale",
+      "tipo": "incantesimo",
+      "nome": "Evoca celestiale",
+      "livello": 7,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 270,
+          "da": "Evoca celestiale",
+          "a": "Evoca creature boschive",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 270,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:forma-eterea",
+      "tipo": "incantesimo",
+      "nome": "Forma eterea",
+      "livello": 7,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "fino a 8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 274,
+          "da": "Forma eterea",
+          "a": "Forma gassosa",
+          "dopo": "fino a 8 ore"
+        }
+      ],
+      "pagina": 274,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:gabbia-di-forza",
+      "tipo": "incantesimo",
+      "nome": "Gabbia di forza",
+      "livello": 7,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "30 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di rubino del valore di 1.500 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "concentrazione, fino a l ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 277,
+          "da": "Gabbia di forza",
+          "a": "Giara magica",
+          "dopo": "concentrazione, fino a l ora"
+        }
+      ],
+      "pagina": 277,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:immagine-proiettata",
+      "tipo": "incantesimo",
+      "nome": "Immagine proiettata",
+      "livello": 7,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "800 chilometri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una statuetta dell'incantatore del valore di 5 mo o più"
+      },
+      "durata": "concentrazione, fino a l giorno",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 281,
+          "da": "Immagine proiettata",
+          "a": "Immagine silenziosa",
+          "dopo": "concentrazione, fino a l giorno"
+        }
+      ],
+      "pagina": 281,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:inversione-della-gravita",
+      "tipo": "incantesimo",
+      "nome": "Inversione della gravità",
+      "livello": 7,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "30 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una calamita e limatura di ferro"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 285,
+          "da": "Inversione della gravità",
+          "a": "Inviare",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 285,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:miraggio-arcano",
+      "tipo": "incantesimo",
+      "nome": "Miraggio arcano",
+      "livello": 7,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "vista",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "10 giorni",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 292,
+          "da": "Miraggio arcano",
+          "a": "Modificare memoria",
+          "dopo": "10 giorni"
+        }
+      ],
+      "pagina": 292,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:palla-di-fuoco-ritardata",
+      "tipo": "incantesimo",
+      "nome": "Palla di fuoco ritardata",
+      "livello": 7,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una pallina di guano di pipistrello e zolfo"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 298,
+          "da": "Palla di fuoco ritardata",
+          "a": "Parlare con gli animali",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 298,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-del-potere-fortificare",
+      "tipo": "incantesimo",
+      "nome": "Parola del potere fortificare",
+      "livello": 7,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 299,
+          "da": "Parola del potere fortificare",
+          "a": "Parola del potere guarire",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 299,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-divina",
+      "tipo": "incantesimo",
+      "nome": "Parola divina",
+      "livello": 7,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 300,
+          "da": "Parola divina",
+          "a": "Parola guaritrice",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 300,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
