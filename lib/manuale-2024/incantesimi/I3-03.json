@@ -4,5 +4,580 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:parlare-con-i-morti",
+      "tipo": "incantesimo",
+      "nome": "Parlare con i morti",
+      "livello": 3,
+      "scuola": "Necromanzia",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "incenso bruciato"
+      },
+      "durata": "10 minuti",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 299,
+          "da": "Parlare con i morti",
+          "a": "Parlare con i vegetali",
+          "dopo": "10 minuti"
+        }
+      ],
+      "pagina": 299,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parlare-con-i-vegetali",
+      "tipo": "incantesimo",
+      "nome": "Parlare con i vegetali",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "10 minuti",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 299,
+          "da": "Parlare con i vegetali",
+          "a": "Parola del potere fortificare",
+          "dopo": "10 minuti"
+        }
+      ],
+      "pagina": 299,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-guaritrice-di-massa",
+      "tipo": "incantesimo",
+      "nome": "Parola guaritrice di massa",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 300,
+          "da": "Parola guaritrice di massa",
+          "a": "Parola radiosa",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 300,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:paura",
+      "tipo": "incantesimo",
+      "nome": "Paura",
+      "livello": 3,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una piuma bianca"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 301,
+          "da": "Paura",
+          "a": "Pelle coriacea",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 301,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:protezione-dall-energia",
+      "tipo": "incantesimo",
+      "nome": "Protezione dall'energia",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 305,
+          "da": "Protezione dall'energia",
+          "a": "Punizione accecante",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 305,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:punizione-accecante",
+      "tipo": "incantesimo",
+      "nome": "Punizione accecante",
+      "livello": 3,
+      "scuola": "Invocazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus che l'incantatore effettua subito dopo aver colpito una creatura con un'arma da mischia o con un colpo senz'armi",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 305,
+          "da": "Punizione accecante",
+          "a": "Punizione collerica",
+          "dopo": "1 minuto"
+        }
+      ],
+      "pagina": 305,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:respirare-sott-acqua",
+      "tipo": "incantesimo",
+      "nome": "Respirare sott'acqua",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "mago",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un piccolo giunco"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 310,
+          "da": "Respirare sott'acqua",
+          "a": "Resurrezione",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 310,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:richiama-folletto",
+      "tipo": "incantesimo",
+      "nome": "Richiama folletto",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "ranger",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un fiore dorato del valore di 300 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 317,
+          "da": "Richiama folletto",
+          "a": "Richiama immondo",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 317,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:richiama-non-morto",
+      "tipo": "incantesimo",
+      "nome": "Richiama non morto",
+      "livello": 3,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un teschio dorato del valore di 300 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 319,
+          "da": "Richiama non morto",
+          "a": "Rigenerazione",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 319,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:rimuovi-maledizione",
+      "tipo": "incantesimo",
+      "nome": "Rimuovi maledizione",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "mago",
+        "paladino",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 320,
+          "da": "Rimuovi maledizione",
+          "a": "Rinascita",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 320,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:rinascita",
+      "tipo": "incantesimo",
+      "nome": "Rinascita",
+      "livello": 3,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "druido",
+        "paladino",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un diamante del valore di 300 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 320,
+          "da": "Rinascita",
+          "a": "Rintocco dei morti",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 320,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scagliare-maledizione",
+      "tipo": "incantesimo",
+      "nome": "Scagliare maledizione",
+      "livello": 3,
+      "scuola": "Necromanzia",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 323,
+          "da": "Scagliare maledizione",
+          "a": "Scassinare",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 323,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tempesta-di-nevischio",
+      "tipo": "incantesimo",
+      "nome": "Tempesta di nevischio",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ombrello in miniatura"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 336,
+          "da": "Tempesta di nevischio",
+          "a": "Tempesta di vendetta",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 336,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tocco-del-vampiro",
+      "tipo": "incantesimo",
+      "nome": "Tocco del vampiro",
+      "livello": 3,
+      "scuola": "Necromanzia",
+      "classi": [
+        "stregone",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 337,
+          "da": "Tocco del vampiro",
+          "a": "Tocco gelido",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 337,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:trama-ipnotica",
+      "tipo": "incantesimo",
+      "nome": "Trama ipnotica",
+      "livello": 3,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": false,
+        "somatica": true,
+        "materiale": "una manciata di coriandoli"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 338,
+          "da": "Trama ipnotica",
+          "a": "Trasformazione",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 338,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:velocita",
+      "tipo": "incantesimo",
+      "nome": "Velocità",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una scaglia di radice di liquirizia"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 342,
+          "da": "Velocità",
+          "a": "Vigilanza e interdizione",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 342,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:volare",
+      "tipo": "incantesimo",
+      "nome": "Volare",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una piuma"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 343,
+          "da": "Volare",
+          "a": "Vuoto mentale",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 343,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
