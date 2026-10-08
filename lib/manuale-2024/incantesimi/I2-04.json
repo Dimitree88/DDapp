@@ -4,5 +4,501 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:scassinare",
+      "tipo": "incantesimo",
+      "nome": "Scassinare",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 324,
+          "da": "Scassinare",
+          "a": "Scheggia della mente",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 324,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scopri-trappole",
+      "tipo": "incantesimo",
+      "nome": "Scopri trappole",
+      "livello": 2,
+      "scuola": "Divinazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 324,
+          "da": "Scopri trappole",
+          "a": "Scossa sinaptica",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 324,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scurovisione",
+      "tipo": "incantesimo",
+      "nome": "Scurovisione",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "mago",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una carota essiccata"
+      },
+      "durata": "8 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 326,
+          "da": "Scurovisione",
+          "a": "Segugio fedele di Mordenkainen",
+          "dopo": "8 ore"
+        }
+      ],
+      "pagina": 326,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:serratura-arcana",
+      "tipo": "incantesimo",
+      "nome": "Serratura arcana",
+      "livello": 2,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere d'oro del valore di 25 mo o più, che viene consumata dall'incantesimo"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 327,
+          "da": "Serratura arcana",
+          "a": "Servitore inosservato",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 327,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sfera-infuocata",
+      "tipo": "incantesimo",
+      "nome": "Sfera infuocata",
+      "livello": 2,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una pallina di cera"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 329,
+          "da": "Sfera infuocata",
+          "a": "Sfocatura",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 329,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sfocatura",
+      "tipo": "incantesimo",
+      "nome": "Sfocatura",
+      "livello": 2,
+      "scuola": "Illusione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 329,
+          "da": "Sfocatura",
+          "a": "Sguardo penetrante",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 329,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:silenzio",
+      "tipo": "incantesimo",
+      "nome": "Silenzio",
+      "livello": 2,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "ranger"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 329,
+          "da": "Silenzio",
+          "a": "Simbolo",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 329,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:soffio-del-drago",
+      "tipo": "incantesimo",
+      "nome": "Soffio del drago",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un peperoncino"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 330,
+          "da": "Soffio del drago",
+          "a": "Sogno",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 330,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:suggestione",
+      "tipo": "incantesimo",
+      "nome": "Suggestione",
+      "livello": 2,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false,
+        "materiale": "una goccia di miele"
+      },
+      "durata": "concentrazione, fino a 8 ore",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 333,
+          "da": "Suggestione",
+          "a": "Suggestione di massa",
+          "dopo": "concentrazione, fino a 8 ore"
+        }
+      ],
+      "pagina": 333,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:trova-cavalcatura",
+      "tipo": "incantesimo",
+      "nome": "Trova cavalcatura",
+      "livello": 2,
+      "scuola": "Evocazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 339,
+          "da": "Trova cavalcatura",
+          "a": "Trova famiglio",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 339,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:trucco-della-corda",
+      "tipo": "incantesimo",
+      "nome": "Trucco della corda",
+      "livello": 2,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di corda"
+      },
+      "durata": "l ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 341,
+          "da": "Trucco della corda",
+          "a": "Tsunami",
+          "dopo": "l ora"
+        }
+      ],
+      "pagina": 341,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:vedere-invisibilita",
+      "tipo": "incantesimo",
+      "nome": "Vedere invisibilità",
+      "livello": 2,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di talco"
+      },
+      "durata": "l ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 342,
+          "da": "Vedere invisibilità",
+          "a": "Velocità",
+          "dopo": "l ora"
+        }
+      ],
+      "pagina": 342,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:vigore-arcano",
+      "tipo": "incantesimo",
+      "nome": "Vigore arcano",
+      "livello": 2,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 343,
+          "da": "Vigore arcano",
+          "a": "Vincolo di interdizione",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 343,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:vincolo-di-interdizione",
+      "tipo": "incantesimo",
+      "nome": "Vincolo di interdizione",
+      "livello": 2,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un paio di anelli di platino del valore di 50 mo o più, che l'incantatore e il bersaglio devono indossare per la durata dell'incantesimo"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 343,
+          "da": "Vincolo di interdizione",
+          "a": "Visione del vero",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 343,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:zona-di-verita",
+      "tipo": "incantesimo",
+      "nome": "Zona di verità",
+      "livello": 2,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "10 minuti",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 343,
+          "da": "Zona di verità",
+          "finePagina": true,
+          "dopo": "10 minuti"
+        }
+      ],
+      "pagina": 343,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
