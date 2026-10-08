@@ -4,5 +4,341 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:reggia-meravigliosa-di-mordenkainen",
+      "tipo": "incantesimo",
+      "nome": "Reggia meravigliosa di Mordenkainen",
+      "livello": 7,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una miniatura di una porta del valore di 15 mo o più"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 309,
+          "da": "Reggia meravigliosa di Mordenkainen",
+          "a": "Reincarnazione",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 309,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:resurrezione",
+      "tipo": "incantesimo",
+      "nome": "Resurrezione",
+      "livello": 7,
+      "scuola": "Necromanzia",
+      "classi": [
+        "bardo",
+        "chierico"
+      ],
+      "tempoLancio": "1 ora",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un diamante del valore di 1 .000 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 310,
+          "da": "Resurrezione",
+          "a": "Resurrezione pura",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 310,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:rigenerazione",
+      "tipo": "incantesimo",
+      "nome": "Rigenerazione",
+      "livello": 7,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "l minuto",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ruota della preghiera"
+      },
+      "durata": "l ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 320,
+          "da": "Rigenerazione",
+          "a": "Rimuovi maledizione",
+          "dopo": "l ora"
+        }
+      ],
+      "pagina": 320,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:simbolo",
+      "tipo": "incantesimo",
+      "nome": "Simbolo",
+      "livello": 7,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di diamante del valore di 1 .000 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "finché non viene dissolto o innescato",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 330,
+          "da": "Simbolo",
+          "a": "Simulacro",
+          "dopo": "finché non viene dissolto o innescato"
+        }
+      ],
+      "pagina": 330,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:simulacro",
+      "tipo": "incantesimo",
+      "nome": "Simulacro",
+      "livello": 7,
+      "scuola": "Illusione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "12 ore",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di rubino del valore di 1.500 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 330,
+          "da": "Simulacro",
+          "a": "Soffio del drago",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 330,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:spada-di-mordenkainen",
+      "tipo": "incantesimo",
+      "nome": "Spada di Mordenkainen",
+      "livello": 7,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una spada in miniatura del valore di 250 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 331,
+          "da": "Spada di Mordenkainen",
+          "a": "Spostamento planare",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 331,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:spostamento-planare",
+      "tipo": "incantesimo",
+      "nome": "Spostamento planare",
+      "livello": 7,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una verga di metallo biforcuta del valore di 250 mo o più e in sintonia con un piano di esistenza"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 331,
+          "da": "Spostamento planare",
+          "a": "Spruzzo colorato",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 331,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:spruzzo-prismatico",
+      "tipo": "incantesimo",
+      "nome": "Spruzzo prismatico",
+      "livello": 7,
+      "scuola": "Invocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 332,
+          "da": "Spruzzo prismatico",
+          "a": "Spruzzo velenoso",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 332,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:teletrasporto",
+      "tipo": "incantesimo",
+      "nome": "Teletrasporto",
+      "livello": 7,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 334,
+          "da": "Teletrasporto",
+          "a": "Tempesta di fuoco",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 334,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:tempesta-di-fuoco",
+      "tipo": "incantesimo",
+      "nome": "Tempesta di fuoco",
+      "livello": 7,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 335,
+          "da": "Tempesta di fuoco",
+          "a": "Tempesta di ghiaccio",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 335,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
