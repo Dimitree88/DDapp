@@ -1,10 +1,10 @@
 {
   "id": "I1-03",
-  "stato": "da_fare",
-  "assegnatoA": null,
-  "branch": null,
-  "presoInCarico": null,
-  "ultimoAggiornamento": "2026-10-08T01:02:30Z",
-  "evidenza": null,
-  "commitCompletamento": null
+  "stato": "completato",
+  "assegnatoA": "Claude Opus 4.8 (Claude Code) @ Omen",
+  "branch": "manuale-2024/I1-03",
+  "presoInCarico": "2026-10-08T01:20:34Z",
+  "ultimoAggiornamento": "2026-10-08T01:20:34Z",
+  "evidenza": "docs/adeguamento-2024/evidenze/I1-03.md",
+  "commitCompletamento": "17f50c7"
 }
