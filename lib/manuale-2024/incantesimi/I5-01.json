@@ -4,5 +4,537 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:animare-oggetti",
+      "tipo": "incantesimo",
+      "nome": "Animare oggetti",
+      "livello": 5,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 242,
+          "da": "Animare oggetti",
+          "a": "Anti-individuazione",
+          "n": 2,
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 242,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:blocca-mostri",
+      "tipo": "incantesimo",
+      "nome": "Blocca mostri",
+      "livello": 5,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una sbarra di ferro"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 248,
+          "da": "Blocca mostri",
+          "a": "Blocca persone",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 248,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:cerchio-di-potere",
+      "tipo": "incantesimo",
+      "nome": "Cerchio di potere",
+      "livello": 5,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "mago",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 252,
+          "da": "Cerchio di potere",
+          "a": "Cerchio di teletrasporto",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 252,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:cerchio-di-teletrasporto",
+      "tipo": "incantesimo",
+      "nome": "Cerchio di teletrasporto",
+      "livello": 5,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false,
+        "materiale": "inchiostri rari dal valore di 50 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "1 round",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 252,
+          "da": "Cerchio di teletrasporto",
+          "a": "Cerchio magico",
+          "dopo": "1 round"
+        }
+      ],
+      "pagina": 252,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:colpo-infuocato",
+      "tipo": "incantesimo",
+      "nome": "Colpo infuocato",
+      "livello": 5,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di zolfo"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 254,
+          "da": "Colpo infuocato",
+          "a": "Colpo intrappolante",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 254,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:comunione",
+      "tipo": "incantesimo",
+      "nome": "Comunione",
+      "livello": 5,
+      "scuola": "Divinazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "incenso"
+      },
+      "durata": "1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 255,
+          "da": "Comunione",
+          "a": "Comunione con la natura",
+          "dopo": "1 minuto"
+        }
+      ],
+      "pagina": 255,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:comunione-con-la-natura",
+      "tipo": "incantesimo",
+      "nome": "Comunione con la natura",
+      "livello": 5,
+      "scuola": "Divinazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 255,
+          "da": "Comunione con la natura",
+          "a": "Confusione",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 255,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:cono-di-freddo",
+      "tipo": "incantesimo",
+      "nome": "Cono di freddo",
+      "livello": 5,
+      "scuola": "Invocazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 256,
+          "da": "Cono di freddo",
+          "a": "Conoscenza delle leggende",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 256,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:conoscenza-delle-leggende",
+      "tipo": "incantesimo",
+      "nome": "Conoscenza delle leggende",
+      "livello": 5,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago"
+      ],
+      "tempoLancio": "10 minuti",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "incenso del valore di 250 mo o più, che l'incantesimo consuma, e quattro bastoncini d'avorio del valore di 50 mo o più ciascuno"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 256,
+          "da": "Conoscenza delle leggende",
+          "a": "Contagio",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 256,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:contagio",
+      "tipo": "incantesimo",
+      "nome": "Contagio",
+      "livello": 5,
+      "scuola": "Necromanzia",
+      "classi": [
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "7 giorni",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 256,
+          "da": "Contagio",
+          "a": "Contattare altri piani",
+          "dopo": "7 giorni"
+        }
+      ],
+      "pagina": 256,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:contattare-altri-piani",
+      "tipo": "incantesimo",
+      "nome": "Contattare altri piani",
+      "livello": 5,
+      "scuola": "Divinazione",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "1 minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 256,
+          "da": "Contattare altri piani",
+          "a": "Contingenza",
+          "dopo": "1 minuto"
+        }
+      ],
+      "pagina": 256,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:costrizione",
+      "tipo": "incantesimo",
+      "nome": "Costrizione",
+      "livello": 5,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago",
+        "paladino"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "30 giorni",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 259,
+          "da": "Costrizione",
+          "a": "Creare Crno e acqua",
+          "dopo": "30 giorni"
+        }
+      ],
+      "pagina": 259,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:creazione",
+      "tipo": "incantesimo",
+      "nome": "Creazione",
+      "livello": 5,
+      "scuola": "Illusione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pennello"
+      },
+      "durata": "speciale",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 260,
+          "da": "Creazione",
+          "a": "Crescita di spine",
+          "dopo": "speciale"
+        }
+      ],
+      "pagina": 260,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:cura-ferite-di-massa",
+      "tipo": "incantesimo",
+      "nome": "Cura ferite di massa",
+      "livello": 5,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 262,
+          "da": "Cura ferite di massa",
+          "a": "Danza irresistibile di Otto",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 262,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:dissolvi-il-bene-e-il-male",
+      "tipo": "incantesimo",
+      "nome": "Dissolvi il bene e il male",
+      "livello": 5,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere d'argento e ferro"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 266,
+          "da": "Dissolvi il bene e il male",
+          "a": "Dissolvi magie",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 266,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:dominare-persone",
+      "tipo": "incantesimo",
+      "nome": "Dominare persone",
+      "livello": 5,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 267,
+          "da": "Dominare persone",
+          "a": "Duello obbligato",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 267,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
