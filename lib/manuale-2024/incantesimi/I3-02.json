@@ -4,5 +4,574 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:forma-gassosa",
+      "tipo": "incantesimo",
+      "nome": "Forma gassosa",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di garza"
+      },
+      "durata": "concentrazione, fino a l ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 275,
+          "da": "Forma gassosa",
+          "a": "Forme animali",
+          "dopo": "concentrazione, fino a l ora"
+        }
+      ],
+      "pagina": 275,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:freccia-folgorante",
+      "tipo": "incantesimo",
+      "nome": "Freccia folgorante",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "ranger"
+      ],
+      "tempoLancio": "azione bonus, che l'incantatore effettua subito dopo aver colpito o mancato un bersaglio con un attacco a distanza utilizzando un'arma",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 276,
+          "da": "Freccia folgorante",
+          "a": "Frusta di spine",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 276,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:fulmine",
+      "tipo": "incantesimo",
+      "nome": "Fulmine",
+      "livello": 3,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciuffo di pelo e una verga di cristallo"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 276,
+          "da": "Fulmine",
+          "a": "Fuorviare",
+          "n": 4,
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 276,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:glifo-di-interdizione",
+      "tipo": "incantesimo",
+      "nome": "Glifo di interdizione",
+      "livello": 3,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago"
+      ],
+      "tempoLancio": "l ora",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di diamante del valore di 200 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "finché non viene dissolto o innescato",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 277,
+          "da": "Glifo di interdizione",
+          "a": "Globo cromatico",
+          "dopo": "finché non viene dissolto o innescato"
+        }
+      ],
+      "pagina": 277,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:guardiani-spirituali",
+      "tipo": "incantesimo",
+      "nome": "Guardiani spirituali",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una pergamena con una preghiera"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 279,
+          "da": "Guardiani spirituali",
+          "a": "Guardiano della fede",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 279,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:immagine-maggiore",
+      "tipo": "incantesimo",
+      "nome": "Immagine maggiore",
+      "livello": 3,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ciuffo di lana"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 281,
+          "da": "Immagine maggiore",
+          "a": "Immagine proiettata",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 281,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:intermittenza",
+      "tipo": "incantesimo",
+      "nome": "Intermittenza",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "l minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 285,
+          "da": "Intermittenza",
+          "a": "Intimorire infernale",
+          "dopo": "l minuto"
+        }
+      ],
+      "pagina": 285,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:inviare",
+      "tipo": "incantesimo",
+      "nome": "Inviare",
+      "livello": 3,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "Illimitata",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un filo di rame"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 286,
+          "da": "Inviare",
+          "a": "Invisibilità",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 286,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:invocare-il-fulmine",
+      "tipo": "incantesimo",
+      "nome": "Invocare il fulmine",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 286,
+          "da": "Invocare il fulmine",
+          "a": "Labirinto",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 286,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:lentezza",
+      "tipo": "incantesimo",
+      "nome": "Lentezza",
+      "livello": 3,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una goccia di melassa"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 287,
+          "da": "Lentezza",
+          "a": "Levitazione",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 287,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:linguaggi",
+      "tipo": "incantesimo",
+      "nome": "Linguaggi",
+      "livello": 3,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": false,
+        "materiale": "una ziggurat in miniatura"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 288,
+          "da": "Linguaggi",
+          "a": "Localizza animali o vegetali",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 288,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:luce-diurna",
+      "tipo": "incantesimo",
+      "nome": "Luce diurna",
+      "livello": 3,
+      "scuola": "Invocazione",
+      "classi": [
+        "chierico",
+        "druido",
+        "paladino",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 289,
+          "da": "Luce diurna",
+          "a": "Luce splendente",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 289,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:manto-del-crociato",
+      "tipo": "incantesimo",
+      "nome": "Manto del crociato",
+      "livello": 3,
+      "scuola": "Invocazione",
+      "classi": [
+        "paladino"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 291,
+          "da": "Manto del crociato",
+          "a": "Marchio del cacciatore",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 291,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:morte-apparente",
+      "tipo": "incantesimo",
+      "nome": "Morte apparente",
+      "livello": 3,
+      "scuola": "Necromanzia",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido",
+        "mago"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di terriccio prelevato da un cimitero"
+      },
+      "durata": "l ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 293,
+          "da": "Morte apparente",
+          "a": "Movimenti del ragno",
+          "dopo": "l ora"
+        }
+      ],
+      "pagina": 293,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:muro-di-vento",
+      "tipo": "incantesimo",
+      "nome": "Muro di vento",
+      "livello": 3,
+      "scuola": "Invocazione",
+      "classi": [
+        "druido",
+        "ranger"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un ventaglio e una piuma"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 295,
+          "da": "Muro di vento",
+          "a": "Muro prismatico",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 295,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:nube-maleodorante",
+      "tipo": "incantesimo",
+      "nome": "Nube maleodorante",
+      "livello": 3,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un uovo marcio"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 297,
+          "da": "Nube maleodorante",
+          "a": "Nube mortale",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 297,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:palla-di-fuoco",
+      "tipo": "incantesimo",
+      "nome": "Palla di fuoco",
+      "livello": 3,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "45 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una pallina di guano di pipistrello e zolfo"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 298,
+          "da": "Palla di fuoco",
+          "a": "Palla di fuoco ritardata",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 298,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
