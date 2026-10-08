@@ -4,5 +4,531 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:raggio-di-infermita",
+      "tipo": "incantesimo",
+      "nome": "Raggio di infermità",
+      "livello": 1,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 308,
+          "da": "Raggio di infermità",
+          "a": "Raggio rovente",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 308,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:risata-incontenibile-di-tasha",
+      "tipo": "incantesimo",
+      "nome": "Risata incontenibile di Tasha",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "warlock",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una crostata e una piuma"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 321,
+          "da": "Risata incontenibile di Tasha",
+          "a": "Riscaldare il metallo",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 321,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:ritirata-rapida",
+      "tipo": "incantesimo",
+      "nome": "Ritirata rapida",
+      "livello": 1,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 322,
+          "da": "Ritirata rapida",
+          "a": "Rombo di tuono",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 322,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:saltare",
+      "tipo": "incantesimo",
+      "nome": "Saltare",
+      "livello": 1,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "mago",
+        "ranger",
+        "stregone"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 322,
+          "da": "Saltare",
+          "a": "Salvare i morenti"
+        }
+      ],
+      "pagina": 322,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:santuario",
+      "tipo": "incantesimo",
+      "nome": "Santuario",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "9 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un frammento di vetro di uno specchio"
+      },
+      "durata": "l minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 323,
+          "da": "Santuario",
+          "a": "Santuario privato di Mordenkainen",
+          "dopo": "l minuto"
+        }
+      ],
+      "pagina": 323,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scritto-illusorio",
+      "tipo": "incantesimo",
+      "nome": "Scritto illusorio",
+      "livello": 1,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "1 minuto o rituale",
+      "rituale": true,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": false,
+        "somatica": true,
+        "materiale": "inchiostro del valore di 10 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "10 giorni",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 325,
+          "da": "Scritto illusorio",
+          "a": "Scrutare",
+          "dopo": "10 giorni"
+        }
+      ],
+      "pagina": 325,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scudo",
+      "tipo": "incantesimo",
+      "nome": "Scudo",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "reazione, che l'incantatore effettua quando è colpito da un tiro per colpire o bersagliato dall'incantesimo dardo incantato",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "l round",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 326,
+          "da": "Scudo",
+          "a": "Scudo della fede",
+          "dopo": "l round"
+        }
+      ],
+      "pagina": 326,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scudo-della-fede",
+      "tipo": "incantesimo",
+      "nome": "Scudo della fede",
+      "livello": 1,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "paladino"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una pergamena con una preghiera"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 326,
+          "da": "Scudo della fede",
+          "a": "Scudo di fuoco",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 326,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:servitore-inosservato",
+      "tipo": "incantesimo",
+      "nome": "Servitore inosservato",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "bardo",
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione o rituale",
+      "rituale": true,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di spago e di legno"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 327,
+          "da": "Servitore inosservato",
+          "a": "Sfera al vetriolo",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 327,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sonno",
+      "tipo": "incantesimo",
+      "nome": "Sonno",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di sabbia o dei petali di rosa"
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 331,
+          "da": "Sonno",
+          "a": "Sortilegio",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 331,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sortilegio",
+      "tipo": "incantesimo",
+      "nome": "Sortilegio",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "warlock"
+      ],
+      "tempoLancio": "azione bonus",
+      "rituale": false,
+      "gittata": "27 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "l'occhio pietrificato di un tritone"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 331,
+          "da": "Sortilegio",
+          "a": "Spada di Mordenkainen",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 331,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:spruzzo-colorato",
+      "tipo": "incantesimo",
+      "nome": "Spruzzo colorato",
+      "livello": 1,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pizzico di sabbia colorata"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 332,
+          "da": "Spruzzo colorato",
+          "a": "Spruzzo prismatico",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 332,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sussurri-dissonanti",
+      "tipo": "incantesimo",
+      "nome": "Sussurri dissonanti",
+      "livello": 1,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 333,
+          "da": "Sussurri dissonanti",
+          "a": "Taumaturgia",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 333,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:trova-famiglio",
+      "tipo": "incantesimo",
+      "nome": "Trova famiglio",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "1 ora o rituale",
+      "rituale": true,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 340,
+          "da": "Trova famiglio",
+          "a": "Trucco della corda",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 340,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:unto",
+      "tipo": "incantesimo",
+      "nome": "Unto",
+      "livello": 1,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di cotenna di maiale o burro"
+      },
+      "durata": "l minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 342,
+          "da": "Unto",
+          "a": "Vedere invisibilità",
+          "dopo": "l minuto"
+        }
+      ],
+      "pagina": 342,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:vita-falsata",
+      "tipo": "incantesimo",
+      "nome": "Vita falsata",
+      "livello": 1,
+      "scuola": "Necromanzia",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una goccia di alcol"
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 343,
+          "da": "Vita falsata",
+          "a": "Volare",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 343,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
