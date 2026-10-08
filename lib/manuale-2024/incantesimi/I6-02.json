@@ -4,5 +4,564 @@
   "fonte": "docs/regole/Manuale Del Giocatore - 2024.pdf",
   "tipoPagina": "stampata",
   "etichette": [],
-  "voci": []
+  "voci": [
+    {
+      "id": "incantesimo:globo-di-invulnerabilita",
+      "tipo": "incantesimo",
+      "nome": "Globo di invulnerabilità",
+      "livello": 6,
+      "scuola": "Abiurazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una perla di vetro"
+      },
+      "durata": "concentrazione, fino a l minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 279,
+          "da": "Globo di invulnerabilità",
+          "a": "Guardiani spirituali",
+          "dopo": "concentrazione, fino a l minuto"
+        }
+      ],
+      "pagina": 279,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:guarigione",
+      "tipo": "incantesimo",
+      "nome": "Guarigione",
+      "livello": 6,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 279,
+          "da": "Guarigione",
+          "a": "Guarigione di massa",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 279,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:illusione-programmata",
+      "tipo": "incantesimo",
+      "nome": "Illusione programmata",
+      "livello": 6,
+      "scuola": "Illusione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di giada del valore di 25 mo o più"
+      },
+      "durata": "finché non viene dissolto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 281,
+          "da": "Illusione programmata",
+          "a": "Immagine maggiore",
+          "dopo": "finché non viene dissolto"
+        }
+      ],
+      "pagina": 281,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:muovere-il-terreno",
+      "tipo": "incantesimo",
+      "nome": "Muovere il terreno",
+      "livello": 6,
+      "scuola": "Trasmutazione",
+      "classi": [
+        "druido",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una pala in miniatura"
+      },
+      "durata": "concentrazione, fino a 2 ore",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 293,
+          "da": "Muovere il terreno",
+          "a": "Muro di forza",
+          "dopo": "concentrazione, fino a 2 ore"
+        }
+      ],
+      "pagina": 293,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:muro-di-ghiaccio",
+      "tipo": "incantesimo",
+      "nome": "Muro di ghiaccio",
+      "livello": 6,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un pezzo di quarzo"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 294,
+          "da": "Muro di ghiaccio",
+          "a": "Muro di pietra",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 294,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:muro-di-spine",
+      "tipo": "incantesimo",
+      "nome": "Muro di spine",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "36 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una manciata di spine"
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 295,
+          "da": "Muro di spine",
+          "a": "Muro di vento",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 295,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:parola-del-ritiro",
+      "tipo": "incantesimo",
+      "nome": "Parola del ritiro",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "1,5 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false
+      },
+      "durata": "istantanea",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 300,
+          "da": "Parola del ritiro",
+          "a": "Parola divina",
+          "dopo": "istantanea"
+        }
+      ],
+      "pagina": 300,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:portale-arcano",
+      "tipo": "incantesimo",
+      "nome": "Portale arcano",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 10 minuti",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 303,
+          "da": "Portale arcano",
+          "a": "Preghiera di guarigione",
+          "dopo": "concentrazione, fino a 10 minuti"
+        }
+      ],
+      "pagina": 303,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:proibizione",
+      "tipo": "incantesimo",
+      "nome": "Proibizione",
+      "livello": 6,
+      "scuola": "Abiurazione",
+      "classi": [
+        "chierico"
+      ],
+      "tempoLancio": "10 minuti o rituale",
+      "rituale": true,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di rubino del valore di 1 .000 mo o più"
+      },
+      "durata": "l giorno",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 304,
+          "da": "Proibizione",
+          "a": "Proiezione astrale",
+          "dopo": "l giorno"
+        }
+      ],
+      "pagina": 304,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:richiama-immondo",
+      "tipo": "incantesimo",
+      "nome": "Richiama immondo",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "mago",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una fiala di s'angue del valore di 600 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 ora",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 317,
+          "da": "Richiama immondo",
+          "a": "Richiama non morto",
+          "dopo": "concentrazione, fino a 1 ora"
+        }
+      ],
+      "pagina": 317,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:scopri-il-percorso",
+      "tipo": "incantesimo",
+      "nome": "Scopri il percorso",
+      "livello": 6,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "druido"
+      ],
+      "tempoLancio": "1 minuto",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "un set di strumenti di divinazione, come carte o rune, del valore di 100 mo o più"
+      },
+      "durata": "concentrazione, fino a 1 giorno",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 324,
+          "da": "Scopri il percorso",
+          "a": "Scopri trappole",
+          "dopo": "concentrazione, fino a 1 giorno"
+        }
+      ],
+      "pagina": 324,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sfera-congelante-di-otiluke",
+      "tipo": "incantesimo",
+      "nome": "Sfera congelante di Otiluke",
+      "livello": 6,
+      "scuola": "Invocazione",
+      "classi": [
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "",
+      "rituale": false,
+      "gittata": "",
+      "componenti": {
+        "verbale": false,
+        "somatica": false
+      },
+      "durata": "",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 328,
+          "da": "Sfera congelante di 0tiluke",
+          "a": "Sfera elastica di 0tiluke"
+        }
+      ],
+      "pagina": 328,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:sguardo-penetrante",
+      "tipo": "incantesimo",
+      "nome": "Sguardo penetrante",
+      "livello": 6,
+      "scuola": "Necromanzia",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "incantatore",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "concentrazione, fino a 1 minuto",
+      "concentrazione": true,
+      "testo": [
+        {
+          "pagina": 329,
+          "da": "Sguardo penetrante",
+          "a": "Silenzio",
+          "dopo": "concentrazione, fino a 1 minuto"
+        }
+      ],
+      "pagina": 329,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:suggestione-di-massa",
+      "tipo": "incantesimo",
+      "nome": "Suggestione di massa",
+      "livello": 6,
+      "scuola": "Ammaliamento",
+      "classi": [
+        "bardo",
+        "mago",
+        "stregone"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "18 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": false,
+        "materiale": "una lingua di serpente"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 333,
+          "da": "Suggestione di massa",
+          "a": "Sussurri dissonanti",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 333,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:trasporto-vegetale",
+      "tipo": "incantesimo",
+      "nome": "Trasporto vegetale",
+      "livello": 6,
+      "scuola": "Evocazione",
+      "classi": [
+        "druido"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "3 metri",
+      "componenti": {
+        "verbale": true,
+        "somatica": true
+      },
+      "durata": "l minuto",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 339,
+          "da": "Trasporto vegetale",
+          "a": "Trova cavalcatura",
+          "dopo": "l minuto"
+        }
+      ],
+      "pagina": 339,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:vigilanza-e-interdizione",
+      "tipo": "incantesimo",
+      "nome": "Vigilanza e interdizione",
+      "livello": 6,
+      "scuola": "Abiurazione",
+      "classi": [
+        "bardo",
+        "mago"
+      ],
+      "tempoLancio": "l ora",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "una verga d'argento del valore di 10 mo o più"
+      },
+      "durata": "24 ore",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 342,
+          "da": "Vigilanza e interdizione",
+          "a": "Vigore arcano",
+          "dopo": "24 ore"
+        }
+      ],
+      "pagina": 342,
+      "verifica": {
+        "stato": "verificata"
+      }
+    },
+    {
+      "id": "incantesimo:visione-del-vero",
+      "tipo": "incantesimo",
+      "nome": "Visione del vero",
+      "livello": 6,
+      "scuola": "Divinazione",
+      "classi": [
+        "bardo",
+        "chierico",
+        "mago",
+        "stregone",
+        "warlock"
+      ],
+      "tempoLancio": "azione",
+      "rituale": false,
+      "gittata": "contatto",
+      "componenti": {
+        "verbale": true,
+        "somatica": true,
+        "materiale": "polvere di funghi del valore di 25 mo o più, che l'incantesimo consuma"
+      },
+      "durata": "1 ora",
+      "concentrazione": false,
+      "testo": [
+        {
+          "pagina": 343,
+          "da": "Visione del vero",
+          "a": "Vita falsata",
+          "dopo": "1 ora"
+        }
+      ],
+      "pagina": 343,
+      "verifica": {
+        "stato": "verificata"
+      }
+    }
+  ]
 }
