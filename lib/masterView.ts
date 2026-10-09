@@ -1,5 +1,8 @@
 import { abilityBonus, abilityModifier, initiativeBonus, passivePerception, savingThrowBonus } from "./abilityBonus";
+import { calculationExplanation, type CalculationExplanation, type CalculationTarget } from "./calculationExplanation";
 import { normalizeCreature, type CreatureData } from "./creature";
+import { weaponAttack, weaponRange } from "./weaponAttack";
+import { weaponByName } from "./weaponDetails";
 import { hitDieSize, hitDiceTotal } from "./masterRest";
 import { readyToLevel, type HpState } from "./masterRules";
 import { normalizeSheet, type CondizioneAttiva, type ConcentrazioneAttiva, type Risorsa, type Sheet } from "./sheet";
@@ -41,11 +44,71 @@ export type CharacterView = {
   conMod: number;
   spell: { dc: number; attack: string; ability: string } | null;
   human: boolean;
+  // Spiegazioni dei valori calcolati, con lo stesso schema della scheda del personaggio.
+  calc: Record<string, CalculationExplanation>;
+  attacks: CharacterAttack[];
+};
+
+export type CharacterAttack = {
+  index: number;
+  name: string;
+  attack: string;
+  damage: string;
+  damageType: string;
+  range: { label: "Portata" | "Gittata"; value: string; thrown?: string } | null;
+  mastery: string | null;
+  warnings: string[];
 };
 
 export type CreatureView = { id: string; name: string; data: CreatureData };
 
 const toInt = (value: string | undefined) => value !== undefined && /^\d+$/.test(value.trim()) ? Number(value) : null;
+
+function characterCalculations(sheet: Sheet): Record<string, CalculationExplanation> {
+  const targets: [string, CalculationTarget][] = [
+    ["armor", { kind: "armor" }], ["initiative", { kind: "initiative" }], ["passive", { kind: "passive" }],
+    ["proficiency", { kind: "proficiency" }], ["speed", { kind: "speed" }], ["maxHp", { kind: "maxHp" }],
+    ["spellDc", { kind: "spellDc" }], ["spellAttack", { kind: "spellAttack" }],
+    ...sheet.caratteristiche.map((item): [string, CalculationTarget] => [`save:${item.abbr}`, { kind: "save", abbr: item.abbr }]),
+    ...sheet.abilita.filter((item) => item.competente).map((item): [string, CalculationTarget] => [`skill:${item.nome}`, { kind: "ability", name: item.nome }]),
+    ...sheet.armi.flatMap((_, index): [string, CalculationTarget][] => [
+      [`weapon:${index}:attack`, { kind: "weaponAttack", index }],
+      [`weapon:${index}:damage`, { kind: "weaponDamage", index }],
+      [`weapon:${index}:range`, { kind: "weaponRange", index }],
+    ]),
+  ];
+  const calc = Object.fromEntries(targets.flatMap(([key, target]) => {
+    const explanation = calculationExplanation(sheet, target);
+    return explanation ? [[key, explanation]] : [];
+  }));
+  // La vista Master usa la CA registrata: se differisce dal calcolo, lo dichiara.
+  const recorded = sheet.classeArmatura === null ? "" : String(sheet.classeArmatura);
+  if (calc.armor && recorded && calc.armor.result !== recorded) {
+    calc.armor = {
+      ...calc.armor, result: recorded,
+      details: [...calc.armor.details, { label: "CA registrata nella scheda", value: recorded }],
+      formula: `${calc.armor.formula}; il Master usa la CA registrata (${recorded})`,
+    };
+  }
+  return calc;
+}
+
+function characterAttacks(sheet: Sheet): CharacterAttack[] {
+  return sheet.armi.map((weapon, index) => {
+    const calculation = weaponAttack(sheet, weapon);
+    const range = weaponRange(weapon);
+    const entry = weaponByName(weapon.nome);
+    return {
+      index, name: weapon.nome || "Arma",
+      attack: weapon.bonus || calculation?.attack || "",
+      damage: calculation ? `${calculation.dice}${calculation.modifier}` : "",
+      damageType: calculation?.damageType ?? "",
+      range: range ? { label: range.label, value: range.value, ...(range.thrown ? { thrown: range.thrown } : {}) } : null,
+      mastery: entry && (sheet.padronanzeArmi ?? []).includes(entry.name) ? entry.mastery : null,
+      warnings: calculation?.warnings ?? [],
+    };
+  });
+}
 
 export function characterView(id: string, name: string, raw: Sheet): CharacterView {
   const sheet = normalizeSheet(raw);
@@ -73,6 +136,8 @@ export function characterView(id: string, name: string, raw: Sheet): CharacterVi
     conMod: Number(abilityModifier(sheet.caratteristiche.find((item) => item.abbr === "COS")?.valore ?? "") || 0),
     spell: spell ? { dc: spell.dc, attack: spell.attack, ability: spell.ability } : null,
     human: sheet.specie === "Umano",
+    calc: characterCalculations(sheet),
+    attacks: characterAttacks(sheet),
   };
 }
 

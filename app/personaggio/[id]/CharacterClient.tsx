@@ -35,7 +35,10 @@ import { weaponByName, weaponCatalog, weaponDetails } from "@/lib/weaponDetails"
 import { weaponMasteryLimit } from "@/lib/weaponChoices";
 import { isWeaponProficient } from "@/lib/weaponProficiencyRules";
 import { equipmentWarning, weaponWarning, type EquipmentWarning } from "@/lib/equipmentUsability";
-import { weaponAttack } from "@/lib/weaponAttack";
+import { displayedWeaponAttack, weaponAttack, weaponRange } from "@/lib/weaponAttack";
+import { spellDamageNote } from "@/lib/spellDamageNotes";
+import { CalculationContent } from "@/components/CalculationContent";
+import { Badge, StatTile } from "@/components/StatTile";
 import { armorCatalog, armorById } from "@/lib/armorCatalog";
 import { gearCatalog, gearById, gearByName } from "@/lib/gearCatalog";
 import { carryingCapacity, inventoryWeight } from "@/lib/inventoryWeight";
@@ -90,6 +93,12 @@ function calculationEditGuide(target: CalculationTarget): string {
   if (target.kind === "passive") return "Si aggiorna con Saggezza e con Competenza o Maestria in Percezione; il valore non si modifica direttamente.";
   if (target.kind === "modifier") return "Si aggiorna cambiando il punteggio della caratteristica; il modificatore non si modifica direttamente.";
   if (target.kind === "save") return "Si aggiorna quando cambiano il punteggio della caratteristica, il livello o una competenza concessa dalle regole.";
+  if (target.kind === "speed") return "Il valore è registrato alla creazione del personaggio e dai flussi guidati; non si modifica direttamente da qui.";
+  if (target.kind === "maxHp") return "Si aggiorna con «Sali di livello», scegliendo tiro del Dado Vita o valore fisso; non si modifica direttamente.";
+  if (target.kind === "spellDc" || target.kind === "spellAttack") return "Si aggiorna cambiando il punteggio della caratteristica da incantatore o il livello.";
+  if (target.kind === "weaponAttack") return "Dipende da caratteristica, livello e competenze. Per le armi Accurate scegli FOR o DES sotto l'arma, nella pagina Armi.";
+  if (target.kind === "weaponDamage") return "Dipende dal modificatore di caratteristica e, per le armi Versatili, dall'uso a una o due mani: sceglilo sotto l'arma, nella pagina Armi.";
+  if (target.kind === "weaponRange") return "Deriva dalle proprietà dell'arma. Per le armi da lancio scegli «Lancio» sotto l'arma per vedere la gittata.";
   return "Si aggiorna quando cambiano il punteggio della caratteristica, il livello o una competenza o Maestria concessa dalle regole.";
 }
 
@@ -189,24 +198,70 @@ function WarningLabel({ id, name, warning }: { id: string; name: string; warning
     className="inline-flex min-h-7 items-center rounded border border-red-700/50 bg-red-700/10 px-2 text-[10px] font-bold text-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-red-700" />;
 }
 
-function OwnedWeaponList({ sheet, onChange }: { sheet: Sheet; onChange: (items: Arma[]) => void }) {
+const capitalized = (text: string) => text.charAt(0).toLocaleUpperCase("it") + text.slice(1);
+
+// Proprietà della tabella Armi (p. 215), divise senza spezzare le parentesi.
+const weaponProperties = (properties: string) => properties === "—" ? [] : properties.split(/,\s*(?![^(]*\))/).map(capitalized);
+
+function Segmented<T extends string>({ label, value, options, onChange }: { label: string; value: T; options: [T, string][]; onChange: (value: T) => void }) {
+  return <div role="group" aria-label={label} className="flex rounded-lg border border-line/70 bg-parchment/60 p-0.5 text-xs font-semibold">
+    {options.map(([option, text]) => <button key={option} type="button" aria-pressed={value === option} onClick={() => onChange(option)}
+      className={`min-h-8 touch-manipulation rounded-md px-2.5 ${value === option ? "bg-card text-accent shadow-sm" : "text-ink-soft"}`}>{text}</button>)}
+  </div>;
+}
+
+function OwnedWeaponList({ sheet, onChange, onExplain }: { sheet: Sheet; onChange: (items: Arma[]) => void; onExplain: (target: CalculationTarget, button: HTMLButtonElement) => void }) {
   const { unlocked } = useContext(EditContext);
+  const update = (index: number, patch: Partial<Arma>) => onChange(sheet.armi.map((item, itemIndex) => itemIndex === index ? { ...item, ...patch } : item));
   return <div className="flex flex-col gap-2">
     {sheet.armi.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
-    {sheet.armi.map((weapon, index) => <div key={index} className={`${card} flex items-center gap-2`}>
-      <div className="min-w-0 flex-1">
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-          <InfoLabel id={`armaPosseduta:${index}`} title={weapon.nome || "Arma"} className="text-left text-sm font-semibold text-ink" />
-          <WarningLabel id={`avvisoArma:${index}`} name={weapon.nome} warning={weaponWarning(sheet, weapon)} />
+    {sheet.armi.map((weapon, index) => {
+      const entry = weaponByName(weapon.nome);
+      const calculation = weaponAttack(sheet, weapon);
+      const range = weaponRange(weapon);
+      const mastery = entry && (sheet.padronanzeArmi ?? []).includes(entry.name) ? entry.mastery : null;
+      const modes: [NonNullable<Arma["modo"]>, string][] = entry?.kind === "mischia" && (entry.thrown || entry.versatileDie) ? [
+        ["base", entry.versatileDie ? "Una mano" : "Mischia"],
+        ...(entry.versatileDie ? [["dueMani", "Due mani"] as [NonNullable<Arma["modo"]>, string]] : []),
+        ...(entry.thrown ? [["lancio", "Lancio"] as [NonNullable<Arma["modo"]>, string]] : []),
+      ] : [];
+      const name = weapon.nome || "Arma";
+      return <div key={index} className={card}>
+        <div className="flex items-center gap-2">
+          <div className="flex min-w-0 flex-1 flex-wrap items-center gap-x-2 gap-y-1">
+            <InfoLabel id={`armaPosseduta:${index}`} title={name} className="text-left text-[15px] font-semibold text-ink" />
+            <WarningLabel id={`avvisoArma:${index}`} name={weapon.nome} warning={weaponWarning(sheet, weapon)} />
+          </div>
+          <span className="text-xs text-ink-faint" aria-hidden>×</span>
+          <InlineInput value={weapon.quantita || "1"} onChange={(value) => update(index, { quantita: value || "1" })} numeric="unsigned" className="w-8 text-center" />
+          {unlocked && <button type="button" aria-label={`Rimuovi ${weapon.nome}`} onClick={() => {
+            if (window.confirm(`Eliminare ${weapon.nome}?`)) onChange(sheet.armi.filter((_, itemIndex) => itemIndex !== index));
+          }} className="flex size-8 shrink-0 items-center justify-center text-base font-medium text-red-800">×</button>}
         </div>
-        {weapon.note && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{weapon.note}</p>}
-      </div>
-      <span className="text-xs text-ink-faint">Quantità</span>
-      <InlineInput value={weapon.quantita || "1"} onChange={(value) => onChange(sheet.armi.map((item, itemIndex) => itemIndex === index ? { ...item, quantita: value || "1" } : item))} numeric="unsigned" className="w-8 text-center" />
-      {unlocked && <button type="button" aria-label={`Rimuovi ${weapon.nome}`} onClick={() => {
-        if (window.confirm(`Eliminare ${weapon.nome}?`)) onChange(sheet.armi.filter((_, itemIndex) => itemIndex !== index));
-      }} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
-    </div>)}
+        <div className="mt-2 grid grid-cols-3 gap-1.5">
+          <StatTile icon="hit" label="Colpire" tone="accent" value={displayedWeaponAttack(sheet, weapon)}
+            sub={calculation ? `${calculation.ability}${calculation.proficient ? " + comp." : " · senza comp."}` : undefined}
+            ariaLabel={`Spiega il tiro per colpire: ${name}`} onClick={(button) => onExplain({ kind: "weaponAttack", index }, button)} />
+          <StatTile icon="damage" label="Danni" tone="red"
+            value={calculation ? `${calculation.dice}${calculation.modifier}` : ""} sub={calculation?.damageType}
+            ariaLabel={`Spiega i danni: ${name}`} onClick={(button) => onExplain({ kind: "weaponDamage", index }, button)} />
+          <StatTile icon={range?.label === "Gittata" ? "range" : "reach"} label={range?.label ?? "Portata"} tone="sky" value={range?.value ?? ""}
+            sub={range?.thrown ? `lancio ${range.thrown}` : range?.label === "Gittata" ? "normale/lunga" : undefined} size={range?.label === "Gittata" ? "sm" : "md"}
+            ariaLabel={`Spiega ${range?.label === "Gittata" ? "la gittata" : "la portata"}: ${name}`} onClick={(button) => onExplain({ kind: "weaponRange", index }, button)} />
+        </div>
+        {(entry || mastery) && <div className="mt-2 flex flex-wrap gap-1">
+          {entry && weaponProperties(entry.properties).map((property) => <Badge key={property}>{property}</Badge>)}
+          {mastery && <InfoLabel id={`padronanza:${entry!.name}`} title={`Padronanza: ${mastery}`} className="inline-flex items-center rounded-full border border-violet-700/25 bg-violet-100/80 px-2 py-0.5 text-[11px] font-semibold text-violet-900" />}
+        </div>}
+        {(modes.length > 0 || entry?.finesse) && <div className="mt-2 flex flex-wrap gap-1.5">
+          {modes.length > 0 && <Segmented label={`Uso di ${name}`} value={weapon.modo ?? "base"} options={modes}
+            onChange={(modo) => update(index, { modo: modo === "base" ? undefined : modo })} />}
+          {entry?.finesse && <Segmented label={`Caratteristica per ${name}`} value={weapon.caratteristica ?? (entry.kind === "distanza" ? "DES" : "FOR")}
+            options={[["FOR", "FOR"], ["DES", "DES"]]} onChange={(caratteristica) => update(index, { caratteristica })} />}
+        </div>}
+        {weapon.note && <p className="mt-1.5 whitespace-pre-wrap text-xs text-ink-soft">{weapon.note}</p>}
+      </div>;
+    })}
   </div>;
 }
 
@@ -259,7 +314,7 @@ function OwnedArmorEditor({ sheet, onChange }: { sheet: Sheet; onChange: (items:
         (item.indossato || item.impugnato || (sheet.scudo && armorForEquipment(item)?.category === "scudi"));
       return <div key={index} className="flex items-center gap-2 rounded-lg border border-line bg-card/70 px-3 py-2">
         <span className="min-w-0 flex flex-1 flex-wrap items-center gap-x-2 gap-y-1 text-sm font-medium text-ink">
-          {item.nome}
+          <InfoLabel id={`armatura:${index}`} title={item.nome || "Armatura"} />
           <WarningLabel id={`avvisoOggetto:${index}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
         </span>
         <span className="text-sm text-ink-soft">×{item.quantita ?? "1"}</span>
@@ -427,7 +482,23 @@ export default function CharacterClient({
     rule: privilegeBase?.rule,
     page: privilegeBase?.page,
   } : null;
-  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true, page: language.page } : warningInfo ?? weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true, page: weaponByName(fieldInfo.id.slice("arma:".length))?.pages } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? privilegeInfo ?? labelHelp(fieldInfo.id, fieldInfo.title) : null;
+  const armorItemIndex = fieldInfo?.id.startsWith("armatura:") ? Number(fieldInfo.id.slice("armatura:".length)) : -1;
+  const armorItem = armorItemIndex >= 0 ? sheet.equipaggiamento[armorItemIndex] : null;
+  const armorItemInfo = armorItem ? equipmentDetails(armorItem.nome, armorItem.dettaglio) ?? { meaning: "Armatura o scudo personalizzato.", rule: false } : null;
+  // Privilegi e tratti concessi dalle regole ma non registrati nella scheda.
+  const grantName = fieldInfo?.id.startsWith("concesso:") ? fieldInfo.id.slice("concesso:".length) : null;
+  const grant = grantName ? grantedPrivileges(sheet).find((item) => item.name === grantName) ?? null : null;
+  const grantManual = grant ? privilegioManuale(grant.name, {
+    classe: sheet.classe, sottoclasse: sheet.sottoclasse, specie: sheet.specie, lignaggio: sheet.lignaggio, livello: Number(sheet.livello),
+  }) : null;
+  const grantFunctional = grant ? grantFunctionalDetails(grant, sheet) : null;
+  const grantValue = grant?.source.startsWith("Sottoclasse") && grant.name === sheet.sottoclasse ? valueDetails("sottoclasse", grant.name) : null;
+  const grantInfo = grant ? {
+    meaning: grantManual?.descrizione ?? grantValue?.meaning ?? grantFunctional?.full ?? grantFunctional?.summary ?? `${grant.source}${grant.level ? `, livello ${grant.level}` : ""}.`,
+    rule: true,
+    page: grantManual?.voce.pagina ?? grantValue?.page ?? grant.page,
+  } : null;
+  const fieldHelp: FieldHelp | null = fieldInfo && !spellName ? language ? { meaning: language.meaning, rule: true, page: language.page } : warningInfo ?? weaponCompetencyInfo ?? toolCompetencyInfo ?? masteryInfo ?? armorSelectionInfo ?? shieldSelectionInfo ?? (weapon ? { meaning: weapon, rule: true, page: weaponByName(fieldInfo.id.slice("arma:".length))?.pages } : null) ?? ownedWeaponInfo ?? selectedValue ?? recorded ?? objectInfo ?? armorItemInfo ?? grantInfo ?? privilegeInfo ?? labelHelp(fieldInfo.id, fieldInfo.title) : null;
 
   useEffect(() => {
     if (!fieldInfo) return;
@@ -622,13 +693,19 @@ export default function CharacterClient({
     return <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
       <p className="text-sm font-semibold text-ink">{saved
         ? <InfoLabel id={`privilegio:${savedIndex}`} title={grant.name} />
-        : grant.name}</p>
+        : <InfoLabel id={`concesso:${grant.name}`} title={grant.name} />}</p>
       <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
       {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
       <FunctionalSummary name={grant.name} sheet={sheet} details={functional} />
       {resources.map((resource, resourceIndex) => <p key={resourceIndex} className="mt-1 text-xs text-ink-soft">{resource.nome}: {resource.massimo - resource.spesi}/{resource.massimo} disponibili</p>)}
     </div>;
   };
+  // Incantesimi raggruppati per livello (trucchetti prima), in ordine alfabetico.
+  const spellEntries = sheet.incantesimi.map((inc, index) => ({ inc, index, detail: inc.nome ? spellDetails(inc.nome) : null }))
+    .sort((a, b) => compareOptionLabels(a.inc.nome, b.inc.nome));
+  const spellGroups = [...new Set(spellEntries.map((entry) => entry.detail?.livello ?? -1))]
+    .sort((a, b) => (a < 0 ? 99 : a) - (b < 0 ? 99 : b))
+    .map((level) => ({ level, spells: spellEntries.filter((entry) => (entry.detail?.livello ?? -1) === level) }));
   const levelNumber = Number(sheet.livello);
   const canLevel = Number.isInteger(levelNumber) && levelNumber >= 1 && levelNumber < 20 && Boolean(sheet.classe);
   const levelReady = canLevel && readyToLevel(sheet.livello, sheet.puntiEsperienza);
@@ -656,7 +733,7 @@ export default function CharacterClient({
             <TextField label="Livello" showInfo={false} locked value={sheet.livello} valueInfoId={`valore:livello:${sheet.livello}`} onChange={() => {}} />
             {Number(sheet.livello) >= subclassLevel && <TextField label="Sottoclasse" showInfo={false} value={sheet.sottoclasse} valueInfoId={`valore:sottoclasse:${sheet.sottoclasse}`} locked onChange={() => {}} />}
             <TextField label="Taglia base" showInfo={false} value={sheet.taglia} valueInfoId={`valore:taglia:${sheet.taglia}`} locked onChange={() => {}} />
-            <TextField label="Punti Ferita Massimi" showInfo={false} locked value={sheet.puntiFeritaMax} valueInfoId="stato:pfMassimi" valueInfoTitle={`Punti Ferita Massimi: ${sheet.puntiFeritaMax}`} onChange={() => {}} />
+            <ComputedField label="Punti Ferita Massimi" value={sheet.puntiFeritaMax} onExplain={(button) => openCalculation({ kind: "maxHp" }, button)} />
             <TextField label="Ispirazione Eroica" showInfo={false} locked value={sheet.ispirazioneEroica ? "Sì" : "No"} valueInfoId="stato:ispirazione" valueInfoTitle={`Ispirazione Eroica: ${sheet.ispirazioneEroica ? "Sì" : "No"}`} onChange={() => {}} />
             <ComputedField label="Classe Armatura" value={armorValue} onExplain={(button) => openCalculation({ kind: "armor" }, button)} />
             <TextField label="Punti Esperienza" showInfo={false} locked value={sheet.puntiEsperienza} valueInfoId="stato:pe" valueInfoTitle={`Punti Esperienza: ${sheet.puntiEsperienza}`} onChange={() => {}} />
@@ -664,7 +741,7 @@ export default function CharacterClient({
             <ComputedField label="Bonus Competenza" value={proficiencyBonus(sheet.livello)} onExplain={(button) => openCalculation({ kind: "proficiency" }, button)} />
             <ComputedField label="Percezione Passiva" value={passivePerception(sheet)} onExplain={(button) => openCalculation({ kind: "passive" }, button)} />
             <TextField label="Dadi Vita" showInfo={false} locked value={sheet.dadiVita} displayValue={<DiceText text={sheet.dadiVita} />} valueInfoId="stato:dadiVita" valueInfoTitle={`Dadi Vita: ${sheet.dadiVita}`} onChange={() => {}} />
-            <TextField label="Velocità" showInfo={false} locked value={sheet.velocita ? `${sheet.velocita} m` : ""} valueInfoId="stato:velocita" valueInfoTitle={`Velocità: ${sheet.velocita} m`} onChange={() => {}} />
+            <ComputedField label="Velocità" value={sheet.velocita ? `${sheet.velocita.replace(".", ",")} m` : ""} onExplain={(button) => openCalculation({ kind: "speed" }, button)} />
           </div>
           <section className="mt-2 flex flex-col gap-2">
             <h3 className={sectionTitle}>Lingue</h3>
@@ -793,7 +870,7 @@ export default function CharacterClient({
           </div>
           <div>
             <h3 className={sectionTitle}>Armi</h3>
-            <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} />
+            <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} onExplain={openCalculation} />
             <div className="mt-3"><AddWeaponSelect sheet={sheet} onAdd={(weaponName) => patch({ armi: [...sheet.armi, { nome: weaponName, quantita: "1", bonus: "", note: "" }] })} /></div>
           </div>
         </div>
@@ -850,7 +927,7 @@ export default function CharacterClient({
                 <div key={`${grant.source}:${grant.name}:${index}`} className={card}>
                   <p className="text-sm font-semibold text-ink">{saved
                     ? <InfoLabel id={`valore:talento:${saved.nome}`} title={saved.nome} />
-                    : grant.name}</p>
+                    : <InfoLabel id={`valore:talento:${grant.name}`} title={grant.name} />}</p>
                   <p className="text-xs text-ink-soft">{grant.source}{grant.level ? ` · livello ${grant.level}` : ""}{grant.page ? ` · Manuale p. ${grant.page}` : ""}</p>
                   {grant.detail && <p className="text-xs text-ink-soft">{grant.detail}</p>}
                   {saved?.scelte && <p className="mt-1 whitespace-pre-wrap text-sm text-ink-soft">{saved.scelte}</p>}
@@ -872,10 +949,13 @@ export default function CharacterClient({
       title: "Incantesimi",
       body: (
         <div className="flex flex-col gap-3">
-          {spellcastingStats(sheet) && <div className="space-y-1">
-            <p>CD incantesimi: {spellcastingStats(sheet)?.dc}</p>
-            <p>Attacco magico: {spellcastingStats(sheet)?.attack}</p>
-            <p className="text-sm text-ink-soft">Calcolo CD: {spellcastingStats(sheet)?.formula}</p>
+          {spellcastingStats(sheet) && <div className="grid grid-cols-2 gap-2">
+            <StatTile icon="save" label="CD incantesimi" tone="accent" value={String(spellcastingStats(sheet)?.dc ?? "")}
+              sub={`${spellcastingStats(sheet)?.ability} · tiro salvezza del bersaglio`}
+              ariaLabel="Spiega la CD dei tiri salvezza degli incantesimi" onClick={(button) => openCalculation({ kind: "spellDc" }, button)} />
+            <StatTile icon="hit" label="Attacco magico" tone="accent" value={spellcastingStats(sheet)?.attack}
+              sub={`${spellcastingStats(sheet)?.ability} · tiro per colpire`}
+              ariaLabel="Spiega il bonus di attacco con incantesimo" onClick={(button) => openCalculation({ kind: "spellAttack" }, button)} />
           </div>}
           {spellSlots(sheet).some((slot) => slot.maximum > 0) && <div className={card}>
             <h3 className={sectionTitle}>Slot incantesimo</h3>
@@ -889,34 +969,41 @@ export default function CharacterClient({
               </div>)}
             </div>
           </div>}
-          <h3 className={sectionTitle}>Incantesimi</h3>
-          {sheet.incantesimi.length === 0 && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
-          <div className="flex flex-col gap-2">
-            {sheet.incantesimi.map((inc, index) => {
-              const detail = inc.nome ? spellDetails(inc.nome) : null;
+          {sheet.incantesimi.length === 0 && <><h3 className={sectionTitle}>Incantesimi</h3><p className="text-sm text-ink-faint">Niente da mostrare.</p></>}
+          {spellGroups.map((group) => <section key={group.level} className="flex flex-col gap-2">
+            <h3 className={`${sectionTitle} mb-0 mt-1`}>{group.level === 0 ? "Trucchetti" : group.level > 0 ? `${group.level}° livello` : "Altri incantesimi"}</h3>
+            {group.spells.map(({ inc, index, detail }) => {
               const ritual = Boolean(detail?.tempo && /rituale/i.test(detail.tempo));
               const concentration = Boolean(detail?.durata && /concentrazione/i.test(detail.durata));
-              const summary = [
-                detail && (detail.livello === 0 ? "Trucchetto" : `${detail.livello}° livello`),
-                detail?.tempo && `Lancio: ${detail.tempo.replace(/\s+o rituale/i, "")}`,
-                detail?.gittata && `Gittata: ${detail.gittata}`,
-              ].filter(Boolean).join(" · ");
+              const damage = inc.nome ? spellDamageNote(inc.nome) : undefined;
+              const castingTime = detail?.tempo ? detail.tempo.replace(/\s+o rituale/i, "").split(",")[0] : "";
+              const components = detail?.componenti ? detail.componenti.replace(/\s*\(.*$/, "") : "";
+              const own = inc.fonte && inc.fonte !== "classe" && inc.caratteristica ? spellcastingStats(sheet, inc.caratteristica) : null;
+              const openSpell = (button: HTMLButtonElement) => inc.nome && openFieldInfo(`incantesimo:${inc.nome}`, inc.nome, button);
               return <div key={index} className={card}>
                 <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
-                  {inc.nome ? <InfoLabel id={`incantesimo:${inc.nome}`} title={inc.nome} className="text-sm font-semibold text-ink" />
+                  {inc.nome ? <InfoLabel id={`incantesimo:${inc.nome}`} title={inc.nome} className="text-[15px] font-semibold text-ink" />
                     : <p className="text-sm text-ink-faint">Incantesimo senza nome</p>}
-                  {inc.stato && <span className="text-xs font-medium text-ink-soft">{{ conosciuto: "Conosciuto", libro: "Nel libro", preparato: "Preparato", semprePreparato: "Sempre preparato", concesso: "Concesso" }[inc.stato]}</span>}
+                  {inc.stato && <Badge tone={inc.stato === "preparato" || inc.stato === "semprePreparato" ? "accent" : "neutral"}>{{ conosciuto: "Conosciuto", libro: "Nel libro", preparato: "Preparato", semprePreparato: "Sempre preparato", concesso: "Concesso" }[inc.stato]}</Badge>}
                 </div>
-                {summary && <p className="mt-1 text-xs text-ink-soft">{summary}</p>}
-                {(concentration || ritual) && <p className="mt-1 flex flex-wrap gap-x-2 text-xs font-medium text-accent">
-                  {concentration && <span>Concentrazione</span>}
-                  {ritual && <span>Rituale</span>}
-                </p>}
-                {inc.fonte && <p className="mt-1 text-xs text-ink-soft">Fonte registrata: {{ classe: "Classe", talento: "Talento", privilegio: "Privilegio", altro: "Altro" }[inc.fonte]}</p>}
-                {inc.fonte && inc.fonte !== "classe" && inc.caratteristica && <p className="mt-1 text-xs text-ink-soft">Caratteristica di lancio: {inc.caratteristica}</p>}
+                <div className="mt-2 grid grid-cols-2 gap-1.5">
+                  <StatTile icon="range" label="Gittata" tone="sky" value={detail?.gittata ? capitalized(detail.gittata) : ""} ariaLabel={`Dettagli di ${inc.nome}: gittata`} onClick={inc.nome ? openSpell : undefined} size="sm" />
+                  <StatTile icon="damage" label="Danni" tone={damage ? "red" : "neutral"} value={damage ?? ""} sub={damage ? undefined : "vedi descrizione"} ariaLabel={`Dettagli di ${inc.nome}: danni`} onClick={inc.nome ? openSpell : undefined} size="sm" />
+                </div>
+                {(castingTime || detail?.durata || components || ritual) && <div className="mt-2 flex flex-wrap gap-1">
+                  {castingTime && <Badge icon="time">{capitalized(castingTime)}</Badge>}
+                  {detail?.durata && <Badge icon="duration" tone={concentration ? "violet" : "neutral"}>{capitalized(detail.durata)}</Badge>}
+                  {ritual && <Badge tone="accent">Rituale</Badge>}
+                  {components && <Badge>{components}</Badge>}
+                </div>}
+                {own && <div className="mt-2 grid grid-cols-2 gap-1.5">
+                  <StatTile icon="save" label={`CD (${inc.caratteristica})`} value={String(own.dc)} tone="accent" ariaLabel={`Spiega la CD di ${inc.nome}`} onClick={(button) => openCalculation({ kind: "spellDc", ability: inc.caratteristica }, button)} />
+                  <StatTile icon="hit" label={`Attacco (${inc.caratteristica})`} value={own.attack} tone="accent" ariaLabel={`Spiega l'attacco di ${inc.nome}`} onClick={(button) => openCalculation({ kind: "spellAttack", ability: inc.caratteristica }, button)} />
+                </div>}
+                {inc.fonte && inc.fonte !== "classe" && <p className="mt-1.5 text-xs text-ink-soft">Fonte: {{ classe: "Classe", talento: "Talento", privilegio: "Privilegio", altro: "Altro" }[inc.fonte]}{inc.caratteristica ? ` · caratteristica di lancio ${inc.caratteristica}` : ""}</p>}
               </div>;
             })}
-          </div>
+          </section>)}
         </div>
       ),
     },
@@ -1178,22 +1265,7 @@ export default function CharacterClient({
                       aria-label="Chiudi spiegazione"
                       className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
                   </div>
-                  <p className="mt-3 text-sm leading-relaxed">{calculation.rule}</p>
-                  {calculation.page && <p className="mt-2 text-xs text-ink-soft">Manuale del Giocatore 2024, p. {calculation.page}</p>}
-                  <h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Valori della scheda</h3>
-                  <dl className="mt-2 space-y-1 text-sm">
-                    {calculation.details.map((detail) => (
-                      <div key={detail.label} className="flex justify-between gap-4 border-b border-line/50 py-1">
-                        <dt>{detail.label}</dt><dd className="text-right font-semibold">{detail.value}</dd>
-                      </div>
-                    ))}
-                  </dl>
-                  <div className="mt-4 rounded-lg bg-card/70 p-3">
-                    <div className="text-xs font-semibold uppercase tracking-wide text-ink-soft">Calcolo</div>
-                    <div className="mt-1 text-sm">{calculation.formula}</div>
-                    <div className="mt-2 text-lg font-bold text-accent">Risultato: {calculation.result || "—"}</div>
-                  </div>
-                  {calculationTarget && <div className="mt-4 text-sm"><h3 className="font-semibold text-accent">Come si modifica</h3><p className="mt-1">{calculationEditGuide(calculationTarget)}</p></div>}
+                  <div className="mt-3"><CalculationContent calculation={calculation} guide={calculationTarget ? calculationEditGuide(calculationTarget) : undefined} /></div>
                 </div>
               </div>
             )}

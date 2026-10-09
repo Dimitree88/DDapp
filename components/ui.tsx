@@ -44,12 +44,17 @@ export function Pips({ total, filled, tone = "accent", size = "md" }: { total: n
   </span>;
 }
 
-export function Stat({ label, value, hint }: { label: string; value: ReactNode; hint?: string }) {
-  return <div className="flex min-w-0 flex-col items-center rounded-xl bg-white/60 px-2 py-1.5 text-center">
+// Valore sintetico. Con onClick diventa toccabile e apre la spiegazione del calcolo.
+export function Stat({ label, value, hint, onClick, explainLabel }: { label: string; value: ReactNode; hint?: string; onClick?: () => void; explainLabel?: string }) {
+  const body = <>
     <span className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft">{label}</span>
-    <span className="text-lg font-bold leading-tight text-ink">{value === "" || value === null || value === undefined ? "—" : value}</span>
+    <span className={cx("text-lg font-bold leading-tight text-ink", onClick && "underline decoration-line decoration-dotted underline-offset-4")}>{value === "" || value === null || value === undefined ? "—" : value}</span>
     {hint && <span className="text-[11px] leading-tight text-ink-soft">{hint}</span>}
-  </div>;
+  </>;
+  const base = "flex min-w-0 flex-col items-center rounded-xl bg-white/60 px-2 py-1.5 text-center";
+  if (!onClick) return <div className={base}>{body}</div>;
+  return <button type="button" onClick={onClick} aria-haspopup="dialog" aria-label={`Spiega il calcolo: ${explainLabel ?? label}`}
+    className={cx(base, "touch-manipulation transition-colors active:bg-parchment")}>{body}</button>;
 }
 
 export function Section({ title, children, action }: { title: string; children: ReactNode; action?: ReactNode }) {
@@ -87,7 +92,8 @@ export function HpBar({ current, max, temp, dead }: { current: number | null; ma
 
 // --- Pannello a scorrimento (bottom sheet su telefono, dialogo su tablet) ---
 
-let openSheets = 0;
+// Pannelli aperti, dal più vecchio al più recente: Esc chiude solo quello in cima.
+const openSheets: string[] = [];
 const subscribeMounted = () => () => {};
 
 export function Sheet({ open, onClose, title, subtitle, children, footer, wide }: { open: boolean; onClose: () => void; title: ReactNode; subtitle?: ReactNode; children: ReactNode; footer?: ReactNode; wide?: boolean }) {
@@ -97,16 +103,17 @@ export function Sheet({ open, onClose, title, subtitle, children, footer, wide }
   useEffect(() => { close.current = onClose; });
   useEffect(() => {
     if (!open) return;
-    openSheets += 1;
+    openSheets.push(titleId);
     document.body.style.overflow = "hidden";
-    const onKey = (event: KeyboardEvent) => { if (event.key === "Escape") close.current(); };
+    const onKey = (event: KeyboardEvent) => { if (event.key === "Escape" && openSheets.at(-1) === titleId) close.current(); };
     window.addEventListener("keydown", onKey);
     return () => {
-      openSheets -= 1;
-      if (!openSheets) document.body.style.overflow = "";
+      const index = openSheets.lastIndexOf(titleId);
+      if (index >= 0) openSheets.splice(index, 1);
+      if (!openSheets.length) document.body.style.overflow = "";
       window.removeEventListener("keydown", onKey);
     };
-  }, [open]);
+  }, [open, titleId]);
   if (!open || !mounted) return null;
   return createPortal(<div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center sm:p-6">
     <div className="absolute inset-0 animate-[fadeIn_.15s_ease-out] bg-ink/55" onClick={onClose} aria-hidden />

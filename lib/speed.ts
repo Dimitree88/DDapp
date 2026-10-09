@@ -9,6 +9,12 @@ export const speciesSpeed: Record<string, number> = {
 
 export function calculatedSpeed(sheet: Sheet): { value: number; formula: string } | null {
   if (sheet.velocitaModo !== "specie") return null;
+  return speedBreakdown(sheet);
+}
+
+// Velocità attesa da specie, armatura (requisito di Forza, p. 219) e modificatori
+// registrati, indipendentemente da come è stato salvato il valore.
+export function speedBreakdown(sheet: Sheet): { value: number; formula: string; base: number; penalty: number } | null {
   const base = sheet.specie === "Elfo" && sheet.lignaggio === "Elfo dei boschi" ? 10.5 : speciesSpeed[sheet.specie];
   if (base === undefined) return null;
   const armor = sheet.equipaggiamento.find((item) => item.indossato);
@@ -19,7 +25,7 @@ export function calculatedSpeed(sheet: Sheet): { value: number; formula: string 
   const changes = sheet.modificatoriVelocita ?? [];
   if (changes.some((change) => !Number.isFinite(change.value))) return null;
   const total = Math.max(0, base - penalty + changes.reduce((sum, change) => sum + change.value, 0));
-  return { value: total, formula: `${base} m (${sheet.specie}${sheet.lignaggio ? `, ${sheet.lignaggio}` : ""})${penalty ? " - 3 m (armatura)" : ""}${changes.map((change) => ` ${change.value >= 0 ? "+" : ""}${change.value} m (${change.fonte})`).join("")} = ${total} m` };
+  return { value: total, base, penalty, formula: `${base} m (${sheet.specie}${sheet.lignaggio ? `, ${sheet.lignaggio}` : ""})${penalty ? " - 3 m (armatura)" : ""}${changes.map((change) => ` ${change.value >= 0 ? "+" : ""}${change.value} m (${change.fonte})`).join("")} = ${total} m` };
 }
 
 export function displayedSpeed(sheet: Sheet): string {

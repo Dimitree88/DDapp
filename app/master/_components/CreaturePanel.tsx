@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { abilityModifierValue, creatureActionCategories, creatureActionSummary, signedNumber, type CreatureAction } from "@/lib/creature";
+import { abilityModifierValue, creatureAbilityExplanation, creatureActionCategories, signedNumber, type CreatureAction } from "@/lib/creature";
+import type { CalculationExplanation } from "@/lib/calculationExplanation";
 import { rollDie, rollFormula, type FormulaRoll } from "@/lib/masterRules";
 import { removeParticipant } from "../actions";
 import { duplicateCreature } from "../creature-actions";
+import { ActionStats } from "./ActionStats";
+import { CalculationSheet } from "./CharacterPanel";
 import { ConcentrationEditor, ConditionsEditor } from "./Conditions";
 import { CreatureEditor } from "./CreatureEditor";
 import { useMaster } from "./MasterContext";
@@ -43,7 +46,9 @@ function AttackCard({ action, creatureName }: { action: CreatureAction; creature
   const damage = roll?.damage?.total ?? 0;
   const half = Math.floor(damage / 2);
   return <li className="rounded-2xl border border-line/60 bg-white/80 p-3">
-    <p className="text-[15px] leading-snug text-ink"><strong>{action.name}.</strong> <span className="text-ink-soft">{creatureActionSummary(action)}</span></p>
+    <p className="mb-1.5 text-[15px] font-bold leading-snug text-ink">{action.name}{action.attackType !== "Altro" && <span className="ml-1.5 text-xs font-medium text-ink-soft">{action.attackType}</span>}</p>
+    <ActionStats action={action} />
+    {action.description && <p className="mt-1.5 text-sm leading-snug text-ink-soft">{action.description}</p>}
     {(isAttack || isSave || hasDamage) && <div className="mt-2 flex flex-wrap items-center gap-1.5">
       {isAttack && <>
         <div className="flex rounded-xl bg-parchment/70 p-0.5 text-xs font-semibold">
@@ -78,6 +83,7 @@ function CreatureBody({ creature, onClose }: { creature: CreatureView; onClose: 
   const confirm = useConfirm();
   const [editing, setEditing] = useState(false);
   const [copies, setCopies] = useState(1);
+  const [explain, setExplain] = useState<CalculationExplanation | null>(null);
   const { data } = creature;
   const target = { kind: "cr" as const, id: creature.id };
   const down = data.hitPointsCurrent === 0;
@@ -120,11 +126,13 @@ function CreatureBody({ creature, onClose }: { creature: CreatureView; onClose: 
       <div className="grid grid-cols-6 gap-1">
         {data.abilities.map((ability) => {
           const mod = abilityModifierValue(ability.score);
-          return <div key={ability.abbr} className="rounded-lg bg-white/60 py-1 text-center">
+          return <button key={ability.abbr} type="button" aria-haspopup="dialog" aria-label={`Spiega modificatore e tiro salvezza di ${ability.abbr}`}
+            onClick={() => setExplain(creatureAbilityExplanation(ability))}
+            className="touch-manipulation rounded-lg bg-white/60 py-1 text-center transition-colors active:bg-parchment">
             <div className="text-[11px] font-bold text-ink-soft">{ability.abbr}</div>
             <div className="text-sm font-bold text-ink">{ability.score ?? "—"}</div>
-            <div className="text-[10px] text-ink-soft">{mod === null ? "" : signedNumber(mod)} · TS {ability.save === null ? (mod === null ? "—" : signedNumber(mod)) : signedNumber(ability.save)}</div>
-          </div>;
+            <div className="text-[10px] text-ink-soft underline decoration-line decoration-dotted underline-offset-2">{mod === null ? "" : signedNumber(mod)} · TS {ability.save === null ? (mod === null ? "—" : signedNumber(mod)) : signedNumber(ability.save)}</div>
+          </button>;
         })}
       </div>
     </Section>}
@@ -155,5 +163,6 @@ function CreatureBody({ creature, onClose }: { creature: CreatureView; onClose: 
       </div>
     </div>
     <CreatureEditor open={editing} creature={creature} onClose={() => setEditing(false)} />
+    <CalculationSheet calculation={explain} onClose={() => setExplain(null)} />
   </div>;
 }

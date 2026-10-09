@@ -1,10 +1,11 @@
 "use client";
 
 import { startTransition, useOptimistic, useState } from "react";
-import { creatureActionSummary, signedNumber } from "@/lib/creature";
+import { signedNumber } from "@/lib/creature";
 import { isBloodied } from "@/lib/masterRules";
 import { saveEncounter } from "../actions";
 import { endCombat } from "../combat-actions";
+import { ActionBadges } from "./ActionStats";
 import { DeathSaves } from "./CharacterPanel";
 import { CombatSetup } from "./CombatSetup";
 import { useMaster } from "./MasterContext";
@@ -98,7 +99,7 @@ function CreatureRow({ item, current }: { item: Combatant; current?: boolean }) 
       <HpButtons target={item.target} />
     </div>
     <StatusTags conditions={data.conditions ?? []} concentration={data.concentration} />
-    {first && !down && <p className="truncate text-xs text-ink-soft"><strong className="text-ink">{first.name}</strong> {creatureActionSummary(first)}</p>}
+    {first && !down && <ActionBadges action={first} />}
   </article>;
 }
 

@@ -2,12 +2,35 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import type { CalculationExplanation } from "@/lib/calculationExplanation";
 import { exhaustionEffects, isBloodied, xpProgress } from "@/lib/masterRules";
 import { removeParticipant } from "../actions";
 import { ConcentrationEditor, ConditionsEditor } from "./Conditions";
 import { useMaster } from "./MasterContext";
 import type { CharacterView } from "./types";
+import { CalculationContent } from "@/components/CalculationContent";
+import { Badge, StatTile } from "@/components/StatTile";
 import { Button, HpBar, Pips, Section, Sheet, Stat, cx, useConfirm } from "@/components/ui";
+
+// Pannello sovrapposto con la spiegazione di un valore calcolato.
+export function CalculationSheet({ calculation, onClose }: { calculation: CalculationExplanation | null; onClose: () => void }) {
+  return <Sheet open={Boolean(calculation)} onClose={onClose} title={calculation?.title ?? ""}>
+    {calculation && <div className="text-ink"><CalculationContent calculation={calculation} /></div>}
+  </Sheet>;
+}
+
+// Velocità con l'Indebolimento applicato, aggiunto alla spiegazione registrata.
+function speedCalculation(character: CharacterView): CalculationExplanation | undefined {
+  const base = character.calc.speed;
+  if (!base || !character.exhaustion) return base;
+  const speed = speedWithExhaustion(character);
+  const reduction = String(exhaustionEffects(character.exhaustion).speedMeters).replace(".", ",");
+  return {
+    ...base, result: speed.value,
+    details: [...base.details, { label: `Indebolimento ${character.exhaustion}`, value: `−${reduction} m` }],
+    formula: `${base.formula}; Indebolimento −${reduction} m = ${speed.value} (p. 366)`,
+  };
+}
 
 export function speedWithExhaustion(character: CharacterView) {
   const base = Number(character.speed);
@@ -53,20 +76,45 @@ function CharacterBody({ character, onClose }: { character: CharacterView; onClo
   const xp = xpProgress(character.xp, character.livello);
   const recipients = data.party.filter((member) => member.id !== character.id && !member.inspiration);
   const [transfer, setTransfer] = useState(false);
+  const [explain, setExplain] = useState<CalculationExplanation | null>(null);
   const dead = character.death === "morto";
+  const show = (calculation: CalculationExplanation | undefined) => calculation ? () => setExplain(calculation) : undefined;
 
   return <div className="flex flex-col gap-5">
     <div className="grid grid-cols-4 gap-1.5 sm:grid-cols-5">
-      <Stat label="CA" value={character.ac ?? ""} />
-      <Stat label="Iniz." value={character.initiative} />
-      <Stat label="Perc. p." value={character.passivePerception} />
-      <Stat label="Velocità" value={speed.value} hint={speed.hint} />
-      {character.spell && <Stat label="CD inc." value={character.spell.dc} hint={`${character.spell.attack} att.`} />}
+      <Stat label="CA" value={character.ac ?? ""} onClick={show(character.calc.armor)} explainLabel="Classe Armatura" />
+      <Stat label="Iniz." value={character.initiative} onClick={show(character.calc.initiative)} explainLabel="Iniziativa" />
+      <Stat label="Perc. p." value={character.passivePerception} onClick={show(character.calc.passive)} explainLabel="Percezione passiva" />
+      <Stat label="Velocità" value={speed.value} hint={speed.hint} onClick={show(speedCalculation(character))} />
+      {character.spell && <Stat label="CD inc." value={character.spell.dc} hint={`${character.spell.attack} att.`} onClick={show(character.calc.spellDc)} explainLabel="CD degli incantesimi" />}
     </div>
+
+    {character.attacks.length > 0 && <Section title="Attacchi">
+      <ul className="flex flex-col gap-2">
+        {character.attacks.map((attack) => <li key={attack.index} className="rounded-2xl border border-line/60 bg-white/80 p-2.5">
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="font-bold text-ink">{attack.name}</span>
+            {attack.mastery && <Badge tone="violet">Padronanza: {attack.mastery}</Badge>}
+          </div>
+          <div className="mt-1.5 grid grid-cols-3 gap-1.5">
+            <StatTile icon="hit" label="Colpire" tone="accent" value={attack.attack} ariaLabel={`Spiega il tiro per colpire: ${attack.name}`} onClick={character.calc[`weapon:${attack.index}:attack`] ? () => setExplain(character.calc[`weapon:${attack.index}:attack`]) : undefined} />
+            <StatTile icon="damage" label="Danni" tone="red" value={attack.damage} sub={attack.damageType} ariaLabel={`Spiega i danni: ${attack.name}`} onClick={character.calc[`weapon:${attack.index}:damage`] ? () => setExplain(character.calc[`weapon:${attack.index}:damage`]) : undefined} />
+            <StatTile icon={attack.range?.label === "Gittata" ? "range" : "reach"} label={attack.range?.label ?? "Portata"} tone="sky" value={attack.range?.value ?? ""} sub={attack.range?.thrown ? `lancio ${attack.range.thrown}` : undefined} size={attack.range?.label === "Gittata" ? "sm" : "md"} ariaLabel={`Spiega la portata: ${attack.name}`} onClick={character.calc[`weapon:${attack.index}:range`] ? () => setExplain(character.calc[`weapon:${attack.index}:range`]) : undefined} />
+          </div>
+          {attack.warnings.map((warning) => <p key={warning} className="mt-1 text-xs font-semibold text-amber-800">⚠ {warning}</p>)}
+        </li>)}
+      </ul>
+      {character.spell && <div className="grid grid-cols-2 gap-1.5">
+        <StatTile icon="save" label="CD incantesimi" tone="accent" value={String(character.spell.dc)} sub={character.spell.ability} onClick={character.calc.spellDc ? () => setExplain(character.calc.spellDc) : undefined} />
+        <StatTile icon="hit" label="Attacco magico" tone="accent" value={character.spell.attack} sub={character.spell.ability} onClick={character.calc.spellAttack ? () => setExplain(character.calc.spellAttack) : undefined} />
+      </div>}
+    </Section>}
 
     <Section title="Punti ferita">
       <div className="flex items-baseline justify-between">
-        <p className="text-3xl font-bold text-ink">{character.hp ?? "—"}<span className="text-lg font-semibold text-ink-soft"> / {character.hpMax ?? "—"}</span>{character.temp > 0 && <span className="ml-2 text-lg font-bold text-sky-700">+{character.temp}</span>}</p>
+        <p className="text-3xl font-bold text-ink">{character.hp ?? "—"}<span className="text-lg font-semibold text-ink-soft"> / {character.calc.maxHp
+          ? <button type="button" aria-haspopup="dialog" aria-label="Spiega i punti ferita massimi" onClick={() => setExplain(character.calc.maxHp)} className="touch-manipulation underline decoration-line decoration-dotted underline-offset-4 active:text-accent">{character.hpMax ?? "—"}</button>
+          : character.hpMax ?? "—"}</span>{character.temp > 0 && <span className="ml-2 text-lg font-bold text-sky-700">+{character.temp}</span>}</p>
         <span className="text-sm font-semibold text-ink-soft">{dead ? "☠ Morto" : character.hp === 0 ? "Privo di sensi" : character.hp !== null && character.hpMax !== null && isBloodied(character.hp, character.hpMax) ? "Sanguinante" : ""}</span>
       </div>
       <HpBar current={character.hp} max={character.hpMax} temp={character.temp} dead={dead} />
@@ -130,15 +178,24 @@ function CharacterBody({ character, onClose }: { character: CharacterView; onClo
 
     <Section title="Tiri salvezza e abilità">
       <div className="grid grid-cols-6 gap-1">
-        {character.abilities.map((ability) => <div key={ability.abbr} className={cx("rounded-lg py-1 text-center", ability.proficient ? "bg-accent/10" : "bg-white/60")}>
+        {character.abilities.map((ability) => <button key={ability.abbr} type="button" aria-haspopup="dialog" aria-label={`Spiega il tiro salvezza di ${ability.abbr}`}
+          disabled={!character.calc[`save:${ability.abbr}`]} onClick={() => setExplain(character.calc[`save:${ability.abbr}`])}
+          className={cx("touch-manipulation rounded-lg py-1 text-center transition-colors active:bg-parchment", ability.proficient ? "bg-accent/10" : "bg-white/60")}>
           <div className="text-[11px] font-bold text-ink-soft">{ability.abbr}</div>
-          <div className="text-sm font-bold text-ink">{ability.save || "—"}</div>
+          <div className="text-sm font-bold text-ink underline decoration-line decoration-dotted underline-offset-2">{ability.save || "—"}</div>
           <div className="text-[10px] text-ink-faint">{ability.score || "—"}</div>
-        </div>)}
+        </button>)}
       </div>
-      {character.skills.length > 0 && <p className="text-sm text-ink">{character.skills.map((skill) => `${skill.nome.charAt(0)}${skill.nome.slice(1).toLocaleLowerCase("it")} ${skill.bonus}${skill.maestria ? "★" : ""}`).join(" · ")}</p>}
+      {character.skills.length > 0 && <div className="flex flex-wrap gap-1.5">
+        {character.skills.map((skill) => <button key={skill.nome} type="button" aria-haspopup="dialog" aria-label={`Spiega il bonus di ${skill.nome}`}
+          disabled={!character.calc[`skill:${skill.nome}`]} onClick={() => setExplain(character.calc[`skill:${skill.nome}`])}
+          className="min-h-9 touch-manipulation rounded-full border border-line/70 bg-white/70 px-3 text-sm text-ink active:bg-parchment">
+          {skill.nome.charAt(0)}{skill.nome.slice(1).toLocaleLowerCase("it")} <strong>{skill.bonus}</strong>{skill.maestria ? " ★" : ""}
+        </button>)}
+      </div>}
       {character.languages.length > 0 && <p className="text-sm text-ink-soft">Lingue: {character.languages.join(", ")}</p>}
     </Section>
+    <CalculationSheet calculation={explain} onClose={() => setExplain(null)} />
 
     <div className="flex flex-wrap items-center justify-between gap-2 border-t border-line/50 pt-3">
       <Link href={`/personaggio/${character.id}`} className="inline-flex min-h-11 items-center font-semibold text-accent">Apri scheda completa ›</Link>

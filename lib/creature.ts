@@ -1,3 +1,4 @@
+import type { CalculationExplanation } from "./calculationExplanation";
 import type { CondizioneAttiva, ConcentrazioneAttiva } from "./sheet";
 
 export const creatureAbilityAbbrs = ["FOR", "DES", "COS", "INT", "SAG", "CAR"] as const;
@@ -187,4 +188,45 @@ export function creatureActionSummary(action: CreatureAction): string {
   const reach = action.reachMeters === null ? "" : `portata ${String(action.reachMeters).replace(".", ",")} m`;
   const distance = [reach, action.range ? `gittata ${action.range}` : ""].filter(Boolean).join(" o ");
   return `${action.attackType}: ${signedNumber(action.hitBonus)}${distance ? `, ${distance}` : ""}.${damage ? ` Colpito: ${damage}.` : ""}${extra}`;
+}
+
+// Valori di un'azione separati per la lettura rapida in combattimento.
+export type CreatureActionStats = {
+  hit: string | null;
+  save: { ability: string; dc: number | null } | null;
+  reach: string | null;
+  range: string | null;
+  damage: { average: number | null; formula: string; type: string } | null;
+};
+
+export function creatureActionStats(action: CreatureAction): CreatureActionStats {
+  const isAttack = action.attackType.startsWith("Tiro per colpire");
+  const isSave = action.attackType === "Tiro salvezza";
+  return {
+    hit: isAttack ? signedNumber(action.hitBonus) : null,
+    save: isSave ? { ability: action.saveAbility ?? "", dc: action.saveDc ?? null } : null,
+    reach: isAttack && action.reachMeters !== null ? `${String(action.reachMeters).replace(".", ",")} m` : null,
+    range: action.attackType === "Altro" ? null : action.range || null,
+    damage: action.damageFormula || action.hitDamage
+      ? { average: action.hitDamage || averageDamage(action.damageFormula), formula: action.damageFormula, type: action.damageType }
+      : null,
+  };
+}
+
+// Colonne MOD e SALV della scheda delle statistiche (p. 346); modificatore a p. 10.
+export function creatureAbilityExplanation(ability: CreatureAbility): CalculationExplanation {
+  const modifier = abilityModifierValue(ability.score);
+  const save = ability.save ?? modifier;
+  return {
+    title: `${ability.abbr}: modificatore e tiro salvezza`,
+    result: save === null ? "" : `MOD ${modifier === null ? "—" : signedNumber(modifier)} · SALV ${signedNumber(save)}`,
+    page: 346,
+    rule: "Il modificatore di caratteristica deriva dal punteggio: si sottrae 10, si divide per 2 e si arrotonda per difetto (p. 10). Nella scheda delle statistiche la colonna MOD riporta il modificatore e la colonna SALV il bonus al tiro salvezza (p. 346). Se il tiro salvezza non è registrato, l'app usa il modificatore.",
+    details: [
+      { label: "Punteggio", value: ability.score === null ? "da inserire" : String(ability.score) },
+      { label: "Modificatore (MOD)", value: modifier === null ? "—" : signedNumber(modifier) },
+      { label: "Tiro salvezza (SALV)", value: ability.save !== null ? `${signedNumber(ability.save)} (registrato)` : modifier === null ? "—" : `${signedNumber(modifier)} (uguale al modificatore)` },
+    ],
+    formula: modifier === null ? "Inserisci il punteggio della caratteristica." : `⌊(${ability.score} − 10) ÷ 2⌋ = ${signedNumber(modifier)}${ability.save !== null && ability.save !== modifier ? `; SALV registrato ${signedNumber(ability.save)}` : ""}`,
+  };
 }
