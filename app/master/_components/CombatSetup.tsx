@@ -119,20 +119,20 @@ function SetupBody({ encounter, onClose }: { encounter: Encounter | null; onClos
 
   return <div className="flex flex-col gap-5">
     <section className="flex flex-col gap-2">
-      <h3 className="text-sm font-bold uppercase tracking-wide text-ink-soft">1 · Nemici</h3>
+      <h3 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">1 · Nemici</h3>
       {data.library.length > 0 && <div className="flex flex-col gap-1.5">
         <p className="text-xs text-ink-soft">Dalla libreria (tocca più volte per aggiungerne altri):</p>
-        <div className="flex flex-wrap gap-1.5">{data.library.map((item) => <button key={item.id} type="button" onClick={() => addTemplate(item.id)} className="min-h-10 rounded-full border border-line bg-white/80 px-3 text-sm font-semibold text-ink active:bg-parchment">+ {item.name} <span className="font-normal text-ink-soft">CA {item.data.armorClass} · PF {item.data.hitPointsMax}</span></button>)}</div>
+        <div className="flex flex-wrap gap-1.5">{data.library.map((item) => <button key={item.id} type="button" onClick={() => addTemplate(item.id)} className="min-h-10 rounded-full border border-line bg-surface/80 px-3 text-sm font-semibold text-ink active:bg-parchment">+ {item.name} <span className="font-normal text-ink-soft">CA {item.data.armorClass} · PF {item.data.hitPointsMax}</span></button>)}</div>
       </div>}
       {drafts.map((draft) => <div key={draft.key} className="flex items-center gap-2 rounded-2xl border border-accent/40 bg-accent/5 p-2">
         <div className="min-w-0 flex-1"><p className="truncate font-semibold text-ink">{draft.baseName}</p><p className="text-xs text-ink-soft">CA {draft.armorClass} · PF {draft.hitPoints} · iniz {signedNumber(draft.bonus)}{draft.templateId ? "" : " · rapido"}</p></div>
-        <div className="flex items-center rounded-xl border border-line bg-white">
+        <div className="flex items-center rounded-xl border border-line bg-surface">
           <button type="button" className="h-10 w-9 text-lg" aria-label={`Meno ${draft.baseName}`} onClick={() => setDrafts((current) => current.flatMap((item) => item.key !== draft.key ? [item] : item.count > 1 ? [{ ...item, count: item.count - 1 }] : []))}>−</button>
           <span className="w-7 text-center font-bold">{draft.count}</span>
           <button type="button" className="h-10 w-9 text-lg" aria-label={`Più ${draft.baseName}`} onClick={() => setDrafts((current) => current.map((item) => item.key === draft.key ? { ...item, count: Math.min(20, item.count + 1) } : item))}>+</button>
         </div>
       </div>)}
-      {quickOpen ? <div className="flex flex-col gap-2 rounded-2xl border border-line bg-white/70 p-3">
+      {quickOpen ? <div className="flex flex-col gap-2 rounded-2xl border border-line bg-surface/70 p-3">
         <div className="grid grid-cols-[1fr_5rem] gap-2">
           <Field label="Nome"><TextInput value={quick.name} onChange={(event) => setQuick({ ...quick, name: event.target.value })} placeholder="Es. Bandito" autoFocus /></Field>
           <Field label="Quanti"><NumberInput value={quick.count} onChange={(value) => setQuick({ ...quick, count: value })} /></Field>
@@ -155,14 +155,14 @@ function SetupBody({ encounter, onClose }: { encounter: Encounter | null; onClos
     </section>
 
     <section className="flex flex-col gap-2">
-      <h3 className="text-sm font-bold uppercase tracking-wide text-ink-soft">2 · Iniziativa</h3>
+      <h3 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">2 · Iniziativa</h3>
       <div className="grid grid-cols-2 gap-2">
         <Button onClick={() => rollFor((row) => row.isEnemy)}>🎲 Nemici</Button>
         <Button onClick={() => rollFor((row) => !row.isEnemy)}>🎲 Personaggi</Button>
       </div>
       <p className="text-xs text-ink-soft">I dadi tirano solo per chi non ha già un valore; creature uguali condividono un solo tiro. Puoi scrivere i risultati tirati al tavolo.</p>
       <ul className="flex flex-col gap-1.5">
-        {rows.map((row) => <li key={row.key} className={cx("flex items-center gap-2 rounded-xl border bg-white/80 p-1.5", row.isEnemy ? "border-red-200" : "border-line/60", !row.include && "opacity-45")}>
+        {rows.map((row) => <li key={row.key} className={cx("flex items-center gap-2 rounded-xl border bg-surface/80 p-1.5", row.isEnemy ? "border-danger/25" : "border-line/60", !row.include && "opacity-45")}>
           <input type="checkbox" checked={row.include} onChange={() => setExcluded((current) => { const next = new Set(current); if (next.has(row.key)) next.delete(row.key); else next.add(row.key); return next; })} className="size-6 shrink-0 accent-accent" aria-label={`Includi ${row.name}`} />
           <div className="min-w-0 flex-1"><p className="truncate font-semibold text-ink">{row.name}{row.kind === "nuovo" && <span className="ml-1 text-xs font-normal text-accent">nuovo</span>}</p><p className="text-xs text-ink-soft">{row.isEnemy ? "nemico" : "personaggio"} · {signedNumber(row.bonus)}</p></div>
           <button type="button" className="flex size-10 items-center justify-center rounded-lg text-lg active:bg-parchment" aria-label={`Tira iniziativa per ${row.name}`} onClick={() => setValue(row.key, String(rollDie(20) + row.bonus))}>🎲</button>
@@ -172,13 +172,13 @@ function SetupBody({ encounter, onClose }: { encounter: Encounter | null; onClos
     </section>
 
     <section className="flex flex-col gap-2">
-      <h3 className="text-sm font-bold uppercase tracking-wide text-ink-soft">3 · Ordine dei turni</h3>
+      <h3 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">3 · Ordine dei turni</h3>
       {ranking.length ? <ol className="flex flex-col gap-1">
         {ranking.map((row, index) => {
           const tiedPrev = index > 0 && ranking[index - 1].value === row.value;
           const tiedNext = index < ranking.length - 1 && ranking[index + 1].value === row.value;
-          return <li key={row.key} className={cx("flex items-center gap-2 rounded-xl px-2 py-1.5", row.isEnemy ? "bg-red-50" : "bg-white/80")}>
-            <span className={cx("flex size-8 shrink-0 items-center justify-center rounded-full text-sm font-bold", index === 0 ? "bg-accent text-white" : "bg-parchment text-ink")}>{index + 1}</span>
+          return <li key={row.key} className={cx("flex items-center gap-2 rounded-xl px-2 py-1.5", row.isEnemy ? "bg-danger/8" : "bg-surface/80")}>
+            <span className={cx("flex size-8 shrink-0 items-center justify-center rounded-full text-sm font-bold", index === 0 ? "bg-accent text-on-accent" : "bg-parchment text-ink")}>{index + 1}</span>
             <span className="min-w-0 flex-1 truncate font-semibold text-ink">{row.name}</span>
             <span className="text-lg font-bold tabular-nums text-ink">{row.value}</span>
             {(tiedPrev || tiedNext) ? <span className="flex flex-col">

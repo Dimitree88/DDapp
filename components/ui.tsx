@@ -20,11 +20,11 @@ export const cx = (...items: (string | false | null | undefined)[]) => items.fil
 
 type Tone = "primary" | "secondary" | "danger" | "heal" | "ghost" | "temp";
 const tones: Record<Tone, string> = {
-  primary: "bg-accent text-white active:bg-accent-strong disabled:bg-accent/50",
-  secondary: "border border-line bg-white/80 text-ink active:bg-parchment disabled:opacity-50",
-  danger: "bg-red-700 text-white active:bg-red-800 disabled:bg-red-700/50",
-  heal: "bg-emerald-700 text-white active:bg-emerald-800 disabled:bg-emerald-700/50",
-  temp: "bg-sky-700 text-white active:bg-sky-800 disabled:bg-sky-700/50",
+  primary: "bg-accent text-on-accent active:bg-accent-strong disabled:bg-accent/50",
+  secondary: "border border-line bg-surface/80 text-ink active:bg-parchment disabled:opacity-50",
+  danger: "bg-danger text-on-accent active:bg-danger-strong disabled:bg-danger/50",
+  heal: "bg-heal text-on-accent active:bg-heal-strong disabled:bg-heal/50",
+  temp: "bg-temp text-on-accent active:bg-temp-strong disabled:bg-temp/50",
   ghost: "text-accent active:bg-parchment disabled:opacity-50",
 };
 
@@ -32,26 +32,26 @@ export function Button({ tone = "secondary", className, children, ...props }: Re
   return <button type="button" {...props} className={cx("inline-flex min-h-11 select-none items-center justify-center gap-1.5 rounded-xl px-4 text-[15px] font-semibold transition-colors", tones[tone], className)}>{children}</button>;
 }
 
-export function Chip({ active, onClick, children, className, tone = "accent", disabled }: { active?: boolean; onClick?: () => void; children: ReactNode; className?: string; tone?: "accent" | "red" | "sky"; disabled?: boolean }) {
-  const on = tone === "red" ? "border-red-700 bg-red-700 text-white" : tone === "sky" ? "border-sky-700 bg-sky-700 text-white" : "border-accent bg-accent text-white";
-  return <button type="button" aria-pressed={active} disabled={disabled} onClick={onClick} className={cx("min-h-10 rounded-full border px-3.5 text-sm font-semibold transition-colors disabled:opacity-40", active ? on : "border-line bg-white/70 text-ink active:bg-parchment", className)}>{children}</button>;
+export function Chip({ active, onClick, children, className, tone = "accent", disabled }: { active?: boolean; onClick?: () => void; children: ReactNode; className?: string; tone?: "accent" | "danger" | "temp"; disabled?: boolean }) {
+  const on = tone === "danger" ? "border-danger bg-danger text-on-accent" : tone === "temp" ? "border-temp bg-temp text-on-accent" : "border-accent bg-accent text-on-accent";
+  return <button type="button" aria-pressed={active} disabled={disabled} onClick={onClick} className={cx("min-h-10 rounded-full border px-3.5 text-sm font-semibold transition-colors disabled:opacity-40", active ? on : "border-line bg-surface/70 text-ink active:bg-parchment", className)}>{children}</button>;
 }
 
-export function Pips({ total, filled, tone = "accent", size = "md" }: { total: number; filled: number; tone?: "accent" | "emerald" | "red"; size?: "sm" | "md" }) {
-  const color = tone === "emerald" ? "border-emerald-700 bg-emerald-700" : tone === "red" ? "border-red-700 bg-red-700" : "border-accent bg-accent";
+export function Pips({ total, filled, tone = "accent", size = "md" }: { total: number; filled: number; tone?: "accent" | "heal" | "danger"; size?: "sm" | "md" }) {
+  const color = tone === "heal" ? "border-heal bg-heal" : tone === "danger" ? "border-danger bg-danger" : "border-accent bg-accent";
   return <span className="inline-flex flex-wrap gap-1" aria-label={`${filled} su ${total}`}>
-    {Array.from({ length: total }, (_, index) => <span key={index} className={cx("rounded-full border", size === "sm" ? "size-2.5" : "size-3.5", index < filled ? color : "border-line bg-white")} />)}
+    {Array.from({ length: total }, (_, index) => <span key={index} className={cx("rounded-full border", size === "sm" ? "size-2.5" : "size-3.5", index < filled ? color : "border-line bg-surface")} />)}
   </span>;
 }
 
 // Valore sintetico. Con onClick diventa toccabile e apre la spiegazione del calcolo.
 export function Stat({ label, value, hint, onClick, explainLabel }: { label: string; value: ReactNode; hint?: string; onClick?: () => void; explainLabel?: string }) {
   const body = <>
-    <span className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft">{label}</span>
+    <span className="font-sans text-[11px] font-semibold uppercase tracking-wide text-ink-soft">{label}</span>
     <span className={cx("text-lg font-bold leading-tight text-ink", onClick && "underline decoration-line decoration-dotted underline-offset-4")}>{value === "" || value === null || value === undefined ? "—" : value}</span>
     {hint && <span className="text-[11px] leading-tight text-ink-soft">{hint}</span>}
   </>;
-  const base = "flex min-w-0 flex-col items-center rounded-xl bg-white/60 px-2 py-1.5 text-center";
+  const base = "flex min-w-0 flex-col items-center rounded-xl bg-surface/60 px-2 py-1.5 text-center";
   if (!onClick) return <div className={base}>{body}</div>;
   return <button type="button" onClick={onClick} aria-haspopup="dialog" aria-label={`Spiega il calcolo: ${explainLabel ?? label}`}
     className={cx(base, "touch-manipulation transition-colors active:bg-parchment")}>{body}</button>;
@@ -59,18 +59,18 @@ export function Stat({ label, value, hint, onClick, explainLabel }: { label: str
 
 export function Section({ title, children, action }: { title: string; children: ReactNode; action?: ReactNode }) {
   return <section className="flex flex-col gap-2">
-    <div className="flex items-center justify-between gap-2"><h3 className="text-sm font-bold uppercase tracking-wide text-ink-soft">{title}</h3>{action}</div>
+    <div className="flex items-center justify-between gap-2"><h3 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">{title}</h3>{action}</div>
     {children}
   </section>;
 }
 
 export function NumberInput({ value, onChange, className, ...props }: Omit<React.InputHTMLAttributes<HTMLInputElement>, "value" | "onChange"> & { value: string; onChange: (value: string) => void }) {
   return <input {...props} inputMode="numeric" value={value} onChange={(event) => onChange(event.target.value.replace(/[^\d-]/g, ""))}
-    className={cx("min-h-11 min-w-0 rounded-xl border border-line bg-white px-3 text-base text-ink", className)} />;
+    className={cx("min-h-11 min-w-0 rounded-xl border border-line bg-surface px-3 text-base text-ink", className)} />;
 }
 
 export function TextInput({ className, ...props }: React.InputHTMLAttributes<HTMLInputElement>) {
-  return <input {...props} className={cx("min-h-11 min-w-0 rounded-xl border border-line bg-white px-3 text-base text-ink placeholder:text-ink-faint", className)} />;
+  return <input {...props} className={cx("min-h-11 min-w-0 rounded-xl border border-line bg-surface px-3 text-base text-ink placeholder:text-ink-faint", className)} />;
 }
 
 export function Field({ label, children, className }: { label: string; children: ReactNode; className?: string }) {
@@ -82,11 +82,11 @@ export function Field({ label, children, className }: { label: string; children:
 export function HpBar({ current, max, temp, dead }: { current: number | null; max: number | null; temp: number; dead?: boolean }) {
   if (current === null || max === null || max < 1) return <div className="h-2.5 rounded-full bg-line/40" />;
   const ratio = Math.max(0, Math.min(1, current / max));
-  const color = dead || current === 0 ? "bg-red-700" : ratio <= 0.5 ? "bg-amber-500" : "bg-emerald-600";
+  const color = dead || current === 0 ? "bg-danger" : ratio <= 0.5 ? "bg-warn" : "bg-heal";
   const tempRatio = Math.min(1 - ratio, temp / max);
   return <div className="flex h-2.5 overflow-hidden rounded-full bg-line/40" aria-hidden>
     <div className={cx("h-full transition-[width] duration-300", color)} style={{ width: `${ratio * 100}%` }} />
-    {temp > 0 && <div className="h-full bg-sky-500" style={{ width: `${Math.max(0.04, tempRatio) * 100}%` }} />}
+    {temp > 0 && <div className="h-full bg-temp/70" style={{ width: `${Math.max(0.04, tempRatio) * 100}%` }} />}
   </div>;
 }
 
@@ -118,11 +118,11 @@ export function Sheet({ open, onClose, title, subtitle, children, footer, wide }
   return createPortal(<div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center sm:p-6">
     <div className="absolute inset-0 animate-[fadeIn_.15s_ease-out] bg-ink/55" onClick={onClose} aria-hidden />
     <div role="dialog" aria-modal="true" aria-labelledby={titleId}
-      className={cx("relative flex max-h-[92dvh] w-full animate-[sheetUp_.2s_ease-out] flex-col rounded-t-3xl bg-card shadow-2xl sm:rounded-3xl", wide ? "sm:max-w-2xl" : "sm:max-w-lg")}>
+      className={cx("relative flex max-h-[92dvh] w-full animate-[sheetUp_.2s_ease-out] flex-col rounded-t-3xl border-t-2 border-gold bg-card shadow-2xl sm:rounded-3xl sm:border-2", wide ? "sm:max-w-2xl" : "sm:max-w-lg")}>
       <div className="mx-auto mt-2 h-1.5 w-10 shrink-0 rounded-full bg-line/70 sm:hidden" aria-hidden />
       <header className="flex shrink-0 items-start gap-3 border-b border-line/50 px-4 pb-3 pt-2 sm:pt-4">
         <div className="min-w-0 flex-1">
-          <h2 id={titleId} className="truncate text-lg font-bold text-ink">{title}</h2>
+          <h2 id={titleId} className="truncate text-lg font-bold text-heading">{title}</h2>
           {subtitle && <div className="text-sm text-ink-soft">{subtitle}</div>}
         </div>
         <button type="button" onClick={onClose} aria-label="Chiudi" className="-mr-2 flex size-11 shrink-0 items-center justify-center rounded-full text-2xl leading-none text-ink-soft active:bg-parchment">×</button>
@@ -152,11 +152,11 @@ export function ToastProvider({ children }: { children: ReactNode }) {
   return <ToastContext.Provider value={{ show }}>
     {children}
     {toast && <div className="pointer-events-none fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+76px)] z-[60] flex justify-center px-3" role="status" aria-live="polite">
-      <div key={toast.id} className={cx("pointer-events-auto flex w-full max-w-md animate-[sheetUp_.2s_ease-out] items-start gap-3 rounded-2xl px-4 py-3 shadow-xl", toast.tone === "error" ? "bg-red-800 text-white" : "bg-ink text-parchment")}>
+      <div key={toast.id} className={cx("pointer-events-auto flex w-full max-w-md animate-[sheetUp_.2s_ease-out] items-start gap-3 rounded-2xl px-4 py-3 shadow-xl", toast.tone === "error" ? "bg-danger-strong text-on-accent" : "bg-ink text-parchment")}>
         <div className="min-w-0 flex-1 text-sm">
           <p className="font-bold">{toast.title}</p>
           {toast.lines?.slice(0, 3).map((line, index) => <p key={index} className="opacity-85">{line}</p>)}
-          {toast.warnings?.map((line, index) => <p key={`w${index}`} className="mt-1 rounded-lg bg-amber-300 px-2 py-1 font-semibold text-ink">⚠ {line}</p>)}
+          {toast.warnings?.map((line, index) => <p key={`w${index}`} className="mt-1 rounded-lg bg-warn/45 px-2 py-1 font-semibold text-ink">⚠ {line}</p>)}
         </div>
         {toast.undo && <button type="button" className="min-h-10 shrink-0 rounded-xl border border-parchment/40 px-3 text-sm font-bold" onClick={() => { toast.undo?.(); setToast(null); }}>Annulla</button>}
         <button type="button" aria-label="Chiudi notifica" className="-mr-1 min-h-10 shrink-0 px-1 text-lg opacity-70" onClick={() => setToast(null)}>×</button>

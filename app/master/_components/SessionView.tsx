@@ -112,7 +112,7 @@ function NotesTab({ initial }: { initial: string }) {
   }, [sessionId]);
   useEffect(() => () => { if (timer.current) { clearTimeout(timer.current); void saveSessionNotes({ sessionId, notes: latest.current }); } }, [sessionId]);
   return <div className="flex flex-col gap-2 pb-4">
-    <div className="flex items-center justify-between"><h2 className="text-sm font-bold uppercase tracking-wide text-ink-soft">Appunti della Sessione</h2><span className={cx("text-xs", state === "errore" ? "text-red-800" : "text-ink-soft")}>{state === "salvato" ? "Salvato" : state === "salvo" ? "Salvo…" : state === "errore" ? "Non salvato: riprova" : "Modificato"}</span></div>
+    <div className="flex items-center justify-between"><h2 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">Appunti della Sessione</h2><span className={cx("text-xs", state === "errore" ? "text-danger-strong" : "text-ink-soft")}>{state === "salvato" ? "Salvato" : state === "salvo" ? "Salvo…" : state === "errore" ? "Non salvato: riprova" : "Modificato"}</span></div>
     <textarea value={notes} rows={18} placeholder="Scene, luoghi, PNG incontrati, decisioni, cose da riprendere…" aria-label="Appunti della Sessione"
       onChange={(event) => {
         setNotes(event.target.value);
@@ -122,7 +122,7 @@ function NotesTab({ initial }: { initial: string }) {
         timer.current = setTimeout(() => { timer.current = null; void save(); }, 900);
       }}
       onBlur={() => { if (timer.current) { clearTimeout(timer.current); timer.current = null; void save(); } }}
-      className="min-h-[50dvh] rounded-2xl border border-line bg-white/90 p-3 text-base leading-relaxed text-ink" />
+      className="min-h-[50dvh] rounded-2xl border border-line bg-surface/90 p-3 text-base leading-relaxed text-ink" />
     <p className="text-xs text-ink-soft">Visibili a chiunque apra la pagina Master. Salvataggio automatico.</p>
   </div>;
 }
@@ -142,28 +142,28 @@ function MenuTab() {
       <button type="button" className={item} onClick={() => openTool({ kind: "riposo-lungo" })}><span aria-hidden>☾</span>Riposo lungo</button>
       <button type="button" className={item} onClick={() => openTool({ kind: "pe" })}><span aria-hidden>✦</span>Punti esperienza</button>
       <button type="button" className={item} onClick={() => openTool({ kind: "aggiungi" })}><span aria-hidden>＋</span>Aggiungi</button>
-      {readyIds.length > 0 && <p className="col-span-2 rounded-2xl border border-amber-400 bg-amber-100 px-4 py-3 text-sm text-amber-950">⬆ Possono salire di livello: <strong>{data.party.filter((member) => member.levelReady).map((member) => member.name).join(", ")}</strong>. Ogni giocatore lo fa dalla propria scheda.</p>}
+      {readyIds.length > 0 && <p className="col-span-2 rounded-2xl border border-warn/70 bg-warn/15 px-4 py-3 text-sm text-warn-ink">⬆ Possono salire di livello: <strong>{data.party.filter((member) => member.levelReady).map((member) => member.name).join(", ")}</strong>. Ogni giocatore lo fa dalla propria scheda.</p>}
     </section>
 
     <CreatureLibrary title="Libreria creature" creatures={data.library} />
 
     <section className="flex flex-col gap-2">
-      <h2 className="text-sm font-bold uppercase tracking-wide text-ink-soft">Sessione</h2>
+      <h2 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">Sessione</h2>
       <button type="button" className={item} onClick={() => setRenaming(true)}>✎ Rinomina «{data.session!.name}»</button>
       <button type="button" className={item} disabled={pending} onClick={async () => {
         if (!await confirm({ title: "Chiudere la Sessione?", message: "Il registro e un riepilogo finale vengono archiviati. Potrai riaprirla dall'archivio.", confirmLabel: "Chiudi Sessione" })) return;
         const result = await run(() => closeSession({ sessionId }), { quiet: true });
         if (result.ok) router.push(`/master/sessione/${sessionId}`);
       }}>⏹ Chiudi Sessione</button>
-      <button type="button" className={cx(item, "text-red-800")} disabled={pending} onClick={async () => {
+      <button type="button" className={cx(item, "text-danger-strong")} disabled={pending} onClick={async () => {
         if (!await confirm({ title: "Eliminare la Sessione?", danger: true, confirmLabel: "Elimina definitivamente", message: <>Spariscono registro, appunti e riepilogo di «{data.session!.name}». <strong>Le schede dei personaggi e delle creature restano come sono ora</strong>: le modifiche già applicate non vengono annullate.</> })) return;
         await run(() => deleteSession({ sessionId }), { quiet: true });
       }}>🗑 Elimina Sessione</button>
     </section>
 
     {data.closed.length > 0 && <section className="flex flex-col gap-2">
-      <h2 className="text-sm font-bold uppercase tracking-wide text-ink-soft">Archivio</h2>
-      <ul className="flex flex-col gap-1.5">{data.closed.slice(0, 8).map((closed) => <li key={closed.id}><Link href={`/master/sessione/${closed.id}`} className="flex min-h-12 items-center justify-between rounded-xl bg-white/70 px-4 text-sm"><span className="font-semibold text-ink">{closed.name}</span><span className="text-ink-soft">{dateLabel(closed.localDate)} ›</span></Link></li>)}</ul>
+      <h2 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">Archivio</h2>
+      <ul className="flex flex-col gap-1.5">{data.closed.slice(0, 8).map((closed) => <li key={closed.id}><Link href={`/master/sessione/${closed.id}`} className="flex min-h-12 items-center justify-between rounded-xl bg-surface/70 px-4 text-sm"><span className="font-semibold text-ink">{closed.name}</span><span className="text-ink-soft">{dateLabel(closed.localDate)} ›</span></Link></li>)}</ul>
     </section>}
 
     <Sheet open={renaming} onClose={() => setRenaming(false)} title="Rinomina Sessione"

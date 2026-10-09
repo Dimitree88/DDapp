@@ -11,9 +11,9 @@ export function ActionStats({ action }: { action: CreatureAction }) {
   const tiles = [
     stats.hit && <StatTile key="hit" icon="hit" label="Colpire" tone="accent" value={stats.hit} />,
     stats.save && <StatTile key="save" icon="save" label={`TS ${stats.save.ability}`.trim()} tone="accent" value={stats.save.dc ? `CD ${stats.save.dc}` : ""} />,
-    (stats.reach || stats.range) && <StatTile key="distance" icon={stats.reach ? "reach" : "range"} label={stats.reach ? "Portata" : "Gittata"} tone="sky" size="sm"
+    (stats.reach || stats.range) && <StatTile key="distance" icon={stats.reach ? "reach" : "range"} label={stats.reach ? "Portata" : "Gittata"} tone="temp" size="sm"
       value={stats.reach ?? stats.range} sub={stats.reach && stats.range ? `gittata ${stats.range}` : undefined} />,
-    stats.damage && <StatTile key="damage" icon="damage" label="Danni" tone="red" value={stats.damage.average ?? stats.damage.formula} sub={damageNote(stats.damage)} />,
+    stats.damage && <StatTile key="damage" icon="damage" label="Danni" tone="danger" value={stats.damage.average ?? stats.damage.formula} sub={damageNote(stats.damage)} />,
   ].filter(Boolean);
   if (!tiles.length) return null;
   return <div className={cx("grid gap-1.5", tiles.length >= 3 ? "grid-cols-3" : tiles.length === 2 ? "grid-cols-2" : "grid-cols-1")}>{tiles}</div>;
@@ -26,7 +26,7 @@ export function ActionBadges({ action }: { action: CreatureAction }) {
     <strong className="mr-0.5 text-ink">{action.name}</strong>
     {stats.hit && <Badge icon="hit" tone="accent">{stats.hit}</Badge>}
     {stats.save && <Badge icon="save" tone="accent">TS {stats.save.ability}{stats.save.dc ? ` CD ${stats.save.dc}` : ""}</Badge>}
-    {(stats.reach || stats.range) && <Badge icon={stats.reach ? "reach" : "range"} tone="sky">{stats.reach ?? stats.range}</Badge>}
-    {stats.damage && <Badge icon="damage" tone="red">{stats.damage.average ?? stats.damage.formula}{stats.damage.type ? ` ${stats.damage.type}` : ""}</Badge>}
+    {(stats.reach || stats.range) && <Badge icon={stats.reach ? "reach" : "range"} tone="temp">{stats.reach ?? stats.range}</Badge>}
+    {stats.damage && <Badge icon="damage" tone="danger">{stats.damage.average ?? stats.damage.formula}{stats.damage.type ? ` ${stats.damage.type}` : ""}</Badge>}
   </div>;
 }

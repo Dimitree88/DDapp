@@ -19,7 +19,7 @@ export default async function Home() {
       </Link>
 
       <section className="flex flex-col gap-3" aria-labelledby="characters-title">
-        <h1 id="characters-title" className="text-lg font-bold text-ink">Personaggi</h1>
+        <h1 id="characters-title" className="text-lg font-bold text-heading">Personaggi</h1>
         {list.length === 0 && (
           <p className="rounded-xl border border-line bg-card/60 px-4 py-6 text-center text-sm text-ink-soft">
             Nessun personaggio presente.
@@ -36,7 +36,7 @@ export default async function Home() {
       </section>
 
       <section className="mt-6 flex flex-col gap-3" aria-labelledby="creatures-title">
-        <h2 id="creatures-title" className="text-lg font-bold text-ink">Creature</h2>
+        <h2 id="creatures-title" className="text-lg font-bold text-heading">Creature</h2>
         {creatureList.length === 0 && (
           <p className="rounded-xl border border-line bg-card/60 px-4 py-6 text-center text-sm text-ink-soft">
             Nessuna creatura presente.

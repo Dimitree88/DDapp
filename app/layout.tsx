@@ -1,33 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import localFont from "next/font/local";
+import { Cinzel, EB_Garamond, Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const jenevers = localFont({
-  src: [
-    {
-      path: "../fonts/TT Jenevers Regular-5632637.otf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../fonts/TT Jenevers Medium Italic-5632643.otf",
-      weight: "500",
-      style: "italic",
-    },
-    {
-      path: "../fonts/TT Jenevers Bold-5632645.otf",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../fonts/TT Jenevers Bold Italic-5632647.otf",
-      weight: "700",
-      style: "italic",
-    },
-  ],
-  variable: "--font-jenevers",
-  display: "swap",
-});
+// Font del design system Edamasca: titoli, corpo del testo, statistiche.
+const cinzel = Cinzel({ subsets: ["latin"], weight: ["400", "600", "700", "800"], variable: "--font-cinzel", display: "swap" });
+const garamond = EB_Garamond({ subsets: ["latin"], style: ["normal", "italic"], variable: "--font-garamond", display: "swap" });
+const openSans = Open_Sans({ subsets: ["latin"], style: ["normal", "italic"], variable: "--font-open-sans", display: "swap" });
 
 export const metadata: Metadata = {
   title: "Schede D&D",
@@ -35,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#ece3d0",
+  themeColor: "#eee5ce",
   width: "device-width",
   initialScale: 1,
   // Blocca lo zoom su mobile (incluso l'auto-zoom di iOS entrando nei campi).
@@ -52,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="it"
-      className={`${jenevers.variable} h-full antialiased`}
+      className={`${cinzel.variable} ${garamond.variable} ${openSans.variable} h-full antialiased`}
     >
       <body className="min-h-dvh text-ink">{children}</body>
     </html>

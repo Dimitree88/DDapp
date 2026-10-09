@@ -156,7 +156,7 @@ export function TextField({
 
   return (
     <div className="block">
-      {label && (Boolean(valueInfoId && value) || showInfo ? <InfoLabel id={valueInfoId && value ? valueInfoId : helpId ?? label} title={label} dialogTitle={valueInfoId && value ? valueInfoTitle ?? value : undefined} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" /> : <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>)}
+      {label && (Boolean(valueInfoId && value) || showInfo ? <InfoLabel id={valueInfoId && value ? valueInfoId : helpId ?? label} title={label} dialogTitle={valueInfoId && value ? valueInfoTitle ?? value : undefined} className="mb-0.5 block font-sans text-[10px] font-medium uppercase tracking-wide text-ink-soft" /> : <span className="mb-0.5 block font-sans text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>)}
       {editing && !locked ? (
         options ? (
           <select
@@ -271,7 +271,7 @@ export function NumberUnitField({
   };
   return (
     <div className="block">
-      {valueInfoId && value ? <InfoLabel id={valueInfoId} title={label} dialogTitle={`${label}: ${value} ${unit}`} className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft" /> : <span className="mb-0.5 block text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>}
+      {valueInfoId && value ? <InfoLabel id={valueInfoId} title={label} dialogTitle={`${label}: ${value} ${unit}`} className="mb-0.5 block font-sans text-[10px] font-medium uppercase tracking-wide text-ink-soft" /> : <span className="mb-0.5 block font-sans text-[10px] font-medium uppercase tracking-wide text-ink-soft">{label}</span>}
       {editing ? (
         <div className="flex items-center gap-1">
           <input

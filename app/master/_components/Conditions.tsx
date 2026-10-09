@@ -33,7 +33,7 @@ export function ConditionsEditor({ target, conditions }: { target: Target; condi
 
   return <Section title="Condizioni">
     {conditions.length > 0 && <ul className="flex flex-col gap-1.5">
-      {conditions.map((condition, index) => <li key={`${condition.nome}-${index}`} className="flex items-center gap-2 rounded-xl bg-white/80 py-1 pl-3 pr-1">
+      {conditions.map((condition, index) => <li key={`${condition.nome}-${index}`} className="flex items-center gap-2 rounded-xl bg-surface/80 py-1 pl-3 pr-1">
         <button type="button" className="min-w-0 flex-1 py-1 text-left" onClick={() => setInfo(condition.nome)}>
           <span className="font-semibold text-ink">{condition.nome}</span>
           {(condition.fonte || condition.durata) && <span className="block truncate text-xs text-ink-soft">{[condition.fonte, condition.durata].filter(Boolean).join(" · ")}</span>}
@@ -61,8 +61,8 @@ export function ConcentrationEditor({ target, concentration }: { target: Target;
   const [effect, setEffect] = useState("");
   const [duration, setDuration] = useState("");
   if (concentration) return <Section title="Concentrazione">
-    <div className="flex items-center gap-2 rounded-xl border border-violet-300 bg-violet-50 py-1 pl-3 pr-1">
-      <div className="min-w-0 flex-1 py-1"><p className="font-semibold text-violet-950">◎ {concentration.effetto}</p>{(concentration.durata || concentration.fonte) && <p className="text-xs text-violet-900/80">{[concentration.fonte, concentration.durata].filter(Boolean).join(" · ")}</p>}</div>
+    <div className="flex items-center gap-2 rounded-xl border border-magic/35 bg-magic/8 py-1 pl-3 pr-1">
+      <div className="min-w-0 flex-1 py-1"><p className="font-semibold text-magic-ink">◎ {concentration.effetto}</p>{(concentration.durata || concentration.fonte) && <p className="text-xs text-magic-ink/80">{[concentration.fonte, concentration.durata].filter(Boolean).join(" · ")}</p>}</div>
       <Button tone="ghost" disabled={pending} onClick={() => command(target, "concentrazione-termina")}>Termina</Button>
     </div>
     <p className="text-xs text-ink-soft">Danni: TS Costituzione CD 10 o metà danni (max 30). Incapacitato o morto: termina (p. 364).</p>

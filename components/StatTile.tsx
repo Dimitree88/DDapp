@@ -18,13 +18,13 @@ export function StatIcon({ name, className = "size-3.5" }: { name: IconName; cla
   return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className={`shrink-0 ${className}`}>{paths[name]}</svg>;
 }
 
-export type TileTone = "accent" | "red" | "sky" | "violet" | "neutral";
+export type TileTone = "accent" | "danger" | "temp" | "magic" | "neutral";
 
 const tones: Record<TileTone, string> = {
   accent: "border-accent/35 bg-accent/10 text-accent-strong",
-  red: "border-red-700/30 bg-red-700/10 text-red-900",
-  sky: "border-sky-700/30 bg-sky-700/10 text-sky-900",
-  violet: "border-violet-700/25 bg-violet-100/80 text-violet-900",
+  danger: "border-danger/30 bg-danger/10 text-danger-ink",
+  temp: "border-temp/30 bg-temp/10 text-temp-ink",
+  magic: "border-magic/25 bg-magic/10 text-magic-ink",
   neutral: "border-line/70 bg-card/60 text-ink",
 };
 
@@ -42,7 +42,7 @@ export function StatTile({ icon, label, value, sub, tone = "neutral", onClick, a
   size?: "md" | "sm";
 }) {
   const body = <>
-    <span className="flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wide opacity-80">
+    <span className="flex items-center gap-1 font-sans text-[10px] font-semibold uppercase tracking-wide opacity-80">
       {icon && <StatIcon name={icon} className="size-3" />}{label}
     </span>
     <span className={`${size === "sm" ? "text-[15px]" : "text-lg"} font-bold leading-tight tabular-nums [overflow-wrap:anywhere]`}>{value === "" || value === null || value === undefined ? "—" : value}</span>

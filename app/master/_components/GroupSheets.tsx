@@ -40,7 +40,7 @@ function RestBody({ kind, onClose }: { kind: "breve" | "lungo"; onClose: () => v
   };
 
   return <div className="flex flex-col gap-3">
-    {data.session?.encounter && <p className="rounded-xl bg-amber-100 px-3 py-2 text-sm font-semibold text-amber-900">Combattimento in corso: tirare per l&apos;iniziativa o subire danni interrompe il riposo (p. 371).</p>}
+    {data.session?.encounter && <p className="rounded-xl bg-warn/15 px-3 py-2 text-sm font-semibold text-warn-ink">Combattimento in corso: tirare per l&apos;iniziativa o subire danni interrompe il riposo (p. 371).</p>}
     <p className="text-sm text-ink-soft">{kind === "breve" ? "Per ogni Dado Vita speso: risultato + modificatore di Costituzione (minimo 1). Si ricaricano le capacità indicate «riposo breve»." : "Recupera tutti i PF e i Dadi Vita spesi, −1 Indebolimento, PF temporanei azzerati, ricariche «riposo lungo». Poi 16 ore prima del prossimo."}</p>
     <ul className="flex flex-col gap-2">
       {data.party.map((item) => {
@@ -50,7 +50,7 @@ function RestBody({ kind, onClose }: { kind: "breve" | "lungo"; onClose: () => v
         const values = parseRolls(rolls[item.id] ?? "");
         const healed = values.reduce((sum, roll) => sum + Math.max(1, roll + item.conMod), 0);
         const others = data.party.filter((other) => other.id !== item.id && !other.inspiration && selected.has(other.id));
-        return <li key={item.id} className={cx("flex flex-col gap-2 rounded-2xl border border-line/60 bg-white/80 p-2.5", !on && "opacity-60")}>
+        return <li key={item.id} className={cx("flex flex-col gap-2 rounded-2xl border border-line/60 bg-surface/80 p-2.5", !on && "opacity-60")}>
           <label className="flex min-h-10 items-center gap-2">
             <input type="checkbox" checked={on} disabled={!can} onChange={() => toggle(item.id)} className="size-6 accent-accent" />
             <span className="flex-1 font-semibold text-ink">{item.name}</span>
@@ -63,10 +63,10 @@ function RestBody({ kind, onClose }: { kind: "breve" | "lungo"; onClose: () => v
               {item.hitDie && <Button className="px-3" disabled={available !== null && values.length >= available} onClick={() => setRolls((current) => ({ ...current, [item.id]: [...parseRolls(current[item.id] ?? ""), rollDie(item.hitDie!)].join(", ") }))}>🎲 d{item.hitDie}</Button>}
             </div>
             {item.hitDiceSpent === null && values.length > 0 && <Field label="Dadi Vita già spesi prima del riposo"><NumberInput value={spentBefore[item.id] ?? ""} onChange={(value) => setSpentBefore((current) => ({ ...current, [item.id]: value }))} /></Field>}
-            {values.length > 0 && <p className="text-sm font-semibold text-emerald-800">+{healed} PF → {Math.min(item.hpMax ?? 0, (item.hp ?? 0) + healed)}/{item.hpMax}</p>}
+            {values.length > 0 && <p className="text-sm font-semibold text-heal-strong">+{healed} PF → {Math.min(item.hpMax ?? 0, (item.hp ?? 0) + healed)}/{item.hpMax}</p>}
           </div>}
           {on && kind === "lungo" && item.human && item.inspiration && others.length > 0 && <label className="flex flex-col gap-1 pl-8 text-xs text-ink-soft">Intraprendente: possiede già Ispirazione, la nuova può andare a…
-            <select value={inspiration[item.id] ?? ""} onChange={(event) => setInspiration((current) => ({ ...current, [item.id]: event.target.value }))} className="min-h-10 rounded-xl border border-line bg-white px-2 text-base text-ink">
+            <select value={inspiration[item.id] ?? ""} onChange={(event) => setInspiration((current) => ({ ...current, [item.id]: event.target.value }))} className="min-h-10 rounded-xl border border-line bg-surface px-2 text-base text-ink">
               <option value="">Nessuno</option>{others.map((other) => <option key={other.id} value={other.id}>{other.name}</option>)}
             </select>
           </label>}
@@ -74,7 +74,7 @@ function RestBody({ kind, onClose }: { kind: "breve" | "lungo"; onClose: () => v
       })}
       {data.foes.map((item) => {
         const can = item.data.hitPointsCurrent >= 1;
-        return <li key={item.id} className={cx("rounded-2xl border border-line/60 bg-white/80 p-2.5", !selected.has(item.id) && "opacity-60")}>
+        return <li key={item.id} className={cx("rounded-2xl border border-line/60 bg-surface/80 p-2.5", !selected.has(item.id) && "opacity-60")}>
           <label className="flex min-h-10 items-center gap-2">
             <input type="checkbox" checked={selected.has(item.id)} disabled={!can} onChange={() => toggle(item.id)} className="size-6 accent-accent" />
             <span className="flex-1 font-semibold text-ink">{item.name}</span>
@@ -83,7 +83,7 @@ function RestBody({ kind, onClose }: { kind: "breve" | "lungo"; onClose: () => v
         </li>;
       })}
     </ul>
-    <label className="flex items-start gap-3 rounded-xl bg-white/70 p-3 text-sm text-ink">
+    <label className="flex items-start gap-3 rounded-xl bg-surface/70 p-3 text-sm text-ink">
       <input type="checkbox" checked={confirmed} onChange={(event) => setConfirmed(event.target.checked)} className="mt-0.5 size-6 shrink-0 accent-accent" />
       <span>Riposo completato senza interruzioni (iniziativa, incantesimi non trucchetti, danni{kind === "lungo" ? ", 1 ora di sforzo" : ""}).</span>
     </label>
@@ -116,10 +116,10 @@ function XpBody({ onClose, preset }: { onClose: () => void; preset: XpPreset }) 
   const share = mode === "dividi" && selected.size ? Math.floor(value / selected.size) : value;
 
   if (ready) return <div className="flex flex-col gap-3">
-    <p className="rounded-2xl bg-emerald-50 px-3 py-3 text-emerald-900">PE registrati.</p>
+    <p className="rounded-2xl bg-heal/10 px-3 py-3 text-heal-ink">PE registrati.</p>
     {ready.length > 0 ? <>
       <p className="text-ink">{ready.length === 1 ? "Un personaggio può" : `${ready.length} personaggi possono`} salire di livello: {ready.map((id) => data.party.find((item) => item.id === id)?.name).join(", ")}.</p>
-      <p className="rounded-2xl bg-amber-100 px-3 py-2 text-sm text-amber-950">Ogni giocatore completa il passaggio dalla propria scheda con «⬆ Sali di livello»: le scelte (PF, sottoclasse, talenti, incantesimi) sono sue.</p>
+      <p className="rounded-2xl bg-warn/15 px-3 py-2 text-sm text-warn-ink">Ogni giocatore completa il passaggio dalla propria scheda con «⬆ Sali di livello»: le scelte (PF, sottoclasse, talenti, incantesimi) sono sue.</p>
     </> : null}
     <Button onClick={onClose}>Chiudi</Button>
   </div>;
@@ -133,9 +133,9 @@ function XpBody({ onClose, preset }: { onClose: () => void; preset: XpPreset }) 
 
   return <div className="flex flex-col gap-3">
     <div className="grid grid-cols-4 gap-1 rounded-2xl bg-parchment/70 p-1">
-      {xpModes.map((item) => <button key={item.id} type="button" onClick={() => setMode(item.id)} className={cx("min-h-11 rounded-xl text-sm font-bold", mode === item.id ? (item.id === "imposta" ? "bg-ink text-parchment" : "bg-accent text-white") : "text-ink")}>{item.label}</button>)}
+      {xpModes.map((item) => <button key={item.id} type="button" onClick={() => setMode(item.id)} className={cx("min-h-11 rounded-xl text-sm font-bold", mode === item.id ? (item.id === "imposta" ? "bg-ink text-parchment" : "bg-accent text-on-accent") : "text-ink")}>{item.label}</button>)}
     </div>
-    {!mode && <p className="rounded-xl bg-amber-100 px-3 py-2 text-sm text-amber-900">Scegli se dare il totale a ciascun personaggio o dividerlo: il Manuale del Giocatore lascia la decisione al DM (p. 370).</p>}
+    {!mode && <p className="rounded-xl bg-warn/15 px-3 py-2 text-sm text-warn-ink">Scegli se dare il totale a ciascun personaggio o dividerlo: il Manuale del Giocatore lascia la decisione al DM (p. 370).</p>}
     {mode === "livello" ? <p className="text-sm text-ink-soft">Porta i PE di ciascun personaggio scelto alla soglia del livello successivo (p. 41): utile per far salire di livello tutto il gruppo insieme.</p>
       : mode && <Field label={mode === "aggiungi" ? "PE a ciascun personaggio" : mode === "dividi" ? "PE totali da dividere" : "Nuovo totale di PE"}><NumberInput value={amount} onChange={setAmount} className="text-2xl font-bold" placeholder="0" /></Field>}
     {mode === "dividi" && value > 0 && selected.size > 0 && <p className="text-sm text-ink-soft">{value} ÷ {selected.size} = <strong className="text-ink">{share}</strong> a testa (arrotondato per difetto, p. 8)</p>}
@@ -147,11 +147,11 @@ function XpBody({ onClose, preset }: { onClose: () => void; preset: XpPreset }) 
         const level = Number(item.livello);
         const next = mode === "imposta" ? value : mode === "livello" ? Math.max(xp, xpThresholds[level] ?? xp) : xp + share;
         const on = selected.has(item.id);
-        return <li key={item.id}><label className="flex min-h-12 items-center gap-2 rounded-xl bg-white/80 px-2.5">
+        return <li key={item.id}><label className="flex min-h-12 items-center gap-2 rounded-xl bg-surface/80 px-2.5">
           <input type="checkbox" checked={on} onChange={() => setSelected((current) => { const set = new Set(current); if (set.has(item.id)) set.delete(item.id); else set.add(item.id); return set; })} className="size-6 accent-accent" />
           <span className="min-w-0 flex-1"><span className="block truncate font-semibold text-ink">{item.name}</span><span className="text-xs text-ink-soft">Livello {item.livello}{level < 20 ? ` · prossimo a ${xpThresholds[level]?.toLocaleString("it-IT")}` : ""}</span></span>
           <span className="text-sm text-ink-soft">{xp}{on && mode && (mode === "livello" || amount) ? <strong className="text-ink"> → {next}</strong> : ""}</span>
-          {on && mode && (mode === "livello" || amount) && levelForXp(next) > level && <span className="rounded-full bg-amber-200 px-2 text-xs font-bold text-amber-900">⬆ {level + 1}</span>}
+          {on && mode && (mode === "livello" || amount) && levelForXp(next) > level && <span className="rounded-full bg-warn/30 px-2 text-xs font-bold text-warn-ink">⬆ {level + 1}</span>}
         </label></li>;
       })}
     </ul>
@@ -180,8 +180,8 @@ function AddBody({ onClose }: { onClose: () => void }) {
   };
   return <div className="flex flex-col gap-4">
     <Button tone="primary" onClick={() => setCreating(true)}>+ Nuova creatura</Button>
-    {characters.length > 0 && <div className="flex flex-col gap-2"><h3 className="text-sm font-bold uppercase tracking-wide text-ink-soft">Personaggi</h3><div className="flex flex-wrap gap-1.5">{characters.map((item) => <Chip key={item.id} active={selected.has(item.id)} onClick={() => toggle(item.id)}>{item.name}</Chip>)}</div></div>}
-    {beasts.length > 0 && <div className="flex flex-col gap-2"><h3 className="text-sm font-bold uppercase tracking-wide text-ink-soft">Creature della libreria</h3><div className="flex flex-wrap gap-1.5">{beasts.map((item) => <Chip key={item.id} active={selected.has(item.id)} onClick={() => toggle(item.id)}>{item.name} <span className="font-normal opacity-75">PF {item.data.hitPointsCurrent}/{item.data.hitPointsMax}</span></Chip>)}</div></div>}
+    {characters.length > 0 && <div className="flex flex-col gap-2"><h3 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">Personaggi</h3><div className="flex flex-wrap gap-1.5">{characters.map((item) => <Chip key={item.id} active={selected.has(item.id)} onClick={() => toggle(item.id)}>{item.name}</Chip>)}</div></div>}
+    {beasts.length > 0 && <div className="flex flex-col gap-2"><h3 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">Creature della libreria</h3><div className="flex flex-wrap gap-1.5">{beasts.map((item) => <Chip key={item.id} active={selected.has(item.id)} onClick={() => toggle(item.id)}>{item.name} <span className="font-normal opacity-75">PF {item.data.hitPointsCurrent}/{item.data.hitPointsMax}</span></Chip>)}</div></div>}
     {!characters.length && !beasts.length && <p className="text-sm text-ink-soft">Tutti i personaggi e le creature sono già nella Sessione.</p>}
     <Button tone="primary" disabled={pending || !selected.size} onClick={submit}>Aggiungi ({selected.size})</Button>
     <CreatureEditor open={creating} creature={null} addToSession onClose={() => setCreating(false)} onSaved={() => onClose()} />

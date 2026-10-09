@@ -32,17 +32,17 @@ export function PartyTab() {
   return <div className="flex flex-col gap-4 pb-4">
     <TextInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Chi sa… (lingua o abilità, es. elfico, furtività)" aria-label="Cerca lingua o abilità nel gruppo" />
     {q && <ul className="flex flex-col gap-1.5">
-      {party.map((item) => ({ item, found: matches(item.id) })).filter(({ found }) => found.length).map(({ item, found }) => <li key={item.id} className="rounded-xl bg-white/80 px-3 py-2 text-sm"><strong>{item.name}</strong>: {found.join(" · ")}</li>)}
+      {party.map((item) => ({ item, found: matches(item.id) })).filter(({ found }) => found.length).map(({ item, found }) => <li key={item.id} className="rounded-xl bg-surface/80 px-3 py-2 text-sm"><strong>{item.name}</strong>: {found.join(" · ")}</li>)}
       {!party.some((item) => matches(item.id).length) && <li className="text-sm text-ink-soft">Nessuno.</li>}
     </ul>}
 
     <div className="-mx-4 overflow-x-auto px-4">
       <table className="w-full min-w-[640px] border-separate border-spacing-0 text-sm">
-        <thead><tr className="text-left text-[11px] uppercase tracking-wide text-ink-soft">
+        <thead><tr className="text-left font-sans text-[11px] uppercase tracking-wide text-ink-soft">
           <th className="sticky left-0 bg-parchment py-1.5 pr-2">Nome</th><th className="px-1.5">CA</th><th className="px-1.5">PF</th><th className="px-1.5">PP</th><th className="px-1.5">Iniz</th><th className="px-1.5">Vel</th>
           {abbrs.map((abbr) => <th key={abbr} className="px-1.5 text-center">TS {abbr}</th>)}<th className="px-1.5">CD inc.</th>
         </tr></thead>
-        <tbody>{party.map((item) => <tr key={item.id} onClick={() => openPanel({ kind: "pg", id: item.id })} className="cursor-pointer active:bg-white/60">
+        <tbody>{party.map((item) => <tr key={item.id} onClick={() => openPanel({ kind: "pg", id: item.id })} className="cursor-pointer active:bg-surface/60">
           <td className="sticky left-0 max-w-[9rem] truncate border-t border-line/50 bg-parchment py-2 pr-2 font-semibold text-ink">{item.name}</td>
           <td className="border-t border-line/50 px-1.5 font-bold">{item.ac ?? "—"}</td>
           <td className="border-t border-line/50 px-1.5">{item.hp ?? "—"}/{item.hpMax ?? "—"}</td>
@@ -57,7 +57,7 @@ export function PartyTab() {
     <p className="text-xs text-ink-soft">PP = Percezione passiva (in evidenza la più alta). TS in grassetto: competenza. Velocità già ridotta dall&apos;Indebolimento.</p>
 
     <section className="flex flex-col gap-1.5">
-      <h3 className="text-sm font-bold uppercase tracking-wide text-ink-soft">Lingue del gruppo</h3>
+      <h3 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">Lingue del gruppo</h3>
       <ul className="flex flex-col gap-1 text-sm">{languages.map((language) => <li key={language}><strong>{language}</strong>: <span className="text-ink-soft">{party.filter((item) => item.languages.includes(language)).map((item) => item.name).join(", ")}</span></li>)}</ul>
     </section>
   </div>;

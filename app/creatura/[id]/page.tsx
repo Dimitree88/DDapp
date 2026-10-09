@@ -38,7 +38,7 @@ export default async function CreaturePage({ params }: { params: Promise<{ id: s
         {data.abilities?.some((ability) => ability.score !== null) && <div className="mt-4 grid grid-cols-6 gap-1 text-center">
           {data.abilities.map((ability) => {
             const mod = abilityModifierValue(ability.score);
-            return <div key={ability.abbr} className="rounded-lg bg-white/60 py-1">
+            return <div key={ability.abbr} className="rounded-lg bg-surface/60 py-1">
               <div className="text-[11px] font-bold text-ink-soft">{ability.abbr}</div>
               <div className="text-sm font-bold">{ability.score ?? "—"}</div>
               <div className="text-[10px] text-ink-soft">{mod === null ? "" : signedNumber(mod)} · TS {ability.save === null ? (mod === null ? "—" : signedNumber(mod)) : signedNumber(ability.save)}</div>

@@ -115,7 +115,7 @@ function EditorBody({ creature, onClose, onSaved, addToSession }: { creature: Cr
       {field("name", "Nome *", { placeholder: "Es. Goblin", autoFocus: !creature })}
       <div className="grid grid-cols-2 gap-2">
         {field("creatureType", "Tipo", { placeholder: "Es. Bestia" })}
-        <Field label="Taglia"><select value={draft.size} onChange={(event) => set("size", event.target.value)} className="min-h-11 rounded-xl border border-line bg-white px-2 text-base text-ink">
+        <Field label="Taglia"><select value={draft.size} onChange={(event) => set("size", event.target.value)} className="min-h-11 rounded-xl border border-line bg-surface px-2 text-base text-ink">
           {[...new Set([...creatureSizes, draft.size].filter(Boolean))].map((size) => <option key={size}>{size}</option>)}
         </select></Field>
       </div>
@@ -141,7 +141,7 @@ function EditorBody({ creature, onClose, onSaved, addToSession }: { creature: Cr
 
     <Section title="Caratteristiche">
       <div className="grid grid-cols-3 gap-2 sm:grid-cols-6">
-        {draft.abilities.map((ability, index) => <div key={ability.abbr} className="flex flex-col gap-1 rounded-xl bg-white/60 p-1.5">
+        {draft.abilities.map((ability, index) => <div key={ability.abbr} className="flex flex-col gap-1 rounded-xl bg-surface/60 p-1.5">
           <span className="text-center text-xs font-bold text-ink-soft">{creatureAbilityAbbrs[index]}</span>
           <TextInput inputMode="numeric" aria-label={`Punteggio ${ability.abbr}`} placeholder="10" value={ability.score} className="px-1 text-center" onChange={(event) => set("abilities", draft.abilities.map((item, i) => i === index ? { ...item, score: event.target.value } : item))} />
           <TextInput aria-label={`Tiro salvezza ${ability.abbr}`} placeholder="TS" value={ability.save} className="px-1 text-center text-sm" onChange={(event) => set("abilities", draft.abilities.map((item, i) => i === index ? { ...item, save: event.target.value } : item))} />
@@ -159,18 +159,18 @@ function EditorBody({ creature, onClose, onSaved, addToSession }: { creature: Cr
         const attack = action.attackType.startsWith("Tiro per colpire");
         const save = action.attackType === "Tiro salvezza";
         const average = averageDamage(action.damageFormula);
-        return <div key={index} className="flex flex-col gap-2 rounded-2xl border border-line/70 bg-white/70 p-3">
+        return <div key={index} className="flex flex-col gap-2 rounded-2xl border border-line/70 bg-surface/70 p-3">
           <div className="flex items-end gap-2">
             <Field label="Nome" className="flex-1"><TextInput value={action.name} placeholder="Es. Morso" onChange={(event) => setAction(index, { name: event.target.value })} /></Field>
             <button type="button" className="min-h-11 w-9 rounded-lg text-ink-soft active:bg-parchment disabled:opacity-30" disabled={index === 0} onClick={() => moveAction(index, -1)} aria-label="Sposta su">↑</button>
             <button type="button" className="min-h-11 w-9 rounded-lg text-ink-soft active:bg-parchment disabled:opacity-30" disabled={index === draft.actions.length - 1} onClick={() => moveAction(index, 1)} aria-label="Sposta giù">↓</button>
-            <button type="button" className="min-h-11 w-9 rounded-lg text-red-800 active:bg-red-50" onClick={() => set("actions", draft.actions.filter((_, i) => i !== index))} aria-label={`Elimina ${action.name || "azione"}`}>✕</button>
+            <button type="button" className="min-h-11 w-9 rounded-lg text-danger-strong active:bg-danger/8" onClick={() => set("actions", draft.actions.filter((_, i) => i !== index))} aria-label={`Elimina ${action.name || "azione"}`}>✕</button>
           </div>
           <div className="grid grid-cols-2 gap-2">
-            <Field label="Categoria"><select value={action.category} onChange={(event) => setAction(index, { category: event.target.value as CreatureActionCategory })} className="min-h-11 rounded-xl border border-line bg-white px-2 text-base">
+            <Field label="Categoria"><select value={action.category} onChange={(event) => setAction(index, { category: event.target.value as CreatureActionCategory })} className="min-h-11 rounded-xl border border-line bg-surface px-2 text-base">
               {creatureActionCategories.map((category) => <option key={category.id} value={category.id}>{category.label}</option>)}
             </select></Field>
-            <Field label="Tipo"><select value={action.attackType} onChange={(event) => setAction(index, { attackType: event.target.value })} className="min-h-11 rounded-xl border border-line bg-white px-2 text-base">
+            <Field label="Tipo"><select value={action.attackType} onChange={(event) => setAction(index, { attackType: event.target.value })} className="min-h-11 rounded-xl border border-line bg-surface px-2 text-base">
               {[...new Set([...creatureAttackTypes, action.attackType])].map((type) => <option key={type} value={type}>{type.replace("Tiro per colpire ", "Attacco ")}</option>)}
             </select></Field>
           </div>
@@ -181,39 +181,39 @@ function EditorBody({ creature, onClose, onSaved, addToSession }: { creature: Cr
           </div>}
           {save && <div className="grid grid-cols-3 gap-2">
             <Field label="CD"><TextInput inputMode="numeric" value={action.saveDc} placeholder="13" onChange={(event) => setAction(index, { saveDc: event.target.value })} /></Field>
-            <Field label="Caratteristica"><select value={action.saveAbility} onChange={(event) => setAction(index, { saveAbility: event.target.value })} className="min-h-11 rounded-xl border border-line bg-white px-2 text-base">
+            <Field label="Caratteristica"><select value={action.saveAbility} onChange={(event) => setAction(index, { saveAbility: event.target.value })} className="min-h-11 rounded-xl border border-line bg-surface px-2 text-base">
               <option value="">—</option>{["Forza", "Destrezza", "Costituzione", "Intelligenza", "Saggezza", "Carisma"].map((ability) => <option key={ability}>{ability}</option>)}
             </select></Field>
             <Field label="Area/gittata"><TextInput value={action.range} placeholder="cono 4,5 m" onChange={(event) => setAction(index, { range: event.target.value })} /></Field>
           </div>}
           <div className="grid grid-cols-3 gap-2">
             <Field label="Formula danni"><TextInput value={action.damageFormula} placeholder="1d6 + 3" onChange={(event) => setAction(index, { damageFormula: event.target.value })}
-              className={cx(action.damageFormula && average === null && "border-red-500")} /></Field>
+              className={cx(action.damageFormula && average === null && "border-danger/70")} /></Field>
             <Field label="Media"><TextInput inputMode="numeric" value={action.hitDamage} placeholder={average === null ? "" : String(average)} onChange={(event) => setAction(index, { hitDamage: event.target.value })} /></Field>
             <Field label="Tipo danni"><TextInput value={action.damageType} placeholder="taglienti" onChange={(event) => setAction(index, { damageType: event.target.value })} /></Field>
           </div>
-          <Field label="Effetti aggiuntivi"><textarea value={action.description} rows={2} placeholder="Es. il bersaglio cade prono" onChange={(event) => setAction(index, { description: event.target.value })} className="rounded-xl border border-line bg-white px-3 py-2 text-base text-ink" /></Field>
+          <Field label="Effetti aggiuntivi"><textarea value={action.description} rows={2} placeholder="Es. il bersaglio cade prono" onChange={(event) => setAction(index, { description: event.target.value })} className="rounded-xl border border-line bg-surface px-3 py-2 text-base text-ink" /></Field>
         </div>;
       })}
       {draft.actions.length > 0 && <Button tone="ghost" onClick={() => set("actions", [...draft.actions, blankAction()])}>+ Aggiungi azione</Button>}
     </Section>
 
     <Section title="Tratti" action={<Button tone="ghost" onClick={() => set("traits", [...draft.traits, { name: "", description: "" }])}>+ Aggiungi</Button>}>
-      {draft.traits.map((trait, index) => <div key={index} className="flex flex-col gap-2 rounded-2xl border border-line/70 bg-white/70 p-3">
+      {draft.traits.map((trait, index) => <div key={index} className="flex flex-col gap-2 rounded-2xl border border-line/70 bg-surface/70 p-3">
         <div className="flex items-end gap-2">
           <Field label="Nome" className="flex-1"><TextInput value={trait.name} onChange={(event) => set("traits", draft.traits.map((item, i) => i === index ? { ...item, name: event.target.value } : item))} /></Field>
-          <button type="button" className="min-h-11 w-9 rounded-lg text-red-800 active:bg-red-50" onClick={() => set("traits", draft.traits.filter((_, i) => i !== index))} aria-label={`Elimina ${trait.name || "tratto"}`}>✕</button>
+          <button type="button" className="min-h-11 w-9 rounded-lg text-danger-strong active:bg-danger/8" onClick={() => set("traits", draft.traits.filter((_, i) => i !== index))} aria-label={`Elimina ${trait.name || "tratto"}`}>✕</button>
         </div>
-        <textarea value={trait.description} rows={3} aria-label="Descrizione del tratto" onChange={(event) => set("traits", draft.traits.map((item, i) => i === index ? { ...item, description: event.target.value } : item))} className="rounded-xl border border-line bg-white px-3 py-2 text-base text-ink" />
+        <textarea value={trait.description} rows={3} aria-label="Descrizione del tratto" onChange={(event) => set("traits", draft.traits.map((item, i) => i === index ? { ...item, description: event.target.value } : item))} className="rounded-xl border border-line bg-surface px-3 py-2 text-base text-ink" />
       </div>)}
     </Section>
 
     <Section title="Note del Master">
-      <textarea value={draft.notes} rows={3} aria-label="Note del Master" onChange={(event) => set("notes", event.target.value)} className="rounded-xl border border-line bg-white px-3 py-2 text-base text-ink" />
+      <textarea value={draft.notes} rows={3} aria-label="Note del Master" onChange={(event) => set("notes", event.target.value)} className="rounded-xl border border-line bg-surface px-3 py-2 text-base text-ink" />
     </Section>
 
     <div className="sticky bottom-0 -mx-4 flex gap-2 border-t border-line/50 bg-card px-4 pb-1 pt-3">
-      {creature && <Button tone="ghost" className="text-red-800" onClick={remove}>Elimina</Button>}
+      {creature && <Button tone="ghost" className="text-danger-strong" onClick={remove}>Elimina</Button>}
       <Button className="flex-1" onClick={onClose}>Annulla</Button>
       <Button tone="primary" className="flex-1" disabled={saving || !draft.name.trim() || !/^\d+$/.test(draft.hitPointsMax.trim()) || Number(draft.hitPointsMax) < 1} onClick={save}>{saving ? "Salvo…" : "Salva"}</Button>
     </div>

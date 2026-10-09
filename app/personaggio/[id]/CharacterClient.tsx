@@ -84,7 +84,7 @@ function FunctionalSummary({ name, sheet, details }: { name: string; sheet: Shee
   </>;
 }
 const sectionTitle =
-  "mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-ink-soft";
+  "rule-tapered mb-1.5 font-display text-[11px] font-semibold uppercase tracking-wide text-heading";
 
 function calculationEditGuide(target: CalculationTarget): string {
   if (target.kind === "armor") return "Scegli l'armatura indossata e lo scudo impugnato nella pagina Armi; poi la CA si aggiorna con Destrezza e competenza negli scudi. Questo valore non si modifica direttamente.";
@@ -114,7 +114,7 @@ function ComputedField({ label, value, explainLabel, onExplain, competent }: {
       aria-label={`Spiega il calcolo: ${explainLabel ?? label}`}
       aria-haspopup="dialog"
       className="w-full touch-manipulation text-left active:text-accent">
-      <span className="mb-0.5 flex items-center gap-1 text-[10px] font-medium uppercase tracking-wide text-ink-soft">
+      <span className="mb-0.5 flex items-center gap-1 font-sans text-[10px] font-medium uppercase tracking-wide text-ink-soft">
         {label}
       </span>
       <span className="flex min-h-[2rem] items-center rounded-lg bg-card/40 px-3 py-1 text-[15px] text-ink">
@@ -195,7 +195,7 @@ function AddWeaponSelect({ sheet, onAdd }: { sheet: Sheet; onAdd: (name: string)
 function WarningLabel({ id, name, warning }: { id: string; name: string; warning: EquipmentWarning | null }) {
   if (!warning) return null;
   return <InfoLabel id={id} title={warning.label} dialogTitle={`${name}: ${warning.label.toLocaleLowerCase("it")}`}
-    className="inline-flex min-h-7 items-center rounded border border-red-700/50 bg-red-700/10 px-2 text-[10px] font-bold text-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-red-700" />;
+    className="inline-flex min-h-7 items-center rounded border border-danger/50 bg-danger/10 px-2 text-[10px] font-bold text-danger-strong focus-visible:outline focus-visible:outline-2 focus-visible:outline-danger" />;
 }
 
 const capitalized = (text: string) => text.charAt(0).toLocaleUpperCase("it") + text.slice(1);
@@ -236,22 +236,22 @@ function OwnedWeaponList({ sheet, onChange, onExplain }: { sheet: Sheet; onChang
           <InlineInput value={weapon.quantita || "1"} onChange={(value) => update(index, { quantita: value || "1" })} numeric="unsigned" className="w-8 text-center" />
           {unlocked && <button type="button" aria-label={`Rimuovi ${weapon.nome}`} onClick={() => {
             if (window.confirm(`Eliminare ${weapon.nome}?`)) onChange(sheet.armi.filter((_, itemIndex) => itemIndex !== index));
-          }} className="flex size-8 shrink-0 items-center justify-center text-base font-medium text-red-800">×</button>}
+          }} className="flex size-8 shrink-0 items-center justify-center text-base font-medium text-danger-strong">×</button>}
         </div>
         <div className="mt-2 grid grid-cols-3 gap-1.5">
           <StatTile icon="hit" label="Colpire" tone="accent" value={displayedWeaponAttack(sheet, weapon)}
             sub={calculation ? `${calculation.ability}${calculation.proficient ? " + comp." : " · senza comp."}` : undefined}
             ariaLabel={`Spiega il tiro per colpire: ${name}`} onClick={(button) => onExplain({ kind: "weaponAttack", index }, button)} />
-          <StatTile icon="damage" label="Danni" tone="red"
+          <StatTile icon="damage" label="Danni" tone="danger"
             value={calculation ? `${calculation.dice}${calculation.modifier}` : ""} sub={calculation?.damageType}
             ariaLabel={`Spiega i danni: ${name}`} onClick={(button) => onExplain({ kind: "weaponDamage", index }, button)} />
-          <StatTile icon={range?.label === "Gittata" ? "range" : "reach"} label={range?.label ?? "Portata"} tone="sky" value={range?.value ?? ""}
+          <StatTile icon={range?.label === "Gittata" ? "range" : "reach"} label={range?.label ?? "Portata"} tone="temp" value={range?.value ?? ""}
             sub={range?.thrown ? `lancio ${range.thrown}` : range?.label === "Gittata" ? "normale/lunga" : undefined} size={range?.label === "Gittata" ? "sm" : "md"}
             ariaLabel={`Spiega ${range?.label === "Gittata" ? "la gittata" : "la portata"}: ${name}`} onClick={(button) => onExplain({ kind: "weaponRange", index }, button)} />
         </div>
         {(entry || mastery) && <div className="mt-2 flex flex-wrap gap-1">
           {entry && weaponProperties(entry.properties).map((property) => <Badge key={property}>{property}</Badge>)}
-          {mastery && <InfoLabel id={`padronanza:${entry!.name}`} title={`Padronanza: ${mastery}`} className="inline-flex items-center rounded-full border border-violet-700/25 bg-violet-100/80 px-2 py-0.5 text-[11px] font-semibold text-violet-900" />}
+          {mastery && <InfoLabel id={`padronanza:${entry!.name}`} title={`Padronanza: ${mastery}`} className="inline-flex items-center rounded-full border border-magic/25 bg-magic/10 px-2 py-0.5 text-[11px] font-semibold text-magic-ink" />}
         </div>}
         {(modes.length > 0 || entry?.finesse) && <div className="mt-2 flex flex-wrap gap-1.5">
           {modes.length > 0 && <Segmented label={`Uso di ${name}`} value={weapon.modo ?? "base"} options={modes}
@@ -282,7 +282,7 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
       </div>
       <span className="text-xs text-ink-faint">Quantità</span>
       <InlineInput value={item.quantita || "1"} onChange={(value) => patchAt(index, { quantita: value || "1" })} numeric="unsigned" className="w-8 text-center" />
-      {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-red-800">×</button>}
+      {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-danger-strong">×</button>}
     </div>;
   return <div className="flex flex-col gap-2">
     {items.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
@@ -710,7 +710,7 @@ export default function CharacterClient({
   const canLevel = Number.isInteger(levelNumber) && levelNumber >= 1 && levelNumber < 20 && Boolean(sheet.classe);
   const levelReady = canLevel && readyToLevel(sheet.livello, sheet.puntiEsperienza);
   const levelBanner = canLevel && <button type="button" onClick={() => setLevelUpOpen(true)}
-    className={`mb-2 flex min-h-12 w-full items-center justify-between gap-2 rounded-xl px-4 text-left ${levelReady ? "bg-accent text-white shadow-md" : "border border-line bg-card/70 text-ink"}`}>
+    className={`mb-2 flex min-h-12 w-full items-center justify-between gap-2 rounded-xl px-4 text-left ${levelReady ? "bg-accent text-on-accent shadow-md" : "border border-line bg-card/70 text-ink"}`}>
     <span className="text-sm font-semibold">{levelReady ? `⬆ Hai i PE per il livello ${levelNumber + 1}: sali di livello` : `↑ Passa al livello ${levelNumber + 1} (PE ${sheet.puntiEsperienza || 0}/${xpThresholds[levelNumber]})`}</span>
     <span aria-hidden>›</span>
   </button>;
@@ -853,7 +853,7 @@ export default function CharacterClient({
             <OwnedArmorEditor sheet={sheet} onChange={(items) => patch({ equipaggiamento: items })} />
           </div>
           <div>
-            <h3 className={sectionTitle}><InfoLabel id="armaturaSelezionata" title="Armatura indossata" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
+            <h3 className={sectionTitle}><InfoLabel id="armaturaSelezionata" title="Armatura indossata" className="font-display text-[11px] font-semibold uppercase tracking-wide text-heading" /></h3>
             <select aria-label="Armatura indossata" value={wornArmorId} onChange={(event) => patch({ equipaggiamento: selectWornArmor(sheet, event.target.value || null) })} className="max-w-full bg-transparent py-1 text-[15px] text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent">
               {[...armorChoices, { id: "", label: "Nessuna" }]
                 .sort((a, b) => compareOptionLabels(a.label, b.label))
@@ -881,7 +881,7 @@ export default function CharacterClient({
       body: (
         <div className="flex flex-col gap-4">
           <div>
-            <h3 className={sectionTitle}><InfoLabel id="Competenze negli strumenti" title="Competenze negli strumenti" className="text-[11px] font-semibold uppercase tracking-wide text-ink-soft" /></h3>
+            <h3 className={sectionTitle}><InfoLabel id="Competenze negli strumenti" title="Competenze negli strumenti" className="font-display text-[11px] font-semibold uppercase tracking-wide text-heading" /></h3>
             <ToolCompetencyList sheet={sheet} />
           </div>
           <div>
@@ -987,12 +987,12 @@ export default function CharacterClient({
                   {inc.stato && <Badge tone={inc.stato === "preparato" || inc.stato === "semprePreparato" ? "accent" : "neutral"}>{{ conosciuto: "Conosciuto", libro: "Nel libro", preparato: "Preparato", semprePreparato: "Sempre preparato", concesso: "Concesso" }[inc.stato]}</Badge>}
                 </div>
                 <div className="mt-2 grid grid-cols-2 gap-1.5">
-                  <StatTile icon="range" label="Gittata" tone="sky" value={detail?.gittata ? capitalized(detail.gittata) : ""} ariaLabel={`Dettagli di ${inc.nome}: gittata`} onClick={inc.nome ? openSpell : undefined} size="sm" />
-                  <StatTile icon="damage" label="Danni" tone={damage ? "red" : "neutral"} value={damage ?? ""} sub={damage ? undefined : "vedi descrizione"} ariaLabel={`Dettagli di ${inc.nome}: danni`} onClick={inc.nome ? openSpell : undefined} size="sm" />
+                  <StatTile icon="range" label="Gittata" tone="temp" value={detail?.gittata ? capitalized(detail.gittata) : ""} ariaLabel={`Dettagli di ${inc.nome}: gittata`} onClick={inc.nome ? openSpell : undefined} size="sm" />
+                  <StatTile icon="damage" label="Danni" tone={damage ? "danger" : "neutral"} value={damage ?? ""} sub={damage ? undefined : "vedi descrizione"} ariaLabel={`Dettagli di ${inc.nome}: danni`} onClick={inc.nome ? openSpell : undefined} size="sm" />
                 </div>
                 {(castingTime || detail?.durata || components || ritual) && <div className="mt-2 flex flex-wrap gap-1">
                   {castingTime && <Badge icon="time">{capitalized(castingTime)}</Badge>}
-                  {detail?.durata && <Badge icon="duration" tone={concentration ? "violet" : "neutral"}>{capitalized(detail.durata)}</Badge>}
+                  {detail?.durata && <Badge icon="duration" tone={concentration ? "magic" : "neutral"}>{capitalized(detail.durata)}</Badge>}
                   {ritual && <Badge tone="accent">Rituale</Badge>}
                   {components && <Badge>{components}</Badge>}
                 </div>}
@@ -1035,7 +1035,7 @@ export default function CharacterClient({
             })}
           </div>
           <div className="mt-2 rounded-xl border border-line bg-card/70 p-4 shadow-sm">
-            <h4 className="text-sm font-semibold text-ink">Valore equivalente totale</h4>
+            <h4 className="text-sm font-semibold text-heading">Valore equivalente totale</h4>
             <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
               {COINS.map(([lab, key]) => (
                 <div key={key} className="flex justify-between gap-2"><dt className="text-ink-soft">{lab}</dt><dd className="font-semibold text-ink">{coinValues?.[key] ?? "—"}</dd></div>
@@ -1072,12 +1072,12 @@ export default function CharacterClient({
         <ol className="flex flex-col gap-6 pb-4">
           {characterStory({ ...sheet, eventiStoria: localStoryEvents }, hitPointGains).map((chapter) => (
             <li key={chapter.trigger}>
-              <h2 className="mb-2 border-b border-accent/40 pb-1 text-base font-bold uppercase tracking-wide text-accent">{chapter.trigger}</h2>
+              <h2 className="rule-tapered mb-2 pb-1 text-base font-bold uppercase tracking-wide text-heading">{chapter.trigger}</h2>
               <ol className="flex flex-col gap-2">
                 {chapter.events.map((event, index) => (
                   <li key={`${index}-${event.title}`} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
-                    <h3 className="text-sm font-semibold text-ink">{event.title}</h3>
-                    {event.details.length > 0 && <ul className="mt-1.5 list-disc space-y-1 pl-5 marker:text-accent">
+                    <h3 className="text-sm font-semibold text-heading">{event.title}</h3>
+                    {event.details.length > 0 && <ul className="mt-1.5 list-disc list-fantasy space-y-1 pl-5 marker:text-accent">
                       {event.details.map((item, detailIndex) => <li key={detailIndex} className="break-words text-sm text-ink-soft">
                         {item.label}
                         {item.consequences && item.consequences.length > 0 && <ul className="mt-1 list-[circle] space-y-1 pl-5 marker:text-accent/70">
@@ -1126,7 +1126,7 @@ export default function CharacterClient({
                   <span className="text-lg leading-none text-ink-soft" aria-hidden>
                     ⌂
                   </span>
-                  <h1 className="truncate text-base font-bold text-ink">
+                  <h1 className="truncate text-base font-bold text-heading">
                     {name || "Senza nome"}
                   </h1>
                 </button>
@@ -1215,17 +1215,17 @@ export default function CharacterClient({
                   <button type="button" onClick={() => setShowHistory(false)} className="text-sm font-medium text-accent">
                     ← Scheda
                   </button>
-                  <h2 className="text-base font-bold text-ink">Storico modifiche</h2>
+                  <h2 className="text-base font-bold text-heading">Storico modifiche</h2>
                   <span className="w-14" />
                 </div>
                 <div className="flex-1 overflow-y-auto px-4 py-4">
                   {historyLoading ? <p className="text-sm text-ink-soft">Caricamento…</p> :
-                    historyError ? <p className="text-sm text-red-800">{historyError}</p> :
+                    historyError ? <p className="text-sm text-danger-strong">{historyError}</p> :
                       historyEntries.length === 0 ? <p className="text-sm text-ink-soft">Nessuna modifica manuale registrata.</p> :
                         <ol className="flex flex-col gap-3">
                           {groupHistoryByDay(historyEntries).map((day) => (
                             <li key={day.day} className="rounded-xl border border-line bg-card/70 p-3 shadow-sm">
-                              <h3 className="text-sm font-semibold capitalize text-accent">
+                              <h3 className="text-sm font-semibold capitalize text-heading">
                                 {historyDayFormatter.format(new Date(day.timeGroups[0].newest))}
                               </h3>
                               <ol className="mt-2 flex flex-col gap-3">
@@ -1235,7 +1235,7 @@ export default function CharacterClient({
                                       {historyTimeFormatter.format(new Date(group.oldest))}
                                       {historyTimeFormatter.format(new Date(group.oldest)) !== historyTimeFormatter.format(new Date(group.newest)) && `–${historyTimeFormatter.format(new Date(group.newest))}`}
                                     </time>
-                                    <ul className="mt-1 list-disc space-y-1 pl-5 marker:text-accent">
+                                    <ul className="mt-1 list-disc list-fantasy space-y-1 pl-5 marker:text-accent">
                                       {group.entries.flatMap((entry) => entry.changes.map((change, index) => (
                                         <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
                                           <span className="font-semibold">{change.field}</span>{"  "}
@@ -1258,9 +1258,9 @@ export default function CharacterClient({
                 onClick={closeCalculation}>
                 <div role="dialog" aria-modal="true" aria-labelledby="calculation-title"
                   onClick={(event) => event.stopPropagation()}
-                  className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-parchment p-5 text-ink shadow-xl">
+                  className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border-2 border-gold bg-card p-5 text-ink shadow-xl">
                   <div className="flex items-start justify-between gap-3">
-                    <h2 id="calculation-title" className="text-lg font-bold text-accent">{calculation.title}</h2>
+                    <h2 id="calculation-title" className="text-lg font-bold text-heading">{calculation.title}</h2>
                     <button ref={calculationClose} type="button" onClick={closeCalculation}
                       aria-label="Chiudi spiegazione"
                       className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
@@ -1273,14 +1273,14 @@ export default function CharacterClient({
               <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4" onClick={closeFieldInfo}>
                 <div role="dialog" aria-modal="true" aria-labelledby="field-info-title"
                   onClick={(event) => event.stopPropagation()}
-                  className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-line bg-parchment p-5 text-ink shadow-xl">
+                  className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border-2 border-gold bg-card p-5 text-ink shadow-xl">
                   <div className="flex items-start justify-between gap-3">
-                    <h2 id="field-info-title" className="text-lg font-bold text-accent">{fieldInfo.title}</h2>
+                    <h2 id="field-info-title" className="text-lg font-bold text-heading">{fieldInfo.title}</h2>
                     <button ref={fieldInfoClose} type="button" onClick={closeFieldInfo} aria-label="Chiudi spiegazione"
                       className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
                   </div>
                   {fieldHelp && <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed"><DiceText text={fieldHelp.meaning} /></p>}
-                  {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink-soft">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed"><DiceText text={fieldHelp.effect} /></p></>}
+                  {fieldHelp?.effect && <><h3 className="mt-4 text-xs font-semibold uppercase tracking-wide text-heading">Cosa cambia</h3><p className="mt-1 text-sm leading-relaxed"><DiceText text={fieldHelp.effect} /></p></>}
                   {fieldHelp?.page && <p className="mt-4 text-xs text-ink-soft">Manuale del Giocatore 2024, p. {fieldHelp.page}</p>}
                   {object && <div className="mt-4 flex flex-col gap-2 border-t border-line pt-3">
                     <TextField label="Oggetto" showInfo={false} showEditIcon value={object.nome} onChange={(name) => patch({ equipaggiamento: sheet.equipaggiamento.map((item, index) => index === objectIndex ? { ...item, nome: name, catalogId: gearById(item.catalogId ?? "")?.name === name ? item.catalogId : undefined } : item) })} />
@@ -1322,8 +1322,8 @@ function SaveIndicator({ state }: { state: SaveState }) {
   if (state === "idle") return null;
   const map = {
     saving: { dot: "bg-ink-faint", text: "salvo…", color: "text-ink-faint" },
-    saved: { dot: "bg-green-700", text: "salvato", color: "text-ink-faint" },
-    error: { dot: "bg-red-700", text: "errore", color: "text-red-800" },
+    saved: { dot: "bg-heal", text: "salvato", color: "text-ink-faint" },
+    error: { dot: "bg-danger", text: "errore", color: "text-danger-strong" },
   } as const;
   const s = map[state];
   return (

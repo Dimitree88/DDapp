@@ -49,7 +49,7 @@ function GroupBody({ onClose }: { onClose: () => void }) {
 
   return <div className="flex flex-col gap-3">
     <div className="grid grid-cols-3 gap-1 rounded-2xl bg-parchment/70 p-1">
-      {(Object.keys(modeLabels) as Mode[]).map((item) => <button key={item} type="button" onClick={() => setMode(item)} className={cx("min-h-11 rounded-xl text-sm font-bold", mode === item ? item === "danni" ? "bg-red-700 text-white" : item === "guarigione" ? "bg-emerald-700 text-white" : "bg-accent text-white" : "text-ink")}>{modeLabels[item]}</button>)}
+      {(Object.keys(modeLabels) as Mode[]).map((item) => <button key={item} type="button" onClick={() => setMode(item)} className={cx("min-h-11 rounded-xl text-sm font-bold", mode === item ? item === "danni" ? "bg-danger text-on-accent" : item === "guarigione" ? "bg-heal text-on-accent" : "bg-accent text-on-accent" : "text-ink")}>{modeLabels[item]}</button>)}
     </div>
     {mode !== "condizione" ? <>
       <div className="grid grid-cols-[1fr_auto] items-end gap-2">
@@ -80,12 +80,12 @@ function GroupBody({ onClose }: { onClose: () => void }) {
       {targets.map((item) => {
         const on = selected.has(item.key);
         const taken = mode === "danni" && on ? (half.has(item.key) ? Math.floor(value / 2) : value) : 0;
-        return <li key={item.key} className={cx("flex items-center gap-2 rounded-xl border p-1.5", item.enemy ? "border-red-200 bg-red-50/60" : "border-line/60 bg-white/80")}>
+        return <li key={item.key} className={cx("flex items-center gap-2 rounded-xl border p-1.5", item.enemy ? "border-danger/25 bg-danger/5" : "border-line/60 bg-surface/80")}>
           <label className="flex min-h-10 min-w-0 flex-1 items-center gap-2">
             <input type="checkbox" checked={on} onChange={() => toggle(setSelected, item.key)} className="size-6 shrink-0 accent-accent" />
             <span className="min-w-0 flex-1"><span className="block truncate font-semibold text-ink">{item.name}</span><span className="text-xs text-ink-soft">PF {item.hp ?? "—"}/{item.max ?? "—"}{taken ? ` · −${taken}` : ""}</span></span>
           </label>
-          {mode === "danni" && on && <button type="button" onClick={() => toggle(setHalf, item.key)} className={cx("min-h-10 shrink-0 rounded-lg border px-2.5 text-xs font-bold", half.has(item.key) ? "border-sky-700 bg-sky-700 text-white" : "border-line bg-white text-ink")}>{half.has(item.key) ? "TS ok: metà" : "TS fallito"}</button>}
+          {mode === "danni" && on && <button type="button" onClick={() => toggle(setHalf, item.key)} className={cx("min-h-10 shrink-0 rounded-lg border px-2.5 text-xs font-bold", half.has(item.key) ? "border-temp bg-temp text-on-accent" : "border-line bg-surface text-ink")}>{half.has(item.key) ? "TS ok: metà" : "TS fallito"}</button>}
         </li>;
       })}
     </ul>

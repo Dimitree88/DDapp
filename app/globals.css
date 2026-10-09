@@ -1,19 +1,100 @@
 @import "tailwindcss";
 
+/* ==========================================================================
+   Design System "Edamasca" — token
+   Tutti i colori, i font e le ombre dell'interfaccia passano da qui:
+   i componenti usano solo questi nomi (bg-card, text-danger, border-line...).
+   ========================================================================== */
+
 @theme inline {
-  --font-sans: var(--font-jenevers);
-  --font-serif: var(--font-jenevers);
+  /* Tipografia: titoli epici, corpo da libro antico, statistiche sans. */
+  --font-display: var(--font-cinzel), "Cinzel", Georgia, serif;
+  --font-serif: var(--font-garamond), "EB Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-open-sans), "Open Sans", system-ui, sans-serif;
 }
 
 @theme {
-  --color-parchment: #ece3d0;
-  --color-card: #fbf7ec;
-  --color-ink: #2b2014;
-  --color-ink-soft: #6f5b3e;
-  --color-ink-faint: #a08a66;
-  --color-line: #bfa67f;
-  --color-accent: #7a2618;
-  --color-accent-strong: #5c1b11;
+  /* Superfici: pergamena, pergamena chiara dei blocchi, campi e pulsanti. */
+  --color-parchment: #eee5ce;
+  --color-parchment-light: #f3e8ce;
+  --color-parchment-dark: #e6d8b8;
+  --color-card: #fdf1dc;
+  --color-surface: #fff8ea;
+  --color-flavor: #e0e5c1;
+
+  /* Inchiostro: testo principale, secondario, tenue. */
+  --color-ink: #131516;
+  --color-ink-soft: #5a4630;
+  --color-ink-faint: #8f7a5a;
+
+  /* Bordi e linee dorate dei blocchi statistiche. */
+  --color-line: #d6a055;
+  --color-gold: #e69a28;
+
+  /* Borgogna: titoli, sottolineature e azioni principali. */
+  --color-heading: #58180d;
+  --color-accent: #58180d;
+  --color-accent-strong: #3e1009;
+  --color-accent-soft: #7a200d;
+  --color-on-accent: #fdf1dc;
+
+  /* Colori di stato, toni caldi coerenti con la pergamena. */
+  --color-danger: #a3260f;
+  --color-danger-strong: #7e1b0c;
+  --color-danger-ink: #4e120a;
+  --color-heal: #3f6b2a;
+  --color-heal-strong: #2f5320;
+  --color-heal-ink: #213b16;
+  --color-temp: #2f5e7a;
+  --color-temp-strong: #234a61;
+  --color-temp-ink: #1a3647;
+  --color-warn: #c9821f;
+  --color-warn-strong: #a86a14;
+  --color-warn-ink: #5a3a0c;
+  --color-magic: #5b3a75;
+  --color-magic-ink: #3a2350;
+
+  /* Ombre calde dei blocchi (stat block). */
+  --shadow-sm: 0 1px 2px rgb(88 24 13 / 0.12), 0 0 0 1px rgb(214 160 85 / 0.08);
+  --shadow-md: 0 2px 6px rgb(88 24 13 / 0.16);
+  --shadow-lg: 0 6px 16px rgb(88 24 13 / 0.18);
+  --shadow-xl: 0 10px 24px rgb(88 24 13 / 0.22);
+  --shadow-2xl: 0 18px 40px rgb(42 12 6 / 0.32);
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+  }
+  ::selection {
+    background: rgb(230 154 40 / 0.35);
+  }
+}
+
+@layer components {
+  /* Separatore che si assottiglia verso destra sotto i titoli di sezione. */
+  .rule-tapered {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, var(--color-heading) 0%, var(--color-heading) 60%, transparent 100%) 1;
+    padding-bottom: 2px;
+  }
+  /* Box di testo descrittivo (read-aloud). */
+  .read-aloud {
+    background-color: var(--color-card);
+    box-shadow: 0 0 5px #d9c8a3 inset;
+    font-style: italic;
+  }
+  /* Nota del DM / avviso di meccanica: bordo sinistro marcato. */
+  .dm-note {
+    border-left: 4px solid var(--color-heading);
+    background-color: rgb(230 154 40 / 0.1);
+  }
+  /* Elenchi puntati fantasy. */
+  .list-fantasy > li::marker {
+    content: "✦  ";
+    color: var(--color-accent-soft);
+  }
 }
 
 html {
@@ -21,13 +102,15 @@ html {
 }
 
 body {
-  font-family: var(--font-jenevers), Georgia, "Times New Roman", serif;
+  font-family: var(--font-serif);
   overscroll-behavior: none;
   background-color: var(--color-parchment);
+  color: var(--color-ink);
 }
 
 /* Strato di pergamena fisso dietro al contenuto: copre sempre la viewport
-   e non si deforma con lo scroll (evita i bug di background-attachment su iOS). */
+   e non si deforma con lo scroll (evita i bug di background-attachment su iOS).
+   La texture si fonde in multiply con la tinta della pergamena. */
 body::before {
   content: "";
   position: fixed;
@@ -35,6 +118,7 @@ body::before {
   z-index: -1;
   background: url(/background.webp) center / cover no-repeat;
   background-color: var(--color-parchment);
+  background-blend-mode: multiply;
 }
 
 /* Nasconde la scrollbar orizzontale del carosello mantenendo lo scroll */

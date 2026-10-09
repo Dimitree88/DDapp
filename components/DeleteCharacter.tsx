@@ -15,7 +15,7 @@ export function DeleteCharacter({ id, name }: { id: string; name: string }) {
       <button
         type="submit"
         aria-label={`Elimina ${name}`}
-        className="flex items-center rounded-r-xl border-l border-line px-4 text-ink-faint transition-colors active:bg-red-900/10 active:text-red-800"
+        className="flex items-center rounded-r-xl border-l border-line px-4 text-ink-faint transition-colors active:bg-danger-ink/10 active:text-danger-strong"
       >
         <svg
           viewBox="0 0 24 24"

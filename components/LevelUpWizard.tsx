@@ -63,7 +63,7 @@ function WizardBody({ characterId, onClose, onLeveled, onSaved, scores }: { char
     return list;
   })();
 
-  if (loadError) return <div className="flex flex-col gap-3"><p className="rounded-xl bg-red-50 px-3 py-2 text-red-900">{loadError}</p><Button onClick={onClose}>Chiudi</Button></div>;
+  if (loadError) return <div className="flex flex-col gap-3"><p className="rounded-xl bg-danger/8 px-3 py-2 text-danger-ink">{loadError}</p><Button onClick={onClose}>Chiudi</Button></div>;
   if (!plan) return <p className="py-8 text-center text-ink-soft">Preparo il passaggio di livello…</p>;
   if (result) return <Done plan={plan} result={result} onClose={() => { onLeveled?.(result.level); onClose(); }} />;
 
@@ -85,15 +85,15 @@ function WizardBody({ characterId, onClose, onLeveled, onSaved, scores }: { char
   return <div className="flex flex-col gap-4">
     <div className="flex items-center justify-between gap-2">
       <div>
-        <p className="text-xs font-bold uppercase tracking-wide text-accent">{plan.characterName} · {plan.classe}</p>
-        <h3 className="text-xl font-bold text-ink">Livello {plan.from} → {plan.to}</h3>
+        <p className="font-display text-xs font-bold uppercase tracking-wide text-accent">{plan.characterName} · {plan.classe}</p>
+        <h3 className="text-xl font-bold text-heading">Livello {plan.from} → {plan.to}</h3>
       </div>
       <span className="text-sm text-ink-soft">{step + 1}/{steps.length}</span>
     </div>
     <ol className="flex gap-1" aria-label="Avanzamento">
       {steps.map((item, index) => <li key={item} className={cx("h-1.5 flex-1 rounded-full", index <= step ? "bg-accent" : "bg-line/50")} title={stepTitles[item]} />)}
     </ol>
-    <h4 className="text-lg font-bold text-ink">{stepTitles[current]}</h4>
+    <h4 className="text-lg font-bold text-heading">{stepTitles[current]}</h4>
 
     {current === "inizio" && <Intro plan={plan} belowXp={belowXp} setBelowXp={setBelowXp} />}
     {current === "pf" && <HitPoints plan={plan} choices={choices} set={set} />}
@@ -105,7 +105,7 @@ function WizardBody({ characterId, onClose, onLeveled, onSaved, scores }: { char
     {current === "privilegi" && <FeaturesStep plan={plan} subclass={subclass} choices={choices} set={set} />}
     {current === "riepilogo" && <Review plan={plan} subclass={subclass} choices={choices} />}
 
-    {error && <p role="alert" className="rounded-xl bg-red-50 px-3 py-2 text-sm font-semibold text-red-900">{error}</p>}
+    {error && <p role="alert" className="rounded-xl bg-danger/8 px-3 py-2 text-sm font-semibold text-danger-ink">{error}</p>}
     <div className="sticky bottom-0 -mx-4 flex gap-2 border-t border-line/50 bg-card px-4 pb-1 pt-3">
       {step > 0 ? <Button className="flex-1" onClick={() => setStep(step - 1)}>‹ Indietro</Button> : <Button className="flex-1" onClick={onClose}>Annulla</Button>}
       {last
@@ -153,7 +153,7 @@ function stepValid(step: Step, plan: LevelUpPlan, choices: LevelUpChoices, below
 // --- Passi --------------------------------------------------------------
 
 function Box({ title, children, tone }: { title?: string; children: ReactNode; tone?: "warn" | "info" }) {
-  return <div className={cx("rounded-2xl p-3 text-sm", tone === "warn" ? "bg-amber-100 text-amber-950" : "bg-white/75 text-ink")}>
+  return <div className={cx("rounded-2xl p-3 text-sm", tone === "warn" ? "bg-warn/15 text-warn-ink" : "bg-surface/75 text-ink")}>
     {title && <p className="mb-1 font-bold">{title}</p>}{children}
   </div>;
 }
@@ -173,7 +173,7 @@ function Intro({ plan, belowXp, setBelowXp }: { plan: LevelUpPlan; belowXp: bool
         <span>Procedi comunque: il gruppo ha deciso di salire di livello. I PE non vengono modificati.</span></label>
     </Box>}
     <Box title="Cosa ottieni">
-      <ul className="list-inside list-disc">
+      <ul className="list-inside list-disc list-fantasy">
         <li>Un Dado Vita (d{plan.hitDie}) e i relativi punti ferita</li>
         {plan.subclass.required && <li>La sottoclasse: da scegliere</li>}
         {features.map((item) => <li key={item.id}>{item.name}{item.detail ? ` (${item.detail})` : ""}</li>)}
@@ -190,10 +190,10 @@ function HitPoints({ plan, choices, set }: { plan: LevelUpPlan; choices: LevelUp
   return <div className="flex flex-col gap-3">
     <p className="text-sm text-ink-soft">Tira il Dado Vita e aggiungi il modificatore di Costituzione (minimo 1), oppure usa il valore fisso della classe (p. 42).</p>
     <div className="grid grid-cols-2 gap-2">
-      <button type="button" onClick={() => set({ hp: { method: "fisso" } })} className={cx("flex min-h-24 flex-col items-center justify-center rounded-2xl border-2 p-2", choices.hp.method === "fisso" ? "border-accent bg-accent/10" : "border-line bg-white/70")}>
+      <button type="button" onClick={() => set({ hp: { method: "fisso" } })} className={cx("flex min-h-24 flex-col items-center justify-center rounded-2xl border-2 p-2", choices.hp.method === "fisso" ? "border-accent bg-accent/10" : "border-line bg-surface/70")}>
         <span className="text-sm font-semibold text-ink-soft">Valore fisso</span><span className="text-3xl font-bold text-ink">{plan.fixedGain}</span>
       </button>
-      <button type="button" onClick={() => set({ hp: { method: "tiro", roll: choices.hp.method === "tiro" && choices.hp.roll ? choices.hp.roll : rollDie(plan.hitDie) } })} className={cx("flex min-h-24 flex-col items-center justify-center rounded-2xl border-2 p-2", choices.hp.method === "tiro" ? "border-accent bg-accent/10" : "border-line bg-white/70")}>
+      <button type="button" onClick={() => set({ hp: { method: "tiro", roll: choices.hp.method === "tiro" && choices.hp.roll ? choices.hp.roll : rollDie(plan.hitDie) } })} className={cx("flex min-h-24 flex-col items-center justify-center rounded-2xl border-2 p-2", choices.hp.method === "tiro" ? "border-accent bg-accent/10" : "border-line bg-surface/70")}>
         <span className="text-sm font-semibold text-ink-soft">🎲 Tira d{plan.hitDie}</span><span className="text-3xl font-bold text-ink">{choices.hp.method === "tiro" ? choices.hp.roll : "?"}</span>
       </button>
     </div>
@@ -211,7 +211,7 @@ function HitPoints({ plan, choices, set }: { plan: LevelUpPlan; choices: LevelUp
 
 function FeatureCard({ feature, children }: { feature: LevelFeature; children?: ReactNode }) {
   const [open, setOpen] = useState(false);
-  return <div className="rounded-2xl border border-line/60 bg-white/80 p-3">
+  return <div className="rounded-2xl border border-line/60 bg-surface/80 p-3">
     <button type="button" onClick={() => setOpen(!open)} className="flex w-full items-center justify-between gap-2 text-left">
       <span className="font-bold text-ink">{feature.name}{feature.detail ? ` (${feature.detail})` : ""}</span>
       <span className="shrink-0 text-xs text-ink-soft">{feature.page ? `p. ${feature.page}` : ""} {open ? "▲" : "▼"}</span>
@@ -224,9 +224,9 @@ function FeatureCard({ feature, children }: { feature: LevelFeature; children?: 
 function SubclassStep({ plan, value, onChange }: { plan: LevelUpPlan; value?: string; onChange: (value: string) => void }) {
   const [expanded, setExpanded] = useState<string | null>(null);
   return <div className="flex flex-col gap-2">
-    {plan.subclass.options.map((option) => <div key={option.name} className={cx("rounded-2xl border-2 p-3", value === option.name ? "border-accent bg-accent/10" : "border-line/60 bg-white/80")}>
+    {plan.subclass.options.map((option) => <div key={option.name} className={cx("rounded-2xl border-2 p-3", value === option.name ? "border-accent bg-accent/10" : "border-line/60 bg-surface/80")}>
       <button type="button" onClick={() => onChange(option.name)} className="flex w-full items-center gap-3 text-left">
-        <span className={cx("flex size-6 shrink-0 items-center justify-center rounded-full border-2", value === option.name ? "border-accent bg-accent text-white" : "border-line")}>{value === option.name ? "✓" : ""}</span>
+        <span className={cx("flex size-6 shrink-0 items-center justify-center rounded-full border-2", value === option.name ? "border-accent bg-accent text-on-accent" : "border-line")}>{value === option.name ? "✓" : ""}</span>
         <span className="flex-1"><span className="block font-bold text-ink">{option.name}</span><span className="text-xs text-ink-soft">{option.features.map((item) => item.name).join(" · ")}{option.page ? ` · p. ${option.page}` : ""}</span></span>
       </button>
       <button type="button" onClick={() => setExpanded(expanded === option.name ? null : option.name)} className="mt-1 text-sm font-semibold text-accent">{expanded === option.name ? "Nascondi" : "Leggi"}</button>
@@ -249,8 +249,8 @@ function FeatStep({ plan, choices, set, scores }: { plan: LevelUpPlan; choices: 
   return <div className="flex flex-col gap-3">
     <p className="text-sm text-ink-soft">{feat.reason === "asi" ? "Aumento dei punteggi di caratteristica oppure un altro talento di cui hai i prerequisiti (p. 203)." : feat.reason === "epico" ? "Un Dono epico oppure un altro talento di cui hai i prerequisiti." : "Un talento Stile di Combattimento."}</p>
     {feat.alternative && <div className="grid grid-cols-2 gap-1 rounded-2xl bg-parchment/70 p-1">
-      <button type="button" onClick={() => set({ feat: { name: choices.feat?.name, increases: choices.feat?.increases, alternative: false } })} className={cx("min-h-11 rounded-xl text-sm font-bold", !alternative ? "bg-accent text-white" : "text-ink")}>Talento</button>
-      <button type="button" onClick={() => set({ feat: { alternative: true, cantrips: [] } })} className={cx("min-h-11 rounded-xl text-sm font-bold", alternative ? "bg-accent text-white" : "text-ink")}>{feat.alternative.name}</button>
+      <button type="button" onClick={() => set({ feat: { name: choices.feat?.name, increases: choices.feat?.increases, alternative: false } })} className={cx("min-h-11 rounded-xl text-sm font-bold", !alternative ? "bg-accent text-on-accent" : "text-ink")}>Talento</button>
+      <button type="button" onClick={() => set({ feat: { alternative: true, cantrips: [] } })} className={cx("min-h-11 rounded-xl text-sm font-bold", alternative ? "bg-accent text-on-accent" : "text-ink")}>{feat.alternative.name}</button>
     </div>}
     {alternative && feat.alternative ? <SpellPicker label={`Due trucchetti da ${feat.alternative.list} (caratteristica ${feat.alternative.ability})`} options={feat.alternative.options} max={2} value={choices.feat?.cantrips ?? []} onChange={(value) => set({ feat: { alternative: true, cantrips: value } })} /> : <>
       {selected ? <div className="rounded-2xl border-2 border-accent bg-accent/5 p-3">
@@ -261,7 +261,7 @@ function FeatStep({ plan, choices, set, scores }: { plan: LevelUpPlan; choices: 
       </div> : <>
         <TextInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Cerca talento…" aria-label="Cerca talento" />
         <ul className="flex max-h-[45dvh] flex-col gap-1.5 overflow-y-auto">
-          {filtered.map((option) => <li key={option.name}><button type="button" onClick={() => choose(option)} className="flex w-full flex-col rounded-xl bg-white/80 px-3 py-2 text-left active:bg-white">
+          {filtered.map((option) => <li key={option.name}><button type="button" onClick={() => choose(option)} className="flex w-full flex-col rounded-xl bg-surface/80 px-3 py-2 text-left active:bg-surface">
             <span className="font-semibold text-ink">{option.name}</span>
             <span className="text-xs text-ink-soft">{option.category}{option.increase.kind === "asi" ? " · +2 o +1/+1" : option.increase.kind !== "none" ? ` · +1 ${option.increase.abilities.length === 6 ? "a scelta" : option.increase.abilities.join("/")}` : ""}</span>
           </button></li>)}
@@ -282,7 +282,7 @@ function Increase({ option, value, onChange, scores }: { option: FeatOption; val
         const current = value[abbr] ?? 0;
         const score = scores?.[abbr];
         const blocked = score !== undefined && score + current + 1 > option.increase.cap;
-        return <div key={abbr} className={cx("flex flex-col items-center rounded-xl border p-1.5", current ? "border-accent bg-accent/10" : "border-line bg-white/70")}>
+        return <div key={abbr} className={cx("flex flex-col items-center rounded-xl border p-1.5", current ? "border-accent bg-accent/10" : "border-line bg-surface/70")}>
           <span className="text-xs font-bold text-ink-soft">{abbr}</span>
           <span className="text-sm text-ink">{score ?? "—"}{current ? <strong className="text-accent"> → {(score ?? 0) + current}</strong> : null}</span>
           <div className="mt-1 flex gap-1">
@@ -340,10 +340,10 @@ function SpellDescription({ item }: { item: SpellOption }) {
 
 function SpellRow({ item, selected, disabled, onToggle }: { item: SpellOption; selected: boolean; disabled: boolean; onToggle: () => void }) {
   const [open, setOpen] = useState(false);
-  return <li className={cx("rounded-xl border p-2", selected ? "border-accent bg-accent/10" : "border-line/60 bg-white/80", disabled && !selected && "opacity-50")}>
+  return <li className={cx("rounded-xl border p-2", selected ? "border-accent bg-accent/10" : "border-line/60 bg-surface/80", disabled && !selected && "opacity-50")}>
     <div className="flex items-start gap-2">
       <button type="button" onClick={onToggle} disabled={disabled && !selected} aria-pressed={selected} aria-label={`${selected ? "Togli" : "Scegli"} ${item.name}`}
-        className={cx("mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-lg border-2 text-sm font-bold", selected ? "border-accent bg-accent text-white" : "border-line bg-white")}>{selected ? "✓" : ""}</button>
+        className={cx("mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-lg border-2 text-sm font-bold", selected ? "border-accent bg-accent text-on-accent" : "border-line bg-surface")}>{selected ? "✓" : ""}</button>
       <button type="button" onClick={() => setOpen(!open)} className="min-w-0 flex-1 text-left" aria-expanded={open}>
         <span className="block font-semibold text-ink">{item.name}{item.concentration && <span className="ml-1 text-xs text-accent">C</span>}{item.ritual && <span className="ml-1 text-xs text-accent">R</span>}</span>
         <span className="block text-xs text-ink-soft">{spellMeta(item)}</span>
@@ -361,14 +361,14 @@ function SpellPicker({ label, options, max, value, onChange, exclude = [] }: { l
   const levels = [...new Set(list.map((item) => item.level))];
   const limit = Math.min(max, options.length);
   const toggle = (name: string) => onChange(value.includes(name) ? value.filter((entry) => entry !== name) : [...value, name]);
-  return <div className="flex flex-col gap-2 rounded-2xl bg-white/60 p-3">
-    <p className="text-sm font-semibold text-ink">{label} <span className={cx(value.length === limit ? "text-emerald-700" : "text-ink-soft")}>({value.length}/{limit})</span></p>
+  return <div className="flex flex-col gap-2 rounded-2xl bg-surface/60 p-3">
+    <p className="text-sm font-semibold text-ink">{label} <span className={cx(value.length === limit ? "text-heal" : "text-ink-soft")}>({value.length}/{limit})</span></p>
     {value.length > 0 && <div className="flex flex-wrap gap-1.5">{value.map((name) => <Chip key={name} active onClick={() => toggle(name)}>{name} ✕</Chip>)}</div>}
     <p className="text-xs text-ink-soft">Tocca il nome per leggere cosa fa; tocca il quadrato per sceglierlo.</p>
     {options.length > 6 && <TextInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Cerca per nome o scuola…" aria-label="Cerca incantesimo" />}
     <div className="flex max-h-[45dvh] flex-col gap-2 overflow-y-auto">
       {levels.map((level) => <div key={level}>
-        <p className="mb-1 text-xs font-bold uppercase tracking-wide text-ink-soft">{level === 0 ? "Trucchetti" : `${level}° livello`}</p>
+        <p className="mb-1 text-xs font-bold uppercase tracking-wide text-heading rule-tapered font-display">{level === 0 ? "Trucchetti" : `${level}° livello`}</p>
         <ul className="flex flex-col gap-1.5">{list.filter((item) => item.level === level).map((item) => <SpellRow key={item.name} item={item} selected={value.includes(item.name)} disabled={value.length >= max} onToggle={() => toggle(item.name)} />)}</ul>
       </div>)}
       {!list.length && <p className="text-sm text-ink-soft">Nessun incantesimo disponibile.</p>}
@@ -380,10 +380,10 @@ function Replace({ label, from, to, onChange }: { label: string; from: string[];
   const [state, setState] = useState<{ from: string; to: string } | null>(null);
   const update = (next: { from: string; to: string } | null) => { setState(next); onChange(next); };
   const chosen = to.find((item) => item.name === state?.to);
-  return <div className="flex flex-col gap-2 rounded-2xl bg-white/60 p-3">
+  return <div className="flex flex-col gap-2 rounded-2xl bg-surface/60 p-3">
     <label className="flex items-center gap-2 text-sm font-semibold text-ink"><input type="checkbox" checked={Boolean(state)} onChange={(event) => update(event.target.checked ? { from: "", to: "" } : null)} className="size-5 accent-accent" />{label} (facoltativo)</label>
     {state && <>
-      <select value={state.from} onChange={(event) => update({ ...state, from: event.target.value })} className="min-h-11 rounded-xl border border-line bg-white px-2 text-base" aria-label="Da sostituire"><option value="">Togli…</option>{from.map((name) => <option key={name}>{name}</option>)}</select>
+      <select value={state.from} onChange={(event) => update({ ...state, from: event.target.value })} className="min-h-11 rounded-xl border border-line bg-surface px-2 text-base" aria-label="Da sostituire"><option value="">Togli…</option>{from.map((name) => <option key={name}>{name}</option>)}</select>
       <SpellPicker label="Con" options={to} max={1} value={state.to ? [state.to] : []} onChange={(value) => update({ ...state, to: value[0] ?? "" })} />
       {chosen && <p className="text-xs text-ink-soft">Scelto: {chosen.name} ({spellMeta(chosen)})</p>}
     </>}
@@ -435,7 +435,7 @@ function Review({ plan, subclass, choices }: { plan: LevelUpPlan; subclass: stri
     choices.masteries?.length && `Padronanze: ${choices.masteries.join(", ")}`,
   ].filter(Boolean) as string[];
   return <div className="flex flex-col gap-2">
-    <Box><ul className="list-inside list-disc">{lines.map((line, index) => <li key={index}>{line}</li>)}</ul></Box>
+    <Box><ul className="list-inside list-disc list-fantasy">{lines.map((line, index) => <li key={index}>{line}</li>)}</ul></Box>
     <p className="text-sm text-ink-soft">La conferma salva tutto in un solo passaggio e lo registra nella Storia{plan.subclass.current || subclass ? "" : ""}. Annullare ora non cambia la scheda.</p>
   </div>;
 }
@@ -447,13 +447,13 @@ function Done({ plan, result, onClose }: { plan: LevelUpPlan; result: { level: n
   ];
   return <div className="flex flex-col gap-3">
     <p className="text-center text-4xl" aria-hidden>🎉</p>
-    <h3 className="text-center text-xl font-bold text-ink">Livello {result.level} raggiunto! Ecco le novità di {plan.characterName}:</h3>
+    <h3 className="text-center text-xl font-bold text-heading">Livello {result.level} raggiunto! Ecco le novità di {plan.characterName}:</h3>
     {groups.map((group) => {
       const items = result.summary.filter((item) => item.kind === group.kind);
       if (!items.length) return null;
-      return <div key={group.kind} className="rounded-2xl bg-white/75 p-3">
-        <p className="mb-1 text-sm font-bold uppercase tracking-wide text-ink-soft">{group.title}</p>
-        <ul className="list-inside list-disc text-[15px] text-ink">{items.map((item, index) => <li key={index}>{item.text}{item.page ? <span className="text-ink-soft"> (p. {item.page})</span> : null}</li>)}</ul>
+      return <div key={group.kind} className="rounded-2xl bg-surface/75 p-3">
+        <p className="mb-1 text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">{group.title}</p>
+        <ul className="list-inside list-disc list-fantasy text-[15px] text-ink">{items.map((item, index) => <li key={index}>{item.text}{item.page ? <span className="text-ink-soft"> (p. {item.page})</span> : null}</li>)}</ul>
       </div>;
     })}
     <Button tone="primary" className="min-h-12" onClick={onClose}>Fatto</Button>
