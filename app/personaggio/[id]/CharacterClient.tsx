@@ -1117,6 +1117,12 @@ export default function CharacterClient({
     "Storia",
   ];
   const pages = pageOrder.map((t) => pageDefs.find((p) => p.title === t)!);
+  const summarySlots = spellSlots(sheet).filter((slot) => slot.maximum > 0);
+  const summarySlotsAvailable = summarySlots.reduce((total, slot) => total + slot.maximum - slot.spent, 0);
+  const summarySlotsMaximum = summarySlots.reduce((total, slot) => total + slot.maximum, 0);
+  const summaryWeapons = sheet.armi.filter((weapon) => weapon.impugnata).map((weapon) => weapon.nome);
+  const summaryArmor = selectedArmor?.nome ?? "Nessuna";
+  const summaryShield = selectedShield?.nome ?? (sheet.scudo ? "Scudo" : null);
 
   return (
     <EditProvider unlocked={true} requireUnlock={() => { }}>
@@ -1188,6 +1194,15 @@ export default function CharacterClient({
             {showHub && (
               <div className="absolute inset-0 z-20 flex flex-col overflow-y-auto bg-parchment/95 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur">
                 {levelReady && levelBanner}
+                <section aria-label="Situazione attuale" className="mb-3 rounded-xl border border-line bg-card/70 p-3 shadow-sm">
+                  <h2 className="font-display text-[11px] font-semibold uppercase tracking-wide text-heading">Situazione attuale</h2>
+                  <dl className="mt-2 grid grid-cols-2 gap-x-3 gap-y-2 text-xs">
+                    <div><dt className="text-ink-soft">Punti ferita</dt><dd className="font-semibold text-ink">{sheet.puntiFerita || "—"} / {sheet.puntiFeritaMax || "—"}</dd></div>
+                    <div><dt className="text-ink-soft">Ispirazione eroica</dt><dd className="font-semibold text-ink">{sheet.ispirazioneEroica ? "Sì" : "No"}</dd></div>
+                    <div className="col-span-2"><dt className="text-ink-soft">Indossati e impugnati</dt><dd className="font-semibold text-ink">Armatura: {summaryArmor} · Scudo: {summaryShield ?? "Nessuno"} · Armi: {summaryWeapons.length ? summaryWeapons.join(", ") : "Nessuna"}</dd></div>
+                    <div className="col-span-2"><dt className="text-ink-soft">Slot incantesimo</dt><dd className="font-semibold text-ink">{summarySlotsMaximum ? `${summarySlotsAvailable} / ${summarySlotsMaximum} disponibili` : "Nessuno"}{summarySlots.length > 1 ? ` · ${summarySlots.map((slot) => `${slot.maximum - slot.spent}/${slot.maximum} di ${slot.level}°`).join(" · ")}` : ""}</dd></div>
+                  </dl>
+                </section>
                 <div className="grid grid-cols-2 gap-2.5">
                   {pages.map((p, i) => (
                     <button
