@@ -16,6 +16,38 @@ import { stableJson } from "@/lib/masterView";
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 export type BundleReceipt = { name: string };
 
+export type CharacterLiveFields = Pick<Sheet, "puntiFerita" | "ispirazioneEroica" | "puntiEsperienza"> & {
+  puntiFeritaTemporanei: string;
+  dadiVitaSpesi: string;
+  tiriMorte: NonNullable<Sheet["tiriMorte"]> | null;
+  statoMorte: Sheet["statoMorte"] | null;
+  condizioni: NonNullable<Sheet["condizioni"]>;
+  indebolimento: number;
+  concentrazione: Sheet["concentrazione"] | null;
+  risorse: NonNullable<Sheet["risorse"]>;
+  slotSpesi: Record<string, number>;
+};
+
+export async function getCharacterLiveFields(id: string): Promise<CharacterLiveFields | null> {
+  const [row] = await db.select({ data: characters.data }).from(characters).where(eq(characters.id, id));
+  if (!row) return null;
+  const sheet = normalizeSheet(row.data);
+  return {
+    puntiFerita: sheet.puntiFerita,
+    puntiFeritaTemporanei: sheet.puntiFeritaTemporanei ?? "0",
+    dadiVitaSpesi: sheet.dadiVitaSpesi ?? "0",
+    tiriMorte: sheet.tiriMorte ?? null,
+    statoMorte: sheet.statoMorte ?? null,
+    condizioni: sheet.condizioni ?? [],
+    indebolimento: sheet.indebolimento ?? 0,
+    concentrazione: sheet.concentrazione ?? null,
+    ispirazioneEroica: sheet.ispirazioneEroica,
+    puntiEsperienza: sheet.puntiEsperienza,
+    risorse: sheet.risorse ?? [],
+    slotSpesi: sheet.slotSpesi ?? {},
+  };
+}
+
 export async function deleteCharacter(id: string) {
   await db.transaction(async (tx) => {
     await tx.delete(characterHistory).where(eq(characterHistory.characterId, id));

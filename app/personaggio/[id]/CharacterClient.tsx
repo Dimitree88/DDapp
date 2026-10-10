@@ -19,7 +19,7 @@ import {
   FieldInfoContext,
   InfoLabel,
 } from "@/components/fields";
-import { getCharacterHistory, saveSheet, type HistoryEntry } from "@/app/actions";
+import { getCharacterHistory, getCharacterLiveFields, saveSheet, type HistoryEntry } from "@/app/actions";
 import { groupHistoryByDay } from "@/lib/history";
 import { characterStory } from "@/lib/characterStory";
 import regole from "@/lib/manuale-2024-domains.json";
@@ -379,6 +379,7 @@ export default function CharacterClient({
   const [showHub, setShowHub] = useState(true);
 
   const [saveState, setSaveState] = useState<SaveState>("idle");
+  const remoteSheetUpdate = useRef(false);
   const firstRun = useRef(true);
   const saveChainRef = useRef<Promise<void>>(Promise.resolve());
   const [showHistory, setShowHistory] = useState(false);
@@ -399,6 +400,45 @@ export default function CharacterClient({
     const timer = window.setTimeout(() => setEquipmentNotice(""), 2500);
     return () => window.clearTimeout(timer);
   }, [equipmentNotice]);
+
+  // Sincronizza solo i campi di gioco modificabili dai comandi del master.
+  useEffect(() => {
+    if (!showHub) return;
+    let active = true;
+    let fetching = false;
+    const sync = async () => {
+      if (!active || fetching || document.visibilityState !== "visible" || showHistory || levelUpOpen || saveState === "saving") return;
+      fetching = true;
+      try {
+        const latest = await getCharacterLiveFields(id);
+        if (active && latest) {
+          const current = sheetRef.current;
+          const merged: Sheet = {
+            ...current,
+            ...latest,
+            tiriMorte: latest.tiriMorte ?? undefined,
+            statoMorte: latest.statoMorte ?? undefined,
+            concentrazione: latest.concentrazione ?? undefined,
+          };
+          if (JSON.stringify(current) !== JSON.stringify(merged)) {
+            remoteSheetUpdate.current = true;
+            setSheet(merged);
+          }
+        }
+      } catch {
+        // Errori temporanei di rete verranno ritentati al prossimo controllo.
+      } finally {
+        fetching = false;
+      }
+    };
+    const interval = window.setInterval(sync, 15000);
+    window.addEventListener("focus", sync);
+    return () => {
+      active = false;
+      window.clearInterval(interval);
+      window.removeEventListener("focus", sync);
+    };
+  }, [id, showHub, showHistory, levelUpOpen, saveState]);
 
   useEffect(() => {
     if (!calculationTarget) return;
@@ -596,6 +636,10 @@ export default function CharacterClient({
 
   // Salvataggio automatico: a ogni modifica, con debounce. Le richieste restano in ordine.
   useEffect(() => {
+    if (remoteSheetUpdate.current) {
+      remoteSheetUpdate.current = false;
+      return;
+    }
     if (firstRun.current) {
       firstRun.current = false;
       return;
