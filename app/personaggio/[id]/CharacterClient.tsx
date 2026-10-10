@@ -55,7 +55,7 @@ import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
 import { recordedValueDetails } from "@/lib/recordedValueDetails";
 import { displayedArmorClass } from "@/lib/armorClass";
-import { addCatalogEquipment, addOwnedArmor, armorForEquipment, isArmorEquipment, removeOwnedArmor, replaceOtherEquipment, selectHeldShield, selectWornArmor } from "@/lib/equipmentSelection";
+import { addCatalogEquipment, addOwnedArmor, armorForEquipment, heldHandsUsed, isArmorEquipment, removeOwnedArmor, replaceOtherEquipment, selectHeldShield, selectHeldWeapon, selectWornArmor, weaponHandUsage } from "@/lib/equipmentSelection";
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { DiceText } from "@/components/DiceText";
 import { LevelUpWizard } from "@/components/LevelUpWizard";
@@ -237,6 +237,11 @@ function OwnedWeaponList({ sheet, onChange, onExplain }: { sheet: Sheet; onChang
           {unlocked && <button type="button" aria-label={`Rimuovi ${weapon.nome}`} onClick={() => {
             if (window.confirm(`Eliminare ${weapon.nome}?`)) onChange(sheet.armi.filter((_, itemIndex) => itemIndex !== index));
           }} className="flex size-8 shrink-0 items-center justify-center text-base font-medium text-danger-strong">×</button>}
+        </div>
+        <div className="mt-2 flex items-center gap-2">
+          <Toggle label="Impugnata" checked={Boolean(weapon.impugnata)} locked={!weapon.impugnata && (Number(weapon.quantita || "1") < 1 || heldHandsUsed(sheet) + weaponHandUsage(sheet, index) > 2)}
+            onChange={(enabled) => onChange(selectHeldWeapon(sheet, index, enabled))} />
+          {weapon.impugnata && weaponHandUsage(sheet, index) === 2 && <span className="text-xs text-ink-soft">Occupa entrambe le mani.</span>}
         </div>
         <div className="mt-2 grid grid-cols-3 gap-1.5">
           <StatTile icon="hit" label="Colpire" tone="accent" value={displayedWeaponAttack(sheet, weapon)}
@@ -859,7 +864,7 @@ export default function CharacterClient({
                 .sort((a, b) => compareOptionLabels(a.label, b.label))
                 .map((armor) => <option key={armor.id} value={armor.id}>{armor.label}</option>)}
             </select>
-            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => {
+            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} locked={!shieldInUse && heldHandsUsed(sheet) > 1} onChange={(enabled) => {
               if (enabled && !hasOwnedShield) {
                 setShowShieldNotice(true);
                 return;

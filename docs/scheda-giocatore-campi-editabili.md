@@ -5,7 +5,7 @@ Fotografia dell'interfaccia e del salvataggio ordinario al 6 ottobre 2026. Quest
 | Pagina | Modifiche disponibili al giocatore |
 | --- | --- |
 | Stato & Identità | Testo di **Note lingue**. |
-| Armi | Registrare armature e scudi posseduti, aggiungerne o toglierne unità; scegliere l'armatura indossata tra quelle possedute; impugnare o togliere uno scudo posseduto; aggiungere o rimuovere armi dal catalogo e modificarne la quantità. Non si può togliere l'ultima unità di un'armatura o scudo in uso senza prima disequipaggiarlo. |
+| Armi | Registrare armature e scudi posseduti, aggiungerne o toglierne unità; scegliere l'armatura indossata tra quelle possedute; impugnare o togliere uno scudo posseduto; aggiungere o rimuovere armi dal catalogo, modificarne la quantità e selezionare quali armi sono impugnate nei limiti delle mani disponibili. Non si può togliere l'ultima unità di un'armatura o scudo in uso senza prima disequipaggiarlo. |
 | Equipaggiamento | Aggiungere oggetti di catalogo o personalizzati, rimuoverli e modificarne la quantità. Nel popup di un oggetto si possono modificare il nome e il dettaglio personale. |
 | Incantesimi | Modificare gli **slot incantesimo spesi** per ciascun livello disponibile, entro il massimo verificato dal salvataggio. L'elenco degli incantesimi e la caratteristica di lancio sono di sola lettura. |
 | Monete | Modificare le quantità di rame, argento, electrum, oro e platino digitando il valore o usando i pulsanti `+` e `−`. |

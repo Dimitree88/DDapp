@@ -1,6 +1,27 @@
 import { armorById, armorCatalog } from "./armorCatalog";
 import { gearById, gearByName, gearCatalog } from "./gearCatalog";
 import type { Equip, Sheet } from "./sheet";
+import { weaponByName } from "./weaponDetails";
+
+export function weaponHandUsage(sheet: Sheet, weaponIndex: number): number {
+  const weapon = sheet.armi[weaponIndex];
+  if (!weapon) return 0;
+  const entry = weaponByName(weapon.nome);
+  return weapon.modo === "dueMani" || entry?.properties.split(",").some((property) => property.trim().toLowerCase().startsWith("due mani")) ? 2 : 1;
+}
+
+export function heldHandsUsed(sheet: Sheet): number {
+  const weapons = sheet.armi.reduce((total, weapon, index) => total + (weapon.impugnata ? weaponHandUsage(sheet, index) : 0), 0);
+  const shield = sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorForEquipment(item)?.category === "scudi");
+  return weapons + (shield ? 1 : 0);
+}
+
+export function selectHeldWeapon(sheet: Sheet, weaponIndex: number, enabled: boolean): Sheet["armi"] {
+  if (!sheet.armi[weaponIndex] || enabled && Number(sheet.armi[weaponIndex].quantita || "1") < 1) return sheet.armi;
+  const next = sheet.armi.map((weapon, index) => index === weaponIndex ? { ...weapon, impugnata: enabled } : weapon);
+  const candidate = { ...sheet, armi: next };
+  return heldHandsUsed(candidate) <= 2 ? next : sheet.armi;
+}
 
 export function armorForEquipment(item: Equip) {
   return armorById(item.catalogId ?? "") ?? armorCatalog.find((armor) => armor.name === item.nome) ?? null;
@@ -127,6 +148,9 @@ export function selectHeldShield(sheet: Sheet, enabled: boolean, preferredIndex?
     ? preferredIndex : sheet.equipaggiamento.findIndex((item) =>
       armorForEquipment(item)?.category === "scudi" && Number(item.quantita ?? "1") > 0);
   if (enabled && index < 0) return { scudo: sheet.scudo, equipaggiamento: sheet.equipaggiamento };
+  if (enabled && sheet.armi.reduce((total, weapon, weaponIndex) => total + (weapon.impugnata ? weaponHandUsage(sheet, weaponIndex) : 0), 0) > 1) {
+    return { scudo: sheet.scudo, equipaggiamento: sheet.equipaggiamento };
+  }
   const items = sheet.equipaggiamento.map((item) => ({ ...item, impugnato: false }));
   if (enabled) items[index] = { ...items[index], catalogId: "scudo", impugnato: true };
   return { scudo: enabled, equipaggiamento: items };

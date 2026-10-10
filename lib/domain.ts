@@ -79,6 +79,7 @@ export function domainErrors(sheet: Sheet): string[] {
     checkNumber(`Arma ${index + 1} quantità`, weapon.quantita, "unsigned");
     checkNumber(`Arma ${index + 1} bonus`, weapon.bonus, "signed");
     const entry = weaponByName(weapon.nome);
+    if (weapon.impugnata && Number(weapon.quantita || "1") < 1) errors.push(`Arma ${index + 1}: non puoi impugnare un'arma senza unità possedute`);
     if (weapon.modo && weapon.modo !== "base" && !(weapon.modo === "lancio" && entry?.kind === "mischia" && entry.thrown) && !(weapon.modo === "dueMani" && entry?.kind === "mischia" && entry.versatileDie)) errors.push(`Arma ${index + 1} modo: ${weapon.modo}`);
     if (weapon.caratteristica && (weapon.caratteristica !== "FOR" && weapon.caratteristica !== "DES" || !entry?.finesse)) errors.push(`Arma ${index + 1} caratteristica: ${weapon.caratteristica}`);
   });
@@ -105,6 +106,13 @@ export function domainErrors(sheet: Sheet): string[] {
   }
   if (sheet.equipaggiamento.filter((item) => item.indossato).length > 1) errors.push("Puoi indossare una sola armatura");
   if (sheet.equipaggiamento.filter((item) => item.impugnato).length > 1) errors.push("Puoi impugnare un solo scudo");
+  const occupiedWeaponHands = sheet.armi.reduce((total, weapon) => {
+    if (!weapon.impugnata) return total;
+    const entry = weaponByName(weapon.nome);
+    return total + (weapon.modo === "dueMani" || entry?.properties.split(",").some((property) => property.trim().toLowerCase().startsWith("due mani")) ? 2 : 1);
+  }, 0);
+  const heldShield = sheet.scudo || sheet.equipaggiamento.some((item) => item.impugnato && armorById(item.catalogId ?? "")?.category === "scudi");
+  if (occupiedWeaponHands + (heldShield ? 1 : 0) > 2) errors.push("Le armi impugnate e lo scudo non possono occupare più di due mani");
   sheet.equipaggiamento.forEach((item, index) => {
     if (item.quantita !== undefined) checkNumber(`Oggetto ${index + 1} quantità`, item.quantita, "unsigned");
     if (item.catalogId && !armorById(item.catalogId) && !gearById(item.catalogId)) errors.push(`Oggetto ${index + 1} ID catalogo: ${item.catalogId}`);

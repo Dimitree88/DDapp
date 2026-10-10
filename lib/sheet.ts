@@ -27,6 +27,7 @@ export type Abilita = {
 export type Arma = {
   nome: string;
   quantita: string;
+  impugnata?: boolean;
   bonus: string; // valore manuale prevalente per il tiro per colpire
   modo?: "base" | "lancio" | "dueMani";
   caratteristica?: "FOR" | "DES";
@@ -376,7 +377,7 @@ export function normalizeSheet(value: Sheet): Sheet {
       const note = personalBonus && !(weapon.note ?? "").includes(personalBonus[1])
         ? [weapon.note, `Bonus al tiro per colpire: ${personalBonus[1]}`].filter(Boolean).join("\n")
         : weapon.note ?? "";
-      return { nome: weapon.nome, quantita: weapon.quantita?.trim() ? weapon.quantita : "1", bonus: weapon.bonus, ...(weapon.modo ? { modo: weapon.modo } : {}), ...(weapon.caratteristica ? { caratteristica: weapon.caratteristica } : {}), note };
+      return { nome: weapon.nome, quantita: weapon.quantita?.trim() ? weapon.quantita : "1", ...(weapon.impugnata ? { impugnata: true } : {}), bonus: weapon.bonus, ...(weapon.modo ? { modo: weapon.modo } : {}), ...(weapon.caratteristica ? { caratteristica: weapon.caratteristica } : {}), note };
     }),
     equipaggiamento: old.equipaggiamento
       .filter((item) => item.nome !== "Sconto 20% su oggetti non magici")
