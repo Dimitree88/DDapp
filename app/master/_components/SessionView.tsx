@@ -141,6 +141,7 @@ function MenuTab() {
     <section className="flex flex-col gap-2">
       <h2 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">Personaggi</h2>
       <FreshStartControl characters={data.allCharacters} />
+      <Link href="/master/eventi" className={`${item} justify-between`}><span>Eventi di tutti i personaggi</span><span aria-hidden>›</span></Link>
     </section>
     <section className="grid grid-cols-2 gap-2">
       <button type="button" className={item} onClick={() => openTool({ kind: "riposo-breve" })}><span aria-hidden>☕</span>Riposo breve</button>
