@@ -142,3 +142,29 @@ export function diffManualSheet(before: Sheet, after: Sheet): HistoryChange[] {
     Object.fromEntries(manualFields.map((field) => [field, after[field]])) as Partial<Sheet>,
   );
 }
+
+export function equipmentAcquisitions(before: Sheet["equipaggiamento"], after: Sheet["equipaggiamento"]): string[] {
+  const quantityByItem = (items: Sheet["equipaggiamento"]) => {
+    const quantities = new Map<string, number>();
+    for (const item of items) {
+      const key = item.catalogId || item.nome.trim().toLocaleLowerCase("it");
+      quantities.set(key, (quantities.get(key) ?? 0) + Number(item.quantita || "1"));
+    }
+    return quantities;
+  };
+  const beforeQuantities = quantityByItem(before);
+  const afterQuantities = quantityByItem(after);
+  const acquisitions: string[] = [];
+  const reported = new Set<string>();
+  for (const item of after) {
+    const key = item.catalogId || item.nome.trim().toLocaleLowerCase("it");
+    if (reported.has(key)) continue;
+    reported.add(key);
+    const added = Math.max(0, (afterQuantities.get(key) ?? 0) - (beforeQuantities.get(key) ?? 0));
+    if (added > 0) {
+      const detail = item.dettaglio.trim();
+      acquisitions.push(`${item.nome}${added > 1 ? ` ×${added}` : ""}${detail ? ` (${detail})` : ""}`);
+    }
+  }
+  return acquisitions;
+}

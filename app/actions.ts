@@ -7,7 +7,7 @@ import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
 import { normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
-import { diffManualSheet, historyTimestampMs, type HistoryChange } from "@/lib/history";
+import { diffManualSheet, equipmentAcquisitions, historyTimestampMs, type HistoryChange } from "@/lib/history";
 import { creationErrors } from "@/lib/creationRules";
 import { addCatalogEquipment, armorForEquipment } from "@/lib/equipmentSelection";
 import { gearByName } from "@/lib/gearCatalog";
@@ -127,6 +127,18 @@ export async function saveSheet(
       .some((item) => Object.hasOwn(item, "bonusMagico"));
     if (changes.length === 0 && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName) return { ok: true };
     const now = new Date();
+    const acquisitions = equipmentAcquisitions(equipmentBeforeManual, normalized.equipaggiamento);
+    if (acquisitions.length) {
+      normalized = {
+        ...normalized,
+        eventiStoria: [...(normalized.eventiStoria ?? []), {
+          capitolo: "Dotazioni ricevute",
+          titolo: "Equipaggiamento aggiunto",
+          dettagli: acquisitions,
+          data: now.toISOString(),
+        }],
+      };
+    }
     await tx.update(characters).set({ name: cleanName, data: normalized, updatedAt: now }).where(eq(characters.id, id));
     if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
     return { ok: true };

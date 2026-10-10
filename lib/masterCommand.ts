@@ -2,7 +2,7 @@ import { randomUUID } from "crypto";
 import { and, eq } from "drizzle-orm";
 import { db } from "./db";
 import { characterHistory, characters, creatures, masterSessionCreatures, masterSessionEvents, masterSessionParticipants, masterSessions } from "./db/schema";
-import { diffSheet, type HistoryChange } from "./history";
+import { diffSheet, equipmentAcquisitions, type HistoryChange } from "./history";
 import { normalizeCreature, type CreatureData } from "./creature";
 import { sheetPatch, type SheetPatch } from "./masterView";
 import { normalizeSheet, type EventoStoria, type Sheet } from "./sheet";
@@ -98,6 +98,13 @@ const withoutStory = (sheet: Sheet) => { const copy = { ...sheet } as Partial<Sh
 
 export async function storeCharacter(tx: Tx, id: string, before: Sheet, after: Sheet, now: Date, story?: EventoStoria) {
   const clean = normalizeSheet(story ? { ...after, eventiStoria: [...(after.eventiStoria ?? []), story] } : after);
+  const acquisitions = equipmentAcquisitions(before.equipaggiamento, clean.equipaggiamento);
+  if (acquisitions.length) clean.eventiStoria = [...(clean.eventiStoria ?? []), {
+    capitolo: story?.capitolo ?? "Dotazioni ricevute",
+    titolo: "Equipaggiamento ricevuto",
+    dettagli: acquisitions,
+    data: now.toISOString(),
+  }];
   const changes = diffSheet(withoutStory(before), withoutStory(clean));
   if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
   await tx.update(characters).set({ data: clean, updatedAt: now }).where(eq(characters.id, id));
