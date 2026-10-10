@@ -156,9 +156,26 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
     } else {
       let text = value.replace(/\s+/g, " ").trim();
       let size = Math.min(11, Math.max(5, mapping.height * 0.65));
-      while (size > 5 && measure(text, size) > width) size -= 0.5;
-      while (text && measure(text, size) > width) text = text.slice(0, -1);
-      page.drawText(text, { x: mapping.x + 2, y: page.getHeight() - mapping.y - 1 - size, size, font, color: rgb(0, 0, 0) });
+      const isAbilityField = /^sheet\.caratteristiche\[abbr=(FOR|DES|COS|INT|SAG|CAR)\]\.(modificatore|valore)$/.test(mapping.source);
+      const isCentered = isAbilityField || [
+        "sheet.bonusCompetenza", "sheet.classeArmatura", "sheet.iniziativa", "sheet.velocita",
+        "sheet.taglia", "sheet.percezionePassiva", "sheet.livello", "sheet.puntiEsperienza",
+      ].includes(mapping.source);
+      while (size > 5 && measure(text, size) > (isCentered ? mapping.width - 2 : width)) size -= 0.5;
+      if (isCentered) {
+        const textWidth = measure(text, size);
+        const textHeight = font.heightAtSize(size, { descender: false });
+        page.drawText(text, {
+          x: mapping.x + (mapping.width - textWidth) / 2,
+          y: page.getHeight() - mapping.y - (mapping.height + textHeight) / 2,
+          size,
+          font,
+          color: rgb(0, 0, 0),
+        });
+      } else {
+        while (text && measure(text, size) > width) text = text.slice(0, -1);
+        page.drawText(text, { x: mapping.x + 2, y: page.getHeight() - mapping.y - 1 - size, size, font, color: rgb(0, 0, 0) });
+      }
     }
   };
   const drawRichList = (boxes: Mapping[], items: RichItem[]) => {
