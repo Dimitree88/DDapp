@@ -431,7 +431,7 @@ export default function CharacterClient({
         fetching = false;
       }
     };
-    const interval = window.setInterval(sync, 15000);
+    const interval = window.setInterval(sync, 3000);
     window.addEventListener("focus", sync);
     return () => {
       active = false;
