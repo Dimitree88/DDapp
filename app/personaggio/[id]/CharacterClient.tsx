@@ -1122,10 +1122,20 @@ export default function CharacterClient({
   const summarySlotsMaximum = summarySlots.reduce((total, slot) => total + slot.maximum, 0);
   const summaryArmor = selectedArmor?.nome ?? "Nessuna";
   const summaryShield = selectedShield?.nome ?? (sheet.scudo ? "Scudo" : null);
-  const summaryHands = sheet.armi.flatMap((weapon, index) => weapon.impugnata
-    ? [{ label: weaponHandUsage(sheet, index) === 2 ? "Mani" : "Mano", name: weapon.nome }]
-    : []);
-  if (summaryShield) summaryHands.push({ label: "Mano", name: summaryShield });
+  const summaryHands = ["libera", "libera"];
+  let nextHand = 0;
+  for (const [index, weapon] of sheet.armi.entries()) {
+    if (!weapon.impugnata || nextHand > 1) continue;
+    const handsUsed = weaponHandUsage(sheet, index);
+    summaryHands[nextHand] = handsUsed === 2 ? `${weapon.nome} (a due mani)` : weapon.nome;
+    if (handsUsed === 2) {
+      summaryHands[nextHand + 1] = `${weapon.nome} (stessa arma)`;
+      nextHand += 2;
+    } else {
+      nextHand += 1;
+    }
+  }
+  if (summaryShield && nextHand < 2) summaryHands[nextHand] = summaryShield;
 
   return (
     <EditProvider unlocked={true} requireUnlock={() => { }}>
@@ -1203,7 +1213,7 @@ export default function CharacterClient({
                     {sheet.ispirazioneEroica ? <div><dt className="sr-only">Ispirazione eroica</dt><dd><label className="inline-flex items-center gap-2 font-semibold text-ink"><input type="checkbox" checked onChange={() => {}} aria-label="Ispirazione eroica attiva" className="size-4 accent-accent" /><span>Ispirazione eroica</span></label></dd></div> : null}
                     {(sheet.condizioni?.length || sheet.indebolimento) ? <div className="col-span-2"><dt className="text-ink-soft">Condizioni</dt><dd className="font-semibold text-ink">{[...(sheet.condizioni ?? []).map((condition) => condition.nome), ...(sheet.indebolimento ? [`Indebolimento ${sheet.indebolimento}`] : [])].join(" · ")}</dd></div> : null}
                     {sheet.concentrazione?.effetto ? <div className="col-span-2"><dt className="text-ink-soft">Concentrazione</dt><dd className="font-semibold text-ink">{sheet.concentrazione.effetto}{sheet.concentrazione.durata ? ` · ${sheet.concentrazione.durata}` : ""}</dd></div> : null}
-                    <div className="col-span-2"><dt className="sr-only">Indossati e impugnati</dt><dd className="font-semibold text-ink"><div>Armatura: {summaryArmor}</div>{summaryHands.length ? summaryHands.slice(0, 2).map((hand, index) => <div key={`${hand.label}-${index}`}>{hand.label}: {hand.name}</div>) : <div>Mani: Nessuna arma o scudo</div>}</dd></div>
+                    <div className="col-span-2"><dt className="sr-only">Indossati e impugnati</dt><dd className="font-semibold text-ink"><div>Armatura: {summaryArmor}</div><div>Mano 1: {summaryHands[0]}</div><div>Mano 2: {summaryHands[1]}</div></dd></div>
                     <div className="col-span-2"><dt className="text-ink-soft">Slot incantesimo</dt><dd className="font-semibold text-ink">{summarySlotsMaximum ? `${summarySlotsAvailable} / ${summarySlotsMaximum} disponibili` : "Nessuno"}{summarySlots.length > 1 ? ` · ${summarySlots.map((slot) => `${slot.maximum - slot.spent}/${slot.maximum} di ${slot.level}°`).join(" · ")}` : ""}</dd></div>
                   </dl>
                 </section>
