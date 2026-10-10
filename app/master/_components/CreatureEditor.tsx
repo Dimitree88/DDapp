@@ -8,6 +8,7 @@ import {
 import type { ActionResult } from "@/lib/masterCommand";
 import { deleteCreature, saveCreature } from "../creature-actions";
 import type { CreatureView } from "./types";
+import { abilityName } from "@/lib/abilityNames";
 import { Button, Field, Section, Sheet, TextInput, cx, useConfirm, useToast } from "@/components/ui";
 
 type ActionDraft = {
@@ -140,11 +141,11 @@ function EditorBody({ creature, onClose, onSaved, addToSession }: { creature: Cr
     </Section>
 
     <Section title="Caratteristiche">
-      <div className="grid grid-cols-3 gap-2 sm:grid-cols-6">
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
         {draft.abilities.map((ability, index) => <div key={ability.abbr} className="flex flex-col gap-1 rounded-xl bg-surface/60 p-1.5">
-          <span className="text-center text-xs font-bold text-ink-soft">{creatureAbilityAbbrs[index]}</span>
-          <TextInput inputMode="numeric" aria-label={`Punteggio ${ability.abbr}`} placeholder="10" value={ability.score} className="px-1 text-center" onChange={(event) => set("abilities", draft.abilities.map((item, i) => i === index ? { ...item, score: event.target.value } : item))} />
-          <TextInput aria-label={`Tiro salvezza ${ability.abbr}`} placeholder="TS" value={ability.save} className="px-1 text-center text-sm" onChange={(event) => set("abilities", draft.abilities.map((item, i) => i === index ? { ...item, save: event.target.value } : item))} />
+          <span className="text-center text-xs font-bold text-ink-soft">{abilityName(creatureAbilityAbbrs[index])}</span>
+          <TextInput inputMode="numeric" aria-label={`Punteggio ${abilityName(ability.abbr)}`} placeholder="10" value={ability.score} className="px-1 text-center" onChange={(event) => set("abilities", draft.abilities.map((item, i) => i === index ? { ...item, score: event.target.value } : item))} />
+          <TextInput aria-label={`Tiro salvezza ${abilityName(ability.abbr)}`} placeholder="TS" value={ability.save} className="px-1 text-center text-sm" onChange={(event) => set("abilities", draft.abilities.map((item, i) => i === index ? { ...item, save: event.target.value } : item))} />
         </div>)}
       </div>
       <p className="text-xs text-ink-soft">TS vuoto = uguale al modificatore.</p>

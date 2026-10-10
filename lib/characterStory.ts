@@ -1,5 +1,6 @@
 import type { Sheet } from "./sheet";
 import { featGrants, grantedPrivileges, privilegeOptions, type Grant } from "./characterGrants";
+import { abilityName } from "./abilityNames";
 import { featCatalog } from "./featCatalog";
 import { proficiencyBonus } from "./abilityBonus";
 import { classSavingThrows, classWeaponProficiencies, classArmorProficiencies, classToolProficiencies } from "./classSavingThrows";
@@ -189,7 +190,7 @@ export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"
   const creationLanguages = sheet.lingue.filter((name) => !rangerLanguages.has(name));
   if (creationLanguages.length) events.push({ title: "Scelte le lingue", details: [detail(creationLanguages.join(", "))] });
   const scores = sheet.caratteristiche.filter((item) => present(item.valore));
-  if (scores.length) events.push({ title: "Determinati i punteggi di caratteristica", details: scores.map((item) => detail(`${item.abbr} ${item.valore}`)) });
+  if (scores.length) events.push({ title: "Determinati i punteggi di caratteristica", details: scores.map((item) => detail(`${abilityName(item.abbr)} ${item.valore}`)) });
   if (present(sheet.allineamento)) events.push({ title: `Scelto allineamento: ${sheet.allineamento}`, details: [] });
   const initialHitPoints = sheet.storiaPuntiFerita?.iniziali;
   if (initialHitPoints !== undefined || present(sheet.puntiFeritaMax) && level === 1) {

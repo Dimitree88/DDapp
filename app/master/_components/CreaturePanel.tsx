@@ -13,6 +13,7 @@ import { ConcentrationEditor, ConditionsEditor } from "./Conditions";
 import { CreatureEditor } from "./CreatureEditor";
 import { useMaster } from "./MasterContext";
 import type { CreatureView } from "./types";
+import { abilityName } from "@/lib/abilityNames";
 import { Button, Chip, HpBar, Section, Sheet, Stat, cx, useConfirm } from "@/components/ui";
 
 export function CreaturePanel({ creature, onClose }: { creature: CreatureView | null; onClose: () => void }) {
@@ -123,13 +124,13 @@ function CreatureBody({ creature, onClose }: { creature: CreatureView; onClose: 
     <ConcentrationEditor target={target} concentration={data.concentration} />
 
     {data.abilities?.some((ability) => ability.score !== null) && <Section title="Caratteristiche">
-      <div className="grid grid-cols-6 gap-1">
+      <div className="grid grid-cols-3 gap-1 sm:grid-cols-6">
         {data.abilities.map((ability) => {
           const mod = abilityModifierValue(ability.score);
-          return <button key={ability.abbr} type="button" aria-haspopup="dialog" aria-label={`Spiega modificatore e tiro salvezza di ${ability.abbr}`}
+          return <button key={ability.abbr} type="button" aria-haspopup="dialog" aria-label={`Spiega modificatore e tiro salvezza di ${abilityName(ability.abbr)}`}
             onClick={() => setExplain(creatureAbilityExplanation(ability))}
             className="touch-manipulation rounded-lg bg-surface/60 py-1 text-center transition-colors active:bg-parchment">
-            <div className="text-[11px] font-bold text-ink-soft">{ability.abbr}</div>
+            <div className="text-[10px] font-bold text-ink-soft">{abilityName(ability.abbr)}</div>
             <div className="text-sm font-bold text-ink">{ability.score ?? "—"}</div>
             <div className="text-[10px] text-ink-soft underline decoration-line decoration-dotted underline-offset-2">{mod === null ? "" : signedNumber(mod)} · TS {ability.save === null ? (mod === null ? "—" : signedNumber(mod)) : signedNumber(ability.save)}</div>
           </button>;

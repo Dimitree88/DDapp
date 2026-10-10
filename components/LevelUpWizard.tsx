@@ -3,6 +3,7 @@
 import { useEffect, useState, useTransition, type ReactNode } from "react";
 import type { FeatOption, LevelFeature, LevelUpChoices, LevelUpPlan, SpellOption, SummaryItem } from "@/lib/levelUp";
 import { rollDie } from "@/lib/masterRules";
+import { abilityName } from "@/lib/abilityNames";
 import type { Sheet as CharacterSheet } from "@/lib/sheet";
 import { confirmLevelUp, prepareLevelUp, spellDescription } from "@/app/level-actions";
 import { DiceText } from "./DiceText";
@@ -202,7 +203,7 @@ function HitPoints({ plan, choices, set }: { plan: LevelUpPlan; choices: LevelUp
       <Button onClick={() => set({ hp: { method: "tiro", roll: rollDie(plan.hitDie) } })}>Ritira</Button>
     </div>}
     <Box>
-      <p>{base || "?"} {plan.conMod >= 0 ? "+" : "−"} {Math.abs(plan.conMod)} COS = <strong>{gain}</strong> PF{bonus ? ` + ${bonus} (${plan.hpBonus.map((item) => item.source).join(", ")})` : ""}</p>
+      <p>{base || "?"} {plan.conMod >= 0 ? "+" : "−"} {Math.abs(plan.conMod)} {abilityName("COS")} = <strong>{gain}</strong> PF{bonus ? ` + ${bonus} (${plan.hpBonus.map((item) => item.source).join(", ")})` : ""}</p>
       {plan.hpMaxBefore !== null && <p>PF massimi: {plan.hpMaxBefore} → <strong>{plan.hpMaxBefore + gain + bonus}</strong>{plan.feat ? " (prima di eventuali aumenti di Costituzione)" : ""}</p>}
       <p className="text-ink-soft">I PF attuali non cambiano: salire di livello non cura (pp. 27, 42).</p>
     </Box>
@@ -283,7 +284,7 @@ function Increase({ option, value, onChange, scores }: { option: FeatOption; val
         const score = scores?.[abbr];
         const blocked = score !== undefined && score + current + 1 > option.increase.cap;
         return <div key={abbr} className={cx("flex flex-col items-center rounded-xl border p-1.5", current ? "border-accent bg-accent/10" : "border-line bg-surface/70")}>
-          <span className="text-xs font-bold text-ink-soft">{abbr}</span>
+          <span className="text-[10px] font-bold text-center text-ink-soft">{abilityName(abbr)}</span>
           <span className="text-sm text-ink">{score ?? "—"}{current ? <strong className="text-accent"> → {(score ?? 0) + current}</strong> : null}</span>
           <div className="mt-1 flex gap-1">
             <button type="button" className="h-8 w-8 rounded-lg border border-line text-lg disabled:opacity-30" disabled={!current} onClick={() => onChange({ ...value, [abbr]: current - 1 })} aria-label={`Togli 1 a ${ABILITIES[abbr]}`}>−</button>
@@ -421,9 +422,9 @@ function FeaturesStep({ plan, subclass, choices, set }: { plan: LevelUpPlan; sub
 function Review({ plan, subclass, choices }: { plan: LevelUpPlan; subclass: string; choices: LevelUpChoices }) {
   const base = choices.hp.method === "fisso" ? plan.fixedGain : Number(choices.hp.roll);
   const lines = [
-    `PF: ${choices.hp.method === "fisso" ? "valore fisso" : `tiro d${plan.hitDie}`} ${base} + COS`,
+    `PF: ${choices.hp.method === "fisso" ? "valore fisso" : `tiro d${plan.hitDie}`} ${base} + ${abilityName("COS")}`,
     plan.subclass.required && `Sottoclasse: ${subclass}`,
-    choices.feat?.alternative ? `${plan.feat?.alternative?.name}: ${(choices.feat.cantrips ?? []).join(", ")}` : choices.feat?.name && `Talento: ${choices.feat.name}${Object.entries(choices.feat.increases ?? {}).filter(([, v]) => v).map(([abbr, v]) => ` ${abbr} +${v}`).join(",")}`,
+    choices.feat?.alternative ? `${plan.feat?.alternative?.name}: ${(choices.feat.cantrips ?? []).join(", ")}` : choices.feat?.name && `Talento: ${choices.feat.name}${Object.entries(choices.feat.increases ?? {}).filter(([, v]) => v).map(([abbr, v]) => ` ${abilityName(abbr)} +${v}`).join(",")}`,
     choices.expertise?.length && `Maestria: ${choices.expertise.map(pretty).join(", ")}`,
     choices.languages?.length && `Lingue: ${choices.languages.join(", ")}`,
     choices.cantrips?.length && `Trucchetti: ${choices.cantrips.join(", ")}`,

@@ -4,6 +4,7 @@ import { eq } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { creatures } from "@/lib/db/schema";
 import { abilityModifierValue, creatureActionCategories, creatureActionSummary, normalizeCreature, signedNumber } from "@/lib/creature";
+import { abilityName } from "@/lib/abilityNames";
 
 export const dynamic = "force-dynamic";
 
@@ -35,11 +36,11 @@ export default async function CreaturePage({ params }: { params: Promise<{ id: s
           <div><dt className="text-sm text-ink-soft">Velocità</dt><dd className="font-semibold">{String(data.speedMeters).replace(".", ",")} m{data.speedNote && <span className="font-normal">, {data.speedNote}</span>}</dd></div>
           <div className="col-span-2"><dt className="text-sm text-ink-soft">Grado di sfida</dt><dd className="font-semibold">{data.challengeRating || "—"} ({data.experiencePoints} PE{data.proficiencyBonus ? `; BC ${signedNumber(data.proficiencyBonus)}` : ""})</dd></div>
         </dl>
-        {data.abilities?.some((ability) => ability.score !== null) && <div className="mt-4 grid grid-cols-6 gap-1 text-center">
+        {data.abilities?.some((ability) => ability.score !== null) && <div className="mt-4 grid grid-cols-2 gap-2 text-center sm:grid-cols-3">
           {data.abilities.map((ability) => {
             const mod = abilityModifierValue(ability.score);
             return <div key={ability.abbr} className="rounded-lg bg-surface/60 py-1">
-              <div className="text-[11px] font-bold text-ink-soft">{ability.abbr}</div>
+              <div className="text-[11px] font-bold text-ink-soft">{abilityName(ability.abbr)}</div>
               <div className="text-sm font-bold">{ability.score ?? "—"}</div>
               <div className="text-[10px] text-ink-soft">{mod === null ? "" : signedNumber(mod)} · TS {ability.save === null ? (mod === null ? "—" : signedNumber(mod)) : signedNumber(ability.save)}</div>
             </div>;

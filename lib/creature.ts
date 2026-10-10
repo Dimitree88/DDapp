@@ -1,5 +1,6 @@
 import type { CalculationExplanation } from "./calculationExplanation";
 import type { CondizioneAttiva, ConcentrazioneAttiva } from "./sheet";
+import { abilityName } from "./abilityNames";
 
 export const creatureAbilityAbbrs = ["FOR", "DES", "COS", "INT", "SAG", "CAR"] as const;
 export type CreatureAbilityAbbr = typeof creatureAbilityAbbrs[number];
@@ -218,7 +219,7 @@ export function creatureAbilityExplanation(ability: CreatureAbility): Calculatio
   const modifier = abilityModifierValue(ability.score);
   const save = ability.save ?? modifier;
   return {
-    title: `${ability.abbr}: modificatore e tiro salvezza`,
+    title: `${abilityName(ability.abbr)}: modificatore e tiro salvezza`,
     result: save === null ? "" : `MOD ${modifier === null ? "—" : signedNumber(modifier)} · SALV ${signedNumber(save)}`,
     page: 346,
     rule: "Il modificatore di caratteristica deriva dal punteggio: si sottrae 10, si divide per 2 e si arrotonda per difetto (p. 10). Nella scheda delle statistiche la colonna MOD riporta il modificatore e la colonna SALV il bonus al tiro salvezza (p. 346). Se il tiro salvezza non è registrato, l'app usa il modificatore.",

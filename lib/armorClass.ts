@@ -1,6 +1,7 @@
 import { abilityModifier } from "./abilityBonus";
 import { armorById } from "./armorCatalog";
 import type { Sheet } from "./sheet";
+import { abilityName } from "./abilityNames";
 
 export type ArmorClassResult = { value: number; formula: string; warnings: string[] };
 
@@ -26,7 +27,7 @@ export function calculatedArmorClass(sheet: Sheet): ArmorClassResult | null {
     if (strength > 0 && strength < armor.strength) warnings.push("Velocità ridotta di 3 m per il requisito di Forza dell'armatura.");
   }
   if (armor?.stealthDisadvantage) warnings.push("Svantaggio alle prove di Destrezza (Furtività).");
-  return { value: base + dexBonus + shieldBonus, formula: `${base}${armor?.dexterity === "none" ? "" : ` + DES ${dexBonus}`}${shieldBonus ? ` + scudo ${shieldBonus}` : ""} = ${base + dexBonus + shieldBonus}`, warnings };
+  return { value: base + dexBonus + shieldBonus, formula: `${base}${armor?.dexterity === "none" ? "" : ` + ${abilityName("DES")} ${dexBonus}`}${shieldBonus ? ` + scudo ${shieldBonus}` : ""} = ${base + dexBonus + shieldBonus}`, warnings };
 }
 
 export function displayedArmorClass(sheet: Sheet): string {

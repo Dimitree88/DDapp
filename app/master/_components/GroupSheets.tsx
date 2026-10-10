@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { levelForXp, rollDie, xpThresholds } from "@/lib/masterRules";
+import { abilityName } from "@/lib/abilityNames";
 import { addParticipants } from "../actions";
 import { awardXp, groupRest, type XpMode } from "../game-actions";
 import { CreatureEditor } from "./CreatureEditor";
@@ -57,7 +58,7 @@ function RestBody({ kind, onClose }: { kind: "breve" | "lungo"; onClose: () => v
             <span className="text-sm text-ink-soft">{can ? `PF ${item.hp}/${item.hpMax}` : "0 PF: non può riposare"}</span>
           </label>
           {on && kind === "breve" && <div className="flex flex-col gap-1.5 pl-8">
-            <p className="text-xs text-ink-soft">Dadi Vita {item.hitDie ? `d${item.hitDie}` : "da registrare"}{available !== null ? ` · disponibili ${available}/${item.hitDiceTotal}` : ""} · COS {item.conMod >= 0 ? "+" : ""}{item.conMod}</p>
+            <p className="text-xs text-ink-soft">Dadi Vita {item.hitDie ? `d${item.hitDie}` : "da registrare"}{available !== null ? ` · disponibili ${available}/${item.hitDiceTotal}` : ""} · {abilityName("COS")} {item.conMod >= 0 ? "+" : ""}{item.conMod}</p>
             <div className="flex gap-1.5">
               <TextInput value={rolls[item.id] ?? ""} onChange={(event) => setRolls((current) => ({ ...current, [item.id]: event.target.value }))} placeholder="Risultati, es. 4, 7" className="flex-1" aria-label={`Risultati dei Dadi Vita di ${item.name}`} />
               {item.hitDie && <Button className="px-3" disabled={available !== null && values.length >= available} onClick={() => setRolls((current) => ({ ...current, [item.id]: [...parseRolls(current[item.id] ?? ""), rollDie(item.hitDie!)].join(", ") }))}>🎲 d{item.hitDie}</Button>}

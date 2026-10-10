@@ -4,6 +4,7 @@ import { useState } from "react";
 import { speedWithExhaustion } from "./CharacterPanel";
 import { useMaster } from "./MasterContext";
 import { TextInput, cx } from "@/components/ui";
+import { abilityName } from "@/lib/abilityNames";
 
 const fold = (text: string) => text.toLocaleLowerCase("it").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const abbrs = ["FOR", "DES", "COS", "INT", "SAG", "CAR"];
@@ -37,10 +38,10 @@ export function PartyTab() {
     </ul>}
 
     <div className="-mx-4 overflow-x-auto px-4">
-      <table className="w-full min-w-[640px] border-separate border-spacing-0 text-sm">
+      <table className="w-full min-w-[900px] border-separate border-spacing-0 text-sm">
         <thead><tr className="text-left font-sans text-[11px] uppercase tracking-wide text-ink-soft">
           <th className="sticky left-0 bg-parchment py-1.5 pr-2">Nome</th><th className="px-1.5">CA</th><th className="px-1.5">PF</th><th className="px-1.5">PP</th><th className="px-1.5">Iniz</th><th className="px-1.5">Vel</th>
-          {abbrs.map((abbr) => <th key={abbr} className="px-1.5 text-center">TS {abbr}</th>)}<th className="px-1.5">CD inc.</th>
+          {abbrs.map((abbr) => <th key={abbr} className="px-1.5 text-center">TS {abilityName(abbr)}</th>)}<th className="px-1.5">CD inc.</th>
         </tr></thead>
         <tbody>{party.map((item) => <tr key={item.id} onClick={() => openPanel({ kind: "pg", id: item.id })} className="cursor-pointer active:bg-surface/60">
           <td className="sticky left-0 max-w-[9rem] truncate border-t border-line/50 bg-parchment py-2 pr-2 font-semibold text-ink">{item.name}</td>

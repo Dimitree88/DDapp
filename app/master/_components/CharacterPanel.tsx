@@ -8,6 +8,7 @@ import { removeParticipant } from "../actions";
 import { ConcentrationEditor, ConditionsEditor } from "./Conditions";
 import { useMaster } from "./MasterContext";
 import type { CharacterView } from "./types";
+import { abilityName } from "@/lib/abilityNames";
 import { CalculationContent } from "@/components/CalculationContent";
 import { Badge, StatTile } from "@/components/StatTile";
 import { Button, HpBar, Pips, Section, Sheet, Stat, cx, useConfirm } from "@/components/ui";
@@ -177,11 +178,11 @@ function CharacterBody({ character, onClose }: { character: CharacterView; onClo
     </Section>
 
     <Section title="Tiri salvezza e abilità">
-      <div className="grid grid-cols-6 gap-1">
-        {character.abilities.map((ability) => <button key={ability.abbr} type="button" aria-haspopup="dialog" aria-label={`Spiega il tiro salvezza di ${ability.abbr}`}
+      <div className="grid grid-cols-3 gap-1 sm:grid-cols-6">
+        {character.abilities.map((ability) => <button key={ability.abbr} type="button" aria-haspopup="dialog" aria-label={`Spiega il tiro salvezza di ${abilityName(ability.abbr)}`}
           disabled={!character.calc[`save:${ability.abbr}`]} onClick={() => setExplain(character.calc[`save:${ability.abbr}`])}
           className={cx("touch-manipulation rounded-lg py-1 text-center transition-colors active:bg-parchment", ability.proficient ? "bg-accent/10" : "bg-surface/60")}>
-          <div className="text-[11px] font-bold text-ink-soft">{ability.abbr}</div>
+          <div className="text-[10px] font-bold text-ink-soft">{abilityName(ability.abbr)}</div>
           <div className="text-sm font-bold text-ink underline decoration-line decoration-dotted underline-offset-2">{ability.save || "—"}</div>
           <div className="text-[10px] text-ink-faint">{ability.score || "—"}</div>
         </button>)}

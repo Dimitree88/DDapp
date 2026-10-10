@@ -8,6 +8,7 @@ import { speedBreakdown } from "./speed";
 import { spellcastingAbility, spellcastingStats } from "./spellcasting";
 import { displayedWeaponAttack, meters, weaponAttack, weaponRange } from "./weaponAttack";
 import { weaponByName } from "./weaponDetails";
+import { abilityName } from "./abilityNames";
 
 export type SpellAbility = "INT" | "SAG" | "CAR";
 
@@ -221,12 +222,12 @@ function maxHpExplanation(sheet: Sheet): CalculationExplanation {
       { label: "Livello", value: shown(sheet.livello) },
       { label: "Modificatore di Costituzione (attuale)", value: shown(constitution) },
       ...(history ? [{ label: "PF al 1° livello", value: String(history.iniziali) }] : []),
-      ...gains.map((gain, index) => ({ label: `Livello ${index + 2}`, value: `${gain.method === "fisso" ? "valore fisso" : "tiro"} ${gain.value}${constitution ? ` ${constitution} COS` : ""}` })),
+      ...gains.map((gain, index) => ({ label: `Livello ${index + 2}`, value: `${gain.method === "fisso" ? "valore fisso" : "tiro"} ${gain.value}${constitution ? ` ${constitution} ${abilityName("COS")}` : ""}` })),
       { label: "Valore registrato", value: sheet.puntiFeritaMax || "—" },
     ],
     formula: history
       ? `${history.iniziali}${gains.map((gain) => ` + (${gain.value}${constitution ? ` ${constitution}` : ""})`).join("")} + eventuali bonus di privilegi = ${sheet.puntiFeritaMax || "—"}`
-      : sheet.puntiFeritaMax ? `Valore registrato: ${sheet.puntiFeritaMax}${die && constitution ? `; al 1° livello: ${die} ${constitution} COS` : ""}` : "Registra i punti ferita massimi.",
+      : sheet.puntiFeritaMax ? `Valore registrato: ${sheet.puntiFeritaMax}${die && constitution ? `; al 1° livello: ${die} ${constitution} ${abilityName("COS")}` : ""}` : "Registra i punti ferita massimi.",
   };
 }
 

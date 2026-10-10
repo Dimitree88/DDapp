@@ -18,6 +18,7 @@ import { applyCreatureHpState, applyHpState, applySheetPatch, creatureHpState, s
 import { normalizeSheet, type CondizioneAttiva, type Sheet } from "@/lib/sheet";
 import { spellSlots } from "@/lib/spellcasting";
 import { abilityModifier } from "@/lib/abilityBonus";
+import { abilityName } from "@/lib/abilityNames";
 
 function done(result: ActionResult, paths: string[] = []) {
   if (result.ok) {
@@ -413,7 +414,7 @@ export async function groupRest(input: RestInput): Promise<ActionResult> {
           const recovery = rolls.reduce((sum, roll) => sum + Math.max(1, roll + con), 0);
           after.puntiFerita = String(Math.min(maxHp, currentHp + recovery));
           after.dadiVitaSpesi = String(spent + rolls.length);
-          notes.push(`Dadi Vita ${rolls.join(", ")} (COS ${con >= 0 ? "+" : ""}${con}): +${Number(after.puntiFerita) - currentHp} PF`);
+          notes.push(`Dadi Vita ${rolls.join(", ")} (${abilityName("COS")} ${con >= 0 ? "+" : ""}${con}): +${Number(after.puntiFerita) - currentHp} PF`);
         }
       } else {
         after.puntiFerita = String(maxHp);

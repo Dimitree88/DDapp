@@ -34,6 +34,7 @@ import testiStili from "./manuale-2024/testi/talenti/stili.json";
 import testiDoni from "./manuale-2024/testi/talenti/doni-epici.json";
 import domains from "./manuale-2024-domains.json";
 import { abilityModifier, proficiencyBonus } from "./abilityBonus";
+import { abilityName } from "./abilityNames";
 import { classHitDice, fixedHitPointGain } from "./classProgression";
 import { featByName } from "./featCatalog";
 import { featPrerequisitesMet } from "./featPrerequisites";
@@ -542,12 +543,12 @@ export function applyLevelUp(raw: Sheet, plan: LevelUpPlan, choices: LevelUpChoi
       const cantrips = choices.feat.cantrips ?? [];
       next.privilegi = upsertPrivilege(next.privilegi, plan.feat.source, `${alt.name}: ${cantrips.join(", ")}`);
       next.incantesimi = [...next.incantesimi, ...cantrips.map((nome) => ({ nome, fonte: "privilegio" as const, stato: "conosciuto" as const, caratteristica: alt.ability }))];
-      summary.push({ kind: "scelto", text: `${plan.feat.source}: ${alt.name} (trucchetti ${cantrips.join(", ")}, caratteristica ${alt.ability})` });
+      summary.push({ kind: "scelto", text: `${plan.feat.source}: ${alt.name} (trucchetti ${cantrips.join(", ")}, caratteristica ${abilityName(alt.ability)})` });
     } else {
       const option = plan.feat.options.find((item) => item.name === choices.feat?.name)!;
       featName = option.name;
       const increases = Object.entries(choices.feat?.increases ?? {}).filter(([, value]) => value > 0);
-      const increaseText = increases.map(([abbr, value]) => `${abbr} +${value}`).join(", ");
+      const increaseText = increases.map(([abbr, value]) => `${abilityName(abbr)} +${value}`).join(", ");
       const notes = choices.feat?.notes?.trim() ?? "";
       next.talenti = [...next.talenti, { nome: option.name, scelte: [increaseText, notes].filter(Boolean).join("; ") }];
       next.caratteristiche = next.caratteristiche.map((item) => {
@@ -579,7 +580,7 @@ export function applyLevelUp(raw: Sheet, plan: LevelUpPlan, choices: LevelUpChoi
   const hpBefore = Number(sheet.puntiFeritaMax);
   if (Number.isFinite(hpBefore) && sheet.puntiFeritaMax !== "") {
     next.puntiFeritaMax = String(hpBefore + totalGain);
-    summary.push({ kind: "applicato", text: `PF massimi ${hpBefore} → ${hpBefore + totalGain} (${choices.hp.method === "tiro" ? `d${plan.hitDie}: ${base}` : `valore fisso ${base}`} ${conBefore >= 0 ? "+" : "−"} ${Math.abs(conBefore)} COS${bonuses.map((item) => ` + ${item.value} ${item.source}`).join("")}${conRetro ? ` + ${conRetro} per l'aumento della Costituzione` : ""})`, page: 42 });
+    summary.push({ kind: "applicato", text: `PF massimi ${hpBefore} → ${hpBefore + totalGain} (${choices.hp.method === "tiro" ? `d${plan.hitDie}: ${base}` : `valore fisso ${base}`} ${conBefore >= 0 ? "+" : "−"} ${Math.abs(conBefore)} ${abilityName("COS")}${bonuses.map((item) => ` + ${item.value} ${item.source}`).join("")}${conRetro ? ` + ${conRetro} per l'aumento della Costituzione` : ""})`, page: 42 });
   } else summary.push({ kind: "da registrare", text: "PF massimi non registrati: l'aumento non è stato applicato." });
   summary.push({ kind: "applicato", text: "PF attuali invariati: il cambio di livello non è una guarigione", page: 27 });
   const dice = /^\s*(\d+)\s*d(\d+)\s*$/i.exec(sheet.dadiVita);

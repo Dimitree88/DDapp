@@ -1,5 +1,6 @@
 import { abilityModifier } from "./abilityBonus";
 import type { Sheet } from "./sheet";
+import { abilityName } from "./abilityNames";
 
 // Dadi Vita e accesso alla sottoclasse: Manuale del Giocatore 2024, pp. 50-175.
 export const classHitDice: Record<string, 6 | 8 | 10 | 12> = {
@@ -24,7 +25,7 @@ export function calculatedMaxHp(sheet: Sheet): { value: number; formula: string 
   if (gains.length !== level - 1 || gains.some((gain) => !Number.isInteger(gain.value) || gain.value < 1 || gain.value > die || gain.method === "fisso" && gain.value !== fixedHitPointGain(die))) return null;
   const con = Number(constitution);
   const value = Math.max(1, die + con) + gains.reduce((sum, gain) => sum + Math.max(1, gain.value + con), 0);
-  return { value, formula: `[${die}, ${gains.map((gain) => gain.value).join(", ")}] + COS ${constitution} per livello (minimo 1 PF per livello) = ${value}` };
+  return { value, formula: `[${die}, ${gains.map((gain) => gain.value).join(", ")}] + ${abilityName("COS")} ${constitution} per livello (minimo 1 PF per livello) = ${value}` };
 }
 
 export function displayedMaxHp(sheet: Sheet): string {

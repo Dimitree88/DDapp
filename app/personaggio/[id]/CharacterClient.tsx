@@ -55,6 +55,7 @@ import { valueDetails } from "@/lib/valueDetails";
 import { equipmentDetails } from "@/lib/equipmentDetails";
 import { recordedValueDetails } from "@/lib/recordedValueDetails";
 import { displayedArmorClass } from "@/lib/armorClass";
+import { ABILITY_NAMES, abilityName } from "@/lib/abilityNames";
 import { addCatalogEquipment, addOwnedArmor, armorForEquipment, heldHandsUsed, isArmorEquipment, removeOwnedArmor, replaceOtherEquipment, selectHeldShield, selectHeldWeapon, selectWornArmor, weaponHandUsage } from "@/lib/equipmentSelection";
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { DiceText } from "@/components/DiceText";
@@ -96,7 +97,7 @@ function calculationEditGuide(target: CalculationTarget): string {
   if (target.kind === "speed") return "Il valore è registrato alla creazione del personaggio e dai flussi guidati; non si modifica direttamente da qui.";
   if (target.kind === "maxHp") return "Si aggiorna con «Sali di livello», scegliendo tiro del Dado Vita o valore fisso; non si modifica direttamente.";
   if (target.kind === "spellDc" || target.kind === "spellAttack") return "Si aggiorna cambiando il punteggio della caratteristica da incantatore o il livello.";
-  if (target.kind === "weaponAttack") return "Dipende da caratteristica, livello e competenze. Per le armi Accurate scegli FOR o DES sotto l'arma, nella pagina Armi.";
+  if (target.kind === "weaponAttack") return "Dipende da caratteristica, livello e competenze. Per le armi Accurate scegli FORZA o DESTREZZA sotto l'arma, nella pagina Armi.";
   if (target.kind === "weaponDamage") return "Dipende dal modificatore di caratteristica e, per le armi Versatili, dall'uso a una o due mani: sceglilo sotto l'arma, nella pagina Armi.";
   if (target.kind === "weaponRange") return "Deriva dalle proprietà dell'arma. Per le armi da lancio scegli «Lancio» sotto l'arma per vedere la gittata.";
   return "Si aggiorna quando cambiano il punteggio della caratteristica, il livello o una competenza o Maestria concessa dalle regole.";
@@ -127,16 +128,6 @@ function ComputedField({ label, value, explainLabel, onExplain, competent }: {
     </button>
   </div>;
 }
-
-// Nome completo delle caratteristiche a partire dall'abbreviazione.
-const CAR_FULL: Record<string, string> = {
-  FOR: "FORZA",
-  DES: "DESTREZZA",
-  COS: "COSTITUZIONE",
-  INT: "INTELLIGENZA",
-  SAG: "SAGGEZZA",
-  CAR: "CARISMA",
-};
 
 // Normalizza un campo lista che potrebbe essere ancora una vecchia stringa.
 function toList(v: unknown): string[] {
@@ -210,7 +201,7 @@ function Segmented<T extends string>({ label, value, options, onChange }: { labe
   </div>;
 }
 
-function OwnedWeaponList({ sheet, onChange, onExplain }: { sheet: Sheet; onChange: (items: Arma[]) => void; onExplain: (target: CalculationTarget, button: HTMLButtonElement) => void }) {
+function OwnedWeaponList({ sheet, onChange, onExplain, onHandsFull }: { sheet: Sheet; onChange: (items: Arma[]) => void; onExplain: (target: CalculationTarget, button: HTMLButtonElement) => void; onHandsFull: () => void }) {
   const { unlocked } = useContext(EditContext);
   const update = (index: number, patch: Partial<Arma>) => onChange(sheet.armi.map((item, itemIndex) => itemIndex === index ? { ...item, ...patch } : item));
   return <div className="flex flex-col gap-2">
@@ -239,13 +230,17 @@ function OwnedWeaponList({ sheet, onChange, onExplain }: { sheet: Sheet; onChang
           }} className="flex size-8 shrink-0 items-center justify-center text-base font-medium text-danger-strong">×</button>}
         </div>
         <div className="mt-2 flex items-center gap-2">
-          <Toggle label="Impugnata" checked={Boolean(weapon.impugnata)} locked={!weapon.impugnata && (Number(weapon.quantita || "1") < 1 || heldHandsUsed(sheet) + weaponHandUsage(sheet, index) > 2)}
-            onChange={(enabled) => onChange(selectHeldWeapon(sheet, index, enabled))} />
+          <Toggle label="Impugnata" checked={Boolean(weapon.impugnata)} locked={Number(weapon.quantita || "1") < 1}
+            onChange={(enabled) => {
+              const selected = selectHeldWeapon(sheet, index, enabled);
+              if (enabled && selected === sheet.armi) onHandsFull();
+              else onChange(selected);
+            }} />
           {weapon.impugnata && weaponHandUsage(sheet, index) === 2 && <span className="text-xs text-ink-soft">Occupa entrambe le mani.</span>}
         </div>
         <div className="mt-2 grid grid-cols-3 gap-1.5">
           <StatTile icon="hit" label="Colpire" tone="accent" value={displayedWeaponAttack(sheet, weapon)}
-            sub={calculation ? `${calculation.ability}${calculation.proficient ? " + comp." : " · senza comp."}` : undefined}
+            sub={calculation ? `${abilityName(calculation.ability)}${calculation.proficient ? " + comp." : " · senza comp."}` : undefined}
             ariaLabel={`Spiega il tiro per colpire: ${name}`} onClick={(button) => onExplain({ kind: "weaponAttack", index }, button)} />
           <StatTile icon="damage" label="Danni" tone="danger"
             value={calculation ? `${calculation.dice}${calculation.modifier}` : ""} sub={calculation?.damageType}
@@ -260,9 +255,13 @@ function OwnedWeaponList({ sheet, onChange, onExplain }: { sheet: Sheet; onChang
         </div>}
         {(modes.length > 0 || entry?.finesse) && <div className="mt-2 flex flex-wrap gap-1.5">
           {modes.length > 0 && <Segmented label={`Uso di ${name}`} value={weapon.modo ?? "base"} options={modes}
-            onChange={(modo) => update(index, { modo: modo === "base" ? undefined : modo })} />}
+            onChange={(modo) => {
+              const next = sheet.armi.map((item, itemIndex) => itemIndex === index ? { ...item, modo: modo === "base" ? undefined : modo } : item);
+              if (weapon.impugnata && heldHandsUsed({ ...sheet, armi: next }) > 2) onHandsFull();
+              else onChange(next);
+            }} />}
           {entry?.finesse && <Segmented label={`Caratteristica per ${name}`} value={weapon.caratteristica ?? (entry.kind === "distanza" ? "DES" : "FOR")}
-            options={[["FOR", "FOR"], ["DES", "DES"]]} onChange={(caratteristica) => update(index, { caratteristica })} />}
+            options={[["FOR", "FORZA"], ["DES", "DESTREZZA"]]} onChange={(caratteristica) => update(index, { caratteristica })} />}
         </div>}
         {weapon.note && <p className="mt-1.5 whitespace-pre-wrap text-xs text-ink-soft">{weapon.note}</p>}
       </div>;
@@ -383,7 +382,7 @@ export default function CharacterClient({
   const firstRun = useRef(true);
   const saveChainRef = useRef<Promise<void>>(Promise.resolve());
   const [showHistory, setShowHistory] = useState(false);
-  const [showShieldNotice, setShowShieldNotice] = useState(false);
+  const [equipmentNotice, setEquipmentNotice] = useState("");
   const [calculationTarget, setCalculationTarget] = useState<CalculationTarget | null>(null);
   const [fieldInfo, setFieldInfo] = useState<{ id: string; title: string } | null>(null);
   const calculationTrigger = useRef<HTMLButtonElement | null>(null);
@@ -396,10 +395,10 @@ export default function CharacterClient({
   const [levelUpOpen, setLevelUpOpen] = useState(false);
 
   useEffect(() => {
-    if (!showShieldNotice) return;
-    const timer = window.setTimeout(() => setShowShieldNotice(false), 2500);
+    if (!equipmentNotice) return;
+    const timer = window.setTimeout(() => setEquipmentNotice(""), 2500);
     return () => window.clearTimeout(timer);
-  }, [showShieldNotice]);
+  }, [equipmentNotice]);
 
   useEffect(() => {
     if (!calculationTarget) return;
@@ -795,7 +794,7 @@ export default function CharacterClient({
       title: "Abilità",
       body: (
         <div className="flex flex-col gap-4">
-          {Object.entries(CAR_FULL).filter(([caratteristica]) =>
+          Object.entries(ABILITY_NAMES).filter(([caratteristica]) =>
             sheet.abilita.some((a) => a.caratteristica === caratteristica),
           ).map(([caratteristica, titolo]) => (
             <section key={caratteristica}>
@@ -864,9 +863,13 @@ export default function CharacterClient({
                 .sort((a, b) => compareOptionLabels(a.label, b.label))
                 .map((armor) => <option key={armor.id} value={armor.id}>{armor.label}</option>)}
             </select>
-            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} locked={!shieldInUse && heldHandsUsed(sheet) > 1} onChange={(enabled) => {
+            <div className="mt-2"><Toggle label="Scudo" helpId="scudoSelezionato" checked={shieldInUse} onChange={(enabled) => {
+              if (enabled && heldHandsUsed(sheet) > 1) {
+                setEquipmentNotice("Hai già le mani occupate. Libera una mano prima di impugnare lo scudo.");
+                return;
+              }
               if (enabled && !hasOwnedShield) {
-                setShowShieldNotice(true);
+                setEquipmentNotice("Non possiedi alcuno scudo.");
                 return;
               }
               patch(selectHeldShield(sheet, enabled));
@@ -875,7 +878,8 @@ export default function CharacterClient({
           </div>
           <div>
             <h3 className={sectionTitle}>Armi</h3>
-            <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} onExplain={openCalculation} />
+            <OwnedWeaponList sheet={sheet} onChange={(items) => patch({ armi: items })} onExplain={openCalculation}
+              onHandsFull={() => setEquipmentNotice("Hai già le mani occupate. Libera una mano prima di impugnare quest'arma o usare l'arma a due mani.")} />
             <div className="mt-3"><AddWeaponSelect sheet={sheet} onAdd={(weaponName) => patch({ armi: [...sheet.armi, { nome: weaponName, quantita: "1", bonus: "", note: "" }] })} /></div>
           </div>
         </div>
@@ -1118,7 +1122,7 @@ export default function CharacterClient({
     <EditProvider unlocked={true} requireUnlock={() => { }}>
       <FieldInfoContext.Provider value={openFieldInfo}>
         <div className="flex h-dvh flex-col">
-          {showShieldNotice && <div role="status" className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] left-1/2 z-[60] w-max max-w-[calc(100vw-2rem)] -translate-x-1/2 rounded-lg bg-ink px-4 py-2 text-center text-sm font-medium text-parchment shadow-lg">Non possiedi alcuno scudo.</div>}
+          {equipmentNotice && <div role="alert" className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] left-1/2 z-[60] w-max max-w-[calc(100vw-2rem)] -translate-x-1/2 rounded-lg bg-ink px-4 py-2 text-center text-sm font-medium text-parchment shadow-lg">{equipmentNotice}</div>}
           <header className="shrink-0 border-b border-line bg-parchment/90 px-4 pb-2 pt-2 backdrop-blur">
             <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
               <div className="flex min-w-0 items-center justify-self-start">

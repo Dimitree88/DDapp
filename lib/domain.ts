@@ -12,6 +12,7 @@ import { availableClassSpells, spellSlots, spellcastingAbility } from "./spellca
 import { subclassLevel } from "./classProgression";
 import { featByName } from "./featCatalog";
 import { featPrerequisitesMet } from "./featPrerequisites";
+import { abilityName } from "./abilityNames";
 
 const classes = rules.classi as Record<string, string[]>;
 const lineages = rules.lignaggi as Record<string, string[]>;
@@ -46,9 +47,9 @@ export function domainErrors(sheet: Sheet): string[] {
   checkNumber("Punti esperienza", sheet.puntiEsperienza, "unsigned");
   if (sheet.velocita && !/^\d+(?:\.\d+)?$/.test(sheet.velocita)) errors.push(`Velocità: ${sheet.velocita}`);
   sheet.caratteristiche.forEach((characteristic) => {
-    checkNumber(`${characteristic.abbr} valore`, characteristic.valore, "unsigned");
+    checkNumber(`${abilityName(characteristic.abbr)} valore`, characteristic.valore, "unsigned");
     if (characteristic.valore && (Number(characteristic.valore) < 1 || Number(characteristic.valore) > 30)) {
-      errors.push(`${characteristic.abbr} valore: ${characteristic.valore}`);
+      errors.push(`${abilityName(characteristic.abbr)} valore: ${characteristic.valore}`);
     }
   });
   sheet.abilita.forEach((ability) => {
@@ -81,7 +82,7 @@ export function domainErrors(sheet: Sheet): string[] {
     const entry = weaponByName(weapon.nome);
     if (weapon.impugnata && Number(weapon.quantita || "1") < 1) errors.push(`Arma ${index + 1}: non puoi impugnare un'arma senza unità possedute`);
     if (weapon.modo && weapon.modo !== "base" && !(weapon.modo === "lancio" && entry?.kind === "mischia" && entry.thrown) && !(weapon.modo === "dueMani" && entry?.kind === "mischia" && entry.versatileDie)) errors.push(`Arma ${index + 1} modo: ${weapon.modo}`);
-    if (weapon.caratteristica && (weapon.caratteristica !== "FOR" && weapon.caratteristica !== "DES" || !entry?.finesse)) errors.push(`Arma ${index + 1} caratteristica: ${weapon.caratteristica}`);
+    if (weapon.caratteristica && (weapon.caratteristica !== "FOR" && weapon.caratteristica !== "DES" || !entry?.finesse)) errors.push(`Arma ${index + 1} caratteristica: ${abilityName(weapon.caratteristica)}`);
   });
   sheet.talenti.forEach((feat, index) => {
     check(`Talento ${index + 1}`, feat.nome, feats);
@@ -96,7 +97,7 @@ export function domainErrors(sheet: Sheet): string[] {
     check(`Incantesimo ${index + 1}`, spell.nome, spellNames);
     if (spell.fonte && !["classe", "talento", "privilegio", "altro"].includes(spell.fonte)) errors.push(`Incantesimo ${index + 1} fonte: ${spell.fonte}`);
     if (spell.stato && !["conosciuto", "libro", "preparato", "semprePreparato", "concesso"].includes(spell.stato)) errors.push(`Incantesimo ${index + 1} stato: ${spell.stato}`);
-    if (spell.caratteristica && !["INT", "SAG", "CAR"].includes(spell.caratteristica)) errors.push(`Incantesimo ${index + 1} caratteristica: ${spell.caratteristica}`);
+    if (spell.caratteristica && !["INT", "SAG", "CAR"].includes(spell.caratteristica)) errors.push(`Incantesimo ${index + 1} caratteristica: ${abilityName(spell.caratteristica)}`);
     if (spell.fonte === "classe" && !availableClassSpells(sheet).includes(spell.nome)) errors.push(`Incantesimo ${index + 1} non disponibile per ${sheet.classe} al livello ${sheet.livello}: ${spell.nome}`);
     if (spell.fonte === "classe" && !spellcastingAbility[sheet.classe]) errors.push(`Incantesimo ${index + 1}: la classe non lancia incantesimi`);
   });
