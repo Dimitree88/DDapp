@@ -11,7 +11,7 @@ import {
 } from "@/lib/masterCommand";
 import { hitDieSize, hitDiceTotal, rechargeResources, rechargeSpellSlots } from "@/lib/masterRest";
 import {
-  addCondition, conditionNames, damageCharacter, damageCreature, deathSave, exhaustionEffects, healCharacter, healCreature,
+  addCondition, conditionNames, damageCharacter, damageCreature, deathSave, exhaustionEffects, healCharacter, healCreature, ZERO_HP_SOURCE,
   levelForXp, setTemporaryHp, stabilize, xpThresholds, type DeathSaveOutcome,
 } from "@/lib/masterRules";
 import { applyCreatureHpState, applyHpState, applySheetPatch, creatureHpState, sheetHpState, sheetPatch, stableJson } from "@/lib/masterView";
@@ -75,7 +75,11 @@ export async function characterCommand(input: CharacterCommandInput): Promise<Ac
       const value = nonNegativeInt(input.amount, "Punti ferita");
       if (!Number.isSafeInteger(max) || max < 1 || value > max) fail("I PF attuali non possono superare i PF massimi registrati.");
       after.puntiFerita = String(value);
-      if (value > 0) { delete after.statoMorte; after.tiriMorte = { successi: 0, fallimenti: 0 }; }
+      if (value > 0) {
+        delete after.statoMorte;
+        after.tiriMorte = { successi: 0, fallimenti: 0 };
+        after.condizioni = (before.condizioni ?? []).filter((condition) => !(condition.nome === "Privo di sensi" && condition.fonte === ZERO_HP_SOURCE));
+      }
       else after.statoMorte = before.statoMorte ?? "tiri";
       title = "PF attuali corretti";
       details = [`PF: ${before.puntiFerita || "da registrare"} → ${value}`];

@@ -4,10 +4,12 @@ import { randomUUID } from "crypto";
 import { and, asc, eq, inArray } from "drizzle-orm";
 import { refresh, revalidatePath } from "next/cache";
 import { db } from "@/lib/db";
-import { characters, creatures, masterSessionCreatures, masterSessionEvents, masterSessionParticipants, masterSessions, type Encounter } from "@/lib/db/schema";
+import { characterHistory, characters, creatures, masterSessionCreatures, masterSessionEvents, masterSessionParticipants, masterSessions, type Encounter } from "@/lib/db/schema";
 import { cleanText, errorResult, fail, requireOpenSession, type ActionResult } from "@/lib/masterCommand";
 import { normalizeCreature } from "@/lib/creature";
+import { diffSheet } from "@/lib/history";
 import { normalizeSheet } from "@/lib/sheet";
+import { freshStartSheet } from "@/lib/masterFreshStart";
 
 function localDateRome(date: Date) {
   const parts = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Rome", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(date);
@@ -21,6 +23,29 @@ function finish(result: ActionResult) {
     refresh();
   }
   return result;
+}
+
+export async function freshStartCharacters(): Promise<ActionResult> {
+  try {
+    const now = new Date();
+    const prepared = await db.transaction(async (tx) => {
+      const rows = await tx.select().from(characters).orderBy(asc(characters.name));
+      const updates = rows.map((row) => {
+        try { return { row, before: row.data, after: freshStartSheet(row.data) }; }
+        catch (error) { throw new Error(`${row.name}: ${error instanceof Error ? error.message : "PF massimi non validi."}`); }
+      });
+      for (const { row, before, after } of updates) {
+        const changes = diffSheet(before, after);
+        await tx.update(characters).set({ data: after, updatedAt: now }).where(eq(characters.id, row.id));
+        if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: row.id, occurredAt: now, changes });
+      }
+      return updates.map(({ row }) => ({ id: row.id, name: row.name }));
+    });
+    for (const character of prepared) revalidatePath(`/personaggio/${character.id}`);
+    return finish({ ok: true, title: "Fresh start completato", details: prepared.map(({ name }) => name) });
+  } catch (error) {
+    return errorResult(error);
+  }
 }
 
 const uniqueIds = (value: unknown) => [...new Set(Array.isArray(value) ? value.map(String).filter(Boolean) : [])];

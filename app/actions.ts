@@ -52,6 +52,7 @@ export async function saveSheet(
     const [current] = await tx.select().from(characters).where(eq(characters.id, id));
     if (!current) return { ok: false, error: "Personaggio non trovato" };
     const previous = normalizeSheet(current.data);
+    const hitPointsNeedNormalization = String(current.data.puntiFerita ?? "") !== previous.puntiFerita;
     const receiptPacks = bundleReceipts.map((receipt) => gearByName(receipt.name));
     if (receiptPacks.some((pack) => !pack?.contents?.length)) return { ok: false, error: "Dotazione non valida." };
     if (bundleReceipts.length) {
@@ -125,8 +126,10 @@ export async function saveSheet(
     const changes = diffManualSheet({ ...previous, equipaggiamento: equipmentBeforeManual }, normalized);
     const hasRemovedBonus = [...current.data.armi, ...current.data.equipaggiamento]
       .some((item) => Object.hasOwn(item, "bonusMagico"));
-    if (changes.length === 0 && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName) return { ok: true };
+    const manualChangesExist = changes.length > 0;
+    if (!manualChangesExist && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName && !hitPointsNeedNormalization) return { ok: true };
     const now = new Date();
+    if (hitPointsNeedNormalization) changes.push({ field: "Punti ferita", before: String(current.data.puntiFerita ?? "—") || "—", after: previous.puntiFerita });
     const acquisitions = equipmentAcquisitions(equipmentBeforeManual, normalized.equipaggiamento);
     if (acquisitions.length) {
       normalized = {
@@ -139,7 +142,9 @@ export async function saveSheet(
         }],
       };
     }
-    await tx.update(characters).set({ name: cleanName, data: normalized, updatedAt: now }).where(eq(characters.id, id));
+    const onlyHitPointsRepair = hitPointsNeedNormalization && !manualChangesExist && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName;
+    const dataToSave = onlyHitPointsRepair ? { ...current.data, puntiFerita: previous.puntiFerita } : normalized;
+    await tx.update(characters).set({ name: cleanName, data: dataToSave, updatedAt: now }).where(eq(characters.id, id));
     if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
     return { ok: true };
   });

@@ -6,6 +6,7 @@ import { useState, useTransition } from "react";
 import type { ActionResult } from "@/lib/masterCommand";
 import { createSession, deleteSession, reopenSession } from "../actions";
 import { CreatureLibrary } from "./CreatureLibrary";
+import { FreshStartControl } from "./FreshStartControl";
 import { SessionView } from "./SessionView";
 import type { ClosedSessionInfo, MasterData } from "./types";
 import { Button, Chip, ConfirmProvider, Field, Sheet, TextInput, ToastProvider, useConfirm, useToast } from "@/components/ui";
@@ -40,6 +41,7 @@ function Lobby({ data }: { data: MasterData }) {
       <span><span className="block text-xl font-bold">Nuova Sessione</span><span className="text-sm opacity-85">Scegli i partecipanti e inizia a giocare</span></span>
       <span className="text-3xl" aria-hidden>›</span>
     </button>
+    <FreshStartControl characters={data.allCharacters} />
     <Archive closed={data.closed} />
     <CreatureLibrary title="Libreria creature" creatures={data.library} />
     <NewSessionSheet open={creating} onClose={() => setCreating(false)} data={data} />

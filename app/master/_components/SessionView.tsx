@@ -9,6 +9,7 @@ import { CharacterPanel } from "./CharacterPanel";
 import { CreatureLibrary } from "./CreatureLibrary";
 import { CreaturePanel } from "./CreaturePanel";
 import { EventList } from "./EventList";
+import { FreshStartControl } from "./FreshStartControl";
 import { AddParticipantsSheet, RestSheet, XpSheet } from "./GroupSheets";
 import { HpPad } from "./HpPad";
 import { MasterProvider, useMaster, type PadRequest, type Tool } from "./MasterContext";
@@ -137,6 +138,10 @@ function MenuTab() {
   const item = "flex min-h-14 w-full items-center gap-3 rounded-2xl border border-line/60 bg-card/90 px-4 text-left text-[15px] font-semibold text-ink active:bg-card";
 
   return <div className="flex flex-col gap-5 pb-4">
+    <section className="flex flex-col gap-2">
+      <h2 className="text-sm font-bold uppercase tracking-wide text-heading rule-tapered font-display">Personaggi</h2>
+      <FreshStartControl characters={data.allCharacters} />
+    </section>
     <section className="grid grid-cols-2 gap-2">
       <button type="button" className={item} onClick={() => openTool({ kind: "riposo-breve" })}><span aria-hidden>☕</span>Riposo breve</button>
       <button type="button" className={item} onClick={() => openTool({ kind: "riposo-lungo" })}><span aria-hidden>☾</span>Riposo lungo</button>

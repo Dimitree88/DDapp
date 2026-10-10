@@ -215,7 +215,7 @@ export function emptySheet(): Sheet {
     livello: "1",
     classe: "",
     sottoclasse: "",
-    puntiFerita: "",
+    puntiFerita: "0",
     puntiFeritaMax: "",
     classeArmatura: null,
     scudo: false,
@@ -308,6 +308,9 @@ export function normalizeSheet(value: Sheet): Sheet {
     ? String(rawSpeed) : speedMatch ? String(Number(speedMatch[1].replace(",", "."))) : "";
   const toBoolean = (input: boolean | string) =>
     typeof input === "boolean" ? input : /^s(?:i|ì)(?:\s|$)/i.test(input.trim());
+  const rawHitPoints = String(value.puntiFerita ?? "").trim();
+  const puntiFerita = /^\d+$/.test(rawHitPoints) && Number.isSafeInteger(Number(rawHitPoints))
+    ? String(Number(rawHitPoints)) : "0";
   const toList = (input: unknown): string[] =>
     Array.isArray(input) ? input : typeof input === "string"
       ? input.split(/[;,\n]/).map((item) => item.trim()).filter(Boolean) : [];
@@ -346,6 +349,7 @@ export function normalizeSheet(value: Sheet): Sheet {
     velocita,
     scudo: toBoolean(old.scudo),
     ispirazioneEroica: toBoolean(old.ispirazioneEroica),
+    puntiFerita,
     ...(value.puntiFeritaTemporanei !== undefined ? { puntiFeritaTemporanei: String(value.puntiFeritaTemporanei) } : {}),
     ...(value.dadiVitaSpesi !== undefined ? { dadiVitaSpesi: String(value.dadiVitaSpesi) } : {}),
     ...(value.tiriMorte && Number.isInteger(value.tiriMorte.successi) && Number.isInteger(value.tiriMorte.fallimenti)

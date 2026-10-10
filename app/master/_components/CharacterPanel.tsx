@@ -112,6 +112,7 @@ function CharacterBody({ character, onClose }: { character: CharacterView; onClo
     </Section>}
 
     <Section title="Punti ferita">
+      {dead && <p className="text-sm text-ink-soft">Dopo aver risolto la rianimazione in gioco, registra qui i PF ripristinati.</p>}
       <div className="flex items-baseline justify-between">
         <p className="text-3xl font-bold text-ink">{character.hp ?? "—"}<span className="text-lg font-semibold text-ink-soft"> / {character.calc.maxHp
           ? <button type="button" aria-haspopup="dialog" aria-label="Spiega i punti ferita massimi" onClick={() => setExplain(character.calc.maxHp)} className="touch-manipulation underline decoration-line decoration-dotted underline-offset-4 active:text-accent">{character.hpMax ?? "—"}</button>
@@ -121,7 +122,9 @@ function CharacterBody({ character, onClose }: { character: CharacterView; onClo
       <HpBar current={character.hp} max={character.hpMax} temp={character.temp} dead={dead} />
       <div className="grid grid-cols-3 gap-2">
         <Button tone="danger" disabled={dead} onClick={() => openPad({ target, mode: "danni" })}>− Danno</Button>
-        <Button tone="heal" disabled={dead} onClick={() => openPad({ target, mode: "guarigione" })}>+ Cura</Button>
+        {dead
+          ? <Button tone="heal" onClick={() => openPad({ target, mode: "pf-registra", amount: 1 })}>Rianima</Button>
+          : <Button tone="heal" onClick={() => openPad({ target, mode: "guarigione" })}>+ Cura</Button>}
         <Button tone="temp" onClick={() => openPad({ target, mode: "pf-temporanei" })}>PF temp</Button>
       </div>
       <DeathSaves character={character} />

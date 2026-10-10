@@ -1120,9 +1120,12 @@ export default function CharacterClient({
   const summarySlots = spellSlots(sheet).filter((slot) => slot.maximum > 0);
   const summarySlotsAvailable = summarySlots.reduce((total, slot) => total + slot.maximum - slot.spent, 0);
   const summarySlotsMaximum = summarySlots.reduce((total, slot) => total + slot.maximum, 0);
-  const summaryWeapons = sheet.armi.filter((weapon) => weapon.impugnata).map((weapon) => weapon.nome);
   const summaryArmor = selectedArmor?.nome ?? "Nessuna";
   const summaryShield = selectedShield?.nome ?? (sheet.scudo ? "Scudo" : null);
+  const summaryHands = sheet.armi.flatMap((weapon, index) => weapon.impugnata
+    ? [{ label: weaponHandUsage(sheet, index) === 2 ? "Mani" : "Mano", name: weapon.nome }]
+    : []);
+  if (summaryShield) summaryHands.push({ label: "Mano", name: summaryShield });
 
   return (
     <EditProvider unlocked={true} requireUnlock={() => { }}>
@@ -1194,14 +1197,13 @@ export default function CharacterClient({
             {showHub && (
               <div className="absolute inset-0 z-20 flex flex-col overflow-y-auto bg-parchment/95 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur">
                 {levelReady && levelBanner}
-                <section aria-label="Situazione attuale" className="mb-3 rounded-xl border border-line bg-card/70 p-3 shadow-sm">
-                  <h2 className="font-display text-[11px] font-semibold uppercase tracking-wide text-heading">Situazione attuale</h2>
-                  <dl className="mt-2 grid grid-cols-2 gap-x-3 gap-y-2 text-xs">
+                <section aria-label="Riepilogo personaggio" className="mb-3 rounded-xl border border-line bg-card/70 p-3 shadow-sm">
+                  <dl className="grid grid-cols-2 gap-x-3 gap-y-2 text-xs">
                     <div><dt className="text-ink-soft">Punti ferita</dt><dd className="font-semibold text-ink">{sheet.puntiFerita || "—"} / {sheet.puntiFeritaMax || "—"}{Number(sheet.puntiFeritaTemporanei) > 0 ? ` · ${sheet.puntiFeritaTemporanei} temporanei` : ""}</dd></div>
-                    <div><dt className="text-ink-soft">Ispirazione eroica</dt><dd className="font-semibold text-ink">{sheet.ispirazioneEroica ? "Sì" : "No"}</dd></div>
+                    {sheet.ispirazioneEroica ? <div><dt className="sr-only">Ispirazione eroica</dt><dd><label className="inline-flex items-center gap-2 font-semibold text-ink"><input type="checkbox" checked onChange={() => {}} aria-label="Ispirazione eroica attiva" className="size-4 accent-accent" /><span>Ispirazione eroica</span></label></dd></div> : null}
                     {(sheet.condizioni?.length || sheet.indebolimento) ? <div className="col-span-2"><dt className="text-ink-soft">Condizioni</dt><dd className="font-semibold text-ink">{[...(sheet.condizioni ?? []).map((condition) => condition.nome), ...(sheet.indebolimento ? [`Indebolimento ${sheet.indebolimento}`] : [])].join(" · ")}</dd></div> : null}
                     {sheet.concentrazione?.effetto ? <div className="col-span-2"><dt className="text-ink-soft">Concentrazione</dt><dd className="font-semibold text-ink">{sheet.concentrazione.effetto}{sheet.concentrazione.durata ? ` · ${sheet.concentrazione.durata}` : ""}</dd></div> : null}
-                    <div className="col-span-2"><dt className="text-ink-soft">Indossati e impugnati</dt><dd className="font-semibold text-ink">Armatura: {summaryArmor} · Scudo: {summaryShield ?? "Nessuno"} · Armi: {summaryWeapons.length ? summaryWeapons.join(", ") : "Nessuna"}</dd></div>
+                    <div className="col-span-2"><dt className="sr-only">Indossati e impugnati</dt><dd className="font-semibold text-ink"><div>Armatura: {summaryArmor}</div>{summaryHands.length ? summaryHands.slice(0, 2).map((hand, index) => <div key={`${hand.label}-${index}`}>{hand.label}: {hand.name}</div>) : <div>Mani: Nessuna arma o scudo</div>}</dd></div>
                     <div className="col-span-2"><dt className="text-ink-soft">Slot incantesimo</dt><dd className="font-semibold text-ink">{summarySlotsMaximum ? `${summarySlotsAvailable} / ${summarySlotsMaximum} disponibili` : "Nessuno"}{summarySlots.length > 1 ? ` · ${summarySlots.map((slot) => `${slot.maximum - slot.spent}/${slot.maximum} di ${slot.level}°`).join(" · ")}` : ""}</dd></div>
                   </dl>
                 </section>
@@ -1230,7 +1232,7 @@ export default function CharacterClient({
                   onClick={openHistory}
                   className="mt-2 w-full rounded-xl border border-line bg-card/70 py-3 text-sm font-semibold text-ink shadow-sm active:bg-card"
                 >
-                  Storico modifiche
+                  Eventi
                 </button>
               </div>
             )}
@@ -1241,7 +1243,7 @@ export default function CharacterClient({
                   <button type="button" onClick={() => setShowHistory(false)} className="text-sm font-medium text-accent">
                     ← Scheda
                   </button>
-                  <h2 className="text-base font-bold text-heading">Storico modifiche</h2>
+                  <h2 className="text-base font-bold text-heading">Eventi</h2>
                   <span className="w-14" />
                 </div>
                 <div className="flex-1 overflow-y-auto px-4 py-4">
