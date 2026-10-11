@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const sounds = [
-  { label: "Suono 1", src: null },
-  { label: "Suono 2", src: "/audio/orsufo-2.wav" },
-  { label: "Suono 3", src: "/audio/orsufo-3.wav" },
-  { label: "Suono 4", src: "/audio/orsufo-4.wav" },
+  { label: "Relax", src: null },
+  { label: "Contento", src: "/audio/orsufo-2.wav" },
+  { label: "Paura", src: "/audio/orsufo-3.wav" },
+  { label: "Fame", src: "/audio/orsufo-4.wav" },
 ];
 
 export function OrsufoSoundboard() {
@@ -44,7 +44,7 @@ export function OrsufoSoundboard() {
       onClick={() => { if (sound.src) play(sound.src); }}
       className="flex min-h-36 touch-manipulation items-center justify-center rounded-3xl border border-line bg-accent px-4 text-center text-2xl font-bold text-on-accent shadow-lg active:scale-[0.98] active:bg-accent-strong disabled:cursor-not-allowed disabled:opacity-45"
     >{sound.label}{!sound.src && <span className="sr-only"> — file audio mancante</span>}</button>)}
-    <p className="col-span-2 text-center text-sm text-ink-soft">Il WAV del Suono 1 non è ancora disponibile.</p>
+    <p className="col-span-2 text-center text-sm text-ink-soft">Il WAV di Relax non è ancora disponibile.</p>
     {error && <p role="alert" className="col-span-2 rounded-xl bg-surface px-4 py-3 text-sm text-danger-strong">{error}</p>}
   </section>;
 }
