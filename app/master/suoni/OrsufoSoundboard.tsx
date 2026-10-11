@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from "react";
 
 const sounds = [
   { label: "Relax", src: "/audio/orsufo-1.mp3" },
-  { label: "Contento", src: "/audio/orsufo-2.wav" },
-  { label: "Paura", src: "/audio/orsufo-3.wav" },
-  { label: "Fame", src: "/audio/orsufo-4.wav" },
+  { label: "Contento", src: "/audio/orsufo-2.mp3" },
+  { label: "Paura", src: "/audio/orsufo-3.mp3" },
+  { label: "Fame", src: "/audio/orsufo-4.mp3" },
 ];
 
 export function OrsufoSoundboard() {
