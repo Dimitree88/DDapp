@@ -6,6 +6,7 @@ import { gearCatalog } from "./gearCatalog";
 import { weaponCatalog, weaponDetails } from "./weaponDetails";
 import { helpFor } from "./fieldHelp";
 import { glossarioAppendiceC } from "./glossarioAppendiceC";
+import { glossarioIndiceC } from "./glossarioIndiceC";
 
 export type HomeGlossaryEntry = { id: string; name: string; category: string; description: string; reference: string; searchNames?: string[] };
 
@@ -62,6 +63,7 @@ const entries: HomeGlossaryEntry[] = (() => {
     });
   }
   for (const voce of glossarioAppendiceC) byId.set(voce.id, voce);
+  for (const voce of glossarioIndiceC) byId.set(voce.id, voce);
   return [...byId.values()];
 })();
 
