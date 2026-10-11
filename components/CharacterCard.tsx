@@ -8,6 +8,9 @@ import { compareOptionLabels } from "@/lib/sortOptions";
 import { gearCatalog } from "@/lib/gearCatalog";
 import { DeleteCharacter } from "./DeleteCharacter";
 
+const quickAddObjects = gearCatalog.filter((gear) => !gear.contents?.length)
+  .sort((a, b) => compareOptionLabels(a.name, b.name));
+
 export function CharacterCard({
   id,
   name,
@@ -26,8 +29,10 @@ export function CharacterCard({
   const router = useRouter();
   const [revealed, setRevealed] = useState(false);
   const [addOpen, setAddOpen] = useState(false);
-  const [catalogSelection, setCatalogSelection] = useState("");
-  const [customName, setCustomName] = useState("");
+  const [objectName, setObjectName] = useState("");
+  const [selectedCatalogId, setSelectedCatalogId] = useState("");
+  const [suggestionsOpen, setSuggestionsOpen] = useState(false);
+  const [activeSuggestion, setActiveSuggestion] = useState(0);
   const [quantity, setQuantity] = useState("1");
   const [detail, setDetail] = useState("");
   const [addError, setAddError] = useState("");
@@ -35,6 +40,14 @@ export function CharacterCard({
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const longPressed = useRef(false);
   const start = useRef({ x: 0, y: 0 });
+  const suggestions = objectName.trim()
+    ? quickAddObjects.filter((gear) => gear.name.toLocaleLowerCase("it").includes(objectName.trim().toLocaleLowerCase("it"))).slice(0, 8)
+    : [];
+  const chooseSuggestion = (gear: (typeof quickAddObjects)[number]) => {
+    setObjectName(gear.name);
+    setSelectedCatalogId(gear.id);
+    setSuggestionsOpen(false);
+  };
 
   const cancelTimer = () => {
     if (timer.current) {
@@ -68,13 +81,12 @@ export function CharacterCard({
   };
 
   const submitEquipment = async () => {
-    const custom = catalogSelection === "personalizzato";
-    if (!catalogSelection || custom && !customName.trim()) return;
+    if (!objectName.trim()) return;
     setSaving(true);
     setAddError("");
     try {
       const result = await addCharacterEquipment(id, {
-        ...(custom ? { nome: customName.trim() } : { catalogId: catalogSelection }),
+        ...(selectedCatalogId ? { catalogId: selectedCatalogId } : { nome: objectName.trim() }),
         quantita: Number(quantity),
         dettaglio: detail.trim(),
       });
@@ -83,8 +95,9 @@ export function CharacterCard({
         return;
       }
       setAddOpen(false);
-      setCatalogSelection("");
-      setCustomName("");
+      setObjectName("");
+      setSelectedCatalogId("");
+      setSuggestionsOpen(false);
       setQuantity("1");
       setDetail("");
       router.refresh();
@@ -135,7 +148,7 @@ export function CharacterCard({
             <button type="button" title={`Aggiungi oggetto all'equipaggiamento di ${name}`} aria-label={`Aggiungi oggetto all'equipaggiamento di ${name}`}
               onPointerDown={(event) => event.stopPropagation()}
               onPointerUp={(event) => event.stopPropagation()}
-              onClick={(event) => { event.stopPropagation(); setAddError(""); setCatalogSelection(""); setCustomName(""); setQuantity("1"); setDetail(""); setAddOpen(true); }}
+              onClick={(event) => { event.stopPropagation(); setAddError(""); setObjectName(""); setSelectedCatalogId(""); setSuggestionsOpen(false); setQuantity("1"); setDetail(""); setAddOpen(true); }}
               className="flex size-8 items-center justify-center rounded-full border border-accent/60 bg-accent/10 text-lg font-semibold leading-none text-accent active:bg-accent/20">+</button>
           </div>
         </div>
@@ -146,21 +159,40 @@ export function CharacterCard({
       subtitle="Scegli l’oggetto e indica quantità e descrizione facoltativa."
       footer={<div className="flex gap-2">
         <button type="button" disabled={saving} onClick={() => setAddOpen(false)} className="min-h-11 flex-1 rounded-lg border border-line px-4 text-sm font-semibold text-ink disabled:opacity-50">Annulla</button>
-        <button type="button" disabled={saving || !catalogSelection || catalogSelection === "personalizzato" && !customName.trim() || !Number.isSafeInteger(Number(quantity)) || Number(quantity) < 1}
+        <button type="button" disabled={saving || !objectName.trim() || !Number.isSafeInteger(Number(quantity)) || Number(quantity) < 1}
           onClick={() => void submitEquipment()} className="min-h-11 flex-1 rounded-lg bg-accent px-4 text-sm font-semibold text-on-accent disabled:opacity-40">{saving ? "Aggiunta…" : "Aggiungi"}</button>
       </div>}>
       <div className="flex flex-col gap-3">
-        <label className="flex flex-col gap-1 text-sm font-medium text-ink">Oggetto
-          <select value={catalogSelection} onChange={(event) => setCatalogSelection(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink">
-            <option value="">Scegli un oggetto</option>
-            {gearCatalog.filter((gear) => !gear.contents?.length).sort((a, b) => compareOptionLabels(a.name, b.name))
-              .map((gear) => <option key={gear.id} value={gear.id}>{gear.name}</option>)}
-            <option value="personalizzato">Oggetto personalizzato…</option>
-          </select>
-        </label>
-        {catalogSelection === "personalizzato" && <label className="flex flex-col gap-1 text-sm font-medium text-ink">Nome
-          <input autoFocus required value={customName} onChange={(event) => setCustomName(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
-        </label>}
+        <div className="flex flex-col gap-1 text-sm font-medium text-ink">
+          <label htmlFor={`oggetto-home-${id}`}>Oggetto</label>
+          <div className="relative">
+            <input id={`oggetto-home-${id}`} autoFocus required role="combobox" aria-autocomplete="list"
+              aria-expanded={suggestionsOpen && suggestions.length > 0} aria-controls={`oggetti-suggeriti-${id}`}
+              aria-activedescendant={suggestionsOpen && suggestions[activeSuggestion] ? `oggetto-suggerito-${id}-${suggestions[activeSuggestion].id}` : undefined}
+              value={objectName} onFocus={() => setSuggestionsOpen(true)}
+              onBlur={() => setSuggestionsOpen(false)}
+              onChange={(event) => { setObjectName(event.target.value); setSelectedCatalogId(""); setActiveSuggestion(0); setSuggestionsOpen(true); }}
+              onKeyDown={(event) => {
+                if (event.key === "Escape") setSuggestionsOpen(false);
+                else if (event.key === "ArrowDown" && suggestions.length) { event.preventDefault(); setSuggestionsOpen(true); setActiveSuggestion((index) => Math.min(index + 1, suggestions.length - 1)); }
+                else if (event.key === "ArrowUp" && suggestions.length) { event.preventDefault(); setActiveSuggestion((index) => Math.max(index - 1, 0)); }
+                else if (event.key === "Enter" && suggestionsOpen && suggestions[activeSuggestion]) { event.preventDefault(); chooseSuggestion(suggestions[activeSuggestion]); }
+              }}
+              placeholder="Cerca nel catalogo o scrivi un nome personalizzato"
+              className="min-h-11 w-full rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
+            {suggestionsOpen && suggestions.length > 0 && <div id={`oggetti-suggeriti-${id}`} role="listbox" aria-label="Oggetti disponibili"
+              className="absolute inset-x-0 top-full z-10 mt-1 max-h-52 overflow-y-auto rounded-lg border border-line bg-card shadow-lg">
+              {suggestions.map((gear, index) => <button key={gear.id} id={`oggetto-suggerito-${id}-${gear.id}`} type="button" role="option" aria-selected={selectedCatalogId === gear.id || activeSuggestion === index}
+                onPointerDown={(event) => event.preventDefault()}
+                onPointerMove={() => setActiveSuggestion(index)}
+                onClick={() => chooseSuggestion(gear)}
+                className={`block min-h-11 w-full border-b border-line/60 px-3 py-2 text-left text-sm text-ink last:border-0 ${activeSuggestion === index ? "bg-parchment" : "hover:bg-parchment"}`}>
+                {gear.name}
+              </button>)}
+            </div>}
+          </div>
+          <span className="text-xs font-normal text-ink-soft">Se non scegli un suggerimento e continui a scrivere, l’oggetto sarà personalizzato.</span>
+        </div>
         <label className="flex flex-col gap-1 text-sm font-medium text-ink">Quantità
           <input type="number" min="1" step="1" inputMode="numeric" value={quantity} onChange={(event) => setQuantity(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
         </label>
