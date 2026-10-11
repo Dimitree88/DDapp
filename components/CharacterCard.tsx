@@ -38,6 +38,8 @@ export function CharacterCard({
   coins: { key: "rame" | "argento" | "electrum" | "oro" | "platino"; label: string; amount: string }[];
 }) {
   const router = useRouter();
+  const hpRatio = hpCurrent === null || hpMax === null || hpMax < 1
+    ? 1 : Math.max(0, Math.min(1, hpCurrent / hpMax));
   const [revealed, setRevealed] = useState(false);
   const [addOpen, setAddOpen] = useState(false);
   const [objectName, setObjectName] = useState("");
@@ -211,7 +213,8 @@ export function CharacterCard({
           </div>
           <div className="relative mt-1" role="img" aria-label={`Punti ferita: ${hpCurrent ?? "non registrati"}${hpMax !== null ? ` su ${hpMax}` : ""}`}>
             <HpBar current={hpCurrent} max={hpMax} temp={hpTemp} />
-            <span aria-hidden className="pointer-events-none absolute inset-0 flex items-center justify-center text-[9px] font-bold leading-none text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.95)]">{hpCurrent ?? "—"}</span>
+            <span aria-hidden style={{ left: `${hpRatio * 100}%`, transform: hpRatio === 0 ? "translateX(0)" : "translateX(-100%)" }}
+              className="pointer-events-none absolute inset-y-0 flex items-center px-0.5 text-[9px] font-bold leading-none text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.95)]">{hpCurrent ?? "—"}</span>
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             {coins.map((coin) => <button key={coin.key} type="button" title={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}

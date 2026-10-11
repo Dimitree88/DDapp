@@ -55,7 +55,8 @@ export function HomeCharacterList({ initialCards, initialCreatures }: { initialC
       </span>
       <span className="relative" role="img" aria-label={`Punti ferita: ${creature.hpCurrent} su ${creature.hpMax}`}>
         <HpBar current={creature.hpCurrent} max={creature.hpMax} temp={creature.hpTemp} />
-        <span aria-hidden className="pointer-events-none absolute inset-0 flex items-center justify-center text-[9px] font-bold leading-none text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.95)]">{creature.hpCurrent}</span>
+        <span aria-hidden style={{ left: `${Math.max(0, Math.min(1, creature.hpCurrent / creature.hpMax)) * 100}%`, transform: creature.hpCurrent <= 0 ? "translateX(0)" : "translateX(-100%)" }}
+          className="pointer-events-none absolute inset-y-0 flex items-center px-0.5 text-[9px] font-bold leading-none text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.95)]">{creature.hpCurrent}</span>
       </span>
     </Link>)}
   </div>;
