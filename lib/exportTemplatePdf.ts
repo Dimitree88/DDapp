@@ -14,6 +14,7 @@ import { isArmorEquipment } from "./equipmentSelection";
 import { spellDamageNote } from "./spellDamageNotes";
 import { displayedFeatGrants, featFunctionalDetails, grantFunctionalDetails } from "./functionalDetails";
 import { abilityName } from "./abilityNames";
+import { weaponByName } from "./weaponDetails";
 
 type Mapping = (typeof fields)[number];
 type RichItem = { title: string; detail?: string };
@@ -81,6 +82,13 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet
       }
       if (array[3] === "bonus") return displayedWeaponAttack(sheet, item);
       if (array[3] === "danno") return weaponAttack(sheet, item)?.damage;
+      if (array[3] === "note") {
+        const notes = item.note?.trim();
+        const requiresTwoHands = weaponByName(item.nome)?.properties
+          .split(",")
+          .some((property) => property.trim().toLocaleLowerCase("it").startsWith("due mani"));
+        return [notes, requiresTwoHands ? "Due mani" : ""].filter(Boolean).join(" · ");
+      }
       const value = item[array[3] as keyof typeof item];
       return typeof value === "number" ? String(value) : value;
     }
@@ -316,14 +324,13 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   feats.push(...recordedFeats.map((item) => richItem(item.nome, item.scelte, featFunctionalDetails(item.nome, sheet).summary)));
   drawRichList([byField.get("textarea_143mcko")!], feats);
   const quantity = (value?: string) => Number(value) > 1 ? ` x${value}` : "";
-  const armors = sheet.equipaggiamento.filter(isArmorEquipment);
-  const arms = [
-    ...sheet.armi.map((item) => ({ title: `${item.nome}${quantity(item.quantita)}` })),
-    ...armors.map((item) => ({ title: `${item.nome}${quantity(item.quantita)}` })),
+  const weaponProficiencies = [
+    ...sheet.competenzeArmi.map((title) => ({ title })),
+    ...(sheet.scudo ? [{ title: "Scudo" }] : []),
   ].sort((a, b) => compareOptionLabels(a.title, b.title));
-  if (arms.length) {
+  if (weaponProficiencies.length) {
     const first = { ...byField.get("textarea_158mwcp")!, x: 19, y: 679, width: 94, height: 37, source: "sheet.armi" };
-    drawRichList([first, { ...first, x: 113 }], arms);
+    drawRichList([first, { ...first, x: 113 }], weaponProficiencies);
   }
   drawRichList([byField.get("textarea_165hxzs")!], sheet.equipaggiamento.filter((item) => !isArmorEquipment(item)).sort((a, b) => compareOptionLabels(a.nome, b.nome)).map((item) => ({
     title: `${item.nome}${quantity(item.quantita)}${Number(item.quantita) > 1 && item.unita ? ` ${item.unita}` : ""}${item.indossato ? " (indossata)" : item.impugnato ? " (impugnato)" : ""}`,
