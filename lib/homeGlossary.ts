@@ -4,8 +4,9 @@ import type { VoceBase } from "./manuale-2024/schema";
 import { equipmentDetails } from "./equipmentDetails";
 import { gearCatalog } from "./gearCatalog";
 import { weaponCatalog, weaponDetails } from "./weaponDetails";
+import { helpFor } from "./fieldHelp";
 
-export type HomeGlossaryEntry = { id: string; name: string; category: string; description: string; reference: string };
+export type HomeGlossaryEntry = { id: string; name: string; category: string; description: string; reference: string; searchNames?: string[] };
 
 const entries: HomeGlossaryEntry[] = (() => {
   const byId = new Map<string, HomeGlossaryEntry>();
@@ -46,6 +47,19 @@ const entries: HomeGlossaryEntry[] = (() => {
       reference: `Manuale del Giocatore 2024, p. ${details.page ?? gear.sourcePage ?? 223}`,
     });
   }
+  const magicRules = [
+    { id: "Oggetto magico", name: "Oggetto magico", searchNames: ["Identificare un oggetto magico", "Oggetti magici"] },
+    { id: "In sintonia", name: "Sintonia con un oggetto magico", searchNames: ["Sintonia", "In sintonia", "Sintonizzazione con un oggetto magico"] },
+  ];
+  for (const rule of magicRules) {
+    const help = helpFor(rule.id);
+    if (!help) continue;
+    byId.set(`regola:${rule.id}`, {
+      id: `regola:${rule.id}`, name: rule.name, searchNames: rule.searchNames,
+      category: "Oggetti magici", description: help.meaning,
+      reference: "Manuale del Giocatore 2024, p. 232",
+    });
+  }
   return [...byId.values()];
 })();
 
@@ -55,9 +69,10 @@ export function searchHomeGlossary(query: string): HomeGlossaryEntry[] {
   const words = normalized.split(" ").filter(Boolean);
   return entries
     .map((entry) => {
-      const name = chiaveRicerca(entry.name);
-      if (!words.every((word) => name.includes(word))) return null;
-      const rank = name === normalized ? 0 : name.startsWith(normalized) ? 1 : name.includes(normalized) ? 2 : 3;
+      const names = [entry.name, ...(entry.searchNames ?? [])].map(chiaveRicerca);
+      const matchingName = names.find((name) => words.every((word) => name.includes(word)));
+      if (!matchingName) return null;
+      const rank = matchingName === normalized ? 0 : matchingName.startsWith(normalized) ? 1 : matchingName.includes(normalized) ? 2 : 3;
       return { entry, rank };
     })
     .filter((match): match is { entry: HomeGlossaryEntry; rank: number } => match !== null)
