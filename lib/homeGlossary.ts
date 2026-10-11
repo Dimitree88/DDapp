@@ -5,6 +5,7 @@ import { equipmentDetails } from "./equipmentDetails";
 import { gearCatalog } from "./gearCatalog";
 import { weaponCatalog, weaponDetails } from "./weaponDetails";
 import { helpFor } from "./fieldHelp";
+import { glossarioAppendiceC } from "./glossarioAppendiceC";
 
 export type HomeGlossaryEntry = { id: string; name: string; category: string; description: string; reference: string; searchNames?: string[] };
 
@@ -60,6 +61,7 @@ const entries: HomeGlossaryEntry[] = (() => {
       reference: "Manuale del Giocatore 2024, p. 232",
     });
   }
+  for (const voce of glossarioAppendiceC) byId.set(voce.id, voce);
   return [...byId.values()];
 })();
 
