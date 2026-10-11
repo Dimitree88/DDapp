@@ -184,7 +184,7 @@ export async function saveSheet(
         .orderBy(desc(characterHistory.occurredAt), desc(characterHistory.id))
         .limit(1);
       const elapsed = recent ? now.getTime() - historyTimestampMs(Number(recent.occurredAt)) : Infinity;
-      if (recent && elapsed >= 0 && elapsed <= 5_000) {
+      if (recent && elapsed >= 0 && elapsed <= 15_000) {
         const combined = coalesceHistoryChanges(recent.changes, changes);
         if (combined.length) {
           await tx.update(characterHistory).set({ occurredAt: now, changes: combined }).where(eq(characterHistory.id, recent.id));
