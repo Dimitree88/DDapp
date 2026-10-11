@@ -333,31 +333,31 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
   const renderItem = ({ item, index }: { item: Equip; index: number }) => {
     const quantity = Number(item.quantita || "1");
     const validQuantity = Number.isSafeInteger(quantity) && quantity >= 0;
-    return <div key={index} className={`${card} flex items-center gap-2`}>
-      <div className="min-w-0 flex-1">
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+    return <div key={index} className="min-w-0 rounded-xl border border-line bg-card/70 p-2 shadow-sm">
+      <div className="flex min-w-0 items-start gap-1">
+        <div className="min-w-0 flex-1">
           {item.nome || !unlocked ? <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-left text-sm font-semibold text-ink" />
             : <TextField label="" showInfo={false} value={item.nome} onChange={(value) => patchAt(index, { nome: value })} />}
-          <WarningLabel id={`avvisoOggetto:${indices[index]}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
         </div>
-        {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
-        <MagicItemControls sheet={sheet} item={item} onPatch={(patch) => patchAt(index, patch)} />
+        {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="flex size-8 shrink-0 items-center justify-center text-sm font-medium text-danger-strong">×</button>}
       </div>
-      <div role="group" aria-label={`Quantità ${item.nome || "oggetto"}`} className="flex shrink-0 items-center gap-1">
+      <WarningLabel id={`avvisoOggetto:${indices[index]}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
+      {item.dettaglio && <p className="mt-1 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
+      <MagicItemControls sheet={sheet} item={item} onPatch={(patch) => patchAt(index, patch)} />
+      <div role="group" aria-label={`Quantità ${item.nome || "oggetto"}`} className="mt-1 flex items-center gap-1">
+        {unlocked && <button type="button" aria-label={`Diminuisci ${item.nome || "oggetto"}`} onClick={() => changeQuantity(index, quantity - 1)}
+          disabled={!validQuantity || quantity <= 0} className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-lg text-accent active:bg-card disabled:opacity-40">−</button>}
         <InlineInput value={item.quantita || "1"} onChange={(value) => {
           if (value === "0") changeQuantity(index, 0);
           else patchAt(index, { quantita: value || "1" });
-        }} numeric="unsigned" className="w-12 text-center" />
-        {unlocked && <button type="button" aria-label={`Diminuisci ${item.nome || "oggetto"}`} onClick={() => changeQuantity(index, quantity - 1)}
-          disabled={!validQuantity || quantity <= 0} className="flex size-11 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">−</button>}
+        }} numeric="unsigned" className="w-10 text-center" />
         {unlocked && <button type="button" aria-label={`Aumenta ${item.nome || "oggetto"}`} onClick={() => changeQuantity(index, quantity + 1)}
-          disabled={!validQuantity || quantity >= Number.MAX_SAFE_INTEGER} className="flex size-11 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">+</button>}
+          disabled={!validQuantity || quantity >= Number.MAX_SAFE_INTEGER} className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-lg text-accent active:bg-card disabled:opacity-40">+</button>}
       </div>
-      {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-danger-strong">×</button>}
     </div>;
   };
-  return <div className="flex flex-col gap-2">
-    {items.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
+  return <div className="grid grid-cols-2 gap-2">
+    {items.length === 0 && !unlocked && <p className="col-span-2 text-sm text-ink-faint">Niente da mostrare.</p>}
     {entries.map(renderItem)}
     {unlocked && <select aria-label="Aggiungi oggetto" value="" onChange={(event) => {
       const gear = gearById(event.target.value);
@@ -368,7 +368,7 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
         setCustomDetail("");
         setCustomOpen(true);
       } else onChange(addCatalogEquipment(items, event.target.value));
-    }} className="max-w-full self-start rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
+    }} className="col-span-2 max-w-full self-start rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
       <option value="" disabled>+ Aggiungi oggetto</option>
       {gearCatalog.map((gear) => ({ id: gear.id, name: gear.name }))
         .sort((a, b) => compareOptionLabels(a.name, b.name))
@@ -1310,9 +1310,9 @@ export default function CharacterClient({
               <div className="flex min-w-0 items-center justify-self-start">
                 <button
                   type="button"
-                  onClick={() => showHub ? router.push("/") : setShowHub(true)}
+                  onClick={() => router.push("/")}
                   className="flex min-w-0 items-center gap-1.5 justify-self-start text-left"
-                  aria-label={showHub ? "Torna alla home generale" : "Torna alla home del personaggio"}
+                  aria-label="Torna alla home"
                 >
                   <span className="text-lg leading-none text-ink-soft" aria-hidden>
                     ⌂
