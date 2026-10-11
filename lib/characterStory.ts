@@ -97,6 +97,31 @@ function privilegeDetails(grants: Grant[], sheet: Sheet): StoryDetail[] {
   });
 }
 
+function spellOriginDetails(sheet: Sheet): StoryDetail[] {
+  const sourceNames: Record<NonNullable<Sheet["incantesimi"][number]["fonte"]>, string> = {
+    classe: `Classe: ${sheet.classe}`,
+    talento: "Talento",
+    privilegio: "Privilegio o tratto ereditato",
+    altro: "Altra fonte",
+  };
+  const stateNames: Record<NonNullable<Sheet["incantesimi"][number]["stato"]>, string> = {
+    conosciuto: "conosciuto",
+    libro: "nel libro",
+    preparato: "preparato",
+    semprePreparato: "sempre preparato",
+    concesso: "concesso",
+  };
+  const spells = sheet.incantesimi.filter((spell) => present(spell.nome));
+  return (Object.keys(sourceNames) as NonNullable<Sheet["incantesimi"][number]["fonte"]>[]).flatMap((source) => {
+    const entries = spells.filter((spell) => (spell.fonte ?? "classe") === source);
+    if (!entries.length) return [];
+    return [{
+      label: sourceNames[source],
+      consequences: unique(entries.map((spell) => `${spell.nome}${spell.stato ? ` (${stateNames[spell.stato]})` : ""}${spell.caratteristica ? ` · caratteristica ${abilityName(spell.caratteristica)}` : ""}`)),
+    }];
+  });
+}
+
 function findFeatForGrant(grant: Grant, sheet: Sheet, used: Set<number>): Sheet["talenti"][number] | null {
   const isChoice = grant.name.includes("a scelta");
   const category = grant.name === "Talento Origini a scelta" ? "origini"
@@ -184,6 +209,8 @@ export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"
       ],
     });
   }
+  const recordedSpells = spellOriginDetails(sheet);
+  if (recordedSpells.length) events.push({ title: "Incantesimi scelti o ricevuti", details: recordedSpells });
   const rangerLanguages = new Set((sheet.fontiCompetenze ?? [])
     .filter((item) => item.tipo === "lingua" && sourceIs(item.fonte, "Privilegio", "Esploratore Esperto"))
     .map((item) => item.valore));
