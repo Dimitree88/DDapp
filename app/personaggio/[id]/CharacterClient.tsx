@@ -20,7 +20,7 @@ import {
   InfoLabel,
 } from "@/components/fields";
 import { getCharacterHistory, getCharacterLiveFields, saveSheet, type HistoryEntry } from "@/app/actions";
-import { formatHistoryValue, groupHistoryByDay } from "@/lib/history";
+import { groupHistoryByDay } from "@/lib/history";
 import { characterStory } from "@/lib/characterStory";
 import regole from "@/lib/manuale-2024-domains.json";
 import { spellDetails, canonicalSpellName } from "@/lib/spells";
@@ -59,6 +59,7 @@ import { ABILITY_NAMES, abilityName } from "@/lib/abilityNames";
 import { addCatalogEquipment, addOwnedArmor, armorForEquipment, heldHandsUsed, isArmorEquipment, removeOwnedArmor, replaceOtherEquipment, selectHeldShield, selectHeldWeapon, selectWornArmor, weaponHandUsage } from "@/lib/equipmentSelection";
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { DiceText } from "@/components/DiceText";
+import { HistoryChangeDisplay } from "@/components/HistoryChangeDisplay";
 import { Sheet as ModalSheet } from "@/components/ui";
 import { LevelUpWizard } from "@/components/LevelUpWizard";
 import { readyToLevel, xpThresholds } from "@/lib/masterRules";
@@ -1438,8 +1439,7 @@ export default function CharacterClient({
                                     <ul className="mt-1 list-disc list-fantasy space-y-1 pl-5 marker:text-accent">
                                       {group.entries.flatMap((entry) => entry.changes.map((change, index) => (
                                         <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
-                                          <span className="font-semibold">{change.field}</span>{"  "}
-                                          <span>{formatHistoryValue(change.before)} → {formatHistoryValue(change.after)}</span>
+                                          <HistoryChangeDisplay change={change} />
                                         </li>
                                       )))}
                                     </ul>

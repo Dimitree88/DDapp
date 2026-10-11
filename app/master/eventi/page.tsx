@@ -2,7 +2,8 @@ import Link from "next/link";
 import { desc, eq, sql } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
-import { formatHistoryValue, groupHistoryByDay, historyTimestampMs, withoutAppuntiChanges, type HistoryChange } from "@/lib/history";
+import { groupHistoryByDay, historyTimestampMs, withoutAppuntiChanges, type HistoryChange } from "@/lib/history";
+import { HistoryChangeDisplay } from "@/components/HistoryChangeDisplay";
 
 export const dynamic = "force-dynamic";
 
@@ -62,7 +63,7 @@ export default async function MasterEventsPage() {
                   </div>
                   <ul className="mt-1 list-disc list-fantasy space-y-1 pl-5 marker:text-accent">
                     {(entry.changes as HistoryChange[]).map((change, index) => <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
-                      <span className="font-semibold">{change.field}</span>{"  "}<span>{formatHistoryValue(change.before)} → {formatHistoryValue(change.after)}</span>
+                      <HistoryChangeDisplay change={change} />
                     </li>)}
                   </ul>
                 </li>)}
