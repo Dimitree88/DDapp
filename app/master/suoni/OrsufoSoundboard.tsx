@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const sounds = [
-  { label: "Relax", src: "/audio/orsufo-1.wav" },
+  { label: "Relax", src: "/audio/orsufo-1.mp3" },
   { label: "Contento", src: "/audio/orsufo-2.wav" },
   { label: "Paura", src: "/audio/orsufo-3.wav" },
   { label: "Fame", src: "/audio/orsufo-4.wav" },
@@ -11,21 +11,39 @@ const sounds = [
 
 export function OrsufoSoundboard() {
   const playing = useRef(new Set<HTMLAudioElement>());
+  const preloaded = useRef(new Map<string, HTMLAudioElement>());
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => () => {
-    for (const audio of playing.current) {
-      audio.pause();
-      audio.src = "";
+  useEffect(() => {
+    for (const sound of sounds) {
+      if (!sound.src) continue;
+      const audio = new Audio();
+      audio.preload = "auto";
+      audio.src = sound.src;
+      audio.load();
+      preloaded.current.set(sound.src, audio);
     }
-    playing.current.clear();
+    return () => {
+      const audios = new Set([...playing.current, ...preloaded.current.values()]);
+      for (const audio of audios) {
+        audio.pause();
+        audio.src = "";
+      }
+      playing.current.clear();
+      preloaded.current.clear();
+    };
   }, []);
 
   const play = (src: string) => {
     setError(null);
-    const audio = new Audio(src);
+    const template = preloaded.current.get(src);
+    const audio = template && !playing.current.has(template) ? template : new Audio(src);
+    if (audio === template) audio.currentTime = 0;
     playing.current.add(audio);
-    audio.addEventListener("ended", () => playing.current.delete(audio), { once: true });
+    audio.addEventListener("ended", () => {
+      playing.current.delete(audio);
+      if (audio !== template) audio.src = "";
+    }, { once: true });
     audio.addEventListener("error", () => {
       playing.current.delete(audio);
       setError("Impossibile riprodurre il file audio.");
