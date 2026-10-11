@@ -8,7 +8,7 @@ import type { CondizioneAttiva, ConcentrazioneAttiva } from "./sheet";
 // Condizioni del Glossario (p. 29, pp. 360-376). Indebolimento ha un contatore.
 export const conditionNames = [
   "Accecato", "Affascinato", "Afferrato", "Assordato", "Avvelenato", "Incapacitato",
-  "Invisibile", "Paralizzato", "Pietrificato", "Prono", "Privo di sensi", "Spaventato",
+  "Invisibile", "Paralizzato", "Pietrificato", "Prono", "Privo di sensi", "Sanguinante", "Spaventato",
   "Stordito", "Trattenuto",
 ] as const;
 

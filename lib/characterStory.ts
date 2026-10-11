@@ -82,8 +82,14 @@ function privilegeDetails(grants: Grant[], sheet: Sheet): StoryDetail[] {
       || item.fonte.localeCompare(`Privilegio: ${grant.name}`, "it", { sensitivity: "base" }) === 0)
       .map((item) => `${item.tipo === "tiroSalvezza" ? "Tiro salvezza" : item.tipo === "abilita" ? "Abilità" : item.tipo === "lingua" ? "Lingua" : "Competenza"}: ${item.valore}`);
     const spellChoices = grant.name === "Incantesimi"
-      ? (sheet.storiaIncantesimiPreparati ?? []).filter((item) => item.livello === grant.level)
-        .map((item) => `Incantesimi preparati: ${item.nomi.join(", ")}`) : [];
+      ? [
+        ...((grant.source.startsWith("Classe:") && grant.level === 1)
+          ? sheet.incantesimi.filter((spell) => !spell.fonte || spell.fonte === "classe")
+            .map((spell) => `${spell.nome}${spell.stato ? ` (${spell.stato === "conosciuto" ? "conosciuto" : spell.stato === "libro" ? "nel libro" : spell.stato === "preparato" ? "preparato" : spell.stato === "semprePreparato" ? "sempre preparato" : "concesso"})` : ""}`)
+          : []),
+        ...(sheet.storiaIncantesimiPreparati ?? []).filter((item) => item.livello === grant.level)
+          .map((item) => `Incantesimi preparati: ${item.nomi.join(", ")}`),
+      ] : [];
     const pendingMastery = grant.name.toLocaleLowerCase("it") === "padronanza d'armi" && chosen?.startsWith("Da specificare:")
       ? [chosen] : [];
     const choice = grant.name.toLocaleLowerCase("it") === "ordine primordiale" && option === "Custode"
@@ -94,31 +100,6 @@ function privilegeDetails(grants: Grant[], sheet: Sheet): StoryDetail[] {
       label: `Privilegio: ${grant.name}`,
       consequences: unique([...(option ? [`Scelta: ${option}`] : []), ...(mastery ? [`Maestria: ${mastery}`] : []), ...named, ...choice, ...humanInspiration, ...resources, ...competencies, ...spellChoices, ...pendingMastery]),
     };
-  });
-}
-
-function spellOriginDetails(sheet: Sheet): StoryDetail[] {
-  const sourceNames: Record<NonNullable<Sheet["incantesimi"][number]["fonte"]>, string> = {
-    classe: `Classe: ${sheet.classe}`,
-    talento: "Talento",
-    privilegio: "Privilegio o tratto ereditato",
-    altro: "Altra fonte",
-  };
-  const stateNames: Record<NonNullable<Sheet["incantesimi"][number]["stato"]>, string> = {
-    conosciuto: "conosciuto",
-    libro: "nel libro",
-    preparato: "preparato",
-    semprePreparato: "sempre preparato",
-    concesso: "concesso",
-  };
-  const spells = sheet.incantesimi.filter((spell) => present(spell.nome));
-  return (Object.keys(sourceNames) as NonNullable<Sheet["incantesimi"][number]["fonte"]>[]).flatMap((source) => {
-    const entries = spells.filter((spell) => (spell.fonte ?? "classe") === source);
-    if (!entries.length) return [];
-    return [{
-      label: sourceNames[source],
-      consequences: unique(entries.map((spell) => `${spell.nome}${spell.stato ? ` (${stateNames[spell.stato]})` : ""}${spell.caratteristica ? ` · caratteristica ${abilityName(spell.caratteristica)}` : ""}`)),
-    }];
   });
 }
 
@@ -153,11 +134,15 @@ function featDetails(grants: Grant[], sheet: Sheet, used: Set<number>): StoryDet
   return grants.map((grant) => {
     const chosen = findFeatForGrant(grant, sheet, used);
     const choices = chosen?.scelte.trim() ?? "";
+    const chosenSpells = chosen ? sheet.incantesimi.filter((spell) =>
+      (spell.fonte === "talento" || spell.fonte === "privilegio")
+      && choices.toLocaleLowerCase("it").includes(spell.nome.toLocaleLowerCase("it")))
+      .map((spell) => `Incantesimo ricevuto: ${spell.nome}`) : [];
     const choiceNames = choices.length <= 80 && !/[.;\n\d:]/.test(choices)
       ? choices.split(",").map((name) => name.trim()).filter((name) => name.length > 0 && name.length <= 35 && name.split(/\s+/).length <= 5) : [];
     return {
       label: chosen ? `Talento: ${chosen.nome}` : `Talento concesso: ${grant.name}`,
-      consequences: choiceNames.length ? choiceNames : undefined,
+      consequences: unique([...choiceNames, ...chosenSpells]),
     };
   });
 }
@@ -209,8 +194,6 @@ export function characterStory(sheet: Sheet, hitPointGains: Sheet["incrementiPf"
       ],
     });
   }
-  const recordedSpells = spellOriginDetails(sheet);
-  if (recordedSpells.length) events.push({ title: "Incantesimi scelti o ricevuti", details: recordedSpells });
   const rangerLanguages = new Set((sheet.fontiCompetenze ?? [])
     .filter((item) => item.tipo === "lingua" && sourceIs(item.fonte, "Privilegio", "Esploratore Esperto"))
     .map((item) => item.valore));

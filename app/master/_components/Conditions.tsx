@@ -10,10 +10,12 @@ import { Button, Chip, Section, Sheet, TextInput } from "@/components/ui";
 
 const texts = (conditionTexts as { testi: Record<string, string> }).testi;
 const slug = (name: string) => `condizione:${name.toLocaleLowerCase("it").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-")}`;
-export const conditionText = (name: string) => texts[slug(name)] ?? "";
+export const conditionText = (name: string) => name === "Sanguinante"
+  ? "Il Manuale definisce sanguinante un personaggio con punti ferita pari o inferiori alla metà dei suoi punti ferita massimi. Questo stato non ha effetti di gioco di per sé. Qui puoi registrarlo manualmente anche quando il personaggio supera tale soglia."
+  : texts[slug(name)] ?? "";
 
 export function ConditionInfo({ name, onClose }: { name: string | null; onClose: () => void }) {
-  return <Sheet open={Boolean(name)} onClose={onClose} title={name ?? ""} subtitle="Glossario delle regole">
+  return <Sheet open={Boolean(name)} onClose={onClose} title={name ?? ""} subtitle={name === "Sanguinante" ? "Stato del Manuale · registrazione manuale" : "Glossario delle regole"}>
     <div className="whitespace-pre-line text-[15px] leading-relaxed text-ink">{name ? conditionText(name) || "Testo non disponibile." : ""}</div>
   </Sheet>;
 }
