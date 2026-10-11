@@ -279,7 +279,6 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
       const page = pages[spellcastingAbilityField.page];
       const x = 12;
       const width = 120;
-      page.drawRectangle({ x, y: page.getHeight() - 41, width, height: 28, color: rgb(1, 1, 1) });
       const drawCentered = (text: string, baselineFromTop: number, size: number) => {
         const textWidth = measure(text, size);
         page.drawText(text, {
@@ -290,8 +289,7 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
           color: rgb(0, 0, 0),
         });
       };
-      drawCentered("CARATTERISTICA DA INCANTATORE", 16, 6.5);
-      drawCentered(value, 29, 10);
+      drawCentered(value, 20, 10);
     }
   }
 
