@@ -42,6 +42,16 @@ export const fieldHelp: Record<string, FieldHelp> = {
   "Padronanze scelte": { meaning: "Permettono di usare l'effetto speciale di padronanza delle armi scelte. La classe concede un certo numero di scelte, che può aumentare con il livello; la scheda propone le armi in cui il personaggio è competente. Tocca una padronanza per leggere il suo effetto.", rule: true },
   Oggetti: { meaning: "Equipaggiamento posseduto dal personaggio." },
   Oggetto: { meaning: "Nome di un oggetto posseduto." },
+  "Oggetto magico": {
+    meaning: "Alcuni oggetti magici sono pressoché identici alle loro controparti non magiche; altri sono evidentemente straordinari. Impugnare un oggetto magico può rivelare che è speciale, ma non necessariamente le sue proprietà. L'incantesimo Identificare le rivela; in alternativa, il personaggio può concentrarsi sull'oggetto durante un riposo breve mantenendolo a contatto fisico. Al termine del riposo ne conosce le proprietà e come usarle, ma non eventuali maledizioni.",
+    rule: true,
+    page: 232,
+  },
+  "In sintonia": {
+    meaning: "Alcuni oggetti magici richiedono sintonia per usarne le proprietà magiche; senza, si ottengono solo i benefici non magici, salvo diversa indicazione. Per entrare in sintonia, il personaggio dedica un riposo breve soltanto all'oggetto e resta in contatto fisico con esso. Se il riposo viene interrotto, il tentativo fallisce; altrimenti la sintonia si completa al termine del riposo. Si può essere in sintonia con al massimo tre oggetti magici e non con più copie dello stesso oggetto. La sintonia termina se non si soddisfano più i prerequisiti, se l'oggetto resta a più di 30 metri per almeno 24 ore, alla morte del personaggio o quando un'altra creatura entra in sintonia con l'oggetto. Si può anche interromperla volontariamente con un altro riposo breve concentrandosi sull'oggetto, a meno che sia maledetto.",
+    rule: true,
+    page: 232,
+  },
   "Dettaglio oggetto": { meaning: "Dettaglio personale di un oggetto." },
   Privilegi: { meaning: "Privilegi e capacità ottenuti da classe, specie o altre fonti.", rule: true },
   Titolo: { meaning: "Nome del privilegio o della capacità." },

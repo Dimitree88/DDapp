@@ -289,18 +289,18 @@ function MagicItemControls({ sheet, item, onPatch }: { sheet: Sheet; item: Equip
   const limitReached = attuned.length >= 3;
   if (!unlocked) return item.magico ? <p className="mt-1 text-xs text-ink-soft">{item.sintonizzato ? "In sintonia" : "Non in sintonia"}</p> : null;
   return <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-xs text-ink-soft">
-    <label className="flex min-h-11 items-center gap-2">
-      <input type="checkbox" checked={Boolean(item.magico)} onChange={(event) => onPatch({
+    <div className="flex min-h-11 items-center gap-2">
+      <input type="checkbox" aria-label={`Oggetto magico: ${item.nome}`} checked={Boolean(item.magico)} onChange={(event) => onPatch({
         magico: event.target.checked,
         ...(event.target.checked ? {} : { sintonizzato: false }),
       })} />
-      Oggetto magico
-    </label>
-    {item.magico && <label className="flex min-h-11 items-center gap-2">
-      <input type="checkbox" checked={Boolean(item.sintonizzato)} disabled={!item.sintonizzato && (limitReached || duplicate)}
+      <InfoLabel id="Oggetto magico" title="Oggetto magico" className="min-h-11 py-3 underline decoration-ink-soft/40 underline-offset-2" />
+    </div>
+    {item.magico && <div className="flex min-h-11 items-center gap-2">
+      <input type="checkbox" aria-label={`In sintonia: ${item.nome}`} checked={Boolean(item.sintonizzato)} disabled={!item.sintonizzato && (limitReached || duplicate)}
         onChange={(event) => onPatch({ sintonizzato: event.target.checked })} />
-      In sintonia{!item.sintonizzato && (duplicate ? " · già in sintonia" : limitReached ? " · limite 3" : "")}
-    </label>}
+      <InfoLabel id="In sintonia" title={`In sintonia${!item.sintonizzato && (duplicate ? " · già in sintonia" : limitReached ? " · limite 3" : "")}`} className="min-h-11 py-3 underline decoration-ink-soft/40 underline-offset-2" />
+    </div>}
   </div>;
 }
 
