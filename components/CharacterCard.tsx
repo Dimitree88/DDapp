@@ -72,7 +72,10 @@ export function CharacterCard({
       >
         <div className="min-w-0 flex-1">
           <div className="flex items-center justify-between gap-2">
-            <span className="truncate text-lg font-semibold text-ink">{name}</span>
+            <span className="flex min-w-0 flex-1 items-center gap-2">
+              <span className="truncate text-lg font-semibold text-ink">{name}</span>
+              {hpMissing > 0 && <span className="shrink-0 text-xs font-semibold text-danger-strong">−{hpMissing} PF</span>}
+            </span>
             <span className="flex shrink-0 items-center gap-2">
               {conditions.length > 0 && <span aria-label={`Condizioni: ${conditions.join(", ")}`} title={conditions.join(", ")}
                 className="flex size-6 items-center justify-center rounded-full border border-danger/50 bg-danger/10 text-xs font-bold text-danger-strong">!</span>}
@@ -81,7 +84,6 @@ export function CharacterCard({
             </span>
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
-            {hpMissing > 0 && <span className="text-xs font-semibold text-danger-strong">−{hpMissing} PF</span>}
             {coins.map((coin) => <span key={coin.key} title={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}
               aria-label={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}
               className={`flex size-8 items-center justify-center rounded-full border text-[10px] font-bold tabular-nums ${coinColors[coin.key]}`}>
