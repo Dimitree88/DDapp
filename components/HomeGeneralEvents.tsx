@@ -13,10 +13,11 @@ const timeFormatter = new Intl.DateTimeFormat("it-IT", {
   hour: "2-digit", minute: "2-digit", timeZone: "Europe/Rome",
 });
 
-export function HomeGeneralEvents({ initialEntries }: { initialEntries: HomeGeneralHistoryEntry[] }) {
-  const [entries, setEntries] = useState(initialEntries);
+export function HomeGeneralEvents({ initialEvents }: { initialEvents: { entries: HomeGeneralHistoryEntry[]; hasMore: boolean } }) {
+  const [events, setEvents] = useState(initialEvents);
+  const { entries, hasMore } = events;
 
-  useEffect(() => setEntries(initialEntries), [initialEntries]);
+  useEffect(() => setEvents(initialEvents), [initialEvents]);
 
   useEffect(() => {
     let active = true;
@@ -26,7 +27,7 @@ export function HomeGeneralEvents({ initialEntries }: { initialEntries: HomeGene
       fetching = true;
       try {
         const latest = await getHomeGeneralHistory();
-        if (active) setEntries(latest);
+        if (active) setEvents(latest);
       } catch {
         // Ritenta al prossimo aggiornamento automatico.
       } finally {
@@ -70,5 +71,8 @@ export function HomeGeneralEvents({ initialEntries }: { initialEntries: HomeGene
           </ol>
         </li>)}
       </ol>}
+    {hasMore && <Link href="/master/eventi" className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-line bg-card/70 px-4 text-sm font-semibold text-accent shadow-sm active:bg-card">
+      Mostra tutti gli eventi <span aria-hidden>›</span>
+    </Link>}
   </section>;
 }

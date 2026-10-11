@@ -54,7 +54,7 @@ export async function getHomeCreatures(): Promise<HomeCreatureCard[]> {
   });
 }
 
-export async function getHomeGeneralHistory(): Promise<HomeGeneralHistoryEntry[]> {
+export async function getHomeGeneralHistory(): Promise<{ entries: HomeGeneralHistoryEntry[]; hasMore: boolean }> {
   const rows = await db.select({
     id: characterHistory.id,
     characterId: characters.id,
@@ -64,8 +64,8 @@ export async function getHomeGeneralHistory(): Promise<HomeGeneralHistoryEntry[]
   }).from(characterHistory)
     .innerJoin(characters, eq(characterHistory.characterId, characters.id))
     .orderBy(desc(characterHistory.occurredAt), desc(characterHistory.id))
-    .limit(50);
-  return rows.flatMap((row) => {
+    .limit(51);
+  const entries = rows.flatMap((row) => {
     const changes = withoutAppuntiChanges(row.changes);
     if (!changes.length) return [];
     return [{
@@ -75,7 +75,8 @@ export async function getHomeGeneralHistory(): Promise<HomeGeneralHistoryEntry[]
       occurredAt: new Date(historyTimestampMs(Number(row.occurredAt))).toISOString(),
       changes,
     }];
-  });
+  }).slice(0, 50);
+  return { entries, hasMore: rows.length > 50 };
 }
 
 export async function searchHomeGlossaryEntries(query: string): Promise<HomeGlossaryEntry[]> {

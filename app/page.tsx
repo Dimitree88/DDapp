@@ -30,7 +30,7 @@ export default async function Home() {
       </section>
 
       <HomeGlossarySearch />
-      <HomeGeneralEvents initialEntries={eventEntries} />
+      <HomeGeneralEvents initialEvents={eventEntries} />
     </div>
   );
 }
