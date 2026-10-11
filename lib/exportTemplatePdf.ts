@@ -31,6 +31,7 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet
     const stats = spellcastingStats(sheet);
     if (!stats) return undefined;
     const key = source.slice("spellcasting.".length);
+    if (key === "ability") return stats.ability;
     if (key === "modifier") return stats.modifier;
     if (key === "dc") return String(stats.dc);
     if (key === "attack") return stats.attack;
