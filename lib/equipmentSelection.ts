@@ -89,11 +89,11 @@ export function expandPackageEquipment(items: Equip[]): Equip[] {
 export function mergeDuplicateCatalogEquipment(items: Equip[]): Equip[] {
   return items.reduce<Equip[]>((merged, item) => {
     const count = Number(item.quantita || "1");
-    if (!gearCatalog.some((gear) => gear.id === item.catalogId) || item.dettaglio || item.unita || item.contenitore || item.indossato || item.impugnato || !Number.isInteger(count) || count < 0) {
+    if (!gearCatalog.some((gear) => gear.id === item.catalogId) || item.dettaglio || item.unita || item.contenitore || item.indossato || item.impugnato || item.magico || item.sintonizzato || !Number.isInteger(count) || count < 0) {
       merged.push(item);
       return merged;
     }
-    const index = merged.findIndex((other) => other.catalogId === item.catalogId && !other.dettaglio && !other.unita && !other.contenitore && !other.indossato && !other.impugnato && Number.isInteger(Number(other.quantita || "1")));
+    const index = merged.findIndex((other) => other.catalogId === item.catalogId && !other.dettaglio && !other.unita && !other.contenitore && !other.indossato && !other.impugnato && !other.magico && !other.sintonizzato && Number.isInteger(Number(other.quantita || "1")));
     if (index < 0) merged.push(item);
     else merged[index] = { ...merged[index], quantita: String(Number(merged[index].quantita || "1") + count) };
     return merged;

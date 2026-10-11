@@ -51,6 +51,12 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet
   if (source === "sheet.classeArmatura") return displayedArmorClass(sheet);
   if (source === "sheet.puntiFeritaMax") return sheet.puntiFeritaMax;
   if (source === "sheet.classe") return sheet.sottoclasse ? `${sheet.classe} - ${sheet.sottoclasse}` : sheet.classe;
+  const attunement = source.match(/^sheet\.sintonia\[(\d+)\]\.(nome|attivo)$/);
+  if (attunement) {
+    const item = sheet.equipaggiamento.filter((equipment) => equipment.magico && equipment.sintonizzato)[Number(attunement[1])];
+    if (attunement[2] === "nome") return item?.nome;
+    return Boolean(item);
+  }
   if (source === "sheet.velocita") return sheet.velocita ? `${sheet.velocita} m` : "";
   if (source === "sheet.competenzeArmi") return undefined;
   if (source === "sheet.lingue") return sheet.lingue.join(", ");

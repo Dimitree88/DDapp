@@ -44,6 +44,7 @@ export type Equip = {
   indossato?: boolean;
   impugnato?: boolean;
   magico?: boolean;
+  sintonizzato?: boolean;
 };
 
 export type Privilegio = {
@@ -388,7 +389,7 @@ export function normalizeSheet(value: Sheet): Sheet {
       .map((item) => {
         const legacyArrows = !item.catalogId && !item.quantita ? /^Frecce x([1-9]\d*)$/.exec(item.nome) : null;
         const nome = legacyArrows ? "Frecce" : item.nome;
-        return { nome, ...(legacyArrows ? { catalogId: gearByName("Frecce")?.id, quantita: legacyArrows[1] } : item.catalogId ? { catalogId: item.catalogId } : {}), ...(!legacyArrows && item.quantita ? { quantita: item.quantita } : {}), ...(item.unita ? { unita: item.unita } : {}), ...(item.contenitore ? { contenitore: item.contenitore } : {}), ...(item.indossato ? { indossato: true } : {}), ...(item.impugnato ? { impugnato: true } : {}), ...(item.magico ? { magico: true } : {}), dettaglio:
+        return { nome, ...(legacyArrows ? { catalogId: gearByName("Frecce")?.id, quantita: legacyArrows[1] } : item.catalogId ? { catalogId: item.catalogId } : {}), ...(!legacyArrows && item.quantita ? { quantita: item.quantita } : {}), ...(item.unita ? { unita: item.unita } : {}), ...(item.contenitore ? { contenitore: item.contenitore } : {}), ...(item.indossato ? { indossato: true } : {}), ...(item.impugnato ? { impugnato: true } : {}), ...(item.magico ? { magico: true } : {}), ...(item.magico && item.sintonizzato ? { sintonizzato: true } : {}), dettaglio:
         (item.nome === "Armatura di cuoio borchiato" && item.dettaglio === "Classe armatura 12") ||
         (item.nome === "Borsa da erborista" && /^CD 10 per identificare una pianta; creazione:/.test(item.dettaglio))
           ? "" : gearByName(item.dettaglio)?.contents?.length ? "" : item.dettaglio };

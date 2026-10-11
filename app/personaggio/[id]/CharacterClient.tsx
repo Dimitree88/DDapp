@@ -282,6 +282,28 @@ function OwnedWeaponList({ sheet, onChange, onExplain, onHandsFull }: { sheet: S
   </div>;
 }
 
+function MagicItemControls({ sheet, item, onPatch }: { sheet: Sheet; item: Equip; onPatch: (patch: Partial<Equip>) => void }) {
+  const { unlocked } = useContext(EditContext);
+  const attuned = sheet.equipaggiamento.filter((entry) => entry.magico && entry.sintonizzato);
+  const duplicate = attuned.some((entry) => entry !== item && entry.nome.localeCompare(item.nome, "it", { sensitivity: "base" }) === 0);
+  const limitReached = attuned.length >= 3;
+  if (!unlocked) return item.magico ? <p className="mt-1 text-xs text-ink-soft">{item.sintonizzato ? "In sintonia" : "Non in sintonia"}</p> : null;
+  return <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-xs text-ink-soft">
+    <label className="flex min-h-11 items-center gap-2">
+      <input type="checkbox" checked={Boolean(item.magico)} onChange={(event) => onPatch({
+        magico: event.target.checked,
+        ...(event.target.checked ? {} : { sintonizzato: false }),
+      })} />
+      Oggetto magico
+    </label>
+    {item.magico && <label className="flex min-h-11 items-center gap-2">
+      <input type="checkbox" checked={Boolean(item.sintonizzato)} disabled={!item.sintonizzato && (limitReached || duplicate)}
+        onChange={(event) => onPatch({ sintonizzato: event.target.checked })} />
+      In sintonia{!item.sintonizzato && (duplicate ? " · già in sintonia" : limitReached ? " · limite 3" : "")}
+    </label>}
+  </div>;
+}
+
 function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }: { sheet: Sheet; items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; onBundleReceived: (name: string) => void }) {
   const { unlocked } = useContext(EditContext);
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
@@ -309,6 +331,7 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
           <WarningLabel id={`avvisoOggetto:${indices[index]}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
         </div>
         {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
+        <MagicItemControls sheet={sheet} item={item} onPatch={(patch) => patchAt(index, patch)} />
       </div>
       <div role="group" aria-label={`Quantità ${item.nome || "oggetto"}`} className="flex shrink-0 items-center gap-1">
         <InlineInput value={item.quantita || "1"} onChange={(value) => {
@@ -351,11 +374,14 @@ function OwnedArmorEditor({ sheet, onChange }: { sheet: Sheet; onChange: (items:
     {owned.map(({ item, index }) => {
       const lastEquipped = Number(item.quantita ?? "1") <= 1 &&
         (item.indossato || item.impugnato || (sheet.scudo && armorForEquipment(item)?.category === "scudi"));
-      return <div key={index} className="flex items-center gap-2 rounded-lg border border-line bg-card/70 px-3 py-2">
-        <span className="min-w-0 flex flex-1 flex-wrap items-center gap-x-2 gap-y-1 text-sm font-medium text-ink">
-          <InfoLabel id={`armatura:${index}`} title={item.nome || "Armatura"} />
-          <WarningLabel id={`avvisoOggetto:${index}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
-        </span>
+      return <div key={index} className="flex flex-wrap items-center gap-2 rounded-lg border border-line bg-card/70 px-3 py-2">
+        <div className="min-w-0 flex-1">
+          <span className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm font-medium text-ink">
+            <InfoLabel id={`armatura:${index}`} title={item.nome || "Armatura"} />
+            <WarningLabel id={`avvisoOggetto:${index}`} name={item.nome} warning={equipmentWarning(sheet, item)} />
+          </span>
+          <MagicItemControls sheet={sheet} item={item} onPatch={(patch) => onChange(sheet.equipaggiamento.map((entry, current) => current === index ? { ...entry, ...patch } : entry))} />
+        </div>
         <span className="text-sm text-ink-soft">×{item.quantita ?? "1"}</span>
         {unlocked && <button type="button" disabled={lastEquipped} onClick={() => onChange(removeOwnedArmor(sheet.equipaggiamento, index))}
           aria-label={`Rimuovi una unità di ${item.nome}`}

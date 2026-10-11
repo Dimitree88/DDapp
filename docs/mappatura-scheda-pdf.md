@@ -28,7 +28,7 @@ L'esportatore usa `lib/pdfTemplateFields.json`, generato dalla tabella al moment
 
 1. `scudo`, `ispirazioneEroica` e C/R/M sono spunte booleane nell'app. I vecchi valori vengono convertiti alla lettura; dopo, il PDF usa solo le spunte.
 2. L'app limita l'aggiunta a sei armi e trenta incantesimi. Il testo che non entra viene tagliato solo nell'esportazione.
-3. Sottoclasse, PF temporanei, tiri salvezza contro la morte, aspetto, storia, valori da incantatore, slot, strumenti e sintonia restano vuoti.
+3. Sottoclasse, PF temporanei, tiri salvezza contro la morte, aspetto, storia, slot e strumenti restano vuoti. La sintonia riporta fino a tre oggetti marcati come magici e in sintonia nella scheda.
 4. I privilegi scorrono dalla prima alla seconda colonna. I talenti includono nome e descrizione. La casella Specie copia il testo completo dell'app; Tratti della specie resta vuoto.
 5. `sheet.note`, note classe armatura, durata e componenti testuali degli incantesimi, dettaglio e provenienza dell'equipaggiamento restano solo nell'app.
 6. Il PDF esportato è statico, senza caselle modificabili. Per aggiornarlo si modifica la scheda nell'app e si esporta di nuovo.
