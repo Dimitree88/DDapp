@@ -272,10 +272,23 @@ function OwnedWeaponList({ sheet, onChange, onExplain, onHandsFull }: { sheet: S
 function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }: { sheet: Sheet; items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; onBundleReceived: (name: string) => void }) {
   const { unlocked } = useContext(EditContext);
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
+  const removeAt = (index: number) => onChange(items.filter((_, current) => current !== index));
+  const changeQuantity = (index: number, next: number) => {
+    if (!Number.isSafeInteger(next) || next < 0) return;
+    if (next === 0) {
+      const name = items[index]?.nome || "questo oggetto";
+      if (window.confirm(`La quantità di ${name} arriverebbe a zero. Vuoi eliminare l'oggetto?`)) removeAt(index);
+      else patchAt(index, { quantita: "1" });
+      return;
+    }
+    patchAt(index, { quantita: String(next) });
+  };
   const entries = items.map((item, index) => ({ item, index }))
     .sort((a, b) => compareOptionLabels(a.item.nome, b.item.nome));
-  const renderItem = ({ item, index }: { item: Equip; index: number }) =>
-    <div key={index} className={`${card} flex items-center gap-2`}>
+  const renderItem = ({ item, index }: { item: Equip; index: number }) => {
+    const quantity = Number(item.quantita || "1");
+    const validQuantity = Number.isSafeInteger(quantity) && quantity >= 0;
+    return <div key={index} className={`${card} flex items-center gap-2`}>
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
           {item.nome || !unlocked ? <InfoLabel id={`oggetto:${indices[index]}`} title={item.nome || "Nuovo oggetto"} className="text-left text-sm font-semibold text-ink" />
@@ -284,10 +297,19 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
         </div>
         {item.dettaglio && <p className="mt-0.5 whitespace-pre-wrap text-xs text-ink-soft">{item.dettaglio}</p>}
       </div>
-      <span className="text-xs text-ink-faint">Quantità</span>
-      <InlineInput value={item.quantita || "1"} onChange={(value) => patchAt(index, { quantita: value || "1" })} numeric="unsigned" className="w-8 text-center" />
+      <div role="group" aria-label={`Quantità ${item.nome || "oggetto"}`} className="flex shrink-0 items-center gap-1">
+        <InlineInput value={item.quantita || "1"} onChange={(value) => {
+          if (value === "0") changeQuantity(index, 0);
+          else patchAt(index, { quantita: value || "1" });
+        }} numeric="unsigned" className="w-12 text-center" />
+        {unlocked && <button type="button" aria-label={`Diminuisci ${item.nome || "oggetto"}`} onClick={() => changeQuantity(index, quantity - 1)}
+          disabled={!validQuantity || quantity <= 0} className="flex size-11 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">−</button>}
+        {unlocked && <button type="button" aria-label={`Aumenta ${item.nome || "oggetto"}`} onClick={() => changeQuantity(index, quantity + 1)}
+          disabled={!validQuantity || quantity >= Number.MAX_SAFE_INTEGER} className="flex size-11 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-xl text-accent active:bg-card disabled:opacity-40">+</button>}
+      </div>
       {unlocked && <button type="button" onClick={() => { if (window.confirm(`Eliminare ${item.nome || "questo oggetto"}?`)) onChange(items.filter((_, current) => current !== index)); }} aria-label={`Rimuovi ${item.nome || "oggetto"}`} className="shrink-0 px-1 text-sm font-medium text-danger-strong">×</button>}
     </div>;
+  };
   return <div className="flex flex-col gap-2">
     {items.length === 0 && !unlocked && <p className="text-sm text-ink-faint">Niente da mostrare.</p>}
     {entries.map(renderItem)}
