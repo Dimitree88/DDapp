@@ -59,6 +59,7 @@ import { ABILITY_NAMES, abilityName } from "@/lib/abilityNames";
 import { addCatalogEquipment, addOwnedArmor, armorForEquipment, heldHandsUsed, isArmorEquipment, removeOwnedArmor, replaceOtherEquipment, selectHeldShield, selectHeldWeapon, selectWornArmor, weaponHandUsage } from "@/lib/equipmentSelection";
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { DiceText } from "@/components/DiceText";
+import { Sheet as ModalSheet } from "@/components/ui";
 import { LevelUpWizard } from "@/components/LevelUpWizard";
 import { readyToLevel, xpThresholds } from "@/lib/masterRules";
 
@@ -306,6 +307,10 @@ function MagicItemControls({ sheet, item, onPatch }: { sheet: Sheet; item: Equip
 
 function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }: { sheet: Sheet; items: Equip[]; indices: number[]; onChange: (items: Equip[]) => void; onBundleReceived: (name: string) => void }) {
   const { unlocked } = useContext(EditContext);
+  const [customOpen, setCustomOpen] = useState(false);
+  const [customName, setCustomName] = useState("");
+  const [customQuantity, setCustomQuantity] = useState("1");
+  const [customDetail, setCustomDetail] = useState("");
   const patchAt = (index: number, update: Partial<Equip>) => onChange(items.map((item, current) => current === index ? { ...item, ...update } : item));
   const removeAt = (index: number) => onChange(items.filter((_, current) => current !== index));
   const changeQuantity = (index: number, next: number) => {
@@ -352,9 +357,12 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
     {unlocked && <select aria-label="Aggiungi oggetto" value="" onChange={(event) => {
       const gear = gearById(event.target.value);
       if (gear?.contents?.length) onBundleReceived(gear.name);
-      onChange(event.target.value === "personalizzato"
-        ? [...items, { nome: "", dettaglio: "", quantita: "1" }]
-        : addCatalogEquipment(items, event.target.value));
+      if (event.target.value === "personalizzato") {
+        setCustomName("");
+        setCustomQuantity("1");
+        setCustomDetail("");
+        setCustomOpen(true);
+      } else onChange(addCatalogEquipment(items, event.target.value));
     }} className="max-w-full self-start rounded-lg border border-dashed border-line bg-card/60 px-3 py-1.5 text-sm font-medium text-ink-soft focus:border-accent focus:outline-none">
       <option value="" disabled>+ Aggiungi oggetto</option>
       {gearCatalog.map((gear) => ({ id: gear.id, name: gear.name }))
@@ -362,6 +370,24 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
         .map((gear) => <option key={gear.id} value={gear.id}>{gear.name}</option>)}
       <option value="personalizzato">OGGETTO PERSONALIZZATO</option>
     </select>}
+    <ModalSheet open={customOpen} onClose={() => setCustomOpen(false)} title="Oggetto personalizzato"
+      subtitle="Inserisci i dettagli dell’oggetto. La descrizione è facoltativa."
+      footer={<div className="flex gap-2"><button type="button" onClick={() => setCustomOpen(false)} className="min-h-11 flex-1 rounded-lg border border-line px-4 text-sm font-semibold text-ink">Annulla</button><button type="button" disabled={!customName.trim() || !Number.isSafeInteger(Number(customQuantity)) || Number(customQuantity) < 1} onClick={() => {
+        onChange([...items, { nome: customName.trim(), quantita: String(Number(customQuantity)), dettaglio: customDetail.trim() }]);
+        setCustomOpen(false);
+      }} className="min-h-11 flex-1 rounded-lg bg-accent px-4 text-sm font-semibold text-on-accent disabled:opacity-40">Aggiungi</button></div>}>
+      <div className="flex flex-col gap-3">
+        <label className="flex flex-col gap-1 text-sm font-medium text-ink">Nome
+          <input autoFocus value={customName} onChange={(event) => setCustomName(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
+        </label>
+        <label className="flex flex-col gap-1 text-sm font-medium text-ink">Quantità
+          <input type="number" min="1" step="1" inputMode="numeric" value={customQuantity} onChange={(event) => setCustomQuantity(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
+        </label>
+        <label className="flex flex-col gap-1 text-sm font-medium text-ink">Descrizione (facoltativa)
+          <textarea value={customDetail} onChange={(event) => setCustomDetail(event.target.value)} rows={3} className="rounded-lg border border-line bg-parchment px-3 py-2 text-base text-ink" />
+        </label>
+      </div>
+    </ModalSheet>
   </div>;
 }
 
