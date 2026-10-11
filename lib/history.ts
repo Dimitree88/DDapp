@@ -38,6 +38,9 @@ export function groupHistoryByDay<T extends TimedHistoryEntry>(entries: T[]): Hi
     group.entries.push(entry);
     group.oldest = entry.occurredAt;
   }
+  for (const day of days) {
+    for (const group of day.timeGroups) group.entries.reverse();
+  }
   return days;
 }
 
