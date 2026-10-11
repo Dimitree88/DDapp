@@ -220,6 +220,16 @@ export function CharacterCard({
               onPointerUp={(event) => event.stopPropagation()}
               onClick={(event) => { event.stopPropagation(); setAddError(""); setObjectName(""); setSelectedCatalogId(""); setSuggestionsOpen(false); setQuantity("1"); setDetail(""); setAddOpen(true); }}
               className="flex size-8 items-center justify-center rounded-full border border-accent/60 bg-accent/10 text-lg font-semibold leading-none text-accent active:bg-accent/20">+</button>
+            <button type="button" title={`Apri equipaggiamento di ${name}`} aria-label={`Apri equipaggiamento di ${name}`}
+              onPointerDown={(event) => event.stopPropagation()}
+              onPointerUp={(event) => event.stopPropagation()}
+              onClick={(event) => { event.stopPropagation(); router.push(`/personaggio/${id}#equipaggiamento`); }}
+              className="flex size-8 items-center justify-center rounded-full border border-line bg-card text-ink-soft active:bg-parchment">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="size-4">
+                <path d="M8 7V6a4 4 0 0 1 8 0v1M6 8l-1 2v9a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-9l-1-2H6Z" />
+                <path d="M9 8v2a3 3 0 0 0 6 0V8M9 15h6v4H9zM5 12h3m8 0h3" />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
