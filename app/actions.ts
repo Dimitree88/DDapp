@@ -2,7 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { randomUUID } from "crypto";
-import { desc, eq, sql } from "drizzle-orm";
+import { asc, desc, eq, sql } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
 import { normalizeSheet, type Sheet } from "@/lib/sheet";
@@ -12,6 +12,7 @@ import { creationErrors } from "@/lib/creationRules";
 import { addCatalogEquipment, armorForEquipment } from "@/lib/equipmentSelection";
 import { gearByName } from "@/lib/gearCatalog";
 import { stableJson } from "@/lib/masterView";
+import { characterCardStatus, type CharacterCardStatus } from "@/lib/characterCardStatus";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 export type BundleReceipt = { name: string };
@@ -27,6 +28,12 @@ export type CharacterLiveFields = Pick<Sheet, "puntiFerita" | "ispirazioneEroica
   risorse: NonNullable<Sheet["risorse"]>;
   slotSpesi: Record<string, number>;
 };
+
+export async function getHomeCharacterCards(): Promise<CharacterCardStatus[]> {
+  const rows = await db.select({ id: characters.id, name: characters.name, data: characters.data })
+    .from(characters).orderBy(asc(characters.name));
+  return rows.map((row) => characterCardStatus(row.id, row.name, normalizeSheet(row.data)));
+}
 
 export async function getCharacterLiveFields(id: string): Promise<CharacterLiveFields | null> {
   const [row] = await db.select({ data: characters.data }).from(characters).where(eq(characters.id, id));

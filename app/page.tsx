@@ -2,8 +2,9 @@ import { asc } from "drizzle-orm";
 import Link from "next/link";
 import { db } from "@/lib/db";
 import { characters, creatures } from "@/lib/db/schema";
-import { CharacterCard } from "@/components/CharacterCard";
+import { HomeCharacterList } from "@/components/HomeCharacterList";
 import { normalizeSheet } from "@/lib/sheet";
+import { characterCardStatus } from "@/lib/characterCardStatus";
 
 export const dynamic = "force-dynamic";
 
@@ -21,31 +22,8 @@ export default async function Home() {
 
       <section className="flex flex-col gap-3" aria-labelledby="characters-title">
         <h1 id="characters-title" className="text-lg font-bold text-heading">Personaggi</h1>
-        {list.length === 0 && (
-          <p className="rounded-xl border border-line bg-card/60 px-4 py-6 text-center text-sm text-ink-soft">
-            Nessun personaggio presente.
-          </p>
-        )}
-
-        {list.map((c) => {
-          const sheet = normalizeSheet(c.data);
-          const currentHp = Number(sheet.puntiFerita);
-          const maxHp = Number(sheet.puntiFeritaMax);
-          const hpMissing = Number.isFinite(currentHp) && Number.isFinite(maxHp) && maxHp > currentHp
-            ? maxHp - currentHp : 0;
-          const conditions = [
-            ...(sheet.condizioni ?? []).map((condition) => condition.nome),
-            ...(sheet.indebolimento ? [`Indebolimento ${sheet.indebolimento}`] : []),
-          ];
-          const coins = ([
-            ["rame", "Rame"], ["argento", "Argento"], ["electrum", "Electrum"], ["oro", "Oro"], ["platino", "Platino"],
-          ] as const).flatMap(([key, label]) => {
-            const amount = Number(sheet.monete[key] || 0);
-            return Number.isSafeInteger(amount) && amount > 0 ? [{ key, label, amount: String(amount) }] : [];
-          });
-          return <CharacterCard key={c.id} id={c.id} name={c.name} hpMissing={hpMissing}
-            conditions={conditions} inspiration={sheet.ispirazioneEroica} coins={coins} />;
-        })}
+        <HomeCharacterList initialCards={list.map((character) =>
+          characterCardStatus(character.id, character.name, normalizeSheet(character.data)))} />
       </section>
 
       <section className="mt-6 flex flex-col gap-3" aria-labelledby="creatures-title">
