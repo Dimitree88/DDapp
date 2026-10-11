@@ -137,7 +137,11 @@ export function diffSheet(before: Partial<Sheet>, after: Partial<Sheet>): Histor
 
 // Solo i campi che il giocatore può modificare nelle pagine della scheda.
 // Le scelte di creazione/avanzamento e i valori derivati sono mostrati in Storia.
-const manualFields = ["noteLingue", "armi", "equipaggiamento", "monete", "note"] as const;
+const manualFields = ["noteLingue", "armi", "equipaggiamento", "monete"] as const;
+
+export function withoutAppuntiChanges(changes: HistoryChange[]): HistoryChange[] {
+  return changes.filter((change) => change.field !== "Note" && !change.field.startsWith("Note · "));
+}
 
 export function diffManualSheet(before: Sheet, after: Sheet): HistoryChange[] {
   return diffSheet(

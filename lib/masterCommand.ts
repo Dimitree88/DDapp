@@ -2,7 +2,7 @@ import { randomUUID } from "crypto";
 import { and, eq } from "drizzle-orm";
 import { db } from "./db";
 import { characterHistory, characters, creatures, masterSessionCreatures, masterSessionEvents, masterSessionParticipants, masterSessions } from "./db/schema";
-import { diffSheet, equipmentAcquisitions, type HistoryChange } from "./history";
+import { diffSheet, equipmentAcquisitions, withoutAppuntiChanges, type HistoryChange } from "./history";
 import { normalizeCreature, type CreatureData } from "./creature";
 import { sheetPatch, type SheetPatch } from "./masterView";
 import { normalizeSheet, type EventoStoria, type Sheet } from "./sheet";
@@ -105,7 +105,7 @@ export async function storeCharacter(tx: Tx, id: string, before: Sheet, after: S
     dettagli: acquisitions,
     data: now.toISOString(),
   }];
-  const changes = diffSheet(withoutStory(before), withoutStory(clean));
+  const changes = withoutAppuntiChanges(diffSheet(withoutStory(before), withoutStory(clean)));
   if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
   await tx.update(characters).set({ data: clean, updatedAt: now }).where(eq(characters.id, id));
   return { sheet: clean, changes };

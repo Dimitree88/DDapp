@@ -2,7 +2,7 @@ import Link from "next/link";
 import { desc, eq, sql } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
-import { groupHistoryByDay, historyTimestampMs, type HistoryChange } from "@/lib/history";
+import { groupHistoryByDay, historyTimestampMs, withoutAppuntiChanges, type HistoryChange } from "@/lib/history";
 
 export const dynamic = "force-dynamic";
 
@@ -24,10 +24,15 @@ export default async function MasterEventsPage() {
     .innerJoin(characters, eq(characterHistory.characterId, characters.id))
     .orderBy(desc(characterHistory.occurredAt), desc(characterHistory.id));
 
-  const entries = rows.map((row) => ({
-    ...row,
-    occurredAt: new Date(historyTimestampMs(Number(row.occurredAt))).toISOString(),
-  }));
+  const entries = rows.flatMap((row) => {
+    const changes = withoutAppuntiChanges(row.changes);
+    if (!changes.length) return [];
+    return [{
+      ...row,
+      occurredAt: new Date(historyTimestampMs(Number(row.occurredAt))).toISOString(),
+      changes,
+    }];
+  });
   const days = groupHistoryByDay(entries);
 
   return <main className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col gap-4 px-4 pb-10 pt-4">

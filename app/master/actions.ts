@@ -7,7 +7,7 @@ import { db } from "@/lib/db";
 import { characterHistory, characters, creatures, masterSessionCreatures, masterSessionEvents, masterSessionParticipants, masterSessions, type Encounter } from "@/lib/db/schema";
 import { cleanText, errorResult, fail, requireOpenSession, type ActionResult } from "@/lib/masterCommand";
 import { normalizeCreature } from "@/lib/creature";
-import { diffSheet } from "@/lib/history";
+import { diffSheet, withoutAppuntiChanges } from "@/lib/history";
 import { normalizeSheet } from "@/lib/sheet";
 import { freshStartSheet } from "@/lib/masterFreshStart";
 
@@ -35,7 +35,7 @@ export async function freshStartCharacters(): Promise<ActionResult> {
         catch (error) { throw new Error(`${row.name}: ${error instanceof Error ? error.message : "PF massimi non validi."}`); }
       });
       for (const { row, before, after } of updates) {
-        const changes = diffSheet(before, after);
+        const changes = withoutAppuntiChanges(diffSheet(before, after));
         await tx.update(characters).set({ data: after, updatedAt: now }).where(eq(characters.id, row.id));
         if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: row.id, occurredAt: now, changes });
       }

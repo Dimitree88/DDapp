@@ -7,7 +7,7 @@ import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
 import { normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
-import { coalesceHistoryChanges, diffManualSheet, equipmentAcquisitions, historyTimestampMs, type HistoryChange } from "@/lib/history";
+import { coalesceHistoryChanges, diffManualSheet, equipmentAcquisitions, historyTimestampMs, withoutAppuntiChanges, type HistoryChange } from "@/lib/history";
 import { creationErrors } from "@/lib/creationRules";
 import { addCatalogEquipment, armorForEquipment } from "@/lib/equipmentSelection";
 import { gearByName } from "@/lib/gearCatalog";
@@ -63,11 +63,15 @@ export async function getCharacterHistory(id: string): Promise<HistoryEntry[]> {
     changes: characterHistory.changes,
   }).from(characterHistory)
     .where(eq(characterHistory.characterId, id));
-  return rows.map((row) => ({
-    id: row.id,
-    occurredAt: new Date(historyTimestampMs(Number(row.occurredAt))).toISOString(),
-    changes: row.changes,
-  })).sort((a, b) => b.occurredAt.localeCompare(a.occurredAt) || b.id.localeCompare(a.id));
+  return rows.flatMap((row) => {
+    const changes = withoutAppuntiChanges(row.changes);
+    if (!changes.length) return [];
+    return [{
+      id: row.id,
+      occurredAt: new Date(historyTimestampMs(Number(row.occurredAt))).toISOString(),
+      changes,
+    }];
+  }).sort((a, b) => b.occurredAt.localeCompare(a.occurredAt) || b.id.localeCompare(a.id));
 }
 
 export async function saveSheet(
@@ -156,10 +160,11 @@ export async function saveSheet(
     let equipmentBeforeManual = previous.equipaggiamento;
     for (const pack of receiptPacks) equipmentBeforeManual = addCatalogEquipment(equipmentBeforeManual, pack!.id);
     const changes = diffManualSheet({ ...previous, equipaggiamento: equipmentBeforeManual }, normalized);
+    const appuntiChanged = stableJson(previous.note) !== stableJson(normalized.note);
     const hasRemovedBonus = [...current.data.armi, ...current.data.equipaggiamento]
       .some((item) => Object.hasOwn(item, "bonusMagico"));
     const manualChangesExist = changes.length > 0;
-    if (!manualChangesExist && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName && !hitPointsNeedNormalization) return { ok: true };
+    if (!manualChangesExist && !appuntiChanged && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName && !hitPointsNeedNormalization) return { ok: true };
     const now = new Date();
     if (hitPointsNeedNormalization) changes.push({ field: "Punti ferita", before: String(current.data.puntiFerita ?? "—") || "—", after: previous.puntiFerita });
     const acquisitions = equipmentAcquisitions(equipmentBeforeManual, normalized.equipaggiamento);
@@ -174,7 +179,7 @@ export async function saveSheet(
         }],
       };
     }
-    const onlyHitPointsRepair = hitPointsNeedNormalization && !manualChangesExist && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName;
+    const onlyHitPointsRepair = hitPointsNeedNormalization && !manualChangesExist && !appuntiChanged && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName;
     const dataToSave = onlyHitPointsRepair ? { ...current.data, puntiFerita: previous.puntiFerita } : normalized;
     await tx.update(characters).set({ name: cleanName, data: dataToSave, updatedAt: now }).where(eq(characters.id, id));
     if (changes.length) {
