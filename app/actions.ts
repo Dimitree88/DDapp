@@ -13,6 +13,7 @@ import { addCatalogEquipment, armorForEquipment } from "@/lib/equipmentSelection
 import { gearById, gearByName } from "@/lib/gearCatalog";
 import { stableJson } from "@/lib/masterView";
 import { characterCardStatus, type CharacterCardStatus } from "@/lib/characterCardStatus";
+import { payCoins } from "@/lib/coins";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 export type BundleReceipt = { name: string };
@@ -271,6 +272,52 @@ export async function addCharacterEquipment(
       }
     }
     return { ok: true };
+  });
+  if (result.ok) {
+    revalidatePath(`/personaggio/${id}`);
+    revalidatePath("/");
+  }
+  return result;
+}
+
+export async function changeCharacterCoins(
+  id: string,
+  operation: { kind: "set"; coins: Sheet["monete"] } | { kind: "pay"; amount: number; denomination: keyof Sheet["monete"] },
+): Promise<{ ok: boolean; error?: string; coins?: Sheet["monete"] }> {
+  const result = await db.transaction(async (tx) => {
+    const [row] = await tx.select().from(characters).where(eq(characters.id, id));
+    if (!row) return { ok: false, error: "Personaggio non trovato." };
+    const previous = normalizeSheet(row.data);
+    let coins: Sheet["monete"] | null;
+    if (operation.kind === "pay") {
+      coins = payCoins(previous.monete, operation.amount, operation.denomination);
+      if (!coins) return { ok: false, error: "Monete insufficienti o importo non valido." };
+    } else {
+      const keys: (keyof Sheet["monete"])[] = ["rame", "argento", "electrum", "oro", "platino"];
+      if (keys.some((key) => !/^\d+$/.test(operation.coins[key]) || !Number.isSafeInteger(Number(operation.coins[key])))) {
+        return { ok: false, error: "Quantità di monete non valida." };
+      }
+      coins = Object.fromEntries(keys.map((key) => [key, String(Number(operation.coins[key]))])) as Sheet["monete"];
+    }
+    const normalized = normalizeSheet({ ...previous, monete: coins });
+    const changes = diffManualSheet(previous, normalized);
+    if (!changes.length) return { ok: true, coins: normalized.monete };
+    const now = new Date();
+    await tx.update(characters).set({ data: normalized, updatedAt: now }).where(eq(characters.id, id));
+    const [recent] = await tx.select({ id: characterHistory.id, occurredAt: characterHistory.occurredAt, changes: characterHistory.changes })
+      .from(characterHistory)
+      .where(eq(characterHistory.characterId, id))
+      .orderBy(desc(characterHistory.occurredAt), desc(characterHistory.id))
+      .limit(1);
+    const elapsed = recent ? now.getTime() - historyTimestampMs(Number(recent.occurredAt)) : Infinity;
+    if (recent && elapsed >= 0 && elapsed <= 15_000) {
+      const combined = coalesceHistoryChanges(recent.changes, changes);
+      if (combined.length) await tx.update(characterHistory).set({ occurredAt: now, changes: combined }).where(eq(characterHistory.id, recent.id));
+      else await tx.delete(characterHistory).where(eq(characterHistory.id, recent.id));
+    } else {
+      await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
+    }
+    return { ok: true, coins: normalized.monete };
   });
   if (result.ok) {
     revalidatePath(`/personaggio/${id}`);

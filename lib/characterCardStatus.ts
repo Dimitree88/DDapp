@@ -6,6 +6,7 @@ export type CharacterCardStatus = {
   hpMissing: number;
   conditions: string[];
   inspiration: boolean;
+  coinBalances: Sheet["monete"];
   coins: { key: "rame" | "argento" | "electrum" | "oro" | "platino"; label: string; amount: string }[];
 };
 
@@ -24,5 +25,5 @@ export function characterCardStatus(id: string, name: string, sheet: Sheet): Cha
     const amount = Number(sheet.monete[key] || 0);
     return Number.isSafeInteger(amount) && amount > 0 ? [{ key, label, amount: String(amount) }] : [];
   });
-  return { id, name, hpMissing, conditions, inspiration: sheet.ispirazioneEroica, coins };
+  return { id, name, hpMissing, conditions, inspiration: sheet.ispirazioneEroica, coinBalances: sheet.monete, coins };
 }

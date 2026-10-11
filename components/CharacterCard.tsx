@@ -2,14 +2,19 @@
 
 import { useRef, useState, type PointerEvent } from "react";
 import { useRouter } from "next/navigation";
-import { addCharacterEquipment } from "@/app/actions";
+import { addCharacterEquipment, changeCharacterCoins } from "@/app/actions";
 import { Sheet as ModalSheet } from "@/components/ui";
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { gearCatalog } from "@/lib/gearCatalog";
+import type { Sheet } from "@/lib/sheet";
 import { DeleteCharacter } from "./DeleteCharacter";
 
 const quickAddObjects = gearCatalog.filter((gear) => !gear.contents?.length)
   .sort((a, b) => compareOptionLabels(a.name, b.name));
+const coinEntries: { key: keyof Sheet["monete"]; label: string }[] = [
+  { key: "rame", label: "Rame" }, { key: "argento", label: "Argento" },
+  { key: "electrum", label: "Electrum" }, { key: "oro", label: "Oro" }, { key: "platino", label: "Platino" },
+];
 
 export function CharacterCard({
   id,
@@ -17,6 +22,7 @@ export function CharacterCard({
   hpMissing,
   conditions,
   inspiration,
+  coinBalances,
   coins,
 }: {
   id: string;
@@ -24,6 +30,7 @@ export function CharacterCard({
   hpMissing: number;
   conditions: string[];
   inspiration: boolean;
+  coinBalances: Sheet["monete"];
   coins: { key: "rame" | "argento" | "electrum" | "oro" | "platino"; label: string; amount: string }[];
 }) {
   const router = useRouter();
@@ -37,6 +44,13 @@ export function CharacterCard({
   const [detail, setDetail] = useState("");
   const [addError, setAddError] = useState("");
   const [saving, setSaving] = useState(false);
+  const [coinsOpen, setCoinsOpen] = useState(false);
+  const [coinDraft, setCoinDraft] = useState(coinBalances);
+  const [coinSaving, setCoinSaving] = useState(false);
+  const [coinError, setCoinError] = useState("");
+  const [payOpen, setPayOpen] = useState(false);
+  const [payAmount, setPayAmount] = useState("1");
+  const [payDenomination, setPayDenomination] = useState<keyof Sheet["monete"]>("argento");
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const longPressed = useRef(false);
   const start = useRef({ x: 0, y: 0 });
@@ -47,6 +61,62 @@ export function CharacterCard({
     setObjectName(gear.name);
     setSelectedCatalogId(gear.id);
     setSuggestionsOpen(false);
+  };
+
+  const openCoins = (denomination: keyof Sheet["monete"]) => {
+    setCoinDraft(coinBalances);
+    setCoinError("");
+    setPayOpen(false);
+    setPayAmount("1");
+    setPayDenomination(denomination);
+    setCoinsOpen(true);
+  };
+
+  const updateCoin = async (key: keyof Sheet["monete"], delta: 1 | -1) => {
+    if (coinSaving) return;
+    const current = Number(coinDraft[key] || 0);
+    const next = current + delta;
+    if (!Number.isSafeInteger(current) || current < 0 || next < 0 || !Number.isSafeInteger(next)) return;
+    const nextCoins = { ...coinDraft, [key]: String(next) };
+    setCoinDraft(nextCoins);
+    setCoinSaving(true);
+    setCoinError("");
+    try {
+      const result = await changeCharacterCoins(id, { kind: "set", coins: nextCoins });
+      if (!result.ok || !result.coins) {
+        setCoinDraft(coinDraft);
+        setCoinError(result.error ?? "Impossibile aggiornare le monete.");
+      } else {
+        setCoinDraft(result.coins);
+        router.refresh();
+      }
+    } catch {
+      setCoinDraft(coinDraft);
+      setCoinError("Impossibile aggiornare le monete. Riprova.");
+    } finally {
+      setCoinSaving(false);
+    }
+  };
+
+  const submitPayment = async () => {
+    if (coinSaving) return;
+    setCoinSaving(true);
+    setCoinError("");
+    try {
+      const result = await changeCharacterCoins(id, { kind: "pay", amount: Number(payAmount), denomination: payDenomination });
+      if (!result.ok || !result.coins) {
+        setCoinError(result.error ?? "Impossibile completare il pagamento.");
+      } else {
+        setCoinDraft(result.coins);
+        setPayOpen(false);
+        setPayAmount("1");
+        router.refresh();
+      }
+    } catch {
+      setCoinError("Impossibile completare il pagamento. Riprova.");
+    } finally {
+      setCoinSaving(false);
+    }
   };
 
   const cancelTimer = () => {
@@ -140,7 +210,7 @@ export function CharacterCard({
             {coins.map((coin) => <button key={coin.key} type="button" title={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}
               onPointerDown={(event) => event.stopPropagation()}
               onPointerUp={(event) => event.stopPropagation()}
-              onClick={(event) => { event.stopPropagation(); router.push(`/personaggio/${id}#monete`); }}
+              onClick={(event) => { event.stopPropagation(); openCoins(coin.key); }}
               aria-label={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}
               className={`flex size-8 items-center justify-center rounded-full border text-[10px] font-bold tabular-nums ${coinColors[coin.key]}`}>
               {coin.amount}
@@ -200,6 +270,43 @@ export function CharacterCard({
           <textarea value={detail} onChange={(event) => setDetail(event.target.value)} rows={3} className="rounded-lg border border-line bg-parchment px-3 py-2 text-base text-ink" />
         </label>
         {addError && <p role="alert" className="text-sm font-medium text-danger-strong">{addError}</p>}
+      </div>
+    </ModalSheet>
+    <ModalSheet open={coinsOpen} onClose={() => { if (!coinSaving) setCoinsOpen(false); }} title={`Monete · ${name}`}
+      footer={<div className="flex gap-2">
+        <button type="button" disabled={coinSaving} onClick={() => setCoinsOpen(false)} className="min-h-11 flex-1 rounded-lg border border-line px-4 text-sm font-semibold text-ink disabled:opacity-50">Chiudi</button>
+        <button type="button" disabled={coinSaving} onClick={() => setPayOpen((open) => !open)} className="min-h-11 flex-1 rounded-lg bg-accent px-4 text-sm font-semibold text-on-accent disabled:opacity-50">Paga</button>
+      </div>}>
+      <div className="flex flex-col gap-3">
+        <div className="grid grid-cols-2 gap-2">
+          {coinEntries.map(({ key, label }) => {
+            const count = Number(coinDraft[key] || 0);
+            return <div key={key} className="flex min-w-0 items-center gap-1.5 rounded-xl border border-line bg-card/70 p-2">
+              <span title={label} aria-label={`${label}: ${coinDraft[key]}`} className={`flex size-8 shrink-0 items-center justify-center rounded-full border text-[10px] font-bold tabular-nums ${coinColors[key]}`}>{coinDraft[key] || "0"}</span>
+              <span className="min-w-0 flex-1 truncate text-xs font-medium text-ink">{label}</span>
+              <button type="button" aria-label={`Diminuisci ${label.toLowerCase()}`} disabled={coinSaving || !Number.isSafeInteger(count) || count <= 0}
+                onClick={() => void updateCoin(key, -1)} className="flex size-8 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-lg text-accent disabled:opacity-40">−</button>
+              <button type="button" aria-label={`Aumenta ${label.toLowerCase()}`} disabled={coinSaving || !Number.isSafeInteger(count) || count < 0 || count >= Number.MAX_SAFE_INTEGER}
+                onClick={() => void updateCoin(key, 1)} className="flex size-8 shrink-0 items-center justify-center rounded-lg border border-line bg-parchment/70 text-lg text-accent disabled:opacity-40">+</button>
+            </div>;
+          })}
+        </div>
+        {payOpen && <div className="flex flex-col gap-2 rounded-xl border border-line bg-card/70 p-3">
+          <h3 className="text-sm font-semibold text-heading">Pagamento</h3>
+          <div className="grid grid-cols-2 gap-2">
+            <label className="flex flex-col gap-1 text-xs font-medium text-ink">Quantità
+              <input type="number" min="1" step="1" inputMode="numeric" value={payAmount} onChange={(event) => setPayAmount(event.target.value)} className="min-h-10 rounded-lg border border-line bg-parchment px-2 text-base text-ink" />
+            </label>
+            <label className="flex flex-col gap-1 text-xs font-medium text-ink">Moneta
+              <select value={payDenomination} onChange={(event) => setPayDenomination(event.target.value as keyof Sheet["monete"])} className="min-h-10 rounded-lg border border-line bg-parchment px-2 text-sm text-ink">
+                {coinEntries.map(({ key, label }) => <option key={key} value={key}>{label}</option>)}
+              </select>
+            </label>
+          </div>
+          <button type="button" disabled={coinSaving || !Number.isSafeInteger(Number(payAmount)) || Number(payAmount) < 1}
+            onClick={() => void submitPayment()} className="min-h-10 rounded-lg bg-accent px-3 text-sm font-semibold text-on-accent disabled:opacity-40">{coinSaving ? "Salvataggio…" : "Conferma pagamento"}</button>
+        </div>}
+        {coinError && <p role="alert" className="text-sm font-medium text-danger-strong">{coinError}</p>}
       </div>
     </ModalSheet>
     </>
