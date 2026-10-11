@@ -1,6 +1,9 @@
 import { FILE_MANUALE, TESTI_MANUALE } from "./manuale-2024/registro";
 import { manuale, chiaveRicerca } from "./manuale-2024";
 import type { VoceBase } from "./manuale-2024/schema";
+import { equipmentDetails } from "./equipmentDetails";
+import { gearCatalog } from "./gearCatalog";
+import { weaponCatalog, weaponDetails } from "./weaponDetails";
 
 export type HomeGlossaryEntry = { id: string; name: string; category: string; description: string; reference: string };
 
@@ -27,6 +30,22 @@ const entries: HomeGlossaryEntry[] = (() => {
       if ("tratti" in voce && Array.isArray(voce.tratti)) voce.tratti.forEach((item) => add(item, domain));
     }
   }
+  for (const weapon of weaponCatalog) {
+    byId.set(`arma:${weapon.id}`, {
+      id: `arma:${weapon.id}`, name: weapon.name, category: "Armi",
+      description: weaponDetails(weapon.name) ?? "",
+      reference: "Manuale del Giocatore 2024, p. 215",
+    });
+  }
+  for (const gear of gearCatalog) {
+    const details = equipmentDetails(gear.name);
+    if (!details?.meaning) continue;
+    byId.set(`equipaggiamento:${gear.id}`, {
+      id: `equipaggiamento:${gear.id}`, name: gear.name, category: "Equipaggiamento",
+      description: details.meaning,
+      reference: `Manuale del Giocatore 2024, p. ${details.page ?? gear.sourcePage ?? 223}`,
+    });
+  }
   return [...byId.values()];
 })();
 
@@ -37,8 +56,7 @@ export function searchHomeGlossary(query: string): HomeGlossaryEntry[] {
   return entries
     .map((entry) => {
       const name = chiaveRicerca(entry.name);
-      const searchable = chiaveRicerca(`${entry.name} ${entry.category} ${entry.description}`);
-      if (!words.every((word) => searchable.includes(word))) return null;
+      if (!words.every((word) => name.includes(word))) return null;
       const rank = name === normalized ? 0 : name.startsWith(normalized) ? 1 : name.includes(normalized) ? 2 : 3;
       return { entry, rank };
     })

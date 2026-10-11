@@ -26,16 +26,16 @@ export default async function Home() {
           characterCardStatus(character.id, character.name, normalizeSheet(character.data)))} />
       </section>
 
-      <section className="mt-6 flex flex-col gap-3" aria-label="Creature">
+      <section className="mt-6 grid grid-cols-2 gap-3" aria-label="Creature">
         {creatureList.length === 0 && (
-          <p className="rounded-xl border border-line bg-card/60 px-4 py-6 text-center text-sm text-ink-soft">
+          <p className="col-span-2 rounded-xl border border-line bg-card/60 px-4 py-6 text-center text-sm text-ink-soft">
             Nessuna creatura presente.
           </p>
         )}
         {creatureList.map((creature) => (
-          <Link key={creature.id} href={`/creatura/${creature.id}`} className="flex items-center justify-between rounded-xl border border-line bg-card/70 px-4 py-4 shadow-sm active:bg-card">
-            <span className="text-lg font-semibold text-ink">{creature.name}</span>
-            <span className="text-accent" aria-hidden>›</span>
+          <Link key={creature.id} href={`/creatura/${creature.id}`} className="flex min-h-16 min-w-0 items-center justify-between gap-2 rounded-xl border border-line bg-card/70 px-3 py-3 shadow-sm active:bg-card">
+            <span className="min-w-0 truncate text-base font-semibold text-ink">{creature.name}</span>
+            <span className="shrink-0 text-accent" aria-hidden>›</span>
           </Link>
         ))}
       </section>
