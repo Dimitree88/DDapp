@@ -294,15 +294,17 @@ function MagicItemControls({ sheet, item, onPatch }: { sheet: Sheet; item: Equip
   const duplicate = attuned.some((entry) => entry !== item && entry.nome.localeCompare(item.nome, "it", { sensitivity: "base" }) === 0);
   const limitReached = attuned.length >= 3;
   if (!unlocked) return item.magico ? <p className="mt-1 text-xs text-ink-soft">{item.sintonizzato ? "In sintonia" : "Non in sintonia"}</p> : null;
-  return <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-xs text-ink-soft">
-    <div className="flex min-h-11 items-center gap-2">
-      <input type="checkbox" aria-label={`Oggetto magico: ${item.nome}`} checked={Boolean(item.magico)} onChange={(event) => onPatch({
-        magico: event.target.checked,
-        ...(event.target.checked ? {} : { sintonizzato: false }),
-      })} />
-      <InfoLabel id="Oggetto magico" title="Oggetto magico" className="min-h-11 py-3 underline decoration-ink-soft/40 underline-offset-2" />
-    </div>
-    {item.magico && <div className="flex min-h-11 items-center gap-2">
+  return <div className="mt-1 flex flex-wrap items-center gap-1 text-xs text-ink-soft">
+    <button type="button" aria-label={`Oggetto magico: ${item.nome}`} aria-pressed={Boolean(item.magico)} title="Oggetto magico"
+      onClick={() => onPatch({ magico: !item.magico, ...(!item.magico ? {} : { sintonizzato: false }) })}
+      className={`flex size-8 items-center justify-center rounded-full border transition-colors ${item.magico ? "border-violet-500 bg-violet-100 text-violet-800" : "border-line bg-surface/70 text-ink-soft active:bg-parchment"}`}>
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="size-4">
+        <path d="m5 19 10-10M13 5l1-2m4 4 2-1M7 7 5 5m11 9 2 2" />
+        <path d="M16 3v3m-1.5-1.5h3M5 12v3m-1.5-1.5h3" />
+      </svg>
+    </button>
+    <InfoLabel id="Oggetto magico" title="ⓘ" dialogTitle="Oggetto magico" className="flex size-8 items-center justify-center rounded-full text-sm text-ink-soft" />
+    {item.magico && <div className="flex min-h-9 items-center gap-2">
       <input type="checkbox" aria-label={`In sintonia: ${item.nome}`} checked={Boolean(item.sintonizzato)} disabled={!item.sintonizzato && (limitReached || duplicate)}
         onChange={(event) => onPatch({ sintonizzato: event.target.checked })} />
       <InfoLabel id="In sintonia" title={`In sintonia${!item.sintonizzato && (duplicate ? " · già in sintonia" : limitReached ? " · limite 3" : "")}`} className="min-h-11 py-3 underline decoration-ink-soft/40 underline-offset-2" />
