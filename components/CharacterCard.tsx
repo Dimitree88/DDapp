@@ -3,7 +3,7 @@
 import { useRef, useState, type PointerEvent } from "react";
 import { useRouter } from "next/navigation";
 import { addCharacterEquipment, changeCharacterCoins } from "@/app/actions";
-import { Sheet as ModalSheet } from "@/components/ui";
+import { HpBar, Sheet as ModalSheet } from "@/components/ui";
 import { compareOptionLabels } from "@/lib/sortOptions";
 import { gearCatalog } from "@/lib/gearCatalog";
 import type { Sheet } from "@/lib/sheet";
@@ -19,7 +19,9 @@ const coinEntries: { key: keyof Sheet["monete"]; label: string }[] = [
 export function CharacterCard({
   id,
   name,
-  hpMissing,
+  hpCurrent,
+  hpMax,
+  hpTemp,
   conditions,
   inspiration,
   coinBalances,
@@ -27,7 +29,9 @@ export function CharacterCard({
 }: {
   id: string;
   name: string;
-  hpMissing: number;
+  hpCurrent: number | null;
+  hpMax: number | null;
+  hpTemp: number;
   conditions: string[];
   inspiration: boolean;
   coinBalances: Sheet["monete"];
@@ -197,7 +201,6 @@ export function CharacterCard({
           <div className="flex items-center justify-between gap-2">
             <span className="flex min-w-0 flex-1 items-center gap-2">
               <span className="truncate text-lg font-semibold text-ink">{name}</span>
-              {hpMissing > 0 && <span className="shrink-0 text-xs font-semibold text-danger-strong">−{hpMissing} PF</span>}
             </span>
             <span className="flex shrink-0 items-center gap-2">
               {conditions.length > 0 && <span aria-label={`Condizioni: ${conditions.join(", ")}`} title={conditions.join(", ")}
@@ -205,6 +208,9 @@ export function CharacterCard({
               {inspiration && <span aria-label="Ispirazione eroica" title="Ispirazione eroica" className="text-lg leading-none text-gold">★</span>}
               <span className="text-accent" aria-hidden>{revealed ? "" : "›"}</span>
             </span>
+          </div>
+          <div className="mt-1" role="img" aria-label={`Punti ferita: ${hpCurrent ?? "non registrati"}${hpMax !== null ? ` su ${hpMax}` : ""}`}>
+            <HpBar current={hpCurrent} max={hpMax} temp={hpTemp} />
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             {coins.map((coin) => <button key={coin.key} type="button" title={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}

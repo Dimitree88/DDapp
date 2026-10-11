@@ -19,7 +19,7 @@ import { normalizeCreature } from "@/lib/creature";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 export type HomeGeneralHistoryEntry = HistoryEntry & { characterId: string; characterName: string };
-export type HomeCreatureCard = { id: string; name: string; hpMissing: number; conditions: string[] };
+export type HomeCreatureCard = { id: string; name: string; hpCurrent: number; hpMax: number; hpTemp: number; conditions: string[] };
 export type BundleReceipt = { name: string };
 
 export type CharacterLiveFields = Pick<Sheet, "puntiFerita" | "ispirazioneEroica" | "puntiEsperienza"> & {
@@ -48,7 +48,9 @@ export async function getHomeCreatures(): Promise<HomeCreatureCard[]> {
     return {
       id: row.id,
       name: row.name,
-      hpMissing: Math.max(0, data.hitPointsMax - data.hitPointsCurrent),
+      hpCurrent: data.hitPointsCurrent,
+      hpMax: data.hitPointsMax,
+      hpTemp: data.hitPointsTemp ?? 0,
       conditions: (data.conditions ?? []).map((condition) => condition.nome),
     };
   });
