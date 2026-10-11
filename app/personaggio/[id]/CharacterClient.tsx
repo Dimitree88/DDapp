@@ -20,7 +20,7 @@ import {
   InfoLabel,
 } from "@/components/fields";
 import { getCharacterHistory, getCharacterLiveFields, saveSheet, type HistoryEntry } from "@/app/actions";
-import { groupHistoryByDay } from "@/lib/history";
+import { formatHistoryValue, groupHistoryByDay } from "@/lib/history";
 import { characterStory } from "@/lib/characterStory";
 import regole from "@/lib/manuale-2024-domains.json";
 import { spellDetails, canonicalSpellName } from "@/lib/spells";
@@ -1439,7 +1439,7 @@ export default function CharacterClient({
                                       {group.entries.flatMap((entry) => entry.changes.map((change, index) => (
                                         <li key={`${entry.id}-${index}`} className="break-words text-sm text-ink">
                                           <span className="font-semibold">{change.field}</span>{"  "}
-                                          <span>{change.before} → {change.after}</span>
+                                          <span>{formatHistoryValue(change.before)} → {formatHistoryValue(change.after)}</span>
                                         </li>
                                       )))}
                                     </ul>

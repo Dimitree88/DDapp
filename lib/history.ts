@@ -6,6 +6,19 @@ export type HistoryChange = {
   after: string;
 };
 
+export function formatHistoryValue(value: string): string {
+  try {
+    const item = JSON.parse(value) as { nome?: unknown; quantita?: unknown; dettaglio?: unknown };
+    if (!item || typeof item !== "object" || typeof item.nome !== "string" || !item.nome.trim()) return value;
+    const quantity = Number(item.quantita ?? 1);
+    const prefix = Number.isSafeInteger(quantity) && quantity > 1 ? `${quantity}x ` : "";
+    const detail = typeof item.dettaglio === "string" ? item.dettaglio.trim() : "";
+    return `${prefix}${item.nome.trim()}${detail ? `, ${detail}` : ""}`;
+  } catch {
+    return value;
+  }
+}
+
 type TimedHistoryEntry = { occurredAt: string };
 export type HistoryTimeGroup<T> = { entries: T[]; newest: string; oldest: string };
 export type HistoryDayGroup<T> = { day: string; timeGroups: HistoryTimeGroup<T>[] };
@@ -37,9 +50,6 @@ export function groupHistoryByDay<T extends TimedHistoryEntry>(entries: T[]): Hi
     }
     group.entries.push(entry);
     group.oldest = entry.occurredAt;
-  }
-  for (const day of days) {
-    for (const group of day.timeGroups) group.entries.reverse();
   }
   return days;
 }
