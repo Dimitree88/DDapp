@@ -74,7 +74,9 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet
   if (array) {
     const index = Number(array[2]);
     if (array[1] === "armi") {
-      const item = sheet.armi[index];
+      const item = sheet.armi[index] ?? (sheet.scudo && index === sheet.armi.length && index < 6
+        ? { nome: "Scudo", quantita: "1", bonus: "", modo: "base" as const, note: "" }
+        : undefined);
       if (!item) return undefined;
       if (array[3] === "nome") {
         const quantity = Number(item.quantita);
