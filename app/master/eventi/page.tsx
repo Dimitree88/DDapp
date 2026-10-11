@@ -38,7 +38,7 @@ export default async function MasterEventsPage() {
 
   return <main className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col gap-4 px-4 pb-10 pt-4">
     <header className="sticky top-0 z-10 -mx-4 flex items-center gap-3 border-b border-line/60 bg-parchment/95 px-3 py-2 backdrop-blur">
-      <Link href="/master" aria-label="Torna a Master" className="flex size-11 shrink-0 items-center justify-center rounded-full text-sm font-semibold text-accent active:bg-card">←</Link>
+      <Link href="/" aria-label="Torna alla home" className="flex size-11 shrink-0 items-center justify-center rounded-full text-lg leading-none text-accent active:bg-card">⌂</Link>
       <div className="min-w-0 flex-1">
         <h1 className="text-lg font-bold text-heading">Eventi dei personaggi</h1>
         <p className="text-xs text-ink-soft">Tutti i personaggi · dal più recente</p>
