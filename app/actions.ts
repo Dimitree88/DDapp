@@ -2,12 +2,12 @@
 
 import { revalidatePath } from "next/cache";
 import { randomUUID } from "crypto";
-import { eq, sql } from "drizzle-orm";
+import { desc, eq, sql } from "drizzle-orm";
 import { db } from "@/lib/db";
 import { characterHistory, characters } from "@/lib/db/schema";
 import { normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
-import { diffManualSheet, equipmentAcquisitions, historyTimestampMs, type HistoryChange } from "@/lib/history";
+import { coalesceHistoryChanges, diffManualSheet, equipmentAcquisitions, historyTimestampMs, type HistoryChange } from "@/lib/history";
 import { creationErrors } from "@/lib/creationRules";
 import { addCatalogEquipment, armorForEquipment } from "@/lib/equipmentSelection";
 import { gearByName } from "@/lib/gearCatalog";
@@ -177,7 +177,24 @@ export async function saveSheet(
     const onlyHitPointsRepair = hitPointsNeedNormalization && !manualChangesExist && bundleReceipts.length === 0 && !hasRemovedBonus && current.name === cleanName;
     const dataToSave = onlyHitPointsRepair ? { ...current.data, puntiFerita: previous.puntiFerita } : normalized;
     await tx.update(characters).set({ name: cleanName, data: dataToSave, updatedAt: now }).where(eq(characters.id, id));
-    if (changes.length) await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
+    if (changes.length) {
+      const [recent] = await tx.select({ id: characterHistory.id, occurredAt: characterHistory.occurredAt, changes: characterHistory.changes })
+        .from(characterHistory)
+        .where(eq(characterHistory.characterId, id))
+        .orderBy(desc(characterHistory.occurredAt), desc(characterHistory.id))
+        .limit(1);
+      const elapsed = recent ? now.getTime() - historyTimestampMs(Number(recent.occurredAt)) : Infinity;
+      if (recent && elapsed >= 0 && elapsed <= 5_000) {
+        const combined = coalesceHistoryChanges(recent.changes, changes);
+        if (combined.length) {
+          await tx.update(characterHistory).set({ occurredAt: now, changes: combined }).where(eq(characterHistory.id, recent.id));
+        } else {
+          await tx.delete(characterHistory).where(eq(characterHistory.id, recent.id));
+        }
+      } else {
+        await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
+      }
+    }
     return { ok: true };
   });
   if (!result.ok) return result;

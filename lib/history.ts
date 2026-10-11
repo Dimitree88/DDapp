@@ -146,6 +146,26 @@ export function diffManualSheet(before: Sheet, after: Sheet): HistoryChange[] {
   );
 }
 
+export function coalesceHistoryChanges(previous: HistoryChange[], incoming: HistoryChange[]): HistoryChange[] {
+  const merged = [...previous];
+  for (const change of incoming) {
+    let match = -1;
+    for (let index = merged.length - 1; index >= 0; index--) {
+      if (merged[index].field === change.field && merged[index].after === change.before) {
+        match = index;
+        break;
+      }
+    }
+    if (match < 0) {
+      merged.push(change);
+      continue;
+    }
+    if (merged[match].before === change.after) merged.splice(match, 1);
+    else merged[match] = { ...merged[match], after: change.after };
+  }
+  return merged;
+}
+
 export function equipmentAcquisitions(before: Sheet["equipaggiamento"], after: Sheet["equipaggiamento"]): string[] {
   const quantityByItem = (items: Sheet["equipaggiamento"]) => {
     const quantities = new Map<string, number>();
