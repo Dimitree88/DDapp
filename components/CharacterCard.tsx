@@ -2,6 +2,10 @@
 
 import { useRef, useState, type PointerEvent } from "react";
 import { useRouter } from "next/navigation";
+import { addCharacterEquipment } from "@/app/actions";
+import { Sheet as ModalSheet } from "@/components/ui";
+import { compareOptionLabels } from "@/lib/sortOptions";
+import { gearCatalog } from "@/lib/gearCatalog";
 import { DeleteCharacter } from "./DeleteCharacter";
 
 export function CharacterCard({
@@ -21,6 +25,13 @@ export function CharacterCard({
 }) {
   const router = useRouter();
   const [revealed, setRevealed] = useState(false);
+  const [addOpen, setAddOpen] = useState(false);
+  const [catalogSelection, setCatalogSelection] = useState("");
+  const [customName, setCustomName] = useState("");
+  const [quantity, setQuantity] = useState("1");
+  const [detail, setDetail] = useState("");
+  const [addError, setAddError] = useState("");
+  const [saving, setSaving] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const longPressed = useRef(false);
   const start = useRef({ x: 0, y: 0 });
@@ -56,7 +67,36 @@ export function CharacterCard({
     else router.push(`/personaggio/${id}#equipaggiamento`);
   };
 
+  const submitEquipment = async () => {
+    const custom = catalogSelection === "personalizzato";
+    if (!catalogSelection || custom && !customName.trim()) return;
+    setSaving(true);
+    setAddError("");
+    try {
+      const result = await addCharacterEquipment(id, {
+        ...(custom ? { nome: customName.trim() } : { catalogId: catalogSelection }),
+        quantita: Number(quantity),
+        dettaglio: detail.trim(),
+      });
+      if (!result.ok) {
+        setAddError(result.error ?? "Impossibile aggiungere l'oggetto.");
+        return;
+      }
+      setAddOpen(false);
+      setCatalogSelection("");
+      setCustomName("");
+      setQuantity("1");
+      setDetail("");
+      router.refresh();
+    } catch {
+      setAddError("Impossibile aggiungere l'oggetto. Riprova.");
+    } finally {
+      setSaving(false);
+    }
+  };
+
   return (
+    <>
     <div className="flex select-none items-stretch overflow-hidden rounded-xl border border-line bg-card/70 shadow-sm">
       <div
         role="button"
@@ -92,11 +132,45 @@ export function CharacterCard({
               className={`flex size-8 items-center justify-center rounded-full border text-[10px] font-bold tabular-nums ${coinColors[coin.key]}`}>
               {coin.amount}
             </button>)}
+            <button type="button" title={`Aggiungi oggetto all'equipaggiamento di ${name}`} aria-label={`Aggiungi oggetto all'equipaggiamento di ${name}`}
+              onPointerDown={(event) => event.stopPropagation()}
+              onPointerUp={(event) => event.stopPropagation()}
+              onClick={(event) => { event.stopPropagation(); setAddError(""); setCatalogSelection(""); setCustomName(""); setQuantity("1"); setDetail(""); setAddOpen(true); }}
+              className="flex size-8 items-center justify-center rounded-full border border-accent/60 bg-accent/10 text-lg font-semibold leading-none text-accent active:bg-accent/20">+</button>
           </div>
         </div>
       </div>
       {revealed && <DeleteCharacter id={id} name={name} />}
     </div>
+    <ModalSheet open={addOpen} onClose={() => { if (!saving) setAddOpen(false); }} title={`Aggiungi oggetto · ${name}`}
+      subtitle="Scegli l’oggetto e indica quantità e descrizione facoltativa."
+      footer={<div className="flex gap-2">
+        <button type="button" disabled={saving} onClick={() => setAddOpen(false)} className="min-h-11 flex-1 rounded-lg border border-line px-4 text-sm font-semibold text-ink disabled:opacity-50">Annulla</button>
+        <button type="button" disabled={saving || !catalogSelection || catalogSelection === "personalizzato" && !customName.trim() || !Number.isSafeInteger(Number(quantity)) || Number(quantity) < 1}
+          onClick={() => void submitEquipment()} className="min-h-11 flex-1 rounded-lg bg-accent px-4 text-sm font-semibold text-on-accent disabled:opacity-40">{saving ? "Aggiunta…" : "Aggiungi"}</button>
+      </div>}>
+      <div className="flex flex-col gap-3">
+        <label className="flex flex-col gap-1 text-sm font-medium text-ink">Oggetto
+          <select value={catalogSelection} onChange={(event) => setCatalogSelection(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink">
+            <option value="">Scegli un oggetto</option>
+            {gearCatalog.filter((gear) => !gear.contents?.length).sort((a, b) => compareOptionLabels(a.name, b.name))
+              .map((gear) => <option key={gear.id} value={gear.id}>{gear.name}</option>)}
+            <option value="personalizzato">Oggetto personalizzato…</option>
+          </select>
+        </label>
+        {catalogSelection === "personalizzato" && <label className="flex flex-col gap-1 text-sm font-medium text-ink">Nome
+          <input autoFocus required value={customName} onChange={(event) => setCustomName(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
+        </label>}
+        <label className="flex flex-col gap-1 text-sm font-medium text-ink">Quantità
+          <input type="number" min="1" step="1" inputMode="numeric" value={quantity} onChange={(event) => setQuantity(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
+        </label>
+        <label className="flex flex-col gap-1 text-sm font-medium text-ink">Descrizione (facoltativa)
+          <textarea value={detail} onChange={(event) => setDetail(event.target.value)} rows={3} className="rounded-lg border border-line bg-parchment px-3 py-2 text-base text-ink" />
+        </label>
+        {addError && <p role="alert" className="text-sm font-medium text-danger-strong">{addError}</p>}
+      </div>
+    </ModalSheet>
+    </>
   );
 }
 

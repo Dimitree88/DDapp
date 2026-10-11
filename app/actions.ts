@@ -10,7 +10,7 @@ import { domainErrors } from "@/lib/domain";
 import { coalesceHistoryChanges, diffManualSheet, equipmentAcquisitions, historyTimestampMs, withoutAppuntiChanges, type HistoryChange } from "@/lib/history";
 import { creationErrors } from "@/lib/creationRules";
 import { addCatalogEquipment, armorForEquipment } from "@/lib/equipmentSelection";
-import { gearByName } from "@/lib/gearCatalog";
+import { gearById, gearByName } from "@/lib/gearCatalog";
 import { stableJson } from "@/lib/masterView";
 import { characterCardStatus, type CharacterCardStatus } from "@/lib/characterCardStatus";
 
@@ -215,5 +215,66 @@ export async function saveSheet(
   if (!result.ok) return result;
   revalidatePath(`/personaggio/${id}`);
   revalidatePath("/");
+  return result;
+}
+
+export async function addCharacterEquipment(
+  id: string,
+  input: { catalogId?: string; nome?: string; quantita: number; dettaglio?: string },
+): Promise<{ ok: boolean; error?: string }> {
+  const quantity = Number(input.quantita);
+  const catalogItem = input.catalogId ? gearById(input.catalogId) : undefined;
+  const name = (catalogItem?.name ?? input.nome ?? "").trim();
+  if (input.catalogId && !catalogItem) return { ok: false, error: "Oggetto non valido." };
+  if (!name) return { ok: false, error: "Inserisci il nome dell'oggetto." };
+  if (!Number.isSafeInteger(quantity) || quantity < 1) return { ok: false, error: "La quantità deve essere un intero maggiore di zero." };
+  if (catalogItem?.contents?.length) return { ok: false, error: "Le dotazioni complete si aggiungono dalla pagina Equipaggiamento." };
+
+  const result = await db.transaction(async (tx) => {
+    const [row] = await tx.select().from(characters).where(eq(characters.id, id));
+    if (!row) return { ok: false, error: "Personaggio non trovato." };
+    const previous = normalizeSheet(row.data);
+    const now = new Date();
+    const normalized = normalizeSheet({
+      ...previous,
+      equipaggiamento: [...previous.equipaggiamento, {
+        nome: name,
+        quantita: String(quantity),
+        dettaglio: input.dettaglio?.trim() ?? "",
+        ...(catalogItem ? { catalogId: catalogItem.id } : {}),
+      }],
+    });
+    const changes = diffManualSheet(previous, normalized);
+    const acquisitions = equipmentAcquisitions(previous.equipaggiamento, normalized.equipaggiamento);
+    if (acquisitions.length) {
+      normalized.eventiStoria = [...(previous.eventiStoria ?? []), {
+        capitolo: "Dotazioni ricevute",
+        titolo: "Equipaggiamento aggiunto",
+        dettagli: acquisitions,
+        data: now.toISOString(),
+      }];
+    }
+    await tx.update(characters).set({ data: normalized, updatedAt: now }).where(eq(characters.id, id));
+    if (changes.length) {
+      const [recent] = await tx.select({ id: characterHistory.id, occurredAt: characterHistory.occurredAt, changes: characterHistory.changes })
+        .from(characterHistory)
+        .where(eq(characterHistory.characterId, id))
+        .orderBy(desc(characterHistory.occurredAt), desc(characterHistory.id))
+        .limit(1);
+      const elapsed = recent ? now.getTime() - historyTimestampMs(Number(recent.occurredAt)) : Infinity;
+      if (recent && elapsed >= 0 && elapsed <= 15_000) {
+        const combined = coalesceHistoryChanges(recent.changes, changes);
+        if (combined.length) await tx.update(characterHistory).set({ occurredAt: now, changes: combined }).where(eq(characterHistory.id, recent.id));
+        else await tx.delete(characterHistory).where(eq(characterHistory.id, recent.id));
+      } else {
+        await tx.insert(characterHistory).values({ id: randomUUID(), characterId: id, occurredAt: now, changes });
+      }
+    }
+    return { ok: true };
+  });
+  if (result.ok) {
+    revalidatePath(`/personaggio/${id}`);
+    revalidatePath("/");
+  }
   return result;
 }
