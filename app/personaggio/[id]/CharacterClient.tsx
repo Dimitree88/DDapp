@@ -47,7 +47,7 @@ import { operationalReminder } from "@/lib/operationalReminders";
 import { displayedFeatGrants, featFunctionalDetails, grantFunctionalDetails } from "@/lib/functionalDetails";
 import { spellSlots, spellcastingStats } from "@/lib/spellcasting";
 import { masteryEffects } from "@/lib/weaponMastery";
-import { coinTotals } from "@/lib/coins";
+import { coinTotals, payCoins } from "@/lib/coins";
 import { weaponCompetencyDetails } from "@/lib/weaponCompetencies";
 import { toolCompetencyDetails } from "@/lib/toolCompetencies";
 import { subclassLevel } from "@/lib/classProgression";
@@ -383,6 +383,10 @@ export default function CharacterClient({
   const firstRun = useRef(true);
   const saveChainRef = useRef<Promise<void>>(Promise.resolve());
   const [showHistory, setShowHistory] = useState(false);
+  const [payDialogOpen, setPayDialogOpen] = useState(false);
+  const [paymentAmount, setPaymentAmount] = useState("1");
+  const [paymentCoin, setPaymentCoin] = useState<keyof Sheet["monete"]>("argento");
+  const [paymentError, setPaymentError] = useState("");
   const [equipmentNotice, setEquipmentNotice] = useState("");
   const [calculationTarget, setCalculationTarget] = useState<CalculationTarget | null>(null);
   const [fieldInfo, setFieldInfo] = useState<{ id: string; title: string } | null>(null);
@@ -693,6 +697,22 @@ export default function CharacterClient({
     const next = current + delta;
     if (next < 0 || !Number.isSafeInteger(next)) return;
     patch({ monete: { ...sheet.monete, [key]: String(next) } });
+  }
+
+  function confirmPayment() {
+    const amount = Number(paymentAmount);
+    if (!/^\d+$/.test(paymentAmount) || !Number.isSafeInteger(amount) || amount <= 0) {
+      setPaymentError("Inserisci un importo intero maggiore di zero.");
+      return;
+    }
+    const remainingCoins = payCoins(sheet.monete, amount, paymentCoin);
+    if (!remainingCoins) {
+      setPaymentError("Monete insufficienti per questo pagamento.");
+      return;
+    }
+    patch({ monete: remainingCoins });
+    setPaymentError("");
+    setPayDialogOpen(false);
   }
 
   const [exporting, setExporting] = useState(false);
@@ -1087,6 +1107,10 @@ export default function CharacterClient({
               </div>;
             })}
           </div>
+          <button type="button" onClick={() => { setPaymentAmount("1"); setPaymentError(""); setPayDialogOpen(true); }}
+            className="min-h-11 rounded-xl bg-accent px-4 py-2 text-sm font-semibold text-parchment shadow-sm active:opacity-90">
+            Paga
+          </button>
           <div className="mt-2 rounded-xl border border-line bg-card/70 p-4 shadow-sm">
             <h4 className="text-sm font-semibold text-heading">Valore equivalente totale</h4>
             <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
@@ -1331,6 +1355,43 @@ export default function CharacterClient({
                             </li>
                           ))}
                         </ol>}
+                </div>
+              </div>
+            )}
+
+            {payDialogOpen && (
+              <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/60 p-4"
+                onClick={() => setPayDialogOpen(false)}>
+                <div role="dialog" aria-modal="true" aria-labelledby="payment-title"
+                  onClick={(event) => event.stopPropagation()}
+                  className="w-full max-w-md rounded-2xl border-2 border-gold bg-card p-5 text-ink shadow-xl">
+                  <div className="flex items-start justify-between gap-3">
+                    <h2 id="payment-title" className="text-lg font-bold text-heading">Paga</h2>
+                    <button type="button" onClick={() => setPayDialogOpen(false)} aria-label="Chiudi pagamento"
+                      className="rounded-full border border-line px-2.5 py-1 text-sm text-ink-soft">✕</button>
+                  </div>
+                  <div className="mt-4 grid grid-cols-[1fr_1.4fr] gap-3">
+                    <label className="flex flex-col gap-1 text-sm font-semibold text-ink" htmlFor="payment-amount">
+                      Importo
+                      <input id="payment-amount" type="text" inputMode="numeric" pattern="[0-9]*" autoFocus
+                        value={paymentAmount} onChange={(event) => { if (/^\d*$/.test(event.target.value)) setPaymentAmount(event.target.value); }}
+                        className="min-h-11 w-full rounded-lg border border-line bg-parchment/70 px-3 text-center text-lg text-ink outline-none focus:border-accent" />
+                    </label>
+                    <label className="flex flex-col gap-1 text-sm font-semibold text-ink" htmlFor="payment-coin">
+                      Tipo di moneta
+                      <select id="payment-coin" value={paymentCoin} onChange={(event) => setPaymentCoin(event.target.value as keyof Sheet["monete"])}
+                        className="min-h-11 w-full rounded-lg border border-line bg-parchment/70 px-3 text-sm text-ink outline-none focus:border-accent">
+                        {COINS.map(([label, key]) => <option key={key} value={key}>{label}</option>)}
+                      </select>
+                    </label>
+                  </div>
+                  {paymentError && <p role="alert" className="mt-3 text-sm text-danger-strong">{paymentError}</p>}
+                  <div className="mt-5 flex gap-2">
+                    <button type="button" onClick={() => setPayDialogOpen(false)}
+                      className="min-h-11 flex-1 rounded-xl border border-line bg-parchment/70 px-3 py-2 text-sm font-semibold text-ink active:bg-card">Annulla</button>
+                    <button type="button" onClick={confirmPayment}
+                      className="min-h-11 flex-1 rounded-xl bg-accent px-3 py-2 text-sm font-semibold text-parchment active:opacity-90">Conferma</button>
+                  </div>
                 </div>
               </div>
             )}
