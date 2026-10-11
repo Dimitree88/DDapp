@@ -13,6 +13,7 @@ import { compareOptionLabels } from "./sortOptions";
 import { isArmorEquipment } from "./equipmentSelection";
 import { spellDamageNote } from "./spellDamageNotes";
 import { displayedFeatGrants, featFunctionalDetails, grantFunctionalDetails } from "./functionalDetails";
+import { abilityName } from "./abilityNames";
 
 type Mapping = (typeof fields)[number];
 type RichItem = { title: string; detail?: string };
@@ -31,7 +32,7 @@ function sourceValue(mapping: Mapping, name: string, sheet: Sheet, spells: Sheet
     const stats = spellcastingStats(sheet);
     if (!stats) return undefined;
     const key = source.slice("spellcasting.".length);
-    if (key === "ability") return stats.ability;
+    if (key === "ability") return abilityName(stats.ability);
     if (key === "modifier") return stats.modifier;
     if (key === "dc") return String(stats.dc);
     if (key === "attack") return stats.attack;
@@ -263,11 +264,35 @@ export async function buildTemplatePdf(name: string, sheet: Sheet, templateBytes
   // The form uses arbitrary Sejda field names. The reviewed mapping is kept
   // separate from the rendering logic so coordinates never depend on array order.
   for (const mapping of fields) {
+    if (mapping.source === "spellcasting.ability") continue;
     const value = sourceValue(mapping, name, sheet, spells);
     if (value === undefined || value === "" || value === false) continue;
     if (mapping.type === "CheckBox") {
       if (value === true) check(mapping);
     } else draw(mapping, String(value));
+  }
+
+  const spellcastingAbilityField = fields.find((field) => field.source === "spellcasting.ability");
+  if (spellcastingAbilityField) {
+    const value = sourceValue(spellcastingAbilityField, name, sheet, spells);
+    if (typeof value === "string" && value) {
+      const page = pages[spellcastingAbilityField.page];
+      const x = 12;
+      const width = 120;
+      page.drawRectangle({ x, y: page.getHeight() - 41, width, height: 28, color: rgb(1, 1, 1) });
+      const drawCentered = (text: string, baselineFromTop: number, size: number) => {
+        const textWidth = measure(text, size);
+        page.drawText(text, {
+          x: x + (width - textWidth) / 2,
+          y: page.getHeight() - baselineFromTop - size,
+          size,
+          font,
+          color: rgb(0, 0, 0),
+        });
+      };
+      drawCentered("CARATTERISTICA DA INCANTATORE", 16, 6.5);
+      drawCentered(value, 29, 10);
+    }
   }
 
   const grants = grantedPrivileges(sheet);
