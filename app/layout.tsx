@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { ScreenAwakeToggle } from "@/components/ScreenAwakeToggle";
+import { ScreenAwakeGuard } from "@/components/ScreenAwakeGuard";
 
 export const metadata: Metadata = {
   title: "Schede D&D",
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it" className="h-full antialiased">
-      <body className="min-h-dvh text-ink">{children}<ScreenAwakeToggle /></body>
+      <body className="min-h-dvh text-ink">{children}<ScreenAwakeGuard /></body>
     </html>
   );
 }
