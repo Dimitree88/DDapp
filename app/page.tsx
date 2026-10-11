@@ -1,20 +1,20 @@
 import { asc } from "drizzle-orm";
 import Link from "next/link";
 import { db } from "@/lib/db";
-import { characters, creatures } from "@/lib/db/schema";
+import { characters } from "@/lib/db/schema";
 import { HomeCharacterList } from "@/components/HomeCharacterList";
 import { normalizeSheet } from "@/lib/sheet";
 import { characterCardStatus } from "@/lib/characterCardStatus";
 import { HomeGlossarySearch } from "@/components/HomeGlossarySearch";
 import { HomeGeneralEvents } from "@/components/HomeGeneralEvents";
-import { getHomeGeneralHistory } from "@/app/actions";
+import { getHomeCreatures, getHomeGeneralHistory } from "@/app/actions";
 
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const [list, creatureList, eventEntries] = await Promise.all([
     db.select({ id: characters.id, name: characters.name, data: characters.data }).from(characters).orderBy(asc(characters.name)),
-    db.select({ id: creatures.id, name: creatures.name }).from(creatures).orderBy(asc(creatures.name)),
+    getHomeCreatures(),
     getHomeGeneralHistory(),
   ]);
 
@@ -26,7 +26,7 @@ export default async function Home() {
 
       <section className="flex flex-col gap-3" aria-label="Personaggi e creature">
         <HomeCharacterList initialCards={list.map((character) =>
-          characterCardStatus(character.id, character.name, normalizeSheet(character.data)))} creatures={creatureList} />
+          characterCardStatus(character.id, character.name, normalizeSheet(character.data)))} initialCreatures={creatureList} />
       </section>
 
       <HomeGlossarySearch />

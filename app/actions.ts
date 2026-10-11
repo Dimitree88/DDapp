@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { randomUUID } from "crypto";
 import { asc, desc, eq, sql } from "drizzle-orm";
 import { db } from "@/lib/db";
-import { characterHistory, characters } from "@/lib/db/schema";
+import { characterHistory, characters, creatures } from "@/lib/db/schema";
 import { normalizeSheet, type Sheet } from "@/lib/sheet";
 import { domainErrors } from "@/lib/domain";
 import { coalesceHistoryChanges, diffManualSheet, equipmentAcquisitions, historyTimestampMs, withoutAppuntiChanges, type HistoryChange } from "@/lib/history";
@@ -15,9 +15,11 @@ import { stableJson } from "@/lib/masterView";
 import { characterCardStatus, type CharacterCardStatus } from "@/lib/characterCardStatus";
 import { payCoins } from "@/lib/coins";
 import { searchHomeGlossary, type HomeGlossaryEntry } from "@/lib/homeGlossary";
+import { normalizeCreature } from "@/lib/creature";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 export type HomeGeneralHistoryEntry = HistoryEntry & { characterId: string; characterName: string };
+export type HomeCreatureCard = { id: string; name: string; hpMissing: number; conditions: string[] };
 export type BundleReceipt = { name: string };
 
 export type CharacterLiveFields = Pick<Sheet, "puntiFerita" | "ispirazioneEroica" | "puntiEsperienza"> & {
@@ -36,6 +38,20 @@ export async function getHomeCharacterCards(): Promise<CharacterCardStatus[]> {
   const rows = await db.select({ id: characters.id, name: characters.name, data: characters.data })
     .from(characters).orderBy(asc(characters.name));
   return rows.map((row) => characterCardStatus(row.id, row.name, normalizeSheet(row.data)));
+}
+
+export async function getHomeCreatures(): Promise<HomeCreatureCard[]> {
+  const rows = await db.select({ id: creatures.id, name: creatures.name, data: creatures.data })
+    .from(creatures).orderBy(asc(creatures.name));
+  return rows.map((row) => {
+    const data = normalizeCreature(row.data);
+    return {
+      id: row.id,
+      name: row.name,
+      hpMissing: Math.max(0, data.hitPointsMax - data.hitPointsCurrent),
+      conditions: (data.conditions ?? []).map((condition) => condition.nome),
+    };
+  });
 }
 
 export async function getHomeGeneralHistory(): Promise<HomeGeneralHistoryEntry[]> {
