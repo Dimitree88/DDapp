@@ -35,7 +35,7 @@ export function HomeCharacterList({ initialCards }: { initialCards: CharacterCar
   }, []);
 
   if (!cards.length) return <p className="rounded-xl border border-line bg-card/60 px-4 py-6 text-center text-sm text-ink-soft">Nessun personaggio presente.</p>;
-  return <div className="flex flex-col gap-3">
+  return <div className="grid grid-cols-2 gap-3">
     {cards.map((card) => <CharacterCard key={card.id} {...card} />)}
   </div>;
 }
