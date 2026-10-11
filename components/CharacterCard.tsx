@@ -209,8 +209,9 @@ export function CharacterCard({
               <span className="text-accent" aria-hidden>{revealed ? "" : "›"}</span>
             </span>
           </div>
-          <div className="mt-1" role="img" aria-label={`Punti ferita: ${hpCurrent ?? "non registrati"}${hpMax !== null ? ` su ${hpMax}` : ""}`}>
+          <div className="relative mt-1" role="img" aria-label={`Punti ferita: ${hpCurrent ?? "non registrati"}${hpMax !== null ? ` su ${hpMax}` : ""}`}>
             <HpBar current={hpCurrent} max={hpMax} temp={hpTemp} />
+            <span aria-hidden className="pointer-events-none absolute inset-0 flex items-center justify-center text-[9px] font-bold leading-none text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.95)]">{hpCurrent ?? "—"}</span>
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             {coins.map((coin) => <button key={coin.key} type="button" title={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}
