@@ -40,7 +40,7 @@ export default async function Home() {
       </section>
 
       <Link href="/master/eventi" className="mt-6 flex min-h-14 items-center justify-between rounded-xl border border-line bg-card/70 px-4 text-base font-semibold text-ink shadow-sm active:bg-card">
-        Storico eventi completo <span className="text-accent" aria-hidden>›</span>
+        Eventi <span className="text-accent" aria-hidden>›</span>
       </Link>
     </div>
   );
