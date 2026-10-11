@@ -147,7 +147,7 @@ export function CharacterCard({
     cancelTimer();
     if (wasLong) return; // il long press ha rivelato il cestino: non navigare
     if (revealed) setRevealed(false);
-    else router.push(`/personaggio/${id}#equipaggiamento`);
+    else router.push(`/personaggio/${id}`);
   };
 
   const submitEquipment = async () => {
