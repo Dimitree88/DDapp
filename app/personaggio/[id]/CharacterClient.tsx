@@ -73,6 +73,19 @@ const historyTimeFormatter = new Intl.DateTimeFormat("it-IT", {
 const card = "rounded-xl border border-line bg-card/70 p-3 shadow-sm";
 const grid2 = "grid grid-cols-2 gap-2.5";
 const operationalNote = "mt-1 text-sm text-accent";
+const AUTOSAVE_DEBOUNCE_MS = 700;
+const EQUIPMENT_QUANTITY_DEBOUNCE_MS = 1500;
+
+function onlyEquipmentQuantityChanged(before: Sheet, after: Sheet): boolean {
+  if (before.equipaggiamento.length !== after.equipaggiamento.length) return false;
+  const withoutQuantities = (sheet: Sheet) => JSON.stringify({
+    ...sheet,
+    equipaggiamento: sheet.equipaggiamento.map((item) =>
+      Object.fromEntries(Object.entries(item).filter(([key]) => key !== "quantita"))),
+  });
+  return withoutQuantities(before) === withoutQuantities(after)
+    && before.equipaggiamento.some((item, index) => item.quantita !== after.equipaggiamento[index].quantita);
+}
 
 function FunctionalSummary({ name, sheet, details }: { name: string; sheet: Sheet; details: { summary: string | null; full: string | null } }) {
   if (!details.summary && !details.full) return null;
@@ -403,6 +416,7 @@ export default function CharacterClient({
   const [saveState, setSaveState] = useState<SaveState>("idle");
   const remoteSheetUpdate = useRef(false);
   const firstRun = useRef(true);
+  const lastAutosaveSheet = useRef(sheet);
   const saveChainRef = useRef<Promise<void>>(Promise.resolve());
   const [showHistory, setShowHistory] = useState(false);
   const [payDialogOpen, setPayDialogOpen] = useState(false);
@@ -664,12 +678,16 @@ export default function CharacterClient({
   useEffect(() => {
     if (remoteSheetUpdate.current) {
       remoteSheetUpdate.current = false;
+      lastAutosaveSheet.current = sheet;
       return;
     }
     if (firstRun.current) {
       firstRun.current = false;
+      lastAutosaveSheet.current = sheet;
       return;
     }
+    const previousSheet = lastAutosaveSheet.current;
+    lastAutosaveSheet.current = sheet;
     setSaveState("saving");
     const t = setTimeout(async () => {
       try {
@@ -684,7 +702,7 @@ export default function CharacterClient({
         setSaveState("error");
         window.alert(`Modifica non salvata.\n\n${error instanceof Error ? error.message : String(error)}`);
       }
-    }, 700);
+    }, onlyEquipmentQuantityChanged(previousSheet, sheet) ? EQUIPMENT_QUANTITY_DEBOUNCE_MS : AUTOSAVE_DEBOUNCE_MS);
     return () => clearTimeout(t);
   }, [queueSave, sheet]);
 
