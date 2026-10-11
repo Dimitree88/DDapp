@@ -373,12 +373,13 @@ function ObjectListEditor({ sheet, items, indices, onChange, onBundleReceived }:
     <ModalSheet open={customOpen} onClose={() => setCustomOpen(false)} title="Oggetto personalizzato"
       subtitle="Inserisci i dettagli dell’oggetto. La descrizione è facoltativa."
       footer={<div className="flex gap-2"><button type="button" onClick={() => setCustomOpen(false)} className="min-h-11 flex-1 rounded-lg border border-line px-4 text-sm font-semibold text-ink">Annulla</button><button type="button" disabled={!customName.trim() || !Number.isSafeInteger(Number(customQuantity)) || Number(customQuantity) < 1} onClick={() => {
+        if (!customName.trim() || !Number.isSafeInteger(Number(customQuantity)) || Number(customQuantity) < 1) return;
         onChange([...items, { nome: customName.trim(), quantita: String(Number(customQuantity)), dettaglio: customDetail.trim() }]);
         setCustomOpen(false);
       }} className="min-h-11 flex-1 rounded-lg bg-accent px-4 text-sm font-semibold text-on-accent disabled:opacity-40">Aggiungi</button></div>}>
       <div className="flex flex-col gap-3">
         <label className="flex flex-col gap-1 text-sm font-medium text-ink">Nome
-          <input autoFocus value={customName} onChange={(event) => setCustomName(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
+          <input autoFocus required value={customName} onChange={(event) => setCustomName(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />
         </label>
         <label className="flex flex-col gap-1 text-sm font-medium text-ink">Quantità
           <input type="number" min="1" step="1" inputMode="numeric" value={customQuantity} onChange={(event) => setCustomQuantity(event.target.value)} className="min-h-11 rounded-lg border border-line bg-parchment px-3 text-base text-ink" />

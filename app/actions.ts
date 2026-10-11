@@ -89,6 +89,9 @@ export async function saveSheet(
 ): Promise<{ ok: boolean; error?: string }> {
   const cleanName = name.trim() || "Senza nome";
   let normalized = normalizeSheet(sheet);
+  if (normalized.equipaggiamento.some((item) => !item.nome.trim())) {
+    return { ok: false, error: "Ogni oggetto dell'equipaggiamento deve avere un nome." };
+  }
   const invalid = domainErrors(normalized);
   if (invalid.length) return { ok: false, error: `Valori fuori catalogo: ${invalid.join("; ")}` };
   const result = await db.transaction(async (tx) => {
