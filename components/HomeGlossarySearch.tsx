@@ -1,15 +1,26 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { searchHomeGlossaryEntries } from "@/app/actions";
 import { Button, Sheet, TextInput } from "@/components/ui";
 import type { HomeGlossaryEntry } from "@/lib/homeGlossary";
 
 export function HomeGlossarySearch() {
+  const searchRef = useRef<HTMLElement>(null);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<HomeGlossaryEntry[]>([]);
   const [selected, setSelected] = useState<HomeGlossaryEntry | null>(null);
   const [searching, setSearching] = useState(false);
+
+  useEffect(() => {
+    const handleOutsidePointer = (event: PointerEvent) => {
+      if (searchRef.current?.contains(event.target as Node)) return;
+      setQuery("");
+      setResults([]);
+    };
+    document.addEventListener("pointerdown", handleOutsidePointer);
+    return () => document.removeEventListener("pointerdown", handleOutsidePointer);
+  }, []);
 
   useEffect(() => {
     const value = query.trim();
@@ -34,10 +45,9 @@ export function HomeGlossarySearch() {
     };
   }, [query]);
 
-  return <section className="mt-6 flex flex-col gap-2" aria-label="Cerca nel glossario">
-    <label htmlFor="home-glossary-search" className="text-sm font-bold text-heading">Cerca nel glossario</label>
+  return <section ref={searchRef} className="mt-6 flex flex-col gap-2" aria-label="Ricerca nel glossario">
     <TextInput id="home-glossary-search" value={query} onChange={(event) => setQuery(event.target.value)}
-      placeholder="Nemico Prescelto, Dardo di fuoco, Faretra…" autoComplete="off" role="combobox"
+      placeholder="Cerca nel glossario…" aria-label="Cerca nel glossario" autoComplete="off" role="combobox"
       aria-expanded={results.length > 0} aria-controls="home-glossary-results" />
     {query.trim().length >= 2 && <div id="home-glossary-results" role="listbox" aria-label="Risultati del glossario"
       className="-mt-1 overflow-hidden rounded-xl border border-line bg-card shadow-sm">
