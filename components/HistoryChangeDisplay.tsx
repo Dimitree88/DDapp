@@ -13,6 +13,12 @@ const coinNames: Record<string, string> = {
 };
 
 export function HistoryChangeDisplay({ change }: { change: HistoryChange }) {
+  const isHitPointChange = /^Punti ferita$/i.test(change.field);
+  const beforeHp = Number(change.before);
+  const afterHp = Number(change.after);
+  const hpDirection = isHitPointChange && Number.isFinite(beforeHp) && Number.isFinite(afterHp)
+    ? afterHp < beforeHp ? "down" : afterHp > beforeHp ? "up" : null
+    : null;
   const match = /^Monete\s*·\s*(Rame|Argento|Electrum|Oro|Platino)$/i.exec(change.field);
   if (match) {
     const key = match[1].toLocaleLowerCase("it");
@@ -23,5 +29,11 @@ export function HistoryChangeDisplay({ change }: { change: HistoryChange }) {
     </span>;
   }
 
-  return <><span className="font-semibold">{change.field}</span>{"  "}<span>{formatHistoryValue(change.before)} → {formatHistoryValue(change.after)}</span></>;
+  return <><span className="font-semibold">{change.field}</span>{"  "}<span>
+    {formatHistoryValue(change.before)} → {formatHistoryValue(change.after)}
+    {hpDirection && <span role="img" aria-label={hpDirection === "down" ? "PF diminuiti" : "PF aumentati"}
+      className={`ml-1 inline-flex size-5 items-center justify-center rounded-full align-middle text-xs font-bold leading-none text-white ${hpDirection === "down" ? "bg-danger" : "bg-heal"}`}>
+      {hpDirection === "down" ? "↓" : "↑"}
+    </span>}
+  </span></>;
 }
