@@ -3,12 +3,13 @@ import Link from "next/link";
 import { db } from "@/lib/db";
 import { characters, creatures } from "@/lib/db/schema";
 import { CharacterCard } from "@/components/CharacterCard";
+import { normalizeSheet } from "@/lib/sheet";
 
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const [list, creatureList] = await Promise.all([
-    db.select({ id: characters.id, name: characters.name }).from(characters).orderBy(asc(characters.name)),
+    db.select({ id: characters.id, name: characters.name, data: characters.data }).from(characters).orderBy(asc(characters.name)),
     db.select({ id: creatures.id, name: creatures.name }).from(creatures).orderBy(asc(creatures.name)),
   ]);
 
@@ -26,13 +27,25 @@ export default async function Home() {
           </p>
         )}
 
-        {list.map((c) => (
-          <CharacterCard
-            key={c.id}
-            id={c.id}
-            name={c.name}
-          />
-        ))}
+        {list.map((c) => {
+          const sheet = normalizeSheet(c.data);
+          const currentHp = Number(sheet.puntiFerita);
+          const maxHp = Number(sheet.puntiFeritaMax);
+          const hpMissing = Number.isFinite(currentHp) && Number.isFinite(maxHp) && maxHp > currentHp
+            ? maxHp - currentHp : 0;
+          const conditions = [
+            ...(sheet.condizioni ?? []).map((condition) => condition.nome),
+            ...(sheet.indebolimento ? [`Indebolimento ${sheet.indebolimento}`] : []),
+          ];
+          const coins = ([
+            ["rame", "Rame"], ["argento", "Argento"], ["electrum", "Electrum"], ["oro", "Oro"], ["platino", "Platino"],
+          ] as const).flatMap(([key, label]) => {
+            const amount = Number(sheet.monete[key] || 0);
+            return Number.isSafeInteger(amount) && amount > 0 ? [{ key, label, amount: String(amount) }] : [];
+          });
+          return <CharacterCard key={c.id} id={c.id} name={c.name} hpMissing={hpMissing}
+            conditions={conditions} inspiration={sheet.ispirazioneEroica} coins={coins} />;
+        })}
       </section>
 
       <section className="mt-6 flex flex-col gap-3" aria-labelledby="creatures-title">
