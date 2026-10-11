@@ -6,13 +6,16 @@ import { HomeCharacterList } from "@/components/HomeCharacterList";
 import { normalizeSheet } from "@/lib/sheet";
 import { characterCardStatus } from "@/lib/characterCardStatus";
 import { HomeGlossarySearch } from "@/components/HomeGlossarySearch";
+import { HomeGeneralEvents } from "@/components/HomeGeneralEvents";
+import { getHomeGeneralHistory } from "@/app/actions";
 
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const [list, creatureList] = await Promise.all([
+  const [list, creatureList, eventEntries] = await Promise.all([
     db.select({ id: characters.id, name: characters.name, data: characters.data }).from(characters).orderBy(asc(characters.name)),
     db.select({ id: creatures.id, name: creatures.name }).from(creatures).orderBy(asc(creatures.name)),
+    getHomeGeneralHistory(),
   ]);
 
   return (
@@ -26,11 +29,8 @@ export default async function Home() {
           characterCardStatus(character.id, character.name, normalizeSheet(character.data)))} creatures={creatureList} />
       </section>
 
-      <Link href="/master/eventi" className="mt-6 flex min-h-14 items-center justify-between rounded-xl border border-line bg-card/70 px-4 text-base font-semibold text-ink shadow-sm active:bg-card">
-        Eventi <span className="text-accent" aria-hidden>›</span>
-      </Link>
-
       <HomeGlossarySearch />
+      <HomeGeneralEvents initialEntries={eventEntries} />
     </div>
   );
 }

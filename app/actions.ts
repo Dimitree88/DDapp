@@ -17,6 +17,7 @@ import { payCoins } from "@/lib/coins";
 import { searchHomeGlossary, type HomeGlossaryEntry } from "@/lib/homeGlossary";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
+export type HomeGeneralHistoryEntry = HistoryEntry & { characterId: string; characterName: string };
 export type BundleReceipt = { name: string };
 
 export type CharacterLiveFields = Pick<Sheet, "puntiFerita" | "ispirazioneEroica" | "puntiEsperienza"> & {
@@ -35,6 +36,30 @@ export async function getHomeCharacterCards(): Promise<CharacterCardStatus[]> {
   const rows = await db.select({ id: characters.id, name: characters.name, data: characters.data })
     .from(characters).orderBy(asc(characters.name));
   return rows.map((row) => characterCardStatus(row.id, row.name, normalizeSheet(row.data)));
+}
+
+export async function getHomeGeneralHistory(): Promise<HomeGeneralHistoryEntry[]> {
+  const rows = await db.select({
+    id: characterHistory.id,
+    characterId: characters.id,
+    characterName: characters.name,
+    occurredAt: sql<number>`${characterHistory.occurredAt}`,
+    changes: characterHistory.changes,
+  }).from(characterHistory)
+    .innerJoin(characters, eq(characterHistory.characterId, characters.id))
+    .orderBy(desc(characterHistory.occurredAt), desc(characterHistory.id))
+    .limit(50);
+  return rows.flatMap((row) => {
+    const changes = withoutAppuntiChanges(row.changes);
+    if (!changes.length) return [];
+    return [{
+      id: row.id,
+      characterId: row.characterId,
+      characterName: row.characterName,
+      occurredAt: new Date(historyTimestampMs(Number(row.occurredAt))).toISOString(),
+      changes,
+    }];
+  });
 }
 
 export async function searchHomeGlossaryEntries(query: string): Promise<HomeGlossaryEntry[]> {
