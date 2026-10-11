@@ -60,6 +60,7 @@ export function SessionView({ data }: { data: MasterData }) {
           <p className="truncate text-base font-bold leading-tight text-ink">{session.name}</p>
           <p className="truncate text-xs text-ink-soft">{dateLabel(session.localDate)} · {data.party.length} PG · {data.foes.length} creature</p>
         </div>
+        <Link href="/master/suoni" aria-label="Suoni Orsufo" className="flex min-h-11 shrink-0 items-center rounded-xl border border-line bg-card px-3 text-sm font-semibold text-ink active:bg-surface">♫</Link>
         <PendingDot />
       </header>
       <main className="flex-1 px-4 pb-[calc(env(safe-area-inset-bottom)+84px)] pt-3">

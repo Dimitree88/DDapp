@@ -36,7 +36,8 @@ function Lobby({ data }: { data: MasterData }) {
     <header className="flex items-center gap-2">
       <Link href="/" aria-label="Torna alla home" className="flex size-11 items-center justify-center rounded-full text-xl text-ink-soft active:bg-card">⌂</Link>
       <h1 className="text-xl font-bold text-heading">Master</h1>
-      <Link href="/master/eventi" className="ml-auto rounded-xl border border-line bg-card px-3 py-2 text-sm font-semibold text-ink active:bg-surface">Eventi personaggi</Link>
+      <Link href="/master/suoni" className="ml-auto rounded-xl border border-line bg-card px-3 py-2 text-sm font-semibold text-ink active:bg-surface">Suoni Orsufo</Link>
+      <Link href="/master/eventi" className="rounded-xl border border-line bg-card px-3 py-2 text-sm font-semibold text-ink active:bg-surface">Eventi personaggi</Link>
     </header>
     <button type="button" onClick={() => setCreating(true)} className="flex min-h-20 items-center justify-between rounded-3xl bg-accent px-5 text-left text-on-accent shadow-md active:bg-accent-strong">
       <span><span className="block text-xl font-bold">Nuova Sessione</span><span className="text-sm opacity-85">Scegli i partecipanti e inizia a giocare</span></span>
