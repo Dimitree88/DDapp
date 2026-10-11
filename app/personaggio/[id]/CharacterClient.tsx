@@ -76,6 +76,10 @@ const grid2 = "grid grid-cols-2 gap-2.5";
 const operationalNote = "mt-1 text-sm text-accent";
 const AUTOSAVE_DEBOUNCE_MS = 700;
 const EQUIPMENT_QUANTITY_DEBOUNCE_MS = 1500;
+const CHARACTER_PAGE_ORDER = [
+  "Stato & Identità", "Caratteristiche", "Abilità", "Armi", "Equipaggiamento",
+  "Monete", "Incantesimi", "Capacità", "Appunti", "Storia",
+];
 
 function onlyEquipmentQuantityChanged(before: Sheet, after: Sheet): boolean {
   if (before.equipaggiamento.length !== after.equipaggiamento.length) return false;
@@ -1265,19 +1269,16 @@ export default function CharacterClient({
     },
   ];
 
-  const pageOrder = [
-    "Stato & Identità",
-    "Caratteristiche",
-    "Abilità",
-    "Armi",
-    "Equipaggiamento",
-    "Monete",
-    "Incantesimi",
-    "Capacità",
-    "Appunti",
-    "Storia",
-  ];
-  const pages = pageOrder.map((t) => pageDefs.find((p) => p.title === t)!);
+  const pages = CHARACTER_PAGE_ORDER.map((title) => pageDefs.find((page) => page.title === title)!);
+  useEffect(() => {
+    if (!emblaApi) return;
+    const target = window.location.hash.slice(1);
+    const pageTitle = target === "monete" ? "Monete" : target === "equipaggiamento" ? "Equipaggiamento" : null;
+    if (!pageTitle) return;
+    const pageIndex = CHARACTER_PAGE_ORDER.indexOf(pageTitle);
+    emblaApi.scrollTo(pageIndex, true);
+    setShowHub(false);
+  }, [emblaApi]);
   const summarySlots = spellSlots(sheet).filter((slot) => slot.maximum > 0);
   const summarySlotsAvailable = summarySlots.reduce((total, slot) => total + slot.maximum - slot.spent, 0);
   const summarySlotsMaximum = summarySlots.reduce((total, slot) => total + slot.maximum, 0);

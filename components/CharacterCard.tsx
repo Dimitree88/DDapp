@@ -53,7 +53,7 @@ export function CharacterCard({
     cancelTimer();
     if (wasLong) return; // il long press ha rivelato il cestino: non navigare
     if (revealed) setRevealed(false);
-    else router.push(`/personaggio/${id}`);
+    else router.push(`/personaggio/${id}#equipaggiamento`);
   };
 
   return (
@@ -84,11 +84,14 @@ export function CharacterCard({
             </span>
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
-            {coins.map((coin) => <span key={coin.key} title={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}
+            {coins.map((coin) => <button key={coin.key} type="button" title={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}
+              onPointerDown={(event) => event.stopPropagation()}
+              onPointerUp={(event) => event.stopPropagation()}
+              onClick={(event) => { event.stopPropagation(); router.push(`/personaggio/${id}#monete`); }}
               aria-label={`${coin.amount} monete di ${coin.label.toLocaleLowerCase("it")}`}
               className={`flex size-8 items-center justify-center rounded-full border text-[10px] font-bold tabular-nums ${coinColors[coin.key]}`}>
               {coin.amount}
-            </span>)}
+            </button>)}
           </div>
         </div>
       </div>
