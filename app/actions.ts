@@ -14,6 +14,7 @@ import { gearById, gearByName } from "@/lib/gearCatalog";
 import { stableJson } from "@/lib/masterView";
 import { characterCardStatus, type CharacterCardStatus } from "@/lib/characterCardStatus";
 import { payCoins } from "@/lib/coins";
+import { searchHomeGlossary, type HomeGlossaryEntry } from "@/lib/homeGlossary";
 
 export type HistoryEntry = { id: string; occurredAt: string; changes: HistoryChange[] };
 export type BundleReceipt = { name: string };
@@ -34,6 +35,10 @@ export async function getHomeCharacterCards(): Promise<CharacterCardStatus[]> {
   const rows = await db.select({ id: characters.id, name: characters.name, data: characters.data })
     .from(characters).orderBy(asc(characters.name));
   return rows.map((row) => characterCardStatus(row.id, row.name, normalizeSheet(row.data)));
+}
+
+export async function searchHomeGlossaryEntries(query: string): Promise<HomeGlossaryEntry[]> {
+  return searchHomeGlossary(query.slice(0, 100));
 }
 
 export async function getCharacterLiveFields(id: string): Promise<CharacterLiveFields | null> {
